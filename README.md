@@ -1,11 +1,11 @@
 ## Cockatrice website
 
-http://cockatrice.github.io
+https://cockatrice.github.io
 <br>
 <br>
-If you want to share feedback or suggestions regarding our site, feel free to contact us or ticket an issue!
+If you want to share feedback or suggestions regarding our site, feel free to contact us or ticket a [new issue](https://github.com/Cockatrice/cockatrice.github.io/issues/new)!
 <br>
 <br>
 <br>
 <br>
-<sup>Hosted on GitHub Pages &mdash; Minimal Theme by <a href="https://github.com/orderedlist">orderedlist</a><sub>
+<sup>Hosted on GitHub Pages &mdash; based on 'Minimal' theme by <a href="https://github.com/orderedlist">orderedlist</a><sub>
