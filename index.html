@@ -8,6 +8,31 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script>
+	var githubReleasesAPI = "https://api.github.com/repos/Cockatrice/Cockatrice/releases/latest";
+
+$.getJSON(githubReleasesAPI, function (json) {
+    var win64 = ''
+    var macOS = ''
+    var ubuntu = ''
+    for (asset of json.assets) {
+      url = asset.browser_download_url
+      if (url.includes('win64.exe')) {
+        win64 = url
+      }
+      else if (url.includes('osx.dmg')) {
+        macOS = url
+      }
+      else if (url.includes('trusty.deb')) {
+        ubuntu = url
+      }
+    }
+    $('#win64').attr('href', win64);
+    $('#macOS').attr('href', macOS);
+    $('#ubuntu').attr('href', ubuntu);
+});
+	</script>
   </head>
   <body>
     <div class="wrapper">
@@ -18,9 +43,9 @@
         <p align="center"><img src="https://raw.githubusercontent.com/Cockatrice/cockatrice.github.io/master/images/cockatrice_logo.png"></p>
         <br>
         <ul>
-          <li><a target="_blank" href="https://github.com/Cockatrice/Cockatrice/releases/download/2017-04-15-Release-2.3.16/Cockatrice_Thopter_Pie_Network_Revision2_win64.exe">Download <strong>Windows</strong><sub>7+ (64 bit)</sub></a></li>
-          <li><a target="_blank" href="https://github.com/Cockatrice/Cockatrice/releases/download/2017-04-15-Release-2.3.16/Cockatrice_Thopter_Pie_Network_Revision2_osx.dmg">Download <strong>macOS</strong><sub>10.10+</sub></a></li>
-          <li><a target="_blank" href="https://github.com/Cockatrice/Cockatrice/releases/download/2017-04-15-Release-2.3.16/Cockatrice_Thopter_Pie_Network_Revision2_trusty.deb">Download <strong>Ubuntu</strong><sub>14.04</sub></a></li>
+          <li><a target="_blank" id="win64" href="">Download <strong>Windows</strong><sub>7+ (64 bit)</sub></a></li>
+          <li><a target="_blank" id="macOS" href="">Download <strong>macOS</strong><sub>10.10+</sub></a></li>
+          <li><a target="_blank" id="ubuntu" href="">Download <strong>Ubuntu</strong><sub>14.04</sub></a></li>
         </ul>
         <p><small>
         <a target="_blank" href="https://github.com/Cockatrice/Cockatrice/wiki/Compiling-Cockatrice">How to compile your own binaries</a>
