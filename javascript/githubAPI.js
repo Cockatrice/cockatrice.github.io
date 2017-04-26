@@ -1,8 +1,8 @@
 var githubReleasesAPI = "https://api.github.com/repos/Cockatrice/Cockatrice/releases/latest";
 $.getJSON(githubReleasesAPI, function (json) {
-    var win64 = ''
-    var macOS = ''
-    var ubuntu = ''
+    var win64 = 'https://github.com/Cockatrice/Cockatrice/releases/latest'
+    var macOS = 'https://github.com/Cockatrice/Cockatrice/releases/latest'
+    var ubuntu = 'https://github.com/Cockatrice/Cockatrice/releases/latest'
     for (asset of json.assets) {
       url = asset.browser_download_url
       if (url.includes('win64.exe')) {
