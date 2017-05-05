@@ -5,7 +5,7 @@ $.getJSON(githubReleasesAPI, function (json) {
     var ubuntu = 'https://github.com/Cockatrice/Cockatrice/releases/latest'
     for (asset of json.assets) {
       url = asset.browser_download_url
-      if (ur.includes('win64.exe') || url.includes('x86_64_qt5.exe')) {
+      if (url.includes('win64.exe') || url.includes('x86_64_qt5.exe')) {
         win64 = url
       }
       else if (url.includes('.dmg')) {
