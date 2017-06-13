@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+  
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -9,10 +10,22 @@
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
     <script src="javascript/githubAPI.js"></script>
+    <script src="javascript/scale.fix.js"></script>
   </head>
+  
   <body>
     <div class="wrapper">
+      
+<!-- embedded gitter chat (sidecar.gitter.im) -->
+      <script>
+        ((window.gitter = {}).chat = {}).options = {
+        room: 'Cockatrice/Cockatrice'
+        };
+      </script>
+      
+<!-- fixed left part of the page with downloads -->
       <header>
         <h1>Cockatrice</h1>
         <p>A cross-platform virtual tabletop software for multiplayer card games</p>
@@ -27,65 +40,73 @@
         <p>
           <small><a target="_blank" href="https://github.com/Cockatrice/Cockatrice/wiki/Compiling-Cockatrice">How to compile your own binaries</a></small>
         </p>
-      </header>
+       </header>
+
+<!-- scrollable right part of the page -->
       <section>
-<p>Cockatrice is an open-source multiplatform supported program for playing tabletop card games over a network. The program's server design prevents any kind of client modifications to gain an unfair advantage in a game.<br>
-  The client also has a built in single-player mode where you can brew without being connected to a server.<br>
-  <br>
-  <br>
-  <!-- 'Getting Started' paragraph --></p>
-<h2><a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Started</h2>
-<hr>
-<ol>
-  <li>Download an installation file from the sidebar on the left</li><br>
-  <li>Install 'Cockatrice' the same as any other application. <br>(on macOS you need to drag 'Oracle' to your Applications folder too)</li><br>
-  <li>Open 'Cockatrice' and run the 'Oracle' tool to create a card database when prompted on first launch</li><br>
-  <li>Build a deck in the client, or import one</li><br>
-  <li>Start playtesting offline or connect to a server</li>
-    <ul>
-      <li><a href="https://github.com/Cockatrice/Cockatrice/wiki/Public-Servers">List of Public Servers</a></li>
-          <small>...contact us to see <b>your public server</b> there!</small>
-    </ul>
-  <b>Enjoy playing your favorite card games!</b>
-</ol>
-<br>
-<br>
-<br>
+<!-- introducing/describing block -->
+        <p>Cockatrice is an open-source multiplatform supported program for playing tabletop card games over a network. The program's server design prevents any kind of client modifications to gain an unfair advantage in a game.<br>
+           The client also has a built in single-player mode where you can brew without being connected to a server.<br>
+        <br>
+        <br>
+  
+<!-- 'Getting Started' paragraph --></p>
+        <h2><a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Started</h2>
+        <hr>
+        <ol>
+          <li>Download an installation file from the sidebar on the left</li><br>
+          <li>Install 'Cockatrice' the same as any other application. <br>(on macOS you need to drag 'Oracle' to your Applications folder too)</li><br>
+          <li>Open 'Cockatrice' and run the 'Oracle' tool to create a card database when prompted on first launch</li><br>
+          <li>Build a deck in the client, or import one</li><br>
+          <li>Start playtesting offline or connect to a server</li>
+            <ul>
+              <li><a href="https://github.com/Cockatrice/Cockatrice/wiki/Public-Servers">List of Public Servers</a></li>
+              <small>...contact us to see <b>your public server</b> there!</small>
+            </ul>
+          <b>Enjoy playing your favorite card games!</b>
+        </ol>
+        <br>
+        <br>
+        <br>
+        
 <!-- 'Get Support' paragraph -->
-<h2><a id="get-support" class="anchor" href="#get-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>Get Support</h2>
-<hr>
-<ul>
-  <li>A lot of useful information can be found on our <a href="https://github.com/Cockatrice/Cockatrice/wiki"><b>official wiki</b></a><br>
-    (→ <a href="https://github.com/Cockatrice/Cockatrice/wiki/One-minute-game-guide">Quickstart Guide for Gaming</a>, <a href="https://github.com/Cockatrice/Cockatrice/wiki/Troubleshooting">Troubleshooting</a> & <a href="https://github.com/Cockatrice/Cockatrice/wiki/Frequently-Asked-Questions">FAQ</a>)</li><br>
-  <li>If you encounter any <b>issues</b> or <b>bugs</b>, would like to suggest a <b>feature</b>, or would like to leave <b>feedback</b>, please file these on our <a href="https://github.com/Cockatrice/Cockatrice/issues/new">GitHub</a> project<br>
-    (→ <a href="https://github.com/Cockatrice/Cockatrice/wiki/How-to-Create-a-GitHub-Ticket">How to create a GitHub ticket</a>)</li><br>
-  <li>If you have a <b>question</b> regarding a <b>specific server</b>, please contact that server's administrator and/or moderators for support as we have no control over how servers operate</li><br>
-  <li><a href="https://github.com/Cockatrice/Cockatrice/wiki/Setting-up-Servatrice">Would you like to <b>host</b> your own Servatrice <b>server</b>? Click here!</a></li><br>
-  <br>
-  Feel free to <b>contact</b> and <b>connect</b> with us on <a href="https://gitter.im/Cockatrice/Cockatrice">Gitter</a> and <a href="https://reddit.com/r/cockatrice">Reddit</a>!<br>
-</ul>
-<br>
-<br>
-<br>
+        <h2><a id="get-support" class="anchor" href="#get-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>Get Support</h2>
+        <hr>
+        <ul>
+          <li>A lot of useful information can be found on our <a href="https://github.com/Cockatrice/Cockatrice/wiki"><b>official wiki</b></a><br>
+            (→ <a href="https://github.com/Cockatrice/Cockatrice/wiki/One-minute-game-guide">Quickstart Guide for Gaming</a>, <a href="https://github.com/Cockatrice/Cockatrice/wiki/Troubleshooting">Troubleshooting</a> & <a href="https://github.com/Cockatrice/Cockatrice/wiki/Frequently-Asked-Questions">FAQ</a>)</li><br>
+          <li>If you encounter any <b>issues</b> or <b>bugs</b>, would like to suggest a <b>feature</b>, or would like to leave <b>feedback</b>, please file these on our <a href="https://github.com/Cockatrice/Cockatrice/issues/new">GitHub</a> project<br>
+            (→ <a href="https://github.com/Cockatrice/Cockatrice/wiki/How-to-Create-a-GitHub-Ticket">How to create a GitHub ticket</a>)</li><br>
+          <li>If you have a <b>question</b> regarding a <b>specific server</b>, please contact that server's administrator and/or moderators for support as we have no control over how servers operate</li><br>
+          <li><a href="https://github.com/Cockatrice/Cockatrice/wiki/Setting-up-Servatrice">Would you like to <b>host</b> your own Servatrice <b>server</b>? Click here!</a></li><br>
+            <br>
+            Feel free to <b>contact</b> and <b>connect</b> with us on <a href="https://gitter.im/Cockatrice/Cockatrice">Gitter</a> and <a href="https://reddit.com/r/cockatrice">Reddit</a>!<br>
+        </ul>
+        <br>
+        <br>
+        <br>
+        
 <!-- 'Get Involved' paragraph -->
-<h2><a id="get-involved" class="anchor" href="#get-involved" aria-hidden="true"><span class="octicon octicon-link"></span></a>Get Involved</h2>
-<hr>
-<ul>
-  <li><a href="https://www.transifex.com/cockatrice/cockatrice/">Help <b>translate</b> Cockatrice!</a></li>
-  <i>Join our translation team on Transifex and easily help translate the app right in your browser</i><br>
-  <br>
-  <li><a href="https://github.com/Cockatrice/Cockatrice">Help with <b>coding</b> and <b>fork</b> our GitHub project!</a></li>
-  <i>Boost our community driven development process - hunt bugs and develop features for your favorite app<br>
-  <br>
-  <i>Many project developers hang around on <a href="https://gitter.im/Cockatrice/Cockatrice"><b> Gitter</b></a> - see you there... :)</i><br>
-  <br><br>
-  <i>This project is written in C++ and is using the Qt5 libraries.</i>
-</ul>
+        <h2><a id="get-involved" class="anchor" href="#get-involved" aria-hidden="true"><span class="octicon octicon-link"></span></a>Get Involved</h2>
+        <hr>
+        <ul>
+          <li><a href="https://www.transifex.com/cockatrice/cockatrice/">Help <b>translate</b> Cockatrice!</a></li>
+            <i>Join our translation team on Transifex and easily help translate the app right in your browser</i><br>
+            <br>
+          <li><a href="https://github.com/Cockatrice/Cockatrice">Help with <b>coding</b> and <b>fork</b> our GitHub project!</a></li>
+            <i>Boost our community driven development process - hunt bugs and develop features for your favorite app<br>
+            <br>
+            <i>Many project developers hang around on <a href="https://gitter.im/Cockatrice/Cockatrice"><b> Gitter</b></a> - see you there... :)</i><br>
+            <br><br>
+            <i>This project is written in C++ and is using the Qt5 libraries.</i>
+        </ul>
+  
       </section>
+        
+      <!-- empty footer -->
       <footer>
-        <!-- no footer -->
       </footer>
+        
     </div>
-    <script src="javascript/scale.fix.js"></script>
   </body>
 </html>
