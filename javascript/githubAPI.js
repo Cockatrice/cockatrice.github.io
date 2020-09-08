@@ -13,7 +13,7 @@ $.getJSON(githubReleasesAPI, function (json) {
       if (url.includes('win64.exe')) {
         win64 = url
       }
-      else if (url.includes('macos10.14')) {
+      else if (url.includes('macos10.15')) {
         macOS_latest = url
       }
       else if (url.includes('macos10.13')) {
