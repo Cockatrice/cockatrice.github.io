@@ -1,4 +1,5 @@
 var githubReleasesAPI = "https://api.github.com/repos/Cockatrice/Cockatrice/releases/latest";
+
 $.getJSON(githubReleasesAPI, function (json) {
     var win64 = 'https://github.com/Cockatrice/Cockatrice/releases/latest'
     var macOS_latest = 'https://github.com/Cockatrice/Cockatrice/releases/latest'
@@ -13,10 +14,10 @@ $.getJSON(githubReleasesAPI, function (json) {
       if (url.includes('win64.exe')) {
         win64 = url
       }
-      else if (url.includes('macos10.15')) {
+      else if (url.includes('macOS-10.15')) {
         macOS_latest = url
       }
-      else if (url.includes('macos10.13')) {
+      else if (url.includes('macOS-10.14')) {
         macOS_legacy = url
       }
       else if (url.includes('Ubuntu')) {
