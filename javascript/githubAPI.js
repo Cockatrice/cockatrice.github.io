@@ -14,13 +14,13 @@ $.getJSON(githubReleasesAPI, function (json) {
       if (url.includes('win64.exe')) {
         win64 = url
       }
-      else if (url.includes('macOS-10.15')) {
+      else if (url.includes('macOS-11.0')) {
         macOS_latest = url
       }
       else if (url.includes('macOS-10.14')) {
         macOS_legacy = url
       }
-      else if (url.includes('Ubuntu')) {
+      else if (url.includes('UbuntuFocal')) { // focal is the latest lts (20.04)
         ubuntu = url
       }
       else if (url.includes("Debian")) {
