@@ -20,7 +20,7 @@ $.getJSON(githubReleasesAPI, function (json) {
       else if (url.includes('macOS-10.14')) {
         macOS_legacy = url
       }
-      else if (url.includes('UbuntuFocal')) { // focal is the latest lts (20.04)
+      else if (url.includes('UbuntuJammy')) { // focal is the latest lts (20.04)
         ubuntu = url
       }
       else if (url.includes("Debian")) {
