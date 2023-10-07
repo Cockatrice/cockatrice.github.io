@@ -11,16 +11,16 @@ $.getJSON(githubReleasesAPI, function (json) {
     for (asset of json.assets) {
       url = asset.browser_download_url
       console.log(url);
-      if (url.includes('win64.exe')) {
+      if (url.includes('Win7')) {
         win64 = url
       }
-      else if (url.includes('macOS-11.0')) {
+      else if (url.includes('macOS-11')) {
         macOS_latest = url
       }
-      else if (url.includes('macOS-10.14')) {
+      else if (url.includes('macOS-10')) {
         macOS_legacy = url
       }
-      else if (url.includes('UbuntuJammy')) { // focal is the latest lts (20.04)
+      else if (url.includes('Ubuntu')) {
         ubuntu = url
       }
       else if (url.includes("Debian")) {
