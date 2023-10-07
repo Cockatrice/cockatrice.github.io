@@ -20,7 +20,7 @@ $.getJSON(githubReleasesAPI, function (json) {
       else if (url.includes('macOS-10')) {
         macOS_legacy = url
       }
-      else if (url.includes('Ubuntu')) {
+      else if (url.includes('UbuntuJammy')) {   // Put the latest LTS release here
         ubuntu = url
       }
       else if (url.includes("Debian")) {
