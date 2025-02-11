@@ -11,23 +11,22 @@ $.getJSON(githubReleasesAPI, function (json) {
     for (asset of json.assets) {
       url = asset.browser_download_url
       console.log(url);
-      if (url.includes('Win7')) {
+      if (url.includes('Win10')) {
         win64 = url
       }
-      else if (url.includes('macOS-11')) {
+      else if (url.includes('macOS15')) {
         macOS_latest = url
       }
-      else if (url.includes('macOS-10')) {
+      else if (url.includes('macOS14')) {
         macOS_legacy = url
       }
-      else if (url.includes('UbuntuJammy')) {   // Put the latest LTS release here
+      else if (url.includes('Ubuntu24')) {
         ubuntu = url
       }
       else if (url.includes("Debian")) {
         debian = url
       }
       else if (url.includes("Fedora")) {
-        console.log("FEDORA");
         fedora = url
       }
     }
