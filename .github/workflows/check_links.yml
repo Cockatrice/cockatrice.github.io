@@ -29,4 +29,5 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
+          args: --no-progress --require-https --include-fragments --exclude www.reddit.com --base-url https://cockatrice.github.io -- . https://cockatrice.github.io
           jobSummary: true
