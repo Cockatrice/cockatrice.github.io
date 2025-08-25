@@ -18,7 +18,7 @@ $.getJSON(githubReleasesAPI, function (json) {
         else if (url.includes('macOS15')) {
             macOS_latest = url;
         }
-        else if (url.includes('macOS14')) {
+        else if (url.includes('macOS13')) {
             macOS_legacy = url;
         }
         else if (url.includes('Ubuntu24')) {
