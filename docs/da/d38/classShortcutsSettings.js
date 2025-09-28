@@ -1,0 +1,28 @@
+var classShortcutsSettings =
+[
+    [ "ShortcutsSettings", "da/d38/classShortcutsSettings.html#a347b558dab38e9c6c9237b0b18679d6d", null ],
+    [ "clearAllShortcuts", "da/d38/classShortcutsSettings.html#a881edf3897bf77b8eacdb8f4291f6064", null ],
+    [ "findOverlaps", "da/d38/classShortcutsSettings.html#a96bfd8c0bb953ad0e108b99784e73097", null ],
+    [ "getAllShortcutKeys", "da/d38/classShortcutsSettings.html#a80192f0ab0cd1b0d692a1516f9ed670e", null ],
+    [ "getDefaultShortcut", "da/d38/classShortcutsSettings.html#a2279da804c5a0df650b45bb8c0e8b1f3", null ],
+    [ "getDefaultShortcutString", "da/d38/classShortcutsSettings.html#abbe7e3a25aae288a87414659e9d05f28", null ],
+    [ "getShortcut", "da/d38/classShortcutsSettings.html#ae27e8cd5214d03888525d12cb6d04ae6", null ],
+    [ "getShortcutFriendlyName", "da/d38/classShortcutsSettings.html#a534c08f9f02aff91d0230f50097c6846", null ],
+    [ "getShortcutString", "da/d38/classShortcutsSettings.html#acad77c252f2fe28e505d64a28e92ad91", null ],
+    [ "getSingleShortcut", "da/d38/classShortcutsSettings.html#a8ad8786a88659b2c9680c8e67f5774bf", null ],
+    [ "isKeyAllowed", "da/d38/classShortcutsSettings.html#a7901c2e8daa99f4f7b389e7213afa3c3", null ],
+    [ "isValid", "da/d38/classShortcutsSettings.html#a3f15dfd836e39369e43150a63a9237f6", null ],
+    [ "migrateShortcuts", "da/d38/classShortcutsSettings.html#a0efafb34bc7e089b3ffa5b066703790e", null ],
+    [ "parseSequenceString", "da/d38/classShortcutsSettings.html#af9091c290dbfa46a15b1eb8b07c8688b", null ],
+    [ "resetAllShortcuts", "da/d38/classShortcutsSettings.html#a04a488dd26842a971e480657d55dff5d", null ],
+    [ "setShortcuts", "da/d38/classShortcutsSettings.html#a426587b9980545b39b35a2f82cb664a7", null ],
+    [ "setShortcuts", "da/d38/classShortcutsSettings.html#a9ce2927de52246500b7e57fe1cda1ee8", null ],
+    [ "setShortcuts", "da/d38/classShortcutsSettings.html#add5e4da2f17fbb0c49be7bbd91ce71a1", null ],
+    [ "shortCutChanged", "da/d38/classShortcutsSettings.html#a03bd72db1be7bcc022cb633a203b970f", null ],
+    [ "stringifySequence", "da/d38/classShortcutsSettings.html#ae5c5f588a4b3cc6d7513398d6c454c80", null ],
+    [ "custom", "da/d38/classShortcutsSettings.html#aaa40eb32a0a7d1a25fe62034c097cff3", null ],
+    [ "defaultShortCuts", "da/d38/classShortcutsSettings.html#ac38113f14235e7692817eb9c33b76fec", null ],
+    [ "sep", "da/d38/classShortcutsSettings.html#affde8055fe06494f41635c4151b0fa51", null ],
+    [ "settingsFilePath", "da/d38/classShortcutsSettings.html#a4600b4083fd966377cc8d314373a3ffc", null ],
+    [ "shortCuts", "da/d38/classShortcutsSettings.html#a9bb64d362baa0ce945c3e029effd1083", null ]
+];

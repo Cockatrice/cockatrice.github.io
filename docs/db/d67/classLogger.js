@@ -1,0 +1,25 @@
+var classLogger =
+[
+    [ "Logger", "db/d67/classLogger.html#abc41bfb031d896170c7675fa96a6b30c", null ],
+    [ "~Logger", "db/d67/classLogger.html#afee741267f0de25da55208a6424eb84f", null ],
+    [ "Logger", "db/d67/classLogger.html#a21340fb1037a0f71c0dc659ea33678a4", null ],
+    [ "closeLogfileSession", "db/d67/classLogger.html#af1a8490c7d7652060c17347ded72e910", null ],
+    [ "getClientInstallInfo", "db/d67/classLogger.html#a43ffb2434b9a620beb8935fa78d648a1", null ],
+    [ "getClientOperatingSystem", "db/d67/classLogger.html#a5004dbdc25706c7851da8ffbe947a752", null ],
+    [ "getClientVersion", "db/d67/classLogger.html#a49a80a6a8b5997d9f376593bd5c37512", null ],
+    [ "getInstance", "db/d67/classLogger.html#a56defd0fd628ce6263d25d02296e48ce", null ],
+    [ "getLogBuffer", "db/d67/classLogger.html#acfa7b3fb8d0550befb8bcd5308d7675a", null ],
+    [ "getSystemArchitecture", "db/d67/classLogger.html#a6aa0432bffbc2abff42ba31de9b7fba4", null ],
+    [ "getSystemLocale", "db/d67/classLogger.html#aed940a5ab00fdb60a5d6bee83db04524", null ],
+    [ "internalLog", "db/d67/classLogger.html#a221d6e5def01df8d55514cd3afaab342", null ],
+    [ "log", "db/d67/classLogger.html#ac3f2266dafb7b86937812df5a0734445", null ],
+    [ "logEntryAdded", "db/d67/classLogger.html#ab324f46dcca8a02672dd4d66c395b9eb", null ],
+    [ "logToFile", "db/d67/classLogger.html#aa194c59c212c64f794631571c5270e3b", null ],
+    [ "openLogfileSession", "db/d67/classLogger.html#abc7d371802ceb2154a5cfb9209a62551", null ],
+    [ "operator=", "db/d67/classLogger.html#aa74312e7edcf3a5bcfd9ccba190b2621", null ],
+    [ "fileHandle", "db/d67/classLogger.html#a1e3fcd8d71fa75bd75ee7eb02eb79de8", null ],
+    [ "fileStream", "db/d67/classLogger.html#ac36eb723b85f7205fb8eb50a006a33b2", null ],
+    [ "logBuffer", "db/d67/classLogger.html#aad38a42954355a3142e0f6fa0c3a44b1", null ],
+    [ "logToFileEnabled", "db/d67/classLogger.html#a68c0d3e95a78e07978f131bd97b3b2d0", null ],
+    [ "mutex", "db/d67/classLogger.html#a724e09b39b88c5a880f2405a260949cb", null ]
+];
