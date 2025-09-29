@@ -1,0 +1,35 @@
+var classVisualDeckStorageQuickSettingsWidget =
+[
+    [ "TooltipType", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a949b930fc50cc62562e915e29184c190", [
+      [ "None", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a949b930fc50cc62562e915e29184c190ae7185a7e19c4c6f3c567ecd88f664c8a", null ],
+      [ "Filepath", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a949b930fc50cc62562e915e29184c190a9c168a972d2b25655bb1eb86cdb184f2", null ]
+    ] ],
+    [ "VisualDeckStorageQuickSettingsWidget", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a47be656a75a8b1f1710a7e9424df1fe4", null ],
+    [ "cardSizeChanged", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a48ac0a4a58f3b93c52169ed5d3ae3b8b", null ],
+    [ "deckPreviewTooltipChanged", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a0405be1733397834fed6492258ca648a", null ],
+    [ "drawUnusedColorIdentitiesChanged", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a4533de051383c4b7257abe5e1ccbcdf6", null ],
+    [ "getCardSize", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a5b8ad4c4fa83185fc190c4c668e1e2c5", null ],
+    [ "getDeckPreviewTooltip", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a81c0c8241e208adbe55eabee242ea025", null ],
+    [ "getDrawUnusedColorIdentities", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a40b5cee43f980b5d2d5690e249b8df79", null ],
+    [ "getShowBannerCardComboBox", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a1d2973a65518195efcc4756bbfc3319e", null ],
+    [ "getShowFolders", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#ac6aa693c4913fffca655147cf57300e8", null ],
+    [ "getShowTagFilter", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a423b00807caba9b26759ee4b3b330311", null ],
+    [ "getShowTagsOnDeckPreviews", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a8dae091edd63491f3242ec39c788319f", null ],
+    [ "getUnusedColorIdentitiesOpacity", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#ac0ef632a4ca280cd052b60fe4519d6a2", null ],
+    [ "retranslateUi", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a41348d9a4dc293b1c6bbcc0efb7c634f", null ],
+    [ "showBannerCardComboBoxChanged", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a6387a3aeaf41034aba47141d222abfe5", null ],
+    [ "showFoldersChanged", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a40c658b713ad8df9570ca0d60311d8ce", null ],
+    [ "showTagFilterChanged", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a8f28e39030c45cdc768b9dc2f2b527b8", null ],
+    [ "showTagsOnDeckPreviewsChanged", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a97b8347a6345f101c0d752d370ca3723", null ],
+    [ "unusedColorIdentitiesOpacityChanged", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a6480a626003d6ee0b48cb747e5d8e028", null ],
+    [ "cardSizeWidget", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a3b33157bf773b818e26ddbfc2a25a38a", null ],
+    [ "deckPreviewTooltipComboBox", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a203e58a49d73e185ac81a174b1bd9f46", null ],
+    [ "deckPreviewTooltipLabel", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a72a47f05c0ef4c41b816e6918cfd3f68", null ],
+    [ "drawUnusedColorIdentitiesCheckBox", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a8e90b1721d4ebfefd95b5d00a62980b3", null ],
+    [ "showBannerCardComboBoxCheckBox", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#afaacba52180ed0f17d4edf0af5d41fd6", null ],
+    [ "showFoldersCheckBox", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a07485238a801c0b01ce6a1583ca912f9", null ],
+    [ "showTagFilterCheckBox", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#ad6a7039e902ad0db3e1eeda9a974b6ad", null ],
+    [ "showTagsOnDeckPreviewsCheckBox", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a8d332a28cd96e6699181eb6b59b1fe45", null ],
+    [ "unusedColorIdentitiesOpacityLabel", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#acd1e9d497e852e6d6b4216502def61e9", null ],
+    [ "unusedColorIdentitiesOpacitySpinBox", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#ab685794c27b24974c22f91cbb238f9d0", null ]
+];

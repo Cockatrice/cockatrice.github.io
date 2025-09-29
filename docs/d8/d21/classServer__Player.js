@@ -1,0 +1,27 @@
+var classServer__Player =
+[
+    [ "Server_Player", "d8/d21/classServer__Player.html#a84c4f901de92a7e7a1bcfba5b44a4318", null ],
+    [ "~Server_Player", "d8/d21/classServer__Player.html#a125da50d998898fa335d1ab65650fbe9", null ],
+    [ "addCounter", "d8/d21/classServer__Player.html#a61603f86f458442f3ff8af8697d37251", null ],
+    [ "clearZones", "d8/d21/classServer__Player.html#a9f24437fdf7cb0d887e0f0b79a39a374", null ],
+    [ "cmdCreateCounter", "d8/d21/classServer__Player.html#a3d06769ebf1a50382603ba3351384f8e", null ],
+    [ "cmdDeckSelect", "d8/d21/classServer__Player.html#a0c6fbae57fde3d643f668ac443c1b50d", null ],
+    [ "cmdDelCounter", "d8/d21/classServer__Player.html#a3d237851093016f8e178c6fcb15bbb13", null ],
+    [ "cmdDrawCards", "d8/d21/classServer__Player.html#ad2f4951b344ea40b65995200b38d1564", null ],
+    [ "cmdIncCounter", "d8/d21/classServer__Player.html#ac51e8f6ab0cff879b9551d1b67cfd1d0", null ],
+    [ "cmdMulligan", "d8/d21/classServer__Player.html#ad507b89d67a2f11f159bda36966b644e", null ],
+    [ "cmdNextTurn", "d8/d21/classServer__Player.html#a92cd6f16c48fc5fa53bcfbb6ab4141e0", null ],
+    [ "cmdReverseTurn", "d8/d21/classServer__Player.html#a3bdb8eef66cc4ce9f2cdb4002eea5485", null ],
+    [ "cmdSetActivePhase", "d8/d21/classServer__Player.html#ac2f3f345b85b437c72eedfdbc4d7d284", null ],
+    [ "cmdSetCounter", "d8/d21/classServer__Player.html#adbfad6a6eb8b32ede88e8369642cd4a1", null ],
+    [ "cmdSetSideboardLock", "d8/d21/classServer__Player.html#af6f52fb7fa79abcda96d0012fa931c99", null ],
+    [ "cmdSetSideboardPlan", "d8/d21/classServer__Player.html#adec0fd8256ae73982116f6426e412310", null ],
+    [ "cmdShuffle", "d8/d21/classServer__Player.html#a5faaffc648895db313be8a4d03ec98c8", null ],
+    [ "cmdUndoDraw", "d8/d21/classServer__Player.html#a00158ff0f645f30323164035f7f422ea", null ],
+    [ "getCounters", "d8/d21/classServer__Player.html#a16a15c785eca2ac211357b03003fd82a", null ],
+    [ "getPlayerProperties", "d8/d21/classServer__Player.html#a825ba60ffc7c02077c91acbe10d9bf05", null ],
+    [ "newCounterId", "d8/d21/classServer__Player.html#ab1c08229f244ce6cc29c78d2d7588c12", null ],
+    [ "setupZones", "d8/d21/classServer__Player.html#a086f603030178585c7c35630336879e3", null ],
+    [ "counters", "d8/d21/classServer__Player.html#aef755d02bc5efe7394cf53e6f48ecacf", null ],
+    [ "lastDrawList", "d8/d21/classServer__Player.html#af3e59a1e6ef18bf647c49e126604db67", null ]
+];

@@ -1,0 +1,25 @@
+var dir_cb8e08b98c526ef28decbb3027ba2769 =
+[
+    [ "additional_info", "dir_ebe69efb0678dd425a868e0712b133d9.html", "dir_ebe69efb0678dd425a868e0712b133d9" ],
+    [ "card_group_display_widgets", "dir_f7f3b0129328dc87c8a56d7daf2207e7.html", "dir_f7f3b0129328dc87c8a56d7daf2207e7" ],
+    [ "card_info_display_widget.cpp", "d8/d9d/card__info__display__widget_8cpp.html", null ],
+    [ "card_info_display_widget.h", "d1/df6/card__info__display__widget_8h.html", "d1/df6/card__info__display__widget_8h" ],
+    [ "card_info_frame_widget.cpp", "d2/d59/card__info__frame__widget_8cpp.html", "d2/d59/card__info__frame__widget_8cpp" ],
+    [ "card_info_frame_widget.h", "de/deb/card__info__frame__widget_8h.html", "de/deb/card__info__frame__widget_8h" ],
+    [ "card_info_picture_art_crop_widget.cpp", "dd/da7/card__info__picture__art__crop__widget_8cpp.html", null ],
+    [ "card_info_picture_art_crop_widget.h", "dd/d78/card__info__picture__art__crop__widget_8h.html", "dd/d78/card__info__picture__art__crop__widget_8h" ],
+    [ "card_info_picture_enlarged_widget.cpp", "d1/d1e/card__info__picture__enlarged__widget_8cpp.html", null ],
+    [ "card_info_picture_enlarged_widget.h", "d5/d8a/card__info__picture__enlarged__widget_8h.html", "d5/d8a/card__info__picture__enlarged__widget_8h" ],
+    [ "card_info_picture_widget.cpp", "da/d63/card__info__picture__widget_8cpp.html", "da/d63/card__info__picture__widget_8cpp" ],
+    [ "card_info_picture_widget.h", "d8/dc1/card__info__picture__widget_8h.html", "d8/dc1/card__info__picture__widget_8h" ],
+    [ "card_info_picture_with_text_overlay_widget.cpp", "d8/db9/card__info__picture__with__text__overlay__widget_8cpp.html", null ],
+    [ "card_info_picture_with_text_overlay_widget.h", "dc/d9a/card__info__picture__with__text__overlay__widget_8h.html", "dc/d9a/card__info__picture__with__text__overlay__widget_8h" ],
+    [ "card_info_text_widget.cpp", "dd/d25/card__info__text__widget_8cpp.html", null ],
+    [ "card_info_text_widget.h", "d4/ddc/card__info__text__widget_8h.html", "d4/ddc/card__info__text__widget_8h" ],
+    [ "card_size_widget.cpp", "d1/d7e/card__size__widget_8cpp.html", null ],
+    [ "card_size_widget.h", "dd/da4/card__size__widget_8h.html", "dd/da4/card__size__widget_8h" ],
+    [ "deck_card_zone_display_widget.cpp", "d5/d94/deck__card__zone__display__widget_8cpp.html", null ],
+    [ "deck_card_zone_display_widget.h", "dd/d04/deck__card__zone__display__widget_8h.html", "dd/d04/deck__card__zone__display__widget_8h" ],
+    [ "deck_preview_card_picture_widget.cpp", "da/d28/deck__preview__card__picture__widget_8cpp.html", null ],
+    [ "deck_preview_card_picture_widget.h", "d2/db8/deck__preview__card__picture__widget_8h.html", "d2/db8/deck__preview__card__picture__widget_8h" ]
+];

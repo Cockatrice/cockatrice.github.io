@@ -1,0 +1,26 @@
+var classPlayerListWidget =
+[
+    [ "PlayerListWidget", "df/d02/classPlayerListWidget.html#a557fa2d55358f086e6140d64f70b0acc", null ],
+    [ "addPlayer", "df/d02/classPlayerListWidget.html#a2e452598e9ab3a1e3bda549770d0f8aa", null ],
+    [ "openMessageDialog", "df/d02/classPlayerListWidget.html#a1f82388fa1898f7659b68b17b01a9faf", null ],
+    [ "removePlayer", "df/d02/classPlayerListWidget.html#a44242d17cd530e0b5a3e636a22615ee6", null ],
+    [ "retranslateUi", "df/d02/classPlayerListWidget.html#a90b4e3c38828b030e45535766cec70de", null ],
+    [ "setActivePlayer", "df/d02/classPlayerListWidget.html#aaeb6129b5cca4725390975cd857b1fa9", null ],
+    [ "setGameStarted", "df/d02/classPlayerListWidget.html#aba83092b5f7420bc06fbe1192a5f778b", null ],
+    [ "showContextMenu", "df/d02/classPlayerListWidget.html#ad55891eca7260f088528ad18db09fec8", null ],
+    [ "updatePlayerProperties", "df/d02/classPlayerListWidget.html#af6fbc8b15e86073a194188bd9d8f19c5", null ],
+    [ "client", "df/d02/classPlayerListWidget.html#adf74967e506f479a92815b1e32f711f9", null ],
+    [ "concededIcon", "df/d02/classPlayerListWidget.html#afe240d45c674886554004fbdf3e5dadd", null ],
+    [ "game", "df/d02/classPlayerListWidget.html#a4e4c65021a2ea177e8f65ff645b65ee3", null ],
+    [ "gameStarted", "df/d02/classPlayerListWidget.html#abf0040dfabfccbbff8ba9afad19916dc", null ],
+    [ "itemDelegate", "df/d02/classPlayerListWidget.html#a8da0320f6aa5c1a48336922811a7dc2f", null ],
+    [ "judgeIcon", "df/d02/classPlayerListWidget.html#af44fe6425d039af9639912eae6013cb9", null ],
+    [ "lockIcon", "df/d02/classPlayerListWidget.html#a962fe14ef2cd1ab4dc7a0c98d52bd041", null ],
+    [ "notReadyIcon", "df/d02/classPlayerListWidget.html#ae17937a37b50e6463929c6c0e81c7786", null ],
+    [ "playerIcon", "df/d02/classPlayerListWidget.html#af238c561c6a7956fac9d10e442e9c59d", null ],
+    [ "players", "df/d02/classPlayerListWidget.html#a7c574a9ea7577c06b9e2daf1b623852c", null ],
+    [ "readyIcon", "df/d02/classPlayerListWidget.html#ab87da39f39d33c67ca9b0a51a0691602", null ],
+    [ "spectatorIcon", "df/d02/classPlayerListWidget.html#a2736613a11d5d8b8479614251a1e4ace", null ],
+    [ "tabSupervisor", "df/d02/classPlayerListWidget.html#af3b7c20866135b63f9167c4ff41a1b54", null ],
+    [ "userContextMenu", "df/d02/classPlayerListWidget.html#a318e001f2165c72979915f075d23627a", null ]
+];

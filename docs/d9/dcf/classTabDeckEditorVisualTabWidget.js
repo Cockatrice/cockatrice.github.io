@@ -1,0 +1,28 @@
+var classTabDeckEditorVisualTabWidget =
+[
+    [ "TabDeckEditorVisualTabWidget", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a6ab3167cf58404d8d266120a6c3a9a51", null ],
+    [ "addNewTab", "d9/dcf/classTabDeckEditorVisualTabWidget.html#af4f2e96fc9a2776f042a3cb0aa6efe83", null ],
+    [ "cardChanged", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a7a69ffbea76917c8654b4ba57103b4d4", null ],
+    [ "cardChangedDatabaseDisplay", "d9/dcf/classTabDeckEditorVisualTabWidget.html#af91237f8eb8230fd876f1e7e47f92f49", null ],
+    [ "cardClicked", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a808b1681318cefe6b568da772565f5f8", null ],
+    [ "cardClickedDatabaseDisplay", "d9/dcf/classTabDeckEditorVisualTabWidget.html#ae867a4d9e76498d966b01be22a09f7ae", null ],
+    [ "getCurrentTab", "d9/dcf/classTabDeckEditorVisualTabWidget.html#ae0220d459c84aec8a8539ce2e092845b", null ],
+    [ "getTabCount", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a514f90914c4bd35dab9e33e2f5d6f195", null ],
+    [ "handleTabClose", "d9/dcf/classTabDeckEditorVisualTabWidget.html#ae54b9c6d95b36c6fb041092bbf68c8c5", null ],
+    [ "onCardChanged", "d9/dcf/classTabDeckEditorVisualTabWidget.html#aa4bf2195793a8e7aa4ea524cb542f9f6", null ],
+    [ "onCardChangedDatabaseDisplay", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a17c37a0eedf073db5005ed3a67d8b8aa", null ],
+    [ "onCardClickedDatabaseDisplay", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a5541105d16eaac092aebbe828dcc788e", null ],
+    [ "onCardClickedDeckEditor", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a51cdd816a383c60c5683876263bd620d", null ],
+    [ "removeCurrentTab", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a03c8a9eeeaecc71204a23a76ec66dd14", null ],
+    [ "setTabTitle", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a58cf319a412fb5fe6aaf2456091ccb0f", null ],
+    [ "cardDatabaseDisplayModel", "d9/dcf/classTabDeckEditorVisualTabWidget.html#af8f930995a023b8ce21a052b8ad5736d", null ],
+    [ "cardDatabaseModel", "d9/dcf/classTabDeckEditorVisualTabWidget.html#ad44eb219fa9ee8189fb07321df5f6319", null ],
+    [ "deckAnalytics", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a456e833e975de0bb73273f82e32ec20f", null ],
+    [ "deckEditor", "d9/dcf/classTabDeckEditorVisualTabWidget.html#ab793778bea6259e67962c95458088862", null ],
+    [ "deckModel", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a24965a9cb65446a4304579d225126e95", null ],
+    [ "layout", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a185b97c3eceee0fe6a50aae2759d5f1a", null ],
+    [ "printingSelector", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a586d54e377d31e6cb0fcff1829ef17a8", null ],
+    [ "sampleHandWidget", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a8684fdd577c2f6b75c9357df1803366f", null ],
+    [ "visualDatabaseDisplay", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a9b171f77e3d9df05943385458d367472", null ],
+    [ "visualDeckView", "d9/dcf/classTabDeckEditorVisualTabWidget.html#ad8fb88e3c0c4c593048d58d5e747fe07", null ]
+];

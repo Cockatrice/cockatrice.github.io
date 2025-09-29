@@ -1,0 +1,25 @@
+var classCardDatabaseQuerier =
+[
+    [ "CardDatabaseQuerier", "d8/dbe/classCardDatabaseQuerier.html#a817ccf0bc7b15e6002a412422a53f634", null ],
+    [ "findPrintingWithId", "d8/dbe/classCardDatabaseQuerier.html#a15bb0aa11d39712c5de281e111f01abc", null ],
+    [ "getAllMainCardTypes", "d8/dbe/classCardDatabaseQuerier.html#ad7a44bd0d6fc30ad154460f6cc93af4c", null ],
+    [ "getAllMainCardTypesWithCount", "d8/dbe/classCardDatabaseQuerier.html#a12bea7540977c28f51a7f92dfae77fa3", null ],
+    [ "getAllSubCardTypesWithCount", "d8/dbe/classCardDatabaseQuerier.html#ab8dbca47379dace9fd6797f0019db360", null ],
+    [ "getCard", "d8/dbe/classCardDatabaseQuerier.html#a86275c7c5712a74100288f48acafd264", null ],
+    [ "getCardBySimpleName", "d8/dbe/classCardDatabaseQuerier.html#aaabfce1be62da3cce9b4dce38c2c9eee", null ],
+    [ "getCardFromSameSet", "d8/dbe/classCardDatabaseQuerier.html#a9871e62a9d6241ba2dc45d82eb11990c", null ],
+    [ "getCardInfo", "d8/dbe/classCardDatabaseQuerier.html#aadf83692b2220aedcfb3e9b36070acb7", null ],
+    [ "getCardInfos", "d8/dbe/classCardDatabaseQuerier.html#a9d6ef499bbce5eaaa6ff00abf811ee5b", null ],
+    [ "getCards", "d8/dbe/classCardDatabaseQuerier.html#a78b9c6fe92fe4f07c941216762918476", null ],
+    [ "getPreferredCard", "d8/dbe/classCardDatabaseQuerier.html#a06f6c2298a28b433f225199d247a8314", null ],
+    [ "getPreferredPrinting", "d8/dbe/classCardDatabaseQuerier.html#a7b521d01bb2a7dc5b17ee27e2355ebf7", null ],
+    [ "getPreferredPrinting", "d8/dbe/classCardDatabaseQuerier.html#a1a815c13c6035c07c2a6719a95e56784", null ],
+    [ "getPreferredPrintingProviderId", "d8/dbe/classCardDatabaseQuerier.html#a3987a302ea70ee115d7d91367927501c", null ],
+    [ "getRandomCard", "d8/dbe/classCardDatabaseQuerier.html#a6bf6e6c68b3c684ba3cab177b5ed3bb8", null ],
+    [ "getSpecificPrinting", "d8/dbe/classCardDatabaseQuerier.html#a9290152b7a0d6f5adf643bba33d2cde7", null ],
+    [ "getSpecificPrinting", "d8/dbe/classCardDatabaseQuerier.html#ac6bddedb729a6fded2bef5f61b1934bb", null ],
+    [ "guessCard", "d8/dbe/classCardDatabaseQuerier.html#a976eac55c8dffaea621414c439d2f74e", null ],
+    [ "isPreferredPrinting", "d8/dbe/classCardDatabaseQuerier.html#a05b921764c9c29c7aea31bd4cd03b212", null ],
+    [ "lookupCardByName", "d8/dbe/classCardDatabaseQuerier.html#a88851785aa59886aa8f53e09ef163585", null ],
+    [ "db", "d8/dbe/classCardDatabaseQuerier.html#a6396bd7e9c448e857264b30adc6a5112", null ]
+];

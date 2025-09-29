@@ -1,0 +1,25 @@
+var classEdhrecApiResponseCardPricesDisplayWidget =
+[
+    [ "EdhrecApiResponseCardPricesDisplayWidget", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a41e6d8f7ba1bf048fed0d3d8a9cbed4d", null ],
+    [ "retranslateUi", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a95b4c795f168e2e2ec4ae68bfaffe731", null ],
+    [ "cardHoarderLabel", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a151a773af05db5205bf3c3e0c96657de", null ],
+    [ "cardHoarderPrice", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a3ef3f84d92b3837ef88a226022715bd4", null ],
+    [ "cardKingdomLabel", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a74aa16226bde5caf222273a3fbd4f51c", null ],
+    [ "cardKingdomPrice", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#afcf337586d20c976f54e5d67900b6864", null ],
+    [ "cardMarketLabel", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a22fb449087fa430284c23c532e382f00", null ],
+    [ "cardMarketPrice", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a0cc82495e187c444c4a484ded4855926", null ],
+    [ "cardPrices", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a2c2ab456f63d162a191e08fedffd4251", null ],
+    [ "face2faceLabel", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a958e3364b8099c950787886519a1c4da", null ],
+    [ "face2facePrice", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a97949ec60b920bc3b2a28b58a0618690", null ],
+    [ "layout", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#ab8b1df8b670d0f212d6953f3d29f7baf", null ],
+    [ "manaPoolLabel", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a8168a5e58741c848f3c7b28d9063ee3d", null ],
+    [ "manaPoolPrice", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#aa1618a91aead6f854b8e4c1a9d94f0f5", null ],
+    [ "mtgStocksLabel", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a1d7a1d12ef256a9473652e8cf0080b74", null ],
+    [ "mtgStocksPrice", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a85fd8065502e2096f4bc76a7d9a3c208", null ],
+    [ "scgLabel", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#aa906e37234431c4d0eac8f627b8706d5", null ],
+    [ "scgPrice", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#aa92636f7ec8fd96617b8ca46704efb93", null ],
+    [ "tcglLabel", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#afc58f225ffc61ce0d47c123442effc00", null ],
+    [ "tcglPrice", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a3c7cae435bca3f33c15797c2ff66a2c9", null ],
+    [ "tcgplayerLabel", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a1eca99b3d5aa9cb755efcc11c9f7d589", null ],
+    [ "tcgplayerPrice", "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a4a0e1469fc597aa1a1cca4adc475c720", null ]
+];
