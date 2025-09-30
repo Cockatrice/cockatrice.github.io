@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,68 +108,69 @@ $(document).ready(function(){initNavTree('d9/dfd/game__filters__settings_8h_sour
   <div class="headertitle"><div class="title">game_filters_settings.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d9/dfd/game__filters__settings_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef GAMEFILTERSSETTINGS_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define GAMEFILTERSSETTINGS_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../d2/d62/settings__manager_8h.html">settings_manager.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="foldopen" id="foldopen00006" data-start="{" data-end="};">
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="../../df/dd0/classGameFiltersSettings.html">    6</a></span><span class="keyword">class </span><a class="code hl_class" href="../../df/dd0/classGameFiltersSettings.html">GameFiltersSettings</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d1/dea/classSettingsManager.html">SettingsManager</a></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    Q_OBJECT</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../df/dd0/classGameFiltersSettings.html#a859ba68015a001567c5ef72352e7b69b">    9</a></span>    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="../../d5/d88/classSettingsCache.html">SettingsCache</a>;</div>
+<a href="../../d9/dfd/game__filters__settings_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifndef GAMEFILTERSSETTINGS_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#define GAMEFILTERSSETTINGS_H</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ae7d67576a9cb582f1da4179d37f1598e">isHideBuddiesOnlyGames</a>();</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#aca1b46b946214be31a1542fa10671a31">isHideFullGames</a>();</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a54bf081b12d5c8b7e96057956cdc328f">isHideGamesThatStarted</a>();</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a5f9075882736f15cd1d1a4431df3c918">isHidePasswordProtectedGames</a>();</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a4604a81782736cfd2e2e1676a172b658">isHideIgnoredUserGames</a>();</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ad8a02ca93961587098cf8574d752eb10">isHideNotBuddyCreatedGames</a>();</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ab38d45f1b471c22ef591d616d0e07f54">setHideOpenDecklistGames</a>(<span class="keywordtype">bool</span> hide);</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#af768b3f491a02ffb3e775fa2fffb0efe">isHideOpenDecklistGames</a>();</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    QString <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#aafc601600a63659b7d3d9f2959a44701">getGameNameFilter</a>();</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    QString <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a6e74f5942c237f4f2aa3da9f5e0d672a">getCreatorNameFilter</a>();</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ae2bd2f5324dc2c25a61a675cde8e59e8">getMinPlayers</a>();</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ab66129aa697dd1c40cb2134acdb7ed6d">getMaxPlayers</a>();</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    QTime <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#af9a8c80ecaf2dba52aadc183b1f891bd">getMaxGameAge</a>();</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#aee74d15b7e3d2eb5b8c45176e8e03f16">isGameTypeEnabled</a>(QString gametype);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a58cccfda3e175f4bc044840b75fb160b">isShowOnlyIfSpectatorsCanWatch</a>();</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#abee3e45293bf1fb9c86e04d77e226183">isShowSpectatorPasswordProtected</a>();</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a190b53b04b911b23017f2537fed7b163">isShowOnlyIfSpectatorsCanChat</a>();</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ab737d56ba5e9d6258b1613c6a0004c84">isShowOnlyIfSpectatorsCanSeeHands</a>();</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#aed8e835d31c72236efe2ac737bc8b273">setHideBuddiesOnlyGames</a>(<span class="keywordtype">bool</span> hide);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a1362067b0415249084e2f5f89f2c5bfb">setHideIgnoredUserGames</a>(<span class="keywordtype">bool</span> hide);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a335460f96468c9a851b470ace607539c">setHideFullGames</a>(<span class="keywordtype">bool</span> hide);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ad31b1c8d3885e80ac772506c55de114f">setHideGamesThatStarted</a>(<span class="keywordtype">bool</span> hide);</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a53b2fa598c24d0c5a5d100bdc90bfee6">setHidePasswordProtectedGames</a>(<span class="keywordtype">bool</span> hide);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a3ad0de5bc7129337aa9b0ac9a5fe682b">setHideNotBuddyCreatedGames</a>(<span class="keywordtype">bool</span> hide);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a83937896519de48f99f8e3b196c4fef5">setGameNameFilter</a>(QString gameName);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#aabf1d7f723a383253346959a1d11e69e">setCreatorNameFilter</a>(QString creatorName);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a3b0d80a6360c0ed8f43656f702b3f0f1">setMinPlayers</a>(<span class="keywordtype">int</span> min);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#abd3ff2823682e59bfa87c38e09a093c0">setMaxPlayers</a>(<span class="keywordtype">int</span> max);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a45ecea33e84b396c6f6ac7cd9a0d0e1e">setMaxGameAge</a>(<span class="keyword">const</span> QTime &amp;maxGameAge);</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a966fcfc38f70431274cea43041f3b5f8">setGameTypeEnabled</a>(QString gametype, <span class="keywordtype">bool</span> enabled);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#abe3e0fad71cc3919bfcf0ed164e28bd8">setGameHashedTypeEnabled</a>(QString gametypeHASHED, <span class="keywordtype">bool</span> enabled);</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a4f79d6e82ef6d846426ffaffd324a48e">setShowOnlyIfSpectatorsCanWatch</a>(<span class="keywordtype">bool</span> show);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#adb59b0f4bc060d9905e55aa3835e2523">setShowSpectatorPasswordProtected</a>(<span class="keywordtype">bool</span> show);</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a374bb3ba090fc392fe200410193537bf">setShowOnlyIfSpectatorsCanChat</a>(<span class="keywordtype">bool</span> show);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a16371e6464831742e7451809bb6ed4ff">setShowOnlyIfSpectatorsCanSeeHands</a>(<span class="keywordtype">bool</span> show);</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>signals:</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">public</span> slots:</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../df/dd0/classGameFiltersSettings.html">GameFiltersSettings</a>(<span class="keyword">const</span> QString &amp;settingPath, QObject *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="../../df/dd0/classGameFiltersSettings.html#a2c2c9f14c79f20eb1d0adf12a9e27701">   54</a></span>    <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a2c2c9f14c79f20eb1d0adf12a9e27701">GameFiltersSettings</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../df/dd0/classGameFiltersSettings.html">GameFiltersSettings</a> &amp; <span class="comment">/*other*/</span>);</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    QString <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a8459da6f2fe5d9a3f5e5db3287fe270e">hashGameType</a>(<span class="keyword">const</span> QString &amp;gameType) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>};</div>
-</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="../../d2/d62/settings__manager_8h.html">settings_manager.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../df/dd0/classGameFiltersSettings.html">   13</a></span><span class="keyword">class </span><a class="code hl_class" href="../../df/dd0/classGameFiltersSettings.html">GameFiltersSettings</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d1/dea/classSettingsManager.html">SettingsManager</a></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    Q_OBJECT</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../df/dd0/classGameFiltersSettings.html#a859ba68015a001567c5ef72352e7b69b">   16</a></span>    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code hl_class" href="../../d5/d88/classSettingsCache.html">SettingsCache</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ae7d67576a9cb582f1da4179d37f1598e">isHideBuddiesOnlyGames</a>();</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#aca1b46b946214be31a1542fa10671a31">isHideFullGames</a>();</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a54bf081b12d5c8b7e96057956cdc328f">isHideGamesThatStarted</a>();</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a5f9075882736f15cd1d1a4431df3c918">isHidePasswordProtectedGames</a>();</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a4604a81782736cfd2e2e1676a172b658">isHideIgnoredUserGames</a>();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ad8a02ca93961587098cf8574d752eb10">isHideNotBuddyCreatedGames</a>();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ab38d45f1b471c22ef591d616d0e07f54">setHideOpenDecklistGames</a>(<span class="keywordtype">bool</span> hide);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#af768b3f491a02ffb3e775fa2fffb0efe">isHideOpenDecklistGames</a>();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    QString <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#aafc601600a63659b7d3d9f2959a44701">getGameNameFilter</a>();</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    QString <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a6e74f5942c237f4f2aa3da9f5e0d672a">getCreatorNameFilter</a>();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ae2bd2f5324dc2c25a61a675cde8e59e8">getMinPlayers</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ab66129aa697dd1c40cb2134acdb7ed6d">getMaxPlayers</a>();</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    QTime <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#af9a8c80ecaf2dba52aadc183b1f891bd">getMaxGameAge</a>();</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#aee74d15b7e3d2eb5b8c45176e8e03f16">isGameTypeEnabled</a>(QString gametype);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a58cccfda3e175f4bc044840b75fb160b">isShowOnlyIfSpectatorsCanWatch</a>();</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#abee3e45293bf1fb9c86e04d77e226183">isShowSpectatorPasswordProtected</a>();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a190b53b04b911b23017f2537fed7b163">isShowOnlyIfSpectatorsCanChat</a>();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ab737d56ba5e9d6258b1613c6a0004c84">isShowOnlyIfSpectatorsCanSeeHands</a>();</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#aed8e835d31c72236efe2ac737bc8b273">setHideBuddiesOnlyGames</a>(<span class="keywordtype">bool</span> hide);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a1362067b0415249084e2f5f89f2c5bfb">setHideIgnoredUserGames</a>(<span class="keywordtype">bool</span> hide);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a335460f96468c9a851b470ace607539c">setHideFullGames</a>(<span class="keywordtype">bool</span> hide);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#ad31b1c8d3885e80ac772506c55de114f">setHideGamesThatStarted</a>(<span class="keywordtype">bool</span> hide);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a53b2fa598c24d0c5a5d100bdc90bfee6">setHidePasswordProtectedGames</a>(<span class="keywordtype">bool</span> hide);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a3ad0de5bc7129337aa9b0ac9a5fe682b">setHideNotBuddyCreatedGames</a>(<span class="keywordtype">bool</span> hide);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a83937896519de48f99f8e3b196c4fef5">setGameNameFilter</a>(QString gameName);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#aabf1d7f723a383253346959a1d11e69e">setCreatorNameFilter</a>(QString creatorName);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a3b0d80a6360c0ed8f43656f702b3f0f1">setMinPlayers</a>(<span class="keywordtype">int</span> min);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#abd3ff2823682e59bfa87c38e09a093c0">setMaxPlayers</a>(<span class="keywordtype">int</span> max);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a45ecea33e84b396c6f6ac7cd9a0d0e1e">setMaxGameAge</a>(<span class="keyword">const</span> QTime &amp;maxGameAge);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a966fcfc38f70431274cea43041f3b5f8">setGameTypeEnabled</a>(QString gametype, <span class="keywordtype">bool</span> enabled);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#abe3e0fad71cc3919bfcf0ed164e28bd8">setGameHashedTypeEnabled</a>(QString gametypeHASHED, <span class="keywordtype">bool</span> enabled);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a4f79d6e82ef6d846426ffaffd324a48e">setShowOnlyIfSpectatorsCanWatch</a>(<span class="keywordtype">bool</span> show);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#adb59b0f4bc060d9905e55aa3835e2523">setShowSpectatorPasswordProtected</a>(<span class="keywordtype">bool</span> show);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a374bb3ba090fc392fe200410193537bf">setShowOnlyIfSpectatorsCanChat</a>(<span class="keywordtype">bool</span> show);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a16371e6464831742e7451809bb6ed4ff">setShowOnlyIfSpectatorsCanSeeHands</a>(<span class="keywordtype">bool</span> show);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>signals:</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">public</span> slots:</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#endif </span><span class="comment">// GAMEFILTERSSETTINGS_H</span></div>
-<div class="ttc" id="aclassGameFiltersSettings_html"><div class="ttname"><a href="../../df/dd0/classGameFiltersSettings.html">GameFiltersSettings</a></div><div class="ttdef"><b>Definition</b> game_filters_settings.h:7</div></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../df/dd0/classGameFiltersSettings.html">GameFiltersSettings</a>(<span class="keyword">const</span> QString &amp;settingPath, QObject *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="../../df/dd0/classGameFiltersSettings.html#a2c2c9f14c79f20eb1d0adf12a9e27701">   61</a></span>    <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a2c2c9f14c79f20eb1d0adf12a9e27701">GameFiltersSettings</a>(<span class="keyword">const</span> <a class="code hl_class" href="../../df/dd0/classGameFiltersSettings.html">GameFiltersSettings</a> &amp; <span class="comment">/*other*/</span>);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    QString <a class="code hl_function" href="../../df/dd0/classGameFiltersSettings.html#a8459da6f2fe5d9a3f5e5db3287fe270e">hashGameType</a>(<span class="keyword">const</span> QString &amp;gameType) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>};</div>
+</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#endif </span><span class="comment">// GAMEFILTERSSETTINGS_H</span></div>
+<div class="ttc" id="aclassGameFiltersSettings_html"><div class="ttname"><a href="../../df/dd0/classGameFiltersSettings.html">GameFiltersSettings</a></div><div class="ttdef"><b>Definition</b> game_filters_settings.h:14</div></div>
 <div class="ttc" id="aclassGameFiltersSettings_html_a1362067b0415249084e2f5f89f2c5bfb"><div class="ttname"><a href="../../df/dd0/classGameFiltersSettings.html#a1362067b0415249084e2f5f89f2c5bfb">GameFiltersSettings::setHideIgnoredUserGames</a></div><div class="ttdeci">void setHideIgnoredUserGames(bool hide)</div><div class="ttdef"><b>Definition</b> game_filters_settings.cpp:64</div></div>
 <div class="ttc" id="aclassGameFiltersSettings_html_a16371e6464831742e7451809bb6ed4ff"><div class="ttname"><a href="../../df/dd0/classGameFiltersSettings.html#a16371e6464831742e7451809bb6ed4ff">GameFiltersSettings::setShowOnlyIfSpectatorsCanSeeHands</a></div><div class="ttdeci">void setShowOnlyIfSpectatorsCanSeeHands(bool show)</div><div class="ttdef"><b>Definition</b> game_filters_settings.cpp:199</div></div>
 <div class="ttc" id="aclassGameFiltersSettings_html_a190b53b04b911b23017f2537fed7b163"><div class="ttname"><a href="../../df/dd0/classGameFiltersSettings.html#a190b53b04b911b23017f2537fed7b163">GameFiltersSettings::isShowOnlyIfSpectatorsCanChat</a></div><div class="ttdeci">bool isShowOnlyIfSpectatorsCanChat()</div><div class="ttdef"><b>Definition</b> game_filters_settings.cpp:193</div></div>
@@ -205,9 +208,9 @@ $(document).ready(function(){initNavTree('d9/dfd/game__filters__settings_8h_sour
 <div class="ttc" id="aclassGameFiltersSettings_html_aee74d15b7e3d2eb5b8c45176e8e03f16"><div class="ttname"><a href="../../df/dd0/classGameFiltersSettings.html#aee74d15b7e3d2eb5b8c45176e8e03f16">GameFiltersSettings::isGameTypeEnabled</a></div><div class="ttdeci">bool isGameTypeEnabled(QString gametype)</div><div class="ttdef"><b>Definition</b> game_filters_settings.cpp:160</div></div>
 <div class="ttc" id="aclassGameFiltersSettings_html_af768b3f491a02ffb3e775fa2fffb0efe"><div class="ttname"><a href="../../df/dd0/classGameFiltersSettings.html#af768b3f491a02ffb3e775fa2fffb0efe">GameFiltersSettings::isHideOpenDecklistGames</a></div><div class="ttdeci">bool isHideOpenDecklistGames()</div><div class="ttdef"><b>Definition</b> game_filters_settings.cpp:91</div></div>
 <div class="ttc" id="aclassGameFiltersSettings_html_af9a8c80ecaf2dba52aadc183b1f891bd"><div class="ttname"><a href="../../df/dd0/classGameFiltersSettings.html#af9a8c80ecaf2dba52aadc183b1f891bd">GameFiltersSettings::getMaxGameAge</a></div><div class="ttdeci">QTime getMaxGameAge()</div><div class="ttdef"><b>Definition</b> game_filters_settings.cpp:144</div></div>
-<div class="ttc" id="aclassSettingsCache_html"><div class="ttname"><a href="../../d5/d88/classSettingsCache.html">SettingsCache</a></div><div class="ttdef"><b>Definition</b> cache_settings.h:130</div></div>
-<div class="ttc" id="aclassSettingsManager_html"><div class="ttname"><a href="../../d1/dea/classSettingsManager.html">SettingsManager</a></div><div class="ttdef"><b>Definition</b> settings_manager.h:10</div></div>
-<div class="ttc" id="asettings__manager_8h_html"><div class="ttname"><a href="../../d2/d62/settings__manager_8h.html">settings_manager.h</a></div></div>
+<div class="ttc" id="aclassSettingsCache_html"><div class="ttname"><a href="../../d5/d88/classSettingsCache.html">SettingsCache</a></div><div class="ttdef"><b>Definition</b> cache_settings.h:137</div></div>
+<div class="ttc" id="aclassSettingsManager_html"><div class="ttname"><a href="../../d1/dea/classSettingsManager.html">SettingsManager</a></div><div class="ttdef"><b>Definition</b> settings_manager.h:16</div></div>
+<div class="ttc" id="asettings__manager_8h_html"><div class="ttname"><a href="../../d2/d62/settings__manager_8h.html">settings_manager.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

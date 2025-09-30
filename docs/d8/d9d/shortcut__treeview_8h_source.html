@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,63 +108,64 @@ $(document).ready(function(){initNavTree('d8/d9d/shortcut__treeview_8h_source.ht
   <div class="headertitle"><div class="title">shortcut_treeview.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d8/d9d/shortcut__treeview_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef SHORTCUT_TREEVIEW_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define SHORTCUT_TREEVIEW_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QModelIndex&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QSortFilterProxyModel&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QStandardItemModel&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QTreeView&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../d0/d68/classShortcutFilterProxyModel.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d0/d68/classShortcutFilterProxyModel.html">ShortcutFilterProxyModel</a> : <span class="keyword">public</span> QSortFilterProxyModel</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    Q_OBJECT</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d0/d68/classShortcutFilterProxyModel.html">ShortcutFilterProxyModel</a>(QObject *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d0/d68/classShortcutFilterProxyModel.html#a5638fe4caabe4d85b3858ab0918302bc">filterAcceptsRow</a>(<span class="keywordtype">int</span> sourceRow, <span class="keyword">const</span> QModelIndex &amp;sourceParent) <span class="keyword">const override</span>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>};</div>
+<a href="../../d8/d9d/shortcut__treeview_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef SHORTCUT_TREEVIEW_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define SHORTCUT_TREEVIEW_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QModelIndex&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QSortFilterProxyModel&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QStandardItemModel&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QTreeView&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d0/d68/classShortcutFilterProxyModel.html">   18</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d0/d68/classShortcutFilterProxyModel.html">ShortcutFilterProxyModel</a> : <span class="keyword">public</span> QSortFilterProxyModel</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    Q_OBJECT</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d0/d68/classShortcutFilterProxyModel.html">ShortcutFilterProxyModel</a>(QObject *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d0/d68/classShortcutFilterProxyModel.html#a5638fe4caabe4d85b3858ab0918302bc">filterAcceptsRow</a>(<span class="keywordtype">int</span> sourceRow, <span class="keyword">const</span> QModelIndex &amp;sourceParent) <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>};</div>
 </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d6/dc6/classShortcutTreeView.html">   22</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d6/dc6/classShortcutTreeView.html">ShortcutTreeView</a> : <span class="keyword">public</span> QTreeView</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    Q_OBJECT</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d6/dc6/classShortcutTreeView.html">ShortcutTreeView</a>(QWidget *parent);</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/dc6/classShortcutTreeView.html#afff16628f075b68ccfa9c4fbe67f444c">retranslateUi</a>();</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>signals:</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d6/dc6/classShortcutTreeView.html#ad39d4b67eddc0802142384963bb6caa4">   30</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d6/dc6/classShortcutTreeView.html#ad39d4b67eddc0802142384963bb6caa4">currentItemChanged</a>(<span class="keyword">const</span> QString &amp;shortcut);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">public</span> slots:</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d6/dc6/classShortcutTreeView.html#a4884e74bd98c62d0b04757c77f6e5e0c">updateSearchString</a>(<span class="keyword">const</span> QString &amp;searchString);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="foldopen" id="foldopen00028" data-start="{" data-end="};">
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d6/dc6/classShortcutTreeView.html">   28</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d6/dc6/classShortcutTreeView.html">ShortcutTreeView</a> : <span class="keyword">public</span> QTreeView</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    Q_OBJECT</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d6/dc6/classShortcutTreeView.html">ShortcutTreeView</a>(QWidget *parent);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/dc6/classShortcutTreeView.html#afff16628f075b68ccfa9c4fbe67f444c">retranslateUi</a>();</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d6/dc6/classShortcutTreeView.html#a6d2d5e804d6737c52c945b123a7baa33">   36</a></span>    QStandardItemModel *<a class="code hl_variable" href="../../d6/dc6/classShortcutTreeView.html#a6d2d5e804d6737c52c945b123a7baa33">shortcutsModel</a>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d6/dc6/classShortcutTreeView.html#ad6d53efa332b1f9659f4a09afad38044">   37</a></span>    <a class="code hl_class" href="../../d0/d68/classShortcutFilterProxyModel.html">ShortcutFilterProxyModel</a> *<a class="code hl_variable" href="../../d6/dc6/classShortcutTreeView.html#ad6d53efa332b1f9659f4a09afad38044">proxyModel</a>;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/dc6/classShortcutTreeView.html#ae78cfef6e785d434ed056feccbcc961f">populateShortcutsModel</a>();</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d6/dc6/classShortcutTreeView.html#a145884152ab3e5c6b3616dfed89741d9">refreshShortcuts</a>();</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/dc6/classShortcutTreeView.html#a9d7d88c047f506b84afc5a0bb47229ce">currentChanged</a>(<span class="keyword">const</span> QModelIndex &amp;current, <span class="keyword">const</span> QModelIndex &amp;previous) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>};</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>signals:</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d6/dc6/classShortcutTreeView.html#ad39d4b67eddc0802142384963bb6caa4">   36</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d6/dc6/classShortcutTreeView.html#ad39d4b67eddc0802142384963bb6caa4">currentItemChanged</a>(<span class="keyword">const</span> QString &amp;shortcut);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">public</span> slots:</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d6/dc6/classShortcutTreeView.html#a4884e74bd98c62d0b04757c77f6e5e0c">updateSearchString</a>(<span class="keyword">const</span> QString &amp;searchString);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d6/dc6/classShortcutTreeView.html#a6d2d5e804d6737c52c945b123a7baa33">   42</a></span>    QStandardItemModel *<a class="code hl_variable" href="../../d6/dc6/classShortcutTreeView.html#a6d2d5e804d6737c52c945b123a7baa33">shortcutsModel</a>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d6/dc6/classShortcutTreeView.html#ad6d53efa332b1f9659f4a09afad38044">   43</a></span>    <a class="code hl_class" href="../../d0/d68/classShortcutFilterProxyModel.html">ShortcutFilterProxyModel</a> *<a class="code hl_variable" href="../../d6/dc6/classShortcutTreeView.html#ad6d53efa332b1f9659f4a09afad38044">proxyModel</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/dc6/classShortcutTreeView.html#ae78cfef6e785d434ed056feccbcc961f">populateShortcutsModel</a>();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d6/dc6/classShortcutTreeView.html#a145884152ab3e5c6b3616dfed89741d9">refreshShortcuts</a>();</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/dc6/classShortcutTreeView.html#a9d7d88c047f506b84afc5a0bb47229ce">currentChanged</a>(<span class="keyword">const</span> QModelIndex &amp;current, <span class="keyword">const</span> QModelIndex &amp;previous) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>};</div>
 </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#endif </span><span class="comment">// SHORTCUT_TREEVIEW_H</span></div>
-<div class="ttc" id="aclassShortcutFilterProxyModel_html"><div class="ttname"><a href="../../d0/d68/classShortcutFilterProxyModel.html">ShortcutFilterProxyModel</a></div><div class="ttdef"><b>Definition</b> shortcut_treeview.h:13</div></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#endif </span><span class="comment">// SHORTCUT_TREEVIEW_H</span></div>
+<div class="ttc" id="aclassShortcutFilterProxyModel_html"><div class="ttname"><a href="../../d0/d68/classShortcutFilterProxyModel.html">ShortcutFilterProxyModel</a></div><div class="ttdef"><b>Definition</b> shortcut_treeview.h:19</div></div>
 <div class="ttc" id="aclassShortcutFilterProxyModel_html_a5638fe4caabe4d85b3858ab0918302bc"><div class="ttname"><a href="../../d0/d68/classShortcutFilterProxyModel.html#a5638fe4caabe4d85b3858ab0918302bc">ShortcutFilterProxyModel::filterAcceptsRow</a></div><div class="ttdeci">bool filterAcceptsRow(int sourceRow, const QModelIndex &amp;sourceParent) const override</div><div class="ttdef"><b>Definition</b> shortcut_treeview.cpp:15</div></div>
-<div class="ttc" id="aclassShortcutTreeView_html"><div class="ttname"><a href="../../d6/dc6/classShortcutTreeView.html">ShortcutTreeView</a></div><div class="ttdef"><b>Definition</b> shortcut_treeview.h:23</div></div>
+<div class="ttc" id="aclassShortcutTreeView_html"><div class="ttname"><a href="../../d6/dc6/classShortcutTreeView.html">ShortcutTreeView</a></div><div class="ttdef"><b>Definition</b> shortcut_treeview.h:29</div></div>
 <div class="ttc" id="aclassShortcutTreeView_html_a145884152ab3e5c6b3616dfed89741d9"><div class="ttname"><a href="../../d6/dc6/classShortcutTreeView.html#a145884152ab3e5c6b3616dfed89741d9">ShortcutTreeView::refreshShortcuts</a></div><div class="ttdeci">void refreshShortcuts()</div><div class="ttdef"><b>Definition</b> shortcut_treeview.cpp:130</div></div>
 <div class="ttc" id="aclassShortcutTreeView_html_a4884e74bd98c62d0b04757c77f6e5e0c"><div class="ttname"><a href="../../d6/dc6/classShortcutTreeView.html#a4884e74bd98c62d0b04757c77f6e5e0c">ShortcutTreeView::updateSearchString</a></div><div class="ttdeci">void updateSearchString(const QString &amp;searchString)</div><div class="ttdef"><b>Definition</b> shortcut_treeview.cpp:151</div></div>
-<div class="ttc" id="aclassShortcutTreeView_html_a6d2d5e804d6737c52c945b123a7baa33"><div class="ttname"><a href="../../d6/dc6/classShortcutTreeView.html#a6d2d5e804d6737c52c945b123a7baa33">ShortcutTreeView::shortcutsModel</a></div><div class="ttdeci">QStandardItemModel * shortcutsModel</div><div class="ttdef"><b>Definition</b> shortcut_treeview.h:36</div></div>
+<div class="ttc" id="aclassShortcutTreeView_html_a6d2d5e804d6737c52c945b123a7baa33"><div class="ttname"><a href="../../d6/dc6/classShortcutTreeView.html#a6d2d5e804d6737c52c945b123a7baa33">ShortcutTreeView::shortcutsModel</a></div><div class="ttdeci">QStandardItemModel * shortcutsModel</div><div class="ttdef"><b>Definition</b> shortcut_treeview.h:42</div></div>
 <div class="ttc" id="aclassShortcutTreeView_html_a9d7d88c047f506b84afc5a0bb47229ce"><div class="ttname"><a href="../../d6/dc6/classShortcutTreeView.html#a9d7d88c047f506b84afc5a0bb47229ce">ShortcutTreeView::currentChanged</a></div><div class="ttdeci">void currentChanged(const QModelIndex &amp;current, const QModelIndex &amp;previous) override</div><div class="ttdef"><b>Definition</b> shortcut_treeview.cpp:135</div></div>
 <div class="ttc" id="aclassShortcutTreeView_html_ad39d4b67eddc0802142384963bb6caa4"><div class="ttname"><a href="../../d6/dc6/classShortcutTreeView.html#ad39d4b67eddc0802142384963bb6caa4">ShortcutTreeView::currentItemChanged</a></div><div class="ttdeci">void currentItemChanged(const QString &amp;shortcut)</div></div>
-<div class="ttc" id="aclassShortcutTreeView_html_ad6d53efa332b1f9659f4a09afad38044"><div class="ttname"><a href="../../d6/dc6/classShortcutTreeView.html#ad6d53efa332b1f9659f4a09afad38044">ShortcutTreeView::proxyModel</a></div><div class="ttdeci">ShortcutFilterProxyModel * proxyModel</div><div class="ttdef"><b>Definition</b> shortcut_treeview.h:37</div></div>
+<div class="ttc" id="aclassShortcutTreeView_html_ad6d53efa332b1f9659f4a09afad38044"><div class="ttname"><a href="../../d6/dc6/classShortcutTreeView.html#ad6d53efa332b1f9659f4a09afad38044">ShortcutTreeView::proxyModel</a></div><div class="ttdeci">ShortcutFilterProxyModel * proxyModel</div><div class="ttdef"><b>Definition</b> shortcut_treeview.h:43</div></div>
 <div class="ttc" id="aclassShortcutTreeView_html_ae78cfef6e785d434ed056feccbcc961f"><div class="ttname"><a href="../../d6/dc6/classShortcutTreeView.html#ae78cfef6e785d434ed056feccbcc961f">ShortcutTreeView::populateShortcutsModel</a></div><div class="ttdeci">void populateShortcutsModel()</div><div class="ttdef"><b>Definition</b> shortcut_treeview.cpp:66</div></div>
 <div class="ttc" id="aclassShortcutTreeView_html_afff16628f075b68ccfa9c4fbe67f444c"><div class="ttname"><a href="../../d6/dc6/classShortcutTreeView.html#afff16628f075b68ccfa9c4fbe67f444c">ShortcutTreeView::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdef"><b>Definition</b> shortcut_treeview.cpp:95</div></div>
 </div><!-- fragment --></div><!-- contents -->

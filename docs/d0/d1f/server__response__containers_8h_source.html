@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -304,7 +306,7 @@ $(document).ready(function(){initNavTree('d0/d1f/server__response__containers_8h
 <div class="ttc" id="aclassResponseContainer_html_ace21d09da59555ab02b2fc1b3d2b03e3"><div class="ttname"><a href="../../db/d74/classResponseContainer.html#ace21d09da59555ab02b2fc1b3d2b03e3">ResponseContainer::enqueuePostResponseItem</a></div><div class="ttdeci">void enqueuePostResponseItem(ServerMessage::MessageType type, ::google::protobuf::Message *item)</div><div class="ttdef"><b>Definition</b> server_response_containers.h:116</div></div>
 <div class="ttc" id="aclassResponseContainer_html_afb9b17039785020b7d390c4a8bdaa368"><div class="ttname"><a href="../../db/d74/classResponseContainer.html#afb9b17039785020b7d390c4a8bdaa368">ResponseContainer::getPostResponseQueue</a></div><div class="ttdeci">const QList&lt; QPair&lt; ServerMessage::MessageType, ::google::protobuf::Message * &gt; &gt; &amp; getPostResponseQueue() const</div><div class="ttdef"><b>Definition</b> server_response_containers.h:124</div></div>
 <div class="ttc" id="aclassServer__Game_html"><div class="ttname"><a href="../../df/d89/classServer__Game.html">Server_Game</a></div><div class="ttdef"><b>Definition</b> server_game.h:47</div></div>
-<div class="ttc" id="anamespacegoogle_html"><div class="ttname"><a href="../../df/d40/namespacegoogle.html">google</a></div><div class="ttdef"><b>Definition</b> phases_toolbar.h:11</div></div>
+<div class="ttc" id="anamespacegoogle_html"><div class="ttname"><a href="../../df/d40/namespacegoogle.html">google</a></div><div class="ttdef"><b>Definition</b> phases_toolbar.h:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

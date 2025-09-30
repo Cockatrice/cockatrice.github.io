@@ -119,7 +119,7 @@ var searchData=
   ['overrideallcardartwithpersonalpreferencecheckbox_116',['overrideAllCardArtWithPersonalPreferenceCheckBox',['../d8/dc5/classAppearanceSettingsPage.html#a0b760694bed32cb6389fe31b9a5452b1',1,'AppearanceSettingsPage']]],
   ['overwriteownership_117',['overwriteOwnership',['../de/d8f/classGameEventStorage.html#a222e6ba32284ad4e080cb316aea50e16',1,'GameEventStorage']]],
   ['owner_118',['owner',['../d9/dce/classArrowTarget.html#abaf1f20fe8df68fca8ef1fdf3348cb7e',1,'ArrowTarget']]],
-  ['ownership_3a_119',['ownership:',['../d3/de9/classAbstractDecklistCardNode.html#autotoc_md2',1,'Ownership:'],['../da/d68/classDeckList.html#autotoc_md6',1,'Ownership:'],['../d5/d22/classDecklistCardNode.html#autotoc_md12',1,'Ownership:'],['../d4/d55/classInnerDecklistNode.html#autotoc_md16',1,'Ownership:']]],
+  ['ownership_3a_119',['ownership:',['../d3/de9/classAbstractDecklistCardNode.html#autotoc_md4',1,'Ownership:'],['../da/d68/classDeckList.html#autotoc_md8',1,'Ownership:'],['../d5/d22/classDecklistCardNode.html#autotoc_md14',1,'Ownership:'],['../d4/d55/classInnerDecklistNode.html#autotoc_md18',1,'Ownership:']]],
   ['ownuser_120',['ownUser',['../df/d78/classTabRoom.html#addea7f2790e05bf04a7f846cbbc6fc79',1,'TabRoom']]],
   ['ownuserinfo_121',['ownuserinfo',['../d1/de7/classTabMessage.html#a5eb7d12dd4dedcfa71d2476dd01d7cb3',1,'TabMessage::ownUserInfo'],['../db/d6d/classUserListManager.html#a343b88aec385ef35d3df7c0e0133d797',1,'UserListManager::ownUserInfo']]],
   ['ownusername_122',['ownUserName',['../dc/dea/classChatView.html#a247c82f13e8feec5cfac6c46648829ba',1,'ChatView']]]

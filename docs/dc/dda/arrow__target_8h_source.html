@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,108 +108,109 @@ $(document).ready(function(){initNavTree('dc/dda/arrow__target_8h_source.html','
   <div class="headertitle"><div class="title">arrow_target.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dc/dda/arrow__target_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef ARROWTARGET_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define ARROWTARGET_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../d5/d21/abstract__graphics__item_8h.html">abstract_graphics_item.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QList&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a>;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">class </span><a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a>;</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html">   11</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d9/dce/classArrowTarget.html">ArrowTarget</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../de/dfe/classAbstractGraphicsItem.html">AbstractGraphicsItem</a></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    Q_OBJECT</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#abaf1f20fe8df68fca8ef1fdf3348cb7e">   15</a></span>    <a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *<a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#abaf1f20fe8df68fca8ef1fdf3348cb7e">owner</a>;</div>
+<a href="../../dc/dda/arrow__target_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef ARROWTARGET_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define ARROWTARGET_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../d5/d21/abstract__graphics__item_8h.html">abstract_graphics_item.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QList&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span><a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a8aafe3fbfc9d3a1fc5d3965579f64ade">   18</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#a8aafe3fbfc9d3a1fc5d3965579f64ade">beingPointedAt</a>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a7f7391b7218405c8e0e6bd0c91040908">   19</a></span>    QList&lt;ArrowItem *&gt; <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#a7f7391b7218405c8e0e6bd0c91040908">arrowsFrom</a>, <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#aa6af6fcf9875f7d4d9a50491dcd64eb7">arrowsTo</a>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d9/dce/classArrowTarget.html">ArrowTarget</a>(<a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *_owner, QGraphicsItem *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#af38cf51aca0c2886682ae93ad84380a7">~ArrowTarget</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a754d650e2134cba30331382e76766463">   25</a></span>    <a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *<a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a754d650e2134cba30331382e76766463">getOwner</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#abaf1f20fe8df68fca8ef1fdf3348cb7e">owner</a>;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    }</div>
-</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#ab9894cdceabb1090997e220bea9cc419">setBeingPointedAt</a>(<span class="keywordtype">bool</span> _beingPointedAt);</div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d9/dce/classArrowTarget.html">ArrowTarget</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../de/dfe/classAbstractGraphicsItem.html">AbstractGraphicsItem</a></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    Q_OBJECT</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#abaf1f20fe8df68fca8ef1fdf3348cb7e">   21</a></span>    <a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *<a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#abaf1f20fe8df68fca8ef1fdf3348cb7e">owner</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a8aafe3fbfc9d3a1fc5d3965579f64ade">   24</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#a8aafe3fbfc9d3a1fc5d3965579f64ade">beingPointedAt</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a7f7391b7218405c8e0e6bd0c91040908">   25</a></span>    QList&lt;ArrowItem *&gt; <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#a7f7391b7218405c8e0e6bd0c91040908">arrowsFrom</a>, <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#aa6af6fcf9875f7d4d9a50491dcd64eb7">arrowsTo</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d9/dce/classArrowTarget.html">ArrowTarget</a>(<a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *_owner, QGraphicsItem *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#af38cf51aca0c2886682ae93ad84380a7">~ArrowTarget</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="foldopen" id="foldopen00031" data-start="{" data-end="}">
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a5ab71e6b3743aca830623ccf72deddb6">   31</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a5ab71e6b3743aca830623ccf72deddb6">getBeingPointedAt</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a754d650e2134cba30331382e76766463">   31</a></span>    <a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *<a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a754d650e2134cba30331382e76766463">getOwner</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#a8aafe3fbfc9d3a1fc5d3965579f64ade">beingPointedAt</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#abaf1f20fe8df68fca8ef1fdf3348cb7e">owner</a>;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    }</div>
 </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="foldopen" id="foldopen00036" data-start="{" data-end="}">
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a257b0fc5d7f6af2941104bae8ba5e597">   36</a></span>    <span class="keyword">const</span> QList&lt;ArrowItem *&gt; &amp;<a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a257b0fc5d7f6af2941104bae8ba5e597">getArrowsFrom</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#a7f7391b7218405c8e0e6bd0c91040908">arrowsFrom</a>;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#ab9894cdceabb1090997e220bea9cc419">setBeingPointedAt</a>(<span class="keywordtype">bool</span> _beingPointedAt);</div>
+<div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a5ab71e6b3743aca830623ccf72deddb6">   37</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a5ab71e6b3743aca830623ccf72deddb6">getBeingPointedAt</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#a8aafe3fbfc9d3a1fc5d3965579f64ade">beingPointedAt</a>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#aa7caf795eff2578ab0ef4b54c420915b">   40</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#aa7caf795eff2578ab0ef4b54c420915b">addArrowFrom</a>(<a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *arrow)</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    {</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#a7f7391b7218405c8e0e6bd0c91040908">arrowsFrom</a>.append(arrow);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a257b0fc5d7f6af2941104bae8ba5e597">   42</a></span>    <span class="keyword">const</span> QList&lt;ArrowItem *&gt; &amp;<a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a257b0fc5d7f6af2941104bae8ba5e597">getArrowsFrom</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#a7f7391b7218405c8e0e6bd0c91040908">arrowsFrom</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a31e459374c78bf3b922b4a7e306401b9">   44</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a31e459374c78bf3b922b4a7e306401b9">removeArrowFrom</a>(<a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *arrow)</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    {</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#a7f7391b7218405c8e0e6bd0c91040908">arrowsFrom</a>.removeOne(arrow);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
+<div class="foldopen" id="foldopen00046" data-start="{" data-end="}">
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#aa7caf795eff2578ab0ef4b54c420915b">   46</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#aa7caf795eff2578ab0ef4b54c420915b">addArrowFrom</a>(<a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *arrow)</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    {</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#a7f7391b7218405c8e0e6bd0c91040908">arrowsFrom</a>.append(arrow);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00048" data-start="{" data-end="}">
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a5e01d1292b1b30adbf1faad6c4a94d83">   48</a></span>    <span class="keyword">const</span> QList&lt;ArrowItem *&gt; &amp;<a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a5e01d1292b1b30adbf1faad6c4a94d83">getArrowsTo</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#aa6af6fcf9875f7d4d9a50491dcd64eb7">arrowsTo</a>;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    }</div>
+<div class="foldopen" id="foldopen00050" data-start="{" data-end="}">
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a31e459374c78bf3b922b4a7e306401b9">   50</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a31e459374c78bf3b922b4a7e306401b9">removeArrowFrom</a>(<a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *arrow)</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#a7f7391b7218405c8e0e6bd0c91040908">arrowsFrom</a>.removeOne(arrow);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a1e04a1821de39dc62af377613be505da">   52</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a1e04a1821de39dc62af377613be505da">addArrowTo</a>(<a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *arrow)</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    {</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#aa6af6fcf9875f7d4d9a50491dcd64eb7">arrowsTo</a>.append(arrow);</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    }</div>
+<div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a5e01d1292b1b30adbf1faad6c4a94d83">   54</a></span>    <span class="keyword">const</span> QList&lt;ArrowItem *&gt; &amp;<a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a5e01d1292b1b30adbf1faad6c4a94d83">getArrowsTo</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#aa6af6fcf9875f7d4d9a50491dcd64eb7">arrowsTo</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00056" data-start="{" data-end="}">
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a9ed373a93f2a9331a633f6b167ff3808">   56</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a9ed373a93f2a9331a633f6b167ff3808">removeArrowTo</a>(<a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *arrow)</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    {</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#aa6af6fcf9875f7d4d9a50491dcd64eb7">arrowsTo</a>.removeOne(arrow);</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    }</div>
+<div class="foldopen" id="foldopen00058" data-start="{" data-end="}">
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a1e04a1821de39dc62af377613be505da">   58</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a1e04a1821de39dc62af377613be505da">addArrowTo</a>(<a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *arrow)</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    {</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#aa6af6fcf9875f7d4d9a50491dcd64eb7">arrowsTo</a>.append(arrow);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    }</div>
 </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    QVariant <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a3776b5a1de3da0d531b5f0e9d1bf11a3">itemChange</a>(QGraphicsItem::GraphicsItemChange change, <span class="keyword">const</span> QVariant &amp;value) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>};</div>
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../d9/dce/classArrowTarget.html#a9ed373a93f2a9331a633f6b167ff3808">   62</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a9ed373a93f2a9331a633f6b167ff3808">removeArrowTo</a>(<a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *arrow)</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    {</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <a class="code hl_variable" href="../../d9/dce/classArrowTarget.html#aa6af6fcf9875f7d4d9a50491dcd64eb7">arrowsTo</a>.removeOne(arrow);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    }</div>
 </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aabstract__graphics__item_8h_html"><div class="ttname"><a href="../../d5/d21/abstract__graphics__item_8h.html">abstract_graphics_item.h</a></div></div>
-<div class="ttc" id="aclassAbstractGraphicsItem_html"><div class="ttname"><a href="../../de/dfe/classAbstractGraphicsItem.html">AbstractGraphicsItem</a></div><div class="ttdef"><b>Definition</b> abstract_graphics_item.h:10</div></div>
-<div class="ttc" id="aclassArrowItem_html"><div class="ttname"><a href="../../df/d2a/classArrowItem.html">ArrowItem</a></div><div class="ttdef"><b>Definition</b> arrow_item.h:13</div></div>
-<div class="ttc" id="aclassArrowTarget_html"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html">ArrowTarget</a></div><div class="ttdef"><b>Definition</b> arrow_target.h:12</div></div>
-<div class="ttc" id="aclassArrowTarget_html_a1e04a1821de39dc62af377613be505da"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a1e04a1821de39dc62af377613be505da">ArrowTarget::addArrowTo</a></div><div class="ttdeci">void addArrowTo(ArrowItem *arrow)</div><div class="ttdef"><b>Definition</b> arrow_target.h:52</div></div>
-<div class="ttc" id="aclassArrowTarget_html_a257b0fc5d7f6af2941104bae8ba5e597"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a257b0fc5d7f6af2941104bae8ba5e597">ArrowTarget::getArrowsFrom</a></div><div class="ttdeci">const QList&lt; ArrowItem * &gt; &amp; getArrowsFrom() const</div><div class="ttdef"><b>Definition</b> arrow_target.h:36</div></div>
-<div class="ttc" id="aclassArrowTarget_html_a31e459374c78bf3b922b4a7e306401b9"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a31e459374c78bf3b922b4a7e306401b9">ArrowTarget::removeArrowFrom</a></div><div class="ttdeci">void removeArrowFrom(ArrowItem *arrow)</div><div class="ttdef"><b>Definition</b> arrow_target.h:44</div></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    QVariant <a class="code hl_function" href="../../d9/dce/classArrowTarget.html#a3776b5a1de3da0d531b5f0e9d1bf11a3">itemChange</a>(QGraphicsItem::GraphicsItemChange change, <span class="keyword">const</span> QVariant &amp;value) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>};</div>
+</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aabstract__graphics__item_8h_html"><div class="ttname"><a href="../../d5/d21/abstract__graphics__item_8h.html">abstract_graphics_item.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
+<div class="ttc" id="aclassAbstractGraphicsItem_html"><div class="ttname"><a href="../../de/dfe/classAbstractGraphicsItem.html">AbstractGraphicsItem</a></div><div class="ttdef"><b>Definition</b> abstract_graphics_item.h:16</div></div>
+<div class="ttc" id="aclassArrowItem_html"><div class="ttname"><a href="../../df/d2a/classArrowItem.html">ArrowItem</a></div><div class="ttdef"><b>Definition</b> arrow_item.h:19</div></div>
+<div class="ttc" id="aclassArrowTarget_html"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html">ArrowTarget</a></div><div class="ttdef"><b>Definition</b> arrow_target.h:18</div></div>
+<div class="ttc" id="aclassArrowTarget_html_a1e04a1821de39dc62af377613be505da"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a1e04a1821de39dc62af377613be505da">ArrowTarget::addArrowTo</a></div><div class="ttdeci">void addArrowTo(ArrowItem *arrow)</div><div class="ttdef"><b>Definition</b> arrow_target.h:58</div></div>
+<div class="ttc" id="aclassArrowTarget_html_a257b0fc5d7f6af2941104bae8ba5e597"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a257b0fc5d7f6af2941104bae8ba5e597">ArrowTarget::getArrowsFrom</a></div><div class="ttdeci">const QList&lt; ArrowItem * &gt; &amp; getArrowsFrom() const</div><div class="ttdef"><b>Definition</b> arrow_target.h:42</div></div>
+<div class="ttc" id="aclassArrowTarget_html_a31e459374c78bf3b922b4a7e306401b9"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a31e459374c78bf3b922b4a7e306401b9">ArrowTarget::removeArrowFrom</a></div><div class="ttdeci">void removeArrowFrom(ArrowItem *arrow)</div><div class="ttdef"><b>Definition</b> arrow_target.h:50</div></div>
 <div class="ttc" id="aclassArrowTarget_html_a3776b5a1de3da0d531b5f0e9d1bf11a3"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a3776b5a1de3da0d531b5f0e9d1bf11a3">ArrowTarget::itemChange</a></div><div class="ttdeci">QVariant itemChange(QGraphicsItem::GraphicsItemChange change, const QVariant &amp;value) override</div><div class="ttdef"><b>Definition</b> arrow_target.cpp:30</div></div>
-<div class="ttc" id="aclassArrowTarget_html_a5ab71e6b3743aca830623ccf72deddb6"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a5ab71e6b3743aca830623ccf72deddb6">ArrowTarget::getBeingPointedAt</a></div><div class="ttdeci">bool getBeingPointedAt() const</div><div class="ttdef"><b>Definition</b> arrow_target.h:31</div></div>
-<div class="ttc" id="aclassArrowTarget_html_a5e01d1292b1b30adbf1faad6c4a94d83"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a5e01d1292b1b30adbf1faad6c4a94d83">ArrowTarget::getArrowsTo</a></div><div class="ttdeci">const QList&lt; ArrowItem * &gt; &amp; getArrowsTo() const</div><div class="ttdef"><b>Definition</b> arrow_target.h:48</div></div>
-<div class="ttc" id="aclassArrowTarget_html_a754d650e2134cba30331382e76766463"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a754d650e2134cba30331382e76766463">ArrowTarget::getOwner</a></div><div class="ttdeci">Player * getOwner() const</div><div class="ttdef"><b>Definition</b> arrow_target.h:25</div></div>
-<div class="ttc" id="aclassArrowTarget_html_a7f7391b7218405c8e0e6bd0c91040908"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a7f7391b7218405c8e0e6bd0c91040908">ArrowTarget::arrowsFrom</a></div><div class="ttdeci">QList&lt; ArrowItem * &gt; arrowsFrom</div><div class="ttdef"><b>Definition</b> arrow_target.h:19</div></div>
-<div class="ttc" id="aclassArrowTarget_html_a8aafe3fbfc9d3a1fc5d3965579f64ade"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a8aafe3fbfc9d3a1fc5d3965579f64ade">ArrowTarget::beingPointedAt</a></div><div class="ttdeci">bool beingPointedAt</div><div class="ttdef"><b>Definition</b> arrow_target.h:18</div></div>
-<div class="ttc" id="aclassArrowTarget_html_a9ed373a93f2a9331a633f6b167ff3808"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a9ed373a93f2a9331a633f6b167ff3808">ArrowTarget::removeArrowTo</a></div><div class="ttdeci">void removeArrowTo(ArrowItem *arrow)</div><div class="ttdef"><b>Definition</b> arrow_target.h:56</div></div>
-<div class="ttc" id="aclassArrowTarget_html_aa6af6fcf9875f7d4d9a50491dcd64eb7"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#aa6af6fcf9875f7d4d9a50491dcd64eb7">ArrowTarget::arrowsTo</a></div><div class="ttdeci">QList&lt; ArrowItem * &gt; arrowsTo</div><div class="ttdef"><b>Definition</b> arrow_target.h:19</div></div>
-<div class="ttc" id="aclassArrowTarget_html_aa7caf795eff2578ab0ef4b54c420915b"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#aa7caf795eff2578ab0ef4b54c420915b">ArrowTarget::addArrowFrom</a></div><div class="ttdeci">void addArrowFrom(ArrowItem *arrow)</div><div class="ttdef"><b>Definition</b> arrow_target.h:40</div></div>
+<div class="ttc" id="aclassArrowTarget_html_a5ab71e6b3743aca830623ccf72deddb6"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a5ab71e6b3743aca830623ccf72deddb6">ArrowTarget::getBeingPointedAt</a></div><div class="ttdeci">bool getBeingPointedAt() const</div><div class="ttdef"><b>Definition</b> arrow_target.h:37</div></div>
+<div class="ttc" id="aclassArrowTarget_html_a5e01d1292b1b30adbf1faad6c4a94d83"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a5e01d1292b1b30adbf1faad6c4a94d83">ArrowTarget::getArrowsTo</a></div><div class="ttdeci">const QList&lt; ArrowItem * &gt; &amp; getArrowsTo() const</div><div class="ttdef"><b>Definition</b> arrow_target.h:54</div></div>
+<div class="ttc" id="aclassArrowTarget_html_a754d650e2134cba30331382e76766463"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a754d650e2134cba30331382e76766463">ArrowTarget::getOwner</a></div><div class="ttdeci">Player * getOwner() const</div><div class="ttdef"><b>Definition</b> arrow_target.h:31</div></div>
+<div class="ttc" id="aclassArrowTarget_html_a7f7391b7218405c8e0e6bd0c91040908"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a7f7391b7218405c8e0e6bd0c91040908">ArrowTarget::arrowsFrom</a></div><div class="ttdeci">QList&lt; ArrowItem * &gt; arrowsFrom</div><div class="ttdef"><b>Definition</b> arrow_target.h:25</div></div>
+<div class="ttc" id="aclassArrowTarget_html_a8aafe3fbfc9d3a1fc5d3965579f64ade"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a8aafe3fbfc9d3a1fc5d3965579f64ade">ArrowTarget::beingPointedAt</a></div><div class="ttdeci">bool beingPointedAt</div><div class="ttdef"><b>Definition</b> arrow_target.h:24</div></div>
+<div class="ttc" id="aclassArrowTarget_html_a9ed373a93f2a9331a633f6b167ff3808"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#a9ed373a93f2a9331a633f6b167ff3808">ArrowTarget::removeArrowTo</a></div><div class="ttdeci">void removeArrowTo(ArrowItem *arrow)</div><div class="ttdef"><b>Definition</b> arrow_target.h:62</div></div>
+<div class="ttc" id="aclassArrowTarget_html_aa6af6fcf9875f7d4d9a50491dcd64eb7"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#aa6af6fcf9875f7d4d9a50491dcd64eb7">ArrowTarget::arrowsTo</a></div><div class="ttdeci">QList&lt; ArrowItem * &gt; arrowsTo</div><div class="ttdef"><b>Definition</b> arrow_target.h:25</div></div>
+<div class="ttc" id="aclassArrowTarget_html_aa7caf795eff2578ab0ef4b54c420915b"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#aa7caf795eff2578ab0ef4b54c420915b">ArrowTarget::addArrowFrom</a></div><div class="ttdeci">void addArrowFrom(ArrowItem *arrow)</div><div class="ttdef"><b>Definition</b> arrow_target.h:46</div></div>
 <div class="ttc" id="aclassArrowTarget_html_ab9894cdceabb1090997e220bea9cc419"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#ab9894cdceabb1090997e220bea9cc419">ArrowTarget::setBeingPointedAt</a></div><div class="ttdeci">void setBeingPointedAt(bool _beingPointedAt)</div><div class="ttdef"><b>Definition</b> arrow_target.cpp:24</div></div>
-<div class="ttc" id="aclassArrowTarget_html_abaf1f20fe8df68fca8ef1fdf3348cb7e"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#abaf1f20fe8df68fca8ef1fdf3348cb7e">ArrowTarget::owner</a></div><div class="ttdeci">Player * owner</div><div class="ttdef"><b>Definition</b> arrow_target.h:15</div></div>
+<div class="ttc" id="aclassArrowTarget_html_abaf1f20fe8df68fca8ef1fdf3348cb7e"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#abaf1f20fe8df68fca8ef1fdf3348cb7e">ArrowTarget::owner</a></div><div class="ttdeci">Player * owner</div><div class="ttdef"><b>Definition</b> arrow_target.h:21</div></div>
 <div class="ttc" id="aclassArrowTarget_html_af38cf51aca0c2886682ae93ad84380a7"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html#af38cf51aca0c2886682ae93ad84380a7">ArrowTarget::~ArrowTarget</a></div><div class="ttdeci">~ArrowTarget() override</div><div class="ttdef"><b>Definition</b> arrow_target.cpp:12</div></div>
-<div class="ttc" id="aclassPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition</b> player.h:59</div></div>
+<div class="ttc" id="aclassPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition</b> player.h:65</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

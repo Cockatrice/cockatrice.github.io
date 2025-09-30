@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,66 +108,67 @@ $(document).ready(function(){initNavTree('dc/d32/deck__editor__filter__dock__wid
   <div class="headertitle"><div class="title">deck_editor_filter_dock_widget.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dc/d32/deck__editor__filter__dock__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef DECK_EDITOR_FILTER_DOCK_WIDGET_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define DECK_EDITOR_FILTER_DOCK_WIDGET_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../../../tabs/abstract_tab_deck_editor.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;../../../utility/key_signals.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QDockWidget&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QTreeView&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span><a class="code hl_class" href="../../d7/d62/classFilterTreeModel.html">FilterTreeModel</a>;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span><a class="code hl_class" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a>;</div>
-<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="../../dd/dd6/classDeckEditorFilterDockWidget.html">DeckEditorFilterDockWidget</a> : <span class="keyword">public</span> QDockWidget</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    Q_OBJECT</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../dd/dd6/classDeckEditorFilterDockWidget.html">DeckEditorFilterDockWidget</a>(<a class="code hl_class" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> *parent);</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a6272e15e464be5247245e4d58779c537">createFiltersDock</a>();</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#afdfea377cb17efb0fd9c84ef113f0d2f">retranslateUi</a>();</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a95e4a31a6810e79b08eb3b0d61a3599a">   19</a></span>    QAction *<a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a95e4a31a6810e79b08eb3b0d61a3599a">aClearFilterAll</a>, *<a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a9e987f26d5f4d122d14137192dc674d5">aClearFilterOne</a>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>signals:</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a3a885b88265760fef89752bdc3511473">   22</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a3a885b88265760fef89752bdc3511473">clearAllDatabaseFilters</a>();</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a4c3d3fef408f26040824c844e331f4c5">   25</a></span>    <a class="code hl_class" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> *<a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a4c3d3fef408f26040824c844e331f4c5">deckEditor</a>;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#af1b3ea4ec3e31037c79cc7c995a25142">   26</a></span>    <a class="code hl_class" href="../../d7/d62/classFilterTreeModel.html">FilterTreeModel</a> *<a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#af1b3ea4ec3e31037c79cc7c995a25142">filterModel</a>;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a513f26ff82e946ba02300d49b4fced9c">   27</a></span>    QTreeView *<a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a513f26ff82e946ba02300d49b4fced9c">filterView</a>;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a190b3b5ce7c5a55b201e57690810a821">   28</a></span>    <a class="code hl_class" href="../../da/d89/classKeySignals.html">KeySignals</a> <a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a190b3b5ce7c5a55b201e57690810a821">filterViewKeySignals</a>;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a21ad655c434a4e1407c7cb42888437d7">   29</a></span>    QWidget *<a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a21ad655c434a4e1407c7cb42888437d7">filterBox</a>;</div>
+<a href="../../dc/d32/deck__editor__filter__dock__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifndef DECK_EDITOR_FILTER_DOCK_WIDGET_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#define DECK_EDITOR_FILTER_DOCK_WIDGET_H</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;../../../tabs/abstract_tab_deck_editor.h&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;../../../utility/key_signals.h&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QDockWidget&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;QTreeView&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span><a class="code hl_class" href="../../d7/d62/classFilterTreeModel.html">FilterTreeModel</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span><a class="code hl_class" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a>;</div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html">   19</a></span><span class="keyword">class </span><a class="code hl_class" href="../../dd/dd6/classDeckEditorFilterDockWidget.html">DeckEditorFilterDockWidget</a> : <span class="keyword">public</span> QDockWidget</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    Q_OBJECT</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../dd/dd6/classDeckEditorFilterDockWidget.html">DeckEditorFilterDockWidget</a>(<a class="code hl_class" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> *parent);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a6272e15e464be5247245e4d58779c537">createFiltersDock</a>();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#afdfea377cb17efb0fd9c84ef113f0d2f">retranslateUi</a>();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a95e4a31a6810e79b08eb3b0d61a3599a">   26</a></span>    QAction *<a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a95e4a31a6810e79b08eb3b0d61a3599a">aClearFilterAll</a>, *<a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a9e987f26d5f4d122d14137192dc674d5">aClearFilterOne</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>signals:</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a3a885b88265760fef89752bdc3511473">   29</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a3a885b88265760fef89752bdc3511473">clearAllDatabaseFilters</a>();</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#ab9ebd7c3dbd751b1a8d3a2b44fb428cd">filterViewCustomContextMenu</a>(<span class="keyword">const</span> QPoint &amp;point);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a652fde8afd76e8a9ab76c5e22d68c73c">filterRemove</a>(<span class="keyword">const</span> QAction *action);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a1c8b2eed87b9f1afd0f86c2087864729">actClearFilterAll</a>();</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a43923737ef5ff423ea1f2f2014c1cb79">actClearFilterOne</a>();</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a2e21885b6e55c56c9bb728926852e6c3">refreshShortcuts</a>();</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a4c3d3fef408f26040824c844e331f4c5">   32</a></span>    <a class="code hl_class" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> *<a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a4c3d3fef408f26040824c844e331f4c5">deckEditor</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#af1b3ea4ec3e31037c79cc7c995a25142">   33</a></span>    <a class="code hl_class" href="../../d7/d62/classFilterTreeModel.html">FilterTreeModel</a> *<a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#af1b3ea4ec3e31037c79cc7c995a25142">filterModel</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a513f26ff82e946ba02300d49b4fced9c">   34</a></span>    QTreeView *<a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a513f26ff82e946ba02300d49b4fced9c">filterView</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a190b3b5ce7c5a55b201e57690810a821">   35</a></span>    <a class="code hl_class" href="../../da/d89/classKeySignals.html">KeySignals</a> <a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a190b3b5ce7c5a55b201e57690810a821">filterViewKeySignals</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a21ad655c434a4e1407c7cb42888437d7">   36</a></span>    QWidget *<a class="code hl_variable" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a21ad655c434a4e1407c7cb42888437d7">filterBox</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#ab9ebd7c3dbd751b1a8d3a2b44fb428cd">filterViewCustomContextMenu</a>(<span class="keyword">const</span> QPoint &amp;point);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a652fde8afd76e8a9ab76c5e22d68c73c">filterRemove</a>(<span class="keyword">const</span> QAction *action);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a1c8b2eed87b9f1afd0f86c2087864729">actClearFilterAll</a>();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a43923737ef5ff423ea1f2f2014c1cb79">actClearFilterOne</a>();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a2e21885b6e55c56c9bb728926852e6c3">refreshShortcuts</a>();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
 </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#endif </span><span class="comment">// DECK_EDITOR_FILTER_DOCK_WIDGET_H</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif </span><span class="comment">// DECK_EDITOR_FILTER_DOCK_WIDGET_H</span></div>
 <div class="ttc" id="aclassAbstractTabDeckEditor_html"><div class="ttname"><a href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a></div><div class="ttdef"><b>Definition</b> abstract_tab_deck_editor.h:44</div></div>
-<div class="ttc" id="aclassDeckEditorFilterDockWidget_html"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html">DeckEditorFilterDockWidget</a></div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:13</div></div>
-<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a190b3b5ce7c5a55b201e57690810a821"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a190b3b5ce7c5a55b201e57690810a821">DeckEditorFilterDockWidget::filterViewKeySignals</a></div><div class="ttdeci">KeySignals filterViewKeySignals</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:28</div></div>
+<div class="ttc" id="aclassDeckEditorFilterDockWidget_html"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html">DeckEditorFilterDockWidget</a></div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:20</div></div>
+<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a190b3b5ce7c5a55b201e57690810a821"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a190b3b5ce7c5a55b201e57690810a821">DeckEditorFilterDockWidget::filterViewKeySignals</a></div><div class="ttdeci">KeySignals filterViewKeySignals</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:35</div></div>
 <div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a1c8b2eed87b9f1afd0f86c2087864729"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a1c8b2eed87b9f1afd0f86c2087864729">DeckEditorFilterDockWidget::actClearFilterAll</a></div><div class="ttdeci">void actClearFilterAll()</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.cpp:116</div></div>
-<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a21ad655c434a4e1407c7cb42888437d7"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a21ad655c434a4e1407c7cb42888437d7">DeckEditorFilterDockWidget::filterBox</a></div><div class="ttdeci">QWidget * filterBox</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:29</div></div>
+<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a21ad655c434a4e1407c7cb42888437d7"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a21ad655c434a4e1407c7cb42888437d7">DeckEditorFilterDockWidget::filterBox</a></div><div class="ttdeci">QWidget * filterBox</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:36</div></div>
 <div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a2e21885b6e55c56c9bb728926852e6c3"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a2e21885b6e55c56c9bb728926852e6c3">DeckEditorFilterDockWidget::refreshShortcuts</a></div><div class="ttdeci">void refreshShortcuts()</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.cpp:129</div></div>
 <div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a3a885b88265760fef89752bdc3511473"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a3a885b88265760fef89752bdc3511473">DeckEditorFilterDockWidget::clearAllDatabaseFilters</a></div><div class="ttdeci">void clearAllDatabaseFilters()</div></div>
 <div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a43923737ef5ff423ea1f2f2014c1cb79"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a43923737ef5ff423ea1f2f2014c1cb79">DeckEditorFilterDockWidget::actClearFilterOne</a></div><div class="ttdeci">void actClearFilterOne()</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.cpp:121</div></div>
-<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a4c3d3fef408f26040824c844e331f4c5"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a4c3d3fef408f26040824c844e331f4c5">DeckEditorFilterDockWidget::deckEditor</a></div><div class="ttdeci">AbstractTabDeckEditor * deckEditor</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:25</div></div>
-<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a513f26ff82e946ba02300d49b4fced9c"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a513f26ff82e946ba02300d49b4fced9c">DeckEditorFilterDockWidget::filterView</a></div><div class="ttdeci">QTreeView * filterView</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:27</div></div>
+<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a4c3d3fef408f26040824c844e331f4c5"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a4c3d3fef408f26040824c844e331f4c5">DeckEditorFilterDockWidget::deckEditor</a></div><div class="ttdeci">AbstractTabDeckEditor * deckEditor</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:32</div></div>
+<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a513f26ff82e946ba02300d49b4fced9c"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a513f26ff82e946ba02300d49b4fced9c">DeckEditorFilterDockWidget::filterView</a></div><div class="ttdeci">QTreeView * filterView</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:34</div></div>
 <div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a6272e15e464be5247245e4d58779c537"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a6272e15e464be5247245e4d58779c537">DeckEditorFilterDockWidget::createFiltersDock</a></div><div class="ttdeci">void createFiltersDock()</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.cpp:23</div></div>
 <div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a652fde8afd76e8a9ab76c5e22d68c73c"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a652fde8afd76e8a9ab76c5e22d68c73c">DeckEditorFilterDockWidget::filterRemove</a></div><div class="ttdeci">void filterRemove(const QAction *action)</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.cpp:103</div></div>
-<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a95e4a31a6810e79b08eb3b0d61a3599a"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a95e4a31a6810e79b08eb3b0d61a3599a">DeckEditorFilterDockWidget::aClearFilterAll</a></div><div class="ttdeci">QAction * aClearFilterAll</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:19</div></div>
-<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a9e987f26d5f4d122d14137192dc674d5"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a9e987f26d5f4d122d14137192dc674d5">DeckEditorFilterDockWidget::aClearFilterOne</a></div><div class="ttdeci">QAction * aClearFilterOne</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:19</div></div>
+<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a95e4a31a6810e79b08eb3b0d61a3599a"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a95e4a31a6810e79b08eb3b0d61a3599a">DeckEditorFilterDockWidget::aClearFilterAll</a></div><div class="ttdeci">QAction * aClearFilterAll</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:26</div></div>
+<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_a9e987f26d5f4d122d14137192dc674d5"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#a9e987f26d5f4d122d14137192dc674d5">DeckEditorFilterDockWidget::aClearFilterOne</a></div><div class="ttdeci">QAction * aClearFilterOne</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:26</div></div>
 <div class="ttc" id="aclassDeckEditorFilterDockWidget_html_ab9ebd7c3dbd751b1a8d3a2b44fb428cd"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#ab9ebd7c3dbd751b1a8d3a2b44fb428cd">DeckEditorFilterDockWidget::filterViewCustomContextMenu</a></div><div class="ttdeci">void filterViewCustomContextMenu(const QPoint &amp;point)</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.cpp:87</div></div>
-<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_af1b3ea4ec3e31037c79cc7c995a25142"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#af1b3ea4ec3e31037c79cc7c995a25142">DeckEditorFilterDockWidget::filterModel</a></div><div class="ttdeci">FilterTreeModel * filterModel</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:26</div></div>
+<div class="ttc" id="aclassDeckEditorFilterDockWidget_html_af1b3ea4ec3e31037c79cc7c995a25142"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#af1b3ea4ec3e31037c79cc7c995a25142">DeckEditorFilterDockWidget::filterModel</a></div><div class="ttdeci">FilterTreeModel * filterModel</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.h:33</div></div>
 <div class="ttc" id="aclassDeckEditorFilterDockWidget_html_afdfea377cb17efb0fd9c84ef113f0d2f"><div class="ttname"><a href="../../dd/dd6/classDeckEditorFilterDockWidget.html#afdfea377cb17efb0fd9c84ef113f0d2f">DeckEditorFilterDockWidget::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdef"><b>Definition</b> deck_editor_filter_dock_widget.cpp:137</div></div>
-<div class="ttc" id="aclassFilterTreeModel_html"><div class="ttname"><a href="../../d7/d62/classFilterTreeModel.html">FilterTreeModel</a></div><div class="ttdef"><b>Definition</b> filter_tree_model.h:13</div></div>
-<div class="ttc" id="aclassKeySignals_html"><div class="ttname"><a href="../../da/d89/classKeySignals.html">KeySignals</a></div><div class="ttdef"><b>Definition</b> key_signals.h:8</div></div>
+<div class="ttc" id="aclassFilterTreeModel_html"><div class="ttname"><a href="../../d7/d62/classFilterTreeModel.html">FilterTreeModel</a></div><div class="ttdef"><b>Definition</b> filter_tree_model.h:19</div></div>
+<div class="ttc" id="aclassKeySignals_html"><div class="ttname"><a href="../../da/d89/classKeySignals.html">KeySignals</a></div><div class="ttdef"><b>Definition</b> key_signals.h:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

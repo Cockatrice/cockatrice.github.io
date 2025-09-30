@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -151,9 +153,9 @@ $(document).ready(function(){initNavTree('d5/d9f/tab__deck__editor_8h_source.htm
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aabstract__tab__deck__editor_8h_html"><div class="ttname"><a href="../../dd/d2f/abstract__tab__deck__editor_8h.html">abstract_tab_deck_editor.h</a></div></div>
 <div class="ttc" id="aclassAbstractTabDeckEditor_html"><div class="ttname"><a href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a></div><div class="ttdef"><b>Definition</b> abstract_tab_deck_editor.h:44</div></div>
-<div class="ttc" id="aclassCardDatabaseDisplayModel_html"><div class="ttname"><a href="../../da/d8d/classCardDatabaseDisplayModel.html">CardDatabaseDisplayModel</a></div><div class="ttdef"><b>Definition</b> card_database_display_model.h:13</div></div>
-<div class="ttc" id="aclassCardDatabaseModel_html"><div class="ttname"><a href="../../dd/d83/classCardDatabaseModel.html">CardDatabaseModel</a></div><div class="ttdef"><b>Definition</b> card_database_model.h:11</div></div>
-<div class="ttc" id="aclassDeckListModel_html"><div class="ttname"><a href="../../d9/de1/classDeckListModel.html">DeckListModel</a></div><div class="ttdoc">Qt model representing a decklist for use in views (tree/table).</div><div class="ttdef"><b>Definition</b> deck_list_model.h:122</div></div>
+<div class="ttc" id="aclassCardDatabaseDisplayModel_html"><div class="ttname"><a href="../../da/d8d/classCardDatabaseDisplayModel.html">CardDatabaseDisplayModel</a></div><div class="ttdef"><b>Definition</b> card_database_display_model.h:20</div></div>
+<div class="ttc" id="aclassCardDatabaseModel_html"><div class="ttname"><a href="../../dd/d83/classCardDatabaseModel.html">CardDatabaseModel</a></div><div class="ttdef"><b>Definition</b> card_database_model.h:17</div></div>
+<div class="ttc" id="aclassDeckListModel_html"><div class="ttname"><a href="../../d9/de1/classDeckListModel.html">DeckListModel</a></div><div class="ttdoc">Qt model representing a decklist for use in views (tree/table).</div><div class="ttdef"><b>Definition</b> deck_list_model.h:126</div></div>
 <div class="ttc" id="aclassTabDeckEditor_html"><div class="ttname"><a href="../../da/d88/classTabDeckEditor.html">TabDeckEditor</a></div><div class="ttdef"><b>Definition</b> tab_deck_editor.h:17</div></div>
 <div class="ttc" id="aclassTabDeckEditor_html_a0ea7cb53783976fe15b6dcfb689956c1"><div class="ttname"><a href="../../da/d88/classTabDeckEditor.html#a0ea7cb53783976fe15b6dcfb689956c1">TabDeckEditor::dockFloatingTriggered</a></div><div class="ttdeci">void dockFloatingTriggered() override</div><div class="ttdef"><b>Definition</b> tab_deck_editor.cpp:283</div></div>
 <div class="ttc" id="aclassTabDeckEditor_html_a63de464d420d9c5ecb699512dc02f0b7"><div class="ttname"><a href="../../da/d88/classTabDeckEditor.html#a63de464d420d9c5ecb699512dc02f0b7">TabDeckEditor::getTabText</a></div><div class="ttdeci">QString getTabText() const override</div><div class="ttdef"><b>Definition</b> tab_deck_editor.cpp:107</div></div>
@@ -167,7 +169,7 @@ $(document).ready(function(){initNavTree('d5/d9f/tab__deck__editor_8h_source.htm
 <div class="ttc" id="aclassTabDeckEditor_html_ac339f54d8cb50abf4167549cfa13fa23"><div class="ttname"><a href="../../da/d88/classTabDeckEditor.html#ac339f54d8cb50abf4167549cfa13fa23">TabDeckEditor::showPrintingSelector</a></div><div class="ttdeci">void showPrintingSelector() override</div><div class="ttdef"><b>Definition</b> tab_deck_editor.cpp:151</div></div>
 <div class="ttc" id="aclassTabDeckEditor_html_adb40f5e0c4afb8924c3de2ea17670eb0"><div class="ttname"><a href="../../da/d88/classTabDeckEditor.html#adb40f5e0c4afb8924c3de2ea17670eb0">TabDeckEditor::eventFilter</a></div><div class="ttdeci">bool eventFilter(QObject *o, QEvent *e) override</div><div class="ttdef"><b>Definition</b> tab_deck_editor.cpp:332</div></div>
 <div class="ttc" id="aclassTabDeckEditor_html_afc265cda9eec81e33c0690655d798bc3"><div class="ttname"><a href="../../da/d88/classTabDeckEditor.html#afc265cda9eec81e33c0690655d798bc3">TabDeckEditor::dockTopLevelChanged</a></div><div class="ttdeci">void dockTopLevelChanged(bool topLevel) override</div><div class="ttdef"><b>Definition</b> tab_deck_editor.cpp:307</div></div>
-<div class="ttc" id="aclassTabSupervisor_html"><div class="ttname"><a href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a></div><div class="ttdef"><b>Definition</b> tab_supervisor.h:77</div></div>
+<div class="ttc" id="aclassTabSupervisor_html"><div class="ttname"><a href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a></div><div class="ttdef"><b>Definition</b> tab_supervisor.h:84</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

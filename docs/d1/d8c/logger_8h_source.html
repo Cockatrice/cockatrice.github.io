@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,98 +108,99 @@ $(document).ready(function(){initNavTree('d1/d8c/logger_8h_source.html','../../'
   <div class="headertitle"><div class="title">logger.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d1/d8c/logger_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef LOGGER_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define LOGGER_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QFile&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QMutex&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QTextStream&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QVector&gt;</span></div>
+<a href="../../d1/d8c/logger_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef LOGGER_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define LOGGER_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#if defined(Q_PROCESSOR_X86_32)</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define BUILD_ARCHITECTURE &quot;32-bit&quot;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#elif defined(Q_PROCESSOR_X86_64)</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#define BUILD_ARCHITECTURE &quot;64-bit&quot;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#elif defined(Q_PROCESSOR_ARM)</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#define BUILD_ARCHITECTURE &quot;ARM&quot;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d1/d8c/logger_8h.html#a2c77987c4c7a8f91cae5aadeb7d95b77">   17</a></span><span class="preprocessor">#define BUILD_ARCHITECTURE &quot;unknown&quot;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="foldopen" id="foldopen00020" data-start="{" data-end="};">
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html">   20</a></span><span class="keyword">class </span><a class="code hl_class" href="../../db/d67/classLogger.html">Logger</a> : <span class="keyword">public</span> QObject</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    Q_OBJECT</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">public</span>:</div>
-<div class="foldopen" id="foldopen00024" data-start="{" data-end="}">
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#a56defd0fd628ce6263d25d02296e48ce">   24</a></span>    <span class="keyword">static</span> <a class="code hl_class" href="../../db/d67/classLogger.html">Logger</a> &amp;<a class="code hl_function" href="../../db/d67/classLogger.html#a56defd0fd628ce6263d25d02296e48ce">getInstance</a>()</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    {</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keyword">static</span> <a class="code hl_class" href="../../db/d67/classLogger.html">Logger</a> instance;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">return</span> instance;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    }</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QFile&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QMutex&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QTextStream&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QVector&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#if defined(Q_PROCESSOR_X86_32)</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#define BUILD_ARCHITECTURE &quot;32-bit&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#elif defined(Q_PROCESSOR_X86_64)</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define BUILD_ARCHITECTURE &quot;64-bit&quot;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#elif defined(Q_PROCESSOR_ARM)</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#define BUILD_ARCHITECTURE &quot;ARM&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d1/d8c/logger_8h.html#a2c77987c4c7a8f91cae5aadeb7d95b77">   23</a></span><span class="preprocessor">#define BUILD_ARCHITECTURE &quot;unknown&quot;</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html">   26</a></span><span class="keyword">class </span><a class="code hl_class" href="../../db/d67/classLogger.html">Logger</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>{</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    Q_OBJECT</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00030" data-start="{" data-end="}">
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#a56defd0fd628ce6263d25d02296e48ce">   30</a></span>    <span class="keyword">static</span> <a class="code hl_class" href="../../db/d67/classLogger.html">Logger</a> &amp;<a class="code hl_function" href="../../db/d67/classLogger.html#a56defd0fd628ce6263d25d02296e48ce">getInstance</a>()</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    {</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <span class="keyword">static</span> <a class="code hl_class" href="../../db/d67/classLogger.html">Logger</a> instance;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordflow">return</span> instance;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    }</div>
 </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d67/classLogger.html#aa194c59c212c64f794631571c5270e3b">logToFile</a>(<span class="keywordtype">bool</span> enabled);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d67/classLogger.html#ac3f2266dafb7b86937812df5a0734445">log</a>(QtMsgType type, <span class="keyword">const</span> QMessageLogContext &amp;ctx, <span class="keyword">const</span> QString &amp;message);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    QString <a class="code hl_function" href="../../db/d67/classLogger.html#a49a80a6a8b5997d9f376593bd5c37512">getClientVersion</a>();</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    QString <a class="code hl_function" href="../../db/d67/classLogger.html#a5004dbdc25706c7851da8ffbe947a752">getClientOperatingSystem</a>();</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    QString <a class="code hl_function" href="../../db/d67/classLogger.html#a6aa0432bffbc2abff42ba31de9b7fba4">getSystemArchitecture</a>();</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    QString <a class="code hl_function" href="../../db/d67/classLogger.html#aed940a5ab00fdb60a5d6bee83db04524">getSystemLocale</a>();</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    QString <a class="code hl_function" href="../../db/d67/classLogger.html#a43ffb2434b9a620beb8935fa78d648a1">getClientInstallInfo</a>();</div>
-<div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#acfa7b3fb8d0550befb8bcd5308d7675a">   37</a></span>    QList&lt;QString&gt; <a class="code hl_function" href="../../db/d67/classLogger.html#acfa7b3fb8d0550befb8bcd5308d7675a">getLogBuffer</a>()</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    {</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d67/classLogger.html#aad38a42954355a3142e0f6fa0c3a44b1">logBuffer</a>;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    }</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d67/classLogger.html#aa194c59c212c64f794631571c5270e3b">logToFile</a>(<span class="keywordtype">bool</span> enabled);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d67/classLogger.html#ac3f2266dafb7b86937812df5a0734445">log</a>(QtMsgType type, <span class="keyword">const</span> QMessageLogContext &amp;ctx, <span class="keyword">const</span> QString &amp;message);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    QString <a class="code hl_function" href="../../db/d67/classLogger.html#a49a80a6a8b5997d9f376593bd5c37512">getClientVersion</a>();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    QString <a class="code hl_function" href="../../db/d67/classLogger.html#a5004dbdc25706c7851da8ffbe947a752">getClientOperatingSystem</a>();</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    QString <a class="code hl_function" href="../../db/d67/classLogger.html#a6aa0432bffbc2abff42ba31de9b7fba4">getSystemArchitecture</a>();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    QString <a class="code hl_function" href="../../db/d67/classLogger.html#aed940a5ab00fdb60a5d6bee83db04524">getSystemLocale</a>();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    QString <a class="code hl_function" href="../../db/d67/classLogger.html#a43ffb2434b9a620beb8935fa78d648a1">getClientInstallInfo</a>();</div>
+<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#acfa7b3fb8d0550befb8bcd5308d7675a">   43</a></span>    QList&lt;QString&gt; <a class="code hl_function" href="../../db/d67/classLogger.html#acfa7b3fb8d0550befb8bcd5308d7675a">getLogBuffer</a>()</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d67/classLogger.html#aad38a42954355a3142e0f6fa0c3a44b1">logBuffer</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
 </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_function" href="../../db/d67/classLogger.html#abc41bfb031d896170c7675fa96a6b30c">Logger</a>();</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_function" href="../../db/d67/classLogger.html#afee741267f0de25da55208a6424eb84f">~Logger</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="comment">// Singleton - Don&#39;t implement copy constructor and assign operator</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#a21340fb1037a0f71c0dc659ea33678a4">   46</a></span>    <a class="code hl_function" href="../../db/d67/classLogger.html#a21340fb1037a0f71c0dc659ea33678a4">Logger</a>(<a class="code hl_class" href="../../db/d67/classLogger.html">Logger</a> <span class="keyword">const</span> &amp;);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#aa74312e7edcf3a5bcfd9ccba190b2621">   47</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d67/classLogger.html#aa74312e7edcf3a5bcfd9ccba190b2621">operator=</a>(<a class="code hl_class" href="../../db/d67/classLogger.html">Logger</a> <span class="keyword">const</span> &amp;);</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#a68c0d3e95a78e07978f131bd97b3b2d0">   49</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../db/d67/classLogger.html#a68c0d3e95a78e07978f131bd97b3b2d0">logToFileEnabled</a>;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#ac36eb723b85f7205fb8eb50a006a33b2">   50</a></span>    QTextStream <a class="code hl_variable" href="../../db/d67/classLogger.html#ac36eb723b85f7205fb8eb50a006a33b2">fileStream</a>;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#a1e3fcd8d71fa75bd75ee7eb02eb79de8">   51</a></span>    QFile <a class="code hl_variable" href="../../db/d67/classLogger.html#a1e3fcd8d71fa75bd75ee7eb02eb79de8">fileHandle</a>;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#aad38a42954355a3142e0f6fa0c3a44b1">   52</a></span>    QList&lt;QString&gt; <a class="code hl_variable" href="../../db/d67/classLogger.html#aad38a42954355a3142e0f6fa0c3a44b1">logBuffer</a>;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#a724e09b39b88c5a880f2405a260949cb">   53</a></span>    QMutex <a class="code hl_variable" href="../../db/d67/classLogger.html#a724e09b39b88c5a880f2405a260949cb">mutex</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <a class="code hl_function" href="../../db/d67/classLogger.html#abc41bfb031d896170c7675fa96a6b30c">Logger</a>();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <a class="code hl_function" href="../../db/d67/classLogger.html#afee741267f0de25da55208a6424eb84f">~Logger</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="comment">// Singleton - Don&#39;t implement copy constructor and assign operator</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#a21340fb1037a0f71c0dc659ea33678a4">   52</a></span>    <a class="code hl_function" href="../../db/d67/classLogger.html#a21340fb1037a0f71c0dc659ea33678a4">Logger</a>(<a class="code hl_class" href="../../db/d67/classLogger.html">Logger</a> <span class="keyword">const</span> &amp;);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#aa74312e7edcf3a5bcfd9ccba190b2621">   53</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d67/classLogger.html#aa74312e7edcf3a5bcfd9ccba190b2621">operator=</a>(<a class="code hl_class" href="../../db/d67/classLogger.html">Logger</a> <span class="keyword">const</span> &amp;);</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d67/classLogger.html#abc7d371802ceb2154a5cfb9209a62551">openLogfileSession</a>();</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d67/classLogger.html#af1a8490c7d7652060c17347ded72e910">closeLogfileSession</a>();</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">protected</span> slots:</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../db/d67/classLogger.html#a221d6e5def01df8d55514cd3afaab342">internalLog</a>(<span class="keyword">const</span> QString &amp;message);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>signals:</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#ab324f46dcca8a02672dd4d66c395b9eb">   63</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../db/d67/classLogger.html#ab324f46dcca8a02672dd4d66c395b9eb">logEntryAdded</a>(<span class="keyword">const</span> QString &amp;message);</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>};</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#a68c0d3e95a78e07978f131bd97b3b2d0">   55</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../db/d67/classLogger.html#a68c0d3e95a78e07978f131bd97b3b2d0">logToFileEnabled</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#ac36eb723b85f7205fb8eb50a006a33b2">   56</a></span>    QTextStream <a class="code hl_variable" href="../../db/d67/classLogger.html#ac36eb723b85f7205fb8eb50a006a33b2">fileStream</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#a1e3fcd8d71fa75bd75ee7eb02eb79de8">   57</a></span>    QFile <a class="code hl_variable" href="../../db/d67/classLogger.html#a1e3fcd8d71fa75bd75ee7eb02eb79de8">fileHandle</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#aad38a42954355a3142e0f6fa0c3a44b1">   58</a></span>    QList&lt;QString&gt; <a class="code hl_variable" href="../../db/d67/classLogger.html#aad38a42954355a3142e0f6fa0c3a44b1">logBuffer</a>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#a724e09b39b88c5a880f2405a260949cb">   59</a></span>    QMutex <a class="code hl_variable" href="../../db/d67/classLogger.html#a724e09b39b88c5a880f2405a260949cb">mutex</a>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d67/classLogger.html#abc7d371802ceb2154a5cfb9209a62551">openLogfileSession</a>();</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d67/classLogger.html#af1a8490c7d7652060c17347ded72e910">closeLogfileSession</a>();</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">protected</span> slots:</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../db/d67/classLogger.html#a221d6e5def01df8d55514cd3afaab342">internalLog</a>(<span class="keyword">const</span> QString &amp;message);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>signals:</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="../../db/d67/classLogger.html#ab324f46dcca8a02672dd4d66c395b9eb">   69</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../db/d67/classLogger.html#ab324f46dcca8a02672dd4d66c395b9eb">logEntryAdded</a>(<span class="keyword">const</span> QString &amp;message);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>};</div>
 </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassLogger_html"><div class="ttname"><a href="../../db/d67/classLogger.html">Logger</a></div><div class="ttdef"><b>Definition</b> logger.h:21</div></div>
-<div class="ttc" id="aclassLogger_html_a1e3fcd8d71fa75bd75ee7eb02eb79de8"><div class="ttname"><a href="../../db/d67/classLogger.html#a1e3fcd8d71fa75bd75ee7eb02eb79de8">Logger::fileHandle</a></div><div class="ttdeci">QFile fileHandle</div><div class="ttdef"><b>Definition</b> logger.h:51</div></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassLogger_html"><div class="ttname"><a href="../../db/d67/classLogger.html">Logger</a></div><div class="ttdef"><b>Definition</b> logger.h:27</div></div>
+<div class="ttc" id="aclassLogger_html_a1e3fcd8d71fa75bd75ee7eb02eb79de8"><div class="ttname"><a href="../../db/d67/classLogger.html#a1e3fcd8d71fa75bd75ee7eb02eb79de8">Logger::fileHandle</a></div><div class="ttdeci">QFile fileHandle</div><div class="ttdef"><b>Definition</b> logger.h:57</div></div>
 <div class="ttc" id="aclassLogger_html_a21340fb1037a0f71c0dc659ea33678a4"><div class="ttname"><a href="../../db/d67/classLogger.html#a21340fb1037a0f71c0dc659ea33678a4">Logger::Logger</a></div><div class="ttdeci">Logger(Logger const &amp;)</div></div>
 <div class="ttc" id="aclassLogger_html_a221d6e5def01df8d55514cd3afaab342"><div class="ttname"><a href="../../db/d67/classLogger.html#a221d6e5def01df8d55514cd3afaab342">Logger::internalLog</a></div><div class="ttdeci">void internalLog(const QString &amp;message)</div><div class="ttdef"><b>Definition</b> logger.cpp:89</div></div>
 <div class="ttc" id="aclassLogger_html_a43ffb2434b9a620beb8935fa78d648a1"><div class="ttname"><a href="../../db/d67/classLogger.html#a43ffb2434b9a620beb8935fa78d648a1">Logger::getClientInstallInfo</a></div><div class="ttdeci">QString getClientInstallInfo()</div><div class="ttdef"><b>Definition</b> logger.cpp:136</div></div>
 <div class="ttc" id="aclassLogger_html_a49a80a6a8b5997d9f376593bd5c37512"><div class="ttname"><a href="../../db/d67/classLogger.html#a49a80a6a8b5997d9f376593bd5c37512">Logger::getClientVersion</a></div><div class="ttdeci">QString getClientVersion()</div><div class="ttdef"><b>Definition</b> logger.cpp:42</div></div>
 <div class="ttc" id="aclassLogger_html_a5004dbdc25706c7851da8ffbe947a752"><div class="ttname"><a href="../../db/d67/classLogger.html#a5004dbdc25706c7851da8ffbe947a752">Logger::getClientOperatingSystem</a></div><div class="ttdeci">QString getClientOperatingSystem()</div><div class="ttdef"><b>Definition</b> logger.cpp:125</div></div>
-<div class="ttc" id="aclassLogger_html_a56defd0fd628ce6263d25d02296e48ce"><div class="ttname"><a href="../../db/d67/classLogger.html#a56defd0fd628ce6263d25d02296e48ce">Logger::getInstance</a></div><div class="ttdeci">static Logger &amp; getInstance()</div><div class="ttdef"><b>Definition</b> logger.h:24</div></div>
-<div class="ttc" id="aclassLogger_html_a68c0d3e95a78e07978f131bd97b3b2d0"><div class="ttname"><a href="../../db/d67/classLogger.html#a68c0d3e95a78e07978f131bd97b3b2d0">Logger::logToFileEnabled</a></div><div class="ttdeci">bool logToFileEnabled</div><div class="ttdef"><b>Definition</b> logger.h:49</div></div>
+<div class="ttc" id="aclassLogger_html_a56defd0fd628ce6263d25d02296e48ce"><div class="ttname"><a href="../../db/d67/classLogger.html#a56defd0fd628ce6263d25d02296e48ce">Logger::getInstance</a></div><div class="ttdeci">static Logger &amp; getInstance()</div><div class="ttdef"><b>Definition</b> logger.h:30</div></div>
+<div class="ttc" id="aclassLogger_html_a68c0d3e95a78e07978f131bd97b3b2d0"><div class="ttname"><a href="../../db/d67/classLogger.html#a68c0d3e95a78e07978f131bd97b3b2d0">Logger::logToFileEnabled</a></div><div class="ttdeci">bool logToFileEnabled</div><div class="ttdef"><b>Definition</b> logger.h:55</div></div>
 <div class="ttc" id="aclassLogger_html_a6aa0432bffbc2abff42ba31de9b7fba4"><div class="ttname"><a href="../../db/d67/classLogger.html#a6aa0432bffbc2abff42ba31de9b7fba4">Logger::getSystemArchitecture</a></div><div class="ttdeci">QString getSystemArchitecture()</div><div class="ttdef"><b>Definition</b> logger.cpp:110</div></div>
-<div class="ttc" id="aclassLogger_html_a724e09b39b88c5a880f2405a260949cb"><div class="ttname"><a href="../../db/d67/classLogger.html#a724e09b39b88c5a880f2405a260949cb">Logger::mutex</a></div><div class="ttdeci">QMutex mutex</div><div class="ttdef"><b>Definition</b> logger.h:53</div></div>
+<div class="ttc" id="aclassLogger_html_a724e09b39b88c5a880f2405a260949cb"><div class="ttname"><a href="../../db/d67/classLogger.html#a724e09b39b88c5a880f2405a260949cb">Logger::mutex</a></div><div class="ttdeci">QMutex mutex</div><div class="ttdef"><b>Definition</b> logger.h:59</div></div>
 <div class="ttc" id="aclassLogger_html_aa194c59c212c64f794631571c5270e3b"><div class="ttname"><a href="../../db/d67/classLogger.html#aa194c59c212c64f794631571c5270e3b">Logger::logToFile</a></div><div class="ttdeci">void logToFile(bool enabled)</div><div class="ttdef"><b>Definition</b> logger.cpp:33</div></div>
 <div class="ttc" id="aclassLogger_html_aa74312e7edcf3a5bcfd9ccba190b2621"><div class="ttname"><a href="../../db/d67/classLogger.html#aa74312e7edcf3a5bcfd9ccba190b2621">Logger::operator=</a></div><div class="ttdeci">void operator=(Logger const &amp;)</div></div>
-<div class="ttc" id="aclassLogger_html_aad38a42954355a3142e0f6fa0c3a44b1"><div class="ttname"><a href="../../db/d67/classLogger.html#aad38a42954355a3142e0f6fa0c3a44b1">Logger::logBuffer</a></div><div class="ttdeci">QList&lt; QString &gt; logBuffer</div><div class="ttdef"><b>Definition</b> logger.h:52</div></div>
+<div class="ttc" id="aclassLogger_html_aad38a42954355a3142e0f6fa0c3a44b1"><div class="ttname"><a href="../../db/d67/classLogger.html#aad38a42954355a3142e0f6fa0c3a44b1">Logger::logBuffer</a></div><div class="ttdeci">QList&lt; QString &gt; logBuffer</div><div class="ttdef"><b>Definition</b> logger.h:58</div></div>
 <div class="ttc" id="aclassLogger_html_ab324f46dcca8a02672dd4d66c395b9eb"><div class="ttname"><a href="../../db/d67/classLogger.html#ab324f46dcca8a02672dd4d66c395b9eb">Logger::logEntryAdded</a></div><div class="ttdeci">void logEntryAdded(const QString &amp;message)</div></div>
 <div class="ttc" id="aclassLogger_html_abc41bfb031d896170c7675fa96a6b30c"><div class="ttname"><a href="../../db/d67/classLogger.html#abc41bfb031d896170c7675fa96a6b30c">Logger::Logger</a></div><div class="ttdeci">Logger()</div><div class="ttdef"><b>Definition</b> logger.cpp:14</div></div>
 <div class="ttc" id="aclassLogger_html_abc7d371802ceb2154a5cfb9209a62551"><div class="ttname"><a href="../../db/d67/classLogger.html#abc7d371802ceb2154a5cfb9209a62551">Logger::openLogfileSession</a></div><div class="ttdeci">void openLogfileSession()</div><div class="ttdef"><b>Definition</b> logger.cpp:47</div></div>
-<div class="ttc" id="aclassLogger_html_ac36eb723b85f7205fb8eb50a006a33b2"><div class="ttname"><a href="../../db/d67/classLogger.html#ac36eb723b85f7205fb8eb50a006a33b2">Logger::fileStream</a></div><div class="ttdeci">QTextStream fileStream</div><div class="ttdef"><b>Definition</b> logger.h:50</div></div>
+<div class="ttc" id="aclassLogger_html_ac36eb723b85f7205fb8eb50a006a33b2"><div class="ttname"><a href="../../db/d67/classLogger.html#ac36eb723b85f7205fb8eb50a006a33b2">Logger::fileStream</a></div><div class="ttdeci">QTextStream fileStream</div><div class="ttdef"><b>Definition</b> logger.h:56</div></div>
 <div class="ttc" id="aclassLogger_html_ac3f2266dafb7b86937812df5a0734445"><div class="ttname"><a href="../../db/d67/classLogger.html#ac3f2266dafb7b86937812df5a0734445">Logger::log</a></div><div class="ttdeci">void log(QtMsgType type, const QMessageLogContext &amp;ctx, const QString &amp;message)</div><div class="ttdef"><b>Definition</b> logger.cpp:84</div></div>
-<div class="ttc" id="aclassLogger_html_acfa7b3fb8d0550befb8bcd5308d7675a"><div class="ttname"><a href="../../db/d67/classLogger.html#acfa7b3fb8d0550befb8bcd5308d7675a">Logger::getLogBuffer</a></div><div class="ttdeci">QList&lt; QString &gt; getLogBuffer()</div><div class="ttdef"><b>Definition</b> logger.h:37</div></div>
+<div class="ttc" id="aclassLogger_html_acfa7b3fb8d0550befb8bcd5308d7675a"><div class="ttname"><a href="../../db/d67/classLogger.html#acfa7b3fb8d0550befb8bcd5308d7675a">Logger::getLogBuffer</a></div><div class="ttdeci">QList&lt; QString &gt; getLogBuffer()</div><div class="ttdef"><b>Definition</b> logger.h:43</div></div>
 <div class="ttc" id="aclassLogger_html_aed940a5ab00fdb60a5d6bee83db04524"><div class="ttname"><a href="../../db/d67/classLogger.html#aed940a5ab00fdb60a5d6bee83db04524">Logger::getSystemLocale</a></div><div class="ttdeci">QString getSystemLocale()</div><div class="ttdef"><b>Definition</b> logger.cpp:130</div></div>
 <div class="ttc" id="aclassLogger_html_af1a8490c7d7652060c17347ded72e910"><div class="ttname"><a href="../../db/d67/classLogger.html#af1a8490c7d7652060c17347ded72e910">Logger::closeLogfileSession</a></div><div class="ttdeci">void closeLogfileSession()</div><div class="ttdef"><b>Definition</b> logger.cpp:70</div></div>
 <div class="ttc" id="aclassLogger_html_afee741267f0de25da55208a6424eb84f"><div class="ttname"><a href="../../db/d67/classLogger.html#afee741267f0de25da55208a6424eb84f">Logger::~Logger</a></div><div class="ttdeci">~Logger() override</div><div class="ttdef"><b>Definition</b> logger.cpp:27</div></div>

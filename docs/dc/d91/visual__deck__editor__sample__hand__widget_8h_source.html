@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,58 +108,59 @@ $(document).ready(function(){initNavTree('dc/d91/visual__deck__editor__sample__h
   <div class="headertitle"><div class="title">visual_deck_editor_sample_hand_widget.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dc/d91/visual__deck__editor__sample__hand__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef VISUAL_DECK_EDITOR_SAMPLE_HAND_WIDGET_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define VISUAL_DECK_EDITOR_SAMPLE_HAND_WIDGET_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../../../deck/deck_list_model.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;../cards/card_size_widget.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;../general/layout_containers/flow_widget.h&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QPushButton&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QSpinBox&gt;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html">VisualDeckEditorSampleHandWidget</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    Q_OBJECT</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_class" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html">VisualDeckEditorSampleHandWidget</a>(QWidget *parent, <a class="code hl_class" href="../../d9/de1/classDeckListModel.html">DeckListModel</a> *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a8382fb27f31e2c33f4274f340c3eb7b8">deckListModel</a>);</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    QList&lt;ExactCard&gt; <a class="code hl_function" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5bd6ba42e543139ce00925b5e37d7edb">getRandomCards</a>(<span class="keywordtype">int</span> amountToGet);</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">public</span> slots:</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#afb794a121e616640a2ed1de27c5cf1a0">updateDisplay</a>();</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a96b63fd72a7fda043cd9087d9a246bd6">setDeckModel</a>(<a class="code hl_class" href="../../d9/de1/classDeckListModel.html">DeckListModel</a> *deckModel);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a09fe62efb1c5b6891e0b593c0520c33f">retranslateUi</a>();</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a8382fb27f31e2c33f4274f340c3eb7b8">   25</a></span>    <a class="code hl_class" href="../../d9/de1/classDeckListModel.html">DeckListModel</a> *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a8382fb27f31e2c33f4274f340c3eb7b8">deckListModel</a>;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a619ea94f17b6dcb9f076377bcec4f1bc">   26</a></span>    QVBoxLayout *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a619ea94f17b6dcb9f076377bcec4f1bc">layout</a>;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#aa6ab131272c0cb1ed6aa513185bf8800">   27</a></span>    QWidget *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#aa6ab131272c0cb1ed6aa513185bf8800">resetAndHandSizeContainerWidget</a>;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#ab4d62992b94bbefbca3ed6172d2f5dfe">   28</a></span>    QHBoxLayout *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#ab4d62992b94bbefbca3ed6172d2f5dfe">resetAndHandSizeLayout</a>;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#afa043b7847d6cddbc4418383ba1db04b">   29</a></span>    QPushButton *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#afa043b7847d6cddbc4418383ba1db04b">resetButton</a>;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5458d887303280f5cb92b502fd7e162c">   30</a></span>    QSpinBox *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5458d887303280f5cb92b502fd7e162c">handSizeSpinBox</a>;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5cf641917e8736165c3bfe99aae9eee1">   31</a></span>    <a class="code hl_class" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5cf641917e8736165c3bfe99aae9eee1">flowWidget</a>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a6431bae1afb61d33f8a5ee221fec0a88">   32</a></span>    <a class="code hl_class" href="../../df/d47/classCardSizeWidget.html">CardSizeWidget</a> *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a6431bae1afb61d33f8a5ee221fec0a88">cardSizeWidget</a>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>};</div>
+<a href="../../dc/d91/visual__deck__editor__sample__hand__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef VISUAL_DECK_EDITOR_SAMPLE_HAND_WIDGET_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define VISUAL_DECK_EDITOR_SAMPLE_HAND_WIDGET_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;../../../deck/deck_list_model.h&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;../cards/card_size_widget.h&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;../general/layout_containers/flow_widget.h&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QPushButton&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;QSpinBox&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html">   18</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html">VisualDeckEditorSampleHandWidget</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    Q_OBJECT</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_class" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html">VisualDeckEditorSampleHandWidget</a>(QWidget *parent, <a class="code hl_class" href="../../d9/de1/classDeckListModel.html">DeckListModel</a> *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a8382fb27f31e2c33f4274f340c3eb7b8">deckListModel</a>);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    QList&lt;ExactCard&gt; <a class="code hl_function" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5bd6ba42e543139ce00925b5e37d7edb">getRandomCards</a>(<span class="keywordtype">int</span> amountToGet);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">public</span> slots:</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#afb794a121e616640a2ed1de27c5cf1a0">updateDisplay</a>();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a96b63fd72a7fda043cd9087d9a246bd6">setDeckModel</a>(<a class="code hl_class" href="../../d9/de1/classDeckListModel.html">DeckListModel</a> *deckModel);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a09fe62efb1c5b6891e0b593c0520c33f">retranslateUi</a>();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a8382fb27f31e2c33f4274f340c3eb7b8">   31</a></span>    <a class="code hl_class" href="../../d9/de1/classDeckListModel.html">DeckListModel</a> *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a8382fb27f31e2c33f4274f340c3eb7b8">deckListModel</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a619ea94f17b6dcb9f076377bcec4f1bc">   32</a></span>    QVBoxLayout *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a619ea94f17b6dcb9f076377bcec4f1bc">layout</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#aa6ab131272c0cb1ed6aa513185bf8800">   33</a></span>    QWidget *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#aa6ab131272c0cb1ed6aa513185bf8800">resetAndHandSizeContainerWidget</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#ab4d62992b94bbefbca3ed6172d2f5dfe">   34</a></span>    QHBoxLayout *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#ab4d62992b94bbefbca3ed6172d2f5dfe">resetAndHandSizeLayout</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#afa043b7847d6cddbc4418383ba1db04b">   35</a></span>    QPushButton *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#afa043b7847d6cddbc4418383ba1db04b">resetButton</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5458d887303280f5cb92b502fd7e162c">   36</a></span>    QSpinBox *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5458d887303280f5cb92b502fd7e162c">handSizeSpinBox</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5cf641917e8736165c3bfe99aae9eee1">   37</a></span>    <a class="code hl_class" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5cf641917e8736165c3bfe99aae9eee1">flowWidget</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a6431bae1afb61d33f8a5ee221fec0a88">   38</a></span>    <a class="code hl_class" href="../../df/d47/classCardSizeWidget.html">CardSizeWidget</a> *<a class="code hl_variable" href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a6431bae1afb61d33f8a5ee221fec0a88">cardSizeWidget</a>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>};</div>
 </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#endif </span><span class="comment">// VISUAL_DECK_EDITOR_SAMPLE_HAND_WIDGET_H</span></div>
-<div class="ttc" id="aclassCardSizeWidget_html"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html">CardSizeWidget</a></div><div class="ttdoc">A widget for adjusting card sizes using a slider.</div><div class="ttdef"><b>Definition</b> card_size_widget.h:13</div></div>
-<div class="ttc" id="aclassDeckListModel_html"><div class="ttname"><a href="../../d9/de1/classDeckListModel.html">DeckListModel</a></div><div class="ttdoc">Qt model representing a decklist for use in views (tree/table).</div><div class="ttdef"><b>Definition</b> deck_list_model.h:122</div></div>
-<div class="ttc" id="aclassFlowWidget_html"><div class="ttname"><a href="../../d5/d53/classFlowWidget.html">FlowWidget</a></div><div class="ttdef"><b>Definition</b> flow_widget.h:14</div></div>
-<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html">VisualDeckEditorSampleHandWidget</a></div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:13</div></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#endif </span><span class="comment">// VISUAL_DECK_EDITOR_SAMPLE_HAND_WIDGET_H</span></div>
+<div class="ttc" id="aclassCardSizeWidget_html"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html">CardSizeWidget</a></div><div class="ttdoc">A widget for adjusting card sizes using a slider.</div><div class="ttdef"><b>Definition</b> card_size_widget.h:21</div></div>
+<div class="ttc" id="aclassDeckListModel_html"><div class="ttname"><a href="../../d9/de1/classDeckListModel.html">DeckListModel</a></div><div class="ttdoc">Qt model representing a decklist for use in views (tree/table).</div><div class="ttdef"><b>Definition</b> deck_list_model.h:126</div></div>
+<div class="ttc" id="aclassFlowWidget_html"><div class="ttname"><a href="../../d5/d53/classFlowWidget.html">FlowWidget</a></div><div class="ttdef"><b>Definition</b> flow_widget.h:20</div></div>
+<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html">VisualDeckEditorSampleHandWidget</a></div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:19</div></div>
 <div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_a09fe62efb1c5b6891e0b593c0520c33f"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a09fe62efb1c5b6891e0b593c0520c33f">VisualDeckEditorSampleHandWidget::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.cpp:51</div></div>
-<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_a5458d887303280f5cb92b502fd7e162c"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5458d887303280f5cb92b502fd7e162c">VisualDeckEditorSampleHandWidget::handSizeSpinBox</a></div><div class="ttdeci">QSpinBox * handSizeSpinBox</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:30</div></div>
+<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_a5458d887303280f5cb92b502fd7e162c"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5458d887303280f5cb92b502fd7e162c">VisualDeckEditorSampleHandWidget::handSizeSpinBox</a></div><div class="ttdeci">QSpinBox * handSizeSpinBox</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:36</div></div>
 <div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_a5bd6ba42e543139ce00925b5e37d7edb"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5bd6ba42e543139ce00925b5e37d7edb">VisualDeckEditorSampleHandWidget::getRandomCards</a></div><div class="ttdeci">QList&lt; ExactCard &gt; getRandomCards(int amountToGet)</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.cpp:77</div></div>
-<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_a5cf641917e8736165c3bfe99aae9eee1"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5cf641917e8736165c3bfe99aae9eee1">VisualDeckEditorSampleHandWidget::flowWidget</a></div><div class="ttdeci">FlowWidget * flowWidget</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:31</div></div>
-<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_a619ea94f17b6dcb9f076377bcec4f1bc"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a619ea94f17b6dcb9f076377bcec4f1bc">VisualDeckEditorSampleHandWidget::layout</a></div><div class="ttdeci">QVBoxLayout * layout</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:26</div></div>
-<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_a6431bae1afb61d33f8a5ee221fec0a88"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a6431bae1afb61d33f8a5ee221fec0a88">VisualDeckEditorSampleHandWidget::cardSizeWidget</a></div><div class="ttdeci">CardSizeWidget * cardSizeWidget</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:32</div></div>
-<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_a8382fb27f31e2c33f4274f340c3eb7b8"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a8382fb27f31e2c33f4274f340c3eb7b8">VisualDeckEditorSampleHandWidget::deckListModel</a></div><div class="ttdeci">DeckListModel * deckListModel</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:25</div></div>
+<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_a5cf641917e8736165c3bfe99aae9eee1"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a5cf641917e8736165c3bfe99aae9eee1">VisualDeckEditorSampleHandWidget::flowWidget</a></div><div class="ttdeci">FlowWidget * flowWidget</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:37</div></div>
+<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_a619ea94f17b6dcb9f076377bcec4f1bc"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a619ea94f17b6dcb9f076377bcec4f1bc">VisualDeckEditorSampleHandWidget::layout</a></div><div class="ttdeci">QVBoxLayout * layout</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:32</div></div>
+<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_a6431bae1afb61d33f8a5ee221fec0a88"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a6431bae1afb61d33f8a5ee221fec0a88">VisualDeckEditorSampleHandWidget::cardSizeWidget</a></div><div class="ttdeci">CardSizeWidget * cardSizeWidget</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:38</div></div>
+<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_a8382fb27f31e2c33f4274f340c3eb7b8"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a8382fb27f31e2c33f4274f340c3eb7b8">VisualDeckEditorSampleHandWidget::deckListModel</a></div><div class="ttdeci">DeckListModel * deckListModel</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:31</div></div>
 <div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_a96b63fd72a7fda043cd9087d9a246bd6"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a96b63fd72a7fda043cd9087d9a246bd6">VisualDeckEditorSampleHandWidget::setDeckModel</a></div><div class="ttdeci">void setDeckModel(DeckListModel *deckModel)</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.cpp:57</div></div>
-<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_aa6ab131272c0cb1ed6aa513185bf8800"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#aa6ab131272c0cb1ed6aa513185bf8800">VisualDeckEditorSampleHandWidget::resetAndHandSizeContainerWidget</a></div><div class="ttdeci">QWidget * resetAndHandSizeContainerWidget</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:27</div></div>
-<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_ab4d62992b94bbefbca3ed6172d2f5dfe"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#ab4d62992b94bbefbca3ed6172d2f5dfe">VisualDeckEditorSampleHandWidget::resetAndHandSizeLayout</a></div><div class="ttdeci">QHBoxLayout * resetAndHandSizeLayout</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:28</div></div>
-<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_afa043b7847d6cddbc4418383ba1db04b"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#afa043b7847d6cddbc4418383ba1db04b">VisualDeckEditorSampleHandWidget::resetButton</a></div><div class="ttdeci">QPushButton * resetButton</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:29</div></div>
+<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_aa6ab131272c0cb1ed6aa513185bf8800"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#aa6ab131272c0cb1ed6aa513185bf8800">VisualDeckEditorSampleHandWidget::resetAndHandSizeContainerWidget</a></div><div class="ttdeci">QWidget * resetAndHandSizeContainerWidget</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:33</div></div>
+<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_ab4d62992b94bbefbca3ed6172d2f5dfe"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#ab4d62992b94bbefbca3ed6172d2f5dfe">VisualDeckEditorSampleHandWidget::resetAndHandSizeLayout</a></div><div class="ttdeci">QHBoxLayout * resetAndHandSizeLayout</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:34</div></div>
+<div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_afa043b7847d6cddbc4418383ba1db04b"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#afa043b7847d6cddbc4418383ba1db04b">VisualDeckEditorSampleHandWidget::resetButton</a></div><div class="ttdeci">QPushButton * resetButton</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.h:35</div></div>
 <div class="ttc" id="aclassVisualDeckEditorSampleHandWidget_html_afb794a121e616640a2ed1de27c5cf1a0"><div class="ttname"><a href="../../d8/d4d/classVisualDeckEditorSampleHandWidget.html#afb794a121e616640a2ed1de27c5cf1a0">VisualDeckEditorSampleHandWidget::updateDisplay</a></div><div class="ttdeci">void updateDisplay()</div><div class="ttdef"><b>Definition</b> visual_deck_editor_sample_hand_widget.cpp:64</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

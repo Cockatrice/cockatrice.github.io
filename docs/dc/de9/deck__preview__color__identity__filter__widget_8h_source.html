@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,60 +108,61 @@ $(document).ready(function(){initNavTree('dc/de9/deck__preview__color__identity_
   <div class="headertitle"><div class="title">deck_preview_color_identity_filter_widget.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dc/de9/deck__preview__color__identity__filter__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef DECK_PREVIEW_COLOR_IDENTITY_FILTER_WIDGET_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define DECK_PREVIEW_COLOR_IDENTITY_FILTER_WIDGET_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../visual_deck_storage_widget.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QChar&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QHBoxLayout&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QList&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QPushButton&gt;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<a href="../../dc/de9/deck__preview__color__identity__filter__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef DECK_PREVIEW_COLOR_IDENTITY_FILTER_WIDGET_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define DECK_PREVIEW_COLOR_IDENTITY_FILTER_WIDGET_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;../visual_deck_storage_widget.h&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span><a class="code hl_class" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a>;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span><a class="code hl_class" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a>;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html">   15</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html">DeckPreviewColorIdentityFilterWidget</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    Q_OBJECT</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html">DeckPreviewColorIdentityFilterWidget</a>(<a class="code hl_class" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *parent);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#afce4d15f4906ae1742c724919baba0a4">retranslateUi</a>();</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#abff81655307b552ad227c9d1d2cbdca4">filterWidgets</a>(QList&lt;DeckPreviewWidget *&gt; widgets);</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>signals:</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#aeac2d3aacc8843d13437e21d1a274ffd">   25</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#aeac2d3aacc8843d13437e21d1a274ffd">filterModeChanged</a>(<span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#abe0b32a0a47e9e98d617ade2bf0b2db8">exactMatchMode</a>);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a34d4d4a21bae7fa54d24744d4c48ff1e">   26</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a34d4d4a21bae7fa54d24744d4c48ff1e">activeColorsChanged</a>();</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a27c54971d670602a7b72842814e22916">handleColorToggled</a>(QChar color, <span class="keywordtype">bool</span> active);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#add051465d5584620926ab0d9ba951a82">updateFilterMode</a>(<span class="keywordtype">bool</span> checked);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a96a40ad0038c8dbc23f338438721f070">   33</a></span>    QHBoxLayout *<a class="code hl_variable" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a96a40ad0038c8dbc23f338438721f070">layout</a>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a9423750f3e904e882d4ec67e4c48f330">   34</a></span>    QPushButton *<a class="code hl_variable" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a9423750f3e904e882d4ec67e4c48f330">toggleButton</a>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#ac464b650739f62da531feed823629536">   35</a></span>    QMap&lt;QChar, bool&gt; <a class="code hl_variable" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#ac464b650739f62da531feed823629536">activeColors</a>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#abe0b32a0a47e9e98d617ade2bf0b2db8">   36</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#abe0b32a0a47e9e98d617ade2bf0b2db8">exactMatchMode</a> = <span class="keyword">false</span>; <span class="comment">// Default to &quot;includes&quot; mode</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QChar&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QHBoxLayout&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QList&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;QPushButton&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span><a class="code hl_class" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span><a class="code hl_class" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html">   21</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html">DeckPreviewColorIdentityFilterWidget</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    Q_OBJECT</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html">DeckPreviewColorIdentityFilterWidget</a>(<a class="code hl_class" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *parent);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#afce4d15f4906ae1742c724919baba0a4">retranslateUi</a>();</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#abff81655307b552ad227c9d1d2cbdca4">filterWidgets</a>(QList&lt;DeckPreviewWidget *&gt; widgets);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>signals:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#aeac2d3aacc8843d13437e21d1a274ffd">   31</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#aeac2d3aacc8843d13437e21d1a274ffd">filterModeChanged</a>(<span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#abe0b32a0a47e9e98d617ade2bf0b2db8">exactMatchMode</a>);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a34d4d4a21bae7fa54d24744d4c48ff1e">   32</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a34d4d4a21bae7fa54d24744d4c48ff1e">activeColorsChanged</a>();</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a27c54971d670602a7b72842814e22916">handleColorToggled</a>(QChar color, <span class="keywordtype">bool</span> active);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#add051465d5584620926ab0d9ba951a82">updateFilterMode</a>(<span class="keywordtype">bool</span> checked);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a96a40ad0038c8dbc23f338438721f070">   39</a></span>    QHBoxLayout *<a class="code hl_variable" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a96a40ad0038c8dbc23f338438721f070">layout</a>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a9423750f3e904e882d4ec67e4c48f330">   40</a></span>    QPushButton *<a class="code hl_variable" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a9423750f3e904e882d4ec67e4c48f330">toggleButton</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#ac464b650739f62da531feed823629536">   41</a></span>    QMap&lt;QChar, bool&gt; <a class="code hl_variable" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#ac464b650739f62da531feed823629536">activeColors</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#abe0b32a0a47e9e98d617ade2bf0b2db8">   42</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#abe0b32a0a47e9e98d617ade2bf0b2db8">exactMatchMode</a> = <span class="keyword">false</span>; <span class="comment">// Default to &quot;includes&quot; mode</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>};</div>
 </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#endif </span><span class="comment">// DECK_PREVIEW_COLOR_IDENTITY_FILTER_WIDGET_H</span></div>
-<div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html">DeckPreviewColorIdentityFilterWidget</a></div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.h:16</div></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#endif </span><span class="comment">// DECK_PREVIEW_COLOR_IDENTITY_FILTER_WIDGET_H</span></div>
+<div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html">DeckPreviewColorIdentityFilterWidget</a></div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.h:22</div></div>
 <div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_a27c54971d670602a7b72842814e22916"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a27c54971d670602a7b72842814e22916">DeckPreviewColorIdentityFilterWidget::handleColorToggled</a></div><div class="ttdeci">void handleColorToggled(QChar color, bool active)</div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.cpp:53</div></div>
 <div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_a34d4d4a21bae7fa54d24744d4c48ff1e"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a34d4d4a21bae7fa54d24744d4c48ff1e">DeckPreviewColorIdentityFilterWidget::activeColorsChanged</a></div><div class="ttdeci">void activeColorsChanged()</div></div>
-<div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_a9423750f3e904e882d4ec67e4c48f330"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a9423750f3e904e882d4ec67e4c48f330">DeckPreviewColorIdentityFilterWidget::toggleButton</a></div><div class="ttdeci">QPushButton * toggleButton</div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.h:34</div></div>
-<div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_a96a40ad0038c8dbc23f338438721f070"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a96a40ad0038c8dbc23f338438721f070">DeckPreviewColorIdentityFilterWidget::layout</a></div><div class="ttdeci">QHBoxLayout * layout</div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.h:33</div></div>
-<div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_abe0b32a0a47e9e98d617ade2bf0b2db8"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#abe0b32a0a47e9e98d617ade2bf0b2db8">DeckPreviewColorIdentityFilterWidget::exactMatchMode</a></div><div class="ttdeci">bool exactMatchMode</div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.h:36</div></div>
+<div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_a9423750f3e904e882d4ec67e4c48f330"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a9423750f3e904e882d4ec67e4c48f330">DeckPreviewColorIdentityFilterWidget::toggleButton</a></div><div class="ttdeci">QPushButton * toggleButton</div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.h:40</div></div>
+<div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_a96a40ad0038c8dbc23f338438721f070"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a96a40ad0038c8dbc23f338438721f070">DeckPreviewColorIdentityFilterWidget::layout</a></div><div class="ttdeci">QHBoxLayout * layout</div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.h:39</div></div>
+<div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_abe0b32a0a47e9e98d617ade2bf0b2db8"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#abe0b32a0a47e9e98d617ade2bf0b2db8">DeckPreviewColorIdentityFilterWidget::exactMatchMode</a></div><div class="ttdeci">bool exactMatchMode</div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.h:42</div></div>
 <div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_abff81655307b552ad227c9d1d2cbdca4"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#abff81655307b552ad227c9d1d2cbdca4">DeckPreviewColorIdentityFilterWidget::filterWidgets</a></div><div class="ttdeci">void filterWidgets(QList&lt; DeckPreviewWidget * &gt; widgets)</div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.cpp:66</div></div>
-<div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_ac464b650739f62da531feed823629536"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#ac464b650739f62da531feed823629536">DeckPreviewColorIdentityFilterWidget::activeColors</a></div><div class="ttdeci">QMap&lt; QChar, bool &gt; activeColors</div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.h:35</div></div>
+<div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_ac464b650739f62da531feed823629536"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#ac464b650739f62da531feed823629536">DeckPreviewColorIdentityFilterWidget::activeColors</a></div><div class="ttdeci">QMap&lt; QChar, bool &gt; activeColors</div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.h:41</div></div>
 <div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_add051465d5584620926ab0d9ba951a82"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#add051465d5584620926ab0d9ba951a82">DeckPreviewColorIdentityFilterWidget::updateFilterMode</a></div><div class="ttdeci">void updateFilterMode(bool checked)</div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.cpp:59</div></div>
 <div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_aeac2d3aacc8843d13437e21d1a274ffd"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#aeac2d3aacc8843d13437e21d1a274ffd">DeckPreviewColorIdentityFilterWidget::filterModeChanged</a></div><div class="ttdeci">void filterModeChanged(bool exactMatchMode)</div></div>
 <div class="ttc" id="aclassDeckPreviewColorIdentityFilterWidget_html_afce4d15f4906ae1742c724919baba0a4"><div class="ttname"><a href="../../d3/d97/classDeckPreviewColorIdentityFilterWidget.html#afce4d15f4906ae1742c724919baba0a4">DeckPreviewColorIdentityFilterWidget::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdef"><b>Definition</b> deck_preview_color_identity_filter_widget.cpp:46</div></div>
-<div class="ttc" id="aclassDeckPreviewWidget_html"><div class="ttname"><a href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></div><div class="ttdef"><b>Definition</b> deck_preview_widget.h:22</div></div>
-<div class="ttc" id="aclassVisualDeckStorageWidget_html"><div class="ttname"><a href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a></div><div class="ttdef"><b>Definition</b> visual_deck_storage_widget.h:26</div></div>
+<div class="ttc" id="aclassDeckPreviewWidget_html"><div class="ttname"><a href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></div><div class="ttdef"><b>Definition</b> deck_preview_widget.h:28</div></div>
+<div class="ttc" id="aclassVisualDeckStorageWidget_html"><div class="ttname"><a href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a></div><div class="ttdef"><b>Definition</b> visual_deck_storage_widget.h:32</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

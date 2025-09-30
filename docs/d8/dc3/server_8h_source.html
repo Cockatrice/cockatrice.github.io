@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -425,7 +427,7 @@ $(document).ready(function(){initNavTree('d8/dc3/server_8h_source.html','../../'
 </div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassDeckList_html"><div class="ttname"><a href="../../da/d68/classDeckList.html">DeckList</a></div><div class="ttdoc">Represents a complete deck, including metadata, zones, cards, and sideboard plans.</div><div class="ttdef"><b>Definition</b> deck_list.h:125</div></div>
+<div class="ttc" id="aclassDeckList_html"><div class="ttname"><a href="../../da/d68/classDeckList.html">DeckList</a></div><div class="ttdoc">Represents a complete deck, including metadata, zones, cards, and sideboard plans.</div><div class="ttdef"><b>Definition</b> deck_list.h:127</div></div>
 <div class="ttc" id="aclassServer__AbstractUserInterface_html"><div class="ttname"><a href="../../d5/d9c/classServer__AbstractUserInterface.html">Server_AbstractUserInterface</a></div><div class="ttdef"><b>Definition</b> server_abstractuserinterface.h:21</div></div>
 <div class="ttc" id="aclassServer__DatabaseInterface_html"><div class="ttname"><a href="../../d2/d12/classServer__DatabaseInterface.html">Server_DatabaseInterface</a></div><div class="ttdef"><b>Definition</b> server_database_interface.h:9</div></div>
 <div class="ttc" id="aclassServer__Game_html"><div class="ttname"><a href="../../df/d89/classServer__Game.html">Server_Game</a></div><div class="ttdef"><b>Definition</b> server_game.h:47</div></div>

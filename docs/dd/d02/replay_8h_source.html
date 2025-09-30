@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,26 +108,27 @@ $(document).ready(function(){initNavTree('dd/d02/replay_8h_source.html','../../'
   <div class="headertitle"><div class="title">replay.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dd/d02/replay_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef COCKATRICE_REPLAY_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define COCKATRICE_REPLAY_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d99/abstract__game_8h.html">abstract_game.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="foldopen" id="foldopen00006" data-start="{" data-end="};">
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="../../d2/daf/classReplay.html">    6</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d2/daf/classReplay.html">Replay</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    Q_OBJECT</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d2/daf/classReplay.html">Replay</a>(<a class="code hl_class" href="../../de/d08/classTabGame.html">TabGame</a> *_tab, GameReplay *_replay);</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>};</div>
+<a href="../../dd/d02/replay_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifndef COCKATRICE_REPLAY_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#define COCKATRICE_REPLAY_H</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d99/abstract__game_8h.html">abstract_game.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../d2/daf/classReplay.html">   13</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d2/daf/classReplay.html">Replay</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    Q_OBJECT</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d2/daf/classReplay.html">Replay</a>(<a class="code hl_class" href="../../de/d08/classTabGame.html">TabGame</a> *_tab, GameReplay *_replay);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>};</div>
 </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_REPLAY_H</span></div>
-<div class="ttc" id="aabstract__game_8h_html"><div class="ttname"><a href="../../da/d99/abstract__game_8h.html">abstract_game.h</a></div></div>
-<div class="ttc" id="aclassAbstractGame_html"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html">AbstractGame</a></div><div class="ttdef"><b>Definition</b> abstract_game.h:15</div></div>
-<div class="ttc" id="aclassReplay_html"><div class="ttname"><a href="../../d2/daf/classReplay.html">Replay</a></div><div class="ttdef"><b>Definition</b> replay.h:7</div></div>
-<div class="ttc" id="aclassTabGame_html"><div class="ttname"><a href="../../de/d08/classTabGame.html">TabGame</a></div><div class="ttdef"><b>Definition</b> tab_game.h:51</div></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_REPLAY_H</span></div>
+<div class="ttc" id="aabstract__game_8h_html"><div class="ttname"><a href="../../da/d99/abstract__game_8h.html">abstract_game.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
+<div class="ttc" id="aclassAbstractGame_html"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html">AbstractGame</a></div><div class="ttdef"><b>Definition</b> abstract_game.h:21</div></div>
+<div class="ttc" id="aclassReplay_html"><div class="ttname"><a href="../../d2/daf/classReplay.html">Replay</a></div><div class="ttdef"><b>Definition</b> replay.h:14</div></div>
+<div class="ttc" id="aclassTabGame_html"><div class="ttname"><a href="../../de/d08/classTabGame.html">TabGame</a></div><div class="ttdef"><b>Definition</b> tab_game.h:59</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,112 +108,113 @@ $(document).ready(function(){initNavTree('d6/dd4/view__zone__logic_8h_source.htm
   <div class="headertitle"><div class="title">view_zone_logic.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d6/dd4/view__zone__logic_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef COCKATRICE_VIEW_ZONE_LOGIC_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define COCKATRICE_VIEW_ZONE_LOGIC_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="../../dd/dbf/card__zone__logic_8h.html">card_zone_logic.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="foldopen" id="foldopen00005" data-start="{" data-end="};">
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html">    5</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d8/d70/classZoneViewZoneLogic.html">ZoneViewZoneLogic</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    Q_OBJECT</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>signals:</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a6ccd01d5f0328ada2f712d388f6aa5ab">    9</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d8/d70/classZoneViewZoneLogic.html#a6ccd01d5f0328ada2f712d388f6aa5ab">addToViews</a>();</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a13f5041edd9d2ca027c9fcc2a3b519cf">   10</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d8/d70/classZoneViewZoneLogic.html#a13f5041edd9d2ca027c9fcc2a3b519cf">removeFromViews</a>();</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#abef056fee9d43aff83c3b8f2130a7853">   11</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d8/d70/classZoneViewZoneLogic.html#abef056fee9d43aff83c3b8f2130a7853">closeView</a>();</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a6ddeaed792e68ade87788c86fb68e73a">   14</a></span>    <a class="code hl_class" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *<a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#a6ddeaed792e68ade87788c86fb68e73a">origZone</a>;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a108baf9420b1708ccf90c30fd4f286bf">   15</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#a108baf9420b1708ccf90c30fd4f286bf">numberCards</a>;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a096b1b5f1a0804649548aefb5cb61789">   16</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#a096b1b5f1a0804649548aefb5cb61789">revealZone</a>, <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2">writeableRevealZone</a>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#af2f1c5ab07a31e9279bcbe8447293fde">   17</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#af2f1c5ab07a31e9279bcbe8447293fde">isReversed</a>;</div>
+<a href="../../d6/dd4/view__zone__logic_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef COCKATRICE_VIEW_ZONE_LOGIC_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define COCKATRICE_VIEW_ZONE_LOGIC_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="../../dd/dbf/card__zone__logic_8h.html">card_zone_logic.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html">   11</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d8/d70/classZoneViewZoneLogic.html">ZoneViewZoneLogic</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    Q_OBJECT</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>signals:</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a6ccd01d5f0328ada2f712d388f6aa5ab">   15</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d8/d70/classZoneViewZoneLogic.html#a6ccd01d5f0328ada2f712d388f6aa5ab">addToViews</a>();</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a13f5041edd9d2ca027c9fcc2a3b519cf">   16</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d8/d70/classZoneViewZoneLogic.html#a13f5041edd9d2ca027c9fcc2a3b519cf">removeFromViews</a>();</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#abef056fee9d43aff83c3b8f2130a7853">   17</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d8/d70/classZoneViewZoneLogic.html#abef056fee9d43aff83c3b8f2130a7853">closeView</a>();</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">public</span>:</div>
-<div class="foldopen" id="foldopen00020" data-start="{" data-end="};">
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8b">   20</a></span>    <span class="keyword">enum</span> <a class="code hl_enumeration" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8b">CardAction</a></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    {</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba7e4479c03f0c028b91c328543e3bf0ad">   22</a></span>        <a class="code hl_enumvalue" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba7e4479c03f0c028b91c328543e3bf0ad">INITIALIZE</a>,</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba6636d40973ed2b01905c6abd887aba69">   23</a></span>        <a class="code hl_enumvalue" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba6636d40973ed2b01905c6abd887aba69">ADD_CARD</a>,</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <a class="code hl_enumvalue" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba96afb7eb3ae1b6edbd62c7e50b2cedc3">REMOVE_CARD</a></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba96afb7eb3ae1b6edbd62c7e50b2cedc3">   25</a></span>    };</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a6ddeaed792e68ade87788c86fb68e73a">   20</a></span>    <a class="code hl_class" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *<a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#a6ddeaed792e68ade87788c86fb68e73a">origZone</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a108baf9420b1708ccf90c30fd4f286bf">   21</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#a108baf9420b1708ccf90c30fd4f286bf">numberCards</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a096b1b5f1a0804649548aefb5cb61789">   22</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#a096b1b5f1a0804649548aefb5cb61789">revealZone</a>, <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2">writeableRevealZone</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#af2f1c5ab07a31e9279bcbe8447293fde">   23</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#af2f1c5ab07a31e9279bcbe8447293fde">isReversed</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8b">   26</a></span>    <span class="keyword">enum</span> <a class="code hl_enumeration" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8b">CardAction</a></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    {</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba7e4479c03f0c028b91c328543e3bf0ad">   28</a></span>        <a class="code hl_enumvalue" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba7e4479c03f0c028b91c328543e3bf0ad">INITIALIZE</a>,</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba6636d40973ed2b01905c6abd887aba69">   29</a></span>        <a class="code hl_enumvalue" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba6636d40973ed2b01905c6abd887aba69">ADD_CARD</a>,</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <a class="code hl_enumvalue" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba96afb7eb3ae1b6edbd62c7e50b2cedc3">REMOVE_CARD</a></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba96afb7eb3ae1b6edbd62c7e50b2cedc3">   31</a></span>    };</div>
 </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_class" href="../../d8/d70/classZoneViewZoneLogic.html">ZoneViewZoneLogic</a>(<a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *_player,</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>                      <a class="code hl_class" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *_origZone,</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>                      <span class="keywordtype">int</span> _numberCards,</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                      <span class="keywordtype">bool</span> _revealZone,</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>                      <span class="keywordtype">bool</span> _writeableRevealZone,</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>                      <span class="keywordtype">bool</span> _isReversed,</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                      QObject *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a2c36ba32dfd61ad4e9538225bfff094a">prepareAddCard</a>(<span class="keywordtype">int</span> x);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a60220654789f79d639f2a9413e2dfcd9">removeCard</a>(<span class="keywordtype">int</span> position, <span class="keywordtype">bool</span> toNewZone);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a2b244dba103671db375443d545789782">updateCardIds</a>(<a class="code hl_enumeration" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8b">CardAction</a> action);</div>
-<div class="foldopen" id="foldopen00038" data-start="{" data-end="}">
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a92f3d221b8945f8c9b3e11fbe0a07bdc">   38</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a92f3d221b8945f8c9b3e11fbe0a07bdc">getNumberCards</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#a108baf9420b1708ccf90c30fd4f286bf">numberCards</a>;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_class" href="../../d8/d70/classZoneViewZoneLogic.html">ZoneViewZoneLogic</a>(<a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *_player,</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>                      <a class="code hl_class" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *_origZone,</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                      <span class="keywordtype">int</span> _numberCards,</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>                      <span class="keywordtype">bool</span> _revealZone,</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>                      <span class="keywordtype">bool</span> _writeableRevealZone,</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>                      <span class="keywordtype">bool</span> _isReversed,</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                      QObject *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a2c36ba32dfd61ad4e9538225bfff094a">prepareAddCard</a>(<span class="keywordtype">int</span> x);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a60220654789f79d639f2a9413e2dfcd9">removeCard</a>(<span class="keywordtype">int</span> position, <span class="keywordtype">bool</span> toNewZone);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a2b244dba103671db375443d545789782">updateCardIds</a>(<a class="code hl_enumeration" href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8b">CardAction</a> action);</div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a92f3d221b8945f8c9b3e11fbe0a07bdc">   44</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a92f3d221b8945f8c9b3e11fbe0a07bdc">getNumberCards</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#a108baf9420b1708ccf90c30fd4f286bf">numberCards</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a6daf220de4dd06d43dae8f5f8cb59c4f">   42</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a6daf220de4dd06d43dae8f5f8cb59c4f">getRevealZone</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#a096b1b5f1a0804649548aefb5cb61789">revealZone</a>;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
+<div class="foldopen" id="foldopen00048" data-start="{" data-end="}">
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a6daf220de4dd06d43dae8f5f8cb59c4f">   48</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a6daf220de4dd06d43dae8f5f8cb59c4f">getRevealZone</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#a096b1b5f1a0804649548aefb5cb61789">revealZone</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00046" data-start="{" data-end="}">
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#ad831b21f32a8276f8942ecaf9e1a30c8">   46</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#ad831b21f32a8276f8942ecaf9e1a30c8">getWriteableRevealZone</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2">writeableRevealZone</a>;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    }</div>
+<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#ad831b21f32a8276f8942ecaf9e1a30c8">   52</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#ad831b21f32a8276f8942ecaf9e1a30c8">getWriteableRevealZone</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2">writeableRevealZone</a>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    }</div>
 </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a05637bd645a08db058200fdbadabc4fc">setWriteableRevealZone</a>(<span class="keywordtype">bool</span> _writeableRevealZone);</div>
-<div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a1d1b674c3d213e88bb79fb238d5085e6">   51</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a1d1b674c3d213e88bb79fb238d5085e6">getIsReversed</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#af2f1c5ab07a31e9279bcbe8447293fde">isReversed</a>;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    }</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a05637bd645a08db058200fdbadabc4fc">setWriteableRevealZone</a>(<span class="keywordtype">bool</span> _writeableRevealZone);</div>
+<div class="foldopen" id="foldopen00057" data-start="{" data-end="}">
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a1d1b674c3d213e88bb79fb238d5085e6">   57</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a1d1b674c3d213e88bb79fb238d5085e6">getIsReversed</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#af2f1c5ab07a31e9279bcbe8447293fde">isReversed</a>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    }</div>
 </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="foldopen" id="foldopen00056" data-start="{" data-end="}">
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a6217b1f8590a2a5e86a7f44c3d86502d">   56</a></span>    <a class="code hl_class" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *<a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a6217b1f8590a2a5e86a7f44c3d86502d">getOriginalZone</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#a6ddeaed792e68ade87788c86fb68e73a">origZone</a>;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    }</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../d8/d70/classZoneViewZoneLogic.html#a6217b1f8590a2a5e86a7f44c3d86502d">   62</a></span>    <a class="code hl_class" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *<a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a6217b1f8590a2a5e86a7f44c3d86502d">getOriginalZone</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d70/classZoneViewZoneLogic.html#a6ddeaed792e68ade87788c86fb68e73a">origZone</a>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    }</div>
 </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a5d24a6f4a5edb93de89ca3563eec033b">addCardImpl</a>(<a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *card, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>};</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d70/classZoneViewZoneLogic.html#a5d24a6f4a5edb93de89ca3563eec033b">addCardImpl</a>(<a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *card, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>};</div>
 </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_VIEW_ZONE_LOGIC_H</span></div>
-<div class="ttc" id="acard__zone__logic_8h_html"><div class="ttname"><a href="../../dd/dbf/card__zone__logic_8h.html">card_zone_logic.h</a></div></div>
-<div class="ttc" id="aclassCardItem_html"><div class="ttname"><a href="../../d6/dbd/classCardItem.html">CardItem</a></div><div class="ttdef"><b>Definition</b> card_item.h:22</div></div>
-<div class="ttc" id="aclassCardZoneLogic_html"><div class="ttname"><a href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a></div><div class="ttdef"><b>Definition</b> card_zone_logic.h:20</div></div>
-<div class="ttc" id="aclassPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition</b> player.h:59</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html">ZoneViewZoneLogic</a></div><div class="ttdef"><b>Definition</b> view_zone_logic.h:6</div></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_VIEW_ZONE_LOGIC_H</span></div>
+<div class="ttc" id="acard__zone__logic_8h_html"><div class="ttname"><a href="../../dd/dbf/card__zone__logic_8h.html">card_zone_logic.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
+<div class="ttc" id="aclassCardItem_html"><div class="ttname"><a href="../../d6/dbd/classCardItem.html">CardItem</a></div><div class="ttdef"><b>Definition</b> card_item.h:28</div></div>
+<div class="ttc" id="aclassCardZoneLogic_html"><div class="ttname"><a href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a></div><div class="ttdef"><b>Definition</b> card_zone_logic.h:26</div></div>
+<div class="ttc" id="aclassPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition</b> player.h:65</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html">ZoneViewZoneLogic</a></div><div class="ttdef"><b>Definition</b> view_zone_logic.h:12</div></div>
 <div class="ttc" id="aclassZoneViewZoneLogic_html_a05637bd645a08db058200fdbadabc4fc"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a05637bd645a08db058200fdbadabc4fc">ZoneViewZoneLogic::setWriteableRevealZone</a></div><div class="ttdeci">void setWriteableRevealZone(bool _writeableRevealZone)</div><div class="ttdef"><b>Definition</b> view_zone_logic.cpp:156</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_a096b1b5f1a0804649548aefb5cb61789"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a096b1b5f1a0804649548aefb5cb61789">ZoneViewZoneLogic::revealZone</a></div><div class="ttdeci">bool revealZone</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:16</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_a0b4296a3248b245ddff3943096a0eb8b"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8b">ZoneViewZoneLogic::CardAction</a></div><div class="ttdeci">CardAction</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:21</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_a0b4296a3248b245ddff3943096a0eb8ba6636d40973ed2b01905c6abd887aba69"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba6636d40973ed2b01905c6abd887aba69">ZoneViewZoneLogic::ADD_CARD</a></div><div class="ttdeci">@ ADD_CARD</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:23</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_a0b4296a3248b245ddff3943096a0eb8ba7e4479c03f0c028b91c328543e3bf0ad"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba7e4479c03f0c028b91c328543e3bf0ad">ZoneViewZoneLogic::INITIALIZE</a></div><div class="ttdeci">@ INITIALIZE</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:22</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_a0b4296a3248b245ddff3943096a0eb8ba96afb7eb3ae1b6edbd62c7e50b2cedc3"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba96afb7eb3ae1b6edbd62c7e50b2cedc3">ZoneViewZoneLogic::REMOVE_CARD</a></div><div class="ttdeci">@ REMOVE_CARD</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:24</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_a108baf9420b1708ccf90c30fd4f286bf"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a108baf9420b1708ccf90c30fd4f286bf">ZoneViewZoneLogic::numberCards</a></div><div class="ttdeci">int numberCards</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:15</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_a096b1b5f1a0804649548aefb5cb61789"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a096b1b5f1a0804649548aefb5cb61789">ZoneViewZoneLogic::revealZone</a></div><div class="ttdeci">bool revealZone</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:22</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_a0b4296a3248b245ddff3943096a0eb8b"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8b">ZoneViewZoneLogic::CardAction</a></div><div class="ttdeci">CardAction</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:27</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_a0b4296a3248b245ddff3943096a0eb8ba6636d40973ed2b01905c6abd887aba69"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba6636d40973ed2b01905c6abd887aba69">ZoneViewZoneLogic::ADD_CARD</a></div><div class="ttdeci">@ ADD_CARD</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:29</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_a0b4296a3248b245ddff3943096a0eb8ba7e4479c03f0c028b91c328543e3bf0ad"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba7e4479c03f0c028b91c328543e3bf0ad">ZoneViewZoneLogic::INITIALIZE</a></div><div class="ttdeci">@ INITIALIZE</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:28</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_a0b4296a3248b245ddff3943096a0eb8ba96afb7eb3ae1b6edbd62c7e50b2cedc3"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba96afb7eb3ae1b6edbd62c7e50b2cedc3">ZoneViewZoneLogic::REMOVE_CARD</a></div><div class="ttdeci">@ REMOVE_CARD</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:30</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_a108baf9420b1708ccf90c30fd4f286bf"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a108baf9420b1708ccf90c30fd4f286bf">ZoneViewZoneLogic::numberCards</a></div><div class="ttdeci">int numberCards</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:21</div></div>
 <div class="ttc" id="aclassZoneViewZoneLogic_html_a13f5041edd9d2ca027c9fcc2a3b519cf"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a13f5041edd9d2ca027c9fcc2a3b519cf">ZoneViewZoneLogic::removeFromViews</a></div><div class="ttdeci">void removeFromViews()</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_a1d1b674c3d213e88bb79fb238d5085e6"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a1d1b674c3d213e88bb79fb238d5085e6">ZoneViewZoneLogic::getIsReversed</a></div><div class="ttdeci">bool getIsReversed() const</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:51</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_a1d1b674c3d213e88bb79fb238d5085e6"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a1d1b674c3d213e88bb79fb238d5085e6">ZoneViewZoneLogic::getIsReversed</a></div><div class="ttdeci">bool getIsReversed() const</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:57</div></div>
 <div class="ttc" id="aclassZoneViewZoneLogic_html_a2b244dba103671db375443d545789782"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a2b244dba103671db375443d545789782">ZoneViewZoneLogic::updateCardIds</a></div><div class="ttdeci">void updateCardIds(CardAction action)</div><div class="ttdef"><b>Definition</b> view_zone_logic.cpp:92</div></div>
 <div class="ttc" id="aclassZoneViewZoneLogic_html_a2c36ba32dfd61ad4e9538225bfff094a"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a2c36ba32dfd61ad4e9538225bfff094a">ZoneViewZoneLogic::prepareAddCard</a></div><div class="ttdeci">bool prepareAddCard(int x)</div><div class="ttdef"><b>Definition</b> view_zone_logic.cpp:38</div></div>
 <div class="ttc" id="aclassZoneViewZoneLogic_html_a5d24a6f4a5edb93de89ca3563eec033b"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a5d24a6f4a5edb93de89ca3563eec033b">ZoneViewZoneLogic::addCardImpl</a></div><div class="ttdeci">void addCardImpl(CardItem *card, int x, int y) override</div><div class="ttdef"><b>Definition</b> view_zone_logic.cpp:71</div></div>
 <div class="ttc" id="aclassZoneViewZoneLogic_html_a60220654789f79d639f2a9413e2dfcd9"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a60220654789f79d639f2a9413e2dfcd9">ZoneViewZoneLogic::removeCard</a></div><div class="ttdeci">void removeCard(int position, bool toNewZone)</div><div class="ttdef"><b>Definition</b> view_zone_logic.cpp:126</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_a6217b1f8590a2a5e86a7f44c3d86502d"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a6217b1f8590a2a5e86a7f44c3d86502d">ZoneViewZoneLogic::getOriginalZone</a></div><div class="ttdeci">CardZoneLogic * getOriginalZone() const</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:56</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_a6217b1f8590a2a5e86a7f44c3d86502d"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a6217b1f8590a2a5e86a7f44c3d86502d">ZoneViewZoneLogic::getOriginalZone</a></div><div class="ttdeci">CardZoneLogic * getOriginalZone() const</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:62</div></div>
 <div class="ttc" id="aclassZoneViewZoneLogic_html_a6ccd01d5f0328ada2f712d388f6aa5ab"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a6ccd01d5f0328ada2f712d388f6aa5ab">ZoneViewZoneLogic::addToViews</a></div><div class="ttdeci">void addToViews()</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_a6daf220de4dd06d43dae8f5f8cb59c4f"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a6daf220de4dd06d43dae8f5f8cb59c4f">ZoneViewZoneLogic::getRevealZone</a></div><div class="ttdeci">bool getRevealZone() const</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:42</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_a6ddeaed792e68ade87788c86fb68e73a"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a6ddeaed792e68ade87788c86fb68e73a">ZoneViewZoneLogic::origZone</a></div><div class="ttdeci">CardZoneLogic * origZone</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:14</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_a92f3d221b8945f8c9b3e11fbe0a07bdc"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a92f3d221b8945f8c9b3e11fbe0a07bdc">ZoneViewZoneLogic::getNumberCards</a></div><div class="ttdeci">int getNumberCards() const</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:38</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_aa729347d494a7a39278afe40daa8bbd2"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2">ZoneViewZoneLogic::writeableRevealZone</a></div><div class="ttdeci">bool writeableRevealZone</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:16</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_a6daf220de4dd06d43dae8f5f8cb59c4f"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a6daf220de4dd06d43dae8f5f8cb59c4f">ZoneViewZoneLogic::getRevealZone</a></div><div class="ttdeci">bool getRevealZone() const</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:48</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_a6ddeaed792e68ade87788c86fb68e73a"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a6ddeaed792e68ade87788c86fb68e73a">ZoneViewZoneLogic::origZone</a></div><div class="ttdeci">CardZoneLogic * origZone</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:20</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_a92f3d221b8945f8c9b3e11fbe0a07bdc"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#a92f3d221b8945f8c9b3e11fbe0a07bdc">ZoneViewZoneLogic::getNumberCards</a></div><div class="ttdeci">int getNumberCards() const</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:44</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_aa729347d494a7a39278afe40daa8bbd2"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2">ZoneViewZoneLogic::writeableRevealZone</a></div><div class="ttdeci">bool writeableRevealZone</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:22</div></div>
 <div class="ttc" id="aclassZoneViewZoneLogic_html_abef056fee9d43aff83c3b8f2130a7853"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#abef056fee9d43aff83c3b8f2130a7853">ZoneViewZoneLogic::closeView</a></div><div class="ttdeci">void closeView()</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_ad831b21f32a8276f8942ecaf9e1a30c8"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#ad831b21f32a8276f8942ecaf9e1a30c8">ZoneViewZoneLogic::getWriteableRevealZone</a></div><div class="ttdeci">bool getWriteableRevealZone() const</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:46</div></div>
-<div class="ttc" id="aclassZoneViewZoneLogic_html_af2f1c5ab07a31e9279bcbe8447293fde"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#af2f1c5ab07a31e9279bcbe8447293fde">ZoneViewZoneLogic::isReversed</a></div><div class="ttdeci">bool isReversed</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:17</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_ad831b21f32a8276f8942ecaf9e1a30c8"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#ad831b21f32a8276f8942ecaf9e1a30c8">ZoneViewZoneLogic::getWriteableRevealZone</a></div><div class="ttdeci">bool getWriteableRevealZone() const</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:52</div></div>
+<div class="ttc" id="aclassZoneViewZoneLogic_html_af2f1c5ab07a31e9279bcbe8447293fde"><div class="ttname"><a href="../../d8/d70/classZoneViewZoneLogic.html#af2f1c5ab07a31e9279bcbe8447293fde">ZoneViewZoneLogic::isReversed</a></div><div class="ttdeci">bool isReversed</div><div class="ttdef"><b>Definition</b> view_zone_logic.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,34 +108,35 @@ $(document).ready(function(){initNavTree('de/d8d/edhrec__top__cards__api__respon
   <div class="headertitle"><div class="title">edhrec_top_cards_api_response.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../de/d8d/edhrec__top__cards__api__response_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef EDHREC_TOP_CARDS_API_RESPONSE_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define EDHREC_TOP_CARDS_API_RESPONSE_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../cards/edhrec_api_response_card_container.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QDebug&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../da/dc4/classEdhrecTopCardsApiResponse.html">    9</a></span><span class="keyword">class </span><a class="code hl_class" href="../../da/dc4/classEdhrecTopCardsApiResponse.html">EdhrecTopCardsApiResponse</a></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a71f36272c9633c00fa848b8690273c95">   12</a></span>    QString <a class="code hl_variable" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a71f36272c9633c00fa848b8690273c95">header</a>;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a8be4b0ef877ea065ec3c532d316abc13">   13</a></span>    QString <a class="code hl_variable" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a8be4b0ef877ea065ec3c532d316abc13">description</a>;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#ac1ed82746ce32d9b2f20547bb998823e">   14</a></span>    <a class="code hl_class" href="../../db/d43/classEdhrecApiResponseCardContainer.html">EdhrecApiResponseCardContainer</a> <a class="code hl_variable" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#ac1ed82746ce32d9b2f20547bb998823e">container</a>;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#ae1b035d9eafe994976c524261f39e8ec">fromJson</a>(<span class="keyword">const</span> QJsonObject &amp;json);</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a6dfd0bcd1f569a911caf171e836fc611">debugPrint</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>};</div>
+<a href="../../de/d8d/edhrec__top__cards__api__response_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef EDHREC_TOP_CARDS_API_RESPONSE_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define EDHREC_TOP_CARDS_API_RESPONSE_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;../cards/edhrec_api_response_card_container.h&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QDebug&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../da/dc4/classEdhrecTopCardsApiResponse.html">   15</a></span><span class="keyword">class </span><a class="code hl_class" href="../../da/dc4/classEdhrecTopCardsApiResponse.html">EdhrecTopCardsApiResponse</a></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a71f36272c9633c00fa848b8690273c95">   18</a></span>    QString <a class="code hl_variable" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a71f36272c9633c00fa848b8690273c95">header</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a8be4b0ef877ea065ec3c532d316abc13">   19</a></span>    QString <a class="code hl_variable" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a8be4b0ef877ea065ec3c532d316abc13">description</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#ac1ed82746ce32d9b2f20547bb998823e">   20</a></span>    <a class="code hl_class" href="../../db/d43/classEdhrecApiResponseCardContainer.html">EdhrecApiResponseCardContainer</a> <a class="code hl_variable" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#ac1ed82746ce32d9b2f20547bb998823e">container</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#ae1b035d9eafe994976c524261f39e8ec">fromJson</a>(<span class="keyword">const</span> QJsonObject &amp;json);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a6dfd0bcd1f569a911caf171e836fc611">debugPrint</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>};</div>
 </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#endif </span><span class="comment">// EDHREC_TOP_CARDS_API_RESPONSE_H</span></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html">EdhrecApiResponseCardContainer</a></div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:14</div></div>
-<div class="ttc" id="aclassEdhrecTopCardsApiResponse_html"><div class="ttname"><a href="../../da/dc4/classEdhrecTopCardsApiResponse.html">EdhrecTopCardsApiResponse</a></div><div class="ttdef"><b>Definition</b> edhrec_top_cards_api_response.h:10</div></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#endif </span><span class="comment">// EDHREC_TOP_CARDS_API_RESPONSE_H</span></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html">EdhrecApiResponseCardContainer</a></div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:20</div></div>
+<div class="ttc" id="aclassEdhrecTopCardsApiResponse_html"><div class="ttname"><a href="../../da/dc4/classEdhrecTopCardsApiResponse.html">EdhrecTopCardsApiResponse</a></div><div class="ttdef"><b>Definition</b> edhrec_top_cards_api_response.h:16</div></div>
 <div class="ttc" id="aclassEdhrecTopCardsApiResponse_html_a6dfd0bcd1f569a911caf171e836fc611"><div class="ttname"><a href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a6dfd0bcd1f569a911caf171e836fc611">EdhrecTopCardsApiResponse::debugPrint</a></div><div class="ttdeci">void debugPrint() const</div><div class="ttdef"><b>Definition</b> edhrec_top_cards_api_response.cpp:14</div></div>
-<div class="ttc" id="aclassEdhrecTopCardsApiResponse_html_a71f36272c9633c00fa848b8690273c95"><div class="ttname"><a href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a71f36272c9633c00fa848b8690273c95">EdhrecTopCardsApiResponse::header</a></div><div class="ttdeci">QString header</div><div class="ttdef"><b>Definition</b> edhrec_top_cards_api_response.h:12</div></div>
-<div class="ttc" id="aclassEdhrecTopCardsApiResponse_html_a8be4b0ef877ea065ec3c532d316abc13"><div class="ttname"><a href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a8be4b0ef877ea065ec3c532d316abc13">EdhrecTopCardsApiResponse::description</a></div><div class="ttdeci">QString description</div><div class="ttdef"><b>Definition</b> edhrec_top_cards_api_response.h:13</div></div>
-<div class="ttc" id="aclassEdhrecTopCardsApiResponse_html_ac1ed82746ce32d9b2f20547bb998823e"><div class="ttname"><a href="../../da/dc4/classEdhrecTopCardsApiResponse.html#ac1ed82746ce32d9b2f20547bb998823e">EdhrecTopCardsApiResponse::container</a></div><div class="ttdeci">EdhrecApiResponseCardContainer container</div><div class="ttdef"><b>Definition</b> edhrec_top_cards_api_response.h:14</div></div>
+<div class="ttc" id="aclassEdhrecTopCardsApiResponse_html_a71f36272c9633c00fa848b8690273c95"><div class="ttname"><a href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a71f36272c9633c00fa848b8690273c95">EdhrecTopCardsApiResponse::header</a></div><div class="ttdeci">QString header</div><div class="ttdef"><b>Definition</b> edhrec_top_cards_api_response.h:18</div></div>
+<div class="ttc" id="aclassEdhrecTopCardsApiResponse_html_a8be4b0ef877ea065ec3c532d316abc13"><div class="ttname"><a href="../../da/dc4/classEdhrecTopCardsApiResponse.html#a8be4b0ef877ea065ec3c532d316abc13">EdhrecTopCardsApiResponse::description</a></div><div class="ttdeci">QString description</div><div class="ttdef"><b>Definition</b> edhrec_top_cards_api_response.h:19</div></div>
+<div class="ttc" id="aclassEdhrecTopCardsApiResponse_html_ac1ed82746ce32d9b2f20547bb998823e"><div class="ttname"><a href="../../da/dc4/classEdhrecTopCardsApiResponse.html#ac1ed82746ce32d9b2f20547bb998823e">EdhrecTopCardsApiResponse::container</a></div><div class="ttdeci">EdhrecApiResponseCardContainer container</div><div class="ttdef"><b>Definition</b> edhrec_top_cards_api_response.h:20</div></div>
 <div class="ttc" id="aclassEdhrecTopCardsApiResponse_html_ae1b035d9eafe994976c524261f39e8ec"><div class="ttname"><a href="../../da/dc4/classEdhrecTopCardsApiResponse.html#ae1b035d9eafe994976c524261f39e8ec">EdhrecTopCardsApiResponse::fromJson</a></div><div class="ttdeci">void fromJson(const QJsonObject &amp;json)</div><div class="ttdef"><b>Definition</b> edhrec_top_cards_api_response.cpp:6</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

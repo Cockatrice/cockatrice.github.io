@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,106 +108,107 @@ $(document).ready(function(){initNavTree('df/da9/dlg__register_8h_source.html','
   <div class="headertitle"><div class="title">dlg_register.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../df/da9/dlg__register_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef DLG_REGISTER_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define DLG_REGISTER_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QComboBox&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QDialog&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QLineEdit&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">class </span>QLabel;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">class </span>QPushButton;</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span>QCheckBox;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d0/d9e/classDlgRegister.html">DlgRegister</a> : <span class="keyword">public</span> QDialog</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    Q_OBJECT</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d0/d9e/classDlgRegister.html">DlgRegister</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#a42ea87d60b94c463aa1e7685cd576ad0">   17</a></span>    QString <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#a42ea87d60b94c463aa1e7685cd576ad0">getHost</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ad8354d3a358761d6393dabf77217ba65">hostEdit</a>-&gt;text();</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    }</div>
+<a href="../../df/da9/dlg__register_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef DLG_REGISTER_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define DLG_REGISTER_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QComboBox&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QDialog&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QLineEdit&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>QLabel;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span>QPushButton;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span>QCheckBox;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html">   18</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d0/d9e/classDlgRegister.html">DlgRegister</a> : <span class="keyword">public</span> QDialog</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    Q_OBJECT</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d0/d9e/classDlgRegister.html">DlgRegister</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#a42ea87d60b94c463aa1e7685cd576ad0">   23</a></span>    QString <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#a42ea87d60b94c463aa1e7685cd576ad0">getHost</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ad8354d3a358761d6393dabf77217ba65">hostEdit</a>-&gt;text();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00021" data-start="{" data-end="}">
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#ab6b0cdfc4457a17ad7b87f32404a36bc">   21</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#ab6b0cdfc4457a17ad7b87f32404a36bc">getPort</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a4c2b026fec97205f5398172618b7fc7a">portEdit</a>-&gt;text().toInt();</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    }</div>
+<div class="foldopen" id="foldopen00027" data-start="{" data-end="}">
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#ab6b0cdfc4457a17ad7b87f32404a36bc">   27</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#ab6b0cdfc4457a17ad7b87f32404a36bc">getPort</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a4c2b026fec97205f5398172618b7fc7a">portEdit</a>-&gt;text().toInt();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#a095c34125c92e424978489e3fff745bb">   25</a></span>    QString <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#a095c34125c92e424978489e3fff745bb">getPlayerName</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ae7af554ce86bc28de067771c45c931bd">playernameEdit</a>-&gt;text();</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    }</div>
+<div class="foldopen" id="foldopen00031" data-start="{" data-end="}">
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#a095c34125c92e424978489e3fff745bb">   31</a></span>    QString <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#a095c34125c92e424978489e3fff745bb">getPlayerName</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ae7af554ce86bc28de067771c45c931bd">playernameEdit</a>-&gt;text();</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#aa61787d3df0f0da1deec8ba563e5fa62">   29</a></span>    QString <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#aa61787d3df0f0da1deec8ba563e5fa62">getPassword</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ad6f83165389138b32bc93eabde43ef42">passwordEdit</a>-&gt;text();</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    }</div>
+<div class="foldopen" id="foldopen00035" data-start="{" data-end="}">
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#aa61787d3df0f0da1deec8ba563e5fa62">   35</a></span>    QString <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#aa61787d3df0f0da1deec8ba563e5fa62">getPassword</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ad6f83165389138b32bc93eabde43ef42">passwordEdit</a>-&gt;text();</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#a6bbeb3502d4592293fc6816fbc7fab9f">   33</a></span>    QString <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#a6bbeb3502d4592293fc6816fbc7fab9f">getEmail</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#acf5b2ef2407ba932a00c5c6279c039fa">emailEdit</a>-&gt;text();</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
+<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#a6bbeb3502d4592293fc6816fbc7fab9f">   39</a></span>    QString <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#a6bbeb3502d4592293fc6816fbc7fab9f">getEmail</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#acf5b2ef2407ba932a00c5c6279c039fa">emailEdit</a>-&gt;text();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#ac6e1f8f1b557a4a71eb0ace04b66ef89">   37</a></span>    QString <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#ac6e1f8f1b557a4a71eb0ace04b66ef89">getCountry</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a08bb42c13de1ff72f799b7a38ade8bed">countryEdit</a>-&gt;currentIndex() == 0 ? <span class="stringliteral">&quot;&quot;</span> : <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a08bb42c13de1ff72f799b7a38ade8bed">countryEdit</a>-&gt;currentText();</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    }</div>
+<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#ac6e1f8f1b557a4a71eb0ace04b66ef89">   43</a></span>    QString <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#ac6e1f8f1b557a4a71eb0ace04b66ef89">getCountry</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a08bb42c13de1ff72f799b7a38ade8bed">countryEdit</a>-&gt;currentIndex() == 0 ? <span class="stringliteral">&quot;&quot;</span> : <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a08bb42c13de1ff72f799b7a38ade8bed">countryEdit</a>-&gt;currentText();</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00041" data-start="{" data-end="}">
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#a23b5a3f2bddcd39d4226505c156dd1c2">   41</a></span>    QString <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#a23b5a3f2bddcd39d4226505c156dd1c2">getRealName</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#aa8bd788612d1d81e15b685c2534c1302">realnameEdit</a>-&gt;text();</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    }</div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#a23b5a3f2bddcd39d4226505c156dd1c2">   47</a></span>    QString <a class="code hl_function" href="../../d0/d9e/classDlgRegister.html#a23b5a3f2bddcd39d4226505c156dd1c2">getRealName</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#aa8bd788612d1d81e15b685c2534c1302">realnameEdit</a>-&gt;text();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    }</div>
 </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d0/d9e/classDlgRegister.html#a187e37b380eee1647986488db9d41312">actOk</a>();</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#ac48f7878e1d971261da87478f58bbe08">   49</a></span>    QLabel *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#acb36c440c1613221e3c361b7bac29c7e">infoLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ac48f7878e1d971261da87478f58bbe08">hostLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a6f365d38040d452b9300b226a433a10b">portLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a0e876d5a6fe237e1000a3b993fa39ea4">playernameLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a13ab91774c65ebaeb5ed2561b6bf4b8d">passwordLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#aff058fda57ce1ea7328815a1bf69698f">passwordConfirmationLabel</a>,</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#aac97851534a04d76abb0edd0a0513989">   50</a></span>        *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a5b7238c333b144385ff83da4e08a7265">emailLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a446befa1b122f868e5cdcc636973b430">emailConfirmationLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#aac97851534a04d76abb0edd0a0513989">countryLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ac95f0f9d072b2b2e18493183e3d6dcb5">realnameLabel</a>;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#acf5b2ef2407ba932a00c5c6279c039fa">   51</a></span>    QLineEdit *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ad8354d3a358761d6393dabf77217ba65">hostEdit</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a4c2b026fec97205f5398172618b7fc7a">portEdit</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ae7af554ce86bc28de067771c45c931bd">playernameEdit</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ad6f83165389138b32bc93eabde43ef42">passwordEdit</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#afb255a5bb50361afc181cc32416e40bf">passwordConfirmationEdit</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#acf5b2ef2407ba932a00c5c6279c039fa">emailEdit</a>,</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#a129603d98ab08b8589239489e0b42456">   52</a></span>        *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a129603d98ab08b8589239489e0b42456">emailConfirmationEdit</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#aa8bd788612d1d81e15b685c2534c1302">realnameEdit</a>;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#a08bb42c13de1ff72f799b7a38ade8bed">   53</a></span>    QComboBox *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a08bb42c13de1ff72f799b7a38ade8bed">countryEdit</a>;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>};</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d0/d9e/classDlgRegister.html#a187e37b380eee1647986488db9d41312">actOk</a>();</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#ac48f7878e1d971261da87478f58bbe08">   55</a></span>    QLabel *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#acb36c440c1613221e3c361b7bac29c7e">infoLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ac48f7878e1d971261da87478f58bbe08">hostLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a6f365d38040d452b9300b226a433a10b">portLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a0e876d5a6fe237e1000a3b993fa39ea4">playernameLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a13ab91774c65ebaeb5ed2561b6bf4b8d">passwordLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#aff058fda57ce1ea7328815a1bf69698f">passwordConfirmationLabel</a>,</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#aac97851534a04d76abb0edd0a0513989">   56</a></span>        *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a5b7238c333b144385ff83da4e08a7265">emailLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a446befa1b122f868e5cdcc636973b430">emailConfirmationLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#aac97851534a04d76abb0edd0a0513989">countryLabel</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ac95f0f9d072b2b2e18493183e3d6dcb5">realnameLabel</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#acf5b2ef2407ba932a00c5c6279c039fa">   57</a></span>    QLineEdit *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ad8354d3a358761d6393dabf77217ba65">hostEdit</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a4c2b026fec97205f5398172618b7fc7a">portEdit</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ae7af554ce86bc28de067771c45c931bd">playernameEdit</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#ad6f83165389138b32bc93eabde43ef42">passwordEdit</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#afb255a5bb50361afc181cc32416e40bf">passwordConfirmationEdit</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#acf5b2ef2407ba932a00c5c6279c039fa">emailEdit</a>,</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#a129603d98ab08b8589239489e0b42456">   58</a></span>        *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a129603d98ab08b8589239489e0b42456">emailConfirmationEdit</a>, *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#aa8bd788612d1d81e15b685c2534c1302">realnameEdit</a>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../d0/d9e/classDlgRegister.html#a08bb42c13de1ff72f799b7a38ade8bed">   59</a></span>    QComboBox *<a class="code hl_variable" href="../../d0/d9e/classDlgRegister.html#a08bb42c13de1ff72f799b7a38ade8bed">countryEdit</a>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>};</div>
 </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassDlgRegister_html"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html">DlgRegister</a></div><div class="ttdef"><b>Definition</b> dlg_register.h:13</div></div>
-<div class="ttc" id="aclassDlgRegister_html_a08bb42c13de1ff72f799b7a38ade8bed"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a08bb42c13de1ff72f799b7a38ade8bed">DlgRegister::countryEdit</a></div><div class="ttdeci">QComboBox * countryEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:53</div></div>
-<div class="ttc" id="aclassDlgRegister_html_a095c34125c92e424978489e3fff745bb"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a095c34125c92e424978489e3fff745bb">DlgRegister::getPlayerName</a></div><div class="ttdeci">QString getPlayerName() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:25</div></div>
-<div class="ttc" id="aclassDlgRegister_html_a0e876d5a6fe237e1000a3b993fa39ea4"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a0e876d5a6fe237e1000a3b993fa39ea4">DlgRegister::playernameLabel</a></div><div class="ttdeci">QLabel * playernameLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:49</div></div>
-<div class="ttc" id="aclassDlgRegister_html_a129603d98ab08b8589239489e0b42456"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a129603d98ab08b8589239489e0b42456">DlgRegister::emailConfirmationEdit</a></div><div class="ttdeci">QLineEdit * emailConfirmationEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:52</div></div>
-<div class="ttc" id="aclassDlgRegister_html_a13ab91774c65ebaeb5ed2561b6bf4b8d"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a13ab91774c65ebaeb5ed2561b6bf4b8d">DlgRegister::passwordLabel</a></div><div class="ttdeci">QLabel * passwordLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:49</div></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassDlgRegister_html"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html">DlgRegister</a></div><div class="ttdef"><b>Definition</b> dlg_register.h:19</div></div>
+<div class="ttc" id="aclassDlgRegister_html_a08bb42c13de1ff72f799b7a38ade8bed"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a08bb42c13de1ff72f799b7a38ade8bed">DlgRegister::countryEdit</a></div><div class="ttdeci">QComboBox * countryEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:59</div></div>
+<div class="ttc" id="aclassDlgRegister_html_a095c34125c92e424978489e3fff745bb"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a095c34125c92e424978489e3fff745bb">DlgRegister::getPlayerName</a></div><div class="ttdeci">QString getPlayerName() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:31</div></div>
+<div class="ttc" id="aclassDlgRegister_html_a0e876d5a6fe237e1000a3b993fa39ea4"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a0e876d5a6fe237e1000a3b993fa39ea4">DlgRegister::playernameLabel</a></div><div class="ttdeci">QLabel * playernameLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:55</div></div>
+<div class="ttc" id="aclassDlgRegister_html_a129603d98ab08b8589239489e0b42456"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a129603d98ab08b8589239489e0b42456">DlgRegister::emailConfirmationEdit</a></div><div class="ttdeci">QLineEdit * emailConfirmationEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:58</div></div>
+<div class="ttc" id="aclassDlgRegister_html_a13ab91774c65ebaeb5ed2561b6bf4b8d"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a13ab91774c65ebaeb5ed2561b6bf4b8d">DlgRegister::passwordLabel</a></div><div class="ttdeci">QLabel * passwordLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:55</div></div>
 <div class="ttc" id="aclassDlgRegister_html_a187e37b380eee1647986488db9d41312"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a187e37b380eee1647986488db9d41312">DlgRegister::actOk</a></div><div class="ttdeci">void actOk()</div><div class="ttdef"><b>Definition</b> dlg_register.cpp:359</div></div>
-<div class="ttc" id="aclassDlgRegister_html_a23b5a3f2bddcd39d4226505c156dd1c2"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a23b5a3f2bddcd39d4226505c156dd1c2">DlgRegister::getRealName</a></div><div class="ttdeci">QString getRealName() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:41</div></div>
-<div class="ttc" id="aclassDlgRegister_html_a42ea87d60b94c463aa1e7685cd576ad0"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a42ea87d60b94c463aa1e7685cd576ad0">DlgRegister::getHost</a></div><div class="ttdeci">QString getHost() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:17</div></div>
-<div class="ttc" id="aclassDlgRegister_html_a446befa1b122f868e5cdcc636973b430"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a446befa1b122f868e5cdcc636973b430">DlgRegister::emailConfirmationLabel</a></div><div class="ttdeci">QLabel * emailConfirmationLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:50</div></div>
-<div class="ttc" id="aclassDlgRegister_html_a4c2b026fec97205f5398172618b7fc7a"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a4c2b026fec97205f5398172618b7fc7a">DlgRegister::portEdit</a></div><div class="ttdeci">QLineEdit * portEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:51</div></div>
-<div class="ttc" id="aclassDlgRegister_html_a5b7238c333b144385ff83da4e08a7265"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a5b7238c333b144385ff83da4e08a7265">DlgRegister::emailLabel</a></div><div class="ttdeci">QLabel * emailLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:50</div></div>
-<div class="ttc" id="aclassDlgRegister_html_a6bbeb3502d4592293fc6816fbc7fab9f"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a6bbeb3502d4592293fc6816fbc7fab9f">DlgRegister::getEmail</a></div><div class="ttdeci">QString getEmail() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:33</div></div>
-<div class="ttc" id="aclassDlgRegister_html_a6f365d38040d452b9300b226a433a10b"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a6f365d38040d452b9300b226a433a10b">DlgRegister::portLabel</a></div><div class="ttdeci">QLabel * portLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:49</div></div>
-<div class="ttc" id="aclassDlgRegister_html_aa61787d3df0f0da1deec8ba563e5fa62"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#aa61787d3df0f0da1deec8ba563e5fa62">DlgRegister::getPassword</a></div><div class="ttdeci">QString getPassword() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:29</div></div>
-<div class="ttc" id="aclassDlgRegister_html_aa8bd788612d1d81e15b685c2534c1302"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#aa8bd788612d1d81e15b685c2534c1302">DlgRegister::realnameEdit</a></div><div class="ttdeci">QLineEdit * realnameEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:52</div></div>
-<div class="ttc" id="aclassDlgRegister_html_aac97851534a04d76abb0edd0a0513989"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#aac97851534a04d76abb0edd0a0513989">DlgRegister::countryLabel</a></div><div class="ttdeci">QLabel * countryLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:50</div></div>
-<div class="ttc" id="aclassDlgRegister_html_ab6b0cdfc4457a17ad7b87f32404a36bc"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ab6b0cdfc4457a17ad7b87f32404a36bc">DlgRegister::getPort</a></div><div class="ttdeci">int getPort() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:21</div></div>
-<div class="ttc" id="aclassDlgRegister_html_ac48f7878e1d971261da87478f58bbe08"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ac48f7878e1d971261da87478f58bbe08">DlgRegister::hostLabel</a></div><div class="ttdeci">QLabel * hostLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:49</div></div>
-<div class="ttc" id="aclassDlgRegister_html_ac6e1f8f1b557a4a71eb0ace04b66ef89"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ac6e1f8f1b557a4a71eb0ace04b66ef89">DlgRegister::getCountry</a></div><div class="ttdeci">QString getCountry() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:37</div></div>
-<div class="ttc" id="aclassDlgRegister_html_ac95f0f9d072b2b2e18493183e3d6dcb5"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ac95f0f9d072b2b2e18493183e3d6dcb5">DlgRegister::realnameLabel</a></div><div class="ttdeci">QLabel * realnameLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:50</div></div>
-<div class="ttc" id="aclassDlgRegister_html_acb36c440c1613221e3c361b7bac29c7e"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#acb36c440c1613221e3c361b7bac29c7e">DlgRegister::infoLabel</a></div><div class="ttdeci">QLabel * infoLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:49</div></div>
-<div class="ttc" id="aclassDlgRegister_html_acf5b2ef2407ba932a00c5c6279c039fa"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#acf5b2ef2407ba932a00c5c6279c039fa">DlgRegister::emailEdit</a></div><div class="ttdeci">QLineEdit * emailEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:51</div></div>
-<div class="ttc" id="aclassDlgRegister_html_ad6f83165389138b32bc93eabde43ef42"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ad6f83165389138b32bc93eabde43ef42">DlgRegister::passwordEdit</a></div><div class="ttdeci">QLineEdit * passwordEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:51</div></div>
-<div class="ttc" id="aclassDlgRegister_html_ad8354d3a358761d6393dabf77217ba65"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ad8354d3a358761d6393dabf77217ba65">DlgRegister::hostEdit</a></div><div class="ttdeci">QLineEdit * hostEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:51</div></div>
-<div class="ttc" id="aclassDlgRegister_html_ae7af554ce86bc28de067771c45c931bd"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ae7af554ce86bc28de067771c45c931bd">DlgRegister::playernameEdit</a></div><div class="ttdeci">QLineEdit * playernameEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:51</div></div>
-<div class="ttc" id="aclassDlgRegister_html_afb255a5bb50361afc181cc32416e40bf"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#afb255a5bb50361afc181cc32416e40bf">DlgRegister::passwordConfirmationEdit</a></div><div class="ttdeci">QLineEdit * passwordConfirmationEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:51</div></div>
-<div class="ttc" id="aclassDlgRegister_html_aff058fda57ce1ea7328815a1bf69698f"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#aff058fda57ce1ea7328815a1bf69698f">DlgRegister::passwordConfirmationLabel</a></div><div class="ttdeci">QLabel * passwordConfirmationLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:49</div></div>
+<div class="ttc" id="aclassDlgRegister_html_a23b5a3f2bddcd39d4226505c156dd1c2"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a23b5a3f2bddcd39d4226505c156dd1c2">DlgRegister::getRealName</a></div><div class="ttdeci">QString getRealName() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:47</div></div>
+<div class="ttc" id="aclassDlgRegister_html_a42ea87d60b94c463aa1e7685cd576ad0"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a42ea87d60b94c463aa1e7685cd576ad0">DlgRegister::getHost</a></div><div class="ttdeci">QString getHost() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:23</div></div>
+<div class="ttc" id="aclassDlgRegister_html_a446befa1b122f868e5cdcc636973b430"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a446befa1b122f868e5cdcc636973b430">DlgRegister::emailConfirmationLabel</a></div><div class="ttdeci">QLabel * emailConfirmationLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:56</div></div>
+<div class="ttc" id="aclassDlgRegister_html_a4c2b026fec97205f5398172618b7fc7a"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a4c2b026fec97205f5398172618b7fc7a">DlgRegister::portEdit</a></div><div class="ttdeci">QLineEdit * portEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:57</div></div>
+<div class="ttc" id="aclassDlgRegister_html_a5b7238c333b144385ff83da4e08a7265"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a5b7238c333b144385ff83da4e08a7265">DlgRegister::emailLabel</a></div><div class="ttdeci">QLabel * emailLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:56</div></div>
+<div class="ttc" id="aclassDlgRegister_html_a6bbeb3502d4592293fc6816fbc7fab9f"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a6bbeb3502d4592293fc6816fbc7fab9f">DlgRegister::getEmail</a></div><div class="ttdeci">QString getEmail() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:39</div></div>
+<div class="ttc" id="aclassDlgRegister_html_a6f365d38040d452b9300b226a433a10b"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#a6f365d38040d452b9300b226a433a10b">DlgRegister::portLabel</a></div><div class="ttdeci">QLabel * portLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:55</div></div>
+<div class="ttc" id="aclassDlgRegister_html_aa61787d3df0f0da1deec8ba563e5fa62"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#aa61787d3df0f0da1deec8ba563e5fa62">DlgRegister::getPassword</a></div><div class="ttdeci">QString getPassword() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:35</div></div>
+<div class="ttc" id="aclassDlgRegister_html_aa8bd788612d1d81e15b685c2534c1302"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#aa8bd788612d1d81e15b685c2534c1302">DlgRegister::realnameEdit</a></div><div class="ttdeci">QLineEdit * realnameEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:58</div></div>
+<div class="ttc" id="aclassDlgRegister_html_aac97851534a04d76abb0edd0a0513989"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#aac97851534a04d76abb0edd0a0513989">DlgRegister::countryLabel</a></div><div class="ttdeci">QLabel * countryLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:56</div></div>
+<div class="ttc" id="aclassDlgRegister_html_ab6b0cdfc4457a17ad7b87f32404a36bc"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ab6b0cdfc4457a17ad7b87f32404a36bc">DlgRegister::getPort</a></div><div class="ttdeci">int getPort() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:27</div></div>
+<div class="ttc" id="aclassDlgRegister_html_ac48f7878e1d971261da87478f58bbe08"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ac48f7878e1d971261da87478f58bbe08">DlgRegister::hostLabel</a></div><div class="ttdeci">QLabel * hostLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:55</div></div>
+<div class="ttc" id="aclassDlgRegister_html_ac6e1f8f1b557a4a71eb0ace04b66ef89"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ac6e1f8f1b557a4a71eb0ace04b66ef89">DlgRegister::getCountry</a></div><div class="ttdeci">QString getCountry() const</div><div class="ttdef"><b>Definition</b> dlg_register.h:43</div></div>
+<div class="ttc" id="aclassDlgRegister_html_ac95f0f9d072b2b2e18493183e3d6dcb5"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ac95f0f9d072b2b2e18493183e3d6dcb5">DlgRegister::realnameLabel</a></div><div class="ttdeci">QLabel * realnameLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:56</div></div>
+<div class="ttc" id="aclassDlgRegister_html_acb36c440c1613221e3c361b7bac29c7e"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#acb36c440c1613221e3c361b7bac29c7e">DlgRegister::infoLabel</a></div><div class="ttdeci">QLabel * infoLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:55</div></div>
+<div class="ttc" id="aclassDlgRegister_html_acf5b2ef2407ba932a00c5c6279c039fa"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#acf5b2ef2407ba932a00c5c6279c039fa">DlgRegister::emailEdit</a></div><div class="ttdeci">QLineEdit * emailEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:57</div></div>
+<div class="ttc" id="aclassDlgRegister_html_ad6f83165389138b32bc93eabde43ef42"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ad6f83165389138b32bc93eabde43ef42">DlgRegister::passwordEdit</a></div><div class="ttdeci">QLineEdit * passwordEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:57</div></div>
+<div class="ttc" id="aclassDlgRegister_html_ad8354d3a358761d6393dabf77217ba65"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ad8354d3a358761d6393dabf77217ba65">DlgRegister::hostEdit</a></div><div class="ttdeci">QLineEdit * hostEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:57</div></div>
+<div class="ttc" id="aclassDlgRegister_html_ae7af554ce86bc28de067771c45c931bd"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#ae7af554ce86bc28de067771c45c931bd">DlgRegister::playernameEdit</a></div><div class="ttdeci">QLineEdit * playernameEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:57</div></div>
+<div class="ttc" id="aclassDlgRegister_html_afb255a5bb50361afc181cc32416e40bf"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#afb255a5bb50361afc181cc32416e40bf">DlgRegister::passwordConfirmationEdit</a></div><div class="ttdeci">QLineEdit * passwordConfirmationEdit</div><div class="ttdef"><b>Definition</b> dlg_register.h:57</div></div>
+<div class="ttc" id="aclassDlgRegister_html_aff058fda57ce1ea7328815a1bf69698f"><div class="ttname"><a href="../../d0/d9e/classDlgRegister.html#aff058fda57ce1ea7328815a1bf69698f">DlgRegister::passwordConfirmationLabel</a></div><div class="ttdeci">QLabel * passwordConfirmationLabel</div><div class="ttdef"><b>Definition</b> dlg_register.h:55</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

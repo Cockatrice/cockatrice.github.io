@@ -9,13 +9,13 @@ var searchData=
   ['zoneid_6',['zoneId',['../d2/d4b/classPlayer.html#a6167843ff3c990bee46cd490e43e85e0',1,'Player']]],
   ['zonelabelmainboard_7',['zoneLabelMainboard',['../d7/ddb/classAllZonesCardAmountWidget.html#acf8619757ef34191d6532d2038d2b5f2',1,'AllZonesCardAmountWidget']]],
   ['zonelabelsideboard_8',['zoneLabelSideboard',['../d7/ddb/classAllZonesCardAmountWidget.html#ac8b98ef76d0e4f0fca178911d6d9df0a',1,'AllZonesCardAmountWidget']]],
-  ['zonename_9',['zonename',['../d9/d5d/classCardGroupDisplayWidget.html#ae96b83990920b990490c4d10df1bea55',1,'CardGroupDisplayWidget::zoneName'],['../d8/d9f/classDeckCardZoneDisplayWidget.html#aad27e26bdafcbd5f43ba2f3a81b3cc8f',1,'DeckCardZoneDisplayWidget::zoneName'],['../dc/d15/classCardAmountWidget.html#a9e4d915e5bde4b559e8e4203475ca0c3',1,'CardAmountWidget::zoneName']]],
-  ['zones_10',['zones',['../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0',1,'Player::zones'],['../d8/d21/classServer__Player.html#a981dc6236a5944b365bb7da6cc9ea77e',1,'Server_Player::zones']]],
+  ['zonename_9',['zonename',['../d8/d9f/classDeckCardZoneDisplayWidget.html#aad27e26bdafcbd5f43ba2f3a81b3cc8f',1,'DeckCardZoneDisplayWidget::zoneName'],['../d9/d5d/classCardGroupDisplayWidget.html#ae96b83990920b990490c4d10df1bea55',1,'CardGroupDisplayWidget::zoneName'],['../dc/d15/classCardAmountWidget.html#a9e4d915e5bde4b559e8e4203475ca0c3',1,'CardAmountWidget::zoneName']]],
+  ['zones_10',['zones',['../d2/d48/group__GameLogicZones.html',1,'Zones'],['../d8/d21/classServer__Player.html#a981dc6236a5944b365bb7da6cc9ea77e',1,'Server_Player::zones'],['../d8/d23/group__GameMenusZones.html',1,'Zones'],['../d0/df6/group__GameGraphicsZones.html',1,'Zones'],['../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0',1,'Player::zones']]],
   ['zoneviewgroupbyindex_11',['zoneViewGroupByIndex',['../d5/d88/classSettingsCache.html#a0ac12837806845b1a433d0779f170c94',1,'SettingsCache']]],
   ['zoneviewpileview_12',['zoneViewPileView',['../d5/d88/classSettingsCache.html#aebfc75cab9857311d7d123afa000b4e3',1,'SettingsCache']]],
   ['zoneviews_13',['zoneViews',['../db/d9f/classGameScene.html#adbd05dc03b8a1b08cd9bd204713e61fb',1,'GameScene']]],
   ['zoneviewsortbyindex_14',['zoneViewSortByIndex',['../d5/d88/classSettingsCache.html#a98c7127c9eacc3e0257c8d866c132157',1,'SettingsCache']]],
   ['zoneviewwidget_15',['zoneviewwidget',['../d0/dd9/classZoneViewWidget.html#a8d3d090850d6deaf12824009f41e5406',1,'ZoneViewWidget::ZoneViewWidget()'],['../d0/dd9/classZoneViewWidget.html',1,'ZoneViewWidget']]],
   ['zoneviewzone_16',['zoneviewzone',['../d0/db5/classZoneViewZone.html#a6edf294de4065c2f00f6fabb74456fa5',1,'ZoneViewZone::ZoneViewZone()'],['../d0/db5/classZoneViewZone.html',1,'ZoneViewZone']]],
-  ['zoneviewzonelogic_17',['zoneviewzonelogic',['../d8/d70/classZoneViewZoneLogic.html',1,'ZoneViewZoneLogic'],['../d8/d70/classZoneViewZoneLogic.html#a6bc9a4b68aa734f3c96d681d14156065',1,'ZoneViewZoneLogic::ZoneViewZoneLogic()']]]
+  ['zoneviewzonelogic_17',['zoneviewzonelogic',['../d8/d70/classZoneViewZoneLogic.html#a6bc9a4b68aa734f3c96d681d14156065',1,'ZoneViewZoneLogic::ZoneViewZoneLogic()'],['../d8/d70/classZoneViewZoneLogic.html',1,'ZoneViewZoneLogic']]]
 ];

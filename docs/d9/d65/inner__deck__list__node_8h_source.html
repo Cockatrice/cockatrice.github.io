@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -209,8 +211,8 @@ $(document).ready(function(){initNavTree('d9/d65/inner__deck__list__node_8h_sour
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_INNER_DECK_LIST_NODE_H</span></div>
 <div class="ttc" id="aabstract__deck__list__node_8h_html"><div class="ttname"><a href="../../d8/d7d/abstract__deck__list__node_8h.html">abstract_deck_list_node.h</a></div><div class="ttdoc">Defines the AbstractDecklistNode base class used as the foundation for all nodes in the deck list tre...</div></div>
-<div class="ttc" id="aabstract__deck__list__node_8h_html_a8ea3802f8561f16be908a83a08a796ce"><div class="ttname"><a href="../../d8/d7d/abstract__deck__list__node_8h.html#a8ea3802f8561f16be908a83a08a796ce">DeckSortMethod</a></div><div class="ttdeci">DeckSortMethod</div><div class="ttdoc">Defines the different sort strategies a node may use to order its children.</div><div class="ttdef"><b>Definition</b> abstract_deck_list_node.h:36</div></div>
-<div class="ttc" id="aclassAbstractDecklistNode_html"><div class="ttname"><a href="../../dc/dd8/classAbstractDecklistNode.html">AbstractDecklistNode</a></div><div class="ttdoc">Base class for all nodes in the deck list tree.</div><div class="ttdef"><b>Definition</b> abstract_deck_list_node.h:72</div></div>
+<div class="ttc" id="aabstract__deck__list__node_8h_html_a8ea3802f8561f16be908a83a08a796ce"><div class="ttname"><a href="../../d8/d7d/abstract__deck__list__node_8h.html#a8ea3802f8561f16be908a83a08a796ce">DeckSortMethod</a></div><div class="ttdeci">DeckSortMethod</div><div class="ttdef"><b>Definition</b> abstract_deck_list_node.h:37</div></div>
+<div class="ttc" id="aclassAbstractDecklistNode_html"><div class="ttname"><a href="../../dc/dd8/classAbstractDecklistNode.html">AbstractDecklistNode</a></div><div class="ttdoc">Base class for all nodes in the deck list tree.</div><div class="ttdef"><b>Definition</b> abstract_deck_list_node.h:74</div></div>
 <div class="ttc" id="aclassInnerDecklistNode_html"><div class="ttname"><a href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a></div><div class="ttdoc">Represents a container node in the deck list hierarchy (zones and groupings).</div><div class="ttdef"><b>Definition</b> inner_deck_list_node.h:62</div></div>
 <div class="ttc" id="aclassInnerDecklistNode_html_a0b561ece7a960acc3d8c3f00865cbf54"><div class="ttname"><a href="../../d4/d55/classInnerDecklistNode.html#a0b561ece7a960acc3d8c3f00865cbf54">InnerDecklistNode::~InnerDecklistNode</a></div><div class="ttdeci">~InnerDecklistNode() override</div><div class="ttdoc">Destructor. Recursively deletes all child nodes.</div><div class="ttdef"><b>Definition</b> inner_deck_list_node.cpp:18</div></div>
 <div class="ttc" id="aclassInnerDecklistNode_html_a0b5a2e95bbf05f6d153f222dcb00a5cc"><div class="ttname"><a href="../../d4/d55/classInnerDecklistNode.html#a0b5a2e95bbf05f6d153f222dcb00a5cc">InnerDecklistNode::visibleNameFromName</a></div><div class="ttdeci">static QString visibleNameFromName(const QString &amp;_name)</div><div class="ttdoc">Translate an internal name into a user-visible name.</div><div class="ttdef"><b>Definition</b> inner_deck_list_node.cpp:23</div></div>

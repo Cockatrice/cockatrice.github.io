@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,56 +108,57 @@ $(document).ready(function(){initNavTree('dd/da4/card__size__widget_8h_source.ht
   <div class="headertitle"><div class="title">card_size_widget.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dd/da4/card__size__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef CARD_SIZE_WIDGET_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define CARD_SIZE_WIDGET_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../general/layout_containers/flow_widget.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QHBoxLayout&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QLabel&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QSlider&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QTimer&gt;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<a href="../../dd/da4/card__size__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifndef CARD_SIZE_WIDGET_H</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#define CARD_SIZE_WIDGET_H</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="../../df/d47/classCardSizeWidget.html">CardSizeWidget</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    Q_OBJECT</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../df/d47/classCardSizeWidget.html">CardSizeWidget</a>(QWidget *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a4cc5a0ae025c831b67905513c9de6ed3">parent</a>, <a class="code hl_class" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a06b4b273dabd352f215598c7103e0bc6">flowWidget</a> = <span class="keyword">nullptr</span>, <span class="keywordtype">int</span> defaultValue = 100);</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    [[nodiscard]] QSlider *<a class="code hl_function" href="../../df/d47/classCardSizeWidget.html#ac9a6a5fed069e0bac53ef2440eda025f">getSlider</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;../general/layout_containers/flow_widget.h&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QHBoxLayout&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;QLabel&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;QSlider&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;QTimer&gt;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../df/d47/classCardSizeWidget.html#ab30f3c11142480d692da5d848d46d2cb">updateCardSizeSetting</a>(<span class="keywordtype">int</span> newValue);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>signals:</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#a3cac221c83bba1c4ccf1c0fc91093688">   29</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../df/d47/classCardSizeWidget.html#a3cac221c83bba1c4ccf1c0fc91093688">cardSizeSettingUpdated</a>(<span class="keywordtype">int</span> newValue);</div>
+<div class="foldopen" id="foldopen00020" data-start="{" data-end="};">
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html">   20</a></span><span class="keyword">class </span><a class="code hl_class" href="../../df/d47/classCardSizeWidget.html">CardSizeWidget</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    Q_OBJECT</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../df/d47/classCardSizeWidget.html">CardSizeWidget</a>(QWidget *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a4cc5a0ae025c831b67905513c9de6ed3">parent</a>, <a class="code hl_class" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a06b4b273dabd352f215598c7103e0bc6">flowWidget</a> = <span class="keyword">nullptr</span>, <span class="keywordtype">int</span> defaultValue = 100);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    [[nodiscard]] QSlider *<a class="code hl_function" href="../../df/d47/classCardSizeWidget.html#ac9a6a5fed069e0bac53ef2440eda025f">getSlider</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../df/d47/classCardSizeWidget.html#ab30f3c11142480d692da5d848d46d2cb">updateCardSizeSetting</a>(<span class="keywordtype">int</span> newValue);</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#a4cc5a0ae025c831b67905513c9de6ed3">   32</a></span>    QWidget *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a4cc5a0ae025c831b67905513c9de6ed3">parent</a>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#a06b4b273dabd352f215598c7103e0bc6">   33</a></span>    <a class="code hl_class" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a06b4b273dabd352f215598c7103e0bc6">flowWidget</a>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#ac0164c6dacf55f8a7183e658facc9017">   34</a></span>    QHBoxLayout *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#ac0164c6dacf55f8a7183e658facc9017">cardSizeLayout</a>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#a6582d087d9daa4245961deca2dc05a68">   35</a></span>    QLabel *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a6582d087d9daa4245961deca2dc05a68">cardSizeLabel</a>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#a4468e2a33a74b9c7c6ed382872d79186">   36</a></span>    QSlider *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a4468e2a33a74b9c7c6ed382872d79186">cardSizeSlider</a>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#a368c7c4c1f6f9df291bb31f860c26458">   37</a></span>    QTimer <a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a368c7c4c1f6f9df291bb31f860c26458">debounceTimer</a>; <span class="comment">// Debounce timer</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#aacdfc5b6e70c4b22970761c67943b488">   38</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#aacdfc5b6e70c4b22970761c67943b488">pendingValue</a>;     <span class="comment">// Stores the latest slider value</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>};</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>signals:</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#a3cac221c83bba1c4ccf1c0fc91093688">   37</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../df/d47/classCardSizeWidget.html#a3cac221c83bba1c4ccf1c0fc91093688">cardSizeSettingUpdated</a>(<span class="keywordtype">int</span> newValue);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#a4cc5a0ae025c831b67905513c9de6ed3">   40</a></span>    QWidget *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a4cc5a0ae025c831b67905513c9de6ed3">parent</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#a06b4b273dabd352f215598c7103e0bc6">   41</a></span>    <a class="code hl_class" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a06b4b273dabd352f215598c7103e0bc6">flowWidget</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#ac0164c6dacf55f8a7183e658facc9017">   42</a></span>    QHBoxLayout *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#ac0164c6dacf55f8a7183e658facc9017">cardSizeLayout</a>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#a6582d087d9daa4245961deca2dc05a68">   43</a></span>    QLabel *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a6582d087d9daa4245961deca2dc05a68">cardSizeLabel</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#a4468e2a33a74b9c7c6ed382872d79186">   44</a></span>    QSlider *<a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a4468e2a33a74b9c7c6ed382872d79186">cardSizeSlider</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#a368c7c4c1f6f9df291bb31f860c26458">   45</a></span>    QTimer <a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#a368c7c4c1f6f9df291bb31f860c26458">debounceTimer</a>; <span class="comment">// Debounce timer</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../df/d47/classCardSizeWidget.html#aacdfc5b6e70c4b22970761c67943b488">   46</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../df/d47/classCardSizeWidget.html#aacdfc5b6e70c4b22970761c67943b488">pendingValue</a>;     <span class="comment">// Stores the latest slider value</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>};</div>
 </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#endif </span><span class="comment">// CARD_SIZE_WIDGET_H</span></div>
-<div class="ttc" id="aclassCardSizeWidget_html"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html">CardSizeWidget</a></div><div class="ttdoc">A widget for adjusting card sizes using a slider.</div><div class="ttdef"><b>Definition</b> card_size_widget.h:13</div></div>
-<div class="ttc" id="aclassCardSizeWidget_html_a06b4b273dabd352f215598c7103e0bc6"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#a06b4b273dabd352f215598c7103e0bc6">CardSizeWidget::flowWidget</a></div><div class="ttdeci">FlowWidget * flowWidget</div><div class="ttdef"><b>Definition</b> card_size_widget.h:33</div></div>
-<div class="ttc" id="aclassCardSizeWidget_html_a368c7c4c1f6f9df291bb31f860c26458"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#a368c7c4c1f6f9df291bb31f860c26458">CardSizeWidget::debounceTimer</a></div><div class="ttdeci">QTimer debounceTimer</div><div class="ttdef"><b>Definition</b> card_size_widget.h:37</div></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#endif </span><span class="comment">// CARD_SIZE_WIDGET_H</span></div>
+<div class="ttc" id="aclassCardSizeWidget_html"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html">CardSizeWidget</a></div><div class="ttdoc">A widget for adjusting card sizes using a slider.</div><div class="ttdef"><b>Definition</b> card_size_widget.h:21</div></div>
+<div class="ttc" id="aclassCardSizeWidget_html_a06b4b273dabd352f215598c7103e0bc6"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#a06b4b273dabd352f215598c7103e0bc6">CardSizeWidget::flowWidget</a></div><div class="ttdeci">FlowWidget * flowWidget</div><div class="ttdef"><b>Definition</b> card_size_widget.h:41</div></div>
+<div class="ttc" id="aclassCardSizeWidget_html_a368c7c4c1f6f9df291bb31f860c26458"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#a368c7c4c1f6f9df291bb31f860c26458">CardSizeWidget::debounceTimer</a></div><div class="ttdeci">QTimer debounceTimer</div><div class="ttdef"><b>Definition</b> card_size_widget.h:45</div></div>
 <div class="ttc" id="aclassCardSizeWidget_html_a3cac221c83bba1c4ccf1c0fc91093688"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#a3cac221c83bba1c4ccf1c0fc91093688">CardSizeWidget::cardSizeSettingUpdated</a></div><div class="ttdeci">void cardSizeSettingUpdated(int newValue)</div></div>
-<div class="ttc" id="aclassCardSizeWidget_html_a4468e2a33a74b9c7c6ed382872d79186"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#a4468e2a33a74b9c7c6ed382872d79186">CardSizeWidget::cardSizeSlider</a></div><div class="ttdeci">QSlider * cardSizeSlider</div><div class="ttdef"><b>Definition</b> card_size_widget.h:36</div></div>
-<div class="ttc" id="aclassCardSizeWidget_html_a4cc5a0ae025c831b67905513c9de6ed3"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#a4cc5a0ae025c831b67905513c9de6ed3">CardSizeWidget::parent</a></div><div class="ttdeci">QWidget * parent</div><div class="ttdef"><b>Definition</b> card_size_widget.h:32</div></div>
-<div class="ttc" id="aclassCardSizeWidget_html_a6582d087d9daa4245961deca2dc05a68"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#a6582d087d9daa4245961deca2dc05a68">CardSizeWidget::cardSizeLabel</a></div><div class="ttdeci">QLabel * cardSizeLabel</div><div class="ttdef"><b>Definition</b> card_size_widget.h:35</div></div>
-<div class="ttc" id="aclassCardSizeWidget_html_aacdfc5b6e70c4b22970761c67943b488"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#aacdfc5b6e70c4b22970761c67943b488">CardSizeWidget::pendingValue</a></div><div class="ttdeci">int pendingValue</div><div class="ttdef"><b>Definition</b> card_size_widget.h:38</div></div>
+<div class="ttc" id="aclassCardSizeWidget_html_a4468e2a33a74b9c7c6ed382872d79186"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#a4468e2a33a74b9c7c6ed382872d79186">CardSizeWidget::cardSizeSlider</a></div><div class="ttdeci">QSlider * cardSizeSlider</div><div class="ttdef"><b>Definition</b> card_size_widget.h:44</div></div>
+<div class="ttc" id="aclassCardSizeWidget_html_a4cc5a0ae025c831b67905513c9de6ed3"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#a4cc5a0ae025c831b67905513c9de6ed3">CardSizeWidget::parent</a></div><div class="ttdeci">QWidget * parent</div><div class="ttdef"><b>Definition</b> card_size_widget.h:40</div></div>
+<div class="ttc" id="aclassCardSizeWidget_html_a6582d087d9daa4245961deca2dc05a68"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#a6582d087d9daa4245961deca2dc05a68">CardSizeWidget::cardSizeLabel</a></div><div class="ttdeci">QLabel * cardSizeLabel</div><div class="ttdef"><b>Definition</b> card_size_widget.h:43</div></div>
+<div class="ttc" id="aclassCardSizeWidget_html_aacdfc5b6e70c4b22970761c67943b488"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#aacdfc5b6e70c4b22970761c67943b488">CardSizeWidget::pendingValue</a></div><div class="ttdeci">int pendingValue</div><div class="ttdef"><b>Definition</b> card_size_widget.h:46</div></div>
 <div class="ttc" id="aclassCardSizeWidget_html_ab30f3c11142480d692da5d848d46d2cb"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#ab30f3c11142480d692da5d848d46d2cb">CardSizeWidget::updateCardSizeSetting</a></div><div class="ttdeci">void updateCardSizeSetting(int newValue)</div><div class="ttdoc">Updates the card size setting in the application's cache.</div><div class="ttdef"><b>Definition</b> card_size_widget.cpp:47</div></div>
-<div class="ttc" id="aclassCardSizeWidget_html_ac0164c6dacf55f8a7183e658facc9017"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#ac0164c6dacf55f8a7183e658facc9017">CardSizeWidget::cardSizeLayout</a></div><div class="ttdeci">QHBoxLayout * cardSizeLayout</div><div class="ttdef"><b>Definition</b> card_size_widget.h:34</div></div>
+<div class="ttc" id="aclassCardSizeWidget_html_ac0164c6dacf55f8a7183e658facc9017"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#ac0164c6dacf55f8a7183e658facc9017">CardSizeWidget::cardSizeLayout</a></div><div class="ttdeci">QHBoxLayout * cardSizeLayout</div><div class="ttdef"><b>Definition</b> card_size_widget.h:42</div></div>
 <div class="ttc" id="aclassCardSizeWidget_html_ac9a6a5fed069e0bac53ef2440eda025f"><div class="ttname"><a href="../../df/d47/classCardSizeWidget.html#ac9a6a5fed069e0bac53ef2440eda025f">CardSizeWidget::getSlider</a></div><div class="ttdeci">QSlider * getSlider() const</div><div class="ttdoc">Gets the slider widget used for adjusting the card size.</div><div class="ttdef"><b>Definition</b> card_size_widget.cpp:58</div></div>
-<div class="ttc" id="aclassFlowWidget_html"><div class="ttname"><a href="../../d5/d53/classFlowWidget.html">FlowWidget</a></div><div class="ttdef"><b>Definition</b> flow_widget.h:14</div></div>
+<div class="ttc" id="aclassFlowWidget_html"><div class="ttname"><a href="../../d5/d53/classFlowWidget.html">FlowWidget</a></div><div class="ttdef"><b>Definition</b> flow_widget.h:20</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

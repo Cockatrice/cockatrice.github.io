@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,43 +108,44 @@ $(document).ready(function(){initNavTree('d4/d97/counter__general_8h_source.html
   <div class="headertitle"><div class="title">counter_general.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/d97/counter__general_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef COUNTER_GENERAL_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define COUNTER_GENERAL_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../de/d81/abstract__counter_8h.html">abstract_counter.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="foldopen" id="foldopen00006" data-start="{" data-end="};">
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="../../db/d3b/classGeneralCounter.html">    6</a></span><span class="keyword">class </span><a class="code hl_class" href="../../db/d3b/classGeneralCounter.html">GeneralCounter</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    Q_OBJECT</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../db/d3b/classGeneralCounter.html#a11dd343c425b2e78509be3b7f924a98c">   10</a></span>    QColor <a class="code hl_variable" href="../../db/d3b/classGeneralCounter.html#a11dd343c425b2e78509be3b7f924a98c">color</a>;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../db/d3b/classGeneralCounter.html#a9f2c2b8d9930bf396610d54fb4e85a8e">   11</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../db/d3b/classGeneralCounter.html#a9f2c2b8d9930bf396610d54fb4e85a8e">radius</a>;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <a class="code hl_class" href="../../db/d3b/classGeneralCounter.html">GeneralCounter</a>(<a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *_player,</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>                   <span class="keywordtype">int</span> _id,</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>                   <span class="keyword">const</span> QString &amp;_name,</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>                   <span class="keyword">const</span> QColor &amp;_color,</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                   <span class="keywordtype">int</span> _radius,</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>                   <span class="keywordtype">int</span> _value,</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>                   <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d4/d67/classAbstractCounter.html#aba42660f3f4e9340b4450760a9194226">useNameForShortcut</a> = <span class="keyword">false</span>,</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>                   QGraphicsItem *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    QRectF <a class="code hl_function" href="../../db/d3b/classGeneralCounter.html#afc73e9abb02a97c1092b765eca676399">boundingRect</a>() <span class="keyword">const override</span>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d3b/classGeneralCounter.html#a657d66fd410e0d732555a4ca84ed0c17">paint</a>(QPainter *painter, <span class="keyword">const</span> QStyleOptionGraphicsItem *option, QWidget *widget) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>};</div>
+<a href="../../d4/d97/counter__general_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef COUNTER_GENERAL_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define COUNTER_GENERAL_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../de/d81/abstract__counter_8h.html">abstract_counter.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../db/d3b/classGeneralCounter.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="../../db/d3b/classGeneralCounter.html">GeneralCounter</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    Q_OBJECT</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../db/d3b/classGeneralCounter.html#a11dd343c425b2e78509be3b7f924a98c">   16</a></span>    QColor <a class="code hl_variable" href="../../db/d3b/classGeneralCounter.html#a11dd343c425b2e78509be3b7f924a98c">color</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../db/d3b/classGeneralCounter.html#a9f2c2b8d9930bf396610d54fb4e85a8e">   17</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../db/d3b/classGeneralCounter.html#a9f2c2b8d9930bf396610d54fb4e85a8e">radius</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <a class="code hl_class" href="../../db/d3b/classGeneralCounter.html">GeneralCounter</a>(<a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *_player,</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>                   <span class="keywordtype">int</span> _id,</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>                   <span class="keyword">const</span> QString &amp;_name,</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>                   <span class="keyword">const</span> QColor &amp;_color,</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>                   <span class="keywordtype">int</span> _radius,</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>                   <span class="keywordtype">int</span> _value,</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>                   <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d4/d67/classAbstractCounter.html#aba42660f3f4e9340b4450760a9194226">useNameForShortcut</a> = <span class="keyword">false</span>,</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>                   QGraphicsItem *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    QRectF <a class="code hl_function" href="../../db/d3b/classGeneralCounter.html#afc73e9abb02a97c1092b765eca676399">boundingRect</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d3b/classGeneralCounter.html#a657d66fd410e0d732555a4ca84ed0c17">paint</a>(QPainter *painter, <span class="keyword">const</span> QStyleOptionGraphicsItem *option, QWidget *widget) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>};</div>
 </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aabstract__counter_8h_html"><div class="ttname"><a href="../../de/d81/abstract__counter_8h.html">abstract_counter.h</a></div></div>
-<div class="ttc" id="aclassAbstractCounter_html"><div class="ttname"><a href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a></div><div class="ttdef"><b>Definition</b> abstract_counter.h:16</div></div>
-<div class="ttc" id="aclassAbstractCounter_html_aba42660f3f4e9340b4450760a9194226"><div class="ttname"><a href="../../d4/d67/classAbstractCounter.html#aba42660f3f4e9340b4450760a9194226">AbstractCounter::useNameForShortcut</a></div><div class="ttdeci">bool useNameForShortcut</div><div class="ttdef"><b>Definition</b> abstract_counter.h:25</div></div>
-<div class="ttc" id="aclassGeneralCounter_html"><div class="ttname"><a href="../../db/d3b/classGeneralCounter.html">GeneralCounter</a></div><div class="ttdef"><b>Definition</b> counter_general.h:7</div></div>
-<div class="ttc" id="aclassGeneralCounter_html_a11dd343c425b2e78509be3b7f924a98c"><div class="ttname"><a href="../../db/d3b/classGeneralCounter.html#a11dd343c425b2e78509be3b7f924a98c">GeneralCounter::color</a></div><div class="ttdeci">QColor color</div><div class="ttdef"><b>Definition</b> counter_general.h:10</div></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aabstract__counter_8h_html"><div class="ttname"><a href="../../de/d81/abstract__counter_8h.html">abstract_counter.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
+<div class="ttc" id="aclassAbstractCounter_html"><div class="ttname"><a href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a></div><div class="ttdef"><b>Definition</b> abstract_counter.h:22</div></div>
+<div class="ttc" id="aclassAbstractCounter_html_aba42660f3f4e9340b4450760a9194226"><div class="ttname"><a href="../../d4/d67/classAbstractCounter.html#aba42660f3f4e9340b4450760a9194226">AbstractCounter::useNameForShortcut</a></div><div class="ttdeci">bool useNameForShortcut</div><div class="ttdef"><b>Definition</b> abstract_counter.h:31</div></div>
+<div class="ttc" id="aclassGeneralCounter_html"><div class="ttname"><a href="../../db/d3b/classGeneralCounter.html">GeneralCounter</a></div><div class="ttdef"><b>Definition</b> counter_general.h:13</div></div>
+<div class="ttc" id="aclassGeneralCounter_html_a11dd343c425b2e78509be3b7f924a98c"><div class="ttname"><a href="../../db/d3b/classGeneralCounter.html#a11dd343c425b2e78509be3b7f924a98c">GeneralCounter::color</a></div><div class="ttdeci">QColor color</div><div class="ttdef"><b>Definition</b> counter_general.h:16</div></div>
 <div class="ttc" id="aclassGeneralCounter_html_a657d66fd410e0d732555a4ca84ed0c17"><div class="ttname"><a href="../../db/d3b/classGeneralCounter.html#a657d66fd410e0d732555a4ca84ed0c17">GeneralCounter::paint</a></div><div class="ttdeci">void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override</div><div class="ttdef"><b>Definition</b> counter_general.cpp:26</div></div>
-<div class="ttc" id="aclassGeneralCounter_html_a9f2c2b8d9930bf396610d54fb4e85a8e"><div class="ttname"><a href="../../db/d3b/classGeneralCounter.html#a9f2c2b8d9930bf396610d54fb4e85a8e">GeneralCounter::radius</a></div><div class="ttdeci">int radius</div><div class="ttdef"><b>Definition</b> counter_general.h:11</div></div>
+<div class="ttc" id="aclassGeneralCounter_html_a9f2c2b8d9930bf396610d54fb4e85a8e"><div class="ttname"><a href="../../db/d3b/classGeneralCounter.html#a9f2c2b8d9930bf396610d54fb4e85a8e">GeneralCounter::radius</a></div><div class="ttdeci">int radius</div><div class="ttdef"><b>Definition</b> counter_general.h:17</div></div>
 <div class="ttc" id="aclassGeneralCounter_html_afc73e9abb02a97c1092b765eca676399"><div class="ttname"><a href="../../db/d3b/classGeneralCounter.html#afc73e9abb02a97c1092b765eca676399">GeneralCounter::boundingRect</a></div><div class="ttdeci">QRectF boundingRect() const override</div><div class="ttdef"><b>Definition</b> counter_general.cpp:21</div></div>
-<div class="ttc" id="aclassPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition</b> player.h:59</div></div>
+<div class="ttc" id="aclassPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition</b> player.h:65</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

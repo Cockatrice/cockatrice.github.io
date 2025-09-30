@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,97 +108,98 @@ $(document).ready(function(){initNavTree('d2/df3/user__info__connection_8h_sourc
   <div class="headertitle"><div class="title">user_info_connection.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d2/df3/user__info__connection_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef USERCONNECTION_INFORMATION_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define USERCONNECTION_INFORMATION_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QApplication&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QDir&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QFile&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QLoggingCategory&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QSettings&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QStandardPaths&gt;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../d2/df3/user__info__connection_8h.html#a6c48657897bacf19a42f98f7251b536e">   11</a></span><span class="keyword">inline</span> <a class="code hl_function" href="../../d2/df3/user__info__connection_8h.html#a6c48657897bacf19a42f98f7251b536e">Q_LOGGING_CATEGORY</a>(UserInfoConnectionLog, <span class="stringliteral">&quot;user_info_connection&quot;</span>);</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html">   13</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d5/d88/classUserConnection__Information.html">UserConnection_Information</a></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a3f3516908f289a39bfd123651b6ee6b5">   16</a></span>    QString <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a3f3516908f289a39bfd123651b6ee6b5">saveName</a>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a554c9f81fd313bfc1b3e6fe7e5e67744">   17</a></span>    QString <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a554c9f81fd313bfc1b3e6fe7e5e67744">server</a>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#ac88a0a57606cc616de6ce7af13850b78">   18</a></span>    QString <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#ac88a0a57606cc616de6ce7af13850b78">port</a>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a880b2bbab85cf52b325bbe60464947cc">   19</a></span>    QString <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a880b2bbab85cf52b325bbe60464947cc">username</a>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a1944fa37c77e590d96c4fe84a9bbbc00">   20</a></span>    QString <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a1944fa37c77e590d96c4fe84a9bbbc00">password</a>;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a7d0cb08619e054d3171aa4f6df1eb3c7">   21</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a7d0cb08619e054d3171aa4f6df1eb3c7">savePassword</a>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#ac26f50bf426a29c887f37096be662344">   22</a></span>    QString <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#ac26f50bf426a29c887f37096be662344">site</a>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a4042c2899140c6b76e01ef04cc82e63d">   25</a></span>    <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a4042c2899140c6b76e01ef04cc82e63d">UserConnection_Information</a>();</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a4042c2899140c6b76e01ef04cc82e63d">UserConnection_Information</a>(QString, QString, QString, QString, QString, <span class="keywordtype">bool</span>, QString);</div>
-<div class="foldopen" id="foldopen00027" data-start="{" data-end="}">
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#aa45f89a7254747d49dba144e3ceb98cf">   27</a></span>    QString <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#aa45f89a7254747d49dba144e3ceb98cf">getSaveName</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a3f3516908f289a39bfd123651b6ee6b5">saveName</a>;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
+<a href="../../d2/df3/user__info__connection_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef USERCONNECTION_INFORMATION_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define USERCONNECTION_INFORMATION_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QApplication&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QDir&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QFile&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QLoggingCategory&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QSettings&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;QStandardPaths&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d2/df3/user__info__connection_8h.html#a6c48657897bacf19a42f98f7251b536e">   17</a></span><span class="keyword">inline</span> <a class="code hl_function" href="../../d2/df3/user__info__connection_8h.html#a6c48657897bacf19a42f98f7251b536e">Q_LOGGING_CATEGORY</a>(UserInfoConnectionLog, <span class="stringliteral">&quot;user_info_connection&quot;</span>);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html">   19</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d5/d88/classUserConnection__Information.html">UserConnection_Information</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a3f3516908f289a39bfd123651b6ee6b5">   22</a></span>    QString <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a3f3516908f289a39bfd123651b6ee6b5">saveName</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a554c9f81fd313bfc1b3e6fe7e5e67744">   23</a></span>    QString <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a554c9f81fd313bfc1b3e6fe7e5e67744">server</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#ac88a0a57606cc616de6ce7af13850b78">   24</a></span>    QString <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#ac88a0a57606cc616de6ce7af13850b78">port</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a880b2bbab85cf52b325bbe60464947cc">   25</a></span>    QString <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a880b2bbab85cf52b325bbe60464947cc">username</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a1944fa37c77e590d96c4fe84a9bbbc00">   26</a></span>    QString <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a1944fa37c77e590d96c4fe84a9bbbc00">password</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a7d0cb08619e054d3171aa4f6df1eb3c7">   27</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a7d0cb08619e054d3171aa4f6df1eb3c7">savePassword</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#ac26f50bf426a29c887f37096be662344">   28</a></span>    QString <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#ac26f50bf426a29c887f37096be662344">site</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a4042c2899140c6b76e01ef04cc82e63d">   31</a></span>    <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a4042c2899140c6b76e01ef04cc82e63d">UserConnection_Information</a>();</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a4042c2899140c6b76e01ef04cc82e63d">UserConnection_Information</a>(QString, QString, QString, QString, QString, <span class="keywordtype">bool</span>, QString);</div>
+<div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#aa45f89a7254747d49dba144e3ceb98cf">   33</a></span>    QString <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#aa45f89a7254747d49dba144e3ceb98cf">getSaveName</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a3f3516908f289a39bfd123651b6ee6b5">saveName</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00031" data-start="{" data-end="}">
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#acd58716f57460fccd816ff917b838694">   31</a></span>    QString <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#acd58716f57460fccd816ff917b838694">getServer</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a554c9f81fd313bfc1b3e6fe7e5e67744">server</a>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    }</div>
+<div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#acd58716f57460fccd816ff917b838694">   37</a></span>    QString <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#acd58716f57460fccd816ff917b838694">getServer</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a554c9f81fd313bfc1b3e6fe7e5e67744">server</a>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00035" data-start="{" data-end="}">
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a17a047d4403a912ba087624b4923b81e">   35</a></span>    QString <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a17a047d4403a912ba087624b4923b81e">getPort</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#ac88a0a57606cc616de6ce7af13850b78">port</a>;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    }</div>
+<div class="foldopen" id="foldopen00041" data-start="{" data-end="}">
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a17a047d4403a912ba087624b4923b81e">   41</a></span>    QString <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a17a047d4403a912ba087624b4923b81e">getPort</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#ac88a0a57606cc616de6ce7af13850b78">port</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a53365b1899dca7b5f1f4367d8b881cde">   39</a></span>    QString <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a53365b1899dca7b5f1f4367d8b881cde">getUsername</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a880b2bbab85cf52b325bbe60464947cc">username</a>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    }</div>
+<div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a53365b1899dca7b5f1f4367d8b881cde">   45</a></span>    QString <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a53365b1899dca7b5f1f4367d8b881cde">getUsername</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a880b2bbab85cf52b325bbe60464947cc">username</a>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a3aefe2406fbbd313c28b9d7806b902ad">   43</a></span>    QString <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a3aefe2406fbbd313c28b9d7806b902ad">getPassword</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a1944fa37c77e590d96c4fe84a9bbbc00">password</a>;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
+<div class="foldopen" id="foldopen00049" data-start="{" data-end="}">
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a3aefe2406fbbd313c28b9d7806b902ad">   49</a></span>    QString <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a3aefe2406fbbd313c28b9d7806b902ad">getPassword</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a1944fa37c77e590d96c4fe84a9bbbc00">password</a>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a2784f8906375b7b95c92f17f0267649f">   47</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a2784f8906375b7b95c92f17f0267649f">getSavePassword</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a7d0cb08619e054d3171aa4f6df1eb3c7">savePassword</a>;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    }</div>
+<div class="foldopen" id="foldopen00053" data-start="{" data-end="}">
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a2784f8906375b7b95c92f17f0267649f">   53</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a2784f8906375b7b95c92f17f0267649f">getSavePassword</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#a7d0cb08619e054d3171aa4f6df1eb3c7">savePassword</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a6f8b2b6048538ef829f6f682ed1c3212">   51</a></span>    QString <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a6f8b2b6048538ef829f6f682ed1c3212">getSite</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#ac26f50bf426a29c887f37096be662344">site</a>;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    }</div>
+<div class="foldopen" id="foldopen00057" data-start="{" data-end="}">
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../d5/d88/classUserConnection__Information.html#a6f8b2b6048538ef829f6f682ed1c3212">   57</a></span>    QString <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a6f8b2b6048538ef829f6f682ed1c3212">getSite</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d88/classUserConnection__Information.html#ac26f50bf426a29c887f37096be662344">site</a>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    }</div>
 </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    QMap&lt;QString, std::pair&lt;QString, UserConnection_Information&gt;&gt; <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a2c9912f6ee5d17ae233d9ea39174849e">getServerInfo</a>();</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    QStringList <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a2c9912f6ee5d17ae233d9ea39174849e">getServerInfo</a>(<span class="keyword">const</span> QString &amp;find);</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>};</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    QMap&lt;QString, std::pair&lt;QString, UserConnection_Information&gt;&gt; <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a2c9912f6ee5d17ae233d9ea39174849e">getServerInfo</a>();</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    QStringList <a class="code hl_function" href="../../d5/d88/classUserConnection__Information.html#a2c9912f6ee5d17ae233d9ea39174849e">getServerInfo</a>(<span class="keyword">const</span> QString &amp;find);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>};</div>
 </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassUserConnection__Information_html"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html">UserConnection_Information</a></div><div class="ttdef"><b>Definition</b> user_info_connection.h:14</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_a17a047d4403a912ba087624b4923b81e"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a17a047d4403a912ba087624b4923b81e">UserConnection_Information::getPort</a></div><div class="ttdeci">QString getPort() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:35</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_a1944fa37c77e590d96c4fe84a9bbbc00"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a1944fa37c77e590d96c4fe84a9bbbc00">UserConnection_Information::password</a></div><div class="ttdeci">QString password</div><div class="ttdef"><b>Definition</b> user_info_connection.h:20</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_a2784f8906375b7b95c92f17f0267649f"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a2784f8906375b7b95c92f17f0267649f">UserConnection_Information::getSavePassword</a></div><div class="ttdeci">bool getSavePassword() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:47</div></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassUserConnection__Information_html"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html">UserConnection_Information</a></div><div class="ttdef"><b>Definition</b> user_info_connection.h:20</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_a17a047d4403a912ba087624b4923b81e"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a17a047d4403a912ba087624b4923b81e">UserConnection_Information::getPort</a></div><div class="ttdeci">QString getPort() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:41</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_a1944fa37c77e590d96c4fe84a9bbbc00"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a1944fa37c77e590d96c4fe84a9bbbc00">UserConnection_Information::password</a></div><div class="ttdeci">QString password</div><div class="ttdef"><b>Definition</b> user_info_connection.h:26</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_a2784f8906375b7b95c92f17f0267649f"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a2784f8906375b7b95c92f17f0267649f">UserConnection_Information::getSavePassword</a></div><div class="ttdeci">bool getSavePassword() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:53</div></div>
 <div class="ttc" id="aclassUserConnection__Information_html_a2c9912f6ee5d17ae233d9ea39174849e"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a2c9912f6ee5d17ae233d9ea39174849e">UserConnection_Information::getServerInfo</a></div><div class="ttdeci">QMap&lt; QString, std::pair&lt; QString, UserConnection_Information &gt; &gt; getServerInfo()</div><div class="ttdef"><b>Definition</b> user_info_connection.cpp:22</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_a3aefe2406fbbd313c28b9d7806b902ad"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a3aefe2406fbbd313c28b9d7806b902ad">UserConnection_Information::getPassword</a></div><div class="ttdeci">QString getPassword() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:43</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_a3f3516908f289a39bfd123651b6ee6b5"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a3f3516908f289a39bfd123651b6ee6b5">UserConnection_Information::saveName</a></div><div class="ttdeci">QString saveName</div><div class="ttdef"><b>Definition</b> user_info_connection.h:16</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_a3aefe2406fbbd313c28b9d7806b902ad"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a3aefe2406fbbd313c28b9d7806b902ad">UserConnection_Information::getPassword</a></div><div class="ttdeci">QString getPassword() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:49</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_a3f3516908f289a39bfd123651b6ee6b5"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a3f3516908f289a39bfd123651b6ee6b5">UserConnection_Information::saveName</a></div><div class="ttdeci">QString saveName</div><div class="ttdef"><b>Definition</b> user_info_connection.h:22</div></div>
 <div class="ttc" id="aclassUserConnection__Information_html_a4042c2899140c6b76e01ef04cc82e63d"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a4042c2899140c6b76e01ef04cc82e63d">UserConnection_Information::UserConnection_Information</a></div><div class="ttdeci">UserConnection_Information()</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_a53365b1899dca7b5f1f4367d8b881cde"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a53365b1899dca7b5f1f4367d8b881cde">UserConnection_Information::getUsername</a></div><div class="ttdeci">QString getUsername() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:39</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_a554c9f81fd313bfc1b3e6fe7e5e67744"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a554c9f81fd313bfc1b3e6fe7e5e67744">UserConnection_Information::server</a></div><div class="ttdeci">QString server</div><div class="ttdef"><b>Definition</b> user_info_connection.h:17</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_a6f8b2b6048538ef829f6f682ed1c3212"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a6f8b2b6048538ef829f6f682ed1c3212">UserConnection_Information::getSite</a></div><div class="ttdeci">QString getSite() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:51</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_a7d0cb08619e054d3171aa4f6df1eb3c7"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a7d0cb08619e054d3171aa4f6df1eb3c7">UserConnection_Information::savePassword</a></div><div class="ttdeci">bool savePassword</div><div class="ttdef"><b>Definition</b> user_info_connection.h:21</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_a880b2bbab85cf52b325bbe60464947cc"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a880b2bbab85cf52b325bbe60464947cc">UserConnection_Information::username</a></div><div class="ttdeci">QString username</div><div class="ttdef"><b>Definition</b> user_info_connection.h:19</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_aa45f89a7254747d49dba144e3ceb98cf"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#aa45f89a7254747d49dba144e3ceb98cf">UserConnection_Information::getSaveName</a></div><div class="ttdeci">QString getSaveName() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:27</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_ac26f50bf426a29c887f37096be662344"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#ac26f50bf426a29c887f37096be662344">UserConnection_Information::site</a></div><div class="ttdeci">QString site</div><div class="ttdef"><b>Definition</b> user_info_connection.h:22</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_ac88a0a57606cc616de6ce7af13850b78"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#ac88a0a57606cc616de6ce7af13850b78">UserConnection_Information::port</a></div><div class="ttdeci">QString port</div><div class="ttdef"><b>Definition</b> user_info_connection.h:18</div></div>
-<div class="ttc" id="aclassUserConnection__Information_html_acd58716f57460fccd816ff917b838694"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#acd58716f57460fccd816ff917b838694">UserConnection_Information::getServer</a></div><div class="ttdeci">QString getServer() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:31</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_a53365b1899dca7b5f1f4367d8b881cde"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a53365b1899dca7b5f1f4367d8b881cde">UserConnection_Information::getUsername</a></div><div class="ttdeci">QString getUsername() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:45</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_a554c9f81fd313bfc1b3e6fe7e5e67744"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a554c9f81fd313bfc1b3e6fe7e5e67744">UserConnection_Information::server</a></div><div class="ttdeci">QString server</div><div class="ttdef"><b>Definition</b> user_info_connection.h:23</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_a6f8b2b6048538ef829f6f682ed1c3212"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a6f8b2b6048538ef829f6f682ed1c3212">UserConnection_Information::getSite</a></div><div class="ttdeci">QString getSite() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:57</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_a7d0cb08619e054d3171aa4f6df1eb3c7"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a7d0cb08619e054d3171aa4f6df1eb3c7">UserConnection_Information::savePassword</a></div><div class="ttdeci">bool savePassword</div><div class="ttdef"><b>Definition</b> user_info_connection.h:27</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_a880b2bbab85cf52b325bbe60464947cc"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#a880b2bbab85cf52b325bbe60464947cc">UserConnection_Information::username</a></div><div class="ttdeci">QString username</div><div class="ttdef"><b>Definition</b> user_info_connection.h:25</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_aa45f89a7254747d49dba144e3ceb98cf"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#aa45f89a7254747d49dba144e3ceb98cf">UserConnection_Information::getSaveName</a></div><div class="ttdeci">QString getSaveName() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:33</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_ac26f50bf426a29c887f37096be662344"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#ac26f50bf426a29c887f37096be662344">UserConnection_Information::site</a></div><div class="ttdeci">QString site</div><div class="ttdef"><b>Definition</b> user_info_connection.h:28</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_ac88a0a57606cc616de6ce7af13850b78"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#ac88a0a57606cc616de6ce7af13850b78">UserConnection_Information::port</a></div><div class="ttdeci">QString port</div><div class="ttdef"><b>Definition</b> user_info_connection.h:24</div></div>
+<div class="ttc" id="aclassUserConnection__Information_html_acd58716f57460fccd816ff917b838694"><div class="ttname"><a href="../../d5/d88/classUserConnection__Information.html#acd58716f57460fccd816ff917b838694">UserConnection_Information::getServer</a></div><div class="ttdeci">QString getServer() const</div><div class="ttdef"><b>Definition</b> user_info_connection.h:37</div></div>
 <div class="ttc" id="auser__info__connection_8h_html_a6c48657897bacf19a42f98f7251b536e"><div class="ttname"><a href="../../d2/df3/user__info__connection_8h.html#a6c48657897bacf19a42f98f7251b536e">Q_LOGGING_CATEGORY</a></div><div class="ttdeci">Q_LOGGING_CATEGORY(UserInfoConnectionLog, &quot;user_info_connection&quot;)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

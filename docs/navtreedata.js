@@ -25,40 +25,43 @@
 var NAVTREE =
 [
   [ "Cockatrice", "index.html", [
-    [ "## Deck Search Syntax Help", "d5/d5c/md_cockatrice_2resources_2help_2deck__search.html", null ],
-    [ "## Search Syntax Help", "d3/d85/md_cockatrice_2resources_2help_2search.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ]
-      ] ]
-    ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Enumerations", "functions_enum.html", null ],
-        [ "Enumerator", "functions_eval.html", null ],
-        [ "Related Symbols", "functions_rela.html", null ]
-      ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", "globals_dup" ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", null ]
+    [ "Deck Search Syntax Help", "de/dec/deck_search_syntax_help.html", null ],
+    [ "Search Syntax Help", "dc/dcd/search_syntax_help.html", null ],
+    [ "Topics", "topics.html", "topics" ],
+    [ "Code Reference", "usergroup0.html", [
+      [ "Namespace List", "namespaces.html", [
+        [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+        [ "Namespace Members", "namespacemembers.html", [
+          [ "All", "namespacemembers.html", null ],
+          [ "Functions", "namespacemembers_func.html", null ],
+          [ "Variables", "namespacemembers_vars.html", null ],
+          [ "Typedefs", "namespacemembers_type.html", null ]
+        ] ]
+      ] ],
+      [ "Class List", "annotated.html", [
+        [ "Class List", "annotated.html", "annotated_dup" ],
+        [ "Class Index", "classes.html", null ],
+        [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+        [ "Class Members", "functions.html", [
+          [ "All", "functions.html", "functions_dup" ],
+          [ "Functions", "functions_func.html", "functions_func" ],
+          [ "Variables", "functions_vars.html", "functions_vars" ],
+          [ "Enumerations", "functions_enum.html", null ],
+          [ "Enumerator", "functions_eval.html", null ],
+          [ "Related Symbols", "functions_rela.html", null ]
+        ] ]
+      ] ],
+      [ "File List", "files.html", [
+        [ "File List", "files.html", "files_dup" ],
+        [ "File Members", "globals.html", [
+          [ "All", "globals.html", "globals_dup" ],
+          [ "Functions", "globals_func.html", null ],
+          [ "Variables", "globals_vars.html", null ],
+          [ "Typedefs", "globals_type.html", null ],
+          [ "Enumerations", "globals_enum.html", null ],
+          [ "Enumerator", "globals_eval.html", null ],
+          [ "Macros", "globals_defs.html", null ]
+        ] ]
       ] ]
     ] ]
   ] ]
@@ -67,46 +70,45 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d0/d90/classToggleButton.html#aaf3fd9964982a48c31c0fe17f4590e7f",
-"d0/dfe/classVisualDeckStorageWidget.html#afecdd2493358e868b43b8be7d5557130",
-"d1/d8f/picture__loader__worker__work_8h.html#a47deb151244da61c835d16bee5c6e556",
-"d1/df3/classBackgroundSources.html#aaaf0b353e3f9a7cb72bc285f165be1c3",
-"d2/d23/classPlayerActions.html#aac53184b360a88846aa2612953109a47",
-"d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a50f9bb96c43fb43e6443a74d50cd6e66",
-"d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a5ac9729e9d183796c8af8393f63b08fd",
-"d3/d8c/card__drag__item_8h_source.html",
-"d3/de9/classAbstractDecklistCardNode.html#a65946ec2a41c8902065484263f789db6",
-"d4/d67/classAbstractCounter.html#a81d8437dfe39a5f40de529e942cb9f34",
-"d4/dfe/classICardDatabaseParser.html#a8c862a86d060f3d3e659b5ff169edec0",
-"d5/d88/classSettingsCache.html#a03b4dd1046f2bb31df91931ca139ad18",
-"d5/d88/classSettingsCache.html#a8046de801c2e6f57b924fbe8ed1b8e49",
-"d5/d8a/card__info__picture__enlarged__widget_8h_source.html",
-"d6/d1a/classMainWindow.html#a5b9a7a55441be094b0d7258476a933d7",
-"d6/d7d/classTabReplays.html#aaa9581d7bc0c7f24f51355f214a5202e",
-"d6/dee/classDlgCreateGame.html#a033fadbb6103cc516078f99f255f6ac6",
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a949b930fc50cc62562e915e29184c190a9c168a972d2b25655bb1eb86cdb184f2",
-"d7/ddb/classAllZonesCardAmountWidget.html#ab79d086acbd66e758867dc7f4d60a230",
-"d8/d4e/classVisualDeckStorageTagFilterWidget.html#aa319386f9daaaf71907e350f10143ecc",
-"d8/d9e/classTappedOutInterface.html#a7dd1cd6699bb4b1accd4288e967c9ad9",
-"d9/d30/classPictureLoaderLocal.html#aba330da795291e18081772c5abb7f53d",
-"d9/dcc/classSpoilerBackgroundUpdater.html#af2cb1996ee7e44d06e2cd2b324bbaa0d",
-"d9/df7/classDeckEditorDeckDockWidget.html#aa7aec9a73d90690573a9273b44c9e2bd",
-"da/d3e/utility__menu_8h.html",
-"da/d8d/classCardDatabaseDisplayModel.html#a8a107a12b07ace3f0f44f260107c009b",
-"db/d0a/classRelease.html#a77d66a0a6efa5a9f4ae9c8474d71b482",
-"db/d6d/classUserListManager.html#ab454988aa65cc06bad09b39153496aff",
-"db/de1/classDlgEditUser.html#a8e8adab7c29e8804877799a3db5a8f05",
-"dc/d53/classCockatriceXml4Parser.html#a2c2bb2eeebb38620f5fe828e03e25f3f",
-"dc/da4/shadow__background__label_8h.html",
-"dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0ac31b7cc9b4d9329929f7990d79e777ad",
-"dd/d81/classTabSupervisor.html#a61bbb0cc631dbf748b14d2a0f424e208",
-"dd/dd2/classCardInfoPictureWidget.html#a460506d4d960750684d165851fd62876",
-"de/d23/namespaceDeckLinkToApiTransformer.html#a13a33b0b81979b0010b404c276552f94",
-"de/d9c/classTab.html#a25e38b8dedc77ca04d966348f588a25e",
-"df/d02/classPlayerListWidget.html#afe240d45c674886554004fbdf3e5dadd",
-"df/d87/structCardSearchModel_1_1SearchResult.html#a361e360bb1b2455371e241ac6c3417d0",
-"df/ddd/classDeckViewContainer.html",
-"functions_k.html"
+"d0/d90/classToggleButton.html#aa940e2a7e78f4b8c367c5cf04088a34e",
+"d1/d0c/classCardInfoPictureEnlargedWidget.html#a8659fffce509a59ffd70e31d335b0678",
+"d1/d97/server__room_8h.html",
+"d1/df9/classCardZoneLogic.html#a269aac11c40041eeea1543a902d5f4f4",
+"d2/d23/classPlayerActions.html#ad01c07ed38ae218e25547cfd0f011c2d",
+"d2/d73/classBannerWidget.html#a2c373a82328dbff984a203907e28bba4",
+"d3/d0a/classSequenceEdit.html#a340d7a2995a0c48600085debb854ce74",
+"d3/d9f/classClientUpdateChecker.html",
+"d3/df3/classGameState.html#af6e6f5bd26be7d1a60c66473760d4bbf",
+"d4/d91/key__signals_8h.html",
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a78742b603d693b673f0c890663b19004",
+"d5/d88/classSettingsCache.html#a3684787a76a5125d2b1824debfbbf5e9",
+"d5/d88/classSettingsCache.html#ab2d0f544c3638f37ebdb8cd515e5e327",
+"d5/db7/classOverlapControlWidget.html#ae70b2df392dad7c90756290a5f7541c1",
+"d6/d3e/classAbstractDlgDeckTextEdit.html#a15d86243549d3b94399d2acac0f0deb1",
+"d6/db3/classPhasePixmapGenerator.html#a25e92735712f415ecf547c652d2c0f92",
+"d7/d62/classEdhrecApiResponseCardDetails.html#ad036584ab19ee07204bcf2e92d62d4b8",
+"d7/db2/classGameEventHandler.html#a90717b933b41fd7acd66f713f097d73d",
+"d8/d21/classServer__Player.html#aad7883511f32bc07309000a119a478ab",
+"d8/d7c/SFMT-common_8h.html#a1b365c636736cfd197cde44957555d1f",
+"d8/dcf/classRemoteDeckList__TreeModel.html#a9ffd2a441644d9d0ec7ead103fa663fb",
+"d9/da3/group__Game.html",
+"d9/ded/classTabLog.html#a43b19425e3284a3fd7b0e9747c654db0",
+"da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html#a7cd802196b86dd30c2480333f7a73409",
+"da/d78/player__actions_8cpp.html#afdf6450d908c197041e134288e6ccf10",
+"db/d00/classServer.html#af08ca7fae4454f5e29cf146cbaf3f8de",
+"db/d5f/classDlgSettings.html#afb284a59a086e745c63c94557c0b8211",
+"db/dc8/classDlgLoadDeckFromClipboard.html#a987e85f0780b4397459f770c5cc874f5",
+"dc/d3a/classServer__CardZone.html#a747bd7c2d951d33c27019f81f59d3b71",
+"dc/d90/classDlgMoveTopCardsUntil.html#a763b617ca73266cdd8e23789e3bf5f29",
+"dd/d33/classTabEdhRec.html#a9b3171283e042c19aa61a0141d34e169",
+"dd/d81/classTabSupervisor.html#a92e4ab420dc0649126dfad56101c4510",
+"dd/dd2/classCardInfoPictureWidget.html#ad1102c96c29331d754bfeb6d14f3f7ff",
+"de/d26/classDlgSelectSetForCards.html#a7f9686837f559207272a643cd1933cd8",
+"de/da4/classTabHome.html",
+"df/d2a/classArrowItem.html#a34fe9167ba9b5bdfd0e9758e470fdd41",
+"df/d89/classServer__Game.html#aa14b05ff6b6f667a3d035ec791bc6f92",
+"df/de0/group__GameMenus.html",
+"globals_h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

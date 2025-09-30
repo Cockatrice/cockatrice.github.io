@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,38 +108,39 @@ $(document).ready(function(){initNavTree('d1/d20/card__info__comparator_8h_sourc
   <div class="headertitle"><div class="title">card_info_comparator.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d1/d20/card__info__comparator_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef CARD_INFO_COMPARATOR_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define CARD_INFO_COMPARATOR_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../card/card_info.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QStringList&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QVariant&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;Qt&gt;</span></div>
+<a href="../../d1/d20/card__info__comparator_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef CARD_INFO_COMPARATOR_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define CARD_INFO_COMPARATOR_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../d8/d3f/classCardInfoComparator.html">   10</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d8/d3f/classCardInfoComparator.html">CardInfoComparator</a></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d8/d3f/classCardInfoComparator.html">CardInfoComparator</a>(<span class="keyword">const</span> QStringList &amp;properties, Qt::SortOrder order = Qt::AscendingOrder);</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/d3f/classCardInfoComparator.html#ad75d32b3a8ce94e2b25aa2add9a81bf0">operator()</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../df/df3/card__info_8h.html#a8169723b2f3dfc8b1e58ba463b260bdc">CardInfoPtr</a> &amp;a, <span class="keyword">const</span> <a class="code hl_typedef" href="../../df/df3/card__info_8h.html#a8169723b2f3dfc8b1e58ba463b260bdc">CardInfoPtr</a> &amp;b) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;../card/card_info.h&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QStringList&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QVariant&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;Qt&gt;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d8/d3f/classCardInfoComparator.html#acb95790b2967fd57ed8a26bf05aaafb2">   17</a></span>    QStringList <a class="code hl_variable" href="../../d8/d3f/classCardInfoComparator.html#acb95790b2967fd57ed8a26bf05aaafb2">m_properties</a>; <span class="comment">// List of properties to sort by</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d8/d3f/classCardInfoComparator.html#a0ddf51afc15b70e35163e63eb186fae6">   18</a></span>    Qt::SortOrder <a class="code hl_variable" href="../../d8/d3f/classCardInfoComparator.html#a0ddf51afc15b70e35163e63eb186fae6">m_order</a>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    QVariant <a class="code hl_function" href="../../d8/d3f/classCardInfoComparator.html#a2cbc5c6498031c072b092eb565a0b821">getProperty</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../df/df3/card__info_8h.html#a8169723b2f3dfc8b1e58ba463b260bdc">CardInfoPtr</a> &amp;card, <span class="keyword">const</span> QString &amp;property) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/d3f/classCardInfoComparator.html#a94b887cc2bc2d03fa5adae8f6df5c898">compareVariants</a>(<span class="keyword">const</span> QVariant &amp;a, <span class="keyword">const</span> QVariant &amp;b) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d8/d3f/classCardInfoComparator.html">   16</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d8/d3f/classCardInfoComparator.html">CardInfoComparator</a></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d8/d3f/classCardInfoComparator.html">CardInfoComparator</a>(<span class="keyword">const</span> QStringList &amp;properties, Qt::SortOrder order = Qt::AscendingOrder);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/d3f/classCardInfoComparator.html#ad75d32b3a8ce94e2b25aa2add9a81bf0">operator()</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../df/df3/card__info_8h.html#a8169723b2f3dfc8b1e58ba463b260bdc">CardInfoPtr</a> &amp;a, <span class="keyword">const</span> <a class="code hl_typedef" href="../../df/df3/card__info_8h.html#a8169723b2f3dfc8b1e58ba463b260bdc">CardInfoPtr</a> &amp;b) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d8/d3f/classCardInfoComparator.html#acb95790b2967fd57ed8a26bf05aaafb2">   23</a></span>    QStringList <a class="code hl_variable" href="../../d8/d3f/classCardInfoComparator.html#acb95790b2967fd57ed8a26bf05aaafb2">m_properties</a>; <span class="comment">// List of properties to sort by</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d8/d3f/classCardInfoComparator.html#a0ddf51afc15b70e35163e63eb186fae6">   24</a></span>    Qt::SortOrder <a class="code hl_variable" href="../../d8/d3f/classCardInfoComparator.html#a0ddf51afc15b70e35163e63eb186fae6">m_order</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    QVariant <a class="code hl_function" href="../../d8/d3f/classCardInfoComparator.html#a2cbc5c6498031c072b092eb565a0b821">getProperty</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="../../df/df3/card__info_8h.html#a8169723b2f3dfc8b1e58ba463b260bdc">CardInfoPtr</a> &amp;card, <span class="keyword">const</span> QString &amp;property) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d8/d3f/classCardInfoComparator.html#a94b887cc2bc2d03fa5adae8f6df5c898">compareVariants</a>(<span class="keyword">const</span> QVariant &amp;a, <span class="keyword">const</span> QVariant &amp;b) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
 </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#endif </span><span class="comment">// CARD_INFO_COMPARATOR_H</span></div>
-<div class="ttc" id="acard__info_8h_html_a8169723b2f3dfc8b1e58ba463b260bdc"><div class="ttname"><a href="../../df/df3/card__info_8h.html#a8169723b2f3dfc8b1e58ba463b260bdc">CardInfoPtr</a></div><div class="ttdeci">QSharedPointer&lt; CardInfo &gt; CardInfoPtr</div><div class="ttdef"><b>Definition</b> card_info.h:23</div></div>
-<div class="ttc" id="aclassCardInfoComparator_html"><div class="ttname"><a href="../../d8/d3f/classCardInfoComparator.html">CardInfoComparator</a></div><div class="ttdef"><b>Definition</b> card_info_comparator.h:11</div></div>
-<div class="ttc" id="aclassCardInfoComparator_html_a0ddf51afc15b70e35163e63eb186fae6"><div class="ttname"><a href="../../d8/d3f/classCardInfoComparator.html#a0ddf51afc15b70e35163e63eb186fae6">CardInfoComparator::m_order</a></div><div class="ttdeci">Qt::SortOrder m_order</div><div class="ttdef"><b>Definition</b> card_info_comparator.h:18</div></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#endif </span><span class="comment">// CARD_INFO_COMPARATOR_H</span></div>
+<div class="ttc" id="acard__info_8h_html_a8169723b2f3dfc8b1e58ba463b260bdc"><div class="ttname"><a href="../../df/df3/card__info_8h.html#a8169723b2f3dfc8b1e58ba463b260bdc">CardInfoPtr</a></div><div class="ttdeci">QSharedPointer&lt; CardInfo &gt; CardInfoPtr</div><div class="ttdef"><b>Definition</b> card_info.h:29</div></div>
+<div class="ttc" id="aclassCardInfoComparator_html"><div class="ttname"><a href="../../d8/d3f/classCardInfoComparator.html">CardInfoComparator</a></div><div class="ttdef"><b>Definition</b> card_info_comparator.h:17</div></div>
+<div class="ttc" id="aclassCardInfoComparator_html_a0ddf51afc15b70e35163e63eb186fae6"><div class="ttname"><a href="../../d8/d3f/classCardInfoComparator.html#a0ddf51afc15b70e35163e63eb186fae6">CardInfoComparator::m_order</a></div><div class="ttdeci">Qt::SortOrder m_order</div><div class="ttdef"><b>Definition</b> card_info_comparator.h:24</div></div>
 <div class="ttc" id="aclassCardInfoComparator_html_a2cbc5c6498031c072b092eb565a0b821"><div class="ttname"><a href="../../d8/d3f/classCardInfoComparator.html#a2cbc5c6498031c072b092eb565a0b821">CardInfoComparator::getProperty</a></div><div class="ttdeci">QVariant getProperty(const CardInfoPtr &amp;card, const QString &amp;property) const</div><div class="ttdef"><b>Definition</b> card_info_comparator.cpp:58</div></div>
 <div class="ttc" id="aclassCardInfoComparator_html_a94b887cc2bc2d03fa5adae8f6df5c898"><div class="ttname"><a href="../../d8/d3f/classCardInfoComparator.html#a94b887cc2bc2d03fa5adae8f6df5c898">CardInfoComparator::compareVariants</a></div><div class="ttdeci">bool compareVariants(const QVariant &amp;a, const QVariant &amp;b) const</div><div class="ttdef"><b>Definition</b> card_info_comparator.cpp:26</div></div>
-<div class="ttc" id="aclassCardInfoComparator_html_acb95790b2967fd57ed8a26bf05aaafb2"><div class="ttname"><a href="../../d8/d3f/classCardInfoComparator.html#acb95790b2967fd57ed8a26bf05aaafb2">CardInfoComparator::m_properties</a></div><div class="ttdeci">QStringList m_properties</div><div class="ttdef"><b>Definition</b> card_info_comparator.h:17</div></div>
+<div class="ttc" id="aclassCardInfoComparator_html_acb95790b2967fd57ed8a26bf05aaafb2"><div class="ttname"><a href="../../d8/d3f/classCardInfoComparator.html#acb95790b2967fd57ed8a26bf05aaafb2">CardInfoComparator::m_properties</a></div><div class="ttdeci">QStringList m_properties</div><div class="ttdef"><b>Definition</b> card_info_comparator.h:23</div></div>
 <div class="ttc" id="aclassCardInfoComparator_html_ad75d32b3a8ce94e2b25aa2add9a81bf0"><div class="ttname"><a href="../../d8/d3f/classCardInfoComparator.html#ad75d32b3a8ce94e2b25aa2add9a81bf0">CardInfoComparator::operator()</a></div><div class="ttdeci">bool operator()(const CardInfoPtr &amp;a, const CardInfoPtr &amp;b) const</div><div class="ttdef"><b>Definition</b> card_info_comparator.cpp:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

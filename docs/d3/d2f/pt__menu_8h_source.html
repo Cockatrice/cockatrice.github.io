@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,50 +108,51 @@ $(document).ready(function(){initNavTree('d3/d2f/pt__menu_8h_source.html','../..
   <div class="headertitle"><div class="title">pt_menu.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d3/d2f/pt__menu_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef COCKATRICE_PT_MENU_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define COCKATRICE_PT_MENU_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;QMenu&gt;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a>;</div>
-<div class="foldopen" id="foldopen00006" data-start="{" data-end="};">
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html">    6</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d3/d77/classPtMenu.html">PtMenu</a> : <span class="keyword">public</span> QMenu</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    Q_OBJECT</div>
+<a href="../../d3/d2f/pt__menu_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef COCKATRICE_PT_MENU_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define COCKATRICE_PT_MENU_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QMenu&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d3/d77/classPtMenu.html">PtMenu</a>(<a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *player);</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d77/classPtMenu.html#afaa09c52107f199091b73509ea5cad51">retranslateUi</a>();</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d77/classPtMenu.html#a1de7f2609f31a647363f9aed52c01073">setShortcutsActive</a>();</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a72bacce7b48a8d29030edad85a298a63">   16</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a72bacce7b48a8d29030edad85a298a63">aIncP</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a72d5b50c090bb5a1cceacd72a9daf3ac">   17</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a72d5b50c090bb5a1cceacd72a9daf3ac">aDecP</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a53ce069cd6d94d442ace75643a09f516">   18</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a53ce069cd6d94d442ace75643a09f516">aFlowP</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a70b283a3fa035a864e1a369564d93d2a">   19</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a70b283a3fa035a864e1a369564d93d2a">aIncT</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#acfa8244e424dabaeca2732cf6c02ee60">   20</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#acfa8244e424dabaeca2732cf6c02ee60">aDecT</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a3a98831c820f3e29ae3a6a0f1b1b9bd8">   21</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a3a98831c820f3e29ae3a6a0f1b1b9bd8">aFlowT</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a170c8158d01e44882f4b7674d2e9b0fe">   23</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a170c8158d01e44882f4b7674d2e9b0fe">aIncPT</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a7eb66739c9e6064c00ddcd0c5a6140e2">   24</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a7eb66739c9e6064c00ddcd0c5a6140e2">aDecPT</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a8ea8bc3fb3109600f6dbd96c9a4e9879">   25</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a8ea8bc3fb3109600f6dbd96c9a4e9879">aSetPT</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a3c86ef45898fa0cfd55ee88bf7be9a28">   26</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a3c86ef45898fa0cfd55ee88bf7be9a28">aResetPT</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
-</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a>;</div>
+<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d3/d77/classPtMenu.html">PtMenu</a> : <span class="keyword">public</span> QMenu</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    Q_OBJECT</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d3/d77/classPtMenu.html">PtMenu</a>(<a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *player);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d77/classPtMenu.html#afaa09c52107f199091b73509ea5cad51">retranslateUi</a>();</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d77/classPtMenu.html#a1de7f2609f31a647363f9aed52c01073">setShortcutsActive</a>();</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a72bacce7b48a8d29030edad85a298a63">   22</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a72bacce7b48a8d29030edad85a298a63">aIncP</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a72d5b50c090bb5a1cceacd72a9daf3ac">   23</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a72d5b50c090bb5a1cceacd72a9daf3ac">aDecP</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a53ce069cd6d94d442ace75643a09f516">   24</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a53ce069cd6d94d442ace75643a09f516">aFlowP</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a70b283a3fa035a864e1a369564d93d2a">   25</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a70b283a3fa035a864e1a369564d93d2a">aIncT</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#acfa8244e424dabaeca2732cf6c02ee60">   26</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#acfa8244e424dabaeca2732cf6c02ee60">aDecT</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a3a98831c820f3e29ae3a6a0f1b1b9bd8">   27</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a3a98831c820f3e29ae3a6a0f1b1b9bd8">aFlowT</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_PT_MENU_H</span></div>
-<div class="ttc" id="aclassPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition</b> player.h:59</div></div>
-<div class="ttc" id="aclassPtMenu_html"><div class="ttname"><a href="../../d3/d77/classPtMenu.html">PtMenu</a></div><div class="ttdef"><b>Definition</b> pt_menu.h:7</div></div>
-<div class="ttc" id="aclassPtMenu_html_a170c8158d01e44882f4b7674d2e9b0fe"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a170c8158d01e44882f4b7674d2e9b0fe">PtMenu::aIncPT</a></div><div class="ttdeci">QAction * aIncPT</div><div class="ttdef"><b>Definition</b> pt_menu.h:23</div></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a170c8158d01e44882f4b7674d2e9b0fe">   29</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a170c8158d01e44882f4b7674d2e9b0fe">aIncPT</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a7eb66739c9e6064c00ddcd0c5a6140e2">   30</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a7eb66739c9e6064c00ddcd0c5a6140e2">aDecPT</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a8ea8bc3fb3109600f6dbd96c9a4e9879">   31</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a8ea8bc3fb3109600f6dbd96c9a4e9879">aSetPT</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d3/d77/classPtMenu.html#a3c86ef45898fa0cfd55ee88bf7be9a28">   32</a></span>    QAction *<a class="code hl_variable" href="../../d3/d77/classPtMenu.html#a3c86ef45898fa0cfd55ee88bf7be9a28">aResetPT</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>};</div>
+</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_PT_MENU_H</span></div>
+<div class="ttc" id="aclassPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition</b> player.h:65</div></div>
+<div class="ttc" id="aclassPtMenu_html"><div class="ttname"><a href="../../d3/d77/classPtMenu.html">PtMenu</a></div><div class="ttdef"><b>Definition</b> pt_menu.h:13</div></div>
+<div class="ttc" id="aclassPtMenu_html_a170c8158d01e44882f4b7674d2e9b0fe"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a170c8158d01e44882f4b7674d2e9b0fe">PtMenu::aIncPT</a></div><div class="ttdeci">QAction * aIncPT</div><div class="ttdef"><b>Definition</b> pt_menu.h:29</div></div>
 <div class="ttc" id="aclassPtMenu_html_a1de7f2609f31a647363f9aed52c01073"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a1de7f2609f31a647363f9aed52c01073">PtMenu::setShortcutsActive</a></div><div class="ttdeci">void setShortcutsActive()</div><div class="ttdef"><b>Definition</b> pt_menu.cpp:64</div></div>
-<div class="ttc" id="aclassPtMenu_html_a3a98831c820f3e29ae3a6a0f1b1b9bd8"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a3a98831c820f3e29ae3a6a0f1b1b9bd8">PtMenu::aFlowT</a></div><div class="ttdeci">QAction * aFlowT</div><div class="ttdef"><b>Definition</b> pt_menu.h:21</div></div>
-<div class="ttc" id="aclassPtMenu_html_a3c86ef45898fa0cfd55ee88bf7be9a28"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a3c86ef45898fa0cfd55ee88bf7be9a28">PtMenu::aResetPT</a></div><div class="ttdeci">QAction * aResetPT</div><div class="ttdef"><b>Definition</b> pt_menu.h:26</div></div>
-<div class="ttc" id="aclassPtMenu_html_a53ce069cd6d94d442ace75643a09f516"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a53ce069cd6d94d442ace75643a09f516">PtMenu::aFlowP</a></div><div class="ttdeci">QAction * aFlowP</div><div class="ttdef"><b>Definition</b> pt_menu.h:18</div></div>
-<div class="ttc" id="aclassPtMenu_html_a70b283a3fa035a864e1a369564d93d2a"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a70b283a3fa035a864e1a369564d93d2a">PtMenu::aIncT</a></div><div class="ttdeci">QAction * aIncT</div><div class="ttdef"><b>Definition</b> pt_menu.h:19</div></div>
-<div class="ttc" id="aclassPtMenu_html_a72bacce7b48a8d29030edad85a298a63"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a72bacce7b48a8d29030edad85a298a63">PtMenu::aIncP</a></div><div class="ttdeci">QAction * aIncP</div><div class="ttdef"><b>Definition</b> pt_menu.h:16</div></div>
-<div class="ttc" id="aclassPtMenu_html_a72d5b50c090bb5a1cceacd72a9daf3ac"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a72d5b50c090bb5a1cceacd72a9daf3ac">PtMenu::aDecP</a></div><div class="ttdeci">QAction * aDecP</div><div class="ttdef"><b>Definition</b> pt_menu.h:17</div></div>
-<div class="ttc" id="aclassPtMenu_html_a7eb66739c9e6064c00ddcd0c5a6140e2"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a7eb66739c9e6064c00ddcd0c5a6140e2">PtMenu::aDecPT</a></div><div class="ttdeci">QAction * aDecPT</div><div class="ttdef"><b>Definition</b> pt_menu.h:24</div></div>
-<div class="ttc" id="aclassPtMenu_html_a8ea8bc3fb3109600f6dbd96c9a4e9879"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a8ea8bc3fb3109600f6dbd96c9a4e9879">PtMenu::aSetPT</a></div><div class="ttdeci">QAction * aSetPT</div><div class="ttdef"><b>Definition</b> pt_menu.h:25</div></div>
-<div class="ttc" id="aclassPtMenu_html_acfa8244e424dabaeca2732cf6c02ee60"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#acfa8244e424dabaeca2732cf6c02ee60">PtMenu::aDecT</a></div><div class="ttdeci">QAction * aDecT</div><div class="ttdef"><b>Definition</b> pt_menu.h:20</div></div>
+<div class="ttc" id="aclassPtMenu_html_a3a98831c820f3e29ae3a6a0f1b1b9bd8"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a3a98831c820f3e29ae3a6a0f1b1b9bd8">PtMenu::aFlowT</a></div><div class="ttdeci">QAction * aFlowT</div><div class="ttdef"><b>Definition</b> pt_menu.h:27</div></div>
+<div class="ttc" id="aclassPtMenu_html_a3c86ef45898fa0cfd55ee88bf7be9a28"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a3c86ef45898fa0cfd55ee88bf7be9a28">PtMenu::aResetPT</a></div><div class="ttdeci">QAction * aResetPT</div><div class="ttdef"><b>Definition</b> pt_menu.h:32</div></div>
+<div class="ttc" id="aclassPtMenu_html_a53ce069cd6d94d442ace75643a09f516"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a53ce069cd6d94d442ace75643a09f516">PtMenu::aFlowP</a></div><div class="ttdeci">QAction * aFlowP</div><div class="ttdef"><b>Definition</b> pt_menu.h:24</div></div>
+<div class="ttc" id="aclassPtMenu_html_a70b283a3fa035a864e1a369564d93d2a"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a70b283a3fa035a864e1a369564d93d2a">PtMenu::aIncT</a></div><div class="ttdeci">QAction * aIncT</div><div class="ttdef"><b>Definition</b> pt_menu.h:25</div></div>
+<div class="ttc" id="aclassPtMenu_html_a72bacce7b48a8d29030edad85a298a63"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a72bacce7b48a8d29030edad85a298a63">PtMenu::aIncP</a></div><div class="ttdeci">QAction * aIncP</div><div class="ttdef"><b>Definition</b> pt_menu.h:22</div></div>
+<div class="ttc" id="aclassPtMenu_html_a72d5b50c090bb5a1cceacd72a9daf3ac"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a72d5b50c090bb5a1cceacd72a9daf3ac">PtMenu::aDecP</a></div><div class="ttdeci">QAction * aDecP</div><div class="ttdef"><b>Definition</b> pt_menu.h:23</div></div>
+<div class="ttc" id="aclassPtMenu_html_a7eb66739c9e6064c00ddcd0c5a6140e2"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a7eb66739c9e6064c00ddcd0c5a6140e2">PtMenu::aDecPT</a></div><div class="ttdeci">QAction * aDecPT</div><div class="ttdef"><b>Definition</b> pt_menu.h:30</div></div>
+<div class="ttc" id="aclassPtMenu_html_a8ea8bc3fb3109600f6dbd96c9a4e9879"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#a8ea8bc3fb3109600f6dbd96c9a4e9879">PtMenu::aSetPT</a></div><div class="ttdeci">QAction * aSetPT</div><div class="ttdef"><b>Definition</b> pt_menu.h:31</div></div>
+<div class="ttc" id="aclassPtMenu_html_acfa8244e424dabaeca2732cf6c02ee60"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#acfa8244e424dabaeca2732cf6c02ee60">PtMenu::aDecT</a></div><div class="ttdeci">QAction * aDecT</div><div class="ttdef"><b>Definition</b> pt_menu.h:26</div></div>
 <div class="ttc" id="aclassPtMenu_html_afaa09c52107f199091b73509ea5cad51"><div class="ttname"><a href="../../d3/d77/classPtMenu.html#afaa09c52107f199091b73509ea5cad51">PtMenu::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdef"><b>Definition</b> pt_menu.cpp:50</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

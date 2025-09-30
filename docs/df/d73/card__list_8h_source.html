@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,81 +108,82 @@ $(document).ready(function(){initNavTree('df/d73/card__list_8h_source.html','../
   <div class="headertitle"><div class="title">card_list.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../df/d73/card__list_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef CARDLIST_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define CARDLIST_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QList&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QLoggingCategory&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../df/d73/card__list_8h.html#a1f4632a6bff29be25f90176d86cd9557">    7</a></span><span class="keyword">inline</span> <a class="code hl_function" href="../../df/d73/card__list_8h.html#a1f4632a6bff29be25f90176d86cd9557">Q_LOGGING_CATEGORY</a>(CardListLog, <span class="stringliteral">&quot;card_list&quot;</span>);</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">class </span><a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a>;</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html">   11</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d4/d71/classCardList.html">CardList</a> : <span class="keyword">public</span> QList&lt;CardItem *&gt;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a7b21422f97e3fd251d28039ad9f57939">   14</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d4/d71/classCardList.html#a7b21422f97e3fd251d28039ad9f57939">contentsKnown</a>;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
+<a href="../../df/d73/card__list_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef CARDLIST_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define CARDLIST_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QList&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QLoggingCategory&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../df/d73/card__list_8h.html#a1f4632a6bff29be25f90176d86cd9557">   13</a></span><span class="keyword">inline</span> <a class="code hl_function" href="../../df/d73/card__list_8h.html#a1f4632a6bff29be25f90176d86cd9557">Q_LOGGING_CATEGORY</a>(CardListLog, <span class="stringliteral">&quot;card_list&quot;</span>);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span><a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">   17</a></span>    <span class="keyword">enum</span> <a class="code hl_enumeration" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">SortOption</a></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    {</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714faca41862bd3df624bf8b0e7b8b5481482">   19</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714faca41862bd3df624bf8b0e7b8b5481482">NoSort</a>,</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="comment">// Options that are used by groupBy</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="comment">// Should partition all cards into a reasonable number of buckets</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa97d07506cea7411553429614a9e78385">   23</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa97d07506cea7411553429614a9e78385">SortByMainType</a>,</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa5f92034e956cff05445dc6dac3120a17">   24</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa5f92034e956cff05445dc6dac3120a17">SortByManaValue</a>,</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa1f0344b11d8ac7add8528bb4b226a194">   25</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa1f0344b11d8ac7add8528bb4b226a194">SortByColorGrouping</a>,</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d4/d71/classCardList.html">CardList</a> : <span class="keyword">public</span> QList&lt;CardItem *&gt;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a7b21422f97e3fd251d28039ad9f57939">   20</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d4/d71/classCardList.html#a7b21422f97e3fd251d28039ad9f57939">contentsKnown</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">   23</a></span>    <span class="keyword">enum</span> <a class="code hl_enumeration" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">SortOption</a></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714faca41862bd3df624bf8b0e7b8b5481482">   25</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714faca41862bd3df624bf8b0e7b8b5481482">NoSort</a>,</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="comment">// Options that are used by sortBy</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="comment">// We don&#39;t care about buckets; we want as many distinct values as possible.</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fad5cfbe99be81af01ee4e566d2cb1ce97">   29</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fad5cfbe99be81af01ee4e566d2cb1ce97">SortByName</a>,</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa318d2df73f9f1967fa2f7121c2f458e6">   30</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa318d2df73f9f1967fa2f7121c2f458e6">SortByType</a>,</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fad2e9064d25ac6a7c8a87366ca8f3ddbd">   31</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fad2e9064d25ac6a7c8a87366ca8f3ddbd">SortByManaCost</a>,</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe5231f8735f3bfcaa1a71953bf928f5">   32</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe5231f8735f3bfcaa1a71953bf928f5">SortByColors</a>,</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe030954af465ce533de2ad5efac9291">   33</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe030954af465ce533de2ad5efac9291">SortByPt</a>,</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa991cec90b63875bc28a0ee4d1ee26592">   34</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa991cec90b63875bc28a0ee4d1ee26592">SortBySet</a>,</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa3b838976ed9bf61a5d26833a18a9838b">SortByPrinting</a></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa3b838976ed9bf61a5d26833a18a9838b">   36</a></span>    };</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="comment">// Options that are used by groupBy</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="comment">// Should partition all cards into a reasonable number of buckets</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa97d07506cea7411553429614a9e78385">   29</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa97d07506cea7411553429614a9e78385">SortByMainType</a>,</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa5f92034e956cff05445dc6dac3120a17">   30</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa5f92034e956cff05445dc6dac3120a17">SortByManaValue</a>,</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa1f0344b11d8ac7add8528bb4b226a194">   31</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa1f0344b11d8ac7add8528bb4b226a194">SortByColorGrouping</a>,</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="comment">// Options that are used by sortBy</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="comment">// We don&#39;t care about buckets; we want as many distinct values as possible.</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fad5cfbe99be81af01ee4e566d2cb1ce97">   35</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fad5cfbe99be81af01ee4e566d2cb1ce97">SortByName</a>,</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa318d2df73f9f1967fa2f7121c2f458e6">   36</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa318d2df73f9f1967fa2f7121c2f458e6">SortByType</a>,</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fad2e9064d25ac6a7c8a87366ca8f3ddbd">   37</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fad2e9064d25ac6a7c8a87366ca8f3ddbd">SortByManaCost</a>,</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe5231f8735f3bfcaa1a71953bf928f5">   38</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe5231f8735f3bfcaa1a71953bf928f5">SortByColors</a>,</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe030954af465ce533de2ad5efac9291">   39</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe030954af465ce533de2ad5efac9291">SortByPt</a>,</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa991cec90b63875bc28a0ee4d1ee26592">   40</a></span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa991cec90b63875bc28a0ee4d1ee26592">SortBySet</a>,</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <a class="code hl_enumvalue" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa3b838976ed9bf61a5d26833a18a9838b">SortByPrinting</a></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa3b838976ed9bf61a5d26833a18a9838b">   42</a></span>    };</div>
 </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d4/d71/classCardList.html">CardList</a>(<span class="keywordtype">bool</span> _contentsKnown);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *<a class="code hl_function" href="../../d4/d71/classCardList.html#a618a3d05e9fc942bfa5afc101063f848">findCard</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> cardId) <span class="keyword">const</span>;</div>
-<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a220784b7d0976960222cbcc1c2e98711">   39</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d4/d71/classCardList.html#a220784b7d0976960222cbcc1c2e98711">getContentsKnown</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d71/classCardList.html#a7b21422f97e3fd251d28039ad9f57939">contentsKnown</a>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    }</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d4/d71/classCardList.html">CardList</a>(<span class="keywordtype">bool</span> _contentsKnown);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *<a class="code hl_function" href="../../d4/d71/classCardList.html#a618a3d05e9fc942bfa5afc101063f848">findCard</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> cardId) <span class="keyword">const</span>;</div>
+<div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d4/d71/classCardList.html#a220784b7d0976960222cbcc1c2e98711">   45</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d4/d71/classCardList.html#a220784b7d0976960222cbcc1c2e98711">getContentsKnown</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d71/classCardList.html#a7b21422f97e3fd251d28039ad9f57939">contentsKnown</a>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    }</div>
 </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d71/classCardList.html#a2cb6e2096d50e4cfe8dccdec39cb5d2e">sortBy</a>(<span class="keyword">const</span> QList&lt;SortOption&gt; &amp;options);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">static</span> std::function&lt;QString(<a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *)&gt; <a class="code hl_function" href="../../d4/d71/classCardList.html#a036e8b64cf5d346acbf59dc0e3fd896d">getExtractorFor</a>(<a class="code hl_enumeration" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">SortOption</a> option);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>};</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d71/classCardList.html#a2cb6e2096d50e4cfe8dccdec39cb5d2e">sortBy</a>(<span class="keyword">const</span> QList&lt;SortOption&gt; &amp;options);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keyword">static</span> std::function&lt;QString(<a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *)&gt; <a class="code hl_function" href="../../d4/d71/classCardList.html#a036e8b64cf5d346acbf59dc0e3fd896d">getExtractorFor</a>(<a class="code hl_enumeration" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">SortOption</a> option);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>};</div>
 </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="acard__list_8h_html_a1f4632a6bff29be25f90176d86cd9557"><div class="ttname"><a href="../../df/d73/card__list_8h.html#a1f4632a6bff29be25f90176d86cd9557">Q_LOGGING_CATEGORY</a></div><div class="ttdeci">Q_LOGGING_CATEGORY(CardListLog, &quot;card_list&quot;)</div></div>
-<div class="ttc" id="aclassCardItem_html"><div class="ttname"><a href="../../d6/dbd/classCardItem.html">CardItem</a></div><div class="ttdef"><b>Definition</b> card_item.h:22</div></div>
-<div class="ttc" id="aclassCardList_html"><div class="ttname"><a href="../../d4/d71/classCardList.html">CardList</a></div><div class="ttdef"><b>Definition</b> card_list.h:12</div></div>
+<div class="ttc" id="aclassCardItem_html"><div class="ttname"><a href="../../d6/dbd/classCardItem.html">CardItem</a></div><div class="ttdef"><b>Definition</b> card_item.h:28</div></div>
+<div class="ttc" id="aclassCardList_html"><div class="ttname"><a href="../../d4/d71/classCardList.html">CardList</a></div><div class="ttdef"><b>Definition</b> card_list.h:18</div></div>
 <div class="ttc" id="aclassCardList_html_a036e8b64cf5d346acbf59dc0e3fd896d"><div class="ttname"><a href="../../d4/d71/classCardList.html#a036e8b64cf5d346acbf59dc0e3fd896d">CardList::getExtractorFor</a></div><div class="ttdeci">static std::function&lt; QString(CardItem *)&gt; getExtractorFor(SortOption option)</div><div class="ttdoc">returns the function that extracts the given property from the CardItem.</div><div class="ttdef"><b>Definition</b> card_list.cpp:116</div></div>
-<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714f"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">CardList::SortOption</a></div><div class="ttdeci">SortOption</div><div class="ttdef"><b>Definition</b> card_list.h:18</div></div>
-<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fa1f0344b11d8ac7add8528bb4b226a194"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa1f0344b11d8ac7add8528bb4b226a194">CardList::SortByColorGrouping</a></div><div class="ttdeci">@ SortByColorGrouping</div><div class="ttdef"><b>Definition</b> card_list.h:25</div></div>
-<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fa318d2df73f9f1967fa2f7121c2f458e6"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa318d2df73f9f1967fa2f7121c2f458e6">CardList::SortByType</a></div><div class="ttdeci">@ SortByType</div><div class="ttdef"><b>Definition</b> card_list.h:30</div></div>
-<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fa3b838976ed9bf61a5d26833a18a9838b"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa3b838976ed9bf61a5d26833a18a9838b">CardList::SortByPrinting</a></div><div class="ttdeci">@ SortByPrinting</div><div class="ttdef"><b>Definition</b> card_list.h:35</div></div>
-<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fa5f92034e956cff05445dc6dac3120a17"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa5f92034e956cff05445dc6dac3120a17">CardList::SortByManaValue</a></div><div class="ttdeci">@ SortByManaValue</div><div class="ttdef"><b>Definition</b> card_list.h:24</div></div>
-<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fa97d07506cea7411553429614a9e78385"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa97d07506cea7411553429614a9e78385">CardList::SortByMainType</a></div><div class="ttdeci">@ SortByMainType</div><div class="ttdef"><b>Definition</b> card_list.h:23</div></div>
-<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fa991cec90b63875bc28a0ee4d1ee26592"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa991cec90b63875bc28a0ee4d1ee26592">CardList::SortBySet</a></div><div class="ttdeci">@ SortBySet</div><div class="ttdef"><b>Definition</b> card_list.h:34</div></div>
-<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fabe030954af465ce533de2ad5efac9291"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe030954af465ce533de2ad5efac9291">CardList::SortByPt</a></div><div class="ttdeci">@ SortByPt</div><div class="ttdef"><b>Definition</b> card_list.h:33</div></div>
-<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fabe5231f8735f3bfcaa1a71953bf928f5"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe5231f8735f3bfcaa1a71953bf928f5">CardList::SortByColors</a></div><div class="ttdeci">@ SortByColors</div><div class="ttdef"><b>Definition</b> card_list.h:32</div></div>
-<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714faca41862bd3df624bf8b0e7b8b5481482"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714faca41862bd3df624bf8b0e7b8b5481482">CardList::NoSort</a></div><div class="ttdeci">@ NoSort</div><div class="ttdef"><b>Definition</b> card_list.h:19</div></div>
-<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fad2e9064d25ac6a7c8a87366ca8f3ddbd"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fad2e9064d25ac6a7c8a87366ca8f3ddbd">CardList::SortByManaCost</a></div><div class="ttdeci">@ SortByManaCost</div><div class="ttdef"><b>Definition</b> card_list.h:31</div></div>
-<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fad5cfbe99be81af01ee4e566d2cb1ce97"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fad5cfbe99be81af01ee4e566d2cb1ce97">CardList::SortByName</a></div><div class="ttdeci">@ SortByName</div><div class="ttdef"><b>Definition</b> card_list.h:29</div></div>
-<div class="ttc" id="aclassCardList_html_a220784b7d0976960222cbcc1c2e98711"><div class="ttname"><a href="../../d4/d71/classCardList.html#a220784b7d0976960222cbcc1c2e98711">CardList::getContentsKnown</a></div><div class="ttdeci">bool getContentsKnown() const</div><div class="ttdef"><b>Definition</b> card_list.h:39</div></div>
+<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714f"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">CardList::SortOption</a></div><div class="ttdeci">SortOption</div><div class="ttdef"><b>Definition</b> card_list.h:24</div></div>
+<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fa1f0344b11d8ac7add8528bb4b226a194"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa1f0344b11d8ac7add8528bb4b226a194">CardList::SortByColorGrouping</a></div><div class="ttdeci">@ SortByColorGrouping</div><div class="ttdef"><b>Definition</b> card_list.h:31</div></div>
+<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fa318d2df73f9f1967fa2f7121c2f458e6"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa318d2df73f9f1967fa2f7121c2f458e6">CardList::SortByType</a></div><div class="ttdeci">@ SortByType</div><div class="ttdef"><b>Definition</b> card_list.h:36</div></div>
+<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fa3b838976ed9bf61a5d26833a18a9838b"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa3b838976ed9bf61a5d26833a18a9838b">CardList::SortByPrinting</a></div><div class="ttdeci">@ SortByPrinting</div><div class="ttdef"><b>Definition</b> card_list.h:41</div></div>
+<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fa5f92034e956cff05445dc6dac3120a17"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa5f92034e956cff05445dc6dac3120a17">CardList::SortByManaValue</a></div><div class="ttdeci">@ SortByManaValue</div><div class="ttdef"><b>Definition</b> card_list.h:30</div></div>
+<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fa97d07506cea7411553429614a9e78385"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa97d07506cea7411553429614a9e78385">CardList::SortByMainType</a></div><div class="ttdeci">@ SortByMainType</div><div class="ttdef"><b>Definition</b> card_list.h:29</div></div>
+<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fa991cec90b63875bc28a0ee4d1ee26592"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa991cec90b63875bc28a0ee4d1ee26592">CardList::SortBySet</a></div><div class="ttdeci">@ SortBySet</div><div class="ttdef"><b>Definition</b> card_list.h:40</div></div>
+<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fabe030954af465ce533de2ad5efac9291"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe030954af465ce533de2ad5efac9291">CardList::SortByPt</a></div><div class="ttdeci">@ SortByPt</div><div class="ttdef"><b>Definition</b> card_list.h:39</div></div>
+<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fabe5231f8735f3bfcaa1a71953bf928f5"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe5231f8735f3bfcaa1a71953bf928f5">CardList::SortByColors</a></div><div class="ttdeci">@ SortByColors</div><div class="ttdef"><b>Definition</b> card_list.h:38</div></div>
+<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714faca41862bd3df624bf8b0e7b8b5481482"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714faca41862bd3df624bf8b0e7b8b5481482">CardList::NoSort</a></div><div class="ttdeci">@ NoSort</div><div class="ttdef"><b>Definition</b> card_list.h:25</div></div>
+<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fad2e9064d25ac6a7c8a87366ca8f3ddbd"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fad2e9064d25ac6a7c8a87366ca8f3ddbd">CardList::SortByManaCost</a></div><div class="ttdeci">@ SortByManaCost</div><div class="ttdef"><b>Definition</b> card_list.h:37</div></div>
+<div class="ttc" id="aclassCardList_html_a0982806beccba798f5988f1c81fd714fad5cfbe99be81af01ee4e566d2cb1ce97"><div class="ttname"><a href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fad5cfbe99be81af01ee4e566d2cb1ce97">CardList::SortByName</a></div><div class="ttdeci">@ SortByName</div><div class="ttdef"><b>Definition</b> card_list.h:35</div></div>
+<div class="ttc" id="aclassCardList_html_a220784b7d0976960222cbcc1c2e98711"><div class="ttname"><a href="../../d4/d71/classCardList.html#a220784b7d0976960222cbcc1c2e98711">CardList::getContentsKnown</a></div><div class="ttdeci">bool getContentsKnown() const</div><div class="ttdef"><b>Definition</b> card_list.h:45</div></div>
 <div class="ttc" id="aclassCardList_html_a2cb6e2096d50e4cfe8dccdec39cb5d2e"><div class="ttname"><a href="../../d4/d71/classCardList.html#a2cb6e2096d50e4cfe8dccdec39cb5d2e">CardList::sortBy</a></div><div class="ttdeci">void sortBy(const QList&lt; SortOption &gt; &amp;options)</div><div class="ttdoc">sorts the list by using string comparison on properties extracted from the CardItem The cards are com...</div><div class="ttdef"><b>Definition</b> card_list.cpp:42</div></div>
 <div class="ttc" id="aclassCardList_html_a618a3d05e9fc942bfa5afc101063f848"><div class="ttname"><a href="../../d4/d71/classCardList.html#a618a3d05e9fc942bfa5afc101063f848">CardList::findCard</a></div><div class="ttdeci">CardItem * findCard(const int cardId) const</div><div class="ttdoc">Finds the CardItem with the given id in the list. If contentsKnown is false, then this just returns t...</div><div class="ttdef"><b>Definition</b> card_list.cpp:21</div></div>
-<div class="ttc" id="aclassCardList_html_a7b21422f97e3fd251d28039ad9f57939"><div class="ttname"><a href="../../d4/d71/classCardList.html#a7b21422f97e3fd251d28039ad9f57939">CardList::contentsKnown</a></div><div class="ttdeci">bool contentsKnown</div><div class="ttdef"><b>Definition</b> card_list.h:14</div></div>
+<div class="ttc" id="aclassCardList_html_a7b21422f97e3fd251d28039ad9f57939"><div class="ttname"><a href="../../d4/d71/classCardList.html#a7b21422f97e3fd251d28039ad9f57939">CardList::contentsKnown</a></div><div class="ttdeci">bool contentsKnown</div><div class="ttdef"><b>Definition</b> card_list.h:20</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

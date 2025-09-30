@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,62 +108,63 @@ $(document).ready(function(){initNavTree('d3/de7/grave__menu_8h_source.html','..
   <div class="headertitle"><div class="title">grave_menu.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d3/de7/grave__menu_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef COCKATRICE_GRAVE_MENU_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define COCKATRICE_GRAVE_MENU_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../../../interface/tearoff_menu.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QAction&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QMenu&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a>;</div>
-<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html">   10</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d73/classGraveyardMenu.html">GraveyardMenu</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../de/d53/classTearOffMenu.html">TearOffMenu</a></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    Q_OBJECT</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>signals:</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#aaeeece8f7998876a633b79a1a4312c6e">   14</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d73/classGraveyardMenu.html#aaeeece8f7998876a633b79a1a4312c6e">newPlayerActionCreated</a>(QAction *action);</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d2/d73/classGraveyardMenu.html">GraveyardMenu</a>(<a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a107f004c7c4dcd999d4b2eda3eb56998">player</a>, QWidget *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d73/classGraveyardMenu.html#a9c89b06caef91ca24e91b24bbbac35dc">createMoveActions</a>();</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d73/classGraveyardMenu.html#a02a61a1b424f34f607e472cd16dfd140">createViewActions</a>();</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d73/classGraveyardMenu.html#a1d49b7a0bef07a8a8243531f019c5d36">retranslateUi</a>();</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d73/classGraveyardMenu.html#abfaf3f654546ee67293955f528819e24">setShortcutsActive</a>();</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d73/classGraveyardMenu.html#a4bb7a3a5caf1463c1af72ef7642e833e">setShortcutsInactive</a>();</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a07152181c90a986669df69ef7a73c08f">   24</a></span>    QMenu *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a07152181c90a986669df69ef7a73c08f">mRevealRandomGraveyardCard</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a856e105533c153ed310beffd3cb58dbf">   25</a></span>    QMenu *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a856e105533c153ed310beffd3cb58dbf">moveGraveMenu</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a16453bac3d4be0072c0603c4881b6f71">   27</a></span>    QAction *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a16453bac3d4be0072c0603c4881b6f71">aViewGraveyard</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a5495f8b49b56f152572e00fc631471bd">   28</a></span>    QAction *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a5495f8b49b56f152572e00fc631471bd">aMoveGraveToTopLibrary</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a54228865360f54cbcc1ec7aad1dbb123">   29</a></span>    QAction *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a54228865360f54cbcc1ec7aad1dbb123">aMoveGraveToBottomLibrary</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a14cb8498e455e9d26324bee8aa38149f">   30</a></span>    QAction *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a14cb8498e455e9d26324bee8aa38149f">aMoveGraveToHand</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#acc63e27e05287f8a13adf2dce6e6e450">   31</a></span>    QAction *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#acc63e27e05287f8a13adf2dce6e6e450">aMoveGraveToRfg</a> = <span class="keyword">nullptr</span>;</div>
+<a href="../../d3/de7/grave__menu_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef COCKATRICE_GRAVE_MENU_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define COCKATRICE_GRAVE_MENU_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;../../../interface/tearoff_menu.h&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QAction&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QMenu&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a>;</div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html">   16</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d73/classGraveyardMenu.html">GraveyardMenu</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../de/d53/classTearOffMenu.html">TearOffMenu</a></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    Q_OBJECT</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>signals:</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#aaeeece8f7998876a633b79a1a4312c6e">   20</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d73/classGraveyardMenu.html#aaeeece8f7998876a633b79a1a4312c6e">newPlayerActionCreated</a>(QAction *action);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d2/d73/classGraveyardMenu.html">GraveyardMenu</a>(<a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a107f004c7c4dcd999d4b2eda3eb56998">player</a>, QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d73/classGraveyardMenu.html#a9c89b06caef91ca24e91b24bbbac35dc">createMoveActions</a>();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d73/classGraveyardMenu.html#a02a61a1b424f34f607e472cd16dfd140">createViewActions</a>();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d73/classGraveyardMenu.html#a1d49b7a0bef07a8a8243531f019c5d36">retranslateUi</a>();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d73/classGraveyardMenu.html#abfaf3f654546ee67293955f528819e24">setShortcutsActive</a>();</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d73/classGraveyardMenu.html#a4bb7a3a5caf1463c1af72ef7642e833e">setShortcutsInactive</a>();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a07152181c90a986669df69ef7a73c08f">   30</a></span>    QMenu *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a07152181c90a986669df69ef7a73c08f">mRevealRandomGraveyardCard</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a856e105533c153ed310beffd3cb58dbf">   31</a></span>    QMenu *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a856e105533c153ed310beffd3cb58dbf">moveGraveMenu</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a107f004c7c4dcd999d4b2eda3eb56998">   34</a></span>    <a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a107f004c7c4dcd999d4b2eda3eb56998">player</a>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>};</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a16453bac3d4be0072c0603c4881b6f71">   33</a></span>    QAction *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a16453bac3d4be0072c0603c4881b6f71">aViewGraveyard</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a5495f8b49b56f152572e00fc631471bd">   34</a></span>    QAction *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a5495f8b49b56f152572e00fc631471bd">aMoveGraveToTopLibrary</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a54228865360f54cbcc1ec7aad1dbb123">   35</a></span>    QAction *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a54228865360f54cbcc1ec7aad1dbb123">aMoveGraveToBottomLibrary</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a14cb8498e455e9d26324bee8aa38149f">   36</a></span>    QAction *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a14cb8498e455e9d26324bee8aa38149f">aMoveGraveToHand</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#acc63e27e05287f8a13adf2dce6e6e450">   37</a></span>    QAction *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#acc63e27e05287f8a13adf2dce6e6e450">aMoveGraveToRfg</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d2/d73/classGraveyardMenu.html#a107f004c7c4dcd999d4b2eda3eb56998">   40</a></span>    <a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> *<a class="code hl_variable" href="../../d2/d73/classGraveyardMenu.html#a107f004c7c4dcd999d4b2eda3eb56998">player</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>};</div>
 </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_GRAVE_MENU_H</span></div>
-<div class="ttc" id="aclassGraveyardMenu_html"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html">GraveyardMenu</a></div><div class="ttdef"><b>Definition</b> grave_menu.h:11</div></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_GRAVE_MENU_H</span></div>
+<div class="ttc" id="aclassGraveyardMenu_html"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html">GraveyardMenu</a></div><div class="ttdef"><b>Definition</b> grave_menu.h:17</div></div>
 <div class="ttc" id="aclassGraveyardMenu_html_a02a61a1b424f34f607e472cd16dfd140"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a02a61a1b424f34f607e472cd16dfd140">GraveyardMenu::createViewActions</a></div><div class="ttdeci">void createViewActions()</div><div class="ttdef"><b>Definition</b> grave_menu.cpp:56</div></div>
-<div class="ttc" id="aclassGraveyardMenu_html_a07152181c90a986669df69ef7a73c08f"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a07152181c90a986669df69ef7a73c08f">GraveyardMenu::mRevealRandomGraveyardCard</a></div><div class="ttdeci">QMenu * mRevealRandomGraveyardCard</div><div class="ttdef"><b>Definition</b> grave_menu.h:24</div></div>
-<div class="ttc" id="aclassGraveyardMenu_html_a107f004c7c4dcd999d4b2eda3eb56998"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a107f004c7c4dcd999d4b2eda3eb56998">GraveyardMenu::player</a></div><div class="ttdeci">Player * player</div><div class="ttdef"><b>Definition</b> grave_menu.h:34</div></div>
-<div class="ttc" id="aclassGraveyardMenu_html_a14cb8498e455e9d26324bee8aa38149f"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a14cb8498e455e9d26324bee8aa38149f">GraveyardMenu::aMoveGraveToHand</a></div><div class="ttdeci">QAction * aMoveGraveToHand</div><div class="ttdef"><b>Definition</b> grave_menu.h:30</div></div>
-<div class="ttc" id="aclassGraveyardMenu_html_a16453bac3d4be0072c0603c4881b6f71"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a16453bac3d4be0072c0603c4881b6f71">GraveyardMenu::aViewGraveyard</a></div><div class="ttdeci">QAction * aViewGraveyard</div><div class="ttdef"><b>Definition</b> grave_menu.h:27</div></div>
+<div class="ttc" id="aclassGraveyardMenu_html_a07152181c90a986669df69ef7a73c08f"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a07152181c90a986669df69ef7a73c08f">GraveyardMenu::mRevealRandomGraveyardCard</a></div><div class="ttdeci">QMenu * mRevealRandomGraveyardCard</div><div class="ttdef"><b>Definition</b> grave_menu.h:30</div></div>
+<div class="ttc" id="aclassGraveyardMenu_html_a107f004c7c4dcd999d4b2eda3eb56998"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a107f004c7c4dcd999d4b2eda3eb56998">GraveyardMenu::player</a></div><div class="ttdeci">Player * player</div><div class="ttdef"><b>Definition</b> grave_menu.h:40</div></div>
+<div class="ttc" id="aclassGraveyardMenu_html_a14cb8498e455e9d26324bee8aa38149f"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a14cb8498e455e9d26324bee8aa38149f">GraveyardMenu::aMoveGraveToHand</a></div><div class="ttdeci">QAction * aMoveGraveToHand</div><div class="ttdef"><b>Definition</b> grave_menu.h:36</div></div>
+<div class="ttc" id="aclassGraveyardMenu_html_a16453bac3d4be0072c0603c4881b6f71"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a16453bac3d4be0072c0603c4881b6f71">GraveyardMenu::aViewGraveyard</a></div><div class="ttdeci">QAction * aViewGraveyard</div><div class="ttdef"><b>Definition</b> grave_menu.h:33</div></div>
 <div class="ttc" id="aclassGraveyardMenu_html_a1d49b7a0bef07a8a8243531f019c5d36"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a1d49b7a0bef07a8a8243531f019c5d36">GraveyardMenu::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdef"><b>Definition</b> grave_menu.cpp:64</div></div>
 <div class="ttc" id="aclassGraveyardMenu_html_a4bb7a3a5caf1463c1af72ef7642e833e"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a4bb7a3a5caf1463c1af72ef7642e833e">GraveyardMenu::setShortcutsInactive</a></div><div class="ttdeci">void setShortcutsInactive()</div><div class="ttdef"><b>Definition</b> grave_menu.cpp:87</div></div>
-<div class="ttc" id="aclassGraveyardMenu_html_a54228865360f54cbcc1ec7aad1dbb123"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a54228865360f54cbcc1ec7aad1dbb123">GraveyardMenu::aMoveGraveToBottomLibrary</a></div><div class="ttdeci">QAction * aMoveGraveToBottomLibrary</div><div class="ttdef"><b>Definition</b> grave_menu.h:29</div></div>
-<div class="ttc" id="aclassGraveyardMenu_html_a5495f8b49b56f152572e00fc631471bd"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a5495f8b49b56f152572e00fc631471bd">GraveyardMenu::aMoveGraveToTopLibrary</a></div><div class="ttdeci">QAction * aMoveGraveToTopLibrary</div><div class="ttdef"><b>Definition</b> grave_menu.h:28</div></div>
-<div class="ttc" id="aclassGraveyardMenu_html_a856e105533c153ed310beffd3cb58dbf"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a856e105533c153ed310beffd3cb58dbf">GraveyardMenu::moveGraveMenu</a></div><div class="ttdeci">QMenu * moveGraveMenu</div><div class="ttdef"><b>Definition</b> grave_menu.h:25</div></div>
+<div class="ttc" id="aclassGraveyardMenu_html_a54228865360f54cbcc1ec7aad1dbb123"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a54228865360f54cbcc1ec7aad1dbb123">GraveyardMenu::aMoveGraveToBottomLibrary</a></div><div class="ttdeci">QAction * aMoveGraveToBottomLibrary</div><div class="ttdef"><b>Definition</b> grave_menu.h:35</div></div>
+<div class="ttc" id="aclassGraveyardMenu_html_a5495f8b49b56f152572e00fc631471bd"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a5495f8b49b56f152572e00fc631471bd">GraveyardMenu::aMoveGraveToTopLibrary</a></div><div class="ttdeci">QAction * aMoveGraveToTopLibrary</div><div class="ttdef"><b>Definition</b> grave_menu.h:34</div></div>
+<div class="ttc" id="aclassGraveyardMenu_html_a856e105533c153ed310beffd3cb58dbf"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a856e105533c153ed310beffd3cb58dbf">GraveyardMenu::moveGraveMenu</a></div><div class="ttdeci">QMenu * moveGraveMenu</div><div class="ttdef"><b>Definition</b> grave_menu.h:31</div></div>
 <div class="ttc" id="aclassGraveyardMenu_html_a9c89b06caef91ca24e91b24bbbac35dc"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#a9c89b06caef91ca24e91b24bbbac35dc">GraveyardMenu::createMoveActions</a></div><div class="ttdeci">void createMoveActions()</div><div class="ttdef"><b>Definition</b> grave_menu.cpp:35</div></div>
 <div class="ttc" id="aclassGraveyardMenu_html_aaeeece8f7998876a633b79a1a4312c6e"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#aaeeece8f7998876a633b79a1a4312c6e">GraveyardMenu::newPlayerActionCreated</a></div><div class="ttdeci">void newPlayerActionCreated(QAction *action)</div></div>
 <div class="ttc" id="aclassGraveyardMenu_html_abfaf3f654546ee67293955f528819e24"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#abfaf3f654546ee67293955f528819e24">GraveyardMenu::setShortcutsActive</a></div><div class="ttdeci">void setShortcutsActive()</div><div class="ttdef"><b>Definition</b> grave_menu.cpp:80</div></div>
-<div class="ttc" id="aclassGraveyardMenu_html_acc63e27e05287f8a13adf2dce6e6e450"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#acc63e27e05287f8a13adf2dce6e6e450">GraveyardMenu::aMoveGraveToRfg</a></div><div class="ttdeci">QAction * aMoveGraveToRfg</div><div class="ttdef"><b>Definition</b> grave_menu.h:31</div></div>
-<div class="ttc" id="aclassPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition</b> player.h:59</div></div>
-<div class="ttc" id="aclassTearOffMenu_html"><div class="ttname"><a href="../../de/d53/classTearOffMenu.html">TearOffMenu</a></div><div class="ttdef"><b>Definition</b> tearoff_menu.h:8</div></div>
+<div class="ttc" id="aclassGraveyardMenu_html_acc63e27e05287f8a13adf2dce6e6e450"><div class="ttname"><a href="../../d2/d73/classGraveyardMenu.html#acc63e27e05287f8a13adf2dce6e6e450">GraveyardMenu::aMoveGraveToRfg</a></div><div class="ttdeci">QAction * aMoveGraveToRfg</div><div class="ttdef"><b>Definition</b> grave_menu.h:37</div></div>
+<div class="ttc" id="aclassPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition</b> player.h:65</div></div>
+<div class="ttc" id="aclassTearOffMenu_html"><div class="ttname"><a href="../../de/d53/classTearOffMenu.html">TearOffMenu</a></div><div class="ttdef"><b>Definition</b> tearoff_menu.h:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

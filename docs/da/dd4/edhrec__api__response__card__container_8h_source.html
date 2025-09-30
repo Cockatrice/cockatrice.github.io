@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,99 +108,100 @@ $(document).ready(function(){initNavTree('da/dd4/edhrec__api__response__card__co
   <div class="headertitle"><div class="title">edhrec_api_response_card_container.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../da/dd4/edhrec__api__response__card__container_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef CONTAINER_ENTRY_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define CONTAINER_ENTRY_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/da8/edhrec__api__response__card__list_8h.html">edhrec_api_response_card_list.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="../../dc/deb/edhrec__commander__api__response__commander__details_8h.html">edhrec_commander_api_response_commander_details.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QDebug&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QJsonArray&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QJsonObject&gt;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QVector&gt;</span></div>
+<a href="../../da/dd4/edhrec__api__response__card__container_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef CONTAINER_ENTRY_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define CONTAINER_ENTRY_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/da8/edhrec__api__response__card__list_8h.html">edhrec_api_response_card_list.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="../../dc/deb/edhrec__commander__api__response__commander__details_8h.html">edhrec_commander_api_response_commander_details.h</a>&quot;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html">   13</a></span><span class="keyword">class </span><a class="code hl_class" href="../../db/d43/classEdhrecApiResponseCardContainer.html">EdhrecApiResponseCardContainer</a></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="comment">// Constructor</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a8f4ddb8bf5bbf354f14ca056389853ae">   17</a></span>    <a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a8f4ddb8bf5bbf354f14ca056389853ae">EdhrecApiResponseCardContainer</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QDebug&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QJsonArray&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;QJsonObject&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;QVector&gt;</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="comment">// Parse deck-related data from JSON</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#aac118fd5c07e81a35e22a9fe37683744">fromJson</a>(<span class="keyword">const</span> QJsonObject &amp;json);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="comment">// Debug method for logging</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a23916c7e95234ecb77b5115a21711be1">debugPrint</a>() <span class="keyword">const</span>;</div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html">   19</a></span><span class="keyword">class </span><a class="code hl_class" href="../../db/d43/classEdhrecApiResponseCardContainer.html">EdhrecApiResponseCardContainer</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="comment">// Constructor</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a8f4ddb8bf5bbf354f14ca056389853ae">   23</a></span>    <a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a8f4ddb8bf5bbf354f14ca056389853ae">EdhrecApiResponseCardContainer</a>() = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="comment">// Getter methods for deck container</span></div>
-<div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af363ae0ea32d703826236e6197d78397">   26</a></span>    <span class="keyword">const</span> QString &amp;<a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af363ae0ea32d703826236e6197d78397">getDescription</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a1ebabc759c289829be940d83c8ee86af">description</a>;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    }</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="comment">// Parse deck-related data from JSON</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#aac118fd5c07e81a35e22a9fe37683744">fromJson</a>(<span class="keyword">const</span> QJsonObject &amp;json);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">// Debug method for logging</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a23916c7e95234ecb77b5115a21711be1">debugPrint</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="comment">// Getter methods for deck container</span></div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af363ae0ea32d703826236e6197d78397">   32</a></span>    <span class="keyword">const</span> QString &amp;<a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af363ae0ea32d703826236e6197d78397">getDescription</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a1ebabc759c289829be940d83c8ee86af">description</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00030" data-start="{" data-end="}">
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#aa0840b4bd516b8e24e2a6a790244a2f6">   30</a></span>    <span class="keyword">const</span> QVector&lt;QJsonObject&gt; &amp;<a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#aa0840b4bd516b8e24e2a6a790244a2f6">getBreadcrumb</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af84298c9528f7eb85e70a7399807ed55">breadcrumb</a>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    }</div>
+<div class="foldopen" id="foldopen00036" data-start="{" data-end="}">
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#aa0840b4bd516b8e24e2a6a790244a2f6">   36</a></span>    <span class="keyword">const</span> QVector&lt;QJsonObject&gt; &amp;<a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#aa0840b4bd516b8e24e2a6a790244a2f6">getBreadcrumb</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af84298c9528f7eb85e70a7399807ed55">breadcrumb</a>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a98b70295486faa9739b1379462e41118">   34</a></span>    <span class="keyword">const</span> <a class="code hl_class" href="../../d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html">EdhrecCommanderApiResponseCommanderDetails</a> &amp;<a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a98b70295486faa9739b1379462e41118">getCommanderDetails</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a4906a6ab63139717c9f192a54806da39">card</a>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a98b70295486faa9739b1379462e41118">   40</a></span>    <span class="keyword">const</span> <a class="code hl_class" href="../../d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html">EdhrecCommanderApiResponseCommanderDetails</a> &amp;<a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a98b70295486faa9739b1379462e41118">getCommanderDetails</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a4906a6ab63139717c9f192a54806da39">card</a>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00038" data-start="{" data-end="}">
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a30014e7ff904d73ba0e49d304c6d9c78">   38</a></span>    <span class="keyword">const</span> QVector&lt;EdhrecApiResponseCardList&gt; &amp;<a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a30014e7ff904d73ba0e49d304c6d9c78">getCardlists</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a9bff60d36e0917b3ca403df870bafa6c">cardlists</a>;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    }</div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a30014e7ff904d73ba0e49d304c6d9c78">   44</a></span>    <span class="keyword">const</span> QVector&lt;EdhrecApiResponseCardList&gt; &amp;<a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a30014e7ff904d73ba0e49d304c6d9c78">getCardlists</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a9bff60d36e0917b3ca403df870bafa6c">cardlists</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a8deb5c334a6c620f259d6770ac989785">   42</a></span>    <span class="keyword">const</span> QString &amp;<a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a8deb5c334a6c620f259d6770ac989785">getKeywords</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8">keywords</a>;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
+<div class="foldopen" id="foldopen00048" data-start="{" data-end="}">
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a8deb5c334a6c620f259d6770ac989785">   48</a></span>    <span class="keyword">const</span> QString &amp;<a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a8deb5c334a6c620f259d6770ac989785">getKeywords</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8">keywords</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00046" data-start="{" data-end="}">
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#aac70c4ef2aae1a663d74c4c5f8240c09">   46</a></span>    <span class="keyword">const</span> QString &amp;<a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#aac70c4ef2aae1a663d74c4c5f8240c09">getTitle</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af3d024090260ec0052289b5624d1efa8">title</a>;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    }</div>
+<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#aac70c4ef2aae1a663d74c4c5f8240c09">   52</a></span>    <span class="keyword">const</span> QString &amp;<a class="code hl_function" href="../../db/d43/classEdhrecApiResponseCardContainer.html#aac70c4ef2aae1a663d74c4c5f8240c09">getTitle</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af3d024090260ec0052289b5624d1efa8">title</a>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    }</div>
 </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a1ebabc759c289829be940d83c8ee86af">   52</a></span>    QString <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a1ebabc759c289829be940d83c8ee86af">description</a>;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af84298c9528f7eb85e70a7399807ed55">   53</a></span>    QVector&lt;QJsonObject&gt; <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af84298c9528f7eb85e70a7399807ed55">breadcrumb</a>;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a4906a6ab63139717c9f192a54806da39">   54</a></span>    <a class="code hl_class" href="../../d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html">EdhrecCommanderApiResponseCommanderDetails</a> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a4906a6ab63139717c9f192a54806da39">card</a>;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a9bff60d36e0917b3ca403df870bafa6c">   55</a></span>    QVector&lt;EdhrecApiResponseCardList&gt; <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a9bff60d36e0917b3ca403df870bafa6c">cardlists</a>;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8">   56</a></span>    QString <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8">keywords</a>;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af3d024090260ec0052289b5624d1efa8">   57</a></span>    QString <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af3d024090260ec0052289b5624d1efa8">title</a>;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>};</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a1ebabc759c289829be940d83c8ee86af">   58</a></span>    QString <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a1ebabc759c289829be940d83c8ee86af">description</a>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af84298c9528f7eb85e70a7399807ed55">   59</a></span>    QVector&lt;QJsonObject&gt; <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af84298c9528f7eb85e70a7399807ed55">breadcrumb</a>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a4906a6ab63139717c9f192a54806da39">   60</a></span>    <a class="code hl_class" href="../../d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html">EdhrecCommanderApiResponseCommanderDetails</a> <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a4906a6ab63139717c9f192a54806da39">card</a>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a9bff60d36e0917b3ca403df870bafa6c">   61</a></span>    QVector&lt;EdhrecApiResponseCardList&gt; <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a9bff60d36e0917b3ca403df870bafa6c">cardlists</a>;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8">   62</a></span>    QString <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8">keywords</a>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af3d024090260ec0052289b5624d1efa8">   63</a></span>    QString <a class="code hl_variable" href="../../db/d43/classEdhrecApiResponseCardContainer.html#af3d024090260ec0052289b5624d1efa8">title</a>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>};</div>
 </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#endif </span><span class="comment">// CONTAINER_ENTRY_H</span></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html">EdhrecApiResponseCardContainer</a></div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:14</div></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a1ebabc759c289829be940d83c8ee86af"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a1ebabc759c289829be940d83c8ee86af">EdhrecApiResponseCardContainer::description</a></div><div class="ttdeci">QString description</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:52</div></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#endif </span><span class="comment">// CONTAINER_ENTRY_H</span></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html">EdhrecApiResponseCardContainer</a></div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:20</div></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a1ebabc759c289829be940d83c8ee86af"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a1ebabc759c289829be940d83c8ee86af">EdhrecApiResponseCardContainer::description</a></div><div class="ttdeci">QString description</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:58</div></div>
 <div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a23916c7e95234ecb77b5115a21711be1"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a23916c7e95234ecb77b5115a21711be1">EdhrecApiResponseCardContainer::debugPrint</a></div><div class="ttdeci">void debugPrint() const</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.cpp:32</div></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a30014e7ff904d73ba0e49d304c6d9c78"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a30014e7ff904d73ba0e49d304c6d9c78">EdhrecApiResponseCardContainer::getCardlists</a></div><div class="ttdeci">const QVector&lt; EdhrecApiResponseCardList &gt; &amp; getCardlists() const</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:38</div></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a46895f00f585e081ed68b74b9b33d1d8"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8">EdhrecApiResponseCardContainer::keywords</a></div><div class="ttdeci">QString keywords</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:56</div></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a4906a6ab63139717c9f192a54806da39"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a4906a6ab63139717c9f192a54806da39">EdhrecApiResponseCardContainer::card</a></div><div class="ttdeci">EdhrecCommanderApiResponseCommanderDetails card</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:54</div></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a8deb5c334a6c620f259d6770ac989785"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a8deb5c334a6c620f259d6770ac989785">EdhrecApiResponseCardContainer::getKeywords</a></div><div class="ttdeci">const QString &amp; getKeywords() const</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:42</div></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a30014e7ff904d73ba0e49d304c6d9c78"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a30014e7ff904d73ba0e49d304c6d9c78">EdhrecApiResponseCardContainer::getCardlists</a></div><div class="ttdeci">const QVector&lt; EdhrecApiResponseCardList &gt; &amp; getCardlists() const</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:44</div></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a46895f00f585e081ed68b74b9b33d1d8"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8">EdhrecApiResponseCardContainer::keywords</a></div><div class="ttdeci">QString keywords</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:62</div></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a4906a6ab63139717c9f192a54806da39"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a4906a6ab63139717c9f192a54806da39">EdhrecApiResponseCardContainer::card</a></div><div class="ttdeci">EdhrecCommanderApiResponseCommanderDetails card</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:60</div></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a8deb5c334a6c620f259d6770ac989785"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a8deb5c334a6c620f259d6770ac989785">EdhrecApiResponseCardContainer::getKeywords</a></div><div class="ttdeci">const QString &amp; getKeywords() const</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:48</div></div>
 <div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a8f4ddb8bf5bbf354f14ca056389853ae"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a8f4ddb8bf5bbf354f14ca056389853ae">EdhrecApiResponseCardContainer::EdhrecApiResponseCardContainer</a></div><div class="ttdeci">EdhrecApiResponseCardContainer()=default</div></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a98b70295486faa9739b1379462e41118"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a98b70295486faa9739b1379462e41118">EdhrecApiResponseCardContainer::getCommanderDetails</a></div><div class="ttdeci">const EdhrecCommanderApiResponseCommanderDetails &amp; getCommanderDetails() const</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:34</div></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a9bff60d36e0917b3ca403df870bafa6c"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a9bff60d36e0917b3ca403df870bafa6c">EdhrecApiResponseCardContainer::cardlists</a></div><div class="ttdeci">QVector&lt; EdhrecApiResponseCardList &gt; cardlists</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:55</div></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_aa0840b4bd516b8e24e2a6a790244a2f6"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#aa0840b4bd516b8e24e2a6a790244a2f6">EdhrecApiResponseCardContainer::getBreadcrumb</a></div><div class="ttdeci">const QVector&lt; QJsonObject &gt; &amp; getBreadcrumb() const</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:30</div></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a98b70295486faa9739b1379462e41118"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a98b70295486faa9739b1379462e41118">EdhrecApiResponseCardContainer::getCommanderDetails</a></div><div class="ttdeci">const EdhrecCommanderApiResponseCommanderDetails &amp; getCommanderDetails() const</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:40</div></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_a9bff60d36e0917b3ca403df870bafa6c"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#a9bff60d36e0917b3ca403df870bafa6c">EdhrecApiResponseCardContainer::cardlists</a></div><div class="ttdeci">QVector&lt; EdhrecApiResponseCardList &gt; cardlists</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:61</div></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_aa0840b4bd516b8e24e2a6a790244a2f6"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#aa0840b4bd516b8e24e2a6a790244a2f6">EdhrecApiResponseCardContainer::getBreadcrumb</a></div><div class="ttdeci">const QVector&lt; QJsonObject &gt; &amp; getBreadcrumb() const</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:36</div></div>
 <div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_aac118fd5c07e81a35e22a9fe37683744"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#aac118fd5c07e81a35e22a9fe37683744">EdhrecApiResponseCardContainer::fromJson</a></div><div class="ttdeci">void fromJson(const QJsonObject &amp;json)</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.cpp:7</div></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_aac70c4ef2aae1a663d74c4c5f8240c09"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#aac70c4ef2aae1a663d74c4c5f8240c09">EdhrecApiResponseCardContainer::getTitle</a></div><div class="ttdeci">const QString &amp; getTitle() const</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:46</div></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_af363ae0ea32d703826236e6197d78397"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#af363ae0ea32d703826236e6197d78397">EdhrecApiResponseCardContainer::getDescription</a></div><div class="ttdeci">const QString &amp; getDescription() const</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:26</div></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_af3d024090260ec0052289b5624d1efa8"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#af3d024090260ec0052289b5624d1efa8">EdhrecApiResponseCardContainer::title</a></div><div class="ttdeci">QString title</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:57</div></div>
-<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_af84298c9528f7eb85e70a7399807ed55"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#af84298c9528f7eb85e70a7399807ed55">EdhrecApiResponseCardContainer::breadcrumb</a></div><div class="ttdeci">QVector&lt; QJsonObject &gt; breadcrumb</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:53</div></div>
-<div class="ttc" id="aclassEdhrecCommanderApiResponseCommanderDetails_html"><div class="ttname"><a href="../../d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html">EdhrecCommanderApiResponseCommanderDetails</a></div><div class="ttdef"><b>Definition</b> edhrec_commander_api_response_commander_details.h:12</div></div>
-<div class="ttc" id="aedhrec__api__response__card__list_8h_html"><div class="ttname"><a href="../../d9/da8/edhrec__api__response__card__list_8h.html">edhrec_api_response_card_list.h</a></div></div>
-<div class="ttc" id="aedhrec__commander__api__response__commander__details_8h_html"><div class="ttname"><a href="../../dc/deb/edhrec__commander__api__response__commander__details_8h.html">edhrec_commander_api_response_commander_details.h</a></div></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_aac70c4ef2aae1a663d74c4c5f8240c09"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#aac70c4ef2aae1a663d74c4c5f8240c09">EdhrecApiResponseCardContainer::getTitle</a></div><div class="ttdeci">const QString &amp; getTitle() const</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:52</div></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_af363ae0ea32d703826236e6197d78397"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#af363ae0ea32d703826236e6197d78397">EdhrecApiResponseCardContainer::getDescription</a></div><div class="ttdeci">const QString &amp; getDescription() const</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:32</div></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_af3d024090260ec0052289b5624d1efa8"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#af3d024090260ec0052289b5624d1efa8">EdhrecApiResponseCardContainer::title</a></div><div class="ttdeci">QString title</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:63</div></div>
+<div class="ttc" id="aclassEdhrecApiResponseCardContainer_html_af84298c9528f7eb85e70a7399807ed55"><div class="ttname"><a href="../../db/d43/classEdhrecApiResponseCardContainer.html#af84298c9528f7eb85e70a7399807ed55">EdhrecApiResponseCardContainer::breadcrumb</a></div><div class="ttdeci">QVector&lt; QJsonObject &gt; breadcrumb</div><div class="ttdef"><b>Definition</b> edhrec_api_response_card_container.h:59</div></div>
+<div class="ttc" id="aclassEdhrecCommanderApiResponseCommanderDetails_html"><div class="ttname"><a href="../../d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html">EdhrecCommanderApiResponseCommanderDetails</a></div><div class="ttdef"><b>Definition</b> edhrec_commander_api_response_commander_details.h:18</div></div>
+<div class="ttc" id="aedhrec__api__response__card__list_8h_html"><div class="ttname"><a href="../../d9/da8/edhrec__api__response__card__list_8h.html">edhrec_api_response_card_list.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
+<div class="ttc" id="aedhrec__commander__api__response__commander__details_8h_html"><div class="ttname"><a href="../../dc/deb/edhrec__commander__api__response__commander__details_8h.html">edhrec_commander_api_response_commander_details.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

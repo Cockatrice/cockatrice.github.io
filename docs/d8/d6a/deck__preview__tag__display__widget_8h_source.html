@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,85 +108,86 @@ $(document).ready(function(){initNavTree('d8/d6a/deck__preview__tag__display__wi
   <div class="headertitle"><div class="title">deck_preview_tag_display_widget.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d8/d6a/deck__preview__tag__display__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef DECK_PREVIEW_TAG_DISPLAY_WIDGET_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define DECK_PREVIEW_TAG_DISPLAY_WIDGET_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QLabel&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QPushButton&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e">    9</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e">TagState</a></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <a class="code hl_enumvalue" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea7dc39dc840c9dbdefd059f8d96226d11">NotSelected</a>,</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <a class="code hl_enumvalue" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea91b442d385b54e1418d81adc34871053">Selected</a>,</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_enumvalue" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea122180683375b33fd7171ebba4660f80">Excluded</a></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>};</div>
+<a href="../../d8/d6a/deck__preview__tag__display__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef DECK_PREVIEW_TAG_DISPLAY_WIDGET_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define DECK_PREVIEW_TAG_DISPLAY_WIDGET_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QLabel&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QPushButton&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e">   15</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e">TagState</a></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_enumvalue" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea7dc39dc840c9dbdefd059f8d96226d11">NotSelected</a>,</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_enumvalue" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea91b442d385b54e1418d81adc34871053">Selected</a>,</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_enumvalue" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea122180683375b33fd7171ebba4660f80">Excluded</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>};</div>
 </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html">   16</a></span><span class="keyword">class </span><a class="code hl_class" href="../../df/dde/classDeckPreviewTagDisplayWidget.html">DeckPreviewTagDisplayWidget</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    Q_OBJECT</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../df/dde/classDeckPreviewTagDisplayWidget.html">DeckPreviewTagDisplayWidget</a>(QWidget *parent = <span class="keyword">nullptr</span>, <span class="keyword">const</span> QString &amp;<a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a68ab032413ee1951f7dee03e33a6f743">tagName</a> = <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    QSize <a class="code hl_function" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#af6d782c144831fa8b1d0abf1a8f6232f">sizeHint</a>() <span class="keyword">const override</span>;</div>
-<div class="foldopen" id="foldopen00028" data-start="{" data-end="}">
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a09fc05f51f054a3fb9c01794164e6138">   28</a></span>    QString <a class="code hl_function" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a09fc05f51f054a3fb9c01794164e6138">getTagName</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a68ab032413ee1951f7dee03e33a6f743">tagName</a>;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html">   22</a></span><span class="keyword">class </span><a class="code hl_class" href="../../df/dde/classDeckPreviewTagDisplayWidget.html">DeckPreviewTagDisplayWidget</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    Q_OBJECT</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../df/dde/classDeckPreviewTagDisplayWidget.html">DeckPreviewTagDisplayWidget</a>(QWidget *parent = <span class="keyword">nullptr</span>, <span class="keyword">const</span> QString &amp;<a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a68ab032413ee1951f7dee03e33a6f743">tagName</a> = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    QSize <a class="code hl_function" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#af6d782c144831fa8b1d0abf1a8f6232f">sizeHint</a>() <span class="keyword">const override</span>;</div>
+<div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a09fc05f51f054a3fb9c01794164e6138">   34</a></span>    QString <a class="code hl_function" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a09fc05f51f054a3fb9c01794164e6138">getTagName</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a68ab032413ee1951f7dee03e33a6f743">tagName</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a30a2df05c121c88353541cd41193fe1c">   32</a></span>    <a class="code hl_enumeration" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e">TagState</a> <a class="code hl_function" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a30a2df05c121c88353541cd41193fe1c">getState</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#ab04df61aa41c7def20cecb493ca025e3">state</a>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
-</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a08606f7c94da80f97fc61a718f137e1d">   37</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a08606f7c94da80f97fc61a718f137e1d">setState</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e">TagState</a> newState)</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    {</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#ab04df61aa41c7def20cecb493ca025e3">state</a> = newState;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        update();</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    };</div>
+<div class="foldopen" id="foldopen00038" data-start="{" data-end="}">
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a30a2df05c121c88353541cd41193fe1c">   38</a></span>    <a class="code hl_enumeration" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e">TagState</a> <a class="code hl_function" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a30a2df05c121c88353541cd41193fe1c">getState</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#ab04df61aa41c7def20cecb493ca025e3">state</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    }</div>
 </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>signals:</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#af927dcc21afdf77ddb96b67466014267">   47</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#af927dcc21afdf77ddb96b67466014267">tagClicked</a>();</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#afcc336e5eadf9d2e2746fb6f24fa6f06">   52</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#afcc336e5eadf9d2e2746fb6f24fa6f06">tagClosed</a>();</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a7265133263dd885d7cc00acb1320a4ec">paintEvent</a>(QPaintEvent *event) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a8d1833ffc21a8b1df429940b50486b18">mousePressEvent</a>(QMouseEvent *event) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#aae65282d0825e62a6b82df40deb3ce8e">   68</a></span>    QLabel *<a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#aae65282d0825e62a6b82df40deb3ce8e">tagLabel</a>;         </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#aa08d6ede5b4e6cace7c389c3f73b3c8b">   69</a></span>    QPushButton *<a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#aa08d6ede5b4e6cace7c389c3f73b3c8b">closeButton</a>; </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a68ab032413ee1951f7dee03e33a6f743">   70</a></span>    QString <a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a68ab032413ee1951f7dee03e33a6f743">tagName</a>;          </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#ab04df61aa41c7def20cecb493ca025e3">   71</a></span>    <a class="code hl_enumeration" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e">TagState</a> <a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#ab04df61aa41c7def20cecb493ca025e3">state</a>;           </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>};</div>
+<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a08606f7c94da80f97fc61a718f137e1d">   43</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a08606f7c94da80f97fc61a718f137e1d">setState</a>(<span class="keyword">const</span> <a class="code hl_enumeration" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e">TagState</a> newState)</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#ab04df61aa41c7def20cecb493ca025e3">state</a> = newState;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        update();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    };</div>
 </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">#endif </span><span class="comment">// DECK_PREVIEW_TAG_DISPLAY_WIDGET_H</span></div>
-<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html">DeckPreviewTagDisplayWidget</a></div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:17</div></div>
-<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_a08606f7c94da80f97fc61a718f137e1d"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a08606f7c94da80f97fc61a718f137e1d">DeckPreviewTagDisplayWidget::setState</a></div><div class="ttdeci">void setState(const TagState newState)</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:37</div></div>
-<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_a09fc05f51f054a3fb9c01794164e6138"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a09fc05f51f054a3fb9c01794164e6138">DeckPreviewTagDisplayWidget::getTagName</a></div><div class="ttdeci">QString getTagName() const</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:28</div></div>
-<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_a30a2df05c121c88353541cd41193fe1c"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a30a2df05c121c88353541cd41193fe1c">DeckPreviewTagDisplayWidget::getState</a></div><div class="ttdeci">TagState getState() const</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:32</div></div>
-<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_a68ab032413ee1951f7dee03e33a6f743"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a68ab032413ee1951f7dee03e33a6f743">DeckPreviewTagDisplayWidget::tagName</a></div><div class="ttdeci">QString tagName</div><div class="ttdoc">The name of the tag.</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:70</div></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>signals:</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#af927dcc21afdf77ddb96b67466014267">   53</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#af927dcc21afdf77ddb96b67466014267">tagClicked</a>();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#afcc336e5eadf9d2e2746fb6f24fa6f06">   58</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#afcc336e5eadf9d2e2746fb6f24fa6f06">tagClosed</a>();</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a7265133263dd885d7cc00acb1320a4ec">paintEvent</a>(QPaintEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a8d1833ffc21a8b1df429940b50486b18">mousePressEvent</a>(QMouseEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#aae65282d0825e62a6b82df40deb3ce8e">   74</a></span>    QLabel *<a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#aae65282d0825e62a6b82df40deb3ce8e">tagLabel</a>;         </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#aa08d6ede5b4e6cace7c389c3f73b3c8b">   75</a></span>    QPushButton *<a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#aa08d6ede5b4e6cace7c389c3f73b3c8b">closeButton</a>; </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a68ab032413ee1951f7dee03e33a6f743">   76</a></span>    QString <a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a68ab032413ee1951f7dee03e33a6f743">tagName</a>;          </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#ab04df61aa41c7def20cecb493ca025e3">   77</a></span>    <a class="code hl_enumeration" href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e">TagState</a> <a class="code hl_variable" href="../../df/dde/classDeckPreviewTagDisplayWidget.html#ab04df61aa41c7def20cecb493ca025e3">state</a>;           </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>};</div>
+</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#endif </span><span class="comment">// DECK_PREVIEW_TAG_DISPLAY_WIDGET_H</span></div>
+<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html">DeckPreviewTagDisplayWidget</a></div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:23</div></div>
+<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_a08606f7c94da80f97fc61a718f137e1d"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a08606f7c94da80f97fc61a718f137e1d">DeckPreviewTagDisplayWidget::setState</a></div><div class="ttdeci">void setState(const TagState newState)</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:43</div></div>
+<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_a09fc05f51f054a3fb9c01794164e6138"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a09fc05f51f054a3fb9c01794164e6138">DeckPreviewTagDisplayWidget::getTagName</a></div><div class="ttdeci">QString getTagName() const</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:34</div></div>
+<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_a30a2df05c121c88353541cd41193fe1c"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a30a2df05c121c88353541cd41193fe1c">DeckPreviewTagDisplayWidget::getState</a></div><div class="ttdeci">TagState getState() const</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:38</div></div>
+<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_a68ab032413ee1951f7dee03e33a6f743"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a68ab032413ee1951f7dee03e33a6f743">DeckPreviewTagDisplayWidget::tagName</a></div><div class="ttdeci">QString tagName</div><div class="ttdoc">The name of the tag.</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:76</div></div>
 <div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_a7265133263dd885d7cc00acb1320a4ec"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a7265133263dd885d7cc00acb1320a4ec">DeckPreviewTagDisplayWidget::paintEvent</a></div><div class="ttdeci">void paintEvent(QPaintEvent *event) override</div><div class="ttdoc">Custom paint event for drawing the widget.</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.cpp:69</div></div>
 <div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_a8d1833ffc21a8b1df429940b50486b18"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#a8d1833ffc21a8b1df429940b50486b18">DeckPreviewTagDisplayWidget::mousePressEvent</a></div><div class="ttdeci">void mousePressEvent(QMouseEvent *event) override</div><div class="ttdoc">Custom mouse press event handler.</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.cpp:49</div></div>
-<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_aa08d6ede5b4e6cace7c389c3f73b3c8b"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#aa08d6ede5b4e6cace7c389c3f73b3c8b">DeckPreviewTagDisplayWidget::closeButton</a></div><div class="ttdeci">QPushButton * closeButton</div><div class="ttdoc">Button to close/remove the tag.</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:69</div></div>
-<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_aae65282d0825e62a6b82df40deb3ce8e"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#aae65282d0825e62a6b82df40deb3ce8e">DeckPreviewTagDisplayWidget::tagLabel</a></div><div class="ttdeci">QLabel * tagLabel</div><div class="ttdoc">Label for displaying the tag name.</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:68</div></div>
-<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_ab04df61aa41c7def20cecb493ca025e3"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#ab04df61aa41c7def20cecb493ca025e3">DeckPreviewTagDisplayWidget::state</a></div><div class="ttdeci">TagState state</div><div class="ttdoc">Indicates whether the tag is unselected, selected, or excluded.</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:71</div></div>
+<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_aa08d6ede5b4e6cace7c389c3f73b3c8b"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#aa08d6ede5b4e6cace7c389c3f73b3c8b">DeckPreviewTagDisplayWidget::closeButton</a></div><div class="ttdeci">QPushButton * closeButton</div><div class="ttdoc">Button to close/remove the tag.</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:75</div></div>
+<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_aae65282d0825e62a6b82df40deb3ce8e"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#aae65282d0825e62a6b82df40deb3ce8e">DeckPreviewTagDisplayWidget::tagLabel</a></div><div class="ttdeci">QLabel * tagLabel</div><div class="ttdoc">Label for displaying the tag name.</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:74</div></div>
+<div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_ab04df61aa41c7def20cecb493ca025e3"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#ab04df61aa41c7def20cecb493ca025e3">DeckPreviewTagDisplayWidget::state</a></div><div class="ttdeci">TagState state</div><div class="ttdoc">Indicates whether the tag is unselected, selected, or excluded.</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:77</div></div>
 <div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_af6d782c144831fa8b1d0abf1a8f6232f"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#af6d782c144831fa8b1d0abf1a8f6232f">DeckPreviewTagDisplayWidget::sizeHint</a></div><div class="ttdeci">QSize sizeHint() const override</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.cpp:38</div></div>
 <div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_af927dcc21afdf77ddb96b67466014267"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#af927dcc21afdf77ddb96b67466014267">DeckPreviewTagDisplayWidget::tagClicked</a></div><div class="ttdeci">void tagClicked()</div><div class="ttdoc">Emitted when the tag is clicked.</div></div>
 <div class="ttc" id="aclassDeckPreviewTagDisplayWidget_html_afcc336e5eadf9d2e2746fb6f24fa6f06"><div class="ttname"><a href="../../df/dde/classDeckPreviewTagDisplayWidget.html#afcc336e5eadf9d2e2746fb6f24fa6f06">DeckPreviewTagDisplayWidget::tagClosed</a></div><div class="ttdeci">void tagClosed()</div><div class="ttdoc">Emitted when the close button is clicked.</div></div>
-<div class="ttc" id="adeck__preview__tag__display__widget_8h_html_aec9c78c91e600305a61ee817a2c2a93e"><div class="ttname"><a href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e">TagState</a></div><div class="ttdeci">TagState</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:10</div></div>
+<div class="ttc" id="adeck__preview__tag__display__widget_8h_html_aec9c78c91e600305a61ee817a2c2a93e"><div class="ttname"><a href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e">TagState</a></div><div class="ttdeci">TagState</div><div class="ttdef"><b>Definition</b> deck_preview_tag_display_widget.h:16</div></div>
 <div class="ttc" id="adeck__preview__tag__display__widget_8h_html_aec9c78c91e600305a61ee817a2c2a93ea122180683375b33fd7171ebba4660f80"><div class="ttname"><a href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea122180683375b33fd7171ebba4660f80">TagState::Excluded</a></div><div class="ttdeci">@ Excluded</div></div>
 <div class="ttc" id="adeck__preview__tag__display__widget_8h_html_aec9c78c91e600305a61ee817a2c2a93ea7dc39dc840c9dbdefd059f8d96226d11"><div class="ttname"><a href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea7dc39dc840c9dbdefd059f8d96226d11">TagState::NotSelected</a></div><div class="ttdeci">@ NotSelected</div></div>
 <div class="ttc" id="adeck__preview__tag__display__widget_8h_html_aec9c78c91e600305a61ee817a2c2a93ea91b442d385b54e1418d81adc34871053"><div class="ttname"><a href="../../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea91b442d385b54e1418d81adc34871053">TagState::Selected</a></div><div class="ttdeci">@ Selected</div></div>

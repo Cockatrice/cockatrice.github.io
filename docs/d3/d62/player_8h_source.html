@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,422 +108,423 @@ $(document).ready(function(){initNavTree('d3/d62/player_8h_source.html','../../'
   <div class="headertitle"><div class="title">player.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d3/d62/player_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PLAYER_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PLAYER_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../../card/card_info.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;../../filters/filter_string.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;../../interface/tearoff_menu.h&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;../board/abstract_graphics_item.h&quot;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;../dialogs/dlg_create_token.h&quot;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="../../d1/d74/player__menu_8h.html">menu/player_menu.h</a>&quot;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;pb/card_attributes.pb.h&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;pb/game_event.pb.h&quot;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/db7/player__actions_8h.html">player_actions.h</a>&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d9e/player__area_8h.html">player_area.h</a>&quot;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="../../d8/df5/player__event__handler_8h.html">player_event_handler.h</a>&quot;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="../../db/d6e/player__graphics__item_8h.html">player_graphics_item.h</a>&quot;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/d83/player__info_8h.html">player_info.h</a>&quot;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;QInputDialog&gt;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;QLoggingCategory&gt;</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;QMap&gt;</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;QPoint&gt;</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &lt;QTimer&gt;</span></div>
+<a href="../../d3/d62/player_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef PLAYER_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define PLAYER_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;../../card/card_info.h&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;../../filters/filter_string.h&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;../../interface/tearoff_menu.h&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;../board/abstract_graphics_item.h&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;../dialogs/dlg_create_token.h&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;<a class="code" href="../../d1/d74/player__menu_8h.html">menu/player_menu.h</a>&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;pb/card_attributes.pb.h&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;pb/game_event.pb.h&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/db7/player__actions_8h.html">player_actions.h</a>&quot;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d9e/player__area_8h.html">player_area.h</a>&quot;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &quot;<a class="code" href="../../d8/df5/player__event__handler_8h.html">player_event_handler.h</a>&quot;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="../../db/d6e/player__graphics__item_8h.html">player_graphics_item.h</a>&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/d83/player__info_8h.html">player_info.h</a>&quot;</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d3/d62/player_8h.html#a3a0d2e7f7c0157ea70e4e27201c4118d">   24</a></span><span class="keyword">inline</span> <a class="code hl_function" href="../../d3/d62/player_8h.html#a3a0d2e7f7c0157ea70e4e27201c4118d">Q_LOGGING_CATEGORY</a>(PlayerLog, <span class="stringliteral">&quot;player&quot;</span>);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../df/d40/namespacegoogle.html">google</a></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>{</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">namespace </span>protobuf</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">class </span>Message;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>} <span class="comment">// namespace google</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">class </span><a class="code hl_class" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">class </span><a class="code hl_class" href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">class </span><a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">class </span><a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">class </span><a class="code hl_class" href="../../d9/dce/classArrowTarget.html">ArrowTarget</a>;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">class </span><a class="code hl_class" href="../../d5/d45/classCardDatabase.html">CardDatabase</a>;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">class </span><a class="code hl_class" href="../../de/da1/classCardZone.html">CardZone</a>;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">class </span>CommandContainer;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">class </span>DeckLoader;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">class </span>GameCommand;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">class </span>GameEvent;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">class </span><a class="code hl_class" href="../../df/df7/classPlayerInfo.html">PlayerInfo</a>;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">class </span><a class="code hl_class" href="../../de/d38/classPlayerEventHandler.html">PlayerEventHandler</a>;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d23/classPlayerActions.html">PlayerActions</a>;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">class </span><a class="code hl_class" href="../../d7/dd6/classPlayerMenu.html">PlayerMenu</a>;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">class </span>QAction;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">class </span>QMenu;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">class </span>ServerInfo_Arrow;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">class </span>ServerInfo_Counter;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">class </span>ServerInfo_Player;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">class </span>ServerInfo_User;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">class </span><a class="code hl_class" href="../../de/d08/classTabGame.html">TabGame</a>;</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../d3/d62/player_8h.html#aafcdf921bec4b401b05f6c8833ca494b">   56</a></span><span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d3/d62/player_8h.html#aafcdf921bec4b401b05f6c8833ca494b">MAX_TOKENS_PER_DIALOG</a> = 99;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="foldopen" id="foldopen00058" data-start="{" data-end="};">
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html">   58</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> : <span class="keyword">public</span> QObject</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>{</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    Q_OBJECT</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#include &lt;QInputDialog&gt;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#include &lt;QLoggingCategory&gt;</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &lt;QMap&gt;</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#include &lt;QPoint&gt;</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#include &lt;QTimer&gt;</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d3/d62/player_8h.html#a3a0d2e7f7c0157ea70e4e27201c4118d">   30</a></span><span class="keyword">inline</span> <a class="code hl_function" href="../../d3/d62/player_8h.html#a3a0d2e7f7c0157ea70e4e27201c4118d">Q_LOGGING_CATEGORY</a>(PlayerLog, <span class="stringliteral">&quot;player&quot;</span>);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../df/d40/namespacegoogle.html">google</a></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>{</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">namespace </span>protobuf</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>{</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">class </span>Message;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>} <span class="comment">// namespace google</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">class </span><a class="code hl_class" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">class </span><a class="code hl_class" href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">class </span><a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">class </span><a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">class </span><a class="code hl_class" href="../../d9/dce/classArrowTarget.html">ArrowTarget</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">class </span><a class="code hl_class" href="../../d5/d45/classCardDatabase.html">CardDatabase</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">class </span><a class="code hl_class" href="../../de/da1/classCardZone.html">CardZone</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">class </span>CommandContainer;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">class </span>DeckLoader;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">class </span>GameCommand;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">class </span>GameEvent;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">class </span><a class="code hl_class" href="../../df/df7/classPlayerInfo.html">PlayerInfo</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">class </span><a class="code hl_class" href="../../de/d38/classPlayerEventHandler.html">PlayerEventHandler</a>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d23/classPlayerActions.html">PlayerActions</a>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">class </span><a class="code hl_class" href="../../d7/dd6/classPlayerMenu.html">PlayerMenu</a>;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">class </span>QAction;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">class </span>QMenu;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">class </span>ServerInfo_Arrow;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">class </span>ServerInfo_Counter;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">class </span>ServerInfo_Player;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">class </span>ServerInfo_User;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">class </span><a class="code hl_class" href="../../de/d08/classTabGame.html">TabGame</a>;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>signals:</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a547f548efa8a469498ea310fcbe9fd1f">   63</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#a547f548efa8a469498ea310fcbe9fd1f">openDeckEditor</a>(<span class="keyword">const</span> DeckLoader *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ad0a83fdb6f3d25d3897e831b3cd6e9a0">deck</a>);</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ab0361a1fe7642e6548071678afaac68b">   64</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#ab0361a1fe7642e6548071678afaac68b">deckChanged</a>();</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#acf6b51ff8f307bd8e7ff78557fd88d7a">   65</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#acf6b51ff8f307bd8e7ff78557fd88d7a">newCardAdded</a>(<a class="code hl_class" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a> *card);</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a2491702638a41e5c5303d30d47c7a294">   66</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#a2491702638a41e5c5303d30d47c7a294">rearrangeCounters</a>();</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a5f6b778e47a5c821b17cf122dc3ecc12">   67</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#a5f6b778e47a5c821b17cf122dc3ecc12">activeChanged</a>(<span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a983d905fd90661bd69b40d8a1259e156">active</a>);</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a64213f0b556a2df495509b7e34a25412">   68</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#a64213f0b556a2df495509b7e34a25412">concededChanged</a>(<span class="keywordtype">int</span> playerId, <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a54673f6751648b8ae92e02969db2435b">conceded</a>);</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a25f3113434847bc7d249cd4df959b4a8">   69</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#a25f3113434847bc7d249cd4df959b4a8">clearCustomZonesMenu</a>();</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a804aa3bbae4dcf90f0e217baf8951ebf">   70</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#a804aa3bbae4dcf90f0e217baf8951ebf">addViewCustomZoneActionToCustomZoneMenu</a>(QString zoneName);</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#abbdb28c9abd06aa6c3e8243b2d29b6bb">   71</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#abbdb28c9abd06aa6c3e8243b2d29b6bb">resetTopCardMenuActions</a>();</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">public</span> slots:</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d2/d4b/classPlayer.html#a9fd0045af300993b8bc654ad90467760">setActive</a>(<span class="keywordtype">bool</span> _active);</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a>(<span class="keyword">const</span> ServerInfo_User &amp;info, <span class="keywordtype">int</span> _id, <span class="keywordtype">bool</span> _local, <span class="keywordtype">bool</span> _judge, <a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *_parent);</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a2424bd157fd17e43a7b3c627bd76ca95">forwardActionSignalsToEventHandler</a>();</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a8ed544987af18de0e6b2932206bf1186">~Player</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#ad454d65992737fcdcb30119c9bbd8f76">initializeZones</a>();</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a52a6e1aa3661eb89b33c04bb86cf2a27">updateZones</a>();</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#af1dda5581f5f56c61bac0cf07a300bdd">clear</a>();</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a27234df3016f86792f8bbbfb87568184">processPlayerInfo</a>(<span class="keyword">const</span> ServerInfo_Player &amp;info);</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#abc9f2bfac2e7d08b507c86b51d15d4e9">processCardAttachment</a>(<span class="keyword">const</span> ServerInfo_Player &amp;info);</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a04290f06260f17fb39b2db54b05af5c0">addCard</a>(<a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *c);</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#aa405011eb56093c100eab50fbb42f19a">deleteCard</a>(<a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *c);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../d3/d62/player_8h.html#aafcdf921bec4b401b05f6c8833ca494b">   62</a></span><span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d3/d62/player_8h.html#aafcdf921bec4b401b05f6c8833ca494b">MAX_TOKENS_PER_DIALOG</a> = 99;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="foldopen" id="foldopen00064" data-start="{" data-end="};">
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html">   64</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>{</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    Q_OBJECT</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>signals:</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a547f548efa8a469498ea310fcbe9fd1f">   69</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#a547f548efa8a469498ea310fcbe9fd1f">openDeckEditor</a>(<span class="keyword">const</span> DeckLoader *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ad0a83fdb6f3d25d3897e831b3cd6e9a0">deck</a>);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ab0361a1fe7642e6548071678afaac68b">   70</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#ab0361a1fe7642e6548071678afaac68b">deckChanged</a>();</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#acf6b51ff8f307bd8e7ff78557fd88d7a">   71</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#acf6b51ff8f307bd8e7ff78557fd88d7a">newCardAdded</a>(<a class="code hl_class" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a> *card);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a2491702638a41e5c5303d30d47c7a294">   72</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#a2491702638a41e5c5303d30d47c7a294">rearrangeCounters</a>();</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a5f6b778e47a5c821b17cf122dc3ecc12">   73</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#a5f6b778e47a5c821b17cf122dc3ecc12">activeChanged</a>(<span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a983d905fd90661bd69b40d8a1259e156">active</a>);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a64213f0b556a2df495509b7e34a25412">   74</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#a64213f0b556a2df495509b7e34a25412">concededChanged</a>(<span class="keywordtype">int</span> playerId, <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a54673f6751648b8ae92e02969db2435b">conceded</a>);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a25f3113434847bc7d249cd4df959b4a8">   75</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#a25f3113434847bc7d249cd4df959b4a8">clearCustomZonesMenu</a>();</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a804aa3bbae4dcf90f0e217baf8951ebf">   76</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#a804aa3bbae4dcf90f0e217baf8951ebf">addViewCustomZoneActionToCustomZoneMenu</a>(QString zoneName);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#abbdb28c9abd06aa6c3e8243b2d29b6bb">   77</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d2/d4b/classPlayer.html#abbdb28c9abd06aa6c3e8243b2d29b6bb">resetTopCardMenuActions</a>();</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="keyword">public</span> slots:</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d2/d4b/classPlayer.html#a9fd0045af300993b8bc654ad90467760">setActive</a>(<span class="keywordtype">bool</span> _active);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <a class="code hl_class" href="../../d2/d4b/classPlayer.html">Player</a>(<span class="keyword">const</span> ServerInfo_User &amp;info, <span class="keywordtype">int</span> _id, <span class="keywordtype">bool</span> _local, <span class="keywordtype">bool</span> _judge, <a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *_parent);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a2424bd157fd17e43a7b3c627bd76ca95">forwardActionSignalsToEventHandler</a>();</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a8ed544987af18de0e6b2932206bf1186">~Player</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#ad454d65992737fcdcb30119c9bbd8f76">initializeZones</a>();</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a52a6e1aa3661eb89b33c04bb86cf2a27">updateZones</a>();</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#af1dda5581f5f56c61bac0cf07a300bdd">clear</a>();</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#ae47d8c6dd5994f9d2994b426170317d4">clearCardsToDelete</a>();</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="foldopen" id="foldopen00093" data-start="{" data-end="}">
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ae80688e59275f20098aedbc0df702667">   93</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#ae80688e59275f20098aedbc0df702667">getActive</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a983d905fd90661bd69b40d8a1259e156">active</a>;</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    }</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a27234df3016f86792f8bbbfb87568184">processPlayerInfo</a>(<span class="keyword">const</span> ServerInfo_Player &amp;info);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#abc9f2bfac2e7d08b507c86b51d15d4e9">processCardAttachment</a>(<span class="keyword">const</span> ServerInfo_Player &amp;info);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a04290f06260f17fb39b2db54b05af5c0">addCard</a>(<a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *c);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#aa405011eb56093c100eab50fbb42f19a">deleteCard</a>(<a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *c);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#ae47d8c6dd5994f9d2994b426170317d4">clearCardsToDelete</a>();</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="foldopen" id="foldopen00099" data-start="{" data-end="}">
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ae80688e59275f20098aedbc0df702667">   99</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#ae80688e59275f20098aedbc0df702667">getActive</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a983d905fd90661bd69b40d8a1259e156">active</a>;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    }</div>
 </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
-<div class="foldopen" id="foldopen00098" data-start="{" data-end="}">
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#af7cfc2b66a72002d9f290285499a0a3b">   98</a></span>    <a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#af7cfc2b66a72002d9f290285499a0a3b">getGame</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a735fb5589b52492f1306fad6d3698a61">game</a>;</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    }</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="foldopen" id="foldopen00104" data-start="{" data-end="}">
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#af7cfc2b66a72002d9f290285499a0a3b">  104</a></span>    <a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#af7cfc2b66a72002d9f290285499a0a3b">getGame</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a735fb5589b52492f1306fad6d3698a61">game</a>;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    }</div>
 </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <a class="code hl_class" href="../../db/d9f/classGameScene.html">GameScene</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#aaaa994c03b60f1433778a50df5f26ed9">getGameScene</a>();</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    [[nodiscard]] <a class="code hl_class" href="../../d3/de4/classPlayerGraphicsItem.html">PlayerGraphicsItem</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a81f30f311da94b7ccf3f56bf447a9d52">getGraphicsItem</a>();</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="foldopen" id="foldopen00107" data-start="{" data-end="}">
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ad46281e97b39abd661c138d30646f879">  107</a></span>    [[nodiscard]] <a class="code hl_class" href="../../d2/d23/classPlayerActions.html">PlayerActions</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#ad46281e97b39abd661c138d30646f879">getPlayerActions</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a6b9c75edff7c998cd832b8b693302161">playerActions</a>;</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    };</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <a class="code hl_class" href="../../db/d9f/classGameScene.html">GameScene</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#aaaa994c03b60f1433778a50df5f26ed9">getGameScene</a>();</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    [[nodiscard]] <a class="code hl_class" href="../../d3/de4/classPlayerGraphicsItem.html">PlayerGraphicsItem</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a81f30f311da94b7ccf3f56bf447a9d52">getGraphicsItem</a>();</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="foldopen" id="foldopen00113" data-start="{" data-end="}">
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ad46281e97b39abd661c138d30646f879">  113</a></span>    [[nodiscard]] <a class="code hl_class" href="../../d2/d23/classPlayerActions.html">PlayerActions</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#ad46281e97b39abd661c138d30646f879">getPlayerActions</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a6b9c75edff7c998cd832b8b693302161">playerActions</a>;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    };</div>
 </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
-<div class="foldopen" id="foldopen00112" data-start="{" data-end="}">
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#addd678ace612ecaaaab4af555dc27314">  112</a></span>    [[nodiscard]] <a class="code hl_class" href="../../de/d38/classPlayerEventHandler.html">PlayerEventHandler</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#addd678ace612ecaaaab4af555dc27314">getPlayerEventHandler</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a7e1c6f0f821ce6405ca1fb1a45f11762">playerEventHandler</a>;</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    }</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="foldopen" id="foldopen00118" data-start="{" data-end="}">
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#addd678ace612ecaaaab4af555dc27314">  118</a></span>    [[nodiscard]] <a class="code hl_class" href="../../de/d38/classPlayerEventHandler.html">PlayerEventHandler</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#addd678ace612ecaaaab4af555dc27314">getPlayerEventHandler</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a7e1c6f0f821ce6405ca1fb1a45f11762">playerEventHandler</a>;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    }</div>
 </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
-<div class="foldopen" id="foldopen00117" data-start="{" data-end="}">
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ae518d19009a8604a8538f9c5fb083474">  117</a></span>    [[nodiscard]] <a class="code hl_class" href="../../df/df7/classPlayerInfo.html">PlayerInfo</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#ae518d19009a8604a8538f9c5fb083474">getPlayerInfo</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a8934b8e9ca368ba3414ac710786b7cdb">playerInfo</a>;</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    };</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="foldopen" id="foldopen00123" data-start="{" data-end="}">
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ae518d19009a8604a8538f9c5fb083474">  123</a></span>    [[nodiscard]] <a class="code hl_class" href="../../df/df7/classPlayerInfo.html">PlayerInfo</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#ae518d19009a8604a8538f9c5fb083474">getPlayerInfo</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a8934b8e9ca368ba3414ac710786b7cdb">playerInfo</a>;</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    };</div>
 </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
-<div class="foldopen" id="foldopen00122" data-start="{" data-end="}">
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#aaadcfdaf7cc8e84dfdbeb8e99f453974">  122</a></span>    [[nodiscard]] <a class="code hl_class" href="../../d7/dd6/classPlayerMenu.html">PlayerMenu</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#aaadcfdaf7cc8e84dfdbeb8e99f453974">getPlayerMenu</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a7b8e0ca40e193e748d423098f69e83fc">playerMenu</a>;</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    }</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="foldopen" id="foldopen00128" data-start="{" data-end="}">
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#aaadcfdaf7cc8e84dfdbeb8e99f453974">  128</a></span>    [[nodiscard]] <a class="code hl_class" href="../../d7/dd6/classPlayerMenu.html">PlayerMenu</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#aaadcfdaf7cc8e84dfdbeb8e99f453974">getPlayerMenu</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a7b8e0ca40e193e748d423098f69e83fc">playerMenu</a>;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    }</div>
 </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a6a1b757c13cd3753edd3bd96757a3616">setDeck</a>(<span class="keyword">const</span> DeckLoader &amp;_deck);</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
-<div class="foldopen" id="foldopen00129" data-start="{" data-end="}">
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a0d0d85072bbbb39c87cc57344d11b4cc">  129</a></span>    [[nodiscard]] DeckLoader *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a0d0d85072bbbb39c87cc57344d11b4cc">getDeck</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ad0a83fdb6f3d25d3897e831b3cd6e9a0">deck</a>;</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    }</div>
-</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
-<div class="foldopen" id="foldopen00134" data-start="{" data-end="}">
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a66660e350ae109217844c3f8b2bd648b">  134</a></span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; T *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a66660e350ae109217844c3f8b2bd648b">addZone</a>(T *zone)</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    {</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>        <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.insert(zone-&gt;getName(), zone);</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        <span class="keywordflow">return</span> zone;</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a6a1b757c13cd3753edd3bd96757a3616">setDeck</a>(<span class="keyword">const</span> DeckLoader &amp;_deck);</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="foldopen" id="foldopen00135" data-start="{" data-end="}">
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a0d0d85072bbbb39c87cc57344d11b4cc">  135</a></span>    [[nodiscard]] DeckLoader *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a0d0d85072bbbb39c87cc57344d11b4cc">getDeck</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ad0a83fdb6f3d25d3897e831b3cd6e9a0">deck</a>;</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    }</div>
 </div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
 <div class="foldopen" id="foldopen00140" data-start="{" data-end="}">
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a17562fd9f6bb1b9e51d2f006fdf367e7">  140</a></span>    <a class="code hl_class" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a17562fd9f6bb1b9e51d2f006fdf367e7">getZone</a>(<span class="keyword">const</span> QString zoneName)</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a66660e350ae109217844c3f8b2bd648b">  140</a></span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; T *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a66660e350ae109217844c3f8b2bd648b">addZone</a>(T *zone)</div>
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    {</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(zoneName);</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    }</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>        <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.insert(zone-&gt;getName(), zone);</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>        <span class="keywordflow">return</span> zone;</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    }</div>
 </div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span> </div>
-<div class="foldopen" id="foldopen00145" data-start="{" data-end="}">
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a73bc6bbc4d9a84070062372de9336010">  145</a></span>    <span class="keyword">const</span> QMap&lt;QString, CardZoneLogic *&gt; &amp;<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a73bc6bbc4d9a84070062372de9336010">getZones</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>;</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    }</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
+<div class="foldopen" id="foldopen00146" data-start="{" data-end="}">
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a17562fd9f6bb1b9e51d2f006fdf367e7">  146</a></span>    <a class="code hl_class" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a17562fd9f6bb1b9e51d2f006fdf367e7">getZone</a>(<span class="keyword">const</span> QString zoneName)</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    {</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(zoneName);</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    }</div>
 </div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
-<div class="foldopen" id="foldopen00150" data-start="{" data-end="}">
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a637514c84aa72b53d01c7dbfcd75c934">  150</a></span>    <a class="code hl_class" href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a637514c84aa72b53d01c7dbfcd75c934">getDeckZone</a>()</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    {</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>        <span class="keywordflow">return</span> qobject_cast&lt;PileZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;deck&quot;</span>));</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    }</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="foldopen" id="foldopen00151" data-start="{" data-end="}">
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a73bc6bbc4d9a84070062372de9336010">  151</a></span>    <span class="keyword">const</span> QMap&lt;QString, CardZoneLogic *&gt; &amp;<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a73bc6bbc4d9a84070062372de9336010">getZones</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>;</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    }</div>
 </div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
-<div class="foldopen" id="foldopen00155" data-start="{" data-end="}">
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ab19b1448b851b44af798e9c121fd082f">  155</a></span>    <a class="code hl_class" href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#ab19b1448b851b44af798e9c121fd082f">getGraveZone</a>()</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    {</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>        <span class="keywordflow">return</span> qobject_cast&lt;PileZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;grave&quot;</span>));</div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    }</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
+<div class="foldopen" id="foldopen00156" data-start="{" data-end="}">
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a637514c84aa72b53d01c7dbfcd75c934">  156</a></span>    <a class="code hl_class" href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a637514c84aa72b53d01c7dbfcd75c934">getDeckZone</a>()</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    {</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        <span class="keywordflow">return</span> qobject_cast&lt;PileZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;deck&quot;</span>));</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    }</div>
 </div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
-<div class="foldopen" id="foldopen00160" data-start="{" data-end="}">
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a26f3958d77c7c64a3370d8cd6153998b">  160</a></span>    <a class="code hl_class" href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a26f3958d77c7c64a3370d8cd6153998b">getRfgZone</a>()</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    {</div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>        <span class="keywordflow">return</span> qobject_cast&lt;PileZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;rfg&quot;</span>));</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    }</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
+<div class="foldopen" id="foldopen00161" data-start="{" data-end="}">
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ab19b1448b851b44af798e9c121fd082f">  161</a></span>    <a class="code hl_class" href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#ab19b1448b851b44af798e9c121fd082f">getGraveZone</a>()</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    {</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>        <span class="keywordflow">return</span> qobject_cast&lt;PileZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;grave&quot;</span>));</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    }</div>
 </div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
-<div class="foldopen" id="foldopen00165" data-start="{" data-end="}">
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#acbb8ce06841a5209c3681a7229ab3d35">  165</a></span>    <a class="code hl_class" href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#acbb8ce06841a5209c3681a7229ab3d35">getSideboardZone</a>()</div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    {</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        <span class="keywordflow">return</span> qobject_cast&lt;PileZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;sb&quot;</span>));</div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    }</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
+<div class="foldopen" id="foldopen00166" data-start="{" data-end="}">
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a26f3958d77c7c64a3370d8cd6153998b">  166</a></span>    <a class="code hl_class" href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a26f3958d77c7c64a3370d8cd6153998b">getRfgZone</a>()</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    {</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>        <span class="keywordflow">return</span> qobject_cast&lt;PileZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;rfg&quot;</span>));</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    }</div>
 </div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span> </div>
-<div class="foldopen" id="foldopen00170" data-start="{" data-end="}">
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a4b5c9bb2b0e0d769666daa8541a46673">  170</a></span>    <a class="code hl_class" href="../../dc/ded/classTableZoneLogic.html">TableZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a4b5c9bb2b0e0d769666daa8541a46673">getTableZone</a>()</div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    {</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        <span class="keywordflow">return</span> qobject_cast&lt;TableZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;table&quot;</span>));</div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    }</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
+<div class="foldopen" id="foldopen00171" data-start="{" data-end="}">
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#acbb8ce06841a5209c3681a7229ab3d35">  171</a></span>    <a class="code hl_class" href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#acbb8ce06841a5209c3681a7229ab3d35">getSideboardZone</a>()</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    {</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>        <span class="keywordflow">return</span> qobject_cast&lt;PileZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;sb&quot;</span>));</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    }</div>
 </div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
-<div class="foldopen" id="foldopen00175" data-start="{" data-end="}">
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a7803e62c22ad3dce544bc26928cb184d">  175</a></span>    <a class="code hl_class" href="../../db/dfe/classStackZoneLogic.html">StackZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a7803e62c22ad3dce544bc26928cb184d">getStackZone</a>()</div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    {</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>        <span class="keywordflow">return</span> qobject_cast&lt;StackZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;stack&quot;</span>));</div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>    }</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
+<div class="foldopen" id="foldopen00176" data-start="{" data-end="}">
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a4b5c9bb2b0e0d769666daa8541a46673">  176</a></span>    <a class="code hl_class" href="../../dc/ded/classTableZoneLogic.html">TableZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a4b5c9bb2b0e0d769666daa8541a46673">getTableZone</a>()</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    {</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        <span class="keywordflow">return</span> qobject_cast&lt;TableZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;table&quot;</span>));</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>    }</div>
 </div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span> </div>
-<div class="foldopen" id="foldopen00180" data-start="{" data-end="}">
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a87aa3aa756c4d6d93523a920ba4a1d5c">  180</a></span>    <a class="code hl_class" href="../../df/db6/classHandZoneLogic.html">HandZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a87aa3aa756c4d6d93523a920ba4a1d5c">getHandZone</a>()</div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    {</div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>        <span class="keywordflow">return</span> qobject_cast&lt;HandZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;hand&quot;</span>));</div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    }</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
+<div class="foldopen" id="foldopen00181" data-start="{" data-end="}">
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a7803e62c22ad3dce544bc26928cb184d">  181</a></span>    <a class="code hl_class" href="../../db/dfe/classStackZoneLogic.html">StackZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a7803e62c22ad3dce544bc26928cb184d">getStackZone</a>()</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    {</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>        <span class="keywordflow">return</span> qobject_cast&lt;StackZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;stack&quot;</span>));</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    }</div>
 </div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <a class="code hl_class" href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a1fe12f8358badb70183f37f8a6ed87dc">addCounter</a>(<span class="keyword">const</span> ServerInfo_Counter &amp;counter);</div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    <a class="code hl_class" href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a1fe12f8358badb70183f37f8a6ed87dc">addCounter</a>(<span class="keywordtype">int</span> counterId, <span class="keyword">const</span> QString &amp;name, QColor color, <span class="keywordtype">int</span> radius, <span class="keywordtype">int</span> value);</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#acecfe0ea3b9be9f8e72adf12e9ab085c">delCounter</a>(<span class="keywordtype">int</span> counterId);</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#af5ec7bd46c6cbb62cf26f0fbf89ce90d">clearCounters</a>();</div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a22118fdb73dc2201939a7475995dd2c5">incrementAllCardCounters</a>();</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
+<div class="foldopen" id="foldopen00186" data-start="{" data-end="}">
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a87aa3aa756c4d6d93523a920ba4a1d5c">  186</a></span>    <a class="code hl_class" href="../../df/db6/classHandZoneLogic.html">HandZoneLogic</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a87aa3aa756c4d6d93523a920ba4a1d5c">getHandZone</a>()</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    {</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>        <span class="keywordflow">return</span> qobject_cast&lt;HandZoneLogic *&gt;(<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>.value(<span class="stringliteral">&quot;hand&quot;</span>));</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    }</div>
+</div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
-<div class="foldopen" id="foldopen00191" data-start="{" data-end="}">
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a89c449904636358a9361fe5a182b04db">  191</a></span>    QMap&lt;int, AbstractCounter *&gt; <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a89c449904636358a9361fe5a182b04db">getCounters</a>()</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    {</div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ae18681d3239efefced57f08e2eb78822">counters</a>;</div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    }</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    <a class="code hl_class" href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a1fe12f8358badb70183f37f8a6ed87dc">addCounter</a>(<span class="keyword">const</span> ServerInfo_Counter &amp;counter);</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    <a class="code hl_class" href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a1fe12f8358badb70183f37f8a6ed87dc">addCounter</a>(<span class="keywordtype">int</span> counterId, <span class="keyword">const</span> QString &amp;name, QColor color, <span class="keywordtype">int</span> radius, <span class="keywordtype">int</span> value);</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#acecfe0ea3b9be9f8e72adf12e9ab085c">delCounter</a>(<span class="keywordtype">int</span> counterId);</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#af5ec7bd46c6cbb62cf26f0fbf89ce90d">clearCounters</a>();</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a22118fdb73dc2201939a7475995dd2c5">incrementAllCardCounters</a>();</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
+<div class="foldopen" id="foldopen00197" data-start="{" data-end="}">
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a89c449904636358a9361fe5a182b04db">  197</a></span>    QMap&lt;int, AbstractCounter *&gt; <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a89c449904636358a9361fe5a182b04db">getCounters</a>()</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    {</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ae18681d3239efefced57f08e2eb78822">counters</a>;</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    }</div>
 </div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    <a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a6b1cd6265e773f27f1229871ea312308">addArrow</a>(<span class="keyword">const</span> ServerInfo_Arrow &amp;arrow);</div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>    <a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a6b1cd6265e773f27f1229871ea312308">addArrow</a>(<span class="keywordtype">int</span> arrowId, <a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *startCard, <a class="code hl_class" href="../../d9/dce/classArrowTarget.html">ArrowTarget</a> *targetItem, <span class="keyword">const</span> QColor &amp;color);</div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a7d5808d05ff9f7ba7cd96d9fa7c5e10f">delArrow</a>(<span class="keywordtype">int</span> arrowId);</div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a5867fe5901600d6b8cdec073ba08a174">removeArrow</a>(<a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *arrow);</div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#afaa8b7bbc1b7d1becf26769fdf50d92a">clearArrows</a>();</div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span> </div>
-<div class="foldopen" id="foldopen00202" data-start="{" data-end="}">
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a7b4c5a08c625abaaa66afda79864137d">  202</a></span>    <span class="keyword">const</span> QMap&lt;int, ArrowItem *&gt; &amp;<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a7b4c5a08c625abaaa66afda79864137d">getArrows</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ab2570989d062517bb5bbe9c10ba3f53f">arrows</a>;</div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    }</div>
-</div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a09c2df54cff07867284d7b14efbfaffe">setConceded</a>(<span class="keywordtype">bool</span> _conceded);</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    <a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a6b1cd6265e773f27f1229871ea312308">addArrow</a>(<span class="keyword">const</span> ServerInfo_Arrow &amp;arrow);</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>    <a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a6b1cd6265e773f27f1229871ea312308">addArrow</a>(<span class="keywordtype">int</span> arrowId, <a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *startCard, <a class="code hl_class" href="../../d9/dce/classArrowTarget.html">ArrowTarget</a> *targetItem, <span class="keyword">const</span> QColor &amp;color);</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a7d5808d05ff9f7ba7cd96d9fa7c5e10f">delArrow</a>(<span class="keywordtype">int</span> arrowId);</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a5867fe5901600d6b8cdec073ba08a174">removeArrow</a>(<a class="code hl_class" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *arrow);</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#afaa8b7bbc1b7d1becf26769fdf50d92a">clearArrows</a>();</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
 <div class="foldopen" id="foldopen00208" data-start="{" data-end="}">
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a539fcec3651d535332f297e6250aebe6">  208</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a539fcec3651d535332f297e6250aebe6">getConceded</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a7b4c5a08c625abaaa66afda79864137d">  208</a></span>    <span class="keyword">const</span> QMap&lt;int, ArrowItem *&gt; &amp;<a class="code hl_function" href="../../d2/d4b/classPlayer.html#a7b4c5a08c625abaaa66afda79864137d">getArrows</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a54673f6751648b8ae92e02969db2435b">conceded</a>;</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ab2570989d062517bb5bbe9c10ba3f53f">arrows</a>;</div>
 <div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    }</div>
 </div>
 <div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span> </div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a0ab3286e24366dcc9941233b2454758f">setGameStarted</a>();</div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span> </div>
-<div class="foldopen" id="foldopen00215" data-start="{" data-end="}">
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a77145607573b61e348d2fc029778ef1f">  215</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a77145607573b61e348d2fc029778ef1f">setDialogSemaphore</a>(<span class="keyword">const</span> <span class="keywordtype">bool</span> _active)</div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>    {</div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>        <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a19a22bf32ef5c63f127b6a492339b529">dialogSemaphore</a> = _active;</div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    }</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a09c2df54cff07867284d7b14efbfaffe">setConceded</a>(<span class="keywordtype">bool</span> _conceded);</div>
+<div class="foldopen" id="foldopen00214" data-start="{" data-end="}">
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a539fcec3651d535332f297e6250aebe6">  214</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a539fcec3651d535332f297e6250aebe6">getConceded</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a54673f6751648b8ae92e02969db2435b">conceded</a>;</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>    }</div>
 </div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span> </div>
-<div class="foldopen" id="foldopen00220" data-start="{" data-end="}">
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a38cbfb3d4552f33a68e3088e5fded1c6">  220</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a38cbfb3d4552f33a68e3088e5fded1c6">getZoneId</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a6167843ff3c990bee46cd490e43e85e0">zoneId</a>;</div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    }</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span> </div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a0ab3286e24366dcc9941233b2454758f">setGameStarted</a>();</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
+<div class="foldopen" id="foldopen00221" data-start="{" data-end="}">
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a77145607573b61e348d2fc029778ef1f">  221</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a77145607573b61e348d2fc029778ef1f">setDialogSemaphore</a>(<span class="keyword">const</span> <span class="keywordtype">bool</span> _active)</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    {</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>        <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a19a22bf32ef5c63f127b6a492339b529">dialogSemaphore</a> = _active;</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>    }</div>
 </div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span> </div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#ad5c3f796deddfeb174d30bb32bcc13d4">setZoneId</a>(<span class="keywordtype">int</span> _zoneId);</div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a735fb5589b52492f1306fad6d3698a61">  228</a></span>    <a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a735fb5589b52492f1306fad6d3698a61">game</a>;</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a8934b8e9ca368ba3414ac710786b7cdb">  229</a></span>    <a class="code hl_class" href="../../df/df7/classPlayerInfo.html">PlayerInfo</a> *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a8934b8e9ca368ba3414ac710786b7cdb">playerInfo</a>;</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a7e1c6f0f821ce6405ca1fb1a45f11762">  230</a></span>    <a class="code hl_class" href="../../de/d38/classPlayerEventHandler.html">PlayerEventHandler</a> *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a7e1c6f0f821ce6405ca1fb1a45f11762">playerEventHandler</a>;</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a6b9c75edff7c998cd832b8b693302161">  231</a></span>    <a class="code hl_class" href="../../d2/d23/classPlayerActions.html">PlayerActions</a> *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a6b9c75edff7c998cd832b8b693302161">playerActions</a>;</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a7b8e0ca40e193e748d423098f69e83fc">  232</a></span>    <a class="code hl_class" href="../../d7/dd6/classPlayerMenu.html">PlayerMenu</a> *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a7b8e0ca40e193e748d423098f69e83fc">playerMenu</a>;</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#af94765400d55be988cdc1b0e78de80d6">  233</a></span>    <a class="code hl_class" href="../../d3/de4/classPlayerGraphicsItem.html">PlayerGraphicsItem</a> *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#af94765400d55be988cdc1b0e78de80d6">graphicsItem</a>;</div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a983d905fd90661bd69b40d8a1259e156">  235</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a983d905fd90661bd69b40d8a1259e156">active</a>;</div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a54673f6751648b8ae92e02969db2435b">  236</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a54673f6751648b8ae92e02969db2435b">conceded</a>;</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ad0a83fdb6f3d25d3897e831b3cd6e9a0">  238</a></span>    DeckLoader *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ad0a83fdb6f3d25d3897e831b3cd6e9a0">deck</a>;</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a6167843ff3c990bee46cd490e43e85e0">  240</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a6167843ff3c990bee46cd490e43e85e0">zoneId</a>;</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">  241</a></span>    QMap&lt;QString, CardZoneLogic *&gt; <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>;</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ae18681d3239efefced57f08e2eb78822">  242</a></span>    QMap&lt;int, AbstractCounter *&gt; <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ae18681d3239efefced57f08e2eb78822">counters</a>;</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ab2570989d062517bb5bbe9c10ba3f53f">  243</a></span>    QMap&lt;int, ArrowItem *&gt; <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ab2570989d062517bb5bbe9c10ba3f53f">arrows</a>;</div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a19a22bf32ef5c63f127b6a492339b529">  245</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a19a22bf32ef5c63f127b6a492339b529">dialogSemaphore</a>;</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#aa84c9147fe8d8e0a60a2b3346f0e3d64">  246</a></span>    QList&lt;CardItem *&gt; <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa84c9147fe8d8e0a60a2b3346f0e3d64">cardsToDelete</a>;</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> </div>
-<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>    <span class="comment">// void eventConnectionStateChanged(const Event_ConnectionStateChanged &amp;event);</span></div>
-<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>};</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
+<div class="foldopen" id="foldopen00226" data-start="{" data-end="}">
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a38cbfb3d4552f33a68e3088e5fded1c6">  226</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#a38cbfb3d4552f33a68e3088e5fded1c6">getZoneId</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a6167843ff3c990bee46cd490e43e85e0">zoneId</a>;</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>    }</div>
 </div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d4b/classPlayer.html#ad5c3f796deddfeb174d30bb32bcc13d4">setZoneId</a>(<span class="keywordtype">int</span> _zoneId);</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a735fb5589b52492f1306fad6d3698a61">  234</a></span>    <a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a735fb5589b52492f1306fad6d3698a61">game</a>;</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a8934b8e9ca368ba3414ac710786b7cdb">  235</a></span>    <a class="code hl_class" href="../../df/df7/classPlayerInfo.html">PlayerInfo</a> *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a8934b8e9ca368ba3414ac710786b7cdb">playerInfo</a>;</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a7e1c6f0f821ce6405ca1fb1a45f11762">  236</a></span>    <a class="code hl_class" href="../../de/d38/classPlayerEventHandler.html">PlayerEventHandler</a> *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a7e1c6f0f821ce6405ca1fb1a45f11762">playerEventHandler</a>;</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a6b9c75edff7c998cd832b8b693302161">  237</a></span>    <a class="code hl_class" href="../../d2/d23/classPlayerActions.html">PlayerActions</a> *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a6b9c75edff7c998cd832b8b693302161">playerActions</a>;</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a7b8e0ca40e193e748d423098f69e83fc">  238</a></span>    <a class="code hl_class" href="../../d7/dd6/classPlayerMenu.html">PlayerMenu</a> *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a7b8e0ca40e193e748d423098f69e83fc">playerMenu</a>;</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#af94765400d55be988cdc1b0e78de80d6">  239</a></span>    <a class="code hl_class" href="../../d3/de4/classPlayerGraphicsItem.html">PlayerGraphicsItem</a> *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#af94765400d55be988cdc1b0e78de80d6">graphicsItem</a>;</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span> </div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a983d905fd90661bd69b40d8a1259e156">  241</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a983d905fd90661bd69b40d8a1259e156">active</a>;</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a54673f6751648b8ae92e02969db2435b">  242</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a54673f6751648b8ae92e02969db2435b">conceded</a>;</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ad0a83fdb6f3d25d3897e831b3cd6e9a0">  244</a></span>    DeckLoader *<a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ad0a83fdb6f3d25d3897e831b3cd6e9a0">deck</a>;</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span> </div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a6167843ff3c990bee46cd490e43e85e0">  246</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a6167843ff3c990bee46cd490e43e85e0">zoneId</a>;</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">  247</a></span>    QMap&lt;QString, CardZoneLogic *&gt; <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">zones</a>;</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ae18681d3239efefced57f08e2eb78822">  248</a></span>    QMap&lt;int, AbstractCounter *&gt; <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ae18681d3239efefced57f08e2eb78822">counters</a>;</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#ab2570989d062517bb5bbe9c10ba3f53f">  249</a></span>    QMap&lt;int, ArrowItem *&gt; <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#ab2570989d062517bb5bbe9c10ba3f53f">arrows</a>;</div>
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span> </div>
-<div class="foldopen" id="foldopen00251" data-start="{" data-end="};">
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno"><a class="line" href="../../d3/d00/classAnnotationDialog.html">  251</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d3/d00/classAnnotationDialog.html">AnnotationDialog</a> : <span class="keyword">public</span> QInputDialog</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>{</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>    Q_OBJECT</div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d00/classAnnotationDialog.html#a9f230cb6100bc36005bde0bd729add94">keyPressEvent</a>(QKeyEvent *e) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span> </div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span><span class="keyword">public</span>:</div>
-<div class="foldopen" id="foldopen00257" data-start="{" data-end="}">
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno"><a class="line" href="../../d3/d00/classAnnotationDialog.html#a28a2110b62e706ad7f73cada50806947">  257</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../d3/d00/classAnnotationDialog.html#a28a2110b62e706ad7f73cada50806947">AnnotationDialog</a>(QWidget *parent = <span class="keyword">nullptr</span>) : QInputDialog(parent)</div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    {</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    }</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#a19a22bf32ef5c63f127b6a492339b529">  251</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#a19a22bf32ef5c63f127b6a492339b529">dialogSemaphore</a>;</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno"><a class="line" href="../../d2/d4b/classPlayer.html#aa84c9147fe8d8e0a60a2b3346f0e3d64">  252</a></span>    QList&lt;CardItem *&gt; <a class="code hl_variable" href="../../d2/d4b/classPlayer.html#aa84c9147fe8d8e0a60a2b3346f0e3d64">cardsToDelete</a>;</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    <span class="comment">// void eventConnectionStateChanged(const Event_ConnectionStateChanged &amp;event);</span></div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>};</div>
 </div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>};</div>
-</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
+<div class="foldopen" id="foldopen00257" data-start="{" data-end="};">
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno"><a class="line" href="../../d3/d00/classAnnotationDialog.html">  257</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d3/d00/classAnnotationDialog.html">AnnotationDialog</a> : <span class="keyword">public</span> QInputDialog</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>{</div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    Q_OBJECT</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d00/classAnnotationDialog.html#a9f230cb6100bc36005bde0bd729add94">keyPressEvent</a>(QKeyEvent *e) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassAbstractCardItem_html"><div class="ttname"><a href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a></div><div class="ttdef"><b>Definition</b> abstract_card_item.h:15</div></div>
-<div class="ttc" id="aclassAbstractCounter_html"><div class="ttname"><a href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a></div><div class="ttdef"><b>Definition</b> abstract_counter.h:16</div></div>
-<div class="ttc" id="aclassAbstractGame_html"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html">AbstractGame</a></div><div class="ttdef"><b>Definition</b> abstract_game.h:15</div></div>
-<div class="ttc" id="aclassAnnotationDialog_html"><div class="ttname"><a href="../../d3/d00/classAnnotationDialog.html">AnnotationDialog</a></div><div class="ttdef"><b>Definition</b> player.h:252</div></div>
-<div class="ttc" id="aclassAnnotationDialog_html_a28a2110b62e706ad7f73cada50806947"><div class="ttname"><a href="../../d3/d00/classAnnotationDialog.html#a28a2110b62e706ad7f73cada50806947">AnnotationDialog::AnnotationDialog</a></div><div class="ttdeci">AnnotationDialog(QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition</b> player.h:257</div></div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00263" data-start="{" data-end="}">
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno"><a class="line" href="../../d3/d00/classAnnotationDialog.html#a28a2110b62e706ad7f73cada50806947">  263</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../d3/d00/classAnnotationDialog.html#a28a2110b62e706ad7f73cada50806947">AnnotationDialog</a>(QWidget *parent = <span class="keyword">nullptr</span>) : QInputDialog(parent)</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>    {</div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>    }</div>
+</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>};</div>
+</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span> </div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassAbstractCardItem_html"><div class="ttname"><a href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a></div><div class="ttdef"><b>Definition</b> abstract_card_item.h:21</div></div>
+<div class="ttc" id="aclassAbstractCounter_html"><div class="ttname"><a href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a></div><div class="ttdef"><b>Definition</b> abstract_counter.h:22</div></div>
+<div class="ttc" id="aclassAbstractGame_html"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html">AbstractGame</a></div><div class="ttdef"><b>Definition</b> abstract_game.h:21</div></div>
+<div class="ttc" id="aclassAnnotationDialog_html"><div class="ttname"><a href="../../d3/d00/classAnnotationDialog.html">AnnotationDialog</a></div><div class="ttdef"><b>Definition</b> player.h:258</div></div>
+<div class="ttc" id="aclassAnnotationDialog_html_a28a2110b62e706ad7f73cada50806947"><div class="ttname"><a href="../../d3/d00/classAnnotationDialog.html#a28a2110b62e706ad7f73cada50806947">AnnotationDialog::AnnotationDialog</a></div><div class="ttdeci">AnnotationDialog(QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition</b> player.h:263</div></div>
 <div class="ttc" id="aclassAnnotationDialog_html_a9f230cb6100bc36005bde0bd729add94"><div class="ttname"><a href="../../d3/d00/classAnnotationDialog.html#a9f230cb6100bc36005bde0bd729add94">AnnotationDialog::keyPressEvent</a></div><div class="ttdeci">void keyPressEvent(QKeyEvent *e) override</div><div class="ttdef"><b>Definition</b> player_actions.cpp:1449</div></div>
-<div class="ttc" id="aclassArrowItem_html"><div class="ttname"><a href="../../df/d2a/classArrowItem.html">ArrowItem</a></div><div class="ttdef"><b>Definition</b> arrow_item.h:13</div></div>
-<div class="ttc" id="aclassArrowTarget_html"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html">ArrowTarget</a></div><div class="ttdef"><b>Definition</b> arrow_target.h:12</div></div>
-<div class="ttc" id="aclassCardDatabase_html"><div class="ttname"><a href="../../d5/d45/classCardDatabase.html">CardDatabase</a></div><div class="ttdef"><b>Definition</b> card_database.h:21</div></div>
-<div class="ttc" id="aclassCardItem_html"><div class="ttname"><a href="../../d6/dbd/classCardItem.html">CardItem</a></div><div class="ttdef"><b>Definition</b> card_item.h:22</div></div>
-<div class="ttc" id="aclassCardZoneLogic_html"><div class="ttname"><a href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a></div><div class="ttdef"><b>Definition</b> card_zone_logic.h:20</div></div>
-<div class="ttc" id="aclassCardZone_html"><div class="ttname"><a href="../../de/da1/classCardZone.html">CardZone</a></div><div class="ttdef"><b>Definition</b> card_zone.h:20</div></div>
-<div class="ttc" id="aclassGameScene_html"><div class="ttname"><a href="../../db/d9f/classGameScene.html">GameScene</a></div><div class="ttdoc">Manages the game board display including players, zones, cards, and animations.</div><div class="ttdef"><b>Definition</b> game_scene.h:37</div></div>
-<div class="ttc" id="aclassHandZoneLogic_html"><div class="ttname"><a href="../../df/db6/classHandZoneLogic.html">HandZoneLogic</a></div><div class="ttdef"><b>Definition</b> hand_zone_logic.h:6</div></div>
-<div class="ttc" id="aclassPileZoneLogic_html"><div class="ttname"><a href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a></div><div class="ttdef"><b>Definition</b> pile_zone_logic.h:6</div></div>
-<div class="ttc" id="aclassPlayerActions_html"><div class="ttname"><a href="../../d2/d23/classPlayerActions.html">PlayerActions</a></div><div class="ttdef"><b>Definition</b> player_actions.h:23</div></div>
-<div class="ttc" id="aclassPlayerEventHandler_html"><div class="ttname"><a href="../../de/d38/classPlayerEventHandler.html">PlayerEventHandler</a></div><div class="ttdef"><b>Definition</b> player_event_handler.h:32</div></div>
-<div class="ttc" id="aclassPlayerGraphicsItem_html"><div class="ttname"><a href="../../d3/de4/classPlayerGraphicsItem.html">PlayerGraphicsItem</a></div><div class="ttdef"><b>Definition</b> player_graphics_item.h:16</div></div>
-<div class="ttc" id="aclassPlayerInfo_html"><div class="ttname"><a href="../../df/df7/classPlayerInfo.html">PlayerInfo</a></div><div class="ttdef"><b>Definition</b> player_info.h:15</div></div>
-<div class="ttc" id="aclassPlayerMenu_html"><div class="ttname"><a href="../../d7/dd6/classPlayerMenu.html">PlayerMenu</a></div><div class="ttdef"><b>Definition</b> player_menu.h:20</div></div>
-<div class="ttc" id="aclassPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition</b> player.h:59</div></div>
+<div class="ttc" id="aclassArrowItem_html"><div class="ttname"><a href="../../df/d2a/classArrowItem.html">ArrowItem</a></div><div class="ttdef"><b>Definition</b> arrow_item.h:19</div></div>
+<div class="ttc" id="aclassArrowTarget_html"><div class="ttname"><a href="../../d9/dce/classArrowTarget.html">ArrowTarget</a></div><div class="ttdef"><b>Definition</b> arrow_target.h:18</div></div>
+<div class="ttc" id="aclassCardDatabase_html"><div class="ttname"><a href="../../d5/d45/classCardDatabase.html">CardDatabase</a></div><div class="ttdef"><b>Definition</b> card_database.h:27</div></div>
+<div class="ttc" id="aclassCardItem_html"><div class="ttname"><a href="../../d6/dbd/classCardItem.html">CardItem</a></div><div class="ttdef"><b>Definition</b> card_item.h:28</div></div>
+<div class="ttc" id="aclassCardZoneLogic_html"><div class="ttname"><a href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a></div><div class="ttdef"><b>Definition</b> card_zone_logic.h:26</div></div>
+<div class="ttc" id="aclassCardZone_html"><div class="ttname"><a href="../../de/da1/classCardZone.html">CardZone</a></div><div class="ttdef"><b>Definition</b> card_zone.h:26</div></div>
+<div class="ttc" id="aclassGameScene_html"><div class="ttname"><a href="../../db/d9f/classGameScene.html">GameScene</a></div><div class="ttdoc">Manages the game board display including players, zones, cards, and animations.</div><div class="ttdef"><b>Definition</b> game_scene.h:43</div></div>
+<div class="ttc" id="aclassHandZoneLogic_html"><div class="ttname"><a href="../../df/db6/classHandZoneLogic.html">HandZoneLogic</a></div><div class="ttdef"><b>Definition</b> hand_zone_logic.h:12</div></div>
+<div class="ttc" id="aclassPileZoneLogic_html"><div class="ttname"><a href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a></div><div class="ttdef"><b>Definition</b> pile_zone_logic.h:12</div></div>
+<div class="ttc" id="aclassPlayerActions_html"><div class="ttname"><a href="../../d2/d23/classPlayerActions.html">PlayerActions</a></div><div class="ttdef"><b>Definition</b> player_actions.h:30</div></div>
+<div class="ttc" id="aclassPlayerEventHandler_html"><div class="ttname"><a href="../../de/d38/classPlayerEventHandler.html">PlayerEventHandler</a></div><div class="ttdef"><b>Definition</b> player_event_handler.h:38</div></div>
+<div class="ttc" id="aclassPlayerGraphicsItem_html"><div class="ttname"><a href="../../d3/de4/classPlayerGraphicsItem.html">PlayerGraphicsItem</a></div><div class="ttdef"><b>Definition</b> player_graphics_item.h:22</div></div>
+<div class="ttc" id="aclassPlayerInfo_html"><div class="ttname"><a href="../../df/df7/classPlayerInfo.html">PlayerInfo</a></div><div class="ttdef"><b>Definition</b> player_info.h:21</div></div>
+<div class="ttc" id="aclassPlayerMenu_html"><div class="ttname"><a href="../../d7/dd6/classPlayerMenu.html">PlayerMenu</a></div><div class="ttdef"><b>Definition</b> player_menu.h:26</div></div>
+<div class="ttc" id="aclassPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition</b> player.h:65</div></div>
 <div class="ttc" id="aclassPlayer_html_a04290f06260f17fb39b2db54b05af5c0"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a04290f06260f17fb39b2db54b05af5c0">Player::addCard</a></div><div class="ttdeci">void addCard(CardItem *c)</div><div class="ttdef"><b>Definition</b> player.cpp:250</div></div>
 <div class="ttc" id="aclassPlayer_html_a09c2df54cff07867284d7b14efbfaffe"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a09c2df54cff07867284d7b14efbfaffe">Player::setConceded</a></div><div class="ttdeci">void setConceded(bool _conceded)</div><div class="ttdef"><b>Definition</b> player.cpp:100</div></div>
 <div class="ttc" id="aclassPlayer_html_a0ab3286e24366dcc9941233b2454758f"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a0ab3286e24366dcc9941233b2454758f">Player::setGameStarted</a></div><div class="ttdeci">void setGameStarted()</div><div class="ttdef"><b>Definition</b> player.cpp:475</div></div>
-<div class="ttc" id="aclassPlayer_html_a0d0d85072bbbb39c87cc57344d11b4cc"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a0d0d85072bbbb39c87cc57344d11b4cc">Player::getDeck</a></div><div class="ttdeci">DeckLoader * getDeck() const</div><div class="ttdef"><b>Definition</b> player.h:129</div></div>
-<div class="ttc" id="aclassPlayer_html_a17562fd9f6bb1b9e51d2f006fdf367e7"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a17562fd9f6bb1b9e51d2f006fdf367e7">Player::getZone</a></div><div class="ttdeci">CardZoneLogic * getZone(const QString zoneName)</div><div class="ttdef"><b>Definition</b> player.h:140</div></div>
-<div class="ttc" id="aclassPlayer_html_a19a22bf32ef5c63f127b6a492339b529"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a19a22bf32ef5c63f127b6a492339b529">Player::dialogSemaphore</a></div><div class="ttdeci">bool dialogSemaphore</div><div class="ttdef"><b>Definition</b> player.h:245</div></div>
+<div class="ttc" id="aclassPlayer_html_a0d0d85072bbbb39c87cc57344d11b4cc"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a0d0d85072bbbb39c87cc57344d11b4cc">Player::getDeck</a></div><div class="ttdeci">DeckLoader * getDeck() const</div><div class="ttdef"><b>Definition</b> player.h:135</div></div>
+<div class="ttc" id="aclassPlayer_html_a17562fd9f6bb1b9e51d2f006fdf367e7"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a17562fd9f6bb1b9e51d2f006fdf367e7">Player::getZone</a></div><div class="ttdeci">CardZoneLogic * getZone(const QString zoneName)</div><div class="ttdef"><b>Definition</b> player.h:146</div></div>
+<div class="ttc" id="aclassPlayer_html_a19a22bf32ef5c63f127b6a492339b529"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a19a22bf32ef5c63f127b6a492339b529">Player::dialogSemaphore</a></div><div class="ttdeci">bool dialogSemaphore</div><div class="ttdef"><b>Definition</b> player.h:251</div></div>
 <div class="ttc" id="aclassPlayer_html_a1fe12f8358badb70183f37f8a6ed87dc"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a1fe12f8358badb70183f37f8a6ed87dc">Player::addCounter</a></div><div class="ttdeci">AbstractCounter * addCounter(const ServerInfo_Counter &amp;counter)</div><div class="ttdef"><b>Definition</b> player.cpp:273</div></div>
 <div class="ttc" id="aclassPlayer_html_a22118fdb73dc2201939a7475995dd2c5"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a22118fdb73dc2201939a7475995dd2c5">Player::incrementAllCardCounters</a></div><div class="ttdeci">void incrementAllCardCounters()</div><div class="ttdef"><b>Definition</b> player.cpp:324</div></div>
 <div class="ttc" id="aclassPlayer_html_a2424bd157fd17e43a7b3c627bd76ca95"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a2424bd157fd17e43a7b3c627bd76ca95">Player::forwardActionSignalsToEventHandler</a></div><div class="ttdeci">void forwardActionSignalsToEventHandler()</div><div class="ttdef"><b>Definition</b> player.cpp:53</div></div>
 <div class="ttc" id="aclassPlayer_html_a2491702638a41e5c5303d30d47c7a294"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a2491702638a41e5c5303d30d47c7a294">Player::rearrangeCounters</a></div><div class="ttdeci">void rearrangeCounters()</div></div>
 <div class="ttc" id="aclassPlayer_html_a25f3113434847bc7d249cd4df959b4a8"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a25f3113434847bc7d249cd4df959b4a8">Player::clearCustomZonesMenu</a></div><div class="ttdeci">void clearCustomZonesMenu()</div></div>
-<div class="ttc" id="aclassPlayer_html_a26f3958d77c7c64a3370d8cd6153998b"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a26f3958d77c7c64a3370d8cd6153998b">Player::getRfgZone</a></div><div class="ttdeci">PileZoneLogic * getRfgZone()</div><div class="ttdef"><b>Definition</b> player.h:160</div></div>
+<div class="ttc" id="aclassPlayer_html_a26f3958d77c7c64a3370d8cd6153998b"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a26f3958d77c7c64a3370d8cd6153998b">Player::getRfgZone</a></div><div class="ttdeci">PileZoneLogic * getRfgZone()</div><div class="ttdef"><b>Definition</b> player.h:166</div></div>
 <div class="ttc" id="aclassPlayer_html_a27234df3016f86792f8bbbfb87568184"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a27234df3016f86792f8bbbfb87568184">Player::processPlayerInfo</a></div><div class="ttdeci">void processPlayerInfo(const ServerInfo_Player &amp;info)</div><div class="ttdef"><b>Definition</b> player.cpp:119</div></div>
-<div class="ttc" id="aclassPlayer_html_a38cbfb3d4552f33a68e3088e5fded1c6"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a38cbfb3d4552f33a68e3088e5fded1c6">Player::getZoneId</a></div><div class="ttdeci">int getZoneId() const</div><div class="ttdef"><b>Definition</b> player.h:220</div></div>
-<div class="ttc" id="aclassPlayer_html_a4b5c9bb2b0e0d769666daa8541a46673"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a4b5c9bb2b0e0d769666daa8541a46673">Player::getTableZone</a></div><div class="ttdeci">TableZoneLogic * getTableZone()</div><div class="ttdef"><b>Definition</b> player.h:170</div></div>
+<div class="ttc" id="aclassPlayer_html_a38cbfb3d4552f33a68e3088e5fded1c6"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a38cbfb3d4552f33a68e3088e5fded1c6">Player::getZoneId</a></div><div class="ttdeci">int getZoneId() const</div><div class="ttdef"><b>Definition</b> player.h:226</div></div>
+<div class="ttc" id="aclassPlayer_html_a4b5c9bb2b0e0d769666daa8541a46673"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a4b5c9bb2b0e0d769666daa8541a46673">Player::getTableZone</a></div><div class="ttdeci">TableZoneLogic * getTableZone()</div><div class="ttdef"><b>Definition</b> player.h:176</div></div>
 <div class="ttc" id="aclassPlayer_html_a52a6e1aa3661eb89b33c04bb86cf2a27"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a52a6e1aa3661eb89b33c04bb86cf2a27">Player::updateZones</a></div><div class="ttdeci">void updateZones()</div><div class="ttdef"><b>Definition</b> player.cpp:460</div></div>
-<div class="ttc" id="aclassPlayer_html_a539fcec3651d535332f297e6250aebe6"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a539fcec3651d535332f297e6250aebe6">Player::getConceded</a></div><div class="ttdeci">bool getConceded() const</div><div class="ttdef"><b>Definition</b> player.h:208</div></div>
-<div class="ttc" id="aclassPlayer_html_a54673f6751648b8ae92e02969db2435b"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a54673f6751648b8ae92e02969db2435b">Player::conceded</a></div><div class="ttdeci">bool conceded</div><div class="ttdef"><b>Definition</b> player.h:236</div></div>
+<div class="ttc" id="aclassPlayer_html_a539fcec3651d535332f297e6250aebe6"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a539fcec3651d535332f297e6250aebe6">Player::getConceded</a></div><div class="ttdeci">bool getConceded() const</div><div class="ttdef"><b>Definition</b> player.h:214</div></div>
+<div class="ttc" id="aclassPlayer_html_a54673f6751648b8ae92e02969db2435b"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a54673f6751648b8ae92e02969db2435b">Player::conceded</a></div><div class="ttdeci">bool conceded</div><div class="ttdef"><b>Definition</b> player.h:242</div></div>
 <div class="ttc" id="aclassPlayer_html_a547f548efa8a469498ea310fcbe9fd1f"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a547f548efa8a469498ea310fcbe9fd1f">Player::openDeckEditor</a></div><div class="ttdeci">void openDeckEditor(const DeckLoader *deck)</div></div>
 <div class="ttc" id="aclassPlayer_html_a5867fe5901600d6b8cdec073ba08a174"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a5867fe5901600d6b8cdec073ba08a174">Player::removeArrow</a></div><div class="ttdeci">void removeArrow(ArrowItem *arrow)</div><div class="ttdef"><b>Definition</b> player.cpp:422</div></div>
 <div class="ttc" id="aclassPlayer_html_a5f6b778e47a5c821b17cf122dc3ecc12"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a5f6b778e47a5c821b17cf122dc3ecc12">Player::activeChanged</a></div><div class="ttdeci">void activeChanged(bool active)</div></div>
-<div class="ttc" id="aclassPlayer_html_a6167843ff3c990bee46cd490e43e85e0"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a6167843ff3c990bee46cd490e43e85e0">Player::zoneId</a></div><div class="ttdeci">int zoneId</div><div class="ttdef"><b>Definition</b> player.h:240</div></div>
-<div class="ttc" id="aclassPlayer_html_a637514c84aa72b53d01c7dbfcd75c934"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a637514c84aa72b53d01c7dbfcd75c934">Player::getDeckZone</a></div><div class="ttdeci">PileZoneLogic * getDeckZone()</div><div class="ttdef"><b>Definition</b> player.h:150</div></div>
+<div class="ttc" id="aclassPlayer_html_a6167843ff3c990bee46cd490e43e85e0"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a6167843ff3c990bee46cd490e43e85e0">Player::zoneId</a></div><div class="ttdeci">int zoneId</div><div class="ttdef"><b>Definition</b> player.h:246</div></div>
+<div class="ttc" id="aclassPlayer_html_a637514c84aa72b53d01c7dbfcd75c934"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a637514c84aa72b53d01c7dbfcd75c934">Player::getDeckZone</a></div><div class="ttdeci">PileZoneLogic * getDeckZone()</div><div class="ttdef"><b>Definition</b> player.h:156</div></div>
 <div class="ttc" id="aclassPlayer_html_a64213f0b556a2df495509b7e34a25412"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a64213f0b556a2df495509b7e34a25412">Player::concededChanged</a></div><div class="ttdeci">void concededChanged(int playerId, bool conceded)</div></div>
-<div class="ttc" id="aclassPlayer_html_a66660e350ae109217844c3f8b2bd648b"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a66660e350ae109217844c3f8b2bd648b">Player::addZone</a></div><div class="ttdeci">T * addZone(T *zone)</div><div class="ttdef"><b>Definition</b> player.h:134</div></div>
+<div class="ttc" id="aclassPlayer_html_a66660e350ae109217844c3f8b2bd648b"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a66660e350ae109217844c3f8b2bd648b">Player::addZone</a></div><div class="ttdeci">T * addZone(T *zone)</div><div class="ttdef"><b>Definition</b> player.h:140</div></div>
 <div class="ttc" id="aclassPlayer_html_a6a1b757c13cd3753edd3bd96757a3616"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a6a1b757c13cd3753edd3bd96757a3616">Player::setDeck</a></div><div class="ttdeci">void setDeck(const DeckLoader &amp;_deck)</div><div class="ttdef"><b>Definition</b> player.cpp:266</div></div>
 <div class="ttc" id="aclassPlayer_html_a6b1cd6265e773f27f1229871ea312308"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a6b1cd6265e773f27f1229871ea312308">Player::addArrow</a></div><div class="ttdeci">ArrowItem * addArrow(const ServerInfo_Arrow &amp;arrow)</div><div class="ttdef"><b>Definition</b> player.cpp:369</div></div>
-<div class="ttc" id="aclassPlayer_html_a6b9c75edff7c998cd832b8b693302161"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a6b9c75edff7c998cd832b8b693302161">Player::playerActions</a></div><div class="ttdeci">PlayerActions * playerActions</div><div class="ttdef"><b>Definition</b> player.h:231</div></div>
-<div class="ttc" id="aclassPlayer_html_a735fb5589b52492f1306fad6d3698a61"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a735fb5589b52492f1306fad6d3698a61">Player::game</a></div><div class="ttdeci">AbstractGame * game</div><div class="ttdef"><b>Definition</b> player.h:228</div></div>
-<div class="ttc" id="aclassPlayer_html_a73bc6bbc4d9a84070062372de9336010"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a73bc6bbc4d9a84070062372de9336010">Player::getZones</a></div><div class="ttdeci">const QMap&lt; QString, CardZoneLogic * &gt; &amp; getZones() const</div><div class="ttdef"><b>Definition</b> player.h:145</div></div>
-<div class="ttc" id="aclassPlayer_html_a77145607573b61e348d2fc029778ef1f"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a77145607573b61e348d2fc029778ef1f">Player::setDialogSemaphore</a></div><div class="ttdeci">void setDialogSemaphore(const bool _active)</div><div class="ttdef"><b>Definition</b> player.h:215</div></div>
-<div class="ttc" id="aclassPlayer_html_a7803e62c22ad3dce544bc26928cb184d"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a7803e62c22ad3dce544bc26928cb184d">Player::getStackZone</a></div><div class="ttdeci">StackZoneLogic * getStackZone()</div><div class="ttdef"><b>Definition</b> player.h:175</div></div>
-<div class="ttc" id="aclassPlayer_html_a7b4c5a08c625abaaa66afda79864137d"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a7b4c5a08c625abaaa66afda79864137d">Player::getArrows</a></div><div class="ttdeci">const QMap&lt; int, ArrowItem * &gt; &amp; getArrows() const</div><div class="ttdef"><b>Definition</b> player.h:202</div></div>
-<div class="ttc" id="aclassPlayer_html_a7b8e0ca40e193e748d423098f69e83fc"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a7b8e0ca40e193e748d423098f69e83fc">Player::playerMenu</a></div><div class="ttdeci">PlayerMenu * playerMenu</div><div class="ttdef"><b>Definition</b> player.h:232</div></div>
+<div class="ttc" id="aclassPlayer_html_a6b9c75edff7c998cd832b8b693302161"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a6b9c75edff7c998cd832b8b693302161">Player::playerActions</a></div><div class="ttdeci">PlayerActions * playerActions</div><div class="ttdef"><b>Definition</b> player.h:237</div></div>
+<div class="ttc" id="aclassPlayer_html_a735fb5589b52492f1306fad6d3698a61"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a735fb5589b52492f1306fad6d3698a61">Player::game</a></div><div class="ttdeci">AbstractGame * game</div><div class="ttdef"><b>Definition</b> player.h:234</div></div>
+<div class="ttc" id="aclassPlayer_html_a73bc6bbc4d9a84070062372de9336010"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a73bc6bbc4d9a84070062372de9336010">Player::getZones</a></div><div class="ttdeci">const QMap&lt; QString, CardZoneLogic * &gt; &amp; getZones() const</div><div class="ttdef"><b>Definition</b> player.h:151</div></div>
+<div class="ttc" id="aclassPlayer_html_a77145607573b61e348d2fc029778ef1f"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a77145607573b61e348d2fc029778ef1f">Player::setDialogSemaphore</a></div><div class="ttdeci">void setDialogSemaphore(const bool _active)</div><div class="ttdef"><b>Definition</b> player.h:221</div></div>
+<div class="ttc" id="aclassPlayer_html_a7803e62c22ad3dce544bc26928cb184d"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a7803e62c22ad3dce544bc26928cb184d">Player::getStackZone</a></div><div class="ttdeci">StackZoneLogic * getStackZone()</div><div class="ttdef"><b>Definition</b> player.h:181</div></div>
+<div class="ttc" id="aclassPlayer_html_a7b4c5a08c625abaaa66afda79864137d"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a7b4c5a08c625abaaa66afda79864137d">Player::getArrows</a></div><div class="ttdeci">const QMap&lt; int, ArrowItem * &gt; &amp; getArrows() const</div><div class="ttdef"><b>Definition</b> player.h:208</div></div>
+<div class="ttc" id="aclassPlayer_html_a7b8e0ca40e193e748d423098f69e83fc"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a7b8e0ca40e193e748d423098f69e83fc">Player::playerMenu</a></div><div class="ttdeci">PlayerMenu * playerMenu</div><div class="ttdef"><b>Definition</b> player.h:238</div></div>
 <div class="ttc" id="aclassPlayer_html_a7d5808d05ff9f7ba7cd96d9fa7c5e10f"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a7d5808d05ff9f7ba7cd96d9fa7c5e10f">Player::delArrow</a></div><div class="ttdeci">void delArrow(int arrowId)</div><div class="ttdef"><b>Definition</b> player.cpp:413</div></div>
-<div class="ttc" id="aclassPlayer_html_a7e1c6f0f821ce6405ca1fb1a45f11762"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a7e1c6f0f821ce6405ca1fb1a45f11762">Player::playerEventHandler</a></div><div class="ttdeci">PlayerEventHandler * playerEventHandler</div><div class="ttdef"><b>Definition</b> player.h:230</div></div>
+<div class="ttc" id="aclassPlayer_html_a7e1c6f0f821ce6405ca1fb1a45f11762"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a7e1c6f0f821ce6405ca1fb1a45f11762">Player::playerEventHandler</a></div><div class="ttdeci">PlayerEventHandler * playerEventHandler</div><div class="ttdef"><b>Definition</b> player.h:236</div></div>
 <div class="ttc" id="aclassPlayer_html_a804aa3bbae4dcf90f0e217baf8951ebf"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a804aa3bbae4dcf90f0e217baf8951ebf">Player::addViewCustomZoneActionToCustomZoneMenu</a></div><div class="ttdeci">void addViewCustomZoneActionToCustomZoneMenu(QString zoneName)</div></div>
 <div class="ttc" id="aclassPlayer_html_a81f30f311da94b7ccf3f56bf447a9d52"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a81f30f311da94b7ccf3f56bf447a9d52">Player::getGraphicsItem</a></div><div class="ttdeci">PlayerGraphicsItem * getGraphicsItem()</div><div class="ttdef"><b>Definition</b> player.cpp:465</div></div>
-<div class="ttc" id="aclassPlayer_html_a87aa3aa756c4d6d93523a920ba4a1d5c"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a87aa3aa756c4d6d93523a920ba4a1d5c">Player::getHandZone</a></div><div class="ttdeci">HandZoneLogic * getHandZone()</div><div class="ttdef"><b>Definition</b> player.h:180</div></div>
-<div class="ttc" id="aclassPlayer_html_a8934b8e9ca368ba3414ac710786b7cdb"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a8934b8e9ca368ba3414ac710786b7cdb">Player::playerInfo</a></div><div class="ttdeci">PlayerInfo * playerInfo</div><div class="ttdef"><b>Definition</b> player.h:229</div></div>
-<div class="ttc" id="aclassPlayer_html_a89c449904636358a9361fe5a182b04db"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a89c449904636358a9361fe5a182b04db">Player::getCounters</a></div><div class="ttdeci">QMap&lt; int, AbstractCounter * &gt; getCounters()</div><div class="ttdef"><b>Definition</b> player.h:191</div></div>
+<div class="ttc" id="aclassPlayer_html_a87aa3aa756c4d6d93523a920ba4a1d5c"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a87aa3aa756c4d6d93523a920ba4a1d5c">Player::getHandZone</a></div><div class="ttdeci">HandZoneLogic * getHandZone()</div><div class="ttdef"><b>Definition</b> player.h:186</div></div>
+<div class="ttc" id="aclassPlayer_html_a8934b8e9ca368ba3414ac710786b7cdb"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a8934b8e9ca368ba3414ac710786b7cdb">Player::playerInfo</a></div><div class="ttdeci">PlayerInfo * playerInfo</div><div class="ttdef"><b>Definition</b> player.h:235</div></div>
+<div class="ttc" id="aclassPlayer_html_a89c449904636358a9361fe5a182b04db"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a89c449904636358a9361fe5a182b04db">Player::getCounters</a></div><div class="ttdeci">QMap&lt; int, AbstractCounter * &gt; getCounters()</div><div class="ttdef"><b>Definition</b> player.h:197</div></div>
 <div class="ttc" id="aclassPlayer_html_a8ed544987af18de0e6b2932206bf1186"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a8ed544987af18de0e6b2932206bf1186">Player::~Player</a></div><div class="ttdeci">~Player() override</div><div class="ttdef"><b>Definition</b> player.cpp:75</div></div>
-<div class="ttc" id="aclassPlayer_html_a983d905fd90661bd69b40d8a1259e156"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a983d905fd90661bd69b40d8a1259e156">Player::active</a></div><div class="ttdeci">bool active</div><div class="ttdef"><b>Definition</b> player.h:235</div></div>
+<div class="ttc" id="aclassPlayer_html_a983d905fd90661bd69b40d8a1259e156"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a983d905fd90661bd69b40d8a1259e156">Player::active</a></div><div class="ttdeci">bool active</div><div class="ttdef"><b>Definition</b> player.h:241</div></div>
 <div class="ttc" id="aclassPlayer_html_a9fd0045af300993b8bc654ad90467760"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#a9fd0045af300993b8bc654ad90467760">Player::setActive</a></div><div class="ttdeci">void setActive(bool _active)</div><div class="ttdef"><b>Definition</b> player.cpp:454</div></div>
 <div class="ttc" id="aclassPlayer_html_aa405011eb56093c100eab50fbb42f19a"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#aa405011eb56093c100eab50fbb42f19a">Player::deleteCard</a></div><div class="ttdeci">void deleteCard(CardItem *c)</div><div class="ttdef"><b>Definition</b> player.cpp:255</div></div>
-<div class="ttc" id="aclassPlayer_html_aa5034d7e112ce5c358a825c307af41f0"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">Player::zones</a></div><div class="ttdeci">QMap&lt; QString, CardZoneLogic * &gt; zones</div><div class="ttdef"><b>Definition</b> player.h:241</div></div>
-<div class="ttc" id="aclassPlayer_html_aa84c9147fe8d8e0a60a2b3346f0e3d64"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#aa84c9147fe8d8e0a60a2b3346f0e3d64">Player::cardsToDelete</a></div><div class="ttdeci">QList&lt; CardItem * &gt; cardsToDelete</div><div class="ttdef"><b>Definition</b> player.h:246</div></div>
+<div class="ttc" id="aclassPlayer_html_aa5034d7e112ce5c358a825c307af41f0"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#aa5034d7e112ce5c358a825c307af41f0">Player::zones</a></div><div class="ttdeci">QMap&lt; QString, CardZoneLogic * &gt; zones</div><div class="ttdef"><b>Definition</b> player.h:247</div></div>
+<div class="ttc" id="aclassPlayer_html_aa84c9147fe8d8e0a60a2b3346f0e3d64"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#aa84c9147fe8d8e0a60a2b3346f0e3d64">Player::cardsToDelete</a></div><div class="ttdeci">QList&lt; CardItem * &gt; cardsToDelete</div><div class="ttdef"><b>Definition</b> player.h:252</div></div>
 <div class="ttc" id="aclassPlayer_html_aaaa994c03b60f1433778a50df5f26ed9"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#aaaa994c03b60f1433778a50df5f26ed9">Player::getGameScene</a></div><div class="ttdeci">GameScene * getGameScene()</div><div class="ttdef"><b>Definition</b> player.cpp:470</div></div>
-<div class="ttc" id="aclassPlayer_html_aaadcfdaf7cc8e84dfdbeb8e99f453974"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#aaadcfdaf7cc8e84dfdbeb8e99f453974">Player::getPlayerMenu</a></div><div class="ttdeci">PlayerMenu * getPlayerMenu() const</div><div class="ttdef"><b>Definition</b> player.h:122</div></div>
+<div class="ttc" id="aclassPlayer_html_aaadcfdaf7cc8e84dfdbeb8e99f453974"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#aaadcfdaf7cc8e84dfdbeb8e99f453974">Player::getPlayerMenu</a></div><div class="ttdeci">PlayerMenu * getPlayerMenu() const</div><div class="ttdef"><b>Definition</b> player.h:128</div></div>
 <div class="ttc" id="aclassPlayer_html_ab0361a1fe7642e6548071678afaac68b"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ab0361a1fe7642e6548071678afaac68b">Player::deckChanged</a></div><div class="ttdeci">void deckChanged()</div></div>
-<div class="ttc" id="aclassPlayer_html_ab19b1448b851b44af798e9c121fd082f"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ab19b1448b851b44af798e9c121fd082f">Player::getGraveZone</a></div><div class="ttdeci">PileZoneLogic * getGraveZone()</div><div class="ttdef"><b>Definition</b> player.h:155</div></div>
-<div class="ttc" id="aclassPlayer_html_ab2570989d062517bb5bbe9c10ba3f53f"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ab2570989d062517bb5bbe9c10ba3f53f">Player::arrows</a></div><div class="ttdeci">QMap&lt; int, ArrowItem * &gt; arrows</div><div class="ttdef"><b>Definition</b> player.h:243</div></div>
+<div class="ttc" id="aclassPlayer_html_ab19b1448b851b44af798e9c121fd082f"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ab19b1448b851b44af798e9c121fd082f">Player::getGraveZone</a></div><div class="ttdeci">PileZoneLogic * getGraveZone()</div><div class="ttdef"><b>Definition</b> player.h:161</div></div>
+<div class="ttc" id="aclassPlayer_html_ab2570989d062517bb5bbe9c10ba3f53f"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ab2570989d062517bb5bbe9c10ba3f53f">Player::arrows</a></div><div class="ttdeci">QMap&lt; int, ArrowItem * &gt; arrows</div><div class="ttdef"><b>Definition</b> player.h:249</div></div>
 <div class="ttc" id="aclassPlayer_html_abbdb28c9abd06aa6c3e8243b2d29b6bb"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#abbdb28c9abd06aa6c3e8243b2d29b6bb">Player::resetTopCardMenuActions</a></div><div class="ttdeci">void resetTopCardMenuActions()</div></div>
 <div class="ttc" id="aclassPlayer_html_abc9f2bfac2e7d08b507c86b51d15d4e9"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#abc9f2bfac2e7d08b507c86b51d15d4e9">Player::processCardAttachment</a></div><div class="ttdeci">void processCardAttachment(const ServerInfo_Player &amp;info)</div><div class="ttdef"><b>Definition</b> player.cpp:217</div></div>
-<div class="ttc" id="aclassPlayer_html_acbb8ce06841a5209c3681a7229ab3d35"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#acbb8ce06841a5209c3681a7229ab3d35">Player::getSideboardZone</a></div><div class="ttdeci">PileZoneLogic * getSideboardZone()</div><div class="ttdef"><b>Definition</b> player.h:165</div></div>
+<div class="ttc" id="aclassPlayer_html_acbb8ce06841a5209c3681a7229ab3d35"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#acbb8ce06841a5209c3681a7229ab3d35">Player::getSideboardZone</a></div><div class="ttdeci">PileZoneLogic * getSideboardZone()</div><div class="ttdef"><b>Definition</b> player.h:171</div></div>
 <div class="ttc" id="aclassPlayer_html_acecfe0ea3b9be9f8e72adf12e9ab085c"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#acecfe0ea3b9be9f8e72adf12e9ab085c">Player::delCounter</a></div><div class="ttdeci">void delCounter(int counterId)</div><div class="ttdef"><b>Definition</b> player.cpp:303</div></div>
 <div class="ttc" id="aclassPlayer_html_acf6b51ff8f307bd8e7ff78557fd88d7a"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#acf6b51ff8f307bd8e7ff78557fd88d7a">Player::newCardAdded</a></div><div class="ttdeci">void newCardAdded(AbstractCardItem *card)</div></div>
-<div class="ttc" id="aclassPlayer_html_ad0a83fdb6f3d25d3897e831b3cd6e9a0"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ad0a83fdb6f3d25d3897e831b3cd6e9a0">Player::deck</a></div><div class="ttdeci">DeckLoader * deck</div><div class="ttdef"><b>Definition</b> player.h:238</div></div>
+<div class="ttc" id="aclassPlayer_html_ad0a83fdb6f3d25d3897e831b3cd6e9a0"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ad0a83fdb6f3d25d3897e831b3cd6e9a0">Player::deck</a></div><div class="ttdeci">DeckLoader * deck</div><div class="ttdef"><b>Definition</b> player.h:244</div></div>
 <div class="ttc" id="aclassPlayer_html_ad454d65992737fcdcb30119c9bbd8f76"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ad454d65992737fcdcb30119c9bbd8f76">Player::initializeZones</a></div><div class="ttdeci">void initializeZones()</div><div class="ttdef"><b>Definition</b> player.cpp:62</div></div>
-<div class="ttc" id="aclassPlayer_html_ad46281e97b39abd661c138d30646f879"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ad46281e97b39abd661c138d30646f879">Player::getPlayerActions</a></div><div class="ttdeci">PlayerActions * getPlayerActions() const</div><div class="ttdef"><b>Definition</b> player.h:107</div></div>
+<div class="ttc" id="aclassPlayer_html_ad46281e97b39abd661c138d30646f879"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ad46281e97b39abd661c138d30646f879">Player::getPlayerActions</a></div><div class="ttdeci">PlayerActions * getPlayerActions() const</div><div class="ttdef"><b>Definition</b> player.h:113</div></div>
 <div class="ttc" id="aclassPlayer_html_ad5c3f796deddfeb174d30bb32bcc13d4"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ad5c3f796deddfeb174d30bb32bcc13d4">Player::setZoneId</a></div><div class="ttdeci">void setZoneId(int _zoneId)</div><div class="ttdef"><b>Definition</b> player.cpp:113</div></div>
-<div class="ttc" id="aclassPlayer_html_addd678ace612ecaaaab4af555dc27314"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#addd678ace612ecaaaab4af555dc27314">Player::getPlayerEventHandler</a></div><div class="ttdeci">PlayerEventHandler * getPlayerEventHandler() const</div><div class="ttdef"><b>Definition</b> player.h:112</div></div>
-<div class="ttc" id="aclassPlayer_html_ae18681d3239efefced57f08e2eb78822"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ae18681d3239efefced57f08e2eb78822">Player::counters</a></div><div class="ttdeci">QMap&lt; int, AbstractCounter * &gt; counters</div><div class="ttdef"><b>Definition</b> player.h:242</div></div>
+<div class="ttc" id="aclassPlayer_html_addd678ace612ecaaaab4af555dc27314"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#addd678ace612ecaaaab4af555dc27314">Player::getPlayerEventHandler</a></div><div class="ttdeci">PlayerEventHandler * getPlayerEventHandler() const</div><div class="ttdef"><b>Definition</b> player.h:118</div></div>
+<div class="ttc" id="aclassPlayer_html_ae18681d3239efefced57f08e2eb78822"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ae18681d3239efefced57f08e2eb78822">Player::counters</a></div><div class="ttdeci">QMap&lt; int, AbstractCounter * &gt; counters</div><div class="ttdef"><b>Definition</b> player.h:248</div></div>
 <div class="ttc" id="aclassPlayer_html_ae47d8c6dd5994f9d2994b426170317d4"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ae47d8c6dd5994f9d2994b426170317d4">Player::clearCardsToDelete</a></div><div class="ttdeci">bool clearCardsToDelete()</div><div class="ttdef"><b>Definition</b> player.cpp:438</div></div>
-<div class="ttc" id="aclassPlayer_html_ae518d19009a8604a8538f9c5fb083474"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ae518d19009a8604a8538f9c5fb083474">Player::getPlayerInfo</a></div><div class="ttdeci">PlayerInfo * getPlayerInfo() const</div><div class="ttdef"><b>Definition</b> player.h:117</div></div>
-<div class="ttc" id="aclassPlayer_html_ae80688e59275f20098aedbc0df702667"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ae80688e59275f20098aedbc0df702667">Player::getActive</a></div><div class="ttdeci">bool getActive() const</div><div class="ttdef"><b>Definition</b> player.h:93</div></div>
+<div class="ttc" id="aclassPlayer_html_ae518d19009a8604a8538f9c5fb083474"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ae518d19009a8604a8538f9c5fb083474">Player::getPlayerInfo</a></div><div class="ttdeci">PlayerInfo * getPlayerInfo() const</div><div class="ttdef"><b>Definition</b> player.h:123</div></div>
+<div class="ttc" id="aclassPlayer_html_ae80688e59275f20098aedbc0df702667"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#ae80688e59275f20098aedbc0df702667">Player::getActive</a></div><div class="ttdeci">bool getActive() const</div><div class="ttdef"><b>Definition</b> player.h:99</div></div>
 <div class="ttc" id="aclassPlayer_html_af1dda5581f5f56c61bac0cf07a300bdd"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#af1dda5581f5f56c61bac0cf07a300bdd">Player::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition</b> player.cpp:88</div></div>
 <div class="ttc" id="aclassPlayer_html_af5ec7bd46c6cbb62cf26f0fbf89ce90d"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#af5ec7bd46c6cbb62cf26f0fbf89ce90d">Player::clearCounters</a></div><div class="ttdeci">void clearCounters()</div><div class="ttdef"><b>Definition</b> player.cpp:315</div></div>
-<div class="ttc" id="aclassPlayer_html_af7cfc2b66a72002d9f290285499a0a3b"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#af7cfc2b66a72002d9f290285499a0a3b">Player::getGame</a></div><div class="ttdeci">AbstractGame * getGame() const</div><div class="ttdef"><b>Definition</b> player.h:98</div></div>
-<div class="ttc" id="aclassPlayer_html_af94765400d55be988cdc1b0e78de80d6"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#af94765400d55be988cdc1b0e78de80d6">Player::graphicsItem</a></div><div class="ttdeci">PlayerGraphicsItem * graphicsItem</div><div class="ttdef"><b>Definition</b> player.h:233</div></div>
+<div class="ttc" id="aclassPlayer_html_af7cfc2b66a72002d9f290285499a0a3b"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#af7cfc2b66a72002d9f290285499a0a3b">Player::getGame</a></div><div class="ttdeci">AbstractGame * getGame() const</div><div class="ttdef"><b>Definition</b> player.h:104</div></div>
+<div class="ttc" id="aclassPlayer_html_af94765400d55be988cdc1b0e78de80d6"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#af94765400d55be988cdc1b0e78de80d6">Player::graphicsItem</a></div><div class="ttdeci">PlayerGraphicsItem * graphicsItem</div><div class="ttdef"><b>Definition</b> player.h:239</div></div>
 <div class="ttc" id="aclassPlayer_html_afaa8b7bbc1b7d1becf26769fdf50d92a"><div class="ttname"><a href="../../d2/d4b/classPlayer.html#afaa8b7bbc1b7d1becf26769fdf50d92a">Player::clearArrows</a></div><div class="ttdeci">void clearArrows()</div><div class="ttdef"><b>Definition</b> player.cpp:429</div></div>
-<div class="ttc" id="aclassStackZoneLogic_html"><div class="ttname"><a href="../../db/dfe/classStackZoneLogic.html">StackZoneLogic</a></div><div class="ttdef"><b>Definition</b> stack_zone_logic.h:6</div></div>
-<div class="ttc" id="aclassTabGame_html"><div class="ttname"><a href="../../de/d08/classTabGame.html">TabGame</a></div><div class="ttdef"><b>Definition</b> tab_game.h:51</div></div>
-<div class="ttc" id="aclassTableZoneLogic_html"><div class="ttname"><a href="../../dc/ded/classTableZoneLogic.html">TableZoneLogic</a></div><div class="ttdef"><b>Definition</b> table_zone_logic.h:6</div></div>
-<div class="ttc" id="anamespacegoogle_html"><div class="ttname"><a href="../../df/d40/namespacegoogle.html">google</a></div><div class="ttdef"><b>Definition</b> phases_toolbar.h:11</div></div>
+<div class="ttc" id="aclassStackZoneLogic_html"><div class="ttname"><a href="../../db/dfe/classStackZoneLogic.html">StackZoneLogic</a></div><div class="ttdef"><b>Definition</b> stack_zone_logic.h:12</div></div>
+<div class="ttc" id="aclassTabGame_html"><div class="ttname"><a href="../../de/d08/classTabGame.html">TabGame</a></div><div class="ttdef"><b>Definition</b> tab_game.h:59</div></div>
+<div class="ttc" id="aclassTableZoneLogic_html"><div class="ttname"><a href="../../dc/ded/classTableZoneLogic.html">TableZoneLogic</a></div><div class="ttdef"><b>Definition</b> table_zone_logic.h:12</div></div>
+<div class="ttc" id="anamespacegoogle_html"><div class="ttname"><a href="../../df/d40/namespacegoogle.html">google</a></div><div class="ttdef"><b>Definition</b> phases_toolbar.h:18</div></div>
 <div class="ttc" id="aplayer_8h_html_a3a0d2e7f7c0157ea70e4e27201c4118d"><div class="ttname"><a href="../../d3/d62/player_8h.html#a3a0d2e7f7c0157ea70e4e27201c4118d">Q_LOGGING_CATEGORY</a></div><div class="ttdeci">Q_LOGGING_CATEGORY(PlayerLog, &quot;player&quot;)</div></div>
-<div class="ttc" id="aplayer_8h_html_aafcdf921bec4b401b05f6c8833ca494b"><div class="ttname"><a href="../../d3/d62/player_8h.html#aafcdf921bec4b401b05f6c8833ca494b">MAX_TOKENS_PER_DIALOG</a></div><div class="ttdeci">const int MAX_TOKENS_PER_DIALOG</div><div class="ttdef"><b>Definition</b> player.h:56</div></div>
-<div class="ttc" id="aplayer__actions_8h_html"><div class="ttname"><a href="../../d9/db7/player__actions_8h.html">player_actions.h</a></div></div>
-<div class="ttc" id="aplayer__area_8h_html"><div class="ttname"><a href="../../da/d9e/player__area_8h.html">player_area.h</a></div></div>
-<div class="ttc" id="aplayer__event__handler_8h_html"><div class="ttname"><a href="../../d8/df5/player__event__handler_8h.html">player_event_handler.h</a></div></div>
-<div class="ttc" id="aplayer__graphics__item_8h_html"><div class="ttname"><a href="../../db/d6e/player__graphics__item_8h.html">player_graphics_item.h</a></div></div>
-<div class="ttc" id="aplayer__info_8h_html"><div class="ttname"><a href="../../d3/d83/player__info_8h.html">player_info.h</a></div></div>
-<div class="ttc" id="aplayer__menu_8h_html"><div class="ttname"><a href="../../d1/d74/player__menu_8h.html">player_menu.h</a></div></div>
+<div class="ttc" id="aplayer_8h_html_aafcdf921bec4b401b05f6c8833ca494b"><div class="ttname"><a href="../../d3/d62/player_8h.html#aafcdf921bec4b401b05f6c8833ca494b">MAX_TOKENS_PER_DIALOG</a></div><div class="ttdeci">const int MAX_TOKENS_PER_DIALOG</div><div class="ttdef"><b>Definition</b> player.h:62</div></div>
+<div class="ttc" id="aplayer__actions_8h_html"><div class="ttname"><a href="../../d9/db7/player__actions_8h.html">player_actions.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
+<div class="ttc" id="aplayer__area_8h_html"><div class="ttname"><a href="../../da/d9e/player__area_8h.html">player_area.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
+<div class="ttc" id="aplayer__event__handler_8h_html"><div class="ttname"><a href="../../d8/df5/player__event__handler_8h.html">player_event_handler.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
+<div class="ttc" id="aplayer__graphics__item_8h_html"><div class="ttname"><a href="../../db/d6e/player__graphics__item_8h.html">player_graphics_item.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
+<div class="ttc" id="aplayer__info_8h_html"><div class="ttname"><a href="../../d3/d83/player__info_8h.html">player_info.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
+<div class="ttc" id="aplayer__menu_8h_html"><div class="ttname"><a href="../../d1/d74/player__menu_8h.html">player_menu.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

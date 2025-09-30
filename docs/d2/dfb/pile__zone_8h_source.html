@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,58 +108,59 @@ $(document).ready(function(){initNavTree('d2/dfb/pile__zone_8h_source.html','../
   <div class="headertitle"><div class="title">pile_zone.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d2/dfb/pile__zone_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PILEZONE_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PILEZONE_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../de/dc7/card__zone_8h.html">card_zone.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="../../d7/d36/pile__zone__logic_8h.html">logic/pile_zone_logic.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../d6/d02/classPileZone.html">   11</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d6/d02/classPileZone.html">PileZone</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../de/da1/classCardZone.html">CardZone</a></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    Q_OBJECT</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">private</span> slots:</div>
-<div class="foldopen" id="foldopen00015" data-start="{" data-end="}">
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../d6/d02/classPileZone.html#ab45ed5ad0e7579f13fb60ef3ce8dec82">   15</a></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d6/d02/classPileZone.html#ab45ed5ad0e7579f13fb60ef3ce8dec82">callUpdate</a>()</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    {</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        update();</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    }</div>
+<a href="../../d2/dfb/pile__zone_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef PILEZONE_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define PILEZONE_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../de/dc7/card__zone_8h.html">card_zone.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="../../d7/d36/pile__zone__logic_8h.html">logic/pile_zone_logic.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d6/d02/classPileZone.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d6/d02/classPileZone.html">PileZone</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../de/da1/classCardZone.html">CardZone</a></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    Q_OBJECT</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">private</span> slots:</div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="}">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d6/d02/classPileZone.html#ab45ed5ad0e7579f13fb60ef3ce8dec82">   21</a></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d6/d02/classPileZone.html#ab45ed5ad0e7579f13fb60ef3ce8dec82">callUpdate</a>()</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    {</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        update();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    }</div>
 </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_class" href="../../d6/d02/classPileZone.html">PileZone</a>(<a class="code hl_class" href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a> *_logic, QGraphicsItem *parent);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    [[nodiscard]] QRectF <a class="code hl_function" href="../../d6/d02/classPileZone.html#a773e24e37e84a0026b3a57464d8181fb">boundingRect</a>() <span class="keyword">const override</span>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    [[nodiscard]] QPainterPath <a class="code hl_function" href="../../d6/d02/classPileZone.html#a480fd358f852dc7f2a953474b2864566">shape</a>() <span class="keyword">const override</span>;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d02/classPileZone.html#a5a12fb85c85f980f8423e9f74a057bca">paint</a>(QPainter *painter, <span class="keyword">const</span> QStyleOptionGraphicsItem *option, QWidget *widget) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d02/classPileZone.html#a8fb5583aa9b1933a36626eff58d4cfb4">reorganizeCards</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">void</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_function" href="../../d6/d02/classPileZone.html#a073cc33b30b3d04ea1b1397a5b59964e">handleDropEvent</a>(<span class="keyword">const</span> QList&lt;CardDragItem *&gt; &amp;dragItems, <a class="code hl_class" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *startZone, <span class="keyword">const</span> QPoint &amp;dropPoint) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d02/classPileZone.html#a6130d6b891b0c724dd62e7f20aca1731">mousePressEvent</a>(QGraphicsSceneMouseEvent *event) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d02/classPileZone.html#ab669754dc450611cf18dd36da068e680">mouseMoveEvent</a>(QGraphicsSceneMouseEvent *event) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d02/classPileZone.html#aeb6561dcdb7a89df8fbb753b1b45a7cc">mouseReleaseEvent</a>(QGraphicsSceneMouseEvent *event) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d02/classPileZone.html#ad7a0b603c0ee39a54a8dcb969d777cfd">hoverEnterEvent</a>(QGraphicsSceneHoverEvent *event) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_class" href="../../d6/d02/classPileZone.html">PileZone</a>(<a class="code hl_class" href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a> *_logic, QGraphicsItem *parent);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    [[nodiscard]] QRectF <a class="code hl_function" href="../../d6/d02/classPileZone.html#a773e24e37e84a0026b3a57464d8181fb">boundingRect</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    [[nodiscard]] QPainterPath <a class="code hl_function" href="../../d6/d02/classPileZone.html#a480fd358f852dc7f2a953474b2864566">shape</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d02/classPileZone.html#a5a12fb85c85f980f8423e9f74a057bca">paint</a>(QPainter *painter, <span class="keyword">const</span> QStyleOptionGraphicsItem *option, QWidget *widget) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d02/classPileZone.html#a8fb5583aa9b1933a36626eff58d4cfb4">reorganizeCards</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">void</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_function" href="../../d6/d02/classPileZone.html#a073cc33b30b3d04ea1b1397a5b59964e">handleDropEvent</a>(<span class="keyword">const</span> QList&lt;CardDragItem *&gt; &amp;dragItems, <a class="code hl_class" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *startZone, <span class="keyword">const</span> QPoint &amp;dropPoint) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d02/classPileZone.html#a6130d6b891b0c724dd62e7f20aca1731">mousePressEvent</a>(QGraphicsSceneMouseEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d02/classPileZone.html#ab669754dc450611cf18dd36da068e680">mouseMoveEvent</a>(QGraphicsSceneMouseEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d02/classPileZone.html#aeb6561dcdb7a89df8fbb753b1b45a7cc">mouseReleaseEvent</a>(QGraphicsSceneMouseEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d02/classPileZone.html#ad7a0b603c0ee39a54a8dcb969d777cfd">hoverEnterEvent</a>(QGraphicsSceneHoverEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>};</div>
 </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="acard__zone_8h_html"><div class="ttname"><a href="../../de/dc7/card__zone_8h.html">card_zone.h</a></div></div>
-<div class="ttc" id="aclassCardZoneLogic_html"><div class="ttname"><a href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a></div><div class="ttdef"><b>Definition</b> card_zone_logic.h:20</div></div>
-<div class="ttc" id="aclassCardZone_html"><div class="ttname"><a href="../../de/da1/classCardZone.html">CardZone</a></div><div class="ttdef"><b>Definition</b> card_zone.h:20</div></div>
-<div class="ttc" id="aclassPileZoneLogic_html"><div class="ttname"><a href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a></div><div class="ttdef"><b>Definition</b> pile_zone_logic.h:6</div></div>
-<div class="ttc" id="aclassPileZone_html"><div class="ttname"><a href="../../d6/d02/classPileZone.html">PileZone</a></div><div class="ttdef"><b>Definition</b> pile_zone.h:12</div></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="acard__zone_8h_html"><div class="ttname"><a href="../../de/dc7/card__zone_8h.html">card_zone.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
+<div class="ttc" id="aclassCardZoneLogic_html"><div class="ttname"><a href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a></div><div class="ttdef"><b>Definition</b> card_zone_logic.h:26</div></div>
+<div class="ttc" id="aclassCardZone_html"><div class="ttname"><a href="../../de/da1/classCardZone.html">CardZone</a></div><div class="ttdef"><b>Definition</b> card_zone.h:26</div></div>
+<div class="ttc" id="aclassPileZoneLogic_html"><div class="ttname"><a href="../../d3/df4/classPileZoneLogic.html">PileZoneLogic</a></div><div class="ttdef"><b>Definition</b> pile_zone_logic.h:12</div></div>
+<div class="ttc" id="aclassPileZone_html"><div class="ttname"><a href="../../d6/d02/classPileZone.html">PileZone</a></div><div class="ttdef"><b>Definition</b> pile_zone.h:18</div></div>
 <div class="ttc" id="aclassPileZone_html_a073cc33b30b3d04ea1b1397a5b59964e"><div class="ttname"><a href="../../d6/d02/classPileZone.html#a073cc33b30b3d04ea1b1397a5b59964e">PileZone::handleDropEvent</a></div><div class="ttdeci">void handleDropEvent(const QList&lt; CardDragItem * &gt; &amp;dragItems, CardZoneLogic *startZone, const QPoint &amp;dropPoint) override</div><div class="ttdef"><b>Definition</b> pile_zone.cpp:60</div></div>
 <div class="ttc" id="aclassPileZone_html_a480fd358f852dc7f2a953474b2864566"><div class="ttname"><a href="../../d6/d02/classPileZone.html#a480fd358f852dc7f2a953474b2864566">PileZone::shape</a></div><div class="ttdeci">QPainterPath shape() const override</div><div class="ttdef"><b>Definition</b> pile_zone.cpp:38</div></div>
 <div class="ttc" id="aclassPileZone_html_a5a12fb85c85f980f8423e9f74a057bca"><div class="ttname"><a href="../../d6/d02/classPileZone.html#a5a12fb85c85f980f8423e9f74a057bca">PileZone::paint</a></div><div class="ttdeci">void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override</div><div class="ttdef"><b>Definition</b> pile_zone.cpp:46</div></div>
 <div class="ttc" id="aclassPileZone_html_a6130d6b891b0c724dd62e7f20aca1731"><div class="ttname"><a href="../../d6/d02/classPileZone.html#a6130d6b891b0c724dd62e7f20aca1731">PileZone::mousePressEvent</a></div><div class="ttdeci">void mousePressEvent(QGraphicsSceneMouseEvent *event) override</div><div class="ttdef"><b>Definition</b> pile_zone.cpp:81</div></div>
 <div class="ttc" id="aclassPileZone_html_a773e24e37e84a0026b3a57464d8181fb"><div class="ttname"><a href="../../d6/d02/classPileZone.html#a773e24e37e84a0026b3a57464d8181fb">PileZone::boundingRect</a></div><div class="ttdeci">QRectF boundingRect() const override</div><div class="ttdef"><b>Definition</b> pile_zone.cpp:33</div></div>
 <div class="ttc" id="aclassPileZone_html_a8fb5583aa9b1933a36626eff58d4cfb4"><div class="ttname"><a href="../../d6/d02/classPileZone.html#a8fb5583aa9b1933a36626eff58d4cfb4">PileZone::reorganizeCards</a></div><div class="ttdeci">void reorganizeCards() override</div><div class="ttdef"><b>Definition</b> pile_zone.cpp:76</div></div>
-<div class="ttc" id="aclassPileZone_html_ab45ed5ad0e7579f13fb60ef3ce8dec82"><div class="ttname"><a href="../../d6/d02/classPileZone.html#ab45ed5ad0e7579f13fb60ef3ce8dec82">PileZone::callUpdate</a></div><div class="ttdeci">void callUpdate()</div><div class="ttdef"><b>Definition</b> pile_zone.h:15</div></div>
+<div class="ttc" id="aclassPileZone_html_ab45ed5ad0e7579f13fb60ef3ce8dec82"><div class="ttname"><a href="../../d6/d02/classPileZone.html#ab45ed5ad0e7579f13fb60ef3ce8dec82">PileZone::callUpdate</a></div><div class="ttdeci">void callUpdate()</div><div class="ttdef"><b>Definition</b> pile_zone.h:21</div></div>
 <div class="ttc" id="aclassPileZone_html_ab669754dc450611cf18dd36da068e680"><div class="ttname"><a href="../../d6/d02/classPileZone.html#ab669754dc450611cf18dd36da068e680">PileZone::mouseMoveEvent</a></div><div class="ttdeci">void mouseMoveEvent(QGraphicsSceneMouseEvent *event) override</div><div class="ttdef"><b>Definition</b> pile_zone.cpp:94</div></div>
 <div class="ttc" id="aclassPileZone_html_ad7a0b603c0ee39a54a8dcb969d777cfd"><div class="ttname"><a href="../../d6/d02/classPileZone.html#ad7a0b603c0ee39a54a8dcb969d777cfd">PileZone::hoverEnterEvent</a></div><div class="ttdeci">void hoverEnterEvent(QGraphicsSceneHoverEvent *event) override</div><div class="ttdef"><b>Definition</b> pile_zone.cpp:118</div></div>
 <div class="ttc" id="aclassPileZone_html_aeb6561dcdb7a89df8fbb753b1b45a7cc"><div class="ttname"><a href="../../d6/d02/classPileZone.html#aeb6561dcdb7a89df8fbb753b1b45a7cc">PileZone::mouseReleaseEvent</a></div><div class="ttdeci">void mouseReleaseEvent(QGraphicsSceneMouseEvent *event) override</div><div class="ttdef"><b>Definition</b> pile_zone.cpp:113</div></div>
-<div class="ttc" id="apile__zone__logic_8h_html"><div class="ttname"><a href="../../d7/d36/pile__zone__logic_8h.html">pile_zone_logic.h</a></div></div>
+<div class="ttc" id="apile__zone__logic_8h_html"><div class="ttname"><a href="../../d7/d36/pile__zone__logic_8h.html">pile_zone_logic.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

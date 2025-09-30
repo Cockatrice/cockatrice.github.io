@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,104 +108,105 @@ $(document).ready(function(){initNavTree('df/d37/tab__message_8h_source.html','.
   <div class="headertitle"><div class="title">tab_message.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../df/d37/tab__message_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef TAB_MESSAGE_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define TAB_MESSAGE_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/ddf/tab_8h.html">tab.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QLoggingCategory&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../df/d37/tab__message_8h.html#a2390f69b6bb194fe3dd0a5892bc241b0">    8</a></span><span class="keyword">inline</span> <a class="code hl_function" href="../../df/d37/tab__message_8h.html#a2390f69b6bb194fe3dd0a5892bc241b0">Q_LOGGING_CATEGORY</a>(TabMessageLog, <span class="stringliteral">&quot;tab_message&quot;</span>);</div>
+<a href="../../df/d37/tab__message_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef TAB_MESSAGE_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define TAB_MESSAGE_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a>;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span><a class="code hl_class" href="../../dc/dea/classChatView.html">ChatView</a>;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span><a class="code hl_class" href="../../da/d45/classLineEditUnfocusable.html">LineEditUnfocusable</a>;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>Event_UserMessage;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>Response;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span>ServerInfo_User;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d1/de7/classTabMessage.html">TabMessage</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../de/d9c/classTab.html">Tab</a></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    Q_OBJECT</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#ab2ffa42e5a21e174a5f3917651c312b7">   21</a></span>    <a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#ab2ffa42e5a21e174a5f3917651c312b7">client</a>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#aa8872f8a73f07f5f8df17e658382dc23">   22</a></span>    QMenu *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#aa8872f8a73f07f5f8df17e658382dc23">messageMenu</a>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#a5eb7d12dd4dedcfa71d2476dd01d7cb3">   23</a></span>    ServerInfo_User *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#a5eb7d12dd4dedcfa71d2476dd01d7cb3">ownUserInfo</a>;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#a5456453c00a60047ff6308c864e532f1">   24</a></span>    ServerInfo_User *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#a5456453c00a60047ff6308c864e532f1">otherUserInfo</a>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#ac20e15d67dc8ed838dbafb36dc04be44">   25</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d1/de7/classTabMessage.html#ac20e15d67dc8ed838dbafb36dc04be44">userOnline</a>;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#a235d3bee784a09b72b4726c3530adeb4">   27</a></span>    <a class="code hl_class" href="../../dc/dea/classChatView.html">ChatView</a> *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#a235d3bee784a09b72b4726c3530adeb4">chatView</a>;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#a04f3e8beb440413521e6e8277086eb75">   28</a></span>    <a class="code hl_class" href="../../da/d45/classLineEditUnfocusable.html">LineEditUnfocusable</a> *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#a04f3e8beb440413521e6e8277086eb75">sayEdit</a>;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#a79e7ae29717afe79629f7161b62c14ef">   30</a></span>    QAction *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#a79e7ae29717afe79629f7161b62c14ef">aLeave</a>;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>signals:</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#a9f69dbb40a6823ca69d710dd58eb197d">   32</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d1/de7/classTabMessage.html#a9f69dbb40a6823ca69d710dd58eb197d">talkClosing</a>(<a class="code hl_class" href="../../d1/de7/classTabMessage.html">TabMessage</a> *tab);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#ab8d08a514b067803f2243ab8d0fb091f">   33</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d1/de7/classTabMessage.html#ab8d08a514b067803f2243ab8d0fb091f">maximizeClient</a>();</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d1/de7/classTabMessage.html#a1bad0eb52df236735b97ea896451de72">sendMessage</a>();</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d1/de7/classTabMessage.html#a2ade29fd0abcd93a31bff539c9688484">messageSent</a>(<span class="keyword">const</span> Response &amp;response);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d1/de7/classTabMessage.html#a1c22772123ad81e3ac23ccefb248c541">addMentionTag</a>(QString mentionTag);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d1/de7/classTabMessage.html#ad9e16f866df70abab7643d3e8e319614">messageClicked</a>();</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">protected</span> slots:</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d1/de7/classTabMessage.html#ab0bc4fcee069cfb2d97f33e2ea07994e">closeEvent</a>(QCloseEvent *event) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_class" href="../../d1/de7/classTabMessage.html">TabMessage</a>(<a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *_tabSupervisor,</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>               <a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *_client,</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>               <span class="keyword">const</span> ServerInfo_User &amp;_ownUserInfo,</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>               <span class="keyword">const</span> ServerInfo_User &amp;_otherUserInfo);</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_function" href="../../d1/de7/classTabMessage.html#a7fe9d2007096a996e21d9344556c36ac">~TabMessage</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#ada57fbcd04ad2d634dc542ea9087a374">retranslateUi</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#a7b390abd4d878128d16fe3acf48607e2">tabActivated</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    QString <a class="code hl_function" href="../../d1/de7/classTabMessage.html#acb6a7a113ddb62928225a4742bd8c751">getUserName</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    QString <a class="code hl_function" href="../../d1/de7/classTabMessage.html#af76b3627d4d9a4c9f2fc896effbe6182">getTabText</a>() <span class="keyword">const override</span>;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#a1d9161d129e4df2d43fe0a1c834630ee">processUserMessageEvent</a>(<span class="keyword">const</span> Event_UserMessage &amp;event);</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#a82aaca44d3cbf40e4fed11301d37555c">processUserLeft</a>();</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#ada030ed1381eb423e59f9fcf455c1026">processUserJoined</a>(<span class="keyword">const</span> ServerInfo_User &amp;_userInfo);</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#a1e01538835d4c6e39c6bc1c4c9547a69">shouldShowSystemPopup</a>(<span class="keyword">const</span> Event_UserMessage &amp;event);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#a203f6e9631fca140219c3320513314fd">showSystemPopup</a>(<span class="keyword">const</span> Event_UserMessage &amp;event);</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>};</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/ddf/tab_8h.html">tab.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QLoggingCategory&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../df/d37/tab__message_8h.html#a2390f69b6bb194fe3dd0a5892bc241b0">   14</a></span><span class="keyword">inline</span> <a class="code hl_function" href="../../df/d37/tab__message_8h.html#a2390f69b6bb194fe3dd0a5892bc241b0">Q_LOGGING_CATEGORY</a>(TabMessageLog, <span class="stringliteral">&quot;tab_message&quot;</span>);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span><a class="code hl_class" href="../../dc/dea/classChatView.html">ChatView</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span><a class="code hl_class" href="../../da/d45/classLineEditUnfocusable.html">LineEditUnfocusable</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span>Event_UserMessage;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">class </span>Response;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">class </span>ServerInfo_User;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html">   23</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d1/de7/classTabMessage.html">TabMessage</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../de/d9c/classTab.html">Tab</a></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    Q_OBJECT</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#ab2ffa42e5a21e174a5f3917651c312b7">   27</a></span>    <a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#ab2ffa42e5a21e174a5f3917651c312b7">client</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#aa8872f8a73f07f5f8df17e658382dc23">   28</a></span>    QMenu *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#aa8872f8a73f07f5f8df17e658382dc23">messageMenu</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#a5eb7d12dd4dedcfa71d2476dd01d7cb3">   29</a></span>    ServerInfo_User *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#a5eb7d12dd4dedcfa71d2476dd01d7cb3">ownUserInfo</a>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#a5456453c00a60047ff6308c864e532f1">   30</a></span>    ServerInfo_User *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#a5456453c00a60047ff6308c864e532f1">otherUserInfo</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#ac20e15d67dc8ed838dbafb36dc04be44">   31</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d1/de7/classTabMessage.html#ac20e15d67dc8ed838dbafb36dc04be44">userOnline</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#a235d3bee784a09b72b4726c3530adeb4">   33</a></span>    <a class="code hl_class" href="../../dc/dea/classChatView.html">ChatView</a> *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#a235d3bee784a09b72b4726c3530adeb4">chatView</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#a04f3e8beb440413521e6e8277086eb75">   34</a></span>    <a class="code hl_class" href="../../da/d45/classLineEditUnfocusable.html">LineEditUnfocusable</a> *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#a04f3e8beb440413521e6e8277086eb75">sayEdit</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#a79e7ae29717afe79629f7161b62c14ef">   36</a></span>    QAction *<a class="code hl_variable" href="../../d1/de7/classTabMessage.html#a79e7ae29717afe79629f7161b62c14ef">aLeave</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>signals:</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#a9f69dbb40a6823ca69d710dd58eb197d">   38</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d1/de7/classTabMessage.html#a9f69dbb40a6823ca69d710dd58eb197d">talkClosing</a>(<a class="code hl_class" href="../../d1/de7/classTabMessage.html">TabMessage</a> *tab);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d1/de7/classTabMessage.html#ab8d08a514b067803f2243ab8d0fb091f">   39</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d1/de7/classTabMessage.html#ab8d08a514b067803f2243ab8d0fb091f">maximizeClient</a>();</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d1/de7/classTabMessage.html#a1bad0eb52df236735b97ea896451de72">sendMessage</a>();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d1/de7/classTabMessage.html#a2ade29fd0abcd93a31bff539c9688484">messageSent</a>(<span class="keyword">const</span> Response &amp;response);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d1/de7/classTabMessage.html#a1c22772123ad81e3ac23ccefb248c541">addMentionTag</a>(QString mentionTag);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d1/de7/classTabMessage.html#ad9e16f866df70abab7643d3e8e319614">messageClicked</a>();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">protected</span> slots:</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d1/de7/classTabMessage.html#ab0bc4fcee069cfb2d97f33e2ea07994e">closeEvent</a>(QCloseEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <a class="code hl_class" href="../../d1/de7/classTabMessage.html">TabMessage</a>(<a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *_tabSupervisor,</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>               <a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *_client,</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>               <span class="keyword">const</span> ServerInfo_User &amp;_ownUserInfo,</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>               <span class="keyword">const</span> ServerInfo_User &amp;_otherUserInfo);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <a class="code hl_function" href="../../d1/de7/classTabMessage.html#a7fe9d2007096a996e21d9344556c36ac">~TabMessage</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#ada57fbcd04ad2d634dc542ea9087a374">retranslateUi</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#a7b390abd4d878128d16fe3acf48607e2">tabActivated</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    QString <a class="code hl_function" href="../../d1/de7/classTabMessage.html#acb6a7a113ddb62928225a4742bd8c751">getUserName</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    QString <a class="code hl_function" href="../../d1/de7/classTabMessage.html#af76b3627d4d9a4c9f2fc896effbe6182">getTabText</a>() <span class="keyword">const override</span>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#a1d9161d129e4df2d43fe0a1c834630ee">processUserMessageEvent</a>(<span class="keyword">const</span> Event_UserMessage &amp;event);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#a82aaca44d3cbf40e4fed11301d37555c">processUserLeft</a>();</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#ada030ed1381eb423e59f9fcf455c1026">processUserJoined</a>(<span class="keyword">const</span> ServerInfo_User &amp;_userInfo);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#a1e01538835d4c6e39c6bc1c4c9547a69">shouldShowSystemPopup</a>(<span class="keyword">const</span> Event_UserMessage &amp;event);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/de7/classTabMessage.html#a203f6e9631fca140219c3320513314fd">showSystemPopup</a>(<span class="keyword">const</span> Event_UserMessage &amp;event);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>};</div>
 </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassAbstractClient_html"><div class="ttname"><a href="../../dc/d86/classAbstractClient.html">AbstractClient</a></div><div class="ttdef"><b>Definition</b> abstract_client.h:47</div></div>
-<div class="ttc" id="aclassChatView_html"><div class="ttname"><a href="../../dc/dea/classChatView.html">ChatView</a></div><div class="ttdef"><b>Definition</b> chat_view.h:33</div></div>
-<div class="ttc" id="aclassLineEditUnfocusable_html"><div class="ttname"><a href="../../da/d45/classLineEditUnfocusable.html">LineEditUnfocusable</a></div><div class="ttdef"><b>Definition</b> custom_line_edit.h:15</div></div>
-<div class="ttc" id="aclassTabMessage_html"><div class="ttname"><a href="../../d1/de7/classTabMessage.html">TabMessage</a></div><div class="ttdef"><b>Definition</b> tab_message.h:18</div></div>
-<div class="ttc" id="aclassTabMessage_html_a04f3e8beb440413521e6e8277086eb75"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a04f3e8beb440413521e6e8277086eb75">TabMessage::sayEdit</a></div><div class="ttdeci">LineEditUnfocusable * sayEdit</div><div class="ttdef"><b>Definition</b> tab_message.h:28</div></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassAbstractClient_html"><div class="ttname"><a href="../../dc/d86/classAbstractClient.html">AbstractClient</a></div><div class="ttdef"><b>Definition</b> abstract_client.h:53</div></div>
+<div class="ttc" id="aclassChatView_html"><div class="ttname"><a href="../../dc/dea/classChatView.html">ChatView</a></div><div class="ttdef"><b>Definition</b> chat_view.h:41</div></div>
+<div class="ttc" id="aclassLineEditUnfocusable_html"><div class="ttname"><a href="../../da/d45/classLineEditUnfocusable.html">LineEditUnfocusable</a></div><div class="ttdef"><b>Definition</b> custom_line_edit.h:20</div></div>
+<div class="ttc" id="aclassTabMessage_html"><div class="ttname"><a href="../../d1/de7/classTabMessage.html">TabMessage</a></div><div class="ttdef"><b>Definition</b> tab_message.h:24</div></div>
+<div class="ttc" id="aclassTabMessage_html_a04f3e8beb440413521e6e8277086eb75"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a04f3e8beb440413521e6e8277086eb75">TabMessage::sayEdit</a></div><div class="ttdeci">LineEditUnfocusable * sayEdit</div><div class="ttdef"><b>Definition</b> tab_message.h:34</div></div>
 <div class="ttc" id="aclassTabMessage_html_a1bad0eb52df236735b97ea896451de72"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a1bad0eb52df236735b97ea896451de72">TabMessage::sendMessage</a></div><div class="ttdeci">void sendMessage()</div><div class="ttdef"><b>Definition</b> tab_message.cpp:95</div></div>
 <div class="ttc" id="aclassTabMessage_html_a1c22772123ad81e3ac23ccefb248c541"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a1c22772123ad81e3ac23ccefb248c541">TabMessage::addMentionTag</a></div><div class="ttdeci">void addMentionTag(QString mentionTag)</div><div class="ttdef"><b>Definition</b> tab_message.cpp:61</div></div>
 <div class="ttc" id="aclassTabMessage_html_a1d9161d129e4df2d43fe0a1c834630ee"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a1d9161d129e4df2d43fe0a1c834630ee">TabMessage::processUserMessageEvent</a></div><div class="ttdeci">void processUserMessageEvent(const Event_UserMessage &amp;event)</div><div class="ttdef"><b>Definition</b> tab_message.cpp:118</div></div>
 <div class="ttc" id="aclassTabMessage_html_a1e01538835d4c6e39c6bc1c4c9547a69"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a1e01538835d4c6e39c6bc1c4c9547a69">TabMessage::shouldShowSystemPopup</a></div><div class="ttdeci">bool shouldShowSystemPopup(const Event_UserMessage &amp;event)</div><div class="ttdef"><b>Definition</b> tab_message.cpp:133</div></div>
 <div class="ttc" id="aclassTabMessage_html_a203f6e9631fca140219c3320513314fd"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a203f6e9631fca140219c3320513314fd">TabMessage::showSystemPopup</a></div><div class="ttdeci">void showSystemPopup(const Event_UserMessage &amp;event)</div><div class="ttdef"><b>Definition</b> tab_message.cpp:140</div></div>
-<div class="ttc" id="aclassTabMessage_html_a235d3bee784a09b72b4726c3530adeb4"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a235d3bee784a09b72b4726c3530adeb4">TabMessage::chatView</a></div><div class="ttdeci">ChatView * chatView</div><div class="ttdef"><b>Definition</b> tab_message.h:27</div></div>
+<div class="ttc" id="aclassTabMessage_html_a235d3bee784a09b72b4726c3530adeb4"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a235d3bee784a09b72b4726c3530adeb4">TabMessage::chatView</a></div><div class="ttdeci">ChatView * chatView</div><div class="ttdef"><b>Definition</b> tab_message.h:33</div></div>
 <div class="ttc" id="aclassTabMessage_html_a2ade29fd0abcd93a31bff539c9688484"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a2ade29fd0abcd93a31bff539c9688484">TabMessage::messageSent</a></div><div class="ttdeci">void messageSent(const Response &amp;response)</div><div class="ttdef"><b>Definition</b> tab_message.cpp:111</div></div>
-<div class="ttc" id="aclassTabMessage_html_a5456453c00a60047ff6308c864e532f1"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a5456453c00a60047ff6308c864e532f1">TabMessage::otherUserInfo</a></div><div class="ttdeci">ServerInfo_User * otherUserInfo</div><div class="ttdef"><b>Definition</b> tab_message.h:24</div></div>
-<div class="ttc" id="aclassTabMessage_html_a5eb7d12dd4dedcfa71d2476dd01d7cb3"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a5eb7d12dd4dedcfa71d2476dd01d7cb3">TabMessage::ownUserInfo</a></div><div class="ttdeci">ServerInfo_User * ownUserInfo</div><div class="ttdef"><b>Definition</b> tab_message.h:23</div></div>
-<div class="ttc" id="aclassTabMessage_html_a79e7ae29717afe79629f7161b62c14ef"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a79e7ae29717afe79629f7161b62c14ef">TabMessage::aLeave</a></div><div class="ttdeci">QAction * aLeave</div><div class="ttdef"><b>Definition</b> tab_message.h:30</div></div>
+<div class="ttc" id="aclassTabMessage_html_a5456453c00a60047ff6308c864e532f1"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a5456453c00a60047ff6308c864e532f1">TabMessage::otherUserInfo</a></div><div class="ttdeci">ServerInfo_User * otherUserInfo</div><div class="ttdef"><b>Definition</b> tab_message.h:30</div></div>
+<div class="ttc" id="aclassTabMessage_html_a5eb7d12dd4dedcfa71d2476dd01d7cb3"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a5eb7d12dd4dedcfa71d2476dd01d7cb3">TabMessage::ownUserInfo</a></div><div class="ttdeci">ServerInfo_User * ownUserInfo</div><div class="ttdef"><b>Definition</b> tab_message.h:29</div></div>
+<div class="ttc" id="aclassTabMessage_html_a79e7ae29717afe79629f7161b62c14ef"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a79e7ae29717afe79629f7161b62c14ef">TabMessage::aLeave</a></div><div class="ttdeci">QAction * aLeave</div><div class="ttdef"><b>Definition</b> tab_message.h:36</div></div>
 <div class="ttc" id="aclassTabMessage_html_a7b390abd4d878128d16fe3acf48607e2"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a7b390abd4d878128d16fe3acf48607e2">TabMessage::tabActivated</a></div><div class="ttdeci">void tabActivated() override</div><div class="ttdef"><b>Definition</b> tab_message.cpp:73</div></div>
 <div class="ttc" id="aclassTabMessage_html_a7fe9d2007096a996e21d9344556c36ac"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a7fe9d2007096a996e21d9344556c36ac">TabMessage::~TabMessage</a></div><div class="ttdeci">~TabMessage() override</div><div class="ttdef"><b>Definition</b> tab_message.cpp:55</div></div>
 <div class="ttc" id="aclassTabMessage_html_a82aaca44d3cbf40e4fed11301d37555c"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a82aaca44d3cbf40e4fed11301d37555c">TabMessage::processUserLeft</a></div><div class="ttdeci">void processUserLeft()</div><div class="ttdef"><b>Definition</b> tab_message.cpp:159</div></div>
 <div class="ttc" id="aclassTabMessage_html_a9f69dbb40a6823ca69d710dd58eb197d"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#a9f69dbb40a6823ca69d710dd58eb197d">TabMessage::talkClosing</a></div><div class="ttdeci">void talkClosing(TabMessage *tab)</div></div>
-<div class="ttc" id="aclassTabMessage_html_aa8872f8a73f07f5f8df17e658382dc23"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#aa8872f8a73f07f5f8df17e658382dc23">TabMessage::messageMenu</a></div><div class="ttdeci">QMenu * messageMenu</div><div class="ttdef"><b>Definition</b> tab_message.h:22</div></div>
+<div class="ttc" id="aclassTabMessage_html_aa8872f8a73f07f5f8df17e658382dc23"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#aa8872f8a73f07f5f8df17e658382dc23">TabMessage::messageMenu</a></div><div class="ttdeci">QMenu * messageMenu</div><div class="ttdef"><b>Definition</b> tab_message.h:28</div></div>
 <div class="ttc" id="aclassTabMessage_html_ab0bc4fcee069cfb2d97f33e2ea07994e"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#ab0bc4fcee069cfb2d97f33e2ea07994e">TabMessage::closeEvent</a></div><div class="ttdeci">void closeEvent(QCloseEvent *event) override</div><div class="ttdef"><b>Definition</b> tab_message.cpp:89</div></div>
-<div class="ttc" id="aclassTabMessage_html_ab2ffa42e5a21e174a5f3917651c312b7"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#ab2ffa42e5a21e174a5f3917651c312b7">TabMessage::client</a></div><div class="ttdeci">AbstractClient * client</div><div class="ttdef"><b>Definition</b> tab_message.h:21</div></div>
+<div class="ttc" id="aclassTabMessage_html_ab2ffa42e5a21e174a5f3917651c312b7"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#ab2ffa42e5a21e174a5f3917651c312b7">TabMessage::client</a></div><div class="ttdeci">AbstractClient * client</div><div class="ttdef"><b>Definition</b> tab_message.h:27</div></div>
 <div class="ttc" id="aclassTabMessage_html_ab8d08a514b067803f2243ab8d0fb091f"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#ab8d08a514b067803f2243ab8d0fb091f">TabMessage::maximizeClient</a></div><div class="ttdeci">void maximizeClient()</div></div>
-<div class="ttc" id="aclassTabMessage_html_ac20e15d67dc8ed838dbafb36dc04be44"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#ac20e15d67dc8ed838dbafb36dc04be44">TabMessage::userOnline</a></div><div class="ttdeci">bool userOnline</div><div class="ttdef"><b>Definition</b> tab_message.h:25</div></div>
+<div class="ttc" id="aclassTabMessage_html_ac20e15d67dc8ed838dbafb36dc04be44"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#ac20e15d67dc8ed838dbafb36dc04be44">TabMessage::userOnline</a></div><div class="ttdeci">bool userOnline</div><div class="ttdef"><b>Definition</b> tab_message.h:31</div></div>
 <div class="ttc" id="aclassTabMessage_html_acb6a7a113ddb62928225a4742bd8c751"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#acb6a7a113ddb62928225a4742bd8c751">TabMessage::getUserName</a></div><div class="ttdeci">QString getUserName() const</div><div class="ttdef"><b>Definition</b> tab_message.cpp:79</div></div>
 <div class="ttc" id="aclassTabMessage_html_ad9e16f866df70abab7643d3e8e319614"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#ad9e16f866df70abab7643d3e8e319614">TabMessage::messageClicked</a></div><div class="ttdeci">void messageClicked()</div><div class="ttdef"><b>Definition</b> tab_message.cpp:152</div></div>
 <div class="ttc" id="aclassTabMessage_html_ada030ed1381eb423e59f9fcf455c1026"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#ada030ed1381eb423e59f9fcf455c1026">TabMessage::processUserJoined</a></div><div class="ttdeci">void processUserJoined(const ServerInfo_User &amp;_userInfo)</div><div class="ttdef"><b>Definition</b> tab_message.cpp:165</div></div>
 <div class="ttc" id="aclassTabMessage_html_ada57fbcd04ad2d634dc542ea9087a374"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#ada57fbcd04ad2d634dc542ea9087a374">TabMessage::retranslateUi</a></div><div class="ttdeci">void retranslateUi() override</div><div class="ttdef"><b>Definition</b> tab_message.cpp:67</div></div>
 <div class="ttc" id="aclassTabMessage_html_af76b3627d4d9a4c9f2fc896effbe6182"><div class="ttname"><a href="../../d1/de7/classTabMessage.html#af76b3627d4d9a4c9f2fc896effbe6182">TabMessage::getTabText</a></div><div class="ttdeci">QString getTabText() const override</div><div class="ttdef"><b>Definition</b> tab_message.cpp:84</div></div>
-<div class="ttc" id="aclassTabSupervisor_html"><div class="ttname"><a href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a></div><div class="ttdef"><b>Definition</b> tab_supervisor.h:77</div></div>
-<div class="ttc" id="aclassTab_html"><div class="ttname"><a href="../../de/d9c/classTab.html">Tab</a></div><div class="ttdef"><b>Definition</b> tab.h:13</div></div>
-<div class="ttc" id="atab_8h_html"><div class="ttname"><a href="../../d3/ddf/tab_8h.html">tab.h</a></div></div>
+<div class="ttc" id="aclassTabSupervisor_html"><div class="ttname"><a href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a></div><div class="ttdef"><b>Definition</b> tab_supervisor.h:84</div></div>
+<div class="ttc" id="aclassTab_html"><div class="ttname"><a href="../../de/d9c/classTab.html">Tab</a></div><div class="ttdef"><b>Definition</b> tab.h:19</div></div>
+<div class="ttc" id="atab_8h_html"><div class="ttname"><a href="../../d3/ddf/tab_8h.html">tab.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
 <div class="ttc" id="atab__message_8h_html_a2390f69b6bb194fe3dd0a5892bc241b0"><div class="ttname"><a href="../../df/d37/tab__message_8h.html#a2390f69b6bb194fe3dd0a5892bc241b0">Q_LOGGING_CATEGORY</a></div><div class="ttdeci">Q_LOGGING_CATEGORY(TabMessageLog, &quot;tab_message&quot;)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,0 +1,27 @@
+var group__Network =
+[
+    [ "API Responses", "d5/d37/group__ApiResponses.html", "d5/d37/group__ApiResponses" ],
+    [ "Protocol Messages", "d9/d7a/group__Messages.html", null ],
+    [ "Client", "d1/d45/group__Client.html", "d1/d45/group__Client" ],
+    [ "Server", "da/d64/group__Server.html", "da/d64/group__Server" ],
+    [ "Lobby & Rooms", "d3/d5b/group__Lobby.html", "d3/d5b/group__Lobby" ],
+    [ "Networking Tabs", "d5/d18/group__NetworkingTabs.html", "d5/d18/group__NetworkingTabs" ],
+    [ "Networking Dialogs", "d9/df8/group__NetworkDialogs.html", "d9/df8/group__NetworkDialogs" ],
+    [ "deck_link_to_api_transformer.h", "da/d37/deck__link__to__api__transformer_8h.html", null ],
+    [ "interface_json_deck_parser.h", "d5/de0/interface__json__deck__parser_8h.html", null ],
+    [ "spoiler_background_updater.h", "d6/d5d/spoiler__background__updater_8h.html", null ],
+    [ "tapped_out_interface.h", "df/d49/tapped__out__interface_8h.html", null ],
+    [ "deck_stats_interface.h", "d1/d47/deck__stats__interface_8h.html", null ],
+    [ "chat_view.h", "d8/d9f/chat__view_8h.html", null ],
+    [ "games_model.h", "d8/d5c/games__model_8h.html", null ],
+    [ "handle_public_servers.h", "d5/def/handle__public__servers_8h.html", null ],
+    [ "pending_command.h", "d9/d07/pending__command_8h.html", null ],
+    [ "user_info_box.h", "de/d3d/user__info__box_8h.html", null ],
+    [ "user_info_connection.h", "d2/df3/user__info__connection_8h.html", null ],
+    [ "user_list_manager.h", "d3/d57/user__list__manager_8h.html", null ],
+    [ "user_list_widget.h", "d9/d2a/user__list__widget_8h.html", null ],
+    [ "cache_settings.h", "dc/db3/cache__settings_8h.html", null ],
+    [ "download_settings.h", "d0/de1/download__settings_8h.html", null ],
+    [ "message_settings.h", "db/d2c/message__settings_8h.html", null ],
+    [ "servers_settings.h", "db/db0/servers__settings_8h.html", null ]
+];

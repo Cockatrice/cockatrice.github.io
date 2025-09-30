@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -137,7 +139,7 @@ $(document).ready(function(){initNavTree('d8/d1a/picture__loader__status__bar_8h
 </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#endif </span><span class="comment">// PICTURE_LOADER_STATUS_BAR_H</span></div>
-<div class="ttc" id="aclassExactCard_html"><div class="ttname"><a href="../../df/d4e/classExactCard.html">ExactCard</a></div><div class="ttdef"><b>Definition</b> exact_card.h:10</div></div>
+<div class="ttc" id="aclassExactCard_html"><div class="ttname"><a href="../../df/d4e/classExactCard.html">ExactCard</a></div><div class="ttdoc">Identifies the card by its CardInfoPtr along with its exact printing by its PrintingInfo.</div><div class="ttdef"><b>Definition</b> exact_card.h:12</div></div>
 <div class="ttc" id="aclassPictureLoaderStatusBar_html"><div class="ttname"><a href="../../df/d9f/classPictureLoaderStatusBar.html">PictureLoaderStatusBar</a></div><div class="ttdef"><b>Definition</b> picture_loader_status_bar.h:12</div></div>
 <div class="ttc" id="aclassPictureLoaderStatusBar_html_a1f6b31d0401ba06c3e68be14bd934315"><div class="ttname"><a href="../../df/d9f/classPictureLoaderStatusBar.html#a1f6b31d0401ba06c3e68be14bd934315">PictureLoaderStatusBar::cleanOldEntries</a></div><div class="ttdeci">void cleanOldEntries()</div><div class="ttdef"><b>Definition</b> picture_loader_status_bar.cpp:24</div></div>
 <div class="ttc" id="aclassPictureLoaderStatusBar_html_a68a793cdc06c7a31934c20c01d5574d2"><div class="ttname"><a href="../../df/d9f/classPictureLoaderStatusBar.html#a68a793cdc06c7a31934c20c01d5574d2">PictureLoaderStatusBar::cleaner</a></div><div class="ttdeci">QTimer * cleaner</div><div class="ttdef"><b>Definition</b> picture_loader_status_bar.h:26</div></div>
@@ -146,7 +148,7 @@ $(document).ready(function(){initNavTree('d8/d1a/picture__loader__status__bar_8h
 <div class="ttc" id="aclassPictureLoaderStatusBar_html_ac07742a16455265fd2af98142e58c8e5"><div class="ttname"><a href="../../df/d9f/classPictureLoaderStatusBar.html#ac07742a16455265fd2af98142e58c8e5">PictureLoaderStatusBar::addSuccessfulImageLoad</a></div><div class="ttdeci">void addSuccessfulImageLoad(const QUrl &amp;url)</div><div class="ttdef"><b>Definition</b> picture_loader_status_bar.cpp:47</div></div>
 <div class="ttc" id="aclassPictureLoaderStatusBar_html_ae34774289caedfe4bb57991e645ce39c"><div class="ttname"><a href="../../df/d9f/classPictureLoaderStatusBar.html#ae34774289caedfe4bb57991e645ce39c">PictureLoaderStatusBar::addQueuedImageLoad</a></div><div class="ttdeci">void addQueuedImageLoad(const QUrl &amp;url, const ExactCard &amp;card, const QString &amp;setName)</div><div class="ttdef"><b>Definition</b> picture_loader_status_bar.cpp:41</div></div>
 <div class="ttc" id="aclassPictureLoaderStatusBar_html_ae59e4708063e02deb1f0c253516e582d"><div class="ttname"><a href="../../df/d9f/classPictureLoaderStatusBar.html#ae59e4708063e02deb1f0c253516e582d">PictureLoaderStatusBar::progressBar</a></div><div class="ttdeci">QProgressBar * progressBar</div><div class="ttdef"><b>Definition</b> picture_loader_status_bar.h:24</div></div>
-<div class="ttc" id="aclassSettingsButtonWidget_html"><div class="ttname"><a href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a></div><div class="ttdef"><b>Definition</b> settings_button_widget.h:10</div></div>
+<div class="ttc" id="aclassSettingsButtonWidget_html"><div class="ttname"><a href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a></div><div class="ttdef"><b>Definition</b> settings_button_widget.h:17</div></div>
 <div class="ttc" id="apicture__loader__worker__work_8h_html"><div class="ttname"><a href="../../d1/d8f/picture__loader__worker__work_8h.html">picture_loader_worker_work.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

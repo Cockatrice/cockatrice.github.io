@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,120 +108,121 @@ $(document).ready(function(){initNavTree('d9/db2/tab__admin_8h_source.html','../
   <div class="headertitle"><div class="title">tab_admin.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d9/db2/tab__admin_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef TAB_ADMIN_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define TAB_ADMIN_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;pb/commands.pb.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;pb/response.pb.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/ddf/tab_8h.html">tab.h</a>&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QDialog&gt;</span></div>
+<a href="../../d9/db2/tab__admin_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef TAB_ADMIN_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define TAB_ADMIN_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a>;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span>QGroupBox;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>QPushButton;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>QSpinBox;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span>QLineEdit;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d0/d35/classShutdownDialog.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d0/d35/classShutdownDialog.html">ShutdownDialog</a> : <span class="keyword">public</span> QDialog</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    Q_OBJECT</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d0/d35/classShutdownDialog.html#aa9abf30482f7853d23247c2a54ef71a4">   21</a></span>    QLineEdit *<a class="code hl_variable" href="../../d0/d35/classShutdownDialog.html#aa9abf30482f7853d23247c2a54ef71a4">reasonEdit</a>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../d0/d35/classShutdownDialog.html#a283f3d3672e6af8b4de6f3747567fae1">   22</a></span>    QSpinBox *<a class="code hl_variable" href="../../d0/d35/classShutdownDialog.html#a283f3d3672e6af8b4de6f3747567fae1">minutesEdit</a>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d0/d35/classShutdownDialog.html">ShutdownDialog</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    QString <a class="code hl_function" href="../../d0/d35/classShutdownDialog.html#a1a30974288dd707f3e7100ddafcd26be">getReason</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d35/classShutdownDialog.html#a4f46ad0d2003ab05f5e69da8ff30ea67">getMinutes</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
-</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;pb/commands.pb.h&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;pb/response.pb.h&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/ddf/tab_8h.html">tab.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QDialog&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span>QGroupBox;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span>QPushButton;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">class </span>QSpinBox;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">class </span>QLineEdit;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d0/d35/classShutdownDialog.html">   23</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d0/d35/classShutdownDialog.html">ShutdownDialog</a> : <span class="keyword">public</span> QDialog</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    Q_OBJECT</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../d0/d35/classShutdownDialog.html#aa9abf30482f7853d23247c2a54ef71a4">   27</a></span>    QLineEdit *<a class="code hl_variable" href="../../d0/d35/classShutdownDialog.html#aa9abf30482f7853d23247c2a54ef71a4">reasonEdit</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d0/d35/classShutdownDialog.html#a283f3d3672e6af8b4de6f3747567fae1">   28</a></span>    QSpinBox *<a class="code hl_variable" href="../../d0/d35/classShutdownDialog.html#a283f3d3672e6af8b4de6f3747567fae1">minutesEdit</a>;</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="foldopen" id="foldopen00030" data-start="{" data-end="};">
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html">   30</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d5/d3b/classTabAdmin.html">TabAdmin</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../de/d9c/classTab.html">Tab</a></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>{</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    Q_OBJECT</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a0fbd565e2704485014239cd78983e761">   34</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a0fbd565e2704485014239cd78983e761">locked</a>;</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#aee040c42245e012dc214aa559bafd557">   35</a></span>    <a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#aee040c42245e012dc214aa559bafd557">client</a>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#ab420748b5723baa57ebbd4e514cf48a4">   36</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#ab420748b5723baa57ebbd4e514cf48a4">fullAdmin</a>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a672703546777f5bc5961e720f693f059">   37</a></span>    QPushButton *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a2921e3252971b11866d4eac43c10fbe5">updateServerMessageButton</a>, *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a5aadfb9a6fe4ce99ae144586d7dba099">shutdownServerButton</a>, *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a7292d72c32b74b57e2325548bd62ec85">reloadConfigButton</a>, *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a672703546777f5bc5961e720f693f059">grantReplayAccessButton</a>,</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#ad100ed44c3737317d63585363298df9e">   38</a></span>        *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#ad100ed44c3737317d63585363298df9e">activateUserButton</a>;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a0e2cc37f2d23a7d18d96e8bb02134f79">   39</a></span>    QGroupBox *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a0e2cc37f2d23a7d18d96e8bb02134f79">adminGroupBox</a>, *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a14836af96374bdc0191660c3f56ff3b0">moderatorGroupBox</a>;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a61ca4cd9df0ca6d8ae298d4e80dc4929">   40</a></span>    QPushButton *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#afd78d555a6b777389897a70cadd91910">unlockButton</a>, *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a61ca4cd9df0ca6d8ae298d4e80dc4929">lockButton</a>;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a1422fe5e2eb0ac98e2d1f79a797528ba">   41</a></span>    QLineEdit *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a1422fe5e2eb0ac98e2d1f79a797528ba">replayIdToGrant</a>, *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#ac90373bb804165d344f3a8ac12687e9e">userToActivate</a>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>signals:</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a546d51932de190779e742e2456a1838a">   43</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d5/d3b/classTabAdmin.html#a546d51932de190779e742e2456a1838a">adminLockChanged</a>(<span class="keywordtype">bool</span> lock);</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#a7b112b9a5f8aa839a535f2462073b717">actUpdateServerMessage</a>();</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#a7bffe2c081b80146646315c00c5c72b3">actShutdownServer</a>();</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#a317249fbd2149ce428c1947c82d9cce4">actReloadConfig</a>();</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#acf11b67cc6f48f168e4358adedf274a8">actGrantReplayAccess</a>();</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#ab3053915b714d451fa9c482a5ddb1795">actForceActivateUser</a>();</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#a4af159f3d1dcdc77d3551ef849aaa8ec">grantReplayAccessProcessResponse</a>(<span class="keyword">const</span> Response &amp;response);</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#aff3cf76b7dfaa7ab0cba3e9e44f8ade4">activateUserProcessResponse</a>(<span class="keyword">const</span> Response &amp;response);</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#aaed097d7122a14c20c0ee6d034749c4e">actUnlock</a>();</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#a471618c7bfb1ea21995fac4fc0c2ab28">actLock</a>();</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <a class="code hl_class" href="../../d5/d3b/classTabAdmin.html">TabAdmin</a>(<a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *_tabSupervisor, <a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *_client, <span class="keywordtype">bool</span> _fullAdmin);</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d3b/classTabAdmin.html#a4055024b80b1fd7e92b1103094aadb7c">retranslateUi</a>() <span class="keyword">override</span>;</div>
-<div class="foldopen" id="foldopen00059" data-start="{" data-end="}">
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#aa4a2662a163177a41017e8be986c12a3">   59</a></span>    QString <a class="code hl_function" href="../../d5/d3b/classTabAdmin.html#aa4a2662a163177a41017e8be986c12a3">getTabText</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordflow">return</span> tr(<span class="stringliteral">&quot;Administration&quot;</span>);</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    }</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d0/d35/classShutdownDialog.html">ShutdownDialog</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    QString <a class="code hl_function" href="../../d0/d35/classShutdownDialog.html#a1a30974288dd707f3e7100ddafcd26be">getReason</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d35/classShutdownDialog.html#a4f46ad0d2003ab05f5e69da8ff30ea67">getMinutes</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
 </div>
-<div class="foldopen" id="foldopen00063" data-start="{" data-end="}">
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a2868861900cf4d3f1486bf280a7ce2c4">   63</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d5/d3b/classTabAdmin.html#a2868861900cf4d3f1486bf280a7ce2c4">getLocked</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a0fbd565e2704485014239cd78983e761">locked</a>;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    }</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="foldopen" id="foldopen00036" data-start="{" data-end="};">
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html">   36</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d5/d3b/classTabAdmin.html">TabAdmin</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../de/d9c/classTab.html">Tab</a></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>{</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    Q_OBJECT</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a0fbd565e2704485014239cd78983e761">   40</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a0fbd565e2704485014239cd78983e761">locked</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#aee040c42245e012dc214aa559bafd557">   41</a></span>    <a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#aee040c42245e012dc214aa559bafd557">client</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#ab420748b5723baa57ebbd4e514cf48a4">   42</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#ab420748b5723baa57ebbd4e514cf48a4">fullAdmin</a>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a672703546777f5bc5961e720f693f059">   43</a></span>    QPushButton *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a2921e3252971b11866d4eac43c10fbe5">updateServerMessageButton</a>, *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a5aadfb9a6fe4ce99ae144586d7dba099">shutdownServerButton</a>, *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a7292d72c32b74b57e2325548bd62ec85">reloadConfigButton</a>, *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a672703546777f5bc5961e720f693f059">grantReplayAccessButton</a>,</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#ad100ed44c3737317d63585363298df9e">   44</a></span>        *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#ad100ed44c3737317d63585363298df9e">activateUserButton</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a0e2cc37f2d23a7d18d96e8bb02134f79">   45</a></span>    QGroupBox *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a0e2cc37f2d23a7d18d96e8bb02134f79">adminGroupBox</a>, *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a14836af96374bdc0191660c3f56ff3b0">moderatorGroupBox</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a61ca4cd9df0ca6d8ae298d4e80dc4929">   46</a></span>    QPushButton *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#afd78d555a6b777389897a70cadd91910">unlockButton</a>, *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a61ca4cd9df0ca6d8ae298d4e80dc4929">lockButton</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a1422fe5e2eb0ac98e2d1f79a797528ba">   47</a></span>    QLineEdit *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a1422fe5e2eb0ac98e2d1f79a797528ba">replayIdToGrant</a>, *<a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#ac90373bb804165d344f3a8ac12687e9e">userToActivate</a>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>signals:</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a546d51932de190779e742e2456a1838a">   49</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d5/d3b/classTabAdmin.html#a546d51932de190779e742e2456a1838a">adminLockChanged</a>(<span class="keywordtype">bool</span> lock);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#a7b112b9a5f8aa839a535f2462073b717">actUpdateServerMessage</a>();</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#a7bffe2c081b80146646315c00c5c72b3">actShutdownServer</a>();</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#a317249fbd2149ce428c1947c82d9cce4">actReloadConfig</a>();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#acf11b67cc6f48f168e4358adedf274a8">actGrantReplayAccess</a>();</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#ab3053915b714d451fa9c482a5ddb1795">actForceActivateUser</a>();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#a4af159f3d1dcdc77d3551ef849aaa8ec">grantReplayAccessProcessResponse</a>(<span class="keyword">const</span> Response &amp;response);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#aff3cf76b7dfaa7ab0cba3e9e44f8ade4">activateUserProcessResponse</a>(<span class="keyword">const</span> Response &amp;response);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#aaed097d7122a14c20c0ee6d034749c4e">actUnlock</a>();</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/d3b/classTabAdmin.html#a471618c7bfb1ea21995fac4fc0c2ab28">actLock</a>();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <a class="code hl_class" href="../../d5/d3b/classTabAdmin.html">TabAdmin</a>(<a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *_tabSupervisor, <a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *_client, <span class="keywordtype">bool</span> _fullAdmin);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d3b/classTabAdmin.html#a4055024b80b1fd7e92b1103094aadb7c">retranslateUi</a>() <span class="keyword">override</span>;</div>
+<div class="foldopen" id="foldopen00065" data-start="{" data-end="}">
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#aa4a2662a163177a41017e8be986c12a3">   65</a></span>    QString <a class="code hl_function" href="../../d5/d3b/classTabAdmin.html#aa4a2662a163177a41017e8be986c12a3">getTabText</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keywordflow">return</span> tr(<span class="stringliteral">&quot;Administration&quot;</span>);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    }</div>
 </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
+<div class="foldopen" id="foldopen00069" data-start="{" data-end="}">
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a2868861900cf4d3f1486bf280a7ce2c4">   69</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d5/d3b/classTabAdmin.html#a2868861900cf4d3f1486bf280a7ce2c4">getLocked</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a0fbd565e2704485014239cd78983e761">locked</a>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    }</div>
 </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassAbstractClient_html"><div class="ttname"><a href="../../dc/d86/classAbstractClient.html">AbstractClient</a></div><div class="ttdef"><b>Definition</b> abstract_client.h:47</div></div>
-<div class="ttc" id="aclassShutdownDialog_html"><div class="ttname"><a href="../../d0/d35/classShutdownDialog.html">ShutdownDialog</a></div><div class="ttdef"><b>Definition</b> tab_admin.h:18</div></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>};</div>
+</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassAbstractClient_html"><div class="ttname"><a href="../../dc/d86/classAbstractClient.html">AbstractClient</a></div><div class="ttdef"><b>Definition</b> abstract_client.h:53</div></div>
+<div class="ttc" id="aclassShutdownDialog_html"><div class="ttname"><a href="../../d0/d35/classShutdownDialog.html">ShutdownDialog</a></div><div class="ttdef"><b>Definition</b> tab_admin.h:24</div></div>
 <div class="ttc" id="aclassShutdownDialog_html_a1a30974288dd707f3e7100ddafcd26be"><div class="ttname"><a href="../../d0/d35/classShutdownDialog.html#a1a30974288dd707f3e7100ddafcd26be">ShutdownDialog::getReason</a></div><div class="ttdeci">QString getReason() const</div><div class="ttdef"><b>Definition</b> tab_admin.cpp:47</div></div>
-<div class="ttc" id="aclassShutdownDialog_html_a283f3d3672e6af8b4de6f3747567fae1"><div class="ttname"><a href="../../d0/d35/classShutdownDialog.html#a283f3d3672e6af8b4de6f3747567fae1">ShutdownDialog::minutesEdit</a></div><div class="ttdeci">QSpinBox * minutesEdit</div><div class="ttdef"><b>Definition</b> tab_admin.h:22</div></div>
+<div class="ttc" id="aclassShutdownDialog_html_a283f3d3672e6af8b4de6f3747567fae1"><div class="ttname"><a href="../../d0/d35/classShutdownDialog.html#a283f3d3672e6af8b4de6f3747567fae1">ShutdownDialog::minutesEdit</a></div><div class="ttdeci">QSpinBox * minutesEdit</div><div class="ttdef"><b>Definition</b> tab_admin.h:28</div></div>
 <div class="ttc" id="aclassShutdownDialog_html_a4f46ad0d2003ab05f5e69da8ff30ea67"><div class="ttname"><a href="../../d0/d35/classShutdownDialog.html#a4f46ad0d2003ab05f5e69da8ff30ea67">ShutdownDialog::getMinutes</a></div><div class="ttdeci">int getMinutes() const</div><div class="ttdef"><b>Definition</b> tab_admin.cpp:52</div></div>
-<div class="ttc" id="aclassShutdownDialog_html_aa9abf30482f7853d23247c2a54ef71a4"><div class="ttname"><a href="../../d0/d35/classShutdownDialog.html#aa9abf30482f7853d23247c2a54ef71a4">ShutdownDialog::reasonEdit</a></div><div class="ttdeci">QLineEdit * reasonEdit</div><div class="ttdef"><b>Definition</b> tab_admin.h:21</div></div>
-<div class="ttc" id="aclassTabAdmin_html"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html">TabAdmin</a></div><div class="ttdef"><b>Definition</b> tab_admin.h:31</div></div>
-<div class="ttc" id="aclassTabAdmin_html_a0e2cc37f2d23a7d18d96e8bb02134f79"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a0e2cc37f2d23a7d18d96e8bb02134f79">TabAdmin::adminGroupBox</a></div><div class="ttdeci">QGroupBox * adminGroupBox</div><div class="ttdef"><b>Definition</b> tab_admin.h:39</div></div>
-<div class="ttc" id="aclassTabAdmin_html_a0fbd565e2704485014239cd78983e761"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a0fbd565e2704485014239cd78983e761">TabAdmin::locked</a></div><div class="ttdeci">bool locked</div><div class="ttdef"><b>Definition</b> tab_admin.h:34</div></div>
-<div class="ttc" id="aclassTabAdmin_html_a1422fe5e2eb0ac98e2d1f79a797528ba"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a1422fe5e2eb0ac98e2d1f79a797528ba">TabAdmin::replayIdToGrant</a></div><div class="ttdeci">QLineEdit * replayIdToGrant</div><div class="ttdef"><b>Definition</b> tab_admin.h:41</div></div>
-<div class="ttc" id="aclassTabAdmin_html_a14836af96374bdc0191660c3f56ff3b0"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a14836af96374bdc0191660c3f56ff3b0">TabAdmin::moderatorGroupBox</a></div><div class="ttdeci">QGroupBox * moderatorGroupBox</div><div class="ttdef"><b>Definition</b> tab_admin.h:39</div></div>
-<div class="ttc" id="aclassTabAdmin_html_a2868861900cf4d3f1486bf280a7ce2c4"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a2868861900cf4d3f1486bf280a7ce2c4">TabAdmin::getLocked</a></div><div class="ttdeci">bool getLocked() const</div><div class="ttdef"><b>Definition</b> tab_admin.h:63</div></div>
-<div class="ttc" id="aclassTabAdmin_html_a2921e3252971b11866d4eac43c10fbe5"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a2921e3252971b11866d4eac43c10fbe5">TabAdmin::updateServerMessageButton</a></div><div class="ttdeci">QPushButton * updateServerMessageButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:37</div></div>
+<div class="ttc" id="aclassShutdownDialog_html_aa9abf30482f7853d23247c2a54ef71a4"><div class="ttname"><a href="../../d0/d35/classShutdownDialog.html#aa9abf30482f7853d23247c2a54ef71a4">ShutdownDialog::reasonEdit</a></div><div class="ttdeci">QLineEdit * reasonEdit</div><div class="ttdef"><b>Definition</b> tab_admin.h:27</div></div>
+<div class="ttc" id="aclassTabAdmin_html"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html">TabAdmin</a></div><div class="ttdef"><b>Definition</b> tab_admin.h:37</div></div>
+<div class="ttc" id="aclassTabAdmin_html_a0e2cc37f2d23a7d18d96e8bb02134f79"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a0e2cc37f2d23a7d18d96e8bb02134f79">TabAdmin::adminGroupBox</a></div><div class="ttdeci">QGroupBox * adminGroupBox</div><div class="ttdef"><b>Definition</b> tab_admin.h:45</div></div>
+<div class="ttc" id="aclassTabAdmin_html_a0fbd565e2704485014239cd78983e761"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a0fbd565e2704485014239cd78983e761">TabAdmin::locked</a></div><div class="ttdeci">bool locked</div><div class="ttdef"><b>Definition</b> tab_admin.h:40</div></div>
+<div class="ttc" id="aclassTabAdmin_html_a1422fe5e2eb0ac98e2d1f79a797528ba"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a1422fe5e2eb0ac98e2d1f79a797528ba">TabAdmin::replayIdToGrant</a></div><div class="ttdeci">QLineEdit * replayIdToGrant</div><div class="ttdef"><b>Definition</b> tab_admin.h:47</div></div>
+<div class="ttc" id="aclassTabAdmin_html_a14836af96374bdc0191660c3f56ff3b0"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a14836af96374bdc0191660c3f56ff3b0">TabAdmin::moderatorGroupBox</a></div><div class="ttdeci">QGroupBox * moderatorGroupBox</div><div class="ttdef"><b>Definition</b> tab_admin.h:45</div></div>
+<div class="ttc" id="aclassTabAdmin_html_a2868861900cf4d3f1486bf280a7ce2c4"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a2868861900cf4d3f1486bf280a7ce2c4">TabAdmin::getLocked</a></div><div class="ttdeci">bool getLocked() const</div><div class="ttdef"><b>Definition</b> tab_admin.h:69</div></div>
+<div class="ttc" id="aclassTabAdmin_html_a2921e3252971b11866d4eac43c10fbe5"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a2921e3252971b11866d4eac43c10fbe5">TabAdmin::updateServerMessageButton</a></div><div class="ttdeci">QPushButton * updateServerMessageButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:43</div></div>
 <div class="ttc" id="aclassTabAdmin_html_a317249fbd2149ce428c1947c82d9cce4"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a317249fbd2149ce428c1947c82d9cce4">TabAdmin::actReloadConfig</a></div><div class="ttdeci">void actReloadConfig()</div><div class="ttdef"><b>Definition</b> tab_admin.cpp:164</div></div>
 <div class="ttc" id="aclassTabAdmin_html_a4055024b80b1fd7e92b1103094aadb7c"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a4055024b80b1fd7e92b1103094aadb7c">TabAdmin::retranslateUi</a></div><div class="ttdeci">void retranslateUi() override</div><div class="ttdef"><b>Definition</b> tab_admin.cpp:129</div></div>
 <div class="ttc" id="aclassTabAdmin_html_a471618c7bfb1ea21995fac4fc0c2ab28"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a471618c7bfb1ea21995fac4fc0c2ab28">TabAdmin::actLock</a></div><div class="ttdeci">void actLock()</div><div class="ttdef"><b>Definition</b> tab_admin.cpp:252</div></div>
 <div class="ttc" id="aclassTabAdmin_html_a4af159f3d1dcdc77d3551ef849aaa8ec"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a4af159f3d1dcdc77d3551ef849aaa8ec">TabAdmin::grantReplayAccessProcessResponse</a></div><div class="ttdeci">void grantReplayAccessProcessResponse(const Response &amp;response)</div><div class="ttdef"><b>Definition</b> tab_admin.cpp:202</div></div>
 <div class="ttc" id="aclassTabAdmin_html_a546d51932de190779e742e2456a1838a"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a546d51932de190779e742e2456a1838a">TabAdmin::adminLockChanged</a></div><div class="ttdeci">void adminLockChanged(bool lock)</div></div>
-<div class="ttc" id="aclassTabAdmin_html_a5aadfb9a6fe4ce99ae144586d7dba099"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a5aadfb9a6fe4ce99ae144586d7dba099">TabAdmin::shutdownServerButton</a></div><div class="ttdeci">QPushButton * shutdownServerButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:37</div></div>
-<div class="ttc" id="aclassTabAdmin_html_a61ca4cd9df0ca6d8ae298d4e80dc4929"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a61ca4cd9df0ca6d8ae298d4e80dc4929">TabAdmin::lockButton</a></div><div class="ttdeci">QPushButton * lockButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:40</div></div>
-<div class="ttc" id="aclassTabAdmin_html_a672703546777f5bc5961e720f693f059"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a672703546777f5bc5961e720f693f059">TabAdmin::grantReplayAccessButton</a></div><div class="ttdeci">QPushButton * grantReplayAccessButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:37</div></div>
-<div class="ttc" id="aclassTabAdmin_html_a7292d72c32b74b57e2325548bd62ec85"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a7292d72c32b74b57e2325548bd62ec85">TabAdmin::reloadConfigButton</a></div><div class="ttdeci">QPushButton * reloadConfigButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:37</div></div>
+<div class="ttc" id="aclassTabAdmin_html_a5aadfb9a6fe4ce99ae144586d7dba099"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a5aadfb9a6fe4ce99ae144586d7dba099">TabAdmin::shutdownServerButton</a></div><div class="ttdeci">QPushButton * shutdownServerButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:43</div></div>
+<div class="ttc" id="aclassTabAdmin_html_a61ca4cd9df0ca6d8ae298d4e80dc4929"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a61ca4cd9df0ca6d8ae298d4e80dc4929">TabAdmin::lockButton</a></div><div class="ttdeci">QPushButton * lockButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:46</div></div>
+<div class="ttc" id="aclassTabAdmin_html_a672703546777f5bc5961e720f693f059"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a672703546777f5bc5961e720f693f059">TabAdmin::grantReplayAccessButton</a></div><div class="ttdeci">QPushButton * grantReplayAccessButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:43</div></div>
+<div class="ttc" id="aclassTabAdmin_html_a7292d72c32b74b57e2325548bd62ec85"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a7292d72c32b74b57e2325548bd62ec85">TabAdmin::reloadConfigButton</a></div><div class="ttdeci">QPushButton * reloadConfigButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:43</div></div>
 <div class="ttc" id="aclassTabAdmin_html_a7b112b9a5f8aa839a535f2462073b717"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a7b112b9a5f8aa839a535f2462073b717">TabAdmin::actUpdateServerMessage</a></div><div class="ttdeci">void actUpdateServerMessage()</div><div class="ttdef"><b>Definition</b> tab_admin.cpp:147</div></div>
 <div class="ttc" id="aclassTabAdmin_html_a7bffe2c081b80146646315c00c5c72b3"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#a7bffe2c081b80146646315c00c5c72b3">TabAdmin::actShutdownServer</a></div><div class="ttdeci">void actShutdownServer()</div><div class="ttdef"><b>Definition</b> tab_admin.cpp:152</div></div>
-<div class="ttc" id="aclassTabAdmin_html_aa4a2662a163177a41017e8be986c12a3"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#aa4a2662a163177a41017e8be986c12a3">TabAdmin::getTabText</a></div><div class="ttdeci">QString getTabText() const override</div><div class="ttdef"><b>Definition</b> tab_admin.h:59</div></div>
+<div class="ttc" id="aclassTabAdmin_html_aa4a2662a163177a41017e8be986c12a3"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#aa4a2662a163177a41017e8be986c12a3">TabAdmin::getTabText</a></div><div class="ttdeci">QString getTabText() const override</div><div class="ttdef"><b>Definition</b> tab_admin.h:65</div></div>
 <div class="ttc" id="aclassTabAdmin_html_aaed097d7122a14c20c0ee6d034749c4e"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#aaed097d7122a14c20c0ee6d034749c4e">TabAdmin::actUnlock</a></div><div class="ttdeci">void actUnlock()</div><div class="ttdef"><b>Definition</b> tab_admin.cpp:238</div></div>
 <div class="ttc" id="aclassTabAdmin_html_ab3053915b714d451fa9c482a5ddb1795"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#ab3053915b714d451fa9c482a5ddb1795">TabAdmin::actForceActivateUser</a></div><div class="ttdeci">void actForceActivateUser()</div><div class="ttdef"><b>Definition</b> tab_admin.cpp:185</div></div>
-<div class="ttc" id="aclassTabAdmin_html_ab420748b5723baa57ebbd4e514cf48a4"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#ab420748b5723baa57ebbd4e514cf48a4">TabAdmin::fullAdmin</a></div><div class="ttdeci">bool fullAdmin</div><div class="ttdef"><b>Definition</b> tab_admin.h:36</div></div>
-<div class="ttc" id="aclassTabAdmin_html_ac90373bb804165d344f3a8ac12687e9e"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#ac90373bb804165d344f3a8ac12687e9e">TabAdmin::userToActivate</a></div><div class="ttdeci">QLineEdit * userToActivate</div><div class="ttdef"><b>Definition</b> tab_admin.h:41</div></div>
+<div class="ttc" id="aclassTabAdmin_html_ab420748b5723baa57ebbd4e514cf48a4"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#ab420748b5723baa57ebbd4e514cf48a4">TabAdmin::fullAdmin</a></div><div class="ttdeci">bool fullAdmin</div><div class="ttdef"><b>Definition</b> tab_admin.h:42</div></div>
+<div class="ttc" id="aclassTabAdmin_html_ac90373bb804165d344f3a8ac12687e9e"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#ac90373bb804165d344f3a8ac12687e9e">TabAdmin::userToActivate</a></div><div class="ttdeci">QLineEdit * userToActivate</div><div class="ttdef"><b>Definition</b> tab_admin.h:47</div></div>
 <div class="ttc" id="aclassTabAdmin_html_acf11b67cc6f48f168e4358adedf274a8"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#acf11b67cc6f48f168e4358adedf274a8">TabAdmin::actGrantReplayAccess</a></div><div class="ttdeci">void actGrantReplayAccess()</div><div class="ttdef"><b>Definition</b> tab_admin.cpp:170</div></div>
-<div class="ttc" id="aclassTabAdmin_html_ad100ed44c3737317d63585363298df9e"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#ad100ed44c3737317d63585363298df9e">TabAdmin::activateUserButton</a></div><div class="ttdeci">QPushButton * activateUserButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:38</div></div>
-<div class="ttc" id="aclassTabAdmin_html_aee040c42245e012dc214aa559bafd557"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#aee040c42245e012dc214aa559bafd557">TabAdmin::client</a></div><div class="ttdeci">AbstractClient * client</div><div class="ttdef"><b>Definition</b> tab_admin.h:35</div></div>
-<div class="ttc" id="aclassTabAdmin_html_afd78d555a6b777389897a70cadd91910"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#afd78d555a6b777389897a70cadd91910">TabAdmin::unlockButton</a></div><div class="ttdeci">QPushButton * unlockButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:40</div></div>
+<div class="ttc" id="aclassTabAdmin_html_ad100ed44c3737317d63585363298df9e"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#ad100ed44c3737317d63585363298df9e">TabAdmin::activateUserButton</a></div><div class="ttdeci">QPushButton * activateUserButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:44</div></div>
+<div class="ttc" id="aclassTabAdmin_html_aee040c42245e012dc214aa559bafd557"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#aee040c42245e012dc214aa559bafd557">TabAdmin::client</a></div><div class="ttdeci">AbstractClient * client</div><div class="ttdef"><b>Definition</b> tab_admin.h:41</div></div>
+<div class="ttc" id="aclassTabAdmin_html_afd78d555a6b777389897a70cadd91910"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#afd78d555a6b777389897a70cadd91910">TabAdmin::unlockButton</a></div><div class="ttdeci">QPushButton * unlockButton</div><div class="ttdef"><b>Definition</b> tab_admin.h:46</div></div>
 <div class="ttc" id="aclassTabAdmin_html_aff3cf76b7dfaa7ab0cba3e9e44f8ade4"><div class="ttname"><a href="../../d5/d3b/classTabAdmin.html#aff3cf76b7dfaa7ab0cba3e9e44f8ade4">TabAdmin::activateUserProcessResponse</a></div><div class="ttdeci">void activateUserProcessResponse(const Response &amp;response)</div><div class="ttdef"><b>Definition</b> tab_admin.cpp:220</div></div>
-<div class="ttc" id="aclassTabSupervisor_html"><div class="ttname"><a href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a></div><div class="ttdef"><b>Definition</b> tab_supervisor.h:77</div></div>
-<div class="ttc" id="aclassTab_html"><div class="ttname"><a href="../../de/d9c/classTab.html">Tab</a></div><div class="ttdef"><b>Definition</b> tab.h:13</div></div>
-<div class="ttc" id="atab_8h_html"><div class="ttname"><a href="../../d3/ddf/tab_8h.html">tab.h</a></div></div>
+<div class="ttc" id="aclassTabSupervisor_html"><div class="ttname"><a href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a></div><div class="ttdef"><b>Definition</b> tab_supervisor.h:84</div></div>
+<div class="ttc" id="aclassTab_html"><div class="ttname"><a href="../../de/d9c/classTab.html">Tab</a></div><div class="ttdef"><b>Definition</b> tab.h:19</div></div>
+<div class="ttc" id="atab_8h_html"><div class="ttname"><a href="../../d3/ddf/tab_8h.html">tab.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

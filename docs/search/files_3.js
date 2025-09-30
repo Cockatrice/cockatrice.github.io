@@ -111,10 +111,11 @@ var searchData=
   ['dlg_5fupdate_2eh_108',['dlg_update.h',['../d4/d46/dlg__update_8h.html',1,'']]],
   ['dlg_5fview_5flog_2ecpp_109',['dlg_view_log.cpp',['../dc/d16/dlg__view__log_8cpp.html',1,'']]],
   ['dlg_5fview_5flog_2eh_110',['dlg_view_log.h',['../df/d11/dlg__view__log_8h.html',1,'']]],
-  ['download_5fsettings_2ecpp_111',['download_settings.cpp',['../d9/d17/download__settings_8cpp.html',1,'']]],
-  ['download_5fsettings_2eh_112',['download_settings.h',['../d0/de1/download__settings_8h.html',1,'']]],
-  ['dynamic_5ffont_5fsize_5flabel_2ecpp_113',['dynamic_font_size_label.cpp',['../db/d13/dynamic__font__size__label_8cpp.html',1,'']]],
-  ['dynamic_5ffont_5fsize_5flabel_2eh_114',['dynamic_font_size_label.h',['../d8/d2c/dynamic__font__size__label_8h.html',1,'']]],
-  ['dynamic_5ffont_5fsize_5fpush_5fbutton_2ecpp_115',['dynamic_font_size_push_button.cpp',['../d5/dfd/dynamic__font__size__push__button_8cpp.html',1,'']]],
-  ['dynamic_5ffont_5fsize_5fpush_5fbutton_2eh_116',['dynamic_font_size_push_button.h',['../d2/d00/dynamic__font__size__push__button_8h.html',1,'']]]
+  ['doc_5fgroups_2edox_111',['doc_groups.dox',['../db/d53/doc__groups_8dox.html',1,'']]],
+  ['download_5fsettings_2ecpp_112',['download_settings.cpp',['../d9/d17/download__settings_8cpp.html',1,'']]],
+  ['download_5fsettings_2eh_113',['download_settings.h',['../d0/de1/download__settings_8h.html',1,'']]],
+  ['dynamic_5ffont_5fsize_5flabel_2ecpp_114',['dynamic_font_size_label.cpp',['../db/d13/dynamic__font__size__label_8cpp.html',1,'']]],
+  ['dynamic_5ffont_5fsize_5flabel_2eh_115',['dynamic_font_size_label.h',['../d8/d2c/dynamic__font__size__label_8h.html',1,'']]],
+  ['dynamic_5ffont_5fsize_5fpush_5fbutton_2ecpp_116',['dynamic_font_size_push_button.cpp',['../d5/dfd/dynamic__font__size__push__button_8cpp.html',1,'']]],
+  ['dynamic_5ffont_5fsize_5fpush_5fbutton_2eh_117',['dynamic_font_size_push_button.h',['../d2/d00/dynamic__font__size__push__button_8h.html',1,'']]]
 ];

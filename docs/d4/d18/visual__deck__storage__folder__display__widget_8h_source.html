@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,78 +108,79 @@ $(document).ready(function(){initNavTree('d4/d18/visual__deck__storage__folder__
   <div class="headertitle"><div class="title">visual_deck_storage_folder_display_widget.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/d18/visual__deck__storage__folder__display__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef VISUAL_DECK_STORAGE_FOLDER_DISPLAY_WIDGET_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define VISUAL_DECK_STORAGE_FOLDER_DISPLAY_WIDGET_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../general/display/banner_widget.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;../general/layout_containers/flow_widget.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d09/visual__deck__storage__widget_8h.html">visual_deck_storage_widget.h</a>&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QVBoxLayout&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html">   11</a></span><span class="keyword">class </span><a class="code hl_class" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html">VisualDeckStorageFolderDisplayWidget</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    Q_OBJECT</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <a class="code hl_class" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html">VisualDeckStorageFolderDisplayWidget</a>(QWidget *parent,</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>                                         <a class="code hl_class" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *_visualDeckStorageWidget,</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>                                         QString _filePath,</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                                         <span class="keywordtype">bool</span> canBeHidden,</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>                                         <span class="keywordtype">bool</span> _showFolders);</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a43dbb454ae30b02f0c96c1325179afc8">refreshUi</a>();</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a914e34b3d915495c7843081e2057f55b">createWidgetsForFiles</a>();</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ae1a5a9fcfdcbda42307405274992a394">createWidgetsForFolders</a>();</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a25115e9313f86f19bd21882872a7e76d">flattenFolderStructure</a>();</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    QStringList <a class="code hl_function" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a20030c5bf18f2b652eff0bb727745635">gatherAllTagsFromFlowWidget</a>() <span class="keyword">const</span>;</div>
-<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a71e16e8afc4e3a6bc8bc73ba6ffeb3d2">   25</a></span>    <a class="code hl_class" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *<a class="code hl_function" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a71e16e8afc4e3a6bc8bc73ba6ffeb3d2">getFlowWidget</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#aece2f6c369daa2e7d60cfddb6d5b6224">flowWidget</a>;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    };</div>
+<a href="../../d4/d18/visual__deck__storage__folder__display__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef VISUAL_DECK_STORAGE_FOLDER_DISPLAY_WIDGET_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define VISUAL_DECK_STORAGE_FOLDER_DISPLAY_WIDGET_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;../general/display/banner_widget.h&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;../general/layout_containers/flow_widget.h&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d09/visual__deck__storage__widget_8h.html">visual_deck_storage_widget.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QVBoxLayout&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html">VisualDeckStorageFolderDisplayWidget</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    Q_OBJECT</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_class" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html">VisualDeckStorageFolderDisplayWidget</a>(QWidget *parent,</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>                                         <a class="code hl_class" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *_visualDeckStorageWidget,</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>                                         QString _filePath,</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>                                         <span class="keywordtype">bool</span> canBeHidden,</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>                                         <span class="keywordtype">bool</span> _showFolders);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a43dbb454ae30b02f0c96c1325179afc8">refreshUi</a>();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a914e34b3d915495c7843081e2057f55b">createWidgetsForFiles</a>();</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ae1a5a9fcfdcbda42307405274992a394">createWidgetsForFolders</a>();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a25115e9313f86f19bd21882872a7e76d">flattenFolderStructure</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    QStringList <a class="code hl_function" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a20030c5bf18f2b652eff0bb727745635">gatherAllTagsFromFlowWidget</a>() <span class="keyword">const</span>;</div>
+<div class="foldopen" id="foldopen00031" data-start="{" data-end="}">
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a71e16e8afc4e3a6bc8bc73ba6ffeb3d2">   31</a></span>    <a class="code hl_class" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *<a class="code hl_function" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a71e16e8afc4e3a6bc8bc73ba6ffeb3d2">getFlowWidget</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#aece2f6c369daa2e7d60cfddb6d5b6224">flowWidget</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    };</div>
 </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">public</span> slots:</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a4403ddcd58198b4471f1d0381a57143a">updateVisibility</a>(<span class="keywordtype">bool</span> recursive = <span class="keyword">true</span>);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">bool</span> <a class="code hl_slot" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ac9413d1f188484345cd709f2d39016cb">checkVisibility</a>();</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ab557f19828493bf2e073ef1852776c5b">updateShowFolders</a>(<span class="keywordtype">bool</span> enabled);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad63e8c9fe2693f5f993e92fefdd45ea6">   36</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad63e8c9fe2693f5f993e92fefdd45ea6">showFolders</a>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a306945b789beb1bf4c949f476158e2d1">   37</a></span>    QVBoxLayout *<a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a306945b789beb1bf4c949f476158e2d1">layout</a>;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad52915450f9a735a2d7579d93006ad4f">   38</a></span>    <a class="code hl_class" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *<a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad52915450f9a735a2d7579d93006ad4f">visualDeckStorageWidget</a>;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a880f186e3d7306716bcfe77dec9b4015">   39</a></span>    QString <a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a880f186e3d7306716bcfe77dec9b4015">filePath</a>;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a7f6472ee18e10a640e19cc2c3222e678">   40</a></span>    <a class="code hl_class" href="../../d2/d73/classBannerWidget.html">BannerWidget</a> *<a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a7f6472ee18e10a640e19cc2c3222e678">header</a>;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a1661e3a1c30a10e015c420947c256260">   41</a></span>    QWidget *<a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a1661e3a1c30a10e015c420947c256260">container</a>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a69a41841db7719c50d5fed4fc93d3fcd">   42</a></span>    QVBoxLayout *<a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a69a41841db7719c50d5fed4fc93d3fcd">containerLayout</a>;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#aece2f6c369daa2e7d60cfddb6d5b6224">   43</a></span>    <a class="code hl_class" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *<a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#aece2f6c369daa2e7d60cfddb6d5b6224">flowWidget</a>;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">public</span> slots:</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a4403ddcd58198b4471f1d0381a57143a">updateVisibility</a>(<span class="keywordtype">bool</span> recursive = <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">bool</span> <a class="code hl_slot" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ac9413d1f188484345cd709f2d39016cb">checkVisibility</a>();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ab557f19828493bf2e073ef1852776c5b">updateShowFolders</a>(<span class="keywordtype">bool</span> enabled);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad63e8c9fe2693f5f993e92fefdd45ea6">   42</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad63e8c9fe2693f5f993e92fefdd45ea6">showFolders</a>;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a306945b789beb1bf4c949f476158e2d1">   43</a></span>    QVBoxLayout *<a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a306945b789beb1bf4c949f476158e2d1">layout</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad52915450f9a735a2d7579d93006ad4f">   44</a></span>    <a class="code hl_class" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *<a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad52915450f9a735a2d7579d93006ad4f">visualDeckStorageWidget</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a880f186e3d7306716bcfe77dec9b4015">   45</a></span>    QString <a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a880f186e3d7306716bcfe77dec9b4015">filePath</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a7f6472ee18e10a640e19cc2c3222e678">   46</a></span>    <a class="code hl_class" href="../../d2/d73/classBannerWidget.html">BannerWidget</a> *<a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a7f6472ee18e10a640e19cc2c3222e678">header</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a1661e3a1c30a10e015c420947c256260">   47</a></span>    QWidget *<a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a1661e3a1c30a10e015c420947c256260">container</a>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a69a41841db7719c50d5fed4fc93d3fcd">   48</a></span>    QVBoxLayout *<a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a69a41841db7719c50d5fed4fc93d3fcd">containerLayout</a>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#aece2f6c369daa2e7d60cfddb6d5b6224">   49</a></span>    <a class="code hl_class" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *<a class="code hl_variable" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#aece2f6c369daa2e7d60cfddb6d5b6224">flowWidget</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>};</div>
 </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif </span><span class="comment">// VISUAL_DECK_STORAGE_FOLDER_DISPLAY_WIDGET_H</span></div>
-<div class="ttc" id="aclassBannerWidget_html"><div class="ttname"><a href="../../d2/d73/classBannerWidget.html">BannerWidget</a></div><div class="ttdef"><b>Definition</b> banner_widget.h:9</div></div>
-<div class="ttc" id="aclassFlowWidget_html"><div class="ttname"><a href="../../d5/d53/classFlowWidget.html">FlowWidget</a></div><div class="ttdef"><b>Definition</b> flow_widget.h:14</div></div>
-<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html">VisualDeckStorageFolderDisplayWidget</a></div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:12</div></div>
-<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a1661e3a1c30a10e015c420947c256260"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a1661e3a1c30a10e015c420947c256260">VisualDeckStorageFolderDisplayWidget::container</a></div><div class="ttdeci">QWidget * container</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:41</div></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#endif </span><span class="comment">// VISUAL_DECK_STORAGE_FOLDER_DISPLAY_WIDGET_H</span></div>
+<div class="ttc" id="aclassBannerWidget_html"><div class="ttname"><a href="../../d2/d73/classBannerWidget.html">BannerWidget</a></div><div class="ttdef"><b>Definition</b> banner_widget.h:17</div></div>
+<div class="ttc" id="aclassFlowWidget_html"><div class="ttname"><a href="../../d5/d53/classFlowWidget.html">FlowWidget</a></div><div class="ttdef"><b>Definition</b> flow_widget.h:20</div></div>
+<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html">VisualDeckStorageFolderDisplayWidget</a></div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:18</div></div>
+<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a1661e3a1c30a10e015c420947c256260"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a1661e3a1c30a10e015c420947c256260">VisualDeckStorageFolderDisplayWidget::container</a></div><div class="ttdeci">QWidget * container</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:47</div></div>
 <div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a20030c5bf18f2b652eff0bb727745635"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a20030c5bf18f2b652eff0bb727745635">VisualDeckStorageFolderDisplayWidget::gatherAllTagsFromFlowWidget</a></div><div class="ttdeci">QStringList gatherAllTagsFromFlowWidget() const</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.cpp:205</div></div>
 <div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a25115e9313f86f19bd21882872a7e76d"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a25115e9313f86f19bd21882872a7e76d">VisualDeckStorageFolderDisplayWidget::flattenFolderStructure</a></div><div class="ttdeci">void flattenFolderStructure()</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.cpp:192</div></div>
-<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a306945b789beb1bf4c949f476158e2d1"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a306945b789beb1bf4c949f476158e2d1">VisualDeckStorageFolderDisplayWidget::layout</a></div><div class="ttdeci">QVBoxLayout * layout</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:37</div></div>
+<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a306945b789beb1bf4c949f476158e2d1"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a306945b789beb1bf4c949f476158e2d1">VisualDeckStorageFolderDisplayWidget::layout</a></div><div class="ttdeci">QVBoxLayout * layout</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:43</div></div>
 <div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a43dbb454ae30b02f0c96c1325179afc8"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a43dbb454ae30b02f0c96c1325179afc8">VisualDeckStorageFolderDisplayWidget::refreshUi</a></div><div class="ttdeci">void refreshUi()</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.cpp:42</div></div>
 <div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a4403ddcd58198b4471f1d0381a57143a"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a4403ddcd58198b4471f1d0381a57143a">VisualDeckStorageFolderDisplayWidget::updateVisibility</a></div><div class="ttdeci">void updateVisibility(bool recursive=true)</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.cpp:111</div></div>
-<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a69a41841db7719c50d5fed4fc93d3fcd"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a69a41841db7719c50d5fed4fc93d3fcd">VisualDeckStorageFolderDisplayWidget::containerLayout</a></div><div class="ttdeci">QVBoxLayout * containerLayout</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:42</div></div>
-<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a71e16e8afc4e3a6bc8bc73ba6ffeb3d2"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a71e16e8afc4e3a6bc8bc73ba6ffeb3d2">VisualDeckStorageFolderDisplayWidget::getFlowWidget</a></div><div class="ttdeci">FlowWidget * getFlowWidget() const</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:25</div></div>
-<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a7f6472ee18e10a640e19cc2c3222e678"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a7f6472ee18e10a640e19cc2c3222e678">VisualDeckStorageFolderDisplayWidget::header</a></div><div class="ttdeci">BannerWidget * header</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:40</div></div>
-<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a880f186e3d7306716bcfe77dec9b4015"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a880f186e3d7306716bcfe77dec9b4015">VisualDeckStorageFolderDisplayWidget::filePath</a></div><div class="ttdeci">QString filePath</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:39</div></div>
+<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a69a41841db7719c50d5fed4fc93d3fcd"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a69a41841db7719c50d5fed4fc93d3fcd">VisualDeckStorageFolderDisplayWidget::containerLayout</a></div><div class="ttdeci">QVBoxLayout * containerLayout</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:48</div></div>
+<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a71e16e8afc4e3a6bc8bc73ba6ffeb3d2"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a71e16e8afc4e3a6bc8bc73ba6ffeb3d2">VisualDeckStorageFolderDisplayWidget::getFlowWidget</a></div><div class="ttdeci">FlowWidget * getFlowWidget() const</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:31</div></div>
+<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a7f6472ee18e10a640e19cc2c3222e678"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a7f6472ee18e10a640e19cc2c3222e678">VisualDeckStorageFolderDisplayWidget::header</a></div><div class="ttdeci">BannerWidget * header</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:46</div></div>
+<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a880f186e3d7306716bcfe77dec9b4015"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a880f186e3d7306716bcfe77dec9b4015">VisualDeckStorageFolderDisplayWidget::filePath</a></div><div class="ttdeci">QString filePath</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:45</div></div>
 <div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_a914e34b3d915495c7843081e2057f55b"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a914e34b3d915495c7843081e2057f55b">VisualDeckStorageFolderDisplayWidget::createWidgetsForFiles</a></div><div class="ttdeci">void createWidgetsForFiles()</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.cpp:83</div></div>
 <div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_ab557f19828493bf2e073ef1852776c5b"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ab557f19828493bf2e073ef1852776c5b">VisualDeckStorageFolderDisplayWidget::updateShowFolders</a></div><div class="ttdeci">void updateShowFolders(bool enabled)</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.cpp:174</div></div>
 <div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_ac9413d1f188484345cd709f2d39016cb"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ac9413d1f188484345cd709f2d39016cb">VisualDeckStorageFolderDisplayWidget::checkVisibility</a></div><div class="ttdeci">bool checkVisibility()</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.cpp:129</div></div>
-<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_ad52915450f9a735a2d7579d93006ad4f"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad52915450f9a735a2d7579d93006ad4f">VisualDeckStorageFolderDisplayWidget::visualDeckStorageWidget</a></div><div class="ttdeci">VisualDeckStorageWidget * visualDeckStorageWidget</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:38</div></div>
-<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_ad63e8c9fe2693f5f993e92fefdd45ea6"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad63e8c9fe2693f5f993e92fefdd45ea6">VisualDeckStorageFolderDisplayWidget::showFolders</a></div><div class="ttdeci">bool showFolders</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:36</div></div>
+<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_ad52915450f9a735a2d7579d93006ad4f"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad52915450f9a735a2d7579d93006ad4f">VisualDeckStorageFolderDisplayWidget::visualDeckStorageWidget</a></div><div class="ttdeci">VisualDeckStorageWidget * visualDeckStorageWidget</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:44</div></div>
+<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_ad63e8c9fe2693f5f993e92fefdd45ea6"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad63e8c9fe2693f5f993e92fefdd45ea6">VisualDeckStorageFolderDisplayWidget::showFolders</a></div><div class="ttdeci">bool showFolders</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:42</div></div>
 <div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_ae1a5a9fcfdcbda42307405274992a394"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ae1a5a9fcfdcbda42307405274992a394">VisualDeckStorageFolderDisplayWidget::createWidgetsForFolders</a></div><div class="ttdeci">void createWidgetsForFolders()</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.cpp:162</div></div>
-<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_aece2f6c369daa2e7d60cfddb6d5b6224"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#aece2f6c369daa2e7d60cfddb6d5b6224">VisualDeckStorageFolderDisplayWidget::flowWidget</a></div><div class="ttdeci">FlowWidget * flowWidget</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:43</div></div>
-<div class="ttc" id="aclassVisualDeckStorageWidget_html"><div class="ttname"><a href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a></div><div class="ttdef"><b>Definition</b> visual_deck_storage_widget.h:26</div></div>
-<div class="ttc" id="avisual__deck__storage__widget_8h_html"><div class="ttname"><a href="../../da/d09/visual__deck__storage__widget_8h.html">visual_deck_storage_widget.h</a></div></div>
+<div class="ttc" id="aclassVisualDeckStorageFolderDisplayWidget_html_aece2f6c369daa2e7d60cfddb6d5b6224"><div class="ttname"><a href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html#aece2f6c369daa2e7d60cfddb6d5b6224">VisualDeckStorageFolderDisplayWidget::flowWidget</a></div><div class="ttdeci">FlowWidget * flowWidget</div><div class="ttdef"><b>Definition</b> visual_deck_storage_folder_display_widget.h:49</div></div>
+<div class="ttc" id="aclassVisualDeckStorageWidget_html"><div class="ttname"><a href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a></div><div class="ttdef"><b>Definition</b> visual_deck_storage_widget.h:32</div></div>
+<div class="ttc" id="avisual__deck__storage__widget_8h_html"><div class="ttname"><a href="../../da/d09/visual__deck__storage__widget_8h.html">visual_deck_storage_widget.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -146,7 +148,7 @@ $(document).ready(function(){initNavTree('de/d36/picture__loader__local_8h_sourc
 </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#endif </span><span class="comment">// PICTURE_LOADER_LOCAL_H</span></div>
-<div class="ttc" id="aclassExactCard_html"><div class="ttname"><a href="../../df/d4e/classExactCard.html">ExactCard</a></div><div class="ttdef"><b>Definition</b> exact_card.h:10</div></div>
+<div class="ttc" id="aclassExactCard_html"><div class="ttname"><a href="../../df/d4e/classExactCard.html">ExactCard</a></div><div class="ttdoc">Identifies the card by its CardInfoPtr along with its exact printing by its PrintingInfo.</div><div class="ttdef"><b>Definition</b> exact_card.h:12</div></div>
 <div class="ttc" id="aclassPictureLoaderLocal_html"><div class="ttname"><a href="../../d9/d30/classPictureLoaderLocal.html">PictureLoaderLocal</a></div><div class="ttdef"><b>Definition</b> picture_loader_local.h:17</div></div>
 <div class="ttc" id="aclassPictureLoaderLocal_html_a2c5bba2a796709f9f916d0ae5a572482"><div class="ttname"><a href="../../d9/d30/classPictureLoaderLocal.html#a2c5bba2a796709f9f916d0ae5a572482">PictureLoaderLocal::customFolderIndex</a></div><div class="ttdeci">QMultiHash&lt; QString, QString &gt; customFolderIndex</div><div class="ttdef"><b>Definition</b> picture_loader_local.h:28</div></div>
 <div class="ttc" id="aclassPictureLoaderLocal_html_a35f5b97ab0bd47f0ea753686ad3c855e"><div class="ttname"><a href="../../d9/d30/classPictureLoaderLocal.html#a35f5b97ab0bd47f0ea753686ad3c855e">PictureLoaderLocal::tryLoad</a></div><div class="ttdeci">QImage tryLoad(const ExactCard &amp;toLoad) const</div><div class="ttdef"><b>Definition</b> picture_loader_local.cpp:55</div></div>

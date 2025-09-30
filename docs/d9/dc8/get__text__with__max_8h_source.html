@@ -24,6 +24,11 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
     <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -33,10 +38,23 @@
             <table cellpadding="0" cellspacing="0">
                 <tbody>
                 <tr id="projectrow">
+                    <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
                         </div>
                     </td>
+                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
                 </tr>
                 </tbody>
             </table>
@@ -46,22 +64,6 @@
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "../../search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript" src="../../menudata.js"></script>
-<script type="text/javascript" src="../../menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('../../',true,false,'search.php','Search');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function() { init_codefold(1); });
 /* @license-end */
 </script>
 </div><!-- top -->
@@ -106,31 +108,31 @@ $(document).ready(function(){initNavTree('d9/dc8/get__text__with__max_8h_source.
   <div class="headertitle"><div class="title">get_text_with_max.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d9/dc8/get__text__with__max_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// custom QInputDialog::getText implementation that allows configuration of the max length</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#ifndef GETTEXTWITHMAX_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#define GETTEXTWITHMAX_H</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d4b/trice__limits_8h.html">trice_limits.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QInputDialog&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>QString <a class="code hl_function" href="../../d9/dc8/get__text__with__max_8h.html#a7e1f1b6f771cfca32ea65c0c8f788299">getTextWithMax</a>(QWidget *parent,</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>                       <span class="keyword">const</span> QString &amp;title,</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>                       <span class="keyword">const</span> QString &amp;label,</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>                       QLineEdit::EchoMode echo = QLineEdit::Normal,</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>                       <span class="keyword">const</span> QString &amp;text = QString(),</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>                       <span class="keywordtype">bool</span> *ok = <span class="keyword">nullptr</span>,</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>                       <span class="keywordtype">int</span> max = <a class="code hl_variable" href="../../da/d4b/trice__limits_8h.html#a19776e9ad56df15c40feb555a4725dd2">MAX_NAME_LENGTH</a>,</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>                       Qt::WindowFlags flags = Qt::WindowFlags(),</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>                       Qt::InputMethodHints inputMethodHints = Qt::ImhNone);</div>
-<div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d9/dc8/get__text__with__max_8h.html#a31e9b4c3d45a54b58eb640cc9a09c979">   18</a></span><span class="keyword">static</span> <span class="keyword">inline</span> QString <a class="code hl_function" href="../../d9/dc8/get__text__with__max_8h.html#a7e1f1b6f771cfca32ea65c0c8f788299">getTextWithMax</a>(QWidget *parent, <span class="keyword">const</span> QString &amp;title, <span class="keyword">const</span> QString &amp;label, <span class="keywordtype">int</span> max)</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/dc8/get__text__with__max_8h.html#a7e1f1b6f771cfca32ea65c0c8f788299">getTextWithMax</a>(parent, title, label, QLineEdit::Normal, QString(), <span class="keyword">nullptr</span>, max);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>}</div>
+<a href="../../d9/dc8/get__text__with__max_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef GETTEXTWITHMAX_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define GETTEXTWITHMAX_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d4b/trice__limits_8h.html">trice_limits.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QInputDialog&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>QString <a class="code hl_function" href="../../d9/dc8/get__text__with__max_8h.html#a7e1f1b6f771cfca32ea65c0c8f788299">getTextWithMax</a>(QWidget *parent,</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>                       <span class="keyword">const</span> QString &amp;title,</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>                       <span class="keyword">const</span> QString &amp;label,</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>                       QLineEdit::EchoMode echo = QLineEdit::Normal,</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                       <span class="keyword">const</span> QString &amp;text = QString(),</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>                       <span class="keywordtype">bool</span> *ok = <span class="keyword">nullptr</span>,</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>                       <span class="keywordtype">int</span> max = <a class="code hl_variable" href="../../da/d4b/trice__limits_8h.html#a19776e9ad56df15c40feb555a4725dd2">MAX_NAME_LENGTH</a>,</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>                       Qt::WindowFlags flags = Qt::WindowFlags(),</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>                       Qt::InputMethodHints inputMethodHints = Qt::ImhNone);</div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d9/dc8/get__text__with__max_8h.html#a31e9b4c3d45a54b58eb640cc9a09c979">   23</a></span><span class="keyword">static</span> <span class="keyword">inline</span> QString <a class="code hl_function" href="../../d9/dc8/get__text__with__max_8h.html#a7e1f1b6f771cfca32ea65c0c8f788299">getTextWithMax</a>(QWidget *parent, <span class="keyword">const</span> QString &amp;title, <span class="keyword">const</span> QString &amp;label, <span class="keywordtype">int</span> max)</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/dc8/get__text__with__max_8h.html#a7e1f1b6f771cfca32ea65c0c8f788299">getTextWithMax</a>(parent, title, label, QLineEdit::Normal, QString(), <span class="keyword">nullptr</span>, max);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}</div>
 </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#endif </span><span class="comment">// GETTEXTWITHMAX_H</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#endif </span><span class="comment">// GETTEXTWITHMAX_H</span></div>
 <div class="ttc" id="aget__text__with__max_8h_html_a7e1f1b6f771cfca32ea65c0c8f788299"><div class="ttname"><a href="../../d9/dc8/get__text__with__max_8h.html#a7e1f1b6f771cfca32ea65c0c8f788299">getTextWithMax</a></div><div class="ttdeci">QString getTextWithMax(QWidget *parent, const QString &amp;title, const QString &amp;label, QLineEdit::EchoMode echo=QLineEdit::Normal, const QString &amp;text=QString(), bool *ok=nullptr, int max=MAX_NAME_LENGTH, Qt::WindowFlags flags=Qt::WindowFlags(), Qt::InputMethodHints inputMethodHints=Qt::ImhNone)</div><div class="ttdef"><b>Definition</b> get_text_with_max.cpp:3</div></div>
 <div class="ttc" id="atrice__limits_8h_html"><div class="ttname"><a href="../../da/d4b/trice__limits_8h.html">trice_limits.h</a></div></div>
 <div class="ttc" id="atrice__limits_8h_html_a19776e9ad56df15c40feb555a4725dd2"><div class="ttname"><a href="../../da/d4b/trice__limits_8h.html#a19776e9ad56df15c40feb555a4725dd2">MAX_NAME_LENGTH</a></div><div class="ttdeci">constexpr int MAX_NAME_LENGTH</div><div class="ttdef"><b>Definition</b> trice_limits.h:7</div></div>
