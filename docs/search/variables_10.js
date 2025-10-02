@@ -114,7 +114,7 @@ var searchData=
   ['privilegelevel_111',['privilegeLevel',['../d1/d15/classServer__Room.html#ad63dad6de4b961ae4e315afdaef0bdeb',1,'Server_Room']]],
   ['progress_112',['progress',['../d8/d3f/classDlgUpdate.html#a75de5a410a0aa1947dadee5bd299072c',1,'DlgUpdate']]],
   ['progressbar_113',['progressBar',['../df/d9f/classPictureLoaderStatusBar.html#ae59e4708063e02deb1f0c253516e582d',1,'PictureLoaderStatusBar']]],
-  ['properties_114',['properties',['../d6/d90/classPrintingInfo.html#afdb18682bf21f64d559e9cd48a04e62e',1,'PrintingInfo::properties'],['../dd/dd2/classCardInfo.html#ab216bc8b76b250f2f9d66b430f524c51',1,'CardInfo::properties']]],
+  ['properties_114',['properties',['../dd/dd2/classCardInfo.html#ab216bc8b76b250f2f9d66b430f524c51',1,'CardInfo::properties'],['../d6/d90/classPrintingInfo.html#afdb18682bf21f64d559e9cd48a04e62e',1,'PrintingInfo::properties']]],
   ['protocolversion_115',['protocolVersion',['../d2/d94/remote__client_8cpp.html#a854d0bc7b7c387aadb4caefa6d5d85fa',1,'remote_client.cpp']]],
   ['provider_116',['provider',['../d8/d82/structParsedDeckInfo.html#ac0ef37753d38f2a0940ddbd9794728cd',1,'ParsedDeckInfo']]],
   ['providerid_117',['providerid',['../d1/d66/structCardRef.html#a7591699bb99b81636a8911f6ceef9b80',1,'CardRef::providerId'],['../dd/d40/structTokenInfo.html#abf38cdd99454287beea2fdffd614dc7a',1,'TokenInfo::providerId'],['../de/df0/classPictureLoaderRequestStatusDisplayWidget.html#a999a780db4804a322eb89dd8ca7eca0a',1,'PictureLoaderRequestStatusDisplayWidget::providerId']]],

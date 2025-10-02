@@ -73,7 +73,7 @@ var searchData=
   ['setname_70',['setname',['../d4/d56/classSetEntryWidget.html#a007066f960a1513a1196d49c1b6d982c',1,'SetEntryWidget::setName'],['../d9/da6/classSetNameAndCollectorsNumberDisplayWidget.html#a5c3fbbb1e10fc25ee9e07c00561f1ffd',1,'SetNameAndCollectorsNumberDisplayWidget::setName']]],
   ['setnameandcollectorsnumberdisplaywidget_71',['setNameAndCollectorsNumberDisplayWidget',['../d9/db3/classPrintingSelectorCardDisplayWidget.html#a55b3db2d3ca7a7b275b47d8a96410b52',1,'PrintingSelectorCardDisplayWidget']]],
   ['setorderissorted_72',['setOrderIsSorted',['../dd/d67/classWndSets.html#a7a0affb77d7ae76bf22fadcb91648fed',1,'WndSets']]],
-  ['sets_73',['sets',['../da/d64/classSetsModel.html#a1e4b2d09d5a74537a58d0c45df91b9fa',1,'SetsModel::sets'],['../d5/d45/classCardDatabase.html#a02826fc62c7e5688c4cbeb8b4e34ef92',1,'CardDatabase::sets'],['../d4/dfe/classICardDatabaseParser.html#a9dbd0972e9552f222fd6dec4fd9f1088',1,'ICardDatabaseParser::sets']]],
+  ['sets_73',['sets',['../da/d64/classSetsModel.html#ab03b9d6b9c33266dccf485662e76f4f2',1,'SetsModel::sets'],['../d5/d45/classCardDatabase.html#a02826fc62c7e5688c4cbeb8b4e34ef92',1,'CardDatabase::sets'],['../d4/dfe/classICardDatabaseParser.html#a9dbd0972e9552f222fd6dec4fd9f1088',1,'ICardDatabaseParser::sets']]],
   ['setsdialoggeometry_74',['setsDialogGeometry',['../d5/d88/classSettingsCache.html#a92ec5b866e54cfa9c9e33ec20aed1134',1,'SettingsCache']]],
   ['setsedittoolbar_75',['setsEditToolBar',['../dd/d67/classWndSets.html#a5c6a5c331747610155eb782eb4c8d3fd',1,'WndSets']]],
   ['setshortname_76',['setShortname',['../de/df0/classPictureLoaderRequestStatusDisplayWidget.html#a6968303bea3f5e0dd46d093f532de738',1,'PictureLoaderRequestStatusDisplayWidget']]],

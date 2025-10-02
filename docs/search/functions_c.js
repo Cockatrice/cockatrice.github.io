@@ -17,7 +17,7 @@ var searchData=
   ['manasymbolwidget_14',['ManaSymbolWidget',['../d8/d8e/classManaSymbolWidget.html#a9c416b4583746889ffba2097b8f4e9d4',1,'ManaSymbolWidget']]],
   ['mapfromgrid_15',['mapFromGrid',['../d6/d6f/classTableZone.html#ace0445dcfbb677ff3371e87899e23efd',1,'TableZone']]],
   ['maptogrid_16',['mapToGrid',['../d6/d6f/classTableZone.html#aed922258172d122e66d5d033d567c783',1,'TableZone']]],
-  ['markallasknown_17',['markAllAsKnown',['../d9/d00/classSetList.html#a031dc5ebb0c8ad49c24dc87a52196f12',1,'SetList']]],
+  ['markallasknown_17',['markAllAsKnown',['../dd/d65/classCardSetList.html#aae296b1d662ebf1e41e78a0d0d8ed2a7',1,'CardSetList']]],
   ['markallsetsasknown_18',['markAllSetsAsKnown',['../d5/d45/classCardDatabase.html#a359da0943870a290d4f3aa13a38decb4',1,'CardDatabase']]],
   ['mastervolumechanged_19',['mastervolumechanged',['../d5/d88/classSettingsCache.html#ac789c7c1d71acb868c9b1e85badda3ea',1,'SettingsCache::masterVolumeChanged()'],['../d1/dfa/classSoundSettingsPage.html#ac008f2008913290462b65790284dfed7',1,'SoundSettingsPage::masterVolumeChanged()']]],
   ['matchexistsindb_20',['matchExistsInDb',['../dd/d52/dlg__move__top__cards__until_8cpp.html#a429d12e76a648946dad67d2d186d7e0a',1,'dlg_move_top_cards_until.cpp']]],

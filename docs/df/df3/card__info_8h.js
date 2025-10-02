@@ -1,10 +1,5 @@
 var card__info_8h =
 [
-    [ "CardSet", "d6/d3d/classCardSet.html", "d6/d3d/classCardSet" ],
-    [ "SetList", "d9/d00/classSetList.html", "d9/d00/classSetList" ],
-    [ "PrintingInfo", "d6/d90/classPrintingInfo.html", "d6/d90/classPrintingInfo" ],
-    [ "CardInfo", "dd/dd2/classCardInfo.html", "dd/dd2/classCardInfo" ],
-    [ "CardRelation", "db/ded/classCardRelation.html", "db/ded/classCardRelation" ],
     [ "CardInfoPtr", "df/df3/card__info_8h.html#a8169723b2f3dfc8b1e58ba463b260bdc", null ],
     [ "CardNameMap", "df/df3/card__info_8h.html#afe09e708464a3f7085db662112b509f3", null ],
     [ "CardSetPtr", "df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e", null ],

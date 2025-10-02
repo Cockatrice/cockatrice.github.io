@@ -58,7 +58,7 @@ var hierarchy =
       [ "ArchidektJsonParser", "d3/def/classArchidektJsonParser.html", null ],
       [ "MoxfieldJsonParser", "dd/d95/classMoxfieldJsonParser.html", null ]
     ] ],
-    [ "SetList::KeyCompareFunctor", "d2/db8/classSetList_1_1KeyCompareFunctor.html", null ],
+    [ "CardSetList::KeyCompareFunctor", "da/d79/classCardSetList_1_1KeyCompareFunctor.html", null ],
     [ "LockPixmapGenerator", "dd/dd6/classLockPixmapGenerator.html", null ],
     [ "MoveCardStruct", "d1/d62/structMoveCardStruct.html", null ],
     [ "RemoteDeckList_TreeModel::Node", "da/d72/classRemoteDeckList__TreeModel_1_1Node.html", [
@@ -228,10 +228,10 @@ var hierarchy =
     [ "QList", null, [
       [ "CardList", "d4/d71/classCardList.html", null ],
       [ "CardSet", "d6/d3d/classCardSet.html", null ],
+      [ "CardSetList", "dd/d65/classCardSetList.html", null ],
       [ "InnerDecklistNode", "d4/d55/classInnerDecklistNode.html", null ],
       [ "RemoteDeckList_TreeModel::DirectoryNode", "dc/d19/classRemoteDeckList__TreeModel_1_1DirectoryNode.html", null ],
       [ "RemoteReplayList_TreeModel::MatchNode", "d7/d25/classRemoteReplayList__TreeModel_1_1MatchNode.html", null ],
-      [ "SetList", "d9/d00/classSetList.html", null ],
       [ "ShortcutKey", "d6/d8e/classShortcutKey.html", null ]
     ] ],
     [ "QMainWindow", null, [

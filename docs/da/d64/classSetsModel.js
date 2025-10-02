@@ -36,5 +36,5 @@ var classSetsModel =
     [ "SetsProxyModel", "da/d64/classSetsModel.html#a6497379c07e772bebd0f7999e9345162", null ],
     [ "enabledSets", "da/d64/classSetsModel.html#a7b9c269b7224cd1ee04d1515eb0ccdd4", null ],
     [ "NUM_COLS", "da/d64/classSetsModel.html#a42e7dac6bdd78ffc447c5847219151ac", null ],
-    [ "sets", "da/d64/classSetsModel.html#a1e4b2d09d5a74537a58d0c45df91b9fa", null ]
+    [ "sets", "da/d64/classSetsModel.html#ab03b9d6b9c33266dccf485662e76f4f2", null ]
 ];

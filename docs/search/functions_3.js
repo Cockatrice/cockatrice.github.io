@@ -57,7 +57,7 @@ var searchData=
   ['decrementcardfrommaindeck_54',['decrementCardFromMainDeck',['../d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a6e09af4542066975380025ad5dbc7c98',1,'DeckEditorDatabaseDisplayWidget']]],
   ['decrementcardfromsideboard_55',['decrementCardFromSideboard',['../d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a456eb79ee892f2376bac1d9beca2be95',1,'DeckEditorDatabaseDisplayWidget']]],
   ['decrementcardhelper_56',['decrementCardHelper',['../dc/d15/classCardAmountWidget.html#af71524865134ef927c642e7594defd2b',1,'CardAmountWidget']]],
-  ['defaultsort_57',['defaultSort',['../d9/d00/classSetList.html#a5e62357b612d894b66d056c08f3ab94b',1,'SetList']]],
+  ['defaultsort_57',['defaultSort',['../dd/d65/classCardSetList.html#a09f8de40f81a891afb31f120bb1a3756',1,'CardSetList']]],
   ['delarrow_58',['delarrow',['../d2/d4b/classPlayer.html#a7d5808d05ff9f7ba7cd96d9fa7c5e10f',1,'Player::delArrow()'],['../df/d2a/classArrowItem.html#af7b4f4d39be60c52707f5ff7422ad587',1,'ArrowItem::delArrow()']]],
   ['delcounter_59',['delcounter',['../d4/d67/classAbstractCounter.html#ae2327435baabaa2ddcd23603e5886978',1,'AbstractCounter::delCounter()'],['../d2/d4b/classPlayer.html#acecfe0ea3b9be9f8e72adf12e9ab085c',1,'Player::delCounter()']]],
   ['deletearrow_60',['deleteArrow',['../d8/d21/classServer__Player.html#a4d96a4ebfd4b43b8d45b4a669a669655',1,'Server_Player']]],

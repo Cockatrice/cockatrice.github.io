@@ -1,5 +1,6 @@
 var group__DeckEditorWidgets =
 [
+    [ "Deck Editor Tabs", "d5/dc3/group__DeckEditorTabs.html", null ],
     [ "Deck Editor Analytics Widgets", "d9/da2/group__DeckEditorAnalyticsWidgets.html", "d9/da2/group__DeckEditorAnalyticsWidgets" ],
     [ "Card Group Display Widgets", "d6/d9a/group__DeckEditorCardGroupWidgets.html", "d6/d9a/group__DeckEditorCardGroupWidgets" ],
     [ "Printing Widgets", "d6/d0c/group__PrintingWidgets.html", "d6/d0c/group__PrintingWidgets" ],

@@ -75,7 +75,7 @@ var classPlayerActions =
     [ "cardMenuAction", "d2/d23/classPlayerActions.html#aa484a943cb92a9545d46de26507434dd", null ],
     [ "cmdSetBottomCard", "d2/d23/classPlayerActions.html#a8df021b94e58670c2b51254202ec87c0", null ],
     [ "cmdSetTopCard", "d2/d23/classPlayerActions.html#ac9d846d4de143a086e68885668e109fc", null ],
-    [ "createCard", "d2/d23/classPlayerActions.html#a9adc3e1d5b8d441746d6890c98ce98da", null ],
+    [ "createCard", "d2/d23/classPlayerActions.html#a2d905a181bc7f9023c4b2451b24406ce", null ],
     [ "createRelatedFromRelation", "d2/d23/classPlayerActions.html#afec363d2b09d55ae1b0663962e91b1e9", null ],
     [ "isMovingCardsUntil", "d2/d23/classPlayerActions.html#a38870a9341e559ce205c98ef77567560", null ],
     [ "logSetAnnotation", "d2/d23/classPlayerActions.html#a952a3fd509fd5f5f6b52d05e6194549b", null ],

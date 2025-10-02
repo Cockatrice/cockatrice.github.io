@@ -1,9 +1,7 @@
 var group__NetworkingTabs =
 [
-    [ "tab_account.h", "d5/d5d/tab__account_8h.html", null ],
-    [ "tab_admin.h", "d9/db2/tab__admin_8h.html", null ],
-    [ "tab_logs.h", "db/d95/tab__logs_8h.html", null ],
-    [ "tab_message.h", "df/d37/tab__message_8h.html", null ],
-    [ "tab_room.h", "d9/d69/tab__room_8h.html", null ],
-    [ "tab_server.h", "dd/dd0/tab__server_8h.html", null ]
+    [ "Server Tabs", "d8/d89/group__ServerTabs.html", "d8/d89/group__ServerTabs" ],
+    [ "Account Tabs", "de/dab/group__AccountTabs.html", "de/dab/group__AccountTabs" ],
+    [ "Room Tabs", "de/d2d/group__RoomTabs.html", "de/d2d/group__RoomTabs" ],
+    [ "Message Tabs", "d8/d8b/group__MessagingTabs.html", "d8/d8b/group__MessagingTabs" ]
 ];

@@ -1,7 +1,7 @@
 var group__UI =
 [
     [ "Widgets", "d2/d54/group__Widgets.html", "d2/d54/group__Widgets" ],
-    [ "Dialogs", "db/d68/group__Dialogs.html", "db/d68/group__Dialogs" ],
+    [ "Card Picture Loader", "d4/deb/group__PictureLoader.html", "d4/deb/group__PictureLoader" ],
     [ "get_text_with_max.h", "d9/dc8/get__text__with__max_8h.html", null ],
     [ "custom_line_edit.h", "d0/d23/custom__line__edit_8h.html", null ],
     [ "flow_layout.h", "dc/d3b/flow__layout_8h.html", null ],

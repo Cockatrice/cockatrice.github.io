@@ -1,4 +1,4 @@
 var card__info_8cpp =
 [
-    [ "SetList::KeyCompareFunctor", "d2/db8/classSetList_1_1KeyCompareFunctor.html", "d2/db8/classSetList_1_1KeyCompareFunctor" ]
+    [ "CardInfoPtr", "dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699", null ]
 ];

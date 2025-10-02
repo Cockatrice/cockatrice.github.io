@@ -1,9 +1,12 @@
 var group__Client =
 [
+    [ "API Interfaces", "d7/d08/group__ApiInterfaces.html", "d7/d08/group__ApiInterfaces" ],
+    [ "Networking Widgets", "da/df4/group__NetworkingWidgets.html", "da/df4/group__NetworkingWidgets" ],
     [ "Client Updates", "d2/dd0/group__ClientUpdates.html", null ],
+    [ "Room Widgets", "d8/dec/group__RoomWidgets.html", "d8/dec/group__RoomWidgets" ],
+    [ "spoiler_background_updater.h", "d6/d5d/spoiler__background__updater_8h.html", null ],
     [ "abstract_client.h", "d5/db3/abstract__client_8h.html", null ],
     [ "local_client.h", "d3/d21/local__client_8h.html", null ],
     [ "remote_client.h", "df/d15/remote__client_8h.html", null ],
-    [ "remote_decklist_tree_widget.h", "d5/d25/remote__decklist__tree__widget_8h.html", null ],
-    [ "remote_replay_list_tree_widget.h", "d6/ddb/remote__replay__list__tree__widget_8h.html", null ]
+    [ "user_info_connection.h", "d2/df3/user__info__connection_8h.html", null ]
 ];
