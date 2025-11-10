@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['tablezone_5fbg_5fname_0',['TABLEZONE_BG_NAME',['../d4/d99/theme__manager_8cpp.html#a55167aee9e5dc331c0570db252e6d2ec',1,'theme_manager.cpp']]],
-  ['test_5fsound_5ffilename_1',['TEST_SOUND_FILENAME',['../d4/dd2/sound__engine_8cpp.html#a355b98d4f212e79c17235477950c9646',1,'sound_engine.cpp']]],
-  ['tipddbmodel_5fcolumns_2',['TIPDDBMODEL_COLUMNS',['../d4/d70/tip__of__the__day_8cpp.html#ad9f5392b56c28b213b5bdbb22a1fb374',1,'tip_of_the_day.cpp']]]
+  ['wiki_5fcustom_5fpic_5furl_0',['WIKI_CUSTOM_PIC_URL',['../dd/d7b/dlg__settings_8cpp.html#aadd046b665ebbee46381d48dc1ca2250',1,'dlg_settings.cpp']]],
+  ['wiki_5fcustom_5fshortcuts_1',['WIKI_CUSTOM_SHORTCUTS',['../dd/d7b/dlg__settings_8cpp.html#ab72739ab99172d24dee0595f91b97f0a',1,'dlg_settings.cpp']]],
+  ['wiki_5ftranslation_5ffaq_2',['WIKI_TRANSLATION_FAQ',['../dd/d7b/dlg__settings_8cpp.html#a2be223e7bc5e68ddfec0935c263fef29',1,'dlg_settings.cpp']]]
 ];

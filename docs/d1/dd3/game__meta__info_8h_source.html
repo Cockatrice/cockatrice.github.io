@@ -112,162 +112,161 @@ $(document).ready(function(){initNavTree('d1/dd3/game__meta__info_8h_source.html
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef GAME_META_INFO_H</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define GAME_META_INFO_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;pb/serverinfo_game.pb.h&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QMap&gt;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">// Translation layer class to expose protobuf safely and hook it up to Qt Signals.</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">// This class de-couples the domain object (i.e. the GameMetaInfo) from the network object.</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">// If the network object changes, only this class needs to be adjusted.</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span><a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a>;</div>
-<div class="foldopen" id="foldopen00020" data-start="{" data-end="};">
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html">   20</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d9/db5/classGameMetaInfo.html">GameMetaInfo</a> : <span class="keyword">public</span> QObject</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    Q_OBJECT</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d9/db5/classGameMetaInfo.html">GameMetaInfo</a>(<a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *parent);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a250f5a2b01eecbd62cecfa38c1574ec3">   26</a></span>    QMap&lt;int, QString&gt; <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a250f5a2b01eecbd62cecfa38c1574ec3">roomGameTypes</a>;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">// Populate from protobuf (e.g., after network message)</span></div>
-<div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a64c925946a983f4932e27e6cb0111653">   29</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a64c925946a983f4932e27e6cb0111653">setFromProto</a>(<span class="keyword">const</span> ServerInfo_Game &amp;gi)</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    {</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.CopyFrom(gi);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    }</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QMap&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;libcockatrice/protocol/pb/serverinfo_game.pb.h&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">// Translation layer class to expose protobuf safely and hook it up to Qt Signals.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">// This class de-couples the domain object (i.e. the GameMetaInfo) from the network object.</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">// If the network object changes, only this class needs to be adjusted.</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span><a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a>;</div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html">   19</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d9/db5/classGameMetaInfo.html">GameMetaInfo</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    Q_OBJECT</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d9/db5/classGameMetaInfo.html">GameMetaInfo</a>(<a class="code hl_class" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *parent);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a250f5a2b01eecbd62cecfa38c1574ec3">   25</a></span>    QMap&lt;int, QString&gt; <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a250f5a2b01eecbd62cecfa38c1574ec3">roomGameTypes</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="comment">// Populate from protobuf (e.g., after network message)</span></div>
+<div class="foldopen" id="foldopen00028" data-start="{" data-end="}">
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a64c925946a983f4932e27e6cb0111653">   28</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a64c925946a983f4932e27e6cb0111653">setFromProto</a>(<span class="keyword">const</span> ServerInfo_Game &amp;gi)</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.CopyFrom(gi);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
 </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#ac3b98c1db4f95f753997dd74d10eed32">   34</a></span>    <span class="keyword">const</span> ServerInfo_Game &amp;<a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#ac3b98c1db4f95f753997dd74d10eed32">proto</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#ac3b98c1db4f95f753997dd74d10eed32">   33</a></span>    <span class="keyword">const</span> ServerInfo_Game &amp;<a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#ac3b98c1db4f95f753997dd74d10eed32">proto</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
 </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="comment">// High-level getters that avoid exposing protobuf directly</span></div>
-<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a10294b9c636d995f479a835c38ff7d65">   40</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a10294b9c636d995f479a835c38ff7d65">gameId</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.game_id();</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="comment">// High-level getters that avoid exposing protobuf directly</span></div>
+<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a10294b9c636d995f479a835c38ff7d65">   39</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a10294b9c636d995f479a835c38ff7d65">gameId</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.game_id();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#ae3b3adcfb47a3f880e5200d57245e710">   44</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#ae3b3adcfb47a3f880e5200d57245e710">maxPlayers</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.max_players();</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
+<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#ae3b3adcfb47a3f880e5200d57245e710">   43</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#ae3b3adcfb47a3f880e5200d57245e710">maxPlayers</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.max_players();</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00048" data-start="{" data-end="}">
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a462046262775a201d9b10f4c499f8f7f">   48</a></span>    QString <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a462046262775a201d9b10f4c499f8f7f">description</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordflow">return</span> QString::fromStdString(<a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.description());</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    }</div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a462046262775a201d9b10f4c499f8f7f">   47</a></span>    QString <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a462046262775a201d9b10f4c499f8f7f">description</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">return</span> QString::fromStdString(<a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.description());</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#ad2f1b65b5b28ff818ee4e7b0251e3e34">   52</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#ad2f1b65b5b28ff818ee4e7b0251e3e34">started</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.started();</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    }</div>
+<div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#ad2f1b65b5b28ff818ee4e7b0251e3e34">   51</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#ad2f1b65b5b28ff818ee4e7b0251e3e34">started</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.started();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00056" data-start="{" data-end="}">
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a1a0a0abd4a397a0b14f09b6f766c5e6d">   56</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a1a0a0abd4a397a0b14f09b6f766c5e6d">spectatorsOmniscient</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.spectators_omniscient();</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    }</div>
+<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a1a0a0abd4a397a0b14f09b6f766c5e6d">   55</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a1a0a0abd4a397a0b14f09b6f766c5e6d">spectatorsOmniscient</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.spectators_omniscient();</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a65159c23024fb8e96c0750d56768617b">   60</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a65159c23024fb8e96c0750d56768617b">spectatorsCanChat</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.spectators_can_chat();</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    }</div>
+<div class="foldopen" id="foldopen00059" data-start="{" data-end="}">
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a65159c23024fb8e96c0750d56768617b">   59</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a65159c23024fb8e96c0750d56768617b">spectatorsCanChat</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.spectators_can_chat();</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00064" data-start="{" data-end="}">
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a99f2023563dd933ea7ee0f3c146d37d8">   64</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a99f2023563dd933ea7ee0f3c146d37d8">gameTypesSize</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.game_types_size();</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    }</div>
+<div class="foldopen" id="foldopen00063" data-start="{" data-end="}">
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a99f2023563dd933ea7ee0f3c146d37d8">   63</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a99f2023563dd933ea7ee0f3c146d37d8">gameTypesSize</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.game_types_size();</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00068" data-start="{" data-end="}">
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a1c3445be106df07a15f6b0fb0b13eedf">   68</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a1c3445be106df07a15f6b0fb0b13eedf">gameTypeIdAt</a>(<span class="keywordtype">int</span> index)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.game_types(index);</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    }</div>
+<div class="foldopen" id="foldopen00067" data-start="{" data-end="}">
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a1c3445be106df07a15f6b0fb0b13eedf">   67</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a1c3445be106df07a15f6b0fb0b13eedf">gameTypeIdAt</a>(<span class="keywordtype">int</span> index)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.game_types(index);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    }</div>
 </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
-<div class="foldopen" id="foldopen00073" data-start="{" data-end="}">
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a5df55beeaa964e8455743dfc368f3059">   73</a></span>    QMap&lt;int, QString&gt; <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a5df55beeaa964e8455743dfc368f3059">getRoomGameTypes</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a250f5a2b01eecbd62cecfa38c1574ec3">roomGameTypes</a>;</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    }</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="foldopen" id="foldopen00072" data-start="{" data-end="}">
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a5df55beeaa964e8455743dfc368f3059">   72</a></span>    QMap&lt;int, QString&gt; <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a5df55beeaa964e8455743dfc368f3059">getRoomGameTypes</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a250f5a2b01eecbd62cecfa38c1574ec3">roomGameTypes</a>;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    }</div>
 </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="foldopen" id="foldopen00078" data-start="{" data-end="}">
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#af2e007fd2dfb4db6f24808bda94b40eb">   78</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#af2e007fd2dfb4db6f24808bda94b40eb">setRoomGameTypes</a>(QMap&lt;int, QString&gt; _roomGameTypes)</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    {</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a250f5a2b01eecbd62cecfa38c1574ec3">roomGameTypes</a> = _roomGameTypes;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    }</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="foldopen" id="foldopen00077" data-start="{" data-end="}">
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#af2e007fd2dfb4db6f24808bda94b40eb">   77</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#af2e007fd2dfb4db6f24808bda94b40eb">setRoomGameTypes</a>(QMap&lt;int, QString&gt; _roomGameTypes)</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    {</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a250f5a2b01eecbd62cecfa38c1574ec3">roomGameTypes</a> = _roomGameTypes;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    }</div>
 </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="foldopen" id="foldopen00083" data-start="{" data-end="}">
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a34eb49df6c073b843551c7369e12f59d">   83</a></span>    QString <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a34eb49df6c073b843551c7369e12f59d">findRoomGameType</a>(<span class="keywordtype">int</span> index)</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    {</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a250f5a2b01eecbd62cecfa38c1574ec3">roomGameTypes</a>.find(<a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.game_types(index)).value();</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    }</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="foldopen" id="foldopen00082" data-start="{" data-end="}">
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a34eb49df6c073b843551c7369e12f59d">   82</a></span>    QString <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#a34eb49df6c073b843551c7369e12f59d">findRoomGameType</a>(<span class="keywordtype">int</span> index)</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    {</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a250f5a2b01eecbd62cecfa38c1574ec3">roomGameTypes</a>.find(<a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.game_types(index)).value();</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    }</div>
 </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="keyword">public</span> slots:</div>
-<div class="foldopen" id="foldopen00089" data-start="{" data-end="}">
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a49c7733bb3eb6d797092787f49af5e02">   89</a></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d9/db5/classGameMetaInfo.html#a49c7733bb3eb6d797092787f49af5e02">setStarted</a>(<span class="keywordtype">bool</span> s)</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    {</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.started() == s)</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.set_started(s);</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        emit <a class="code hl_signal" href="../../d9/db5/classGameMetaInfo.html#a315d95fdc95a44d54c1e3d212561e34b">startedChanged</a>(s);</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    }</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="keyword">public</span> slots:</div>
+<div class="foldopen" id="foldopen00088" data-start="{" data-end="}">
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a49c7733bb3eb6d797092787f49af5e02">   88</a></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d9/db5/classGameMetaInfo.html#a49c7733bb3eb6d797092787f49af5e02">setStarted</a>(<span class="keywordtype">bool</span> s)</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    {</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.started() == s)</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.set_started(s);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        emit <a class="code hl_signal" href="../../d9/db5/classGameMetaInfo.html#a315d95fdc95a44d54c1e3d212561e34b">startedChanged</a>(s);</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00096" data-start="{" data-end="}">
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a8303bf4949b1803b4469d9d1144addc9">   96</a></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d9/db5/classGameMetaInfo.html#a8303bf4949b1803b4469d9d1144addc9">setSpectatorsOmniscient</a>(<span class="keywordtype">bool</span> v)</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    {</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.spectators_omniscient() == v)</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.set_spectators_omniscient(v);</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        emit <a class="code hl_signal" href="../../d9/db5/classGameMetaInfo.html#a289bd418ae6652d92e9dda8b60413719">spectatorsOmniscienceChanged</a>(v);</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    }</div>
+<div class="foldopen" id="foldopen00095" data-start="{" data-end="}">
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a8303bf4949b1803b4469d9d1144addc9">   95</a></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d9/db5/classGameMetaInfo.html#a8303bf4949b1803b4469d9d1144addc9">setSpectatorsOmniscient</a>(<span class="keywordtype">bool</span> v)</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    {</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.spectators_omniscient() == v)</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>.set_spectators_omniscient(v);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        emit <a class="code hl_signal" href="../../d9/db5/classGameMetaInfo.html#a289bd418ae6652d92e9dda8b60413719">spectatorsOmniscienceChanged</a>(v);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    }</div>
 </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>signals:</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a315d95fdc95a44d54c1e3d212561e34b">  105</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d9/db5/classGameMetaInfo.html#a315d95fdc95a44d54c1e3d212561e34b">startedChanged</a>(<span class="keywordtype">bool</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#ad2f1b65b5b28ff818ee4e7b0251e3e34">started</a>);</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a289bd418ae6652d92e9dda8b60413719">  106</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d9/db5/classGameMetaInfo.html#a289bd418ae6652d92e9dda8b60413719">spectatorsOmniscienceChanged</a>(<span class="keywordtype">bool</span> omniscient);</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">  109</a></span>    ServerInfo_Game <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>;</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>};</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>signals:</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a315d95fdc95a44d54c1e3d212561e34b">  104</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d9/db5/classGameMetaInfo.html#a315d95fdc95a44d54c1e3d212561e34b">startedChanged</a>(<span class="keywordtype">bool</span> <a class="code hl_function" href="../../d9/db5/classGameMetaInfo.html#ad2f1b65b5b28ff818ee4e7b0251e3e34">started</a>);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a289bd418ae6652d92e9dda8b60413719">  105</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d9/db5/classGameMetaInfo.html#a289bd418ae6652d92e9dda8b60413719">spectatorsOmniscienceChanged</a>(<span class="keywordtype">bool</span> omniscient);</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">  108</a></span>    ServerInfo_Game <a class="code hl_variable" href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">gameInfo_</a>;</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>};</div>
 </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="preprocessor">#endif </span><span class="comment">// GAME_META_INFO_H</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="preprocessor">#endif </span><span class="comment">// GAME_META_INFO_H</span></div>
 <div class="ttc" id="aclassAbstractGame_html"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html">AbstractGame</a></div><div class="ttdef"><b>Definition</b> abstract_game.h:21</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html">GameMetaInfo</a></div><div class="ttdef"><b>Definition</b> game_meta_info.h:21</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_a10294b9c636d995f479a835c38ff7d65"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a10294b9c636d995f479a835c38ff7d65">GameMetaInfo::gameId</a></div><div class="ttdeci">int gameId() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:40</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_a1a0a0abd4a397a0b14f09b6f766c5e6d"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a1a0a0abd4a397a0b14f09b6f766c5e6d">GameMetaInfo::spectatorsOmniscient</a></div><div class="ttdeci">bool spectatorsOmniscient() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:56</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_a1c3445be106df07a15f6b0fb0b13eedf"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a1c3445be106df07a15f6b0fb0b13eedf">GameMetaInfo::gameTypeIdAt</a></div><div class="ttdeci">int gameTypeIdAt(int index) const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:68</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_a250f5a2b01eecbd62cecfa38c1574ec3"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a250f5a2b01eecbd62cecfa38c1574ec3">GameMetaInfo::roomGameTypes</a></div><div class="ttdeci">QMap&lt; int, QString &gt; roomGameTypes</div><div class="ttdef"><b>Definition</b> game_meta_info.h:26</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html">GameMetaInfo</a></div><div class="ttdef"><b>Definition</b> game_meta_info.h:20</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_a10294b9c636d995f479a835c38ff7d65"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a10294b9c636d995f479a835c38ff7d65">GameMetaInfo::gameId</a></div><div class="ttdeci">int gameId() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:39</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_a1a0a0abd4a397a0b14f09b6f766c5e6d"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a1a0a0abd4a397a0b14f09b6f766c5e6d">GameMetaInfo::spectatorsOmniscient</a></div><div class="ttdeci">bool spectatorsOmniscient() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:55</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_a1c3445be106df07a15f6b0fb0b13eedf"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a1c3445be106df07a15f6b0fb0b13eedf">GameMetaInfo::gameTypeIdAt</a></div><div class="ttdeci">int gameTypeIdAt(int index) const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:67</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_a250f5a2b01eecbd62cecfa38c1574ec3"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a250f5a2b01eecbd62cecfa38c1574ec3">GameMetaInfo::roomGameTypes</a></div><div class="ttdeci">QMap&lt; int, QString &gt; roomGameTypes</div><div class="ttdef"><b>Definition</b> game_meta_info.h:25</div></div>
 <div class="ttc" id="aclassGameMetaInfo_html_a289bd418ae6652d92e9dda8b60413719"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a289bd418ae6652d92e9dda8b60413719">GameMetaInfo::spectatorsOmniscienceChanged</a></div><div class="ttdeci">void spectatorsOmniscienceChanged(bool omniscient)</div></div>
 <div class="ttc" id="aclassGameMetaInfo_html_a315d95fdc95a44d54c1e3d212561e34b"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a315d95fdc95a44d54c1e3d212561e34b">GameMetaInfo::startedChanged</a></div><div class="ttdeci">void startedChanged(bool started)</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_a34eb49df6c073b843551c7369e12f59d"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a34eb49df6c073b843551c7369e12f59d">GameMetaInfo::findRoomGameType</a></div><div class="ttdeci">QString findRoomGameType(int index)</div><div class="ttdef"><b>Definition</b> game_meta_info.h:83</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_a462046262775a201d9b10f4c499f8f7f"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a462046262775a201d9b10f4c499f8f7f">GameMetaInfo::description</a></div><div class="ttdeci">QString description() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:48</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_a49c7733bb3eb6d797092787f49af5e02"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a49c7733bb3eb6d797092787f49af5e02">GameMetaInfo::setStarted</a></div><div class="ttdeci">void setStarted(bool s)</div><div class="ttdef"><b>Definition</b> game_meta_info.h:89</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_a5d3184babecaa515a7c75b5e78ab2db7"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">GameMetaInfo::gameInfo_</a></div><div class="ttdeci">ServerInfo_Game gameInfo_</div><div class="ttdef"><b>Definition</b> game_meta_info.h:109</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_a5df55beeaa964e8455743dfc368f3059"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a5df55beeaa964e8455743dfc368f3059">GameMetaInfo::getRoomGameTypes</a></div><div class="ttdeci">QMap&lt; int, QString &gt; getRoomGameTypes() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:73</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_a64c925946a983f4932e27e6cb0111653"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a64c925946a983f4932e27e6cb0111653">GameMetaInfo::setFromProto</a></div><div class="ttdeci">void setFromProto(const ServerInfo_Game &amp;gi)</div><div class="ttdef"><b>Definition</b> game_meta_info.h:29</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_a65159c23024fb8e96c0750d56768617b"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a65159c23024fb8e96c0750d56768617b">GameMetaInfo::spectatorsCanChat</a></div><div class="ttdeci">bool spectatorsCanChat() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:60</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_a8303bf4949b1803b4469d9d1144addc9"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a8303bf4949b1803b4469d9d1144addc9">GameMetaInfo::setSpectatorsOmniscient</a></div><div class="ttdeci">void setSpectatorsOmniscient(bool v)</div><div class="ttdef"><b>Definition</b> game_meta_info.h:96</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_a99f2023563dd933ea7ee0f3c146d37d8"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a99f2023563dd933ea7ee0f3c146d37d8">GameMetaInfo::gameTypesSize</a></div><div class="ttdeci">int gameTypesSize() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:64</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_ac3b98c1db4f95f753997dd74d10eed32"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#ac3b98c1db4f95f753997dd74d10eed32">GameMetaInfo::proto</a></div><div class="ttdeci">const ServerInfo_Game &amp; proto() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:34</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_ad2f1b65b5b28ff818ee4e7b0251e3e34"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#ad2f1b65b5b28ff818ee4e7b0251e3e34">GameMetaInfo::started</a></div><div class="ttdeci">bool started() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:52</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_ae3b3adcfb47a3f880e5200d57245e710"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#ae3b3adcfb47a3f880e5200d57245e710">GameMetaInfo::maxPlayers</a></div><div class="ttdeci">int maxPlayers() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:44</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html_af2e007fd2dfb4db6f24808bda94b40eb"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#af2e007fd2dfb4db6f24808bda94b40eb">GameMetaInfo::setRoomGameTypes</a></div><div class="ttdeci">void setRoomGameTypes(QMap&lt; int, QString &gt; _roomGameTypes)</div><div class="ttdef"><b>Definition</b> game_meta_info.h:78</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_a34eb49df6c073b843551c7369e12f59d"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a34eb49df6c073b843551c7369e12f59d">GameMetaInfo::findRoomGameType</a></div><div class="ttdeci">QString findRoomGameType(int index)</div><div class="ttdef"><b>Definition</b> game_meta_info.h:82</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_a462046262775a201d9b10f4c499f8f7f"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a462046262775a201d9b10f4c499f8f7f">GameMetaInfo::description</a></div><div class="ttdeci">QString description() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:47</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_a49c7733bb3eb6d797092787f49af5e02"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a49c7733bb3eb6d797092787f49af5e02">GameMetaInfo::setStarted</a></div><div class="ttdeci">void setStarted(bool s)</div><div class="ttdef"><b>Definition</b> game_meta_info.h:88</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_a5d3184babecaa515a7c75b5e78ab2db7"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a5d3184babecaa515a7c75b5e78ab2db7">GameMetaInfo::gameInfo_</a></div><div class="ttdeci">ServerInfo_Game gameInfo_</div><div class="ttdef"><b>Definition</b> game_meta_info.h:108</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_a5df55beeaa964e8455743dfc368f3059"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a5df55beeaa964e8455743dfc368f3059">GameMetaInfo::getRoomGameTypes</a></div><div class="ttdeci">QMap&lt; int, QString &gt; getRoomGameTypes() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:72</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_a64c925946a983f4932e27e6cb0111653"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a64c925946a983f4932e27e6cb0111653">GameMetaInfo::setFromProto</a></div><div class="ttdeci">void setFromProto(const ServerInfo_Game &amp;gi)</div><div class="ttdef"><b>Definition</b> game_meta_info.h:28</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_a65159c23024fb8e96c0750d56768617b"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a65159c23024fb8e96c0750d56768617b">GameMetaInfo::spectatorsCanChat</a></div><div class="ttdeci">bool spectatorsCanChat() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:59</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_a8303bf4949b1803b4469d9d1144addc9"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a8303bf4949b1803b4469d9d1144addc9">GameMetaInfo::setSpectatorsOmniscient</a></div><div class="ttdeci">void setSpectatorsOmniscient(bool v)</div><div class="ttdef"><b>Definition</b> game_meta_info.h:95</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_a99f2023563dd933ea7ee0f3c146d37d8"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#a99f2023563dd933ea7ee0f3c146d37d8">GameMetaInfo::gameTypesSize</a></div><div class="ttdeci">int gameTypesSize() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:63</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_ac3b98c1db4f95f753997dd74d10eed32"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#ac3b98c1db4f95f753997dd74d10eed32">GameMetaInfo::proto</a></div><div class="ttdeci">const ServerInfo_Game &amp; proto() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:33</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_ad2f1b65b5b28ff818ee4e7b0251e3e34"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#ad2f1b65b5b28ff818ee4e7b0251e3e34">GameMetaInfo::started</a></div><div class="ttdeci">bool started() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:51</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_ae3b3adcfb47a3f880e5200d57245e710"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#ae3b3adcfb47a3f880e5200d57245e710">GameMetaInfo::maxPlayers</a></div><div class="ttdeci">int maxPlayers() const</div><div class="ttdef"><b>Definition</b> game_meta_info.h:43</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html_af2e007fd2dfb4db6f24808bda94b40eb"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html#af2e007fd2dfb4db6f24808bda94b40eb">GameMetaInfo::setRoomGameTypes</a></div><div class="ttdeci">void setRoomGameTypes(QMap&lt; int, QString &gt; _roomGameTypes)</div><div class="ttdef"><b>Definition</b> game_meta_info.h:77</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->

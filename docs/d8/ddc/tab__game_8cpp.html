@@ -7,7 +7,7 @@
     <meta content="IE=11" http-equiv="X-UA-Compatible"/>
     <meta content="Doxygen 1.9.8" name="generator"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <title>Cockatrice: cockatrice/src/tabs/tab_game.cpp File Reference</title>
+    <title>Cockatrice: cockatrice/src/interface/widgets/tabs/tab_game.cpp File Reference</title>
     <!--BEGIN PROJECT_ICON-->
     <link href="../../$projecticon" rel="icon" type="image/x-icon"/>
     <!--END PROJECT_ICON-->
@@ -109,37 +109,29 @@ $(document).ready(function(){initNavTree('d8/ddc/tab__game_8cpp.html','../../');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d20/tab__game_8h_source.html">tab_game.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/dbf/replay__timeline__widget_8h_source.html">../client/network/replay_timeline_widget.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d66/card__database_8h_source.html">../database/card_database.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">../database/card_database_manager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/da9/dlg__create__game_8h_source.html">../dialogs/dlg_create_game.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d4c/arrow__item_8h_source.html">../game/board/arrow_item.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d96/card__item_8h_source.html">../game/board/card_item.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/df1/deck__view__container_8h_source.html">../game/deckview/deck_view_container.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d9a/tabbed__deck__view__container_8h_source.html">../game/deckview/tabbed_deck_view_container.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/dd5/game_8h_source.html">../game/game.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d6f/game__scene_8h_source.html">../game/game_scene.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d9d/game__view_8h_source.html">../game/game_view.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dad/message__log__widget_8h_source.html">../game/log/message_log_widget.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/db1/phases__toolbar_8h_source.html">../game/phases_toolbar.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d62/player_8h_source.html">../game/player/player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d47/player__list__widget_8h_source.html">../game/player/player_list_widget.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d02/replay_8h_source.html">../game/replay.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/dc7/card__zone_8h_source.html">../game/zones/card_zone.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/de8/line__edit__completer_8h_source.html">../interface/line_edit_completer.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/deb/card__info__frame__widget_8h_source.html">../interface/widgets/cards/card_info_frame_widget.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/df4/window__main_8h_source.html">../interface/window_main.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/dbf/main_8h_source.html">../main.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/ddf/picture__loader_8h_source.html">../picture_loader/picture_loader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/db3/abstract__client_8h_source.html">../server/abstract_client.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d57/user__list__manager_8h_source.html">../server/user/user_list_manager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">../settings/cache_settings.h</a>&quot;</code><br />
-<code>#include &quot;pb/event_game_joined.pb.h&quot;</code><br />
-<code>#include &quot;pb/game_replay.pb.h&quot;</code><br />
-<code>#include &quot;pb/serverinfo_player.pb.h&quot;</code><br />
-<code>#include &quot;pb/serverinfo_user.pb.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">../../../client/settings/cache_settings.h</a>&quot;</code><br />
+<code>#include &quot;../game/board/arrow_item.h&quot;</code><br />
+<code>#include &quot;../game/board/card_item.h&quot;</code><br />
+<code>#include &quot;../game/deckview/deck_view_container.h&quot;</code><br />
+<code>#include &quot;../game/deckview/tabbed_deck_view_container.h&quot;</code><br />
+<code>#include &quot;../game/game.h&quot;</code><br />
+<code>#include &quot;../game/game_scene.h&quot;</code><br />
+<code>#include &quot;../game/game_view.h&quot;</code><br />
+<code>#include &quot;../game/log/message_log_widget.h&quot;</code><br />
+<code>#include &quot;../game/phases_toolbar.h&quot;</code><br />
+<code>#include &quot;../game/player/player.h&quot;</code><br />
+<code>#include &quot;../game/player/player_list_widget.h&quot;</code><br />
+<code>#include &quot;../game/replay.h&quot;</code><br />
+<code>#include &quot;../game/zones/card_zone.h&quot;</code><br />
+<code>#include &quot;../interface/card_picture_loader/card_picture_loader.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/cards/card_info_frame_widget.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/dialogs/dlg_create_game.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/replay/replay_timeline_widget.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/server/user/user_list_manager.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/utility/line_edit_completer.h&quot;</code><br />
+<code>#include &quot;../interface/window_main.h&quot;</code><br />
+<code>#include &quot;../main.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d89/tab__supervisor_8h_source.html">tab_supervisor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d4b/trice__limits_8h_source.html">trice_limits.h</a>&quot;</code><br />
 <code>#include &lt;QAction&gt;</code><br />
 <code>#include &lt;QCompleter&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
@@ -154,10 +146,18 @@ $(document).ready(function(){initNavTree('d8/ddc/tab__game_8cpp.html','../../');
 <code>#include &lt;QTimer&gt;</code><br />
 <code>#include &lt;QToolButton&gt;</code><br />
 <code>#include &lt;QWidget&gt;</code><br />
+<code>#include &lt;libcockatrice/card/database/card_database.h&gt;</code><br />
+<code>#include &lt;libcockatrice/card/database/card_database_manager.h&gt;</code><br />
+<code>#include &lt;libcockatrice/network/client/abstract/abstract_client.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/event_game_joined.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/game_replay.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/serverinfo_player.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/serverinfo_user.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/utility/trice_limits.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for tab_game.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dcf/tab__game_8cpp__incl.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dcf/tab__game_8cpp__incl.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
@@ -166,7 +166,7 @@ Include dependency graph for tab_game.cpp:</div>
 <script src="../../graph_toggle.js"></script>
 <div class="navpath" id="nav-path"><!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ba407937cdd1b7800d28fd3d04410a87.html">tabs</a></li><li class="navelem"><a class="el" href="../../d8/ddc/tab__game_8cpp.html">tab_game.cpp</a></li>
+        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cd36a3f9f9d202308a2deae5eeddfa6f.html">interface</a></li><li class="navelem"><a class="el" href="../../dir_ff904cee2da7fc4774f8298cfe1e7610.html">widgets</a></li><li class="navelem"><a class="el" href="../../dir_997302a10e9962ab00e284769d488188.html">tabs</a></li><li class="navelem"><a class="el" href="../../d8/ddc/tab__game_8cpp.html">tab_game.cpp</a></li>
         <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img alt="doxygen"
                                                                                           class="footer"
                                                                                           height="31" src="../../doxygen.svg"

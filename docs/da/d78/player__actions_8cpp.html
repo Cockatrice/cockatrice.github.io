@@ -112,40 +112,43 @@ $(document).ready(function(){initNavTree('da/d78/player__actions_8cpp.html','../
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d9/db7/player__actions_8h_source.html">player_actions.h</a>&quot;</code><br />
-<code>#include &quot;../../../common/pb/context_move_card.pb.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d72/card__relation_8h_source.html">../../card/card_relation.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dc8/get__text__with__max_8h_source.html">../../client/get_text_with_max.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">../../database/card_database_manager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d20/tab__game_8h_source.html">../../tabs/tab_game.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d20/tab__game_8h_source.html">../../interface/widgets/tabs/tab_game.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/dc8/get__text__with__max_8h_source.html">../../interface/widgets/utility/get_text_with_max.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d96/card__item_8h_source.html">../board/card_item.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/de9/dlg__move__top__cards__until_8h_source.html">../dialogs/dlg_move_top_cards_until.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/da7/dlg__roll__dice_8h_source.html">../dialogs/dlg_roll_dice.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/dd4/view__zone__logic_8h_source.html">../zones/logic/view_zone_logic.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/d03/card__menu__action__type_8h_source.html">card_menu_action_type.h</a>&quot;</code><br />
-<code>#include &quot;pb/command_attach_card.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_change_zone_properties.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_concede.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_create_token.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_draw_cards.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_flip_card.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_game_say.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_move_card.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_mulligan.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_reveal_cards.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_roll_die.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_set_card_attr.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_set_card_counter.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_shuffle.pb.h&quot;</code><br />
-<code>#include &quot;pb/command_undo_draw.pb.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d4b/trice__limits_8h_source.html">trice_limits.h</a>&quot;</code><br />
+<code>#include &lt;libcockatrice/card/database/card_database_manager.h&gt;</code><br />
+<code>#include &lt;libcockatrice/card/relation/card_relation.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_attach_card.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_change_zone_properties.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_concede.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_create_token.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_draw_cards.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_flip_card.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_game_say.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_move_card.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_mulligan.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_reveal_cards.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_roll_die.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_set_card_attr.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_set_card_counter.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_shuffle.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_undo_draw.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/context_move_card.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/utility/trice_limits.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for player_actions.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d93/player__actions_8cpp__incl.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d93/player__actions_8cpp__incl.svg" width="100%" height="569"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a2139380b0a465e9b2cb1ec81514d7ecb" id="r_a2139380b0a465e9b2cb1ec81514d7ecb"><td class="memItemLeft" align="right" valign="top">static QList&lt; <a class="el" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">CardList::SortOption</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d78/player__actions_8cpp.html#a2139380b0a465e9b2cb1ec81514d7ecb">expandSortOption</a> (<a class="el" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">CardList::SortOption</a> option)</td></tr>
+<tr class="memdesc:a2139380b0a465e9b2cb1ec81514d7ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sortHand actions only pass along a single SortOption in its data. This method fills out the rest of the sort priority list given that option.  <br /></td></tr>
+<tr class="separator:a2139380b0a465e9b2cb1ec81514d7ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdf6450d908c197041e134288e6ccf10" id="r_afdf6450d908c197041e134288e6ccf10"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d78/player__actions_8cpp.html#afdf6450d908c197041e134288e6ccf10">selectCardsInZone</a> (const <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *zone, std::function&lt; bool(const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *)&gt; filter=[](const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *) { return true;})</td></tr>
 <tr class="separator:afdf6450d908c197041e134288e6ccf10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d4f4173beed500583a862e239956fc8" id="r_a5d4f4173beed500583a862e239956fc8"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d78/player__actions_8cpp.html#a5d4f4173beed500583a862e239956fc8">isUnwritableRevealZone</a> (<a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *zone)</td></tr>
@@ -158,6 +161,46 @@ Variables</h2></td></tr>
 <tr class="separator:aa309dc0b27000e09a1972964b23620c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a2139380b0a465e9b2cb1ec81514d7ecb" name="a2139380b0a465e9b2cb1ec81514d7ecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2139380b0a465e9b2cb1ec81514d7ecb">&#9670;&#160;</a></span>expandSortOption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static QList&lt; <a class="el" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">CardList::SortOption</a> &gt; expandSortOption </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">CardList::SortOption</a>&#160;</td>
+          <td class="paramname"><em>option</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The sortHand actions only pass along a single SortOption in its data. This method fills out the rest of the sort priority list given that option. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">option</td><td>The single sort option </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The sort priority list </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d78/player__actions_8cpp_a2139380b0a465e9b2cb1ec81514d7ecb_icgraph.svg" width="615" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a5d4f4173beed500583a862e239956fc8" name="a5d4f4173beed500583a862e239956fc8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d4f4173beed500583a862e239956fc8">&#9670;&#160;</a></span>isUnwritableRevealZone()</h2>
 

@@ -112,13 +112,13 @@ $(document).ready(function(){initNavTree('da/d99/abstract__game_8h_source.html',
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef COCKATRICE_ABSTRACT_GAME_H</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define COCKATRICE_ABSTRACT_GAME_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;../../../common/pb/game_replay.pb.h&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d54/game__event__handler_8h.html">game_event_handler.h</a>&quot;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="../../d1/dd3/game__meta__info_8h.html">game_meta_info.h</a>&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/d1d/game__state_8h.html">game_state.h</a>&quot;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="../../d1/df0/player__manager_8h.html">player/player_manager.h</a>&quot;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../da/d54/game__event__handler_8h.html">game_event_handler.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="../../d1/dd3/game__meta__info_8h.html">game_meta_info.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/d1d/game__state_8h.html">game_state.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="../../d1/df0/player__manager_8h.html">player/player_manager.h</a>&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;libcockatrice/protocol/pb/game_replay.pb.h&gt;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span><a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a>;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span><a class="code hl_class" href="../../de/d08/classTabGame.html">TabGame</a>;</div>
@@ -174,7 +174,7 @@ $(document).ready(function(){initNavTree('da/d99/abstract__game_8h_source.html',
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d3/d44/classAbstractGame.html#aeacfa87607a0e05889fce655a75abf33">isHost</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *<a class="code hl_function" href="../../d3/d44/classAbstractGame.html#ad5dd70c2cea1b0525d3ba2ae1092ec2f">getClientForPlayer</a>(<span class="keywordtype">int</span> playerId) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    AbstractClient *<a class="code hl_function" href="../../d3/d44/classAbstractGame.html#ad5dd70c2cea1b0525d3ba2ae1092ec2f">getClientForPlayer</a>(<span class="keywordtype">int</span> playerId) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d3/d44/classAbstractGame.html#a58b82de7a053879e5ba539fc0588817d">loadReplay</a>(GameReplay *replay);</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
@@ -191,7 +191,6 @@ $(document).ready(function(){initNavTree('da/d99/abstract__game_8h_source.html',
 </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_ABSTRACT_GAME_H</span></div>
-<div class="ttc" id="aclassAbstractClient_html"><div class="ttname"><a href="../../dc/d86/classAbstractClient.html">AbstractClient</a></div><div class="ttdef"><b>Definition</b> abstract_client.h:53</div></div>
 <div class="ttc" id="aclassAbstractGame_html"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html">AbstractGame</a></div><div class="ttdef"><b>Definition</b> abstract_game.h:21</div></div>
 <div class="ttc" id="aclassAbstractGame_html_a0d43480006c1087da655034a0382b0ba"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html#a0d43480006c1087da655034a0382b0ba">AbstractGame::getGameState</a></div><div class="ttdeci">GameState * getGameState() const</div><div class="ttdef"><b>Definition</b> abstract_game.h:44</div></div>
 <div class="ttc" id="aclassAbstractGame_html_a10d512d3b465fd4d50272aa0a54ed685"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html#a10d512d3b465fd4d50272aa0a54ed685">AbstractGame::getActiveCard</a></div><div class="ttdeci">CardItem * getActiveCard() const</div><div class="ttdef"><b>Definition</b> abstract_game.h:68</div></div>
@@ -210,11 +209,11 @@ $(document).ready(function(){initNavTree('da/d99/abstract__game_8h_source.html',
 <div class="ttc" id="aclassAbstractGame_html_aeacfa87607a0e05889fce655a75abf33"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html#aeacfa87607a0e05889fce655a75abf33">AbstractGame::isHost</a></div><div class="ttdeci">bool isHost() const</div><div class="ttdef"><b>Definition</b> abstract_game.cpp:13</div></div>
 <div class="ttc" id="aclassAbstractGame_html_af18d64442d84bfe69e907cabe713c3ff"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html#af18d64442d84bfe69e907cabe713c3ff">AbstractGame::setActiveCard</a></div><div class="ttdeci">void setActiveCard(CardItem *card)</div><div class="ttdef"><b>Definition</b> abstract_game.cpp:38</div></div>
 <div class="ttc" id="aclassAbstractGame_html_af2993d5f4e747b093b449e5d8ae66cc8"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html#af2993d5f4e747b093b449e5d8ae66cc8">AbstractGame::gameState</a></div><div class="ttdeci">GameState * gameState</div><div class="ttdef"><b>Definition</b> abstract_game.h:29</div></div>
-<div class="ttc" id="aclassCardItem_html"><div class="ttname"><a href="../../d6/dbd/classCardItem.html">CardItem</a></div><div class="ttdef"><b>Definition</b> card_item.h:28</div></div>
+<div class="ttc" id="aclassCardItem_html"><div class="ttname"><a href="../../d6/dbd/classCardItem.html">CardItem</a></div><div class="ttdef"><b>Definition</b> card_item.h:29</div></div>
 <div class="ttc" id="aclassGameEventHandler_html"><div class="ttname"><a href="../../d7/db2/classGameEventHandler.html">GameEventHandler</a></div><div class="ttdef"><b>Definition</b> game_event_handler.h:46</div></div>
-<div class="ttc" id="aclassGameMetaInfo_html"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html">GameMetaInfo</a></div><div class="ttdef"><b>Definition</b> game_meta_info.h:21</div></div>
-<div class="ttc" id="aclassGameState_html"><div class="ttname"><a href="../../d3/df3/classGameState.html">GameState</a></div><div class="ttdef"><b>Definition</b> game_state.h:21</div></div>
-<div class="ttc" id="aclassPlayerManager_html"><div class="ttname"><a href="../../dc/d5d/classPlayerManager.html">PlayerManager</a></div><div class="ttdef"><b>Definition</b> player_manager.h:18</div></div>
+<div class="ttc" id="aclassGameMetaInfo_html"><div class="ttname"><a href="../../d9/db5/classGameMetaInfo.html">GameMetaInfo</a></div><div class="ttdef"><b>Definition</b> game_meta_info.h:20</div></div>
+<div class="ttc" id="aclassGameState_html"><div class="ttname"><a href="../../d3/df3/classGameState.html">GameState</a></div><div class="ttdef"><b>Definition</b> game_state.h:20</div></div>
+<div class="ttc" id="aclassPlayerManager_html"><div class="ttname"><a href="../../dc/d5d/classPlayerManager.html">PlayerManager</a></div><div class="ttdef"><b>Definition</b> player_manager.h:17</div></div>
 <div class="ttc" id="aclassTabGame_html"><div class="ttname"><a href="../../de/d08/classTabGame.html">TabGame</a></div><div class="ttdef"><b>Definition</b> tab_game.h:59</div></div>
 <div class="ttc" id="agame__event__handler_8h_html"><div class="ttname"><a href="../../da/d54/game__event__handler_8h.html">game_event_handler.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
 <div class="ttc" id="agame__meta__info_8h_html"><div class="ttname"><a href="../../d1/dd3/game__meta__info_8h.html">game_meta_info.h</a></div><div class="ttdoc">TODO: Document this.</div></div>

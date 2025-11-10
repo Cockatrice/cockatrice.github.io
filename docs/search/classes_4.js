@@ -25,7 +25,5 @@ var searchData=
   ['edhrectoptagsapiresponse_22',['EdhrecTopTagsApiResponse',['../d6/d8d/classEdhrecTopTagsApiResponse.html',1,'']]],
   ['edhrectoptagsapiresponsedisplaywidget_23',['EdhrecTopTagsApiResponseDisplayWidget',['../d5/d61/classEdhrecTopTagsApiResponseDisplayWidget.html',1,'']]],
   ['entry_24',['Entry',['../d3/d4a/structBackgroundSources_1_1Entry.html',1,'BackgroundSources']]],
-  ['exactcard_25',['ExactCard',['../df/d4e/classExactCard.html',1,'']]],
-  ['expression_26',['Expression',['../de/d94/classExpression.html',1,'']]],
-  ['extradecksearchinfo_27',['ExtraDeckSearchInfo',['../d1/d36/structExtraDeckSearchInfo.html',1,'']]]
+  ['extradecksearchinfo_25',['ExtraDeckSearchInfo',['../d1/d36/structExtraDeckSearchInfo.html',1,'']]]
 ];

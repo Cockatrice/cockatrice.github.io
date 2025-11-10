@@ -1,6 +1,6 @@
 var group__Tabs =
 [
-    [ "Deck Editor Tabs", "d5/dc3/group__DeckEditorTabs.html", null ],
+    [ "Deck Editor Tabs", "d5/dc3/group__DeckEditorTabs.html", "d5/dc3/group__DeckEditorTabs" ],
     [ "Networking Tabs", "d5/d18/group__NetworkingTabs.html", "d5/d18/group__NetworkingTabs" ],
     [ "tab_edhrec.h", "d4/dcf/tab__edhrec_8h.html", null ],
     [ "tab_edhrec_main.h", "d8/d52/tab__edhrec__main_8h.html", null ],

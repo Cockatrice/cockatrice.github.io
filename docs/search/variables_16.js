@@ -1,7 +1,7 @@
 var searchData=
 [
   ['valid_0',['valid',['../d3/d0a/classSequenceEdit.html#a13db3cf675326411ffe6b321e3ae3943',1,'SequenceEdit']]],
-  ['value_1',['value',['../d4/d67/classAbstractCounter.html#a44b0e0bb2622beadb6b5b306eebe8bc7',1,'AbstractCounter::value'],['../de/d94/classExpression.html#a81382544fb0acdf8d90fa8e3674e58e7',1,'Expression::value'],['../db/daa/classBarWidget.html#a1f6062d37de48da67e0e1edc34e8e0c0',1,'BarWidget::value']]],
+  ['value_1',['value',['../d4/d67/classAbstractCounter.html#a44b0e0bb2622beadb6b5b306eebe8bc7',1,'AbstractCounter::value'],['../db/daa/classBarWidget.html#a1f6062d37de48da67e0e1edc34e8e0c0',1,'BarWidget::value']]],
   ['valuetodisplay_2',['valueToDisplay',['../d9/d5e/classPercentBarWidget.html#a8e99dc20171b0c8cb4dd37f09ed8a9ab',1,'PercentBarWidget']]],
   ['vertical_5fpadding_3',['VERTICAL_PADDING',['../d0/db5/classZoneViewZone.html#a12f7f35841146f0d2b272dae45c1cd13',1,'ZoneViewZone']]],
   ['verticalcardoverlappercent_4',['verticalCardOverlapPercent',['../d5/d88/classSettingsCache.html#ae72b6e656c30944657f0d0777274226c',1,'SettingsCache']]],
@@ -38,6 +38,6 @@ var searchData=
   ['visualdeckstoragesortingorder_35',['visualDeckStorageSortingOrder',['../d5/d88/classSettingsCache.html#a77fdad7c9658dc17d1a8db190c963a9b',1,'SettingsCache']]],
   ['visualdeckstoragetooltiptype_36',['visualDeckStorageTooltipType',['../d5/d88/classSettingsCache.html#a0ddcc8af011fcec5a8ae088783cbd321',1,'SettingsCache']]],
   ['visualdeckstorageunusedcoloridentitiesopacity_37',['visualDeckStorageUnusedColorIdentitiesOpacity',['../d5/d88/classSettingsCache.html#aa09f684d41b9b25c5a87458f3449a6ca',1,'SettingsCache']]],
-  ['visualdeckstoragewidget_38',['visualdeckstoragewidget',['../df/ddd/classDeckViewContainer.html#a34f16b20f44fabc9afac732c0ea5e0ea',1,'DeckViewContainer::visualDeckStorageWidget'],['../d5/d79/classDeckPreviewWidget.html#a4cf652fdc72b14db64c4b4064461d920',1,'DeckPreviewWidget::visualDeckStorageWidget'],['../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad52915450f9a735a2d7579d93006ad4f',1,'VisualDeckStorageFolderDisplayWidget::visualDeckStorageWidget'],['../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792',1,'TabDeckStorageVisual::visualDeckStorageWidget']]],
+  ['visualdeckstoragewidget_38',['visualdeckstoragewidget',['../df/ddd/classDeckViewContainer.html#a34f16b20f44fabc9afac732c0ea5e0ea',1,'DeckViewContainer::visualDeckStorageWidget'],['../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792',1,'TabDeckStorageVisual::visualDeckStorageWidget'],['../d5/d79/classDeckPreviewWidget.html#a4cf652fdc72b14db64c4b4064461d920',1,'DeckPreviewWidget::visualDeckStorageWidget'],['../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad52915450f9a735a2d7579d93006ad4f',1,'VisualDeckStorageFolderDisplayWidget::visualDeckStorageWidget']]],
   ['visualdeckview_39',['visualDeckView',['../d9/dcf/classTabDeckEditorVisualTabWidget.html#ad8fb88e3c0c4c593048d58d5e747fe07',1,'TabDeckEditorVisualTabWidget']]]
 ];

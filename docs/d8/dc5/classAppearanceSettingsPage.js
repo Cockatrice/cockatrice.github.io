@@ -4,6 +4,7 @@ var classAppearanceSettingsPage =
     [ "cardViewExpandedRowsMaxChanged", "d8/dc5/classAppearanceSettingsPage.html#a18b170062c599bfd4dfc59f94b5923e6", null ],
     [ "cardViewInitialRowsMaxChanged", "d8/dc5/classAppearanceSettingsPage.html#a93e763d0c4265ed4dc99ccfb6f2c15c0", null ],
     [ "openThemeLocation", "d8/dc5/classAppearanceSettingsPage.html#a6573e5ede39f36cfba1ae00780e1e7ac", null ],
+    [ "overrideAllCardArtWithPersonalPreferenceToggled", "d8/dc5/classAppearanceSettingsPage.html#ad1ad2ef449dea13ec8efcd716e7d5bfe", null ],
     [ "retranslateUi", "d8/dc5/classAppearanceSettingsPage.html#a55971b6f69316310df02edcf9014dc49", null ],
     [ "showShortcutsChanged", "d8/dc5/classAppearanceSettingsPage.html#a1179e95782a6e28ab30108c528b6b5b5", null ],
     [ "themeBoxChanged", "d8/dc5/classAppearanceSettingsPage.html#a1bd64af1c2f90f381d514c22e864a682", null ],

@@ -47,6 +47,7 @@ var classAbstractTabDeckEditor =
     [ "exportToDecklistWebsite", "d1/d53/classAbstractTabDeckEditor.html#a624fb9ed2aa13ac8bc4a5d36c5418123", null ],
     [ "filterTreeChanged", "d1/d53/classAbstractTabDeckEditor.html#aacd82d0984feb4ef1608d96d2cbeae0c", null ],
     [ "freeDocksSize", "d1/d53/classAbstractTabDeckEditor.html#add474f6b30152286e53dc2f1a7670c0b", null ],
+    [ "getDeckDockWidget", "d1/d53/classAbstractTabDeckEditor.html#a21532af384e4ec1dab5f5d67409abecd", null ],
     [ "getDeckList", "d1/d53/classAbstractTabDeckEditor.html#a361af89dbe49e3ef9e00db869ec71bb5", null ],
     [ "getTabText", "d1/d53/classAbstractTabDeckEditor.html#a113dd4dda838bccf9e50448e0377c237", null ],
     [ "isBlankNewDeck", "d1/d53/classAbstractTabDeckEditor.html#ab259b2375922fa38d3c12524297e784d", null ],

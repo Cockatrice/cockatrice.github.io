@@ -87,7 +87,6 @@ var classTabGame =
     [ "aCardInfoDockFloating", "de/d08/classTabGame.html#ab07faf85e24d99ad8c6134668bf69bb9", null ],
     [ "aCardInfoDockVisible", "de/d08/classTabGame.html#a9b5afdbec484599552cec9c913b0ecfd", null ],
     [ "aCardMenu", "de/d08/classTabGame.html#ad448182ebf791ad38057f18a537444f2", null ],
-    [ "aCloseReplay", "de/d08/classTabGame.html#aa3e9e149fe8359605a6c6d41aae4aa6a", null ],
     [ "aConcede", "de/d08/classTabGame.html#aba254554eed4ef5fd0beca99a0b8ff29", null ],
     [ "aFocusChat", "de/d08/classTabGame.html#af07fd6097ec4843b23d2d7f4ba77cc06", null ],
     [ "aGameInfo", "de/d08/classTabGame.html#a3d8d40af9b4c246c1718890546609dd7", null ],

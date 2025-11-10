@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['deckeditormenu_0',['DeckEditorMenu',['../d1/d53/classAbstractTabDeckEditor.html#a65ce62c4717e391538b1be87153c44f2',1,'AbstractTabDeckEditor']]]
+  ['stablereleasechannel_0',['StableReleaseChannel',['../db/d0a/classRelease.html#a766907d2acecf44a80371a9d2f0647dc',1,'Release']]]
 ];

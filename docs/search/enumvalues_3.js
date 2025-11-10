@@ -4,8 +4,6 @@ var searchData=
   ['deck_5feditor_1',['Deck_Editor',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca64f34787fa8e0e22ef1882d82a827dd0',1,'ShortcutGroup']]],
   ['deckfileart_2',['DeckFileArt',['../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639a93c28336f69f1a3d0fb73efb4b7c659c',1,'BackgroundSources']]],
   ['deckstats_3',['Deckstats',['../da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a0b7ea5af9a6c705933aaa016d5c4ad7c',1,'deck_link_to_api_transformer.h']]],
-  ['default_4',['Default',['../d8/d7d/abstract__deck__list__node_8h.html#a8ea3802f8561f16be908a83a08a796cea79935518a3889663d8688b6b01fff051',1,'abstract_deck_list_node.h']]],
-  ['description_5',['DESCRIPTION',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0ab6018339139b51a498dc44bd760766fc',1,'games_model.cpp']]],
-  ['doesnotattach_6',['DoesNotAttach',['../d1/d1e/card__relation__type_8h.html#abc3ced840172c7b624b340e282544a4fa40c6146ad219739b0ea10f49bda3a1e7',1,'card_relation_type.h']]],
-  ['drawing_7',['Drawing',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca74116250efd8e81fcab97c474221fccd',1,'ShortcutGroup']]]
+  ['description_4',['DESCRIPTION',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0ab6018339139b51a498dc44bd760766fc',1,'games_model.cpp']]],
+  ['drawing_5',['Drawing',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca74116250efd8e81fcab97c474221fccd',1,'ShortcutGroup']]]
 ];

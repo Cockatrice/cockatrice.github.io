@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['role_0',['role',['../da/d64/classSetsModel.html#ab2e5e31efdaceaa9fca7279f10f87c28',1,'SetsModel::Role'],['../dd/d83/classCardDatabaseModel.html#a1c3361bdf8abc45a4b19fd84c63e4502',1,'CardDatabaseModel::Role'],['../da/d5a/classThemeManager.html#a3aa764444425be577be3cd450e79f278',1,'ThemeManager::Role']]]
+  ['tagstate_0',['TagState',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e',1,'deck_preview_tag_display_widget.h']]],
+  ['tooltiptype_1',['TooltipType',['../d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a949b930fc50cc62562e915e29184c190',1,'VisualDeckStorageQuickSettingsWidget']]],
+  ['type_2',['Type',['../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639',1,'BackgroundSources']]]
 ];

@@ -7,7 +7,7 @@
     <meta content="IE=11" http-equiv="X-UA-Compatible"/>
     <meta content="Doxygen 1.9.8" name="generator"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <title>Cockatrice: cockatrice/src/tabs/tab_supervisor.cpp File Reference</title>
+    <title>Cockatrice: cockatrice/src/interface/widgets/tabs/tab_supervisor.cpp File Reference</title>
     <!--BEGIN PROJECT_ICON-->
     <link href="../../$projecticon" rel="icon" type="image/x-icon"/>
     <!--END PROJECT_ICON-->
@@ -111,22 +111,12 @@ $(document).ready(function(){initNavTree('da/d4e/tab__supervisor_8cpp.html','../
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d89/tab__supervisor_8h_source.html">tab_supervisor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d73/pixel__map__generator_8h_source.html">../interface/pixel_map_generator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/dbf/main_8h_source.html">../main.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/db3/abstract__client_8h_source.html">../server/abstract_client.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d57/user__list__manager_8h_source.html">../server/user/user_list_manager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d2a/user__list__widget_8h_source.html">../server/user/user_list_widget.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">../settings/cache_settings.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">../../../client/settings/cache_settings.h</a>&quot;</code><br />
+<code>#include &quot;../interface/pixel_map_generator.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/server/user/user_list_manager.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/server/user/user_list_widget.h&quot;</code><br />
+<code>#include &quot;../main.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d52/tab__edhrec__main_8h_source.html">api/edhrec/tab_edhrec_main.h</a>&quot;</code><br />
-<code>#include &quot;pb/event_game_joined.pb.h&quot;</code><br />
-<code>#include &quot;pb/event_notify_user.pb.h&quot;</code><br />
-<code>#include &quot;pb/event_user_message.pb.h&quot;</code><br />
-<code>#include &quot;pb/game_event_container.pb.h&quot;</code><br />
-<code>#include &quot;pb/game_replay.pb.h&quot;</code><br />
-<code>#include &quot;pb/room_commands.pb.h&quot;</code><br />
-<code>#include &quot;pb/room_event.pb.h&quot;</code><br />
-<code>#include &quot;pb/serverinfo_room.pb.h&quot;</code><br />
-<code>#include &quot;pb/serverinfo_user.pb.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d5/d5d/tab__account_8h_source.html">tab_account.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/db2/tab__admin_8h_source.html">tab_admin.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d5/d9f/tab__deck__editor_8h_source.html">tab_deck_editor.h</a>&quot;</code><br />
@@ -146,10 +136,20 @@ $(document).ready(function(){initNavTree('da/d4e/tab__supervisor_8cpp.html','../
 <code>#include &lt;QMessageBox&gt;</code><br />
 <code>#include &lt;QPainter&gt;</code><br />
 <code>#include &lt;QSystemTrayIcon&gt;</code><br />
+<code>#include &lt;libcockatrice/network/client/abstract/abstract_client.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/event_game_joined.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/event_notify_user.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/event_user_message.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/game_event_container.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/game_replay.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/room_commands.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/room_event.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/serverinfo_room.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/serverinfo_user.pb.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for tab_supervisor.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d1c/tab__supervisor_8cpp__incl.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d1c/tab__supervisor_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -208,7 +208,7 @@ Here is the caller graph for this function:</div>
 <script src="../../graph_toggle.js"></script>
 <div class="navpath" id="nav-path"><!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ba407937cdd1b7800d28fd3d04410a87.html">tabs</a></li><li class="navelem"><a class="el" href="../../da/d4e/tab__supervisor_8cpp.html">tab_supervisor.cpp</a></li>
+        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cd36a3f9f9d202308a2deae5eeddfa6f.html">interface</a></li><li class="navelem"><a class="el" href="../../dir_ff904cee2da7fc4774f8298cfe1e7610.html">widgets</a></li><li class="navelem"><a class="el" href="../../dir_997302a10e9962ab00e284769d488188.html">tabs</a></li><li class="navelem"><a class="el" href="../../da/d4e/tab__supervisor_8cpp.html">tab_supervisor.cpp</a></li>
         <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img alt="doxygen"
                                                                                           class="footer"
                                                                                           height="31" src="../../doxygen.svg"

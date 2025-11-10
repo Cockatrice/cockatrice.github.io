@@ -15,6 +15,7 @@ var classShortcutGroup =
       [ "Move_bottom", "d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2cecade2526aea315a8a4731a2a1e0cc93212", null ],
       [ "Gameplay", "d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca18a984a955ce2efe7d66dbf44bfaffa7", null ],
       [ "Drawing", "d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca74116250efd8e81fcab97c474221fccd", null ],
+      [ "Hand", "d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca4b763c31745c6ecf72efad51bba0e81b", null ],
       [ "Chat_room", "d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2cecab152e88a11f56b83f6b6c154f51afc90", null ],
       [ "Game_window", "d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca5921d217d113bfc5b00f151de0a128e8", null ],
       [ "Load_deck", "d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2cecae2d8667905e5445ec49249b6bd24785c", null ],

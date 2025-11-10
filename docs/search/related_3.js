@@ -1,6 +1,0 @@
-var searchData=
-[
-  ['setsproxymodel_0',['SetsProxyModel',['../da/d64/classSetsModel.html#a6497379c07e772bebd0f7999e9345162',1,'SetsModel']]],
-  ['settingscache_1',['settingscache',['../de/dbe/classCardDatabaseSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'CardDatabaseSettings::SettingsCache'],['../d8/d12/classCardOverrideSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'CardOverrideSettings::SettingsCache'],['../d9/d00/classDebugSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'DebugSettings::SettingsCache'],['../d4/d14/classDownloadSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'DownloadSettings::SettingsCache'],['../df/dd0/classGameFiltersSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'GameFiltersSettings::SettingsCache'],['../d3/d58/classLayoutsSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'LayoutsSettings::SettingsCache'],['../d3/dc1/classMessageSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'MessageSettings::SettingsCache'],['../d3/db5/classRecentsSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'RecentsSettings::SettingsCache'],['../df/db1/classServersSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'ServersSettings::SettingsCache']]],
-  ['stablereleasechannel_2',['StableReleaseChannel',['../db/d0a/classRelease.html#a766907d2acecf44a80371a9d2f0647dc',1,'Release']]]
-];

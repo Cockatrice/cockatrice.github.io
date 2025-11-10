@@ -7,7 +7,7 @@
     <meta content="IE=11" http-equiv="X-UA-Compatible"/>
     <meta content="Doxygen 1.9.8" name="generator"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <title>Cockatrice: cockatrice/src/dialogs/dlg_load_remote_deck.h Source File</title>
+    <title>Cockatrice: cockatrice/src/interface/widgets/dialogs/dlg_load_remote_deck.h Source File</title>
     <!--BEGIN PROJECT_ICON-->
     <link href="../../$projecticon" rel="icon" type="image/x-icon"/>
     <!--END PROJECT_ICON-->
@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('d9/d95/dlg__load__remote__deck_8h_sour
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span><a class="code hl_class" href="../../d7/dd0/classRemoteDeckList__TreeWidget.html">RemoteDeckList_TreeWidget</a>;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>QModelIndex;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span>AbstractClient;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span>QPushButton;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span>QDialogButtonBox;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
@@ -125,20 +125,19 @@ $(document).ready(function(){initNavTree('d9/d95/dlg__load__remote__deck_8h_sour
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    Q_OBJECT</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d5/ddc/classDlgLoadRemoteDeck.html#a7dc3410ecfa3bf38bdb4bb1401c10041">   23</a></span>    <a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *<a class="code hl_variable" href="../../d5/ddc/classDlgLoadRemoteDeck.html#a7dc3410ecfa3bf38bdb4bb1401c10041">client</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d5/ddc/classDlgLoadRemoteDeck.html#a7dc3410ecfa3bf38bdb4bb1401c10041">   23</a></span>    AbstractClient *<a class="code hl_variable" href="../../d5/ddc/classDlgLoadRemoteDeck.html#a7dc3410ecfa3bf38bdb4bb1401c10041">client</a>;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../d5/ddc/classDlgLoadRemoteDeck.html#a1f817f678c1e24d32c29d439b24c947b">   24</a></span>    <a class="code hl_class" href="../../d7/dd0/classRemoteDeckList__TreeWidget.html">RemoteDeckList_TreeWidget</a> *<a class="code hl_variable" href="../../d5/ddc/classDlgLoadRemoteDeck.html#a1f817f678c1e24d32c29d439b24c947b">dirView</a>;</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d5/ddc/classDlgLoadRemoteDeck.html#a0d199d70265a4aecafa545ec03ad2194">   25</a></span>    QDialogButtonBox *<a class="code hl_variable" href="../../d5/ddc/classDlgLoadRemoteDeck.html#a0d199d70265a4aecafa545ec03ad2194">buttonBox</a>;</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">private</span> slots:</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d5/ddc/classDlgLoadRemoteDeck.html#ae6a8d7591c0b8b5c1ecbbde98aa1299d">currentItemChanged</a>(<span class="keyword">const</span> QModelIndex &amp;current, <span class="keyword">const</span> QModelIndex &amp;previous);</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d5/ddc/classDlgLoadRemoteDeck.html">DlgLoadRemoteDeck</a>(<a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *_client, QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d5/ddc/classDlgLoadRemoteDeck.html">DlgLoadRemoteDeck</a>(AbstractClient *_client, QWidget *parent = <span class="keyword">nullptr</span>);</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d5/ddc/classDlgLoadRemoteDeck.html#a3bcea82509a10553d98ca8e2cb681dc5">getDeckId</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>};</div>
 </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassAbstractClient_html"><div class="ttname"><a href="../../dc/d86/classAbstractClient.html">AbstractClient</a></div><div class="ttdef"><b>Definition</b> abstract_client.h:53</div></div>
 <div class="ttc" id="aclassDlgLoadRemoteDeck_html"><div class="ttname"><a href="../../d5/ddc/classDlgLoadRemoteDeck.html">DlgLoadRemoteDeck</a></div><div class="ttdef"><b>Definition</b> dlg_load_remote_deck.h:20</div></div>
 <div class="ttc" id="aclassDlgLoadRemoteDeck_html_a0d199d70265a4aecafa545ec03ad2194"><div class="ttname"><a href="../../d5/ddc/classDlgLoadRemoteDeck.html#a0d199d70265a4aecafa545ec03ad2194">DlgLoadRemoteDeck::buttonBox</a></div><div class="ttdeci">QDialogButtonBox * buttonBox</div><div class="ttdef"><b>Definition</b> dlg_load_remote_deck.h:25</div></div>
 <div class="ttc" id="aclassDlgLoadRemoteDeck_html_a1f817f678c1e24d32c29d439b24c947b"><div class="ttname"><a href="../../d5/ddc/classDlgLoadRemoteDeck.html#a1f817f678c1e24d32c29d439b24c947b">DlgLoadRemoteDeck::dirView</a></div><div class="ttdeci">RemoteDeckList_TreeWidget * dirView</div><div class="ttdef"><b>Definition</b> dlg_load_remote_deck.h:24</div></div>
@@ -153,7 +152,7 @@ $(document).ready(function(){initNavTree('d9/d95/dlg__load__remote__deck_8h_sour
 <script src="../../graph_toggle.js"></script>
 <div class="navpath" id="nav-path"><!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_591f52be1ca85648b587886d7b07182d.html">dialogs</a></li><li class="navelem"><a class="el" href="../../d9/d95/dlg__load__remote__deck_8h.html">dlg_load_remote_deck.h</a></li>
+        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cd36a3f9f9d202308a2deae5eeddfa6f.html">interface</a></li><li class="navelem"><a class="el" href="../../dir_ff904cee2da7fc4774f8298cfe1e7610.html">widgets</a></li><li class="navelem"><a class="el" href="../../dir_4b0cf6f004d72cb4344e8e7ea1f16c10.html">dialogs</a></li><li class="navelem"><a class="el" href="../../d9/d95/dlg__load__remote__deck_8h.html">dlg_load_remote_deck.h</a></li>
         <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img alt="doxygen"
                                                                                           class="footer"
                                                                                           height="31" src="../../doxygen.svg"

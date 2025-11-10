@@ -7,7 +7,7 @@
     <meta content="IE=11" http-equiv="X-UA-Compatible"/>
     <meta content="Doxygen 1.9.8" name="generator"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <title>Cockatrice: cockatrice/src/settings/card_counter_settings.h Source File</title>
+    <title>Cockatrice: cockatrice/src/client/settings/card_counter_settings.h Source File</title>
     <!--BEGIN PROJECT_ICON-->
     <link href="../../$projecticon" rel="icon" type="image/x-icon"/>
     <!--END PROJECT_ICON-->
@@ -112,41 +112,38 @@ $(document).ready(function(){initNavTree('d2/df3/card__counter__settings_8h_sour
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef CARD_COUNTER_SETTINGS_H</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define CARD_COUNTER_SETTINGS_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../d2/d62/settings__manager_8h.html">settings_manager.h</a>&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>QSettings;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span>QColor;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d3/d14/classCardCounterSettings.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d3/d14/classCardCounterSettings.html">CardCounterSettings</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d1/dea/classSettingsManager.html">SettingsManager</a></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    Q_OBJECT</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_class" href="../../d3/d14/classCardCounterSettings.html">CardCounterSettings</a>(<span class="keyword">const</span> QString &amp;settingsPath, QObject *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    QColor <a class="code hl_function" href="../../d3/d14/classCardCounterSettings.html#ac02293f9ff3ecc0806d846308a57da17">color</a>(<span class="keywordtype">int</span> counterId) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    QString <a class="code hl_function" href="../../d3/d14/classCardCounterSettings.html#ac0a4ab419d8e73502e27f3136a7325a3">displayName</a>(<span class="keywordtype">int</span> counterId) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">public</span> slots:</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d3/d14/classCardCounterSettings.html#a503f9a05b5126f83705ac44199997226">setColor</a>(<span class="keywordtype">int</span> counterId, <span class="keyword">const</span> QColor &amp;<a class="code hl_function" href="../../d3/d14/classCardCounterSettings.html#ac02293f9ff3ecc0806d846308a57da17">color</a>);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>signals:</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d3/d14/classCardCounterSettings.html#ac4b1c1f72da642021c0c16bd859aa055">   32</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d3/d14/classCardCounterSettings.html#ac4b1c1f72da642021c0c16bd859aa055">colorChanged</a>(<span class="keywordtype">int</span> counterId, <span class="keyword">const</span> QColor &amp;<a class="code hl_function" href="../../d3/d14/classCardCounterSettings.html#ac02293f9ff3ecc0806d846308a57da17">color</a>);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>};</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;libcockatrice/settings/settings_manager.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>QSettings;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>QColor;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d3/d14/classCardCounterSettings.html">   16</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d3/d14/classCardCounterSettings.html">CardCounterSettings</a> : <span class="keyword">public</span> SettingsManager</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    Q_OBJECT</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_class" href="../../d3/d14/classCardCounterSettings.html">CardCounterSettings</a>(<span class="keyword">const</span> QString &amp;settingsPath, QObject *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    QColor <a class="code hl_function" href="../../d3/d14/classCardCounterSettings.html#ac02293f9ff3ecc0806d846308a57da17">color</a>(<span class="keywordtype">int</span> counterId) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    QString <a class="code hl_function" href="../../d3/d14/classCardCounterSettings.html#ac0a4ab419d8e73502e27f3136a7325a3">displayName</a>(<span class="keywordtype">int</span> counterId) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">public</span> slots:</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d3/d14/classCardCounterSettings.html#a503f9a05b5126f83705ac44199997226">setColor</a>(<span class="keywordtype">int</span> counterId, <span class="keyword">const</span> QColor &amp;<a class="code hl_function" href="../../d3/d14/classCardCounterSettings.html#ac02293f9ff3ecc0806d846308a57da17">color</a>);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>signals:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d3/d14/classCardCounterSettings.html#ac4b1c1f72da642021c0c16bd859aa055">   31</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d3/d14/classCardCounterSettings.html#ac4b1c1f72da642021c0c16bd859aa055">colorChanged</a>(<span class="keywordtype">int</span> counterId, <span class="keyword">const</span> QColor &amp;<a class="code hl_function" href="../../d3/d14/classCardCounterSettings.html#ac02293f9ff3ecc0806d846308a57da17">color</a>);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>};</div>
 </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#endif </span><span class="comment">// CARD_COUNTER_SETTINGS_H</span></div>
-<div class="ttc" id="aclassCardCounterSettings_html"><div class="ttname"><a href="../../d3/d14/classCardCounterSettings.html">CardCounterSettings</a></div><div class="ttdef"><b>Definition</b> card_counter_settings.h:18</div></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#endif </span><span class="comment">// CARD_COUNTER_SETTINGS_H</span></div>
+<div class="ttc" id="aclassCardCounterSettings_html"><div class="ttname"><a href="../../d3/d14/classCardCounterSettings.html">CardCounterSettings</a></div><div class="ttdef"><b>Definition</b> card_counter_settings.h:17</div></div>
 <div class="ttc" id="aclassCardCounterSettings_html_a503f9a05b5126f83705ac44199997226"><div class="ttname"><a href="../../d3/d14/classCardCounterSettings.html#a503f9a05b5126f83705ac44199997226">CardCounterSettings::setColor</a></div><div class="ttdeci">void setColor(int counterId, const QColor &amp;color)</div><div class="ttdef"><b>Definition</b> card_counter_settings.cpp:12</div></div>
 <div class="ttc" id="aclassCardCounterSettings_html_ac02293f9ff3ecc0806d846308a57da17"><div class="ttname"><a href="../../d3/d14/classCardCounterSettings.html#ac02293f9ff3ecc0806d846308a57da17">CardCounterSettings::color</a></div><div class="ttdeci">QColor color(int counterId) const</div><div class="ttdef"><b>Definition</b> card_counter_settings.cpp:23</div></div>
 <div class="ttc" id="aclassCardCounterSettings_html_ac0a4ab419d8e73502e27f3136a7325a3"><div class="ttname"><a href="../../d3/d14/classCardCounterSettings.html#ac0a4ab419d8e73502e27f3136a7325a3">CardCounterSettings::displayName</a></div><div class="ttdeci">QString displayName(int counterId) const</div><div class="ttdef"><b>Definition</b> card_counter_settings.cpp:42</div></div>
 <div class="ttc" id="aclassCardCounterSettings_html_ac4b1c1f72da642021c0c16bd859aa055"><div class="ttname"><a href="../../d3/d14/classCardCounterSettings.html#ac4b1c1f72da642021c0c16bd859aa055">CardCounterSettings::colorChanged</a></div><div class="ttdeci">void colorChanged(int counterId, const QColor &amp;color)</div></div>
-<div class="ttc" id="aclassSettingsManager_html"><div class="ttname"><a href="../../d1/dea/classSettingsManager.html">SettingsManager</a></div><div class="ttdef"><b>Definition</b> settings_manager.h:16</div></div>
-<div class="ttc" id="asettings__manager_8h_html"><div class="ttname"><a href="../../d2/d62/settings__manager_8h.html">settings_manager.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->
@@ -154,7 +151,7 @@ $(document).ready(function(){initNavTree('d2/df3/card__counter__settings_8h_sour
 <script src="../../graph_toggle.js"></script>
 <div class="navpath" id="nav-path"><!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1cefcb6db3ce3ee3f02f04248203d200.html">settings</a></li><li class="navelem"><a class="el" href="../../d2/df3/card__counter__settings_8h.html">card_counter_settings.h</a></li>
+        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_2aed47bd6a83d703a8daf87b1a4cab56.html">client</a></li><li class="navelem"><a class="el" href="../../dir_d90d076d336641c2e15dddb578bb86d3.html">settings</a></li><li class="navelem"><a class="el" href="../../d2/df3/card__counter__settings_8h.html">card_counter_settings.h</a></li>
         <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img alt="doxygen"
                                                                                           class="footer"
                                                                                           height="31" src="../../doxygen.svg"

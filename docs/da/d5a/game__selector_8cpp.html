@@ -7,7 +7,7 @@
     <meta content="IE=11" http-equiv="X-UA-Compatible"/>
     <meta content="Doxygen 1.9.8" name="generator"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <title>Cockatrice: cockatrice/src/server/game_selector.cpp File Reference</title>
+    <title>Cockatrice: cockatrice/src/interface/widgets/server/game_selector.cpp File Reference</title>
     <!--BEGIN PROJECT_ICON-->
     <link href="../../$projecticon" rel="icon" type="image/x-icon"/>
     <!--END PROJECT_ICON-->
@@ -109,19 +109,14 @@ $(document).ready(function(){initNavTree('da/d5a/game__selector_8cpp.html','../.
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d9/d03/game__selector_8h_source.html">game_selector.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dc8/get__text__with__max_8h_source.html">../client/get_text_with_max.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/da9/dlg__create__game_8h_source.html">../dialogs/dlg_create_game.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/de1/dlg__filter__games_8h_source.html">../dialogs/dlg_filter_games.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d5d/tab__account_8h_source.html">../tabs/tab_account.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d20/tab__game_8h_source.html">../tabs/tab_game.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d69/tab__room_8h_source.html">../tabs/tab_room.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d89/tab__supervisor_8h_source.html">../tabs/tab_supervisor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/db3/abstract__client_8h_source.html">abstract_client.h</a>&quot;</code><br />
+<code>#include &quot;../interface/widgets/dialogs/dlg_create_game.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/dialogs/dlg_filter_games.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/tabs/tab_account.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/tabs/tab_game.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/tabs/tab_room.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/tabs/tab_supervisor.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/utility/get_text_with_max.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d5c/games__model_8h_source.html">games_model.h</a>&quot;</code><br />
-<code>#include &quot;pb/response.pb.h&quot;</code><br />
-<code>#include &quot;pb/room_commands.pb.h&quot;</code><br />
-<code>#include &quot;pb/serverinfo_game.pb.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d07/pending__command_8h_source.html">pending_command.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d57/user__list__manager_8h_source.html">user/user_list_manager.h</a>&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
 <code>#include &lt;QCheckBox&gt;</code><br />
@@ -134,10 +129,15 @@ $(document).ready(function(){initNavTree('da/d5a/game__selector_8cpp.html','../.
 <code>#include &lt;QPushButton&gt;</code><br />
 <code>#include &lt;QTreeView&gt;</code><br />
 <code>#include &lt;QVBoxLayout&gt;</code><br />
+<code>#include &lt;libcockatrice/network/client/abstract/abstract_client.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/room_commands.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/serverinfo_game.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pending_command.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for game_selector.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d15/game__selector_8cpp__incl.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d15/game__selector_8cpp__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
@@ -146,7 +146,7 @@ Include dependency graph for game_selector.cpp:</div>
 <script src="../../graph_toggle.js"></script>
 <div class="navpath" id="nav-path"><!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a40c5c449cbf26ecb35de80cb495e85b.html">server</a></li><li class="navelem"><a class="el" href="../../da/d5a/game__selector_8cpp.html">game_selector.cpp</a></li>
+        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cd36a3f9f9d202308a2deae5eeddfa6f.html">interface</a></li><li class="navelem"><a class="el" href="../../dir_ff904cee2da7fc4774f8298cfe1e7610.html">widgets</a></li><li class="navelem"><a class="el" href="../../dir_b6678f13f2e674fd65fe1f08b8e14ad3.html">server</a></li><li class="navelem"><a class="el" href="../../da/d5a/game__selector_8cpp.html">game_selector.cpp</a></li>
         <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img alt="doxygen"
                                                                                           class="footer"
                                                                                           height="31" src="../../doxygen.svg"

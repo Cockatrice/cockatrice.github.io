@@ -7,7 +7,7 @@
     <meta content="IE=11" http-equiv="X-UA-Compatible"/>
     <meta content="Doxygen 1.9.8" name="generator"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <title>Cockatrice: cockatrice/src/client/tapped_out_interface.h Source File</title>
+    <title>Cockatrice: cockatrice/src/client/network/interfaces/tapped_out_interface.h Source File</title>
     <!--BEGIN PROJECT_ICON-->
     <link href="../../$projecticon" rel="icon" type="image/x-icon"/>
     <!--END PROJECT_ICON-->
@@ -112,49 +112,45 @@ $(document).ready(function(){initNavTree('df/d49/tapped__out__interface_8h_sourc
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef TAPPEDOUT_INTERFACE_H</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define TAPPEDOUT_INTERFACE_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;../database/card_database.h&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="../../d7/d1a/deck__list_8h.html">deck_list.h</a>&quot;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QLoggingCategory&gt;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../df/d49/tapped__out__interface_8h.html#a53ee86cf6664ab2e6f6f88b498225a26">   16</a></span><span class="keyword">inline</span> <a class="code hl_function" href="../../df/d49/tapped__out__interface_8h.html#a53ee86cf6664ab2e6f6f88b498225a26">Q_LOGGING_CATEGORY</a>(TappedOutInterfaceLog, <span class="stringliteral">&quot;tapped_out_interface&quot;</span>);</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span>QByteArray;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span>QNetworkAccessManager;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">class </span>QNetworkReply;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">class </span><a class="code hl_class" href="../../da/d68/classDeckList.html">DeckList</a>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="foldopen" id="foldopen00029" data-start="{" data-end="};">
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../d8/d9e/classTappedOutInterface.html">   29</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d8/d9e/classTappedOutInterface.html">TappedOutInterface</a> : <span class="keyword">public</span> QObject</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>{</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    Q_OBJECT</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d8/d9e/classTappedOutInterface.html#a58d20b7e98625b24b49be807af67e5c3">   33</a></span>    QNetworkAccessManager *<a class="code hl_variable" href="../../d8/d9e/classTappedOutInterface.html#a58d20b7e98625b24b49be807af67e5c3">manager</a>;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d8/d9e/classTappedOutInterface.html#aa9ae20301235112b199e55644cf9a484">   35</a></span>    <a class="code hl_class" href="../../d5/d45/classCardDatabase.html">CardDatabase</a> &amp;<a class="code hl_variable" href="../../d8/d9e/classTappedOutInterface.html#aa9ae20301235112b199e55644cf9a484">cardDatabase</a>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d9e/classTappedOutInterface.html#a2df1cfdeeb20471470008073caae1275">copyDeckSplitMainAndSide</a>(<a class="code hl_class" href="../../da/d68/classDeckList.html">DeckList</a> &amp;source, <a class="code hl_class" href="../../da/d68/classDeckList.html">DeckList</a> &amp;mainboard, <a class="code hl_class" href="../../da/d68/classDeckList.html">DeckList</a> &amp;sideboard);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/d9e/classTappedOutInterface.html#a2e37223e280978cdf02d50261109bcdd">queryFinished</a>(QNetworkReply *reply);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/d9e/classTappedOutInterface.html#a7dd1cd6699bb4b1accd4288e967c9ad9">getAnalyzeRequestData</a>(<a class="code hl_class" href="../../da/d68/classDeckList.html">DeckList</a> *deck, QByteArray *data);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d8/d9e/classTappedOutInterface.html">TappedOutInterface</a>(<a class="code hl_class" href="../../d5/d45/classCardDatabase.html">CardDatabase</a> &amp;_cardDatabase, QObject *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d9e/classTappedOutInterface.html#a8176e86ff74c1531c9dd2b5039cf4ae7">analyzeDeck</a>(<a class="code hl_class" href="../../da/d68/classDeckList.html">DeckList</a> *deck);</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QLoggingCategory&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;libcockatrice/card/database/card_database.h&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;libcockatrice/deck_list/deck_list.h&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="../../df/d49/tapped__out__interface_8h.html#a53ee86cf6664ab2e6f6f88b498225a26">   15</a></span><span class="keyword">inline</span> <a class="code hl_function" href="../../df/d49/tapped__out__interface_8h.html#a53ee86cf6664ab2e6f6f88b498225a26">Q_LOGGING_CATEGORY</a>(TappedOutInterfaceLog, <span class="stringliteral">&quot;tapped_out_interface&quot;</span>);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span>QByteArray;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span>QNetworkAccessManager;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span>QNetworkReply;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">class </span>DeckList;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="foldopen" id="foldopen00028" data-start="{" data-end="};">
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../d8/d9e/classTappedOutInterface.html">   28</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d8/d9e/classTappedOutInterface.html">TappedOutInterface</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    Q_OBJECT</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d8/d9e/classTappedOutInterface.html#a58d20b7e98625b24b49be807af67e5c3">   32</a></span>    QNetworkAccessManager *<a class="code hl_variable" href="../../d8/d9e/classTappedOutInterface.html#a58d20b7e98625b24b49be807af67e5c3">manager</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d8/d9e/classTappedOutInterface.html#aa9ae20301235112b199e55644cf9a484">   34</a></span>    CardDatabase &amp;<a class="code hl_variable" href="../../d8/d9e/classTappedOutInterface.html#aa9ae20301235112b199e55644cf9a484">cardDatabase</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d9e/classTappedOutInterface.html#a2df1cfdeeb20471470008073caae1275">copyDeckSplitMainAndSide</a>(DeckList &amp;source, DeckList &amp;mainboard, DeckList &amp;sideboard);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/d9e/classTappedOutInterface.html#a2e37223e280978cdf02d50261109bcdd">queryFinished</a>(QNetworkReply *reply);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d8/d9e/classTappedOutInterface.html#a7dd1cd6699bb4b1accd4288e967c9ad9">getAnalyzeRequestData</a>(DeckList *deck, QByteArray *data);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d8/d9e/classTappedOutInterface.html">TappedOutInterface</a>(CardDatabase &amp;_cardDatabase, QObject *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d8/d9e/classTappedOutInterface.html#a8176e86ff74c1531c9dd2b5039cf4ae7">analyzeDeck</a>(DeckList *deck);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>};</div>
 </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassCardDatabase_html"><div class="ttname"><a href="../../d5/d45/classCardDatabase.html">CardDatabase</a></div><div class="ttdef"><b>Definition</b> card_database.h:28</div></div>
-<div class="ttc" id="aclassDeckList_html"><div class="ttname"><a href="../../da/d68/classDeckList.html">DeckList</a></div><div class="ttdoc">Represents a complete deck, including metadata, zones, cards, and sideboard plans.</div><div class="ttdef"><b>Definition</b> deck_list.h:127</div></div>
-<div class="ttc" id="aclassTappedOutInterface_html"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html">TappedOutInterface</a></div><div class="ttdef"><b>Definition</b> tapped_out_interface.h:30</div></div>
-<div class="ttc" id="aclassTappedOutInterface_html_a2df1cfdeeb20471470008073caae1275"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html#a2df1cfdeeb20471470008073caae1275">TappedOutInterface::copyDeckSplitMainAndSide</a></div><div class="ttdeci">void copyDeckSplitMainAndSide(DeckList &amp;source, DeckList &amp;mainboard, DeckList &amp;sideboard)</div><div class="ttdef"><b>Definition</b> tapped_out_interface.cpp:96</div></div>
-<div class="ttc" id="aclassTappedOutInterface_html_a2e37223e280978cdf02d50261109bcdd"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html#a2e37223e280978cdf02d50261109bcdd">TappedOutInterface::queryFinished</a></div><div class="ttdeci">void queryFinished(QNetworkReply *reply)</div><div class="ttdef"><b>Definition</b> tapped_out_interface.cpp:21</div></div>
-<div class="ttc" id="aclassTappedOutInterface_html_a58d20b7e98625b24b49be807af67e5c3"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html#a58d20b7e98625b24b49be807af67e5c3">TappedOutInterface::manager</a></div><div class="ttdeci">QNetworkAccessManager * manager</div><div class="ttdef"><b>Definition</b> tapped_out_interface.h:33</div></div>
-<div class="ttc" id="aclassTappedOutInterface_html_a7dd1cd6699bb4b1accd4288e967c9ad9"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html#a7dd1cd6699bb4b1accd4288e967c9ad9">TappedOutInterface::getAnalyzeRequestData</a></div><div class="ttdeci">void getAnalyzeRequestData(DeckList *deck, QByteArray *data)</div><div class="ttdef"><b>Definition</b> tapped_out_interface.cpp:71</div></div>
-<div class="ttc" id="aclassTappedOutInterface_html_a8176e86ff74c1531c9dd2b5039cf4ae7"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html#a8176e86ff74c1531c9dd2b5039cf4ae7">TappedOutInterface::analyzeDeck</a></div><div class="ttdeci">void analyzeDeck(DeckList *deck)</div><div class="ttdef"><b>Definition</b> tapped_out_interface.cpp:85</div></div>
-<div class="ttc" id="aclassTappedOutInterface_html_aa9ae20301235112b199e55644cf9a484"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html#aa9ae20301235112b199e55644cf9a484">TappedOutInterface::cardDatabase</a></div><div class="ttdeci">CardDatabase &amp; cardDatabase</div><div class="ttdef"><b>Definition</b> tapped_out_interface.h:35</div></div>
-<div class="ttc" id="adeck__list_8h_html"><div class="ttname"><a href="../../d7/d1a/deck__list_8h.html">deck_list.h</a></div></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassTappedOutInterface_html"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html">TappedOutInterface</a></div><div class="ttdef"><b>Definition</b> tapped_out_interface.h:29</div></div>
+<div class="ttc" id="aclassTappedOutInterface_html_a2df1cfdeeb20471470008073caae1275"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html#a2df1cfdeeb20471470008073caae1275">TappedOutInterface::copyDeckSplitMainAndSide</a></div><div class="ttdeci">void copyDeckSplitMainAndSide(DeckList &amp;source, DeckList &amp;mainboard, DeckList &amp;sideboard)</div><div class="ttdef"><b>Definition</b> tapped_out_interface.cpp:95</div></div>
+<div class="ttc" id="aclassTappedOutInterface_html_a2e37223e280978cdf02d50261109bcdd"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html#a2e37223e280978cdf02d50261109bcdd">TappedOutInterface::queryFinished</a></div><div class="ttdeci">void queryFinished(QNetworkReply *reply)</div><div class="ttdef"><b>Definition</b> tapped_out_interface.cpp:20</div></div>
+<div class="ttc" id="aclassTappedOutInterface_html_a58d20b7e98625b24b49be807af67e5c3"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html#a58d20b7e98625b24b49be807af67e5c3">TappedOutInterface::manager</a></div><div class="ttdeci">QNetworkAccessManager * manager</div><div class="ttdef"><b>Definition</b> tapped_out_interface.h:32</div></div>
+<div class="ttc" id="aclassTappedOutInterface_html_a7dd1cd6699bb4b1accd4288e967c9ad9"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html#a7dd1cd6699bb4b1accd4288e967c9ad9">TappedOutInterface::getAnalyzeRequestData</a></div><div class="ttdeci">void getAnalyzeRequestData(DeckList *deck, QByteArray *data)</div><div class="ttdef"><b>Definition</b> tapped_out_interface.cpp:70</div></div>
+<div class="ttc" id="aclassTappedOutInterface_html_a8176e86ff74c1531c9dd2b5039cf4ae7"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html#a8176e86ff74c1531c9dd2b5039cf4ae7">TappedOutInterface::analyzeDeck</a></div><div class="ttdeci">void analyzeDeck(DeckList *deck)</div><div class="ttdef"><b>Definition</b> tapped_out_interface.cpp:84</div></div>
+<div class="ttc" id="aclassTappedOutInterface_html_aa9ae20301235112b199e55644cf9a484"><div class="ttname"><a href="../../d8/d9e/classTappedOutInterface.html#aa9ae20301235112b199e55644cf9a484">TappedOutInterface::cardDatabase</a></div><div class="ttdeci">CardDatabase &amp; cardDatabase</div><div class="ttdef"><b>Definition</b> tapped_out_interface.h:34</div></div>
 <div class="ttc" id="atapped__out__interface_8h_html_a53ee86cf6664ab2e6f6f88b498225a26"><div class="ttname"><a href="../../df/d49/tapped__out__interface_8h.html#a53ee86cf6664ab2e6f6f88b498225a26">Q_LOGGING_CATEGORY</a></div><div class="ttdeci">Q_LOGGING_CATEGORY(TappedOutInterfaceLog, &quot;tapped_out_interface&quot;)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -163,7 +159,7 @@ $(document).ready(function(){initNavTree('df/d49/tapped__out__interface_8h_sourc
 <script src="../../graph_toggle.js"></script>
 <div class="navpath" id="nav-path"><!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_2aed47bd6a83d703a8daf87b1a4cab56.html">client</a></li><li class="navelem"><a class="el" href="../../df/d49/tapped__out__interface_8h.html">tapped_out_interface.h</a></li>
+        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_2aed47bd6a83d703a8daf87b1a4cab56.html">client</a></li><li class="navelem"><a class="el" href="../../dir_2ef0be62ec0817463f23860e1526fa28.html">network</a></li><li class="navelem"><a class="el" href="../../dir_d74311a662590662b1d733eff4ae10c8.html">interfaces</a></li><li class="navelem"><a class="el" href="../../df/d49/tapped__out__interface_8h.html">tapped_out_interface.h</a></li>
         <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img alt="doxygen"
                                                                                           class="footer"
                                                                                           height="31" src="../../doxygen.svg"

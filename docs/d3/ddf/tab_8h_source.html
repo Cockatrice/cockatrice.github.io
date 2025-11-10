@@ -7,7 +7,7 @@
     <meta content="IE=11" http-equiv="X-UA-Compatible"/>
     <meta content="Doxygen 1.9.8" name="generator"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <title>Cockatrice: cockatrice/src/tabs/tab.h Source File</title>
+    <title>Cockatrice: cockatrice/src/interface/widgets/tabs/tab.h Source File</title>
     <!--BEGIN PROJECT_ICON-->
     <link href="../../$projecticon" rel="icon" type="image/x-icon"/>
     <!--END PROJECT_ICON-->
@@ -112,103 +112,100 @@ $(document).ready(function(){initNavTree('d3/ddf/tab_8h_source.html','../../'); 
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef TAB_H</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define TAB_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../dc/d89/card__ref_8h.html">card_ref.h</a>&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QMainWindow&gt;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>QMenu;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span><a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a>;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span><a class="code hl_class" href="../../d1/de1/classCardInfoDisplayWidget.html">CardInfoDisplayWidget</a>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html">   18</a></span><span class="keyword">class </span><a class="code hl_class" href="../../de/d9c/classTab.html">Tab</a> : <span class="keyword">public</span> QMainWindow</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    Q_OBJECT</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>signals:</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a8a1ac5765536074a49f2c556378b9f84">   22</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d9c/classTab.html#a8a1ac5765536074a49f2c556378b9f84">userEvent</a>(<span class="keywordtype">bool</span> globalEvent = <span class="keyword">true</span>);</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a409c727ef0d8c34fd96c01cc0bdf786f">   23</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d9c/classTab.html#a409c727ef0d8c34fd96c01cc0bdf786f">tabTextChanged</a>(<a class="code hl_class" href="../../de/d9c/classTab.html">Tab</a> *tab, <span class="keyword">const</span> QString &amp;newTabText);</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a25e38b8dedc77ca04d966348f588a25e">   26</a></span>    <a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *<a class="code hl_variable" href="../../de/d9c/classTab.html#a25e38b8dedc77ca04d966348f588a25e">tabSupervisor</a>;</div>
-<div class="foldopen" id="foldopen00027" data-start="{" data-end="}">
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a16a9cb60f02fe99dfdb5b26511209f8f">   27</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d9c/classTab.html#a16a9cb60f02fe99dfdb5b26511209f8f">addTabMenu</a>(QMenu *menu)</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    {</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <a class="code hl_variable" href="../../de/d9c/classTab.html#ad15c0773bab4e617a4e27d2dfb3285bd">tabMenus</a>.append(menu);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QMainWindow&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;libcockatrice/utility/card_ref.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>QMenu;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span><a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span><a class="code hl_class" href="../../d1/de1/classCardInfoDisplayWidget.html">CardInfoDisplayWidget</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html">   17</a></span><span class="keyword">class </span><a class="code hl_class" href="../../de/d9c/classTab.html">Tab</a> : <span class="keyword">public</span> QMainWindow</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    Q_OBJECT</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>signals:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a8a1ac5765536074a49f2c556378b9f84">   21</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d9c/classTab.html#a8a1ac5765536074a49f2c556378b9f84">userEvent</a>(<span class="keywordtype">bool</span> globalEvent = <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a409c727ef0d8c34fd96c01cc0bdf786f">   22</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d9c/classTab.html#a409c727ef0d8c34fd96c01cc0bdf786f">tabTextChanged</a>(<a class="code hl_class" href="../../de/d9c/classTab.html">Tab</a> *tab, <span class="keyword">const</span> QString &amp;newTabText);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a25e38b8dedc77ca04d966348f588a25e">   25</a></span>    <a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *<a class="code hl_variable" href="../../de/d9c/classTab.html#a25e38b8dedc77ca04d966348f588a25e">tabSupervisor</a>;</div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a16a9cb60f02fe99dfdb5b26511209f8f">   26</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d9c/classTab.html#a16a9cb60f02fe99dfdb5b26511209f8f">addTabMenu</a>(QMenu *menu)</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    {</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <a class="code hl_variable" href="../../de/d9c/classTab.html#ad15c0773bab4e617a4e27d2dfb3285bd">tabMenus</a>.append(menu);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    }</div>
 </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">protected</span> slots:</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../de/d9c/classTab.html#ac49d8dc9f05ebcfb09422bf77fd6c827">showCardInfoPopup</a>(<span class="keyword">const</span> QPoint &amp;pos, <span class="keyword">const</span> <a class="code hl_struct" href="../../d1/d66/structCardRef.html">CardRef</a> &amp;cardRef);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../de/d9c/classTab.html#a2ab2dc9ab9ab89dc2b0082c2bb60445c">deleteCardInfoPopup</a>(<span class="keyword">const</span> QString &amp;cardName);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a0e64568bb49242c5b15c10a9763166a6">   36</a></span>    <a class="code hl_struct" href="../../d1/d66/structCardRef.html">CardRef</a> <a class="code hl_variable" href="../../de/d9c/classTab.html#a0e64568bb49242c5b15c10a9763166a6">currentCard</a>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a26aea31575955b21fc5552fac37fa835">   37</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../de/d9c/classTab.html#a26aea31575955b21fc5552fac37fa835">contentsChanged</a>;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#ae3b3f8565360bc42203cc58d005cd8a3">   38</a></span>    <a class="code hl_class" href="../../d1/de1/classCardInfoDisplayWidget.html">CardInfoDisplayWidget</a> *<a class="code hl_variable" href="../../de/d9c/classTab.html#ae3b3f8565360bc42203cc58d005cd8a3">infoPopup</a>;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#ad15c0773bab4e617a4e27d2dfb3285bd">   39</a></span>    QList&lt;QMenu *&gt; <a class="code hl_variable" href="../../de/d9c/classTab.html#ad15c0773bab4e617a4e27d2dfb3285bd">tabMenus</a>;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../de/d9c/classTab.html">Tab</a>(<a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *_tabSupervisor);</div>
-<div class="foldopen" id="foldopen00043" data-start="{" data-end="}">
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a6866c81c403157c9370315aaceceac19">   43</a></span>    <span class="keyword">const</span> QList&lt;QMenu *&gt; &amp;<a class="code hl_function" href="../../de/d9c/classTab.html#a6866c81c403157c9370315aaceceac19">getTabMenus</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d9c/classTab.html#ad15c0773bab4e617a4e27d2dfb3285bd">tabMenus</a>;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">protected</span> slots:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../de/d9c/classTab.html#ac49d8dc9f05ebcfb09422bf77fd6c827">showCardInfoPopup</a>(<span class="keyword">const</span> QPoint &amp;pos, <span class="keyword">const</span> CardRef &amp;cardRef);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../de/d9c/classTab.html#a2ab2dc9ab9ab89dc2b0082c2bb60445c">deleteCardInfoPopup</a>(<span class="keyword">const</span> QString &amp;cardName);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a0e64568bb49242c5b15c10a9763166a6">   35</a></span>    CardRef <a class="code hl_variable" href="../../de/d9c/classTab.html#a0e64568bb49242c5b15c10a9763166a6">currentCard</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a26aea31575955b21fc5552fac37fa835">   36</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../de/d9c/classTab.html#a26aea31575955b21fc5552fac37fa835">contentsChanged</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#ae3b3f8565360bc42203cc58d005cd8a3">   37</a></span>    <a class="code hl_class" href="../../d1/de1/classCardInfoDisplayWidget.html">CardInfoDisplayWidget</a> *<a class="code hl_variable" href="../../de/d9c/classTab.html#ae3b3f8565360bc42203cc58d005cd8a3">infoPopup</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#ad15c0773bab4e617a4e27d2dfb3285bd">   38</a></span>    QList&lt;QMenu *&gt; <a class="code hl_variable" href="../../de/d9c/classTab.html#ad15c0773bab4e617a4e27d2dfb3285bd">tabMenus</a>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../de/d9c/classTab.html">Tab</a>(<a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *_tabSupervisor);</div>
+<div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a6866c81c403157c9370315aaceceac19">   42</a></span>    <span class="keyword">const</span> QList&lt;QMenu *&gt; &amp;<a class="code hl_function" href="../../de/d9c/classTab.html#a6866c81c403157c9370315aaceceac19">getTabMenus</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d9c/classTab.html#ad15c0773bab4e617a4e27d2dfb3285bd">tabMenus</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a6e99ab1e4780c201f950a3a0ebbc2324">   47</a></span>    <a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *<a class="code hl_function" href="../../de/d9c/classTab.html#a6e99ab1e4780c201f950a3a0ebbc2324">getTabSupervisor</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d9c/classTab.html#a25e38b8dedc77ca04d966348f588a25e">tabSupervisor</a>;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    }</div>
+<div class="foldopen" id="foldopen00046" data-start="{" data-end="}">
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a6e99ab1e4780c201f950a3a0ebbc2324">   46</a></span>    <a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *<a class="code hl_function" href="../../de/d9c/classTab.html#a6e99ab1e4780c201f950a3a0ebbc2324">getTabSupervisor</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d9c/classTab.html#a25e38b8dedc77ca04d966348f588a25e">tabSupervisor</a>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00051" data-start="{" data-end="}">
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a03616f6cbec108f2fd1873ab4cb18110">   51</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../de/d9c/classTab.html#a03616f6cbec108f2fd1873ab4cb18110">getContentsChanged</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d9c/classTab.html#a26aea31575955b21fc5552fac37fa835">contentsChanged</a>;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    }</div>
+<div class="foldopen" id="foldopen00050" data-start="{" data-end="}">
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a03616f6cbec108f2fd1873ab4cb18110">   50</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../de/d9c/classTab.html#a03616f6cbec108f2fd1873ab4cb18110">getContentsChanged</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d9c/classTab.html#a26aea31575955b21fc5552fac37fa835">contentsChanged</a>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a9b55037f53b045dec786490c4b9b57f2">   55</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d9c/classTab.html#a9b55037f53b045dec786490c4b9b57f2">setContentsChanged</a>(<span class="keywordtype">bool</span> _contentsChanged)</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <a class="code hl_variable" href="../../de/d9c/classTab.html#a26aea31575955b21fc5552fac37fa835">contentsChanged</a> = _contentsChanged;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    }</div>
+<div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a9b55037f53b045dec786490c4b9b57f2">   54</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d9c/classTab.html#a9b55037f53b045dec786490c4b9b57f2">setContentsChanged</a>(<span class="keywordtype">bool</span> _contentsChanged)</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <a class="code hl_variable" href="../../de/d9c/classTab.html#a26aea31575955b21fc5552fac37fa835">contentsChanged</a> = _contentsChanged;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    }</div>
 </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a46533c5f44b364e8e5d830ab74006a55">   59</a></span>    <span class="keyword">virtual</span> QString <a class="code hl_function" href="../../de/d9c/classTab.html#a46533c5f44b364e8e5d830ab74006a55">getTabText</a>() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#aad2ef2ba7a7d0e35f4d5b2941c0540c0">   60</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d9c/classTab.html#aad2ef2ba7a7d0e35f4d5b2941c0540c0">retranslateUi</a>() = 0;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../de/d9c/classTab.html#abc34e642c5afb7cca0c9e6f84d951976">closeRequest</a>();</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="foldopen" id="foldopen00071" data-start="{" data-end="}">
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a931e429e517e12d33a571a0801b20e26">   71</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d9c/classTab.html#a931e429e517e12d33a571a0801b20e26">tabActivated</a>()</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    {</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    }</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a46533c5f44b364e8e5d830ab74006a55">   58</a></span>    <span class="keyword">virtual</span> QString <a class="code hl_function" href="../../de/d9c/classTab.html#a46533c5f44b364e8e5d830ab74006a55">getTabText</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#aad2ef2ba7a7d0e35f4d5b2941c0540c0">   59</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d9c/classTab.html#aad2ef2ba7a7d0e35f4d5b2941c0540c0">retranslateUi</a>() = 0;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../de/d9c/classTab.html#abc34e642c5afb7cca0c9e6f84d951976">closeRequest</a>();</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="foldopen" id="foldopen00070" data-start="{" data-end="}">
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="../../de/d9c/classTab.html#a931e429e517e12d33a571a0801b20e26">   70</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../de/d9c/classTab.html#a931e429e517e12d33a571a0801b20e26">tabActivated</a>()</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    {</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    }</div>
 </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>};</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>};</div>
 </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="acard__ref_8h_html"><div class="ttname"><a href="../../dc/d89/card__ref_8h.html">card_ref.h</a></div></div>
-<div class="ttc" id="aclassCardInfoDisplayWidget_html"><div class="ttname"><a href="../../d1/de1/classCardInfoDisplayWidget.html">CardInfoDisplayWidget</a></div><div class="ttdef"><b>Definition</b> card_info_display_widget.h:22</div></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassCardInfoDisplayWidget_html"><div class="ttname"><a href="../../d1/de1/classCardInfoDisplayWidget.html">CardInfoDisplayWidget</a></div><div class="ttdef"><b>Definition</b> card_info_display_widget.h:21</div></div>
 <div class="ttc" id="aclassTabSupervisor_html"><div class="ttname"><a href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a></div><div class="ttdef"><b>Definition</b> tab_supervisor.h:84</div></div>
-<div class="ttc" id="aclassTab_html"><div class="ttname"><a href="../../de/d9c/classTab.html">Tab</a></div><div class="ttdef"><b>Definition</b> tab.h:19</div></div>
-<div class="ttc" id="aclassTab_html_a03616f6cbec108f2fd1873ab4cb18110"><div class="ttname"><a href="../../de/d9c/classTab.html#a03616f6cbec108f2fd1873ab4cb18110">Tab::getContentsChanged</a></div><div class="ttdeci">bool getContentsChanged() const</div><div class="ttdef"><b>Definition</b> tab.h:51</div></div>
-<div class="ttc" id="aclassTab_html_a0e64568bb49242c5b15c10a9763166a6"><div class="ttname"><a href="../../de/d9c/classTab.html#a0e64568bb49242c5b15c10a9763166a6">Tab::currentCard</a></div><div class="ttdeci">CardRef currentCard</div><div class="ttdef"><b>Definition</b> tab.h:36</div></div>
-<div class="ttc" id="aclassTab_html_a16a9cb60f02fe99dfdb5b26511209f8f"><div class="ttname"><a href="../../de/d9c/classTab.html#a16a9cb60f02fe99dfdb5b26511209f8f">Tab::addTabMenu</a></div><div class="ttdeci">void addTabMenu(QMenu *menu)</div><div class="ttdef"><b>Definition</b> tab.h:27</div></div>
-<div class="ttc" id="aclassTab_html_a25e38b8dedc77ca04d966348f588a25e"><div class="ttname"><a href="../../de/d9c/classTab.html#a25e38b8dedc77ca04d966348f588a25e">Tab::tabSupervisor</a></div><div class="ttdeci">TabSupervisor * tabSupervisor</div><div class="ttdef"><b>Definition</b> tab.h:26</div></div>
-<div class="ttc" id="aclassTab_html_a26aea31575955b21fc5552fac37fa835"><div class="ttname"><a href="../../de/d9c/classTab.html#a26aea31575955b21fc5552fac37fa835">Tab::contentsChanged</a></div><div class="ttdeci">bool contentsChanged</div><div class="ttdef"><b>Definition</b> tab.h:37</div></div>
+<div class="ttc" id="aclassTab_html"><div class="ttname"><a href="../../de/d9c/classTab.html">Tab</a></div><div class="ttdef"><b>Definition</b> tab.h:18</div></div>
+<div class="ttc" id="aclassTab_html_a03616f6cbec108f2fd1873ab4cb18110"><div class="ttname"><a href="../../de/d9c/classTab.html#a03616f6cbec108f2fd1873ab4cb18110">Tab::getContentsChanged</a></div><div class="ttdeci">bool getContentsChanged() const</div><div class="ttdef"><b>Definition</b> tab.h:50</div></div>
+<div class="ttc" id="aclassTab_html_a0e64568bb49242c5b15c10a9763166a6"><div class="ttname"><a href="../../de/d9c/classTab.html#a0e64568bb49242c5b15c10a9763166a6">Tab::currentCard</a></div><div class="ttdeci">CardRef currentCard</div><div class="ttdef"><b>Definition</b> tab.h:35</div></div>
+<div class="ttc" id="aclassTab_html_a16a9cb60f02fe99dfdb5b26511209f8f"><div class="ttname"><a href="../../de/d9c/classTab.html#a16a9cb60f02fe99dfdb5b26511209f8f">Tab::addTabMenu</a></div><div class="ttdeci">void addTabMenu(QMenu *menu)</div><div class="ttdef"><b>Definition</b> tab.h:26</div></div>
+<div class="ttc" id="aclassTab_html_a25e38b8dedc77ca04d966348f588a25e"><div class="ttname"><a href="../../de/d9c/classTab.html#a25e38b8dedc77ca04d966348f588a25e">Tab::tabSupervisor</a></div><div class="ttdeci">TabSupervisor * tabSupervisor</div><div class="ttdef"><b>Definition</b> tab.h:25</div></div>
+<div class="ttc" id="aclassTab_html_a26aea31575955b21fc5552fac37fa835"><div class="ttname"><a href="../../de/d9c/classTab.html#a26aea31575955b21fc5552fac37fa835">Tab::contentsChanged</a></div><div class="ttdeci">bool contentsChanged</div><div class="ttdef"><b>Definition</b> tab.h:36</div></div>
 <div class="ttc" id="aclassTab_html_a2ab2dc9ab9ab89dc2b0082c2bb60445c"><div class="ttname"><a href="../../de/d9c/classTab.html#a2ab2dc9ab9ab89dc2b0082c2bb60445c">Tab::deleteCardInfoPopup</a></div><div class="ttdeci">void deleteCardInfoPopup(const QString &amp;cardName)</div><div class="ttdef"><b>Definition</b> tab.cpp:36</div></div>
 <div class="ttc" id="aclassTab_html_a409c727ef0d8c34fd96c01cc0bdf786f"><div class="ttname"><a href="../../de/d9c/classTab.html#a409c727ef0d8c34fd96c01cc0bdf786f">Tab::tabTextChanged</a></div><div class="ttdeci">void tabTextChanged(Tab *tab, const QString &amp;newTabText)</div></div>
 <div class="ttc" id="aclassTab_html_a46533c5f44b364e8e5d830ab74006a55"><div class="ttname"><a href="../../de/d9c/classTab.html#a46533c5f44b364e8e5d830ab74006a55">Tab::getTabText</a></div><div class="ttdeci">virtual QString getTabText() const =0</div></div>
-<div class="ttc" id="aclassTab_html_a6866c81c403157c9370315aaceceac19"><div class="ttname"><a href="../../de/d9c/classTab.html#a6866c81c403157c9370315aaceceac19">Tab::getTabMenus</a></div><div class="ttdeci">const QList&lt; QMenu * &gt; &amp; getTabMenus() const</div><div class="ttdef"><b>Definition</b> tab.h:43</div></div>
-<div class="ttc" id="aclassTab_html_a6e99ab1e4780c201f950a3a0ebbc2324"><div class="ttname"><a href="../../de/d9c/classTab.html#a6e99ab1e4780c201f950a3a0ebbc2324">Tab::getTabSupervisor</a></div><div class="ttdeci">TabSupervisor * getTabSupervisor() const</div><div class="ttdef"><b>Definition</b> tab.h:47</div></div>
+<div class="ttc" id="aclassTab_html_a6866c81c403157c9370315aaceceac19"><div class="ttname"><a href="../../de/d9c/classTab.html#a6866c81c403157c9370315aaceceac19">Tab::getTabMenus</a></div><div class="ttdeci">const QList&lt; QMenu * &gt; &amp; getTabMenus() const</div><div class="ttdef"><b>Definition</b> tab.h:42</div></div>
+<div class="ttc" id="aclassTab_html_a6e99ab1e4780c201f950a3a0ebbc2324"><div class="ttname"><a href="../../de/d9c/classTab.html#a6e99ab1e4780c201f950a3a0ebbc2324">Tab::getTabSupervisor</a></div><div class="ttdeci">TabSupervisor * getTabSupervisor() const</div><div class="ttdef"><b>Definition</b> tab.h:46</div></div>
 <div class="ttc" id="aclassTab_html_a8a1ac5765536074a49f2c556378b9f84"><div class="ttname"><a href="../../de/d9c/classTab.html#a8a1ac5765536074a49f2c556378b9f84">Tab::userEvent</a></div><div class="ttdeci">void userEvent(bool globalEvent=true)</div></div>
-<div class="ttc" id="aclassTab_html_a931e429e517e12d33a571a0801b20e26"><div class="ttname"><a href="../../de/d9c/classTab.html#a931e429e517e12d33a571a0801b20e26">Tab::tabActivated</a></div><div class="ttdeci">virtual void tabActivated()</div><div class="ttdef"><b>Definition</b> tab.h:71</div></div>
-<div class="ttc" id="aclassTab_html_a9b55037f53b045dec786490c4b9b57f2"><div class="ttname"><a href="../../de/d9c/classTab.html#a9b55037f53b045dec786490c4b9b57f2">Tab::setContentsChanged</a></div><div class="ttdeci">void setContentsChanged(bool _contentsChanged)</div><div class="ttdef"><b>Definition</b> tab.h:55</div></div>
+<div class="ttc" id="aclassTab_html_a931e429e517e12d33a571a0801b20e26"><div class="ttname"><a href="../../de/d9c/classTab.html#a931e429e517e12d33a571a0801b20e26">Tab::tabActivated</a></div><div class="ttdeci">virtual void tabActivated()</div><div class="ttdef"><b>Definition</b> tab.h:70</div></div>
+<div class="ttc" id="aclassTab_html_a9b55037f53b045dec786490c4b9b57f2"><div class="ttname"><a href="../../de/d9c/classTab.html#a9b55037f53b045dec786490c4b9b57f2">Tab::setContentsChanged</a></div><div class="ttdeci">void setContentsChanged(bool _contentsChanged)</div><div class="ttdef"><b>Definition</b> tab.h:54</div></div>
 <div class="ttc" id="aclassTab_html_aad2ef2ba7a7d0e35f4d5b2941c0540c0"><div class="ttname"><a href="../../de/d9c/classTab.html#aad2ef2ba7a7d0e35f4d5b2941c0540c0">Tab::retranslateUi</a></div><div class="ttdeci">virtual void retranslateUi()=0</div></div>
 <div class="ttc" id="aclassTab_html_abc34e642c5afb7cca0c9e6f84d951976"><div class="ttname"><a href="../../de/d9c/classTab.html#abc34e642c5afb7cca0c9e6f84d951976">Tab::closeRequest</a></div><div class="ttdeci">virtual bool closeRequest()</div><div class="ttdef"><b>Definition</b> tab.cpp:46</div></div>
 <div class="ttc" id="aclassTab_html_ac49d8dc9f05ebcfb09422bf77fd6c827"><div class="ttname"><a href="../../de/d9c/classTab.html#ac49d8dc9f05ebcfb09422bf77fd6c827">Tab::showCardInfoPopup</a></div><div class="ttdeci">void showCardInfoPopup(const QPoint &amp;pos, const CardRef &amp;cardRef)</div><div class="ttdef"><b>Definition</b> tab.cpp:17</div></div>
-<div class="ttc" id="aclassTab_html_ad15c0773bab4e617a4e27d2dfb3285bd"><div class="ttname"><a href="../../de/d9c/classTab.html#ad15c0773bab4e617a4e27d2dfb3285bd">Tab::tabMenus</a></div><div class="ttdeci">QList&lt; QMenu * &gt; tabMenus</div><div class="ttdef"><b>Definition</b> tab.h:39</div></div>
-<div class="ttc" id="aclassTab_html_ae3b3f8565360bc42203cc58d005cd8a3"><div class="ttname"><a href="../../de/d9c/classTab.html#ae3b3f8565360bc42203cc58d005cd8a3">Tab::infoPopup</a></div><div class="ttdeci">CardInfoDisplayWidget * infoPopup</div><div class="ttdef"><b>Definition</b> tab.h:38</div></div>
-<div class="ttc" id="astructCardRef_html"><div class="ttname"><a href="../../d1/d66/structCardRef.html">CardRef</a></div><div class="ttdef"><b>Definition</b> card_ref.h:14</div></div>
+<div class="ttc" id="aclassTab_html_ad15c0773bab4e617a4e27d2dfb3285bd"><div class="ttname"><a href="../../de/d9c/classTab.html#ad15c0773bab4e617a4e27d2dfb3285bd">Tab::tabMenus</a></div><div class="ttdeci">QList&lt; QMenu * &gt; tabMenus</div><div class="ttdef"><b>Definition</b> tab.h:38</div></div>
+<div class="ttc" id="aclassTab_html_ae3b3f8565360bc42203cc58d005cd8a3"><div class="ttname"><a href="../../de/d9c/classTab.html#ae3b3f8565360bc42203cc58d005cd8a3">Tab::infoPopup</a></div><div class="ttdeci">CardInfoDisplayWidget * infoPopup</div><div class="ttdef"><b>Definition</b> tab.h:37</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->
@@ -216,7 +213,7 @@ $(document).ready(function(){initNavTree('d3/ddf/tab_8h_source.html','../../'); 
 <script src="../../graph_toggle.js"></script>
 <div class="navpath" id="nav-path"><!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ba407937cdd1b7800d28fd3d04410a87.html">tabs</a></li><li class="navelem"><a class="el" href="../../d3/ddf/tab_8h.html">tab.h</a></li>
+        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cd36a3f9f9d202308a2deae5eeddfa6f.html">interface</a></li><li class="navelem"><a class="el" href="../../dir_ff904cee2da7fc4774f8298cfe1e7610.html">widgets</a></li><li class="navelem"><a class="el" href="../../dir_997302a10e9962ab00e284769d488188.html">tabs</a></li><li class="navelem"><a class="el" href="../../d3/ddf/tab_8h.html">tab.h</a></li>
         <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img alt="doxygen"
                                                                                           class="footer"
                                                                                           height="31" src="../../doxygen.svg"

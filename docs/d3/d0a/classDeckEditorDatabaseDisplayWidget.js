@@ -14,7 +14,6 @@ var classDeckEditorDatabaseDisplayWidget =
     [ "databaseCustomMenu", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a0f2e75007ee2204fe7aaf47cf876e21b", null ],
     [ "decrementCardFromMainDeck", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a6e09af4542066975380025ad5dbc7c98", null ],
     [ "decrementCardFromSideboard", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a456eb79ee892f2376bac1d9beca2be95", null ],
-    [ "getCardOrPinnedPrinting", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#ad213bccef4a70431cdb1088abe312123", null ],
     [ "retranslateUi", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#aa7762c031bb940c9ea026b1e55faabf8", null ],
     [ "saveDbHeaderState", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a51a6400dc46286dc9e6d4541e4e016bf", null ],
     [ "setFilterTree", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a3c0e13b324c673959445a81cc52a32ad", null ],

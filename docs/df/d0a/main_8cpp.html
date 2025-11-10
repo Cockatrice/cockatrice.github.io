@@ -113,16 +113,15 @@ $(document).ready(function(){initNavTree('df/d0a/main_8cpp.html','../../'); init
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d4/dbf/main_8h_source.html">main.h</a>&quot;</code><br />
 <code>#include &quot;QtNetwork/QNetworkInterface&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d5d/spoiler__background__updater_8h_source.html">client/network/spoiler_background_updater.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d5d/spoiler__background__updater_8h_source.html">client/network/update/card_spoiler/spoiler_background_updater.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">client/settings/cache_settings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d9b/sound__engine_8h_source.html">client/sound_engine.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d12/dlg__settings_8h_source.html">dialogs/dlg_settings.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d84/featureset_8h_source.html">featureset.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/dda/settings__card__preference__provider_8h_source.html">database/interface/settings_card_preference_provider.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d8c/logger_8h_source.html">interface/logger.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/d73/pixel__map__generator_8h_source.html">interface/pixel_map_generator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d65/theme__manager_8h_source.html">interface/theme_manager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/d12/dlg__settings_8h_source.html">interface/widgets/dialogs/dlg_settings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/df4/window__main_8h_source.html">interface/window_main.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dfe/rng__sfmt_8h_source.html">rng_sfmt.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">settings/cache_settings.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d8c/logger_8h_source.html">utility/logger.h</a>&quot;</code><br />
 <code>#include &quot;version_string.h&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
 <code>#include &lt;QCryptographicHash&gt;</code><br />
@@ -136,10 +135,13 @@ $(document).ready(function(){initNavTree('df/d0a/main_8cpp.html','../../'); init
 <code>#include &lt;QTextStream&gt;</code><br />
 <code>#include &lt;QTranslator&gt;</code><br />
 <code>#include &lt;QtPlugin&gt;</code><br />
+<code>#include &lt;libcockatrice/card/database/card_database_manager.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/featureset.h&gt;</code><br />
+<code>#include &lt;libcockatrice/rng/rng_sfmt.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for main.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/dce/main_8cpp__incl.svg" width="100%" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/dce/main_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -159,7 +161,7 @@ Variables</h2></td></tr>
 <tr class="separator:a95459f5f6bf2f4de18c7b62e60fe5a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abacca76764ce2dfacbd0f6d821170fcd" id="r_abacca76764ce2dfacbd0f6d821170fcd"><td class="memItemLeft" align="right" valign="top">QTranslator *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0a/main_8cpp.html#abacca76764ce2dfacbd0f6d821170fcd">qtTranslator</a></td></tr>
 <tr class="separator:abacca76764ce2dfacbd0f6d821170fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae06734e5c9e469e3675423ec86f124ef" id="r_ae06734e5c9e469e3675423ec86f124ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dba/classRNG__Abstract.html">RNG_Abstract</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0a/main_8cpp.html#ae06734e5c9e469e3675423ec86f124ef">rng</a></td></tr>
+<tr class="memitem:ae06734e5c9e469e3675423ec86f124ef" id="r_ae06734e5c9e469e3675423ec86f124ef"><td class="memItemLeft" align="right" valign="top">RNG_Abstract *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0a/main_8cpp.html#ae06734e5c9e469e3675423ec86f124ef">rng</a></td></tr>
 <tr class="separator:ae06734e5c9e469e3675423ec86f124ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bf8c3520b15e7a908298f722205eb02" id="r_a0bf8c3520b15e7a908298f722205eb02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d66/classSoundEngine.html">SoundEngine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0a/main_8cpp.html#a0bf8c3520b15e7a908298f722205eb02">soundEngine</a></td></tr>
 <tr class="separator:a0bf8c3520b15e7a908298f722205eb02"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -329,7 +331,7 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/dba/classRNG__Abstract.html">RNG_Abstract</a>* rng</td>
+          <td class="memname">RNG_Abstract* rng</td>
         </tr>
       </table>
 </div><div class="memdoc">

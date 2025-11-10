@@ -4,6 +4,8 @@ var classGraveyardMenu =
     [ "createMoveActions", "d2/d73/classGraveyardMenu.html#a9c89b06caef91ca24e91b24bbbac35dc", null ],
     [ "createViewActions", "d2/d73/classGraveyardMenu.html#a02a61a1b424f34f607e472cd16dfd140", null ],
     [ "newPlayerActionCreated", "d2/d73/classGraveyardMenu.html#aaeeece8f7998876a633b79a1a4312c6e", null ],
+    [ "onRevealRandomTriggered", "d2/d73/classGraveyardMenu.html#ae5fbee595463df2e6d2709a5942becd0", null ],
+    [ "populateRevealRandomMenuWithActivePlayers", "d2/d73/classGraveyardMenu.html#ac6b8ca059229b6352806277a27b60d45", null ],
     [ "retranslateUi", "d2/d73/classGraveyardMenu.html#a1d49b7a0bef07a8a8243531f019c5d36", null ],
     [ "setShortcutsActive", "d2/d73/classGraveyardMenu.html#abfaf3f654546ee67293955f528819e24", null ],
     [ "setShortcutsInactive", "d2/d73/classGraveyardMenu.html#a4bb7a3a5caf1463c1af72ef7642e833e", null ],

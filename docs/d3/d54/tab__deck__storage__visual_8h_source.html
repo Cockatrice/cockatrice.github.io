@@ -7,7 +7,7 @@
     <meta content="IE=11" http-equiv="X-UA-Compatible"/>
     <meta content="Doxygen 1.9.8" name="generator"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <title>Cockatrice: cockatrice/src/tabs/visual_deck_storage/tab_deck_storage_visual.h Source File</title>
+    <title>Cockatrice: cockatrice/src/interface/widgets/tabs/visual_deck_storage/tab_deck_storage_visual.h Source File</title>
     <!--BEGIN PROJECT_ICON-->
     <link href="../../$projecticon" rel="icon" type="image/x-icon"/>
     <!--END PROJECT_ICON-->
@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d3/d54/tab__deck__storage__visual_8h_s
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;../tab.h&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span>AbstractClient;</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>CommandContainer;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>DeckLoader;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span><a class="code hl_class" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a>;</div>
@@ -133,36 +133,39 @@ $(document).ready(function(){initNavTree('d3/d54/tab__deck__storage__visual_8h_s
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    Q_OBJECT</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d9/dba/classTabDeckStorageVisual.html">TabDeckStorageVisual</a>(<a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *_tabSupervisor);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d9/dba/classTabDeckStorageVisual.html#a80a76e713766ebd017598fc6d8d88054">   30</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/dba/classTabDeckStorageVisual.html#a80a76e713766ebd017598fc6d8d88054">retranslateUi</a>()<span class="keyword"> override</span>{};</div>
-<div class="foldopen" id="foldopen00031" data-start="{" data-end="}">
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d9/dba/classTabDeckStorageVisual.html#a97b6f52b3b54302c6bd440a7c18eeaf6">   31</a></span>    [[nodiscard]] QString <a class="code hl_function" href="../../d9/dba/classTabDeckStorageVisual.html#a97b6f52b3b54302c6bd440a7c18eeaf6">getTabText</a>()<span class="keyword"> const override</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordflow">return</span> tr(<span class="stringliteral">&quot;Visual Deck Storage&quot;</span>);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    }</div>
+<div class="foldopen" id="foldopen00030" data-start="{" data-end="}">
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d9/dba/classTabDeckStorageVisual.html#a80a76e713766ebd017598fc6d8d88054">   30</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d9/dba/classTabDeckStorageVisual.html#a80a76e713766ebd017598fc6d8d88054">retranslateUi</a>()<span class="keyword"> override</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    }</div>
 </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">public</span> slots:</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d9/dba/classTabDeckStorageVisual.html#a660326230cf9ce43d3227cfa1797bc8d">actOpenLocalDeck</a>(<span class="keyword">const</span> QString &amp;filePath);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>signals:</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d9/dba/classTabDeckStorageVisual.html#a3a7627e9183f91d544134f44d41704d1">   40</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d9/dba/classTabDeckStorageVisual.html#a3a7627e9183f91d544134f44d41704d1">openDeckEditor</a>(<span class="keyword">const</span> DeckLoader *deckLoader);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792">   43</a></span>    <a class="code hl_class" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *<a class="code hl_variable" href="../../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792">visualDeckStorageWidget</a>;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
+<div class="foldopen" id="foldopen00033" data-start="{" data-end="}">
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../d9/dba/classTabDeckStorageVisual.html#a97b6f52b3b54302c6bd440a7c18eeaf6">   33</a></span>    [[nodiscard]] QString <a class="code hl_function" href="../../d9/dba/classTabDeckStorageVisual.html#a97b6f52b3b54302c6bd440a7c18eeaf6">getTabText</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">return</span> tr(<span class="stringliteral">&quot;Visual Deck Storage&quot;</span>);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
 </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassAbstractClient_html"><div class="ttname"><a href="../../dc/d86/classAbstractClient.html">AbstractClient</a></div><div class="ttdef"><b>Definition</b> abstract_client.h:53</div></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">public</span> slots:</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d9/dba/classTabDeckStorageVisual.html#a660326230cf9ce43d3227cfa1797bc8d">actOpenLocalDeck</a>(<span class="keyword">const</span> QString &amp;filePath);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>signals:</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d9/dba/classTabDeckStorageVisual.html#a3a7627e9183f91d544134f44d41704d1">   42</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d9/dba/classTabDeckStorageVisual.html#a3a7627e9183f91d544134f44d41704d1">openDeckEditor</a>(<span class="keyword">const</span> DeckLoader *deckLoader);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792">   45</a></span>    <a class="code hl_class" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *<a class="code hl_variable" href="../../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792">visualDeckStorageWidget</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>};</div>
+</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassDeckPreviewWidget_html"><div class="ttname"><a href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></div><div class="ttdef"><b>Definition</b> deck_preview_widget.h:28</div></div>
 <div class="ttc" id="aclassTabDeckStorageVisual_html"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html">TabDeckStorageVisual</a></div><div class="ttdef"><b>Definition</b> tab_deck_storage_visual.h:26</div></div>
 <div class="ttc" id="aclassTabDeckStorageVisual_html_a3a7627e9183f91d544134f44d41704d1"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#a3a7627e9183f91d544134f44d41704d1">TabDeckStorageVisual::openDeckEditor</a></div><div class="ttdeci">void openDeckEditor(const DeckLoader *deckLoader)</div></div>
-<div class="ttc" id="aclassTabDeckStorageVisual_html_a5dffc5044b46556b711147d5c75a8792"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792">TabDeckStorageVisual::visualDeckStorageWidget</a></div><div class="ttdeci">VisualDeckStorageWidget * visualDeckStorageWidget</div><div class="ttdef"><b>Definition</b> tab_deck_storage_visual.h:43</div></div>
+<div class="ttc" id="aclassTabDeckStorageVisual_html_a5dffc5044b46556b711147d5c75a8792"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792">TabDeckStorageVisual::visualDeckStorageWidget</a></div><div class="ttdeci">VisualDeckStorageWidget * visualDeckStorageWidget</div><div class="ttdef"><b>Definition</b> tab_deck_storage_visual.h:45</div></div>
 <div class="ttc" id="aclassTabDeckStorageVisual_html_a660326230cf9ce43d3227cfa1797bc8d"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#a660326230cf9ce43d3227cfa1797bc8d">TabDeckStorageVisual::actOpenLocalDeck</a></div><div class="ttdeci">void actOpenLocalDeck(const QString &amp;filePath)</div><div class="ttdef"><b>Definition</b> tab_deck_storage_visual.cpp:28</div></div>
 <div class="ttc" id="aclassTabDeckStorageVisual_html_a80a76e713766ebd017598fc6d8d88054"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#a80a76e713766ebd017598fc6d8d88054">TabDeckStorageVisual::retranslateUi</a></div><div class="ttdeci">void retranslateUi() override</div><div class="ttdef"><b>Definition</b> tab_deck_storage_visual.h:30</div></div>
-<div class="ttc" id="aclassTabDeckStorageVisual_html_a97b6f52b3b54302c6bd440a7c18eeaf6"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#a97b6f52b3b54302c6bd440a7c18eeaf6">TabDeckStorageVisual::getTabText</a></div><div class="ttdeci">QString getTabText() const override</div><div class="ttdef"><b>Definition</b> tab_deck_storage_visual.h:31</div></div>
+<div class="ttc" id="aclassTabDeckStorageVisual_html_a97b6f52b3b54302c6bd440a7c18eeaf6"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#a97b6f52b3b54302c6bd440a7c18eeaf6">TabDeckStorageVisual::getTabText</a></div><div class="ttdeci">QString getTabText() const override</div><div class="ttdef"><b>Definition</b> tab_deck_storage_visual.h:33</div></div>
 <div class="ttc" id="aclassTabSupervisor_html"><div class="ttname"><a href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a></div><div class="ttdef"><b>Definition</b> tab_supervisor.h:84</div></div>
-<div class="ttc" id="aclassTab_html"><div class="ttname"><a href="../../de/d9c/classTab.html">Tab</a></div><div class="ttdef"><b>Definition</b> tab.h:19</div></div>
+<div class="ttc" id="aclassTab_html"><div class="ttname"><a href="../../de/d9c/classTab.html">Tab</a></div><div class="ttdef"><b>Definition</b> tab.h:18</div></div>
 <div class="ttc" id="aclassVisualDeckStorageWidget_html"><div class="ttname"><a href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a></div><div class="ttdef"><b>Definition</b> visual_deck_storage_widget.h:32</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -171,7 +174,7 @@ $(document).ready(function(){initNavTree('d3/d54/tab__deck__storage__visual_8h_s
 <script src="../../graph_toggle.js"></script>
 <div class="navpath" id="nav-path"><!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ba407937cdd1b7800d28fd3d04410a87.html">tabs</a></li><li class="navelem"><a class="el" href="../../dir_207cb88d78df1ec7261955804bc5a454.html">visual_deck_storage</a></li><li class="navelem"><a class="el" href="../../d3/d54/tab__deck__storage__visual_8h.html">tab_deck_storage_visual.h</a></li>
+        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cd36a3f9f9d202308a2deae5eeddfa6f.html">interface</a></li><li class="navelem"><a class="el" href="../../dir_ff904cee2da7fc4774f8298cfe1e7610.html">widgets</a></li><li class="navelem"><a class="el" href="../../dir_997302a10e9962ab00e284769d488188.html">tabs</a></li><li class="navelem"><a class="el" href="../../dir_9c6ed0b49df3d8e025991afc8cd09217.html">visual_deck_storage</a></li><li class="navelem"><a class="el" href="../../d3/d54/tab__deck__storage__visual_8h.html">tab_deck_storage_visual.h</a></li>
         <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img alt="doxygen"
                                                                                           class="footer"
                                                                                           height="31" src="../../doxygen.svg"

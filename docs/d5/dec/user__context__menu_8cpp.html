@@ -7,7 +7,7 @@
     <meta content="IE=11" http-equiv="X-UA-Compatible"/>
     <meta content="Doxygen 1.9.8" name="generator"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <title>Cockatrice: cockatrice/src/server/user/user_context_menu.cpp File Reference</title>
+    <title>Cockatrice: cockatrice/src/interface/widgets/server/user/user_context_menu.cpp File Reference</title>
     <!--BEGIN PROJECT_ICON-->
     <link href="../../$projecticon" rel="icon" type="image/x-icon"/>
     <!--END PROJECT_ICON-->
@@ -109,23 +109,11 @@ $(document).ready(function(){initNavTree('d5/dec/user__context__menu_8cpp.html',
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d76/user__context__menu_8h_source.html">user_context_menu.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d5d/tab__account_8h_source.html">../../tabs/tab_account.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d20/tab__game_8h_source.html">../../tabs/tab_game.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d89/tab__supervisor_8h_source.html">../../tabs/tab_supervisor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/db3/abstract__client_8h_source.html">../abstract_client.h</a>&quot;</code><br />
+<code>#include &quot;../../interface/widgets/tabs/tab_account.h&quot;</code><br />
+<code>#include &quot;../../interface/widgets/tabs/tab_game.h&quot;</code><br />
+<code>#include &quot;../../interface/widgets/tabs/tab_supervisor.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d9f/chat__view_8h_source.html">../chat_view/chat_view.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d03/game__selector_8h_source.html">../game_selector.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d07/pending__command_8h_source.html">../pending_command.h</a>&quot;</code><br />
-<code>#include &quot;pb/command_kick_from_game.pb.h&quot;</code><br />
-<code>#include &quot;pb/commands.pb.h&quot;</code><br />
-<code>#include &quot;pb/moderator_commands.pb.h&quot;</code><br />
-<code>#include &quot;pb/response_ban_history.pb.h&quot;</code><br />
-<code>#include &quot;pb/response_get_admin_notes.pb.h&quot;</code><br />
-<code>#include &quot;pb/response_get_games_of_user.pb.h&quot;</code><br />
-<code>#include &quot;pb/response_get_user_info.pb.h&quot;</code><br />
-<code>#include &quot;pb/response_warn_history.pb.h&quot;</code><br />
-<code>#include &quot;pb/response_warn_list.pb.h&quot;</code><br />
-<code>#include &quot;pb/session_commands.pb.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/d3d/user__info__box_8h_source.html">user_info_box.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d57/user__list__manager_8h_source.html">user_list_manager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d5d/user__list__proxy_8h_source.html">user_list_proxy.h</a>&quot;</code><br />
@@ -136,10 +124,22 @@ $(document).ready(function(){initNavTree('d5/dec/user__context__menu_8cpp.html',
 <code>#include &lt;QSignalMapper&gt;</code><br />
 <code>#include &lt;QtGui&gt;</code><br />
 <code>#include &lt;QtWidgets&gt;</code><br />
+<code>#include &lt;libcockatrice/network/client/abstract/abstract_client.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_kick_from_game.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/commands.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/moderator_commands.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_ban_history.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_get_admin_notes.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_get_games_of_user.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_get_user_info.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_warn_history.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_warn_list.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/session_commands.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pending_command.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for user_context_menu.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d50/user__context__menu_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d50/user__context__menu_8cpp__incl.svg" width="100%" height="569"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
@@ -148,7 +148,7 @@ Include dependency graph for user_context_menu.cpp:</div>
 <script src="../../graph_toggle.js"></script>
 <div class="navpath" id="nav-path"><!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_a40c5c449cbf26ecb35de80cb495e85b.html">server</a></li><li class="navelem"><a class="el" href="../../dir_3e3ccf3e5283b1021c2770bb7638262d.html">user</a></li><li class="navelem"><a class="el" href="../../d5/dec/user__context__menu_8cpp.html">user_context_menu.cpp</a></li>
+        <li class="navelem"><a class="el" href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a class="el" href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cd36a3f9f9d202308a2deae5eeddfa6f.html">interface</a></li><li class="navelem"><a class="el" href="../../dir_ff904cee2da7fc4774f8298cfe1e7610.html">widgets</a></li><li class="navelem"><a class="el" href="../../dir_b6678f13f2e674fd65fe1f08b8e14ad3.html">server</a></li><li class="navelem"><a class="el" href="../../dir_d765547cb107e3eb2b3b1574ade0a766.html">user</a></li><li class="navelem"><a class="el" href="../../d5/dec/user__context__menu_8cpp.html">user_context_menu.cpp</a></li>
         <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img alt="doxygen"
                                                                                           class="footer"
                                                                                           height="31" src="../../doxygen.svg"

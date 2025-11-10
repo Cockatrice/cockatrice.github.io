@@ -28,8 +28,6 @@ var searchData=
   ['tipoftheday_25',['TipOfTheDay',['../d2/dba/classTipOfTheDay.html',1,'']]],
   ['tipsoftheday_26',['TipsOfTheDay',['../da/dc7/classTipsOfTheDay.html',1,'']]],
   ['togglebutton_27',['ToggleButton',['../d0/d90/classToggleButton.html',1,'']]],
-  ['tokendisplaymodel_28',['TokenDisplayModel',['../df/d8f/classTokenDisplayModel.html',1,'']]],
-  ['tokeneditmodel_29',['TokenEditModel',['../db/dad/classTokenEditModel.html',1,'']]],
-  ['tokeninfo_30',['TokenInfo',['../dd/d40/structTokenInfo.html',1,'']]],
-  ['translatecountername_31',['TranslateCounterName',['../d8/dab/classTranslateCounterName.html',1,'']]]
+  ['tokeninfo_28',['TokenInfo',['../dd/d40/structTokenInfo.html',1,'']]],
+  ['translatecountername_29',['TranslateCounterName',['../d8/dab/classTranslateCounterName.html',1,'']]]
 ];
