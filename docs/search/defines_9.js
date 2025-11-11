@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['network_5fredirect_5fcache_5fttl_5fdefault_0',['NETWORK_REDIRECT_CACHE_TTL_DEFAULT',['../dc/db3/cache__settings_8h.html#afd4c6815fa8846877caf260bbb3dcb1b',1,'cache_settings.h']]],
-  ['network_5fredirect_5fcache_5fttl_5fmax_1',['NETWORK_REDIRECT_CACHE_TTL_MAX',['../dc/db3/cache__settings_8h.html#ac2537f69d157faad1b9354f82b118200',1,'cache_settings.h']]],
-  ['network_5fredirect_5fcache_5fttl_5fmin_2',['NETWORK_REDIRECT_CACHE_TTL_MIN',['../dc/db3/cache__settings_8h.html#ae6b84c706fcb3f04dfcc87e47164af77',1,'cache_settings.h']]],
-  ['none_5ftheme_5fname_3',['NONE_THEME_NAME',['../d4/d99/theme__manager_8cpp.html#a75b34c563c608754e2e807df7ebe8e6c',1,'theme_manager.cpp']]]
+  ['max_5frecent_5fdeck_5fcount_0',['MAX_RECENT_DECK_COUNT',['../d0/d75/recents__settings_8cpp.html#a06beb84f3de8a50d56700a521de470fb',1,'recents_settings.cpp']]],
+  ['max_5ftip_5fimage_5fheight_1',['MAX_TIP_IMAGE_HEIGHT',['../db/ddf/dlg__tip__of__the__day_8cpp.html#af1e68687d77689b779bb72a788ce78b6',1,'dlg_tip_of_the_day.cpp']]],
+  ['max_5ftip_5fimage_5fwidth_2',['MAX_TIP_IMAGE_WIDTH',['../db/ddf/dlg__tip__of__the__day_8cpp.html#a719a314cdb53b7247afc71f7ca417c74',1,'dlg_tip_of_the_day.cpp']]],
+  ['min_5ftip_5fimage_5fheight_3',['MIN_TIP_IMAGE_HEIGHT',['../db/ddf/dlg__tip__of__the__day_8cpp.html#af62835c4e8d57c10d90ffc7a852556f9',1,'dlg_tip_of_the_day.cpp']]],
+  ['min_5ftip_5fimage_5fwidth_4',['MIN_TIP_IMAGE_WIDTH',['../db/ddf/dlg__tip__of__the__day_8cpp.html#a9d3030bfc5f2ecef08f4c9ac4d851f0b',1,'dlg_tip_of_the_day.cpp']]]
 ];

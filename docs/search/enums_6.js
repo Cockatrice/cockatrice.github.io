@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['messagecontext_0',['MessageContext',['../d7/d93/classMessageLogWidget.html#aa18904c9db87256ddea032354260bf64',1,'MessageLogWidget']]]
+  ['hovereditemtype_0',['HoveredItemType',['../dc/dea/classChatView.html#a04b1cd53fdc831ea08dd953ee8d61ef1',1,'ChatView']]]
 ];

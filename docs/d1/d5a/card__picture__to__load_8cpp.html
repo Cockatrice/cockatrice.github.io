@@ -117,17 +117,17 @@ $(document).ready(function(){initNavTree('d1/d5a/card__picture__to__load_8cpp.ht
 <code>#include &lt;QRegularExpression&gt;</code><br />
 <code>#include &lt;QUrl&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;libcockatrice/card/set/card_set_comparator.h&gt;</code><br />
-<code>#include &lt;libcockatrice/interfaces/noop_card_set_priority_controller.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d9/df1/card__set__comparator_8h_source.html">libcockatrice/card/set/card_set_comparator.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d4/dd1/noop__card__set__priority__controller_8h_source.html">libcockatrice/interfaces/noop_card_set_priority_controller.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for card_picture_to_load.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dbd/card__picture__to__load_8cpp__incl.svg" width="100%" height="558"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dbd/card__picture__to__load_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3c62c4c2a1a09ba5065d6cb15f0301fb" id="r_a3c62c4c2a1a09ba5065d6cb15f0301fb"><td class="memItemLeft" align="right" valign="top">static PrintingInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5a/card__picture__to__load_8cpp.html#a3c62c4c2a1a09ba5065d6cb15f0301fb">findPrintingForSet</a> (const ExactCard &amp;card, const QString &amp;setName)</td></tr>
+<tr class="memitem:a3c62c4c2a1a09ba5065d6cb15f0301fb" id="r_a3c62c4c2a1a09ba5065d6cb15f0301fb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d6/d90/classPrintingInfo.html">PrintingInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5a/card__picture__to__load_8cpp.html#a3c62c4c2a1a09ba5065d6cb15f0301fb">findPrintingForSet</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QString &amp;setName)</td></tr>
 <tr class="separator:a3c62c4c2a1a09ba5065d6cb15f0301fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33c24f880d61486167acbb75a89460e6" id="r_a33c24f880d61486167acbb75a89460e6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5a/card__picture__to__load_8cpp.html#a33c24f880d61486167acbb75a89460e6">parse</a> (const QString &amp;urlTemplate, const QString &amp;propType, const QString &amp;cardName, const QString &amp;setName, std::function&lt; QString(const QString &amp;)&gt; getProperty, QMap&lt; QString, QString &gt; &amp;transformMap)</td></tr>
 <tr class="separator:a33c24f880d61486167acbb75a89460e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,9 +143,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static PrintingInfo findPrintingForSet </td>
+          <td class="memname">static <a class="el" href="../../d6/d90/classPrintingInfo.html">PrintingInfo</a> findPrintingForSet </td>
           <td>(</td>
-          <td class="paramtype">const ExactCard &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;&#160;</td>
           <td class="paramname"><em>card</em>, </td>
         </tr>
         <tr>
@@ -166,8 +166,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Finds the PrintingInfo corresponding to the exactCards's card name that belongs to a given set and has the exactCards's providerId. If the set name is in the CardInfo, but no printings in that set match the card's providerId, then the first PrintingInfo for the set is returned.</p>
-<p>This method only exists to maintain existing behavior. TODO: check if going through all sets is still necessary after the ExactCard refactor.</p>
+<p>Finds the <a class="el" href="../../d6/d90/classPrintingInfo.html" title="Represents metadata for a specific variation of a card within a set.">PrintingInfo</a> corresponding to the exactCards's card name that belongs to a given set and has the exactCards's providerId. If the set name is in the <a class="el" href="../../dd/dd2/classCardInfo.html" title="Represents a card and its associated metadata, properties, and relationships.">CardInfo</a>, but no printings in that set match the card's providerId, then the first <a class="el" href="../../d6/d90/classPrintingInfo.html" title="Represents metadata for a specific variation of a card within a set.">PrintingInfo</a> for the set is returned.</p>
+<p>This method only exists to maintain existing behavior. TODO: check if going through all sets is still necessary after the <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> refactor.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">card</td><td>The card to look in </td></tr>
@@ -175,7 +175,12 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A PrintingInfo, or a default-constructed PrintingInfo if the set name is not in the CardInfo. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="../../d6/d90/classPrintingInfo.html" title="Represents metadata for a specific variation of a card within a set.">PrintingInfo</a>, or a default-constructed <a class="el" href="../../d6/d90/classPrintingInfo.html" title="Represents metadata for a specific variation of a card within a set.">PrintingInfo</a> if the set name is not in the <a class="el" href="../../dd/dd2/classCardInfo.html" title="Represents a card and its associated metadata, properties, and relationships.">CardInfo</a>. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d5a/card__picture__to__load_8cpp_a3c62c4c2a1a09ba5065d6cb15f0301fb_cgraph.svg" width="578" height="208"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

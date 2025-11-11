@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['filtermode_0',['FilterMode',['../da/d67/visual__database__display__color__filter__widget_8h.html#a36bd51b89b9e0e6e4dbbe565b9155083',1,'visual_database_display_color_filter_widget.h']]]
+  ['eventprocessingoption_0',['EventProcessingOption',['../d6/d03/event__processing__options_8h.html#ac00015f1ae070abd2292fa4f69e0544a',1,'event_processing_options.h']]],
+  ['eventrecipient_1',['EventRecipient',['../da/df9/classGameEventStorageItem.html#a19cc9739761186fa56a0ff2292bc9d64',1,'GameEventStorageItem']]]
 ];

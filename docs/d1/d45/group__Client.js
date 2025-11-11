@@ -5,5 +5,8 @@ var group__Client =
     [ "Client Updates", "d2/dd0/group__ClientUpdates.html", null ],
     [ "Room Widgets", "d8/dec/group__RoomWidgets.html", "d8/dec/group__RoomWidgets" ],
     [ "spoiler_background_updater.h", "d6/d5d/spoiler__background__updater_8h.html", null ],
-    [ "user_info_connection.h", "d2/df3/user__info__connection_8h.html", null ]
+    [ "user_info_connection.h", "d2/df3/user__info__connection_8h.html", null ],
+    [ "abstract_client.h", "d5/db3/abstract__client_8h.html", null ],
+    [ "local_client.h", "d3/d21/local__client_8h.html", null ],
+    [ "remote_client.h", "df/d15/remote__client_8h.html", null ]
 ];

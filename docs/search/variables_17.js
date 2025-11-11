@@ -2,9 +2,16 @@ var searchData=
 [
   ['warnclientid_0',['warnClientID',['../d4/d0d/classWarningDialog.html#a3f89fd23ca667ace07f062016eb91f00',1,'WarningDialog']]],
   ['warningoption_1',['warningOption',['../d4/d0d/classWarningDialog.html#af895dabec6402434a15635f4ac5144a0',1,'WarningDialog']]],
-  ['widgetloadingbuffertimer_2',['widgetLoadingBufferTimer',['../d7/dbc/classPrintingSelector.html#aeadece55f105261f20df3918c97895a7',1,'PrintingSelector']]],
-  ['width_3',['width',['../d9/dfc/classDeckViewCardContainer.html#a1ba5a3eea6aced39eaec84be7238a86a',1,'DeckViewCardContainer::width'],['../da/d20/classPhaseButton.html#aacd15a2baefe446786a081e1d3bbc4e5',1,'PhaseButton::width'],['../d7/d23/classPhasesToolbar.html#afee56778a24285cfc26f3932495ac3cf',1,'PhasesToolbar::width'],['../d4/dc7/classHandZone.html#a1a839382917867e1273e3638efd37c74',1,'HandZone::width'],['../d6/d6f/classTableZone.html#a2e2889a87fb41a321425926e26333169',1,'TableZone::width']]],
-  ['wndsets_4',['wndSets',['../d6/d1a/classMainWindow.html#aea8e652c33d58ab63e8b1c4f1eee7a8b',1,'MainWindow']]],
-  ['worker_5',['worker',['../d2/d5d/classCardPictureLoader.html#a410348349fde931141ef5b26607fd579',1,'CardPictureLoader']]],
-  ['writeablerevealzone_6',['writeableRevealZone',['../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2',1,'ZoneViewZoneLogic']]]
+  ['weak_5f_2',['weak_',['../db/d5b/classpeg_1_1WeakHolder.html#aba7354d1ffe33770617ebc5f4960a2a7',1,'peg::WeakHolder']]],
+  ['websocket_3',['websocket',['../db/d53/classRemoteClient.html#a7a22fa82d127d27a5c27e89a6a2cba09',1,'RemoteClient']]],
+  ['websocketusercount_4',['webSocketUserCount',['../db/d00/classServer.html#ad9dbf32aa81294a5e6d0c8bb66a7e567',1,'Server']]],
+  ['whitespace_5fdefinition_5fname_5',['WHITESPACE_DEFINITION_NAME',['../dc/db2/namespacepeg.html#a5ffccf4db0cc93c828358908146917c2',1,'peg']]],
+  ['whitespaceope_6',['whitespaceope',['../df/d94/classpeg_1_1Context.html#a3ec385bb6f437a97bffe29f879fe6924',1,'peg::Context::whitespaceOpe'],['../d8/d94/classpeg_1_1Definition.html#aa7a4fee9f484c027aea2484f9a4b92d8',1,'peg::Definition::whitespaceOpe']]],
+  ['widgetloadingbuffertimer_7',['widgetLoadingBufferTimer',['../d7/dbc/classPrintingSelector.html#aeadece55f105261f20df3918c97895a7',1,'PrintingSelector']]],
+  ['width_8',['width',['../d7/d23/classPhasesToolbar.html#afee56778a24285cfc26f3932495ac3cf',1,'PhasesToolbar::width'],['../d6/d6f/classTableZone.html#a2e2889a87fb41a321425926e26333169',1,'TableZone::width'],['../d4/dc7/classHandZone.html#a1a839382917867e1273e3638efd37c74',1,'HandZone::width'],['../da/d20/classPhaseButton.html#aacd15a2baefe446786a081e1d3bbc4e5',1,'PhaseButton::width'],['../d9/dfc/classDeckViewCardContainer.html#a1ba5a3eea6aced39eaec84be7238a86a',1,'DeckViewCardContainer::width']]],
+  ['wndsets_9',['wndSets',['../d6/d1a/classMainWindow.html#aea8e652c33d58ab63e8b1c4f1eee7a8b',1,'MainWindow']]],
+  ['word_5fdefinition_5fname_10',['WORD_DEFINITION_NAME',['../dc/db2/namespacepeg.html#a05fef7118467bf5732c5a658a41bb2aa',1,'peg']]],
+  ['wordope_11',['wordope',['../df/d94/classpeg_1_1Context.html#a1983c08e355bac46676f3a1fc24f9e0e',1,'peg::Context::wordOpe'],['../d8/d94/classpeg_1_1Definition.html#a028424db0704ddf17e5c5eb69348da16',1,'peg::Definition::wordOpe']]],
+  ['worker_12',['worker',['../d2/d5d/classCardPictureLoader.html#a410348349fde931141ef5b26607fd579',1,'CardPictureLoader']]],
+  ['writeablerevealzone_13',['writeableRevealZone',['../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2',1,'ZoneViewZoneLogic']]]
 ];

@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['cached_5fcard_5fper_5fdeck_5fmax_0',['CACHED_CARD_PER_DECK_MAX',['../d8/d7b/card__picture__loader_8cpp.html#a65ae35bbdacd4b6c83eee62f8c08a989',1,'card_picture_loader.cpp']]],
-  ['client_5finfo_5fnot_5fset_1',['CLIENT_INFO_NOT_SET',['../dc/db3/cache__settings_8h.html#a1db56f208eba5c3844dfd0bbd207fe05',1,'cache_settings.h']]]
+  ['batch_5fsize_0',['BATCH_SIZE',['../da/dbb/printing__selector_8h.html#a9ae2958e436c566413867028fc829ec0',1,'printing_selector.h']]],
+  ['betamanualdownload_5furl_1',['BETAMANUALDOWNLOAD_URL',['../d4/d94/release__channel_8cpp.html#a9b4f0a8fb8227069a24f9ddca683fedb',1,'release_channel.cpp']]],
+  ['betarelease_5fchangesurl_2',['BETARELEASE_CHANGESURL',['../d4/d94/release__channel_8cpp.html#a150588b6114a93854481f5c3bffe6411',1,'release_channel.cpp']]],
+  ['betarelease_5furl_3',['BETARELEASE_URL',['../d4/d94/release__channel_8cpp.html#a273d2e177ca859a2bdf63480916e75c4',1,'release_channel.cpp']]],
+  ['build_5farchitecture_4',['BUILD_ARCHITECTURE',['../d1/d8c/logger_8h.html#a2c77987c4c7a8f91cae5aadeb7d95b77',1,'logger.h']]]
 ];

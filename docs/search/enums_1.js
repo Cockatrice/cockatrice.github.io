@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['deckeditortype_0',['DeckEditorType',['../dd/d81/classTabSupervisor.html#a9a12eee7783c0c5e8310e96ec8a71d13',1,'TabSupervisor']]],
-  ['deckopenlocation_1',['DeckOpenLocation',['../d1/d53/classAbstractTabDeckEditor.html#a59362c003e9fd04abbec91a0962342dc',1,'AbstractTabDeckEditor']]],
-  ['deckprovider_2',['DeckProvider',['../da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7',1,'deck_link_to_api_transformer.h']]],
-  ['displaytype_3',['DisplayType',['../d8/d36/visual__deck__editor__widget_8h.html#a18c0cbeece6bcb1c64d7463ce253ff50',1,'visual_deck_editor_widget.h']]]
+  ['cardaction_0',['CardAction',['../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8b',1,'ZoneViewZoneLogic']]],
+  ['cardmenuactiontype_1',['CardMenuActionType',['../d4/d03/card__menu__action__type_8h.html#a0d238f07aea296582821002fbc5a5595',1,'card_menu_action_type.h']]],
+  ['cardrelationtype_2',['CardRelationType',['../d1/d1e/card__relation__type_8h.html#abc3ced840172c7b624b340e282544a4f',1,'card_relation_type.h']]],
+  ['cardstoreveal_3',['CardsToReveal',['../d2/d23/classPlayerActions.html#a33047204c8f4131e33325c45d812193f',1,'PlayerActions']]],
+  ['clientstatus_4',['ClientStatus',['../d5/db3/abstract__client_8h.html#a7e5fc64e45e1ab3af52e22eaf1c1bfc4',1,'abstract_client.h']]],
+  ['columns_5',['columns',['../da/dc7/classTipsOfTheDay.html#a53aefded9c3ed84a672f80f2f9496fc9',1,'TipsOfTheDay::Columns'],['../dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0',1,'CardDatabaseModel::Columns']]]
 ];

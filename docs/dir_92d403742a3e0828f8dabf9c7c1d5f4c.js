@@ -9,5 +9,7 @@ var dir_92d403742a3e0828f8dabf9c7c1d5f4c =
     [ "deck_editor_filter_dock_widget.cpp", "dc/dcc/deck__editor__filter__dock__widget_8cpp.html", null ],
     [ "deck_editor_filter_dock_widget.h", "dc/d32/deck__editor__filter__dock__widget_8h.html", "dc/d32/deck__editor__filter__dock__widget_8h" ],
     [ "deck_editor_printing_selector_dock_widget.cpp", "d5/d85/deck__editor__printing__selector__dock__widget_8cpp.html", null ],
-    [ "deck_editor_printing_selector_dock_widget.h", "dd/d32/deck__editor__printing__selector__dock__widget_8h.html", "dd/d32/deck__editor__printing__selector__dock__widget_8h" ]
+    [ "deck_editor_printing_selector_dock_widget.h", "dd/d32/deck__editor__printing__selector__dock__widget_8h.html", "dd/d32/deck__editor__printing__selector__dock__widget_8h" ],
+    [ "deck_list_style_proxy.cpp", "d4/d3d/deck__list__style__proxy_8cpp.html", null ],
+    [ "deck_list_style_proxy.h", "df/db8/deck__list__style__proxy_8h.html", "df/db8/deck__list__style__proxy_8h" ]
 ];

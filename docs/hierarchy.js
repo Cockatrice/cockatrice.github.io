@@ -1,11 +1,32 @@
 var hierarchy =
 [
+    [ "AbstractDecklistNode", "dc/dd8/classAbstractDecklistNode.html", [
+      [ "AbstractDecklistCardNode", "d3/de9/classAbstractDecklistCardNode.html", [
+        [ "DecklistCardNode", "d5/d22/classDecklistCardNode.html", null ],
+        [ "DecklistModelCardNode", "dd/d4f/classDecklistModelCardNode.html", null ]
+      ] ],
+      [ "InnerDecklistNode", "d4/d55/classInnerDecklistNode.html", null ]
+    ] ],
+    [ "peg::Action", "d9/da7/classpeg_1_1Action.html", null ],
+    [ "Annotation", null, [
+      [ "peg::AstBase< Annotation >", "d2/d75/structpeg_1_1AstBase.html", null ]
+    ] ],
+    [ "peg::argument_count< T >", "df/d2c/structpeg_1_1argument__count.html", null ],
+    [ "peg::AstOptimizer", "da/dae/structpeg_1_1AstOptimizer.html", null ],
     [ "BackgroundSources", "d1/df3/classBackgroundSources.html", null ],
+    [ "CardDatabaseManager", "dc/db4/classCardDatabaseManager.html", null ],
+    [ "CardInfoComparator", "d8/d3f/classCardInfoComparator.html", null ],
     [ "CardPictureToLoad", "da/da3/classCardPictureToLoad.html", null ],
     [ "CardPrices", "d3/dab/classCardPrices.html", null ],
+    [ "CardRef", "d1/d66/structCardRef.html", null ],
+    [ "CardSetPriorityComparator", "d1/db4/classCardSetPriorityComparator.html", null ],
+    [ "ClearSetNameNumberAndProviderId", "d5/d31/structClearSetNameNumberAndProviderId.html", null ],
+    [ "peg::Context", "df/d94/classpeg_1_1Context.html", null ],
     [ "CounterPixmapGenerator", "dd/dbb/classCounterPixmapGenerator.html", null ],
     [ "CountryPixmapGenerator", "db/d2a/classCountryPixmapGenerator.html", null ],
+    [ "peg::ParserGenerator::Data", "db/d2d/structpeg_1_1ParserGenerator_1_1Data.html", null ],
     [ "DeckFilterString", "d5/dc2/classDeckFilterString.html", null ],
+    [ "peg::Definition", "d8/d94/classpeg_1_1Definition.html", null ],
     [ "DropdownIconPixmapGenerator", "d1/db5/classDropdownIconPixmapGenerator.html", null ],
     [ "EdhrecApiResponseArchidektLink", "d3/d61/classEdhrecApiResponseArchidektLink.html", null ],
     [ "EdhrecApiResponseCardContainer", "db/d43/classEdhrecApiResponseCardContainer.html", null ],
@@ -20,23 +41,63 @@ var hierarchy =
     [ "EdhrecTopCardsApiResponse", "da/dc4/classEdhrecTopCardsApiResponse.html", null ],
     [ "EdhrecTopCommandersApiResponse", "dd/d90/classEdhrecTopCommandersApiResponse.html", null ],
     [ "EdhrecTopTagsApiResponse", "d6/d8d/classEdhrecTopTagsApiResponse.html", null ],
-    [ "BackgroundSources::Entry", "d3/d4a/structBackgroundSources_1_1Entry.html", null ],
-    [ "ExtraDeckSearchInfo", "d1/d36/structExtraDeckSearchInfo.html", null ],
-    [ "ZoneViewZone::GridSize", "db/dc7/structZoneViewZone_1_1GridSize.html", null ],
-    [ "ICardDatabasePathProvider", null, [
-      [ "SettingsCache", "d5/d88/classSettingsCache.html", null ]
+    [ "peg::EmptyType", "d2/d75/structpeg_1_1EmptyType.html", null ],
+    [ "std::enable_shared_from_this", null, [
+      [ "peg::AnyCharacter", "d8/d9b/classpeg_1_1AnyCharacter.html", null ],
+      [ "peg::Character", "d3/df3/classpeg_1_1Character.html", null ],
+      [ "peg::CharacterClass", "db/de0/classpeg_1_1CharacterClass.html", null ],
+      [ "peg::Cut", "da/d38/classpeg_1_1Cut.html", null ],
+      [ "peg::Dictionary", "de/d44/classpeg_1_1Dictionary.html", null ],
+      [ "peg::LiteralString", "d2/de2/classpeg_1_1LiteralString.html", null ],
+      [ "peg::Reference", "d5/dba/classpeg_1_1Reference.html", null ]
     ] ],
-    [ "ICardPreferenceProvider", null, [
+    [ "BackgroundSources::Entry", "d3/d4a/structBackgroundSources_1_1Entry.html", null ],
+    [ "peg::ErrorInfo", "db/da9/structpeg_1_1ErrorInfo.html", null ],
+    [ "ExactCard", "df/d4e/classExactCard.html", null ],
+    [ "Expression", "de/d94/classExpression.html", null ],
+    [ "ExtraDeckSearchInfo", "d1/d36/structExtraDeckSearchInfo.html", null ],
+    [ "FilterString", "db/da4/classFilterString.html", null ],
+    [ "FilterTreeNode", "db/d51/classFilterTreeNode.html", [
+      [ "FilterTreeBranch< FilterItem * >", "d0/d92/classFilterTreeBranch.html", [
+        [ "FilterItemList", "d8/d94/classFilterItemList.html", null ]
+      ] ],
+      [ "FilterTreeBranch< LogicMap * >", "d0/d92/classFilterTreeBranch.html", [
+        [ "FilterTree", "d8/d95/classFilterTree.html", null ]
+      ] ],
+      [ "FilterTreeBranch< FilterItemList * >", "d0/d92/classFilterTreeBranch.html", [
+        [ "LogicMap", "d9/d6e/classLogicMap.html", null ]
+      ] ],
+      [ "FilterItem", "d4/d40/classFilterItem.html", null ],
+      [ "FilterTreeBranch< T >", "d0/d92/classFilterTreeBranch.html", null ]
+    ] ],
+    [ "GameEventStorage", "de/d8f/classGameEventStorage.html", null ],
+    [ "GameEventStorageItem", "da/df9/classGameEventStorageItem.html", null ],
+    [ "ZoneViewZone::GridSize", "db/dc7/structZoneViewZone_1_1GridSize.html", null ],
+    [ "ICardPreferenceProvider", "db/df2/classICardPreferenceProvider.html", [
+      [ "NoopCardPreferenceProvider", "d5/d49/classNoopCardPreferenceProvider.html", null ],
       [ "SettingsCardPreferenceProvider", "d4/d04/classSettingsCardPreferenceProvider.html", null ]
+    ] ],
+    [ "ICardSetPriorityController", "d7/d81/classICardSetPriorityController.html", [
+      [ "CardDatabaseSettings", "de/dbe/classCardDatabaseSettings.html", null ],
+      [ "NoopCardSetPriorityController", "d3/d21/classNoopCardSetPriorityController.html", null ]
     ] ],
     [ "IJsonDeckParser", "d0/d6c/classIJsonDeckParser.html", [
       [ "ArchidektJsonParser", "d3/def/classArchidektJsonParser.html", null ],
       [ "MoxfieldJsonParser", "dd/d95/classMoxfieldJsonParser.html", null ]
     ] ],
-    [ "INetworkSettingsProvider", null, [
+    [ "INetworkSettingsProvider", "d9/dad/classINetworkSettingsProvider.html", [
       [ "SettingsCache", "d5/d88/classSettingsCache.html", null ]
     ] ],
+    [ "peg::Trie::Info", "d1/d7b/structpeg_1_1Trie_1_1Info.html", null ],
+    [ "peg::ParserGenerator::Instruction", "d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html", null ],
+    [ "std::integral_constant", null, [
+      [ "peg::argument_count< R(*)(Args...)>", "d1/d1a/structpeg_1_1argument__count_3_01R_07_5_08_07Args_8_8_8_08_4.html", null ],
+      [ "peg::argument_count< R(C::*)(Args...) const >", "de/d27/structpeg_1_1argument__count_3_01R_07C_1_1_5_08_07Args_8_8_8_08_01const_01_4.html", null ],
+      [ "peg::argument_count< R(C::*)(Args...)>", "d5/d90/structpeg_1_1argument__count_3_01R_07C_1_1_5_08_07Args_8_8_8_08_4.html", null ]
+    ] ],
+    [ "CardSetList::KeyCompareFunctor", "da/d79/classCardSetList_1_1KeyCompareFunctor.html", null ],
     [ "LockPixmapGenerator", "dd/dd6/classLockPixmapGenerator.html", null ],
+    [ "MoveCardStruct", "d1/d62/structMoveCardStruct.html", null ],
     [ "RemoteDeckList_TreeModel::Node", "da/d72/classRemoteDeckList__TreeModel_1_1Node.html", [
       [ "RemoteDeckList_TreeModel::DirectoryNode", "dc/d19/classRemoteDeckList__TreeModel_1_1DirectoryNode.html", null ],
       [ "RemoteDeckList_TreeModel::FileNode", "de/dc9/classRemoteDeckList__TreeModel_1_1FileNode.html", null ]
@@ -45,24 +106,59 @@ var hierarchy =
       [ "RemoteReplayList_TreeModel::MatchNode", "d7/d25/classRemoteReplayList__TreeModel_1_1MatchNode.html", null ],
       [ "RemoteReplayList_TreeModel::ReplayNode", "d8/d60/classRemoteReplayList__TreeModel_1_1ReplayNode.html", null ]
     ] ],
+    [ "peg::Ope", "d2/d66/classpeg_1_1Ope.html", [
+      [ "peg::AndPredicate", "d1/d5e/classpeg_1_1AndPredicate.html", null ],
+      [ "peg::AnyCharacter", "d8/d9b/classpeg_1_1AnyCharacter.html", null ],
+      [ "peg::BackReference", "db/d72/classpeg_1_1BackReference.html", null ],
+      [ "peg::Capture", "d2/d36/classpeg_1_1Capture.html", null ],
+      [ "peg::CaptureScope", "d6/d0b/classpeg_1_1CaptureScope.html", null ],
+      [ "peg::Character", "d3/df3/classpeg_1_1Character.html", null ],
+      [ "peg::CharacterClass", "db/de0/classpeg_1_1CharacterClass.html", null ],
+      [ "peg::Cut", "da/d38/classpeg_1_1Cut.html", null ],
+      [ "peg::Dictionary", "de/d44/classpeg_1_1Dictionary.html", null ],
+      [ "peg::Holder", "da/dab/classpeg_1_1Holder.html", null ],
+      [ "peg::Ignore", "db/d3e/classpeg_1_1Ignore.html", null ],
+      [ "peg::LiteralString", "d2/de2/classpeg_1_1LiteralString.html", null ],
+      [ "peg::NotPredicate", "d9/d92/classpeg_1_1NotPredicate.html", null ],
+      [ "peg::PrecedenceClimbing", "d5/dd9/classpeg_1_1PrecedenceClimbing.html", null ],
+      [ "peg::PrioritizedChoice", "d6/d1c/classpeg_1_1PrioritizedChoice.html", null ],
+      [ "peg::Recovery", "d4/d83/classpeg_1_1Recovery.html", null ],
+      [ "peg::Reference", "d5/dba/classpeg_1_1Reference.html", null ],
+      [ "peg::Repetition", "df/de3/classpeg_1_1Repetition.html", null ],
+      [ "peg::Sequence", "d3/d7c/classpeg_1_1Sequence.html", null ],
+      [ "peg::TokenBoundary", "da/db5/classpeg_1_1TokenBoundary.html", null ],
+      [ "peg::User", "d9/d91/classpeg_1_1User.html", null ],
+      [ "peg::WeakHolder", "db/d5b/classpeg_1_1WeakHolder.html", null ],
+      [ "peg::Whitespace", "de/d63/classpeg_1_1Whitespace.html", null ]
+    ] ],
     [ "ParsedDeckInfo", "d8/d82/structParsedDeckInfo.html", null ],
+    [ "peg::parser", "da/d7b/classpeg_1_1parser.html", null ],
+    [ "peg::ParserGenerator::ParserContext", "d4/db3/structpeg_1_1ParserGenerator_1_1ParserContext.html", null ],
+    [ "peg::ParserGenerator", "dc/dbb/classpeg_1_1ParserGenerator.html", null ],
+    [ "PasswordHasher", "d0/d46/classPasswordHasher.html", null ],
     [ "Phase", "d4/d41/classPhase.html", null ],
     [ "PhasePixmapGenerator", "d6/db3/classPhasePixmapGenerator.html", null ],
     [ "Phases", "db/da6/structPhases.html", null ],
     [ "PingPixmapGenerator", "d6/d4f/classPingPixmapGenerator.html", null ],
+    [ "PlayerReference", "d8/d3d/classPlayerReference.html", null ],
+    [ "PrintingInfo", "d6/d90/classPrintingInfo.html", null ],
     [ "QAbstractButton", null, [
       [ "CloseButton", "df/df8/classCloseButton.html", null ]
     ] ],
     [ "QAbstractItemModel", null, [
+      [ "DeckListModel", "d9/de1/classDeckListModel.html", null ],
       [ "FilterTreeModel", "d7/d62/classFilterTreeModel.html", null ],
       [ "RemoteDeckList_TreeModel", "d8/dcf/classRemoteDeckList__TreeModel.html", null ],
       [ "RemoteReplayList_TreeModel", "d5/da5/classRemoteReplayList__TreeModel.html", null ]
     ] ],
     [ "QAbstractListModel", null, [
+      [ "CardDatabaseModel", "dd/d83/classCardDatabaseModel.html", null ],
+      [ "CardSearchModel", "d3/da6/classCardSearchModel.html", null ],
       [ "TipsOfTheDay", "da/dc7/classTipsOfTheDay.html", null ]
     ] ],
     [ "QAbstractTableModel", null, [
-      [ "GamesModel", "da/dbd/classGamesModel.html", null ]
+      [ "GamesModel", "da/dbd/classGamesModel.html", null ],
+      [ "SetsModel", "da/d64/classSetsModel.html", null ]
     ] ],
     [ "QDialog", null, [
       [ "AbstractDlgDeckTextEdit", "d6/d3e/classAbstractDlgDeckTextEdit.html", [
@@ -174,6 +270,9 @@ var hierarchy =
       [ "RoomSelector", "d8/d49/classRoomSelector.html", null ],
       [ "UserListWidget", "da/d3b/classUserListWidget.html", null ]
     ] ],
+    [ "QIdentityProxyModel", null, [
+      [ "DeckListStyleProxy", "d7/dea/classDeckListStyleProxy.html", null ]
+    ] ],
     [ "QInputDialog", null, [
       [ "AbstractCounterDialog", "d1/dae/classAbstractCounterDialog.html", null ],
       [ "AnnotationDialog", "d3/d00/classAnnotationDialog.html", null ]
@@ -195,6 +294,9 @@ var hierarchy =
     ] ],
     [ "QList", null, [
       [ "CardList", "d4/d71/classCardList.html", null ],
+      [ "CardSet", "d6/d3d/classCardSet.html", null ],
+      [ "CardSetList", "dd/d65/classCardSetList.html", null ],
+      [ "InnerDecklistNode", "d4/d55/classInnerDecklistNode.html", null ],
       [ "RemoteDeckList_TreeModel::DirectoryNode", "dc/d19/classRemoteDeckList__TreeModel_1_1DirectoryNode.html", null ],
       [ "RemoteReplayList_TreeModel::MatchNode", "d7/d25/classRemoteReplayList__TreeModel_1_1MatchNode.html", null ],
       [ "ShortcutKey", "d6/d8e/classShortcutKey.html", null ]
@@ -239,18 +341,31 @@ var hierarchy =
       ] ],
       [ "UtilityMenu", "da/d1c/classUtilityMenu.html", null ]
     ] ],
+    [ "QMimeData", null, [
+      [ "SetsMimeData", "d8/d6a/classSetsMimeData.html", null ]
+    ] ],
     [ "QObject", null, [
       [ "AbstractCardDragItem", "d6/dc0/classAbstractCardDragItem.html", null ],
+      [ "AbstractClient", "dc/d86/classAbstractClient.html", [
+        [ "LocalClient", "df/d75/classLocalClient.html", null ],
+        [ "RemoteClient", "db/d53/classRemoteClient.html", null ]
+      ] ],
       [ "AbstractCounter", "d4/d67/classAbstractCounter.html", null ],
       [ "AbstractGame", "d3/d44/classAbstractGame.html", [
         [ "Game", "d9/d68/classGame.html", null ],
         [ "Replay", "d2/daf/classReplay.html", null ]
       ] ],
       [ "ArrowItem", "df/d2a/classArrowItem.html", null ],
+      [ "CardDatabase", "d5/d45/classCardDatabase.html", null ],
+      [ "CardDatabaseLoader", "d2/d1b/classCardDatabaseLoader.html", null ],
+      [ "CardDatabaseQuerier", "d8/dbe/classCardDatabaseQuerier.html", null ],
+      [ "CardFilter", "d7/dfc/classCardFilter.html", null ],
+      [ "CardInfo", "dd/dd2/classCardInfo.html", null ],
       [ "CardPictureLoader", "d2/d5d/classCardPictureLoader.html", null ],
       [ "CardPictureLoaderLocal", "dd/d17/classCardPictureLoaderLocal.html", null ],
       [ "CardPictureLoaderWorker", "d6/da1/classCardPictureLoaderWorker.html", null ],
       [ "CardPictureLoaderWorkerWork", "d9/d35/classCardPictureLoaderWorkerWork.html", null ],
+      [ "CardRelation", "db/ded/classCardRelation.html", null ],
       [ "CardZoneLogic", "d1/df9/classCardZoneLogic.html", [
         [ "HandZoneLogic", "df/db6/classHandZoneLogic.html", null ],
         [ "PileZoneLogic", "d3/df4/classPileZoneLogic.html", null ],
@@ -259,14 +374,26 @@ var hierarchy =
         [ "ZoneViewZoneLogic", "d8/d70/classZoneViewZoneLogic.html", null ]
       ] ],
       [ "ClientUpdateChecker", "d3/d9f/classClientUpdateChecker.html", null ],
+      [ "DeckList", "da/d68/classDeckList.html", null ],
       [ "DeckStatsInterface", "da/dcf/classDeckStatsInterface.html", null ],
+      [ "FeatureSet", "d1/dfd/classFeatureSet.html", null ],
+      [ "FilterTree", "d8/d95/classFilterTree.html", null ],
       [ "GameEventHandler", "d7/db2/classGameEventHandler.html", null ],
       [ "GameMetaInfo", "d9/db5/classGameMetaInfo.html", null ],
       [ "GameState", "d3/df3/classGameState.html", null ],
       [ "HandlePublicServers", "d9/ddd/classHandlePublicServers.html", null ],
+      [ "ICardDatabaseParser", "d4/dfe/classICardDatabaseParser.html", [
+        [ "CockatriceXml3Parser", "d5/dba/classCockatriceXml3Parser.html", null ],
+        [ "CockatriceXml4Parser", "dc/d53/classCockatriceXml4Parser.html", null ]
+      ] ],
+      [ "ICardDatabasePathProvider", "dd/d8e/classICardDatabasePathProvider.html", [
+        [ "NoopCardDatabasePathProvider", "d5/dad/classNoopCardDatabasePathProvider.html", null ],
+        [ "SettingsCache", "d5/d88/classSettingsCache.html", null ]
+      ] ],
       [ "KeySignals", "da/d89/classKeySignals.html", null ],
       [ "Logger", "db/d67/classLogger.html", null ],
       [ "NoScrollFilter", "da/d92/classNoScrollFilter.html", null ],
+      [ "PendingCommand", "d8/d62/classPendingCommand.html", null ],
       [ "PhaseButton", "da/d20/classPhaseButton.html", null ],
       [ "PhasesToolbar", "d7/d23/classPhasesToolbar.html", null ],
       [ "Player", "d2/d4b/classPlayer.html", null ],
@@ -276,9 +403,44 @@ var hierarchy =
       [ "PlayerInfo", "df/df7/classPlayerInfo.html", null ],
       [ "PlayerManager", "dc/d5d/classPlayerManager.html", null ],
       [ "PlayerMenu", "d7/dd6/classPlayerMenu.html", null ],
+      [ "RNG_Abstract", "de/dba/classRNG__Abstract.html", [
+        [ "RNG_SFMT", "d4/dc7/classRNG__SFMT.html", null ]
+      ] ],
       [ "ReleaseChannel", "d0/db2/classReleaseChannel.html", [
         [ "BetaReleaseChannel", "d0/dc4/classBetaReleaseChannel.html", null ],
         [ "StableReleaseChannel", "d8/d5f/classStableReleaseChannel.html", null ]
+      ] ],
+      [ "Server", "db/d00/classServer.html", [
+        [ "LocalServer", "d2/d40/classLocalServer.html", null ]
+      ] ],
+      [ "Server_ArrowTarget", "d7/d78/classServer__ArrowTarget.html", [
+        [ "Server_AbstractParticipant", "d0/d00/classServer__AbstractParticipant.html", [
+          [ "Server_AbstractPlayer", "da/d99/classServer__AbstractPlayer.html", [
+            [ "Server_Player", "d8/d21/classServer__Player.html", null ]
+          ] ],
+          [ "Server_Spectator", "d3/d2c/classServer__Spectator.html", null ]
+        ] ],
+        [ "Server_Card", "dc/d07/classServer__Card.html", null ]
+      ] ],
+      [ "Server_DatabaseInterface", "d2/d12/classServer__DatabaseInterface.html", [
+        [ "LocalServer_DatabaseInterface", "d1/d74/classLocalServer__DatabaseInterface.html", null ]
+      ] ],
+      [ "Server_Game", "df/d89/classServer__Game.html", null ],
+      [ "Server_ProtocolHandler", "d0/d23/classServer__ProtocolHandler.html", [
+        [ "LocalServerInterface", "d0/dc3/classLocalServerInterface.html", null ]
+      ] ],
+      [ "Server_Room", "d1/d15/classServer__Room.html", null ],
+      [ "SettingsManager", "d1/dea/classSettingsManager.html", [
+        [ "CardCounterSettings", "d3/d14/classCardCounterSettings.html", null ],
+        [ "CardDatabaseSettings", "de/dbe/classCardDatabaseSettings.html", null ],
+        [ "CardOverrideSettings", "d8/d12/classCardOverrideSettings.html", null ],
+        [ "DebugSettings", "d9/d00/classDebugSettings.html", null ],
+        [ "DownloadSettings", "d4/d14/classDownloadSettings.html", null ],
+        [ "GameFiltersSettings", "df/dd0/classGameFiltersSettings.html", null ],
+        [ "LayoutsSettings", "d3/d58/classLayoutsSettings.html", null ],
+        [ "MessageSettings", "d3/dc1/classMessageSettings.html", null ],
+        [ "RecentsSettings", "d3/db5/classRecentsSettings.html", null ],
+        [ "ServersSettings", "df/db1/classServersSettings.html", null ]
       ] ],
       [ "ShortcutsSettings", "da/d38/classShortcutsSettings.html", null ],
       [ "SoundEngine", "d7/d66/classSoundEngine.html", null ],
@@ -298,7 +460,14 @@ var hierarchy =
       [ "ToggleButton", "d0/d90/classToggleButton.html", null ]
     ] ],
     [ "QSortFilterProxyModel", null, [
+      [ "CardCompleterProxyModel", "d7/d80/classCardCompleterProxyModel.html", null ],
+      [ "CardDatabaseDisplayModel", "da/d8d/classCardDatabaseDisplayModel.html", [
+        [ "TokenDisplayModel", "df/d8f/classTokenDisplayModel.html", null ],
+        [ "TokenEditModel", "db/dad/classTokenEditModel.html", null ]
+      ] ],
+      [ "DeckListSortFilterProxyModel", "dc/dba/classDeckListSortFilterProxyModel.html", null ],
       [ "GamesProxyModel", "db/db4/classGamesProxyModel.html", null ],
+      [ "SetsDisplayModel", "dd/df6/classSetsDisplayModel.html", null ],
       [ "ShortcutFilterProxyModel", "d0/d68/classShortcutFilterProxyModel.html", null ]
     ] ],
     [ "QStyledItemDelegate", null, [
@@ -424,17 +593,51 @@ var hierarchy =
       [ "VisualDeckStorageWidget", "d0/dfe/classVisualDeckStorageWidget.html", null ]
     ] ],
     [ "Release", "db/d0a/classRelease.html", null ],
-    [ "SettingsManager", null, [
-      [ "CardCounterSettings", "d3/d14/classCardCounterSettings.html", null ]
+    [ "ResponseContainer", "db/d74/classResponseContainer.html", null ],
+    [ "peg::Definition::Result", "df/d1f/structpeg_1_1Definition_1_1Result.html", null ],
+    [ "peg::scope_exit< EF >", "d5/dbb/structpeg_1_1scope__exit.html", null ],
+    [ "CardSearchModel::SearchResult", "df/d87/structCardSearchModel_1_1SearchResult.html", null ],
+    [ "Server_Arrow", "df/d3b/classServer__Arrow.html", null ],
+    [ "Server_CardZone", "dc/d3a/classServer__CardZone.html", null ],
+    [ "Server_Counter", "d6/dcc/classServer__Counter.html", null ],
+    [ "ServerInfo_User_Container", "d9/d5b/classServerInfo__User__Container.html", [
+      [ "Server_AbstractParticipant", "d0/d00/classServer__AbstractParticipant.html", null ],
+      [ "Server_AbstractUserInterface", "d5/d9c/classServer__AbstractUserInterface.html", [
+        [ "Server_ProtocolHandler", "d0/d23/classServer__ProtocolHandler.html", null ],
+        [ "Server_RemoteUserInterface", "d8/d6a/classServer__RemoteUserInterface.html", null ]
+      ] ]
     ] ],
+    [ "SetPriorityComparator", "d5/dee/classSetPriorityComparator.html", null ],
+    [ "SetProviderIdToPreferred", "de/d75/structSetProviderIdToPreferred.html", null ],
+    [ "SetReleaseDateComparator", "d4/d3e/classSetReleaseDateComparator.html", null ],
+    [ "SFMT_T", "db/d02/structSFMT__T.html", null ],
     [ "ShortcutGroup", "d2/d7a/classShortcutGroup.html", null ],
+    [ "SideboardPlan", "dc/d8b/classSideboardPlan.html", null ],
     [ "TipOfTheDay", "d2/dba/classTipOfTheDay.html", null ],
     [ "TokenInfo", "dd/d40/structTokenInfo.html", null ],
     [ "TranslateCounterName", "d8/dab/classTranslateCounterName.html", null ],
+    [ "peg::Trie", "d4/da5/classpeg_1_1Trie.html", null ],
     [ "UserConnection_Information", "d5/d88/classUserConnection__Information.html", null ],
     [ "UserLevelPixmapGenerator", "d8/df9/classUserLevelPixmapGenerator.html", null ],
     [ "UserListProxy", "dc/dc8/classUserListProxy.html", [
       [ "UserListManager", "db/d6d/classUserListManager.html", null ]
     ] ],
-    [ "UserMessagePosition", "de/d70/classUserMessagePosition.html", null ]
+    [ "UserMessagePosition", "de/d70/classUserMessagePosition.html", null ],
+    [ "std::vector", null, [
+      [ "peg::SemanticValues", "df/dd5/structpeg_1_1SemanticValues.html", null ]
+    ] ],
+    [ "peg::Ope::Visitor", "d2/daa/structpeg_1_1Ope_1_1Visitor.html", [
+      [ "peg::AssignIDToDefinition", "d9/d27/structpeg_1_1AssignIDToDefinition.html", null ],
+      [ "peg::DetectInfiniteLoop", "db/d34/structpeg_1_1DetectInfiniteLoop.html", null ],
+      [ "peg::DetectLeftRecursion", "df/dff/structpeg_1_1DetectLeftRecursion.html", null ],
+      [ "peg::FindLiteralToken", "dd/dfd/structpeg_1_1FindLiteralToken.html", null ],
+      [ "peg::FindReference", "d9/dfd/structpeg_1_1FindReference.html", null ],
+      [ "peg::HasEmptyElement", "d5/daf/structpeg_1_1HasEmptyElement.html", null ],
+      [ "peg::IsLiteralToken", "de/d67/structpeg_1_1IsLiteralToken.html", null ],
+      [ "peg::LinkReferences", "d1/dcf/structpeg_1_1LinkReferences.html", null ],
+      [ "peg::ReferenceChecker", "dd/de4/structpeg_1_1ReferenceChecker.html", null ],
+      [ "peg::TokenChecker", "de/d4a/structpeg_1_1TokenChecker.html", null ],
+      [ "peg::TraceOpeName", "d1/dab/structpeg_1_1TraceOpeName.html", null ]
+    ] ],
+    [ "W128_T", "df/db1/unionW128__T.html", null ]
 ];

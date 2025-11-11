@@ -112,9 +112,9 @@ $(document).ready(function(){initNavTree('d4/d9d/deck__filter__string_8cpp.html'
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../df/d59/deck__filter__string_8h_source.html">deck_filter_string.h</a>&quot;</code><br />
-<code>#include &lt;libcockatrice/card/database/card_database_manager.h&gt;</code><br />
-<code>#include &lt;libcockatrice/filters/filter_string.h&gt;</code><br />
-<code>#include &lt;libcockatrice/utility/peglib.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d3/da2/filter__string_8h_source.html">libcockatrice/filters/filter_string.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../de/d9d/peglib_8h_source.html">libcockatrice/utility/peglib.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for deck_filter_string.cpp:</div>
 <div class="dyncontent">
@@ -123,7 +123,12 @@ Include dependency graph for deck_filter_string.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4dbd2d8cbf9b0e456797180d5cd2bb88" id="r_a4dbd2d8cbf9b0e456797180d5cd2bb88"><td class="memItemLeft" align="right" valign="top">static peg::parser&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9d/deck__filter__string_8cpp.html#a4dbd2d8cbf9b0e456797180d5cd2bb88">search</a> (R&quot;(
+<tr class="memitem:a1b3f5c50a74878001e05fb6c700d3d16" id="r_a1b3f5c50a74878001e05fb6c700d3d16"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9d/deck__filter__string_8cpp.html#a1b3f5c50a74878001e05fb6c700d3d16">setupParserRules</a> ()</td></tr>
+<tr class="separator:a1b3f5c50a74878001e05fb6c700d3d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:acc8ae09ae828880bc1a8f47815e35c74" id="r_acc8ae09ae828880bc1a8f47815e35c74"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../da/d7b/classpeg_1_1parser.html">peg::parser</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9d/deck__filter__string_8cpp.html#acc8ae09ae828880bc1a8f47815e35c74">search</a> (R&quot;(
 Start &lt;- QueryPartList
 ~ws &lt;- [ ]+
 QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart)* ws*
@@ -154,47 +159,11 @@ NumericExpression &lt;- NumericOperator ws? NumericValue
 NumericOperator &lt;- [=:] / &lt;[&gt;&lt;!][=]?&gt;
 NumericValue &lt;- [0-9]+
 )&quot;)</td></tr>
-<tr class="separator:a4dbd2d8cbf9b0e456797180d5cd2bb88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b3f5c50a74878001e05fb6c700d3d16" id="r_a1b3f5c50a74878001e05fb6c700d3d16"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9d/deck__filter__string_8cpp.html#a1b3f5c50a74878001e05fb6c700d3d16">setupParserRules</a> ()</td></tr>
-<tr class="separator:a1b3f5c50a74878001e05fb6c700d3d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
+<tr class="separator:acc8ae09ae828880bc1a8f47815e35c74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cd1776ce070457b6ff51645ece1b341" id="r_a7cd1776ce070457b6ff51645ece1b341"><td class="memItemLeft" align="right" valign="top">static std::once_flag&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d9d/deck__filter__string_8cpp.html#a7cd1776ce070457b6ff51645ece1b341">init</a></td></tr>
 <tr class="separator:a7cd1776ce070457b6ff51645ece1b341"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a4dbd2d8cbf9b0e456797180d5cd2bb88" name="a4dbd2d8cbf9b0e456797180d5cd2bb88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dbd2d8cbf9b0e456797180d5cd2bb88">&#9670;&#160;</a></span>search()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static peg::parser search </td>
-          <td>(</td>
-          <td class="paramtype">R&quot;(Start &lt;- QueryPartList~ws &lt;- [ ]+QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart)* ws*ComplexQueryPart &lt;- SomewhatComplexQueryPart ws &quot;OR&quot; ws ComplexQueryPart / SomewhatComplexQueryPartSomewhatComplexQueryPart &lt;- [(] QueryPartList [)] / QueryPartQueryPart &lt;- NotQuery / DeckContentQuery / DeckNameQuery / FileNameQuery / PathQuery / GenericQueryNotQuery &lt;- ('NOT' ws/'-') SomewhatComplexQueryPartDeckContentQuery &lt;- CardSearch NumericExpression?CardSearch &lt;- '[[' CardFilterString ']]'CardFilterString &lt;- (!']]'.)*DeckNameQuery &lt;- ([Dd] 'eck')? [Nn] 'ame'? [:] StringFileNameQuery &lt;- [Ff] ('ile' 'name'?)? [:] StringPathQuery &lt;- [Pp] 'ath'? [:] StringGenericQuery &lt;- StringNonDoubleQuoteUnlessEscaped &lt;- '\\\&quot;'. / ![&quot;]. NonSingleQuoteUnlessEscaped&lt;- &quot;\\\'&quot;./![']. UnescapedStringListPart&lt;- !['&quot;:&lt;&gt;=! ].SingleApostropheString &lt;- (UnescapedStringListPart+ ws*)* ['] (UnescapedStringListPart+ ws*)*String &lt;- SingleApostropheString / UnescapedStringListPart+ / [&quot;]&lt; NonDoubleQuoteUnlessEscaped * &gt;[&quot;] / ['] &lt;NonSingleQuoteUnlessEscaped*&gt; [']NumericExpression &lt;- NumericOperator ws? NumericValueNumericOperator &lt;- [=:] / &lt;[&gt;&lt;!][=]?&gt;NumericValue &lt;- [0-9]+)&quot;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d9d/deck__filter__string_8cpp_a4dbd2d8cbf9b0e456797180d5cd2bb88_icgraph.svg" width="652" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
 <a id="a1b3f5c50a74878001e05fb6c700d3d16" name="a1b3f5c50a74878001e05fb6c700d3d16"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b3f5c50a74878001e05fb6c700d3d16">&#9670;&#160;</a></span>setupParserRules()</h2>
 
@@ -232,6 +201,62 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">std::once_flag init</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc8ae09ae828880bc1a8f47815e35c74" name="acc8ae09ae828880bc1a8f47815e35c74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc8ae09ae828880bc1a8f47815e35c74">&#9670;&#160;</a></span>search</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d7b/classpeg_1_1parser.html">peg::parser</a> search(R&quot;(
+Start &lt;- QueryPartList
+~ws &lt;- [ ]+
+QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart)* ws*
+
+ComplexQueryPart &lt;- SomewhatComplexQueryPart ws &quot;OR&quot; ws ComplexQueryPart / SomewhatComplexQueryPart
+SomewhatComplexQueryPart &lt;- [(] QueryPartList [)] / QueryPart
+
+QueryPart &lt;- NotQuery / DeckContentQuery / DeckNameQuery / FileNameQuery / PathQuery / GenericQuery
+
+NotQuery &lt;- ('NOT' ws/'-') SomewhatComplexQueryPart
+
+DeckContentQuery &lt;- CardSearch NumericExpression?
+CardSearch &lt;- '[[' CardFilterString ']]'
+CardFilterString &lt;- (!']]'.)*
+
+DeckNameQuery &lt;- ([Dd] 'eck')? [Nn] 'ame'? [:] String
+FileNameQuery &lt;- [Ff] ('ile' 'name'?)? [:] String
+PathQuery &lt;- [Pp] 'ath'? [:] String
+
+GenericQuery &lt;- String
+
+NonDoubleQuoteUnlessEscaped &lt;- '\\\&quot;'. / ![&quot;]. NonSingleQuoteUnlessEscaped&lt;- &quot;\\\'&quot;./![']. UnescapedStringListPart&lt;- !['&quot;:&lt;&gt;=! ].
+SingleApostropheString &lt;- (UnescapedStringListPart+ ws*)* ['] (UnescapedStringListPart+ ws*)*
+
+String &lt;- SingleApostropheString / UnescapedStringListPart+ / [&quot;]&lt; NonDoubleQuoteUnlessEscaped * &gt;[&quot;] / ['] &lt;NonSingleQuoteUnlessEscaped*&gt; [']
+
+NumericExpression &lt;- NumericOperator ws? NumericValue
+NumericOperator &lt;- [=:] / &lt;[&gt;&lt;!][=]?&gt;
+NumericValue &lt;- [0-9]+
+)&quot;) </td>
+          <td>(</td>
+          <td class="paramtype">R&quot;(Start &lt;- QueryPartList~ws &lt;- [ ]+QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart)* ws*ComplexQueryPart &lt;- SomewhatComplexQueryPart ws &quot;OR&quot; ws ComplexQueryPart / SomewhatComplexQueryPartSomewhatComplexQueryPart &lt;- [(] QueryPartList [)] / QueryPartQueryPart &lt;- NotQuery / DeckContentQuery / DeckNameQuery / FileNameQuery / PathQuery / GenericQueryNotQuery &lt;- ('NOT' ws/'-') SomewhatComplexQueryPartDeckContentQuery &lt;- CardSearch NumericExpression?CardSearch &lt;- '[[' CardFilterString ']]'CardFilterString &lt;- (!']]'.)*DeckNameQuery &lt;- ([Dd] 'eck')? [Nn] 'ame'? [:] StringFileNameQuery &lt;- [Ff] ('ile' 'name'?)? [:] StringPathQuery &lt;- [Pp] 'ath'? [:] StringGenericQuery &lt;- StringNonDoubleQuoteUnlessEscaped &lt;- '\\\&quot;'. / ![&quot;].NonSingleQuoteUnlessEscaped&lt;- &quot;\\\'&quot;./!['].UnescapedStringListPart&lt;- !['&quot;:&lt;&gt;=! ].SingleApostropheString &lt;- (UnescapedStringListPart+ ws*)* ['] (UnescapedStringListPart+ ws*)*String &lt;- SingleApostropheString / UnescapedStringListPart+ / [&quot;]&lt; NonDoubleQuoteUnlessEscaped * &gt;[&quot;] / ['] &lt;NonSingleQuoteUnlessEscaped*&gt; [']NumericExpression &lt;- NumericOperator ws? NumericValueNumericOperator &lt;- [=:] / &lt;[&gt;&lt;!][=]?&gt;NumericValue &lt;- [0-9]+)&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>

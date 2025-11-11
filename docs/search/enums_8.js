@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['role_0',['Role',['../da/d5a/classThemeManager.html#a3aa764444425be577be3cd450e79f278',1,'ThemeManager']]]
+  ['messagecontext_0',['MessageContext',['../d7/d93/classMessageLogWidget.html#aa18904c9db87256ddea032354260bf64',1,'MessageLogWidget']]]
 ];

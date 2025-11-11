@@ -48,5 +48,9 @@ var searchData=
   ['edhrec_5ftop_5ftags_5fapi_5fresponse_2eh_45',['edhrec_top_tags_api_response.h',['../da/d9d/edhrec__top__tags__api__response_8h.html',1,'']]],
   ['edhrec_5ftop_5ftags_5fapi_5fresponse_5fdisplay_5fwidget_2ecpp_46',['edhrec_top_tags_api_response_display_widget.cpp',['../d9/d47/edhrec__top__tags__api__response__display__widget_8cpp.html',1,'']]],
   ['edhrec_5ftop_5ftags_5fapi_5fresponse_5fdisplay_5fwidget_2eh_47',['edhrec_top_tags_api_response_display_widget.h',['../d7/de6/edhrec__top__tags__api__response__display__widget_8h.html',1,'']]],
-  ['event_5fprocessing_5foptions_2eh_48',['event_processing_options.h',['../d6/d03/event__processing__options_8h.html',1,'']]]
+  ['event_5fprocessing_5foptions_2eh_48',['event_processing_options.h',['../d6/d03/event__processing__options_8h.html',1,'']]],
+  ['exact_5fcard_2ecpp_49',['exact_card.cpp',['../d9/d53/exact__card_8cpp.html',1,'']]],
+  ['exact_5fcard_2eh_50',['exact_card.h',['../d6/dfd/exact__card_8h.html',1,'']]],
+  ['expression_2ecpp_51',['expression.cpp',['../da/d45/expression_8cpp.html',1,'']]],
+  ['expression_2eh_52',['expression.h',['../d3/d1b/expression_8h.html',1,'']]]
 ];

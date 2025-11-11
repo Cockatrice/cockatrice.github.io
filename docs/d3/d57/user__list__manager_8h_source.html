@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('d3/d57/user__list__manager_8h_source.h
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;libcockatrice/protocol/pb/serverinfo_user.pb.h&gt;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span>AbstractClient;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a>;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span>Event_AddToList;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span>Event_ListRooms;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">class </span>Event_RemoveFromList;</div>
@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('d3/d57/user__list__manager_8h_source.h
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    Q_OBJECT</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../db/d6d/classUserListManager.html#a62454f56a4493f6cf60b766860bb36d5">   31</a></span>    AbstractClient *<a class="code hl_variable" href="../../db/d6d/classUserListManager.html#a62454f56a4493f6cf60b766860bb36d5">client</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../db/d6d/classUserListManager.html#a62454f56a4493f6cf60b766860bb36d5">   31</a></span>    <a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *<a class="code hl_variable" href="../../db/d6d/classUserListManager.html#a62454f56a4493f6cf60b766860bb36d5">client</a>;</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../db/d6d/classUserListManager.html#a343b88aec385ef35d3df7c0e0133d797">   32</a></span>    ServerInfo_User *<a class="code hl_variable" href="../../db/d6d/classUserListManager.html#a343b88aec385ef35d3df7c0e0133d797">ownUserInfo</a>;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../db/d6d/classUserListManager.html#abe30337a9a21611cb163886b9f653060">   33</a></span>    QMap&lt;QString, ServerInfo_User&gt; <a class="code hl_variable" href="../../db/d6d/classUserListManager.html#ae9d958ea579315cc6b9b1e1ef1a85130">onlineUsers</a>, <a class="code hl_variable" href="../../db/d6d/classUserListManager.html#abe30337a9a21611cb163886b9f653060">buddyUsers</a>, <a class="code hl_variable" href="../../db/d6d/classUserListManager.html#a66f8229a72fc32dc3eda29c23a8a104a">ignoredUsers</a>;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('d3/d57/user__list__manager_8h_source.h
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../db/d6d/classUserListManager.html#aaf4b2c259ad6454b11af32205417d538">processRemoveFromListEvent</a>(<span class="keyword">const</span> Event_RemoveFromList &amp;event);</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../db/d6d/classUserListManager.html">UserListManager</a>(AbstractClient *_client, QObject *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../db/d6d/classUserListManager.html">UserListManager</a>(<a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *_client, QObject *parent = <span class="keyword">nullptr</span>);</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_function" href="../../db/d6d/classUserListManager.html#a667fe830d3a1b7671df38858ed7032b6">~UserListManager</a>() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="foldopen" id="foldopen00050" data-start="{" data-end="}">
@@ -189,6 +189,7 @@ $(document).ready(function(){initNavTree('d3/d57/user__list__manager_8h_source.h
 </div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_USER_LIST_MANAGER_H</span></div>
+<div class="ttc" id="aclassAbstractClient_html"><div class="ttname"><a href="../../dc/d86/classAbstractClient.html">AbstractClient</a></div><div class="ttdef"><b>Definition</b> abstract_client.h:52</div></div>
 <div class="ttc" id="aclassTabSupervisor_html"><div class="ttname"><a href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a></div><div class="ttdef"><b>Definition</b> tab_supervisor.h:84</div></div>
 <div class="ttc" id="aclassUserListManager_html"><div class="ttname"><a href="../../db/d6d/classUserListManager.html">UserListManager</a></div><div class="ttdef"><b>Definition</b> user_list_manager.h:27</div></div>
 <div class="ttc" id="aclassUserListManager_html_a0a980050ad9d7bd3632f129ad593aa19"><div class="ttname"><a href="../../db/d6d/classUserListManager.html#a0a980050ad9d7bd3632f129ad593aa19">UserListManager::isUserBuddy</a></div><div class="ttdeci">bool isUserBuddy(const QString &amp;userName) const override</div><div class="ttdef"><b>Definition</b> user_list_manager.cpp:146</div></div>

@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['tablezone_5fbg_5fname_0',['TABLEZONE_BG_NAME',['../d4/d99/theme__manager_8cpp.html#a55167aee9e5dc331c0570db252e6d2ec',1,'theme_manager.cpp']]],
-  ['test_5fsound_5ffilename_1',['TEST_SOUND_FILENAME',['../d4/dd2/sound__engine_8cpp.html#a355b98d4f212e79c17235477950c9646',1,'sound_engine.cpp']]],
-  ['tipddbmodel_5fcolumns_2',['TIPDDBMODEL_COLUMNS',['../d4/d70/tip__of__the__day_8cpp.html#ad9f5392b56c28b213b5bdbb22a1fb374',1,'tip_of_the_day.cpp']]]
+  ['redirect_5fcache_5ffilename_0',['redirect_cache_filename',['../d8/dbe/card__picture__loader__worker_8h.html#af6ecc7358599d612713c8bfcd3367443',1,'REDIRECT_CACHE_FILENAME:&#160;card_picture_loader_worker.h'],['../dd/d56/card__picture__loader__worker__work_8h.html#af6ecc7358599d612713c8bfcd3367443',1,'REDIRECT_CACHE_FILENAME:&#160;card_picture_loader_worker_work.h']]],
+  ['redirect_5fheader_5fname_1',['redirect_header_name',['../d8/dbe/card__picture__loader__worker_8h.html#a47deb151244da61c835d16bee5c6e556',1,'REDIRECT_HEADER_NAME:&#160;card_picture_loader_worker.h'],['../dd/d56/card__picture__loader__worker__work_8h.html#a47deb151244da61c835d16bee5c6e556',1,'REDIRECT_HEADER_NAME:&#160;card_picture_loader_worker_work.h']]],
+  ['redirect_5foriginal_5furl_2',['redirect_original_url',['../d8/dbe/card__picture__loader__worker_8h.html#ab6623fed94345cb91c0e6a4ec8819c95',1,'REDIRECT_ORIGINAL_URL:&#160;card_picture_loader_worker.h'],['../dd/d56/card__picture__loader__worker__work_8h.html#ab6623fed94345cb91c0e6a4ec8819c95',1,'REDIRECT_ORIGINAL_URL:&#160;card_picture_loader_worker_work.h']]],
+  ['redirect_5ftimestamp_3',['redirect_timestamp',['../d8/dbe/card__picture__loader__worker_8h.html#af2d39cb6a6634b0f10bc0d1181c8160d',1,'REDIRECT_TIMESTAMP:&#160;card_picture_loader_worker.h'],['../dd/d56/card__picture__loader__worker__work_8h.html#af2d39cb6a6634b0f10bc0d1181c8160d',1,'REDIRECT_TIMESTAMP:&#160;card_picture_loader_worker_work.h']]],
+  ['redirect_5furl_4',['redirect_url',['../d8/dbe/card__picture__loader__worker_8h.html#af0d1b1818522b8721269bc07bed7bc49',1,'REDIRECT_URL:&#160;card_picture_loader_worker.h'],['../dd/d56/card__picture__loader__worker__work_8h.html#af0d1b1818522b8721269bc07bed7bc49',1,'REDIRECT_URL:&#160;card_picture_loader_worker_work.h']]]
 ];

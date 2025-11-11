@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gametypemap_0',['GameTypeMap',['../d8/d92/game__type__map_8h.html#a8fd9fd937325db0b4ae4edae4ae91924',1,'game_type_map.h']]]
+  ['binopeinfo_0',['BinOpeInfo',['../d5/dd9/classpeg_1_1PrecedenceClimbing.html#a939d4df2bb5654baef5ec8aa3bc26d48',1,'peg::PrecedenceClimbing']]]
 ];
