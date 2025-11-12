@@ -60,7 +60,7 @@ var classTabGame =
     [ "notIdle", "de/d08/classTabGame.html#ade0b13e4460c05279916d0b339e7e06a", null ],
     [ "notifyPlayerJoin", "de/d08/classTabGame.html#a3f805f5b09ffdc60b72925c1a54494eb", null ],
     [ "notifyPlayerKicked", "de/d08/classTabGame.html#a6679d298f8865631103558ebb88ebac9", null ],
-    [ "openDeckEditor", "de/d08/classTabGame.html#ab98242bd740716cd297a14b56504f408", null ],
+    [ "openDeckEditor", "de/d08/classTabGame.html#a05d92efb910f5f4e634408b6875092af", null ],
     [ "openMessageDialog", "de/d08/classTabGame.html#ac224ed509114397ac1c3760d911bde04", null ],
     [ "phaseChanged", "de/d08/classTabGame.html#a877994778129edd803e4f8cb05f2064c", null ],
     [ "processLocalPlayerDeckSelect", "de/d08/classTabGame.html#a76f83ce47755ecb9ea27c2e0dbce604e", null ],

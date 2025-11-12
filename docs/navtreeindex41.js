@@ -1,5 +1,10 @@
 var NAVTREEINDEX41 =
 {
+"de/d04/classDeckPreviewTagDialog.html":[3,1,0,101],
+"de/d04/classDeckPreviewTagDialog.html#a12960b7067a86d6feb4e354bceb35ea7":[3,1,0,101,16],
+"de/d04/classDeckPreviewTagDialog.html#a19335ffbb6ebae3f6b16a4e58207a90d":[3,1,0,101,19],
+"de/d04/classDeckPreviewTagDialog.html#a1a43112ac7ba5968fbe4f5e67511be6b":[3,1,0,101,7],
+"de/d04/classDeckPreviewTagDialog.html#a228c1c0e9d217fb977d0392678cce765":[3,1,0,101,13],
 "de/d04/classDeckPreviewTagDialog.html#a244cb89c49bff3a8b076e2d389e9bd98":[3,1,0,101,12],
 "de/d04/classDeckPreviewTagDialog.html#a5478605869874f753e6471a7ac2fb3aa":[3,1,0,101,11],
 "de/d04/classDeckPreviewTagDialog.html#a6a36974baeae9cd4f95be489245a984e":[3,1,0,101,15],
@@ -21,6 +26,7 @@ var NAVTREEINDEX41 =
 "de/d08/classTabGame.html":[3,1,0,360],
 "de/d08/classTabGame.html#a0198c02f04e49adcbc708d2a0abfb80b":[3,1,0,360,0],
 "de/d08/classTabGame.html#a0222059bef0d83588a983e9d0b387d7b":[3,1,0,360,3],
+"de/d08/classTabGame.html#a05d92efb910f5f4e634408b6875092af":[3,1,0,360,60],
 "de/d08/classTabGame.html#a08a4f6cacb6f627639ef8be19ec158fb":[3,1,0,360,114],
 "de/d08/classTabGame.html#a08c4ed46c64e3a0fd3be23274c18d55e":[3,1,0,360,16],
 "de/d08/classTabGame.html#a09dd180b5197c356c1ca6402dc12bfb4":[3,1,0,360,48],
@@ -115,7 +121,6 @@ var NAVTREEINDEX41 =
 "de/d08/classTabGame.html#ab737ec63d5401a653e9b549624b14198":[3,1,0,360,22],
 "de/d08/classTabGame.html#ab7f63134f141f73682faf33d3c501757":[3,1,0,360,28],
 "de/d08/classTabGame.html#ab981800f8668ec1051b1fa6b097a7f11":[3,1,0,360,15],
-"de/d08/classTabGame.html#ab98242bd740716cd297a14b56504f408":[3,1,0,360,60],
 "de/d08/classTabGame.html#aba254554eed4ef5fd0beca99a0b8ff29":[3,1,0,360,87],
 "de/d08/classTabGame.html#abc794a51c55116e74ae89d37a0e1cc41":[3,1,0,360,91],
 "de/d08/classTabGame.html#abf37824b565a5faaad9d244576bc7a4a":[3,1,0,360,108],
@@ -244,10 +249,5 @@ var NAVTREEINDEX41 =
 "de/d36/classEdhrecAverageDeckApiResponse.html#adb1824b3931e39ce91cf54025e0a0504":[2,3,2,3,0,0,12,9],
 "de/d36/classEdhrecAverageDeckApiResponse.html#adb1824b3931e39ce91cf54025e0a0504":[2,3,2,2,2,0,12,9],
 "de/d36/classEdhrecAverageDeckApiResponse.html#ae6152e7153f2901eef3536ac494ba806":[2,5,1,0,0,12,3],
-"de/d36/classEdhrecAverageDeckApiResponse.html#ae6152e7153f2901eef3536ac494ba806":[2,3,2,2,2,0,12,3],
-"de/d36/classEdhrecAverageDeckApiResponse.html#ae6152e7153f2901eef3536ac494ba806":[2,3,2,3,0,0,12,3],
-"de/d36/classEdhrecAverageDeckApiResponse.html#af1370e9b5fcb79446be4573c7e38de56":[2,3,2,3,0,0,12,8],
-"de/d36/classEdhrecAverageDeckApiResponse.html#af1370e9b5fcb79446be4573c7e38de56":[2,3,2,2,2,0,12,8],
-"de/d36/classEdhrecAverageDeckApiResponse.html#af1370e9b5fcb79446be4573c7e38de56":[2,5,1,0,0,12,8],
-"de/d36/classEdhrecAverageDeckApiResponse.html#af8ad967714d7db12cc745447e96c0fe0":[2,5,1,0,0,12,7]
+"de/d36/classEdhrecAverageDeckApiResponse.html#ae6152e7153f2901eef3536ac494ba806":[2,3,2,2,2,0,12,3]
 };

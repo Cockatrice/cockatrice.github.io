@@ -1,5 +1,10 @@
 var NAVTREEINDEX42 =
 {
+"de/d36/classEdhrecAverageDeckApiResponse.html#ae6152e7153f2901eef3536ac494ba806":[2,3,2,3,0,0,12,3],
+"de/d36/classEdhrecAverageDeckApiResponse.html#af1370e9b5fcb79446be4573c7e38de56":[2,3,2,3,0,0,12,8],
+"de/d36/classEdhrecAverageDeckApiResponse.html#af1370e9b5fcb79446be4573c7e38de56":[2,3,2,2,2,0,12,8],
+"de/d36/classEdhrecAverageDeckApiResponse.html#af1370e9b5fcb79446be4573c7e38de56":[2,5,1,0,0,12,8],
+"de/d36/classEdhrecAverageDeckApiResponse.html#af8ad967714d7db12cc745447e96c0fe0":[2,5,1,0,0,12,7],
 "de/d36/classEdhrecAverageDeckApiResponse.html#af8ad967714d7db12cc745447e96c0fe0":[2,3,2,3,0,0,12,7],
 "de/d36/classEdhrecAverageDeckApiResponse.html#af8ad967714d7db12cc745447e96c0fe0":[2,3,2,2,2,0,12,7],
 "de/d38/classPlayerEventHandler.html":[3,1,0,262],
@@ -244,10 +249,5 @@ var NAVTREEINDEX42 =
 "de/d8f/classGameEventStorage.html#a6fa7501982b2dd9ed08b743afd2a980c":[3,1,0,185,3],
 "de/d8f/classGameEventStorage.html#a7d461336898a96490f866f429ae57ae0":[3,1,0,185,8],
 "de/d8f/classGameEventStorage.html#a8ef0159b7ae0c6ee6b9e2f16174d54b5":[3,1,0,185,10],
-"de/d8f/classGameEventStorage.html#ab1523dfae2f027b764238ebfab03a478":[3,1,0,185,6],
-"de/d8f/classGameEventStorage.html#ac344c503d5ce355ada03987654d88c1d":[3,1,0,185,7],
-"de/d8f/classGameEventStorage.html#acd9c2f6ebbfa52476072e591d0b19a83":[3,1,0,185,2],
-"de/d8f/classGameEventStorage.html#aee4f53934131dd479484c097b022498c":[3,1,0,185,14],
-"de/d8f/classGameEventStorage.html#aeff05d88bacfa3d8c000c4757120a644":[3,1,0,185,1],
-"de/d8f/classGameEventStorage.html#afd995b4b0ab8bc287ef808ab5c9fc8f5":[3,1,0,185,0]
+"de/d8f/classGameEventStorage.html#ab1523dfae2f027b764238ebfab03a478":[3,1,0,185,6]
 };

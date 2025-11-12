@@ -1,5 +1,10 @@
 var NAVTREEINDEX49 =
 {
+"functions_vars_r.html":[3,1,3,2,18],
+"functions_vars_s.html":[3,1,3,2,19],
+"functions_vars_t.html":[3,1,3,2,20],
+"functions_vars_u.html":[3,1,3,2,21],
+"functions_vars_v.html":[3,1,3,2,22],
 "functions_vars_w.html":[3,1,3,2,23],
 "functions_vars_x.html":[3,1,3,2,24],
 "functions_vars_y.html":[3,1,3,2,25],

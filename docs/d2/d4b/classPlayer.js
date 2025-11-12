@@ -46,7 +46,7 @@ var classPlayer =
     [ "incrementAllCardCounters", "d2/d4b/classPlayer.html#a22118fdb73dc2201939a7475995dd2c5", null ],
     [ "initializeZones", "d2/d4b/classPlayer.html#ad454d65992737fcdcb30119c9bbd8f76", null ],
     [ "newCardAdded", "d2/d4b/classPlayer.html#acf6b51ff8f307bd8e7ff78557fd88d7a", null ],
-    [ "openDeckEditor", "d2/d4b/classPlayer.html#a547f548efa8a469498ea310fcbe9fd1f", null ],
+    [ "openDeckEditor", "d2/d4b/classPlayer.html#ad5a77b510adc6ca468c566b4323dfb3e", null ],
     [ "processCardAttachment", "d2/d4b/classPlayer.html#abc9f2bfac2e7d08b507c86b51d15d4e9", null ],
     [ "processPlayerInfo", "d2/d4b/classPlayer.html#a27234df3016f86792f8bbbfb87568184", null ],
     [ "rearrangeCounters", "d2/d4b/classPlayer.html#a2491702638a41e5c5303d30d47c7a294", null ],

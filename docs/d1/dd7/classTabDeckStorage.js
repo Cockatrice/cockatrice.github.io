@@ -23,7 +23,7 @@ var classTabDeckStorage =
     [ "handleConnected", "d1/dd7/classTabDeckStorage.html#af94ed930a883ba1d2dbf9328c0bb92ff", null ],
     [ "handleConnectionChanged", "d1/dd7/classTabDeckStorage.html#a301bbc14daffde024075fdfebf8a1965", null ],
     [ "newFolderFinished", "d1/dd7/classTabDeckStorage.html#a950af308ba562fb3556e0efe435ffe07", null ],
-    [ "openDeckEditor", "d1/dd7/classTabDeckStorage.html#a848f6c25879a5e4ecc5a785cf9c9835e", null ],
+    [ "openDeckEditor", "d1/dd7/classTabDeckStorage.html#ad3a2c960f65dbdc92c78762c68d727bf", null ],
     [ "openRemoteDeckFinished", "d1/dd7/classTabDeckStorage.html#a2bffe2e029e56d92bae05ba2a0bb5495", null ],
     [ "retranslateUi", "d1/dd7/classTabDeckStorage.html#a16753251d52c3b5d840ecb2ff8b55b12", null ],
     [ "setRemoteEnabled", "d1/dd7/classTabDeckStorage.html#aac6e71347237e1eb6e923f5bd107b715", null ],

@@ -14,6 +14,7 @@ var classDeckEditorDeckDockWidget =
     [ "decklistCustomMenu", "d9/df7/classDeckEditorDeckDockWidget.html#a36b1873cf0cfc6c8a529326e8295ddfc", null ],
     [ "deckModified", "d9/df7/classDeckEditorDeckDockWidget.html#af79df80ccd82852845942f1c9c086156", null ],
     [ "getCurrentCard", "d9/df7/classDeckEditorDeckDockWidget.html#a6aa4a4cb1e3ddf3ef63e7172777f60d6", null ],
+    [ "getDeckList", "d9/df7/classDeckEditorDeckDockWidget.html#a917787e16ba657f87050836f82c4f610", null ],
     [ "getDeckLoader", "d9/df7/classDeckEditorDeckDockWidget.html#a70a2005c6b7a34d51b6ef42b9dcd68da", null ],
     [ "getDeckName", "d9/df7/classDeckEditorDeckDockWidget.html#a7812a0cc6aeabed171671a18b7e8d550", null ],
     [ "getGroupByComboBox", "d9/df7/classDeckEditorDeckDockWidget.html#a472cfd6a258ecc22ad3d2ea956992447", null ],

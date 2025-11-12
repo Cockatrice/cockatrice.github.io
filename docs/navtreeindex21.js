@@ -1,5 +1,9 @@
 var NAVTREEINDEX21 =
 {
+"d7/d90/group__CardSets.html":[2,2,1],
+"d7/d92/classVisualDeckStorageQuickSettingsWidget.html":[3,1,0,406],
+"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a0405be1733397834fed6492258ca648a":[3,1,0,406,3],
+"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a07485238a801c0b01ce6a1583ca912f9":[3,1,0,406,24],
 "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a1d2973a65518195efcc4756bbfc3319e":[3,1,0,406,8],
 "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a203e58a49d73e185ac81a174b1bd9f46":[3,1,0,406,20],
 "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a3b33157bf773b818e26ddbfc2a25a38a":[3,1,0,406,19],
@@ -97,10 +101,10 @@ var NAVTREEINDEX21 =
 "d7/d98/deck__list__model_8h.html#afa5188e01888675ddc8cab183f908179a0d9424c89af68a063349cfb2beab55d9":[3,2,0,6,0,0,1,1,0,2],
 "d7/d98/deck__list__model_8h.html#afa5188e01888675ddc8cab183f908179a7b146d6e8c916ea76c4f23cbe9b5e80d":[3,2,0,6,0,0,1,1,0,1],
 "d7/d98/deck__list__model_8h_source.html":[3,2,0,6,0,0,1,1],
-"d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[2,3,2,3,0,0,0,4],
-"d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[2,3,2,2,2,0,0,4],
-"d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[2,1,0,8,4],
 "d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[2,5,1,0,0,0,4],
+"d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[2,1,0,8,4],
+"d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[2,3,2,2,2,0,0,4],
+"d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[2,3,2,3,0,0,0,4],
 "d7/d9a/group__GameGraphicsPlayers.html":[2,4,0,4,0],
 "d7/d9b/flat__card__group__display__widget_8cpp.html":[3,2,0,0,1,4,3,0,1,2],
 "d7/d9f/classDeckEditorCardInfoDockWidget.html":[3,1,0,83],
@@ -245,9 +249,5 @@ var NAVTREEINDEX21 =
 "d7/dd6/classPlayerMenu.html#a81b1d0276dbe8490ddbe7a8a98f87548":[3,1,0,269,13],
 "d7/dd6/classPlayerMenu.html#a93cd301b4861482d0935d7938ad929a7":[3,1,0,269,24],
 "d7/dd6/classPlayerMenu.html#a959d7d816ae9103d931ec8d2902b6b4d":[3,1,0,269,2],
-"d7/dd6/classPlayerMenu.html#aa179e8ad3f740c6fba49ae2ceb3775b1":[3,1,0,269,3],
-"d7/dd6/classPlayerMenu.html#ac0598367f937d065bd9053f855840179":[3,1,0,269,18],
-"d7/dd6/classPlayerMenu.html#ac22ae5d7443ef9a295cc47cf5b970be0":[3,1,0,269,12],
-"d7/dd6/classPlayerMenu.html#ac472e5847bc5102a867bedbab1f5544b":[3,1,0,269,11],
-"d7/dd6/classPlayerMenu.html#accfdb6bdbc2bbd5e97a950b2e03383dd":[3,1,0,269,22]
+"d7/dd6/classPlayerMenu.html#aa179e8ad3f740c6fba49ae2ceb3775b1":[3,1,0,269,3]
 };

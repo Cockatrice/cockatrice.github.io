@@ -38,7 +38,7 @@ var searchData=
   ['loadcoloradjustedpixmap_35',['loadcoloradjustedpixmap',['../de/db8/pixel__map__generator_8cpp.html#a5dd6facc9a6720bb61cd12e83886c294',1,'loadColorAdjustedPixmap(const QString &amp;name):&#160;pixel_map_generator.cpp'],['../da/d73/pixel__map__generator_8h.html#a5dd6facc9a6720bb61cd12e83886c294',1,'loadColorAdjustedPixmap(const QString &amp;name):&#160;pixel_map_generator.cpp']]],
   ['loadcurrentpage_36',['loadCurrentPage',['../d2/d32/classVisualDatabaseDisplayWidget.html#a68cbb03374d3668a507adea2dc871283',1,'VisualDatabaseDisplayWidget']]],
   ['loaddeckforlocalplayer_37',['loadDeckForLocalPlayer',['../de/d08/classTabGame.html#a957be1dfca5f7e151215d00b24694f5a',1,'TabGame']]],
-  ['loaddeckfromdeckloader_38',['loadDeckFromDeckLoader',['../df/ddd/classDeckViewContainer.html#a919227813382c9373c4cb257f98ece0f',1,'DeckViewContainer']]],
+  ['loaddeckfromdeckloader_38',['loadDeckFromDeckLoader',['../df/ddd/classDeckViewContainer.html#a67f0c46630404efd2c1288cb37db95d4',1,'DeckViewContainer']]],
   ['loaddeckfromfile_39',['loadDeckFromFile',['../df/ddd/classDeckViewContainer.html#ad48cc6f72f964f75c272bf41034edf27',1,'DeckViewContainer']]],
   ['loadextrabrush_40',['loadExtraBrush',['../da/d5a/classThemeManager.html#a7c1de1f5a5a91e22b2ef5e19be0a592f',1,'ThemeManager']]],
   ['loadfilter_41',['loadfilter',['../d9/ddf/classFilterDisplayWidget.html#a2c97e4e7018142ad8243041b14e0c8ee',1,'FilterDisplayWidget::loadFilter()'],['../d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#ae3e9f737ad9075bd9cc5b899ad662ff1',1,'VisualDatabaseDisplayFilterSaveLoadWidget::loadFilter()']]],

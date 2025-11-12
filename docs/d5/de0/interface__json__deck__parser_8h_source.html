@@ -133,13 +133,13 @@ $(document).ready(function(){initNavTree('d5/de0/interface__json__deck__parser_8
 <div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../d3/def/classArchidektJsonParser.html#a668e1b2fb7c5066292f48f44874f2307">   25</a></span>    DeckLoader *<a class="code hl_function" href="../../d3/def/classArchidektJsonParser.html#a668e1b2fb7c5066292f48f44874f2307">parse</a>(<span class="keyword">const</span> QJsonObject &amp;obj)<span class="keyword"> override</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        DeckLoader *list = <span class="keyword">new</span> DeckLoader();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        DeckLoader *loader = <span class="keyword">new</span> DeckLoader(<span class="keyword">nullptr</span>);</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        QString deckName = obj.value(<span class="stringliteral">&quot;name&quot;</span>).toString();</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        QString deckDescription = obj.value(<span class="stringliteral">&quot;description&quot;</span>).toString();</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        list-&gt;setName(deckName);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        list-&gt;setComments(deckDescription);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        loader-&gt;getDeckList()-&gt;setName(deckName);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        loader-&gt;getDeckList()-&gt;setComments(deckDescription);</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        QString outputText;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        QTextStream outStream(&amp;outputText);</div>
@@ -156,10 +156,10 @@ $(document).ready(function(){initNavTree('d5/de0/interface__json__deck__parser_8
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>            outStream &lt;&lt; quantity &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; cardName &lt;&lt; <span class="stringliteral">&quot; (&quot;</span> &lt;&lt; setName &lt;&lt; <span class="stringliteral">&quot;) &quot;</span> &lt;&lt; collectorNumber &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        }</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        list-&gt;loadFromStream_Plain(outStream, <span class="keyword">false</span>);</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        list-&gt;resolveSetNameAndNumberToProviderID();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        loader-&gt;getDeckList()-&gt;loadFromStream_Plain(outStream, <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        loader-&gt;resolveSetNameAndNumberToProviderID();</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordflow">return</span> list;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        <span class="keywordflow">return</span> loader;</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    }</div>
 </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>};</div>
@@ -172,13 +172,13 @@ $(document).ready(function(){initNavTree('d5/de0/interface__json__deck__parser_8
 <div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../dd/d95/classMoxfieldJsonParser.html#a248a97f4734a583e333485db38a3188b">   60</a></span>    DeckLoader *<a class="code hl_function" href="../../dd/d95/classMoxfieldJsonParser.html#a248a97f4734a583e333485db38a3188b">parse</a>(<span class="keyword">const</span> QJsonObject &amp;obj)<span class="keyword"> override</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        DeckLoader *list = <span class="keyword">new</span> DeckLoader();</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        DeckLoader *loader = <span class="keyword">new</span> DeckLoader(<span class="keyword">nullptr</span>);</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        QString deckName = obj.value(<span class="stringliteral">&quot;name&quot;</span>).toString();</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        QString deckDescription = obj.value(<span class="stringliteral">&quot;description&quot;</span>).toString();</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        list-&gt;setName(deckName);</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        list-&gt;setComments(deckDescription);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        loader-&gt;getDeckList()-&gt;setName(deckName);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        loader-&gt;getDeckList()-&gt;setComments(deckDescription);</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        QString outputText;</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        QTextStream outStream(&amp;outputText);</div>
@@ -207,8 +207,8 @@ $(document).ready(function(){initNavTree('d5/de0/interface__json__deck__parser_8
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>            outStream &lt;&lt; quantity &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; cardName &lt;&lt; <span class="stringliteral">&quot; (&quot;</span> &lt;&lt; setName &lt;&lt; <span class="stringliteral">&quot;) &quot;</span> &lt;&lt; collectorNumber &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        }</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        list-&gt;loadFromStream_Plain(outStream, <span class="keyword">false</span>);</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        list-&gt;resolveSetNameAndNumberToProviderID();</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        loader-&gt;getDeckList()-&gt;loadFromStream_Plain(outStream, <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        loader-&gt;resolveSetNameAndNumberToProviderID();</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        QJsonObject commandersObj = obj.value(<span class="stringliteral">&quot;commanders&quot;</span>).toObject();</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        <span class="keywordflow">if</span> (!commandersObj.isEmpty()) {</div>
@@ -219,12 +219,12 @@ $(document).ready(function(){initNavTree('d5/de0/interface__json__deck__parser_8
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>                QString collectorNumber = cardData.value(<span class="stringliteral">&quot;cn&quot;</span>).toString();</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>                QString providerId = cardData.value(<span class="stringliteral">&quot;scryfall_id&quot;</span>).toString();</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>                list-&gt;setBannerCard({commanderName, providerId});</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>                list-&gt;addCard(commanderName, <a class="code hl_define" href="../../d9/d65/inner__deck__list__node_8h.html#a46222da992900a0aff2407fad74a4e38">DECK_ZONE_MAIN</a>, -1, setName, collectorNumber, providerId);</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>                loader-&gt;getDeckList()-&gt;setBannerCard({commanderName, providerId});</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>                loader-&gt;getDeckList()-&gt;addCard(commanderName, <a class="code hl_define" href="../../d9/d65/inner__deck__list__node_8h.html#a46222da992900a0aff2407fad74a4e38">DECK_ZONE_MAIN</a>, -1, setName, collectorNumber, providerId);</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>            }</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        }</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        <span class="keywordflow">return</span> list;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        <span class="keywordflow">return</span> loader;</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    }</div>
 </div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>};</div>

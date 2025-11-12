@@ -1,5 +1,9 @@
 var NAVTREEINDEX19 =
 {
+"d6/d8d/classEdhrecTopTagsApiResponse.html#a5d1c748122d3ad61bd8545ad593cdb1c":[3,1,0,165,0],
+"d6/d8d/classEdhrecTopTagsApiResponse.html#a87373e375bbe66d4876e22a01cdea9ff":[3,1,0,165,1],
+"d6/d8d/classEdhrecTopTagsApiResponse.html#a98d10f4f512269ebbc9e1a2c4c0b2fcb":[3,1,0,165,3],
+"d6/d8d/classEdhrecTopTagsApiResponse.html#aa93dbf1f9ee3ac7eae09fda8ed47d8ef":[3,1,0,165,2],
 "d6/d8e/classShortcutKey.html":[3,1,0,336],
 "d6/d8e/classShortcutKey.html#a33b88049b376356898eb0ee03b2803d7":[3,1,0,336,3],
 "d6/d8e/classShortcutKey.html#a68ab8031ecd9614f82bc6ffa91ff681f":[3,1,0,336,1],
@@ -27,8 +31,8 @@ var NAVTREEINDEX19 =
 "d6/d94/translation_8h.html#a9b7cf3307729d837f2a87aa86421b3d1ab4ee0defeab07c67258622150e06f7d4":[3,2,0,0,1,0,4,0,3],
 "d6/d94/translation_8h.html#a9b7cf3307729d837f2a87aa86421b3d1af95da3a486756b271685d2c834b2c1b8":[3,2,0,0,1,0,4,0,4],
 "d6/d94/translation_8h_source.html":[3,2,0,0,1,0,4],
-"d6/d9a/group__DeckEditorCardGroupWidgets.html":[2,3,1,1,2],
 "d6/d9a/group__DeckEditorCardGroupWidgets.html":[2,1,0,4,2],
+"d6/d9a/group__DeckEditorCardGroupWidgets.html":[2,3,1,1,2],
 "d6/d9a/tabbed__deck__view__container_8h.html":[3,2,0,0,1,3,1,5],
 "d6/d9a/tabbed__deck__view__container_8h_source.html":[3,2,0,0,1,3,1,5],
 "d6/da1/classCardPictureLoaderWorker.html":[3,1,0,57],
@@ -131,8 +135,8 @@ var NAVTREEINDEX19 =
 "d6/db3/classPhasePixmapGenerator.html#a25e92735712f415ecf547c652d2c0f92":[3,1,0,252,1],
 "d6/db3/classPhasePixmapGenerator.html#a68d71e0450083453a606f8023ee7cb2d":[3,1,0,252,2],
 "d6/db3/classPhasePixmapGenerator.html#af60b4af1186447f4c6557d2f8de05722":[3,1,0,252,0],
-"d6/db7/visual__database__display__main__type__filter__widget_8h.html":[2,2,4,2,1,2],
 "d6/db7/visual__database__display__main__type__filter__widget_8h.html":[2,1,0,3,1,2],
+"d6/db7/visual__database__display__main__type__filter__widget_8h.html":[2,2,4,2,1,2],
 "d6/dbc/classSayMenu.html":[3,1,0,296],
 "d6/dbc/classSayMenu.html#a46fe6d8d99e50533d2ec4be903e9e400":[3,1,0,296,0],
 "d6/dbc/classSayMenu.html#a5969d8edc1b5c565efc1b57d89c6ba00":[3,1,0,296,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX19 =
 "d6/dd1/classDlgForgotPasswordChallenge.html#ab52148b8ae27c42770e68e47a3e400f8":[3,1,0,123,11],
 "d6/dd1/classDlgForgotPasswordChallenge.html#ac8420c6aa10b95ab7fa17257da9ef3e3":[3,1,0,123,0],
 "d6/dd1/classDlgForgotPasswordChallenge.html#ad16f1c2c199b5799d8ffcae2a87a15f2":[3,1,0,123,9],
-"d6/dd1/classDlgForgotPasswordChallenge.html#adad17c20b0fbcc82f6bee0c4890ae822":[3,1,0,123,8],
-"d6/dd1/classDlgForgotPasswordChallenge.html#aee77b314f1fc9bad302e4fd2b0d3802a":[3,1,0,123,14],
-"d6/dd1/classDlgForgotPasswordChallenge.html#af0cd566aa7cf8c4fff8a56d9450a70ac":[3,1,0,123,4],
-"d6/dd2/card__database__display__model_8cpp.html":[3,2,0,6,0,0,0,3],
-"d6/dd4/view__zone__logic_8h.html":[2,4,1,1,5]
+"d6/dd1/classDlgForgotPasswordChallenge.html#adad17c20b0fbcc82f6bee0c4890ae822":[3,1,0,123,8]
 };

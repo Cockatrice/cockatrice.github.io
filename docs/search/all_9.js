@@ -77,7 +77,7 @@ var searchData=
   ['init_5fis_5fword_5f_74',['init_is_word_',['../d2/de2/classpeg_1_1LiteralString.html#aa88618abfbf5d556c1a30a09c2e07e8b',1,'peg::LiteralString']]],
   ['initalizefeaturelist_75',['initalizeFeatureList',['../d1/dfd/classFeatureSet.html#a99a6d70530dc8ded9b87dae575088974',1,'FeatureSet']]],
   ['initcontextualplayersmenu_76',['initContextualPlayersMenu',['../d8/d6d/classCardMenu.html#afc8d3f98d983fcc397d2586ef03b5c37',1,'CardMenu']]],
-  ['initialize_77',['initialize',['../d2/d32/classVisualDatabaseDisplayWidget.html#a181eb4826a168a751d9c4e0d175cb55f',1,'VisualDatabaseDisplayWidget::initialize()'],['../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba7e4479c03f0c028b91c328543e3bf0ad',1,'ZoneViewZoneLogic::INITIALIZE']]],
+  ['initialize_77',['initialize',['../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba7e4479c03f0c028b91c328543e3bf0ad',1,'ZoneViewZoneLogic::INITIALIZE'],['../d2/d32/classVisualDatabaseDisplayWidget.html#a181eb4826a168a751d9c4e0d175cb55f',1,'VisualDatabaseDisplayWidget::initialize()']]],
   ['initialize_5fdefinition_5fids_78',['initialize_definition_ids',['../d8/d94/classpeg_1_1Definition.html#af16e93e3ea016ffb1b3a2457980710c2',1,'peg::Definition']]],
   ['initializebackgroundfromsource_79',['initializeBackgroundFromSource',['../de/de3/classHomeWidget.html#aa0e9bb35c3b793b0a445e8be0ef9302f',1,'HomeWidget']]],
   ['initializecards_80',['initializeCards',['../d0/db5/classZoneViewZone.html#a8baecf95047c7cf47067899399e44495',1,'ZoneViewZone']]],

@@ -1,5 +1,10 @@
 var NAVTREEINDEX46 =
 {
+"df/d89/classServer__Game.html#aaa94a926691cb3e066e7627645b0c1c0":[3,1,0,311,11],
+"df/d89/classServer__Game.html#ab065e0abf093171fe03d86b0b9031c92":[3,1,0,311,49],
+"df/d89/classServer__Game.html#ab136e90b4b77e245419995d727daceb0":[3,1,0,311,23],
+"df/d89/classServer__Game.html#ab29a10e86bf358a04d0f7a73ad586e1a":[3,1,0,311,21],
+"df/d89/classServer__Game.html#ab706f35eb7bf97af5d06e9cb4f4d2efb":[3,1,0,311,31],
 "df/d89/classServer__Game.html#aba1c3426f031a94d6e699991cdec18a8":[3,1,0,311,7],
 "df/d89/classServer__Game.html#abd1317ead76c93a8878a302b9be563b6":[3,1,0,311,9],
 "df/d89/classServer__Game.html#abd35f75c6609116d81954d3f4d93d2b6":[3,1,0,311,76],
@@ -244,10 +249,5 @@ var NAVTREEINDEX46 =
 "df/dd1/classDeckEditorSettingsPage.html#a18f27500ae71acb7ca3feb304374ed88":[3,1,0,89,15],
 "df/dd1/classDeckEditorSettingsPage.html#a1d28705e33c93acffaf1f821ab2eb47e":[3,1,0,89,26],
 "df/dd1/classDeckEditorSettingsPage.html#a24a26e65f5199f255de75e37e8633118":[3,1,0,89,23],
-"df/dd1/classDeckEditorSettingsPage.html#a255d5f92821a6b0574154c0b3e5995fc":[3,1,0,89,10],
-"df/dd1/classDeckEditorSettingsPage.html#a2993905ccfa0178e8e85929f813ada57":[3,1,0,89,9],
-"df/dd1/classDeckEditorSettingsPage.html#a2eaa3717c921ea553eaa0086d3fb1890":[3,1,0,89,7],
-"df/dd1/classDeckEditorSettingsPage.html#a2fd4ab721b711f452c792a2241fe0f98":[3,1,0,89,22],
-"df/dd1/classDeckEditorSettingsPage.html#a302722a6ff52a91a456d0060505b7444":[3,1,0,89,3],
-"df/dd1/classDeckEditorSettingsPage.html#a355d0e3f04266f41d3376cd7fd2f095b":[3,1,0,89,30]
+"df/dd1/classDeckEditorSettingsPage.html#a255d5f92821a6b0574154c0b3e5995fc":[3,1,0,89,10]
 };

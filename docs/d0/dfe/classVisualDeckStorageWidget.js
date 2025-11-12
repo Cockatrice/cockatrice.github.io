@@ -4,7 +4,7 @@ var classVisualDeckStorageWidget =
     [ "bannerCardsRefreshed", "d0/dfe/classVisualDeckStorageWidget.html#a5727789518c5fbefacfaacfb2cc95386", null ],
     [ "createRootFolderWidget", "d0/dfe/classVisualDeckStorageWidget.html#a8a1037b7af5d2cbf65d39a117eb16104", null ],
     [ "deckLoadRequested", "d0/dfe/classVisualDeckStorageWidget.html#acc2a1f53f1ec8d66308b905abff74e59", null ],
-    [ "openDeckEditor", "d0/dfe/classVisualDeckStorageWidget.html#a89a46f10aaa6f203ffaa152243108d97", null ],
+    [ "openDeckEditor", "d0/dfe/classVisualDeckStorageWidget.html#a3e8968ddb01e5a219d692d41689e3ec7", null ],
     [ "reapplySortAndFilters", "d0/dfe/classVisualDeckStorageWidget.html#a0233ac42f9552cbea121a385e83542a7", null ],
     [ "refreshIfPossible", "d0/dfe/classVisualDeckStorageWidget.html#a2a533d19d245a2f6e5454abc7560482e", null ],
     [ "resizeEvent", "d0/dfe/classVisualDeckStorageWidget.html#a6715dfae065b92b78b5b1a012604ff68", null ],

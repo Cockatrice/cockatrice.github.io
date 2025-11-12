@@ -1,5 +1,10 @@
 var NAVTREEINDEX40 =
 {
+"dd/da1/classCardInfoPictureWithTextOverlayWidget.html#aa5de4fae197605d395ed35a0be5e0322":[3,1,0,47,8],
+"dd/da1/classCardInfoPictureWithTextOverlayWidget.html#ab2fa020e0e3fa0f52e4564faf6f46abc":[3,1,0,47,2],
+"dd/da1/classCardInfoPictureWithTextOverlayWidget.html#ac559146d12c9c056866fece085162dd5":[3,1,0,47,1],
+"dd/da1/classCardInfoPictureWithTextOverlayWidget.html#ada1b7626dc7a5b89a3ee03a94f89a7a5":[3,1,0,47,4],
+"dd/da1/classCardInfoPictureWithTextOverlayWidget.html#adc64acb3267f654c49295d06869174e8":[3,1,0,47,3],
 "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#adf62161d5dd79f62b1c133955011cce1":[3,1,0,47,11],
 "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#af1c7629978b1c3b9d3f3ad4b09968dc1":[3,1,0,47,16],
 "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#afc52440d04fde476ac72a91248a93462":[3,1,0,47,6],
@@ -234,20 +239,15 @@ var NAVTREEINDEX40 =
 "dd/dfd/structpeg_1_1FindLiteralToken.html#ac56e063348141a76252dab823765d70a":[3,0,0,6,24,5],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#acf9f7fbdb447a544522a6def08004b59":[3,0,0,6,24,6],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#acf9f7fbdb447a544522a6def08004b59":[3,1,0,0,23,6],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#ade2b40bfe9504167f6fc8485d3fa9a50":[3,1,0,0,23,1],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#ade2b40bfe9504167f6fc8485d3fa9a50":[3,0,0,6,24,1],
+"dd/dfd/structpeg_1_1FindLiteralToken.html#ade2b40bfe9504167f6fc8485d3fa9a50":[3,1,0,0,23,1],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#ae616f6eb036847ab770377125d712bed":[3,0,0,6,24,3],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#ae616f6eb036847ab770377125d712bed":[3,1,0,0,23,3],
 "dd/dfe/stack__zone_8cpp.html":[3,2,0,0,1,3,5,9],
 "de/d00/group__CardExtraInfoWidgets.html":[2,1,0,2,0],
 "de/d00/group__CardExtraInfoWidgets.html":[2,2,3,0],
 "de/d00/update__downloader_8cpp.html":[3,2,0,0,1,0,0,2,1,4],
-"de/d02/edhrec__api__response__card__prices_8h.html":[2,3,2,3,0,0,2],
 "de/d02/edhrec__api__response__card__prices_8h.html":[2,5,1,0,0,2],
 "de/d02/edhrec__api__response__card__prices_8h.html":[2,3,2,2,2,0,2],
-"de/d04/classDeckPreviewTagDialog.html":[3,1,0,101],
-"de/d04/classDeckPreviewTagDialog.html#a12960b7067a86d6feb4e354bceb35ea7":[3,1,0,101,16],
-"de/d04/classDeckPreviewTagDialog.html#a19335ffbb6ebae3f6b16a4e58207a90d":[3,1,0,101,19],
-"de/d04/classDeckPreviewTagDialog.html#a1a43112ac7ba5968fbe4f5e67511be6b":[3,1,0,101,7],
-"de/d04/classDeckPreviewTagDialog.html#a228c1c0e9d217fb977d0392678cce765":[3,1,0,101,13]
+"de/d02/edhrec__api__response__card__prices_8h.html":[2,3,2,3,0,0,2]
 };

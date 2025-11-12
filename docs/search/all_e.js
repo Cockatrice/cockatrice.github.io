@@ -53,7 +53,7 @@ var searchData=
   ['newmissingfeaturefound_50',['newMissingFeatureFound',['../db/d53/classRemoteClient.html#a3db224a468abc96541e95112bd0b68e0',1,'RemoteClient']]],
   ['newpasswordedit_51',['newpasswordedit',['../d0/ddf/classDlgEditPassword.html#ada6704bbafb4a61b2e8d630b021bdb1c',1,'DlgEditPassword::newPasswordEdit'],['../d3/d9b/classDlgForgotPasswordReset.html#adc75e4bc78fecc3b6f850708eea6dbc9',1,'DlgForgotPasswordReset::newpasswordEdit']]],
   ['newpasswordedit2_52',['newPasswordEdit2',['../d0/ddf/classDlgEditPassword.html#af294dff24a86c7bb60216105b98206d4',1,'DlgEditPassword']]],
-  ['newpasswordlabel_53',['newpasswordlabel',['../d0/ddf/classDlgEditPassword.html#af67f676607b9194216ae2a7979bc2818',1,'DlgEditPassword::newPasswordLabel'],['../d3/d9b/classDlgForgotPasswordReset.html#aad89d02abd820c4249d3a40f4e2ba9be',1,'DlgForgotPasswordReset::newpasswordLabel']]],
+  ['newpasswordlabel_53',['newpasswordlabel',['../d3/d9b/classDlgForgotPasswordReset.html#aad89d02abd820c4249d3a40f4e2ba9be',1,'DlgForgotPasswordReset::newpasswordLabel'],['../d0/ddf/classDlgEditPassword.html#af67f676607b9194216ae2a7979bc2818',1,'DlgEditPassword::newPasswordLabel']]],
   ['newpasswordlabel2_54',['newPasswordLabel2',['../d0/ddf/classDlgEditPassword.html#a2c53226eb9797bef7ab897e42b547e57',1,'DlgEditPassword']]],
   ['newpasswordverifyedit_55',['newpasswordverifyEdit',['../d3/d9b/classDlgForgotPasswordReset.html#a3a509db46b495dc62fc5f1ed9bbe5735',1,'DlgForgotPasswordReset']]],
   ['newpasswordverifylabel_56',['newpasswordverifyLabel',['../d3/d9b/classDlgForgotPasswordReset.html#ae92f49b948ee78ca7a92dd89ff366866',1,'DlgForgotPasswordReset']]],

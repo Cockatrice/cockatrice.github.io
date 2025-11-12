@@ -13,7 +13,7 @@ var classDeckPreviewWidget =
     [ "imageClickedEvent", "d5/d79/classDeckPreviewWidget.html#ad22938e2979daa9a1046fc0ec8558d26", null ],
     [ "imageDoubleClickedEvent", "d5/d79/classDeckPreviewWidget.html#a86a6020732238dda69608b18f36c46a1", null ],
     [ "initializeUi", "d5/d79/classDeckPreviewWidget.html#a77dd7c09b97677aeca9e0296dbe7c2b8", null ],
-    [ "openDeckEditor", "d5/d79/classDeckPreviewWidget.html#acd29c6efa3b31bb242ef147f3396f042", null ],
+    [ "openDeckEditor", "d5/d79/classDeckPreviewWidget.html#ab25b740ade30b7913d6f8d8251851058", null ],
     [ "refreshBannerCardText", "d5/d79/classDeckPreviewWidget.html#a68f4b1fb69618deaa066384447127cdb", null ],
     [ "refreshBannerCardToolTip", "d5/d79/classDeckPreviewWidget.html#a13405ad4f8b620824f4325e38106c754", null ],
     [ "resizeEvent", "d5/d79/classDeckPreviewWidget.html#ad376aafbd2b6a0fe56a93b50690b5363", null ],

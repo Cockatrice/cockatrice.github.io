@@ -310,7 +310,7 @@ var searchData=
   ['roommenu_307',['roomMenu',['../df/d78/classTabRoom.html#a1bffefa61f689163fac691399046614e',1,'TabRoom']]],
   ['roomname_308',['roomName',['../df/d78/classTabRoom.html#a50509f0850382e53013dd09d9f2b178a',1,'TabRoom']]],
   ['rooms_309',['rooms',['../da/dbd/classGamesModel.html#aedfde34eb51fc59ff069b1f4d1372f42',1,'GamesModel::rooms'],['../db/d00/classServer.html#a92d515b40724159402494281a2cabb31',1,'Server::rooms'],['../d0/d23/classServer__ProtocolHandler.html#a6cee1572707f5c78503ae1bbb301d90f',1,'Server_ProtocolHandler::rooms']]],
-  ['roomselector_310',['roomselector',['../dc/d05/classTabServer.html#ae3eb464890020a4e7f969233e283e70a',1,'TabServer::roomSelector'],['../d8/d49/classRoomSelector.html',1,'RoomSelector'],['../d8/d49/classRoomSelector.html#a2f2134cf3950644df2e718f1b9c2aa73',1,'RoomSelector::RoomSelector()']]],
+  ['roomselector_310',['roomselector',['../d8/d49/classRoomSelector.html#a2f2134cf3950644df2e718f1b9c2aa73',1,'RoomSelector::RoomSelector()'],['../d8/d49/classRoomSelector.html',1,'RoomSelector'],['../dc/d05/classTabServer.html#ae3eb464890020a4e7f969233e283e70a',1,'TabServer::roomSelector']]],
   ['roomslock_311',['roomsLock',['../db/d00/classServer.html#a7aa17366477a18015fc71d2bded63304',1,'Server']]],
   ['roomtable_312',['roomTable',['../d9/ded/classTabLog.html#a865ba9e9b2f88f87ea0708a9920a934c',1,'TabLog']]],
   ['roomtabs_313',['roomTabs',['../dd/d81/classTabSupervisor.html#a870881e3dbbd5e1d8fd8ec5b3d0aea35',1,'TabSupervisor']]],
