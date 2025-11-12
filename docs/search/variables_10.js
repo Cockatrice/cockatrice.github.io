@@ -114,7 +114,7 @@ var searchData=
   ['printingselectornavigationbuttonsvisible_111',['printingSelectorNavigationButtonsVisible',['../d5/d88/classSettingsCache.html#aeede5a4cc3b4d121dee185f6f37208cd',1,'SettingsCache']]],
   ['printingselectorsortorder_112',['printingSelectorSortOrder',['../d5/d88/classSettingsCache.html#aba9d3e1e81b5b53d15beee9a35d1521c',1,'SettingsCache']]],
   ['priority_113',['priority',['../d6/d3d/classCardSet.html#a2fd682885ed7d07b0e29ae048eff9e8d',1,'CardSet']]],
-  ['prioritycontroller_114',['priorityController',['../d6/d3d/classCardSet.html#ad0d633a6029db956abec0dba247408ec',1,'CardSet']]],
+  ['prioritycontroller_114',['priorityController',['../d6/d3d/classCardSet.html#ab242d8346f6004ffc3c14055f4f2247b',1,'CardSet']]],
   ['privatechat_115',['privateChat',['../d9/ded/classTabLog.html#a54b17852d8ea7ac089c13b27469494a5',1,'TabLog']]],
   ['privateplayerid_116',['privatePlayerId',['../de/d8f/classGameEventStorage.html#aee4f53934131dd479484c097b022498c',1,'GameEventStorage']]],
   ['privilegelevel_117',['privilegeLevel',['../d1/d15/classServer__Room.html#ad63dad6de4b961ae4e315afdaef0bdeb',1,'Server_Room']]],

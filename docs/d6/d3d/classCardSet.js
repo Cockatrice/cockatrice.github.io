@@ -32,7 +32,7 @@ var classCardSet =
     [ "isknown", "d6/d3d/classCardSet.html#a80339545c8846e0b4366b5552219f6c7", null ],
     [ "longName", "d6/d3d/classCardSet.html#a009ef8096b548ffced131e5d052d0153", null ],
     [ "priority", "d6/d3d/classCardSet.html#a2fd682885ed7d07b0e29ae048eff9e8d", null ],
-    [ "priorityController", "d6/d3d/classCardSet.html#ad0d633a6029db956abec0dba247408ec", null ],
+    [ "priorityController", "d6/d3d/classCardSet.html#ab242d8346f6004ffc3c14055f4f2247b", null ],
     [ "releaseDate", "d6/d3d/classCardSet.html#ad650e7ef28609a661719271c6a6461bf", null ],
     [ "setType", "d6/d3d/classCardSet.html#af6d75bfb31706014858cba2db0dd6274", null ],
     [ "shortName", "d6/d3d/classCardSet.html#a96acbca5d39940667d0ed3de657fc92c", null ],
