@@ -110,9 +110,12 @@ $(document).ready(function(){initNavTree('d1/d8e/classCardPictureLoaderStatusBar
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../dd/deb/classCardPictureLoaderStatusBar-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">CardPictureLoaderStatusBar Class Reference</div></div>
+  <div class="headertitle"><div class="title">CardPictureLoaderStatusBar Class Reference<div class="ingroups"><a class="el" href="../../d9/d77/group__UI.html">User Interface</a> &#124; <a class="el" href="../../d6/dc2/group__Cards.html">Cards</a> &raquo; <a class="el" href="../../d4/deb/group__PictureLoader.html">Card Picture Loader</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Displays the status of card image downloads in a horizontal progress bar with a log popup.  
+ <a href="../../d1/d8e/classCardPictureLoaderStatusBar.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d7/d79/card__picture__loader__status__bar_8h_source.html">card_picture_loader_status_bar.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -129,29 +132,44 @@ Collaboration diagram for CardPictureLoaderStatusBar:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:a7eb8fc087efeef8f76297fdcdabee46d" id="r_a7eb8fc087efeef8f76297fdcdabee46d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d8e/classCardPictureLoaderStatusBar.html#a7eb8fc087efeef8f76297fdcdabee46d">addQueuedImageLoad</a> (const QUrl &amp;url, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QString &amp;setName)</td></tr>
+<tr class="memdesc:a7eb8fc087efeef8f76297fdcdabee46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a queued image download to the log and increments the progress bar maximum.  <br /></td></tr>
 <tr class="separator:a7eb8fc087efeef8f76297fdcdabee46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a182a288e07ee90458bd2e03c33a17281" id="r_a182a288e07ee90458bd2e03c33a17281"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d8e/classCardPictureLoaderStatusBar.html#a182a288e07ee90458bd2e03c33a17281">addSuccessfulImageLoad</a> (const QUrl &amp;url)</td></tr>
+<tr class="memdesc:a182a288e07ee90458bd2e03c33a17281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks an image as successfully loaded. Updates the progress bar and marks the corresponding log entry as finished.  <br /></td></tr>
 <tr class="separator:a182a288e07ee90458bd2e03c33a17281"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bf15cbd290bb1154061612b0d78104b" id="r_a2bf15cbd290bb1154061612b0d78104b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d8e/classCardPictureLoaderStatusBar.html#a2bf15cbd290bb1154061612b0d78104b">cleanOldEntries</a> ()</td></tr>
+<tr class="memdesc:a2bf15cbd290bb1154061612b0d78104b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleans up old entries from the log that have finished more than 10 seconds ago. Adjusts the progress bar accordingly.  <br /></td></tr>
 <tr class="separator:a2bf15cbd290bb1154061612b0d78104b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af9eeb5e4db5e03462b59516ef076c2c8" id="r_af9eeb5e4db5e03462b59516ef076c2c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d8e/classCardPictureLoaderStatusBar.html#af9eeb5e4db5e03462b59516ef076c2c8">CardPictureLoaderStatusBar</a> (QWidget *parent)</td></tr>
+<tr class="memdesc:af9eeb5e4db5e03462b59516ef076c2c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a status bar with progress bar and log button.  <br /></td></tr>
 <tr class="separator:af9eeb5e4db5e03462b59516ef076c2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a85cd8d9c04fb3152149c9f7d260f4c37" id="r_a85cd8d9c04fb3152149c9f7d260f4c37"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d8e/classCardPictureLoaderStatusBar.html#a85cd8d9c04fb3152149c9f7d260f4c37">layout</a></td></tr>
+<tr class="memdesc:a85cd8d9c04fb3152149c9f7d260f4c37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Horizontal layout containing progress bar and log button.  <br /></td></tr>
 <tr class="separator:a85cd8d9c04fb3152149c9f7d260f4c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2a756511a9098c575cb7ef8bbf434b7" id="r_ad2a756511a9098c575cb7ef8bbf434b7"><td class="memItemLeft" align="right" valign="top">QProgressBar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d8e/classCardPictureLoaderStatusBar.html#ad2a756511a9098c575cb7ef8bbf434b7">progressBar</a></td></tr>
+<tr class="memdesc:ad2a756511a9098c575cb7ef8bbf434b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress bar showing overall download progress.  <br /></td></tr>
 <tr class="separator:ad2a756511a9098c575cb7ef8bbf434b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e2f2b09549caf5c1b4d35a1de3e56ad" id="r_a9e2f2b09549caf5c1b4d35a1de3e56ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d8e/classCardPictureLoaderStatusBar.html#a9e2f2b09549caf5c1b4d35a1de3e56ad">loadLog</a></td></tr>
+<tr class="memdesc:a9e2f2b09549caf5c1b4d35a1de3e56ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Popup log showing individual request statuses.  <br /></td></tr>
 <tr class="separator:a9e2f2b09549caf5c1b4d35a1de3e56ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24af4282e57956eebcd1ae17228784e0" id="r_a24af4282e57956eebcd1ae17228784e0"><td class="memItemLeft" align="right" valign="top">QTimer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d8e/classCardPictureLoaderStatusBar.html#a24af4282e57956eebcd1ae17228784e0">cleaner</a></td></tr>
+<tr class="memdesc:a24af4282e57956eebcd1ae17228784e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer for periodically cleaning old log entries.  <br /></td></tr>
 <tr class="separator:a24af4282e57956eebcd1ae17228784e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Displays the status of card image downloads in a horizontal progress bar with a log popup. </p>
+<p>Responsibilities:</p><ul>
+<li>Shows overall progress of image downloads.</li>
+<li>Maintains a log of individual requests via a popup (<a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a>).</li>
+<li>Cleans up finished request entries automatically after a delay. </li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af9eeb5e4db5e03462b59516ef076c2c8" name="af9eeb5e4db5e03462b59516ef076c2c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9eeb5e4db5e03462b59516ef076c2c8">&#9670;&#160;</a></span>CardPictureLoaderStatusBar()</h2>
 
@@ -175,6 +193,14 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Constructs a status bar with progress bar and log button. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>Parent widget </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -223,6 +249,16 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Adds a queued image download to the log and increments the progress bar maximum. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>URL of the image </td></tr>
+    <tr><td class="paramname">card</td><td>The card being loaded </td></tr>
+    <tr><td class="paramname">setName</td><td>The set name of the card </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -259,6 +295,14 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Marks an image as successfully loaded. Updates the progress bar and marks the corresponding log entry as finished. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>URL of the successfully loaded image </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -289,6 +333,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Cleans up old entries from the log that have finished more than 10 seconds ago. Adjusts the progress bar accordingly. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -323,6 +369,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Timer for periodically cleaning old log entries. </p>
+
 </div>
 </div>
 <a id="a85cd8d9c04fb3152149c9f7d260f4c37" name="a85cd8d9c04fb3152149c9f7d260f4c37"></a>
@@ -344,6 +392,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Horizontal layout containing progress bar and log button. </p>
 
 </div>
 </div>
@@ -367,6 +417,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Popup log showing individual request statuses. </p>
+
 </div>
 </div>
 <a id="ad2a756511a9098c575cb7ef8bbf434b7" name="ad2a756511a9098c575cb7ef8bbf434b7"></a>
@@ -388,6 +440,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Progress bar showing overall download progress. </p>
 
 </div>
 </div>

@@ -10,7 +10,7 @@ var games__model_8cpp =
       [ "PLAYERS", "dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0ac31b7cc9b4d9329929f7990d79e777ad", null ],
       [ "SPECTATORS", "dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0ae98a1123d1e2e72d727164f54f79f581", null ]
     ] ],
-    [ "DEFAULT_MAX_GAME_AGE", "dd/d11/games__model_8cpp.html#a8b28fe3fc7b9d3df5ce1d125fffca870", null ],
+    [ "DEFAULT_MAX_GAME_AGE", "dd/d11/games__model_8cpp.html#ab993fea8affd1e39f78568284f3ca951", null ],
     [ "DEFAULT_MAX_PLAYERS_MAX", "dd/d11/games__model_8cpp.html#ad45fb56c99d34a775841a0f2f2f42ab3", null ],
     [ "DEFAULT_MAX_PLAYERS_MIN", "dd/d11/games__model_8cpp.html#abc7e85e215f9c2ee7fe202a092bd5b41", null ]
 ];

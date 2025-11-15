@@ -114,9 +114,12 @@ $(document).ready(function(){initNavTree('d9/d35/classCardPictureLoaderWorkerWor
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d5/d80/classCardPictureLoaderWorkerWork-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">CardPictureLoaderWorkerWork Class Reference</div></div>
+  <div class="headertitle"><div class="title">CardPictureLoaderWorkerWork Class Reference<div class="ingroups"><a class="el" href="../../d9/d77/group__UI.html">User Interface</a> &#124; <a class="el" href="../../d6/dc2/group__Cards.html">Cards</a> &raquo; <a class="el" href="../../d4/deb/group__PictureLoader.html">Card Picture Loader</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Handles downloading a single card image from network or local sources.  
+ <a href="../../d9/d35/classCardPictureLoaderWorkerWork.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../dd/d56/card__picture__loader__worker__work_8h_source.html">card_picture_loader_worker_work.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -133,57 +136,82 @@ Collaboration diagram for CardPictureLoaderWorkerWork:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:a908ff687bf28ed1b03bca7f29f1eafe2" id="r_a908ff687bf28ed1b03bca7f29f1eafe2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#a908ff687bf28ed1b03bca7f29f1eafe2">handleNetworkReply</a> (QNetworkReply *reply)</td></tr>
+<tr class="memdesc:a908ff687bf28ed1b03bca7f29f1eafe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles a finished network reply for the card image.  <br /></td></tr>
 <tr class="separator:a908ff687bf28ed1b03bca7f29f1eafe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:a242d919dedadb96a767d5554931ef9b6" id="r_a242d919dedadb96a767d5554931ef9b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#a242d919dedadb96a767d5554931ef9b6">imageLoaded</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QImage &amp;image)</td></tr>
+<tr class="memdesc:a242d919dedadb96a767d5554931ef9b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the image has been loaded or all attempts failed.  <br /></td></tr>
 <tr class="separator:a242d919dedadb96a767d5554931ef9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a583f215234b5b58a68c088c6fe418f15" id="r_a583f215234b5b58a68c088c6fe418f15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#a583f215234b5b58a68c088c6fe418f15">requestSucceeded</a> (const QUrl &amp;url)</td></tr>
+<tr class="memdesc:a583f215234b5b58a68c088c6fe418f15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a network request completes successfully.  <br /></td></tr>
 <tr class="separator:a583f215234b5b58a68c088c6fe418f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f43f61df393a775377560ec6cf6327c" id="r_a9f43f61df393a775377560ec6cf6327c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#a9f43f61df393a775377560ec6cf6327c">requestImageDownload</a> (const QUrl &amp;url, <a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html">CardPictureLoaderWorkerWork</a> *instance)</td></tr>
+<tr class="memdesc:a9f43f61df393a775377560ec6cf6327c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request that a URL be downloaded.  <br /></td></tr>
 <tr class="separator:a9f43f61df393a775377560ec6cf6327c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88f83beace09a5548a577934c665703e" id="r_a88f83beace09a5548a577934c665703e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#a88f83beace09a5548a577934c665703e">urlRedirected</a> (const QUrl &amp;originalUrl, const QUrl &amp;redirectUrl)</td></tr>
+<tr class="memdesc:a88f83beace09a5548a577934c665703e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a URL has been redirected.  <br /></td></tr>
 <tr class="separator:a88f83beace09a5548a577934c665703e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0345c852142011960d13bf32129142a8" id="r_a0345c852142011960d13bf32129142a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#a0345c852142011960d13bf32129142a8">cachedUrlInvalidated</a> (const QUrl &amp;url)</td></tr>
+<tr class="memdesc:a0345c852142011960d13bf32129142a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a cached URL is invalid and must be removed.  <br /></td></tr>
 <tr class="separator:a0345c852142011960d13bf32129142a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa6e0123b9f1d6b567cd6f7da703ff59f" id="r_aa6e0123b9f1d6b567cd6f7da703ff59f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#aa6e0123b9f1d6b567cd6f7da703ff59f">CardPictureLoaderWorkerWork</a> (const <a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html">CardPictureLoaderWorker</a> *worker, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;toLoad)</td></tr>
+<tr class="memdesc:aa6e0123b9f1d6b567cd6f7da703ff59f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a worker for downloading a specific card image.  <br /></td></tr>
 <tr class="separator:aa6e0123b9f1d6b567cd6f7da703ff59f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:adf91639e5599dbe8788a395047f3eaf4" id="r_adf91639e5599dbe8788a395047f3eaf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/da3/classCardPictureToLoad.html">CardPictureToLoad</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#adf91639e5599dbe8788a395047f3eaf4">cardToDownload</a></td></tr>
+<tr class="memdesc:adf91639e5599dbe8788a395047f3eaf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The card and associated URLs to try downloading.  <br /></td></tr>
 <tr class="separator:adf91639e5599dbe8788a395047f3eaf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a4c09d28e6f6b041f95adfb803e06e0d1" id="r_a4c09d28e6f6b041f95adfb803e06e0d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#a4c09d28e6f6b041f95adfb803e06e0d1">picDownloadChanged</a> ()</td></tr>
+<tr class="memdesc:a4c09d28e6f6b041f95adfb803e06e0d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the picDownload setting when it changes.  <br /></td></tr>
 <tr class="separator:a4c09d28e6f6b041f95adfb803e06e0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ae01ebf763b31d3a33009fb27b3751c84" id="r_ae01ebf763b31d3a33009fb27b3751c84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#ae01ebf763b31d3a33009fb27b3751c84">startNextPicDownload</a> ()</td></tr>
+<tr class="memdesc:ae01ebf763b31d3a33009fb27b3751c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts downloading the next URL for this card.  <br /></td></tr>
 <tr class="separator:ae01ebf763b31d3a33009fb27b3751c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89efc6349c980007b6e1fb9cd22623f9" id="r_a89efc6349c980007b6e1fb9cd22623f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#a89efc6349c980007b6e1fb9cd22623f9">picDownloadFailed</a> ()</td></tr>
+<tr class="memdesc:a89efc6349c980007b6e1fb9cd22623f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when all URLs have been exhausted or download failed.  <br /></td></tr>
 <tr class="separator:a89efc6349c980007b6e1fb9cd22623f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5662553bdbb2b6faab62ef1bcf800a8" id="r_ad5662553bdbb2b6faab62ef1bcf800a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#ad5662553bdbb2b6faab62ef1bcf800a8">handleFailedReply</a> (const QNetworkReply *reply)</td></tr>
+<tr class="memdesc:ad5662553bdbb2b6faab62ef1bcf800a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes a failed network reply.  <br /></td></tr>
 <tr class="separator:ad5662553bdbb2b6faab62ef1bcf800a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd089911d98f940e58167f9110968f44" id="r_afd089911d98f940e58167f9110968f44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#afd089911d98f940e58167f9110968f44">handleSuccessfulReply</a> (QNetworkReply *reply)</td></tr>
+<tr class="memdesc:afd089911d98f940e58167f9110968f44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes a successful network reply.  <br /></td></tr>
 <tr class="separator:afd089911d98f940e58167f9110968f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29b0c81fad846004a783ec3d09262dfb" id="r_a29b0c81fad846004a783ec3d09262dfb"><td class="memItemLeft" align="right" valign="top">QImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#a29b0c81fad846004a783ec3d09262dfb">tryLoadImageFromReply</a> (QNetworkReply *reply)</td></tr>
+<tr class="memdesc:a29b0c81fad846004a783ec3d09262dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to read an image from a network reply.  <br /></td></tr>
 <tr class="separator:a29b0c81fad846004a783ec3d09262dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a388059b693ffc302e344c1d4d1ef4f79" id="r_a388059b693ffc302e344c1d4d1ef4f79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#a388059b693ffc302e344c1d4d1ef4f79">concludeImageLoad</a> (const QImage &amp;image)</td></tr>
+<tr class="memdesc:a388059b693ffc302e344c1d4d1ef4f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalizes the image loading process.  <br /></td></tr>
 <tr class="separator:a388059b693ffc302e344c1d4d1ef4f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a92c324257ee44241eaab7c7ea82ab638" id="r_a92c324257ee44241eaab7c7ea82ab638"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#a92c324257ee44241eaab7c7ea82ab638">picDownload</a></td></tr>
+<tr class="memdesc:a92c324257ee44241eaab7c7ea82ab638"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether network downloading is enabled.  <br /></td></tr>
 <tr class="separator:a92c324257ee44241eaab7c7ea82ab638"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Handles downloading a single card image from network or local sources. </p>
+<p>Responsibilities:</p><ul>
+<li>Try to load images from all possible URLs and sets for a given <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a>.</li>
+<li>Handle network redirects and cache invalidation.</li>
+<li>Check for blacklisted images and discard them.</li>
+<li>Emit signals when image is successfully loaded or all attempts fail.</li>
+<li>Delete itself after loading completes. </li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa6e0123b9f1d6b567cd6f7da703ff59f" name="aa6e0123b9f1d6b567cd6f7da703ff59f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa6e0123b9f1d6b567cd6f7da703ff59f">&#9670;&#160;</a></span>CardPictureLoaderWorkerWork()</h2>
 
@@ -217,6 +245,15 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Constructs a worker for downloading a specific card image. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">worker</td><td>The orchestrating <a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html" title="Handles asynchronous loading of card images, both locally and via network.">CardPictureLoaderWorker</a> </td></tr>
+    <tr><td class="paramname">toLoad</td><td>The <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> to download </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -249,6 +286,8 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Emitted when a cached URL is invalid and must be removed. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -280,12 +319,15 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Call this method when the image has finished being loaded. </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Finalizes the image loading process. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">image</td><td>The image that was loaded. Empty QImage indicates failure. </td></tr>
+    <tr><td class="paramname">image</td><td>The loaded image (empty if failed)</td></tr>
   </table>
   </dd>
 </dl>
+<p>Emits <a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html#a242d919dedadb96a767d5554931ef9b6" title="Emitted when the image has been loaded or all attempts failed.">imageLoaded()</a> and deletes this object. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -322,6 +364,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Processes a failed network reply. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -358,9 +402,11 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Handles a finished network reply for the card image. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">reply</td><td>The reply. Takes ownership of the object </td></tr>
+    <tr><td class="paramname">reply</td><td>The QNetworkReply object to process. Ownership is transferred. </td></tr>
   </table>
   </dd>
 </dl>
@@ -400,6 +446,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Processes a successful network reply. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -446,7 +494,16 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Emitted when this worker has successfully loaded the image or has exhausted all attempts at loading the image. Failures are represented by an empty QImage. Note that this object will delete itself as this signal is emitted. </p>
+
+<p>Emitted when the image has been loaded or all attempts failed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">card</td><td>The card corresponding to the image </td></tr>
+    <tr><td class="paramname">image</td><td>The loaded image (empty if failed)</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>The worker deletes itself after emitting this signal. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -477,6 +534,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Updates the picDownload setting when it changes. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -512,7 +571,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Starts another pic download using the next possible url combination for the card. If all possibilities are exhausted, then concludes the image loading with an empty QImage. </p>
+
+<p>Called when all URLs have been exhausted or download failed. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -559,6 +619,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Request that a URL be downloaded. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -590,7 +652,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Emitted when a request did not return a 400 or 500 response </p>
+
+<p>Emitted when a network request completes successfully. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -621,6 +684,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Starts downloading the next URL for this card. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -657,13 +722,15 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Attempts to read an image from a network reply. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">reply</td><td>The reply to load the image from </td></tr>
+    <tr><td class="paramname">reply</td><td>The network reply </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The loaded image, or an empty QImage if loading failed </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The loaded QImage or an empty image if reading failed </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -705,6 +772,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Emitted when a URL has been redirected. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -725,6 +794,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The card and associated URLs to try downloading. </p>
 
 </div>
 </div>
@@ -747,6 +818,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Whether network downloading is enabled. </p>
 
 </div>
 </div>

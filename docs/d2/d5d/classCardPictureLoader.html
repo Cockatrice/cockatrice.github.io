@@ -112,9 +112,12 @@ $(document).ready(function(){initNavTree('d2/d5d/classCardPictureLoader.html','.
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d7/d3e/classCardPictureLoader-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">CardPictureLoader Class Reference</div></div>
+  <div class="headertitle"><div class="title">CardPictureLoader Class Reference<div class="ingroups"><a class="el" href="../../d9/d77/group__UI.html">User Interface</a> &#124; <a class="el" href="../../d6/dc2/group__Cards.html">Cards</a> &raquo; <a class="el" href="../../d4/deb/group__PictureLoader.html">Card Picture Loader</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Singleton class to manage card image loading and caching. Provides functionality to asynchronously load, cache, and manage card images for the client.  
+ <a href="../../d2/d5d/classCardPictureLoader.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d9/d7d/card__picture__loader_8h_source.html">card_picture_loader.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -131,34 +134,46 @@ Collaboration diagram for CardPictureLoader:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:afb0dbb05c8f40aca08e70a45238019c3" id="r_afb0dbb05c8f40aca08e70a45238019c3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#afb0dbb05c8f40aca08e70a45238019c3">clearNetworkCache</a> ()</td></tr>
+<tr class="memdesc:afb0dbb05c8f40aca08e70a45238019c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the network disk cache of the worker.  <br /></td></tr>
 <tr class="separator:afb0dbb05c8f40aca08e70a45238019c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac86051978ab7dca15a5630ba1c5ea81b" id="r_ac86051978ab7dca15a5630ba1c5ea81b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#ac86051978ab7dca15a5630ba1c5ea81b">imageLoaded</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QImage &amp;image)</td></tr>
+<tr class="memdesc:ac86051978ab7dca15a5630ba1c5ea81b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot called by the worker when an image is loaded. Inserts the pixmap into the cache and emits pixmap updated signals.  <br /></td></tr>
 <tr class="separator:ac86051978ab7dca15a5630ba1c5ea81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4e23f45fb4ba70fe004184e51636e8d8" id="r_a4e23f45fb4ba70fe004184e51636e8d8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/d5d/classCardPictureLoader.html">CardPictureLoader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a4e23f45fb4ba70fe004184e51636e8d8">getInstance</a> ()</td></tr>
+<tr class="memdesc:a4e23f45fb4ba70fe004184e51636e8d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the singleton instance of <a class="el" href="../../d2/d5d/classCardPictureLoader.html" title="Singleton class to manage card image loading and caching. Provides functionality to asynchronously lo...">CardPictureLoader</a>.  <br /></td></tr>
 <tr class="separator:a4e23f45fb4ba70fe004184e51636e8d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12e978377a488933d2aa641d47e08eef" id="r_a12e978377a488933d2aa641d47e08eef"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a12e978377a488933d2aa641d47e08eef">getPixmap</a> (QPixmap &amp;pixmap, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, QSize size)</td></tr>
+<tr class="memdesc:a12e978377a488933d2aa641d47e08eef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a card pixmap, either from cache or enqueued for loading.  <br /></td></tr>
 <tr class="separator:a12e978377a488933d2aa641d47e08eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc392d72779124c27dd2cc83782b31ae" id="r_acc392d72779124c27dd2cc83782b31ae"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#acc392d72779124c27dd2cc83782b31ae">getCardBackPixmap</a> (QPixmap &amp;pixmap, QSize size)</td></tr>
+<tr class="memdesc:acc392d72779124c27dd2cc83782b31ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a generic card back pixmap.  <br /></td></tr>
 <tr class="separator:acc392d72779124c27dd2cc83782b31ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c83a68e09eb0cadaf6a8c902e3242ad" id="r_a2c83a68e09eb0cadaf6a8c902e3242ad"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a2c83a68e09eb0cadaf6a8c902e3242ad">getCardBackLoadingInProgressPixmap</a> (QPixmap &amp;pixmap, QSize size)</td></tr>
+<tr class="memdesc:a2c83a68e09eb0cadaf6a8c902e3242ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a card back pixmap for the loading-in-progress state.  <br /></td></tr>
 <tr class="separator:a2c83a68e09eb0cadaf6a8c902e3242ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adca8471ef127371a3491fe7a99eca549" id="r_adca8471ef127371a3491fe7a99eca549"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#adca8471ef127371a3491fe7a99eca549">getCardBackLoadingFailedPixmap</a> (QPixmap &amp;pixmap, QSize size)</td></tr>
+<tr class="memdesc:adca8471ef127371a3491fe7a99eca549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a card back pixmap for the loading-failed state.  <br /></td></tr>
 <tr class="separator:adca8471ef127371a3491fe7a99eca549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81bd60c304d9a2e62339fb56d5f7fa0d" id="r_a81bd60c304d9a2e62339fb56d5f7fa0d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a81bd60c304d9a2e62339fb56d5f7fa0d">clearPixmapCache</a> ()</td></tr>
-<tr class="separator:a81bd60c304d9a2e62339fb56d5f7fa0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbe0c9e725e3c98bd9bd86e85a428010" id="r_adbe0c9e725e3c98bd9bd86e85a428010"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#adbe0c9e725e3c98bd9bd86e85a428010">cacheCardPixmaps</a> (const QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; &amp;cards)</td></tr>
+<tr class="memdesc:adbe0c9e725e3c98bd9bd86e85a428010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preload a list of cards into the pixmap cache (limited to CACHED_CARD_PER_DECK_MAX).  <br /></td></tr>
 <tr class="separator:adbe0c9e725e3c98bd9bd86e85a428010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a239420c5b634a759fd184425eea2be7f" id="r_a239420c5b634a759fd184425eea2be7f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a239420c5b634a759fd184425eea2be7f">hasCustomArt</a> ()</td></tr>
+<tr class="memdesc:a239420c5b634a759fd184425eea2be7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the user has custom card art in the picsPath directory.  <br /></td></tr>
 <tr class="separator:a239420c5b634a759fd184425eea2be7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81bd60c304d9a2e62339fb56d5f7fa0d" id="r_a81bd60c304d9a2e62339fb56d5f7fa0d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a81bd60c304d9a2e62339fb56d5f7fa0d">clearPixmapCache</a> ()</td></tr>
+<tr class="memdesc:a81bd60c304d9a2e62339fb56d5f7fa0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the in-memory QPixmap cache for all cards.  <br /></td></tr>
+<tr class="separator:a81bd60c304d9a2e62339fb56d5f7fa0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a687d0f0f13aea4e0d30ae78451d9a995" id="r_a687d0f0f13aea4e0d30ae78451d9a995"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a687d0f0f13aea4e0d30ae78451d9a995">picDownloadChanged</a> ()</td></tr>
+<tr class="memdesc:a687d0f0f13aea4e0d30ae78451d9a995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when the user changes the picture download settings. Clears the QPixmap cache to reload images.  <br /></td></tr>
 <tr class="separator:a687d0f0f13aea4e0d30ae78451d9a995"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39cf9e1707fa389e498b222d41c0eda4" id="r_a39cf9e1707fa389e498b222d41c0eda4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a39cf9e1707fa389e498b222d41c0eda4">picsPathChanged</a> ()</td></tr>
+<tr class="memdesc:a39cf9e1707fa389e498b222d41c0eda4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when the pictures path changes. Clears the QPixmap cache to reload images.  <br /></td></tr>
 <tr class="separator:a39cf9e1707fa389e498b222d41c0eda4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
@@ -167,19 +182,36 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a6396e0d17dd8e6c02d50bed85d31c9cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33ef50147e594ccd6b8611c45e8a82dc" id="r_a33ef50147e594ccd6b8611c45e8a82dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a33ef50147e594ccd6b8611c45e8a82dc">~CardPictureLoader</a> () override</td></tr>
 <tr class="separator:a33ef50147e594ccd6b8611c45e8a82dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bf2b652c3811b495083a85e055a49e9" id="r_a9bf2b652c3811b495083a85e055a49e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a9bf2b652c3811b495083a85e055a49e9">CardPictureLoader</a> (<a class="el" href="../../d2/d5d/classCardPictureLoader.html">CardPictureLoader</a> const &amp;)</td></tr>
-<tr class="separator:a9bf2b652c3811b495083a85e055a49e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ad4eaf3b0287241bfae49ac7f8622f1" id="r_a1ad4eaf3b0287241bfae49ac7f8622f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a1ad4eaf3b0287241bfae49ac7f8622f1">operator=</a> (<a class="el" href="../../d2/d5d/classCardPictureLoader.html">CardPictureLoader</a> const &amp;)</td></tr>
-<tr class="separator:a1ad4eaf3b0287241bfae49ac7f8622f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f99708afe2394309427a60e27c70bf8" id="r_a4f99708afe2394309427a60e27c70bf8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a4f99708afe2394309427a60e27c70bf8">CardPictureLoader</a> (<a class="el" href="../../d2/d5d/classCardPictureLoader.html">CardPictureLoader</a> const &amp;)=delete</td></tr>
+<tr class="separator:a4f99708afe2394309427a60e27c70bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d8882a354ed9bc835020cc73e91cb33" id="r_a3d8882a354ed9bc835020cc73e91cb33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a3d8882a354ed9bc835020cc73e91cb33">operator=</a> (<a class="el" href="../../d2/d5d/classCardPictureLoader.html">CardPictureLoader</a> const &amp;)=delete</td></tr>
+<tr class="separator:a3d8882a354ed9bc835020cc73e91cb33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a410348349fde931141ef5b26607fd579" id="r_a410348349fde931141ef5b26607fd579"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html">CardPictureLoaderWorker</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a410348349fde931141ef5b26607fd579">worker</a></td></tr>
+<tr class="memdesc:a410348349fde931141ef5b26607fd579"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worker thread for async image loading.  <br /></td></tr>
 <tr class="separator:a410348349fde931141ef5b26607fd579"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45b5c2e43f37cc9c599ce5df4169f7fa" id="r_a45b5c2e43f37cc9c599ce5df4169f7fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d8e/classCardPictureLoaderStatusBar.html">CardPictureLoaderStatusBar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5d/classCardPictureLoader.html#a45b5c2e43f37cc9c599ce5df4169f7fa">statusBar</a></td></tr>
+<tr class="memdesc:a45b5c2e43f37cc9c599ce5df4169f7fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Status bar widget showing load progress.  <br /></td></tr>
 <tr class="separator:a45b5c2e43f37cc9c599ce5df4169f7fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Singleton class to manage card image loading and caching. Provides functionality to asynchronously load, cache, and manage card images for the client. </p>
+<p>This class is a singleton and handles:</p><ul>
+<li>Loading card images from disk or network.</li>
+<li>Caching images in QPixmapCache for fast reuse.</li>
+<li>Providing themed card backs, including fallback and in-progress/failed states.</li>
+<li>Emitting updates when pixmaps are loaded.</li>
+</ul>
+<p>It interacts with <a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html" title="Handles asynchronous loading of card images, both locally and via network.">CardPictureLoaderWorker</a> for background loading and <a class="el" href="../../d1/d8e/classCardPictureLoaderStatusBar.html" title="Displays the status of card image downloads in a horizontal progress bar with a log popup.">CardPictureLoaderStatusBar</a> to display loading progress in the main window.</p>
+<p>Provides static accessors for:</p><ul>
+<li>Card images by <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a>.</li>
+<li>Card back images (normal, in-progress, failed).</li>
+<li>Cache management (<a class="el" href="../../d2/d5d/classCardPictureLoader.html#a81bd60c304d9a2e62339fb56d5f7fa0d" title="Clears the in-memory QPixmap cache for all cards.">clearPixmapCache()</a>, <a class="el" href="../../d2/d5d/classCardPictureLoader.html#afb0dbb05c8f40aca08e70a45238019c3" title="Clears the network disk cache of the worker.">clearNetworkCache()</a>, <a class="el" href="../../d2/d5d/classCardPictureLoader.html#adbe0c9e725e3c98bd9bd86e85a428010" title="Preload a list of cards into the pixmap cache (limited to CACHED_CARD_PER_DECK_MAX).">cacheCardPixmaps(const QList&lt;ExactCard&gt; &amp;cards)</a>).</li>
+</ul>
+<p>Uses a worker thread for asynchronous image loading and a status bar widget to track load progress. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6396e0d17dd8e6c02d50bed85d31c9cb" name="a6396e0d17dd8e6c02d50bed85d31c9cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6396e0d17dd8e6c02d50bed85d31c9cb">&#9670;&#160;</a></span>CardPictureLoader() <span class="overload">[1/2]</span></h2>
 
@@ -235,8 +267,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a9bf2b652c3811b495083a85e055a49e9" name="a9bf2b652c3811b495083a85e055a49e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bf2b652c3811b495083a85e055a49e9">&#9670;&#160;</a></span>CardPictureLoader() <span class="overload">[2/2]</span></h2>
+<a id="a4f99708afe2394309427a60e27c70bf8" name="a4f99708afe2394309427a60e27c70bf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f99708afe2394309427a60e27c70bf8">&#9670;&#160;</a></span>CardPictureLoader() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -254,7 +286,7 @@ Here is the call graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -285,6 +317,14 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Preload a list of cards into the pixmap cache (limited to CACHED_CARD_PER_DECK_MAX). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cards</td><td>List of <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> objects to preload. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -320,6 +360,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Clears the network disk cache of the worker. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -355,6 +397,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Clears the in-memory QPixmap cache for all cards. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -396,6 +440,15 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Retrieve a card back pixmap for the loading-failed state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pixmap</td><td>Reference to QPixmap where result will be stored. </td></tr>
+    <tr><td class="paramname">size</td><td>Desired size of pixmap. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -437,6 +490,15 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Retrieve a card back pixmap for the loading-in-progress state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pixmap</td><td>Reference to QPixmap where result will be stored. </td></tr>
+    <tr><td class="paramname">size</td><td>Desired size of pixmap. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -478,6 +540,15 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Retrieve a generic card back pixmap. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pixmap</td><td>Reference to QPixmap where result will be stored. </td></tr>
+    <tr><td class="paramname">size</td><td>Desired size of pixmap. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -508,6 +579,9 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Access the singleton instance of <a class="el" href="../../d2/d5d/classCardPictureLoader.html" title="Singleton class to manage card image loading and caching. Provides functionality to asynchronously lo...">CardPictureLoader</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the singleton. </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -555,6 +629,16 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Retrieve a card pixmap, either from cache or enqueued for loading. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pixmap</td><td>Reference to QPixmap where result will be stored. </td></tr>
+    <tr><td class="paramname">card</td><td><a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> to load. </td></tr>
+    <tr><td class="paramname">size</td><td>Desired size of pixmap. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -590,6 +674,9 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Check if the user has custom card art in the picsPath directory. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if any custom art exists. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -631,6 +718,15 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Slot called by the worker when an image is loaded. Inserts the pixmap into the cache and emits pixmap updated signals. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">card</td><td><a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> that was loaded. </td></tr>
+    <tr><td class="paramname">image</td><td>Loaded QImage. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -644,8 +740,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a1ad4eaf3b0287241bfae49ac7f8622f1" name="a1ad4eaf3b0287241bfae49ac7f8622f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ad4eaf3b0287241bfae49ac7f8622f1">&#9670;&#160;</a></span>operator=()</h2>
+<a id="a3d8882a354ed9bc835020cc73e91cb33" name="a3d8882a354ed9bc835020cc73e91cb33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d8882a354ed9bc835020cc73e91cb33">&#9670;&#160;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -663,7 +759,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -692,6 +788,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Triggered when the user changes the picture download settings. Clears the QPixmap cache to reload images. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -722,6 +820,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Triggered when the pictures path changes. Clears the QPixmap cache to reload images. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -751,6 +851,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Status bar widget showing load progress. </p>
+
 </div>
 </div>
 <a id="a410348349fde931141ef5b26607fd579" name="a410348349fde931141ef5b26607fd579"></a>
@@ -772,6 +874,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Worker thread for async image loading. </p>
 
 </div>
 </div>

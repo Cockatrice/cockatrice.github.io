@@ -4,7 +4,7 @@ var searchData=
   ['face2face_1',['face2face',['../d3/dab/classCardPrices.html#a410c922c56eb16284efa6db6b0b37a24',1,'CardPrices']]],
   ['face2facelabel_2',['face2faceLabel',['../d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a958e3364b8099c950787886519a1c4da',1,'EdhrecApiResponseCardPricesDisplayWidget']]],
   ['face2faceprice_3',['face2facePrice',['../d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a97949ec60b920bc3b2a28b58a0618690',1,'EdhrecApiResponseCardPricesDisplayWidget']]],
-  ['facedown_4',['facedown',['../dc/d07/classServer__Card.html#a12f128e8ba4fe5993d757bbf97b7dff2',1,'Server_Card::facedown'],['../d5/dd3/classCardDragItem.html#aed068eecc24148c467987591ae642e49',1,'CardDragItem::faceDown'],['../dd/d40/structTokenInfo.html#ad152f4caaca28fdcbee45099138e2a15',1,'TokenInfo::faceDown'],['../d4/db9/classAbstractCardItem.html#a8785be49da76f32064b120986226f350',1,'AbstractCardItem::facedown']]],
+  ['facedown_4',['facedown',['../dd/d40/structTokenInfo.html#ad152f4caaca28fdcbee45099138e2a15',1,'TokenInfo::faceDown'],['../d4/db9/classAbstractCardItem.html#a8785be49da76f32064b120986226f350',1,'AbstractCardItem::facedown'],['../dc/d07/classServer__Card.html#a12f128e8ba4fe5993d757bbf97b7dff2',1,'Server_Card::facedown'],['../d5/dd3/classCardDragItem.html#aed068eecc24148c467987591ae642e49',1,'CardDragItem::faceDown']]],
   ['facedowncheckbox_5',['faceDownCheckBox',['../d1/dad/classDlgCreateToken.html#af20db02b6aaf526ab17c464bb2cba1d8',1,'DlgCreateToken']]],
   ['fade_5fmask_6',['FADE_MASK',['../d6/d6f/classTableZone.html#a56ada4dfe0246bd4430c60371acddd59',1,'TableZone']]],
   ['faqlabel_7',['faqLabel',['../d1/de7/classShortcutSettingsPage.html#a6f5369b4e5ec406e133142bc6c3377ac',1,'ShortcutSettingsPage']]],

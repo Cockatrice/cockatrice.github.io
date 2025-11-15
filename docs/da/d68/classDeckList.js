@@ -15,6 +15,7 @@ var classDeckList =
     [ "getBannerCard", "da/d68/classDeckList.html#a8b0a5988bc27b6950c38cc48aae5a66a", null ],
     [ "getCardList", "da/d68/classDeckList.html#a5655f299885c6fd6b67e5719c5448231", null ],
     [ "getCardListHelper", "da/d68/classDeckList.html#a0501d101753c5e6c0fc9ba02cd13add2", null ],
+    [ "getCardNodes", "da/d68/classDeckList.html#a983fff5e7da38d3ae8e7f7e2699e5feb", null ],
     [ "getCardRefList", "da/d68/classDeckList.html#a462daf2ad314b74ede35d14e7cfbe676", null ],
     [ "getCardRefListHelper", "da/d68/classDeckList.html#a8fbd5c590e07007cff34d4b70d0f605c", null ],
     [ "getCardZoneFromName", "da/d68/classDeckList.html#af6a50d8c76d0d60c5b6c8bdd1680c95e", null ],

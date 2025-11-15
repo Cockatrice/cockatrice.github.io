@@ -1,14 +1,12 @@
 var group__Cards =
 [
     [ "Card Picture Loader", "d4/deb/group__PictureLoader.html", "d4/deb/group__PictureLoader" ],
-    [ "Card Sets", "d7/d90/group__CardSets.html", null ],
-    [ "Card Printings", "dd/df8/group__CardPrintings.html", null ],
+    [ "Card Sets", "d7/d90/group__CardSets.html", "d7/d90/group__CardSets" ],
+    [ "Card Printings", "dd/df8/group__CardPrintings.html", "dd/df8/group__CardPrintings" ],
     [ "Card Widgets", "d4/d4d/group__CardWidgets.html", "d4/d4d/group__CardWidgets" ],
     [ "Card Database", "d1/d96/group__CardDatabase.html", "d1/d96/group__CardDatabase" ],
-    [ "card_info.h", "df/df3/card__info_8h.html", null ],
     [ "card_info_comparator.h", "d1/d20/card__info__comparator_8h.html", null ],
     [ "game_specific_terms.h", "d9/def/game__specific__terms_8h.html", null ],
-    [ "card_set_comparator.h", "d9/df1/card__set__comparator_8h.html", null ],
     [ "CardInfo", "dd/dd2/classCardInfo.html", [
       [ "CardInfo", "dd/dd2/classCardInfo.html#a1f3dd6ebe120fa082b5fc7a3f3597e8e", null ],
       [ "CardInfo", "dd/dd2/classCardInfo.html#abcacd12853a9efe45a9dcc39493f7123", null ],
@@ -72,33 +70,6 @@ var group__Cards =
       [ "text", "dd/dd2/classCardInfo.html#af783715e86ee525bb25eea6a429d7bbf", null ],
       [ "upsideDownArt", "dd/dd2/classCardInfo.html#a5ea09a68d22197b2f6418c37562aa5e8", null ]
     ] ],
-    [ "ExactCard", "df/d4e/classExactCard.html", [
-      [ "ExactCard", "df/d4e/classExactCard.html#af46a7ac0b8bf0e9a49727bfdb617730b", null ],
-      [ "ExactCard", "df/d4e/classExactCard.html#a1283cb6a841b0da2335ae430cbd22aba", null ],
-      [ "emitPixmapUpdated", "df/d4e/classExactCard.html#adea1e8252a95ccfbd7554fecdb040a24", null ],
-      [ "getCardPtr", "df/d4e/classExactCard.html#a3f86411b4e295afbb68e3fde952d69f9", null ],
-      [ "getInfo", "df/d4e/classExactCard.html#a1eff501b66e24df71dc94193122e08f0", null ],
-      [ "getName", "df/d4e/classExactCard.html#a46260730a07104ed743aca230e2e5e8f", null ],
-      [ "getPixmapCacheKey", "df/d4e/classExactCard.html#a1ed6121dc01e43a0d7004ef568e07a42", null ],
-      [ "getPrinting", "df/d4e/classExactCard.html#af1114a393f7e751f0086952b90f82f1b", null ],
-      [ "isEmpty", "df/d4e/classExactCard.html#afcc79d97461c45bb10dbceab00f5d57a", null ],
-      [ "operator bool", "df/d4e/classExactCard.html#a8b80b2781de82fddb12f9456df0bbf27", null ],
-      [ "operator==", "df/d4e/classExactCard.html#a184afb95828482d71ebf2f7db53b2eb5", null ],
-      [ "card", "df/d4e/classExactCard.html#af339c5cc5d894e51d6d078f10355f1ec", null ],
-      [ "printing", "df/d4e/classExactCard.html#a716bba80438929c3a0c43f82deb5c7b1", null ]
-    ] ],
-    [ "PrintingInfo", "d6/d90/classPrintingInfo.html", [
-      [ "PrintingInfo", "d6/d90/classPrintingInfo.html#aabe848499ae84e18257326b0445696e3", null ],
-      [ "~PrintingInfo", "d6/d90/classPrintingInfo.html#af19aa23535fdee84a0400cfc252d0ec7", null ],
-      [ "getProperties", "d6/d90/classPrintingInfo.html#aecff5ef49d1a30f74b276b3f63a4bc46", null ],
-      [ "getProperty", "d6/d90/classPrintingInfo.html#a8620106e5ac0dd63baa9ccc435b970c4", null ],
-      [ "getSet", "d6/d90/classPrintingInfo.html#a30a4ecdbbc401885cd8c28845991e20f", null ],
-      [ "getUuid", "d6/d90/classPrintingInfo.html#adadad57308ef600c0b9f80591c244591", null ],
-      [ "operator==", "d6/d90/classPrintingInfo.html#a522caa424ad5372decec64efdc9b2206", null ],
-      [ "setProperty", "d6/d90/classPrintingInfo.html#a9be9b5577d7b4075a9797858958e7aef", null ],
-      [ "properties", "d6/d90/classPrintingInfo.html#afdb18682bf21f64d559e9cd48a04e62e", null ],
-      [ "set", "d6/d90/classPrintingInfo.html#af33d15f1c3318397b081f5b6dcbffd88", null ]
-    ] ],
     [ "CardRelation", "db/ded/classCardRelation.html", [
       [ "CardRelation", "db/ded/classCardRelation.html#ad28d1d9132d72faa44f3c516e2ab4ab3", null ],
       [ "getAttachType", "db/ded/classCardRelation.html#ad1b762e395d78b8e60dd9ea426ce818f", null ],
@@ -117,59 +88,5 @@ var group__Cards =
       [ "isPersistent", "db/ded/classCardRelation.html#aeb74921efb0c50c39ea7b4afaca74ba9", null ],
       [ "isVariableCount", "db/ded/classCardRelation.html#aaf5badf6ab391d11e4d39b8ff35e4d5d", null ],
       [ "name", "db/ded/classCardRelation.html#a81dbfb715271b5b0e6dbd5cf40cd9592", null ]
-    ] ],
-    [ "CardSet", "d6/d3d/classCardSet.html", [
-      [ "Priority", "d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13f", [
-        [ "PriorityFallback", "d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa6028c953f8ac0fb77178b25fd915897a", null ],
-        [ "PriorityPrimary", "d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa5130639d8ec84e4b578864a7c6bc2693", null ],
-        [ "PrioritySecondary", "d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fab4eaac9b9e7568cc5b5775dd6a8108eb", null ],
-        [ "PriorityReprint", "d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa7c5bae467c8ee755d632f948860a0e0a", null ],
-        [ "PriorityOther", "d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fae37b3629c6539e06ef68c5d93664027c", null ],
-        [ "PriorityLowest", "d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fadce4ed2df134165537be91ddfbb5bdfa", null ]
-      ] ],
-      [ "CardSet", "d6/d3d/classCardSet.html#ac38426b471a1ebc442f4eaae615a2ed3", null ],
-      [ "getCorrectedShortName", "d6/d3d/classCardSet.html#a0558c54b8fa26b9ee51f46648020cf06", null ],
-      [ "getEnabled", "d6/d3d/classCardSet.html#a718b85e4d1b5386819589b46fcd4bcd7", null ],
-      [ "getIsKnown", "d6/d3d/classCardSet.html#ad0a1f6a387a5e688a42890f5a659718c", null ],
-      [ "getIsKnownIgnored", "d6/d3d/classCardSet.html#ab84e452bacbd5359336bba517f0a0a63", null ],
-      [ "getLongName", "d6/d3d/classCardSet.html#aa800a45a8e8bf4a5c76153736e5be31b", null ],
-      [ "getPriority", "d6/d3d/classCardSet.html#af614fb4d7c80d6c239e0e61c5dc35e4c", null ],
-      [ "getReleaseDate", "d6/d3d/classCardSet.html#ac901a19528453d5fc54e5e78e2581beb", null ],
-      [ "getSetType", "d6/d3d/classCardSet.html#a4a92600400bbdf0e857cbfb430d14bcf", null ],
-      [ "getShortName", "d6/d3d/classCardSet.html#aac669500ec7308b5ca2520d057038e5e", null ],
-      [ "getSortKey", "d6/d3d/classCardSet.html#a7d63cec5e717b0c76b9d016f20606cd9", null ],
-      [ "loadSetOptions", "d6/d3d/classCardSet.html#aac8f4705062d24c60f31b02617a931f4", null ],
-      [ "newInstance", "d6/d3d/classCardSet.html#ad03e76c9ff4ce7669d0454525afd1d16", null ],
-      [ "setEnabled", "d6/d3d/classCardSet.html#a7a8b69b1e7d68bfc8e49ec8259f6185a", null ],
-      [ "setIsKnown", "d6/d3d/classCardSet.html#a45cc252c2f6872a39cb4e3f44f641455", null ],
-      [ "setLongName", "d6/d3d/classCardSet.html#af13b91683a4f20c89c89de6117025d48", null ],
-      [ "setPriority", "d6/d3d/classCardSet.html#adc85323546749367b812203e3cea65f9", null ],
-      [ "setReleaseDate", "d6/d3d/classCardSet.html#a793a70ea197c0889741189391b548142", null ],
-      [ "setSetType", "d6/d3d/classCardSet.html#a8d3a54189a50cfc0ab78afce1762d2ac", null ],
-      [ "setSortKey", "d6/d3d/classCardSet.html#a13ec54ce195fc6e7eea6d4d123fe5248", null ],
-      [ "enabled", "d6/d3d/classCardSet.html#a4d932ab1a745f5cbb470924feb19a465", null ],
-      [ "isknown", "d6/d3d/classCardSet.html#a80339545c8846e0b4366b5552219f6c7", null ],
-      [ "longName", "d6/d3d/classCardSet.html#a009ef8096b548ffced131e5d052d0153", null ],
-      [ "priority", "d6/d3d/classCardSet.html#a2fd682885ed7d07b0e29ae048eff9e8d", null ],
-      [ "priorityController", "d6/d3d/classCardSet.html#ab242d8346f6004ffc3c14055f4f2247b", null ],
-      [ "releaseDate", "d6/d3d/classCardSet.html#ad650e7ef28609a661719271c6a6461bf", null ],
-      [ "setType", "d6/d3d/classCardSet.html#af6d75bfb31706014858cba2db0dd6274", null ],
-      [ "shortName", "d6/d3d/classCardSet.html#a96acbca5d39940667d0ed3de657fc92c", null ],
-      [ "sortKey", "d6/d3d/classCardSet.html#a60cbb86e3569cfaf0529f276b7a61c6a", null ],
-      [ "TOKENS_SETNAME", "d6/d3d/classCardSet.html#a3aaafb20ccb10ff9bddd9f0292d23ddf", null ]
-    ] ],
-    [ "CardSetList", "dd/d65/classCardSetList.html", [
-      [ "KeyCompareFunctor", "da/d79/classCardSetList_1_1KeyCompareFunctor.html", [
-        [ "operator()", "da/d79/classCardSetList_1_1KeyCompareFunctor.html#a1b88f914b866e422dbb105a5e85c4cf3", null ]
-      ] ],
-      [ "defaultSort", "dd/d65/classCardSetList.html#a09f8de40f81a891afb31f120bb1a3756", null ],
-      [ "enableAll", "dd/d65/classCardSetList.html#af806779e88aba0190ddf0853695e344f", null ],
-      [ "enableAllUnknown", "dd/d65/classCardSetList.html#addb824d2ac56c04db1f7ae173c922461", null ],
-      [ "getEnabledSetsNum", "dd/d65/classCardSetList.html#acd27b64e6dbc14a681de77b7efbf71f8", null ],
-      [ "getUnknownSetsNames", "dd/d65/classCardSetList.html#a5639635454f688ecd0d64d19cca375bc", null ],
-      [ "getUnknownSetsNum", "dd/d65/classCardSetList.html#ae8421f26c425de4ed7646faa78f333dd", null ],
-      [ "guessSortKeys", "dd/d65/classCardSetList.html#a2e944caa63a529df481ad3fff4607bd9", null ],
-      [ "markAllAsKnown", "dd/d65/classCardSetList.html#aae296b1d662ebf1e41e78a0d0d8ed2a7", null ],
-      [ "sortByKey", "dd/d65/classCardSetList.html#a63243efba23b24dcc46ecbf1e1f9c955", null ]
     ] ]
 ];

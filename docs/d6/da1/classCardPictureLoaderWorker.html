@@ -114,9 +114,12 @@ $(document).ready(function(){initNavTree('d6/da1/classCardPictureLoaderWorker.ht
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../dc/d4f/classCardPictureLoaderWorker-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">CardPictureLoaderWorker Class Reference</div></div>
+  <div class="headertitle"><div class="title">CardPictureLoaderWorker Class Reference<div class="ingroups"><a class="el" href="../../d9/d77/group__UI.html">User Interface</a> &#124; <a class="el" href="../../d6/dc2/group__Cards.html">Cards</a> &raquo; <a class="el" href="../../d4/deb/group__PictureLoader.html">Card Picture Loader</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Handles asynchronous loading of card images, both locally and via network.  
+ <a href="../../d6/da1/classCardPictureLoaderWorker.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d8/dbe/card__picture__loader__worker_8h_source.html">card_picture_loader_worker.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -133,91 +136,132 @@ Collaboration diagram for CardPictureLoaderWorker:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:aec8d3e81aa486e0071d2da2d970d62c8" id="r_aec8d3e81aa486e0071d2da2d970d62c8"><td class="memItemLeft" align="right" valign="top">QNetworkReply *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#aec8d3e81aa486e0071d2da2d970d62c8">makeRequest</a> (const QUrl &amp;url, <a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html">CardPictureLoaderWorkerWork</a> *workThread)</td></tr>
+<tr class="memdesc:aec8d3e81aa486e0071d2da2d970d62c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a network request for the given URL using the specified worker.  <br /></td></tr>
 <tr class="separator:aec8d3e81aa486e0071d2da2d970d62c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b6fcecbdbd98ece38d7cb1d5bb4a007" id="r_a3b6fcecbdbd98ece38d7cb1d5bb4a007"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a3b6fcecbdbd98ece38d7cb1d5bb4a007">processQueuedRequests</a> ()</td></tr>
+<tr class="memdesc:a3b6fcecbdbd98ece38d7cb1d5bb4a007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes all queued requests respecting the request quota.  <br /></td></tr>
 <tr class="separator:a3b6fcecbdbd98ece38d7cb1d5bb4a007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b5de81b379963a017f2b62acafe7aaf" id="r_a8b5de81b379963a017f2b62acafe7aaf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a8b5de81b379963a017f2b62acafe7aaf">processSingleRequest</a> ()</td></tr>
+<tr class="memdesc:a8b5de81b379963a017f2b62acafe7aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes a single queued request.  <br /></td></tr>
 <tr class="separator:a8b5de81b379963a017f2b62acafe7aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7163450d1f8ae11a1d1081f0d3406ec" id="r_af7163450d1f8ae11a1d1081f0d3406ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#af7163450d1f8ae11a1d1081f0d3406ec">handleImageLoaded</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QImage &amp;image)</td></tr>
+<tr class="memdesc:af7163450d1f8ae11a1d1081f0d3406ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles an image that has finished loading.  <br /></td></tr>
 <tr class="separator:af7163450d1f8ae11a1d1081f0d3406ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac33ec5f1fa6a9cb95a0c5536e4ffc72" id="r_aac33ec5f1fa6a9cb95a0c5536e4ffc72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#aac33ec5f1fa6a9cb95a0c5536e4ffc72">cacheRedirect</a> (const QUrl &amp;originalUrl, const QUrl &amp;redirectUrl)</td></tr>
+<tr class="memdesc:aac33ec5f1fa6a9cb95a0c5536e4ffc72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Caches a redirect mapping between original and redirected URL.  <br /></td></tr>
 <tr class="separator:aac33ec5f1fa6a9cb95a0c5536e4ffc72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a836f750d7f5c9786d56a6e693e895564" id="r_a836f750d7f5c9786d56a6e693e895564"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a836f750d7f5c9786d56a6e693e895564">removedCachedUrl</a> (const QUrl &amp;url)</td></tr>
+<tr class="memdesc:a836f750d7f5c9786d56a6e693e895564"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a URL from the network cache.  <br /></td></tr>
 <tr class="separator:a836f750d7f5c9786d56a6e693e895564"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:a8831b329a60ee2e982faa38db1ec3a80" id="r_a8831b329a60ee2e982faa38db1ec3a80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a8831b329a60ee2e982faa38db1ec3a80">imageLoadEnqueued</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
+<tr class="memdesc:a8831b329a60ee2e982faa38db1ec3a80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when an image load is enqueued.  <br /></td></tr>
 <tr class="separator:a8831b329a60ee2e982faa38db1ec3a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af49a4f23a829c9b8903a916a2af69b85" id="r_af49a4f23a829c9b8903a916a2af69b85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#af49a4f23a829c9b8903a916a2af69b85">imageLoaded</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QImage &amp;image)</td></tr>
+<tr class="memdesc:af49a4f23a829c9b8903a916a2af69b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when an image has finished loading.  <br /></td></tr>
 <tr class="separator:af49a4f23a829c9b8903a916a2af69b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ae8e8e20f4df35e602ac03818b91d4b" id="r_a1ae8e8e20f4df35e602ac03818b91d4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a1ae8e8e20f4df35e602ac03818b91d4b">imageRequestQueued</a> (const QUrl &amp;url, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QString &amp;setName)</td></tr>
+<tr class="memdesc:a1ae8e8e20f4df35e602ac03818b91d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a request is added to the network queue.  <br /></td></tr>
 <tr class="separator:a1ae8e8e20f4df35e602ac03818b91d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2deb47e63ff055ed99d924a665707e6c" id="r_a2deb47e63ff055ed99d924a665707e6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a2deb47e63ff055ed99d924a665707e6c">imageRequestSucceeded</a> (const QUrl &amp;url)</td></tr>
+<tr class="memdesc:a2deb47e63ff055ed99d924a665707e6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a network request successfully completes.  <br /></td></tr>
 <tr class="separator:a2deb47e63ff055ed99d924a665707e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad5b9d2d07030cb4d16464f02011f4c84" id="r_ad5b9d2d07030cb4d16464f02011f4c84"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#ad5b9d2d07030cb4d16464f02011f4c84">CardPictureLoaderWorker</a> ()</td></tr>
+<tr class="memdesc:ad5b9d2d07030cb4d16464f02011f4c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html" title="Handles asynchronous loading of card images, both locally and via network.">CardPictureLoaderWorker</a>.  <br /></td></tr>
 <tr class="separator:ad5b9d2d07030cb4d16464f02011f4c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3aca2d9d1bda15d41aee3622db21dca2" id="r_a3aca2d9d1bda15d41aee3622db21dca2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a3aca2d9d1bda15d41aee3622db21dca2">~CardPictureLoaderWorker</a> () override</td></tr>
 <tr class="separator:a3aca2d9d1bda15d41aee3622db21dca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1005009df1f4f92ffb8f5e4ddfacbca" id="r_ac1005009df1f4f92ffb8f5e4ddfacbca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#ac1005009df1f4f92ffb8f5e4ddfacbca">enqueueImageLoad</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
+<tr class="memdesc:ac1005009df1f4f92ffb8f5e4ddfacbca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enqueues an <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> for loading.  <br /></td></tr>
 <tr class="separator:ac1005009df1f4f92ffb8f5e4ddfacbca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4407caff689d63d893eab3f0cb4e2640" id="r_a4407caff689d63d893eab3f0cb4e2640"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a4407caff689d63d893eab3f0cb4e2640">queueRequest</a> (const QUrl &amp;url, <a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html">CardPictureLoaderWorkerWork</a> *worker)</td></tr>
+<tr class="memdesc:a4407caff689d63d893eab3f0cb4e2640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queues a network request for a given URL and worker thread.  <br /></td></tr>
 <tr class="separator:a4407caff689d63d893eab3f0cb4e2640"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0955b3c5b94dec178c10fe85a96e598c" id="r_a0955b3c5b94dec178c10fe85a96e598c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a0955b3c5b94dec178c10fe85a96e598c">clearNetworkCache</a> ()</td></tr>
+<tr class="memdesc:a0955b3c5b94dec178c10fe85a96e598c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the network cache and redirect cache.  <br /></td></tr>
 <tr class="separator:a0955b3c5b94dec178c10fe85a96e598c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a3a15caab80e2ac40b4577f46273c56d3" id="r_a3a15caab80e2ac40b4577f46273c56d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a3a15caab80e2ac40b4577f46273c56d3">resetRequestQuota</a> ()</td></tr>
+<tr class="memdesc:a3a15caab80e2ac40b4577f46273c56d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the request quota for rate-limiting.  <br /></td></tr>
 <tr class="separator:a3a15caab80e2ac40b4577f46273c56d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab86acfef4f922dd645842baf57c75074" id="r_ab86acfef4f922dd645842baf57c75074"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#ab86acfef4f922dd645842baf57c75074">handleImageLoadEnqueued</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
+<tr class="memdesc:ab86acfef4f922dd645842baf57c75074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles image load requests enqueued on this worker.  <br /></td></tr>
 <tr class="separator:ab86acfef4f922dd645842baf57c75074"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a3fe176133a9bfe277179521c63343d3a" id="r_a3fe176133a9bfe277179521c63343d3a"><td class="memItemLeft" align="right" valign="top">QUrl&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a3fe176133a9bfe277179521c63343d3a">getCachedRedirect</a> (const QUrl &amp;originalUrl) const</td></tr>
+<tr class="memdesc:a3fe176133a9bfe277179521c63343d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cached redirect URL for the given original URL, if available.  <br /></td></tr>
 <tr class="separator:a3fe176133a9bfe277179521c63343d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0b8da937a0c6dd2cf0d3331399452e9" id="r_ae0b8da937a0c6dd2cf0d3331399452e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#ae0b8da937a0c6dd2cf0d3331399452e9">loadRedirectCache</a> ()</td></tr>
+<tr class="memdesc:ae0b8da937a0c6dd2cf0d3331399452e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads redirect cache from disk.  <br /></td></tr>
 <tr class="separator:ae0b8da937a0c6dd2cf0d3331399452e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29f1d609e64d89f29874fc74c28aaaa2" id="r_a29f1d609e64d89f29874fc74c28aaaa2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a29f1d609e64d89f29874fc74c28aaaa2">saveRedirectCache</a> () const</td></tr>
+<tr class="memdesc:a29f1d609e64d89f29874fc74c28aaaa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves redirect cache to disk.  <br /></td></tr>
 <tr class="separator:a29f1d609e64d89f29874fc74c28aaaa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09e388e798e1e7a8207ffaae3c54af5c" id="r_a09e388e798e1e7a8207ffaae3c54af5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a09e388e798e1e7a8207ffaae3c54af5c">cleanStaleEntries</a> ()</td></tr>
+<tr class="memdesc:a09e388e798e1e7a8207ffaae3c54af5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes stale redirect entries older than TTL.  <br /></td></tr>
 <tr class="separator:a09e388e798e1e7a8207ffaae3c54af5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a69e150a3b00313aac37db4ad518659b4" id="r_a69e150a3b00313aac37db4ad518659b4"><td class="memItemLeft" align="right" valign="top">QThread *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a69e150a3b00313aac37db4ad518659b4">pictureLoaderThread</a></td></tr>
+<tr class="memdesc:a69e150a3b00313aac37db4ad518659b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thread for executing worker tasks.  <br /></td></tr>
 <tr class="separator:a69e150a3b00313aac37db4ad518659b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0712c0ea570dd209a5f5d9babbc1540" id="r_ac0712c0ea570dd209a5f5d9babbc1540"><td class="memItemLeft" align="right" valign="top">QNetworkAccessManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#ac0712c0ea570dd209a5f5d9babbc1540">networkManager</a></td></tr>
+<tr class="memdesc:ac0712c0ea570dd209a5f5d9babbc1540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Network manager for HTTP requests.  <br /></td></tr>
 <tr class="separator:ac0712c0ea570dd209a5f5d9babbc1540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08a4d77a3ca33332b2efea67559711b1" id="r_a08a4d77a3ca33332b2efea67559711b1"><td class="memItemLeft" align="right" valign="top">QNetworkDiskCache *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a08a4d77a3ca33332b2efea67559711b1">cache</a></td></tr>
+<tr class="memdesc:a08a4d77a3ca33332b2efea67559711b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disk cache for downloaded images.  <br /></td></tr>
 <tr class="separator:a08a4d77a3ca33332b2efea67559711b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec093171ac94fc250824f669bd0a07d4" id="r_aec093171ac94fc250824f669bd0a07d4"><td class="memItemLeft" align="right" valign="top">QHash&lt; QUrl, QPair&lt; QUrl, QDateTime &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#aec093171ac94fc250824f669bd0a07d4">redirectCache</a></td></tr>
+<tr class="memdesc:aec093171ac94fc250824f669bd0a07d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps original URLs to redirects with timestamp.  <br /></td></tr>
 <tr class="separator:aec093171ac94fc250824f669bd0a07d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33574c0f5495733c3c284b680b1e4b3e" id="r_a33574c0f5495733c3c284b680b1e4b3e"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a33574c0f5495733c3c284b680b1e4b3e">cacheFilePath</a></td></tr>
+<tr class="memdesc:a33574c0f5495733c3c284b680b1e4b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to persistent redirect cache file.  <br /></td></tr>
 <tr class="separator:a33574c0f5495733c3c284b680b1e4b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d4e270dd66d4c513ca29ebdbb73a894" id="r_a7d4e270dd66d4c513ca29ebdbb73a894"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a7d4e270dd66d4c513ca29ebdbb73a894">picDownload</a></td></tr>
+<tr class="memdesc:a7d4e270dd66d4c513ca29ebdbb73a894"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether downloading images from network is enabled.  <br /></td></tr>
 <tr class="separator:a7d4e270dd66d4c513ca29ebdbb73a894"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05b32782258e6adc3fc29556987f5adc" id="r_a05b32782258e6adc3fc29556987f5adc"><td class="memItemLeft" align="right" valign="top">QQueue&lt; QPair&lt; QUrl, <a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html">CardPictureLoaderWorkerWork</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a05b32782258e6adc3fc29556987f5adc">requestLoadQueue</a></td></tr>
+<tr class="memdesc:a05b32782258e6adc3fc29556987f5adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue of pending network requests.  <br /></td></tr>
 <tr class="separator:a05b32782258e6adc3fc29556987f5adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a196a1dcf47c67c79e58959c61266ec48" id="r_a196a1dcf47c67c79e58959c61266ec48"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a196a1dcf47c67c79e58959c61266ec48">requestQuota</a></td></tr>
+<tr class="memdesc:a196a1dcf47c67c79e58959c61266ec48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remaining requests allowed per second.  <br /></td></tr>
 <tr class="separator:a196a1dcf47c67c79e58959c61266ec48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abff858491faddc82f72a3584bb81ae83" id="r_abff858491faddc82f72a3584bb81ae83"><td class="memItemLeft" align="right" valign="top">QTimer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#abff858491faddc82f72a3584bb81ae83">requestTimer</a></td></tr>
+<tr class="memdesc:abff858491faddc82f72a3584bb81ae83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer to reset the request quota.  <br /></td></tr>
 <tr class="separator:abff858491faddc82f72a3584bb81ae83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d72609d0c251a0a3d0dd84784693409" id="r_a3d72609d0c251a0a3d0dd84784693409"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d17/classCardPictureLoaderLocal.html">CardPictureLoaderLocal</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a3d72609d0c251a0a3d0dd84784693409">localLoader</a></td></tr>
+<tr class="memdesc:a3d72609d0c251a0a3d0dd84784693409"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loader for local images.  <br /></td></tr>
 <tr class="separator:a3d72609d0c251a0a3d0dd84784693409"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a358b46899b72a3c7b45ece3ca5848d9d" id="r_a358b46899b72a3c7b45ece3ca5848d9d"><td class="memItemLeft" align="right" valign="top">QSet&lt; QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a358b46899b72a3c7b45ece3ca5848d9d">currentlyLoading</a></td></tr>
+<tr class="memdesc:a358b46899b72a3c7b45ece3ca5848d9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deduplication: contains pixmapCacheKey currently being loaded.  <br /></td></tr>
 <tr class="separator:a358b46899b72a3c7b45ece3ca5848d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a868fa60416eaeb8c0b551e3c624094c1" id="r_a868fa60416eaeb8c0b551e3c624094c1"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html#a868fa60416eaeb8c0b551e3c624094c1">CacheTTLInDays</a> = 30</td></tr>
+<tr class="memdesc:a868fa60416eaeb8c0b551e3c624094c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time-to-live for redirect cache entries (days)  <br /></td></tr>
 <tr class="separator:a868fa60416eaeb8c0b551e3c624094c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Handles asynchronous loading of card images, both locally and via network. </p>
+<p>Responsibilities:</p><ul>
+<li>Maintain a queue of network image requests with rate-limiting.</li>
+<li>Load images from local cache first via <a class="el" href="../../dd/d17/classCardPictureLoaderLocal.html" title="Handles searching for and loading card images from local and custom image folders.">CardPictureLoaderLocal</a>.</li>
+<li>Handle network redirects and persistent caching of redirects.</li>
+<li>Deduplicate simultaneous requests for the same card.</li>
+<li>Emit signals for status updates and loaded images. </li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad5b9d2d07030cb4d16464f02011f4c84" name="ad5b9d2d07030cb4d16464f02011f4c84"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad5b9d2d07030cb4d16464f02011f4c84">&#9670;&#160;</a></span>CardPictureLoaderWorker()</h2>
 
@@ -240,6 +284,9 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html" title="Handles asynchronous loading of card images, both locally and via network.">CardPictureLoaderWorker</a>. </p>
+<p>Initializes network manager, cache, redirect cache, local loader, and request quota timer. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -312,6 +359,8 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Caches a redirect mapping between original and redirected URL. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -342,6 +391,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Removes stale redirect entries older than TTL. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -369,6 +420,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Clears the network cache and redirect cache. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -392,6 +445,15 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Enqueues an <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> for loading. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">card</td><td><a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> to load</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>This will first try to load the image locally; if that fails, it will enqueue a network request. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -428,6 +490,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns cached redirect URL for the given original URL, if available. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -469,6 +533,15 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Handles an image that has finished loading. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">card</td><td>The <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> that was loaded </td></tr>
+    <tr><td class="paramname">image</td><td>The loaded QImage; empty if loading failed</td></tr>
+  </table>
+  </dd>
+</dl>
 <p>Called when image loading is done. Failures are indicated by an empty QImage. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
@@ -506,6 +579,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Handles image load requests enqueued on this worker. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -552,6 +627,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Emitted when an image has finished loading. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -583,6 +660,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Emitted when an image load is enqueued. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -630,6 +709,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Emitted when a request is added to the network queue. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -661,6 +742,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Emitted when a network request successfully completes. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -691,6 +774,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Loads redirect cache from disk. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -732,6 +817,16 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Makes a network request for the given URL using the specified worker. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>URL to load </td></tr>
+    <tr><td class="paramname">workThread</td><td>Worker handling the request </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The QNetworkReply object representing the request </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -767,7 +862,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Keeps processing requests from the queue until it is empty or until the quota runs out. </p>
+
+<p>Processes all queued requests respecting the request quota. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -803,7 +899,9 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Immediately processes a single queued request. No-ops if the load queue is empty </p><dl class="section return"><dt>Returns</dt><dd>If a request was processed </dd></dl>
+
+<p>Processes a single queued request. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if a request was processed, false if queue is empty. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -842,6 +940,15 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Queues a network request for a given URL and worker thread. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>URL to load </td></tr>
+    <tr><td class="paramname">worker</td><td>Worker handling this request </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -878,6 +985,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Removes a URL from the network cache. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -908,6 +1017,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Resets the request quota for rate-limiting. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -943,6 +1054,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Saves redirect cache to disk. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -972,6 +1085,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Disk cache for downloaded images. </p>
+
 </div>
 </div>
 <a id="a33574c0f5495733c3c284b680b1e4b3e" name="a33574c0f5495733c3c284b680b1e4b3e"></a>
@@ -993,6 +1108,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Path to persistent redirect cache file. </p>
 
 </div>
 </div>
@@ -1016,6 +1133,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Time-to-live for redirect cache entries (days) </p>
+
 </div>
 </div>
 <a id="a358b46899b72a3c7b45ece3ca5848d9d" name="a358b46899b72a3c7b45ece3ca5848d9d"></a>
@@ -1037,6 +1156,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Deduplication: contains pixmapCacheKey currently being loaded. </p>
 
 </div>
 </div>
@@ -1060,6 +1181,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Loader for local images. </p>
+
 </div>
 </div>
 <a id="ac0712c0ea570dd209a5f5d9babbc1540" name="ac0712c0ea570dd209a5f5d9babbc1540"></a>
@@ -1081,6 +1204,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Network manager for HTTP requests. </p>
 
 </div>
 </div>
@@ -1104,6 +1229,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Whether downloading images from network is enabled. </p>
+
 </div>
 </div>
 <a id="a69e150a3b00313aac37db4ad518659b4" name="a69e150a3b00313aac37db4ad518659b4"></a>
@@ -1125,6 +1252,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Thread for executing worker tasks. </p>
 
 </div>
 </div>
@@ -1148,6 +1277,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Maps original URLs to redirects with timestamp. </p>
+
 </div>
 </div>
 <a id="a05b32782258e6adc3fc29556987f5adc" name="a05b32782258e6adc3fc29556987f5adc"></a>
@@ -1169,6 +1300,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Queue of pending network requests. </p>
 
 </div>
 </div>
@@ -1192,6 +1325,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Remaining requests allowed per second. </p>
+
 </div>
 </div>
 <a id="abff858491faddc82f72a3584bb81ae83" name="abff858491faddc82f72a3584bb81ae83"></a>
@@ -1213,6 +1348,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Timer to reset the request quota. </p>
 
 </div>
 </div>

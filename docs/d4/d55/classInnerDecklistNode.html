@@ -229,7 +229,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a container node in the deck list hierarchy (zones and groupings). </p>
 <p>Unlike <a class="el" href="../../d5/d22/classDecklistCardNode.html" title="Concrete node type representing an actual card entry in the deck.">DecklistCardNode</a>, which holds leaf card data, this class manages collections of child nodes, which may themselves be <a class="el" href="../../d4/d55/classInnerDecklistNode.html" title="Represents a container node in the deck list hierarchy (zones and groupings).">InnerDecklistNode</a> or <a class="el" href="../../d5/d22/classDecklistCardNode.html" title="Concrete node type representing an actual card entry in the deck.">DecklistCardNode</a> objects.</p>
-<h3><a class="anchor" id="autotoc_md15"></a>
+<h3><a class="anchor" id="autotoc_md62"></a>
 Role in the hierarchy:</h3>
 <ul>
 <li>Root node (invisible): Holds zones.</li>
@@ -237,12 +237,12 @@ Role in the hierarchy:</h3>
 <li>Grouping nodes: Created dynamically when grouping by type, color, or mana cost.</li>
 <li>Card nodes: Always children of an <a class="el" href="../../d4/d55/classInnerDecklistNode.html" title="Represents a container node in the deck list hierarchy (zones and groupings).">InnerDecklistNode</a>.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md16"></a>
+<h3><a class="anchor" id="autotoc_md63"></a>
 Design notes:</h3>
 <ul>
 <li>Inherits from <a class="el" href="../../dc/dd8/classAbstractDecklistNode.html" title="Base class for all nodes in the deck list tree.">AbstractDecklistNode</a> (tree interface) and QList&lt;AbstractDecklistNode*&gt; (storage of children). This allows direct QList-style manipulation of children while still presenting a polymorphic node interface.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md17"></a>
+<h3><a class="anchor" id="autotoc_md64"></a>
 Responsibilities:</h3>
 <ul>
 <li>Store a display name.</li>
@@ -251,7 +251,7 @@ Responsibilities:</h3>
 <li>Implement sorting logic for reordering children.</li>
 <li>Implement XML serialization for persistence.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md18"></a>
+<h3><a class="anchor" id="autotoc_md65"></a>
 Ownership:</h3>
 <ul>
 <li>Owns all child nodes stored in the QList. The destructor recursively deletes children. </li>
@@ -725,7 +725,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/d55/classInnerDecklistNode_acf0e0034a5219efab22463d55e617bb1_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/d55/classInnerDecklistNode_acf0e0034a5219efab22463d55e617bb1_icgraph.svg" width="100%" height="484"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -860,11 +860,6 @@ Here is the call graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>true if parsing succeeded. </dd></dl>
 
 <p>Implements <a class="el" href="../../dc/dd8/classAbstractDecklistNode.html#aca429c72525ac78daa53e22cfdb360b4">AbstractDecklistNode</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d55/classInnerDecklistNode_a2bd2961ab32a0813bc3345bed4332844_cgraph.svg" width="403" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

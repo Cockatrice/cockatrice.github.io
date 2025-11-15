@@ -110,9 +110,12 @@ $(document).ready(function(){initNavTree('da/da3/classCardPictureToLoad.html','.
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d2/db6/classCardPictureToLoad-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">CardPictureToLoad Class Reference</div></div>
+  <div class="headertitle"><div class="title">CardPictureToLoad Class Reference<div class="ingroups"><a class="el" href="../../d9/d77/group__UI.html">User Interface</a> &#124; <a class="el" href="../../d6/dc2/group__Cards.html">Cards</a> &raquo; <a class="el" href="../../d4/deb/group__PictureLoader.html">Card Picture Loader</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Manages all URLs and sets for downloading a specific card image.  
+ <a href="../../da/da3/classCardPictureToLoad.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../df/d5b/card__picture__to__load_8h_source.html">card_picture_to_load.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -124,6 +127,7 @@ Collaboration diagram for CardPictureToLoad:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aec3e3eef21d2724300416387ecaf6a2e" id="r_aec3e3eef21d2724300416387ecaf6a2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#aec3e3eef21d2724300416387ecaf6a2e">CardPictureToLoad</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;_card)</td></tr>
+<tr class="memdesc:aec3e3eef21d2724300416387ecaf6a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="../../da/da3/classCardPictureToLoad.html" title="Manages all URLs and sets for downloading a specific card image.">CardPictureToLoad</a> for a given <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a>.  <br /></td></tr>
 <tr class="separator:aec3e3eef21d2724300416387ecaf6a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3235e9720b02a41a256580f2f6fb9552" id="r_a3235e9720b02a41a256580f2f6fb9552"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#a3235e9720b02a41a256580f2f6fb9552">getCard</a> () const</td></tr>
 <tr class="separator:a3235e9720b02a41a256580f2f6fb9552"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,35 +138,54 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac89ab3bb71756517aef8ca1cbedca021" id="r_ac89ab3bb71756517aef8ca1cbedca021"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#ac89ab3bb71756517aef8ca1cbedca021">getSetName</a> () const</td></tr>
 <tr class="separator:ac89ab3bb71756517aef8ca1cbedca021"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08ded2d3e1511a346a7d4d1828de611b" id="r_a08ded2d3e1511a346a7d4d1828de611b"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#a08ded2d3e1511a346a7d4d1828de611b">transformUrl</a> (const QString &amp;urlTemplate) const</td></tr>
+<tr class="memdesc:a08ded2d3e1511a346a7d4d1828de611b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms a URL template into a concrete URL for this card/set.  <br /></td></tr>
 <tr class="separator:a08ded2d3e1511a346a7d4d1828de611b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a66e6cbc4dba7aeb488d2b25f5aedb8" id="r_a9a66e6cbc4dba7aeb488d2b25f5aedb8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#a9a66e6cbc4dba7aeb488d2b25f5aedb8">nextSet</a> ()</td></tr>
+<tr class="memdesc:a9a66e6cbc4dba7aeb488d2b25f5aedb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance to the next set in the list.  <br /></td></tr>
 <tr class="separator:a9a66e6cbc4dba7aeb488d2b25f5aedb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a261da948cd652e2f5207640154c8718e" id="r_a261da948cd652e2f5207640154c8718e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#a261da948cd652e2f5207640154c8718e">nextUrl</a> ()</td></tr>
+<tr class="memdesc:a261da948cd652e2f5207640154c8718e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance to the next URL in the current set's list.  <br /></td></tr>
 <tr class="separator:a261da948cd652e2f5207640154c8718e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33a38486572b8ddf1856a85cf64466c1" id="r_a33a38486572b8ddf1856a85cf64466c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#a33a38486572b8ddf1856a85cf64466c1">populateSetUrls</a> ()</td></tr>
+<tr class="memdesc:a33a38486572b8ddf1856a85cf64466c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populates the currentSetUrls list with URLs for the current set.  <br /></td></tr>
 <tr class="separator:a33a38486572b8ddf1856a85cf64466c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a8c8a7c0421bb7221a38ad1d762195fc5" id="r_a8c8a7c0421bb7221a38ad1d762195fc5"><td class="memItemLeft" align="right" valign="top">static QList&lt; <a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#a8c8a7c0421bb7221a38ad1d762195fc5">extractSetsSorted</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;<a class="el" href="../../da/da3/classCardPictureToLoad.html#a58a92248f21abcd03123c495366f9453">card</a>)</td></tr>
+<tr class="memdesc:a8c8a7c0421bb7221a38ad1d762195fc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract all sets from the card and sort them by priority.  <br /></td></tr>
 <tr class="separator:a8c8a7c0421bb7221a38ad1d762195fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a58a92248f21abcd03123c495366f9453" id="r_a58a92248f21abcd03123c495366f9453"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#a58a92248f21abcd03123c495366f9453">card</a></td></tr>
+<tr class="memdesc:a58a92248f21abcd03123c495366f9453"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> being downloaded.  <br /></td></tr>
 <tr class="separator:a58a92248f21abcd03123c495366f9453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07f2639b21a9be7b3b67e3bc35e998cd" id="r_a07f2639b21a9be7b3b67e3bc35e998cd"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#a07f2639b21a9be7b3b67e3bc35e998cd">sortedSets</a></td></tr>
+<tr class="memdesc:a07f2639b21a9be7b3b67e3bc35e998cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">All sets for this card, sorted by priority.  <br /></td></tr>
 <tr class="separator:a07f2639b21a9be7b3b67e3bc35e998cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab734f0f7d7e5b5e50a5725631b94efc3" id="r_ab734f0f7d7e5b5e50a5725631b94efc3"><td class="memItemLeft" align="right" valign="top">QList&lt; QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#ab734f0f7d7e5b5e50a5725631b94efc3">urlTemplates</a></td></tr>
+<tr class="memdesc:ab734f0f7d7e5b5e50a5725631b94efc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL templates from settings.  <br /></td></tr>
 <tr class="separator:ab734f0f7d7e5b5e50a5725631b94efc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b8c21f48830a6ce8459370e5ef2d025" id="r_a9b8c21f48830a6ce8459370e5ef2d025"><td class="memItemLeft" align="right" valign="top">QList&lt; QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#a9b8c21f48830a6ce8459370e5ef2d025">currentSetUrls</a></td></tr>
+<tr class="memdesc:a9b8c21f48830a6ce8459370e5ef2d025"><td class="mdescLeft">&#160;</td><td class="mdescRight">URLs for the current set being attempted.  <br /></td></tr>
 <tr class="separator:a9b8c21f48830a6ce8459370e5ef2d025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ebf7325de24c7e52820fbd006483e9f" id="r_a5ebf7325de24c7e52820fbd006483e9f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#a5ebf7325de24c7e52820fbd006483e9f">currentUrl</a></td></tr>
+<tr class="memdesc:a5ebf7325de24c7e52820fbd006483e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently active URL to download.  <br /></td></tr>
 <tr class="separator:a5ebf7325de24c7e52820fbd006483e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4a6033b478b9013dd2fa5a1362d2cd2" id="r_af4a6033b478b9013dd2fa5a1362d2cd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/classCardPictureToLoad.html#af4a6033b478b9013dd2fa5a1362d2cd2">currentSet</a></td></tr>
+<tr class="memdesc:af4a6033b478b9013dd2fa5a1362d2cd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently active set.  <br /></td></tr>
 <tr class="separator:af4a6033b478b9013dd2fa5a1362d2cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Manages all URLs and sets for downloading a specific card image. </p>
+<p>Responsibilities:</p><ul>
+<li>Maintains a sorted list of sets for a card.</li>
+<li>Generates URLs to download images from, including custom URLs and URL templates.</li>
+<li>Tracks which URL and set is currently being attempted.</li>
+<li>Provides helper methods to advance to next URL or set. </li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aec3e3eef21d2724300416387ecaf6a2e" name="aec3e3eef21d2724300416387ecaf6a2e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec3e3eef21d2724300416387ecaf6a2e">&#9670;&#160;</a></span>CardPictureToLoad()</h2>
 
@@ -186,6 +209,15 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="../../da/da3/classCardPictureToLoad.html" title="Manages all URLs and sets for downloading a specific card image.">CardPictureToLoad</a> for a given <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_card</td><td>The card to download</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Initializes URL templates and pre-populates the first set URLs. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -218,8 +250,16 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Extracts a list of all the sets from the card, sorted in priority order. If the card does not contain any sets, then a dummy set will be inserted into the list.</p>
-<dl class="section return"><dt>Returns</dt><dd>A list of sets. Will not be empty. </dd></dl>
+
+<p>Extract all sets from the card and sort them by priority. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">card</td><td>The card to extract sets from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A non-empty list of CardSetPtr, sorted by priority</dd></dl>
+<p>If the card has no sets, a dummy set is inserted. Also ensures the printing corresponding to the <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> is first in the list. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -255,6 +295,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The card being loaded. </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -285,6 +326,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The current set being attempted. </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -315,6 +357,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The current URL being attempted. </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -337,6 +380,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The short name of the current set, or empty string if no set. </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -359,7 +403,10 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Advances the currentSet to the next set in the list. Then repopulates the url list with the urls from that set. If we are already at the end of the list, then currentSet is set to empty. </p><dl class="section return"><dt>Returns</dt><dd>If we are already at the end of the list </dd></dl>
+
+<p>Advance to the next set in the list. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if a next set exists and was selected, false if at the end.</dd></dl>
+<p>Updates currentSet and repopulates currentSetUrls. If we are already at the end of the list, then currentSet is set to empty. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -387,7 +434,10 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Advances the currentUrl to the next url in the list. If we are already at the end of the list, then currentUrl is set to empty. </p><dl class="section return"><dt>Returns</dt><dd>If we are already at the end of the list </dd></dl>
+
+<p>Advance to the next URL in the current set's list. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if a next URL exists, false if at the end.</dd></dl>
+<p>Updates currentUrl. If we are already at the end of the list, then currentUrl is set to empty. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -410,6 +460,9 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Populates the currentSetUrls list with URLs for the current set. </p>
+<p>Includes custom URLs first, followed by template-based URLs. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -438,6 +491,15 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Transforms a URL template into a concrete URL for this card/set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">urlTemplate</td><td>The URL template to transform </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The transformed URL or empty string if the template cannot be fulfilled </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -472,6 +534,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>The <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> being downloaded. </p>
+
 </div>
 </div>
 <a id="af4a6033b478b9013dd2fa5a1362d2cd2" name="af4a6033b478b9013dd2fa5a1362d2cd2"></a>
@@ -493,6 +557,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Currently active set. </p>
 
 </div>
 </div>
@@ -516,6 +582,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>URLs for the current set being attempted. </p>
+
 </div>
 </div>
 <a id="a5ebf7325de24c7e52820fbd006483e9f" name="a5ebf7325de24c7e52820fbd006483e9f"></a>
@@ -537,6 +605,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Currently active URL to download. </p>
 
 </div>
 </div>
@@ -560,6 +630,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>All sets for this card, sorted by priority. </p>
+
 </div>
 </div>
 <a id="ab734f0f7d7e5b5e50a5725631b94efc3" name="ab734f0f7d7e5b5e50a5725631b94efc3"></a>
@@ -581,6 +653,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>URL templates from settings. </p>
 
 </div>
 </div>

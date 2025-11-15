@@ -3,8 +3,6 @@ var group__CardDatabase =
     [ "Models", "dd/d62/group__CardDatabaseModels.html", "dd/d62/group__CardDatabaseModels" ],
     [ "Parsers", "da/d82/group__CardDatabaseParsers.html", null ],
     [ "Card Database Widgets", "d2/ddf/group__CardDatabaseWidgets.html", "d2/ddf/group__CardDatabaseWidgets" ],
-    [ "card_database.h", "d7/d66/card__database_8h.html", null ],
-    [ "card_database_loader.h", "dc/d6b/card__database__loader_8h.html", null ],
     [ "card_database_settings.h", "d6/d0c/card__database__settings_8h.html", null ],
     [ "CardDatabase", "d5/d45/classCardDatabase.html", [
       [ "CardDatabase", "d5/d45/classCardDatabase.html#ae2e40620ddbc4ce5eeb54753d58e53bc", null ],
