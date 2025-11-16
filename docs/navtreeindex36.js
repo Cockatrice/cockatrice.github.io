@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"dc/d15/classCardAmountWidget.html#a38b9bc8d2a10893a21b4442b54cb7e94":[3,1,0,27,5],
 "dc/d15/classCardAmountWidget.html#a39067656b1345bb95f1f7b1b2475bcd6":[3,1,0,27,20],
 "dc/d15/classCardAmountWidget.html#a4205f51d8bf797fef1a318f4051cebc3":[3,1,0,27,13],
 "dc/d15/classCardAmountWidget.html#a4bea156c5ffc8662bbec80f2d5a7087f":[3,1,0,27,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "dc/d63/classTabDeckEditorVisual.html#ae9b8573b2c6d4e876577f7dc8146e192":[2,1,0,4,0,2,14],
 "dc/d63/classTabDeckEditorVisual.html#ae9b8573b2c6d4e876577f7dc8146e192":[2,3,1,0,2,14],
 "dc/d63/classTabDeckEditorVisual.html#ae9b8573b2c6d4e876577f7dc8146e192":[2,3,1,1,0,2,14],
-"dc/d63/classTabDeckEditorVisual.html#aec91c521ca5625c9f1361834a4350709":[2,3,1,0,2,22],
-"dc/d63/classTabDeckEditorVisual.html#aec91c521ca5625c9f1361834a4350709":[2,3,1,1,0,2,22]
+"dc/d63/classTabDeckEditorVisual.html#aec91c521ca5625c9f1361834a4350709":[2,3,1,0,2,22]
 };

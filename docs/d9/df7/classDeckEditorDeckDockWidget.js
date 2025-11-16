@@ -57,6 +57,7 @@ var classDeckEditorDeckDockWidget =
     [ "hashLabel1", "d9/df7/classDeckEditorDeckDockWidget.html#a12066d3dae1ad6280520543bc9a1b6ff", null ],
     [ "nameEdit", "d9/df7/classDeckEditorDeckDockWidget.html#abee370bbc984eee468f5bf1cc1777c71", null ],
     [ "nameLabel", "d9/df7/classDeckEditorDeckDockWidget.html#a423dfa58c05cc1dffe9c1fde624432de", null ],
+    [ "proxy", "d9/df7/classDeckEditorDeckDockWidget.html#a418dcabe26bbbcee715b1b5f2a7bb957", null ],
     [ "quickSettingsWidget", "d9/df7/classDeckEditorDeckDockWidget.html#a0c46f51d0320c1ac4074e51b0918e900", null ],
     [ "showBannerCardCheckBox", "d9/df7/classDeckEditorDeckDockWidget.html#a1930ae464142497dbfb5233c657de5bb", null ],
     [ "showTagsWidgetCheckBox", "d9/df7/classDeckEditorDeckDockWidget.html#a83eec5f6bf18e5ec5d5846dbb335ac4c", null ]

@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"db/dbc/abstract__card__item_8cpp.html":[3,2,0,0,1,3,0,2],
 "db/dc4/deck__preview__tag__dialog_8cpp.html":[3,2,0,0,1,4,3,14,0,6],
 "db/dc7/structZoneViewZone_1_1GridSize.html":[3,1,0,415,0],
 "db/dc7/structZoneViewZone_1_1GridSize.html#a0f9a40c075244250da2e7dd52a924389":[3,1,0,415,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "dc/d15/classCardAmountWidget.html":[3,1,0,27],
 "dc/d15/classCardAmountWidget.html#a122ab560f9a0091681c3c68514d6a27c":[3,1,0,27,19],
 "dc/d15/classCardAmountWidget.html#a2101fc800ad667ce48a92548a716c438":[3,1,0,27,4],
-"dc/d15/classCardAmountWidget.html#a22ffb1301766e38df6538c23ef25493a":[3,1,0,27,12],
-"dc/d15/classCardAmountWidget.html#a38b9bc8d2a10893a21b4442b54cb7e94":[3,1,0,27,5]
+"dc/d15/classCardAmountWidget.html#a22ffb1301766e38df6538c23ef25493a":[3,1,0,27,12]
 };

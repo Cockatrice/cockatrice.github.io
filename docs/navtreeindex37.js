@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"dc/d63/classTabDeckEditorVisual.html#aec91c521ca5625c9f1361834a4350709":[2,3,1,1,0,2,22],
 "dc/d63/classTabDeckEditorVisual.html#aec91c521ca5625c9f1361834a4350709":[2,1,0,1,0,2,22],
 "dc/d63/classTabDeckEditorVisual.html#aec91c521ca5625c9f1361834a4350709":[2,1,0,4,0,2,22],
 "dc/d63/classTabDeckEditorVisual.html#af418aa296559c24abb77e21ce522b06d":[2,1,0,4,0,2,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "dc/db2/namespacepeg.html#a9e80871c3e6bb9bfe093e1da0cc5ef87":[3,0,0,6,110],
 "dc/db2/namespacepeg.html#aa640011930cbd676512eb812ae4fbf17":[3,0,0,6,97],
 "dc/db2/namespacepeg.html#aacf6410cf81246c2feb4044d090b1728":[3,0,0,6,63],
-"dc/db2/namespacepeg.html#ab0717a41ff5ecc09dd35b5fe3aebd496":[3,0,0,6,96],
-"dc/db2/namespacepeg.html#ab11b144570fda940a42075a2c1394820":[3,0,0,6,109]
+"dc/db2/namespacepeg.html#ab0717a41ff5ecc09dd35b5fe3aebd496":[3,0,0,6,96]
 };

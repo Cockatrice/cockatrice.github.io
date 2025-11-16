@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"db/d68/group__Dialogs.html":[2,1,0,0],
 "db/d6d/classUserListManager.html":[3,1,0,388],
 "db/d6d/classUserListManager.html#a0a980050ad9d7bd3632f129ad593aa19":[3,1,0,388,12],
 "db/d6d/classUserListManager.html#a0c5672ffe856aaa15c46c3b2431b851d":[3,1,0,388,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "db/db5/classDeckViewScene.html#aaa412f6924b2f0d364955749f98c1d2f":[3,1,0,111,1],
 "db/db5/classDeckViewScene.html#acf2cc7d2d31afaa56efc6b83af3eb723":[3,1,0,111,12],
 "db/db5/classDeckViewScene.html#ae9c3eeeba87806a505c0b178dd834791":[3,1,0,111,13],
-"db/db5/classDeckViewScene.html#ae9ddc44fbd89544efcb848b433e17dd2":[3,1,0,111,6],
-"db/dbc/abstract__card__item_8cpp.html":[3,2,0,0,1,3,0,2]
+"db/db5/classDeckViewScene.html#ae9ddc44fbd89544efcb848b433e17dd2":[3,1,0,111,6]
 };

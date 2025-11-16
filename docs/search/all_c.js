@@ -67,7 +67,7 @@ var searchData=
   ['library_64',['The Cockatrice Card Library',['../da/d69/primer_cards.html#autotoc_md14',1,'']]],
   ['library_5fmenu_2ecpp_65',['library_menu.cpp',['../d5/d89/library__menu_8cpp.html',1,'']]],
   ['library_5fmenu_2eh_66',['library_menu.h',['../d0/dbc/library__menu_8h.html',1,'']]],
-  ['librarymenu_67',['librarymenu',['../d9/d65/classLibraryMenu.html',1,'LibraryMenu'],['../d7/dd6/classPlayerMenu.html#ac0598367f937d065bd9053f855840179',1,'PlayerMenu::libraryMenu'],['../d9/d65/classLibraryMenu.html#ab743b802ca570c3d145564cabe44b82b',1,'LibraryMenu::LibraryMenu()']]],
+  ['librarymenu_67',['librarymenu',['../d9/d65/classLibraryMenu.html',1,'LibraryMenu'],['../d9/d65/classLibraryMenu.html#ab743b802ca570c3d145564cabe44b82b',1,'LibraryMenu::LibraryMenu()'],['../d7/dd6/classPlayerMenu.html#ac0598367f937d065bd9053f855840179',1,'PlayerMenu::libraryMenu']]],
   ['line_68',['line',['../d2/d75/structpeg_1_1AstBase.html#a337e9f74d91b498c00d5cac690c22252',1,'peg::AstBase']]],
   ['line_5f_69',['line_',['../d8/d94/classpeg_1_1Definition.html#a41e024fc09c32d44f3eed17b2e9b2406',1,'peg::Definition']]],
   ['line_5fedit_5fcompleter_2ecpp_70',['line_edit_completer.cpp',['../d5/d88/line__edit__completer_8cpp.html',1,'']]],

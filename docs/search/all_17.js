@@ -30,7 +30,7 @@ var searchData=
   ['wiki_5ftranslation_5ffaq_27',['WIKI_TRANSLATION_FAQ',['../dd/d7b/dlg__settings_8cpp.html#a2be223e7bc5e68ddfec0935c263fef29',1,'dlg_settings.cpp']]],
   ['window_5fmain_2ecpp_28',['window_main.cpp',['../d2/d4f/window__main_8cpp.html',1,'']]],
   ['window_5fmain_2eh_29',['window_main.h',['../dc/df4/window__main_8h.html',1,'']]],
-  ['wndsets_30',['wndsets',['../dd/d67/classWndSets.html',1,'WndSets'],['../d6/d1a/classMainWindow.html#aea8e652c33d58ab63e8b1c4f1eee7a8b',1,'MainWindow::wndSets'],['../dd/d67/classWndSets.html#a6aee1034f70433489bcb5f175a2c45e2',1,'WndSets::WndSets()']]],
+  ['wndsets_30',['wndsets',['../dd/d67/classWndSets.html',1,'WndSets'],['../dd/d67/classWndSets.html#a6aee1034f70433489bcb5f175a2c45e2',1,'WndSets::WndSets()'],['../d6/d1a/classMainWindow.html#aea8e652c33d58ab63e8b1c4f1eee7a8b',1,'MainWindow::wndSets']]],
   ['word_5fdefinition_5fname_31',['WORD_DEFINITION_NAME',['../dc/db2/namespacepeg.html#a05fef7118467bf5732c5a658a41bb2aa',1,'peg']]],
   ['wordope_32',['wordope',['../d8/d94/classpeg_1_1Definition.html#a028424db0704ddf17e5c5eb69348da16',1,'peg::Definition::wordOpe'],['../df/d94/classpeg_1_1Context.html#a1983c08e355bac46676f3a1fc24f9e0e',1,'peg::Context::wordOpe']]],
   ['worker_33',['worker',['../d2/d5d/classCardPictureLoader.html#a410348349fde931141ef5b26607fd579',1,'CardPictureLoader']]],

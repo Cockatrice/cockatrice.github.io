@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"de/dd3/classCardInfoPictureArtCropWidget.html#acc6098c84c4d183f7cb1dd28d42051bc":[3,1,0,44,0],
 "de/dd5/visual__database__display__widget_8h.html":[2,2,4,2,1,6],
 "de/dd5/visual__database__display__widget_8h.html":[2,1,0,3,1,6],
 "de/dd6/levenshtein_8cpp.html":[3,2,0,11,0,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "df/d3f/classGameSelector.html#a23b44acf77aeae77e83ade675951a0c1":[3,1,0,190,21],
 "df/d3f/classGameSelector.html#a405e441c07528666a1fd2ef7408064b6":[3,1,0,190,4],
 "df/d3f/classGameSelector.html#a40d098545421529a7296deb4f6e0bf3f":[3,1,0,190,3],
-"df/d3f/classGameSelector.html#a469b920caa40b2976f139c82a67617e7":[3,1,0,190,18],
-"df/d3f/classGameSelector.html#a471430f639605dfe80a280092650e044":[3,1,0,190,30]
+"df/d3f/classGameSelector.html#a469b920caa40b2976f139c82a67617e7":[3,1,0,190,18]
 };

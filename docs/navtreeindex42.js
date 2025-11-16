@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"de/d08/classTabGame.html#a3d8d40af9b4c246c1718890546609dd7":[3,1,0,360,89],
 "de/d08/classTabGame.html#a3e0bfddf9b13cb6e52ea0f976110d8b3":[3,1,0,360,52],
 "de/d08/classTabGame.html#a3f805f5b09ffdc60b72925c1a54494eb":[3,1,0,360,58],
 "de/d08/classTabGame.html#a3fd9a0df2ba24884bd3f5c18020360fc":[3,1,0,360,131],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "de/d38/classPlayerEventHandler.html#ae509b5e91d003492a7cb82128c56836f":[3,1,0,262,41],
 "de/d38/classPlayerEventHandler.html#aed73508f74be1c53f6d021e7a7afc99f":[3,1,0,262,23],
 "de/d38/classPlayerEventHandler.html#aff82a7da3be614bd99432d469ee4aba1":[3,1,0,262,7],
-"de/d38/update__downloader_8h.html":[3,2,0,0,1,0,0,2,1,5],
-"de/d38/update__downloader_8h_source.html":[3,2,0,0,1,0,0,2,1,5]
+"de/d38/update__downloader_8h.html":[3,2,0,0,1,0,0,2,1,5]
 };

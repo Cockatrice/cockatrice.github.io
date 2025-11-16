@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"dc/db2/namespacepeg.html#ab11b144570fda940a42075a2c1394820":[3,0,0,6,109],
 "dc/db2/namespacepeg.html#ab1798dbf62bcb036155cd728c87e0203":[3,0,0,6,108],
 "dc/db2/namespacepeg.html#ab99238c5618c450705c821b786b34dd7":[3,0,0,6,57],
 "dc/db2/namespacepeg.html#abb0779cb4c0b5f8e157e81bac9686c8a":[3,0,0,6,111],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "dd/d06/classEdhrecTopCommandersApiResponseDisplayWidget.html#aa5a7f7c0c64b3cfceee5ff6e2b40aa9d":[3,1,0,164,2],
 "dd/d07/layouts__settings_8cpp.html":[3,2,0,10,0,0,10],
 "dd/d0e/deck__editor__card__info__dock__widget_8cpp.html":[3,2,0,0,1,4,3,2,0],
-"dd/d11/games__model_8cpp.html":[3,2,0,0,1,4,3,9,6],
-"dd/d11/games__model_8cpp.html#ab993fea8affd1e39f78568284f3ca951":[3,2,0,0,1,4,3,9,6,1]
+"dd/d11/games__model_8cpp.html":[3,2,0,0,1,4,3,9,6]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"da/d68/classDeckList.html#a0576d60292a6f3b777c50b5d864f8414":[2,3,4,25],
 "da/d68/classDeckList.html#a0762038bdd843f2937e9c2f551b63e54":[2,3,4,28],
 "da/d68/classDeckList.html#a0c593080d57c8d9a87a03d610701e2c8":[2,3,4,5],
 "da/d68/classDeckList.html#a137ac532869cc926fece01c1cb454cb6":[2,3,4,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "da/d89/classKeySignals.html#adfded62a0883aa39b4519a95a96a2d67":[3,1,0,212,4],
 "da/d89/classKeySignals.html#ae01f1b3ef0510dd555a1e09bad387ec5":[3,1,0,212,12],
 "da/d8d/classCardDatabaseDisplayModel.html":[3,1,0,31],
-"da/d8d/classCardDatabaseDisplayModel.html#a002ee15fe9f7f7969f8f3485830da437":[3,1,0,31,11],
-"da/d8d/classCardDatabaseDisplayModel.html#a045a2dbefa8a0521dacdc5c289373fb5":[3,1,0,31,14]
+"da/d8d/classCardDatabaseDisplayModel.html#a002ee15fe9f7f7969f8f3485830da437":[3,1,0,31,11]
 };

@@ -135,8 +135,8 @@ $(document).ready(function(){initNavTree('d9/db2/tab__admin_8h_source.html','../
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">explicit</span> <a class="code hl_class" href="../../d0/d35/classShutdownDialog.html">ShutdownDialog</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    QString <a class="code hl_function" href="../../d0/d35/classShutdownDialog.html#a1a30974288dd707f3e7100ddafcd26be">getReason</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d35/classShutdownDialog.html#a4f46ad0d2003ab05f5e69da8ff30ea67">getMinutes</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    [[nodiscard]] QString <a class="code hl_function" href="../../d0/d35/classShutdownDialog.html#a1a30974288dd707f3e7100ddafcd26be">getReason</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    [[nodiscard]] <span class="keywordtype">int</span> <a class="code hl_function" href="../../d0/d35/classShutdownDialog.html#a4f46ad0d2003ab05f5e69da8ff30ea67">getMinutes</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>};</div>
 </div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
@@ -171,13 +171,13 @@ $(document).ready(function(){initNavTree('d9/db2/tab__admin_8h_source.html','../
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <a class="code hl_class" href="../../d5/d3b/classTabAdmin.html">TabAdmin</a>(<a class="code hl_class" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *_tabSupervisor, <a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *_client, <span class="keywordtype">bool</span> _fullAdmin);</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/d3b/classTabAdmin.html#a4055024b80b1fd7e92b1103094aadb7c">retranslateUi</a>() <span class="keyword">override</span>;</div>
 <div class="foldopen" id="foldopen00065" data-start="{" data-end="}">
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#aa4a2662a163177a41017e8be986c12a3">   65</a></span>    QString <a class="code hl_function" href="../../d5/d3b/classTabAdmin.html#aa4a2662a163177a41017e8be986c12a3">getTabText</a>()<span class="keyword"> const override</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#aa4a2662a163177a41017e8be986c12a3">   65</a></span>    [[nodiscard]] QString <a class="code hl_function" href="../../d5/d3b/classTabAdmin.html#aa4a2662a163177a41017e8be986c12a3">getTabText</a>()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keywordflow">return</span> tr(<span class="stringliteral">&quot;Administration&quot;</span>);</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    }</div>
 </div>
 <div class="foldopen" id="foldopen00069" data-start="{" data-end="}">
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a2868861900cf4d3f1486bf280a7ce2c4">   69</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d5/d3b/classTabAdmin.html#a2868861900cf4d3f1486bf280a7ce2c4">getLocked</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="../../d5/d3b/classTabAdmin.html#a2868861900cf4d3f1486bf280a7ce2c4">   69</a></span>    [[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d5/d3b/classTabAdmin.html#a2868861900cf4d3f1486bf280a7ce2c4">getLocked</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d3b/classTabAdmin.html#a0fbd565e2704485014239cd78983e761">locked</a>;</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    }</div>

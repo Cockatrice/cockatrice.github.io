@@ -25,7 +25,7 @@ var searchData=
   ['filterstring_22',['filterstring',['../db/da4/classFilterString.html#a5d23a86f0acc622f046e993fa3abea9c',1,'FilterString::FilterString()'],['../db/da4/classFilterString.html#a32cdec29bee2b10535358ec8167c1db9',1,'FilterString::FilterString(const QString &amp;exp)']]],
   ['filtertags_23',['filterTags',['../de/d04/classDeckPreviewTagDialog.html#aa97518ef8dd5e70968a4ad2c16cb5f12',1,'DeckPreviewTagDialog']]],
   ['filtertorecentsets_24',['filterToRecentSets',['../d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#aea0360fe2a6304d6bd828e6247fc541c',1,'VisualDatabaseDisplaySetFilterWidget']]],
-  ['filtertree_25',['filtertree',['../d7/d62/classFilterTreeModel.html#aa64e4e2244a9331a7fb979f9b21ec565',1,'FilterTreeModel::filterTree()'],['../d8/d95/classFilterTree.html#ab9b255ab52b17dbe79f088e94a28a2d0',1,'FilterTree::FilterTree()']]],
+  ['filtertree_25',['filtertree',['../d8/d95/classFilterTree.html#ab9b255ab52b17dbe79f088e94a28a2d0',1,'FilterTree::FilterTree()'],['../d7/d62/classFilterTreeModel.html#aa64e4e2244a9331a7fb979f9b21ec565',1,'FilterTreeModel::filterTree()']]],
   ['filtertreechanged_26',['filtertreechanged',['../d1/d53/classAbstractTabDeckEditor.html#aacd82d0984feb4ef1608d96d2cbeae0c',1,'AbstractTabDeckEditor::filterTreeChanged()'],['../da/d8d/classCardDatabaseDisplayModel.html#ace6b77ce4f24317bfa5b7adf05b08567',1,'CardDatabaseDisplayModel::filterTreeChanged()']]],
   ['filtertreemodel_27',['FilterTreeModel',['../d7/d62/classFilterTreeModel.html#a1a32b767efd768fcabe098b6c64e1e10',1,'FilterTreeModel']]],
   ['filtertreenode_28',['FilterTreeNode',['../db/d51/classFilterTreeNode.html#adb7d59dd330324703f4bf27614eb58f8',1,'FilterTreeNode']]],

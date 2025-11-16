@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"df/dff/structpeg_1_1DetectLeftRecursion.html#abc58f891a64198196a3c73e1ab5cb502":[3,0,0,6,20,7],
 "df/dff/structpeg_1_1DetectLeftRecursion.html#abc58f891a64198196a3c73e1ab5cb502":[3,1,0,0,19,7],
 "df/dff/structpeg_1_1DetectLeftRecursion.html#acb8c0b6800ff6b6682b66d1bf61d0918":[3,1,0,0,19,0],
 "df/dff/structpeg_1_1DetectLeftRecursion.html#acb8c0b6800ff6b6682b66d1bf61d0918":[3,0,0,6,20,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "globals_defs_l.html":[3,2,1,6,8],
 "globals_defs_m.html":[3,2,1,6,9],
 "globals_defs_n.html":[3,2,1,6,10],
-"globals_defs_p.html":[3,2,1,6,11],
-"globals_defs_q.html":[3,2,1,6,12]
+"globals_defs_p.html":[3,2,1,6,11]
 };

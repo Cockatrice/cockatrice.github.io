@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"df/d3f/classGameSelector.html#a471430f639605dfe80a280092650e044":[3,1,0,190,30],
 "df/d3f/classGameSelector.html#a50eb26d307e5079915c178ce03ac715d":[3,1,0,190,22],
 "df/d3f/classGameSelector.html#a5349eb187f8318d008fc1b805c17cf0c":[3,1,0,190,0],
 "df/d3f/classGameSelector.html#a57426bb1940fe7d76563c5c87fb056a5":[3,1,0,190,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "df/d94/classpeg_1_1Context.html#a0ab893cce549f6849c869c53f5176922":[3,1,0,0,15,39],
 "df/d94/classpeg_1_1Context.html#a13de48627133b0e2a7700543a220da15":[3,0,0,6,16,20],
 "df/d94/classpeg_1_1Context.html#a13de48627133b0e2a7700543a220da15":[3,1,0,0,15,20],
-"df/d94/classpeg_1_1Context.html#a17769aef28c149a937ed99572f92a47a":[3,0,0,6,16,42],
-"df/d94/classpeg_1_1Context.html#a17769aef28c149a937ed99572f92a47a":[3,1,0,0,15,42]
+"df/d94/classpeg_1_1Context.html#a17769aef28c149a937ed99572f92a47a":[3,0,0,6,16,42]
 };

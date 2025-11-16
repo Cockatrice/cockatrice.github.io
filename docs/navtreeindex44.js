@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"de/d9d/peglib_8h.html#a12a56f7336918a7d591a7c68b5210b74":[3,2,0,11,0,0,9,118],
 "de/d9d/peglib_8h.html#a134f4d0a2034b7f922afd53bd7d56bb6":[3,2,0,11,0,0,9,185],
 "de/d9d/peglib_8h.html#a138e496119eb188eeb6f8fbd12b8f038":[3,2,0,11,0,0,9,190],
 "de/d9d/peglib_8h.html#a16ae1306742e58b6d67cd1c878966d53":[3,2,0,11,0,0,9,77],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "de/dce/dlg__convert__deck__to__cod__format_8h.html":[2,3,2,0,0,0,0],
 "de/dce/dlg__convert__deck__to__cod__format_8h.html":[2,1,0,5,0,0],
 "de/dd3/classCardInfoPictureArtCropWidget.html":[3,1,0,44],
-"de/dd3/classCardInfoPictureArtCropWidget.html#a91615005a38951c9ff93bddfa827c4dc":[3,1,0,44,1],
-"de/dd3/classCardInfoPictureArtCropWidget.html#acc6098c84c4d183f7cb1dd28d42051bc":[3,1,0,44,0]
+"de/dd3/classCardInfoPictureArtCropWidget.html#a91615005a38951c9ff93bddfa827c4dc":[3,1,0,44,1]
 };

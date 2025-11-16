@@ -174,7 +174,7 @@ var searchData=
   ['userevent_171',['userEvent',['../de/d9c/classTab.html#a8a1ac5765536074a49f2c556378b9f84',1,'Tab']]],
   ['userexists_172',['userExists',['../d2/d12/classServer__DatabaseInterface.html#a9738a49f433aa0b91d5be5421659947f',1,'Server_DatabaseInterface']]],
   ['userinfo_173',['userinfo',['../df/df7/classPlayerInfo.html#a49527d3b412f1d72a9a3235f0f222351',1,'PlayerInfo::userInfo'],['../dd/dc7/classUserListTWI.html#a3f1a82b948ac1c6a595164b49f7c6379',1,'UserListTWI::userInfo'],['../dd/d81/classTabSupervisor.html#adec0587c004f0478859a1501924a7822',1,'TabSupervisor::userInfo'],['../d9/d5b/classServerInfo__User__Container.html#a1019a8a0ceeeed32ac627ffe66108ef7',1,'ServerInfo_User_Container::userInfo']]],
-  ['userinfobox_174',['userinfobox',['../d5/da7/classTabAccount.html#a6b9756a3f863b069d110507ed76ba746',1,'TabAccount::userInfoBox'],['../df/dea/classUserInfoBox.html#a2b4c020723194ff4c0ed037487c52001',1,'UserInfoBox::UserInfoBox()'],['../df/dea/classUserInfoBox.html',1,'UserInfoBox']]],
+  ['userinfobox_174',['userinfobox',['../df/dea/classUserInfoBox.html#a2b4c020723194ff4c0ed037487c52001',1,'UserInfoBox::UserInfoBox()'],['../d5/da7/classTabAccount.html#a6b9756a3f863b069d110507ed76ba746',1,'TabAccount::userInfoBox'],['../df/dea/classUserInfoBox.html',1,'UserInfoBox']]],
   ['userinfochanged_175',['userInfoChanged',['../dc/d86/classAbstractClient.html#aac217e9beadf502fe88401f3edd9ae49',1,'AbstractClient']]],
   ['userinforeceived_176',['userInfoReceived',['../d6/d1a/classMainWindow.html#a4849c0e8c416a764d189158275dbfab0',1,'MainWindow']]],
   ['userinterface_177',['userInterface',['../d0/d00/classServer__AbstractParticipant.html#af6c388f11d6ceacb80f6beaefafd9144',1,'Server_AbstractParticipant']]],

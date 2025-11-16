@@ -57,7 +57,7 @@ var searchData=
   ['registertoserver_54',['registerToServer',['../db/d53/classRemoteClient.html#a634002267a57d5a8e04df16e9c410d9e',1,'RemoteClient']]],
   ['registeruser_55',['registerUser',['../d2/d12/classServer__DatabaseInterface.html#a7a0e773dd7247dc301c915d7b575663d',1,'Server_DatabaseInterface']]],
   ['relationcheck_56',['relationCheck',['../d4/d40/classFilterItem.html#a898bb4a278dd70c0e142797a9ed611f0',1,'FilterItem']]],
-  ['release_57',['release',['../d5/dbb/structpeg_1_1scope__exit.html#adeb78c7c73c2eb024845c856e3923217',1,'peg::scope_exit::release()'],['../db/d0a/classRelease.html#a78292a9cee6e4c16dad65d95a6f4e6c5',1,'Release::Release()']]],
+  ['release_57',['release',['../db/d0a/classRelease.html#a78292a9cee6e4c16dad65d95a6f4e6c5',1,'Release::Release()'],['../d5/dbb/structpeg_1_1scope__exit.html#adeb78c7c73c2eb024845c856e3923217',1,'peg::scope_exit::release()']]],
   ['releasechannel_58',['ReleaseChannel',['../d0/db2/classReleaseChannel.html#a0797d7390aede4c73d3a78b842928cea',1,'ReleaseChannel']]],
   ['releaselistfinished_59',['releaselistfinished',['../d8/d5f/classStableReleaseChannel.html#ae25072e549c386fe489ee9f9371ddd91',1,'StableReleaseChannel::releaseListFinished()'],['../d0/db2/classReleaseChannel.html#a5352bcc4aff638c219054170780a897c',1,'ReleaseChannel::releaseListFinished()'],['../d0/dc4/classBetaReleaseChannel.html#a036fdd8a5ad3aeb62b661128ca149ece',1,'BetaReleaseChannel::releaseListFinished()']]],
   ['remoteclient_60',['RemoteClient',['../db/d53/classRemoteClient.html#a37f95399d855ffda07836178e244cce7',1,'RemoteClient']]],

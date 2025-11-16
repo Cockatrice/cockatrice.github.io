@@ -37,7 +37,7 @@ var searchData=
   ['cardcountchanged_34',['cardCountChanged',['../d1/df9/classCardZoneLogic.html#a26ef07a1384ffdd55bcdd10ac72423b9',1,'CardZoneLogic']]],
   ['cardcounters_35',['cardCounters',['../d5/d88/classSettingsCache.html#aa97422663ceec7ddef94a70b3529038b',1,'SettingsCache']]],
   ['cardcountersettings_36',['CardCounterSettings',['../d3/d14/classCardCounterSettings.html#a08d1e6693d287d3ae0103cfe8e460097',1,'CardCounterSettings']]],
-  ['carddatabase_37',['carddatabase',['../d5/d45/classCardDatabase.html#ae2e40620ddbc4ce5eeb54753d58e53bc',1,'CardDatabase::CardDatabase()'],['../d5/d88/classSettingsCache.html#a6142af053f52838bf022a7c5d0e0ce4c',1,'SettingsCache::cardDatabase()']]],
+  ['carddatabase_37',['carddatabase',['../d5/d88/classSettingsCache.html#a6142af053f52838bf022a7c5d0e0ce4c',1,'SettingsCache::cardDatabase()'],['../d5/d45/classCardDatabase.html#ae2e40620ddbc4ce5eeb54753d58e53bc',1,'CardDatabase::CardDatabase()']]],
   ['carddatabaseallnewsetsenabled_38',['carddatabaseallnewsetsenabled',['../d6/d1a/classMainWindow.html#aaafdb93896ffb8aeaac9e9b664064a1d',1,'MainWindow::cardDatabaseAllNewSetsEnabled()'],['../d5/d45/classCardDatabase.html#a03b65551376df53526a834ace1b7e844',1,'CardDatabase::cardDatabaseAllNewSetsEnabled()']]],
   ['carddatabasedisplaymodel_39',['CardDatabaseDisplayModel',['../da/d8d/classCardDatabaseDisplayModel.html#a2a80e3f7a355244d16fc3701c30ee941',1,'CardDatabaseDisplayModel']]],
   ['carddatabaseenabledsetschanged_40',['carddatabaseenabledsetschanged',['../d5/d45/classCardDatabase.html#a4a8f2b397614d45d8db3ce25e7fa2d88',1,'CardDatabase::cardDatabaseEnabledSetsChanged()'],['../dd/d83/classCardDatabaseModel.html#addaed879cfb5971b58e2f15f6f2f6a85',1,'CardDatabaseModel::cardDatabaseEnabledSetsChanged()']]],

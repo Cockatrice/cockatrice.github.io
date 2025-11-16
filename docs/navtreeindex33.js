@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"db/d2d/structpeg_1_1ParserGenerator_1_1Data.html":[3,1,0,0,34,0],
 "db/d2d/structpeg_1_1ParserGenerator_1_1Data.html#a0f27ff1b18f7e35dcf465d9a07076e69":[3,0,0,6,35,0,0],
 "db/d2d/structpeg_1_1ParserGenerator_1_1Data.html#a0f27ff1b18f7e35dcf465d9a07076e69":[3,1,0,0,34,0,0],
 "db/d2d/structpeg_1_1ParserGenerator_1_1Data.html#a1c2563fe36f06efd9fd5dcd4be8d3229":[3,1,0,0,34,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "db/d67/classLogger.html#acfa7b3fb8d0550befb8bcd5308d7675a":[3,1,0,223,8],
 "db/d67/classLogger.html#aed940a5ab00fdb60a5d6bee83db04524":[3,1,0,223,10],
 "db/d67/classLogger.html#af1a8490c7d7652060c17347ded72e910":[3,1,0,223,3],
-"db/d67/classLogger.html#afee741267f0de25da55208a6424eb84f":[3,1,0,223,1],
-"db/d68/group__Dialogs.html":[2,1,0,0]
+"db/d67/classLogger.html#afee741267f0de25da55208a6424eb84f":[3,1,0,223,1]
 };
