@@ -40,8 +40,9 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
+                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
                     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -230,13 +231,13 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Concrete node type representing an actual card entry in the deck. </p>
 <p>This class extends <a class="el" href="../../d3/de9/classAbstractDecklistCardNode.html" title="Abstract base class for all deck list nodes that represent actual card entries.">AbstractDecklistCardNode</a> to hold all information needed to uniquely identify a card printing within the deck.</p>
-<h3><a class="anchor" id="autotoc_md58"></a>
+<h3><a class="anchor" id="autotoc_md62"></a>
 Role in the hierarchy:</h3>
 <ul>
 <li>Child of an <a class="el" href="../../d4/d55/classInnerDecklistNode.html" title="Represents a container node in the deck list hierarchy (zones and groupings).">InnerDecklistNode</a> (which groups cards by zone or criteria).</li>
 <li>Leaf node in the deck tree; it does not contain further children.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md59"></a>
+<h3><a class="anchor" id="autotoc_md63"></a>
 Data stored:</h3>
 <ul>
 <li><code>name:</code> Card’s display name.</li>
@@ -245,14 +246,14 @@ Data stored:</h3>
 <li><code>cardSetNumber:</code> Collector number within the set.</li>
 <li><code>cardProviderId:</code> External provider identifier (e.g., UUID or MTGJSON ID).</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md60"></a>
+<h3><a class="anchor" id="autotoc_md64"></a>
 Usage:</h3>
 <ul>
 <li>Constructed directly when building a deck list from user input or file.</li>
 <li>Used by <a class="el" href="../../d9/de1/classDeckListModel.html" title="Qt model representing a decklist for use in views (tree/table).">DeckListModel</a> to present cards in Qt views.</li>
 <li>Convertible to <code><a class="el" href="../../d1/d66/structCardRef.html">CardRef</a></code> for database lookups or cross-references.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md61"></a>
+<h3><a class="anchor" id="autotoc_md65"></a>
 Ownership:</h3>
 <ul>
 <li>Owned by its parent <a class="el" href="../../d4/d55/classInnerDecklistNode.html" title="Represents a container node in the deck list hierarchy (zones and groupings).">InnerDecklistNode</a>.</li>

@@ -40,8 +40,9 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
+                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
                     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -174,9 +175,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae6ad309bc165839314400812538e6241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3e3ba0b691b285142afe03f9c27336a" id="r_ac3e3ba0b691b285142afe03f9c27336a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d68/classDeckList.html#ac3e3ba0b691b285142afe03f9c27336a">isBlankDeck</a> () const</td></tr>
 <tr class="separator:ac3e3ba0b691b285142afe03f9c27336a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a137ac532869cc926fece01c1cb454cb6" id="r_a137ac532869cc926fece01c1cb454cb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d68/classDeckList.html#a137ac532869cc926fece01c1cb454cb6">forEachCard</a> (const std::function&lt; void(<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *, <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> *)&gt; &amp;func)</td></tr>
-<tr class="memdesc:a137ac532869cc926fece01c1cb454cb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a function to every card in the deck tree.  <br /></td></tr>
-<tr class="separator:a137ac532869cc926fece01c1cb454cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ca4bb25dda768a1733396f89f8277e0" id="r_a6ca4bb25dda768a1733396f89f8277e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d68/classDeckList.html#a6ca4bb25dda768a1733396f89f8277e0">forEachCard</a> (const std::function&lt; void(<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *, <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> *)&gt; &amp;func) const</td></tr>
+<tr class="memdesc:a6ca4bb25dda768a1733396f89f8277e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a function to every card in the deck tree.  <br /></td></tr>
+<tr class="separator:a6ca4bb25dda768a1733396f89f8277e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Metadata getters</div></td></tr>
 <tr class="memitem:a79d884815abdd7b61694bf9657d27c56" id="r_a79d884815abdd7b61694bf9657d27c56"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d68/classDeckList.html#a79d884815abdd7b61694bf9657d27c56">getName</a> () const</td></tr>
 <tr class="separator:a79d884815abdd7b61694bf9657d27c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -297,7 +298,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a complete deck, including metadata, zones, cards, and sideboard plans. </p>
 <p>A <a class="el" href="../../da/d68/classDeckList.html" title="Represents a complete deck, including metadata, zones, cards, and sideboard plans.">DeckList</a> is a QObject wrapper around an <code><a class="el" href="../../d4/d55/classInnerDecklistNode.html" title="Represents a container node in the deck list hierarchy (zones and groupings).">InnerDecklistNode</a></code> tree, enriched with metadata like deck name, comments, tags, banner card, and multiple sideboard plans.</p>
-<h3><a class="anchor" id="autotoc_md54"></a>
+<h3><a class="anchor" id="autotoc_md58"></a>
 Core responsibilities:</h3>
 <ul>
 <li>Store and manage the root node tree (zones → groups → cards).</li>
@@ -310,19 +311,19 @@ Core responsibilities:</h3>
 </li>
 <li>Provide hashing for deck identity (deck hash).</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md55"></a>
+<h3><a class="anchor" id="autotoc_md59"></a>
 Ownership:</h3>
 <ul>
 <li>Owns the root <code><a class="el" href="../../d4/d55/classInnerDecklistNode.html" title="Represents a container node in the deck list hierarchy (zones and groupings).">InnerDecklistNode</a></code> tree.</li>
 <li>Owns <code><a class="el" href="../../dc/d8b/classSideboardPlan.html" title="Represents a predefined sideboarding strategy for a deck.">SideboardPlan</a></code> instances stored in <code>sideboardPlans</code>.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md56"></a>
+<h3><a class="anchor" id="autotoc_md60"></a>
 Signals:</h3>
 <ul>
 <li><code><a class="el" href="../../da/d68/classDeckList.html#a84c26306d85f7d18fcd3c21d618b7601" title="Emitted when the deck hash changes.">deckHashChanged()</a></code> — emitted when the deck contents change.</li>
 <li><code><a class="el" href="../../da/d68/classDeckList.html#af38e2752824821cc5b96f938f4e078a5" title="Emitted when the deck tags are modified.">deckTagsChanged()</a></code> — emitted when tags are added/removed.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md57"></a>
+<h3><a class="anchor" id="autotoc_md61"></a>
 Example workflow:</h3>
 <div class="fragment"><div class="line"><a class="code hl_class" href="../../da/d68/classDeckList.html">DeckList</a> deck;</div>
 <div class="line">deck.<a class="code hl_slot" href="../../da/d68/classDeckList.html#afa7f023276656ecfe4f8df74cbebbbd4">setName</a>(<span class="stringliteral">&quot;Mono Red Aggro&quot;</span>);</div>
@@ -706,8 +707,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a137ac532869cc926fece01c1cb454cb6" name="a137ac532869cc926fece01c1cb454cb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a137ac532869cc926fece01c1cb454cb6">&#9670;&#160;</a></span>forEachCard()</h2>
+<a id="a6ca4bb25dda768a1733396f89f8277e0" name="a6ca4bb25dda768a1733396f89f8277e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ca4bb25dda768a1733396f89f8277e0">&#9670;&#160;</a></span>forEachCard()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -717,7 +718,7 @@ Here is the caller graph for this function:</div>
           <td>(</td>
           <td class="paramtype">const std::function&lt; void(<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *, <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> *)&gt; &amp;&#160;</td>
           <td class="paramname"><em>func</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -733,7 +734,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d68/classDeckList_a137ac532869cc926fece01c1cb454cb6_icgraph.svg" width="100%" height="466"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d68/classDeckList_a6ca4bb25dda768a1733396f89f8277e0_icgraph.svg" width="100%" height="466"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

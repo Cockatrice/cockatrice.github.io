@@ -12,7 +12,7 @@ var searchData=
   ['newcounterid_9',['newCounterId',['../d8/d21/classServer__Player.html#ab1c08229f244ce6cc29c78d2d7588c12',1,'Server_Player']]],
   ['newfolderfinished_10',['newFolderFinished',['../d1/dd7/classTabDeckStorage.html#a950af308ba562fb3556e0efe435ffe07',1,'TabDeckStorage']]],
   ['newhostselected_11',['newHostSelected',['../d3/da4/classDlgConnect.html#a6228bcb0baee9ae3d1aaf25a9ef17334',1,'DlgConnect']]],
-  ['newinstance_12',['newinstance',['../dd/dd2/classCardInfo.html#a9f4689855860e67f8f69ed1274314dca',1,'CardInfo::newInstance()'],['../d6/d3d/classCardSet.html#ad03e76c9ff4ce7669d0454525afd1d16',1,'CardSet::newInstance()'],['../dd/dd2/classCardInfo.html#a8ea0b0d5a1ed44c1ce62f59e31375771',1,'CardInfo::newInstance()']]],
+  ['newinstance_12',['newinstance',['../dd/dd2/classCardInfo.html#a44e39bb32fb6ad507fb7e2ac6e94ab41',1,'CardInfo::newInstance()'],['../d6/d3d/classCardSet.html#ad03e76c9ff4ce7669d0454525afd1d16',1,'CardSet::newInstance()'],['../dd/dd2/classCardInfo.html#a8ea0b0d5a1ed44c1ce62f59e31375771',1,'CardInfo::newInstance()']]],
   ['newmissingfeaturefound_13',['newMissingFeatureFound',['../db/d53/classRemoteClient.html#a3db224a468abc96541e95112bd0b68e0',1,'RemoteClient']]],
   ['newplayeractioncreated_14',['newPlayerActionCreated',['../d2/d73/classGraveyardMenu.html#aaeeece8f7998876a633b79a1a4312c6e',1,'GraveyardMenu']]],
   ['newsetsfound_15',['newSetsFound',['../d2/d1b/classCardDatabaseLoader.html#a9e55305662b2cb071bef02c31e9bcc49',1,'CardDatabaseLoader']]],

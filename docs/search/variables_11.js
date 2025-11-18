@@ -7,5 +7,6 @@ var searchData=
   ['quickfiltersaveloadwidget_4',['quickFilterSaveLoadWidget',['../d2/d32/classVisualDatabaseDisplayWidget.html#a8d793b60c7003e1c1fa795c1a0609154',1,'VisualDatabaseDisplayWidget']]],
   ['quickfiltersetwidget_5',['quickFilterSetWidget',['../d2/d32/classVisualDatabaseDisplayWidget.html#a6c70915a7a741b8fa419961effe329bb',1,'VisualDatabaseDisplayWidget']]],
   ['quickfiltersubtypewidget_6',['quickFilterSubTypeWidget',['../d2/d32/classVisualDatabaseDisplayWidget.html#a9be87c8759eed3039eb6500d2dd55df3',1,'VisualDatabaseDisplayWidget']]],
-  ['quicksettingswidget_7',['quicksettingswidget',['../d9/df7/classDeckEditorDeckDockWidget.html#a0c46f51d0320c1ac4074e51b0918e900',1,'DeckEditorDeckDockWidget::quickSettingsWidget'],['../d0/dfe/classVisualDeckStorageWidget.html#a3ca1a8b1d5be00b4b01ba33f0c27c0e7',1,'VisualDeckStorageWidget::quickSettingsWidget']]]
+  ['quickfiltertoolbar_7',['quickFilterToolBar',['../df/d3f/classGameSelector.html#a4fc1004c477393760c4c282ba8e7a7f1',1,'GameSelector']]],
+  ['quicksettingswidget_8',['quicksettingswidget',['../d9/df7/classDeckEditorDeckDockWidget.html#a0c46f51d0320c1ac4074e51b0918e900',1,'DeckEditorDeckDockWidget::quickSettingsWidget'],['../d0/dfe/classVisualDeckStorageWidget.html#a3ca1a8b1d5be00b4b01ba33f0c27c0e7',1,'VisualDeckStorageWidget::quickSettingsWidget']]]
 ];

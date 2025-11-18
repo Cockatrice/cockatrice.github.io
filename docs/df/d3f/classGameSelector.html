@@ -40,8 +40,9 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
+                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
                     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -116,6 +117,9 @@ $(document).ready(function(){initNavTree('df/d3f/classGameSelector.html','../../
 </div><!--header-->
 <div class="contents">
 
+<p>Provides a widget for displaying, filtering, joining, spectating, and creating games in a room.  
+ <a href="../../df/d3f/classGameSelector.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d9/d03/game__selector_8h_source.html">game_selector.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for GameSelector:</div>
@@ -131,54 +135,79 @@ Collaboration diagram for GameSelector:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:ab244c2cecf89716eb3ba3681e2030ead" id="r_ab244c2cecf89716eb3ba3681e2030ead"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#ab244c2cecf89716eb3ba3681e2030ead">gameJoined</a> (int gameId)</td></tr>
+<tr class="memdesc:ab244c2cecf89716eb3ba3681e2030ead"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a game has been successfully joined.  <br /></td></tr>
 <tr class="separator:ab244c2cecf89716eb3ba3681e2030ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5349eb187f8318d008fc1b805c17cf0c" id="r_a5349eb187f8318d008fc1b805c17cf0c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a5349eb187f8318d008fc1b805c17cf0c">GameSelector</a> (<a class="el" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *_client, <a class="el" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *_tabSupervisor, <a class="el" href="../../df/d78/classTabRoom.html">TabRoom</a> *_room, const QMap&lt; int, QString &gt; &amp;_rooms, const QMap&lt; int, <a class="el" href="../../d8/d92/game__type__map_8h.html#a8fd9fd937325db0b4ae4edae4ae91924">GameTypeMap</a> &gt; &amp;_gameTypes, const bool restoresettings, const bool _showfilters, QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:a5349eb187f8318d008fc1b805c17cf0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="../../df/d3f/classGameSelector.html" title="Provides a widget for displaying, filtering, joining, spectating, and creating games in a room.">GameSelector</a> widget.  <br /></td></tr>
 <tr class="separator:a5349eb187f8318d008fc1b805c17cf0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a469b920caa40b2976f139c82a67617e7" id="r_a469b920caa40b2976f139c82a67617e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a469b920caa40b2976f139c82a67617e7">retranslateUi</a> ()</td></tr>
+<tr class="memdesc:a469b920caa40b2976f139c82a67617e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates UI text for translation/localization.  <br /></td></tr>
 <tr class="separator:a469b920caa40b2976f139c82a67617e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaac69a09b58136e991c396581a6b115c" id="r_aaac69a09b58136e991c396581a6b115c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#aaac69a09b58136e991c396581a6b115c">processGameInfo</a> (const ServerInfo_Game &amp;info)</td></tr>
+<tr class="memdesc:aaac69a09b58136e991c396581a6b115c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates or adds a game entry in the list.  <br /></td></tr>
 <tr class="separator:aaac69a09b58136e991c396581a6b115c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a75131cf48d42d361f2b6f113038b3626" id="r_a75131cf48d42d361f2b6f113038b3626"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a75131cf48d42d361f2b6f113038b3626">actSetFilter</a> ()</td></tr>
+<tr class="memdesc:a75131cf48d42d361f2b6f113038b3626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens a dialog to set filters for the game list.  <br /></td></tr>
 <tr class="separator:a75131cf48d42d361f2b6f113038b3626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bd6f443362d8a4bcece4207860e9f7f" id="r_a7bd6f443362d8a4bcece4207860e9f7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a7bd6f443362d8a4bcece4207860e9f7f">actClearFilter</a> ()</td></tr>
+<tr class="memdesc:a7bd6f443362d8a4bcece4207860e9f7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all filters applied to the game list.  <br /></td></tr>
 <tr class="separator:a7bd6f443362d8a4bcece4207860e9f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac973e1aedb927b9b648bee822a49e7e1" id="r_ac973e1aedb927b9b648bee822a49e7e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#ac973e1aedb927b9b648bee822a49e7e1">actCreate</a> ()</td></tr>
+<tr class="memdesc:ac973e1aedb927b9b648bee822a49e7e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens the dialog to create a new game in the current room.  <br /></td></tr>
 <tr class="separator:ac973e1aedb927b9b648bee822a49e7e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40d098545421529a7296deb4f6e0bf3f" id="r_a40d098545421529a7296deb4f6e0bf3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a40d098545421529a7296deb4f6e0bf3f">actJoin</a> ()</td></tr>
+<tr class="memdesc:a40d098545421529a7296deb4f6e0bf3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Joins the currently selected game as a player.  <br /></td></tr>
 <tr class="separator:a40d098545421529a7296deb4f6e0bf3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ec5f81ab8925dfb4fcf7c7e41f193f9" id="r_a5ec5f81ab8925dfb4fcf7c7e41f193f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a5ec5f81ab8925dfb4fcf7c7e41f193f9">actSpectate</a> ()</td></tr>
-<tr class="separator:a5ec5f81ab8925dfb4fcf7c7e41f193f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7140a90aa5ebeeec57e4ad3c01ec7d71" id="r_a7140a90aa5ebeeec57e4ad3c01ec7d71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a7140a90aa5ebeeec57e4ad3c01ec7d71">actJoinAsJudge</a> ()</td></tr>
+<tr class="memdesc:a7140a90aa5ebeeec57e4ad3c01ec7d71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Joins the currently selected game as a judge.  <br /></td></tr>
+<tr class="separator:a7140a90aa5ebeeec57e4ad3c01ec7d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a285ea10d7bed54309847a24b8e18c414" id="r_a285ea10d7bed54309847a24b8e18c414"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a285ea10d7bed54309847a24b8e18c414">actJoinAsSpectator</a> ()</td></tr>
+<tr class="memdesc:a285ea10d7bed54309847a24b8e18c414"><td class="mdescLeft">&#160;</td><td class="mdescRight">Joins the currently selected game as a spectator.  <br /></td></tr>
+<tr class="separator:a285ea10d7bed54309847a24b8e18c414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6a9cedd383f4206ecda6a3bbc731e28" id="r_af6a9cedd383f4206ecda6a3bbc731e28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#af6a9cedd383f4206ecda6a3bbc731e28">actJoinAsJudgeSpectator</a> ()</td></tr>
+<tr class="separator:af6a9cedd383f4206ecda6a3bbc731e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c8278ce269bfa328bf5afeea336df3a" id="r_a9c8278ce269bfa328bf5afeea336df3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a9c8278ce269bfa328bf5afeea336df3a">customContextMenu</a> (const QPoint &amp;point)</td></tr>
+<tr class="memdesc:a9c8278ce269bfa328bf5afeea336df3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the custom context menu for a game when right-clicked.  <br /></td></tr>
 <tr class="separator:a9c8278ce269bfa328bf5afeea336df3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a405e441c07528666a1fd2ef7408064b6" id="r_a405e441c07528666a1fd2ef7408064b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a405e441c07528666a1fd2ef7408064b6">actSelectedGameChanged</a> (const QModelIndex &amp;current, const QModelIndex &amp;previous)</td></tr>
+<tr class="memdesc:a405e441c07528666a1fd2ef7408064b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot called when the selected game changes.  <br /></td></tr>
 <tr class="separator:a405e441c07528666a1fd2ef7408064b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea5f0f05185cbce6f395de46f29ccb94" id="r_aea5f0f05185cbce6f395de46f29ccb94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#aea5f0f05185cbce6f395de46f29ccb94">checkResponse</a> (const Response &amp;response)</td></tr>
+<tr class="memdesc:aea5f0f05185cbce6f395de46f29ccb94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes server responses for join or spectate commands.  <br /></td></tr>
 <tr class="separator:aea5f0f05185cbce6f395de46f29ccb94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57426bb1940fe7d76563c5c87fb056a5" id="r_a57426bb1940fe7d76563c5c87fb056a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a57426bb1940fe7d76563c5c87fb056a5">ignoreListReceived</a> (const QList&lt; ServerInfo_User &gt; &amp;_ignoreList)</td></tr>
+<tr class="memdesc:a57426bb1940fe7d76563c5c87fb056a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refreshes the game list when the ignore list is received from the server.  <br /></td></tr>
 <tr class="separator:a57426bb1940fe7d76563c5c87fb056a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e451de6822029dd44a1d6fca42ceaf6" id="r_a8e451de6822029dd44a1d6fca42ceaf6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a8e451de6822029dd44a1d6fca42ceaf6">processAddToListEvent</a> (const Event_AddToList &amp;event)</td></tr>
+<tr class="memdesc:a8e451de6822029dd44a1d6fca42ceaf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes events where a user is added to a list (e.g., ignore or buddy).  <br /></td></tr>
 <tr class="separator:a8e451de6822029dd44a1d6fca42ceaf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab782626922c244e7e009b87be06e3287" id="r_ab782626922c244e7e009b87be06e3287"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#ab782626922c244e7e009b87be06e3287">processRemoveFromListEvent</a> (const Event_RemoveFromList &amp;event)</td></tr>
+<tr class="memdesc:ab782626922c244e7e009b87be06e3287"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes events where a user is removed from a list (e.g., ignore or buddy).  <br /></td></tr>
 <tr class="separator:ab782626922c244e7e009b87be06e3287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:acfe6e69f272135997e174c1e31b9c302" id="r_acfe6e69f272135997e174c1e31b9c302"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#acfe6e69f272135997e174c1e31b9c302">updateTitle</a> ()</td></tr>
+<tr class="memdesc:acfe6e69f272135997e174c1e31b9c302"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the widget title to reflect the current number of displayed games.  <br /></td></tr>
 <tr class="separator:acfe6e69f272135997e174c1e31b9c302"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ff8b9dc96b99a203e198599c42e21c2" id="r_a9ff8b9dc96b99a203e198599c42e21c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a9ff8b9dc96b99a203e198599c42e21c2">disableButtons</a> ()</td></tr>
+<tr class="memdesc:a9ff8b9dc96b99a203e198599c42e21c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables create/join/spectate buttons.  <br /></td></tr>
 <tr class="separator:a9ff8b9dc96b99a203e198599c42e21c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21930436fc63bc8a5140d87284ac9b88" id="r_a21930436fc63bc8a5140d87284ac9b88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a21930436fc63bc8a5140d87284ac9b88">enableButtons</a> ()</td></tr>
+<tr class="memdesc:a21930436fc63bc8a5140d87284ac9b88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables buttons for the currently selected game.  <br /></td></tr>
 <tr class="separator:a21930436fc63bc8a5140d87284ac9b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4634b075dc2bd62ae419aab7f5a72c8" id="r_ac4634b075dc2bd62ae419aab7f5a72c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#ac4634b075dc2bd62ae419aab7f5a72c8">enableButtonsForIndex</a> (const QModelIndex &amp;current)</td></tr>
+<tr class="memdesc:ac4634b075dc2bd62ae419aab7f5a72c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables buttons for a specific game index.  <br /></td></tr>
 <tr class="separator:ac4634b075dc2bd62ae419aab7f5a72c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af09fc516963a0f969201030c580063de" id="r_af09fc516963a0f969201030c580063de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#af09fc516963a0f969201030c580063de">joinGame</a> (const bool isSpectator)</td></tr>
-<tr class="separator:af09fc516963a0f969201030c580063de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9a45b612f0bdd4e6c111fc7ef749989" id="r_ad9a45b612f0bdd4e6c111fc7ef749989"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#ad9a45b612f0bdd4e6c111fc7ef749989">joinGame</a> (bool asSpectator=false, bool asJudge=false)</td></tr>
+<tr class="memdesc:ad9a45b612f0bdd4e6c111fc7ef749989"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the join or spectate action for the currently selected game.  <br /></td></tr>
+<tr class="separator:ad9a45b612f0bdd4e6c111fc7ef749989"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -194,22 +223,31 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a95a03bb416252a302b9275c6fe56c36b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65fc5a21fa061838854f8441c7c56601" id="r_a65fc5a21fa061838854f8441c7c56601"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/db4/classGamesProxyModel.html">GamesProxyModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a65fc5a21fa061838854f8441c7c56601">gameListProxyModel</a></td></tr>
 <tr class="separator:a65fc5a21fa061838854f8441c7c56601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fc1004c477393760c4c282ba8e7a7f1" id="r_a4fc1004c477393760c4c282ba8e7a7f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dac/classGameSelectorQuickFilterToolBar.html">GameSelectorQuickFilterToolBar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a4fc1004c477393760c4c282ba8e7a7f1">quickFilterToolBar</a></td></tr>
+<tr class="separator:a4fc1004c477393760c4c282ba8e7a7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add4cce58a9f4c9c6c1a2a737a0fff2ff" id="r_add4cce58a9f4c9c6c1a2a737a0fff2ff"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#add4cce58a9f4c9c6c1a2a737a0fff2ff">filterButton</a></td></tr>
 <tr class="separator:add4cce58a9f4c9c6c1a2a737a0fff2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a666550c25cd556a55934f589a11b3075" id="r_a666550c25cd556a55934f589a11b3075"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a666550c25cd556a55934f589a11b3075">clearFilterButton</a></td></tr>
-<tr class="separator:a666550c25cd556a55934f589a11b3075"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50eb26d307e5079915c178ce03ac715d" id="r_a50eb26d307e5079915c178ce03ac715d"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a50eb26d307e5079915c178ce03ac715d">createButton</a></td></tr>
-<tr class="separator:a50eb26d307e5079915c178ce03ac715d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a168f4b2a3727939c53bdba064f380884" id="r_a168f4b2a3727939c53bdba064f380884"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a168f4b2a3727939c53bdba064f380884">joinButton</a></td></tr>
-<tr class="separator:a168f4b2a3727939c53bdba064f380884"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e31230f9c657f968f19d22df58bce16" id="r_a9e31230f9c657f968f19d22df58bce16"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a9e31230f9c657f968f19d22df58bce16">spectateButton</a></td></tr>
-<tr class="separator:a9e31230f9c657f968f19d22df58bce16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc415b95b29b0889c36186e8ff5e2591" id="r_acc415b95b29b0889c36186e8ff5e2591"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#acc415b95b29b0889c36186e8ff5e2591">clearFilterButton</a></td></tr>
+<tr class="separator:acc415b95b29b0889c36186e8ff5e2591"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31c3b93261696172276bcbb4163190b2" id="r_a31c3b93261696172276bcbb4163190b2"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a31c3b93261696172276bcbb4163190b2">createButton</a></td></tr>
+<tr class="separator:a31c3b93261696172276bcbb4163190b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86af8219b48b3ad0e7041bf5a621d793" id="r_a86af8219b48b3ad0e7041bf5a621d793"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a86af8219b48b3ad0e7041bf5a621d793">joinButton</a></td></tr>
+<tr class="separator:a86af8219b48b3ad0e7041bf5a621d793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a1d1747b2067581fa714fb1e7c5a8cc" id="r_a6a1d1747b2067581fa714fb1e7c5a8cc"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a6a1d1747b2067581fa714fb1e7c5a8cc">joinAsJudgeButton</a></td></tr>
+<tr class="separator:a6a1d1747b2067581fa714fb1e7c5a8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9753e5f1268b52fdea660d34408c589f" id="r_a9753e5f1268b52fdea660d34408c589f"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a9753e5f1268b52fdea660d34408c589f">spectateButton</a></td></tr>
+<tr class="separator:a9753e5f1268b52fdea660d34408c589f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39b8611cbe06ad9d1ccae0e3572886f8" id="r_a39b8611cbe06ad9d1ccae0e3572886f8"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a39b8611cbe06ad9d1ccae0e3572886f8">joinAsJudgeSpectatorButton</a></td></tr>
+<tr class="separator:a39b8611cbe06ad9d1ccae0e3572886f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a471430f639605dfe80a280092650e044" id="r_a471430f639605dfe80a280092650e044"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a471430f639605dfe80a280092650e044">showFilters</a></td></tr>
 <tr class="separator:a471430f639605dfe80a280092650e044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c96ae17add913567b9228b0d37525bf" id="r_a8c96ae17add913567b9228b0d37525bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d92/game__type__map_8h.html#a8fd9fd937325db0b4ae4edae4ae91924">GameTypeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d3f/classGameSelector.html#a8c96ae17add913567b9228b0d37525bf">gameTypeMap</a></td></tr>
 <tr class="separator:a8c96ae17add913567b9228b0d37525bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Provides a widget for displaying, filtering, joining, spectating, and creating games in a room. </p>
+<p>The <a class="el" href="../../df/d3f/classGameSelector.html" title="Provides a widget for displaying, filtering, joining, spectating, and creating games in a room.">GameSelector</a> displays all available games in a QTreeView. It supports filtering, creating, joining, spectating, and viewing game details. Integrates with <a class="el" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> and <a class="el" href="../../df/d78/classTabRoom.html">TabRoom</a> for room and game management. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5349eb187f8318d008fc1b805c17cf0c" name="a5349eb187f8318d008fc1b805c17cf0c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5349eb187f8318d008fc1b805c17cf0c">&#9670;&#160;</a></span>GameSelector()</h2>
 
@@ -271,6 +309,21 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="../../df/d3f/classGameSelector.html" title="Provides a widget for displaying, filtering, joining, spectating, and creating games in a room.">GameSelector</a> widget. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_client</td><td>The network client used to communicate with the server. </td></tr>
+    <tr><td class="paramname">_tabSupervisor</td><td>Reference to <a class="el" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> for managing tabs and rooms. </td></tr>
+    <tr><td class="paramname">_room</td><td>Pointer to the current room; nullptr if no room is selected. </td></tr>
+    <tr><td class="paramname">_rooms</td><td>Map of room IDs to room names. </td></tr>
+    <tr><td class="paramname">_gameTypes</td><td>Map of room IDs to their available game types. </td></tr>
+    <tr><td class="paramname">restoresettings</td><td>Whether to restore filter settings from previous sessions. </td></tr>
+    <tr><td class="paramname">_showfilters</td><td>Whether to display filter buttons. </td></tr>
+    <tr><td class="paramname">parent</td><td>Parent QWidget. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -302,6 +355,9 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Clears all filters applied to the game list. </p>
+<p>Resets the proxy model to show all games. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -337,6 +393,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Opens the dialog to create a new game in the current room. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -372,6 +430,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Joins the currently selected game as a player. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -381,6 +441,115 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_a40d098545421529a7296deb4f6e0bf3f_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a7140a90aa5ebeeec57e4ad3c01ec7d71" name="a7140a90aa5ebeeec57e4ad3c01ec7d71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7140a90aa5ebeeec57e4ad3c01ec7d71">&#9670;&#160;</a></span>actJoinAsJudge</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::actJoinAsJudge </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Joins the currently selected game as a judge. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_a7140a90aa5ebeeec57e4ad3c01ec7d71_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_a7140a90aa5ebeeec57e4ad3c01ec7d71_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af6a9cedd383f4206ecda6a3bbc731e28" name="af6a9cedd383f4206ecda6a3bbc731e28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6a9cedd383f4206ecda6a3bbc731e28">&#9670;&#160;</a></span>actJoinAsJudgeSpectator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::actJoinAsJudgeSpectator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_af6a9cedd383f4206ecda6a3bbc731e28_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_af6a9cedd383f4206ecda6a3bbc731e28_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a285ea10d7bed54309847a24b8e18c414" name="a285ea10d7bed54309847a24b8e18c414"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a285ea10d7bed54309847a24b8e18c414">&#9670;&#160;</a></span>actJoinAsSpectator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::actJoinAsSpectator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Joins the currently selected game as a spectator. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_a285ea10d7bed54309847a24b8e18c414_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_a285ea10d7bed54309847a24b8e18c414_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -418,6 +587,16 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Slot called when the selected game changes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">current</td><td>The currently selected index. </td></tr>
+    <tr><td class="paramname">previous</td><td>The previously selected index.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Updates the enabled/disabled state of buttons depending on the selected game. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -453,6 +632,9 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Opens a dialog to set filters for the game list. </p>
+<p>Updates the proxy model with selected filter parameters and refreshes the displayed game list. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -462,41 +644,6 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_a75131cf48d42d361f2b6f113038b3626_icgraph.svg" width="470" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a5ec5f81ab8925dfb4fcf7c7e41f193f9" name="a5ec5f81ab8925dfb4fcf7c7e41f193f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ec5f81ab8925dfb4fcf7c7e41f193f9">&#9670;&#160;</a></span>actSpectate</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GameSelector::actSpectate </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_a5ec5f81ab8925dfb4fcf7c7e41f193f9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_a5ec5f81ab8925dfb4fcf7c7e41f193f9_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -524,6 +671,15 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Processes server responses for join or spectate commands. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">response</td><td>The response from the server.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Displays error messages for failed join/spectate attempts. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -532,7 +688,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_aea5f0f05185cbce6f395de46f29ccb94_icgraph.svg" width="100%" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_aea5f0f05185cbce6f395de46f29ccb94_icgraph.svg" width="100%" height="488"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -560,6 +716,14 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Shows the custom context menu for a game when right-clicked. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">point</td><td>The point at which the context menu is requested. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -595,10 +759,12 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Disables create/join/spectate buttons. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_a9ff8b9dc96b99a203e198599c42e21c2_icgraph.svg" width="100%" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_a9ff8b9dc96b99a203e198599c42e21c2_icgraph.svg" width="100%" height="488"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -625,6 +791,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Enables buttons for the currently selected game. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -633,7 +801,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_a21930436fc63bc8a5140d87284ac9b88_icgraph.svg" width="100%" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_a21930436fc63bc8a5140d87284ac9b88_icgraph.svg" width="100%" height="488"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -661,6 +829,14 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Enables buttons for a specific game index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">current</td><td>The index of the currently selected game. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -669,7 +845,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_ac4634b075dc2bd62ae419aab7f5a72c8_icgraph.svg" width="100%" height="443"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_ac4634b075dc2bd62ae419aab7f5a72c8_icgraph.svg" width="100%" height="517"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -698,6 +874,14 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Emitted when a game has been successfully joined. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameId</td><td>The ID of the joined game. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a57426bb1940fe7d76563c5c87fb056a5" name="a57426bb1940fe7d76563c5c87fb056a5"></a>
@@ -723,6 +907,14 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Refreshes the game list when the ignore list is received from the server. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_ignoreList</td><td>The list of users being ignored. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -736,8 +928,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="af09fc516963a0f969201030c580063de" name="af09fc516963a0f969201030c580063de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af09fc516963a0f969201030c580063de">&#9670;&#160;</a></span>joinGame()</h2>
+<a id="ad9a45b612f0bdd4e6c111fc7ef749989" name="ad9a45b612f0bdd4e6c111fc7ef749989"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9a45b612f0bdd4e6c111fc7ef749989">&#9670;&#160;</a></span>joinGame()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -748,9 +940,19 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameSelector::joinGame </td>
           <td>(</td>
-          <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>isSpectator</em></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>asSpectator</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>asJudge</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -759,15 +961,25 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Performs the join or spectate action for the currently selected game. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">asSpectator</td><td>True to join as a spectator, false to join as a player. </td></tr>
+    <tr><td class="paramname">asJudge</td><td>True to join as a judge, false to join as a player.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Handles password prompts, overrides, and sending the join command to the server. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_af09fc516963a0f969201030c580063de_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_ad9a45b612f0bdd4e6c111fc7ef749989_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_af09fc516963a0f969201030c580063de_icgraph.svg" width="100%" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d3f/classGameSelector_ad9a45b612f0bdd4e6c111fc7ef749989_icgraph.svg" width="100%" height="488"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -795,6 +1007,14 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Processes events where a user is added to a list (e.g., ignore or buddy). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>The event information. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -823,6 +1043,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Updates or adds a game entry in the list. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">info</td><td>The ServerInfo_Game object containing information about the game to update. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -859,6 +1087,14 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Processes events where a user is removed from a list (e.g., ignore or buddy). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>The event information. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -886,6 +1122,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Updates UI text for translation/localization. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -921,6 +1159,9 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Updates the widget title to reflect the current number of displayed games. </p>
+<p>Shows the number of visible games versus total games if filters are enabled. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -935,8 +1176,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a666550c25cd556a55934f589a11b3075" name="a666550c25cd556a55934f589a11b3075"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a666550c25cd556a55934f589a11b3075">&#9670;&#160;</a></span>clearFilterButton</h2>
+<a id="acc415b95b29b0889c36186e8ff5e2591" name="acc415b95b29b0889c36186e8ff5e2591"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc415b95b29b0889c36186e8ff5e2591">&#9670;&#160;</a></span>clearFilterButton</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -945,7 +1186,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QPushButton * GameSelector::clearFilterButton</td>
+          <td class="memname">QPushButton* GameSelector::clearFilterButton</td>
         </tr>
       </table>
   </td>
@@ -954,6 +1195,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Button to clear active filters. </p>
 
 </div>
 </div>
@@ -976,11 +1218,12 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>The network client used to communicate with the server. </p>
 
 </div>
 </div>
-<a id="a50eb26d307e5079915c178ce03ac715d" name="a50eb26d307e5079915c178ce03ac715d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50eb26d307e5079915c178ce03ac715d">&#9670;&#160;</a></span>createButton</h2>
+<a id="a31c3b93261696172276bcbb4163190b2" name="a31c3b93261696172276bcbb4163190b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31c3b93261696172276bcbb4163190b2">&#9670;&#160;</a></span>createButton</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -989,7 +1232,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QPushButton * GameSelector::createButton</td>
+          <td class="memname">QPushButton* GameSelector::createButton</td>
         </tr>
       </table>
   </td>
@@ -998,6 +1241,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Button to create a new game (only if room is set). </p>
 
 </div>
 </div>
@@ -1020,6 +1264,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Button to open the filter dialog. </p>
 
 </div>
 </div>
@@ -1042,6 +1287,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Model containing all games. </p>
 
 </div>
 </div>
@@ -1064,6 +1310,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Proxy model for filtering and sorting the game list. </p>
 
 </div>
 </div>
@@ -1086,6 +1333,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>View widget for displaying the game list. </p>
 
 </div>
 </div>
@@ -1108,11 +1356,12 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Mapping of game types for the current room. </p>
 
 </div>
 </div>
-<a id="a168f4b2a3727939c53bdba064f380884" name="a168f4b2a3727939c53bdba064f380884"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a168f4b2a3727939c53bdba064f380884">&#9670;&#160;</a></span>joinButton</h2>
+<a id="a6a1d1747b2067581fa714fb1e7c5a8cc" name="a6a1d1747b2067581fa714fb1e7c5a8cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a1d1747b2067581fa714fb1e7c5a8cc">&#9670;&#160;</a></span>joinAsJudgeButton</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1121,7 +1370,76 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QPushButton * GameSelector::joinButton</td>
+          <td class="memname">QPushButton* GameSelector::joinAsJudgeButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Button to join the selected game as a judge. </p>
+
+</div>
+</div>
+<a id="a39b8611cbe06ad9d1ccae0e3572886f8" name="a39b8611cbe06ad9d1ccae0e3572886f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39b8611cbe06ad9d1ccae0e3572886f8">&#9670;&#160;</a></span>joinAsJudgeSpectatorButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* GameSelector::joinAsJudgeSpectatorButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Button to join the selected game as a spectating judge. </p>
+
+</div>
+</div>
+<a id="a86af8219b48b3ad0e7041bf5a621d793" name="a86af8219b48b3ad0e7041bf5a621d793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86af8219b48b3ad0e7041bf5a621d793">&#9670;&#160;</a></span>joinButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* GameSelector::joinButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Button to join the selected game. </p>
+
+</div>
+</div>
+<a id="a4fc1004c477393760c4c282ba8e7a7f1" name="a4fc1004c477393760c4c282ba8e7a7f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fc1004c477393760c4c282ba8e7a7f1">&#9670;&#160;</a></span>quickFilterToolBar</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dac/classGameSelectorQuickFilterToolBar.html">GameSelectorQuickFilterToolBar</a>* GameSelector::quickFilterToolBar</td>
         </tr>
       </table>
   </td>
@@ -1152,6 +1470,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>The current room. </p>
 
 </div>
 </div>
@@ -1174,11 +1493,12 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Determines whether filter buttons are displayed. </p>
 
 </div>
 </div>
-<a id="a9e31230f9c657f968f19d22df58bce16" name="a9e31230f9c657f968f19d22df58bce16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e31230f9c657f968f19d22df58bce16">&#9670;&#160;</a></span>spectateButton</h2>
+<a id="a9753e5f1268b52fdea660d34408c589f" name="a9753e5f1268b52fdea660d34408c589f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9753e5f1268b52fdea660d34408c589f">&#9670;&#160;</a></span>spectateButton</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1187,7 +1507,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QPushButton * GameSelector::spectateButton</td>
+          <td class="memname">QPushButton* GameSelector::spectateButton</td>
         </tr>
       </table>
   </td>
@@ -1196,6 +1516,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Button to spectate the selected game. </p>
 
 </div>
 </div>
@@ -1218,6 +1539,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Reference to <a class="el" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> for managing tabs and rooms. </p>
 
 </div>
 </div>

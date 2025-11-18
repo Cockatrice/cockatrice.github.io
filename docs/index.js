@@ -8,11 +8,11 @@ var index =
         [ "Further References", "d3/d9a/creating_decks.html#autotoc_md27", null ]
       ] ],
       [ "Importing Decks", "db/d91/importing_decks.html", [
-        [ "Where to import?", "db/d91/importing_decks.html#autotoc_md44", null ],
-        [ "The Deck Editor Tab", "db/d91/importing_decks.html#autotoc_md45", [
-          [ "Local File Storage", "db/d91/importing_decks.html#autotoc_md46", null ],
-          [ "From Clipboard", "db/d91/importing_decks.html#autotoc_md47", null ],
-          [ "From an online service", "db/d91/importing_decks.html#autotoc_md48", null ]
+        [ "Where to import?", "db/d91/importing_decks.html#autotoc_md48", null ],
+        [ "The Deck Editor Tab", "db/d91/importing_decks.html#autotoc_md49", [
+          [ "Local File Storage", "db/d91/importing_decks.html#autotoc_md50", null ],
+          [ "From Clipboard", "db/d91/importing_decks.html#autotoc_md51", null ],
+          [ "From an online service", "db/d91/importing_decks.html#autotoc_md52", null ]
         ] ]
       ] ],
       [ "Editing Decks", "da/d03/editing_decks.html", [
@@ -23,21 +23,27 @@ var index =
           [ "Modifying printings", "d3/d32/editing_decks_classic.html#autotoc_md31", null ]
         ] ],
         [ "Visual Deck Editor", "de/d6e/editing_decks_visual.html", [
-          [ "Editing Basic Deck Information", "de/d6e/editing_decks_visual.html#autotoc_md32", null ],
-          [ "Adding Cards", "de/d6e/editing_decks_visual.html#autotoc_md33", null ],
-          [ "Modifying the Deck List", "de/d6e/editing_decks_visual.html#autotoc_md34", null ],
-          [ "Modifying the visual deck layout", "de/d6e/editing_decks_visual.html#autotoc_md35", null ],
-          [ "Modifying printings", "de/d6e/editing_decks_visual.html#autotoc_md36", null ],
-          [ "Deck Analytics", "de/d6e/editing_decks_visual.html#autotoc_md37", null ],
-          [ "Sample Hand", "de/d6e/editing_decks_visual.html#autotoc_md38", null ]
+          [ "Editing Basic Deck Information", "de/d6e/editing_decks_visual.html#autotoc_md36", null ],
+          [ "Adding Cards", "de/d6e/editing_decks_visual.html#autotoc_md37", null ],
+          [ "Modifying the Deck List", "de/d6e/editing_decks_visual.html#autotoc_md38", null ],
+          [ "Modifying the visual deck layout", "de/d6e/editing_decks_visual.html#autotoc_md39", null ],
+          [ "Modifying printings", "de/d6e/editing_decks_visual.html#autotoc_md40", null ],
+          [ "Deck Analytics", "de/d6e/editing_decks_visual.html#autotoc_md41", null ],
+          [ "Sample Hand", "de/d6e/editing_decks_visual.html#autotoc_md42", null ]
+        ] ],
+        [ "Printing Selector", "d7/d64/editing_decks_printings.html", [
+          [ "Purpose", "d7/d64/editing_decks_printings.html#autotoc_md32", null ],
+          [ "Pre-requisites (User Interface)", "d7/d64/editing_decks_printings.html#autotoc_md33", null ],
+          [ "Pre-requisites (Card Database)", "d7/d64/editing_decks_printings.html#autotoc_md34", null ],
+          [ "Using the Printing Selector", "d7/d64/editing_decks_printings.html#autotoc_md35", null ]
         ] ]
       ] ],
       [ "Exporting Decks", "d0/d51/exporting_decks.html", [
-        [ "Where to export?", "d0/d51/exporting_decks.html#autotoc_md39", null ],
-        [ "The Deck Editor Tab", "d0/d51/exporting_decks.html#autotoc_md40", [
-          [ "Local File Storage", "d0/d51/exporting_decks.html#autotoc_md41", null ],
-          [ "From Clipboard", "d0/d51/exporting_decks.html#autotoc_md42", null ],
-          [ "From an online service", "d0/d51/exporting_decks.html#autotoc_md43", null ]
+        [ "Where to export?", "d0/d51/exporting_decks.html#autotoc_md43", null ],
+        [ "The Deck Editor Tab", "d0/d51/exporting_decks.html#autotoc_md44", [
+          [ "Local File Storage", "d0/d51/exporting_decks.html#autotoc_md45", null ],
+          [ "From Clipboard", "d0/d51/exporting_decks.html#autotoc_md46", null ],
+          [ "From an online service", "d0/d51/exporting_decks.html#autotoc_md47", null ]
         ] ]
       ] ]
     ] ],

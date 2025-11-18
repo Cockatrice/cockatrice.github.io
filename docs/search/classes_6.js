@@ -8,12 +8,13 @@ var searchData=
   ['gamemetainfo_5',['GameMetaInfo',['../d9/db5/classGameMetaInfo.html',1,'']]],
   ['gamescene_6',['GameScene',['../db/d9f/classGameScene.html',1,'']]],
   ['gameselector_7',['GameSelector',['../df/d3f/classGameSelector.html',1,'']]],
-  ['gamesmodel_8',['GamesModel',['../da/dbd/classGamesModel.html',1,'']]],
-  ['gamesproxymodel_9',['GamesProxyModel',['../db/db4/classGamesProxyModel.html',1,'']]],
-  ['gamestate_10',['GameState',['../d3/df3/classGameState.html',1,'']]],
-  ['gameview_11',['GameView',['../dd/d97/classGameView.html',1,'']]],
-  ['generalcounter_12',['GeneralCounter',['../db/d3b/classGeneralCounter.html',1,'']]],
-  ['generalsettingspage_13',['GeneralSettingsPage',['../d0/d41/classGeneralSettingsPage.html',1,'']]],
-  ['graveyardmenu_14',['GraveyardMenu',['../d2/d73/classGraveyardMenu.html',1,'']]],
-  ['gridsize_15',['GridSize',['../db/dc7/structZoneViewZone_1_1GridSize.html',1,'ZoneViewZone']]]
+  ['gameselectorquickfiltertoolbar_8',['GameSelectorQuickFilterToolBar',['../df/dac/classGameSelectorQuickFilterToolBar.html',1,'']]],
+  ['gamesmodel_9',['GamesModel',['../da/dbd/classGamesModel.html',1,'']]],
+  ['gamesproxymodel_10',['GamesProxyModel',['../db/db4/classGamesProxyModel.html',1,'']]],
+  ['gamestate_11',['GameState',['../d3/df3/classGameState.html',1,'']]],
+  ['gameview_12',['GameView',['../dd/d97/classGameView.html',1,'']]],
+  ['generalcounter_13',['GeneralCounter',['../db/d3b/classGeneralCounter.html',1,'']]],
+  ['generalsettingspage_14',['GeneralSettingsPage',['../d0/d41/classGeneralSettingsPage.html',1,'']]],
+  ['graveyardmenu_15',['GraveyardMenu',['../d2/d73/classGraveyardMenu.html',1,'']]],
+  ['gridsize_16',['GridSize',['../db/dc7/structZoneViewZone_1_1GridSize.html',1,'ZoneViewZone']]]
 ];

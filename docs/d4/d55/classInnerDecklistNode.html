@@ -40,8 +40,9 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
+                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
                     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -229,7 +230,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a container node in the deck list hierarchy (zones and groupings). </p>
 <p>Unlike <a class="el" href="../../d5/d22/classDecklistCardNode.html" title="Concrete node type representing an actual card entry in the deck.">DecklistCardNode</a>, which holds leaf card data, this class manages collections of child nodes, which may themselves be <a class="el" href="../../d4/d55/classInnerDecklistNode.html" title="Represents a container node in the deck list hierarchy (zones and groupings).">InnerDecklistNode</a> or <a class="el" href="../../d5/d22/classDecklistCardNode.html" title="Concrete node type representing an actual card entry in the deck.">DecklistCardNode</a> objects.</p>
-<h3><a class="anchor" id="autotoc_md62"></a>
+<h3><a class="anchor" id="autotoc_md66"></a>
 Role in the hierarchy:</h3>
 <ul>
 <li>Root node (invisible): Holds zones.</li>
@@ -237,12 +238,12 @@ Role in the hierarchy:</h3>
 <li>Grouping nodes: Created dynamically when grouping by type, color, or mana cost.</li>
 <li>Card nodes: Always children of an <a class="el" href="../../d4/d55/classInnerDecklistNode.html" title="Represents a container node in the deck list hierarchy (zones and groupings).">InnerDecklistNode</a>.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md63"></a>
+<h3><a class="anchor" id="autotoc_md67"></a>
 Design notes:</h3>
 <ul>
 <li>Inherits from <a class="el" href="../../dc/dd8/classAbstractDecklistNode.html" title="Base class for all nodes in the deck list tree.">AbstractDecklistNode</a> (tree interface) and QList&lt;AbstractDecklistNode*&gt; (storage of children). This allows direct QList-style manipulation of children while still presenting a polymorphic node interface.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md64"></a>
+<h3><a class="anchor" id="autotoc_md68"></a>
 Responsibilities:</h3>
 <ul>
 <li>Store a display name.</li>
@@ -251,7 +252,7 @@ Responsibilities:</h3>
 <li>Implement sorting logic for reordering children.</li>
 <li>Implement XML serialization for persistence.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md65"></a>
+<h3><a class="anchor" id="autotoc_md69"></a>
 Ownership:</h3>
 <ul>
 <li>Owns all child nodes stored in the QList. The destructor recursively deletes children. </li>

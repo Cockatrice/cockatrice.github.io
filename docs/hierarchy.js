@@ -550,6 +550,7 @@ var hierarchy =
       [ "FilterBuilder", "d3/dff/classFilterBuilder.html", null ],
       [ "FilterDisplayWidget", "d9/ddf/classFilterDisplayWidget.html", null ],
       [ "FlowWidget", "d5/d53/classFlowWidget.html", null ],
+      [ "GameSelectorQuickFilterToolBar", "df/dac/classGameSelectorQuickFilterToolBar.html", null ],
       [ "HomeWidget", "de/de3/classHomeWidget.html", null ],
       [ "LabeledInput", "d8/d6f/classLabeledInput.html", null ],
       [ "ManaBaseWidget", "de/de9/classManaBaseWidget.html", null ],
@@ -617,6 +618,7 @@ var hierarchy =
     [ "TokenInfo", "dd/d40/structTokenInfo.html", null ],
     [ "TranslateCounterName", "d8/dab/classTranslateCounterName.html", null ],
     [ "peg::Trie", "d4/da5/classpeg_1_1Trie.html", null ],
+    [ "CardInfo::UiAttributes", "d7/d93/structCardInfo_1_1UiAttributes.html", null ],
     [ "UserConnection_Information", "d5/d88/classUserConnection__Information.html", null ],
     [ "UserLevelPixmapGenerator", "d8/df9/classUserLevelPixmapGenerator.html", null ],
     [ "UserListProxy", "dc/dc8/classUserListProxy.html", [

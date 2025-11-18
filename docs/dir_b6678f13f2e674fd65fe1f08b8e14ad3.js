@@ -5,6 +5,8 @@ var dir_b6678f13f2e674fd65fe1f08b8e14ad3 =
     [ "user", "dir_d765547cb107e3eb2b3b1574ade0a766.html", "dir_d765547cb107e3eb2b3b1574ade0a766" ],
     [ "game_selector.cpp", "da/d5a/game__selector_8cpp.html", null ],
     [ "game_selector.h", "d9/d03/game__selector_8h.html", "d9/d03/game__selector_8h" ],
+    [ "game_selector_quick_filter_toolbar.cpp", "df/d24/game__selector__quick__filter__toolbar_8cpp.html", null ],
+    [ "game_selector_quick_filter_toolbar.h", "dc/df7/game__selector__quick__filter__toolbar_8h.html", "dc/df7/game__selector__quick__filter__toolbar_8h" ],
     [ "game_type_map.h", "d8/d92/game__type__map_8h.html", "d8/d92/game__type__map_8h" ],
     [ "games_model.cpp", "dd/d11/games__model_8cpp.html", "dd/d11/games__model_8cpp" ],
     [ "games_model.h", "d8/d5c/games__model_8h.html", "d8/d5c/games__model_8h" ],

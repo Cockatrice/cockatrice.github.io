@@ -11,7 +11,7 @@ var searchData=
   ['labelmessage_8',['labelMessage',['../d9/ded/classTabLog.html#a0ae496707266844c39e276ae89733326',1,'TabLog']]],
   ['labnotes_9',['labNotes',['../dd/d67/classWndSets.html#aecb016a70679ec16d501c7fd07130700',1,'WndSets']]],
   ['land_10',['land',['../d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a4e30aefc23765334865961029eac8825',1,'EdhrecCommanderApiResponseAverageDeckStatistics']]],
-  ['landscapeorientation_11',['landscapeOrientation',['../dd/dd2/classCardInfo.html#a2b78f651f66ccf5a50b501788e51958f',1,'CardInfo']]],
+  ['landscapeorientation_11',['landscapeOrientation',['../d7/d93/structCardInfo_1_1UiAttributes.html#aaf97bfd86c391c2bc5eadbba06c8a2a0',1,'CardInfo::UiAttributes']]],
   ['lang_12',['lang',['../d5/d88/classSettingsCache.html#a9938b0fa573fbbda1ff2ff94cb85e333',1,'SettingsCache']]],
   ['languagebox_13',['languageBox',['../d0/d41/classGeneralSettingsPage.html#a06d258c5fc847a30267f8e11879ec2f1',1,'GeneralSettingsPage']]],
   ['languagelabel_14',['languageLabel',['../d0/d41/classGeneralSettingsPage.html#a20f9453a005528bca56fcd2a01bf31f9',1,'GeneralSettingsPage']]],

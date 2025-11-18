@@ -2,7 +2,7 @@ var classGameFiltersSettings =
 [
     [ "GameFiltersSettings", "df/dd0/classGameFiltersSettings.html#a050344a965ac129f839d3fba53d2e983", null ],
     [ "GameFiltersSettings", "df/dd0/classGameFiltersSettings.html#a2c2c9f14c79f20eb1d0adf12a9e27701", null ],
-    [ "getCreatorNameFilter", "df/dd0/classGameFiltersSettings.html#a6e74f5942c237f4f2aa3da9f5e0d672a", null ],
+    [ "getCreatorNameFilters", "df/dd0/classGameFiltersSettings.html#a102d64fe06ed33be51a714d28e42ecf4", null ],
     [ "getGameNameFilter", "df/dd0/classGameFiltersSettings.html#aafc601600a63659b7d3d9f2959a44701", null ],
     [ "getMaxGameAge", "df/dd0/classGameFiltersSettings.html#af9a8c80ecaf2dba52aadc183b1f891bd", null ],
     [ "getMaxPlayers", "df/dd0/classGameFiltersSettings.html#ab66129aa697dd1c40cb2134acdb7ed6d", null ],
@@ -20,7 +20,7 @@ var classGameFiltersSettings =
     [ "isShowOnlyIfSpectatorsCanSeeHands", "df/dd0/classGameFiltersSettings.html#ab737d56ba5e9d6258b1613c6a0004c84", null ],
     [ "isShowOnlyIfSpectatorsCanWatch", "df/dd0/classGameFiltersSettings.html#a58cccfda3e175f4bc044840b75fb160b", null ],
     [ "isShowSpectatorPasswordProtected", "df/dd0/classGameFiltersSettings.html#abee3e45293bf1fb9c86e04d77e226183", null ],
-    [ "setCreatorNameFilter", "df/dd0/classGameFiltersSettings.html#aabf1d7f723a383253346959a1d11e69e", null ],
+    [ "setCreatorNameFilters", "df/dd0/classGameFiltersSettings.html#afb5df62b65406a3bcfe5dc4568ce46ed", null ],
     [ "setGameHashedTypeEnabled", "df/dd0/classGameFiltersSettings.html#abe3e0fad71cc3919bfcf0ed164e28bd8", null ],
     [ "setGameNameFilter", "df/dd0/classGameFiltersSettings.html#a83937896519de48f99f8e3b196c4fef5", null ],
     [ "setGameTypeEnabled", "df/dd0/classGameFiltersSettings.html#a966fcfc38f70431274cea43041f3b5f8", null ],

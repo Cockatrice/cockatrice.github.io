@@ -41,7 +41,7 @@ var searchData=
   ['onenter_38',['onEnter',['../da/d89/classKeySignals.html#a34472330d97c4b0830e38511df2a99ab',1,'KeySignals']]],
   ['onhover_39',['onhover',['../d9/d5d/classCardGroupDisplayWidget.html#ad977528d6276f0c8ad74215629a165b3',1,'CardGroupDisplayWidget::onHover()'],['../d8/d9f/classDeckCardZoneDisplayWidget.html#a1615b8300f3f2683a1143337c619d3c8',1,'DeckCardZoneDisplayWidget::onHover()'],['../d2/d32/classVisualDatabaseDisplayWidget.html#ae7dddcfac07b6d64cdfcd1d29435ce22',1,'VisualDatabaseDisplayWidget::onHover()'],['../da/d1e/classVisualDeckEditorWidget.html#a758833c49e70af3c3b02baebba7ab5c9',1,'VisualDeckEditorWidget::onHover()']]],
   ['onlendlibrarytriggered_40',['onLendLibraryTriggered',['../d9/d65/classLibraryMenu.html#ad48a8d40d6859c421e098bac078c42f9',1,'LibraryMenu']]],
-  ['online_20service_41',['online service',['../db/d91/importing_decks.html#autotoc_md48',1,'From an online service'],['../d0/d51/exporting_decks.html#autotoc_md43',1,'From an online service']]],
+  ['online_20service_41',['online service',['../db/d91/importing_decks.html#autotoc_md52',1,'From an online service'],['../d0/d51/exporting_decks.html#autotoc_md47',1,'From an online service']]],
   ['onlinecount_42',['onlineCount',['../da/d3b/classUserListWidget.html#a67d76b3921c7361bc18df58496b62ee7',1,'UserListWidget']]],
   ['onlineusers_43',['onlineUsers',['../db/d6d/classUserListManager.html#ae9d958ea579315cc6b9b1e1ef1a85130',1,'UserListManager']]],
   ['onlybuddies_44',['onlybuddies',['../d5/d88/classSettingsCache.html#a101003d18ddf42f60877adcd5efcd97d',1,'SettingsCache::onlyBuddies'],['../df/d89/classServer__Game.html#a72b4a2e9fa3eee9fb356b37dc122d7eb',1,'Server_Game::onlyBuddies']]],
@@ -150,7 +150,7 @@ var searchData=
   ['overrideallcardartwithpersonalpreferencetoggled_147',['overrideAllCardArtWithPersonalPreferenceToggled',['../d8/dc5/classAppearanceSettingsPage.html#ad1ad2ef449dea13ec8efcd716e7d5bfe',1,'AppearanceSettingsPage']]],
   ['overwriteownership_148',['overwriteOwnership',['../de/d8f/classGameEventStorage.html#a222e6ba32284ad4e080cb316aea50e16',1,'GameEventStorage']]],
   ['owner_149',['owner',['../d9/dce/classArrowTarget.html#abaf1f20fe8df68fca8ef1fdf3348cb7e',1,'ArrowTarget']]],
-  ['ownership_3a_150',['ownership:',['../d4/d55/classInnerDecklistNode.html#autotoc_md65',1,'Ownership:'],['../d5/d22/classDecklistCardNode.html#autotoc_md61',1,'Ownership:'],['../da/d68/classDeckList.html#autotoc_md55',1,'Ownership:'],['../d3/de9/classAbstractDecklistCardNode.html#autotoc_md51',1,'Ownership:']]],
+  ['ownership_3a_150',['ownership:',['../d4/d55/classInnerDecklistNode.html#autotoc_md69',1,'Ownership:'],['../d5/d22/classDecklistCardNode.html#autotoc_md65',1,'Ownership:'],['../da/d68/classDeckList.html#autotoc_md59',1,'Ownership:'],['../d3/de9/classAbstractDecklistCardNode.html#autotoc_md55',1,'Ownership:']]],
   ['ownuser_151',['ownUser',['../df/d78/classTabRoom.html#addea7f2790e05bf04a7f846cbbc6fc79',1,'TabRoom']]],
   ['ownuserinfo_152',['ownuserinfo',['../db/d6d/classUserListManager.html#a343b88aec385ef35d3df7c0e0133d797',1,'UserListManager::ownUserInfo'],['../d1/de7/classTabMessage.html#a5eb7d12dd4dedcfa71d2476dd01d7cb3',1,'TabMessage::ownUserInfo']]],
   ['ownusername_153',['ownUserName',['../dc/dea/classChatView.html#a247c82f13e8feec5cfac6c46648829ba',1,'ChatView']]]

@@ -9,6 +9,7 @@ var classDlgCreateGame =
     [ "spectatorsAllowedChanged", "d6/dee/classDlgCreateGame.html#a1738205750508aa360824d90e3f5e1e4", null ],
     [ "buttonBox", "d6/dee/classDlgCreateGame.html#a738f5b0a9b584223cecd64fbcd6d102d", null ],
     [ "clearButton", "d6/dee/classDlgCreateGame.html#a5b6d3681a5d52f31480be2403b76e112", null ],
+    [ "createGameAsJudgeCheckBox", "d6/dee/classDlgCreateGame.html#ac006d96d03cc4be08c28e86de96ea475", null ],
     [ "createGameAsSpectatorCheckBox", "d6/dee/classDlgCreateGame.html#a179341f7fb5cc54f95d96424bd378544", null ],
     [ "descriptionEdit", "d6/dee/classDlgCreateGame.html#a610a7cdaf8c9c8b055db3bb3b5e5fbb2", null ],
     [ "descriptionLabel", "d6/dee/classDlgCreateGame.html#ac8c346ad76500355cb35f134b2de4b99", null ],

@@ -2,7 +2,7 @@ var classDlgFilterGames =
 [
     [ "DlgFilterGames", "d1/dba/classDlgFilterGames.html#a39c9edd003f1371c80b0f5777cfcf528", null ],
     [ "actOk", "d1/dba/classDlgFilterGames.html#a77a34de8086e899b5483c97eada901eb", null ],
-    [ "getCreatorNameFilter", "d1/dba/classDlgFilterGames.html#a60117244c4de4c88f7f96254f73186dd", null ],
+    [ "getCreatorNameFilters", "d1/dba/classDlgFilterGames.html#a1ffb71c5d3d9f0b5cd6d0f85ab3dabb9", null ],
     [ "getGameNameFilter", "d1/dba/classDlgFilterGames.html#a51946f34c25097b3776b60bbbb643654", null ],
     [ "getGameTypeFilter", "d1/dba/classDlgFilterGames.html#ac89f589f1cf31c72cfece492b77fa941", null ],
     [ "getHideBuddiesOnlyGames", "d1/dba/classDlgFilterGames.html#ad6f38161532813fe5630328e6ad139c1", null ],

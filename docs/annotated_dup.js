@@ -243,6 +243,7 @@ var annotated_dup =
     [ "GameMetaInfo", "d9/db5/classGameMetaInfo.html", "d9/db5/classGameMetaInfo" ],
     [ "GameScene", "db/d9f/classGameScene.html", "db/d9f/classGameScene" ],
     [ "GameSelector", "df/d3f/classGameSelector.html", "df/d3f/classGameSelector" ],
+    [ "GameSelectorQuickFilterToolBar", "df/dac/classGameSelectorQuickFilterToolBar.html", "df/dac/classGameSelectorQuickFilterToolBar" ],
     [ "GamesModel", "da/dbd/classGamesModel.html", "da/dbd/classGamesModel" ],
     [ "GamesProxyModel", "db/db4/classGamesProxyModel.html", "db/db4/classGamesProxyModel" ],
     [ "GameState", "d3/df3/classGameState.html", "d3/df3/classGameState" ],

@@ -40,8 +40,9 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
+                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
                     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -116,6 +117,9 @@ $(document).ready(function(){initNavTree('da/dbd/classGamesModel.html','../../')
 </div><!--header-->
 <div class="contents">
 
+<p>Model storing all available games for display in a QTreeView or QTableView.  
+ <a href="../../da/dbd/classGamesModel.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d8/d5c/games__model_8h_source.html">games_model.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for GamesModel:</div>
@@ -131,6 +135,7 @@ Collaboration diagram for GamesModel:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9e1c1ab491ab80fc8def92618fd90211" id="r_a9e1c1ab491ab80fc8def92618fd90211"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/classGamesModel.html#a9e1c1ab491ab80fc8def92618fd90211">GamesModel</a> (const QMap&lt; int, QString &gt; &amp;_rooms, const QMap&lt; int, <a class="el" href="../../d8/d92/game__type__map_8h.html#a8fd9fd937325db0b4ae4edae4ae91924">GameTypeMap</a> &gt; &amp;_gameTypes, QObject *parent=nullptr)</td></tr>
+<tr class="memdesc:a9e1c1ab491ab80fc8def92618fd90211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="../../da/dbd/classGamesModel.html" title="Model storing all available games for display in a QTreeView or QTableView.">GamesModel</a>.  <br /></td></tr>
 <tr class="separator:a9e1c1ab491ab80fc8def92618fd90211"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72f904f6aaa76bf9366df4433ec04e8b" id="r_a72f904f6aaa76bf9366df4433ec04e8b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/classGamesModel.html#a72f904f6aaa76bf9366df4433ec04e8b">rowCount</a> (const QModelIndex &amp;parent=QModelIndex()) const override</td></tr>
 <tr class="separator:a72f904f6aaa76bf9366df4433ec04e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,19 +146,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e4556826106da882a8435678c940fdc" id="r_a0e4556826106da882a8435678c940fdc"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/classGamesModel.html#a0e4556826106da882a8435678c940fdc">headerData</a> (int section, Qt::Orientation orientation, int role=Qt::DisplayRole) const override</td></tr>
 <tr class="separator:a0e4556826106da882a8435678c940fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2179d256fc19af8fff73abe3aec8b3ce" id="r_a2179d256fc19af8fff73abe3aec8b3ce"><td class="memItemLeft" align="right" valign="top">const ServerInfo_Game &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/classGamesModel.html#a2179d256fc19af8fff73abe3aec8b3ce">getGame</a> (int row)</td></tr>
+<tr class="memdesc:a2179d256fc19af8fff73abe3aec8b3ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to a specific game by row index.  <br /></td></tr>
 <tr class="separator:a2179d256fc19af8fff73abe3aec8b3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58199675ab70d2137b2c58c47adcf66e" id="r_a58199675ab70d2137b2c58c47adcf66e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/classGamesModel.html#a58199675ab70d2137b2c58c47adcf66e">updateGameList</a> (const ServerInfo_Game &amp;game)</td></tr>
+<tr class="memdesc:a58199675ab70d2137b2c58c47adcf66e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the game list with a new or updated game.  <br /></td></tr>
 <tr class="separator:a58199675ab70d2137b2c58c47adcf66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa66c4b8fa07fd0a9f915d7c29e044bbe" id="r_aa66c4b8fa07fd0a9f915d7c29e044bbe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/classGamesModel.html#aa66c4b8fa07fd0a9f915d7c29e044bbe">roomColIndex</a> ()</td></tr>
+<tr class="memdesc:aa66c4b8fa07fd0a9f915d7c29e044bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the room column.  <br /></td></tr>
 <tr class="separator:aa66c4b8fa07fd0a9f915d7c29e044bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78b8eee44ebeabc8bcb8b96cfb27d63d" id="r_a78b8eee44ebeabc8bcb8b96cfb27d63d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/classGamesModel.html#a78b8eee44ebeabc8bcb8b96cfb27d63d">startTimeColIndex</a> ()</td></tr>
+<tr class="memdesc:a78b8eee44ebeabc8bcb8b96cfb27d63d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the start time column.  <br /></td></tr>
 <tr class="separator:a78b8eee44ebeabc8bcb8b96cfb27d63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1693d5c661c7e4b8f49691f130e861a1" id="r_a1693d5c661c7e4b8f49691f130e861a1"><td class="memItemLeft" align="right" valign="top">const QMap&lt; int, <a class="el" href="../../d8/d92/game__type__map_8h.html#a8fd9fd937325db0b4ae4edae4ae91924">GameTypeMap</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/classGamesModel.html#a1693d5c661c7e4b8f49691f130e861a1">getGameTypes</a> ()</td></tr>
+<tr class="memdesc:a1693d5c661c7e4b8f49691f130e861a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the map of game types per room.  <br /></td></tr>
 <tr class="separator:a1693d5c661c7e4b8f49691f130e861a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac631599af3e253025c43b26e71d2d262" id="r_ac631599af3e253025c43b26e71d2d262"><td class="memItemLeft" align="right" valign="top">static const QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/classGamesModel.html#ac631599af3e253025c43b26e71d2d262">getGameCreatedString</a> (const int secs)</td></tr>
+<tr class="memdesc:ac631599af3e253025c43b26e71d2d262"><td class="mdescLeft">&#160;</td><td class="mdescRight">Formats the game creation time into a human-readable string.  <br /></td></tr>
 <tr class="separator:ac631599af3e253025c43b26e71d2d262"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
@@ -175,7 +186,10 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:ad70a9817cbc337bbf6688357b2d274fb" id="r_ad70a9817cbc337bbf6688357b2d274fb"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbd/classGamesModel.html#ad70a9817cbc337bbf6688357b2d274fb">NUM_COLS</a> = 8</td></tr>
 <tr class="separator:ad70a9817cbc337bbf6688357b2d274fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Model storing all available games for display in a QTreeView or QTableView. </p>
+<p>Provides access to game information, supports sorting by different columns, and updates when new game data is received from the server. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9e1c1ab491ab80fc8def92618fd90211" name="a9e1c1ab491ab80fc8def92618fd90211"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e1c1ab491ab80fc8def92618fd90211">&#9670;&#160;</a></span>GamesModel()</h2>
 
@@ -207,6 +221,16 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="../../da/dbd/classGamesModel.html" title="Model storing all available games for display in a QTreeView or QTableView.">GamesModel</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_rooms</td><td>Mapping of room IDs to room names. </td></tr>
+    <tr><td class="paramname">_gameTypes</td><td>Mapping of room IDs to their available game types. </td></tr>
+    <tr><td class="paramname">parent</td><td>Parent QObject. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -298,10 +322,19 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns a reference to a specific game by row index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">row</td><td>Row index in the table. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the ServerInfo_Game at the given row. </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/dbd/classGamesModel_a2179d256fc19af8fff73abe3aec8b3ce_icgraph.svg" width="100%" height="461"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/dbd/classGamesModel_a2179d256fc19af8fff73abe3aec8b3ce_icgraph.svg" width="100%" height="550"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -329,6 +362,15 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Formats the game creation time into a human-readable string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">secs</td><td>Number of seconds since the game started. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Short string representing game age (e.g., "new", "&gt;5 min", "&gt;2 hr"). </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -359,6 +401,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns the map of game types per room. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -431,6 +475,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns the index of the room column. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -492,6 +538,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns the index of the start time column. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -515,7 +563,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Update game list with a (possibly new) game. </p>
+
+<p>Updates the game list with a new or updated game. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">game</td><td>The ServerInfo_Game object to add or update. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -544,6 +599,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>List of games currently displayed. </p>
 
 </div>
 </div>
@@ -566,6 +622,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Map of room IDs to available game types. </p>
 
 </div>
 </div>
@@ -588,6 +645,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Number of columns in the table. </p>
 
 </div>
 </div>
@@ -610,6 +668,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Map of room IDs to room names. </p>
 
 </div>
 </div>
@@ -632,6 +691,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Role used for sorting. </p>
 
 </div>
 </div>

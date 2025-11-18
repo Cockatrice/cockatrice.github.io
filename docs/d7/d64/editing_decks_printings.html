@@ -40,8 +40,9 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img $logosize alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
+                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
                     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -108,7 +109,105 @@ $(document).ready(function(){initNavTree('d7/d64/editing_decks_printings.html','
   <div class="headertitle"><div class="title">Printing Selector</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"></div></div><!-- contents -->
+<div class="textblock"><div class="image">
+<img src="../../printing_selector.png" alt=""/>
+</div>
+<h1><a class="anchor" id="autotoc_md32"></a>
+Purpose</h1>
+<p>The <a class="el" href="../../d7/dbc/classPrintingSelector.html">PrintingSelector</a> allows editing the <a class="el" href="../../d6/d90/classPrintingInfo.html" title="Represents metadata for a specific variation of a card within a set.">PrintingInfo</a> associated with <a class="el" href="../../dd/dd2/classCardInfo.html" title="Represents a card and its associated metadata, properties, and relationships.">CardInfo</a>s contained in <a class="el" href="../../da/d68/classDeckList.html" title="Represents a complete deck, including metadata, zones, cards, and sideboard plans.">DeckList</a>s.</p>
+<p>As described in <a class="el" href="../../d6/d90/classPrintingInfo.html" title="Represents metadata for a specific variation of a card within a set.">PrintingInfo</a>, a <a class="el" href="../../dd/dd2/classCardInfo.html" title="Represents a card and its associated metadata, properties, and relationships.">CardInfo</a> can have different variations contained within the same or different <a class="el" href="../../d6/d3d/classCardSet.html" title="A collection of cards grouped under a common identifier.">CardSet</a>s.</p>
+<p><a class="el" href="../../d7/dbc/classPrintingSelector.html">PrintingSelector</a> allows the user to choose a variation, as well as pinning a variation to be used as the preferred printing in all cases where the 'default' or 'most preferred' image should be shown.</p>
+<h1><a class="anchor" id="autotoc_md33"></a>
+Pre-requisites (User Interface)</h1>
+<p>To use the printing selector, ensure that you are using the Post-ProviderID change behavior (Checkbox as shown in the image).</p>
+<div class="image">
+<img src="../../printing_selector_pre_providerid.png" alt=""/>
+</div>
+<dl class="section attention"><dt>Attention</dt><dd>This is the default behavior, unless you have explicitly changed it, in which case you will have seen a warning as follows. Once again, checking this box will <em>disable</em> the new behavior and revert you to the legacy system without the printing selector.</dd></dl>
+<p>Disabling the printing selector:</p>
+<div class="image">
+<img src="../../printing_selector_enable.png" alt=""/>
+</div>
+<p>Enabling the printing selector:</p>
+<div class="image">
+<img src="../../printing_selector_disable.png" alt=""/>
+</div>
+<h1><a class="anchor" id="autotoc_md34"></a>
+Pre-requisites (Card Database)</h1>
+<p>The <a class="el" href="../../d7/dbc/classPrintingSelector.html">PrintingSelector</a> requires each underlying <a class="el" href="../../dd/dd2/classCardInfo.html" title="Represents a card and its associated metadata, properties, and relationships.">CardInfo</a> object to have a &lt;set&gt; entry with a <em>unique</em> providerID attribute for each variation that should be displayed.</p>
+<p>Here is an example, that first defines three sets, and then the 'Ace of Hearts' card with three variations.</p>
+<div class="fragment"><div class="line">&lt;<span class="keywordtype">set</span> <span class="keyword">rarity</span>=<span class="stringliteral">&quot;common&quot;</span> <span class="keyword">uuid</span>=<span class="stringliteral">&quot;00000000-0000-0000-0000-000000000033&quot;</span> <span class="keyword">num</span>=<span class="stringliteral">&quot;51&quot;</span> <span class="keyword">muid</span>=<span class="stringliteral">&quot;AH&quot;</span>&gt;<span class="keyword">PKR</span>&lt;/<span class="keywordtype">set</span>&gt;</div>
+<div class="line">&lt;<span class="keywordtype">set</span> <span class="keyword">rarity</span>=<span class="stringliteral">&quot;common&quot;</span> <span class="keyword">uuid</span>=<span class="stringliteral">&quot;00000000-0000-0000-0001-000000000033&quot;</span> <span class="keyword">num</span>=<span class="stringliteral">&quot;51&quot;</span> <span class="keyword">muid</span>=<span class="stringliteral">&quot;AHSTD&quot;</span>&gt;<span class="keyword">STD</span>&lt;/<span class="keywordtype">set</span>&gt;</div>
+<div class="line">&lt;<span class="keywordtype">set</span> <span class="keyword">rarity</span>=<span class="stringliteral">&quot;common&quot;</span> <span class="keyword">uuid</span>=<span class="stringliteral">&quot;00000000-0000-0000-0002-000000000033&quot;</span> <span class="keyword">num</span>=<span class="stringliteral">&quot;51&quot;</span> <span class="keyword">muid</span>=<span class="stringliteral">&quot;AHNBR&quot;</span>&gt;<span class="keyword">NBR</span>&lt;/<span class="keywordtype">set</span>&gt;</div>
+</div><!-- fragment --><div class="fragment"><div class="line">&lt;?<span class="keyword">xml</span> <span class="keyword">version</span>=<span class="stringliteral">&#39;1.0&#39;</span> <span class="keyword">encoding</span>=<span class="stringliteral">&#39;UTF-8&#39;</span>?&gt;</div>
+<div class="line">&lt;<span class="keywordtype">cockatrice_carddatabase</span> <span class="keyword">version</span>=<span class="stringliteral">&quot;4&quot;</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">sets</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">set</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">name</span>&gt;<span class="keyword">PKR</span>&lt;/<span class="keywordtype">name</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">longname</span>&gt;<span class="keyword">Cockatrice</span> <span class="keyword">Poker</span>&lt;/<span class="keywordtype">longname</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">settype</span>&gt;<span class="keyword">Custom</span>&lt;/<span class="keywordtype">settype</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">releasedate</span>&gt;2025-11-15&lt;/<span class="keywordtype">releasedate</span>&gt;</div>
+<div class="line">        &lt;/<span class="keywordtype">set</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">set</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">name</span>&gt;<span class="keyword">STD</span>&lt;/<span class="keywordtype">name</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">longname</span>&gt;<span class="keyword">Standard</span> <span class="keyword">Poker</span>&lt;/<span class="keywordtype">longname</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">settype</span>&gt;<span class="keyword">core</span>&lt;/<span class="keywordtype">settype</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">releasedate</span>&gt;2025-11-14&lt;/<span class="keywordtype">releasedate</span>&gt;</div>
+<div class="line">        &lt;/<span class="keywordtype">set</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">set</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">name</span>&gt;<span class="keyword">NBR</span>&lt;/<span class="keywordtype">name</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">longname</span>&gt;<span class="keyword">Numbers</span>&lt;/<span class="keywordtype">longname</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">settype</span>&gt;<span class="keyword">core</span>&lt;/<span class="keywordtype">settype</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">releasedate</span>&gt;2025-11-14&lt;/<span class="keywordtype">releasedate</span>&gt;</div>
+<div class="line">        &lt;/<span class="keywordtype">set</span>&gt;</div>
+<div class="line">    &lt;/<span class="keywordtype">sets</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">cards</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">card</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">name</span>&gt;<span class="keyword">Ace</span> <span class="keyword">of</span> <span class="keyword">Hearts</span>&lt;/<span class="keywordtype">name</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">text</span>&gt;<span class="keyword">Ace</span> <span class="keyword">of</span> <span class="keyword">Hearts</span>&lt;/<span class="keywordtype">text</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">prop</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">layout</span>&gt;<span class="keyword">normal</span>&lt;/<span class="keywordtype">layout</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">side</span>&gt;<span class="keyword">front</span>&lt;/<span class="keywordtype">side</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">type</span>&gt;<span class="keyword">Ace</span>&lt;/<span class="keywordtype">type</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">maintype</span>&gt;<span class="keyword">Ace</span>&lt;/<span class="keywordtype">maintype</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">manacost</span>&gt;14&lt;/<span class="keywordtype">manacost</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">cmc</span>&gt;14&lt;/<span class="keywordtype">cmc</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">colors</span>&gt;<span class="keyword">H</span>&lt;/<span class="keywordtype">colors</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">coloridentity</span>&gt;<span class="keyword">H</span>&lt;/<span class="keywordtype">coloridentity</span>&gt;</div>
+<div class="line">                &lt;<span class="keywordtype">format-standard</span>&gt;<span class="keyword">legal</span>&lt;/<span class="keywordtype">format-standard</span>&gt;</div>
+<div class="line">            &lt;/<span class="keywordtype">prop</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">reverse-related</span>&gt;<span class="keyword">Joker</span>&lt;/<span class="keywordtype">reverse-related</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">token</span>&gt;0&lt;/<span class="keywordtype">token</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">tablerow</span>&gt;1&lt;/<span class="keywordtype">tablerow</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">cipt</span>&gt;0&lt;/<span class="keywordtype">cipt</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">upsidedown</span>&gt;0&lt;/<span class="keywordtype">upsidedown</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">set</span> <span class="keyword">rarity</span>=<span class="stringliteral">&quot;common&quot;</span> <span class="keyword">uuid</span>=<span class="stringliteral">&quot;00000000-0000-0000-0000-000000000033&quot;</span> <span class="keyword">num</span>=<span class="stringliteral">&quot;51&quot;</span> <span class="keyword">muid</span>=<span class="stringliteral">&quot;AH&quot;</span>&gt;<span class="keyword">PKR</span>&lt;/<span class="keywordtype">set</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">set</span> <span class="keyword">rarity</span>=<span class="stringliteral">&quot;common&quot;</span> <span class="keyword">uuid</span>=<span class="stringliteral">&quot;00000000-0000-0000-0001-000000000033&quot;</span> <span class="keyword">num</span>=<span class="stringliteral">&quot;51&quot;</span> <span class="keyword">muid</span>=<span class="stringliteral">&quot;AHSTD&quot;</span>&gt;<span class="keyword">STD</span>&lt;/<span class="keywordtype">set</span>&gt;</div>
+<div class="line">            &lt;<span class="keywordtype">set</span> <span class="keyword">rarity</span>=<span class="stringliteral">&quot;common&quot;</span> <span class="keyword">uuid</span>=<span class="stringliteral">&quot;00000000-0000-0000-0002-000000000033&quot;</span> <span class="keyword">num</span>=<span class="stringliteral">&quot;51&quot;</span> <span class="keyword">muid</span>=<span class="stringliteral">&quot;AHNBR&quot;</span>&gt;<span class="keyword">NBR</span>&lt;/<span class="keywordtype">set</span>&gt;</div>
+<div class="line">        &lt;/<span class="keywordtype">card</span>&gt;</div>
+<div class="line">    &lt;/<span class="keywordtype">cards</span>&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">cockatrice_carddatabase</span>&gt;</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md35"></a>
+Using the Printing Selector</h1>
+<p>To use the <a class="el" href="../../d7/dbc/classPrintingSelector.html">PrintingSelector</a>, first select a card in the <a class="el" href="../../d9/df7/classDeckEditorDeckDockWidget.html">DeckEditorDeckDockWidget</a>:</p>
+<div class="image">
+<img src="../../deck_dock_deck_list.png" alt=""/>
+</div>
+<p>You may add a variation to the mainboard by clicking the + and - buttons in the top row. The bottom row will add the variation to your sideboard.</p>
+<div class="image">
+<img src="../../printing_selector.png" alt=""/>
+</div>
+<p>You can also right-click a variation to pin it, which will move it to the top of the variation list for easy access and additionally, use it as the default printing whenever the printing isn't explicitly specified (such as adding a card from the database in the deck editor).</p>
+<p>Only one printing may be pinned at a time.</p>
+<p>Additionally, the <a class="el" href="../../d7/dbc/classPrintingSelector.html">PrintingSelector</a> offers a navigation bar at the bottom to navigate through cards in your deck, as well as an option to modify the variations of cards in bulk via the 'Bulk Selection' option.</p>
+<div class="image">
+<img src="../../printing_selector_navigation.png" alt=""/>
+</div>
+<p>The search bar at the top may be used to filter the displayed variations and the cogwheel may be clicked to open up additional settings.</p>
+<div class="image">
+<img src="../../printing_selector_options.png" alt=""/>
+</div>
+ </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.14.0-->
