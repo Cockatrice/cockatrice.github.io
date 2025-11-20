@@ -30,6 +30,7 @@ var classAbstractTabDeckEditor =
     [ "actSaveDeckToClipboardRawNoSetInfo", "d1/d53/classAbstractTabDeckEditor.html#a4db53498850fc1d3a722d74b4716ccb6", null ],
     [ "actSwapCard", "d1/d53/classAbstractTabDeckEditor.html#a281a65b6b2fcb6a72e943789682fd837", null ],
     [ "addCardHelper", "d1/d53/classAbstractTabDeckEditor.html#a2dfda24cae0c1f4f3abf81712498c2e7", null ],
+    [ "cardAboutToBeAdded", "d1/d53/classAbstractTabDeckEditor.html#a66852a2245de8e621e9feeb0c6486323", null ],
     [ "cleanDeckAndResetModified", "d1/d53/classAbstractTabDeckEditor.html#a93bbff3de817dcf42b24e6b06b93e9ec", null ],
     [ "closeEvent", "d1/d53/classAbstractTabDeckEditor.html#af60e45537569c1a11510b52237204208", null ],
     [ "closeRequest", "d1/d53/classAbstractTabDeckEditor.html#a4bde29fd51a237d46dd203ae58459660", null ],

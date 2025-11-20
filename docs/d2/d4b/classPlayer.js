@@ -54,7 +54,7 @@ var classPlayer =
     [ "resetTopCardMenuActions", "d2/d4b/classPlayer.html#abbdb28c9abd06aa6c3e8243b2d29b6bb", null ],
     [ "setActive", "d2/d4b/classPlayer.html#a9fd0045af300993b8bc654ad90467760", null ],
     [ "setConceded", "d2/d4b/classPlayer.html#a09c2df54cff07867284d7b14efbfaffe", null ],
-    [ "setDeck", "d2/d4b/classPlayer.html#a6a1b757c13cd3753edd3bd96757a3616", null ],
+    [ "setDeck", "d2/d4b/classPlayer.html#a70e56987767d17255d0d467d2e0c291d", null ],
     [ "setDialogSemaphore", "d2/d4b/classPlayer.html#a77145607573b61e348d2fc029778ef1f", null ],
     [ "setGameStarted", "d2/d4b/classPlayer.html#a0ab3286e24366dcc9941233b2454758f", null ],
     [ "setZoneId", "d2/d4b/classPlayer.html#ad5c3f796deddfeb174d30bb32bcc13d4", null ],

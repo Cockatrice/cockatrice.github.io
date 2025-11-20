@@ -40,7 +40,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img $logosize alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-11-20-Development-2.11.0-beta.37</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -228,6 +228,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getAllSubCardTypesWithCount()&#160;:&#160;<a class="el" href="d8/dbe/classCardDatabaseQuerier.html#ab8dbca47379dace9fd6797f0019db360">CardDatabaseQuerier</a></li>
 <li>getAllURLs()&#160;:&#160;<a class="el" href="d4/d14/classDownloadSettings.html#adbe42a1ac3b2b2e146bfe6e48020b5fb">DownloadSettings</a></li>
 <li>getAllUsersList()&#160;:&#160;<a class="el" href="db/d6d/classUserListManager.html#a6b764ffdbd31919cd5c2958b04b6d60c">UserListManager</a></li>
+<li>getAltNames()&#160;:&#160;<a class="el" href="dd/dd2/classCardInfo.html#ab765aff57a7942f21ec9e70178e79474">CardInfo</a></li>
 <li>getAlwaysLookAtTopCard()&#160;:&#160;<a class="el" href="dc/d3a/classServer__CardZone.html#a6387f438cb082c210278c2ff8ba458db">Server_CardZone</a></li>
 <li>getAlwaysRevealTopCard()&#160;:&#160;<a class="el" href="d1/df9/classCardZoneLogic.html#a55e5c170efc9e630fff197cd414f17e5">CardZoneLogic</a>, <a class="el" href="dc/d3a/classServer__CardZone.html#ac022fd0875c313172b65ef775f4ec144">Server_CardZone</a></li>
 <li>getAnalyzeRequestData()&#160;:&#160;<a class="el" href="da/dcf/classDeckStatsInterface.html#a6bbe7e89f9fbc2e63f9e25cb4f5f4643">DeckStatsInterface</a>, <a class="el" href="d8/d9e/classTappedOutInterface.html#a7dd1cd6699bb4b1accd4288e967c9ad9">TappedOutInterface</a></li>
@@ -436,6 +437,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getFiltersOfType()&#160;:&#160;<a class="el" href="d7/d62/classFilterTreeModel.html#a40c182cd557ade0ac0df343d81157e4f">FilterTreeModel</a></li>
 <li>getFiltersPath()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a00d98df82d0ecf8b7efd5136c85e4066">SettingsCache</a></li>
 <li>getFinished()&#160;:&#160;<a class="el" href="db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html#a7bbbdc22b5385a1fc618259e9eba4be5">CardPictureLoaderRequestStatusDisplayWidget</a></li>
+<li>getFlavorName()&#160;:&#160;<a class="el" href="d6/d90/classPrintingInfo.html#a41d31bc9a6afbd9c72083c0a48f3f076">PrintingInfo</a></li>
 <li>getFlowWidget()&#160;:&#160;<a class="el" href="da/d22/classVisualDeckStorageFolderDisplayWidget.html#a71e16e8afc4e3a6bc8bc73ba6ffeb3d2">VisualDeckStorageFolderDisplayWidget</a></li>
 <li>getFocusCardViewSearchBar()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a8177bce398d8b884538c7bedd7c63f7f">SettingsCache</a></li>
 <li>getFPHostname()&#160;:&#160;<a class="el" href="df/db1/classServersSettings.html#ab39658cc49f3986efe730fc7326c054f">ServersSettings</a></li>
@@ -579,6 +581,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getMaxSubTypeCount()&#160;:&#160;<a class="el" href="da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#ae4fee7e9b3e45e427498980ce18e2779">VisualDatabaseDisplaySubTypeFilterWidget</a></li>
 <li>getMaxUserLimitEnabled()&#160;:&#160;<a class="el" href="db/d00/classServer.html#a035d02c0020052f1558984be063cd106">Server</a></li>
 <li>getMaxUserTotal()&#160;:&#160;<a class="el" href="db/d00/classServer.html#a7577c630957160fda8908f484ad56c76">Server</a></li>
+<li>getMemento()&#160;:&#160;<a class="el" href="d8/dfe/classDeckListMemento.html#aa4a33a2608766dab6e396f6b574059b5">DeckListMemento</a></li>
 <li>getMenu()&#160;:&#160;<a class="el" href="d4/d67/classAbstractCounter.html#a77784e80547feb17bde487f7d5410410">AbstractCounter</a>, <a class="el" href="de/da1/classCardZone.html#af7368cac687fbe051a44945a315f884f">CardZone</a></li>
 <li>getMessageAt()&#160;:&#160;<a class="el" href="d3/dc1/classMessageSettings.html#a7d6439c5f8e5ccbbdfe9428ec8a1ce81">MessageSettings</a></li>
 <li>getMessageCountingInterval()&#160;:&#160;<a class="el" href="db/d00/classServer.html#aabc143139dbd6324f84255d0f4ba5338">Server</a></li>
@@ -693,11 +696,12 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getReadyStart()&#160;:&#160;<a class="el" href="da/d99/classServer__AbstractPlayer.html#a85f492ba6aa393275986fdd3e82e504a">Server_AbstractPlayer</a></li>
 <li>getRealName()&#160;:&#160;<a class="el" href="db/de1/classDlgEditUser.html#a6c74953864d52f52a63c85a93bbdee64">DlgEditUser</a>, <a class="el" href="d0/d9e/classDlgRegister.html#a23b5a3f2bddcd39d4226505c156dd1c2">DlgRegister</a></li>
 <li>getRealZValue()&#160;:&#160;<a class="el" href="d4/db9/classAbstractCardItem.html#a246cc553bda93c4e19a6f285dbf3b72f">AbstractCardItem</a></li>
-<li>getReason()&#160;:&#160;<a class="el" href="dd/d5d/classBanDialog.html#ae07e78a26dca12351bfe41d7030333c6">BanDialog</a>, <a class="el" href="d0/d35/classShutdownDialog.html#a1a30974288dd707f3e7100ddafcd26be">ShutdownDialog</a>, <a class="el" href="d4/d0d/classWarningDialog.html#a1343040fc8046df25ecadf25651a8a58">WarningDialog</a></li>
+<li>getReason()&#160;:&#160;<a class="el" href="dd/d5d/classBanDialog.html#ae07e78a26dca12351bfe41d7030333c6">BanDialog</a>, <a class="el" href="d8/dfe/classDeckListMemento.html#aab8c4aa7a5dc61995a6b91c743c8d3ac">DeckListMemento</a>, <a class="el" href="d0/d35/classShutdownDialog.html#a1a30974288dd707f3e7100ddafcd26be">ShutdownDialog</a>, <a class="el" href="d4/d0d/classWarningDialog.html#a1343040fc8046df25ecadf25651a8a58">WarningDialog</a></li>
 <li>getRecentlyOpenedDeckPaths()&#160;:&#160;<a class="el" href="d3/db5/classRecentsSettings.html#a23f029acd72fc34ab182499693cfad07">RecentsSettings</a></li>
 <li>getRecipients()&#160;:&#160;<a class="el" href="da/df9/classGameEventStorageItem.html#abb8bab2e39342dcd82d3e16256f6c16c">GameEventStorageItem</a></li>
 <li>getRedirectCachePath()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a38840f13d0503e6ee985c3d0cb66df46">SettingsCache</a></li>
 <li>getRedirectCacheTtl()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a9502b88547c9abee6de7681050450c3b">SettingsCache</a></li>
+<li>getRedoStack()&#160;:&#160;<a class="el" href="dc/d3c/classDeckListHistoryManager.html#a0edb53ed14b77d9c07f9bb4d3fc78c45">DeckListHistoryManager</a></li>
 <li>getRegOnlyServerEnabled()&#160;:&#160;<a class="el" href="db/d00/classServer.html#adfe5781f5009bccfc981f2c87b81fca7">Server</a></li>
 <li>getRelatedCards()&#160;:&#160;<a class="el" href="dd/dd2/classCardInfo.html#a6fb80fe22ebbbbe6617353977940eedc">CardInfo</a></li>
 <li>getReleaseChannelUrl()&#160;:&#160;<a class="el" href="d0/dc4/classBetaReleaseChannel.html#aa6bb86142cfd82bce4feae478dff89b2">BetaReleaseChannel</a>, <a class="el" href="d0/db2/classReleaseChannel.html#a6a316b853ca08d1d412ae364f85d1fba">ReleaseChannel</a>, <a class="el" href="d8/d5f/classStableReleaseChannel.html#aebd76b0655d11e387533c2ee27566ac3">StableReleaseChannel</a></li>
@@ -877,6 +881,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getTranslatedSize()&#160;:&#160;<a class="el" href="d4/db9/classAbstractCardItem.html#a4d53a73ceaa1809fccd439d6cd1d0924">AbstractCardItem</a></li>
 <li>getType()&#160;:&#160;<a class="el" href="d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ac81333516cc709ad31b41038f8bb82b8">EdhrecCommanderApiResponseCommanderDetails</a>, <a class="el" href="dc/d3a/classServer__CardZone.html#a477814513c05821110aecb5ac9c8bdac">Server_CardZone</a></li>
 <li>getUiAttributes()&#160;:&#160;<a class="el" href="dd/dd2/classCardInfo.html#a7430f3f40ce327d3fdc0f7052c9289d0">CardInfo</a></li>
+<li>getUndoStack()&#160;:&#160;<a class="el" href="dc/d3c/classDeckListHistoryManager.html#a3ea85c3a5b74acad68fc1ae936a3eb0e">DeckListHistoryManager</a></li>
 <li>getUnknownSetsNames()&#160;:&#160;<a class="el" href="dd/d65/classCardSetList.html#a5639635454f688ecd0d64d19cca375bc">CardSetList</a></li>
 <li>getUnknownSetsNum()&#160;:&#160;<a class="el" href="dd/d65/classCardSetList.html#ae8421f26c425de4ed7646faa78f333dd">CardSetList</a></li>
 <li>getUnusedColorIdentitiesOpacity()&#160;:&#160;<a class="el" href="d7/d92/classVisualDeckStorageQuickSettingsWidget.html#ac0ef632a4ca280cd052b60fe4519d6a2">VisualDeckStorageQuickSettingsWidget</a></li>
@@ -898,7 +903,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getUseTearOffMenus()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a0d2b0793a8f25b11dfaa1169819bc397">SettingsCache</a></li>
 <li>getUtilityMenu()&#160;:&#160;<a class="el" href="d7/dd6/classPlayerMenu.html#af8f6fc072657a0a71081f2c69824fdb6">PlayerMenu</a></li>
 <li>getUuid()&#160;:&#160;<a class="el" href="d6/d90/classPrintingInfo.html#adadad57308ef600c0b9f80591c244591">PrintingInfo</a></li>
-<li>getValue()&#160;:&#160;<a class="el" href="d4/d67/classAbstractCounter.html#a160616852d1ee0c1d2067f6edf17bde9">AbstractCounter</a>, <a class="el" href="d1/dea/classSettingsManager.html#a5397c727f94408c7d66f3f1377b5ed76">SettingsManager</a></li>
+<li>getValue()&#160;:&#160;<a class="el" href="d4/d67/classAbstractCounter.html#a160616852d1ee0c1d2067f6edf17bde9">AbstractCounter</a>, <a class="el" href="d1/dea/classSettingsManager.html#a5f5332942a666ee4015f0d43aeba8993">SettingsManager</a></li>
 <li>getViewportTransform()&#160;:&#160;<a class="el" href="db/d9f/classGameScene.html#abeec27581934322149e31fb7cd48b6e5">GameScene</a></li>
 <li>getViews()&#160;:&#160;<a class="el" href="d1/df9/classCardZoneLogic.html#a3fef827545fb4c8124c2836435a173c9">CardZoneLogic</a></li>
 <li>getViewTransform()&#160;:&#160;<a class="el" href="db/d9f/classGameScene.html#a4419f238b28538f767528b02845ed4da">GameScene</a></li>

@@ -75,7 +75,7 @@ var searchData=
   ['buddy_72',['buddy',['../d2/d73/classBannerWidget.html#a7b9eddf290bcac74c51e681d2ebd2ee1',1,'BannerWidget']]],
   ['buddyconnectnotificationsenabled_73',['buddyConnectNotificationsEnabled',['../d5/d88/classSettingsCache.html#a179e780f148a144a47f9e92e8e13cb90',1,'SettingsCache']]],
   ['buddyconnectnotificationsenabledcheckbox_74',['buddyConnectNotificationsEnabledCheckBox',['../d2/d2d/classUserInterfaceSettingsPage.html#a20164b11c80ee815935ea0738ca1a309',1,'UserInterfaceSettingsPage']]],
-  ['buddylist_75',['buddylist',['../d5/da7/classTabAccount.html#ae4f69a2b37373e95717ab9261697fb17',1,'TabAccount::buddyList'],['../da/d3b/classUserListWidget.html#abf013e42f0196e76737d014e9403552cacc741b6ab2f2e01f265bd1a9a7e67716',1,'UserListWidget::BuddyList']]],
+  ['buddylist_75',['buddylist',['../da/d3b/classUserListWidget.html#abf013e42f0196e76737d014e9403552cacc741b6ab2f2e01f265bd1a9a7e67716',1,'UserListWidget::BuddyList'],['../d5/da7/classTabAccount.html#ae4f69a2b37373e95717ab9261697fb17',1,'TabAccount::buddyList']]],
   ['buddylistreceived_76',['buddylistreceived',['../db/d6d/classUserListManager.html#adc9154d9d0851a513c6d5cf10497f9a5',1,'UserListManager::buddyListReceived()'],['../d5/da7/classTabAccount.html#a3cf849889d4a417fc6d9a238cfd6d895',1,'TabAccount::buddyListReceived()'],['../dc/d86/classAbstractClient.html#a847c2cfbfc9574b2bdfa6cd3cb60cfb5',1,'AbstractClient::buddyListReceived()']]],
   ['buddyusers_77',['buddyUsers',['../db/d6d/classUserListManager.html#abe30337a9a21611cb163886b9f653060',1,'UserListManager']]],
   ['buddyvisibilitychanged_78',['buddyVisibilityChanged',['../d2/d73/classBannerWidget.html#a8ccfc909c2c2d1882784d848a686e4d5',1,'BannerWidget']]],

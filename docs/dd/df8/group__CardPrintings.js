@@ -18,6 +18,7 @@ var group__CardPrintings =
     [ "PrintingInfo", "d6/d90/classPrintingInfo.html", [
       [ "PrintingInfo", "d6/d90/classPrintingInfo.html#aabe848499ae84e18257326b0445696e3", null ],
       [ "~PrintingInfo", "d6/d90/classPrintingInfo.html#af19aa23535fdee84a0400cfc252d0ec7", null ],
+      [ "getFlavorName", "d6/d90/classPrintingInfo.html#a41d31bc9a6afbd9c72083c0a48f3f076", null ],
       [ "getProperties", "d6/d90/classPrintingInfo.html#aecff5ef49d1a30f74b276b3f63a4bc46", null ],
       [ "getProperty", "d6/d90/classPrintingInfo.html#a8620106e5ac0dd63baa9ccc435b970c4", null ],
       [ "getSet", "d6/d90/classPrintingInfo.html#a30a4ecdbbc401885cd8c28845991e20f", null ],
