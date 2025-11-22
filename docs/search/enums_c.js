@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['tagstate_0',['TagState',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e',1,'deck_preview_tag_display_widget.h']]],
-  ['tooltiptype_1',['TooltipType',['../d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a949b930fc50cc62562e915e29184c190',1,'VisualDeckStorageQuickSettingsWidget']]],
-  ['type_2',['type',['../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639',1,'BackgroundSources::Type'],['../d7/dfc/classCardFilter.html#a9399b331b33291a90e47255e8c27d562',1,'CardFilter::Type'],['../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179',1,'DeckListModelGroupCriteria::Type']]]
+  ['setscolumns_0',['SetsColumns',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735',1,'SetsModel']]],
+  ['smtperror_1',['SmtpError',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673',1,'QxtSmtp']]],
+  ['smtpstate_2',['SmtpState',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216',1,'QxtSmtpPrivate']]],
+  ['sortoption_3',['SortOption',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f',1,'CardList']]],
+  ['sortorder_4',['SortOrder',['../dd/d71/classVisualDeckStorageSortWidget.html#afe1e695f9d17f70c9b59d938d13b95ee',1,'VisualDeckStorageSortWidget']]],
+  ['startupcardupdatecheckbehaviorindex_5',['startupCardUpdateCheckBehaviorIndex',['../dd/d7b/dlg__settings_8cpp.html#aabda63228c5ec3c0d54401f86f3c1a96',1,'dlg_settings.cpp']]]
 ];

@@ -11,5 +11,6 @@ var searchData=
   ['cockatrice_5fxml4_5ftagname_8',['COCKATRICE_XML4_TAGNAME',['../d2/dbc/cockatrice__xml__4_8cpp.html#a7d15d58862899d0b187108b3dd4d4aa0',1,'cockatrice_xml_4.cpp']]],
   ['cockatrice_5fxml4_5ftagver_9',['COCKATRICE_XML4_TAGVER',['../d2/dbc/cockatrice__xml__4_8cpp.html#a98103523609220863f50674684c0e29f',1,'cockatrice_xml_4.cpp']]],
   ['cockatrice_5fxml_5fxsi_5fnamespace_10',['COCKATRICE_XML_XSI_NAMESPACE',['../d1/df5/card__database__parser_8h.html#a3d25bf90cdd5ea8c2d202368d54642bf',1,'card_database_parser.h']]],
-  ['cpppeglib_5fheuristic_5ferror_5ftoken_5fmax_5fchar_5fcount_11',['CPPPEGLIB_HEURISTIC_ERROR_TOKEN_MAX_CHAR_COUNT',['../de/d9d/peglib_8h.html#aeefcfea504df51c0e18ada268613d6ad',1,'peglib.h']]]
+  ['cpppeglib_5fheuristic_5ferror_5ftoken_5fmax_5fchar_5fcount_11',['CPPPEGLIB_HEURISTIC_ERROR_TOKEN_MAX_CHAR_COUNT',['../de/d9d/peglib_8h.html#aeefcfea504df51c0e18ada268613d6ad',1,'peglib.h']]],
+  ['crc32_12',['CRC32',['../db/dc4/unzip_8cpp.html#a9f548005c00fa0754e9c23b7726bf741',1,'unzip.cpp']]]
 ];

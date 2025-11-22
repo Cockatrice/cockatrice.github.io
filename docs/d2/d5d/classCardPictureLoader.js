@@ -6,6 +6,7 @@ var classCardPictureLoader =
     [ "cacheCardPixmaps", "d2/d5d/classCardPictureLoader.html#adbe0c9e725e3c98bd9bd86e85a428010", null ],
     [ "clearNetworkCache", "d2/d5d/classCardPictureLoader.html#afb0dbb05c8f40aca08e70a45238019c3", null ],
     [ "clearPixmapCache", "d2/d5d/classCardPictureLoader.html#a81bd60c304d9a2e62339fb56d5f7fa0d", null ],
+    [ "clearPixmapCache", "d2/d5d/classCardPictureLoader.html#a8d10a5750bd4ec5a4edc3c7f76b688ce", null ],
     [ "getCardBackLoadingFailedPixmap", "d2/d5d/classCardPictureLoader.html#adca8471ef127371a3491fe7a99eca549", null ],
     [ "getCardBackLoadingInProgressPixmap", "d2/d5d/classCardPictureLoader.html#a2c83a68e09eb0cadaf6a8c902e3242ad", null ],
     [ "getCardBackPixmap", "d2/d5d/classCardPictureLoader.html#acc392d72779124c27dd2cc83782b31ae", null ],

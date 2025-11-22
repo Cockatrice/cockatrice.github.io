@@ -1,8 +1,24 @@
 var searchData=
 [
-  ['unknown_0',['Unknown',['../da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a88183b946cc5f0e8c96b2e66e1c74a7e',1,'deck_link_to_api_transformer.h']]],
-  ['unknownuser_1',['UnknownUser',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cda5da8543c5cc835ac31b82e4c1a40d0b0',1,'server.h']]],
-  ['userisbanned_2',['UserIsBanned',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cda89cfca64c3689a06a9fa4940f7c4aee0',1,'server.h']]],
-  ['userisinactive_3',['UserIsInactive',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cda2a1102e19b39be6300cac8790b0abd40',1,'server.h']]],
-  ['usernameinvalid_4',['UsernameInvalid',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdaecbd40434d3b40e6fdb3bacb2e9343a2',1,'server.h']]]
+  ['table_0',['Table',['../da/d5a/classThemeManager.html#a3aa764444425be577be3cd450e79f278a561eb453569aa71128981852985bf9d4',1,'ThemeManager']]],
+  ['tabs_1',['Tabs',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca043909d959cb2efb4bd078b09e88ce4f',1,'ShortcutGroup']]],
+  ['tappedout_2',['TappedOut',['../da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a675e680b564cd471a5199aa543c8d170',1,'deck_link_to_api_transformer.h']]],
+  ['textonlyview_3',['TextOnlyView',['../db/d22/classCardInfoFrameWidget.html#a8bbf46261515687958b7f79213cd592da3970ef53b21497a2790147da9aa22a5c',1,'CardInfoFrameWidget']]],
+  ['theme_4',['Theme',['../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639a44f1933a3c7d9fd945ba83e878733c50',1,'BackgroundSources']]],
+  ['titlecolumn_5',['TitleColumn',['../da/dc7/classTipsOfTheDay.html#a53aefded9c3ed84a672f80f2f9496fc9a43746c35e3ec303f5a73f7e645efc9f1',1,'TipsOfTheDay']]],
+  ['to_6',['To',['../d5/dff/classQxtMailMessage.html#af5ef6ffaabd7588ace94f823a7542180ae25632e01c04b723a317fe132b816009',1,'QxtMailMessage']]],
+  ['transactionfailed_7',['TransactionFailed',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673a4bcdf76ce51b6f077b0c3f7621c2d7b5',1,'QxtSmtp']]],
+  ['transforminto_8',['TransformInto',['../d1/d1e/card__relation__type_8h.html#abc3ced840172c7b624b340e282544a4fa16bfb77abdb5844a31d7fec5f24809a0',1,'card_relation_type.h']]],
+  ['type_9',['type',['../d2/d6f/classPlayerTarget.html#a561c456358df8ddb4e0dd382ba54b34aacdbd093de66a69186e07db9f146daa5e',1,'PlayerTarget::Type'],['../de/da1/classCardZone.html#a0c823f7012cb92b9c4c31cd41c218256a26b1afd85513ff9a1dd459e631fb835a',1,'CardZone::Type'],['../d3/de4/classPlayerGraphicsItem.html#aeedc89098d8436d324aed071b4462246a129ab0cb09585222ca599f3553318ad9',1,'PlayerGraphicsItem::Type'],['../da/da0/classHandCounter.html#a5efba36cbeade5f97def73e4a145440ead0781d692dcac473fef16a06c43ea35a',1,'HandCounter::Type'],['../d9/dfc/classDeckViewCardContainer.html#ad8527e0825068838e1b481b9c87f32bfa18539ccf60445241c6e89e85f97e0fd0',1,'DeckViewCardContainer::Type'],['../d6/dbd/classCardItem.html#a40fe1f7d1430bcc32acd7622b53d2e3aadc27cf061c1493318f66af98dfccaa5f',1,'CardItem::Type'],['../d8/d93/classPlayerArea.html#a66ce009e5bc19df63f57bc99a5dffe7fadf03eeb8337667fda6fcbe099dfee3a4',1,'PlayerArea::Type'],['../d4/db9/classAbstractCardItem.html#a8100329f38aa6647bf168be77e7423d7ae80244bca0fed258c631108e4b03eb9c',1,'AbstractCardItem::Type'],['../d6/dc0/classAbstractCardDragItem.html#ac74fa34f0a7569815977539b32415b70a496399e432ab652db6b12b32649419cc',1,'AbstractCardDragItem::Type']]],
+  ['typeand_10',['TypeAnd',['../d7/dfc/classCardFilter.html#a9399b331b33291a90e47255e8c27d562ae85db62a2ff0413996749382bf66fd1d',1,'CardFilter']]],
+  ['typeandnot_11',['TypeAndNot',['../d7/dfc/classCardFilter.html#a9399b331b33291a90e47255e8c27d562a6aad34682c072188fefca46bed709424',1,'CardFilter']]],
+  ['typecard_12',['typeCard',['../de/d83/graphics__item__type_8h.html#a9ed98431a807406f09f12e25ac2c8072a5a1213998961ae1f64ef224f65a91887',1,'graphics_item_type.h']]],
+  ['typecarddrag_13',['typeCardDrag',['../de/d83/graphics__item__type_8h.html#a9ed98431a807406f09f12e25ac2c8072a9a6fb94a6e43cd50fec012a4af659639',1,'graphics_item_type.h']]],
+  ['typedeckviewcardcontainer_14',['typeDeckViewCardContainer',['../de/d83/graphics__item__type_8h.html#a9ed98431a807406f09f12e25ac2c8072a55464a9338d5747542b882be9e394b2f',1,'graphics_item_type.h']]],
+  ['typeend_15',['TypeEnd',['../d7/dfc/classCardFilter.html#a9399b331b33291a90e47255e8c27d562a7f9bb11e9f2dcdf4fc4bd15e865ebccb',1,'CardFilter']]],
+  ['typeor_16',['TypeOr',['../d7/dfc/classCardFilter.html#a9399b331b33291a90e47255e8c27d562add1230a0845aa29f9a8fb52558256835',1,'CardFilter']]],
+  ['typeornot_17',['TypeOrNot',['../d7/dfc/classCardFilter.html#a9399b331b33291a90e47255e8c27d562abf218bb02ae24708c8a59ba4cd958050',1,'CardFilter']]],
+  ['typeother_18',['typeOther',['../de/d83/graphics__item__type_8h.html#a9ed98431a807406f09f12e25ac2c8072a0177e6e33a8cc464174a0b2b88338f28',1,'graphics_item_type.h']]],
+  ['typeplayertarget_19',['typePlayerTarget',['../de/d83/graphics__item__type_8h.html#a9ed98431a807406f09f12e25ac2c8072a7f33ad098cd97c0cc1046a12246c2bf2',1,'graphics_item_type.h']]],
+  ['typezone_20',['typeZone',['../de/d83/graphics__item__type_8h.html#a9ed98431a807406f09f12e25ac2c8072a99fc097deeb26b4be10be47c1594b839',1,'graphics_item_type.h']]]
 ];

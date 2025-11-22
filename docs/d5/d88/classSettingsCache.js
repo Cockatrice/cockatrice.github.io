@@ -1,6 +1,7 @@
 var classSettingsCache =
 [
     [ "SettingsCache", "d5/d88/classSettingsCache.html#a123df429cbb9f9aebff30f35e1d80685", null ],
+    [ "SettingsCache", "d5/d88/classSettingsCache.html#a1fa4227bb246a137870f9743abeee4cf", null ],
     [ "bumpSetsWithCardsInDeckToTopChanged", "d5/d88/classSettingsCache.html#a95e77f30805f321b9b9149bbbf1e2efc", null ],
     [ "cardCounters", "d5/d88/classSettingsCache.html#aa97422663ceec7ddef94a70b3529038b", null ],
     [ "cardDatabase", "d5/d88/classSettingsCache.html#a6142af053f52838bf022a7c5d0e0ce4c", null ],
@@ -61,6 +62,7 @@ var classSettingsCache =
     [ "getIgnoreUnregisteredUsers", "d5/d88/classSettingsCache.html#acea79dcdf934213ccbee67e8aed8a64a", null ],
     [ "getIncludeRebalancedCards", "d5/d88/classSettingsCache.html#a7f694f9f86ffc775ddbff7741bdb29a6", null ],
     [ "getInvertVerticalCoordinate", "d5/d88/classSettingsCache.html#ab8fe6c4db50dc929cc55a27ee00c4962", null ],
+    [ "getIsPortableBuild", "d5/d88/classSettingsCache.html#a10508fd44fc6df0da354c7f3d1acb614", null ],
     [ "getIsPortableBuild", "d5/d88/classSettingsCache.html#a10508fd44fc6df0da354c7f3d1acb614", null ],
     [ "getKeepAlive", "d5/d88/classSettingsCache.html#a59d1afac3d877caacbbd0034fe8ac4b2", null ],
     [ "getKnownMissingFeatures", "d5/d88/classSettingsCache.html#ae9e6b31a65d4813b5765ef0839bb61bc", null ],
@@ -158,6 +160,7 @@ var classSettingsCache =
     [ "getZoneViewGroupByIndex", "d5/d88/classSettingsCache.html#ae1f39a27542f2fd8499c43d151aa4fb4", null ],
     [ "getZoneViewPileView", "d5/d88/classSettingsCache.html#a3d287720650858e7e71962f367a84904", null ],
     [ "getZoneViewSortByIndex", "d5/d88/classSettingsCache.html#a8b3aeacb54257a9b068ec7b809c41544", null ],
+    [ "guessConfigurationPath", "d5/d88/classSettingsCache.html#a2c87697a95d77ee08fbd3f88ee31e8b9", null ],
     [ "handJustificationChanged", "d5/d88/classSettingsCache.html#abaf8b7f151f245f8c260186e155682a6", null ],
     [ "homeTabBackgroundShuffleFrequencyChanged", "d5/d88/classSettingsCache.html#a324dc2bf5df4b6d2164c0c1cf32d9d57", null ],
     [ "homeTabBackgroundSourceChanged", "d5/d88/classSettingsCache.html#a5ca32437500855e4d461e27befd91aec", null ],
@@ -367,6 +370,7 @@ var classSettingsCache =
     [ "deckPath", "d5/d88/classSettingsCache.html#a8046de801c2e6f57b924fbe8ed1b8e49", null ],
     [ "defaultDeckEditorType", "d5/d88/classSettingsCache.html#a9dd82277f35644b57548cd78df1b720c", null ],
     [ "defaultStartingLifeTotal", "d5/d88/classSettingsCache.html#a0bb4d963d42e0c6f44678adf0093ad38", null ],
+    [ "disallowedRegExp", "d5/d88/classSettingsCache.html#a7e28fbb975645bf5335f8ef105547de5", null ],
     [ "displayCardNames", "d5/d88/classSettingsCache.html#abf8cfe7a2df79234819b0de59a428dfe", null ],
     [ "doubleClickToPlay", "d5/d88/classSettingsCache.html#a2158458e99b2aa837cd5f907f5d81329", null ],
     [ "downloadSettings", "d5/d88/classSettingsCache.html#a491bd2e3508bb004227fbf8c0a8f5ff6", null ],

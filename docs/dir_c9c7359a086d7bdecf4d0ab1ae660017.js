@@ -6,6 +6,6 @@ var dir_c9c7359a086d7bdecf4d0ab1ae660017 =
     [ "game", "dir_fcc53323f100f3840d6c8e04b287c6d3.html", "dir_fcc53323f100f3840d6c8e04b287c6d3" ],
     [ "game_graphics", "dir_4db5280bbb861c4570d5072585939b1b.html", "dir_4db5280bbb861c4570d5072585939b1b" ],
     [ "interface", "dir_cd36a3f9f9d202308a2deae5eeddfa6f.html", "dir_cd36a3f9f9d202308a2deae5eeddfa6f" ],
-    [ "main.cpp", "df/d0a/main_8cpp.html", "df/d0a/main_8cpp" ],
-    [ "main.h", "d4/dbf/main_8h.html", "d4/dbf/main_8h" ]
+    [ "main.cpp", "d8/da8/cockatrice_2src_2main_8cpp.html", "d8/da8/cockatrice_2src_2main_8cpp" ],
+    [ "main.h", "da/dd7/cockatrice_2src_2main_8h.html", "da/dd7/cockatrice_2src_2main_8h" ]
 ];

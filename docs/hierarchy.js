@@ -42,6 +42,7 @@ var hierarchy =
     [ "EdhrecTopCardsApiResponse", "da/dc4/classEdhrecTopCardsApiResponse.html", null ],
     [ "EdhrecTopCommandersApiResponse", "dd/d90/classEdhrecTopCommandersApiResponse.html", null ],
     [ "EdhrecTopTagsApiResponse", "d6/d8d/classEdhrecTopTagsApiResponse.html", null ],
+    [ "EmailParser", "dd/d83/classEmailParser.html", null ],
     [ "peg::EmptyType", "d2/d75/structpeg_1_1EmptyType.html", null ],
     [ "std::enable_shared_from_this", null, [
       [ "peg::AnyCharacter", "d8/d9b/classpeg_1_1AnyCharacter.html", null ],
@@ -96,6 +97,7 @@ var hierarchy =
       [ "peg::argument_count< R(C::*)(Args...) const >", "de/d27/structpeg_1_1argument__count_3_01R_07C_1_1_5_08_07Args_8_8_8_08_01const_01_4.html", null ],
       [ "peg::argument_count< R(C::*)(Args...)>", "d5/d90/structpeg_1_1argument__count_3_01R_07C_1_1_5_08_07Args_8_8_8_08_4.html", null ]
     ] ],
+    [ "QtJson::Json", "d3/d98/classQtJson_1_1Json.html", null ],
     [ "CardSetList::KeyCompareFunctor", "da/d79/classCardSetList_1_1KeyCompareFunctor.html", null ],
     [ "LockPixmapGenerator", "dd/dd6/classLockPixmapGenerator.html", null ],
     [ "MoveCardStruct", "d1/d62/structMoveCardStruct.html", null ],
@@ -390,11 +392,14 @@ var hierarchy =
       ] ],
       [ "ICardDatabasePathProvider", "dd/d8e/classICardDatabasePathProvider.html", [
         [ "NoopCardDatabasePathProvider", "d5/dad/classNoopCardDatabasePathProvider.html", null ],
-        [ "SettingsCache", "d5/d88/classSettingsCache.html", null ]
+        [ "SettingsCache", "d5/d88/classSettingsCache.html", null ],
+        [ "TestCardDatabasePathProvider", "de/da4/classTestCardDatabasePathProvider.html", null ]
       ] ],
+      [ "IslInterface", "d0/de8/classIslInterface.html", null ],
       [ "KeySignals", "da/d89/classKeySignals.html", null ],
       [ "Logger", "db/d67/classLogger.html", null ],
       [ "NoScrollFilter", "da/d92/classNoScrollFilter.html", null ],
+      [ "OracleImporter", "db/d70/classOracleImporter.html", null ],
       [ "PendingCommand", "d8/d62/classPendingCommand.html", null ],
       [ "PhaseButton", "da/d20/classPhaseButton.html", null ],
       [ "PhasesToolbar", "d7/d23/classPhasesToolbar.html", null ],
@@ -405,6 +410,8 @@ var hierarchy =
       [ "PlayerInfo", "df/df7/classPlayerInfo.html", null ],
       [ "PlayerManager", "dc/d5d/classPlayerManager.html", null ],
       [ "PlayerMenu", "d7/dd6/classPlayerMenu.html", null ],
+      [ "QxtSmtp", "de/d8a/classQxtSmtp.html", null ],
+      [ "QxtSmtpPrivate", "d6/deb/classQxtSmtpPrivate.html", null ],
       [ "RNG_Abstract", "de/dba/classRNG__Abstract.html", [
         [ "RNG_SFMT", "d4/dc7/classRNG__SFMT.html", null ]
       ] ],
@@ -412,9 +419,12 @@ var hierarchy =
         [ "BetaReleaseChannel", "d0/dc4/classBetaReleaseChannel.html", null ],
         [ "StableReleaseChannel", "d8/d5f/classStableReleaseChannel.html", null ]
       ] ],
+      [ "Servatrice_ConnectionPool", "da/d2f/classServatrice__ConnectionPool.html", null ],
       [ "Server", "db/d00/classServer.html", [
-        [ "LocalServer", "d2/d40/classLocalServer.html", null ]
+        [ "LocalServer", "d2/d40/classLocalServer.html", null ],
+        [ "Servatrice", "d5/d0e/classServatrice.html", null ]
       ] ],
+      [ "ServerLogger", "d7/d98/classServerLogger.html", null ],
       [ "Server_ArrowTarget", "d7/d78/classServer__ArrowTarget.html", [
         [ "Server_AbstractParticipant", "d0/d00/classServer__AbstractParticipant.html", [
           [ "Server_AbstractPlayer", "da/d99/classServer__AbstractPlayer.html", [
@@ -425,10 +435,15 @@ var hierarchy =
         [ "Server_Card", "dc/d07/classServer__Card.html", null ]
       ] ],
       [ "Server_DatabaseInterface", "d2/d12/classServer__DatabaseInterface.html", [
-        [ "LocalServer_DatabaseInterface", "d1/d74/classLocalServer__DatabaseInterface.html", null ]
+        [ "LocalServer_DatabaseInterface", "d1/d74/classLocalServer__DatabaseInterface.html", null ],
+        [ "Servatrice_DatabaseInterface", "d3/d76/classServatrice__DatabaseInterface.html", null ]
       ] ],
       [ "Server_Game", "df/d89/classServer__Game.html", null ],
       [ "Server_ProtocolHandler", "d0/d23/classServer__ProtocolHandler.html", [
+        [ "AbstractServerSocketInterface", "dd/dea/classAbstractServerSocketInterface.html", [
+          [ "TcpServerSocketInterface", "dd/d13/classTcpServerSocketInterface.html", null ],
+          [ "WebsocketServerSocketInterface", "de/db1/classWebsocketServerSocketInterface.html", null ]
+        ] ],
         [ "LocalServerInterface", "d0/dc3/classLocalServerInterface.html", null ]
       ] ],
       [ "Server_Room", "d1/d15/classServer__Room.html", null ],
@@ -445,13 +460,18 @@ var hierarchy =
         [ "ServersSettings", "df/db1/classServersSettings.html", null ]
       ] ],
       [ "ShortcutsSettings", "da/d38/classShortcutsSettings.html", null ],
+      [ "SignalHandler", "df/dc9/classSignalHandler.html", null ],
+      [ "SmtpClient", "d7/d8f/classSmtpClient.html", null ],
       [ "SoundEngine", "d7/d66/classSoundEngine.html", null ],
       [ "SpoilerBackgroundUpdater", "d9/dcc/classSpoilerBackgroundUpdater.html", null ],
       [ "TappedOutInterface", "d8/d9e/classTappedOutInterface.html", null ],
       [ "ThemeManager", "da/d5a/classThemeManager.html", null ],
+      [ "UnzipPrivate", "df/d90/classUnzipPrivate.html", null ],
       [ "UpdateDownloader", "db/df5/classUpdateDownloader.html", null ],
       [ "UserContextMenu", "d7/d67/classUserContextMenu.html", null ],
-      [ "UserListManager", "db/d6d/classUserListManager.html", null ]
+      [ "UserListManager", "db/d6d/classUserListManager.html", null ],
+      [ "XzDecompressor", "d1/dfe/classXzDecompressor.html", null ],
+      [ "ZipPrivate", "df/daf/classZipPrivate.html", null ]
     ] ],
     [ "QProxyStyle", null, [
       [ "MacOSTabFixStyle", "dd/d8d/classMacOSTabFixStyle.html", null ]
@@ -460,6 +480,13 @@ var hierarchy =
       [ "DynamicFontSizePushButton", "dd/d56/classDynamicFontSizePushButton.html", null ],
       [ "HomeStyledButton", "d4/d42/classHomeStyledButton.html", null ],
       [ "ToggleButton", "d0/d90/classToggleButton.html", null ]
+    ] ],
+    [ "QSettings", null, [
+      [ "SettingsCache", "d5/d88/classSettingsCache.html", null ]
+    ] ],
+    [ "QSharedData", null, [
+      [ "QxtMailAttachmentPrivate", "d5/d83/structQxtMailAttachmentPrivate.html", null ],
+      [ "QxtMailMessagePrivate", "d6/d85/structQxtMailMessagePrivate.html", null ]
     ] ],
     [ "QSortFilterProxyModel", null, [
       [ "CardCompleterProxyModel", "d7/d80/classCardCompleterProxyModel.html", null ],
@@ -482,6 +509,10 @@ var hierarchy =
       [ "TabSupervisor", "dd/d81/classTabSupervisor.html", null ],
       [ "TabbedDeckViewContainer", "de/d3d/classTabbedDeckViewContainer.html", null ]
     ] ],
+    [ "QTcpServer", null, [
+      [ "Servatrice_GameServer", "d2/dcd/classServatrice__GameServer.html", null ],
+      [ "Servatrice_IslServer", "df/d52/classServatrice__IslServer.html", null ]
+    ] ],
     [ "QTextBrowser", null, [
       [ "ChatView", "dc/dea/classChatView.html", [
         [ "MessageLogWidget", "d7/d93/classMessageLogWidget.html", null ]
@@ -498,6 +529,9 @@ var hierarchy =
     [ "QTreeWidgetItem", null, [
       [ "PlayerListTWI", "d5/d06/classPlayerListTWI.html", null ],
       [ "UserListTWI", "dd/dc7/classUserListTWI.html", null ]
+    ] ],
+    [ "QWebSocketServer", null, [
+      [ "Servatrice_WebsocketGameServer", "df/daa/classServatrice__WebsocketGameServer.html", null ]
     ] ],
     [ "QWidget", null, [
       [ "AbstractSettingsPage", "d0/d4c/classAbstractSettingsPage.html", [
@@ -596,9 +630,36 @@ var hierarchy =
       [ "VisualDeckStorageTagFilterWidget", "d8/d4e/classVisualDeckStorageTagFilterWidget.html", null ],
       [ "VisualDeckStorageWidget", "d0/dfe/classVisualDeckStorageWidget.html", null ]
     ] ],
+    [ "QWizard", null, [
+      [ "OracleWizard", "d5/dba/classOracleWizard.html", null ]
+    ] ],
+    [ "QWizardPage", null, [
+      [ "OracleWizardPage", "d8/d2d/classOracleWizardPage.html", [
+        [ "IntroPage", "db/d9a/classIntroPage.html", null ],
+        [ "LoadSetsPage", "d1/d64/classLoadSetsPage.html", null ],
+        [ "OutroPage", "d7/da4/classOutroPage.html", null ],
+        [ "SaveSetsPage", "d8/df0/classSaveSetsPage.html", null ],
+        [ "SimpleDownloadFilePage", "d7/d53/classSimpleDownloadFilePage.html", [
+          [ "LoadSpoilersPage", "d0/d54/classLoadSpoilersPage.html", null ],
+          [ "LoadTokensPage", "d7/d75/classLoadTokensPage.html", null ]
+        ] ]
+      ] ]
+    ] ],
+    [ "QxtHmac", "db/d72/classQxtHmac.html", null ],
+    [ "QxtMailAttachment", "d5/db4/classQxtMailAttachment.html", null ],
+    [ "QxtMailMessage", "d5/dff/classQxtMailMessage.html", null ],
+    [ "QxtPrivate< PUB >", "db/d14/classQxtPrivate.html", null ],
+    [ "QxtPrivate< QxtHmac >", "db/d14/classQxtPrivate.html", [
+      [ "QxtHmacPrivate", "d9/dac/classQxtHmacPrivate.html", null ]
+    ] ],
+    [ "QxtPrivate< QxtSmtp >", "db/d14/classQxtPrivate.html", [
+      [ "QxtSmtpPrivate", "d6/deb/classQxtSmtpPrivate.html", null ]
+    ] ],
+    [ "QxtPrivateInterface< PUB, PVT >", "de/ddc/classQxtPrivateInterface.html", null ],
     [ "Release", "db/d0a/classRelease.html", null ],
     [ "ResponseContainer", "db/d74/classResponseContainer.html", null ],
     [ "peg::Definition::Result", "df/d1f/structpeg_1_1Definition_1_1Result.html", null ],
+    [ "Result", "dd/d7e/structResult.html", null ],
     [ "peg::scope_exit< EF >", "d5/dbb/structpeg_1_1scope__exit.html", null ],
     [ "CardSearchModel::SearchResult", "df/d87/structCardSearchModel_1_1SearchResult.html", null ],
     [ "Server_Arrow", "df/d3b/classServer__Arrow.html", null ],
@@ -611,17 +672,21 @@ var hierarchy =
         [ "Server_RemoteUserInterface", "d8/d6a/classServer__RemoteUserInterface.html", null ]
       ] ]
     ] ],
+    [ "ServerProperties", "d4/d8d/classServerProperties.html", null ],
     [ "SetPriorityComparator", "d5/dee/classSetPriorityComparator.html", null ],
     [ "SetProviderIdToPreferred", "de/d75/structSetProviderIdToPreferred.html", null ],
     [ "SetReleaseDateComparator", "d4/d3e/classSetReleaseDateComparator.html", null ],
+    [ "SetToDownload", "d8/dc3/classSetToDownload.html", null ],
     [ "SFMT_T", "db/d02/structSFMT__T.html", null ],
     [ "ShortcutGroup", "d2/d7a/classShortcutGroup.html", null ],
     [ "SideboardPlan", "dc/d8b/classSideboardPlan.html", null ],
+    [ "SplitCardPart", "d5/d45/classSplitCardPart.html", null ],
     [ "TipOfTheDay", "d2/dba/classTipOfTheDay.html", null ],
     [ "TokenInfo", "dd/d40/structTokenInfo.html", null ],
     [ "TranslateCounterName", "d8/dab/classTranslateCounterName.html", null ],
     [ "peg::Trie", "d4/da5/classpeg_1_1Trie.html", null ],
     [ "CardInfo::UiAttributes", "d7/d93/structCardInfo_1_1UiAttributes.html", null ],
+    [ "UnZip", "de/d4e/classUnZip.html", null ],
     [ "UserConnection_Information", "d5/d88/classUserConnection__Information.html", null ],
     [ "UserLevelPixmapGenerator", "d8/df9/classUserLevelPixmapGenerator.html", null ],
     [ "UserListProxy", "dc/dc8/classUserListProxy.html", [
@@ -644,5 +709,8 @@ var hierarchy =
       [ "peg::TokenChecker", "de/d4a/structpeg_1_1TokenChecker.html", null ],
       [ "peg::TraceOpeName", "d1/dab/structpeg_1_1TraceOpeName.html", null ]
     ] ],
-    [ "W128_T", "df/db1/unionW128__T.html", null ]
+    [ "W128_T", "df/db1/unionW128__T.html", null ],
+    [ "Zip", "d8/df5/classZip.html", null ],
+    [ "UnZip::ZipEntry", "d9/d9c/structUnZip_1_1ZipEntry.html", null ],
+    [ "ZipEntryP", "d6/dd9/classZipEntryP.html", null ]
 ];

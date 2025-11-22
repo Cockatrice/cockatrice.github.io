@@ -24,10 +24,11 @@ var searchData=
   ['edhrectopcommandersapiresponsedisplaywidget_21',['EdhrecTopCommandersApiResponseDisplayWidget',['../dd/d06/classEdhrecTopCommandersApiResponseDisplayWidget.html',1,'']]],
   ['edhrectoptagsapiresponse_22',['EdhrecTopTagsApiResponse',['../d6/d8d/classEdhrecTopTagsApiResponse.html',1,'']]],
   ['edhrectoptagsapiresponsedisplaywidget_23',['EdhrecTopTagsApiResponseDisplayWidget',['../d5/d61/classEdhrecTopTagsApiResponseDisplayWidget.html',1,'']]],
-  ['emptytype_24',['EmptyType',['../d2/d75/structpeg_1_1EmptyType.html',1,'peg']]],
-  ['entry_25',['Entry',['../d3/d4a/structBackgroundSources_1_1Entry.html',1,'BackgroundSources']]],
-  ['errorinfo_26',['ErrorInfo',['../db/da9/structpeg_1_1ErrorInfo.html',1,'peg']]],
-  ['exactcard_27',['ExactCard',['../df/d4e/classExactCard.html',1,'']]],
-  ['expression_28',['Expression',['../de/d94/classExpression.html',1,'']]],
-  ['extradecksearchinfo_29',['ExtraDeckSearchInfo',['../d1/d36/structExtraDeckSearchInfo.html',1,'']]]
+  ['emailparser_24',['EmailParser',['../dd/d83/classEmailParser.html',1,'']]],
+  ['emptytype_25',['EmptyType',['../d2/d75/structpeg_1_1EmptyType.html',1,'peg']]],
+  ['entry_26',['Entry',['../d3/d4a/structBackgroundSources_1_1Entry.html',1,'BackgroundSources']]],
+  ['errorinfo_27',['ErrorInfo',['../db/da9/structpeg_1_1ErrorInfo.html',1,'peg']]],
+  ['exactcard_28',['ExactCard',['../df/d4e/classExactCard.html',1,'']]],
+  ['expression_29',['Expression',['../de/d94/classExpression.html',1,'']]],
+  ['extradecksearchinfo_30',['ExtraDeckSearchInfo',['../d1/d36/structExtraDeckSearchInfo.html',1,'']]]
 ];

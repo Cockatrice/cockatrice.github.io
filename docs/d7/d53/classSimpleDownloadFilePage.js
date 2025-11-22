@@ -1,0 +1,26 @@
+var classSimpleDownloadFilePage =
+[
+    [ "SimpleDownloadFilePage", "d7/d53/classSimpleDownloadFilePage.html#a458406ac32c837b76f75337c59e0bb98", null ],
+    [ "actDownloadFinished", "d7/d53/classSimpleDownloadFilePage.html#ae84fe77f7f72c3b60936c8eb4d37f6de", null ],
+    [ "actDownloadProgress", "d7/d53/classSimpleDownloadFilePage.html#ae20e73952f0842c1968def566e1f5871", null ],
+    [ "actRestoreDefaultUrl", "d7/d53/classSimpleDownloadFilePage.html#ae361b156643f4cd23392b3b5baf56ae7", null ],
+    [ "downloadFile", "d7/d53/classSimpleDownloadFilePage.html#a7d0486600ae9896d3cf732575f63d86b", null ],
+    [ "getCustomUrlSettingsKey", "d7/d53/classSimpleDownloadFilePage.html#a1fdd936f8d6ee625d036ed88e85f4873", null ],
+    [ "getDefaultSavePath", "d7/d53/classSimpleDownloadFilePage.html#af29d08656bc5c179d63b2f3d03e96259", null ],
+    [ "getDefaultUrl", "d7/d53/classSimpleDownloadFilePage.html#aa0445974f279701bab2d4392c1e6e471", null ],
+    [ "getFileType", "d7/d53/classSimpleDownloadFilePage.html#a5f2f266586a9dce1c561e2d78b57f710", null ],
+    [ "getWindowTitle", "d7/d53/classSimpleDownloadFilePage.html#aa306d658b08c5a32f481d0d3904022b8", null ],
+    [ "initializePage", "d7/d53/classSimpleDownloadFilePage.html#a12d49c57796ec53483409eefce1e6788", null ],
+    [ "internalSaveToFile", "d7/d53/classSimpleDownloadFilePage.html#a84233ff6177c11c52ca4ca8d20b437a3", null ],
+    [ "parsedDataReady", "d7/d53/classSimpleDownloadFilePage.html#a62472ad9f0311bd0c53d0292fea72582", null ],
+    [ "saveToFile", "d7/d53/classSimpleDownloadFilePage.html#a8b7bb5194a28b31fcec1d5aa7d2385a1", null ],
+    [ "validatePage", "d7/d53/classSimpleDownloadFilePage.html#a8089aad78648c4fc4a29d934308e6eca", null ],
+    [ "defaultPathCheckBox", "d7/d53/classSimpleDownloadFilePage.html#a5b0e8e2baa23d386e26e2fd382bb8873", null ],
+    [ "downloadData", "d7/d53/classSimpleDownloadFilePage.html#a74d71e311d44a8d62f19e931546125fc", null ],
+    [ "pathLabel", "d7/d53/classSimpleDownloadFilePage.html#a90827d23f1af49c2392c9840d8eeb513", null ],
+    [ "progressBar", "d7/d53/classSimpleDownloadFilePage.html#af968bd74e343419a95b636bbf290d0b5", null ],
+    [ "progressLabel", "d7/d53/classSimpleDownloadFilePage.html#a0cfc6677d407bf2accd4c3b1121e39dd", null ],
+    [ "urlButton", "d7/d53/classSimpleDownloadFilePage.html#ad4a808ba5d7d98b68eaae88547d010f2", null ],
+    [ "urlLabel", "d7/d53/classSimpleDownloadFilePage.html#ab05b9532e00425411d2b09a051c20340", null ],
+    [ "urlLineEdit", "d7/d53/classSimpleDownloadFilePage.html#ae4469a1bfbd80d6005e0e2b2046eb2bc", null ]
+];

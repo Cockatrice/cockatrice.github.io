@@ -7,6 +7,6 @@ var group__Core =
     [ "replay_manager.h", "d2/d22/replay__manager_8h.html", null ],
     [ "tab_supervisor.h", "d8/d89/tab__supervisor_8h.html", null ],
     [ "window_main.h", "dc/df4/window__main_8h.html", null ],
-    [ "main.h", "d4/dbf/main_8h.html", null ],
+    [ "main.h", "da/dd7/cockatrice_2src_2main_8h.html", null ],
     [ "levenshtein.h", "da/d23/levenshtein_8h.html", null ]
 ];

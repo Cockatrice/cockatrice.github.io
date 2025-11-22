@@ -1,20 +1,5 @@
 var searchData=
 [
-  ['main_5ftype_0',['MAIN_TYPE',['../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179a081ae8dc8b4489f081e67a36ff6128ee',1,'DeckListModelGroupCriteria']]],
-  ['main_5fwindow_1',['Main_Window',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca687a17557571c4a187fa118929a46f6b',1,'ShortcutGroup']]],
-  ['mana_5fcost_2',['MANA_COST',['../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179a7b146d6e8c916ea76c4f23cbe9b5e80d',1,'DeckListModelGroupCriteria']]],
-  ['manacostcolumn_3',['ManaCostColumn',['../dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0a9dc0d055ca2b9767bc5dde88bdd20174',1,'CardDatabaseModel']]],
-  ['maxrole_4',['MaxRole',['../da/d5a/classThemeManager.html#a3aa764444425be577be3cd450e79f278ad38174b51ab434a660b4631d4b3f0126',1,'ThemeManager']]],
-  ['messagecontext_5fmovecard_5',['MessageContext_MoveCard',['../d7/d93/classMessageLogWidget.html#aa18904c9db87256ddea032354260bf64aafb49dc0d071598809401bbb5041e675',1,'MessageLogWidget']]],
-  ['messagecontext_5fmulligan_6',['MessageContext_Mulligan',['../d7/d93/classMessageLogWidget.html#aa18904c9db87256ddea032354260bf64a9de8185c6d1800f3502ea591f10dd1da',1,'MessageLogWidget']]],
-  ['messagecontext_5fnone_7',['MessageContext_None',['../d7/d93/classMessageLogWidget.html#aa18904c9db87256ddea032354260bf64a1d7372ac3d01d236dd94ce060773d2c7',1,'MessageLogWidget']]],
-  ['messagetargetchat_8',['MessageTargetChat',['../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334ae6f14fa6f84f921baeabf62f04da1679',1,'Server_DatabaseInterface']]],
-  ['messagetargetgame_9',['MessageTargetGame',['../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a80f84e32bf1aa29a8834270986318120',1,'Server_DatabaseInterface']]],
-  ['messagetargetislroom_10',['MessageTargetIslRoom',['../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a7b498d5d4759ceae094537a7dbf8f6e2',1,'Server_DatabaseInterface']]],
-  ['messagetargetroom_11',['MessageTargetRoom',['../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a91ea7dd053e2af8cd12962794fabdf4d',1,'Server_DatabaseInterface']]],
-  ['minrole_12',['MinRole',['../da/d5a/classThemeManager.html#a3aa764444425be577be3cd450e79f278aa734d1f1fd0279ba8bbdbdd8025bf64c',1,'ThemeManager']]],
-  ['move_5fbottom_13',['Move_bottom',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2cecade2526aea315a8a4731a2a1e0cc93212',1,'ShortcutGroup']]],
-  ['move_5fselected_14',['Move_selected',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca2c5c611d19d59448090ad0c873889fb3',1,'ShortcutGroup']]],
-  ['move_5ftop_15',['Move_top',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca343e8fa47e6b66f4e62048dabb4c8daf',1,'ShortcutGroup']]],
-  ['moxfield_16',['Moxfield',['../da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a9855d965453d17249f98317f372d492f',1,'deck_link_to_api_transformer.h']]]
+  ['load_5fdeck_0',['Load_deck',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2cecae2d8667905e5445ec49249b6bd24785c',1,'ShortcutGroup']]],
+  ['longnamecol_1',['LongNameCol',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735a35ec899e1219e7a1a62d4ac74b94f6dd',1,'SetsModel']]]
 ];

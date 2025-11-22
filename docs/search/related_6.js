@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['sequence_0',['Sequence',['../df/dd5/structpeg_1_1SemanticValues.html#a26271d5afaff6e6d3f00c055c63d0b24',1,'peg::SemanticValues']]],
-  ['setsproxymodel_1',['SetsProxyModel',['../da/d64/classSetsModel.html#a6497379c07e772bebd0f7999e9345162',1,'SetsModel']]],
-  ['settingscache_2',['settingscache',['../de/dbe/classCardDatabaseSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'CardDatabaseSettings::SettingsCache'],['../d8/d12/classCardOverrideSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'CardOverrideSettings::SettingsCache'],['../d9/d00/classDebugSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'DebugSettings::SettingsCache'],['../d4/d14/classDownloadSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'DownloadSettings::SettingsCache'],['../df/dd0/classGameFiltersSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'GameFiltersSettings::SettingsCache'],['../d3/d58/classLayoutsSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'LayoutsSettings::SettingsCache'],['../d3/dc1/classMessageSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'MessageSettings::SettingsCache'],['../d3/db5/classRecentsSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'RecentsSettings::SettingsCache'],['../df/db1/classServersSettings.html#a859ba68015a001567c5ef72352e7b69b',1,'ServersSettings::SettingsCache']]],
-  ['stablereleasechannel_3',['StableReleaseChannel',['../db/d0a/classRelease.html#a766907d2acecf44a80371a9d2f0647dc',1,'Release']]]
+  ['reference_0',['Reference',['../d8/d94/classpeg_1_1Definition.html#a75dfa92607f3d314070ecf242e028014',1,'peg::Definition']]],
+  ['repetition_1',['Repetition',['../df/dd5/structpeg_1_1SemanticValues.html#a9e399b0d39aea5087366ed176fcf28c1',1,'peg::SemanticValues']]]
 ];
