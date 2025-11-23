@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['node_0',['node',['../da/d72/classRemoteDeckList__TreeModel_1_1Node.html',1,'RemoteDeckList_TreeModel::Node'],['../d9/d9d/classRemoteReplayList__TreeModel_1_1Node.html',1,'RemoteReplayList_TreeModel::Node']]],
+  ['node_0',['Node',['../da/d72/classRemoteDeckList__TreeModel_1_1Node.html',1,'RemoteDeckList_TreeModel::Node'],['../d9/d9d/classRemoteReplayList__TreeModel_1_1Node.html',1,'RemoteReplayList_TreeModel::Node']]],
   ['noopcarddatabasepathprovider_1',['NoopCardDatabasePathProvider',['../d5/dad/classNoopCardDatabasePathProvider.html',1,'']]],
   ['noopcardpreferenceprovider_2',['NoopCardPreferenceProvider',['../d5/d49/classNoopCardPreferenceProvider.html',1,'']]],
   ['noopcardsetprioritycontroller_3',['NoopCardSetPriorityController',['../d3/d21/classNoopCardSetPriorityController.html',1,'']]],

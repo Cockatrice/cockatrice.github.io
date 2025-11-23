@@ -14,7 +14,7 @@ var searchData=
   ['invalidarchive_11',['InvalidArchive',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a68938fe618aaf526fcf0e203d9ab7718',1,'UnZip']]],
   ['invaliddevice_12',['InvalidDevice',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412aac586404b45d388d6babfb972b69157a',1,'UnZip']]],
   ['invalidmailboxname_13',['InvalidMailboxName',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673adfd2aaa00f2cf7019fbb0e216d7b5b7d',1,'QxtSmtp']]],
-  ['iscardrole_14',['IsCardRole',['../d5/d55/namespaceDeckRoles.html#a1f7deea60b40d74d815d5f8587e6b3c7a699f7b302e1976e68142aa94226ca718',1,'DeckRoles']]],
+  ['iscardrole_14',['IsCardRole',['../d5/d55/namespaceDeckRoles.html#a6944de8e59ad938ef47b6fc51aa4154ba699f7b302e1976e68142aa94226ca718',1,'DeckRoles']]],
   ['isknowncol_15',['IsKnownCol',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735af8ffcadc092be8aef0ee6b5d1f723321',1,'SetsModel']]],
-  ['islegalrole_16',['IsLegalRole',['../d5/d55/namespaceDeckRoles.html#a1f7deea60b40d74d815d5f8587e6b3c7a0fc9a9676121d3a5bd395e13d538cd30',1,'DeckRoles']]]
+  ['islegalrole_16',['IsLegalRole',['../d5/d55/namespaceDeckRoles.html#a6944de8e59ad938ef47b6fc51aa4154ba0fc9a9676121d3a5bd395e13d538cd30',1,'DeckRoles']]]
 ];

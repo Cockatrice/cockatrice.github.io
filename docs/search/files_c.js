@@ -1,8 +1,8 @@
 var searchData=
 [
   ['macros_2eh_0',['macros.h',['../de/d3c/macros_8h.html',1,'']]],
-  ['main_2ecpp_1',['main.cpp',['../d8/d33/oracle_2src_2main_8cpp.html',1,'(Global Namespace)'],['../d8/da8/cockatrice_2src_2main_8cpp.html',1,'(Global Namespace)'],['../d0/d8b/servatrice_2src_2main_8cpp.html',1,'(Global Namespace)']]],
-  ['main_2eh_2',['main.h',['../d0/d40/servatrice_2src_2main_8h.html',1,'(Global Namespace)'],['../d7/dd2/oracle_2src_2main_8h.html',1,'(Global Namespace)'],['../da/dd7/cockatrice_2src_2main_8h.html',1,'(Global Namespace)']]],
+  ['main_2ecpp_1',['main.cpp',['../d8/da8/cockatrice_2src_2main_8cpp.html',1,'(Global Namespace)'],['../d8/d33/oracle_2src_2main_8cpp.html',1,'(Global Namespace)'],['../d0/d8b/servatrice_2src_2main_8cpp.html',1,'(Global Namespace)']]],
+  ['main_2eh_2',['main.h',['../da/dd7/cockatrice_2src_2main_8h.html',1,'(Global Namespace)'],['../d7/dd2/oracle_2src_2main_8h.html',1,'(Global Namespace)'],['../d0/d40/servatrice_2src_2main_8h.html',1,'(Global Namespace)']]],
   ['mana_5fbase_5fwidget_2ecpp_3',['mana_base_widget.cpp',['../d4/d3b/mana__base__widget_8cpp.html',1,'']]],
   ['mana_5fbase_5fwidget_2eh_4',['mana_base_widget.h',['../d3/d39/mana__base__widget_8h.html',1,'']]],
   ['mana_5fcost_5fwidget_2ecpp_5',['mana_cost_widget.cpp',['../df/d89/mana__cost__widget_8cpp.html',1,'']]],

@@ -44,7 +44,7 @@ var classCardInfo =
     [ "setProperty", "dd/dd2/classCardInfo.html#aa810cc14f4e6cd9c3b88bcf5201f5bbd", null ],
     [ "setSmartPointer", "dd/dd2/classCardInfo.html#a165df79cde9e4e2d00334befc332efc1", null ],
     [ "setText", "dd/dd2/classCardInfo.html#a26f241b0c113843289738aa7a563456e", null ],
-    [ "simplifyName", "dd/dd2/classCardInfo.html#ae87005290ce983bdafdf2b31892f547e", null ],
+    [ "simplifyName", "dd/dd2/classCardInfo.html#ac177dc7dd9e2f233c02f4fc56afd51ca", null ],
     [ "altNames", "dd/dd2/classCardInfo.html#a7dad1993c9c5eee3839960eb198ae7fd", null ],
     [ "isToken", "dd/dd2/classCardInfo.html#af1d1302ff829cb813f3b4c97e8c6dc7b", null ],
     [ "name", "dd/dd2/classCardInfo.html#a874e59e64850c2dd6bec145a3e930cb3", null ],

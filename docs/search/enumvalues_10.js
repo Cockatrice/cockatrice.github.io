@@ -1,7 +1,7 @@
 var searchData=
 [
   ['same_5ftab_0',['SAME_TAB',['../d1/d53/classAbstractTabDeckEditor.html#a59362c003e9fd04abbec91a0962342dca5e1f39ebcd4c6ca5fb4d016dcdda3aa9',1,'AbstractTabDeckEditor']]],
-  ['seekfailed_1',['seekfailed',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412ace60ce1e15b15a6454b8e3e480b6d34b',1,'UnZip::SeekFailed'],['../d8/df5/classZip.html#aa445490ca64ce3051470bed52ee9198cad43fb52355fcb2e22818d58bd8334fd4',1,'Zip::SeekFailed']]],
+  ['seekfailed_1',['SeekFailed',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412ace60ce1e15b15a6454b8e3e480b6d34b',1,'UnZip::SeekFailed'],['../d8/df5/classZip.html#aa445490ca64ce3051470bed52ee9198cad43fb52355fcb2e22818d58bd8334fd4',1,'Zip::SeekFailed']]],
   ['selected_2',['Selected',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea91b442d385b54e1418d81adc34871053',1,'deck_preview_tag_display_widget.h']]],
   ['sendingbody_3',['SendingBody',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216adc43c1150a911004eeb2ee5aad69b388',1,'QxtSmtpPrivate']]],
   ['sendtoothers_4',['SendToOthers',['../da/df9/classGameEventStorageItem.html#a19cc9739761186fa56a0ff2292bc9d64ac2b522d3ac2833b0d275cd193ffb5040',1,'GameEventStorageItem']]],
@@ -18,7 +18,7 @@ var searchData=
   ['skipall_15',['SkipAll',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412ab506c94c8ca2a28d07e936f9958f723f',1,'UnZip']]],
   ['skipbadfiles_16',['SkipBadFiles',['../d8/df5/classZip.html#a939111cf77e16d456d380b8c68f637abafb04402692bd6eb5d79d6d1a0eb87c11',1,'Zip']]],
   ['skippaths_17',['SkipPaths',['../de/d4e/classUnZip.html#ae76e35ba02ddc4793ddaca60a06e5968a19bec0ff609edae256156fcff196b8c7',1,'UnZip']]],
-  ['some_5fsets_5fselected_18',['SOME_SETS_SELECTED',['../dd/d67/classWndSets.html#a91df0890215fa34a18aab02be41c55eda6b455f79b1ee6c12f6c2211433fce9d8',1,'WndSets']]],
+  ['some_5fsets_5fselected_18',['SOME_SETS_SELECTED',['../dd/d67/classWndSets.html#a14250608cf2748e9a33e797036ae6496a6b455f79b1ee6c12f6c2211433fce9d8',1,'WndSets']]],
   ['sortbycolorgrouping_19',['SortByColorGrouping',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa1f0344b11d8ac7add8528bb4b226a194',1,'CardList']]],
   ['sortbycolors_20',['SortByColors',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe5231f8735f3bfcaa1a71953bf928f5',1,'CardList']]],
   ['sortbymaintype_21',['SortByMainType',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa97d07506cea7411553429614a9e78385',1,'CardList']]],
@@ -30,7 +30,7 @@ var searchData=
   ['sortbyset_27',['SortBySet',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa991cec90b63875bc28a0ee4d1ee26592',1,'CardList']]],
   ['sortbytype_28',['SortByType',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa318d2df73f9f1967fa2f7121c2f458e6',1,'CardList']]],
   ['sortkeycol_29',['SortKeyCol',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735a26698040560baac5f8dc29fa023dbd3b',1,'SetsModel']]],
-  ['sortrole_30',['sortrole',['../da/d64/classSetsModel.html#ab2e5e31efdaceaa9fca7279f10f87c28a55cbb0056e52108d7e9443ba751c079d',1,'SetsModel::SortRole'],['../dd/d83/classCardDatabaseModel.html#a1c3361bdf8abc45a4b19fd84c63e4502a024bcf296dab954fc82d0d40349bc225',1,'CardDatabaseModel::SortRole']]],
+  ['sortrole_30',['SortRole',['../dd/d83/classCardDatabaseModel.html#a1c3361bdf8abc45a4b19fd84c63e4502a024bcf296dab954fc82d0d40349bc225',1,'CardDatabaseModel::SortRole'],['../da/d64/classSetsModel.html#ab2e5e31efdaceaa9fca7279f10f87c28a55cbb0056e52108d7e9443ba751c079d',1,'SetsModel::SortRole']]],
   ['spectators_31',['SPECTATORS',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0ae98a1123d1e2e72d727164f54f79f581',1,'games_model.cpp']]],
   ['stack_32',['Stack',['../da/d5a/classThemeManager.html#a3aa764444425be577be3cd450e79f278aff617edeacf24e04971ec3ae905b7b46',1,'ThemeManager']]],
   ['startstate_33',['StartState',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216a79735d064e71fb9389022f5d7b880514',1,'QxtSmtpPrivate']]],

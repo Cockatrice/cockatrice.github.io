@@ -43,7 +43,9 @@ var hierarchy =
     [ "EdhrecTopCommandersApiResponse", "dd/d90/classEdhrecTopCommandersApiResponse.html", null ],
     [ "EdhrecTopTagsApiResponse", "d6/d8d/classEdhrecTopTagsApiResponse.html", null ],
     [ "EmailParser", "dd/d83/classEmailParser.html", null ],
-    [ "peg::EmptyType", "d2/d75/structpeg_1_1EmptyType.html", null ],
+    [ "peg::EmptyType", "d2/d75/structpeg_1_1EmptyType.html", [
+      [ "peg::AstBase< EmptyType >", "d2/d75/structpeg_1_1AstBase.html", null ]
+    ] ],
     [ "std::enable_shared_from_this", null, [
       [ "peg::AnyCharacter", "d8/d9b/classpeg_1_1AnyCharacter.html", null ],
       [ "peg::Character", "d3/df3/classpeg_1_1Character.html", null ],

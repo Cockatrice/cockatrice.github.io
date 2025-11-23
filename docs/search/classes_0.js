@@ -31,5 +31,6 @@ var searchData=
   ['arrowtarget_28',['ArrowTarget',['../d9/dce/classArrowTarget.html',1,'']]],
   ['assignidtodefinition_29',['AssignIDToDefinition',['../d9/d27/structpeg_1_1AssignIDToDefinition.html',1,'peg']]],
   ['astbase_30',['AstBase',['../d2/d75/structpeg_1_1AstBase.html',1,'peg']]],
-  ['astoptimizer_31',['AstOptimizer',['../da/dae/structpeg_1_1AstOptimizer.html',1,'peg']]]
+  ['astbase_3c_20emptytype_20_3e_31',['AstBase&lt; EmptyType &gt;',['../d2/d75/structpeg_1_1AstBase.html',1,'peg']]],
+  ['astoptimizer_32',['AstOptimizer',['../da/dae/structpeg_1_1AstOptimizer.html',1,'peg']]]
 ];

@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['schema_20and_20parsing_0',['Card Database Schema and Parsing',['../d7/d47/card_database_schema_and_parsing.html',1,'developer_reference']]],
-  ['search_20syntax_20help_1',['search syntax help',['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help'],['../dc/dcd/search_syntax_help.html',1,'Search Syntax Help']]],
-  ['selector_2',['Printing Selector',['../d7/d64/editing_decks_printings.html',1,'editing_decks']]],
-  ['syntax_20help_3',['syntax help',['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help'],['../dc/dcd/search_syntax_help.html',1,'Search Syntax Help']]]
+  ['modifying_20printings_0',['Modifying printings',['../d3/d32/editing_decks_classic.html#modifying-printings',1,'Modifying printings'],['../de/d6e/editing_decks_visual.html#modifying-printings-1',1,'Modifying printings']]],
+  ['modifying_20the_20deck_20list_1',['Modifying the Deck List',['../d3/d32/editing_decks_classic.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../de/d6e/editing_decks_visual.html#modifying-the-deck-list-1',1,'Modifying the Deck List']]],
+  ['modifying_20the_20visual_20deck_20layout_2',['Modifying the visual deck layout',['../de/d6e/editing_decks_visual.html#modifying-the-visual-deck-layout',1,'']]]
 ];

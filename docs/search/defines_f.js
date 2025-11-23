@@ -35,7 +35,7 @@ var searchData=
   ['sigsegv_5ftrace_5flines_32',['SIGSEGV_TRACE_LINES',['../de/d2d/signalhandler_8cpp.html#aac26808bc399b13e8ed2a0b3bd3cb76e',1,'signalhandler.cpp']]],
   ['sort_5freset_33',['SORT_RESET',['../db/d8d/dlg__manage__sets_8cpp.html#abadea06f5604cc3fdc04494a56465e02',1,'dlg_manage_sets.cpp']]],
   ['spoilers_5fstatus_5furl_34',['SPOILERS_STATUS_URL',['../db/d73/spoiler__background__updater_8cpp.html#abc3900f6e7ba9bf40547f2964e20ecdb',1,'spoiler_background_updater.cpp']]],
-  ['spoilers_5furl_35',['spoilers_url',['../db/d73/spoiler__background__updater_8cpp.html#a71f0e011f997b2e09a9cf4f958f925c4',1,'SPOILERS_URL:&#160;spoiler_background_updater.cpp'],['../d3/d12/pages_8cpp.html#a71f0e011f997b2e09a9cf4f958f925c4',1,'SPOILERS_URL:&#160;pages.cpp']]],
+  ['spoilers_5furl_35',['SPOILERS_URL',['../db/d73/spoiler__background__updater_8cpp.html#a71f0e011f997b2e09a9cf4f958f925c4',1,'SPOILERS_URL:&#160;spoiler_background_updater.cpp'],['../d3/d12/pages_8cpp.html#a71f0e011f997b2e09a9cf4f958f925c4',1,'SPOILERS_URL:&#160;pages.cpp']]],
   ['stablemanualdownload_5furl_36',['STABLEMANUALDOWNLOAD_URL',['../d4/d94/release__channel_8cpp.html#a6b0b74a8d1a61a58164c1e394c1f4332',1,'release_channel.cpp']]],
   ['stablerelease_5furl_37',['STABLERELEASE_URL',['../d4/d94/release__channel_8cpp.html#a37095738392deb1ac4af2ec984114694',1,'release_channel.cpp']]],
   ['stabletag_5furl_38',['STABLETAG_URL',['../d4/d94/release__channel_8cpp.html#aaf4ad2018b7fdbe17c70365d1e25aab8',1,'release_channel.cpp']]],

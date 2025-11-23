@@ -6,7 +6,7 @@ var searchData=
   ['deck_5feditor_3',['Deck_Editor',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca64f34787fa8e0e22ef1882d82a827dd0',1,'ShortcutGroup']]],
   ['deckfileart_4',['DeckFileArt',['../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639a93c28336f69f1a3d0fb73efb4b7c659c',1,'BackgroundSources']]],
   ['deckstats_5',['Deckstats',['../da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a0b7ea5af9a6c705933aaa016d5c4ad7c',1,'deck_link_to_api_transformer.h']]],
-  ['default_6',['Default',['../d8/d7d/abstract__deck__list__node_8h.html#a8ea3802f8561f16be908a83a08a796cea79935518a3889663d8688b6b01fff051',1,'abstract_deck_list_node.h']]],
+  ['default_6',['Default',['../d8/d7d/abstract__deck__list__node_8h.html#ga8ea3802f8561f16be908a83a08a796cea79935518a3889663d8688b6b01fff051',1,'abstract_deck_list_node.h']]],
   ['deflate1_7',['Deflate1',['../d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6ab7d2c8fbc8bd4222987b8827a5c14322',1,'Zip']]],
   ['deflate2_8',['Deflate2',['../d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6aa02e829079be288e7bb4cf5905b49f55',1,'Zip']]],
   ['deflate3_9',['Deflate3',['../d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6a064bd55ff4af08ebb31ebab570b05fed',1,'Zip']]],
@@ -17,10 +17,10 @@ var searchData=
   ['deflate8_14',['Deflate8',['../d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6a62cc3ef5a9c16b7c269c5a26a6b8282e',1,'Zip']]],
   ['deflate9_15',['Deflate9',['../d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6a30e364b23e77c1b840ffcc23f865e624',1,'Zip']]],
   ['deflated_16',['Deflated',['../de/d4e/classUnZip.html#af0741165d4b27b4692beef94c48528b5ae6b317c4861342f20661a6bff6b4209c',1,'UnZip']]],
-  ['depthrole_17',['DepthRole',['../d5/d55/namespaceDeckRoles.html#a1f7deea60b40d74d815d5f8587e6b3c7a2eb3b5a20fe5e6d67f0e1ec0ae0373f6',1,'DeckRoles']]],
+  ['depthrole_17',['DepthRole',['../d5/d55/namespaceDeckRoles.html#a6944de8e59ad938ef47b6fc51aa4154ba2eb3b5a20fe5e6d67f0e1ec0ae0373f6',1,'DeckRoles']]],
   ['description_18',['DESCRIPTION',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0ab6018339139b51a498dc44bd760766fc',1,'games_model.cpp']]],
   ['directory_19',['Directory',['../de/d4e/classUnZip.html#af7876c8fe61c0298d536a513f2ac1670a32d15cfa95ebfc03fa52a23471f83392',1,'UnZip']]],
   ['disconnected_20',['Disconnected',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216ac3b1f44c1b08e7e686f7808c98d264d3',1,'QxtSmtpPrivate']]],
-  ['doesnotattach_21',['DoesNotAttach',['../d1/d1e/card__relation__type_8h.html#abc3ced840172c7b624b340e282544a4fa40c6146ad219739b0ea10f49bda3a1e7',1,'card_relation_type.h']]],
+  ['doesnotattach_21',['DoesNotAttach',['../d6/dc2/group__Cards.html#ggabc3ced840172c7b624b340e282544a4fa40c6146ad219739b0ea10f49bda3a1e7',1,'card_relation_type.h']]],
   ['drawing_22',['Drawing',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca74116250efd8e81fcab97c474221fccd',1,'ShortcutGroup']]]
 ];

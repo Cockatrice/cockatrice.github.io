@@ -1,6 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"d6/d1a/classMainWindow.html#a2836e718ab96e25231b80d346a7841ad":[4,1,0,238,62],
 "d6/d1a/classMainWindow.html#a28e477c6c6fbdc4780ebffa4f39b9493":[4,1,0,238,43],
 "d6/d1a/classMainWindow.html#a2908878d3770e91c264d5e3520223f93":[4,1,0,238,89],
 "d6/d1a/classMainWindow.html#a2fcb328f4fdbeceafad4885e2f3206ef":[4,1,0,238,17],
@@ -113,10 +112,10 @@ var NAVTREEINDEX20 =
 "d6/d1c/classpeg_1_1PrioritizedChoice.html#a71073e6ea3a2ab7f2a464627663d9212":[4,1,0,0,36,6],
 "d6/d1c/classpeg_1_1PrioritizedChoice.html#ad00b448cc2ab6826b5cab72c8d8158ea":[4,0,0,6,37,7],
 "d6/d1c/classpeg_1_1PrioritizedChoice.html#ad00b448cc2ab6826b5cab72c8d8158ea":[4,1,0,0,36,7],
-"d6/d1c/classpeg_1_1PrioritizedChoice.html#ad4ed05fc3a29e3fc1d02f55661fdcc91":[4,1,0,0,36,1],
 "d6/d1c/classpeg_1_1PrioritizedChoice.html#ad4ed05fc3a29e3fc1d02f55661fdcc91":[4,0,0,6,37,1],
-"d6/d1c/classpeg_1_1PrioritizedChoice.html#afb7c12829498f42d9fb8ad79300a31db":[4,1,0,0,36,2],
+"d6/d1c/classpeg_1_1PrioritizedChoice.html#ad4ed05fc3a29e3fc1d02f55661fdcc91":[4,1,0,0,36,1],
 "d6/d1c/classpeg_1_1PrioritizedChoice.html#afb7c12829498f42d9fb8ad79300a31db":[4,0,0,6,37,2],
+"d6/d1c/classpeg_1_1PrioritizedChoice.html#afb7c12829498f42d9fb8ad79300a31db":[4,1,0,0,36,2],
 "d6/d2d/oraclewizard_8cpp.html":[4,2,0,12,0,7],
 "d6/d38/dlg__select__set__for__cards_8h.html":[3,1,0,0,3],
 "d6/d38/token__edit__model_8h.html":[3,2,4,0,6],
@@ -206,12 +205,12 @@ var NAVTREEINDEX20 =
 "d6/d5f/classDialogConvertDeckToCodFormat.html#aedaa0d62aa67669e532b66698d841e85":[4,1,0,117,3],
 "d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html":[4,0,0,6,35,1],
 "d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html":[4,1,0,0,34,1],
-"d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html#a9c649f85447bf489b1cd182d24e4d7e2":[4,1,0,0,34,1,0],
 "d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html#a9c649f85447bf489b1cd182d24e4d7e2":[4,0,0,6,35,1,0],
-"d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html#ae602388cf28460fbf703f657de76396c":[4,1,0,0,34,1,2],
+"d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html#a9c649f85447bf489b1cd182d24e4d7e2":[4,1,0,0,34,1,0],
 "d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html#ae602388cf28460fbf703f657de76396c":[4,0,0,6,35,1,2],
-"d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html#af33fb42ce6384601abd86acd9c3211a1":[4,1,0,0,34,1,1],
+"d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html#ae602388cf28460fbf703f657de76396c":[4,1,0,0,34,1,2],
 "d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html#af33fb42ce6384601abd86acd9c3211a1":[4,0,0,6,35,1,1],
+"d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html#af33fb42ce6384601abd86acd9c3211a1":[4,1,0,0,34,1,1],
 "d6/d6a/abstract__client_8cpp.html":[4,2,0,7,0,0,0,0,0],
 "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html":[4,1,0,440],
 "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a14b1fbfe743db84b79f593afb07086a5":[4,1,0,440,11],
@@ -249,5 +248,6 @@ var NAVTREEINDEX20 =
 "d6/d6f/classTableZone.html#a6f633fd80c94ed7621416135ec92ac1b":[4,1,0,403,44],
 "d6/d6f/classTableZone.html#a70d1bea5a28c08f735e4fffbf9d0530e":[4,1,0,403,0],
 "d6/d6f/classTableZone.html#a95987cbcefe960e9d768456cc496bf0f":[4,1,0,403,32],
-"d6/d6f/classTableZone.html#a96ad40631c903ed18a4a3d037d268696":[4,1,0,403,42]
+"d6/d6f/classTableZone.html#a96ad40631c903ed18a4a3d037d268696":[4,1,0,403,42],
+"d6/d6f/classTableZone.html#a98ee0511bb26295d1e0abacd64a0cf6e":[4,1,0,403,34]
 };

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['valid_0',['valid',['../d3/d0a/classSequenceEdit.html#a13db3cf675326411ffe6b321e3ae3943',1,'SequenceEdit']]],
-  ['value_1',['value',['../d4/d67/classAbstractCounter.html#a44b0e0bb2622beadb6b5b306eebe8bc7',1,'AbstractCounter::value'],['../de/d94/classExpression.html#a81382544fb0acdf8d90fa8e3674e58e7',1,'Expression::value'],['../db/daa/classBarWidget.html#a1f6062d37de48da67e0e1edc34e8e0c0',1,'BarWidget::value']]],
+  ['value_1',['value',['../d4/d67/classAbstractCounter.html#a44b0e0bb2622beadb6b5b306eebe8bc7',1,'AbstractCounter::value'],['../db/daa/classBarWidget.html#a1f6062d37de48da67e0e1edc34e8e0c0',1,'BarWidget::value'],['../de/d94/classExpression.html#a81382544fb0acdf8d90fa8e3674e58e7',1,'Expression::value']]],
   ['value_5fstack_2',['value_stack',['../df/d94/classpeg_1_1Context.html#acfe8148da63961967de55024dd1f7cd2',1,'peg::Context']]],
   ['value_5fstack_5fsize_3',['value_stack_size',['../df/d94/classpeg_1_1Context.html#aa190428775b34acc949b51bf7abe4c36',1,'peg::Context']]],
   ['valuetodisplay_4',['valueToDisplay',['../d9/d5e/classPercentBarWidget.html#a8e99dc20171b0c8cb4dd37f09ed8a9ab',1,'PercentBarWidget']]],
@@ -13,7 +13,7 @@ var searchData=
   ['verticalcardoverlappercentlabel_10',['verticalCardOverlapPercentLabel',['../d8/dc5/classAppearanceSettingsPage.html#ac157ab9a4e1a25ce1dd7e8901f2d5a80',1,'AppearanceSettingsPage']]],
   ['verticalmargin_11',['verticalMargin',['../de/d8b/classFlowLayout.html#a12beca01208e7deee5649655d433ee3b',1,'FlowLayout']]],
   ['view_12',['view',['../dd/d67/classWndSets.html#a0a3a8d5175cdd93504f63cdd4bfeb122',1,'WndSets']]],
-  ['viewmenu_13',['viewmenu',['../d1/d53/classAbstractTabDeckEditor.html#a9e12a586a0021b92e8fd44a49d53189f',1,'AbstractTabDeckEditor::viewMenu'],['../de/d08/classTabGame.html#a9fd59aad9abe7d54dd62c5f78ac3b2e7',1,'TabGame::viewMenu']]],
+  ['viewmenu_13',['viewMenu',['../d1/d53/classAbstractTabDeckEditor.html#a9e12a586a0021b92e8fd44a49d53189f',1,'AbstractTabDeckEditor::viewMenu'],['../de/d08/classTabGame.html#a9fd59aad9abe7d54dd62c5f78ac3b2e7',1,'TabGame::viewMenu']]],
   ['views_14',['views',['../d1/df9/classCardZoneLogic.html#a6b7333949c06d3095cee0598422a5567',1,'CardZoneLogic']]],
   ['viewsize_15',['viewSize',['../db/d9f/classGameScene.html#a72ab60c9119d77b1bdc6ae503a37afb4',1,'GameScene']]],
   ['viewtransformationbutton_16',['viewTransformationButton',['../db/d22/classCardInfoFrameWidget.html#abd8e4a22f3e092418117e0f7e9a6f700',1,'CardInfoFrameWidget']]],
@@ -42,6 +42,6 @@ var searchData=
   ['visualdeckstoragesortingorder_39',['visualDeckStorageSortingOrder',['../d5/d88/classSettingsCache.html#a77fdad7c9658dc17d1a8db190c963a9b',1,'SettingsCache']]],
   ['visualdeckstoragetooltiptype_40',['visualDeckStorageTooltipType',['../d5/d88/classSettingsCache.html#a0ddcc8af011fcec5a8ae088783cbd321',1,'SettingsCache']]],
   ['visualdeckstorageunusedcoloridentitiesopacity_41',['visualDeckStorageUnusedColorIdentitiesOpacity',['../d5/d88/classSettingsCache.html#aa09f684d41b9b25c5a87458f3449a6ca',1,'SettingsCache']]],
-  ['visualdeckstoragewidget_42',['visualdeckstoragewidget',['../df/ddd/classDeckViewContainer.html#a34f16b20f44fabc9afac732c0ea5e0ea',1,'DeckViewContainer::visualDeckStorageWidget'],['../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792',1,'TabDeckStorageVisual::visualDeckStorageWidget'],['../d5/d79/classDeckPreviewWidget.html#a4cf652fdc72b14db64c4b4064461d920',1,'DeckPreviewWidget::visualDeckStorageWidget'],['../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad52915450f9a735a2d7579d93006ad4f',1,'VisualDeckStorageFolderDisplayWidget::visualDeckStorageWidget']]],
+  ['visualdeckstoragewidget_42',['visualDeckStorageWidget',['../df/ddd/classDeckViewContainer.html#a34f16b20f44fabc9afac732c0ea5e0ea',1,'DeckViewContainer::visualDeckStorageWidget'],['../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792',1,'TabDeckStorageVisual::visualDeckStorageWidget'],['../d5/d79/classDeckPreviewWidget.html#a4cf652fdc72b14db64c4b4064461d920',1,'DeckPreviewWidget::visualDeckStorageWidget'],['../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad52915450f9a735a2d7579d93006ad4f',1,'VisualDeckStorageFolderDisplayWidget::visualDeckStorageWidget']]],
   ['visualdeckview_43',['visualDeckView',['../d9/dcf/classTabDeckEditorVisualTabWidget.html#ad8fb88e3c0c4c593048d58d5e747fe07',1,'TabDeckEditorVisualTabWidget']]]
 ];

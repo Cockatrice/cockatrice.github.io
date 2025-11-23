@@ -52,7 +52,7 @@ var searchData=
   ['_7elogger_49',['~Logger',['../db/d67/classLogger.html#afee741267f0de25da55208a6424eb84f',1,'Logger']]],
   ['_7emainwindow_50',['~MainWindow',['../d6/d1a/classMainWindow.html#a1f7d2c56410fc1bfa135bb907d43313f',1,'MainWindow']]],
   ['_7ematchnode_51',['~MatchNode',['../d7/d25/classRemoteReplayList__TreeModel_1_1MatchNode.html#a20d8237ab789ec119945fde03a7edccf',1,'RemoteReplayList_TreeModel::MatchNode']]],
-  ['_7enode_52',['~node',['../da/d72/classRemoteDeckList__TreeModel_1_1Node.html#aa0f443c6d2cb5e8b82dcf012f5bd9345',1,'RemoteDeckList_TreeModel::Node::~Node()'],['../d9/d9d/classRemoteReplayList__TreeModel_1_1Node.html#a6948630d1802f1b3dad667c1fb365ea6',1,'RemoteReplayList_TreeModel::Node::~Node()']]],
+  ['_7enode_52',['~Node',['../da/d72/classRemoteDeckList__TreeModel_1_1Node.html#aa0f443c6d2cb5e8b82dcf012f5bd9345',1,'RemoteDeckList_TreeModel::Node::~Node()'],['../d9/d9d/classRemoteReplayList__TreeModel_1_1Node.html#a6948630d1802f1b3dad667c1fb365ea6',1,'RemoteReplayList_TreeModel::Node::~Node()']]],
   ['_7eope_53',['~Ope',['../d2/d66/classpeg_1_1Ope.html#ac7c58ac69a92a5bdd8ad8c0d720a6dab',1,'peg::Ope']]],
   ['_7eoverlaplayout_54',['~OverlapLayout',['../dd/d39/classOverlapLayout.html#ac2d2e5d993d9fab40f8a2c58be4024ee',1,'OverlapLayout']]],
   ['_7eplayer_55',['~Player',['../d2/d4b/classPlayer.html#a8ed544987af18de0e6b2932206bf1186',1,'Player']]],

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['0_20img_20src_20https_3a_20img_20shields_20io_20github_20downloads_20cockatrice_20cockatrice_20total_20svg_20alt_20cockatrice_20eternal_20download_20count_20a_0',['Download &lt;a href=&quot;https://tooomm.github.io/github-release-stats/?username=Cockatrice&amp;repository=Cockatrice&amp;search=0&quot; &gt;&lt;img src=&quot;https://img.shields.io/github/downloads/cockatrice/cockatrice/total.svg&quot; alt=&quot;Cockatrice Eternal Download Count&quot;/&gt;&lt;/a&gt;',['../d0/d30/md_README.html#autotoc_md73',1,'']]]
+  ['_5ferror_0',['_error',['../d5/dc2/classDeckFilterString.html#a7423db0ef0c76a1ad34d709bd6ba0f55',1,'DeckFilterString::_error'],['../db/da4/classFilterString.html#a5f612af632d07bf2f3175f772255ae6a',1,'FilterString::_error']]],
+  ['_5fuse_5fmath_5fdefines_1',['_USE_MATH_DEFINES',['../df/d2b/arrow__item_8cpp.html#a525335710b53cb064ca56b936120431e',1,'arrow_item.cpp']]]
 ];

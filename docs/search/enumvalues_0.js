@@ -5,7 +5,7 @@ var searchData=
   ['alluserslist_2',['AllUsersList',['../da/d3b/classUserListWidget.html#abf013e42f0196e76737d014e9403552ca008ff614b3b23bd2cfd34f1bb2a0c4a1',1,'UserListWidget']]],
   ['alphabetical_3',['Alphabetical',['../dd/d71/classVisualDeckStorageSortWidget.html#afe1e695f9d17f70c9b59d938d13b95eea1daff1cf02e8f2c10e5738bd750db21a',1,'VisualDeckStorageSortWidget']]],
   ['archidekt_4',['Archidekt',['../da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a4d7a83579e075d9433b1cdbd4b2c7134',1,'deck_link_to_api_transformer.h']]],
-  ['attachto_5',['AttachTo',['../d1/d1e/card__relation__type_8h.html#abc3ced840172c7b624b340e282544a4fafad78f3e80faa64be0eb48bb25465ed3',1,'card_relation_type.h']]],
+  ['attachto_5',['AttachTo',['../d6/dc2/group__Cards.html#ggabc3ced840172c7b624b340e282544a4fafad78f3e80faa64be0eb48bb25465ed3',1,'card_relation_type.h']]],
   ['attrcmc_6',['AttrCmc',['../d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8ac2609cc903702fa4e8a03e60617b4e5a',1,'CardFilter']]],
   ['attrcolor_7',['AttrColor',['../d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8a5f107f67fc8a74df265c57d90de88518',1,'CardFilter']]],
   ['attrend_8',['AttrEnd',['../d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8a2d9002d18bd1df05849ec76d83c132c8',1,'CardFilter']]],

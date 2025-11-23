@@ -1,12 +1,12 @@
 var searchData=
 [
   ['cancelled_0',['CANCELLED',['../d1/d53/classAbstractTabDeckEditor.html#a59362c003e9fd04abbec91a0962342dcaf739b75ffc5fda7bbb510d33c39f718d',1,'AbstractTabDeckEditor']]],
-  ['card_5famount_1',['CARD_AMOUNT',['../d5/d1c/namespaceDeckListModelColumns.html#a31b3de41081af78ee5e1e6581a3d0065a42ec9563a759ecd4bffc16b117fd5fa9',1,'DeckListModelColumns']]],
-  ['card_5fcollector_5fnumber_2',['CARD_COLLECTOR_NUMBER',['../d5/d1c/namespaceDeckListModelColumns.html#a31b3de41081af78ee5e1e6581a3d0065aa3c0bd74fc351b35f7b5211fcefd8a60',1,'DeckListModelColumns']]],
+  ['card_5famount_1',['CARD_AMOUNT',['../d5/d1c/namespaceDeckListModelColumns.html#a1e97444989710b23b1a691c61c239969a42ec9563a759ecd4bffc16b117fd5fa9',1,'DeckListModelColumns']]],
+  ['card_5fcollector_5fnumber_2',['CARD_COLLECTOR_NUMBER',['../d5/d1c/namespaceDeckListModelColumns.html#a1e97444989710b23b1a691c61c239969aa3c0bd74fc351b35f7b5211fcefd8a60',1,'DeckListModelColumns']]],
   ['card_5fcounters_3',['Card_Counters',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca065252f3949c7f8b6b78222b730524e3',1,'ShortcutGroup']]],
-  ['card_5fname_4',['CARD_NAME',['../d5/d1c/namespaceDeckListModelColumns.html#a31b3de41081af78ee5e1e6581a3d0065af60463e12ec35494d641b7123acf3a04',1,'DeckListModelColumns']]],
-  ['card_5fprovider_5fid_5',['CARD_PROVIDER_ID',['../d5/d1c/namespaceDeckListModelColumns.html#a31b3de41081af78ee5e1e6581a3d0065a93637a78a0ba7208f89e6b19761aab3f',1,'DeckListModelColumns']]],
-  ['card_5fset_6',['CARD_SET',['../d5/d1c/namespaceDeckListModelColumns.html#a31b3de41081af78ee5e1e6581a3d0065a4f79f1f441ae7643f99e3a40819013b2',1,'DeckListModelColumns']]],
+  ['card_5fname_4',['CARD_NAME',['../d5/d1c/namespaceDeckListModelColumns.html#a1e97444989710b23b1a691c61c239969af60463e12ec35494d641b7123acf3a04',1,'DeckListModelColumns']]],
+  ['card_5fprovider_5fid_5',['CARD_PROVIDER_ID',['../d5/d1c/namespaceDeckListModelColumns.html#a1e97444989710b23b1a691c61c239969a93637a78a0ba7208f89e6b19761aab3f',1,'DeckListModelColumns']]],
+  ['card_5fset_6',['CARD_SET',['../d5/d1c/namespaceDeckListModelColumns.html#a1e97444989710b23b1a691c61c239969a4f79f1f441ae7643f99e3a40819013b2',1,'DeckListModelColumns']]],
   ['cardtypecolumn_7',['CardTypeColumn',['../dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0a95e108c69140cf51c70f81df2266dfe2',1,'CardDatabaseModel']]],
   ['caselookatzone_8',['CaseLookAtZone',['../d6/d94/translation_8h.html#a9b7cf3307729d837f2a87aa86421b3d1a9ffcb3242fe0f64f0592e212ed1aea26',1,'translation.h']]],
   ['casenominative_9',['CaseNominative',['../d6/d94/translation_8h.html#a9b7cf3307729d837f2a87aa86421b3d1a9f5ccf00a0cf8433d5158e0460e032fd',1,'translation.h']]],

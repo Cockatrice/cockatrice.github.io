@@ -52,7 +52,7 @@ var group__Cards =
       [ "setProperty", "dd/dd2/classCardInfo.html#aa810cc14f4e6cd9c3b88bcf5201f5bbd", null ],
       [ "setSmartPointer", "dd/dd2/classCardInfo.html#a165df79cde9e4e2d00334befc332efc1", null ],
       [ "setText", "dd/dd2/classCardInfo.html#a26f241b0c113843289738aa7a563456e", null ],
-      [ "simplifyName", "dd/dd2/classCardInfo.html#ae87005290ce983bdafdf2b31892f547e", null ],
+      [ "simplifyName", "dd/dd2/classCardInfo.html#ac177dc7dd9e2f233c02f4fc56afd51ca", null ],
       [ "altNames", "dd/dd2/classCardInfo.html#a7dad1993c9c5eee3839960eb198ae7fd", null ],
       [ "isToken", "dd/dd2/classCardInfo.html#af1d1302ff829cb813f3b4c97e8c6dc7b", null ],
       [ "name", "dd/dd2/classCardInfo.html#a874e59e64850c2dd6bec145a3e930cb3", null ],
@@ -91,5 +91,10 @@ var group__Cards =
       [ "isPersistent", "db/ded/classCardRelation.html#aeb74921efb0c50c39ea7b4afaca74ba9", null ],
       [ "isVariableCount", "db/ded/classCardRelation.html#aaf5badf6ab391d11e4d39b8ff35e4d5d", null ],
       [ "name", "db/ded/classCardRelation.html#a81dbfb715271b5b0e6dbd5cf40cd9592", null ]
+    ] ],
+    [ "CardRelationType", "d6/dc2/group__Cards.html#gabc3ced840172c7b624b340e282544a4f", [
+      [ "CardRelationType::DoesNotAttach", "d6/dc2/group__Cards.html#ggabc3ced840172c7b624b340e282544a4fa40c6146ad219739b0ea10f49bda3a1e7", null ],
+      [ "CardRelationType::AttachTo", "d6/dc2/group__Cards.html#ggabc3ced840172c7b624b340e282544a4fafad78f3e80faa64be0eb48bb25465ed3", null ],
+      [ "CardRelationType::TransformInto", "d6/dc2/group__Cards.html#ggabc3ced840172c7b624b340e282544a4fa16bfb77abdb5844a31d7fec5f24809a0", null ]
     ] ]
 ];
