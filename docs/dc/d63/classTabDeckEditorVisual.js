@@ -17,7 +17,7 @@ var classTabDeckEditorVisual =
     [ "loadLayout", "dc/d63/classTabDeckEditorVisual.html#ae9b8573b2c6d4e876577f7dc8146e192", null ],
     [ "onDeckChanged", "dc/d63/classTabDeckEditorVisual.html#a218c82a1db7e1f4f528b3387504b4fb9", null ],
     [ "processCardClickDatabaseDisplay", "dc/d63/classTabDeckEditorVisual.html#a735f0020e6916150378bd44aa3c977c8", null ],
-    [ "processMainboardCardClick", "dc/d63/classTabDeckEditorVisual.html#a1965c30835c97f73a44bff4e49952daf", null ],
+    [ "processMainboardCardClick", "dc/d63/classTabDeckEditorVisual.html#a222b01da4168b156b7027fca2ac37806", null ],
     [ "refreshShortcuts", "dc/d63/classTabDeckEditorVisual.html#a337d55db65af9cd2fbafd73a21447702", null ],
     [ "restartLayout", "dc/d63/classTabDeckEditorVisual.html#a7b29a1688ef8781eeb2bd92b1a8a1b6e", null ],
     [ "retranslateUi", "dc/d63/classTabDeckEditorVisual.html#a4b19367f3db21bf231f9912dde075e80", null ],

@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-11-30-Development-2.11.0-beta.38</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -125,6 +125,10 @@ Public Slots</h2></td></tr>
 <tr class="memdesc:a6aae96f56ec779c248645b4f4bfdeda6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the deck changes.  <br /></td></tr>
 <tr class="memitem:acf8aa2689f726f1cb553f14b646873d6" id="r_acf8aa2689f726f1cb553f14b646873d6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf8aa2689f726f1cb553f14b646873d6">onDeckModified</a> ()</td></tr>
 <tr class="memdesc:acf8aa2689f726f1cb553f14b646873d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the deck is modified.  <br /></td></tr>
+<tr class="memitem:aa3c3ec1283c731abddb0446ab9ea11aa" id="r_aa3c3ec1283c731abddb0446ab9ea11aa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3c3ec1283c731abddb0446ab9ea11aa">onDeckHistorySaveRequested</a> (const QString &amp;modificationReason)</td></tr>
+<tr class="memdesc:aa3c3ec1283c731abddb0446ab9ea11aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a widget is about to modify the state of the <a class="el" href="../../da/d68/classDeckList.html" title="Represents a complete deck, including metadata, zones, cards, and sideboard plans.">DeckList</a>.  <br /></td></tr>
+<tr class="memitem:a055a87558c7be9a37828d56ae81879c9" id="r_a055a87558c7be9a37828d56ae81879c9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a055a87558c7be9a37828d56ae81879c9">onDeckHistoryClearRequested</a> ()</td></tr>
+<tr class="memdesc:a055a87558c7be9a37828d56ae81879c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a widget would like to clear the history.  <br /></td></tr>
 <tr class="memitem:a51f8be3c74964024053c3dd633e9a335" id="r_a51f8be3c74964024053c3dd633e9a335"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51f8be3c74964024053c3dd633e9a335">updateCard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
 <tr class="memdesc:a51f8be3c74964024053c3dd633e9a335"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the card info panel.  <br /></td></tr>
 <tr class="memitem:a86fddfe318be81f8fe4aa54e980fcdd1" id="r_a86fddfe318be81f8fe4aa54e980fcdd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86fddfe318be81f8fe4aa54e980fcdd1">actAddCard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
@@ -148,7 +152,6 @@ Public Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:a66852a2245de8e621e9feeb0c6486323" id="r_a66852a2245de8e621e9feeb0c6486323"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66852a2245de8e621e9feeb0c6486323">cardAboutToBeAdded</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;addedCard, const QString &amp;zoneName)</td></tr>
 <tr class="memitem:ade23dfd4b3cebbd219fbc29d8c7349a1" id="r_ade23dfd4b3cebbd219fbc29d8c7349a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade23dfd4b3cebbd219fbc29d8c7349a1">openDeckEditor</a> (DeckLoader *deckLoader)</td></tr>
 <tr class="memdesc:ade23dfd4b3cebbd219fbc29d8c7349a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a deck should be opened in a new editor tab.  <br /></td></tr>
 <tr class="memitem:ad01e84b6ba3ca44886b4483ae440162b" id="r_ad01e84b6ba3ca44886b4483ae440162b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad01e84b6ba3ca44886b4483ae440162b">deckEditorClosing</a> (<a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> *tab)</td></tr>
@@ -180,6 +183,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a48a6009c99632c86d892f97c1c626875" id="r_a48a6009c99632c86d892f97c1c626875"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48a6009c99632c86d892f97c1c626875">setModified</a> (bool _windowModified)</td></tr>
 <tr class="memdesc:a48a6009c99632c86d892f97c1c626875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the modified state of the tab.  <br /></td></tr>
 <tr class="memitem:a21532af384e4ec1dab5f5d67409abecd" id="r_a21532af384e4ec1dab5f5d67409abecd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/df7/classDeckEditorDeckDockWidget.html">DeckEditorDeckDockWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21532af384e4ec1dab5f5d67409abecd">getDeckDockWidget</a> () const</td></tr>
+<tr class="memitem:aae8081f447f07e23ac785592503d794b" id="r_aae8081f447f07e23ac785592503d794b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d3c/classDeckListHistoryManager.html">DeckListHistoryManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae8081f447f07e23ac785592503d794b">getHistoryManager</a> () const</td></tr>
 <tr class="inherit_header pub_methods_classTab"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classTab')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="../../de/d9c/classTab.html">Tab</a></td></tr>
 <tr class="memitem:a78be3ec2696f8a5ad2e175fb3c6eb6a2 inherit pub_methods_classTab" id="r_a78be3ec2696f8a5ad2e175fb3c6eb6a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/classTab.html#a78be3ec2696f8a5ad2e175fb3c6eb6a2">Tab</a> (<a class="el" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *_tabSupervisor)</td></tr>
 <tr class="memitem:a6866c81c403157c9370315aaceceac19 inherit pub_methods_classTab" id="r_a6866c81c403157c9370315aaceceac19"><td class="memItemLeft" align="right" valign="top">const QList&lt; QMenu * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/classTab.html#a6866c81c403157c9370315aaceceac19">getTabMenus</a> () const</td></tr>
@@ -191,6 +195,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:ac25dce58c14adb55b7cff57f3c2f4319" id="r_ac25dce58c14adb55b7cff57f3c2f4319"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d3c/classDeckListHistoryManager.html">DeckListHistoryManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac25dce58c14adb55b7cff57f3c2f4319">historyManager</a></td></tr>
 <tr class="memitem:a4fe2e23bb658d15306e164fc1b9de589" id="r_a4fe2e23bb658d15306e164fc1b9de589"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d76/classDeckEditorMenu.html">DeckEditorMenu</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fe2e23bb658d15306e164fc1b9de589">deckMenu</a></td></tr>
 <tr class="memdesc:a4fe2e23bb658d15306e164fc1b9de589"><td class="mdescLeft">&#160;</td><td class="mdescRight">Menu for deck operations.  <br /></td></tr>
 <tr class="memitem:a05ad7f364ca77b49024f40d9447e5ea3" id="r_a05ad7f364ca77b49024f40d9447e5ea3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d0a/classDeckEditorDatabaseDisplayWidget.html">DeckEditorDatabaseDisplayWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05ad7f364ca77b49024f40d9447e5ea3">databaseDisplayDockWidget</a></td></tr>
@@ -422,7 +427,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a57cf8d57a94f36550a2db1cb1a7c78fa_icgraph.svg" width="100%" height="533"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a57cf8d57a94f36550a2db1cb1a7c78fa_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -456,12 +461,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a86fddfe318be81f8fe4aa54e980fcdd1_cgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a86fddfe318be81f8fe4aa54e980fcdd1_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a86fddfe318be81f8fe4aa54e980fcdd1_icgraph.svg" width="100%" height="570"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a86fddfe318be81f8fe4aa54e980fcdd1_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -493,12 +498,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_ad81c6e4ddfb67cdb61cc8bc6179bb5c6_cgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_ad81c6e4ddfb67cdb61cc8bc6179bb5c6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_ad81c6e4ddfb67cdb61cc8bc6179bb5c6_icgraph.svg" width="100%" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_ad81c6e4ddfb67cdb61cc8bc6179bb5c6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -611,7 +616,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_ad3695aa2697226b04e4d9b9185446a7d_icgraph.svg" width="100%" height="550"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_ad3695aa2697226b04e4d9b9185446a7d_icgraph.svg" width="100%" height="599"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -648,7 +653,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a7e385dad46e8275452dd56892b176340_icgraph.svg" width="100%" height="533"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a7e385dad46e8275452dd56892b176340_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1352,46 +1357,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a2dfda24cae0c1f4f3abf81712498c2e7_cgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a2dfda24cae0c1f4f3abf81712498c2e7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a2dfda24cae0c1f4f3abf81712498c2e7_icgraph.svg" width="100%" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a66852a2245de8e621e9feeb0c6486323" name="a66852a2245de8e621e9feeb0c6486323"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66852a2245de8e621e9feeb0c6486323">&#9670;&#160;</a></span>cardAboutToBeAdded</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AbstractTabDeckEditor::cardAboutToBeAdded </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>addedCard</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>zoneName</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a66852a2245de8e621e9feeb0c6486323_icgraph.svg" width="100%" height="573"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a2dfda24cae0c1f4f3abf81712498c2e7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1688,7 +1659,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_ad01e84b6ba3ca44886b4483ae440162b_icgraph.svg" width="100%" height="531"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_ad01e84b6ba3ca44886b4483ae440162b_icgraph.svg" width="100%" height="598"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1724,7 +1695,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_ac5449aa2d113ff6dae0401e707f14a8a_icgraph.svg" width="100%" height="550"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_ac5449aa2d113ff6dae0401e707f14a8a_icgraph.svg" width="100%" height="599"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2077,6 +2048,31 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aae8081f447f07e23ac785592503d794b" name="aae8081f447f07e23ac785592503d794b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae8081f447f07e23ac785592503d794b">&#9670;&#160;</a></span>getHistoryManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d3c/classDeckListHistoryManager.html">DeckListHistoryManager</a> * AbstractTabDeckEditor::getHistoryManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a113dd4dda838bccf9e50448e0377c237" name="a113dd4dda838bccf9e50448e0377c237"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a113dd4dda838bccf9e50448e0377c237">&#9670;&#160;</a></span>getTabText()</h2>
 
@@ -2198,7 +2194,79 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a6aae96f56ec779c248645b4f4bfdeda6_icgraph.svg" width="100%" height="533"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a6aae96f56ec779c248645b4f4bfdeda6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a055a87558c7be9a37828d56ae81879c9" name="a055a87558c7be9a37828d56ae81879c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a055a87558c7be9a37828d56ae81879c9">&#9670;&#160;</a></span>onDeckHistoryClearRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractTabDeckEditor::onDeckHistoryClearRequested </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when a widget would like to clear the history. </p>
+<p>Marks the tab as modified and updates the save menu status. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a055a87558c7be9a37828d56ae81879c9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aa3c3ec1283c731abddb0446ab9ea11aa" name="aa3c3ec1283c731abddb0446ab9ea11aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3c3ec1283c731abddb0446ab9ea11aa">&#9670;&#160;</a></span>onDeckHistorySaveRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractTabDeckEditor::onDeckHistorySaveRequested </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>modificationReason</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when a widget is about to modify the state of the <a class="el" href="../../da/d68/classDeckList.html" title="Represents a complete deck, including metadata, zones, cards, and sideboard plans.">DeckList</a>. </p>
+<p>Marks the tab as modified and updates the save menu status.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">modificationReason</td><td>The reason for the state modification </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_aa3c3ec1283c731abddb0446ab9ea11aa_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2236,7 +2304,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_acf8aa2689f726f1cb553f14b646873d6_icgraph.svg" width="100%" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_acf8aa2689f726f1cb553f14b646873d6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2383,7 +2451,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a40ee098e949fa4314d7dd8335aeebe84_icgraph.svg" width="100%" height="533"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a40ee098e949fa4314d7dd8335aeebe84_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2640,7 +2708,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a51f8be3c74964024053c3dd633e9a335_icgraph.svg" width="100%" height="543"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a51f8be3c74964024053c3dd633e9a335_icgraph.svg" width="100%" height="599"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -3010,6 +3078,20 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p><a class="el" href="../../d3/da2/filter__string_8h.html#ad5583a32d04875d816d3544e32f2c4e6">Filter</a> dock. </p>
+
+</div>
+</div>
+<a id="ac25dce58c14adb55b7cff57f3c2f4319" name="ac25dce58c14adb55b7cff57f3c2f4319"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac25dce58c14adb55b7cff57f3c2f4319">&#9670;&#160;</a></span>historyManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d3c/classDeckListHistoryManager.html">DeckListHistoryManager</a>* AbstractTabDeckEditor::historyManager</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

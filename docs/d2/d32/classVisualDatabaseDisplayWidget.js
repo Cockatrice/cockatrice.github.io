@@ -12,6 +12,7 @@ var classVisualDatabaseDisplayWidget =
     [ "loadPage", "d2/d32/classVisualDatabaseDisplayWidget.html#a960807436678cbc6eb2994a466465bb7", null ],
     [ "modelDirty", "d2/d32/classVisualDatabaseDisplayWidget.html#a9439e3ffdef2aa089a08a370d5b43bf7", null ],
     [ "onClick", "d2/d32/classVisualDatabaseDisplayWidget.html#a9c5bda146f913a5e841cc8806afcf309", null ],
+    [ "onDisplayModeChanged", "d2/d32/classVisualDatabaseDisplayWidget.html#a39a3e3c2c42c93e280f9652a0c736151", null ],
     [ "onHover", "d2/d32/classVisualDatabaseDisplayWidget.html#ae7dddcfac07b6d64cdfcd1d29435ce22", null ],
     [ "populateCards", "d2/d32/classVisualDatabaseDisplayWidget.html#a728bd8db7393d110ab38e716441a91e6", null ],
     [ "resizeEvent", "d2/d32/classVisualDatabaseDisplayWidget.html#a3b269e295cb184abf957d4a647600d58", null ],
@@ -34,6 +35,8 @@ var classVisualDatabaseDisplayWidget =
     [ "debounceTime", "d2/d32/classVisualDatabaseDisplayWidget.html#a71f8edf9be56cad1cd4a6acff239d2fc", null ],
     [ "debounceTimer", "d2/d32/classVisualDatabaseDisplayWidget.html#ab06f32915a6d8afd766e7fe88b916b51", null ],
     [ "deckEditor", "d2/d32/classVisualDatabaseDisplayWidget.html#aeb87ea15e3cebac670543eca047def70", null ],
+    [ "displayModeButton", "d2/d32/classVisualDatabaseDisplayWidget.html#a0d827ed8f07beac791e6e7e19c3bc395", null ],
+    [ "filterByLabel", "d2/d32/classVisualDatabaseDisplayWidget.html#a375134ce00ca120288bd3fa2b01d7713", null ],
     [ "filterContainer", "d2/d32/classVisualDatabaseDisplayWidget.html#aaff36f8c81a471c129f8d58bca1a895b", null ],
     [ "filterContainerLayout", "d2/d32/classVisualDatabaseDisplayWidget.html#a0787f525c82433dc42d6b1f06b8180ac", null ],
     [ "filterModel", "d2/d32/classVisualDatabaseDisplayWidget.html#a999db1609a38cbddbee44ed60f752f32", null ],
@@ -56,5 +59,8 @@ var classVisualDatabaseDisplayWidget =
     [ "searchKeySignals", "d2/d32/classVisualDatabaseDisplayWidget.html#aacd2861cbdf297b84950cbf59ad2e490", null ],
     [ "searchLayout", "d2/d32/classVisualDatabaseDisplayWidget.html#a0224e40e045bcb9134f3c122bd0ca497", null ],
     [ "setFilterWidget", "d2/d32/classVisualDatabaseDisplayWidget.html#afa79fd60a738aaaa0b1abd24bb1a98a9", null ],
+    [ "sortByLabel", "d2/d32/classVisualDatabaseDisplayWidget.html#a6c6577a910c321e4375bb6a2695fe5a0", null ],
+    [ "sortColumnCombo", "d2/d32/classVisualDatabaseDisplayWidget.html#a81d15f1f56c9189a4102439ad62cf061", null ],
+    [ "sortOrderCombo", "d2/d32/classVisualDatabaseDisplayWidget.html#a44dde16af32887c807c33ec890782b16", null ],
     [ "subTypeFilterWidget", "d2/d32/classVisualDatabaseDisplayWidget.html#aa7be31c51741e213494c88ebadcd4420", null ]
 ];

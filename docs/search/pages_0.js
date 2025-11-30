@@ -11,5 +11,6 @@ var searchData=
   ['and_20providerids_8',['PixmapCacheKeys and ProviderIDs',['../d9/d1c/loading_card_pictures.html#pixmapcachekeys-and-providerids',1,'']]],
   ['and_20qnetworkdiskcache_9',['The QPixmapCache and QNetworkDiskCache',['../d9/d1c/loading_card_pictures.html#the-qpixmapcache-and-qnetworkdiskcache',1,'']]],
   ['and_20resolution_10',['URL Generation and Resolution',['../d9/d1c/loading_card_pictures.html#url-generation-and-resolution',1,'']]],
-  ['are_20triggered_11',['How requests are triggered',['../d9/d1c/loading_card_pictures.html#how-requests-are-triggered',1,'']]]
+  ['api_20integration_11',['API Integration',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#api-integration',1,'']]],
+  ['are_20triggered_12',['How requests are triggered',['../d9/d1c/loading_card_pictures.html#how-requests-are-triggered',1,'']]]
 ];

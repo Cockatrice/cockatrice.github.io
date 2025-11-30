@@ -3,7 +3,7 @@ var classTabEdhRecMain =
     [ "TabEdhRecMain", "de/df3/classTabEdhRecMain.html#a054d13a0cc2607423bbf05f1753c9f69", null ],
     [ "actNavigatePage", "de/df3/classTabEdhRecMain.html#aa622d0cd6b09dc1dd5985dc862782195", null ],
     [ "doSearch", "de/df3/classTabEdhRecMain.html#a7c99f466e2fb191ca2eff272798b6d2f", null ],
-    [ "getCardSizeSlider", "de/df3/classTabEdhRecMain.html#ad2889a5a42963605e06daa60e6a21460", null ],
+    [ "getCardSizeSlider", "de/df3/classTabEdhRecMain.html#a1e84bfe76fa4b1eb411a0370815d7d47", null ],
     [ "getTabText", "de/df3/classTabEdhRecMain.html#ae51dd567eb4af769c37d7d4065bc07b6", null ],
     [ "getTopCards", "de/df3/classTabEdhRecMain.html#ae900051099bca3b24e09c7bde94926a1", null ],
     [ "getTopCommanders", "de/df3/classTabEdhRecMain.html#a99765f3c7c2a112ca00e880d837ece16", null ],

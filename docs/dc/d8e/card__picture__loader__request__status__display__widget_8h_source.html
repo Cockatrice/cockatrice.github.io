@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-11-30-Development-2.11.0-beta.38</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -106,11 +106,11 @@ $(function(){initNavTree('dc/d8e/card__picture__loader__request__status__display
 <a href="../../dc/d8e/card__picture__loader__request__status__display__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PICTURE_LOADER_REQUEST_STATUS_DISPLAY_WIDGET_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PICTURE_LOADER_REQUEST_STATUS_DISPLAY_WIDGET_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../dd/d56/card__picture__loader__worker__work_8h.html">card_picture_loader_worker_work.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QHBoxLayout&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QLabel&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QHBoxLayout&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QLabel&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QUrl&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;<a class="code" href="../../d6/dfd/exact__card_8h.html">libcockatrice/card/printing/exact_card.h</a>&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span></div>
 <div class="foldopen" id="foldopen00024" data-start="{" data-end="};">
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html">   24</a></span><span class="keyword">class </span><a class="code hl_function" href="../../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html#a5f0483dd0c005f47d653abce22563c46">CardPictureLoaderRequestStatusDisplayWidget</a> : <span class="keyword">public</span> QWidget</div>
@@ -186,7 +186,6 @@ $(function(){initNavTree('dc/d8e/card__picture__loader__request__status__display
 </div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">#endif </span><span class="comment">// PICTURE_LOADER_REQUEST_STATUS_DISPLAY_WIDGET_H</span></div>
-<div class="ttc" id="acard__picture__loader__worker__work_8h_html"><div class="ttname"><a href="../../dd/d56/card__picture__loader__worker__work_8h.html">card_picture_loader_worker_work.h</a></div></div>
 <div class="ttc" id="aclassCardPictureLoaderRequestStatusDisplayWidget_html_a27ce312c5d62bd2a722e6ef256bc71f8"><div class="ttname"><a href="../../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html#a27ce312c5d62bd2a722e6ef256bc71f8">CardPictureLoaderRequestStatusDisplayWidget::queryElapsedSeconds</a></div><div class="ttdeci">int queryElapsedSeconds()</div><div class="ttdoc">Queries the elapsed time in seconds since the request started.</div><div class="ttdef"><b>Definition</b> card_picture_loader_request_status_display_widget.h:64</div></div>
 <div class="ttc" id="aclassCardPictureLoaderRequestStatusDisplayWidget_html_a4ff5a0cad218fb66f6ed27035eaf099b"><div class="ttname"><a href="../../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html#a4ff5a0cad218fb66f6ed27035eaf099b">CardPictureLoaderRequestStatusDisplayWidget::name</a></div><div class="ttdeci">QLabel * name</div><div class="ttdoc">Card name.</div><div class="ttdef"><b>Definition</b> card_picture_loader_request_status_display_widget.h:90</div></div>
 <div class="ttc" id="aclassCardPictureLoaderRequestStatusDisplayWidget_html_a5035b1e3dc2e67f5225f97d29a29f99f"><div class="ttname"><a href="../../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html#a5035b1e3dc2e67f5225f97d29a29f99f">CardPictureLoaderRequestStatusDisplayWidget::finished</a></div><div class="ttdeci">QLabel * finished</div><div class="ttdoc">Whether the request has finished.</div><div class="ttdef"><b>Definition</b> card_picture_loader_request_status_display_widget.h:95</div></div>
@@ -203,6 +202,7 @@ $(function(){initNavTree('dc/d8e/card__picture__loader__request__status__display
 <div class="ttc" id="aclassCardPictureLoaderRequestStatusDisplayWidget_html_af03fda2de1d14b6672a7928a781146bb"><div class="ttname"><a href="../../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html#af03fda2de1d14b6672a7928a781146bb">CardPictureLoaderRequestStatusDisplayWidget::providerId</a></div><div class="ttdeci">QLabel * providerId</div><div class="ttdoc">Provider ID for the card.</div><div class="ttdef"><b>Definition</b> card_picture_loader_request_status_display_widget.h:92</div></div>
 <div class="ttc" id="aclassCardPictureLoaderRequestStatusDisplayWidget_html_af57fcb08371cedf23609fac7a181a979"><div class="ttname"><a href="../../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html#af57fcb08371cedf23609fac7a181a979">CardPictureLoaderRequestStatusDisplayWidget::setElapsedTime</a></div><div class="ttdeci">void setElapsedTime(const QString &amp;_elapsedTime) const</div><div class="ttdef"><b>Definition</b> card_picture_loader_request_status_display_widget.h:55</div></div>
 <div class="ttc" id="aclassExactCard_html"><div class="ttname"><a href="../../df/d4e/classExactCard.html">ExactCard</a></div><div class="ttdoc">Represents a specific card instance, defined by its CardInfo and a particular printing.</div><div class="ttdef"><b>Definition</b> exact_card.h:19</div></div>
+<div class="ttc" id="aexact__card_8h_html"><div class="ttname"><a href="../../d6/dfd/exact__card_8h.html">exact_card.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

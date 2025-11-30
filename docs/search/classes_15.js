@@ -10,12 +10,13 @@ var searchData=
   ['visualdatabasedisplaysetfilterwidget_7',['VisualDatabaseDisplaySetFilterWidget',['../d0/de9/classVisualDatabaseDisplaySetFilterWidget.html',1,'']]],
   ['visualdatabasedisplaysubtypefilterwidget_8',['VisualDatabaseDisplaySubTypeFilterWidget',['../da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html',1,'']]],
   ['visualdatabasedisplaywidget_9',['VisualDatabaseDisplayWidget',['../d2/d32/classVisualDatabaseDisplayWidget.html',1,'']]],
-  ['visualdeckeditorsamplehandwidget_10',['VisualDeckEditorSampleHandWidget',['../d8/d4d/classVisualDeckEditorSampleHandWidget.html',1,'']]],
-  ['visualdeckeditorwidget_11',['VisualDeckEditorWidget',['../da/d1e/classVisualDeckEditorWidget.html',1,'']]],
-  ['visualdeckstoragefolderdisplaywidget_12',['VisualDeckStorageFolderDisplayWidget',['../da/d22/classVisualDeckStorageFolderDisplayWidget.html',1,'']]],
-  ['visualdeckstoragequicksettingswidget_13',['VisualDeckStorageQuickSettingsWidget',['../d7/d92/classVisualDeckStorageQuickSettingsWidget.html',1,'']]],
-  ['visualdeckstoragesearchwidget_14',['VisualDeckStorageSearchWidget',['../d8/d1c/classVisualDeckStorageSearchWidget.html',1,'']]],
-  ['visualdeckstoragesortwidget_15',['VisualDeckStorageSortWidget',['../dd/d71/classVisualDeckStorageSortWidget.html',1,'']]],
-  ['visualdeckstoragetagfilterwidget_16',['VisualDeckStorageTagFilterWidget',['../d8/d4e/classVisualDeckStorageTagFilterWidget.html',1,'']]],
-  ['visualdeckstoragewidget_17',['VisualDeckStorageWidget',['../d0/dfe/classVisualDeckStorageWidget.html',1,'']]]
+  ['visualdeckdisplayoptionswidget_10',['VisualDeckDisplayOptionsWidget',['../dc/de4/classVisualDeckDisplayOptionsWidget.html',1,'']]],
+  ['visualdeckeditorsamplehandwidget_11',['VisualDeckEditorSampleHandWidget',['../d8/d4d/classVisualDeckEditorSampleHandWidget.html',1,'']]],
+  ['visualdeckeditorwidget_12',['VisualDeckEditorWidget',['../da/d1e/classVisualDeckEditorWidget.html',1,'']]],
+  ['visualdeckstoragefolderdisplaywidget_13',['VisualDeckStorageFolderDisplayWidget',['../da/d22/classVisualDeckStorageFolderDisplayWidget.html',1,'']]],
+  ['visualdeckstoragequicksettingswidget_14',['VisualDeckStorageQuickSettingsWidget',['../d7/d92/classVisualDeckStorageQuickSettingsWidget.html',1,'']]],
+  ['visualdeckstoragesearchwidget_15',['VisualDeckStorageSearchWidget',['../d8/d1c/classVisualDeckStorageSearchWidget.html',1,'']]],
+  ['visualdeckstoragesortwidget_16',['VisualDeckStorageSortWidget',['../dd/d71/classVisualDeckStorageSortWidget.html',1,'']]],
+  ['visualdeckstoragetagfilterwidget_17',['VisualDeckStorageTagFilterWidget',['../d8/d4e/classVisualDeckStorageTagFilterWidget.html',1,'']]],
+  ['visualdeckstoragewidget_18',['VisualDeckStorageWidget',['../d0/dfe/classVisualDeckStorageWidget.html',1,'']]]
 ];

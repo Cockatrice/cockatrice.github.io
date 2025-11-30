@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-11-30-Development-2.11.0-beta.38</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -113,7 +113,7 @@ Collaboration diagram for Server_Arrow:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7cfaf232d452de3ffbd47d57a135c780" id="r_a7cfaf232d452de3ffbd47d57a135c780"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cfaf232d452de3ffbd47d57a135c780">Server_Arrow</a> (int _id, <a class="el" href="../../dc/d07/classServer__Card.html">Server_Card</a> *_startCard, <a class="el" href="../../d7/d78/classServer__ArrowTarget.html">Server_ArrowTarget</a> *_targetItem, const color &amp;_arrowColor)</td></tr>
+<tr class="memitem:a5ecba3f313f3d73c8f42b79aeaf9f617" id="r_a5ecba3f313f3d73c8f42b79aeaf9f617"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ecba3f313f3d73c8f42b79aeaf9f617">Server_Arrow</a> (int _id, <a class="el" href="../../dc/d07/classServer__Card.html">Server_Card</a> *_startCard, <a class="el" href="../../d7/d78/classServer__ArrowTarget.html">Server_ArrowTarget</a> *_targetItem, const color &amp;_arrowColor, int _phaseCreated, int _phaseDeleted)</td></tr>
 <tr class="memitem:ac3d0e97cf7825bb5bf2ac70fed1164bd" id="r_ac3d0e97cf7825bb5bf2ac70fed1164bd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3d0e97cf7825bb5bf2ac70fed1164bd">getId</a> () const</td></tr>
 <tr class="memitem:aa617b332f7ed93418f2d9387b1a1993c" id="r_aa617b332f7ed93418f2d9387b1a1993c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa617b332f7ed93418f2d9387b1a1993c">setId</a> (int _id)</td></tr>
 <tr class="memitem:a5a346f6459d996bac5c68c13338591d9" id="r_a5a346f6459d996bac5c68c13338591d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d07/classServer__Card.html">Server_Card</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a346f6459d996bac5c68c13338591d9">getStartCard</a> () const</td></tr>
@@ -121,6 +121,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a710f2035735228e117282cc1a5bcece8" id="r_a710f2035735228e117282cc1a5bcece8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d78/classServer__ArrowTarget.html">Server_ArrowTarget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a710f2035735228e117282cc1a5bcece8">getTargetItem</a> () const</td></tr>
 <tr class="memitem:a6ce74515aecd67a793d61121f7e9b32e" id="r_a6ce74515aecd67a793d61121f7e9b32e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ce74515aecd67a793d61121f7e9b32e">setTargetItem</a> (<a class="el" href="../../d7/d78/classServer__ArrowTarget.html">Server_ArrowTarget</a> *targetItem_)</td></tr>
 <tr class="memitem:ac87c73d6048167a3cd7694aab578b636" id="r_ac87c73d6048167a3cd7694aab578b636"><td class="memItemLeft" align="right" valign="top">const color &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac87c73d6048167a3cd7694aab578b636">getColor</a> () const</td></tr>
+<tr class="memitem:add2d0209a07c36445759ce38d726ccce" id="r_add2d0209a07c36445759ce38d726ccce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add2d0209a07c36445759ce38d726ccce">checkPhaseDeletion</a> (int phase) const</td></tr>
 <tr class="memitem:ab1839c21c2ae62393023cbda44c93624" id="r_ab1839c21c2ae62393023cbda44c93624"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1839c21c2ae62393023cbda44c93624">getInfo</a> (ServerInfo_Arrow *info)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -129,10 +130,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8332964f5b6540880fc2d8aae44372d2" id="r_a8332964f5b6540880fc2d8aae44372d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d07/classServer__Card.html">Server_Card</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8332964f5b6540880fc2d8aae44372d2">startCard</a></td></tr>
 <tr class="memitem:a13008ed3a98370c184ec7998441b02fd" id="r_a13008ed3a98370c184ec7998441b02fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d78/classServer__ArrowTarget.html">Server_ArrowTarget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13008ed3a98370c184ec7998441b02fd">targetItem</a></td></tr>
 <tr class="memitem:af95ab6d280cb8e751225c4dccf42f4d3" id="r_af95ab6d280cb8e751225c4dccf42f4d3"><td class="memItemLeft" align="right" valign="top">color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af95ab6d280cb8e751225c4dccf42f4d3">arrowColor</a></td></tr>
+<tr class="memitem:a7ff16fd433526cde5368496664faea26" id="r_a7ff16fd433526cde5368496664faea26"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ff16fd433526cde5368496664faea26">phaseCreated</a></td></tr>
+<tr class="memitem:a65e3b5f191fe7757833892f1f346c9ec" id="r_a65e3b5f191fe7757833892f1f346c9ec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65e3b5f191fe7757833892f1f346c9ec">phaseDeleted</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a7cfaf232d452de3ffbd47d57a135c780" name="a7cfaf232d452de3ffbd47d57a135c780"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cfaf232d452de3ffbd47d57a135c780">&#9670;&#160;</a></span>Server_Arrow()</h2>
+<a id="a5ecba3f313f3d73c8f42b79aeaf9f617" name="a5ecba3f313f3d73c8f42b79aeaf9f617"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ecba3f313f3d73c8f42b79aeaf9f617">&#9670;&#160;</a></span>Server_Arrow()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -155,7 +158,17 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const color &amp;</td>          <td class="paramname"><span class="paramname"><em>_arrowColor</em></span>&#160;)</td>
+          <td class="paramtype">const color &amp;</td>          <td class="paramname"><span class="paramname"><em>_arrowColor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>_phaseCreated</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>_phaseDeleted</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -163,6 +176,31 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="add2d0209a07c36445759ce38d726ccce" name="add2d0209a07c36445759ce38d726ccce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add2d0209a07c36445759ce38d726ccce">&#9670;&#160;</a></span>checkPhaseDeletion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Server_Arrow::checkPhaseDeletion </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>phase</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac87c73d6048167a3cd7694aab578b636" name="ac87c73d6048167a3cd7694aab578b636"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac87c73d6048167a3cd7694aab578b636">&#9670;&#160;</a></span>getColor()</h2>
 
@@ -213,7 +251,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3b/classServer__Arrow_ac3d0e97cf7825bb5bf2ac70fed1164bd_icgraph.svg" width="100%" height="395"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3b/classServer__Arrow_ac3d0e97cf7825bb5bf2ac70fed1164bd_icgraph.svg" width="590" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -394,6 +432,50 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">int Server_Arrow::id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ff16fd433526cde5368496664faea26" name="a7ff16fd433526cde5368496664faea26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ff16fd433526cde5368496664faea26">&#9670;&#160;</a></span>phaseCreated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Server_Arrow::phaseCreated</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65e3b5f191fe7757833892f1f346c9ec" name="a65e3b5f191fe7757833892f1f346c9ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65e3b5f191fe7757833892f1f346c9ec">&#9670;&#160;</a></span>phaseDeleted</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Server_Arrow::phaseDeleted</td>
         </tr>
       </table>
   </td>

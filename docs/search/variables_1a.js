@@ -1,8 +1,8 @@
 var searchData=
 [
   ['zone_0',['zone',['../d6/dbd/classCardItem.html#a2bbb356218d59cc18c09542fb30084a4',1,'CardItem::zone'],['../d0/dd9/classZoneViewWidget.html#a70e34a649600d6b26f325440f9ec425c',1,'ZoneViewWidget::zone'],['../dc/d07/classServer__Card.html#ac29ace8e1bc3c6b74624c83830aef930',1,'Server_Card::zone']]],
-  ['zonecontainer_1',['zoneContainer',['../d0/dd9/classZoneViewWidget.html#a27f267d93ea241a87d3ad310e07d65c0',1,'ZoneViewWidget::zoneContainer'],['../da/d1e/classVisualDeckEditorWidget.html#ad24e4bc4bc5b3ed404a0fc520f3a2596',1,'VisualDeckEditorWidget::zoneContainer']]],
-  ['zonecontainerlayout_2',['zoneContainerLayout',['../da/d1e/classVisualDeckEditorWidget.html#a8471e3d4229d50a50a4f4f20c7fd28f7',1,'VisualDeckEditorWidget']]],
+  ['zonecontainer_1',['zoneContainer',['../d0/dd9/classZoneViewWidget.html#a27f267d93ea241a87d3ad310e07d65c0',1,'ZoneViewWidget::zoneContainer'],['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#a9109be1ddffe21476370c48711c5e4b3',1,'ArchidektApiResponseDeckDisplayWidget::zoneContainer'],['../da/d1e/classVisualDeckEditorWidget.html#ad24e4bc4bc5b3ed404a0fc520f3a2596',1,'VisualDeckEditorWidget::zoneContainer']]],
+  ['zonecontainerlayout_2',['zoneContainerLayout',['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#ad552d5ce084faa7cb4252ec47968d690',1,'ArchidektApiResponseDeckDisplayWidget::zoneContainerLayout'],['../da/d1e/classVisualDeckEditorWidget.html#a8471e3d4229d50a50a4f4f20c7fd28f7',1,'VisualDeckEditorWidget::zoneContainerLayout']]],
   ['zoneheight_3',['zoneHeight',['../d4/dc7/classHandZone.html#aae91e35287012d11d640f0adc530d80c',1,'HandZone::zoneHeight'],['../df/d82/classStackZone.html#a948a784acad5baa412349c00eb3d8394',1,'StackZone::zoneHeight']]],
   ['zoneid_4',['zoneId',['../d2/d4b/classPlayer.html#a6167843ff3c990bee46cd490e43e85e0',1,'Player']]],
   ['zonelabelmainboard_5',['zoneLabelMainboard',['../d7/ddb/classAllZonesCardAmountWidget.html#acf8619757ef34191d6532d2038d2b5f2',1,'AllZonesCardAmountWidget']]],

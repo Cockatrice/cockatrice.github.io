@@ -22,7 +22,7 @@ var dir_fcc53323f100f3840d6c8e04b287c6d3 =
     [ "game_view.h", "de/d9d/game__view_8h.html", "de/d9d/game__view_8h" ],
     [ "hand_counter.cpp", "dd/d54/hand__counter_8cpp.html", null ],
     [ "hand_counter.h", "dc/daf/hand__counter_8h.html", "dc/daf/hand__counter_8h" ],
-    [ "phase.cpp", "d5/dcb/phase_8cpp.html", null ],
+    [ "phase.cpp", "d5/dcb/phase_8cpp.html", "d5/dcb/phase_8cpp" ],
     [ "phase.h", "d5/d34/phase_8h.html", "d5/d34/phase_8h" ],
     [ "phases_toolbar.cpp", "d8/d1f/phases__toolbar_8cpp.html", null ],
     [ "phases_toolbar.h", "d8/db1/phases__toolbar_8h.html", "d8/db1/phases__toolbar_8h" ],

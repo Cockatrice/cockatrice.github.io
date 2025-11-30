@@ -53,10 +53,11 @@ var searchData=
   ['closebutton_50',['CloseButton',['../df/df8/classCloseButton.html',1,'']]],
   ['cockatricexml3parser_51',['CockatriceXml3Parser',['../d5/dba/classCockatriceXml3Parser.html',1,'']]],
   ['cockatricexml4parser_52',['CockatriceXml4Parser',['../dc/d53/classCockatriceXml4Parser.html',1,'']]],
-  ['coloridentitywidget_53',['ColorIdentityWidget',['../d7/d30/classColorIdentityWidget.html',1,'']]],
-  ['context_54',['Context',['../df/d94/classpeg_1_1Context.html',1,'peg']]],
-  ['counterpixmapgenerator_55',['CounterPixmapGenerator',['../dd/dbb/classCounterPixmapGenerator.html',1,'']]],
-  ['countrypixmapgenerator_56',['CountryPixmapGenerator',['../db/d2a/classCountryPixmapGenerator.html',1,'']]],
-  ['customzonemenu_57',['CustomZoneMenu',['../d2/d1e/classCustomZoneMenu.html',1,'']]],
-  ['cut_58',['Cut',['../da/d38/classpeg_1_1Cut.html',1,'peg']]]
+  ['colorbar_53',['ColorBar',['../d1/d46/classColorBar.html',1,'']]],
+  ['coloridentitywidget_54',['ColorIdentityWidget',['../d7/d30/classColorIdentityWidget.html',1,'']]],
+  ['context_55',['Context',['../df/d94/classpeg_1_1Context.html',1,'peg']]],
+  ['counterpixmapgenerator_56',['CounterPixmapGenerator',['../dd/dbb/classCounterPixmapGenerator.html',1,'']]],
+  ['countrypixmapgenerator_57',['CountryPixmapGenerator',['../db/d2a/classCountryPixmapGenerator.html',1,'']]],
+  ['customzonemenu_58',['CustomZoneMenu',['../d2/d1e/classCustomZoneMenu.html',1,'']]],
+  ['cut_59',['Cut',['../da/d38/classpeg_1_1Cut.html',1,'peg']]]
 ];

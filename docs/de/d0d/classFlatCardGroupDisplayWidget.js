@@ -1,6 +1,6 @@
 var classFlatCardGroupDisplayWidget =
 [
-    [ "FlatCardGroupDisplayWidget", "de/d0d/classFlatCardGroupDisplayWidget.html#a9a2e2faac0360ffcdaec3573a0beff9a", null ],
+    [ "FlatCardGroupDisplayWidget", "de/d0d/classFlatCardGroupDisplayWidget.html#a4ca6171a961e329dc2ed9672066cce17", null ],
     [ "addToLayout", "de/d0d/classFlatCardGroupDisplayWidget.html#a20a694e515578e5d99b35d783d5367cf", null ],
     [ "getLayoutParent", "de/d0d/classFlatCardGroupDisplayWidget.html#afc10d63490454e38432fd02f31e64481", null ],
     [ "insertIntoLayout", "de/d0d/classFlatCardGroupDisplayWidget.html#a8b99f6351c2658f1ba434d68df93d706", null ],

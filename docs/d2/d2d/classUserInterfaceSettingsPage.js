@@ -11,6 +11,7 @@ var classUserInterfaceSettingsPage =
     [ "deckEditorGroupBox", "d2/d2d/classUserInterfaceSettingsPage.html#a5fa77e6a663e3c4e74bf2783d0c57b2f", null ],
     [ "defaultDeckEditorTypeLabel", "d2/d2d/classUserInterfaceSettingsPage.html#a684c0c64f37fb1e48cfdffd8f31f8790", null ],
     [ "defaultDeckEditorTypeSelector", "d2/d2d/classUserInterfaceSettingsPage.html#a485aec418a4bf39c2ab15ba475a2211e", null ],
+    [ "doNotDeleteArrowsInSubPhasesCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#afd853bacd0c586a724d2f4dcb2e32432", null ],
     [ "doubleClickToPlayCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#a41a91da15d5837334c3763f727e62319", null ],
     [ "focusCardViewSearchBarCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#a0b41a98449cb62894541d9ec926c2ffb", null ],
     [ "generalGroupBox", "d2/d2d/classUserInterfaceSettingsPage.html#a4448756dcab919b10fa94b00a320a5b2", null ],

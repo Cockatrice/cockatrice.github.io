@@ -1,6 +1,6 @@
 var classDeckCardZoneDisplayWidget =
 [
-    [ "DeckCardZoneDisplayWidget", "d8/d9f/classDeckCardZoneDisplayWidget.html#a55363dced81613007673d6fc18b585c4", null ],
+    [ "DeckCardZoneDisplayWidget", "d8/d9f/classDeckCardZoneDisplayWidget.html#afb56898a33ea9b496ccd6876e731928c", null ],
     [ "activeSortCriteriaChanged", "d8/d9f/classDeckCardZoneDisplayWidget.html#ac600754e45e3ac0a35386b49a24e9715", null ],
     [ "addCardsToOverlapWidget", "d8/d9f/classDeckCardZoneDisplayWidget.html#a19f3c249d40edc258f55ba5753fd4c15", null ],
     [ "cardClicked", "d8/d9f/classDeckCardZoneDisplayWidget.html#ac3d29d7091dd294c12185abd677627c8", null ],
@@ -15,6 +15,7 @@ var classDeckCardZoneDisplayWidget =
     [ "onCategoryRemoval", "d8/d9f/classDeckCardZoneDisplayWidget.html#a11a19ab2165c2dbd9592fc8a2687fd71", null ],
     [ "onClick", "d8/d9f/classDeckCardZoneDisplayWidget.html#a5b4dc37c7718a1d8d06efffd0fbda156", null ],
     [ "onHover", "d8/d9f/classDeckCardZoneDisplayWidget.html#a1615b8300f3f2683a1143337c619d3c8", null ],
+    [ "onSelectionChanged", "d8/d9f/classDeckCardZoneDisplayWidget.html#a95b0e6c366839b54fa392fb68358efd5", null ],
     [ "refreshDisplayType", "d8/d9f/classDeckCardZoneDisplayWidget.html#ac140319cdb3e43681bf8c3256a24b7ed", null ],
     [ "requestCleanup", "d8/d9f/classDeckCardZoneDisplayWidget.html#a53668d7e88c065f823cdb182ef4cbee0", null ],
     [ "resizeEvent", "d8/d9f/classDeckCardZoneDisplayWidget.html#a12482c41e8a6b644193edefb57161ffd", null ],
@@ -30,6 +31,7 @@ var classDeckCardZoneDisplayWidget =
     [ "indexToWidgetMap", "d8/d9f/classDeckCardZoneDisplayWidget.html#a3203ca39c3144eeea4d1a45fd39c56ac", null ],
     [ "layout", "d8/d9f/classDeckCardZoneDisplayWidget.html#a25159e245edc7f37e636086097bcaa92", null ],
     [ "overlapWidget", "d8/d9f/classDeckCardZoneDisplayWidget.html#ac4892d2c19d45d6976b020576d789ae4", null ],
+    [ "selectionModel", "d8/d9f/classDeckCardZoneDisplayWidget.html#ac23f43c712590c200953fb1844088ac1", null ],
     [ "subBannerOpacity", "d8/d9f/classDeckCardZoneDisplayWidget.html#a0017f6d401a42010ee1c3d2674019e79", null ],
     [ "trackedIndex", "d8/d9f/classDeckCardZoneDisplayWidget.html#aac8bceb5c07404f2dfe853fe5cbabdd9", null ],
     [ "zoneName", "d8/d9f/classDeckCardZoneDisplayWidget.html#aad27e26bdafcbd5f43ba2f3a81b3cc8f", null ]

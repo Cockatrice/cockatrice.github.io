@@ -1,6 +1,6 @@
 var classCardGroupDisplayWidget =
 [
-    [ "CardGroupDisplayWidget", "d9/d5d/classCardGroupDisplayWidget.html#aa3e2600176072d4c2bada3c63b742df5", null ],
+    [ "CardGroupDisplayWidget", "d9/d5d/classCardGroupDisplayWidget.html#a58f960e75f3790fc55253dfd1619f1e2", null ],
     [ "addToLayout", "d9/d5d/classCardGroupDisplayWidget.html#a1b9aa1c2714dc0169ac4b5085593ce6d", null ],
     [ "cardClicked", "d9/d5d/classCardGroupDisplayWidget.html#a5c979647ebb23ff76469a08cbca6b291", null ],
     [ "cardHovered", "d9/d5d/classCardGroupDisplayWidget.html#a615ccafeb04c478c28eb581a022bf41a", null ],
@@ -9,11 +9,13 @@ var classCardGroupDisplayWidget =
     [ "constructWidgetForIndex", "d9/d5d/classCardGroupDisplayWidget.html#aba22b2d2dfc5587e58de018b2a492f98", null ],
     [ "getLayoutParent", "d9/d5d/classCardGroupDisplayWidget.html#a50d9867c0cdcb0b7d20cf8ae5112e460", null ],
     [ "insertIntoLayout", "d9/d5d/classCardGroupDisplayWidget.html#a6086c260ae14630c690cbc9d8aa7832e", null ],
+    [ "mousePressEvent", "d9/d5d/classCardGroupDisplayWidget.html#a6ef95fcc85edf4f028b6f6b1b9963619", null ],
     [ "onActiveSortCriteriaChanged", "d9/d5d/classCardGroupDisplayWidget.html#a3d1aff146a25dd6c5432167fcfc1b679", null ],
     [ "onCardAddition", "d9/d5d/classCardGroupDisplayWidget.html#a0ff94e3f4d8bbea1ebf44cebc83e74b9", null ],
     [ "onCardRemoval", "d9/d5d/classCardGroupDisplayWidget.html#a850bc0083f761ec2519d4b3e653aa135", null ],
     [ "onClick", "d9/d5d/classCardGroupDisplayWidget.html#ab8a68821bacb1b2671454bc01caceb31", null ],
     [ "onHover", "d9/d5d/classCardGroupDisplayWidget.html#ad977528d6276f0c8ad74215629a165b3", null ],
+    [ "onSelectionChanged", "d9/d5d/classCardGroupDisplayWidget.html#a5b200f848687a00bee6a047448a07871", null ],
     [ "removeFromLayout", "d9/d5d/classCardGroupDisplayWidget.html#a86ac114b33007721c76d4efd2e01c2a7", null ],
     [ "resizeEvent", "d9/d5d/classCardGroupDisplayWidget.html#ab8effbe117a9cd16cf2be0a349b2a30b", null ],
     [ "updateCardDisplays", "d9/d5d/classCardGroupDisplayWidget.html#ac70bd917abfe591f28205ec0af807cf1", null ],
@@ -25,6 +27,7 @@ var classCardGroupDisplayWidget =
     [ "deckListModel", "d9/d5d/classCardGroupDisplayWidget.html#ab1dfd16f06ecfa5f77e4c6da1ec84e53", null ],
     [ "indexToWidgetMap", "d9/d5d/classCardGroupDisplayWidget.html#a1a8a89f8f1214b343a63f2e13d7dd058", null ],
     [ "layout", "d9/d5d/classCardGroupDisplayWidget.html#a2e5e93d2afd539b9b473f57e68c4841d", null ],
+    [ "selectionModel", "d9/d5d/classCardGroupDisplayWidget.html#a05af3a921675f7f40a90e4c9187c374b", null ],
     [ "trackedIndex", "d9/d5d/classCardGroupDisplayWidget.html#a634f2e445b4544641c25c686508587df", null ],
     [ "zoneName", "d9/d5d/classCardGroupDisplayWidget.html#ae96b83990920b990490c4d10df1bea55", null ]
 ];

@@ -11,8 +11,9 @@ var searchData=
   ['requisites_20user_20interface_8',['Pre-requisites (User Interface)',['../d7/d64/editing_decks_printings.html#pre-requisites-user-interface',1,'']]],
   ['resolution_9',['URL Generation and Resolution',['../d9/d1c/loading_card_pictures.html#url-generation-and-resolution',1,'']]],
   ['resources_10',['Community Resources &lt;a href=&quot;https://discord.gg/3Z9yzmA&quot;&gt;&lt;img src=&quot;https://img.shields.io/discord/314987288398659595?label=Discord&amp;amp;logo=discord&amp;amp;logoColor=white&quot; alt=&quot;Discord&quot; class=&quot;inline&quot;/&gt;&lt;/a&gt;',['../d0/d30/md_README.html#community-resources-discordhttpsimgshieldsiodiscord314987288398659595labeldiscordlogodiscordlogocolorwhitehttpsdiscordgg3z9yzma',1,'']]],
-  ['responsibilities_3a_11',['Responsibilities:',['../d3/de9/classAbstractDecklistCardNode.html#responsibilities',1,'Responsibilities:'],['../dc/d8b/classSideboardPlan.html#responsibilities-1',1,'Responsibilities:'],['../d4/d55/classInnerDecklistNode.html#responsibilities-2',1,'Responsibilities:']]],
-  ['responsibilities_3a_12',['Core responsibilities:',['../da/d68/classDeckList.html#core-responsibilities',1,'']]],
-  ['role_20in_20the_20hierarchy_3a_13',['Role in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
-  ['run_14',['Run',['../d0/d30/md_README.html#run',1,'']]]
+  ['responsibilities_11',['Responsibilities',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#responsibilities',1,'']]],
+  ['responsibilities_3a_12',['Responsibilities:',['../d3/de9/classAbstractDecklistCardNode.html#responsibilities-1',1,'Responsibilities:'],['../dc/d8b/classSideboardPlan.html#responsibilities-2',1,'Responsibilities:'],['../d4/d55/classInnerDecklistNode.html#responsibilities-3',1,'Responsibilities:']]],
+  ['responsibilities_3a_13',['Core responsibilities:',['../da/d68/classDeckList.html#core-responsibilities',1,'']]],
+  ['role_20in_20the_20hierarchy_3a_14',['Role in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
+  ['run_15',['Run',['../d0/d30/md_README.html#run',1,'']]]
 ];

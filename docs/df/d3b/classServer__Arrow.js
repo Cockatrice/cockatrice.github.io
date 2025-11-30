@@ -1,6 +1,7 @@
 var classServer__Arrow =
 [
-    [ "Server_Arrow", "df/d3b/classServer__Arrow.html#a7cfaf232d452de3ffbd47d57a135c780", null ],
+    [ "Server_Arrow", "df/d3b/classServer__Arrow.html#a5ecba3f313f3d73c8f42b79aeaf9f617", null ],
+    [ "checkPhaseDeletion", "df/d3b/classServer__Arrow.html#add2d0209a07c36445759ce38d726ccce", null ],
     [ "getColor", "df/d3b/classServer__Arrow.html#ac87c73d6048167a3cd7694aab578b636", null ],
     [ "getId", "df/d3b/classServer__Arrow.html#ac3d0e97cf7825bb5bf2ac70fed1164bd", null ],
     [ "getInfo", "df/d3b/classServer__Arrow.html#ab1839c21c2ae62393023cbda44c93624", null ],
@@ -11,6 +12,8 @@ var classServer__Arrow =
     [ "setTargetItem", "df/d3b/classServer__Arrow.html#a6ce74515aecd67a793d61121f7e9b32e", null ],
     [ "arrowColor", "df/d3b/classServer__Arrow.html#af95ab6d280cb8e751225c4dccf42f4d3", null ],
     [ "id", "df/d3b/classServer__Arrow.html#a34b8f983ddbe7ee2512e74c4bf5dae09", null ],
+    [ "phaseCreated", "df/d3b/classServer__Arrow.html#a7ff16fd433526cde5368496664faea26", null ],
+    [ "phaseDeleted", "df/d3b/classServer__Arrow.html#a65e3b5f191fe7757833892f1f346c9ec", null ],
     [ "startCard", "df/d3b/classServer__Arrow.html#a8332964f5b6540880fc2d8aae44372d2", null ],
     [ "targetItem", "df/d3b/classServer__Arrow.html#a13008ed3a98370c184ec7998441b02fd", null ]
 ];
