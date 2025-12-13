@@ -18,5 +18,6 @@ var searchData=
   ['findreference_15',['FindReference',['../d9/dfd/structpeg_1_1FindReference.html',1,'peg']]],
   ['flatcardgroupdisplaywidget_16',['FlatCardGroupDisplayWidget',['../de/d0d/classFlatCardGroupDisplayWidget.html',1,'']]],
   ['flowlayout_17',['FlowLayout',['../de/d8b/classFlowLayout.html',1,'']]],
-  ['flowwidget_18',['FlowWidget',['../d5/d53/classFlowWidget.html',1,'']]]
+  ['flowwidget_18',['FlowWidget',['../d5/d53/classFlowWidget.html',1,'']]],
+  ['formatrules_19',['FormatRules',['../d2/da9/structFormatRules.html',1,'']]]
 ];

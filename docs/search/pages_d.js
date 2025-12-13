@@ -5,5 +5,5 @@ var searchData=
   ['of_20cards_2',['Groups of Cards',['../dc/d8a/displaying_cards.html#groups-of-cards',1,'']]],
   ['on_20cards_3',['A Primer on Cards',['../da/d69/primer_cards.html',1,'developer_reference']]],
   ['online_20service_4',['online service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
-  ['ownership_3a_5',['Ownership:',['../d3/de9/classAbstractDecklistCardNode.html#ownership',1,'Ownership:'],['../da/d68/classDeckList.html#ownership-1',1,'Ownership:'],['../d5/d22/classDecklistCardNode.html#ownership-2',1,'Ownership:'],['../d4/d55/classInnerDecklistNode.html#ownership-3',1,'Ownership:']]]
+  ['ownership_3a_5',['Ownership:',['../da/d68/classDeckList.html#ownership',1,'Ownership:'],['../d3/de9/classAbstractDecklistCardNode.html#ownership-1',1,'Ownership:'],['../d5/d22/classDecklistCardNode.html#ownership-2',1,'Ownership:'],['../d4/d55/classInnerDecklistNode.html#ownership-3',1,'Ownership:']]]
 ];

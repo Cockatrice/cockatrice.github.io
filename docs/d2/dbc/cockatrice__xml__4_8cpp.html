@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-11-30-Development-2.11.0-beta.38</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-13-Development-2.11.0-beta.39</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -109,6 +109,7 @@ $(function(){initNavTree('d2/dbc/cockatrice__xml__4_8cpp.html','../../',''); });
 <code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QFile&gt;</code><br />
 <code>#include &lt;QXmlStreamReader&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../de/d2f/format__legality__rules_8h_source.html">libcockatrice/card/format/format_legality_rules.h</a>&gt;</code><br />
 <code>#include &lt;version_string.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for cockatrice_xml_4.cpp:</div>
@@ -124,6 +125,8 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:af86ac7f8fa12e119c4f41efd0ce76412" id="r_af86ac7f8fa12e119c4f41efd0ce76412"><td class="memItemLeft" align="right" valign="top">static QSharedPointer&lt; <a class="el" href="../../d2/da9/structFormatRules.html">FormatRules</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af86ac7f8fa12e119c4f41efd0ce76412">parseFormat</a> (QXmlStreamReader &amp;xml)</td></tr>
+<tr class="memitem:ab67a7ae9ea4fbb824579862bb7afc87d" id="r_ab67a7ae9ea4fbb824579862bb7afc87d"><td class="memItemLeft" align="right" valign="top">static QXmlStreamWriter &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab67a7ae9ea4fbb824579862bb7afc87d">operator&lt;&lt;</a> (QXmlStreamWriter &amp;xml, const QSharedPointer&lt; <a class="el" href="../../d2/da9/structFormatRules.html">FormatRules</a> &gt; &amp;rulesPtr)</td></tr>
 <tr class="memitem:a7fa78dc2e28f619b62d91e22a85e1b36" id="r_a7fa78dc2e28f619b62d91e22a85e1b36"><td class="memItemLeft" align="right" valign="top">static QXmlStreamWriter &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fa78dc2e28f619b62d91e22a85e1b36">operator&lt;&lt;</a> (QXmlStreamWriter &amp;xml, const <a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a> &amp;set)</td></tr>
 <tr class="memitem:a04d75b2bb062600c737dc748b85a65eb" id="r_a04d75b2bb062600c737dc748b85a65eb"><td class="memItemLeft" align="right" valign="top">static QXmlStreamWriter &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d75b2bb062600c737dc748b85a65eb">operator&lt;&lt;</a> (QXmlStreamWriter &amp;xml, const <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> &amp;info)</td></tr>
 </table>
@@ -172,7 +175,7 @@ Functions</h2></td></tr>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a04d75b2bb062600c737dc748b85a65eb" name="a04d75b2bb062600c737dc748b85a65eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04d75b2bb062600c737dc748b85a65eb">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a04d75b2bb062600c737dc748b85a65eb">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -201,7 +204,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a7fa78dc2e28f619b62d91e22a85e1b36" name="a7fa78dc2e28f619b62d91e22a85e1b36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fa78dc2e28f619b62d91e22a85e1b36">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fa78dc2e28f619b62d91e22a85e1b36">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,6 +229,65 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab67a7ae9ea4fbb824579862bb7afc87d" name="ab67a7ae9ea4fbb824579862bb7afc87d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab67a7ae9ea4fbb824579862bb7afc87d">&#9670;&#160;</a></span>operator&lt;&lt;() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QXmlStreamWriter &amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamWriter &amp;</td>          <td class="paramname"><span class="paramname"><em>xml</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QSharedPointer&lt; <a class="el" href="../../d2/da9/structFormatRules.html">FormatRules</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>rulesPtr</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af86ac7f8fa12e119c4f41efd0ce76412" name="af86ac7f8fa12e119c4f41efd0ce76412"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af86ac7f8fa12e119c4f41efd0ce76412">&#9670;&#160;</a></span>parseFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSharedPointer&lt; <a class="el" href="../../d2/da9/structFormatRules.html">FormatRules</a> &gt; parseFormat </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader &amp;</td>          <td class="paramname"><span class="paramname"><em>xml</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/dbc/cockatrice__xml__4_8cpp_af86ac7f8fa12e119c4f41efd0ce76412_icgraph.svg" width="539" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>

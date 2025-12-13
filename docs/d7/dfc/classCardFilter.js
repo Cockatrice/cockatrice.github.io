@@ -6,6 +6,7 @@ var classCardFilter =
       [ "AttrLoyalty", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8a1515fffbf37800149d42dadfbf735746", null ],
       [ "AttrManaCost", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8af6ddcc24ecd9f4ee923162c6fc61093e", null ],
       [ "AttrName", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8aec81c80ed5bab5765f4893aaf3881db5", null ],
+      [ "AttrNameExact", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8ad842aa8230efa3662a879d63bb3316e3", null ],
       [ "AttrPow", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8a3cc752f02664188287ca22cd0fe8f08e", null ],
       [ "AttrRarity", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8ad03f595f3b3dfb42a26072c6495a4ce1", null ],
       [ "AttrSet", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8a125a57d3359724b269d167ca5f9c7c19", null ],

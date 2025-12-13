@@ -7,6 +7,7 @@ var classAbstractDecklistCardNode =
     [ "getCardCollectorNumber", "d3/de9/classAbstractDecklistCardNode.html#a3acd1e86229542f0a01f0defd033c907", null ],
     [ "getCardProviderId", "d3/de9/classAbstractDecklistCardNode.html#a93aa9b6b78de063bfeb66e8e20afffe1", null ],
     [ "getCardSetShortName", "d3/de9/classAbstractDecklistCardNode.html#ac08a5fb5c71f94bed3882093e32d5ca6", null ],
+    [ "getFormatLegality", "d3/de9/classAbstractDecklistCardNode.html#add85322095621fa2c6227d1ba452a81e", null ],
     [ "getName", "d3/de9/classAbstractDecklistCardNode.html#ae11a02fca18fc76c23b1d0f11c7a731d", null ],
     [ "getNumber", "d3/de9/classAbstractDecklistCardNode.html#a882ba2b5e428cb7406f00c800fd1a3b7", null ],
     [ "height", "d3/de9/classAbstractDecklistCardNode.html#a99820e33f1476b4aecfe7e4ffd4df5b3", null ],
@@ -14,6 +15,7 @@ var classAbstractDecklistCardNode =
     [ "setCardCollectorNumber", "d3/de9/classAbstractDecklistCardNode.html#a80b865c69e80778e61e4a0138d9b06ea", null ],
     [ "setCardProviderId", "d3/de9/classAbstractDecklistCardNode.html#ad18d9c3cfcb1b04dd6bf96e9e0651a3c", null ],
     [ "setCardSetShortName", "d3/de9/classAbstractDecklistCardNode.html#ac11e3a79f20cf2d4c914e3d0792e495d", null ],
+    [ "setFormatLegality", "d3/de9/classAbstractDecklistCardNode.html#ae86a8201eb294c8074650385af146b9f", null ],
     [ "setName", "d3/de9/classAbstractDecklistCardNode.html#a88fcae8d70d8cd65e20d9bf2996c0c87", null ],
     [ "setNumber", "d3/de9/classAbstractDecklistCardNode.html#a37408dbdf056cacd2d8242ec8909fd52", null ],
     [ "writeElement", "d3/de9/classAbstractDecklistCardNode.html#a97ccfa1720aa1ee894be841fbe500069", null ]

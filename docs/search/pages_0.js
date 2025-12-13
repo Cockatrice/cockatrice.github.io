@@ -6,11 +6,12 @@ var searchData=
   ['adding_20cards_3',['Adding Cards',['../d3/d32/editing_decks_classic.html#adding-cards',1,'Adding Cards'],['../de/d6e/editing_decks_visual.html#adding-cards-1',1,'Adding Cards']]],
   ['an_20online_20service_4',['an online service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
   ['analytics_5',['Deck Analytics',['../de/d6e/editing_decks_visual.html#deck-analytics',1,'']]],
-  ['and_20exactcard_6',['Getting specific: PrintingInfo and ExactCard',['../da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard',1,'']]],
-  ['and_20parsing_7',['Card Database Schema and Parsing',['../d7/d47/card_database_schema_and_parsing.html',1,'developer_reference']]],
-  ['and_20providerids_8',['PixmapCacheKeys and ProviderIDs',['../d9/d1c/loading_card_pictures.html#pixmapcachekeys-and-providerids',1,'']]],
-  ['and_20qnetworkdiskcache_9',['The QPixmapCache and QNetworkDiskCache',['../d9/d1c/loading_card_pictures.html#the-qpixmapcache-and-qnetworkdiskcache',1,'']]],
-  ['and_20resolution_10',['URL Generation and Resolution',['../d9/d1c/loading_card_pictures.html#url-generation-and-resolution',1,'']]],
-  ['api_20integration_11',['API Integration',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#api-integration',1,'']]],
-  ['are_20triggered_12',['How requests are triggered',['../d9/d1c/loading_card_pictures.html#how-requests-are-triggered',1,'']]]
+  ['and_20categories_6',['Log Level and Categories',['../d9/d4f/logging.html#log-level-and-categories',1,'']]],
+  ['and_20exactcard_7',['Getting specific: PrintingInfo and ExactCard',['../da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard',1,'']]],
+  ['and_20parsing_8',['Card Database Schema and Parsing',['../d7/d47/card_database_schema_and_parsing.html',1,'developer_reference']]],
+  ['and_20providerids_9',['PixmapCacheKeys and ProviderIDs',['../d9/d1c/loading_card_pictures.html#pixmapcachekeys-and-providerids',1,'']]],
+  ['and_20qnetworkdiskcache_10',['The QPixmapCache and QNetworkDiskCache',['../d9/d1c/loading_card_pictures.html#the-qpixmapcache-and-qnetworkdiskcache',1,'']]],
+  ['and_20resolution_11',['URL Generation and Resolution',['../d9/d1c/loading_card_pictures.html#url-generation-and-resolution',1,'']]],
+  ['api_20integration_12',['API Integration',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#api-integration',1,'']]],
+  ['are_20triggered_13',['How requests are triggered',['../d9/d1c/loading_card_pictures.html#how-requests-are-triggered',1,'']]]
 ];

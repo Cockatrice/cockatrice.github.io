@@ -41,6 +41,7 @@ var classVisualDatabaseDisplayWidget =
     [ "filterContainerLayout", "d2/d32/classVisualDatabaseDisplayWidget.html#a0787f525c82433dc42d6b1f06b8180ac", null ],
     [ "filterModel", "d2/d32/classVisualDatabaseDisplayWidget.html#a999db1609a38cbddbee44ed60f752f32", null ],
     [ "flowWidget", "d2/d32/classVisualDatabaseDisplayWidget.html#a02c9e7503daf8ef8dde494f50edcf92c", null ],
+    [ "formatLegalityWidget", "d2/d32/classVisualDatabaseDisplayWidget.html#ab7003af1d992e16d34865cf58fff22b3", null ],
     [ "loadCardsTimer", "d2/d32/classVisualDatabaseDisplayWidget.html#a4e3361d5b0dddaa26c92267e38d91bf7", null ],
     [ "mainLayout", "d2/d32/classVisualDatabaseDisplayWidget.html#a15dfc22fc93543180258a94638a1dda4", null ],
     [ "mainTypeFilterWidget", "d2/d32/classVisualDatabaseDisplayWidget.html#ac42cc11c4232733ff89aec8fbb572d7b", null ],

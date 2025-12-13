@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-11-30-Development-2.11.0-beta.38</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-13-Development-2.11.0-beta.39</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -133,6 +133,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af51f72a86fc0c8e2bb4e83e03eec8421" id="r_af51f72a86fc0c8e2bb4e83e03eec8421"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af51f72a86fc0c8e2bb4e83e03eec8421">setCardSetShortName</a> (const QString &amp;_cardSetShortName) override</td></tr>
 <tr class="memitem:a9ec0b614f22d93241ea6bcfa0ad40cbc" id="r_a9ec0b614f22d93241ea6bcfa0ad40cbc"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ec0b614f22d93241ea6bcfa0ad40cbc">getCardCollectorNumber</a> () const override</td></tr>
 <tr class="memitem:a2acc7412d791b948e5b26ac863954de1" id="r_a2acc7412d791b948e5b26ac863954de1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2acc7412d791b948e5b26ac863954de1">setCardCollectorNumber</a> (const QString &amp;_cardSetNumber) override</td></tr>
+<tr class="memitem:ae08619db5044b2aa4ca4d3753e310c1d" id="r_ae08619db5044b2aa4ca4d3753e310c1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae08619db5044b2aa4ca4d3753e310c1d">getFormatLegality</a> () const override</td></tr>
+<tr class="memitem:a6ba41fefabaa7b601626d046e6e0db35" id="r_a6ba41fefabaa7b601626d046e6e0db35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ba41fefabaa7b601626d046e6e0db35">setFormatLegality</a> (const bool _formatLegal) override</td></tr>
 <tr class="memitem:ac2bd8507e7212a218d6b0dc2470b30b6" id="r_ac2bd8507e7212a218d6b0dc2470b30b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2bd8507e7212a218d6b0dc2470b30b6">getDataNode</a> () const</td></tr>
 <tr class="memdesc:ac2bd8507e7212a218d6b0dc2470b30b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the underlying data node.  <br /></td></tr>
 <tr class="memitem:ac535350214ab01e81cdaab9d93d24fe6" id="r_ac535350214ab01e81cdaab9d93d24fe6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac535350214ab01e81cdaab9d93d24fe6">isDeckHeader</a> () const override</td></tr>
@@ -341,6 +343,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="ae08619db5044b2aa4ca4d3753e310c1d" name="ae08619db5044b2aa4ca4d3753e310c1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae08619db5044b2aa4ca4d3753e310c1d">&#9670;&#160;</a></span>getFormatLegality()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DecklistModelCardNode::getFormatLegality </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The format legality of the card </dd></dl>
+
+<p>Implements <a class="el" href="../../d3/de9/classAbstractDecklistCardNode.html#add85322095621fa2c6227d1ba452a81e">AbstractDecklistCardNode</a>.</p>
+
+</div>
+</div>
 <a id="a8b1978347312f7b7d3156ed42a6c96a3" name="a8b1978347312f7b7d3156ed42a6c96a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b1978347312f7b7d3156ed42a6c96a3">&#9670;&#160;</a></span>getName()</h2>
 
@@ -523,6 +553,39 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Implements <a class="el" href="../../d3/de9/classAbstractDecklistCardNode.html#ac11e3a79f20cf2d4c914e3d0792e495d">AbstractDecklistCardNode</a>.</p>
+
+</div>
+</div>
+<a id="a6ba41fefabaa7b601626d046e6e0db35" name="a6ba41fefabaa7b601626d046e6e0db35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ba41fefabaa7b601626d046e6e0db35">&#9670;&#160;</a></span>setFormatLegality()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DecklistModelCardNode::setFormatLegality </td>
+          <td>(</td>
+          <td class="paramtype">const bool</td>          <td class="paramname"><span class="paramname"><em>_formatLegal</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_formatLegal</td><td>If the card is considered legal </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="../../d3/de9/classAbstractDecklistCardNode.html#ae86a8201eb294c8074650385af146b9f">AbstractDecklistCardNode</a>.</p>
 
 </div>
 </div>

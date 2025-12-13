@@ -12,7 +12,9 @@ var searchData=
   ['normal_5fplayback_9',['NORMAL_PLAYBACK',['../d5/d07/classReplayTimelineWidget.html#a1ae1c702ba60c6f885313c1dea1b0bd3a5ea0fb792e41ae724b80ddc825771a2c',1,'ReplayTimelineWidget']]],
   ['nosilentdirectorycreation_10',['NoSilentDirectoryCreation',['../de/d4e/classUnZip.html#ae76e35ba02ddc4793ddaca60a06e5968a03c135b4f525d6ef11d0229a5a2833dd',1,'UnZip']]],
   ['nosort_11',['NoSort',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714faca41862bd3df624bf8b0e7b8b5481482',1,'CardList']]],
-  ['notloaded_12',['NotLoaded',['../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11ca2b964c155c8b577ebe1a26ebabd27439',1,'card_database_loader.h']]],
-  ['notloggedin_13',['NotLoggedIn',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdaf08382239c29cb2673fa99d0898e1249',1,'server.h']]],
-  ['notselected_14',['NotSelected',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea7dc39dc840c9dbdefd059f8d96226d11',1,'deck_preview_tag_display_widget.h']]]
+  ['notcontains_12',['NotContains',['../de/d2f/format__legality__rules_8h.html#a3166c752edac185a97b2d3dd54081f72a75daf57db1d55d476f96772ecca737c7',1,'format_legality_rules.h']]],
+  ['notequals_13',['NotEquals',['../de/d2f/format__legality__rules_8h.html#a3166c752edac185a97b2d3dd54081f72a34b5af77cc5bf3a5f2a999f11f578255',1,'format_legality_rules.h']]],
+  ['notloaded_14',['NotLoaded',['../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11ca2b964c155c8b577ebe1a26ebabd27439',1,'card_database_loader.h']]],
+  ['notloggedin_15',['NotLoggedIn',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdaf08382239c29cb2673fa99d0898e1249',1,'server.h']]],
+  ['notselected_16',['NotSelected',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea7dc39dc840c9dbdefd059f8d96226d11',1,'deck_preview_tag_display_widget.h']]]
 ];

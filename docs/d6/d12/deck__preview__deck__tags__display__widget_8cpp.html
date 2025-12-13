@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-11-30-Development-2.11.0-beta.38</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-13-Development-2.11.0-beta.39</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -124,11 +124,13 @@ Include dependency graph for deck_preview_deck_tags_display_widget.cpp:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a2954a0e05d8aa61603b5b9897ccdafe4" id="r_a2954a0e05d8aa61603b5b9897ccdafe4"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2954a0e05d8aa61603b5b9897ccdafe4">getAllFiles</a> (const QString &amp;filePath)</td></tr>
-<tr class="memitem:a45db40dff09b59296b346379468705a1" id="r_a45db40dff09b59296b346379468705a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45db40dff09b59296b346379468705a1">confirmOverwriteIfExists</a> (QWidget *parent, const QString &amp;filePath)</td></tr>
+<tr class="memitem:adbca14d62122e99262c5c4c780668994" id="r_adbca14d62122e99262c5c4c780668994"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbca14d62122e99262c5c4c780668994">findAllKnownTags</a> ()</td></tr>
+<tr class="memitem:a0eb60ca6c53989dea3745accca30caed" id="r_a0eb60ca6c53989dea3745accca30caed"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eb60ca6c53989dea3745accca30caed">confirmOverwriteIfExists</a> (QWidget *parent, const QString &amp;filePath)</td></tr>
+<tr class="memitem:a25f049deda2af7e31c73cf7e4b959b71" id="r_a25f049deda2af7e31c73cf7e4b959b71"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25f049deda2af7e31c73cf7e4b959b71">convertFileToCockatriceFormat</a> (<a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a> *deckPreviewWidget)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a45db40dff09b59296b346379468705a1" name="a45db40dff09b59296b346379468705a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45db40dff09b59296b346379468705a1">&#9670;&#160;</a></span>confirmOverwriteIfExists()</h2>
+<a id="a0eb60ca6c53989dea3745accca30caed" name="a0eb60ca6c53989dea3745accca30caed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eb60ca6c53989dea3745accca30caed">&#9670;&#160;</a></span>confirmOverwriteIfExists()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -149,14 +151,85 @@ Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d12/deck__preview__deck__tags__display__widget_8cpp_a45db40dff09b59296b346379468705a1_icgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d12/deck__preview__deck__tags__display__widget_8cpp_a0eb60ca6c53989dea3745accca30caed_icgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a25f049deda2af7e31c73cf7e4b959b71" name="a25f049deda2af7e31c73cf7e4b959b71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25f049deda2af7e31c73cf7e4b959b71">&#9670;&#160;</a></span>convertFileToCockatriceFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void convertFileToCockatriceFormat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a> *</td>          <td class="paramname"><span class="paramname"><em>deckPreviewWidget</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d12/deck__preview__deck__tags__display__widget_8cpp_a25f049deda2af7e31c73cf7e4b959b71_cgraph.svg" width="100%" height="453"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d12/deck__preview__deck__tags__display__widget_8cpp_a25f049deda2af7e31c73cf7e4b959b71_icgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="adbca14d62122e99262c5c4c780668994" name="adbca14d62122e99262c5c4c780668994"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbca14d62122e99262c5c4c780668994">&#9670;&#160;</a></span>findAllKnownTags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList findAllKnownTags </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets all tags that appear in the deck folder </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d12/deck__preview__deck__tags__display__widget_8cpp_adbca14d62122e99262c5c4c780668994_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d12/deck__preview__deck__tags__display__widget_8cpp_adbca14d62122e99262c5c4c780668994_icgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -187,7 +260,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d12/deck__preview__deck__tags__display__widget_8cpp_a2954a0e05d8aa61603b5b9897ccdafe4_icgraph.svg" width="100%" height="515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d12/deck__preview__deck__tags__display__widget_8cpp_a2954a0e05d8aa61603b5b9897ccdafe4_icgraph.svg" width="100%" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

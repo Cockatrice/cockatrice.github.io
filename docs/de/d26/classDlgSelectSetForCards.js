@@ -4,6 +4,8 @@ var classDlgSelectSetForCards =
     [ "actClear", "de/d26/classDlgSelectSetForCards.html#a109846809dc77c1c40f4f47adb6ddcac", null ],
     [ "actOK", "de/d26/classDlgSelectSetForCards.html#afc4fba26e6ae2ded0871a40cc35de04e", null ],
     [ "actSetAllToPreferred", "de/d26/classDlgSelectSetForCards.html#a9c485839005d94a9a19c419e3e497865", null ],
+    [ "deckAboutToBeModified", "de/d26/classDlgSelectSetForCards.html#aecf5afa1501850b038974a7851595c68", null ],
+    [ "deckModified", "de/d26/classDlgSelectSetForCards.html#aeb6b53d95687b485371875e9b7f54007", null ],
     [ "dragEnterEvent", "de/d26/classDlgSelectSetForCards.html#a91bde869263cc49ea3d2fdd35716253f", null ],
     [ "dropEvent", "de/d26/classDlgSelectSetForCards.html#ac34e593c073e46fdff0145a8e4800d46", null ],
     [ "getCardsForSets", "de/d26/classDlgSelectSetForCards.html#aeb45891cd62b09f63289250f3b0230b4", null ],

@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-11-30-Development-2.11.0-beta.38</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-13-Development-2.11.0-beta.39</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -144,7 +144,7 @@ $(function(){initNavTree('d7/d20/tab__game_8h_source.html','../../',''); });
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">class </span><a class="code hl_class" href="../../de/da1/classCardZone.html">CardZone</a>;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">class </span><a class="code hl_class" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a>;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">class </span><a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a>;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">class </span>DeckLoader;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">class </span><a class="code hl_class" href="../../de/de9/classDeckLoader.html">DeckLoader</a>;</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">class </span>QVBoxLayout;</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">class </span>QHBoxLayout;</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">class </span>GameReplay;</div>
@@ -219,7 +219,7 @@ $(function(){initNavTree('d7/d20/tab__game_8h_source.html','../../',''); });
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="../../de/d08/classTabGame.html#ae419dbe2d4c70bfcda0167d889688437">  119</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d08/classTabGame.html#ae419dbe2d4c70bfcda0167d889688437">containerProcessingStarted</a>(<span class="keyword">const</span> GameEventContext &amp;context);</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="../../de/d08/classTabGame.html#a38ee966e226328d87408ba28cc25b0d5">  120</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d08/classTabGame.html#a38ee966e226328d87408ba28cc25b0d5">containerProcessingDone</a>();</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="../../de/d08/classTabGame.html#ac224ed509114397ac1c3760d911bde04">  121</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d08/classTabGame.html#ac224ed509114397ac1c3760d911bde04">openMessageDialog</a>(<span class="keyword">const</span> QString &amp;userName, <span class="keywordtype">bool</span> focus);</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="../../de/d08/classTabGame.html#a05d92efb910f5f4e634408b6875092af">  122</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d08/classTabGame.html#a05d92efb910f5f4e634408b6875092af">openDeckEditor</a>(DeckLoader *deck);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="../../de/d08/classTabGame.html#a05d92efb910f5f4e634408b6875092af">  122</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d08/classTabGame.html#a05d92efb910f5f4e634408b6875092af">openDeckEditor</a>(<a class="code hl_class" href="../../de/de9/classDeckLoader.html">DeckLoader</a> *deck);</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="../../de/d08/classTabGame.html#ade0b13e4460c05279916d0b339e7e06a">  123</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d08/classTabGame.html#ade0b13e4460c05279916d0b339e7e06a">notIdle</a>();</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="../../de/d08/classTabGame.html#a877994778129edd803e4f8cb05f2064c">  125</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../de/d08/classTabGame.html#a877994778129edd803e4f8cb05f2064c">phaseChanged</a>(<span class="keywordtype">int</span> phase);</div>
@@ -311,6 +311,7 @@ $(function(){initNavTree('d7/d20/tab__game_8h_source.html','../../',''); });
 <div class="ttc" id="aclassCardInfoFrameWidget_html"><div class="ttname"><a href="../../db/d22/classCardInfoFrameWidget.html">CardInfoFrameWidget</a></div><div class="ttdef"><b>Definition</b> card_info_frame_widget.h:22</div></div>
 <div class="ttc" id="aclassCardItem_html"><div class="ttname"><a href="../../d6/dbd/classCardItem.html">CardItem</a></div><div class="ttdef"><b>Definition</b> card_item.h:29</div></div>
 <div class="ttc" id="aclassCardZone_html"><div class="ttname"><a href="../../de/da1/classCardZone.html">CardZone</a></div><div class="ttdef"><b>Definition</b> card_zone.h:26</div></div>
+<div class="ttc" id="aclassDeckLoader_html"><div class="ttname"><a href="../../de/de9/classDeckLoader.html">DeckLoader</a></div><div class="ttdef"><b>Definition</b> deck_loader.h:20</div></div>
 <div class="ttc" id="aclassDeckViewContainer_html"><div class="ttname"><a href="../../df/ddd/classDeckViewContainer.html">DeckViewContainer</a></div><div class="ttdef"><b>Definition</b> deck_view_container.h:49</div></div>
 <div class="ttc" id="aclassGameScene_html"><div class="ttname"><a href="../../db/d9f/classGameScene.html">GameScene</a></div><div class="ttdoc">Manages the game board display including players, zones, cards, and animations.</div><div class="ttdef"><b>Definition</b> game_scene.h:38</div></div>
 <div class="ttc" id="aclassGameView_html"><div class="ttname"><a href="../../dd/d97/classGameView.html">GameView</a></div><div class="ttdef"><b>Definition</b> game_view.h:16</div></div>

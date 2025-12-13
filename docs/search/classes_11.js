@@ -16,10 +16,11 @@ var searchData=
   ['replaymanager_13',['ReplayManager',['../da/de9/classReplayManager.html',1,'']]],
   ['replaynode_14',['ReplayNode',['../d8/d60/classRemoteReplayList__TreeModel_1_1ReplayNode.html',1,'RemoteReplayList_TreeModel']]],
   ['replaytimelinewidget_15',['ReplayTimelineWidget',['../d5/d07/classReplayTimelineWidget.html',1,'']]],
-  ['responsecontainer_16',['ResponseContainer',['../db/d74/classResponseContainer.html',1,'']]],
-  ['result_17',['Result',['../df/d1f/structpeg_1_1Definition_1_1Result.html',1,'peg::Definition::Result'],['../dd/d7e/structResult.html',1,'Result']]],
-  ['rfgmenu_18',['RfgMenu',['../dc/db3/classRfgMenu.html',1,'']]],
-  ['rng_5fabstract_19',['RNG_Abstract',['../de/dba/classRNG__Abstract.html',1,'']]],
-  ['rng_5fsfmt_20',['RNG_SFMT',['../d4/dc7/classRNG__SFMT.html',1,'']]],
-  ['roomselector_21',['RoomSelector',['../d8/d49/classRoomSelector.html',1,'']]]
+  ['resolveproviderid_16',['ResolveProviderId',['../df/d98/structCardNodeFunction_1_1ResolveProviderId.html',1,'CardNodeFunction']]],
+  ['responsecontainer_17',['ResponseContainer',['../db/d74/classResponseContainer.html',1,'']]],
+  ['result_18',['Result',['../df/d1f/structpeg_1_1Definition_1_1Result.html',1,'peg::Definition::Result'],['../dd/d7e/structResult.html',1,'Result']]],
+  ['rfgmenu_19',['RfgMenu',['../dc/db3/classRfgMenu.html',1,'']]],
+  ['rng_5fabstract_20',['RNG_Abstract',['../de/dba/classRNG__Abstract.html',1,'']]],
+  ['rng_5fsfmt_21',['RNG_SFMT',['../d4/dc7/classRNG__SFMT.html',1,'']]],
+  ['roomselector_22',['RoomSelector',['../d8/d49/classRoomSelector.html',1,'']]]
 ];

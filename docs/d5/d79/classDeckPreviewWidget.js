@@ -20,6 +20,7 @@ var classDeckPreviewWidget =
     [ "retranslateUi", "d5/d79/classDeckPreviewWidget.html#a1a971cfe63156f6f795dd2157aaf8c85", null ],
     [ "setBannerCard", "d5/d79/classDeckPreviewWidget.html#a06919ccd4b5c7ca29e6d480940e18a84", null ],
     [ "setFilePath", "d5/d79/classDeckPreviewWidget.html#a8213250f721cd3ec3b42de04c2e03f94", null ],
+    [ "setTags", "d5/d79/classDeckPreviewWidget.html#aadbf0e61db597673d05f05f6a79d2813", null ],
     [ "updateBannerCardComboBox", "d5/d79/classDeckPreviewWidget.html#a03afb46425c10ec087abc4b076ce76d0", null ],
     [ "updateBannerCardComboBoxVisibility", "d5/d79/classDeckPreviewWidget.html#a35ce75c897382d54d66711ffd72fdf7b", null ],
     [ "updateTagsVisibility", "d5/d79/classDeckPreviewWidget.html#ab4548f27dc8112aaa5e181dd3630e046", null ],

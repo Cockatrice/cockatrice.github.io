@@ -11,7 +11,8 @@ var searchData=
   ['messagelogwidget_8',['MessageLogWidget',['../d7/d93/classMessageLogWidget.html',1,'']]],
   ['messagesettings_9',['MessageSettings',['../d3/dc1/classMessageSettings.html',1,'']]],
   ['messagessettingspage_10',['MessagesSettingsPage',['../d2/dae/classMessagesSettingsPage.html',1,'']]],
-  ['movecardstruct_11',['MoveCardStruct',['../d1/d62/structMoveCardStruct.html',1,'']]],
-  ['movemenu_12',['MoveMenu',['../dc/da9/classMoveMenu.html',1,'']]],
-  ['moxfieldjsonparser_13',['MoxfieldJsonParser',['../dd/d95/classMoxfieldJsonParser.html',1,'']]]
+  ['metadata_11',['Metadata',['../d3/de4/structDeckList_1_1Metadata.html',1,'DeckList']]],
+  ['movecardstruct_12',['MoveCardStruct',['../d1/d62/structMoveCardStruct.html',1,'']]],
+  ['movemenu_13',['MoveMenu',['../dc/da9/classMoveMenu.html',1,'']]],
+  ['moxfieldjsonparser_14',['MoxfieldJsonParser',['../dd/d95/classMoxfieldJsonParser.html',1,'']]]
 ];

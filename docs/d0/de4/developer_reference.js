@@ -1,5 +1,11 @@
 var developer_reference =
 [
+    [ "Logging", "d9/d4f/logging.html", [
+      [ "Log Message Pattern", "d9/d4f/logging.html#log-message-pattern", null ],
+      [ "Log Level and Categories", "d9/d4f/logging.html#log-level-and-categories", null ],
+      [ "Logging Configuration", "d9/d4f/logging.html#logging-configuration", null ],
+      [ "Logging Setup", "d9/d4f/logging.html#logging-setup", null ]
+    ] ],
     [ "A Primer on Cards", "da/d69/primer_cards.html", [
       [ "The Cockatrice Card Library", "da/d69/primer_cards.html#the-cockatrice-card-library", null ],
       [ "A Basic Card Object: CardInfo", "da/d69/primer_cards.html#a-basic-card-object-cardinfo", null ],

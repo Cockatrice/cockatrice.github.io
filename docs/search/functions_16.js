@@ -18,8 +18,9 @@ var searchData=
   ['writecentraldir_15',['writeCentralDir',['../df/daf/classZipPrivate.html#a943f257c1c3f1268ba08bc41186a556b',1,'ZipPrivate']]],
   ['writeelement_16',['writeElement',['../d3/de9/classAbstractDecklistCardNode.html#a97ccfa1720aa1ee894be841fbe500069',1,'AbstractDecklistCardNode::writeElement()'],['../dc/dd8/classAbstractDecklistNode.html#aa63a74f48c8f68b8ec7a89a4612fce3f',1,'AbstractDecklistNode::writeElement()'],['../d4/d55/classInnerDecklistNode.html#a60a83b3eae9d802ea394dea41d60bfe9',1,'InnerDecklistNode::writeElement()']]],
   ['writeentry_17',['writeEntry',['../df/daf/classZipPrivate.html#a17d067c2ccc1358b032e90e1b84c1547',1,'ZipPrivate']]],
-  ['writetosocket_18',['writeToSocket',['../dd/dea/classAbstractServerSocketInterface.html#a49d340b855e928b79d08d3c364fc7eef',1,'AbstractServerSocketInterface::writeToSocket()'],['../dd/d13/classTcpServerSocketInterface.html#a94937d81a4f9d8fadd981e0e2b2800bc',1,'TcpServerSocketInterface::writeToSocket()'],['../de/db1/classWebsocketServerSocketInterface.html#aeddcd24404a9e2173f39ed44250f6589',1,'WebsocketServerSocketInterface::writeToSocket()']]],
-  ['writetostring_5fnative_19',['writeToString_Native',['../da/d68/classDeckList.html#a79d6a068df3b2a323a04621fb3ecb8b0',1,'DeckList']]],
-  ['writetostring_5fplain_20',['writeToString_Plain',['../da/d68/classDeckList.html#acbc76c1a574283e5b32f514291343a63',1,'DeckList']]],
-  ['wsp_21',['wsp',['../dc/db2/namespacepeg.html#a36efa719a391921ca76025dde8a3e6a4',1,'peg']]]
+  ['writemetadata_18',['writeMetadata',['../d3/d94/deck__list_8cpp.html#a2061fe8e9bce81d0bd2064ab3d80da09',1,'deck_list.cpp']]],
+  ['writetosocket_19',['writeToSocket',['../dd/dea/classAbstractServerSocketInterface.html#a49d340b855e928b79d08d3c364fc7eef',1,'AbstractServerSocketInterface::writeToSocket()'],['../dd/d13/classTcpServerSocketInterface.html#a94937d81a4f9d8fadd981e0e2b2800bc',1,'TcpServerSocketInterface::writeToSocket()'],['../de/db1/classWebsocketServerSocketInterface.html#aeddcd24404a9e2173f39ed44250f6589',1,'WebsocketServerSocketInterface::writeToSocket()']]],
+  ['writetostring_5fnative_20',['writeToString_Native',['../da/d68/classDeckList.html#a79d6a068df3b2a323a04621fb3ecb8b0',1,'DeckList']]],
+  ['writetostring_5fplain_21',['writeToString_Plain',['../da/d68/classDeckList.html#acbc76c1a574283e5b32f514291343a63',1,'DeckList']]],
+  ['wsp_22',['wsp',['../dc/db2/namespacepeg.html#a36efa719a391921ca76025dde8a3e6a4',1,'peg']]]
 ];

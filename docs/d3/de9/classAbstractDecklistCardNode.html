@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-11-30-Development-2.11.0-beta.38</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-13-Development-2.11.0-beta.39</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -133,6 +133,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac11e3a79f20cf2d4c914e3d0792e495d" id="r_ac11e3a79f20cf2d4c914e3d0792e495d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac11e3a79f20cf2d4c914e3d0792e495d">setCardSetShortName</a> (const QString &amp;_cardSetShortName)=0</td></tr>
 <tr class="memitem:a3acd1e86229542f0a01f0defd033c907" id="r_a3acd1e86229542f0a01f0defd033c907"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3acd1e86229542f0a01f0defd033c907">getCardCollectorNumber</a> () const override=0</td></tr>
 <tr class="memitem:a80b865c69e80778e61e4a0138d9b06ea" id="r_a80b865c69e80778e61e4a0138d9b06ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80b865c69e80778e61e4a0138d9b06ea">setCardCollectorNumber</a> (const QString &amp;_cardSetNumber)=0</td></tr>
+<tr class="memitem:add85322095621fa2c6227d1ba452a81e" id="r_add85322095621fa2c6227d1ba452a81e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add85322095621fa2c6227d1ba452a81e">getFormatLegality</a> () const =0</td></tr>
+<tr class="memitem:ae86a8201eb294c8074650385af146b9f" id="r_ae86a8201eb294c8074650385af146b9f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae86a8201eb294c8074650385af146b9f">setFormatLegality</a> (const bool _formatLegal)=0</td></tr>
 <tr class="memitem:a99820e33f1476b4aecfe7e4ffd4df5b3" id="r_a99820e33f1476b4aecfe7e4ffd4df5b3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99820e33f1476b4aecfe7e4ffd4df5b3">height</a> () const override</td></tr>
 <tr class="memdesc:a99820e33f1476b4aecfe7e4ffd4df5b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the height of this node in the tree.  <br /></td></tr>
 <tr class="memitem:a5c49007f00fe34492de3fe81b1057d9b" id="r_a5c49007f00fe34492de3fe81b1057d9b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c49007f00fe34492de3fe81b1057d9b">compare</a> (<a class="el" href="../../dc/dd8/classAbstractDecklistNode.html">AbstractDecklistNode</a> *other) const override</td></tr>
@@ -184,14 +186,14 @@ Role in the hierarchy:</h3>
 </ul>
 </li>
 </ul>
-<h3 class="doxsection"><a class="anchor" id="responsibilities-1"></a>
+<h3 class="doxsection"><a class="anchor" id="responsibilities-2"></a>
 Responsibilities:</h3>
 <ul>
 <li>Defines getters/setters for all card-identifying attributes.</li>
 <li>Provides comparison logic for sorting by name or number.</li>
 <li>Implements XML serialization for saving/loading deck files.</li>
 </ul>
-<h3 class="doxsection"><a class="anchor" id="ownership"></a>
+<h3 class="doxsection"><a class="anchor" id="ownership-1"></a>
 Ownership:</h3>
 <ul>
 <li>As with all nodes, owned by its parent <a class="el" href="../../d4/d55/classInnerDecklistNode.html" title="Represents a container node in the deck list hierarchy (zones and groupings).">InnerDecklistNode</a>. </li>
@@ -469,6 +471,34 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="add85322095621fa2c6227d1ba452a81e" name="add85322095621fa2c6227d1ba452a81e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add85322095621fa2c6227d1ba452a81e">&#9670;&#160;</a></span>getFormatLegality()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AbstractDecklistCardNode::getFormatLegality </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The format legality of the card </dd></dl>
+
+<p>Implemented in <a class="el" href="../../d5/d22/classDecklistCardNode.html#af1ca59687f98e11c80eae6373252b1ee">DecklistCardNode</a>, and <a class="el" href="../../dd/d4f/classDecklistModelCardNode.html#ae08619db5044b2aa4ca4d3753e310c1d">DecklistModelCardNode</a>.</p>
+
+</div>
+</div>
 <a id="ae11a02fca18fc76c23b1d0f11c7a731d" name="ae11a02fca18fc76c23b1d0f11c7a731d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae11a02fca18fc76c23b1d0f11c7a731d">&#9670;&#160;</a></span>getName()</h2>
 
@@ -704,6 +734,39 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ae86a8201eb294c8074650385af146b9f" name="ae86a8201eb294c8074650385af146b9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae86a8201eb294c8074650385af146b9f">&#9670;&#160;</a></span>setFormatLegality()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AbstractDecklistCardNode::setFormatLegality </td>
+          <td>(</td>
+          <td class="paramtype">const bool</td>          <td class="paramname"><span class="paramname"><em>_formatLegal</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_formatLegal</td><td>If the card is considered legal </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="../../d5/d22/classDecklistCardNode.html#aa05544a5656a1987a0b67bfc571ad4e2">DecklistCardNode</a>, and <a class="el" href="../../dd/d4f/classDecklistModelCardNode.html#a6ba41fefabaa7b601626d046e6e0db35">DecklistModelCardNode</a>.</p>
+
+</div>
+</div>
 <a id="a88fcae8d70d8cd65e20d9bf2996c0c87" name="a88fcae8d70d8cd65e20d9bf2996c0c87"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88fcae8d70d8cd65e20d9bf2996c0c87">&#9670;&#160;</a></span>setName()</h2>
 
@@ -812,8 +875,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>libcockatrice_deck_list/libcockatrice/deck_list/<a class="el" href="../../d2/dcf/abstract__deck__list__card__node_8h_source.html">abstract_deck_list_card_node.h</a></li>
-<li>libcockatrice_deck_list/libcockatrice/deck_list/<a class="el" href="../../d7/d4e/abstract__deck__list__card__node_8cpp.html">abstract_deck_list_card_node.cpp</a></li>
+<li>libcockatrice_deck_list/libcockatrice/deck_list/tree/<a class="el" href="../../d2/dcf/abstract__deck__list__card__node_8h_source.html">abstract_deck_list_card_node.h</a></li>
+<li>libcockatrice_deck_list/libcockatrice/deck_list/tree/<a class="el" href="../../d7/d4e/abstract__deck__list__card__node_8cpp.html">abstract_deck_list_card_node.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

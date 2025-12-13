@@ -1,5 +1,13 @@
 var namespaces_dup =
 [
+    [ "CardNodeFunction", "dd/d5d/namespaceCardNodeFunction.html", "dd/d5d/namespaceCardNodeFunction" ],
+    [ "DeckFileFormat", "d4/d60/namespaceDeckFileFormat.html", [
+      [ "Format", "d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945", [
+        [ "PlainText", "d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945a13d9fc7e92cd6d8d9e62035b3b864fa6", null ],
+        [ "Cockatrice", "d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945aed4cf2362dbaa2ebccc182d16d23d1c0", null ]
+      ] ],
+      [ "getFormatFromName", "d4/d60/namespaceDeckFileFormat.html#ad092cd2a982b367813bfc16031e8aa12", null ]
+    ] ],
     [ "DeckLinkToApiTransformer", "de/d23/namespaceDeckLinkToApiTransformer.html", [
       [ "parseDeckUrl", "de/d23/namespaceDeckLinkToApiTransformer.html#ab00138f4b97c67f24509d48d986ef707", null ],
       [ "ARCHIDEKT_BASE", "de/d23/namespaceDeckLinkToApiTransformer.html#a975381d4207738d8ea5cafe5745d6bd4", null ],
@@ -36,5 +44,8 @@ var namespaces_dup =
       [ "Side", "db/d09/namespaceMtg.html#a5b271237e604b4bf42c6b8eea641f4b5", null ]
     ] ],
     [ "peg", "dc/db2/namespacepeg.html", "dc/db2/namespacepeg" ],
-    [ "QtJson", "dc/dfb/namespaceQtJson.html", "dc/dfb/namespaceQtJson" ]
+    [ "QtJson", "dc/dfb/namespaceQtJson.html", "dc/dfb/namespaceQtJson" ],
+    [ "QtUtils", "dc/d55/namespaceQtUtils.html", [
+      [ "findParentOfType", "dc/d55/namespaceQtUtils.html#a573d4567ad2940b0f5fce244a0f585f6", null ]
+    ] ]
 ];

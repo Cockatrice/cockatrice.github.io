@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-11-30-Development-2.11.0-beta.38</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-13-Development-2.11.0-beta.39</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,6 +123,7 @@ Collaboration diagram for ICardDatabaseParser:</div>
 Signals</h2></td></tr>
 <tr class="memitem:a5affb7253a0dd4f4e8c611ae2ad4b119" id="r_a5affb7253a0dd4f4e8c611ae2ad4b119"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5affb7253a0dd4f4e8c611ae2ad4b119">addCard</a> (<a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> card)</td></tr>
 <tr class="memitem:a8c862a86d060f3d3e659b5ff169edec0" id="r_a8c862a86d060f3d3e659b5ff169edec0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c862a86d060f3d3e659b5ff169edec0">addSet</a> (<a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a> set)</td></tr>
+<tr class="memitem:af9dd84adbd35f10dd6d905c62b0a734a" id="r_af9dd84adbd35f10dd6d905c62b0a734a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9dd84adbd35f10dd6d905c62b0a734a">addFormat</a> (<a class="el" href="../../df/df3/card__info_8h.html#a411c105e9a86135bec85413e40d7a243">FormatRulesPtr</a> format)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -131,8 +132,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa58bc4645fc309c7225527f22d90a050"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether this parser can parse the given file.  <br /></td></tr>
 <tr class="memitem:a5a7c1ca5738843cd07c30148e1e20e8f" id="r_a5a7c1ca5738843cd07c30148e1e20e8f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a7c1ca5738843cd07c30148e1e20e8f">parseFile</a> (QIODevice &amp;device)=0</td></tr>
 <tr class="memdesc:a5a7c1ca5738843cd07c30148e1e20e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a database file and emits addCard/addSet signals.  <br /></td></tr>
-<tr class="memitem:af94e458e0c47bb8c228d63ed0eb0f819" id="r_af94e458e0c47bb8c228d63ed0eb0f819"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af94e458e0c47bb8c228d63ed0eb0f819">saveToFile</a> (<a class="el" href="../../df/df3/card__info_8h.html#a7c9db9f714d3b5488be46278c2e576e8">SetNameMap</a> <a class="el" href="#a9dbd0972e9552f222fd6dec4fd9f1088">sets</a>, <a class="el" href="../../df/df3/card__info_8h.html#afe09e708464a3f7085db662112b509f3">CardNameMap</a> cards, const QString &amp;fileName, const QString &amp;sourceUrl=&quot;unknown&quot;, const QString &amp;sourceVersion=&quot;unknown&quot;)=0</td></tr>
-<tr class="memdesc:af94e458e0c47bb8c228d63ed0eb0f819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves card and set data to a file.  <br /></td></tr>
+<tr class="memitem:a4ed61d5daf8eccca140d31ef257c32c9" id="r_a4ed61d5daf8eccca140d31ef257c32c9"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ed61d5daf8eccca140d31ef257c32c9">saveToFile</a> (<a class="el" href="../../df/df3/card__info_8h.html#a2e9686002e62dcaed3d15d08802eede7">FormatRulesNameMap</a> _formats, <a class="el" href="../../df/df3/card__info_8h.html#a7c9db9f714d3b5488be46278c2e576e8">SetNameMap</a> <a class="el" href="#a9dbd0972e9552f222fd6dec4fd9f1088">sets</a>, <a class="el" href="../../df/df3/card__info_8h.html#afe09e708464a3f7085db662112b509f3">CardNameMap</a> cards, const QString &amp;fileName, const QString &amp;sourceUrl=&quot;unknown&quot;, const QString &amp;sourceVersion=&quot;unknown&quot;)=0</td></tr>
+<tr class="memdesc:a4ed61d5daf8eccca140d31ef257c32c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves card and set data to a file.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -206,6 +207,36 @@ Static Protected Attributes</h2></td></tr>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/dfe/classICardDatabaseParser_a5affb7253a0dd4f4e8c611ae2ad4b119_icgraph.svg" width="596" height="179"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="af9dd84adbd35f10dd6d905c62b0a734a" name="af9dd84adbd35f10dd6d905c62b0a734a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9dd84adbd35f10dd6d905c62b0a734a">&#9670;&#160;</a></span>addFormat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ICardDatabaseParser::addFormat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#a411c105e9a86135bec85413e40d7a243">FormatRulesPtr</a></td>          <td class="paramname"><span class="paramname"><em>format</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/dfe/classICardDatabaseParser_af9dd84adbd35f10dd6d905c62b0a734a_icgraph.svg" width="596" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -416,8 +447,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="af94e458e0c47bb8c228d63ed0eb0f819" name="af94e458e0c47bb8c228d63ed0eb0f819"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af94e458e0c47bb8c228d63ed0eb0f819">&#9670;&#160;</a></span>saveToFile()</h2>
+<a id="a4ed61d5daf8eccca140d31ef257c32c9" name="a4ed61d5daf8eccca140d31ef257c32c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ed61d5daf8eccca140d31ef257c32c9">&#9670;&#160;</a></span>saveToFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -428,6 +459,11 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">virtual bool ICardDatabaseParser::saveToFile </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#a2e9686002e62dcaed3d15d08802eede7">FormatRulesNameMap</a></td>          <td class="paramname"><span class="paramname"><em>_formats</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#a7c9db9f714d3b5488be46278c2e576e8">SetNameMap</a></td>          <td class="paramname"><span class="paramname"><em>sets</em></span>, </td>
         </tr>
         <tr>
@@ -461,6 +497,7 @@ Here is the caller graph for this function:</div>
 <p>Saves card and set data to a file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">_formats</td><td></td></tr>
     <tr><td class="paramname">sets</td><td>Map of sets to save. </td></tr>
     <tr><td class="paramname">cards</td><td>Map of cards to save. </td></tr>
     <tr><td class="paramname">fileName</td><td>Target file path. </td></tr>
@@ -471,7 +508,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if save succeeded. </dd></dl>
 
-<p>Implemented in <a class="el" href="../../d5/dba/classCockatriceXml3Parser.html#af4990fc10a44751b666a42ad32237273">CockatriceXml3Parser</a>, and <a class="el" href="../../dc/d53/classCockatriceXml4Parser.html#a9cc0262b4012910a2a28d6f79c551d6e">CockatriceXml4Parser</a>.</p>
+<p>Implemented in <a class="el" href="../../d5/dba/classCockatriceXml3Parser.html#ab662948b7fc441506ae8fad0e2380cdc">CockatriceXml3Parser</a>, and <a class="el" href="../../dc/d53/classCockatriceXml4Parser.html#af098532fd597f6e57bed9b2c8aa10d7d">CockatriceXml4Parser</a>.</p>
 
 </div>
 </div>

@@ -29,6 +29,7 @@ var searchData=
   ['entry_26',['Entry',['../d3/d4a/structBackgroundSources_1_1Entry.html',1,'BackgroundSources']]],
   ['errorinfo_27',['ErrorInfo',['../db/da9/structpeg_1_1ErrorInfo.html',1,'peg']]],
   ['exactcard_28',['ExactCard',['../df/d4e/classExactCard.html',1,'']]],
-  ['expression_29',['Expression',['../de/d94/classExpression.html',1,'']]],
-  ['extradecksearchinfo_30',['ExtraDeckSearchInfo',['../d1/d36/structExtraDeckSearchInfo.html',1,'']]]
+  ['exceptionrule_29',['ExceptionRule',['../de/dae/structExceptionRule.html',1,'']]],
+  ['expression_30',['Expression',['../de/d94/classExpression.html',1,'']]],
+  ['extradecksearchinfo_31',['ExtraDeckSearchInfo',['../d1/d36/structExtraDeckSearchInfo.html',1,'']]]
 ];

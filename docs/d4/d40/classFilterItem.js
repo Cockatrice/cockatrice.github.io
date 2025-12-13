@@ -10,6 +10,7 @@ var classFilterItem =
     [ "acceptMainType", "d4/d40/classFilterItem.html#ae17adcda39ce3fa4f83ec937a7d80bd9", null ],
     [ "acceptManaCost", "d4/d40/classFilterItem.html#a596804075a1585daf07ddd0b4e41389f", null ],
     [ "acceptName", "d4/d40/classFilterItem.html#a14e2c0f70d64f78108d9cdc1d3c897f5", null ],
+    [ "acceptNameExact", "d4/d40/classFilterItem.html#a8aa9c139ebf242c6028ff3a86c1e4722", null ],
     [ "acceptPowerToughness", "d4/d40/classFilterItem.html#ace461bef6a6c77d7cbd70e547f613400", null ],
     [ "acceptRarity", "d4/d40/classFilterItem.html#a2b5f2f1feb65bea800127d0f531b2ff5", null ],
     [ "acceptSet", "d4/d40/classFilterItem.html#a01231621edab85f5e4fbe584d5bd9b67", null ],

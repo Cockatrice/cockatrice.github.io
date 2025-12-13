@@ -10,5 +10,6 @@ var dir_f4be27d36b478c7f01a45661d0a08936 =
     [ "passwordhasher.cpp", "dc/df0/passwordhasher_8cpp.html", null ],
     [ "passwordhasher.h", "dd/d9e/passwordhasher_8h.html", "dd/d9e/passwordhasher_8h" ],
     [ "peglib.h", "de/d9d/peglib_8h.html", "de/d9d/peglib_8h" ],
+    [ "qt_utils.h", "dd/d8d/qt__utils_8h.html", "dd/d8d/qt__utils_8h" ],
     [ "trice_limits.h", "da/d4b/trice__limits_8h.html", "da/d4b/trice__limits_8h" ]
 ];

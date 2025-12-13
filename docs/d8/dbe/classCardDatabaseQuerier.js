@@ -2,6 +2,7 @@ var classCardDatabaseQuerier =
 [
     [ "CardDatabaseQuerier", "d8/dbe/classCardDatabaseQuerier.html#ac639ef2377e57063888429c4a8154406", null ],
     [ "findPrintingWithId", "d8/dbe/classCardDatabaseQuerier.html#a15bb0aa11d39712c5de281e111f01abc", null ],
+    [ "getAllFormatsWithCount", "d8/dbe/classCardDatabaseQuerier.html#a2722920cbb9e3062557755f2baeb81de", null ],
     [ "getAllMainCardTypes", "d8/dbe/classCardDatabaseQuerier.html#ad7a44bd0d6fc30ad154460f6cc93af4c", null ],
     [ "getAllMainCardTypesWithCount", "d8/dbe/classCardDatabaseQuerier.html#a12bea7540977c28f51a7f92dfae77fa3", null ],
     [ "getAllSubCardTypesWithCount", "d8/dbe/classCardDatabaseQuerier.html#ab8dbca47379dace9fd6797f0019db360", null ],
@@ -11,6 +12,7 @@ var classCardDatabaseQuerier =
     [ "getCardInfo", "d8/dbe/classCardDatabaseQuerier.html#aadf83692b2220aedcfb3e9b36070acb7", null ],
     [ "getCardInfos", "d8/dbe/classCardDatabaseQuerier.html#a9d6ef499bbce5eaaa6ff00abf811ee5b", null ],
     [ "getCards", "d8/dbe/classCardDatabaseQuerier.html#a78b9c6fe92fe4f07c941216762918476", null ],
+    [ "getFormat", "d8/dbe/classCardDatabaseQuerier.html#ae51f5f1e216309b2bc5215f35efc9c08", null ],
     [ "getPreferredCard", "d8/dbe/classCardDatabaseQuerier.html#abb58bf7bb00caf43ae830560e6858828", null ],
     [ "getPreferredCard", "d8/dbe/classCardDatabaseQuerier.html#aff312b6e86af888b25e7696dfb459d06", null ],
     [ "getPreferredPrinting", "d8/dbe/classCardDatabaseQuerier.html#a9bf059c952702635681be08666072d04", null ],

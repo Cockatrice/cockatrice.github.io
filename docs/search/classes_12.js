@@ -39,7 +39,7 @@ var searchData=
   ['setentrywidget_36',['SetEntryWidget',['../d4/d56/classSetEntryWidget.html',1,'']]],
   ['setnameandcollectorsnumberdisplaywidget_37',['SetNameAndCollectorsNumberDisplayWidget',['../d9/da6/classSetNameAndCollectorsNumberDisplayWidget.html',1,'']]],
   ['setprioritycomparator_38',['SetPriorityComparator',['../d5/dee/classSetPriorityComparator.html',1,'']]],
-  ['setprovideridtopreferred_39',['SetProviderIdToPreferred',['../de/d75/structSetProviderIdToPreferred.html',1,'']]],
+  ['setprovideridtopreferred_39',['SetProviderIdToPreferred',['../d0/d52/structCardNodeFunction_1_1SetProviderIdToPreferred.html',1,'CardNodeFunction']]],
   ['setreleasedatecomparator_40',['SetReleaseDateComparator',['../d4/d3e/classSetReleaseDateComparator.html',1,'']]],
   ['setsdisplaymodel_41',['SetsDisplayModel',['../dd/df6/classSetsDisplayModel.html',1,'']]],
   ['setsmimedata_42',['SetsMimeData',['../d8/d6a/classSetsMimeData.html',1,'']]],

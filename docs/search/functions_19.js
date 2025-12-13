@@ -17,7 +17,7 @@ var searchData=
   ['_7ecockatricexml3parser_14',['~CockatriceXml3Parser',['../d5/dba/classCockatriceXml3Parser.html#a019cd2415810d3302bb4dbad42affd65',1,'CockatriceXml3Parser']]],
   ['_7ecockatricexml4parser_15',['~CockatriceXml4Parser',['../dc/d53/classCockatriceXml4Parser.html#a2c2bb2eeebb38620f5fe828e03e25f3f',1,'CockatriceXml4Parser']]],
   ['_7econtext_16',['~Context',['../df/d94/classpeg_1_1Context.html#ad426c75bf84fd9f5692e8b7b982d0e4c',1,'peg::Context']]],
-  ['_7edecklist_17',['~DeckList',['../da/d68/classDeckList.html#ae6ad309bc165839314400812538e6241',1,'DeckList']]],
+  ['_7edecklist_17',['~DeckList',['../da/d68/classDeckList.html#a34908e541ad26de707a96f740883b225',1,'DeckList']]],
   ['_7edecklistmodel_18',['~DeckListModel',['../d9/de1/classDeckListModel.html#a9b2e90b8fc2e40fae2322aa3fceca967',1,'DeckListModel']]],
   ['_7edeckviewcard_19',['~DeckViewCard',['../dc/d0b/classDeckViewCard.html#ae1a190bf6e819df26bda0d8f47c8f667',1,'DeckViewCard']]],
   ['_7edeckviewscene_20',['~DeckViewScene',['../db/db5/classDeckViewScene.html#aaa412f6924b2f0d364955749f98c1d2f',1,'DeckViewScene']]],

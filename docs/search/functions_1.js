@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['backgroundplatewidget_0',['BackgroundPlateWidget',['../d3/dcd/classBackgroundPlateWidget.html#a6b31e821bce5741cdd036a85f40a0c1a',1,'BackgroundPlateWidget']]],
+  ['backgroundplatewidget_0',['BackgroundPlateWidget',['../d3/dcd/classBackgroundPlateWidget.html#a1fb5c8cd71c261370c0298d58fda640b',1,'BackgroundPlateWidget']]],
   ['backreference_1',['BackReference',['../db/d72/classpeg_1_1BackReference.html#aa27f56c6a85d32ee07df5d02356072e4',1,'peg::BackReference::BackReference(std::string &amp;&amp;name)'],['../db/d72/classpeg_1_1BackReference.html#a606e5c560e60edcae97259a1a81f258c',1,'peg::BackReference::BackReference(const std::string &amp;name)']]],
   ['bandialog_2',['BanDialog',['../dd/d5d/classBanDialog.html#a158ce5318b3f1e81adcf2629103f745f',1,'BanDialog']]],
   ['bannercardsrefreshed_3',['bannerCardsRefreshed',['../d0/dfe/classVisualDeckStorageWidget.html#a5727789518c5fbefacfaacfb2cc95386',1,'VisualDeckStorageWidget']]],

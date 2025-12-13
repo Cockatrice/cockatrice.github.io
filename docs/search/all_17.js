@@ -50,9 +50,10 @@ var searchData=
   ['writeelement_47',['writeElement',['../d3/de9/classAbstractDecklistCardNode.html#a97ccfa1720aa1ee894be841fbe500069',1,'AbstractDecklistCardNode::writeElement()'],['../dc/dd8/classAbstractDecklistNode.html#aa63a74f48c8f68b8ec7a89a4612fce3f',1,'AbstractDecklistNode::writeElement()'],['../d4/d55/classInnerDecklistNode.html#a60a83b3eae9d802ea394dea41d60bfe9',1,'InnerDecklistNode::writeElement()']]],
   ['writeentry_48',['writeEntry',['../df/daf/classZipPrivate.html#a17d067c2ccc1358b032e90e1b84c1547',1,'ZipPrivate']]],
   ['writefailed_49',['WriteFailed',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a6485489af32d66acaa3ea4c22c33461c',1,'UnZip::WriteFailed'],['../d8/df5/classZip.html#aa445490ca64ce3051470bed52ee9198ca2e95d02df0e4547cb5540965f308d074',1,'Zip::WriteFailed']]],
-  ['writetosocket_50',['writeToSocket',['../dd/dea/classAbstractServerSocketInterface.html#a49d340b855e928b79d08d3c364fc7eef',1,'AbstractServerSocketInterface::writeToSocket()'],['../dd/d13/classTcpServerSocketInterface.html#a94937d81a4f9d8fadd981e0e2b2800bc',1,'TcpServerSocketInterface::writeToSocket()'],['../de/db1/classWebsocketServerSocketInterface.html#aeddcd24404a9e2173f39ed44250f6589',1,'WebsocketServerSocketInterface::writeToSocket()']]],
-  ['writetostring_5fnative_51',['writeToString_Native',['../da/d68/classDeckList.html#a79d6a068df3b2a323a04621fb3ecb8b0',1,'DeckList']]],
-  ['writetostring_5fplain_52',['writeToString_Plain',['../da/d68/classDeckList.html#acbc76c1a574283e5b32f514291343a63',1,'DeckList']]],
-  ['wrongpassword_53',['WrongPassword',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a7a93912b20b925eba4854e456de3f340',1,'UnZip']]],
-  ['wsp_54',['wsp',['../dc/db2/namespacepeg.html#a36efa719a391921ca76025dde8a3e6a4',1,'peg']]]
+  ['writemetadata_50',['writeMetadata',['../d3/d94/deck__list_8cpp.html#a2061fe8e9bce81d0bd2064ab3d80da09',1,'deck_list.cpp']]],
+  ['writetosocket_51',['writeToSocket',['../dd/dea/classAbstractServerSocketInterface.html#a49d340b855e928b79d08d3c364fc7eef',1,'AbstractServerSocketInterface::writeToSocket()'],['../dd/d13/classTcpServerSocketInterface.html#a94937d81a4f9d8fadd981e0e2b2800bc',1,'TcpServerSocketInterface::writeToSocket()'],['../de/db1/classWebsocketServerSocketInterface.html#aeddcd24404a9e2173f39ed44250f6589',1,'WebsocketServerSocketInterface::writeToSocket()']]],
+  ['writetostring_5fnative_52',['writeToString_Native',['../da/d68/classDeckList.html#a79d6a068df3b2a323a04621fb3ecb8b0',1,'DeckList']]],
+  ['writetostring_5fplain_53',['writeToString_Plain',['../da/d68/classDeckList.html#acbc76c1a574283e5b32f514291343a63',1,'DeckList']]],
+  ['wrongpassword_54',['WrongPassword',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a7a93912b20b925eba4854e456de3f340',1,'UnZip']]],
+  ['wsp_55',['wsp',['../dc/db2/namespacepeg.html#a36efa719a391921ca76025dde8a3e6a4',1,'peg']]]
 ];

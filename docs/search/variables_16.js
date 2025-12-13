@@ -1,7 +1,7 @@
 var searchData=
 [
   ['valid_0',['valid',['../d3/d0a/classSequenceEdit.html#a13db3cf675326411ffe6b321e3ae3943',1,'SequenceEdit']]],
-  ['value_1',['value',['../d4/d67/classAbstractCounter.html#a44b0e0bb2622beadb6b5b306eebe8bc7',1,'AbstractCounter::value'],['../db/daa/classBarWidget.html#a1f6062d37de48da67e0e1edc34e8e0c0',1,'BarWidget::value'],['../de/d94/classExpression.html#a81382544fb0acdf8d90fa8e3674e58e7',1,'Expression::value']]],
+  ['value_1',['value',['../d4/d67/classAbstractCounter.html#a44b0e0bb2622beadb6b5b306eebe8bc7',1,'AbstractCounter::value'],['../db/daa/classBarWidget.html#a1f6062d37de48da67e0e1edc34e8e0c0',1,'BarWidget::value'],['../d3/d64/structCardCondition.html#a10306f3998f00d44cc19949642540bfe',1,'CardCondition::value'],['../de/d94/classExpression.html#a81382544fb0acdf8d90fa8e3674e58e7',1,'Expression::value']]],
   ['value_5fstack_2',['value_stack',['../df/d94/classpeg_1_1Context.html#acfe8148da63961967de55024dd1f7cd2',1,'peg::Context']]],
   ['value_5fstack_5fsize_3',['value_stack_size',['../df/d94/classpeg_1_1Context.html#aa190428775b34acc949b51bf7abe4c36',1,'peg::Context']]],
   ['valuetodisplay_4',['valueToDisplay',['../d9/d5e/classPercentBarWidget.html#a8e99dc20171b0c8cb4dd37f09ed8a9ab',1,'PercentBarWidget']]],

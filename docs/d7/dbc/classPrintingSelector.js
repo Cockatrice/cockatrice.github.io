@@ -2,6 +2,7 @@ var classPrintingSelector =
 [
     [ "PrintingSelector", "d7/dbc/classPrintingSelector.html#ab6d8607519ea0250bea869add24d18e0", null ],
     [ "getAllSetsForCurrentCard", "d7/dbc/classPrintingSelector.html#ae77e2510421de004cf819a01f97d6a73", null ],
+    [ "getDeckEditor", "d7/dbc/classPrintingSelector.html#a13d78e299357ff98fb949de6489dc4fb", null ],
     [ "getDeckModel", "d7/dbc/classPrintingSelector.html#afdd79d4cfe638f5dbb1d8e5a0e546223", null ],
     [ "printingsInDeckChanged", "d7/dbc/classPrintingSelector.html#a056fffe42b4f5276c6e516ea75a2bc78", null ],
     [ "retranslateUi", "d7/dbc/classPrintingSelector.html#a26d2da1cf9853301753c426d42f369d1", null ],

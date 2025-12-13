@@ -18,5 +18,7 @@ var searchData=
   ['flow_5flayout_2ecpp_15',['flow_layout.cpp',['../dc/d41/flow__layout_8cpp.html',1,'']]],
   ['flow_5flayout_2eh_16',['flow_layout.h',['../dc/d3b/flow__layout_8h.html',1,'']]],
   ['flow_5fwidget_2ecpp_17',['flow_widget.cpp',['../dd/d6b/flow__widget_8cpp.html',1,'']]],
-  ['flow_5fwidget_2eh_18',['flow_widget.h',['../d5/dd3/flow__widget_8h.html',1,'']]]
+  ['flow_5fwidget_2eh_18',['flow_widget.h',['../d5/dd3/flow__widget_8h.html',1,'']]],
+  ['format_5flegality_5frules_2ecpp_19',['format_legality_rules.cpp',['../d9/d01/format__legality__rules_8cpp.html',1,'']]],
+  ['format_5flegality_5frules_2eh_20',['format_legality_rules.h',['../de/d2f/format__legality__rules_8h.html',1,'']]]
 ];
