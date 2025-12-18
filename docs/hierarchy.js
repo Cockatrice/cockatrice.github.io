@@ -38,6 +38,7 @@ var hierarchy =
     [ "DeckFilterString", "d5/dc2/classDeckFilterString.html", null ],
     [ "DeckList", "da/d68/classDeckList.html", null ],
     [ "DeckListMemento", "d8/dfe/classDeckListMemento.html", null ],
+    [ "DecklistNodeTree", "db/df8/classDecklistNodeTree.html", null ],
     [ "DeckListStatisticsAnalyzerConfig", "dc/d67/structDeckListStatisticsAnalyzerConfig.html", null ],
     [ "peg::Definition", "d8/d94/classpeg_1_1Definition.html", null ],
     [ "DropdownIconPixmapGenerator", "d1/db5/classDropdownIconPixmapGenerator.html", null ],

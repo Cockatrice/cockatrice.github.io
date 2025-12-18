@@ -1,6 +1,6 @@
 var classCockatriceXml4Parser =
 [
-    [ "CockatriceXml4Parser", "dc/d53/classCockatriceXml4Parser.html#a8c9666006a4810a194b23d3be9ce8a8d", null ],
+    [ "CockatriceXml4Parser", "dc/d53/classCockatriceXml4Parser.html#a45d81a078d3bf8de9cd1942d867ee31b", null ],
     [ "~CockatriceXml4Parser", "dc/d53/classCockatriceXml4Parser.html#a2c2bb2eeebb38620f5fe828e03e25f3f", null ],
     [ "getCanParseFile", "dc/d53/classCockatriceXml4Parser.html#a034ced8c7edd611a7b1903c211625205", null ],
     [ "loadCardPropertiesFromXml", "dc/d53/classCockatriceXml4Parser.html#a0f9e50330bf37250f53487471af6968b", null ],

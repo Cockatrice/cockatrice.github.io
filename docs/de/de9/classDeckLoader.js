@@ -10,8 +10,6 @@ var classDeckLoader =
     [ "convertToCockatriceFormat", "de/de9/classDeckLoader.html#a52b6fe2d5f572a523858d82a900ac287", null ],
     [ "deckLoaded", "de/de9/classDeckLoader.html#a90bc6bcceea05e6532a4563c118a962a", null ],
     [ "exportDeckToDecklist", "de/de9/classDeckLoader.html#a6064b8db44bf7a7f5441a6197ebbe411", null ],
-    [ "getCardZoneFromName", "de/de9/classDeckLoader.html#a168fe693f8f6d5987beb386767d58f8d", null ],
-    [ "getCompleteCardName", "de/de9/classDeckLoader.html#a97705bd0040d28c35fe522974a21dfa8", null ],
     [ "getDeckList", "de/de9/classDeckLoader.html#a89a18b7605244bf291bf901645b7ee3e", null ],
     [ "getLastLoadInfo", "de/de9/classDeckLoader.html#ae66f71803d87f939d4cc5d7c930971a7", null ],
     [ "hasNotBeenLoaded", "de/de9/classDeckLoader.html#a2101fa8ea5deafdbc193cb6daf0653c4", null ],

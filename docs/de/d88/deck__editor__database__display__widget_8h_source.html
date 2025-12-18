@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-13-Development-2.11.0-beta.39</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-18-Development-2.11.0-beta.40</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -141,7 +141,7 @@ $(function(){initNavTree('de/d88/deck__editor__database__display__widget_8h_sour
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_class" href="../../df/d4e/classExactCard.html">ExactCard</a> <a class="code hl_slot" href="../../d3/d0a/classDeckEditorDatabaseDisplayWidget.html#ad02ec0cefa421a439f9b3688c5b10bd3">currentCard</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a3c0e13b324c673959445a81cc52a32ad">setFilterTree</a>(<a class="code hl_class" href="../../d8/d95/classFilterTree.html">FilterTree</a> *filterTree);</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a1d0796897dfb7646f9211c6bf3ec9310">clearAllDatabaseFilters</a>();</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d3/d0a/classDeckEditorDatabaseDisplayWidget.html#ace8d2adc5e0af3d986723685aaf7fbfc">updateSearch</a>(<span class="keyword">const</span> QString &amp;<a class="code hl_variable" href="../../d4/d9d/deck__filter__string_8cpp.html#acc8ae09ae828880bc1a8f47815e35c74">search</a>);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d3/d0a/classDeckEditorDatabaseDisplayWidget.html#ace8d2adc5e0af3d986723685aaf7fbfc">updateSearch</a>(<span class="keyword">const</span> QString &amp;<a class="code hl_variable" href="../../d4/d9d/deck__filter__string_8cpp.html#a147e718949202fcc3de3ba27499132ef">search</a>);</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a3bed758f4e48be5dffd8f6256dfb4aab">updateCard</a>(<span class="keyword">const</span> QModelIndex &amp;current, <span class="keyword">const</span> QModelIndex &amp;);</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d3/d0a/classDeckEditorDatabaseDisplayWidget.html#ad9985e48ffae89266d9afa57df1795d6">actAddCardToMainDeck</a>();</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d3/d0a/classDeckEditorDatabaseDisplayWidget.html#ac63097b897346ae0de5acd4650c98ae4">actAddCardToSideboard</a>();</div>
@@ -214,7 +214,7 @@ $(function(){initNavTree('de/d88/deck__editor__database__display__widget_8h_sour
 <div class="ttc" id="aclassKeySignals_html"><div class="ttname"><a href="../../da/d89/classKeySignals.html">KeySignals</a></div><div class="ttdef"><b>Definition</b> key_signals.h:15</div></div>
 <div class="ttc" id="aclassSearchLineEdit_html"><div class="ttname"><a href="../../d8/d4c/classSearchLineEdit.html">SearchLineEdit</a></div><div class="ttdef"><b>Definition</b> custom_line_edit.h:35</div></div>
 <div class="ttc" id="acustom__line__edit_8h_html"><div class="ttname"><a href="../../d0/d23/custom__line__edit_8h.html">custom_line_edit.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
-<div class="ttc" id="adeck__filter__string_8cpp_html_acc8ae09ae828880bc1a8f47815e35c74"><div class="ttname"><a href="../../d4/d9d/deck__filter__string_8cpp.html#acc8ae09ae828880bc1a8f47815e35c74">search</a></div><div class="ttdeci">static peg::parser search(R&quot;(
+<div class="ttc" id="adeck__filter__string_8cpp_html_a147e718949202fcc3de3ba27499132ef"><div class="ttname"><a href="../../d4/d9d/deck__filter__string_8cpp.html#a147e718949202fcc3de3ba27499132ef">search</a></div><div class="ttdeci">static peg::parser search(R&quot;(
 Start &lt;- QueryPartList
 ~ws &lt;- [ ]+
 QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart)* ws*
@@ -222,7 +222,7 @@ QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart
 ComplexQueryPart &lt;- SomewhatComplexQueryPart ws &quot;OR&quot; ws ComplexQueryPart / SomewhatComplexQueryPart
 SomewhatComplexQueryPart &lt;- [(] QueryPartList [)] / QueryPart
 
-QueryPart &lt;- NotQuery / DeckContentQuery / DeckNameQuery / FileNameQuery / PathQuery / GenericQuery
+QueryPart &lt;- NotQuery / DeckContentQuery / DeckNameQuery / FileNameQuery / PathQuery / FormatQuery / GenericQuery
 
 NotQuery &lt;- (&#39;NOT&#39; ws/&#39;-&#39;) SomewhatComplexQueryPart
 
@@ -231,8 +231,9 @@ CardSearch &lt;- &#39;[[&#39; CardFilterString &#39;]]&#39;
 CardFilterString &lt;- (!&#39;]]&#39;.)*
 
 DeckNameQuery &lt;- ([Dd] &#39;eck&#39;)? [Nn] &#39;ame&#39;? [:] String
-FileNameQuery &lt;- [Ff] (&#39;ile&#39; &#39;name&#39;?)? [:] String
+FileNameQuery &lt;- [Ff] ([Nn] / &#39;ile&#39; ([Nn] &#39;ame&#39;)?) [:] String
 PathQuery &lt;- [Pp] &#39;ath&#39;? [:] String
+FormatQuery &lt;- [Ff] &#39;ormat&#39;? [:] String
 
 GenericQuery &lt;- String
 

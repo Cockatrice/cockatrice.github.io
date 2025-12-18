@@ -16,8 +16,9 @@ var searchData=
   ['messagetargetroom_13',['MessageTargetRoom',['../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a91ea7dd053e2af8cd12962794fabdf4d',1,'Server_DatabaseInterface']]],
   ['messagetoolarge_14',['MessageTooLarge',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673a412368530ab0ccad5cd041bf7200b40a',1,'QxtSmtp']]],
   ['minrole_15',['MinRole',['../da/d5a/classThemeManager.html#a3aa764444425be577be3cd450e79f278aa734d1f1fd0279ba8bbdbdd8025bf64c',1,'ThemeManager']]],
-  ['move_5fbottom_16',['Move_bottom',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2cecade2526aea315a8a4731a2a1e0cc93212',1,'ShortcutGroup']]],
-  ['move_5fselected_17',['Move_selected',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca2c5c611d19d59448090ad0c873889fb3',1,'ShortcutGroup']]],
-  ['move_5ftop_18',['Move_top',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca343e8fa47e6b66f4e62048dabb4c8daf',1,'ShortcutGroup']]],
-  ['moxfield_19',['Moxfield',['../da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a9855d965453d17249f98317f372d492f',1,'deck_link_to_api_transformer.h']]]
+  ['modern_16',['Modern',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2aad1c9cd3e7b07e2c364c985f73188054',1,'ArchidektFormats']]],
+  ['move_5fbottom_17',['Move_bottom',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2cecade2526aea315a8a4731a2a1e0cc93212',1,'ShortcutGroup']]],
+  ['move_5fselected_18',['Move_selected',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca2c5c611d19d59448090ad0c873889fb3',1,'ShortcutGroup']]],
+  ['move_5ftop_19',['Move_top',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca343e8fa47e6b66f4e62048dabb4c8daf',1,'ShortcutGroup']]],
+  ['moxfield_20',['Moxfield',['../da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a9855d965453d17249f98317f372d492f',1,'deck_link_to_api_transformer.h']]]
 ];

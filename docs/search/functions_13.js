@@ -63,7 +63,7 @@ var searchData=
   ['themechangedslot_60',['themeChangedSlot',['../d7/d66/classSoundEngine.html#a73c4fb64879636af5d28f903f48ec2af',1,'SoundEngine::themeChangedSlot()'],['../da/d5a/classThemeManager.html#a7b4f23aecc7ce0b5f0d445a9eb5aebb6',1,'ThemeManager::themeChangedSlot()']]],
   ['thememanager_61',['ThemeManager',['../da/d5a/classThemeManager.html#af600542d18b306e40ce06f04c83008ed',1,'ThemeManager']]],
   ['tick_62',['tick',['../d8/d62/classPendingCommand.html#a49ee09fbd60849e1d98ca00401eada3c',1,'PendingCommand']]],
-  ['timeago_63',['timeAgo',['../da/d4a/archidekt__api__response__deck__entry__display__widget_8cpp.html#a71fc93b4377837a20f5d6caf1f72237e',1,'archidekt_api_response_deck_entry_display_widget.cpp']]],
+  ['timeago_63',['timeAgo',['../da/d4a/archidekt__api__response__deck__entry__display__widget_8cpp.html#a0085713c316969c3d3f98fd7db60b406',1,'archidekt_api_response_deck_entry_display_widget.cpp']]],
   ['timerevent_64',['timerEvent',['../db/d9f/classGameScene.html#a314752d51d28491b92c69440d6afa784',1,'GameScene']]],
   ['tipoftheday_65',['TipOfTheDay',['../d2/dba/classTipOfTheDay.html#afe368340a0778bc725d94db7bd8ff02b',1,'TipOfTheDay']]],
   ['tipsoftheday_66',['TipsOfTheDay',['../da/dc7/classTipsOfTheDay.html#abcfc018d7ebe33791f0511f762118ee9',1,'TipsOfTheDay']]],

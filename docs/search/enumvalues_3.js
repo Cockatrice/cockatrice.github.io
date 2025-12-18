@@ -24,5 +24,6 @@ var searchData=
   ['directory_21',['Directory',['../de/d4e/classUnZip.html#af7876c8fe61c0298d536a513f2ac1670a32d15cfa95ebfc03fa52a23471f83392',1,'UnZip']]],
   ['disconnected_22',['Disconnected',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216ac3b1f44c1b08e7e686f7808c98d264d3',1,'QxtSmtpPrivate']]],
   ['doesnotattach_23',['DoesNotAttach',['../d6/dc2/group__Cards.html#ggabc3ced840172c7b624b340e282544a4fa40c6146ad219739b0ea10f49bda3a1e7',1,'card_relation_type.h']]],
-  ['drawing_24',['Drawing',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca74116250efd8e81fcab97c474221fccd',1,'ShortcutGroup']]]
+  ['drawing_24',['Drawing',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca74116250efd8e81fcab97c474221fccd',1,'ShortcutGroup']]],
+  ['dualcommander_25',['DualCommander',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a84d045d5728e6365fce7aabc7eb98721',1,'ArchidektFormats']]]
 ];

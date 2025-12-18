@@ -174,6 +174,7 @@ var annotated_dup =
     [ "DeckListMemento", "d8/dfe/classDeckListMemento.html", "d8/dfe/classDeckListMemento" ],
     [ "DeckListModel", "d9/de1/classDeckListModel.html", "d9/de1/classDeckListModel" ],
     [ "DecklistModelCardNode", "dd/d4f/classDecklistModelCardNode.html", "dd/d4f/classDecklistModelCardNode" ],
+    [ "DecklistNodeTree", "db/df8/classDecklistNodeTree.html", "db/df8/classDecklistNodeTree" ],
     [ "DeckListSortFilterProxyModel", "dc/dba/classDeckListSortFilterProxyModel.html", "dc/dba/classDeckListSortFilterProxyModel" ],
     [ "DeckListStatisticsAnalyzer", "d7/d02/classDeckListStatisticsAnalyzer.html", "d7/d02/classDeckListStatisticsAnalyzer" ],
     [ "DeckListStatisticsAnalyzerConfig", "dc/d67/structDeckListStatisticsAnalyzerConfig.html", "dc/d67/structDeckListStatisticsAnalyzerConfig" ],

@@ -28,7 +28,7 @@ var searchData=
   ['matchexistsindb_25',['matchExistsInDb',['../dd/d52/dlg__move__top__cards__until_8cpp.html#a429d12e76a648946dad67d2d186d7e0a',1,'dlg_move_top_cards_until.cpp']]],
   ['matchnode_26',['MatchNode',['../d7/d25/classRemoteReplayList__TreeModel_1_1MatchNode.html#a0d64f51ddbee8f89337dc22ce93b5077',1,'RemoteReplayList_TreeModel::MatchNode']]],
   ['matchtypefromstring_27',['matchTypeFromString',['../de/d2f/format__legality__rules_8h.html#a2c1a3effdba41906f218a7531763f48f',1,'format_legality_rules.h']]],
-  ['maxallowedforlegality_28',['maxAllowedForLegality',['../d1/df7/deck__list__model_8cpp.html#a99d771442cce3e3cfd0f6c3510309242',1,'deck_list_model.cpp']]],
+  ['maxallowedforlegality_28',['maxAllowedForLegality',['../d1/df7/deck__list__model_8cpp.html#a9685c8768bf12813d7cc74f0b524186d',1,'deck_list_model.cpp']]],
   ['maximizeclient_29',['maximizeClient',['../d1/de7/classTabMessage.html#ab8d08a514b067803f2243ab8d0fb091f',1,'TabMessage::maximizeClient()'],['../df/d78/classTabRoom.html#a60e7647a7288c15446b1f4e5771080a4',1,'TabRoom::maximizeClient()']]],
   ['maximizemainwindow_30',['maximizeMainWindow',['../dd/d81/classTabSupervisor.html#ab4e0f501f282a0331ffaa68651e16db5',1,'TabSupervisor']]],
   ['maxoverlapitemschanged_31',['maxOverlapItemsChanged',['../de/d39/classOverlapWidget.html#a054db4def417ddee82bb86cf030928d6',1,'OverlapWidget']]],

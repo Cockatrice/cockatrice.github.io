@@ -1,6 +1,6 @@
 var classCardDatabaseLoader =
 [
-    [ "CardDatabaseLoader", "d2/d1b/classCardDatabaseLoader.html#a5e5cf9636e3f6018456301c8e7c1b5a8", null ],
+    [ "CardDatabaseLoader", "d2/d1b/classCardDatabaseLoader.html#a7f8e91a450aee800d53ab73bb0f3b1d4", null ],
     [ "~CardDatabaseLoader", "d2/d1b/classCardDatabaseLoader.html#ae20f37cfeec85d8eb150ccee93b170e8", null ],
     [ "allNewSetsEnabled", "d2/d1b/classCardDatabaseLoader.html#a7a026d93658e636004d918e78c5964c0", null ],
     [ "collectCustomDatabasePaths", "d2/d1b/classCardDatabaseLoader.html#aa1b7a8668bc802a93f63b275305b2988", null ],

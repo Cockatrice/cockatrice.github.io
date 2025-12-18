@@ -5,6 +5,7 @@ var classArchidektApiResponseDeck =
     [ "fromJson", "dc/d3c/classArchidektApiResponseDeck.html#a52ea417acbeba31ab134a7b57bd2bd85", null ],
     [ "getCards", "dc/d3c/classArchidektApiResponseDeck.html#a863ce9cbfd42c56e5ba324126978d532", null ],
     [ "getCategories", "dc/d3c/classArchidektApiResponseDeck.html#ac504eb190592f36fcac818d4b409b0ba", null ],
+    [ "getDeckFormat", "dc/d3c/classArchidektApiResponseDeck.html#aab1f644e92b86e2b79fc0db051a33b4e", null ],
     [ "getDeckName", "dc/d3c/classArchidektApiResponseDeck.html#a5a95cf7e1016a135c56453f24d2f2550", null ],
     [ "bookmarked", "dc/d3c/classArchidektApiResponseDeck.html#a9d21bebbbca8d5f0768f16208fa66cd2", null ],
     [ "cardPackage", "dc/d3c/classArchidektApiResponseDeck.html#ac8a69093a72635ea1bf2cba24f4dce88", null ],

@@ -32,12 +32,15 @@ var searchData=
   ['cockatrice_29',['Cockatrice',['../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945aed4cf2362dbaa2ebccc182d16d23d1c0',1,'DeckFileFormat']]],
   ['color_30',['COLOR',['../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179a0d9424c89af68a063349cfb2beab55d9',1,'DeckListModelGroupCriteria']]],
   ['colorcolumn_31',['ColorColumn',['../dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0ac2a10e06763afb5e0a820d0a0d0dbd7c',1,'CardDatabaseModel']]],
-  ['commandnotimplemented_32',['CommandNotImplemented',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673a0b7b762023060c981debbc4557a1ca2a',1,'QxtSmtp']]],
-  ['commandunrecognized_33',['CommandUnrecognized',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673adcc62b4d695562b1bd2a6088eec3df15',1,'QxtSmtp']]],
-  ['contains_34',['Contains',['../de/d2f/format__legality__rules_8h.html#a3166c752edac185a97b2d3dd54081f72ab270372be5b4433b4736daaf25e1c74e',1,'format_legality_rules.h']]],
-  ['contentcolumn_35',['ContentColumn',['../da/dc7/classTipsOfTheDay.html#a53aefded9c3ed84a672f80f2f9496fc9a2589a386d5b4651260a9b1f30f4a08b2',1,'TipsOfTheDay']]],
-  ['corrupted_36',['Corrupted',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412af56b8fea9e9e9ad78b59a18b94db9a96',1,'UnZip']]],
-  ['created_37',['CREATED',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0aa387e4668dfb404ce73595c772d57144',1,'games_model.cpp']]],
-  ['createdirfailed_38',['CreateDirFailed',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a4b76006fdff4a8adc90db646a16a3fa0',1,'UnZip']]],
-  ['creator_39',['CREATOR',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0aba536f220fcdce44099ca558b2de668c',1,'games_model.cpp']]]
+  ['commander_32',['Commander',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2adabb37bf064307d71e8678f77482f407',1,'ArchidektFormats']]],
+  ['commander1v1_33',['Commander1v1',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2ad58095d14fbe3151f356a86da74d4f14',1,'ArchidektFormats']]],
+  ['commandnotimplemented_34',['CommandNotImplemented',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673a0b7b762023060c981debbc4557a1ca2a',1,'QxtSmtp']]],
+  ['commandunrecognized_35',['CommandUnrecognized',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673adcc62b4d695562b1bd2a6088eec3df15',1,'QxtSmtp']]],
+  ['contains_36',['Contains',['../de/d2f/format__legality__rules_8h.html#a3166c752edac185a97b2d3dd54081f72ab270372be5b4433b4736daaf25e1c74e',1,'format_legality_rules.h']]],
+  ['contentcolumn_37',['ContentColumn',['../da/dc7/classTipsOfTheDay.html#a53aefded9c3ed84a672f80f2f9496fc9a2589a386d5b4651260a9b1f30f4a08b2',1,'TipsOfTheDay']]],
+  ['corrupted_38',['Corrupted',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412af56b8fea9e9e9ad78b59a18b94db9a96',1,'UnZip']]],
+  ['created_39',['CREATED',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0aa387e4668dfb404ce73595c772d57144',1,'games_model.cpp']]],
+  ['createdirfailed_40',['CreateDirFailed',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a4b76006fdff4a8adc90db646a16a3fa0',1,'UnZip']]],
+  ['creator_41',['CREATOR',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0aba536f220fcdce44099ca558b2de668c',1,'games_model.cpp']]],
+  ['custom_42',['Custom',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a90589c47f06eb971d548591f23c285af',1,'ArchidektFormats']]]
 ];
