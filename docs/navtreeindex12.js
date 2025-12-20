@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"d3/d94/archidekt__api__response__deck__entry__display__widget_8h.html":[4,2,0,0,1,5,3,10,0,0,1,3],
 "d3/d94/archidekt__api__response__deck__entry__display__widget_8h_source.html":[4,2,0,0,1,5,3,10,0,0,1,3],
 "d3/d94/deck__list_8cpp.html":[4,2,0,3,0,0,1],
 "d3/d94/deck__list_8cpp.html#a3dc3492557506ea620057f90f6253638":[4,2,0,3,0,0,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "d3/de4/classPlayerGraphicsItem.html#a52dabbbc6e9cd01f29a97671a75f95dc":[4,1,0,302,16],
 "d3/de4/classPlayerGraphicsItem.html#a5781825d47b6353e0c20de5f801a87c6":[4,1,0,302,3],
 "d3/de4/classPlayerGraphicsItem.html#a5bcc90eca661bd71a57cc6707c957615":[4,1,0,302,28],
-"d3/de4/classPlayerGraphicsItem.html#a6f0965ebd150d64dcc66b238cd4b12b5":[4,1,0,302,30],
-"d3/de4/classPlayerGraphicsItem.html#a742ccbc0beb2971365bcf701d557fdf1":[4,1,0,302,18]
+"d3/de4/classPlayerGraphicsItem.html#a6f0965ebd150d64dcc66b238cd4b12b5":[4,1,0,302,30]
 };

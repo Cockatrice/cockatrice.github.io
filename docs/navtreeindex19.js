@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"d5/d88/classSettingsCache.html#aed8347665f4bae8424d5877fc5e923bb":[4,1,0,386,286],
 "d5/d88/classSettingsCache.html#aeede5a4cc3b4d121dee185f6f37208cd":[4,1,0,386,433],
 "d5/d88/classSettingsCache.html#aeefa70ad0ab720132bdcb63e0668b4bc":[4,1,0,386,43],
 "d5/d88/classSettingsCache.html#aef48e0153614cf622fa359a4d49f1cbf":[4,1,0,386,356],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "d5/db7/classOverlapControlWidget.html#ae70b2df392dad7c90756290a5f7541c1":[4,1,0,281,3],
 "d5/db7/classOverlapControlWidget.html#aeb03f26e89ba4e34aba11a9daa93ab80":[4,1,0,281,8],
 "d5/dba/classCockatriceXml3Parser.html":[3,2,4,9],
-"d5/dba/classCockatriceXml3Parser.html#a019cd2415810d3302bb4dbad42affd65":[3,2,4,9,1],
-"d5/dba/classCockatriceXml3Parser.html#a1d00d709f3c1e3260e5016fee9b24943":[3,2,4,9,3]
+"d5/dba/classCockatriceXml3Parser.html#a019cd2415810d3302bb4dbad42affd65":[3,2,4,9,1]
 };

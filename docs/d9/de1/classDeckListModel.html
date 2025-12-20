@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-18-Development-2.11.0-beta.40</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -162,8 +162,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad54c12f78c4a83fa1a0953cec4f2db0e" id="r_ad54c12f78c4a83fa1a0953cec4f2db0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d68/classDeckList.html">DeckList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad54c12f78c4a83fa1a0953cec4f2db0e">getDeckList</a> () const</td></tr>
 <tr class="memitem:a889eec45c358f6de21561faa009eb090" id="r_a889eec45c358f6de21561faa009eb090"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a889eec45c358f6de21561faa009eb090">setDeckList</a> (<a class="el" href="../../da/d68/classDeckList.html">DeckList</a> *_deck)</td></tr>
 <tr class="memitem:aea85d00abde1ac99e60565920586acd9" id="r_aea85d00abde1ac99e60565920586acd9"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea85d00abde1ac99e60565920586acd9">getCards</a> () const</td></tr>
+<tr class="memdesc:aea85d00abde1ac99e60565920586acd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a list consisting of the entries of the model mapped into ExactCards (with each entry looked up in the card database). If a card node has number &gt; 1, it will be added that many times to the list. If an entry's card is not found in the card database, that entry will be left out of the list.  <br /></td></tr>
 <tr class="memitem:a3bb088a4d838f88b692a8aabf5b4dfc3" id="r_a3bb088a4d838f88b692a8aabf5b4dfc3"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bb088a4d838f88b692a8aabf5b4dfc3">getCardsForZone</a> (const QString &amp;zoneName) const</td></tr>
+<tr class="memitem:a2b1428625ee6777e993ccd51910d2eb4" id="r_a2b1428625ee6777e993ccd51910d2eb4"><td class="memItemLeft" align="right" valign="top">QList&lt; QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b1428625ee6777e993ccd51910d2eb4">getCardNames</a> () const</td></tr>
+<tr class="memdesc:a2b1428625ee6777e993ccd51910d2eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a deduplicated list of all card names that appear in the model.  <br /></td></tr>
 <tr class="memitem:a9792f8b64e1a2284ee3aca39a2f6939f" id="r_a9792f8b64e1a2284ee3aca39a2f6939f"><td class="memItemLeft" align="right" valign="top">QList&lt; QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9792f8b64e1a2284ee3aca39a2f6939f">getZones</a> () const</td></tr>
+<tr class="memdesc:a9792f8b64e1a2284ee3aca39a2f6939f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list of all zone names that appear in the model.  <br /></td></tr>
 <tr class="memitem:a4963ae33a987dfe4618ed622192c3943" id="r_a4963ae33a987dfe4618ed622192c3943"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4963ae33a987dfe4618ed622192c3943">isCardLegalForCurrentFormat</a> (<a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> cardInfo)</td></tr>
 <tr class="memitem:ab0e7c9ec1cd5037cc51762d38a63c2d4" id="r_ab0e7c9ec1cd5037cc51762d38a63c2d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0e7c9ec1cd5037cc51762d38a63c2d4">isCardQuantityLegalForCurrentFormat</a> (<a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> cardInfo, int quantity)</td></tr>
 <tr class="memitem:a9c45720ad82f9d3c12e98b39a0d748e8" id="r_a9c45720ad82f9d3c12e98b39a0d748e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c45720ad82f9d3c12e98b39a0d748e8">refreshCardFormatLegalities</a> ()</td></tr>
@@ -749,6 +753,38 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a2b1428625ee6777e993ccd51910d2eb4" name="a2b1428625ee6777e993ccd51910d2eb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b1428625ee6777e993ccd51910d2eb4">&#9670;&#160;</a></span>getCardNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QString &gt; DeckListModel::getCardNames </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a deduplicated list of all card names that appear in the model. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a2b1428625ee6777e993ccd51910d2eb4_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="aea85d00abde1ac99e60565920586acd9" name="aea85d00abde1ac99e60565920586acd9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea85d00abde1ac99e60565920586acd9">&#9670;&#160;</a></span>getCards()</h2>
 
@@ -771,6 +807,9 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Creates a list consisting of the entries of the model mapped into ExactCards (with each entry looked up in the card database). If a card node has number &gt; 1, it will be added that many times to the list. If an entry's card is not found in the card database, that entry will be left out of the list. </p>
+<dl class="section return"><dt>Returns</dt><dd>An ordered list of ExactCards </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -831,11 +870,6 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_ad54c12f78c4a83fa1a0953cec4f2db0e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>
@@ -970,6 +1004,8 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets a list of all zone names that appear in the model. </p>
 
 </div>
 </div>

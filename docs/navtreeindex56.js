@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"df/d94/classpeg_1_1Context.html#a59ad3e81af0c4ab33af53957c3c0e1ae":[4,1,0,1,15,35],
 "df/d94/classpeg_1_1Context.html#a5be010190aa699d634fb3b552b417111":[4,0,0,9,16,14],
 "df/d94/classpeg_1_1Context.html#a5be010190aa699d634fb3b552b417111":[4,1,0,1,15,14],
 "df/d94/classpeg_1_1Context.html#a696bc1fda805a6b60091bf5a8a2fc239":[4,0,0,9,16,40],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "df/dd1/classDeckEditorSettingsPage.html#a618c5d4922d0cd3ee68d1731a81deef8":[4,1,0,107,1],
 "df/dd1/classDeckEditorSettingsPage.html#a61a96e8047ab49d72e13c2dd2ac4fe1d":[4,1,0,107,36],
 "df/dd1/classDeckEditorSettingsPage.html#a63412dbc4fb3d9a3834182d2c79343e0":[4,1,0,107,19],
-"df/dd1/classDeckEditorSettingsPage.html#a6792ce5508f081e7e1b5c71a26bd1580":[4,1,0,107,37],
-"df/dd1/classDeckEditorSettingsPage.html#a6efdceb5571d457ca96bf3080e7ce317":[4,1,0,107,4]
+"df/dd1/classDeckEditorSettingsPage.html#a6792ce5508f081e7e1b5c71a26bd1580":[4,1,0,107,37]
 };

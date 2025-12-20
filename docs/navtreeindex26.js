@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"d7/d98/classServerLogger.html#aa516ef7bd1110f2aac807c84fb78a576":[4,1,0,375,8],
 "d7/d98/classServerLogger.html#acce5b865ba312e9dc3f32ef7e352beeb":[4,1,0,375,4],
 "d7/d98/classServerLogger.html#ad999153f6e71f12009ddd2a8e8c6b2c9":[4,1,0,375,3],
 "d7/d98/deck__list__model_8h.html":[4,2,0,6,0,0,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8":[4,1,0,56,0],
 "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8a066d158202edf9e15104dc7c19fff180":[4,1,0,56,0,10],
 "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8a125a57d3359724b269d167ca5f9c7c19":[4,1,0,56,0,8],
-"d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8a1515fffbf37800149d42dadfbf735746":[4,1,0,56,0,2],
-"d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8a1e6260be8a210e2ba8b63e46a21c4ebc":[4,1,0,56,0,9]
+"d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8a1515fffbf37800149d42dadfbf735746":[4,1,0,56,0,2]
 };

@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-18-Development-2.11.0-beta.40</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,8 +123,8 @@ Collaboration diagram for ArchidektApiResponseDeckDisplayWidget:</div>
 Signals</h2></td></tr>
 <tr class="memitem:a91e23bec32ed8571d30a222885f23da9" id="r_a91e23bec32ed8571d30a222885f23da9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91e23bec32ed8571d30a222885f23da9">requestNavigation</a> (QString url)</td></tr>
 <tr class="memdesc:a91e23bec32ed8571d30a222885f23da9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when navigation to a deck URL is requested.  <br /></td></tr>
-<tr class="memitem:a0dec47ddc9e5cfb82ed1cf4e14fb9a00" id="r_a0dec47ddc9e5cfb82ed1cf4e14fb9a00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dec47ddc9e5cfb82ed1cf4e14fb9a00">openInDeckEditor</a> (<a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> *loader)</td></tr>
-<tr class="memdesc:a0dec47ddc9e5cfb82ed1cf4e14fb9a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the deck should be opened in the deck editor.  <br /></td></tr>
+<tr class="memitem:a42ca81bca5bb182e6213e2f5257d2d5d" id="r_a42ca81bca5bb182e6213e2f5257d2d5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42ca81bca5bb182e6213e2f5257d2d5d">openInDeckEditor</a> (const <a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;deck)</td></tr>
+<tr class="memdesc:a42ca81bca5bb182e6213e2f5257d2d5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the deck should be opened in the deck editor.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -133,7 +133,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acaeb96ec23acf8c2c0f8e94853f07d9d" id="r_acaeb96ec23acf8c2c0f8e94853f07d9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acaeb96ec23acf8c2c0f8e94853f07d9d">retranslateUi</a> ()</td></tr>
 <tr class="memdesc:acaeb96ec23acf8c2c0f8e94853f07d9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates all UI text for retranslation/localization.  <br /></td></tr>
 <tr class="memitem:a53161c2bc03af6e976fec337ceebda9f" id="r_a53161c2bc03af6e976fec337ceebda9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53161c2bc03af6e976fec337ceebda9f">actOpenInDeckEditor</a> ()</td></tr>
-<tr class="memdesc:a53161c2bc03af6e976fec337ceebda9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens the deck in the deck editor via <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a>.  <br /></td></tr>
+<tr class="memdesc:a53161c2bc03af6e976fec337ceebda9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens the deck in the deck editor.  <br /></td></tr>
 <tr class="memitem:a03d72abf09c3bdde6e050eb1e3b1beb5" id="r_a03d72abf09c3bdde6e050eb1e3b1beb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03d72abf09c3bdde6e050eb1e3b1beb5">clearAllDisplayWidgets</a> ()</td></tr>
 <tr class="memdesc:a03d72abf09c3bdde6e050eb1e3b1beb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all dynamically generated card zone display widgets.  <br /></td></tr>
 <tr class="memitem:a2b6a3cc86183f2d99750ed6be7b6b975" id="r_a2b6a3cc86183f2d99750ed6be7b6b975"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b6a3cc86183f2d99750ed6be7b6b975">decklistModelReset</a> ()</td></tr>
@@ -191,7 +191,7 @@ Private Attributes</h2></td></tr>
 Signals</h3>
 <ul>
 <li><span class="tt"><a class="el" href="#a91e23bec32ed8571d30a222885f23da9" title="Emitted when navigation to a deck URL is requested.">requestNavigation(QString url)</a></span> — triggered when navigation to a deck URL is requested.</li>
-<li><span class="tt"><a class="el" href="#a0dec47ddc9e5cfb82ed1cf4e14fb9a00" title="Emitted when the deck should be opened in the deck editor.">openInDeckEditor(DeckLoader *loader)</a></span> — emitted when the user chooses to open the deck in the deck editor.</li>
+<li><span class="tt">openInDeckEditor(const <a class="el" href="../../d9/dc2/structLoadedDeck.html" title="Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...">LoadedDeck</a> &amp;deck)</span> — emitted when the user chooses to open the deck in the deck editor.</li>
 </ul>
 <h3 class="doxsection"><a class="anchor" id="features"></a>
 Features</h3>
@@ -266,11 +266,11 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Opens the deck in the deck editor via <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a>. </p>
+<p>Opens the deck in the deck editor. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d7f/classArchidektApiResponseDeckDisplayWidget_a53161c2bc03af6e976fec337ceebda9f_cgraph.svg" width="523" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d7f/classArchidektApiResponseDeckDisplayWidget_a53161c2bc03af6e976fec337ceebda9f_cgraph.svg" width="523" height="215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -405,8 +405,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a0dec47ddc9e5cfb82ed1cf4e14fb9a00" name="a0dec47ddc9e5cfb82ed1cf4e14fb9a00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0dec47ddc9e5cfb82ed1cf4e14fb9a00">&#9670;&#160;</a></span>openInDeckEditor</h2>
+<a id="a42ca81bca5bb182e6213e2f5257d2d5d" name="a42ca81bca5bb182e6213e2f5257d2d5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42ca81bca5bb182e6213e2f5257d2d5d">&#9670;&#160;</a></span>openInDeckEditor</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -417,7 +417,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void ArchidektApiResponseDeckDisplayWidget::openInDeckEditor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> *</td>          <td class="paramname"><span class="paramname"><em>loader</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>deck</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -431,14 +431,14 @@ Here is the caller graph for this function:</div>
 <p>Emitted when the deck should be opened in the deck editor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">loader</td><td>Initialized <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> containing the deck data. </td></tr>
+    <tr><td class="paramname">deck</td><td><a class="el" href="../../d9/dc2/structLoadedDeck.html" title="Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...">LoadedDeck</a> containing the deck data. </td></tr>
   </table>
   </dd>
 </dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d7f/classArchidektApiResponseDeckDisplayWidget_a0dec47ddc9e5cfb82ed1cf4e14fb9a00_icgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d7f/classArchidektApiResponseDeckDisplayWidget_a42ca81bca5bb182e6213e2f5257d2d5d_icgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

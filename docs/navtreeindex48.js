@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"dd/d84/loading__from__clipboard__test_8cpp.html#a5f18244def4a78d51ec1c19d0475a848":[4,2,0,14,1,2,7],
+"dd/d84/loading__from__clipboard__test_8cpp.html#a7077049c5753007b8d39badb8d6e8cc9":[4,2,0,14,1,2,5],
 "dd/d84/loading__from__clipboard__test_8cpp.html#a8bf25a8effa1c02c7509f8194d479461":[4,2,0,14,1,2,8],
 "dd/d84/loading__from__clipboard__test_8cpp.html#aa5123b190785c8ff0138120e45468282":[4,2,0,14,1,2,11],
 "dd/d84/loading__from__clipboard__test_8cpp.html#aa6670ecef234102b715c4e0587f2db33":[4,2,0,14,1,2,1],
@@ -25,7 +27,7 @@ var NAVTREEINDEX48 =
 "dd/d90/classEdhrecTopCommandersApiResponse.html#ad9839a08fbc558b60d2e2c2bfe3c0181":[4,1,0,188,4],
 "dd/d90/classEdhrecTopCommandersApiResponse.html#ae6913388f7d2912bca13574e338b6335":[4,1,0,188,3],
 "dd/d95/classMoxfieldJsonParser.html":[4,1,0,272],
-"dd/d95/classMoxfieldJsonParser.html#a248a97f4734a583e333485db38a3188b":[4,1,0,272,0],
+"dd/d95/classMoxfieldJsonParser.html#ab54538868886fb557067a19cd204f1c1":[4,1,0,272,0],
 "dd/d96/player__list__widget_8cpp.html":[4,2,0,0,1,3,4,15],
 "dd/d97/classGameView.html":[4,1,0,223],
 "dd/d97/classGameView.html#a0484c4a636ff34e53a8c64306e2056b4":[4,1,0,223,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "dd/de4/structpeg_1_1ReferenceChecker.html#a4c372bdb252565fc9037f4213c21a9fc":[4,0,0,9,40,14],
 "dd/de4/structpeg_1_1ReferenceChecker.html#a4c372bdb252565fc9037f4213c21a9fc":[4,1,0,1,39,14],
 "dd/de4/structpeg_1_1ReferenceChecker.html#a4d256311ac54faa26de95bab9a620195":[4,0,0,9,40,12],
-"dd/de4/structpeg_1_1ReferenceChecker.html#a4d256311ac54faa26de95bab9a620195":[4,1,0,1,39,12],
-"dd/de4/structpeg_1_1ReferenceChecker.html#a5847e8a5b72ede7a9dff79498a6367f3":[4,0,0,9,40,18],
-"dd/de4/structpeg_1_1ReferenceChecker.html#a5847e8a5b72ede7a9dff79498a6367f3":[4,1,0,1,39,18]
+"dd/de4/structpeg_1_1ReferenceChecker.html#a4d256311ac54faa26de95bab9a620195":[4,1,0,1,39,12]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"dd/de4/structpeg_1_1ReferenceChecker.html#a5847e8a5b72ede7a9dff79498a6367f3":[4,0,0,9,40,18],
+"dd/de4/structpeg_1_1ReferenceChecker.html#a5847e8a5b72ede7a9dff79498a6367f3":[4,1,0,1,39,18],
 "dd/de4/structpeg_1_1ReferenceChecker.html#a6f9ac5dba30bc2e091862aa9fc4848a9":[4,0,0,9,40,22],
 "dd/de4/structpeg_1_1ReferenceChecker.html#a6f9ac5dba30bc2e091862aa9fc4848a9":[4,1,0,1,39,22],
 "dd/de4/structpeg_1_1ReferenceChecker.html#a739079d17ad51ba1a70872cec694ba5b":[4,0,0,9,40,16],
@@ -212,7 +214,6 @@ var NAVTREEINDEX49 =
 "de/d08/classTabGame.html":[4,1,0,424],
 "de/d08/classTabGame.html#a0198c02f04e49adcbc708d2a0abfb80b":[4,1,0,424,0],
 "de/d08/classTabGame.html#a0222059bef0d83588a983e9d0b387d7b":[4,1,0,424,3],
-"de/d08/classTabGame.html#a05d92efb910f5f4e634408b6875092af":[4,1,0,424,60],
 "de/d08/classTabGame.html#a08a4f6cacb6f627639ef8be19ec158fb":[4,1,0,424,114],
 "de/d08/classTabGame.html#a08c4ed46c64e3a0fd3be23274c18d55e":[4,1,0,424,16],
 "de/d08/classTabGame.html#a09dd180b5197c356c1ca6402dc12bfb4":[4,1,0,424,48],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "de/d08/classTabGame.html#a42b5afe25a30450d6124844895d6e3ed":[4,1,0,424,79],
 "de/d08/classTabGame.html#a4457716c46ba58cda8b46726693335dd":[4,1,0,424,27],
 "de/d08/classTabGame.html#a452430b1dd39637daba425a3f8eb4dc6":[4,1,0,424,135],
-"de/d08/classTabGame.html#a4643cb690f42747af7b607f00884e61a":[4,1,0,424,99],
-"de/d08/classTabGame.html#a49299990765ed0578b35decc23a7b8e5":[4,1,0,424,124]
+"de/d08/classTabGame.html#a4643cb690f42747af7b607f00884e61a":[4,1,0,424,99]
 };

@@ -32,7 +32,7 @@ var classDeckEditorDeckDockWidget =
     [ "requestDeckHistorySave", "d9/df7/classDeckEditorDeckDockWidget.html#a3a05f581839c89de92af4cc86c77f5b8", null ],
     [ "retranslateUi", "d9/df7/classDeckEditorDeckDockWidget.html#a30095063ec325e8108c78bbc187bd20d", null ],
     [ "setBannerCard", "d9/df7/classDeckEditorDeckDockWidget.html#af3664b9e1a769b5ca25c10ec2589f12a", null ],
-    [ "setDeck", "d9/df7/classDeckEditorDeckDockWidget.html#a2cceccf12d10aba7a3de6bb25beb594b", null ],
+    [ "setDeck", "d9/df7/classDeckEditorDeckDockWidget.html#addc2647747b5a12017158f06c5c324a1", null ],
     [ "setTags", "d9/df7/classDeckEditorDeckDockWidget.html#ad596cd7e602e8b17c8b5eb4578a34810", null ],
     [ "sortDeckModelToDeckView", "d9/df7/classDeckEditorDeckDockWidget.html#afeaa3d6f045a9610561a56deb363ad5b", null ],
     [ "swapCard", "d9/df7/classDeckEditorDeckDockWidget.html#a9e77700ac3281818d8ef3f0c8b5b17bd", null ],

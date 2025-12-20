@@ -8,7 +8,7 @@ var searchData=
   ['backgroundpixelmap_5',['backgroundPixelMap',['../d6/d6f/classTableZone.html#aa69a5329c8e12b49d7804e90b22bb273',1,'TableZone']]],
   ['backgroundplatewidget_6',['backgroundPlateWidget',['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#a6a095d14f5f8ecedc2dc951644fbba2a',1,'ArchidektApiResponseDeckEntryDisplayWidget::backgroundPlateWidget'],['../d2/d77/classEdhrecApiResponseCardDetailsDisplayWidget.html#acb3d90dbf0193e41f63ece638884073f',1,'EdhrecApiResponseCardDetailsDisplayWidget::backgroundPlateWidget']]],
   ['backgroundsourcecard_7',['backgroundSourceCard',['../de/de3/classHomeWidget.html#a1536e0c28808c46d2d908fbacb0e72b8',1,'HomeWidget']]],
-  ['backgroundsourcedeck_8',['backgroundSourceDeck',['../de/de3/classHomeWidget.html#ab8ea5c5490d2024d74927826113479c1',1,'HomeWidget']]],
+  ['backgroundsourcedeck_8',['backgroundSourceDeck',['../de/de3/classHomeWidget.html#aaf64219b0b2dbc3d716d0edf2cbe1280',1,'HomeWidget']]],
   ['banner_9',['banner',['../d9/d5d/classCardGroupDisplayWidget.html#ad5465363b57f2133e05b939f9aede266',1,'CardGroupDisplayWidget::banner'],['../d8/d9f/classDeckCardZoneDisplayWidget.html#adf067e61f5d34c6d9991f128f8db8f13',1,'DeckCardZoneDisplayWidget::banner']]],
   ['bannercard_10',['bannerCard',['../d3/de4/structDeckList_1_1Metadata.html#a9e8725c87fbe9a7aa9f317c867b639ad',1,'DeckList::Metadata']]],
   ['bannercardcombobox_11',['bannerCardComboBox',['../d9/df7/classDeckEditorDeckDockWidget.html#a6c8e6a65e6ba83cc40689a86d1818303',1,'DeckEditorDeckDockWidget::bannerCardComboBox'],['../d5/d79/classDeckPreviewWidget.html#a00cbd5e146de92342118018f4a80d1b2',1,'DeckPreviewWidget::bannerCardComboBox']]],

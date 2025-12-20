@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"d8/d61/syntax__help_8cpp.html#adb2a7174d2e60ac77d0837d4fe598052":[4,2,0,0,1,2,6,1],
 "d8/d62/classPendingCommand.html":[4,1,0,287],
 "d8/d62/classPendingCommand.html#a426195c60472889d89b1ba20ab0f0beb":[4,1,0,287,2],
 "d8/d62/classPendingCommand.html#a44af6c6ddd33199a92b44e26cdbcdd86":[4,1,0,287,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "d8/d94/classpeg_1_1Definition.html#a91ac29a2af4be2e855c68fe046dabeca":[4,0,0,9,18,27],
 "d8/d94/classpeg_1_1Definition.html#a91ac29a2af4be2e855c68fe046dabeca":[4,1,0,1,17,27],
 "d8/d94/classpeg_1_1Definition.html#a92a10d6c05dbce83e6f90f2ed9a72203":[4,0,0,9,18,50],
-"d8/d94/classpeg_1_1Definition.html#a92a10d6c05dbce83e6f90f2ed9a72203":[4,1,0,1,17,50],
-"d8/d94/classpeg_1_1Definition.html#a9b4165346c15ef3b9477e8e5aa1a1dd5":[4,0,0,9,18,36]
+"d8/d94/classpeg_1_1Definition.html#a92a10d6c05dbce83e6f90f2ed9a72203":[4,1,0,1,17,50]
 };

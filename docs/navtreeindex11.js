@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"d3/d32/editing_decks_classic.html#modifying-the-deck-list":[0,1,4,0,2],
 "d3/d37/classDlgEditTokens.html":[4,1,0,145],
 "d3/d37/classDlgEditTokens.html#a0f03207500c05826808c4744043da575":[4,1,0,145,11],
 "d3/d37/classDlgEditTokens.html#a3103fb85b45caeb0dbbbbbe40629081d":[4,1,0,145,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "d3/d8c/card__drag__item_8h.html":[3,4,0,4,2,2],
 "d3/d8e/dlg__load__deck__from__website_8h.html":[3,1,0,6,0,0],
 "d3/d8e/dlg__load__deck__from__website_8h.html":[3,3,2,1,0,0,0],
-"d3/d8e/dlg__load__deck__from__website_8h.html":[3,3,2,2,1,0,0],
-"d3/d94/archidekt__api__response__deck__entry__display__widget_8h.html":[4,2,0,0,1,5,3,10,0,0,1,3]
+"d3/d8e/dlg__load__deck__from__website_8h.html":[3,3,2,2,1,0,0]
 };

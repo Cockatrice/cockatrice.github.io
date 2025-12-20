@@ -6,7 +6,7 @@ var classArchidektApiResponseDeckDisplayWidget =
     [ "constructZoneWidgetsFromDeckListModel", "d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#a13d7b3acc1e74efcd05174a9caba2826", null ],
     [ "decklistModelReset", "d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#a2b6a3cc86183f2d99750ed6be7b6b975", null ],
     [ "onGroupCriteriaChange", "d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#abce9b3d899405d1d044733c9b3b3f68e", null ],
-    [ "openInDeckEditor", "d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#a0dec47ddc9e5cfb82ed1cf4e14fb9a00", null ],
+    [ "openInDeckEditor", "d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#a42ca81bca5bb182e6213e2f5257d2d5d", null ],
     [ "requestNavigation", "d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#a91e23bec32ed8571d30a222885f23da9", null ],
     [ "resizeEvent", "d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#a30b4f16cc8c993e88095ad4f137fb635", null ],
     [ "retranslateUi", "d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#acaeb96ec23acf8c2c0f8e94853f07d9d", null ],

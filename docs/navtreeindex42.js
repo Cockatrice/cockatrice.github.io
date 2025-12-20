@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"db/df8/classDecklistNodeTree.html#af520574d975d2023fe5dec1bb2212230":[4,1,0,116,10],
+"db/df9/classPlayerCounter.html":[4,1,0,300],
 "db/df9/classPlayerCounter.html#a33fadf2e42dc761c78a8360f791e8eae":[4,1,0,300,2],
 "db/df9/classPlayerCounter.html#a6e881b70a82ecb7026b32f54c5f58f63":[4,1,0,300,1],
 "db/df9/classPlayerCounter.html#ad13e4d07166dd44c2928be78510ef141":[4,1,0,300,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "dc/d53/classCockatriceXml4Parser.html":[3,2,4,10],
 "dc/d53/classCockatriceXml4Parser.html#a034ced8c7edd611a7b1903c211625205":[3,2,4,10,2],
 "dc/d53/classCockatriceXml4Parser.html#a0f9e50330bf37250f53487471af6968b":[3,2,4,10,3],
-"dc/d53/classCockatriceXml4Parser.html#a1008dd51d757d64654b0f81d80dd3000":[3,2,4,10,4],
-"dc/d53/classCockatriceXml4Parser.html#a1fc252f895431057517d6ad304f99161":[3,2,4,10,7],
-"dc/d53/classCockatriceXml4Parser.html#a2c2bb2eeebb38620f5fe828e03e25f3f":[3,2,4,10,1]
+"dc/d53/classCockatriceXml4Parser.html#a1008dd51d757d64654b0f81d80dd3000":[3,2,4,10,4]
 };

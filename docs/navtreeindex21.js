@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"d6/d1a/classMainWindow.html#a2908878d3770e91c264d5e3520223f93":[4,1,0,261,89],
 "d6/d1a/classMainWindow.html#a2fcb328f4fdbeceafad4885e2f3206ef":[4,1,0,261,17],
 "d6/d1a/classMainWindow.html#a342f1c051fd85a21d4b6f88aae1d799c":[4,1,0,261,19],
 "d6/d1a/classMainWindow.html#a3984e9d945bb4b2b8b612225e4ee69b4":[4,1,0,261,98],
@@ -189,15 +190,15 @@ var NAVTREEINDEX21 =
 "d6/d3d/classCardSet.html#af614fb4d7c80d6c239e0e61c5dc35e4c":[3,2,1,1,7],
 "d6/d3d/classCardSet.html#af6d75bfb31706014858cba2db0dd6274":[3,2,1,1,27],
 "d6/d3e/classAbstractDlgDeckTextEdit.html":[4,1,0,10],
+"d6/d3e/classAbstractDlgDeckTextEdit.html#a05dff5a87c3b693aa9e120d26d392e76":[4,1,0,10,5],
 "d6/d3e/classAbstractDlgDeckTextEdit.html#a15d86243549d3b94399d2acac0f0deb1":[4,1,0,10,8],
 "d6/d3e/classAbstractDlgDeckTextEdit.html#a1a1e48fc41653f0d93a346b476569320":[4,1,0,10,1],
-"d6/d3e/classAbstractDlgDeckTextEdit.html#a264e780ca643c2e068ddaffd17ff41e0":[4,1,0,10,3],
 "d6/d3e/classAbstractDlgDeckTextEdit.html#a32bc1b24846edbc9f9c17a51e7fa4b0d":[4,1,0,10,2],
 "d6/d3e/classAbstractDlgDeckTextEdit.html#a434081d5862ce11ba2da99de96c48e83":[4,1,0,10,9],
 "d6/d3e/classAbstractDlgDeckTextEdit.html#a644614e197566e34d1f6f9f36624369c":[4,1,0,10,10],
-"d6/d3e/classAbstractDlgDeckTextEdit.html#a65fa3aec22530fa766dd41829d039a05":[4,1,0,10,5],
 "d6/d3e/classAbstractDlgDeckTextEdit.html#aac6a8a14cb13ae57537d1f50d3a4b0ab":[4,1,0,10,4],
 "d6/d3e/classAbstractDlgDeckTextEdit.html#ac3ceea3826be8137f9d3db70eecfe3de":[4,1,0,10,0],
+"d6/d3e/classAbstractDlgDeckTextEdit.html#acdf3dbbf25c58e4cb06750608a80b499":[4,1,0,10,3],
 "d6/d3e/classAbstractDlgDeckTextEdit.html#acfcce00985abe5a328da0d0969ce17d7":[4,1,0,10,7],
 "d6/d3e/classAbstractDlgDeckTextEdit.html#af1d5c93a84cb0e453093b455ca04f40a":[4,1,0,10,6],
 "d6/d3f/noop__card__preference__provider_8h.html":[4,2,0,5,0,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a2a92a22d69037365a53d539e818bfa48":[4,1,0,463,7],
 "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a3230c3d0ce8651cb4a10b9a2f73dcb15":[4,1,0,463,6],
 "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a3d4d8859444dd500bf4f153466552bce":[4,1,0,463,10],
-"d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a4ddaf138c09fbe3e196f019cded89c32":[4,1,0,463,0],
-"d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a7a99681533aa30f6837df3a4cd7308fe":[4,1,0,463,5]
+"d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a4ddaf138c09fbe3e196f019cded89c32":[4,1,0,463,0]
 };

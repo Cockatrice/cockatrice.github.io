@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-18-Development-2.11.0-beta.40</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -110,9 +110,9 @@ $(function(){initNavTree('d3/d54/tab__deck__storage__visual_8h_source.html','../
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../d3/ddf/tab_8h.html">../tab.h</a>&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a>;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>CommandContainer;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span><a class="code hl_class" href="../../de/de9/classDeckLoader.html">DeckLoader</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">struct </span><a class="code hl_struct" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d86/classAbstractClient.html">AbstractClient</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>CommandContainer;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span><a class="code hl_class" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a>;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span>QFileSystemModel;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span>QGroupBox;</div>
@@ -145,7 +145,7 @@ $(function(){initNavTree('d3/d54/tab__deck__storage__visual_8h_source.html','../
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d9/dba/classTabDeckStorageVisual.html#a660326230cf9ce43d3227cfa1797bc8d">actOpenLocalDeck</a>(<span class="keyword">const</span> QString &amp;filePath);</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>signals:</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d9/dba/classTabDeckStorageVisual.html#a2dbe337101969f6182864670695ffc6d">   42</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d9/dba/classTabDeckStorageVisual.html#a2dbe337101969f6182864670695ffc6d">openDeckEditor</a>(<a class="code hl_class" href="../../de/de9/classDeckLoader.html">DeckLoader</a> *deckLoader);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../d9/dba/classTabDeckStorageVisual.html#af1928ff54afe9b84ceb4e46e46052c6a">   42</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="../../d9/dba/classTabDeckStorageVisual.html#af1928ff54afe9b84ceb4e46e46052c6a">openDeckEditor</a>(<span class="keyword">const</span> <a class="code hl_struct" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;deck);</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792">   45</a></span>    <a class="code hl_class" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *<a class="code hl_variable" href="../../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792">visualDeckStorageWidget</a>;</div>
@@ -154,17 +154,17 @@ $(function(){initNavTree('d3/d54/tab__deck__storage__visual_8h_source.html','../
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassAbstractClient_html"><div class="ttname"><a href="../../dc/d86/classAbstractClient.html">AbstractClient</a></div><div class="ttdef"><b>Definition</b> abstract_client.h:51</div></div>
-<div class="ttc" id="aclassDeckLoader_html"><div class="ttname"><a href="../../de/de9/classDeckLoader.html">DeckLoader</a></div><div class="ttdef"><b>Definition</b> deck_loader.h:20</div></div>
 <div class="ttc" id="aclassDeckPreviewWidget_html"><div class="ttname"><a href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></div><div class="ttdef"><b>Definition</b> deck_preview_widget.h:28</div></div>
-<div class="ttc" id="aclassTabDeckStorageVisual_html_a2dbe337101969f6182864670695ffc6d"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#a2dbe337101969f6182864670695ffc6d">TabDeckStorageVisual::openDeckEditor</a></div><div class="ttdeci">void openDeckEditor(DeckLoader *deckLoader)</div></div>
 <div class="ttc" id="aclassTabDeckStorageVisual_html_a5dffc5044b46556b711147d5c75a8792"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792">TabDeckStorageVisual::visualDeckStorageWidget</a></div><div class="ttdeci">VisualDeckStorageWidget * visualDeckStorageWidget</div><div class="ttdef"><b>Definition</b> tab_deck_storage_visual.h:45</div></div>
 <div class="ttc" id="aclassTabDeckStorageVisual_html_a660326230cf9ce43d3227cfa1797bc8d"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#a660326230cf9ce43d3227cfa1797bc8d">TabDeckStorageVisual::actOpenLocalDeck</a></div><div class="ttdeci">void actOpenLocalDeck(const QString &amp;filePath)</div><div class="ttdef"><b>Definition</b> tab_deck_storage_visual.cpp:25</div></div>
 <div class="ttc" id="aclassTabDeckStorageVisual_html_a80a76e713766ebd017598fc6d8d88054"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#a80a76e713766ebd017598fc6d8d88054">TabDeckStorageVisual::retranslateUi</a></div><div class="ttdeci">void retranslateUi() override</div><div class="ttdef"><b>Definition</b> tab_deck_storage_visual.h:30</div></div>
 <div class="ttc" id="aclassTabDeckStorageVisual_html_a97b6f52b3b54302c6bd440a7c18eeaf6"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#a97b6f52b3b54302c6bd440a7c18eeaf6">TabDeckStorageVisual::getTabText</a></div><div class="ttdeci">QString getTabText() const override</div><div class="ttdef"><b>Definition</b> tab_deck_storage_visual.h:33</div></div>
 <div class="ttc" id="aclassTabDeckStorageVisual_html_ab8a20e7336b2c096dab008b004f8ce79"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#ab8a20e7336b2c096dab008b004f8ce79">TabDeckStorageVisual::TabDeckStorageVisual</a></div><div class="ttdeci">TabDeckStorageVisual(TabSupervisor *_tabSupervisor)</div><div class="ttdef"><b>Definition</b> tab_deck_storage_visual.cpp:9</div></div>
+<div class="ttc" id="aclassTabDeckStorageVisual_html_af1928ff54afe9b84ceb4e46e46052c6a"><div class="ttname"><a href="../../d9/dba/classTabDeckStorageVisual.html#af1928ff54afe9b84ceb4e46e46052c6a">TabDeckStorageVisual::openDeckEditor</a></div><div class="ttdeci">void openDeckEditor(const LoadedDeck &amp;deck)</div></div>
 <div class="ttc" id="aclassTabSupervisor_html"><div class="ttname"><a href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a></div><div class="ttdef"><b>Definition</b> tab_supervisor.h:83</div></div>
 <div class="ttc" id="aclassTab_html_a78be3ec2696f8a5ad2e175fb3c6eb6a2"><div class="ttname"><a href="../../de/d9c/classTab.html#a78be3ec2696f8a5ad2e175fb3c6eb6a2">Tab::Tab</a></div><div class="ttdeci">Tab(TabSupervisor *_tabSupervisor)</div><div class="ttdef"><b>Definition</b> tab.cpp:11</div></div>
 <div class="ttc" id="aclassVisualDeckStorageWidget_html"><div class="ttname"><a href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a></div><div class="ttdef"><b>Definition</b> visual_deck_storage_widget.h:29</div></div>
+<div class="ttc" id="astructLoadedDeck_html"><div class="ttname"><a href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a></div><div class="ttdoc">Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...</div><div class="ttdef"><b>Definition</b> loaded_deck.h:14</div></div>
 <div class="ttc" id="atab_8h_html"><div class="ttname"><a href="../../d3/ddf/tab_8h.html">tab.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

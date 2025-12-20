@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"d3/de4/classPlayerGraphicsItem.html#a742ccbc0beb2971365bcf701d557fdf1":[4,1,0,302,18],
 "d3/de4/classPlayerGraphicsItem.html#a88ea6f91b3d81f128fee1927fde6b194":[4,1,0,302,25],
 "d3/de4/classPlayerGraphicsItem.html#a930b91e8c6b91b6a5fed674128f77f3c":[4,1,0,302,9],
 "d3/de4/classPlayerGraphicsItem.html#a97adf024a8c50cfd16e66399045e0b41":[4,1,0,302,38],
@@ -55,7 +56,7 @@ var NAVTREEINDEX13 =
 "d3/de9/classAbstractDecklistCardNode.html#ae11a02fca18fc76c23b1d0f11c7a731d":[3,3,0,0,8],
 "d3/de9/classAbstractDecklistCardNode.html#ae86a8201eb294c8074650385af146b9f":[3,3,0,0,15],
 "d3/def/classArchidektJsonParser.html":[4,1,0,33],
-"d3/def/classArchidektJsonParser.html#a668e1b2fb7c5066292f48f44874f2307":[4,1,0,33,0],
+"d3/def/classArchidektJsonParser.html#a46be25229701d459ac7124044c475bfa":[4,1,0,33,0],
 "d3/def/edhrec__commander__api__response_8h.html":[4,2,0,0,1,5,3,10,0,1,0,4,1],
 "d3/def/edhrec__commander__api__response_8h_source.html":[4,2,0,0,1,5,3,10,0,1,0,4,1],
 "d3/df1/mana__curve__widget_8h.html":[3,1,0,4,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "d4/d47/zip__p_8h_source.html":[4,2,0,12,0,2,5],
 "d4/d4b/sequence__edit_8cpp.html":[4,2,0,0,1,5,3,11,6],
 "d4/d4d/group__CardWidgets.html":[3,1,0,2],
-"d4/d4d/group__CardWidgets.html":[3,2,3],
-"d4/d51/card__set_8cpp.html":[4,2,0,2,0,0,4,0]
+"d4/d4d/group__CardWidgets.html":[3,2,3]
 };

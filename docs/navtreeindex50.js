@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"de/d08/classTabGame.html#a49299990765ed0578b35decc23a7b8e5":[4,1,0,424,124],
 "de/d08/classTabGame.html#a4968e2fcb78f9fe875dfd5c2c2e9760d":[4,1,0,424,109],
 "de/d08/classTabGame.html#a4f367cd55ade1287683ab143b042a2aa":[4,1,0,424,70],
 "de/d08/classTabGame.html#a51c90dd8fd00688c7bef3dfb99c466bd":[4,1,0,424,5],
@@ -88,6 +89,7 @@ var NAVTREEINDEX50 =
 "de/d08/classTabGame.html#aeaec62740557b22f4927320d364a083a":[4,1,0,424,122],
 "de/d08/classTabGame.html#aefe8a873e7c8ffdb38d102287b63f353":[4,1,0,424,111],
 "de/d08/classTabGame.html#af07fd6097ec4843b23d2d7f4ba77cc06":[4,1,0,424,88],
+"de/d08/classTabGame.html#af0a57c920a6968616a4c0afda64f3857":[4,1,0,424,60],
 "de/d08/classTabGame.html#af11b04c8ef2f7ac6c7a97e07fce71de8":[4,1,0,424,20],
 "de/d08/classTabGame.html#af15fc1e4038bf211609c2c1eaf0d4149":[4,1,0,424,65],
 "de/d08/classTabGame.html#af3cdacabac70dcb0e440101911feefe9":[4,1,0,424,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "de/d38/classPlayerEventHandler.html#a94a87e71874957e958caef884b9b7fe5":[4,1,0,301,27],
 "de/d38/classPlayerEventHandler.html#a9f7e1789d785e75df518047080c19c88":[4,1,0,301,43],
 "de/d38/classPlayerEventHandler.html#aa0c4187217a973812fc3ba10bee16953":[4,1,0,301,18],
-"de/d38/classPlayerEventHandler.html#aa7fb3795dfc48ded56aea88806bbc949":[4,1,0,301,16],
-"de/d38/classPlayerEventHandler.html#aab3c5e11d235acd94731ead41cabd6c9":[4,1,0,301,1],
-"de/d38/classPlayerEventHandler.html#aad35f1954852d7f10d6b958e6d1e1d23":[4,1,0,301,24]
+"de/d38/classPlayerEventHandler.html#aa7fb3795dfc48ded56aea88806bbc949":[4,1,0,301,16]
 };

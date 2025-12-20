@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"db/d3b/classGeneralCounter.html#a657d66fd410e0d732555a4ca84ed0c17":[4,1,0,224,2],
+"db/d3b/classGeneralCounter.html#a7b8f8b22704b62cfa56e5b0aabc726ec":[4,1,0,224,0],
 "db/d3b/classGeneralCounter.html#a9f2c2b8d9930bf396610d54fb4e85a8e":[4,1,0,224,4],
 "db/d3b/classGeneralCounter.html#afc73e9abb02a97c1092b765eca676399":[4,1,0,224,1],
 "db/d3e/classpeg_1_1Ignore.html":[4,0,0,9,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "db/d6d/classUserListManager.html#a7b5c19e2c95c4a106e324eb07b414243":[4,1,0,456,16],
 "db/d6d/classUserListManager.html#a9d1e20146886f5a3821e648fd5504773":[4,1,0,456,4],
 "db/d6d/classUserListManager.html#aaf4b2c259ad6454b11af32205417d538":[4,1,0,456,17],
-"db/d6d/classUserListManager.html#ab454988aa65cc06bad09b39153496aff":[4,1,0,456,22],
-"db/d6d/classUserListManager.html#abe13bceeb67159e0c1b108b1e1c84691":[4,1,0,456,0],
-"db/d6d/classUserListManager.html#abe30337a9a21611cb163886b9f653060":[4,1,0,456,23]
+"db/d6d/classUserListManager.html#ab454988aa65cc06bad09b39153496aff":[4,1,0,456,22]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a7a99681533aa30f6837df3a4cd7308fe":[4,1,0,463,5],
 "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a86521e6599228e670503eaa37bff9e6d":[4,1,0,463,13],
 "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a91bd8015fb70829caff732085e540dc8":[4,1,0,463,8],
 "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a9b7e4c787d04e454318ea9bb40e5c5ab":[4,1,0,463,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "d6/da1/classCardPictureLoaderWorker.html#a868fa60416eaeb8c0b551e3c624094c1":[3,1,1,4,23],
 "d6/da1/classCardPictureLoaderWorker.html#a868fa60416eaeb8c0b551e3c624094c1":[3,2,0,4,23],
 "d6/da1/classCardPictureLoaderWorker.html#a8831b329a60ee2e982faa38db1ec3a80":[3,1,1,4,10],
-"d6/da1/classCardPictureLoaderWorker.html#a8831b329a60ee2e982faa38db1ec3a80":[3,2,0,4,10],
-"d6/da1/classCardPictureLoaderWorker.html#a8b5de81b379963a017f2b62acafe7aaf":[3,1,1,4,16]
+"d6/da1/classCardPictureLoaderWorker.html#a8831b329a60ee2e982faa38db1ec3a80":[3,2,0,4,10]
 };

@@ -1,9 +1,9 @@
 var classDlgEditDeckInClipboard =
 [
-    [ "DlgEditDeckInClipboard", "dc/d60/classDlgEditDeckInClipboard.html#abc8883af72f048bc4508f044dd303626", null ],
+    [ "DlgEditDeckInClipboard", "dc/d60/classDlgEditDeckInClipboard.html#ab09b9ec85ab48b7c7a8c064dd7193fd2", null ],
     [ "actOK", "dc/d60/classDlgEditDeckInClipboard.html#a6da4c97642ab6b1a46e1bad6376b390e", null ],
     [ "actRefresh", "dc/d60/classDlgEditDeckInClipboard.html#a90f706a6289798c7cf83fdf844c8de15", null ],
-    [ "getDeckList", "dc/d60/classDlgEditDeckInClipboard.html#ab490a1f125637ab90a2d5a62cda3f0ed", null ],
+    [ "getDeckList", "dc/d60/classDlgEditDeckInClipboard.html#a67f5047fb5b120f31be8cef127bd3e29", null ],
     [ "annotated", "dc/d60/classDlgEditDeckInClipboard.html#a4045f2da42093ada88aaa375bb1bb3b0", null ],
-    [ "deckLoader", "dc/d60/classDlgEditDeckInClipboard.html#a2e62fbd83c7f3a153a97c4a5baad9891", null ]
+    [ "deckList", "dc/d60/classDlgEditDeckInClipboard.html#a4c04e5062897e522a7f2748ea1034417", null ]
 ];

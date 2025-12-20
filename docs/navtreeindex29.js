@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"d8/d94/classpeg_1_1Definition.html#a9b4165346c15ef3b9477e8e5aa1a1dd5":[4,0,0,9,18,36],
 "d8/d94/classpeg_1_1Definition.html#a9b4165346c15ef3b9477e8e5aa1a1dd5":[4,1,0,1,17,36],
 "d8/d94/classpeg_1_1Definition.html#aa7a4fee9f484c027aea2484f9a4b92d8":[4,0,0,9,18,53],
 "d8/d94/classpeg_1_1Definition.html#aa7a4fee9f484c027aea2484f9a4b92d8":[4,1,0,1,17,53],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "d8/dc5/classAppearanceSettingsPage.html#a1bd64af1c2f90f381d514c22e864a682":[4,1,0,20,7],
 "d8/dc5/classAppearanceSettingsPage.html#a2e5056b146fc26e842db9b5cde3210c7":[4,1,0,20,11],
 "d8/dc5/classAppearanceSettingsPage.html#a3532a66e0cd9410bd4fa2ca20931dee1":[4,1,0,20,16],
-"d8/dc5/classAppearanceSettingsPage.html#a35659a23f007012afb68bc7d7ede894b":[4,1,0,20,20],
-"d8/dc5/classAppearanceSettingsPage.html#a3a5582e9558f8bd9e7ac72b6b0b6abfb":[4,1,0,20,35]
+"d8/dc5/classAppearanceSettingsPage.html#a35659a23f007012afb68bc7d7ede894b":[4,1,0,20,20]
 };

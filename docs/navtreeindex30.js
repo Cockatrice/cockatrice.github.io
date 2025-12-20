@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"d8/dc5/classAppearanceSettingsPage.html#a3a5582e9558f8bd9e7ac72b6b0b6abfb":[4,1,0,20,35],
 "d8/dc5/classAppearanceSettingsPage.html#a40515412bd86e1faceac263719c425e5":[4,1,0,20,32],
 "d8/dc5/classAppearanceSettingsPage.html#a43522582d1379310737cca43da8ee748":[4,1,0,20,24],
 "d8/dc5/classAppearanceSettingsPage.html#a4827e318f66e0c053738f9faa7513f31":[4,1,0,20,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#af0e3320b65ba88e89cd1e597d35f5b4f":[4,1,0,1,7,22],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#af1d7ef5878ce6686a15e1f18eac2c9aa":[4,0,0,9,8,2],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#af1d7ef5878ce6686a15e1f18eac2c9aa":[4,1,0,1,7,2],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#af2ff13c0928c70e75dcb072578ee6dcb":[4,0,0,9,8,7],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#af2ff13c0928c70e75dcb072578ee6dcb":[4,1,0,1,7,7]
+"d9/d27/structpeg_1_1AssignIDToDefinition.html#af2ff13c0928c70e75dcb072578ee6dcb":[4,0,0,9,8,7]
 };

@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-18-Development-2.11.0-beta.40</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -119,7 +119,7 @@ Collaboration diagram for AbstractDlgDeckTextEdit:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3ceea3826be8137f9d3db70eecfe3de" id="r_ac3ceea3826be8137f9d3db70eecfe3de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3ceea3826be8137f9d3db70eecfe3de">AbstractDlgDeckTextEdit</a> (QWidget *parent=nullptr)</td></tr>
-<tr class="memitem:a264e780ca643c2e068ddaffd17ff41e0" id="r_a264e780ca643c2e068ddaffd17ff41e0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a264e780ca643c2e068ddaffd17ff41e0">getDeckList</a> () const =0</td></tr>
+<tr class="memitem:acdf3dbbf25c58e4cb06750608a80b499" id="r_acdf3dbbf25c58e4cb06750608a80b499"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdf3dbbf25c58e4cb06750608a80b499">getDeckList</a> ()=0</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-slots" class="groupheader"><a id="pro-slots" name="pro-slots"></a>
 Protected Slots</h2></td></tr>
@@ -129,7 +129,7 @@ Protected Slots</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:acfcce00985abe5a328da0d0969ce17d7" id="r_acfcce00985abe5a328da0d0969ce17d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfcce00985abe5a328da0d0969ce17d7">setText</a> (const QString &amp;text)</td></tr>
-<tr class="memitem:a65fa3aec22530fa766dd41829d039a05" id="r_a65fa3aec22530fa766dd41829d039a05"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65fa3aec22530fa766dd41829d039a05">loadIntoDeck</a> (<a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> *deckLoader) const</td></tr>
+<tr class="memitem:a05dff5a87c3b693aa9e120d26d392e76" id="r_a05dff5a87c3b693aa9e120d26d392e76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05dff5a87c3b693aa9e120d26d392e76">loadIntoDeck</a> (<a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;deckList) const</td></tr>
 <tr class="memitem:aac6a8a14cb13ae57537d1f50d3a4b0ab" id="r_aac6a8a14cb13ae57537d1f50d3a4b0ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac6a8a14cb13ae57537d1f50d3a4b0ab">keyPressEvent</a> (QKeyEvent *event) override</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
@@ -242,8 +242,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a264e780ca643c2e068ddaffd17ff41e0" name="a264e780ca643c2e068ddaffd17ff41e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a264e780ca643c2e068ddaffd17ff41e0">&#9670;&#160;</a></span>getDeckList()</h2>
+<a id="acdf3dbbf25c58e4cb06750608a80b499" name="acdf3dbbf25c58e4cb06750608a80b499"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdf3dbbf25c58e4cb06750608a80b499">&#9670;&#160;</a></span>getDeckList()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -252,10 +252,10 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> * AbstractDlgDeckTextEdit::getDeckList </td>
+          <td class="memname">virtual const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp; AbstractDlgDeckTextEdit::getDeckList </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -265,9 +265,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <p>Gets the loaded deck. Only call this method after this dialog window has been successfully exec'd.</p>
-<p>The returned <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> is parented to this object; make sure to take ownership of the <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> if you intend to use it, since otherwise it will get destroyed once this dlg is destroyed </p><dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The loaded decklist </dd></dl>
 
-<p>Implemented in <a class="el" href="../../dc/d60/classDlgEditDeckInClipboard.html#ab490a1f125637ab90a2d5a62cda3f0ed">DlgEditDeckInClipboard</a>, and <a class="el" href="../../db/dc8/classDlgLoadDeckFromClipboard.html#ab4dcf091688baf42076a5d2e66a1d023">DlgLoadDeckFromClipboard</a>.</p>
+<p>Implemented in <a class="el" href="../../dc/d60/classDlgEditDeckInClipboard.html#a67f5047fb5b120f31be8cef127bd3e29">DlgEditDeckInClipboard</a>, and <a class="el" href="../../db/dc8/classDlgLoadDeckFromClipboard.html#a656d1da693e496f5d879a6fa53459438">DlgLoadDeckFromClipboard</a>.</p>
 
 </div>
 </div>
@@ -301,8 +301,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a65fa3aec22530fa766dd41829d039a05" name="a65fa3aec22530fa766dd41829d039a05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65fa3aec22530fa766dd41829d039a05">&#9670;&#160;</a></span>loadIntoDeck()</h2>
+<a id="a05dff5a87c3b693aa9e120d26d392e76" name="a05dff5a87c3b693aa9e120d26d392e76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05dff5a87c3b693aa9e120d26d392e76">&#9670;&#160;</a></span>loadIntoDeck()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,7 +313,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">bool AbstractDlgDeckTextEdit::loadIntoDeck </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> *</td>          <td class="paramname"><span class="paramname"><em>deckLoader</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>deckList</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -323,10 +323,10 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Tries to load the current contents of the contentsEdit into the <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a></p>
+<p>Tries to load the current contents of the contentsEdit into the deckList</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">deckLoader</td><td>The <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> to load the deck into </td></tr>
+    <tr><td class="paramname">deckList</td><td>The deckList to load the deck into </td></tr>
   </table>
   </dd>
 </dl>
@@ -334,12 +334,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d3e/classAbstractDlgDeckTextEdit_a65fa3aec22530fa766dd41829d039a05_cgraph.svg" width="100%" height="501"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d3e/classAbstractDlgDeckTextEdit_a05dff5a87c3b693aa9e120d26d392e76_cgraph.svg" width="100%" height="464"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d3e/classAbstractDlgDeckTextEdit_a65fa3aec22530fa766dd41829d039a05_icgraph.svg" width="444" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d3e/classAbstractDlgDeckTextEdit_a05dff5a87c3b693aa9e120d26d392e76_icgraph.svg" width="444" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

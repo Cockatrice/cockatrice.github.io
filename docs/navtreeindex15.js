@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"d4/db9/classAbstractCardItem.html#a3036ffce26817d55e399c3d2130010b9":[4,1,0,4,34],
 "d4/db9/classAbstractCardItem.html#a365150eeb4cf810f94c1b651db9ea86b":[4,1,0,4,26],
 "d4/db9/classAbstractCardItem.html#a366ddbdae8174d6442e5351a8a2afd26":[4,1,0,4,6],
 "d4/db9/classAbstractCardItem.html#a39ccaecfbe2e8a434ddf3e2a907f8867":[4,1,0,4,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "d5/d0e/classServatrice.html#a93ef917f0d412e4cc77f1c4a3d7d9c9a":[4,1,0,352,22],
 "d5/d0e/classServatrice.html#a97e8cff18a276937542961b68c538238":[4,1,0,352,76],
 "d5/d0e/classServatrice.html#a98c888e65b5195b96454ae99d36edb67":[4,1,0,352,73],
-"d5/d0e/classServatrice.html#a9a62fac8386df5932097cb0cca455ed7":[4,1,0,352,24],
-"d5/d0e/classServatrice.html#a9c8dca71c55d2733b3b322f1880b6ec7":[4,1,0,352,16]
+"d5/d0e/classServatrice.html#a9a62fac8386df5932097cb0cca455ed7":[4,1,0,352,24]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"db/db4/classGamesProxyModel.html#aaf46bdcc7d0ca5fa104b680e02fc2444":[4,1,0,221,19],
+"db/db4/classGamesProxyModel.html#ac52d20f158365839ae1f2b9e93b6fa23":[4,1,0,221,21],
 "db/db4/classGamesProxyModel.html#ac673355cc54d30c75f4c60cfb8be96a8":[4,1,0,221,59],
 "db/db4/classGamesProxyModel.html#ad0f027ae0d0e8245756d243f5c30afd9":[4,1,0,221,6],
 "db/db4/classGamesProxyModel.html#adc06e0fd58dde602731ffe124c0157e5":[4,1,0,221,9],
@@ -82,10 +84,10 @@ var NAVTREEINDEX41 =
 "db/dc7/structZoneViewZone_1_1GridSize.html#aa1aba15713c4c50d72c917c4903d385d":[4,1,0,490,0,1],
 "db/dc8/classDlgLoadDeckFromClipboard.html":[4,1,0,152],
 "db/dc8/classDlgLoadDeckFromClipboard.html#a25393b12a16e202526a2248bc3c33cd8":[4,1,0,152,1],
-"db/dc8/classDlgLoadDeckFromClipboard.html#a987e85f0780b4397459f770c5cc874f5":[4,1,0,152,4],
-"db/dc8/classDlgLoadDeckFromClipboard.html#ab4dcf091688baf42076a5d2e66a1d023":[4,1,0,152,3],
+"db/dc8/classDlgLoadDeckFromClipboard.html#a656d1da693e496f5d879a6fa53459438":[4,1,0,152,3],
 "db/dc8/classDlgLoadDeckFromClipboard.html#ac04726913d749034449f3e8b8e5c111a":[4,1,0,152,0],
 "db/dc8/classDlgLoadDeckFromClipboard.html#ac85d4e2942b6cfd0eb7d93a12b2bc194":[4,1,0,152,2],
+"db/dc8/classDlgLoadDeckFromClipboard.html#af4179eb5770881c1d60e814da6ac3837":[4,1,0,152,4],
 "db/dc9/hand__zone__logic_8h.html":[3,4,1,1,1],
 "db/dca/dlg__startup__card__check_8h.html":[3,1,0,0,0,1,0],
 "db/dca/dlg__startup__card__check_8h.html":[3,1,0,3,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "db/df8/classDecklistNodeTree.html#ac83237d42ccdb9809f886e70b20325a9":[4,1,0,116,15],
 "db/df8/classDecklistNodeTree.html#ad562ee6818f263e6b64b2e0510654544":[4,1,0,116,6],
 "db/df8/classDecklistNodeTree.html#ad821770fd15bcc2829f518ed24fb86b8":[4,1,0,116,1],
-"db/df8/classDecklistNodeTree.html#ae5e12ba091e0d4556aa121cf004f62aa":[4,1,0,116,2],
-"db/df8/classDecklistNodeTree.html#af520574d975d2023fe5dec1bb2212230":[4,1,0,116,10],
-"db/df9/classPlayerCounter.html":[4,1,0,300]
+"db/df8/classDecklistNodeTree.html#ae5e12ba091e0d4556aa121cf004f62aa":[4,1,0,116,2]
 };

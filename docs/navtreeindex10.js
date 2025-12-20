@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"d2/dae/classMessagesSettingsPage.html#ac3a34e0a0d53ba56f0fce755c80fdbab":[4,1,0,269,21],
 "d2/dae/classMessagesSettingsPage.html#ace33595ca05e31d5f5643d787ee116e0":[4,1,0,269,19],
 "d2/dae/classMessagesSettingsPage.html#ad5457c7f69d9a5da12d479f1bc0398fb":[4,1,0,269,34],
 "d2/dae/classMessagesSettingsPage.html#ad68ffdb1e3d71f64a461dbb3fcc80798":[4,1,0,269,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "d3/d32/editing_decks_classic.html":[0,1,4,0],
 "d3/d32/editing_decks_classic.html#adding-cards":[0,1,4,0,1],
 "d3/d32/editing_decks_classic.html#editing-basic-deck-information":[0,1,4,0,0],
-"d3/d32/editing_decks_classic.html#modifying-printings":[0,1,4,0,3],
-"d3/d32/editing_decks_classic.html#modifying-the-deck-list":[0,1,4,0,2]
+"d3/d32/editing_decks_classic.html#modifying-printings":[0,1,4,0,3]
 };

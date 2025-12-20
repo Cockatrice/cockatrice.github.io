@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"dc/d53/classCockatriceXml4Parser.html#a1fc252f895431057517d6ad304f99161":[3,2,4,10,7],
+"dc/d53/classCockatriceXml4Parser.html#a2c2bb2eeebb38620f5fe828e03e25f3f":[3,2,4,10,1],
 "dc/d53/classCockatriceXml4Parser.html#a45d81a078d3bf8de9cd1942d867ee31b":[3,2,4,10,0],
 "dc/d53/classCockatriceXml4Parser.html#a558de55444ec5e73877fd6c45af3d87b":[3,2,4,10,6],
 "dc/d53/classCockatriceXml4Parser.html#aca2af518abb803862b8b2fb684957433":[3,2,4,10,5],
@@ -44,12 +46,12 @@ var NAVTREEINDEX43 =
 "dc/d5d/classPlayerManager.html#ae7d74e19e4232830c1b87745ee641c6c":[4,1,0,307,28],
 "dc/d5d/classPlayerManager.html#aeee9f0cb7c7bedf4aafc32582ceea3d6":[4,1,0,307,22],
 "dc/d60/classDlgEditDeckInClipboard.html":[4,1,0,143],
-"dc/d60/classDlgEditDeckInClipboard.html#a2e62fbd83c7f3a153a97c4a5baad9891":[4,1,0,143,5],
 "dc/d60/classDlgEditDeckInClipboard.html#a4045f2da42093ada88aaa375bb1bb3b0":[4,1,0,143,4],
+"dc/d60/classDlgEditDeckInClipboard.html#a4c04e5062897e522a7f2748ea1034417":[4,1,0,143,5],
+"dc/d60/classDlgEditDeckInClipboard.html#a67f5047fb5b120f31be8cef127bd3e29":[4,1,0,143,3],
 "dc/d60/classDlgEditDeckInClipboard.html#a6da4c97642ab6b1a46e1bad6376b390e":[4,1,0,143,1],
 "dc/d60/classDlgEditDeckInClipboard.html#a90f706a6289798c7cf83fdf844c8de15":[4,1,0,143,2],
-"dc/d60/classDlgEditDeckInClipboard.html#ab490a1f125637ab90a2d5a62cda3f0ed":[4,1,0,143,3],
-"dc/d60/classDlgEditDeckInClipboard.html#abc8883af72f048bc4508f044dd303626":[4,1,0,143,0],
+"dc/d60/classDlgEditDeckInClipboard.html#ab09b9ec85ab48b7c7a8c064dd7193fd2":[4,1,0,143,0],
 "dc/d62/zipentry__p_8h.html":[4,2,0,12,0,2,6],
 "dc/d62/zipentry__p_8h_source.html":[4,2,0,12,0,2,6],
 "dc/d63/classTabDeckEditorVisual.html":[3,1,0,1,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "dc/d86/classAbstractClient.html":[4,1,0,5],
 "dc/d86/classAbstractClient.html#a02eef8d7dbcc2d5e5e5ece92580e9c68":[4,1,0,5,26],
 "dc/d86/classAbstractClient.html#a086445c327350245e09ae09ab8cdcfbb":[4,1,0,5,39],
-"dc/d86/classAbstractClient.html#a1c105ed6696e0b7dbfd478237d48faa3":[4,1,0,5,16],
-"dc/d86/classAbstractClient.html#a21f59edb41ad252c6c9606efc8d51a9e":[4,1,0,5,3],
-"dc/d86/classAbstractClient.html#a22590617ce4f37ba3acde14ca550e335":[4,1,0,5,22]
+"dc/d86/classAbstractClient.html#a1c105ed6696e0b7dbfd478237d48faa3":[4,1,0,5,16]
 };

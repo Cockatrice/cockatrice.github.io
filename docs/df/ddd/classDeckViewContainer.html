@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-18-Development-2.11.0-beta.40</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -119,7 +119,7 @@ Collaboration diagram for DeckViewContainer:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:ad48cc6f72f964f75c272bf41034edf27" id="r_ad48cc6f72f964f75c272bf41034edf27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad48cc6f72f964f75c272bf41034edf27">loadDeckFromFile</a> (const QString &amp;filePath)</td></tr>
-<tr class="memitem:a67f0c46630404efd2c1288cb37db95d4" id="r_a67f0c46630404efd2c1288cb37db95d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67f0c46630404efd2c1288cb37db95d4">loadDeckFromDeckLoader</a> (<a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> *deck)</td></tr>
+<tr class="memitem:ac19cb4898f90dcbd8b4fbcc51f984dae" id="r_ac19cb4898f90dcbd8b4fbcc51f984dae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac19cb4898f90dcbd8b4fbcc51f984dae">loadDeckFromDeckList</a> (const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;deck)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
@@ -133,7 +133,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7153a4bfb6c54f9db7b4f2feec754f80" id="r_a7153a4bfb6c54f9db7b4f2feec754f80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7153a4bfb6c54f9db7b4f2feec754f80">setReadyStart</a> (bool ready)</td></tr>
 <tr class="memitem:a3251ab0d249f2c577f9712ab312942db" id="r_a3251ab0d249f2c577f9712ab312942db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3251ab0d249f2c577f9712ab312942db">readyAndUpdate</a> ()</td></tr>
 <tr class="memitem:a333ce8ee3af0fb28cb7046111b8a8886" id="r_a333ce8ee3af0fb28cb7046111b8a8886"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a333ce8ee3af0fb28cb7046111b8a8886">setSideboardLocked</a> (bool locked)</td></tr>
-<tr class="memitem:ad7daa609820b0dc3039637a81ea554c2" id="r_ad7daa609820b0dc3039637a81ea554c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7daa609820b0dc3039637a81ea554c2">setDeck</a> (<a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> &amp;deck)</td></tr>
+<tr class="memitem:aff6f81314bac6ef09411781d17f3de24" id="r_aff6f81314bac6ef09411781d17f3de24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff6f81314bac6ef09411781d17f3de24">setDeck</a> (const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;deck)</td></tr>
 <tr class="memitem:a4172dc7baa53915cf1ab80dad8d8554a" id="r_a4172dc7baa53915cf1ab80dad8d8554a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4172dc7baa53915cf1ab80dad8d8554a">setVisualDeckStorageExists</a> (bool exists)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
@@ -269,8 +269,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a67f0c46630404efd2c1288cb37db95d4" name="a67f0c46630404efd2c1288cb37db95d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67f0c46630404efd2c1288cb37db95d4">&#9670;&#160;</a></span>loadDeckFromDeckLoader</h2>
+<a id="ac19cb4898f90dcbd8b4fbcc51f984dae" name="ac19cb4898f90dcbd8b4fbcc51f984dae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac19cb4898f90dcbd8b4fbcc51f984dae">&#9670;&#160;</a></span>loadDeckFromDeckList</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,9 +279,9 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DeckViewContainer::loadDeckFromDeckLoader </td>
+          <td class="memname">void DeckViewContainer::loadDeckFromDeckList </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> *</td>          <td class="paramname"><span class="paramname"><em>deck</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>deck</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -294,12 +294,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/ddd/classDeckViewContainer_a67f0c46630404efd2c1288cb37db95d4_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/ddd/classDeckViewContainer_ac19cb4898f90dcbd8b4fbcc51f984dae_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/ddd/classDeckViewContainer_a67f0c46630404efd2c1288cb37db95d4_icgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/ddd/classDeckViewContainer_ac19cb4898f90dcbd8b4fbcc51f984dae_icgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -685,8 +685,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ad7daa609820b0dc3039637a81ea554c2" name="ad7daa609820b0dc3039637a81ea554c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7daa609820b0dc3039637a81ea554c2">&#9670;&#160;</a></span>setDeck()</h2>
+<a id="aff6f81314bac6ef09411781d17f3de24" name="aff6f81314bac6ef09411781d17f3de24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff6f81314bac6ef09411781d17f3de24">&#9670;&#160;</a></span>setDeck()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -694,7 +694,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void DeckViewContainer::setDeck </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>deck</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>deck</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -702,12 +702,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/ddd/classDeckViewContainer_ad7daa609820b0dc3039637a81ea554c2_cgraph.svg" width="555" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/ddd/classDeckViewContainer_aff6f81314bac6ef09411781d17f3de24_cgraph.svg" width="555" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/ddd/classDeckViewContainer_ad7daa609820b0dc3039637a81ea554c2_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/ddd/classDeckViewContainer_aff6f81314bac6ef09411781d17f3de24_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

@@ -97,6 +97,7 @@ var group__DeckModels =
       [ "findCardNode", "d9/de1/classDeckListModel.html#acae2553ca72ba83683de08e15567f7f2", null ],
       [ "findSortedInsertRow", "d9/de1/classDeckListModel.html#a186040658f657a0e2629fcb07d9d5ba5", null ],
       [ "flags", "d9/de1/classDeckListModel.html#a3dad1830a059d75c4cd90512ddbfc43a", null ],
+      [ "getCardNames", "d9/de1/classDeckListModel.html#a2b1428625ee6777e993ccd51910d2eb4", null ],
       [ "getCards", "d9/de1/classDeckListModel.html#aea85d00abde1ac99e60565920586acd9", null ],
       [ "getCardsForZone", "d9/de1/classDeckListModel.html#a3bb088a4d838f88b692a8aabf5b4dfc3", null ],
       [ "getDeckList", "d9/de1/classDeckListModel.html#ad54c12f78c4a83fa1a0953cec4f2db0e", null ],

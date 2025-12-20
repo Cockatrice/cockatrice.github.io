@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"df/dd1/classDeckEditorSettingsPage.html#a6efdceb5571d457ca96bf3080e7ce317":[4,1,0,107,4],
 "df/dd1/classDeckEditorSettingsPage.html#a6ff45b72166e8497ddde5b449a61b1a4":[4,1,0,107,32],
 "df/dd1/classDeckEditorSettingsPage.html#a761b33a1ab3be4c031131133b874876c":[4,1,0,107,31],
 "df/dd1/classDeckEditorSettingsPage.html#a7914016141861c242dac3472b6ad3bdc":[4,1,0,107,5],
@@ -101,7 +102,6 @@ var NAVTREEINDEX57 =
 "df/ddd/classDeckViewContainer.html#a62a65e746683d6e03ac8fb9f17f133a5":[4,1,0,135,0],
 "df/ddd/classDeckViewContainer.html#a654fd71c6c2057d2138f1a0bf88d6532":[4,1,0,135,12],
 "df/ddd/classDeckViewContainer.html#a675615e579d9b7b055934d90a015f5d8":[4,1,0,135,30],
-"df/ddd/classDeckViewContainer.html#a67f0c46630404efd2c1288cb37db95d4":[4,1,0,135,3],
 "df/ddd/classDeckViewContainer.html#a7153a4bfb6c54f9db7b4f2feec754f80":[4,1,0,135,17],
 "df/ddd/classDeckViewContainer.html#a7c8b64c81425512c54993736c0c490a6":[4,1,0,135,26],
 "df/ddd/classDeckViewContainer.html#a7dc8805c477c5a356ec9c6be543e019e":[4,1,0,135,14],
@@ -116,13 +116,14 @@ var NAVTREEINDEX57 =
 "df/ddd/classDeckViewContainer.html#aaf7e8298c87bd2051bf72d91a57565f4":[4,1,0,135,13],
 "df/ddd/classDeckViewContainer.html#ab4495a9045e54893dce8397f298b9c22":[4,1,0,135,2],
 "df/ddd/classDeckViewContainer.html#abf10aea3355b0b8ee7a69d50d47aeecc":[4,1,0,135,38],
+"df/ddd/classDeckViewContainer.html#ac19cb4898f90dcbd8b4fbcc51f984dae":[4,1,0,135,3],
 "df/ddd/classDeckViewContainer.html#ad48cc6f72f964f75c272bf41034edf27":[4,1,0,135,4],
 "df/ddd/classDeckViewContainer.html#ad506ddd572d19daf934b82b572ddd184":[4,1,0,135,37],
-"df/ddd/classDeckViewContainer.html#ad7daa609820b0dc3039637a81ea554c2":[4,1,0,135,16],
 "df/ddd/classDeckViewContainer.html#ae24bb339ac7acfda47ff09382f58cb1b":[4,1,0,135,32],
 "df/ddd/classDeckViewContainer.html#ae4fea6343deb13f6d77bae17d4cffcdc":[4,1,0,135,10],
 "df/ddd/classDeckViewContainer.html#af49d780ceae81e9ee6bb02cbc209b8c5":[4,1,0,135,29],
 "df/ddd/classDeckViewContainer.html#aff011190d527a7371119831e8536ace2":[4,1,0,135,23],
+"df/ddd/classDeckViewContainer.html#aff6f81314bac6ef09411781d17f3de24":[4,1,0,135,16],
 "df/ddd/classDeckViewContainer.html#affb547b344b8cd83a5a5bb0332d9ac5c":[4,1,0,135,20],
 "df/dde/classDeckPreviewTagDisplayWidget.html":[4,1,0,127],
 "df/dde/classDeckPreviewTagDisplayWidget.html#a08606f7c94da80f97fc61a718f137e1d":[4,1,0,127,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "df/dff/structpeg_1_1DetectLeftRecursion.html":[4,1,0,1,19],
 "df/dff/structpeg_1_1DetectLeftRecursion.html#a0a13a2a286bd15c3f2c8fcb77cc5ae5d":[4,0,0,9,20,20],
 "df/dff/structpeg_1_1DetectLeftRecursion.html#a0a13a2a286bd15c3f2c8fcb77cc5ae5d":[4,1,0,1,19,20],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a0e60758a243fda1fe21448a97f964c2d":[4,0,0,9,20,17],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a0e60758a243fda1fe21448a97f964c2d":[4,1,0,1,19,17]
+"df/dff/structpeg_1_1DetectLeftRecursion.html#a0e60758a243fda1fe21448a97f964c2d":[4,0,0,9,20,17]
 };
