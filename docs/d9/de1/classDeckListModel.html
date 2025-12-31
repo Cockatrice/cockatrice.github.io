@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-31-Development-2.11.0-beta.41</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -116,77 +116,87 @@ Inheritance diagram for DeckListModel:</div>
 <div class="dynheader">
 Collaboration diagram for DeckListModel:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d15/classDeckListModel__coll__graph.svg" width="543" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d15/classDeckListModel__coll__graph.svg" width="382" height="207"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:a0f1a16328bef79628489b3384cf9377b" id="r_a0f1a16328bef79628489b3384cf9377b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f1a16328bef79628489b3384cf9377b">rebuildTree</a> ()</td></tr>
 <tr class="memdesc:a0f1a16328bef79628489b3384cf9377b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rebuilds the model tree from the underlying node tree.  <br /></td></tr>
+<tr class="memitem:a8efbe7d7418bdca0c4c43dcefd4ddffc" id="r_a8efbe7d7418bdca0c4c43dcefd4ddffc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8efbe7d7418bdca0c4c43dcefd4ddffc">setActiveGroupCriteria</a> (<a class="el" href="../../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179">DeckListModelGroupCriteria::Type</a> newCriteria)</td></tr>
+<tr class="memdesc:a8efbe7d7418bdca0c4c43dcefd4ddffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the criteria used to group cards in the model.  <br /></td></tr>
 <tr class="memitem:a1ec5508f88854cb5fb365dca3d42908d" id="r_a1ec5508f88854cb5fb365dca3d42908d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ec5508f88854cb5fb365dca3d42908d">setActiveFormat</a> (const QString &amp;_format)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:a3b3448445b238d8ed10203d302b2a039" id="r_a3b3448445b238d8ed10203d302b2a039"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b3448445b238d8ed10203d302b2a039">deckHashChanged</a> ()</td></tr>
 <tr class="memdesc:a3b3448445b238d8ed10203d302b2a039"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever the deck hash changes due to modifications in the model.  <br /></td></tr>
+<tr class="memitem:a050afffcc543e063c9eecc4fda084f7d" id="r_a050afffcc543e063c9eecc4fda084f7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a050afffcc543e063c9eecc4fda084f7d">cardAddedAt</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>)</td></tr>
+<tr class="memdesc:a050afffcc543e063c9eecc4fda084f7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever a card is added to the deck, regardless of whether it's an entirely new card or an existing card that got incremented.  <br /></td></tr>
+<tr class="memitem:a7ec31566a7293507368174ddd41507bc" id="r_a7ec31566a7293507368174ddd41507bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ec31566a7293507368174ddd41507bc">deckReplaced</a> ()</td></tr>
+<tr class="memdesc:a7ec31566a7293507368174ddd41507bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever the deck in the model has been replaced with a new one.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a83489c3a11ffc4cc8a713cda2d780aa9" id="r_a83489c3a11ffc4cc8a713cda2d780aa9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83489c3a11ffc4cc8a713cda2d780aa9">DeckListModel</a> (QObject *<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>=nullptr)</td></tr>
+<tr class="memitem:a8d1b0d175ab928d4b1002307c2b17af9" id="r_a8d1b0d175ab928d4b1002307c2b17af9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d1b0d175ab928d4b1002307c2b17af9">DeckListModel</a> (QObject *<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>, const QSharedPointer&lt; <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &gt; &amp;<a class="el" href="#a93f8ef6228bd75ea618cdc9d4d01a9ec">deckList</a>)</td></tr>
 <tr class="memitem:a9b2e90b8fc2e40fae2322aa3fceca967" id="r_a9b2e90b8fc2e40fae2322aa3fceca967"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b2e90b8fc2e40fae2322aa3fceca967">~DeckListModel</a> () override</td></tr>
 <tr class="memitem:a42bedcaca0c194f67fd1a95884f59ff6" id="r_a42bedcaca0c194f67fd1a95884f59ff6"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42bedcaca0c194f67fd1a95884f59ff6">getRoot</a> () const</td></tr>
 <tr class="memdesc:a42bedcaca0c194f67fd1a95884f59ff6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the root index of the model.  <br /></td></tr>
-<tr class="memitem:a988e1ea8c2f4f64d070ccb45afeee140" id="r_a988e1ea8c2f4f64d070ccb45afeee140"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a988e1ea8c2f4f64d070ccb45afeee140">getGroupCriteriaForCard</a> (<a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> info) const</td></tr>
-<tr class="memdesc:a988e1ea8c2f4f64d070ccb45afeee140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the grouping category for a card based on the current criteria.  <br /></td></tr>
-<tr class="memitem:a50aa585d273a7919f96fcb9d8dcf25d0" id="r_a50aa585d273a7919f96fcb9d8dcf25d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50aa585d273a7919f96fcb9d8dcf25d0">rowCount</a> (const QModelIndex &amp;<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>) const override</td></tr>
-<tr class="memitem:a5ff46dbf1e469617398492561810788e" id="r_a5ff46dbf1e469617398492561810788e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ff46dbf1e469617398492561810788e">columnCount</a> (const QModelIndex &amp;=QModelIndex()) const override</td></tr>
-<tr class="memitem:a2407550028a32526ff3cabdb29dd19e1" id="r_a2407550028a32526ff3cabdb29dd19e1"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2407550028a32526ff3cabdb29dd19e1">data</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>, int role) const override</td></tr>
-<tr class="memitem:a7fa3026290c38cedbb04425c941b20ee" id="r_a7fa3026290c38cedbb04425c941b20ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fa3026290c38cedbb04425c941b20ee">emitBackgroundUpdates</a> (const QModelIndex &amp;<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>)</td></tr>
-<tr class="memitem:aaf41cb3f6483755fbdd8595c1b25a2fa" id="r_aaf41cb3f6483755fbdd8595c1b25a2fa"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf41cb3f6483755fbdd8595c1b25a2fa">headerData</a> (int section, Qt::Orientation orientation, int role) const override</td></tr>
-<tr class="memitem:a668baf2a150e168e25b0188f0877a74d" id="r_a668baf2a150e168e25b0188f0877a74d"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a> (int row, int column, const QModelIndex &amp;<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>) const override</td></tr>
-<tr class="memitem:abc148eac619b9e6ca14691c0d73f1395" id="r_abc148eac619b9e6ca14691c0d73f1395"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>) const override</td></tr>
-<tr class="memitem:a3dad1830a059d75c4cd90512ddbfc43a" id="r_a3dad1830a059d75c4cd90512ddbfc43a"><td class="memItemLeft" align="right" valign="top">Qt::ItemFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dad1830a059d75c4cd90512ddbfc43a">flags</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>) const override</td></tr>
-<tr class="memitem:af334c11ca5bf3ccb8290836486206bab" id="r_af334c11ca5bf3ccb8290836486206bab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af334c11ca5bf3ccb8290836486206bab">setData</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>, const QVariant &amp;value, int role) override</td></tr>
-<tr class="memitem:a52c113839c36515c5350d8c979e00ee5" id="r_a52c113839c36515c5350d8c979e00ee5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52c113839c36515c5350d8c979e00ee5">removeRows</a> (int row, int count, const QModelIndex &amp;<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>) override</td></tr>
 <tr class="memitem:a1d400b8fce69e71fffa9a5e0ae5d3df3" id="r_a1d400b8fce69e71fffa9a5e0ae5d3df3"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d400b8fce69e71fffa9a5e0ae5d3df3">findCard</a> (const QString &amp;cardName, const QString &amp;zoneName, const QString &amp;providerId=&quot;&quot;, const QString &amp;cardNumber=&quot;&quot;) const</td></tr>
 <tr class="memdesc:a1d400b8fce69e71fffa9a5e0ae5d3df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a card by name, zone, and optional identifiers.  <br /></td></tr>
 <tr class="memitem:a889fd2a14a47f7433a130ac36562cb17" id="r_a889fd2a14a47f7433a130ac36562cb17"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a889fd2a14a47f7433a130ac36562cb17">addPreferredPrintingCard</a> (const QString &amp;cardName, const QString &amp;zoneName, bool abAddAnyway)</td></tr>
 <tr class="memdesc:a889fd2a14a47f7433a130ac36562cb17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a card using the preferred printing if available.  <br /></td></tr>
 <tr class="memitem:ac31406c75864382e2499851f3c84460e" id="r_ac31406c75864382e2499851f3c84460e"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac31406c75864382e2499851f3c84460e">addCard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QString &amp;zoneName)</td></tr>
 <tr class="memdesc:ac31406c75864382e2499851f3c84460e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> to the specified zone.  <br /></td></tr>
-<tr class="memitem:a186040658f657a0e2629fcb07d9d5ba5" id="r_a186040658f657a0e2629fcb07d9d5ba5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a186040658f657a0e2629fcb07d9d5ba5">findSortedInsertRow</a> (<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>, <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> cardInfo) const</td></tr>
-<tr class="memdesc:a186040658f657a0e2629fcb07d9d5ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the sorted insertion row for a card.  <br /></td></tr>
-<tr class="memitem:a93fc3adc648030ffc217b06ef4ce5c22" id="r_a93fc3adc648030ffc217b06ef4ce5c22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93fc3adc648030ffc217b06ef4ce5c22">sort</a> (int column, Qt::SortOrder order) override</td></tr>
+<tr class="memitem:a9df6d2bf3d1f0f09e57f190585e76f9a" id="r_a9df6d2bf3d1f0f09e57f190585e76f9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9df6d2bf3d1f0f09e57f190585e76f9a">offsetCountAtIndex</a> (const QModelIndex &amp;idx, int offset)</td></tr>
+<tr class="memdesc:a9df6d2bf3d1f0f09e57f190585e76f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the <span class="tt">amount</span> field in the card node at the index by the amount. Removes the node if it causes the amount to fall to 0 or below.  <br /></td></tr>
 <tr class="memitem:a1ecfd117038f01fce09c99796ccf67ea" id="r_a1ecfd117038f01fce09c99796ccf67ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ecfd117038f01fce09c99796ccf67ea">cleanList</a> ()</td></tr>
 <tr class="memdesc:a1ecfd117038f01fce09c99796ccf67ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all cards and resets the model.  <br /></td></tr>
-<tr class="memitem:ad54c12f78c4a83fa1a0953cec4f2db0e" id="r_ad54c12f78c4a83fa1a0953cec4f2db0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d68/classDeckList.html">DeckList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad54c12f78c4a83fa1a0953cec4f2db0e">getDeckList</a> () const</td></tr>
-<tr class="memitem:a889eec45c358f6de21561faa009eb090" id="r_a889eec45c358f6de21561faa009eb090"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a889eec45c358f6de21561faa009eb090">setDeckList</a> (<a class="el" href="../../da/d68/classDeckList.html">DeckList</a> *_deck)</td></tr>
+<tr class="memitem:a224db4a8d5389f1e96cb6bc5b6ee9dc9" id="r_a224db4a8d5389f1e96cb6bc5b6ee9dc9"><td class="memItemLeft" align="right" valign="top">QSharedPointer&lt; <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a224db4a8d5389f1e96cb6bc5b6ee9dc9">getDeckList</a> () const</td></tr>
+<tr class="memitem:aa87143204e143b61eb7d5811bb007477" id="r_aa87143204e143b61eb7d5811bb007477"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa87143204e143b61eb7d5811bb007477">setDeckList</a> (const QSharedPointer&lt; <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &gt; &amp;_deck)</td></tr>
+<tr class="memitem:a61a941923868e8d058c650853bdab354" id="r_a61a941923868e8d058c650853bdab354"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61a941923868e8d058c650853bdab354">forEachCard</a> (const std::function&lt; void(<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *, <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> *)&gt; &amp;func)</td></tr>
+<tr class="memdesc:a61a941923868e8d058c650853bdab354"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a function to every card in the deck tree.  <br /></td></tr>
 <tr class="memitem:aea85d00abde1ac99e60565920586acd9" id="r_aea85d00abde1ac99e60565920586acd9"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea85d00abde1ac99e60565920586acd9">getCards</a> () const</td></tr>
 <tr class="memdesc:aea85d00abde1ac99e60565920586acd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a list consisting of the entries of the model mapped into ExactCards (with each entry looked up in the card database). If a card node has number &gt; 1, it will be added that many times to the list. If an entry's card is not found in the card database, that entry will be left out of the list.  <br /></td></tr>
 <tr class="memitem:a3bb088a4d838f88b692a8aabf5b4dfc3" id="r_a3bb088a4d838f88b692a8aabf5b4dfc3"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bb088a4d838f88b692a8aabf5b4dfc3">getCardsForZone</a> (const QString &amp;zoneName) const</td></tr>
 <tr class="memitem:a2b1428625ee6777e993ccd51910d2eb4" id="r_a2b1428625ee6777e993ccd51910d2eb4"><td class="memItemLeft" align="right" valign="top">QList&lt; QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b1428625ee6777e993ccd51910d2eb4">getCardNames</a> () const</td></tr>
 <tr class="memdesc:a2b1428625ee6777e993ccd51910d2eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a deduplicated list of all card names that appear in the model.  <br /></td></tr>
+<tr class="memitem:ad0abbec6eacb2e42ea95ed23080de242" id="r_ad0abbec6eacb2e42ea95ed23080de242"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="../../d1/d66/structCardRef.html">CardRef</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0abbec6eacb2e42ea95ed23080de242">getCardRefs</a> () const</td></tr>
+<tr class="memdesc:ad0abbec6eacb2e42ea95ed23080de242"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a deduplicated list of all CardRefs that appear in the model.  <br /></td></tr>
 <tr class="memitem:a9792f8b64e1a2284ee3aca39a2f6939f" id="r_a9792f8b64e1a2284ee3aca39a2f6939f"><td class="memItemLeft" align="right" valign="top">QList&lt; QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9792f8b64e1a2284ee3aca39a2f6939f">getZones</a> () const</td></tr>
 <tr class="memdesc:a9792f8b64e1a2284ee3aca39a2f6939f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list of all zone names that appear in the model.  <br /></td></tr>
-<tr class="memitem:a4963ae33a987dfe4618ed622192c3943" id="r_a4963ae33a987dfe4618ed622192c3943"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4963ae33a987dfe4618ed622192c3943">isCardLegalForCurrentFormat</a> (<a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> cardInfo)</td></tr>
-<tr class="memitem:ab0e7c9ec1cd5037cc51762d38a63c2d4" id="r_ab0e7c9ec1cd5037cc51762d38a63c2d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0e7c9ec1cd5037cc51762d38a63c2d4">isCardQuantityLegalForCurrentFormat</a> (<a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> cardInfo, int quantity)</td></tr>
-<tr class="memitem:a9c45720ad82f9d3c12e98b39a0d748e8" id="r_a9c45720ad82f9d3c12e98b39a0d748e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c45720ad82f9d3c12e98b39a0d748e8">refreshCardFormatLegalities</a> ()</td></tr>
-<tr class="memitem:a8efbe7d7418bdca0c4c43dcefd4ddffc" id="r_a8efbe7d7418bdca0c4c43dcefd4ddffc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8efbe7d7418bdca0c4c43dcefd4ddffc">setActiveGroupCriteria</a> (<a class="el" href="../../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179">DeckListModelGroupCriteria::Type</a> newCriteria)</td></tr>
-<tr class="memdesc:a8efbe7d7418bdca0c4c43dcefd4ddffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the criteria used to group cards in the model.  <br /></td></tr>
+<tr id="pub-methods-0" class="groupHeader"><td colspan="2"><div class="groupHeader">Qt model overrides</div></td></tr>
+<tr class="memitem:a50aa585d273a7919f96fcb9d8dcf25d0" id="r_a50aa585d273a7919f96fcb9d8dcf25d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50aa585d273a7919f96fcb9d8dcf25d0">rowCount</a> (const QModelIndex &amp;<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>) const override</td></tr>
+<tr class="memitem:a5ff46dbf1e469617398492561810788e" id="r_a5ff46dbf1e469617398492561810788e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ff46dbf1e469617398492561810788e">columnCount</a> (const QModelIndex &amp;=QModelIndex()) const override</td></tr>
+<tr class="memitem:a2407550028a32526ff3cabdb29dd19e1" id="r_a2407550028a32526ff3cabdb29dd19e1"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2407550028a32526ff3cabdb29dd19e1">data</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>, int role) const override</td></tr>
+<tr class="memitem:aaf41cb3f6483755fbdd8595c1b25a2fa" id="r_aaf41cb3f6483755fbdd8595c1b25a2fa"><td class="memItemLeft" align="right" valign="top">QVariant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf41cb3f6483755fbdd8595c1b25a2fa">headerData</a> (int section, Qt::Orientation orientation, int role) const override</td></tr>
+<tr class="memitem:a668baf2a150e168e25b0188f0877a74d" id="r_a668baf2a150e168e25b0188f0877a74d"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a> (int row, int column, const QModelIndex &amp;<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>) const override</td></tr>
+<tr class="memitem:abc148eac619b9e6ca14691c0d73f1395" id="r_abc148eac619b9e6ca14691c0d73f1395"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>) const override</td></tr>
+<tr class="memitem:a3dad1830a059d75c4cd90512ddbfc43a" id="r_a3dad1830a059d75c4cd90512ddbfc43a"><td class="memItemLeft" align="right" valign="top">Qt::ItemFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dad1830a059d75c4cd90512ddbfc43a">flags</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>) const override</td></tr>
+<tr class="memitem:af334c11ca5bf3ccb8290836486206bab" id="r_af334c11ca5bf3ccb8290836486206bab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af334c11ca5bf3ccb8290836486206bab">setData</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>, const QVariant &amp;value, int role) override</td></tr>
+<tr class="memitem:a52c113839c36515c5350d8c979e00ee5" id="r_a52c113839c36515c5350d8c979e00ee5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52c113839c36515c5350d8c979e00ee5">removeRows</a> (int row, int count, const QModelIndex &amp;<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>) override</td></tr>
+<tr class="memitem:a93fc3adc648030ffc217b06ef4ce5c22" id="r_a93fc3adc648030ffc217b06ef4ce5c22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93fc3adc648030ffc217b06ef4ce5c22">sort</a> (int column, Qt::SortOrder order) override</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:aceb783126435fc113dcb903a9ef31f0f" id="r_aceb783126435fc113dcb903a9ef31f0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceb783126435fc113dcb903a9ef31f0f">createNodeIfNeeded</a> (const QString &amp;name, <a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>)</td></tr>
 <tr class="memitem:a6da8127a70966e36d96ebf7cb4eb007d" id="r_a6da8127a70966e36d96ebf7cb4eb007d"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6da8127a70966e36d96ebf7cb4eb007d">nodeToIndex</a> (<a class="el" href="../../dc/dd8/classAbstractDecklistNode.html">AbstractDecklistNode</a> *node) const</td></tr>
 <tr class="memitem:acae2553ca72ba83683de08e15567f7f2" id="r_acae2553ca72ba83683de08e15567f7f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d4f/classDecklistModelCardNode.html">DecklistModelCardNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acae2553ca72ba83683de08e15567f7f2">findCardNode</a> (const QString &amp;cardName, const QString &amp;zoneName, const QString &amp;providerId=&quot;&quot;, const QString &amp;cardNumber=&quot;&quot;) const</td></tr>
+<tr class="memitem:a0e42775d1e442263924c55f42f91bc0c" id="r_a0e42775d1e442263924c55f42f91bc0c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e42775d1e442263924c55f42f91bc0c">findSortedInsertRow</a> (const <a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>, const <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> &amp;cardInfo) const</td></tr>
+<tr class="memdesc:a0e42775d1e442263924c55f42f91bc0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the sorted insertion row for a card.  <br /></td></tr>
+<tr class="memitem:a7fa3026290c38cedbb04425c941b20ee" id="r_a7fa3026290c38cedbb04425c941b20ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fa3026290c38cedbb04425c941b20ee">emitBackgroundUpdates</a> (const QModelIndex &amp;<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>)</td></tr>
+<tr class="memdesc:a7fa3026290c38cedbb04425c941b20ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recursively emits the dataChanged signal with role as Qt::BackgroundRole for all indices that are children of the given node. This is used to update the background color when changing formats.  <br /></td></tr>
 <tr class="memitem:a4a2fe2b0098a76b175b947bf5996c457" id="r_a4a2fe2b0098a76b175b947bf5996c457"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a2fe2b0098a76b175b947bf5996c457">emitRecursiveUpdates</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>)</td></tr>
+<tr class="memdesc:a4a2fe2b0098a76b175b947bf5996c457"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recursively emits the dataChanged signal for the given node and all parent nodes.  <br /></td></tr>
 <tr class="memitem:a4b5bac3a4a9628c2a980cc57d1087aae" id="r_a4b5bac3a4a9628c2a980cc57d1087aae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b5bac3a4a9628c2a980cc57d1087aae">sortHelper</a> (<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *node, Qt::SortOrder order)</td></tr>
 <tr class="memitem:a40eb591f587892f375f9942f6668519b" id="r_a40eb591f587892f375f9942f6668519b"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a40eb591f587892f375f9942f6668519b template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40eb591f587892f375f9942f6668519b">getNode</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>) const</td></tr>
+<tr class="memitem:a9c45720ad82f9d3c12e98b39a0d748e8" id="r_a9c45720ad82f9d3c12e98b39a0d748e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c45720ad82f9d3c12e98b39a0d748e8">refreshCardFormatLegalities</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a1cbc0ea3cc8619d1f3ba73722d7c72a7" id="r_a1cbc0ea3cc8619d1f3ba73722d7c72a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d68/classDeckList.html">DeckList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cbc0ea3cc8619d1f3ba73722d7c72a7">deckList</a></td></tr>
+<tr class="memitem:a93f8ef6228bd75ea618cdc9d4d01a9ec" id="r_a93f8ef6228bd75ea618cdc9d4d01a9ec"><td class="memItemLeft" align="right" valign="top">QSharedPointer&lt; <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93f8ef6228bd75ea618cdc9d4d01a9ec">deckList</a></td></tr>
 <tr class="memitem:acf9b31e662afe4a86fbb2b4cc98f759a" id="r_acf9b31e662afe4a86fbb2b4cc98f759a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf9b31e662afe4a86fbb2b4cc98f759a">root</a></td></tr>
 <tr class="memitem:aec2d7e1d65996197326e43f9436db4ac" id="r_aec2d7e1d65996197326e43f9436db4ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179">DeckListModelGroupCriteria::Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2d7e1d65996197326e43f9436db4ac">activeGroupCriteria</a> = <a class="el" href="../../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179a081ae8dc8b4489f081e67a36ff6128ee">DeckListModelGroupCriteria::MAIN_TYPE</a></td></tr>
 <tr class="memitem:a6d0bdb8f1f6df2ea7e15bfd9158047c1" id="r_a6d0bdb8f1f6df2ea7e15bfd9158047c1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d0bdb8f1f6df2ea7e15bfd9158047c1">lastKnownColumn</a></td></tr>
@@ -203,7 +213,7 @@ Private Attributes</h2></td></tr>
 </ul>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a83489c3a11ffc4cc8a713cda2d780aa9" name="a83489c3a11ffc4cc8a713cda2d780aa9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83489c3a11ffc4cc8a713cda2d780aa9">&#9670;&#160;</a></span>DeckListModel()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a83489c3a11ffc4cc8a713cda2d780aa9">&#9670;&#160;</a></span>DeckListModel() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,6 +238,45 @@ Private Attributes</h2></td></tr>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a83489c3a11ffc4cc8a713cda2d780aa9_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a83489c3a11ffc4cc8a713cda2d780aa9_icgraph.svg" width="504" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8d1b0d175ab928d4b1002307c2b17af9" name="a8d1b0d175ab928d4b1002307c2b17af9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1b0d175ab928d4b1002307c2b17af9">&#9670;&#160;</a></span>DeckListModel() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DeckListModel::DeckListModel </td>
+          <td>(</td>
+          <td class="paramtype">QObject *</td>          <td class="paramname"><span class="paramname"><em>parent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QSharedPointer&lt; <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>deckList</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a8d1b0d175ab928d4b1002307c2b17af9_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -294,7 +343,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_ac31406c75864382e2499851f3c84460e_icgraph.svg" width="450" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_ac31406c75864382e2499851f3c84460e_icgraph.svg" width="100%" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -338,6 +387,54 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a889fd2a14a47f7433a130ac36562cb17_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a889fd2a14a47f7433a130ac36562cb17_icgraph.svg" width="639" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a050afffcc543e063c9eecc4fda084f7d" name="a050afffcc543e063c9eecc4fda084f7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a050afffcc543e063c9eecc4fda084f7d">&#9670;&#160;</a></span>cardAddedAt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckListModel::cardAddedAt </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted whenever a card is added to the deck, regardless of whether it's an entirely new card or an existing card that got incremented. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the card that got added. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a050afffcc543e063c9eecc4fda084f7d_cgraph.svg" width="100%" height="383"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a050afffcc543e063c9eecc4fda084f7d_icgraph.svg" width="100%" height="555"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -360,7 +457,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a1ecfd117038f01fce09c99796ccf67ea_cgraph.svg" width="100%" height="455"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a1ecfd117038f01fce09c99796ccf67ea_cgraph.svg" width="100%" height="487"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -390,7 +487,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a5ff46dbf1e469617398492561810788e_icgraph.svg" width="100%" height="497"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a5ff46dbf1e469617398492561810788e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -429,7 +526,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_aceb783126435fc113dcb903a9ef31f0f_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_aceb783126435fc113dcb903a9ef31f0f_icgraph.svg" width="100%" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -468,7 +565,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a2407550028a32526ff3cabdb29dd19e1_icgraph.svg" width="444" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a2407550028a32526ff3cabdb29dd19e1_icgraph.svg" width="100%" height="381"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -498,14 +595,46 @@ Here is the caller graph for this function:</div>
 
 <p>Emitted whenever the deck hash changes due to modifications in the model. </p>
 <div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a3b3448445b238d8ed10203d302b2a039_icgraph.svg" width="100%" height="555"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a7ec31566a7293507368174ddd41507bc" name="a7ec31566a7293507368174ddd41507bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ec31566a7293507368174ddd41507bc">&#9670;&#160;</a></span>deckReplaced</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckListModel::deckReplaced </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted whenever the deck in the model has been replaced with a new one. </p>
+<div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a3b3448445b238d8ed10203d302b2a039_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a7ec31566a7293507368174ddd41507bc_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a3b3448445b238d8ed10203d302b2a039_icgraph.svg" width="100%" height="423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a7ec31566a7293507368174ddd41507bc_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -515,6 +644,9 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void DeckListModel::emitBackgroundUpdates </td>
@@ -523,7 +655,20 @@ Here is the caller graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Recursively emits the dataChanged signal with role as Qt::BackgroundRole for all indices that are children of the given node. This is used to update the background color when changing formats. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>The parent node </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -532,7 +677,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a7fa3026290c38cedbb04425c941b20ee_icgraph.svg" width="479" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a7fa3026290c38cedbb04425c941b20ee_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -559,6 +704,14 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Recursively emits the dataChanged signal for the given node and all parent nodes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The parent node </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -567,7 +720,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a4a2fe2b0098a76b175b947bf5996c457_icgraph.svg" width="100%" height="425"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a4a2fe2b0098a76b175b947bf5996c457_icgraph.svg" width="100%" height="512"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -623,12 +776,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a1d400b8fce69e71fffa9a5e0ae5d3df3_cgraph.svg" width="100%" height="590"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a1d400b8fce69e71fffa9a5e0ae5d3df3_cgraph.svg" width="100%" height="579"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a1d400b8fce69e71fffa9a5e0ae5d3df3_icgraph.svg" width="470" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a1d400b8fce69e71fffa9a5e0ae5d3df3_icgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -672,33 +825,41 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_acae2553ca72ba83683de08e15567f7f2_cgraph.svg" width="100%" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_acae2553ca72ba83683de08e15567f7f2_cgraph.svg" width="100%" height="552"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_acae2553ca72ba83683de08e15567f7f2_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_acae2553ca72ba83683de08e15567f7f2_icgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a186040658f657a0e2629fcb07d9d5ba5" name="a186040658f657a0e2629fcb07d9d5ba5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a186040658f657a0e2629fcb07d9d5ba5">&#9670;&#160;</a></span>findSortedInsertRow()</h2>
+<a id="a0e42775d1e442263924c55f42f91bc0c" name="a0e42775d1e442263924c55f42f91bc0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e42775d1e442263924c55f42f91bc0c">&#9670;&#160;</a></span>findSortedInsertRow()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int DeckListModel::findSortedInsertRow </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *</td>          <td class="paramname"><span class="paramname"><em>parent</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *</td>          <td class="paramname"><span class="paramname"><em>parent</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a></td>          <td class="paramname"><span class="paramname"><em>cardInfo</em></span>&#160;) const</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cardInfo</em></span>&#160;) const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Determines the sorted insertion row for a card. </p>
@@ -713,12 +874,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a186040658f657a0e2629fcb07d9d5ba5_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a0e42775d1e442263924c55f42f91bc0c_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a186040658f657a0e2629fcb07d9d5ba5_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a0e42775d1e442263924c55f42f91bc0c_icgraph.svg" width="100%" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -753,6 +914,31 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a61a941923868e8d058c650853bdab354" name="a61a941923868e8d058c650853bdab354"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61a941923868e8d058c650853bdab354">&#9670;&#160;</a></span>forEachCard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckListModel::forEachCard </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; void(<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *, <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> *)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>func</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply a function to every card in the deck tree. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">func</td><td>Function taking (zone node, card node). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a2b1428625ee6777e993ccd51910d2eb4" name="a2b1428625ee6777e993ccd51910d2eb4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b1428625ee6777e993ccd51910d2eb4">&#9670;&#160;</a></span>getCardNames()</h2>
 
@@ -781,6 +967,38 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a2b1428625ee6777e993ccd51910d2eb4_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad0abbec6eacb2e42ea95ed23080de242" name="ad0abbec6eacb2e42ea95ed23080de242"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0abbec6eacb2e42ea95ed23080de242">&#9670;&#160;</a></span>getCardRefs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="../../d1/d66/structCardRef.html">CardRef</a> &gt; DeckListModel::getCardRefs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a deduplicated list of all CardRefs that appear in the model. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_ad0abbec6eacb2e42ea95ed23080de242_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -848,8 +1066,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ad54c12f78c4a83fa1a0953cec4f2db0e" name="ad54c12f78c4a83fa1a0953cec4f2db0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad54c12f78c4a83fa1a0953cec4f2db0e">&#9670;&#160;</a></span>getDeckList()</h2>
+<a id="a224db4a8d5389f1e96cb6bc5b6ee9dc9" name="a224db4a8d5389f1e96cb6bc5b6ee9dc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a224db4a8d5389f1e96cb6bc5b6ee9dc9">&#9670;&#160;</a></span>getDeckList()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -858,7 +1076,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d68/classDeckList.html">DeckList</a> * DeckListModel::getDeckList </td>
+          <td class="memname">QSharedPointer&lt; <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &gt; DeckListModel::getDeckList </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -870,45 +1088,6 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a988e1ea8c2f4f64d070ccb45afeee140" name="a988e1ea8c2f4f64d070ccb45afeee140"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a988e1ea8c2f4f64d070ccb45afeee140">&#9670;&#160;</a></span>getGroupCriteriaForCard()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QString DeckListModel::getGroupCriteriaForCard </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a></td>          <td class="paramname"><span class="paramname"><em>info</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the value of the grouping category for a card based on the current criteria. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">info</td><td>Pointer to card information. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>String representing the value of the current grouping criteria for the card. </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a988e1ea8c2f4f64d070ccb45afeee140_icgraph.svg" width="100%" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>
@@ -1087,60 +1266,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a668baf2a150e168e25b0188f0877a74d_icgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a4963ae33a987dfe4618ed622192c3943" name="a4963ae33a987dfe4618ed622192c3943"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4963ae33a987dfe4618ed622192c3943">&#9670;&#160;</a></span>isCardLegalForCurrentFormat()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DeckListModel::isCardLegalForCurrentFormat </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a></td>          <td class="paramname"><span class="paramname"><em>cardInfo</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a4963ae33a987dfe4618ed622192c3943_icgraph.svg" width="100%" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="ab0e7c9ec1cd5037cc51762d38a63c2d4" name="ab0e7c9ec1cd5037cc51762d38a63c2d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0e7c9ec1cd5037cc51762d38a63c2d4">&#9670;&#160;</a></span>isCardQuantityLegalForCurrentFormat()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DeckListModel::isCardQuantityLegalForCurrentFormat </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a></td>          <td class="paramname"><span class="paramname"><em>cardInfo</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_ab0e7c9ec1cd5037cc51762d38a63c2d4_cgraph.svg" width="100%" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_ab0e7c9ec1cd5037cc51762d38a63c2d4_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a668baf2a150e168e25b0188f0877a74d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1176,6 +1302,47 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a6da8127a70966e36d96ebf7cb4eb007d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a9df6d2bf3d1f0f09e57f190585e76f9a" name="a9df6d2bf3d1f0f09e57f190585e76f9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9df6d2bf3d1f0f09e57f190585e76f9a">&#9670;&#160;</a></span>offsetCountAtIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DeckListModel::offsetCountAtIndex </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>idx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Changes the <span class="tt">amount</span> field in the card node at the index by the amount. Removes the node if it causes the amount to fall to 0 or below. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td>The index of a card node. No-ops if the index is invalid or not a card node. </td></tr>
+    <tr><td class="paramname">offset</td><td>The amount to change the amount field by. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the operation was successful </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a9df6d2bf3d1f0f09e57f190585e76f9a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a9df6d2bf3d1f0f09e57f190585e76f9a_icgraph.svg" width="100%" height="405"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1243,12 +1410,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a0f1a16328bef79628489b3384cf9377b_cgraph.svg" width="100%" height="455"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a0f1a16328bef79628489b3384cf9377b_cgraph.svg" width="100%" height="445"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a0f1a16328bef79628489b3384cf9377b_icgraph.svg" width="100%" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a0f1a16328bef79628489b3384cf9377b_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1258,6 +1425,9 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void DeckListModel::refreshCardFormatLegalities </td>
@@ -1266,6 +1436,11 @@ Here is the caller graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1275,7 +1450,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a9c45720ad82f9d3c12e98b39a0d748e8_icgraph.svg" width="448" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a9c45720ad82f9d3c12e98b39a0d748e8_icgraph.svg" width="100%" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1354,7 +1529,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a50aa585d273a7919f96fcb9d8dcf25d0_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a50aa585d273a7919f96fcb9d8dcf25d0_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1386,14 +1561,22 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a1ec5508f88854cb5fb365dca3d42908d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a1ec5508f88854cb5fb365dca3d42908d_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
 <a id="a8efbe7d7418bdca0c4c43dcefd4ddffc" name="a8efbe7d7418bdca0c4c43dcefd4ddffc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8efbe7d7418bdca0c4c43dcefd4ddffc">&#9670;&#160;</a></span>setActiveGroupCriteria()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8efbe7d7418bdca0c4c43dcefd4ddffc">&#9670;&#160;</a></span>setActiveGroupCriteria</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void DeckListModel::setActiveGroupCriteria </td>
@@ -1402,6 +1585,11 @@ Here is the call graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Sets the criteria used to group cards in the model. </p>
@@ -1414,7 +1602,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a8efbe7d7418bdca0c4c43dcefd4ddffc_cgraph.svg" width="100%" height="455"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a8efbe7d7418bdca0c4c43dcefd4ddffc_cgraph.svg" width="100%" height="445"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a8efbe7d7418bdca0c4c43dcefd4ddffc_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1455,11 +1648,16 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_af334c11ca5bf3ccb8290836486206bab_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_af334c11ca5bf3ccb8290836486206bab_icgraph.svg" width="100%" height="405"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
-<a id="a889eec45c358f6de21561faa009eb090" name="a889eec45c358f6de21561faa009eb090"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a889eec45c358f6de21561faa009eb090">&#9670;&#160;</a></span>setDeckList()</h2>
+<a id="aa87143204e143b61eb7d5811bb007477" name="aa87143204e143b61eb7d5811bb007477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa87143204e143b61eb7d5811bb007477">&#9670;&#160;</a></span>setDeckList()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1467,7 +1665,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void DeckListModel::setDeckList </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/d68/classDeckList.html">DeckList</a> *</td>          <td class="paramname"><span class="paramname"><em>_deck</em></span></td><td>)</td>
+          <td class="paramtype">const QSharedPointer&lt; <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>_deck</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1481,12 +1679,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a889eec45c358f6de21561faa009eb090_cgraph.svg" width="100%" height="455"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_aa87143204e143b61eb7d5811bb007477_cgraph.svg" width="100%" height="487"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a889eec45c358f6de21561faa009eb090_icgraph.svg" width="446" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_aa87143204e143b61eb7d5811bb007477_icgraph.svg" width="484" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1525,7 +1723,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a93fc3adc648030ffc217b06ef4ce5c22_icgraph.svg" width="648" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a93fc3adc648030ffc217b06ef4ce5c22_icgraph.svg" width="100%" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1564,7 +1762,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a4b5bac3a4a9628c2a980cc57d1087aae_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a4b5bac3a4a9628c2a980cc57d1087aae_icgraph.svg" width="100%" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1592,8 +1790,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a1cbc0ea3cc8619d1f3ba73722d7c72a7" name="a1cbc0ea3cc8619d1f3ba73722d7c72a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cbc0ea3cc8619d1f3ba73722d7c72a7">&#9670;&#160;</a></span>deckList</h2>
+<a id="a93f8ef6228bd75ea618cdc9d4d01a9ec" name="a93f8ef6228bd75ea618cdc9d4d01a9ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93f8ef6228bd75ea618cdc9d4d01a9ec">&#9670;&#160;</a></span>deckList</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1602,7 +1800,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d68/classDeckList.html">DeckList</a>* DeckListModel::deckList</td>
+          <td class="memname">QSharedPointer&lt;<a class="el" href="../../da/d68/classDeckList.html">DeckList</a>&gt; DeckListModel::deckList</td>
         </tr>
       </table>
   </td>
@@ -1611,7 +1809,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Pointer to the deck loader providing the underlying data. </p>
+<p>Pointer to the decklist providing the underlying data. </p>
 
 </div>
 </div>

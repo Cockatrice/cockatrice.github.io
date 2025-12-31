@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-31-Development-2.11.0-beta.41</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,12 +123,29 @@ $(function(){initNavTree('dd/d8d/qt__utils_8h_source.html','../../',''); });
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>}</div>
 </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>} <span class="comment">// namespace QtUtils</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="}">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301">   19</a></span><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301">clearLayoutRec</a>(QLayout *l)</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordflow">if</span> (!l)</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    QLayoutItem *it;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordflow">while</span> ((it = l-&gt;takeAt(0)) != <span class="keyword">nullptr</span>) {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">if</span> (QWidget *w = it-&gt;widget())</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            w-&gt;deleteLater();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">if</span> (QLayout *sub = it-&gt;layout())</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            <a class="code hl_function" href="../../dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301">clearLayoutRec</a>(sub);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keyword">delete</span> it;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
 </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_QT_UTILS_H</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>} <span class="comment">// namespace QtUtils</span></div>
+</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_QT_UTILS_H</span></div>
 <div class="ttc" id="anamespaceQtUtils_html"><div class="ttname"><a href="../../dc/d55/namespaceQtUtils.html">QtUtils</a></div><div class="ttdef"><b>Definition</b> qt_utils.h:6</div></div>
 <div class="ttc" id="anamespaceQtUtils_html_a573d4567ad2940b0f5fce244a0f585f6"><div class="ttname"><a href="../../dc/d55/namespaceQtUtils.html#a573d4567ad2940b0f5fce244a0f585f6">QtUtils::findParentOfType</a></div><div class="ttdeci">T * findParentOfType(const QObject *obj)</div><div class="ttdef"><b>Definition</b> qt_utils.h:7</div></div>
+<div class="ttc" id="anamespaceQtUtils_html_a69bddef0b498de53c54c5b47f145f301"><div class="ttname"><a href="../../dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301">QtUtils::clearLayoutRec</a></div><div class="ttdeci">static void clearLayoutRec(QLayout *l)</div><div class="ttdef"><b>Definition</b> qt_utils.h:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

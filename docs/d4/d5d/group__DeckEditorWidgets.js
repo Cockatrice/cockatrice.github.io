@@ -36,6 +36,7 @@ var group__DeckEditorWidgets =
       [ "layout", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a185b97c3eceee0fe6a50aae2759d5f1a", null ],
       [ "printingSelector", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a586d54e377d31e6cb0fcff1829ef17a8", null ],
       [ "sampleHandWidget", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a8684fdd577c2f6b75c9357df1803366f", null ],
+      [ "statsAnalyzer", "d9/dcf/classTabDeckEditorVisualTabWidget.html#afe7d4e9e068ad36ebf41cb440bc930ba", null ],
       [ "visualDatabaseDisplay", "d9/dcf/classTabDeckEditorVisualTabWidget.html#a9b171f77e3d9df05943385458d367472", null ],
       [ "visualDeckView", "d9/dcf/classTabDeckEditorVisualTabWidget.html#ad8fb88e3c0c4c593048d58d5e747fe07", null ]
     ] ]

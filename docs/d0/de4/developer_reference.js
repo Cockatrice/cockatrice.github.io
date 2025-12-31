@@ -15,7 +15,10 @@ var developer_reference =
       ] ],
       [ "Using Cards", "da/d69/primer_cards.html#using-cards", null ]
     ] ],
-    [ "Card Database Schema and Parsing", "d7/d47/card_database_schema_and_parsing.html", null ],
+    [ "Card Database Schema and Parsing", "d7/d47/card_database_schema_and_parsing.html", [
+      [ "Card Database Schemas", "d7/d47/card_database_schema_and_parsing.html#card-database-schemas", null ],
+      [ "Card Database Parsing", "d7/d47/card_database_schema_and_parsing.html#card-database-parsing", null ]
+    ] ],
     [ "Querying the Card Database", "da/d66/querying_the_card_database.html", [
       [ "The CardDatabaseQuerier Class", "da/d66/querying_the_card_database.html#the-carddatabasequerier-class", [
         [ "Obtaining a handle to the CardDatabaseQuerier for usage", "da/d66/querying_the_card_database.html#obtaining-a-handle-to-the-carddatabasequerier-for-usage", null ],

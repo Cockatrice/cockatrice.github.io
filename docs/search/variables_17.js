@@ -10,10 +10,11 @@ var searchData=
   ['whitespace_5fdefinition_5fname_7',['WHITESPACE_DEFINITION_NAME',['../dc/db2/namespacepeg.html#a5ffccf4db0cc93c828358908146917c2',1,'peg']]],
   ['whitespaceope_8',['whitespaceOpe',['../df/d94/classpeg_1_1Context.html#a3ec385bb6f437a97bffe29f879fe6924',1,'peg::Context::whitespaceOpe'],['../d8/d94/classpeg_1_1Definition.html#aa7a4fee9f484c027aea2484f9a4b92d8',1,'peg::Definition::whitespaceOpe']]],
   ['widgetloadingbuffertimer_9',['widgetLoadingBufferTimer',['../d7/dbc/classPrintingSelector.html#aeadece55f105261f20df3918c97895a7',1,'PrintingSelector']]],
-  ['width_10',['width',['../d9/dfc/classDeckViewCardContainer.html#a1ba5a3eea6aced39eaec84be7238a86a',1,'DeckViewCardContainer::width'],['../da/d20/classPhaseButton.html#aacd15a2baefe446786a081e1d3bbc4e5',1,'PhaseButton::width'],['../d7/d23/classPhasesToolbar.html#afee56778a24285cfc26f3932495ac3cf',1,'PhasesToolbar::width'],['../d4/dc7/classHandZone.html#a1a839382917867e1273e3638efd37c74',1,'HandZone::width'],['../d6/d6f/classTableZone.html#a2e2889a87fb41a321425926e26333169',1,'TableZone::width']]],
-  ['wndsets_11',['wndSets',['../d6/d1a/classMainWindow.html#aea8e652c33d58ab63e8b1c4f1eee7a8b',1,'MainWindow']]],
-  ['word_5fdefinition_5fname_12',['WORD_DEFINITION_NAME',['../dc/db2/namespacepeg.html#a05fef7118467bf5732c5a658a41bb2aa',1,'peg']]],
-  ['wordope_13',['wordOpe',['../df/d94/classpeg_1_1Context.html#a1983c08e355bac46676f3a1fc24f9e0e',1,'peg::Context::wordOpe'],['../d8/d94/classpeg_1_1Definition.html#a028424db0704ddf17e5c5eb69348da16',1,'peg::Definition::wordOpe']]],
-  ['worker_14',['worker',['../d2/d5d/classCardPictureLoader.html#a410348349fde931141ef5b26607fd579',1,'CardPictureLoader']]],
-  ['writeablerevealzone_15',['writeableRevealZone',['../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2',1,'ZoneViewZoneLogic']]]
+  ['widgets_10',['widgets',['../d2/df2/classAnalyticsPanelWidgetFactory.html#a349d8df7dd9b96ed10fe1e575b3d0779',1,'AnalyticsPanelWidgetFactory']]],
+  ['width_11',['width',['../d9/dfc/classDeckViewCardContainer.html#a1ba5a3eea6aced39eaec84be7238a86a',1,'DeckViewCardContainer::width'],['../da/d20/classPhaseButton.html#aacd15a2baefe446786a081e1d3bbc4e5',1,'PhaseButton::width'],['../d7/d23/classPhasesToolbar.html#afee56778a24285cfc26f3932495ac3cf',1,'PhasesToolbar::width'],['../d4/dc7/classHandZone.html#a1a839382917867e1273e3638efd37c74',1,'HandZone::width'],['../d6/d6f/classTableZone.html#a2e2889a87fb41a321425926e26333169',1,'TableZone::width']]],
+  ['wndsets_12',['wndSets',['../d6/d1a/classMainWindow.html#aea8e652c33d58ab63e8b1c4f1eee7a8b',1,'MainWindow']]],
+  ['word_5fdefinition_5fname_13',['WORD_DEFINITION_NAME',['../dc/db2/namespacepeg.html#a05fef7118467bf5732c5a658a41bb2aa',1,'peg']]],
+  ['wordope_14',['wordOpe',['../df/d94/classpeg_1_1Context.html#a1983c08e355bac46676f3a1fc24f9e0e',1,'peg::Context::wordOpe'],['../d8/d94/classpeg_1_1Definition.html#a028424db0704ddf17e5c5eb69348da16',1,'peg::Definition::wordOpe']]],
+  ['worker_15',['worker',['../d2/d5d/classCardPictureLoader.html#a410348349fde931141ef5b26607fd579',1,'CardPictureLoader']]],
+  ['writeablerevealzone_16',['writeableRevealZone',['../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2',1,'ZoneViewZoneLogic']]]
 ];

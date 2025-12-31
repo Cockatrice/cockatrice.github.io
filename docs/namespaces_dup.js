@@ -79,6 +79,7 @@ var namespaces_dup =
     [ "peg", "dc/db2/namespacepeg.html", "dc/db2/namespacepeg" ],
     [ "QtJson", "dc/dfb/namespaceQtJson.html", "dc/dfb/namespaceQtJson" ],
     [ "QtUtils", "dc/d55/namespaceQtUtils.html", [
+      [ "clearLayoutRec", "dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301", null ],
       [ "findParentOfType", "dc/d55/namespaceQtUtils.html#a573d4567ad2940b0f5fce244a0f585f6", null ]
     ] ]
 ];

@@ -7,7 +7,7 @@
     <meta content="IE=11" http-equiv="X-UA-Compatible"/>
     <meta content="Doxygen 1.14.0" name="generator"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <title>Cockatrice: cockatrice/src/interface/widgets/deck_analytics/mana_devotion_widget.cpp File Reference</title>
+    <title>Cockatrice: cockatrice/src/interface/widgets/deck_analytics/analyzer_modules/mana_devotion/mana_devotion_widget.cpp File Reference</title>
     <link href="../../cockatrice.png" rel="icon" type="image/x-icon"/>
     <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
     <script src="../../jquery.js" type="text/javascript"></script>
@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-31-Development-2.11.0-beta.41</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -104,14 +104,14 @@ $(function(){initNavTree('df/d8f/mana__devotion__widget_8cpp.html','../../','');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../db/d50/mana__devotion__widget_8h_source.html">mana_devotion_widget.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d36/deck__loader_8h_source.html">../../deck_loader/deck_loader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d58/banner__widget_8h_source.html">../general/display/banner_widget.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d72/bar__widget_8h_source.html">../general/display/bar_widget.h</a>&quot;</code><br />
-<code>#include &lt;<a class="el" href="../../d7/d66/card__database_8h_source.html">libcockatrice/card/database/card_database.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d7/d1a/deck__list_8h_source.html">libcockatrice/deck_list/deck_list.h</a>&gt;</code><br />
-<code>#include &lt;regex&gt;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d72/bar__widget_8h_source.html">../../../general/display/charts/bars/bar_widget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d1c/color__bar_8h_source.html">../../../general/display/charts/bars/color_bar.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/df8/color__pie_8h_source.html">../../../general/display/charts/pies/color_pie.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/dee/analytics__panel__widget__registrar_8h_source.html">../../analytics_panel_widget_registrar.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/df2/deck__list__statistics__analyzer_8h_source.html">../../deck_list_statistics_analyzer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/da8/mana__devotion__config__dialog_8h_source.html">mana_devotion_config_dialog.h</a>&quot;</code><br />
+<code>#include &lt;QHash&gt;</code><br />
+<code>#include &lt;QInputDialog&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for mana_devotion_widget.cpp:</div>
 <div class="dyncontent">
@@ -132,7 +132,7 @@ Include dependency graph for mana_devotion_widget.cpp:</div>
 <script src="../../graph_toggle.js"></script>
 <div class="navpath" id="nav-path"><!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a href="../../dir_cd36a3f9f9d202308a2deae5eeddfa6f.html">interface</a></li><li class="navelem"><a href="../../dir_ff904cee2da7fc4774f8298cfe1e7610.html">widgets</a></li><li class="navelem"><a href="../../dir_3e590bd93444cb3a9b6105ee99d08734.html">deck_analytics</a></li><li class="navelem"><a href="../../df/d8f/mana__devotion__widget_8cpp.html">mana_devotion_widget.cpp</a></li>
+        <li class="navelem"><a href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a href="../../dir_cd36a3f9f9d202308a2deae5eeddfa6f.html">interface</a></li><li class="navelem"><a href="../../dir_ff904cee2da7fc4774f8298cfe1e7610.html">widgets</a></li><li class="navelem"><a href="../../dir_3e590bd93444cb3a9b6105ee99d08734.html">deck_analytics</a></li><li class="navelem"><a href="../../dir_37757811ffaba52753671a6d9e3d018b.html">analyzer_modules</a></li><li class="navelem"><a href="../../dir_3d5e89e65f65cf2c32c7ace96c249d62.html">mana_devotion</a></li><li class="navelem"><a href="../../df/d8f/mana__devotion__widget_8cpp.html">mana_devotion_widget.cpp</a></li>
         <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img alt="doxygen"
                                                                                           class="footer"
                                                                                           height="31" src="../../doxygen.svg"

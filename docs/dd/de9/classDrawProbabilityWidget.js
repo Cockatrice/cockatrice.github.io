@@ -1,0 +1,27 @@
+var classDrawProbabilityWidget =
+[
+    [ "DrawProbabilityWidget", "dd/de9/classDrawProbabilityWidget.html#a2511fa3ebe6eccc3aa2444d8710907ca", null ],
+    [ "applyConfigToToolbar", "dd/de9/classDrawProbabilityWidget.html#a2166ec8564489f45111a6e7c8f8e68bb", null ],
+    [ "calculateProbability", "dd/de9/classDrawProbabilityWidget.html#abb1ff6ee9ea120b3ed9c51c87210289d", null ],
+    [ "createConfigDialog", "dd/de9/classDrawProbabilityWidget.html#adb02c06ca6f16e1a1d6d8d5919e8a9da", null ],
+    [ "extractConfigFromDialog", "dd/de9/classDrawProbabilityWidget.html#ae29d6393a060a44ceeaaa88f3b4b73c4", null ],
+    [ "hypergeometricProbability", "dd/de9/classDrawProbabilityWidget.html#a6e421b6145571e11dcd72f1948fbb1a2", null ],
+    [ "loadConfig", "dd/de9/classDrawProbabilityWidget.html#a626f7ef02db7edc22182767222d2e3d2", null ],
+    [ "retranslateUi", "dd/de9/classDrawProbabilityWidget.html#afaa01f44a1bda14010431a0457fa8c4c", null ],
+    [ "updateDisplay", "dd/de9/classDrawProbabilityWidget.html#a60e0c30a668616ce6215f24df79dcd07", null ],
+    [ "updateFilterOptions", "dd/de9/classDrawProbabilityWidget.html#a2aa6939a6a38eed879adadf6dc7cf66d", null ],
+    [ "cardNameEdit", "dd/de9/classDrawProbabilityWidget.html#a7460908a124ecdc6c6543014bc59b8c4", null ],
+    [ "config", "dd/de9/classDrawProbabilityWidget.html#a48d7705faf0d6cfc4b0500b630adcfc3", null ],
+    [ "controlLayout", "dd/de9/classDrawProbabilityWidget.html#a29fbd669280d515a4dc62a5f3cbffa66", null ],
+    [ "controls", "dd/de9/classDrawProbabilityWidget.html#a2be05f91eb38a8b93e4773ef17222e4c", null ],
+    [ "criteriaCombo", "dd/de9/classDrawProbabilityWidget.html#ace79977d2f496c1851b6cfcfa4f74273", null ],
+    [ "drawnSpin", "dd/de9/classDrawProbabilityWidget.html#a4afd46ccb95ea614863ff9d51500ffb4", null ],
+    [ "exactnessCombo", "dd/de9/classDrawProbabilityWidget.html#a1fda7e32c21aa7f95e036aaae4353970", null ],
+    [ "filterCombo", "dd/de9/classDrawProbabilityWidget.html#ab189c77586aa17e2d41a0d22baa374a4", null ],
+    [ "labelMiddle", "dd/de9/classDrawProbabilityWidget.html#af8f057d500498785d5147206138a7003", null ],
+    [ "labelPrefix", "dd/de9/classDrawProbabilityWidget.html#a31088d0d7fbccfb6c406619b6331489e", null ],
+    [ "labelSuffix", "dd/de9/classDrawProbabilityWidget.html#acd10b9413bf1b82eb4eed9e4a9c5538e", null ],
+    [ "manaValueSpin", "dd/de9/classDrawProbabilityWidget.html#ac87ffd2377e58b67b373b127992994b4", null ],
+    [ "quantitySpin", "dd/de9/classDrawProbabilityWidget.html#a60da39b426b335ce5a9cff84ecc8f802", null ],
+    [ "resultTable", "dd/de9/classDrawProbabilityWidget.html#a37f85bcba04a2b7722d2e87cb2ed1f87", null ]
+];

@@ -36,7 +36,7 @@ var dir_4b0cf6f004d72cb4344e8e7ea1f16c10 =
     [ "dlg_manage_sets.h", "db/db1/dlg__manage__sets_8h.html", "db/db1/dlg__manage__sets_8h" ],
     [ "dlg_register.cpp", "db/ded/dlg__register_8cpp.html", null ],
     [ "dlg_register.h", "df/da9/dlg__register_8h.html", "df/da9/dlg__register_8h" ],
-    [ "dlg_select_set_for_cards.cpp", "dc/d15/dlg__select__set__for__cards_8cpp.html", null ],
+    [ "dlg_select_set_for_cards.cpp", "dc/d15/dlg__select__set__for__cards_8cpp.html", "dc/d15/dlg__select__set__for__cards_8cpp" ],
     [ "dlg_select_set_for_cards.h", "d6/d38/dlg__select__set__for__cards_8h.html", "d6/d38/dlg__select__set__for__cards_8h" ],
     [ "dlg_settings.cpp", "dd/d7b/dlg__settings_8cpp.html", "dd/d7b/dlg__settings_8cpp" ],
     [ "dlg_settings.h", "d2/d12/dlg__settings_8h.html", "d2/d12/dlg__settings_8h" ],

@@ -16,7 +16,7 @@ var searchData=
   ['to_20import_13',['Where to import?',['../db/d91/importing_decks.html#where-to-import',1,'']]],
   ['to_20the_20carddatabasequerier_20for_20usage_14',['Obtaining a handle to the CardDatabaseQuerier for usage',['../da/d66/querying_the_card_database.html#obtaining-a-handle-to-the-carddatabasequerier-for-usage',1,'']]],
   ['todo_20list_15',['Todo List',['../dd/da0/todo.html',1,'']]],
-  ['translations_16',['Translations &lt;a href=&quot;https://explore.transifex.com/cockatrice/cockatrice/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/translate-on%20transifex-brightgreen&quot; alt=&quot;Transifex Project&quot; class=&quot;inline&quot;/&gt;&lt;/a&gt;',['../d0/d30/md_README.html#translations-transifex-projecthttpsimgshieldsiobadgetranslate-on20transifex-brightgreenhttpsexploretransifexcomcockatricecockatrice',1,'']]],
+  ['translation_16',['Translation &lt;a href=&quot;https://explore.transifex.com/cockatrice/cockatrice/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/translate-on%20transifex-brightgreen&quot; alt=&quot;Transifex Project&quot; class=&quot;inline&quot;/&gt;&lt;/a&gt;',['../d0/d30/md_README.html#translation-transifex-projecthttpsimgshieldsiobadgetranslate-on20transifex-brightgreenhttpsexploretransifexcomcockatricecockatrice',1,'']]],
   ['triggered_17',['How requests are triggered',['../d9/d1c/loading_card_pictures.html#how-requests-are-triggered',1,'']]],
   ['typical_20usage_3a_18',['Typical usage:',['../dc/d8b/classSideboardPlan.html#typical-usage',1,'']]]
 ];

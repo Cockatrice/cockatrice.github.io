@@ -3,7 +3,7 @@ var classPrintingSelectorCardSortingWidget =
     [ "PrintingSelectorCardSortingWidget", "de/dfd/classPrintingSelectorCardSortingWidget.html#a815dd12846a9398c4cbac464f0f7c0bc", null ],
     [ "filterSets", "de/dfd/classPrintingSelectorCardSortingWidget.html#a0ab211756f810822204bd720c918c466", null ],
     [ "prependPinnedPrintings", "de/dfd/classPrintingSelectorCardSortingWidget.html#a13f148472a17f2e574728968aabadae2", null ],
-    [ "prependPrintingsInDeck", "de/dfd/classPrintingSelectorCardSortingWidget.html#a8e67428e0ed93f0e3bec45527671803b", null ],
+    [ "prependPrintingsInDeck", "de/dfd/classPrintingSelectorCardSortingWidget.html#a077b0d184751955161b6bb2c0ed3e0dd", null ],
     [ "sortSets", "de/dfd/classPrintingSelectorCardSortingWidget.html#a91d5704fca26f55be84c36d980dffab9", null ],
     [ "updateSortOrder", "de/dfd/classPrintingSelectorCardSortingWidget.html#a8873c3cdfcc5af14716863532102b684", null ],
     [ "updateSortSetting", "de/dfd/classPrintingSelectorCardSortingWidget.html#a9a75164176d0a86bd27581c0131723ee", null ],

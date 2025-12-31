@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2025-12-31-Development-2.11.0-beta.41</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -113,8 +113,11 @@ Include dependency graph for deck_list_model.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:adfbc7d5fedb5a4dbcfd38142a364f490" id="r_adfbc7d5fedb5a4dbcfd38142a364f490"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfbc7d5fedb5a4dbcfd38142a364f490">extractGroupCriteriaValue</a> (const <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> &amp;info, <a class="el" href="../../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179">DeckListModelGroupCriteria::Type</a> criteria)</td></tr>
+<tr class="memdesc:adfbc7d5fedb5a4dbcfd38142a364f490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the value from the card that is used for the group criteria.  <br /></td></tr>
 <tr class="memitem:adc1bc0ca1ec46df0a5420524d0f9d7ba" id="r_adc1bc0ca1ec46df0a5420524d0f9d7ba"><td class="memItemLeft" align="right" valign="top">static QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc1bc0ca1ec46df0a5420524d0f9d7ba">cardNodesToExactCards</a> (QList&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt; nodes)</td></tr>
 <tr class="memitem:a9685c8768bf12813d7cc74f0b524186d" id="r_a9685c8768bf12813d7cc74f0b524186d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9685c8768bf12813d7cc74f0b524186d">maxAllowedForLegality</a> (const <a class="el" href="../../d2/da9/structFormatRules.html">FormatRules</a> &amp;format, const QString &amp;legality)</td></tr>
+<tr class="memitem:a080370ae429801e4ef700342d433df34" id="r_a080370ae429801e4ef700342d433df34"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a080370ae429801e4ef700342d433df34">isCardQuantityLegalForFormat</a> (const QString &amp;format, const <a class="el" href="../../dd/dd2/classCardInfo.html">CardInfo</a> &amp;cardInfo, int quantity)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="adc1bc0ca1ec46df0a5420524d0f9d7ba" name="adc1bc0ca1ec46df0a5420524d0f9d7ba"></a>
@@ -152,6 +155,94 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="adfbc7d5fedb5a4dbcfd38142a364f490" name="adfbc7d5fedb5a4dbcfd38142a364f490"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfbc7d5fedb5a4dbcfd38142a364f490">&#9670;&#160;</a></span>extractGroupCriteriaValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString extractGroupCriteriaValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>info</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179">DeckListModelGroupCriteria::Type</a></td>          <td class="paramname"><span class="paramname"><em>criteria</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Extract the value from the card that is used for the group criteria. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">info</td><td>Pointer to card information. </td></tr>
+    <tr><td class="paramname">criteria</td><td>The group criteria </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>String representing the value of the criteria. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/df7/deck__list__model_8cpp_adfbc7d5fedb5a4dbcfd38142a364f490_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a080370ae429801e4ef700342d433df34" name="a080370ae429801e4ef700342d433df34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a080370ae429801e4ef700342d433df34">&#9670;&#160;</a></span>isCardQuantityLegalForFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isCardQuantityLegalForFormat </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>format</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd2/classCardInfo.html">CardInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cardInfo</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>quantity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/df7/deck__list__model_8cpp_a080370ae429801e4ef700342d433df34_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/df7/deck__list__model_8cpp_a080370ae429801e4ef700342d433df34_icgraph.svg" width="100%" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a9685c8768bf12813d7cc74f0b524186d" name="a9685c8768bf12813d7cc74f0b524186d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9685c8768bf12813d7cc74f0b524186d">&#9670;&#160;</a></span>maxAllowedForLegality()</h2>
 
@@ -181,7 +272,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/df7/deck__list__model_8cpp_a9685c8768bf12813d7cc74f0b524186d_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/df7/deck__list__model_8cpp_a9685c8768bf12813d7cc74f0b524186d_icgraph.svg" width="100%" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

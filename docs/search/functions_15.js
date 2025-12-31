@@ -31,7 +31,7 @@ var searchData=
   ['visualdeckdisplayoptionswidget_28',['VisualDeckDisplayOptionsWidget',['../dc/de4/classVisualDeckDisplayOptionsWidget.html#ab5f02e41f717bbbd1ce6aaf47610649f',1,'VisualDeckDisplayOptionsWidget']]],
   ['visualdeckeditorcardsizechanged_29',['visualDeckEditorCardSizeChanged',['../d5/d88/classSettingsCache.html#a2fc7a104f1354a031069f5d9c36c5bdc',1,'SettingsCache']]],
   ['visualdeckeditorsamplehandsizeamountchanged_30',['visualDeckEditorSampleHandSizeAmountChanged',['../d5/d88/classSettingsCache.html#a12eaccbf6d92385a5cbd7e53f2cb129e',1,'SettingsCache']]],
-  ['visualdeckeditorsamplehandwidget_31',['VisualDeckEditorSampleHandWidget',['../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a18f51291ac3a3708390898cb27164d08',1,'VisualDeckEditorSampleHandWidget']]],
+  ['visualdeckeditorsamplehandwidget_31',['VisualDeckEditorSampleHandWidget',['../d8/d4d/classVisualDeckEditorSampleHandWidget.html#a245e31ce2081c2f9974b071c134a5b1a',1,'VisualDeckEditorSampleHandWidget']]],
   ['visualdeckeditorwidget_32',['VisualDeckEditorWidget',['../da/d1e/classVisualDeckEditorWidget.html#a27242b08de167b572dce420b0a355887',1,'VisualDeckEditorWidget']]],
   ['visualdeckstoragecardsizechanged_33',['visualDeckStorageCardSizeChanged',['../d5/d88/classSettingsCache.html#a53654042ae13c0700dddc76a9c082bb3',1,'SettingsCache']]],
   ['visualdeckstoragedefaulttagslistchanged_34',['visualDeckStorageDefaultTagsListChanged',['../d5/d88/classSettingsCache.html#af91f1d7677840aed1a66501adb67e8fd',1,'SettingsCache']]],

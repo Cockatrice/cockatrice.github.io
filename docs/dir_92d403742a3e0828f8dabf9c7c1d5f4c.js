@@ -13,5 +13,7 @@ var dir_92d403742a3e0828f8dabf9c7c1d5f4c =
     [ "deck_list_history_manager_widget.cpp", "d9/d88/deck__list__history__manager__widget_8cpp.html", null ],
     [ "deck_list_history_manager_widget.h", "d0/d37/deck__list__history__manager__widget_8h.html", "d0/d37/deck__list__history__manager__widget_8h" ],
     [ "deck_list_style_proxy.cpp", "d4/d3d/deck__list__style__proxy_8cpp.html", null ],
-    [ "deck_list_style_proxy.h", "df/db8/deck__list__style__proxy_8h.html", "df/db8/deck__list__style__proxy_8h" ]
+    [ "deck_list_style_proxy.h", "df/db8/deck__list__style__proxy_8h.html", "df/db8/deck__list__style__proxy_8h" ],
+    [ "deck_state_manager.cpp", "df/d8c/deck__state__manager_8cpp.html", "df/d8c/deck__state__manager_8cpp" ],
+    [ "deck_state_manager.h", "d6/dc4/deck__state__manager_8h.html", "d6/dc4/deck__state__manager_8h" ]
 ];
