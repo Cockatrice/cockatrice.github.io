@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"df/dd1/classDeckEditorSettingsPage.html#ab51442e087481d2c55fd1b7909638ffc":[4,1,0,116,6],
+"df/dd1/classDeckEditorSettingsPage.html#ab57322bd20c7bb003768e580c4e51a5a":[4,1,0,116,24],
+"df/dd1/classDeckEditorSettingsPage.html#ad077d70bf37241f5c1410df19a13ef50":[4,1,0,116,33],
+"df/dd1/classDeckEditorSettingsPage.html#ad1d59a00d9407ab8888a8400d8d179ca":[4,1,0,116,8],
 "df/dd1/classDeckEditorSettingsPage.html#ad50ca37c72622a868e4f4282303ca281":[4,1,0,116,17],
 "df/dd1/classDeckEditorSettingsPage.html#ad5e3e083c4ef36c49da4f9ef20fd6d43":[4,1,0,116,28],
 "df/dd1/classDeckEditorSettingsPage.html#ae449c528b820ba0d298af00ab560678e":[4,1,0,116,27],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "df/dff/structpeg_1_1DetectLeftRecursion.html#a19b7a3ba316eddf22cef85120b9952d0":[4,0,0,9,20,14],
 "df/dff/structpeg_1_1DetectLeftRecursion.html#a19b7a3ba316eddf22cef85120b9952d0":[4,1,0,1,19,14],
 "df/dff/structpeg_1_1DetectLeftRecursion.html#a224997e001bc757915eab1787affa18a":[4,0,0,9,20,2],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a224997e001bc757915eab1787affa18a":[4,1,0,1,19,2],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a272cab8852b0ed4a2f2b073967399fe8":[4,0,0,9,20,19],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a272cab8852b0ed4a2f2b073967399fe8":[4,1,0,1,19,19],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a2db5f4214c94c7dc6764da5dd8768973":[4,0,0,9,20,1],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a2db5f4214c94c7dc6764da5dd8768973":[4,1,0,1,19,1]
+"df/dff/structpeg_1_1DetectLeftRecursion.html#a224997e001bc757915eab1787affa18a":[4,1,0,1,19,2]
 };

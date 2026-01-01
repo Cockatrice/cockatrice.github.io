@@ -1,6 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"d3/d76/classServatrice__DatabaseInterface.html#ad57c24c6e2fd003fe6c9259fd82fe7f3":[4,1,0,383,5],
 "d3/d76/classServatrice__DatabaseInterface.html#ad9d4d248a2b712c791a7c5b5e026dfca":[4,1,0,383,42],
 "d3/d76/classServatrice__DatabaseInterface.html#ae1ea66e7e92c4cc6d7353bbf90dedd0a":[4,1,0,383,1],
 "d3/d76/classServatrice__DatabaseInterface.html#ae1f64a1979bb24464b3bb83506195c88":[4,1,0,383,30],
@@ -249,5 +248,6 @@ var NAVTREEINDEX12 =
 "d3/dc1/classMessageSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,295,7],
 "d3/dc1/classMessageSettings.html#aa08a9f3ffd5ec16590bd92600440db53":[4,1,0,295,2],
 "d3/dc1/classMessageSettings.html#aa9733545c935a109f990a75a67341391":[4,1,0,295,5],
-"d3/dc1/classMessageSettings.html#ae2f1a23d9684192661188d3e14d4859a":[4,1,0,295,0]
+"d3/dc1/classMessageSettings.html#ae2f1a23d9684192661188d3e14d4859a":[4,1,0,295,0],
+"d3/dc3/classArchidektApiResponseCardEntry.html":[4,1,0,26]
 };

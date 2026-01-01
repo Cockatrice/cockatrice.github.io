@@ -1,6 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"d4/d17/edhrec__top__tags__api__response_8cpp.html":[4,2,0,0,1,5,3,10,0,1,0,7,0],
 "d4/d17/inner__deck__list__node_8cpp.html":[4,2,0,3,0,0,0,6],
 "d4/d18/group__LocalDeckStorageWidgets.html":[3,1,0,5],
 "d4/d18/group__LocalDeckStorageWidgets.html":[3,3,2,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX14 =
 "d4/d85/deck__preview__deck__tags__display__widget_8h.html":[3,1,0,5,1,0,1],
 "d4/d85/deck__preview__deck__tags__display__widget_8h.html":[3,3,2,0,0,1,0,1],
 "d4/d89/classBarChartWidget.html":[4,1,0,47],
-"d4/d89/classBarChartWidget.html#a20907df2e1df52f656f697382bafcffc":[4,1,0,47,9]
+"d4/d89/classBarChartWidget.html#a20907df2e1df52f656f697382bafcffc":[4,1,0,47,9],
+"d4/d89/classBarChartWidget.html#a27864f25f8205b958499405ebaeb0577":[4,1,0,47,4]
 };

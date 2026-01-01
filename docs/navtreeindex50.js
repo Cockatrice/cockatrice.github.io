@@ -1,5 +1,9 @@
 var NAVTREEINDEX50 =
 {
+"dd/dc7/classUserListTWI.html#adcbfc4d690e3a71eacf361b66bfc3958":[4,1,0,487,4],
+"dd/dc7/classUserListTWI.html#ae25e26425a54871cb6d2ec86e46438ff":[4,1,0,487,1],
+"dd/dc7/classUserListTWI.html#aeb83a00f25611300b45710f97b76bb53":[4,1,0,487,0],
+"dd/dd0/tab__server_8h.html":[3,1,0,1,1,0,2],
 "dd/dd0/tab__server_8h.html":[3,1,0,9,1,0,2],
 "dd/dd0/tab__server_8h.html":[3,5,1,1,1,0,2],
 "dd/dd2/classCardInfo.html":[3,2,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX50 =
 "dd/dea/classAbstractServerSocketInterface.html#a424df5abbad60ed6da0fda566dc8a5bf":[4,1,0,14,64],
 "dd/dea/classAbstractServerSocketInterface.html#a45a0330dacd1eec6bad62af4cdc3875c":[4,1,0,14,63],
 "dd/dea/classAbstractServerSocketInterface.html#a46dbf9261c2f0cb3c053b65d23830a0b":[4,1,0,14,26],
-"dd/dea/classAbstractServerSocketInterface.html#a48e2a11f4013fefd44bffcb6fb9d998a":[4,1,0,14,10],
-"dd/dea/classAbstractServerSocketInterface.html#a49d340b855e928b79d08d3c364fc7eef":[4,1,0,14,66],
-"dd/dea/classAbstractServerSocketInterface.html#a4db4772fe5c71d5033518a9002fd1f73":[4,1,0,14,17],
-"dd/dea/classAbstractServerSocketInterface.html#a54514c70ed93eb40a5038d3d3bf7ec4c":[4,1,0,14,24],
-"dd/dea/classAbstractServerSocketInterface.html#a54bcc38aba74c590c521df9dde5591e2":[4,1,0,14,40]
+"dd/dea/classAbstractServerSocketInterface.html#a48e2a11f4013fefd44bffcb6fb9d998a":[4,1,0,14,10]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#aa906e37234431c4d0eac8f627b8706d5":[4,1,0,188,16],
 "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#aa92636f7ec8fd96617b8ca46704efb93":[4,1,0,188,17],
 "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#ab8b1df8b670d0f212d6953f3d29f7baf":[4,1,0,188,11],
 "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#afc58f225ffc61ce0d47c123442effc00":[4,1,0,188,18],
@@ -249,5 +248,6 @@ var NAVTREEINDEX3 =
 "d1/d53/classAbstractTabDeckEditor.html#aa3363512fc413e709107ad6aa35c80ea":[3,1,0,1,0,0,22],
 "d1/d53/classAbstractTabDeckEditor.html#aa3363512fc413e709107ad6aa35c80ea":[3,1,0,4,0,0,22],
 "d1/d53/classAbstractTabDeckEditor.html#aa3363512fc413e709107ad6aa35c80ea":[3,3,1,0,0,22],
-"d1/d53/classAbstractTabDeckEditor.html#aa3363512fc413e709107ad6aa35c80ea":[3,3,1,1,0,0,22]
+"d1/d53/classAbstractTabDeckEditor.html#aa3363512fc413e709107ad6aa35c80ea":[3,3,1,1,0,0,22],
+"d1/d53/classAbstractTabDeckEditor.html#aa542acf6b48f0c3e2d7370ddbb3462de":[3,1,0,1,0,0,61]
 };

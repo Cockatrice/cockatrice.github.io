@@ -1,6 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"d1/dd7/classTabDeckStorage.html#a9e3e9059e7bf6cb64e57e688eb839301":[4,1,0,449,45],
 "d1/dd7/classTabDeckStorage.html#aa161c7a867ceb9f6361baba4db764176":[4,1,0,449,46],
 "d1/dd7/classTabDeckStorage.html#aa8b4605f3cf519da4a3bce7cec6d6b10":[4,1,0,449,36],
 "d1/dd7/classTabDeckStorage.html#aac6e71347237e1eb6e923f5bd107b715":[4,1,0,449,26],
@@ -249,5 +248,6 @@ var NAVTREEINDEX6 =
 "d2/d12/classServer__DatabaseInterface.html#a258a88904b50036443cece2b1aab6109":[4,1,0,396,19],
 "d2/d12/classServer__DatabaseInterface.html#a29f1a8a8634b7a039eeccac69e5d4d23":[4,1,0,396,16],
 "d2/d12/classServer__DatabaseInterface.html#a39cf12c48415903552a4414099b14eef":[4,1,0,396,22],
-"d2/d12/classServer__DatabaseInterface.html#a3b03eacc95a17525dd1a17e215bde7d5":[4,1,0,396,24]
+"d2/d12/classServer__DatabaseInterface.html#a3b03eacc95a17525dd1a17e215bde7d5":[4,1,0,396,24],
+"d2/d12/classServer__DatabaseInterface.html#a4e8876ed96af9efce79b7cc22007b515":[4,1,0,396,29]
 };

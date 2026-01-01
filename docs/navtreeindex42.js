@@ -1,5 +1,9 @@
 var NAVTREEINDEX42 =
 {
+"db/db2/classManaDistributionSingleDisplayWidget.html#ab23f9607bac00bff5ac478c0f0dbbf06":[4,1,0,291,7],
+"db/db2/classManaDistributionSingleDisplayWidget.html#acb572b4fc67747d651b9adaa891059ca":[4,1,0,291,6],
+"db/db2/classManaDistributionSingleDisplayWidget.html#ade17eed0a259d53f97bf7054c65a38d4":[4,1,0,291,2],
+"db/db2/classManaDistributionSingleDisplayWidget.html#ae05a405cc81aadda8daf7ba15afa1165":[4,1,0,291,3],
 "db/db2/classManaDistributionSingleDisplayWidget.html#afdbbba9ec27dc405cc5b61c70ef52e7b":[4,1,0,291,1],
 "db/db3/utility__menu_8cpp.html":[4,2,0,0,1,3,4,0,22],
 "db/db4/classGamesProxyModel.html":[4,1,0,236],
@@ -245,9 +249,5 @@ var NAVTREEINDEX42 =
 "db/ded/classCardRelation.html#a1ad23dd994bc3756581efa184c895f21":[3,2,9,11],
 "db/ded/classCardRelation.html#a57cdf7b206f4312cd948aca0d77c3b09":[3,2,9,2],
 "db/ded/classCardRelation.html#a6ec8e4d769a1c8621845f3f0100aad20":[3,2,9,9],
-"db/ded/classCardRelation.html#a6fe135c7bbc425552288fb512b8c36e1":[3,2,9,6],
-"db/ded/classCardRelation.html#a71bb4fe66f30bb0c4ab0b2df53a24cbe":[3,2,9,12],
-"db/ded/classCardRelation.html#a81dbfb715271b5b0e6dbd5cf40cd9592":[3,2,9,16],
-"db/ded/classCardRelation.html#aa968a77550c97a920f2bbf64cf07c982":[3,2,9,7],
-"db/ded/classCardRelation.html#aae2f68bd2eb11f7ceead11c45472feb6":[3,2,9,4]
+"db/ded/classCardRelation.html#a6fe135c7bbc425552288fb512b8c36e1":[3,2,9,6]
 };

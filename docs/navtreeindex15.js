@@ -1,6 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"d4/d89/classBarChartWidget.html#a27864f25f8205b958499405ebaeb0577":[4,1,0,47,4],
 "d4/d89/classBarChartWidget.html#a3b5b83145b53c9c6e32a63bf4cadcdb4":[4,1,0,47,10],
 "d4/d89/classBarChartWidget.html#a44714c8bac7cec3c2e132fcba0ff2fb7":[4,1,0,47,7],
 "d4/d89/classBarChartWidget.html#a45db7667dbc3c9d419ffe2f85b5e82e7":[4,1,0,47,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX15 =
 "d5/d07/classReplayTimelineWidget.html#a1ae1c702ba60c6f885313c1dea1b0bd3":[4,1,0,366,0],
 "d5/d07/classReplayTimelineWidget.html#a1ae1c702ba60c6f885313c1dea1b0bd3a5ea0fb792e41ae724b80ddc825771a2c":[4,1,0,366,0,0],
 "d5/d07/classReplayTimelineWidget.html#a1ae1c702ba60c6f885313c1dea1b0bd3a7050de6cf975c3fdd38de0d9f5e4b8a1":[4,1,0,366,0,2],
-"d5/d07/classReplayTimelineWidget.html#a1ae1c702ba60c6f885313c1dea1b0bd3acbd5a51200c8d76ee0864c87ba6cdc72":[4,1,0,366,0,1]
+"d5/d07/classReplayTimelineWidget.html#a1ae1c702ba60c6f885313c1dea1b0bd3acbd5a51200c8d76ee0864c87ba6cdc72":[4,1,0,366,0,1],
+"d5/d07/classReplayTimelineWidget.html#a20f938320a5e6e70dba36b616f8eecda":[4,1,0,366,30]
 };

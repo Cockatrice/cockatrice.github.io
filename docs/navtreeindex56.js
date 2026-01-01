@@ -1,5 +1,9 @@
 var NAVTREEINDEX56 =
 {
+"de/dfe/classAbstractGraphicsItem.html#aa5bbe73de9b947e1578582c639decfd9":[4,1,0,13,0],
+"df/d02/classPlayerListWidget.html":[4,1,0,333],
+"df/d02/classPlayerListWidget.html#a1f82388fa1898f7659b68b17b01a9faf":[4,1,0,333,2],
+"df/d02/classPlayerListWidget.html#a2736613a11d5d8b8479614251a1e4ace":[4,1,0,333,20],
 "df/d02/classPlayerListWidget.html#a2e452598e9ab3a1e3bda549770d0f8aa":[4,1,0,333,1],
 "df/d02/classPlayerListWidget.html#a318e001f2165c72979915f075d23627a":[4,1,0,333,22],
 "df/d02/classPlayerListWidget.html#a44242d17cd530e0b5a3e636a22615ee6":[4,1,0,333,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX56 =
 "df/d75/classLocalClient.html#a2e8dc7e0fc056be84c9edefe44dbcf96":[4,1,0,268,1],
 "df/d75/classLocalClient.html#a49bb4487f9d3e5aeb878cc1ab5765123":[4,1,0,268,2],
 "df/d75/classLocalClient.html#a7374a8f45173e12c9ae263f3481ffa0b":[4,1,0,268,0],
-"df/d75/classLocalClient.html#aaa02a54f8e4795523c9794d02a6acbb6":[4,1,0,268,4],
-"df/d75/classLocalClient.html#addefec8fa45b1636777b33c42ac033f5":[4,1,0,268,3],
-"df/d77/card__list_8cpp.html":[4,2,0,0,1,3,0,14],
-"df/d77/card__list_8cpp.html#ab18840e21d7663c287b8c0d7ce7843a1":[4,2,0,0,1,3,0,14,0],
-"df/d78/classTabRoom.html":[4,1,0,460]
+"df/d75/classLocalClient.html#aaa02a54f8e4795523c9794d02a6acbb6":[4,1,0,268,4]
 };

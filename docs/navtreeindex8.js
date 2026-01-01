@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"d2/d32/classVisualDatabaseDisplayWidget.html#a8d793b60c7003e1c1fa795c1a0609154":[4,1,0,500,50],
 "d2/d32/classVisualDatabaseDisplayWidget.html#a9242327b4b00bf96689af6fd90c676ac":[4,1,0,500,22],
 "d2/d32/classVisualDatabaseDisplayWidget.html#a9439e3ffdef2aa089a08a370d5b43bf7":[4,1,0,500,10],
 "d2/d32/classVisualDatabaseDisplayWidget.html#a960807436678cbc6eb2994a466465bb7":[4,1,0,500,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a669c6e069c0f38a67fe6862be0801d2d":[4,1,0,133,6],
 "d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a6bb4596c475998b18dbc28b9b031395d":[4,1,0,133,4],
 "d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a836c918f4856ce2d287ef8a2a4865051":[4,1,0,133,8],
-"d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a87e73970d39e54733d6dd1d49ec765ca":[4,1,0,133,3]
+"d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a87e73970d39e54733d6dd1d49ec765ca":[4,1,0,133,3],
+"d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#abb20129c04e32e631d050c33c2dbbb94":[4,1,0,133,7]
 };

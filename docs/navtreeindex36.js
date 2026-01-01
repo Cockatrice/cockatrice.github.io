@@ -1,5 +1,9 @@
 var NAVTREEINDEX36 =
 {
+"da/d38/classShortcutsSettings.html#af9091c290dbfa46a15b1eb8b07c8688b":[4,1,0,426,13],
+"da/d38/classShortcutsSettings.html#affde8055fe06494f41635c4151b0fa51":[4,1,0,426,22],
+"da/d38/classpeg_1_1Cut.html":[4,0,0,9,17],
+"da/d38/classpeg_1_1Cut.html":[4,1,0,1,16],
 "da/d38/classpeg_1_1Cut.html#aa2a0f0ed71d9c8168c9116f096e5e2c2":[4,0,0,9,17,0],
 "da/d38/classpeg_1_1Cut.html#aa2a0f0ed71d9c8168c9116f096e5e2c2":[4,1,0,1,16,0],
 "da/d38/classpeg_1_1Cut.html#aa77fc7a544523d95694b1a838b7663db":[4,0,0,9,17,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX36 =
 "da/d78/visual__database__display__filter__save__load__widget_8cpp.html":[4,2,0,0,1,5,3,12,2],
 "da/d79/archidekt__api__response__card__entry_8h.html":[4,2,0,0,1,5,3,10,0,0,0,0,3],
 "da/d79/archidekt__api__response__card__entry_8h_source.html":[4,2,0,0,1,5,3,10,0,0,0,0,3],
-"da/d79/classCardSetList_1_1KeyCompareFunctor.html":[3,2,1,2,0],
-"da/d79/classCardSetList_1_1KeyCompareFunctor.html#a1b88f914b866e422dbb105a5e85c4cf3":[3,2,1,2,0,0],
-"da/d7b/classpeg_1_1parser.html":[4,0,0,9,34],
-"da/d7b/classpeg_1_1parser.html":[4,1,0,1,33],
-"da/d7b/classpeg_1_1parser.html#a033d52cda9028d1b09ed6e0d7602e77d":[4,0,0,9,34,2]
+"da/d79/classCardSetList_1_1KeyCompareFunctor.html":[3,2,1,2,0]
 };

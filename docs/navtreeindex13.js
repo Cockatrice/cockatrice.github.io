@@ -1,6 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"d3/dc3/classArchidektApiResponseCardEntry.html":[4,1,0,26],
 "d3/dc3/classArchidektApiResponseCardEntry.html#a0b6906f289e4327b335e1b6c6f827862":[4,1,0,26,19],
 "d3/dc3/classArchidektApiResponseCardEntry.html#a1a004f37b9ea69340077369f8b3b6e92":[4,1,0,26,8],
 "d3/dc3/classArchidektApiResponseCardEntry.html#a1e74057ca04aa70e066d3041e21dd17a":[4,1,0,26,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX13 =
 "d4/d14/classDownloadSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,174,4],
 "d4/d14/classDownloadSettings.html#ab644f5cd6589c1d67761bbe2ef332b41":[4,1,0,174,5],
 "d4/d14/classDownloadSettings.html#ab99a632e3c99f64b35ceb9b5cbe6fdfd":[4,1,0,174,3],
-"d4/d14/classDownloadSettings.html#adbe42a1ac3b2b2e146bfe6e48020b5fb":[4,1,0,174,1]
+"d4/d14/classDownloadSettings.html#adbe42a1ac3b2b2e146bfe6e48020b5fb":[4,1,0,174,1],
+"d4/d17/edhrec__top__tags__api__response_8cpp.html":[4,2,0,0,1,5,3,10,0,1,0,7,0]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"d1/d97/server__room_8h_source.html":[4,2,0,7,0,0,1,1,16],
 "d1/d9e/server__counter_8cpp.html":[4,2,0,7,0,0,1,1,0,12],
 "d1/da4/table__zone__logic_8h.html":[3,4,1,1,4],
 "d1/da6/card__item_8cpp.html":[4,2,0,0,1,3,0,12],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "d1/dd7/classTabDeckStorage.html#a953e6b523655a8d9cd7d4a629fade4e4":[4,1,0,449,31],
 "d1/dd7/classTabDeckStorage.html#a97222551f64228532cb02096728a933a":[4,1,0,449,40],
 "d1/dd7/classTabDeckStorage.html#a9a17a8aaa59e4191d40be5e1679d7930":[4,1,0,449,6],
-"d1/dd7/classTabDeckStorage.html#a9d4a738c65a8074f6ed334f52aeb7fc1":[4,1,0,449,3]
+"d1/dd7/classTabDeckStorage.html#a9d4a738c65a8074f6ed334f52aeb7fc1":[4,1,0,449,3],
+"d1/dd7/classTabDeckStorage.html#a9e3e9059e7bf6cb64e57e688eb839301":[4,1,0,449,45]
 };

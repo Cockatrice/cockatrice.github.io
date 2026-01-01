@@ -27,7 +27,6 @@ var classZoneViewWidget =
     [ "windowFrameEvent", "d0/dd9/classZoneViewWidget.html#a1bfdb05aaea443d33ba3b7c520a4c86b", null ],
     [ "zoneDeleted", "d0/dd9/classZoneViewWidget.html#a0075c03caa66498c7be0411607c864e8", null ],
     [ "canBeShuffled", "d0/dd9/classZoneViewWidget.html#ac11fefd475161a661d989bf0f5a4d837", null ],
-    [ "closeButton", "d0/dd9/classZoneViewWidget.html#a67784699c9de18b35b7e23c98e01623f", null ],
     [ "draggingWindow", "d0/dd9/classZoneViewWidget.html#a8519b9a768503bd4fc34bdb754feb9e2", null ],
     [ "dragStartItemPos", "d0/dd9/classZoneViewWidget.html#a065dc5c056e2d913c12ad833ce85f627", null ],
     [ "dragStartScreenPos", "d0/dd9/classZoneViewWidget.html#ad47656268f3c87d1f4cd7f47b24f3a26", null ],

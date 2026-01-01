@@ -1,5 +1,9 @@
 var NAVTREEINDEX57 =
 {
+"df/d75/classLocalClient.html#addefec8fa45b1636777b33c42ac033f5":[4,1,0,268,3],
+"df/d77/card__list_8cpp.html":[4,2,0,0,1,3,0,14],
+"df/d77/card__list_8cpp.html#ab18840e21d7663c287b8c0d7ce7843a1":[4,2,0,0,1,3,0,14,0],
+"df/d78/classTabRoom.html":[4,1,0,460],
 "df/d78/classTabRoom.html#a036f14b7f192cabdbef4c76708f8d8c5":[4,1,0,460,12],
 "df/d78/classTabRoom.html#a087ad646b4fdd9b69522baf334c4f053":[4,1,0,460,16],
 "df/d78/classTabRoom.html#a09049dcf9be4fe65686ddfc8f57af47a":[4,1,0,460,18],
@@ -245,9 +249,5 @@ var NAVTREEINDEX57 =
 "df/d94/classpeg_1_1Context.html#a78f5d8fd58c55ae4728924de39091009":[4,0,0,9,16,11],
 "df/d94/classpeg_1_1Context.html#a78f5d8fd58c55ae4728924de39091009":[4,1,0,1,15,11],
 "df/d94/classpeg_1_1Context.html#a7f07f38fd6411be0283388c46703faa6":[4,0,0,9,16,4],
-"df/d94/classpeg_1_1Context.html#a7f07f38fd6411be0283388c46703faa6":[4,1,0,1,15,4],
-"df/d94/classpeg_1_1Context.html#a882c0f8de700fbe9be1601a058331af4":[4,0,0,9,16,37],
-"df/d94/classpeg_1_1Context.html#a882c0f8de700fbe9be1601a058331af4":[4,1,0,1,15,37],
-"df/d94/classpeg_1_1Context.html#a8b651ba4ec95938e6e45d8ad127e5b8b":[4,0,0,9,16,25],
-"df/d94/classpeg_1_1Context.html#a8b651ba4ec95938e6e45d8ad127e5b8b":[4,1,0,1,15,25]
+"df/d94/classpeg_1_1Context.html#a7f07f38fd6411be0283388c46703faa6":[4,1,0,1,15,4]
 };

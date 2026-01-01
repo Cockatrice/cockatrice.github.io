@@ -1,5 +1,9 @@
 var NAVTREEINDEX47 =
 {
+"dc/deb/edhrec__commander__api__response__commander__details_8h.html":[3,3,2,2,2,0,6],
+"dc/deb/edhrec__commander__api__response__commander__details_8h.html":[3,3,2,3,0,0,6],
+"dc/deb/edhrec__commander__api__response__commander__details_8h.html":[3,5,1,0,0,6],
+"dc/dec/classDlgForgotPasswordRequest.html":[4,1,0,159],
 "dc/dec/classDlgForgotPasswordRequest.html#a053f9a2de13f7fbe6487059e2c44b5ea":[4,1,0,159,7],
 "dc/dec/classDlgForgotPasswordRequest.html#a38e8daa0d983db157f9131e76fbbc81d":[4,1,0,159,9],
 "dc/dec/classDlgForgotPasswordRequest.html#a3fb8b53126ea3b34b1fb02f8c757f6ca":[4,1,0,159,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX47 =
 "dd/d44/classArchidektApiResponseDeckListingContainer.html#acd4b729baeb5de3eb2a87dd9760f2cd8":[4,1,0,31,17],
 "dd/d44/classArchidektApiResponseDeckListingContainer.html#acd69ec1350829d108fdbda18700988bc":[4,1,0,31,27],
 "dd/d44/classArchidektApiResponseDeckListingContainer.html#acf34ff09950ab1e4456c7a56bf356b2e":[4,1,0,31,42],
-"dd/d44/classArchidektApiResponseDeckListingContainer.html#ad54e95ca890d3d3181ab2320a9f88115":[4,1,0,31,10],
-"dd/d44/classArchidektApiResponseDeckListingContainer.html#ade6068c896fbebcdeb634f7de7e618b7":[4,1,0,31,29],
-"dd/d44/classArchidektApiResponseDeckListingContainer.html#adfac78b5ccfa6d72f46a58392120c754":[4,1,0,31,2],
-"dd/d44/classArchidektApiResponseDeckListingContainer.html#aec34cbef8b37c5f041f82dc74e5202c6":[4,1,0,31,12],
-"dd/d44/classArchidektApiResponseDeckListingContainer.html#af0c41aa2a94a69646a918e40735d2b9d":[4,1,0,31,37]
+"dd/d44/classArchidektApiResponseDeckListingContainer.html#ad54e95ca890d3d3181ab2320a9f88115":[4,1,0,31,10]
 };

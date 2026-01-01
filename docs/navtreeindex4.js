@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"d1/d53/classAbstractTabDeckEditor.html#aa542acf6b48f0c3e2d7370ddbb3462de":[3,1,0,1,0,0,61],
 "d1/d53/classAbstractTabDeckEditor.html#aa542acf6b48f0c3e2d7370ddbb3462de":[3,1,0,4,0,0,61],
 "d1/d53/classAbstractTabDeckEditor.html#aa542acf6b48f0c3e2d7370ddbb3462de":[3,3,1,0,0,61],
 "d1/d53/classAbstractTabDeckEditor.html#aa542acf6b48f0c3e2d7370ddbb3462de":[3,3,1,1,0,0,61],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "d1/d95/edhrec__api__response__card__prices__display__widget_8h.html":[3,3,2,3,0,0,0,0],
 "d1/d95/edhrec__api__response__card__prices__display__widget_8h.html":[3,5,1,0,0,0,0],
 "d1/d96/group__CardDatabase.html":[3,2,4],
-"d1/d97/server__room_8h.html":[4,2,0,7,0,0,1,1,16]
+"d1/d97/server__room_8h.html":[4,2,0,7,0,0,1,1,16],
+"d1/d97/server__room_8h_source.html":[4,2,0,7,0,0,1,1,16]
 };

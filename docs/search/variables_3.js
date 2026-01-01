@@ -174,7 +174,7 @@ var searchData=
   ['clientslock_171',['clientsLock',['../db/d00/classServer.html#aa2c56122788c80c1d3a0d16f514604d0',1,'Server']]],
   ['clientthread_172',['clientThread',['../d6/d1a/classMainWindow.html#a91a3d3c80f2654854f8879fcfbc55f97',1,'MainWindow']]],
   ['clientversion_173',['clientVersion',['../d5/d88/classSettingsCache.html#a992c31a22dab8106a668afe9f3f439bd',1,'SettingsCache']]],
-  ['closebutton_174',['closeButton',['../d0/dd9/classZoneViewWidget.html#a67784699c9de18b35b7e23c98e01623f',1,'ZoneViewWidget::closeButton'],['../d9/ddf/classFilterDisplayWidget.html#a389acb18c701ea61da5197d4e5852084',1,'FilterDisplayWidget::closeButton'],['../df/dde/classDeckPreviewTagDisplayWidget.html#aa08d6ede5b4e6cace7c389c3f73b3c8b',1,'DeckPreviewTagDisplayWidget::closeButton']]],
+  ['closebutton_174',['closeButton',['../d9/ddf/classFilterDisplayWidget.html#a389acb18c701ea61da5197d4e5852084',1,'FilterDisplayWidget::closeButton'],['../df/dde/classDeckPreviewTagDisplayWidget.html#aa08d6ede5b4e6cace7c389c3f73b3c8b',1,'DeckPreviewTagDisplayWidget::closeButton']]],
   ['closeemptycardview_175',['closeEmptyCardView',['../d5/d88/classSettingsCache.html#a54856cc665a16fc257aaf8797bf62963',1,'SettingsCache']]],
   ['closeemptycardviewcheckbox_176',['closeEmptyCardViewCheckBox',['../d2/d2d/classUserInterfaceSettingsPage.html#a5063713b71f0d254fb407e2428ef404a',1,'UserInterfaceSettingsPage']]],
   ['cmc_177',['cmc',['../d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a57bba02b567e0d17e23542f88f0f2961',1,'EdhrecCommanderApiResponseCommanderDetails']]],

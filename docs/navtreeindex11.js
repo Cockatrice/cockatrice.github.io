@@ -1,6 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"d3/d14/classCardCounterSettings.html#ac4b1c1f72da642021c0c16bd859aa055":[4,1,0,55,2],
 "d3/d15/classAddAnalyticsPanelDialog.html":[4,1,0,17],
 "d3/d15/classAddAnalyticsPanelDialog.html#a15abf390a40e9e564def0cf2d07365c4":[4,1,0,17,0],
 "d3/d15/classAddAnalyticsPanelDialog.html#a2a04976af3dcf9b63e4d9a924eb882e3":[4,1,0,17,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX11 =
 "d3/d76/classServatrice__DatabaseInterface.html#ab5e68ad8b4dcf3d4515cfe0783d7bdda":[4,1,0,383,13],
 "d3/d76/classServatrice__DatabaseInterface.html#abdf92bdd7d22b343692ce9cf7050a5a7":[4,1,0,383,56],
 "d3/d76/classServatrice__DatabaseInterface.html#ac78310ca92da32452c72f367b1b1902f":[4,1,0,383,39],
-"d3/d76/classServatrice__DatabaseInterface.html#ad2de01d93b76794daf16333063fef700":[4,1,0,383,50]
+"d3/d76/classServatrice__DatabaseInterface.html#ad2de01d93b76794daf16333063fef700":[4,1,0,383,50],
+"d3/d76/classServatrice__DatabaseInterface.html#ad57c24c6e2fd003fe6c9259fd82fe7f3":[4,1,0,383,5]
 };

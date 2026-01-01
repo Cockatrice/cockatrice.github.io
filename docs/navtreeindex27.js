@@ -1,5 +1,8 @@
 var NAVTREEINDEX27 =
 {
+"d7/db2/classGameEventHandler.html#a0ffd8b134f11885dba87780836b93885":[4,1,0,227,61],
+"d7/db2/classGameEventHandler.html#a10df6bd27269ad266de1b3a58d9c9f08":[4,1,0,227,32],
+"d7/db2/classGameEventHandler.html#a10ed94a76500a04083c93ee17b3e261d":[4,1,0,227,48],
 "d7/db2/classGameEventHandler.html#a13205be722399533ef81b039cd22a3ca":[4,1,0,227,2],
 "d7/db2/classGameEventHandler.html#a144e1881795e1e7c02f0d575ead8434f":[4,1,0,227,53],
 "d7/db2/classGameEventHandler.html#a15261de82508c5f1d8938d65ec57b669":[4,1,0,227,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX27 =
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a4e30aefc23765334865961029eac8825":[3,3,2,3,0,0,14,7],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a4e30aefc23765334865961029eac8825":[3,5,1,0,0,14,7],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a561f41913297076e3757d760a3b8f6ad":[3,3,2,2,2,0,14,9],
-"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a561f41913297076e3757d760a3b8f6ad":[3,3,2,3,0,0,14,9],
-"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a561f41913297076e3757d760a3b8f6ad":[3,5,1,0,0,14,9],
-"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a6713f37abf62df6857f727cf8843a35d":[3,3,2,2,2,0,14,5],
-"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a6713f37abf62df6857f727cf8843a35d":[3,3,2,3,0,0,14,5]
+"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a561f41913297076e3757d760a3b8f6ad":[3,3,2,3,0,0,14,9]
 };

@@ -35,6 +35,7 @@ var classAppearanceSettingsPage =
     [ "openThemeButton", "d8/dc5/classAppearanceSettingsPage.html#a40515412bd86e1faceac263719c425e5", null ],
     [ "overrideAllCardArtWithPersonalPreferenceCheckBox", "d8/dc5/classAppearanceSettingsPage.html#a0b760694bed32cb6389fe31b9a5452b1", null ],
     [ "roundCardCornersCheckBox", "d8/dc5/classAppearanceSettingsPage.html#adb73cc03f47412978f67a5f6471f1e0a", null ],
+    [ "showGameSelectorFilterToolbarCheckBox", "d8/dc5/classAppearanceSettingsPage.html#ac34069f71dadec649c34c42b812c5c4e", null ],
     [ "showShortcutsCheckBox", "d8/dc5/classAppearanceSettingsPage.html#a3a5582e9558f8bd9e7ac72b6b0b6abfb", null ],
     [ "tableGroupBox", "d8/dc5/classAppearanceSettingsPage.html#ab080e7a67c146c2213307c9c70104efa", null ],
     [ "themeBox", "d8/dc5/classAppearanceSettingsPage.html#a555cd034256341a35841dd797354614b", null ],

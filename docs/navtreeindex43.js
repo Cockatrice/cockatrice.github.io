@@ -1,5 +1,9 @@
 var NAVTREEINDEX43 =
 {
+"db/ded/classCardRelation.html#a71bb4fe66f30bb0c4ab0b2df53a24cbe":[3,2,9,12],
+"db/ded/classCardRelation.html#a81dbfb715271b5b0e6dbd5cf40cd9592":[3,2,9,16],
+"db/ded/classCardRelation.html#aa968a77550c97a920f2bbf64cf07c982":[3,2,9,7],
+"db/ded/classCardRelation.html#aae2f68bd2eb11f7ceead11c45472feb6":[3,2,9,4],
 "db/ded/classCardRelation.html#aaf5badf6ab391d11e4d39b8ff35e4d5d":[3,2,9,15],
 "db/ded/classCardRelation.html#ac217fe154f453854a81d228c53437af5":[3,2,9,8],
 "db/ded/classCardRelation.html#ac57a252218190a5c4e5ea72077975247":[3,2,9,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX43 =
 "dc/d3c/classArchidektApiResponseDeck.html#a05417c8f32767c83c95d75ee2dbde0a9":[4,1,0,27,9],
 "dc/d3c/classArchidektApiResponseDeck.html#a0efba1502d67fbfb88052a33f6691d1e":[4,1,0,27,0],
 "dc/d3c/classArchidektApiResponseDeck.html#a15a95ee61b4567d1c8cabaefbb5c6939":[4,1,0,27,15],
-"dc/d3c/classArchidektApiResponseDeck.html#a1f0b6e8a6dc5b754236a6dc2f4120912":[4,1,0,27,26],
-"dc/d3c/classArchidektApiResponseDeck.html#a20abfd1481eb75abfa29df87569d8023":[4,1,0,27,22],
-"dc/d3c/classArchidektApiResponseDeck.html#a21c2349ad24112c4f93c00b74833634a":[4,1,0,27,21],
-"dc/d3c/classArchidektApiResponseDeck.html#a39caabd0024cb6eb9df631fb797b8663":[4,1,0,27,29],
-"dc/d3c/classArchidektApiResponseDeck.html#a3b89e1895572d11e34db7c62058e1f23":[4,1,0,27,23]
+"dc/d3c/classArchidektApiResponseDeck.html#a1f0b6e8a6dc5b754236a6dc2f4120912":[4,1,0,27,26]
 };
