@@ -1,5 +1,8 @@
 var NAVTREEINDEX49 =
 {
+"dd/d81/classTabSupervisor.html#a88be88a737ada91f51b97b6e80d26f12":[4,1,0,462,5],
+"dd/d81/classTabSupervisor.html#a8b4424063730242eb74c7dca4350ad87":[4,1,0,462,42],
+"dd/d81/classTabSupervisor.html#a8ee13db2dbf0be42ea4330506e2cabe5":[4,1,0,462,88],
 "dd/d81/classTabSupervisor.html#a921a5a0cadfa211585e1a42b47cd73ff":[4,1,0,462,39],
 "dd/d81/classTabSupervisor.html#a92e4ab420dc0649126dfad56101c4510":[4,1,0,462,52],
 "dd/d81/classTabSupervisor.html#a94d81248b94e52661eb0f104a0366b8a":[4,1,0,462,41],
@@ -246,8 +249,5 @@ var NAVTREEINDEX49 =
 "dd/dbb/classCounterPixmapGenerator.html#abf554322b0c647896b8f7089593d562a":[4,1,0,104,2],
 "dd/dbb/classCounterPixmapGenerator.html#ac9720cc1d8a67740a76abc8c7a29c2f4":[4,1,0,104,0],
 "dd/dbf/card__zone__logic_8h.html":[3,4,1,1,0],
-"dd/dc7/classUserListTWI.html":[4,1,0,487],
-"dd/dc7/classUserListTWI.html#a27c9aec5d8482bf5d32ffe22e5c6c6d1":[4,1,0,487,2],
-"dd/dc7/classUserListTWI.html#a2d5b8483375910220aa133cc565c13e0":[4,1,0,487,3],
-"dd/dc7/classUserListTWI.html#a3f1a82b948ac1c6a595164b49f7c6379":[4,1,0,487,5]
+"dd/dc7/classUserListTWI.html":[4,1,0,487]
 };

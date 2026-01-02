@@ -15,7 +15,7 @@ var searchData=
   ['windowframeevent_12',['windowFrameEvent',['../d0/dd9/classZoneViewWidget.html#a1bfdb05aaea443d33ba3b7c520a4c86b',1,'ZoneViewWidget']]],
   ['wizard_13',['wizard',['../d8/d2d/classOracleWizardPage.html#a27632e8dc2b86d6e6adf2c11f3e62e91',1,'OracleWizardPage']]],
   ['wndsets_14',['WndSets',['../dd/d67/classWndSets.html#a6aee1034f70433489bcb5f175a2c45e2',1,'WndSets']]],
-  ['write_15',['write',['../dc/d8b/classSideboardPlan.html#a17ecc3a957ed8a3cf4065804f1fb109c',1,'SideboardPlan::write()'],['../da/d68/classDeckList.html#a9bef2e38b0a9b7f7138f0a1010c98ab8',1,'DeckList::write()'],['../db/df8/classDecklistNodeTree.html#ac83237d42ccdb9809f886e70b20325a9',1,'DecklistNodeTree::write()']]],
+  ['write_15',['write',['../da/d68/classDeckList.html#a9bef2e38b0a9b7f7138f0a1010c98ab8',1,'DeckList::write()'],['../db/df8/classDecklistNodeTree.html#ac83237d42ccdb9809f886e70b20325a9',1,'DecklistNodeTree::write()'],['../dc/d8b/classSideboardPlan.html#a86b289858e4ee6a3fe2549c7e688218c',1,'SideboardPlan::write()']]],
   ['writebannercard_16',['writeBannerCard',['../d9/df7/classDeckEditorDeckDockWidget.html#a3e6c171de64ce44de13dc007b1f10060',1,'DeckEditorDeckDockWidget']]],
   ['writecentraldir_17',['writeCentralDir',['../df/daf/classZipPrivate.html#a943f257c1c3f1268ba08bc41186a556b',1,'ZipPrivate']]],
   ['writecomments_18',['writeComments',['../d9/df7/classDeckEditorDeckDockWidget.html#aa646cffeb7cff704ae7193eb9fe387f7',1,'DeckEditorDeckDockWidget']]],

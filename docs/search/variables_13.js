@@ -157,7 +157,7 @@ var searchData=
   ['sideboardlockbutton_154',['sideboardLockButton',['../df/ddd/classDeckViewContainer.html#ad506ddd572d19daf934b82b572ddd184',1,'DeckViewContainer']]],
   ['sideboardlocked_155',['sideboardLocked',['../da/d99/classServer__AbstractPlayer.html#a52f3f7d47ef10f72a3d0e90815b21c70',1,'Server_AbstractPlayer']]],
   ['sideboardmenu_156',['sideboardMenu',['../d7/dd6/classPlayerMenu.html#a93cd301b4861482d0935d7938ad929a7',1,'PlayerMenu']]],
-  ['sideboardplans_157',['sideboardPlans',['../da/d68/classDeckList.html#a022f8b1e070ac13cb3701ed5dffa7235',1,'DeckList']]],
+  ['sideboardplans_157',['sideboardPlans',['../da/d68/classDeckList.html#a1d0c79372af707b37607829efd2168b6',1,'DeckList']]],
   ['sighupfd_158',['sigHupFD',['../df/dc9/classSignalHandler.html#a0f8a8acf432684a62cb81b7cf56bfd74',1,'SignalHandler']]],
   ['signalhandler_159',['signalhandler',['../d0/d8b/servatrice_2src_2main_8cpp.html#ae17b1bc78ca6e1a56d7d3def17e3c08e',1,'main.cpp']]],
   ['similar_160',['similar',['../de/d36/classEdhrecAverageDeckApiResponse.html#adb1824b3931e39ce91cf54025e0a0504',1,'EdhrecAverageDeckApiResponse::similar'],['../db/d21/classEdhrecCommanderApiResponse.html#ac208efa64970e0bc50410adf6ae099da',1,'EdhrecCommanderApiResponse::similar']]],

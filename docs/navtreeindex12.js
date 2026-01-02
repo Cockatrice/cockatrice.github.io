@@ -62,6 +62,7 @@ var NAVTREEINDEX12 =
 "d3/d94/deck__list_8cpp.html":[4,2,0,3,0,0,1],
 "d3/d94/deck__list_8cpp.html#a3dc3492557506ea620057f90f6253638":[4,2,0,3,0,0,1,0],
 "d3/d94/deck__list_8cpp.html#a83e055facb9cec78e1ee9a95eec13ab8":[4,2,0,3,0,0,1,1],
+"d3/d94/deck__list_8cpp.html#af2a607ee16781c7351a2c00f005b5777":[4,2,0,3,0,0,1,2],
 "d3/d97/classDeckPreviewColorIdentityFilterWidget.html":[4,1,0,132],
 "d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a27c54971d670602a7b72842814e22916":[4,1,0,132,4],
 "d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a34d4d4a21bae7fa54d24744d4c48ff1e":[4,1,0,132,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "d3/dc1/classMessageSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,295,7],
 "d3/dc1/classMessageSettings.html#aa08a9f3ffd5ec16590bd92600440db53":[4,1,0,295,2],
 "d3/dc1/classMessageSettings.html#aa9733545c935a109f990a75a67341391":[4,1,0,295,5],
-"d3/dc1/classMessageSettings.html#ae2f1a23d9684192661188d3e14d4859a":[4,1,0,295,0],
-"d3/dc3/classArchidektApiResponseCardEntry.html":[4,1,0,26]
+"d3/dc1/classMessageSettings.html#ae2f1a23d9684192661188d3e14d4859a":[4,1,0,295,0]
 };

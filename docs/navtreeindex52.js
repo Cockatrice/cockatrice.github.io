@@ -1,5 +1,8 @@
 var NAVTREEINDEX52 =
 {
+"de/d08/classTabGame.html#abc794a51c55116e74ae89d37a0e1cc41":[4,1,0,453,91],
+"de/d08/classTabGame.html#abf37824b565a5faaad9d244576bc7a4a":[4,1,0,453,108],
+"de/d08/classTabGame.html#ac1fc9fc6a92e2646be4ef8e31bf45c70":[4,1,0,453,98],
 "de/d08/classTabGame.html#ac224ed509114397ac1c3760d911bde04":[4,1,0,453,61],
 "de/d08/classTabGame.html#ac2b08a1ba1a678af9c9182b8f385dd85":[4,1,0,453,80],
 "de/d08/classTabGame.html#ac3566c4605e9de97cbd6ebb3438c7752":[4,1,0,453,121],
@@ -246,8 +249,5 @@ var NAVTREEINDEX52 =
 "de/d44/classpeg_1_1Dictionary.html#ae6dbdfcc4cc395427b7cfaebf81ae391":[4,0,0,9,21,3],
 "de/d44/classpeg_1_1Dictionary.html#ae6dbdfcc4cc395427b7cfaebf81ae391":[4,1,0,1,20,3],
 "de/d48/classDlgEditAvatar.html":[4,1,0,152],
-"de/d48/classDlgEditAvatar.html#a2e155ceb8f904386ea79424736a9f7b4":[4,1,0,152,1],
-"de/d48/classDlgEditAvatar.html#a4dde475035df043794fa6a9c14e22910":[4,1,0,152,6],
-"de/d48/classDlgEditAvatar.html#a8101801d4c376c970c50711bcea7a6a6":[4,1,0,152,5],
-"de/d48/classDlgEditAvatar.html#a9b30221bfbbe54d6a8035bd51d56d06a":[4,1,0,152,3]
+"de/d48/classDlgEditAvatar.html#a2e155ceb8f904386ea79424736a9f7b4":[4,1,0,152,1]
 };

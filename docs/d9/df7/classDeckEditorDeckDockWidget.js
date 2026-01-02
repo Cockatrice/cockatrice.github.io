@@ -16,7 +16,7 @@ var classDeckEditorDeckDockWidget =
     [ "getCurrentCard", "d9/df7/classDeckEditorDeckDockWidget.html#a6aa4a4cb1e3ddf3ef63e7172777f60d6", null ],
     [ "getGroupByComboBox", "d9/df7/classDeckEditorDeckDockWidget.html#a472cfd6a258ecc22ad3d2ea956992447", null ],
     [ "getModel", "d9/df7/classDeckEditorDeckDockWidget.html#a61b8573c7fd7664585a31b3384a22ef9", null ],
-    [ "getSelectedCardNodes", "d9/df7/classDeckEditorDeckDockWidget.html#a8accae8460c122c60e9f2fcbf1c3cc68", null ],
+    [ "getSelectedCardNodeSourceIndices", "d9/df7/classDeckEditorDeckDockWidget.html#ae050c8573c137ae2fbc0073a5e966779", null ],
     [ "getSelectionModel", "d9/df7/classDeckEditorDeckDockWidget.html#a0b044f3a4d54b3de6b0f16fea7c6fde4", null ],
     [ "initializeFormats", "d9/df7/classDeckEditorDeckDockWidget.html#a0774898f628bcc568cae64ff6382cb89", null ],
     [ "offsetCountAtIndex", "d9/df7/classDeckEditorDeckDockWidget.html#ae62018c18651e82ea1423f9d44716059", null ],

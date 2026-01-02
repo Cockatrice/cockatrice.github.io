@@ -1,5 +1,8 @@
 var NAVTREEINDEX40 =
 {
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#a7f85eb825f6c3624d84d3d8eb631f519":[4,0,0,9,19,17],
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#a7f85eb825f6c3624d84d3d8eb631f519":[4,1,0,1,18,17],
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#a8108542d38a8e79ac6bb2ace8346fcb7":[4,0,0,9,19,14],
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#a8108542d38a8e79ac6bb2ace8346fcb7":[4,1,0,1,18,14],
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#a9e1579a19a37333b691b07a661614f2a":[4,0,0,9,19,28],
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#a9e1579a19a37333b691b07a661614f2a":[4,1,0,1,18,28],
@@ -246,8 +249,5 @@ var NAVTREEINDEX40 =
 "db/d5f/classDlgSettings.html#afb284a59a086e745c63c94557c0b8211":[4,1,0,169,15],
 "db/d67/classLogger.html":[4,1,0,273],
 "db/d67/classLogger.html#a1e3fcd8d71fa75bd75ee7eb02eb79de8":[4,1,0,273,17],
-"db/d67/classLogger.html#a21340fb1037a0f71c0dc659ea33678a4":[4,1,0,273,2],
-"db/d67/classLogger.html#a221d6e5def01df8d55514cd3afaab342":[4,1,0,273,11],
-"db/d67/classLogger.html#a43ffb2434b9a620beb8935fa78d648a1":[4,1,0,273,4],
-"db/d67/classLogger.html#a49a80a6a8b5997d9f376593bd5c37512":[4,1,0,273,6]
+"db/d67/classLogger.html#a21340fb1037a0f71c0dc659ea33678a4":[4,1,0,273,2]
 };

@@ -3,16 +3,6 @@ var group__Decks =
     [ "Deck Models", "d1/d6c/group__DeckModels.html", "d1/d6c/group__DeckModels" ],
     [ "Deck Editors", "dd/df3/group__DeckEditors.html", "dd/df3/group__DeckEditors" ],
     [ "Deck Storage", "d2/db0/group__DeckStorage.html", "d2/db0/group__DeckStorage" ],
-    [ "SideboardPlan", "dc/d8b/classSideboardPlan.html", [
-      [ "SideboardPlan", "dc/d8b/classSideboardPlan.html#a71d1cad089260b2e4581efe5c1c8adac", null ],
-      [ "getMoveList", "dc/d8b/classSideboardPlan.html#a0ea1c5ba007a094d0f55afb3d5a2b3d2", null ],
-      [ "getName", "dc/d8b/classSideboardPlan.html#a9becc8f13ae1fcb944970547c4eeaf34", null ],
-      [ "readElement", "dc/d8b/classSideboardPlan.html#a968cef119c90e00140629c0ea98be828", null ],
-      [ "setMoveList", "dc/d8b/classSideboardPlan.html#a3ab0add0650af72346c4d5c08bc6dfda", null ],
-      [ "write", "dc/d8b/classSideboardPlan.html#a17ecc3a957ed8a3cf4065804f1fb109c", null ],
-      [ "moveList", "dc/d8b/classSideboardPlan.html#a33fce3444dbfdfa2a968f845c04c25c2", null ],
-      [ "name", "dc/d8b/classSideboardPlan.html#a31d73d7a47729d65777963ec21b3d3c2", null ]
-    ] ],
     [ "DeckList", "da/d68/classDeckList.html", [
       [ "Metadata", "d3/de4/structDeckList_1_1Metadata.html", [
         [ "isEmpty", "d3/de4/structDeckList_1_1Metadata.html#a6d77b71257ae9768e34ef0efe008e90e", null ],
@@ -25,8 +15,7 @@ var group__Decks =
       ] ],
       [ "DeckList", "da/d68/classDeckList.html#a60b845c8edd7b5e01e5ed7a90591ea8f", null ],
       [ "DeckList", "da/d68/classDeckList.html#a19235bea73e3765d8788c87f9695ffef", null ],
-      [ "DeckList", "da/d68/classDeckList.html#a70765f63db50930ae424ed576bf46d79", null ],
-      [ "~DeckList", "da/d68/classDeckList.html#a34908e541ad26de707a96f740883b225", null ],
+      [ "DeckList", "da/d68/classDeckList.html#a93bbd328b945e84f9f2038d61e722efa", null ],
       [ "addCard", "da/d68/classDeckList.html#ae59e29e363c6979ebaac6347d07a09ae", null ],
       [ "addTag", "da/d68/classDeckList.html#a0c593080d57c8d9a87a03d610701e2c8", null ],
       [ "cleanList", "da/d68/classDeckList.html#a773dea93b32b04d5251565251b4800ea", null ],
@@ -38,13 +27,13 @@ var group__Decks =
       [ "getCardNodes", "da/d68/classDeckList.html#a94f2d40c4642afb281c569697d1c5051", null ],
       [ "getCardRefList", "da/d68/classDeckList.html#a462daf2ad314b74ede35d14e7cfbe676", null ],
       [ "getComments", "da/d68/classDeckList.html#a7b608939910c4a1f5b9669df770df389", null ],
-      [ "getCurrentSideboardPlan", "da/d68/classDeckList.html#a366158b75f8315d8a351da5088fd8b65", null ],
+      [ "getCurrentSideboardPlan", "da/d68/classDeckList.html#abf7a91aa8a1e6cb93106a71eb5db9045", null ],
       [ "getDeckHash", "da/d68/classDeckList.html#a9c94e81518708753b71317711831764c", null ],
       [ "getGameFormat", "da/d68/classDeckList.html#a76e33f42b3f08d506a4028a34a43452f", null ],
       [ "getLastLoadedTimestamp", "da/d68/classDeckList.html#a8d3de2c681503941edd3d33ccb54fb4d", null ],
       [ "getMetadata", "da/d68/classDeckList.html#a2b6e67b6ac121b74584c1b6b5c941500", null ],
       [ "getName", "da/d68/classDeckList.html#a79d884815abdd7b61694bf9657d27c56", null ],
-      [ "getSideboardPlans", "da/d68/classDeckList.html#a5037e8b13583625fb1aff199e39a8e9a", null ],
+      [ "getSideboardPlans", "da/d68/classDeckList.html#a79f3cb971fe33bcb433f9b60ab9d5b86", null ],
       [ "getSideboardSize", "da/d68/classDeckList.html#aa4b3eab9ecd1a70f81b3638d0f705d91", null ],
       [ "getTags", "da/d68/classDeckList.html#a0762038bdd843f2937e9c2f551b63e54", null ],
       [ "getTree", "da/d68/classDeckList.html#a084e4cc436edcbdc3b248d886f03a8b3", null ],
@@ -74,7 +63,17 @@ var group__Decks =
       [ "writeToString_Plain", "da/d68/classDeckList.html#acbc76c1a574283e5b32f514291343a63", null ],
       [ "cachedDeckHash", "da/d68/classDeckList.html#a9c0803bb3c17103752b182c2b74aa953", null ],
       [ "metadata", "da/d68/classDeckList.html#a8dcd85647b95253afe7eb7eef60b2d19", null ],
-      [ "sideboardPlans", "da/d68/classDeckList.html#a022f8b1e070ac13cb3701ed5dffa7235", null ],
+      [ "sideboardPlans", "da/d68/classDeckList.html#a1d0c79372af707b37607829efd2168b6", null ],
       [ "tree", "da/d68/classDeckList.html#af45030e8a0bde6bcfed09376a95c4bf4", null ]
+    ] ],
+    [ "SideboardPlan", "dc/d8b/classSideboardPlan.html", [
+      [ "SideboardPlan", "dc/d8b/classSideboardPlan.html#a8e876939557ad4c253f03c6bfb60b4dc", null ],
+      [ "getMoveList", "dc/d8b/classSideboardPlan.html#a0ea1c5ba007a094d0f55afb3d5a2b3d2", null ],
+      [ "getName", "dc/d8b/classSideboardPlan.html#a9becc8f13ae1fcb944970547c4eeaf34", null ],
+      [ "readElement", "dc/d8b/classSideboardPlan.html#a968cef119c90e00140629c0ea98be828", null ],
+      [ "setMoveList", "dc/d8b/classSideboardPlan.html#a3ab0add0650af72346c4d5c08bc6dfda", null ],
+      [ "write", "dc/d8b/classSideboardPlan.html#a86b289858e4ee6a3fe2549c7e688218c", null ],
+      [ "moveList", "dc/d8b/classSideboardPlan.html#a33fce3444dbfdfa2a968f845c04c25c2", null ],
+      [ "name", "dc/d8b/classSideboardPlan.html#a31d73d7a47729d65777963ec21b3d3c2", null ]
     ] ]
 ];

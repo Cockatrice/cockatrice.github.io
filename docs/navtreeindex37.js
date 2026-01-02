@@ -1,5 +1,8 @@
 var NAVTREEINDEX37 =
 {
+"da/d79/archidekt__api__response__card__entry_8h.html":[4,2,0,0,1,5,3,10,0,0,0,0,3],
+"da/d79/archidekt__api__response__card__entry_8h_source.html":[4,2,0,0,1,5,3,10,0,0,0,0,3],
+"da/d79/classCardSetList_1_1KeyCompareFunctor.html":[3,2,1,2,0],
 "da/d79/classCardSetList_1_1KeyCompareFunctor.html#a1b88f914b866e422dbb105a5e85c4cf3":[3,2,1,2,0,0],
 "da/d7b/classpeg_1_1parser.html":[4,0,0,9,34],
 "da/d7b/classpeg_1_1parser.html":[4,1,0,1,33],
@@ -246,8 +249,5 @@ var NAVTREEINDEX37 =
 "da/d9e/player__area_8h.html":[3,4,0,4,0,4],
 "da/da0/classHandCounter.html":[4,1,0,242],
 "da/da0/classHandCounter.html#a12b148ff8f24ef9019a1cab091036f9d":[4,1,0,242,3],
-"da/da0/classHandCounter.html#a3a386b59460b59dc3360c1d44e3a6b25":[4,1,0,242,8],
-"da/da0/classHandCounter.html#a499c2dd1b939fdb4b5816e429561ea6b":[4,1,0,242,6],
-"da/da0/classHandCounter.html#a9a83715f4ae5ccab345b45e5c3a0b599":[4,1,0,242,2],
-"da/da0/classHandCounter.html#ab5dc5e4cdd53d2e5506fa09c8ee8e81e":[4,1,0,242,4]
+"da/da0/classHandCounter.html#a3a386b59460b59dc3360c1d44e3a6b25":[4,1,0,242,8]
 };

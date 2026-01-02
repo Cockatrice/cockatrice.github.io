@@ -598,7 +598,7 @@ var searchData=
   ['side_595',['Side',['../db/d09/namespaceMtg.html#a5b271237e604b4bf42c6b8eea641f4b5',1,'Mtg']]],
   ['sideboardlockbuttonclicked_596',['sideboardLockButtonClicked',['../df/ddd/classDeckViewContainer.html#affb547b344b8cd83a5a5bb0332d9ac5c',1,'DeckViewContainer']]],
   ['sideboardmenu_597',['SideboardMenu',['../d5/dd7/classSideboardMenu.html#ace6ea16552bca4ac2da2722efad71354',1,'SideboardMenu']]],
-  ['sideboardplan_598',['SideboardPlan',['../dc/d8b/classSideboardPlan.html#a71d1cad089260b2e4581efe5c1c8adac',1,'SideboardPlan']]],
+  ['sideboardplan_598',['SideboardPlan',['../dc/d8b/classSideboardPlan.html#a8e876939557ad4c253f03c6bfb60b4dc',1,'SideboardPlan']]],
   ['sideboardplanchanged_599',['sideboardPlanChanged',['../db/db5/classDeckViewScene.html#ae9c3eeeba87806a505c0b178dd834791',1,'DeckViewScene::sideboardPlanChanged()'],['../d9/d25/classDeckView.html#ace111ab6afc89e4fb2e184a510608d05',1,'DeckView::sideboardPlanChanged()'],['../df/ddd/classDeckViewContainer.html#a83994cac4dec50c292f1c37b63e1d805',1,'DeckViewContainer::sideboardPlanChanged()']]],
   ['sigactivatetoserver_600',['sigActivateToServer',['../db/d53/classRemoteClient.html#a80c28f7e97f57dc2ac5028096b263c26',1,'RemoteClient']]],
   ['sigconnecttoserver_601',['sigConnectToServer',['../db/d53/classRemoteClient.html#ab936c1135a9d092129cd6e5a83efa426',1,'RemoteClient']]],

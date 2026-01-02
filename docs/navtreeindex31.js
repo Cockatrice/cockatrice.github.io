@@ -1,5 +1,9 @@
 var NAVTREEINDEX31 =
 {
+"d8/dc5/classAppearanceSettingsPage.html#ae027eeb72a57dc385a88f264a67957ef":[4,1,0,24,21],
+"d8/dcc/tapped__out__interface_8cpp.html":[4,2,0,0,1,0,0,0,2],
+"d8/dce/dlg__forgot__password__request_8cpp.html":[4,2,0,0,1,5,3,3,20],
+"d8/dcf/classRemoteDeckList__TreeModel.html":[4,1,0,360],
 "d8/dcf/classRemoteDeckList__TreeModel.html#a00f57d1faee611fb1fded915b5bddf24":[4,1,0,360,9],
 "d8/dcf/classRemoteDeckList__TreeModel.html#a25258346d4aaa86b87e4e4f979d8d203":[4,1,0,360,4],
 "d8/dcf/classRemoteDeckList__TreeModel.html#a29d3f6818d79a90e0d4134e4f2294836":[4,1,0,360,15],
@@ -245,9 +249,5 @@ var NAVTREEINDEX31 =
 "d9/d2f/classDlgLoadDeckFromWebsite.html#a68c865278d94f3c2958a0d667f883d8b":[4,1,0,163,3],
 "d9/d2f/classDlgLoadDeckFromWebsite.html#a6de9913cf4ef01076699823bd3ce28ba":[4,1,0,163,0],
 "d9/d2f/classDlgLoadDeckFromWebsite.html#a86acf5af8f4b42b1643b50ab000f6336":[4,1,0,163,4],
-"d9/d2f/classDlgLoadDeckFromWebsite.html#a99186bbee71319a8f73d77e29675f007":[4,1,0,163,7],
-"d9/d2f/classDlgLoadDeckFromWebsite.html#aaf1780aee35c98ef1c621dcff236d4eb":[4,1,0,163,8],
-"d9/d2f/classDlgLoadDeckFromWebsite.html#ab81f4e5b4cec67483842adf72e92ccfb":[4,1,0,163,1],
-"d9/d2f/classDlgLoadDeckFromWebsite.html#ad40cef208833551c4c799a85ab05f5d9":[4,1,0,163,6],
-"d9/d2f/classDlgLoadDeckFromWebsite.html#afb0870ad27de6b54a4bbe3cd8fa52c29":[4,1,0,163,10]
+"d9/d2f/classDlgLoadDeckFromWebsite.html#a99186bbee71319a8f73d77e29675f007":[4,1,0,163,7]
 };

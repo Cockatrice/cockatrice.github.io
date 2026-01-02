@@ -7,5 +7,7 @@ var dir_ff2017d8d6c53a419513535e9358adeb =
     [ "deck_list_history_manager.h", "df/df1/deck__list__history__manager_8h.html", "df/df1/deck__list__history__manager_8h" ],
     [ "deck_list_memento.h", "dd/db5/deck__list__memento_8h.html", "dd/db5/deck__list__memento_8h" ],
     [ "deck_list_node_tree.cpp", "da/d33/deck__list__node__tree_8cpp.html", null ],
-    [ "deck_list_node_tree.h", "d5/dbf/deck__list__node__tree_8h.html", "d5/dbf/deck__list__node__tree_8h" ]
+    [ "deck_list_node_tree.h", "d5/dbf/deck__list__node__tree_8h.html", "d5/dbf/deck__list__node__tree_8h" ],
+    [ "sideboard_plan.cpp", "d4/d46/sideboard__plan_8cpp.html", null ],
+    [ "sideboard_plan.h", "d3/dd8/sideboard__plan_8h.html", null ]
 ];

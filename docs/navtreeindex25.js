@@ -1,5 +1,9 @@
 var NAVTREEINDEX25 =
 {
+"d6/dee/classDlgCreateGame.html#a68f155c9bf9227619e330f0f3da4e2a2":[4,1,0,149,26],
+"d6/dee/classDlgCreateGame.html#a738f5b0a9b584223cecd64fbcd6d102d":[4,1,0,149,7],
+"d6/dee/classDlgCreateGame.html#a7dbd09630f026c7c663bdb44a9d783ec":[4,1,0,149,5],
+"d6/dee/classDlgCreateGame.html#a8530d92ebf73630289b04d3007824ac7":[4,1,0,149,21],
 "d6/dee/classDlgCreateGame.html#a8f8433260dbbf4f6fe114eedd5403ca8":[4,1,0,149,13],
 "d6/dee/classDlgCreateGame.html#a91465b6806f447d07c774ab0f6fb4e6c":[4,1,0,149,28],
 "d6/dee/classDlgCreateGame.html#aa302567d223b60bece717715cae1235f":[4,1,0,149,22],
@@ -245,9 +249,5 @@ var NAVTREEINDEX25 =
 "d7/d66/card__database_8h_source.html":[4,2,0,2,0,0,0,2],
 "d7/d66/classSoundEngine.html":[4,1,0,434],
 "d7/d66/classSoundEngine.html#a256073c12847ed925e2d72092ecffe68":[4,1,0,434,11],
-"d7/d66/classSoundEngine.html#a38542d6aff0e4d7e29e635a0955b93d2":[4,1,0,434,0],
-"d7/d66/classSoundEngine.html#a4b2250273064e8c6b5e6579d94fc05ff":[4,1,0,434,10],
-"d7/d66/classSoundEngine.html#a51b3e6c11e276f7d34146ab29e9922d9":[4,1,0,434,4],
-"d7/d66/classSoundEngine.html#a73c4fb64879636af5d28f903f48ec2af":[4,1,0,434,7],
-"d7/d66/classSoundEngine.html#a758c27260403e007c0b6daf5acb91640":[4,1,0,434,8]
+"d7/d66/classSoundEngine.html#a38542d6aff0e4d7e29e635a0955b93d2":[4,1,0,434,0]
 };

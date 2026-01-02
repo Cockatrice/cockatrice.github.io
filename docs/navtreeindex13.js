@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"d3/dc3/classArchidektApiResponseCardEntry.html":[4,1,0,26],
 "d3/dc3/classArchidektApiResponseCardEntry.html#a0b6906f289e4327b335e1b6c6f827862":[4,1,0,26,19],
 "d3/dc3/classArchidektApiResponseCardEntry.html#a1a004f37b9ea69340077369f8b3b6e92":[4,1,0,26,8],
 "d3/dc3/classArchidektApiResponseCardEntry.html#a1e74057ca04aa70e066d3041e21dd17a":[4,1,0,26,5],
@@ -36,6 +37,8 @@ var NAVTREEINDEX13 =
 "d3/dcd/classBackgroundPlateWidget.html#a38b35e3860c4e5ca61d92742da653648":[4,1,0,42,3],
 "d3/dcd/classBackgroundPlateWidget.html#a7cbf90a44c27f6981b879a6584acdc66":[4,1,0,42,2],
 "d3/dcd/classBackgroundPlateWidget.html#ac980a5d4fd032593eb535feb9b670adc":[4,1,0,42,1],
+"d3/dd8/sideboard__plan_8h.html":[4,2,0,3,0,0,9],
+"d3/dd8/sideboard__plan_8h_source.html":[4,2,0,3,0,0,9],
 "d3/dda/card__set_8h.html":[4,2,0,2,0,0,4,1],
 "d3/dda/card__set_8h.html#a21cc940a925deec957f621696b9ec199":[4,2,0,2,0,0,4,1,1],
 "d3/dda/card__set_8h.html#a2aeb282303adffd3229122dc04327699":[4,2,0,2,0,0,4,1,0],
@@ -82,14 +85,14 @@ var NAVTREEINDEX13 =
 "d3/de4/classPlayerGraphicsItem.html#af20b6ba93776a5143121790343d2c3e7":[4,1,0,329,35],
 "d3/de4/classPlayerGraphicsItem.html#afad99603356aed7457f2b172ff3150d3":[4,1,0,329,32],
 "d3/de4/classPlayerGraphicsItem.html#afcafe76822c44781bd0a4cd4838854bc":[4,1,0,329,27],
-"d3/de4/structDeckList_1_1Metadata.html":[3,3,4,0],
-"d3/de4/structDeckList_1_1Metadata.html#a26688c47b071cced7bc0d0b70d270634":[3,3,4,0,5],
-"d3/de4/structDeckList_1_1Metadata.html#a6d77b71257ae9768e34ef0efe008e90e":[3,3,4,0,0],
-"d3/de4/structDeckList_1_1Metadata.html#a7683438a14f101fdb9f4eba6116339ba":[3,3,4,0,4],
-"d3/de4/structDeckList_1_1Metadata.html#a8904d754278a55c961599c0d0a3a1600":[3,3,4,0,3],
-"d3/de4/structDeckList_1_1Metadata.html#a9e8725c87fbe9a7aa9f317c867b639ad":[3,3,4,0,1],
-"d3/de4/structDeckList_1_1Metadata.html#aa441b4f72c49593f204154e7e7a43e5a":[3,3,4,0,6],
-"d3/de4/structDeckList_1_1Metadata.html#abb32713a1d1c64e37f9242f7b5534405":[3,3,4,0,2],
+"d3/de4/structDeckList_1_1Metadata.html":[3,3,3,0],
+"d3/de4/structDeckList_1_1Metadata.html#a26688c47b071cced7bc0d0b70d270634":[3,3,3,0,5],
+"d3/de4/structDeckList_1_1Metadata.html#a6d77b71257ae9768e34ef0efe008e90e":[3,3,3,0,0],
+"d3/de4/structDeckList_1_1Metadata.html#a7683438a14f101fdb9f4eba6116339ba":[3,3,3,0,4],
+"d3/de4/structDeckList_1_1Metadata.html#a8904d754278a55c961599c0d0a3a1600":[3,3,3,0,3],
+"d3/de4/structDeckList_1_1Metadata.html#a9e8725c87fbe9a7aa9f317c867b639ad":[3,3,3,0,1],
+"d3/de4/structDeckList_1_1Metadata.html#aa441b4f72c49593f204154e7e7a43e5a":[3,3,3,0,6],
+"d3/de4/structDeckList_1_1Metadata.html#abb32713a1d1c64e37f9242f7b5534405":[3,3,3,0,2],
 "d3/de6/group__RemoteDeckStorageDialogs.html":[3,1,0,6,0],
 "d3/de6/group__RemoteDeckStorageDialogs.html":[3,3,2,1,0,0],
 "d3/de6/group__RemoteDeckStorageDialogs.html":[3,3,2,2,1,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX13 =
 "d4/d14/classDownloadSettings.html#a30e1f21f83acb88d0ee03c5e084f5f01":[4,1,0,174,0],
 "d4/d14/classDownloadSettings.html#a590a9adb92656f9a2809cead713f194d":[4,1,0,174,2],
 "d4/d14/classDownloadSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,174,4],
-"d4/d14/classDownloadSettings.html#ab644f5cd6589c1d67761bbe2ef332b41":[4,1,0,174,5],
-"d4/d14/classDownloadSettings.html#ab99a632e3c99f64b35ceb9b5cbe6fdfd":[4,1,0,174,3],
-"d4/d14/classDownloadSettings.html#adbe42a1ac3b2b2e146bfe6e48020b5fb":[4,1,0,174,1],
-"d4/d17/edhrec__top__tags__api__response_8cpp.html":[4,2,0,0,1,5,3,10,0,1,0,7,0]
+"d4/d14/classDownloadSettings.html#ab644f5cd6589c1d67761bbe2ef332b41":[4,1,0,174,5]
 };

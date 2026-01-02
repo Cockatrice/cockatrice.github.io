@@ -1,5 +1,8 @@
 var NAVTREEINDEX41 =
 {
+"db/d67/classLogger.html#a221d6e5def01df8d55514cd3afaab342":[4,1,0,273,11],
+"db/d67/classLogger.html#a43ffb2434b9a620beb8935fa78d648a1":[4,1,0,273,4],
+"db/d67/classLogger.html#a49a80a6a8b5997d9f376593bd5c37512":[4,1,0,273,6],
 "db/d67/classLogger.html#a5004dbdc25706c7851da8ffbe947a752":[4,1,0,273,5],
 "db/d67/classLogger.html#a56defd0fd628ce6263d25d02296e48ce":[4,1,0,273,7],
 "db/d67/classLogger.html#a68c0d3e95a78e07978f131bd97b3b2d0":[4,1,0,273,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX41 =
 "db/daf/recents__settings_8h.html":[3,7,5,0],
 "db/db0/servers__settings_8h.html":[3,7,2,2],
 "db/db1/dlg__manage__sets_8h.html":[3,1,0,0,2],
-"db/db2/classManaDistributionSingleDisplayWidget.html":[4,1,0,291],
-"db/db2/classManaDistributionSingleDisplayWidget.html#a2af13ca1871a79dbc264dd5a28c18810":[4,1,0,291,4],
-"db/db2/classManaDistributionSingleDisplayWidget.html#a6dfd51dd4ca562399d98ddd5cf90d605":[4,1,0,291,0],
-"db/db2/classManaDistributionSingleDisplayWidget.html#a8753b392846cb4e026b4e19c63b10c88":[4,1,0,291,5]
+"db/db2/classManaDistributionSingleDisplayWidget.html":[4,1,0,291]
 };
