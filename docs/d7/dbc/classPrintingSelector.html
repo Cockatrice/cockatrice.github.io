@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-02-Development-2.11.0-beta.43</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-05-Development-2.11.0-beta.44</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -128,6 +128,7 @@ Public Slots</h2></td></tr>
 Signals</h2></td></tr>
 <tr class="memitem:ae17f313d771a27159043f341486a98b3" id="r_ae17f313d771a27159043f341486a98b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae17f313d771a27159043f341486a98b3">prevCardRequested</a> ()</td></tr>
 <tr class="memitem:a3054e185daecdbd464dde6c25b28f39b" id="r_a3054e185daecdbd464dde6c25b28f39b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3054e185daecdbd464dde6c25b28f39b">nextCardRequested</a> ()</td></tr>
+<tr class="memitem:a30820da81c7132fa8ece8d8c08b7aad6" id="r_a30820da81c7132fa8ece8d8c08b7aad6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30820da81c7132fa8ece8d8c08b7aad6">cardAmountsChanged</a> (const QMap&lt; QString, QPair&lt; int, int &gt; &gt; &amp;uuidToAmounts)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -141,6 +142,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a056fffe42b4f5276c6e516ea75a2bc78" id="r_a056fffe42b4f5276c6e516ea75a2bc78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a056fffe42b4f5276c6e516ea75a2bc78">printingsInDeckChanged</a> ()</td></tr>
+<tr class="memitem:afc8fa275a15037c2ed2ede43b00b2405" id="r_afc8fa275a15037c2ed2ede43b00b2405"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc8fa275a15037c2ed2ede43b00b2405">updateCardAmounts</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -198,6 +200,42 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a30820da81c7132fa8ece8d8c08b7aad6" name="a30820da81c7132fa8ece8d8c08b7aad6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30820da81c7132fa8ece8d8c08b7aad6">&#9670;&#160;</a></span>cardAmountsChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintingSelector::cardAmountsChanged </td>
+          <td>(</td>
+          <td class="paramtype">const QMap&lt; QString, QPair&lt; int, int &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>uuidToAmounts</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The amounts of the printings in the deck has changed </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uuidToAmounts</td><td>Map of uuids to the amounts (maindeck, sideboard) in the deck </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dbc/classPrintingSelector_a30820da81c7132fa8ece8d8c08b7aad6_icgraph.svg" width="100%" height="521"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="ae77e2510421de004cf819a01f97d6a73" name="ae77e2510421de004cf819a01f97d6a73"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae77e2510421de004cf819a01f97d6a73">&#9670;&#160;</a></span>getAllSetsForCurrentCard()</h2>
 
@@ -418,6 +456,41 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dbc/classPrintingSelector_ade24982358c0b07187d5ae0bdbc757fd_icgraph.svg" width="442" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="afc8fa275a15037c2ed2ede43b00b2405" name="afc8fa275a15037c2ed2ede43b00b2405"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc8fa275a15037c2ed2ede43b00b2405">&#9670;&#160;</a></span>updateCardAmounts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintingSelector::updateCardAmounts </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dbc/classPrintingSelector_afc8fa275a15037c2ed2ede43b00b2405_cgraph.svg" width="100%" height="381"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dbc/classPrintingSelector_afc8fa275a15037c2ed2ede43b00b2405_icgraph.svg" width="420" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

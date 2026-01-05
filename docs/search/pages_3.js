@@ -11,7 +11,7 @@ var searchData=
   ['deck_20information_8',['Deck Information',['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
   ['deck_20layout_9',['Modifying the visual deck layout',['../de/d6e/editing_decks_visual.html#modifying-the-visual-deck-layout',1,'']]],
   ['deck_20list_10',['Deck List',['../d3/d32/editing_decks_classic.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../de/d6e/editing_decks_visual.html#modifying-the-deck-list-1',1,'Modifying the Deck List']]],
-  ['deck_20search_20syntax_20help_11',['Deck Search Syntax Help',['../de/dec/deck_search_syntax_help.html#autotoc_md-deck-search-syntax-help',1,'## Deck Search Syntax Help'],['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help']]],
+  ['deck_20search_20syntax_20help_11',['Deck Search Syntax Help',['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help'],['../de/dec/deck_search_syntax_help.html#deck-search-syntax-help',1,'Deck Search Syntax Help']]],
   ['decks_12',['Decks',['../d3/d9a/creating_decks.html',1,'Creating Decks'],['../da/d03/editing_decks.html',1,'Editing Decks'],['../d0/d51/exporting_decks.html',1,'Exporting Decks'],['../db/d91/importing_decks.html',1,'Importing Decks']]],
   ['design_20notes_3a_13',['Design notes:',['../d4/d55/classInnerDecklistNode.html#design-notes',1,'']]],
   ['detailed_20display_14',['Detailed Display',['../dc/d8a/displaying_cards.html#detailed-display',1,'']]],

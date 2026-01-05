@@ -117,7 +117,7 @@ var searchData=
   ['roomtable_114',['roomTable',['../d9/ded/classTabLog.html#a865ba9e9b2f88f87ea0708a9920a934c',1,'TabLog']]],
   ['roomtabs_115',['roomTabs',['../dd/d81/classTabSupervisor.html#a870881e3dbbd5e1d8fd8ec5b3d0aea35',1,'TabSupervisor']]],
   ['root_116',['root',['../d8/dcf/classRemoteDeckList__TreeModel.html#afb0d952dc1472c29e352e50a84526e62',1,'RemoteDeckList_TreeModel::root'],['../db/df8/classDecklistNodeTree.html#a6be332d06aed41b98fcbca9ad7dc3d7d',1,'DecklistNodeTree::root'],['../d9/de1/classDeckListModel.html#acf9b31e662afe4a86fbb2b4cc98f759a',1,'DeckListModel::root']]],
-  ['rootcard_117',['rootCard',['../dc/d15/classCardAmountWidget.html#ad71a57546db1dc92ae81d9ee6fcdde8b',1,'CardAmountWidget::rootCard'],['../d3/d2f/classPrintingSelectorCardOverlayWidget.html#a16dc606aed04563cb7e8c31ac542d9bf',1,'PrintingSelectorCardOverlayWidget::rootCard']]],
+  ['rootcard_117',['rootCard',['../dc/d15/classCardAmountWidget.html#ad71a57546db1dc92ae81d9ee6fcdde8b',1,'CardAmountWidget::rootCard'],['../d9/db3/classPrintingSelectorCardDisplayWidget.html#a85cca49b3cc01dba2052f76f239089ad',1,'PrintingSelectorCardDisplayWidget::rootCard'],['../d3/d2f/classPrintingSelectorCardOverlayWidget.html#a16dc606aed04563cb7e8c31ac542d9bf',1,'PrintingSelectorCardOverlayWidget::rootCard']]],
   ['rotation_5fdegrees_5fper_5fframe_118',['ROTATION_DEGREES_PER_FRAME',['../dc/d96/card__item_8h.html#a9153d493471864d0f8b2203be33e9990',1,'card_item.h']]],
   ['roundcardcorners_119',['roundCardCorners',['../d5/d88/classSettingsCache.html#af95aca0d25d89ddcd5098a30268fcdf5',1,'SettingsCache']]],
   ['roundcardcornerscheckbox_120',['roundCardCornersCheckBox',['../d8/dc5/classAppearanceSettingsPage.html#adb73cc03f47412978f67a5f6471f1e0a',1,'AppearanceSettingsPage']]],

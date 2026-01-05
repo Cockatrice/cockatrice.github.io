@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-02-Development-2.11.0-beta.43</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-05-Development-2.11.0-beta.44</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -131,8 +131,18 @@ Public Slots</h2></td></tr>
 Signals</h2></td></tr>
 <tr class="memitem:a3b3448445b238d8ed10203d302b2a039" id="r_a3b3448445b238d8ed10203d302b2a039"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b3448445b238d8ed10203d302b2a039">deckHashChanged</a> ()</td></tr>
 <tr class="memdesc:a3b3448445b238d8ed10203d302b2a039"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever the deck hash changes due to modifications in the model.  <br /></td></tr>
+<tr class="memitem:a54240971b92dc74155ef7d72c6ce6496" id="r_a54240971b92dc74155ef7d72c6ce6496"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54240971b92dc74155ef7d72c6ce6496">cardsChanged</a> ()</td></tr>
+<tr class="memdesc:a54240971b92dc74155ef7d72c6ce6496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever the cards in the deck changes. This includes when the deck is replaced.  <br /></td></tr>
 <tr class="memitem:a050afffcc543e063c9eecc4fda084f7d" id="r_a050afffcc543e063c9eecc4fda084f7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a050afffcc543e063c9eecc4fda084f7d">cardAddedAt</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>)</td></tr>
 <tr class="memdesc:a050afffcc543e063c9eecc4fda084f7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever a card is added to the deck, regardless of whether it's an entirely new card or an existing card that got incremented.  <br /></td></tr>
+<tr class="memitem:a5ca9a3dd1b0dc33d6fad3ef6d8a5790c" id="r_a5ca9a3dd1b0dc33d6fad3ef6d8a5790c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ca9a3dd1b0dc33d6fad3ef6d8a5790c">cardRemoved</a> ()</td></tr>
+<tr class="memdesc:a5ca9a3dd1b0dc33d6fad3ef6d8a5790c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever a card is removed from the deck, regardless of whether a card node was removed or an existing card got decremented.  <br /></td></tr>
+<tr class="memitem:a8d570642f12f0fa647f4107a58bcd3ba" id="r_a8d570642f12f0fa647f4107a58bcd3ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d570642f12f0fa647f4107a58bcd3ba">cardNodesChanged</a> ()</td></tr>
+<tr class="memdesc:a8d570642f12f0fa647f4107a58bcd3ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever a card node is added or removed. This includes when the deck is replaced.  <br /></td></tr>
+<tr class="memitem:a21a5c3bdf3dd67b1b0bf6de39c24d92b" id="r_a21a5c3bdf3dd67b1b0bf6de39c24d92b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21a5c3bdf3dd67b1b0bf6de39c24d92b">cardNodeAddedAt</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>)</td></tr>
+<tr class="memdesc:a21a5c3bdf3dd67b1b0bf6de39c24d92b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever a new card node is added.  <br /></td></tr>
+<tr class="memitem:ad1200593f63fba0927d9076500f7fd1f" id="r_ad1200593f63fba0927d9076500f7fd1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1200593f63fba0927d9076500f7fd1f">cardNodeRemoved</a> ()</td></tr>
+<tr class="memdesc:ad1200593f63fba0927d9076500f7fd1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever a card node is removed.  <br /></td></tr>
 <tr class="memitem:a7ec31566a7293507368174ddd41507bc" id="r_a7ec31566a7293507368174ddd41507bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ec31566a7293507368174ddd41507bc">deckReplaced</a> ()</td></tr>
 <tr class="memdesc:a7ec31566a7293507368174ddd41507bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever the deck in the model has been replaced with a new one.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -151,15 +161,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac31406c75864382e2499851f3c84460e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> to the specified zone.  <br /></td></tr>
 <tr class="memitem:a9df6d2bf3d1f0f09e57f190585e76f9a" id="r_a9df6d2bf3d1f0f09e57f190585e76f9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9df6d2bf3d1f0f09e57f190585e76f9a">offsetCountAtIndex</a> (const QModelIndex &amp;idx, int offset)</td></tr>
 <tr class="memdesc:a9df6d2bf3d1f0f09e57f190585e76f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the <span class="tt">amount</span> field in the card node at the index by the amount. Removes the node if it causes the amount to fall to 0 or below.  <br /></td></tr>
+<tr class="memitem:abc4f073d38fb12cf2dcd1c3949615db6" id="r_abc4f073d38fb12cf2dcd1c3949615db6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc4f073d38fb12cf2dcd1c3949615db6">removeCardAtIndex</a> (const QModelIndex &amp;idx)</td></tr>
+<tr class="memdesc:abc4f073d38fb12cf2dcd1c3949615db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the card node at the index.  <br /></td></tr>
 <tr class="memitem:a1ecfd117038f01fce09c99796ccf67ea" id="r_a1ecfd117038f01fce09c99796ccf67ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ecfd117038f01fce09c99796ccf67ea">cleanList</a> ()</td></tr>
 <tr class="memdesc:a1ecfd117038f01fce09c99796ccf67ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all cards and resets the model.  <br /></td></tr>
 <tr class="memitem:a224db4a8d5389f1e96cb6bc5b6ee9dc9" id="r_a224db4a8d5389f1e96cb6bc5b6ee9dc9"><td class="memItemLeft" align="right" valign="top">QSharedPointer&lt; <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a224db4a8d5389f1e96cb6bc5b6ee9dc9">getDeckList</a> () const</td></tr>
 <tr class="memitem:aa87143204e143b61eb7d5811bb007477" id="r_aa87143204e143b61eb7d5811bb007477"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa87143204e143b61eb7d5811bb007477">setDeckList</a> (const QSharedPointer&lt; <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &gt; &amp;_deck)</td></tr>
 <tr class="memitem:a61a941923868e8d058c650853bdab354" id="r_a61a941923868e8d058c650853bdab354"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61a941923868e8d058c650853bdab354">forEachCard</a> (const std::function&lt; void(<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *, <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> *)&gt; &amp;func)</td></tr>
 <tr class="memdesc:a61a941923868e8d058c650853bdab354"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a function to every card in the deck tree.  <br /></td></tr>
-<tr class="memitem:aea85d00abde1ac99e60565920586acd9" id="r_aea85d00abde1ac99e60565920586acd9"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea85d00abde1ac99e60565920586acd9">getCards</a> () const</td></tr>
-<tr class="memdesc:aea85d00abde1ac99e60565920586acd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a list consisting of the entries of the model mapped into ExactCards (with each entry looked up in the card database). If a card node has number &gt; 1, it will be added that many times to the list. If an entry's card is not found in the card database, that entry will be left out of the list.  <br /></td></tr>
-<tr class="memitem:a3bb088a4d838f88b692a8aabf5b4dfc3" id="r_a3bb088a4d838f88b692a8aabf5b4dfc3"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bb088a4d838f88b692a8aabf5b4dfc3">getCardsForZone</a> (const QString &amp;zoneName) const</td></tr>
+<tr class="memitem:a2c09627b92213e45e4fc8a86f0293035" id="r_a2c09627b92213e45e4fc8a86f0293035"><td class="memItemLeft" align="right" valign="top">QList&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c09627b92213e45e4fc8a86f0293035">getCardNodes</a> () const</td></tr>
+<tr class="memdesc:a2c09627b92213e45e4fc8a86f0293035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list of all card nodes in the deck.  <br /></td></tr>
+<tr class="memitem:a3fe415fc5c616a12f448e15412463762" id="r_a3fe415fc5c616a12f448e15412463762"><td class="memItemLeft" align="right" valign="top">QList&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fe415fc5c616a12f448e15412463762">getCardNodesForZone</a> (const QString &amp;zoneName) const</td></tr>
 <tr class="memitem:a2b1428625ee6777e993ccd51910d2eb4" id="r_a2b1428625ee6777e993ccd51910d2eb4"><td class="memItemLeft" align="right" valign="top">QList&lt; QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b1428625ee6777e993ccd51910d2eb4">getCardNames</a> () const</td></tr>
 <tr class="memdesc:a2b1428625ee6777e993ccd51910d2eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a deduplicated list of all card names that appear in the model.  <br /></td></tr>
 <tr class="memitem:ad0abbec6eacb2e42ea95ed23080de242" id="r_ad0abbec6eacb2e42ea95ed23080de242"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="../../d1/d66/structCardRef.html">CardRef</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0abbec6eacb2e42ea95ed23080de242">getCardRefs</a> () const</td></tr>
@@ -205,6 +217,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Qt model representing a decklist for use in views (tree/table). </p>
 <p><a class="el" href="../../d9/de1/classDeckListModel.html" title="Qt model representing a decklist for use in views (tree/table).">DeckListModel</a> is a QAbstractItemModel that exposes the structure of a deck (zones and cards) to Qt views. It organizes cards hierarchically under <a class="el" href="../../d4/d55/classInnerDecklistNode.html" title="Represents a container node in the deck list hierarchy (zones and groupings).">InnerDecklistNode</a> containers and supports grouping, sorting, adding/removing cards, and printing decklists.</p>
+<p>Outside code should refrain from modifying the model with methods inherited from QAbstractItemModel, such as with <span class="tt">setData</span> or <span class="tt">removeRow</span>. Instead, use the custom methods on this class to modify the model, such as <span class="tt">addCard</span>, <span class="tt">offsetCountAtIndex</span>, or <span class="tt">removeCardAtIndex</span>. This ensures the custom signals for this class are correctly emitted.</p>
 <p>Signals:</p><ul>
 <li><a class="el" href="#a3b3448445b238d8ed10203d302b2a039" title="Emitted whenever the deck hash changes due to modifications in the model.">deckHashChanged()</a>: emitted when the deck contents change in a way that affects its hash.</li>
 </ul>
@@ -434,6 +447,177 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a050afffcc543e063c9eecc4fda084f7d_icgraph.svg" width="100%" height="555"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a21a5c3bdf3dd67b1b0bf6de39c24d92b" name="a21a5c3bdf3dd67b1b0bf6de39c24d92b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21a5c3bdf3dd67b1b0bf6de39c24d92b">&#9670;&#160;</a></span>cardNodeAddedAt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckListModel::cardNodeAddedAt </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted whenever a new card node is added. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the card node that got added. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a21a5c3bdf3dd67b1b0bf6de39c24d92b_cgraph.svg" width="100%" height="383"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a21a5c3bdf3dd67b1b0bf6de39c24d92b_icgraph.svg" width="100%" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad1200593f63fba0927d9076500f7fd1f" name="ad1200593f63fba0927d9076500f7fd1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1200593f63fba0927d9076500f7fd1f">&#9670;&#160;</a></span>cardNodeRemoved</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckListModel::cardNodeRemoved </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted whenever a card node is removed. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_ad1200593f63fba0927d9076500f7fd1f_icgraph.svg" width="100%" height="405"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8d570642f12f0fa647f4107a58bcd3ba" name="a8d570642f12f0fa647f4107a58bcd3ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d570642f12f0fa647f4107a58bcd3ba">&#9670;&#160;</a></span>cardNodesChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckListModel::cardNodesChanged </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted whenever a card node is added or removed. This includes when the deck is replaced. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a8d570642f12f0fa647f4107a58bcd3ba_icgraph.svg" width="100%" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a5ca9a3dd1b0dc33d6fad3ef6d8a5790c" name="a5ca9a3dd1b0dc33d6fad3ef6d8a5790c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ca9a3dd1b0dc33d6fad3ef6d8a5790c">&#9670;&#160;</a></span>cardRemoved</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckListModel::cardRemoved </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted whenever a card is removed from the deck, regardless of whether a card node was removed or an existing card got decremented. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a5ca9a3dd1b0dc33d6fad3ef6d8a5790c_icgraph.svg" width="100%" height="445"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a54240971b92dc74155ef7d72c6ce6496" name="a54240971b92dc74155ef7d72c6ce6496"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54240971b92dc74155ef7d72c6ce6496">&#9670;&#160;</a></span>cardsChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckListModel::cardsChanged </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted whenever the cards in the deck changes. This includes when the deck is replaced. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a54240971b92dc74155ef7d72c6ce6496_icgraph.svg" width="500" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -971,6 +1155,63 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a2c09627b92213e45e4fc8a86f0293035" name="a2c09627b92213e45e4fc8a86f0293035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c09627b92213e45e4fc8a86f0293035">&#9670;&#160;</a></span>getCardNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt; DeckListModel::getCardNodes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a list of all card nodes in the deck. </p>
+
+</div>
+</div>
+<a id="a3fe415fc5c616a12f448e15412463762" name="a3fe415fc5c616a12f448e15412463762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fe415fc5c616a12f448e15412463762">&#9670;&#160;</a></span>getCardNodesForZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt; DeckListModel::getCardNodesForZone </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>zoneName</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a3fe415fc5c616a12f448e15412463762_icgraph.svg" width="100%" height="521"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="ad0abbec6eacb2e42ea95ed23080de242" name="ad0abbec6eacb2e42ea95ed23080de242"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad0abbec6eacb2e42ea95ed23080de242">&#9670;&#160;</a></span>getCardRefs()</h2>
 
@@ -999,69 +1240,6 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_ad0abbec6eacb2e42ea95ed23080de242_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="aea85d00abde1ac99e60565920586acd9" name="aea85d00abde1ac99e60565920586acd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea85d00abde1ac99e60565920586acd9">&#9670;&#160;</a></span>getCards()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; DeckListModel::getCards </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates a list consisting of the entries of the model mapped into ExactCards (with each entry looked up in the card database). If a card node has number &gt; 1, it will be added that many times to the list. If an entry's card is not found in the card database, that entry will be left out of the list. </p>
-<dl class="section return"><dt>Returns</dt><dd>An ordered list of ExactCards </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_aea85d00abde1ac99e60565920586acd9_cgraph.svg" width="100%" height="533"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a3bb088a4d838f88b692a8aabf5b4dfc3" name="a3bb088a4d838f88b692a8aabf5b4dfc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bb088a4d838f88b692a8aabf5b4dfc3">&#9670;&#160;</a></span>getCardsForZone()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; DeckListModel::getCardsForZone </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>zoneName</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a3bb088a4d838f88b692a8aabf5b4dfc3_cgraph.svg" width="100%" height="533"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1451,6 +1629,42 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a9c45720ad82f9d3c12e98b39a0d748e8_icgraph.svg" width="100%" height="458"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="abc4f073d38fb12cf2dcd1c3949615db6" name="abc4f073d38fb12cf2dcd1c3949615db6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc4f073d38fb12cf2dcd1c3949615db6">&#9670;&#160;</a></span>removeCardAtIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DeckListModel::removeCardAtIndex </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>idx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes the card node at the index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td>The index of a card node. No-ops if the index is invalid or not a card node. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the node was removed. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_abc4f073d38fb12cf2dcd1c3949615db6_cgraph.svg" width="482" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_abc4f073d38fb12cf2dcd1c3949615db6_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

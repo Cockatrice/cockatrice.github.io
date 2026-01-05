@@ -1,5 +1,7 @@
 var dir_92d403742a3e0828f8dabf9c7c1d5f4c =
 [
+    [ "deck_editor_card_database_dock_widget.cpp", "d3/d59/deck__editor__card__database__dock__widget_8cpp.html", null ],
+    [ "deck_editor_card_database_dock_widget.h", "d5/dac/deck__editor__card__database__dock__widget_8h.html", "d5/dac/deck__editor__card__database__dock__widget_8h" ],
     [ "deck_editor_card_info_dock_widget.cpp", "dd/d0e/deck__editor__card__info__dock__widget_8cpp.html", null ],
     [ "deck_editor_card_info_dock_widget.h", "d5/d5a/deck__editor__card__info__dock__widget_8h.html", "d5/d5a/deck__editor__card__info__dock__widget_8h" ],
     [ "deck_editor_database_display_widget.cpp", "db/d0e/deck__editor__database__display__widget_8cpp.html", "db/d0e/deck__editor__database__display__widget_8cpp" ],

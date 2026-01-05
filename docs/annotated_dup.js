@@ -168,6 +168,7 @@ var annotated_dup =
     [ "DebugSettings", "d9/d00/classDebugSettings.html", "d9/d00/classDebugSettings" ],
     [ "DeckAnalyticsWidget", "d4/d77/classDeckAnalyticsWidget.html", "d4/d77/classDeckAnalyticsWidget" ],
     [ "DeckCardZoneDisplayWidget", "d8/d9f/classDeckCardZoneDisplayWidget.html", "d8/d9f/classDeckCardZoneDisplayWidget" ],
+    [ "DeckEditorCardDatabaseDockWidget", "d1/d94/classDeckEditorCardDatabaseDockWidget.html", "d1/d94/classDeckEditorCardDatabaseDockWidget" ],
     [ "DeckEditorCardInfoDockWidget", "d7/d9f/classDeckEditorCardInfoDockWidget.html", "d7/d9f/classDeckEditorCardInfoDockWidget" ],
     [ "DeckEditorDatabaseDisplayWidget", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html", "d3/d0a/classDeckEditorDatabaseDisplayWidget" ],
     [ "DeckEditorDeckDockWidget", "d9/df7/classDeckEditorDeckDockWidget.html", "d9/df7/classDeckEditorDeckDockWidget" ],

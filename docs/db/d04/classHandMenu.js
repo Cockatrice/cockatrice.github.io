@@ -15,6 +15,8 @@ var classHandMenu =
     [ "aMoveHandToRfg", "db/d04/classHandMenu.html#a9b44d4e7fa227b6bf1d8c511ba5361dd", null ],
     [ "aMoveHandToTopLibrary", "db/d04/classHandMenu.html#aff5515fc97cd006434cd5b551984de2e", null ],
     [ "aMulligan", "db/d04/classHandMenu.html#aec1c1144ee708853bb0d36a1dcd0f93a", null ],
+    [ "aMulliganMinusOne", "db/d04/classHandMenu.html#aac306e0d1ccab150ad8fa7b7444140a7", null ],
+    [ "aMulliganSame", "db/d04/classHandMenu.html#a426a5fd36482a7b4af61044085bbf3ee", null ],
     [ "aRevealHandToAll", "db/d04/classHandMenu.html#aa4461771172517b243a62659221a4971", null ],
     [ "aRevealRandomHandCardToAll", "db/d04/classHandMenu.html#a3a388cd130750fed8808ecd3e18463db", null ],
     [ "aSortHandByManaValue", "db/d04/classHandMenu.html#a4b703b898237eea6748bfa5a10a4d24c", null ],

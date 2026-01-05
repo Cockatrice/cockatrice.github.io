@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-02-Development-2.11.0-beta.43</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-05-Development-2.11.0-beta.44</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -120,7 +120,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a147e718949202fcc3de3ba27499132ef" id="r_a147e718949202fcc3de3ba27499132ef"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../da/d7b/classpeg_1_1parser.html">peg::parser</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a147e718949202fcc3de3ba27499132ef">search</a> (R&quot;(
+<tr class="memitem:a4352993d94a212b26a331cb4c0fca692" id="r_a4352993d94a212b26a331cb4c0fca692"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../da/d7b/classpeg_1_1parser.html">peg::parser</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4352993d94a212b26a331cb4c0fca692">search</a> (R&quot;(
 Start &lt;- QueryPartList
 ~ws &lt;- [ ]+
 QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart)* ws*
@@ -128,7 +128,7 @@ QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart
 ComplexQueryPart &lt;- SomewhatComplexQueryPart ws &quot;OR&quot; ws ComplexQueryPart / SomewhatComplexQueryPart
 SomewhatComplexQueryPart &lt;- [(] QueryPartList [)] / QueryPart
 
-QueryPart &lt;- NotQuery / DeckContentQuery / DeckNameQuery / FileNameQuery / PathQuery / FormatQuery / GenericQuery
+QueryPart &lt;- NotQuery / DeckContentQuery / DeckNameQuery / FileNameQuery / PathQuery / FormatQuery / CommentQuery / GenericQuery
 
 NotQuery &lt;- ('NOT' ws/'-') SomewhatComplexQueryPart
 
@@ -140,6 +140,7 @@ DeckNameQuery &lt;- ([Dd] 'eck')? [Nn] 'ame'? [:] String
 FileNameQuery &lt;- [Ff] ([Nn] / 'ile' ([Nn] 'ame')?) [:] String
 PathQuery &lt;- [Pp] 'ath'? [:] String
 FormatQuery &lt;- [Ff] 'ormat'? [:] String
+CommentQuery &lt;- [Cc] ('omment' 's'?)? [:] String
 
 GenericQuery &lt;- String
 
@@ -203,8 +204,8 @@ NumericValue &lt;- [0-9]+
 
 </div>
 </div>
-<a id="a147e718949202fcc3de3ba27499132ef" name="a147e718949202fcc3de3ba27499132ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a147e718949202fcc3de3ba27499132ef">&#9670;&#160;</a></span>search</h2>
+<a id="a4352993d94a212b26a331cb4c0fca692" name="a4352993d94a212b26a331cb4c0fca692"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4352993d94a212b26a331cb4c0fca692">&#9670;&#160;</a></span>search</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +222,7 @@ QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart
 ComplexQueryPart &lt;- SomewhatComplexQueryPart ws &quot;OR&quot; ws ComplexQueryPart / SomewhatComplexQueryPart
 SomewhatComplexQueryPart &lt;- [(] QueryPartList [)] / QueryPart
 
-QueryPart &lt;- NotQuery / DeckContentQuery / DeckNameQuery / FileNameQuery / PathQuery / FormatQuery / GenericQuery
+QueryPart &lt;- NotQuery / DeckContentQuery / DeckNameQuery / FileNameQuery / PathQuery / FormatQuery / CommentQuery / GenericQuery
 
 NotQuery &lt;- ('NOT' ws/'-') SomewhatComplexQueryPart
 
@@ -233,6 +234,7 @@ DeckNameQuery &lt;- ([Dd] 'eck')? [Nn] 'ame'? [:] String
 FileNameQuery &lt;- [Ff] ([Nn] / 'ile' ([Nn] 'ame')?) [:] String
 PathQuery &lt;- [Pp] 'ath'? [:] String
 FormatQuery &lt;- [Ff] 'ormat'? [:] String
+CommentQuery &lt;- [Cc] ('omment' 's'?)? [:] String
 
 GenericQuery &lt;- String
 
@@ -246,7 +248,7 @@ NumericOperator &lt;- [=:] / &lt;[&gt;&lt;!][=]?&gt;
 NumericValue &lt;- [0-9]+
 )&quot;) </td>
           <td>(</td>
-          <td class="paramtype">R&quot;(Start &lt;- QueryPartList~ws &lt;- [ ]+QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart)* ws*ComplexQueryPart &lt;- SomewhatComplexQueryPart ws &quot;OR&quot; ws ComplexQueryPart / SomewhatComplexQueryPartSomewhatComplexQueryPart &lt;- [(] QueryPartList [)] / QueryPartQueryPart &lt;- NotQuery / DeckContentQuery / DeckNameQuery / FileNameQuery / PathQuery / FormatQuery / GenericQueryNotQuery &lt;- ('NOT' ws/'-') SomewhatComplexQueryPartDeckContentQuery &lt;- CardSearch NumericExpression?CardSearch &lt;- '[[' CardFilterString ']]'CardFilterString &lt;- (!']]'.)*DeckNameQuery &lt;- ([Dd] 'eck')? [Nn] 'ame'? [:] StringFileNameQuery &lt;- [Ff] ([Nn] / 'ile' ([Nn] 'ame')?) [:] StringPathQuery &lt;- [Pp] 'ath'? [:] StringFormatQuery &lt;- [Ff] 'ormat'? [:] StringGenericQuery &lt;- StringNonDoubleQuoteUnlessEscaped &lt;- '\\\&quot;'. / ![&quot;].NonSingleQuoteUnlessEscaped&lt;- &quot;\\\'&quot;./!['].UnescapedStringListPart&lt;- !['&quot;:&lt;&gt;=! ].SingleApostropheString &lt;- (UnescapedStringListPart+ ws*)* ['] (UnescapedStringListPart+ ws*)*String &lt;- SingleApostropheString / UnescapedStringListPart+ / [&quot;]&lt; NonDoubleQuoteUnlessEscaped * &gt;[&quot;] / ['] &lt;NonSingleQuoteUnlessEscaped*&gt; [']NumericExpression &lt;- NumericOperator ws? NumericValueNumericOperator &lt;- [=:] / &lt;[&gt;&lt;!][=]?&gt;NumericValue &lt;- [0-9]+)&quot;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">R&quot;(Start &lt;- QueryPartList~ws &lt;- [ ]+QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart)* ws*ComplexQueryPart &lt;- SomewhatComplexQueryPart ws &quot;OR&quot; ws ComplexQueryPart / SomewhatComplexQueryPartSomewhatComplexQueryPart &lt;- [(] QueryPartList [)] / QueryPartQueryPart &lt;- NotQuery / DeckContentQuery / DeckNameQuery / FileNameQuery / PathQuery / FormatQuery / CommentQuery / GenericQueryNotQuery &lt;- ('NOT' ws/'-') SomewhatComplexQueryPartDeckContentQuery &lt;- CardSearch NumericExpression?CardSearch &lt;- '[[' CardFilterString ']]'CardFilterString &lt;- (!']]'.)*DeckNameQuery &lt;- ([Dd] 'eck')? [Nn] 'ame'? [:] StringFileNameQuery &lt;- [Ff] ([Nn] / 'ile' ([Nn] 'ame')?) [:] StringPathQuery &lt;- [Pp] 'ath'? [:] StringFormatQuery &lt;- [Ff] 'ormat'? [:] StringCommentQuery &lt;- [Cc] ('omment' 's'?)? [:] StringGenericQuery &lt;- StringNonDoubleQuoteUnlessEscaped &lt;- '\\\&quot;'. / ![&quot;].NonSingleQuoteUnlessEscaped&lt;- &quot;\\\'&quot;./!['].UnescapedStringListPart&lt;- !['&quot;:&lt;&gt;=! ].SingleApostropheString &lt;- (UnescapedStringListPart+ ws*)* ['] (UnescapedStringListPart+ ws*)*String &lt;- SingleApostropheString / UnescapedStringListPart+ / [&quot;]&lt; NonDoubleQuoteUnlessEscaped * &gt;[&quot;] / ['] &lt;NonSingleQuoteUnlessEscaped*&gt; [']NumericExpression &lt;- NumericOperator ws? NumericValueNumericOperator &lt;- [=:] / &lt;[&gt;&lt;!][=]?&gt;NumericValue &lt;- [0-9]+)&quot;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

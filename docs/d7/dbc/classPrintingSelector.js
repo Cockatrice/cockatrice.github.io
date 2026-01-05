@@ -1,6 +1,7 @@
 var classPrintingSelector =
 [
     [ "PrintingSelector", "d7/dbc/classPrintingSelector.html#ab6d8607519ea0250bea869add24d18e0", null ],
+    [ "cardAmountsChanged", "d7/dbc/classPrintingSelector.html#a30820da81c7132fa8ece8d8c08b7aad6", null ],
     [ "getAllSetsForCurrentCard", "d7/dbc/classPrintingSelector.html#ae77e2510421de004cf819a01f97d6a73", null ],
     [ "nextCardRequested", "d7/dbc/classPrintingSelector.html#a3054e185daecdbd464dde6c25b28f39b", null ],
     [ "prevCardRequested", "d7/dbc/classPrintingSelector.html#ae17f313d771a27159043f341486a98b3", null ],
@@ -8,6 +9,7 @@ var classPrintingSelector =
     [ "retranslateUi", "d7/dbc/classPrintingSelector.html#a26d2da1cf9853301753c426d42f369d1", null ],
     [ "setCard", "d7/dbc/classPrintingSelector.html#a89c2d3479e70eee7311b93b92c88ff7e", null ],
     [ "toggleVisibilityNavigationButtons", "d7/dbc/classPrintingSelector.html#ade24982358c0b07187d5ae0bdbc757fd", null ],
+    [ "updateCardAmounts", "d7/dbc/classPrintingSelector.html#afc8fa275a15037c2ed2ede43b00b2405", null ],
     [ "updateDisplay", "d7/dbc/classPrintingSelector.html#a4dcbd4ac5982ed7b5ac0eaa4997edfbb", null ],
     [ "cardSelectionBar", "d7/dbc/classPrintingSelector.html#adc34b801c71bde23234dedaa0ee6f682", null ],
     [ "cardSizeWidget", "d7/dbc/classPrintingSelector.html#a693661cd158e219a9b6dd1adb7b12fe9", null ],

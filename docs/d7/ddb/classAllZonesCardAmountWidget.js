@@ -5,6 +5,8 @@ var classAllZonesCardAmountWidget =
     [ "enterEvent", "d7/ddb/classAllZonesCardAmountWidget.html#aa4e03f80e3acac13e35f5a0235584cb2", null ],
     [ "getMainboardAmount", "d7/ddb/classAllZonesCardAmountWidget.html#ac96d24629967d3ac607fb810ee26fa36", null ],
     [ "getSideboardAmount", "d7/ddb/classAllZonesCardAmountWidget.html#ac664b3bc94d887b3873c18dd2893691f", null ],
+    [ "isNonZero", "d7/ddb/classAllZonesCardAmountWidget.html#a4f7311796db65aee9f63dfbb49782c10", null ],
+    [ "setAmounts", "d7/ddb/classAllZonesCardAmountWidget.html#ac6b6b9d4b6814e6d9d8e6c0c7e630395", null ],
     [ "buttonBoxMainboard", "d7/ddb/classAllZonesCardAmountWidget.html#a670f40d4c0272f906d6674d7a6f78fe9", null ],
     [ "buttonBoxSideboard", "d7/ddb/classAllZonesCardAmountWidget.html#a3ef63fb5a359d16fb7fa60fa6804fe0b", null ],
     [ "cardSizeSlider", "d7/ddb/classAllZonesCardAmountWidget.html#a437c9d2230634c6fa82b28769b0611f7", null ],

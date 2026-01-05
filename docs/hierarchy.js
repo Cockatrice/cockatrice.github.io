@@ -235,6 +235,7 @@ var hierarchy =
       [ "WarningDialog", "d4/d0d/classWarningDialog.html", null ]
     ] ],
     [ "QDockWidget", null, [
+      [ "DeckEditorCardDatabaseDockWidget", "d1/d94/classDeckEditorCardDatabaseDockWidget.html", null ],
       [ "DeckEditorCardInfoDockWidget", "d7/d9f/classDeckEditorCardInfoDockWidget.html", null ],
       [ "DeckEditorDeckDockWidget", "d9/df7/classDeckEditorDeckDockWidget.html", null ],
       [ "DeckEditorFilterDockWidget", "dd/dd6/classDeckEditorFilterDockWidget.html", null ],

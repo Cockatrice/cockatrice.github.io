@@ -4,7 +4,7 @@ var dir_bbe1b97583a2f9f8192fbaa45c1632bc =
     [ "all_zones_card_amount_widget.h", "d3/d45/all__zones__card__amount__widget_8h.html", "d3/d45/all__zones__card__amount__widget_8h" ],
     [ "card_amount_widget.cpp", "d1/d29/card__amount__widget_8cpp.html", "d1/d29/card__amount__widget_8cpp" ],
     [ "card_amount_widget.h", "d5/dee/card__amount__widget_8h.html", "d5/dee/card__amount__widget_8h" ],
-    [ "printing_selector.cpp", "d2/d32/printing__selector_8cpp.html", null ],
+    [ "printing_selector.cpp", "d2/d32/printing__selector_8cpp.html", "d2/d32/printing__selector_8cpp" ],
     [ "printing_selector.h", "da/dbb/printing__selector_8h.html", "da/dbb/printing__selector_8h" ],
     [ "printing_selector_card_display_widget.cpp", "d3/d7e/printing__selector__card__display__widget_8cpp.html", null ],
     [ "printing_selector_card_display_widget.h", "de/dcd/printing__selector__card__display__widget_8h.html", "de/dcd/printing__selector__card__display__widget_8h" ],

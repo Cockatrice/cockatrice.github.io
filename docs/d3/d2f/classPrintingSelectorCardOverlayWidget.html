@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-02-Development-2.11.0-beta.43</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-05-Development-2.11.0-beta.44</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -116,6 +116,10 @@ Collaboration diagram for PrintingSelectorCardOverlayWidget:</div>
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d89/classPrintingSelectorCardOverlayWidget__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
+Public Slots</h2></td></tr>
+<tr class="memitem:a4bdd760b7e968e7cc948c45d3e1191fa" id="r_a4bdd760b7e968e7cc948c45d3e1191fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bdd760b7e968e7cc948c45d3e1191fa">updateCardAmounts</a> (int mainboardAmount, int sideboardAmount)</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:a815a53c6096623b2830dcf6629a77994" id="r_a815a53c6096623b2830dcf6629a77994"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a815a53c6096623b2830dcf6629a77994">cardPreferenceChanged</a> ()</td></tr>
@@ -140,6 +144,8 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
+<tr class="memitem:aa4ea86c86e95476eecef9d5ebbe31d88" id="r_aa4ea86c86e95476eecef9d5ebbe31d88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4ea86c86e95476eecef9d5ebbe31d88">updateVisibility</a> ()</td></tr>
+<tr class="memdesc:aa4ea86c86e95476eecef9d5ebbe31d88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the visibility of the widgets depending on the amounts and whether the mouse is hovering over.  <br /></td></tr>
 <tr class="memitem:a2ccc5f8ed84642ae85eb7c304af7e1b4" id="r_a2ccc5f8ed84642ae85eb7c304af7e1b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ccc5f8ed84642ae85eb7c304af7e1b4">updatePinBadgeVisibility</a> ()</td></tr>
 <tr class="memdesc:a2ccc5f8ed84642ae85eb7c304af7e1b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the pin badge visibility and position based on the card's pinned state.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -318,13 +324,18 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Handles the mouse enter event when the cursor enters the overlay widget area. </p>
-<p>When the cursor enters the widget, the card information is updated, and the card amount widget is displayed if the amounts are zero for both the mainboard and sideboard.</p>
+<p>When the cursor enters the widget, the card amount widget becomes visible regardless of whether the amounts are zero.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">event</td><td>The event triggered when the mouse enters the widget. </td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_ac17bfc122207ade27bc647b3dfb55c15_cgraph.svg" width="472" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -392,6 +403,11 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_ac3359c2694d4d210547d242ce84cee38_cgraph.svg" width="472" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -468,6 +484,40 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a4bdd760b7e968e7cc948c45d3e1191fa" name="a4bdd760b7e968e7cc948c45d3e1191fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bdd760b7e968e7cc948c45d3e1191fa">&#9670;&#160;</a></span>updateCardAmounts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintingSelectorCardOverlayWidget::updateCardAmounts </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>mainboardAmount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>sideboardAmount</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_a4bdd760b7e968e7cc948c45d3e1191fa_cgraph.svg" width="475" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a2ccc5f8ed84642ae85eb7c304af7e1b4" name="a2ccc5f8ed84642ae85eb7c304af7e1b4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ccc5f8ed84642ae85eb7c304af7e1b4">&#9670;&#160;</a></span>updatePinBadgeVisibility</h2>
 
@@ -503,6 +553,38 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_a2ccc5f8ed84642ae85eb7c304af7e1b4_icgraph.svg" width="558" height="66"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa4ea86c86e95476eecef9d5ebbe31d88" name="aa4ea86c86e95476eecef9d5ebbe31d88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4ea86c86e95476eecef9d5ebbe31d88">&#9670;&#160;</a></span>updateVisibility</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintingSelectorCardOverlayWidget::updateVisibility </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the visibility of the widgets depending on the amounts and whether the mouse is hovering over. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_aa4ea86c86e95476eecef9d5ebbe31d88_icgraph.svg" width="475" height="179"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
