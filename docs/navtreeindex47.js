@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"dc/dea/classChatView.html#a23ccba00bfa2ed0f45ff5da13954104a":[4,1,0,96,19],
 "dc/dea/classChatView.html#a247c09ed5359b5c5acb378b5faf3ac15":[4,1,0,96,40],
 "dc/dea/classChatView.html#a247c82f13e8feec5cfac6c46648829ba":[4,1,0,96,48],
 "dc/dea/classChatView.html#a2e6386048f40b8b02583729e70deea9b":[4,1,0,96,46],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "dd/d40/structTokenInfo.html":[4,1,0,475],
 "dd/d40/structTokenInfo.html#a0a7e6e94c46e3ce1d223e960510d7228":[4,1,0,475,0],
 "dd/d40/structTokenInfo.html#a510ab5a92f8707065fac757943cc4f46":[4,1,0,475,4],
-"dd/d40/structTokenInfo.html#a645839458d0978ae80b392cd56cc3745":[4,1,0,475,2],
-"dd/d40/structTokenInfo.html#a8c1b50dad15345c590ab395e7f89885a":[4,1,0,475,1]
+"dd/d40/structTokenInfo.html#a645839458d0978ae80b392cd56cc3745":[4,1,0,475,2]
 };

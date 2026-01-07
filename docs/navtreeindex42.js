@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"db/da9/structpeg_1_1ErrorInfo.html#a14bb07ce46d09b423f6b6418765471e4":[4,0,0,9,23,5],
 "db/da9/structpeg_1_1ErrorInfo.html#a14bb07ce46d09b423f6b6418765471e4":[4,1,0,1,22,5],
 "db/da9/structpeg_1_1ErrorInfo.html#a16c8b9c6c0e0d3d17d076cc9027eb4be":[4,0,0,9,23,2],
 "db/da9/structpeg_1_1ErrorInfo.html#a16c8b9c6c0e0d3d17d076cc9027eb4be":[4,1,0,1,22,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "db/de0/classpeg_1_1CharacterClass.html#a2a4f6f896c4619082f2cfa9721d04e68":[4,0,0,9,15,5],
 "db/de0/classpeg_1_1CharacterClass.html#a2a4f6f896c4619082f2cfa9721d04e68":[4,1,0,1,14,5],
 "db/de0/classpeg_1_1CharacterClass.html#a38b0bf2c5688f229d09db0aee3b89857":[4,0,0,9,15,7],
-"db/de0/classpeg_1_1CharacterClass.html#a38b0bf2c5688f229d09db0aee3b89857":[4,1,0,1,14,7],
-"db/de0/classpeg_1_1CharacterClass.html#a4c16c8d905cec0269f9a784c9649c611":[4,0,0,9,15,0]
+"db/de0/classpeg_1_1CharacterClass.html#a38b0bf2c5688f229d09db0aee3b89857":[4,1,0,1,14,7]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"de/d39/classOverlapWidget.html#a054db4def417ddee82bb86cf030928d6":[4,1,0,312,5],
 "de/d39/classOverlapWidget.html#a08b90eabb619897c24412962d86ddb60":[4,1,0,312,4],
 "de/d39/classOverlapWidget.html#a27f521502cbfd5e8bbe306746becd416":[4,1,0,312,12],
 "de/d39/classOverlapWidget.html#a36bf672ec78eea58c42a57f3552e47a2":[4,1,0,312,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "de/d6e/editing_decks_visual.html#modifying-the-deck-list-1":[0,1,4,1,2],
 "de/d6e/editing_decks_visual.html#modifying-the-visual-deck-layout":[0,1,4,1,3],
 "de/d6e/editing_decks_visual.html#sample-hand":[0,1,4,1,6],
-"de/d70/classUserMessagePosition.html":[4,1,0,490],
-"de/d70/classUserMessagePosition.html#a5bc2cce61bf8206bdba50a5ab8c0fcf5":[4,1,0,490,2]
+"de/d70/classUserMessagePosition.html":[4,1,0,490]
 };

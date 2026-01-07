@@ -27,12 +27,13 @@ var searchData=
   ['nodechanged_24',['nodeChanged',['../db/d51/classFilterTreeNode.html#a3467682943f1ef1d91a49d9a0b14ca5d',1,'FilterTreeNode::nodeChanged()'],['../d8/d95/classFilterTree.html#ad2c829aa958913110d3557060c3567d3',1,'FilterTree::nodeChanged()']]],
   ['nodeindex_25',['nodeIndex',['../d7/d62/classFilterTreeModel.html#a36d54b71e2c2eb7289e1ae7c902f6a76',1,'FilterTreeModel']]],
   ['nodetoindex_26',['nodeToIndex',['../d8/dcf/classRemoteDeckList__TreeModel.html#a3d867313540af51bc8cabb2b34e48274',1,'RemoteDeckList_TreeModel::nodeToIndex()'],['../d9/de1/classDeckListModel.html#a6da8127a70966e36d96ebf7cb4eb007d',1,'DeckListModel::nodeToIndex()']]],
-  ['notidle_27',['notIdle',['../df/ddd/classDeckViewContainer.html#ae4fea6343deb13f6d77bae17d4cffcdc',1,'DeckViewContainer::notIdle()'],['../de/d08/classTabGame.html#ade0b13e4460c05279916d0b339e7e06a',1,'TabGame::notIdle()'],['../df/d78/classTabRoom.html#ac114fe9d507e0f731026737b850d7c03',1,'TabRoom::notIdle()']]],
-  ['notifyenabledsetschanged_28',['notifyEnabledSetsChanged',['../d5/d45/classCardDatabase.html#a56a3727444527703459220022c118025',1,'CardDatabase']]],
-  ['notifyplayerjoin_29',['notifyPlayerJoin',['../de/d08/classTabGame.html#a3f805f5b09ffdc60b72925c1a54494eb',1,'TabGame']]],
-  ['notifyplayerkicked_30',['notifyPlayerKicked',['../de/d08/classTabGame.html#a6679d298f8865631103558ebb88ebac9',1,'TabGame']]],
-  ['notifyuseraboutupdate_31',['notifyUserAboutUpdate',['../d6/d1a/classMainWindow.html#ab4c8a6beaf7fb1c3a9f6b620edd393bd',1,'MainWindow::notifyUserAboutUpdate()'],['../db/d53/classRemoteClient.html#a8bdb5ca024d9270ab33e513c2f6f913b',1,'RemoteClient::notifyUserAboutUpdate()']]],
-  ['notifyusereventreceived_32',['notifyUserEventReceived',['../dc/d86/classAbstractClient.html#a3724eb71e98c6c58fbdd03c9b983dae4',1,'AbstractClient']]],
-  ['notpredicate_33',['NotPredicate',['../d9/d92/classpeg_1_1NotPredicate.html#aa5a0e18a11e51ade960595d5ccbc34e5',1,'peg::NotPredicate']]],
-  ['npd_34',['npd',['../dc/db2/namespacepeg.html#aa640011930cbd676512eb812ae4fbf17',1,'peg']]]
+  ['noscrollfilter_27',['NoScrollFilter',['../da/d92/classNoScrollFilter.html#a17d85f62373252a8b4a9b4ff6f581543',1,'NoScrollFilter']]],
+  ['notidle_28',['notIdle',['../df/ddd/classDeckViewContainer.html#ae4fea6343deb13f6d77bae17d4cffcdc',1,'DeckViewContainer::notIdle()'],['../de/d08/classTabGame.html#ade0b13e4460c05279916d0b339e7e06a',1,'TabGame::notIdle()'],['../df/d78/classTabRoom.html#ac114fe9d507e0f731026737b850d7c03',1,'TabRoom::notIdle()']]],
+  ['notifyenabledsetschanged_29',['notifyEnabledSetsChanged',['../d5/d45/classCardDatabase.html#a56a3727444527703459220022c118025',1,'CardDatabase']]],
+  ['notifyplayerjoin_30',['notifyPlayerJoin',['../de/d08/classTabGame.html#a3f805f5b09ffdc60b72925c1a54494eb',1,'TabGame']]],
+  ['notifyplayerkicked_31',['notifyPlayerKicked',['../de/d08/classTabGame.html#a6679d298f8865631103558ebb88ebac9',1,'TabGame']]],
+  ['notifyuseraboutupdate_32',['notifyUserAboutUpdate',['../d6/d1a/classMainWindow.html#ab4c8a6beaf7fb1c3a9f6b620edd393bd',1,'MainWindow::notifyUserAboutUpdate()'],['../db/d53/classRemoteClient.html#a8bdb5ca024d9270ab33e513c2f6f913b',1,'RemoteClient::notifyUserAboutUpdate()']]],
+  ['notifyusereventreceived_33',['notifyUserEventReceived',['../dc/d86/classAbstractClient.html#a3724eb71e98c6c58fbdd03c9b983dae4',1,'AbstractClient']]],
+  ['notpredicate_34',['NotPredicate',['../d9/d92/classpeg_1_1NotPredicate.html#aa5a0e18a11e51ade960595d5ccbc34e5',1,'peg::NotPredicate']]],
+  ['npd_35',['npd',['../dc/db2/namespacepeg.html#aa640011930cbd676512eb812ae4fbf17',1,'peg']]]
 ];

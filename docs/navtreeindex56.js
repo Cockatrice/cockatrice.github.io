@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"de/df3/classTabEdhRecMain.html#a52420958e4763360a04c2abcd773e708":[4,1,0,453,14],
 "de/df3/classTabEdhRecMain.html#a56f128d78432a6ec36b2bcaccaa54c60":[4,1,0,453,19],
 "de/df3/classTabEdhRecMain.html#a5b23c34156dcbe350eeeeaa14dab4b52":[4,1,0,453,32],
 "de/df3/classTabEdhRecMain.html#a5d90f9ba9a6c21c80830cc2f0a461929":[4,1,0,453,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "df/d47/classCardSizeWidget.html#acc789bba34e2f9bcceb04caf38698d77":[4,1,0,93,0],
 "df/d49/tapped__out__interface_8h.html":[3,3,2,2,2,2],
 "df/d49/tapped__out__interface_8h.html":[3,3,2,3,0,2],
-"df/d49/tapped__out__interface_8h.html":[3,5,1,0,2],
-"df/d4b/card__override__settings_8cpp.html":[4,2,0,10,0,0,2]
+"df/d49/tapped__out__interface_8h.html":[3,5,1,0,2]
 };

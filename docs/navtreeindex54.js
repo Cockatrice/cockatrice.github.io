@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"de/d70/classUserMessagePosition.html#a5bc2cce61bf8206bdba50a5ab8c0fcf5":[4,1,0,490,2],
 "de/d70/classUserMessagePosition.html#a793904ff6e6d0e61b792f6d3c1050c61":[4,1,0,490,0],
 "de/d70/classUserMessagePosition.html#a86c8c58baba09593f9959e88ed9a5a92":[4,1,0,490,1],
 "de/d73/classShadowBackgroundLabel.html":[4,1,0,422],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "de/d9d/peglib_8h.html#ab593e4b5d8d7b389e3c47a779e6a9a53":[4,2,0,11,0,0,9,113],
 "de/d9d/peglib_8h.html#ab613f89f8698373e77e8d05e03e74720":[4,2,0,11,0,0,9,157],
 "de/d9d/peglib_8h.html#ab7ab239c28072b46d79a9e7d01a34c1e":[4,2,0,11,0,0,9,128],
-"de/d9d/peglib_8h.html#abc64b593773fdbf78540974da6a23f02":[4,2,0,11,0,0,9,127],
-"de/d9d/peglib_8h.html#ac21629d6d2feff81b3e8ea428a16bacf":[4,2,0,11,0,0,9,109]
+"de/d9d/peglib_8h.html#abc64b593773fdbf78540974da6a23f02":[4,2,0,11,0,0,9,127]
 };

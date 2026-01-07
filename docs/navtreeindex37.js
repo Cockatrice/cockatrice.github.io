@@ -226,7 +226,8 @@ var NAVTREEINDEX37 =
 "da/d8d/classCardDatabaseDisplayModel.html#aefe207ea041c1b50b7f1b93b7512f666":[4,1,0,57,4],
 "da/d8f/deck__file__format_8cpp.html":[4,2,0,0,1,5,1,2],
 "da/d92/classNoScrollFilter.html":[4,1,0,304],
-"da/d92/classNoScrollFilter.html#aa46dbebd212f91b5193189fd4d0ae0d7":[4,1,0,304,0],
+"da/d92/classNoScrollFilter.html#a17d85f62373252a8b4a9b4ff6f581543":[4,1,0,304,0],
+"da/d92/classNoScrollFilter.html#aa46dbebd212f91b5193189fd4d0ae0d7":[4,1,0,304,1],
 "da/d94/deck__preview__widget_8h.html":[3,1,0,5,1,0,6],
 "da/d94/deck__preview__widget_8h.html":[3,3,2,0,0,1,0,6],
 "da/d98/group__DeckSettings.html":[3,7,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "da/d99/classServer__AbstractPlayer.html#a437acecfbf84b5dea39cbdffdacbaca2":[4,1,0,390,14],
 "da/d99/classServer__AbstractPlayer.html#a44b8ec3dce0bab30449058d875a58653":[4,1,0,390,45],
 "da/d99/classServer__AbstractPlayer.html#a52f3f7d47ef10f72a3d0e90815b21c70":[4,1,0,390,47],
-"da/d99/classServer__AbstractPlayer.html#a55fc2bb5e861cace1da4ff1b6fb11fa8":[4,1,0,390,3],
-"da/d99/classServer__AbstractPlayer.html#a581b1424c7a65906297b1741de58c5d7":[4,1,0,390,42]
+"da/d99/classServer__AbstractPlayer.html#a55fc2bb5e861cace1da4ff1b6fb11fa8":[4,1,0,390,3]
 };

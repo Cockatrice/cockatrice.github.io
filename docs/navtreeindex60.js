@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"df/df7/classPlayerInfo.html#a49527d3b412f1d72a9a3235f0f222351":[4,1,0,331,14],
 "df/df7/classPlayerInfo.html#a4a8f51043ca087810668e918bcc13676":[4,1,0,331,12],
 "df/df7/classPlayerInfo.html#a5249f3fd2f710b5be14b26574b70c09c":[4,1,0,331,9],
 "df/df7/classPlayerInfo.html#a5f4161e1950b6756e4713ffda3519027":[4,1,0,331,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "dir_f7f3b0129328dc87c8a56d7daf2207e7.html":[4,2,0,0,1,5,3,0,1],
 "dir_fcc53323f100f3840d6c8e04b287c6d3.html":[4,2,0,0,1,3],
 "dir_ff2017d8d6c53a419513535e9358adeb.html":[4,2,0,3,0,0],
-"dir_ff904cee2da7fc4774f8298cfe1e7610.html":[4,2,0,0,1,5,3],
-"dir_fff839915176868bfbf3c74f3e1decb5.html":[4,2,0,0,1,5,3,10,0,0,1]
+"dir_ff904cee2da7fc4774f8298cfe1e7610.html":[4,2,0,0,1,5,3]
 };

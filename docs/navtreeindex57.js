@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"df/d4b/card__override__settings_8cpp.html":[4,2,0,10,0,0,2],
 "df/d4c/arrow__item_8h.html":[3,4,0,4,3],
 "df/d4e/classExactCard.html":[3,2,2,0],
 "df/d4e/classExactCard.html#a1283cb6a841b0da2335ae430cbd22aba":[3,2,2,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "df/d94/classpeg_1_1Context.html#a0a29838b2aea3de5522f8b5fdb59a91d":[4,0,0,9,16,32],
 "df/d94/classpeg_1_1Context.html#a0a29838b2aea3de5522f8b5fdb59a91d":[4,1,0,1,15,32],
 "df/d94/classpeg_1_1Context.html#a0ab893cce549f6849c869c53f5176922":[4,0,0,9,16,39],
-"df/d94/classpeg_1_1Context.html#a0ab893cce549f6849c869c53f5176922":[4,1,0,1,15,39],
-"df/d94/classpeg_1_1Context.html#a13de48627133b0e2a7700543a220da15":[4,0,0,9,16,20]
+"df/d94/classpeg_1_1Context.html#a0ab893cce549f6849c869c53f5176922":[4,1,0,1,15,39]
 };

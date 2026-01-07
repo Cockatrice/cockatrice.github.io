@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"dd/dab/classDeckStateManager.html#a68c49a5f6f179b44c09a8f593ce52b77":[4,1,0,140,42],
 "dd/dab/classDeckStateManager.html#a6dc9a44f88f41974c61b7525f7aaf53e":[4,1,0,140,14],
 "dd/dab/classDeckStateManager.html#a73a56c587e7d759cac07325f2672f02a":[4,1,0,140,36],
 "dd/dab/classDeckStateManager.html#a78baf060192aa78a8d2cd85c0906cee7":[4,1,0,140,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "dd/de9/classDrawProbabilityWidget.html":[4,1,0,178],
 "dd/de9/classDrawProbabilityWidget.html#a1fda7e32c21aa7f95e036aaae4353970":[4,1,0,178,16],
 "dd/de9/classDrawProbabilityWidget.html#a2166ec8564489f45111a6e7c8f8e68bb":[4,1,0,178,1],
-"dd/de9/classDrawProbabilityWidget.html#a2511fa3ebe6eccc3aa2444d8710907ca":[4,1,0,178,0],
-"dd/de9/classDrawProbabilityWidget.html#a29fbd669280d515a4dc62a5f3cbffa66":[4,1,0,178,12]
+"dd/de9/classDrawProbabilityWidget.html#a2511fa3ebe6eccc3aa2444d8710907ca":[4,1,0,178,0]
 };

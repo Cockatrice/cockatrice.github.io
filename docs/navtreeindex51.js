@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"dd/de9/classDrawProbabilityWidget.html#a29fbd669280d515a4dc62a5f3cbffa66":[4,1,0,178,12],
 "dd/de9/classDrawProbabilityWidget.html#a2aa6939a6a38eed879adadf6dc7cf66d":[4,1,0,178,9],
 "dd/de9/classDrawProbabilityWidget.html#a2be05f91eb38a8b93e4773ef17222e4c":[4,1,0,178,13],
 "dd/de9/classDrawProbabilityWidget.html#a31088d0d7fbccfb6c406619b6331489e":[4,1,0,178,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "de/d08/classTabGame.html#a5da801b5b7701a0f25cc41904944d901":[4,1,0,454,83],
 "de/d08/classTabGame.html#a5f625121655a0738518ec9320d9753ae":[4,1,0,454,97],
 "de/d08/classTabGame.html#a6164d1f31ddfd4553436529002178dc6":[4,1,0,454,77],
-"de/d08/classTabGame.html#a6454a713103491490e8301cdfebd6e4e":[4,1,0,454,24],
-"de/d08/classTabGame.html#a65cd60c43bfde0047a7069bed7719fb6":[4,1,0,454,40]
+"de/d08/classTabGame.html#a6454a713103491490e8301cdfebd6e4e":[4,1,0,454,24]
 };
