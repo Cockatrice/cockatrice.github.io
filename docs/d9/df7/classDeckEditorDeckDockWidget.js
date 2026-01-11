@@ -26,7 +26,7 @@ var classDeckEditorDeckDockWidget =
     [ "selectedCardChanged", "d9/df7/classDeckEditorDeckDockWidget.html#a96a86b882e32a522d35c47f16178fed9", null ],
     [ "selectNextCard", "d9/df7/classDeckEditorDeckDockWidget.html#a8b92a8f7d04f2166b745026fcc40e688", null ],
     [ "selectPrevCard", "d9/df7/classDeckEditorDeckDockWidget.html#a35fb89a1cbd969e9f106f0e9b207419e", null ],
-    [ "setSelectedIndex", "d9/df7/classDeckEditorDeckDockWidget.html#ad80f121c9a9bc611edec37494069c09e", null ],
+    [ "setSelectedIndex", "d9/df7/classDeckEditorDeckDockWidget.html#aa5ed01907915c61f98156dcad7086cf8", null ],
     [ "syncBannerCardComboBoxSelectionWithDeck", "d9/df7/classDeckEditorDeckDockWidget.html#aab6a4a76079a05f7ef06d7e312147062", null ],
     [ "syncDisplayWidgetsToModel", "d9/df7/classDeckEditorDeckDockWidget.html#a09b8551959c1d4514c16b24967f541f5", null ],
     [ "updateBannerCardComboBox", "d9/df7/classDeckEditorDeckDockWidget.html#a305928fe5501945ecfa288bb75b3267c", null ],

@@ -1,5 +1,13 @@
 var NAVTREEINDEX49 =
 {
+"dd/d81/classTabSupervisor.html#a1279d3dc8371e15a215a35b7a2443913":[4,1,0,463,29],
+"dd/d81/classTabSupervisor.html#a1305159119e028bdfa8841e13d77f017":[4,1,0,463,56],
+"dd/d81/classTabSupervisor.html#a13d55daa8e9c2c09d22a8fe201af3d38":[4,1,0,463,43],
+"dd/d81/classTabSupervisor.html#a17b1e994a443b2e965d9e9c6f31b68a8":[4,1,0,463,75],
+"dd/d81/classTabSupervisor.html#a1a43b4fdcfe796b6c78f216707eb2ec0":[4,1,0,463,45],
+"dd/d81/classTabSupervisor.html#a1ba87454a8981d70948babf046d277ad":[4,1,0,463,33],
+"dd/d81/classTabSupervisor.html#a1bb0325d4044ccb2d8fca8e6dd5b3482":[4,1,0,463,86],
+"dd/d81/classTabSupervisor.html#a1cbd5dbfcf13b7c837515a8357258130":[4,1,0,463,61],
 "dd/d81/classTabSupervisor.html#a1e5cf7e992037710253bb3611b2febca":[4,1,0,463,103],
 "dd/d81/classTabSupervisor.html#a203d8d212cc674cbc65a231a2089251e":[4,1,0,463,44],
 "dd/d81/classTabSupervisor.html#a2c532aa5f391eed16f94b7b7d0e93efc":[4,1,0,463,90],
@@ -230,6 +238,7 @@ var NAVTREEINDEX49 =
 "dd/dab/classDeckStateManager.html":[4,1,0,140],
 "dd/dab/classDeckStateManager.html#a073f71448e77098ed0387f8b959fba02":[4,1,0,140,43],
 "dd/dab/classDeckStateManager.html#a0cdd2896b20e4e113abcf9cc2fc051ed":[4,1,0,140,21],
+"dd/dab/classDeckStateManager.html#a16fce40a2a5dac5fe35d5143ba16b745":[4,1,0,140,10],
 "dd/dab/classDeckStateManager.html#a195828df361fda0a8d6d5e8bfb1ab6cd":[4,1,0,140,41],
 "dd/dab/classDeckStateManager.html#a20546405c2390b22f22374dc8ba78897":[4,1,0,140,27],
 "dd/dab/classDeckStateManager.html#a231fc809c22df91ea071a89409da316a":[4,1,0,140,8],
@@ -240,14 +249,5 @@ var NAVTREEINDEX49 =
 "dd/dab/classDeckStateManager.html#a428aba6cb764ef94947160ce85ed2a67":[4,1,0,140,25],
 "dd/dab/classDeckStateManager.html#a42b6a4c085c3b89cafb68d05a3043d78":[4,1,0,140,20],
 "dd/dab/classDeckStateManager.html#a437151fa329757c508365ef099558301":[4,1,0,140,16],
-"dd/dab/classDeckStateManager.html#a45a5396a6e930aaaed82ab1fc9fadb71":[4,1,0,140,13],
-"dd/dab/classDeckStateManager.html#a47a9e425f1aced4498b8aa6ad8026f30":[4,1,0,140,10],
-"dd/dab/classDeckStateManager.html#a49e65eff1afa3a312c287b8a8a12571e":[4,1,0,140,31],
-"dd/dab/classDeckStateManager.html#a4acd90062615b7218322fdb58450039c":[4,1,0,140,32],
-"dd/dab/classDeckStateManager.html#a4ec30ac041bf15f9c7dccfe1cdbbfeda":[4,1,0,140,39],
-"dd/dab/classDeckStateManager.html#a52819a18916c9f52856bb8002c224c16":[4,1,0,140,38],
-"dd/dab/classDeckStateManager.html#a577f309fdf221ca9c906e095fd7c593f":[4,1,0,140,30],
-"dd/dab/classDeckStateManager.html#a5e52ee827e0ff79c697e547ce9d07a9c":[4,1,0,140,7],
-"dd/dab/classDeckStateManager.html#a5eba41d87f3d5392bde1f68662a9c9c7":[4,1,0,140,0],
-"dd/dab/classDeckStateManager.html#a64379ba1486f2354c22123ff8dfbe1e0":[4,1,0,140,40]
+"dd/dab/classDeckStateManager.html#a45a5396a6e930aaaed82ab1fc9fadb71":[4,1,0,140,13]
 };

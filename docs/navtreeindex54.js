@@ -1,5 +1,13 @@
 var NAVTREEINDEX54 =
 {
+"de/d6e/editing_decks_visual.html#adding-cards-1":[0,1,5,1,1],
+"de/d6e/editing_decks_visual.html#deck-analytics":[0,1,5,1,5],
+"de/d6e/editing_decks_visual.html#editing-basic-deck-information-1":[0,1,5,1,0],
+"de/d6e/editing_decks_visual.html#modifying-printings-1":[0,1,5,1,4],
+"de/d6e/editing_decks_visual.html#modifying-the-deck-list-1":[0,1,5,1,2],
+"de/d6e/editing_decks_visual.html#modifying-the-visual-deck-layout":[0,1,5,1,3],
+"de/d6e/editing_decks_visual.html#sample-hand":[0,1,5,1,6],
+"de/d70/classUserMessagePosition.html":[4,1,0,490],
 "de/d70/classUserMessagePosition.html#a5bc2cce61bf8206bdba50a5ab8c0fcf5":[4,1,0,490,2],
 "de/d70/classUserMessagePosition.html#a793904ff6e6d0e61b792f6d3c1050c61":[4,1,0,490,0],
 "de/d70/classUserMessagePosition.html#a86c8c58baba09593f9959e88ed9a5a92":[4,1,0,490,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX54 =
 "de/d9d/peglib_8h.html#aa9df7db5bd0e43350d5364327ec316ff":[4,2,0,11,0,0,9,86],
 "de/d9d/peglib_8h.html#aab896e252f7266fe7b4579dcddb9ec82":[4,2,0,11,0,0,9,146],
 "de/d9d/peglib_8h.html#aaed817584c18ddf77d0d28d55c6bdf36":[4,2,0,11,0,0,9,66],
-"de/d9d/peglib_8h.html#aafad4eda60e5acfeaead47afd944b8cb":[4,2,0,11,0,0,9,76],
-"de/d9d/peglib_8h.html#ab1fd75d7e382b88c5ceb11cde0a7ed77":[4,2,0,11,0,0,9,117],
-"de/d9d/peglib_8h.html#ab2edc9c74333410379fd83f373a85a70":[4,2,0,11,0,0,9,160],
-"de/d9d/peglib_8h.html#ab4cb5e387c116a6175389b11f2d1281b":[4,2,0,11,0,0,9,148],
-"de/d9d/peglib_8h.html#ab501727c138b52c61df48b5c471dbe89":[4,2,0,11,0,0,9,155],
-"de/d9d/peglib_8h.html#ab593e4b5d8d7b389e3c47a779e6a9a53":[4,2,0,11,0,0,9,113],
-"de/d9d/peglib_8h.html#ab613f89f8698373e77e8d05e03e74720":[4,2,0,11,0,0,9,157],
-"de/d9d/peglib_8h.html#ab7ab239c28072b46d79a9e7d01a34c1e":[4,2,0,11,0,0,9,128],
-"de/d9d/peglib_8h.html#abc64b593773fdbf78540974da6a23f02":[4,2,0,11,0,0,9,127]
+"de/d9d/peglib_8h.html#aafad4eda60e5acfeaead47afd944b8cb":[4,2,0,11,0,0,9,76]
 };

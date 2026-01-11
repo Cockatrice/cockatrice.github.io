@@ -1,5 +1,13 @@
 var NAVTREEINDEX53 =
 {
+"de/d38/classPlayerEventHandler.html#ae4b8108e38bf5dd75571e55dda40d776":[4,1,0,329,0],
+"de/d38/classPlayerEventHandler.html#ae509b5e91d003492a7cb82128c56836f":[4,1,0,329,41],
+"de/d38/classPlayerEventHandler.html#aed73508f74be1c53f6d021e7a7afc99f":[4,1,0,329,23],
+"de/d38/classPlayerEventHandler.html#aff82a7da3be614bd99432d469ee4aba1":[4,1,0,329,7],
+"de/d38/update__downloader_8h.html":[4,2,0,0,1,0,0,2,1,5],
+"de/d38/update__downloader_8h_source.html":[4,2,0,0,1,0,0,2,1,5],
+"de/d39/classOverlapWidget.html":[4,1,0,312],
+"de/d39/classOverlapWidget.html#a02487c2b4a23f89589522376a8e2a02f":[4,1,0,312,14],
 "de/d39/classOverlapWidget.html#a054db4def417ddee82bb86cf030928d6":[4,1,0,312,5],
 "de/d39/classOverlapWidget.html#a08b90eabb619897c24412962d86ddb60":[4,1,0,312,4],
 "de/d39/classOverlapWidget.html#a27f521502cbfd5e8bbe306746becd416":[4,1,0,312,12],
@@ -241,13 +249,5 @@ var NAVTREEINDEX53 =
 "de/d68/settings__popup__widget_8cpp.html":[4,2,0,0,1,5,3,7,2],
 "de/d69/archidekt__deck__preview__image__display__widget_8h.html":[4,2,0,0,1,5,3,10,0,0,1,7],
 "de/d69/archidekt__deck__preview__image__display__widget_8h_source.html":[4,2,0,0,1,5,3,10,0,0,1,7],
-"de/d6e/editing_decks_visual.html":[0,1,4,1],
-"de/d6e/editing_decks_visual.html#adding-cards-1":[0,1,4,1,1],
-"de/d6e/editing_decks_visual.html#deck-analytics":[0,1,4,1,5],
-"de/d6e/editing_decks_visual.html#editing-basic-deck-information-1":[0,1,4,1,0],
-"de/d6e/editing_decks_visual.html#modifying-printings-1":[0,1,4,1,4],
-"de/d6e/editing_decks_visual.html#modifying-the-deck-list-1":[0,1,4,1,2],
-"de/d6e/editing_decks_visual.html#modifying-the-visual-deck-layout":[0,1,4,1,3],
-"de/d6e/editing_decks_visual.html#sample-hand":[0,1,4,1,6],
-"de/d70/classUserMessagePosition.html":[4,1,0,490]
+"de/d6e/editing_decks_visual.html":[0,1,5,1]
 };

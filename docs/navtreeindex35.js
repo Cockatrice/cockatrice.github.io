@@ -1,5 +1,14 @@
 var NAVTREEINDEX35 =
 {
+"d9/df7/classDeckEditorDeckDockWidget.html#a8066c28345758acab21842f5383c11c2":[4,1,0,113,21],
+"d9/df7/classDeckEditorDeckDockWidget.html#a8275c989a2734f6170aabad2e5c357c9":[4,1,0,113,41],
+"d9/df7/classDeckEditorDeckDockWidget.html#a83eec5f6bf18e5ec5d5846dbb335ac4c":[4,1,0,113,64],
+"d9/df7/classDeckEditorDeckDockWidget.html#a8b92a8f7d04f2166b745026fcc40e688":[4,1,0,113,24],
+"d9/df7/classDeckEditorDeckDockWidget.html#a8c67dc71f0e36dd824f585098723ad83":[4,1,0,113,47],
+"d9/df7/classDeckEditorDeckDockWidget.html#a90138f6cb4a7c21f764ed1437ffac18d":[4,1,0,113,20],
+"d9/df7/classDeckEditorDeckDockWidget.html#a96a86b882e32a522d35c47f16178fed9":[4,1,0,113,23],
+"d9/df7/classDeckEditorDeckDockWidget.html#a9c3a37a3708515205c6ea483a10516a6":[4,1,0,113,50],
+"d9/df7/classDeckEditorDeckDockWidget.html#aa5ed01907915c61f98156dcad7086cf8":[4,1,0,113,26],
 "d9/df7/classDeckEditorDeckDockWidget.html#aa646cffeb7cff704ae7193eb9fe387f7":[4,1,0,113,35],
 "d9/df7/classDeckEditorDeckDockWidget.html#aa718e47621f615838a85000770ab454e":[4,1,0,113,30],
 "d9/df7/classDeckEditorDeckDockWidget.html#aa7aec9a73d90690573a9273b44c9e2bd":[4,1,0,113,44],
@@ -10,7 +19,6 @@ var NAVTREEINDEX35 =
 "d9/df7/classDeckEditorDeckDockWidget.html#ac4cc2676a89e5151a19f4a698d314058":[4,1,0,113,53],
 "d9/df7/classDeckEditorDeckDockWidget.html#acb4e871acae5612f56d29ec0eef1e50a":[4,1,0,113,3],
 "d9/df7/classDeckEditorDeckDockWidget.html#ad77912694effefc9423efc877fb60a4d":[4,1,0,113,2],
-"d9/df7/classDeckEditorDeckDockWidget.html#ad80f121c9a9bc611edec37494069c09e":[4,1,0,113,26],
 "d9/df7/classDeckEditorDeckDockWidget.html#ad8ba4d7fc6d5fb3a9a36570552eb3064":[4,1,0,113,51],
 "d9/df7/classDeckEditorDeckDockWidget.html#ade9bd6abf1e8d7a98a62221430b9cb61":[4,1,0,113,55],
 "d9/df7/classDeckEditorDeckDockWidget.html#adfb56dc6dd03726355eb507ca96bcbc6":[4,1,0,113,8],
@@ -111,7 +119,7 @@ var NAVTREEINDEX35 =
 "d9/dfd/structpeg_1_1FindReference.html#aff8c5b50652c1096d0f5272454e6933e":[4,0,0,9,25,21],
 "d9/dfd/structpeg_1_1FindReference.html#aff8c5b50652c1096d0f5272454e6933e":[4,1,0,1,24,21],
 "d9/dfe/server__player_8cpp.html":[4,2,0,7,0,0,1,1,0,17],
-"da/d03/editing_decks.html":[0,1,4],
+"da/d03/editing_decks.html":[0,1,5],
 "da/d09/visual__deck__storage__widget_8h.html":[3,1,0,5,1,6],
 "da/d09/visual__deck__storage__widget_8h.html":[3,3,2,0,0,1,6],
 "da/d0c/home__styled__button_8cpp.html":[4,2,0,0,1,5,3,4,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX35 =
 "da/d25/classArchidektApiResponseEdition.html#ad99aad182913be2e3f3115cfb4a696e1":[4,1,0,34,6],
 "da/d25/classArchidektApiResponseEdition.html#ae29c95edda1edf283b7f85f309c0ac8d":[4,1,0,34,8],
 "da/d25/loaded__deck_8h.html":[4,2,0,0,1,5,1,7],
-"da/d25/loaded__deck_8h_source.html":[4,2,0,0,1,5,1,7],
-"da/d28/deck__preview__card__picture__widget_8cpp.html":[4,2,0,0,1,5,3,0,20],
-"da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html":[4,1,0,498],
-"da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html#a0342bd7ca53cbc38cc165e7819c61862":[4,1,0,498,1],
-"da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html#a76f8f2535f27561272b9832eb7152f00":[4,1,0,498,3],
-"da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html#a7cd802196b86dd30c2480333f7a73409":[4,1,0,498,2],
-"da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html#acd1517ecc6362fdfcee1456a77163885":[4,1,0,498,0],
-"da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html#aec9689c5bf73b996381b5202feca1cd2":[4,1,0,498,4],
-"da/d2f/classServatrice__ConnectionPool.html":[4,1,0,383]
+"da/d25/loaded__deck_8h_source.html":[4,2,0,0,1,5,1,7]
 };

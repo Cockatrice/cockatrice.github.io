@@ -66,6 +66,9 @@ var NAVTREEINDEX23 =
 "d6/d85/structQxtMailMessagePrivate.html#ae0915964b3ff04c0e519d1296676f859":[4,1,0,352,6],
 "d6/d85/structQxtMailMessagePrivate.html#aea674d61ebec8764d6d8ec62fbdb23f2":[4,1,0,352,5],
 "d6/d8b/user_reference.html":[0,1],
+"d6/d8b/user_reference.html#deck-management":[0,1,0],
+"d6/d8b/user_reference.html#release-channels":[0,1,1],
+"d6/d8b/user_reference.html#syntax-help":[0,1,2],
 "d6/d8c/zip_8cpp.html":[4,2,0,12,0,2,3],
 "d6/d8c/zip_8cpp.html#a0008e01473ea8142ceeb2bfde7566d7a":[4,2,0,12,0,2,3,9],
 "d6/d8c/zip_8cpp.html#a05bbedc43f84baa1f7c516bf9b90758c":[4,2,0,12,0,2,3,43],
@@ -246,8 +249,5 @@ var NAVTREEINDEX23 =
 "d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a69f0384da20baa4448a3eee0707f5391":[4,1,0,197,27],
 "d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a6a02e1014e1ea16a92927764c92154c6":[4,1,0,197,51],
 "d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a6b8f8e896b8c6307e66192eeab5a553d":[4,1,0,197,60],
-"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a6da50af730917119fa191c0958b28bea":[4,1,0,197,11],
-"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a6ef40f1984519833e4f39dd2b7a6b1bf":[4,1,0,197,26],
-"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a74710519403199a7c8666217af5ec57d":[4,1,0,197,32],
-"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a7bbce2e279bba9ea22c12932ea9ce570":[4,1,0,197,37]
+"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a6da50af730917119fa191c0958b28bea":[4,1,0,197,11]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX33 =
 {
+"d9/d77/decompress_8h_source.html":[4,2,0,12,0,0,1],
+"d9/d77/group__UI.html":[3,1],
+"d9/d79/analytics__panel__widget__factory_8h.html":[4,2,0,0,1,5,3,1,6],
 "d9/d79/analytics__panel__widget__factory_8h_source.html":[4,2,0,0,1,5,3,1,6],
 "d9/d7a/group__Messages.html":[3,5,0],
 "d9/d7d/card__picture__loader_8h.html":[4,2,0,0,1,5,0,1],
@@ -40,6 +43,11 @@ var NAVTREEINDEX33 =
 "d9/d95/dlg__load__remote__deck_8h.html":[3,1,0,6,0,1],
 "d9/d95/dlg__load__remote__deck_8h.html":[3,3,2,1,0,0,1],
 "d9/d95/dlg__load__remote__deck_8h.html":[3,3,2,2,1,0,1],
+"d9/d9b/beta_release.html":[0,1,7],
+"d9/d9b/beta_release.html#giving-feedback":[0,1,7,3],
+"d9/d9b/beta_release.html#switching-back-to-stable":[0,1,7,2],
+"d9/d9b/beta_release.html#switching-to-the-beta":[0,1,7,1],
+"d9/d9b/beta_release.html#what-to-expect-from-the-beta":[0,1,7,0],
 "d9/d9c/mana__curve__config_8cpp.html":[4,2,0,0,1,5,3,1,0,2,2],
 "d9/d9c/structUnZip_1_1ZipEntry.html":[4,1,0,477,0],
 "d9/d9c/structUnZip_1_1ZipEntry.html#a0f8f9aada2200f80ea573db3dd2b19f8":[4,1,0,477,0,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX33 =
 "d9/dcc/classSpoilerBackgroundUpdater.html#af2cb1996ee7e44d06e2cd2b324bbaa0d":[4,1,0,438,1],
 "d9/dcc/classSpoilerBackgroundUpdater.html#afc6b4cd0211389dbe42b22ad849654fe":[4,1,0,438,12],
 "d9/dce/classArrowTarget.html":[4,1,0,41],
-"d9/dce/classArrowTarget.html#a1e04a1821de39dc62af377613be505da":[4,1,0,41,3],
-"d9/dce/classArrowTarget.html#a257b0fc5d7f6af2941104bae8ba5e597":[4,1,0,41,4],
-"d9/dce/classArrowTarget.html#a31e459374c78bf3b922b4a7e306401b9":[4,1,0,41,9],
-"d9/dce/classArrowTarget.html#a3776b5a1de3da0d531b5f0e9d1bf11a3":[4,1,0,41,8],
-"d9/dce/classArrowTarget.html#a5ab71e6b3743aca830623ccf72deddb6":[4,1,0,41,6],
-"d9/dce/classArrowTarget.html#a5e01d1292b1b30adbf1faad6c4a94d83":[4,1,0,41,5],
-"d9/dce/classArrowTarget.html#a754d650e2134cba30331382e76766463":[4,1,0,41,7],
-"d9/dce/classArrowTarget.html#a7f7391b7218405c8e0e6bd0c91040908":[4,1,0,41,12],
-"d9/dce/classArrowTarget.html#a8aafe3fbfc9d3a1fc5d3965579f64ade":[4,1,0,41,14]
+"d9/dce/classArrowTarget.html#a1e04a1821de39dc62af377613be505da":[4,1,0,41,3]
 };

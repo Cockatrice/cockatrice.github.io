@@ -1,5 +1,8 @@
 var NAVTREEINDEX31 =
 {
+"d8/dc5/classAppearanceSettingsPage.html#a2e5056b146fc26e842db9b5cde3210c7":[4,1,0,24,11],
+"d8/dc5/classAppearanceSettingsPage.html#a3532a66e0cd9410bd4fa2ca20931dee1":[4,1,0,24,16],
+"d8/dc5/classAppearanceSettingsPage.html#a35659a23f007012afb68bc7d7ede894b":[4,1,0,24,20],
 "d8/dc5/classAppearanceSettingsPage.html#a3a5582e9558f8bd9e7ac72b6b0b6abfb":[4,1,0,24,36],
 "d8/dc5/classAppearanceSettingsPage.html#a40515412bd86e1faceac263719c425e5":[4,1,0,24,32],
 "d8/dc5/classAppearanceSettingsPage.html#a43522582d1379310737cca43da8ee748":[4,1,0,24,24],
@@ -246,8 +249,5 @@ var NAVTREEINDEX31 =
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#a940257fc8ea3dac1711ccb925f5d309d":[4,1,0,1,7,19],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#a9c0c29b5b7fbbf1953ddaf406a8bb49a":[4,0,0,9,8,12],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#a9c0c29b5b7fbbf1953ddaf406a8bb49a":[4,1,0,1,7,12],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#a9c325541777cfd98b5f87a967b526eb0":[4,0,0,9,8,14],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#a9c325541777cfd98b5f87a967b526eb0":[4,1,0,1,7,14],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#aa76536aedf80c0d8802915eb1db22087":[4,0,0,9,8,0],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#aa76536aedf80c0d8802915eb1db22087":[4,1,0,1,7,0]
+"d9/d27/structpeg_1_1AssignIDToDefinition.html#a9c325541777cfd98b5f87a967b526eb0":[4,0,0,9,8,14]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX45 =
 {
+"dc/d63/classTabDeckEditorVisual.html#ae20d58ad11818d4afe126e8f13cbb27d":[3,3,1,0,2,4],
+"dc/d63/classTabDeckEditorVisual.html#ae20d58ad11818d4afe126e8f13cbb27d":[3,3,1,1,0,2,4],
+"dc/d63/classTabDeckEditorVisual.html#ae3eacfbb252458c78b285fd3a9d2fabd":[3,1,0,1,0,2,3],
+"dc/d63/classTabDeckEditorVisual.html#ae3eacfbb252458c78b285fd3a9d2fabd":[3,1,0,4,0,2,3],
+"dc/d63/classTabDeckEditorVisual.html#ae3eacfbb252458c78b285fd3a9d2fabd":[3,3,1,0,2,3],
+"dc/d63/classTabDeckEditorVisual.html#ae3eacfbb252458c78b285fd3a9d2fabd":[3,3,1,1,0,2,3],
+"dc/d63/classTabDeckEditorVisual.html#ae68a7ae85d04b94e38a587da77338d45":[3,1,0,1,0,2,5],
+"dc/d63/classTabDeckEditorVisual.html#ae68a7ae85d04b94e38a587da77338d45":[3,1,0,4,0,2,5],
 "dc/d63/classTabDeckEditorVisual.html#ae68a7ae85d04b94e38a587da77338d45":[3,3,1,0,2,5],
 "dc/d63/classTabDeckEditorVisual.html#ae68a7ae85d04b94e38a587da77338d45":[3,3,1,1,0,2,5],
 "dc/d63/classTabDeckEditorVisual.html#ae96e926517779ec8e4a686e81c42cb80":[3,1,0,1,0,2,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX45 =
 "dc/d9f/carddatabase__test_8cpp.html":[4,2,0,14,0,0],
 "dc/d9f/carddatabase__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,0,0,0],
 "dc/da2/structBarData.html":[4,1,0,48],
-"dc/da2/structBarData.html#a1acf9611ad0c29fe32ca7a89928fc08e":[4,1,0,48,0],
-"dc/da2/structBarData.html#ab92b691de65d509db8390319b0aabeef":[4,1,0,48,1],
-"dc/da4/shadow__background__label_8h.html":[3,1,0,4,3,1],
-"dc/da4/shadow__background__label_8h.html":[3,3,1,1,3,1],
-"dc/da9/classMoveMenu.html":[4,1,0,299],
-"dc/da9/classMoveMenu.html#a0d6f5c864bbc4751d0f43cc8f23c3da2":[4,1,0,299,4],
-"dc/da9/classMoveMenu.html#a3b9e8dba4b1104dd65dab577ae0e3566":[4,1,0,299,5],
-"dc/da9/classMoveMenu.html#a4b29094fce767f684469f58ea3c4ecee":[4,1,0,299,0],
-"dc/da9/classMoveMenu.html#a9def751fee4c10ffabb9d163c0b082bf":[4,1,0,299,1]
+"dc/da2/structBarData.html#a1acf9611ad0c29fe32ca7a89928fc08e":[4,1,0,48,0]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX59 =
 {
+"df/dd0/classGameFiltersSettings.html#a53b2fa598c24d0c5a5d100bdc90bfee6":[4,1,0,231,30],
+"df/dd0/classGameFiltersSettings.html#a54bf081b12d5c8b7e96057956cdc328f":[4,1,0,231,11],
+"df/dd0/classGameFiltersSettings.html#a58cccfda3e175f4bc044840b75fb160b":[4,1,0,231,18],
+"df/dd0/classGameFiltersSettings.html#a5f9075882736f15cd1d1a4431df3c918":[4,1,0,231,15],
+"df/dd0/classGameFiltersSettings.html#a83937896519de48f99f8e3b196c4fef5":[4,1,0,231,22],
+"df/dd0/classGameFiltersSettings.html#a8459da6f2fe5d9a3f5e5db3287fe270e":[4,1,0,231,7],
+"df/dd0/classGameFiltersSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,231,38],
+"df/dd0/classGameFiltersSettings.html#a966fcfc38f70431274cea43041f3b5f8":[4,1,0,231,23],
 "df/dd0/classGameFiltersSettings.html#aafc601600a63659b7d3d9f2959a44701":[4,1,0,231,3],
 "df/dd0/classGameFiltersSettings.html#ab38d45f1b471c22ef591d616d0e07f54":[4,1,0,231,29],
 "df/dd0/classGameFiltersSettings.html#ab66129aa697dd1c40cb2134acdb7ed6d":[4,1,0,231,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX59 =
 "df/df3/card__info_8h.html":[4,2,0,2,0,0,6],
 "df/df3/card__info_8h.html#a27e549090c82485cd289c1c78896a4d0":[4,2,0,2,0,0,6,6],
 "df/df3/card__info_8h.html#a2e9686002e62dcaed3d15d08802eede7":[4,2,0,2,0,0,6,3],
-"df/df3/card__info_8h.html#a411c105e9a86135bec85413e40d7a243":[4,2,0,2,0,0,6,4],
-"df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e":[4,2,0,2,0,0,6,2],
-"df/df3/card__info_8h.html#a7c9db9f714d3b5488be46278c2e576e8":[4,2,0,2,0,0,6,5],
-"df/df3/card__info_8h.html#a8169723b2f3dfc8b1e58ba463b260bdc":[4,2,0,2,0,0,6,0],
-"df/df3/card__info_8h.html#a895dad81cec6e99b41978fcf740f44fa":[4,2,0,2,0,0,6,7],
-"df/df3/card__info_8h.html#afe09e708464a3f7085db662112b509f3":[4,2,0,2,0,0,6,1],
-"df/df3/card__info_8h_source.html":[4,2,0,2,0,0,6],
-"df/df7/classPlayerInfo.html":[4,1,0,331],
-"df/df7/classPlayerInfo.html#a46c352d083d0adca73a8ba6fb5f81f67":[4,1,0,331,8]
+"df/df3/card__info_8h.html#a411c105e9a86135bec85413e40d7a243":[4,2,0,2,0,0,6,4]
 };

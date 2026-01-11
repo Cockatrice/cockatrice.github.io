@@ -1,5 +1,13 @@
 var NAVTREEINDEX55 =
 {
+"de/d9d/peglib_8h.html#ab1fd75d7e382b88c5ceb11cde0a7ed77":[4,2,0,11,0,0,9,117],
+"de/d9d/peglib_8h.html#ab2edc9c74333410379fd83f373a85a70":[4,2,0,11,0,0,9,160],
+"de/d9d/peglib_8h.html#ab4cb5e387c116a6175389b11f2d1281b":[4,2,0,11,0,0,9,148],
+"de/d9d/peglib_8h.html#ab501727c138b52c61df48b5c471dbe89":[4,2,0,11,0,0,9,155],
+"de/d9d/peglib_8h.html#ab593e4b5d8d7b389e3c47a779e6a9a53":[4,2,0,11,0,0,9,113],
+"de/d9d/peglib_8h.html#ab613f89f8698373e77e8d05e03e74720":[4,2,0,11,0,0,9,157],
+"de/d9d/peglib_8h.html#ab7ab239c28072b46d79a9e7d01a34c1e":[4,2,0,11,0,0,9,128],
+"de/d9d/peglib_8h.html#abc64b593773fdbf78540974da6a23f02":[4,2,0,11,0,0,9,127],
 "de/d9d/peglib_8h.html#ac21629d6d2feff81b3e8ea428a16bacf":[4,2,0,11,0,0,9,109],
 "de/d9d/peglib_8h.html#acbcc63cc108d320f49973442a042f2a2":[4,2,0,11,0,0,9,149],
 "de/d9d/peglib_8h.html#ad486d0fbce488b969ee80fe5787d170b":[4,2,0,11,0,0,9,89],
@@ -236,18 +244,10 @@ var NAVTREEINDEX55 =
 "de/dea/deck__preview__tag__addition__widget_8cpp.html":[4,2,0,0,1,5,3,14,0,4],
 "de/deb/card__info__frame__widget_8h.html":[3,1,0,2,2],
 "de/deb/card__info__frame__widget_8h.html":[3,2,3,2],
-"de/dec/deck_search_syntax_help.html":[0,1,1],
+"de/dec/deck_search_syntax_help.html":[0,1,9],
 "de/dec/hand__menu_8h.html":[3,4,0,3,1,2],
 "de/df2/player__graphics__item_8cpp.html":[4,2,0,0,1,3,4,11],
 "de/df3/classTabEdhRecMain.html":[4,1,0,453],
 "de/df3/classTabEdhRecMain.html#a0278d170fcd5453d0cf7e0f02cc710d0":[4,1,0,453,31],
-"de/df3/classTabEdhRecMain.html#a02792c427ba6d98fe467b4f9aec30022":[4,1,0,453,26],
-"de/df3/classTabEdhRecMain.html#a054d13a0cc2607423bbf05f1753c9f69":[4,1,0,453,0],
-"de/df3/classTabEdhRecMain.html#a066d03e20d9f79e320cbe17d87bf4394":[4,1,0,453,13],
-"de/df3/classTabEdhRecMain.html#a0ea70a5b6fe5fd69cbefc144baa4151a":[4,1,0,453,16],
-"de/df3/classTabEdhRecMain.html#a1a53139d2de1b3bd261adedb355c5659":[4,1,0,453,24],
-"de/df3/classTabEdhRecMain.html#a1ce1eb14583f11f834fc2ffce19a24a2":[4,1,0,453,12],
-"de/df3/classTabEdhRecMain.html#a1e84bfe76fa4b1eb411a0370815d7d47":[4,1,0,453,3],
-"de/df3/classTabEdhRecMain.html#a21f1b0819c3a0d063de853737e40f11d":[4,1,0,453,30],
-"de/df3/classTabEdhRecMain.html#a514bc8d5cbb6085f41c07260e16c3c96":[4,1,0,453,20]
+"de/df3/classTabEdhRecMain.html#a02792c427ba6d98fe467b4f9aec30022":[4,1,0,453,26]
 };

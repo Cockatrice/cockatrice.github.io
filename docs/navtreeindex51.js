@@ -1,5 +1,13 @@
 var NAVTREEINDEX51 =
 {
+"dd/de4/structpeg_1_1ReferenceChecker.html#afc6c8d678c3cdbb3cd4c8f5db5a4fce9":[4,0,0,9,40,17],
+"dd/de4/structpeg_1_1ReferenceChecker.html#afc6c8d678c3cdbb3cd4c8f5db5a4fce9":[4,1,0,1,39,17],
+"dd/de4/structpeg_1_1ReferenceChecker.html#aff8c5b50652c1096d0f5272454e6933e":[4,0,0,9,40,21],
+"dd/de4/structpeg_1_1ReferenceChecker.html#aff8c5b50652c1096d0f5272454e6933e":[4,1,0,1,39,21],
+"dd/de9/classDrawProbabilityWidget.html":[4,1,0,178],
+"dd/de9/classDrawProbabilityWidget.html#a1fda7e32c21aa7f95e036aaae4353970":[4,1,0,178,16],
+"dd/de9/classDrawProbabilityWidget.html#a2166ec8564489f45111a6e7c8f8e68bb":[4,1,0,178,1],
+"dd/de9/classDrawProbabilityWidget.html#a2511fa3ebe6eccc3aa2444d8710907ca":[4,1,0,178,0],
 "dd/de9/classDrawProbabilityWidget.html#a29fbd669280d515a4dc62a5f3cbffa66":[4,1,0,178,12],
 "dd/de9/classDrawProbabilityWidget.html#a2aa6939a6a38eed879adadf6dc7cf66d":[4,1,0,178,9],
 "dd/de9/classDrawProbabilityWidget.html#a2be05f91eb38a8b93e4773ef17222e4c":[4,1,0,178,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX51 =
 "de/d08/classTabGame.html#a5234d0902492dca020a12f551ddd146a":[4,1,0,454,106],
 "de/d08/classTabGame.html#a535e2e3daea6c31eaf515c9103416e63":[4,1,0,454,42],
 "de/d08/classTabGame.html#a53b0f05911e83e54750db8b688ba3db5":[4,1,0,454,11],
-"de/d08/classTabGame.html#a53f650f50df82a2863ffe3c7e6250bf5":[4,1,0,454,76],
-"de/d08/classTabGame.html#a547ab175d0d740b5f6ac41c605aad133":[4,1,0,454,8],
-"de/d08/classTabGame.html#a570560211dc36e894e8a699d326a1b6f":[4,1,0,454,19],
-"de/d08/classTabGame.html#a583d548afddbfbe67035edb0d85d8c4a":[4,1,0,454,38],
-"de/d08/classTabGame.html#a5be706a6530029b3666d537567045f34":[4,1,0,454,74],
-"de/d08/classTabGame.html#a5da801b5b7701a0f25cc41904944d901":[4,1,0,454,83],
-"de/d08/classTabGame.html#a5f625121655a0738518ec9320d9753ae":[4,1,0,454,97],
-"de/d08/classTabGame.html#a6164d1f31ddfd4553436529002178dc6":[4,1,0,454,77],
-"de/d08/classTabGame.html#a6454a713103491490e8301cdfebd6e4e":[4,1,0,454,24]
+"de/d08/classTabGame.html#a53f650f50df82a2863ffe3c7e6250bf5":[4,1,0,454,76]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX32 =
 {
+"d9/d27/structpeg_1_1AssignIDToDefinition.html#a9c325541777cfd98b5f87a967b526eb0":[4,1,0,1,7,14],
+"d9/d27/structpeg_1_1AssignIDToDefinition.html#aa76536aedf80c0d8802915eb1db22087":[4,0,0,9,8,0],
+"d9/d27/structpeg_1_1AssignIDToDefinition.html#aa76536aedf80c0d8802915eb1db22087":[4,1,0,1,7,0],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#aadb330f199dc95345c7318199e8abcdc":[4,0,0,9,8,23],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#aadb330f199dc95345c7318199e8abcdc":[4,1,0,1,7,23],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#ab001c4e285b4f0566b2016a2336c68be":[4,0,0,9,8,18],
@@ -246,8 +249,5 @@ var NAVTREEINDEX32 =
 "d9/d74/classEdhrecDeckApiResponse.html#a87b33784fffeef3ca98d6b23f61c7843":[4,1,0,201,2],
 "d9/d75/debug__settings_8cpp.html":[4,2,0,10,0,0,4],
 "d9/d75/servatrice__connection__pool_8cpp.html":[4,2,0,13,0,9],
-"d9/d77/decompress_8h.html":[4,2,0,12,0,0,1],
-"d9/d77/decompress_8h_source.html":[4,2,0,12,0,0,1],
-"d9/d77/group__UI.html":[3,1],
-"d9/d79/analytics__panel__widget__factory_8h.html":[4,2,0,0,1,5,3,1,6]
+"d9/d77/decompress_8h.html":[4,2,0,12,0,0,1]
 };

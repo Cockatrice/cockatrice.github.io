@@ -98,7 +98,7 @@ var searchData=
   ['manadistributionconfigdialog_95',['ManaDistributionConfigDialog',['../d0/da7/classManaDistributionConfigDialog.html',1,'ManaDistributionConfigDialog'],['../d0/da7/classManaDistributionConfigDialog.html#a12e5cabdecd0ca6acdd8816cefa339d0',1,'ManaDistributionConfigDialog::ManaDistributionConfigDialog()']]],
   ['manadistributionsingledisplaywidget_96',['ManaDistributionSingleDisplayWidget',['../db/db2/classManaDistributionSingleDisplayWidget.html',1,'ManaDistributionSingleDisplayWidget'],['../db/db2/classManaDistributionSingleDisplayWidget.html#a6dfd51dd4ca562399d98ddd5cf90d605',1,'ManaDistributionSingleDisplayWidget::ManaDistributionSingleDisplayWidget()']]],
   ['manadistributionwidget_97',['ManaDistributionWidget',['../df/d43/classManaDistributionWidget.html',1,'ManaDistributionWidget'],['../df/d43/classManaDistributionWidget.html#a217159506b9e42d6af6a4d2487f273d4',1,'ManaDistributionWidget::ManaDistributionWidget()']]],
-  ['management_98',['Deck Management',['../d7/db3/group__Decks.html',1,'']]],
+  ['management_98',['Management',['../d7/db3/group__Decks.html',1,'Deck Management'],['../d6/d8b/user_reference.html#deck-management',1,'Deck Management']]],
   ['manager_99',['manager',['../da/dcf/classDeckStatsInterface.html#ad375ed1e580f0dfd60c2af63ba66a241',1,'DeckStatsInterface::manager'],['../d8/d9e/classTappedOutInterface.html#a58d20b7e98625b24b49be807af67e5c3',1,'TappedOutInterface::manager']]],
   ['manaicon_100',['manaIcon',['../d8/d8e/classManaSymbolWidget.html#a9ce69329b213ae45b8a3fd25e54933f6',1,'ManaSymbolWidget']]],
   ['manapool_101',['manapool',['../d3/dab/classCardPrices.html#a86864ee1b1ebcf2b7fb1ea81274db3ec',1,'CardPrices']]],

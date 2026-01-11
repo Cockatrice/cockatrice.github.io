@@ -8,6 +8,7 @@ var searchData=
   ['exactcard_5',['Getting specific: PrintingInfo and ExactCard',['../da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard',1,'']]],
   ['exactcards_6',['ExactCards',['../da/d66/querying_the_card_database.html#exactcards',1,'']]],
   ['example_20workflow_3a_7',['Example workflow:',['../da/d68/classDeckList.html#example-workflow',1,'']]],
-  ['export_8',['Where to export?',['../d0/d51/exporting_decks.html#where-to-export',1,'']]],
-  ['exporting_20decks_9',['Exporting Decks',['../d0/d51/exporting_decks.html',1,'user_reference']]]
+  ['expect_20from_20the_20beta_8',['What to Expect from the Beta',['../d9/d9b/beta_release.html#what-to-expect-from-the-beta',1,'']]],
+  ['export_9',['Where to export?',['../d0/d51/exporting_decks.html#where-to-export',1,'']]],
+  ['exporting_20decks_10',['Exporting Decks',['../d0/d51/exporting_decks.html',1,'user_reference']]]
 ];

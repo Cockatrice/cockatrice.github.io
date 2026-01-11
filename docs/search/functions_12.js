@@ -413,7 +413,7 @@ var searchData=
   ['setsdisplaymodel_410',['SetsDisplayModel',['../dd/df6/classSetsDisplayModel.html#a498343fc28af59ac455f056e7442da25',1,'SetsDisplayModel']]],
   ['setseentips_411',['setSeenTips',['../d5/d88/classSettingsCache.html#ae7e49874308a0e1572a539296025f474',1,'SettingsCache']]],
   ['setselected_412',['setSelected',['../dc/dde/classResizablePanel.html#a1cb1461432e10522564a6311a47e581c',1,'ResizablePanel']]],
-  ['setselectedindex_413',['setSelectedIndex',['../d9/df7/classDeckEditorDeckDockWidget.html#ad80f121c9a9bc611edec37494069c09e',1,'DeckEditorDeckDockWidget']]],
+  ['setselectedindex_413',['setSelectedIndex',['../d9/df7/classDeckEditorDeckDockWidget.html#aa5ed01907915c61f98156dcad7086cf8',1,'DeckEditorDeckDockWidget']]],
   ['setselectionmodel_414',['setSelectionModel',['../da/d1e/classVisualDeckEditorWidget.html#aeff285d8129e0654029c77c39f0c47da',1,'VisualDeckEditorWidget']]],
   ['setsender_415',['setSender',['../d5/dff/classQxtMailMessage.html#a3442e95354f4ae9e51810538b4fb7abd',1,'QxtMailMessage']]],
   ['setsequence_416',['setSequence',['../d6/d8e/classShortcutKey.html#a33b88049b376356898eb0ee03b2803d7',1,'ShortcutKey']]],

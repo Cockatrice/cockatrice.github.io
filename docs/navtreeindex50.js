@@ -1,5 +1,13 @@
 var NAVTREEINDEX50 =
 {
+"dd/dab/classDeckStateManager.html#a49e65eff1afa3a312c287b8a8a12571e":[4,1,0,140,31],
+"dd/dab/classDeckStateManager.html#a4acd90062615b7218322fdb58450039c":[4,1,0,140,32],
+"dd/dab/classDeckStateManager.html#a4ec30ac041bf15f9c7dccfe1cdbbfeda":[4,1,0,140,39],
+"dd/dab/classDeckStateManager.html#a52819a18916c9f52856bb8002c224c16":[4,1,0,140,38],
+"dd/dab/classDeckStateManager.html#a577f309fdf221ca9c906e095fd7c593f":[4,1,0,140,30],
+"dd/dab/classDeckStateManager.html#a5e52ee827e0ff79c697e547ce9d07a9c":[4,1,0,140,7],
+"dd/dab/classDeckStateManager.html#a5eba41d87f3d5392bde1f68662a9c9c7":[4,1,0,140,0],
+"dd/dab/classDeckStateManager.html#a64379ba1486f2354c22123ff8dfbe1e0":[4,1,0,140,40],
 "dd/dab/classDeckStateManager.html#a68c49a5f6f179b44c09a8f593ce52b77":[4,1,0,140,42],
 "dd/dab/classDeckStateManager.html#a6dc9a44f88f41974c61b7525f7aaf53e":[4,1,0,140,14],
 "dd/dab/classDeckStateManager.html#a73a56c587e7d759cac07325f2672f02a":[4,1,0,140,36],
@@ -241,13 +249,5 @@ var NAVTREEINDEX50 =
 "dd/de4/structpeg_1_1ReferenceChecker.html#af3686d1eb11dbad3bfd1c5101e86eab6":[4,0,0,9,40,2],
 "dd/de4/structpeg_1_1ReferenceChecker.html#af3686d1eb11dbad3bfd1c5101e86eab6":[4,1,0,1,39,2],
 "dd/de4/structpeg_1_1ReferenceChecker.html#af4370058d02235a0ac6d16741d4e2fce":[4,0,0,9,40,5],
-"dd/de4/structpeg_1_1ReferenceChecker.html#af4370058d02235a0ac6d16741d4e2fce":[4,1,0,1,39,5],
-"dd/de4/structpeg_1_1ReferenceChecker.html#afc6c8d678c3cdbb3cd4c8f5db5a4fce9":[4,0,0,9,40,17],
-"dd/de4/structpeg_1_1ReferenceChecker.html#afc6c8d678c3cdbb3cd4c8f5db5a4fce9":[4,1,0,1,39,17],
-"dd/de4/structpeg_1_1ReferenceChecker.html#aff8c5b50652c1096d0f5272454e6933e":[4,0,0,9,40,21],
-"dd/de4/structpeg_1_1ReferenceChecker.html#aff8c5b50652c1096d0f5272454e6933e":[4,1,0,1,39,21],
-"dd/de9/classDrawProbabilityWidget.html":[4,1,0,178],
-"dd/de9/classDrawProbabilityWidget.html#a1fda7e32c21aa7f95e036aaae4353970":[4,1,0,178,16],
-"dd/de9/classDrawProbabilityWidget.html#a2166ec8564489f45111a6e7c8f8e68bb":[4,1,0,178,1],
-"dd/de9/classDrawProbabilityWidget.html#a2511fa3ebe6eccc3aa2444d8710907ca":[4,1,0,178,0]
+"dd/de4/structpeg_1_1ReferenceChecker.html#af4370058d02235a0ac6d16741d4e2fce":[4,1,0,1,39,5]
 };

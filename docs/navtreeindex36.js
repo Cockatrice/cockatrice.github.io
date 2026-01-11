@@ -1,5 +1,13 @@
 var NAVTREEINDEX36 =
 {
+"da/d28/deck__preview__card__picture__widget_8cpp.html":[4,2,0,0,1,5,3,0,20],
+"da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html":[4,1,0,498],
+"da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html#a0342bd7ca53cbc38cc165e7819c61862":[4,1,0,498,1],
+"da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html#a76f8f2535f27561272b9832eb7152f00":[4,1,0,498,3],
+"da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html#a7cd802196b86dd30c2480333f7a73409":[4,1,0,498,2],
+"da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html#acd1517ecc6362fdfcee1456a77163885":[4,1,0,498,0],
+"da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html#aec9689c5bf73b996381b5202feca1cd2":[4,1,0,498,4],
+"da/d2f/classServatrice__ConnectionPool.html":[4,1,0,383],
 "da/d2f/classServatrice__ConnectionPool.html#a0c15b188eb26a9e3a9e1fdefa67f07c6":[4,1,0,383,2],
 "da/d2f/classServatrice__ConnectionPool.html#a219f06a31e020d7c2a4520e7bb0f6a60":[4,1,0,383,1],
 "da/d2f/classServatrice__ConnectionPool.html#a36ecfca888c871639c8d61bfb9893876":[4,1,0,383,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX36 =
 "da/d68/classDeckList.html#ac3e3ba0b691b285142afe03f9c27336a":[3,3,3,26],
 "da/d68/classDeckList.html#acbc76c1a574283e5b32f514291343a63":[3,3,3,48],
 "da/d68/classDeckList.html#ad0a59ff0fd21322f9557c0ac1871a733":[3,3,3,30],
-"da/d68/classDeckList.html#ad4aeb8c9ae07248a6f0c5c3a92d2c5bc":[3,3,3,40],
-"da/d68/classDeckList.html#adb44268592051a93cc19abbc27de95b2":[3,3,3,45],
-"da/d68/classDeckList.html#ae59e29e363c6979ebaac6347d07a09ae":[3,3,3,4],
-"da/d68/classDeckList.html#af45030e8a0bde6bcfed09376a95c4bf4":[3,3,3,52],
-"da/d68/classDeckList.html#afa7f023276656ecfe4f8df74cbebbbd4":[3,3,3,44],
-"da/d69/primer_cards.html":[0,2,1],
-"da/d69/primer_cards.html#a-basic-card-object-cardinfo":[0,2,1,1],
-"da/d69/primer_cards.html#exact-card":[0,2,1,2,1],
-"da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard":[0,2,1,2]
+"da/d68/classDeckList.html#ad4aeb8c9ae07248a6f0c5c3a92d2c5bc":[3,3,3,40]
 };

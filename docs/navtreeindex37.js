@@ -1,5 +1,13 @@
 var NAVTREEINDEX37 =
 {
+"da/d68/classDeckList.html#adb44268592051a93cc19abbc27de95b2":[3,3,3,45],
+"da/d68/classDeckList.html#ae59e29e363c6979ebaac6347d07a09ae":[3,3,3,4],
+"da/d68/classDeckList.html#af45030e8a0bde6bcfed09376a95c4bf4":[3,3,3,52],
+"da/d68/classDeckList.html#afa7f023276656ecfe4f8df74cbebbbd4":[3,3,3,44],
+"da/d69/primer_cards.html":[0,2,1],
+"da/d69/primer_cards.html#a-basic-card-object-cardinfo":[0,2,1,1],
+"da/d69/primer_cards.html#exact-card":[0,2,1,2,1],
+"da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard":[0,2,1,2],
 "da/d69/primer_cards.html#printing-info":[0,2,1,2,0],
 "da/d69/primer_cards.html#the-cockatrice-card-library":[0,2,1,0],
 "da/d69/primer_cards.html#using-cards":[0,2,1,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX37 =
 "da/d99/classServer__AbstractPlayer.html#a25d3e4c638a4f5d821207f7686693ba6":[4,1,0,390,31],
 "da/d99/classServer__AbstractPlayer.html#a2d8bb4461d26d920e0f9c053099f3c87":[4,1,0,390,35],
 "da/d99/classServer__AbstractPlayer.html#a31c3aa7f433227d10c7c40c8cc2b20c6":[4,1,0,390,34],
-"da/d99/classServer__AbstractPlayer.html#a33de413937d09783edc3e413827a0a47":[4,1,0,390,16],
-"da/d99/classServer__AbstractPlayer.html#a354799a3cc819d46783a09bdfe71ff94":[4,1,0,390,46],
-"da/d99/classServer__AbstractPlayer.html#a38a99a4a43dadcc15638720e3d72c211":[4,1,0,390,11],
-"da/d99/classServer__AbstractPlayer.html#a3dabf77de216dadb0dd61007c481ff1f":[4,1,0,390,39],
-"da/d99/classServer__AbstractPlayer.html#a43315026969348f738c94999b76c4dfc":[4,1,0,390,4],
-"da/d99/classServer__AbstractPlayer.html#a437acecfbf84b5dea39cbdffdacbaca2":[4,1,0,390,14],
-"da/d99/classServer__AbstractPlayer.html#a44b8ec3dce0bab30449058d875a58653":[4,1,0,390,45],
-"da/d99/classServer__AbstractPlayer.html#a52f3f7d47ef10f72a3d0e90815b21c70":[4,1,0,390,47],
-"da/d99/classServer__AbstractPlayer.html#a55fc2bb5e861cace1da4ff1b6fb11fa8":[4,1,0,390,3]
+"da/d99/classServer__AbstractPlayer.html#a33de413937d09783edc3e413827a0a47":[4,1,0,390,16]
 };

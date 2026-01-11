@@ -1,5 +1,13 @@
 var NAVTREEINDEX58 =
 {
+"df/d90/classUnzipPrivate.html#af9581bc31922f5d6f2811779cc651806":[4,1,0,478,8],
+"df/d90/classUnzipPrivate.html#af9b2592a8105d11bee35071f54f4fc19":[4,1,0,478,16],
+"df/d94/classpeg_1_1Context.html":[4,0,0,9,16],
+"df/d94/classpeg_1_1Context.html":[4,1,0,1,15],
+"df/d94/classpeg_1_1Context.html#a0a29838b2aea3de5522f8b5fdb59a91d":[4,0,0,9,16,32],
+"df/d94/classpeg_1_1Context.html#a0a29838b2aea3de5522f8b5fdb59a91d":[4,1,0,1,15,32],
+"df/d94/classpeg_1_1Context.html#a0ab893cce549f6849c869c53f5176922":[4,0,0,9,16,39],
+"df/d94/classpeg_1_1Context.html#a0ab893cce549f6849c869c53f5176922":[4,1,0,1,15,39],
 "df/d94/classpeg_1_1Context.html#a13de48627133b0e2a7700543a220da15":[4,0,0,9,16,20],
 "df/d94/classpeg_1_1Context.html#a13de48627133b0e2a7700543a220da15":[4,1,0,1,15,20],
 "df/d94/classpeg_1_1Context.html#a17769aef28c149a937ed99572f92a47a":[4,0,0,9,16,42],
@@ -241,13 +249,5 @@ var NAVTREEINDEX58 =
 "df/dd0/classGameFiltersSettings.html#a3b0d80a6360c0ed8f43656f702b3f0f1":[4,1,0,231,33],
 "df/dd0/classGameFiltersSettings.html#a45ecea33e84b396c6f6ac7cd9a0d0e1e":[4,1,0,231,31],
 "df/dd0/classGameFiltersSettings.html#a4604a81782736cfd2e2e1676a172b658":[4,1,0,231,12],
-"df/dd0/classGameFiltersSettings.html#a4f79d6e82ef6d846426ffaffd324a48e":[4,1,0,231,36],
-"df/dd0/classGameFiltersSettings.html#a53b2fa598c24d0c5a5d100bdc90bfee6":[4,1,0,231,30],
-"df/dd0/classGameFiltersSettings.html#a54bf081b12d5c8b7e96057956cdc328f":[4,1,0,231,11],
-"df/dd0/classGameFiltersSettings.html#a58cccfda3e175f4bc044840b75fb160b":[4,1,0,231,18],
-"df/dd0/classGameFiltersSettings.html#a5f9075882736f15cd1d1a4431df3c918":[4,1,0,231,15],
-"df/dd0/classGameFiltersSettings.html#a83937896519de48f99f8e3b196c4fef5":[4,1,0,231,22],
-"df/dd0/classGameFiltersSettings.html#a8459da6f2fe5d9a3f5e5db3287fe270e":[4,1,0,231,7],
-"df/dd0/classGameFiltersSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,231,38],
-"df/dd0/classGameFiltersSettings.html#a966fcfc38f70431274cea43041f3b5f8":[4,1,0,231,23]
+"df/dd0/classGameFiltersSettings.html#a4f79d6e82ef6d846426ffaffd324a48e":[4,1,0,231,36]
 };

@@ -10,7 +10,7 @@ var classDeckStateManager =
     [ "decrementCountAtIndex", "dd/dab/classDeckStateManager.html#a5e52ee827e0ff79c697e547ce9d07a9c", null ],
     [ "doCardModified", "dd/dab/classDeckStateManager.html#a231fc809c22df91ea071a89409da316a", null ],
     [ "doMetadataModified", "dd/dab/classDeckStateManager.html#a7e3b0a10b29e6f58881a8616d841e56b", null ],
-    [ "focusIndexChanged", "dd/dab/classDeckStateManager.html#a47a9e425f1aced4498b8aa6ad8026f30", null ],
+    [ "focusIndexChanged", "dd/dab/classDeckStateManager.html#a16fce40a2a5dac5fe35d5143ba16b745", null ],
     [ "getDeckHash", "dd/dab/classDeckStateManager.html#ab0d7bcd1a6e3ee92bc11c17af3c952c8", null ],
     [ "getDeckList", "dd/dab/classDeckStateManager.html#adcdb2124008cbef00003cebd180c7826", null ],
     [ "getHistoryManager", "dd/dab/classDeckStateManager.html#a45a5396a6e930aaaed82ab1fc9fadb71", null ],

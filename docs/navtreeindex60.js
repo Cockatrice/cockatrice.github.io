@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e":[4,2,0,2,0,0,6,2],
+"df/df3/card__info_8h.html#a7c9db9f714d3b5488be46278c2e576e8":[4,2,0,2,0,0,6,5],
+"df/df3/card__info_8h.html#a8169723b2f3dfc8b1e58ba463b260bdc":[4,2,0,2,0,0,6,0],
+"df/df3/card__info_8h.html#a895dad81cec6e99b41978fcf740f44fa":[4,2,0,2,0,0,6,7],
+"df/df3/card__info_8h.html#afe09e708464a3f7085db662112b509f3":[4,2,0,2,0,0,6,1],
+"df/df3/card__info_8h_source.html":[4,2,0,2,0,0,6],
+"df/df7/classPlayerInfo.html":[4,1,0,331],
+"df/df7/classPlayerInfo.html#a46c352d083d0adca73a8ba6fb5f81f67":[4,1,0,331,8],
 "df/df7/classPlayerInfo.html#a49527d3b412f1d72a9a3235f0f222351":[4,1,0,331,14],
 "df/df7/classPlayerInfo.html#a4a8f51043ca087810668e918bcc13676":[4,1,0,331,12],
 "df/df7/classPlayerInfo.html#a5249f3fd2f710b5be14b26574b70c09c":[4,1,0,331,9],
@@ -180,6 +188,7 @@ var NAVTREEINDEX60 =
 "dir_88dbc524858e19e6487142478f244be6.html":[4,2,0,0,1,5,3,10,0,1,1,4],
 "dir_88f627a13200d7d443aefdc684403986.html":[4,2,0,0,1,5,3,10,0,1,1,2],
 "dir_8921049d4bc99cd5e919425d343ad13f.html":[4,2,0,1,0,0,0],
+"dir_8b3356fb4d3307dfb319daa1e949cd2e.html":[4,2,0,1,0,0,1,1],
 "dir_8b5154c17ec26e45c3420f037b336aa0.html":[4,2,0,6,0,0,0,1],
 "dir_8d8409d6a81734d7433068d45708ad63.html":[4,2,0,1,0,0,1],
 "dir_8f04e89bf047ba4e7a3267da4b339b83.html":[4,2,0,0,1,3,5],
@@ -240,14 +249,5 @@ var NAVTREEINDEX60 =
 "dir_ee86a45798be8b5ba156160d7db8c1d3.html":[4,2,0,9,0,0,0],
 "dir_f0cee67dbd606239bf5aae4476bbe603.html":[4,2,0,3,0,0,0],
 "dir_f28d132033c7495c6cbff0495ea1635e.html":[4,2,0,0,1,5,3,14],
-"dir_f3992e3e75a4d6d302e36d76242c0b2a.html":[4,2,0,0,1,3,3],
-"dir_f3aef765df2a7860fd35e0943a5cc08c.html":[4,2,0,7],
-"dir_f4647ec01be943ceefd9ee4f7f0c1eae.html":[4,2,0,12],
-"dir_f4be27d36b478c7f01a45661d0a08936.html":[4,2,0,11,0,0],
-"dir_f58a39ac21368c1cf9e5b42aefbaa528.html":[4,2,0,7,0,0,1],
-"dir_f67f2e1f788036ff2f7dedd6dbf38ac8.html":[4,2,0,7,0,0],
-"dir_f7f3b0129328dc87c8a56d7daf2207e7.html":[4,2,0,0,1,5,3,0,1],
-"dir_fcc53323f100f3840d6c8e04b287c6d3.html":[4,2,0,0,1,3],
-"dir_ff2017d8d6c53a419513535e9358adeb.html":[4,2,0,3,0,0],
-"dir_ff904cee2da7fc4774f8298cfe1e7610.html":[4,2,0,0,1,5,3]
+"dir_f3992e3e75a4d6d302e36d76242c0b2a.html":[4,2,0,0,1,3,3]
 };

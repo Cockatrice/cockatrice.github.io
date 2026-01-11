@@ -11,7 +11,10 @@ var searchData=
   ['simple_20display_8',['Simple Display',['../dc/d8a/displaying_cards.html#simple-display',1,'']]],
   ['slots_9',['Slots',['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#slots',1,'']]],
   ['specific_3a_20printinginfo_20and_20exactcard_10',['Getting specific: PrintingInfo and ExactCard',['../da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard',1,'']]],
-  ['storage_11',['Storage',['../d0/d51/exporting_decks.html#local-file-storage',1,'Local File Storage'],['../db/d91/importing_decks.html#local-file-storage-1',1,'Local File Storage']]],
-  ['stored_3a_12',['Data stored:',['../d5/d22/classDecklistCardNode.html#data-stored',1,'']]],
-  ['syntax_20help_13',['Syntax Help',['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help'],['../de/dec/deck_search_syntax_help.html#deck-search-syntax-help',1,'Deck Search Syntax Help'],['../dc/dcd/search_syntax_help.html',1,'Search Syntax Help'],['../dc/dcd/search_syntax_help.html#search-syntax-help',1,'Search Syntax Help']]]
+  ['stable_11',['Switching back to Stable',['../d9/d9b/beta_release.html#switching-back-to-stable',1,'']]],
+  ['storage_12',['Storage',['../d0/d51/exporting_decks.html#local-file-storage',1,'Local File Storage'],['../db/d91/importing_decks.html#local-file-storage-1',1,'Local File Storage']]],
+  ['stored_3a_13',['Data stored:',['../d5/d22/classDecklistCardNode.html#data-stored',1,'']]],
+  ['switching_20back_20to_20stable_14',['Switching back to Stable',['../d9/d9b/beta_release.html#switching-back-to-stable',1,'']]],
+  ['switching_20to_20the_20beta_15',['Switching to the Beta',['../d9/d9b/beta_release.html#switching-to-the-beta',1,'']]],
+  ['syntax_20help_16',['Syntax Help',['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help'],['../de/dec/deck_search_syntax_help.html#deck-search-syntax-help',1,'Deck Search Syntax Help'],['../dc/dcd/search_syntax_help.html',1,'Search Syntax Help'],['../dc/dcd/search_syntax_help.html#search-syntax-help',1,'Search Syntax Help'],['../d6/d8b/user_reference.html#syntax-help',1,'Syntax Help']]]
 ];

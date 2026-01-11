@@ -1,5 +1,8 @@
 var NAVTREEINDEX26 =
 {
+"d7/d62/classFilterTreeModel.html#a4b98d552c52998fce772bc4e8ca18e86":[4,1,0,221,22],
+"d7/d62/classFilterTreeModel.html#a50a40c356812a824f70a9004893df41e":[4,1,0,221,20],
+"d7/d62/classFilterTreeModel.html#a5f34e0e6fc77677fe292739ebb6c7ae3":[4,1,0,221,11],
 "d7/d62/classFilterTreeModel.html#a631b15a0127c4795dc1ab48c73848bb7":[4,1,0,221,19],
 "d7/d62/classFilterTreeModel.html#a670a6c3232b54302c1279ef06db34add":[4,1,0,221,16],
 "d7/d62/classFilterTreeModel.html#a9324e30dc4e10a01082d6a09b8bc4ed9":[4,1,0,221,9],
@@ -14,11 +17,11 @@ var NAVTREEINDEX26 =
 "d7/d62/classFilterTreeModel.html#af1fbb628068996d5e9824046ac0da47e":[4,1,0,221,2],
 "d7/d62/classFilterTreeModel.html#af6e2721ec44daa1857c88c8cd740f75c":[4,1,0,221,15],
 "d7/d62/classFilterTreeModel.html#afc9c10fd6eaef1a2cac8ea846301015a":[4,1,0,221,23],
-"d7/d64/editing_decks_printings.html":[0,1,4,2],
-"d7/d64/editing_decks_printings.html#pre-requisites-card-database":[0,1,4,2,2],
-"d7/d64/editing_decks_printings.html#pre-requisites-user-interface":[0,1,4,2,1],
-"d7/d64/editing_decks_printings.html#purpose":[0,1,4,2,0],
-"d7/d64/editing_decks_printings.html#using-the-printing-selector":[0,1,4,2,3],
+"d7/d64/editing_decks_printings.html":[0,1,5,2],
+"d7/d64/editing_decks_printings.html#pre-requisites-card-database":[0,1,5,2,2],
+"d7/d64/editing_decks_printings.html#pre-requisites-user-interface":[0,1,5,2,1],
+"d7/d64/editing_decks_printings.html#purpose":[0,1,5,2,0],
+"d7/d64/editing_decks_printings.html#using-the-printing-selector":[0,1,5,2,3],
 "d7/d65/server__abstractuserinterface_8cpp.html":[4,2,0,7,0,0,1,1,4],
 "d7/d66/card__database_8h.html":[4,2,0,2,0,0,0,2],
 "d7/d66/card__database_8h.html#ab5b6c7e3882ec49451d25e135d56e051":[4,2,0,2,0,0,0,2,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX26 =
 "d7/d98/classServerLogger.html#a451185a2922d17d4e04eae25f651c370":[4,1,0,405,9],
 "d7/d98/classServerLogger.html#a7e3a1951a4e8183432970cd0b39fc95f":[4,1,0,405,5],
 "d7/d98/classServerLogger.html#a8f430b208559655bd203532e650d9271":[4,1,0,405,0],
-"d7/d98/classServerLogger.html#a9fa6d42c1661518f6a6e1e39799ff4e6":[4,1,0,405,6],
-"d7/d98/classServerLogger.html#aa516ef7bd1110f2aac807c84fb78a576":[4,1,0,405,8],
-"d7/d98/classServerLogger.html#acce5b865ba312e9dc3f32ef7e352beeb":[4,1,0,405,4],
-"d7/d98/classServerLogger.html#ad999153f6e71f12009ddd2a8e8c6b2c9":[4,1,0,405,3]
+"d7/d98/classServerLogger.html#a9fa6d42c1661518f6a6e1e39799ff4e6":[4,1,0,405,6]
 };

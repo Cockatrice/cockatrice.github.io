@@ -1,5 +1,13 @@
 var NAVTREEINDEX57 =
 {
+"df/d47/classCardSizeWidget.html#aacdfc5b6e70c4b22970761c67943b488":[4,1,0,93,10],
+"df/d47/classCardSizeWidget.html#ab30f3c11142480d692da5d848d46d2cb":[4,1,0,93,3],
+"df/d47/classCardSizeWidget.html#ac0164c6dacf55f8a7183e658facc9017":[4,1,0,93,5],
+"df/d47/classCardSizeWidget.html#ac9a6a5fed069e0bac53ef2440eda025f":[4,1,0,93,2],
+"df/d47/classCardSizeWidget.html#acc789bba34e2f9bcceb04caf38698d77":[4,1,0,93,0],
+"df/d49/tapped__out__interface_8h.html":[3,3,2,2,2,2],
+"df/d49/tapped__out__interface_8h.html":[3,3,2,3,0,2],
+"df/d49/tapped__out__interface_8h.html":[3,5,1,0,2],
 "df/d4b/card__override__settings_8cpp.html":[4,2,0,10,0,0,2],
 "df/d4c/arrow__item_8h.html":[3,4,0,4,3],
 "df/d4e/classExactCard.html":[3,2,2,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX57 =
 "df/d90/classUnzipPrivate.html#acfc8e18ade84d6ac072ec51cc3cc45d9":[4,1,0,478,3],
 "df/d90/classUnzipPrivate.html#ad7c83cc879ff2dc73f41041bb7e50ae3":[4,1,0,478,25],
 "df/d90/classUnzipPrivate.html#aeb1d2cac81a14b7a9ac486f649fa4604":[4,1,0,478,1],
-"df/d90/classUnzipPrivate.html#aec6354f5ac34cd46cda080fd2b777864":[4,1,0,478,12],
-"df/d90/classUnzipPrivate.html#af9581bc31922f5d6f2811779cc651806":[4,1,0,478,8],
-"df/d90/classUnzipPrivate.html#af9b2592a8105d11bee35071f54f4fc19":[4,1,0,478,16],
-"df/d94/classpeg_1_1Context.html":[4,0,0,9,16],
-"df/d94/classpeg_1_1Context.html":[4,1,0,1,15],
-"df/d94/classpeg_1_1Context.html#a0a29838b2aea3de5522f8b5fdb59a91d":[4,0,0,9,16,32],
-"df/d94/classpeg_1_1Context.html#a0a29838b2aea3de5522f8b5fdb59a91d":[4,1,0,1,15,32],
-"df/d94/classpeg_1_1Context.html#a0ab893cce549f6849c869c53f5176922":[4,0,0,9,16,39],
-"df/d94/classpeg_1_1Context.html#a0ab893cce549f6849c869c53f5176922":[4,1,0,1,15,39]
+"df/d90/classUnzipPrivate.html#aec6354f5ac34cd46cda080fd2b777864":[4,1,0,478,12]
 };
