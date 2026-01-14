@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -119,6 +119,11 @@ Collaboration diagram for AbstractTabDeckEditor:</div>
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/deb/classAbstractTabDeckEditor__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:DockActions" id="r_DockActions"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/db0/structAbstractTabDeckEditor_1_1DockActions.html">DockActions</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The actions associated with managing a QDockWidget.  <a href="../../d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:a6aae96f56ec779c248645b4f4bfdeda6" id="r_a6aae96f56ec779c248645b4f4bfdeda6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aae96f56ec779c248645b4f4bfdeda6">onDeckChanged</a> ()</td></tr>
@@ -260,6 +265,8 @@ Protected Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a8a868bc7db6e4015ba81007737fb7283" id="r_a8a868bc7db6e4015ba81007737fb7283"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a868bc7db6e4015ba81007737fb7283">registerDockWidget</a> (QDockWidget *widget)</td></tr>
+<tr class="memdesc:a8a868bc7db6e4015ba81007737fb7283"><td class="mdescLeft">&#160;</td><td class="mdescRight">registers a QDockWidget as a managed dock widget. Creates the associated actions and menu, adds them to the viewMenu, and connects those actions to the tab's slots.  <br /></td></tr>
 <tr class="memitem:a7af6ee3c111358c9a82f0f0d3582d423" id="r_a7af6ee3c111358c9a82f0f0d3582d423"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a59362c003e9fd04abbec91a0962342dc">DeckOpenLocation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7af6ee3c111358c9a82f0f0d3582d423">confirmOpen</a> (bool openInSameTabIfBlank=true)</td></tr>
 <tr class="memdesc:a7af6ee3c111358c9a82f0f0d3582d423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Confirms deck open action based on settings and modified state.  <br /></td></tr>
 <tr class="memitem:a02a22dd0833c0b5d7ff9aac7416b7af0" id="r_a02a22dd0833c0b5d7ff9aac7416b7af0"><td class="memItemLeft" align="right" valign="top">QMessageBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02a22dd0833c0b5d7ff9aac7416b7af0">createSaveConfirmationWindow</a> ()</td></tr>
@@ -274,22 +281,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a9e12a586a0021b92e8fd44a49d53189f" id="r_a9e12a586a0021b92e8fd44a49d53189f"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e12a586a0021b92e8fd44a49d53189f">viewMenu</a></td></tr>
-<tr class="memitem:a5380df2d68b83c2fdab239e20f437e71" id="r_a5380df2d68b83c2fdab239e20f437e71"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5380df2d68b83c2fdab239e20f437e71">cardInfoDockMenu</a></td></tr>
-<tr class="memitem:a0e3bf93e655024e0805d418450cbad31" id="r_a0e3bf93e655024e0805d418450cbad31"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e3bf93e655024e0805d418450cbad31">cardDatabaseDockMenu</a></td></tr>
-<tr class="memitem:acaa0eff72859ab6173d51f4c6cc76387" id="r_acaa0eff72859ab6173d51f4c6cc76387"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acaa0eff72859ab6173d51f4c6cc76387">deckDockMenu</a></td></tr>
-<tr class="memitem:ad9ee176f80b111018d866515a005f812" id="r_ad9ee176f80b111018d866515a005f812"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9ee176f80b111018d866515a005f812">filterDockMenu</a></td></tr>
-<tr class="memitem:a02787334a9449be544b9b6c53111288d" id="r_a02787334a9449be544b9b6c53111288d"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02787334a9449be544b9b6c53111288d">printingSelectorDockMenu</a></td></tr>
 <tr class="memitem:af3590c900086cef4a542943f8bf666bc" id="r_af3590c900086cef4a542943f8bf666bc"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3590c900086cef4a542943f8bf666bc">aResetLayout</a></td></tr>
-<tr class="memitem:ad3acd03f8cc7c4924c4a0313b04678b3" id="r_ad3acd03f8cc7c4924c4a0313b04678b3"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3acd03f8cc7c4924c4a0313b04678b3">aCardInfoDockVisible</a></td></tr>
-<tr class="memitem:a2ca2bba04dbb0d13db2831b5599c2302" id="r_a2ca2bba04dbb0d13db2831b5599c2302"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ca2bba04dbb0d13db2831b5599c2302">aCardInfoDockFloating</a></td></tr>
-<tr class="memitem:aa3dea49db40dd8bb82e45918bcdb383b" id="r_aa3dea49db40dd8bb82e45918bcdb383b"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3dea49db40dd8bb82e45918bcdb383b">aCardDatabaseDockVisible</a></td></tr>
-<tr class="memitem:a76f4361dbd8e328ea3e281e19260c3b1" id="r_a76f4361dbd8e328ea3e281e19260c3b1"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76f4361dbd8e328ea3e281e19260c3b1">aCardDatabaseDockFloating</a></td></tr>
-<tr class="memitem:ae49d2828ec476117905ecb2f2b64e818" id="r_ae49d2828ec476117905ecb2f2b64e818"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae49d2828ec476117905ecb2f2b64e818">aDeckDockVisible</a></td></tr>
-<tr class="memitem:a9c47fe0c0cbec70fffe2c859306a437c" id="r_a9c47fe0c0cbec70fffe2c859306a437c"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c47fe0c0cbec70fffe2c859306a437c">aDeckDockFloating</a></td></tr>
-<tr class="memitem:a11f54e96971568badf4f186df55d8426" id="r_a11f54e96971568badf4f186df55d8426"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11f54e96971568badf4f186df55d8426">aFilterDockVisible</a></td></tr>
-<tr class="memitem:aa542acf6b48f0c3e2d7370ddbb3462de" id="r_aa542acf6b48f0c3e2d7370ddbb3462de"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa542acf6b48f0c3e2d7370ddbb3462de">aFilterDockFloating</a></td></tr>
-<tr class="memitem:a406cb8f43563cd81be61a38807ead3b6" id="r_a406cb8f43563cd81be61a38807ead3b6"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a406cb8f43563cd81be61a38807ead3b6">aPrintingSelectorDockVisible</a></td></tr>
-<tr class="memitem:a8d639030862b7c448ec2b467cee12dbf" id="r_a8d639030862b7c448ec2b467cee12dbf"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d639030862b7c448ec2b467cee12dbf">aPrintingSelectorDockFloating</a></td></tr>
+<tr class="memitem:a13a5f57d7f7ebbaefdfb5600432d633a" id="r_a13a5f57d7f7ebbaefdfb5600432d633a"><td class="memItemLeft" align="right" valign="top">QMap&lt; QDockWidget *, <a class="el" href="../../d8/db0/structAbstractTabDeckEditor_1_1DockActions.html">DockActions</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13a5f57d7f7ebbaefdfb5600432d633a">dockToActions</a></td></tr>
 <tr class="inherit_header pro_attribs_classTab"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classTab')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="../../de/d9c/classTab.html">Tab</a></td></tr>
 <tr class="memitem:a25e38b8dedc77ca04d966348f588a25e inherit pro_attribs_classTab" id="r_a25e38b8dedc77ca04d966348f588a25e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/classTab.html#a25e38b8dedc77ca04d966348f588a25e">tabSupervisor</a></td></tr>
 </table><table class="memberdecls">
@@ -1590,6 +1583,11 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Slot triggered when a dock floating state changes. Pure virtual. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_ad3673e6e0fcebcc020cc26e67de70644_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -1649,6 +1647,11 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Slot triggered when a dock visibility changes. Pure virtual. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_aa7a04f62e7d81d9b2ee3596824b2665e_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -2093,6 +2096,43 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a8a868bc7db6e4015ba81007737fb7283" name="a8a868bc7db6e4015ba81007737fb7283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a868bc7db6e4015ba81007737fb7283">&#9670;&#160;</a></span>registerDockWidget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractTabDeckEditor::registerDockWidget </td>
+          <td>(</td>
+          <td class="paramtype">QDockWidget *</td>          <td class="paramname"><span class="paramname"><em>widget</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>registers a QDockWidget as a managed dock widget. Creates the associated actions and menu, adds them to the viewMenu, and connects those actions to the tab's slots. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a8a868bc7db6e4015ba81007737fb7283_cgraph.svg" width="403" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_a8a868bc7db6e4015ba81007737fb7283_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a2c7ba0a21993dbf7f6a90f79680b3743" name="a2c7ba0a21993dbf7f6a90f79680b3743"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2c7ba0a21993dbf7f6a90f79680b3743">&#9670;&#160;</a></span>restartLayout</h2>
 
@@ -2333,226 +2373,6 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a76f4361dbd8e328ea3e281e19260c3b1" name="a76f4361dbd8e328ea3e281e19260c3b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76f4361dbd8e328ea3e281e19260c3b1">&#9670;&#160;</a></span>aCardDatabaseDockFloating</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction * AbstractTabDeckEditor::aCardDatabaseDockFloating</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa3dea49db40dd8bb82e45918bcdb383b" name="aa3dea49db40dd8bb82e45918bcdb383b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3dea49db40dd8bb82e45918bcdb383b">&#9670;&#160;</a></span>aCardDatabaseDockVisible</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction* AbstractTabDeckEditor::aCardDatabaseDockVisible</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2ca2bba04dbb0d13db2831b5599c2302" name="a2ca2bba04dbb0d13db2831b5599c2302"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ca2bba04dbb0d13db2831b5599c2302">&#9670;&#160;</a></span>aCardInfoDockFloating</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction * AbstractTabDeckEditor::aCardInfoDockFloating</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad3acd03f8cc7c4924c4a0313b04678b3" name="ad3acd03f8cc7c4924c4a0313b04678b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3acd03f8cc7c4924c4a0313b04678b3">&#9670;&#160;</a></span>aCardInfoDockVisible</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction* AbstractTabDeckEditor::aCardInfoDockVisible</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9c47fe0c0cbec70fffe2c859306a437c" name="a9c47fe0c0cbec70fffe2c859306a437c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c47fe0c0cbec70fffe2c859306a437c">&#9670;&#160;</a></span>aDeckDockFloating</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction * AbstractTabDeckEditor::aDeckDockFloating</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae49d2828ec476117905ecb2f2b64e818" name="ae49d2828ec476117905ecb2f2b64e818"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae49d2828ec476117905ecb2f2b64e818">&#9670;&#160;</a></span>aDeckDockVisible</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction* AbstractTabDeckEditor::aDeckDockVisible</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa542acf6b48f0c3e2d7370ddbb3462de" name="aa542acf6b48f0c3e2d7370ddbb3462de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa542acf6b48f0c3e2d7370ddbb3462de">&#9670;&#160;</a></span>aFilterDockFloating</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction * AbstractTabDeckEditor::aFilterDockFloating</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a11f54e96971568badf4f186df55d8426" name="a11f54e96971568badf4f186df55d8426"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11f54e96971568badf4f186df55d8426">&#9670;&#160;</a></span>aFilterDockVisible</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction* AbstractTabDeckEditor::aFilterDockVisible</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8d639030862b7c448ec2b467cee12dbf" name="a8d639030862b7c448ec2b467cee12dbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d639030862b7c448ec2b467cee12dbf">&#9670;&#160;</a></span>aPrintingSelectorDockFloating</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction * AbstractTabDeckEditor::aPrintingSelectorDockFloating</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a406cb8f43563cd81be61a38807ead3b6" name="a406cb8f43563cd81be61a38807ead3b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a406cb8f43563cd81be61a38807ead3b6">&#9670;&#160;</a></span>aPrintingSelectorDockVisible</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction* AbstractTabDeckEditor::aPrintingSelectorDockVisible</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="af3590c900086cef4a542943f8bf666bc" name="af3590c900086cef4a542943f8bf666bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3590c900086cef4a542943f8bf666bc">&#9670;&#160;</a></span>aResetLayout</h2>
 
@@ -2564,28 +2384,6 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QAction* AbstractTabDeckEditor::aResetLayout</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0e3bf93e655024e0805d418450cbad31" name="a0e3bf93e655024e0805d418450cbad31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e3bf93e655024e0805d418450cbad31">&#9670;&#160;</a></span>cardDatabaseDockMenu</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QMenu * AbstractTabDeckEditor::cardDatabaseDockMenu</td>
         </tr>
       </table>
   </td>
@@ -2613,28 +2411,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a5380df2d68b83c2fdab239e20f437e71" name="a5380df2d68b83c2fdab239e20f437e71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5380df2d68b83c2fdab239e20f437e71">&#9670;&#160;</a></span>cardInfoDockMenu</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QMenu * AbstractTabDeckEditor::cardInfoDockMenu</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a40a265f1450c20625365ad95b13f4e3e" name="a40a265f1450c20625365ad95b13f4e3e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a40a265f1450c20625365ad95b13f4e3e">&#9670;&#160;</a></span>cardInfoDockWidget</h2>
 
@@ -2648,28 +2424,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Card info dock. </p>
-
-</div>
-</div>
-<a id="acaa0eff72859ab6173d51f4c6cc76387" name="acaa0eff72859ab6173d51f4c6cc76387"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acaa0eff72859ab6173d51f4c6cc76387">&#9670;&#160;</a></span>deckDockMenu</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QMenu * AbstractTabDeckEditor::deckDockMenu</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -2719,8 +2473,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ad9ee176f80b111018d866515a005f812" name="ad9ee176f80b111018d866515a005f812"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9ee176f80b111018d866515a005f812">&#9670;&#160;</a></span>filterDockMenu</h2>
+<a id="a13a5f57d7f7ebbaefdfb5600432d633a" name="a13a5f57d7f7ebbaefdfb5600432d633a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13a5f57d7f7ebbaefdfb5600432d633a">&#9670;&#160;</a></span>dockToActions</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2729,7 +2483,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QMenu * AbstractTabDeckEditor::filterDockMenu</td>
+          <td class="memname">QMap&lt;QDockWidget *, <a class="el" href="../../d8/db0/structAbstractTabDeckEditor_1_1DockActions.html">DockActions</a>&gt; AbstractTabDeckEditor::dockToActions</td>
         </tr>
       </table>
   </td>
@@ -2754,28 +2508,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p><a class="el" href="../../d3/da2/filter__string_8h.html#ad5583a32d04875d816d3544e32f2c4e6">Filter</a> dock. </p>
-
-</div>
-</div>
-<a id="a02787334a9449be544b9b6c53111288d" name="a02787334a9449be544b9b6c53111288d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02787334a9449be544b9b6c53111288d">&#9670;&#160;</a></span>printingSelectorDockMenu</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QMenu * AbstractTabDeckEditor::printingSelectorDockMenu</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

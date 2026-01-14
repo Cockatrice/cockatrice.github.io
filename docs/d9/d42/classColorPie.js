@@ -9,7 +9,7 @@ var classColorPie =
     [ "paintEvent", "d9/d42/classColorPie.html#ac038fa7b731f5c45691231090765c8b0", null ],
     [ "setColors", "d9/d42/classColorPie.html#a51d8f60eac34a9e7dc419ca91d5726d4", null ],
     [ "tooltipForPoint", "d9/d42/classColorPie.html#a2edf36e4aaee5030db3bbc1d34858baf", null ],
-    [ "colors", "d9/d42/classColorPie.html#a1a32f6e613dffd110f750f9b62d1b29b", null ],
+    [ "colors", "d9/d42/classColorPie.html#a85f51acda2caa3ac0cda03711c4ff915", null ],
     [ "isHovered", "d9/d42/classColorPie.html#a3bdb01844b5139d271ff4ea9e96eb40e", null ],
     [ "minRatioThreshold", "d9/d42/classColorPie.html#ae87e3c209ab428fe9ebf341a3f645583", null ]
 ];

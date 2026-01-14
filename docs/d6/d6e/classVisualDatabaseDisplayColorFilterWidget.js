@@ -13,5 +13,5 @@ var classVisualDatabaseDisplayColorFilterWidget =
     [ "currentMode", "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a3d4d8859444dd500bf4f153466552bce", null ],
     [ "filterModel", "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a14b1fbfe743db84b79f593afb07086a5", null ],
     [ "layout", "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#adeae24f7ca614325e45e0c7ae079aa6c", null ],
-    [ "toggleButton", "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a86521e6599228e670503eaa37bff9e6d", null ]
+    [ "modeComboBox", "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a5426420c52266dcf971242fe89b959b1", null ]
 ];

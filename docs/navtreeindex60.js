@@ -1,5 +1,16 @@
 var NAVTREEINDEX60 =
 {
+"df/dea/classUserInfoBox.html#ae41f5ff66d9c3a7aac4af038cad17652":[4,1,0,483,27],
+"df/dea/classUserInfoBox.html#ae6ec347d5bd7951e46efe98e672cef1e":[4,1,0,483,2],
+"df/dea/classUserInfoBox.html#ae7519803f38269fe985cb763e67cef84":[4,1,0,483,30],
+"df/dea/classUserInfoBox.html#af4a63899e7b91d4717fbbd146934f12e":[4,1,0,483,10],
+"df/dea/classUserInfoBox.html#af757e4ad6c00bacfd3b5179454b2b170":[4,1,0,483,12],
+"df/df1/deck__list__history__manager_8h.html":[4,2,0,3,0,0,4],
+"df/df1/deck__list__history__manager_8h_source.html":[4,2,0,3,0,0,4],
+"df/df3/card__info_8h.html":[4,2,0,2,0,0,6],
+"df/df3/card__info_8h.html#a27e549090c82485cd289c1c78896a4d0":[4,2,0,2,0,0,6,6],
+"df/df3/card__info_8h.html#a2e9686002e62dcaed3d15d08802eede7":[4,2,0,2,0,0,6,3],
+"df/df3/card__info_8h.html#a411c105e9a86135bec85413e40d7a243":[4,2,0,2,0,0,6,4],
 "df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e":[4,2,0,2,0,0,6,2],
 "df/df3/card__info_8h.html#a7c9db9f714d3b5488be46278c2e576e8":[4,2,0,2,0,0,6,5],
 "df/df3/card__info_8h.html#a8169723b2f3dfc8b1e58ba463b260bdc":[4,2,0,2,0,0,6,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX60 =
 "dir_dfba2d28f18649f7ad87a35860a92af4.html":[4,2,0,13,0],
 "dir_e1acfdb352478f03b7b67ef178afe909.html":[4,2,0,1,0,0,1,0],
 "dir_e2332585d68324aa03276c55910070d7.html":[4,2,0,2,0,0,4],
-"dir_e32f56b0edef7585ebe7e90f39057682.html":[4,2,0,0,1,3,2],
-"dir_e4645ecbfc91d4e08ab2a10db41488eb.html":[4,2,0,0,1,5,3,10,0,0],
-"dir_e68e8157741866f444e17edd764ebbae.html":[4,2,0,1],
-"dir_e6f2a239fe73dbef301891463e6c47dc.html":[4,2,0,2,0,0,3],
-"dir_ea8d64982b5609019074a0f83466341a.html":[4,2,0,11],
-"dir_eb10850db37dd764fd82984f089c556f.html":[4,2,0,1,0,1],
-"dir_ebe69efb0678dd425a868e0712b133d9.html":[4,2,0,0,1,5,3,0,0],
-"dir_edb0c1dfeb504bd9cfb443bc6b24a3fb.html":[4,2,0,0,1,5,3,10,0,1,1,1],
-"dir_ee86a45798be8b5ba156160d7db8c1d3.html":[4,2,0,9,0,0,0],
-"dir_f0cee67dbd606239bf5aae4476bbe603.html":[4,2,0,3,0,0,0],
-"dir_f28d132033c7495c6cbff0495ea1635e.html":[4,2,0,0,1,5,3,14],
-"dir_f3992e3e75a4d6d302e36d76242c0b2a.html":[4,2,0,0,1,3,3]
+"dir_e32f56b0edef7585ebe7e90f39057682.html":[4,2,0,0,1,3,2]
 };

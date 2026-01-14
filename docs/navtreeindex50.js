@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"dd/dab/classDeckStateManager.html#a437151fa329757c508365ef099558301":[4,1,0,140,16],
+"dd/dab/classDeckStateManager.html#a45a5396a6e930aaaed82ab1fc9fadb71":[4,1,0,140,13],
 "dd/dab/classDeckStateManager.html#a49e65eff1afa3a312c287b8a8a12571e":[4,1,0,140,31],
 "dd/dab/classDeckStateManager.html#a4acd90062615b7218322fdb58450039c":[4,1,0,140,32],
 "dd/dab/classDeckStateManager.html#a4ec30ac041bf15f9c7dccfe1cdbbfeda":[4,1,0,140,39],
@@ -50,13 +52,13 @@ var NAVTREEINDEX50 =
 "dd/dbb/classCounterPixmapGenerator.html#abf554322b0c647896b8f7089593d562a":[4,1,0,104,2],
 "dd/dbb/classCounterPixmapGenerator.html#ac9720cc1d8a67740a76abc8c7a29c2f4":[4,1,0,104,0],
 "dd/dbf/card__zone__logic_8h.html":[3,4,1,1,0],
-"dd/dc7/classUserListTWI.html":[4,1,0,488],
-"dd/dc7/classUserListTWI.html#a27c9aec5d8482bf5d32ffe22e5c6c6d1":[4,1,0,488,2],
-"dd/dc7/classUserListTWI.html#a2d5b8483375910220aa133cc565c13e0":[4,1,0,488,3],
-"dd/dc7/classUserListTWI.html#a3f1a82b948ac1c6a595164b49f7c6379":[4,1,0,488,5],
-"dd/dc7/classUserListTWI.html#adcbfc4d690e3a71eacf361b66bfc3958":[4,1,0,488,4],
-"dd/dc7/classUserListTWI.html#ae25e26425a54871cb6d2ec86e46438ff":[4,1,0,488,1],
-"dd/dc7/classUserListTWI.html#aeb83a00f25611300b45710f97b76bb53":[4,1,0,488,0],
+"dd/dc7/classUserListTWI.html":[4,1,0,489],
+"dd/dc7/classUserListTWI.html#a27c9aec5d8482bf5d32ffe22e5c6c6d1":[4,1,0,489,2],
+"dd/dc7/classUserListTWI.html#a2d5b8483375910220aa133cc565c13e0":[4,1,0,489,3],
+"dd/dc7/classUserListTWI.html#a3f1a82b948ac1c6a595164b49f7c6379":[4,1,0,489,5],
+"dd/dc7/classUserListTWI.html#adcbfc4d690e3a71eacf361b66bfc3958":[4,1,0,489,4],
+"dd/dc7/classUserListTWI.html#ae25e26425a54871cb6d2ec86e46438ff":[4,1,0,489,1],
+"dd/dc7/classUserListTWI.html#aeb83a00f25611300b45710f97b76bb53":[4,1,0,489,0],
 "dd/dd0/tab__server_8h.html":[3,1,0,1,1,0,2],
 "dd/dd0/tab__server_8h.html":[3,1,0,9,1,0,2],
 "dd/dd0/tab__server_8h.html":[3,5,1,1,1,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "dd/de4/structpeg_1_1ReferenceChecker.html#af2ff13c0928c70e75dcb072578ee6dcb":[4,0,0,9,40,8],
 "dd/de4/structpeg_1_1ReferenceChecker.html#af2ff13c0928c70e75dcb072578ee6dcb":[4,1,0,1,39,8],
 "dd/de4/structpeg_1_1ReferenceChecker.html#af3686d1eb11dbad3bfd1c5101e86eab6":[4,0,0,9,40,2],
-"dd/de4/structpeg_1_1ReferenceChecker.html#af3686d1eb11dbad3bfd1c5101e86eab6":[4,1,0,1,39,2],
-"dd/de4/structpeg_1_1ReferenceChecker.html#af4370058d02235a0ac6d16741d4e2fce":[4,0,0,9,40,5],
-"dd/de4/structpeg_1_1ReferenceChecker.html#af4370058d02235a0ac6d16741d4e2fce":[4,1,0,1,39,5]
+"dd/de4/structpeg_1_1ReferenceChecker.html#af3686d1eb11dbad3bfd1c5101e86eab6":[4,1,0,1,39,2]
 };

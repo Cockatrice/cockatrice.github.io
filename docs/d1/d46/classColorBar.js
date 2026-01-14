@@ -10,7 +10,7 @@ var classColorBar =
     [ "setColors", "d1/d46/classColorBar.html#af3bbe45186eaa5b8efd670e202277ca0", null ],
     [ "setMinPercentThreshold", "d1/d46/classColorBar.html#a7f5f4adce6cb47a56abd0cbc3b3d52cc", null ],
     [ "tooltipForPosition", "d1/d46/classColorBar.html#ae780cc07fed32ceff912f8dd20bdb9fd", null ],
-    [ "colors", "d1/d46/classColorBar.html#a2659ab672569ebdd67a58f9cf275d1b4", null ],
+    [ "colors", "d1/d46/classColorBar.html#a286f859ba47b84e8abcefc57b492dce7", null ],
     [ "isHovered", "d1/d46/classColorBar.html#a4cae9040763ba871d20c0354fa03f8bc", null ],
     [ "minRatioThreshold", "d1/d46/classColorBar.html#ab9b93e9662ea9e85f2f3ef8b79b8507e", null ]
 ];

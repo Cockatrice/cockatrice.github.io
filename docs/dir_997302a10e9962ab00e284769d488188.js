@@ -4,7 +4,7 @@ var dir_997302a10e9962ab00e284769d488188 =
     [ "visual_deck_editor", "dir_b5d8f01de3dc21799cf25dcf1941902e.html", "dir_b5d8f01de3dc21799cf25dcf1941902e" ],
     [ "visual_deck_storage", "dir_9c6ed0b49df3d8e025991afc8cd09217.html", "dir_9c6ed0b49df3d8e025991afc8cd09217" ],
     [ "abstract_tab_deck_editor.cpp", "db/d20/abstract__tab__deck__editor_8cpp.html", null ],
-    [ "abstract_tab_deck_editor.h", "dd/d2f/abstract__tab__deck__editor_8h.html", null ],
+    [ "abstract_tab_deck_editor.h", "dd/d2f/abstract__tab__deck__editor_8h.html", "dd/d2f/abstract__tab__deck__editor_8h" ],
     [ "tab.cpp", "d9/d10/tab_8cpp.html", null ],
     [ "tab.h", "d3/ddf/tab_8h.html", "d3/ddf/tab_8h" ],
     [ "tab_account.cpp", "d1/d72/tab__account_8cpp.html", null ],

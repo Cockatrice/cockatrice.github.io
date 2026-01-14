@@ -19,7 +19,7 @@ var searchData=
   ['viewsize_16',['viewSize',['../db/d9f/classGameScene.html#a72ab60c9119d77b1bdc6ae503a37afb4',1,'GameScene']]],
   ['viewtransformationbutton_17',['viewTransformationButton',['../db/d22/classCardInfoFrameWidget.html#abd8e4a22f3e092418117e0f7e9a6f700',1,'CardInfoFrameWidget']]],
   ['visiblereasonedit_18',['visibleReasonEdit',['../dd/d5d/classBanDialog.html#a9da23c4567eeda0b344cdcecc412ff9a',1,'BanDialog']]],
-  ['visualdatabasedisplay_19',['visualDatabaseDisplay',['../d9/dcf/classTabDeckEditorVisualTabWidget.html#a9b171f77e3d9df05943385458d367472',1,'TabDeckEditorVisualTabWidget']]],
+  ['visualdatabasedisplay_19',['visualDatabaseDisplay',['../d9/dcf/classTabDeckEditorVisualTabWidget.html#a9b171f77e3d9df05943385458d367472',1,'TabDeckEditorVisualTabWidget::visualDatabaseDisplay'],['../d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#ac93fee6782bab689c33f020268b885fa',1,'VisualDatabaseDisplayFilterToolbarWidget::visualDatabaseDisplay']]],
   ['visualdatabasedisplaycardsize_20',['visualDatabaseDisplayCardSize',['../d5/d88/classSettingsCache.html#a56a280980c1847944e3bcb42fab93441',1,'SettingsCache']]],
   ['visualdatabasedisplayfiltertomostrecentsetsamount_21',['visualDatabaseDisplayFilterToMostRecentSetsAmount',['../d5/d88/classSettingsCache.html#aab3d789dd5653c627c8f931189c627f3',1,'SettingsCache']]],
   ['visualdatabasedisplayfiltertomostrecentsetsenabled_22',['visualDatabaseDisplayFilterToMostRecentSetsEnabled',['../d5/d88/classSettingsCache.html#a27d654f3e8a4b6a8da0a323f3ff9b10f',1,'SettingsCache']]],

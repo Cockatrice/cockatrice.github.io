@@ -4,6 +4,8 @@ var dir_d1f375a61984fa4d23737ab04cddec22 =
     [ "visual_database_display_color_filter_widget.h", "da/d67/visual__database__display__color__filter__widget_8h.html", "da/d67/visual__database__display__color__filter__widget_8h" ],
     [ "visual_database_display_filter_save_load_widget.cpp", "da/d78/visual__database__display__filter__save__load__widget_8cpp.html", null ],
     [ "visual_database_display_filter_save_load_widget.h", "d3/da0/visual__database__display__filter__save__load__widget_8h.html", "d3/da0/visual__database__display__filter__save__load__widget_8h" ],
+    [ "visual_database_display_filter_toolbar_widget.cpp", "d9/d83/visual__database__display__filter__toolbar__widget_8cpp.html", null ],
+    [ "visual_database_display_filter_toolbar_widget.h", "db/d4c/visual__database__display__filter__toolbar__widget_8h.html", "db/d4c/visual__database__display__filter__toolbar__widget_8h" ],
     [ "visual_database_display_format_legality_filter_widget.cpp", "dc/de1/visual__database__display__format__legality__filter__widget_8cpp.html", null ],
     [ "visual_database_display_format_legality_filter_widget.h", "df/d73/visual__database__display__format__legality__filter__widget_8h.html", "df/d73/visual__database__display__format__legality__filter__widget_8h" ],
     [ "visual_database_display_main_type_filter_widget.cpp", "db/dcb/visual__database__display__main__type__filter__widget_8cpp.html", null ],

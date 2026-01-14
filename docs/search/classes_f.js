@@ -37,6 +37,7 @@ var searchData=
   ['printingselectorcardsearchwidget_34',['PrintingSelectorCardSearchWidget',['../d2/d4b/classPrintingSelectorCardSearchWidget.html',1,'']]],
   ['printingselectorcardselectionwidget_35',['PrintingSelectorCardSelectionWidget',['../d0/dd2/classPrintingSelectorCardSelectionWidget.html',1,'']]],
   ['printingselectorcardsortingwidget_36',['PrintingSelectorCardSortingWidget',['../de/dfd/classPrintingSelectorCardSortingWidget.html',1,'']]],
-  ['prioritizedchoice_37',['PrioritizedChoice',['../d6/d1c/classpeg_1_1PrioritizedChoice.html',1,'peg']]],
-  ['ptmenu_38',['PtMenu',['../d3/d77/classPtMenu.html',1,'']]]
+  ['printingselectorplaceholderwidget_37',['PrintingSelectorPlaceholderWidget',['../de/dc1/classPrintingSelectorPlaceholderWidget.html',1,'']]],
+  ['prioritizedchoice_38',['PrioritizedChoice',['../d6/d1c/classpeg_1_1PrioritizedChoice.html',1,'peg']]],
+  ['ptmenu_39',['PtMenu',['../d3/d77/classPtMenu.html',1,'']]]
 ];

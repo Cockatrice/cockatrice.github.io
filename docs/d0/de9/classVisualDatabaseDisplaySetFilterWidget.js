@@ -6,7 +6,7 @@ var classVisualDatabaseDisplaySetFilterWidget =
     [ "handleSetToggled", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#a19a0d5bf73273ce82abf46f31ae160aa", null ],
     [ "retranslateUi", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#a9ec55c89834d8307e274af6567950ef2", null ],
     [ "syncWithFilterModel", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#a0af4c086023143216dd814521365e104", null ],
-    [ "updateFilterMode", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#abb1496205f43e3a9979f49babafc73d9", null ],
+    [ "updateFilterMode", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#a2ff3cbe619a46b4f34a704705021550b", null ],
     [ "updateSetButtonsVisibility", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#a7d65692c449cc49fa0e2dc41d55ea0b5", null ],
     [ "updateSetFilter", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#a4d14f364929da37ba0964fc0e46afc94", null ],
     [ "activeMainTypes", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#a2058387a78cd20bbab93cbf9fc5635d6", null ],

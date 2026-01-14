@@ -20,6 +20,7 @@ var classPrintingSelector =
     [ "flowWidget", "d7/dbc/classPrintingSelector.html#a6ffba2d948800b7513991bf8f4ab6d35", null ],
     [ "layout", "d7/dbc/classPrintingSelector.html#a8192e425977c04f6b26d34f79138ca3f", null ],
     [ "navigationCheckBox", "d7/dbc/classPrintingSelector.html#a537cf70ae5a762c8eeaeb384bd6f75a0", null ],
+    [ "placeholderWidget", "d7/dbc/classPrintingSelector.html#ac1fabc03a10514bbd788d74474981900", null ],
     [ "searchBar", "d7/dbc/classPrintingSelector.html#a7c2b2d6ba291f44bced93b36466270e9", null ],
     [ "selectedCard", "d7/dbc/classPrintingSelector.html#a21f38a127d4385e31fa51afc16adac08", null ],
     [ "sortAndOptionsContainer", "d7/dbc/classPrintingSelector.html#a4f9333ad281bbec7ebbcc640b5736bf3", null ],

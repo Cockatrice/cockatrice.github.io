@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"db/da6/structPhases.html#a3397f8f5b87b5bb96ef8589241646616":[4,1,0,320,3],
 "db/da6/structPhases.html#a5cbdc1ac792bcdfabd312440d66cbf67":[4,1,0,320,0],
 "db/da6/structPhases.html#a9e016b5baf7c70e0a085b1d63460fb10":[4,1,0,320,2],
 "db/da6/structPhases.html#af6c7b30e6647a503f237e7ecae3f0e99":[4,1,0,320,5],
@@ -41,10 +42,10 @@ var NAVTREEINDEX42 =
 "db/daa/classBarWidget.html#ae4536c2fac7c3cc275e48f4fae6b1435":[4,1,0,50,3],
 "db/daa/classBarWidget.html#aeededd3e517b09774c1ef5754c1017b8":[4,1,0,50,1],
 "db/daa/classBarWidget.html#af8675c6aed6ad3d8e446f001fe1b1a89":[4,1,0,50,2],
-"db/dad/classTokenEditModel.html":[4,1,0,474],
-"db/dad/classTokenEditModel.html#a3b448a8fcc8c0800c3f99c6fda4d927e":[4,1,0,474,0],
-"db/dad/classTokenEditModel.html#a5ab278c49950452f91394a3965215c45":[4,1,0,474,1],
-"db/dad/classTokenEditModel.html#ae1aa99c96c62110df064af7ad84bd574":[4,1,0,474,2],
+"db/dad/classTokenEditModel.html":[4,1,0,475],
+"db/dad/classTokenEditModel.html#a3b448a8fcc8c0800c3f99c6fda4d927e":[4,1,0,475,0],
+"db/dad/classTokenEditModel.html#a5ab278c49950452f91394a3965215c45":[4,1,0,475,1],
+"db/dad/classTokenEditModel.html#ae1aa99c96c62110df064af7ad84bd574":[4,1,0,475,2],
 "db/daf/recents__settings_8h.html":[3,7,5,0],
 "db/db0/servers__settings_8h.html":[3,7,2,2],
 "db/db1/dlg__manage__sets_8h.html":[3,1,0,0,2],
@@ -180,9 +181,9 @@ var NAVTREEINDEX42 =
 "db/dc4/unzip_8cpp.html#af05a6a035517d0c2e4ddc31f050c2a7a":[4,2,0,12,0,2,0,32],
 "db/dc4/unzip_8cpp.html#af2671cea64a1d233e416093c40dcc33c":[4,2,0,12,0,2,0,4],
 "db/dc4/unzip_8cpp.html#af9510ac49c1311d3e419364f877f1d34":[4,2,0,12,0,2,0,9],
-"db/dc7/structZoneViewZone_1_1GridSize.html":[4,1,0,520,0],
-"db/dc7/structZoneViewZone_1_1GridSize.html#a0f9a40c075244250da2e7dd52a924389":[4,1,0,520,0,0],
-"db/dc7/structZoneViewZone_1_1GridSize.html#aa1aba15713c4c50d72c917c4903d385d":[4,1,0,520,0,1],
+"db/dc7/structZoneViewZone_1_1GridSize.html":[4,1,0,523,0],
+"db/dc7/structZoneViewZone_1_1GridSize.html#a0f9a40c075244250da2e7dd52a924389":[4,1,0,523,0,0],
+"db/dc7/structZoneViewZone_1_1GridSize.html#aa1aba15713c4c50d72c917c4903d385d":[4,1,0,523,0,1],
 "db/dc8/classDlgLoadDeckFromClipboard.html":[4,1,0,163],
 "db/dc8/classDlgLoadDeckFromClipboard.html#a25393b12a16e202526a2248bc3c33cd8":[4,1,0,163,1],
 "db/dc8/classDlgLoadDeckFromClipboard.html#a656d1da693e496f5d879a6fa53459438":[4,1,0,163,3],
@@ -197,7 +198,7 @@ var NAVTREEINDEX42 =
 "db/dca/dlg__startup__card__check_8h.html":[3,5,1,1,0,1,0],
 "db/dcb/server__arrow_8h.html":[4,2,0,7,0,0,1,1,0,5],
 "db/dcb/server__arrow_8h_source.html":[4,2,0,7,0,0,1,1,0,5],
-"db/dcb/visual__database__display__main__type__filter__widget_8cpp.html":[4,2,0,0,1,5,3,12,6],
+"db/dcb/visual__database__display__main__type__filter__widget_8cpp.html":[4,2,0,0,1,5,3,12,8],
 "db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html":[3,1,1,2],
 "db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html":[3,2,0,2],
 "db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html#a27ce312c5d62bd2a722e6ef256bc71f8":[3,1,1,2,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "db/ddf/dlg__tip__of__the__day_8cpp.html":[4,2,0,0,1,5,3,3,42],
 "db/ddf/dlg__tip__of__the__day_8cpp.html#a719a314cdb53b7247afc71f7ca417c74":[4,2,0,0,1,5,3,3,42,1],
 "db/ddf/dlg__tip__of__the__day_8cpp.html#a9d3030bfc5f2ecef08f4c9ac4d851f0b":[4,2,0,0,1,5,3,3,42,3],
-"db/ddf/dlg__tip__of__the__day_8cpp.html#af1e68687d77689b779bb72a788ce78b6":[4,2,0,0,1,5,3,3,42,0],
-"db/ddf/dlg__tip__of__the__day_8cpp.html#af62835c4e8d57c10d90ffc7a852556f9":[4,2,0,0,1,5,3,3,42,2]
+"db/ddf/dlg__tip__of__the__day_8cpp.html#af1e68687d77689b779bb72a788ce78b6":[4,2,0,0,1,5,3,3,42,0]
 };

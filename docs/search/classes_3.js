@@ -75,11 +75,12 @@ var searchData=
   ['dlgtipoftheday_72',['DlgTipOfTheDay',['../d2/d00/classDlgTipOfTheDay.html',1,'']]],
   ['dlgupdate_73',['DlgUpdate',['../d8/d3f/classDlgUpdate.html',1,'']]],
   ['dlgviewlog_74',['DlgViewLog',['../d8/d50/classDlgViewLog.html',1,'']]],
-  ['downloadsettings_75',['DownloadSettings',['../d4/d14/classDownloadSettings.html',1,'']]],
-  ['drawprobabilityconfig_76',['DrawProbabilityConfig',['../d4/de4/structDrawProbabilityConfig.html',1,'']]],
-  ['drawprobabilityconfigdialog_77',['DrawProbabilityConfigDialog',['../d9/da1/classDrawProbabilityConfigDialog.html',1,'']]],
-  ['drawprobabilitywidget_78',['DrawProbabilityWidget',['../dd/de9/classDrawProbabilityWidget.html',1,'']]],
-  ['dropdowniconpixmapgenerator_79',['DropdownIconPixmapGenerator',['../d1/db5/classDropdownIconPixmapGenerator.html',1,'']]],
-  ['dynamicfontsizelabel_80',['DynamicFontSizeLabel',['../dc/ded/classDynamicFontSizeLabel.html',1,'']]],
-  ['dynamicfontsizepushbutton_81',['DynamicFontSizePushButton',['../dd/d56/classDynamicFontSizePushButton.html',1,'']]]
+  ['dockactions_75',['DockActions',['../d8/db0/structAbstractTabDeckEditor_1_1DockActions.html',1,'AbstractTabDeckEditor']]],
+  ['downloadsettings_76',['DownloadSettings',['../d4/d14/classDownloadSettings.html',1,'']]],
+  ['drawprobabilityconfig_77',['DrawProbabilityConfig',['../d4/de4/structDrawProbabilityConfig.html',1,'']]],
+  ['drawprobabilityconfigdialog_78',['DrawProbabilityConfigDialog',['../d9/da1/classDrawProbabilityConfigDialog.html',1,'']]],
+  ['drawprobabilitywidget_79',['DrawProbabilityWidget',['../dd/de9/classDrawProbabilityWidget.html',1,'']]],
+  ['dropdowniconpixmapgenerator_80',['DropdownIconPixmapGenerator',['../d1/db5/classDropdownIconPixmapGenerator.html',1,'']]],
+  ['dynamicfontsizelabel_81',['DynamicFontSizeLabel',['../dc/ded/classDynamicFontSizeLabel.html',1,'']]],
+  ['dynamicfontsizepushbutton_82',['DynamicFontSizePushButton',['../dd/d56/classDynamicFontSizePushButton.html',1,'']]]
 ];

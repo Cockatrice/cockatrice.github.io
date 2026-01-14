@@ -34,7 +34,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
                         </div>
                         <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
                     </td>
@@ -118,7 +118,7 @@ Collaboration diagram for VisualDatabaseDisplayWidget:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
-<tr class="memitem:a5424cf23dcf4ec3d4b8d22412bf42c53" id="r_a5424cf23dcf4ec3d4b8d22412bf42c53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5424cf23dcf4ec3d4b8d22412bf42c53">searchModelChanged</a> ()</td></tr>
+<tr class="memitem:abf6bd5b0ae9b45970bb896d25672409b" id="r_abf6bd5b0ae9b45970bb896d25672409b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf6bd5b0ae9b45970bb896d25672409b">onSearchModelChanged</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
@@ -136,6 +136,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a68cbb03374d3668a507adea2dc871283" id="r_a68cbb03374d3668a507adea2dc871283"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68cbb03374d3668a507adea2dc871283">loadCurrentPage</a> ()</td></tr>
 <tr class="memitem:a619bdcf9ef46b12a6e9259ccf6191553" id="r_a619bdcf9ef46b12a6e9259ccf6191553"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a619bdcf9ef46b12a6e9259ccf6191553">sortCardList</a> (const QStringList &amp;properties, Qt::SortOrder order) const</td></tr>
 <tr class="memitem:aa4e30db80c7486f2e04cd492b89060e7" id="r_aa4e30db80c7486f2e04cd492b89060e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4e30db80c7486f2e04cd492b89060e7">setDeckList</a> (const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;new_deck_list_model)</td></tr>
+<tr class="memitem:a7e9087320423debcc6003f3a599d635d" id="r_a7e9087320423debcc6003f3a599d635d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e9087320423debcc6003f3a599d635d">getDeckEditor</a> ()</td></tr>
+<tr class="memitem:ab8990d58827e489012998e5d7f977280" id="r_ab8990d58827e489012998e5d7f977280"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d8d/classCardDatabaseDisplayModel.html">CardDatabaseDisplayModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8990d58827e489012998e5d7f977280">getDatabaseDisplayModel</a> ()</td></tr>
+<tr class="memitem:a18506b4a8f5f01201905472dd7fa54fe" id="r_a18506b4a8f5f01201905472dd7fa54fe"><td class="memItemLeft" align="right" valign="top">QTreeView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18506b4a8f5f01201905472dd7fa54fe">getDatabaseView</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -165,23 +168,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:afed5a68f76b22405ecb7ad1596dc5fa8" id="r_afed5a68f76b22405ecb7ad1596dc5fa8"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afed5a68f76b22405ecb7ad1596dc5fa8">databaseLoadIndicator</a></td></tr>
-<tr class="memitem:a6c6577a910c321e4375bb6a2695fe5a0" id="r_a6c6577a910c321e4375bb6a2695fe5a0"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c6577a910c321e4375bb6a2695fe5a0">sortByLabel</a></td></tr>
-<tr class="memitem:a81d15f1f56c9189a4102439ad62cf061" id="r_a81d15f1f56c9189a4102439ad62cf061"><td class="memItemLeft" align="right" valign="top">QComboBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81d15f1f56c9189a4102439ad62cf061">sortColumnCombo</a></td></tr>
-<tr class="memitem:a44dde16af32887c807c33ec890782b16" id="r_a44dde16af32887c807c33ec890782b16"><td class="memItemLeft" align="right" valign="top">QComboBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44dde16af32887c807c33ec890782b16">sortOrderCombo</a></td></tr>
-<tr class="memitem:a375134ce00ca120288bd3fa2b01d7713" id="r_a375134ce00ca120288bd3fa2b01d7713"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a375134ce00ca120288bd3fa2b01d7713">filterByLabel</a></td></tr>
 <tr class="memitem:a736c47ae1e5268a27ac43e0345db8d41" id="r_a736c47ae1e5268a27ac43e0345db8d41"><td class="memItemLeft" align="right" valign="top">QToolButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a736c47ae1e5268a27ac43e0345db8d41">clearFilterWidget</a></td></tr>
-<tr class="memitem:aaff36f8c81a471c129f8d58bca1a895b" id="r_aaff36f8c81a471c129f8d58bca1a895b"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaff36f8c81a471c129f8d58bca1a895b">filterContainer</a></td></tr>
-<tr class="memitem:a0787f525c82433dc42d6b1f06b8180ac" id="r_a0787f525c82433dc42d6b1f06b8180ac"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0787f525c82433dc42d6b1f06b8180ac">filterContainerLayout</a></td></tr>
-<tr class="memitem:a8d793b60c7003e1c1fa795c1a0609154" id="r_a8d793b60c7003e1c1fa795c1a0609154"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d793b60c7003e1c1fa795c1a0609154">quickFilterSaveLoadWidget</a></td></tr>
-<tr class="memitem:a5b4c39d5442628dd56f4e4899ab8ecf4" id="r_a5b4c39d5442628dd56f4e4899ab8ecf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html">VisualDatabaseDisplayFilterSaveLoadWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b4c39d5442628dd56f4e4899ab8ecf4">saveLoadWidget</a></td></tr>
-<tr class="memitem:a1d4a909e0dc2ac4aba3207350b9ad868" id="r_a1d4a909e0dc2ac4aba3207350b9ad868"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d4a909e0dc2ac4aba3207350b9ad868">quickFilterNameWidget</a></td></tr>
-<tr class="memitem:afa3c480ac05921e27f2a2a8c8ff10722" id="r_afa3c480ac05921e27f2a2a8c8ff10722"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/df5/classVisualDatabaseDisplayNameFilterWidget.html">VisualDatabaseDisplayNameFilterWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa3c480ac05921e27f2a2a8c8ff10722">nameFilterWidget</a></td></tr>
-<tr class="memitem:ac42cc11c4232733ff89aec8fbb572d7b" id="r_ac42cc11c4232733ff89aec8fbb572d7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html">VisualDatabaseDisplayMainTypeFilterWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac42cc11c4232733ff89aec8fbb572d7b">mainTypeFilterWidget</a></td></tr>
-<tr class="memitem:ab7003af1d992e16d34865cf58fff22b3" id="r_ab7003af1d992e16d34865cf58fff22b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html">VisualDatabaseDisplayFormatLegalityFilterWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7003af1d992e16d34865cf58fff22b3">formatLegalityWidget</a></td></tr>
-<tr class="memitem:a9be87c8759eed3039eb6500d2dd55df3" id="r_a9be87c8759eed3039eb6500d2dd55df3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9be87c8759eed3039eb6500d2dd55df3">quickFilterSubTypeWidget</a></td></tr>
-<tr class="memitem:aa7be31c51741e213494c88ebadcd4420" id="r_aa7be31c51741e213494c88ebadcd4420"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html">VisualDatabaseDisplaySubTypeFilterWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7be31c51741e213494c88ebadcd4420">subTypeFilterWidget</a></td></tr>
-<tr class="memitem:a6c70915a7a741b8fa419961effe329bb" id="r_a6c70915a7a741b8fa419961effe329bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c70915a7a741b8fa419961effe329bb">quickFilterSetWidget</a></td></tr>
-<tr class="memitem:afa79fd60a738aaaa0b1abd24bb1a98a9" id="r_afa79fd60a738aaaa0b1abd24bb1a98a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de9/classVisualDatabaseDisplaySetFilterWidget.html">VisualDatabaseDisplaySetFilterWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa79fd60a738aaaa0b1abd24bb1a98a9">setFilterWidget</a></td></tr>
+<tr class="memitem:ac291f9cf9bd56b40e6e2651214f2a274" id="r_ac291f9cf9bd56b40e6e2651214f2a274"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html">VisualDatabaseDisplayFilterToolbarWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac291f9cf9bd56b40e6e2651214f2a274">filterContainer</a></td></tr>
 <tr class="memitem:aacd2861cbdf297b84950cbf59ad2e490" id="r_aacd2861cbdf297b84950cbf59ad2e490"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d89/classKeySignals.html">KeySignals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacd2861cbdf297b84950cbf59ad2e490">searchKeySignals</a></td></tr>
 <tr class="memitem:aeb87ea15e3cebac670543eca047def70" id="r_aeb87ea15e3cebac670543eca047def70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb87ea15e3cebac670543eca047def70">deckEditor</a></td></tr>
 <tr class="memitem:aa245cdcf6aab73a8419c2f60e7c35efc" id="r_aa245cdcf6aab73a8419c2f60e7c35efc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d83/classCardDatabaseModel.html">CardDatabaseModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa245cdcf6aab73a8419c2f60e7c35efc">databaseModel</a></td></tr>
@@ -277,7 +265,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a64887f8a042da2b8b4bdc684ca5e94e6_icgraph.svg" width="100%" height="475"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a64887f8a042da2b8b4bdc684ca5e94e6_icgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -328,7 +316,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_ad4b60273b0c3d2e2a80db5c213d9edbe_icgraph.svg" width="100%" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_ad4b60273b0c3d2e2a80db5c213d9edbe_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -358,7 +346,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_ade5d95d2e27f36e37c51256ca87eb721_icgraph.svg" width="100%" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_ade5d95d2e27f36e37c51256ca87eb721_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -386,6 +374,81 @@ Here is the caller graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8990d58827e489012998e5d7f977280" name="ab8990d58827e489012998e5d7f977280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8990d58827e489012998e5d7f977280">&#9670;&#160;</a></span>getDatabaseDisplayModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d8d/classCardDatabaseDisplayModel.html">CardDatabaseDisplayModel</a> * VisualDatabaseDisplayWidget::getDatabaseDisplayModel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18506b4a8f5f01201905472dd7fa54fe" name="a18506b4a8f5f01201905472dd7fa54fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18506b4a8f5f01201905472dd7fa54fe">&#9670;&#160;</a></span>getDatabaseView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTreeView * VisualDatabaseDisplayWidget::getDatabaseView </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e9087320423debcc6003f3a599d635d" name="a7e9087320423debcc6003f3a599d635d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e9087320423debcc6003f3a599d635d">&#9670;&#160;</a></span>getDeckEditor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> * VisualDatabaseDisplayWidget::getDeckEditor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -449,7 +512,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a68cbb03374d3668a507adea2dc871283_icgraph.svg" width="100%" height="452"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a68cbb03374d3668a507adea2dc871283_icgraph.svg" width="100%" height="477"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -476,7 +539,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a34c0f5dd7c5a8281c41874149480fe80_icgraph.svg" width="100%" height="475"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a34c0f5dd7c5a8281c41874149480fe80_icgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -507,7 +570,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a960807436678cbc6eb2994a466465bb7_icgraph.svg" width="100%" height="475"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a960807436678cbc6eb2994a466465bb7_icgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -576,7 +639,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a9c5bda146f913a5e841cc8806afcf309_icgraph.svg" width="100%" height="475"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a9c5bda146f913a5e841cc8806afcf309_icgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -646,7 +709,42 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_ae7dddcfac07b6d64cdfcd1d29435ce22_icgraph.svg" width="100%" height="475"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_ae7dddcfac07b6d64cdfcd1d29435ce22_icgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="abf6bd5b0ae9b45970bb896d25672409b" name="abf6bd5b0ae9b45970bb896d25672409b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf6bd5b0ae9b45970bb896d25672409b">&#9670;&#160;</a></span>onSearchModelChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDatabaseDisplayWidget::onSearchModelChanged </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_abf6bd5b0ae9b45970bb896d25672409b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_abf6bd5b0ae9b45970bb896d25672409b_icgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -673,7 +771,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a728bd8db7393d110ab38e716441a91e6_icgraph.svg" width="100%" height="475"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a728bd8db7393d110ab38e716441a91e6_icgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -726,41 +824,6 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a9c32dbb1747bc4426b77b4e7184923a7_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a5424cf23dcf4ec3d4b8d22412bf42c53" name="a5424cf23dcf4ec3d4b8d22412bf42c53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5424cf23dcf4ec3d4b8d22412bf42c53">&#9670;&#160;</a></span>searchModelChanged</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisualDatabaseDisplayWidget::searchModelChanged </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a5424cf23dcf4ec3d4b8d22412bf42c53_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a5424cf23dcf4ec3d4b8d22412bf42c53_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1156,8 +1219,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a375134ce00ca120288bd3fa2b01d7713" name="a375134ce00ca120288bd3fa2b01d7713"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a375134ce00ca120288bd3fa2b01d7713">&#9670;&#160;</a></span>filterByLabel</h2>
+<a id="ac291f9cf9bd56b40e6e2651214f2a274" name="ac291f9cf9bd56b40e6e2651214f2a274"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac291f9cf9bd56b40e6e2651214f2a274">&#9670;&#160;</a></span>filterContainer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1166,51 +1229,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QLabel* VisualDatabaseDisplayWidget::filterByLabel</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaff36f8c81a471c129f8d58bca1a895b" name="aaff36f8c81a471c129f8d58bca1a895b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaff36f8c81a471c129f8d58bca1a895b">&#9670;&#160;</a></span>filterContainer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QWidget* VisualDatabaseDisplayWidget::filterContainer</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0787f525c82433dc42d6b1f06b8180ac" name="a0787f525c82433dc42d6b1f06b8180ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0787f525c82433dc42d6b1f06b8180ac">&#9670;&#160;</a></span>filterContainerLayout</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QHBoxLayout* VisualDatabaseDisplayWidget::filterContainerLayout</td>
+          <td class="memname"><a class="el" href="../../d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html">VisualDatabaseDisplayFilterToolbarWidget</a>* VisualDatabaseDisplayWidget::filterContainer</td>
         </tr>
       </table>
   </td>
@@ -1258,28 +1277,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ab7003af1d992e16d34865cf58fff22b3" name="ab7003af1d992e16d34865cf58fff22b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7003af1d992e16d34865cf58fff22b3">&#9670;&#160;</a></span>formatLegalityWidget</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html">VisualDatabaseDisplayFormatLegalityFilterWidget</a>* VisualDatabaseDisplayWidget::formatLegalityWidget</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a4e3361d5b0dddaa26c92267e38d91bf7" name="a4e3361d5b0dddaa26c92267e38d91bf7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e3361d5b0dddaa26c92267e38d91bf7">&#9670;&#160;</a></span>loadCardsTimer</h2>
 
@@ -1313,50 +1310,6 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QVBoxLayout* VisualDatabaseDisplayWidget::mainLayout</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac42cc11c4232733ff89aec8fbb572d7b" name="ac42cc11c4232733ff89aec8fbb572d7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac42cc11c4232733ff89aec8fbb572d7b">&#9670;&#160;</a></span>mainTypeFilterWidget</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html">VisualDatabaseDisplayMainTypeFilterWidget</a>* VisualDatabaseDisplayWidget::mainTypeFilterWidget</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afa3c480ac05921e27f2a2a8c8ff10722" name="afa3c480ac05921e27f2a2a8c8ff10722"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa3c480ac05921e27f2a2a8c8ff10722">&#9670;&#160;</a></span>nameFilterWidget</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/df5/classVisualDatabaseDisplayNameFilterWidget.html">VisualDatabaseDisplayNameFilterWidget</a>* VisualDatabaseDisplayWidget::nameFilterWidget</td>
         </tr>
       </table>
   </td>
@@ -1423,116 +1376,6 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d5/db7/classOverlapControlWidget.html">OverlapControlWidget</a>* VisualDatabaseDisplayWidget::overlapControlWidget</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1d4a909e0dc2ac4aba3207350b9ad868" name="a1d4a909e0dc2ac4aba3207350b9ad868"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d4a909e0dc2ac4aba3207350b9ad868">&#9670;&#160;</a></span>quickFilterNameWidget</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a>* VisualDatabaseDisplayWidget::quickFilterNameWidget</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8d793b60c7003e1c1fa795c1a0609154" name="a8d793b60c7003e1c1fa795c1a0609154"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d793b60c7003e1c1fa795c1a0609154">&#9670;&#160;</a></span>quickFilterSaveLoadWidget</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a>* VisualDatabaseDisplayWidget::quickFilterSaveLoadWidget</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6c70915a7a741b8fa419961effe329bb" name="a6c70915a7a741b8fa419961effe329bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c70915a7a741b8fa419961effe329bb">&#9670;&#160;</a></span>quickFilterSetWidget</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a>* VisualDatabaseDisplayWidget::quickFilterSetWidget</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9be87c8759eed3039eb6500d2dd55df3" name="a9be87c8759eed3039eb6500d2dd55df3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9be87c8759eed3039eb6500d2dd55df3">&#9670;&#160;</a></span>quickFilterSubTypeWidget</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a>* VisualDatabaseDisplayWidget::quickFilterSubTypeWidget</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5b4c39d5442628dd56f4e4899ab8ecf4" name="a5b4c39d5442628dd56f4e4899ab8ecf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b4c39d5442628dd56f4e4899ab8ecf4">&#9670;&#160;</a></span>saveLoadWidget</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html">VisualDatabaseDisplayFilterSaveLoadWidget</a>* VisualDatabaseDisplayWidget::saveLoadWidget</td>
         </tr>
       </table>
   </td>
@@ -1626,116 +1469,6 @@ Here is the call graph for this function:</div>
           <td class="memname">QHBoxLayout* VisualDatabaseDisplayWidget::searchLayout</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afa79fd60a738aaaa0b1abd24bb1a98a9" name="afa79fd60a738aaaa0b1abd24bb1a98a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa79fd60a738aaaa0b1abd24bb1a98a9">&#9670;&#160;</a></span>setFilterWidget</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/de9/classVisualDatabaseDisplaySetFilterWidget.html">VisualDatabaseDisplaySetFilterWidget</a>* VisualDatabaseDisplayWidget::setFilterWidget</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6c6577a910c321e4375bb6a2695fe5a0" name="a6c6577a910c321e4375bb6a2695fe5a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c6577a910c321e4375bb6a2695fe5a0">&#9670;&#160;</a></span>sortByLabel</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QLabel* VisualDatabaseDisplayWidget::sortByLabel</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a81d15f1f56c9189a4102439ad62cf061" name="a81d15f1f56c9189a4102439ad62cf061"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81d15f1f56c9189a4102439ad62cf061">&#9670;&#160;</a></span>sortColumnCombo</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QComboBox* VisualDatabaseDisplayWidget::sortColumnCombo</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a44dde16af32887c807c33ec890782b16" name="a44dde16af32887c807c33ec890782b16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44dde16af32887c807c33ec890782b16">&#9670;&#160;</a></span>sortOrderCombo</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QComboBox * VisualDatabaseDisplayWidget::sortOrderCombo</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa7be31c51741e213494c88ebadcd4420" name="aa7be31c51741e213494c88ebadcd4420"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7be31c51741e213494c88ebadcd4420">&#9670;&#160;</a></span>subTypeFilterWidget</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html">VisualDatabaseDisplaySubTypeFilterWidget</a>* VisualDatabaseDisplayWidget::subTypeFilterWidget</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
