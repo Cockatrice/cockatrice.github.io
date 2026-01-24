@@ -1,7 +1,7 @@
 var searchData=
 [
   ['layout_0',['Layout',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#layout',1,'']]],
-  ['layout_1',['Modifying the visual deck layout',['../de/d6e/editing_decks_visual.html#modifying-the-visual-deck-layout',1,'']]],
+  ['layout_1',['layout',['..//home/runner/work/Cockatrice/Cockatrice/doc/doxygen/theme/README.md#choosing-a-layout',1,'Choosing a layout'],['../de/d6e/editing_decks_visual.html#modifying-the-visual-deck-layout',1,'Modifying the visual deck layout']]],
   ['level_20and_20categories_2',['Log Level and Categories',['../d9/d4f/logging.html#log-level-and-categories',1,'']]],
   ['library_3',['The Cockatrice Card Library',['../da/d69/primer_cards.html#the-cockatrice-card-library',1,'']]],
   ['license_4',['License &lt;a href=&quot;https://github.com/Cockatrice/Cockatrice/blob/master/LICENSE&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/license/Cockatrice/Cockatrice.svg&quot; alt=&quot;GPLv2 License&quot; style=&quot;pointer-events: none;&quot; class=&quot;inline&quot;/&gt;&lt;/a&gt;',['../d0/d30/md_README.html#license-gplv2-licensehttpsimgshieldsiogithublicensecockatricecockatricesvghttpsgithubcomcockatricecockatriceblobmasterlicense',1,'']]],

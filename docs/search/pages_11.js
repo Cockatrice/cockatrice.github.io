@@ -14,7 +14,10 @@ var searchData=
   ['stable_11',['Switching back to Stable',['../d9/d9b/beta_release.html#switching-back-to-stable',1,'']]],
   ['storage_12',['Storage',['../d0/d51/exporting_decks.html#local-file-storage',1,'Local File Storage'],['../db/d91/importing_decks.html#local-file-storage-1',1,'Local File Storage']]],
   ['stored_3a_13',['Data stored:',['../d5/d22/classDecklistCardNode.html#data-stored',1,'']]],
-  ['switching_20back_20to_20stable_14',['Switching back to Stable',['../d9/d9b/beta_release.html#switching-back-to-stable',1,'']]],
-  ['switching_20to_20the_20beta_15',['Switching to the Beta',['../d9/d9b/beta_release.html#switching-to-the-beta',1,'']]],
-  ['syntax_20help_16',['Syntax Help',['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help'],['../de/dec/deck_search_syntax_help.html#deck-search-syntax-help',1,'Deck Search Syntax Help'],['../dc/dcd/search_syntax_help.html',1,'Search Syntax Help'],['../dc/dcd/search_syntax_help.html#search-syntax-help',1,'Search Syntax Help'],['../d6/d8b/user_reference.html#syntax-help',1,'Syntax Help']]]
+  ['submodule_14',['Git submodule',['..//home/runner/work/Cockatrice/Cockatrice/doc/doxygen/theme/README.md#git-submodule',1,'']]],
+  ['support_15',['Browser support',['..//home/runner/work/Cockatrice/Cockatrice/doc/doxygen/theme/README.md#browser-support',1,'']]],
+  ['switching_20back_20to_20stable_16',['Switching back to Stable',['../d9/d9b/beta_release.html#switching-back-to-stable',1,'']]],
+  ['switching_20to_20the_20beta_17',['Switching to the Beta',['../d9/d9b/beta_release.html#switching-to-the-beta',1,'']]],
+  ['syntax_20help_18',['Syntax Help',['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help'],['../de/dec/deck_search_syntax_help.html#deck-search-syntax-help',1,'Deck Search Syntax Help'],['../dc/dcd/search_syntax_help.html',1,'Search Syntax Help'],['../dc/dcd/search_syntax_help.html#search-syntax-help',1,'Search Syntax Help'],['../d6/d8b/user_reference.html#syntax-help',1,'Syntax Help']]],
+  ['system_20wide_19',['System-wide',['..//home/runner/work/Cockatrice/Cockatrice/doc/doxygen/theme/README.md#system-wide',1,'']]]
 ];

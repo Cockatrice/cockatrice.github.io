@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['readme_2emd_0',['README.md',['../d3/db4/doc_2doxygen_2README_8md.html',1,'(Global Namespace)'],['../da/ddd/README_8md.html',1,'(Global Namespace)']]],
+  ['readme_2emd_0',['README.md',['../d3/db4/doc_2doxygen_2README_8md.html',1,'(Global Namespace)'],['../d5/d9b/doc_2doxygen_2theme_2README_8md.html',1,'(Global Namespace)'],['../da/ddd/README_8md.html',1,'(Global Namespace)']]],
   ['recents_5fsettings_2ecpp_1',['recents_settings.cpp',['../d0/d75/recents__settings_8cpp.html',1,'']]],
   ['recents_5fsettings_2eh_2',['recents_settings.h',['../db/daf/recents__settings_8h.html',1,'']]],
   ['release_5fchannel_2ecpp_3',['release_channel.cpp',['../d4/d94/release__channel_8cpp.html',1,'']]],
