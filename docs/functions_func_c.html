@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -433,7 +428,7 @@ $(function(){initNavTree('functions_func_c.html','',''); });
 <li>connectMessageLogToGameEventHandler()&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a6454a713103491490e8301cdfebd6e4e">TabGame</a></li>
 <li>connectOverlapWidget()&#160;:&#160;<a class="el" href="d5/db7/classOverlapControlWidget.html#a80a43e8875a0c56c9a337d0ea19705e6">OverlapControlWidget</a></li>
 <li>connectPlayerListToGameEventHandler()&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#adf832fca5b5b6dada3d6b62bb06c9f39">TabGame</a></li>
-<li>connectSignals()&#160;:&#160;<a class="el" href="d0/dd2/classPrintingSelectorCardSelectionWidget.html#a7c536f5ad4c2f34fd69d83204e89d230">PrintingSelectorCardSelectionWidget</a></li>
+<li>connectSignals()&#160;:&#160;<a class="el" href="d0/dd2/classPrintingSelectorCardSelectionWidget.html#a7c536f5ad4c2f34fd69d83204e89d230">PrintingSelectorCardSelectionWidget</a>, <a class="el" href="db/d5d/classTabArchidekt.html#a4cf736615056aa7a346d924bf2cf61cf">TabArchidekt</a></li>
 <li>connectToGameEventHandler()&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#af3cdacabac70dcb0e440101911feefe9">TabGame</a></li>
 <li>connectToGameState()&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a4457716c46ba58cda8b46726693335dd">TabGame</a></li>
 <li>connectToHost()&#160;:&#160;<a class="el" href="de/d8a/classQxtSmtp.html#a833774a7f6539f8a21fed98c02598306">QxtSmtp</a>, <a class="el" href="db/d53/classRemoteClient.html#a4536efb0035093f3a665f5dc7d043c24">RemoteClient</a></li>
@@ -457,7 +452,7 @@ $(function(){initNavTree('functions_func_c.html','',''); });
 <li>Context()&#160;:&#160;<a class="el" href="df/d94/classpeg_1_1Context.html#a55bfa6a69320804f40f7cb259672286e">peg::Context</a></li>
 <li>continuePasswordRequest()&#160;:&#160;<a class="el" href="dd/dea/classAbstractServerSocketInterface.html#ae1b687fb9b598c55872a26fc8c81a413">AbstractServerSocketInterface</a></li>
 <li>convertDateTime()&#160;:&#160;<a class="el" href="df/d90/classUnzipPrivate.html#a4f0aced5c07afb916f58d8f937ccdf7c">UnzipPrivate</a></li>
-<li>convertToCockatriceFormat()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a958492c1a7d15851462a9cd313d55be4">DeckLoader</a></li>
+<li>convertToCockatriceFormat()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a3dc92c330b5b1ab35d6c1c80e6e633bb">DeckLoader</a></li>
 <li>copyDatabaseCellContents()&#160;:&#160;<a class="el" href="d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a484d2ad2bd4c72ccc9f9f1fe15e89d64">DeckEditorDatabaseDisplayWidget</a></li>
 <li>copyDeckSplitMainAndSide()&#160;:&#160;<a class="el" href="d8/d9e/classTappedOutInterface.html#a17fd5bb2aef01ccfb408f393d5e6f834">TappedOutInterface</a></li>
 <li>copyDeckWithoutTokens()&#160;:&#160;<a class="el" href="da/dcf/classDeckStatsInterface.html#a81f1c84537f89ddc6723f47277db33d9">DeckStatsInterface</a></li>

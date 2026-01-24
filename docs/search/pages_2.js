@@ -23,11 +23,10 @@ var searchData=
   ['clipboard_20',['Clipboard',['../d0/d51/exporting_decks.html#from-clipboard',1,'From Clipboard'],['../db/d91/importing_decks.html#from-clipboard-1',1,'From Clipboard']]],
   ['cockatrice_21',['Cockatrice',['../d0/d30/md_README.html#cockatrice',1,'']]],
   ['cockatrice_20card_20library_22',['The Cockatrice Card Library',['../da/d69/primer_cards.html#the-cockatrice-card-library',1,'']]],
-  ['cockatrice_20documentation_23',['Cockatrice Documentation',['../index.html',1,'']]],
-  ['code_24',['Code',['../d0/d30/md_README.html#code',1,'']]],
-  ['community_20resources_25',['Community Resources &lt;a href=&quot;https://discord.gg/3Z9yzmA&quot;&gt;&lt;img src=&quot;https://img.shields.io/discord/314987288398659595?label=Discord&amp;amp;logo=discord&amp;amp;logoColor=white&quot; alt=&quot;Discord&quot; class=&quot;inline&quot;/&gt;&lt;/a&gt;',['../d0/d30/md_README.html#community-resources-discordhttpsimgshieldsiodiscord314987288398659595labeldiscordlogodiscordlogocolorwhitehttpsdiscordgg3z9yzma',1,'']]],
-  ['configuration_26',['Logging Configuration',['../d9/d4f/logging.html#logging-configuration',1,'']]],
-  ['contribute_27',['Contribute',['../d0/d30/md_README.html#contribute',1,'']]],
-  ['core_20responsibilities_3a_28',['Core responsibilities:',['../da/d68/classDeckList.html#core-responsibilities',1,'']]],
-  ['creating_20decks_29',['Creating Decks',['../d3/d9a/creating_decks.html',1,'user_reference']]]
+  ['code_23',['Code',['../d0/d30/md_README.html#code',1,'']]],
+  ['community_20resources_24',['Community Resources &lt;a href=&quot;https://discord.gg/3Z9yzmA&quot;&gt;&lt;img src=&quot;https://img.shields.io/discord/314987288398659595?label=Discord&amp;amp;logo=discord&amp;amp;logoColor=white&quot; alt=&quot;Discord&quot; class=&quot;inline&quot;/&gt;&lt;/a&gt;',['../d0/d30/md_README.html#community-resources-discordhttpsimgshieldsiodiscord314987288398659595labeldiscordlogodiscordlogocolorwhitehttpsdiscordgg3z9yzma',1,'']]],
+  ['configuration_25',['Logging Configuration',['../d9/d4f/logging.html#logging-configuration',1,'']]],
+  ['contribute_26',['Contribute',['../d0/d30/md_README.html#contribute',1,'']]],
+  ['core_20responsibilities_3a_27',['Core responsibilities:',['../da/d68/classDeckList.html#core-responsibilities',1,'']]],
+  ['creating_20decks_28',['Creating Decks',['../d3/d9a/creating_decks.html',1,'user_reference']]]
 ];

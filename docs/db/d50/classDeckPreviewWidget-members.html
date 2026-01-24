@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -120,29 +115,36 @@ $(function(){initNavTree('d5/d79/classDeckPreviewWidget.html','../../',''); });
   <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a2bbbffb0f26fb377fc870c95dc7582c6">deckLoadRequested</a>(const QString &amp;filePath)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">signal</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a35a7717bd6e54482b2394d0eeadfdac1">DeckPreviewWidget</a>(QWidget *_parent, VisualDeckStorageWidget *_visualDeckStorageWidget, const QString &amp;_filePath)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a00681716bab735e53efe6940936a3e16">deckTagsDisplayWidget</a></td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a23616855d0f98a8c45da892593e4c6be">filePath</a></td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#acb207bdb33d8d2e1067310e61acfbe98">filteredByColor</a></td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#aaafa319d7d2dcfd5b45296f6aa56b1f7">filteredBySearch</a></td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a036b14e9c89d7c31c9aa957f6316269a">filteredByTags</a></td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#ab8b747be28052c98071b6d35be617724">getColorIdentity</a>()</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a4bbc80e11d9380f738abfa8be90c48bd">getDisplayName</a>() const</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#ad22938e2979daa9a1046fc0ec8558d26">imageClickedEvent</a>(QMouseEvent *event, DeckPreviewCardPictureWidget *instance)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a86a6020732238dda69608b18f36c46a1">imageDoubleClickedEvent</a>(QMouseEvent *event, DeckPreviewCardPictureWidget *instance)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a77dd7c09b97677aeca9e0296dbe7c2b8">initializeUi</a>(bool deckLoadSuccess)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a4c3d4f6fb4a236f50a646d0c58962416">enterEvent</a>(QEnterEvent *event) override</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a23616855d0f98a8c45da892593e4c6be">filePath</a></td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#acb207bdb33d8d2e1067310e61acfbe98">filteredByColor</a></td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#aaafa319d7d2dcfd5b45296f6aa56b1f7">filteredBySearch</a></td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a036b14e9c89d7c31c9aa957f6316269a">filteredByTags</a></td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#ab8b747be28052c98071b6d35be617724">getColorIdentity</a>()</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a4bbc80e11d9380f738abfa8be90c48bd">getDisplayName</a>() const</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#ad22938e2979daa9a1046fc0ec8558d26">imageClickedEvent</a>(QMouseEvent *event, DeckPreviewCardPictureWidget *instance)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a86a6020732238dda69608b18f36c46a1">imageDoubleClickedEvent</a>(QMouseEvent *event, DeckPreviewCardPictureWidget *instance)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a77dd7c09b97677aeca9e0296dbe7c2b8">initializeUi</a>(bool deckLoadSuccess)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a68027471d4a40f7d0b061f57e25001e8">lastModifiedTime</a></td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a42dfb2cbafec0768597864985e8124c3">layout</a></td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a0848f9147d4cc6f4d372f0ec72e57456">openDeckEditor</a>(const LoadedDeck &amp;deck)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">signal</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a68f4b1fb69618deaa066384447127cdb">refreshBannerCardText</a>()</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a13405ad4f8b620824f4325e38106c754">refreshBannerCardToolTip</a>()</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#ad376aafbd2b6a0fe56a93b50690b5363">resizeEvent</a>(QResizeEvent *event) override</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#ad0a48cc278bd6adfeb19d31a560b8803">reloadIfModified</a>()</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#ad376aafbd2b6a0fe56a93b50690b5363">resizeEvent</a>(QResizeEvent *event) override</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#ab8d7f48cb21c1a43774d9b4cb9b78c8e">resyncWidgets</a>()</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a1a971cfe63156f6f795dd2157aaf8c85">retranslateUi</a>()</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a06919ccd4b5c7ca29e6d480940e18a84">setBannerCard</a>(int)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a8213250f721cd3ec3b42de04c2e03f94">setFilePath</a>(const QString &amp;filePath)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#aadbf0e61db597673d05f05f6a79d2813">setTags</a>(const QStringList &amp;tags)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">slot</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a03afb46425c10ec087abc4b076ce76d0">updateBannerCardComboBox</a>()</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a4af8259dbdb2121e545ecad9b92cc1e7">updateBannerCardComboBox</a>(const QString &amp;currentText)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a35ce75c897382d54d66711ffd72fdf7b">updateBannerCardComboBoxVisibility</a>(bool visible)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a9fde1bb9e546ae051b4332202a103755">updateColorIdentityVisibility</a>(bool visible)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#ad347a5357209a8663a1ee9e1bcab2d1f">updateLastModifiedTime</a>()</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#ab4548f27dc8112aaa5e181dd3630e046">updateTagsVisibility</a>(bool visible)</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#ab2caf7ea1481547a463ab1abcefa42a0">updateVisibility</a>()</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a4cf652fdc72b14db64c4b4064461d920">visualDeckStorageWidget</a></td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html#a3f0219e7ddab2727db515fec7ba29e03">writeDeckToFile</a>()</td><td class="entry"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

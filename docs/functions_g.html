@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -282,7 +277,7 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>getCardInfos()&#160;:&#160;<a class="el" href="d8/dbe/classCardDatabaseQuerier.html#a9d6ef499bbce5eaaa6ff00abf811ee5b">CardDatabaseQuerier</a></li>
 <li>getCardInfoViewMode()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#abd703d9d9f9dc40b8510695451c8da5e">SettingsCache</a></li>
 <li>getCardkingdom()&#160;:&#160;<a class="el" href="d3/dab/classCardPrices.html#a3a84c5a0f3ad667482debde9b11915ce">CardPrices</a></li>
-<li>getCardList()&#160;:&#160;<a class="el" href="d5/d45/classCardDatabase.html#a0620fe9132b26b82d30d5ed3410f31d2">CardDatabase</a>, <a class="el" href="da/d68/classDeckList.html#a5655f299885c6fd6b67e5719c5448231">DeckList</a>, <a class="el" href="db/d70/classOracleImporter.html#a64026f0963ce881b38738fbf916fb3dd">OracleImporter</a></li>
+<li>getCardList()&#160;:&#160;<a class="el" href="d5/d45/classCardDatabase.html#a0620fe9132b26b82d30d5ed3410f31d2">CardDatabase</a>, <a class="el" href="da/d68/classDeckList.html#aa8e01bd8a4bb27bae12b44d1b318f58c">DeckList</a>, <a class="el" href="db/d70/classOracleImporter.html#a64026f0963ce881b38738fbf916fb3dd">OracleImporter</a></li>
 <li>getCardlists()&#160;:&#160;<a class="el" href="db/d43/classEdhrecApiResponseCardContainer.html#a30014e7ff904d73ba0e49d304c6d9c78">EdhrecApiResponseCardContainer</a></li>
 <li>getCardmarket()&#160;:&#160;<a class="el" href="d3/dab/classCardPrices.html#afdd0cbc7032182d0d5bee91fc051cb3e">CardPrices</a></li>
 <li>getCardNames()&#160;:&#160;<a class="el" href="d9/de1/classDeckListModel.html#a2b1428625ee6777e993ccd51910d2eb4">DeckListModel</a></li>
@@ -293,7 +288,7 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>getCardProviderId()&#160;:&#160;<a class="el" href="d3/de9/classAbstractDecklistCardNode.html#a93aa9b6b78de063bfeb66e8e20afffe1">AbstractDecklistCardNode</a>, <a class="el" href="dc/dd8/classAbstractDecklistNode.html#afbb0b48afa2542b429653bebc0103e07">AbstractDecklistNode</a>, <a class="el" href="d5/d22/classDecklistCardNode.html#a5c68fea0a9c93d84a6a752dc839cb64e">DecklistCardNode</a>, <a class="el" href="dd/d4f/classDecklistModelCardNode.html#a82ede42d59e68c65436511cb67ec9202">DecklistModelCardNode</a>, <a class="el" href="d4/d55/classInnerDecklistNode.html#a5d41056c6bd9086c216fc8ec6d0e1238">InnerDecklistNode</a></li>
 <li>getCardPtr()&#160;:&#160;<a class="el" href="df/d4e/classExactCard.html#a3f86411b4e295afbb68e3fde952d69f9">ExactCard</a></li>
 <li>getCardRef()&#160;:&#160;<a class="el" href="d4/db9/classAbstractCardItem.html#a867345f4b0ed5ae5f33a274ba8dc829d">AbstractCardItem</a>, <a class="el" href="dc/d07/classServer__Card.html#a5a790e208901b36769122fea7ef4ddab">Server_Card</a></li>
-<li>getCardRefList()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#a462daf2ad314b74ede35d14e7cfbe676">DeckList</a></li>
+<li>getCardRefList()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#a16a875bdb4b6594e3ba2713e217a0ff4">DeckList</a></li>
 <li>getCardRefs()&#160;:&#160;<a class="el" href="d9/de1/classDeckListModel.html#ad0abbec6eacb2e42ea95ed23080de242">DeckListModel</a></li>
 <li>getCards()&#160;:&#160;<a class="el" href="dc/d3c/classArchidektApiResponseDeck.html#a863ce9cbfd42c56e5ba324126978d532">ArchidektApiResponseDeck</a>, <a class="el" href="d8/dbe/classCardDatabaseQuerier.html#a78b9c6fe92fe4f07c941216762918476">CardDatabaseQuerier</a>, <a class="el" href="d1/df9/classCardZoneLogic.html#a01bc8f22df2cf2b943084b40ffc95a2d">CardZoneLogic</a>, <a class="el" href="d9/dfc/classDeckViewCardContainer.html#a0cecec39c2cf1622a03a9c59f7b7ee30">DeckViewCardContainer</a>, <a class="el" href="dc/d3a/classServer__CardZone.html#a9d456842703367a0a380eacd9d3234bb">Server_CardZone</a>, <a class="el" href="d8/dc3/classSetToDownload.html#a8e7910de4984f124f5f05c1127e7ea49">SetToDownload</a></li>
 <li>getCardsBeingLookedAt()&#160;:&#160;<a class="el" href="dc/d3a/classServer__CardZone.html#a91dab5a1726e3dc032dc5fb91e474e66">Server_CardZone</a></li>
@@ -401,6 +396,7 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>getDeckDockWidget()&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#a21532af384e4ec1dab5f5d67409abecd">AbstractTabDeckEditor</a></li>
 <li>getDeckEditor()&#160;:&#160;<a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#a7e9087320423debcc6003f3a599d635d">VisualDatabaseDisplayWidget</a></li>
 <li>getDeckEditorBannerCardComboBoxVisible()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#af198660121aa1d913d3dcdd41f2a6c56">SettingsCache</a></li>
+<li>getDeckEditorCardDatabaseSize()&#160;:&#160;<a class="el" href="d3/d58/classLayoutsSettings.html#a99656afc3977b6790e4ce6561d93aa76">LayoutsSettings</a></li>
 <li>getDeckEditorCardSize()&#160;:&#160;<a class="el" href="d3/d58/classLayoutsSettings.html#a5533a38d2253d9a3bdd6f4f04b9cdc45">LayoutsSettings</a></li>
 <li>getDeckEditorDbHeaderState()&#160;:&#160;<a class="el" href="d3/d58/classLayoutsSettings.html#a56dc97e6816fd5346eec6d63a3054521">LayoutsSettings</a></li>
 <li>getDeckEditorDeckSize()&#160;:&#160;<a class="el" href="d3/d58/classLayoutsSettings.html#a482bd7dd8a2c86ee0e87c3311b6f0c0e">LayoutsSettings</a></li>
@@ -607,6 +603,7 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>getLeaveReason()&#160;:&#160;<a class="el" href="d7/db2/classGameEventHandler.html#aa391c32395d270641c245a4c0db906b9">GameEventHandler</a></li>
 <li>getLeftJustified()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#aafb83668c489efb3bcacca05b708a002">SettingsCache</a></li>
 <li>getLegalCommander()&#160;:&#160;<a class="el" href="d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#aa540f13cd9b5c9c9366df0171e118b10">EdhrecCommanderApiResponseCommanderDetails</a></li>
+<li>getLegalityProp()&#160;:&#160;<a class="el" href="dd/dd2/classCardInfo.html#a1b0d0340b4717dc924655ffa263bb236">CardInfo</a></li>
 <li>getLibraryMenu()&#160;:&#160;<a class="el" href="d7/dd6/classPlayerMenu.html#aa179e8ad3f740c6fba49ae2ceb3775b1">PlayerMenu</a></li>
 <li>getLoadStatus()&#160;:&#160;<a class="el" href="d5/d45/classCardDatabase.html#a02680f8cbc02be76591602e46e2da379">CardDatabase</a></li>
 <li>getLocal()&#160;:&#160;<a class="el" href="df/df7/classPlayerInfo.html#a97bd8b8d7ecf30c076f3b38f1b28e45a">PlayerInfo</a></li>
@@ -892,6 +889,7 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>getShortName()&#160;:&#160;<a class="el" href="d6/d3d/classCardSet.html#aac669500ec7308b5ca2520d057038e5e">CardSet</a>, <a class="el" href="d8/dc3/classSetToDownload.html#ab2735478918e27129d4dbe41dad223ec">SetToDownload</a></li>
 <li>getShowBannerCardComboBox()&#160;:&#160;<a class="el" href="d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a1d2973a65518195efcc4756bbfc3319e">VisualDeckStorageQuickSettingsWidget</a></li>
 <li>getShowCardId()&#160;:&#160;<a class="el" href="d9/d00/classDebugSettings.html#aa9bd1984c24d9cbff4a069b8acf43304">DebugSettings</a></li>
+<li>getShowColorIdentity()&#160;:&#160;<a class="el" href="d7/d92/classVisualDeckStorageQuickSettingsWidget.html#aae21580b5998011a807b3897e238ee4a">VisualDeckStorageQuickSettingsWidget</a></li>
 <li>getShowFolders()&#160;:&#160;<a class="el" href="d7/d92/classVisualDeckStorageQuickSettingsWidget.html#ac6aa693c4913fffca655147cf57300e8">VisualDeckStorageQuickSettingsWidget</a></li>
 <li>getShowGameSelectorFilterToolbar()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#aaba4b71b01a5fda9a4e1fe0deaaa6a0c">SettingsCache</a></li>
 <li>getShowMentionPopup()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a7b2492620210637bc8d6261b27753c48">SettingsCache</a></li>
@@ -1054,6 +1052,7 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>getVisualDeckStorageSearchFolderNames()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a539442f0e993f232cb2814b9d7919c5c">SettingsCache</a></li>
 <li>getVisualDeckStorageSelectionAnimation()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#ac0e8db8a8e5b80de8b76d40e24044972">SettingsCache</a></li>
 <li>getVisualDeckStorageShowBannerCardComboBox()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#ad8737ffa270f6f94b4097e355b01b557">SettingsCache</a></li>
+<li>getVisualDeckStorageShowColorIdentity()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a61087e16ca19098f6a088386af8de1b0">SettingsCache</a></li>
 <li>getVisualDeckStorageShowFolders()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#ad7fe87caa5b8ba1154080f7d76ffa1db">SettingsCache</a></li>
 <li>getVisualDeckStorageShowTagFilter()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a5e97b4e423f3b65d0c38ecf012997d43">SettingsCache</a></li>
 <li>getVisualDeckStorageShowTagsOnDeckPreviews()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a616df89eebc1a9ad46439a81c055b782">SettingsCache</a></li>
@@ -1070,7 +1069,7 @@ $(function(){initNavTree('functions_g.html','',''); });
 <li>getY()&#160;:&#160;<a class="el" href="dc/d07/classServer__Card.html#ab092758565874d110c1c2dc62e2a2d48">Server_Card</a></li>
 <li>getZone()&#160;:&#160;<a class="el" href="d6/dbd/classCardItem.html#a464318314d7d5484dded1d6d9de6baf9">CardItem</a>, <a class="el" href="d2/d4b/classPlayer.html#a17562fd9f6bb1b9e51d2f006fdf367e7">Player</a>, <a class="el" href="dc/d07/classServer__Card.html#ab439c30de40a3637d4b2756388c8eb6c">Server_Card</a>, <a class="el" href="d0/dd9/classZoneViewWidget.html#afb86a59e65255ecf3b601f17cf937ce7">ZoneViewWidget</a></li>
 <li>getZoneId()&#160;:&#160;<a class="el" href="d2/d4b/classPlayer.html#a38cbfb3d4552f33a68e3088e5fded1c6">Player</a></li>
-<li>getZoneNodes()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#a89ca04abbcb2f68a1eb3096cf584b9cc">DeckList</a>, <a class="el" href="db/df8/classDecklistNodeTree.html#af520574d975d2023fe5dec1bb2212230">DecklistNodeTree</a></li>
+<li>getZoneNodes()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#a4becdd377ebf64221ef6396994a8d5cc">DeckList</a>, <a class="el" href="db/df8/classDecklistNodeTree.html#ae72f60d4985e290f763f73c14eee8ed0">DecklistNodeTree</a></li>
 <li>getZoneObjFromName()&#160;:&#160;<a class="el" href="db/df8/classDecklistNodeTree.html#a7c64a80284f0cc2bd6560c93e4bb70c1">DecklistNodeTree</a></li>
 <li>getZones()&#160;:&#160;<a class="el" href="d9/de1/classDeckListModel.html#a9792f8b64e1a2284ee3aca39a2f6939f">DeckListModel</a>, <a class="el" href="d2/d4b/classPlayer.html#a73bc6bbc4d9a84070062372de9336010">Player</a>, <a class="el" href="da/d99/classServer__AbstractPlayer.html#acb13829ad009e505b9c3e76349150549">Server_AbstractPlayer</a></li>
 <li>getZoneViewGroupByIndex()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#ae1f39a27542f2fd8499c43d151aa4fb4">SettingsCache</a></li>

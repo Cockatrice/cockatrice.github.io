@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -107,6 +102,7 @@ $(function(){initNavTree('globals_func_i.html','',''); });
 <li>installNewTranslator()&#160;:&#160;<a class="el" href="d8/da8/cockatrice_2src_2main_8cpp.html#a9f8b1077cdf88022508dd967530d4e8b">main.cpp</a>, <a class="el" href="da/dd7/cockatrice_2src_2main_8h.html#a9f8b1077cdf88022508dd967530d4e8b">main.h</a>, <a class="el" href="d8/d33/oracle_2src_2main_8cpp.html#a9f8b1077cdf88022508dd967530d4e8b">main.cpp</a>, <a class="el" href="d7/dd2/oracle_2src_2main_8h.html#a9f8b1077cdf88022508dd967530d4e8b">main.h</a></li>
 <li>isAlwaysActiveShortcut()&#160;:&#160;<a class="el" href="d4/dd6/shortcuts__settings_8cpp.html#a66d8c7cbd5b61a89ad967c0db2b6b2e0">shortcuts_settings.cpp</a></li>
 <li>isASCII()&#160;:&#160;<a class="el" href="dc/d18/qxtmailmessage_8cpp.html#ad1515b7cf56d8b336e48c0769eb4f7f2">qxtmailmessage.cpp</a></li>
+<li>isCardNodeLegalForFormat()&#160;:&#160;<a class="el" href="d1/df7/deck__list__model_8cpp.html#a5eaacbb2d11a3be7c23b9d510c06bce8">deck_list_model.cpp</a></li>
 <li>isCardQuantityLegalForFormat()&#160;:&#160;<a class="el" href="d1/df7/deck__list__model_8cpp.html#a080370ae429801e4ef700342d433df34">deck_list_model.cpp</a></li>
 <li>isUnwritableRevealZone()&#160;:&#160;<a class="el" href="d1/da6/card__item_8cpp.html#a5d4f4173beed500583a862e239956fc8">card_item.cpp</a>, <a class="el" href="da/d78/player__actions_8cpp.html#a5d4f4173beed500583a862e239956fc8">player_actions.cpp</a></li>
 </ul>

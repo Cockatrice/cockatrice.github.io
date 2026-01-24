@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -149,6 +144,7 @@ $(function(){initNavTree('functions_vars_t.html','',''); });
 <li>tapped&#160;:&#160;<a class="el" href="d4/db9/classAbstractCardItem.html#a1fcff3c746ac4b30df338673f1a0aab4">AbstractCardItem</a>, <a class="el" href="dc/d07/classServer__Card.html#ab4e6e8955f1e950d3c25787b140fae29">Server_Card</a></li>
 <li>targetItem&#160;:&#160;<a class="el" href="df/d2a/classArrowItem.html#a8b7accf6477d33748440b11d26d04526">ArrowItem</a>, <a class="el" href="df/d3b/classServer__Arrow.html#a13008ed3a98370c184ec7998441b02fd">Server_Arrow</a></li>
 <li>targetLocked&#160;:&#160;<a class="el" href="df/d2a/classArrowItem.html#a7e0d983c8949d9f1beaab871bad3825a">ArrowItem</a></li>
+<li>targetWidget&#160;:&#160;<a class="el" href="df/d71/classVisibilityChangeListener.html#aa98f5097a0d5c8cb909f0e7b7a1acf75">VisibilityChangeListener</a></li>
 <li>tcgl&#160;:&#160;<a class="el" href="d3/dab/classCardPrices.html#a577c51e021c8a594aa29ad5946a157e0">CardPrices</a></li>
 <li>tcglLabel&#160;:&#160;<a class="el" href="d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#afc58f225ffc61ce0d47c123442effc00">EdhrecApiResponseCardPricesDisplayWidget</a></li>
 <li>tcglPrice&#160;:&#160;<a class="el" href="d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a3c7cae435bca3f33c15797c2ff66a2c9">EdhrecApiResponseCardPricesDisplayWidget</a></li>
@@ -162,7 +158,7 @@ $(function(){initNavTree('functions_vars_t.html','',''); });
 <li>text&#160;:&#160;<a class="el" href="dd/dd2/classCardInfo.html#af783715e86ee525bb25eea6a429d7bbf">CardInfo</a>, <a class="el" href="d1/de1/classCardInfoDisplayWidget.html#af617b9d7c5f7212969d790b7e4173bf5">CardInfoDisplayWidget</a>, <a class="el" href="db/d22/classCardInfoFrameWidget.html#a74c03b58e9400511809c2814c003e396">CardInfoFrameWidget</a>, <a class="el" href="d5/d45/classSplitCardPart.html#a05ac9cbdbf67cd6920813c305ef67918">SplitCardPart</a></li>
 <li>textAlignment&#160;:&#160;<a class="el" href="dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a4b9f048c584d635023683848078d838b">CardInfoPictureWithTextOverlayWidget</a></li>
 <li>textColor&#160;:&#160;<a class="el" href="dd/da1/classCardInfoPictureWithTextOverlayWidget.html#af1c7629978b1c3b9d3f3ad4b09968dc1">CardInfoPictureWithTextOverlayWidget</a>, <a class="el" href="dc/ded/classDynamicFontSizeLabel.html#a844d81c52307dc56e80348a6b5f2b83d">DynamicFontSizeLabel</a>, <a class="el" href="dd/d56/classDynamicFontSizePushButton.html#a45850063e575a333105081e97fc561a3">DynamicFontSizePushButton</a></li>
-<li>textLabel&#160;:&#160;<a class="el" href="dd/d82/classCardInfoTextWidget.html#ae1ee9e3936e7fff70bd816ce2007c9d3">CardInfoTextWidget</a>, <a class="el" href="de/d48/classDlgEditAvatar.html#acfe65f11f6f4c798bb4e8aac60d5cdc1">DlgEditAvatar</a>, <a class="el" href="de/dc1/classPrintingSelectorPlaceholderWidget.html#ae20f0278bd0064944792e7609727b0bc">PrintingSelectorPlaceholderWidget</a>, <a class="el" href="d5/de5/classVisualDeckEditorPlaceholderWidget.html#a8f650f4616073f00cb387a294ebad4b4">VisualDeckEditorPlaceholderWidget</a></li>
+<li>textLabel&#160;:&#160;<a class="el" href="dd/d82/classCardInfoTextWidget.html#ae1ee9e3936e7fff70bd816ce2007c9d3">CardInfoTextWidget</a>, <a class="el" href="de/d48/classDlgEditAvatar.html#acfe65f11f6f4c798bb4e8aac60d5cdc1">DlgEditAvatar</a>, <a class="el" href="d6/d64/classPrintingDisabledInfoWidget.html#a15ef0f89b26cd2bfc09929d056aa5c65">PrintingDisabledInfoWidget</a>, <a class="el" href="de/dc1/classPrintingSelectorPlaceholderWidget.html#ae20f0278bd0064944792e7609727b0bc">PrintingSelectorPlaceholderWidget</a>, <a class="el" href="d5/de5/classVisualDeckEditorPlaceholderWidget.html#a8f650f4616073f00cb387a294ebad4b4">VisualDeckEditorPlaceholderWidget</a></li>
 <li>themeBox&#160;:&#160;<a class="el" href="d8/dc5/classAppearanceSettingsPage.html#a555cd034256341a35841dd797354614b">AppearanceSettingsPage</a>, <a class="el" href="d1/dfa/classSoundSettingsPage.html#aafe73de543a88a4e55153ba201a3e0d6">SoundSettingsPage</a></li>
 <li>themeGroupBox&#160;:&#160;<a class="el" href="d8/dc5/classAppearanceSettingsPage.html#a6902a5a13840d6aa24228b499737e14c">AppearanceSettingsPage</a></li>
 <li>themeLabel&#160;:&#160;<a class="el" href="d8/dc5/classAppearanceSettingsPage.html#ad760c0d5f92d8d92562e31c5a21f6948">AppearanceSettingsPage</a>, <a class="el" href="d1/dfa/classSoundSettingsPage.html#aad88e5aef712c96120b11e5bcf492c8e">SoundSettingsPage</a></li>

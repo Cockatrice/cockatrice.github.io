@@ -76,6 +76,9 @@ var namespaces_dup =
       [ "PowTough", "db/d09/namespaceMtg.html#a417d3f54883a6f7af31b0e542dd0fa75", null ],
       [ "Side", "db/d09/namespaceMtg.html#a5b271237e604b4bf42c6b8eea641f4b5", null ]
     ] ],
+    [ "OverridePrintingWarning", "da/d73/namespaceOverridePrintingWarning.html", [
+      [ "execMessageBox", "da/d73/namespaceOverridePrintingWarning.html#a20e030722c3a36095107cc81baed4f0d", null ]
+    ] ],
     [ "peg", "dc/db2/namespacepeg.html", "dc/db2/namespacepeg" ],
     [ "QtJson", "dc/dfb/namespaceQtJson.html", "dc/dfb/namespaceQtJson" ],
     [ "QtUtils", "dc/d55/namespaceQtUtils.html", [

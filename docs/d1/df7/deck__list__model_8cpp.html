@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -117,6 +112,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:adfbc7d5fedb5a4dbcfd38142a364f490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the value from the card that is used for the group criteria.  <br /></td></tr>
 <tr class="memitem:a9685c8768bf12813d7cc74f0b524186d" id="r_a9685c8768bf12813d7cc74f0b524186d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9685c8768bf12813d7cc74f0b524186d">maxAllowedForLegality</a> (const <a class="el" href="../../d2/da9/structFormatRules.html">FormatRules</a> &amp;format, const QString &amp;legality)</td></tr>
 <tr class="memitem:a080370ae429801e4ef700342d433df34" id="r_a080370ae429801e4ef700342d433df34"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a080370ae429801e4ef700342d433df34">isCardQuantityLegalForFormat</a> (const QString &amp;format, const <a class="el" href="../../dd/dd2/classCardInfo.html">CardInfo</a> &amp;cardInfo, int quantity)</td></tr>
+<tr class="memitem:a5eaacbb2d11a3be7c23b9d510c06bce8" id="r_a5eaacbb2d11a3be7c23b9d510c06bce8"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eaacbb2d11a3be7c23b9d510c06bce8">isCardNodeLegalForFormat</a> (const QString &amp;format, const <a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *zone, const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> *card)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="adfbc7d5fedb5a4dbcfd38142a364f490" name="adfbc7d5fedb5a4dbcfd38142a364f490"></a>
@@ -163,6 +159,50 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a5eaacbb2d11a3be7c23b9d510c06bce8" name="a5eaacbb2d11a3be7c23b9d510c06bce8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eaacbb2d11a3be7c23b9d510c06bce8">&#9670;&#160;</a></span>isCardNodeLegalForFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isCardNodeLegalForFormat </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>format</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *</td>          <td class="paramname"><span class="paramname"><em>zone</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/df7/deck__list__model_8cpp_a5eaacbb2d11a3be7c23b9d510c06bce8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/df7/deck__list__model_8cpp_a5eaacbb2d11a3be7c23b9d510c06bce8_icgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a080370ae429801e4ef700342d433df34" name="a080370ae429801e4ef700342d433df34"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a080370ae429801e4ef700342d433df34">&#9670;&#160;</a></span>isCardQuantityLegalForFormat()</h2>
 
@@ -197,12 +237,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/df7/deck__list__model_8cpp_a080370ae429801e4ef700342d433df34_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/df7/deck__list__model_8cpp_a080370ae429801e4ef700342d433df34_cgraph.svg" width="100%" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/df7/deck__list__model_8cpp_a080370ae429801e4ef700342d433df34_icgraph.svg" width="100%" height="458"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/df7/deck__list__model_8cpp_a080370ae429801e4ef700342d433df34_icgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -236,7 +276,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/df7/deck__list__model_8cpp_a9685c8768bf12813d7cc74f0b524186d_icgraph.svg" width="100%" height="458"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/df7/deck__list__model_8cpp_a9685c8768bf12813d7cc74f0b524186d_icgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -126,7 +121,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a982db1fba41219c0328343645a424e4a" id="r_a982db1fba41219c0328343645a424e4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a982db1fba41219c0328343645a424e4a">clear</a> ()</td></tr>
 <tr class="memdesc:a982db1fba41219c0328343645a424e4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all nodes except the root.  <br /></td></tr>
 <tr class="memitem:a9212df6be81e441915e966ac7eac195e" id="r_a9212df6be81e441915e966ac7eac195e"><td class="memItemLeft" align="right" valign="top">QList&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9212df6be81e441915e966ac7eac195e">getCardNodes</a> (const QSet&lt; QString &gt; &amp;restrictToZones={}) const</td></tr>
-<tr class="memitem:af520574d975d2023fe5dec1bb2212230" id="r_af520574d975d2023fe5dec1bb2212230"><td class="memItemLeft" align="right" valign="top">QList&lt; const <a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af520574d975d2023fe5dec1bb2212230">getZoneNodes</a> () const</td></tr>
+<tr class="memitem:ae72f60d4985e290f763f73c14eee8ed0" id="r_ae72f60d4985e290f763f73c14eee8ed0"><td class="memItemLeft" align="right" valign="top">QList&lt; const <a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae72f60d4985e290f763f73c14eee8ed0">getZoneNodes</a> (const QSet&lt; QString &gt; &amp;restrictToZones={}) const</td></tr>
 <tr class="memitem:a91630a9b29eeb740c6efe703cb6c60ba" id="r_a91630a9b29eeb740c6efe703cb6c60ba"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91630a9b29eeb740c6efe703cb6c60ba">computeDeckHash</a> () const</td></tr>
 <tr class="memdesc:a91630a9b29eeb740c6efe703cb6c60ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the deck hash.  <br /></td></tr>
 <tr class="memitem:ac83237d42ccdb9809f886e70b20325a9" id="r_ac83237d42ccdb9809f886e70b20325a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac83237d42ccdb9809f886e70b20325a9">write</a> (QXmlStreamWriter *xml) const</td></tr>
@@ -417,7 +412,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df8/classDecklistNodeTree_a9212df6be81e441915e966ac7eac195e_cgraph.svg" width="452" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df8/classDecklistNodeTree_a9212df6be81e441915e966ac7eac195e_cgraph.svg" width="651" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -454,8 +449,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="af520574d975d2023fe5dec1bb2212230" name="af520574d975d2023fe5dec1bb2212230"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af520574d975d2023fe5dec1bb2212230">&#9670;&#160;</a></span>getZoneNodes()</h2>
+<a id="ae72f60d4985e290f763f73c14eee8ed0" name="ae72f60d4985e290f763f73c14eee8ed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae72f60d4985e290f763f73c14eee8ed0">&#9670;&#160;</a></span>getZoneNodes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -463,15 +458,27 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">QList&lt; const <a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> * &gt; DecklistNodeTree::getZoneNodes </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const QSet&lt; QString &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>restrictToZones</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Gets all zone nodes in the tree </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">restrictToZones</td><td>If not empty, only get the zone nodes with these names. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A QList containing all the zone nodes in the tree. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df8/classDecklistNodeTree_ae72f60d4985e290f763f73c14eee8ed0_cgraph.svg" width="408" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df8/classDecklistNodeTree_af520574d975d2023fe5dec1bb2212230_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df8/classDecklistNodeTree_ae72f60d4985e290f763f73c14eee8ed0_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

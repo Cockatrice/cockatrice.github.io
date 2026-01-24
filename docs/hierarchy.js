@@ -47,6 +47,7 @@ var hierarchy =
     [ "peg::Definition", "d8/d94/classpeg_1_1Definition.html", null ],
     [ "AnalyticsPanelWidgetFactory::Descriptor", "dc/d03/structAnalyticsPanelWidgetFactory_1_1Descriptor.html", null ],
     [ "AbstractTabDeckEditor::DockActions", "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html", null ],
+    [ "TabGame::DockActions", "df/d16/structTabGame_1_1DockActions.html", null ],
     [ "DrawProbabilityConfig", "d4/de4/structDrawProbabilityConfig.html", null ],
     [ "DropdownIconPixmapGenerator", "d1/db5/classDropdownIconPixmapGenerator.html", null ],
     [ "EdhrecApiResponseArchidektLink", "d3/d61/classEdhrecApiResponseArchidektLink.html", null ],
@@ -511,6 +512,7 @@ var hierarchy =
       [ "UpdateDownloader", "db/df5/classUpdateDownloader.html", null ],
       [ "UserContextMenu", "d7/d67/classUserContextMenu.html", null ],
       [ "UserListManager", "db/d6d/classUserListManager.html", null ],
+      [ "VisibilityChangeListener", "df/d71/classVisibilityChangeListener.html", null ],
       [ "XzDecompressor", "d1/dfe/classXzDecompressor.html", null ],
       [ "ZipPrivate", "df/daf/classZipPrivate.html", null ]
     ] ],
@@ -656,6 +658,7 @@ var hierarchy =
       [ "OverlapControlWidget", "d5/db7/classOverlapControlWidget.html", null ],
       [ "OverlapWidget", "de/d39/classOverlapWidget.html", null ],
       [ "PercentBarWidget", "d9/d5e/classPercentBarWidget.html", null ],
+      [ "PrintingDisabledInfoWidget", "d6/d64/classPrintingDisabledInfoWidget.html", null ],
       [ "PrintingSelector", "d7/dbc/classPrintingSelector.html", null ],
       [ "PrintingSelectorCardDisplayWidget", "d9/db3/classPrintingSelectorCardDisplayWidget.html", null ],
       [ "PrintingSelectorCardOverlayWidget", "d3/d2f/classPrintingSelectorCardOverlayWidget.html", null ],

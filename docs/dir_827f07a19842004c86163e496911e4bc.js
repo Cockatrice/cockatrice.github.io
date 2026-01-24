@@ -7,5 +7,7 @@ var dir_827f07a19842004c86163e496911e4bc =
     [ "line_edit_completer.cpp", "d5/d88/line__edit__completer_8cpp.html", null ],
     [ "line_edit_completer.h", "d2/de8/line__edit__completer_8h.html", "d2/de8/line__edit__completer_8h" ],
     [ "sequence_edit.cpp", "d4/d4b/sequence__edit_8cpp.html", null ],
-    [ "sequence_edit.h", "d5/dc6/sequence__edit_8h.html", "d5/dc6/sequence__edit_8h" ]
+    [ "sequence_edit.h", "d5/dc6/sequence__edit_8h.html", "d5/dc6/sequence__edit_8h" ],
+    [ "visibility_change_listener.cpp", "dd/d13/visibility__change__listener_8cpp.html", null ],
+    [ "visibility_change_listener.h", "de/dc5/visibility__change__listener_8h.html", "de/dc5/visibility__change__listener_8h" ]
 ];

@@ -1,6 +1,7 @@
 var classArchidektApiResponseDeckListingsDisplayWidget =
 [
     [ "ArchidektApiResponseDeckListingsDisplayWidget", "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#adf05ab5f11564fc76eefb9aa756de215", null ],
+    [ "append", "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#ad5587db6e2a34969df7b6f264d122666", null ],
     [ "requestNavigation", "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#ad54fc9a1c84d8c85adb1ae19e2678a53", null ],
     [ "resizeEvent", "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#a8a0cf030907760c315123d33b7042472", null ],
     [ "cardSizeSlider", "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#aed66acd342a99dffe97052af58105275", null ],

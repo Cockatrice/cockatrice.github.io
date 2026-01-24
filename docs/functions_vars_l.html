@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -143,6 +138,7 @@ $(function(){initNavTree('functions_vars_l.html','',''); });
 <li>lastLoadedTimestamp&#160;:&#160;<a class="el" href="d3/de4/structDeckList_1_1Metadata.html#a7683438a14f101fdb9f4eba6116339ba">DeckList::Metadata</a></li>
 <li>lastLoadInfo&#160;:&#160;<a class="el" href="dd/dab/classDeckStateManager.html#a7a093a87c73b82be51eb41f2516b57e9">DeckStateManager</a>, <a class="el" href="d9/dc2/structLoadedDeck.html#aca2b86f22377d8077723f5256e4932dd">LoadedDeck</a></li>
 <li>lastModified&#160;:&#160;<a class="el" href="d9/d9c/structUnZip_1_1ZipEntry.html#a13c41e38b469edaeeaa92aec38bbe093">UnZip::ZipEntry</a></li>
+<li>lastModifiedTime&#160;:&#160;<a class="el" href="d5/d79/classDeckPreviewWidget.html#a68027471d4a40f7d0b061f57e25001e8">DeckPreviewWidget</a></li>
 <li>lastMouseEvent&#160;:&#160;<a class="el" href="da/d17/classDeckPreviewCardPictureWidget.html#afeb7eaf81cd2f05a0b5d2e60b6564454">DeckPreviewCardPictureWidget</a></li>
 <li>lastPort&#160;:&#160;<a class="el" href="db/d53/classRemoteClient.html#ae9706019dda44a2f7f31dafc3120aaae">RemoteClient</a></li>
 <li>lastRelease&#160;:&#160;<a class="el" href="d0/db2/classReleaseChannel.html#a34d45d8200d6c8fc920f0a09370eb6c1">ReleaseChannel</a></li>
@@ -168,6 +164,7 @@ $(function(){initNavTree('functions_vars_l.html','',''); });
 <li>lineEdit&#160;:&#160;<a class="el" href="d3/d0a/classSequenceEdit.html#a2d9628e2c93a0ccd722c687e7dac4dc6">SequenceEdit</a></li>
 <li>linkColor&#160;:&#160;<a class="el" href="dc/dea/classChatView.html#ac3501897ca7df854a58feab9c92c82f7">ChatView</a></li>
 <li>listContainer&#160;:&#160;<a class="el" href="de/d26/classDlgSelectSetForCards.html#ad64118cd67fa298f0368654c37af495e">DlgSelectSetForCards</a></li>
+<li>listingsWidget&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a8f91d5b6863056faac2a7db0955784e4">TabArchidekt</a></li>
 <li>listLayout&#160;:&#160;<a class="el" href="de/d26/classDlgSelectSetForCards.html#a93309588a6def57b6e7bb9503304a959">DlgSelectSetForCards</a></li>
 <li>listWidget&#160;:&#160;<a class="el" href="db/dd8/classDlgDefaultTagsEditor.html#a93c59d0950c7d4b7be3cdf0a3526b6c7">DlgDefaultTagsEditor</a>, <a class="el" href="de/d26/classDlgSelectSetForCards.html#a57f4f439475ce62b756577dc949dfb21">DlgSelectSetForCards</a></li>
 <li>lit_&#160;:&#160;<a class="el" href="d2/de2/classpeg_1_1LiteralString.html#a93e625bb2f3e9dea5e94a1e91486d80e">peg::LiteralString</a></li>

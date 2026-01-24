@@ -429,7 +429,7 @@ var searchData=
   ['apd_426',['apd',['../dc/db2/namespacepeg.html#a2016cefb7bbdd7c841190f710328041a',1,'peg']]],
   ['apinametoformat_427',['apiNameToFormat',['../dc/d95/namespaceArchidektFormats.html#a6c92d393874b0d90d1a8fa973d2157c0',1,'ArchidektFormats']]],
   ['appearancesettingspage_428',['AppearanceSettingsPage',['../d8/dc5/classAppearanceSettingsPage.html#a93d63010942b64a18ad5299be5e17c1c',1,'AppearanceSettingsPage']]],
-  ['append_429',['append',['../df/dd5/structpeg_1_1SemanticValues.html#a052f1565075cedc9e3a208ca4f6a1338',1,'peg::SemanticValues']]],
+  ['append_429',['append',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#ad5587db6e2a34969df7b6f264d122666',1,'ArchidektApiResponseDeckListingsDisplayWidget::append()'],['../df/dd5/structpeg_1_1SemanticValues.html#a052f1565075cedc9e3a208ca4f6a1338',1,'peg::SemanticValues::append()']]],
   ['appendcardtag_430',['appendCardTag',['../dc/dea/classChatView.html#a00fae4d3c4127b7e2aedbd2a6fe635fd',1,'ChatView']]],
   ['appendhtml_431',['appendHtml',['../dc/dea/classChatView.html#afcaa9bd115aaef0f29098493bbba4843',1,'ChatView']]],
   ['appendhtmlservermessage_432',['appendHtmlServerMessage',['../d7/d93/classMessageLogWidget.html#a98d96341514c688ac7bec4fcb152f59b',1,'MessageLogWidget::appendHtmlServerMessage()'],['../dc/dea/classChatView.html#a7d61e5d6b190273a7c140f923dd3995c',1,'ChatView::appendHtmlServerMessage()']]],

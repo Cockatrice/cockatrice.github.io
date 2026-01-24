@@ -1,9 +1,9 @@
 var user_reference =
 [
-    [ "Deck Management", "d6/d8b/user_reference.html#deck-management", null ],
-    [ "Release Channels", "d6/d8b/user_reference.html#release-channels", null ],
-    [ "Syntax Help", "d6/d8b/user_reference.html#syntax-help", null ],
     [ "Creating Decks", "d3/d9a/creating_decks.html", [
+      [ "Deck Management", "d6/d8b/user_reference.html#deck-management", null ],
+      [ "Release Channels", "d6/d8b/user_reference.html#release-channels", null ],
+      [ "Syntax Help", "d6/d8b/user_reference.html#syntax-help", null ],
       [ "Further References", "d3/d9a/creating_decks.html#further-references", null ]
     ] ],
     [ "Importing Decks", "db/d91/importing_decks.html", [

@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -108,8 +103,6 @@ $(function(){initNavTree('functions_vars_p.html','',''); });
 <li>PADDING_X&#160;:&#160;<a class="el" href="d6/d6f/classTableZone.html#a5989054f82d32bf8cc23e3d0b7ab8e29">TableZone</a></li>
 <li>PADDING_Y&#160;:&#160;<a class="el" href="d6/d6f/classTableZone.html#a53b79daca9b9e6f5734d9fd949894c53">TableZone</a></li>
 <li>paddingY&#160;:&#160;<a class="el" href="d9/dfc/classDeckViewCardContainer.html#a502769af1db8ac88bb3121143be72d8c">DeckViewCardContainer</a></li>
-<li>pageLabel&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a445f431ad3fae6f5266cd81781799129">TabArchidekt</a></li>
-<li>pageSpin&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a83249be793e4da331435104e5720e4f3">TabArchidekt</a></li>
 <li>pagesWidget&#160;:&#160;<a class="el" href="db/d5f/classDlgSettings.html#af49047295cbff2e8e2a1448dfcce2aa3">DlgSettings</a></li>
 <li>panel&#160;:&#160;<a class="el" href="dc/dde/classResizablePanel.html#a239f38606854261cc91ca8f054fed15c">ResizablePanel</a></li>
 <li>panelContainer&#160;:&#160;<a class="el" href="d4/d77/classDeckAnalyticsWidget.html#a2b6d07a6d56c144025ef19545da400ce">DeckAnalyticsWidget</a></li>
@@ -189,7 +182,6 @@ $(function(){initNavTree('functions_vars_p.html','',''); });
 <li>playerId&#160;:&#160;<a class="el" href="df/ddd/classDeckViewContainer.html#a336a3d724ba97fd847b9b36bb51a78f0">DeckViewContainer</a>, <a class="el" href="d8/d3d/classPlayerReference.html#acb4eb2a4940f278ecfc5f69124f5a15a">PlayerReference</a>, <a class="el" href="d0/d00/classServer__AbstractParticipant.html#ad6966fbad7a1b8aad0102d874ddf1824">Server_AbstractParticipant</a>, <a class="el" href="de/d3d/classTabbedDeckViewContainer.html#a3f68d18e7c903cfac1faa8f55230ba98">TabbedDeckViewContainer</a></li>
 <li>playerInfo&#160;:&#160;<a class="el" href="d2/d4b/classPlayer.html#a8934b8e9ca368ba3414ac710786b7cdb">Player</a></li>
 <li>playerListDock&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a1410d76cab2d6e51f376cc90f171bf4d">TabGame</a></li>
-<li>playerListDockMenu&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a772f34a07fda46d7f46b02c4b3178c4a">TabGame</a></li>
 <li>playerListWidget&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#ab066a00b8316bfbcf2f93611a7333cda">TabGame</a></li>
 <li>playerManager&#160;:&#160;<a class="el" href="d3/d44/classAbstractGame.html#a531ecb92051400030e03e96f232103b5">AbstractGame</a></li>
 <li>playerMenu&#160;:&#160;<a class="el" href="d2/d4b/classPlayer.html#a7b8e0ca40e193e748d423098f69e83fc">Player</a>, <a class="el" href="d7/dd6/classPlayerMenu.html#a38d3fbfc5a68ed2fa0c2b718a03082fd">PlayerMenu</a></li>
@@ -231,11 +223,15 @@ $(function(){initNavTree('functions_vars_p.html','',''); });
 <li>previousHostButton&#160;:&#160;<a class="el" href="d3/da4/classDlgConnect.html#af2e6e5254b87cdc183278c1e78420013">DlgConnect</a></li>
 <li>previousHosts&#160;:&#160;<a class="el" href="d3/da4/classDlgConnect.html#a2b9fbe34f97231c68f6747984bdf198d">DlgConnect</a></li>
 <li>prices&#160;:&#160;<a class="el" href="d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a6a02e1014e1ea16a92927764c92154c6">EdhrecCommanderApiResponseCommanderDetails</a></li>
+<li>primaryToolbar&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#aa15a90d250cf6d148abdd1c1954088ef">TabArchidekt</a></li>
+<li>primaryToolbarLayout&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a720162134376d884c632c14460ab1386">TabArchidekt</a></li>
 <li>primaryType&#160;:&#160;<a class="el" href="d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a82d5f0ae895cdc6ad20fa13f177f95d5">EdhrecCommanderApiResponseCommanderDetails</a></li>
 <li>printing&#160;:&#160;<a class="el" href="df/d4e/classExactCard.html#a716bba80438929c3a0c43f82deb5c7b1">ExactCard</a></li>
+<li>printingDisabledInfoWidget&#160;:&#160;<a class="el" href="dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a6011faa1c1553ad2c5b49c70f0a9a5f7">DeckEditorPrintingSelectorDockWidget</a></li>
 <li>printingInfo&#160;:&#160;<a class="el" href="d5/d45/classSplitCardPart.html#ad99322e5791af95b0ebb8a0d3dcdf25f">SplitCardPart</a></li>
 <li>printingSelector&#160;:&#160;<a class="el" href="dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ab60bd850dcddab08d724d961ee6f7c91">DeckEditorPrintingSelectorDockWidget</a>, <a class="el" href="d9/dcf/classTabDeckEditorVisualTabWidget.html#a586d54e377d31e6cb0fcff1829ef17a8">TabDeckEditorVisualTabWidget</a></li>
 <li>printingSelectorCardSize&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a1f244887fdebb1cab341cf0e4616801c">SettingsCache</a></li>
+<li>printingSelectorDockContents&#160;:&#160;<a class="el" href="dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a402425860d6b41b7be1d190267c9360a">DeckEditorPrintingSelectorDockWidget</a></li>
 <li>printingSelectorDockWidget&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#a8923bc4dc6e9b90ea712edc9477962e7">AbstractTabDeckEditor</a></li>
 <li>printingSelectorNavigationButtonsVisible&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#aeede5a4cc3b4d121dee185f6f37208cd">SettingsCache</a></li>
 <li>printingSelectorSortOrder&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#aba9d3e1e81b5b53d15beee9a35d1521c">SettingsCache</a></li>

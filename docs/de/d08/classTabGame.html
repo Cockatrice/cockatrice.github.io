@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -116,6 +111,11 @@ Collaboration diagram for TabGame:</div>
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d59/classTabGame__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:DockActions" id="r_DockActions"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d16/structTabGame_1_1DockActions.html">DockActions</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The actions associated with managing a QDockWidget.  <a href="../../df/d16/structTabGame_1_1DockActions.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:a5da801b5b7701a0f25cc41904944d901" id="r_a5da801b5b7701a0f25cc41904944d901"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5da801b5b7701a0f25cc41904944d901">viewCardInfo</a> (const <a class="el" href="../../d1/d66/structCardRef.html">CardRef</a> &amp;cardRef={}) const</td></tr>
@@ -200,10 +200,6 @@ Private Slots</h2></td></tr>
 <tr class="memitem:a3bac30569f88c4fb53ed43a02a31be16" id="r_a3bac30569f88c4fb53ed43a02a31be16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bac30569f88c4fb53ed43a02a31be16">actResetLayout</a> ()</td></tr>
 <tr class="memitem:a783931e8c8f1b3d5397c5d70d3a25e6d" id="r_a783931e8c8f1b3d5397c5d70d3a25e6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a783931e8c8f1b3d5397c5d70d3a25e6d">freeDocksSize</a> ()</td></tr>
 <tr class="memitem:ae6229d8a4309d52b4d66bfd6f9237ad1" id="r_ae6229d8a4309d52b4d66bfd6f9237ad1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6229d8a4309d52b4d66bfd6f9237ad1">hideEvent</a> (QHideEvent *event) override</td></tr>
-<tr class="memitem:a89b195e78297f76f2398cf1d637d6aec" id="r_a89b195e78297f76f2398cf1d637d6aec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89b195e78297f76f2398cf1d637d6aec">eventFilter</a> (QObject *o, QEvent *e) override</td></tr>
-<tr class="memitem:ac488a4767085138f89ef280e2f8c37f6" id="r_ac488a4767085138f89ef280e2f8c37f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac488a4767085138f89ef280e2f8c37f6">dockVisibleTriggered</a> ()</td></tr>
-<tr class="memitem:a6fb1523ac7ec7246bd34a4bac12b87fe" id="r_a6fb1523ac7ec7246bd34a4bac12b87fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fb1523ac7ec7246bd34a4bac12b87fe">dockFloatingTriggered</a> ()</td></tr>
-<tr class="memitem:a535e2e3daea6c31eaf515c9103416e63" id="r_a535e2e3daea6c31eaf515c9103416e63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a535e2e3daea6c31eaf515c9103416e63">dockTopLevelChanged</a> (bool topLevel)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -224,6 +220,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:af5115487ce05482e74edc99f15232437" id="r_af5115487ce05482e74edc99f15232437"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5115487ce05482e74edc99f15232437">createMenuItems</a> ()</td></tr>
 <tr class="memitem:a583d548afddbfbe67035edb0d85d8c4a" id="r_a583d548afddbfbe67035edb0d85d8c4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a583d548afddbfbe67035edb0d85d8c4a">createReplayMenuItems</a> ()</td></tr>
 <tr class="memitem:a21e6397bd761ae0ab9f0f580175f61fa" id="r_a21e6397bd761ae0ab9f0f580175f61fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21e6397bd761ae0ab9f0f580175f61fa">createViewMenuItems</a> ()</td></tr>
+<tr class="memitem:ac235859460d1aa19f46f161b18fa39aa" id="r_ac235859460d1aa19f46f161b18fa39aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac235859460d1aa19f46f161b18fa39aa">registerDockWidget</a> (QMenu *_viewMenu, QDockWidget *widget)</td></tr>
 <tr class="memitem:a865b3026c7fb4b5945d6e443111551ed" id="r_a865b3026c7fb4b5945d6e443111551ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a865b3026c7fb4b5945d6e443111551ed">createCardInfoDock</a> (bool bReplay=false)</td></tr>
 <tr class="memitem:ac36c67bd4d548537f189c9ee424c51c5" id="r_ac36c67bd4d548537f189c9ee424c51c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac36c67bd4d548537f189c9ee424c51c5">createPlayerListDock</a> (bool bReplay=false)</td></tr>
 <tr class="memitem:ac76bfb14375c313bf24446d7d3d15670" id="r_ac76bfb14375c313bf24446d7d3d15670"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac76bfb14375c313bf24446d7d3d15670">createMessageDock</a> (bool bReplay=false)</td></tr>
@@ -235,7 +232,7 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a08a4f6cacb6f627639ef8be19ec158fb" id="r_a08a4f6cacb6f627639ef8be19ec158fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08a4f6cacb6f627639ef8be19ec158fb">game</a></td></tr>
 <tr class="memitem:ab3175eaed87e027bcd376deebbc35889" id="r_ab3175eaed87e027bcd376deebbc35889"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/dc8/classUserListProxy.html">UserListProxy</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3175eaed87e027bcd376deebbc35889">userListProxy</a></td></tr>
-<tr class="memitem:ad43286fd7c07a28200f7e0a20b2200d2" id="r_ad43286fd7c07a28200f7e0a20b2200d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/de9/classReplayManager.html">ReplayManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad43286fd7c07a28200f7e0a20b2200d2">replayManager</a></td></tr>
+<tr class="memitem:ad43286fd7c07a28200f7e0a20b2200d2" id="r_ad43286fd7c07a28200f7e0a20b2200d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/de9/classReplayManager.html">ReplayManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad43286fd7c07a28200f7e0a20b2200d2">replayManager</a> = nullptr</td></tr>
 <tr class="memitem:a1590151441aca9403621f7cd38ad9eac" id="r_a1590151441aca9403621f7cd38ad9eac"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1590151441aca9403621f7cd38ad9eac">gameTypes</a></td></tr>
 <tr class="memitem:a2431742c4a8fe34aae1245351d7ce90e" id="r_a2431742c4a8fe34aae1245351d7ce90e"><td class="memItemLeft" align="right" valign="top">QCompleter *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2431742c4a8fe34aae1245351d7ce90e">completer</a></td></tr>
 <tr class="memitem:a5234d0902492dca020a12f551ddd146a" id="r_a5234d0902492dca020a12f551ddd146a"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5234d0902492dca020a12f551ddd146a">autocompleteUserList</a></td></tr>
@@ -260,10 +257,6 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:adfaeb5a326ad8fa990defb3f5fc4a151" id="r_adfaeb5a326ad8fa990defb3f5fc4a151"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfaeb5a326ad8fa990defb3f5fc4a151">playersSeparator</a></td></tr>
 <tr class="memitem:aaca0ccc7859e65cb35495b969879cc8f" id="r_aaca0ccc7859e65cb35495b969879cc8f"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaca0ccc7859e65cb35495b969879cc8f">gameMenu</a></td></tr>
 <tr class="memitem:a9fd59aad9abe7d54dd62c5f78ac3b2e7" id="r_a9fd59aad9abe7d54dd62c5f78ac3b2e7"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fd59aad9abe7d54dd62c5f78ac3b2e7">viewMenu</a></td></tr>
-<tr class="memitem:abf37824b565a5faaad9d244576bc7a4a" id="r_abf37824b565a5faaad9d244576bc7a4a"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf37824b565a5faaad9d244576bc7a4a">cardInfoDockMenu</a></td></tr>
-<tr class="memitem:ac3566c4605e9de97cbd6ebb3438c7752" id="r_ac3566c4605e9de97cbd6ebb3438c7752"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3566c4605e9de97cbd6ebb3438c7752">messageLayoutDockMenu</a></td></tr>
-<tr class="memitem:a772f34a07fda46d7f46b02c4b3178c4a" id="r_a772f34a07fda46d7f46b02c4b3178c4a"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a772f34a07fda46d7f46b02c4b3178c4a">playerListDockMenu</a></td></tr>
-<tr class="memitem:a3fd9a0df2ba24884bd3f5c18020360fc" id="r_a3fd9a0df2ba24884bd3f5c18020360fc"><td class="memItemLeft" align="right" valign="top">QMenu *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fd9a0df2ba24884bd3f5c18020360fc">replayDockMenu</a></td></tr>
 <tr class="memitem:a49299990765ed0578b35decc23a7b8e5" id="r_a49299990765ed0578b35decc23a7b8e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d53/classTearOffMenu.html">TearOffMenu</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49299990765ed0578b35decc23a7b8e5">phasesMenu</a></td></tr>
 <tr class="memitem:a3d8d40af9b4c246c1718890546609dd7" id="r_a3d8d40af9b4c246c1718890546609dd7"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d8d40af9b4c246c1718890546609dd7">aGameInfo</a></td></tr>
 <tr class="memitem:aba254554eed4ef5fd0beca99a0b8ff29" id="r_aba254554eed4ef5fd0beca99a0b8ff29"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba254554eed4ef5fd0beca99a0b8ff29">aConcede</a></td></tr>
@@ -277,17 +270,10 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad0fa836c6b5406803e9655c4893bbc55" id="r_ad0fa836c6b5406803e9655c4893bbc55"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0fa836c6b5406803e9655c4893bbc55">aRotateViewCCW</a></td></tr>
 <tr class="memitem:a660403560db8b50e1d6287d58e9db326" id="r_a660403560db8b50e1d6287d58e9db326"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a660403560db8b50e1d6287d58e9db326">aResetLayout</a></td></tr>
 <tr class="memitem:a0f6a46adb952ab81d902ea89a506e073" id="r_a0f6a46adb952ab81d902ea89a506e073"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f6a46adb952ab81d902ea89a506e073">aResetReplayLayout</a></td></tr>
-<tr class="memitem:a9b5afdbec484599552cec9c913b0ecfd" id="r_a9b5afdbec484599552cec9c913b0ecfd"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b5afdbec484599552cec9c913b0ecfd">aCardInfoDockVisible</a></td></tr>
-<tr class="memitem:ab07faf85e24d99ad8c6134668bf69bb9" id="r_ab07faf85e24d99ad8c6134668bf69bb9"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab07faf85e24d99ad8c6134668bf69bb9">aCardInfoDockFloating</a></td></tr>
-<tr class="memitem:a220195ed2483073e4c6b226b97237c6c" id="r_a220195ed2483073e4c6b226b97237c6c"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a220195ed2483073e4c6b226b97237c6c">aMessageLayoutDockVisible</a></td></tr>
-<tr class="memitem:abc794a51c55116e74ae89d37a0e1cc41" id="r_abc794a51c55116e74ae89d37a0e1cc41"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc794a51c55116e74ae89d37a0e1cc41">aMessageLayoutDockFloating</a></td></tr>
-<tr class="memitem:a5f625121655a0738518ec9320d9753ae" id="r_a5f625121655a0738518ec9320d9753ae"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f625121655a0738518ec9320d9753ae">aPlayerListDockVisible</a></td></tr>
-<tr class="memitem:afd7bb75e5b478afdcdefb749e2289383" id="r_afd7bb75e5b478afdcdefb749e2289383"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd7bb75e5b478afdcdefb749e2289383">aPlayerListDockFloating</a></td></tr>
-<tr class="memitem:a6fbd574f80b399f392e42a521b4b2ca9" id="r_a6fbd574f80b399f392e42a521b4b2ca9"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fbd574f80b399f392e42a521b4b2ca9">aReplayDockVisible</a></td></tr>
-<tr class="memitem:a4643cb690f42747af7b607f00884e61a" id="r_a4643cb690f42747af7b607f00884e61a"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4643cb690f42747af7b607f00884e61a">aReplayDockFloating</a></td></tr>
 <tr class="memitem:af07fd6097ec4843b23d2d7f4ba77cc06" id="r_af07fd6097ec4843b23d2d7f4ba77cc06"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af07fd6097ec4843b23d2d7f4ba77cc06">aFocusChat</a></td></tr>
 <tr class="memitem:a9ce81e1035114f9e2513a7de9dec3cd7" id="r_a9ce81e1035114f9e2513a7de9dec3cd7"><td class="memItemLeft" align="right" valign="top">QList&lt; QAction * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ce81e1035114f9e2513a7de9dec3cd7">phaseActions</a></td></tr>
 <tr class="memitem:ad448182ebf791ad38057f18a537444f2" id="r_ad448182ebf791ad38057f18a537444f2"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad448182ebf791ad38057f18a537444f2">aCardMenu</a></td></tr>
+<tr class="memitem:affefb13b643fc12047438d7e29940e8e" id="r_affefb13b643fc12047438d7e29940e8e"><td class="memItemLeft" align="right" valign="top">QMap&lt; QDockWidget *, <a class="el" href="../../df/d16/structTabGame_1_1DockActions.html">DockActions</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affefb13b643fc12047438d7e29940e8e">dockToActions</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -1291,11 +1277,6 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_a865b3026c7fb4b5945d6e443111551ed_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_a865b3026c7fb4b5945d6e443111551ed_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
@@ -1463,7 +1444,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_ac36c67bd4d548537f189c9ee424c51c5_cgraph.svg" width="100%" height="370"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_ac36c67bd4d548537f189c9ee424c51c5_cgraph.svg" width="511" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1496,14 +1477,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_acb6851a338be85c0d5e65d628a47df7d_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_acb6851a338be85c0d5e65d628a47df7d_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_acb6851a338be85c0d5e65d628a47df7d_icgraph.svg" width="422" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1568,7 +1544,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_a21e6397bd761ae0ab9f0f580175f61fa_cgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_a21e6397bd761ae0ab9f0f580175f61fa_cgraph.svg" width="100%" height="407"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1617,101 +1593,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6fb1523ac7ec7246bd34a4bac12b87fe" name="a6fb1523ac7ec7246bd34a4bac12b87fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fb1523ac7ec7246bd34a4bac12b87fe">&#9670;&#160;</a></span>dockFloatingTriggered</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TabGame::dockFloatingTriggered </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_a6fb1523ac7ec7246bd34a4bac12b87fe_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a535e2e3daea6c31eaf515c9103416e63" name="a535e2e3daea6c31eaf515c9103416e63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a535e2e3daea6c31eaf515c9103416e63">&#9670;&#160;</a></span>dockTopLevelChanged</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TabGame::dockTopLevelChanged </td>
-          <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>topLevel</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_a535e2e3daea6c31eaf515c9103416e63_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_a535e2e3daea6c31eaf515c9103416e63_icgraph.svg" width="100%" height="469"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="ac488a4767085138f89ef280e2f8c37f6" name="ac488a4767085138f89ef280e2f8c37f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac488a4767085138f89ef280e2f8c37f6">&#9670;&#160;</a></span>dockVisibleTriggered</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TabGame::dockVisibleTriggered </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_ac488a4767085138f89ef280e2f8c37f6_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="a9d129dac481f242d01352d3de0bb1264" name="a9d129dac481f242d01352d3de0bb1264"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d129dac481f242d01352d3de0bb1264">&#9670;&#160;</a></span>emitUserEvent</h2>
 
@@ -1744,35 +1625,6 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_a9d129dac481f242d01352d3de0bb1264_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-
-</div>
-</div>
-<a id="a89b195e78297f76f2398cf1d637d6aec" name="a89b195e78297f76f2398cf1d637d6aec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89b195e78297f76f2398cf1d637d6aec">&#9670;&#160;</a></span>eventFilter</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool TabGame::eventFilter </td>
-          <td>(</td>
-          <td class="paramtype">QObject *</td>          <td class="paramname"><span class="paramname"><em>o</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QEvent *</td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -2618,6 +2470,45 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ac235859460d1aa19f46f161b18fa39aa" name="ac235859460d1aa19f46f161b18fa39aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac235859460d1aa19f46f161b18fa39aa">&#9670;&#160;</a></span>registerDockWidget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabGame::registerDockWidget </td>
+          <td>(</td>
+          <td class="paramtype">QMenu *</td>          <td class="paramname"><span class="paramname"><em>_viewMenu</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QDockWidget *</td>          <td class="paramname"><span class="paramname"><em>widget</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_ac235859460d1aa19f46f161b18fa39aa_cgraph.svg" width="459" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_ac235859460d1aa19f46f161b18fa39aa_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a40a62b019295d7e9a6ce1919c3eeda08" name="a40a62b019295d7e9a6ce1919c3eeda08"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a40a62b019295d7e9a6ce1919c3eeda08">&#9670;&#160;</a></span>removePlayerFromAutoCompleteList</h2>
 
@@ -2744,7 +2635,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_a5be706a6530029b3666d537567045f34_icgraph.svg" width="100%" height="545"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_a5be706a6530029b3666d537567045f34_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2962,7 +2853,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_acad4f3f20fe4657578bf9d51a5f78fe3_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d08/classTabGame_acad4f3f20fe4657578bf9d51a5f78fe3_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -3023,50 +2914,6 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ab07faf85e24d99ad8c6134668bf69bb9" name="ab07faf85e24d99ad8c6134668bf69bb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab07faf85e24d99ad8c6134668bf69bb9">&#9670;&#160;</a></span>aCardInfoDockFloating</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction * TabGame::aCardInfoDockFloating</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9b5afdbec484599552cec9c913b0ecfd" name="a9b5afdbec484599552cec9c913b0ecfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b5afdbec484599552cec9c913b0ecfd">&#9670;&#160;</a></span>aCardInfoDockVisible</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction* TabGame::aCardInfoDockVisible</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad448182ebf791ad38057f18a537444f2" name="ad448182ebf791ad38057f18a537444f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad448182ebf791ad38057f18a537444f2">&#9670;&#160;</a></span>aCardMenu</h2>
 
@@ -3177,50 +3024,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="abc794a51c55116e74ae89d37a0e1cc41" name="abc794a51c55116e74ae89d37a0e1cc41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc794a51c55116e74ae89d37a0e1cc41">&#9670;&#160;</a></span>aMessageLayoutDockFloating</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction * TabGame::aMessageLayoutDockFloating</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a220195ed2483073e4c6b226b97237c6c" name="a220195ed2483073e4c6b226b97237c6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a220195ed2483073e4c6b226b97237c6c">&#9670;&#160;</a></span>aMessageLayoutDockVisible</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction * TabGame::aMessageLayoutDockVisible</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa88300fa9429986ff1034567780b50ee" name="aa88300fa9429986ff1034567780b50ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa88300fa9429986ff1034567780b50ee">&#9670;&#160;</a></span>aNextPhase</h2>
 
@@ -3287,50 +3090,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="afd7bb75e5b478afdcdefb749e2289383" name="afd7bb75e5b478afdcdefb749e2289383"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd7bb75e5b478afdcdefb749e2289383">&#9670;&#160;</a></span>aPlayerListDockFloating</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction * TabGame::aPlayerListDockFloating</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5f625121655a0738518ec9320d9753ae" name="a5f625121655a0738518ec9320d9753ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f625121655a0738518ec9320d9753ae">&#9670;&#160;</a></span>aPlayerListDockVisible</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction * TabGame::aPlayerListDockVisible</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac1fc9fc6a92e2646be4ef8e31bf45c70" name="ac1fc9fc6a92e2646be4ef8e31bf45c70"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1fc9fc6a92e2646be4ef8e31bf45c70">&#9670;&#160;</a></span>aRemoveLocalArrows</h2>
 
@@ -3342,50 +3101,6 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QAction * TabGame::aRemoveLocalArrows</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4643cb690f42747af7b607f00884e61a" name="a4643cb690f42747af7b607f00884e61a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4643cb690f42747af7b607f00884e61a">&#9670;&#160;</a></span>aReplayDockFloating</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction * TabGame::aReplayDockFloating</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6fbd574f80b399f392e42a521b4b2ca9" name="a6fbd574f80b399f392e42a521b4b2ca9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fbd574f80b399f392e42a521b4b2ca9">&#9670;&#160;</a></span>aReplayDockVisible</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction * TabGame::aReplayDockVisible</td>
         </tr>
       </table>
   </td>
@@ -3551,28 +3266,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="abf37824b565a5faaad9d244576bc7a4a" name="abf37824b565a5faaad9d244576bc7a4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf37824b565a5faaad9d244576bc7a4a">&#9670;&#160;</a></span>cardInfoDockMenu</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QMenu * TabGame::cardInfoDockMenu</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a4968e2fcb78f9fe875dfd5c2c2e9760d" name="a4968e2fcb78f9fe875dfd5c2c2e9760d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4968e2fcb78f9fe875dfd5c2c2e9760d">&#9670;&#160;</a></span>cardInfoFrameWidget</h2>
 
@@ -3672,6 +3365,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QWidget * TabGame::deckViewContainerWidget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="affefb13b643fc12047438d7e29940e8e" name="affefb13b643fc12047438d7e29940e8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affefb13b643fc12047438d7e29940e8e">&#9670;&#160;</a></span>dockToActions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QDockWidget *, <a class="el" href="../../df/d16/structTabGame_1_1DockActions.html">DockActions</a>&gt; TabGame::dockToActions</td>
         </tr>
       </table>
   </td>
@@ -3837,28 +3552,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ac3566c4605e9de97cbd6ebb3438c7752" name="ac3566c4605e9de97cbd6ebb3438c7752"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3566c4605e9de97cbd6ebb3438c7752">&#9670;&#160;</a></span>messageLayoutDockMenu</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QMenu * TabGame::messageLayoutDockMenu</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aeaec62740557b22f4927320d364a083a" name="aeaec62740557b22f4927320d364a083a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeaec62740557b22f4927320d364a083a">&#9670;&#160;</a></span>messageLog</h2>
 
@@ -3969,28 +3662,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a772f34a07fda46d7f46b02c4b3178c4a" name="a772f34a07fda46d7f46b02c4b3178c4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a772f34a07fda46d7f46b02c4b3178c4a">&#9670;&#160;</a></span>playerListDockMenu</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QMenu * TabGame::playerListDockMenu</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ab066a00b8316bfbcf2f93611a7333cda" name="ab066a00b8316bfbcf2f93611a7333cda"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab066a00b8316bfbcf2f93611a7333cda">&#9670;&#160;</a></span>playerListWidget</h2>
 
@@ -4057,28 +3728,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a3fd9a0df2ba24884bd3f5c18020360fc" name="a3fd9a0df2ba24884bd3f5c18020360fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fd9a0df2ba24884bd3f5c18020360fc">&#9670;&#160;</a></span>replayDockMenu</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QMenu * TabGame::replayDockMenu</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad43286fd7c07a28200f7e0a20b2200d2" name="ad43286fd7c07a28200f7e0a20b2200d2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad43286fd7c07a28200f7e0a20b2200d2">&#9670;&#160;</a></span>replayManager</h2>
 
@@ -4089,7 +3738,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/de9/classReplayManager.html">ReplayManager</a>* TabGame::replayManager</td>
+          <td class="memname"><a class="el" href="../../da/de9/classReplayManager.html">ReplayManager</a>* TabGame::replayManager = nullptr</td>
         </tr>
       </table>
   </td>

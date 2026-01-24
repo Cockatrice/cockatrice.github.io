@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -120,7 +115,7 @@ $(function(){initNavTree('d4/d79/classOverlappedCardGroupDisplayWidget.html','..
   <tr class="odd"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#aba22b2d2dfc5587e58de018b2a492f98">constructWidgetForIndex</a>(QPersistentModelIndex index)</td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">virtual</span><span class="mlabel">slot</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#ab1dfd16f06ecfa5f77e4c6da1ec84e53">deckListModel</a></td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html#a093caeda45207fa18d4b573bee4b99f5">getLayoutParent</a>() override</td><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html">OverlappedCardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#a1a8a89f8f1214b343a63f2e13d7dd058">indexToWidgetMap</a></td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#aeff17f143845264a41a835ca68b3fac2">indexToWidgetMap</a></td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html#af39a723c03e45a75939edfc9ca17bb9f">insertIntoLayout</a>(QWidget *toInsert, int insertAt) override</td><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html">OverlappedCardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#a2e5e93d2afd539b9b473f57e68c4841d">layout</a></td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#a6ef95fcc85edf4f028b6f6b1b9963619">mousePressEvent</a>(QMouseEvent *event) override</td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
@@ -128,10 +123,12 @@ $(function(){initNavTree('d4/d79/classOverlappedCardGroupDisplayWidget.html','..
   <tr class="odd"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#a0ff94e3f4d8bbea1ebf44cebc83e74b9">onCardAddition</a>(const QModelIndex &amp;parent, int first, int last)</td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">virtual</span><span class="mlabel">slot</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#a850bc0083f761ec2519d4b3e653aa135">onCardRemoval</a>(const QModelIndex &amp;parent, int first, int last)</td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">virtual</span><span class="mlabel">slot</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#ab8a68821bacb1b2671454bc01caceb31">onClick</a>(QMouseEvent *event, CardInfoPictureWithTextOverlayWidget *card)</td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#ad977528d6276f0c8ad74215629a165b3">onHover</a>(const ExactCard &amp;card)</td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#a5b200f848687a00bee6a047448a07871">onSelectionChanged</a>(const QItemSelection &amp;selected, const QItemSelection &amp;deselected)</td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html#ad2bc90456ba352a5f993f525ca5c080d">OverlappedCardGroupDisplayWidget</a>(QWidget *parent, DeckListModel *deckListModel, QItemSelectionModel *selectionModel, QPersistentModelIndex trackedIndex, QString zoneName, QString cardGroupCategory, QString activeGroupCriteria, QStringList activeSortCriteria, int bannerOpacity, CardSizeWidget *cardSizeWidget)</td><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html">OverlappedCardGroupDisplayWidget</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html#a71716649efdaf6e3cdecf36d37397930">overlapWidget</a></td><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html">OverlappedCardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#ade0beef5f74c7e170bed549c21ad2a32">onDataChanged</a>(const QModelIndex &amp;topLeft, const QModelIndex &amp;bottomRight, const QVector&lt; int &gt; &amp;roles)</td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#ad977528d6276f0c8ad74215629a165b3">onHover</a>(const ExactCard &amp;card)</td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#a5b200f848687a00bee6a047448a07871">onSelectionChanged</a>(const QItemSelection &amp;selected, const QItemSelection &amp;deselected)</td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html#ad2bc90456ba352a5f993f525ca5c080d">OverlappedCardGroupDisplayWidget</a>(QWidget *parent, DeckListModel *deckListModel, QItemSelectionModel *selectionModel, QPersistentModelIndex trackedIndex, QString zoneName, QString cardGroupCategory, QString activeGroupCriteria, QStringList activeSortCriteria, int bannerOpacity, CardSizeWidget *cardSizeWidget)</td><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html">OverlappedCardGroupDisplayWidget</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html#a71716649efdaf6e3cdecf36d37397930">overlapWidget</a></td><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html">OverlappedCardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#aebabd43bc8ad3c440b5fe57d90d5c85d">refreshSelectionForIndex</a>(const QPersistentModelIndex &amp;persistent)</td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html#af9012d92747bd645e7dc8b6d0dd13795">removeFromLayout</a>(QWidget *toRemove) override</td><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html">OverlappedCardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html#a1113f8e10bfcdb2d699f09e576398562">resizeEvent</a>(QResizeEvent *event) override</td><td class="entry"><a class="el" href="../../d4/d79/classOverlappedCardGroupDisplayWidget.html">OverlappedCardGroupDisplayWidget</a></td><td class="entry"><span class="mlabel">slot</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html#a05af3a921675f7f40a90e4c9187c374b">selectionModel</a></td><td class="entry"><a class="el" href="../../d9/d5d/classCardGroupDisplayWidget.html">CardGroupDisplayWidget</a></td><td class="entry"></td></tr>

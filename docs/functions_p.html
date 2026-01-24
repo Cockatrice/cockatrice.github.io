@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -109,8 +104,6 @@ $(function(){initNavTree('functions_p.html','',''); });
 <li>PADDING_X&#160;:&#160;<a class="el" href="d6/d6f/classTableZone.html#a5989054f82d32bf8cc23e3d0b7ab8e29">TableZone</a></li>
 <li>PADDING_Y&#160;:&#160;<a class="el" href="d6/d6f/classTableZone.html#a53b79daca9b9e6f5734d9fd949894c53">TableZone</a></li>
 <li>paddingY&#160;:&#160;<a class="el" href="d9/dfc/classDeckViewCardContainer.html#a502769af1db8ac88bb3121143be72d8c">DeckViewCardContainer</a></li>
-<li>pageLabel&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a445f431ad3fae6f5266cd81781799129">TabArchidekt</a></li>
-<li>pageSpin&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a83249be793e4da331435104e5720e4f3">TabArchidekt</a></li>
 <li>pagesWidget&#160;:&#160;<a class="el" href="db/d5f/classDlgSettings.html#af49047295cbff2e8e2a1448dfcce2aa3">DlgSettings</a></li>
 <li>paint()&#160;:&#160;<a class="el" href="d6/dc0/classAbstractCardDragItem.html#a3c8db2e9a7b52ed2278a566d02745170">AbstractCardDragItem</a>, <a class="el" href="d4/db9/classAbstractCardItem.html#a714bd7b294657b25ba2f8e27fd773e2e">AbstractCardItem</a>, <a class="el" href="df/d2a/classArrowItem.html#ad1904c194b526d4d435120ecbc6813fc">ArrowItem</a>, <a class="el" href="d5/dd3/classCardDragItem.html#a2623bbe214f7304ae03351057d093d67">CardDragItem</a>, <a class="el" href="d6/dbd/classCardItem.html#a7a28ee2cd389ca36911562487a2ade50">CardItem</a>, <a class="el" href="dc/d0b/classDeckViewCard.html#ae15beb9524c17f72be05d8068304389a">DeckViewCard</a>, <a class="el" href="d9/dfc/classDeckViewCardContainer.html#a1f7fc0dcc72bcced7dd53f73fd5ed81d">DeckViewCardContainer</a>, <a class="el" href="db/d3b/classGeneralCounter.html#a657d66fd410e0d732555a4ca84ed0c17">GeneralCounter</a>, <a class="el" href="da/da0/classHandCounter.html#ab5dc5e4cdd53d2e5506fa09c8ee8e81e">HandCounter</a>, <a class="el" href="d4/dc7/classHandZone.html#a81db9905554b1240f634af38827ee5d8">HandZone</a>, <a class="el" href="da/d20/classPhaseButton.html#a63bd377a5cc8b5bc1304895be46ebdc7">PhaseButton</a>, <a class="el" href="d7/d23/classPhasesToolbar.html#aee84882d9808fd7dcd4fafc3fc0709ce">PhasesToolbar</a>, <a class="el" href="d6/d02/classPileZone.html#a5a12fb85c85f980f8423e9f74a057bca">PileZone</a>, <a class="el" href="d8/d93/classPlayerArea.html#ac2a0c39be95fb63cdb3c52c957a5dbd4">PlayerArea</a>, <a class="el" href="db/df9/classPlayerCounter.html#a33fadf2e42dc761c78a8360f791e8eae">PlayerCounter</a>, <a class="el" href="d3/de4/classPlayerGraphicsItem.html#ab5b10dc6eba1990d6a427a04e83b698e">PlayerGraphicsItem</a>, <a class="el" href="d2/d6f/classPlayerTarget.html#a63fab101617f385a52da0b4d1c70d29d">PlayerTarget</a>, <a class="el" href="df/d82/classStackZone.html#a29fd8063403f7e813f17ab0d44e126e2">StackZone</a>, <a class="el" href="d6/d6f/classTableZone.html#a049ba4ae8a44aa10ff31299be7a8d257">TableZone</a>, <a class="el" href="d0/db5/classZoneViewZone.html#a8f8bb53ec226f1680cc6429d6e75e714">ZoneViewZone</a></li>
 <li>paintEvent()&#160;:&#160;<a class="el" href="d3/dcd/classBackgroundPlateWidget.html#ac980a5d4fd032593eb535feb9b670adc">BackgroundPlateWidget</a>, <a class="el" href="d2/d73/classBannerWidget.html#a80a09874156ce940818003fa253c944c">BannerWidget</a>, <a class="el" href="d1/d7f/classBarChartBackgroundWidget.html#acd303e2eaced3fdb1091ddc5c4205778">BarChartBackgroundWidget</a>, <a class="el" href="d4/d89/classBarChartWidget.html#a7f3bbcf5dbd9401212ab88e4fae1a185">BarChartWidget</a>, <a class="el" href="db/daa/classBarWidget.html#aeededd3e517b09774c1ef5754c1017b8">BarWidget</a>, <a class="el" href="dc/d15/classCardAmountWidget.html#a4bea156c5ffc8662bbec80f2d5a7087f">CardAmountWidget</a>, <a class="el" href="d1/d0c/classCardInfoPictureEnlargedWidget.html#aec9f39e9bffd5714800caca73b01da59">CardInfoPictureEnlargedWidget</a>, <a class="el" href="dd/dd2/classCardInfoPictureWidget.html#ac8367e82f7c0d4739e79803f7637051b">CardInfoPictureWidget</a>, <a class="el" href="dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a1d894efe3243198897e9e3b5b06e82c7">CardInfoPictureWithTextOverlayWidget</a>, <a class="el" href="df/df8/classCloseButton.html#a74078d80e5de7b809f1b94397bf2d149">CloseButton</a>, <a class="el" href="d1/d46/classColorBar.html#acaa5f5b83d1b11136b2c847e02c1bb4a">ColorBar</a>, <a class="el" href="d9/d42/classColorPie.html#ac038fa7b731f5c45691231090765c8b0">ColorPie</a>, <a class="el" href="df/d24/classDeckPreviewTagAdditionWidget.html#aa1e7086932db3e5bcb81e53269555f44">DeckPreviewTagAdditionWidget</a>, <a class="el" href="df/dde/classDeckPreviewTagDisplayWidget.html#a7265133263dd885d7cc00acb1320a4ec">DeckPreviewTagDisplayWidget</a>, <a class="el" href="dc/ded/classDynamicFontSizeLabel.html#ac1932e3a6a286714b637fbc9c5e3e818">DynamicFontSizeLabel</a>, <a class="el" href="dd/d56/classDynamicFontSizePushButton.html#ad9aa4a4a428bd64fd4a0384ff802eca1">DynamicFontSizePushButton</a>, <a class="el" href="d4/d42/classHomeStyledButton.html#a448d3c48590352eb63fb42945e603a19">HomeStyledButton</a>, <a class="el" href="de/de3/classHomeWidget.html#aeb4248773ff9979c74c5444a23a4d4be">HomeWidget</a>, <a class="el" href="d9/d5e/classPercentBarWidget.html#ada731b526c4d18a4f476f33b57b8f602">PercentBarWidget</a>, <a class="el" href="d5/d07/classReplayTimelineWidget.html#ad0d116b77acb4291f6f319b360745a47">ReplayTimelineWidget</a>, <a class="el" href="d9/d18/classSegmentedBarWidget.html#a1c9d74a85b2e3475c28f0018da8f0ab8">SegmentedBarWidget</a>, <a class="el" href="d1/d7d/classSettingsPopupWidget.html#a35d5658a97119751893d7570a2279ef9">SettingsPopupWidget</a>, <a class="el" href="de/d73/classShadowBackgroundLabel.html#ae02dc966ed9b73541d04044723df6018">ShadowBackgroundLabel</a>, <a class="el" href="d0/d90/classToggleButton.html#ab5bc5a3cb01f8dd68d31d24bbb50137a">ToggleButton</a></li>
@@ -265,7 +258,6 @@ $(function(){initNavTree('functions_p.html','',''); });
 <li>playerKicked()&#160;:&#160;<a class="el" href="d7/db2/classGameEventHandler.html#a144e1881795e1e7c02f0d575ead8434f">GameEventHandler</a></li>
 <li>playerLeft()&#160;:&#160;<a class="el" href="d7/db2/classGameEventHandler.html#a6ea076e638de251991c524a3359e0030">GameEventHandler</a></li>
 <li>playerListDock&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a1410d76cab2d6e51f376cc90f171bf4d">TabGame</a></li>
-<li>playerListDockMenu&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a772f34a07fda46d7f46b02c4b3178c4a">TabGame</a></li>
 <li>PlayerListItemDelegate()&#160;:&#160;<a class="el" href="d3/d79/classPlayerListItemDelegate.html#ab25c86d608a567c897b3d26872c944ba">PlayerListItemDelegate</a></li>
 <li>PlayerListTWI()&#160;:&#160;<a class="el" href="d5/d06/classPlayerListTWI.html#a29e020f1a2c4d27ede8651578af97bbf">PlayerListTWI</a></li>
 <li>PlayerListWidget()&#160;:&#160;<a class="el" href="df/d02/classPlayerListWidget.html#a557fa2d55358f086e6140d64f70b0acc">PlayerListWidget</a></li>
@@ -371,10 +363,14 @@ $(function(){initNavTree('functions_p.html','',''); });
 <li>previousHosts&#160;:&#160;<a class="el" href="d3/da4/classDlgConnect.html#a2b9fbe34f97231c68f6747984bdf198d">DlgConnect</a></li>
 <li>previousHostSelected()&#160;:&#160;<a class="el" href="d3/da4/classDlgConnect.html#ac3051518474d67107785978a0a08fa02">DlgConnect</a></li>
 <li>prices&#160;:&#160;<a class="el" href="d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a6a02e1014e1ea16a92927764c92154c6">EdhrecCommanderApiResponseCommanderDetails</a></li>
+<li>primaryToolbar&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#aa15a90d250cf6d148abdd1c1954088ef">TabArchidekt</a></li>
+<li>primaryToolbarLayout&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a720162134376d884c632c14460ab1386">TabArchidekt</a></li>
 <li>primaryType&#160;:&#160;<a class="el" href="d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a82d5f0ae895cdc6ad20fa13f177f95d5">EdhrecCommanderApiResponseCommanderDetails</a></li>
 <li>printDeckList()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a1e27104406ed9c0ae00b66426df12823">DeckLoader</a></li>
 <li>printDeckListNode()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a7759ed1bdf9be4ca9e3ec403b2746381">DeckLoader</a></li>
 <li>printing&#160;:&#160;<a class="el" href="df/d4e/classExactCard.html#a716bba80438929c3a0c43f82deb5c7b1">ExactCard</a></li>
+<li>PrintingDisabledInfoWidget()&#160;:&#160;<a class="el" href="d6/d64/classPrintingDisabledInfoWidget.html#a5a4834a6e0f4be2a8e80990e7bcd86d5">PrintingDisabledInfoWidget</a></li>
+<li>printingDisabledInfoWidget&#160;:&#160;<a class="el" href="dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a6011faa1c1553ad2c5b49c70f0a9a5f7">DeckEditorPrintingSelectorDockWidget</a></li>
 <li>PrintingInfo()&#160;:&#160;<a class="el" href="d6/d90/classPrintingInfo.html#aabe848499ae84e18257326b0445696e3">PrintingInfo</a></li>
 <li>printingInfo&#160;:&#160;<a class="el" href="d5/d45/classSplitCardPart.html#ad99322e5791af95b0ebb8a0d3dcdf25f">SplitCardPart</a></li>
 <li>PrintingSelector()&#160;:&#160;<a class="el" href="d7/dbc/classPrintingSelector.html#ab6d8607519ea0250bea869add24d18e0">PrintingSelector</a></li>
@@ -386,6 +382,7 @@ $(function(){initNavTree('functions_p.html','',''); });
 <li>printingSelectorCardSize&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a1f244887fdebb1cab341cf0e4616801c">SettingsCache</a></li>
 <li>printingSelectorCardSizeChanged()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#ae8151c9d35da960fe50943abb054bedf">SettingsCache</a></li>
 <li>PrintingSelectorCardSortingWidget()&#160;:&#160;<a class="el" href="de/dfd/classPrintingSelectorCardSortingWidget.html#a815dd12846a9398c4cbac464f0f7c0bc">PrintingSelectorCardSortingWidget</a></li>
+<li>printingSelectorDockContents&#160;:&#160;<a class="el" href="dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a402425860d6b41b7be1d190267c9360a">DeckEditorPrintingSelectorDockWidget</a></li>
 <li>printingSelectorDockWidget&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#a8923bc4dc6e9b90ea712edc9477962e7">AbstractTabDeckEditor</a></li>
 <li>printingSelectorNavigationButtonsVisible&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#aeede5a4cc3b4d121dee185f6f37208cd">SettingsCache</a></li>
 <li>printingSelectorNavigationButtonsVisibleChanged()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a49487c3db212dbdaede6484277eace31">SettingsCache</a></li>

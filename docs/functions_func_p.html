@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -241,6 +236,7 @@ $(function(){initNavTree('functions_func_p.html','',''); });
 <li>previousHostSelected()&#160;:&#160;<a class="el" href="d3/da4/classDlgConnect.html#ac3051518474d67107785978a0a08fa02">DlgConnect</a></li>
 <li>printDeckList()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a1e27104406ed9c0ae00b66426df12823">DeckLoader</a></li>
 <li>printDeckListNode()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a7759ed1bdf9be4ca9e3ec403b2746381">DeckLoader</a></li>
+<li>PrintingDisabledInfoWidget()&#160;:&#160;<a class="el" href="d6/d64/classPrintingDisabledInfoWidget.html#a5a4834a6e0f4be2a8e80990e7bcd86d5">PrintingDisabledInfoWidget</a></li>
 <li>PrintingInfo()&#160;:&#160;<a class="el" href="d6/d90/classPrintingInfo.html#aabe848499ae84e18257326b0445696e3">PrintingInfo</a></li>
 <li>PrintingSelector()&#160;:&#160;<a class="el" href="d7/dbc/classPrintingSelector.html#ab6d8607519ea0250bea869add24d18e0">PrintingSelector</a></li>
 <li>PrintingSelectorCardDisplayWidget()&#160;:&#160;<a class="el" href="d9/db3/classPrintingSelectorCardDisplayWidget.html#a0f6cb8e03cc6849a1c37a9bf5bd51c3f">PrintingSelectorCardDisplayWidget</a></li>

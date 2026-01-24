@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -121,8 +116,6 @@ $(function(){initNavTree('functions_vars_a.html','',''); });
 <li>aBanHistory&#160;:&#160;<a class="el" href="d7/d67/classUserContextMenu.html#a1b69c41e77e1c09ae3c5bc830f3a80d4">UserContextMenu</a></li>
 <li>aBottom&#160;:&#160;<a class="el" href="dd/d67/classWndSets.html#ab2cb7b803cc39c9356725b7e36714f0d">WndSets</a></li>
 <li>absolutePath&#160;:&#160;<a class="el" href="d6/dd9/classZipEntryP.html#abb620ece2db662a3461511b40eef0647">ZipEntryP</a></li>
-<li>aCardInfoDockFloating&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#ab07faf85e24d99ad8c6134668bf69bb9">TabGame</a></li>
-<li>aCardInfoDockVisible&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a9b5afdbec484599552cec9c913b0ecfd">TabGame</a></li>
 <li>aCardMenu&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#ad448182ebf791ad38057f18a537444f2">TabGame</a></li>
 <li>ACCEPTED_FILE_EXTENSIONS&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a33e34fac0a06dc83636aa3a3b4c7af77">DeckLoader</a></li>
 <li>acceptsRoomListChanges&#160;:&#160;<a class="el" href="d0/d23/classServer__ProtocolHandler.html#a0a7d6ffa10c8a01f1f8c1a0b8c04b109">Server_ProtocolHandler</a></li>
@@ -192,6 +185,7 @@ $(function(){initNavTree('functions_vars_a.html','',''); });
 <li>aDrawBottomCards&#160;:&#160;<a class="el" href="d9/d65/classLibraryMenu.html#a9839c6c6b99905bb5813ede1748f3f1c">LibraryMenu</a></li>
 <li>aDrawCard&#160;:&#160;<a class="el" href="d9/d65/classLibraryMenu.html#a06ab1b4026df0e3100401c7c076c5a4a">LibraryMenu</a></li>
 <li>aDrawCards&#160;:&#160;<a class="el" href="d9/d65/classLibraryMenu.html#a1d7b37fbe7286210dd157b9304339616">LibraryMenu</a></li>
+<li>advancedFiltersButton&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a3ed30e1912971653638c7a821b46843e">TabArchidekt</a></li>
 <li>advertiseTranslationPageLabel&#160;:&#160;<a class="el" href="d0/d41/classGeneralSettingsPage.html#a50c5483fab2a3816de9be6c8824ca292">GeneralSettingsPage</a></li>
 <li>aEdit&#160;:&#160;<a class="el" href="df/dd1/classDeckEditorSettingsPage.html#a18f27500ae71acb7ca3feb304374ed88">DeckEditorSettingsPage</a>, <a class="el" href="d2/dae/classMessagesSettingsPage.html#ae2a73f85d657d341e50f542a208ee600">MessagesSettingsPage</a></li>
 <li>aEditDeckInClipboard&#160;:&#160;<a class="el" href="dc/d76/classDeckEditorMenu.html#a072bff019410414430c086a2f5dfda82">DeckEditorMenu</a></li>
@@ -202,7 +196,7 @@ $(function(){initNavTree('functions_vars_a.html','',''); });
 <li>aExportDeckDecklist&#160;:&#160;<a class="el" href="dc/d76/classDeckEditorMenu.html#ad4e132f3bbf09098bbc4c1263bec1c43">DeckEditorMenu</a></li>
 <li>aExportDeckDecklistXyz&#160;:&#160;<a class="el" href="dc/d76/classDeckEditorMenu.html#af307c6d79ff0cae65bfc6671757945d4">DeckEditorMenu</a></li>
 <li>aFlip&#160;:&#160;<a class="el" href="d8/d6d/classCardMenu.html#a6d646ec19adeb30f3e64c451a97828d1">CardMenu</a></li>
-<li>aFloating&#160;:&#160;<a class="el" href="d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a51805ed40c183448e69aca4458aa7cb6">AbstractTabDeckEditor::DockActions</a></li>
+<li>aFloating&#160;:&#160;<a class="el" href="d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a51805ed40c183448e69aca4458aa7cb6">AbstractTabDeckEditor::DockActions</a>, <a class="el" href="df/d16/structTabGame_1_1DockActions.html#aa9ba91f5c0ae781585025d80325546a4">TabGame::DockActions</a></li>
 <li>aFlowP&#160;:&#160;<a class="el" href="d3/d77/classPtMenu.html#a53ce069cd6d94d442ace75643a09f516">PtMenu</a></li>
 <li>aFlowT&#160;:&#160;<a class="el" href="d3/d77/classPtMenu.html#a3a98831c820f3e29ae3a6a0f1b1b9bd8">PtMenu</a></li>
 <li>aFocusChat&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#af07fd6097ec4843b23d2d7f4ba77cc06">TabGame</a></li>
@@ -245,8 +239,6 @@ $(function(){initNavTree('functions_vars_a.html','',''); });
 <li>alwaysLookAtTopCard&#160;:&#160;<a class="el" href="dc/d3a/classServer__CardZone.html#ae92e65f3500954333fda27437d7f12d5">Server_CardZone</a></li>
 <li>alwaysRevealTopCard&#160;:&#160;<a class="el" href="d1/df9/classCardZoneLogic.html#acb10245d8f992787e233975ec6003f03">CardZoneLogic</a>, <a class="el" href="dc/d3a/classServer__CardZone.html#a144c1eba39f1d3729ad001772d84167a">Server_CardZone</a></li>
 <li>aManageSets&#160;:&#160;<a class="el" href="d6/d1a/classMainWindow.html#a8cb3a26f1b185834fc409356a118ec29">MainWindow</a></li>
-<li>aMessageLayoutDockFloating&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#abc794a51c55116e74ae89d37a0e1cc41">TabGame</a></li>
-<li>aMessageLayoutDockVisible&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a220195ed2483073e4c6b226b97237c6c">TabGame</a></li>
 <li>amount&#160;:&#160;<a class="el" href="dc/d15/classCardAmountWidget.html#a1e008d1cb9d573c22c12605736757145">CardAmountWidget</a></li>
 <li>amount_of_items_to_overlap&#160;:&#160;<a class="el" href="d5/db7/classOverlapControlWidget.html#a40f58600d2d0b1b9cfecd547adf84579">OverlapControlWidget</a></li>
 <li>amountLabel&#160;:&#160;<a class="el" href="d3/dca/classEdhrecApiResponseCardInclusionDisplayWidget.html#ab528e9129a3d2865a44297a0bc9d093c">EdhrecApiResponseCardInclusionDisplayWidget</a></li>
@@ -317,8 +309,6 @@ $(function(){initNavTree('functions_vars_a.html','',''); });
 <li>aOpenSettingsFolder&#160;:&#160;<a class="el" href="d6/d1a/classMainWindow.html#ac5daa71995f515db7417557db6762e06">MainWindow</a></li>
 <li>aPeek&#160;:&#160;<a class="el" href="d8/d6d/classCardMenu.html#a31594cea7262ba1cbd244d06ed62a61d">CardMenu</a></li>
 <li>aPlay&#160;:&#160;<a class="el" href="d8/d6d/classCardMenu.html#ab82ad85bdaa2f635a1fea38854261897">CardMenu</a></li>
-<li>aPlayerListDockFloating&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#afd7bb75e5b478afdcdefb749e2289383">TabGame</a></li>
-<li>aPlayerListDockVisible&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a5f625121655a0738518ec9320d9753ae">TabGame</a></li>
 <li>aPlayFacedown&#160;:&#160;<a class="el" href="d8/d6d/classCardMenu.html#a0ad3304d785710c0db357e4894ea1b78">CardMenu</a></li>
 <li>appearanceButton&#160;:&#160;<a class="el" href="db/d5f/classDlgSettings.html#a61d7a0784c9c621d862271ad53b5b88c">DlgSettings</a></li>
 <li>appName&#160;:&#160;<a class="el" href="d6/d1a/classMainWindow.html#adae3999c647b28a89410f884451d54da">MainWindow</a></li>
@@ -338,8 +328,6 @@ $(function(){initNavTree('functions_vars_a.html','',''); });
 <li>aRemoveFromIgnoreList&#160;:&#160;<a class="el" href="d7/d67/classUserContextMenu.html#a4a015df0998fcbaa978b358909ee1181">UserContextMenu</a></li>
 <li>aRemoveLocalArrows&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#ac1fc9fc6a92e2646be4ef8e31bf45c70">TabGame</a></li>
 <li>aRenameLocal&#160;:&#160;<a class="el" href="d1/dd7/classTabDeckStorage.html#a2cebf43ca435c5a6e31ec3e25a9a3889">TabDeckStorage</a>, <a class="el" href="d6/d7d/classTabReplays.html#a4c8acf90a38d6e149bfab03587d79882">TabReplays</a></li>
-<li>aReplayDockFloating&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a4643cb690f42747af7b607f00884e61a">TabGame</a></li>
-<li>aReplayDockVisible&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a6fbd574f80b399f392e42a521b4b2ca9">TabGame</a></li>
 <li>aReplaySkipBackward&#160;:&#160;<a class="el" href="da/de9/classReplayManager.html#a2ccbf60ef60e62c20c6ac682791f152d">ReplayManager</a></li>
 <li>aReplaySkipBackwardBig&#160;:&#160;<a class="el" href="da/de9/classReplayManager.html#ab4d7c11afe513f678f7cfa330336aa85">ReplayManager</a></li>
 <li>aReplaySkipForward&#160;:&#160;<a class="el" href="da/de9/classReplayManager.html#a5a1f799740307cb8d3b6dbb0767bbd33">ReplayManager</a></li>
@@ -450,7 +438,7 @@ $(function(){initNavTree('functions_vars_a.html','',''); });
 <li>aViewRfg&#160;:&#160;<a class="el" href="dc/db3/classRfgMenu.html#a4c1ef82a5a2a47cacd1e65c5d4a59cc6">RfgMenu</a></li>
 <li>aViewSideboard&#160;:&#160;<a class="el" href="d5/dd7/classSideboardMenu.html#ad920d2bd22405312de350a63372d1b19">SideboardMenu</a></li>
 <li>aViewTopCards&#160;:&#160;<a class="el" href="d9/d65/classLibraryMenu.html#a58f1d33483ee86e9bee8d231db1a73c5">LibraryMenu</a></li>
-<li>aVisible&#160;:&#160;<a class="el" href="d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#ab8d233c1f266a9956da33415d1fa9244">AbstractTabDeckEditor::DockActions</a></li>
+<li>aVisible&#160;:&#160;<a class="el" href="d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#ab8d233c1f266a9956da33415d1fa9244">AbstractTabDeckEditor::DockActions</a>, <a class="el" href="df/d16/structTabGame_1_1DockActions.html#aa6094d88c3abdbf1344c5016b4df3cc6">TabGame::DockActions</a></li>
 <li>aWarnHistory&#160;:&#160;<a class="el" href="d7/d67/classUserContextMenu.html#a2bcd3b4c48b95061cf9675b6bb87b354">UserContextMenu</a></li>
 <li>aWarnUser&#160;:&#160;<a class="el" href="d7/d67/classUserContextMenu.html#a23620dcd42610e090512a305c4eeec63">UserContextMenu</a></li>
 <li>aWatchReplay&#160;:&#160;<a class="el" href="d6/d1a/classMainWindow.html#a3984e9d945bb4b2b8b612225e4ee69b4">MainWindow</a></li>

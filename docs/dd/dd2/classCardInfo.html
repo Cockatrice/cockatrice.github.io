@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -211,6 +206,8 @@ Legacy/Convenience Property Accessors</h2></td></tr>
 <tr class="memitem:a6f2298356236c47428eea1ea3c7cef5c" id="r_a6f2298356236c47428eea1ea3c7cef5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f2298356236c47428eea1ea3c7cef5c">setPowTough</a> (const QString &amp;value)</td></tr>
 <tr class="memitem:ace34d5f218fb6639f7cef655e1e81eb5" id="r_ace34d5f218fb6639f7cef655e1e81eb5"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace34d5f218fb6639f7cef655e1e81eb5">getCorrectedName</a> () const</td></tr>
 <tr class="memdesc:ace34d5f218fb6639f7cef655e1e81eb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a version of the card name safe for file storage or fuzzy matching.  <br /></td></tr>
+<tr class="memitem:a1b0d0340b4717dc924655ffa263bb236" id="r_a1b0d0340b4717dc924655ffa263bb236"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b0d0340b4717dc924655ffa263bb236">getLegalityProp</a> (const QString &amp;format) const</td></tr>
+<tr class="memdesc:a1b0d0340b4717dc924655ffa263bb236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the card's legality value for the given format. The legality prop for a format is stored in the property map under the key "format-&lt;name&gt;".  <br /></td></tr>
 <tr class="memitem:a97f4edb58266c8d5235efc34d86c44e5" id="r_a97f4edb58266c8d5235efc34d86c44e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97f4edb58266c8d5235efc34d86c44e5">isLegalInFormat</a> (const QString &amp;format) const</td></tr>
 <tr class="memdesc:a97f4edb58266c8d5235efc34d86c44e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the card is legal in the given format. A card is considered legal in a format if its properties map contains an entry for "format-&lt;name&gt;", with value "legal" or "restricted".  <br /></td></tr>
 <tr class="memitem:ae93671742c179b4da21add1ec997b586" id="r_ae93671742c179b4da21add1ec997b586"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae93671742c179b4da21add1ec997b586">addToSet</a> (const <a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a> &amp;_set, const <a class="el" href="../../d6/d90/classPrintingInfo.html">PrintingInfo</a> &amp;_info=<a class="el" href="../../d6/d90/classPrintingInfo.html">PrintingInfo</a>())</td></tr>
@@ -772,6 +769,50 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a1b0d0340b4717dc924655ffa263bb236" name="a1b0d0340b4717dc924655ffa263bb236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b0d0340b4717dc924655ffa263bb236">&#9670;&#160;</a></span>getLegalityProp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString CardInfo::getLegalityProp </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>format</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the card's legality value for the given format. The legality prop for a format is stored in the property map under the key "format-&lt;name&gt;". </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">format</td><td>The format's name. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The card's legality value for the format. Empty if not found. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfo_a1b0d0340b4717dc924655ffa263bb236_cgraph.svg" width="407" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfo_a1b0d0340b4717dc924655ffa263bb236_icgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a544a078f2ee167ffefeec380eeae41d9" name="a544a078f2ee167ffefeec380eeae41d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a544a078f2ee167ffefeec380eeae41d9">&#9670;&#160;</a></span>getLoyalty()</h2>
 
@@ -892,7 +933,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfo_afc4e1f841fe0d229f66ea9f1b4e0c69b_icgraph.svg" width="100%" height="458"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfo_afc4e1f841fe0d229f66ea9f1b4e0c69b_icgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -954,11 +995,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfo_af2a0e300829b6b147cb4e717c58f68e4_icgraph.svg" width="100%" height="458"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>
@@ -1182,7 +1218,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfo_acb86411c7501c7fa30a11e035e61b046_icgraph.svg" width="100%" height="500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfo_acb86411c7501c7fa30a11e035e61b046_icgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1276,12 +1312,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfo_a97f4edb58266c8d5235efc34d86c44e5_cgraph.svg" width="410" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfo_a97f4edb58266c8d5235efc34d86c44e5_cgraph.svg" width="644" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfo_a97f4edb58266c8d5235efc34d86c44e5_icgraph.svg" width="100%" height="458"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfo_a97f4edb58266c8d5235efc34d86c44e5_icgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

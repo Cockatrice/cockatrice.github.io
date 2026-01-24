@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -209,7 +204,6 @@ $(function(){initNavTree('functions_c.html','',''); });
 <li>CardInfoComparator()&#160;:&#160;<a class="el" href="d8/d3f/classCardInfoComparator.html#aae2e99f3c3550ee360789f38ecbbdbdb">CardInfoComparator</a></li>
 <li>CardInfoDisplayWidget()&#160;:&#160;<a class="el" href="d1/de1/classCardInfoDisplayWidget.html#a8a7d7e9b4b280575001257c0d058298d">CardInfoDisplayWidget</a></li>
 <li>cardInfoDock&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a0b27b8e15371aa63ccd431d77e6e400c">TabGame</a></li>
-<li>cardInfoDockMenu&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#abf37824b565a5faaad9d244576bc7a4a">TabGame</a></li>
 <li>cardInfoDockWidget&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#a40a265f1450c20625365ad95b13f4e3e">AbstractTabDeckEditor</a></li>
 <li>CardInfoFrameWidget()&#160;:&#160;<a class="el" href="db/d22/classCardInfoFrameWidget.html#a614b25af01cee4fe7abc717038fc09ff">CardInfoFrameWidget</a></li>
 <li>cardInfoFrameWidget&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a4968e2fcb78f9fe875dfd5c2c2e9760d">TabGame</a></li>
@@ -600,6 +594,7 @@ $(function(){initNavTree('functions_c.html','',''); });
 <li>colorLabel&#160;:&#160;<a class="el" href="d1/dad/classDlgCreateToken.html#a5928031b3d2cc97a7835e51e817baa1c">DlgCreateToken</a>, <a class="el" href="d3/d37/classDlgEditTokens.html#a85be1fa7faa10086ad7104f6026f55f4">DlgEditTokens</a></li>
 <li>ColorPie()&#160;:&#160;<a class="el" href="d9/d42/classColorPie.html#ac02abd8fa46f216bd853db04f36f4692">ColorPie</a></li>
 <li>colors&#160;:&#160;<a class="el" href="dd/d44/classArchidektApiResponseDeckListingContainer.html#a171169fc8623b5af562172c011682756">ArchidektApiResponseDeckListingContainer</a>, <a class="el" href="d1/d46/classColorBar.html#a286f859ba47b84e8abcefc57b492dce7">ColorBar</a>, <a class="el" href="d9/d42/classColorPie.html#a85f51acda2caa3ac0cda03711c4ff915">ColorPie</a></li>
+<li>colorSymbols&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a846149bb8f2bb64962eb417d029c5844">TabArchidekt</a></li>
 <li>colorToggled()&#160;:&#160;<a class="el" href="d8/d8e/classManaSymbolWidget.html#abc98fb9d493e2c662038a2db19ceacde">ManaSymbolWidget</a>, <a class="el" href="d2/d83/classVisualDatabaseDisplayColorFilterCircleWidget.html#a5f575d4b2362704c44f7861a6a6dd744">VisualDatabaseDisplayColorFilterCircleWidget</a></li>
 <li>cols&#160;:&#160;<a class="el" href="db/dc7/structZoneViewZone_1_1GridSize.html#a0f9a40c075244250da2e7dd52a924389">ZoneViewZone::GridSize</a></li>
 <li>column&#160;:&#160;<a class="el" href="d2/d75/structpeg_1_1AstBase.html#a0471506d08a631b88f55898af2f9fd62">peg::AstBase&lt; Annotation &gt;</a></li>
@@ -674,7 +669,7 @@ $(function(){initNavTree('functions_c.html','',''); });
 <li>connectMessageLogToGameEventHandler()&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a6454a713103491490e8301cdfebd6e4e">TabGame</a></li>
 <li>connectOverlapWidget()&#160;:&#160;<a class="el" href="d5/db7/classOverlapControlWidget.html#a80a43e8875a0c56c9a337d0ea19705e6">OverlapControlWidget</a></li>
 <li>connectPlayerListToGameEventHandler()&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#adf832fca5b5b6dada3d6b62bb06c9f39">TabGame</a></li>
-<li>connectSignals()&#160;:&#160;<a class="el" href="d0/dd2/classPrintingSelectorCardSelectionWidget.html#a7c536f5ad4c2f34fd69d83204e89d230">PrintingSelectorCardSelectionWidget</a></li>
+<li>connectSignals()&#160;:&#160;<a class="el" href="d0/dd2/classPrintingSelectorCardSelectionWidget.html#a7c536f5ad4c2f34fd69d83204e89d230">PrintingSelectorCardSelectionWidget</a>, <a class="el" href="db/d5d/classTabArchidekt.html#a4cf736615056aa7a346d924bf2cf61cf">TabArchidekt</a></li>
 <li>connectTo&#160;:&#160;<a class="el" href="d6/d1a/classMainWindow.html#a0d4dd447b823068b2fd853a09ba86bd3">MainWindow</a></li>
 <li>connectToGameEventHandler()&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#af3cdacabac70dcb0e440101911feefe9">TabGame</a></li>
 <li>connectToGameState()&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a4457716c46ba58cda8b46726693335dd">TabGame</a></li>
@@ -711,7 +706,7 @@ $(function(){initNavTree('functions_c.html','',''); });
 <li>controlPort&#160;:&#160;<a class="el" href="d4/d8d/classServerProperties.html#a12543e4cabacbac669f948f245374965">ServerProperties</a></li>
 <li>controls&#160;:&#160;<a class="el" href="dd/de9/classDrawProbabilityWidget.html#a2be05f91eb38a8b93e4773ef17222e4c">DrawProbabilityWidget</a></li>
 <li>convertDateTime()&#160;:&#160;<a class="el" href="df/d90/classUnzipPrivate.html#a4f0aced5c07afb916f58d8f937ccdf7c">UnzipPrivate</a></li>
-<li>convertToCockatriceFormat()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a958492c1a7d15851462a9cd313d55be4">DeckLoader</a></li>
+<li>convertToCockatriceFormat()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a3dc92c330b5b1ab35d6c1c80e6e633bb">DeckLoader</a></li>
 <li>coord_x&#160;:&#160;<a class="el" href="dc/d07/classServer__Card.html#a79a87db23c32aca6abf35452c155ce78">Server_Card</a></li>
 <li>coord_y&#160;:&#160;<a class="el" href="dc/d07/classServer__Card.html#afcb84b9db07256c5bd5972b593c4be3f">Server_Card</a></li>
 <li>coordinateMap&#160;:&#160;<a class="el" href="dc/d3a/classServer__CardZone.html#aa227531e7aab62492106723bdf1604c6">Server_CardZone</a></li>
@@ -834,9 +829,9 @@ $(function(){initNavTree('functions_c.html','',''); });
 <li>currentlyLoading&#160;:&#160;<a class="el" href="d6/da1/classCardPictureLoaderWorker.html#a358b46899b72a3c7b45ece3ca5848d9d">CardPictureLoaderWorker</a></li>
 <li>currentMinimumWidth&#160;:&#160;<a class="el" href="d6/d6f/classTableZone.html#adc4956e250bca4fddab30f8fa3d5e83f">TableZone</a></li>
 <li>currentMode&#160;:&#160;<a class="el" href="d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html#a3d4d8859444dd500bf4f153466552bce">VisualDatabaseDisplayColorFilterWidget</a></li>
-<li>currentPage&#160;:&#160;<a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#a6c41fbf0384743aabc6837f079e9aacf">VisualDatabaseDisplayWidget</a></li>
-<li>currentPageDisplay&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a561a20302d551aa0e1056f1fb32968a6">TabArchidekt</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#a6eee562e054886e3e35fefdf51ad87aa">TabEdhRecMain</a></li>
-<li>currentPageLayout&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a4f8e54e8cd589dbef71eab68ae2b93ad">TabArchidekt</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#af361f484921057035aa62e176acf4da4">TabEdhRecMain</a></li>
+<li>currentPage&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a8af07d541d3fe434cfb0252280c84423">TabArchidekt</a>, <a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#a6c41fbf0384743aabc6837f079e9aacf">VisualDatabaseDisplayWidget</a></li>
+<li>currentPageDisplay&#160;:&#160;<a class="el" href="de/df3/classTabEdhRecMain.html#a6eee562e054886e3e35fefdf51ad87aa">TabEdhRecMain</a></li>
+<li>currentPageLayout&#160;:&#160;<a class="el" href="de/df3/classTabEdhRecMain.html#af361f484921057035aa62e176acf4da4">TabEdhRecMain</a></li>
 <li>currentPhase&#160;:&#160;<a class="el" href="d3/df3/classGameState.html#a8bb9dc8351f0f002fb66cd4208bc4298">GameState</a></li>
 <li>currentProcessedTime&#160;:&#160;<a class="el" href="d5/d07/classReplayTimelineWidget.html#a844385674eb164fc080081b0bbb93ec3">ReplayTimelineWidget</a></li>
 <li>currentReplay&#160;:&#160;<a class="el" href="df/d89/classServer__Game.html#af3c6c8e8b21c4346224216bf31c16ea8">Server_Game</a></li>

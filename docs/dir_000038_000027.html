@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -100,7 +95,7 @@ $(function(){initNavTree('dir_92d403742a3e0828f8dabf9c7c1d5f4c.html','',''); });
 </div>
 
 <div class="contents">
-<h3>deck_editor &rarr; client Relation</h3><table class="dirtab"><tr class="dirtab"><th class="dirtab">File in cockatrice/src/interface/widgets/deck_editor</th><th class="dirtab">Includes file in cockatrice/src/client</th></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="db/d0e/deck__editor__database__display__widget_8cpp.html">deck_editor_database_display_widget.cpp</a></td><td class="dirtab"><a class="el" href="dir_d90d076d336641c2e15dddb578bb86d3.html">settings</a>&#160;/&#160;<a class="el" href="dc/db3/cache__settings_8h.html">cache_settings.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="d4/d03/deck__editor__deck__dock__widget_8cpp.html">deck_editor_deck_dock_widget.cpp</a></td><td class="dirtab"><a class="el" href="dir_d90d076d336641c2e15dddb578bb86d3.html">settings</a>&#160;/&#160;<a class="el" href="dc/db3/cache__settings_8h.html">cache_settings.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="dc/dcc/deck__editor__filter__dock__widget_8cpp.html">deck_editor_filter_dock_widget.cpp</a></td><td class="dirtab"><a class="el" href="dir_d90d076d336641c2e15dddb578bb86d3.html">settings</a>&#160;/&#160;<a class="el" href="dc/db3/cache__settings_8h.html">cache_settings.h</a></td></tr></table></div><!-- contents -->
+<h3>deck_editor &rarr; client Relation</h3><table class="dirtab"><tr class="dirtab"><th class="dirtab">File in cockatrice/src/interface/widgets/deck_editor</th><th class="dirtab">Includes file in cockatrice/src/client</th></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="db/d0e/deck__editor__database__display__widget_8cpp.html">deck_editor_database_display_widget.cpp</a></td><td class="dirtab"><a class="el" href="dir_d90d076d336641c2e15dddb578bb86d3.html">settings</a>&#160;/&#160;<a class="el" href="dc/db3/cache__settings_8h.html">cache_settings.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="d4/d03/deck__editor__deck__dock__widget_8cpp.html">deck_editor_deck_dock_widget.cpp</a></td><td class="dirtab"><a class="el" href="dir_d90d076d336641c2e15dddb578bb86d3.html">settings</a>&#160;/&#160;<a class="el" href="dc/db3/cache__settings_8h.html">cache_settings.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="dc/dcc/deck__editor__filter__dock__widget_8cpp.html">deck_editor_filter_dock_widget.cpp</a></td><td class="dirtab"><a class="el" href="dir_d90d076d336641c2e15dddb578bb86d3.html">settings</a>&#160;/&#160;<a class="el" href="dc/db3/cache__settings_8h.html">cache_settings.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="d5/d85/deck__editor__printing__selector__dock__widget_8cpp.html">deck_editor_printing_selector_dock_widget.cpp</a></td><td class="dirtab"><a class="el" href="dir_d90d076d336641c2e15dddb578bb86d3.html">settings</a>&#160;/&#160;<a class="el" href="dc/db3/cache__settings_8h.html">cache_settings.h</a></td></tr></table></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

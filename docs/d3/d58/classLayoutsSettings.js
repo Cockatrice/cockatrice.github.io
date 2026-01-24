@@ -2,6 +2,7 @@ var classLayoutsSettings =
 [
     [ "LayoutsSettings", "d3/d58/classLayoutsSettings.html#a10e9337fd533bd29dc8758711133dec6", null ],
     [ "LayoutsSettings", "d3/d58/classLayoutsSettings.html#a89d7d6fb4bf87763908e55dc5f65c932", null ],
+    [ "getDeckEditorCardDatabaseSize", "d3/d58/classLayoutsSettings.html#a99656afc3977b6790e4ce6561d93aa76", null ],
     [ "getDeckEditorCardSize", "d3/d58/classLayoutsSettings.html#a5533a38d2253d9a3bdd6f4f04b9cdc45", null ],
     [ "getDeckEditorDbHeaderState", "d3/d58/classLayoutsSettings.html#a56dc97e6816fd5346eec6d63a3054521", null ],
     [ "getDeckEditorDeckSize", "d3/d58/classLayoutsSettings.html#a482bd7dd8a2c86ee0e87c3311b6f0c0e", null ],
@@ -21,6 +22,7 @@ var classLayoutsSettings =
     [ "getReplayPlayerListSize", "d3/d58/classLayoutsSettings.html#a70637561da025fed726ff70b1276056f", null ],
     [ "getReplayReplaySize", "d3/d58/classLayoutsSettings.html#a92d700629181149d5269696fc714085b", null ],
     [ "getSetsDialogHeaderState", "d3/d58/classLayoutsSettings.html#ab6495e84973d2be5036c169772c3c08e", null ],
+    [ "setDeckEditorCardDatabaseSize", "d3/d58/classLayoutsSettings.html#aaa92c44f8e2513794093f529ce811f01", null ],
     [ "setDeckEditorCardSize", "d3/d58/classLayoutsSettings.html#a66a7dd04077c3e6b35a0161d6490f270", null ],
     [ "setDeckEditorDbHeaderState", "d3/d58/classLayoutsSettings.html#a22f0959ed1e7b40e693dd11461ed352c", null ],
     [ "setDeckEditorDeckSize", "d3/d58/classLayoutsSettings.html#ab8143de9b07149eade2f29484dc5e1d3", null ],

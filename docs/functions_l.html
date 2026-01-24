@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -148,6 +143,7 @@ $(function(){initNavTree('functions_l.html','',''); });
 <li>lastLoadedTimestamp&#160;:&#160;<a class="el" href="d3/de4/structDeckList_1_1Metadata.html#a7683438a14f101fdb9f4eba6116339ba">DeckList::Metadata</a></li>
 <li>lastLoadInfo&#160;:&#160;<a class="el" href="dd/dab/classDeckStateManager.html#a7a093a87c73b82be51eb41f2516b57e9">DeckStateManager</a>, <a class="el" href="d9/dc2/structLoadedDeck.html#aca2b86f22377d8077723f5256e4932dd">LoadedDeck</a></li>
 <li>lastModified&#160;:&#160;<a class="el" href="d9/d9c/structUnZip_1_1ZipEntry.html#a13c41e38b469edaeeaa92aec38bbe093">UnZip::ZipEntry</a></li>
+<li>lastModifiedTime&#160;:&#160;<a class="el" href="d5/d79/classDeckPreviewWidget.html#a68027471d4a40f7d0b061f57e25001e8">DeckPreviewWidget</a></li>
 <li>lastMouseEvent&#160;:&#160;<a class="el" href="da/d17/classDeckPreviewCardPictureWidget.html#afeb7eaf81cd2f05a0b5d2e60b6564454">DeckPreviewCardPictureWidget</a></li>
 <li>lastPort&#160;:&#160;<a class="el" href="db/d53/classRemoteClient.html#ae9706019dda44a2f7f31dafc3120aaae">RemoteClient</a></li>
 <li>lastRelease&#160;:&#160;<a class="el" href="d0/db2/classReleaseChannel.html#a34d45d8200d6c8fc920f0a09370eb6c1">ReleaseChannel</a></li>
@@ -191,6 +187,7 @@ $(function(){initNavTree('functions_l.html','',''); });
 <li>linkColor&#160;:&#160;<a class="el" href="dc/dea/classChatView.html#ac3501897ca7df854a58feab9c92c82f7">ChatView</a></li>
 <li>LinkReferences()&#160;:&#160;<a class="el" href="d1/dcf/structpeg_1_1LinkReferences.html#abe24655ae0df85eeb8d97bd2c9fe33ed">peg::LinkReferences</a></li>
 <li>listContainer&#160;:&#160;<a class="el" href="de/d26/classDlgSelectSetForCards.html#ad64118cd67fa298f0368654c37af495e">DlgSelectSetForCards</a></li>
+<li>listingsWidget&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a8f91d5b6863056faac2a7db0955784e4">TabArchidekt</a></li>
 <li>listLayout&#160;:&#160;<a class="el" href="de/d26/classDlgSelectSetForCards.html#a93309588a6def57b6e7bb9503304a959">DlgSelectSetForCards</a></li>
 <li>listRoomsEventReceived()&#160;:&#160;<a class="el" href="dc/d86/classAbstractClient.html#aa3781e3ea7dae9c652334bc6fed86b86">AbstractClient</a></li>
 <li>listWidget&#160;:&#160;<a class="el" href="db/dd8/classDlgDefaultTagsEditor.html#a93c59d0950c7d4b7be3cdf0a3526b6c7">DlgDefaultTagsEditor</a>, <a class="el" href="de/d26/classDlgSelectSetForCards.html#a57f4f439475ce62b756577dc949dfb21">DlgSelectSetForCards</a></li>
@@ -222,12 +219,12 @@ $(function(){initNavTree('functions_l.html','',''); });
 <li>loadFromClipboard()&#160;:&#160;<a class="el" href="df/ddd/classDeckViewContainer.html#a14786124d616a904a2911ec01651ba72">DeckViewContainer</a></li>
 <li>loadFromClipboardButton&#160;:&#160;<a class="el" href="df/ddd/classDeckViewContainer.html#a675615e579d9b7b055934d90a015f5d8">DeckViewContainer</a>, <a class="el" href="d6/df5/classVisualDatabaseDisplayNameFilterWidget.html#a35cacec62e60068c4195b21d85cd9552">VisualDatabaseDisplayNameFilterWidget</a></li>
 <li>loadFromDeckButton&#160;:&#160;<a class="el" href="d6/df5/classVisualDatabaseDisplayNameFilterWidget.html#abefaa0d9c242a7297f1eb28e8043ec1c">VisualDatabaseDisplayNameFilterWidget</a></li>
-<li>loadFromFile()&#160;:&#160;<a class="el" href="d2/d1b/classCardDatabaseLoader.html#aa1b6ffc4fc12c80961f07474705fc188">CardDatabaseLoader</a>, <a class="el" href="de/de9/classDeckLoader.html#a32c48e31149dd8bd82531d3d8b42060c">DeckLoader</a></li>
+<li>loadFromFile()&#160;:&#160;<a class="el" href="d2/d1b/classCardDatabaseLoader.html#aa1b6ffc4fc12c80961f07474705fc188">CardDatabaseLoader</a>, <a class="el" href="de/de9/classDeckLoader.html#a1f9a7cb6f8a175c62d02d1bac2591f1d">DeckLoader</a></li>
 <li>loadFromFile_Native()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#a8df3b058ff21ffcb90d6bf524cebd2c1">DeckList</a></li>
 <li>loadFromFile_Plain()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#aa79686a554e5c503baa2310e8617088e">DeckList</a></li>
-<li>loadFromFileAsync()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a8348814c92653dc3544fd39435974d8e">DeckLoader</a></li>
+<li>loadFromFileAsync()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a0f90a3500c14858eb6bc5200e77033ee">DeckLoader</a></li>
 <li>loadFromFileMutex&#160;:&#160;<a class="el" href="d2/d1b/classCardDatabaseLoader.html#ac541098b174808decac4158624ed6918">CardDatabaseLoader</a></li>
-<li>loadFromRemote()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a737e3080472f7fe6005213f6b1c17def">DeckLoader</a></li>
+<li>loadFromRemote()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a0760beaf11c3d5f4d73d21f19f9ae62b">DeckLoader</a></li>
 <li>loadFromStream_Plain()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#ad0a59ff0fd21322f9557c0ac1871a733">DeckList</a></li>
 <li>loadFromString_Native()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#a3d51a040ee02249b4e4623988f9dd041">DeckList</a></li>
 <li>loadFromWebsite()&#160;:&#160;<a class="el" href="df/ddd/classDeckViewContainer.html#a32e05ef20be3d04d09b6f12cde573c1e">DeckViewContainer</a></li>
@@ -244,7 +241,7 @@ $(function(){initNavTree('functions_l.html','',''); });
 <li>loadLocalDeck()&#160;:&#160;<a class="el" href="df/ddd/classDeckViewContainer.html#a3ce7aaa9bde9d89dd6797aebbbe632a0">DeckViewContainer</a></li>
 <li>loadLog&#160;:&#160;<a class="el" href="d1/d8e/classCardPictureLoaderStatusBar.html#a9e2f2b09549caf5c1b4d35a1de3e56ad">CardPictureLoaderStatusBar</a></li>
 <li>loadManaIcon()&#160;:&#160;<a class="el" href="d8/d8e/classManaSymbolWidget.html#ab61c26d2c49ba6947d2eee2325ca037f">ManaSymbolWidget</a></li>
-<li>loadNextPage()&#160;:&#160;<a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#a34c0f5dd7c5a8281c41874149480fe80">VisualDatabaseDisplayWidget</a></li>
+<li>loadNextPage()&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#aa3d5fc78ee607447fb1a85b3e53db9ba">TabArchidekt</a>, <a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#a34c0f5dd7c5a8281c41874149480fe80">VisualDatabaseDisplayWidget</a></li>
 <li>loadPage()&#160;:&#160;<a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#a960807436678cbc6eb2994a466465bb7">VisualDatabaseDisplayWidget</a></li>
 <li>loadPaths()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#ad2f1a79bfdd2ed465b60aa089f7c2596">SettingsCache</a></li>
 <li>loadPixmap()&#160;:&#160;<a class="el" href="d1/d0c/classCardInfoPictureEnlargedWidget.html#ab0a301aaec1551d725d4325507547fc0">CardInfoPictureEnlargedWidget</a>, <a class="el" href="dd/dd2/classCardInfoPictureWidget.html#aa6f08c35516c35eab39efd6ffbbe1ca2">CardInfoPictureWidget</a></li>

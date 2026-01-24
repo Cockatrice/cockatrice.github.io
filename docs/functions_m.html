@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -219,7 +214,7 @@ $(function(){initNavTree('functions_m.html','',''); });
 <li>mentionFormat&#160;:&#160;<a class="el" href="dc/dea/classChatView.html#a7754ee58b5e56b7bf8b3ab677a064fbe">ChatView</a></li>
 <li>mentionFormatOtherUser&#160;:&#160;<a class="el" href="dc/dea/classChatView.html#a8906c803e6c1205885439486426bd48e">ChatView</a></li>
 <li>mentionPopups&#160;:&#160;<a class="el" href="d2/dae/classMessagesSettingsPage.html#a47f6860c327d49d70663183ba9cd741c">MessagesSettingsPage</a></li>
-<li>menu&#160;:&#160;<a class="el" href="d4/d67/classAbstractCounter.html#a8b117dcc3e253348e5698a046006cbba">AbstractCounter</a>, <a class="el" href="d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#aa5ed3a7109953c59d22312c145f89593">AbstractTabDeckEditor::DockActions</a>, <a class="el" href="df/d2a/classArrowItem.html#a223defc77c826b403f3e792293fa81e2">ArrowItem</a>, <a class="el" href="de/da1/classCardZone.html#aad35010decbc77030c2ffae06ebb3c26">CardZone</a></li>
+<li>menu&#160;:&#160;<a class="el" href="d4/d67/classAbstractCounter.html#a8b117dcc3e253348e5698a046006cbba">AbstractCounter</a>, <a class="el" href="d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#aa5ed3a7109953c59d22312c145f89593">AbstractTabDeckEditor::DockActions</a>, <a class="el" href="df/d2a/classArrowItem.html#a223defc77c826b403f3e792293fa81e2">ArrowItem</a>, <a class="el" href="de/da1/classCardZone.html#aad35010decbc77030c2ffae06ebb3c26">CardZone</a>, <a class="el" href="df/d16/structTabGame_1_1DockActions.html#ab6d7afb81ee05dffce236526d5b4b241">TabGame::DockActions</a></li>
 <li>menuGroupBox&#160;:&#160;<a class="el" href="d8/dc5/classAppearanceSettingsPage.html#a85c619be68c21926d15b6ed32222978d">AppearanceSettingsPage</a></li>
 <li>message&#160;:&#160;<a class="el" href="db/da9/structpeg_1_1ErrorInfo.html#accd9464147a8bc6950a0fc82c64045fc">peg::ErrorInfo</a></li>
 <li>message_pos&#160;:&#160;<a class="el" href="db/da9/structpeg_1_1ErrorInfo.html#a18ccf43b97ee8a7a58f02738455bc853">peg::ErrorInfo</a></li>
@@ -233,7 +228,6 @@ $(function(){initNavTree('functions_m.html','',''); });
 <li>messageGroupBox&#160;:&#160;<a class="el" href="d2/dae/classMessagesSettingsPage.html#a16f6c3fa546241fffe66746261704af9">MessagesSettingsPage</a></li>
 <li>messageInProgress&#160;:&#160;<a class="el" href="d0/de8/classIslInterface.html#a7ac595b6e7ae98ded3ab420b07af4e13">IslInterface</a>, <a class="el" href="db/d53/classRemoteClient.html#a7c36c7c539a666829a3cfbaf3d33f348">RemoteClient</a>, <a class="el" href="dd/d13/classTcpServerSocketInterface.html#aa0661e2b8da4d97e78b303a09e72051b">TcpServerSocketInterface</a></li>
 <li>messageLayoutDock&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#ae20ddae03aa702dcb8e3e03e0b71c07c">TabGame</a></li>
-<li>messageLayoutDockMenu&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#ac3566c4605e9de97cbd6ebb3438c7752">TabGame</a></li>
 <li>messageLength&#160;:&#160;<a class="el" href="d0/de8/classIslInterface.html#a7b52d2c0798d9a9116fa95e056044ccc">IslInterface</a>, <a class="el" href="db/d53/classRemoteClient.html#aee29acf1e71e072c65290c4c59269e40">RemoteClient</a>, <a class="el" href="dd/d13/classTcpServerSocketInterface.html#add4f9e952bd0ce92b2b97be8fde9e599">TcpServerSocketInterface</a></li>
 <li>messageList&#160;:&#160;<a class="el" href="d2/dae/classMessagesSettingsPage.html#ad68ffdb1e3d71f64a461dbb3fcc80798">MessagesSettingsPage</a></li>
 <li>messageLog&#160;:&#160;<a class="el" href="d8/df0/classSaveSetsPage.html#a74f7afcaff9a72cf4fd11729bd2d9348">SaveSetsPage</a>, <a class="el" href="de/d08/classTabGame.html#aeaec62740557b22f4927320d364a083a">TabGame</a></li>
@@ -264,7 +258,6 @@ $(function(){initNavTree('functions_m.html','',''); });
 <li>min_&#160;:&#160;<a class="el" href="df/de3/classpeg_1_1Repetition.html#af446f200e7c0090fce2a82519aa4bcd3">peg::Repetition</a></li>
 <li>MIN_WIDTH&#160;:&#160;<a class="el" href="d6/d6f/classTableZone.html#ac6727616c3cefb55d2696bc0168aee22">TableZone</a></li>
 <li>minDeckSize&#160;:&#160;<a class="el" href="d2/da9/structFormatRules.html#ab0679d779f97c7da4465868337ac75fe">FormatRules</a></li>
-<li>minDeckSizeLabel&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a27b9726dbab8d99d640ac1fad592d3b1">TabArchidekt</a></li>
 <li>minDeckSizeLogicCombo&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a4dc030728fdee5fb779621628b2ce5f7">TabArchidekt</a></li>
 <li>minDeckSizeSpin&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a30c7b9a5cf431e5968595d1958ee61a7">TabArchidekt</a></li>
 <li>minimumSize()&#160;:&#160;<a class="el" href="de/d8b/classFlowLayout.html#a18816b6e9008a0731af92749975ce63f">FlowLayout</a>, <a class="el" href="dd/d39/classOverlapLayout.html#a042656102109645a6cf26622fd6496ba">OverlapLayout</a></li>

@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -133,8 +128,8 @@ $(function(){initNavTree('de/dda/settings__card__preference__provider_8h_source.
 <div class="ttc" id="acache__settings_8h_html"><div class="ttname"><a href="../../dc/db3/cache__settings_8h.html">cache_settings.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
 <div class="ttc" id="aclassCardOverrideSettings_html_a718ff6e7bf35c90929f665c8ebeda879"><div class="ttname"><a href="../../d8/d12/classCardOverrideSettings.html#a718ff6e7bf35c90929f665c8ebeda879">CardOverrideSettings::getCardPreferenceOverride</a></div><div class="ttdeci">QString getCardPreferenceOverride(const QString &amp;cardName)</div><div class="ttdef"><b>Definition</b> card_override_settings.cpp:18</div></div>
 <div class="ttc" id="aclassICardPreferenceProvider_html"><div class="ttname"><a href="../../db/df2/classICardPreferenceProvider.html">ICardPreferenceProvider</a></div><div class="ttdef"><b>Definition</b> interface_card_preference_provider.h:7</div></div>
-<div class="ttc" id="aclassSettingsCache_html_a44bbf43240c99c511fa27feaa66683b5"><div class="ttname"><a href="../../d5/d88/classSettingsCache.html#a44bbf43240c99c511fa27feaa66683b5">SettingsCache::cardOverrides</a></div><div class="ttdeci">CardOverrideSettings &amp; cardOverrides() const</div><div class="ttdef"><b>Definition</b> cache_settings.h:963</div></div>
-<div class="ttc" id="aclassSettingsCache_html_a7f694f9f86ffc775ddbff7741bdb29a6"><div class="ttname"><a href="../../d5/d88/classSettingsCache.html#a7f694f9f86ffc775ddbff7741bdb29a6">SettingsCache::getIncludeRebalancedCards</a></div><div class="ttdeci">bool getIncludeRebalancedCards() const</div><div class="ttdef"><b>Definition</b> cache_settings.h:588</div></div>
+<div class="ttc" id="aclassSettingsCache_html_a44bbf43240c99c511fa27feaa66683b5"><div class="ttname"><a href="../../d5/d88/classSettingsCache.html#a44bbf43240c99c511fa27feaa66683b5">SettingsCache::cardOverrides</a></div><div class="ttdeci">CardOverrideSettings &amp; cardOverrides() const</div><div class="ttdef"><b>Definition</b> cache_settings.h:969</div></div>
+<div class="ttc" id="aclassSettingsCache_html_a7f694f9f86ffc775ddbff7741bdb29a6"><div class="ttname"><a href="../../d5/d88/classSettingsCache.html#a7f694f9f86ffc775ddbff7741bdb29a6">SettingsCache::getIncludeRebalancedCards</a></div><div class="ttdeci">bool getIncludeRebalancedCards() const</div><div class="ttdef"><b>Definition</b> cache_settings.h:590</div></div>
 <div class="ttc" id="aclassSettingsCache_html_adfa7f9f975919981b992db1fca9e4957"><div class="ttname"><a href="../../d5/d88/classSettingsCache.html#adfa7f9f975919981b992db1fca9e4957">SettingsCache::instance</a></div><div class="ttdeci">static SettingsCache &amp; instance()</div><div class="ttdef"><b>Definition</b> cache_settings.cpp:20</div></div>
 <div class="ttc" id="aclassSettingsCardPreferenceProvider_html"><div class="ttname"><a href="../../d4/d04/classSettingsCardPreferenceProvider.html">SettingsCardPreferenceProvider</a></div><div class="ttdef"><b>Definition</b> settings_card_preference_provider.h:8</div></div>
 <div class="ttc" id="aclassSettingsCardPreferenceProvider_html_a8eb719394cb9f75f1a8a4567b68efe5f"><div class="ttname"><a href="../../d4/d04/classSettingsCardPreferenceProvider.html#a8eb719394cb9f75f1a8a4567b68efe5f">SettingsCardPreferenceProvider::getCardPreferenceOverride</a></div><div class="ttdeci">QString getCardPreferenceOverride(const QString &amp;cardName) const override</div><div class="ttdef"><b>Definition</b> settings_card_preference_provider.h:10</div></div>

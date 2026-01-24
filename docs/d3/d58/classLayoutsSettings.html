@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -120,6 +115,7 @@ Collaboration diagram for LayoutsSettings:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa9423b95a15309c32419a74a176a84ae" id="r_aa9423b95a15309c32419a74a176a84ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9423b95a15309c32419a74a176a84ae">setDeckEditorLayoutState</a> (const QByteArray &amp;value)</td></tr>
 <tr class="memitem:a28b068aa2b7986126956168e1f9e1e54" id="r_a28b068aa2b7986126956168e1f9e1e54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28b068aa2b7986126956168e1f9e1e54">setDeckEditorGeometry</a> (const QByteArray &amp;value)</td></tr>
+<tr class="memitem:aaa92c44f8e2513794093f529ce811f01" id="r_aaa92c44f8e2513794093f529ce811f01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa92c44f8e2513794093f529ce811f01">setDeckEditorCardDatabaseSize</a> (const QSize &amp;value)</td></tr>
 <tr class="memitem:a66a7dd04077c3e6b35a0161d6490f270" id="r_a66a7dd04077c3e6b35a0161d6490f270"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66a7dd04077c3e6b35a0161d6490f270">setDeckEditorCardSize</a> (const QSize &amp;value)</td></tr>
 <tr class="memitem:ab8143de9b07149eade2f29484dc5e1d3" id="r_ab8143de9b07149eade2f29484dc5e1d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8143de9b07149eade2f29484dc5e1d3">setDeckEditorDeckSize</a> (const QSize &amp;value)</td></tr>
 <tr class="memitem:a67a57cd18b7b8658d6efc46fde106c82" id="r_a67a57cd18b7b8658d6efc46fde106c82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67a57cd18b7b8658d6efc46fde106c82">setDeckEditorPrintingSelectorSize</a> (const QSize &amp;value)</td></tr>
@@ -139,6 +135,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7590245c00a885d96f3f49a2d2614270" id="r_a7590245c00a885d96f3f49a2d2614270"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7590245c00a885d96f3f49a2d2614270">setReplayReplaySize</a> (const QSize &amp;value)</td></tr>
 <tr class="memitem:a9d8742f786665c504b20579c384c356a" id="r_a9d8742f786665c504b20579c384c356a"><td class="memItemLeft" align="right" valign="top">const QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d8742f786665c504b20579c384c356a">getDeckEditorLayoutState</a> ()</td></tr>
 <tr class="memitem:aba797144e544fd543569fecfeaddbf33" id="r_aba797144e544fd543569fecfeaddbf33"><td class="memItemLeft" align="right" valign="top">const QByteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba797144e544fd543569fecfeaddbf33">getDeckEditorGeometry</a> ()</td></tr>
+<tr class="memitem:a99656afc3977b6790e4ce6561d93aa76" id="r_a99656afc3977b6790e4ce6561d93aa76"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99656afc3977b6790e4ce6561d93aa76">getDeckEditorCardDatabaseSize</a> ()</td></tr>
 <tr class="memitem:a5533a38d2253d9a3bdd6f4f04b9cdc45" id="r_a5533a38d2253d9a3bdd6f4f04b9cdc45"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5533a38d2253d9a3bdd6f4f04b9cdc45">getDeckEditorCardSize</a> ()</td></tr>
 <tr class="memitem:a482bd7dd8a2c86ee0e87c3311b6f0c0e" id="r_a482bd7dd8a2c86ee0e87c3311b6f0c0e"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a482bd7dd8a2c86ee0e87c3311b6f0c0e">getDeckEditorDeckSize</a> ()</td></tr>
 <tr class="memitem:acb2cbf022f7e40f33b3971b5dc688a65" id="r_acb2cbf022f7e40f33b3971b5dc688a65"><td class="memItemLeft" align="right" valign="top">QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb2cbf022f7e40f33b3971b5dc688a65">getDeckEditorPrintingSelectorSize</a> ()</td></tr>
@@ -254,6 +251,33 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a99656afc3977b6790e4ce6561d93aa76" name="a99656afc3977b6790e4ce6561d93aa76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99656afc3977b6790e4ce6561d93aa76">&#9670;&#160;</a></span>getDeckEditorCardDatabaseSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize LayoutsSettings::getDeckEditorCardDatabaseSize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d58/classLayoutsSettings_a99656afc3977b6790e4ce6561d93aa76_cgraph.svg" width="444" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d58/classLayoutsSettings_a99656afc3977b6790e4ce6561d93aa76_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a5533a38d2253d9a3bdd6f4f04b9cdc45" name="a5533a38d2253d9a3bdd6f4f04b9cdc45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5533a38d2253d9a3bdd6f4f04b9cdc45">&#9670;&#160;</a></span>getDeckEditorCardSize()</h2>
 
@@ -763,6 +787,33 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d58/classLayoutsSettings_ab6495e84973d2be5036c169772c3c08e_icgraph.svg" width="386" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aaa92c44f8e2513794093f529ce811f01" name="aaa92c44f8e2513794093f529ce811f01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa92c44f8e2513794093f529ce811f01">&#9670;&#160;</a></span>setDeckEditorCardDatabaseSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LayoutsSettings::setDeckEditorCardDatabaseSize </td>
+          <td>(</td>
+          <td class="paramtype">const QSize &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d58/classLayoutsSettings_aaa92c44f8e2513794093f529ce811f01_cgraph.svg" width="442" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d58/classLayoutsSettings_aaa92c44f8e2513794093f529ce811f01_icgraph.svg" width="439" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

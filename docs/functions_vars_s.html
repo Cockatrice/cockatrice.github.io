@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -129,7 +124,7 @@ $(function(){initNavTree('functions_vars_s.html','',''); });
 <li>scgLabel&#160;:&#160;<a class="el" href="d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#aa906e37234431c4d0eac8f627b8706d5">EdhrecApiResponseCardPricesDisplayWidget</a></li>
 <li>scgPrice&#160;:&#160;<a class="el" href="d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#aa92636f7ec8fd96617b8ca46704efb93">EdhrecApiResponseCardPricesDisplayWidget</a></li>
 <li>scgSku&#160;:&#160;<a class="el" href="d2/d63/classArchidektApiResponseCard.html#ac21c40e58cb1fa773621a6256ea382a4">ArchidektApiResponseCard</a></li>
-<li>scrollArea&#160;:&#160;<a class="el" href="d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#aa571c31f831fb5628f0351a2b437f0b9">ArchidektApiResponseDeckDisplayWidget</a>, <a class="el" href="d4/d77/classDeckAnalyticsWidget.html#a77595c305bcc884c9563b2f193a0b038">DeckAnalyticsWidget</a>, <a class="el" href="de/d26/classDlgSelectSetForCards.html#a03a05646339876737136e121ef6dee01">DlgSelectSetForCards</a>, <a class="el" href="d3/dfa/classEdhrecCommanderApiResponseDisplayWidget.html#acded071bb8f045cefca336cadea62c92">EdhrecCommanderApiResponseDisplayWidget</a>, <a class="el" href="d4/d65/classEdhrecTopCardsApiResponseDisplayWidget.html#a7afadfeb27470e04a8acecfaf9f251de">EdhrecTopCardsApiResponseDisplayWidget</a>, <a class="el" href="dd/d06/classEdhrecTopCommandersApiResponseDisplayWidget.html#a0f9e5ab606426579ceefed287b04939a">EdhrecTopCommandersApiResponseDisplayWidget</a>, <a class="el" href="d5/d61/classEdhrecTopTagsApiResponseDisplayWidget.html#a4bbf90fde46db51971f2b9d664599de2">EdhrecTopTagsApiResponseDisplayWidget</a>, <a class="el" href="d5/d53/classFlowWidget.html#a1bcc0dc7209e0bbf743f13900826cb7c">FlowWidget</a>, <a class="el" href="d1/d7d/classSettingsPopupWidget.html#a1b1472fb84aadb16d2911372792eaf35">SettingsPopupWidget</a>, <a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#ab37fbed59e04e459ddc24ff3db035a2b">VisualDatabaseDisplayWidget</a>, <a class="el" href="da/d1e/classVisualDeckEditorWidget.html#ac092fa2fa8560d5728ccdd78c42e5667">VisualDeckEditorWidget</a>, <a class="el" href="d0/dfe/classVisualDeckStorageWidget.html#ac61f87fecc280a0eb23e0dd44ec8fd7a">VisualDeckStorageWidget</a></li>
+<li>scrollArea&#160;:&#160;<a class="el" href="d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#aa571c31f831fb5628f0351a2b437f0b9">ArchidektApiResponseDeckDisplayWidget</a>, <a class="el" href="d4/d77/classDeckAnalyticsWidget.html#a77595c305bcc884c9563b2f193a0b038">DeckAnalyticsWidget</a>, <a class="el" href="de/d26/classDlgSelectSetForCards.html#a03a05646339876737136e121ef6dee01">DlgSelectSetForCards</a>, <a class="el" href="d3/dfa/classEdhrecCommanderApiResponseDisplayWidget.html#acded071bb8f045cefca336cadea62c92">EdhrecCommanderApiResponseDisplayWidget</a>, <a class="el" href="d4/d65/classEdhrecTopCardsApiResponseDisplayWidget.html#a7afadfeb27470e04a8acecfaf9f251de">EdhrecTopCardsApiResponseDisplayWidget</a>, <a class="el" href="dd/d06/classEdhrecTopCommandersApiResponseDisplayWidget.html#a0f9e5ab606426579ceefed287b04939a">EdhrecTopCommandersApiResponseDisplayWidget</a>, <a class="el" href="d5/d61/classEdhrecTopTagsApiResponseDisplayWidget.html#a4bbf90fde46db51971f2b9d664599de2">EdhrecTopTagsApiResponseDisplayWidget</a>, <a class="el" href="d5/d53/classFlowWidget.html#a1bcc0dc7209e0bbf743f13900826cb7c">FlowWidget</a>, <a class="el" href="d1/d7d/classSettingsPopupWidget.html#a1b1472fb84aadb16d2911372792eaf35">SettingsPopupWidget</a>, <a class="el" href="db/d5d/classTabArchidekt.html#a475b3bba471d5a484a97eaa96bb04222">TabArchidekt</a>, <a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#ab37fbed59e04e459ddc24ff3db035a2b">VisualDatabaseDisplayWidget</a>, <a class="el" href="da/d1e/classVisualDeckEditorWidget.html#ac092fa2fa8560d5728ccdd78c42e5667">VisualDeckEditorWidget</a>, <a class="el" href="d0/dfe/classVisualDeckStorageWidget.html#ac61f87fecc280a0eb23e0dd44ec8fd7a">VisualDeckStorageWidget</a></li>
 <li>scrollBar&#160;:&#160;<a class="el" href="d0/dd9/classZoneViewWidget.html#a1ed3be25bee1153295e193dabc57649f">ZoneViewWidget</a></li>
 <li>scrollBarProxy&#160;:&#160;<a class="el" href="d0/dd9/classZoneViewWidget.html#a70a6d237eeb8e365a85eadcf2193966a">ZoneViewWidget</a></li>
 <li>scryfallImageHash&#160;:&#160;<a class="el" href="d2/d63/classArchidektApiResponseCard.html#af2bae018b1bc94f3b86de7b13f5f86c3">ArchidektApiResponseCard</a></li>
@@ -140,6 +135,7 @@ $(function(){initNavTree('functions_vars_s.html','',''); });
 <li>searchAndSortLayout&#160;:&#160;<a class="el" href="d0/dfe/classVisualDeckStorageWidget.html#a186329056bfa0d36a4145e40ad13b0e5">VisualDeckStorageWidget</a></li>
 <li>searchBar&#160;:&#160;<a class="el" href="df/dac/classGameSelectorQuickFilterToolBar.html#a9010305eb2202a4d2733e097a885a65e">GameSelectorQuickFilterToolBar</a>, <a class="el" href="d7/dbc/classPrintingSelector.html#a7c2b2d6ba291f44bced93b36466270e9">PrintingSelector</a>, <a class="el" href="d2/d4b/classPrintingSelectorCardSearchWidget.html#ac64bc342db65e46a81ed831048e86c09">PrintingSelectorCardSearchWidget</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#a6a7091177039a8731ac7e3b3386abea5">TabEdhRecMain</a>, <a class="el" href="da/d1e/classVisualDeckEditorWidget.html#adb8b17deca2b25f20b3496888967b724">VisualDeckEditorWidget</a>, <a class="el" href="d8/d1c/classVisualDeckStorageSearchWidget.html#a307b2788777299763e65582d1c748ba9">VisualDeckStorageSearchWidget</a></li>
 <li>searchBox&#160;:&#160;<a class="el" href="d6/df5/classVisualDatabaseDisplayNameFilterWidget.html#a4835789e377767d4c063b7e45244b00b">VisualDatabaseDisplayNameFilterWidget</a>, <a class="el" href="d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#a721e25e778607d4ec88b4b428d8c937c">VisualDatabaseDisplaySetFilterWidget</a>, <a class="el" href="da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#a828b6d75e3510f99bedaacbcb917fdb5">VisualDatabaseDisplaySubTypeFilterWidget</a></li>
+<li>searchButton&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#ad39badaeb99800f5328f89d1cffb0d34">TabArchidekt</a></li>
 <li>searchContainer&#160;:&#160;<a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#a14d65b3e7ba5e729a1d89af7d8def161">VisualDatabaseDisplayWidget</a></li>
 <li>searchDebounceTimer&#160;:&#160;<a class="el" href="d2/d4b/classPrintingSelectorCardSearchWidget.html#a261d95f7f24294ad8d362368232463b1">PrintingSelectorCardSearchWidget</a>, <a class="el" href="db/d5d/classTabArchidekt.html#a2e5fff4e6edee2273254fefa36751df3">TabArchidekt</a>, <a class="el" href="d8/d1c/classVisualDeckStorageSearchWidget.html#a77bd754c665ff177d87348193ecaec44">VisualDeckStorageSearchWidget</a></li>
 <li>searchDock&#160;:&#160;<a class="el" href="d9/ded/classTabLog.html#a43b19425e3284a3fd7b0e9747c654db0">TabLog</a></li>
@@ -150,9 +146,11 @@ $(function(){initNavTree('functions_vars_s.html','',''); });
 <li>searchKeySignals&#160;:&#160;<a class="el" href="d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a5f1f142e86b8b450ff6d35a51ebb3cfe">DeckEditorDatabaseDisplayWidget</a>, <a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#aacd2861cbdf297b84950cbf59ad2e490">VisualDatabaseDisplayWidget</a></li>
 <li>searchLabel&#160;:&#160;<a class="el" href="dd/d67/classWndSets.html#a7e03713d0dd1505ea621adb8522d4691">WndSets</a></li>
 <li>searchLayout&#160;:&#160;<a class="el" href="d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a7b3e57734c403a139121bf7c0105d88b">DeckEditorDatabaseDisplayWidget</a>, <a class="el" href="dc/d63/classTabDeckEditorVisual.html#a875bb76815fd5001f6c6db296063176f">TabDeckEditorVisual</a>, <a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#a0224e40e045bcb9134f3c122bd0ca497">VisualDatabaseDisplayWidget</a></li>
-<li>searchPushButton&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#ad7891af69baa316e0e93a0caae78bc11">TabArchidekt</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#a6245980bbd88363de22d9a6793d91a89">TabEdhRecMain</a>, <a class="el" href="da/d1e/classVisualDeckEditorWidget.html#a5170d5d4faea6579572a4b86f6f39dfa">VisualDeckEditorWidget</a></li>
+<li>searchPushButton&#160;:&#160;<a class="el" href="de/df3/classTabEdhRecMain.html#a6245980bbd88363de22d9a6793d91a89">TabEdhRecMain</a>, <a class="el" href="da/d1e/classVisualDeckEditorWidget.html#a5170d5d4faea6579572a4b86f6f39dfa">VisualDeckEditorWidget</a></li>
 <li>searchResults&#160;:&#160;<a class="el" href="d3/da6/classCardSearchModel.html#a5ed2d28643481fc590c45042726ff3d4">CardSearchModel</a></li>
 <li>searchWidget&#160;:&#160;<a class="el" href="d0/dfe/classVisualDeckStorageWidget.html#a9416f07fea63443859b91f05d4c526d2">VisualDeckStorageWidget</a></li>
+<li>secondaryToolbar&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#ad157481792b236875fd6125ac5a9d9ce">TabArchidekt</a></li>
+<li>secondaryToolbarLayout&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a08217c11a3ad45061d4b908cc2db7a70">TabArchidekt</a></li>
 <li>secondsElapsed&#160;:&#160;<a class="el" href="d3/df3/classGameState.html#a0d619d1acd4a13a2051bd5e76dec158e">GameState</a>, <a class="el" href="df/d89/classServer__Game.html#a888980f69c9e480565b344ef0208a4dd">Server_Game</a></li>
 <li>seenTips&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a284047004e726c00228f3b3d45483e15">SettingsCache</a></li>
 <li>segments&#160;:&#160;<a class="el" href="dc/da2/structBarData.html#ab92b691de65d509db8390319b0aabeef">BarData</a>, <a class="el" href="d9/d18/classSegmentedBarWidget.html#a165cfd93340d6cfffb630b3fe2358295">SegmentedBarWidget</a></li>
@@ -201,7 +199,7 @@ $(function(){initNavTree('functions_vars_s.html','',''); });
 <li>setsNames&#160;:&#160;<a class="el" href="dd/dd2/classCardInfo.html#acd172ab75cc38f32f6a0cfd51be68636">CardInfo</a></li>
 <li>setsToPrintings&#160;:&#160;<a class="el" href="dd/dd2/classCardInfo.html#a968d68d4a320dcf59c3d66ca0d96de90">CardInfo</a></li>
 <li>settings&#160;:&#160;<a class="el" href="d5/dba/classOracleWizard.html#a77a630fcb314cc55b95d433e504b771d">OracleWizard</a>, <a class="el" href="d5/d88/classSettingsCache.html#abcd8157a3bd16e7a2b0fd4ff1419e86a">SettingsCache</a>, <a class="el" href="d1/dea/classSettingsManager.html#af95d5d2cc65d957342d4010dc71ac3e3">SettingsManager</a></li>
-<li>settingsButton&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a1d0bcea49b4e706642a9309061b91025">TabArchidekt</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#a21f1b0819c3a0d063de853737e40f11d">TabEdhRecMain</a></li>
+<li>settingsButton&#160;:&#160;<a class="el" href="d6/d64/classPrintingDisabledInfoWidget.html#a7cb61945b2b3299d4fc9fc77c4046379">PrintingDisabledInfoWidget</a>, <a class="el" href="db/d5d/classTabArchidekt.html#a1d0bcea49b4e706642a9309061b91025">TabArchidekt</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#a21f1b0819c3a0d063de853737e40f11d">TabEdhRecMain</a></li>
 <li>settingsFilePath&#160;:&#160;<a class="el" href="da/d38/classShortcutsSettings.html#a4600b4083fd966377cc8d314373a3ffc">ShortcutsSettings</a></li>
 <li>setType&#160;:&#160;<a class="el" href="d6/d3d/classCardSet.html#af6d75bfb31706014858cba2db0dd6274">CardSet</a>, <a class="el" href="d8/dc3/classSetToDownload.html#ad71d388f20726d306f4fe8e5d4fb4cc5">SetToDownload</a></li>
 <li>sfmt&#160;:&#160;<a class="el" href="d4/dc7/classRNG__SFMT.html#a694f37eabdc7c647603a04c54fe49d07">RNG_SFMT</a></li>
@@ -222,6 +220,7 @@ $(function(){initNavTree('functions_vars_s.html','',''); });
 <li>showBannerCardComboBoxCheckBox&#160;:&#160;<a class="el" href="d7/d92/classVisualDeckStorageQuickSettingsWidget.html#afaacba52180ed0f17d4edf0af5d41fd6">VisualDeckStorageQuickSettingsWidget</a></li>
 <li>showCategoryRows&#160;:&#160;<a class="el" href="d6/d55/structManaCurveConfig.html#aee6e0a70b4aabd082813fc10590b3fd7">ManaCurveConfig</a></li>
 <li>showCatRows&#160;:&#160;<a class="el" href="d5/de0/classManaCurveConfigDialog.html#a66c0abdc9aba41ac3c414e4597619687">ManaCurveConfigDialog</a></li>
+<li>showColorIdentityCheckBox&#160;:&#160;<a class="el" href="d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a05ed4861999eee54dd0c706591260c53">VisualDeckStorageQuickSettingsWidget</a></li>
 <li>showColorRows&#160;:&#160;<a class="el" href="d7/d68/structManaDistributionConfig.html#a877d84b55910259738729d9487e873a6">ManaDistributionConfig</a>, <a class="el" href="d0/da7/classManaDistributionConfigDialog.html#a5befe62c47922f3814328d5bee93027e">ManaDistributionConfigDialog</a></li>
 <li>showFilters&#160;:&#160;<a class="el" href="df/d3f/classGameSelector.html#a471430f639605dfe80a280092650e044">GameSelector</a></li>
 <li>showFolders&#160;:&#160;<a class="el" href="da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad63e8c9fe2693f5f993e92fefdd45ea6">VisualDeckStorageFolderDisplayWidget</a></li>
@@ -282,7 +281,7 @@ $(function(){initNavTree('functions_vars_s.html','',''); });
 <li>sortAndOptionsContainer&#160;:&#160;<a class="el" href="d7/dbc/classPrintingSelector.html#a4f9333ad281bbec7ebbcc640b5736bf3">PrintingSelector</a></li>
 <li>sortAndOptionsLayout&#160;:&#160;<a class="el" href="d7/dbc/classPrintingSelector.html#ad05cca9eb58859565eacb707e051456a">PrintingSelector</a></li>
 <li>sortBy&#160;:&#160;<a class="el" href="d0/db5/classZoneViewZone.html#a2846ad5923e84a97ea1649400fbf86b2">ZoneViewZone</a></li>
-<li>sortByLabel&#160;:&#160;<a class="el" href="d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#ae117317f33c3d558f350551b5d8630e5">VisualDatabaseDisplayFilterToolbarWidget</a>, <a class="el" href="dc/de4/classVisualDeckDisplayOptionsWidget.html#a753def86ca38930e1bbd7e67920aa21d">VisualDeckDisplayOptionsWidget</a></li>
+<li>sortByLabel&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a61b5e0d73d49534475e8e6e20570e3af">TabArchidekt</a>, <a class="el" href="d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#ae117317f33c3d558f350551b5d8630e5">VisualDatabaseDisplayFilterToolbarWidget</a>, <a class="el" href="dc/de4/classVisualDeckDisplayOptionsWidget.html#a753def86ca38930e1bbd7e67920aa21d">VisualDeckDisplayOptionsWidget</a></li>
 <li>sortByListWidget&#160;:&#160;<a class="el" href="dc/de4/classVisualDeckDisplayOptionsWidget.html#ad361a221a800338ea2f9c88fd05657bc">VisualDeckDisplayOptionsWidget</a></li>
 <li>sortBySelector&#160;:&#160;<a class="el" href="d0/dd9/classZoneViewWidget.html#a7eeccd29e0337718f410ca1a170d1c00">ZoneViewWidget</a></li>
 <li>sortColumnCombo&#160;:&#160;<a class="el" href="d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a57cc1c07f0ea2fc1caae8e4ec94ac190">VisualDatabaseDisplayFilterToolbarWidget</a></li>

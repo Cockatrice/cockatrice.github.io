@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -118,8 +113,9 @@ $(function(){initNavTree('functions_n.html','',''); });
 <li>nameWarning&#160;:&#160;<a class="el" href="d4/d0d/classWarningDialog.html#a35ab5b57fbd3a1d67efcacd2b4462d22">WarningDialog</a></li>
 <li>navigationAndPricesLayout&#160;:&#160;<a class="el" href="d0/dd1/classEdhrecCommanderResponseCommanderDetailsDisplayWidget.html#a15aab03d8f72cd659fe9361d62cf3ffe">EdhrecCommanderResponseCommanderDetailsDisplayWidget</a></li>
 <li>navigationCheckBox&#160;:&#160;<a class="el" href="d7/dbc/classPrintingSelector.html#a537cf70ae5a762c8eeaeb384bd6f75a0">PrintingSelector</a></li>
-<li>navigationContainer&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a4381a73b80450ae98d49099daf4fb6f7">TabArchidekt</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#aa2fcb551708e7e4162299468585186c1">TabEdhRecMain</a></li>
-<li>navigationLayout&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a0e76cd85656e8bc78a178f1835c7738d">TabArchidekt</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#a02792c427ba6d98fe467b4f9aec30022">TabEdhRecMain</a></li>
+<li>navigationContainer&#160;:&#160;<a class="el" href="d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#a9f3db63407c77a9b446ad624e14b61c1">ArchidektApiResponseDeckDisplayWidget</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#aa2fcb551708e7e4162299468585186c1">TabEdhRecMain</a></li>
+<li>navigationContainerLayout&#160;:&#160;<a class="el" href="d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#a81e55adc866d0fd5eb78ba9b60273e17">ArchidektApiResponseDeckDisplayWidget</a></li>
+<li>navigationLayout&#160;:&#160;<a class="el" href="de/df3/classTabEdhRecMain.html#a02792c427ba6d98fe467b4f9aec30022">TabEdhRecMain</a></li>
 <li>navigationWidget&#160;:&#160;<a class="el" href="d0/dd1/classEdhrecCommanderResponseCommanderDetailsDisplayWidget.html#ac8e855fd26ba849f5f6c423c09aa4992">EdhrecCommanderResponseCommanderDetailsDisplayWidget</a></li>
 <li>negated_&#160;:&#160;<a class="el" href="db/de0/classpeg_1_1CharacterClass.html#a0169f1c5d3a0c8cba23dde36605b3cd3">peg::CharacterClass</a></li>
 <li>netMan&#160;:&#160;<a class="el" href="d0/db2/classReleaseChannel.html#a568d3a2c6bb5b6c2093b13bee8437fb8">ReleaseChannel</a>, <a class="el" href="db/df5/classUpdateDownloader.html#aea6544915e47459a19e64b475d78ee45">UpdateDownloader</a></li>

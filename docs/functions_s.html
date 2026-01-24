@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -135,14 +130,15 @@ $(function(){initNavTree('functions_s.html','',''); });
 <li>saveRedirectCache()&#160;:&#160;<a class="el" href="d6/da1/classCardPictureLoaderWorker.html#a29f1d609e64d89f29874fc74c28aaaa2">CardPictureLoaderWorker</a></li>
 <li>SaveSetsPage()&#160;:&#160;<a class="el" href="d8/df0/classSaveSetsPage.html#a42ce72bdce1adf55a60e33fc4b4a53ab">SaveSetsPage</a></li>
 <li>saveToClipboard()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#aa000edddeb93bce35c8ae4b86697b34c">DeckLoader</a></li>
-<li>saveToFile()&#160;:&#160;<a class="el" href="d5/dba/classCockatriceXml3Parser.html#ab662948b7fc441506ae8fad0e2380cdc">CockatriceXml3Parser</a>, <a class="el" href="dc/d53/classCockatriceXml4Parser.html#af098532fd597f6e57bed9b2c8aa10d7d">CockatriceXml4Parser</a>, <a class="el" href="de/de9/classDeckLoader.html#ac34de2cc915993afcd889811e50f224c">DeckLoader</a>, <a class="el" href="d4/dfe/classICardDatabaseParser.html#a4ed61d5daf8eccca140d31ef257c32c9">ICardDatabaseParser</a>, <a class="el" href="db/d70/classOracleImporter.html#af9af03e429f02cd05f58a0e3bb30a5ea">OracleImporter</a>, <a class="el" href="d7/d53/classSimpleDownloadFilePage.html#a8b7bb5194a28b31fcec1d5aa7d2385a1">SimpleDownloadFilePage</a></li>
-<li>saveToFile_Native()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#a74142c4aa87f8da293f96a0d169f658a">DeckList</a></li>
-<li>saveToFile_Plain()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#a7e111b022f4a254d820d9c45a864995f">DeckList</a></li>
+<li>saveToFile()&#160;:&#160;<a class="el" href="d5/dba/classCockatriceXml3Parser.html#ab662948b7fc441506ae8fad0e2380cdc">CockatriceXml3Parser</a>, <a class="el" href="dc/d53/classCockatriceXml4Parser.html#af098532fd597f6e57bed9b2c8aa10d7d">CockatriceXml4Parser</a>, <a class="el" href="de/de9/classDeckLoader.html#aacb3c46058038253a0d3ab21e62476e0">DeckLoader</a>, <a class="el" href="d4/dfe/classICardDatabaseParser.html#a4ed61d5daf8eccca140d31ef257c32c9">ICardDatabaseParser</a>, <a class="el" href="db/d70/classOracleImporter.html#af9af03e429f02cd05f58a0e3bb30a5ea">OracleImporter</a>, <a class="el" href="d7/d53/classSimpleDownloadFilePage.html#a8b7bb5194a28b31fcec1d5aa7d2385a1">SimpleDownloadFilePage</a></li>
+<li>saveToFile_Native()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#a4db0ab66583b74a417a82c661b958c9b">DeckList</a></li>
+<li>saveToFile_Plain()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#a17a48cae68974337aa44792677a0e0b9">DeckList</a></li>
 <li>saveTokensToFile()&#160;:&#160;<a class="el" href="d5/dba/classOracleWizard.html#a7d0e278fba15c80e1a51ccc8361ce1b1">OracleWizard</a></li>
+<li>saveToNewFile()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a31707a44c5de31cfaa84d8999262de22">DeckLoader</a></li>
 <li>saveToStream_DeckHeader()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a2ce4aacbb0dabbfbe9d26d0c705f13a5">DeckLoader</a></li>
 <li>saveToStream_DeckZone()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a79008b10eca31b78655566637385e2c5">DeckLoader</a></li>
 <li>saveToStream_DeckZoneCards()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#ad23a28a5f6b7aba011dcb4e4939009f0">DeckLoader</a></li>
-<li>saveToStream_Plain()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#a92042463da1228064e0c8599bb658634">DeckList</a>, <a class="el" href="de/de9/classDeckLoader.html#af71e0c4d5716ab83d3c920e1fbe3f767">DeckLoader</a></li>
+<li>saveToStream_Plain()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#ad2e03d9aa659732905514d8bc4a0f1f9">DeckList</a>, <a class="el" href="de/de9/classDeckLoader.html#af71e0c4d5716ab83d3c920e1fbe3f767">DeckLoader</a></li>
 <li>say()&#160;:&#160;<a class="el" href="d1/d15/classServer__Room.html#a7209706c0b648ca7f5835e13be740fb9">Server_Room</a></li>
 <li>sayEdit&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#af8115157f0dd84941d6c53550a2d6bdf">TabGame</a>, <a class="el" href="d1/de7/classTabMessage.html#a04f3e8beb440413521e6e8277086eb75">TabMessage</a>, <a class="el" href="df/d78/classTabRoom.html#ab279295ba95ca0c65bfd62a6b0460164">TabRoom</a></li>
 <li>sayFinished()&#160;:&#160;<a class="el" href="df/d78/classTabRoom.html#a0b820e78b9fcb3e24bad2ae0d295458c">TabRoom</a></li>
@@ -159,7 +155,7 @@ $(function(){initNavTree('functions_s.html','',''); });
 <li>scgSku&#160;:&#160;<a class="el" href="d2/d63/classArchidektApiResponseCard.html#ac21c40e58cb1fa773621a6256ea382a4">ArchidektApiResponseCard</a></li>
 <li>scheduleShutdown()&#160;:&#160;<a class="el" href="d5/d0e/classServatrice.html#a6763417d08f650979e0755149bb2a7ab">Servatrice</a></li>
 <li>scope_exit()&#160;:&#160;<a class="el" href="d5/dbb/structpeg_1_1scope__exit.html#a837f4d2136aef689eca5712be6902fe8">peg::scope_exit&lt; EF &gt;</a></li>
-<li>scrollArea&#160;:&#160;<a class="el" href="d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#aa571c31f831fb5628f0351a2b437f0b9">ArchidektApiResponseDeckDisplayWidget</a>, <a class="el" href="d4/d77/classDeckAnalyticsWidget.html#a77595c305bcc884c9563b2f193a0b038">DeckAnalyticsWidget</a>, <a class="el" href="de/d26/classDlgSelectSetForCards.html#a03a05646339876737136e121ef6dee01">DlgSelectSetForCards</a>, <a class="el" href="d3/dfa/classEdhrecCommanderApiResponseDisplayWidget.html#acded071bb8f045cefca336cadea62c92">EdhrecCommanderApiResponseDisplayWidget</a>, <a class="el" href="d4/d65/classEdhrecTopCardsApiResponseDisplayWidget.html#a7afadfeb27470e04a8acecfaf9f251de">EdhrecTopCardsApiResponseDisplayWidget</a>, <a class="el" href="dd/d06/classEdhrecTopCommandersApiResponseDisplayWidget.html#a0f9e5ab606426579ceefed287b04939a">EdhrecTopCommandersApiResponseDisplayWidget</a>, <a class="el" href="d5/d61/classEdhrecTopTagsApiResponseDisplayWidget.html#a4bbf90fde46db51971f2b9d664599de2">EdhrecTopTagsApiResponseDisplayWidget</a>, <a class="el" href="d5/d53/classFlowWidget.html#a1bcc0dc7209e0bbf743f13900826cb7c">FlowWidget</a>, <a class="el" href="d1/d7d/classSettingsPopupWidget.html#a1b1472fb84aadb16d2911372792eaf35">SettingsPopupWidget</a>, <a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#ab37fbed59e04e459ddc24ff3db035a2b">VisualDatabaseDisplayWidget</a>, <a class="el" href="da/d1e/classVisualDeckEditorWidget.html#ac092fa2fa8560d5728ccdd78c42e5667">VisualDeckEditorWidget</a>, <a class="el" href="d0/dfe/classVisualDeckStorageWidget.html#ac61f87fecc280a0eb23e0dd44ec8fd7a">VisualDeckStorageWidget</a></li>
+<li>scrollArea&#160;:&#160;<a class="el" href="d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#aa571c31f831fb5628f0351a2b437f0b9">ArchidektApiResponseDeckDisplayWidget</a>, <a class="el" href="d4/d77/classDeckAnalyticsWidget.html#a77595c305bcc884c9563b2f193a0b038">DeckAnalyticsWidget</a>, <a class="el" href="de/d26/classDlgSelectSetForCards.html#a03a05646339876737136e121ef6dee01">DlgSelectSetForCards</a>, <a class="el" href="d3/dfa/classEdhrecCommanderApiResponseDisplayWidget.html#acded071bb8f045cefca336cadea62c92">EdhrecCommanderApiResponseDisplayWidget</a>, <a class="el" href="d4/d65/classEdhrecTopCardsApiResponseDisplayWidget.html#a7afadfeb27470e04a8acecfaf9f251de">EdhrecTopCardsApiResponseDisplayWidget</a>, <a class="el" href="dd/d06/classEdhrecTopCommandersApiResponseDisplayWidget.html#a0f9e5ab606426579ceefed287b04939a">EdhrecTopCommandersApiResponseDisplayWidget</a>, <a class="el" href="d5/d61/classEdhrecTopTagsApiResponseDisplayWidget.html#a4bbf90fde46db51971f2b9d664599de2">EdhrecTopTagsApiResponseDisplayWidget</a>, <a class="el" href="d5/d53/classFlowWidget.html#a1bcc0dc7209e0bbf743f13900826cb7c">FlowWidget</a>, <a class="el" href="d1/d7d/classSettingsPopupWidget.html#a1b1472fb84aadb16d2911372792eaf35">SettingsPopupWidget</a>, <a class="el" href="db/d5d/classTabArchidekt.html#a475b3bba471d5a484a97eaa96bb04222">TabArchidekt</a>, <a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#ab37fbed59e04e459ddc24ff3db035a2b">VisualDatabaseDisplayWidget</a>, <a class="el" href="da/d1e/classVisualDeckEditorWidget.html#ac092fa2fa8560d5728ccdd78c42e5667">VisualDeckEditorWidget</a>, <a class="el" href="d0/dfe/classVisualDeckStorageWidget.html#ac61f87fecc280a0eb23e0dd44ec8fd7a">VisualDeckStorageWidget</a></li>
 <li>scrollBar&#160;:&#160;<a class="el" href="d0/dd9/classZoneViewWidget.html#a1ed3be25bee1153295e193dabc57649f">ZoneViewWidget</a></li>
 <li>scrollBarProxy&#160;:&#160;<a class="el" href="d0/dd9/classZoneViewWidget.html#a70a6d237eeb8e365a85eadcf2193966a">ZoneViewWidget</a></li>
 <li>scryfallImageHash&#160;:&#160;<a class="el" href="d2/d63/classArchidektApiResponseCard.html#af2bae018b1bc94f3b86de7b13f5f86c3">ArchidektApiResponseCard</a></li>
@@ -170,6 +166,7 @@ $(function(){initNavTree('functions_s.html','',''); });
 <li>searchAndSortLayout&#160;:&#160;<a class="el" href="d0/dfe/classVisualDeckStorageWidget.html#a186329056bfa0d36a4145e40ad13b0e5">VisualDeckStorageWidget</a></li>
 <li>searchBar&#160;:&#160;<a class="el" href="df/dac/classGameSelectorQuickFilterToolBar.html#a9010305eb2202a4d2733e097a885a65e">GameSelectorQuickFilterToolBar</a>, <a class="el" href="d7/dbc/classPrintingSelector.html#a7c2b2d6ba291f44bced93b36466270e9">PrintingSelector</a>, <a class="el" href="d2/d4b/classPrintingSelectorCardSearchWidget.html#ac64bc342db65e46a81ed831048e86c09">PrintingSelectorCardSearchWidget</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#a6a7091177039a8731ac7e3b3386abea5">TabEdhRecMain</a>, <a class="el" href="da/d1e/classVisualDeckEditorWidget.html#adb8b17deca2b25f20b3496888967b724">VisualDeckEditorWidget</a>, <a class="el" href="d8/d1c/classVisualDeckStorageSearchWidget.html#a307b2788777299763e65582d1c748ba9">VisualDeckStorageSearchWidget</a></li>
 <li>searchBox&#160;:&#160;<a class="el" href="d6/df5/classVisualDatabaseDisplayNameFilterWidget.html#a4835789e377767d4c063b7e45244b00b">VisualDatabaseDisplayNameFilterWidget</a>, <a class="el" href="d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#a721e25e778607d4ec88b4b428d8c937c">VisualDatabaseDisplaySetFilterWidget</a>, <a class="el" href="da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#a828b6d75e3510f99bedaacbcb917fdb5">VisualDatabaseDisplaySubTypeFilterWidget</a></li>
+<li>searchButton&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#ad39badaeb99800f5328f89d1cffb0d34">TabArchidekt</a></li>
 <li>searchContainer&#160;:&#160;<a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#a14d65b3e7ba5e729a1d89af7d8def161">VisualDatabaseDisplayWidget</a></li>
 <li>searchDebounceTimer&#160;:&#160;<a class="el" href="d2/d4b/classPrintingSelectorCardSearchWidget.html#a261d95f7f24294ad8d362368232463b1">PrintingSelectorCardSearchWidget</a>, <a class="el" href="db/d5d/classTabArchidekt.html#a2e5fff4e6edee2273254fefa36751df3">TabArchidekt</a>, <a class="el" href="d8/d1c/classVisualDeckStorageSearchWidget.html#a77bd754c665ff177d87348193ecaec44">VisualDeckStorageSearchWidget</a></li>
 <li>searchDock&#160;:&#160;<a class="el" href="d9/ded/classTabLog.html#a43b19425e3284a3fd7b0e9747c654db0">TabLog</a></li>
@@ -182,9 +179,11 @@ $(function(){initNavTree('functions_s.html','',''); });
 <li>searchLayout&#160;:&#160;<a class="el" href="d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a7b3e57734c403a139121bf7c0105d88b">DeckEditorDatabaseDisplayWidget</a>, <a class="el" href="dc/d63/classTabDeckEditorVisual.html#a875bb76815fd5001f6c6db296063176f">TabDeckEditorVisual</a>, <a class="el" href="d2/d32/classVisualDatabaseDisplayWidget.html#a0224e40e045bcb9134f3c122bd0ca497">VisualDatabaseDisplayWidget</a></li>
 <li>SearchLineEdit()&#160;:&#160;<a class="el" href="d8/d4c/classSearchLineEdit.html#a1694cfba736464cce4292d4c95c95710">SearchLineEdit</a></li>
 <li>searchModelChanged()&#160;:&#160;<a class="el" href="d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a121f925d19c6d7e3510e78207d687e60">VisualDatabaseDisplayFilterToolbarWidget</a></li>
-<li>searchPushButton&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#ad7891af69baa316e0e93a0caae78bc11">TabArchidekt</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#a6245980bbd88363de22d9a6793d91a89">TabEdhRecMain</a>, <a class="el" href="da/d1e/classVisualDeckEditorWidget.html#a5170d5d4faea6579572a4b86f6f39dfa">VisualDeckEditorWidget</a></li>
+<li>searchPushButton&#160;:&#160;<a class="el" href="de/df3/classTabEdhRecMain.html#a6245980bbd88363de22d9a6793d91a89">TabEdhRecMain</a>, <a class="el" href="da/d1e/classVisualDeckEditorWidget.html#a5170d5d4faea6579572a4b86f6f39dfa">VisualDeckEditorWidget</a></li>
 <li>searchResults&#160;:&#160;<a class="el" href="d3/da6/classCardSearchModel.html#a5ed2d28643481fc590c45042726ff3d4">CardSearchModel</a></li>
 <li>searchWidget&#160;:&#160;<a class="el" href="d0/dfe/classVisualDeckStorageWidget.html#a9416f07fea63443859b91f05d4c526d2">VisualDeckStorageWidget</a></li>
+<li>secondaryToolbar&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#ad157481792b236875fd6125ac5a9d9ce">TabArchidekt</a></li>
+<li>secondaryToolbarLayout&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a08217c11a3ad45061d4b908cc2db7a70">TabArchidekt</a></li>
 <li>secondsElapsed&#160;:&#160;<a class="el" href="d3/df3/classGameState.html#a0d619d1acd4a13a2051bd5e76dec158e">GameState</a>, <a class="el" href="df/d89/classServer__Game.html#a888980f69c9e480565b344ef0208a4dd">Server_Game</a></li>
 <li>SeekFailed&#160;:&#160;<a class="el" href="de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412ace60ce1e15b15a6454b8e3e480b6d34b">UnZip</a>, <a class="el" href="d8/df5/classZip.html#aa445490ca64ce3051470bed52ee9198cad43fb52355fcb2e22818d58bd8334fd4">Zip</a></li>
 <li>seekToCentralDirectory()&#160;:&#160;<a class="el" href="df/d90/classUnzipPrivate.html#aabdce53c5e9148fc1aaadef766219b60">UnzipPrivate</a></li>
@@ -374,6 +373,7 @@ $(function(){initNavTree('functions_s.html','',''); });
 <li>setCloseEmptyCardView()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a1bd2c1a0ac29ef666c8c93ef3cac5fcb">SettingsCache</a></li>
 <li>setColor()&#160;:&#160;<a class="el" href="d4/db9/classAbstractCardItem.html#a9d8e9884e913fb28ae5a8e12f56ecdc7">AbstractCardItem</a>, <a class="el" href="d3/d14/classCardCounterSettings.html#a503f9a05b5126f83705ac44199997226">CardCounterSettings</a>, <a class="el" href="dc/d07/classServer__Card.html#aefed7a62c28b47526766a8ad49a6be67">Server_Card</a></li>
 <li>setColorActive()&#160;:&#160;<a class="el" href="d8/d8e/classManaSymbolWidget.html#a80de311f1f222ce2b271553cb49b2376">ManaSymbolWidget</a>, <a class="el" href="d2/d83/classVisualDatabaseDisplayColorFilterCircleWidget.html#ae094a0382032ff8397ced9869fb79308">VisualDatabaseDisplayColorFilterCircleWidget</a></li>
+<li>setColorIdentity()&#160;:&#160;<a class="el" href="d7/d30/classColorIdentityWidget.html#ac38a09804e81578bebc92a2cb85dec7c">ColorIdentityWidget</a></li>
 <li>setColors()&#160;:&#160;<a class="el" href="dd/dd2/classCardInfo.html#ab281238370cf5ebaba4e2ff05caec18c">CardInfo</a>, <a class="el" href="d1/d46/classColorBar.html#af3bbe45186eaa5b8efd670e202277ca0">ColorBar</a>, <a class="el" href="d9/d42/classColorPie.html#a51d8f60eac34a9e7dc419ca91d5726d4">ColorPie</a></li>
 <li>setComments()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#ad4aeb8c9ae07248a6f0c5c3a92d2c5bc">DeckList</a>, <a class="el" href="dd/dab/classDeckStateManager.html#a49e65eff1afa3a312c287b8a8a12571e">DeckStateManager</a></li>
 <li>setCommitHash()&#160;:&#160;<a class="el" href="db/d0a/classRelease.html#af31cccf24fd1bc461da7c8707195d066">Release</a></li>
@@ -398,6 +398,7 @@ $(function(){initNavTree('functions_s.html','',''); });
 <li>setDatabaseInterface()&#160;:&#160;<a class="el" href="db/d00/classServer.html#aebcee070ce5b5291615b40fb9473bab1">Server</a></li>
 <li>setDeck()&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#add2f46f9abcc04f43ddd1d88e34c4c59">AbstractTabDeckEditor</a>, <a class="el" href="de/de9/classDeckLoader.html#a6c9753c99ba9596c9cb253ea169e4d25">DeckLoader</a>, <a class="el" href="d9/d25/classDeckView.html#ab2d2e99c10dbe5eb5b3d567bf6d752f2">DeckView</a>, <a class="el" href="df/ddd/classDeckViewContainer.html#aff6f81314bac6ef09411781d17f3de24">DeckViewContainer</a>, <a class="el" href="db/db5/classDeckViewScene.html#a105c89b7b15ea5d42259fe4878174aec">DeckViewScene</a>, <a class="el" href="d2/d4b/classPlayer.html#adb8a224936870be792c059e06c42dce5">Player</a></li>
 <li>setDeckEditorBannerCardComboBoxVisible()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#ad8dbb02601094b1f60a1aaa78fd5ca08">SettingsCache</a></li>
+<li>setDeckEditorCardDatabaseSize()&#160;:&#160;<a class="el" href="d3/d58/classLayoutsSettings.html#aaa92c44f8e2513794093f529ce811f01">LayoutsSettings</a></li>
 <li>setDeckEditorCardSize()&#160;:&#160;<a class="el" href="d3/d58/classLayoutsSettings.html#a66a7dd04077c3e6b35a0161d6490f270">LayoutsSettings</a></li>
 <li>setDeckEditorDbHeaderState()&#160;:&#160;<a class="el" href="d3/d58/classLayoutsSettings.html#a22f0959ed1e7b40e693dd11461ed352c">LayoutsSettings</a></li>
 <li>setDeckEditorDeckSize()&#160;:&#160;<a class="el" href="d3/d58/classLayoutsSettings.html#ab8143de9b07149eade2f29484dc5e1d3">LayoutsSettings</a></li>
@@ -697,7 +698,7 @@ $(function(){initNavTree('functions_s.html','',''); });
 <li>setTimeline()&#160;:&#160;<a class="el" href="d5/d07/classReplayTimelineWidget.html#ad14c462c6b2e027f39392b5a89b3fef6">ReplayTimelineWidget</a></li>
 <li>setTimeScaleFactor()&#160;:&#160;<a class="el" href="d5/d07/classReplayTimelineWidget.html#a77d61fcd05c3e084a3e9b354c90e65ac">ReplayTimelineWidget</a></li>
 <li>settings&#160;:&#160;<a class="el" href="d5/dba/classOracleWizard.html#a77a630fcb314cc55b95d433e504b771d">OracleWizard</a>, <a class="el" href="d5/d88/classSettingsCache.html#abcd8157a3bd16e7a2b0fd4ff1419e86a">SettingsCache</a>, <a class="el" href="d1/dea/classSettingsManager.html#af95d5d2cc65d957342d4010dc71ac3e3">SettingsManager</a>, <a class="el" href="d0/dfe/classVisualDeckStorageWidget.html#a19703518046b9fed4081e8e432999200">VisualDeckStorageWidget</a></li>
-<li>settingsButton&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a1d0bcea49b4e706642a9309061b91025">TabArchidekt</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#a21f1b0819c3a0d063de853737e40f11d">TabEdhRecMain</a></li>
+<li>settingsButton&#160;:&#160;<a class="el" href="d6/d64/classPrintingDisabledInfoWidget.html#a7cb61945b2b3299d4fc9fc77c4046379">PrintingDisabledInfoWidget</a>, <a class="el" href="db/d5d/classTabArchidekt.html#a1d0bcea49b4e706642a9309061b91025">TabArchidekt</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#a21f1b0819c3a0d063de853737e40f11d">TabEdhRecMain</a></li>
 <li>SettingsButtonWidget()&#160;:&#160;<a class="el" href="d2/dd6/classSettingsButtonWidget.html#af70253293d1aec40f9e6f7387d35a9ff">SettingsButtonWidget</a></li>
 <li>SettingsCache&#160;:&#160;<a class="el" href="de/dbe/classCardDatabaseSettings.html#a859ba68015a001567c5ef72352e7b69b">CardDatabaseSettings</a>, <a class="el" href="d8/d12/classCardOverrideSettings.html#a859ba68015a001567c5ef72352e7b69b">CardOverrideSettings</a>, <a class="el" href="d9/d00/classDebugSettings.html#a859ba68015a001567c5ef72352e7b69b">DebugSettings</a>, <a class="el" href="d4/d14/classDownloadSettings.html#a859ba68015a001567c5ef72352e7b69b">DownloadSettings</a>, <a class="el" href="df/dd0/classGameFiltersSettings.html#a859ba68015a001567c5ef72352e7b69b">GameFiltersSettings</a>, <a class="el" href="d3/d58/classLayoutsSettings.html#a859ba68015a001567c5ef72352e7b69b">LayoutsSettings</a>, <a class="el" href="d3/dc1/classMessageSettings.html#a859ba68015a001567c5ef72352e7b69b">MessageSettings</a>, <a class="el" href="d3/db5/classRecentsSettings.html#a859ba68015a001567c5ef72352e7b69b">RecentsSettings</a>, <a class="el" href="df/db1/classServersSettings.html#a859ba68015a001567c5ef72352e7b69b">ServersSettings</a>, <a class="el" href="d5/d88/classSettingsCache.html#a123df429cbb9f9aebff30f35e1d80685">SettingsCache</a></li>
 <li>settingsFilePath&#160;:&#160;<a class="el" href="da/d38/classShortcutsSettings.html#a4600b4083fd966377cc8d314373a3ffc">ShortcutsSettings</a></li>
@@ -713,6 +714,7 @@ $(function(){initNavTree('functions_s.html','',''); });
 <li>setULong()&#160;:&#160;<a class="el" href="df/daf/classZipPrivate.html#a4e2eef9add1867e0374254e76dddbaa8">ZipPrivate</a></li>
 <li>setup_actions()&#160;:&#160;<a class="el" href="dc/dbb/classpeg_1_1ParserGenerator.html#afa7a9efe83e831fd48692dc871c5f3f9">peg::ParserGenerator</a></li>
 <li>setUpdateReleaseChannelIndex()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#afb2f8830fb8ce10200db77ad765890bc">SettingsCache</a></li>
+<li>setupFilterWidgets()&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#ac51fbfaeaeea90ddc852c359699c7b0e">TabArchidekt</a></li>
 <li>setupZones()&#160;:&#160;<a class="el" href="da/d99/classServer__AbstractPlayer.html#a3dabf77de216dadb0dd61007c481ff1f">Server_AbstractPlayer</a>, <a class="el" href="d8/d21/classServer__Player.html#a92d72a36dfefc8c070d49d57b248c8e6">Server_Player</a></li>
 <li>setUserInfo()&#160;:&#160;<a class="el" href="d9/d5b/classServerInfo__User__Container.html#aee278eb1bd1b82f980325fb49d77a306">ServerInfo_User_Container</a>, <a class="el" href="dd/dc7/classUserListTWI.html#adcbfc4d690e3a71eacf361b66bfc3958">UserListTWI</a></li>
 <li>setUserInterface()&#160;:&#160;<a class="el" href="d0/d00/classServer__AbstractParticipant.html#a2129f1e160bf681e813422d800755774">Server_AbstractParticipant</a></li>
@@ -722,6 +724,7 @@ $(function(){initNavTree('functions_s.html','',''); });
 <li>setValue()&#160;:&#160;<a class="el" href="d4/d67/classAbstractCounter.html#a86f0365a137a85f9eb46a2c286d9a22a">AbstractCounter</a>, <a class="el" href="d9/d5e/classPercentBarWidget.html#a9db50e9e9599735a1c6d816e7fd3957c">PercentBarWidget</a>, <a class="el" href="d1/dea/classSettingsManager.html#a969f11d98d00ca6d3d776d2175d31714">SettingsManager</a></li>
 <li>setViewMode()&#160;:&#160;<a class="el" href="db/d22/classCardInfoFrameWidget.html#a06eab8cd853f8866dcd6addfdfd84936">CardInfoFrameWidget</a></li>
 <li>setViewTransformationButtonVisibility()&#160;:&#160;<a class="el" href="db/d22/classCardInfoFrameWidget.html#a92fda158d401e9a3d2d198163beaaf6c">CardInfoFrameWidget</a></li>
+<li>setVisibleWidget()&#160;:&#160;<a class="el" href="dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a3e319687e10b85cf1ccc3e8ee01ec47e">DeckEditorPrintingSelectorDockWidget</a></li>
 <li>setVisualDatabaseDisplayCardSize()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#af48025df7e085bb7fcb91dbfec419bd9">SettingsCache</a></li>
 <li>setVisualDatabaseDisplayFilterToMostRecentSetsAmount()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a7c60c98982c411079c7fa4d15d405ccb">SettingsCache</a></li>
 <li>setVisualDatabaseDisplayFilterToMostRecentSetsEnabled()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a48485e9d2af4fd18711c9eb4755fd7fb">SettingsCache</a></li>
@@ -737,6 +740,7 @@ $(function(){initNavTree('functions_s.html','',''); });
 <li>setVisualDeckStorageSearchFolderNames()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a47294d6ac3c187441074ea3511868a55">SettingsCache</a></li>
 <li>setVisualDeckStorageSelectionAnimation()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a1e9ec0def0a7411975a4a96e33bd6ddf">SettingsCache</a></li>
 <li>setVisualDeckStorageShowBannerCardComboBox()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a037fff28b71dbe1ee550ed021edb1099">SettingsCache</a></li>
+<li>setVisualDeckStorageShowColorIdentity()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a76f370d683dba43727dfe5a1fa9f1377">SettingsCache</a></li>
 <li>setVisualDeckStorageShowFolders()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#acf405074ca0edb27d39498851fdcc74b">SettingsCache</a></li>
 <li>setVisualDeckStorageShowTagFilter()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#a6a25aa6cc64a7b680a6f6f6d4a14eacf">SettingsCache</a></li>
 <li>setVisualDeckStorageShowTagsOnDeckPreviews()&#160;:&#160;<a class="el" href="d5/d88/classSettingsCache.html#ad87447f9bbe6da9fcd861bf255ccffe1">SettingsCache</a></li>
@@ -784,6 +788,8 @@ $(function(){initNavTree('functions_s.html','',''); });
 <li>showCardInfoPopup()&#160;:&#160;<a class="el" href="d4/db9/classAbstractCardItem.html#ac3f108080b03c1e1f36bcf204e4a3434">AbstractCardItem</a>, <a class="el" href="dc/dea/classChatView.html#abe37587df555262b51cc57123b6234c0">ChatView</a>, <a class="el" href="de/d9c/classTab.html#ac49d8dc9f05ebcfb09422bf77fd6c827">Tab</a></li>
 <li>showCategoryRows&#160;:&#160;<a class="el" href="d6/d55/structManaCurveConfig.html#aee6e0a70b4aabd082813fc10590b3fd7">ManaCurveConfig</a></li>
 <li>showCatRows&#160;:&#160;<a class="el" href="d5/de0/classManaCurveConfigDialog.html#a66c0abdc9aba41ac3c414e4597619687">ManaCurveConfigDialog</a></li>
+<li>showColorIdentityChanged()&#160;:&#160;<a class="el" href="d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a9d57ad7387437716263a2866ba9428f2">VisualDeckStorageQuickSettingsWidget</a></li>
+<li>showColorIdentityCheckBox&#160;:&#160;<a class="el" href="d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a05ed4861999eee54dd0c706591260c53">VisualDeckStorageQuickSettingsWidget</a></li>
 <li>showColorRows&#160;:&#160;<a class="el" href="d7/d68/structManaDistributionConfig.html#a877d84b55910259738729d9487e873a6">ManaDistributionConfig</a>, <a class="el" href="d0/da7/classManaDistributionConfigDialog.html#a5befe62c47922f3814328d5bee93027e">ManaDistributionConfigDialog</a></li>
 <li>showContextMenu()&#160;:&#160;<a class="el" href="de/da1/classCardZone.html#a4d61e290018a18fdae2e4e3e06ad224d">CardZone</a>, <a class="el" href="da/da0/classHandCounter.html#ac6376d088c78cc2b346cd1d2976525ba">HandCounter</a>, <a class="el" href="df/d02/classPlayerListWidget.html#ad55891eca7260f088528ad18db09fec8">PlayerListWidget</a>, <a class="el" href="d7/d67/classUserContextMenu.html#a09c03c3d10345985b9022a424f9dcbf0">UserContextMenu</a>, <a class="el" href="da/d3b/classUserListWidget.html#a76cdb35be6e0d7b1c9c5739da746cfb1">UserListWidget</a></li>
 <li>showDropIndicator()&#160;:&#160;<a class="el" href="dc/dde/classResizablePanel.html#aca4756d1193aa3e374f1fc3c7092997c">ResizablePanel</a></li>
@@ -917,7 +923,7 @@ $(function(){initNavTree('functions_s.html','',''); });
 <li>SortByColorGrouping&#160;:&#160;<a class="el" href="d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa1f0344b11d8ac7add8528bb4b226a194">CardList</a></li>
 <li>SortByColors&#160;:&#160;<a class="el" href="d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fabe5231f8735f3bfcaa1a71953bf928f5">CardList</a></li>
 <li>sortByKey()&#160;:&#160;<a class="el" href="dd/d65/classCardSetList.html#a63243efba23b24dcc46ecbf1e1f9c955">CardSetList</a></li>
-<li>sortByLabel&#160;:&#160;<a class="el" href="d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#ae117317f33c3d558f350551b5d8630e5">VisualDatabaseDisplayFilterToolbarWidget</a>, <a class="el" href="dc/de4/classVisualDeckDisplayOptionsWidget.html#a753def86ca38930e1bbd7e67920aa21d">VisualDeckDisplayOptionsWidget</a></li>
+<li>sortByLabel&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a61b5e0d73d49534475e8e6e20570e3af">TabArchidekt</a>, <a class="el" href="d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#ae117317f33c3d558f350551b5d8630e5">VisualDatabaseDisplayFilterToolbarWidget</a>, <a class="el" href="dc/de4/classVisualDeckDisplayOptionsWidget.html#a753def86ca38930e1bbd7e67920aa21d">VisualDeckDisplayOptionsWidget</a></li>
 <li>sortByListWidget&#160;:&#160;<a class="el" href="dc/de4/classVisualDeckDisplayOptionsWidget.html#ad361a221a800338ea2f9c88fd05657bc">VisualDeckDisplayOptionsWidget</a></li>
 <li>SortByMainType&#160;:&#160;<a class="el" href="d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa97d07506cea7411553429614a9e78385">CardList</a></li>
 <li>SortByManaCost&#160;:&#160;<a class="el" href="d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fad2e9064d25ac6a7c8a87366ca8f3ddbd">CardList</a></li>

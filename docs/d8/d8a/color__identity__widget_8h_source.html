@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -125,25 +120,27 @@ $(function(){initNavTree('d8/d8a/color__identity__widget_8h_source.html','../../
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">static</span> QStringList <a class="code hl_function" href="../../d7/d30/classColorIdentityWidget.html#aa890171c8d35393be9d1eccdb93bc5f5">parseColorIdentity</a>(<span class="keyword">const</span> QString &amp;manaString);</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">public</span> slots:</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d7/d30/classColorIdentityWidget.html#a1911b548df538e8e965b9ad963543b5c">resizeEvent</a>(QResizeEvent *event) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d7/d30/classColorIdentityWidget.html#a9e8b981d5ada1feda78d25922eef8fbf">toggleUnusedVisibility</a>();</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../d7/d30/classColorIdentityWidget.html#ab641d4700587eecb13436f4251e86f7b">   30</a></span>    QString <a class="code hl_variable" href="../../d7/d30/classColorIdentityWidget.html#ab641d4700587eecb13436f4251e86f7b">colorIdentity</a>;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d7/d30/classColorIdentityWidget.html#a038c103a40dcff8f70670c9fe553092b">   31</a></span>    QHBoxLayout *<a class="code hl_variable" href="../../d7/d30/classColorIdentityWidget.html#a038c103a40dcff8f70670c9fe553092b">layout</a>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>};</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d7/d30/classColorIdentityWidget.html#ac38a09804e81578bebc92a2cb85dec7c">setColorIdentity</a>(<span class="keyword">const</span> QString &amp;_colorIdentity);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d7/d30/classColorIdentityWidget.html#a1911b548df538e8e965b9ad963543b5c">resizeEvent</a>(QResizeEvent *event) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../d7/d30/classColorIdentityWidget.html#a9e8b981d5ada1feda78d25922eef8fbf">toggleUnusedVisibility</a>();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../d7/d30/classColorIdentityWidget.html#ab641d4700587eecb13436f4251e86f7b">   31</a></span>    QString <a class="code hl_variable" href="../../d7/d30/classColorIdentityWidget.html#ab641d4700587eecb13436f4251e86f7b">colorIdentity</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../d7/d30/classColorIdentityWidget.html#a038c103a40dcff8f70670c9fe553092b">   32</a></span>    QHBoxLayout *<a class="code hl_variable" href="../../d7/d30/classColorIdentityWidget.html#a038c103a40dcff8f70670c9fe553092b">layout</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>};</div>
 </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#endif </span><span class="comment">// COLOR_IDENTITY_WIDGET_H</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#endif </span><span class="comment">// COLOR_IDENTITY_WIDGET_H</span></div>
 <div class="ttc" id="acard__info_8cpp_html_a2aeb282303adffd3229122dc04327699"><div class="ttname"><a href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a></div><div class="ttdeci">QSharedPointer&lt; CardInfo &gt; CardInfoPtr</div><div class="ttdef"><b>Definition</b> card_info.cpp:20</div></div>
 <div class="ttc" id="acard__info_8h_html"><div class="ttname"><a href="../../df/df3/card__info_8h.html">card_info.h</a></div></div>
-<div class="ttc" id="aclassColorIdentityWidget_html_a038c103a40dcff8f70670c9fe553092b"><div class="ttname"><a href="../../d7/d30/classColorIdentityWidget.html#a038c103a40dcff8f70670c9fe553092b">ColorIdentityWidget::layout</a></div><div class="ttdeci">QHBoxLayout * layout</div><div class="ttdef"><b>Definition</b> color_identity_widget.h:31</div></div>
+<div class="ttc" id="aclassColorIdentityWidget_html_a038c103a40dcff8f70670c9fe553092b"><div class="ttname"><a href="../../d7/d30/classColorIdentityWidget.html#a038c103a40dcff8f70670c9fe553092b">ColorIdentityWidget::layout</a></div><div class="ttdeci">QHBoxLayout * layout</div><div class="ttdef"><b>Definition</b> color_identity_widget.h:32</div></div>
 <div class="ttc" id="aclassColorIdentityWidget_html_a0d63eccff269bb15c453110cc8c97e8a"><div class="ttname"><a href="../../d7/d30/classColorIdentityWidget.html#a0d63eccff269bb15c453110cc8c97e8a">ColorIdentityWidget::populateManaSymbolWidgets</a></div><div class="ttdeci">void populateManaSymbolWidgets()</div><div class="ttdef"><b>Definition</b> color_identity_widget.cpp:33</div></div>
-<div class="ttc" id="aclassColorIdentityWidget_html_a1911b548df538e8e965b9ad963543b5c"><div class="ttname"><a href="../../d7/d30/classColorIdentityWidget.html#a1911b548df538e8e965b9ad963543b5c">ColorIdentityWidget::resizeEvent</a></div><div class="ttdeci">void resizeEvent(QResizeEvent *event) override</div><div class="ttdef"><b>Definition</b> color_identity_widget.cpp:61</div></div>
-<div class="ttc" id="aclassColorIdentityWidget_html_a9e8b981d5ada1feda78d25922eef8fbf"><div class="ttname"><a href="../../d7/d30/classColorIdentityWidget.html#a9e8b981d5ada1feda78d25922eef8fbf">ColorIdentityWidget::toggleUnusedVisibility</a></div><div class="ttdeci">void toggleUnusedVisibility()</div><div class="ttdef"><b>Definition</b> color_identity_widget.cpp:56</div></div>
-<div class="ttc" id="aclassColorIdentityWidget_html_aa890171c8d35393be9d1eccdb93bc5f5"><div class="ttname"><a href="../../d7/d30/classColorIdentityWidget.html#aa890171c8d35393be9d1eccdb93bc5f5">ColorIdentityWidget::parseColorIdentity</a></div><div class="ttdeci">static QStringList parseColorIdentity(const QString &amp;manaString)</div><div class="ttdef"><b>Definition</b> color_identity_widget.cpp:82</div></div>
+<div class="ttc" id="aclassColorIdentityWidget_html_a1911b548df538e8e965b9ad963543b5c"><div class="ttname"><a href="../../d7/d30/classColorIdentityWidget.html#a1911b548df538e8e965b9ad963543b5c">ColorIdentityWidget::resizeEvent</a></div><div class="ttdeci">void resizeEvent(QResizeEvent *event) override</div><div class="ttdef"><b>Definition</b> color_identity_widget.cpp:71</div></div>
+<div class="ttc" id="aclassColorIdentityWidget_html_a9e8b981d5ada1feda78d25922eef8fbf"><div class="ttname"><a href="../../d7/d30/classColorIdentityWidget.html#a9e8b981d5ada1feda78d25922eef8fbf">ColorIdentityWidget::toggleUnusedVisibility</a></div><div class="ttdeci">void toggleUnusedVisibility()</div><div class="ttdef"><b>Definition</b> color_identity_widget.cpp:66</div></div>
+<div class="ttc" id="aclassColorIdentityWidget_html_aa890171c8d35393be9d1eccdb93bc5f5"><div class="ttname"><a href="../../d7/d30/classColorIdentityWidget.html#aa890171c8d35393be9d1eccdb93bc5f5">ColorIdentityWidget::parseColorIdentity</a></div><div class="ttdeci">static QStringList parseColorIdentity(const QString &amp;manaString)</div><div class="ttdef"><b>Definition</b> color_identity_widget.cpp:92</div></div>
 <div class="ttc" id="aclassColorIdentityWidget_html_ab4bf52f1b69697d46c305301e890824a"><div class="ttname"><a href="../../d7/d30/classColorIdentityWidget.html#ab4bf52f1b69697d46c305301e890824a">ColorIdentityWidget::ColorIdentityWidget</a></div><div class="ttdeci">ColorIdentityWidget(QWidget *parent, const QString &amp;_colorIdentity=&quot;&quot;)</div><div class="ttdef"><b>Definition</b> color_identity_widget.cpp:13</div></div>
-<div class="ttc" id="aclassColorIdentityWidget_html_ab641d4700587eecb13436f4251e86f7b"><div class="ttname"><a href="../../d7/d30/classColorIdentityWidget.html#ab641d4700587eecb13436f4251e86f7b">ColorIdentityWidget::colorIdentity</a></div><div class="ttdeci">QString colorIdentity</div><div class="ttdef"><b>Definition</b> color_identity_widget.h:30</div></div>
+<div class="ttc" id="aclassColorIdentityWidget_html_ab641d4700587eecb13436f4251e86f7b"><div class="ttname"><a href="../../d7/d30/classColorIdentityWidget.html#ab641d4700587eecb13436f4251e86f7b">ColorIdentityWidget::colorIdentity</a></div><div class="ttdeci">QString colorIdentity</div><div class="ttdef"><b>Definition</b> color_identity_widget.h:31</div></div>
+<div class="ttc" id="aclassColorIdentityWidget_html_ac38a09804e81578bebc92a2cb85dec7c"><div class="ttname"><a href="../../d7/d30/classColorIdentityWidget.html#ac38a09804e81578bebc92a2cb85dec7c">ColorIdentityWidget::setColorIdentity</a></div><div class="ttdeci">void setColorIdentity(const QString &amp;_colorIdentity)</div><div class="ttdef"><b>Definition</b> color_identity_widget.cpp:56</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

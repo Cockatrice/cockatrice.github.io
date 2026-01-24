@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -154,7 +149,6 @@ $(function(){initNavTree('functions_vars_r.html','',''); });
 <li>removedCategories&#160;:&#160;<a class="el" href="d3/dc3/classArchidektApiResponseCardEntry.html#a900a82f9a2be346cab542c3ce59f0e5a">ArchidektApiResponseCardEntry</a></li>
 <li>replay&#160;:&#160;<a class="el" href="d6/d1a/classMainWindow.html#a67dd0adf03452c1edf61af8cdb7f89fe">MainWindow</a>, <a class="el" href="da/de9/classReplayManager.html#a1f89eb9cfd3c48bed872cb0d6465ac53">ReplayManager</a></li>
 <li>replayDock&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#aab536452e10e4429e465f4504410f6d7">TabGame</a></li>
-<li>replayDockMenu&#160;:&#160;<a class="el" href="de/d08/classTabGame.html#a3fd9a0df2ba24884bd3f5c18020360fc">TabGame</a></li>
 <li>replayFastForwardButton&#160;:&#160;<a class="el" href="da/de9/classReplayManager.html#a90fc20e398e5a554f286bdfe45d5f0c1">ReplayManager</a></li>
 <li>replayGroupBox&#160;:&#160;<a class="el" href="d2/d2d/classUserInterfaceSettingsPage.html#aab9c333ef9bad2a6f85200e1d0076271">UserInterfaceSettingsPage</a></li>
 <li>replayIdToGrant&#160;:&#160;<a class="el" href="d5/d3b/classTabAdmin.html#a1422fe5e2eb0ac98e2d1f79a797528ba">TabAdmin</a></li>
@@ -188,6 +182,8 @@ $(function(){initNavTree('functions_vars_r.html','',''); });
 <li>result&#160;:&#160;<a class="el" href="db/da4/classFilterString.html#a91d4a4f914420f334c230ccb8ce79870">FilterString</a>, <a class="el" href="d9/dac/classQxtHmacPrivate.html#a75da1364701463ef1b395c3a380d28d2">QxtHmacPrivate</a></li>
 <li>result_&#160;:&#160;<a class="el" href="de/d67/structpeg_1_1IsLiteralToken.html#a6231e5d371de524b57fadb21de7dd539">peg::IsLiteralToken</a></li>
 <li>results&#160;:&#160;<a class="el" href="d3/d7f/classArchidektDeckListingApiResponse.html#a886eee496fe05031a8002c69cef172b5">ArchidektDeckListingApiResponse</a></li>
+<li>resultsContainer&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#ace9335d64d1a971359f6d26fecbdc617">TabArchidekt</a></li>
+<li>resultsLayout&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a0c356532c080ac60d74dc9777f7f7588">TabArchidekt</a></li>
 <li>resultTable&#160;:&#160;<a class="el" href="dd/de9/classDrawProbabilityWidget.html#a37f85bcba04a2b7722d2e87cb2ed1f87">DrawProbabilityWidget</a></li>
 <li>resuming&#160;:&#160;<a class="el" href="d3/df3/classGameState.html#a0bfb45ee7c9cb5b1229f6abcee020f4f">GameState</a></li>
 <li>ret&#160;:&#160;<a class="el" href="df/d1f/structpeg_1_1Definition_1_1Result.html#a47f65af8ce1afa9f447739cf61445275">peg::Definition::Result</a></li>

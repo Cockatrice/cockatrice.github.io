@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -124,7 +119,6 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:a90bc6bcceea05e6532a4563c118a962a" id="r_a90bc6bcceea05e6532a4563c118a962a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90bc6bcceea05e6532a4563c118a962a">deckLoaded</a> ()</td></tr>
 <tr class="memitem:a6f87229f0a702349efa22734f0249abd" id="r_a6f87229f0a702349efa22734f0249abd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f87229f0a702349efa22734f0249abd">loadFinished</a> (bool success)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -133,23 +127,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa8609c084ff6861647f91b013d00194b" id="r_aa8609c084ff6861647f91b013d00194b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8609c084ff6861647f91b013d00194b">DeckLoader</a> (const <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> &amp;)=delete</td></tr>
 <tr class="memitem:a922d279ba6d508b16d58401b67a39f57" id="r_a922d279ba6d508b16d58401b67a39f57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a922d279ba6d508b16d58401b67a39f57">operator=</a> (const <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a> &amp;)=delete</td></tr>
 <tr class="memitem:a2101fa8ea5deafdbc193cb6daf0653c4" id="r_a2101fa8ea5deafdbc193cb6daf0653c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2101fa8ea5deafdbc193cb6daf0653c4">hasNotBeenLoaded</a> () const</td></tr>
-<tr class="memitem:a32c48e31149dd8bd82531d3d8b42060c" id="r_a32c48e31149dd8bd82531d3d8b42060c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32c48e31149dd8bd82531d3d8b42060c">loadFromFile</a> (const QString &amp;fileName, <a class="el" href="../../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945">DeckFileFormat::Format</a> fmt, bool userRequest=false)</td></tr>
-<tr class="memitem:a8348814c92653dc3544fd39435974d8e" id="r_a8348814c92653dc3544fd39435974d8e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8348814c92653dc3544fd39435974d8e">loadFromFileAsync</a> (const QString &amp;fileName, <a class="el" href="../../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945">DeckFileFormat::Format</a> fmt, bool userRequest)</td></tr>
-<tr class="memitem:a737e3080472f7fe6005213f6b1c17def" id="r_a737e3080472f7fe6005213f6b1c17def"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a737e3080472f7fe6005213f6b1c17def">loadFromRemote</a> (const QString &amp;nativeString, int remoteDeckId)</td></tr>
-<tr class="memitem:ac34de2cc915993afcd889811e50f224c" id="r_ac34de2cc915993afcd889811e50f224c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac34de2cc915993afcd889811e50f224c">saveToFile</a> (const QString &amp;fileName, <a class="el" href="../../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945">DeckFileFormat::Format</a> fmt)</td></tr>
-<tr class="memitem:a9c40eddae92ab6a7484dbf26bf321a05" id="r_a9c40eddae92ab6a7484dbf26bf321a05"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c40eddae92ab6a7484dbf26bf321a05">updateLastLoadedTimestamp</a> (const QString &amp;fileName, <a class="el" href="../../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945">DeckFileFormat::Format</a> fmt)</td></tr>
-<tr class="memitem:a958492c1a7d15851462a9cd313d55be4" id="r_a958492c1a7d15851462a9cd313d55be4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a958492c1a7d15851462a9cd313d55be4">convertToCockatriceFormat</a> (const QString &amp;fileName)</td></tr>
+<tr class="memitem:a0f90a3500c14858eb6bc5200e77033ee" id="r_a0f90a3500c14858eb6bc5200e77033ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f90a3500c14858eb6bc5200e77033ee">loadFromFileAsync</a> (const QString &amp;fileName, <a class="el" href="../../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945">DeckFileFormat::Format</a> fmt, bool userRequest)</td></tr>
+<tr class="memdesc:a0f90a3500c14858eb6bc5200e77033ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asynchronously loads a deck from a local file into this <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a>. The <span class="tt">loadFinished</span> signal will be emitted when the load finishes. Once the loading finishes, the deck can be accessed with <span class="tt">getDeck</span>  <br /></td></tr>
+<tr class="memitem:ac56bfcac47c8958d9462914a24408478" id="r_ac56bfcac47c8958d9462914a24408478"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac56bfcac47c8958d9462914a24408478">reload</a> ()</td></tr>
+<tr class="memdesc:ac56bfcac47c8958d9462914a24408478"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the file that the lastLoadInfo currently points to into this instance. No-ops if the lastLoadInfo is missing the required info or the load fails.  <br /></td></tr>
 <tr class="memitem:a8849adda794ab460bf987d103cb78a82" id="r_a8849adda794ab460bf987d103cb78a82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8849adda794ab460bf987d103cb78a82">getDeck</a> ()</td></tr>
 <tr class="memitem:a24f3d809aa17c13b02a692f6925b4bcf" id="r_a24f3d809aa17c13b02a692f6925b4bcf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24f3d809aa17c13b02a692f6925b4bcf">getDeck</a> () const</td></tr>
 <tr class="memitem:a6c9753c99ba9596c9cb253ea169e4d25" id="r_a6c9753c99ba9596c9cb253ea169e4d25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c9753c99ba9596c9cb253ea169e4d25">setDeck</a> (const <a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;deck)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a1f9a7cb6f8a175c62d02d1bac2591f1d" id="r_a1f9a7cb6f8a175c62d02d1bac2591f1d"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f9a7cb6f8a175c62d02d1bac2591f1d">loadFromFile</a> (const QString &amp;fileName, <a class="el" href="../../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945">DeckFileFormat::Format</a> fmt, bool userRequest=false)</td></tr>
+<tr class="memdesc:a1f9a7cb6f8a175c62d02d1bac2591f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a deck from a local file.  <br /></td></tr>
+<tr class="memitem:a0760beaf11c3d5f4d73d21f19f9ae62b" id="r_a0760beaf11c3d5f4d73d21f19f9ae62b"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0760beaf11c3d5f4d73d21f19f9ae62b">loadFromRemote</a> (const QString &amp;nativeString, int remoteDeckId)</td></tr>
+<tr class="memdesc:a0760beaf11c3d5f4d73d21f19f9ae62b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a deck from the response of a remote deck request.  <br /></td></tr>
+<tr class="memitem:aacb3c46058038253a0d3ab21e62476e0" id="r_aacb3c46058038253a0d3ab21e62476e0"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="../../d4/d0d/structLoadedDeck_1_1LoadInfo.html">LoadedDeck::LoadInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacb3c46058038253a0d3ab21e62476e0">saveToFile</a> (const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;deck, const QString &amp;fileName, <a class="el" href="../../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945">DeckFileFormat::Format</a> fmt)</td></tr>
+<tr class="memdesc:aacb3c46058038253a0d3ab21e62476e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a <a class="el" href="../../da/d68/classDeckList.html" title="Represents a complete deck, including metadata, zones, cards, and sideboard plans.">DeckList</a> to a local file.  <br /></td></tr>
+<tr class="memitem:a90df4a6a43518cba76b9fb3c1e87e678" id="r_a90df4a6a43518cba76b9fb3c1e87e678"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90df4a6a43518cba76b9fb3c1e87e678">saveToFile</a> (const <a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;deck)</td></tr>
+<tr class="memdesc:a90df4a6a43518cba76b9fb3c1e87e678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a <a class="el" href="../../d9/dc2/structLoadedDeck.html" title="Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...">LoadedDeck</a> to a local file. Uses the lastLoadInfo in the <a class="el" href="../../d9/dc2/structLoadedDeck.html" title="Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...">LoadedDeck</a> to determine where to save to.  <br /></td></tr>
+<tr class="memitem:a31707a44c5de31cfaa84d8999262de22" id="r_a31707a44c5de31cfaa84d8999262de22"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31707a44c5de31cfaa84d8999262de22">saveToNewFile</a> (<a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;deck, const QString &amp;fileName, <a class="el" href="../../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945">DeckFileFormat::Format</a> fmt)</td></tr>
+<tr class="memdesc:a31707a44c5de31cfaa84d8999262de22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a <a class="el" href="../../d9/dc2/structLoadedDeck.html" title="Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...">LoadedDeck</a> to a new local file.  <br /></td></tr>
 <tr class="memitem:a88a681a2630cdaae4e068ea0e51cbab5" id="r_a88a681a2630cdaae4e068ea0e51cbab5"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88a681a2630cdaae4e068ea0e51cbab5">exportDeckToDecklist</a> (const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;deckList, <a class="el" href="#ad214abc48fd2d93f2a66bacf7d277e4b">DecklistWebsite</a> website)</td></tr>
 <tr class="memitem:aa000edddeb93bce35c8ae4b86697b34c" id="r_aa000edddeb93bce35c8ae4b86697b34c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa000edddeb93bce35c8ae4b86697b34c">saveToClipboard</a> (const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;deckList, bool addComments=true, bool addSetNameAndNumber=true)</td></tr>
 <tr class="memitem:af71e0c4d5716ab83d3c920e1fbe3f767" id="r_af71e0c4d5716ab83d3c920e1fbe3f767"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af71e0c4d5716ab83d3c920e1fbe3f767">saveToStream_Plain</a> (QTextStream &amp;out, const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;deckList, bool addComments=true, bool addSetNameAndNumber=true)</td></tr>
 <tr class="memitem:a1e27104406ed9c0ae00b66426df12823" id="r_a1e27104406ed9c0ae00b66426df12823"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e27104406ed9c0ae00b66426df12823">printDeckList</a> (QPrinter *printer, const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;deckList)</td></tr>
 <tr class="memdesc:a1e27104406ed9c0ae00b66426df12823"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the decklist to the provided QPrinter.  <br /></td></tr>
+<tr class="memitem:a3dc92c330b5b1ab35d6c1c80e6e633bb" id="r_a3dc92c330b5b1ab35d6c1c80e6e633bb"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dc92c330b5b1ab35d6c1c80e6e633bb">convertToCockatriceFormat</a> (<a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;deck)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -158,6 +161,8 @@ Static Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
+<tr class="memitem:aa19219934f8a1ed72682a41ec7208de8" id="r_aa19219934f8a1ed72682a41ec7208de8"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa19219934f8a1ed72682a41ec7208de8">updateLastLoadedTimestamp</a> (<a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;deck)</td></tr>
+<tr class="memdesc:aa19219934f8a1ed72682a41ec7208de8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the lastLoadedTimestamp field in the file corresponding to the deck, without changing the FileModificationTime of the file.  <br /></td></tr>
 <tr class="memitem:a7759ed1bdf9be4ca9e3ec403b2746381" id="r_a7759ed1bdf9be4ca9e3ec403b2746381"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7759ed1bdf9be4ca9e3ec403b2746381">printDeckListNode</a> (QTextCursor *cursor, const <a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *node)</td></tr>
 <tr class="memitem:a2ce4aacbb0dabbfbe9d26d0c705f13a5" id="r_a2ce4aacbb0dabbfbe9d26d0c705f13a5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ce4aacbb0dabbfbe9d26d0c705f13a5">saveToStream_DeckHeader</a> (QTextStream &amp;out, const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;deckList)</td></tr>
 <tr class="memitem:a79008b10eca31b78655566637385e2c5" id="r_a79008b10eca31b78655566637385e2c5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79008b10eca31b78655566637385e2c5">saveToStream_DeckZone</a> (QTextStream &amp;out, const <a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *zoneNode, bool addComments=true, bool addSetNameAndNumber=true)</td></tr>
@@ -240,35 +245,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a958492c1a7d15851462a9cd313d55be4" name="a958492c1a7d15851462a9cd313d55be4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a958492c1a7d15851462a9cd313d55be4">&#9670;&#160;</a></span>convertToCockatriceFormat()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DeckLoader::convertToCockatriceFormat </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a958492c1a7d15851462a9cd313d55be4_cgraph.svg" width="496" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a958492c1a7d15851462a9cd313d55be4_icgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a90bc6bcceea05e6532a4563c118a962a" name="a90bc6bcceea05e6532a4563c118a962a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90bc6bcceea05e6532a4563c118a962a">&#9670;&#160;</a></span>deckLoaded</h2>
+<a id="a3dc92c330b5b1ab35d6c1c80e6e633bb" name="a3dc92c330b5b1ab35d6c1c80e6e633bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dc92c330b5b1ab35d6c1c80e6e633bb">&#9670;&#160;</a></span>convertToCockatriceFormat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,22 +255,34 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DeckLoader::deckLoaded </td>
+          <td class="memname">bool DeckLoader::convertToCockatriceFormat </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>deck</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Converts the given deck's file to the cockatrice file format. Uses the lastLoadInfo in the <a class="el" href="../../d9/dc2/structLoadedDeck.html" title="Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...">LoadedDeck</a> to determine the current name of the file and where to save to. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deck</td><td>The deck to convert. Should have valid lastLoadInfo. Will update the lastLoadInfo. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the conversion succeeded. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a3dc92c330b5b1ab35d6c1c80e6e633bb_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a90bc6bcceea05e6532a4563c118a962a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a3dc92c330b5b1ab35d6c1c80e6e633bb_icgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -369,7 +359,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a8849adda794ab460bf987d103cb78a82_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a8849adda794ab460bf987d103cb78a82_icgraph.svg" width="100%" height="485"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -454,14 +444,17 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a32c48e31149dd8bd82531d3d8b42060c" name="a32c48e31149dd8bd82531d3d8b42060c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32c48e31149dd8bd82531d3d8b42060c">&#9670;&#160;</a></span>loadFromFile()</h2>
+<a id="a1f9a7cb6f8a175c62d02d1bac2591f1d" name="a1f9a7cb6f8a175c62d02d1bac2591f1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f9a7cb6f8a175c62d02d1bac2591f1d">&#9670;&#160;</a></span>loadFromFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool DeckLoader::loadFromFile </td>
+          <td class="memname">std::optional&lt; <a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &gt; DeckLoader::loadFromFile </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span>, </td>
         </tr>
@@ -476,28 +469,44 @@ Here is the caller graph for this function:</div>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>userRequest</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Loads a deck from a local file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fileName</td><td>The file to load </td></tr>
+    <tr><td class="paramname">fmt</td><td>The format of the file to load </td></tr>
+    <tr><td class="paramname">userRequest</td><td>Whether the load was manually requested by the user, instead of being done in the background. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An optional containing the <a class="el" href="../../d9/dc2/structLoadedDeck.html" title="Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...">LoadedDeck</a>, or empty if the load failed. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a32c48e31149dd8bd82531d3d8b42060c_cgraph.svg" width="100%" height="485"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a1f9a7cb6f8a175c62d02d1bac2591f1d_cgraph.svg" width="100%" height="592"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a32c48e31149dd8bd82531d3d8b42060c_icgraph.svg" width="100%" height="528"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a1f9a7cb6f8a175c62d02d1bac2591f1d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a8348814c92653dc3544fd39435974d8e" name="a8348814c92653dc3544fd39435974d8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8348814c92653dc3544fd39435974d8e">&#9670;&#160;</a></span>loadFromFileAsync()</h2>
+<a id="a0f90a3500c14858eb6bc5200e77033ee" name="a0f90a3500c14858eb6bc5200e77033ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f90a3500c14858eb6bc5200e77033ee">&#9670;&#160;</a></span>loadFromFileAsync()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool DeckLoader::loadFromFileAsync </td>
+          <td class="memname">void DeckLoader::loadFromFileAsync </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span>, </td>
         </tr>
@@ -513,22 +522,35 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Asynchronously loads a deck from a local file into this <a class="el" href="../../de/de9/classDeckLoader.html">DeckLoader</a>. The <span class="tt">loadFinished</span> signal will be emitted when the load finishes. Once the loading finishes, the deck can be accessed with <span class="tt">getDeck</span> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fileName</td><td>The file to load </td></tr>
+    <tr><td class="paramname">fmt</td><td>The format of the file to load </td></tr>
+    <tr><td class="paramname">userRequest</td><td>Whether the load was manually requested by the user, instead of being done in the background. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a8348814c92653dc3544fd39435974d8e_cgraph.svg" width="476" height="151"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a0f90a3500c14858eb6bc5200e77033ee_cgraph.svg" width="100%" height="592"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a737e3080472f7fe6005213f6b1c17def" name="a737e3080472f7fe6005213f6b1c17def"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a737e3080472f7fe6005213f6b1c17def">&#9670;&#160;</a></span>loadFromRemote()</h2>
+<a id="a0760beaf11c3d5f4d73d21f19f9ae62b" name="a0760beaf11c3d5f4d73d21f19f9ae62b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0760beaf11c3d5f4d73d21f19f9ae62b">&#9670;&#160;</a></span>loadFromRemote()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool DeckLoader::loadFromRemote </td>
+          <td class="memname">std::optional&lt; <a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &gt; DeckLoader::loadFromRemote </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>nativeString</em></span>, </td>
         </tr>
@@ -538,16 +560,31 @@ Here is the call graph for this function:</div>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>remoteDeckId</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Loads a deck from the response of a remote deck request. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nativeString</td><td>The deck string, in cod format </td></tr>
+    <tr><td class="paramname">remoteDeckId</td><td>The remote deck id </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An optional containing the <a class="el" href="../../d9/dc2/structLoadedDeck.html" title="Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...">LoadedDeck</a>, or empty if the load failed. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a737e3080472f7fe6005213f6b1c17def_cgraph.svg" width="463" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a0760beaf11c3d5f4d73d21f19f9ae62b_cgraph.svg" width="100%" height="421"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a737e3080472f7fe6005213f6b1c17def_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a0760beaf11c3d5f4d73d21f19f9ae62b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -669,6 +706,31 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ac56bfcac47c8958d9462914a24408478" name="ac56bfcac47c8958d9462914a24408478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac56bfcac47c8958d9462914a24408478">&#9670;&#160;</a></span>reload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DeckLoader::reload </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads the file that the lastLoadInfo currently points to into this instance. No-ops if the lastLoadInfo is missing the required info or the load fails. </p>
+<dl class="section return"><dt>Returns</dt><dd>Whether the loaded succeeded. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_ac56bfcac47c8958d9462914a24408478_cgraph.svg" width="100%" height="592"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="aa000edddeb93bce35c8ae4b86697b34c" name="aa000edddeb93bce35c8ae4b86697b34c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa000edddeb93bce35c8ae4b86697b34c">&#9670;&#160;</a></span>saveToClipboard()</h2>
 
@@ -713,15 +775,23 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ac34de2cc915993afcd889811e50f224c" name="ac34de2cc915993afcd889811e50f224c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac34de2cc915993afcd889811e50f224c">&#9670;&#160;</a></span>saveToFile()</h2>
+<a id="aacb3c46058038253a0d3ab21e62476e0" name="aacb3c46058038253a0d3ab21e62476e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacb3c46058038253a0d3ab21e62476e0">&#9670;&#160;</a></span>saveToFile() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool DeckLoader::saveToFile </td>
+          <td class="memname">std::optional&lt; <a class="el" href="../../d4/d0d/structLoadedDeck_1_1LoadInfo.html">LoadedDeck::LoadInfo</a> &gt; DeckLoader::saveToFile </td>
           <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>deck</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span>, </td>
         </tr>
         <tr>
@@ -730,11 +800,121 @@ Here is the caller graph for this function:</div>
           <td class="paramtype"><a class="el" href="../../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945">DeckFileFormat::Format</a></td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Saves a <a class="el" href="../../da/d68/classDeckList.html" title="Represents a complete deck, including metadata, zones, cards, and sideboard plans.">DeckList</a> to a local file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deck</td><td>The <a class="el" href="../../da/d68/classDeckList.html" title="Represents a complete deck, including metadata, zones, cards, and sideboard plans.">DeckList</a> </td></tr>
+    <tr><td class="paramname">fileName</td><td>The file to write to </td></tr>
+    <tr><td class="paramname">fmt</td><td>The deck file format to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An optional containing the LoadInfo for the new file, or empty if the save failed. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_aacb3c46058038253a0d3ab21e62476e0_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_ac34de2cc915993afcd889811e50f224c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_aacb3c46058038253a0d3ab21e62476e0_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a90df4a6a43518cba76b9fb3c1e87e678" name="a90df4a6a43518cba76b9fb3c1e87e678"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90df4a6a43518cba76b9fb3c1e87e678">&#9670;&#160;</a></span>saveToFile() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DeckLoader::saveToFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>deck</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saves a <a class="el" href="../../d9/dc2/structLoadedDeck.html" title="Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...">LoadedDeck</a> to a local file. Uses the lastLoadInfo in the <a class="el" href="../../d9/dc2/structLoadedDeck.html" title="Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...">LoadedDeck</a> to determine where to save to. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deck</td><td>The <a class="el" href="../../d9/dc2/structLoadedDeck.html" title="Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...">LoadedDeck</a> to save. Should have valid lastLoadInfo. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the save succeeded. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a90df4a6a43518cba76b9fb3c1e87e678_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a31707a44c5de31cfaa84d8999262de22" name="a31707a44c5de31cfaa84d8999262de22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31707a44c5de31cfaa84d8999262de22">&#9670;&#160;</a></span>saveToNewFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DeckLoader::saveToNewFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>deck</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945">DeckFileFormat::Format</a></td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saves a <a class="el" href="../../d9/dc2/structLoadedDeck.html" title="Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...">LoadedDeck</a> to a new local file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deck</td><td>The <a class="el" href="../../d9/dc2/structLoadedDeck.html" title="Represents a deck that was loaded from somewhere. Contains the DeckList itself, as well as info about...">LoadedDeck</a> to save. Will update the lastLoadInfo. </td></tr>
+    <tr><td class="paramname">fileName</td><td>The file to write to </td></tr>
+    <tr><td class="paramname">fmt</td><td>The deck file format to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the save succeeded. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a31707a44c5de31cfaa84d8999262de22_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -952,36 +1132,42 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a6c9753c99ba9596c9cb253ea169e4d25_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>
-<a id="a9c40eddae92ab6a7484dbf26bf321a05" name="a9c40eddae92ab6a7484dbf26bf321a05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c40eddae92ab6a7484dbf26bf321a05">&#9670;&#160;</a></span>updateLastLoadedTimestamp()</h2>
+<a id="aa19219934f8a1ed72682a41ec7208de8" name="aa19219934f8a1ed72682a41ec7208de8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa19219934f8a1ed72682a41ec7208de8">&#9670;&#160;</a></span>updateLastLoadedTimestamp()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool DeckLoader::updateLastLoadedTimestamp </td>
           <td>(</td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>deck</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945">DeckFileFormat::Format</a></td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Updates the lastLoadedTimestamp field in the file corresponding to the deck, without changing the FileModificationTime of the file. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_aa19219934f8a1ed72682a41ec7208de8_cgraph.svg" width="100%" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_a9c40eddae92ab6a7484dbf26bf321a05_icgraph.svg" width="100%" height="528"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/de9/classDeckLoader_aa19219934f8a1ed72682a41ec7208de8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

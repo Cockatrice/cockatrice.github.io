@@ -48,6 +48,8 @@ var dir_4b0cf6f004d72cb4344e8e7ea1f16c10 =
     [ "dlg_update.h", "d4/d46/dlg__update_8h.html", "d4/d46/dlg__update_8h" ],
     [ "dlg_view_log.cpp", "dc/d16/dlg__view__log_8cpp.html", null ],
     [ "dlg_view_log.h", "df/d11/dlg__view__log_8h.html", "df/d11/dlg__view__log_8h" ],
+    [ "override_printing_warning.cpp", "dd/d29/override__printing__warning_8cpp.html", null ],
+    [ "override_printing_warning.h", "d6/dca/override__printing__warning_8h.html", "d6/dca/override__printing__warning_8h" ],
     [ "tip_of_the_day.cpp", "d4/d70/tip__of__the__day_8cpp.html", "d4/d70/tip__of__the__day_8cpp" ],
     [ "tip_of_the_day.h", "de/dde/tip__of__the__day_8h.html", "de/dde/tip__of__the__day_8h" ]
 ];

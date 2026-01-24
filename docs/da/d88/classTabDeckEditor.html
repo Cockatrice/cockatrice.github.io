@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -146,8 +141,6 @@ Public Slots</h2></td></tr>
 <tr class="memdesc:a4bde29fd51a237d46dd203ae58459660 inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests closing the tab.  <br /></td></tr>
 <tr class="memitem:a6295641a0b9f3bc6936e9d942d52f0ca inherit pub_slots_classAbstractTabDeckEditor" id="r_a6295641a0b9f3bc6936e9d942d52f0ca"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a6295641a0b9f3bc6936e9d942d52f0ca">showPrintingSelector</a> ()=0</td></tr>
 <tr class="memdesc:a6295641a0b9f3bc6936e9d942d52f0ca inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the printing selector dock. Pure virtual.  <br /></td></tr>
-<tr class="memitem:ac50c8e4061fb9525cc0c341bae400ec4 inherit pub_slots_classAbstractTabDeckEditor" id="r_ac50c8e4061fb9525cc0c341bae400ec4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#ac50c8e4061fb9525cc0c341bae400ec4">dockTopLevelChanged</a> (bool topLevel)=0</td></tr>
-<tr class="memdesc:ac50c8e4061fb9525cc0c341bae400ec4 inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot for when a dock's top-level state changes. Pure virtual.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -188,12 +181,6 @@ Protected Slots</h2></td></tr>
 <tr class="memdesc:aa61a900e16fa8ee90a23a37b6825f859"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refreshes shortcuts for this tab from settings.  <br /></td></tr>
 <tr class="memitem:adb40f5e0c4afb8924c3de2ea17670eb0" id="r_adb40f5e0c4afb8924c3de2ea17670eb0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb40f5e0c4afb8924c3de2ea17670eb0">eventFilter</a> (QObject *o, QEvent *e) override</td></tr>
 <tr class="memdesc:adb40f5e0c4afb8924c3de2ea17670eb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles dock visibility, floating, and top-level changes.  <br /></td></tr>
-<tr class="memitem:abe3dd5668605941a311b52ad98b942b8" id="r_abe3dd5668605941a311b52ad98b942b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe3dd5668605941a311b52ad98b942b8">dockVisibleTriggered</a> () override</td></tr>
-<tr class="memdesc:abe3dd5668605941a311b52ad98b942b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles dock visibility toggling from menu actions.  <br /></td></tr>
-<tr class="memitem:a0ea7cb53783976fe15b6dcfb689956c1" id="r_a0ea7cb53783976fe15b6dcfb689956c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ea7cb53783976fe15b6dcfb689956c1">dockFloatingTriggered</a> () override</td></tr>
-<tr class="memdesc:a0ea7cb53783976fe15b6dcfb689956c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles dock floating toggling from menu actions.  <br /></td></tr>
-<tr class="memitem:afc265cda9eec81e33c0690655d798bc3" id="r_afc265cda9eec81e33c0690655d798bc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc265cda9eec81e33c0690655d798bc3">dockTopLevelChanged</a> (bool topLevel) override</td></tr>
-<tr class="memdesc:afc265cda9eec81e33c0690655d798bc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Syncs menu state with dock floating changes.  <br /></td></tr>
 <tr class="inherit_header pro_slots_classAbstractTabDeckEditor"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_slots_classAbstractTabDeckEditor')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Slots inherited from <a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a></td></tr>
 <tr class="memitem:ad874b77a4364b98412cecc42caa4ddf2 inherit pro_slots_classAbstractTabDeckEditor" id="r_ad874b77a4364b98412cecc42caa4ddf2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#ad874b77a4364b98412cecc42caa4ddf2">actNewDeck</a> ()</td></tr>
 <tr class="memdesc:ad874b77a4364b98412cecc42caa4ddf2 inherit pro_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts a new deck in this tab.  <br /></td></tr>
@@ -239,10 +226,6 @@ Protected Slots</h2></td></tr>
 <tr class="memitem:a40ee098e949fa4314d7dd8335aeebe84 inherit pro_slots_classAbstractTabDeckEditor" id="r_a40ee098e949fa4314d7dd8335aeebe84"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a40ee098e949fa4314d7dd8335aeebe84">refreshShortcuts</a> ()=0</td></tr>
 <tr class="memitem:af60e45537569c1a11510b52237204208 inherit pro_slots_classAbstractTabDeckEditor" id="r_af60e45537569c1a11510b52237204208"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#af60e45537569c1a11510b52237204208">closeEvent</a> (QCloseEvent *event) override</td></tr>
 <tr class="memdesc:af60e45537569c1a11510b52237204208 inherit pro_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles dock close events.  <br /></td></tr>
-<tr class="memitem:aa7a04f62e7d81d9b2ee3596824b2665e inherit pro_slots_classAbstractTabDeckEditor" id="r_aa7a04f62e7d81d9b2ee3596824b2665e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#aa7a04f62e7d81d9b2ee3596824b2665e">dockVisibleTriggered</a> ()=0</td></tr>
-<tr class="memdesc:aa7a04f62e7d81d9b2ee3596824b2665e inherit pro_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot triggered when a dock visibility changes. Pure virtual.  <br /></td></tr>
-<tr class="memitem:ad3673e6e0fcebcc020cc26e67de70644 inherit pro_slots_classAbstractTabDeckEditor" id="r_ad3673e6e0fcebcc020cc26e67de70644"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#ad3673e6e0fcebcc020cc26e67de70644">dockFloatingTriggered</a> ()=0</td></tr>
-<tr class="memdesc:ad3673e6e0fcebcc020cc26e67de70644 inherit pro_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot triggered when a dock floating state changes. Pure virtual.  <br /></td></tr>
 <tr class="inherit_header pro_slots_classTab"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_slots_classTab')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Slots inherited from <a class="el" href="../../de/d9c/classTab.html">Tab</a></td></tr>
 <tr class="memitem:ac49d8dc9f05ebcfb09422bf77fd6c827 inherit pro_slots_classTab" id="r_ac49d8dc9f05ebcfb09422bf77fd6c827"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/classTab.html#ac49d8dc9f05ebcfb09422bf77fd6c827">showCardInfoPopup</a> (const QPoint &amp;pos, const <a class="el" href="../../d1/d66/structCardRef.html">CardRef</a> &amp;cardRef)</td></tr>
 <tr class="memitem:a2ab2dc9ab9ab89dc2b0082c2bb60445c inherit pro_slots_classTab" id="r_a2ab2dc9ab9ab89dc2b0082c2bb60445c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/classTab.html#a2ab2dc9ab9ab89dc2b0082c2bb60445c">deleteCardInfoPopup</a> (const QString &amp;cardName)</td></tr>
@@ -278,8 +261,8 @@ Additional Inherited Members</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a59362c003e9fd04abbec91a0962342dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum describing deck open locations.  <a href="../../d1/d53/classAbstractTabDeckEditor.html#a59362c003e9fd04abbec91a0962342dc">More...</a><br /></td></tr>
 <tr class="inherit_header pro_methods_classAbstractTabDeckEditor"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classAbstractTabDeckEditor')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a></td></tr>
-<tr class="memitem:a8a868bc7db6e4015ba81007737fb7283 inherit pro_methods_classAbstractTabDeckEditor" id="r_a8a868bc7db6e4015ba81007737fb7283"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a8a868bc7db6e4015ba81007737fb7283">registerDockWidget</a> (QDockWidget *widget)</td></tr>
-<tr class="memdesc:a8a868bc7db6e4015ba81007737fb7283 inherit pro_methods_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">registers a QDockWidget as a managed dock widget. Creates the associated actions and menu, adds them to the viewMenu, and connects those actions to the tab's slots.  <br /></td></tr>
+<tr class="memitem:a72ce6dfe9a256b29f7ce98553ce950a3 inherit pro_methods_classAbstractTabDeckEditor" id="r_a72ce6dfe9a256b29f7ce98553ce950a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a72ce6dfe9a256b29f7ce98553ce950a3">registerDockWidget</a> (QMenu *_viewMenu, QDockWidget *widget)</td></tr>
+<tr class="memdesc:a72ce6dfe9a256b29f7ce98553ce950a3 inherit pro_methods_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">registers a QDockWidget as a managed dock widget. Creates the associated actions and menu, adds them to the viewMenu, and connects those actions to the tab's slots.  <br /></td></tr>
 <tr class="memitem:a7af6ee3c111358c9a82f0f0d3582d423 inherit pro_methods_classAbstractTabDeckEditor" id="r_a7af6ee3c111358c9a82f0f0d3582d423"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a59362c003e9fd04abbec91a0962342dc">DeckOpenLocation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a7af6ee3c111358c9a82f0f0d3582d423">confirmOpen</a> (bool openInSameTabIfBlank=true)</td></tr>
 <tr class="memdesc:a7af6ee3c111358c9a82f0f0d3582d423 inherit pro_methods_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Confirms deck open action based on settings and modified state.  <br /></td></tr>
 <tr class="memitem:a02a22dd0833c0b5d7ff9aac7416b7af0 inherit pro_methods_classAbstractTabDeckEditor" id="r_a02a22dd0833c0b5d7ff9aac7416b7af0"><td class="memItemLeft" align="right" valign="top">QMessageBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a02a22dd0833c0b5d7ff9aac7416b7af0">createSaveConfirmationWindow</a> ()</td></tr>
@@ -321,9 +304,9 @@ Additional Inherited Members</h2></td></tr>
 <li><a class="el" href="#a93dc2324a5df407b119331fc0c4c3315" title="Frees the dock sizes for resizing flexibility.">freeDocksSize()</a> — Frees constraints on dock sizes to allow flexible resizing.</li>
 <li><a class="el" href="#aa61a900e16fa8ee90a23a37b6825f859" title="Refreshes shortcuts for this tab from settings.">refreshShortcuts()</a> — Updates tab-specific shortcuts from settings.</li>
 <li><a class="el" href="#adb40f5e0c4afb8924c3de2ea17670eb0" title="Handles dock visibility, floating, and top-level changes.">eventFilter(QObject *o, QEvent *e)</a> — Handles dock close/hide events and saves layout state.</li>
-<li><a class="el" href="#abe3dd5668605941a311b52ad98b942b8" title="Handles dock visibility toggling from menu actions.">dockVisibleTriggered()</a> — Responds to menu actions toggling dock visibility.</li>
-<li><a class="el" href="#a0ea7cb53783976fe15b6dcfb689956c1" title="Handles dock floating toggling from menu actions.">dockFloatingTriggered()</a> — Responds to menu actions toggling dock floating state.</li>
-<li><a class="el" href="#afc265cda9eec81e33c0690655d798bc3" title="Syncs menu state with dock floating changes.">dockTopLevelChanged(bool topLevel)</a> — Updates menu states when a dock changes top-level/floating status.</li>
+<li>dockVisibleTriggered() — Responds to menu actions toggling dock visibility.</li>
+<li>dockFloatingTriggered() — Responds to menu actions toggling dock floating state.</li>
+<li>dockTopLevelChanged(bool topLevel) — Updates menu states when a dock changes top-level/floating status.</li>
 <li><a class="el" href="#a862909231500ca8068506c023f794114" title="Retranslates UI elements for localization.">retranslateUi()</a> — Updates all text/UI elements for localization.</li>
 <li><a class="el" href="#a63de464d420d9c5ecb699512dc02f0b7" title="Returns the tab text, including modified mark if applicable.">getTabText() const </a>— Returns the tab title with a modified marker if applicable.</li>
 <li><a class="el" href="#a67fc830ad5afe5a586139f6577c6396e" title="Creates menus for deck editing and view options.">createMenus()</a> — Initializes menus for deck and view actions.</li>
@@ -409,87 +392,6 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d88/classTabDeckEditor_a67fc830ad5afe5a586139f6577c6396e_icgraph.svg" width="482" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-
-</div>
-</div>
-<a id="a0ea7cb53783976fe15b6dcfb689956c1" name="a0ea7cb53783976fe15b6dcfb689956c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ea7cb53783976fe15b6dcfb689956c1">&#9670;&#160;</a></span>dockFloatingTriggered</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TabDeckEditor::dockFloatingTriggered </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Handles dock floating toggling from menu actions. </p>
-
-</div>
-</div>
-<a id="afc265cda9eec81e33c0690655d798bc3" name="afc265cda9eec81e33c0690655d798bc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc265cda9eec81e33c0690655d798bc3">&#9670;&#160;</a></span>dockTopLevelChanged</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TabDeckEditor::dockTopLevelChanged </td>
-          <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>topLevel</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Syncs menu state with dock floating changes. </p>
-
-</div>
-</div>
-<a id="abe3dd5668605941a311b52ad98b942b8" name="abe3dd5668605941a311b52ad98b942b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe3dd5668605941a311b52ad98b942b8">&#9670;&#160;</a></span>dockVisibleTriggered</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TabDeckEditor::dockVisibleTriggered </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Handles dock visibility toggling from menu actions. </p>
 
 </div>
 </div>
@@ -706,7 +608,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d88/classTabDeckEditor_aacb7d2cef7f669070864e4eae699b093_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d88/classTabDeckEditor_aacb7d2cef7f669070864e4eae699b093_cgraph.svg" width="486" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>

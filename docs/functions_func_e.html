@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -156,7 +151,7 @@ $(function(){initNavTree('functions_func_e.html','',''); });
 <li>enqueuePostResponseItem()&#160;:&#160;<a class="el" href="db/d74/classResponseContainer.html#ace21d09da59555ab02b2fc1b3d2b03e3">ResponseContainer</a></li>
 <li>enqueuePreResponseItem()&#160;:&#160;<a class="el" href="db/d74/classResponseContainer.html#a71779a177ab3d9e14055231857801150">ResponseContainer</a></li>
 <li>ensureThemeDirectoryExists()&#160;:&#160;<a class="el" href="d7/d66/classSoundEngine.html#a87048349c82e0b2e789f7ea09cdb3078">SoundEngine</a>, <a class="el" href="da/d5a/classThemeManager.html#ae3292849edcf5eebf2e3ebeefec4c76f">ThemeManager</a></li>
-<li>enterEvent()&#160;:&#160;<a class="el" href="d7/ddb/classAllZonesCardAmountWidget.html#aa4e03f80e3acac13e35f5a0235584cb2">AllZonesCardAmountWidget</a>, <a class="el" href="d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#a1545c9b23a5acd2e0fe8d8c34c8fdcf5">ArchidektApiResponseDeckEntryDisplayWidget</a>, <a class="el" href="dd/dd2/classCardInfoPictureWidget.html#a66bb273798f813ebed24f8f1a134f4d1">CardInfoPictureWidget</a>, <a class="el" href="dc/dea/classChatView.html#a7ea9186898a0dc1956facb2c40431c46">ChatView</a>, <a class="el" href="df/df8/classCloseButton.html#af52cd641cae3f80711f6338c55fd013a">CloseButton</a>, <a class="el" href="d1/d46/classColorBar.html#a702f8c444bcace6adc4dc4aca12b32d7">ColorBar</a>, <a class="el" href="d9/d42/classColorPie.html#a43552c7ab3ecf444334fc609ec281ea3">ColorPie</a>, <a class="el" href="d2/d77/classEdhrecApiResponseCardDetailsDisplayWidget.html#aeb2f88297c9d170980e68b9b1ee8fe57">EdhrecApiResponseCardDetailsDisplayWidget</a>, <a class="el" href="d3/d2f/classPrintingSelectorCardOverlayWidget.html#ac17bfc122207ade27bc647b3dfb55c15">PrintingSelectorCardOverlayWidget</a>, <a class="el" href="d4/d56/classSetEntryWidget.html#a81ad8c2eb8dbf73b8c887c55ddb2e53a">SetEntryWidget</a></li>
+<li>enterEvent()&#160;:&#160;<a class="el" href="d7/ddb/classAllZonesCardAmountWidget.html#aa4e03f80e3acac13e35f5a0235584cb2">AllZonesCardAmountWidget</a>, <a class="el" href="d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#a1545c9b23a5acd2e0fe8d8c34c8fdcf5">ArchidektApiResponseDeckEntryDisplayWidget</a>, <a class="el" href="dd/dd2/classCardInfoPictureWidget.html#a66bb273798f813ebed24f8f1a134f4d1">CardInfoPictureWidget</a>, <a class="el" href="dc/dea/classChatView.html#a7ea9186898a0dc1956facb2c40431c46">ChatView</a>, <a class="el" href="df/df8/classCloseButton.html#af52cd641cae3f80711f6338c55fd013a">CloseButton</a>, <a class="el" href="d1/d46/classColorBar.html#a702f8c444bcace6adc4dc4aca12b32d7">ColorBar</a>, <a class="el" href="d9/d42/classColorPie.html#a43552c7ab3ecf444334fc609ec281ea3">ColorPie</a>, <a class="el" href="d5/d79/classDeckPreviewWidget.html#a4c3d4f6fb4a236f50a646d0c58962416">DeckPreviewWidget</a>, <a class="el" href="d2/d77/classEdhrecApiResponseCardDetailsDisplayWidget.html#aeb2f88297c9d170980e68b9b1ee8fe57">EdhrecApiResponseCardDetailsDisplayWidget</a>, <a class="el" href="d3/d2f/classPrintingSelectorCardOverlayWidget.html#ac17bfc122207ade27bc647b3dfb55c15">PrintingSelectorCardOverlayWidget</a>, <a class="el" href="d4/d56/classSetEntryWidget.html#a81ad8c2eb8dbf73b8c887c55ddb2e53a">SetEntryWidget</a></li>
 <li>entryList()&#160;:&#160;<a class="el" href="de/d4e/classUnZip.html#a192770b9299b3576070bb5162cc00941">UnZip</a></li>
 <li>error()&#160;:&#160;<a class="el" href="d3/d9f/classClientUpdateChecker.html#aaf8d266f0579d5b7e8c540ef38072416">ClientUpdateChecker</a>, <a class="el" href="d5/dc2/classDeckFilterString.html#abf5b81c35ebcfa7660a172b9c9f44ad6">DeckFilterString</a>, <a class="el" href="db/da4/classFilterString.html#aa4b85152cbbc4e272ac50b85f6b446a9">FilterString</a>, <a class="el" href="d0/db2/classReleaseChannel.html#a47bd0694f23444cee6a8991be62b3b67">ReleaseChannel</a>, <a class="el" href="db/df5/classUpdateDownloader.html#a7ff0c8f4c412ce73b0c31f67a9bd918d">UpdateDownloader</a></li>
 <li>eval()&#160;:&#160;<a class="el" href="de/d94/classExpression.html#a5eb71c0aeaec4c39653ef5c0f98fe016">Expression</a></li>
@@ -172,7 +167,7 @@ $(function(){initNavTree('functions_func_e.html','',''); });
 <li>eventDestroyCard()&#160;:&#160;<a class="el" href="de/d38/classPlayerEventHandler.html#a8b4159d312cee5d287bb4d0de028c50d">PlayerEventHandler</a></li>
 <li>eventDrawCards()&#160;:&#160;<a class="el" href="de/d38/classPlayerEventHandler.html#a87f4545e0c2accb6f83af249e0fb7f7d">PlayerEventHandler</a></li>
 <li>eventDumpZone()&#160;:&#160;<a class="el" href="de/d38/classPlayerEventHandler.html#a5c948be1c673a5a3c9a1a94d7a47cf89">PlayerEventHandler</a></li>
-<li>eventFilter()&#160;:&#160;<a class="el" href="d1/dae/classAbstractCounterDialog.html#a833c2079631f1536a0afeefbbe36e1d0">AbstractCounterDialog</a>, <a class="el" href="d4/d77/classDeckAnalyticsWidget.html#a3ce52c2afb8c6f2368a9fb767d194e6c">DeckAnalyticsWidget</a>, <a class="el" href="da/d89/classKeySignals.html#ac375e62c2e3e7898dbf2fba9d29d9693">KeySignals</a>, <a class="el" href="da/d45/classLineEditUnfocusable.html#ac8464c23fb368a2f0b5741fcf2591047">LineEditUnfocusable</a>, <a class="el" href="da/d92/classNoScrollFilter.html#aa46dbebd212f91b5193189fd4d0ae0d7">NoScrollFilter</a>, <a class="el" href="dc/dde/classResizablePanel.html#aee0652902dcbedaf64fdb98319572b61">ResizablePanel</a>, <a class="el" href="d3/d0a/classSequenceEdit.html#aecb489733d50a083224c71be6f296edd">SequenceEdit</a>, <a class="el" href="da/d88/classTabDeckEditor.html#adb40f5e0c4afb8924c3de2ea17670eb0">TabDeckEditor</a>, <a class="el" href="dc/d63/classTabDeckEditorVisual.html#ac800044966bd093f0489c56a8c21f05b">TabDeckEditorVisual</a>, <a class="el" href="de/d08/classTabGame.html#a89b195e78297f76f2398cf1d637d6aec">TabGame</a></li>
+<li>eventFilter()&#160;:&#160;<a class="el" href="d1/dae/classAbstractCounterDialog.html#a833c2079631f1536a0afeefbbe36e1d0">AbstractCounterDialog</a>, <a class="el" href="d4/d77/classDeckAnalyticsWidget.html#a3ce52c2afb8c6f2368a9fb767d194e6c">DeckAnalyticsWidget</a>, <a class="el" href="da/d89/classKeySignals.html#ac375e62c2e3e7898dbf2fba9d29d9693">KeySignals</a>, <a class="el" href="da/d45/classLineEditUnfocusable.html#ac8464c23fb368a2f0b5741fcf2591047">LineEditUnfocusable</a>, <a class="el" href="da/d92/classNoScrollFilter.html#aa46dbebd212f91b5193189fd4d0ae0d7">NoScrollFilter</a>, <a class="el" href="dc/dde/classResizablePanel.html#aee0652902dcbedaf64fdb98319572b61">ResizablePanel</a>, <a class="el" href="d3/d0a/classSequenceEdit.html#aecb489733d50a083224c71be6f296edd">SequenceEdit</a>, <a class="el" href="db/d5d/classTabArchidekt.html#aff479defa71d268e3238f6d336174b3a">TabArchidekt</a>, <a class="el" href="da/d88/classTabDeckEditor.html#adb40f5e0c4afb8924c3de2ea17670eb0">TabDeckEditor</a>, <a class="el" href="dc/d63/classTabDeckEditorVisual.html#ac800044966bd093f0489c56a8c21f05b">TabDeckEditorVisual</a>, <a class="el" href="df/d71/classVisibilityChangeListener.html#a7aab3b2b88fff17cdd4673c54ebf34b1">VisibilityChangeListener</a></li>
 <li>eventFlipCard()&#160;:&#160;<a class="el" href="de/d38/classPlayerEventHandler.html#a7845ee20c1de09570a3dcce3c87f6167">PlayerEventHandler</a></li>
 <li>eventGameClosed()&#160;:&#160;<a class="el" href="d7/db2/classGameEventHandler.html#a3b13ce40cec5b7fa3603f47eb5c366f4">GameEventHandler</a></li>
 <li>eventGameHostChanged()&#160;:&#160;<a class="el" href="d7/db2/classGameEventHandler.html#aa3a752be25a98ff739c6c18fc8d1d0dc">GameEventHandler</a></li>

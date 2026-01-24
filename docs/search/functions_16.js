@@ -19,12 +19,13 @@ var searchData=
   ['writebannercard_16',['writeBannerCard',['../d9/df7/classDeckEditorDeckDockWidget.html#a3e6c171de64ce44de13dc007b1f10060',1,'DeckEditorDeckDockWidget']]],
   ['writecentraldir_17',['writeCentralDir',['../df/daf/classZipPrivate.html#a943f257c1c3f1268ba08bc41186a556b',1,'ZipPrivate']]],
   ['writecomments_18',['writeComments',['../d9/df7/classDeckEditorDeckDockWidget.html#aa646cffeb7cff704ae7193eb9fe387f7',1,'DeckEditorDeckDockWidget']]],
-  ['writeelement_19',['writeElement',['../d3/de9/classAbstractDecklistCardNode.html#a97ccfa1720aa1ee894be841fbe500069',1,'AbstractDecklistCardNode::writeElement()'],['../dc/dd8/classAbstractDecklistNode.html#aa63a74f48c8f68b8ec7a89a4612fce3f',1,'AbstractDecklistNode::writeElement()'],['../d4/d55/classInnerDecklistNode.html#a60a83b3eae9d802ea394dea41d60bfe9',1,'InnerDecklistNode::writeElement()']]],
-  ['writeentry_20',['writeEntry',['../df/daf/classZipPrivate.html#a17d067c2ccc1358b032e90e1b84c1547',1,'ZipPrivate']]],
-  ['writemetadata_21',['writeMetadata',['../d3/d94/deck__list_8cpp.html#a83e055facb9cec78e1ee9a95eec13ab8',1,'deck_list.cpp']]],
-  ['writename_22',['writeName',['../d9/df7/classDeckEditorDeckDockWidget.html#a249172ea05effe8b63654b2ff209edf2',1,'DeckEditorDeckDockWidget']]],
-  ['writetosocket_23',['writeToSocket',['../dd/dea/classAbstractServerSocketInterface.html#a49d340b855e928b79d08d3c364fc7eef',1,'AbstractServerSocketInterface::writeToSocket()'],['../dd/d13/classTcpServerSocketInterface.html#a94937d81a4f9d8fadd981e0e2b2800bc',1,'TcpServerSocketInterface::writeToSocket()'],['../de/db1/classWebsocketServerSocketInterface.html#aeddcd24404a9e2173f39ed44250f6589',1,'WebsocketServerSocketInterface::writeToSocket()']]],
-  ['writetostring_5fnative_24',['writeToString_Native',['../da/d68/classDeckList.html#a79d6a068df3b2a323a04621fb3ecb8b0',1,'DeckList']]],
-  ['writetostring_5fplain_25',['writeToString_Plain',['../da/d68/classDeckList.html#acbc76c1a574283e5b32f514291343a63',1,'DeckList']]],
-  ['wsp_26',['wsp',['../dc/db2/namespacepeg.html#a36efa719a391921ca76025dde8a3e6a4',1,'peg']]]
+  ['writedecktofile_19',['writeDeckToFile',['../d5/d79/classDeckPreviewWidget.html#a3f0219e7ddab2727db515fec7ba29e03',1,'DeckPreviewWidget']]],
+  ['writeelement_20',['writeElement',['../d3/de9/classAbstractDecklistCardNode.html#a97ccfa1720aa1ee894be841fbe500069',1,'AbstractDecklistCardNode::writeElement()'],['../dc/dd8/classAbstractDecklistNode.html#aa63a74f48c8f68b8ec7a89a4612fce3f',1,'AbstractDecklistNode::writeElement()'],['../d4/d55/classInnerDecklistNode.html#a60a83b3eae9d802ea394dea41d60bfe9',1,'InnerDecklistNode::writeElement()']]],
+  ['writeentry_21',['writeEntry',['../df/daf/classZipPrivate.html#a17d067c2ccc1358b032e90e1b84c1547',1,'ZipPrivate']]],
+  ['writemetadata_22',['writeMetadata',['../d3/d94/deck__list_8cpp.html#a83e055facb9cec78e1ee9a95eec13ab8',1,'deck_list.cpp']]],
+  ['writename_23',['writeName',['../d9/df7/classDeckEditorDeckDockWidget.html#a249172ea05effe8b63654b2ff209edf2',1,'DeckEditorDeckDockWidget']]],
+  ['writetosocket_24',['writeToSocket',['../dd/dea/classAbstractServerSocketInterface.html#a49d340b855e928b79d08d3c364fc7eef',1,'AbstractServerSocketInterface::writeToSocket()'],['../dd/d13/classTcpServerSocketInterface.html#a94937d81a4f9d8fadd981e0e2b2800bc',1,'TcpServerSocketInterface::writeToSocket()'],['../de/db1/classWebsocketServerSocketInterface.html#aeddcd24404a9e2173f39ed44250f6589',1,'WebsocketServerSocketInterface::writeToSocket()']]],
+  ['writetostring_5fnative_25',['writeToString_Native',['../da/d68/classDeckList.html#a79d6a068df3b2a323a04621fb3ecb8b0',1,'DeckList']]],
+  ['writetostring_5fplain_26',['writeToString_Plain',['../da/d68/classDeckList.html#ab8a20fd18e8bec39bd5148a80fca5248',1,'DeckList']]],
+  ['wsp_27',['wsp',['../dc/db2/namespacepeg.html#a36efa719a391921ca76025dde8a3e6a4',1,'peg']]]
 ];

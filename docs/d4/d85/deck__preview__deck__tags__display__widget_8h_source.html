@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -115,7 +110,7 @@ $(function(){initNavTree('d4/d85/deck__preview__deck__tags__display__widget_8h_s
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span><a class="code hl_class" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a>;</div>
 <div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html">   16</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#adbdcc8632cea85eecff4a0615ec1f686">DeckPreviewDeckTagsDisplayWidget</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html">   16</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#ab9aa0ad91290a287d00c827d5fc5826f">DeckPreviewDeckTagsDisplayWidget</a> : <span class="keyword">public</span> QWidget</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    Q_OBJECT</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
@@ -123,7 +118,7 @@ $(function(){initNavTree('d4/d85/deck__preview__deck__tags__display__widget_8h_s
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a836c918f4856ce2d287ef8a2a4865051">   21</a></span>    <a class="code hl_class" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *<a class="code hl_variable" href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a836c918f4856ce2d287ef8a2a4865051">flowWidget</a>;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#adbdcc8632cea85eecff4a0615ec1f686">DeckPreviewDeckTagsDisplayWidget</a>(QWidget *_parent, <span class="keyword">const</span> QStringList &amp;_tags);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#ab9aa0ad91290a287d00c827d5fc5826f">DeckPreviewDeckTagsDisplayWidget</a>(QWidget *_parent, <span class="keyword">const</span> QStringList &amp;_tags = {});</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a13d4d74e2ada919d0c7374ea11a0a8a5">setTags</a>(<span class="keyword">const</span> QStringList &amp;_tags);</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a6bb4596c475998b18dbc28b9b031395d">refreshTags</a>();</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
@@ -144,9 +139,9 @@ $(function(){initNavTree('d4/d85/deck__preview__deck__tags__display__widget_8h_s
 <div class="ttc" id="aclassDeckPreviewDeckTagsDisplayWidget_html_a6bb4596c475998b18dbc28b9b031395d"><div class="ttname"><a href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a6bb4596c475998b18dbc28b9b031395d">DeckPreviewDeckTagsDisplayWidget::refreshTags</a></div><div class="ttdeci">void refreshTags()</div><div class="ttdef"><b>Definition</b> deck_preview_deck_tags_display_widget.cpp:41</div></div>
 <div class="ttc" id="aclassDeckPreviewDeckTagsDisplayWidget_html_a836c918f4856ce2d287ef8a2a4865051"><div class="ttname"><a href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a836c918f4856ce2d287ef8a2a4865051">DeckPreviewDeckTagsDisplayWidget::flowWidget</a></div><div class="ttdeci">FlowWidget * flowWidget</div><div class="ttdef"><b>Definition</b> deck_preview_deck_tags_display_widget.h:21</div></div>
 <div class="ttc" id="aclassDeckPreviewDeckTagsDisplayWidget_html_a87e73970d39e54733d6dd1d49ec765ca"><div class="ttname"><a href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a87e73970d39e54733d6dd1d49ec765ca">DeckPreviewDeckTagsDisplayWidget::promptFileConversionIfRequired</a></div><div class="ttdeci">bool promptFileConversionIfRequired(DeckPreviewWidget *deckPreviewWidget)</div><div class="ttdef"><b>Definition</b> deck_preview_deck_tags_display_widget.cpp:137</div></div>
+<div class="ttc" id="aclassDeckPreviewDeckTagsDisplayWidget_html_ab9aa0ad91290a287d00c827d5fc5826f"><div class="ttname"><a href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#ab9aa0ad91290a287d00c827d5fc5826f">DeckPreviewDeckTagsDisplayWidget::DeckPreviewDeckTagsDisplayWidget</a></div><div class="ttdeci">DeckPreviewDeckTagsDisplayWidget(QWidget *_parent, const QStringList &amp;_tags={})</div><div class="ttdef"><b>Definition</b> deck_preview_deck_tags_display_widget.cpp:16</div></div>
 <div class="ttc" id="aclassDeckPreviewDeckTagsDisplayWidget_html_abb20129c04e32e631d050c33c2dbbb94"><div class="ttname"><a href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#abb20129c04e32e631d050c33c2dbbb94">DeckPreviewDeckTagsDisplayWidget::currentTags</a></div><div class="ttdeci">QStringList currentTags</div><div class="ttdef"><b>Definition</b> deck_preview_deck_tags_display_widget.h:20</div></div>
 <div class="ttc" id="aclassDeckPreviewDeckTagsDisplayWidget_html_ac505d0f9b7d86c8f6e73cbd035073438"><div class="ttname"><a href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#ac505d0f9b7d86c8f6e73cbd035073438">DeckPreviewDeckTagsDisplayWidget::execTagDialog</a></div><div class="ttdeci">void execTagDialog(const QStringList &amp;knownTags)</div><div class="ttdef"><b>Definition</b> deck_preview_deck_tags_display_widget.cpp:181</div></div>
-<div class="ttc" id="aclassDeckPreviewDeckTagsDisplayWidget_html_adbdcc8632cea85eecff4a0615ec1f686"><div class="ttname"><a href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#adbdcc8632cea85eecff4a0615ec1f686">DeckPreviewDeckTagsDisplayWidget::DeckPreviewDeckTagsDisplayWidget</a></div><div class="ttdeci">DeckPreviewDeckTagsDisplayWidget(QWidget *_parent, const QStringList &amp;_tags)</div><div class="ttdef"><b>Definition</b> deck_preview_deck_tags_display_widget.cpp:16</div></div>
 <div class="ttc" id="aclassDeckPreviewDeckTagsDisplayWidget_html_aefb0d4514fc0cbb4cd47e2a8ffafdec1"><div class="ttname"><a href="../../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#aefb0d4514fc0cbb4cd47e2a8ffafdec1">DeckPreviewDeckTagsDisplayWidget::openTagEditDlg</a></div><div class="ttdeci">void openTagEditDlg()</div><div class="ttdef"><b>Definition</b> deck_preview_deck_tags_display_widget.cpp:91</div></div>
 <div class="ttc" id="aclassDeckPreviewWidget_html"><div class="ttname"><a href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a></div><div class="ttdef"><b>Definition</b> deck_preview_widget.h:28</div></div>
 <div class="ttc" id="aclassFlowWidget_html"><div class="ttname"><a href="../../d5/d53/classFlowWidget.html">FlowWidget</a></div><div class="ttdef"><b>Definition</b> flow_widget.h:20</div></div>

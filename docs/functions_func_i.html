@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -149,7 +144,7 @@ $(function(){initNavTree('functions_func_i.html','',''); });
 <li>initializePinBadge()&#160;:&#160;<a class="el" href="d3/d2f/classPrintingSelectorCardOverlayWidget.html#ae29fe05676b306379068943f2d1880fe">PrintingSelectorCardOverlayWidget</a></li>
 <li>initializeScrollAreaAndZoneContainer()&#160;:&#160;<a class="el" href="da/d1e/classVisualDeckEditorWidget.html#a8c3bb5d3aee510351728e0160fc314af">VisualDeckEditorWidget</a></li>
 <li>initializeSearchBarAndCompleter()&#160;:&#160;<a class="el" href="da/d1e/classVisualDeckEditorWidget.html#a2bc82a251baf0191c60e8a7b71b4ac72">VisualDeckEditorWidget</a></li>
-<li>initializeUi()&#160;:&#160;<a class="el" href="d5/d79/classDeckPreviewWidget.html#a77dd7c09b97677aeca9e0296dbe7c2b8">DeckPreviewWidget</a></li>
+<li>initializeUi()&#160;:&#160;<a class="el" href="d5/d79/classDeckPreviewWidget.html#a77dd7c09b97677aeca9e0296dbe7c2b8">DeckPreviewWidget</a>, <a class="el" href="db/d5d/classTabArchidekt.html#af896049a6d7de951e51b180b3916d549">TabArchidekt</a></li>
 <li>initializeZones()&#160;:&#160;<a class="el" href="d2/d4b/classPlayer.html#ad454d65992737fcdcb30119c9bbd8f76">Player</a>, <a class="el" href="d3/de4/classPlayerGraphicsItem.html#a3622610889ff18515ab9f33363346ccb">PlayerGraphicsItem</a></li>
 <li>initKeys()&#160;:&#160;<a class="el" href="df/d90/classUnzipPrivate.html#a36d045871216c191bacfc97422e85a56">UnzipPrivate</a>, <a class="el" href="df/daf/classZipPrivate.html#aacc1afb74277c9fa28dbae1f9dad4b80">ZipPrivate</a></li>
 <li>initSayMenu()&#160;:&#160;<a class="el" href="d7/dd6/classPlayerMenu.html#afe866e9abd6bc8c3d0295a43bfe5668d">PlayerMenu</a>, <a class="el" href="d6/dbc/classSayMenu.html#aa7cf143a0faa48862c69f9da4947e070">SayMenu</a></li>

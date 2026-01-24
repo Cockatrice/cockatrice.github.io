@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -122,8 +117,11 @@ Collaboration diagram for TabArchidekt:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:a9bfd4b0970c0fca46bf2c43b0dce2f40" id="r_a9bfd4b0970c0fca46bf2c43b0dce2f40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bfd4b0970c0fca46bf2c43b0dce2f40">doSearch</a> ()</td></tr>
-<tr class="memdesc:a9bfd4b0970c0fca46bf2c43b0dce2f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger a search using the current filters.  <br /></td></tr>
+<tr class="memdesc:a9bfd4b0970c0fca46bf2c43b0dce2f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger a debounced search using the current filters.  <br /></td></tr>
 <tr class="memitem:ac61ac36fa36bdb441c762df8d3562c04" id="r_ac61ac36fa36bdb441c762df8d3562c04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac61ac36fa36bdb441c762df8d3562c04">doSearchImmediate</a> ()</td></tr>
+<tr class="memdesc:ac61ac36fa36bdb441c762df8d3562c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immediately trigger a search using the current filters.  <br /></td></tr>
+<tr class="memitem:aa3d5fc78ee607447fb1a85b3e53db9ba" id="r_aa3d5fc78ee607447fb1a85b3e53db9ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3d5fc78ee607447fb1a85b3e53db9ba">loadNextPage</a> ()</td></tr>
+<tr class="memdesc:aa3d5fc78ee607447fb1a85b3e53db9ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the next page of results for infinite scroll.  <br /></td></tr>
 <tr class="memitem:a5f3cd18b906f3e02ba113a48df39e7d8" id="r_a5f3cd18b906f3e02ba113a48df39e7d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f3cd18b906f3e02ba113a48df39e7d8">processApiJson</a> (QNetworkReply *reply)</td></tr>
 <tr class="memdesc:a5f3cd18b906f3e02ba113a48df39e7d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process a network reply containing JSON data.  <br /></td></tr>
 <tr class="memitem:ad6712177ac25124485635d2f5fa2ce4b" id="r_ad6712177ac25124485635d2f5fa2ce4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6712177ac25124485635d2f5fa2ce4b">processTopDecksResponse</a> (QJsonObject reply)</td></tr>
@@ -158,71 +156,100 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abc34e642c5afb7cca0c9e6f84d951976 inherit pub_methods_classTab" id="r_abc34e642c5afb7cca0c9e6f84d951976"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/classTab.html#abc34e642c5afb7cca0c9e6f84d951976">closeRequest</a> ()</td></tr>
 <tr class="memitem:a931e429e517e12d33a571a0801b20e26 inherit pub_methods_classTab" id="r_a931e429e517e12d33a571a0801b20e26"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/classTab.html#a931e429e517e12d33a571a0801b20e26">tabActivated</a> ()</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:aafdf993927fff20e5027d059fddd8203" id="r_aafdf993927fff20e5027d059fddd8203"><td class="memItemLeft" align="right" valign="top">QNetworkAccessManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafdf993927fff20e5027d059fddd8203">networkManager</a></td></tr>
-<tr class="memdesc:aafdf993927fff20e5027d059fddd8203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Network manager for handling API requests.  <br /></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:aff479defa71d268e3238f6d336174b3a" id="r_aff479defa71d268e3238f6d336174b3a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff479defa71d268e3238f6d336174b3a">eventFilter</a> (QObject *obj, QEvent *event) override</td></tr>
+<tr class="memdesc:aff479defa71d268e3238f6d336174b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event filter to catch wheel events for infinite scroll.  <br /></td></tr>
+<tr class="inherit_header pro_methods_classTab"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classTab')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="../../de/d9c/classTab.html">Tab</a></td></tr>
+<tr class="memitem:a16a9cb60f02fe99dfdb5b26511209f8f inherit pro_methods_classTab" id="r_a16a9cb60f02fe99dfdb5b26511209f8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/classTab.html#a16a9cb60f02fe99dfdb5b26511209f8f">addTabMenu</a> (QMenu *menu)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:af896049a6d7de951e51b180b3916d549" id="r_af896049a6d7de951e51b180b3916d549"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af896049a6d7de951e51b180b3916d549">initializeUi</a> ()</td></tr>
+<tr class="memdesc:af896049a6d7de951e51b180b3916d549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the main UI layout and toolbars.  <br /></td></tr>
+<tr class="memitem:ac51fbfaeaeea90ddc852c359699c7b0e" id="r_ac51fbfaeaeea90ddc852c359699c7b0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac51fbfaeaeea90ddc852c359699c7b0e">setupFilterWidgets</a> ()</td></tr>
+<tr class="memdesc:ac51fbfaeaeea90ddc852c359699c7b0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up all filter widgets.  <br /></td></tr>
+<tr class="memitem:a4cf736615056aa7a346d924bf2cf61cf" id="r_a4cf736615056aa7a346d924bf2cf61cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cf736615056aa7a346d924bf2cf61cf">connectSignals</a> ()</td></tr>
+<tr class="memdesc:a4cf736615056aa7a346d924bf2cf61cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect all signals and slots for UI interactions.  <br /></td></tr>
+<tr class="memitem:a6e9e4bd5c4de827ce32f76cb7d218f0b" id="r_a6e9e4bd5c4de827ce32f76cb7d218f0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e9e4bd5c4de827ce32f76cb7d218f0b">updatePackageModeState</a> (bool isPackageMode)</td></tr>
+<tr class="memdesc:a6e9e4bd5c4de827ce32f76cb7d218f0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update UI state when package mode is toggled.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:aafdf993927fff20e5027d059fddd8203" id="r_aafdf993927fff20e5027d059fddd8203"><td class="memItemLeft" align="right" valign="top">QNetworkAccessManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafdf993927fff20e5027d059fddd8203">networkManager</a></td></tr>
+<tr class="memdesc:aafdf993927fff20e5027d059fddd8203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Network manager for handling API requests.  <br /></td></tr>
 <tr class="memitem:a2e5fff4e6edee2273254fefa36751df3" id="r_a2e5fff4e6edee2273254fefa36751df3"><td class="memItemLeft" align="right" valign="top">QTimer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e5fff4e6edee2273254fefa36751df3">searchDebounceTimer</a></td></tr>
-<tr class="memdesc:a2e5fff4e6edee2273254fefa36751df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer to debounce search requests by spin-boxes etc.  <br /></td></tr>
+<tr class="memdesc:a2e5fff4e6edee2273254fefa36751df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer to debounce search requests.  <br /></td></tr>
+<tr class="memitem:a8af07d541d3fe434cfb0252280c84423" id="r_a8af07d541d3fe434cfb0252280c84423"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8af07d541d3fe434cfb0252280c84423">currentPage</a></td></tr>
+<tr class="memdesc:a8af07d541d3fe434cfb0252280c84423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current page number for infinite scroll.  <br /></td></tr>
+<tr class="memitem:a937264fe8620830ff73097acb802bd00" id="r_a937264fe8620830ff73097acb802bd00"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a937264fe8620830ff73097acb802bd00">isLoadingMore</a></td></tr>
+<tr class="memdesc:a937264fe8620830ff73097acb802bd00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to prevent multiple simultaneous page loads.  <br /></td></tr>
+<tr class="memitem:ac24ea9d77444e10f16de544921fd6b2e" id="r_ac24ea9d77444e10f16de544921fd6b2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac24ea9d77444e10f16de544921fd6b2e">isListMode</a></td></tr>
+<tr class="memitem:a8f91d5b6863056faac2a7db0955784e4" id="r_a8f91d5b6863056faac2a7db0955784e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html">ArchidektApiResponseDeckListingsDisplayWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f91d5b6863056faac2a7db0955784e4">listingsWidget</a> = nullptr</td></tr>
 <tr class="memitem:a075abcf0eb4646f6028feb89b81af1ab" id="r_a075abcf0eb4646f6028feb89b81af1ab"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a075abcf0eb4646f6028feb89b81af1ab">container</a></td></tr>
 <tr class="memdesc:a075abcf0eb4646f6028feb89b81af1ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Root container for the entire tab.  <br /></td></tr>
 <tr class="memitem:a0a215a8c7a7409549997bd575b24336c" id="r_a0a215a8c7a7409549997bd575b24336c"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a215a8c7a7409549997bd575b24336c">mainLayout</a></td></tr>
-<tr class="memdesc:a0a215a8c7a7409549997bd575b24336c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outer vertical layout containing navigation and page display.  <br /></td></tr>
-<tr class="memitem:a4381a73b80450ae98d49099daf4fb6f7" id="r_a4381a73b80450ae98d49099daf4fb6f7"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4381a73b80450ae98d49099daf4fb6f7">navigationContainer</a></td></tr>
-<tr class="memdesc:a4381a73b80450ae98d49099daf4fb6f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container for all navigation/filter controls.  <br /></td></tr>
-<tr class="memitem:a0e76cd85656e8bc78a178f1835c7738d" id="r_a0e76cd85656e8bc78a178f1835c7738d"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e76cd85656e8bc78a178f1835c7738d">navigationLayout</a></td></tr>
-<tr class="memdesc:a0e76cd85656e8bc78a178f1835c7738d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layout for horizontal arrangement of filter widgets.  <br /></td></tr>
-<tr class="memitem:a561a20302d551aa0e1056f1fb32968a6" id="r_a561a20302d551aa0e1056f1fb32968a6"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a561a20302d551aa0e1056f1fb32968a6">currentPageDisplay</a></td></tr>
-<tr class="memdesc:a561a20302d551aa0e1056f1fb32968a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Widget containing the currently displayed deck(s)  <br /></td></tr>
-<tr class="memitem:a4f8e54e8cd589dbef71eab68ae2b93ad" id="r_a4f8e54e8cd589dbef71eab68ae2b93ad"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f8e54e8cd589dbef71eab68ae2b93ad">currentPageLayout</a></td></tr>
-<tr class="memdesc:a4f8e54e8cd589dbef71eab68ae2b93ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layout for deck display widgets.  <br /></td></tr>
+<tr class="memdesc:a0a215a8c7a7409549997bd575b24336c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outer vertical layout containing toolbars and results.  <br /></td></tr>
+<tr class="memitem:aa15a90d250cf6d148abdd1c1954088ef" id="r_aa15a90d250cf6d148abdd1c1954088ef"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa15a90d250cf6d148abdd1c1954088ef">primaryToolbar</a></td></tr>
+<tr class="memdesc:aa15a90d250cf6d148abdd1c1954088ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primary toolbar with most important filters.  <br /></td></tr>
+<tr class="memitem:a720162134376d884c632c14460ab1386" id="r_a720162134376d884c632c14460ab1386"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a720162134376d884c632c14460ab1386">primaryToolbarLayout</a></td></tr>
+<tr class="memdesc:a720162134376d884c632c14460ab1386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layout for primary toolbar.  <br /></td></tr>
+<tr class="memitem:ad157481792b236875fd6125ac5a9d9ce" id="r_ad157481792b236875fd6125ac5a9d9ce"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad157481792b236875fd6125ac5a9d9ce">secondaryToolbar</a></td></tr>
+<tr class="memdesc:ad157481792b236875fd6125ac5a9d9ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Secondary toolbar with advanced filters.  <br /></td></tr>
+<tr class="memitem:a08217c11a3ad45061d4b908cc2db7a70" id="r_a08217c11a3ad45061d4b908cc2db7a70"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08217c11a3ad45061d4b908cc2db7a70">secondaryToolbarLayout</a></td></tr>
+<tr class="memdesc:a08217c11a3ad45061d4b908cc2db7a70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layout for secondary toolbar.  <br /></td></tr>
+<tr class="memitem:a475b3bba471d5a484a97eaa96bb04222" id="r_a475b3bba471d5a484a97eaa96bb04222"><td class="memItemLeft" align="right" valign="top">QScrollArea *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a475b3bba471d5a484a97eaa96bb04222">scrollArea</a></td></tr>
+<tr class="memdesc:a475b3bba471d5a484a97eaa96bb04222"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scrollable area for results (enables infinite scroll)  <br /></td></tr>
+<tr class="memitem:ace9335d64d1a971359f6d26fecbdc617" id="r_ace9335d64d1a971359f6d26fecbdc617"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace9335d64d1a971359f6d26fecbdc617">resultsContainer</a></td></tr>
+<tr class="memdesc:ace9335d64d1a971359f6d26fecbdc617"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container widget inside scroll area.  <br /></td></tr>
+<tr class="memitem:a0c356532c080ac60d74dc9777f7f7588" id="r_a0c356532c080ac60d74dc9777f7f7588"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c356532c080ac60d74dc9777f7f7588">resultsLayout</a></td></tr>
+<tr class="memdesc:a0c356532c080ac60d74dc9777f7f7588"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layout for results (decks appended here)  <br /></td></tr>
+<tr class="memitem:a61b5e0d73d49534475e8e6e20570e3af" id="r_a61b5e0d73d49534475e8e6e20570e3af"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61b5e0d73d49534475e8e6e20570e3af">sortByLabel</a></td></tr>
+<tr class="memdesc:a61b5e0d73d49534475e8e6e20570e3af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Label for sort controls.  <br /></td></tr>
 <tr class="memitem:a338621a5fd6ed0cbdb9ef88516105200" id="r_a338621a5fd6ed0cbdb9ef88516105200"><td class="memItemLeft" align="right" valign="top">QComboBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a338621a5fd6ed0cbdb9ef88516105200">orderByCombo</a></td></tr>
 <tr class="memdesc:a338621a5fd6ed0cbdb9ef88516105200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dropdown for selecting the sort field.  <br /></td></tr>
 <tr class="memitem:a3945419f7621420192c1e80b1454fa06" id="r_a3945419f7621420192c1e80b1454fa06"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3945419f7621420192c1e80b1454fa06">orderDirButton</a></td></tr>
 <tr class="memdesc:a3945419f7621420192c1e80b1454fa06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle button for ascending/descending sort.  <br /></td></tr>
+<tr class="memitem:ac76602408862402bdf69e63821c95548" id="r_ac76602408862402bdf69e63821c95548"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac76602408862402bdf69e63821c95548">filterByLabel</a></td></tr>
+<tr class="memdesc:ac76602408862402bdf69e63821c95548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Label for filter controls.  <br /></td></tr>
+<tr class="memitem:a846149bb8f2bb64962eb417d029c5844" id="r_a846149bb8f2bb64962eb417d029c5844"><td class="memItemLeft" align="right" valign="top">QList&lt; <a class="el" href="../../d8/d8e/classManaSymbolWidget.html">ManaSymbolWidget</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a846149bb8f2bb64962eb417d029c5844">colorSymbols</a></td></tr>
+<tr class="memdesc:a846149bb8f2bb64962eb417d029c5844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mana symbol toggle buttons.  <br /></td></tr>
 <tr class="memitem:aa5c23438e1dd4692998706bffbe08dcb" id="r_aa5c23438e1dd4692998706bffbe08dcb"><td class="memItemLeft" align="right" valign="top">QSet&lt; QChar &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5c23438e1dd4692998706bffbe08dcb">activeColors</a></td></tr>
 <tr class="memdesc:aa5c23438e1dd4692998706bffbe08dcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of currently active mana colors.  <br /></td></tr>
 <tr class="memitem:a372f40030b9fdda01ffe09874c192cc2" id="r_a372f40030b9fdda01ffe09874c192cc2"><td class="memItemLeft" align="right" valign="top">QCheckBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a372f40030b9fdda01ffe09874c192cc2">logicalAndCheck</a></td></tr>
 <tr class="memdesc:a372f40030b9fdda01ffe09874c192cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Require ALL selected colors instead of ANY.  <br /></td></tr>
-<tr class="memitem:aabae98fdb70b7168ca54f4fff8bb48ae" id="r_aabae98fdb70b7168ca54f4fff8bb48ae"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabae98fdb70b7168ca54f4fff8bb48ae">formatLabel</a></td></tr>
-<tr class="memdesc:aabae98fdb70b7168ca54f4fff8bb48ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Label displaying "Formats".  <br /></td></tr>
-<tr class="memitem:a534cb11f2e6113e8a7a4148e4b05a7f0" id="r_a534cb11f2e6113e8a7a4148e4b05a7f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a534cb11f2e6113e8a7a4148e4b05a7f0">formatSettingsWidget</a></td></tr>
-<tr class="memdesc:a534cb11f2e6113e8a7a4148e4b05a7f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapsible widget containing format checkboxes.  <br /></td></tr>
-<tr class="memitem:a20c00ea70fe3296226136600ee5254c2" id="r_a20c00ea70fe3296226136600ee5254c2"><td class="memItemLeft" align="right" valign="top">QVector&lt; QCheckBox * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20c00ea70fe3296226136600ee5254c2">formatChecks</a></td></tr>
-<tr class="memdesc:a20c00ea70fe3296226136600ee5254c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Individual checkboxes for each format.  <br /></td></tr>
-<tr class="memitem:a91ac02a126986d9e75064779fa0e49dc" id="r_a91ac02a126986d9e75064779fa0e49dc"><td class="memItemLeft" align="right" valign="top">QComboBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ac02a126986d9e75064779fa0e49dc">edhBracketCombo</a></td></tr>
-<tr class="memdesc:a91ac02a126986d9e75064779fa0e49dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dropdown for EDH bracket selection.  <br /></td></tr>
-<tr class="memitem:a3e61ce7d60f45867c9d39771e755fe8d" id="r_a3e61ce7d60f45867c9d39771e755fe8d"><td class="memItemLeft" align="right" valign="top">QCheckBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e61ce7d60f45867c9d39771e755fe8d">packagesCheck</a></td></tr>
-<tr class="memdesc:a3e61ce7d60f45867c9d39771e755fe8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle for searching card packages instead of full decks.  <br /></td></tr>
 <tr class="memitem:a9ce1f8c796b89bf94b31b9b84ad53877" id="r_a9ce1f8c796b89bf94b31b9b84ad53877"><td class="memItemLeft" align="right" valign="top">QLineEdit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ce1f8c796b89bf94b31b9b84ad53877">nameField</a></td></tr>
 <tr class="memdesc:a9ce1f8c796b89bf94b31b9b84ad53877"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input for deck name filter.  <br /></td></tr>
 <tr class="memitem:a99c0d17c0574f179011035a60cd64cd8" id="r_a99c0d17c0574f179011035a60cd64cd8"><td class="memItemLeft" align="right" valign="top">QLineEdit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99c0d17c0574f179011035a60cd64cd8">ownerField</a></td></tr>
 <tr class="memdesc:a99c0d17c0574f179011035a60cd64cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input for owner name filter.  <br /></td></tr>
-<tr class="memitem:a44dd7066ae211bd0de483eb86a072def" id="r_a44dd7066ae211bd0de483eb86a072def"><td class="memItemLeft" align="right" valign="top">QLineEdit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44dd7066ae211bd0de483eb86a072def">cardsField</a></td></tr>
-<tr class="memdesc:a44dd7066ae211bd0de483eb86a072def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input for cards included in the deck (comma-separated)  <br /></td></tr>
-<tr class="memitem:ac03ae21692fce81aeec1764c589b59f4" id="r_ac03ae21692fce81aeec1764c589b59f4"><td class="memItemLeft" align="right" valign="top">QLineEdit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac03ae21692fce81aeec1764c589b59f4">commandersField</a></td></tr>
-<tr class="memdesc:ac03ae21692fce81aeec1764c589b59f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input for commander cards (comma-separated)  <br /></td></tr>
-<tr class="memitem:ae26f9fd7e548e450648ff68ec5255297" id="r_ae26f9fd7e548e450648ff68ec5255297"><td class="memItemLeft" align="right" valign="top">QLineEdit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae26f9fd7e548e450648ff68ec5255297">deckTagNameField</a></td></tr>
-<tr class="memdesc:ae26f9fd7e548e450648ff68ec5255297"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input for deck tag filtering.  <br /></td></tr>
-<tr class="memitem:ad7891af69baa316e0e93a0caae78bc11" id="r_ad7891af69baa316e0e93a0caae78bc11"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7891af69baa316e0e93a0caae78bc11">searchPushButton</a></td></tr>
-<tr class="memdesc:ad7891af69baa316e0e93a0caae78bc11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button to trigger the search manually.  <br /></td></tr>
+<tr class="memitem:a3e61ce7d60f45867c9d39771e755fe8d" id="r_a3e61ce7d60f45867c9d39771e755fe8d"><td class="memItemLeft" align="right" valign="top">QCheckBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e61ce7d60f45867c9d39771e755fe8d">packagesCheck</a></td></tr>
+<tr class="memdesc:a3e61ce7d60f45867c9d39771e755fe8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle for searching card packages instead of full decks.  <br /></td></tr>
+<tr class="memitem:ad39badaeb99800f5328f89d1cffb0d34" id="r_ad39badaeb99800f5328f89d1cffb0d34"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad39badaeb99800f5328f89d1cffb0d34">searchButton</a></td></tr>
+<tr class="memdesc:ad39badaeb99800f5328f89d1cffb0d34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button to trigger search.  <br /></td></tr>
+<tr class="memitem:a3ed30e1912971653638c7a821b46843e" id="r_a3ed30e1912971653638c7a821b46843e"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ed30e1912971653638c7a821b46843e">advancedFiltersButton</a></td></tr>
+<tr class="memdesc:a3ed30e1912971653638c7a821b46843e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button to show/hide advanced filters.  <br /></td></tr>
 <tr class="memitem:a1d0bcea49b4e706642a9309061b91025" id="r_a1d0bcea49b4e706642a9309061b91025"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d0bcea49b4e706642a9309061b91025">settingsButton</a></td></tr>
-<tr class="memdesc:a1d0bcea49b4e706642a9309061b91025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container for additional UI settings.  <br /></td></tr>
+<tr class="memdesc:a1d0bcea49b4e706642a9309061b91025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container for card size settings.  <br /></td></tr>
 <tr class="memitem:a7df935c4ec8f3ff999513bef00951e51" id="r_a7df935c4ec8f3ff999513bef00951e51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d47/classCardSizeWidget.html">CardSizeWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7df935c4ec8f3ff999513bef00951e51">cardSizeSlider</a></td></tr>
 <tr class="memdesc:a7df935c4ec8f3ff999513bef00951e51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slider to adjust card size in results.  <br /></td></tr>
-<tr class="memitem:a27b9726dbab8d99d640ac1fad592d3b1" id="r_a27b9726dbab8d99d640ac1fad592d3b1"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27b9726dbab8d99d640ac1fad592d3b1">minDeckSizeLabel</a></td></tr>
-<tr class="memdesc:a27b9726dbab8d99d640ac1fad592d3b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Label for minimum number of cards per deck.  <br /></td></tr>
+<tr class="memitem:a44dd7066ae211bd0de483eb86a072def" id="r_a44dd7066ae211bd0de483eb86a072def"><td class="memItemLeft" align="right" valign="top">QLineEdit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44dd7066ae211bd0de483eb86a072def">cardsField</a></td></tr>
+<tr class="memdesc:a44dd7066ae211bd0de483eb86a072def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input for cards included in the deck.  <br /></td></tr>
+<tr class="memitem:ac03ae21692fce81aeec1764c589b59f4" id="r_ac03ae21692fce81aeec1764c589b59f4"><td class="memItemLeft" align="right" valign="top">QLineEdit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac03ae21692fce81aeec1764c589b59f4">commandersField</a></td></tr>
+<tr class="memdesc:ac03ae21692fce81aeec1764c589b59f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input for commander cards.  <br /></td></tr>
+<tr class="memitem:ae26f9fd7e548e450648ff68ec5255297" id="r_ae26f9fd7e548e450648ff68ec5255297"><td class="memItemLeft" align="right" valign="top">QLineEdit *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae26f9fd7e548e450648ff68ec5255297">deckTagNameField</a></td></tr>
+<tr class="memdesc:ae26f9fd7e548e450648ff68ec5255297"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input for deck tag filtering.  <br /></td></tr>
+<tr class="memitem:ace2db59779be94dc3f4faa9987bdc958" id="r_ace2db59779be94dc3f4faa9987bdc958"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace2db59779be94dc3f4faa9987bdc958">formatButton</a></td></tr>
+<tr class="memdesc:ace2db59779be94dc3f4faa9987bdc958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapsible button for format filters.  <br /></td></tr>
+<tr class="memitem:a20c00ea70fe3296226136600ee5254c2" id="r_a20c00ea70fe3296226136600ee5254c2"><td class="memItemLeft" align="right" valign="top">QVector&lt; QCheckBox * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20c00ea70fe3296226136600ee5254c2">formatChecks</a></td></tr>
+<tr class="memdesc:a20c00ea70fe3296226136600ee5254c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Individual checkboxes for each format.  <br /></td></tr>
+<tr class="memitem:a91ac02a126986d9e75064779fa0e49dc" id="r_a91ac02a126986d9e75064779fa0e49dc"><td class="memItemLeft" align="right" valign="top">QComboBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ac02a126986d9e75064779fa0e49dc">edhBracketCombo</a></td></tr>
+<tr class="memdesc:a91ac02a126986d9e75064779fa0e49dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dropdown for EDH bracket selection.  <br /></td></tr>
+<tr class="memitem:ad53ddc422871d57001ca2ef1f5dcc5c4" id="r_ad53ddc422871d57001ca2ef1f5dcc5c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad53ddc422871d57001ca2ef1f5dcc5c4">deckSizeButton</a></td></tr>
+<tr class="memdesc:ad53ddc422871d57001ca2ef1f5dcc5c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapsible button for deck size filter.  <br /></td></tr>
 <tr class="memitem:a30c7b9a5cf431e5968595d1958ee61a7" id="r_a30c7b9a5cf431e5968595d1958ee61a7"><td class="memItemLeft" align="right" valign="top">QSpinBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30c7b9a5cf431e5968595d1958ee61a7">minDeckSizeSpin</a></td></tr>
 <tr class="memdesc:a30c7b9a5cf431e5968595d1958ee61a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spinner to select minimum deck size.  <br /></td></tr>
 <tr class="memitem:a4dc030728fdee5fb779621628b2ce5f7" id="r_a4dc030728fdee5fb779621628b2ce5f7"><td class="memItemLeft" align="right" valign="top">QComboBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dc030728fdee5fb779621628b2ce5f7">minDeckSizeLogicCombo</a></td></tr>
-<tr class="memdesc:a4dc030728fdee5fb779621628b2ce5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combo box for the size logic to apply.  <br /></td></tr>
-<tr class="memitem:a445f431ad3fae6f5266cd81781799129" id="r_a445f431ad3fae6f5266cd81781799129"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a445f431ad3fae6f5266cd81781799129">pageLabel</a></td></tr>
-<tr class="memdesc:a445f431ad3fae6f5266cd81781799129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Label for current page selection.  <br /></td></tr>
-<tr class="memitem:a83249be793e4da331435104e5720e4f3" id="r_a83249be793e4da331435104e5720e4f3"><td class="memItemLeft" align="right" valign="top">QSpinBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83249be793e4da331435104e5720e4f3">pageSpin</a></td></tr>
-<tr class="memdesc:a83249be793e4da331435104e5720e4f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spinner to select the page number for results.  <br /></td></tr>
+<tr class="memdesc:a4dc030728fdee5fb779621628b2ce5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combo box for size comparison logic.  <br /></td></tr>
 <tr class="memitem:a3b94a46a5eca0053d5e3011ad014627d" id="r_a3b94a46a5eca0053d5e3011ad014627d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b94a46a5eca0053d5e3011ad014627d">cardToQuery</a></td></tr>
 <tr class="memdesc:a3b94a46a5eca0053d5e3011ad014627d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional pre-selected card for initial filtering.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -234,14 +261,12 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_slots_classTab"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_slots_classTab')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Slots inherited from <a class="el" href="../../de/d9c/classTab.html">Tab</a></td></tr>
 <tr class="memitem:ac49d8dc9f05ebcfb09422bf77fd6c827 inherit pro_slots_classTab" id="r_ac49d8dc9f05ebcfb09422bf77fd6c827"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/classTab.html#ac49d8dc9f05ebcfb09422bf77fd6c827">showCardInfoPopup</a> (const QPoint &amp;pos, const <a class="el" href="../../d1/d66/structCardRef.html">CardRef</a> &amp;cardRef)</td></tr>
 <tr class="memitem:a2ab2dc9ab9ab89dc2b0082c2bb60445c inherit pro_slots_classTab" id="r_a2ab2dc9ab9ab89dc2b0082c2bb60445c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/classTab.html#a2ab2dc9ab9ab89dc2b0082c2bb60445c">deleteCardInfoPopup</a> (const QString &amp;cardName)</td></tr>
-<tr class="inherit_header pro_methods_classTab"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classTab')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="../../de/d9c/classTab.html">Tab</a></td></tr>
-<tr class="memitem:a16a9cb60f02fe99dfdb5b26511209f8f inherit pro_methods_classTab" id="r_a16a9cb60f02fe99dfdb5b26511209f8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/classTab.html#a16a9cb60f02fe99dfdb5b26511209f8f">addTabMenu</a> (QMenu *menu)</td></tr>
 <tr class="inherit_header pro_attribs_classTab"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classTab')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="../../de/d9c/classTab.html">Tab</a></td></tr>
 <tr class="memitem:a25e38b8dedc77ca04d966348f588a25e inherit pro_attribs_classTab" id="r_a25e38b8dedc77ca04d966348f588a25e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9c/classTab.html#a25e38b8dedc77ca04d966348f588a25e">tabSupervisor</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../de/d9c/classTab.html">Tab</a> for browsing, searching, and filtering Archidekt decks. </p>
-<p>This class provides a comprehensive interface for querying decks from the Archidekt API. Users can filter decks by name, owner, included cards, commanders, deck tags, colors, EDH bracket, and formats. It also provides sorting and pagination, as well as a card size adjustment widget. </p>
+<p>This class provides a comprehensive interface for querying decks from the Archidekt API. Users can filter decks by name, owner, included cards, commanders, deck tags, colors, EDH bracket, and formats. It supports infinite scroll pagination for seamless browsing. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adda4d061c5a29f6ca507c763b4144bdd" name="adda4d061c5a29f6ca507c763b4144bdd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adda4d061c5a29f6ca507c763b4144bdd">&#9670;&#160;</a></span>TabArchidekt()</h2>
@@ -313,7 +338,7 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<p>Typically called when a navigation button is clicked in a deck listing. </p>
+<p>Typically called when a deck card is clicked in the listing. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -351,12 +376,50 @@ Here is the caller graph for this function:</div>
 <li>Packages toggle</li>
 <li>Sorting field and direction</li>
 <li>Minimum amount of cards in the deck</li>
-<li>Pagination (page) </li>
+<li>Current page (for infinite scroll) </li>
 </ul>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_a783c5b26773c23178f9183e8ee74388e_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_a783c5b26773c23178f9183e8ee74388e_icgraph.svg" width="100%" height="569"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a4cf736615056aa7a346d924bf2cf61cf" name="a4cf736615056aa7a346d924bf2cf61cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cf736615056aa7a346d924bf2cf61cf">&#9670;&#160;</a></span>connectSignals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabArchidekt::connectSignals </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Connect all signals and slots for UI interactions. </p>
+<p>Links all widget signals to their appropriate handlers, including search triggers, filter changes, package mode toggling, and infinite scroll. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_a4cf736615056aa7a346d924bf2cf61cf_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_a4cf736615056aa7a346d924bf2cf61cf_icgraph.svg" width="470" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -384,12 +447,17 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Trigger a search using the current filters. </p>
-<p>Sends a network request to the Archidekt API using the URL generated by <a class="el" href="#a783c5b26773c23178f9183e8ee74388e" title="Construct the search URL from all current filters.">buildSearchUrl()</a>. Updates the current page display with results asynchronously. </p>
+<p>Trigger a debounced search using the current filters. </p>
+<p>Resets to page 1 and starts the debounce timer. The actual search will execute after 300ms of inactivity. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_a9bfd4b0970c0fca46bf2c43b0dce2f40_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_a9bfd4b0970c0fca46bf2c43b0dce2f40_icgraph.svg" width="432" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_a9bfd4b0970c0fca46bf2c43b0dce2f40_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -416,6 +484,9 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Immediately trigger a search using the current filters. </p>
+<p>Sends a network request to the Archidekt API using the URL generated by <a class="el" href="#a783c5b26773c23178f9183e8ee74388e" title="Construct the search URL from all current filters.">buildSearchUrl()</a>. Updates the results display asynchronously. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -424,7 +495,51 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_ac61ac36fa36bdb441c762df8d3562c04_icgraph.svg" width="503" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_ac61ac36fa36bdb441c762df8d3562c04_icgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aff479defa71d268e3238f6d336174b3a" name="aff479defa71d268e3238f6d336174b3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff479defa71d268e3238f6d336174b3a">&#9670;&#160;</a></span>eventFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TabArchidekt::eventFilter </td>
+          <td>(</td>
+          <td class="paramtype">QObject *</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event filter to catch wheel events for infinite scroll. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">obj</td><td>The object that received the event </td></tr>
+    <tr><td class="paramname">event</td><td>The event to filter </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool Whether the event was handled </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_aff479defa71d268e3238f6d336174b3a_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -513,7 +628,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Fetch top decks from the Archidekt API. </p>
-<p>Called on initialization to populate the initial page display. </p>
+<p>Called on initialization to populate the initial results display. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -523,6 +638,82 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_aca5d1f176b8164976a9a4f52f2fa2ea2_icgraph.svg" width="455" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="af896049a6d7de951e51b180b3916d549" name="af896049a6d7de951e51b180b3916d549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af896049a6d7de951e51b180b3916d549">&#9670;&#160;</a></span>initializeUi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabArchidekt::initializeUi </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialize the main UI layout and toolbars. </p>
+<p>Creates the container, main layout, primary toolbar (sort, colors, name, owner, packages), secondary toolbar (advanced filters), and scrollable results area. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_af896049a6d7de951e51b180b3916d549_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_af896049a6d7de951e51b180b3916d549_icgraph.svg" width="442" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa3d5fc78ee607447fb1a85b3e53db9ba" name="aa3d5fc78ee607447fb1a85b3e53db9ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3d5fc78ee607447fb1a85b3e53db9ba">&#9670;&#160;</a></span>loadNextPage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabArchidekt::loadNextPage </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load the next page of results for infinite scroll. </p>
+<p>Increments the current page and fetches additional results, which are appended to the existing results display. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_aa3d5fc78ee607447fb1a85b3e53db9ba_cgraph.svg" width="472" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_aa3d5fc78ee607447fb1a85b3e53db9ba_icgraph.svg" width="447" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -605,7 +796,7 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<p>Determines whether the response corresponds to a top decks query or a single deck, and dispatches it to the appropriate handler. </p>
+<p>Determines whether the response corresponds to a deck listing or a single deck, and dispatches it to the appropriate handler. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -649,7 +840,7 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<p>Clears the previous page display and creates a new display widget for the deck details. </p>
+<p>Clears the results area and displays the single deck details. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -689,11 +880,11 @@ Here is the caller graph for this function:</div>
 <p>Handle a JSON response containing multiple decks. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">reply</td><td>QJsonObject containing top deck listings</td></tr>
+    <tr><td class="paramname">reply</td><td>QJsonObject containing deck listings</td></tr>
   </table>
   </dd>
 </dl>
-<p>Clears the previous page display and creates a new display widget for the results. </p>
+<p>If this is page 1, clears previous results. Appends new results to the display. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -742,6 +933,89 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ac51fbfaeaeea90ddc852c359699c7b0e" name="ac51fbfaeaeea90ddc852c359699c7b0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac51fbfaeaeea90ddc852c359699c7b0e">&#9670;&#160;</a></span>setupFilterWidgets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabArchidekt::setupFilterWidgets </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set up all filter widgets. </p>
+<p>Creates filter widgets for:</p><ul>
+<li>Card search with autocomplete</li>
+<li>Commander search with autocomplete</li>
+<li>Deck tags</li>
+<li>Format selection (collapsible)</li>
+<li>Deck size filter (collapsible) </li>
+</ul>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_ac51fbfaeaeea90ddc852c359699c7b0e_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_ac51fbfaeaeea90ddc852c359699c7b0e_icgraph.svg" width="440" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a6e9e4bd5c4de827ce32f76cb7d218f0b" name="a6e9e4bd5c4de827ce32f76cb7d218f0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e9e4bd5c4de827ce32f76cb7d218f0b">&#9670;&#160;</a></span>updatePackageModeState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabArchidekt::updatePackageModeState </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isPackageMode</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update UI state when package mode is toggled. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isPackageMode</td><td>Whether package mode is currently enabled</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Disables format-specific and commander-specific filters when searching for card packages instead of full decks. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5d/classTabArchidekt_a6e9e4bd5c4de827ce32f76cb7d218f0b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="aa5c23438e1dd4692998706bffbe08dcb" name="aa5c23438e1dd4692998706bffbe08dcb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa5c23438e1dd4692998706bffbe08dcb">&#9670;&#160;</a></span>activeColors</h2>
@@ -767,6 +1041,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a3ed30e1912971653638c7a821b46843e" name="a3ed30e1912971653638c7a821b46843e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ed30e1912971653638c7a821b46843e">&#9670;&#160;</a></span>advancedFiltersButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* TabArchidekt::advancedFiltersButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Button to show/hide advanced filters. </p>
+
+</div>
+</div>
 <a id="a44dd7066ae211bd0de483eb86a072def" name="a44dd7066ae211bd0de483eb86a072def"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44dd7066ae211bd0de483eb86a072def">&#9670;&#160;</a></span>cardsField</h2>
 
@@ -787,7 +1085,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Input for cards included in the deck (comma-separated) </p>
+<p>Input for cards included in the deck. </p>
 
 </div>
 </div>
@@ -839,6 +1137,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a846149bb8f2bb64962eb417d029c5844" name="a846149bb8f2bb64962eb417d029c5844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a846149bb8f2bb64962eb417d029c5844">&#9670;&#160;</a></span>colorSymbols</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="../../d8/d8e/classManaSymbolWidget.html">ManaSymbolWidget</a> *&gt; TabArchidekt::colorSymbols</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mana symbol toggle buttons. </p>
+
+</div>
+</div>
 <a id="ac03ae21692fce81aeec1764c589b59f4" name="ac03ae21692fce81aeec1764c589b59f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac03ae21692fce81aeec1764c589b59f4">&#9670;&#160;</a></span>commandersField</h2>
 
@@ -859,7 +1181,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Input for commander cards (comma-separated) </p>
+<p>Input for commander cards. </p>
 
 </div>
 </div>
@@ -887,8 +1209,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a561a20302d551aa0e1056f1fb32968a6" name="a561a20302d551aa0e1056f1fb32968a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a561a20302d551aa0e1056f1fb32968a6">&#9670;&#160;</a></span>currentPageDisplay</h2>
+<a id="a8af07d541d3fe434cfb0252280c84423" name="a8af07d541d3fe434cfb0252280c84423"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8af07d541d3fe434cfb0252280c84423">&#9670;&#160;</a></span>currentPage</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -897,7 +1219,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QWidget* TabArchidekt::currentPageDisplay</td>
+          <td class="memname">int TabArchidekt::currentPage</td>
         </tr>
       </table>
   </td>
@@ -907,12 +1229,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Widget containing the currently displayed deck(s) </p>
+<p>Current page number for infinite scroll. </p>
 
 </div>
 </div>
-<a id="a4f8e54e8cd589dbef71eab68ae2b93ad" name="a4f8e54e8cd589dbef71eab68ae2b93ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f8e54e8cd589dbef71eab68ae2b93ad">&#9670;&#160;</a></span>currentPageLayout</h2>
+<a id="ad53ddc422871d57001ca2ef1f5dcc5c4" name="ad53ddc422871d57001ca2ef1f5dcc5c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad53ddc422871d57001ca2ef1f5dcc5c4">&#9670;&#160;</a></span>deckSizeButton</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -921,7 +1243,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QVBoxLayout* TabArchidekt::currentPageLayout</td>
+          <td class="memname"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a>* TabArchidekt::deckSizeButton</td>
         </tr>
       </table>
   </td>
@@ -931,7 +1253,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Layout for deck display widgets. </p>
+<p>Collapsible button for deck size filter. </p>
 
 </div>
 </div>
@@ -983,6 +1305,54 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ac76602408862402bdf69e63821c95548" name="ac76602408862402bdf69e63821c95548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac76602408862402bdf69e63821c95548">&#9670;&#160;</a></span>filterByLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* TabArchidekt::filterByLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Label for filter controls. </p>
+
+</div>
+</div>
+<a id="ace2db59779be94dc3f4faa9987bdc958" name="ace2db59779be94dc3f4faa9987bdc958"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace2db59779be94dc3f4faa9987bdc958">&#9670;&#160;</a></span>formatButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a>* TabArchidekt::formatButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Collapsible button for format filters. </p>
+
+</div>
+</div>
 <a id="a20c00ea70fe3296226136600ee5254c2" name="a20c00ea70fe3296226136600ee5254c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a20c00ea70fe3296226136600ee5254c2">&#9670;&#160;</a></span>formatChecks</h2>
 
@@ -1007,8 +1377,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aabae98fdb70b7168ca54f4fff8bb48ae" name="aabae98fdb70b7168ca54f4fff8bb48ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabae98fdb70b7168ca54f4fff8bb48ae">&#9670;&#160;</a></span>formatLabel</h2>
+<a id="ac24ea9d77444e10f16de544921fd6b2e" name="ac24ea9d77444e10f16de544921fd6b2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac24ea9d77444e10f16de544921fd6b2e">&#9670;&#160;</a></span>isListMode</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1017,7 +1387,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QLabel* TabArchidekt::formatLabel</td>
+          <td class="memname">bool TabArchidekt::isListMode</td>
         </tr>
       </table>
   </td>
@@ -1027,12 +1397,10 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Label displaying "Formats". </p>
-
 </div>
 </div>
-<a id="a534cb11f2e6113e8a7a4148e4b05a7f0" name="a534cb11f2e6113e8a7a4148e4b05a7f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a534cb11f2e6113e8a7a4148e4b05a7f0">&#9670;&#160;</a></span>formatSettingsWidget</h2>
+<a id="a937264fe8620830ff73097acb802bd00" name="a937264fe8620830ff73097acb802bd00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a937264fe8620830ff73097acb802bd00">&#9670;&#160;</a></span>isLoadingMore</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1041,7 +1409,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a>* TabArchidekt::formatSettingsWidget</td>
+          <td class="memname">bool TabArchidekt::isLoadingMore</td>
         </tr>
       </table>
   </td>
@@ -1051,7 +1419,29 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Collapsible widget containing format checkboxes. </p>
+<p>Flag to prevent multiple simultaneous page loads. </p>
+
+</div>
+</div>
+<a id="a8f91d5b6863056faac2a7db0955784e4" name="a8f91d5b6863056faac2a7db0955784e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f91d5b6863056faac2a7db0955784e4">&#9670;&#160;</a></span>listingsWidget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html">ArchidektApiResponseDeckListingsDisplayWidget</a>* TabArchidekt::listingsWidget = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1099,31 +1489,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Outer vertical layout containing navigation and page display. </p>
-
-</div>
-</div>
-<a id="a27b9726dbab8d99d640ac1fad592d3b1" name="a27b9726dbab8d99d640ac1fad592d3b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27b9726dbab8d99d640ac1fad592d3b1">&#9670;&#160;</a></span>minDeckSizeLabel</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QLabel* TabArchidekt::minDeckSizeLabel</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Label for minimum number of cards per deck. </p>
+<p>Outer vertical layout containing toolbars and results. </p>
 
 </div>
 </div>
@@ -1147,7 +1513,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Combo box for the size logic to apply. </p>
+<p>Combo box for size comparison logic. </p>
 
 </div>
 </div>
@@ -1199,64 +1565,24 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a4381a73b80450ae98d49099daf4fb6f7" name="a4381a73b80450ae98d49099daf4fb6f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4381a73b80450ae98d49099daf4fb6f7">&#9670;&#160;</a></span>navigationContainer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QWidget* TabArchidekt::navigationContainer</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Container for all navigation/filter controls. </p>
-
-</div>
-</div>
-<a id="a0e76cd85656e8bc78a178f1835c7738d" name="a0e76cd85656e8bc78a178f1835c7738d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e76cd85656e8bc78a178f1835c7738d">&#9670;&#160;</a></span>navigationLayout</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QHBoxLayout* TabArchidekt::navigationLayout</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Layout for horizontal arrangement of filter widgets. </p>
-
-</div>
-</div>
 <a id="aafdf993927fff20e5027d059fddd8203" name="aafdf993927fff20e5027d059fddd8203"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aafdf993927fff20e5027d059fddd8203">&#9670;&#160;</a></span>networkManager</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">QNetworkAccessManager* TabArchidekt::networkManager</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Network manager for handling API requests. </p>
@@ -1359,8 +1685,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a445f431ad3fae6f5266cd81781799129" name="a445f431ad3fae6f5266cd81781799129"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a445f431ad3fae6f5266cd81781799129">&#9670;&#160;</a></span>pageLabel</h2>
+<a id="aa15a90d250cf6d148abdd1c1954088ef" name="aa15a90d250cf6d148abdd1c1954088ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa15a90d250cf6d148abdd1c1954088ef">&#9670;&#160;</a></span>primaryToolbar</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1369,7 +1695,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QLabel* TabArchidekt::pageLabel</td>
+          <td class="memname">QWidget* TabArchidekt::primaryToolbar</td>
         </tr>
       </table>
   </td>
@@ -1379,12 +1705,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Label for current page selection. </p>
+<p>Primary toolbar with most important filters. </p>
 
 </div>
 </div>
-<a id="a83249be793e4da331435104e5720e4f3" name="a83249be793e4da331435104e5720e4f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83249be793e4da331435104e5720e4f3">&#9670;&#160;</a></span>pageSpin</h2>
+<a id="a720162134376d884c632c14460ab1386" name="a720162134376d884c632c14460ab1386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a720162134376d884c632c14460ab1386">&#9670;&#160;</a></span>primaryToolbarLayout</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1393,7 +1719,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QSpinBox* TabArchidekt::pageSpin</td>
+          <td class="memname">QHBoxLayout* TabArchidekt::primaryToolbarLayout</td>
         </tr>
       </table>
   </td>
@@ -1403,7 +1729,103 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Spinner to select the page number for results. </p>
+<p>Layout for primary toolbar. </p>
+
+</div>
+</div>
+<a id="ace9335d64d1a971359f6d26fecbdc617" name="ace9335d64d1a971359f6d26fecbdc617"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace9335d64d1a971359f6d26fecbdc617">&#9670;&#160;</a></span>resultsContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* TabArchidekt::resultsContainer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Container widget inside scroll area. </p>
+
+</div>
+</div>
+<a id="a0c356532c080ac60d74dc9777f7f7588" name="a0c356532c080ac60d74dc9777f7f7588"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c356532c080ac60d74dc9777f7f7588">&#9670;&#160;</a></span>resultsLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVBoxLayout* TabArchidekt::resultsLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Layout for results (decks appended here) </p>
+
+</div>
+</div>
+<a id="a475b3bba471d5a484a97eaa96bb04222" name="a475b3bba471d5a484a97eaa96bb04222"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a475b3bba471d5a484a97eaa96bb04222">&#9670;&#160;</a></span>scrollArea</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QScrollArea* TabArchidekt::scrollArea</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Scrollable area for results (enables infinite scroll) </p>
+
+</div>
+</div>
+<a id="ad39badaeb99800f5328f89d1cffb0d34" name="ad39badaeb99800f5328f89d1cffb0d34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad39badaeb99800f5328f89d1cffb0d34">&#9670;&#160;</a></span>searchButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* TabArchidekt::searchButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Button to trigger search. </p>
 
 </div>
 </div>
@@ -1427,12 +1849,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Timer to debounce search requests by spin-boxes etc. </p>
+<p>Timer to debounce search requests. </p>
 
 </div>
 </div>
-<a id="ad7891af69baa316e0e93a0caae78bc11" name="ad7891af69baa316e0e93a0caae78bc11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7891af69baa316e0e93a0caae78bc11">&#9670;&#160;</a></span>searchPushButton</h2>
+<a id="ad157481792b236875fd6125ac5a9d9ce" name="ad157481792b236875fd6125ac5a9d9ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad157481792b236875fd6125ac5a9d9ce">&#9670;&#160;</a></span>secondaryToolbar</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1441,7 +1863,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QPushButton* TabArchidekt::searchPushButton</td>
+          <td class="memname">QWidget* TabArchidekt::secondaryToolbar</td>
         </tr>
       </table>
   </td>
@@ -1451,7 +1873,31 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Button to trigger the search manually. </p>
+<p>Secondary toolbar with advanced filters. </p>
+
+</div>
+</div>
+<a id="a08217c11a3ad45061d4b908cc2db7a70" name="a08217c11a3ad45061d4b908cc2db7a70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08217c11a3ad45061d4b908cc2db7a70">&#9670;&#160;</a></span>secondaryToolbarLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHBoxLayout* TabArchidekt::secondaryToolbarLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Layout for secondary toolbar. </p>
 
 </div>
 </div>
@@ -1475,7 +1921,31 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Container for additional UI settings. </p>
+<p>Container for card size settings. </p>
+
+</div>
+</div>
+<a id="a61b5e0d73d49534475e8e6e20570e3af" name="a61b5e0d73d49534475e8e6e20570e3af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61b5e0d73d49534475e8e6e20570e3af">&#9670;&#160;</a></span>sortByLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* TabArchidekt::sortByLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Label for sort controls. </p>
 
 </div>
 </div>

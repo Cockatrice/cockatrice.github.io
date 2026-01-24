@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -136,34 +131,34 @@ $(function(){initNavTree('d5/dbf/deck__list__node__tree_8h_source.html','../../'
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#a982db1fba41219c0328343645a424e4a">clear</a>();</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    QList&lt;const DecklistCardNode *&gt; <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#a9212df6be81e441915e966ac7eac195e">getCardNodes</a>(<span class="keyword">const</span> QSet&lt;QString&gt; &amp;restrictToZones = {}) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    QList&lt;const InnerDecklistNode *&gt; <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#af520574d975d2023fe5dec1bb2212230">getZoneNodes</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    QString <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#a91630a9b29eeb740c6efe703cb6c60ba">computeDeckHash</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    QList&lt;const InnerDecklistNode *&gt; <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#ae72f60d4985e290f763f73c14eee8ed0">getZoneNodes</a>(<span class="keyword">const</span> QSet&lt;QString&gt; &amp;restrictToZones = {}) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#ac83237d42ccdb9809f886e70b20325a9">write</a>(QXmlStreamWriter *xml) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    QString <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#a91630a9b29eeb740c6efe703cb6c60ba">computeDeckHash</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#ab1b6973cbdcc24db1356271cbed31e72">readZoneElement</a>(QXmlStreamReader *xml);</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    DecklistCardNode *<a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#a768a4592fe3437bbc6816d43c1a14489">addCard</a>(<span class="keyword">const</span> QString &amp;cardName,</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                              <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d6/d42/deck__hash__performance__test_8cpp.html#a021789e29c74073d63b613c2eff92cd5">amount</a>,</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                              <span class="keyword">const</span> QString &amp;zoneName,</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>                              <span class="keywordtype">int</span> position,</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                              <span class="keyword">const</span> QString &amp;cardSetName = QString(),</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>                              <span class="keyword">const</span> QString &amp;cardSetCollectorNumber = QString(),</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>                              <span class="keyword">const</span> QString &amp;cardProviderId = QString(),</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                              <span class="keyword">const</span> <span class="keywordtype">bool</span> formatLegal = <span class="keyword">true</span>);</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#ad562ee6818f263e6b64b2e0510654544">deleteNode</a>(AbstractDecklistNode *node, InnerDecklistNode *rootNode = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#ac6805473c9f516dc8523bd7b7c4623dd">forEachCard</a>(<span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(InnerDecklistNode *, DecklistCardNode *)&gt; &amp;func) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="comment">// Helpers for traversing the tree</span></div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    InnerDecklistNode *<a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#a7c64a80284f0cc2bd6560c93e4bb70c1">getZoneObjFromName</a>(<span class="keyword">const</span> QString &amp;zoneName) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>};</div>
-</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#ac83237d42ccdb9809f886e70b20325a9">write</a>(QXmlStreamWriter *xml) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#ab1b6973cbdcc24db1356271cbed31e72">readZoneElement</a>(QXmlStreamReader *xml);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    DecklistCardNode *<a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#a768a4592fe3437bbc6816d43c1a14489">addCard</a>(<span class="keyword">const</span> QString &amp;cardName,</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>                              <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d6/d42/deck__hash__performance__test_8cpp.html#a021789e29c74073d63b613c2eff92cd5">amount</a>,</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                              <span class="keyword">const</span> QString &amp;zoneName,</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>                              <span class="keywordtype">int</span> position,</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>                              <span class="keyword">const</span> QString &amp;cardSetName = QString(),</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                              <span class="keyword">const</span> QString &amp;cardSetCollectorNumber = QString(),</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                              <span class="keyword">const</span> QString &amp;cardProviderId = QString(),</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                              <span class="keyword">const</span> <span class="keywordtype">bool</span> formatLegal = <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#ad562ee6818f263e6b64b2e0510654544">deleteNode</a>(AbstractDecklistNode *node, InnerDecklistNode *rootNode = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#ac6805473c9f516dc8523bd7b7c4623dd">forEachCard</a>(<span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(InnerDecklistNode *, DecklistCardNode *)&gt; &amp;func) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_DECKLIST_NODE_TREE_H</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="comment">// Helpers for traversing the tree</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    InnerDecklistNode *<a class="code hl_function" href="../../db/df8/classDecklistNodeTree.html#a7c64a80284f0cc2bd6560c93e4bb70c1">getZoneObjFromName</a>(<span class="keyword">const</span> QString &amp;zoneName) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>};</div>
+</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_DECKLIST_NODE_TREE_H</span></div>
 <div class="ttc" id="acard__ref_8h_html"><div class="ttname"><a href="../../dc/d89/card__ref_8h.html">card_ref.h</a></div></div>
 <div class="ttc" id="aclassDecklistNodeTree_html_a14496b9c128ab95dd2d3cf4c2fef1b2b"><div class="ttname"><a href="../../db/df8/classDecklistNodeTree.html#a14496b9c128ab95dd2d3cf4c2fef1b2b">DecklistNodeTree::getRoot</a></div><div class="ttdeci">InnerDecklistNode * getRoot() const</div><div class="ttdoc">Gets a pointer to the underlying root node. Note: DO NOT call this method unless the object needs to ...</div><div class="ttdef"><b>Definition</b> deck_list_node_tree.h:29</div></div>
 <div class="ttc" id="aclassDecklistNodeTree_html_a45f279d4671116e0d608c26ccac43771"><div class="ttname"><a href="../../db/df8/classDecklistNodeTree.html#a45f279d4671116e0d608c26ccac43771">DecklistNodeTree::isEmpty</a></div><div class="ttdeci">bool isEmpty() const</div><div class="ttdef"><b>Definition</b> deck_list_node_tree.cpp:30</div></div>
@@ -180,7 +175,7 @@ $(function(){initNavTree('d5/dbf/deck__list__node__tree_8h_source.html','../../'
 <div class="ttc" id="aclassDecklistNodeTree_html_ac83237d42ccdb9809f886e70b20325a9"><div class="ttname"><a href="../../db/df8/classDecklistNodeTree.html#ac83237d42ccdb9809f886e70b20325a9">DecklistNodeTree::write</a></div><div class="ttdeci">void write(QXmlStreamWriter *xml) const</div><div class="ttdoc">Writes the contents of the deck to xml.</div><div class="ttdef"><b>Definition</b> deck_list_node_tree.cpp:98</div></div>
 <div class="ttc" id="aclassDecklistNodeTree_html_ad562ee6818f263e6b64b2e0510654544"><div class="ttname"><a href="../../db/df8/classDecklistNodeTree.html#ad562ee6818f263e6b64b2e0510654544">DecklistNodeTree::deleteNode</a></div><div class="ttdeci">bool deleteNode(AbstractDecklistNode *node, InnerDecklistNode *rootNode=nullptr)</div><div class="ttdef"><b>Definition</b> deck_list_node_tree.cpp:127</div></div>
 <div class="ttc" id="aclassDecklistNodeTree_html_ae5e12ba091e0d4556aa121cf004f62aa"><div class="ttname"><a href="../../db/df8/classDecklistNodeTree.html#ae5e12ba091e0d4556aa121cf004f62aa">DecklistNodeTree::~DecklistNodeTree</a></div><div class="ttdeci">virtual ~DecklistNodeTree()</div><div class="ttdef"><b>Definition</b> deck_list_node_tree.cpp:25</div></div>
-<div class="ttc" id="aclassDecklistNodeTree_html_af520574d975d2023fe5dec1bb2212230"><div class="ttname"><a href="../../db/df8/classDecklistNodeTree.html#af520574d975d2023fe5dec1bb2212230">DecklistNodeTree::getZoneNodes</a></div><div class="ttdeci">QList&lt; const InnerDecklistNode * &gt; getZoneNodes() const</div><div class="ttdef"><b>Definition</b> deck_list_node_tree.cpp:59</div></div>
+<div class="ttc" id="aclassDecklistNodeTree_html_ae72f60d4985e290f763f73c14eee8ed0"><div class="ttname"><a href="../../db/df8/classDecklistNodeTree.html#ae72f60d4985e290f763f73c14eee8ed0">DecklistNodeTree::getZoneNodes</a></div><div class="ttdeci">QList&lt; const InnerDecklistNode * &gt; getZoneNodes(const QSet&lt; QString &gt; &amp;restrictToZones={}) const</div><div class="ttdef"><b>Definition</b> deck_list_node_tree.cpp:56</div></div>
 <div class="ttc" id="aclassInnerDecklistNode_html"><div class="ttname"><a href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a></div><div class="ttdoc">Represents a container node in the deck list hierarchy (zones and groupings).</div><div class="ttdef"><b>Definition</b> inner_deck_list_node.h:62</div></div>
 <div class="ttc" id="adeck__hash__performance__test_8cpp_html_a021789e29c74073d63b613c2eff92cd5"><div class="ttname"><a href="../../d6/d42/deck__hash__performance__test_8cpp.html#a021789e29c74073d63b613c2eff92cd5">amount</a></div><div class="ttdeci">static constexpr int amount</div><div class="ttdef"><b>Definition</b> deck_hash_performance_test.cpp:5</div></div>
 <div class="ttc" id="adeck__list__card__node_8h_html"><div class="ttname"><a href="../../dc/d7e/deck__list__card__node_8h.html">deck_list_card_node.h</a></div><div class="ttdoc">Defines the DecklistCardNode class, representing a single card entry in the deck list tree.</div></div>

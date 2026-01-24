@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -188,7 +183,6 @@ $(function(){initNavTree('functions_d.html','',''); });
 <li>DeckListStatisticsAnalyzer()&#160;:&#160;<a class="el" href="d7/d02/classDeckListStatisticsAnalyzer.html#a3fae189638ecd3d3b3f6b2b8f9af83b8">DeckListStatisticsAnalyzer</a></li>
 <li>DecklistWebsite&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#ad214abc48fd2d93f2a66bacf7d277e4b">DeckLoader</a></li>
 <li>DecklistXyz&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#ad214abc48fd2d93f2a66bacf7d277e4ba949920546c02c06b5b70347a017073ee">DeckLoader</a></li>
-<li>deckLoaded()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a90bc6bcceea05e6532a4563c118a962a">DeckLoader</a></li>
 <li>DeckLoader()&#160;:&#160;<a class="el" href="de/de9/classDeckLoader.html#a6ece7652caab7a954abdecf9c0e9cd99">DeckLoader</a></li>
 <li>deckLoader&#160;:&#160;<a class="el" href="d5/d79/classDeckPreviewWidget.html#a6591d35ab828aa3f3788834e366d0a41">DeckPreviewWidget</a></li>
 <li>deckLoadRequested()&#160;:&#160;<a class="el" href="d5/d79/classDeckPreviewWidget.html#a2bbbffb0f26fb377fc870c95dc7582c6">DeckPreviewWidget</a>, <a class="el" href="d0/dfe/classVisualDeckStorageWidget.html#acc2a1f53f1ec8d66308b905abff74e59">VisualDeckStorageWidget</a></li>
@@ -203,7 +197,7 @@ $(function(){initNavTree('functions_d.html','',''); });
 <li>DeckPreviewCardPictureWidget()&#160;:&#160;<a class="el" href="da/d17/classDeckPreviewCardPictureWidget.html#a12363bf83ed655fc00fd92a9eb565d8c">DeckPreviewCardPictureWidget</a></li>
 <li>DeckPreviewColorIdentityFilterWidget()&#160;:&#160;<a class="el" href="d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a7b73454a465dd1a7d8030b6c7c42cb8b">DeckPreviewColorIdentityFilterWidget</a></li>
 <li>deckPreviewColorIdentityFilterWidget&#160;:&#160;<a class="el" href="d0/dfe/classVisualDeckStorageWidget.html#afecdd2493358e868b43b8be7d5557130">VisualDeckStorageWidget</a></li>
-<li>DeckPreviewDeckTagsDisplayWidget()&#160;:&#160;<a class="el" href="d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#adbdcc8632cea85eecff4a0615ec1f686">DeckPreviewDeckTagsDisplayWidget</a></li>
+<li>DeckPreviewDeckTagsDisplayWidget()&#160;:&#160;<a class="el" href="d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#ab9aa0ad91290a287d00c827d5fc5826f">DeckPreviewDeckTagsDisplayWidget</a></li>
 <li>deckPreviewSelectionAnimationEnabled&#160;:&#160;<a class="el" href="d0/dfe/classVisualDeckStorageWidget.html#a24f66016d93acb9848ab50143bf35b02">VisualDeckStorageWidget</a></li>
 <li>DeckPreviewTagAdditionWidget()&#160;:&#160;<a class="el" href="df/d24/classDeckPreviewTagAdditionWidget.html#a4d8d12a2dc81c874a18c8b4985df2959">DeckPreviewTagAdditionWidget</a></li>
 <li>DeckPreviewTagDialog()&#160;:&#160;<a class="el" href="de/d04/classDeckPreviewTagDialog.html#aa8e294461b8a38ad067d9625bfb4d18a">DeckPreviewTagDialog</a></li>
@@ -215,6 +209,7 @@ $(function(){initNavTree('functions_d.html','',''); });
 <li>DeckPreviewWidget()&#160;:&#160;<a class="el" href="d5/d79/classDeckPreviewWidget.html#a35a7717bd6e54482b2394d0eeadfdac1">DeckPreviewWidget</a></li>
 <li>deckReplaced()&#160;:&#160;<a class="el" href="d9/de1/classDeckListModel.html#a7ec31566a7293507368174ddd41507bc">DeckListModel</a>, <a class="el" href="dd/dab/classDeckStateManager.html#a84d97a7569f3bbb99a97265b9d0df974">DeckStateManager</a></li>
 <li>deckSelectFinished()&#160;:&#160;<a class="el" href="df/ddd/classDeckViewContainer.html#a21fe674da3376043e527cb1e7eda4f32">DeckViewContainer</a></li>
+<li>deckSizeButton&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#ad53ddc422871d57001ca2ef1f5dcc5c4">TabArchidekt</a></li>
 <li>DeckStateManager()&#160;:&#160;<a class="el" href="dd/dab/classDeckStateManager.html#a5eba41d87f3d5392bde1f68662a9c9c7">DeckStateManager</a></li>
 <li>deckStateManager&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#a885fcd116df8275a4854aa8be0dd0776">AbstractTabDeckEditor</a>, <a class="el" href="dc/d15/classCardAmountWidget.html#a031eca0a144a2364ea1ae54356a1353a">CardAmountWidget</a>, <a class="el" href="d9/df7/classDeckEditorDeckDockWidget.html#a43fffecd4988e5b41241c861bc066a9a">DeckEditorDeckDockWidget</a>, <a class="el" href="d6/ded/classDeckListHistoryManagerWidget.html#a5df0af481ef00cab27c5c27d271b99df">DeckListHistoryManagerWidget</a>, <a class="el" href="de/d26/classDlgSelectSetForCards.html#a710b0082970ae58b0222277c74659054">DlgSelectSetForCards</a>, <a class="el" href="d7/dbc/classPrintingSelector.html#a812b9a1868793faca7d60680af475e36">PrintingSelector</a>, <a class="el" href="d0/dd2/classPrintingSelectorCardSelectionWidget.html#ada9bf37379c050abc0fb66920f6a0d1b">PrintingSelectorCardSelectionWidget</a></li>
 <li>deckStats&#160;:&#160;<a class="el" href="de/d36/classEdhrecAverageDeckApiResponse.html#a840d8e839d03b40568b1b1d585649441">EdhrecAverageDeckApiResponse</a>, <a class="el" href="db/d21/classEdhrecCommanderApiResponse.html#abb20b00192b86279bafbf4ee5324d537">EdhrecCommanderApiResponse</a></li>
@@ -351,6 +346,7 @@ $(function(){initNavTree('functions_d.html','',''); });
 <li>disable_eoi_check()&#160;:&#160;<a class="el" href="da/d7b/classpeg_1_1parser.html#a5c7a8438fa793999b92cf0834c6b6394">peg::parser</a></li>
 <li>disableAllButton&#160;:&#160;<a class="el" href="dd/d67/classWndSets.html#a2167d3e7bff462204c52afac7b475382">WndSets</a></li>
 <li>disableButtons()&#160;:&#160;<a class="el" href="df/d3f/classGameSelector.html#a9ff8b9dc96b99a203e198599c42e21c2">GameSelector</a>, <a class="el" href="d5/dba/classOracleWizard.html#a081342cf1dfa75f07a355e3f3b5e209a">OracleWizard</a></li>
+<li>disableOverridePrintings()&#160;:&#160;<a class="el" href="d6/d64/classPrintingDisabledInfoWidget.html#ad9e82979e95e560a7e4b2aa72845d9a7">PrintingDisabledInfoWidget</a></li>
 <li>disableRequiredFeature()&#160;:&#160;<a class="el" href="d1/dfd/classFeatureSet.html#a5b5e48445a6acb28402db5d6bf7f8ae7">FeatureSet</a></li>
 <li>disableSomeButton&#160;:&#160;<a class="el" href="dd/d67/classWndSets.html#a8c5725883929835208459939cdb764e8">WndSets</a></li>
 <li>disableStartTLS&#160;:&#160;<a class="el" href="d6/deb/classQxtSmtpPrivate.html#a21526a7620fa2ad702fcfdde56fe7c1b">QxtSmtpPrivate</a></li>
@@ -408,10 +404,7 @@ $(function(){initNavTree('functions_d.html','',''); });
 <li>do_closeArchive()&#160;:&#160;<a class="el" href="df/d90/classUnzipPrivate.html#abf935e84b0a6832ee7f500764bbc574a">UnzipPrivate</a>, <a class="el" href="df/daf/classZipPrivate.html#acb48bb06722651ca4914a18bafdcc1bd">ZipPrivate</a></li>
 <li>doActivateToServer()&#160;:&#160;<a class="el" href="db/d53/classRemoteClient.html#a6de6c2005393b981dbcea37272165414">RemoteClient</a></li>
 <li>doCardModified()&#160;:&#160;<a class="el" href="dd/dab/classDeckStateManager.html#a231fc809c22df91ea071a89409da316a">DeckStateManager</a></li>
-<li>dockFloatingTriggered()&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#ad3673e6e0fcebcc020cc26e67de70644">AbstractTabDeckEditor</a>, <a class="el" href="da/d88/classTabDeckEditor.html#a0ea7cb53783976fe15b6dcfb689956c1">TabDeckEditor</a>, <a class="el" href="dc/d63/classTabDeckEditorVisual.html#ab3c74e3092aecd6a33c155caf302565d">TabDeckEditorVisual</a>, <a class="el" href="de/d08/classTabGame.html#a6fb1523ac7ec7246bd34a4bac12b87fe">TabGame</a></li>
-<li>dockToActions&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#a13a5f57d7f7ebbaefdfb5600432d633a">AbstractTabDeckEditor</a></li>
-<li>dockTopLevelChanged()&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#ac50c8e4061fb9525cc0c341bae400ec4">AbstractTabDeckEditor</a>, <a class="el" href="da/d88/classTabDeckEditor.html#afc265cda9eec81e33c0690655d798bc3">TabDeckEditor</a>, <a class="el" href="dc/d63/classTabDeckEditorVisual.html#aaf903f0add69ff86a0799a19f18bf3b6">TabDeckEditorVisual</a>, <a class="el" href="de/d08/classTabGame.html#a535e2e3daea6c31eaf515c9103416e63">TabGame</a></li>
-<li>dockVisibleTriggered()&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#aa7a04f62e7d81d9b2ee3596824b2665e">AbstractTabDeckEditor</a>, <a class="el" href="da/d88/classTabDeckEditor.html#abe3dd5668605941a311b52ad98b942b8">TabDeckEditor</a>, <a class="el" href="dc/d63/classTabDeckEditorVisual.html#ab7f866968309326623ee828d7ed9fe9e">TabDeckEditorVisual</a>, <a class="el" href="de/d08/classTabGame.html#ac488a4767085138f89ef280e2f8c37f6">TabGame</a></li>
+<li>dockToActions&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#a13a5f57d7f7ebbaefdfb5600432d633a">AbstractTabDeckEditor</a>, <a class="el" href="de/d08/classTabGame.html#affefb13b643fc12047438d7e29940e8e">TabGame</a></li>
 <li>doConnectToServer()&#160;:&#160;<a class="el" href="db/d53/classRemoteClient.html#a8227897821016665c8a6daf9234ff07a">RemoteClient</a></li>
 <li>doDisconnectFromServer()&#160;:&#160;<a class="el" href="db/d53/classRemoteClient.html#a56ea6b47926ac4e966ecde03108e3559">RemoteClient</a></li>
 <li>doesForgotPasswordExist()&#160;:&#160;<a class="el" href="d3/d76/classServatrice__DatabaseInterface.html#a39ba1aa199513951ff6fa4f9ed344975">Servatrice_DatabaseInterface</a></li>

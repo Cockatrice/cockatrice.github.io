@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -139,7 +134,7 @@ $(function(){initNavTree('functions_vars_i.html','',''); });
 <li>inclusionDisplayWidget&#160;:&#160;<a class="el" href="d2/d77/classEdhrecApiResponseCardDetailsDisplayWidget.html#a57fd982469d6944a403ea547f2f48e42">EdhrecApiResponseCardDetailsDisplayWidget</a></li>
 <li>inclusionLabel&#160;:&#160;<a class="el" href="d3/dca/classEdhrecApiResponseCardInclusionDisplayWidget.html#a3f67c1a6a46569c9384f3ccd0b4b0e72">EdhrecApiResponseCardInclusionDisplayWidget</a></li>
 <li>incrementButton&#160;:&#160;<a class="el" href="dc/d15/classCardAmountWidget.html#a5f3968a97ad4e762e9e0e58a64d0d3b5">CardAmountWidget</a></li>
-<li>indexToWidgetMap&#160;:&#160;<a class="el" href="d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#a379d214ff59cb09d49b2f1e8849841de">ArchidektApiResponseDeckDisplayWidget</a>, <a class="el" href="d9/d5d/classCardGroupDisplayWidget.html#a1a8a89f8f1214b343a63f2e13d7dd058">CardGroupDisplayWidget</a>, <a class="el" href="d8/d9f/classDeckCardZoneDisplayWidget.html#a3203ca39c3144eeea4d1a45fd39c56ac">DeckCardZoneDisplayWidget</a>, <a class="el" href="da/d1e/classVisualDeckEditorWidget.html#a78ab1d2ee74af6965b6f40204143b8ee">VisualDeckEditorWidget</a></li>
+<li>indexToWidgetMap&#160;:&#160;<a class="el" href="d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#a379d214ff59cb09d49b2f1e8849841de">ArchidektApiResponseDeckDisplayWidget</a>, <a class="el" href="d9/d5d/classCardGroupDisplayWidget.html#aeff17f143845264a41a835ca68b3fac2">CardGroupDisplayWidget</a>, <a class="el" href="d8/d9f/classDeckCardZoneDisplayWidget.html#a3203ca39c3144eeea4d1a45fd39c56ac">DeckCardZoneDisplayWidget</a>, <a class="el" href="da/d1e/classVisualDeckEditorWidget.html#a78ab1d2ee74af6965b6f40204143b8ee">VisualDeckEditorWidget</a></li>
 <li>info&#160;:&#160;<a class="el" href="dd/d82/classCardInfoTextWidget.html#a1afd060653443cb5dbb12c9558c84477">CardInfoTextWidget</a></li>
 <li>info_&#160;:&#160;<a class="el" href="d5/dd9/classpeg_1_1PrecedenceClimbing.html#ac880480e4e1f0a5376ac7fc61bdc0209">peg::PrecedenceClimbing</a></li>
 <li>infoLabel&#160;:&#160;<a class="el" href="d6/dd1/classDlgForgotPasswordChallenge.html#a8dfc3b8780ccebf3385da53456a0431d">DlgForgotPasswordChallenge</a>, <a class="el" href="dc/dec/classDlgForgotPasswordRequest.html#a053f9a2de13f7fbe6487059e2c44b5ea">DlgForgotPasswordRequest</a>, <a class="el" href="d3/d9b/classDlgForgotPasswordReset.html#a368109707f820de5332c9b4683299274">DlgForgotPasswordReset</a>, <a class="el" href="d0/d9e/classDlgRegister.html#acb36c440c1613221e3c361b7bac29c7e">DlgRegister</a></li>
@@ -175,7 +170,9 @@ $(function(){initNavTree('functions_vars_i.html','',''); });
 <li>isHovered&#160;:&#160;<a class="el" href="d4/db9/classAbstractCardItem.html#aeb90281dc3d536d4b0d6e456c068f551">AbstractCardItem</a>, <a class="el" href="d1/d46/classColorBar.html#a4cae9040763ba871d20c0354fa03f8bc">ColorBar</a>, <a class="el" href="d9/d42/classColorPie.html#a3bdb01844b5139d271ff4ea9e96eb40e">ColorPie</a></li>
 <li>isknown&#160;:&#160;<a class="el" href="d6/d3d/classCardSet.html#a80339545c8846e0b4366b5552219f6c7">CardSet</a></li>
 <li>islInterfaces&#160;:&#160;<a class="el" href="d5/d0e/classServatrice.html#aae79e1c143779140510668464e779a3b">Servatrice</a></li>
+<li>isListMode&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#ac24ea9d77444e10f16de544921fd6b2e">TabArchidekt</a></li>
 <li>islLock&#160;:&#160;<a class="el" href="d5/d0e/classServatrice.html#a76a91aea0682f5eef8e66463e390ff0c">Servatrice</a></li>
+<li>isLoadingMore&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#a937264fe8620830ff73097acb802bd00">TabArchidekt</a></li>
 <li>isLocalGame&#160;:&#160;<a class="el" href="d3/df3/classGameState.html#aa042fb7c647141a265e6cf774830b8bd">GameState</a>, <a class="el" href="dd/d81/classTabSupervisor.html#aa70fcb2c104544809f5fbbe23cc32950">TabSupervisor</a></li>
 <li>islServer&#160;:&#160;<a class="el" href="d5/d0e/classServatrice.html#aaec8c775029e907aa6cbaded1f66466a">Servatrice</a></li>
 <li>isPersistent&#160;:&#160;<a class="el" href="db/ded/classCardRelation.html#aeb74921efb0c50c39ea7b4afaca74ba9">CardRelation</a></li>

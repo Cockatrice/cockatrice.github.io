@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -113,30 +108,42 @@ $(function(){initNavTree('dd/d32/deck__editor__printing__selector__dock__widget_
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QDockWidget&gt;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span><a class="code hl_class" href="../../da/d88/classTabDeckEditor.html">TabDeckEditor</a>;</div>
-<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html">   16</a></span><span class="keyword">class </span><a class="code hl_function" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ad5bc6609aa6138f6ac2db3e4e78af286">DeckEditorPrintingSelectorDockWidget</a> : <span class="keyword">public</span> QDockWidget</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    Q_OBJECT</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ad5bc6609aa6138f6ac2db3e4e78af286">DeckEditorPrintingSelectorDockWidget</a>(<a class="code hl_class" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> *parent);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#abe8ae67a63406856f119b87c710f519d">createPrintingSelectorDock</a>();</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a62443d786464393f4c1cc77ef112cb7f">retranslateUi</a>();</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ab60bd850dcddab08d724d961ee6f7c91">   23</a></span>    <a class="code hl_class" href="../../d7/dbc/classPrintingSelector.html">PrintingSelector</a> *<a class="code hl_variable" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ab60bd850dcddab08d724d961ee6f7c91">printingSelector</a>;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ad49c999de82894351ef960db3b5801f2">   26</a></span>    <a class="code hl_class" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> *<a class="code hl_variable" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ad49c999de82894351ef960db3b5801f2">deckEditor</a>;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span><a class="code hl_class" href="../../d6/d64/classPrintingDisabledInfoWidget.html">PrintingDisabledInfoWidget</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span><a class="code hl_class" href="../../da/d88/classTabDeckEditor.html">TabDeckEditor</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html">   18</a></span><span class="keyword">class </span><a class="code hl_function" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ad5bc6609aa6138f6ac2db3e4e78af286">DeckEditorPrintingSelectorDockWidget</a> : <span class="keyword">public</span> QDockWidget</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    Q_OBJECT</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ad5bc6609aa6138f6ac2db3e4e78af286">DeckEditorPrintingSelectorDockWidget</a>(<a class="code hl_class" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> *parent);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#abe8ae67a63406856f119b87c710f519d">createPrintingSelectorDock</a>();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a62443d786464393f4c1cc77ef112cb7f">retranslateUi</a>();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ab60bd850dcddab08d724d961ee6f7c91">   26</a></span>    <a class="code hl_class" href="../../d7/dbc/classPrintingSelector.html">PrintingSelector</a> *<a class="code hl_variable" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ab60bd850dcddab08d724d961ee6f7c91">printingSelector</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ad49c999de82894351ef960db3b5801f2">   29</a></span>    <a class="code hl_class" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> *<a class="code hl_variable" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ad49c999de82894351ef960db3b5801f2">deckEditor</a>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a402425860d6b41b7be1d190267c9360a">   30</a></span>    QWidget *<a class="code hl_variable" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a402425860d6b41b7be1d190267c9360a">printingSelectorDockContents</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a6011faa1c1553ad2c5b49c70f0a9a5f7">   31</a></span>    <a class="code hl_class" href="../../d6/d64/classPrintingDisabledInfoWidget.html">PrintingDisabledInfoWidget</a> *<a class="code hl_variable" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a6011faa1c1553ad2c5b49c70f0a9a5f7">printingDisabledInfoWidget</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a3e319687e10b85cf1ccc3e8ee01ec47e">setVisibleWidget</a>(<span class="keywordtype">bool</span> overridePrintings);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>};</div>
 </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#endif </span><span class="comment">// DECK_EDITOR_PRINTING_SELECTOR_DOCK_WIDGET_H</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#endif </span><span class="comment">// DECK_EDITOR_PRINTING_SELECTOR_DOCK_WIDGET_H</span></div>
 <div class="ttc" id="aabstract__tab__deck__editor_8h_html"><div class="ttname"><a href="../../dd/d2f/abstract__tab__deck__editor_8h.html">abstract_tab_deck_editor.h</a></div><div class="ttdoc">Defines the AbstractTabDeckEditor class, which provides a base for deck editor tabs in the applicatio...</div></div>
 <div class="ttc" id="aclassAbstractTabDeckEditor_html"><div class="ttname"><a href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a></div><div class="ttdoc">AbstractTabDeckEditor is the base class for all deck editor tabs.</div><div class="ttdef"><b>Definition</b> abstract_tab_deck_editor.h:93</div></div>
-<div class="ttc" id="aclassDeckEditorPrintingSelectorDockWidget_html_a62443d786464393f4c1cc77ef112cb7f"><div class="ttname"><a href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a62443d786464393f4c1cc77ef112cb7f">DeckEditorPrintingSelectorDockWidget::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdef"><b>Definition</b> deck_editor_printing_selector_dock_widget.cpp:42</div></div>
-<div class="ttc" id="aclassDeckEditorPrintingSelectorDockWidget_html_ab60bd850dcddab08d724d961ee6f7c91"><div class="ttname"><a href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ab60bd850dcddab08d724d961ee6f7c91">DeckEditorPrintingSelectorDockWidget::printingSelector</a></div><div class="ttdeci">PrintingSelector * printingSelector</div><div class="ttdef"><b>Definition</b> deck_editor_printing_selector_dock_widget.h:23</div></div>
-<div class="ttc" id="aclassDeckEditorPrintingSelectorDockWidget_html_abe8ae67a63406856f119b87c710f519d"><div class="ttname"><a href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#abe8ae67a63406856f119b87c710f519d">DeckEditorPrintingSelectorDockWidget::createPrintingSelectorDock</a></div><div class="ttdeci">void createPrintingSelectorDock()</div><div class="ttdef"><b>Definition</b> deck_editor_printing_selector_dock_widget.cpp:21</div></div>
-<div class="ttc" id="aclassDeckEditorPrintingSelectorDockWidget_html_ad49c999de82894351ef960db3b5801f2"><div class="ttname"><a href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ad49c999de82894351ef960db3b5801f2">DeckEditorPrintingSelectorDockWidget::deckEditor</a></div><div class="ttdeci">AbstractTabDeckEditor * deckEditor</div><div class="ttdef"><b>Definition</b> deck_editor_printing_selector_dock_widget.h:26</div></div>
-<div class="ttc" id="aclassDeckEditorPrintingSelectorDockWidget_html_ad5bc6609aa6138f6ac2db3e4e78af286"><div class="ttname"><a href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ad5bc6609aa6138f6ac2db3e4e78af286">DeckEditorPrintingSelectorDockWidget::DeckEditorPrintingSelectorDockWidget</a></div><div class="ttdeci">DeckEditorPrintingSelectorDockWidget(AbstractTabDeckEditor *parent)</div><div class="ttdef"><b>Definition</b> deck_editor_printing_selector_dock_widget.cpp:7</div></div>
+<div class="ttc" id="aclassDeckEditorPrintingSelectorDockWidget_html_a3e319687e10b85cf1ccc3e8ee01ec47e"><div class="ttname"><a href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a3e319687e10b85cf1ccc3e8ee01ec47e">DeckEditorPrintingSelectorDockWidget::setVisibleWidget</a></div><div class="ttdeci">void setVisibleWidget(bool overridePrintings)</div><div class="ttdef"><b>Definition</b> deck_editor_printing_selector_dock_widget.cpp:52</div></div>
+<div class="ttc" id="aclassDeckEditorPrintingSelectorDockWidget_html_a402425860d6b41b7be1d190267c9360a"><div class="ttname"><a href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a402425860d6b41b7be1d190267c9360a">DeckEditorPrintingSelectorDockWidget::printingSelectorDockContents</a></div><div class="ttdeci">QWidget * printingSelectorDockContents</div><div class="ttdef"><b>Definition</b> deck_editor_printing_selector_dock_widget.h:30</div></div>
+<div class="ttc" id="aclassDeckEditorPrintingSelectorDockWidget_html_a6011faa1c1553ad2c5b49c70f0a9a5f7"><div class="ttname"><a href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a6011faa1c1553ad2c5b49c70f0a9a5f7">DeckEditorPrintingSelectorDockWidget::printingDisabledInfoWidget</a></div><div class="ttdeci">PrintingDisabledInfoWidget * printingDisabledInfoWidget</div><div class="ttdef"><b>Definition</b> deck_editor_printing_selector_dock_widget.h:31</div></div>
+<div class="ttc" id="aclassDeckEditorPrintingSelectorDockWidget_html_a62443d786464393f4c1cc77ef112cb7f"><div class="ttname"><a href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a62443d786464393f4c1cc77ef112cb7f">DeckEditorPrintingSelectorDockWidget::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdef"><b>Definition</b> deck_editor_printing_selector_dock_widget.cpp:47</div></div>
+<div class="ttc" id="aclassDeckEditorPrintingSelectorDockWidget_html_ab60bd850dcddab08d724d961ee6f7c91"><div class="ttname"><a href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ab60bd850dcddab08d724d961ee6f7c91">DeckEditorPrintingSelectorDockWidget::printingSelector</a></div><div class="ttdeci">PrintingSelector * printingSelector</div><div class="ttdef"><b>Definition</b> deck_editor_printing_selector_dock_widget.h:26</div></div>
+<div class="ttc" id="aclassDeckEditorPrintingSelectorDockWidget_html_abe8ae67a63406856f119b87c710f519d"><div class="ttname"><a href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#abe8ae67a63406856f119b87c710f519d">DeckEditorPrintingSelectorDockWidget::createPrintingSelectorDock</a></div><div class="ttdeci">void createPrintingSelectorDock()</div><div class="ttdef"><b>Definition</b> deck_editor_printing_selector_dock_widget.cpp:28</div></div>
+<div class="ttc" id="aclassDeckEditorPrintingSelectorDockWidget_html_ad49c999de82894351ef960db3b5801f2"><div class="ttname"><a href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ad49c999de82894351ef960db3b5801f2">DeckEditorPrintingSelectorDockWidget::deckEditor</a></div><div class="ttdeci">AbstractTabDeckEditor * deckEditor</div><div class="ttdef"><b>Definition</b> deck_editor_printing_selector_dock_widget.h:29</div></div>
+<div class="ttc" id="aclassDeckEditorPrintingSelectorDockWidget_html_ad5bc6609aa6138f6ac2db3e4e78af286"><div class="ttname"><a href="../../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ad5bc6609aa6138f6ac2db3e4e78af286">DeckEditorPrintingSelectorDockWidget::DeckEditorPrintingSelectorDockWidget</a></div><div class="ttdeci">DeckEditorPrintingSelectorDockWidget(AbstractTabDeckEditor *parent)</div><div class="ttdef"><b>Definition</b> deck_editor_printing_selector_dock_widget.cpp:9</div></div>
+<div class="ttc" id="aclassPrintingDisabledInfoWidget_html"><div class="ttname"><a href="../../d6/d64/classPrintingDisabledInfoWidget.html">PrintingDisabledInfoWidget</a></div><div class="ttdef"><b>Definition</b> printing_disabled_info_widget.h:9</div></div>
 <div class="ttc" id="aclassPrintingSelector_html"><div class="ttname"><a href="../../d7/dbc/classPrintingSelector.html">PrintingSelector</a></div><div class="ttdef"><b>Definition</b> printing_selector.h:32</div></div>
 <div class="ttc" id="aclassTabDeckEditor_html"><div class="ttname"><a href="../../da/d88/classTabDeckEditor.html">TabDeckEditor</a></div><div class="ttdoc">TabDeckEditor provides a fully-featured deck editor tab. It extends AbstractTabDeckEditor.</div><div class="ttdef"><b>Definition</b> tab_deck_editor.h:55</div></div>
 <div class="ttc" id="aprinting__selector_8h_html"><div class="ttname"><a href="../../da/dbb/printing__selector_8h.html">printing_selector.h</a></div><div class="ttdoc">TODO: Document this.</div></div>

@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -123,6 +118,7 @@ Collaboration diagram for ArchidektApiResponseDeckDisplayWidget:</div>
 Signals</h2></td></tr>
 <tr class="memitem:a91e23bec32ed8571d30a222885f23da9" id="r_a91e23bec32ed8571d30a222885f23da9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91e23bec32ed8571d30a222885f23da9">requestNavigation</a> (QString url)</td></tr>
 <tr class="memdesc:a91e23bec32ed8571d30a222885f23da9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when navigation to a deck URL is requested.  <br /></td></tr>
+<tr class="memitem:a822d0741c481d6d20302f4b38f870f28" id="r_a822d0741c481d6d20302f4b38f870f28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a822d0741c481d6d20302f4b38f870f28">requestSearch</a> ()</td></tr>
 <tr class="memitem:a42ca81bca5bb182e6213e2f5257d2d5d" id="r_a42ca81bca5bb182e6213e2f5257d2d5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42ca81bca5bb182e6213e2f5257d2d5d">openInDeckEditor</a> (const <a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;deck)</td></tr>
 <tr class="memdesc:a42ca81bca5bb182e6213e2f5257d2d5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the deck should be opened in the deck editor.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -159,6 +155,9 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a3dd5948697d7ec518fbd4a99e80fa28b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slider for adjusting card sizes.  <br /></td></tr>
 <tr class="memitem:a4cabb68bf4577287aabf1d8fa87feb28" id="r_a4cabb68bf4577287aabf1d8fa87feb28"><td class="memItemLeft" align="right" valign="top">QVBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cabb68bf4577287aabf1d8fa87feb28">layout</a></td></tr>
 <tr class="memdesc:a4cabb68bf4577287aabf1d8fa87feb28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main vertical layout.  <br /></td></tr>
+<tr class="memitem:a9f3db63407c77a9b446ad624e14b61c1" id="r_a9f3db63407c77a9b446ad624e14b61c1"><td class="memItemLeft" align="right" valign="top">QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f3db63407c77a9b446ad624e14b61c1">navigationContainer</a></td></tr>
+<tr class="memitem:a81e55adc866d0fd5eb78ba9b60273e17" id="r_a81e55adc866d0fd5eb78ba9b60273e17"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81e55adc866d0fd5eb78ba9b60273e17">navigationContainerLayout</a></td></tr>
+<tr class="memitem:a6968ad58ce7cde031187b258c27f7f47" id="r_a6968ad58ce7cde031187b258c27f7f47"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6968ad58ce7cde031187b258c27f7f47">homeButton</a></td></tr>
 <tr class="memitem:a67ae2510ea44e5e79f7d22510f4530dd" id="r_a67ae2510ea44e5e79f7d22510f4530dd"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67ae2510ea44e5e79f7d22510f4530dd">openInEditorButton</a></td></tr>
 <tr class="memdesc:a67ae2510ea44e5e79f7d22510f4530dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button to open deck in editor.  <br /></td></tr>
 <tr class="memitem:a94fbea5287329cf79e256343e4bacc13" id="r_a94fbea5287329cf79e256343e4bacc13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/de4/classVisualDeckDisplayOptionsWidget.html">VisualDeckDisplayOptionsWidget</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94fbea5287329cf79e256343e4bacc13">displayOptionsWidget</a></td></tr>
@@ -481,6 +480,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a822d0741c481d6d20302f4b38f870f28" name="a822d0741c481d6d20302f4b38f870f28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a822d0741c481d6d20302f4b38f870f28">&#9670;&#160;</a></span>requestSearch</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ArchidektApiResponseDeckDisplayWidget::requestSearch </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d7f/classArchidektApiResponseDeckDisplayWidget_a822d0741c481d6d20302f4b38f870f28_icgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a30b4f16cc8c993e88095ad4f137fb635" name="a30b4f16cc8c993e88095ad4f137fb635"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30b4f16cc8c993e88095ad4f137fb635">&#9670;&#160;</a></span>resizeEvent</h2>
 
@@ -636,6 +665,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a6968ad58ce7cde031187b258c27f7f47" name="a6968ad58ce7cde031187b258c27f7f47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6968ad58ce7cde031187b258c27f7f47">&#9670;&#160;</a></span>homeButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* ArchidektApiResponseDeckDisplayWidget::homeButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a379d214ff59cb09d49b2f1e8849841de" name="a379d214ff59cb09d49b2f1e8849841de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a379d214ff59cb09d49b2f1e8849841de">&#9670;&#160;</a></span>indexToWidgetMap</h2>
 
@@ -705,6 +756,50 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Deck list model. </p>
+
+</div>
+</div>
+<a id="a9f3db63407c77a9b446ad624e14b61c1" name="a9f3db63407c77a9b446ad624e14b61c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f3db63407c77a9b446ad624e14b61c1">&#9670;&#160;</a></span>navigationContainer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* ArchidektApiResponseDeckDisplayWidget::navigationContainer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81e55adc866d0fd5eb78ba9b60273e17" name="a81e55adc866d0fd5eb78ba9b60273e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81e55adc866d0fd5eb78ba9b60273e17">&#9670;&#160;</a></span>navigationContainerLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHBoxLayout* ArchidektApiResponseDeckDisplayWidget::navigationContainerLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

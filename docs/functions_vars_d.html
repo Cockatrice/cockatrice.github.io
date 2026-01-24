@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -148,6 +143,7 @@ $(function(){initNavTree('functions_vars_d.html','',''); });
 <li>deckPreviewSelectionAnimationEnabled&#160;:&#160;<a class="el" href="d0/dfe/classVisualDeckStorageWidget.html#a24f66016d93acb9848ab50143bf35b02">VisualDeckStorageWidget</a></li>
 <li>deckPreviewTooltipComboBox&#160;:&#160;<a class="el" href="d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a203e58a49d73e185ac81a174b1bd9f46">VisualDeckStorageQuickSettingsWidget</a></li>
 <li>deckPreviewTooltipLabel&#160;:&#160;<a class="el" href="d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a72a47f05c0ef4c41b816e6918cfd3f68">VisualDeckStorageQuickSettingsWidget</a></li>
+<li>deckSizeButton&#160;:&#160;<a class="el" href="db/d5d/classTabArchidekt.html#ad53ddc422871d57001ca2ef1f5dcc5c4">TabArchidekt</a></li>
 <li>deckStateManager&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#a885fcd116df8275a4854aa8be0dd0776">AbstractTabDeckEditor</a>, <a class="el" href="dc/d15/classCardAmountWidget.html#a031eca0a144a2364ea1ae54356a1353a">CardAmountWidget</a>, <a class="el" href="d9/df7/classDeckEditorDeckDockWidget.html#a43fffecd4988e5b41241c861bc066a9a">DeckEditorDeckDockWidget</a>, <a class="el" href="d6/ded/classDeckListHistoryManagerWidget.html#a5df0af481ef00cab27c5c27d271b99df">DeckListHistoryManagerWidget</a>, <a class="el" href="de/d26/classDlgSelectSetForCards.html#a710b0082970ae58b0222277c74659054">DlgSelectSetForCards</a>, <a class="el" href="d7/dbc/classPrintingSelector.html#a812b9a1868793faca7d60680af475e36">PrintingSelector</a>, <a class="el" href="d0/dd2/classPrintingSelectorCardSelectionWidget.html#ada9bf37379c050abc0fb66920f6a0d1b">PrintingSelectorCardSelectionWidget</a></li>
 <li>deckStats&#160;:&#160;<a class="el" href="de/d36/classEdhrecAverageDeckApiResponse.html#a840d8e839d03b40568b1b1d585649441">EdhrecAverageDeckApiResponse</a>, <a class="el" href="db/d21/classEdhrecCommanderApiResponse.html#abb20b00192b86279bafbf4ee5324d537">EdhrecCommanderApiResponse</a></li>
 <li>deckstatsUri&#160;:&#160;<a class="el" href="d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a7bbce2e279bba9ea22c12932ea9ce570">EdhrecCommanderApiResponseCommanderDetails</a></li>
@@ -235,7 +231,7 @@ $(function(){initNavTree('functions_vars_d.html','',''); });
 <li>displayWidget&#160;:&#160;<a class="el" href="dd/d33/classTabEdhRec.html#a5e9cadb4ae7c7f1eef08abb9f5362044">TabEdhRec</a>, <a class="el" href="de/df3/classTabEdhRecMain.html#a6ec9b97baa150d81d107c93d5d90d4e3">TabEdhRecMain</a></li>
 <li>distance&#160;:&#160;<a class="el" href="df/d87/structCardSearchModel_1_1SearchResult.html#a361e360bb1b2455371e241ac6c3417d0">CardSearchModel::SearchResult</a></li>
 <li>dlgConnect&#160;:&#160;<a class="el" href="d6/d1a/classMainWindow.html#ab9b908a5bf78b25f4aa45f70d52b08d5">MainWindow</a></li>
-<li>dockToActions&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#a13a5f57d7f7ebbaefdfb5600432d633a">AbstractTabDeckEditor</a></li>
+<li>dockToActions&#160;:&#160;<a class="el" href="d1/d53/classAbstractTabDeckEditor.html#a13a5f57d7f7ebbaefdfb5600432d633a">AbstractTabDeckEditor</a>, <a class="el" href="de/d08/classTabGame.html#affefb13b643fc12047438d7e29940e8e">TabGame</a></li>
 <li>doesntUntap&#160;:&#160;<a class="el" href="d6/dbd/classCardItem.html#aeaecdf8c65e8be854532efbde32a5ff3">CardItem</a>, <a class="el" href="dc/d07/classServer__Card.html#af506f953297911846021d8cc6b813813">Server_Card</a></li>
 <li>done&#160;:&#160;<a class="el" href="d1/d7b/structpeg_1_1Trie_1_1Info.html#a979c7cb33ca0d53447f4f2b1cbc59cff">peg::Trie::Info</a></li>
 <li>done_&#160;:&#160;<a class="el" href="df/dff/structpeg_1_1DetectLeftRecursion.html#a1775629357f358d42612bbbeafd741d5">peg::DetectLeftRecursion</a></li>

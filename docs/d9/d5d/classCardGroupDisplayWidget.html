@@ -20,11 +20,9 @@
     <link href="../../search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../search/searchdata.js"></script>
 <script type="text/javascript" src="../../search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="../../doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="../../doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="../../hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="../../cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "../../search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('../../',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -125,6 +120,7 @@ Public Slots</h2></td></tr>
 <tr class="memitem:ac70bd917abfe591f28205ec0af807cf1" id="r_ac70bd917abfe591f28205ec0af807cf1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac70bd917abfe591f28205ec0af807cf1">updateCardDisplays</a> ()</td></tr>
 <tr class="memitem:a0ff94e3f4d8bbea1ebf44cebc83e74b9" id="r_a0ff94e3f4d8bbea1ebf44cebc83e74b9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ff94e3f4d8bbea1ebf44cebc83e74b9">onCardAddition</a> (const QModelIndex &amp;parent, int first, int last)</td></tr>
 <tr class="memitem:a850bc0083f761ec2519d4b3e653aa135" id="r_a850bc0083f761ec2519d4b3e653aa135"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a850bc0083f761ec2519d4b3e653aa135">onCardRemoval</a> (const QModelIndex &amp;parent, int first, int last)</td></tr>
+<tr class="memitem:ade0beef5f74c7e170bed549c21ad2a32" id="r_ade0beef5f74c7e170bed549c21ad2a32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade0beef5f74c7e170bed549c21ad2a32">onDataChanged</a> (const QModelIndex &amp;topLeft, const QModelIndex &amp;bottomRight, const QVector&lt; int &gt; &amp;roles)</td></tr>
 <tr class="memitem:a3d1aff146a25dd6c5432167fcfc1b679" id="r_a3d1aff146a25dd6c5432167fcfc1b679"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d1aff146a25dd6c5432167fcfc1b679">onActiveSortCriteriaChanged</a> (QStringList <a class="el" href="#a7fb80b8353cbd677ffbd5cc7ae91b761">activeSortCriteria</a>)</td></tr>
 <tr class="memitem:ab8effbe117a9cd16cf2be0a349b2a30b" id="r_ab8effbe117a9cd16cf2be0a349b2a30b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8effbe117a9cd16cf2be0a349b2a30b">resizeEvent</a> (QResizeEvent *event) override</td></tr>
 </table><table class="memberdecls">
@@ -138,6 +134,7 @@ Signals</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a58f960e75f3790fc55253dfd1619f1e2" id="r_a58f960e75f3790fc55253dfd1619f1e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58f960e75f3790fc55253dfd1619f1e2">CardGroupDisplayWidget</a> (QWidget *parent, <a class="el" href="../../d9/de1/classDeckListModel.html">DeckListModel</a> *<a class="el" href="#ab1dfd16f06ecfa5f77e4c6da1ec84e53">deckListModel</a>, QItemSelectionModel *<a class="el" href="#a05af3a921675f7f40a90e4c9187c374b">selectionModel</a>, QPersistentModelIndex <a class="el" href="#a634f2e445b4544641c25c686508587df">trackedIndex</a>, QString <a class="el" href="#ae96b83990920b990490c4d10df1bea55">zoneName</a>, QString <a class="el" href="#a8d99f0f1645c7674966461774148cfc2">cardGroupCategory</a>, QString <a class="el" href="#a27fcf02030337896443ca24682fd4526">activeGroupCriteria</a>, QStringList <a class="el" href="#a7fb80b8353cbd677ffbd5cc7ae91b761">activeSortCriteria</a>, int bannerOpacity, <a class="el" href="../../df/d47/classCardSizeWidget.html">CardSizeWidget</a> *<a class="el" href="#a48d7883164e15a1921df8deee5c4fb5f">cardSizeWidget</a>)</td></tr>
 <tr class="memitem:a5b200f848687a00bee6a047448a07871" id="r_a5b200f848687a00bee6a047448a07871"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b200f848687a00bee6a047448a07871">onSelectionChanged</a> (const QItemSelection &amp;selected, const QItemSelection &amp;deselected)</td></tr>
+<tr class="memitem:aebabd43bc8ad3c440b5fe57d90d5c85d" id="r_aebabd43bc8ad3c440b5fe57d90d5c85d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebabd43bc8ad3c440b5fe57d90d5c85d">refreshSelectionForIndex</a> (const QPersistentModelIndex &amp;persistent)</td></tr>
 <tr class="memitem:a694e09929f18bedcc4b1f36519b10487" id="r_a694e09929f18bedcc4b1f36519b10487"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a694e09929f18bedcc4b1f36519b10487">clearAllDisplayWidgets</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -145,7 +142,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab1dfd16f06ecfa5f77e4c6da1ec84e53" id="r_ab1dfd16f06ecfa5f77e4c6da1ec84e53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/de1/classDeckListModel.html">DeckListModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1dfd16f06ecfa5f77e4c6da1ec84e53">deckListModel</a></td></tr>
 <tr class="memitem:a05af3a921675f7f40a90e4c9187c374b" id="r_a05af3a921675f7f40a90e4c9187c374b"><td class="memItemLeft" align="right" valign="top">QItemSelectionModel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05af3a921675f7f40a90e4c9187c374b">selectionModel</a></td></tr>
 <tr class="memitem:a634f2e445b4544641c25c686508587df" id="r_a634f2e445b4544641c25c686508587df"><td class="memItemLeft" align="right" valign="top">QPersistentModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a634f2e445b4544641c25c686508587df">trackedIndex</a></td></tr>
-<tr class="memitem:a1a8a89f8f1214b343a63f2e13d7dd058" id="r_a1a8a89f8f1214b343a63f2e13d7dd058"><td class="memItemLeft" align="right" valign="top">QHash&lt; QPersistentModelIndex, QWidget * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a8a89f8f1214b343a63f2e13d7dd058">indexToWidgetMap</a></td></tr>
+<tr class="memitem:aeff17f143845264a41a835ca68b3fac2" id="r_aeff17f143845264a41a835ca68b3fac2"><td class="memItemLeft" align="right" valign="top">QMap&lt; QPersistentModelIndex, QList&lt; QWidget * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeff17f143845264a41a835ca68b3fac2">indexToWidgetMap</a></td></tr>
 <tr class="memitem:ae96b83990920b990490c4d10df1bea55" id="r_ae96b83990920b990490c4d10df1bea55"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae96b83990920b990490c4d10df1bea55">zoneName</a></td></tr>
 <tr class="memitem:a8d99f0f1645c7674966461774148cfc2" id="r_a8d99f0f1645c7674966461774148cfc2"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d99f0f1645c7674966461774148cfc2">cardGroupCategory</a></td></tr>
 <tr class="memitem:a27fcf02030337896443ca24682fd4526" id="r_a27fcf02030337896443ca24682fd4526"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27fcf02030337896443ca24682fd4526">activeGroupCriteria</a></td></tr>
@@ -685,6 +682,50 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ade0beef5f74c7e170bed549c21ad2a32" name="ade0beef5f74c7e170bed549c21ad2a32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade0beef5f74c7e170bed549c21ad2a32">&#9670;&#160;</a></span>onDataChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardGroupDisplayWidget::onDataChanged </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>topLeft</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>bottomRight</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QVector&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>roles</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d5d/classCardGroupDisplayWidget_ade0beef5f74c7e170bed549c21ad2a32_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d5d/classCardGroupDisplayWidget_ade0beef5f74c7e170bed549c21ad2a32_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="ad977528d6276f0c8ad74215629a165b3" name="ad977528d6276f0c8ad74215629a165b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad977528d6276f0c8ad74215629a165b3">&#9670;&#160;</a></span>onHover</h2>
 
@@ -742,6 +783,28 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d5d/classCardGroupDisplayWidget_a5b200f848687a00bee6a047448a07871_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aebabd43bc8ad3c440b5fe57d90d5c85d" name="aebabd43bc8ad3c440b5fe57d90d5c85d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebabd43bc8ad3c440b5fe57d90d5c85d">&#9670;&#160;</a></span>refreshSelectionForIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardGroupDisplayWidget::refreshSelectionForIndex </td>
+          <td>(</td>
+          <td class="paramtype">const QPersistentModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>persistent</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d5d/classCardGroupDisplayWidget_aebabd43bc8ad3c440b5fe57d90d5c85d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -931,14 +994,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a1a8a89f8f1214b343a63f2e13d7dd058" name="a1a8a89f8f1214b343a63f2e13d7dd058"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a8a89f8f1214b343a63f2e13d7dd058">&#9670;&#160;</a></span>indexToWidgetMap</h2>
+<a id="aeff17f143845264a41a835ca68b3fac2" name="aeff17f143845264a41a835ca68b3fac2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeff17f143845264a41a835ca68b3fac2">&#9670;&#160;</a></span>indexToWidgetMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QHash&lt;QPersistentModelIndex, QWidget *&gt; CardGroupDisplayWidget::indexToWidgetMap</td>
+          <td class="memname">QMap&lt;QPersistentModelIndex, QList&lt;QWidget *&gt; &gt; CardGroupDisplayWidget::indexToWidgetMap</td>
         </tr>
       </table>
 </div><div class="memdoc">

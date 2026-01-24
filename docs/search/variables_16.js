@@ -39,12 +39,13 @@ var searchData=
   ['visualdeckstorageselectionanimation_36',['visualDeckStorageSelectionAnimation',['../d5/d88/classSettingsCache.html#a0ad941c9aea9c7956ebdcdb62194469e',1,'SettingsCache']]],
   ['visualdeckstorageselectionanimationcheckbox_37',['visualDeckStorageSelectionAnimationCheckBox',['../d2/d2d/classUserInterfaceSettingsPage.html#a68899d8570baac3223648f396ee1a328',1,'UserInterfaceSettingsPage']]],
   ['visualdeckstorageshowbannercardcombobox_38',['visualDeckStorageShowBannerCardComboBox',['../d5/d88/classSettingsCache.html#aa99db8c35e1484b36ce820a32c764254',1,'SettingsCache']]],
-  ['visualdeckstorageshowfolders_39',['visualDeckStorageShowFolders',['../d5/d88/classSettingsCache.html#a20b0e298296dad438bc7ced3d505f6b2',1,'SettingsCache']]],
-  ['visualdeckstorageshowtagfilter_40',['visualDeckStorageShowTagFilter',['../d5/d88/classSettingsCache.html#a9d82e908680a60dbe3a77a4fba3afaa1',1,'SettingsCache']]],
-  ['visualdeckstorageshowtagsondeckpreviews_41',['visualDeckStorageShowTagsOnDeckPreviews',['../d5/d88/classSettingsCache.html#a9cf3ebb0031ff4c032b69399e79b3733',1,'SettingsCache']]],
-  ['visualdeckstoragesortingorder_42',['visualDeckStorageSortingOrder',['../d5/d88/classSettingsCache.html#a77fdad7c9658dc17d1a8db190c963a9b',1,'SettingsCache']]],
-  ['visualdeckstoragetooltiptype_43',['visualDeckStorageTooltipType',['../d5/d88/classSettingsCache.html#a0ddcc8af011fcec5a8ae088783cbd321',1,'SettingsCache']]],
-  ['visualdeckstorageunusedcoloridentitiesopacity_44',['visualDeckStorageUnusedColorIdentitiesOpacity',['../d5/d88/classSettingsCache.html#aa09f684d41b9b25c5a87458f3449a6ca',1,'SettingsCache']]],
-  ['visualdeckstoragewidget_45',['visualDeckStorageWidget',['../df/ddd/classDeckViewContainer.html#a34f16b20f44fabc9afac732c0ea5e0ea',1,'DeckViewContainer::visualDeckStorageWidget'],['../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792',1,'TabDeckStorageVisual::visualDeckStorageWidget'],['../d5/d79/classDeckPreviewWidget.html#a4cf652fdc72b14db64c4b4064461d920',1,'DeckPreviewWidget::visualDeckStorageWidget'],['../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad52915450f9a735a2d7579d93006ad4f',1,'VisualDeckStorageFolderDisplayWidget::visualDeckStorageWidget']]],
-  ['visualdeckview_46',['visualDeckView',['../d9/dcf/classTabDeckEditorVisualTabWidget.html#ad8fb88e3c0c4c593048d58d5e747fe07',1,'TabDeckEditorVisualTabWidget']]]
+  ['visualdeckstorageshowcoloridentity_39',['visualDeckStorageShowColorIdentity',['../d5/d88/classSettingsCache.html#a1aed055b2a58d1dfccac7f662cbc2669',1,'SettingsCache']]],
+  ['visualdeckstorageshowfolders_40',['visualDeckStorageShowFolders',['../d5/d88/classSettingsCache.html#a20b0e298296dad438bc7ced3d505f6b2',1,'SettingsCache']]],
+  ['visualdeckstorageshowtagfilter_41',['visualDeckStorageShowTagFilter',['../d5/d88/classSettingsCache.html#a9d82e908680a60dbe3a77a4fba3afaa1',1,'SettingsCache']]],
+  ['visualdeckstorageshowtagsondeckpreviews_42',['visualDeckStorageShowTagsOnDeckPreviews',['../d5/d88/classSettingsCache.html#a9cf3ebb0031ff4c032b69399e79b3733',1,'SettingsCache']]],
+  ['visualdeckstoragesortingorder_43',['visualDeckStorageSortingOrder',['../d5/d88/classSettingsCache.html#a77fdad7c9658dc17d1a8db190c963a9b',1,'SettingsCache']]],
+  ['visualdeckstoragetooltiptype_44',['visualDeckStorageTooltipType',['../d5/d88/classSettingsCache.html#a0ddcc8af011fcec5a8ae088783cbd321',1,'SettingsCache']]],
+  ['visualdeckstorageunusedcoloridentitiesopacity_45',['visualDeckStorageUnusedColorIdentitiesOpacity',['../d5/d88/classSettingsCache.html#aa09f684d41b9b25c5a87458f3449a6ca',1,'SettingsCache']]],
+  ['visualdeckstoragewidget_46',['visualDeckStorageWidget',['../df/ddd/classDeckViewContainer.html#a34f16b20f44fabc9afac732c0ea5e0ea',1,'DeckViewContainer::visualDeckStorageWidget'],['../d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792',1,'TabDeckStorageVisual::visualDeckStorageWidget'],['../d5/d79/classDeckPreviewWidget.html#a4cf652fdc72b14db64c4b4064461d920',1,'DeckPreviewWidget::visualDeckStorageWidget'],['../da/d22/classVisualDeckStorageFolderDisplayWidget.html#ad52915450f9a735a2d7579d93006ad4f',1,'VisualDeckStorageFolderDisplayWidget::visualDeckStorageWidget']]],
+  ['visualdeckview_47',['visualDeckView',['../d9/dcf/classTabDeckEditorVisualTabWidget.html#ad8fb88e3c0c4c593048d58d5e747fe07',1,'TabDeckEditorVisualTabWidget']]]
 ];

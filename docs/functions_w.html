@@ -20,11 +20,9 @@
     <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="text/javascript">
-  $(function() { init_search(); });
-</script>
     <link href="doxygen.css" rel="stylesheet" type="text/css"/>
-    <link href="doxygen_style.css" rel="stylesheet" type="text/css"/>
+    <link href="hide_nav_sync.css" rel="stylesheet" type="text/css"/>
+<link href="cockatrice_docs_style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -34,22 +32,10 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-14-Development-2.11.0-beta.46</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
-                        <div id="projectbrief">A cross-platform virtual tabletop for multiplayer card games</div>
+                        <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
-                    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-</td>
                 </tr>
                 </tbody>
             </table>
@@ -62,6 +48,15 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 <script type="text/javascript">
 $(function() { codefold.init(); });
 </script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -138,13 +133,14 @@ $(function(){initNavTree('functions_w.html','',''); });
 <li>writeBannerCard()&#160;:&#160;<a class="el" href="d9/df7/classDeckEditorDeckDockWidget.html#a3e6c171de64ce44de13dc007b1f10060">DeckEditorDeckDockWidget</a></li>
 <li>writeCentralDir()&#160;:&#160;<a class="el" href="df/daf/classZipPrivate.html#a943f257c1c3f1268ba08bc41186a556b">ZipPrivate</a></li>
 <li>writeComments()&#160;:&#160;<a class="el" href="d9/df7/classDeckEditorDeckDockWidget.html#aa646cffeb7cff704ae7193eb9fe387f7">DeckEditorDeckDockWidget</a></li>
+<li>writeDeckToFile()&#160;:&#160;<a class="el" href="d5/d79/classDeckPreviewWidget.html#a3f0219e7ddab2727db515fec7ba29e03">DeckPreviewWidget</a></li>
 <li>writeElement()&#160;:&#160;<a class="el" href="d3/de9/classAbstractDecklistCardNode.html#a97ccfa1720aa1ee894be841fbe500069">AbstractDecklistCardNode</a>, <a class="el" href="dc/dd8/classAbstractDecklistNode.html#aa63a74f48c8f68b8ec7a89a4612fce3f">AbstractDecklistNode</a>, <a class="el" href="d4/d55/classInnerDecklistNode.html#a60a83b3eae9d802ea394dea41d60bfe9">InnerDecklistNode</a></li>
 <li>writeEntry()&#160;:&#160;<a class="el" href="df/daf/classZipPrivate.html#a17d067c2ccc1358b032e90e1b84c1547">ZipPrivate</a></li>
 <li>WriteFailed&#160;:&#160;<a class="el" href="de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a6485489af32d66acaa3ea4c22c33461c">UnZip</a>, <a class="el" href="d8/df5/classZip.html#aa445490ca64ce3051470bed52ee9198ca2e95d02df0e4547cb5540965f308d074">Zip</a></li>
 <li>writeName()&#160;:&#160;<a class="el" href="d9/df7/classDeckEditorDeckDockWidget.html#a249172ea05effe8b63654b2ff209edf2">DeckEditorDeckDockWidget</a></li>
 <li>writeToSocket()&#160;:&#160;<a class="el" href="dd/dea/classAbstractServerSocketInterface.html#a49d340b855e928b79d08d3c364fc7eef">AbstractServerSocketInterface</a>, <a class="el" href="dd/d13/classTcpServerSocketInterface.html#a94937d81a4f9d8fadd981e0e2b2800bc">TcpServerSocketInterface</a>, <a class="el" href="de/db1/classWebsocketServerSocketInterface.html#aeddcd24404a9e2173f39ed44250f6589">WebsocketServerSocketInterface</a></li>
 <li>writeToString_Native()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#a79d6a068df3b2a323a04621fb3ecb8b0">DeckList</a></li>
-<li>writeToString_Plain()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#acbc76c1a574283e5b32f514291343a63">DeckList</a></li>
+<li>writeToString_Plain()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#ab8a20fd18e8bec39bd5148a80fca5248">DeckList</a></li>
 <li>WrongPassword&#160;:&#160;<a class="el" href="de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a7a93912b20b925eba4854e456de3f340">UnZip</a></li>
 </ul>
 </div><!-- contents -->
