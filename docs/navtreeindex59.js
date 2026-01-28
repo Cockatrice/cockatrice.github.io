@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"df/db1/classServersSettings.html#af046182c285b59005158b0b4a5943393":[4,1,0,410,0],
+"df/db1/classServersSettings.html#af541f9f138d997de84423bc2460a71ea":[4,1,0,410,22],
 "df/db1/classServersSettings.html#af69338720818acd6eecdc3514af3c338":[4,1,0,410,1],
 "df/db1/classServersSettings.html#af8bd3309b53957bb64f557461ac7d9ea":[4,1,0,410,23],
 "df/db1/classServersSettings.html#afeb990c966579675eb8f7a15b340ed79":[4,1,0,410,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "df/de3/classpeg_1_1Repetition.html#ae30327b93035d70673332c2f10fc663f":[4,1,0,1,40,5],
 "df/de3/classpeg_1_1Repetition.html#af446f200e7c0090fce2a82519aa4bcd3":[4,0,0,10,41,8],
 "df/de3/classpeg_1_1Repetition.html#af446f200e7c0090fce2a82519aa4bcd3":[4,1,0,1,40,8],
-"df/de3/classpeg_1_1Repetition.html#afdbe89c320c3579c916a2e32847e6bd4":[4,0,0,10,41,3],
-"df/de3/classpeg_1_1Repetition.html#afdbe89c320c3579c916a2e32847e6bd4":[4,1,0,1,40,3],
-"df/dea/classUserInfoBox.html":[4,1,0,485]
+"df/de3/classpeg_1_1Repetition.html#afdbe89c320c3579c916a2e32847e6bd4":[4,0,0,10,41,3]
 };

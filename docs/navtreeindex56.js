@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"de/de9/classDeckLoader.html#aacb3c46058038253a0d3ab21e62476e0":[4,1,0,131,17],
+"de/de9/classDeckLoader.html#ac56bfcac47c8958d9462914a24408478":[4,1,0,131,15],
 "de/de9/classDeckLoader.html#ac9e4028b0a9f6c8187ab5ddfefb67531":[4,1,0,131,28],
 "de/de9/classDeckLoader.html#ad214abc48fd2d93f2a66bacf7d277e4b":[4,1,0,131,0],
 "de/de9/classDeckLoader.html#ad214abc48fd2d93f2a66bacf7d277e4ba7359892e28bd1f5b32ab9c8aa043317c":[4,1,0,131,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "df/d3f/classGameSelector.html#ab782626922c244e7e009b87be06e3287":[4,1,0,234,19],
 "df/d3f/classGameSelector.html#ab784f3752dc794899e76ad3c87f586be":[4,1,0,234,34],
 "df/d3f/classGameSelector.html#ac4634b075dc2bd62ae419aab7f5a72c8":[4,1,0,234,13],
-"df/d3f/classGameSelector.html#ac973e1aedb927b9b648bee822a49e7e1":[4,1,0,234,2],
-"df/d3f/classGameSelector.html#acc415b95b29b0889c36186e8ff5e2591":[4,1,0,234,22],
-"df/d3f/classGameSelector.html#acfe6e69f272135997e174c1e31b9c302":[4,1,0,234,21]
+"df/d3f/classGameSelector.html#ac973e1aedb927b9b648bee822a49e7e1":[4,1,0,234,2]
 };

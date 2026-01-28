@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"dd/d29/override__printing__warning_8cpp.html":[4,2,0,0,1,5,3,3,48],
+"dd/d2d/edhrec__commander__api__response_8cpp.html":[4,2,0,0,1,5,3,10,0,1,0,4,0],
 "dd/d2f/abstract__tab__deck__editor_8h.html":[4,2,0,0,1,5,3,10,4],
 "dd/d2f/abstract__tab__deck__editor_8h_source.html":[4,2,0,0,1,5,3,10,4],
 "dd/d32/deck__editor__printing__selector__dock__widget_8h.html":[3,1,0,4,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "dd/d71/classVisualDeckStorageSortWidget.html#a289689f317e0f59ef07aec69b764d55b":[4,1,0,514,10],
 "dd/d71/classVisualDeckStorageSortWidget.html#a28aad3416017c9fd5aa117be4c53a4fe":[4,1,0,514,5],
 "dd/d71/classVisualDeckStorageSortWidget.html#a2c70fea7b2076647c821738b0414fd45":[4,1,0,514,6],
-"dd/d71/classVisualDeckStorageSortWidget.html#a68e7e2c38ddae73c97514025e9672888":[4,1,0,514,11],
-"dd/d71/classVisualDeckStorageSortWidget.html#a7bc7ac1192ae7ced638a3d83dcd3a449":[4,1,0,514,4],
-"dd/d71/classVisualDeckStorageSortWidget.html#a95ae5d14567cd8b0417fc9efdc2fd308":[4,1,0,514,3]
+"dd/d71/classVisualDeckStorageSortWidget.html#a68e7e2c38ddae73c97514025e9672888":[4,1,0,514,11]
 };

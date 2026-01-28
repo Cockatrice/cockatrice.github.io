@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"df/d8f/classTokenDisplayModel.html#a5410777c9638050ebbb8d4919a6cd419":[4,1,0,476,2],
+"df/d8f/classTokenDisplayModel.html#ac22988bbdfcd9556dbecac42511d184e":[4,1,0,476,1],
 "df/d8f/classTokenDisplayModel.html#aea1d9d16b3b82ea187cea7ca25a673a6":[4,1,0,476,0],
 "df/d8f/mana__devotion__widget_8cpp.html":[4,2,0,0,1,5,3,1,0,3,4],
 "df/d90/classUnzipPrivate.html":[4,1,0,481],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "df/db1/classServersSettings.html#ad38bac8434f46867a7ccc4b0eb33ae17":[4,1,0,410,8],
 "df/db1/classServersSettings.html#ada170c9499fc4102a6d07e5fbd6d7e3b":[4,1,0,410,12],
 "df/db1/classServersSettings.html#aed70ab0f2d55edbee4303021a3a7663f":[4,1,0,410,19],
-"df/db1/classServersSettings.html#aefb17306deebdc0412476ddb4fea37d6":[4,1,0,410,13],
-"df/db1/classServersSettings.html#af046182c285b59005158b0b4a5943393":[4,1,0,410,0],
-"df/db1/classServersSettings.html#af541f9f138d997de84423bc2460a71ea":[4,1,0,410,22]
+"df/db1/classServersSettings.html#aefb17306deebdc0412476ddb4fea37d6":[4,1,0,410,13]
 };
