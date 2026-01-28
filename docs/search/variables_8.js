@@ -74,7 +74,7 @@ var searchData=
   ['hotspot_71',['hotSpot',['../d6/dc0/classAbstractCardDragItem.html#ac4e9606d83c559850726dc95968b66a4',1,'AbstractCardDragItem']]],
   ['hoursedit_72',['hoursEdit',['../dd/d5d/classBanDialog.html#ac509443f93d1e8fbc298bdd8c32ac5ae',1,'BanDialog']]],
   ['hourslabel_73',['hoursLabel',['../dd/d5d/classBanDialog.html#aacb5bb4f8c16e903efe898280fbda91a',1,'BanDialog']]],
-  ['hoveractivatethresholdinms_74',['hoverActivateThresholdInMs',['../dd/dd2/classCardInfoPictureWidget.html#a1a371753a208c924c6157eed36b91c4a',1,'CardInfoPictureWidget']]],
+  ['hover_5factivate_5fthreshold_5fms_74',['HOVER_ACTIVATE_THRESHOLD_MS',['../da/d63/card__info__picture__widget_8cpp.html#a6a267ba4ca1b565ab9bfda37ef1122a6',1,'card_info_picture_widget.cpp']]],
   ['hovered_75',['hovered',['../d4/d67/classAbstractCounter.html#a3247195632db0b490b0c22fb94df4fdd',1,'AbstractCounter::hovered'],['../d9/d18/classSegmentedBarWidget.html#a357a87b26f7d159c688e12da6b6acf77',1,'SegmentedBarWidget::hovered'],['../dc/d15/classCardAmountWidget.html#a39067656b1345bb95f1f7b1b2475bcd6',1,'CardAmountWidget::hovered']]],
   ['hoveredbar_76',['hoveredBar',['../d4/d89/classBarChartWidget.html#aafcf78cbfdb0616248ca3a8b5a597d6e',1,'BarChartWidget']]],
   ['hoveredcard_77',['hoveredCard',['../db/d9f/classGameScene.html#a9d567d70c813595eb7bec6b83d2a79bf',1,'GameScene']]],

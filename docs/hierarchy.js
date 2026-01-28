@@ -166,6 +166,7 @@ var hierarchy =
       [ "peg::WeakHolder", "db/d5b/classpeg_1_1WeakHolder.html", null ],
       [ "peg::Whitespace", "de/d63/classpeg_1_1Whitespace.html", null ]
     ] ],
+    [ "PaletteColorInfo", "d8/dc8/structPaletteColorInfo.html", null ],
     [ "ParsedDeckInfo", "d8/d82/structParsedDeckInfo.html", null ],
     [ "peg::parser", "da/d7b/classpeg_1_1parser.html", null ],
     [ "peg::ParserGenerator::ParserContext", "d4/db3/structpeg_1_1ParserGenerator_1_1ParserContext.html", null ],

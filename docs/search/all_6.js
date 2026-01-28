@@ -245,6 +245,9 @@ var searchData=
   ['fullurl_242',['fullUrl',['../d8/d82/structParsedDeckInfo.html#ac4c47427fa68940535016f13f33932d3',1,'ParsedDeckInfo']]],
   ['further_20installation_20instructions_243',['Further installation instructions',['..//home/runner/work/Cockatrice/Cockatrice/doc/doxygen/theme/README.md#further-installation-instructions',1,'']]],
   ['further_20references_244',['Further References',['../d3/d9a/creating_decks.html#further-references',1,'']]],
-  ['future_245',['future',['../d1/d64/classLoadSetsPage.html#a87f3925310b39d7fadbbd80c203e2ab8',1,'LoadSetsPage']]],
-  ['futurestandard_246',['FutureStandard',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a8125667e770dfed552b8f8de41540760',1,'ArchidektFormats']]]
+  ['fusion_5ftheme_5fname_245',['FUSION_THEME_NAME',['../d4/d99/theme__manager_8cpp.html#a6307c018c008b80395353e115f4440f3',1,'theme_manager.cpp']]],
+  ['fusion_5ftheme_5fname_5fdark_246',['FUSION_THEME_NAME_DARK',['../d4/d99/theme__manager_8cpp.html#a52d1a77213fdb95f31388d37740cdb7c',1,'theme_manager.cpp']]],
+  ['fusion_5ftheme_5fname_5flight_247',['FUSION_THEME_NAME_LIGHT',['../d4/d99/theme__manager_8cpp.html#a823c6af4fe350cc880e8abf6c8bc35e4',1,'theme_manager.cpp']]],
+  ['future_248',['future',['../d1/d64/classLoadSetsPage.html#a87f3925310b39d7fadbbd80c203e2ab8',1,'LoadSetsPage']]],
+  ['futurestandard_249',['FutureStandard',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a8125667e770dfed552b8f8de41540760',1,'ArchidektFormats']]]
 ];

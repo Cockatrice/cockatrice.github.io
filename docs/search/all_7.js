@@ -1067,7 +1067,7 @@ var searchData=
   ['grid_1064',['grid',['../d3/da4/classDlgConnect.html#a745388da868d3f87cffe132269287f1e',1,'DlgConnect']]],
   ['gridpoint_1065',['gridPoint',['../d6/dbd/classCardItem.html#ae4787cd9b39da6b8d7b9bb57a54814ca',1,'CardItem']]],
   ['gridsize_1066',['GridSize',['../db/dc7/structZoneViewZone_1_1GridSize.html',1,'ZoneViewZone']]],
-  ['group_1067',['group',['../d6/d8e/classShortcutKey.html#ad32c22beb6d5549b6dabef8a71a792b8',1,'ShortcutKey::group'],['../d9/dd7/classDlgStartupCardCheck.html#a12168d9564b316d505c6ffd6cdddfa33',1,'DlgStartupCardCheck::group']]],
+  ['group_1067',['group',['../d6/d8e/classShortcutKey.html#ad32c22beb6d5549b6dabef8a71a792b8',1,'ShortcutKey::group'],['../d8/dc8/structPaletteColorInfo.html#a3c3337d1c048fbf4a6ae27ea63eab54b',1,'PaletteColorInfo::group'],['../d9/dd7/classDlgStartupCardCheck.html#a12168d9564b316d505c6ffd6cdddfa33',1,'DlgStartupCardCheck::group']]],
   ['group_20display_20widgets_1068',['Card Group Display Widgets',['../d6/d9a/group__DeckEditorCardGroupWidgets.html',1,'']]],
   ['groupandsortlayout_1069',['groupAndSortLayout',['../dc/de4/classVisualDeckDisplayOptionsWidget.html#a01420ea015013b31fa244e16c21c3f63',1,'VisualDeckDisplayOptionsWidget']]],
   ['groupby_1070',['groupBy',['../d0/db5/classZoneViewZone.html#a3925bd2a229f17a085f5f3e1a396e767',1,'ZoneViewZone::groupBy'],['../d6/d55/structManaCurveConfig.html#aa263912fb2ecac2969dd80a38113c1aa',1,'ManaCurveConfig::groupBy'],['../d5/de0/classManaCurveConfigDialog.html#a04d1c87c19cc87d46c41faa94127c161',1,'ManaCurveConfigDialog::groupBy']]],

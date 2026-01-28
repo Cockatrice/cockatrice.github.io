@@ -371,6 +371,7 @@ var annotated_dup =
     [ "OverlapLayout", "dd/d39/classOverlapLayout.html", "dd/d39/classOverlapLayout" ],
     [ "OverlappedCardGroupDisplayWidget", "d4/d79/classOverlappedCardGroupDisplayWidget.html", "d4/d79/classOverlappedCardGroupDisplayWidget" ],
     [ "OverlapWidget", "de/d39/classOverlapWidget.html", "de/d39/classOverlapWidget" ],
+    [ "PaletteColorInfo", "d8/dc8/structPaletteColorInfo.html", "d8/dc8/structPaletteColorInfo" ],
     [ "ParsedDeckInfo", "d8/d82/structParsedDeckInfo.html", "d8/d82/structParsedDeckInfo" ],
     [ "PasswordHasher", "d0/d46/classPasswordHasher.html", "d0/d46/classPasswordHasher" ],
     [ "PendingCommand", "d8/d62/classPendingCommand.html", "d8/d62/classPendingCommand" ],

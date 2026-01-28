@@ -406,7 +406,7 @@ var searchData=
   ['addwritepermission_403',['addWritePermission',['../dc/d3a/classServer__CardZone.html#abc8c39c4d8e6a2e692506446e941e024',1,'Server_CardZone']]],
   ['addzone_404',['addZone',['../d2/d4b/classPlayer.html#a66660e350ae109217844c3f8b2bd648b',1,'Player::addZone()'],['../da/d99/classServer__AbstractPlayer.html#a55fc2bb5e861cace1da4ff1b6fb11fa8',1,'Server_AbstractPlayer::addZone()']]],
   ['adjustcardsperpage_405',['adjustCardsPerPage',['../d2/d32/classVisualDatabaseDisplayWidget.html#a0d6095648cda14c397b363fcf17d22d1',1,'VisualDatabaseDisplayWidget']]],
-  ['adjustfontsize_406',['adjustFontSize',['../d7/ddb/classAllZonesCardAmountWidget.html#adb7a0fb1458bbc251891c917f0bc3b82',1,'AllZonesCardAmountWidget::adjustFontSize()'],['../dc/d15/classCardAmountWidget.html#a2101fc800ad667ce48a92548a716c438',1,'CardAmountWidget::adjustFontSize()'],['../d9/da6/classSetNameAndCollectorsNumberDisplayWidget.html#a94ee9b4861446ba3a7151676ac54810a',1,'SetNameAndCollectorsNumberDisplayWidget::adjustFontSize()']]],
+  ['adjustfontsize_406',['adjustFontSize',['../d7/ddb/classAllZonesCardAmountWidget.html#adb7a0fb1458bbc251891c917f0bc3b82',1,'AllZonesCardAmountWidget::adjustFontSize()'],['../dc/d15/classCardAmountWidget.html#a2101fc800ad667ce48a92548a716c438',1,'CardAmountWidget::adjustFontSize()']]],
   ['adjustmaxcolumnsandrows_407',['adjustMaxColumnsAndRows',['../de/d39/classOverlapWidget.html#a42908839e97d7fcaaf5ab89e734ea056',1,'OverlapWidget']]],
   ['adjustmod_5fprocessuserresponse_408',['adjustMod_processUserResponse',['../d7/d67/classUserContextMenu.html#a03f4ba889b42910ed65f4f474e5501ec',1,'UserContextMenu']]],
   ['adjustplayerrotation_409',['adjustPlayerRotation',['../db/d9f/classGameScene.html#abc2d563bac103c09cb16324d8038b774',1,'GameScene']]],

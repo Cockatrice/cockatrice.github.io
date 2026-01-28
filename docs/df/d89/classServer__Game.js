@@ -40,6 +40,7 @@ var classServer__Game =
     [ "removeArrows", "df/d89/classServer__Game.html#a0ee36e9a8b99cff6c39cf1ed01737e94", null ],
     [ "removeArrowsRelatedToPlayer", "df/d89/classServer__Game.html#a68736140f833d4a574cf1a162061938c", null ],
     [ "removeParticipant", "df/d89/classServer__Game.html#a9352f37fe919fef8df4d7e4541656ed1", null ],
+    [ "returnCardsFromPlayer", "df/d89/classServer__Game.html#ac8ffeecd2100bcf1e3f464aade87fc7c", null ],
     [ "reverseTurnOrder", "df/d89/classServer__Game.html#af2962a6d1a2807e8a4e25c3295571e10", null ],
     [ "sendGameEventContainer", "df/d89/classServer__Game.html#a30da97b384f2a8a08178bd1534339eb2", null ],
     [ "sendGameStateToPlayers", "df/d89/classServer__Game.html#a03820f49c6252407e7f800b727832fb9", null ],

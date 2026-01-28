@@ -28,21 +28,13 @@ var classCardInfoPictureWidget =
     [ "sizeHint", "dd/dd2/classCardInfoPictureWidget.html#aade095f602086f04c24e5ee469af2003", null ],
     [ "updatePixmap", "dd/dd2/classCardInfoPictureWidget.html#a7f4df09cb703aca47d804cc0fe3c03bb", null ],
     [ "animation", "dd/dd2/classCardInfoPictureWidget.html#a1b346a24f8493d35d9d062e80e5247a3", null ],
-    [ "animationOffset", "dd/dd2/classCardInfoPictureWidget.html#ad06d4b6e9df90a8bd74d62643730f70c", null ],
-    [ "aspectRatio", "dd/dd2/classCardInfoPictureWidget.html#a5346007dc1c97f23958732f0a60ae6f8", null ],
-    [ "baseHeight", "dd/dd2/classCardInfoPictureWidget.html#ae3a20603b39658175d22314d07e1a12a", null ],
-    [ "baseWidth", "dd/dd2/classCardInfoPictureWidget.html#ad1102c96c29331d754bfeb6d14f3f7ff", null ],
-    [ "enlargedPixmapOffset", "dd/dd2/classCardInfoPictureWidget.html#a2e90bd18ffd343b7591b27163381901f", null ],
     [ "enlargedPixmapWidget", "dd/dd2/classCardInfoPictureWidget.html#a64ee1b338dbbd7e41ed1c1ed31ad29f6", null ],
     [ "exactCard", "dd/dd2/classCardInfoPictureWidget.html#a4b3429d1ace12606aa17fb8394dc8a52", null ],
-    [ "hoverActivateThresholdInMs", "dd/dd2/classCardInfoPictureWidget.html#a1a371753a208c924c6157eed36b91c4a", null ],
     [ "hoverTimer", "dd/dd2/classCardInfoPictureWidget.html#a9e32ec7c4891a815a31a6fd83270a4dd", null ],
     [ "hoverToZoomEnabled", "dd/dd2/classCardInfoPictureWidget.html#a15f58dd7c60f8ef8747917e9f1d939a1", null ],
-    [ "magicTheGatheringCardAspectRatio", "dd/dd2/classCardInfoPictureWidget.html#aa7b120fcb51963870d5464ad227c80d5", null ],
     [ "originalPos", "dd/dd2/classCardInfoPictureWidget.html#a9aaa680a645001a52a56e530844ec4fd", null ],
     [ "pixmapDirty", "dd/dd2/classCardInfoPictureWidget.html#a721424202bc4b3094f55ac93b3b2c5c4", null ],
     [ "raiseOnEnter", "dd/dd2/classCardInfoPictureWidget.html#a6eb6547b9771b8f6927d4b4821337ed7", null ],
     [ "resizedPixmap", "dd/dd2/classCardInfoPictureWidget.html#a460506d4d960750684d165851fd62876", null ],
-    [ "scaleFactor", "dd/dd2/classCardInfoPictureWidget.html#af55b35e36065b7ff3ac7e3e62ea810f0", null ],
-    [ "yuGiOhCardAspectRatio", "dd/dd2/classCardInfoPictureWidget.html#a8c39dcb680f6385615d565c6410cc853", null ]
+    [ "scaleFactor", "dd/dd2/classCardInfoPictureWidget.html#af55b35e36065b7ff3ac7e3e62ea810f0", null ]
 ];

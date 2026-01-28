@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-01-28-Development-2.11.0-beta.48</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -105,17 +105,31 @@ $(function(){initNavTree('d4/d99/theme__manager_8cpp.html','../../',''); });
 <code>#include &lt;QColor&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QLibraryInfo&gt;</code><br />
+<code>#include &lt;QMap&gt;</code><br />
+<code>#include &lt;QMetaEnum&gt;</code><br />
+<code>#include &lt;QPalette&gt;</code><br />
 <code>#include &lt;QPixmapCache&gt;</code><br />
 <code>#include &lt;QStandardPaths&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QStyleFactory&gt;</code><br />
+<code>#include &lt;QStyleHints&gt;</code><br />
+<code>#include &lt;Qt&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for theme_manager.cpp:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/da0/theme__manager_8cpp__incl.svg" width="100%" height="459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:PaletteColorInfo" id="r_PaletteColorInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/structPaletteColorInfo.html">PaletteColorInfo</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a75b34c563c608754e2e807df7ebe8e6c" id="r_a75b34c563c608754e2e807df7ebe8e6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75b34c563c608754e2e807df7ebe8e6c">NONE_THEME_NAME</a>&#160;&#160;&#160;&quot;Default&quot;</td></tr>
+<tr class="memitem:a6307c018c008b80395353e115f4440f3" id="r_a6307c018c008b80395353e115f4440f3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6307c018c008b80395353e115f4440f3">FUSION_THEME_NAME</a>&#160;&#160;&#160;&quot;Fusion (System <a class="el" href="../../d8/d7d/abstract__deck__list__node_8h.html#ga8ea3802f8561f16be908a83a08a796cea79935518a3889663d8688b6b01fff051">Default</a>)&quot;</td></tr>
+<tr class="memitem:a823c6af4fe350cc880e8abf6c8bc35e4" id="r_a823c6af4fe350cc880e8abf6c8bc35e4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a823c6af4fe350cc880e8abf6c8bc35e4">FUSION_THEME_NAME_LIGHT</a>&#160;&#160;&#160;&quot;Fusion (Light)&quot;</td></tr>
+<tr class="memitem:a52d1a77213fdb95f31388d37740cdb7c" id="r_a52d1a77213fdb95f31388d37740cdb7c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52d1a77213fdb95f31388d37740cdb7c">FUSION_THEME_NAME_DARK</a>&#160;&#160;&#160;&quot;Fusion (Dark)&quot;</td></tr>
 <tr class="memitem:a02a93947f65f45e8aa5bedfed04b41c3" id="r_a02a93947f65f45e8aa5bedfed04b41c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02a93947f65f45e8aa5bedfed04b41c3">STYLE_CSS_NAME</a>&#160;&#160;&#160;&quot;style.css&quot;</td></tr>
 <tr class="memitem:afd05fe920fe646312b45316922094bae" id="r_afd05fe920fe646312b45316922094bae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd05fe920fe646312b45316922094bae">HANDZONE_BG_NAME</a>&#160;&#160;&#160;&quot;handzone&quot;</td></tr>
 <tr class="memitem:a9e1075c47c842272a13565a0e51acac1" id="r_a9e1075c47c842272a13565a0e51acac1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e1075c47c842272a13565a0e51acac1">PLAYERZONE_BG_NAME</a>&#160;&#160;&#160;&quot;playerzone&quot;</td></tr>
@@ -124,6 +138,10 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a359b0a8f79fe6d7826ce5371fa70fd2e" id="r_a359b0a8f79fe6d7826ce5371fa70fd2e"><td class="memItemLeft" align="right" valign="top">static QList&lt; <a class="el" href="../../d8/dc8/structPaletteColorInfo.html">PaletteColorInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a359b0a8f79fe6d7826ce5371fa70fd2e">queryAllPaletteColors</a> (const QPalette &amp;palette=qApp-&gt;palette())</td></tr>
+<tr class="memitem:a2bbefdc46db0a3a927527e5257d9e739" id="r_a2bbefdc46db0a3a927527e5257d9e739"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bbefdc46db0a3a927527e5257d9e739">printPaletteColors</a> (const QPalette &amp;palette=qApp-&gt;palette())</td></tr>
+<tr class="memitem:abb68341dbfe7464ea2caf075f9a10694" id="r_abb68341dbfe7464ea2caf075f9a10694"><td class="memItemLeft" align="right" valign="top">static QPalette&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb68341dbfe7464ea2caf075f9a10694">createDarkGreenFusionPalette</a> ()</td></tr>
+<tr class="memitem:aaf3d7fd2f6ca4f613c97d31888d2ed88" id="r_aaf3d7fd2f6ca4f613c97d31888d2ed88"><td class="memItemLeft" align="right" valign="top">static QPalette&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf3d7fd2f6ca4f613c97d31888d2ed88">createLightGreenFusionPalette</a> ()</td></tr>
 <tr class="memitem:a3b154ff641e1f48a4cf8d32e18d1faa7" id="r_a3b154ff641e1f48a4cf8d32e18d1faa7"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b154ff641e1f48a4cf8d32e18d1faa7">roleBgName</a> (<a class="el" href="../../da/d5a/classThemeManager.html#a3aa764444425be577be3cd450e79f278">ThemeManager::Role</a> role)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
@@ -135,6 +153,48 @@ Variables</h2></td></tr>
 <tr class="memitem:a95fc390098c3edbb232107e42fb6f9cf" id="r_a95fc390098c3edbb232107e42fb6f9cf"><td class="memItemLeft" align="right" valign="top">static const QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95fc390098c3edbb232107e42fb6f9cf">DEFAULT_RESOURCE_PATHS</a> = {&quot;:/resources&quot;}</td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
+<a id="a6307c018c008b80395353e115f4440f3" name="a6307c018c008b80395353e115f4440f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6307c018c008b80395353e115f4440f3">&#9670;&#160;</a></span>FUSION_THEME_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FUSION_THEME_NAME&#160;&#160;&#160;&quot;Fusion (System <a class="el" href="../../d8/d7d/abstract__deck__list__node_8h.html#ga8ea3802f8561f16be908a83a08a796cea79935518a3889663d8688b6b01fff051">Default</a>)&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52d1a77213fdb95f31388d37740cdb7c" name="a52d1a77213fdb95f31388d37740cdb7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52d1a77213fdb95f31388d37740cdb7c">&#9670;&#160;</a></span>FUSION_THEME_NAME_DARK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FUSION_THEME_NAME_DARK&#160;&#160;&#160;&quot;Fusion (Dark)&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a823c6af4fe350cc880e8abf6c8bc35e4" name="a823c6af4fe350cc880e8abf6c8bc35e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a823c6af4fe350cc880e8abf6c8bc35e4">&#9670;&#160;</a></span>FUSION_THEME_NAME_LIGHT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FUSION_THEME_NAME_LIGHT&#160;&#160;&#160;&quot;Fusion (Light)&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afd05fe920fe646312b45316922094bae" name="afd05fe920fe646312b45316922094bae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd05fe920fe646312b45316922094bae">&#9670;&#160;</a></span>HANDZONE_BG_NAME</h2>
 
@@ -220,6 +280,116 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="abb68341dbfe7464ea2caf075f9a10694" name="abb68341dbfe7464ea2caf075f9a10694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb68341dbfe7464ea2caf075f9a10694">&#9670;&#160;</a></span>createDarkGreenFusionPalette()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPalette createDarkGreenFusionPalette </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d99/theme__manager_8cpp_abb68341dbfe7464ea2caf075f9a10694_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aaf3d7fd2f6ca4f613c97d31888d2ed88" name="aaf3d7fd2f6ca4f613c97d31888d2ed88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf3d7fd2f6ca4f613c97d31888d2ed88">&#9670;&#160;</a></span>createLightGreenFusionPalette()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPalette createLightGreenFusionPalette </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d99/theme__manager_8cpp_aaf3d7fd2f6ca4f613c97d31888d2ed88_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a2bbefdc46db0a3a927527e5257d9e739" name="a2bbefdc46db0a3a927527e5257d9e739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bbefdc46db0a3a927527e5257d9e739">&#9670;&#160;</a></span>printPaletteColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printPaletteColors </td>
+          <td>(</td>
+          <td class="paramtype">const QPalette &amp;</td>          <td class="paramname"><span class="paramname"><em>palette</em></span><span class="paramdefsep"> = </span><span class="paramdefval">qApp-&gt;palette()</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a359b0a8f79fe6d7826ce5371fa70fd2e" name="a359b0a8f79fe6d7826ce5371fa70fd2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a359b0a8f79fe6d7826ce5371fa70fd2e">&#9670;&#160;</a></span>queryAllPaletteColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="../../d8/dc8/structPaletteColorInfo.html">PaletteColorInfo</a> &gt; queryAllPaletteColors </td>
+          <td>(</td>
+          <td class="paramtype">const QPalette &amp;</td>          <td class="paramname"><span class="paramname"><em>palette</em></span><span class="paramdefsep"> = </span><span class="paramdefval">qApp-&gt;palette()</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3b154ff641e1f48a4cf8d32e18d1faa7" name="a3b154ff641e1f48a4cf8d32e18d1faa7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3b154ff641e1f48a4cf8d32e18d1faa7">&#9670;&#160;</a></span>roleBgName()</h2>
 
