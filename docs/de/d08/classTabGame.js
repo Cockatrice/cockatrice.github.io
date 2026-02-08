@@ -68,7 +68,7 @@ var classTabGame =
     [ "processPlayerLeave", "de/d08/classTabGame.html#a9127975621a7fd6a417b22f7ecd2cec0", null ],
     [ "processRemotePlayerDeckSelect", "de/d08/classTabGame.html#a7e67a20d5ee3ab67ed533cdfe32a6dc0", null ],
     [ "refreshShortcuts", "de/d08/classTabGame.html#a4f367cd55ade1287683ab143b042a2aa", null ],
-    [ "registerDockWidget", "de/d08/classTabGame.html#ac235859460d1aa19f46f161b18fa39aa", null ],
+    [ "registerDockWidget", "de/d08/classTabGame.html#a3883a97742f889b2d8dfc0d326daa46a", null ],
     [ "removePlayerFromAutoCompleteList", "de/d08/classTabGame.html#a40a62b019295d7e9a6ce1919c3eeda08", null ],
     [ "removeSpectator", "de/d08/classTabGame.html#aa739208e743034b7c2a46069f1ecce94", null ],
     [ "resetChatAndPhase", "de/d08/classTabGame.html#afeb91fa93d90ab01928d8b281cf4d983", null ],

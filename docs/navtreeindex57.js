@@ -1,6 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"df/d3f/classGameSelector.html#acc415b95b29b0889c36186e8ff5e2591":[4,1,0,234,22],
 "df/d3f/classGameSelector.html#acfe6e69f272135997e174c1e31b9c302":[4,1,0,234,21],
 "df/d3f/classGameSelector.html#ad9a45b612f0bdd4e6c111fc7ef749989":[4,1,0,234,16],
 "df/d3f/classGameSelector.html#add4cce58a9f4c9c6c1a2a737a0fff2ff":[4,1,0,234,25],
@@ -249,5 +248,6 @@ var NAVTREEINDEX57 =
 "df/d89/mana__cost__widget_8cpp.html":[4,2,0,0,1,5,3,0,0,2],
 "df/d8c/deck__state__manager_8cpp.html":[4,2,0,0,1,5,3,2,16],
 "df/d8c/deck__state__manager_8cpp.html#aa3e1ffa21bd288dfdab1d668da0eee3d":[4,2,0,0,1,5,3,2,16,0],
-"df/d8f/classTokenDisplayModel.html":[4,1,0,476]
+"df/d8f/classTokenDisplayModel.html":[4,1,0,476],
+"df/d8f/classTokenDisplayModel.html#a5410777c9638050ebbb8d4919a6cd419":[4,1,0,476,2]
 };

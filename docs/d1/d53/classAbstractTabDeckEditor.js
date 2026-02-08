@@ -51,7 +51,7 @@ var classAbstractTabDeckEditor =
     [ "openDeckEditor", "d1/d53/classAbstractTabDeckEditor.html#aa7f0c208171cc70400e2476a5b656911", null ],
     [ "openDeckFromFile", "d1/d53/classAbstractTabDeckEditor.html#a69c68619932e7cdff54e2af86e17e5ed", null ],
     [ "refreshShortcuts", "d1/d53/classAbstractTabDeckEditor.html#a40ee098e949fa4314d7dd8335aeebe84", null ],
-    [ "registerDockWidget", "d1/d53/classAbstractTabDeckEditor.html#a72ce6dfe9a256b29f7ce98553ce950a3", null ],
+    [ "registerDockWidget", "d1/d53/classAbstractTabDeckEditor.html#ac1526533aadd2e0bdd4ee0e569c730ac", null ],
     [ "restartLayout", "d1/d53/classAbstractTabDeckEditor.html#a2c7ba0a21993dbf7f6a90f79680b3743", null ],
     [ "retranslateUi", "d1/d53/classAbstractTabDeckEditor.html#a49ea6becbf4924b55cf703fa2e3d18b2", null ],
     [ "saveDeckRemoteFinished", "d1/d53/classAbstractTabDeckEditor.html#a1dad3c8663363428d1b144e1d0a7c9c0", null ],

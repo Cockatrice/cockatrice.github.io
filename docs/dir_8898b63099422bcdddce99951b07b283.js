@@ -10,7 +10,7 @@ var dir_8898b63099422bcdddce99951b07b283 =
     [ "download_settings.h", "d0/de1/download__settings_8h.html", "d0/de1/download__settings_8h" ],
     [ "game_filters_settings.cpp", "d8/d0b/game__filters__settings_8cpp.html", null ],
     [ "game_filters_settings.h", "d9/dfd/game__filters__settings_8h.html", "d9/dfd/game__filters__settings_8h" ],
-    [ "layouts_settings.cpp", "dd/d07/layouts__settings_8cpp.html", null ],
+    [ "layouts_settings.cpp", "dd/d07/layouts__settings_8cpp.html", "dd/d07/layouts__settings_8cpp" ],
     [ "layouts_settings.h", "d9/df1/layouts__settings_8h.html", "d9/df1/layouts__settings_8h" ],
     [ "message_settings.cpp", "d2/daf/message__settings_8cpp.html", null ],
     [ "message_settings.h", "db/d2c/message__settings_8h.html", "db/d2c/message__settings_8h" ],

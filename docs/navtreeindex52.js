@@ -1,7 +1,5 @@
 var NAVTREEINDEX52 =
 {
-"de/d08/classTabGame.html#a205bb83517d33cc3c1b1d66a46477890":[4,1,0,457,8],
-"de/d08/classTabGame.html#a21407c0da1cdd88d563d7a0c7c4bc209":[4,1,0,457,95],
 "de/d08/classTabGame.html#a21e6397bd761ae0ab9f0f580175f61fa":[4,1,0,457,40],
 "de/d08/classTabGame.html#a2431742c4a8fe34aae1245351d7ce90e":[4,1,0,457,99],
 "de/d08/classTabGame.html#a24ba4df20a2fb39a893b9dfd3d1e1b69":[4,1,0,457,86],
@@ -9,6 +7,7 @@ var NAVTREEINDEX52 =
 "de/d08/classTabGame.html#a2a09b206d79c6364bb0381e1708519f4":[4,1,0,457,121],
 "de/d08/classTabGame.html#a2b6beeea83d5e1e5b29712929e9eb08b":[4,1,0,457,2],
 "de/d08/classTabGame.html#a30d7cbda1b64450c45d68a5523d5c2b8":[4,1,0,457,18],
+"de/d08/classTabGame.html#a3883a97742f889b2d8dfc0d326daa46a":[4,1,0,457,68],
 "de/d08/classTabGame.html#a38ee966e226328d87408ba28cc25b0d5":[4,1,0,457,30],
 "de/d08/classTabGame.html#a3969ac1e672a7a69f1ac1a5378e8a322":[4,1,0,457,14],
 "de/d08/classTabGame.html#a3add34468552a20eeb22a832955a1656":[4,1,0,457,53],
@@ -74,7 +73,6 @@ var NAVTREEINDEX52 =
 "de/d08/classTabGame.html#aba254554eed4ef5fd0beca99a0b8ff29":[4,1,0,457,83],
 "de/d08/classTabGame.html#ac1fc9fc6a92e2646be4ef8e31bf45c70":[4,1,0,457,90],
 "de/d08/classTabGame.html#ac224ed509114397ac1c3760d911bde04":[4,1,0,457,58],
-"de/d08/classTabGame.html#ac235859460d1aa19f46f161b18fa39aa":[4,1,0,457,68],
 "de/d08/classTabGame.html#ac2b08a1ba1a678af9c9182b8f385dd85":[4,1,0,457,78],
 "de/d08/classTabGame.html#ac36c67bd4d548537f189c9ee424c51c5":[4,1,0,457,37],
 "de/d08/classTabGame.html#ac38cf375d7c7b8069e49cc136dedeb6f":[4,1,0,457,106],
@@ -249,5 +247,7 @@ var NAVTREEINDEX52 =
 "de/d38/classPlayerEventHandler.html#a6f6d249ee25a84d1ea92cad5529289c0":[4,1,0,330,13],
 "de/d38/classPlayerEventHandler.html#a774ff0907ae681d1ec4f1b6156d712f0":[4,1,0,330,15],
 "de/d38/classPlayerEventHandler.html#a7845ee20c1de09570a3dcce3c87f6167":[4,1,0,330,11],
-"de/d38/classPlayerEventHandler.html#a7aa0c929f17289f9645a73cad0678300":[4,1,0,330,28]
+"de/d38/classPlayerEventHandler.html#a7aa0c929f17289f9645a73cad0678300":[4,1,0,330,28],
+"de/d38/classPlayerEventHandler.html#a8137c2c03e180c397869ebe81b034b76":[4,1,0,330,26],
+"de/d38/classPlayerEventHandler.html#a87f4545e0c2accb6f83af249e0fb7f7d":[4,1,0,330,9]
 };

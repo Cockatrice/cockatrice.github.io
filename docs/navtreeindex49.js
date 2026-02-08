@@ -1,7 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"dd/d71/classVisualDeckStorageSortWidget.html#a7bc7ac1192ae7ced638a3d83dcd3a449":[4,1,0,514,4],
-"dd/d71/classVisualDeckStorageSortWidget.html#a95ae5d14567cd8b0417fc9efdc2fd308":[4,1,0,514,3],
 "dd/d71/classVisualDeckStorageSortWidget.html#aa20fd8d510cbfd918cb2e0f3b292474d":[4,1,0,514,8],
 "dd/d71/classVisualDeckStorageSortWidget.html#ac0120649bc73f4851b860cf2ce0aa7a5":[4,1,0,514,2],
 "dd/d71/classVisualDeckStorageSortWidget.html#ad74bc451705aa8bc247c4390f7c203b3":[4,1,0,514,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX49 =
 "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a4dc78da29a048c3c664c290752bc2d7c":[4,1,0,73,14],
 "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a4e94ea7ef0934a0f1905d38518084948":[4,1,0,73,0],
 "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a5d3bd5b8a6c7a6dbbd3c27c5ce011d2b":[4,1,0,73,13],
-"dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a61d1afa35cc23c1cae674956fcfde4b3":[4,1,0,73,15]
+"dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a61d1afa35cc23c1cae674956fcfde4b3":[4,1,0,73,15],
+"dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a7938ba60df9ecbd6b2e5600981094a6d":[4,1,0,73,7],
+"dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a7df727a3b81bc69c9c74ea0d7f3da84b":[4,1,0,73,11]
 };

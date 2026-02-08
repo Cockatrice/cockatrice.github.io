@@ -1,7 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"de/d67/structpeg_1_1IsLiteralToken.html#aec22ed9f58fe866b8574de9bbfd81e69":[4,1,0,1,28,4],
-"de/d67/structpeg_1_1IsLiteralToken.html#aeed25b79bd59566f8eb7f6f182632254":[4,0,0,10,29,13],
 "de/d67/structpeg_1_1IsLiteralToken.html#aeed25b79bd59566f8eb7f6f182632254":[4,1,0,1,28,13],
 "de/d67/structpeg_1_1IsLiteralToken.html#af1d7ef5878ce6686a15e1f18eac2c9aa":[4,0,0,10,29,3],
 "de/d67/structpeg_1_1IsLiteralToken.html#af1d7ef5878ce6686a15e1f18eac2c9aa":[4,1,0,1,28,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX54 =
 "de/d9d/peglib_8h.html#a7f9281c728a03045fe2b6f22a19e259b":[4,2,0,11,0,0,9,153],
 "de/d9d/peglib_8h.html#a83e567c9b29e74e77c94ec4d57a41f88":[4,2,0,11,0,0,9,159],
 "de/d9d/peglib_8h.html#a8445b507d6f42d430dc6f900735c8641":[4,2,0,11,0,0,9,81],
-"de/d9d/peglib_8h.html#a87d09330101044947a4da8d804a23e96":[4,2,0,11,0,0,9,62]
+"de/d9d/peglib_8h.html#a87d09330101044947a4da8d804a23e96":[4,2,0,11,0,0,9,62],
+"de/d9d/peglib_8h.html#a88fd1dc8a131f50cc9a45f56a598fc54":[4,2,0,11,0,0,9,83],
+"de/d9d/peglib_8h.html#a8937a652f39fac650b0985750995fd4d":[4,2,0,11,0,0,9,69]
 };

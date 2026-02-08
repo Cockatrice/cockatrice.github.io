@@ -1,9 +1,9 @@
 var NAVTREEINDEX4 =
 {
-"d1/d53/classAbstractTabDeckEditor.html#abe3bcc1bb730f063aadb75edae9aa130":[3,1,0,1,0,0,20],
-"d1/d53/classAbstractTabDeckEditor.html#abe3bcc1bb730f063aadb75edae9aa130":[3,1,0,4,0,0,20],
-"d1/d53/classAbstractTabDeckEditor.html#abe3bcc1bb730f063aadb75edae9aa130":[3,3,1,0,0,20],
-"d1/d53/classAbstractTabDeckEditor.html#abe3bcc1bb730f063aadb75edae9aa130":[3,3,1,1,0,0,20],
+"d1/d53/classAbstractTabDeckEditor.html#ac1526533aadd2e0bdd4ee0e569c730ac":[3,1,0,1,0,0,47],
+"d1/d53/classAbstractTabDeckEditor.html#ac1526533aadd2e0bdd4ee0e569c730ac":[3,1,0,4,0,0,47],
+"d1/d53/classAbstractTabDeckEditor.html#ac1526533aadd2e0bdd4ee0e569c730ac":[3,3,1,0,0,47],
+"d1/d53/classAbstractTabDeckEditor.html#ac1526533aadd2e0bdd4ee0e569c730ac":[3,3,1,1,0,0,47],
 "d1/d53/classAbstractTabDeckEditor.html#ac532469a36ddb51d9333024431a1e875":[3,1,0,1,0,0,58],
 "d1/d53/classAbstractTabDeckEditor.html#ac532469a36ddb51d9333024431a1e875":[3,1,0,4,0,0,58],
 "d1/d53/classAbstractTabDeckEditor.html#ac532469a36ddb51d9333024431a1e875":[3,3,1,0,0,58],

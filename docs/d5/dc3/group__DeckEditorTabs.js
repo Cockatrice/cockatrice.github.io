@@ -4,6 +4,7 @@ var group__DeckEditorTabs =
       [ "DockActions", "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html", [
         [ "aFloating", "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a51805ed40c183448e69aca4458aa7cb6", null ],
         [ "aVisible", "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#ab8d233c1f266a9956da33415d1fa9244", null ],
+        [ "defaultSize", "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a2282c6d161b40c561609d0f2adce4d7d", null ],
         [ "menu", "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#aa5ed3a7109953c59d22312c145f89593", null ]
       ] ],
       [ "DeckOpenLocation", "d1/d53/classAbstractTabDeckEditor.html#a59362c003e9fd04abbec91a0962342dc", [
@@ -56,7 +57,7 @@ var group__DeckEditorTabs =
       [ "openDeckEditor", "d1/d53/classAbstractTabDeckEditor.html#aa7f0c208171cc70400e2476a5b656911", null ],
       [ "openDeckFromFile", "d1/d53/classAbstractTabDeckEditor.html#a69c68619932e7cdff54e2af86e17e5ed", null ],
       [ "refreshShortcuts", "d1/d53/classAbstractTabDeckEditor.html#a40ee098e949fa4314d7dd8335aeebe84", null ],
-      [ "registerDockWidget", "d1/d53/classAbstractTabDeckEditor.html#a72ce6dfe9a256b29f7ce98553ce950a3", null ],
+      [ "registerDockWidget", "d1/d53/classAbstractTabDeckEditor.html#ac1526533aadd2e0bdd4ee0e569c730ac", null ],
       [ "restartLayout", "d1/d53/classAbstractTabDeckEditor.html#a2c7ba0a21993dbf7f6a90f79680b3743", null ],
       [ "retranslateUi", "d1/d53/classAbstractTabDeckEditor.html#a49ea6becbf4924b55cf703fa2e3d18b2", null ],
       [ "saveDeckRemoteFinished", "d1/d53/classAbstractTabDeckEditor.html#a1dad3c8663363428d1b144e1d0a7c9c0", null ],
