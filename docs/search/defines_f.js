@@ -33,12 +33,11 @@ var searchData=
   ['sfmt_5fsr2_30',['SFMT_SR2',['../dc/d80/SFMT-params19937_8h.html#a5d78a3ac05f0e059ff793974c0faec76',1,'SFMT-params19937.h']]],
   ['sfmtst_5fh_31',['SFMTST_H',['../d4/de7/SFMT_8h.html#a7b09bf387434973d287ff39ee33b3ac6',1,'SFMT.h']]],
   ['sigsegv_5ftrace_5flines_32',['SIGSEGV_TRACE_LINES',['../de/d2d/signalhandler_8cpp.html#aac26808bc399b13e8ed2a0b3bd3cb76e',1,'signalhandler.cpp']]],
-  ['sort_5freset_33',['SORT_RESET',['../db/d8d/dlg__manage__sets_8cpp.html#abadea06f5604cc3fdc04494a56465e02',1,'dlg_manage_sets.cpp']]],
-  ['spoilers_5fstatus_5furl_34',['SPOILERS_STATUS_URL',['../db/d73/spoiler__background__updater_8cpp.html#abc3900f6e7ba9bf40547f2964e20ecdb',1,'spoiler_background_updater.cpp']]],
-  ['spoilers_5furl_35',['SPOILERS_URL',['../db/d73/spoiler__background__updater_8cpp.html#a71f0e011f997b2e09a9cf4f958f925c4',1,'SPOILERS_URL:&#160;spoiler_background_updater.cpp'],['../d3/d12/pages_8cpp.html#a71f0e011f997b2e09a9cf4f958f925c4',1,'SPOILERS_URL:&#160;pages.cpp']]],
-  ['stablemanualdownload_5furl_36',['STABLEMANUALDOWNLOAD_URL',['../d4/d94/release__channel_8cpp.html#a6b0b74a8d1a61a58164c1e394c1f4332',1,'release_channel.cpp']]],
-  ['stablerelease_5furl_37',['STABLERELEASE_URL',['../d4/d94/release__channel_8cpp.html#a37095738392deb1ac4af2ec984114694',1,'release_channel.cpp']]],
-  ['stabletag_5furl_38',['STABLETAG_URL',['../d4/d94/release__channel_8cpp.html#aaf4ad2018b7fdbe17c70365d1e25aab8',1,'release_channel.cpp']]],
-  ['stackzone_5fbg_5fname_39',['STACKZONE_BG_NAME',['../d4/d99/theme__manager_8cpp.html#a4ee2be63495ec29e55fbf0c721fa28ad',1,'theme_manager.cpp']]],
-  ['style_5fcss_5fname_40',['STYLE_CSS_NAME',['../d4/d99/theme__manager_8cpp.html#a02a93947f65f45e8aa5bedfed04b41c3',1,'theme_manager.cpp']]]
+  ['spoilers_5fstatus_5furl_33',['SPOILERS_STATUS_URL',['../db/d73/spoiler__background__updater_8cpp.html#abc3900f6e7ba9bf40547f2964e20ecdb',1,'spoiler_background_updater.cpp']]],
+  ['spoilers_5furl_34',['SPOILERS_URL',['../db/d73/spoiler__background__updater_8cpp.html#a71f0e011f997b2e09a9cf4f958f925c4',1,'SPOILERS_URL:&#160;spoiler_background_updater.cpp'],['../d3/d12/pages_8cpp.html#a71f0e011f997b2e09a9cf4f958f925c4',1,'SPOILERS_URL:&#160;pages.cpp']]],
+  ['stablemanualdownload_5furl_35',['STABLEMANUALDOWNLOAD_URL',['../d4/d94/release__channel_8cpp.html#a6b0b74a8d1a61a58164c1e394c1f4332',1,'release_channel.cpp']]],
+  ['stablerelease_5furl_36',['STABLERELEASE_URL',['../d4/d94/release__channel_8cpp.html#a37095738392deb1ac4af2ec984114694',1,'release_channel.cpp']]],
+  ['stabletag_5furl_37',['STABLETAG_URL',['../d4/d94/release__channel_8cpp.html#aaf4ad2018b7fdbe17c70365d1e25aab8',1,'release_channel.cpp']]],
+  ['stackzone_5fbg_5fname_38',['STACKZONE_BG_NAME',['../d4/d99/theme__manager_8cpp.html#a4ee2be63495ec29e55fbf0c721fa28ad',1,'theme_manager.cpp']]],
+  ['style_5fcss_5fname_39',['STYLE_CSS_NAME',['../d4/d99/theme__manager_8cpp.html#a02a93947f65f45e8aa5bedfed04b41c3',1,'theme_manager.cpp']]]
 ];

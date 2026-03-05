@@ -1,5 +1,14 @@
 var NAVTREEINDEX8 =
 {
+"d2/d32/classVisualDatabaseDisplayWidget.html#ad4b60273b0c3d2e2a80db5c213d9edbe":[4,1,0,506,3],
+"d2/d32/classVisualDatabaseDisplayWidget.html#ad57f48ced9241eec01eac9b2c7ed2dc3":[4,1,0,506,27],
+"d2/d32/classVisualDatabaseDisplayWidget.html#adaa96ce10b712c11146d4f18c3433daa":[4,1,0,506,26],
+"d2/d32/classVisualDatabaseDisplayWidget.html#ade5d95d2e27f36e37c51256ca87eb721":[4,1,0,506,4],
+"d2/d32/classVisualDatabaseDisplayWidget.html#ae4d29c205ea85920a3a6d75d936f3b03":[4,1,0,506,44],
+"d2/d32/classVisualDatabaseDisplayWidget.html#ae7dddcfac07b6d64cdfcd1d29435ce22":[4,1,0,506,16],
+"d2/d32/classVisualDatabaseDisplayWidget.html#aeb87ea15e3cebac670543eca047def70":[4,1,0,506,37],
+"d2/d32/classVisualDatabaseDisplayWidget.html#aef947bcbe999b227445d126895cc93a3":[4,1,0,506,0],
+"d2/d32/classVisualDatabaseDisplayWidget.html#af909785d3515f329190dc472b4629707":[4,1,0,506,5],
 "d2/d32/classVisualDatabaseDisplayWidget.html#afed5a68f76b22405ecb7ad1596dc5fa8":[4,1,0,506,32],
 "d2/d32/printing__selector_8cpp.html":[4,2,0,0,1,5,3,6,4],
 "d2/d32/printing__selector_8cpp.html#ae4dcac5032bad08ce6d9ae7c8ca65910":[4,2,0,0,1,5,3,6,4,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX8 =
 "d2/d6f/classPlayerTarget.html#a82069577b8b49999be8ea4193eea90a5":[4,1,0,339,2],
 "d2/d73/abstract__card__item_8h.html":[3,4,0,4,2,1],
 "d2/d73/classBannerWidget.html":[4,1,0,45],
-"d2/d73/classBannerWidget.html#a06a7bf014a4042d990455902b97a0e49":[4,1,0,45,0],
-"d2/d73/classBannerWidget.html#a1251888b1e98ccc658a1779e6148933c":[4,1,0,45,15],
-"d2/d73/classBannerWidget.html#a2c373a82328dbff984a203907e28bba4":[4,1,0,45,10],
-"d2/d73/classBannerWidget.html#a65c09129bdeeab9af411c0c2f03a1e6c":[4,1,0,45,14],
-"d2/d73/classBannerWidget.html#a7b9eddf290bcac74c51e681d2ebd2ee1":[4,1,0,45,11],
-"d2/d73/classBannerWidget.html#a80a09874156ce940818003fa253c944c":[4,1,0,45,4],
-"d2/d73/classBannerWidget.html#a8ccfc909c2c2d1882784d848a686e4d5":[4,1,0,45,1],
-"d2/d73/classBannerWidget.html#a8f587a6cbac77ef0ca326ef3c0f7d544":[4,1,0,45,2],
-"d2/d73/classBannerWidget.html#a9fa9da5d83d05e3bf364ac3efaaf0f36":[4,1,0,45,3],
-"d2/d73/classBannerWidget.html#ac5582c6ffa45687eafaa7080bc52cb9d":[4,1,0,45,8]
+"d2/d73/classBannerWidget.html#a06a7bf014a4042d990455902b97a0e49":[4,1,0,45,0]
 };

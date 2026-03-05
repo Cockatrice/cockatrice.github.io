@@ -7,6 +7,8 @@ var group__GameGraphics =
     [ "arrow_target.h", "dc/dda/arrow__target_8h.html", null ],
     [ "game_view.h", "de/d9d/game__view_8h.html", null ],
     [ "phases_toolbar.h", "d8/db1/phases__toolbar_8h.html", null ],
+    [ "z_value_layer_manager.h", "dd/d97/z__value__layer__manager_8h.html", null ],
+    [ "z_values.h", "d2/d1d/z__values_8h.html", null ],
     [ "abstract_graphics_item.h", "d5/d21/abstract__graphics__item_8h.html", null ],
     [ "graphics_item_type.h", "de/d83/graphics__item__type_8h.html", null ],
     [ "GameScene", "db/d9f/classGameScene.html", [

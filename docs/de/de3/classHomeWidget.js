@@ -7,6 +7,7 @@ var classHomeWidget =
     [ "loadBackgroundSourceDeck", "de/de3/classHomeWidget.html#a66d9b7e19a62b23107b7fbeb8f35dddc", null ],
     [ "onBackgroundShuffleFrequencyChanged", "de/de3/classHomeWidget.html#aae1a3b93f7dc133a2817296018bce17c", null ],
     [ "paintEvent", "de/de3/classHomeWidget.html#aeb4248773ff9979c74c5444a23a4d4be", null ],
+    [ "setRandomCard", "de/de3/classHomeWidget.html#ab2417ec006c0d3395035fffab14af7f7", null ],
     [ "updateBackgroundProperties", "de/de3/classHomeWidget.html#a0cd139684e70ff516db79e7355e3bf17", null ],
     [ "updateButtonsToBackgroundColor", "de/de3/classHomeWidget.html#ac12a6f762df6811cf8410262717552e1", null ],
     [ "updateConnectButton", "de/de3/classHomeWidget.html#ac8eb6e43d414e21b1b2bbc483efc6792", null ],

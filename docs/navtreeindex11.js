@@ -1,5 +1,14 @@
 var NAVTREEINDEX11 =
 {
+"d3/d21/classNoopCardSetPriorityController.html#a27cf913e42a8f7a193ff8ae60a958e48":[4,1,0,303,3],
+"d3/d21/classNoopCardSetPriorityController.html#a4a8a757dd2ba4a1979b63473cc25606f":[4,1,0,303,2],
+"d3/d21/classNoopCardSetPriorityController.html#a8b21c912e0af3653f73c9097d1be58be":[4,1,0,303,5],
+"d3/d21/classNoopCardSetPriorityController.html#ae1df6dd022f841a52d73e4b970dc7d31":[4,1,0,303,1],
+"d3/d21/classNoopCardSetPriorityController.html#af432ef2cbc7434da3837a08cb92bbc80":[4,1,0,303,4],
+"d3/d21/local__client_8h.html":[3,5,1,7],
+"d3/d22/player__target_8cpp.html":[4,2,0,0,1,3,4,19],
+"d3/d23/printing__selector__card__overlay__widget_8cpp.html":[4,2,0,0,1,5,3,6,8],
+"d3/d2c/classServer__Spectator.html":[4,1,0,406],
 "d3/d2c/classServer__Spectator.html#ae0d52453c7ca9e105ecced0870f7d32d":[4,1,0,406,0],
 "d3/d2f/classPrintingSelectorCardOverlayWidget.html":[4,1,0,344],
 "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a16dc606aed04563cb7e8c31ac542d9bf":[4,1,0,344,15],
@@ -240,14 +249,5 @@ var NAVTREEINDEX11 =
 "d3/d77/classPtMenu.html":[4,1,0,349],
 "d3/d77/classPtMenu.html#a0aab6c0fb70fa6cbec661f6a926bc2ef":[4,1,0,349,0],
 "d3/d77/classPtMenu.html#a170c8158d01e44882f4b7674d2e9b0fe":[4,1,0,349,9],
-"d3/d77/classPtMenu.html#a1de7f2609f31a647363f9aed52c01073":[4,1,0,349,2],
-"d3/d77/classPtMenu.html#a3a98831c820f3e29ae3a6a0f1b1b9bd8":[4,1,0,349,7],
-"d3/d77/classPtMenu.html#a3c86ef45898fa0cfd55ee88bf7be9a28":[4,1,0,349,11],
-"d3/d77/classPtMenu.html#a53ce069cd6d94d442ace75643a09f516":[4,1,0,349,6],
-"d3/d77/classPtMenu.html#a70b283a3fa035a864e1a369564d93d2a":[4,1,0,349,10],
-"d3/d77/classPtMenu.html#a72bacce7b48a8d29030edad85a298a63":[4,1,0,349,8],
-"d3/d77/classPtMenu.html#a72d5b50c090bb5a1cceacd72a9daf3ac":[4,1,0,349,3],
-"d3/d77/classPtMenu.html#a7eb66739c9e6064c00ddcd0c5a6140e2":[4,1,0,349,4],
-"d3/d77/classPtMenu.html#a8ea8bc3fb3109600f6dbd96c9a4e9879":[4,1,0,349,12],
-"d3/d77/classPtMenu.html#acfa8244e424dabaeca2732cf6c02ee60":[4,1,0,349,5]
+"d3/d77/classPtMenu.html#a1de7f2609f31a647363f9aed52c01073":[4,1,0,349,2]
 };

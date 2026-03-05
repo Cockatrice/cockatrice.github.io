@@ -1,5 +1,14 @@
 var NAVTREEINDEX24 =
 {
+"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ac2371472bd9720a5f2091bc1a7055c3d":[4,1,0,197,18],
+"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ac81333516cc709ad31b41038f8bb82b8":[4,1,0,197,29],
+"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#acbaae3f5a97c9740596c9c9c0c32b213":[4,1,0,197,22],
+"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ad09b13686615868b3dd2ce5ea641991c":[4,1,0,197,3],
+"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ad39ffc2708698c9adea9e15674ff23d6":[4,1,0,197,0],
+"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ad5a50d7dc2cb23688ae5be9f859fc4c4":[4,1,0,197,6],
+"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ad6e6e19dab8939b5bd0fa66f4443af8c":[4,1,0,197,4],
+"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ad734fe1dcfca6fbb8d2c75d631f4f393":[4,1,0,197,24],
+"d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ad7dccfbcf8c2ea5076f01195d0f4e104":[4,1,0,197,17],
 "d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ada1341cd6210fa6d3e4f812008353d61":[4,1,0,197,1],
 "d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ae052f81c04c6eeb9716cfff8ebfc1665":[4,1,0,197,36],
 "d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ae1fe1c5aacdc49f5785e8dfdc8f9f5f5":[4,1,0,197,2],
@@ -55,11 +64,11 @@ var NAVTREEINDEX24 =
 "d6/dbd/classCardItem.html#aaea32d499d90c7fc724d407850a08ba3":[4,1,0,75,5],
 "d6/dbd/classCardItem.html#ab0fe58848e518dcee82a948c5571fe5a":[4,1,0,75,31],
 "d6/dbd/classCardItem.html#ab1845afef2d2d776c67dd262aba09a5c":[4,1,0,75,17],
+"d6/dbd/classCardItem.html#ab406049a44e376361f34dec030d99b8c":[4,1,0,75,3],
 "d6/dbd/classCardItem.html#ab86f1a9129d00fe46749dc3dcef5c184":[4,1,0,75,10],
 "d6/dbd/classCardItem.html#abcc171ca5ef4afef25bc24c562ae545d":[4,1,0,75,18],
 "d6/dbd/classCardItem.html#acb4fcedc760521deecfc097c788ff18b":[4,1,0,75,23],
 "d6/dbd/classCardItem.html#acbecb6f351d926d4938a0513f46e2c61":[4,1,0,75,42],
-"d6/dbd/classCardItem.html#ada82de5c00e99da16861e57ff78992d4":[4,1,0,75,3],
 "d6/dbd/classCardItem.html#ae0ce980658051236d858e6288d47567f":[4,1,0,75,40],
 "d6/dbd/classCardItem.html#ae0ef6c208674c039d5308b85fb4da8af":[4,1,0,75,36],
 "d6/dbd/classCardItem.html#ae13c2b8073c2d43190e08004d73fd8fa":[4,1,0,75,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX24 =
 "d6/ded/classDeckListHistoryManagerWidget.html#abbb4bc51e24be89a1fdb15449dd8ccd6":[4,1,0,122,0],
 "d6/ded/classDeckListHistoryManagerWidget.html#ad182d38b2a4c6a5f011f27797cfc8717":[4,1,0,122,13],
 "d6/ded/classDeckListHistoryManagerWidget.html#ae7757465242b3791dc6ef74a3e94c8f1":[4,1,0,122,3],
-"d6/ded/classDeckListHistoryManagerWidget.html#ae865f33a2eed630f3df3568918071d33":[4,1,0,122,4],
-"d6/dee/classDlgCreateGame.html":[4,1,0,150],
-"d6/dee/classDlgCreateGame.html#a033fadbb6103cc516078f99f255f6ac6":[4,1,0,150,16],
-"d6/dee/classDlgCreateGame.html#a06854a667040041fa30ebb4150fd7bf4":[4,1,0,150,23],
-"d6/dee/classDlgCreateGame.html#a1738205750508aa360824d90e3f5e1e4":[4,1,0,150,6],
-"d6/dee/classDlgCreateGame.html#a179341f7fb5cc54f95d96424bd378544":[4,1,0,150,10],
-"d6/dee/classDlgCreateGame.html#a1a6b75cec0fb759bab13da98e35ea0a1":[4,1,0,150,2],
-"d6/dee/classDlgCreateGame.html#a3089c705b966df79afc26479ef9eba8f":[4,1,0,150,17],
-"d6/dee/classDlgCreateGame.html#a38e8fdb0a4d192ba9ccdcb28e8e30407":[4,1,0,150,18],
-"d6/dee/classDlgCreateGame.html#a423d6d45cee6ef4648825fc9141a243e":[4,1,0,150,27]
+"d6/ded/classDeckListHistoryManagerWidget.html#ae865f33a2eed630f3df3568918071d33":[4,1,0,122,4]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX26 =
 {
+"d7/d62/classFilterTreeModel.html#addfdf3e16e4de8367249722346bc307a":[4,1,0,221,3],
+"d7/d62/classFilterTreeModel.html#af0b9987e10a471c166402265869613ad":[4,1,0,221,6],
+"d7/d62/classFilterTreeModel.html#af1fbb628068996d5e9824046ac0da47e":[4,1,0,221,2],
+"d7/d62/classFilterTreeModel.html#af6e2721ec44daa1857c88c8cd740f75c":[4,1,0,221,15],
+"d7/d62/classFilterTreeModel.html#afc9c10fd6eaef1a2cac8ea846301015a":[4,1,0,221,23],
+"d7/d64/editing_decks_printings.html":[0,0,2,2],
+"d7/d64/editing_decks_printings.html#pre-requisites-card-database":[0,0,2,2,2],
+"d7/d64/editing_decks_printings.html#pre-requisites-user-interface":[0,0,2,2,1],
+"d7/d64/editing_decks_printings.html#purpose":[0,0,2,2,0],
 "d7/d64/editing_decks_printings.html#using-the-printing-selector":[0,0,2,2,3],
 "d7/d65/server__abstractuserinterface_8cpp.html":[4,2,0,7,0,0,1,1,4],
 "d7/d66/card__database_8h.html":[4,2,0,2,0,0,0,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX26 =
 "d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,1,0,8,4],
 "d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,3,2,2,2,0,0,4],
 "d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,3,2,3,0,0,0,4],
-"d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,5,1,0,0,0,4],
-"d7/d9a/group__GameGraphicsPlayers.html":[3,4,0,4,0],
-"d7/d9b/flat__card__group__display__widget_8cpp.html":[4,2,0,0,1,5,3,0,1,2],
-"d7/d9f/classDeckEditorCardInfoDockWidget.html":[4,1,0,111],
-"d7/d9f/classDeckEditorCardInfoDockWidget.html#a061ca288fe4453dbf3ffe593229d18b9":[4,1,0,111,4],
-"d7/d9f/classDeckEditorCardInfoDockWidget.html#a26a025d732c047b4d5ab0c3926bc1aeb":[4,1,0,111,3],
-"d7/d9f/classDeckEditorCardInfoDockWidget.html#a45599e33504ec35d6e5d0ce0984bedc5":[4,1,0,111,0],
-"d7/d9f/classDeckEditorCardInfoDockWidget.html#a691d404088dfa11661a1eda00415bc1b":[4,1,0,111,1],
-"d7/d9f/classDeckEditorCardInfoDockWidget.html#a8d061f00b2a92b90491429085fb48450":[4,1,0,111,2],
-"d7/d9f/classDeckEditorCardInfoDockWidget.html#aed3b4c22866991d1308c6dbe6bf5fc62":[4,1,0,111,5]
+"d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,5,1,0,0,0,4]
 };

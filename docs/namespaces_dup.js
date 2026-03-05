@@ -84,5 +84,30 @@ var namespaces_dup =
     [ "QtUtils", "dc/d55/namespaceQtUtils.html", [
       [ "clearLayoutRec", "dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301", null ],
       [ "findParentOfType", "dc/d55/namespaceQtUtils.html#a573d4567ad2940b0f5fce244a0f585f6", null ]
+    ] ],
+    [ "ZValueLayerManager", "d7/dd1/namespaceZValueLayerManager.html", [
+      [ "Layer", "d7/dd1/namespaceZValueLayerManager.html#abbe88f12d743947441bb00e112b7b276", [
+        [ "Zone", "d7/dd1/namespaceZValueLayerManager.html#abbe88f12d743947441bb00e112b7b276ab3ff996fe5c77610359114835baf9b38", null ],
+        [ "Card", "d7/dd1/namespaceZValueLayerManager.html#abbe88f12d743947441bb00e112b7b276a1d565b9e5303987bb1b1938d5d458bca", null ],
+        [ "Overlay", "d7/dd1/namespaceZValueLayerManager.html#abbe88f12d743947441bb00e112b7b276a6b551379c3c0b59326abdaf3b4395bd3", null ]
+      ] ],
+      [ "isOverlayZValue", "d7/dd1/namespaceZValueLayerManager.html#a0379f95394cc09c3f198b8c7be4c3ab5", null ],
+      [ "isValidCardZValue", "d7/dd1/namespaceZValueLayerManager.html#ad9bba7bf3b723d6c351eb777b20e0c81", null ],
+      [ "overlayZValue", "d7/dd1/namespaceZValueLayerManager.html#ab52216e60456446efc9ff17d06ab096a", null ],
+      [ "CARD_Z_VALUE_MAX", "d7/dd1/namespaceZValueLayerManager.html#a0eaa03e83d1920f0baf851f7343af1b6", null ],
+      [ "OVERLAY_BASE", "d7/dd1/namespaceZValueLayerManager.html#aaa87f440a6135124996cf6b6187dd79b", null ]
+    ] ],
+    [ "ZValues", "db/dd0/namespaceZValues.html", [
+      [ "childDragZValue", "db/dd0/namespaceZValues.html#a1a02fe22a1ed985f5f6f7616721b0495", null ],
+      [ "tableCardZValue", "db/dd0/namespaceZValues.html#a6f3316eb7e37616311d07fb944899839", null ],
+      [ "ARROWS", "db/dd0/namespaceZValues.html#aa30902d3272b00212d1ca5e8aab61d7b", null ],
+      [ "CARD_BASE", "db/dd0/namespaceZValues.html#ae055c7a66b28131c6fae9eeed98fd2a0", null ],
+      [ "CARD_MAX", "db/dd0/namespaceZValues.html#a74359c1e4419d8882666c29a864d34b5", null ],
+      [ "DRAG_ITEM", "db/dd0/namespaceZValues.html#a0100b21235ef6ed874423c1af91d03ce", null ],
+      [ "DRAG_ITEM_CHILD", "db/dd0/namespaceZValues.html#a15d585d49f31e0ec4b1c9fb2b0b3d0e4", null ],
+      [ "HOVERED_CARD", "db/dd0/namespaceZValues.html#ad0bb88a91ef4dce372cb85454e2b9e76", null ],
+      [ "OVERLAY_BASE", "db/dd0/namespaceZValues.html#a90085b5d00562e034901223f3c1dee6f", null ],
+      [ "TOP_UI", "db/dd0/namespaceZValues.html#a1a772e487e4b1f77c0bcc05fe03b823b", null ],
+      [ "ZONE_VIEW_WIDGET", "db/dd0/namespaceZValues.html#a1dc3ee59867194c26254ded91098807c", null ]
     ] ]
 ];

@@ -109,6 +109,7 @@ var searchData=
   ['overlaplayout_106',['OverlapLayout',['../dd/d39/classOverlapLayout.html#aeabd9848d95ef089934adbfe43352ab7',1,'OverlapLayout']]],
   ['overlappedcardgroupdisplaywidget_107',['OverlappedCardGroupDisplayWidget',['../d4/d79/classOverlappedCardGroupDisplayWidget.html#ad2bc90456ba352a5f993f525ca5c080d',1,'OverlappedCardGroupDisplayWidget']]],
   ['overlapwidget_108',['OverlapWidget',['../de/d39/classOverlapWidget.html#a64477737de4a9f51fd2d922384d2f012',1,'OverlapWidget']]],
-  ['overrideallcardartwithpersonalpreferencechanged_109',['overrideAllCardArtWithPersonalPreferenceChanged',['../d5/d88/classSettingsCache.html#af844231548b1b4a0026dc371066ebd65',1,'SettingsCache']]],
-  ['overrideallcardartwithpersonalpreferencetoggled_110',['overrideAllCardArtWithPersonalPreferenceToggled',['../d8/dc5/classAppearanceSettingsPage.html#ad1ad2ef449dea13ec8efcd716e7d5bfe',1,'AppearanceSettingsPage']]]
+  ['overlayzvalue_109',['overlayZValue',['../d7/dd1/namespaceZValueLayerManager.html#ab52216e60456446efc9ff17d06ab096a',1,'ZValueLayerManager']]],
+  ['overrideallcardartwithpersonalpreferencechanged_110',['overrideAllCardArtWithPersonalPreferenceChanged',['../d5/d88/classSettingsCache.html#af844231548b1b4a0026dc371066ebd65',1,'SettingsCache']]],
+  ['overrideallcardartwithpersonalpreferencetoggled_111',['overrideAllCardArtWithPersonalPreferenceToggled',['../d8/dc5/classAppearanceSettingsPage.html#ad1ad2ef449dea13ec8efcd716e7d5bfe',1,'AppearanceSettingsPage']]]
 ];

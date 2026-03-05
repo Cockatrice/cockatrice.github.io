@@ -27,5 +27,7 @@ var dir_fcc53323f100f3840d6c8e04b287c6d3 =
     [ "phases_toolbar.cpp", "d8/d1f/phases__toolbar_8cpp.html", null ],
     [ "phases_toolbar.h", "d8/db1/phases__toolbar_8h.html", "d8/db1/phases__toolbar_8h" ],
     [ "replay.cpp", "d4/d8f/replay_8cpp.html", null ],
-    [ "replay.h", "dd/d02/replay_8h.html", "dd/d02/replay_8h" ]
+    [ "replay.h", "dd/d02/replay_8h.html", "dd/d02/replay_8h" ],
+    [ "z_value_layer_manager.h", "dd/d97/z__value__layer__manager_8h.html", "dd/d97/z__value__layer__manager_8h" ],
+    [ "z_values.h", "d2/d1d/z__values_8h.html", "d2/d1d/z__values_8h" ]
 ];

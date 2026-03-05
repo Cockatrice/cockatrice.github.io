@@ -1,5 +1,14 @@
 var NAVTREEINDEX25 =
 {
+"d6/dee/classDlgCreateGame.html":[4,1,0,150],
+"d6/dee/classDlgCreateGame.html#a033fadbb6103cc516078f99f255f6ac6":[4,1,0,150,16],
+"d6/dee/classDlgCreateGame.html#a06854a667040041fa30ebb4150fd7bf4":[4,1,0,150,23],
+"d6/dee/classDlgCreateGame.html#a1738205750508aa360824d90e3f5e1e4":[4,1,0,150,6],
+"d6/dee/classDlgCreateGame.html#a179341f7fb5cc54f95d96424bd378544":[4,1,0,150,10],
+"d6/dee/classDlgCreateGame.html#a1a6b75cec0fb759bab13da98e35ea0a1":[4,1,0,150,2],
+"d6/dee/classDlgCreateGame.html#a3089c705b966df79afc26479ef9eba8f":[4,1,0,150,17],
+"d6/dee/classDlgCreateGame.html#a38e8fdb0a4d192ba9ccdcb28e8e30407":[4,1,0,150,18],
+"d6/dee/classDlgCreateGame.html#a423d6d45cee6ef4648825fc9141a243e":[4,1,0,150,27],
 "d6/dee/classDlgCreateGame.html#a4db256fc2e1da3f04ed9e9ac4a31e9eb":[4,1,0,150,15],
 "d6/dee/classDlgCreateGame.html#a4ef79ff11cfd51824688916bd50974a6":[4,1,0,150,14],
 "d6/dee/classDlgCreateGame.html#a4fb25c80dead0d2539837402ea788027":[4,1,0,150,25],
@@ -240,14 +249,5 @@ var NAVTREEINDEX25 =
 "d7/d62/classFilterTreeModel.html#aa5e521a9e00d4b008336b0d0c10b1012":[4,1,0,221,21],
 "d7/d62/classFilterTreeModel.html#aa64e4e2244a9331a7fb979f9b21ec565":[4,1,0,221,8],
 "d7/d62/classFilterTreeModel.html#ab7f3271fe719cd999252c08e1583fc3b":[4,1,0,221,12],
-"d7/d62/classFilterTreeModel.html#ad955436a55633046930be6ba09287445":[4,1,0,221,1],
-"d7/d62/classFilterTreeModel.html#addfdf3e16e4de8367249722346bc307a":[4,1,0,221,3],
-"d7/d62/classFilterTreeModel.html#af0b9987e10a471c166402265869613ad":[4,1,0,221,6],
-"d7/d62/classFilterTreeModel.html#af1fbb628068996d5e9824046ac0da47e":[4,1,0,221,2],
-"d7/d62/classFilterTreeModel.html#af6e2721ec44daa1857c88c8cd740f75c":[4,1,0,221,15],
-"d7/d62/classFilterTreeModel.html#afc9c10fd6eaef1a2cac8ea846301015a":[4,1,0,221,23],
-"d7/d64/editing_decks_printings.html":[0,0,2,2],
-"d7/d64/editing_decks_printings.html#pre-requisites-card-database":[0,0,2,2,2],
-"d7/d64/editing_decks_printings.html#pre-requisites-user-interface":[0,0,2,2,1],
-"d7/d64/editing_decks_printings.html#purpose":[0,0,2,2,0]
+"d7/d62/classFilterTreeModel.html#ad955436a55633046930be6ba09287445":[4,1,0,221,1]
 };

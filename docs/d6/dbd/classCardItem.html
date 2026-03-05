@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-02-23-Development-2.11.0-beta.53</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-05-Development-2.11.0-beta.54</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -157,9 +157,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4580f14e9f633ac740ea1a5b80dd4fef" id="r_a4580f14e9f633ac740ea1a5b80dd4fef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4580f14e9f633ac740ea1a5b80dd4fef">removeAttachedCard</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card)</td></tr>
 <tr class="memitem:a2aff5b52f46a12d278d944e2612add26" id="r_a2aff5b52f46a12d278d944e2612add26"><td class="memItemLeft" align="right" valign="top">const QList&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aff5b52f46a12d278d944e2612add26">getAttachedCards</a> () const</td></tr>
 <tr class="memitem:a823be72654ee9bacdad7fda926a79438" id="r_a823be72654ee9bacdad7fda926a79438"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a823be72654ee9bacdad7fda926a79438">resetState</a> (bool keepAnnotations=false)</td></tr>
+<tr class="memdesc:a823be72654ee9bacdad7fda926a79438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the fields that should be reset after a zone transition.  <br /></td></tr>
 <tr class="memitem:a2d9c61384c103ee1bd879c269193fc17" id="r_a2d9c61384c103ee1bd879c269193fc17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d9c61384c103ee1bd879c269193fc17">processCardInfo</a> (const ServerInfo_Card &amp;_info)</td></tr>
 <tr class="memitem:afeb512c33421acc38c2de02d67ad2954" id="r_afeb512c33421acc38c2de02d67ad2954"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeb512c33421acc38c2de02d67ad2954">animationEvent</a> ()</td></tr>
-<tr class="memitem:ada82de5c00e99da16861e57ff78992d4" id="r_ada82de5c00e99da16861e57ff78992d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dd3/classCardDragItem.html">CardDragItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada82de5c00e99da16861e57ff78992d4">createDragItem</a> (int _id, const QPointF &amp;_pos, const QPointF &amp;_scenePos, bool faceDown)</td></tr>
+<tr class="memitem:ab406049a44e376361f34dec030d99b8c" id="r_ab406049a44e376361f34dec030d99b8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dd3/classCardDragItem.html">CardDragItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab406049a44e376361f34dec030d99b8c">createDragItem</a> (int _id, const QPointF &amp;_pos, const QPointF &amp;_scenePos, bool forceFaceDown)</td></tr>
 <tr class="memitem:a11a295fed06a249d59baacceafee7467" id="r_a11a295fed06a249d59baacceafee7467"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11a295fed06a249d59baacceafee7467">deleteDragItem</a> ()</td></tr>
 <tr class="memitem:af483c435c6182813559abb5ead70b5da" id="r_af483c435c6182813559abb5ead70b5da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af483c435c6182813559abb5ead70b5da">drawArrow</a> (const QColor &amp;arrowColor)</td></tr>
 <tr class="memitem:af16f26286e61733e8f42f9e14012f729" id="r_af16f26286e61733e8f42f9e14012f729"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af16f26286e61733e8f42f9e14012f729">drawAttachArrow</a> ()</td></tr>
@@ -389,8 +390,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ada82de5c00e99da16861e57ff78992d4" name="ada82de5c00e99da16861e57ff78992d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada82de5c00e99da16861e57ff78992d4">&#9670;&#160;</a></span>createDragItem()</h2>
+<a id="ab406049a44e376361f34dec030d99b8c" name="ab406049a44e376361f34dec030d99b8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab406049a44e376361f34dec030d99b8c">&#9670;&#160;</a></span>createDragItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -413,19 +414,19 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>faceDown</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>forceFaceDown</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dbd/classCardItem_ada82de5c00e99da16861e57ff78992d4_cgraph.svg" width="443" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dbd/classCardItem_ab406049a44e376361f34dec030d99b8c_cgraph.svg" width="443" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dbd/classCardItem_ada82de5c00e99da16861e57ff78992d4_icgraph.svg" width="458" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dbd/classCardItem_ab406049a44e376361f34dec030d99b8c_icgraph.svg" width="458" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1199,6 +1200,8 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Resets the fields that should be reset after a zone transition. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

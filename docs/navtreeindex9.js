@@ -1,5 +1,14 @@
 var NAVTREEINDEX9 =
 {
+"d2/d73/classBannerWidget.html#a1251888b1e98ccc658a1779e6148933c":[4,1,0,45,15],
+"d2/d73/classBannerWidget.html#a2c373a82328dbff984a203907e28bba4":[4,1,0,45,10],
+"d2/d73/classBannerWidget.html#a65c09129bdeeab9af411c0c2f03a1e6c":[4,1,0,45,14],
+"d2/d73/classBannerWidget.html#a7b9eddf290bcac74c51e681d2ebd2ee1":[4,1,0,45,11],
+"d2/d73/classBannerWidget.html#a80a09874156ce940818003fa253c944c":[4,1,0,45,4],
+"d2/d73/classBannerWidget.html#a8ccfc909c2c2d1882784d848a686e4d5":[4,1,0,45,1],
+"d2/d73/classBannerWidget.html#a8f587a6cbac77ef0ca326ef3c0f7d544":[4,1,0,45,2],
+"d2/d73/classBannerWidget.html#a9fa9da5d83d05e3bf364ac3efaaf0f36":[4,1,0,45,3],
+"d2/d73/classBannerWidget.html#ac5582c6ffa45687eafaa7080bc52cb9d":[4,1,0,45,8],
 "d2/d73/classBannerWidget.html#ada76d3f4d77fc9a7e4c7bf547692a735":[4,1,0,45,13],
 "d2/d73/classBannerWidget.html#adac67693fe988ebeb00d0e3b3a07d6f7":[4,1,0,45,7],
 "d2/d73/classBannerWidget.html#ae02e1da7b1df39660b9784731a36750c":[4,1,0,45,12],
@@ -240,14 +249,5 @@ var NAVTREEINDEX9 =
 "d2/dae/classMessagesSettingsPage.html#a3686336d80c32ec5c2db950388f29dd2":[4,1,0,297,2],
 "d2/dae/classMessagesSettingsPage.html#a36ee1d4d89b881a925e7150aef797d23":[4,1,0,297,23],
 "d2/dae/classMessagesSettingsPage.html#a41828ccd4d81021337767a0a3ffc5eb7":[4,1,0,297,11],
-"d2/dae/classMessagesSettingsPage.html#a426f3c1cc73ae4804de24632aef8c6a7":[4,1,0,297,26],
-"d2/dae/classMessagesSettingsPage.html#a47996c9f3c69dc1361bed2e7dcdac9c1":[4,1,0,297,7],
-"d2/dae/classMessagesSettingsPage.html#a47f6860c327d49d70663183ba9cd741c":[4,1,0,297,30],
-"d2/dae/classMessagesSettingsPage.html#a48f81818fe7c8d9c9228bd1d2ef28431":[4,1,0,297,1],
-"d2/dae/classMessagesSettingsPage.html#a52c685a70e8973859f5156c4a60b1862":[4,1,0,297,16],
-"d2/dae/classMessagesSettingsPage.html#a61b249bacc30293ed6ddacb2f5882b22":[4,1,0,297,12],
-"d2/dae/classMessagesSettingsPage.html#a63059793a049be0094e20a8037ebc95f":[4,1,0,297,8],
-"d2/dae/classMessagesSettingsPage.html#a71fbd5b02d9326edbdbbf9e9266d7156":[4,1,0,297,29],
-"d2/dae/classMessagesSettingsPage.html#a75f8483bd7d5d76a4a9c543c39e1a456":[4,1,0,297,33],
-"d2/dae/classMessagesSettingsPage.html#a7d44acf55592895de36f66d06eca759d":[4,1,0,297,17]
+"d2/dae/classMessagesSettingsPage.html#a426f3c1cc73ae4804de24632aef8c6a7":[4,1,0,297,26]
 };

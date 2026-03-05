@@ -21,6 +21,7 @@ var classWndSets =
     [ "closeEvent", "dd/d67/classWndSets.html#ae9a8ebad17b604271de155256d225fa9", null ],
     [ "includeRebalancedCardsChanged", "dd/d67/classWndSets.html#a638ca35b72aac668a118ee07105b6f79", null ],
     [ "rebuildMainLayout", "dd/d67/classWndSets.html#af90ac862dbcb6056008ddf4feb8bd182", null ],
+    [ "resetSort", "dd/d67/classWndSets.html#abb28b39d5cf784074f96b219961bc33e", null ],
     [ "saveHeaderState", "dd/d67/classWndSets.html#ab6397af0d05a834f4ad56eeebf4bc1b9", null ],
     [ "selectRows", "dd/d67/classWndSets.html#a94450a18f1e45470b548408e55a43c33", null ],
     [ "aBottom", "dd/d67/classWndSets.html#ab2cb7b803cc39c9356725b7e36714f0d", null ],

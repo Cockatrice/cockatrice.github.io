@@ -19,5 +19,6 @@ var classThemeManager =
     [ "themeChangedSlot", "da/d5a/classThemeManager.html#a7b4f23aecc7ce0b5f0d445a9eb5aebb6", null ],
     [ "availableThemes", "da/d5a/classThemeManager.html#afba19265134c4254852f085c1867d6f4", null ],
     [ "brushes", "da/d5a/classThemeManager.html#a626270ba2668d8bfd66ff39a95ac0b45", null ],
-    [ "brushesCache", "da/d5a/classThemeManager.html#a52e77439e7cd77ecea28db6b92db5823", null ]
+    [ "brushesCache", "da/d5a/classThemeManager.html#a52e77439e7cd77ecea28db6b92db5823", null ],
+    [ "defaultStyleName", "da/d5a/classThemeManager.html#a30da6d13fa5b57e3c97e0d72ae469b23", null ]
 ];

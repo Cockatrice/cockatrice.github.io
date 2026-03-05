@@ -1,5 +1,14 @@
 var NAVTREEINDEX10 =
 {
+"d2/dae/classMessagesSettingsPage.html#a47996c9f3c69dc1361bed2e7dcdac9c1":[4,1,0,297,7],
+"d2/dae/classMessagesSettingsPage.html#a47f6860c327d49d70663183ba9cd741c":[4,1,0,297,30],
+"d2/dae/classMessagesSettingsPage.html#a48f81818fe7c8d9c9228bd1d2ef28431":[4,1,0,297,1],
+"d2/dae/classMessagesSettingsPage.html#a52c685a70e8973859f5156c4a60b1862":[4,1,0,297,16],
+"d2/dae/classMessagesSettingsPage.html#a61b249bacc30293ed6ddacb2f5882b22":[4,1,0,297,12],
+"d2/dae/classMessagesSettingsPage.html#a63059793a049be0094e20a8037ebc95f":[4,1,0,297,8],
+"d2/dae/classMessagesSettingsPage.html#a71fbd5b02d9326edbdbbf9e9266d7156":[4,1,0,297,29],
+"d2/dae/classMessagesSettingsPage.html#a75f8483bd7d5d76a4a9c543c39e1a456":[4,1,0,297,33],
+"d2/dae/classMessagesSettingsPage.html#a7d44acf55592895de36f66d06eca759d":[4,1,0,297,17],
 "d2/dae/classMessagesSettingsPage.html#a88ea28ab185d34826cb5c39e7abc5859":[4,1,0,297,15],
 "d2/dae/classMessagesSettingsPage.html#a9b0002fd34ca939977b4f3a4c4f1516f":[4,1,0,297,10],
 "d2/dae/classMessagesSettingsPage.html#ab1839656958e871a6030e2067c888624":[4,1,0,297,24],
@@ -240,14 +249,5 @@ var NAVTREEINDEX10 =
 "d3/d21/classDlgLoadDeck.html#a58e4a81ae83eec9fcfb98cee3366fa92":[4,1,0,162,0],
 "d3/d21/classDlgLoadDeck.html#afa961179b40728ced599640d7a50b546":[4,1,0,162,1],
 "d3/d21/classNoopCardSetPriorityController.html":[4,1,0,303],
-"d3/d21/classNoopCardSetPriorityController.html#a122b58aff9613d8ac5ed15df0ee44149":[4,1,0,303,0],
-"d3/d21/classNoopCardSetPriorityController.html#a27cf913e42a8f7a193ff8ae60a958e48":[4,1,0,303,3],
-"d3/d21/classNoopCardSetPriorityController.html#a4a8a757dd2ba4a1979b63473cc25606f":[4,1,0,303,2],
-"d3/d21/classNoopCardSetPriorityController.html#a8b21c912e0af3653f73c9097d1be58be":[4,1,0,303,5],
-"d3/d21/classNoopCardSetPriorityController.html#ae1df6dd022f841a52d73e4b970dc7d31":[4,1,0,303,1],
-"d3/d21/classNoopCardSetPriorityController.html#af432ef2cbc7434da3837a08cb92bbc80":[4,1,0,303,4],
-"d3/d21/local__client_8h.html":[3,5,1,7],
-"d3/d22/player__target_8cpp.html":[4,2,0,0,1,3,4,19],
-"d3/d23/printing__selector__card__overlay__widget_8cpp.html":[4,2,0,0,1,5,3,6,8],
-"d3/d2c/classServer__Spectator.html":[4,1,0,406]
+"d3/d21/classNoopCardSetPriorityController.html#a122b58aff9613d8ac5ed15df0ee44149":[4,1,0,303,0]
 };
