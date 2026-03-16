@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-05-Development-2.11.0-beta.54</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-16-Development-2.11.0-beta.55</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -133,7 +133,7 @@ Public Slots</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:aed1c8cf2917daa1dd9804199703d2230" id="r_aed1c8cf2917daa1dd9804199703d2230"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed1c8cf2917daa1dd9804199703d2230">sigStartRubberBand</a> (const QPointF &amp;selectionOrigin)</td></tr>
-<tr class="memitem:aadffba189e107f5abdde59a7dc6f7151" id="r_aadffba189e107f5abdde59a7dc6f7151"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadffba189e107f5abdde59a7dc6f7151">sigResizeRubberBand</a> (const QPointF &amp;cursorPoint)</td></tr>
+<tr class="memitem:addb2c100ae95c4ed3dd3adf33761a1e2" id="r_addb2c100ae95c4ed3dd3adf33761a1e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addb2c100ae95c4ed3dd3adf33761a1e2">sigResizeRubberBand</a> (const QPointF &amp;cursorPoint, int selectedCount)</td></tr>
 <tr class="memitem:a14d5156fc82bee42b44b5390f8877439" id="r_a14d5156fc82bee42b44b5390f8877439"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14d5156fc82bee42b44b5390f8877439">sigStopRubberBand</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -169,7 +169,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa80898fcd516dd3ff2d9fdf0f9de8c2e" id="r_aa80898fcd516dd3ff2d9fdf0f9de8c2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa80898fcd516dd3ff2d9fdf0f9de8c2e">registerAnimationItem</a> (<a class="el" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a> *card)</td></tr>
 <tr class="memitem:abc98ace010c7cfd39370972db7636df9" id="r_abc98ace010c7cfd39370972db7636df9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc98ace010c7cfd39370972db7636df9">unregisterAnimationItem</a> (<a class="el" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a> *card)</td></tr>
 <tr class="memitem:a2fb90682de067644f5eb5fe3ddc09981" id="r_a2fb90682de067644f5eb5fe3ddc09981"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fb90682de067644f5eb5fe3ddc09981">startRubberBand</a> (const QPointF &amp;selectionOrigin)</td></tr>
-<tr class="memitem:a9b430ae7756e825203b3e0c8601b16aa" id="r_a9b430ae7756e825203b3e0c8601b16aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b430ae7756e825203b3e0c8601b16aa">resizeRubberBand</a> (const QPointF &amp;cursorPoint)</td></tr>
+<tr class="memitem:a27c7a695579cfc03d43a8744b270ddc0" id="r_a27c7a695579cfc03d43a8744b270ddc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27c7a695579cfc03d43a8744b270ddc0">resizeRubberBand</a> (const QPointF &amp;cursorPoint, int selectedCount)</td></tr>
 <tr class="memitem:a76c1eb9524989d20a99da4e3d8423f24" id="r_a76c1eb9524989d20a99da4e3d8423f24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76c1eb9524989d20a99da4e3d8423f24">stopRubberBand</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -1052,8 +1052,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a9b430ae7756e825203b3e0c8601b16aa" name="a9b430ae7756e825203b3e0c8601b16aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b430ae7756e825203b3e0c8601b16aa">&#9670;&#160;</a></span>resizeRubberBand()</h2>
+<a id="a27c7a695579cfc03d43a8744b270ddc0" name="a27c7a695579cfc03d43a8744b270ddc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27c7a695579cfc03d43a8744b270ddc0">&#9670;&#160;</a></span>resizeRubberBand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1061,15 +1061,19 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameScene::resizeRubberBand </td>
           <td>(</td>
-          <td class="paramtype">const QPointF &amp;</td>          <td class="paramname"><span class="paramname"><em>cursorPoint</em></span></td><td>)</td>
+          <td class="paramtype">const QPointF &amp;</td>          <td class="paramname"><span class="paramname"><em>cursorPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>selectedCount</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a9b430ae7756e825203b3e0c8601b16aa_cgraph.svg" width="535" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a27c7a695579cfc03d43a8744b270ddc0_cgraph.svg" width="535" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1139,8 +1143,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aadffba189e107f5abdde59a7dc6f7151" name="aadffba189e107f5abdde59a7dc6f7151"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadffba189e107f5abdde59a7dc6f7151">&#9670;&#160;</a></span>sigResizeRubberBand</h2>
+<a id="addb2c100ae95c4ed3dd3adf33761a1e2" name="addb2c100ae95c4ed3dd3adf33761a1e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addb2c100ae95c4ed3dd3adf33761a1e2">&#9670;&#160;</a></span>sigResizeRubberBand</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1151,8 +1155,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameScene::sigResizeRubberBand </td>
           <td>(</td>
-          <td class="paramtype">const QPointF &amp;</td>          <td class="paramname"><span class="paramname"><em>cursorPoint</em></span></td><td>)</td>
+          <td class="paramtype">const QPointF &amp;</td>          <td class="paramname"><span class="paramname"><em>cursorPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>selectedCount</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1164,7 +1172,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_aadffba189e107f5abdde59a7dc6f7151_icgraph.svg" width="535" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_addb2c100ae95c4ed3dd3adf33761a1e2_icgraph.svg" width="535" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

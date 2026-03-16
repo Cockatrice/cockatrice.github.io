@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-05-Development-2.11.0-beta.54</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-16-Development-2.11.0-beta.55</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -127,14 +127,17 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a0484c4a636ff34e53a8c64306e2056b4" id="r_a0484c4a636ff34e53a8c64306e2056b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0484c4a636ff34e53a8c64306e2056b4">startRubberBand</a> (const QPointF &amp;<a class="el" href="#a164090d52174007030aa241c6947736c">selectionOrigin</a>)</td></tr>
-<tr class="memitem:a1ef72afeedfb5d00669b9c0693a332d5" id="r_a1ef72afeedfb5d00669b9c0693a332d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ef72afeedfb5d00669b9c0693a332d5">resizeRubberBand</a> (const QPointF &amp;cursorPoint)</td></tr>
+<tr class="memitem:af70c41824588dc223d5a9a17ddba21d7" id="r_af70c41824588dc223d5a9a17ddba21d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af70c41824588dc223d5a9a17ddba21d7">resizeRubberBand</a> (const QPointF &amp;cursorPoint, int selectedCount)</td></tr>
 <tr class="memitem:aef251a480bd3a38b4e2f2d4d00468288" id="r_aef251a480bd3a38b4e2f2d4d00468288"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef251a480bd3a38b4e2f2d4d00468288">stopRubberBand</a> ()</td></tr>
 <tr class="memitem:a8a3d82be993acfd2d7248aebba7a96eb" id="r_a8a3d82be993acfd2d7248aebba7a96eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a3d82be993acfd2d7248aebba7a96eb">refreshShortcuts</a> ()</td></tr>
+<tr class="memitem:a1ebfe38d0d7392e1ed1430cecda6e822" id="r_a1ebfe38d0d7392e1ed1430cecda6e822"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ebfe38d0d7392e1ed1430cecda6e822">updateTotalSelectionCount</a> (const QSize &amp;viewSize=QSize())</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a9a832d7fe17ada6fafebaa5d3310cbb6" id="r_a9a832d7fe17ada6fafebaa5d3310cbb6"><td class="memItemLeft" align="right" valign="top">QAction *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a832d7fe17ada6fafebaa5d3310cbb6">aCloseMostRecentZoneView</a></td></tr>
 <tr class="memitem:a72006182f4b439a2404bc4d78d912bc6" id="r_a72006182f4b439a2404bc4d78d912bc6"><td class="memItemLeft" align="right" valign="top">QRubberBand *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72006182f4b439a2404bc4d78d912bc6">rubberBand</a></td></tr>
+<tr class="memitem:a9673b6ffdf2ee664544b7cc02da684fe" id="r_a9673b6ffdf2ee664544b7cc02da684fe"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9673b6ffdf2ee664544b7cc02da684fe">dragCountLabel</a></td></tr>
+<tr class="memitem:abb199d16bf452a795673a2ab8ade90eb" id="r_abb199d16bf452a795673a2ab8ade90eb"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb199d16bf452a795673a2ab8ade90eb">totalCountLabel</a></td></tr>
 <tr class="memitem:a164090d52174007030aa241c6947736c" id="r_a164090d52174007030aa241c6947736c"><td class="memItemLeft" align="right" valign="top">QPointF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a164090d52174007030aa241c6947736c">selectionOrigin</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -233,13 +236,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d97/classGameView_abe5a1c8430b6b874b107dcfd9ce892eb_cgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d97/classGameView_abe5a1c8430b6b874b107dcfd9ce892eb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a1ef72afeedfb5d00669b9c0693a332d5" name="a1ef72afeedfb5d00669b9c0693a332d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ef72afeedfb5d00669b9c0693a332d5">&#9670;&#160;</a></span>resizeRubberBand</h2>
+<a id="af70c41824588dc223d5a9a17ddba21d7" name="af70c41824588dc223d5a9a17ddba21d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af70c41824588dc223d5a9a17ddba21d7">&#9670;&#160;</a></span>resizeRubberBand</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,8 +253,12 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void GameView::resizeRubberBand </td>
           <td>(</td>
-          <td class="paramtype">const QPointF &amp;</td>          <td class="paramname"><span class="paramname"><em>cursorPoint</em></span></td><td>)</td>
+          <td class="paramtype">const QPointF &amp;</td>          <td class="paramname"><span class="paramname"><em>cursorPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>selectedCount</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -261,9 +268,14 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d97/classGameView_af70c41824588dc223d5a9a17ddba21d7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d97/classGameView_a1ef72afeedfb5d00669b9c0693a332d5_icgraph.svg" width="448" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d97/classGameView_af70c41824588dc223d5a9a17ddba21d7_icgraph.svg" width="448" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -358,6 +370,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a1ebfe38d0d7392e1ed1430cecda6e822" name="a1ebfe38d0d7392e1ed1430cecda6e822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ebfe38d0d7392e1ed1430cecda6e822">&#9670;&#160;</a></span>updateTotalSelectionCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameView::updateTotalSelectionCount </td>
+          <td>(</td>
+          <td class="paramtype">const QSize &amp;</td>          <td class="paramname"><span class="paramname"><em>viewSize</em></span><span class="paramdefsep"> = </span><span class="paramdefval">QSize()</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d97/classGameView_a1ebfe38d0d7392e1ed1430cecda6e822_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d97/classGameView_a1ebfe38d0d7392e1ed1430cecda6e822_icgraph.svg" width="471" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a9a832d7fe17ada6fafebaa5d3310cbb6" name="a9a832d7fe17ada6fafebaa5d3310cbb6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a832d7fe17ada6fafebaa5d3310cbb6">&#9670;&#160;</a></span>aCloseMostRecentZoneView</h2>
@@ -370,6 +417,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QAction* GameView::aCloseMostRecentZoneView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9673b6ffdf2ee664544b7cc02da684fe" name="a9673b6ffdf2ee664544b7cc02da684fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9673b6ffdf2ee664544b7cc02da684fe">&#9670;&#160;</a></span>dragCountLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* GameView::dragCountLabel</td>
         </tr>
       </table>
   </td>
@@ -414,6 +483,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QPointF GameView::selectionOrigin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb199d16bf452a795673a2ab8ade90eb" name="abb199d16bf452a795673a2ab8ade90eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb199d16bf452a795673a2ab8ade90eb">&#9670;&#160;</a></span>totalCountLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* GameView::totalCountLabel</td>
         </tr>
       </table>
   </td>

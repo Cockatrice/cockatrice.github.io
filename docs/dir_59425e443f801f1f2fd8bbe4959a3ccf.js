@@ -1,5 +1,6 @@
 var dir_59425e443f801f1f2fd8bbe4959a3ccf =
 [
+    [ "card_zone_algorithms", "dir_8f4b2aea3386f9b38fbc7d7881941e11.html", "dir_8f4b2aea3386f9b38fbc7d7881941e11" ],
     [ "carddatabase", "dir_b0c312031cf4adbf4e3892130f945cb7.html", "dir_b0c312031cf4adbf4e3892130f945cb7" ],
     [ "loading_from_clipboard", "dir_49a5d6cd8e873f8b8495355f4c6e645e.html", "dir_49a5d6cd8e873f8b8495355f4c6e645e" ],
     [ "oracle", "dir_4809c84f5830e36eebe036e24e28adf5.html", "dir_4809c84f5830e36eebe036e24e28adf5" ],

@@ -22,6 +22,8 @@ var classUserInterfaceSettingsPage =
     [ "replayGroupBox", "d2/d2d/classUserInterfaceSettingsPage.html#aab9c333ef9bad2a6f85200e1d0076271", null ],
     [ "rewindBufferingMsBox", "d2/d2d/classUserInterfaceSettingsPage.html#a5315a84f04f1b47426e3cb2eeb79e971", null ],
     [ "rewindBufferingMsLabel", "d2/d2d/classUserInterfaceSettingsPage.html#aca92102d22044d8d6a57b122d715e8e9", null ],
+    [ "showDragSelectionCountCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#a58e204c5ee9093957eeb687ebc564a12", null ],
+    [ "showTotalSelectionCountCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#ae6421861a46067dddbb03e38505c7c20", null ],
     [ "specNotificationsEnabledCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#a441ba5c881b6dbcb4d3f72befb54a979", null ],
     [ "tapAnimationCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#abf622b725c9ef08ab7f4ed54183306bd", null ],
     [ "useTearOffMenusCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#a00aa1c1a44f3b623d76fa97bcd26b0ba", null ],

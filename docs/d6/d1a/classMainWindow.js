@@ -68,7 +68,7 @@ var classMainWindow =
     [ "setConnectTo", "d6/d1a/classMainWindow.html#a0d6d64388ba3e386c3ccf1e9531c4f61", null ],
     [ "showWindowIfHidden", "d6/d1a/classMainWindow.html#a120eacfe4a66d36e657d1eca1d833b45", null ],
     [ "socketError", "d6/d1a/classMainWindow.html#ad6cdfe7201b0cc261ed2e30b1cc96bea", null ],
-    [ "startLocalGame", "d6/d1a/classMainWindow.html#acc188a1a4b444b8690943b3693cdcf5c", null ],
+    [ "startLocalGame", "d6/d1a/classMainWindow.html#a5c472eb48650fd85bdf90633585d4f4e", null ],
     [ "startupConfigCheck", "d6/d1a/classMainWindow.html#ab9bcbb634d82332732230028d2e3f2f5", null ],
     [ "statusChanged", "d6/d1a/classMainWindow.html#ad5ab8fcf40c9f96ba98b334da4f79397", null ],
     [ "updateTabMenu", "d6/d1a/classMainWindow.html#a61667a34c3f793441a4c720b71b1bb94", null ],

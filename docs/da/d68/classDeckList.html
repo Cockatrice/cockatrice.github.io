@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-05-Development-2.11.0-beta.54</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-16-Development-2.11.0-beta.55</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -161,8 +161,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8df3b058ff21ffcb90d6bf524cebd2c1" id="r_a8df3b058ff21ffcb90d6bf524cebd2c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8df3b058ff21ffcb90d6bf524cebd2c1">loadFromFile_Native</a> (QIODevice *device)</td></tr>
 <tr class="memitem:a4db0ab66583b74a417a82c661b958c9b" id="r_a4db0ab66583b74a417a82c661b958c9b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4db0ab66583b74a417a82c661b958c9b">saveToFile_Native</a> (QIODevice *device) const</td></tr>
 <tr id="pub-methods-4" class="groupHeader"><td colspan="2"><div class="groupHeader">Serialization (Plain text)</div></td></tr>
-<tr class="memitem:ad0a59ff0fd21322f9557c0ac1871a733" id="r_ad0a59ff0fd21322f9557c0ac1871a733"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0a59ff0fd21322f9557c0ac1871a733">loadFromStream_Plain</a> (QTextStream &amp;stream, bool preserveMetadata)</td></tr>
-<tr class="memitem:aa79686a554e5c503baa2310e8617088e" id="r_aa79686a554e5c503baa2310e8617088e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa79686a554e5c503baa2310e8617088e">loadFromFile_Plain</a> (QIODevice *device)</td></tr>
+<tr class="memitem:af067641c4cd0fceeaac592a4a5b48572" id="r_af067641c4cd0fceeaac592a4a5b48572"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af067641c4cd0fceeaac592a4a5b48572">loadFromStream_Plain</a> (QTextStream &amp;stream, bool preserveMetadata, const std::function&lt; QString(const QString &amp;)&gt; &amp;cardNameNormalizer)</td></tr>
+<tr class="memitem:a767977a643f6fc5c1b5bfca2b3f21515" id="r_a767977a643f6fc5c1b5bfca2b3f21515"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a767977a643f6fc5c1b5bfca2b3f21515">loadFromFile_Plain</a> (QIODevice *device, const std::function&lt; QString(const QString &amp;)&gt; &amp;cardNameNormalizer)</td></tr>
 <tr class="memitem:ad2e03d9aa659732905514d8bc4a0f1f9" id="r_ad2e03d9aa659732905514d8bc4a0f1f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2e03d9aa659732905514d8bc4a0f1f9">saveToStream_Plain</a> (QTextStream &amp;stream, bool prefixSideboardCards, bool slashTappedOutSplitCards) const</td></tr>
 <tr class="memitem:a17a48cae68974337aa44792677a0e0b9" id="r_a17a48cae68974337aa44792677a0e0b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17a48cae68974337aa44792677a0e0b9">saveToFile_Plain</a> (QIODevice *device, bool prefixSideboardCards=true, bool slashTappedOutSplitCards=false) const</td></tr>
 <tr class="memitem:ab8a20fd18e8bec39bd5148a80fca5248" id="r_ab8a20fd18e8bec39bd5148a80fca5248"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8a20fd18e8bec39bd5148a80fca5248">writeToString_Plain</a> (bool prefixSideboardCards=true, bool slashTappedOutSplitCards=false) const</td></tr>
@@ -222,7 +222,7 @@ Example workflow:</h3>
 <div class="ttc" id="aclassDeckList_html_a0c593080d57c8d9a87a03d610701e2c8"><div class="ttname"><a href="#a0c593080d57c8d9a87a03d610701e2c8">DeckList::addTag</a></div><div class="ttdeci">void addTag(const QString &amp;_tag)</div><div class="ttdef"><b>Definition</b> deck_list.h:106</div></div>
 <div class="ttc" id="aclassDeckList_html_a4db0ab66583b74a417a82c661b958c9b"><div class="ttname"><a href="#a4db0ab66583b74a417a82c661b958c9b">DeckList::saveToFile_Native</a></div><div class="ttdeci">bool saveToFile_Native(QIODevice *device) const</div><div class="ttdef"><b>Definition</b> deck_list.cpp:185</div></div>
 <div class="ttc" id="aclassDeckList_html_a60b845c8edd7b5e01e5ed7a90591ea8f"><div class="ttname"><a href="#a60b845c8edd7b5e01e5ed7a90591ea8f">DeckList::DeckList</a></div><div class="ttdeci">DeckList()</div><div class="ttdoc">Construct an empty deck.</div><div class="ttdef"><b>Definition</b> deck_list.cpp:31</div></div>
-<div class="ttc" id="aclassDeckList_html_ae59e29e363c6979ebaac6347d07a09ae"><div class="ttname"><a href="#ae59e29e363c6979ebaac6347d07a09ae">DeckList::addCard</a></div><div class="ttdeci">DecklistCardNode * addCard(const QString &amp;cardName, const QString &amp;zoneName, int position=-1, const QString &amp;cardSetName=QString(), const QString &amp;cardSetCollectorNumber=QString(), const QString &amp;cardProviderId=QString(), const bool formatLegal=true)</div><div class="ttdef"><b>Definition</b> deck_list.cpp:484</div></div>
+<div class="ttc" id="aclassDeckList_html_ae59e29e363c6979ebaac6347d07a09ae"><div class="ttname"><a href="#ae59e29e363c6979ebaac6347d07a09ae">DeckList::addCard</a></div><div class="ttdeci">DecklistCardNode * addCard(const QString &amp;cardName, const QString &amp;zoneName, int position=-1, const QString &amp;cardSetName=QString(), const QString &amp;cardSetCollectorNumber=QString(), const QString &amp;cardProviderId=QString(), const bool formatLegal=true)</div><div class="ttdef"><b>Definition</b> deck_list.cpp:457</div></div>
 <div class="ttc" id="aclassDeckList_html_afa7f023276656ecfe4f8df74cbebbbd4"><div class="ttname"><a href="#afa7f023276656ecfe4f8df74cbebbbd4">DeckList::setName</a></div><div class="ttdeci">void setName(const QString &amp;_name=QString())</div><div class="ttdef"><b>Definition</b> deck_list.h:94</div></div>
 </div><!-- fragment --> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a60b845c8edd7b5e01e5ed7a90591ea8f" name="a60b845c8edd7b5e01e5ed7a90591ea8f"></a>
@@ -987,8 +987,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aa79686a554e5c503baa2310e8617088e" name="aa79686a554e5c503baa2310e8617088e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa79686a554e5c503baa2310e8617088e">&#9670;&#160;</a></span>loadFromFile_Plain()</h2>
+<a id="a767977a643f6fc5c1b5bfca2b3f21515" name="a767977a643f6fc5c1b5bfca2b3f21515"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a767977a643f6fc5c1b5bfca2b3f21515">&#9670;&#160;</a></span>loadFromFile_Plain()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -996,26 +996,30 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">bool DeckList::loadFromFile_Plain </td>
           <td>(</td>
-          <td class="paramtype">QIODevice *</td>          <td class="paramname"><span class="paramname"><em>device</em></span></td><td>)</td>
+          <td class="paramtype">QIODevice *</td>          <td class="paramname"><span class="paramname"><em>device</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::function&lt; QString(const QString &amp;)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cardNameNormalizer</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d68/classDeckList_aa79686a554e5c503baa2310e8617088e_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d68/classDeckList_a767977a643f6fc5c1b5bfca2b3f21515_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d68/classDeckList_aa79686a554e5c503baa2310e8617088e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d68/classDeckList_a767977a643f6fc5c1b5bfca2b3f21515_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="ad0a59ff0fd21322f9557c0ac1871a733" name="ad0a59ff0fd21322f9557c0ac1871a733"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0a59ff0fd21322f9557c0ac1871a733">&#9670;&#160;</a></span>loadFromStream_Plain()</h2>
+<a id="af067641c4cd0fceeaac592a4a5b48572" name="af067641c4cd0fceeaac592a4a5b48572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af067641c4cd0fceeaac592a4a5b48572">&#9670;&#160;</a></span>loadFromStream_Plain()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1028,7 +1032,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>preserveMetadata</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>preserveMetadata</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; QString(const QString &amp;)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cardNameNormalizer</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1037,6 +1046,7 @@ Here is the caller graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">in</td><td>The text to load </td></tr>
     <tr><td class="paramname">preserveMetadata</td><td>If true, don't clear the existing metadata </td></tr>
+    <tr><td class="paramname">cardNameNormalizer</td><td>Function that takes the parsed card name string in the text and </td></tr>
   </table>
   </dd>
 </dl>
@@ -1044,12 +1054,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d68/classDeckList_ad0a59ff0fd21322f9557c0ac1871a733_cgraph.svg" width="644" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d68/classDeckList_af067641c4cd0fceeaac592a4a5b48572_cgraph.svg" width="644" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d68/classDeckList_ad0a59ff0fd21322f9557c0ac1871a733_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d68/classDeckList_af067641c4cd0fceeaac592a4a5b48572_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

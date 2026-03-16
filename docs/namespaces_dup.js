@@ -33,7 +33,18 @@ var namespaces_dup =
       [ "formatToApiName", "dc/d95/namespaceArchidektFormats.html#a1a163460305496ade5ce5e6747960017", null ],
       [ "formatToCockatriceName", "dc/d95/namespaceArchidektFormats.html#aaf6f587210cecf39d83ae062cc6970b6", null ]
     ] ],
+    [ "CardDimensions", "d2/da1/namespaceCardDimensions.html", [
+      [ "HEIGHT", "d2/da1/namespaceCardDimensions.html#a64b8d017e832580bb3e8d611b33ffe8b", null ],
+      [ "HEIGHT_F", "d2/da1/namespaceCardDimensions.html#a9fce11f3e977f6088d93114896d4921d", null ],
+      [ "HEIGHT_HALF_F", "d2/da1/namespaceCardDimensions.html#a1ea07cf02637f6b5d22d4ddd8bd025f5", null ],
+      [ "WIDTH", "d2/da1/namespaceCardDimensions.html#a7742a945c1334067aa6778c6b5920362", null ],
+      [ "WIDTH_F", "d2/da1/namespaceCardDimensions.html#ab003b0b6934b4b1461a5633bcf478b42", null ],
+      [ "WIDTH_HALF_F", "d2/da1/namespaceCardDimensions.html#a8721cfc0b18eaf599e56502609a4a9de", null ]
+    ] ],
     [ "CardNodeFunction", "dd/d5d/namespaceCardNodeFunction.html", "dd/d5d/namespaceCardNodeFunction" ],
+    [ "CardZoneAlgorithms", "df/df0/namespaceCardZoneAlgorithms.html", [
+      [ "addCardToList", "df/df0/namespaceCardZoneAlgorithms.html#a05ec47bef01054c1f69e4ab3ab9d2c9f", null ]
+    ] ],
     [ "DeckFileFormat", "d4/d60/namespaceDeckFileFormat.html", [
       [ "Format", "d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945", [
         [ "PlainText", "d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945a13d9fc7e92cd6d8d9e62035b3b864fa6", null ],
@@ -84,6 +95,15 @@ var namespaces_dup =
     [ "QtUtils", "dc/d55/namespaceQtUtils.html", [
       [ "clearLayoutRec", "dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301", null ],
       [ "findParentOfType", "dc/d55/namespaceQtUtils.html#a573d4567ad2940b0f5fce244a0f585f6", null ]
+    ] ],
+    [ "ZoneNames", "d0/d0f/namespaceZoneNames.html", [
+      [ "DECK", "d0/d0f/namespaceZoneNames.html#af8d05d4775040388288c9177ab4dfbf1", null ],
+      [ "EXILE", "d0/d0f/namespaceZoneNames.html#a73b2c9dd3403d532ce61640bac994833", null ],
+      [ "GRAVE", "d0/d0f/namespaceZoneNames.html#affc564611591bdbc5cc16a298a1dc778", null ],
+      [ "HAND", "d0/d0f/namespaceZoneNames.html#ac40890f06a782f269b35e7f4962d418c", null ],
+      [ "SIDEBOARD", "d0/d0f/namespaceZoneNames.html#a8710e03d563dd27bded2442a170a80f4", null ],
+      [ "STACK", "d0/d0f/namespaceZoneNames.html#af0c491aba6447de922787adec747a49a", null ],
+      [ "TABLE", "d0/d0f/namespaceZoneNames.html#a579ad55f528f47eae6736b88e6010d7e", null ]
     ] ],
     [ "ZValueLayerManager", "d7/dd1/namespaceZValueLayerManager.html", [
       [ "Layer", "d7/dd1/namespaceZValueLayerManager.html#abbe88f12d743947441bb00e112b7b276", [

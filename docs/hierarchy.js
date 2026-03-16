@@ -30,6 +30,7 @@ var hierarchy =
     [ "CardCondition", "d3/d64/structCardCondition.html", null ],
     [ "CardDatabaseManager", "dc/db4/classCardDatabaseManager.html", null ],
     [ "CardInfoComparator", "d8/d3f/classCardInfoComparator.html", null ],
+    [ "CardNameNormalizer", "d0/d7f/structCardNameNormalizer.html", null ],
     [ "CardPictureToLoad", "da/da3/classCardPictureToLoad.html", null ],
     [ "CardPrices", "d3/dab/classCardPrices.html", null ],
     [ "CardRef", "d1/d66/structCardRef.html", null ],
@@ -126,12 +127,16 @@ var hierarchy =
     [ "CardSetList::KeyCompareFunctor", "da/d79/classCardSetList_1_1KeyCompareFunctor.html", null ],
     [ "LoadedDeck", "d9/dc2/structLoadedDeck.html", null ],
     [ "LoadedDeck::LoadInfo", "d4/d0d/structLoadedDeck_1_1LoadInfo.html", null ],
+    [ "LocalGameOptions", "d9/de7/structLocalGameOptions.html", null ],
     [ "LockPixmapGenerator", "dd/dd6/classLockPixmapGenerator.html", null ],
     [ "ManaBaseConfig", "dd/db2/structManaBaseConfig.html", null ],
     [ "ManaCurveConfig", "d6/d55/structManaCurveConfig.html", null ],
     [ "ManaDevotionConfig", "d5/d54/structManaDevotionConfig.html", null ],
     [ "ManaDistributionConfig", "d7/d68/structManaDistributionConfig.html", null ],
     [ "DeckList::Metadata", "d3/de4/structDeckList_1_1Metadata.html", null ],
+    [ "MockCard", "db/d6b/structMockCard.html", null ],
+    [ "MockCardList", "db/dc5/classMockCardList.html", null ],
+    [ "MockCardRef", "d6/d3b/structMockCardRef.html", null ],
     [ "MoveCardStruct", "d1/d62/structMoveCardStruct.html", null ],
     [ "RemoteDeckList_TreeModel::Node", "da/d72/classRemoteDeckList__TreeModel_1_1Node.html", [
       [ "RemoteDeckList_TreeModel::DirectoryNode", "dc/d19/classRemoteDeckList__TreeModel_1_1DirectoryNode.html", null ],
@@ -220,6 +225,7 @@ var hierarchy =
       [ "DlgForgotPasswordReset", "d3/d9b/classDlgForgotPasswordReset.html", null ],
       [ "DlgLoadDeckFromWebsite", "d9/d2f/classDlgLoadDeckFromWebsite.html", null ],
       [ "DlgLoadRemoteDeck", "d5/ddc/classDlgLoadRemoteDeck.html", null ],
+      [ "DlgLocalGameOptions", "d6/d68/classDlgLocalGameOptions.html", null ],
       [ "DlgMoveTopCardsUntil", "dc/d90/classDlgMoveTopCardsUntil.html", null ],
       [ "DlgRegister", "d0/d9e/classDlgRegister.html", null ],
       [ "DlgRollDice", "df/dfc/classDlgRollDice.html", null ],
@@ -525,6 +531,9 @@ var hierarchy =
       [ "HomeStyledButton", "d4/d42/classHomeStyledButton.html", null ],
       [ "ToggleButton", "d0/d90/classToggleButton.html", null ]
     ] ],
+    [ "QRubberBand", null, [
+      [ "SelectionRubberBand", "df/d64/classSelectionRubberBand.html", null ]
+    ] ],
     [ "QSettings", null, [
       [ "SettingsCache", "d5/d88/classSettingsCache.html", null ]
     ] ],
@@ -753,6 +762,9 @@ var hierarchy =
     [ "ShortcutGroup", "d2/d7a/classShortcutGroup.html", null ],
     [ "SideboardPlan", "dc/d8b/classSideboardPlan.html", null ],
     [ "SplitCardPart", "d5/d45/classSplitCardPart.html", null ],
+    [ "testing::Test", null, [
+      [ "AddCardAlgorithmTest", "d1/df2/classAddCardAlgorithmTest.html", null ]
+    ] ],
     [ "TipOfTheDay", "d2/dba/classTipOfTheDay.html", null ],
     [ "TokenInfo", "dd/d40/structTokenInfo.html", null ],
     [ "TranslateCounterName", "d8/dab/classTranslateCounterName.html", null ],

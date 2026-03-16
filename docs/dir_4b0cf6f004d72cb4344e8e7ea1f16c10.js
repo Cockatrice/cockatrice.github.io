@@ -32,6 +32,8 @@ var dir_4b0cf6f004d72cb4344e8e7ea1f16c10 =
     [ "dlg_load_deck_from_website.h", "d3/d8e/dlg__load__deck__from__website_8h.html", "d3/d8e/dlg__load__deck__from__website_8h" ],
     [ "dlg_load_remote_deck.cpp", "d9/dd1/dlg__load__remote__deck_8cpp.html", null ],
     [ "dlg_load_remote_deck.h", "d9/d95/dlg__load__remote__deck_8h.html", "d9/d95/dlg__load__remote__deck_8h" ],
+    [ "dlg_local_game_options.cpp", "df/d03/dlg__local__game__options_8cpp.html", null ],
+    [ "dlg_local_game_options.h", "d8/df6/dlg__local__game__options_8h.html", "d8/df6/dlg__local__game__options_8h" ],
     [ "dlg_manage_sets.cpp", "db/d8d/dlg__manage__sets_8cpp.html", null ],
     [ "dlg_manage_sets.h", "db/db1/dlg__manage__sets_8h.html", "db/db1/dlg__manage__sets_8h" ],
     [ "dlg_register.cpp", "db/ded/dlg__register_8cpp.html", null ],

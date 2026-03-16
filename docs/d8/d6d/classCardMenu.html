@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-05-Development-2.11.0-beta.54</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-16-Development-2.11.0-beta.55</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -116,10 +116,11 @@ Collaboration diagram for CardMenu:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adaa6e8c16c2d807206afc5164f1bec64" id="r_adaa6e8c16c2d807206afc5164f1bec64"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaa6e8c16c2d807206afc5164f1bec64">CardMenu</a> (<a class="el" href="../../d2/d4b/classPlayer.html">Player</a> *<a class="el" href="#afb526b5bbab6cd70abf61aec6a3b6dc2">player</a>, const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *<a class="el" href="#ad907c34a7883226bbac21dea5cc30e74">card</a>, bool <a class="el" href="#a94cfd2f3118cde53e9633d53e389289b">shortcutsActive</a>)</td></tr>
 <tr class="memitem:ae83e5e6d5335fb6f2ac18efe023c31f6" id="r_ae83e5e6d5335fb6f2ac18efe023c31f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae83e5e6d5335fb6f2ac18efe023c31f6">removePlayer</a> (<a class="el" href="../../d2/d4b/classPlayer.html">Player</a> *playerToRemove)</td></tr>
-<tr class="memitem:ab9efcc99ec4aaa0c47b50ba23916e167" id="r_ab9efcc99ec4aaa0c47b50ba23916e167"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9efcc99ec4aaa0c47b50ba23916e167">createTableMenu</a> ()</td></tr>
-<tr class="memitem:a8e62393f0e47bc6b3a879120f89a7574" id="r_a8e62393f0e47bc6b3a879120f89a7574"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e62393f0e47bc6b3a879120f89a7574">createStackMenu</a> ()</td></tr>
-<tr class="memitem:ab78919b3fc8b38792d93dfb2c12fea43" id="r_ab78919b3fc8b38792d93dfb2c12fea43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab78919b3fc8b38792d93dfb2c12fea43">createGraveyardOrExileMenu</a> ()</td></tr>
-<tr class="memitem:ab8a09888953de543cd17d243bff357f2" id="r_ab8a09888953de543cd17d243bff357f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8a09888953de543cd17d243bff357f2">createHandOrCustomZoneMenu</a> ()</td></tr>
+<tr class="memitem:a61da88f54bf22b43f7293c86fc0ad895" id="r_a61da88f54bf22b43f7293c86fc0ad895"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61da88f54bf22b43f7293c86fc0ad895">createTableMenu</a> (bool canModifyCard)</td></tr>
+<tr class="memitem:abcbce46d1bf913558f75dddb6924723b" id="r_abcbce46d1bf913558f75dddb6924723b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcbce46d1bf913558f75dddb6924723b">createStackMenu</a> (bool canModifyCard)</td></tr>
+<tr class="memitem:a1c762ac61890856d5c4a8cb370b7a363" id="r_a1c762ac61890856d5c4a8cb370b7a363"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c762ac61890856d5c4a8cb370b7a363">createGraveyardOrExileMenu</a> (bool canModifyCard)</td></tr>
+<tr class="memitem:a7bbed70edefca75a858e5c31ef6daeba" id="r_a7bbed70edefca75a858e5c31ef6daeba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bbed70edefca75a858e5c31ef6daeba">createHandOrCustomZoneMenu</a> (bool canModifyCard)</td></tr>
+<tr class="memitem:af1194e2aa5ee916149cba6be45ca4150" id="r_af1194e2aa5ee916149cba6be45ca4150"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1194e2aa5ee916149cba6be45ca4150">createZonelessMenu</a> (bool canModifyCard)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -231,7 +232,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_aeb960e68af7e87347f27aebce235e8db_icgraph.svg" width="100%" height="487"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_aeb960e68af7e87347f27aebce235e8db_icgraph.svg" width="100%" height="461"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -271,8 +272,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ab78919b3fc8b38792d93dfb2c12fea43" name="ab78919b3fc8b38792d93dfb2c12fea43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab78919b3fc8b38792d93dfb2c12fea43">&#9670;&#160;</a></span>createGraveyardOrExileMenu()</h2>
+<a id="a1c762ac61890856d5c4a8cb370b7a363" name="a1c762ac61890856d5c4a8cb370b7a363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c762ac61890856d5c4a8cb370b7a363">&#9670;&#160;</a></span>createGraveyardOrExileMenu()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,7 +281,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void CardMenu::createGraveyardOrExileMenu </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>canModifyCard</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -288,18 +289,18 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_ab78919b3fc8b38792d93dfb2c12fea43_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_a1c762ac61890856d5c4a8cb370b7a363_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_ab78919b3fc8b38792d93dfb2c12fea43_icgraph.svg" width="427" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_a1c762ac61890856d5c4a8cb370b7a363_icgraph.svg" width="427" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="ab8a09888953de543cd17d243bff357f2" name="ab8a09888953de543cd17d243bff357f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8a09888953de543cd17d243bff357f2">&#9670;&#160;</a></span>createHandOrCustomZoneMenu()</h2>
+<a id="a7bbed70edefca75a858e5c31ef6daeba" name="a7bbed70edefca75a858e5c31ef6daeba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bbed70edefca75a858e5c31ef6daeba">&#9670;&#160;</a></span>createHandOrCustomZoneMenu()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,7 +308,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void CardMenu::createHandOrCustomZoneMenu </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>canModifyCard</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -315,18 +316,18 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_ab8a09888953de543cd17d243bff357f2_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_a7bbed70edefca75a858e5c31ef6daeba_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_ab8a09888953de543cd17d243bff357f2_icgraph.svg" width="458" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_a7bbed70edefca75a858e5c31ef6daeba_icgraph.svg" width="458" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a8e62393f0e47bc6b3a879120f89a7574" name="a8e62393f0e47bc6b3a879120f89a7574"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e62393f0e47bc6b3a879120f89a7574">&#9670;&#160;</a></span>createStackMenu()</h2>
+<a id="abcbce46d1bf913558f75dddb6924723b" name="abcbce46d1bf913558f75dddb6924723b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcbce46d1bf913558f75dddb6924723b">&#9670;&#160;</a></span>createStackMenu()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,7 +335,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void CardMenu::createStackMenu </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>canModifyCard</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -342,18 +343,18 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_a8e62393f0e47bc6b3a879120f89a7574_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_abcbce46d1bf913558f75dddb6924723b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_a8e62393f0e47bc6b3a879120f89a7574_icgraph.svg" width="431" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_abcbce46d1bf913558f75dddb6924723b_icgraph.svg" width="431" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="ab9efcc99ec4aaa0c47b50ba23916e167" name="ab9efcc99ec4aaa0c47b50ba23916e167"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9efcc99ec4aaa0c47b50ba23916e167">&#9670;&#160;</a></span>createTableMenu()</h2>
+<a id="a61da88f54bf22b43f7293c86fc0ad895" name="a61da88f54bf22b43f7293c86fc0ad895"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61da88f54bf22b43f7293c86fc0ad895">&#9670;&#160;</a></span>createTableMenu()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -361,7 +362,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void CardMenu::createTableMenu </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>canModifyCard</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -369,12 +370,34 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_ab9efcc99ec4aaa0c47b50ba23916e167_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_a61da88f54bf22b43f7293c86fc0ad895_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_ab9efcc99ec4aaa0c47b50ba23916e167_icgraph.svg" width="428" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_a61da88f54bf22b43f7293c86fc0ad895_icgraph.svg" width="428" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="af1194e2aa5ee916149cba6be45ca4150" name="af1194e2aa5ee916149cba6be45ca4150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1194e2aa5ee916149cba6be45ca4150">&#9670;&#160;</a></span>createZonelessMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardMenu::createZonelessMenu </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>canModifyCard</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d6d/classCardMenu_af1194e2aa5ee916149cba6be45ca4150_icgraph.svg" width="454" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

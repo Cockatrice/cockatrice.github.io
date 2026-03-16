@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-05-Development-2.11.0-beta.54</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-16-Development-2.11.0-beta.55</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -158,7 +158,7 @@ Layer Architecture</h2>
 </ul>
 </li>
 <li><b>Card Layer (1-40,000,000)</b>: Dynamic card rendering on the table zone<ul>
-<li>Cards use formula: (actualY + CARD_HEIGHT) * 100000 + (actualX + 1) * 100</li>
+<li>Cards use formula: (actualY + <a class="el" href="../../d2/da1/namespaceCardDimensions.html#a64b8d017e832580bb3e8d611b33ffe8b" title="Card height in pixels.">CardDimensions::HEIGHT</a>) * 100000 + (actualX + 1) * 100</li>
 <li>Maximum card Z-value: ~40,000,000 (with 3 rows, actualY &lt;= ~289)</li>
 </ul>
 </li>
@@ -178,8 +178,8 @@ Design Rationale</h2>
 Usage</h2>
 <p>Prefer using the semantic constants from <a class="el" href="../../db/dd0/namespaceZValues.html">ZValues</a> namespace: </p><div class="fragment"><div class="line">card-&gt;setZValue(<a class="code hl_variable" href="../../db/dd0/namespaceZValues.html#ad0bb88a91ef4dce372cb85454e2b9e76">ZValues::HOVERED_CARD</a>);</div>
 <div class="line">arrow-&gt;setZValue(<a class="code hl_variable" href="../../db/dd0/namespaceZValues.html#aa30902d3272b00212d1ca5e8aab61d7b">ZValues::ARROWS</a>);</div>
-<div class="ttc" id="anamespaceZValues_html_aa30902d3272b00212d1ca5e8aab61d7b"><div class="ttname"><a href="../../db/dd0/namespaceZValues.html#aa30902d3272b00212d1ca5e8aab61d7b">ZValues::ARROWS</a></div><div class="ttdeci">constexpr qreal ARROWS</div><div class="ttdef"><b>Definition</b> z_values.h:36</div></div>
-<div class="ttc" id="anamespaceZValues_html_ad0bb88a91ef4dce372cb85454e2b9e76"><div class="ttname"><a href="../../db/dd0/namespaceZValues.html#ad0bb88a91ef4dce372cb85454e2b9e76">ZValues::HOVERED_CARD</a></div><div class="ttdeci">constexpr qreal HOVERED_CARD</div><div class="ttdef"><b>Definition</b> z_values.h:35</div></div>
+<div class="ttc" id="anamespaceZValues_html_aa30902d3272b00212d1ca5e8aab61d7b"><div class="ttname"><a href="../../db/dd0/namespaceZValues.html#aa30902d3272b00212d1ca5e8aab61d7b">ZValues::ARROWS</a></div><div class="ttdeci">constexpr qreal ARROWS</div><div class="ttdef"><b>Definition</b> z_values.h:37</div></div>
+<div class="ttc" id="anamespaceZValues_html_ad0bb88a91ef4dce372cb85454e2b9e76"><div class="ttname"><a href="../../db/dd0/namespaceZValues.html#ad0bb88a91ef4dce372cb85454e2b9e76">ZValues::HOVERED_CARD</a></div><div class="ttdeci">constexpr qreal HOVERED_CARD</div><div class="ttdef"><b>Definition</b> z_values.h:36</div></div>
 </div><!-- fragment --><p>Use validation functions to verify card Z-values during development: </p><div class="fragment"><div class="line">Q_ASSERT(<a class="code hl_function" href="../../d7/dd1/namespaceZValueLayerManager.html#ad9bba7bf3b723d6c351eb777b20e0c81">ZValueLayerManager::isValidCardZValue</a>(cardZ));</div>
 <div class="ttc" id="anamespaceZValueLayerManager_html_ad9bba7bf3b723d6c351eb777b20e0c81"><div class="ttname"><a href="../../d7/dd1/namespaceZValueLayerManager.html#ad9bba7bf3b723d6c351eb777b20e0c81">ZValueLayerManager::isValidCardZValue</a></div><div class="ttdeci">constexpr bool isValidCardZValue(qreal zValue)</div><div class="ttdoc">Validates that a Z-value is within the valid card range.</div><div class="ttdef"><b>Definition</b> z_value_layer_manager.h:105</div></div>
 </div><!-- fragment --> </div></div><!-- contents -->

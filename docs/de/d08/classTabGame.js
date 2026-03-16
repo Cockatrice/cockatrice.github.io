@@ -43,7 +43,6 @@ var classTabGame =
     [ "createViewMenuItems", "de/d08/classTabGame.html#a21e6397bd761ae0ab9f0f580175f61fa", null ],
     [ "createZoneForPlayer", "de/d08/classTabGame.html#a65cd60c43bfde0047a7069bed7719fb6", null ],
     [ "emitUserEvent", "de/d08/classTabGame.html#a9d129dac481f242d01352d3de0bb1264", null ],
-    [ "freeDocksSize", "de/d08/classTabGame.html#a783931e8c8f1b3d5397c5d70d3a25e6d", null ],
     [ "gameClosing", "de/d08/classTabGame.html#ad7e4437118782d8e2b678f5c3564b5ea", null ],
     [ "gameLeft", "de/d08/classTabGame.html#a09dd180b5197c356c1ca6402dc12bfb4", null ],
     [ "getGame", "de/d08/classTabGame.html#aa0fae5abf5efb22345d44fb573ae0858", null ],

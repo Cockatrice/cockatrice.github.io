@@ -13,10 +13,11 @@ var searchData=
   ['loadspoilerspage_10',['LoadSpoilersPage',['../d0/d54/classLoadSpoilersPage.html',1,'']]],
   ['loadtokenspage_11',['LoadTokensPage',['../d7/d75/classLoadTokensPage.html',1,'']]],
   ['localclient_12',['LocalClient',['../df/d75/classLocalClient.html',1,'']]],
-  ['localserver_13',['LocalServer',['../d2/d40/classLocalServer.html',1,'']]],
-  ['localserver_5fdatabaseinterface_14',['LocalServer_DatabaseInterface',['../d1/d74/classLocalServer__DatabaseInterface.html',1,'']]],
-  ['localserverinterface_15',['LocalServerInterface',['../d0/dc3/classLocalServerInterface.html',1,'']]],
-  ['lockpixmapgenerator_16',['LockPixmapGenerator',['../dd/dd6/classLockPixmapGenerator.html',1,'']]],
-  ['logger_17',['Logger',['../db/d67/classLogger.html',1,'']]],
-  ['logicmap_18',['LogicMap',['../d9/d6e/classLogicMap.html',1,'']]]
+  ['localgameoptions_13',['LocalGameOptions',['../d9/de7/structLocalGameOptions.html',1,'']]],
+  ['localserver_14',['LocalServer',['../d2/d40/classLocalServer.html',1,'']]],
+  ['localserver_5fdatabaseinterface_15',['LocalServer_DatabaseInterface',['../d1/d74/classLocalServer__DatabaseInterface.html',1,'']]],
+  ['localserverinterface_16',['LocalServerInterface',['../d0/dc3/classLocalServerInterface.html',1,'']]],
+  ['lockpixmapgenerator_17',['LockPixmapGenerator',['../dd/dd6/classLockPixmapGenerator.html',1,'']]],
+  ['logger_18',['Logger',['../db/d67/classLogger.html',1,'']]],
+  ['logicmap_19',['LogicMap',['../d9/d6e/classLogicMap.html',1,'']]]
 ];

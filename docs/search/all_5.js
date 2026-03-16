@@ -248,7 +248,7 @@ var searchData=
   ['execsqlquery_245',['execSqlQuery',['../d3/d76/classServatrice__DatabaseInterface.html#a7be1b29a72d3c6b454f4ad620a209afe',1,'Servatrice_DatabaseInterface']]],
   ['exectagdialog_246',['execTagDialog',['../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#ac505d0f9b7d86c8f6e73cbd035073438',1,'DeckPreviewDeckTagsDisplayWidget']]],
   ['execute_5fon_5fdestruction_247',['execute_on_destruction',['../d5/dbb/structpeg_1_1scope__exit.html#a0f641d419a826157d7e79dce42db748f',1,'peg::scope_exit']]],
-  ['exile_5fzone_5fname_248',['EXILE_ZONE_NAME',['../dd/dfc/message__log__widget_8cpp.html#ae01cfeef95233ee2630491f3cb1e6a1f',1,'message_log_widget.cpp']]],
+  ['exile_248',['EXILE',['../d0/d0f/namespaceZoneNames.html#a73b2c9dd3403d532ce61640bac994833',1,'ZoneNames']]],
   ['exit_5ffunction_249',['exit_function',['../d5/dbb/structpeg_1_1scope__exit.html#a40e70961af6b66ec1cc6158fd8a36d43',1,'peg::scope_exit']]],
   ['exitcarddatabaseupdate_250',['exitCardDatabaseUpdate',['../d6/d1a/classMainWindow.html#aabbd433827aa692777681e29bd408f82',1,'MainWindow']]],
   ['expandall_251',['expandAll',['../d9/df7/classDeckEditorDeckDockWidget.html#af7612e0a803642a8a12d43f8071584f8',1,'DeckEditorDeckDockWidget']]],

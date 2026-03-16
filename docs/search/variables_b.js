@@ -6,7 +6,8 @@ var searchData=
   ['keepalive_3',['keepalive',['../d5/d88/classSettingsCache.html#a69eb266052215be6d7cf15c00c855c76',1,'SettingsCache']]],
   ['keys_4',['keys',['../d3/d0a/classSequenceEdit.html#a20fb7aca6572907654b698faa8ab9ce8',1,'SequenceEdit']]],
   ['keywords_5',['keywords',['../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8',1,'EdhrecApiResponseCardContainer']]],
-  ['knownmissingfeatures_6',['knownMissingFeatures',['../d5/d88/classSettingsCache.html#ad934cf8ddf5f5b043a682bbc45ed4016',1,'SettingsCache']]],
-  ['knowntags_5f_7',['knownTags_',['../de/d04/classDeckPreviewTagDialog.html#a6a36974baeae9cd4f95be489245a984e',1,'DeckPreviewTagDialog']]],
-  ['ksingletoncounts_8',['kSingletonCounts',['../d9/d21/oracleimporter_8cpp.html#acc91fb4fd31c2c37c31726137ff47425',1,'oracleimporter.cpp']]]
+  ['knownlist_6',['knownList',['../d1/df2/classAddCardAlgorithmTest.html#a646c170308c9a742478be87f4dea80cb',1,'AddCardAlgorithmTest']]],
+  ['knownmissingfeatures_7',['knownMissingFeatures',['../d5/d88/classSettingsCache.html#ad934cf8ddf5f5b043a682bbc45ed4016',1,'SettingsCache']]],
+  ['knowntags_5f_8',['knownTags_',['../de/d04/classDeckPreviewTagDialog.html#a6a36974baeae9cd4f95be489245a984e',1,'DeckPreviewTagDialog']]],
+  ['ksingletoncounts_9',['kSingletonCounts',['../d9/d21/oracleimporter_8cpp.html#acc91fb4fd31c2c37c31726137ff47425',1,'oracleimporter.cpp']]]
 ];

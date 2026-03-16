@@ -9,7 +9,6 @@ var classTabDeckEditorVisual =
     [ "createMenus", "dc/d63/classTabDeckEditorVisual.html#af65c4ade9485855b3f003088abc9c95c", null ],
     [ "createSearchAndDatabaseFrame", "dc/d63/classTabDeckEditorVisual.html#a3adf7cdea183caeec2def8e8edb380f0", null ],
     [ "eventFilter", "dc/d63/classTabDeckEditorVisual.html#ac800044966bd093f0489c56a8c21f05b", null ],
-    [ "freeDocksSize", "dc/d63/classTabDeckEditorVisual.html#a67b7ef1d5a99c4a05becb219553d0160", null ],
     [ "getTabText", "dc/d63/classTabDeckEditorVisual.html#ae96e926517779ec8e4a686e81c42cb80", null ],
     [ "loadLayout", "dc/d63/classTabDeckEditorVisual.html#ae9b8573b2c6d4e876577f7dc8146e192", null ],
     [ "onDeckChanged", "dc/d63/classTabDeckEditorVisual.html#a218c82a1db7e1f4f528b3387504b4fb9", null ],
