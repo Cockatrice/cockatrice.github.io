@@ -116,10 +116,8 @@ var classPlayerActions =
     [ "lastTokenTableRow", "d2/d23/classPlayerActions.html#a89b59b25ee4975b5dbc995269250b4e3", null ],
     [ "moveTopCardTimer", "d2/d23/classPlayerActions.html#a31173fb00486a44e1e446b4345517c41", null ],
     [ "movingCardsUntil", "d2/d23/classPlayerActions.html#ad8e7c3cfcc3b9c50588029971f3f978d", null ],
-    [ "movingCardsUntilAutoPlay", "d2/d23/classPlayerActions.html#ae92037c949b096514e8a97150a9bbc16", null ],
     [ "movingCardsUntilCounter", "d2/d23/classPlayerActions.html#abd0517941a12a2c64c42a27c507fff83", null ],
-    [ "movingCardsUntilExprs", "d2/d23/classPlayerActions.html#acd217b238ae539000fd25ef3d763f711", null ],
     [ "movingCardsUntilFilter", "d2/d23/classPlayerActions.html#aba69eddee554245928149b523b8f40ae", null ],
-    [ "movingCardsUntilNumberOfHits", "d2/d23/classPlayerActions.html#a913597ffea9c50eb19023452dc0cda17", null ],
+    [ "movingCardsUntilOptions", "d2/d23/classPlayerActions.html#aa5a60e7ab2b687ebf3d55445207ed35f", null ],
     [ "player", "d2/d23/classPlayerActions.html#a4af2216833df8e7ccfaee16d5a10c9d7", null ]
 ];

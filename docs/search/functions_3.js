@@ -149,7 +149,7 @@ var searchData=
   ['dlgloaddeckfromwebsite_146',['DlgLoadDeckFromWebsite',['../d9/d2f/classDlgLoadDeckFromWebsite.html#a6de9913cf4ef01076699823bd3ce28ba',1,'DlgLoadDeckFromWebsite']]],
   ['dlgloadremotedeck_147',['DlgLoadRemoteDeck',['../d5/ddc/classDlgLoadRemoteDeck.html#a7312a84ffbc09f57ab758a8d17a29d67',1,'DlgLoadRemoteDeck']]],
   ['dlglocalgameoptions_148',['DlgLocalGameOptions',['../d6/d68/classDlgLocalGameOptions.html#a1c930098ff690acdad2d13ddf99b346e',1,'DlgLocalGameOptions']]],
-  ['dlgmovetopcardsuntil_149',['DlgMoveTopCardsUntil',['../dc/d90/classDlgMoveTopCardsUntil.html#a2239bdc24374c8604faf57604be6703a',1,'DlgMoveTopCardsUntil']]],
+  ['dlgmovetopcardsuntil_149',['DlgMoveTopCardsUntil',['../dc/d90/classDlgMoveTopCardsUntil.html#a39ff2067edb866c203b1c8b9c6d114f3',1,'DlgMoveTopCardsUntil']]],
   ['dlgregister_150',['DlgRegister',['../d0/d9e/classDlgRegister.html#ae7bdb4de062267d6828be8e38a328b5e',1,'DlgRegister']]],
   ['dlgrolldice_151',['DlgRollDice',['../df/dfc/classDlgRollDice.html#a0f07e03157b32261837d5e7a8a560d94',1,'DlgRollDice']]],
   ['dlgselectsetforcards_152',['DlgSelectSetForCards',['../de/d26/classDlgSelectSetForCards.html#a5dcdea65584bb80ef387657cd1b11bed',1,'DlgSelectSetForCards']]],

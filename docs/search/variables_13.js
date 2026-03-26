@@ -113,7 +113,7 @@ var searchData=
   ['shortcutactive_110',['shortcutActive',['../d4/d67/classAbstractCounter.html#ad34b619fe5f441a8075f08343ba1f289',1,'AbstractCounter']]],
   ['shortcutname_111',['shortcutName',['../d3/d0a/classSequenceEdit.html#a333a56d54028874d542765e8989674d7',1,'SequenceEdit']]],
   ['shortcuts_112',['shortCuts',['../da/d38/classShortcutsSettings.html#a9bb64d362baa0ce945c3e029effd1083',1,'ShortcutsSettings']]],
-  ['shortcutsactive_113',['shortcutsActive',['../d8/d6d/classCardMenu.html#a94cfd2f3118cde53e9633d53e389289b',1,'CardMenu::shortcutsActive'],['../d7/dd6/classPlayerMenu.html#a22187a61bb3297d702897b1c9bd6c691',1,'PlayerMenu::shortcutsActive']]],
+  ['shortcutsactive_113',['shortcutsActive',['../d8/d6d/classCardMenu.html#a94cfd2f3118cde53e9633d53e389289b',1,'CardMenu::shortcutsActive'],['../d7/dd6/classPlayerMenu.html#a22187a61bb3297d702897b1c9bd6c691',1,'PlayerMenu::shortcutsActive'],['../d6/dbc/classSayMenu.html#a8f57ed8ff69e5a31411a4b6f865d6e12',1,'SayMenu::shortcutsActive']]],
   ['shortcutsbutton_114',['shortcutsButton',['../db/d5f/classDlgSettings.html#a06ef3156e87f3f1e0b1ad411254a69a0',1,'DlgSettings']]],
   ['shortcutsmodel_115',['shortcutsModel',['../d6/dc6/classShortcutTreeView.html#a6d2d5e804d6737c52c945b123a7baa33',1,'ShortcutTreeView']]],
   ['shortcutssettings_116',['shortcutsSettings',['../d5/d88/classSettingsCache.html#af42e07a968a0517915af4986aa4a4a84',1,'SettingsCache']]],

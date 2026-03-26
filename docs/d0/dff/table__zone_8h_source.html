@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-16-Development-2.11.0-beta.55</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-25-Development-2.11.0-beta.56</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -213,63 +213,65 @@ $(function(){initNavTree('d0/dff/table__zone_8h_source.html','../../',''); });
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
 <div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#a1d2de5c47bda321b913000f0b893a805">clampValidTableRow</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> row);</div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span></div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#a997bb85badfa165b94355054c88d6c9a">resizeToContents</a>();</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
-<div class="foldopen" id="foldopen00160" data-start="{" data-end="}">
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="../../d6/d6f/classTableZone.html#abfb9a85446ed46d34a6bda2be10b6f51">  160</a></span>    [[nodiscard]] <span class="keywordtype">int</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#abfb9a85446ed46d34a6bda2be10b6f51">getMinimumWidth</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d6f/classTableZone.html#adc4956e250bca4fddab30f8fa3d5e83f">currentMinimumWidth</a>;</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    }</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#a63384b2cc004092f7c253e3ea349e6fb">tableRowToGridY</a>(<span class="keywordtype">int</span> tableRow);</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span></div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#a997bb85badfa165b94355054c88d6c9a">resizeToContents</a>();</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
+<div class="foldopen" id="foldopen00167" data-start="{" data-end="}">
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno"><a class="line" href="../../d6/d6f/classTableZone.html#abfb9a85446ed46d34a6bda2be10b6f51">  167</a></span>    [[nodiscard]] <span class="keywordtype">int</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#abfb9a85446ed46d34a6bda2be10b6f51">getMinimumWidth</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d6f/classTableZone.html#adc4956e250bca4fddab30f8fa3d5e83f">currentMinimumWidth</a>;</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00164" data-start="{" data-end="}">
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno"><a class="line" href="../../d6/d6f/classTableZone.html#ae61590673fe24889e5f0fe52faff7088">  164</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#ae61590673fe24889e5f0fe52faff7088">setWidth</a>(qreal _width)</div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    {</div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>        prepareGeometryChange();</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        <a class="code hl_variable" href="../../d6/d6f/classTableZone.html#a2e2889a87fb41a321425926e26333169">width</a> = _width;</div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    }</div>
+<div class="foldopen" id="foldopen00171" data-start="{" data-end="}">
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno"><a class="line" href="../../d6/d6f/classTableZone.html#ae61590673fe24889e5f0fe52faff7088">  171</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#ae61590673fe24889e5f0fe52faff7088">setWidth</a>(qreal _width)</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    {</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>        prepareGeometryChange();</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>        <a class="code hl_variable" href="../../d6/d6f/classTableZone.html#a2e2889a87fb41a321425926e26333169">width</a> = _width;</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00169" data-start="{" data-end="}">
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno"><a class="line" href="../../d6/d6f/classTableZone.html#aa44001bf63f40eb0493791372275bd1a">  169</a></span>    [[nodiscard]] qreal <a class="code hl_function" href="../../d6/d6f/classTableZone.html#aa44001bf63f40eb0493791372275bd1a">getWidth</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d6f/classTableZone.html#a2e2889a87fb41a321425926e26333169">width</a>;</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    }</div>
+<div class="foldopen" id="foldopen00176" data-start="{" data-end="}">
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno"><a class="line" href="../../d6/d6f/classTableZone.html#aa44001bf63f40eb0493791372275bd1a">  176</a></span>    [[nodiscard]] qreal <a class="code hl_function" href="../../d6/d6f/classTableZone.html#aa44001bf63f40eb0493791372275bd1a">getWidth</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d6f/classTableZone.html#a2e2889a87fb41a321425926e26333169">width</a>;</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00173" data-start="{" data-end="}">
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno"><a class="line" href="../../d6/d6f/classTableZone.html#a1a5b346e500195fe51dedf1b56fe6225">  173</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#a1a5b346e500195fe51dedf1b56fe6225">setActive</a>(<span class="keywordtype">bool</span> _active)</div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    {</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>        <a class="code hl_variable" href="../../d6/d6f/classTableZone.html#ac7737b35855d6a60917afa160b93e177">active</a> = _active;</div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>        update();</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    }</div>
+<div class="foldopen" id="foldopen00180" data-start="{" data-end="}">
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno"><a class="line" href="../../d6/d6f/classTableZone.html#a1a5b346e500195fe51dedf1b56fe6225">  180</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#a1a5b346e500195fe51dedf1b56fe6225">setActive</a>(<span class="keywordtype">bool</span> _active)</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    {</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>        <a class="code hl_variable" href="../../d6/d6f/classTableZone.html#ac7737b35855d6a60917afa160b93e177">active</a> = _active;</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>        update();</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    }</div>
 </div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span> </div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#a5e173e217e3cce7ed34ec1334c4a0c89">paintZoneOutline</a>(QPainter *painter);</div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#ac41a86ad77b8371ffb03fac1472637f9">paintLandDivider</a>(QPainter *painter);</div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    <span class="comment">/*</span></div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span><span class="comment">    Calculates card stack widths so mapping functions work properly</span></div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span><span class="comment">    */</span></div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#aa1a7f90906aabec4caa54cc8e4bf9253">computeCardStackWidths</a>();</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="comment">/*</span></div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span><span class="comment">    Mapping functions for points to/from gridpoints.</span></div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span><span class="comment">    */</span></div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>    [[nodiscard]] QPointF <a class="code hl_function" href="../../d6/d6f/classTableZone.html#ace0445dcfbb677ff3371e87899e23efd">mapFromGrid</a>(QPoint gridPoint) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>    [[nodiscard]] QPoint <a class="code hl_function" href="../../d6/d6f/classTableZone.html#aed922258172d122e66d5d033d567c783">mapToGrid</a>(<span class="keyword">const</span> QPointF &amp;mapPoint) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span> </div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    <span class="comment">/*</span></div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span><span class="comment">    Helper function to create a single key from a card stack location.</span></div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="comment">    */</span></div>
-<div class="foldopen" id="foldopen00197" data-start="{" data-end="}">
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno"><a class="line" href="../../d6/d6f/classTableZone.html#a0a5a321fc32fdbc7095c1ecd82815b08">  197</a></span>    [[nodiscard]] <span class="keywordtype">int</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#a0a5a321fc32fdbc7095c1ecd82815b08">getCardStackMapKey</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        <span class="keywordflow">return</span> x + (y * 1000);</div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    }</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#a5e173e217e3cce7ed34ec1334c4a0c89">paintZoneOutline</a>(QPainter *painter);</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#ac41a86ad77b8371ffb03fac1472637f9">paintLandDivider</a>(QPainter *painter);</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span><span class="comment">    Calculates card stack widths so mapping functions work properly</span></div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#aa1a7f90906aabec4caa54cc8e4bf9253">computeCardStackWidths</a>();</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span> </div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="comment">    Mapping functions for points to/from gridpoints.</span></div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span><span class="comment">    */</span></div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    [[nodiscard]] QPointF <a class="code hl_function" href="../../d6/d6f/classTableZone.html#ace0445dcfbb677ff3371e87899e23efd">mapFromGrid</a>(QPoint gridPoint) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>    [[nodiscard]] QPoint <a class="code hl_function" href="../../d6/d6f/classTableZone.html#aed922258172d122e66d5d033d567c783">mapToGrid</a>(<span class="keyword">const</span> QPointF &amp;mapPoint) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>    <span class="comment">/*</span></div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><span class="comment">    Helper function to create a single key from a card stack location.</span></div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="comment">    */</span></div>
+<div class="foldopen" id="foldopen00204" data-start="{" data-end="}">
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno"><a class="line" href="../../d6/d6f/classTableZone.html#a0a5a321fc32fdbc7095c1ecd82815b08">  204</a></span>    [[nodiscard]] <span class="keywordtype">int</span> <a class="code hl_function" href="../../d6/d6f/classTableZone.html#a0a5a321fc32fdbc7095c1ecd82815b08">getCardStackMapKey</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>        <span class="keywordflow">return</span> x + (y * 1000);</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    }</div>
 </div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>};</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>};</div>
 </div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span> </div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span> </div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aabstract__card__item_8h_html"><div class="ttname"><a href="../../d2/d73/abstract__card__item_8h.html">abstract_card_item.h</a></div><div class="ttdoc">TODO: Document this.</div></div>
 <div class="ttc" id="aclassCardItem_html"><div class="ttname"><a href="../../d6/dbd/classCardItem.html">CardItem</a></div><div class="ttdef"><b>Definition</b> card_item.h:27</div></div>
 <div class="ttc" id="aclassCardZoneLogic_html"><div class="ttname"><a href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a></div><div class="ttdef"><b>Definition</b> card_zone_logic.h:26</div></div>
@@ -279,8 +281,8 @@ $(function(){initNavTree('d0/dff/table__zone_8h_source.html','../../',''); });
 <div class="ttc" id="aclassTableZone_html_a049ba4ae8a44aa10ff31299be7a8d257"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a049ba4ae8a44aa10ff31299be7a8d257">TableZone::paint</a></div><div class="ttdeci">void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override</div><div class="ttdef"><b>Definition</b> table_zone.cpp:61</div></div>
 <div class="ttc" id="aclassTableZone_html_a051dd462b5e0fb0e55d3d1d0d8abda65"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a051dd462b5e0fb0e55d3d1d0d8abda65">TableZone::reorganizeCards</a></div><div class="ttdeci">void reorganizeCards() override</div><div class="ttdef"><b>Definition</b> table_zone.cpp:153</div></div>
 <div class="ttc" id="aclassTableZone_html_a0610ee5a013229d17d9744dceffe6b8d"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a0610ee5a013229d17d9744dceffe6b8d">TableZone::getCardFromCoords</a></div><div class="ttdeci">CardItem * getCardFromCoords(const QPointF &amp;point) const</div><div class="ttdef"><b>Definition</b> table_zone.cpp:256</div></div>
-<div class="ttc" id="aclassTableZone_html_a0a5a321fc32fdbc7095c1ecd82815b08"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a0a5a321fc32fdbc7095c1ecd82815b08">TableZone::getCardStackMapKey</a></div><div class="ttdeci">int getCardStackMapKey(int x, int y) const</div><div class="ttdef"><b>Definition</b> table_zone.h:197</div></div>
-<div class="ttc" id="aclassTableZone_html_a1a5b346e500195fe51dedf1b56fe6225"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a1a5b346e500195fe51dedf1b56fe6225">TableZone::setActive</a></div><div class="ttdeci">void setActive(bool _active)</div><div class="ttdef"><b>Definition</b> table_zone.h:173</div></div>
+<div class="ttc" id="aclassTableZone_html_a0a5a321fc32fdbc7095c1ecd82815b08"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a0a5a321fc32fdbc7095c1ecd82815b08">TableZone::getCardStackMapKey</a></div><div class="ttdeci">int getCardStackMapKey(int x, int y) const</div><div class="ttdef"><b>Definition</b> table_zone.h:204</div></div>
+<div class="ttc" id="aclassTableZone_html_a1a5b346e500195fe51dedf1b56fe6225"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a1a5b346e500195fe51dedf1b56fe6225">TableZone::setActive</a></div><div class="ttdeci">void setActive(bool _active)</div><div class="ttdef"><b>Definition</b> table_zone.h:180</div></div>
 <div class="ttc" id="aclassTableZone_html_a1bd2f87b299bcca590d776514eed3841"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a1bd2f87b299bcca590d776514eed3841">TableZone::MARGIN_BOTTOM</a></div><div class="ttdeci">static const int MARGIN_BOTTOM</div><div class="ttdef"><b>Definition</b> table_zone.h:37</div></div>
 <div class="ttc" id="aclassTableZone_html_a1d2de5c47bda321b913000f0b893a805"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a1d2de5c47bda321b913000f0b893a805">TableZone::clampValidTableRow</a></div><div class="ttdeci">static int clampValidTableRow(const int row)</div><div class="ttdef"><b>Definition</b> table_zone.cpp:377</div></div>
 <div class="ttc" id="aclassTableZone_html_a2e2889a87fb41a321425926e26333169"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a2e2889a87fb41a321425926e26333169">TableZone::width</a></div><div class="ttdeci">int width</div><div class="ttdef"><b>Definition</b> table_zone.h:68</div></div>
@@ -292,6 +294,7 @@ $(function(){initNavTree('d0/dff/table__zone_8h_source.html','../../',''); });
 <div class="ttc" id="aclassTableZone_html_a56ada4dfe0246bd4430c60371acddd59"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a56ada4dfe0246bd4430c60371acddd59">TableZone::FADE_MASK</a></div><div class="ttdeci">static const QColor FADE_MASK</div><div class="ttdef"><b>Definition</b> table_zone.h:61</div></div>
 <div class="ttc" id="aclassTableZone_html_a5989054f82d32bf8cc23e3d0b7ab8e29"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a5989054f82d32bf8cc23e3d0b7ab8e29">TableZone::PADDING_X</a></div><div class="ttdeci">static const int PADDING_X</div><div class="ttdef"><b>Definition</b> table_zone.h:38</div></div>
 <div class="ttc" id="aclassTableZone_html_a5e173e217e3cce7ed34ec1334c4a0c89"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a5e173e217e3cce7ed34ec1334c4a0c89">TableZone::paintZoneOutline</a></div><div class="ttdeci">void paintZoneOutline(QPainter *painter)</div><div class="ttdef"><b>Definition</b> table_zone.cpp:82</div></div>
+<div class="ttc" id="aclassTableZone_html_a63384b2cc004092f7c253e3ea349e6fb"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a63384b2cc004092f7c253e3ea349e6fb">TableZone::tableRowToGridY</a></div><div class="ttdeci">static int tableRowToGridY(int tableRow)</div><div class="ttdef"><b>Definition</b> table_zone.cpp:386</div></div>
 <div class="ttc" id="aclassTableZone_html_a6f633fd80c94ed7621416135ec92ac1b"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a6f633fd80c94ed7621416135ec92ac1b">TableZone::TABLEROWS</a></div><div class="ttdeci">static const int TABLEROWS</div><div class="ttdef"><b>Definition</b> table_zone.h:29</div></div>
 <div class="ttc" id="aclassTableZone_html_a70d1bea5a28c08f735e4fffbf9d0530e"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a70d1bea5a28c08f735e4fffbf9d0530e">TableZone::TableZone</a></div><div class="ttdeci">TableZone(TableZoneLogic *_logic, QGraphicsItem *parent=nullptr)</div><div class="ttdef"><b>Definition</b> table_zone.cpp:25</div></div>
 <div class="ttc" id="aclassTableZone_html_a95987cbcefe960e9d768456cc496bf0f"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a95987cbcefe960e9d768456cc496bf0f">TableZone::GRADIENT_COLOR</a></div><div class="ttdeci">static const QColor GRADIENT_COLOR</div><div class="ttdef"><b>Definition</b> table_zone.h:62</div></div>
@@ -300,11 +303,11 @@ $(function(){initNavTree('d0/dff/table__zone_8h_source.html','../../',''); });
 <div class="ttc" id="aclassTableZone_html_a997bb85badfa165b94355054c88d6c9a"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a997bb85badfa165b94355054c88d6c9a">TableZone::resizeToContents</a></div><div class="ttdeci">void resizeToContents()</div><div class="ttdef"><b>Definition</b> table_zone.cpp:225</div></div>
 <div class="ttc" id="aclassTableZone_html_a9e16592e892da1c9d5bd2a81ddabc490"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#a9e16592e892da1c9d5bd2a81ddabc490">TableZone::MARGIN_LEFT</a></div><div class="ttdeci">static const int MARGIN_LEFT</div><div class="ttdef"><b>Definition</b> table_zone.h:34</div></div>
 <div class="ttc" id="aclassTableZone_html_aa1a7f90906aabec4caa54cc8e4bf9253"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#aa1a7f90906aabec4caa54cc8e4bf9253">TableZone::computeCardStackWidths</a></div><div class="ttdeci">void computeCardStackWidths()</div><div class="ttdef"><b>Definition</b> table_zone.cpp:262</div></div>
-<div class="ttc" id="aclassTableZone_html_aa44001bf63f40eb0493791372275bd1a"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#aa44001bf63f40eb0493791372275bd1a">TableZone::getWidth</a></div><div class="ttdeci">qreal getWidth() const</div><div class="ttdef"><b>Definition</b> table_zone.h:169</div></div>
+<div class="ttc" id="aclassTableZone_html_aa44001bf63f40eb0493791372275bd1a"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#aa44001bf63f40eb0493791372275bd1a">TableZone::getWidth</a></div><div class="ttdeci">qreal getWidth() const</div><div class="ttdef"><b>Definition</b> table_zone.h:176</div></div>
 <div class="ttc" id="aclassTableZone_html_aa5bc29be4db724fb001788a223d9cb35"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#aa5bc29be4db724fb001788a223d9cb35">TableZone::boundingRect</a></div><div class="ttdeci">QRectF boundingRect() const override</div><div class="ttdef"><b>Definition</b> table_zone.cpp:48</div></div>
 <div class="ttc" id="aclassTableZone_html_aa69a5329c8e12b49d7804e90b22bb273"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#aa69a5329c8e12b49d7804e90b22bb273">TableZone::backgroundPixelMap</a></div><div class="ttdeci">QPixmap backgroundPixelMap</div><div class="ttdef"><b>Definition</b> table_zone.h:80</div></div>
 <div class="ttc" id="aclassTableZone_html_ab1c4485f2e6240cbb5b42f2471249d80"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#ab1c4485f2e6240cbb5b42f2471249d80">TableZone::closestGridPoint</a></div><div class="ttdeci">QPointF closestGridPoint(const QPointF &amp;point) override</div><div class="ttdef"><b>Definition</b> table_zone.cpp:366</div></div>
-<div class="ttc" id="aclassTableZone_html_abfb9a85446ed46d34a6bda2be10b6f51"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#abfb9a85446ed46d34a6bda2be10b6f51">TableZone::getMinimumWidth</a></div><div class="ttdeci">int getMinimumWidth() const</div><div class="ttdef"><b>Definition</b> table_zone.h:160</div></div>
+<div class="ttc" id="aclassTableZone_html_abfb9a85446ed46d34a6bda2be10b6f51"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#abfb9a85446ed46d34a6bda2be10b6f51">TableZone::getMinimumWidth</a></div><div class="ttdeci">int getMinimumWidth() const</div><div class="ttdef"><b>Definition</b> table_zone.h:167</div></div>
 <div class="ttc" id="aclassTableZone_html_ac17a53c5b6e259da5b0e85c803114be4"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#ac17a53c5b6e259da5b0e85c803114be4">TableZone::handleDropEvent</a></div><div class="ttdeci">void handleDropEvent(const QList&lt; CardDragItem * &gt; &amp;dragItems, CardZoneLogic *startZone, const QPoint &amp;dropPoint) override</div><div class="ttdef"><b>Definition</b> table_zone.cpp:117</div></div>
 <div class="ttc" id="aclassTableZone_html_ac41a86ad77b8371ffb03fac1472637f9"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#ac41a86ad77b8371ffb03fac1472637f9">TableZone::paintLandDivider</a></div><div class="ttdeci">void paintLandDivider(QPainter *painter)</div><div class="ttdef"><b>Definition</b> table_zone.cpp:106</div></div>
 <div class="ttc" id="aclassTableZone_html_ac6727616c3cefb55d2696bc0168aee22"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#ac6727616c3cefb55d2696bc0168aee22">TableZone::MIN_WIDTH</a></div><div class="ttdeci">static const int MIN_WIDTH</div><div class="ttdef"><b>Definition</b> table_zone.h:44</div></div>
@@ -316,7 +319,7 @@ $(function(){initNavTree('d0/dff/table__zone_8h_source.html','../../',''); });
 <div class="ttc" id="aclassTableZone_html_ad0eba76e7bed824b4ade2c1b9709b80b"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#ad0eba76e7bed824b4ade2c1b9709b80b">TableZone::GRADIENT_COLORLESS</a></div><div class="ttdeci">static const QColor GRADIENT_COLORLESS</div><div class="ttdef"><b>Definition</b> table_zone.h:63</div></div>
 <div class="ttc" id="aclassTableZone_html_ad8eb13eaf6b5cd4e8bff9b2956520acd"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#ad8eb13eaf6b5cd4e8bff9b2956520acd">TableZone::BACKGROUND_COLOR</a></div><div class="ttdeci">static const QColor BACKGROUND_COLOR</div><div class="ttdef"><b>Definition</b> table_zone.h:60</div></div>
 <div class="ttc" id="aclassTableZone_html_adc4956e250bca4fddab30f8fa3d5e83f"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#adc4956e250bca4fddab30f8fa3d5e83f">TableZone::currentMinimumWidth</a></div><div class="ttdeci">int currentMinimumWidth</div><div class="ttdef"><b>Definition</b> table_zone.h:70</div></div>
-<div class="ttc" id="aclassTableZone_html_ae61590673fe24889e5f0fe52faff7088"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#ae61590673fe24889e5f0fe52faff7088">TableZone::setWidth</a></div><div class="ttdeci">void setWidth(qreal _width)</div><div class="ttdef"><b>Definition</b> table_zone.h:164</div></div>
+<div class="ttc" id="aclassTableZone_html_ae61590673fe24889e5f0fe52faff7088"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#ae61590673fe24889e5f0fe52faff7088">TableZone::setWidth</a></div><div class="ttdeci">void setWidth(qreal _width)</div><div class="ttdef"><b>Definition</b> table_zone.h:171</div></div>
 <div class="ttc" id="aclassTableZone_html_aed922258172d122e66d5d033d567c783"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#aed922258172d122e66d5d033d567c783">TableZone::mapToGrid</a></div><div class="ttdeci">QPoint mapToGrid(const QPointF &amp;mapPoint) const</div><div class="ttdef"><b>Definition</b> table_zone.cpp:319</div></div>
 <div class="ttc" id="aclassTableZone_html_af3c744bcfd8d8afca5dc1083f7878b3a"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#af3c744bcfd8d8afca5dc1083f7878b3a">TableZone::isInverted</a></div><div class="ttdeci">bool isInverted() const</div><div class="ttdef"><b>Definition</b> table_zone.cpp:53</div></div>
 <div class="ttc" id="aclassTableZone_html_af450820313f485e158e2a2afa0a76b80"><div class="ttname"><a href="../../d6/d6f/classTableZone.html#af450820313f485e158e2a2afa0a76b80">TableZone::MARGIN_TOP</a></div><div class="ttdeci">static const int MARGIN_TOP</div><div class="ttdef"><b>Definition</b> table_zone.h:36</div></div>

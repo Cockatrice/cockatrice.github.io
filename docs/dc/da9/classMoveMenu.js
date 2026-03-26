@@ -7,6 +7,7 @@ var classMoveMenu =
     [ "aMoveToExile", "dc/da9/classMoveMenu.html#a0d6f5c864bbc4751d0f43cc8f23c3da2", null ],
     [ "aMoveToGraveyard", "dc/da9/classMoveMenu.html#a3b9e8dba4b1104dd65dab577ae0e3566", null ],
     [ "aMoveToHand", "dc/da9/classMoveMenu.html#ab4d7a01aa3de1f242a7a0c17705594ac", null ],
+    [ "aMoveToTable", "dc/da9/classMoveMenu.html#a74d0f42e58ec7564aef79312b318f72e", null ],
     [ "aMoveToTopLibrary", "dc/da9/classMoveMenu.html#ae61f058dfd67e687d546e52bc470f6cf", null ],
     [ "aMoveToXfromTopOfLibrary", "dc/da9/classMoveMenu.html#af18e738f430eec16051b3e70ed18bd56", null ]
 ];

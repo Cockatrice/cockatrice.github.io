@@ -1,13 +1,14 @@
 var classPlayerMenu =
 [
     [ "PlayerMenu", "d7/dd6/classPlayerMenu.html#a0dcf217cfe3ff506b2854a5d9d1e22a0", null ],
+    [ "addManagedMenu", "d7/dd6/classPlayerMenu.html#a88d6feb2f2201e9d95ce4365d34a393d", null ],
     [ "cardMenuUpdated", "d7/dd6/classPlayerMenu.html#a3956c4c71da8c542885d7b80f0f7b6e9", null ],
+    [ "createManagedComponent", "d7/dd6/classPlayerMenu.html#a44e493fcf061c0a7dab3a18b5bf8d444", null ],
     [ "getCountersMenu", "d7/dd6/classPlayerMenu.html#a959d7d816ae9103d931ec8d2902b6b4d", null ],
     [ "getLibraryMenu", "d7/dd6/classPlayerMenu.html#aa179e8ad3f740c6fba49ae2ceb3775b1", null ],
     [ "getPlayerMenu", "d7/dd6/classPlayerMenu.html#afd8348d365a695a0ce832b03eb65ea8a", null ],
     [ "getShortcutsActive", "d7/dd6/classPlayerMenu.html#acf6c0f7f3c3bb0e57b7f395745533f1e", null ],
     [ "getUtilityMenu", "d7/dd6/classPlayerMenu.html#af8f6fc072657a0a71081f2c69824fdb6", null ],
-    [ "initSayMenu", "d7/dd6/classPlayerMenu.html#afe866e9abd6bc8c3d0295a43bfe5668d", null ],
     [ "refreshShortcuts", "d7/dd6/classPlayerMenu.html#a49d8fac881ee3ef4e3fbaac6e05ef690", null ],
     [ "retranslateUi", "d7/dd6/classPlayerMenu.html#a7bb215366af8e9cfa3553e1690e5c78a", null ],
     [ "setMenusForGraphicItems", "d7/dd6/classPlayerMenu.html#a65af470937a9cfb4204ece94e05de93c", null ],
@@ -19,6 +20,7 @@ var classPlayerMenu =
     [ "graveMenu", "d7/dd6/classPlayerMenu.html#af3ab8ea09e4eef09b391741bdd2cbcbb", null ],
     [ "handMenu", "d7/dd6/classPlayerMenu.html#a427cac2a0390b10de4544ff265d15868", null ],
     [ "libraryMenu", "d7/dd6/classPlayerMenu.html#ac0598367f937d065bd9053f855840179", null ],
+    [ "managedComponents", "d7/dd6/classPlayerMenu.html#acce27709e012258dd774c6a65509f78a", null ],
     [ "player", "d7/dd6/classPlayerMenu.html#ad4be5cc898895c2e5b73921181a70695", null ],
     [ "playerMenu", "d7/dd6/classPlayerMenu.html#a38d3fbfc5a68ed2fa0c2b718a03082fd", null ],
     [ "rfgMenu", "d7/dd6/classPlayerMenu.html#ae3a78c5e6da3fa4b966c7d215406ea1d", null ],

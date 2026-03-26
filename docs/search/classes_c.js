@@ -29,5 +29,6 @@ var searchData=
   ['mockcardref_26',['MockCardRef',['../d6/d3b/structMockCardRef.html',1,'']]],
   ['movecardstruct_27',['MoveCardStruct',['../d1/d62/structMoveCardStruct.html',1,'']]],
   ['movemenu_28',['MoveMenu',['../dc/da9/classMoveMenu.html',1,'']]],
-  ['moxfieldjsonparser_29',['MoxfieldJsonParser',['../dd/d95/classMoxfieldJsonParser.html',1,'']]]
+  ['movetopcardsuntiloptions_29',['MoveTopCardsUntilOptions',['../d4/d25/structMoveTopCardsUntilOptions.html',1,'']]],
+  ['moxfieldjsonparser_30',['MoxfieldJsonParser',['../dd/d95/classMoxfieldJsonParser.html',1,'']]]
 ];

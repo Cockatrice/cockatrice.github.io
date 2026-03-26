@@ -11,6 +11,7 @@ var card__menu__action__type_8h =
       [ "cmMoveToBottomLibrary", "d4/d03/card__menu__action__type_8h.html#a0d238f07aea296582821002fbc5a5595a9b1a09b103f58576c7636f8520ef0e0a", null ],
       [ "cmMoveToHand", "d4/d03/card__menu__action__type_8h.html#a0d238f07aea296582821002fbc5a5595a223ad9ccd93b851a0e02a1c253650141", null ],
       [ "cmMoveToGraveyard", "d4/d03/card__menu__action__type_8h.html#a0d238f07aea296582821002fbc5a5595a89e35cdd28e667a3a9528bfe67c98df6", null ],
-      [ "cmMoveToExile", "d4/d03/card__menu__action__type_8h.html#a0d238f07aea296582821002fbc5a5595a1aabc04d0386fba4fcf6be37d467da99", null ]
+      [ "cmMoveToExile", "d4/d03/card__menu__action__type_8h.html#a0d238f07aea296582821002fbc5a5595a1aabc04d0386fba4fcf6be37d467da99", null ],
+      [ "cmMoveToTable", "d4/d03/card__menu__action__type_8h.html#a0d238f07aea296582821002fbc5a5595abf3a64e995327ae9597de96ee606181d", null ]
     ] ]
 ];

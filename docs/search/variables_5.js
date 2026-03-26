@@ -60,11 +60,12 @@ var searchData=
   ['explainmessageslabel_57',['explainMessagesLabel',['../d2/dae/classMessagesSettingsPage.html#ae35d8e7d418178e8ab980ad9d6842e22',1,'MessagesSettingsPage']]],
   ['exprcombobox_58',['exprComboBox',['../dc/d90/classDlgMoveTopCardsUntil.html#a394bf8366277b63cc4fb6d205ecd0a99',1,'DlgMoveTopCardsUntil']]],
   ['exprlabel_59',['exprLabel',['../dc/d90/classDlgMoveTopCardsUntil.html#a8146d92146e988e41e5f0ffbdee04660',1,'DlgMoveTopCardsUntil']]],
-  ['extensions_60',['extensions',['../d6/deb/classQxtSmtpPrivate.html#af132a9647690d51eb59b8afddb10a2c7',1,'QxtSmtpPrivate']]],
-  ['externalgames_61',['externalGames',['../d1/d15/classServer__Room.html#a624fbb459055b35e6c02621c023c3094',1,'Server_Room']]],
-  ['externalusers_62',['externalUsers',['../db/d00/classServer.html#a6cdb81e3e0eece78e4aae04828ea9025',1,'Server::externalUsers'],['../d1/d15/classServer__Room.html#a9690af66f59da6830500c1559f1d90dc',1,'Server_Room::externalUsers']]],
-  ['externalusersbysessionid_63',['externalUsersBySessionId',['../db/d00/classServer.html#a2a450fcd802eae9e8d7817f19f10c489',1,'Server']]],
-  ['extradata_64',['extraData',['../d8/d62/classPendingCommand.html#abfe09fdbfcd0830f72fcc57b01eca3e2',1,'PendingCommand']]],
-  ['extraheaders_65',['extraHeaders',['../d5/d83/structQxtMailAttachmentPrivate.html#a6f02f1af9bb2febc6835a5ab554e9f4f',1,'QxtMailAttachmentPrivate::extraHeaders'],['../d6/d85/structQxtMailMessagePrivate.html#aea674d61ebec8764d6d8ec62fbdb23f2',1,'QxtMailMessagePrivate::extraHeaders']]],
-  ['extraheight_66',['extraHeight',['../d0/dd9/classZoneViewWidget.html#ac07cf5adcb27c2611b7412ba8f116dd1',1,'ZoneViewWidget']]]
+  ['exprs_60',['exprs',['../d4/d25/structMoveTopCardsUntilOptions.html#a6d06698d3447b678e1cfece91763ec79',1,'MoveTopCardsUntilOptions']]],
+  ['extensions_61',['extensions',['../d6/deb/classQxtSmtpPrivate.html#af132a9647690d51eb59b8afddb10a2c7',1,'QxtSmtpPrivate']]],
+  ['externalgames_62',['externalGames',['../d1/d15/classServer__Room.html#a624fbb459055b35e6c02621c023c3094',1,'Server_Room']]],
+  ['externalusers_63',['externalUsers',['../db/d00/classServer.html#a6cdb81e3e0eece78e4aae04828ea9025',1,'Server::externalUsers'],['../d1/d15/classServer__Room.html#a9690af66f59da6830500c1559f1d90dc',1,'Server_Room::externalUsers']]],
+  ['externalusersbysessionid_64',['externalUsersBySessionId',['../db/d00/classServer.html#a2a450fcd802eae9e8d7817f19f10c489',1,'Server']]],
+  ['extradata_65',['extraData',['../d8/d62/classPendingCommand.html#abfe09fdbfcd0830f72fcc57b01eca3e2',1,'PendingCommand']]],
+  ['extraheaders_66',['extraHeaders',['../d5/d83/structQxtMailAttachmentPrivate.html#a6f02f1af9bb2febc6835a5ab554e9f4f',1,'QxtMailAttachmentPrivate::extraHeaders'],['../d6/d85/structQxtMailMessagePrivate.html#aea674d61ebec8764d6d8ec62fbdb23f2',1,'QxtMailMessagePrivate::extraHeaders']]],
+  ['extraheight_67',['extraHeight',['../d0/dd9/classZoneViewWidget.html#ac07cf5adcb27c2611b7412ba8f116dd1',1,'ZoneViewWidget']]]
 ];

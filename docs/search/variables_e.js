@@ -74,12 +74,13 @@ var searchData=
   ['numberofcolumns_71',['numberOfColumns',['../d5/da5/classRemoteReplayList__TreeModel.html#a3ac21a4640dc561586a2a854f6b9f7e6',1,'RemoteReplayList_TreeModel']]],
   ['numberofdiceedit_72',['numberOfDiceEdit',['../df/dfc/classDlgRollDice.html#a62c6e4397b082a8a77c6349bfbc91fc7',1,'DlgRollDice']]],
   ['numberofdicelabel_73',['numberOfDiceLabel',['../df/dfc/classDlgRollDice.html#a8245ab430438892579042eb1be7ff023',1,'DlgRollDice']]],
-  ['numberofhitsedit_74',['numberOfHitsEdit',['../dc/d90/classDlgMoveTopCardsUntil.html#af3043288112f077c0e4280c23757d985',1,'DlgMoveTopCardsUntil']]],
-  ['numberofhitslabel_75',['numberOfHitsLabel',['../dc/d90/classDlgMoveTopCardsUntil.html#a8b41b3e5c92488ccefa1b556bcaecb33',1,'DlgMoveTopCardsUntil']]],
-  ['numberofsidesedit_76',['numberOfSidesEdit',['../df/dfc/classDlgRollDice.html#a35c6741770011e384ab2c7da86c7cfbc',1,'DlgRollDice']]],
-  ['numberofsideslabel_77',['numberOfSidesLabel',['../df/dfc/classDlgRollDice.html#a42a6b67b69ee85454c10694d9d17f8fd',1,'DlgRollDice']]],
-  ['numberplayers_78',['numberPlayers',['../d9/de7/structLocalGameOptions.html#a09bd3b7c9f3c7a9271d92f18e4030709',1,'LocalGameOptions']]],
-  ['numberplayersedit_79',['numberPlayersEdit',['../d6/d68/classDlgLocalGameOptions.html#aaee894779bef31d2aede490d2752098d',1,'DlgLocalGameOptions']]],
-  ['numberplayerslabel_80',['numberPlayersLabel',['../d6/d68/classDlgLocalGameOptions.html#a9a3dba9e7ef6583d5af69158e6547291',1,'DlgLocalGameOptions']]],
-  ['numdecks_81',['numDecks',['../d7/d62/classEdhrecApiResponseCardDetails.html#ae2a6633fac5d44a78aaec6d1d0561c36',1,'EdhrecApiResponseCardDetails::numDecks'],['../d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a1b14478d6ce43cba696ea96b9dfd36a0',1,'EdhrecCommanderApiResponseCommanderDetails::numDecks']]]
+  ['numberofhits_74',['numberOfHits',['../d4/d25/structMoveTopCardsUntilOptions.html#a939eb386791425b0404809652ef3fbc6',1,'MoveTopCardsUntilOptions']]],
+  ['numberofhitsedit_75',['numberOfHitsEdit',['../dc/d90/classDlgMoveTopCardsUntil.html#af3043288112f077c0e4280c23757d985',1,'DlgMoveTopCardsUntil']]],
+  ['numberofhitslabel_76',['numberOfHitsLabel',['../dc/d90/classDlgMoveTopCardsUntil.html#a8b41b3e5c92488ccefa1b556bcaecb33',1,'DlgMoveTopCardsUntil']]],
+  ['numberofsidesedit_77',['numberOfSidesEdit',['../df/dfc/classDlgRollDice.html#a35c6741770011e384ab2c7da86c7cfbc',1,'DlgRollDice']]],
+  ['numberofsideslabel_78',['numberOfSidesLabel',['../df/dfc/classDlgRollDice.html#a42a6b67b69ee85454c10694d9d17f8fd',1,'DlgRollDice']]],
+  ['numberplayers_79',['numberPlayers',['../d9/de7/structLocalGameOptions.html#a09bd3b7c9f3c7a9271d92f18e4030709',1,'LocalGameOptions']]],
+  ['numberplayersedit_80',['numberPlayersEdit',['../d6/d68/classDlgLocalGameOptions.html#aaee894779bef31d2aede490d2752098d',1,'DlgLocalGameOptions']]],
+  ['numberplayerslabel_81',['numberPlayersLabel',['../d6/d68/classDlgLocalGameOptions.html#a9a3dba9e7ef6583d5af69158e6547291',1,'DlgLocalGameOptions']]],
+  ['numdecks_82',['numDecks',['../d7/d62/classEdhrecApiResponseCardDetails.html#ae2a6633fac5d44a78aaec6d1d0561c36',1,'EdhrecApiResponseCardDetails::numDecks'],['../d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a1b14478d6ce43cba696ea96b9dfd36a0',1,'EdhrecCommanderApiResponseCommanderDetails::numDecks']]]
 ];

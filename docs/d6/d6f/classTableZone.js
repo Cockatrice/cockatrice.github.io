@@ -23,6 +23,7 @@ var classTableZone =
     [ "setActive", "d6/d6f/classTableZone.html#a1a5b346e500195fe51dedf1b56fe6225", null ],
     [ "setWidth", "d6/d6f/classTableZone.html#ae61590673fe24889e5f0fe52faff7088", null ],
     [ "sizeChanged", "d6/d6f/classTableZone.html#affdbd7c0d3f501906e7be7a82e51893a", null ],
+    [ "tableRowToGridY", "d6/d6f/classTableZone.html#a63384b2cc004092f7c253e3ea349e6fb", null ],
     [ "toggleTapped", "d6/d6f/classTableZone.html#ac958837aa5ffa93bdf59b14bb05a009d", null ],
     [ "updateBg", "d6/d6f/classTableZone.html#a545e9b1000b33e5fb26779c671b70360", null ],
     [ "active", "d6/d6f/classTableZone.html#ac7737b35855d6a60917afa160b93e177", null ],
