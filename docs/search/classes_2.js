@@ -58,9 +58,11 @@ var searchData=
   ['colorbar_55',['ColorBar',['../d1/d46/classColorBar.html',1,'']]],
   ['coloridentitywidget_56',['ColorIdentityWidget',['../d7/d30/classColorIdentityWidget.html',1,'']]],
   ['colorpie_57',['ColorPie',['../d9/d42/classColorPie.html',1,'']]],
-  ['context_58',['Context',['../df/d94/classpeg_1_1Context.html',1,'peg']]],
-  ['counterpixmapgenerator_59',['CounterPixmapGenerator',['../dd/dbb/classCounterPixmapGenerator.html',1,'']]],
-  ['countrypixmapgenerator_60',['CountryPixmapGenerator',['../db/d2a/classCountryPixmapGenerator.html',1,'']]],
-  ['customzonemenu_61',['CustomZoneMenu',['../d2/d1e/classCustomZoneMenu.html',1,'']]],
-  ['cut_62',['Cut',['../da/d38/classpeg_1_1Cut.html',1,'peg']]]
+  ['computecanbeempty_58',['ComputeCanBeEmpty',['../d5/de5/structpeg_1_1ComputeCanBeEmpty.html',1,'peg']]],
+  ['computefirstset_59',['ComputeFirstSet',['../dd/d7e/structpeg_1_1ComputeFirstSet.html',1,'peg']]],
+  ['context_60',['Context',['../df/d94/classpeg_1_1Context.html',1,'peg']]],
+  ['counterpixmapgenerator_61',['CounterPixmapGenerator',['../dd/dbb/classCounterPixmapGenerator.html',1,'']]],
+  ['countrypixmapgenerator_62',['CountryPixmapGenerator',['../db/d2a/classCountryPixmapGenerator.html',1,'']]],
+  ['customzonemenu_63',['CustomZoneMenu',['../d2/d1e/classCustomZoneMenu.html',1,'']]],
+  ['cut_64',['Cut',['../da/d38/classpeg_1_1Cut.html',1,'peg']]]
 ];

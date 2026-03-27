@@ -2,7 +2,6 @@ var structpeg_1_1SemanticValues =
 [
     [ "SemanticValues", "df/dd5/structpeg_1_1SemanticValues.html#a2feaf6ddf15638ac6d5cdc8cfe348aef", null ],
     [ "SemanticValues", "df/dd5/structpeg_1_1SemanticValues.html#abe5910ebe04df0fc581a28adee85c4eb", null ],
-    [ "append", "df/dd5/structpeg_1_1SemanticValues.html#a052f1565075cedc9e3a208ca4f6a1338", null ],
     [ "choice", "df/dd5/structpeg_1_1SemanticValues.html#a431b5752198cf04df62b721943dc6c2e", null ],
     [ "choice_count", "df/dd5/structpeg_1_1SemanticValues.html#a63af4b2e71834b85c6cb5caa5bff8050", null ],
     [ "line_info", "df/dd5/structpeg_1_1SemanticValues.html#a02e5b0ba9db61ad2f8c23dff4a928337", null ],

@@ -8,7 +8,7 @@ var dir_8898b63099422bcdddce99951b07b283 =
     [ "debug_settings.h", "d9/d91/debug__settings_8h.html", "d9/d91/debug__settings_8h" ],
     [ "download_settings.cpp", "d9/d17/download__settings_8cpp.html", null ],
     [ "download_settings.h", "d0/de1/download__settings_8h.html", "d0/de1/download__settings_8h" ],
-    [ "game_filters_settings.cpp", "d8/d0b/game__filters__settings_8cpp.html", null ],
+    [ "game_filters_settings.cpp", "d8/d0b/game__filters__settings_8cpp.html", "d8/d0b/game__filters__settings_8cpp" ],
     [ "game_filters_settings.h", "d9/dfd/game__filters__settings_8h.html", "d9/dfd/game__filters__settings_8h" ],
     [ "layouts_settings.cpp", "dd/d07/layouts__settings_8cpp.html", "dd/d07/layouts__settings_8cpp" ],
     [ "layouts_settings.h", "d9/df1/layouts__settings_8h.html", "d9/df1/layouts__settings_8h" ],

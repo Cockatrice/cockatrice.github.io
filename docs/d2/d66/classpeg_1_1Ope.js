@@ -4,5 +4,7 @@ var classpeg_1_1Ope =
     [ "~Ope", "d2/d66/classpeg_1_1Ope.html#ac7c58ac69a92a5bdd8ad8c0d720a6dab", null ],
     [ "accept", "d2/d66/classpeg_1_1Ope.html#af57615cfe8938c0f4c9a0dd6df9da560", null ],
     [ "parse", "d2/d66/classpeg_1_1Ope.html#ad41087e2184b1f1d65589a762ab7eaf5", null ],
-    [ "parse_core", "d2/d66/classpeg_1_1Ope.html#ad89a7be51f37cce8c940ff6fafdcb4f5", null ]
+    [ "parse_core", "d2/d66/classpeg_1_1Ope.html#ad89a7be51f37cce8c940ff6fafdcb4f5", null ],
+    [ "is_choice_like", "d2/d66/classpeg_1_1Ope.html#a91a45bcf5cc492eaf320b066e3598a8b", null ],
+    [ "is_token_boundary", "d2/d66/classpeg_1_1Ope.html#ab3aeb9bf86122045cd6ec71dbf4d9735", null ]
 ];

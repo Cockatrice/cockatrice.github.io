@@ -38,5 +38,6 @@ var searchData=
   ['tokeninfo_35',['TokenInfo',['../dd/d40/structTokenInfo.html',1,'']]],
   ['traceopename_36',['TraceOpeName',['../d1/dab/structpeg_1_1TraceOpeName.html',1,'peg']]],
   ['translatecountername_37',['TranslateCounterName',['../d8/dab/classTranslateCounterName.html',1,'']]],
-  ['trie_38',['Trie',['../d4/da5/classpeg_1_1Trie.html',1,'peg']]]
+  ['traversalvisitor_38',['TraversalVisitor',['../da/ddf/structpeg_1_1TraversalVisitor.html',1,'peg']]],
+  ['trie_39',['Trie',['../d4/da5/classpeg_1_1Trie.html',1,'peg']]]
 ];

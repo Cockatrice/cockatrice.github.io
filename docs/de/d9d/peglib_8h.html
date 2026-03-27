@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-25-Development-2.11.0-beta.56</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-27-Development-2.11.0-beta.57</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -101,6 +101,7 @@ $(function(){initNavTree('de/d9d/peglib_8h.html','../../',''); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;any&gt;</code><br />
+<code>#include &lt;bitset&gt;</code><br />
 <code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;cctype&gt;</code><br />
 <code>#include &lt;cstring&gt;</code><br />
@@ -111,6 +112,7 @@ $(function(){initNavTree('de/d9d/peglib_8h.html','../../',''); });
 <code>#include &lt;map&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;mutex&gt;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 <code>#include &lt;set&gt;</code><br />
 <code>#include &lt;sstream&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
@@ -141,10 +143,16 @@ Classes</h2></td></tr>
 <tr class="memitem:peg_3A_3Aargument_5Fcount_3C_20R_28C_3A_3A_2A_29_28Args_2E_2E_2E_29_3E" id="r_peg_3A_3Aargument_5Fcount_3C_20R_28C_3A_3A_2A_29_28Args_2E_2E_2E_29_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d90/structpeg_1_1argument__count_3_01R_07C_1_1_5_08_07Args_8_8_8_08_4.html">peg::argument_count&lt; R(C::*)(Args...)&gt;</a></td></tr>
 <tr class="memitem:peg_3A_3Aargument_5Fcount_3C_20R_28C_3A_3A_2A_29_28Args_2E_2E_2E_29_20const_20_3E" id="r_peg_3A_3Aargument_5Fcount_3C_20R_28C_3A_3A_2A_29_28Args_2E_2E_2E_29_20const_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d27/structpeg_1_1argument__count_3_01R_07C_1_1_5_08_07Args_8_8_8_08_01const_01_4.html">peg::argument_count&lt; R(C::*)(Args...) const &gt;</a></td></tr>
 <tr class="memitem:peg_3A_3AAction" id="r_peg_3A_3AAction"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da7/classpeg_1_1Action.html">peg::Action</a></td></tr>
+<tr class="memitem:peg_3A_3APredicate" id="r_peg_3A_3APredicate"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da7/classpeg_1_1Predicate.html">peg::Predicate</a></td></tr>
 <tr class="memitem:peg_3A_3AErrorInfo" id="r_peg_3A_3AErrorInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da9/structpeg_1_1ErrorInfo.html">peg::ErrorInfo</a></td></tr>
 <tr class="memitem:peg_3A_3AContext" id="r_peg_3A_3AContext"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d94/classpeg_1_1Context.html">peg::Context</a></td></tr>
+<tr class="memitem:peg_3A_3AContext_3A_3ALRMemo" id="r_peg_3A_3AContext_3A_3ALRMemo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d84/structpeg_1_1Context_1_1LRMemo.html">peg::Context::LRMemo</a></td></tr>
+<tr class="memitem:peg_3A_3AContext_3A_3APackratStats" id="r_peg_3A_3AContext_3A_3APackratStats"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcb/structpeg_1_1Context_1_1PackratStats.html">peg::Context::PackratStats</a></td></tr>
+<tr class="memitem:peg_3A_3AContext_3A_3ASnapshot" id="r_peg_3A_3AContext_3A_3ASnapshot"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de0/structpeg_1_1Context_1_1Snapshot.html">peg::Context::Snapshot</a></td></tr>
 <tr class="memitem:peg_3A_3AOpe" id="r_peg_3A_3AOpe"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d66/classpeg_1_1Ope.html">peg::Ope</a></td></tr>
+<tr class="memitem:peg_3A_3AKeywordGuardData" id="r_peg_3A_3AKeywordGuardData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9a/structpeg_1_1KeywordGuardData.html">peg::KeywordGuardData</a></td></tr>
 <tr class="memitem:peg_3A_3ASequence" id="r_peg_3A_3ASequence"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7c/classpeg_1_1Sequence.html">peg::Sequence</a></td></tr>
+<tr class="memitem:peg_3A_3AFirstSet" id="r_peg_3A_3AFirstSet"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc7/structpeg_1_1FirstSet.html">peg::FirstSet</a></td></tr>
 <tr class="memitem:peg_3A_3APrioritizedChoice" id="r_peg_3A_3APrioritizedChoice"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d1c/classpeg_1_1PrioritizedChoice.html">peg::PrioritizedChoice</a></td></tr>
 <tr class="memitem:peg_3A_3ARepetition" id="r_peg_3A_3ARepetition"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de3/classpeg_1_1Repetition.html">peg::Repetition</a></td></tr>
 <tr class="memitem:peg_3A_3AAndPredicate" id="r_peg_3A_3AAndPredicate"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5e/classpeg_1_1AndPredicate.html">peg::AndPredicate</a></td></tr>
@@ -168,23 +176,28 @@ Classes</h2></td></tr>
 <tr class="memitem:peg_3A_3ARecovery" id="r_peg_3A_3ARecovery"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d83/classpeg_1_1Recovery.html">peg::Recovery</a></td></tr>
 <tr class="memitem:peg_3A_3ACut" id="r_peg_3A_3ACut"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d38/classpeg_1_1Cut.html">peg::Cut</a></td></tr>
 <tr class="memitem:peg_3A_3AOpe_3A_3AVisitor" id="r_peg_3A_3AOpe_3A_3AVisitor"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/daa/structpeg_1_1Ope_1_1Visitor.html">peg::Ope::Visitor</a></td></tr>
+<tr class="memitem:peg_3A_3ATraversalVisitor" id="r_peg_3A_3ATraversalVisitor"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddf/structpeg_1_1TraversalVisitor.html">peg::TraversalVisitor</a></td></tr>
 <tr class="memitem:peg_3A_3ATraceOpeName" id="r_peg_3A_3ATraceOpeName"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dab/structpeg_1_1TraceOpeName.html">peg::TraceOpeName</a></td></tr>
 <tr class="memitem:peg_3A_3AAssignIDToDefinition" id="r_peg_3A_3AAssignIDToDefinition"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d27/structpeg_1_1AssignIDToDefinition.html">peg::AssignIDToDefinition</a></td></tr>
 <tr class="memitem:peg_3A_3AIsLiteralToken" id="r_peg_3A_3AIsLiteralToken"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d67/structpeg_1_1IsLiteralToken.html">peg::IsLiteralToken</a></td></tr>
 <tr class="memitem:peg_3A_3ATokenChecker" id="r_peg_3A_3ATokenChecker"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4a/structpeg_1_1TokenChecker.html">peg::TokenChecker</a></td></tr>
 <tr class="memitem:peg_3A_3AFindLiteralToken" id="r_peg_3A_3AFindLiteralToken"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfd/structpeg_1_1FindLiteralToken.html">peg::FindLiteralToken</a></td></tr>
 <tr class="memitem:peg_3A_3ADetectLeftRecursion" id="r_peg_3A_3ADetectLeftRecursion"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dff/structpeg_1_1DetectLeftRecursion.html">peg::DetectLeftRecursion</a></td></tr>
+<tr class="memitem:peg_3A_3AComputeCanBeEmpty" id="r_peg_3A_3AComputeCanBeEmpty"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de5/structpeg_1_1ComputeCanBeEmpty.html">peg::ComputeCanBeEmpty</a></td></tr>
 <tr class="memitem:peg_3A_3AHasEmptyElement" id="r_peg_3A_3AHasEmptyElement"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/daf/structpeg_1_1HasEmptyElement.html">peg::HasEmptyElement</a></td></tr>
 <tr class="memitem:peg_3A_3ADetectInfiniteLoop" id="r_peg_3A_3ADetectInfiniteLoop"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d34/structpeg_1_1DetectInfiniteLoop.html">peg::DetectInfiniteLoop</a></td></tr>
 <tr class="memitem:peg_3A_3AReferenceChecker" id="r_peg_3A_3AReferenceChecker"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de4/structpeg_1_1ReferenceChecker.html">peg::ReferenceChecker</a></td></tr>
 <tr class="memitem:peg_3A_3ALinkReferences" id="r_peg_3A_3ALinkReferences"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcf/structpeg_1_1LinkReferences.html">peg::LinkReferences</a></td></tr>
 <tr class="memitem:peg_3A_3AFindReference" id="r_peg_3A_3AFindReference"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dfd/structpeg_1_1FindReference.html">peg::FindReference</a></td></tr>
+<tr class="memitem:peg_3A_3AComputeFirstSet" id="r_peg_3A_3AComputeFirstSet"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7e/structpeg_1_1ComputeFirstSet.html">peg::ComputeFirstSet</a></td></tr>
+<tr class="memitem:peg_3A_3ASetupFirstSets" id="r_peg_3A_3ASetupFirstSets"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/db4/structpeg_1_1SetupFirstSets.html">peg::SetupFirstSets</a></td></tr>
 <tr class="memitem:peg_3A_3ADefinition" id="r_peg_3A_3ADefinition"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d94/classpeg_1_1Definition.html">peg::Definition</a></td></tr>
 <tr class="memitem:peg_3A_3ADefinition_3A_3AResult" id="r_peg_3A_3ADefinition_3A_3AResult"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d1f/structpeg_1_1Definition_1_1Result.html">peg::Definition::Result</a></td></tr>
 <tr class="memitem:peg_3A_3AParserGenerator" id="r_peg_3A_3AParserGenerator"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/classpeg_1_1ParserGenerator.html">peg::ParserGenerator</a></td></tr>
 <tr class="memitem:peg_3A_3AParserGenerator_3A_3AParserContext" id="r_peg_3A_3AParserGenerator_3A_3AParserContext"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db3/structpeg_1_1ParserGenerator_1_1ParserContext.html">peg::ParserGenerator::ParserContext</a></td></tr>
 <tr class="memitem:peg_3A_3AParserGenerator_3A_3AInstruction" id="r_peg_3A_3AParserGenerator_3A_3AInstruction"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html">peg::ParserGenerator::Instruction</a></td></tr>
 <tr class="memitem:peg_3A_3AParserGenerator_3A_3AData" id="r_peg_3A_3AParserGenerator_3A_3AData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/structpeg_1_1ParserGenerator_1_1Data.html">peg::ParserGenerator::Data</a></td></tr>
+<tr class="memitem:peg_3A_3AParserGenerator_3A_3ASyntaxErrorException" id="r_peg_3A_3AParserGenerator_3A_3ASyntaxErrorException"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html">peg::ParserGenerator::SyntaxErrorException</a></td></tr>
 <tr class="memitem:peg_3A_3AAstBase_3C_20Annotation_20_3E" id="r_peg_3A_3AAstBase_3C_20Annotation_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d75/structpeg_1_1AstBase.html">peg::AstBase&lt; Annotation &gt;</a></td></tr>
 <tr class="memitem:peg_3A_3AAstOptimizer" id="r_peg_3A_3AAstOptimizer"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dae/structpeg_1_1AstOptimizer.html">peg::AstOptimizer</a></td></tr>
 <tr class="memitem:peg_3A_3AEmptyType" id="r_peg_3A_3AEmptyType"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d75/structpeg_1_1EmptyType.html">peg::EmptyType</a></td></tr>
@@ -336,6 +349,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a6467f8636691f3591157c71a18c15e79" id="r_a6467f8636691f3591157c71a18c15e79"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#a6467f8636691f3591157c71a18c15e79">peg::resolve_escape_sequence</a> (const char *s, size_t n)</td></tr>
 <tr class="memitem:a425a441a7cf9117ba8d2fe193d5575e0" id="r_a425a441a7cf9117ba8d2fe193d5575e0"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a425a441a7cf9117ba8d2fe193d5575e0 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#a425a441a7cf9117ba8d2fe193d5575e0">peg::token_to_number_</a> (std::string_view sv)</td></tr>
+<tr class="memitem:af2b3ca42c63b359a96367fd9a20102fd" id="r_af2b3ca42c63b359a96367fd9a20102fd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#af2b3ca42c63b359a96367fd9a20102fd">peg::to_lower</a> (std::string s)</td></tr>
 <tr class="memitem:a271c917c846302e10267a6be78a28d49" id="r_a271c917c846302e10267a6be78a28d49"><td class="memItemLeft" align="right" valign="top">std::pair&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#a271c917c846302e10267a6be78a28d49">peg::line_info</a> (const char *start, const char *cur)</td></tr>
 <tr class="memitem:a9e80871c3e6bb9bfe093e1da0cc5ef87" id="r_a9e80871c3e6bb9bfe093e1da0cc5ef87"><td class="memItemLeft" align="right" valign="top">constexpr unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#a9e80871c3e6bb9bfe093e1da0cc5ef87">peg::str2tag_core</a> (const char *s, size_t l, unsigned int h)</td></tr>
 <tr class="memitem:ab11b144570fda940a42075a2c1394820" id="r_ab11b144570fda940a42075a2c1394820"><td class="memItemLeft" align="right" valign="top">constexpr unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#ab11b144570fda940a42075a2c1394820">peg::str2tag</a> (std::string_view sv)</td></tr>
@@ -363,7 +377,7 @@ Functions</h2></td></tr>
 <tr class="memitem:abcd02f1df8e8731b480bffc42830c6f1" id="r_abcd02f1df8e8731b480bffc42830c6f1"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#abcd02f1df8e8731b480bffc42830c6f1">peg::cls</a> (const std::vector&lt; std::pair&lt; char32_t, char32_t &gt; &gt; &amp;ranges, bool ignore_case=false)</td></tr>
 <tr class="memitem:abf603c864440a9b11d319421ea53baa4" id="r_abf603c864440a9b11d319421ea53baa4"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#abf603c864440a9b11d319421ea53baa4">peg::ncls</a> (const std::string &amp;s)</td></tr>
 <tr class="memitem:ab0717a41ff5ecc09dd35b5fe3aebd496" id="r_ab0717a41ff5ecc09dd35b5fe3aebd496"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#ab0717a41ff5ecc09dd35b5fe3aebd496">peg::ncls</a> (const std::vector&lt; std::pair&lt; char32_t, char32_t &gt; &gt; &amp;ranges, bool ignore_case=false)</td></tr>
-<tr class="memitem:a6b4775e446b2c75d995cc1ce15d2a6f6" id="r_a6b4775e446b2c75d995cc1ce15d2a6f6"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#a6b4775e446b2c75d995cc1ce15d2a6f6">peg::chr</a> (char dt)</td></tr>
+<tr class="memitem:a7bae5366549a0edab076f65821f0a8b5" id="r_a7bae5366549a0edab076f65821f0a8b5"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#a7bae5366549a0edab076f65821f0a8b5">peg::chr</a> (char32_t dt)</td></tr>
 <tr class="memitem:a7108dfb0448e74232e3ef7a348c2cd09" id="r_a7108dfb0448e74232e3ef7a348c2cd09"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#a7108dfb0448e74232e3ef7a348c2cd09">peg::dot</a> ()</td></tr>
 <tr class="memitem:a134f4d0a2034b7f922afd53bd7d56bb6" id="r_a134f4d0a2034b7f922afd53bd7d56bb6"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#a134f4d0a2034b7f922afd53bd7d56bb6">peg::csc</a> (const std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt; &amp;ope)</td></tr>
 <tr class="memitem:acbcf7406c547b0558e37365e719342e2" id="r_acbcf7406c547b0558e37365e719342e2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#acbcf7406c547b0558e37365e719342e2">peg::cap</a> (const std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt; &amp;ope, <a class="el" href="../../d2/d36/classpeg_1_1Capture.html#a9f32cd52300230a96ff79954ac7899dd">Capture::MatchAction</a> ma)</td></tr>
@@ -376,7 +390,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a45933e7f137e0b1367791583d16d2cbb" id="r_a45933e7f137e0b1367791583d16d2cbb"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#a45933e7f137e0b1367791583d16d2cbb">peg::pre</a> (const std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt; &amp;atom, const std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt; &amp;binop, const <a class="el" href="../../d5/dd9/classpeg_1_1PrecedenceClimbing.html#a19e7283741229750a0ca58313ba72d02">PrecedenceClimbing::BinOpeInfo</a> &amp;info, const <a class="el" href="../../d8/d94/classpeg_1_1Definition.html">Definition</a> &amp;rule)</td></tr>
 <tr class="memitem:a2870688703138097fddfbdc385868ca8" id="r_a2870688703138097fddfbdc385868ca8"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#a2870688703138097fddfbdc385868ca8">peg::rec</a> (const std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt; &amp;ope)</td></tr>
 <tr class="memitem:a0a7f3d30e7e2fa452cb900ba665d7b95" id="r_a0a7f3d30e7e2fa452cb900ba665d7b95"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d2/d66/classpeg_1_1Ope.html">Ope</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#a0a7f3d30e7e2fa452cb900ba665d7b95">peg::cut</a> ()</td></tr>
-<tr class="memitem:a5fa079895d7f26f8a6f0a4fc488afde0" id="r_a5fa079895d7f26f8a6f0a4fc488afde0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#a5fa079895d7f26f8a6f0a4fc488afde0">peg::parse_literal</a> (const char *s, size_t n, <a class="el" href="../../df/dd5/structpeg_1_1SemanticValues.html">SemanticValues</a> &amp;vs, <a class="el" href="../../df/d94/classpeg_1_1Context.html">Context</a> &amp;c, std::any &amp;dt, const std::string &amp;<a class="el" href="../../dc/db2/namespacepeg.html#a6510c8b649470fdf3c26807bcd0994ad">lit</a>, std::once_flag &amp;init_is_word, bool &amp;is_word, bool ignore_case)</td></tr>
+<tr class="memitem:a0536a864a945d5faeb0053f0f59244ae" id="r_a0536a864a945d5faeb0053f0f59244ae"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#a0536a864a945d5faeb0053f0f59244ae">peg::parse_literal</a> (const char *s, size_t n, <a class="el" href="../../df/dd5/structpeg_1_1SemanticValues.html">SemanticValues</a> &amp;vs, <a class="el" href="../../df/d94/classpeg_1_1Context.html">Context</a> &amp;c, std::any &amp;dt, const std::string &amp;<a class="el" href="../../dc/db2/namespacepeg.html#a6510c8b649470fdf3c26807bcd0994ad">lit</a>, std::once_flag &amp;init_is_word, bool &amp;is_word, bool ignore_case, const std::string &amp;lower_lit)</td></tr>
 <tr class="memitem:aacf6410cf81246c2feb4044d090b1728" id="r_aacf6410cf81246c2feb4044d090b1728"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:aacf6410cf81246c2feb4044d090b1728 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db2/namespacepeg.html#aacf6410cf81246c2feb4044d090b1728">peg::ast_to_s_core</a> (const std::shared_ptr&lt; T &gt; &amp;ptr, std::string &amp;s, int level, std::function&lt; std::string(const T &amp;ast, int level)&gt; fn)</td></tr>
 <tr class="memitem:a7f6978d7c5e338f14df7cf0b9711dd08" id="r_a7f6978d7c5e338f14df7cf0b9711dd08"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -408,9 +422,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">  <a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a25196fcc594685d5fa9d20fa3f132b76">PEG_CONCAT2</a>(PEG_DEF_, <a class="code hl_define" href="#a905827ffded176cdd6056428d09d9936">PEG_COUNT</a>(__VA_ARGS__))(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a25196fcc594685d5fa9d20fa3f132b76"><div class="ttname"><a href="#a25196fcc594685d5fa9d20fa3f132b76">PEG_CONCAT2</a></div><div class="ttdeci">#define PEG_CONCAT2(a, b)</div><div class="ttdef"><b>Definition</b> peglib.h:4418</div></div>
-<div class="ttc" id="apeglib_8h_html_a5cf40e466321f85b8cd467f3f188f125"><div class="ttname"><a href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a></div><div class="ttdeci">#define PEG_EXPAND(...)</div><div class="ttdef"><b>Definition</b> peglib.h:4416</div></div>
-<div class="ttc" id="apeglib_8h_html_a905827ffded176cdd6056428d09d9936"><div class="ttname"><a href="#a905827ffded176cdd6056428d09d9936">PEG_COUNT</a></div><div class="ttdeci">#define PEG_COUNT(...)</div><div class="ttdef"><b>Definition</b> peglib.h:4430</div></div>
+<div class="ttc" id="apeglib_8h_html_a25196fcc594685d5fa9d20fa3f132b76"><div class="ttname"><a href="#a25196fcc594685d5fa9d20fa3f132b76">PEG_CONCAT2</a></div><div class="ttdeci">#define PEG_CONCAT2(a, b)</div><div class="ttdef"><b>Definition</b> peglib.h:5233</div></div>
+<div class="ttc" id="apeglib_8h_html_a5cf40e466321f85b8cd467f3f188f125"><div class="ttname"><a href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a></div><div class="ttdeci">#define PEG_EXPAND(...)</div><div class="ttdef"><b>Definition</b> peglib.h:5231</div></div>
+<div class="ttc" id="apeglib_8h_html_a905827ffded176cdd6056428d09d9936"><div class="ttname"><a href="#a905827ffded176cdd6056428d09d9936">PEG_COUNT</a></div><div class="ttdeci">#define PEG_COUNT(...)</div><div class="ttdef"><b>Definition</b> peglib.h:5245</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -469,7 +483,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a30124585f54632e0600a47396bf4791f">PEG_CONCAT</a>(a, b)</div>
-<div class="ttc" id="apeglib_8h_html_a30124585f54632e0600a47396bf4791f"><div class="ttname"><a href="#a30124585f54632e0600a47396bf4791f">PEG_CONCAT</a></div><div class="ttdeci">#define PEG_CONCAT(a, b)</div><div class="ttdef"><b>Definition</b> peglib.h:4417</div></div>
+<div class="ttc" id="apeglib_8h_html_a30124585f54632e0600a47396bf4791f"><div class="ttname"><a href="#a30124585f54632e0600a47396bf4791f">PEG_CONCAT</a></div><div class="ttdeci">#define PEG_CONCAT(a, b)</div><div class="ttdef"><b>Definition</b> peglib.h:5232</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -494,7 +508,7 @@ Variables</h2></td></tr>
 <div class="line">      50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33,  \</div>
 <div class="line">      32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15,  \</div>
 <div class="line">      14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0))</div>
-<div class="ttc" id="apeglib_8h_html_aa3a2071ce4e4d7bbfa64421d1766b9c4"><div class="ttname"><a href="#aa3a2071ce4e4d7bbfa64421d1766b9c4">PEG_PICK</a></div><div class="ttdeci">#define PEG_PICK( a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30, a31, a32, a33, a34, a35, a36, a37, a38, a39, a40, a41, a42, a43, a44, a45, a46, a47, a48, a49, a50, a51, a52, a53, a54, a55, a56, a57, a58, a59, a60, a61, a62, a63, a64, a65, a66, a67, a68, a69, a70, a71, a72, a73, a74, a75, a76, a77, a78, a79, a80, a81, a82, a83, a84, a85, a86, a87, a88, a89, a90, a91, a92, a93, a94, a95, a96, a97, a98, a99, a100,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4420</div></div>
+<div class="ttc" id="apeglib_8h_html_aa3a2071ce4e4d7bbfa64421d1766b9c4"><div class="ttname"><a href="#aa3a2071ce4e4d7bbfa64421d1766b9c4">PEG_PICK</a></div><div class="ttdeci">#define PEG_PICK( a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30, a31, a32, a33, a34, a35, a36, a37, a38, a39, a40, a41, a42, a43, a44, a45, a46, a47, a48, a49, a50, a51, a52, a53, a54, a55, a56, a57, a58, a59, a60, a61, a62, a63, a64, a65, a66, a67, a68, a69, a70, a71, a72, a73, a74, a75, a76, a77, a78, a79, a80, a81, a82, a83, a84, a85, a86, a87, a88, a89, a90, a91, a92, a93, a94, a95, a96, a97, a98, a99, a100,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5235</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -515,8 +529,8 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">  <a class="code hl_class" href="../../d8/d94/classpeg_1_1Definition.html">peg::Definition</a> r;                                                           \</div>
 <div class="line">  r.<a class="code hl_variable" href="../../d8/d94/classpeg_1_1Definition.html#adf37c598980519d5912571902a137137">name</a> = #r;                                                                 \</div>
 <div class="line">  peg::add_ast_action(r);</div>
-<div class="ttc" id="aclasspeg_1_1Definition_html"><div class="ttname"><a href="../../d8/d94/classpeg_1_1Definition.html">peg::Definition</a></div><div class="ttdef"><b>Definition</b> peglib.h:2206</div></div>
-<div class="ttc" id="aclasspeg_1_1Definition_html_adf37c598980519d5912571902a137137"><div class="ttname"><a href="../../d8/d94/classpeg_1_1Definition.html#adf37c598980519d5912571902a137137">peg::Definition::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition</b> peglib.h:2377</div></div>
+<div class="ttc" id="aclasspeg_1_1Definition_html"><div class="ttname"><a href="../../d8/d94/classpeg_1_1Definition.html">peg::Definition</a></div><div class="ttdef"><b>Definition</b> peglib.h:2575</div></div>
+<div class="ttc" id="aclasspeg_1_1Definition_html_adf37c598980519d5912571902a137137"><div class="ttname"><a href="../../d8/d94/classpeg_1_1Definition.html#adf37c598980519d5912571902a137137">peg::Definition::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition</b> peglib.h:2746</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -539,8 +553,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ad88626570e9ef86a1149a1f9bffa2197">PEG_DEF_9</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a87d09330101044947a4da8d804a23e96"><div class="ttname"><a href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a></div><div class="ttdeci">#define PEG_DEF_1(r)</div><div class="ttdef"><b>Definition</b> peglib.h:4439</div></div>
-<div class="ttc" id="apeglib_8h_html_ad88626570e9ef86a1149a1f9bffa2197"><div class="ttname"><a href="#ad88626570e9ef86a1149a1f9bffa2197">PEG_DEF_9</a></div><div class="ttdeci">#define PEG_DEF_9(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4451</div></div>
+<div class="ttc" id="apeglib_8h_html_a87d09330101044947a4da8d804a23e96"><div class="ttname"><a href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a></div><div class="ttdeci">#define PEG_DEF_1(r)</div><div class="ttdef"><b>Definition</b> peglib.h:5254</div></div>
+<div class="ttc" id="apeglib_8h_html_ad88626570e9ef86a1149a1f9bffa2197"><div class="ttname"><a href="#ad88626570e9ef86a1149a1f9bffa2197">PEG_DEF_9</a></div><div class="ttdeci">#define PEG_DEF_9(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5266</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -563,7 +577,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a95a2b4c9060b4fd3df3a107b44bbf177">PEG_DEF_99</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a95a2b4c9060b4fd3df3a107b44bbf177"><div class="ttname"><a href="#a95a2b4c9060b4fd3df3a107b44bbf177">PEG_DEF_99</a></div><div class="ttdeci">#define PEG_DEF_99(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4541</div></div>
+<div class="ttc" id="apeglib_8h_html_a95a2b4c9060b4fd3df3a107b44bbf177"><div class="ttname"><a href="#a95a2b4c9060b4fd3df3a107b44bbf177">PEG_DEF_99</a></div><div class="ttdeci">#define PEG_DEF_99(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5356</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -586,7 +600,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a9704269ead52defd020934dcb705e016">PEG_DEF_10</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a9704269ead52defd020934dcb705e016"><div class="ttname"><a href="#a9704269ead52defd020934dcb705e016">PEG_DEF_10</a></div><div class="ttdeci">#define PEG_DEF_10(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4452</div></div>
+<div class="ttc" id="apeglib_8h_html_a9704269ead52defd020934dcb705e016"><div class="ttname"><a href="#a9704269ead52defd020934dcb705e016">PEG_DEF_10</a></div><div class="ttdeci">#define PEG_DEF_10(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5267</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -609,7 +623,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#afdd16b385cf576e0fc49b556b1f239fb">PEG_DEF_11</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_afdd16b385cf576e0fc49b556b1f239fb"><div class="ttname"><a href="#afdd16b385cf576e0fc49b556b1f239fb">PEG_DEF_11</a></div><div class="ttdeci">#define PEG_DEF_11(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4453</div></div>
+<div class="ttc" id="apeglib_8h_html_afdd16b385cf576e0fc49b556b1f239fb"><div class="ttname"><a href="#afdd16b385cf576e0fc49b556b1f239fb">PEG_DEF_11</a></div><div class="ttdeci">#define PEG_DEF_11(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5268</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -632,7 +646,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#aaed817584c18ddf77d0d28d55c6bdf36">PEG_DEF_12</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_aaed817584c18ddf77d0d28d55c6bdf36"><div class="ttname"><a href="#aaed817584c18ddf77d0d28d55c6bdf36">PEG_DEF_12</a></div><div class="ttdeci">#define PEG_DEF_12(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4454</div></div>
+<div class="ttc" id="apeglib_8h_html_aaed817584c18ddf77d0d28d55c6bdf36"><div class="ttname"><a href="#aaed817584c18ddf77d0d28d55c6bdf36">PEG_DEF_12</a></div><div class="ttdeci">#define PEG_DEF_12(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5269</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -655,7 +669,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a34c9277ad3034036c5aed321abf5046c">PEG_DEF_13</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a34c9277ad3034036c5aed321abf5046c"><div class="ttname"><a href="#a34c9277ad3034036c5aed321abf5046c">PEG_DEF_13</a></div><div class="ttdeci">#define PEG_DEF_13(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4455</div></div>
+<div class="ttc" id="apeglib_8h_html_a34c9277ad3034036c5aed321abf5046c"><div class="ttname"><a href="#a34c9277ad3034036c5aed321abf5046c">PEG_DEF_13</a></div><div class="ttdeci">#define PEG_DEF_13(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5270</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -678,7 +692,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a234828afd0fc09e3e00045773c3f4360">PEG_DEF_14</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a234828afd0fc09e3e00045773c3f4360"><div class="ttname"><a href="#a234828afd0fc09e3e00045773c3f4360">PEG_DEF_14</a></div><div class="ttdeci">#define PEG_DEF_14(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4456</div></div>
+<div class="ttc" id="apeglib_8h_html_a234828afd0fc09e3e00045773c3f4360"><div class="ttname"><a href="#a234828afd0fc09e3e00045773c3f4360">PEG_DEF_14</a></div><div class="ttdeci">#define PEG_DEF_14(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5271</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -701,7 +715,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a8937a652f39fac650b0985750995fd4d">PEG_DEF_15</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a8937a652f39fac650b0985750995fd4d"><div class="ttname"><a href="#a8937a652f39fac650b0985750995fd4d">PEG_DEF_15</a></div><div class="ttdeci">#define PEG_DEF_15(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4457</div></div>
+<div class="ttc" id="apeglib_8h_html_a8937a652f39fac650b0985750995fd4d"><div class="ttname"><a href="#a8937a652f39fac650b0985750995fd4d">PEG_DEF_15</a></div><div class="ttdeci">#define PEG_DEF_15(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5272</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -724,7 +738,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ad9bb7b4e4570efc6d737281d8429efcf">PEG_DEF_16</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ad9bb7b4e4570efc6d737281d8429efcf"><div class="ttname"><a href="#ad9bb7b4e4570efc6d737281d8429efcf">PEG_DEF_16</a></div><div class="ttdeci">#define PEG_DEF_16(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4458</div></div>
+<div class="ttc" id="apeglib_8h_html_ad9bb7b4e4570efc6d737281d8429efcf"><div class="ttname"><a href="#ad9bb7b4e4570efc6d737281d8429efcf">PEG_DEF_16</a></div><div class="ttdeci">#define PEG_DEF_16(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5273</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -747,7 +761,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ad6546cd9e0724bc47e4f399c2160cf01">PEG_DEF_17</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ad6546cd9e0724bc47e4f399c2160cf01"><div class="ttname"><a href="#ad6546cd9e0724bc47e4f399c2160cf01">PEG_DEF_17</a></div><div class="ttdeci">#define PEG_DEF_17(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4459</div></div>
+<div class="ttc" id="apeglib_8h_html_ad6546cd9e0724bc47e4f399c2160cf01"><div class="ttname"><a href="#ad6546cd9e0724bc47e4f399c2160cf01">PEG_DEF_17</a></div><div class="ttdeci">#define PEG_DEF_17(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5274</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -770,7 +784,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#afed50810ba453b45a979e885ea3476c0">PEG_DEF_18</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_afed50810ba453b45a979e885ea3476c0"><div class="ttname"><a href="#afed50810ba453b45a979e885ea3476c0">PEG_DEF_18</a></div><div class="ttdeci">#define PEG_DEF_18(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4460</div></div>
+<div class="ttc" id="apeglib_8h_html_afed50810ba453b45a979e885ea3476c0"><div class="ttname"><a href="#afed50810ba453b45a979e885ea3476c0">PEG_DEF_18</a></div><div class="ttdeci">#define PEG_DEF_18(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5275</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -815,7 +829,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a37b8b4ac46ad5cceb4cf219389f76338">PEG_DEF_19</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a37b8b4ac46ad5cceb4cf219389f76338"><div class="ttname"><a href="#a37b8b4ac46ad5cceb4cf219389f76338">PEG_DEF_19</a></div><div class="ttdeci">#define PEG_DEF_19(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4461</div></div>
+<div class="ttc" id="apeglib_8h_html_a37b8b4ac46ad5cceb4cf219389f76338"><div class="ttname"><a href="#a37b8b4ac46ad5cceb4cf219389f76338">PEG_DEF_19</a></div><div class="ttdeci">#define PEG_DEF_19(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5276</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -838,7 +852,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#afdbb54afb0bedf7f65f46ed1d26bd33a">PEG_DEF_20</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_afdbb54afb0bedf7f65f46ed1d26bd33a"><div class="ttname"><a href="#afdbb54afb0bedf7f65f46ed1d26bd33a">PEG_DEF_20</a></div><div class="ttdeci">#define PEG_DEF_20(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4462</div></div>
+<div class="ttc" id="apeglib_8h_html_afdbb54afb0bedf7f65f46ed1d26bd33a"><div class="ttname"><a href="#afdbb54afb0bedf7f65f46ed1d26bd33a">PEG_DEF_20</a></div><div class="ttdeci">#define PEG_DEF_20(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5277</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -861,7 +875,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#aafad4eda60e5acfeaead47afd944b8cb">PEG_DEF_21</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_aafad4eda60e5acfeaead47afd944b8cb"><div class="ttname"><a href="#aafad4eda60e5acfeaead47afd944b8cb">PEG_DEF_21</a></div><div class="ttdeci">#define PEG_DEF_21(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4463</div></div>
+<div class="ttc" id="apeglib_8h_html_aafad4eda60e5acfeaead47afd944b8cb"><div class="ttname"><a href="#aafad4eda60e5acfeaead47afd944b8cb">PEG_DEF_21</a></div><div class="ttdeci">#define PEG_DEF_21(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5278</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -884,7 +898,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a16ae1306742e58b6d67cd1c878966d53">PEG_DEF_22</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a16ae1306742e58b6d67cd1c878966d53"><div class="ttname"><a href="#a16ae1306742e58b6d67cd1c878966d53">PEG_DEF_22</a></div><div class="ttdeci">#define PEG_DEF_22(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4464</div></div>
+<div class="ttc" id="apeglib_8h_html_a16ae1306742e58b6d67cd1c878966d53"><div class="ttname"><a href="#a16ae1306742e58b6d67cd1c878966d53">PEG_DEF_22</a></div><div class="ttdeci">#define PEG_DEF_22(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5279</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -907,7 +921,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ad8f86bb30383546d223edc977b8bc5d3">PEG_DEF_23</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ad8f86bb30383546d223edc977b8bc5d3"><div class="ttname"><a href="#ad8f86bb30383546d223edc977b8bc5d3">PEG_DEF_23</a></div><div class="ttdeci">#define PEG_DEF_23(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4465</div></div>
+<div class="ttc" id="apeglib_8h_html_ad8f86bb30383546d223edc977b8bc5d3"><div class="ttname"><a href="#ad8f86bb30383546d223edc977b8bc5d3">PEG_DEF_23</a></div><div class="ttdeci">#define PEG_DEF_23(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5280</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -930,7 +944,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a0ec9c7f9135bc4d1bb54cf99c8a507e9">PEG_DEF_24</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a0ec9c7f9135bc4d1bb54cf99c8a507e9"><div class="ttname"><a href="#a0ec9c7f9135bc4d1bb54cf99c8a507e9">PEG_DEF_24</a></div><div class="ttdeci">#define PEG_DEF_24(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4466</div></div>
+<div class="ttc" id="apeglib_8h_html_a0ec9c7f9135bc4d1bb54cf99c8a507e9"><div class="ttname"><a href="#a0ec9c7f9135bc4d1bb54cf99c8a507e9">PEG_DEF_24</a></div><div class="ttdeci">#define PEG_DEF_24(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5281</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -953,7 +967,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a23e3a92a543bec64a4a4591a46d2711d">PEG_DEF_25</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a23e3a92a543bec64a4a4591a46d2711d"><div class="ttname"><a href="#a23e3a92a543bec64a4a4591a46d2711d">PEG_DEF_25</a></div><div class="ttdeci">#define PEG_DEF_25(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4467</div></div>
+<div class="ttc" id="apeglib_8h_html_a23e3a92a543bec64a4a4591a46d2711d"><div class="ttname"><a href="#a23e3a92a543bec64a4a4591a46d2711d">PEG_DEF_25</a></div><div class="ttdeci">#define PEG_DEF_25(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5282</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -976,7 +990,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a8445b507d6f42d430dc6f900735c8641">PEG_DEF_26</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a8445b507d6f42d430dc6f900735c8641"><div class="ttname"><a href="#a8445b507d6f42d430dc6f900735c8641">PEG_DEF_26</a></div><div class="ttdeci">#define PEG_DEF_26(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4468</div></div>
+<div class="ttc" id="apeglib_8h_html_a8445b507d6f42d430dc6f900735c8641"><div class="ttname"><a href="#a8445b507d6f42d430dc6f900735c8641">PEG_DEF_26</a></div><div class="ttdeci">#define PEG_DEF_26(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5283</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -999,7 +1013,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a3a78988f0e542ea95f6703417f6622e7">PEG_DEF_27</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a3a78988f0e542ea95f6703417f6622e7"><div class="ttname"><a href="#a3a78988f0e542ea95f6703417f6622e7">PEG_DEF_27</a></div><div class="ttdeci">#define PEG_DEF_27(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4469</div></div>
+<div class="ttc" id="apeglib_8h_html_a3a78988f0e542ea95f6703417f6622e7"><div class="ttname"><a href="#a3a78988f0e542ea95f6703417f6622e7">PEG_DEF_27</a></div><div class="ttdeci">#define PEG_DEF_27(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5284</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1022,7 +1036,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a88fd1dc8a131f50cc9a45f56a598fc54">PEG_DEF_28</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a88fd1dc8a131f50cc9a45f56a598fc54"><div class="ttname"><a href="#a88fd1dc8a131f50cc9a45f56a598fc54">PEG_DEF_28</a></div><div class="ttdeci">#define PEG_DEF_28(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4470</div></div>
+<div class="ttc" id="apeglib_8h_html_a88fd1dc8a131f50cc9a45f56a598fc54"><div class="ttname"><a href="#a88fd1dc8a131f50cc9a45f56a598fc54">PEG_DEF_28</a></div><div class="ttdeci">#define PEG_DEF_28(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5285</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1045,7 +1059,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ae4706d8e217cc7cf08a9a3bf688d16e2">PEG_DEF_2</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ae4706d8e217cc7cf08a9a3bf688d16e2"><div class="ttname"><a href="#ae4706d8e217cc7cf08a9a3bf688d16e2">PEG_DEF_2</a></div><div class="ttdeci">#define PEG_DEF_2(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4444</div></div>
+<div class="ttc" id="apeglib_8h_html_ae4706d8e217cc7cf08a9a3bf688d16e2"><div class="ttname"><a href="#ae4706d8e217cc7cf08a9a3bf688d16e2">PEG_DEF_2</a></div><div class="ttdeci">#define PEG_DEF_2(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5259</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1068,7 +1082,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a97a34f72474c1f6986bfa8f6ef44c77d">PEG_DEF_29</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a97a34f72474c1f6986bfa8f6ef44c77d"><div class="ttname"><a href="#a97a34f72474c1f6986bfa8f6ef44c77d">PEG_DEF_29</a></div><div class="ttdeci">#define PEG_DEF_29(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4471</div></div>
+<div class="ttc" id="apeglib_8h_html_a97a34f72474c1f6986bfa8f6ef44c77d"><div class="ttname"><a href="#a97a34f72474c1f6986bfa8f6ef44c77d">PEG_DEF_29</a></div><div class="ttdeci">#define PEG_DEF_29(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5286</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1091,7 +1105,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#aa9df7db5bd0e43350d5364327ec316ff">PEG_DEF_30</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_aa9df7db5bd0e43350d5364327ec316ff"><div class="ttname"><a href="#aa9df7db5bd0e43350d5364327ec316ff">PEG_DEF_30</a></div><div class="ttdeci">#define PEG_DEF_30(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4472</div></div>
+<div class="ttc" id="apeglib_8h_html_aa9df7db5bd0e43350d5364327ec316ff"><div class="ttname"><a href="#aa9df7db5bd0e43350d5364327ec316ff">PEG_DEF_30</a></div><div class="ttdeci">#define PEG_DEF_30(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5287</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1114,7 +1128,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a89fd168dd3f8c544512c02d23a520acd">PEG_DEF_31</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a89fd168dd3f8c544512c02d23a520acd"><div class="ttname"><a href="#a89fd168dd3f8c544512c02d23a520acd">PEG_DEF_31</a></div><div class="ttdeci">#define PEG_DEF_31(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4473</div></div>
+<div class="ttc" id="apeglib_8h_html_a89fd168dd3f8c544512c02d23a520acd"><div class="ttname"><a href="#a89fd168dd3f8c544512c02d23a520acd">PEG_DEF_31</a></div><div class="ttdeci">#define PEG_DEF_31(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5288</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1137,7 +1151,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a251ae87fbcd2ee06e0eb3533d836d558">PEG_DEF_32</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a251ae87fbcd2ee06e0eb3533d836d558"><div class="ttname"><a href="#a251ae87fbcd2ee06e0eb3533d836d558">PEG_DEF_32</a></div><div class="ttdeci">#define PEG_DEF_32(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4474</div></div>
+<div class="ttc" id="apeglib_8h_html_a251ae87fbcd2ee06e0eb3533d836d558"><div class="ttname"><a href="#a251ae87fbcd2ee06e0eb3533d836d558">PEG_DEF_32</a></div><div class="ttdeci">#define PEG_DEF_32(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5289</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1160,7 +1174,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ad486d0fbce488b969ee80fe5787d170b">PEG_DEF_33</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ad486d0fbce488b969ee80fe5787d170b"><div class="ttname"><a href="#ad486d0fbce488b969ee80fe5787d170b">PEG_DEF_33</a></div><div class="ttdeci">#define PEG_DEF_33(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4475</div></div>
+<div class="ttc" id="apeglib_8h_html_ad486d0fbce488b969ee80fe5787d170b"><div class="ttname"><a href="#ad486d0fbce488b969ee80fe5787d170b">PEG_DEF_33</a></div><div class="ttdeci">#define PEG_DEF_33(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5290</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1183,7 +1197,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a9bfa9f4169e1f6f7e3f356bb370135cf">PEG_DEF_34</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a9bfa9f4169e1f6f7e3f356bb370135cf"><div class="ttname"><a href="#a9bfa9f4169e1f6f7e3f356bb370135cf">PEG_DEF_34</a></div><div class="ttdeci">#define PEG_DEF_34(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4476</div></div>
+<div class="ttc" id="apeglib_8h_html_a9bfa9f4169e1f6f7e3f356bb370135cf"><div class="ttname"><a href="#a9bfa9f4169e1f6f7e3f356bb370135cf">PEG_DEF_34</a></div><div class="ttdeci">#define PEG_DEF_34(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5291</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1206,7 +1220,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a75533c17b7899c422a3518d916afd5a2">PEG_DEF_35</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a75533c17b7899c422a3518d916afd5a2"><div class="ttname"><a href="#a75533c17b7899c422a3518d916afd5a2">PEG_DEF_35</a></div><div class="ttdeci">#define PEG_DEF_35(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4477</div></div>
+<div class="ttc" id="apeglib_8h_html_a75533c17b7899c422a3518d916afd5a2"><div class="ttname"><a href="#a75533c17b7899c422a3518d916afd5a2">PEG_DEF_35</a></div><div class="ttdeci">#define PEG_DEF_35(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5292</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1229,7 +1243,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ae750af801ee536a77e639608c019b029">PEG_DEF_36</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ae750af801ee536a77e639608c019b029"><div class="ttname"><a href="#ae750af801ee536a77e639608c019b029">PEG_DEF_36</a></div><div class="ttdeci">#define PEG_DEF_36(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4478</div></div>
+<div class="ttc" id="apeglib_8h_html_ae750af801ee536a77e639608c019b029"><div class="ttname"><a href="#ae750af801ee536a77e639608c019b029">PEG_DEF_36</a></div><div class="ttdeci">#define PEG_DEF_36(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5293</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1252,7 +1266,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a797f067fd76f54d3a845a2c05d9cd65d">PEG_DEF_37</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a797f067fd76f54d3a845a2c05d9cd65d"><div class="ttname"><a href="#a797f067fd76f54d3a845a2c05d9cd65d">PEG_DEF_37</a></div><div class="ttdeci">#define PEG_DEF_37(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4479</div></div>
+<div class="ttc" id="apeglib_8h_html_a797f067fd76f54d3a845a2c05d9cd65d"><div class="ttname"><a href="#a797f067fd76f54d3a845a2c05d9cd65d">PEG_DEF_37</a></div><div class="ttdeci">#define PEG_DEF_37(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5294</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1275,7 +1289,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a8a47b70bed3ee559e83d79bf5d78ad0b">PEG_DEF_38</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a8a47b70bed3ee559e83d79bf5d78ad0b"><div class="ttname"><a href="#a8a47b70bed3ee559e83d79bf5d78ad0b">PEG_DEF_38</a></div><div class="ttdeci">#define PEG_DEF_38(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4480</div></div>
+<div class="ttc" id="apeglib_8h_html_a8a47b70bed3ee559e83d79bf5d78ad0b"><div class="ttname"><a href="#a8a47b70bed3ee559e83d79bf5d78ad0b">PEG_DEF_38</a></div><div class="ttdeci">#define PEG_DEF_38(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5295</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1298,7 +1312,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a90f6752a7d5205429407229f38f11158">PEG_DEF_3</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a90f6752a7d5205429407229f38f11158"><div class="ttname"><a href="#a90f6752a7d5205429407229f38f11158">PEG_DEF_3</a></div><div class="ttdeci">#define PEG_DEF_3(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4445</div></div>
+<div class="ttc" id="apeglib_8h_html_a90f6752a7d5205429407229f38f11158"><div class="ttname"><a href="#a90f6752a7d5205429407229f38f11158">PEG_DEF_3</a></div><div class="ttdeci">#define PEG_DEF_3(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5260</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1321,7 +1335,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a39cdc0ae09a4cebc36716456cb6fbe60">PEG_DEF_39</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a39cdc0ae09a4cebc36716456cb6fbe60"><div class="ttname"><a href="#a39cdc0ae09a4cebc36716456cb6fbe60">PEG_DEF_39</a></div><div class="ttdeci">#define PEG_DEF_39(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4481</div></div>
+<div class="ttc" id="apeglib_8h_html_a39cdc0ae09a4cebc36716456cb6fbe60"><div class="ttname"><a href="#a39cdc0ae09a4cebc36716456cb6fbe60">PEG_DEF_39</a></div><div class="ttdeci">#define PEG_DEF_39(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5296</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1344,7 +1358,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a0f4c97121a4d6443e70c83eb5b8ac5f0">PEG_DEF_40</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a0f4c97121a4d6443e70c83eb5b8ac5f0"><div class="ttname"><a href="#a0f4c97121a4d6443e70c83eb5b8ac5f0">PEG_DEF_40</a></div><div class="ttdeci">#define PEG_DEF_40(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4482</div></div>
+<div class="ttc" id="apeglib_8h_html_a0f4c97121a4d6443e70c83eb5b8ac5f0"><div class="ttname"><a href="#a0f4c97121a4d6443e70c83eb5b8ac5f0">PEG_DEF_40</a></div><div class="ttdeci">#define PEG_DEF_40(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5297</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1367,7 +1381,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a730508950cd4117ab6e4a904dbe72aed">PEG_DEF_41</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a730508950cd4117ab6e4a904dbe72aed"><div class="ttname"><a href="#a730508950cd4117ab6e4a904dbe72aed">PEG_DEF_41</a></div><div class="ttdeci">#define PEG_DEF_41(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4483</div></div>
+<div class="ttc" id="apeglib_8h_html_a730508950cd4117ab6e4a904dbe72aed"><div class="ttname"><a href="#a730508950cd4117ab6e4a904dbe72aed">PEG_DEF_41</a></div><div class="ttdeci">#define PEG_DEF_41(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5298</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1390,7 +1404,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a04db47451dea45307d8e124180d4264e">PEG_DEF_42</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a04db47451dea45307d8e124180d4264e"><div class="ttname"><a href="#a04db47451dea45307d8e124180d4264e">PEG_DEF_42</a></div><div class="ttdeci">#define PEG_DEF_42(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4484</div></div>
+<div class="ttc" id="apeglib_8h_html_a04db47451dea45307d8e124180d4264e"><div class="ttname"><a href="#a04db47451dea45307d8e124180d4264e">PEG_DEF_42</a></div><div class="ttdeci">#define PEG_DEF_42(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5299</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1413,7 +1427,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a9de2e37ae99d5b9330eee2193d666d12">PEG_DEF_43</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a9de2e37ae99d5b9330eee2193d666d12"><div class="ttname"><a href="#a9de2e37ae99d5b9330eee2193d666d12">PEG_DEF_43</a></div><div class="ttdeci">#define PEG_DEF_43(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4485</div></div>
+<div class="ttc" id="apeglib_8h_html_a9de2e37ae99d5b9330eee2193d666d12"><div class="ttname"><a href="#a9de2e37ae99d5b9330eee2193d666d12">PEG_DEF_43</a></div><div class="ttdeci">#define PEG_DEF_43(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5300</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1436,7 +1450,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a3bc0a1f398e0422edecb282a196099fd">PEG_DEF_44</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a3bc0a1f398e0422edecb282a196099fd"><div class="ttname"><a href="#a3bc0a1f398e0422edecb282a196099fd">PEG_DEF_44</a></div><div class="ttdeci">#define PEG_DEF_44(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4486</div></div>
+<div class="ttc" id="apeglib_8h_html_a3bc0a1f398e0422edecb282a196099fd"><div class="ttname"><a href="#a3bc0a1f398e0422edecb282a196099fd">PEG_DEF_44</a></div><div class="ttdeci">#define PEG_DEF_44(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5301</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1459,7 +1473,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a1c87bc2d6e00f2ba406fa3ce75d79efd">PEG_DEF_45</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a1c87bc2d6e00f2ba406fa3ce75d79efd"><div class="ttname"><a href="#a1c87bc2d6e00f2ba406fa3ce75d79efd">PEG_DEF_45</a></div><div class="ttdeci">#define PEG_DEF_45(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4487</div></div>
+<div class="ttc" id="apeglib_8h_html_a1c87bc2d6e00f2ba406fa3ce75d79efd"><div class="ttname"><a href="#a1c87bc2d6e00f2ba406fa3ce75d79efd">PEG_DEF_45</a></div><div class="ttdeci">#define PEG_DEF_45(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5302</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1482,7 +1496,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ae08ced081bc9433812bcc13230719ce6">PEG_DEF_46</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ae08ced081bc9433812bcc13230719ce6"><div class="ttname"><a href="#ae08ced081bc9433812bcc13230719ce6">PEG_DEF_46</a></div><div class="ttdeci">#define PEG_DEF_46(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4488</div></div>
+<div class="ttc" id="apeglib_8h_html_ae08ced081bc9433812bcc13230719ce6"><div class="ttname"><a href="#ae08ced081bc9433812bcc13230719ce6">PEG_DEF_46</a></div><div class="ttdeci">#define PEG_DEF_46(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5303</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1505,7 +1519,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a4dc01adfca52d45b39cde9221cd2644e">PEG_DEF_47</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a4dc01adfca52d45b39cde9221cd2644e"><div class="ttname"><a href="#a4dc01adfca52d45b39cde9221cd2644e">PEG_DEF_47</a></div><div class="ttdeci">#define PEG_DEF_47(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4489</div></div>
+<div class="ttc" id="apeglib_8h_html_a4dc01adfca52d45b39cde9221cd2644e"><div class="ttname"><a href="#a4dc01adfca52d45b39cde9221cd2644e">PEG_DEF_47</a></div><div class="ttdeci">#define PEG_DEF_47(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5304</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1528,7 +1542,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a7aaf32166fe6b8996ef6277bcef74424">PEG_DEF_48</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a7aaf32166fe6b8996ef6277bcef74424"><div class="ttname"><a href="#a7aaf32166fe6b8996ef6277bcef74424">PEG_DEF_48</a></div><div class="ttdeci">#define PEG_DEF_48(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4490</div></div>
+<div class="ttc" id="apeglib_8h_html_a7aaf32166fe6b8996ef6277bcef74424"><div class="ttname"><a href="#a7aaf32166fe6b8996ef6277bcef74424">PEG_DEF_48</a></div><div class="ttdeci">#define PEG_DEF_48(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5305</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1551,7 +1565,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a6c4f489b6eb4390ac2e789c2b35519ef">PEG_DEF_4</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a6c4f489b6eb4390ac2e789c2b35519ef"><div class="ttname"><a href="#a6c4f489b6eb4390ac2e789c2b35519ef">PEG_DEF_4</a></div><div class="ttdeci">#define PEG_DEF_4(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4446</div></div>
+<div class="ttc" id="apeglib_8h_html_a6c4f489b6eb4390ac2e789c2b35519ef"><div class="ttname"><a href="#a6c4f489b6eb4390ac2e789c2b35519ef">PEG_DEF_4</a></div><div class="ttdeci">#define PEG_DEF_4(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5261</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1574,7 +1588,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ae88beaff69980158bfd04a22eae32472">PEG_DEF_49</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ae88beaff69980158bfd04a22eae32472"><div class="ttname"><a href="#ae88beaff69980158bfd04a22eae32472">PEG_DEF_49</a></div><div class="ttdeci">#define PEG_DEF_49(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4491</div></div>
+<div class="ttc" id="apeglib_8h_html_ae88beaff69980158bfd04a22eae32472"><div class="ttname"><a href="#ae88beaff69980158bfd04a22eae32472">PEG_DEF_49</a></div><div class="ttdeci">#define PEG_DEF_49(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5306</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1597,7 +1611,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a479f50ddeca68fdc0045264287c2a908">PEG_DEF_50</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a479f50ddeca68fdc0045264287c2a908"><div class="ttname"><a href="#a479f50ddeca68fdc0045264287c2a908">PEG_DEF_50</a></div><div class="ttdeci">#define PEG_DEF_50(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4492</div></div>
+<div class="ttc" id="apeglib_8h_html_a479f50ddeca68fdc0045264287c2a908"><div class="ttname"><a href="#a479f50ddeca68fdc0045264287c2a908">PEG_DEF_50</a></div><div class="ttdeci">#define PEG_DEF_50(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5307</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1620,7 +1634,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ac21629d6d2feff81b3e8ea428a16bacf">PEG_DEF_51</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ac21629d6d2feff81b3e8ea428a16bacf"><div class="ttname"><a href="#ac21629d6d2feff81b3e8ea428a16bacf">PEG_DEF_51</a></div><div class="ttdeci">#define PEG_DEF_51(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4493</div></div>
+<div class="ttc" id="apeglib_8h_html_ac21629d6d2feff81b3e8ea428a16bacf"><div class="ttname"><a href="#ac21629d6d2feff81b3e8ea428a16bacf">PEG_DEF_51</a></div><div class="ttdeci">#define PEG_DEF_51(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5308</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1643,7 +1657,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a4b823e98a2be8a2c4fc24aec230543c3">PEG_DEF_52</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a4b823e98a2be8a2c4fc24aec230543c3"><div class="ttname"><a href="#a4b823e98a2be8a2c4fc24aec230543c3">PEG_DEF_52</a></div><div class="ttdeci">#define PEG_DEF_52(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4494</div></div>
+<div class="ttc" id="apeglib_8h_html_a4b823e98a2be8a2c4fc24aec230543c3"><div class="ttname"><a href="#a4b823e98a2be8a2c4fc24aec230543c3">PEG_DEF_52</a></div><div class="ttdeci">#define PEG_DEF_52(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5309</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1666,7 +1680,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a52653c7ec21147e27654026df3e547e6">PEG_DEF_53</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a52653c7ec21147e27654026df3e547e6"><div class="ttname"><a href="#a52653c7ec21147e27654026df3e547e6">PEG_DEF_53</a></div><div class="ttdeci">#define PEG_DEF_53(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4495</div></div>
+<div class="ttc" id="apeglib_8h_html_a52653c7ec21147e27654026df3e547e6"><div class="ttname"><a href="#a52653c7ec21147e27654026df3e547e6">PEG_DEF_53</a></div><div class="ttdeci">#define PEG_DEF_53(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5310</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1689,7 +1703,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a569e3112eead8960c8bd44c505f50cb0">PEG_DEF_54</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a569e3112eead8960c8bd44c505f50cb0"><div class="ttname"><a href="#a569e3112eead8960c8bd44c505f50cb0">PEG_DEF_54</a></div><div class="ttdeci">#define PEG_DEF_54(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4496</div></div>
+<div class="ttc" id="apeglib_8h_html_a569e3112eead8960c8bd44c505f50cb0"><div class="ttname"><a href="#a569e3112eead8960c8bd44c505f50cb0">PEG_DEF_54</a></div><div class="ttdeci">#define PEG_DEF_54(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5311</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1712,7 +1726,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ab593e4b5d8d7b389e3c47a779e6a9a53">PEG_DEF_55</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ab593e4b5d8d7b389e3c47a779e6a9a53"><div class="ttname"><a href="#ab593e4b5d8d7b389e3c47a779e6a9a53">PEG_DEF_55</a></div><div class="ttdeci">#define PEG_DEF_55(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4497</div></div>
+<div class="ttc" id="apeglib_8h_html_ab593e4b5d8d7b389e3c47a779e6a9a53"><div class="ttname"><a href="#ab593e4b5d8d7b389e3c47a779e6a9a53">PEG_DEF_55</a></div><div class="ttdeci">#define PEG_DEF_55(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5312</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1735,7 +1749,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a204f2a84da17e7e6825ea94212d07f38">PEG_DEF_56</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a204f2a84da17e7e6825ea94212d07f38"><div class="ttname"><a href="#a204f2a84da17e7e6825ea94212d07f38">PEG_DEF_56</a></div><div class="ttdeci">#define PEG_DEF_56(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4498</div></div>
+<div class="ttc" id="apeglib_8h_html_a204f2a84da17e7e6825ea94212d07f38"><div class="ttname"><a href="#a204f2a84da17e7e6825ea94212d07f38">PEG_DEF_56</a></div><div class="ttdeci">#define PEG_DEF_56(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5313</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1758,7 +1772,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a7aa2fbbe107c29ece71ec512148e7d77">PEG_DEF_57</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a7aa2fbbe107c29ece71ec512148e7d77"><div class="ttname"><a href="#a7aa2fbbe107c29ece71ec512148e7d77">PEG_DEF_57</a></div><div class="ttdeci">#define PEG_DEF_57(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4499</div></div>
+<div class="ttc" id="apeglib_8h_html_a7aa2fbbe107c29ece71ec512148e7d77"><div class="ttname"><a href="#a7aa2fbbe107c29ece71ec512148e7d77">PEG_DEF_57</a></div><div class="ttdeci">#define PEG_DEF_57(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5314</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1781,7 +1795,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a16d23d935ebd6327dc5f429a60bff1a6">PEG_DEF_58</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a16d23d935ebd6327dc5f429a60bff1a6"><div class="ttname"><a href="#a16d23d935ebd6327dc5f429a60bff1a6">PEG_DEF_58</a></div><div class="ttdeci">#define PEG_DEF_58(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4500</div></div>
+<div class="ttc" id="apeglib_8h_html_a16d23d935ebd6327dc5f429a60bff1a6"><div class="ttname"><a href="#a16d23d935ebd6327dc5f429a60bff1a6">PEG_DEF_58</a></div><div class="ttdeci">#define PEG_DEF_58(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5315</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1804,7 +1818,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#aa13982e67778348b79a4a54b3d44ea88">PEG_DEF_5</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_aa13982e67778348b79a4a54b3d44ea88"><div class="ttname"><a href="#aa13982e67778348b79a4a54b3d44ea88">PEG_DEF_5</a></div><div class="ttdeci">#define PEG_DEF_5(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4447</div></div>
+<div class="ttc" id="apeglib_8h_html_aa13982e67778348b79a4a54b3d44ea88"><div class="ttname"><a href="#aa13982e67778348b79a4a54b3d44ea88">PEG_DEF_5</a></div><div class="ttdeci">#define PEG_DEF_5(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5262</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1827,7 +1841,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ab1fd75d7e382b88c5ceb11cde0a7ed77">PEG_DEF_59</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ab1fd75d7e382b88c5ceb11cde0a7ed77"><div class="ttname"><a href="#ab1fd75d7e382b88c5ceb11cde0a7ed77">PEG_DEF_59</a></div><div class="ttdeci">#define PEG_DEF_59(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4501</div></div>
+<div class="ttc" id="apeglib_8h_html_ab1fd75d7e382b88c5ceb11cde0a7ed77"><div class="ttname"><a href="#ab1fd75d7e382b88c5ceb11cde0a7ed77">PEG_DEF_59</a></div><div class="ttdeci">#define PEG_DEF_59(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5316</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1850,7 +1864,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a75193fbe834a316e421bc6bf412d0aef">PEG_DEF_60</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a75193fbe834a316e421bc6bf412d0aef"><div class="ttname"><a href="#a75193fbe834a316e421bc6bf412d0aef">PEG_DEF_60</a></div><div class="ttdeci">#define PEG_DEF_60(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4502</div></div>
+<div class="ttc" id="apeglib_8h_html_a75193fbe834a316e421bc6bf412d0aef"><div class="ttname"><a href="#a75193fbe834a316e421bc6bf412d0aef">PEG_DEF_60</a></div><div class="ttdeci">#define PEG_DEF_60(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5317</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1873,7 +1887,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a2b054bf84ae5421143cda9858d237464">PEG_DEF_61</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a2b054bf84ae5421143cda9858d237464"><div class="ttname"><a href="#a2b054bf84ae5421143cda9858d237464">PEG_DEF_61</a></div><div class="ttdeci">#define PEG_DEF_61(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4503</div></div>
+<div class="ttc" id="apeglib_8h_html_a2b054bf84ae5421143cda9858d237464"><div class="ttname"><a href="#a2b054bf84ae5421143cda9858d237464">PEG_DEF_61</a></div><div class="ttdeci">#define PEG_DEF_61(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5318</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1896,7 +1910,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a42fa870d4b44624dfe8b6c35a3adf6db">PEG_DEF_62</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a42fa870d4b44624dfe8b6c35a3adf6db"><div class="ttname"><a href="#a42fa870d4b44624dfe8b6c35a3adf6db">PEG_DEF_62</a></div><div class="ttdeci">#define PEG_DEF_62(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4504</div></div>
+<div class="ttc" id="apeglib_8h_html_a42fa870d4b44624dfe8b6c35a3adf6db"><div class="ttname"><a href="#a42fa870d4b44624dfe8b6c35a3adf6db">PEG_DEF_62</a></div><div class="ttdeci">#define PEG_DEF_62(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5319</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1919,7 +1933,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a578c2621efa94ad7f37185bb728fc3b2">PEG_DEF_63</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a578c2621efa94ad7f37185bb728fc3b2"><div class="ttname"><a href="#a578c2621efa94ad7f37185bb728fc3b2">PEG_DEF_63</a></div><div class="ttdeci">#define PEG_DEF_63(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4505</div></div>
+<div class="ttc" id="apeglib_8h_html_a578c2621efa94ad7f37185bb728fc3b2"><div class="ttname"><a href="#a578c2621efa94ad7f37185bb728fc3b2">PEG_DEF_63</a></div><div class="ttdeci">#define PEG_DEF_63(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5320</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1942,7 +1956,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a7dfcd0b07ff136ca9806e7abef88f87d">PEG_DEF_64</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a7dfcd0b07ff136ca9806e7abef88f87d"><div class="ttname"><a href="#a7dfcd0b07ff136ca9806e7abef88f87d">PEG_DEF_64</a></div><div class="ttdeci">#define PEG_DEF_64(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4506</div></div>
+<div class="ttc" id="apeglib_8h_html_a7dfcd0b07ff136ca9806e7abef88f87d"><div class="ttname"><a href="#a7dfcd0b07ff136ca9806e7abef88f87d">PEG_DEF_64</a></div><div class="ttdeci">#define PEG_DEF_64(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5321</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1965,7 +1979,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ae68af1f45bbc3665d6e0a9545347ba00">PEG_DEF_65</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ae68af1f45bbc3665d6e0a9545347ba00"><div class="ttname"><a href="#ae68af1f45bbc3665d6e0a9545347ba00">PEG_DEF_65</a></div><div class="ttdeci">#define PEG_DEF_65(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4507</div></div>
+<div class="ttc" id="apeglib_8h_html_ae68af1f45bbc3665d6e0a9545347ba00"><div class="ttname"><a href="#ae68af1f45bbc3665d6e0a9545347ba00">PEG_DEF_65</a></div><div class="ttdeci">#define PEG_DEF_65(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5322</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1988,7 +2002,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a4a6becb3c7ad12c4628383d962af846d">PEG_DEF_66</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a4a6becb3c7ad12c4628383d962af846d"><div class="ttname"><a href="#a4a6becb3c7ad12c4628383d962af846d">PEG_DEF_66</a></div><div class="ttdeci">#define PEG_DEF_66(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4508</div></div>
+<div class="ttc" id="apeglib_8h_html_a4a6becb3c7ad12c4628383d962af846d"><div class="ttname"><a href="#a4a6becb3c7ad12c4628383d962af846d">PEG_DEF_66</a></div><div class="ttdeci">#define PEG_DEF_66(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5323</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2011,7 +2025,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a098e0e4e18e702023fda05abd41d4ed7">PEG_DEF_67</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a098e0e4e18e702023fda05abd41d4ed7"><div class="ttname"><a href="#a098e0e4e18e702023fda05abd41d4ed7">PEG_DEF_67</a></div><div class="ttdeci">#define PEG_DEF_67(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4509</div></div>
+<div class="ttc" id="apeglib_8h_html_a098e0e4e18e702023fda05abd41d4ed7"><div class="ttname"><a href="#a098e0e4e18e702023fda05abd41d4ed7">PEG_DEF_67</a></div><div class="ttdeci">#define PEG_DEF_67(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5324</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2034,7 +2048,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#abc64b593773fdbf78540974da6a23f02">PEG_DEF_68</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_abc64b593773fdbf78540974da6a23f02"><div class="ttname"><a href="#abc64b593773fdbf78540974da6a23f02">PEG_DEF_68</a></div><div class="ttdeci">#define PEG_DEF_68(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4510</div></div>
+<div class="ttc" id="apeglib_8h_html_abc64b593773fdbf78540974da6a23f02"><div class="ttname"><a href="#abc64b593773fdbf78540974da6a23f02">PEG_DEF_68</a></div><div class="ttdeci">#define PEG_DEF_68(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5325</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2057,7 +2071,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a12a56f7336918a7d591a7c68b5210b74">PEG_DEF_6</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a12a56f7336918a7d591a7c68b5210b74"><div class="ttname"><a href="#a12a56f7336918a7d591a7c68b5210b74">PEG_DEF_6</a></div><div class="ttdeci">#define PEG_DEF_6(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4448</div></div>
+<div class="ttc" id="apeglib_8h_html_a12a56f7336918a7d591a7c68b5210b74"><div class="ttname"><a href="#a12a56f7336918a7d591a7c68b5210b74">PEG_DEF_6</a></div><div class="ttdeci">#define PEG_DEF_6(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5263</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2080,7 +2094,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ab7ab239c28072b46d79a9e7d01a34c1e">PEG_DEF_69</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ab7ab239c28072b46d79a9e7d01a34c1e"><div class="ttname"><a href="#ab7ab239c28072b46d79a9e7d01a34c1e">PEG_DEF_69</a></div><div class="ttdeci">#define PEG_DEF_69(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4511</div></div>
+<div class="ttc" id="apeglib_8h_html_ab7ab239c28072b46d79a9e7d01a34c1e"><div class="ttname"><a href="#ab7ab239c28072b46d79a9e7d01a34c1e">PEG_DEF_69</a></div><div class="ttdeci">#define PEG_DEF_69(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5326</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2103,7 +2117,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a5034fc0a0a31dafbb4cfe3d73af84363">PEG_DEF_70</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a5034fc0a0a31dafbb4cfe3d73af84363"><div class="ttname"><a href="#a5034fc0a0a31dafbb4cfe3d73af84363">PEG_DEF_70</a></div><div class="ttdeci">#define PEG_DEF_70(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4512</div></div>
+<div class="ttc" id="apeglib_8h_html_a5034fc0a0a31dafbb4cfe3d73af84363"><div class="ttname"><a href="#a5034fc0a0a31dafbb4cfe3d73af84363">PEG_DEF_70</a></div><div class="ttdeci">#define PEG_DEF_70(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5327</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2126,7 +2140,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a777f509ab1b29abf824f06de57abb848">PEG_DEF_71</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a777f509ab1b29abf824f06de57abb848"><div class="ttname"><a href="#a777f509ab1b29abf824f06de57abb848">PEG_DEF_71</a></div><div class="ttdeci">#define PEG_DEF_71(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4513</div></div>
+<div class="ttc" id="apeglib_8h_html_a777f509ab1b29abf824f06de57abb848"><div class="ttname"><a href="#a777f509ab1b29abf824f06de57abb848">PEG_DEF_71</a></div><div class="ttdeci">#define PEG_DEF_71(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5328</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2149,7 +2163,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a89c62f1941c2839305defdc087939e5c">PEG_DEF_72</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a89c62f1941c2839305defdc087939e5c"><div class="ttname"><a href="#a89c62f1941c2839305defdc087939e5c">PEG_DEF_72</a></div><div class="ttdeci">#define PEG_DEF_72(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4514</div></div>
+<div class="ttc" id="apeglib_8h_html_a89c62f1941c2839305defdc087939e5c"><div class="ttname"><a href="#a89c62f1941c2839305defdc087939e5c">PEG_DEF_72</a></div><div class="ttdeci">#define PEG_DEF_72(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5329</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2172,7 +2186,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a6db2221c5d5f29c969c7aaf9af54a025">PEG_DEF_73</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a6db2221c5d5f29c969c7aaf9af54a025"><div class="ttname"><a href="#a6db2221c5d5f29c969c7aaf9af54a025">PEG_DEF_73</a></div><div class="ttdeci">#define PEG_DEF_73(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4515</div></div>
+<div class="ttc" id="apeglib_8h_html_a6db2221c5d5f29c969c7aaf9af54a025"><div class="ttname"><a href="#a6db2221c5d5f29c969c7aaf9af54a025">PEG_DEF_73</a></div><div class="ttdeci">#define PEG_DEF_73(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5330</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2195,7 +2209,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a5ca7f6186d287770444c6cc1a912b824">PEG_DEF_74</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a5ca7f6186d287770444c6cc1a912b824"><div class="ttname"><a href="#a5ca7f6186d287770444c6cc1a912b824">PEG_DEF_74</a></div><div class="ttdeci">#define PEG_DEF_74(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4516</div></div>
+<div class="ttc" id="apeglib_8h_html_a5ca7f6186d287770444c6cc1a912b824"><div class="ttname"><a href="#a5ca7f6186d287770444c6cc1a912b824">PEG_DEF_74</a></div><div class="ttdeci">#define PEG_DEF_74(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5331</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2218,7 +2232,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a6b5514369305a8688ec752c2cdf23858">PEG_DEF_75</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a6b5514369305a8688ec752c2cdf23858"><div class="ttname"><a href="#a6b5514369305a8688ec752c2cdf23858">PEG_DEF_75</a></div><div class="ttdeci">#define PEG_DEF_75(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4517</div></div>
+<div class="ttc" id="apeglib_8h_html_a6b5514369305a8688ec752c2cdf23858"><div class="ttname"><a href="#a6b5514369305a8688ec752c2cdf23858">PEG_DEF_75</a></div><div class="ttdeci">#define PEG_DEF_75(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5332</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2241,7 +2255,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a2ec15ad4f1bb3228c11be3da26ccd61e">PEG_DEF_76</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a2ec15ad4f1bb3228c11be3da26ccd61e"><div class="ttname"><a href="#a2ec15ad4f1bb3228c11be3da26ccd61e">PEG_DEF_76</a></div><div class="ttdeci">#define PEG_DEF_76(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4518</div></div>
+<div class="ttc" id="apeglib_8h_html_a2ec15ad4f1bb3228c11be3da26ccd61e"><div class="ttname"><a href="#a2ec15ad4f1bb3228c11be3da26ccd61e">PEG_DEF_76</a></div><div class="ttdeci">#define PEG_DEF_76(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5333</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2264,7 +2278,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a6d9484d1d2d5c0e08812caab3c3d3add">PEG_DEF_77</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a6d9484d1d2d5c0e08812caab3c3d3add"><div class="ttname"><a href="#a6d9484d1d2d5c0e08812caab3c3d3add">PEG_DEF_77</a></div><div class="ttdeci">#define PEG_DEF_77(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4519</div></div>
+<div class="ttc" id="apeglib_8h_html_a6d9484d1d2d5c0e08812caab3c3d3add"><div class="ttname"><a href="#a6d9484d1d2d5c0e08812caab3c3d3add">PEG_DEF_77</a></div><div class="ttdeci">#define PEG_DEF_77(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5334</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2287,7 +2301,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#add68e6841c63cce3181b83bb351ea2b4">PEG_DEF_78</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_add68e6841c63cce3181b83bb351ea2b4"><div class="ttname"><a href="#add68e6841c63cce3181b83bb351ea2b4">PEG_DEF_78</a></div><div class="ttdeci">#define PEG_DEF_78(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4520</div></div>
+<div class="ttc" id="apeglib_8h_html_add68e6841c63cce3181b83bb351ea2b4"><div class="ttname"><a href="#add68e6841c63cce3181b83bb351ea2b4">PEG_DEF_78</a></div><div class="ttdeci">#define PEG_DEF_78(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5335</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2310,7 +2324,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a37c51726c663772b28fba14833c2225e">PEG_DEF_7</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a37c51726c663772b28fba14833c2225e"><div class="ttname"><a href="#a37c51726c663772b28fba14833c2225e">PEG_DEF_7</a></div><div class="ttdeci">#define PEG_DEF_7(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4449</div></div>
+<div class="ttc" id="apeglib_8h_html_a37c51726c663772b28fba14833c2225e"><div class="ttname"><a href="#a37c51726c663772b28fba14833c2225e">PEG_DEF_7</a></div><div class="ttdeci">#define PEG_DEF_7(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5264</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2333,7 +2347,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#aa5dab4b406f5b69a1c8670ceb8923eb3">PEG_DEF_79</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_aa5dab4b406f5b69a1c8670ceb8923eb3"><div class="ttname"><a href="#aa5dab4b406f5b69a1c8670ceb8923eb3">PEG_DEF_79</a></div><div class="ttdeci">#define PEG_DEF_79(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4521</div></div>
+<div class="ttc" id="apeglib_8h_html_aa5dab4b406f5b69a1c8670ceb8923eb3"><div class="ttname"><a href="#aa5dab4b406f5b69a1c8670ceb8923eb3">PEG_DEF_79</a></div><div class="ttdeci">#define PEG_DEF_79(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5336</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2356,7 +2370,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a1cccb50285260d03e494ea6e033b3d39">PEG_DEF_80</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a1cccb50285260d03e494ea6e033b3d39"><div class="ttname"><a href="#a1cccb50285260d03e494ea6e033b3d39">PEG_DEF_80</a></div><div class="ttdeci">#define PEG_DEF_80(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4522</div></div>
+<div class="ttc" id="apeglib_8h_html_a1cccb50285260d03e494ea6e033b3d39"><div class="ttname"><a href="#a1cccb50285260d03e494ea6e033b3d39">PEG_DEF_80</a></div><div class="ttdeci">#define PEG_DEF_80(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5337</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2379,7 +2393,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#af5bbc93630261b97865a3f3a6243e4bd">PEG_DEF_81</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_af5bbc93630261b97865a3f3a6243e4bd"><div class="ttname"><a href="#af5bbc93630261b97865a3f3a6243e4bd">PEG_DEF_81</a></div><div class="ttdeci">#define PEG_DEF_81(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4523</div></div>
+<div class="ttc" id="apeglib_8h_html_af5bbc93630261b97865a3f3a6243e4bd"><div class="ttname"><a href="#af5bbc93630261b97865a3f3a6243e4bd">PEG_DEF_81</a></div><div class="ttdeci">#define PEG_DEF_81(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5338</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2402,7 +2416,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a16d47edeb5678a79603223132531971f">PEG_DEF_82</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a16d47edeb5678a79603223132531971f"><div class="ttname"><a href="#a16d47edeb5678a79603223132531971f">PEG_DEF_82</a></div><div class="ttdeci">#define PEG_DEF_82(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4524</div></div>
+<div class="ttc" id="apeglib_8h_html_a16d47edeb5678a79603223132531971f"><div class="ttname"><a href="#a16d47edeb5678a79603223132531971f">PEG_DEF_82</a></div><div class="ttdeci">#define PEG_DEF_82(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5339</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2425,7 +2439,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a32dfc9955f0ff643c117fce0175d61f0">PEG_DEF_83</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a32dfc9955f0ff643c117fce0175d61f0"><div class="ttname"><a href="#a32dfc9955f0ff643c117fce0175d61f0">PEG_DEF_83</a></div><div class="ttdeci">#define PEG_DEF_83(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4525</div></div>
+<div class="ttc" id="apeglib_8h_html_a32dfc9955f0ff643c117fce0175d61f0"><div class="ttname"><a href="#a32dfc9955f0ff643c117fce0175d61f0">PEG_DEF_83</a></div><div class="ttdeci">#define PEG_DEF_83(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5340</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2448,7 +2462,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a2f8dbba9d5e425d93cb2abead2dd31b5">PEG_DEF_84</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a2f8dbba9d5e425d93cb2abead2dd31b5"><div class="ttname"><a href="#a2f8dbba9d5e425d93cb2abead2dd31b5">PEG_DEF_84</a></div><div class="ttdeci">#define PEG_DEF_84(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4526</div></div>
+<div class="ttc" id="apeglib_8h_html_a2f8dbba9d5e425d93cb2abead2dd31b5"><div class="ttname"><a href="#a2f8dbba9d5e425d93cb2abead2dd31b5">PEG_DEF_84</a></div><div class="ttdeci">#define PEG_DEF_84(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5341</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2471,7 +2485,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#aab896e252f7266fe7b4579dcddb9ec82">PEG_DEF_85</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_aab896e252f7266fe7b4579dcddb9ec82"><div class="ttname"><a href="#aab896e252f7266fe7b4579dcddb9ec82">PEG_DEF_85</a></div><div class="ttdeci">#define PEG_DEF_85(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4527</div></div>
+<div class="ttc" id="apeglib_8h_html_aab896e252f7266fe7b4579dcddb9ec82"><div class="ttname"><a href="#aab896e252f7266fe7b4579dcddb9ec82">PEG_DEF_85</a></div><div class="ttdeci">#define PEG_DEF_85(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5342</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2494,7 +2508,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a6d8b4e41c48462dc27617cc252a72f4a">PEG_DEF_86</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a6d8b4e41c48462dc27617cc252a72f4a"><div class="ttname"><a href="#a6d8b4e41c48462dc27617cc252a72f4a">PEG_DEF_86</a></div><div class="ttdeci">#define PEG_DEF_86(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4528</div></div>
+<div class="ttc" id="apeglib_8h_html_a6d8b4e41c48462dc27617cc252a72f4a"><div class="ttname"><a href="#a6d8b4e41c48462dc27617cc252a72f4a">PEG_DEF_86</a></div><div class="ttdeci">#define PEG_DEF_86(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5343</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2517,7 +2531,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ab4cb5e387c116a6175389b11f2d1281b">PEG_DEF_87</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ab4cb5e387c116a6175389b11f2d1281b"><div class="ttname"><a href="#ab4cb5e387c116a6175389b11f2d1281b">PEG_DEF_87</a></div><div class="ttdeci">#define PEG_DEF_87(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4529</div></div>
+<div class="ttc" id="apeglib_8h_html_ab4cb5e387c116a6175389b11f2d1281b"><div class="ttname"><a href="#ab4cb5e387c116a6175389b11f2d1281b">PEG_DEF_87</a></div><div class="ttdeci">#define PEG_DEF_87(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5344</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2540,7 +2554,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#acbcc63cc108d320f49973442a042f2a2">PEG_DEF_88</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_acbcc63cc108d320f49973442a042f2a2"><div class="ttname"><a href="#acbcc63cc108d320f49973442a042f2a2">PEG_DEF_88</a></div><div class="ttdeci">#define PEG_DEF_88(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4530</div></div>
+<div class="ttc" id="apeglib_8h_html_acbcc63cc108d320f49973442a042f2a2"><div class="ttname"><a href="#acbcc63cc108d320f49973442a042f2a2">PEG_DEF_88</a></div><div class="ttdeci">#define PEG_DEF_88(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5345</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2563,7 +2577,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a53c061d98fbbc220c20f8489e6ac8e97">PEG_DEF_8</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a53c061d98fbbc220c20f8489e6ac8e97"><div class="ttname"><a href="#a53c061d98fbbc220c20f8489e6ac8e97">PEG_DEF_8</a></div><div class="ttdeci">#define PEG_DEF_8(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4450</div></div>
+<div class="ttc" id="apeglib_8h_html_a53c061d98fbbc220c20f8489e6ac8e97"><div class="ttname"><a href="#a53c061d98fbbc220c20f8489e6ac8e97">PEG_DEF_8</a></div><div class="ttdeci">#define PEG_DEF_8(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5265</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2586,7 +2600,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a5972ebbd78023ed4a4823ccaf0445f8e">PEG_DEF_89</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a5972ebbd78023ed4a4823ccaf0445f8e"><div class="ttname"><a href="#a5972ebbd78023ed4a4823ccaf0445f8e">PEG_DEF_89</a></div><div class="ttdeci">#define PEG_DEF_89(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4531</div></div>
+<div class="ttc" id="apeglib_8h_html_a5972ebbd78023ed4a4823ccaf0445f8e"><div class="ttname"><a href="#a5972ebbd78023ed4a4823ccaf0445f8e">PEG_DEF_89</a></div><div class="ttdeci">#define PEG_DEF_89(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5346</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2609,7 +2623,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a32c37fb5c6fa6a82917e60fee9740329">PEG_DEF_90</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a32c37fb5c6fa6a82917e60fee9740329"><div class="ttname"><a href="#a32c37fb5c6fa6a82917e60fee9740329">PEG_DEF_90</a></div><div class="ttdeci">#define PEG_DEF_90(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4532</div></div>
+<div class="ttc" id="apeglib_8h_html_a32c37fb5c6fa6a82917e60fee9740329"><div class="ttname"><a href="#a32c37fb5c6fa6a82917e60fee9740329">PEG_DEF_90</a></div><div class="ttdeci">#define PEG_DEF_90(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5347</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2632,7 +2646,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a7f9281c728a03045fe2b6f22a19e259b">PEG_DEF_91</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a7f9281c728a03045fe2b6f22a19e259b"><div class="ttname"><a href="#a7f9281c728a03045fe2b6f22a19e259b">PEG_DEF_91</a></div><div class="ttdeci">#define PEG_DEF_91(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4533</div></div>
+<div class="ttc" id="apeglib_8h_html_a7f9281c728a03045fe2b6f22a19e259b"><div class="ttname"><a href="#a7f9281c728a03045fe2b6f22a19e259b">PEG_DEF_91</a></div><div class="ttdeci">#define PEG_DEF_91(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5348</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2655,7 +2669,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a2515225547d2609ec8c2e825adb9b3b7">PEG_DEF_92</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a2515225547d2609ec8c2e825adb9b3b7"><div class="ttname"><a href="#a2515225547d2609ec8c2e825adb9b3b7">PEG_DEF_92</a></div><div class="ttdeci">#define PEG_DEF_92(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4534</div></div>
+<div class="ttc" id="apeglib_8h_html_a2515225547d2609ec8c2e825adb9b3b7"><div class="ttname"><a href="#a2515225547d2609ec8c2e825adb9b3b7">PEG_DEF_92</a></div><div class="ttdeci">#define PEG_DEF_92(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5349</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2678,7 +2692,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ab501727c138b52c61df48b5c471dbe89">PEG_DEF_93</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ab501727c138b52c61df48b5c471dbe89"><div class="ttname"><a href="#ab501727c138b52c61df48b5c471dbe89">PEG_DEF_93</a></div><div class="ttdeci">#define PEG_DEF_93(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4535</div></div>
+<div class="ttc" id="apeglib_8h_html_ab501727c138b52c61df48b5c471dbe89"><div class="ttname"><a href="#ab501727c138b52c61df48b5c471dbe89">PEG_DEF_93</a></div><div class="ttdeci">#define PEG_DEF_93(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5350</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2701,7 +2715,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a0e03d896568b1627ac292a2264a35c44">PEG_DEF_94</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a0e03d896568b1627ac292a2264a35c44"><div class="ttname"><a href="#a0e03d896568b1627ac292a2264a35c44">PEG_DEF_94</a></div><div class="ttdeci">#define PEG_DEF_94(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4536</div></div>
+<div class="ttc" id="apeglib_8h_html_a0e03d896568b1627ac292a2264a35c44"><div class="ttname"><a href="#a0e03d896568b1627ac292a2264a35c44">PEG_DEF_94</a></div><div class="ttdeci">#define PEG_DEF_94(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5351</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2724,7 +2738,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ab613f89f8698373e77e8d05e03e74720">PEG_DEF_95</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ab613f89f8698373e77e8d05e03e74720"><div class="ttname"><a href="#ab613f89f8698373e77e8d05e03e74720">PEG_DEF_95</a></div><div class="ttdeci">#define PEG_DEF_95(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4537</div></div>
+<div class="ttc" id="apeglib_8h_html_ab613f89f8698373e77e8d05e03e74720"><div class="ttname"><a href="#ab613f89f8698373e77e8d05e03e74720">PEG_DEF_95</a></div><div class="ttdeci">#define PEG_DEF_95(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5352</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2747,7 +2761,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a72968c5941c46c2d589bd0e5e90373bc">PEG_DEF_96</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a72968c5941c46c2d589bd0e5e90373bc"><div class="ttname"><a href="#a72968c5941c46c2d589bd0e5e90373bc">PEG_DEF_96</a></div><div class="ttdeci">#define PEG_DEF_96(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4538</div></div>
+<div class="ttc" id="apeglib_8h_html_a72968c5941c46c2d589bd0e5e90373bc"><div class="ttname"><a href="#a72968c5941c46c2d589bd0e5e90373bc">PEG_DEF_96</a></div><div class="ttdeci">#define PEG_DEF_96(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5353</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2770,7 +2784,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#a83e567c9b29e74e77c94ec4d57a41f88">PEG_DEF_97</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_a83e567c9b29e74e77c94ec4d57a41f88"><div class="ttname"><a href="#a83e567c9b29e74e77c94ec4d57a41f88">PEG_DEF_97</a></div><div class="ttdeci">#define PEG_DEF_97(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4539</div></div>
+<div class="ttc" id="apeglib_8h_html_a83e567c9b29e74e77c94ec4d57a41f88"><div class="ttname"><a href="#a83e567c9b29e74e77c94ec4d57a41f88">PEG_DEF_97</a></div><div class="ttdeci">#define PEG_DEF_97(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5354</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2793,7 +2807,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5cf40e466321f85b8cd467f3f188f125">PEG_EXPAND</a>(<a class="code hl_define" href="#a87d09330101044947a4da8d804a23e96">PEG_DEF_1</a>(r1) <a class="code hl_define" href="#ab2edc9c74333410379fd83f373a85a70">PEG_DEF_98</a>(__VA_ARGS__))</div>
-<div class="ttc" id="apeglib_8h_html_ab2edc9c74333410379fd83f373a85a70"><div class="ttname"><a href="#ab2edc9c74333410379fd83f373a85a70">PEG_DEF_98</a></div><div class="ttdeci">#define PEG_DEF_98(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:4540</div></div>
+<div class="ttc" id="apeglib_8h_html_ab2edc9c74333410379fd83f373a85a70"><div class="ttname"><a href="#ab2edc9c74333410379fd83f373a85a70">PEG_DEF_98</a></div><div class="ttdeci">#define PEG_DEF_98(r1,...)</div><div class="ttdef"><b>Definition</b> peglib.h:5355</div></div>
 </div><!-- fragment -->
 </div>
 </div>

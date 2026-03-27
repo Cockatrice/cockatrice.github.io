@@ -9,5 +9,6 @@ var classpeg_1_1Repetition =
     [ "zom", "df/de3/classpeg_1_1Repetition.html#a105a3071992543b12a6d41a9aabc9c19", null ],
     [ "max_", "df/de3/classpeg_1_1Repetition.html#ab7a9a316d534248fe43258205e170d5c", null ],
     [ "min_", "df/de3/classpeg_1_1Repetition.html#af446f200e7c0090fce2a82519aa4bcd3", null ],
-    [ "ope_", "df/de3/classpeg_1_1Repetition.html#aa869317d26c25b322c74606a5563fa6e", null ]
+    [ "ope_", "df/de3/classpeg_1_1Repetition.html#aa869317d26c25b322c74606a5563fa6e", null ],
+    [ "span_bitset_", "df/de3/classpeg_1_1Repetition.html#a4f47206fdcd49f7d4322482eaa284db9", null ]
 ];

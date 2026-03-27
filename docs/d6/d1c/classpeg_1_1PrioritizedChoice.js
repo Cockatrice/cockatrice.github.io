@@ -6,6 +6,7 @@ var classpeg_1_1PrioritizedChoice =
     [ "accept", "d6/d1c/classpeg_1_1PrioritizedChoice.html#a4b58f8375b859b7bf40cd1d9bb43d697", null ],
     [ "parse_core", "d6/d1c/classpeg_1_1PrioritizedChoice.html#a2a6555692c3bf83f6ba81e1fc587830e", null ],
     [ "size", "d6/d1c/classpeg_1_1PrioritizedChoice.html#a260fb49579834fc71f4f36a182c12b01", null ],
+    [ "first_sets_", "d6/d1c/classpeg_1_1PrioritizedChoice.html#aed27cd166286d7d822820f01643a07f9", null ],
     [ "for_label_", "d6/d1c/classpeg_1_1PrioritizedChoice.html#a71073e6ea3a2ab7f2a464627663d9212", null ],
     [ "opes_", "d6/d1c/classpeg_1_1PrioritizedChoice.html#ad00b448cc2ab6826b5cab72c8d8158ea", null ]
 ];

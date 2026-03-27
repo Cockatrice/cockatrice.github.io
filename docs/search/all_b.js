@@ -11,11 +11,13 @@ var searchData=
   ['keypressevent_8',['keyPressEvent',['../d3/d00/classAnnotationDialog.html#a9f230cb6100bc36005bde0bd729add94',1,'AnnotationDialog::keyPressEvent()'],['../d6/d3e/classAbstractDlgDeckTextEdit.html#aac6a8a14cb13ae57537d1f50d3a4b0ab',1,'AbstractDlgDeckTextEdit::keyPressEvent()'],['../da/d45/classLineEditUnfocusable.html#aa6bee518837206324ea6df9ecf231bd8',1,'LineEditUnfocusable::keyPressEvent()'],['../d8/d4c/classSearchLineEdit.html#a0b7e6408aab7256d86db22e3270912e5',1,'SearchLineEdit::keyPressEvent()'],['../d1/dcb/classLineEditCompleter.html#ad1a351f1e4592ce2d13dc2a3e6268eff',1,'LineEditCompleter::keyPressEvent()']]],
   ['keys_9',['keys',['../d3/d0a/classSequenceEdit.html#a20fb7aca6572907654b698faa8ab9ce8',1,'SequenceEdit']]],
   ['keysignals_10',['KeySignals',['../da/d89/classKeySignals.html',1,'']]],
-  ['keywords_11',['keywords',['../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8',1,'EdhrecApiResponseCardContainer']]],
-  ['kickparticipant_12',['kickParticipant',['../df/d89/classServer__Game.html#a90ab470c9629310d46b40db6b4deb60d',1,'Server_Game']]],
-  ['known_20cards_13',['Querying for known cards',['../da/d66/querying_the_card_database.html#querying-for-known-cards',1,'']]],
-  ['knownlist_14',['knownList',['../d1/df2/classAddCardAlgorithmTest.html#a646c170308c9a742478be87f4dea80cb',1,'AddCardAlgorithmTest']]],
-  ['knownmissingfeatures_15',['knownMissingFeatures',['../d5/d88/classSettingsCache.html#ad934cf8ddf5f5b043a682bbc45ed4016',1,'SettingsCache']]],
-  ['knowntags_5f_16',['knownTags_',['../de/d04/classDeckPreviewTagDialog.html#a6a36974baeae9cd4f95be489245a984e',1,'DeckPreviewTagDialog']]],
-  ['ksingletoncounts_17',['kSingletonCounts',['../d9/d21/oracleimporter_8cpp.html#acc91fb4fd31c2c37c31726137ff47425',1,'oracleimporter.cpp']]]
+  ['keywordguarddata_11',['KeywordGuardData',['../d7/d9a/structpeg_1_1KeywordGuardData.html',1,'peg']]],
+  ['keywords_12',['keywords',['../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8',1,'EdhrecApiResponseCardContainer']]],
+  ['kickparticipant_13',['kickParticipant',['../df/d89/classServer__Game.html#a90ab470c9629310d46b40db6b4deb60d',1,'Server_Game']]],
+  ['known_20cards_14',['Querying for known cards',['../da/d66/querying_the_card_database.html#querying-for-known-cards',1,'']]],
+  ['knownlist_15',['knownList',['../d1/df2/classAddCardAlgorithmTest.html#a646c170308c9a742478be87f4dea80cb',1,'AddCardAlgorithmTest']]],
+  ['knownmissingfeatures_16',['knownMissingFeatures',['../d5/d88/classSettingsCache.html#ad934cf8ddf5f5b043a682bbc45ed4016',1,'SettingsCache']]],
+  ['knowntags_5f_17',['knownTags_',['../de/d04/classDeckPreviewTagDialog.html#a6a36974baeae9cd4f95be489245a984e',1,'DeckPreviewTagDialog']]],
+  ['ksingletoncounts_18',['kSingletonCounts',['../d9/d21/oracleimporter_8cpp.html#acc91fb4fd31c2c37c31726137ff47425',1,'oracleimporter.cpp']]],
+  ['kw_5fguard_5f_19',['kw_guard_',['../d3/d7c/classpeg_1_1Sequence.html#a41130a9093261d13902c999b7238fec8',1,'peg::Sequence']]]
 ];

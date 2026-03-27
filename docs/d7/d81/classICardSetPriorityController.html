@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-25-Development-2.11.0-beta.56</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-27-Development-2.11.0-beta.57</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -113,9 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a040079033f96ce55ee0f698d5916d254" id="r_a040079033f96ce55ee0f698d5916d254"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a040079033f96ce55ee0f698d5916d254">setSortKey</a> (QString shortName, unsigned int sortKey)=0</td></tr>
 <tr class="memitem:a104633542c79d810475a0a48f22e2287" id="r_a104633542c79d810475a0a48f22e2287"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a104633542c79d810475a0a48f22e2287">setEnabled</a> (QString shortName, bool enabled)=0</td></tr>
 <tr class="memitem:a1c1baef175efef7b6cac874635f96ee7" id="r_a1c1baef175efef7b6cac874635f96ee7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c1baef175efef7b6cac874635f96ee7">setIsKnown</a> (QString shortName, bool isknown)=0</td></tr>
-<tr class="memitem:aab3542cf36c4d06589a95ec5bdb528fb" id="r_aab3542cf36c4d06589a95ec5bdb528fb"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab3542cf36c4d06589a95ec5bdb528fb">getSortKey</a> (QString shortName)=0</td></tr>
-<tr class="memitem:a1d323cf8e4fb24b45b7afdda99d598a4" id="r_a1d323cf8e4fb24b45b7afdda99d598a4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d323cf8e4fb24b45b7afdda99d598a4">isEnabled</a> (QString shortName)=0</td></tr>
-<tr class="memitem:aedae513a863456dd911784521b8b3266" id="r_aedae513a863456dd911784521b8b3266"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedae513a863456dd911784521b8b3266">isKnown</a> (QString shortName)=0</td></tr>
+<tr class="memitem:ab6579413cb6c2b5452f5c1c65e8c1ab9" id="r_ab6579413cb6c2b5452f5c1c65e8c1ab9"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6579413cb6c2b5452f5c1c65e8c1ab9">getSortKey</a> (QString shortName) const =0</td></tr>
+<tr class="memitem:ab1c7c415fd40f4884c60068166829f50" id="r_ab1c7c415fd40f4884c60068166829f50"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1c7c415fd40f4884c60068166829f50">isEnabled</a> (QString shortName) const =0</td></tr>
+<tr class="memitem:a9449e5b720506ef5e20250761906743c" id="r_a9449e5b720506ef5e20250761906743c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9449e5b720506ef5e20250761906743c">isKnown</a> (QString shortName) const =0</td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a87c55e7b18616199ea7b8372a04ad99f" name="a87c55e7b18616199ea7b8372a04ad99f"></a>
@@ -144,8 +144,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="aab3542cf36c4d06589a95ec5bdb528fb" name="aab3542cf36c4d06589a95ec5bdb528fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab3542cf36c4d06589a95ec5bdb528fb">&#9670;&#160;</a></span>getSortKey()</h2>
+<a id="ab6579413cb6c2b5452f5c1c65e8c1ab9" name="ab6579413cb6c2b5452f5c1c65e8c1ab9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6579413cb6c2b5452f5c1c65e8c1ab9">&#9670;&#160;</a></span>getSortKey()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,7 +157,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">virtual unsigned int ICardSetPriorityController::getSortKey </td>
           <td>(</td>
           <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>shortName</em></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -167,12 +167,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../de/dbe/classCardDatabaseSettings.html#ae3d91a059e66a8be1cc035818d8d8cd1">CardDatabaseSettings</a>, and <a class="el" href="../../d3/d21/classNoopCardSetPriorityController.html#a122b58aff9613d8ac5ed15df0ee44149">NoopCardSetPriorityController</a>.</p>
+<p>Implemented in <a class="el" href="../../de/dbe/classCardDatabaseSettings.html#a94eeeab6307c485dc5550bf683f2ed8d">CardDatabaseSettings</a>, and <a class="el" href="../../d3/d21/classNoopCardSetPriorityController.html#a26e69237213da1fcea0a5dc8c595426c">NoopCardSetPriorityController</a>.</p>
 
 </div>
 </div>
-<a id="a1d323cf8e4fb24b45b7afdda99d598a4" name="a1d323cf8e4fb24b45b7afdda99d598a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d323cf8e4fb24b45b7afdda99d598a4">&#9670;&#160;</a></span>isEnabled()</h2>
+<a id="ab1c7c415fd40f4884c60068166829f50" name="ab1c7c415fd40f4884c60068166829f50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1c7c415fd40f4884c60068166829f50">&#9670;&#160;</a></span>isEnabled()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,7 +184,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">virtual bool ICardSetPriorityController::isEnabled </td>
           <td>(</td>
           <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>shortName</em></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -194,12 +194,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../de/dbe/classCardDatabaseSettings.html#a90e40e0f41cfca5902cd81f7a7fcdf01">CardDatabaseSettings</a>, and <a class="el" href="../../d3/d21/classNoopCardSetPriorityController.html#ae1df6dd022f841a52d73e4b970dc7d31">NoopCardSetPriorityController</a>.</p>
+<p>Implemented in <a class="el" href="../../de/dbe/classCardDatabaseSettings.html#a167321b275a5fce82059550adf45dce3">CardDatabaseSettings</a>, and <a class="el" href="../../d3/d21/classNoopCardSetPriorityController.html#adb9c280ed6233e158f8ff28080a84ebc">NoopCardSetPriorityController</a>.</p>
 
 </div>
 </div>
-<a id="aedae513a863456dd911784521b8b3266" name="aedae513a863456dd911784521b8b3266"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedae513a863456dd911784521b8b3266">&#9670;&#160;</a></span>isKnown()</h2>
+<a id="a9449e5b720506ef5e20250761906743c" name="a9449e5b720506ef5e20250761906743c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9449e5b720506ef5e20250761906743c">&#9670;&#160;</a></span>isKnown()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,7 +211,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">virtual bool ICardSetPriorityController::isKnown </td>
           <td>(</td>
           <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>shortName</em></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -221,7 +221,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../de/dbe/classCardDatabaseSettings.html#a9080233c3510d44af7772b13e34b9cbd">CardDatabaseSettings</a>, and <a class="el" href="../../d3/d21/classNoopCardSetPriorityController.html#a4a8a757dd2ba4a1979b63473cc25606f">NoopCardSetPriorityController</a>.</p>
+<p>Implemented in <a class="el" href="../../de/dbe/classCardDatabaseSettings.html#a9fbbedcd8e76da030a3c3906b7710337">CardDatabaseSettings</a>, and <a class="el" href="../../d3/d21/classNoopCardSetPriorityController.html#a5d78e16d17215ee195b5d511e8680140">NoopCardSetPriorityController</a>.</p>
 
 </div>
 </div>

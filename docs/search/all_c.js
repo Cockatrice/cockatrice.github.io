@@ -77,7 +77,7 @@ var searchData=
   ['lefttoolbar_74',['leftToolBar',['../d1/dd7/classTabDeckStorage.html#a0b2fd0319950f6e8283dc5693cbd708b',1,'TabDeckStorage']]],
   ['legacy_75',['Legacy',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a0cc0a0507cf3d31e5089f420a4cf8b4b',1,'ArchidektFormats']]],
   ['legalcommander_76',['legalCommander',['../d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ab752fb3b67a665bba6b97ed128d1cd5d',1,'EdhrecCommanderApiResponseCommanderDetails']]],
-  ['len_77',['len',['../df/d1f/structpeg_1_1Definition_1_1Result.html#a902bbfbfd0f1bf05d8d000ea20a283f7',1,'peg::Definition::Result']]],
+  ['len_77',['len',['../d4/d84/structpeg_1_1Context_1_1LRMemo.html#a63ef2920877725a71e7608763182e293',1,'peg::Context::LRMemo::len'],['../df/d1f/structpeg_1_1Definition_1_1Result.html#a902bbfbfd0f1bf05d8d000ea20a283f7',1,'peg::Definition::Result::len']]],
   ['lendlibrarymenu_78',['lendLibraryMenu',['../d9/d65/classLibraryMenu.html#a4160826201d5e19fa2a8f0b3983cad13',1,'LibraryMenu']]],
   ['length_79',['length',['../d2/d75/structpeg_1_1AstBase.html#a440f23491d0f4879445b901c68efb25e',1,'peg::AstBase']]],
   ['lessthan_80',['lessThan',['../da/d8d/classCardDatabaseDisplayModel.html#ae0ced444dea1aa49fd247c8ee1ec2b65',1,'CardDatabaseDisplayModel::lessThan()'],['../dd/df6/classSetsDisplayModel.html#aa936f160c0e2bd724a6e5629635943ae',1,'SetsDisplayModel::lessThan()'],['../dc/dba/classDeckListSortFilterProxyModel.html#acf45a76fd148d1f361389b1210696eb4',1,'DeckListSortFilterProxyModel::lessThan()']]],
@@ -98,7 +98,7 @@ var searchData=
   ['line_5f_95',['line_',['../d8/d94/classpeg_1_1Definition.html#a41e024fc09c32d44f3eed17b2e9b2406',1,'peg::Definition']]],
   ['line_5fedit_5fcompleter_2ecpp_96',['line_edit_completer.cpp',['../d5/d88/line__edit__completer_8cpp.html',1,'']]],
   ['line_5fedit_5fcompleter_2eh_97',['line_edit_completer.h',['../d2/de8/line__edit__completer_8h.html',1,'']]],
-  ['line_5finfo_98',['line_info',['../df/dd5/structpeg_1_1SemanticValues.html#a02e5b0ba9db61ad2f8c23dff4a928337',1,'peg::SemanticValues::line_info()'],['../df/d94/classpeg_1_1Context.html#abfa256b6196bd04a3a2655831baabdf0',1,'peg::Context::line_info()'],['../dc/db2/namespacepeg.html#a271c917c846302e10267a6be78a28d49',1,'peg::line_info()']]],
+  ['line_5finfo_98',['line_info',['../df/dd5/structpeg_1_1SemanticValues.html#a02e5b0ba9db61ad2f8c23dff4a928337',1,'peg::SemanticValues::line_info()'],['../df/d94/classpeg_1_1Context.html#abfa256b6196bd04a3a2655831baabdf0',1,'peg::Context::line_info()'],['../df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html#ae91e68f297279b7f0f999559ab3dadbf',1,'peg::ParserGenerator::SyntaxErrorException::line_info()'],['../dc/db2/namespacepeg.html#a271c917c846302e10267a6be78a28d49',1,'peg::line_info()']]],
   ['lineedit_99',['lineEdit',['../d3/d0a/classSequenceEdit.html#a2d9628e2c93a0ccd722c687e7dac4dc6',1,'SequenceEdit']]],
   ['lineeditcompleter_100',['LineEditCompleter',['../d1/dcb/classLineEditCompleter.html',1,'LineEditCompleter'],['../d1/dcb/classLineEditCompleter.html#a444a7bba33908d821c6c6ec73d11e706',1,'LineEditCompleter::LineEditCompleter()']]],
   ['lineeditunfocusable_101',['LineEditUnfocusable',['../da/d45/classLineEditUnfocusable.html',1,'LineEditUnfocusable'],['../da/d45/classLineEditUnfocusable.html#aee83e369e70c8ff4835a3c5b954249ac',1,'LineEditUnfocusable::LineEditUnfocusable(QWidget *parent=nullptr)'],['../da/d45/classLineEditUnfocusable.html#a1b6e378cea9f95d44fac888309fc3850',1,'LineEditUnfocusable::LineEditUnfocusable(const QString &amp;contents, QWidget *parent=nullptr)']]],
@@ -328,7 +328,12 @@ var searchData=
   ['lookahead_325',['lookAhead',['../d3/d98/classQtJson_1_1Json.html#a95a5212d614879f4ceb4d4e9950b821d',1,'QtJson::Json']]],
   ['lookupcardbyname_326',['lookupCardByName',['../d8/dbe/classCardDatabaseQuerier.html#a88851785aa59886aa8f53e09ef163585',1,'CardDatabaseQuerier']]],
   ['loopovermodel_327',['loopOverModel',['../d3/d0a/shortcut__treeview_8cpp.html#a61745f79a89157b5165451ae0dd43473',1,'shortcut_treeview.cpp']]],
-  ['loyalty_328',['Loyalty',['../db/d09/namespaceMtg.html#ab68cb693c7c07a4d535d93c6e670575b',1,'Mtg']]],
-  ['lshift128_329',['lshift128',['../d8/d7c/SFMT-common_8h.html#a1b365c636736cfd197cde44957555d1f',1,'SFMT-common.h']]],
-  ['lsi_330',['lsi',['../df/d75/classLocalClient.html#aaa02a54f8e4795523c9794d02a6acbb6',1,'LocalClient']]]
+  ['lower_5flit_5f_328',['lower_lit_',['../d2/de2/classpeg_1_1LiteralString.html#a894f0673a74154602bebfcf351631502',1,'peg::LiteralString']]],
+  ['loyalty_329',['Loyalty',['../db/d09/namespaceMtg.html#ab68cb693c7c07a4d535d93c6e670575b',1,'Mtg']]],
+  ['lr_5factive_5fseeds_330',['lr_active_seeds',['../df/d94/classpeg_1_1Context.html#a1a176271e4158ab2d8ffad9d02a0f77b',1,'peg::Context']]],
+  ['lr_5fmemo_331',['lr_memo',['../df/d94/classpeg_1_1Context.html#a53ece3b1558b3978178cbfa3767d733a',1,'peg::Context']]],
+  ['lr_5frefs_5fhit_332',['lr_refs_hit',['../df/d94/classpeg_1_1Context.html#a383eb033d9f8877694cba75fa6d4c44a',1,'peg::Context']]],
+  ['lrmemo_333',['LRMemo',['../d4/d84/structpeg_1_1Context_1_1LRMemo.html',1,'peg::Context']]],
+  ['lshift128_334',['lshift128',['../d8/d7c/SFMT-common_8h.html#a1b365c636736cfd197cde44957555d1f',1,'SFMT-common.h']]],
+  ['lsi_335',['lsi',['../df/d75/classLocalClient.html#aaa02a54f8e4795523c9794d02a6acbb6',1,'LocalClient']]]
 ];

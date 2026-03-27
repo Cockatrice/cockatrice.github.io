@@ -19,5 +19,6 @@ var searchData=
   ['localserverinterface_16',['LocalServerInterface',['../d0/dc3/classLocalServerInterface.html',1,'']]],
   ['lockpixmapgenerator_17',['LockPixmapGenerator',['../dd/dd6/classLockPixmapGenerator.html',1,'']]],
   ['logger_18',['Logger',['../db/d67/classLogger.html',1,'']]],
-  ['logicmap_19',['LogicMap',['../d9/d6e/classLogicMap.html',1,'']]]
+  ['logicmap_19',['LogicMap',['../d9/d6e/classLogicMap.html',1,'']]],
+  ['lrmemo_20',['LRMemo',['../d4/d84/structpeg_1_1Context_1_1LRMemo.html',1,'peg::Context']]]
 ];

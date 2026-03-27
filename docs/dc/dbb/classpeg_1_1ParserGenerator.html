@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-25-Development-2.11.0-beta.56</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-03-27-Development-2.11.0-beta.57</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -107,10 +107,11 @@ Classes</h2></td></tr>
 <tr class="memitem:Data" id="r_Data"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/structpeg_1_1ParserGenerator_1_1Data.html">Data</a></td></tr>
 <tr class="memitem:Instruction" id="r_Instruction"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html">Instruction</a></td></tr>
 <tr class="memitem:ParserContext" id="r_ParserContext"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db3/structpeg_1_1ParserGenerator_1_1ParserContext.html">ParserContext</a></td></tr>
+<tr class="memitem:SyntaxErrorException" id="r_SyntaxErrorException"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html">SyntaxErrorException</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a1233bfc5863c86b0ff94c0ffda4b7ec8" id="r_a1233bfc5863c86b0ff94c0ffda4b7ec8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d4/db3/structpeg_1_1ParserGenerator_1_1ParserContext.html">ParserContext</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1233bfc5863c86b0ff94c0ffda4b7ec8">parse</a> (const char *s, size_t n, const <a class="el" href="../../dc/db2/namespacepeg.html#a779ac1b87f0362736a5f2604f3129426">Rules</a> &amp;rules, <a class="el" href="../../dc/db2/namespacepeg.html#a837a8a5021a71b4b027c4495b4d70438">Log</a> log, std::string_view start)</td></tr>
+<tr class="memitem:a9357426aab6a9e153a0d26f72cffa130" id="r_a9357426aab6a9e153a0d26f72cffa130"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d4/db3/structpeg_1_1ParserGenerator_1_1ParserContext.html">ParserContext</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9357426aab6a9e153a0d26f72cffa130">parse</a> (const char *s, size_t n, const <a class="el" href="../../dc/db2/namespacepeg.html#a779ac1b87f0362736a5f2604f3129426">Rules</a> &amp;rules, <a class="el" href="../../dc/db2/namespacepeg.html#a837a8a5021a71b4b027c4495b4d70438">Log</a> log, std::string_view start, bool enable_left_recursion=true)</td></tr>
 <tr class="memitem:a6dbc405159d6bcb998bf44a48d67bd97" id="r_a6dbc405159d6bcb998bf44a48d67bd97"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dbc405159d6bcb998bf44a48d67bd97">parse_test</a> (const char *d, const char *s)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
@@ -119,7 +120,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a543f2d8a9a40794cb4b82321774792a0" id="r_a543f2d8a9a40794cb4b82321774792a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a543f2d8a9a40794cb4b82321774792a0">make_grammar</a> ()</td></tr>
 <tr class="memitem:afa7a9efe83e831fd48692dc871c5f3f9" id="r_afa7a9efe83e831fd48692dc871c5f3f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa7a9efe83e831fd48692dc871c5f3f9">setup_actions</a> ()</td></tr>
 <tr class="memitem:a4e1b5dc42ccf7c70b038a45cb052d0f7" id="r_a4e1b5dc42ccf7c70b038a45cb052d0f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e1b5dc42ccf7c70b038a45cb052d0f7">apply_precedence_instruction</a> (<a class="el" href="../../d8/d94/classpeg_1_1Definition.html">Definition</a> &amp;rule, const <a class="el" href="../../d5/dd9/classpeg_1_1PrecedenceClimbing.html#a19e7283741229750a0ca58313ba72d02">PrecedenceClimbing::BinOpeInfo</a> &amp;info, const char *s, <a class="el" href="../../dc/db2/namespacepeg.html#a837a8a5021a71b4b027c4495b4d70438">Log</a> log)</td></tr>
-<tr class="memitem:ae38088c37117a2cf1db24bbe7fe5c661" id="r_ae38088c37117a2cf1db24bbe7fe5c661"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/db3/structpeg_1_1ParserGenerator_1_1ParserContext.html">ParserContext</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae38088c37117a2cf1db24bbe7fe5c661">perform_core</a> (const char *s, size_t n, const <a class="el" href="../../dc/db2/namespacepeg.html#a779ac1b87f0362736a5f2604f3129426">Rules</a> &amp;rules, <a class="el" href="../../dc/db2/namespacepeg.html#a837a8a5021a71b4b027c4495b4d70438">Log</a> log, std::string requested_start)</td></tr>
+<tr class="memitem:a28cc2c9f6200d6bf55270d2808e9833a" id="r_a28cc2c9f6200d6bf55270d2808e9833a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/db3/structpeg_1_1ParserGenerator_1_1ParserContext.html">ParserContext</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28cc2c9f6200d6bf55270d2808e9833a">perform_core</a> (const char *s, size_t n, const <a class="el" href="../../dc/db2/namespacepeg.html#a779ac1b87f0362736a5f2604f3129426">Rules</a> &amp;rules, <a class="el" href="../../dc/db2/namespacepeg.html#a837a8a5021a71b4b027c4495b4d70438">Log</a> log, std::string requested_start, bool enable_left_recursion=true)</td></tr>
 <tr class="memitem:aa14774e3fd10c4d030309763717d73fc" id="r_aa14774e3fd10c4d030309763717d73fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa14774e3fd10c4d030309763717d73fc">detect_infiniteLoop</a> (const <a class="el" href="../../db/d2d/structpeg_1_1ParserGenerator_1_1Data.html">Data</a> &amp;data, <a class="el" href="../../d8/d94/classpeg_1_1Definition.html">Definition</a> &amp;rule, const <a class="el" href="../../dc/db2/namespacepeg.html#a837a8a5021a71b4b027c4495b4d70438">Log</a> &amp;log, const char *s) const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
@@ -335,8 +336,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a1233bfc5863c86b0ff94c0ffda4b7ec8" name="a1233bfc5863c86b0ff94c0ffda4b7ec8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1233bfc5863c86b0ff94c0ffda4b7ec8">&#9670;&#160;</a></span>parse()</h2>
+<a id="a9357426aab6a9e153a0d26f72cffa130" name="a9357426aab6a9e153a0d26f72cffa130"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9357426aab6a9e153a0d26f72cffa130">&#9670;&#160;</a></span>parse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +368,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>start</em></span>&#160;)</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>enable_left_recursion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -379,7 +385,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dbb/classpeg_1_1ParserGenerator_a1233bfc5863c86b0ff94c0ffda4b7ec8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dbb/classpeg_1_1ParserGenerator_a9357426aab6a9e153a0d26f72cffa130_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -418,8 +424,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ae38088c37117a2cf1db24bbe7fe5c661" name="ae38088c37117a2cf1db24bbe7fe5c661"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae38088c37117a2cf1db24bbe7fe5c661">&#9670;&#160;</a></span>perform_core()</h2>
+<a id="a28cc2c9f6200d6bf55270d2808e9833a" name="a28cc2c9f6200d6bf55270d2808e9833a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28cc2c9f6200d6bf55270d2808e9833a">&#9670;&#160;</a></span>perform_core()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -450,7 +456,12 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>requested_start</em></span>&#160;)</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>requested_start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>enable_left_recursion</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -462,12 +473,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dbb/classpeg_1_1ParserGenerator_ae38088c37117a2cf1db24bbe7fe5c661_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dbb/classpeg_1_1ParserGenerator_a28cc2c9f6200d6bf55270d2808e9833a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dbb/classpeg_1_1ParserGenerator_ae38088c37117a2cf1db24bbe7fe5c661_icgraph.svg" width="376" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dbb/classpeg_1_1ParserGenerator_a28cc2c9f6200d6bf55270d2808e9833a_icgraph.svg" width="376" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

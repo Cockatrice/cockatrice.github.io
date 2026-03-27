@@ -43,7 +43,7 @@ var searchData=
   ['hasextraheader_40',['hasExtraHeader',['../d5/db4/classQxtMailAttachment.html#af7f8ecd0e7a679643c5979a7084f3225',1,'QxtMailAttachment::hasExtraHeader()'],['../d5/dff/classQxtMailMessage.html#a76aceeef72ff84285b3d07a8873edf64',1,'QxtMailMessage::hasExtraHeader()']]],
   ['hash_41',['hash',['../db/d72/classQxtHmac.html#a856980c267db2933eab4d2da946fd18b',1,'QxtHmac']]],
   ['hasheightforwidth_42',['hasHeightForWidth',['../de/d8b/classFlowLayout.html#a224599955b4bc40e73b615236d9803ee',1,'FlowLayout']]],
-  ['hashgametype_43',['hashGameType',['../df/dd0/classGameFiltersSettings.html#a8459da6f2fe5d9a3f5e5db3287fe270e',1,'GameFiltersSettings']]],
+  ['hashgametype_43',['hashGameType',['../d8/d0b/game__filters__settings_8cpp.html#ab7570a3c9b0a2198ff74c1983f2696d6',1,'game_filters_settings.cpp']]],
   ['hasnotbeenloaded_44',['hasNotBeenLoaded',['../de/de9/classDeckLoader.html#a2101fa8ea5deafdbc193cb6daf0653c4',1,'DeckLoader']]],
   ['hasproperty_45',['hasProperty',['../dd/dd2/classCardInfo.html#a038559a20d48d5fd11d57c03becef983',1,'CardInfo']]],
   ['hastokensdata_46',['hasTokensData',['../d5/dba/classOracleWizard.html#a6a4c2dea7cb0a8731f406901cb42052e',1,'OracleWizard']]],

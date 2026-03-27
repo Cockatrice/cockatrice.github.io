@@ -56,7 +56,7 @@ var searchData=
   ['leftjustifiedhandcheckbox_53',['leftJustifiedHandCheckBox',['../d8/dc5/classAppearanceSettingsPage.html#ac2ee82cf44714aa73a0ad9c1d85d78de',1,'AppearanceSettingsPage']]],
   ['lefttoolbar_54',['leftToolBar',['../d1/dd7/classTabDeckStorage.html#a0b2fd0319950f6e8283dc5693cbd708b',1,'TabDeckStorage']]],
   ['legalcommander_55',['legalCommander',['../d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#ab752fb3b67a665bba6b97ed128d1cd5d',1,'EdhrecCommanderApiResponseCommanderDetails']]],
-  ['len_56',['len',['../df/d1f/structpeg_1_1Definition_1_1Result.html#a902bbfbfd0f1bf05d8d000ea20a283f7',1,'peg::Definition::Result']]],
+  ['len_56',['len',['../d4/d84/structpeg_1_1Context_1_1LRMemo.html#a63ef2920877725a71e7608763182e293',1,'peg::Context::LRMemo::len'],['../df/d1f/structpeg_1_1Definition_1_1Result.html#a902bbfbfd0f1bf05d8d000ea20a283f7',1,'peg::Definition::Result::len']]],
   ['length_57',['length',['../d2/d75/structpeg_1_1AstBase.html#a440f23491d0f4879445b901c68efb25e',1,'peg::AstBase']]],
   ['lhentrychecked_58',['lhEntryChecked',['../d6/dd9/classZipEntryP.html#af353d588f23978fc3a3edd71aba537d2',1,'ZipEntryP']]],
   ['lhoffset_59',['lhOffset',['../d6/dd9/classZipEntryP.html#af67f5ab82c22712ef2532fcab93c897f',1,'ZipEntryP']]],
@@ -119,5 +119,9 @@ var searchData=
   ['logtofileenabled_116',['logToFileEnabled',['../db/d67/classLogger.html#a68c0d3e95a78e07978f131bd97b3b2d0',1,'Logger']]],
   ['logviewdialog_117',['logviewDialog',['../d6/d1a/classMainWindow.html#a6745ab872e9020453344be5d9e670508',1,'MainWindow']]],
   ['longname_118',['longName',['../d6/d3d/classCardSet.html#a009ef8096b548ffced131e5d052d0153',1,'CardSet::longName'],['../d8/dc3/classSetToDownload.html#ab1df7b88168abe3376ae676ea06fdad1',1,'SetToDownload::longName']]],
-  ['lsi_119',['lsi',['../df/d75/classLocalClient.html#aaa02a54f8e4795523c9794d02a6acbb6',1,'LocalClient']]]
+  ['lower_5flit_5f_119',['lower_lit_',['../d2/de2/classpeg_1_1LiteralString.html#a894f0673a74154602bebfcf351631502',1,'peg::LiteralString']]],
+  ['lr_5factive_5fseeds_120',['lr_active_seeds',['../df/d94/classpeg_1_1Context.html#a1a176271e4158ab2d8ffad9d02a0f77b',1,'peg::Context']]],
+  ['lr_5fmemo_121',['lr_memo',['../df/d94/classpeg_1_1Context.html#a53ece3b1558b3978178cbfa3767d733a',1,'peg::Context']]],
+  ['lr_5frefs_5fhit_122',['lr_refs_hit',['../df/d94/classpeg_1_1Context.html#a383eb033d9f8877694cba75fa6d4c44a',1,'peg::Context']]],
+  ['lsi_123',['lsi',['../df/d75/classLocalClient.html#aaa02a54f8e4795523c9794d02a6acbb6',1,'LocalClient']]]
 ];

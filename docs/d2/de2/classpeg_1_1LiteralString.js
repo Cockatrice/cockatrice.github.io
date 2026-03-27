@@ -7,5 +7,6 @@ var classpeg_1_1LiteralString =
     [ "ignore_case_", "d2/de2/classpeg_1_1LiteralString.html#a5715ddf3a8bd41f8f6b737b2b186af55", null ],
     [ "init_is_word_", "d2/de2/classpeg_1_1LiteralString.html#aa88618abfbf5d556c1a30a09c2e07e8b", null ],
     [ "is_word_", "d2/de2/classpeg_1_1LiteralString.html#aadde08d13fa02c2754a8cc07e63d368f", null ],
-    [ "lit_", "d2/de2/classpeg_1_1LiteralString.html#a93e625bb2f3e9dea5e94a1e91486d80e", null ]
+    [ "lit_", "d2/de2/classpeg_1_1LiteralString.html#a93e625bb2f3e9dea5e94a1e91486d80e", null ],
+    [ "lower_lit_", "d2/de2/classpeg_1_1LiteralString.html#a894f0673a74154602bebfcf351631502", null ]
 ];

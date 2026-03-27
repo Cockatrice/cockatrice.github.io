@@ -111,6 +111,7 @@ var hierarchy =
       [ "FilterItem", "d4/d40/classFilterItem.html", null ],
       [ "FilterTreeBranch< T >", "d0/d92/classFilterTreeBranch.html", null ]
     ] ],
+    [ "peg::FirstSet", "d0/dc7/structpeg_1_1FirstSet.html", null ],
     [ "FormatRules", "d2/da9/structFormatRules.html", null ],
     [ "GameEventStorage", "de/d8f/classGameEventStorage.html", null ],
     [ "GameEventStorageItem", "da/df9/classGameEventStorageItem.html", null ],
@@ -139,10 +140,12 @@ var hierarchy =
     ] ],
     [ "QtJson::Json", "d3/d98/classQtJson_1_1Json.html", null ],
     [ "CardSetList::KeyCompareFunctor", "da/d79/classCardSetList_1_1KeyCompareFunctor.html", null ],
+    [ "peg::KeywordGuardData", "d7/d9a/structpeg_1_1KeywordGuardData.html", null ],
     [ "LoadedDeck", "d9/dc2/structLoadedDeck.html", null ],
     [ "LoadedDeck::LoadInfo", "d4/d0d/structLoadedDeck_1_1LoadInfo.html", null ],
     [ "LocalGameOptions", "d9/de7/structLocalGameOptions.html", null ],
     [ "LockPixmapGenerator", "dd/dd6/classLockPixmapGenerator.html", null ],
+    [ "peg::Context::LRMemo", "d4/d84/structpeg_1_1Context_1_1LRMemo.html", null ],
     [ "ManaBaseConfig", "dd/db2/structManaBaseConfig.html", null ],
     [ "ManaCurveConfig", "d6/d55/structManaCurveConfig.html", null ],
     [ "ManaDevotionConfig", "d5/d54/structManaDevotionConfig.html", null ],
@@ -186,6 +189,7 @@ var hierarchy =
       [ "peg::WeakHolder", "db/d5b/classpeg_1_1WeakHolder.html", null ],
       [ "peg::Whitespace", "de/d63/classpeg_1_1Whitespace.html", null ]
     ] ],
+    [ "peg::Context::PackratStats", "db/dcb/structpeg_1_1Context_1_1PackratStats.html", null ],
     [ "PaletteColorInfo", "d8/dc8/structPaletteColorInfo.html", null ],
     [ "ParsedDeckInfo", "d8/d82/structParsedDeckInfo.html", null ],
     [ "peg::parser", "da/d7b/classpeg_1_1parser.html", null ],
@@ -197,6 +201,7 @@ var hierarchy =
     [ "Phases", "db/da6/structPhases.html", null ],
     [ "PingPixmapGenerator", "d6/d4f/classPingPixmapGenerator.html", null ],
     [ "PlayerReference", "d8/d3d/classPlayerReference.html", null ],
+    [ "peg::Predicate", "da/da7/classpeg_1_1Predicate.html", null ],
     [ "PrintingInfo", "d6/d90/classPrintingInfo.html", null ],
     [ "QAbstractButton", null, [
       [ "CloseButton", "df/df8/classCloseButton.html", null ]
@@ -752,6 +757,9 @@ var hierarchy =
     [ "ResponseContainer", "db/d74/classResponseContainer.html", null ],
     [ "peg::Definition::Result", "df/d1f/structpeg_1_1Definition_1_1Result.html", null ],
     [ "Result", "dd/d7e/structResult.html", null ],
+    [ "std::runtime_error", null, [
+      [ "peg::ParserGenerator::SyntaxErrorException", "df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html", null ]
+    ] ],
     [ "peg::scope_exit< EF >", "d5/dbb/structpeg_1_1scope__exit.html", null ],
     [ "CardSearchModel::SearchResult", "df/d87/structCardSearchModel_1_1SearchResult.html", null ],
     [ "SegmentedBarWidget::Segment", "d2/d89/structSegmentedBarWidget_1_1Segment.html", null ],
@@ -773,6 +781,7 @@ var hierarchy =
     [ "SFMT_T", "db/d02/structSFMT__T.html", null ],
     [ "ShortcutGroup", "d2/d7a/classShortcutGroup.html", null ],
     [ "SideboardPlan", "dc/d8b/classSideboardPlan.html", null ],
+    [ "peg::Context::Snapshot", "dd/de0/structpeg_1_1Context_1_1Snapshot.html", null ],
     [ "SplitCardPart", "d5/d45/classSplitCardPart.html", null ],
     [ "testing::Test", null, [
       [ "AddCardAlgorithmTest", "d1/df2/classAddCardAlgorithmTest.html", null ]
@@ -793,17 +802,22 @@ var hierarchy =
       [ "peg::SemanticValues", "df/dd5/structpeg_1_1SemanticValues.html", null ]
     ] ],
     [ "peg::Ope::Visitor", "d2/daa/structpeg_1_1Ope_1_1Visitor.html", [
-      [ "peg::AssignIDToDefinition", "d9/d27/structpeg_1_1AssignIDToDefinition.html", null ],
-      [ "peg::DetectInfiniteLoop", "db/d34/structpeg_1_1DetectInfiniteLoop.html", null ],
-      [ "peg::DetectLeftRecursion", "df/dff/structpeg_1_1DetectLeftRecursion.html", null ],
       [ "peg::FindLiteralToken", "dd/dfd/structpeg_1_1FindLiteralToken.html", null ],
       [ "peg::FindReference", "d9/dfd/structpeg_1_1FindReference.html", null ],
-      [ "peg::HasEmptyElement", "d5/daf/structpeg_1_1HasEmptyElement.html", null ],
       [ "peg::IsLiteralToken", "de/d67/structpeg_1_1IsLiteralToken.html", null ],
-      [ "peg::LinkReferences", "d1/dcf/structpeg_1_1LinkReferences.html", null ],
-      [ "peg::ReferenceChecker", "dd/de4/structpeg_1_1ReferenceChecker.html", null ],
-      [ "peg::TokenChecker", "de/d4a/structpeg_1_1TokenChecker.html", null ],
-      [ "peg::TraceOpeName", "d1/dab/structpeg_1_1TraceOpeName.html", null ]
+      [ "peg::TraceOpeName", "d1/dab/structpeg_1_1TraceOpeName.html", null ],
+      [ "peg::TraversalVisitor", "da/ddf/structpeg_1_1TraversalVisitor.html", [
+        [ "peg::AssignIDToDefinition", "d9/d27/structpeg_1_1AssignIDToDefinition.html", null ],
+        [ "peg::ComputeCanBeEmpty", "d5/de5/structpeg_1_1ComputeCanBeEmpty.html", null ],
+        [ "peg::ComputeFirstSet", "dd/d7e/structpeg_1_1ComputeFirstSet.html", null ],
+        [ "peg::DetectInfiniteLoop", "db/d34/structpeg_1_1DetectInfiniteLoop.html", null ],
+        [ "peg::DetectLeftRecursion", "df/dff/structpeg_1_1DetectLeftRecursion.html", null ],
+        [ "peg::HasEmptyElement", "d5/daf/structpeg_1_1HasEmptyElement.html", null ],
+        [ "peg::LinkReferences", "d1/dcf/structpeg_1_1LinkReferences.html", null ],
+        [ "peg::ReferenceChecker", "dd/de4/structpeg_1_1ReferenceChecker.html", null ],
+        [ "peg::SetupFirstSets", "dd/db4/structpeg_1_1SetupFirstSets.html", null ],
+        [ "peg::TokenChecker", "de/d4a/structpeg_1_1TokenChecker.html", null ]
+      ] ]
     ] ],
     [ "W128_T", "df/db1/unionW128__T.html", null ],
     [ "Zip", "d8/df5/classZip.html", null ],
