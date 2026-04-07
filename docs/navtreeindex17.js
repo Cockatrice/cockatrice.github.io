@@ -1,5 +1,9 @@
 var NAVTREEINDEX17 =
 {
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a5181a7c32722708536f8a2d92127f585":[4,1,0,508,4],
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a54d3c6ec456240fbfb08b93942af4cff":[4,1,0,508,12],
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a6f498eec152a7a7e6bd9ba1946da7f58":[4,1,0,508,6],
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a78742b603d693b673f0c890663b19004":[4,1,0,508,8],
 "d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a7f934855ec40e9f2b719735a75b3cb50":[4,1,0,508,10],
 "d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a944e578b958566b6565a6e60c809398f":[4,1,0,508,5],
 "d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#ad482e020e157f002d8c86b3a2ca1eadd":[4,1,0,508,13],
@@ -136,6 +140,7 @@ var NAVTREEINDEX17 =
 "d5/d61/classEdhrecTopTagsApiResponseDisplayWidget.html#a62651456e8a3bf9dcc9c0ac17ca50b2a":[4,1,0,211,3],
 "d5/d61/classEdhrecTopTagsApiResponseDisplayWidget.html#a826eea39f0543af3b5d0fbc769e35bbe":[4,1,0,211,2],
 "d5/d63/tab__replays_8cpp.html":[4,2,0,0,1,5,3,10,23],
+"d5/d63/tab__replays_8cpp.html#aff655cefd8dc6fb2f816994eae8bb0b6":[4,2,0,0,1,5,3,10,23,0],
 "d5/d69/cockatrice__xml__4_8h.html":[4,2,0,2,0,0,0,0,5],
 "d5/d69/cockatrice__xml__4_8h.html#a273f8e6eb57be9bb69f3ff5102c4f869":[4,2,0,2,0,0,0,0,5,0],
 "d5/d69/cockatrice__xml__4_8h_source.html":[4,2,0,2,0,0,0,0,5],
@@ -244,10 +249,5 @@ var NAVTREEINDEX17 =
 "d5/d88/classSettingsCache.html#a124e79421a3238fb7d762fc17d1083dd":[4,1,0,429,176],
 "d5/d88/classSettingsCache.html#a12eaccbf6d92385a5cbd7e53f2cb129e":[4,1,0,429,351],
 "d5/d88/classSettingsCache.html#a13186152e1028fa9b1f9377fa4820831":[4,1,0,429,439],
-"d5/d88/classSettingsCache.html#a13bce90ac6f43c803202f5c7356b9512":[4,1,0,429,64],
-"d5/d88/classSettingsCache.html#a145108850b71351969bf90ef741c5a97":[4,1,0,429,31],
-"d5/d88/classSettingsCache.html#a1476a176435391bfd8f017f56e330610":[4,1,0,429,253],
-"d5/d88/classSettingsCache.html#a15f4e3b122b714b1f0776ac4678d0257":[4,1,0,429,362],
-"d5/d88/classSettingsCache.html#a161632d30308d5ba546c9424fdce7c65":[4,1,0,429,454],
-"d5/d88/classSettingsCache.html#a1700b7f91aeb1000749ae1530e5f2354":[4,1,0,429,208]
+"d5/d88/classSettingsCache.html#a13bce90ac6f43c803202f5c7356b9512":[4,1,0,429,64]
 };

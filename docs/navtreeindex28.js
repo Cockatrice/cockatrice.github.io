@@ -1,5 +1,11 @@
 var NAVTREEINDEX28 =
 {
+"d7/db2/classGameEventHandler.html#ad0db2518a426c0e12b95fbf2dbfdc39f":[4,1,0,232,42],
+"d7/db2/classGameEventHandler.html#ad102a88c7c5538da90f7cda1926f8e9e":[4,1,0,232,28],
+"d7/db2/classGameEventHandler.html#add49fd4e69d0a8f557f9d3666e0b2fe7":[4,1,0,232,52],
+"d7/db2/classGameEventHandler.html#ae211e0e294de11d79ecbcd5b431c7ff7":[4,1,0,232,67],
+"d7/db2/classGameEventHandler.html#ae637778c92c10a6cf594320c2e904549":[4,1,0,232,44],
+"d7/db2/classGameEventHandler.html#af406c6fac5729732c0ad9453004094ee":[4,1,0,232,18],
 "d7/db2/classGameEventHandler.html#af4d64c6216dc200cdccb2768438a94b9":[4,1,0,232,25],
 "d7/db2/classGameEventHandler.html#af52769a4ee4814573393cf537429496b":[4,1,0,232,45],
 "d7/db3/group__Decks.html":[3,3],
@@ -238,16 +244,10 @@ var NAVTREEINDEX28 =
 "d8/d16/unzip__p_8h_source.html":[4,2,0,12,0,2,2],
 "d8/d18/tabbed__deck__view__container_8cpp.html":[4,2,0,0,1,3,1,4],
 "d8/d19/servatrice__database__interface_8cpp.html":[4,2,0,13,0,11],
+"d8/d19/servatrice__database__interface_8cpp.html#a5261bf95f926dbea4a715d3f599b8df6":[4,2,0,13,0,11,0],
 "d8/d1c/classVisualDeckStorageSearchWidget.html":[4,1,0,523],
 "d8/d1c/classVisualDeckStorageSearchWidget.html#a0c85946f203125aced4127bbe359375f":[4,1,0,523,4],
 "d8/d1c/classVisualDeckStorageSearchWidget.html#a307b2788777299763e65582d1c748ba9":[4,1,0,523,5],
 "d8/d1c/classVisualDeckStorageSearchWidget.html#a3d62ebbbb137bf4e99be327c3668539e":[4,1,0,523,1],
-"d8/d1c/classVisualDeckStorageSearchWidget.html#a77bd754c665ff177d87348193ecaec44":[4,1,0,523,6],
-"d8/d1c/classVisualDeckStorageSearchWidget.html#ab616cd35c1a74e854f87659dd4b7fe1d":[4,1,0,523,0],
-"d8/d1c/classVisualDeckStorageSearchWidget.html#ac6c7337acb48173e9676b6a0fb500f11":[4,1,0,523,3],
-"d8/d1c/classVisualDeckStorageSearchWidget.html#ad82e968e308ecb4fbd57d901d78cd383":[4,1,0,523,2],
-"d8/d1c/qxtsmtp_8h.html":[4,2,0,13,0,0,9],
-"d8/d1c/qxtsmtp_8h_source.html":[4,2,0,13,0,0,9],
-"d8/d1f/phases__toolbar_8cpp.html":[4,2,0,0,1,3,25],
-"d8/d21/classServer__Player.html":[4,1,0,412]
+"d8/d1c/classVisualDeckStorageSearchWidget.html#a77bd754c665ff177d87348193ecaec44":[4,1,0,523,6]
 };

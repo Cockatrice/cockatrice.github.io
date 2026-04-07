@@ -1,5 +1,12 @@
 var NAVTREEINDEX35 =
 {
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#a24965a9cb65446a4304579d225126e95":[3,3,1,1,12,19],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#a456e833e975de0bb73273f82e32ec20f":[3,1,0,4,12,17],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#a456e833e975de0bb73273f82e32ec20f":[3,3,1,1,12,17],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#a514f90914c4bd35dab9e33e2f5d6f195":[3,1,0,4,12,7],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#a514f90914c4bd35dab9e33e2f5d6f195":[3,3,1,1,12,7],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#a51cdd816a383c60c5683876263bd620d":[3,1,0,4,12,12],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#a51cdd816a383c60c5683876263bd620d":[3,3,1,1,12,12],
 "d9/dcf/classTabDeckEditorVisualTabWidget.html#a5541105d16eaac092aebbe828dcc788e":[3,1,0,4,12,11],
 "d9/dcf/classTabDeckEditorVisualTabWidget.html#a5541105d16eaac092aebbe828dcc788e":[3,3,1,1,12,11],
 "d9/dcf/classTabDeckEditorVisualTabWidget.html#a586d54e377d31e6cb0fcff1829ef17a8":[3,1,0,4,12,21],
@@ -242,12 +249,5 @@ var NAVTREEINDEX35 =
 "d9/df7/classDeckEditorDeckDockWidget.html#acb4e871acae5612f56d29ec0eef1e50a":[4,1,0,116,3],
 "d9/df7/classDeckEditorDeckDockWidget.html#ad77912694effefc9423efc877fb60a4d":[4,1,0,116,2],
 "d9/df7/classDeckEditorDeckDockWidget.html#ad8ba4d7fc6d5fb3a9a36570552eb3064":[4,1,0,116,51],
-"d9/df7/classDeckEditorDeckDockWidget.html#ade9bd6abf1e8d7a98a62221430b9cb61":[4,1,0,116,55],
-"d9/df7/classDeckEditorDeckDockWidget.html#adfb56dc6dd03726355eb507ca96bcbc6":[4,1,0,116,8],
-"d9/df7/classDeckEditorDeckDockWidget.html#adfb689307eebe46c0a599afc3639bdf8":[4,1,0,116,6],
-"d9/df7/classDeckEditorDeckDockWidget.html#ae004d23e9e8cec4dfce313240eba9e87":[4,1,0,116,4],
-"d9/df7/classDeckEditorDeckDockWidget.html#ae050c8573c137ae2fbc0073a5e966779":[4,1,0,116,16],
-"d9/df7/classDeckEditorDeckDockWidget.html#ae35d7f715c6a7530e708c7cadefdc3c9":[4,1,0,116,40],
-"d9/df7/classDeckEditorDeckDockWidget.html#ae52bd17da47ada3862d69b2a2c467ae4":[4,1,0,116,42],
-"d9/df7/classDeckEditorDeckDockWidget.html#ae62018c18651e82ea1423f9d44716059":[4,1,0,116,19]
+"d9/df7/classDeckEditorDeckDockWidget.html#ade9bd6abf1e8d7a98a62221430b9cb61":[4,1,0,116,55]
 };

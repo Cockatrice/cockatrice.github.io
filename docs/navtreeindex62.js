@@ -1,5 +1,12 @@
 var NAVTREEINDEX62 =
 {
+"df/dea/classUserInfoBox.html#a6c2dbb4aabd38566c4af8ee1039da3da":[4,1,0,495,20],
+"df/dea/classUserInfoBox.html#a6cb9ea1bed71f00e877636f2c727ac4e":[4,1,0,495,13],
+"df/dea/classUserInfoBox.html#a79580bc848da495a3593c5aef1aae16f":[4,1,0,495,35],
+"df/dea/classUserInfoBox.html#a7c8e16a44c73ff22192375cfc34edb68":[4,1,0,495,5],
+"df/dea/classUserInfoBox.html#a80d788ff3c660bd58e59163af75ee865":[4,1,0,495,15],
+"df/dea/classUserInfoBox.html#a8557d535c7653201a4e0331f7495d642":[4,1,0,495,4],
+"df/dea/classUserInfoBox.html#a8710e1758d1d82d6871149e094162ffe":[4,1,0,495,7],
 "df/dea/classUserInfoBox.html#a87fbb5f7a52e818e64d3b99d1b570142":[4,1,0,495,31],
 "df/dea/classUserInfoBox.html#a94957b75179515fca185e293b43ec40c":[4,1,0,495,6],
 "df/dea/classUserInfoBox.html#a96dabd86a721b644f98260376e24bab3":[4,1,0,495,11],
@@ -242,12 +249,5 @@ var NAVTREEINDEX62 =
 "dir_ac5cce461f0162d7264cd69fe196aa39.html":[4,2,0,0,1,3,0],
 "dir_ac639bf5def7a52f4148030f65bcdbcf.html":[4,2,0,7,0],
 "dir_ae05894e3028d488dfa7ccf1fba9f792.html":[4,2,0,12,0,1],
-"dir_b0c312031cf4adbf4e3892130f945cb7.html":[4,2,0,14,1],
-"dir_b5d8f01de3dc21799cf25dcf1941902e.html":[4,2,0,0,1,5,3,10,1],
-"dir_b6678f13f2e674fd65fe1f08b8e14ad3.html":[4,2,0,0,1,5,3,9],
-"dir_b96141027d8992ecf147fd93cd6a39e6.html":[4,2,0,0,1,3,1],
-"dir_ba682a31495a0e75e2fe1ea8d2ff2fa6.html":[4,2,0,4,0],
-"dir_bbe1b97583a2f9f8192fbaa45c1632bc.html":[4,2,0,0,1,5,3,6],
-"dir_c0f4d5b1a5acc63c519e327f7ef54984.html":[4,2,0,0,1,5,3,10,0,1,0,2],
-"dir_c8351e4946a3db43e350164236048225.html":[4,2,0,7,0,0,1,1,0]
+"dir_b0c312031cf4adbf4e3892130f945cb7.html":[4,2,0,14,1]
 };

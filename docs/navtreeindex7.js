@@ -1,5 +1,8 @@
 var NAVTREEINDEX7 =
 {
+"d2/d12/classServer__DatabaseInterface.html#a064064d477a306165d1cd6e4a57edd44":[4,1,0,410,18],
+"d2/d12/classServer__DatabaseInterface.html#a1063cd25c1c105042cca91809803c6f4":[4,1,0,410,28],
+"d2/d12/classServer__DatabaseInterface.html#a1837325a614b4220c22824ac870f2e33":[4,1,0,410,12],
 "d2/d12/classServer__DatabaseInterface.html#a1b1bc8b90fb1e7634e9a20e56b9a1e3b":[4,1,0,410,34],
 "d2/d12/classServer__DatabaseInterface.html#a1e64a68f69356a65b22d49e4a4608995":[4,1,0,410,6],
 "d2/d12/classServer__DatabaseInterface.html#a21578d5968956cf39e7b026065209898":[4,1,0,410,14],
@@ -246,8 +249,5 @@ var NAVTREEINDEX7 =
 "d2/d32/classVisualDatabaseDisplayWidget.html#a14d65b3e7ba5e729a1d89af7d8def161":[4,1,0,516,48],
 "d2/d32/classVisualDatabaseDisplayWidget.html#a15dfc22fc93543180258a94638a1dda4":[4,1,0,516,43],
 "d2/d32/classVisualDatabaseDisplayWidget.html#a181eb4826a168a751d9c4e0d175cb55f":[4,1,0,516,9],
-"d2/d32/classVisualDatabaseDisplayWidget.html#a18506b4a8f5f01201905472dd7fa54fe":[4,1,0,516,7],
-"d2/d32/classVisualDatabaseDisplayWidget.html#a229e457f33c82e025e974491560b97c7":[4,1,0,516,49],
-"d2/d32/classVisualDatabaseDisplayWidget.html#a2dbfdaa45634eeea342de255821153c5":[4,1,0,516,45],
-"d2/d32/classVisualDatabaseDisplayWidget.html#a34c0f5dd7c5a8281c41874149480fe80":[4,1,0,516,11]
+"d2/d32/classVisualDatabaseDisplayWidget.html#a18506b4a8f5f01201905472dd7fa54fe":[4,1,0,516,7]
 };

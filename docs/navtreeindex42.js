@@ -1,5 +1,12 @@
 var NAVTREEINDEX42 =
 {
+"db/d53/classRemoteClient.html#a8710dd4fe1b46922cfd73f7ac710fe0a":[4,1,0,372,51],
+"db/d53/classRemoteClient.html#a885bf43b2b8c193b928db4b84567c3a9":[4,1,0,372,58],
+"db/d53/classRemoteClient.html#a8bdb5ca024d9270ab33e513c2f6f913b":[4,1,0,372,24],
+"db/d53/classRemoteClient.html#a8d75e47be74e51e4a3b805b408c7b296":[4,1,0,372,43],
+"db/d53/classRemoteClient.html#a9062a34ca75fb418d0abed01cdcdb485":[4,1,0,372,2],
+"db/d53/classRemoteClient.html#a928441da2c46749f3f027e1e823bb9dd":[4,1,0,372,62],
+"db/d53/classRemoteClient.html#a92def2e8d2e2fdc1cf5ba0bb7c3c199d":[4,1,0,372,63],
 "db/d53/classRemoteClient.html#a96b6918942af86845b9736d83f3ae355":[4,1,0,372,69],
 "db/d53/classRemoteClient.html#a99d20047ef5f1d8eed00b6efca0398b2":[4,1,0,372,46],
 "db/d53/classRemoteClient.html#aa0a78030dc27255ae4a364556c29473c":[4,1,0,372,44],
@@ -242,12 +249,5 @@ var NAVTREEINDEX42 =
 "db/d74/classResponseContainer.html#aa5a8aab2ffe77f7e6db72a3f863ede53":[4,1,0,381,11],
 "db/d74/classResponseContainer.html#abcf70fdbe718d3d0c817c1acb66c957c":[4,1,0,381,6],
 "db/d74/classResponseContainer.html#ace21d09da59555ab02b2fc1b3d2b03e3":[4,1,0,381,2],
-"db/d74/classResponseContainer.html#afb9b17039785020b7d390c4a8bdaa368":[4,1,0,381,5],
-"db/d7e/banner__widget_8cpp.html":[4,2,0,0,1,5,3,4,0,3],
-"db/d80/group__Core.html":[3,0],
-"db/d80/player_8cpp.html":[4,2,0,0,1,3,4,3],
-"db/d8a/archidekt__formats_8h.html":[4,2,0,0,1,5,3,10,0,0,0,5],
-"db/d8a/archidekt__formats_8h_source.html":[4,2,0,0,1,5,3,10,0,0,0,5],
-"db/d8a/pending__command_8cpp.html":[4,2,0,8,0,0,6],
-"db/d8d/dlg__manage__sets_8cpp.html":[4,2,0,0,1,5,3,3,34]
+"db/d74/classResponseContainer.html#afb9b17039785020b7d390c4a8bdaa368":[4,1,0,381,5]
 };

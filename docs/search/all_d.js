@@ -130,7 +130,7 @@ var searchData=
   ['matchnode_127',['MatchNode',['../d7/d25/classRemoteReplayList__TreeModel_1_1MatchNode.html',1,'RemoteReplayList_TreeModel::MatchNode'],['../d7/d25/classRemoteReplayList__TreeModel_1_1MatchNode.html#a0d64f51ddbee8f89337dc22ce93b5077',1,'RemoteReplayList_TreeModel::MatchNode::MatchNode()']]],
   ['matchtype_128',['matchType',['../d3/d64/structCardCondition.html#ac1a0892b33da3c767aa2aef0419c3602',1,'CardCondition']]],
   ['matchtypefromstring_129',['matchTypeFromString',['../de/d2f/format__legality__rules_8h.html#a2c1a3effdba41906f218a7531763f48f',1,'format_legality_rules.h']]],
-  ['math_130',['math',['../da/d45/expression_8cpp.html#ade5bfd07b733f2f92eac6a2f72a7799d',1,'expression.cpp']]],
+  ['math_130',['math',['../da/d45/expression_8cpp.html#a7258073806e9106c2f29d6c1eed0b103',1,'expression.cpp']]],
   ['max_131',['max',['../d3/d3f/structAllowedCount.html#a2b98740ed57e302875a351eb833d3f0e',1,'AllowedCount']]],
   ['max_5f_132',['max_',['../df/de3/classpeg_1_1Repetition.html#ab7a9a316d534248fe43258205e170d5c',1,'peg::Repetition']]],
   ['max_5fcounters_5fon_5fcard_133',['MAX_COUNTERS_ON_CARD',['../dc/d96/card__item_8h.html#a054ecad0358d1bef616bfa3a4abce234',1,'card_item.h']]],

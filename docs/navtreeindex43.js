@@ -1,5 +1,12 @@
 var NAVTREEINDEX43 =
 {
+"db/d7e/banner__widget_8cpp.html":[4,2,0,0,1,5,3,4,0,3],
+"db/d80/group__Core.html":[3,0],
+"db/d80/player_8cpp.html":[4,2,0,0,1,3,4,3],
+"db/d8a/archidekt__formats_8h.html":[4,2,0,0,1,5,3,10,0,0,0,5],
+"db/d8a/archidekt__formats_8h_source.html":[4,2,0,0,1,5,3,10,0,0,0,5],
+"db/d8a/pending__command_8cpp.html":[4,2,0,8,0,0,6],
+"db/d8d/dlg__manage__sets_8cpp.html":[4,2,0,0,1,5,3,3,34],
 "db/d91/importing_decks.html":[0,0,1],
 "db/d91/importing_decks.html#from-an-online-service-1":[0,0,1,1,2],
 "db/d91/importing_decks.html#from-clipboard-1":[0,0,1,1,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX43 =
 "db/dc4/unzip_8cpp.html#a5b387ab2d84b90a56b1edc00038db864":[4,2,0,12,0,2,0,11],
 "db/dc4/unzip_8cpp.html#a5f626f9f6d5f6a4efa2ad593f88001d3":[4,2,0,12,0,2,0,15],
 "db/dc4/unzip_8cpp.html#a656fb0cd0e715542bddb0ea350f3de25":[4,2,0,12,0,2,0,34],
-"db/dc4/unzip_8cpp.html#a6fb9cc9b71c3e37b2903f512976918a2":[4,2,0,12,0,2,0,35],
-"db/dc4/unzip_8cpp.html#a7762d413c11c6172bbd75e449d3cdf84":[4,2,0,12,0,2,0,26],
-"db/dc4/unzip_8cpp.html#a7cfabb9bbb561edafce862e582da2ffc":[4,2,0,12,0,2,0,14],
-"db/dc4/unzip_8cpp.html#a8a9d86ee1cbf6eaefc6364246ec052a5":[4,2,0,12,0,2,0,31],
-"db/dc4/unzip_8cpp.html#a8b74657ebdf411b8bcc72038b3df8a3e":[4,2,0,12,0,2,0,18],
-"db/dc4/unzip_8cpp.html#a8d07e49e137680ce6f3809d66237657e":[4,2,0,12,0,2,0,21],
-"db/dc4/unzip_8cpp.html#a9d42bb47f6bd80977cba7f5fc876fd21":[4,2,0,12,0,2,0,19],
-"db/dc4/unzip_8cpp.html#a9f548005c00fa0754e9c23b7726bf741":[4,2,0,12,0,2,0,0]
+"db/dc4/unzip_8cpp.html#a6fb9cc9b71c3e37b2903f512976918a2":[4,2,0,12,0,2,0,35]
 };

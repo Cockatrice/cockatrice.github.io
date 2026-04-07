@@ -1,5 +1,12 @@
 var NAVTREEINDEX59 =
 {
+"df/d43/classManaDistributionWidget.html#afb9a2c7fabb48bce46a644b558cfe726":[4,1,0,298,5],
+"df/d46/dlg__load__deck_8h.html":[3,1,0,5,0,1],
+"df/d46/dlg__load__deck_8h.html":[3,3,2,0,0,0,1],
+"df/d46/dlg__load__deck_8h.html":[3,3,2,2,0,1],
+"df/d47/classCardSizeWidget.html":[4,1,0,96],
+"df/d47/classCardSizeWidget.html#a06b4b273dabd352f215598c7103e0bc6":[4,1,0,96,8],
+"df/d47/classCardSizeWidget.html#a368c7c4c1f6f9df291bb31f860c26458":[4,1,0,96,7],
 "df/d47/classCardSizeWidget.html#a3cac221c83bba1c4ccf1c0fc91093688":[4,1,0,96,1],
 "df/d47/classCardSizeWidget.html#a4468e2a33a74b9c7c6ed382872d79186":[4,1,0,96,6],
 "df/d47/classCardSizeWidget.html#a4cc5a0ae025c831b67905513c9de6ed3":[4,1,0,96,9],
@@ -242,12 +249,5 @@ var NAVTREEINDEX59 =
 "df/d90/classUnzipPrivate.html#a4f0aced5c07afb916f58d8f937ccdf7c":[4,1,0,491,2],
 "df/d90/classUnzipPrivate.html#a579b4554e765fdaa5bf87d4cd6c5a740":[4,1,0,491,18],
 "df/d90/classUnzipPrivate.html#a5c22a04abdf10a09813065df4d9d3334":[4,1,0,491,32],
-"df/d90/classUnzipPrivate.html#a5c3f3d6f1c93b785a399ecff715e6115":[4,1,0,491,36],
-"df/d90/classUnzipPrivate.html#a69fe659053f26c21a6ae9e93496baabd":[4,1,0,491,22],
-"df/d90/classUnzipPrivate.html#a75015684c5b5e238a654a827e5c8ef3a":[4,1,0,491,34],
-"df/d90/classUnzipPrivate.html#a77e0b3e999bc368ff221d9b302e0fbe1":[4,1,0,491,6],
-"df/d90/classUnzipPrivate.html#a7f0c1579bcf1788e83325f10e6d402a3":[4,1,0,491,29],
-"df/d90/classUnzipPrivate.html#a8ca049a6d5724269d26a9317f1d0049a":[4,1,0,491,24],
-"df/d90/classUnzipPrivate.html#aabdce53c5e9148fc1aaadef766219b60":[4,1,0,491,19],
-"df/d90/classUnzipPrivate.html#aac7552fcc88b8f4f2f87e1109fa43c26":[4,1,0,491,14]
+"df/d90/classUnzipPrivate.html#a5c3f3d6f1c93b785a399ecff715e6115":[4,1,0,491,36]
 };

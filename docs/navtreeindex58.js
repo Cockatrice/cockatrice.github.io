@@ -1,5 +1,12 @@
 var NAVTREEINDEX58 =
 {
+"de/df3/classTabEdhRecMain.html#a1ce1eb14583f11f834fc2ffce19a24a2":[4,1,0,466,12],
+"de/df3/classTabEdhRecMain.html#a1e84bfe76fa4b1eb411a0370815d7d47":[4,1,0,466,3],
+"de/df3/classTabEdhRecMain.html#a21f1b0819c3a0d063de853737e40f11d":[4,1,0,466,30],
+"de/df3/classTabEdhRecMain.html#a514bc8d5cbb6085f41c07260e16c3c96":[4,1,0,466,20],
+"de/df3/classTabEdhRecMain.html#a52420958e4763360a04c2abcd773e708":[4,1,0,466,14],
+"de/df3/classTabEdhRecMain.html#a56f128d78432a6ec36b2bcaccaa54c60":[4,1,0,466,19],
+"de/df3/classTabEdhRecMain.html#a5b23c34156dcbe350eeeeaa14dab4b52":[4,1,0,466,32],
 "de/df3/classTabEdhRecMain.html#a5d90f9ba9a6c21c80830cc2f0a461929":[4,1,0,466,18],
 "de/df3/classTabEdhRecMain.html#a6245980bbd88363de22d9a6793d91a89":[4,1,0,466,29],
 "de/df3/classTabEdhRecMain.html#a6a7091177039a8731ac7e3b3386abea5":[4,1,0,466,28],
@@ -242,12 +249,5 @@ var NAVTREEINDEX58 =
 "df/d43/classManaDistributionWidget.html#a816196d6521139d3295a0aec823e4d3f":[4,1,0,298,10],
 "df/d43/classManaDistributionWidget.html#a82babe14d350faaaab4ef8d0984c5e7a":[4,1,0,298,7],
 "df/d43/classManaDistributionWidget.html#aba5db88f6c478baf68b843f17febb42e":[4,1,0,298,12],
-"df/d43/classManaDistributionWidget.html#ada8ba05b4c2cc9d32d8a83121142d2d7":[4,1,0,298,13],
-"df/d43/classManaDistributionWidget.html#afb9a2c7fabb48bce46a644b558cfe726":[4,1,0,298,5],
-"df/d46/dlg__load__deck_8h.html":[3,1,0,5,0,1],
-"df/d46/dlg__load__deck_8h.html":[3,3,2,0,0,0,1],
-"df/d46/dlg__load__deck_8h.html":[3,3,2,2,0,1],
-"df/d47/classCardSizeWidget.html":[4,1,0,96],
-"df/d47/classCardSizeWidget.html#a06b4b273dabd352f215598c7103e0bc6":[4,1,0,96,8],
-"df/d47/classCardSizeWidget.html#a368c7c4c1f6f9df291bb31f860c26458":[4,1,0,96,7]
+"df/d43/classManaDistributionWidget.html#ada8ba05b4c2cc9d32d8a83121142d2d7":[4,1,0,298,13]
 };

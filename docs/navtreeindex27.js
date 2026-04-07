@@ -1,5 +1,11 @@
 var NAVTREEINDEX27 =
 {
+"d7/d81/classICardSetPriorityController.html#a104633542c79d810475a0a48f22e2287":[4,1,0,257,4],
+"d7/d81/classICardSetPriorityController.html#a1c1baef175efef7b6cac874635f96ee7":[4,1,0,257,5],
+"d7/d81/classICardSetPriorityController.html#a87c55e7b18616199ea7b8372a04ad99f":[4,1,0,257,0],
+"d7/d81/classICardSetPriorityController.html#a9449e5b720506ef5e20250761906743c":[4,1,0,257,3],
+"d7/d81/classICardSetPriorityController.html#ab1c7c415fd40f4884c60068166829f50":[4,1,0,257,2],
+"d7/d81/classICardSetPriorityController.html#ab6579413cb6c2b5452f5c1c65e8c1ab9":[4,1,0,257,1],
 "d7/d86/dlg__load__deck__from__website_8cpp.html":[4,2,0,0,1,5,3,3,28],
 "d7/d88/deck__file__format_8h.html":[4,2,0,0,1,5,1,3],
 "d7/d88/deck__file__format_8h_source.html":[4,2,0,0,1,5,1,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX27 =
 "d7/db2/classGameEventHandler.html#ab63f5627707ede5b66b43e03ee31feff":[4,1,0,232,47],
 "d7/db2/classGameEventHandler.html#ab841d29d36abf32e8722715b93969c58":[4,1,0,232,58],
 "d7/db2/classGameEventHandler.html#ac7f818cd9a2da7995c833fd03ab6fb96":[4,1,0,232,38],
-"d7/db2/classGameEventHandler.html#ad0a8ae81f23c40d023717e1ba9a540c3":[4,1,0,232,13],
-"d7/db2/classGameEventHandler.html#ad0db2518a426c0e12b95fbf2dbfdc39f":[4,1,0,232,42],
-"d7/db2/classGameEventHandler.html#ad102a88c7c5538da90f7cda1926f8e9e":[4,1,0,232,28],
-"d7/db2/classGameEventHandler.html#add49fd4e69d0a8f557f9d3666e0b2fe7":[4,1,0,232,52],
-"d7/db2/classGameEventHandler.html#ae211e0e294de11d79ecbcd5b431c7ff7":[4,1,0,232,67],
-"d7/db2/classGameEventHandler.html#ae637778c92c10a6cf594320c2e904549":[4,1,0,232,44],
-"d7/db2/classGameEventHandler.html#af406c6fac5729732c0ad9453004094ee":[4,1,0,232,18]
+"d7/db2/classGameEventHandler.html#ad0a8ae81f23c40d023717e1ba9a540c3":[4,1,0,232,13]
 };

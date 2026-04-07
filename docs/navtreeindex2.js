@@ -1,5 +1,8 @@
 var NAVTREEINDEX2 =
 {
+"d0/dd2/classPrintingSelectorCardSelectionWidget.html#ac2f1cd84e8f41f25cbe780290ace1964":[4,1,0,355,3],
+"d0/dd2/classPrintingSelectorCardSelectionWidget.html#ada9bf37379c050abc0fb66920f6a0d1b":[4,1,0,355,4],
+"d0/dd2/classPrintingSelectorCardSelectionWidget.html#ae3e9784fd1483d07559e1e5fcf5c2dbf":[4,1,0,355,8],
 "d0/dd2/classPrintingSelectorCardSelectionWidget.html#afb018e93d235ef67a95385d5bc23fc5f":[4,1,0,355,5],
 "d0/dd6/card__database__settings_8cpp.html":[4,2,0,10,0,0,0],
 "d0/dd9/classZoneViewWidget.html":[4,1,0,535],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "d1/d15/classServer__Room.html#ae963329ff919d89dd740d1a6990c8639":[4,1,0,415,7],
 "d1/d15/classServer__Room.html#aef060f2e3fed653bc34b2889f0d451c5":[4,1,0,415,31],
 "d1/d15/classServer__Room.html#af6e0b36dc99d19c1a5e0e5c9526fd6aa":[4,1,0,415,26],
-"d1/d15/classServer__Room.html#afb3c183181de04a317959698329c3523":[4,1,0,415,32],
-"d1/d15/classServer__Room.html#afc85315754b8477ce1631d4a325a5a2c":[4,1,0,415,13],
-"d1/d18/server__abstract__participant_8cpp.html":[4,2,0,7,0,0,1,1,0,0],
-"d1/d19/chat__view_8cpp.html":[4,2,0,0,1,5,3,9,0,0]
+"d1/d15/classServer__Room.html#afb3c183181de04a317959698329c3523":[4,1,0,415,32]
 };

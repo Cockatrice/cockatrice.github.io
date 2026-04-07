@@ -1,5 +1,10 @@
 var NAVTREEINDEX20 =
 {
+"d5/d88/classUserConnection__Information.html#ac88a0a57606cc616de6ce7af13850b78":[4,1,0,493,12],
+"d5/d88/classUserConnection__Information.html#acd58716f57460fccd816ff917b838694":[4,1,0,493,6],
+"d5/d88/line__edit__completer_8cpp.html":[4,2,0,0,1,5,3,11,4],
+"d5/d89/library__menu_8cpp.html":[4,2,0,0,1,3,4,0,9],
+"d5/d8a/card__info__picture__enlarged__widget_8h.html":[3,1,0,4,4],
 "d5/d8a/card__info__picture__enlarged__widget_8h.html":[3,3,1,1,4],
 "d5/d8c/edhrec__api__response__card__details__display__widget_8cpp.html":[4,2,0,0,1,5,3,10,0,1,1,1,0],
 "d5/d8e/client__update__checker_8h.html":[4,2,0,0,1,0,0,2,1,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX20 =
 "d5/dba/classpeg_1_1Reference.html#a99bf2797d01549345af1dbbbd6ca6f77":[4,1,0,1,43,1],
 "d5/dba/classpeg_1_1Reference.html#aa5861945ae1469c60ad2adc32dd4b59a":[4,0,0,12,44,3],
 "d5/dba/classpeg_1_1Reference.html#aa5861945ae1469c60ad2adc32dd4b59a":[4,1,0,1,43,3],
-"d5/dba/classpeg_1_1Reference.html#abf8d4719eb04e81fb5619db6e1bc646c":[4,0,0,12,44,7],
-"d5/dba/classpeg_1_1Reference.html#abf8d4719eb04e81fb5619db6e1bc646c":[4,1,0,1,43,7],
-"d5/dba/classpeg_1_1Reference.html#ac39926abb36e9701e2bf0fafc2cac7f2":[4,0,0,12,44,4],
-"d5/dba/classpeg_1_1Reference.html#ac39926abb36e9701e2bf0fafc2cac7f2":[4,1,0,1,43,4],
-"d5/dba/classpeg_1_1Reference.html#acab88ab031c4adde748ab6289d791ab0":[4,0,0,12,44,6],
-"d5/dba/classpeg_1_1Reference.html#acab88ab031c4adde748ab6289d791ab0":[4,1,0,1,43,6]
+"d5/dba/classpeg_1_1Reference.html#abf8d4719eb04e81fb5619db6e1bc646c":[4,0,0,12,44,7]
 };

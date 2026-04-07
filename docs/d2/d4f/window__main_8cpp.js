@@ -7,5 +7,6 @@ var window__main_8cpp =
     [ "GITHUB_PAGES_URL", "d2/d4f/window__main_8cpp.html#ae1769e47359201f9edbe3c1d584bf9c2", null ],
     [ "GITHUB_TRANSIFEX_TRANSLATORS_URL", "d2/d4f/window__main_8cpp.html#a53418798e15112a3d80b7d9712905713", null ],
     [ "GITHUB_TRANSLATOR_FAQ_URL", "d2/d4f/window__main_8cpp.html#aa0595208725281bbb3845a5eccc62a95", null ],
-    [ "GITHUB_TROUBLESHOOTING_URL", "d2/d4f/window__main_8cpp.html#aa2ecf9f9a897dcf673abf2d870dcdf54", null ]
+    [ "GITHUB_TROUBLESHOOTING_URL", "d2/d4f/window__main_8cpp.html#aa2ecf9f9a897dcf673abf2d870dcdf54", null ],
+    [ "Q_LOGGING_CATEGORY", "d2/d4f/window__main_8cpp.html#af7d8eac3169467bd7a90601e357f6070", null ]
 ];

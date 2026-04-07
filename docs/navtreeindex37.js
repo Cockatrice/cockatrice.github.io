@@ -1,5 +1,12 @@
 var NAVTREEINDEX37 =
 {
+"da/d2f/classServatrice__ConnectionPool.html#af22c0189e397d6c4b29476365d15475e":[4,1,0,396,4],
+"da/d2f/classServatrice__ConnectionPool.html#af823638924481b3d2d50a75ce59a0d62":[4,1,0,396,6],
+"da/d33/deck__list__node__tree_8cpp.html":[4,2,0,3,0,0,6],
+"da/d34/card__search__model_8h.html":[3,2,4,0,2],
+"da/d34/tab__deck__editor__visual_8cpp.html":[4,2,0,0,1,5,3,10,1,0],
+"da/d36/deck__loader_8h.html":[3,3,2,2,3],
+"da/d36/dlg__roll__dice_8cpp.html":[4,2,0,0,1,3,2,4],
 "da/d37/deck__link__to__api__transformer_8h.html":[3,3,2,2,2,3],
 "da/d37/deck__link__to__api__transformer_8h.html":[3,3,2,3,0,3],
 "da/d37/deck__link__to__api__transformer_8h.html":[3,5,1,0,3],
@@ -75,8 +82,8 @@ var NAVTREEINDEX37 =
 "da/d45/classLineEditUnfocusable.html#ac8464c23fb368a2f0b5741fcf2591047":[4,1,0,268,2],
 "da/d45/classLineEditUnfocusable.html#aee83e369e70c8ff4835a3c5b954249ac":[4,1,0,268,0],
 "da/d45/expression_8cpp.html":[4,2,0,11,0,0,2],
+"da/d45/expression_8cpp.html#a7258073806e9106c2f29d6c1eed0b103":[4,2,0,11,0,0,2,1],
 "da/d45/expression_8cpp.html#ad6502ba5fcb778923e0345e730b71b8c":[4,2,0,11,0,0,2,0],
-"da/d45/expression_8cpp.html#ade5bfd07b733f2f92eac6a2f72a7799d":[4,2,0,11,0,0,2,1],
 "da/d4a/archidekt__api__response__deck__entry__display__widget_8cpp.html":[4,2,0,0,1,5,3,10,0,0,1,2],
 "da/d4a/archidekt__api__response__deck__entry__display__widget_8cpp.html#a0085713c316969c3d3f98fd7db60b406":[4,2,0,0,1,5,3,10,0,0,1,2,1],
 "da/d4a/archidekt__api__response__deck__entry__display__widget_8cpp.html#a9ae5f34556aaeddd68af11011f86442a":[4,2,0,0,1,5,3,10,0,0,1,2,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX37 =
 "da/d69/primer_cards.html":[0,1,1],
 "da/d69/primer_cards.html#a-basic-card-object-cardinfo":[0,1,1,1],
 "da/d69/primer_cards.html#exact-card":[0,1,1,2,1],
-"da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard":[0,1,1,2],
-"da/d69/primer_cards.html#printing-info":[0,1,1,2,0],
-"da/d69/primer_cards.html#the-cockatrice-card-library":[0,1,1,0],
-"da/d69/primer_cards.html#using-cards":[0,1,1,3],
-"da/d6b/deck__preview__color__identity__filter__widget_8cpp.html":[4,2,0,0,1,5,3,14,0,0],
-"da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html":[4,1,0,515],
-"da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#a1600b2931bd5a0b13dda28f2dd209517":[4,1,0,515,6],
-"da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#a2c61b17f560e00ee1eeae1d3ffa0a6e5":[4,1,0,515,13]
+"da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard":[0,1,1,2]
 };

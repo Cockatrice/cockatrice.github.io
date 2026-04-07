@@ -1,5 +1,12 @@
 var NAVTREEINDEX38 =
 {
+"da/d69/primer_cards.html#printing-info":[0,1,1,2,0],
+"da/d69/primer_cards.html#the-cockatrice-card-library":[0,1,1,0],
+"da/d69/primer_cards.html#using-cards":[0,1,1,3],
+"da/d6b/deck__preview__color__identity__filter__widget_8cpp.html":[4,2,0,0,1,5,3,14,0,0],
+"da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html":[4,1,0,515],
+"da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#a1600b2931bd5a0b13dda28f2dd209517":[4,1,0,515,6],
+"da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#a2c61b17f560e00ee1eeae1d3ffa0a6e5":[4,1,0,515,13],
 "da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#a36244cd742f5b17339282d5b0b8f2e82":[4,1,0,515,17],
 "da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#a371c3ea41bf4f642e2de51f2b37502c3":[4,1,0,515,1],
 "da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#a4d691a858f68f6a566ca92cb51804a77":[4,1,0,515,12],
@@ -242,12 +249,5 @@ var NAVTREEINDEX38 =
 "da/d99/classServer__AbstractPlayer.html#a6b2b56da8c2da86da4e06357e269229c":[4,1,0,403,1],
 "da/d99/classServer__AbstractPlayer.html#a7747ca8a54aa8e4de4791e166423d290":[4,1,0,403,9],
 "da/d99/classServer__AbstractPlayer.html#a80ef691f143b7dee2bc8f3987319e284":[4,1,0,403,41],
-"da/d99/classServer__AbstractPlayer.html#a8108e92a46e86ca5097b5dfb49351089":[4,1,0,403,44],
-"da/d99/classServer__AbstractPlayer.html#a85f492ba6aa393275986fdd3e82e504a":[4,1,0,403,27],
-"da/d99/classServer__AbstractPlayer.html#a8d51eb4a425121c34e02360fa44c6b4a":[4,1,0,403,36],
-"da/d99/classServer__AbstractPlayer.html#a9064bd54618f3ddaad2e60ff4f43125e":[4,1,0,403,7],
-"da/d99/classServer__AbstractPlayer.html#a9123f3b066d6661e4f5a923c32cebaf2":[4,1,0,403,32],
-"da/d99/classServer__AbstractPlayer.html#aa0ad185c446e6637781f697169ac9283":[4,1,0,403,24],
-"da/d99/classServer__AbstractPlayer.html#aa3d5e50caff5f6e93e7dd98be9773c6b":[4,1,0,403,6],
-"da/d99/classServer__AbstractPlayer.html#aa5d223391ab63b46e798851ea5c45b3c":[4,1,0,403,37]
+"da/d99/classServer__AbstractPlayer.html#a8108e92a46e86ca5097b5dfb49351089":[4,1,0,403,44]
 };

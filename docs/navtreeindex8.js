@@ -1,5 +1,8 @@
 var NAVTREEINDEX8 =
 {
+"d2/d32/classVisualDatabaseDisplayWidget.html#a229e457f33c82e025e974491560b97c7":[4,1,0,516,49],
+"d2/d32/classVisualDatabaseDisplayWidget.html#a2dbfdaa45634eeea342de255821153c5":[4,1,0,516,45],
+"d2/d32/classVisualDatabaseDisplayWidget.html#a34c0f5dd7c5a8281c41874149480fe80":[4,1,0,516,11],
 "d2/d32/classVisualDatabaseDisplayWidget.html#a39a3e3c2c42c93e280f9652a0c736151":[4,1,0,516,15],
 "d2/d32/classVisualDatabaseDisplayWidget.html#a3b269e295cb184abf957d4a647600d58":[4,1,0,516,19],
 "d2/d32/classVisualDatabaseDisplayWidget.html#a4e3361d5b0dddaa26c92267e38d91bf7":[4,1,0,516,42],
@@ -158,6 +161,7 @@ var NAVTREEINDEX8 =
 "d2/d4f/window__main_8cpp.html#aa0595208725281bbb3845a5eccc62a95":[4,2,0,0,1,5,12,6],
 "d2/d4f/window__main_8cpp.html#aa2ecf9f9a897dcf673abf2d870dcdf54":[4,2,0,0,1,5,12,7],
 "d2/d4f/window__main_8cpp.html#ae1769e47359201f9edbe3c1d584bf9c2":[4,2,0,0,1,5,12,4],
+"d2/d4f/window__main_8cpp.html#af7d8eac3169467bd7a90601e357f6070":[4,2,0,0,1,5,12,8],
 "d2/d52/overlap__widget_8h.html":[3,1,9],
 "d2/d54/group__Widgets.html":[3,1,0],
 "d2/d56/archidekt__deck__listing__api__response_8h.html":[4,2,0,0,1,5,3,10,0,0,0,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX8 =
 "d2/d65/deck__list__card__node_8cpp.html":[4,2,0,3,0,0,0,4],
 "d2/d66/classpeg_1_1Ope.html":[4,0,0,12,37],
 "d2/d66/classpeg_1_1Ope.html":[4,1,0,1,36],
-"d2/d66/classpeg_1_1Ope.html#a91a45bcf5cc492eaf320b066e3598a8b":[4,0,0,12,37,5],
-"d2/d66/classpeg_1_1Ope.html#a91a45bcf5cc492eaf320b066e3598a8b":[4,1,0,1,36,5],
-"d2/d66/classpeg_1_1Ope.html#ab3aeb9bf86122045cd6ec71dbf4d9735":[4,0,0,12,37,6],
-"d2/d66/classpeg_1_1Ope.html#ab3aeb9bf86122045cd6ec71dbf4d9735":[4,1,0,1,36,6],
-"d2/d66/classpeg_1_1Ope.html#ac7c58ac69a92a5bdd8ad8c0d720a6dab":[4,0,0,12,37,1]
+"d2/d66/classpeg_1_1Ope.html#a91a45bcf5cc492eaf320b066e3598a8b":[4,0,0,12,37,5]
 };

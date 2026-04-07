@@ -1,5 +1,9 @@
 var NAVTREEINDEX12 =
 {
+"d3/d76/classServatrice__DatabaseInterface.html#a3b331eefa0f8d450d65e602caceb27c9":[4,1,0,397,57],
+"d3/d76/classServatrice__DatabaseInterface.html#a3e3c53ce6f98451e827d8171185d3895":[4,1,0,397,18],
+"d3/d76/classServatrice__DatabaseInterface.html#a4162dc3616cc0bda90741ec589fadb89":[4,1,0,397,32],
+"d3/d76/classServatrice__DatabaseInterface.html#a41faeb94ec316520eced63bcf2d15b6c":[4,1,0,397,27],
 "d3/d76/classServatrice__DatabaseInterface.html#a447d886942669b059ec356b92924c7c8":[4,1,0,397,41],
 "d3/d76/classServatrice__DatabaseInterface.html#a4c7d74c5aa66da15ea8c4e2f239cb316":[4,1,0,397,11],
 "d3/d76/classServatrice__DatabaseInterface.html#a6e2b50f56f0e9746e323feb0ea67f65a":[4,1,0,397,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "d3/dab/classCardPrices.html#a831cc460ec202eafddab3b81bd41b690":[4,1,0,89,12],
 "d3/dab/classCardPrices.html#a86864ee1b1ebcf2b7fb1ea81274db3ec":[4,1,0,89,16],
 "d3/dab/classCardPrices.html#ac3249ea4143334fc7e56971202840817":[4,1,0,89,20],
-"d3/dab/classCardPrices.html#ac9504d02b38d171da9e8d577a03c5b06":[4,1,0,89,1],
-"d3/dab/classCardPrices.html#ace4b0df15239514aa60f1fcdfb64699c":[4,1,0,89,18],
-"d3/dab/classCardPrices.html#ae90bee4451a8fdb89d297d7a7029c0ae":[4,1,0,89,0],
-"d3/dab/classCardPrices.html#ae9a1ab0c644a8b352da71291b5b43fdf":[4,1,0,89,14],
-"d3/dab/classCardPrices.html#aea2c1cdd910d83c422166102ae5c2fd7":[4,1,0,89,6]
+"d3/dab/classCardPrices.html#ac9504d02b38d171da9e8d577a03c5b06":[4,1,0,89,1]
 };

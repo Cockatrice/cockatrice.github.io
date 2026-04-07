@@ -1,5 +1,12 @@
 var NAVTREEINDEX36 =
 {
+"d9/df7/classDeckEditorDeckDockWidget.html#adfb56dc6dd03726355eb507ca96bcbc6":[4,1,0,116,8],
+"d9/df7/classDeckEditorDeckDockWidget.html#adfb689307eebe46c0a599afc3639bdf8":[4,1,0,116,6],
+"d9/df7/classDeckEditorDeckDockWidget.html#ae004d23e9e8cec4dfce313240eba9e87":[4,1,0,116,4],
+"d9/df7/classDeckEditorDeckDockWidget.html#ae050c8573c137ae2fbc0073a5e966779":[4,1,0,116,16],
+"d9/df7/classDeckEditorDeckDockWidget.html#ae35d7f715c6a7530e708c7cadefdc3c9":[4,1,0,116,40],
+"d9/df7/classDeckEditorDeckDockWidget.html#ae52bd17da47ada3862d69b2a2c467ae4":[4,1,0,116,42],
+"d9/df7/classDeckEditorDeckDockWidget.html#ae62018c18651e82ea1423f9d44716059":[4,1,0,116,19],
 "d9/df7/classDeckEditorDeckDockWidget.html#ae68a8de51f693e88e73aae84e2532a46":[4,1,0,116,52],
 "d9/df7/classDeckEditorDeckDockWidget.html#ae983082caddf1c671aede470aa209c46":[4,1,0,116,54],
 "d9/df7/classDeckEditorDeckDockWidget.html#aefc38cf63bedd73e0a029d67563752eb":[4,1,0,116,9],
@@ -242,12 +249,5 @@ var NAVTREEINDEX36 =
 "da/d2f/classServatrice__ConnectionPool.html#ab86bcdf716a5cf2488b438b201404d83":[4,1,0,396,5],
 "da/d2f/classServatrice__ConnectionPool.html#abb8f3e9f2a9b0df8bf158a0d82fb8acb":[4,1,0,396,3],
 "da/d2f/classServatrice__ConnectionPool.html#ae0dd18888364a5fcf26d7670f6a48040":[4,1,0,396,0],
-"da/d2f/classServatrice__ConnectionPool.html#af07c3b7db2f694b19b41f9fc8d7bd69f":[4,1,0,396,8],
-"da/d2f/classServatrice__ConnectionPool.html#af22c0189e397d6c4b29476365d15475e":[4,1,0,396,4],
-"da/d2f/classServatrice__ConnectionPool.html#af823638924481b3d2d50a75ce59a0d62":[4,1,0,396,6],
-"da/d33/deck__list__node__tree_8cpp.html":[4,2,0,3,0,0,6],
-"da/d34/card__search__model_8h.html":[3,2,4,0,2],
-"da/d34/tab__deck__editor__visual_8cpp.html":[4,2,0,0,1,5,3,10,1,0],
-"da/d36/deck__loader_8h.html":[3,3,2,2,3],
-"da/d36/dlg__roll__dice_8cpp.html":[4,2,0,0,1,3,2,4]
+"da/d2f/classServatrice__ConnectionPool.html#af07c3b7db2f694b19b41f9fc8d7bd69f":[4,1,0,396,8]
 };
