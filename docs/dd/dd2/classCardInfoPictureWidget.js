@@ -2,7 +2,7 @@ var classCardInfoPictureWidget =
 [
     [ "CardInfoPictureWidget", "dd/dd2/classCardInfoPictureWidget.html#a0ee2d270a29b4fc61e47cb42d8d4d373", null ],
     [ "cardChanged", "dd/dd2/classCardInfoPictureWidget.html#a24918126c99c2a3ce29a1a3280573c53", null ],
-    [ "cardClicked", "dd/dd2/classCardInfoPictureWidget.html#acb7c335236eac6e01bffd79f89ab3ced", null ],
+    [ "cardClicked", "dd/dd2/classCardInfoPictureWidget.html#ae344df0079c418bcdd48b860a65c0c8f", null ],
     [ "cardScaleFactorChanged", "dd/dd2/classCardInfoPictureWidget.html#ae5624e0037a8d8aca8b3195cf21459d4", null ],
     [ "createAddToOpenDeckMenu", "dd/dd2/classCardInfoPictureWidget.html#a8b4abff9a219f1952f5eb5dc47b049ac", null ],
     [ "createRightClickMenu", "dd/dd2/classCardInfoPictureWidget.html#a9a06cb9e91772515e455dde9ea6b1d34", null ],
