@@ -1,7 +1,9 @@
 var classGameSelectorQuickFilterToolBar =
 [
     [ "GameSelectorQuickFilterToolBar", "df/dac/classGameSelectorQuickFilterToolBar.html#a4fa46a680407e5084e00263d571a1730", null ],
+    [ "applyFilters", "df/dac/classGameSelectorQuickFilterToolBar.html#af10125ba88d9e815de6f00665f1d8bab", null ],
     [ "retranslateUi", "df/dac/classGameSelectorQuickFilterToolBar.html#af9c3896fcee7f81b1ee3c17454fab7ac", null ],
+    [ "syncFromModel", "df/dac/classGameSelectorQuickFilterToolBar.html#a0f1a2ba4623a3e44cd4ebdb33068d268", null ],
     [ "filterToFormatComboBox", "df/dac/classGameSelectorQuickFilterToolBar.html#a3725c11740f04625d1aa2972e3c64433", null ],
     [ "hideFullGamesCheckBox", "df/dac/classGameSelectorQuickFilterToolBar.html#ab6fd3adabd784c1f1c5a3b6fe993a236", null ],
     [ "hideGamesNotCreatedByBuddiesCheckBox", "df/dac/classGameSelectorQuickFilterToolBar.html#a91ecb29a30c2ec45e8d4ebdd80c2ec60", null ],

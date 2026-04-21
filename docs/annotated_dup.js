@@ -164,6 +164,7 @@ var annotated_dup =
     [ "CardSizeWidget", "df/d47/classCardSizeWidget.html", "df/d47/classCardSizeWidget" ],
     [ "CardZone", "de/da1/classCardZone.html", "de/da1/classCardZone" ],
     [ "CardZoneLogic", "d1/df9/classCardZoneLogic.html", "d1/df9/classCardZoneLogic" ],
+    [ "Category", "de/dff/structCategory.html", "de/dff/structCategory" ],
     [ "ChatView", "dc/dea/classChatView.html", "dc/dea/classChatView" ],
     [ "ClientUpdateChecker", "d3/d9f/classClientUpdateChecker.html", "d3/d9f/classClientUpdateChecker" ],
     [ "CloseButton", "df/df8/classCloseButton.html", "df/df8/classCloseButton" ],

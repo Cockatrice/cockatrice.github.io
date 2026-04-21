@@ -115,7 +115,7 @@ var searchData=
   ['cardviewinitialrowsmaxbox_112',['cardViewInitialRowsMaxBox',['../d8/dc5/classAppearanceSettingsPage.html#a3532a66e0cd9410bd4fa2ca20931dee1',1,'AppearanceSettingsPage']]],
   ['cardviewinitialrowsmaxlabel_113',['cardViewInitialRowsMaxLabel',['../d8/dc5/classAppearanceSettingsPage.html#ade9cead8f02fb0275b3992ddea20e2ac',1,'AppearanceSettingsPage']]],
   ['cardviews_114',['cardViews',['../d2/d83/classEdhrecApiResponseCardList.html#a74d5bfcac0f5cf464ccc1b4af98cb108',1,'EdhrecApiResponseCardList']]],
-  ['categories_115',['categories',['../d3/dc3/classArchidektApiResponseCardEntry.html#a3ef5ed64aea7165abcaa436062d8e838',1,'ArchidektApiResponseCardEntry::categories'],['../dc/d3c/classArchidektApiResponseDeck.html#a63d2834c1684c4d7a7304e498f4809de',1,'ArchidektApiResponseDeck::categories']]],
+  ['categories_115',['categories',['../d3/dc3/classArchidektApiResponseCardEntry.html#a96e2c65b308dd782d632d90c95ec573c',1,'ArchidektApiResponseCardEntry::categories'],['../dc/d3c/classArchidektApiResponseDeck.html#a63d2834c1684c4d7a7304e498f4809de',1,'ArchidektApiResponseDeck::categories']]],
   ['category_116',['category',['../d9/d3d/structBarSegment.html#acbfffc6e85bc80174ce7f1fa3929fb6d',1,'BarSegment::category'],['../d2/d89/structSegmentedBarWidget_1_1Segment.html#a61fe85bb09efbfa0ff5b0424037a5e71',1,'SegmentedBarWidget::Segment::category']]],
   ['categorywidget_117',['categoryWidget',['../d2/da3/classManaCurveWidget.html#a33e223e87667e9cc5ddc39e4e1320b0d',1,'ManaCurveWidget']]],
   ['cdentrycount_118',['cdEntryCount',['../df/d90/classUnzipPrivate.html#ad7c83cc879ff2dc73f41041bb7e50ae3',1,'UnzipPrivate']]],

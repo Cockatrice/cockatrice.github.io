@@ -6,6 +6,7 @@ var classDeckListStatisticsAnalyzer =
     [ "countManaSymbols", "d7/d02/classDeckListStatisticsAnalyzer.html#a2f5ee403ba975e997ee779da9eb9d1f9", null ],
     [ "determineManaProduction", "d7/d02/classDeckListStatisticsAnalyzer.html#a1fc67df7fcd0f0794256df594ec24b76", null ],
     [ "getColorCount", "d7/d02/classDeckListStatisticsAnalyzer.html#a9ee9269c46ce170ff86842074d80f766", null ],
+    [ "getConfig", "d7/d02/classDeckListStatisticsAnalyzer.html#a37864e2cbe8d400f637dbeb32241ae0b", null ],
     [ "getDevotion", "d7/d02/classDeckListStatisticsAnalyzer.html#a8c01e1006e2d97a1a8393c0499efafd6", null ],
     [ "getDevotionCardCount", "d7/d02/classDeckListStatisticsAnalyzer.html#ac33781332c34a55db59a4e8ba83114cd", null ],
     [ "getDevotionPipCount", "d7/d02/classDeckListStatisticsAnalyzer.html#a370df961a2412a6863f92be7e1cdff0b", null ],

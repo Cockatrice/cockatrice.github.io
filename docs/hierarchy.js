@@ -49,6 +49,7 @@ var hierarchy =
     [ "CardPrices", "d3/dab/classCardPrices.html", null ],
     [ "CardRef", "d1/d66/structCardRef.html", null ],
     [ "CardSetPriorityComparator", "d1/db4/classCardSetPriorityComparator.html", null ],
+    [ "Category", "de/dff/structCategory.html", null ],
     [ "CardNodeFunction::ClearPrintingData", "d2/db4/structCardNodeFunction_1_1ClearPrintingData.html", null ],
     [ "peg::Context", "df/d94/classpeg_1_1Context.html", null ],
     [ "CounterPixmapGenerator", "dd/dbb/classCounterPixmapGenerator.html", null ],

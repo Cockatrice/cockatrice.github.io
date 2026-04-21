@@ -4,6 +4,7 @@ var classGamesProxyModel =
     [ "areFilterParametersSetToDefaults", "db/db4/classGamesProxyModel.html#a6147f6c8040ae3f29c53b7632a5042dc", null ],
     [ "filterAcceptsRow", "db/db4/classGamesProxyModel.html#ae31c8e85bfea972dbd5ff114cf47694d", null ],
     [ "filterAcceptsRow", "db/db4/classGamesProxyModel.html#a83faa057746073aa38e2872a5c4abc7c", null ],
+    [ "filtersChanged", "db/db4/classGamesProxyModel.html#af38b93ef7ca8f324d8930df128532d69", null ],
     [ "getCreatorNameFilters", "db/db4/classGamesProxyModel.html#a1d32b3f1bf159765ac79634145c6d8fb", null ],
     [ "getGameNameFilter", "db/db4/classGamesProxyModel.html#af0f8a93eb9556a52355c40f666ef0328", null ],
     [ "getGameTypeFilter", "db/db4/classGamesProxyModel.html#ad0f027ae0d0e8245756d243f5c30afd9", null ],

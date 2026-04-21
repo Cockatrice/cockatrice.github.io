@@ -9,6 +9,7 @@ var classGameSelector =
     [ "actJoinAsSpectator", "df/d3f/classGameSelector.html#a285ea10d7bed54309847a24b8e18c414", null ],
     [ "actSelectedGameChanged", "df/d3f/classGameSelector.html#a405e441c07528666a1fd2ef7408064b6", null ],
     [ "actSetFilter", "df/d3f/classGameSelector.html#a75131cf48d42d361f2b6f113038b3626", null ],
+    [ "checkClearFilterButtonState", "df/d3f/classGameSelector.html#a90929975f794cb3aaa501d8290ba44e5", null ],
     [ "checkResponse", "df/d3f/classGameSelector.html#aea5f0f05185cbce6f395de46f29ccb94", null ],
     [ "customContextMenu", "df/d3f/classGameSelector.html#a9c8278ce269bfa328bf5afeea336df3a", null ],
     [ "disableButtons", "df/d3f/classGameSelector.html#a9ff8b9dc96b99a203e198599c42e21c2", null ],

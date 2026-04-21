@@ -7,6 +7,7 @@ var classPrintingInfo =
     [ "getProperty", "d6/d90/classPrintingInfo.html#a8620106e5ac0dd63baa9ccc435b970c4", null ],
     [ "getSet", "d6/d90/classPrintingInfo.html#a30a4ecdbbc401885cd8c28845991e20f", null ],
     [ "getUuid", "d6/d90/classPrintingInfo.html#adadad57308ef600c0b9f80591c244591", null ],
+    [ "isEmpty", "d6/d90/classPrintingInfo.html#ab06c8f60b1373d56e796c563094b73f1", null ],
     [ "operator==", "d6/d90/classPrintingInfo.html#a522caa424ad5372decec64efdc9b2206", null ],
     [ "setProperty", "d6/d90/classPrintingInfo.html#a9be9b5577d7b4075a9797858958e7aef", null ],
     [ "properties", "d6/d90/classPrintingInfo.html#afdb18682bf21f64d559e9cd48a04e62e", null ],
