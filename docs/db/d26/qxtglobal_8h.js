@@ -1,7 +1,7 @@
 var qxtglobal_8h =
 [
-    [ "QxtPrivate< PUB >", "db/d14/classQxtPrivate.html", "db/d14/classQxtPrivate" ],
-    [ "QxtPrivateInterface< PUB, PVT >", "de/ddc/classQxtPrivateInterface.html", "de/ddc/classQxtPrivateInterface" ],
+    [ "QxtPrivate&lt; PUB &gt;", "db/d14/classQxtPrivate.html", "db/d14/classQxtPrivate" ],
+    [ "QxtPrivateInterface&lt; PUB, PVT &gt;", "de/ddc/classQxtPrivateInterface.html", "de/ddc/classQxtPrivateInterface" ],
     [ "QT_BEGIN_NAMESPACE", "db/d26/qxtglobal_8h.html#ae7344b820974b9f9f7cfedd5808bd3a0", null ],
     [ "QT_END_NAMESPACE", "db/d26/qxtglobal_8h.html#af0211888b9fea89f8a616cd6566c521e", null ],
     [ "QT_FORWARD_DECLARE_CLASS", "db/d26/qxtglobal_8h.html#a029cc54902f2103f16d8a34075b61ea1", null ],

@@ -136,7 +136,7 @@ var searchData=
   ['notreadyicon_133',['notReadyIcon',['../df/d02/classPlayerListWidget.html#ae17937a37b50e6463929c6c0e81c7786',1,'PlayerListWidget']]],
   ['notselected_134',['NotSelected',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea7dc39dc840c9dbdefd059f8d96226d11',1,'deck_preview_tag_display_widget.h']]],
   ['npd_135',['npd',['../dc/db2/namespacepeg.html#aa640011930cbd676512eb812ae4fbf17',1,'peg']]],
-  ['npm_20xpm_20dependency_136',['npm/xpm dependency',['..//home/runner/work/Cockatrice/Cockatrice/doc/doxygen/theme/README.md#npmxpm-dependency',1,'']]],
+  ['npm_20xpm_20dependency_136',['npm/xpm dependency',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#npmxpm-dependency',1,'']]],
   ['num_5fcols_137',['NUM_COLS',['../da/dbd/classGamesModel.html#ad70a9817cbc337bbf6688357b2d274fb',1,'GamesModel::NUM_COLS'],['../da/d64/classSetsModel.html#a42e7dac6bdd78ffc447c5847219151ac',1,'SetsModel::NUM_COLS']]],
   ['number_138',['number',['../da/da0/classHandCounter.html#a3a386b59460b59dc3360c1d44e3a6b25',1,'HandCounter::number'],['../d5/d22/classDecklistCardNode.html#a120af3438ca458089ddf74495a5a6a84',1,'DecklistCardNode::number']]],
   ['numbercards_139',['numberCards',['../d8/d70/classZoneViewZoneLogic.html#a108baf9420b1708ccf90c30fd4f286bf',1,'ZoneViewZoneLogic']]],

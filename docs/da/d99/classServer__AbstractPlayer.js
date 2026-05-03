@@ -34,6 +34,7 @@ var classServer__AbstractPlayer =
     [ "newCardId", "da/d99/classServer__AbstractPlayer.html#a25d3e4c638a4f5d821207f7686693ba6", null ],
     [ "onCardBeingMoved", "da/d99/classServer__AbstractPlayer.html#a9123f3b066d6661e4f5a923c32cebaf2", null ],
     [ "prepareDestroy", "da/d99/classServer__AbstractPlayer.html#aa9cbcb1d16f1e49bd4efa4524c77a9fd", null ],
+    [ "processMoveCard", "da/d99/classServer__AbstractPlayer.html#a587387836c944e092c63d47bced273eb", null ],
     [ "revealTopCardIfNeeded", "da/d99/classServer__AbstractPlayer.html#a31c3aa7f433227d10c7c40c8cc2b20c6", null ],
     [ "sendCreateTokenEvents", "da/d99/classServer__AbstractPlayer.html#a2d8bb4461d26d920e0f9c053099f3c87", null ],
     [ "setCardAttrHelper", "da/d99/classServer__AbstractPlayer.html#a8d51eb4a425121c34e02360fa44c6b4a", null ],

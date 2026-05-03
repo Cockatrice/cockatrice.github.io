@@ -10,6 +10,7 @@ var classUtilityMenu =
     [ "setShortcutsInactive", "da/d1c/classUtilityMenu.html#aad631289397fbc709261e72abf68773d", null ],
     [ "aCreateAnotherToken", "da/d1c/classUtilityMenu.html#a81523d173bff53c239f235060892ad6f", null ],
     [ "aCreateToken", "da/d1c/classUtilityMenu.html#a69db6a266df56efed91742822b192700", null ],
+    [ "aFlipCoin", "da/d1c/classUtilityMenu.html#aa1db4d0cd4c11b8fa3932e7560dc74f8", null ],
     [ "aIncrementAllCardCounters", "da/d1c/classUtilityMenu.html#a9af029300ae5de98056955c29894346a", null ],
     [ "aRollDie", "da/d1c/classUtilityMenu.html#a7190a19efdbe8bb743c2a9ef7d05a14b", null ],
     [ "aUntapAll", "da/d1c/classUtilityMenu.html#aede17381b744df51ddfbbdf6621f24ae", null ],

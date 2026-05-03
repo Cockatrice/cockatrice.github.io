@@ -98,7 +98,7 @@ var searchData=
   ['broadcastgamelistupdate_95',['broadcastGameListUpdate',['../d1/d15/classServer__Room.html#a6b8c16d64bf3a12d9c732b45a168740c',1,'Server_Room']]],
   ['broadcastroomupdate_96',['broadcastRoomUpdate',['../db/d00/classServer.html#a38ec4b8035107714c1fe0a0563172af7',1,'Server']]],
   ['browsebutton_97',['browseButton',['../de/d48/classDlgEditAvatar.html#aa88791e6b8a102f146d2c484efaba861',1,'DlgEditAvatar']]],
-  ['browser_20support_98',['Browser support',['..//home/runner/work/Cockatrice/Cockatrice/doc/doxygen/theme/README.md#browser-support',1,'']]],
+  ['browser_20support_98',['Browser support',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#browser-support',1,'']]],
   ['brushes_99',['brushes',['../da/d5a/classThemeManager.html#a626270ba2668d8bfd66ff39a95ac0b45',1,'ThemeManager']]],
   ['brushescache_100',['brushesCache',['../da/d5a/classThemeManager.html#a52e77439e7cd77ecea28db6b92db5823',1,'ThemeManager']]],
   ['btnclearall_101',['btnClearAll',['../d1/de7/classShortcutSettingsPage.html#ac17ce83eba48c6b34c14483774e26e70',1,'ShortcutSettingsPage']]],

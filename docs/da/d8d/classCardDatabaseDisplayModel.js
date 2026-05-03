@@ -22,6 +22,7 @@ var classCardDatabaseDisplayModel =
     [ "setCardNameSet", "da/d8d/classCardDatabaseDisplayModel.html#a7c76d5a4786d1622c40ef5cd886d913b", null ],
     [ "setFilterTree", "da/d8d/classCardDatabaseDisplayModel.html#a8b8c4ed30b20f0b6d1be5e2112991922", null ],
     [ "setIsToken", "da/d8d/classCardDatabaseDisplayModel.html#a8a107a12b07ace3f0f44f260107c009b", null ],
+    [ "setSourceModel", "da/d8d/classCardDatabaseDisplayModel.html#a1534e6b0da94e4b9e3132d42d45ec976", null ],
     [ "setStringFilter", "da/d8d/classCardDatabaseDisplayModel.html#a937ef96d9e417cb7dc1d8b81b0641457", null ],
     [ "cardColors", "da/d8d/classCardDatabaseDisplayModel.html#a14a642ada0e157c198f3357f7c89f4b8", null ],
     [ "cardName", "da/d8d/classCardDatabaseDisplayModel.html#a52393b73655091dbd51c5b14a7050651", null ],

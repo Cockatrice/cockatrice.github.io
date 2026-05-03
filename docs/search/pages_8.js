@@ -9,9 +9,9 @@ var searchData=
   ['info_6',['Printing Info',['../da/d69/primer_cards.html#printing-info',1,'']]],
   ['information_7',['Information',['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
   ['infos_8',['Generic Card Infos',['../da/d66/querying_the_card_database.html#generic-card-infos',1,'']]],
-  ['installation_9',['Installation',['..//home/runner/work/Cockatrice/Cockatrice/doc/doxygen/theme/README.md#installation',1,'']]],
-  ['installation_20instructions_10',['Further installation instructions',['..//home/runner/work/Cockatrice/Cockatrice/doc/doxygen/theme/README.md#further-installation-instructions',1,'']]],
-  ['instructions_11',['Further installation instructions',['..//home/runner/work/Cockatrice/Cockatrice/doc/doxygen/theme/README.md#further-installation-instructions',1,'']]],
+  ['installation_9',['Installation',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#installation',1,'']]],
+  ['installation_20instructions_10',['Further installation instructions',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#further-installation-instructions',1,'']]],
+  ['instructions_11',['Further installation instructions',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#further-installation-instructions',1,'']]],
   ['integration_12',['API Integration',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#api-integration',1,'']]],
   ['interface_13',['Pre-requisites (User Interface)',['../d7/d64/editing_decks_printings.html#pre-requisites-user-interface',1,'']]]
 ];

@@ -1,8 +1,8 @@
 var classpeg_1_1ParserGenerator =
 [
-    [ "Data", "db/d2d/structpeg_1_1ParserGenerator_1_1Data.html", "db/d2d/structpeg_1_1ParserGenerator_1_1Data" ],
-    [ "Instruction", "d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html", "d6/d64/structpeg_1_1ParserGenerator_1_1Instruction" ],
     [ "ParserContext", "d4/db3/structpeg_1_1ParserGenerator_1_1ParserContext.html", "d4/db3/structpeg_1_1ParserGenerator_1_1ParserContext" ],
+    [ "Instruction", "d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html", "d6/d64/structpeg_1_1ParserGenerator_1_1Instruction" ],
+    [ "Data", "db/d2d/structpeg_1_1ParserGenerator_1_1Data.html", "db/d2d/structpeg_1_1ParserGenerator_1_1Data" ],
     [ "SyntaxErrorException", "df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html", "df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException" ],
     [ "ParserGenerator", "dc/dbb/classpeg_1_1ParserGenerator.html#a6d5a546be5e34286b2d5d06d6e2ce02d", null ],
     [ "apply_precedence_instruction", "dc/dbb/classpeg_1_1ParserGenerator.html#a4e1b5dc42ccf7c70b038a45cb052d0f7", null ],

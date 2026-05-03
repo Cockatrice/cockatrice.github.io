@@ -36,7 +36,7 @@ var hierarchy =
     [ "ArchidektApiResponseDeckOwner", "d1/ddd/classArchidektApiResponseDeckOwner.html", null ],
     [ "ArchidektApiResponseEdition", "da/d25/classArchidektApiResponseEdition.html", null ],
     [ "ArchidektDeckListingApiResponse", "d3/d7f/classArchidektDeckListingApiResponse.html", null ],
-    [ "peg::argument_count< T >", "df/d2c/structpeg_1_1argument__count.html", null ],
+    [ "peg::argument_count&lt; T &gt;", "df/d2c/structpeg_1_1argument__count.html", null ],
     [ "peg::AstOptimizer", "da/dae/structpeg_1_1AstOptimizer.html", null ],
     [ "BackgroundSources", "d1/df3/classBackgroundSources.html", null ],
     [ "BarData", "dc/da2/structBarData.html", null ],
@@ -488,6 +488,7 @@ var hierarchy =
       ] ],
       [ "Servatrice_ConnectionPool", "da/d2f/classServatrice__ConnectionPool.html", null ],
       [ "Server", "db/d00/classServer.html", [
+        [ "FakeServer", "da/daf/classFakeServer.html", null ],
         [ "LocalServer", "d2/d40/classLocalServer.html", null ],
         [ "Servatrice", "d5/d0e/classServatrice.html", null ]
       ] ],
@@ -503,6 +504,7 @@ var hierarchy =
       ] ],
       [ "Server_DatabaseInterface", "d2/d12/classServer__DatabaseInterface.html", [
         [ "LocalServer_DatabaseInterface", "d1/d74/classLocalServer__DatabaseInterface.html", null ],
+        [ "MockDatabaseInterface", "d1/db6/classMockDatabaseInterface.html", null ],
         [ "Servatrice_DatabaseInterface", "d3/d76/classServatrice__DatabaseInterface.html", null ]
       ] ],
       [ "Server_Game", "df/d89/classServer__Game.html", null ],
@@ -745,14 +747,14 @@ var hierarchy =
     [ "QxtHmac", "db/d72/classQxtHmac.html", null ],
     [ "QxtMailAttachment", "d5/db4/classQxtMailAttachment.html", null ],
     [ "QxtMailMessage", "d5/dff/classQxtMailMessage.html", null ],
-    [ "QxtPrivate< PUB >", "db/d14/classQxtPrivate.html", null ],
-    [ "QxtPrivate< QxtHmac >", "db/d14/classQxtPrivate.html", [
+    [ "QxtPrivate&lt; PUB &gt;", "db/d14/classQxtPrivate.html", null ],
+    [ "QxtPrivate&lt; QxtHmac &gt;", "db/d14/classQxtPrivate.html", [
       [ "QxtHmacPrivate", "d9/dac/classQxtHmacPrivate.html", null ]
     ] ],
-    [ "QxtPrivate< QxtSmtp >", "db/d14/classQxtPrivate.html", [
+    [ "QxtPrivate&lt; QxtSmtp &gt;", "db/d14/classQxtPrivate.html", [
       [ "QxtSmtpPrivate", "d6/deb/classQxtSmtpPrivate.html", null ]
     ] ],
-    [ "QxtPrivateInterface< PUB, PVT >", "de/ddc/classQxtPrivateInterface.html", null ],
+    [ "QxtPrivateInterface&lt; PUB, PVT &gt;", "de/ddc/classQxtPrivateInterface.html", null ],
     [ "Release", "db/d0a/classRelease.html", null ],
     [ "CardNodeFunction::ResolveProviderId", "df/d98/structCardNodeFunction_1_1ResolveProviderId.html", null ],
     [ "ResponseContainer", "db/d74/classResponseContainer.html", null ],
@@ -761,7 +763,7 @@ var hierarchy =
     [ "std::runtime_error", null, [
       [ "peg::ParserGenerator::SyntaxErrorException", "df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html", null ]
     ] ],
-    [ "peg::scope_exit< EF >", "d5/dbb/structpeg_1_1scope__exit.html", null ],
+    [ "peg::scope_exit&lt; EF &gt;", "d5/dbb/structpeg_1_1scope__exit.html", null ],
     [ "CardSearchModel::SearchResult", "df/d87/structCardSearchModel_1_1SearchResult.html", null ],
     [ "SegmentedBarWidget::Segment", "d2/d89/structSegmentedBarWidget_1_1Segment.html", null ],
     [ "Server_Arrow", "df/d3b/classServer__Arrow.html", null ],

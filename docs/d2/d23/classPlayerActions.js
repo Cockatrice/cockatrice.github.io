@@ -21,6 +21,7 @@ var classPlayerActions =
     [ "actDrawBottomCards", "d2/d23/classPlayerActions.html#a8427c44275e83071ed946755e9b4ffd1", null ],
     [ "actDrawCard", "d2/d23/classPlayerActions.html#a82a9fe957462760307d2ad314a33227e", null ],
     [ "actDrawCards", "d2/d23/classPlayerActions.html#ae34db1af53746e00d148cf531f44e807", null ],
+    [ "actFlipCoin", "d2/d23/classPlayerActions.html#a017790ee58b6d50dd47c4bc3beb4df50", null ],
     [ "actFlowP", "d2/d23/classPlayerActions.html#ae51c8e99783eec26c5394fdd02335087", null ],
     [ "actFlowT", "d2/d23/classPlayerActions.html#aa3f011127d66d296f1ddb6ef1abf85d1", null ],
     [ "actHide", "d2/d23/classPlayerActions.html#aab219a3512238a866053ef08b48932a1", null ],

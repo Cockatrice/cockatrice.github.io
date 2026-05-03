@@ -1,8 +1,8 @@
 var classRemoteDeckList__TreeModel =
 [
+    [ "Node", "da/d72/classRemoteDeckList__TreeModel_1_1Node.html", "da/d72/classRemoteDeckList__TreeModel_1_1Node" ],
     [ "DirectoryNode", "dc/d19/classRemoteDeckList__TreeModel_1_1DirectoryNode.html", "dc/d19/classRemoteDeckList__TreeModel_1_1DirectoryNode" ],
     [ "FileNode", "de/dc9/classRemoteDeckList__TreeModel_1_1FileNode.html", "de/dc9/classRemoteDeckList__TreeModel_1_1FileNode" ],
-    [ "Node", "da/d72/classRemoteDeckList__TreeModel_1_1Node.html", "da/d72/classRemoteDeckList__TreeModel_1_1Node" ],
     [ "RemoteDeckList_TreeModel", "d8/dcf/classRemoteDeckList__TreeModel.html#afb1406760f696098d9213c8c6308eb4d", null ],
     [ "~RemoteDeckList_TreeModel", "d8/dcf/classRemoteDeckList__TreeModel.html#a25258346d4aaa86b87e4e4f979d8d203", null ],
     [ "addFileToTree", "d8/dcf/classRemoteDeckList__TreeModel.html#a5e2cf74e3c3193fd36019b14b24d6df3", null ],

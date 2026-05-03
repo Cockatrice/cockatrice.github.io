@@ -29,6 +29,7 @@ var group__CardDatabase =
       [ "notifyEnabledSetsChanged", "d5/d45/classCardDatabase.html#a56a3727444527703459220022c118025", null ],
       [ "query", "d5/d45/classCardDatabase.html#affe0baec75387712dc3a93199b56fc08", null ],
       [ "refreshCachedReverseRelatedCards", "d5/d45/classCardDatabase.html#a3bc03b512064c4cbf97fc61c4488afbe", null ],
+      [ "reloadCardDatabasesAndNotify", "d5/d45/classCardDatabase.html#a0b72c76e38c459b44f3aa76340875897", null ],
       [ "removeCard", "d5/d45/classCardDatabase.html#ad58ff025ac9f4aab3bc840deeb689dd1", null ],
       [ "saveCustomTokensToFile", "d5/d45/classCardDatabase.html#a0def74208b0f26956b33b314160f4c2a", null ],
       [ "CardDatabaseLoader", "d5/d45/classCardDatabase.html#a5518af844d38e30effb9d1b4b0fb2278", null ],

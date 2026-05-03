@@ -1,11 +1,11 @@
 var NAVTREEINDEX3 =
 {
-"d1/d15/classServer__Room.html#afc85315754b8477ce1631d4a325a5a2c":[4,1,0,416,13],
+"d1/d15/classServer__Room.html#afc85315754b8477ce1631d4a325a5a2c":[4,1,0,418,13],
 "d1/d18/server__abstract__participant_8cpp.html":[4,2,0,7,0,0,1,1,0,0],
 "d1/d19/chat__view_8cpp.html":[4,2,0,0,1,5,3,9,0,0],
 "d1/d19/chat__view_8cpp.html#ade7976ab2339952afe1067bfbff30954":[4,2,0,0,1,5,3,9,0,0,0],
-"d1/d1a/structpeg_1_1argument__count_3_01R_07_5_08_07Args_8_8_8_08_4.html":[4,0,0,12,5],
-"d1/d1a/structpeg_1_1argument__count_3_01R_07_5_08_07Args_8_8_8_08_4.html":[4,1,0,1,4],
+"d1/d1a/structpeg_1_1argument__count_3_01R_07_5_08_07Args_8_8_8_08_4.html":[4,0,0,12,6],
+"d1/d1a/structpeg_1_1argument__count_3_01R_07_5_08_07Args_8_8_8_08_4.html":[4,1,0,1,5],
 "d1/d1e/card__info__picture__enlarged__widget_8cpp.html":[4,2,0,0,1,5,3,0,8],
 "d1/d1e/card__relation__type_8h.html":[4,2,0,2,0,0,4,2],
 "d1/d1e/card__relation__type_8h.html#ad3d4309129d75b4e8faadfcded46d6c8":[4,2,0,2,0,0,4,2,1],

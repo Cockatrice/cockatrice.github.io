@@ -2,7 +2,7 @@ var searchData=
 [
   ['xcoord_0',['xCoord',['../d1/d62/structMoveCardStruct.html#a4cc65398e758b2db4b34240870fbe8ed',1,'MoveCardStruct']]],
   ['xmldata_1',['xmlData',['../d5/dba/classOracleWizard.html#a5ff67cd36b55e2129bea51f4b81cde56',1,'OracleWizard']]],
-  ['xpm_20dependency_2',['npm/xpm dependency',['..//home/runner/work/Cockatrice/Cockatrice/doc/doxygen/theme/README.md#npmxpm-dependency',1,'']]],
+  ['xpm_20dependency_2',['npm/xpm dependency',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#npmxpm-dependency',1,'']]],
   ['xz_5fsignature_3',['XZ_SIGNATURE',['../d3/d12/pages_8cpp.html#ab0de6e03a8c58f235305064def8b9b0f',1,'pages.cpp']]],
   ['xzdecompressor_4',['XzDecompressor',['../d1/dfe/classXzDecompressor.html',1,'XzDecompressor'],['../d1/dfe/classXzDecompressor.html#a8e05ce7b5dade50fe63e61636ece7f5f',1,'XzDecompressor::XzDecompressor()']]]
 ];
