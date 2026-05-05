@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['layer_20architecture_0',['Layer Architecture',['../d2/d1d/z__values_8h.html#layer-architecture',1,'Layer Architecture'],['../dd/d97/z__value__layer__manager_8h.html#layer-architecture-1',1,'Layer Architecture']]],
+  ['layer_20architecture_0',['Layer Architecture',['../dd/d97/z__value__layer__manager_8h.html#layer-architecture',1,'Layer Architecture'],['../d2/d1d/z__values_8h.html#layer-architecture-1',1,'Layer Architecture']]],
   ['layout_1',['Layout',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#layout',1,'']]],
   ['layout_2',['layout',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#choosing-a-layout',1,'Choosing a layout'],['../de/d6e/editing_decks_visual.html#modifying-the-visual-deck-layout',1,'Modifying the visual deck layout']]],
   ['level_20and_20categories_3',['Log Level and Categories',['../d9/d4f/logging.html#log-level-and-categories',1,'']]],

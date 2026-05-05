@@ -15,7 +15,7 @@ var searchData=
   ['and_20qnetworkdiskcache_12',['The QPixmapCache and QNetworkDiskCache',['../d9/d1c/loading_card_pictures.html#the-qpixmapcache-and-qnetworkdiskcache',1,'']]],
   ['and_20resolution_13',['URL Generation and Resolution',['../d9/d1c/loading_card_pictures.html#url-generation-and-resolution',1,'']]],
   ['api_20integration_14',['API Integration',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#api-integration',1,'']]],
-  ['architecture_15',['Architecture',['../d2/d1d/z__values_8h.html#layer-architecture',1,'Layer Architecture'],['../dd/d97/z__value__layer__manager_8h.html#layer-architecture-1',1,'Layer Architecture']]],
+  ['architecture_15',['Architecture',['../dd/d97/z__value__layer__manager_8h.html#layer-architecture',1,'Layer Architecture'],['../d2/d1d/z__values_8h.html#layer-architecture-1',1,'Layer Architecture']]],
   ['are_20triggered_16',['How requests are triggered',['../d9/d1c/loading_card_pictures.html#how-requests-are-triggered',1,'']]],
   ['awesome_17',['Doxygen Awesome',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#doxygen-awesome',1,'']]]
 ];

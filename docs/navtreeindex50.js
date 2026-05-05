@@ -1,5 +1,16 @@
 var NAVTREEINDEX50 =
 {
+"dd/d4f/classDecklistModelCardNode.html#ac535350214ab01e81cdaab9d93d24fe6":[3,3,0,3,8],
+"dd/d4f/classDecklistModelCardNode.html#ad24567974d3f6e1bb92f5fbd79c37d2d":[3,3,0,3,7],
+"dd/d4f/classDecklistModelCardNode.html#ae08619db5044b2aa4ca4d3753e310c1d":[3,3,0,3,5],
+"dd/d4f/classDecklistModelCardNode.html#af51f72a86fc0c8e2bb4e83e03eec8421":[3,3,0,3,11],
+"dd/d50/archidekt__deck__preview__image__display__widget_8cpp.html":[4,2,0,0,1,5,3,10,0,0,1,6],
+"dd/d50/printing__selector__card__search__widget_8cpp.html":[4,2,0,0,1,5,3,6,10],
+"dd/d52/card__info_8cpp.html":[4,2,0,2,0,0,6],
+"dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699":[4,2,0,2,0,0,6,0],
+"dd/d52/dlg__move__top__cards__until_8cpp.html":[4,2,0,0,1,3,2,2],
+"dd/d52/dlg__move__top__cards__until_8cpp.html#a429d12e76a648946dad67d2d186d7e0a":[4,2,0,0,1,3,2,2,0],
+"dd/d54/hand__counter_8cpp.html":[4,2,0,0,1,3,21],
 "dd/d55/json_8cpp.html":[4,2,0,12,0,1,0],
 "dd/d56/card__picture__loader__worker__work_8h.html":[4,2,0,0,1,5,0,11],
 "dd/d56/card__picture__loader__worker__work_8h.html#aa437682ef8b1c9ded0b59f56b7d60441":[4,2,0,0,1,5,0,11,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX50 =
 "dd/d81/classTabSupervisor.html#a3f044da372eb4dd3f2c4b48f9756094d":[4,1,0,479,2],
 "dd/d81/classTabSupervisor.html#a41dbd4bd3ac58d0d34eab9853c5e783b":[4,1,0,479,93],
 "dd/d81/classTabSupervisor.html#a42328388160aec9fd9d77fa96df5cbb1":[4,1,0,479,31],
-"dd/d81/classTabSupervisor.html#a44735c3d50fcb9cfdc12d15547ec9e3c":[4,1,0,479,70],
-"dd/d81/classTabSupervisor.html#a4705f2a9e637b63c445c867363aa3b91":[4,1,0,479,92],
-"dd/d81/classTabSupervisor.html#a470b54687a30fe46f68cfc68eecb7626":[4,1,0,479,76],
-"dd/d81/classTabSupervisor.html#a485fb1129ab1f3207ab8aff431799f8e":[4,1,0,479,27],
-"dd/d81/classTabSupervisor.html#a4bb5255b450e349fb104743396c0bb04":[4,1,0,479,53],
-"dd/d81/classTabSupervisor.html#a4e48f63e89d4fb8e7ad646b1964dc96b":[4,1,0,479,102],
-"dd/d81/classTabSupervisor.html#a5350f7cfcd6a4ebe461cef74d14fc916":[4,1,0,479,87],
-"dd/d81/classTabSupervisor.html#a59f84774c6608a778708394bc93f7b01":[4,1,0,479,71],
-"dd/d81/classTabSupervisor.html#a5b37731257df2678392e44fc53bc8f23":[4,1,0,479,4],
-"dd/d81/classTabSupervisor.html#a5d08030d6513fc6a57c285178e83e3dd":[4,1,0,479,55],
-"dd/d81/classTabSupervisor.html#a5e328cc111cbf29ce1517ce84132ee26":[4,1,0,479,97],
-"dd/d81/classTabSupervisor.html#a5e6baf23ec25ba9c7d95138c2b76b234":[4,1,0,479,1]
+"dd/d81/classTabSupervisor.html#a44735c3d50fcb9cfdc12d15547ec9e3c":[4,1,0,479,70]
 };

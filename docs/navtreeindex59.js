@@ -1,5 +1,17 @@
 var NAVTREEINDEX59 =
 {
+"df/d3f/classGameSelector.html#a405e441c07528666a1fd2ef7408064b6":[4,1,0,240,7],
+"df/d3f/classGameSelector.html#a40d098545421529a7296deb4f6e0bf3f":[4,1,0,240,3],
+"df/d3f/classGameSelector.html#a469b920caa40b2976f139c82a67617e7":[4,1,0,240,21],
+"df/d3f/classGameSelector.html#a471430f639605dfe80a280092650e044":[4,1,0,240,36],
+"df/d3f/classGameSelector.html#a4fc1004c477393760c4c282ba8e7a7f1":[4,1,0,240,34],
+"df/d3f/classGameSelector.html#a5349eb187f8318d008fc1b805c17cf0c":[4,1,0,240,0],
+"df/d3f/classGameSelector.html#a57426bb1940fe7d76563c5c87fb056a5":[4,1,0,240,16],
+"df/d3f/classGameSelector.html#a65fc5a21fa061838854f8441c7c56601":[4,1,0,240,28],
+"df/d3f/classGameSelector.html#a6a1d1747b2067581fa714fb1e7c5a8cc":[4,1,0,240,31],
+"df/d3f/classGameSelector.html#a7140a90aa5ebeeec57e4ad3c01ec7d71":[4,1,0,240,4],
+"df/d3f/classGameSelector.html#a75131cf48d42d361f2b6f113038b3626":[4,1,0,240,8],
+"df/d3f/classGameSelector.html#a785b444dcf5cfd125288411199caaacd":[4,1,0,240,38],
 "df/d3f/classGameSelector.html#a7bd6f443362d8a4bcece4207860e9f7f":[4,1,0,240,1],
 "df/d3f/classGameSelector.html#a86af8219b48b3ad0e7041bf5a621d793":[4,1,0,240,33],
 "df/d3f/classGameSelector.html#a8c96ae17add913567b9228b0d37525bf":[4,1,0,240,30],
@@ -237,17 +249,5 @@ var NAVTREEINDEX59 =
 "df/d89/classServer__Game.html#aaa94a926691cb3e066e7627645b0c1c0":[4,1,0,414,11],
 "df/d89/classServer__Game.html#ab065e0abf093171fe03d86b0b9031c92":[4,1,0,414,51],
 "df/d89/classServer__Game.html#ab136e90b4b77e245419995d727daceb0":[4,1,0,414,23],
-"df/d89/classServer__Game.html#ab29a10e86bf358a04d0f7a73ad586e1a":[4,1,0,414,21],
-"df/d89/classServer__Game.html#ab706f35eb7bf97af5d06e9cb4f4d2efb":[4,1,0,414,31],
-"df/d89/classServer__Game.html#ab7071e69dccc862692be181bc322c4d0":[4,1,0,414,45],
-"df/d89/classServer__Game.html#aba1c3426f031a94d6e699991cdec18a8":[4,1,0,414,7],
-"df/d89/classServer__Game.html#abd1317ead76c93a8878a302b9be563b6":[4,1,0,414,9],
-"df/d89/classServer__Game.html#abd35f75c6609116d81954d3f4d93d2b6":[4,1,0,414,78],
-"df/d89/classServer__Game.html#abe3fb3e77b712a22bfcca4d1a916e641":[4,1,0,414,36],
-"df/d89/classServer__Game.html#abf00fac26d0cf1f809cadc8efca38931":[4,1,0,414,14],
-"df/d89/classServer__Game.html#ac8ffeecd2100bcf1e3f464aade87fc7c":[4,1,0,414,40],
-"df/d89/classServer__Game.html#ac96b285edd77a07b6538bf55ebd213e1":[4,1,0,414,67],
-"df/d89/classServer__Game.html#acea57cbc97a75287ccf40305961f92c3":[4,1,0,414,5],
-"df/d89/classServer__Game.html#ade0fdcc9e779b34c36ff5f64f5a5b145":[4,1,0,414,64],
-"df/d89/classServer__Game.html#ae0ce6622c341af91968867181f95359b":[4,1,0,414,12]
+"df/d89/classServer__Game.html#ab29a10e86bf358a04d0f7a73ad586e1a":[4,1,0,414,21]
 };

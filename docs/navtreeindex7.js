@@ -1,5 +1,11 @@
 var NAVTREEINDEX7 =
 {
+"d2/d00/classDlgTipOfTheDay.html#adb200342a81482217c82b29931206189":[4,1,0,177,23],
+"d2/d00/dynamic__font__size__push__button_8h.html":[3,1,0,4,3,0],
+"d2/d00/dynamic__font__size__push__button_8h.html":[3,3,1,1,3,0],
+"d2/d06/visual__database__display__widget_8cpp.html":[4,2,0,0,1,5,3,12,17],
+"d2/d0b/expression__test_8cpp.html":[4,2,0,14,7],
+"d2/d0b/expression__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,7,1],
 "d2/d0b/expression__test_8cpp.html#ab1eca99c73774ce449fb3865a2c22a41":[4,2,0,14,7,0],
 "d2/d0c/printing__selector__card__search__widget_8h.html":[3,1,0,4,3,7],
 "d2/d0c/printing__selector__card__search__widget_8h.html":[3,3,1,1,3,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX7 =
 "d2/d31/classAbstractAnalyticsPanelWidget.html#ab80b8734e9ea1b1997c0bc7be8ebdb2e":[4,1,0,3,12],
 "d2/d31/classAbstractAnalyticsPanelWidget.html#ac7bde0a59d58f743a7e384f74455095d":[4,1,0,3,3],
 "d2/d31/classAbstractAnalyticsPanelWidget.html#ae5f6ad2c8b43767235f5a54e82e4243e":[4,1,0,3,8],
-"d2/d31/classAbstractAnalyticsPanelWidget.html#af12ce940176a1c01663e5ae67e5eb060":[4,1,0,3,11],
-"d2/d32/classVisualDatabaseDisplayWidget.html":[4,1,0,519],
-"d2/d32/classVisualDatabaseDisplayWidget.html#a0224e40e045bcb9134f3c122bd0ca497":[4,1,0,519,51],
-"d2/d32/classVisualDatabaseDisplayWidget.html#a02c9e7503daf8ef8dde494f50edcf92c":[4,1,0,519,41],
-"d2/d32/classVisualDatabaseDisplayWidget.html#a05174c87360a7a774ca20d5b48df54d3":[4,1,0,519,29],
-"d2/d32/classVisualDatabaseDisplayWidget.html#a0957308f85e9276c971bbc3749af7339":[4,1,0,519,24],
-"d2/d32/classVisualDatabaseDisplayWidget.html#a0b5cf4549d9530cab35fb1bd1d213450":[4,1,0,519,46]
+"d2/d31/classAbstractAnalyticsPanelWidget.html#af12ce940176a1c01663e5ae67e5eb060":[4,1,0,3,11]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX20 =
 {
+"d5/d88/classSettingsCache.html#afdac6e75d493168a472567eaf9c9b224":[4,1,0,432,51],
+"d5/d88/classSettingsCache.html#aff74a0ec3754a542fb4ddc3b31f61954":[4,1,0,432,346],
+"d5/d88/classSettingsCache.html#affb93c1de1865694bc665d6c4f95ea54":[4,1,0,432,385],
+"d5/d88/classUserConnection__Information.html":[4,1,0,496],
+"d5/d88/classUserConnection__Information.html#a1248fbdd83be98c688ff92a4b16739a3":[4,1,0,496,1],
+"d5/d88/classUserConnection__Information.html#a17a047d4403a912ba087624b4923b81e":[4,1,0,496,3],
+"d5/d88/classUserConnection__Information.html#a1944fa37c77e590d96c4fe84a9bbbc00":[4,1,0,496,11],
+"d5/d88/classUserConnection__Information.html#a2784f8906375b7b95c92f17f0267649f":[4,1,0,496,5],
 "d5/d88/classUserConnection__Information.html#a2c9912f6ee5d17ae233d9ea39174849e":[4,1,0,496,7],
 "d5/d88/classUserConnection__Information.html#a3aefe2406fbbd313c28b9d7806b902ad":[4,1,0,496,2],
 "d5/d88/classUserConnection__Information.html#a3f3516908f289a39bfd123651b6ee6b5":[4,1,0,496,13],
@@ -241,13 +249,5 @@ var NAVTREEINDEX20 =
 "d5/dba/classOracleWizard.html#a839fab5471d4b169a1d3986ac38b9f87":[4,1,0,318,5],
 "d5/dba/classOracleWizard.html#a8665775a744962a362b1c948c4196d4b":[4,1,0,318,12],
 "d5/dba/classOracleWizard.html#a9c1dcbb3191ee9634c5fd1ef2262719c":[4,1,0,318,17],
-"d5/dba/classOracleWizard.html#a9e341b6d01ebe10bf21bfee24b34150a":[4,1,0,318,20],
-"d5/dba/classOracleWizard.html#ab12e65a48b530a3c479aefc3ebe0caec":[4,1,0,318,19],
-"d5/dba/classOracleWizard.html#ab28d6d76f7effab983cc447502e036c1":[4,1,0,318,6],
-"d5/dba/classOracleWizard.html#abd99fc0239717a8faf27ebc4f578d4e4":[4,1,0,318,15],
-"d5/dba/classOracleWizard.html#ae31123facf4abef01eaf3232fe264122":[4,1,0,318,23],
-"d5/dba/classOracleWizard.html#aef6088222aa32ec97d89c9c87017d922":[4,1,0,318,10],
-"d5/dba/classpeg_1_1Reference.html":[4,0,0,12,33],
-"d5/dba/classpeg_1_1Reference.html":[4,1,0,1,32],
-"d5/dba/classpeg_1_1Reference.html#a03403b774fb8cc24850061f5f43597a3":[4,0,0,12,33,8]
+"d5/dba/classOracleWizard.html#a9e341b6d01ebe10bf21bfee24b34150a":[4,1,0,318,20]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX32 =
 {
+"d8/dc5/classAppearanceSettingsPage.html#a722728787a062991da07b0ec3f71618e":[4,1,0,26,44],
+"d8/dc5/classAppearanceSettingsPage.html#a85c619be68c21926d15b6ed32222978d":[4,1,0,26,32],
+"d8/dc5/classAppearanceSettingsPage.html#a93d63010942b64a18ad5299be5e17c1c":[4,1,0,26,0],
+"d8/dc5/classAppearanceSettingsPage.html#a93e763d0c4265ed4dc99ccfb6f2c15c0":[4,1,0,26,2],
+"d8/dc5/classAppearanceSettingsPage.html#a97419ff52732f6408cb33a86a7d535d8":[4,1,0,26,33],
+"d8/dc5/classAppearanceSettingsPage.html#a9d4453631e56861d82719dcdb3512517":[4,1,0,26,15],
+"d8/dc5/classAppearanceSettingsPage.html#a9dc582d88224073a271c1f7e1e76a691":[4,1,0,26,8],
+"d8/dc5/classAppearanceSettingsPage.html#aa2972a90e883e7a2d1a082a06770ecac":[4,1,0,26,31],
+"d8/dc5/classAppearanceSettingsPage.html#ab080e7a67c146c2213307c9c70104efa":[4,1,0,26,40],
+"d8/dc5/classAppearanceSettingsPage.html#abd295ddd0f06b03304d3a4bc94840a43":[4,1,0,26,19],
+"d8/dc5/classAppearanceSettingsPage.html#ac157ab9a4e1a25ce1dd7e8901f2d5a80":[4,1,0,26,45],
 "d8/dc5/classAppearanceSettingsPage.html#ac2ee82cf44714aa73a0ad9c1d85d78de":[4,1,0,26,29],
 "d8/dc5/classAppearanceSettingsPage.html#ac34069f71dadec649c34c42b812c5c4e":[4,1,0,26,38],
 "d8/dc5/classAppearanceSettingsPage.html#ac696bea00d34387d129059c857300f40":[4,1,0,26,14],
@@ -238,16 +249,5 @@ var NAVTREEINDEX32 =
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#ad011b4166cbb9dbf5c8f5523adee920e":[4,0,0,12,41,4],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#ad011b4166cbb9dbf5c8f5523adee920e":[4,1,0,1,40,4],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#ad83702d93ee7f6d0e03be5c472b5c19d":[4,0,0,12,41,0],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#ad83702d93ee7f6d0e03be5c472b5c19d":[4,1,0,1,40,0],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#add683fb4926e3c682592d9fc15fc0c0a":[4,0,0,12,41,18],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#add683fb4926e3c682592d9fc15fc0c0a":[4,1,0,1,40,18],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#aef40db5685cb0d1563ec3358e563e8b8":[4,0,0,12,41,21],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#aef40db5685cb0d1563ec3358e563e8b8":[4,1,0,1,40,21],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#af1d7ef5878ce6686a15e1f18eac2c9aa":[4,0,0,12,41,2],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#af1d7ef5878ce6686a15e1f18eac2c9aa":[4,1,0,1,40,2],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#af2ff13c0928c70e75dcb072578ee6dcb":[4,0,0,12,41,7],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#af2ff13c0928c70e75dcb072578ee6dcb":[4,1,0,1,40,7],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#af3686d1eb11dbad3bfd1c5101e86eab6":[4,0,0,12,41,1],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#af3686d1eb11dbad3bfd1c5101e86eab6":[4,1,0,1,40,1],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#af748e5003a9317b6bdafdb09f0b033bc":[4,0,0,12,41,12]
+"d9/d27/structpeg_1_1AssignIDToDefinition.html#ad83702d93ee7f6d0e03be5c472b5c19d":[4,1,0,1,40,0]
 };

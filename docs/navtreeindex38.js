@@ -1,5 +1,16 @@
 var NAVTREEINDEX38 =
 {
+"da/d68/classDeckList.html#a79d884815abdd7b61694bf9657d27c56":[3,3,3,20],
+"da/d68/classDeckList.html#a79ee05fb6b1be4dcf5d07cab77c39437":[3,3,3,32],
+"da/d68/classDeckList.html#a79f3cb971fe33bcb433f9b60ab9d5b86":[3,3,3,21],
+"da/d68/classDeckList.html#a7b608939910c4a1f5b9669df770df389":[3,3,3,14],
+"da/d68/classDeckList.html#a7f1ef22a7593eb31fd2c339453934582":[3,3,3,35],
+"da/d68/classDeckList.html#a8b0a5988bc27b6950c38cc48aae5a66a":[3,3,3,10],
+"da/d68/classDeckList.html#a8d3de2c681503941edd3d33ccb54fb4d":[3,3,3,18],
+"da/d68/classDeckList.html#a8dcd85647b95253afe7eb7eef60b2d19":[3,3,3,50],
+"da/d68/classDeckList.html#a8df3b058ff21ffcb90d6bf524cebd2c1":[3,3,3,28],
+"da/d68/classDeckList.html#a93bbd328b945e84f9f2038d61e722efa":[3,3,3,3],
+"da/d68/classDeckList.html#a94f2d40c4642afb281c569697d1c5051":[3,3,3,12],
 "da/d68/classDeckList.html#a9bef2e38b0a9b7f7138f0a1010c98ab8":[3,3,3,46],
 "da/d68/classDeckList.html#a9c0803bb3c17103752b182c2b74aa953":[3,3,3,49],
 "da/d68/classDeckList.html#a9c94e81518708753b71317711831764c":[3,3,3,16],
@@ -238,16 +249,5 @@ var NAVTREEINDEX38 =
 "da/d8f/deck__file__format_8cpp.html":[4,2,0,0,1,5,1,2],
 "da/d92/classNoScrollFilter.html":[4,1,0,316],
 "da/d92/classNoScrollFilter.html#a17d85f62373252a8b4a9b4ff6f581543":[4,1,0,316,0],
-"da/d92/classNoScrollFilter.html#aa46dbebd212f91b5193189fd4d0ae0d7":[4,1,0,316,1],
-"da/d94/deck__preview__widget_8h.html":[3,1,0,5,1,0,6],
-"da/d94/deck__preview__widget_8h.html":[3,3,2,0,0,1,0,6],
-"da/d98/group__DeckSettings.html":[3,7,5],
-"da/d99/abstract__game_8h.html":[3,4,1,3],
-"da/d99/classServer__AbstractPlayer.html":[4,1,0,406],
-"da/d99/classServer__AbstractPlayer.html#a0049a43da06e0c90b8641c4e2ab7f6f9":[4,1,0,406,22],
-"da/d99/classServer__AbstractPlayer.html#a033170aadcf7ca007cf3eee0faa91f62":[4,1,0,406,2],
-"da/d99/classServer__AbstractPlayer.html#a033b44c78b168a42cd9920f355d840b4":[4,1,0,406,0],
-"da/d99/classServer__AbstractPlayer.html#a14764ada4e8873434b3a6c9aa2f58caa":[4,1,0,406,19],
-"da/d99/classServer__AbstractPlayer.html#a1f4ed633786afd37b5a51ce52a977f5d":[4,1,0,406,13],
-"da/d99/classServer__AbstractPlayer.html#a25d3e4c638a4f5d821207f7686693ba6":[4,1,0,406,31]
+"da/d92/classNoScrollFilter.html#aa46dbebd212f91b5193189fd4d0ae0d7":[4,1,0,316,1]
 };

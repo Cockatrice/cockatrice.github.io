@@ -1,5 +1,12 @@
 var NAVTREEINDEX16 =
 {
+"d4/ddd/mana__distribution__config__dialog_8cpp.html":[4,2,0,0,1,5,3,1,0,4,2],
+"d4/ddd/mana__distribution__config__dialog_8cpp.html#ab422457084c8880ca23ab8b3f3c50d89":[4,2,0,0,1,5,3,1,0,4,2,0],
+"d4/ddf/archidekt__api__response__deck__category_8cpp.html":[4,2,0,0,1,5,3,10,0,0,0,1,2],
+"d4/de0/local__server_8h.html":[3,5,2,1],
+"d4/de4/structDrawProbabilityConfig.html":[4,1,0,181],
+"d4/de4/structDrawProbabilityConfig.html#a1b946e756ca773b9db64f4b820f193a1":[4,1,0,181,5],
+"d4/de4/structDrawProbabilityConfig.html#a3fb6c775b342e876e0efb7eb7a53ebe8":[4,1,0,181,4],
 "d4/de4/structDrawProbabilityConfig.html#a47495265922e726cb075cf4fb0d262a6":[4,1,0,181,3],
 "d4/de4/structDrawProbabilityConfig.html#a6414f8718ac509587590683c26a2324a":[4,1,0,181,2],
 "d4/de4/structDrawProbabilityConfig.html#a6ad8b2f72bc9653b8d049f60ad05cd0e":[4,1,0,181,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX16 =
 "d5/d22/classDecklistCardNode.html#aacbd95b7ec3604488c9e3af05f4646f5":[3,3,0,2,16],
 "d5/d22/classDecklistCardNode.html#ab84bc15d4e58bed7377f9d9e9de7874f":[3,3,0,2,11],
 "d5/d22/classDecklistCardNode.html#acfeb30670212b836ae3a232eb5b059a1":[3,3,0,2,8],
-"d5/d22/classDecklistCardNode.html#aea1e2bdd423742e4de058e27c96f5ab3":[3,3,0,2,7],
-"d5/d22/classDecklistCardNode.html#af1ca59687f98e11c80eae6373252b1ee":[3,3,0,2,5],
-"d5/d22/classDecklistCardNode.html#af58383bd944f8ec8c8df4da6edffc258":[3,3,0,2,13],
-"d5/d23/smtpclient_8cpp.html":[4,2,0,13,0,21],
-"d5/d24/analytics__panel__widget__registrar_8cpp.html":[4,2,0,0,1,5,3,1,7],
-"d5/d25/remote__decklist__tree__widget_8h.html":[3,1,0,9,3],
-"d5/d25/remote__decklist__tree__widget_8h.html":[3,5,1,1,3],
-"d5/d26/servatrice_8cpp.html":[4,2,0,13,0,7]
+"d5/d22/classDecklistCardNode.html#aea1e2bdd423742e4de058e27c96f5ab3":[3,3,0,2,7]
 };

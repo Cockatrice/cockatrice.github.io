@@ -1,5 +1,16 @@
 var NAVTREEINDEX37 =
 {
+"da/d25/classArchidektApiResponseEdition.html#a58db8297ea2a3278c7c25ed35982d4a3":[4,1,0,36,9],
+"da/d25/classArchidektApiResponseEdition.html#a670d73764a96b404b105cd6cd18c9e32":[4,1,0,36,5],
+"da/d25/classArchidektApiResponseEdition.html#a880fd226728784ee8d9468a8d77b847d":[4,1,0,36,10],
+"da/d25/classArchidektApiResponseEdition.html#a88edeeff576f77ab849cb1f1aedeb0e0":[4,1,0,36,7],
+"da/d25/classArchidektApiResponseEdition.html#abcb6c68418258300db29ec89e68368d1":[4,1,0,36,11],
+"da/d25/classArchidektApiResponseEdition.html#abed4cd824ab73e63a50306148712ea45":[4,1,0,36,1],
+"da/d25/classArchidektApiResponseEdition.html#ad99aad182913be2e3f3115cfb4a696e1":[4,1,0,36,6],
+"da/d25/classArchidektApiResponseEdition.html#ae29c95edda1edf283b7f85f309c0ac8d":[4,1,0,36,8],
+"da/d25/loaded__deck_8h.html":[4,2,0,0,1,5,1,7],
+"da/d25/loaded__deck_8h_source.html":[4,2,0,0,1,5,1,7],
+"da/d28/deck__preview__card__picture__widget_8cpp.html":[4,2,0,0,1,5,3,0,20],
 "da/d2a/reverse__card__move__test_8cpp.html":[4,2,0,14,3,0],
 "da/d2a/reverse__card__move__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,3,0,0],
 "da/d2a/reverse__card__move__test_8cpp.html#a6a59cf7744f3a1c39f0813bc61c87df9":[4,2,0,14,3,0,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX37 =
 "da/d68/classDeckList.html#a76dd3ba126919eddb43f7e14dc67e950":[3,3,3,41],
 "da/d68/classDeckList.html#a76e33f42b3f08d506a4028a34a43452f":[3,3,3,17],
 "da/d68/classDeckList.html#a773dea93b32b04d5251565251b4800ea":[3,3,3,6],
-"da/d68/classDeckList.html#a79d6a068df3b2a323a04621fb3ecb8b0":[3,3,3,47],
-"da/d68/classDeckList.html#a79d884815abdd7b61694bf9657d27c56":[3,3,3,20],
-"da/d68/classDeckList.html#a79ee05fb6b1be4dcf5d07cab77c39437":[3,3,3,32],
-"da/d68/classDeckList.html#a79f3cb971fe33bcb433f9b60ab9d5b86":[3,3,3,21],
-"da/d68/classDeckList.html#a7b608939910c4a1f5b9669df770df389":[3,3,3,14],
-"da/d68/classDeckList.html#a7f1ef22a7593eb31fd2c339453934582":[3,3,3,35],
-"da/d68/classDeckList.html#a8b0a5988bc27b6950c38cc48aae5a66a":[3,3,3,10],
-"da/d68/classDeckList.html#a8d3de2c681503941edd3d33ccb54fb4d":[3,3,3,18],
-"da/d68/classDeckList.html#a8dcd85647b95253afe7eb7eef60b2d19":[3,3,3,50],
-"da/d68/classDeckList.html#a8df3b058ff21ffcb90d6bf524cebd2c1":[3,3,3,28],
-"da/d68/classDeckList.html#a93bbd328b945e84f9f2038d61e722efa":[3,3,3,3],
-"da/d68/classDeckList.html#a94f2d40c4642afb281c569697d1c5051":[3,3,3,12]
+"da/d68/classDeckList.html#a79d6a068df3b2a323a04621fb3ecb8b0":[3,3,3,47]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX19 =
 {
+"d5/d88/classSettingsCache.html#a7cfda1477b3526d42b9e38607d0b72d0":[4,1,0,432,308],
+"d5/d88/classSettingsCache.html#a7e28fbb975645bf5335f8ef105547de5":[4,1,0,432,399],
+"d5/d88/classSettingsCache.html#a7e40f29e94f2b9fad77faf2056b7103d":[4,1,0,432,119],
+"d5/d88/classSettingsCache.html#a7f30e77afbc0d394171b111304d3380a":[4,1,0,432,416],
+"d5/d88/classSettingsCache.html#a7f694f9f86ffc775ddbff7741bdb29a6":[4,1,0,432,67],
+"d5/d88/classSettingsCache.html#a7f98c7c55262161b13486c5e477812ca":[4,1,0,432,470],
+"d5/d88/classSettingsCache.html#a7fdcdde33d21b1fbddb159024f215403":[4,1,0,432,64],
+"d5/d88/classSettingsCache.html#a8046de801c2e6f57b924fbe8ed1b8e49":[4,1,0,432,396],
 "d5/d88/classSettingsCache.html#a80691f8671f2374f43548506eac13883":[4,1,0,432,467],
 "d5/d88/classSettingsCache.html#a80f1b6ee3c7649b8e2a0aad93c270478":[4,1,0,432,232],
 "d5/d88/classSettingsCache.html#a80fbf04f121f3ff0b274f73073cbeab9":[4,1,0,432,108],
@@ -241,13 +249,5 @@ var NAVTREEINDEX19 =
 "d5/d88/classSettingsCache.html#afb2f8830fb8ce10200db77ad765890bc":[4,1,0,432,315],
 "d5/d88/classSettingsCache.html#afbb9757b729d8857cee856b76b4523fb":[4,1,0,432,427],
 "d5/d88/classSettingsCache.html#afbbd7959fafb9ce323a07e25b79a9822":[4,1,0,432,217],
-"d5/d88/classSettingsCache.html#afd2bf7158025b3623f91e9f504abea86":[4,1,0,432,86],
-"d5/d88/classSettingsCache.html#afdac6e75d493168a472567eaf9c9b224":[4,1,0,432,51],
-"d5/d88/classSettingsCache.html#aff74a0ec3754a542fb4ddc3b31f61954":[4,1,0,432,346],
-"d5/d88/classSettingsCache.html#affb93c1de1865694bc665d6c4f95ea54":[4,1,0,432,385],
-"d5/d88/classUserConnection__Information.html":[4,1,0,496],
-"d5/d88/classUserConnection__Information.html#a1248fbdd83be98c688ff92a4b16739a3":[4,1,0,496,1],
-"d5/d88/classUserConnection__Information.html#a17a047d4403a912ba087624b4923b81e":[4,1,0,496,3],
-"d5/d88/classUserConnection__Information.html#a1944fa37c77e590d96c4fe84a9bbbc00":[4,1,0,496,11],
-"d5/d88/classUserConnection__Information.html#a2784f8906375b7b95c92f17f0267649f":[4,1,0,496,5]
+"d5/d88/classSettingsCache.html#afd2bf7158025b3623f91e9f504abea86":[4,1,0,432,86]
 };

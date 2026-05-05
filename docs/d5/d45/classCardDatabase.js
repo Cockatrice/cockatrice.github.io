@@ -17,6 +17,7 @@ var classCardDatabase =
     [ "enableAllUnknownSets", "d5/d45/classCardDatabase.html#a4223bced0f40c1475904143b8d68010f", null ],
     [ "getCardList", "d5/d45/classCardDatabase.html#a0620fe9132b26b82d30d5ed3410f31d2", null ],
     [ "getLoadStatus", "d5/d45/classCardDatabase.html#a02680f8cbc02be76591602e46e2da379", null ],
+    [ "getPriorityController", "d5/d45/classCardDatabase.html#a781f888cd013d7de2612c6b8b7020f3c", null ],
     [ "getSet", "d5/d45/classCardDatabase.html#a804c373bf269ec2a30158ebca1f6c768", null ],
     [ "getSetList", "d5/d45/classCardDatabase.html#a57aff9cd51f83c06bd58794f4c52dba2", null ],
     [ "loadCardDatabases", "d5/d45/classCardDatabase.html#a4f94e38e40632d33d584187d7e1614f5", null ],

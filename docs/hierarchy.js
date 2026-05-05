@@ -780,6 +780,7 @@ var hierarchy =
     [ "SetPriorityComparator", "d5/dee/classSetPriorityComparator.html", null ],
     [ "CardNodeFunction::SetProviderIdToPreferred", "d0/d52/structCardNodeFunction_1_1SetProviderIdToPreferred.html", null ],
     [ "SetReleaseDateComparator", "d4/d3e/classSetReleaseDateComparator.html", null ],
+    [ "ICardSetPriorityController::SetSaveData", "d0/db0/structICardSetPriorityController_1_1SetSaveData.html", null ],
     [ "SetToDownload", "d8/dc3/classSetToDownload.html", null ],
     [ "SFMT_T", "db/d02/structSFMT__T.html", null ],
     [ "ShortcutGroup", "d2/d7a/classShortcutGroup.html", null ],

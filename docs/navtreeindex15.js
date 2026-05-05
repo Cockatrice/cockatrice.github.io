@@ -1,5 +1,12 @@
 var NAVTREEINDEX15 =
 {
+"d4/d77/classDeckAnalyticsWidget.html#a176af5b0dcf6b85adf6f2e00dec72d37":[4,1,0,112,14],
+"d4/d77/classDeckAnalyticsWidget.html#a18d8aa39f1774925bcfa044dde281917":[4,1,0,112,29],
+"d4/d77/classDeckAnalyticsWidget.html#a22e265a6eb7fd3971790cc1556690c57":[4,1,0,112,20],
+"d4/d77/classDeckAnalyticsWidget.html#a2494866620d8c5cd12799cde4850d266":[4,1,0,112,18],
+"d4/d77/classDeckAnalyticsWidget.html#a2b6d07a6d56c144025ef19545da400ce":[4,1,0,112,23],
+"d4/d77/classDeckAnalyticsWidget.html#a37be0bcd9977aed718ed4a0426e02183":[4,1,0,112,6],
+"d4/d77/classDeckAnalyticsWidget.html#a3c23cbff73533ff13f6fade8ec9606a0":[4,1,0,112,17],
 "d4/d77/classDeckAnalyticsWidget.html#a3ce52c2afb8c6f2368a9fb767d194e6c":[4,1,0,112,4],
 "d4/d77/classDeckAnalyticsWidget.html#a419daf0651e185dd932c23abd9ab489e":[4,1,0,112,9],
 "d4/d77/classDeckAnalyticsWidget.html#a631e7cf91981eced9bc27daf8fdfd897":[4,1,0,112,13],
@@ -77,8 +84,8 @@ var NAVTREEINDEX15 =
 "d4/d8e/servatrice__database__interface_8h.html#a48e3613be6028b1f67617cfe48dd1420":[4,2,0,13,0,12,1],
 "d4/d8e/servatrice__database__interface_8h_source.html":[4,2,0,13,0,12],
 "d4/d8f/replay_8cpp.html":[4,2,0,0,1,3,27],
-"d4/d91/key__signals_8h.html":[3,1,2],
 "d4/d91/key__signals_8h.html":[3,0,1],
+"d4/d91/key__signals_8h.html":[3,1,2],
 "d4/d92/edhrec__api__response__commander__details__display__widget_8cpp.html":[4,2,0,0,1,5,3,10,0,1,1,2,0],
 "d4/d93/card__drag__item_8cpp.html":[4,2,0,0,1,3,0,10],
 "d4/d93/color__identity__widget_8cpp.html":[4,2,0,0,1,5,3,0,0,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX15 =
 "d4/ddc/classArrowDragItem.html#a50330af998032d8b9b861eca39ad0b28":[4,1,0,41,4],
 "d4/ddc/classArrowDragItem.html#a5538cfdb1c9e9ed5b5ec24d123dc237c":[4,1,0,41,3],
 "d4/ddc/classArrowDragItem.html#a6ea9d3c87b110581ab8ddc76664d4042":[4,1,0,41,1],
-"d4/ddc/classArrowDragItem.html#ad3c97a2e0f8fc4912bc2da519dca4b87":[4,1,0,41,5],
-"d4/ddd/mana__distribution__config__dialog_8cpp.html":[4,2,0,0,1,5,3,1,0,4,2],
-"d4/ddd/mana__distribution__config__dialog_8cpp.html#ab422457084c8880ca23ab8b3f3c50d89":[4,2,0,0,1,5,3,1,0,4,2,0],
-"d4/ddf/archidekt__api__response__deck__category_8cpp.html":[4,2,0,0,1,5,3,10,0,0,0,1,2],
-"d4/de0/local__server_8h.html":[3,5,2,1],
-"d4/de4/structDrawProbabilityConfig.html":[4,1,0,181],
-"d4/de4/structDrawProbabilityConfig.html#a1b946e756ca773b9db64f4b820f193a1":[4,1,0,181,5],
-"d4/de4/structDrawProbabilityConfig.html#a3fb6c775b342e876e0efb7eb7a53ebe8":[4,1,0,181,4]
+"d4/ddc/classArrowDragItem.html#ad3c97a2e0f8fc4912bc2da519dca4b87":[4,1,0,41,5]
 };

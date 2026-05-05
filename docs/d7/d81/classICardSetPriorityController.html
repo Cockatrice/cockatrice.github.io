@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-04-Development-2.11.0-beta.62</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-05-Development-3.0.0-beta.63</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -107,6 +107,10 @@ Inheritance diagram for ICardSetPriorityController:</div>
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dfd/classICardSetPriorityController__inherit__graph.svg" width="422" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:SetSaveData" id="r_SetSaveData"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="../../d0/db0/structICardSetPriorityController_1_1SetSaveData.html">SetSaveData</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a87c55e7b18616199ea7b8372a04ad99f" id="r_a87c55e7b18616199ea7b8372a04ad99f"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="#a87c55e7b18616199ea7b8372a04ad99f">~ICardSetPriorityController</a> ()=default</td></tr>
@@ -116,6 +120,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab6579413cb6c2b5452f5c1c65e8c1ab9" id="r_ab6579413cb6c2b5452f5c1c65e8c1ab9"><td class="memItemLeft">virtual unsigned int&#160;</td><td class="memItemRight"><a class="el" href="#ab6579413cb6c2b5452f5c1c65e8c1ab9">getSortKey</a> (QString shortName) const =0</td></tr>
 <tr class="memitem:ab1c7c415fd40f4884c60068166829f50" id="r_ab1c7c415fd40f4884c60068166829f50"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#ab1c7c415fd40f4884c60068166829f50">isEnabled</a> (QString shortName) const =0</td></tr>
 <tr class="memitem:a9449e5b720506ef5e20250761906743c" id="r_a9449e5b720506ef5e20250761906743c"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a9449e5b720506ef5e20250761906743c">isKnown</a> (QString shortName) const =0</td></tr>
+<tr class="memitem:a7c62bcbbedb01e6d3fc998650366b39d" id="r_a7c62bcbbedb01e6d3fc998650366b39d"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a7c62bcbbedb01e6d3fc998650366b39d">saveSets</a> (const QVector&lt; <a class="el" href="../../d0/db0/structICardSetPriorityController_1_1SetSaveData.html">SetSaveData</a> &gt; &amp;data)=0</td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a87c55e7b18616199ea7b8372a04ad99f" name="a87c55e7b18616199ea7b8372a04ad99f"></a>
@@ -222,6 +227,33 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="../../de/dbe/classCardDatabaseSettings.html#a9fbbedcd8e76da030a3c3906b7710337">CardDatabaseSettings</a>, and <a class="el" href="../../d3/d21/classNoopCardSetPriorityController.html#a5d78e16d17215ee195b5d511e8680140">NoopCardSetPriorityController</a>.</p>
+
+</div>
+</div>
+<a id="a7c62bcbbedb01e6d3fc998650366b39d" name="a7c62bcbbedb01e6d3fc998650366b39d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c62bcbbedb01e6d3fc998650366b39d">&#9670;&#160;</a></span>saveSets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ICardSetPriorityController::saveSets </td>
+          <td>(</td>
+          <td class="paramtype">const QVector&lt; <a class="el" href="../../d0/db0/structICardSetPriorityController_1_1SetSaveData.html">SetSaveData</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../de/dbe/classCardDatabaseSettings.html#aa652520d5e9b8fed81e5a42f35450675">CardDatabaseSettings</a>, and <a class="el" href="../../d3/d21/classNoopCardSetPriorityController.html#a26645d23c3e1110f4fc7d644c2055957">NoopCardSetPriorityController</a>.</p>
 
 </div>
 </div>

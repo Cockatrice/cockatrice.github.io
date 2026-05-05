@@ -1,5 +1,17 @@
 var NAVTREEINDEX64 =
 {
+"globals_func_e.html":[4,2,1,1,4],
+"globals_func_f.html":[4,2,1,1,5],
+"globals_func_g.html":[4,2,1,1,6],
+"globals_func_h.html":[4,2,1,1,7],
+"globals_func_i.html":[4,2,1,1,8],
+"globals_func_l.html":[4,2,1,1,9],
+"globals_func_m.html":[4,2,1,1,10],
+"globals_func_n.html":[4,2,1,1,11],
+"globals_func_o.html":[4,2,1,1,12],
+"globals_func_p.html":[4,2,1,1,13],
+"globals_func_q.html":[4,2,1,1,14],
+"globals_func_r.html":[4,2,1,1,15],
 "globals_func_s.html":[4,2,1,1,16],
 "globals_func_t.html":[4,2,1,1,17],
 "globals_func_w.html":[4,2,1,1,18],

@@ -143,7 +143,7 @@ var searchData=
   ['enableallunknownsets_140',['enableAllUnknownSets',['../d5/d45/classCardDatabase.html#a4223bced0f40c1475904143b8d68010f',1,'CardDatabase']]],
   ['enablebuttons_141',['enableButtons',['../df/d3f/classGameSelector.html#a21930436fc63bc8a5140d87284ac9b88',1,'GameSelector::enableButtons()'],['../d5/dba/classOracleWizard.html#a54ce927fccf4c2275f978537b8b7ae0d',1,'OracleWizard::enableButtons()']]],
   ['enablebuttonsforindex_142',['enableButtonsForIndex',['../df/d3f/classGameSelector.html#ac4634b075dc2bd62ae419aab7f5a72c8',1,'GameSelector']]],
-  ['enabled_143',['enabled',['../d6/d3d/classCardSet.html#a4d932ab1a745f5cbb470924feb19a465',1,'CardSet::enabled'],['../db/d51/classFilterTreeNode.html#a8863d32571f722efecdb682120e0aa22',1,'FilterTreeNode::enabled']]],
+  ['enabled_143',['enabled',['../d6/d3d/classCardSet.html#a4d932ab1a745f5cbb470924feb19a465',1,'CardSet::enabled'],['../db/d51/classFilterTreeNode.html#a8863d32571f722efecdb682120e0aa22',1,'FilterTreeNode::enabled'],['../d0/db0/structICardSetPriorityController_1_1SetSaveData.html#ad844a691424fdfe1f8ee74e4b3176c1b',1,'ICardSetPriorityController::SetSaveData::enabled']]],
   ['enabledcol_144',['EnabledCol',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735a0e8fe1570434f8b4c0f099b075331dc5',1,'SetsModel']]],
   ['enabledsets_145',['enabledSets',['../da/d64/classSetsModel.html#a7b9c269b7224cd1ee04d1515eb0ccdd4',1,'SetsModel']]],
   ['enableleftrecursion_5f_146',['enableLeftRecursion_',['../da/d7b/classpeg_1_1parser.html#a404ef124976bdde021764e21be2a9266',1,'peg::parser']]],

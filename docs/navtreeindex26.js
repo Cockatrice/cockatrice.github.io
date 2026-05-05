@@ -1,5 +1,15 @@
 var NAVTREEINDEX26 =
 {
+"d7/d02/classDeckListStatisticsAnalyzer.html#a37864e2cbe8d400f637dbeb32241ae0b":[4,1,0,132,6],
+"d7/d02/classDeckListStatisticsAnalyzer.html#a3c88c05b1c95b311de68dff88e8fc690":[4,1,0,132,33],
+"d7/d02/classDeckListStatisticsAnalyzer.html#a3fae189638ecd3d3b3f6b2b8f9af83b8":[4,1,0,132,0],
+"d7/d02/classDeckListStatisticsAnalyzer.html#a41d6af35bdb7481ff8eed2b88014c4bf":[4,1,0,132,28],
+"d7/d02/classDeckListStatisticsAnalyzer.html#a4a70c7ec0d52a2ea7077ed07b4b23045":[4,1,0,132,10],
+"d7/d02/classDeckListStatisticsAnalyzer.html#a4e6ab16fab805abc839c09df0500d6a6":[4,1,0,132,49],
+"d7/d02/classDeckListStatisticsAnalyzer.html#a58707543e6650cc445df9cc61b328f6f":[4,1,0,132,51],
+"d7/d02/classDeckListStatisticsAnalyzer.html#a5d58956ba29d3d82fc5c08b0e2cde4f5":[4,1,0,132,21],
+"d7/d02/classDeckListStatisticsAnalyzer.html#a6014c5936256dd4df45b29b4dbfbcf49":[4,1,0,132,41],
+"d7/d02/classDeckListStatisticsAnalyzer.html#a61af783ebf8e178a1eeecc375464e56e":[4,1,0,132,24],
 "d7/d02/classDeckListStatisticsAnalyzer.html#a63cdb480169873fe7835f8ca94b6063f":[4,1,0,132,50],
 "d7/d02/classDeckListStatisticsAnalyzer.html#a73994afbeb44a01460daa0d9f2e89ae6":[4,1,0,132,30],
 "d7/d02/classDeckListStatisticsAnalyzer.html#a77ba446b966d09d2d8d21f2aac6f5ccc":[4,1,0,132,40],
@@ -239,15 +249,5 @@ var NAVTREEINDEX26 =
 "d7/d68/structManaDistributionConfig.html#a7e8fd042ec43e24972736d955f32eaf8":[4,1,0,297,1],
 "d7/d68/structManaDistributionConfig.html#a877d84b55910259738729d9487e873a6":[4,1,0,297,4],
 "d7/d68/structManaDistributionConfig.html#abb7b1052af7d0f860aa63af87e5d7147":[4,1,0,297,0],
-"d7/d68/structManaDistributionConfig.html#adfd3b81968717ec40cc0776dc6a6aad1":[4,1,0,297,3],
-"d7/d6d/tab__visual__database__display_8cpp.html":[4,2,0,0,1,5,3,10,31],
-"d7/d75/classLoadTokensPage.html":[4,1,0,274],
-"d7/d75/classLoadTokensPage.html#a07e24595d16a0a8798bde7b6c964cf1f":[4,1,0,274,7],
-"d7/d75/classLoadTokensPage.html#a1eda902ab92ca6f3ff87d0d8249bb4ef":[4,1,0,274,4],
-"d7/d75/classLoadTokensPage.html#a497604906e64c29aebafda22d812250a":[4,1,0,274,5],
-"d7/d75/classLoadTokensPage.html#a53756a7535d5362d660733943111ca2c":[4,1,0,274,8],
-"d7/d75/classLoadTokensPage.html#a7ca089ea29137d21825d1b1240fc4dea":[4,1,0,274,3],
-"d7/d75/classLoadTokensPage.html#a9d91908528b357e64422c057ab892be3":[4,1,0,274,1],
-"d7/d75/classLoadTokensPage.html#a9f8a8fc4f4b04074b82345a2699a2548":[4,1,0,274,0],
-"d7/d75/classLoadTokensPage.html#aa46c1db38da668e160165545babe0742":[4,1,0,274,2]
+"d7/d68/structManaDistributionConfig.html#adfd3b81968717ec40cc0776dc6a6aad1":[4,1,0,297,3]
 };

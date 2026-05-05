@@ -1,5 +1,16 @@
 var NAVTREEINDEX48 =
 {
+"dc/db4/classCardDatabaseManager.html#a2596a5dd8e9bff1bc2aacaa37d428f1a":[3,2,4,6,9],
+"dc/db4/classCardDatabaseManager.html#a26948da7a63baf84ef22ee124d3ea6ef":[3,2,4,6,1],
+"dc/db4/classCardDatabaseManager.html#a291aca1d8caaa8c86ff110ab4e43d7ba":[3,2,4,6,6],
+"dc/db4/classCardDatabaseManager.html#a751d3957395d89a7fc2e053e25f1b7a6":[3,2,4,6,0],
+"dc/db4/classCardDatabaseManager.html#a7dc153d2d7691d69916d2154a05c5ed1":[3,2,4,6,5],
+"dc/db4/classCardDatabaseManager.html#ac8fc50d1b606f53c5bc8514f1d181c48":[3,2,4,6,7],
+"dc/db4/classCardDatabaseManager.html#ad3973b040eb93df3be6bd2e790c53d59":[3,2,4,6,3],
+"dc/db4/classCardDatabaseManager.html#ad7a0638184398a569b296b0643f05588":[3,2,4,6,8],
+"dc/db4/classCardDatabaseManager.html#adf31e2a5904a2edb5d1e5704e037988c":[3,2,4,6,4],
+"dc/db4/classCardDatabaseManager.html#ae39c536e3feef656d9bc901068e9217d":[3,2,4,6,2],
+"dc/db4/classCardDatabaseManager.html#ae5fad2b425fa06529700d15251d24f02":[3,2,4,6,10],
 "dc/db4/classCardDatabaseManager.html#aeb79ac35a8a1b1cf7d44fa13d3913d65":[3,2,4,6,11],
 "dc/dba/classDeckListSortFilterProxyModel.html":[4,1,0,131],
 "dc/dba/classDeckListSortFilterProxyModel.html#a3059a683fd8442ed05bdfe4a2b496b42":[4,1,0,131,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX48 =
 "dc/ded/classTableZoneLogic.html#abe731c43f0e9631ecb9a88d4fa5077b2":[4,1,0,473,1],
 "dc/ded/classTableZoneLogic.html#ac6a98035c3dbaed328a13a3f32a492bb":[4,1,0,473,2],
 "dc/def/percent__bar__widget_8cpp.html":[4,2,0,0,1,5,3,4,0,0,0,8],
-"dc/df0/passwordhasher_8cpp.html":[4,2,0,11,0,0,7],
-"dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html":[4,1,0,514],
-"dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#a03e3bf36b6b1dc995f3936e9a2f740c1":[4,1,0,514,8],
-"dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#a3a23649e26f21a255b4119177fc635cf":[4,1,0,514,13],
-"dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#a3a2c159c4ed528fa32dbec72cc12456a":[4,1,0,514,3],
-"dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#a40b4599a2f7c9d6f5aaa9a24b119ea77":[4,1,0,514,6],
-"dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#a530cf5bc3e138442622b6c2fa8e4abb5":[4,1,0,514,15],
-"dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#a5de8e28fc3bf6ffffaa905361c46ece8":[4,1,0,514,1],
-"dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#a676fd2a5a2d4db1d220470caf32e3eed":[4,1,0,514,10],
-"dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#a6e2cfb253626b7c8a8b7b86f0ccbc9f4":[4,1,0,514,12],
-"dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#a746c5092281e70130f3dd5e8ca337e2f":[4,1,0,514,2],
-"dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#a770099068d6a3feeaad8c3d278b870d6":[4,1,0,514,16]
+"dc/df0/passwordhasher_8cpp.html":[4,2,0,11,0,0,7]
 };

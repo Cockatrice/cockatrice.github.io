@@ -789,7 +789,7 @@ var searchData=
   ['archidektpreviewsize_786',['archidektPreviewSize',['../d5/d88/classSettingsCache.html#ad008be53677298761e7539b5c6c7314f',1,'SettingsCache']]],
   ['archidektpreviewsizechanged_787',['archidektPreviewSizeChanged',['../d5/d88/classSettingsCache.html#aca2e8dd546efa7aa81ce494f4d3004cf',1,'SettingsCache']]],
   ['archidekturi_788',['archidektUri',['../d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#afdbb870a22f3a689c20e005a04cd209f',1,'EdhrecCommanderApiResponseCommanderDetails']]],
-  ['architecture_789',['Architecture',['../d2/d1d/z__values_8h.html#layer-architecture',1,'Layer Architecture'],['../dd/d97/z__value__layer__manager_8h.html#layer-architecture-1',1,'Layer Architecture']]],
+  ['architecture_789',['Architecture',['../dd/d97/z__value__layer__manager_8h.html#layer-architecture',1,'Layer Architecture'],['../d2/d1d/z__values_8h.html#layer-architecture-1',1,'Layer Architecture']]],
   ['archivecomment_790',['archiveComment',['../de/d4e/classUnZip.html#af62e7c5315b26c9b60e490deb18dfdcc',1,'UnZip::archiveComment()'],['../d8/df5/classZip.html#abc028fb087e7d83ee96091efc0a04f59',1,'Zip::archiveComment()']]],
   ['are_20triggered_791',['How requests are triggered',['../d9/d1c/loading_card_pictures.html#how-requests-are-triggered',1,'']]],
   ['aredo_792',['aRedo',['../d6/ded/classDeckListHistoryManagerWidget.html#a08fb95fe55050a714b96c7b328f68bc7',1,'DeckListHistoryManagerWidget']]],

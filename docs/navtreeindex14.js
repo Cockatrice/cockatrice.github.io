@@ -1,5 +1,12 @@
 var NAVTREEINDEX14 =
 {
+"d4/d00/server__move__card__struct_8h_source.html":[4,2,0,7,0,0,1,1,0,16],
+"d4/d03/card__menu__action__type_8h.html":[3,4,0,3,0,0],
+"d4/d03/deck__editor__deck__dock__widget_8cpp.html":[4,2,0,0,1,5,3,2,6],
+"d4/d03/deck__editor__deck__dock__widget_8cpp.html#af78c0b754955914f2e0108024d98e257":[4,2,0,0,1,5,3,2,6,0],
+"d4/d04/classSettingsCardPreferenceProvider.html":[4,1,0,433],
+"d4/d04/classSettingsCardPreferenceProvider.html#a8eb719394cb9f75f1a8a4567b68efe5f":[4,1,0,433,0],
+"d4/d04/classSettingsCardPreferenceProvider.html#ad43be34c70796b7dbbb8d80a5038d591":[4,1,0,433,1],
 "d4/d05/json_8h.html":[4,2,0,12,0,1,1],
 "d4/d05/json_8h_source.html":[4,2,0,12,0,1,1],
 "d4/d07/classEdhrecApiResponseCardSynergyDisplayWidget.html":[4,1,0,195],
@@ -242,12 +249,5 @@ var NAVTREEINDEX14 =
 "d4/d71/classCardList.html#a7677c4753000b6aa4d558385dd2021aa":[4,1,0,78,1],
 "d4/d71/classCardList.html#a7b21422f97e3fd251d28039ad9f57939":[4,1,0,78,6],
 "d4/d77/classDeckAnalyticsWidget.html":[4,1,0,112],
-"d4/d77/classDeckAnalyticsWidget.html#a075e3606111c6d3408161e83e978d6e9":[4,1,0,112,5],
-"d4/d77/classDeckAnalyticsWidget.html#a176af5b0dcf6b85adf6f2e00dec72d37":[4,1,0,112,14],
-"d4/d77/classDeckAnalyticsWidget.html#a18d8aa39f1774925bcfa044dde281917":[4,1,0,112,29],
-"d4/d77/classDeckAnalyticsWidget.html#a22e265a6eb7fd3971790cc1556690c57":[4,1,0,112,20],
-"d4/d77/classDeckAnalyticsWidget.html#a2494866620d8c5cd12799cde4850d266":[4,1,0,112,18],
-"d4/d77/classDeckAnalyticsWidget.html#a2b6d07a6d56c144025ef19545da400ce":[4,1,0,112,23],
-"d4/d77/classDeckAnalyticsWidget.html#a37be0bcd9977aed718ed4a0426e02183":[4,1,0,112,6],
-"d4/d77/classDeckAnalyticsWidget.html#a3c23cbff73533ff13f6fade8ec9606a0":[4,1,0,112,17]
+"d4/d77/classDeckAnalyticsWidget.html#a075e3606111c6d3408161e83e978d6e9":[4,1,0,112,5]
 };

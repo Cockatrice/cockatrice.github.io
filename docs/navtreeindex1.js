@@ -137,6 +137,10 @@ var NAVTREEINDEX1 =
 "d0/da9/dlg__create__game_8h.html":[3,1,0,0,0,4,0],
 "d0/da9/dlg__create__game_8h.html":[3,1,0,9,0,4,0],
 "d0/da9/dlg__create__game_8h.html":[3,5,1,1,0,4,0],
+"d0/db0/structICardSetPriorityController_1_1SetSaveData.html":[4,1,0,259,0],
+"d0/db0/structICardSetPriorityController_1_1SetSaveData.html#a2983405c4d8caf53b05755e9f2e2a9a9":[4,1,0,259,0,2],
+"d0/db0/structICardSetPriorityController_1_1SetSaveData.html#a84a203b0e70e8c9acb5e62f047df2112":[4,1,0,259,0,1],
+"d0/db0/structICardSetPriorityController_1_1SetSaveData.html#ad844a691424fdfe1f8ee74e4b3176c1b":[4,1,0,259,0,0],
 "d0/db2/classReleaseChannel.html":[4,1,0,374],
 "d0/db2/classReleaseChannel.html#a0797d7390aede4c73d3a78b842928cea":[4,1,0,374,0],
 "d0/db2/classReleaseChannel.html#a11fff335b9b373847e106a569874a688":[4,1,0,374,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX1 =
 "d0/dd1/classEdhrecCommanderResponseCommanderDetailsDisplayWidget.html#ac8e855fd26ba849f5f6c423c09aa4992":[4,1,0,205,11],
 "d0/dd1/classEdhrecCommanderResponseCommanderDetailsDisplayWidget.html#acecc271d514e0e766a7ec281f98afb41":[4,1,0,205,2],
 "d0/dd2/classPrintingSelectorCardSelectionWidget.html":[4,1,0,358],
-"d0/dd2/classPrintingSelectorCardSelectionWidget.html#a237faf6f523f56fb956cefa0478be594":[4,1,0,358,0],
-"d0/dd2/classPrintingSelectorCardSelectionWidget.html#a6ef1038b995423bb4b09a39a8be52cb4":[4,1,0,358,2],
-"d0/dd2/classPrintingSelectorCardSelectionWidget.html#a7a09e001ec1a8812812b25e433e61b54":[4,1,0,358,7],
-"d0/dd2/classPrintingSelectorCardSelectionWidget.html#a7c536f5ad4c2f34fd69d83204e89d230":[4,1,0,358,1],
-"d0/dd2/classPrintingSelectorCardSelectionWidget.html#a952fb7d9681a8415057bbf363749a5c1":[4,1,0,358,6]
+"d0/dd2/classPrintingSelectorCardSelectionWidget.html#a237faf6f523f56fb956cefa0478be594":[4,1,0,358,0]
 };
