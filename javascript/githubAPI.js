@@ -24,9 +24,9 @@ $.getJSON(githubReleasesAPI, function (json) {
         else if (url.includes('Ubuntu')) {
             ubuntu = url;
         }
-        else if (url.includes("Debian")) {
+        else if (url.includes("Debian13")) {
             debian = url;
-        }
+        } //version is hardcoded so as not to pick up servatrice debian by accident
         else if (url.includes("Fedora")) {
             fedora = url;
         }
