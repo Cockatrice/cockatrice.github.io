@@ -102,7 +102,7 @@ var searchData=
   ['editlayout_99',['editLayout',['../d1/de7/classShortcutSettingsPage.html#a42dbcaebdf02586aa22a39fc42a69378',1,'ShortcutSettingsPage']]],
   ['editor_100',['Editor',['../d3/d32/editing_decks_classic.html',1,'Classic Deck Editor'],['../de/d6e/editing_decks_visual.html',1,'Visual Deck Editor']]],
   ['editor_20analytics_20widgets_101',['Deck Editor Analytics Widgets',['../d9/da2/group__DeckEditorAnalyticsWidgets.html',1,'']]],
-  ['editor_20tab_102',['Editor Tab',['../d0/d51/exporting_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../db/d91/importing_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
+  ['editor_20tab_102',['Editor Tab',['../db/d91/importing_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../d0/d51/exporting_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
   ['editor_20tabs_103',['Deck Editor Tabs',['../d5/dc3/group__DeckEditorTabs.html',1,'']]],
   ['editor_20widgets_104',['Deck Editor Widgets',['../d4/d5d/group__DeckEditorWidgets.html',1,'']]],
   ['editorevent_105',['editorEvent',['../d3/d79/classPlayerListItemDelegate.html#aa4e13db4625f6a1a0c0c45d6a5429716',1,'PlayerListItemDelegate::editorEvent()'],['../dc/d89/classUserListItemDelegate.html#a68d784685fc256eee73dff7b6d816096',1,'UserListItemDelegate::editorEvent()']]],
