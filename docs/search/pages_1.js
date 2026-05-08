@@ -2,7 +2,7 @@ var searchData=
 [
   ['back_20to_20stable_0',['Switching back to Stable',['../d9/d9b/beta_release.html#switching-back-to-stable',1,'']]],
   ['basic_20card_20object_3a_20cardinfo_1',['A Basic Card Object: CardInfo',['../da/d69/primer_cards.html#a-basic-card-object-cardinfo',1,'']]],
-  ['basic_20deck_20information_2',['Basic Deck Information',['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information'],['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information']]],
+  ['basic_20deck_20information_2',['Basic Deck Information',['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
   ['beta_3',['Beta',['../d9/d9b/beta_release.html#switching-to-the-beta',1,'Switching to the Beta'],['../d9/d9b/beta_release.html#what-to-expect-from-the-beta',1,'What to Expect from the Beta']]],
   ['beta_20release_4',['Beta Release',['../d9/d9b/beta_release.html',1,'user_reference']]],
   ['browser_20support_5',['Browser support',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#browser-support',1,'']]],

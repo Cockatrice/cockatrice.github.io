@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['editing_20basic_20deck_20information_0',['Editing Basic Deck Information',['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information'],['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information']]],
+  ['editing_20basic_20deck_20information_0',['Editing Basic Deck Information',['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
   ['editing_20decks_1',['Editing Decks',['../da/d03/editing_decks.html',1,'user_reference']]],
   ['editor_2',['Editor',['../d3/d32/editing_decks_classic.html',1,'Classic Deck Editor'],['../de/d6e/editing_decks_visual.html',1,'Visual Deck Editor']]],
   ['editor_20tab_3',['Editor Tab',['../d0/d51/exporting_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../db/d91/importing_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],

@@ -7,7 +7,7 @@ var searchData=
   ['selector_4',['Selector',['../d7/d64/editing_decks_printings.html',1,'Printing Selector'],['../d7/d64/editing_decks_printings.html#using-the-printing-selector',1,'Using the Printing Selector']]],
   ['service_5',['service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
   ['setup_6',['Logging Setup',['../d9/d4f/logging.html#logging-setup',1,'']]],
-  ['signals_7',['Signals',['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#signals',1,'Signals'],['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#signals-1',1,'Signals'],['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#signals-2',1,'Signals']]],
+  ['signals_7',['Signals',['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#signals',1,'Signals'],['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#signals-1',1,'Signals'],['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#signals-2',1,'Signals']]],
   ['simple_20display_8',['Simple Display',['../dc/d8a/displaying_cards.html#simple-display',1,'']]],
   ['slots_9',['Slots',['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#slots',1,'']]],
   ['specific_3a_20printinginfo_20and_20exactcard_10',['Getting specific: PrintingInfo and ExactCard',['../da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard',1,'']]],

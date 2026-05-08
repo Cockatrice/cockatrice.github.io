@@ -88,7 +88,7 @@ var searchData=
   ['editbutton_85',['editButton',['../df/dea/classUserInfoBox.html#ae41f5ff66d9c3a7aac4af038cad17652',1,'UserInfoBox::editButton'],['../de/d04/classDeckPreviewTagDialog.html#a244cb89c49bff3a8b076e2d389e9bd98',1,'DeckPreviewTagDialog::editButton']]],
   ['editdeckinclipboard_86',['editDeckInClipboard',['../d1/d53/classAbstractTabDeckEditor.html#a823d13f8beae9553539687726aedd39a',1,'AbstractTabDeckEditor']]],
   ['editdeckinclipboardmenu_87',['editDeckInClipboardMenu',['../dc/d76/classDeckEditorMenu.html#a2fae7fa5108d64ccea6ed7e64a960043',1,'DeckEditorMenu']]],
-  ['editing_20basic_20deck_20information_88',['Editing Basic Deck Information',['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information'],['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information']]],
+  ['editing_20basic_20deck_20information_88',['Editing Basic Deck Information',['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
   ['editing_20decks_89',['Editing Decks',['../da/d03/editing_decks.html',1,'user_reference']]],
   ['editing_5fdecks_2emd_90',['editing_decks.md',['../d4/d50/editing__decks_8md.html',1,'']]],
   ['editing_5fdecks_5fclassic_2emd_91',['editing_decks_classic.md',['../df/d16/editing__decks__classic_8md.html',1,'']]],

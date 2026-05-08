@@ -191,7 +191,7 @@ var searchData=
   ['the_20carddatabasequerier_20for_20usage_188',['Obtaining a handle to the CardDatabaseQuerier for usage',['../da/d66/querying_the_card_database.html#obtaining-a-handle-to-the-carddatabasequerier-for-usage',1,'']]],
   ['the_20cockatrice_20card_20library_189',['The Cockatrice Card Library',['../da/d69/primer_cards.html#the-cockatrice-card-library',1,'']]],
   ['the_20deck_20editor_20tab_190',['The Deck Editor Tab',['../d0/d51/exporting_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../db/d91/importing_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
-  ['the_20deck_20list_191',['the Deck List',['../de/d6e/editing_decks_visual.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../d3/d32/editing_decks_classic.html#modifying-the-deck-list-1',1,'Modifying the Deck List']]],
+  ['the_20deck_20list_191',['the Deck List',['../d3/d32/editing_decks_classic.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../de/d6e/editing_decks_visual.html#modifying-the-deck-list-1',1,'Modifying the Deck List']]],
   ['the_20hierarchy_3a_192',['the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
   ['the_20printing_20selector_193',['Using the Printing Selector',['../d7/d64/editing_decks_printings.html#using-the-printing-selector',1,'']]],
   ['the_20qpixmapcache_20and_20qnetworkdiskcache_194',['The QPixmapCache and QNetworkDiskCache',['../d9/d1c/loading_card_pictures.html#the-qpixmapcache-and-qnetworkdiskcache',1,'']]],
