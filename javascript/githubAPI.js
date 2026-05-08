@@ -21,12 +21,12 @@ $.getJSON(githubReleasesAPI, function (json) {
         else if (url.includes('macOS13')) {
             macOS_legacy = url;
         }
-        else if (url.includes('Ubuntu24')) {
+        else if (url.includes('Ubuntu26')) {
             ubuntu = url;
         }
-        else if (url.includes("Debian")) {
+        else if (url.includes("Debian13")) {
             debian = url;
-        }
+        } //version is hardcoded so as not to pick up servatrice debian by accident
         else if (url.includes("Fedora")) {
             fedora = url;
         }
