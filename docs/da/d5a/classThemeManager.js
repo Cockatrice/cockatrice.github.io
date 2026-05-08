@@ -13,6 +13,8 @@ var classThemeManager =
     [ "getAvailableThemes", "da/d5a/classThemeManager.html#aac07619e1466066e2c5d3dd3fb7e3054", null ],
     [ "getBgBrush", "da/d5a/classThemeManager.html#a10579cf3a92c7d200bb1907128224b31", null ],
     [ "getExtraBgBrush", "da/d5a/classThemeManager.html#ac2da299b495bf8cdbca24e14e562c89c", null ],
+    [ "isBuiltInTheme", "da/d5a/classThemeManager.html#a7ed7bea9fbcc087e1211535e3856c0c4", null ],
+    [ "isDarkMode", "da/d5a/classThemeManager.html#a51e51cca1b35e09783017baba06a14d2", null ],
     [ "loadBrush", "da/d5a/classThemeManager.html#a0ab60b6b3e4ab42f99dd399f3fa0b90d", null ],
     [ "loadExtraBrush", "da/d5a/classThemeManager.html#a7c1de1f5a5a91e22b2ef5e19be0a592f", null ],
     [ "themeChanged", "da/d5a/classThemeManager.html#a6e64af50ca5000e922470470d0ca419e", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"db/d14/classQxtPrivate.html#a4ce78973fe45d42d57536f4ee068dc79":[4,1,0,368,3],
+"db/d14/classQxtPrivate.html#a52c65876fecf578bcafed6a34ef5302f":[4,1,0,368,0],
 "db/d14/classQxtPrivate.html#a795119eb3c84d0788a8c6c24fc440166":[4,1,0,368,4],
 "db/d14/classQxtPrivate.html#ad78679ef4672ee0addaceda1d5420131":[4,1,0,368,2],
 "db/d1d/card__zone__algorithms__test_8cpp.html":[4,2,0,14,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "db/d53/classRemoteClient.html":[4,1,0,375],
 "db/d53/classRemoteClient.html#a0a20f01e4c85cf9a57d8fd7042142a63":[4,1,0,375,50],
 "db/d53/classRemoteClient.html#a14ddebab2a8336f8c3fb343ffd26937a":[4,1,0,375,47],
-"db/d53/classRemoteClient.html#a1dacfbdba8d2bf0eb618cd4cba40d6b5":[4,1,0,375,29],
-"db/d53/classRemoteClient.html#a234dc73ffea4661e123c4ebb47e0058d":[4,1,0,375,7],
-"db/d53/classRemoteClient.html#a2640f3f8b3032712158e9cf792b5035d":[4,1,0,375,65]
+"db/d53/classRemoteClient.html#a1dacfbdba8d2bf0eb618cd4cba40d6b5":[4,1,0,375,29]
 };

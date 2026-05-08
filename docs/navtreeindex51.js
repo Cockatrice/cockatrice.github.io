@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"dd/d81/classTabSupervisor.html#a42328388160aec9fd9d77fa96df5cbb1":[4,1,0,479,31],
+"dd/d81/classTabSupervisor.html#a44735c3d50fcb9cfdc12d15547ec9e3c":[4,1,0,479,70],
 "dd/d81/classTabSupervisor.html#a4705f2a9e637b63c445c867363aa3b91":[4,1,0,479,92],
 "dd/d81/classTabSupervisor.html#a470b54687a30fe46f68cfc68eecb7626":[4,1,0,479,76],
 "dd/d81/classTabSupervisor.html#a485fb1129ab1f3207ab8aff431799f8e":[4,1,0,479,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "dd/dab/classDeckStateManager.html#a7a093a87c73b82be51eb41f2516b57e9":[4,1,0,144,44],
 "dd/dab/classDeckStateManager.html#a7a8148d41fbdbf886515fb49a8dd0eb2":[4,1,0,144,26],
 "dd/dab/classDeckStateManager.html#a7e3b0a10b29e6f58881a8616d841e56b":[4,1,0,144,9],
-"dd/dab/classDeckStateManager.html#a7ffa10f8ea5da6a00cabfa3bc0c8b010":[4,1,0,144,3],
-"dd/dab/classDeckStateManager.html#a84d97a7569f3bbb99a97265b9d0df974":[4,1,0,144,5],
-"dd/dab/classDeckStateManager.html#aa48e4d66b11550130ea93ab43012e209":[4,1,0,144,19]
+"dd/dab/classDeckStateManager.html#a7ffa10f8ea5da6a00cabfa3bc0c8b010":[4,1,0,144,3]
 };

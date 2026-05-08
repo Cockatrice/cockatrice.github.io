@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"db/d72/classQxtHmac.html#a7af4e2a71677ca523c9abf03c0f11d78":[4,1,0,362,2],
+"db/d72/classQxtHmac.html#a856980c267db2933eab4d2da946fd18b":[4,1,0,362,4],
 "db/d72/classQxtHmac.html#a896826e3d3eb125a8c849d0d96e2f0ce":[4,1,0,362,3],
 "db/d72/classQxtHmac.html#a8f813f0d0eabfc24390d1aeb9a428abf":[4,1,0,362,7],
 "db/d72/classQxtHmac.html#a914fd8d1cfd8657a4cc77b091dbf73a5":[4,1,0,362,0],
@@ -42,10 +44,10 @@ var NAVTREEINDEX43 =
 "db/d8a/pending__command_8cpp.html":[4,2,0,8,0,0,6],
 "db/d8d/dlg__manage__sets_8cpp.html":[4,2,0,0,1,5,3,3,34],
 "db/d91/importing_decks.html":[0,0,1],
-"db/d91/importing_decks.html#from-an-online-service-1":[0,0,1,1,2],
-"db/d91/importing_decks.html#from-clipboard-1":[0,0,1,1,1],
-"db/d91/importing_decks.html#local-file-storage-1":[0,0,1,1,0],
-"db/d91/importing_decks.html#the-deck-editor-tab-1":[0,0,1,1],
+"db/d91/importing_decks.html#from-an-online-service":[0,0,1,1,2],
+"db/d91/importing_decks.html#from-clipboard":[0,0,1,1,1],
+"db/d91/importing_decks.html#local-file-storage":[0,0,1,1,0],
+"db/d91/importing_decks.html#the-deck-editor-tab":[0,0,1,1],
 "db/d91/importing_decks.html#where-to-import":[0,0,1,0],
 "db/d95/tab__logs_8h.html":[3,1,0,1,1,0,1],
 "db/d95/tab__logs_8h.html":[3,1,0,9,1,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "db/db4/classGamesProxyModel.html#af0f8a93eb9556a52355c40f666ef0328":[4,1,0,243,6],
 "db/db4/classGamesProxyModel.html#af2b2b5472887fe83d359d5d951c6a44d":[4,1,0,243,39],
 "db/db4/classGamesProxyModel.html#af38b93ef7ca8f324d8930df128532d69":[4,1,0,243,4],
-"db/db5/classDeckViewScene.html":[4,1,0,151],
-"db/db5/classDeckViewScene.html#a105c89b7b15ea5d42259fe4878174aec":[4,1,0,151,10],
-"db/db5/classDeckViewScene.html#a172cd47d11be7633ba824be8e01b2fa4":[4,1,0,151,0]
+"db/db5/classDeckViewScene.html":[4,1,0,151]
 };

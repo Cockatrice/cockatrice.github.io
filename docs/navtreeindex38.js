@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"da/d68/classDeckList.html#a773dea93b32b04d5251565251b4800ea":[3,3,3,6],
+"da/d68/classDeckList.html#a79d6a068df3b2a323a04621fb3ecb8b0":[3,3,3,47],
 "da/d68/classDeckList.html#a79d884815abdd7b61694bf9657d27c56":[3,3,3,20],
 "da/d68/classDeckList.html#a79ee05fb6b1be4dcf5d07cab77c39437":[3,3,3,32],
 "da/d68/classDeckList.html#a79f3cb971fe33bcb433f9b60ab9d5b86":[3,3,3,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "da/d8d/classCardDatabaseDisplayModel.html#aef98c5860c6ef6a02628fc96d8e9759b":[4,1,0,59,23],
 "da/d8d/classCardDatabaseDisplayModel.html#aefe207ea041c1b50b7f1b93b7512f666":[4,1,0,59,4],
 "da/d8f/deck__file__format_8cpp.html":[4,2,0,0,1,5,1,2],
-"da/d92/classNoScrollFilter.html":[4,1,0,316],
-"da/d92/classNoScrollFilter.html#a17d85f62373252a8b4a9b4ff6f581543":[4,1,0,316,0],
-"da/d92/classNoScrollFilter.html#aa46dbebd212f91b5193189fd4d0ae0d7":[4,1,0,316,1]
+"da/d92/classNoScrollFilter.html":[4,1,0,316]
 };

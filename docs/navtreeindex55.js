@@ -1,5 +1,7 @@
 var NAVTREEINDEX55 =
 {
+"de/d38/classPlayerEventHandler.html#a67ae9d78abc0d7b059e4a3d346ccff0f":[4,1,0,342,12],
+"de/d38/classPlayerEventHandler.html#a6f6d249ee25a84d1ea92cad5529289c0":[4,1,0,342,13],
 "de/d38/classPlayerEventHandler.html#a774ff0907ae681d1ec4f1b6156d712f0":[4,1,0,342,15],
 "de/d38/classPlayerEventHandler.html#a7845ee20c1de09570a3dcce3c87f6167":[4,1,0,342,11],
 "de/d38/classPlayerEventHandler.html#a7aa0c929f17289f9645a73cad0678300":[4,1,0,342,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX55 =
 "de/d67/structpeg_1_1IsLiteralToken.html#ad51d9861c97e042ef93fa774facd75cd":[4,0,0,12,42,5],
 "de/d67/structpeg_1_1IsLiteralToken.html#ad51d9861c97e042ef93fa774facd75cd":[4,1,0,1,41,5],
 "de/d67/structpeg_1_1IsLiteralToken.html#ade8440f9ed92da93693329208ba10381":[4,0,0,12,42,19],
-"de/d67/structpeg_1_1IsLiteralToken.html#ade8440f9ed92da93693329208ba10381":[4,1,0,1,41,19],
-"de/d67/structpeg_1_1IsLiteralToken.html#ae68025d2c11e7c9815c8d07333ba8ba3":[4,0,0,12,42,0],
-"de/d67/structpeg_1_1IsLiteralToken.html#ae68025d2c11e7c9815c8d07333ba8ba3":[4,1,0,1,41,0]
+"de/d67/structpeg_1_1IsLiteralToken.html#ade8440f9ed92da93693329208ba10381":[4,1,0,1,41,19]
 };

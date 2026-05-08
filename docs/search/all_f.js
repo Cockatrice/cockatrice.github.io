@@ -50,7 +50,7 @@ var searchData=
   ['ongroupcriteriachange_47',['onGroupCriteriaChange',['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#abce9b3d899405d1d044733c9b3b3f68e',1,'ArchidektApiResponseDeckDisplayWidget']]],
   ['onhover_48',['onHover',['../d9/d5d/classCardGroupDisplayWidget.html#ad977528d6276f0c8ad74215629a165b3',1,'CardGroupDisplayWidget::onHover()'],['../d8/d9f/classDeckCardZoneDisplayWidget.html#a1615b8300f3f2683a1143337c619d3c8',1,'DeckCardZoneDisplayWidget::onHover()'],['../d2/d32/classVisualDatabaseDisplayWidget.html#ae7dddcfac07b6d64cdfcd1d29435ce22',1,'VisualDatabaseDisplayWidget::onHover()'],['../da/d1e/classVisualDeckEditorWidget.html#a758833c49e70af3c3b02baebba7ab5c9',1,'VisualDeckEditorWidget::onHover()']]],
   ['onlendlibrarytriggered_49',['onLendLibraryTriggered',['../d9/d65/classLibraryMenu.html#ad48a8d40d6859c421e098bac078c42f9',1,'LibraryMenu']]],
-  ['online_20service_50',['online service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
+  ['online_20service_50',['online service',['../db/d91/importing_decks.html#from-an-online-service',1,'From an online service'],['../d0/d51/exporting_decks.html#from-an-online-service-1',1,'From an online service']]],
   ['onlinecount_51',['onlineCount',['../da/d3b/classUserListWidget.html#a67d76b3921c7361bc18df58496b62ee7',1,'UserListWidget']]],
   ['onlineusers_52',['onlineUsers',['../db/d6d/classUserListManager.html#ae9d958ea579315cc6b9b1e1ef1a85130',1,'UserListManager']]],
   ['onlistclicked_53',['onListClicked',['../d6/ded/classDeckListHistoryManagerWidget.html#ae7757465242b3791dc6ef74a3e94c8f1',1,'DeckListHistoryManagerWidget']]],
