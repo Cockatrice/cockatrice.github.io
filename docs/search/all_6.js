@@ -235,7 +235,7 @@ var searchData=
   ['frame_232',['frame',['../dc/dde/classResizablePanel.html#aacf3ba1cdae810fcb0701e04a62fd8e9',1,'ResizablePanel']]],
   ['freepilesmap_233',['freePilesMap',['../dc/d3a/classServer__CardZone.html#aee9daad3d11076d0fef953392e13c3c0',1,'Server_CardZone']]],
   ['freespacemap_234',['freeSpaceMap',['../dc/d3a/classServer__CardZone.html#ad4893111787d3ffc71abac9cdced9a68',1,'Server_CardZone']]],
-  ['from_20an_20online_20service_235',['From an online service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
+  ['from_20an_20online_20service_235',['From an online service',['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service'],['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service']]],
   ['from_20clipboard_236',['From Clipboard',['../d0/d51/exporting_decks.html#from-clipboard',1,'From Clipboard'],['../db/d91/importing_decks.html#from-clipboard-1',1,'From Clipboard']]],
   ['from_20the_20beta_237',['What to Expect from the Beta',['../d9/d9b/beta_release.html#what-to-expect-from-the-beta',1,'']]],
   ['fromfile_238',['fromFile',['../d5/db4/classQxtMailAttachment.html#a636726073869a3be809365f1caabfbdf',1,'QxtMailAttachment']]],

@@ -275,7 +275,7 @@ var searchData=
   ['serverssettings_272',['serversSettings',['../d5/d88/classSettingsCache.html#ac6f7119efb1b643edf62124cb4f96e5e',1,'SettingsCache']]],
   ['serversupportspasswordhash_273',['serverSupportsPasswordHash',['../dc/d86/classAbstractClient.html#a52ffa2252e18e3b8d829df8e3fd64ac2',1,'AbstractClient']]],
   ['servertimeout_274',['serverTimeout',['../d6/d1a/classMainWindow.html#a5ddc5d40005a4245e6106868286c0d69',1,'MainWindow::serverTimeout()'],['../db/d53/classRemoteClient.html#a690358b7581f3d7b2d83e9e87555ce72',1,'RemoteClient::serverTimeout()']]],
-  ['service_275',['service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
+  ['service_275',['service',['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service'],['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service']]],
   ['sessionevent_5fservercompletelist_276',['sessionEvent_ServerCompleteList',['../d0/de8/classIslInterface.html#adeff723a76eee467e8af8a5b10486c1c',1,'IslInterface']]],
   ['sessionevent_5fuserjoined_277',['sessionEvent_UserJoined',['../d0/de8/classIslInterface.html#afedfa1de184409448f62cb8b818dcaf0',1,'IslInterface']]],
   ['sessionevent_5fuserleft_278',['sessionEvent_UserLeft',['../d0/de8/classIslInterface.html#a8a74daf2609244fb3fc5a3eb7e3c998d',1,'IslInterface']]],
