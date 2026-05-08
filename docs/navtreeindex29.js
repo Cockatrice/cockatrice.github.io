@@ -1,10 +1,10 @@
 var NAVTREEINDEX29 =
 {
-"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#ac88101a19216656e2ba8fdf47ee02315":[3,3,2,2,2,0,14,1],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#ac88101a19216656e2ba8fdf47ee02315":[3,3,2,3,0,0,14,1],
+"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#ac88101a19216656e2ba8fdf47ee02315":[3,3,2,2,2,0,14,1],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#ac88101a19216656e2ba8fdf47ee02315":[3,5,1,0,0,14,1],
-"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#aef8a951c0f43e2cac224415641240cd1":[3,3,2,2,2,0,14,6],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#aef8a951c0f43e2cac224415641240cd1":[3,3,2,3,0,0,14,6],
+"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#aef8a951c0f43e2cac224415641240cd1":[3,3,2,2,2,0,14,6],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#aef8a951c0f43e2cac224415641240cd1":[3,5,1,0,0,14,6],
 "d8/d12/classCardOverrideSettings.html":[4,1,0,81],
 "d8/d12/classCardOverrideSettings.html#a203beda5fc1d95c72534569e7f261b2f":[4,1,0,81,1],

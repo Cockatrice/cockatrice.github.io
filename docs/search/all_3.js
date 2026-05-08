@@ -555,7 +555,7 @@ var searchData=
   ['clientthread_552',['clientThread',['../d6/d1a/classMainWindow.html#a91a3d3c80f2654854f8879fcfbc55f97',1,'MainWindow']]],
   ['clientupdatechecker_553',['ClientUpdateChecker',['../d3/d9f/classClientUpdateChecker.html',1,'ClientUpdateChecker'],['../d3/d9f/classClientUpdateChecker.html#ae192ccf8e5192e0ebabaf767a7ed69c3',1,'ClientUpdateChecker::ClientUpdateChecker()']]],
   ['clientversion_554',['clientVersion',['../d5/d88/classSettingsCache.html#a992c31a22dab8106a668afe9f3f439bd',1,'SettingsCache']]],
-  ['clipboard_555',['Clipboard',['../db/d91/importing_decks.html#from-clipboard',1,'From Clipboard'],['../d0/d51/exporting_decks.html#from-clipboard-1',1,'From Clipboard']]],
+  ['clipboard_555',['Clipboard',['../d0/d51/exporting_decks.html#from-clipboard',1,'From Clipboard'],['../db/d91/importing_decks.html#from-clipboard-1',1,'From Clipboard']]],
   ['clipboard_5ftesting_2ecpp_556',['clipboard_testing.cpp',['../d7/dac/clipboard__testing_8cpp.html',1,'']]],
   ['clipboard_5ftesting_2eh_557',['clipboard_testing.h',['../d9/dc4/clipboard__testing_8h.html',1,'']]],
   ['clone_558',['clone',['../dd/dd2/classCardInfo.html#ac3cba7ae717adf4411ac2734ab481ccd',1,'CardInfo']]],
