@@ -32,7 +32,7 @@ var searchData=
   ['notifyenabledsetschanged_29',['notifyEnabledSetsChanged',['../d5/d45/classCardDatabase.html#a56a3727444527703459220022c118025',1,'CardDatabase']]],
   ['notifyplayerjoin_30',['notifyPlayerJoin',['../de/d08/classTabGame.html#a3f805f5b09ffdc60b72925c1a54494eb',1,'TabGame']]],
   ['notifyplayerkicked_31',['notifyPlayerKicked',['../de/d08/classTabGame.html#a6679d298f8865631103558ebb88ebac9',1,'TabGame']]],
-  ['notifyuseraboutupdate_32',['notifyUserAboutUpdate',['../d6/d1a/classMainWindow.html#ab4c8a6beaf7fb1c3a9f6b620edd393bd',1,'MainWindow::notifyUserAboutUpdate()'],['../db/d53/classRemoteClient.html#a8bdb5ca024d9270ab33e513c2f6f913b',1,'RemoteClient::notifyUserAboutUpdate()']]],
+  ['notifyuseraboutupdate_32',['notifyUserAboutUpdate',['../db/d53/classRemoteClient.html#a8bdb5ca024d9270ab33e513c2f6f913b',1,'RemoteClient']]],
   ['notifyusereventreceived_33',['notifyUserEventReceived',['../dc/d86/classAbstractClient.html#a3724eb71e98c6c58fbdd03c9b983dae4',1,'AbstractClient']]],
   ['notpredicate_34',['NotPredicate',['../d9/d92/classpeg_1_1NotPredicate.html#aa5a0e18a11e51ade960595d5ccbc34e5',1,'peg::NotPredicate']]],
   ['npd_35',['npd',['../dc/db2/namespacepeg.html#aa640011930cbd676512eb812ae4fbf17',1,'peg']]]

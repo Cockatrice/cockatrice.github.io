@@ -1,5 +1,7 @@
 var dir_827f07a19842004c86163e496911e4bc =
 [
+    [ "compact_push_button.cpp", "d1/d6e/compact__push__button_8cpp.html", null ],
+    [ "compact_push_button.h", "df/d0a/compact__push__button_8h.html", "df/d0a/compact__push__button_8h" ],
     [ "custom_line_edit.cpp", "d9/d51/custom__line__edit_8cpp.html", null ],
     [ "custom_line_edit.h", "d0/d23/custom__line__edit_8h.html", "d0/d23/custom__line__edit_8h" ],
     [ "get_text_with_max.cpp", "de/daa/get__text__with__max_8cpp.html", "de/daa/get__text__with__max_8cpp" ],

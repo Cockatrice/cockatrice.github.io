@@ -1,9 +1,25 @@
 var classSelectZone =
 [
+    [ "StackLayoutParams", "d0/d19/structSelectZone_1_1StackLayoutParams.html", "d0/d19/structSelectZone_1_1StackLayoutParams" ],
+    [ "ZoneLayout", "d9/d0d/structSelectZone_1_1ZoneLayout.html", "d9/d0d/structSelectZone_1_1ZoneLayout" ],
     [ "SelectZone", "d7/ddf/classSelectZone.html#af2112d1ee84e526a4d7a5a84a4e24585", null ],
+    [ "~SelectZone", "d7/ddf/classSelectZone.html#a2998c88aa7a928d43461bed0568f1302", null ],
+    [ "buildStackParams", "d7/ddf/classSelectZone.html#adea31b5636e65a81dd6c8faf58d5bf98", null ],
+    [ "calcDropIndexFromY", "d7/ddf/classSelectZone.html#a43b48400e4e0148f156407d02e054a6c", null ],
+    [ "computeZoneLayout", "d7/ddf/classSelectZone.html#a8721b3d5c38e2c43a67f4a8b9280b82f", null ],
+    [ "escapeClipForHover", "d7/ddf/classSelectZone.html#a056d38ba3837dd8f53a448fc9dfb7ee5", null ],
+    [ "findOwningSelectZone", "d7/ddf/classSelectZone.html#a8ada2034c8dd1d66f6feb1c2d9f7d75f", null ],
+    [ "layoutCardsVertically", "d7/ddf/classSelectZone.html#a62ead45b4df3dde1eae0923da992f3ba", null ],
     [ "mouseMoveEvent", "d7/ddf/classSelectZone.html#a604e80eccd957f979ec934538745b674", null ],
     [ "mousePressEvent", "d7/ddf/classSelectZone.html#a2250a688d067a5249f8856fcd2cb8e43", null ],
     [ "mouseReleaseEvent", "d7/ddf/classSelectZone.html#a8b4ff7c193782a4982b4a73019076b44", null ],
+    [ "onCardAdded", "d7/ddf/classSelectZone.html#a796d54c0492e4b064ebe31d8e2c370a3", null ],
+    [ "restoreClipAfterHover", "d7/ddf/classSelectZone.html#a067634df0cedf85a18a1bb297ee86666", null ],
+    [ "restoreStaleEscapedCards", "d7/ddf/classSelectZone.html#a9c54d26fde6661b43d722935c21b4dd6", null ],
+    [ "setupClipContainer", "d7/ddf/classSelectZone.html#a35bcd5edf0bcfdaa79f2d9e198cbdf50", null ],
+    [ "updateClipRect", "d7/ddf/classSelectZone.html#abc1711a80ba13daf3704aab03c2eb894", null ],
+    [ "cardClipContainer", "d7/ddf/classSelectZone.html#a808396b22fecb43b4e3767206910189c", null ],
     [ "cardsInSelectionRect", "d7/ddf/classSelectZone.html#a86b73f76228d2103e571864c6c160906", null ],
+    [ "MIN_CARD_VISIBLE", "d7/ddf/classSelectZone.html#ade4ced0365b1bf265029c46a238e4765", null ],
     [ "selectionOrigin", "d7/ddf/classSelectZone.html#ae073dfa7025ea30a756b522d7ccd8968", null ]
 ];

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-08-Release-3.0.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-14-Development-3.0.1-beta.1</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -135,6 +135,7 @@ Signals</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a27242b08de167b572dce420b0a355887" id="r_a27242b08de167b572dce420b0a355887"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a27242b08de167b572dce420b0a355887">VisualDeckEditorWidget</a> (QWidget *parent, <a class="el" href="../../d9/de1/classDeckListModel.html">DeckListModel</a> *<a class="el" href="#a7fa58f1ec922ced7a733db1be1550c32">deckListModel</a>, QItemSelectionModel *<a class="el" href="#a33fbeb7ddf717fb50c1f6890dae68880">selectionModel</a>)</td></tr>
 <tr class="memitem:ae0a4616d636f4460577c224126f1cf3c" id="r_ae0a4616d636f4460577c224126f1cf3c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae0a4616d636f4460577c224126f1cf3c">retranslateUi</a> ()</td></tr>
+<tr class="memitem:aa6e8be802cf0fa15e365e60f2110b97a" id="r_aa6e8be802cf0fa15e365e60f2110b97a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa6e8be802cf0fa15e365e60f2110b97a">updateCompactMode</a> ()</td></tr>
 <tr class="memitem:a2cbfe7c71ca5d4dbab2b25f2955cd22b" id="r_a2cbfe7c71ca5d4dbab2b25f2955cd22b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2cbfe7c71ca5d4dbab2b25f2955cd22b">clearAllDisplayWidgets</a> ()</td></tr>
 <tr class="memitem:a8d88c582762d992aaae5915d632b09b8" id="r_a8d88c582762d992aaae5915d632b09b8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8d88c582762d992aaae5915d632b09b8">setDeckList</a> (const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;_deckListModel)</td></tr>
 <tr class="memitem:aeff285d8129e0654029c77c39f0c47da" id="r_aeff285d8129e0654029c77c39f0c47da"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aeff285d8129e0654029c77c39f0c47da">setSelectionModel</a> (QItemSelectionModel *model)</td></tr>
@@ -152,6 +153,7 @@ Protected Slots</h2></td></tr>
 <tr class="memitem:a758833c49e70af3c3b02baebba7ab5c9" id="r_a758833c49e70af3c3b02baebba7ab5c9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a758833c49e70af3c3b02baebba7ab5c9">onHover</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;hoveredCard)</td></tr>
 <tr class="memitem:af94884b83eb033d2e5c1cbbf4b20fbd5" id="r_af94884b83eb033d2e5c1cbbf4b20fbd5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af94884b83eb033d2e5c1cbbf4b20fbd5">onCardClick</a> (QMouseEvent *event, <a class="el" href="../../dd/da1/classCardInfoPictureWithTextOverlayWidget.html">CardInfoPictureWithTextOverlayWidget</a> *instance, QString zoneName)</td></tr>
 <tr class="memitem:a241de5f6dd9a0cd49cc226e1998153b0" id="r_a241de5f6dd9a0cd49cc226e1998153b0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a241de5f6dd9a0cd49cc226e1998153b0">decklistModelReset</a> ()</td></tr>
+<tr class="memitem:afcc4b112a430ab94103d6654d52d422d" id="r_afcc4b112a430ab94103d6654d52d422d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afcc4b112a430ab94103d6654d52d422d">resizeEvent</a> (QResizeEvent *event) override</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -163,17 +165,20 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a882e6b308eba1c1f5d16f438b18436da" id="r_a882e6b308eba1c1f5d16f438b18436da"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a882e6b308eba1c1f5d16f438b18436da">expandedWidthAll</a> = -1</td></tr>
+<tr class="memitem:a88834572d8de36e198aa1ebd9640ba9f" id="r_a88834572d8de36e198aa1ebd9640ba9f"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a88834572d8de36e198aa1ebd9640ba9f">expandedWidthDisplayCompact</a> = -1</td></tr>
 <tr class="memitem:a7fa58f1ec922ced7a733db1be1550c32" id="r_a7fa58f1ec922ced7a733db1be1550c32"><td class="memItemLeft"><a class="el" href="../../d9/de1/classDeckListModel.html">DeckListModel</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a7fa58f1ec922ced7a733db1be1550c32">deckListModel</a></td></tr>
 <tr class="memitem:a33fbeb7ddf717fb50c1f6890dae68880" id="r_a33fbeb7ddf717fb50c1f6890dae68880"><td class="memItemLeft">QItemSelectionModel *&#160;</td><td class="memItemRight"><a class="el" href="#a33fbeb7ddf717fb50c1f6890dae68880">selectionModel</a></td></tr>
 <tr class="memitem:a29f8cc1863b5a2aa56cd826721333078" id="r_a29f8cc1863b5a2aa56cd826721333078"><td class="memItemLeft">QVBoxLayout *&#160;</td><td class="memItemRight"><a class="el" href="#a29f8cc1863b5a2aa56cd826721333078">mainLayout</a></td></tr>
 <tr class="memitem:ab09e25581b5da9dfa34c6ee40ae1aef0" id="r_ab09e25581b5da9dfa34c6ee40ae1aef0"><td class="memItemLeft"><a class="el" href="../../dd/d83/classCardDatabaseModel.html">CardDatabaseModel</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ab09e25581b5da9dfa34c6ee40ae1aef0">cardDatabaseModel</a></td></tr>
 <tr class="memitem:a7629ab01b43c2b2554a630de9b1ea8fc" id="r_a7629ab01b43c2b2554a630de9b1ea8fc"><td class="memItemLeft"><a class="el" href="../../da/d8d/classCardDatabaseDisplayModel.html">CardDatabaseDisplayModel</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a7629ab01b43c2b2554a630de9b1ea8fc">cardDatabaseDisplayModel</a></td></tr>
 <tr class="memitem:ae85d4515c86d9a89ad002b753ee4621a" id="r_ae85d4515c86d9a89ad002b753ee4621a"><td class="memItemLeft"><a class="el" href="../../d7/d80/classCardCompleterProxyModel.html">CardCompleterProxyModel</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ae85d4515c86d9a89ad002b753ee4621a">proxyModel</a></td></tr>
+<tr class="memitem:a069c5816dd506a5acde716dd281fe5d7" id="r_a069c5816dd506a5acde716dd281fe5d7"><td class="memItemLeft">QWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a069c5816dd506a5acde716dd281fe5d7">searchContainer</a></td></tr>
+<tr class="memitem:a3da6597ad42d6158e3e1a700c6bebbc7" id="r_a3da6597ad42d6158e3e1a700c6bebbc7"><td class="memItemLeft">QHBoxLayout *&#160;</td><td class="memItemRight"><a class="el" href="#a3da6597ad42d6158e3e1a700c6bebbc7">searchLayout</a></td></tr>
 <tr class="memitem:ad83c5ab69dc4769e24046475ec655f5f" id="r_ad83c5ab69dc4769e24046475ec655f5f"><td class="memItemLeft">QCompleter *&#160;</td><td class="memItemRight"><a class="el" href="#ad83c5ab69dc4769e24046475ec655f5f">completer</a></td></tr>
-<tr class="memitem:a6ea455954bf30c37e31532ea81149b39" id="r_a6ea455954bf30c37e31532ea81149b39"><td class="memItemLeft">QWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a6ea455954bf30c37e31532ea81149b39">displayOptionsAndSearch</a></td></tr>
-<tr class="memitem:a09485f70d109c4ed0d981e72743e2a58" id="r_a09485f70d109c4ed0d981e72743e2a58"><td class="memItemLeft">QHBoxLayout *&#160;</td><td class="memItemRight"><a class="el" href="#a09485f70d109c4ed0d981e72743e2a58">displayOptionsAndSearchLayout</a></td></tr>
+<tr class="memitem:aead13890b87c482169fa74428d34d139" id="r_aead13890b87c482169fa74428d34d139"><td class="memItemLeft"><a class="el" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aead13890b87c482169fa74428d34d139">displayOptionsAndSearch</a></td></tr>
 <tr class="memitem:af9fe545695a868d0403bd25202545867" id="r_af9fe545695a868d0403bd25202545867"><td class="memItemLeft"><a class="el" href="../../dc/de4/classVisualDeckDisplayOptionsWidget.html">VisualDeckDisplayOptionsWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af9fe545695a868d0403bd25202545867">displayOptionsWidget</a></td></tr>
-<tr class="memitem:a5170d5d4faea6579572a4b86f6f39dfa" id="r_a5170d5d4faea6579572a4b86f6f39dfa"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a5170d5d4faea6579572a4b86f6f39dfa">searchPushButton</a></td></tr>
+<tr class="memitem:a2b89132573d339b1760d6d4706daf77a" id="r_a2b89132573d339b1760d6d4706daf77a"><td class="memItemLeft"><a class="el" href="../../d1/df1/classCompactPushButton.html">CompactPushButton</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a2b89132573d339b1760d6d4706daf77a">searchPushButton</a></td></tr>
 <tr class="memitem:ac092fa2fa8560d5728ccdd78c42e5667" id="r_ac092fa2fa8560d5728ccdd78c42e5667"><td class="memItemLeft">QScrollArea *&#160;</td><td class="memItemRight"><a class="el" href="#ac092fa2fa8560d5728ccdd78c42e5667">scrollArea</a></td></tr>
 <tr class="memitem:ad24e4bc4bc5b3ed404a0fc520f3a2596" id="r_ad24e4bc4bc5b3ed404a0fc520f3a2596"><td class="memItemLeft">QWidget *&#160;</td><td class="memItemRight"><a class="el" href="#ad24e4bc4bc5b3ed404a0fc520f3a2596">zoneContainer</a></td></tr>
 <tr class="memitem:a8471e3d4229d50a50a4f4f20c7fd28f7" id="r_a8471e3d4229d50a50a4f4f20c7fd28f7"><td class="memItemLeft">QVBoxLayout *&#160;</td><td class="memItemRight"><a class="el" href="#a8471e3d4229d50a50a4f4f20c7fd28f7">zoneContainerLayout</a></td></tr>
@@ -1004,6 +1009,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="afcc4b112a430ab94103d6654d52d422d" name="afcc4b112a430ab94103d6654d52d422d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcc4b112a430ab94103d6654d52d422d">&#9670;&#160;</a></span>resizeEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDeckEditorWidget::resizeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QResizeEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d1e/classVisualDeckEditorWidget_afcc4b112a430ab94103d6654d52d422d_cgraph.svg" width="416" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ae0a4616d636f4460577c224126f1cf3c" name="ae0a4616d636f4460577c224126f1cf3c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0a4616d636f4460577c224126f1cf3c">&#9670;&#160;</a></span>retranslateUi()</h2>
 
@@ -1061,6 +1096,28 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d1e/classVisualDeckEditorWidget_aeff285d8129e0654029c77c39f0c47da_cgraph.svg" width="416" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa6e8be802cf0fa15e365e60f2110b97a" name="aa6e8be802cf0fa15e365e60f2110b97a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6e8be802cf0fa15e365e60f2110b97a">&#9670;&#160;</a></span>updateCompactMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDeckEditorWidget::updateCompactMode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d1e/classVisualDeckEditorWidget_aa6e8be802cf0fa15e365e60f2110b97a_icgraph.svg" width="416" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1220,8 +1277,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6ea455954bf30c37e31532ea81149b39" name="a6ea455954bf30c37e31532ea81149b39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ea455954bf30c37e31532ea81149b39">&#9670;&#160;</a></span>displayOptionsAndSearch</h2>
+<a id="aead13890b87c482169fa74428d34d139" name="aead13890b87c482169fa74428d34d139"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aead13890b87c482169fa74428d34d139">&#9670;&#160;</a></span>displayOptionsAndSearch</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1230,29 +1287,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QWidget* VisualDeckEditorWidget::displayOptionsAndSearch</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a09485f70d109c4ed0d981e72743e2a58" name="a09485f70d109c4ed0d981e72743e2a58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09485f70d109c4ed0d981e72743e2a58">&#9670;&#160;</a></span>displayOptionsAndSearchLayout</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QHBoxLayout* VisualDeckEditorWidget::displayOptionsAndSearchLayout</td>
+          <td class="memname"><a class="el" href="../../d5/d53/classFlowWidget.html">FlowWidget</a>* VisualDeckEditorWidget::displayOptionsAndSearch</td>
         </tr>
       </table>
   </td>
@@ -1275,6 +1310,50 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../dc/de4/classVisualDeckDisplayOptionsWidget.html">VisualDeckDisplayOptionsWidget</a>* VisualDeckEditorWidget::displayOptionsWidget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a882e6b308eba1c1f5d16f438b18436da" name="a882e6b308eba1c1f5d16f438b18436da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a882e6b308eba1c1f5d16f438b18436da">&#9670;&#160;</a></span>expandedWidthAll</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int VisualDeckEditorWidget::expandedWidthAll = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88834572d8de36e198aa1ebd9640ba9f" name="a88834572d8de36e198aa1ebd9640ba9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88834572d8de36e198aa1ebd9640ba9f">&#9670;&#160;</a></span>expandedWidthDisplayCompact</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int VisualDeckEditorWidget::expandedWidthDisplayCompact = -1</td>
         </tr>
       </table>
   </td>
@@ -1410,8 +1489,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a5170d5d4faea6579572a4b86f6f39dfa" name="a5170d5d4faea6579572a4b86f6f39dfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5170d5d4faea6579572a4b86f6f39dfa">&#9670;&#160;</a></span>searchPushButton</h2>
+<a id="a069c5816dd506a5acde716dd281fe5d7" name="a069c5816dd506a5acde716dd281fe5d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a069c5816dd506a5acde716dd281fe5d7">&#9670;&#160;</a></span>searchContainer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1420,7 +1499,51 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QPushButton* VisualDeckEditorWidget::searchPushButton</td>
+          <td class="memname">QWidget* VisualDeckEditorWidget::searchContainer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3da6597ad42d6158e3e1a700c6bebbc7" name="a3da6597ad42d6158e3e1a700c6bebbc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3da6597ad42d6158e3e1a700c6bebbc7">&#9670;&#160;</a></span>searchLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHBoxLayout* VisualDeckEditorWidget::searchLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b89132573d339b1760d6d4706daf77a" name="a2b89132573d339b1760d6d4706daf77a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b89132573d339b1760d6d4706daf77a">&#9670;&#160;</a></span>searchPushButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/df1/classCompactPushButton.html">CompactPushButton</a>* VisualDeckEditorWidget::searchPushButton</td>
         </tr>
       </table>
   </td>

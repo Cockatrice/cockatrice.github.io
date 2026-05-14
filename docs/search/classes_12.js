@@ -75,7 +75,8 @@ var searchData=
   ['splitcardpart_72',['SplitCardPart',['../d5/d45/classSplitCardPart.html',1,'']]],
   ['spoilerbackgroundupdater_73',['SpoilerBackgroundUpdater',['../d9/dcc/classSpoilerBackgroundUpdater.html',1,'']]],
   ['stablereleasechannel_74',['StableReleaseChannel',['../d8/d5f/classStableReleaseChannel.html',1,'']]],
-  ['stackzone_75',['StackZone',['../df/d82/classStackZone.html',1,'']]],
-  ['stackzonelogic_76',['StackZoneLogic',['../db/dfe/classStackZoneLogic.html',1,'']]],
-  ['syntaxerrorexception_77',['SyntaxErrorException',['../df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html',1,'peg::ParserGenerator']]]
+  ['stacklayoutparams_75',['StackLayoutParams',['../d0/d19/structSelectZone_1_1StackLayoutParams.html',1,'SelectZone']]],
+  ['stackzone_76',['StackZone',['../df/d82/classStackZone.html',1,'']]],
+  ['stackzonelogic_77',['StackZoneLogic',['../db/dfe/classStackZoneLogic.html',1,'']]],
+  ['syntaxerrorexception_78',['SyntaxErrorException',['../df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html',1,'peg::ParserGenerator']]]
 ];

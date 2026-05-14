@@ -59,11 +59,13 @@ var searchData=
   ['colorbar_56',['ColorBar',['../d1/d46/classColorBar.html',1,'']]],
   ['coloridentitywidget_57',['ColorIdentityWidget',['../d7/d30/classColorIdentityWidget.html',1,'']]],
   ['colorpie_58',['ColorPie',['../d9/d42/classColorPie.html',1,'']]],
-  ['computecanbeempty_59',['ComputeCanBeEmpty',['../d5/de5/structpeg_1_1ComputeCanBeEmpty.html',1,'peg']]],
-  ['computefirstset_60',['ComputeFirstSet',['../dd/d7e/structpeg_1_1ComputeFirstSet.html',1,'peg']]],
-  ['context_61',['Context',['../df/d94/classpeg_1_1Context.html',1,'peg']]],
-  ['counterpixmapgenerator_62',['CounterPixmapGenerator',['../dd/dbb/classCounterPixmapGenerator.html',1,'']]],
-  ['countrypixmapgenerator_63',['CountryPixmapGenerator',['../db/d2a/classCountryPixmapGenerator.html',1,'']]],
-  ['customzonemenu_64',['CustomZoneMenu',['../d2/d1e/classCustomZoneMenu.html',1,'']]],
-  ['cut_65',['Cut',['../da/d38/classpeg_1_1Cut.html',1,'peg']]]
+  ['compactpushbutton_59',['CompactPushButton',['../d1/df1/classCompactPushButton.html',1,'']]],
+  ['computecanbeempty_60',['ComputeCanBeEmpty',['../d5/de5/structpeg_1_1ComputeCanBeEmpty.html',1,'peg']]],
+  ['computefirstset_61',['ComputeFirstSet',['../dd/d7e/structpeg_1_1ComputeFirstSet.html',1,'peg']]],
+  ['connectioncontroller_62',['ConnectionController',['../d4/d97/classConnectionController.html',1,'']]],
+  ['context_63',['Context',['../df/d94/classpeg_1_1Context.html',1,'peg']]],
+  ['counterpixmapgenerator_64',['CounterPixmapGenerator',['../dd/dbb/classCounterPixmapGenerator.html',1,'']]],
+  ['countrypixmapgenerator_65',['CountryPixmapGenerator',['../db/d2a/classCountryPixmapGenerator.html',1,'']]],
+  ['customzonemenu_66',['CustomZoneMenu',['../d2/d1e/classCustomZoneMenu.html',1,'']]],
+  ['cut_67',['Cut',['../da/d38/classpeg_1_1Cut.html',1,'peg']]]
 ];

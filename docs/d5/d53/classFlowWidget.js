@@ -9,6 +9,7 @@ var classFlowWidget =
     [ "removeWidget", "d5/d53/classFlowWidget.html#ab064367a218ace4e8879c054448738a6", null ],
     [ "resizeEvent", "d5/d53/classFlowWidget.html#add6f47bdf75d7748dc0bf97770dd1250", null ],
     [ "setMinimumSizeToMaxSizeHint", "d5/d53/classFlowWidget.html#af26dedf197199be438051b3762c603b0", null ],
+    [ "setSpacing", "d5/d53/classFlowWidget.html#a054d380112155cff296e724f21a5e380", null ],
     [ "container", "d5/d53/classFlowWidget.html#add425b648df1db5bd1fe2409b9020259", null ],
     [ "flowDirection", "d5/d53/classFlowWidget.html#acaffe160eec667e08e3e384c7ca73e1f", null ],
     [ "flowLayout", "d5/d53/classFlowWidget.html#af50bc4dc32d700c305a24580d852296f", null ],

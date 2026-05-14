@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-08-Release-3.0.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-14-Development-3.0.1-beta.1</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -143,6 +143,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a921b4236d2a999c3b5edd8fe1d9086e1" id="r_a921b4236d2a999c3b5edd8fe1d9086e1"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a921b4236d2a999c3b5edd8fe1d9086e1">~GameScene</a> () override</td></tr>
 <tr class="memitem:a9f3f52f90882e11a75ca951585222168" id="r_a9f3f52f90882e11a75ca951585222168"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9f3f52f90882e11a75ca951585222168">retranslateUi</a> ()</td></tr>
 <tr class="memdesc:a9f3f52f90882e11a75ca951585222168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates localized text in all zone views.  <br /></td></tr>
+<tr class="memitem:a1951e50a7fb21b5522addae62b00b41f" id="r_a1951e50a7fb21b5522addae62b00b41f"><td class="memItemLeft">QList&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a1951e50a7fb21b5522addae62b00b41f">selectedCards</a> () const</td></tr>
 <tr class="memitem:a3bd7ccad95810c9e0523006aa52f462d" id="r_a3bd7ccad95810c9e0523006aa52f462d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3bd7ccad95810c9e0523006aa52f462d">addPlayer</a> (<a class="el" href="../../d2/d4b/classPlayer.html">Player</a> *player)</td></tr>
 <tr class="memdesc:a3bd7ccad95810c9e0523006aa52f462d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a player to the scene and stores their graphics item.  <br /></td></tr>
 <tr class="memitem:abeb785e267bff27f32dc599164c53a66" id="r_abeb785e267bff27f32dc599164c53a66"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abeb785e267bff27f32dc599164c53a66">removePlayer</a> (<a class="el" href="../../d2/d4b/classPlayer.html">Player</a> *player)</td></tr>
@@ -188,6 +189,9 @@ Protected Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:af76c5624ddfa0394ff4e4f97d36197ac" id="r_af76c5624ddfa0394ff4e4f97d36197ac"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af76c5624ddfa0394ff4e4f97d36197ac">updateHover</a> (const QPointF &amp;scenePos)</td></tr>
 <tr class="memdesc:af76c5624ddfa0394ff4e4f97d36197ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates which card is currently hovered based on scene coordinates.  <br /></td></tr>
+<tr class="memitem:a4a21a208c12b2b766bf2db751522325b" id="r_a4a21a208c12b2b766bf2db751522325b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4a21a208c12b2b766bf2db751522325b">beginCardHover</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card)</td></tr>
+<tr class="memitem:a917ddaa9d252510b91bd4f3ce45f142f" id="r_a917ddaa9d252510b91bd4f3ce45f142f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a917ddaa9d252510b91bd4f3ce45f142f">endCardHover</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card)</td></tr>
+<tr class="memdesc:a917ddaa9d252510b91bd4f3ce45f142f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivates hover state and restores the card to its clip container.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -414,6 +418,42 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_abc2d563bac103c09cb16324d8038b774_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a4a21a208c12b2b766bf2db751522325b" name="a4a21a208c12b2b766bf2db751522325b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a21a208c12b2b766bf2db751522325b">&#9670;&#160;</a></span>beginCardHover()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::beginCardHover </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Activates hover state and escapes the card from its clip container so hover scaling is visible beyond zone bounds. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a4a21a208c12b2b766bf2db751522325b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a4a21a208c12b2b766bf2db751522325b_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -680,6 +720,43 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a0a97746b8b77b6477516ce8004292333_icgraph.svg" width="100%" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a917ddaa9d252510b91bd4f3ce45f142f" name="a917ddaa9d252510b91bd4f3ce45f142f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a917ddaa9d252510b91bd4f3ce45f142f">&#9670;&#160;</a></span>endCardHover()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::endCardHover </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deactivates hover state and restores the card to its clip container. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a917ddaa9d252510b91bd4f3ce45f142f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a917ddaa9d252510b91bd4f3ce45f142f_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1143,6 +1220,34 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a1951e50a7fb21b5522addae62b00b41f" name="a1951e50a7fb21b5522addae62b00b41f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1951e50a7fb21b5522addae62b00b41f">&#9670;&#160;</a></span>selectedCards()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> * &gt; GameScene::selectedCards </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets all selected CardItems </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a1951e50a7fb21b5522addae62b00b41f_cgraph.svg" width="211" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a1951e50a7fb21b5522addae62b00b41f_icgraph.svg" width="443" height="68"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="addb2c100ae95c4ed3dd3adf33761a1e2" name="addb2c100ae95c4ed3dd3adf33761a1e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#addb2c100ae95c4ed3dd3adf33761a1e2">&#9670;&#160;</a></span>sigResizeRubberBand</h2>
 
@@ -1448,7 +1553,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a3fd207ae5223e7936da2df9f0f842bd7_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a3fd207ae5223e7936da2df9f0f842bd7_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

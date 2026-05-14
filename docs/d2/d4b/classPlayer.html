@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-08-Release-3.0.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-14-Development-3.0.1-beta.1</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -131,7 +131,6 @@ Signals</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aff7f2145ddebeaeec12aa00a74c9d762" id="r_aff7f2145ddebeaeec12aa00a74c9d762"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aff7f2145ddebeaeec12aa00a74c9d762">Player</a> (const ServerInfo_User &amp;info, int _id, bool _local, bool _judge, <a class="el" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *_parent)</td></tr>
-<tr class="memitem:a2424bd157fd17e43a7b3c627bd76ca95" id="r_a2424bd157fd17e43a7b3c627bd76ca95"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2424bd157fd17e43a7b3c627bd76ca95">forwardActionSignalsToEventHandler</a> ()</td></tr>
 <tr class="memitem:a8ed544987af18de0e6b2932206bf1186" id="r_a8ed544987af18de0e6b2932206bf1186"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a8ed544987af18de0e6b2932206bf1186">~Player</a> () override</td></tr>
 <tr class="memitem:ad454d65992737fcdcb30119c9bbd8f76" id="r_ad454d65992737fcdcb30119c9bbd8f76"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad454d65992737fcdcb30119c9bbd8f76">initializeZones</a> ()</td></tr>
 <tr class="memitem:a52a6e1aa3661eb89b33c04bb86cf2a27" id="r_a52a6e1aa3661eb89b33c04bb86cf2a27"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a52a6e1aa3661eb89b33c04bb86cf2a27">updateZones</a> ()</td></tr>
@@ -168,6 +167,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af5ec7bd46c6cbb62cf26f0fbf89ce90d" id="r_af5ec7bd46c6cbb62cf26f0fbf89ce90d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af5ec7bd46c6cbb62cf26f0fbf89ce90d">clearCounters</a> ()</td></tr>
 <tr class="memitem:a22118fdb73dc2201939a7475995dd2c5" id="r_a22118fdb73dc2201939a7475995dd2c5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a22118fdb73dc2201939a7475995dd2c5">incrementAllCardCounters</a> ()</td></tr>
 <tr class="memitem:a89c449904636358a9361fe5a182b04db" id="r_a89c449904636358a9361fe5a182b04db"><td class="memItemLeft">QMap&lt; int, <a class="el" href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a89c449904636358a9361fe5a182b04db">getCounters</a> ()</td></tr>
+<tr class="memitem:a42111408bf9c762f4738b1f70d045721" id="r_a42111408bf9c762f4738b1f70d045721"><td class="memItemLeft"><a class="el" href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a42111408bf9c762f4738b1f70d045721">getLifeCounter</a> () const</td></tr>
 <tr class="memitem:a6b1cd6265e773f27f1229871ea312308" id="r_a6b1cd6265e773f27f1229871ea312308"><td class="memItemLeft"><a class="el" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a6b1cd6265e773f27f1229871ea312308">addArrow</a> (const ServerInfo_Arrow &amp;arrow)</td></tr>
 <tr class="memitem:a920e0ea853d870ca51b4751ddfc515c7" id="r_a920e0ea853d870ca51b4751ddfc515c7"><td class="memItemLeft"><a class="el" href="../../df/d2a/classArrowItem.html">ArrowItem</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a920e0ea853d870ca51b4751ddfc515c7">addArrow</a> (int arrowId, <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *startCard, <a class="el" href="../../d9/dce/classArrowTarget.html">ArrowTarget</a> *targetItem, const QColor &amp;color)</td></tr>
 <tr class="memitem:a7d5808d05ff9f7ba7cd96d9fa7c5e10f" id="r_a7d5808d05ff9f7ba7cd96d9fa7c5e10f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7d5808d05ff9f7ba7cd96d9fa7c5e10f">delArrow</a> (int arrowId)</td></tr>
@@ -236,7 +236,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d4b/classPlayer_aff7f2145ddebeaeec12aa00a74c9d762_cgraph.svg" width="659" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d4b/classPlayer_aff7f2145ddebeaeec12aa00a74c9d762_cgraph.svg" width="542" height="250"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -324,7 +324,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d4b/classPlayer_a6b1cd6265e773f27f1229871ea312308_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d4b/classPlayer_a6b1cd6265e773f27f1229871ea312308_cgraph.svg" width="100%" height="586"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -770,33 +770,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a2424bd157fd17e43a7b3c627bd76ca95" name="a2424bd157fd17e43a7b3c627bd76ca95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2424bd157fd17e43a7b3c627bd76ca95">&#9670;&#160;</a></span>forwardActionSignalsToEventHandler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Player::forwardActionSignalsToEventHandler </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d4b/classPlayer_a2424bd157fd17e43a7b3c627bd76ca95_cgraph.svg" width="499" height="459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d4b/classPlayer_a2424bd157fd17e43a7b3c627bd76ca95_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="ae80688e59275f20098aedbc0df702667" name="ae80688e59275f20098aedbc0df702667"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae80688e59275f20098aedbc0df702667">&#9670;&#160;</a></span>getActive()</h2>
 
@@ -1086,6 +1059,24 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42111408bf9c762f4738b1f70d045721" name="a42111408bf9c762f4738b1f70d045721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42111408bf9c762f4738b1f70d045721">&#9670;&#160;</a></span>getLifeCounter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a> * Player::getLifeCounter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the counter that represents the life total. </p>
 
 </div>
 </div>
@@ -1406,7 +1397,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d4b/classPlayer_a22118fdb73dc2201939a7475995dd2c5_cgraph.svg" width="655" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d4b/classPlayer_a22118fdb73dc2201939a7475995dd2c5_cgraph.svg" width="100%" height="456"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

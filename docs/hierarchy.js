@@ -116,6 +116,7 @@ var hierarchy =
     [ "FormatRules", "d2/da9/structFormatRules.html", null ],
     [ "GameEventStorage", "de/d8f/classGameEventStorage.html", null ],
     [ "GameEventStorageItem", "da/df9/classGameEventStorageItem.html", null ],
+    [ "GameFilterConfigs", "da/da7/structGameFilterConfigs.html", null ],
     [ "ZoneViewZone::GridSize", "db/dc7/structZoneViewZone_1_1GridSize.html", null ],
     [ "ICardPreferenceProvider", "db/df2/classICardPreferenceProvider.html", [
       [ "NoopCardPreferenceProvider", "d5/d49/classNoopCardPreferenceProvider.html", null ],
@@ -442,6 +443,7 @@ var hierarchy =
         [ "ZoneViewZoneLogic", "d8/d70/classZoneViewZoneLogic.html", null ]
       ] ],
       [ "ClientUpdateChecker", "d3/d9f/classClientUpdateChecker.html", null ],
+      [ "ConnectionController", "d4/d97/classConnectionController.html", null ],
       [ "DeckListHistoryManager", "dc/d3c/classDeckListHistoryManager.html", null ],
       [ "DeckListStatisticsAnalyzer", "d7/d02/classDeckListStatisticsAnalyzer.html", null ],
       [ "DeckLoader", "de/de9/classDeckLoader.html", null ],
@@ -547,6 +549,7 @@ var hierarchy =
       [ "MacOSTabFixStyle", "dd/d8d/classMacOSTabFixStyle.html", null ]
     ] ],
     [ "QPushButton", null, [
+      [ "CompactPushButton", "d1/df1/classCompactPushButton.html", null ],
       [ "DynamicFontSizePushButton", "dd/d56/classDynamicFontSizePushButton.html", null ],
       [ "HomeStyledButton", "d4/d42/classHomeStyledButton.html", null ],
       [ "ToggleButton", "d0/d90/classToggleButton.html", null ]
@@ -677,7 +680,9 @@ var hierarchy =
       [ "EdhrecTopTagsApiResponseDisplayWidget", "d5/d61/classEdhrecTopTagsApiResponseDisplayWidget.html", null ],
       [ "FilterBuilder", "d3/dff/classFilterBuilder.html", null ],
       [ "FilterDisplayWidget", "d9/ddf/classFilterDisplayWidget.html", null ],
-      [ "FlowWidget", "d5/d53/classFlowWidget.html", null ],
+      [ "FlowWidget", "d5/d53/classFlowWidget.html", [
+        [ "VisualDatabaseDisplayFilterToolbarWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html", null ]
+      ] ],
       [ "GameSelectorQuickFilterToolBar", "df/dac/classGameSelectorQuickFilterToolBar.html", null ],
       [ "HomeWidget", "de/de3/classHomeWidget.html", null ],
       [ "LabeledInput", "d8/d6f/classLabeledInput.html", null ],
@@ -711,7 +716,6 @@ var hierarchy =
       [ "VisualDatabaseDisplayColorFilterCircleWidget", "d2/d83/classVisualDatabaseDisplayColorFilterCircleWidget.html", null ],
       [ "VisualDatabaseDisplayColorFilterWidget", "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html", null ],
       [ "VisualDatabaseDisplayFilterSaveLoadWidget", "d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html", null ],
-      [ "VisualDatabaseDisplayFilterToolbarWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html", null ],
       [ "VisualDatabaseDisplayFormatLegalityFilterWidget", "d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html", null ],
       [ "VisualDatabaseDisplayMainTypeFilterWidget", "dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html", null ],
       [ "VisualDatabaseDisplayNameFilterWidget", "d6/df5/classVisualDatabaseDisplayNameFilterWidget.html", null ],
@@ -787,6 +791,7 @@ var hierarchy =
     [ "SideboardPlan", "dc/d8b/classSideboardPlan.html", null ],
     [ "peg::Context::Snapshot", "dd/de0/structpeg_1_1Context_1_1Snapshot.html", null ],
     [ "SplitCardPart", "d5/d45/classSplitCardPart.html", null ],
+    [ "SelectZone::StackLayoutParams", "d0/d19/structSelectZone_1_1StackLayoutParams.html", null ],
     [ "testing::Test", null, [
       [ "AddCardAlgorithmTest", "d1/df2/classAddCardAlgorithmTest.html", null ]
     ] ],
@@ -826,5 +831,6 @@ var hierarchy =
     [ "W128_T", "df/db1/unionW128__T.html", null ],
     [ "Zip", "d8/df5/classZip.html", null ],
     [ "UnZip::ZipEntry", "d9/d9c/structUnZip_1_1ZipEntry.html", null ],
-    [ "ZipEntryP", "d6/dd9/classZipEntryP.html", null ]
+    [ "ZipEntryP", "d6/dd9/classZipEntryP.html", null ],
+    [ "SelectZone::ZoneLayout", "d9/d0d/structSelectZone_1_1ZoneLayout.html", null ]
 ];

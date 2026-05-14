@@ -54,7 +54,7 @@ var searchData=
   ['heuristic_5ferror_5ftoken_51',['heuristic_error_token',['../db/da9/structpeg_1_1ErrorInfo.html#a7021cf38d8efdc186281e3632ddfc4ce',1,'peg::ErrorInfo']]],
   ['hidedropindicator_52',['hideDropIndicator',['../dc/dde/classResizablePanel.html#a1e946db2a751e87b1ab9010b8e6c1f7a',1,'ResizablePanel']]],
   ['hideevent_53',['hideEvent',['../dd/dd2/classCardInfoPictureWidget.html#a42eedd35ef56c7fe45a577f2d9d45586',1,'CardInfoPictureWidget::hideEvent()'],['../de/d08/classTabGame.html#ae6229d8a4309d52b4d66bfd6f9237ad1',1,'TabGame::hideEvent()']]],
-  ['highlightallsearchedit_54',['highlightAllSearchEdit',['../d1/d94/classDeckEditorCardDatabaseDockWidget.html#aa9cd645e94e2d34bd024dcf0d3a82d54',1,'DeckEditorCardDatabaseDockWidget']]],
+  ['highlightallsearchedit_54',['highlightAllSearchEdit',['../d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a4158d32d59f947edad34bf66250e026f',1,'DeckEditorDatabaseDisplayWidget::highlightAllSearchEdit()'],['../d2/d32/classVisualDatabaseDisplayWidget.html#a8d9ca97dc71d14446b82d95cdceb9d18',1,'VisualDatabaseDisplayWidget::highlightAllSearchEdit()']]],
   ['historychanged_55',['historyChanged',['../dd/dab/classDeckStateManager.html#a28bd2f0cb7d7e91b9434ca26f636f162',1,'DeckStateManager']]],
   ['holder_56',['Holder',['../da/dab/classpeg_1_1Holder.html#a2a3958039df3af82513195d3903dc708',1,'peg::Holder']]],
   ['homestyledbutton_57',['HomeStyledButton',['../d4/d42/classHomeStyledButton.html#a8e773c868de1cf4b78cd528aff26c61d',1,'HomeStyledButton']]],

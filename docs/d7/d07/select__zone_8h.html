@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-08-Release-3.0.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-14-Development-3.0.1-beta.1</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -100,10 +100,11 @@ $(function(){initNavTree('d7/d07/select__zone_8h.html','../../',''); });
 </div><!--header-->
 <div class="contents">
 
-<p>TODO: Document this.  
+<p>Base class for zones where cards are laid out and individually interactable.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="../../de/dc7/card__zone_8h_source.html">card_zone.h</a>&quot;</code><br />
 <code>#include &lt;QSet&gt;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for select_zone.h:</div>
 <div class="dyncontent">
@@ -120,61 +121,14 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:SelectZone" id="r_SelectZone"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html">SelectZone</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:aa05867f6b3be1c297dd3989f0c279908" id="r_aa05867f6b3be1c297dd3989f0c279908"><td class="memItemLeft">qreal&#160;</td><td class="memItemRight"><a class="el" href="#aa05867f6b3be1c297dd3989f0c279908">divideCardSpaceInZone</a> (qreal index, int cardCount, qreal totalHeight, qreal cardHeight, bool reverse=false)</td></tr>
+<tr class="memitem:SelectZone_3A_3AStackLayoutParams" id="r_SelectZone_3A_3AStackLayoutParams"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="../../d0/d19/structSelectZone_1_1StackLayoutParams.html">SelectZone::StackLayoutParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters describing a vertical card stack's geometry.  <a href="../../d0/d19/structSelectZone_1_1StackLayoutParams.html#details">More...</a><br /></td></tr>
+<tr class="memitem:SelectZone_3A_3AZoneLayout" id="r_SelectZone_3A_3AZoneLayout"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="../../d9/d0d/structSelectZone_1_1ZoneLayout.html">SelectZone::ZoneLayout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../dd/d7e/structResult.html">Result</a> of computing a vertical stack layout.  <a href="../../d9/d0d/structSelectZone_1_1ZoneLayout.html#details">More...</a><br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>TODO: Document this. </p>
-</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="aa05867f6b3be1c297dd3989f0c279908" name="aa05867f6b3be1c297dd3989f0c279908"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa05867f6b3be1c297dd3989f0c279908">&#9670;&#160;</a></span>divideCardSpaceInZone()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">qreal divideCardSpaceInZone </td>
-          <td>(</td>
-          <td class="paramtype">qreal</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>cardCount</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">qreal</td>          <td class="paramname"><span class="paramname"><em>totalHeight</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">qreal</td>          <td class="paramname"><span class="paramname"><em>cardHeight</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>reverse</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d07/select__zone_8h_aa05867f6b3be1c297dd3989f0c279908_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d07/select__zone_8h_aa05867f6b3be1c297dd3989f0c279908_icgraph.svg" width="100%" height="401"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-</div><!-- contents -->
+<div class="textblock"><p>Base class for zones where cards are laid out and individually interactable. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

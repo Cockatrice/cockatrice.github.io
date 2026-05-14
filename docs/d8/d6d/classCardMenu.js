@@ -22,6 +22,7 @@ var classCardMenu =
     [ "aPeek", "d8/d6d/classCardMenu.html#a31594cea7262ba1cbd244d06ed62a61d", null ],
     [ "aPlay", "d8/d6d/classCardMenu.html#ab82ad85bdaa2f635a1fea38854261897", null ],
     [ "aPlayFacedown", "d8/d6d/classCardMenu.html#a0ad3304d785710c0db357e4894ea1b78", null ],
+    [ "aReduceLifeByPower", "d8/d6d/classCardMenu.html#ac8d67e7c0d0c4a3766c15b084ed6c106", null ],
     [ "aRemoveCounter", "d8/d6d/classCardMenu.html#a3e57f2e3a58c0c3ac8f5175e29acd5c1", null ],
     [ "aRevealToAll", "d8/d6d/classCardMenu.html#ab91403a32619c5818b9b7cc94828fe58", null ],
     [ "aSelectAll", "d8/d6d/classCardMenu.html#a2c60e5647b16399d84e6c14010a14620", null ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-08-Release-3.0.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-14-Development-3.0.1-beta.1</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -115,12 +115,21 @@ Collaboration diagram for StackZone:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae822138afeb18e5a31269d07735e0077" id="r_ae822138afeb18e5a31269d07735e0077"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ae822138afeb18e5a31269d07735e0077">StackZone</a> (<a class="el" href="../../db/dfe/classStackZoneLogic.html">StackZoneLogic</a> *_logic, int _zoneHeight, QGraphicsItem *parent)</td></tr>
+<tr class="memitem:a92fa848cb795e953bacba3462d89129c" id="r_a92fa848cb795e953bacba3462d89129c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a92fa848cb795e953bacba3462d89129c">setHeight</a> (qreal newHeight)</td></tr>
+<tr class="memdesc:a92fa848cb795e953bacba3462d89129c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes the stack zone height, e.g. when sharing vertical space with the command zone.  <br /></td></tr>
 <tr class="memitem:aea83c2c9d819525e1411f9accb1795d5" id="r_aea83c2c9d819525e1411f9accb1795d5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aea83c2c9d819525e1411f9accb1795d5">handleDropEvent</a> (const QList&lt; <a class="el" href="../../d5/dd3/classCardDragItem.html">CardDragItem</a> * &gt; &amp;dragItems, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *startZone, const QPoint &amp;dropPoint) override</td></tr>
 <tr class="memitem:a77524c2b4378cb94602b649fd7323e4f" id="r_a77524c2b4378cb94602b649fd7323e4f"><td class="memItemLeft">QRectF&#160;</td><td class="memItemRight"><a class="el" href="#a77524c2b4378cb94602b649fd7323e4f">boundingRect</a> () const override</td></tr>
 <tr class="memitem:a29fd8063403f7e813f17ab0d44e126e2" id="r_a29fd8063403f7e813f17ab0d44e126e2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a29fd8063403f7e813f17ab0d44e126e2">paint</a> (QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override</td></tr>
 <tr class="memitem:af66e37521d1aa2fdc7eb6d39bdfec8e8" id="r_af66e37521d1aa2fdc7eb6d39bdfec8e8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af66e37521d1aa2fdc7eb6d39bdfec8e8">reorganizeCards</a> () override</td></tr>
 <tr class="inherit_header pub_methods_classSelectZone"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classSelectZone')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="../../d7/ddf/classSelectZone.html">SelectZone</a></td></tr>
 <tr class="memitem:af2112d1ee84e526a4d7a5a84a4e24585 inherit pub_methods_classSelectZone" id="r_af2112d1ee84e526a4d7a5a84a4e24585"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#af2112d1ee84e526a4d7a5a84a4e24585">SelectZone</a> (<a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *<a class="el" href="../../de/da1/classCardZone.html#a126f3fcf80d9f64730e2d45c4c16c225">logic</a>, QGraphicsItem *parent=nullptr)</td></tr>
+<tr class="memitem:a2998c88aa7a928d43461bed0568f1302 inherit pub_methods_classSelectZone" id="r_a2998c88aa7a928d43461bed0568f1302"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#a2998c88aa7a928d43461bed0568f1302">~SelectZone</a> () override</td></tr>
+<tr class="memitem:a796d54c0492e4b064ebe31d8e2c370a3 inherit pub_methods_classSelectZone" id="r_a796d54c0492e4b064ebe31d8e2c370a3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#a796d54c0492e4b064ebe31d8e2c370a3">onCardAdded</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *addedCard) override</td></tr>
+<tr class="memdesc:a796d54c0492e4b064ebe31d8e2c370a3 inherit pub_methods_classSelectZone"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a card is added to this zone. Default: reparents card to this item. Virtual so subclasses (e.g. <a class="el" href="../../d7/ddf/classSelectZone.html">SelectZone</a>) can override parenting behavior — the Qt signal connection in <a class="el" href="../../de/da1/classCardZone.html">CardZone</a>'s constructor dispatches through the vtable.  <br /></td></tr>
+<tr class="memitem:a056d38ba3837dd8f53a448fc9dfb7ee5 inherit pub_methods_classSelectZone" id="r_a056d38ba3837dd8f53a448fc9dfb7ee5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#a056d38ba3837dd8f53a448fc9dfb7ee5">escapeClipForHover</a> (QGraphicsItem *card)</td></tr>
+<tr class="memdesc:a056d38ba3837dd8f53a448fc9dfb7ee5 inherit pub_methods_classSelectZone"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporarily reparents a card from the clip container to this zone so hover scaling is visible beyond clip bounds. Safe no-op if no clip container exists. Coordinates are preserved (clip container is at (0,0) with no transform).  <br /></td></tr>
+<tr class="memitem:a067634df0cedf85a18a1bb297ee86666 inherit pub_methods_classSelectZone" id="r_a067634df0cedf85a18a1bb297ee86666"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#a067634df0cedf85a18a1bb297ee86666">restoreClipAfterHover</a> (QGraphicsItem *card)</td></tr>
+<tr class="memdesc:a067634df0cedf85a18a1bb297ee86666 inherit pub_methods_classSelectZone"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restores a hover-escaped card back to the clip container. Guards against zone transitions that already reparented the card.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classCardZone"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classCardZone')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="../../de/da1/classCardZone.html">CardZone</a></td></tr>
 <tr class="memitem:ae4d6eeb4ccea9bfd8c07408a119cd46a inherit pub_methods_classCardZone" id="r_ae4d6eeb4ccea9bfd8c07408a119cd46a"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#ae4d6eeb4ccea9bfd8c07408a119cd46a">type</a> () const override</td></tr>
 <tr class="memitem:a0407fd33a75e203d9f7e03ed3f516092 inherit pub_methods_classCardZone" id="r_a0407fd33a75e203d9f7e03ed3f516092"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a0407fd33a75e203d9f7e03ed3f516092">CardZone</a> (<a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *<a class="el" href="../../de/da1/classCardZone.html#a126f3fcf80d9f64730e2d45c4c16c225">logic</a>, QGraphicsItem *parent=nullptr)</td></tr>
@@ -145,8 +154,18 @@ Additional Inherited Members</h2></td></tr>
  }</td></tr>
 <tr class="inherit_header pub_slots_classCardZone"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_slots_classCardZone')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Slots inherited from <a class="el" href="../../de/da1/classCardZone.html">CardZone</a></td></tr>
 <tr class="memitem:a4d61e290018a18fdae2e4e3e06ad224d inherit pub_slots_classCardZone" id="r_a4d61e290018a18fdae2e4e3e06ad224d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a4d61e290018a18fdae2e4e3e06ad224d">showContextMenu</a> (const QPoint &amp;screenPos)</td></tr>
-<tr class="memitem:a70e421443febe0047f0f10aa75f3ea61 inherit pub_slots_classCardZone" id="r_a70e421443febe0047f0f10aa75f3ea61"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a70e421443febe0047f0f10aa75f3ea61">onCardAdded</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *addedCard)</td></tr>
+<tr class="inherit_header pub_static_methods_classSelectZone"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classSelectZone')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="../../d7/ddf/classSelectZone.html">SelectZone</a></td></tr>
+<tr class="memitem:a8ada2034c8dd1d66f6feb1c2d9f7d75f inherit pub_static_methods_classSelectZone" id="r_a8ada2034c8dd1d66f6feb1c2d9f7d75f"><td class="memItemLeft">static <a class="el" href="../../d7/ddf/classSelectZone.html">SelectZone</a> *&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#a8ada2034c8dd1d66f6feb1c2d9f7d75f">findOwningSelectZone</a> (const QGraphicsItem *card)</td></tr>
 <tr class="inherit_header pro_methods_classSelectZone"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classSelectZone')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="../../d7/ddf/classSelectZone.html">SelectZone</a></td></tr>
+<tr class="memitem:adea31b5636e65a81dd6c8faf58d5bf98 inherit pro_methods_classSelectZone" id="r_adea31b5636e65a81dd6c8faf58d5bf98"><td class="memItemLeft"><a class="el" href="../../d0/d19/structSelectZone_1_1StackLayoutParams.html">StackLayoutParams</a>&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#adea31b5636e65a81dd6c8faf58d5bf98">buildStackParams</a> (qreal minOffset=0.0) const</td></tr>
+<tr class="memdesc:adea31b5636e65a81dd6c8faf58d5bf98 inherit pro_methods_classSelectZone"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds <a class="el" href="../../d0/d19/structSelectZone_1_1StackLayoutParams.html" title="Parameters describing a vertical card stack&#39;s geometry.">StackLayoutParams</a> from the current card list and zone geometry.  <br /></td></tr>
+<tr class="memitem:a43b48400e4e0148f156407d02e054a6c inherit pro_methods_classSelectZone" id="r_a43b48400e4e0148f156407d02e054a6c"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#a43b48400e4e0148f156407d02e054a6c">calcDropIndexFromY</a> (qreal dropY, qreal minOffset=0.0) const</td></tr>
+<tr class="memitem:a62ead45b4df3dde1eae0923da992f3ba inherit pro_methods_classSelectZone" id="r_a62ead45b4df3dde1eae0923da992f3ba"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#a62ead45b4df3dde1eae0923da992f3ba">layoutCardsVertically</a> (const <a class="el" href="../../d0/d19/structSelectZone_1_1StackLayoutParams.html">StackLayoutParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a62ead45b4df3dde1eae0923da992f3ba inherit pro_methods_classSelectZone"><td class="mdescLeft">&#160;</td><td class="mdescRight">Positions cards vertically with alternating left/right x-offsets.  <br /></td></tr>
+<tr class="memitem:a9c54d26fde6661b43d722935c21b4dd6 inherit pro_methods_classSelectZone" id="r_a9c54d26fde6661b43d722935c21b4dd6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#a9c54d26fde6661b43d722935c21b4dd6">restoreStaleEscapedCards</a> ()</td></tr>
+<tr class="memitem:a35bcd5edf0bcfdaa79f2d9e198cbdf50 inherit pro_methods_classSelectZone" id="r_a35bcd5edf0bcfdaa79f2d9e198cbdf50"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#a35bcd5edf0bcfdaa79f2d9e198cbdf50">setupClipContainer</a> (std::optional&lt; qreal &gt; zValue=std::nullopt)</td></tr>
+<tr class="memitem:abc1711a80ba13daf3704aab03c2eb894 inherit pro_methods_classSelectZone" id="r_abc1711a80ba13daf3704aab03c2eb894"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#abc1711a80ba13daf3704aab03c2eb894">updateClipRect</a> ()</td></tr>
+<tr class="memdesc:abc1711a80ba13daf3704aab03c2eb894 inherit pro_methods_classSelectZone"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the clip container rect to match this zone's current boundingRect().  <br /></td></tr>
 <tr class="memitem:a604e80eccd957f979ec934538745b674 inherit pro_methods_classSelectZone" id="r_a604e80eccd957f979ec934538745b674"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#a604e80eccd957f979ec934538745b674">mouseMoveEvent</a> (QGraphicsSceneMouseEvent *event) override</td></tr>
 <tr class="memitem:a2250a688d067a5249f8856fcd2cb8e43 inherit pro_methods_classSelectZone" id="r_a2250a688d067a5249f8856fcd2cb8e43"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#a2250a688d067a5249f8856fcd2cb8e43">mousePressEvent</a> (QGraphicsSceneMouseEvent *event) override</td></tr>
 <tr class="memitem:a8b4ff7c193782a4982b4a73019076b44 inherit pro_methods_classSelectZone" id="r_a8b4ff7c193782a4982b4a73019076b44"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#a8b4ff7c193782a4982b4a73019076b44">mouseReleaseEvent</a> (QGraphicsSceneMouseEvent *event) override</td></tr>
@@ -157,9 +176,15 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:af7368cac687fbe051a44945a315f884f inherit pro_methods_classCardZone" id="r_af7368cac687fbe051a44945a315f884f"><td class="memItemLeft">QMenu *&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#af7368cac687fbe051a44945a315f884f">getMenu</a> () const</td></tr>
 <tr class="inherit_header pro_methods_classAbstractGraphicsItem"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classAbstractGraphicsItem')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="../../de/dfe/classAbstractGraphicsItem.html">AbstractGraphicsItem</a></td></tr>
 <tr class="memitem:a1fa1ac7adc4064b33049b7726afce790 inherit pro_methods_classAbstractGraphicsItem" id="r_a1fa1ac7adc4064b33049b7726afce790"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../de/dfe/classAbstractGraphicsItem.html#a1fa1ac7adc4064b33049b7726afce790">paintNumberEllipse</a> (int number, int radius, const QColor &amp;color, int position, int count, QPainter *painter)</td></tr>
+<tr class="inherit_header pro_static_methods_classSelectZone"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_methods_classSelectZone')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Member Functions inherited from <a class="el" href="../../d7/ddf/classSelectZone.html">SelectZone</a></td></tr>
+<tr class="memitem:a8721b3d5c38e2c43a67f4a8b9280b82f inherit pro_static_methods_classSelectZone" id="r_a8721b3d5c38e2c43a67f4a8b9280b82f"><td class="memItemLeft">static <a class="el" href="../../d9/d0d/structSelectZone_1_1ZoneLayout.html">ZoneLayout</a>&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#a8721b3d5c38e2c43a67f4a8b9280b82f">computeZoneLayout</a> (const <a class="el" href="../../d0/d19/structSelectZone_1_1StackLayoutParams.html">StackLayoutParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a8721b3d5c38e2c43a67f4a8b9280b82f inherit pro_static_methods_classSelectZone"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes layout for a vertical card stack (effective offset and start position).  <br /></td></tr>
 <tr class="inherit_header pro_attribs_classCardZone"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classCardZone')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="../../de/da1/classCardZone.html">CardZone</a></td></tr>
 <tr class="memitem:aad35010decbc77030c2ffae06ebb3c26 inherit pro_attribs_classCardZone" id="r_aad35010decbc77030c2ffae06ebb3c26"><td class="memItemLeft">QMenu *&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#aad35010decbc77030c2ffae06ebb3c26">menu</a></td></tr>
 <tr class="memitem:a36d05add8c009852e6982e706d9a90be inherit pro_attribs_classCardZone" id="r_a36d05add8c009852e6982e706d9a90be"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a36d05add8c009852e6982e706d9a90be">doubleClickAction</a></td></tr>
+<tr class="inherit_header pro_static_attribs_classSelectZone"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_classSelectZone')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="../../d7/ddf/classSelectZone.html">SelectZone</a></td></tr>
+<tr class="memitem:ade4ced0365b1bf265029c46a238e4765 inherit pro_static_attribs_classSelectZone" id="r_ade4ced0365b1bf265029c46a238e4765"><td class="memItemLeft">static constexpr qreal&#160;</td><td class="memItemRight"><a class="el" href="../../d7/ddf/classSelectZone.html#ade4ced0365b1bf265029c46a238e4765">MIN_CARD_VISIBLE</a> = 10.0</td></tr>
+<tr class="memdesc:ade4ced0365b1bf265029c46a238e4765 inherit pro_static_attribs_classSelectZone"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum visible pixels of each card's top edge when stacking compresses offsets in tight zones.  <br /></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae822138afeb18e5a31269d07735e0077" name="ae822138afeb18e5a31269d07735e0077"></a>
@@ -219,7 +244,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d82/classStackZone_a77524c2b4378cb94602b649fd7323e4f_icgraph.svg" width="458" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d82/classStackZone_a77524c2b4378cb94602b649fd7323e4f_icgraph.svg" width="379" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -332,6 +357,35 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d82/classStackZone_af66e37521d1aa2fdc7eb6d39bdfec8e8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d82/classStackZone_af66e37521d1aa2fdc7eb6d39bdfec8e8_icgraph.svg" width="427" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a92fa848cb795e953bacba3462d89129c" name="a92fa848cb795e953bacba3462d89129c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92fa848cb795e953bacba3462d89129c">&#9670;&#160;</a></span>setHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StackZone::setHeight </td>
+          <td>(</td>
+          <td class="paramtype">qreal</td>          <td class="paramname"><span class="paramname"><em>newHeight</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resizes the stack zone height, e.g. when sharing vertical space with the command zone. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d82/classStackZone_a92fa848cb795e953bacba3462d89129c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

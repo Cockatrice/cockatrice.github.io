@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-08-Release-3.0.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-14-Development-3.0.1-beta.1</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -120,7 +120,8 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:a4d61e290018a18fdae2e4e3e06ad224d" id="r_a4d61e290018a18fdae2e4e3e06ad224d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a4d61e290018a18fdae2e4e3e06ad224d">showContextMenu</a> (const QPoint &amp;screenPos)</td></tr>
-<tr class="memitem:a70e421443febe0047f0f10aa75f3ea61" id="r_a70e421443febe0047f0f10aa75f3ea61"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a70e421443febe0047f0f10aa75f3ea61">onCardAdded</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *addedCard)</td></tr>
+<tr class="memitem:a70e421443febe0047f0f10aa75f3ea61" id="r_a70e421443febe0047f0f10aa75f3ea61"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a70e421443febe0047f0f10aa75f3ea61">onCardAdded</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *addedCard)</td></tr>
+<tr class="memdesc:a70e421443febe0047f0f10aa75f3ea61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a card is added to this zone. Default: reparents card to this item. Virtual so subclasses (e.g. <a class="el" href="../../d7/ddf/classSelectZone.html">SelectZone</a>) can override parenting behavior — the Qt signal connection in <a class="el" href="../../de/da1/classCardZone.html">CardZone</a>'s constructor dispatches through the vtable.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -200,7 +201,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/da1/classCardZone_a0407fd33a75e203d9f7e03ed3f516092_icgraph.svg" width="666" height="184"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/da1/classCardZone_a0407fd33a75e203d9f7e03ed3f516092_icgraph.svg" width="100%" height="493"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -402,14 +403,18 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel virtual">virtual</span><span class="mlabel slot">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Called when a card is added to this zone. Default: reparents card to this item. Virtual so subclasses (e.g. <a class="el" href="../../d7/ddf/classSelectZone.html">SelectZone</a>) can override parenting behavior — the Qt signal connection in <a class="el" href="../../de/da1/classCardZone.html">CardZone</a>'s constructor dispatches through the vtable. </p>
+
+<p>Reimplemented in <a class="el" href="../../d7/ddf/classSelectZone.html#a796d54c0492e4b064ebe31d8e2c370a3">SelectZone</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/da1/classCardZone_a70e421443febe0047f0f10aa75f3ea61_icgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/da1/classCardZone_a70e421443febe0047f0f10aa75f3ea61_icgraph.svg" width="100%" height="493"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -441,7 +446,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/da1/classCardZone_a2398fb38e6a7abd87eecdcbf93d3b83b_icgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/da1/classCardZone_a2398fb38e6a7abd87eecdcbf93d3b83b_icgraph.svg" width="100%" height="493"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -468,7 +473,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/da1/classCardZone_a92c04f6266a5909062d9f2875c1993ab_icgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/da1/classCardZone_a92c04f6266a5909062d9f2875c1993ab_icgraph.svg" width="100%" height="493"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

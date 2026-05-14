@@ -13,6 +13,7 @@ var classAbstractCardItem =
     [ "getColor", "d4/db9/classAbstractCardItem.html#a82a6681b151dbf8dc006c7fd0c94c427", null ],
     [ "getFaceDown", "d4/db9/classAbstractCardItem.html#a59613b084d526c1adfd5dd4524269629", null ],
     [ "getId", "d4/db9/classAbstractCardItem.html#af27fc81361437fab8cf50c6fd05b7181", null ],
+    [ "getIsHovered", "d4/db9/classAbstractCardItem.html#a9662e9217e02070365218490de75ddb7", null ],
     [ "getName", "d4/db9/classAbstractCardItem.html#aa5991994d37be76d90226cec44488002", null ],
     [ "getProviderId", "d4/db9/classAbstractCardItem.html#abad393f43b88e36ba8db91fa4bdc1222", null ],
     [ "getRealZValue", "d4/db9/classAbstractCardItem.html#a246cc553bda93c4e19a6f285dbf3b72f", null ],

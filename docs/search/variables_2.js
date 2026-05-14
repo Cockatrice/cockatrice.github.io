@@ -82,5 +82,6 @@ var searchData=
   ['buttonlayout_79',['buttonLayout',['../db/dd8/classDlgDefaultTagsEditor.html#a22e8a3d1fd3decaa3ce57c2c22e5a02c',1,'DlgDefaultTagsEditor::buttonLayout'],['../de/d04/classDeckPreviewTagDialog.html#a75c43c4b453357326c11a8f63d201719',1,'DeckPreviewTagDialog::buttonLayout']]],
   ['buttonlist_80',['buttonList',['../d7/d23/classPhasesToolbar.html#af0911e318ed1455c0402a172604a104f',1,'PhasesToolbar']]],
   ['buttons_81',['buttons',['../d3/d15/classAddAnalyticsPanelDialog.html#adf068c15ca801f7640582b287578c924',1,'AddAnalyticsPanelDialog::buttons'],['../d9/da3/classManaBaseConfigDialog.html#a1d181bea3cf50d0542d3793777d3c1ff',1,'ManaBaseConfigDialog::buttons'],['../d5/de0/classManaCurveConfigDialog.html#aaa4c43215a47a462757175dfef0b366c',1,'ManaCurveConfigDialog::buttons'],['../d3/dfa/classManaDevotionConfigDialog.html#aa9dffa8583e7d1d7ff7b74752e45068a',1,'ManaDevotionConfigDialog::buttons'],['../d0/da7/classManaDistributionConfigDialog.html#a8e6b26b26246cecd815767f7c432a14a',1,'ManaDistributionConfigDialog::buttons']]],
-  ['buttonslayout_82',['buttonsLayout',['../d1/de7/classShortcutSettingsPage.html#a43373d5588b4f9a699d58901e22174ce',1,'ShortcutSettingsPage']]]
+  ['buttonslayout_82',['buttonsLayout',['../d1/de7/classShortcutSettingsPage.html#a43373d5588b4f9a699d58901e22174ce',1,'ShortcutSettingsPage']]],
+  ['buttontext_83',['buttonText',['../d2/dd6/classSettingsButtonWidget.html#a1033d5e3bdb26b592dff5e231938a795',1,'SettingsButtonWidget']]]
 ];

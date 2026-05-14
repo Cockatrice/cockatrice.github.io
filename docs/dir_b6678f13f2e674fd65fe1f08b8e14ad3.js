@@ -3,6 +3,8 @@ var dir_b6678f13f2e674fd65fe1f08b8e14ad3 =
     [ "chat_view", "dir_a089c33985d956480d97aa44cfa7713b.html", "dir_a089c33985d956480d97aa44cfa7713b" ],
     [ "remote", "dir_1948623961802aeddc45e4122a91325b.html", "dir_1948623961802aeddc45e4122a91325b" ],
     [ "user", "dir_d765547cb107e3eb2b3b1574ade0a766.html", "dir_d765547cb107e3eb2b3b1574ade0a766" ],
+    [ "game_filter_configs.cpp", "d5/d1f/game__filter__configs_8cpp.html", null ],
+    [ "game_filter_configs.h", "db/d68/game__filter__configs_8h.html", "db/d68/game__filter__configs_8h" ],
     [ "game_selector.cpp", "da/d5a/game__selector_8cpp.html", null ],
     [ "game_selector.h", "d9/d03/game__selector_8h.html", "d9/d03/game__selector_8h" ],
     [ "game_selector_quick_filter_toolbar.cpp", "df/d24/game__selector__quick__filter__toolbar_8cpp.html", null ],

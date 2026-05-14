@@ -9,7 +9,10 @@ var classVisualDatabaseDisplayWidget =
     [ "getDatabaseDisplayModel", "d2/d32/classVisualDatabaseDisplayWidget.html#ab8990d58827e489012998e5d7f977280", null ],
     [ "getDatabaseView", "d2/d32/classVisualDatabaseDisplayWidget.html#a18506b4a8f5f01201905472dd7fa54fe", null ],
     [ "getDeckEditor", "d2/d32/classVisualDatabaseDisplayWidget.html#a7e9087320423debcc6003f3a599d635d", null ],
+    [ "getFilterModel", "d2/d32/classVisualDatabaseDisplayWidget.html#af9a78f8e25405a806583b3bdaed2f7d1", null ],
+    [ "highlightAllSearchEdit", "d2/d32/classVisualDatabaseDisplayWidget.html#a8d9ca97dc71d14446b82d95cdceb9d18", null ],
     [ "initialize", "d2/d32/classVisualDatabaseDisplayWidget.html#a181eb4826a168a751d9c4e0d175cb55f", null ],
+    [ "isVisualDisplayMode", "d2/d32/classVisualDatabaseDisplayWidget.html#a7ce9e1e8cf753bb97e8727d0944f71d2", null ],
     [ "loadCurrentPage", "d2/d32/classVisualDatabaseDisplayWidget.html#a68cbb03374d3668a507adea2dc871283", null ],
     [ "loadNextPage", "d2/d32/classVisualDatabaseDisplayWidget.html#a34c0f5dd7c5a8281c41874149480fe80", null ],
     [ "loadPage", "d2/d32/classVisualDatabaseDisplayWidget.html#a960807436678cbc6eb2994a466465bb7", null ],
@@ -48,8 +51,7 @@ var classVisualDatabaseDisplayWidget =
     [ "overlapCategoriesLayout", "d2/d32/classVisualDatabaseDisplayWidget.html#a2dbfdaa45634eeea342de255821153c5", null ],
     [ "overlapControlWidget", "d2/d32/classVisualDatabaseDisplayWidget.html#a0b5cf4549d9530cab35fb1bd1d213450", null ],
     [ "scrollArea", "d2/d32/classVisualDatabaseDisplayWidget.html#ab37fbed59e04e459ddc24ff3db035a2b", null ],
-    [ "searchContainer", "d2/d32/classVisualDatabaseDisplayWidget.html#a14d65b3e7ba5e729a1d89af7d8def161", null ],
+    [ "searchContainer", "d2/d32/classVisualDatabaseDisplayWidget.html#a88f3bb567ca38fb0a0068d9027059bf7", null ],
     [ "searchEdit", "d2/d32/classVisualDatabaseDisplayWidget.html#a229e457f33c82e025e974491560b97c7", null ],
-    [ "searchKeySignals", "d2/d32/classVisualDatabaseDisplayWidget.html#aacd2861cbdf297b84950cbf59ad2e490", null ],
-    [ "searchLayout", "d2/d32/classVisualDatabaseDisplayWidget.html#a0224e40e045bcb9134f3c122bd0ca497", null ]
+    [ "searchKeySignals", "d2/d32/classVisualDatabaseDisplayWidget.html#aacd2861cbdf297b84950cbf59ad2e490", null ]
 ];

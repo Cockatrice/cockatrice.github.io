@@ -15,6 +15,7 @@ var classDeckEditorDatabaseDisplayWidget =
     [ "decrementCardFromMainDeck", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a6e09af4542066975380025ad5dbc7c98", null ],
     [ "decrementCardFromSideboard", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a456eb79ee892f2376bac1d9beca2be95", null ],
     [ "getDatabaseView", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#ac84fddf2f03be6aab330e0f400885da1", null ],
+    [ "highlightAllSearchEdit", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a4158d32d59f947edad34bf66250e026f", null ],
     [ "retranslateUi", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#aa7762c031bb940c9ea026b1e55faabf8", null ],
     [ "saveDbHeaderState", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a51a6400dc46286dc9e6d4541e4e016bf", null ],
     [ "setFilterTree", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a3c0e13b324c673959445a81cc52a32ad", null ],
