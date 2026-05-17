@@ -246,8 +246,8 @@ var NAVTREEINDEX31 =
 "d8/d9f/classDeckCardZoneDisplayWidget.html#aee693948e30ec745f00293f0823b6160":[4,1,0,118,25],
 "d8/d9f/classDeckCardZoneDisplayWidget.html#af622ec5400fd65fdbfaff6a7a21697ac":[4,1,0,118,21],
 "d8/d9f/classDeckCardZoneDisplayWidget.html#afb56898a33ea9b496ccd6876e731928c":[4,1,0,118,0],
-"d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html":[3,3,2,3,0,0,11],
 "d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html":[3,3,2,2,2,0,11],
+"d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html":[3,3,2,3,0,0,11],
 "d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html":[3,5,1,0,0,11],
-"d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#a3f333e58004595776ed63f8db3a3c374":[3,3,2,3,0,0,11,1]
+"d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#a3f333e58004595776ed63f8db3a3c374":[3,3,2,2,2,0,11,1]
 };
