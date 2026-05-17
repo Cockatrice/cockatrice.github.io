@@ -5,6 +5,12 @@ var annotated_dup =
       [ "ClearPrintingData", "d2/db4/structCardNodeFunction_1_1ClearPrintingData.html", "d2/db4/structCardNodeFunction_1_1ClearPrintingData" ],
       [ "ResolveProviderId", "df/d98/structCardNodeFunction_1_1ResolveProviderId.html", "df/d98/structCardNodeFunction_1_1ResolveProviderId" ]
     ] ],
+    [ "CardPictureLoaderCacheMethod", "dd/d38/namespaceCardPictureLoaderCacheMethod.html", [
+      [ "CacheMethodInfo", "d6/de6/structCardPictureLoaderCacheMethod_1_1CacheMethodInfo.html", "d6/de6/structCardPictureLoaderCacheMethod_1_1CacheMethodInfo" ]
+    ] ],
+    [ "CardPictureLoaderLocalSchemes", "d7/de8/namespaceCardPictureLoaderLocalSchemes.html", [
+      [ "NamingSchemeInfo", "db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html", "db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo" ]
+    ] ],
     [ "peg", "dc/db2/namespacepeg.html", [
       [ "AstBase", "d2/d75/structpeg_1_1AstBase.html", "d2/d75/structpeg_1_1AstBase" ],
       [ "scope_exit", "d5/dbb/structpeg_1_1scope__exit.html", "d5/dbb/structpeg_1_1scope__exit" ],
@@ -171,6 +177,7 @@ var annotated_dup =
     [ "CockatriceXml3Parser", "d5/dba/classCockatriceXml3Parser.html", "d5/dba/classCockatriceXml3Parser" ],
     [ "CockatriceXml4Parser", "dc/d53/classCockatriceXml4Parser.html", "dc/d53/classCockatriceXml4Parser" ],
     [ "ColorBar", "d1/d46/classColorBar.html", "d1/d46/classColorBar" ],
+    [ "ColorButton", "dc/dfa/classColorButton.html", "dc/dfa/classColorButton" ],
     [ "ColorIdentityWidget", "d7/d30/classColorIdentityWidget.html", "d7/d30/classColorIdentityWidget" ],
     [ "ColorPie", "d9/d42/classColorPie.html", "d9/d42/classColorPie" ],
     [ "CompactPushButton", "d1/df1/classCompactPushButton.html", "d1/df1/classCompactPushButton" ],
@@ -394,6 +401,9 @@ var annotated_dup =
     [ "OverlappedCardGroupDisplayWidget", "d4/d79/classOverlappedCardGroupDisplayWidget.html", "d4/d79/classOverlappedCardGroupDisplayWidget" ],
     [ "OverlapWidget", "de/d39/classOverlapWidget.html", "de/d39/classOverlapWidget" ],
     [ "PaletteColorInfo", "d8/dc8/structPaletteColorInfo.html", "d8/dc8/structPaletteColorInfo" ],
+    [ "PaletteConfig", "d4/dd8/structPaletteConfig.html", "d4/dd8/structPaletteConfig" ],
+    [ "PaletteEditorDialog", "d0/dc0/classPaletteEditorDialog.html", "d0/dc0/classPaletteEditorDialog" ],
+    [ "PaletteGridWidget", "da/de9/classPaletteGridWidget.html", "da/de9/classPaletteGridWidget" ],
     [ "ParsedDeckInfo", "d8/d82/structParsedDeckInfo.html", "d8/d82/structParsedDeckInfo" ],
     [ "PasswordHasher", "d0/d46/classPasswordHasher.html", "d0/d46/classPasswordHasher" ],
     [ "PendingCommand", "d8/d62/classPendingCommand.html", "d8/d62/classPendingCommand" ],
@@ -430,6 +440,7 @@ var annotated_dup =
     [ "PrintingSelectorCardSortingWidget", "de/dfd/classPrintingSelectorCardSortingWidget.html", "de/dfd/classPrintingSelectorCardSortingWidget" ],
     [ "PrintingSelectorPlaceholderWidget", "de/dc1/classPrintingSelectorPlaceholderWidget.html", "de/dc1/classPrintingSelectorPlaceholderWidget" ],
     [ "PtMenu", "d3/d77/classPtMenu.html", "d3/d77/classPtMenu" ],
+    [ "QuickSetupPanel", "d1/d9a/classQuickSetupPanel.html", "d1/d9a/classQuickSetupPanel" ],
     [ "QxtHmac", "db/d72/classQxtHmac.html", "db/d72/classQxtHmac" ],
     [ "QxtHmacPrivate", "d9/dac/classQxtHmacPrivate.html", "d9/dac/classQxtHmacPrivate" ],
     [ "QxtMailAttachment", "d5/db4/classQxtMailAttachment.html", "d5/db4/classQxtMailAttachment" ],
@@ -526,6 +537,7 @@ var annotated_dup =
     [ "StableReleaseChannel", "d8/d5f/classStableReleaseChannel.html", "d8/d5f/classStableReleaseChannel" ],
     [ "StackZone", "df/d82/classStackZone.html", "df/d82/classStackZone" ],
     [ "StackZoneLogic", "db/dfe/classStackZoneLogic.html", "db/dfe/classStackZoneLogic" ],
+    [ "StorageSettingsPage", "dd/dc3/classStorageSettingsPage.html", "dd/dc3/classStorageSettingsPage" ],
     [ "Tab", "de/d9c/classTab.html", "de/d9c/classTab" ],
     [ "TabAccount", "d5/da7/classTabAccount.html", "d5/da7/classTabAccount" ],
     [ "TabAdmin", "d5/d3b/classTabAdmin.html", "d5/d3b/classTabAdmin" ],
@@ -553,6 +565,7 @@ var annotated_dup =
     [ "TcpServerSocketInterface", "dd/d13/classTcpServerSocketInterface.html", "dd/d13/classTcpServerSocketInterface" ],
     [ "TearOffMenu", "de/d53/classTearOffMenu.html", "de/d53/classTearOffMenu" ],
     [ "TestCardDatabasePathProvider", "de/da4/classTestCardDatabasePathProvider.html", "de/da4/classTestCardDatabasePathProvider" ],
+    [ "ThemeConfig", "dc/dec/structThemeConfig.html", "dc/dec/structThemeConfig" ],
     [ "ThemeManager", "da/d5a/classThemeManager.html", "da/d5a/classThemeManager" ],
     [ "TipOfTheDay", "d2/dba/classTipOfTheDay.html", "d2/dba/classTipOfTheDay" ],
     [ "TipsOfTheDay", "da/dc7/classTipsOfTheDay.html", "da/dc7/classTipsOfTheDay" ],

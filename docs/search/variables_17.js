@@ -19,5 +19,6 @@ var searchData=
   ['word_5fdefinition_5fname_16',['WORD_DEFINITION_NAME',['../dc/db2/namespacepeg.html#a05fef7118467bf5732c5a658a41bb2aa',1,'peg']]],
   ['wordope_17',['wordOpe',['../df/d94/classpeg_1_1Context.html#a1983c08e355bac46676f3a1fc24f9e0e',1,'peg::Context::wordOpe'],['../d8/d94/classpeg_1_1Definition.html#a028424db0704ddf17e5c5eb69348da16',1,'peg::Definition::wordOpe']]],
   ['worker_18',['worker',['../d2/d5d/classCardPictureLoader.html#a410348349fde931141ef5b26607fd579',1,'CardPictureLoader']]],
-  ['writeablerevealzone_19',['writeableRevealZone',['../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2',1,'ZoneViewZoneLogic']]]
+  ['workingconfig_19',['workingConfig',['../d0/dc0/classPaletteEditorDialog.html#a49e48d4f4d726e4eef8d6539e2b538ee',1,'PaletteEditorDialog']]],
+  ['writeablerevealzone_20',['writeableRevealZone',['../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2',1,'ZoneViewZoneLogic']]]
 ];

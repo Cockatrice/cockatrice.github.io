@@ -13,6 +13,7 @@ var searchData=
   ['quickfiltersubtypewidget_10',['quickFilterSubTypeWidget',['../d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a84205ce1e6b2fafab073b7e3d40f7a86',1,'VisualDatabaseDisplayFilterToolbarWidget']]],
   ['quickfiltertoolbar_11',['quickFilterToolBar',['../df/d3f/classGameSelector.html#a4fc1004c477393760c4c282ba8e7a7f1',1,'GameSelector']]],
   ['quicksettingswidget_12',['quickSettingsWidget',['../d9/df7/classDeckEditorDeckDockWidget.html#a0c46f51d0320c1ac4074e51b0918e900',1,'DeckEditorDeckDockWidget::quickSettingsWidget'],['../d0/dfe/classVisualDeckStorageWidget.html#a3ca1a8b1d5be00b4b01ba33f0c27c0e7',1,'VisualDeckStorageWidget::quickSettingsWidget']]],
-  ['qxt_5fd_13',['qxt_d',['../d5/db4/classQxtMailAttachment.html#afb17b5f1402b302973c29adb74a40852',1,'QxtMailAttachment::qxt_d'],['../d5/dff/classQxtMailMessage.html#af518da51bc50f73332cd1a2b5f285e49',1,'QxtMailMessage::qxt_d']]],
-  ['qxt_5fp_5fptr_14',['qxt_p_ptr',['../db/d14/classQxtPrivate.html#a795119eb3c84d0788a8c6c24fc440166',1,'QxtPrivate']]]
+  ['quicksetuppanel_13',['quickSetupPanel',['../d0/dc0/classPaletteEditorDialog.html#a1302ab1065dc72e9b0619d1c24211649',1,'PaletteEditorDialog']]],
+  ['qxt_5fd_14',['qxt_d',['../d5/db4/classQxtMailAttachment.html#afb17b5f1402b302973c29adb74a40852',1,'QxtMailAttachment::qxt_d'],['../d5/dff/classQxtMailMessage.html#af518da51bc50f73332cd1a2b5f285e49',1,'QxtMailMessage::qxt_d']]],
+  ['qxt_5fp_5fptr_15',['qxt_p_ptr',['../db/d14/classQxtPrivate.html#a795119eb3c84d0788a8c6c24fc440166',1,'QxtPrivate']]]
 ];

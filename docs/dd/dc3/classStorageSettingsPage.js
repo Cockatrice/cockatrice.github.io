@@ -1,0 +1,28 @@
+var classStorageSettingsPage =
+[
+    [ "StorageSettingsPage", "dd/dc3/classStorageSettingsPage.html#a153295409dabb665897431d962c92a55", null ],
+    [ "clearDownloadedPicsButtonClicked", "dd/dc3/classStorageSettingsPage.html#a82714ad74fadb962f6a20a74913b8a55", null ],
+    [ "clearImageBackupsButtonClicked", "dd/dc3/classStorageSettingsPage.html#aaec1ab15997e6f03e4234c7ba0390254", null ],
+    [ "clearPixmapCacheButtonClicked", "dd/dc3/classStorageSettingsPage.html#a0217bca94f122b6737fe05b4a3936a66", null ],
+    [ "retranslateUi", "dd/dc3/classStorageSettingsPage.html#adcb3ee58f3ec24d40501489c544c7830", null ],
+    [ "cardPictureLoaderCacheMethodComboBox", "dd/dc3/classStorageSettingsPage.html#aab9800e670e406cdfbce3c68afc3b349", null ],
+    [ "cardPictureLoaderCacheMethodLabel", "dd/dc3/classStorageSettingsPage.html#a2c5d1f581e13337ab88d57dfa12e965d", null ],
+    [ "clearBackupsButton", "dd/dc3/classStorageSettingsPage.html#a77a79098829be4ab83b601cc43c2f264", null ],
+    [ "clearDownloadedPicsButton", "dd/dc3/classStorageSettingsPage.html#a28d11d503242d449b689184e8b6f42b1", null ],
+    [ "clearPixmapCacheButton", "dd/dc3/classStorageSettingsPage.html#aba7954d8b46e6c08f96be3ccc189e95c", null ],
+    [ "imageBackupExplainerLabel", "dd/dc3/classStorageSettingsPage.html#adb7b0ad1fa54cc1bfafb7a7d2ec5d7cb", null ],
+    [ "localCardImageStorageNamingSchemeComboBox", "dd/dc3/classStorageSettingsPage.html#abe4e5eba95705a9de447f774caa71940", null ],
+    [ "localCardImageStorageNamingSchemeLabel", "dd/dc3/classStorageSettingsPage.html#abebb3ec6158475da8d2589d8962d5672", null ],
+    [ "mpCacheMethodGroupBox", "dd/dc3/classStorageSettingsPage.html#a82db1c979edf84917210fde059914b53", null ],
+    [ "mpImageBackupGroupBox", "dd/dc3/classStorageSettingsPage.html#acfad52491d495119dd3c85e98063739f", null ],
+    [ "mpNetworkCacheGroupBox", "dd/dc3/classStorageSettingsPage.html#a16133d19c70bda605ca6012fed0a75ed", null ],
+    [ "mpPixmapCacheGroupBox", "dd/dc3/classStorageSettingsPage.html#af8cedfb70a608020e2d7994b7017377d", null ],
+    [ "networkCacheEdit", "dd/dc3/classStorageSettingsPage.html#a9cee8ededefb43a4c72bf2389f6003ed", null ],
+    [ "networkCacheExplainerLabel", "dd/dc3/classStorageSettingsPage.html#ae13149004ff901ba609f2adfece278d5", null ],
+    [ "networkCacheLabel", "dd/dc3/classStorageSettingsPage.html#ac3b366c25cbc95495319a5f7bf543d5b", null ],
+    [ "networkRedirectCacheTtlEdit", "dd/dc3/classStorageSettingsPage.html#ac42555c15fcd3656f85fb5c9a8b3a75f", null ],
+    [ "networkRedirectCacheTtlLabel", "dd/dc3/classStorageSettingsPage.html#ad2148897d7343e9c5b73a40fe53ae997", null ],
+    [ "pixmapCacheEdit", "dd/dc3/classStorageSettingsPage.html#a3abf6aa931eb35db02e385e75212bd0e", null ],
+    [ "pixmapCacheExplainerLabel", "dd/dc3/classStorageSettingsPage.html#ad98b58b9d7e26f67f7219942b0b324b1", null ],
+    [ "pixmapCacheLabel", "dd/dc3/classStorageSettingsPage.html#a978b43c05c8a839931541c06f6c42690", null ]
+];

@@ -5,6 +5,7 @@ var dlg__settings_8h =
     [ "AppearanceSettingsPage", "d8/dc5/classAppearanceSettingsPage.html", "d8/dc5/classAppearanceSettingsPage" ],
     [ "UserInterfaceSettingsPage", "d2/d2d/classUserInterfaceSettingsPage.html", "d2/d2d/classUserInterfaceSettingsPage" ],
     [ "DeckEditorSettingsPage", "df/dd1/classDeckEditorSettingsPage.html", "df/dd1/classDeckEditorSettingsPage" ],
+    [ "StorageSettingsPage", "dd/dc3/classStorageSettingsPage.html", "dd/dc3/classStorageSettingsPage" ],
     [ "MessagesSettingsPage", "d2/dae/classMessagesSettingsPage.html", "d2/dae/classMessagesSettingsPage" ],
     [ "SoundSettingsPage", "d1/dfa/classSoundSettingsPage.html", "d1/dfa/classSoundSettingsPage" ],
     [ "ShortcutSettingsPage", "d1/de7/classShortcutSettingsPage.html", "d1/de7/classShortcutSettingsPage" ],

@@ -41,6 +41,7 @@ var hierarchy =
     [ "BackgroundSources", "d1/df3/classBackgroundSources.html", null ],
     [ "BarData", "dc/da2/structBarData.html", null ],
     [ "BarSegment", "d9/d3d/structBarSegment.html", null ],
+    [ "CardPictureLoaderCacheMethod::CacheMethodInfo", "d6/de6/structCardPictureLoaderCacheMethod_1_1CacheMethodInfo.html", null ],
     [ "CardCondition", "d3/d64/structCardCondition.html", null ],
     [ "CardDatabaseManager", "dc/db4/classCardDatabaseManager.html", null ],
     [ "CardInfoComparator", "d8/d3f/classCardInfoComparator.html", null ],
@@ -158,6 +159,7 @@ var hierarchy =
     [ "MockCardRef", "d6/d3b/structMockCardRef.html", null ],
     [ "MoveCardStruct", "d1/d62/structMoveCardStruct.html", null ],
     [ "MoveTopCardsUntilOptions", "d4/d25/structMoveTopCardsUntilOptions.html", null ],
+    [ "CardPictureLoaderLocalSchemes::NamingSchemeInfo", "db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html", null ],
     [ "RemoteDeckList_TreeModel::Node", "da/d72/classRemoteDeckList__TreeModel_1_1Node.html", [
       [ "RemoteDeckList_TreeModel::DirectoryNode", "dc/d19/classRemoteDeckList__TreeModel_1_1DirectoryNode.html", null ],
       [ "RemoteDeckList_TreeModel::FileNode", "de/dc9/classRemoteDeckList__TreeModel_1_1FileNode.html", null ]
@@ -193,6 +195,7 @@ var hierarchy =
     ] ],
     [ "peg::Context::PackratStats", "db/dcb/structpeg_1_1Context_1_1PackratStats.html", null ],
     [ "PaletteColorInfo", "d8/dc8/structPaletteColorInfo.html", null ],
+    [ "PaletteConfig", "d4/dd8/structPaletteConfig.html", null ],
     [ "ParsedDeckInfo", "d8/d82/structParsedDeckInfo.html", null ],
     [ "peg::parser", "da/d7b/classpeg_1_1parser.html", null ],
     [ "peg::ParserGenerator::ParserContext", "d4/db3/structpeg_1_1ParserGenerator_1_1ParserContext.html", null ],
@@ -262,6 +265,7 @@ var hierarchy =
       [ "ManaCurveConfigDialog", "d5/de0/classManaCurveConfigDialog.html", null ],
       [ "ManaDevotionConfigDialog", "d3/dfa/classManaDevotionConfigDialog.html", null ],
       [ "ManaDistributionConfigDialog", "d0/da7/classManaDistributionConfigDialog.html", null ],
+      [ "PaletteEditorDialog", "d0/dc0/classPaletteEditorDialog.html", null ],
       [ "ShutdownDialog", "d0/d35/classShutdownDialog.html", null ],
       [ "WarningDialog", "d4/d0d/classWarningDialog.html", null ]
     ] ],
@@ -594,6 +598,9 @@ var hierarchy =
         [ "MessageLogWidget", "d7/d93/classMessageLogWidget.html", null ]
       ] ]
     ] ],
+    [ "QToolButton", null, [
+      [ "ColorButton", "dc/dfa/classColorButton.html", null ]
+    ] ],
     [ "QTreeView", null, [
       [ "RemoteDeckList_TreeWidget", "d7/dd0/classRemoteDeckList__TreeWidget.html", null ],
       [ "RemoteReplayList_TreeWidget", "db/dea/classRemoteReplayList__TreeWidget.html", null ],
@@ -624,6 +631,7 @@ var hierarchy =
         [ "MessagesSettingsPage", "d2/dae/classMessagesSettingsPage.html", null ],
         [ "ShortcutSettingsPage", "d1/de7/classShortcutSettingsPage.html", null ],
         [ "SoundSettingsPage", "d1/dfa/classSoundSettingsPage.html", null ],
+        [ "StorageSettingsPage", "dd/dc3/classStorageSettingsPage.html", null ],
         [ "UserInterfaceSettingsPage", "d2/d2d/classUserInterfaceSettingsPage.html", null ]
       ] ],
       [ "AllZonesCardAmountWidget", "d7/ddb/classAllZonesCardAmountWidget.html", null ],
@@ -692,6 +700,7 @@ var hierarchy =
       [ "ManaDistributionSingleDisplayWidget", "db/db2/classManaDistributionSingleDisplayWidget.html", null ],
       [ "OverlapControlWidget", "d5/db7/classOverlapControlWidget.html", null ],
       [ "OverlapWidget", "de/d39/classOverlapWidget.html", null ],
+      [ "PaletteGridWidget", "da/de9/classPaletteGridWidget.html", null ],
       [ "PercentBarWidget", "d9/d5e/classPercentBarWidget.html", null ],
       [ "PrintingDisabledInfoWidget", "d6/d64/classPrintingDisabledInfoWidget.html", null ],
       [ "PrintingSelector", "d7/dbc/classPrintingSelector.html", null ],
@@ -701,6 +710,7 @@ var hierarchy =
       [ "PrintingSelectorCardSelectionWidget", "d0/dd2/classPrintingSelectorCardSelectionWidget.html", null ],
       [ "PrintingSelectorCardSortingWidget", "de/dfd/classPrintingSelectorCardSortingWidget.html", null ],
       [ "PrintingSelectorPlaceholderWidget", "de/dc1/classPrintingSelectorPlaceholderWidget.html", null ],
+      [ "QuickSetupPanel", "d1/d9a/classQuickSetupPanel.html", null ],
       [ "ReplayManager", "da/de9/classReplayManager.html", null ],
       [ "ReplayTimelineWidget", "d5/d07/classReplayTimelineWidget.html", null ],
       [ "ResizablePanel", "dc/dde/classResizablePanel.html", null ],
@@ -795,6 +805,7 @@ var hierarchy =
     [ "testing::Test", null, [
       [ "AddCardAlgorithmTest", "d1/df2/classAddCardAlgorithmTest.html", null ]
     ] ],
+    [ "ThemeConfig", "dc/dec/structThemeConfig.html", null ],
     [ "TipOfTheDay", "d2/dba/classTipOfTheDay.html", null ],
     [ "TokenInfo", "dd/d40/structTokenInfo.html", null ],
     [ "TranslateCounterName", "d8/dab/classTranslateCounterName.html", null ],

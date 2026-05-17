@@ -18,6 +18,7 @@ var group__PictureLoader =
       [ "operator=", "d2/d5d/classCardPictureLoader.html#a3d8882a354ed9bc835020cc73e91cb33", null ],
       [ "picDownloadChanged", "d2/d5d/classCardPictureLoader.html#a687d0f0f13aea4e0d30ae78451d9a995", null ],
       [ "picsPathChanged", "d2/d5d/classCardPictureLoader.html#a39cf9e1707fa389e498b222d41c0eda4", null ],
+      [ "saveCardImageToLocalStorage", "d2/d5d/classCardPictureLoader.html#a8c8a0fe9f8177b89925977f5c081e615", null ],
       [ "statusBar", "d2/d5d/classCardPictureLoader.html#a45b5c2e43f37cc9c599ce5df4169f7fa", null ],
       [ "worker", "d2/d5d/classCardPictureLoader.html#a410348349fde931141ef5b26607fd579", null ]
     ] ],

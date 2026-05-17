@@ -15,5 +15,6 @@ var classDlgSettings =
     [ "pagesWidget", "db/d5f/classDlgSettings.html#af49047295cbff2e8e2a1448dfcce2aa3", null ],
     [ "shortcutsButton", "db/d5f/classDlgSettings.html#a06ef3156e87f3f1e0b1ad411254a69a0", null ],
     [ "soundButton", "db/d5f/classDlgSettings.html#a5feb032fde64c07231590ddbb902e40d", null ],
+    [ "storageButton", "db/d5f/classDlgSettings.html#a4e387e38e8e50c10cb0d241d0efe1f9f", null ],
     [ "userInterfaceButton", "db/d5f/classDlgSettings.html#afb284a59a086e745c63c94557c0b8211", null ]
 ];

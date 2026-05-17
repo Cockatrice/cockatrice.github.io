@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-16-Development-3.0.1-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-17-Development-3.0.1-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -145,47 +145,50 @@ $(function(){initNavTree('df/d99/background__sources_8h_source.html','../../',''
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d1/df3/classBackgroundSources.html#abdc0016f0faa9e93c5a5eda14774d685">   40</a></span>    <span class="keyword">static</span> QString <a class="code hl_function" href="../../d1/df3/classBackgroundSources.html#abdc0016f0faa9e93c5a5eda14774d685">toId</a>(<a class="code hl_enumeration" href="../../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639">Type</a> type)</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    {</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;e : <a class="code hl_function" href="../../d1/df3/classBackgroundSources.html#aaaf0b353e3f9a7cb72bc285f165be1c3">all</a>()) {</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            <span class="keywordflow">if</span> (e.type == type)</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            <span class="keywordflow">if</span> (e.type == type) {</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>                <span class="keywordflow">return</span> e.id;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        }</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="keywordflow">return</span> {};</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            }</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">return</span> {};</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    }</div>
 </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="foldopen" id="foldopen00049" data-start="{" data-end="}">
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d1/df3/classBackgroundSources.html#acf9cb481c2099a2f5bc0b9b45d371d83">   49</a></span>    <span class="keyword">static</span> <a class="code hl_enumeration" href="../../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639">Type</a> <a class="code hl_function" href="../../d1/df3/classBackgroundSources.html#acf9cb481c2099a2f5bc0b9b45d371d83">fromId</a>(<span class="keyword">const</span> QString &amp;<span class="keywordtype">id</span>)</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    {</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;e : <a class="code hl_function" href="../../d1/df3/classBackgroundSources.html#aaaf0b353e3f9a7cb72bc285f165be1c3">all</a>()) {</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            <span class="keywordflow">if</span> (<span class="keywordtype">id</span> == e.id)</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                <span class="keywordflow">return</span> e.type;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        }</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639a44f1933a3c7d9fd945ba83e878733c50">Theme</a>; <span class="comment">// default</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    }</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="foldopen" id="foldopen00050" data-start="{" data-end="}">
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../d1/df3/classBackgroundSources.html#acf9cb481c2099a2f5bc0b9b45d371d83">   50</a></span>    <span class="keyword">static</span> <a class="code hl_enumeration" href="../../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639">Type</a> <a class="code hl_function" href="../../d1/df3/classBackgroundSources.html#acf9cb481c2099a2f5bc0b9b45d371d83">fromId</a>(<span class="keyword">const</span> QString &amp;<span class="keywordtype">id</span>)</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;e : <a class="code hl_function" href="../../d1/df3/classBackgroundSources.html#aaaf0b353e3f9a7cb72bc285f165be1c3">all</a>()) {</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            <span class="keywordflow">if</span> (<span class="keywordtype">id</span> == e.id) {</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>                <span class="keywordflow">return</span> e.type;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            }</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        }</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639a44f1933a3c7d9fd945ba83e878733c50">Theme</a>; <span class="comment">// default</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    }</div>
 </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="foldopen" id="foldopen00058" data-start="{" data-end="}">
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../d1/df3/classBackgroundSources.html#a3c1caa7bb29e46e0342bd08785454d57">   58</a></span>    <span class="keyword">static</span> QString <a class="code hl_function" href="../../d1/df3/classBackgroundSources.html#a3c1caa7bb29e46e0342bd08785454d57">toDisplay</a>(<a class="code hl_enumeration" href="../../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639">Type</a> type)</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    {</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;e : <a class="code hl_function" href="../../d1/df3/classBackgroundSources.html#aaaf0b353e3f9a7cb72bc285f165be1c3">all</a>()) {</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            <span class="keywordflow">if</span> (e.type == type)</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>                <span class="keywordflow">return</span> QObject::tr(e.trKey);</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        }</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <span class="keywordflow">return</span> {};</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    }</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="../../d1/df3/classBackgroundSources.html#a3c1caa7bb29e46e0342bd08785454d57">   60</a></span>    <span class="keyword">static</span> QString <a class="code hl_function" href="../../d1/df3/classBackgroundSources.html#a3c1caa7bb29e46e0342bd08785454d57">toDisplay</a>(<a class="code hl_enumeration" href="../../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639">Type</a> type)</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;e : <a class="code hl_function" href="../../d1/df3/classBackgroundSources.html#aaaf0b353e3f9a7cb72bc285f165be1c3">all</a>()) {</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            <span class="keywordflow">if</span> (e.type == type) {</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                <span class="keywordflow">return</span> QObject::tr(e.trKey);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            }</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        }</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        <span class="keywordflow">return</span> {};</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    }</div>
 </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>};</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>};</div>
 </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_BACKGROUND_SOURCES_H</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_BACKGROUND_SOURCES_H</span></div>
 <div class="ttc" id="aclassBackgroundSources_html"><div class="ttname"><a href="../../d1/df3/classBackgroundSources.html">BackgroundSources</a></div><div class="ttdef"><b>Definition</b> background_sources.h:15</div></div>
 <div class="ttc" id="aclassBackgroundSources_html_a2a424f527146b1ed935bcc61ed84a639"><div class="ttname"><a href="../../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639">BackgroundSources::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition</b> background_sources.h:19</div></div>
 <div class="ttc" id="aclassBackgroundSources_html_a2a424f527146b1ed935bcc61ed84a639a44f1933a3c7d9fd945ba83e878733c50"><div class="ttname"><a href="../../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639a44f1933a3c7d9fd945ba83e878733c50">BackgroundSources::Theme</a></div><div class="ttdeci">@ Theme</div><div class="ttdef"><b>Definition</b> background_sources.h:20</div></div>
 <div class="ttc" id="aclassBackgroundSources_html_a2a424f527146b1ed935bcc61ed84a639a93c28336f69f1a3d0fb73efb4b7c659c"><div class="ttname"><a href="../../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639a93c28336f69f1a3d0fb73efb4b7c659c">BackgroundSources::DeckFileArt</a></div><div class="ttdeci">@ DeckFileArt</div><div class="ttdef"><b>Definition</b> background_sources.h:22</div></div>
 <div class="ttc" id="aclassBackgroundSources_html_a2a424f527146b1ed935bcc61ed84a639abb978991836df8f1fce87e96f3b71f92"><div class="ttname"><a href="../../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639abb978991836df8f1fce87e96f3b71f92">BackgroundSources::RandomCardArt</a></div><div class="ttdeci">@ RandomCardArt</div><div class="ttdef"><b>Definition</b> background_sources.h:21</div></div>
-<div class="ttc" id="aclassBackgroundSources_html_a3c1caa7bb29e46e0342bd08785454d57"><div class="ttname"><a href="../../d1/df3/classBackgroundSources.html#a3c1caa7bb29e46e0342bd08785454d57">BackgroundSources::toDisplay</a></div><div class="ttdeci">static QString toDisplay(Type type)</div><div class="ttdef"><b>Definition</b> background_sources.h:58</div></div>
+<div class="ttc" id="aclassBackgroundSources_html_a3c1caa7bb29e46e0342bd08785454d57"><div class="ttname"><a href="../../d1/df3/classBackgroundSources.html#a3c1caa7bb29e46e0342bd08785454d57">BackgroundSources::toDisplay</a></div><div class="ttdeci">static QString toDisplay(Type type)</div><div class="ttdef"><b>Definition</b> background_sources.h:60</div></div>
 <div class="ttc" id="aclassBackgroundSources_html_aaaf0b353e3f9a7cb72bc285f165be1c3"><div class="ttname"><a href="../../d1/df3/classBackgroundSources.html#aaaf0b353e3f9a7cb72bc285f165be1c3">BackgroundSources::all</a></div><div class="ttdeci">static QList&lt; Entry &gt; all()</div><div class="ttdef"><b>Definition</b> background_sources.h:33</div></div>
 <div class="ttc" id="aclassBackgroundSources_html_abdc0016f0faa9e93c5a5eda14774d685"><div class="ttname"><a href="../../d1/df3/classBackgroundSources.html#abdc0016f0faa9e93c5a5eda14774d685">BackgroundSources::toId</a></div><div class="ttdeci">static QString toId(Type type)</div><div class="ttdef"><b>Definition</b> background_sources.h:40</div></div>
-<div class="ttc" id="aclassBackgroundSources_html_acf9cb481c2099a2f5bc0b9b45d371d83"><div class="ttname"><a href="../../d1/df3/classBackgroundSources.html#acf9cb481c2099a2f5bc0b9b45d371d83">BackgroundSources::fromId</a></div><div class="ttdeci">static Type fromId(const QString &amp;id)</div><div class="ttdef"><b>Definition</b> background_sources.h:49</div></div>
+<div class="ttc" id="aclassBackgroundSources_html_acf9cb481c2099a2f5bc0b9b45d371d83"><div class="ttname"><a href="../../d1/df3/classBackgroundSources.html#acf9cb481c2099a2f5bc0b9b45d371d83">BackgroundSources::fromId</a></div><div class="ttdeci">static Type fromId(const QString &amp;id)</div><div class="ttdef"><b>Definition</b> background_sources.h:50</div></div>
 <div class="ttc" id="astructBackgroundSources_1_1Entry_html"><div class="ttname"><a href="../../d3/d4a/structBackgroundSources_1_1Entry.html">BackgroundSources::Entry</a></div><div class="ttdef"><b>Definition</b> background_sources.h:27</div></div>
 <div class="ttc" id="astructBackgroundSources_1_1Entry_html_a557eedce297b6222d0ab93da49fd11ca"><div class="ttname"><a href="../../d3/d4a/structBackgroundSources_1_1Entry.html#a557eedce297b6222d0ab93da49fd11ca">BackgroundSources::Entry::id</a></div><div class="ttdeci">const char * id</div><div class="ttdef"><b>Definition</b> background_sources.h:29</div></div>
 <div class="ttc" id="astructBackgroundSources_1_1Entry_html_a9884cd53024afdcb8dce210128956298"><div class="ttname"><a href="../../d3/d4a/structBackgroundSources_1_1Entry.html#a9884cd53024afdcb8dce210128956298">BackgroundSources::Entry::trKey</a></div><div class="ttdeci">const char * trKey</div><div class="ttdef"><b>Definition</b> background_sources.h:30</div></div>

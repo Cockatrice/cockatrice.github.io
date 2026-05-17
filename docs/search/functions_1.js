@@ -26,8 +26,9 @@ var searchData=
   ['buddylistreceived_23',['buddyListReceived',['../db/d6d/classUserListManager.html#adc9154d9d0851a513c6d5cf10497f9a5',1,'UserListManager::buddyListReceived()'],['../d5/da7/classTabAccount.html#a3cf849889d4a417fc6d9a238cfd6d895',1,'TabAccount::buddyListReceived()'],['../dc/d86/classAbstractClient.html#a847c2cfbfc9574b2bdfa6cd3cb60cfb5',1,'AbstractClient::buddyListReceived()']]],
   ['buddyvisibilitychanged_24',['buddyVisibilityChanged',['../d2/d73/classBannerWidget.html#a8ccfc909c2c2d1882784d848a686e4d5',1,'BannerWidget']]],
   ['buildcombourl_25',['buildComboUrl',['../d1/df9/classEdhrecCommanderApiResponseNavigationWidget.html#a34db5a30d64e3bde7507aee21238bd26',1,'EdhrecCommanderApiResponseNavigationWidget']]],
-  ['buildmapsbycategory_26',['buildMapsByCategory',['../df/d3e/mana__curve__widget_8cpp.html#aef75eb9139879fdb765d54726d3fb530',1,'mana_curve_widget.cpp']]],
-  ['buildsearchurl_27',['buildSearchUrl',['../db/d5d/classTabArchidekt.html#a783c5b26773c23178f9183e8ee74388e',1,'TabArchidekt']]],
-  ['buildstackparams_28',['buildStackParams',['../d7/ddf/classSelectZone.html#adea31b5636e65a81dd6c8faf58d5bf98',1,'SelectZone']]],
-  ['bumpsetswithcardsindecktotopchanged_29',['bumpSetsWithCardsInDeckToTopChanged',['../d5/d88/classSettingsCache.html#a95e77f30805f321b9b9149bbbf1e2efc',1,'SettingsCache']]]
+  ['buildgrid_26',['buildGrid',['../da/de9/classPaletteGridWidget.html#a239a1febb4f5f2c3a28b5c6d396d96cc',1,'PaletteGridWidget']]],
+  ['buildmapsbycategory_27',['buildMapsByCategory',['../df/d3e/mana__curve__widget_8cpp.html#aef75eb9139879fdb765d54726d3fb530',1,'mana_curve_widget.cpp']]],
+  ['buildsearchurl_28',['buildSearchUrl',['../db/d5d/classTabArchidekt.html#a783c5b26773c23178f9183e8ee74388e',1,'TabArchidekt']]],
+  ['buildstackparams_29',['buildStackParams',['../d7/ddf/classSelectZone.html#adea31b5636e65a81dd6c8faf58d5bf98',1,'SelectZone']]],
+  ['bumpsetswithcardsindecktotopchanged_30',['bumpSetsWithCardsInDeckToTopChanged',['../d5/d88/classSettingsCache.html#a95e77f30805f321b9b9149bbbf1e2efc',1,'SettingsCache']]]
 ];

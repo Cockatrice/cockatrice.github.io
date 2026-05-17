@@ -42,6 +42,8 @@ var namespaces_dup =
       [ "WIDTH_HALF_F", "d2/da1/namespaceCardDimensions.html#a8721cfc0b18eaf599e56502609a4a9de", null ]
     ] ],
     [ "CardNodeFunction", "dd/d5d/namespaceCardNodeFunction.html", "dd/d5d/namespaceCardNodeFunction" ],
+    [ "CardPictureLoaderCacheMethod", "dd/d38/namespaceCardPictureLoaderCacheMethod.html", "dd/d38/namespaceCardPictureLoaderCacheMethod" ],
+    [ "CardPictureLoaderLocalSchemes", "d7/de8/namespaceCardPictureLoaderLocalSchemes.html", "d7/de8/namespaceCardPictureLoaderLocalSchemes" ],
     [ "CardZoneAlgorithms", "df/df0/namespaceCardZoneAlgorithms.html", [
       [ "addCardToList", "df/df0/namespaceCardZoneAlgorithms.html#a05ec47bef01054c1f69e4ab3ab9d2c9f", null ]
     ] ],
@@ -89,6 +91,9 @@ var namespaces_dup =
     ] ],
     [ "OverridePrintingWarning", "da/d73/namespaceOverridePrintingWarning.html", [
       [ "execMessageBox", "da/d73/namespaceOverridePrintingWarning.html#a20e030722c3a36095107cc81baed4f0d", null ]
+    ] ],
+    [ "PaletteGenerator", "d7/d77/namespacePaletteGenerator.html", [
+      [ "fromAccent", "d7/d77/namespacePaletteGenerator.html#a722d278177e39e85802b4458258f151c", null ]
     ] ],
     [ "peg", "dc/db2/namespacepeg.html", "dc/db2/namespacepeg" ],
     [ "QtJson", "dc/dfb/namespaceQtJson.html", "dc/dfb/namespaceQtJson" ],
