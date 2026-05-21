@@ -9,7 +9,7 @@ var searchData=
   ['list_6',['List',['../d3/d32/editing_decks_classic.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../de/d6e/editing_decks_visual.html#modifying-the-deck-list-1',1,'Modifying the Deck List'],['../dd/da0/todo.html',1,'Todo List']]],
   ['loading_7',['Local Image Loading',['../d9/d1c/loading_card_pictures.html#local-image-loading',1,'']]],
   ['loading_20card_20pictures_8',['Loading Card Pictures',['../d9/d1c/loading_card_pictures.html',1,'developer_reference']]],
-  ['local_20file_20storage_9',['Local File Storage',['../d0/d51/exporting_decks.html#local-file-storage',1,'Local File Storage'],['../db/d91/importing_decks.html#local-file-storage-1',1,'Local File Storage']]],
+  ['local_20file_20storage_9',['Local File Storage',['../db/d91/importing_decks.html#local-file-storage',1,'Local File Storage'],['../d0/d51/exporting_decks.html#local-file-storage-1',1,'Local File Storage']]],
   ['local_20image_20loading_10',['Local Image Loading',['../d9/d1c/loading_card_pictures.html#local-image-loading',1,'']]],
   ['log_20level_20and_20categories_11',['Log Level and Categories',['../d9/d4f/logging.html#log-level-and-categories',1,'']]],
   ['log_20message_20pattern_12',['Log Message Pattern',['../d9/d4f/logging.html#log-message-pattern',1,'']]],

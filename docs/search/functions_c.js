@@ -74,7 +74,7 @@ var searchData=
   ['movecardinrow_71',['moveCardInRow',['../dc/d3a/classServer__CardZone.html#ad071402158f95caad10c899dadbd64c2',1,'Server_CardZone']]],
   ['movecardstruct_72',['MoveCardStruct',['../d1/d62/structMoveCardStruct.html#a95410170a7386cb54b0b1c0bb22b4853',1,'MoveCardStruct']]],
   ['moveevent_73',['moveEvent',['../dd/dd2/classCardInfoPictureWidget.html#a45876e3b65b1d5a06f0932a6c477ddee',1,'CardInfoPictureWidget']]],
-  ['movemenu_74',['MoveMenu',['../dc/da9/classMoveMenu.html#a4b29094fce767f684469f58ea3c4ecee',1,'MoveMenu']]],
+  ['movemenu_74',['MoveMenu',['../dc/da9/classMoveMenu.html#a81c16992523ca7a7bdae23a40bcef205',1,'MoveMenu']]],
   ['moveonecarduntil_75',['moveOneCardUntil',['../d2/d23/classPlayerActions.html#a0f971298c6baa4736705a87f12f61684',1,'PlayerActions']]],
   ['movetopcardsto_76',['moveTopCardsTo',['../d2/d23/classPlayerActions.html#a197a6814d3cdca4bac7da45e0ca6ca0c',1,'PlayerActions']]],
   ['myaddtab_77',['myAddTab',['../dd/d81/classTabSupervisor.html#a921a5a0cadfa211585e1a42b47cd73ff',1,'TabSupervisor']]],

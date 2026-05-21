@@ -136,7 +136,7 @@ var searchData=
   ['updateusertoken_133',['updateUserToken',['../d3/d76/classServatrice__DatabaseInterface.html#a94bb0eff50586d2072334a7de3bca2c9',1,'Servatrice_DatabaseInterface']]],
   ['updatevisibility_134',['updateVisibility',['../d3/d2f/classPrintingSelectorCardOverlayWidget.html#aa4ea86c86e95476eecef9d5ebbe31d88',1,'PrintingSelectorCardOverlayWidget::updateVisibility()'],['../d5/d79/classDeckPreviewWidget.html#ab2caf7ea1481547a463ab1abcefa42a0',1,'DeckPreviewWidget::updateVisibility()'],['../da/d22/classVisualDeckStorageFolderDisplayWidget.html#a4403ddcd58198b4471f1d0381a57143a',1,'VisualDeckStorageFolderDisplayWidget::updateVisibility()']]],
   ['updatewindowtitle_135',['updateWindowTitle',['../d4/d97/classConnectionController.html#ab704455b3deed27da7be6139bd521966',1,'ConnectionController']]],
-  ['updatezones_136',['updateZones',['../d2/d4b/classPlayer.html#a52a6e1aa3661eb89b33c04bb86cf2a27',1,'Player']]],
+  ['updatezones_136',['updateZones',['../d2/d98/classPlayerLogic.html#ad8cb25aac8e739332a4c1e073bc0e19d',1,'PlayerLogic']]],
   ['updatezonewidgets_137',['updateZoneWidgets',['../da/d1e/classVisualDeckEditorWidget.html#ab9803da49b306c0311eab5cc1f364854',1,'VisualDeckEditorWidget']]],
   ['uploaddeck_138',['uploadDeck',['../d1/dd7/classTabDeckStorage.html#a7bb4fcb3e86af7561d6f32b75cad6e2d',1,'TabDeckStorage']]],
   ['uploadfinished_139',['uploadFinished',['../d1/dd7/classTabDeckStorage.html#adccfeab9a5d144c01b8cbe96856ba5c9',1,'TabDeckStorage']]],
@@ -167,5 +167,5 @@ var searchData=
   ['usersessionexists_164',['userSessionExists',['../d2/d12/classServer__DatabaseInterface.html#a1b1bc8b90fb1e7634e9a20e56b9a1e3b',1,'Server_DatabaseInterface::userSessionExists()'],['../d3/d76/classServatrice__DatabaseInterface.html#a3aab0c7a13115e5d2ff52046e31f4a82',1,'Servatrice_DatabaseInterface::userSessionExists()']]],
   ['usetearoffmenuschanged_165',['useTearOffMenusChanged',['../d5/d88/classSettingsCache.html#a9b8de43dae91635d9a5d04c81552d9f0',1,'SettingsCache']]],
   ['usr_166',['usr',['../dc/db2/namespacepeg.html#af280bd9a763ba4a861e7dca2c5118200',1,'peg']]],
-  ['utilitymenu_167',['UtilityMenu',['../da/d1c/classUtilityMenu.html#a43e8f3b33ba44b1e6d92eb80aee24eea',1,'UtilityMenu']]]
+  ['utilitymenu_167',['UtilityMenu',['../da/d1c/classUtilityMenu.html#abf96e5ae6287150b04db2938dd77b65b',1,'UtilityMenu']]]
 ];

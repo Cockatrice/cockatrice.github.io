@@ -10,6 +10,7 @@ var dir_ff904cee2da7fc4774f8298cfe1e7610 =
     [ "quick_settings", "dir_135a1cbfd54523c8ecfd53c2001b2626.html", "dir_135a1cbfd54523c8ecfd53c2001b2626" ],
     [ "replay", "dir_7952c3f3333d9318ae849f64a690a4e5.html", "dir_7952c3f3333d9318ae849f64a690a4e5" ],
     [ "server", "dir_b6678f13f2e674fd65fe1f08b8e14ad3.html", "dir_b6678f13f2e674fd65fe1f08b8e14ad3" ],
+    [ "settings_page", "dir_61223312e5d500613fa4fea33474da6b.html", "dir_61223312e5d500613fa4fea33474da6b" ],
     [ "tabs", "dir_997302a10e9962ab00e284769d488188.html", "dir_997302a10e9962ab00e284769d488188" ],
     [ "utility", "dir_827f07a19842004c86163e496911e4bc.html", "dir_827f07a19842004c86163e496911e4bc" ],
     [ "visual_database_display", "dir_d1f375a61984fa4d23737ab04cddec22.html", "dir_d1f375a61984fa4d23737ab04cddec22" ],

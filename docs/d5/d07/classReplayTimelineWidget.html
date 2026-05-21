@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-17-Development-3.0.1-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -159,6 +159,7 @@ Private Slots</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ac94bc58fb04bef49d1cc41ebcbc782b7" id="r_ac94bc58fb04bef49d1cc41ebcbc782b7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac94bc58fb04bef49d1cc41ebcbc782b7">skipToTime</a> (int newTime, bool doRewindBuffering)</td></tr>
 <tr class="memitem:a9deca106f74cc1bab85efa26071adfba" id="r_a9deca106f74cc1bab85efa26071adfba"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9deca106f74cc1bab85efa26071adfba">handleBackwardsSkip</a> (bool doRewindBuffering)</td></tr>
+<tr class="memdesc:a9deca106f74cc1bab85efa26071adfba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles a backwards skip in the replay timeline.  <br /></td></tr>
 <tr class="memitem:add134d3d238a230b12c001565f501144" id="r_add134d3d238a230b12c001565f501144"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#add134d3d238a230b12c001565f501144">processRewind</a> ()</td></tr>
 <tr class="memitem:a7f08fc236f9d2dbc6bf12fd78f665da1" id="r_a7f08fc236f9d2dbc6bf12fd78f665da1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7f08fc236f9d2dbc6bf12fd78f665da1">processNewEvents</a> (<a class="el" href="#a1ae1c702ba60c6f885313c1dea1b0bd3">PlaybackMode</a> playbackMode)</td></tr>
 <tr class="memdesc:a7f08fc236f9d2dbc6bf12fd78f665da1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes all unprocessed events up to the current time.  <br /></td></tr>
@@ -288,9 +289,11 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Handles a backwards skip in the replay timeline. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">doRewindBuffering</td><td>When true, if multiple backward skips are made in quick succession, only a single rewind is processed at the end. When false, the backwards skip will always cause an immediate rewind </td></tr>
+    <tr><td class="paramname">doRewindBuffering</td><td>When true, if multiple backward skips are made in quick succession, only a single rewind is processed at the end. When false, the backwards skip will always cause an immediate rewind. </td></tr>
   </table>
   </dd>
 </dl>

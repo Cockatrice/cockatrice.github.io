@@ -24,11 +24,13 @@ var searchData=
   ['game_5fview_2eh_21',['game_view.h',['../de/d9d/game__view_8h.html',1,'']]],
   ['games_5fmodel_2ecpp_22',['games_model.cpp',['../dd/d11/games__model_8cpp.html',1,'']]],
   ['games_5fmodel_2eh_23',['games_model.h',['../d8/d5c/games__model_8h.html',1,'']]],
-  ['get_5fpb_5fextension_2ecpp_24',['get_pb_extension.cpp',['../dc/d17/get__pb__extension_8cpp.html',1,'']]],
-  ['get_5fpb_5fextension_2eh_25',['get_pb_extension.h',['../d2/d8b/get__pb__extension_8h.html',1,'']]],
-  ['get_5ftext_5fwith_5fmax_2ecpp_26',['get_text_with_max.cpp',['../de/daa/get__text__with__max_8cpp.html',1,'']]],
-  ['get_5ftext_5fwith_5fmax_2eh_27',['get_text_with_max.h',['../d9/dc8/get__text__with__max_8h.html',1,'']]],
-  ['graphics_5fitem_5ftype_2eh_28',['graphics_item_type.h',['../de/d83/graphics__item__type_8h.html',1,'']]],
-  ['grave_5fmenu_2ecpp_29',['grave_menu.cpp',['../d2/d4b/grave__menu_8cpp.html',1,'']]],
-  ['grave_5fmenu_2eh_30',['grave_menu.h',['../d3/de7/grave__menu_8h.html',1,'']]]
+  ['general_5fsettings_5fpage_2ecpp_24',['general_settings_page.cpp',['../d5/d3a/general__settings__page_8cpp.html',1,'']]],
+  ['general_5fsettings_5fpage_2eh_25',['general_settings_page.h',['../d3/d5e/general__settings__page_8h.html',1,'']]],
+  ['get_5fpb_5fextension_2ecpp_26',['get_pb_extension.cpp',['../dc/d17/get__pb__extension_8cpp.html',1,'']]],
+  ['get_5fpb_5fextension_2eh_27',['get_pb_extension.h',['../d2/d8b/get__pb__extension_8h.html',1,'']]],
+  ['get_5ftext_5fwith_5fmax_2ecpp_28',['get_text_with_max.cpp',['../de/daa/get__text__with__max_8cpp.html',1,'']]],
+  ['get_5ftext_5fwith_5fmax_2eh_29',['get_text_with_max.h',['../d9/dc8/get__text__with__max_8h.html',1,'']]],
+  ['graphics_5fitem_5ftype_2eh_30',['graphics_item_type.h',['../de/d83/graphics__item__type_8h.html',1,'']]],
+  ['grave_5fmenu_2ecpp_31',['grave_menu.cpp',['../d2/d4b/grave__menu_8cpp.html',1,'']]],
+  ['grave_5fmenu_2eh_32',['grave_menu.h',['../d3/de7/grave__menu_8h.html',1,'']]]
 ];

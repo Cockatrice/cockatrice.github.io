@@ -63,7 +63,7 @@ var searchData=
   ['overrideallcardartwithpersonalpreferencecheckbox_60',['overrideAllCardArtWithPersonalPreferenceCheckBox',['../d8/dc5/classAppearanceSettingsPage.html#a0b760694bed32cb6389fe31b9a5452b1',1,'AppearanceSettingsPage']]],
   ['overwriteownership_61',['overwriteOwnership',['../de/d8f/classGameEventStorage.html#a222e6ba32284ad4e080cb316aea50e16',1,'GameEventStorage']]],
   ['owned_62',['owned',['../d2/d63/classArchidektApiResponseCard.html#abd19311e820b40d2534fcdc9e33b99be',1,'ArchidektApiResponseCard']]],
-  ['owner_63',['owner',['../d9/dce/classArrowTarget.html#abaf1f20fe8df68fca8ef1fdf3348cb7e',1,'ArrowTarget::owner'],['../dc/d3c/classArchidektApiResponseDeck.html#a20abfd1481eb75abfa29df87569d8023',1,'ArchidektApiResponseDeck::owner'],['../dd/d44/classArchidektApiResponseDeckListingContainer.html#a09fafd369eb1724480b096ca16536fe1',1,'ArchidektApiResponseDeckListingContainer::owner']]],
+  ['owner_63',['owner',['../d9/dce/classArrowTarget.html#ac0fed6798fc9b10b91a37ea13fcfb5e9',1,'ArrowTarget::owner'],['../dc/d3c/classArchidektApiResponseDeck.html#a20abfd1481eb75abfa29df87569d8023',1,'ArchidektApiResponseDeck::owner'],['../dd/d44/classArchidektApiResponseDeckListingContainer.html#a09fafd369eb1724480b096ca16536fe1',1,'ArchidektApiResponseDeckListingContainer::owner']]],
   ['ownerfield_64',['ownerField',['../db/d5d/classTabArchidekt.html#a99c0d17c0574f179011035a60cd64cd8',1,'TabArchidekt']]],
   ['ownuser_65',['ownUser',['../df/d78/classTabRoom.html#addea7f2790e05bf04a7f846cbbc6fc79',1,'TabRoom']]],
   ['ownuserinfo_66',['ownUserInfo',['../db/d6d/classUserListManager.html#a343b88aec385ef35d3df7c0e0133d797',1,'UserListManager::ownUserInfo'],['../d1/de7/classTabMessage.html#a5eb7d12dd4dedcfa71d2476dd01d7cb3',1,'TabMessage::ownUserInfo']]],

@@ -1,6 +1,6 @@
 var classCardItem =
 [
-    [ "CardItem", "d6/dbd/classCardItem.html#ae13c2b8073c2d43190e08004d73fd8fa", null ],
+    [ "CardItem", "d6/dbd/classCardItem.html#a1f44b2982636342cdfd86030da3908bc", null ],
     [ "addAttachedCard", "d6/dbd/classCardItem.html#af9f82ceec48142484cdae5c4afb5914f", null ],
     [ "animationEvent", "d6/dbd/classCardItem.html#afeb512c33421acc38c2de02d67ad2954", null ],
     [ "createDragItem", "d6/dbd/classCardItem.html#ab406049a44e376361f34dec030d99b8c", null ],
@@ -17,7 +17,7 @@ var classCardItem =
     [ "getDoesntUntap", "d6/dbd/classCardItem.html#a24eca8bb25925fdc431e31c47d36cdcb", null ],
     [ "getGridPoint", "d6/dbd/classCardItem.html#a21a9ec38dc8fedb6e4ca000e10a19bf1", null ],
     [ "getGridPos", "d6/dbd/classCardItem.html#aebfa5f421e39a193dcd59d697bb1f70d", null ],
-    [ "getOwner", "d6/dbd/classCardItem.html#ab1845afef2d2d776c67dd262aba09a5c", null ],
+    [ "getOwner", "d6/dbd/classCardItem.html#a5327b200bf462e5d69401f6ccd2d7ef7", null ],
     [ "getPT", "d6/dbd/classCardItem.html#abcc171ca5ef4afef25bc24c562ae545d", null ],
     [ "getZone", "d6/dbd/classCardItem.html#a464318314d7d5484dded1d6d9de6baf9", null ],
     [ "handleClickedToPlay", "d6/dbd/classCardItem.html#a290adeb95b1bec59cad6b0f21159857b", null ],
@@ -40,19 +40,12 @@ var classCardItem =
     [ "setDestroyOnZoneChange", "d6/dbd/classCardItem.html#ae0ef6c208674c039d5308b85fb4da8af", null ],
     [ "setDoesntUntap", "d6/dbd/classCardItem.html#a317fa04e9a093a5cd259e927e8160f90", null ],
     [ "setGridPoint", "d6/dbd/classCardItem.html#a8bc214791b676abfb03f52ae4b249628", null ],
-    [ "setOwner", "d6/dbd/classCardItem.html#a281fe0ef7ce1803180127d0d47127c17", null ],
+    [ "setOwner", "d6/dbd/classCardItem.html#a1a419f8df970f3bc4bdf3ab1a4db9281", null ],
     [ "setPT", "d6/dbd/classCardItem.html#ae0ce980658051236d858e6288d47567f", null ],
     [ "setZone", "d6/dbd/classCardItem.html#a062368e0061760810e20f3f8c90eb9b9", null ],
     [ "type", "d6/dbd/classCardItem.html#acbecb6f351d926d4938a0513f46e2c61", null ],
-    [ "annotation", "d6/dbd/classCardItem.html#af81311c19a69769b817ee040b9e3ccd8", null ],
     [ "attachedCards", "d6/dbd/classCardItem.html#a996d111c2d52e73386a4e42dc10817c0", null ],
-    [ "attachedTo", "d6/dbd/classCardItem.html#a524230cd1f4ea7e0d06fd131431f8509", null ],
-    [ "attacking", "d6/dbd/classCardItem.html#a6ec7237d202e79d68463af7c5050830b", null ],
-    [ "counters", "d6/dbd/classCardItem.html#a1accc225ff51ee94f75e0a7a55f373d1", null ],
-    [ "destroyOnZoneChange", "d6/dbd/classCardItem.html#ae8ac389ac20850e5cb5f29109fda49a6", null ],
-    [ "doesntUntap", "d6/dbd/classCardItem.html#aeaecdf8c65e8be854532efbde32a5ff3", null ],
     [ "dragItem", "d6/dbd/classCardItem.html#afc024fe2fc9442d23eca5bdb25c68518", null ],
     [ "gridPoint", "d6/dbd/classCardItem.html#ae4787cd9b39da6b8d7b9bb57a54814ca", null ],
-    [ "pt", "d6/dbd/classCardItem.html#af639f75ad5ad47058aa299355d9cde4a", null ],
-    [ "zone", "d6/dbd/classCardItem.html#a2bbb356218d59cc18c09542fb30084a4", null ]
+    [ "state", "d6/dbd/classCardItem.html#aed627f2ab712593501592079ee18e215", null ]
 ];

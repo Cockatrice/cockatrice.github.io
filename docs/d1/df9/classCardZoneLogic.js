@@ -1,6 +1,6 @@
 var classCardZoneLogic =
 [
-    [ "CardZoneLogic", "d1/df9/classCardZoneLogic.html#abbc58bb8711c3f67d26585632eac5908", null ],
+    [ "CardZoneLogic", "d1/df9/classCardZoneLogic.html#a5166813a6c2f32b7e282dfb8e7fd4c53", null ],
     [ "addCard", "d1/df9/classCardZoneLogic.html#a5cd14badd8e3ce2575268fe26b017f5e", null ],
     [ "addCardImpl", "d1/df9/classCardZoneLogic.html#a5a91fa28272fd51532064fecfd46178a", null ],
     [ "cardAdded", "d1/df9/classCardZoneLogic.html#a7ef8aeae48ad2c3fc1df3b26e4f93190", null ],
@@ -13,7 +13,7 @@ var classCardZoneLogic =
     [ "getHasCardAttr", "d1/df9/classCardZoneLogic.html#a4486e20c42f98b7a36170e08557862f5", null ],
     [ "getIsShufflable", "d1/df9/classCardZoneLogic.html#a30ac2b3ddd578e6e9b1010fcb14fa07c", null ],
     [ "getName", "d1/df9/classCardZoneLogic.html#a25016bb669c642f448a86cf73d51bf79", null ],
-    [ "getPlayer", "d1/df9/classCardZoneLogic.html#addfd1484fb8b22606ef4e4345e9b901d", null ],
+    [ "getPlayer", "d1/df9/classCardZoneLogic.html#a17d576b42b563dd4d019defc18746886", null ],
     [ "getTranslatedName", "d1/df9/classCardZoneLogic.html#ac7002f74372c1cb39517457115b558f4", null ],
     [ "getViews", "d1/df9/classCardZoneLogic.html#a3fef827545fb4c8124c2836435a173c9", null ],
     [ "moveAllToZone", "d1/df9/classCardZoneLogic.html#a1ddf0108c2ce0accc0b7fae3e8381b28", null ],
@@ -32,6 +32,6 @@ var classCardZoneLogic =
     [ "hasCardAttr", "d1/df9/classCardZoneLogic.html#a7b038b02bf0c56be54bf892af25f9981", null ],
     [ "isShufflable", "d1/df9/classCardZoneLogic.html#af4cb6aa67ae3298116f278cf5dc6a55d", null ],
     [ "name", "d1/df9/classCardZoneLogic.html#a60d2629655367aed624d1697148c4cfa", null ],
-    [ "player", "d1/df9/classCardZoneLogic.html#aecc5db906384a5c1e1bc343525065733", null ],
+    [ "player", "d1/df9/classCardZoneLogic.html#a6c4a9f69d9e55ad97e6c9b68e4a54742", null ],
     [ "views", "d1/df9/classCardZoneLogic.html#a6b7333949c06d3095cee0598422a5567", null ]
 ];

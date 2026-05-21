@@ -8,7 +8,7 @@ var searchData=
   ['weakholder_5',['WeakHolder',['../db/d5b/classpeg_1_1WeakHolder.html#a4b088c583387fa6f33cbcd91bf076c19',1,'peg::WeakHolder']]],
   ['websocketmessagereceived_6',['websocketMessageReceived',['../db/d53/classRemoteClient.html#a885bf43b2b8c193b928db4b84567c3a9',1,'RemoteClient']]],
   ['websocketserversocketinterface_7',['WebsocketServerSocketInterface',['../de/db1/classWebsocketServerSocketInterface.html#a482ca81df868f2f119b88229a87ee1b6',1,'WebsocketServerSocketInterface']]],
-  ['wheelevent_8',['wheelEvent',['../d0/db5/classZoneViewZone.html#a481f8d42f521872b262c9f277b664394',1,'ZoneViewZone::wheelEvent()'],['../d2/d32/classVisualDatabaseDisplayWidget.html#a0957308f85e9276c971bbc3749af7339',1,'VisualDatabaseDisplayWidget::wheelEvent()']]],
+  ['wheelevent_8',['wheelEvent',['../d0/db5/classZoneViewZone.html#a481f8d42f521872b262c9f277b664394',1,'ZoneViewZone']]],
   ['wheeleventreceived_9',['wheelEventReceived',['../d0/db5/classZoneViewZone.html#a0b9ae57a3d38b7cf7db76896ee208c0c',1,'ZoneViewZone']]],
   ['whitespace_10',['Whitespace',['../de/d63/classpeg_1_1Whitespace.html#a6436269ad30a81f5d8d6ceca070f3412',1,'peg::Whitespace']]],
   ['widgetorderchanged_11',['widgetOrderChanged',['../de/d26/classDlgSelectSetForCards.html#a043f5e4a930dcaf3b73545102ce39aa4',1,'DlgSelectSetForCards']]],

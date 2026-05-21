@@ -1,6 +1,6 @@
 var classPtMenu =
 [
-    [ "PtMenu", "d3/d77/classPtMenu.html#a0aab6c0fb70fa6cbec661f6a926bc2ef", null ],
+    [ "PtMenu", "d3/d77/classPtMenu.html#ad5c5cd9cfdb832736232d00ab8f024ea", null ],
     [ "retranslateUi", "d3/d77/classPtMenu.html#afaa09c52107f199091b73509ea5cad51", null ],
     [ "setShortcutsActive", "d3/d77/classPtMenu.html#a1de7f2609f31a647363f9aed52c01073", null ],
     [ "aDecP", "d3/d77/classPtMenu.html#a72d5b50c090bb5a1cceacd72a9daf3ac", null ],

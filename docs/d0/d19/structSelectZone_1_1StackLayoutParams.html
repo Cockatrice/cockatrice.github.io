@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-17-Development-3.0.1-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -116,7 +116,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a856639bbe3b3f2fbb5f4248177a6933e" id="r_a856639bbe3b3f2fbb5f4248177a6933e"><td class="memItemLeft">qreal&#160;</td><td class="memItemRight"><a class="el" href="#a856639bbe3b3f2fbb5f4248177a6933e">desiredOffset</a></td></tr>
 <tr class="memdesc:a856639bbe3b3f2fbb5f4248177a6933e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preferred vertical offset between card tops.  <br /></td></tr>
 <tr class="memitem:a426e69925a461b9ba67147c9ee6502c9" id="r_a426e69925a461b9ba67147c9ee6502c9"><td class="memItemLeft">qreal&#160;</td><td class="memItemRight"><a class="el" href="#a426e69925a461b9ba67147c9ee6502c9">minOffset</a> = 0.0</td></tr>
+<tr class="memdesc:a426e69925a461b9ba67147c9ee6502c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum offset to preserve (0 allows full compression).  <br /></td></tr>
 <tr class="memitem:aaf217d23e726146b289c96738272fe1a" id="r_aaf217d23e726146b289c96738272fe1a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aaf217d23e726146b289c96738272fe1a">allowBottomOverflow</a> = false</td></tr>
+<tr class="memdesc:aaf217d23e726146b289c96738272fe1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">When false (default), reserves full cardHeight for the bottom card, ensuring all cards remain within zone bounds. When true, allows the bottom card to partially overflow using sqrt-scaled allowance. Use with <a class="el" href="../../d7/ddf/classSelectZone.html#a35bcd5edf0bcfdaa79f2d9e198cbdf50" title="Creates a clip container child item that clips card overflow to zone bounds. Cards entering this zone...">setupClipContainer()</a> for zones too short to fit a full card.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parameters describing a vertical card stack's geometry. </p>
@@ -132,7 +134,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>When false (default), reserves full cardHeight for the bottom card, ensuring all cards remain within zone bounds. When true, allows the bottom card to partially overflow using sqrt-scaled allowance. Use with <a class="el" href="../../d7/ddf/classSelectZone.html#a35bcd5edf0bcfdaa79f2d9e198cbdf50">setupClipContainer()</a> for zones too short to fit a full card. </p>
+
+<p>When false (default), reserves full cardHeight for the bottom card, ensuring all cards remain within zone bounds. When true, allows the bottom card to partially overflow using sqrt-scaled allowance. Use with <a class="el" href="../../d7/ddf/classSelectZone.html#a35bcd5edf0bcfdaa79f2d9e198cbdf50" title="Creates a clip container child item that clips card overflow to zone bounds. Cards entering this zone...">setupClipContainer()</a> for zones too short to fit a full card. </p>
 
 </div>
 </div>
@@ -195,7 +198,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Minimum offset to preserve (0 allows full compression) </p>
+
+<p>Minimum offset to preserve (0 allows full compression). </p>
 
 </div>
 </div>
@@ -216,7 +220,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>cockatrice/src/game/zones/<a class="el" href="../../d7/d07/select__zone_8h_source.html">select_zone.h</a></li>
+<li>cockatrice/src/game_graphics/zones/<a class="el" href="../../d7/d07/select__zone_8h_source.html">select_zone.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

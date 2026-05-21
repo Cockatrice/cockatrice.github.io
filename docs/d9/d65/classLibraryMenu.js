@@ -1,6 +1,6 @@
 var classLibraryMenu =
 [
-    [ "LibraryMenu", "d9/d65/classLibraryMenu.html#ab743b802ca570c3d145564cabe44b82b", null ],
+    [ "LibraryMenu", "d9/d65/classLibraryMenu.html#ac645b569577bd84adb081894db36bb75", null ],
     [ "createDrawActions", "d9/d65/classLibraryMenu.html#a39edcf010cd3b62e6a4873469e72874f", null ],
     [ "createMoveActions", "d9/d65/classLibraryMenu.html#a10653e243829fb7710b2163b8b31a6d7", null ],
     [ "createShuffleActions", "d9/d65/classLibraryMenu.html#a0dfe7268cac55b61a75deafde722d0bf", null ],
@@ -59,6 +59,6 @@ var classLibraryMenu =
     [ "mLendLibrary", "d9/d65/classLibraryMenu.html#ad47cd34c6bc4462f2b5441351522641d", null ],
     [ "mRevealLibrary", "d9/d65/classLibraryMenu.html#a1f9f27c672245a180636d292da3c0f79", null ],
     [ "mRevealTopCard", "d9/d65/classLibraryMenu.html#aa0236b3f1cd3d0ecc15b1048f52ca702", null ],
-    [ "player", "d9/d65/classLibraryMenu.html#a5a021d2409dc743206c8eb5f2721ed3c", null ],
+    [ "player", "d9/d65/classLibraryMenu.html#abcbc797a212815a3d9865784befcec79", null ],
     [ "topLibraryMenu", "d9/d65/classLibraryMenu.html#a0ae64386b005e55f57c7077823f5b041", null ]
 ];

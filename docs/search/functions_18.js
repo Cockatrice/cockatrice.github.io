@@ -7,9 +7,11 @@ var searchData=
   ['zipprivate_4',['ZipPrivate',['../df/daf/classZipPrivate.html#a5a369672601dcdc48c9bccb9761c2fb9',1,'ZipPrivate']]],
   ['zlibinit_5',['zLibInit',['../df/daf/classZipPrivate.html#a1b0034e876311ce00eefe82e70822683',1,'ZipPrivate']]],
   ['zom_6',['zom',['../df/de3/classpeg_1_1Repetition.html#a105a3071992543b12a6d41a9aabc9c19',1,'peg::Repetition::zom()'],['../dc/db2/namespacepeg.html#ae35a429594b769a0e7da6431747374aa',1,'peg::zom()']]],
-  ['zonedeleted_7',['zoneDeleted',['../d0/dd9/classZoneViewWidget.html#a0075c03caa66498c7be0411607c864e8',1,'ZoneViewWidget']]],
-  ['zonedumpreceived_8',['zoneDumpReceived',['../d0/db5/classZoneViewZone.html#af10cb1744e98665557413b94b450fa40',1,'ZoneViewZone']]],
-  ['zoneviewwidget_9',['ZoneViewWidget',['../d0/dd9/classZoneViewWidget.html#a8d3d090850d6deaf12824009f41e5406',1,'ZoneViewWidget']]],
-  ['zoneviewzone_10',['ZoneViewZone',['../d0/db5/classZoneViewZone.html#a6edf294de4065c2f00f6fabb74456fa5',1,'ZoneViewZone']]],
-  ['zoneviewzonelogic_11',['ZoneViewZoneLogic',['../d8/d70/classZoneViewZoneLogic.html#a6bc9a4b68aa734f3c96d681d14156065',1,'ZoneViewZoneLogic']]]
+  ['zonechanged_7',['zoneChanged',['../db/d1b/classCardState.html#af77088c7c756241f496a87468bc085f8',1,'CardState']]],
+  ['zonedeleted_8',['zoneDeleted',['../d0/dd9/classZoneViewWidget.html#a0075c03caa66498c7be0411607c864e8',1,'ZoneViewWidget']]],
+  ['zonedumpreceived_9',['zoneDumpReceived',['../d0/db5/classZoneViewZone.html#af10cb1744e98665557413b94b450fa40',1,'ZoneViewZone']]],
+  ['zoneidchanged_10',['zoneIdChanged',['../d2/d98/classPlayerLogic.html#af25c5b27d0fccbd4dadf5e5662ef22d7',1,'PlayerLogic']]],
+  ['zoneviewwidget_11',['ZoneViewWidget',['../d0/dd9/classZoneViewWidget.html#a163efadda5973a8b3f5ffc4ee64c5ab2',1,'ZoneViewWidget']]],
+  ['zoneviewzone_12',['ZoneViewZone',['../d0/db5/classZoneViewZone.html#a6edf294de4065c2f00f6fabb74456fa5',1,'ZoneViewZone']]],
+  ['zoneviewzonelogic_13',['ZoneViewZoneLogic',['../d8/d70/classZoneViewZoneLogic.html#af8e982515d0688d1edd6384e77d5a03a',1,'ZoneViewZoneLogic']]]
 ];

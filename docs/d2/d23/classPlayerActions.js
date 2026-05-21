@@ -3,7 +3,7 @@ var classPlayerActions =
     [ "CardsToReveal", "d2/d23/classPlayerActions.html#a33047204c8f4131e33325c45d812193f", [
       [ "RANDOM_CARD_FROM_ZONE", "d2/d23/classPlayerActions.html#a33047204c8f4131e33325c45d812193faf8968e036cf3d2cc6e39257b3a36dc6a", null ]
     ] ],
-    [ "PlayerActions", "d2/d23/classPlayerActions.html#afbc603fe37fcb69ac5d24850fbe9dde2", null ],
+    [ "PlayerActions", "d2/d23/classPlayerActions.html#afaa5cd043687d3ff74b284332ad14c27", null ],
     [ "actAddCardCounter", "d2/d23/classPlayerActions.html#a32d93ab532522f9640e4369d5060c706", null ],
     [ "actAlwaysLookAtTopCard", "d2/d23/classPlayerActions.html#a19addacbcab34ad373b3f40cd0ddaeaa", null ],
     [ "actAlwaysRevealTopCard", "d2/d23/classPlayerActions.html#aed7373cb137fb5fdfdb2fb99434df016", null ],
@@ -118,5 +118,5 @@ var classPlayerActions =
     [ "movingCardsUntilCounter", "d2/d23/classPlayerActions.html#abd0517941a12a2c64c42a27c507fff83", null ],
     [ "movingCardsUntilFilter", "d2/d23/classPlayerActions.html#aba69eddee554245928149b523b8f40ae", null ],
     [ "movingCardsUntilOptions", "d2/d23/classPlayerActions.html#aa5a60e7ab2b687ebf3d55445207ed35f", null ],
-    [ "player", "d2/d23/classPlayerActions.html#a4af2216833df8e7ccfaee16d5a10c9d7", null ]
+    [ "player", "d2/d23/classPlayerActions.html#a454ba5195286705cda9341a5b99cca97", null ]
 ];

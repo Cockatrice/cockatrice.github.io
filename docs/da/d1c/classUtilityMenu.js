@@ -1,6 +1,6 @@
 var classUtilityMenu =
 [
-    [ "UtilityMenu", "da/d1c/classUtilityMenu.html#a43e8f3b33ba44b1e6d92eb80aee24eea", null ],
+    [ "UtilityMenu", "da/d1c/classUtilityMenu.html#abf96e5ae6287150b04db2938dd77b65b", null ],
     [ "createAnotherTokenActionExists", "da/d1c/classUtilityMenu.html#a4d9238d7cbf5aecb326003bc7c6af51a", null ],
     [ "getPredefinedTokens", "da/d1c/classUtilityMenu.html#aa5f2ad8bfb4fabfffc10da8b3c0ec7b4", null ],
     [ "populatePredefinedTokensMenu", "da/d1c/classUtilityMenu.html#a57e36afe35a75c91b15469a767c190d1", null ],
@@ -15,6 +15,6 @@ var classUtilityMenu =
     [ "aRollDie", "da/d1c/classUtilityMenu.html#a7190a19efdbe8bb743c2a9ef7d05a14b", null ],
     [ "aUntapAll", "da/d1c/classUtilityMenu.html#aede17381b744df51ddfbbdf6621f24ae", null ],
     [ "createPredefinedTokenMenu", "da/d1c/classUtilityMenu.html#a2f8fcb0328f38db90e80b4243b3a0844", null ],
-    [ "player", "da/d1c/classUtilityMenu.html#a6510bf8e5692d6437890a0bd4783a3d2", null ],
+    [ "player", "da/d1c/classUtilityMenu.html#a388913f33fde71c015d151628df645ec", null ],
     [ "predefinedTokens", "da/d1c/classUtilityMenu.html#a10a07f317f70fb1420f10022900288f3", null ]
 ];

@@ -5,7 +5,7 @@ var classZoneViewZoneLogic =
       [ "ADD_CARD", "d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba6636d40973ed2b01905c6abd887aba69", null ],
       [ "REMOVE_CARD", "d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8ba96afb7eb3ae1b6edbd62c7e50b2cedc3", null ]
     ] ],
-    [ "ZoneViewZoneLogic", "d8/d70/classZoneViewZoneLogic.html#a6bc9a4b68aa734f3c96d681d14156065", null ],
+    [ "ZoneViewZoneLogic", "d8/d70/classZoneViewZoneLogic.html#af8e982515d0688d1edd6384e77d5a03a", null ],
     [ "addCardImpl", "d8/d70/classZoneViewZoneLogic.html#a5d24a6f4a5edb93de89ca3563eec033b", null ],
     [ "addToViews", "d8/d70/classZoneViewZoneLogic.html#a6ccd01d5f0328ada2f712d388f6aa5ab", null ],
     [ "closeView", "d8/d70/classZoneViewZoneLogic.html#abef056fee9d43aff83c3b8f2130a7853", null ],
