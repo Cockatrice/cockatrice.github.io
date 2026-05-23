@@ -1,5 +1,7 @@
 var structpeg_1_1ComputeFirstSet =
 [
+    [ "FirstSetCache", "dd/d7e/structpeg_1_1ComputeFirstSet.html#a91bb9206d47ad3028321a92c82ef43a8", null ],
+    [ "ComputeFirstSet", "dd/d7e/structpeg_1_1ComputeFirstSet.html#a1e0053b26a59ffd06a65c0f2e889f116", null ],
     [ "visit", "dd/d7e/structpeg_1_1ComputeFirstSet.html#a26a3490d4dc312c897a9e6109aba42c0", null ],
     [ "visit", "dd/d7e/structpeg_1_1ComputeFirstSet.html#ac7d2811fe46e4ae196bc4ef01e2d8d1d", null ],
     [ "visit", "dd/d7e/structpeg_1_1ComputeFirstSet.html#a1e138db03a328169a6a7e7cee1fcc364", null ],
@@ -23,6 +25,8 @@ var structpeg_1_1ComputeFirstSet =
     [ "visit", "dd/d7e/structpeg_1_1ComputeFirstSet.html#a05f85ffe391dd8547f62daa2edae4fcf", null ],
     [ "visit", "dd/d7e/structpeg_1_1ComputeFirstSet.html#aef40db5685cb0d1563ec3358e563e8b8", null ],
     [ "visit", "dd/d7e/structpeg_1_1ComputeFirstSet.html#a75b661651ebd771a310a14f205a9aa87", null ],
-    [ "refs_", "dd/d7e/structpeg_1_1ComputeFirstSet.html#a7281459fc78606effb3e0fedfa5d5856", null ],
+    [ "cache_", "dd/d7e/structpeg_1_1ComputeFirstSet.html#a39c184b5fa595fb519cca9ae5a9a3d2d", null ],
+    [ "cycle_count_", "dd/d7e/structpeg_1_1ComputeFirstSet.html#afc652420311e595f20d0ca06cd9fd225", null ],
+    [ "refs_", "dd/d7e/structpeg_1_1ComputeFirstSet.html#ac8a0d2a3e7f99246e4c6dd0b8761773e", null ],
     [ "result_", "dd/d7e/structpeg_1_1ComputeFirstSet.html#ad413eb57e6a33ee2b865fb2a0b35be5c", null ]
 ];

@@ -1,5 +1,7 @@
 var NAVTREEINDEX27 =
 {
+"d7/d42/mana__curve__category__widget_8h.html":[4,2,0,0,1,5,4,1,0,2,1],
+"d7/d42/mana__curve__category__widget_8h_source.html":[4,2,0,0,1,5,4,1,0,2,1],
 "d7/d47/card_database_schema_and_parsing.html":[0,1,2],
 "d7/d47/card_database_schema_and_parsing.html#card-database-parsing":[0,1,2,1],
 "d7/d47/card_database_schema_and_parsing.html#card-database-schemas":[0,1,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "d7/d93/classMessageLogWidget.html#a19180bd267ded6a9c68d45bb199b4222":[4,1,0,311,34],
 "d7/d93/classMessageLogWidget.html#a224798718a90999c28a13d024f76c809":[4,1,0,311,21],
 "d7/d93/classMessageLogWidget.html#a2527a5f6397aafa11b80928674963a8f":[4,1,0,311,54],
-"d7/d93/classMessageLogWidget.html#a2680213eeeaf545b7cc2da11f550bf47":[4,1,0,311,13],
-"d7/d93/classMessageLogWidget.html#a3075ab112a3ff38288a8fec3810db130":[4,1,0,311,47],
-"d7/d93/classMessageLogWidget.html#a33c619cdd839a7e1d069ae5eea405784":[4,1,0,311,45]
+"d7/d93/classMessageLogWidget.html#a2680213eeeaf545b7cc2da11f550bf47":[4,1,0,311,13]
 };

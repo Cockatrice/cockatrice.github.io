@@ -28,6 +28,7 @@ var classPlayerActions =
     [ "actIncP", "d2/d23/classPlayerActions.html#aac53184b360a88846aa2612953109a47", null ],
     [ "actIncPT", "d2/d23/classPlayerActions.html#a78c7e9211e7ce6cec1e9074e0e3bf93e", null ],
     [ "actIncPT", "d2/d23/classPlayerActions.html#aea58e223f63cac4168c1768e42dd5dc7", null ],
+    [ "actIncrementAllCardCounters", "d2/d23/classPlayerActions.html#a2b13823c0eaabf503d4826d9decaab73", null ],
     [ "actIncT", "d2/d23/classPlayerActions.html#a2512742a7f63637730c29c3f2268b24e", null ],
     [ "actLendLibrary", "d2/d23/classPlayerActions.html#a13d907a94c91be1f643143531b89742c", null ],
     [ "actMoveBottomCardsToExile", "d2/d23/classPlayerActions.html#ae668982c0f793c10947b12383912a150", null ],

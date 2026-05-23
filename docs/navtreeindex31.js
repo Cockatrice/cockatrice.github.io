@@ -1,5 +1,8 @@
 var NAVTREEINDEX31 =
 {
+"d8/d7b/qxtmailmessage_8h_source.html":[4,2,0,13,0,0,7],
+"d8/d7c/SFMT-common_8h.html":[4,2,0,9,0,0,0,0],
+"d8/d7c/SFMT-common_8h.html#a1b365c636736cfd197cde44957555d1f":[4,2,0,9,0,0,0,0,2],
 "d8/d7c/SFMT-common_8h.html#ab2228c6cf7736ac5908e311d544a44ed":[4,2,0,9,0,0,0,0,0],
 "d8/d7c/SFMT-common_8h.html#aea666205264f7ff2ff9cdf6f7f89ae3a":[4,2,0,9,0,0,0,0,1],
 "d8/d7c/SFMT-common_8h.html#aedb0335a701a81047dad98320731d6b6":[4,2,0,9,0,0,0,0,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX31 =
 "d8/d9e/classTappedOutInterface.html#a809f522a63a9530e30a812af4e78d1a6":[4,1,0,495,0],
 "d8/d9e/classTappedOutInterface.html#aa9ae20301235112b199e55644cf9a484":[4,1,0,495,5],
 "d8/d9e/classTappedOutInterface.html#ae3e15fe133ffb523da99fdb0d0887f90":[4,1,0,495,3],
-"d8/d9f/chat__view_8h.html":[3,1,0,9,2],
-"d8/d9f/chat__view_8h.html":[3,5,1,1,2],
-"d8/d9f/classDeckCardZoneDisplayWidget.html":[4,1,0,121],
-"d8/d9f/classDeckCardZoneDisplayWidget.html#a0017f6d401a42010ee1c3d2674019e79":[4,1,0,121,31]
+"d8/d9f/chat__view_8h.html":[3,1,0,9,2]
 };

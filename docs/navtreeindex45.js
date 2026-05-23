@@ -1,5 +1,11 @@
 var NAVTREEINDEX45 =
 {
+"db/daa/classBarWidget.html#aeededd3e517b09774c1ef5754c1017b8":[4,1,0,55,1],
+"db/daa/classBarWidget.html#af8675c6aed6ad3d8e446f001fe1b1a89":[4,1,0,55,2],
+"db/dad/classTokenEditModel.html":[4,1,0,505],
+"db/dad/classTokenEditModel.html#a3b448a8fcc8c0800c3f99c6fda4d927e":[4,1,0,505,0],
+"db/dad/classTokenEditModel.html#a5ab278c49950452f91394a3965215c45":[4,1,0,505,1],
+"db/dad/classTokenEditModel.html#ae1aa99c96c62110df064af7ad84bd574":[4,1,0,505,2],
 "db/daf/recents__settings_8h.html":[3,7,5,0],
 "db/db0/servers__settings_8h.html":[3,7,2,2],
 "db/db1/dlg__manage__sets_8h.html":[3,1,0,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX45 =
 "db/dea/classRemoteReplayList__TreeWidget.html#afb45f14cd53cab90c3bb26d927ad5da5":[4,1,0,392,3],
 "db/ded/classCardRelation.html":[3,2,9],
 "db/ded/classCardRelation.html#a0dcada68b3d85b24859d4859571a4185":[3,2,9,5],
-"db/ded/classCardRelation.html#a1ad23dd994bc3756581efa184c895f21":[3,2,9,11],
-"db/ded/classCardRelation.html#a57cdf7b206f4312cd948aca0d77c3b09":[3,2,9,2],
-"db/ded/classCardRelation.html#a6ec8e4d769a1c8621845f3f0100aad20":[3,2,9,9],
-"db/ded/classCardRelation.html#a6fe135c7bbc425552288fb512b8c36e1":[3,2,9,6],
-"db/ded/classCardRelation.html#a71bb4fe66f30bb0c4ab0b2df53a24cbe":[3,2,9,12],
-"db/ded/classCardRelation.html#a81dbfb715271b5b0e6dbd5cf40cd9592":[3,2,9,16],
-"db/ded/classCardRelation.html#aa968a77550c97a920f2bbf64cf07c982":[3,2,9,7]
+"db/ded/classCardRelation.html#a1ad23dd994bc3756581efa184c895f21":[3,2,9,11]
 };

@@ -24,5 +24,6 @@ var structpeg_1_1SetupFirstSets =
     [ "visit", "dd/db4/structpeg_1_1SetupFirstSets.html#aff8c5b50652c1096d0f5272454e6933e", null ],
     [ "visit", "dd/db4/structpeg_1_1SetupFirstSets.html#aef40db5685cb0d1563ec3358e563e8b8", null ],
     [ "visit", "dd/db4/structpeg_1_1SetupFirstSets.html#a75b661651ebd771a310a14f205a9aa87", null ],
-    [ "refs_", "dd/db4/structpeg_1_1SetupFirstSets.html#aabbff64aab0f067508c66718a622b407", null ]
+    [ "first_set_cache_", "dd/db4/structpeg_1_1SetupFirstSets.html#a23337764573e6ebc5705391e1c95e713", null ],
+    [ "visited_rules_", "dd/db4/structpeg_1_1SetupFirstSets.html#ab9a5aefc61df7a9dfeaf2fde22e0f2db", null ]
 ];

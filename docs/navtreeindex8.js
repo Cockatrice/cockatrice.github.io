@@ -1,15 +1,16 @@
 var NAVTREEINDEX8 =
 {
+"d2/d23/classPlayerActions.html#ae668982c0f793c10947b12383912a150":[4,1,0,350,29],
 "d2/d23/classPlayerActions.html#aea58e223f63cac4168c1768e42dd5dc7":[4,1,0,350,25],
 "d2/d23/classPlayerActions.html#aed7373cb137fb5fdfdb2fb99434df016":[4,1,0,350,4],
 "d2/d23/classPlayerActions.html#af03b4af1a8fb51948273b7426684f1e6":[4,1,0,350,10],
-"d2/d23/classPlayerActions.html#af0bbc473bb98f01338aeadc540d6b8d0":[4,1,0,350,33],
-"d2/d23/classPlayerActions.html#af39f2012ca33b341c4ad2284b85f7c73":[4,1,0,350,31],
-"d2/d23/classPlayerActions.html#af71ba6583a1afd07500fbee561430f58":[4,1,0,350,65],
-"d2/d23/classPlayerActions.html#af9ef9b1dd79978750a60bbc7b4f85483":[4,1,0,350,104],
+"d2/d23/classPlayerActions.html#af0bbc473bb98f01338aeadc540d6b8d0":[4,1,0,350,34],
+"d2/d23/classPlayerActions.html#af39f2012ca33b341c4ad2284b85f7c73":[4,1,0,350,32],
+"d2/d23/classPlayerActions.html#af71ba6583a1afd07500fbee561430f58":[4,1,0,350,66],
+"d2/d23/classPlayerActions.html#af9ef9b1dd79978750a60bbc7b4f85483":[4,1,0,350,105],
 "d2/d23/classPlayerActions.html#afaa5cd043687d3ff74b284332ad14c27":[4,1,0,350,1],
-"d2/d23/classPlayerActions.html#afbaa783b632d69dfbf97aa921ffae8da":[4,1,0,350,58],
-"d2/d23/classPlayerActions.html#afec363d2b09d55ae1b0663962e91b1e9":[4,1,0,350,89],
+"d2/d23/classPlayerActions.html#afbaa783b632d69dfbf97aa921ffae8da":[4,1,0,350,59],
+"d2/d23/classPlayerActions.html#afec363d2b09d55ae1b0663962e91b1e9":[4,1,0,350,90],
 "d2/d2b/card__zone__logic_8cpp.html":[4,2,0,0,1,3,5,1],
 "d2/d2d/classUserInterfaceSettingsPage.html":[4,1,0,514],
 "d2/d2d/classUserInterfaceSettingsPage.html#a00aa1c1a44f3b623d76fa97bcd26b0ba":[4,1,0,514,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "d2/d63/classArchidektApiResponseCard.html#af6772b596a488e19926d4f7066e1d291":[4,1,0,29,0],
 "d2/d63/classArchidektApiResponseCard.html#afad2142d377e3c5a56f9d16872532a11":[4,1,0,29,12],
 "d2/d65/deck__list__card__node_8cpp.html":[4,2,0,3,0,0,0,4],
-"d2/d66/classpeg_1_1Ope.html":[4,0,0,15,13],
-"d2/d66/classpeg_1_1Ope.html":[4,1,0,3,12]
+"d2/d66/classpeg_1_1Ope.html":[4,0,0,15,13]
 };

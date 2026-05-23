@@ -1,5 +1,10 @@
 var NAVTREEINDEX43 =
 {
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#aff8c5b50652c1096d0f5272454e6933e":[4,1,0,3,47,22],
+"db/d39/resizable__panel_8h.html":[4,2,0,0,1,5,4,1,14],
+"db/d39/resizable__panel_8h_source.html":[4,2,0,0,1,5,4,1,14],
+"db/d3b/classGeneralCounter.html":[4,1,0,255],
+"db/d3b/classGeneralCounter.html#a28296acef0c91203cbe843cfdcd447d8":[4,1,0,255,0],
 "db/d3b/classGeneralCounter.html#a657d66fd410e0d732555a4ca84ed0c17":[4,1,0,255,2],
 "db/d3b/classGeneralCounter.html#afc73e9abb02a97c1092b765eca676399":[4,1,0,255,1],
 "db/d3e/classpeg_1_1Ignore.html":[4,0,0,15,29],
@@ -244,10 +249,5 @@ var NAVTREEINDEX43 =
 "db/d67/classLogger.html#aed940a5ab00fdb60a5d6bee83db04524":[4,1,0,290,10],
 "db/d67/classLogger.html#af1a8490c7d7652060c17347ded72e910":[4,1,0,290,3],
 "db/d67/classLogger.html#afee741267f0de25da55208a6424eb84f":[4,1,0,290,1],
-"db/d68/game__filter__configs_8h.html":[4,2,0,0,1,5,4,9,4],
-"db/d68/game__filter__configs_8h_source.html":[4,2,0,0,1,5,4,9,4],
-"db/d68/group__Dialogs.html":[3,1,0,0],
-"db/d6b/structMockCard.html":[4,1,0,314],
-"db/d6b/structMockCard.html#a1c45af80cfd52c0c31677f6832f008cd":[4,1,0,314,8],
-"db/d6b/structMockCard.html#a2d90c6fec18ffaca3c5634a75b145a3c":[4,1,0,314,4]
+"db/d68/game__filter__configs_8h.html":[4,2,0,0,1,5,4,9,4]
 };

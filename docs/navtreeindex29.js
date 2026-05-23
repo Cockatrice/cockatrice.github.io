@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"d7/dd6/classPlayerMenu.html":[4,1,0,361],
+"d7/dd6/classPlayerMenu.html#a12a5c1d26bf617bd61f458bbed1e061c":[4,1,0,361,18],
 "d7/dd6/classPlayerMenu.html#a22187a61bb3297d702897b1c9bd6c691":[4,1,0,361,28],
 "d7/dd6/classPlayerMenu.html#a2220b93bda8cae37bb11d4ba07fbfefd":[4,1,0,361,10],
 "d7/dd6/classPlayerMenu.html#a38d3fbfc5a68ed2fa0c2b718a03082fd":[4,1,0,361,25],
@@ -243,11 +245,9 @@ var NAVTREEINDEX29 =
 "d8/d21/classServer__Player.html#af4f29c0855ce09de6cb16673b6ffc798":[4,1,0,428,19],
 "d8/d21/classServer__Player.html#af6f52fb7fa79abcda96d0012fa931c99":[4,1,0,428,15],
 "d8/d23/group__GameMenusZones.html":[3,4,0,3,1],
+"d8/d24/server__card__counter__test_8cpp.html":[3,8,0],
 "d8/d2c/dynamic__font__size__label_8h.html":[3,1,0,15],
 "d8/d2d/classOracleWizardPage.html":[4,1,0,328],
 "d8/d2d/classOracleWizardPage.html#a0f280c5ae5e3817b7bad4f3a207c47ba":[4,1,0,328,0],
-"d8/d2d/classOracleWizardPage.html#a27632e8dc2b86d6e6adf2c11f3e62e91":[4,1,0,328,3],
-"d8/d2d/classOracleWizardPage.html#a5118b04fc40fffe10336c100a8fb6812":[4,1,0,328,2],
-"d8/d2d/classOracleWizardPage.html#a7ac366cc122c022ea1e48f582d07b61f":[4,1,0,328,1],
-"d8/d33/edhrec__api__response__archidekt__links_8h.html":[4,2,0,0,1,5,4,11,0,1,0,0,1]
+"d8/d2d/classOracleWizardPage.html#a27632e8dc2b86d6e6adf2c11f3e62e91":[4,1,0,328,3]
 };

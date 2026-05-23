@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"d5/d88/classSettingsCache.html#aaf22b7c76e23801078102f74e1fb3e35":[4,1,0,445,498],
 "d5/d88/classSettingsCache.html#aaf446c897919339a9c6097fdc1c8976f":[4,1,0,445,99],
 "d5/d88/classSettingsCache.html#aafb83668c489efb3bcacca05b708a002":[4,1,0,445,77],
 "d5/d88/classSettingsCache.html#aafbc32e35d274ec0e215b6eab4c71060":[4,1,0,445,417],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "d5/da7/classTabAccount.html":[4,1,0,473],
 "d5/da7/classTabAccount.html#a0c0b514670d6d37435deba9186cadef2":[4,1,0,473,9],
 "d5/da7/classTabAccount.html#a1d4cb6c2d51b1f7c3a101521b7afb664":[4,1,0,473,7],
-"d5/da7/classTabAccount.html#a2a9fed6ece4a53306291760da028e9ae":[4,1,0,473,3],
-"d5/da7/classTabAccount.html#a3cf849889d4a417fc6d9a238cfd6d895":[4,1,0,473,4]
+"d5/da7/classTabAccount.html#a2a9fed6ece4a53306291760da028e9ae":[4,1,0,473,3]
 };

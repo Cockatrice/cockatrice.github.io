@@ -47,7 +47,7 @@ var searchData=
   ['math_44',['math',['../da/d45/expression_8cpp.html#a7258073806e9106c2f29d6c1eed0b103',1,'expression.cpp']]],
   ['max_45',['max',['../d3/d3f/structAllowedCount.html#a2b98740ed57e302875a351eb833d3f0e',1,'AllowedCount']]],
   ['max_5f_46',['max_',['../df/de3/classpeg_1_1Repetition.html#ab7a9a316d534248fe43258205e170d5c',1,'peg::Repetition']]],
-  ['max_5fcounters_5fon_5fcard_47',['MAX_COUNTERS_ON_CARD',['../dc/d96/card__item_8h.html#a054ecad0358d1bef616bfa3a4abce234',1,'card_item.h']]],
+  ['max_5fcounters_5fon_5fcard_47',['MAX_COUNTERS_ON_CARD',['../da/d4b/trice__limits_8h.html#a10ae563893ebe47790d6fb56c1b2bbbc',1,'trice_limits.h']]],
   ['max_5ffile_5flength_48',['MAX_FILE_LENGTH',['../da/d4b/trice__limits_8h.html#aaef0e59c89d055e87fa188d8aab00bd2',1,'trice_limits.h']]],
   ['max_5fkeyword_5flen_49',['max_keyword_len',['../d7/d9a/structpeg_1_1KeywordGuardData.html#a8350df638c282f0ee72bb7f7557fac26',1,'peg::KeywordGuardData']]],
   ['max_5flen_5f_50',['max_len_',['../d4/da5/classpeg_1_1Trie.html#a437adc28bc4a7f16b72d8d162a573d99',1,'peg::Trie']]],

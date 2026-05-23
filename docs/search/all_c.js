@@ -209,7 +209,7 @@ var searchData=
   ['local_20deck_20storage_206',['Local Deck Storage',['../d9/d44/group__LocalDeckStorage.html',1,'']]],
   ['local_20deck_20storage_20dialogs_207',['Local Deck Storage Dialogs',['../d1/d8d/group__LocalDeckStorageDialogs.html',1,'']]],
   ['local_20deck_20storage_20widgets_208',['Local Deck Storage Widgets',['../d4/d18/group__LocalDeckStorageWidgets.html',1,'']]],
-  ['local_20file_20storage_209',['Local File Storage',['../db/d91/importing_decks.html#local-file-storage',1,'Local File Storage'],['../d0/d51/exporting_decks.html#local-file-storage-1',1,'Local File Storage']]],
+  ['local_20file_20storage_209',['Local File Storage',['../d0/d51/exporting_decks.html#local-file-storage',1,'Local File Storage'],['../db/d91/importing_decks.html#local-file-storage-1',1,'Local File Storage']]],
   ['local_20image_20loading_210',['Local Image Loading',['../d9/d1c/loading_card_pictures.html#local-image-loading',1,'']]],
   ['local_5fclient_2ecpp_211',['local_client.cpp',['../d2/dcf/local__client_8cpp.html',1,'']]],
   ['local_5fclient_2eh_212',['local_client.h',['../d3/d21/local__client_8h.html',1,'']]],

@@ -8,5 +8,5 @@ var topics =
     [ "Networking", "d8/d35/group__Network.html", "d8/d35/group__Network" ],
     [ "Replays", "d0/d8d/group__Replay.html", "d0/d8d/group__Replay" ],
     [ "Settings", "d3/d43/group__Settings.html", "d3/d43/group__Settings" ],
-    [ "Tests", "dc/d0b/group__Tests.html", null ]
+    [ "Tests", "dc/d0b/group__Tests.html", "dc/d0b/group__Tests" ]
 ];

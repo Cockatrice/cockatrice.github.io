@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"d4/d56/classSetEntryWidget.html#a81ad8c2eb8dbf73b8c887c55ddb2e53a":[4,1,0,437,3],
 "d4/d56/classSetEntryWidget.html#a81c2da2119fc4bbb2a1292ebc5afbbd0":[4,1,0,437,15],
 "d4/d56/classSetEntryWidget.html#a8d1fec70029c61389dd0d27024427921":[4,1,0,437,18],
 "d4/d56/classSetEntryWidget.html#ab215ac81a8b4aa13a320a778d3ddb095":[4,1,0,437,17],
@@ -171,8 +172,8 @@ var NAVTREEINDEX15 =
 "d4/d8e/servatrice__database__interface_8h.html#a48e3613be6028b1f67617cfe48dd1420":[4,2,0,13,0,12,1],
 "d4/d8e/servatrice__database__interface_8h_source.html":[4,2,0,13,0,12],
 "d4/d8f/replay_8cpp.html":[4,2,0,0,1,3,27],
-"d4/d91/key__signals_8h.html":[3,1,2],
 "d4/d91/key__signals_8h.html":[3,0,1],
+"d4/d91/key__signals_8h.html":[3,1,2],
 "d4/d92/edhrec__api__response__commander__details__display__widget_8cpp.html":[4,2,0,0,1,5,4,11,0,1,1,2,0],
 "d4/d93/card__drag__item_8cpp.html":[4,2,0,0,1,3,0,12],
 "d4/d93/color__identity__widget_8cpp.html":[4,2,0,0,1,5,4,0,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "d4/d99/theme__manager_8cpp.html#a9b6fc155dfd5aa38765986ac6b08e1b9":[4,2,0,0,1,5,13,13],
 "d4/d99/theme__manager_8cpp.html#a9e1075c47c842272a13565a0e51acac1":[4,2,0,0,1,5,13,4],
 "d4/d99/theme__manager_8cpp.html#afd05fe920fe646312b45316922094bae":[4,2,0,0,1,5,13,2],
-"d4/d9d/deck__filter__string_8cpp.html":[4,2,0,0,1,2,0],
-"d4/d9d/deck__filter__string_8cpp.html#a1b3f5c50a74878001e05fb6c700d3d16":[4,2,0,0,1,2,0,0]
+"d4/d9d/deck__filter__string_8cpp.html":[4,2,0,0,1,2,0]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX36 =
 {
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#a7a69ffbea76917c8654b4ba57103b4d4":[3,3,1,1,12,2],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#a808b1681318cefe6b568da772565f5f8":[3,1,0,4,12,4],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#a808b1681318cefe6b568da772565f5f8":[3,3,1,1,12,4],
 "d9/dcf/classTabDeckEditorVisualTabWidget.html#a8684fdd577c2f6b75c9357df1803366f":[3,1,0,4,12,22],
 "d9/dcf/classTabDeckEditorVisualTabWidget.html#a8684fdd577c2f6b75c9357df1803366f":[3,3,1,1,12,22],
 "d9/dcf/classTabDeckEditorVisualTabWidget.html#a9b171f77e3d9df05943385458d367472":[3,1,0,4,12,24],
@@ -246,8 +249,5 @@ var NAVTREEINDEX36 =
 "d9/df7/classDeckEditorDeckDockWidget.html#af7612e0a803642a8a12d43f8071584f8":[4,1,0,125,12],
 "d9/df7/classDeckEditorDeckDockWidget.html#afdd892acc314bba57becce6e2e8917f9":[4,1,0,125,38],
 "d9/df8/group__NetworkDialogs.html":[3,1,0,0,0],
-"d9/df8/group__NetworkDialogs.html":[3,1,0,9,0],
-"d9/df8/group__NetworkDialogs.html":[3,5,1,1,0],
-"d9/dfc/classDeckViewCardContainer.html":[4,1,0,156],
-"d9/dfc/classDeckViewCardContainer.html#a08dbc75e11163c8ee6deced736721bf9":[4,1,0,156,12]
+"d9/df8/group__NetworkDialogs.html":[3,1,0,9,0]
 };

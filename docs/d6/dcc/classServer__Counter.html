@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-23-Development-3.1.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -100,6 +100,9 @@ $(function(){initNavTree('d6/dcc/classServer__Counter.html','../../','d9/da2/cla
 </div><!--header-->
 <div class="contents">
 
+<p>Represents a player counter with overflow-safe increment arithmetic.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d7/d75/server__counter_8h_source.html">server_counter.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -111,8 +114,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab686d00e06b00eb5c3aa333c618f0c69" id="r_ab686d00e06b00eb5c3aa333c618f0c69"><td class="memItemLeft">const color &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ab686d00e06b00eb5c3aa333c618f0c69">getColor</a> () const</td></tr>
 <tr class="memitem:a6cf803537c476052db0f85c6bc88de24" id="r_a6cf803537c476052db0f85c6bc88de24"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a6cf803537c476052db0f85c6bc88de24">getRadius</a> () const</td></tr>
 <tr class="memitem:aad6b8470622f9bb34bf5b701ee53ebc9" id="r_aad6b8470622f9bb34bf5b701ee53ebc9"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aad6b8470622f9bb34bf5b701ee53ebc9">getCount</a> () const</td></tr>
-<tr class="memitem:a9cdf63cc905e11a27ae0fc8c9155f6c7" id="r_a9cdf63cc905e11a27ae0fc8c9155f6c7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9cdf63cc905e11a27ae0fc8c9155f6c7">setCount</a> (int _count)</td></tr>
+<tr class="memitem:aa992a16a116aceb4d848c27e0bf29736" id="r_aa992a16a116aceb4d848c27e0bf29736"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa992a16a116aceb4d848c27e0bf29736">setCount</a> (int _count)</td></tr>
+<tr class="memdesc:aa992a16a116aceb4d848c27e0bf29736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the counter to an exact value.  <br /></td></tr>
+<tr class="memitem:a46f6a844d95e4dbd876c38de96e2026f" id="r_a46f6a844d95e4dbd876c38de96e2026f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a46f6a844d95e4dbd876c38de96e2026f">incrementCount</a> (int delta)</td></tr>
+<tr class="memdesc:a46f6a844d95e4dbd876c38de96e2026f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increments the counter by delta with overflow-safe arithmetic.  <br /></td></tr>
 <tr class="memitem:a9e6abadce080ab72e67f174384ab3e31" id="r_a9e6abadce080ab72e67f174384ab3e31"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9e6abadce080ab72e67f174384ab3e31">getInfo</a> (ServerInfo_Counter *info)</td></tr>
+<tr class="memdesc:a9e6abadce080ab72e67f174384ab3e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populates info with this counter's current state for network serialization.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -122,7 +129,13 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a63ede246cb19b8b2b53e450b3928a27d" id="r_a63ede246cb19b8b2b53e450b3928a27d"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a63ede246cb19b8b2b53e450b3928a27d">radius</a></td></tr>
 <tr class="memitem:ac1a71a80b29c177070bbada0e856a6ba" id="r_ac1a71a80b29c177070bbada0e856a6ba"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ac1a71a80b29c177070bbada0e856a6ba">count</a></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Represents a player counter with overflow-safe increment arithmetic. </p>
+<p>All value modifications return whether the value actually changed, enabling callers to skip unnecessary network events.</p>
+<dl class="section note"><dt>Note</dt><dd>Direct assignment via <a class="el" href="#aa992a16a116aceb4d848c27e0bf29736" title="Sets the counter to an exact value.">setCount()</a> does not clamp; only <a class="el" href="#a46f6a844d95e4dbd876c38de96e2026f" title="Increments the counter by delta with overflow-safe arithmetic.">incrementCount()</a> enforces int boundary saturation. </dd>
+<dd>
+Unlike card counters, player counters are never auto-removed when they reach zero - they persist with value 0. </dd></dl>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9134b5e1ef4351d686c957e867348676" name="a9134b5e1ef4351d686c957e867348676"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9134b5e1ef4351d686c957e867348676">&#9670;&#160;</a></span>Server_Counter()</h2>
 
@@ -235,7 +248,7 @@ Protected Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dcc/classServer__Counter_aad6b8470622f9bb34bf5b701ee53ebc9_icgraph.svg" width="468" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dcc/classServer__Counter_aad6b8470622f9bb34bf5b701ee53ebc9_icgraph.svg" width="468" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -284,6 +297,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Populates info with this counter's current state for network serialization. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">info</td><td>The protobuf message to populate. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -337,8 +358,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a9cdf63cc905e11a27ae0fc8c9155f6c7" name="a9cdf63cc905e11a27ae0fc8c9155f6c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cdf63cc905e11a27ae0fc8c9155f6c7">&#9670;&#160;</a></span>setCount()</h2>
+<a id="a46f6a844d95e4dbd876c38de96e2026f" name="a46f6a844d95e4dbd876c38de96e2026f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46f6a844d95e4dbd876c38de96e2026f">&#9670;&#160;</a></span>incrementCount()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -347,7 +368,48 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Server_Counter::setCount </td>
+          <td class="memname">bool Server_Counter::incrementCount </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>delta</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Increments the counter by delta with overflow-safe arithmetic. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delta</td><td>The amount to add (may be negative for decrement). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the value changed, false otherwise. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Clamps result to [INT_MIN, INT_MAX] to prevent overflow.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000276">Todo</a></b></dt><dd>Extract overflow-safe arithmetic into shared helper. Duplicated in <a class="el" href="../../dc/d07/classServer__Card.html#a29a8e7cdb16ac6f067e3f9f3e6280d15" title="Increments a card counter with overflow-safe arithmetic.">Server_Card::incrementCounter()</a> - keep in sync if modified. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dcc/classServer__Counter_a46f6a844d95e4dbd876c38de96e2026f_icgraph.svg" width="474" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa992a16a116aceb4d848c27e0bf29736" name="aa992a16a116aceb4d848c27e0bf29736"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa992a16a116aceb4d848c27e0bf29736">&#9670;&#160;</a></span>setCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Server_Counter::setCount </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>_count</em></span></td><td>)</td>
           <td></td>
@@ -355,14 +417,24 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Sets the counter to an exact value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_count</td><td>The new value (assigned directly without clamping). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the value changed, false otherwise. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>This performs raw assignment. For overflow-safe incrementing, use <a class="el" href="#a46f6a844d95e4dbd876c38de96e2026f" title="Increments the counter by delta with overflow-safe arithmetic.">incrementCount()</a>. </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dcc/classServer__Counter_a9cdf63cc905e11a27ae0fc8c9155f6c7_icgraph.svg" width="467" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dcc/classServer__Counter_aa992a16a116aceb4d848c27e0bf29736_icgraph.svg" width="467" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

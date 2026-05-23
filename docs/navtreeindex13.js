@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"d3/d9f/classClientUpdateChecker.html#a40c0ac762b7e9937cd264eb714adb91c":[4,1,0,105,7],
 "d3/d9f/classClientUpdateChecker.html#a6b77a98e02757c34e0111e9a53ea71c3":[4,1,0,105,2],
 "d3/d9f/classClientUpdateChecker.html#a7b240768eb64332cd06b286765a9ff9c":[4,1,0,105,1],
 "d3/d9f/classClientUpdateChecker.html#aaf8d266f0579d5b7e8c540ef38072416":[4,1,0,105,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "d3/df1/mana__curve__widget_8h.html":[3,1,0,4,1,1],
 "d3/df1/mana__curve__widget_8h.html":[3,3,1,1,1,1],
 "d3/df2/abstract__game_8cpp.html":[4,2,0,0,1,3,6],
-"d3/df2/player__logic_8h.html":[4,2,0,0,1,3,4,16],
-"d3/df2/player__logic_8h.html#a3a0d2e7f7c0157ea70e4e27201c4118d":[4,2,0,0,1,3,4,16,2]
+"d3/df2/player__logic_8h.html":[4,2,0,0,1,3,4,16]
 };

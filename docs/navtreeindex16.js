@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"d4/d9d/deck__filter__string_8cpp.html#a1b3f5c50a74878001e05fb6c700d3d16":[4,2,0,0,1,2,0,0],
 "d4/d9d/deck__filter__string_8cpp.html#a7cd1776ce070457b6ff51645ece1b341":[4,2,0,0,1,2,0,1],
 "d4/d9d/deck__filter__string_8cpp.html#aebd5b6f2f0331b8cd0ec91f09a3acbfd":[4,2,0,0,1,2,0,2],
 "d4/da5/classpeg_1_1Trie.html":[4,0,0,15,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "d5/d0e/classServatrice.html#a0a4c5ab9b74804878df05f036e84318e":[4,1,0,411,68],
 "d5/d0e/classServatrice.html#a0e26759c6ee6e95f40f43a3fab536c39":[4,1,0,411,8],
 "d5/d0e/classServatrice.html#a0ed636649bbff1264bbde4bf1e2db59f":[4,1,0,411,95],
-"d5/d0e/classServatrice.html#a1270310a6b224b67085a9cf9c799f43c":[4,1,0,411,13],
-"d5/d0e/classServatrice.html#a12c2144957eea0ba172555e71ee46f51":[4,1,0,411,65]
+"d5/d0e/classServatrice.html#a1270310a6b224b67085a9cf9c799f43c":[4,1,0,411,13]
 };

@@ -3,6 +3,7 @@ var trice__limits_8h =
     [ "fileFromStdString", "da/d4b/trice__limits_8h.html#acde525a9cf6e905fac05d6b62df3cdf5", null ],
     [ "nameFromStdString", "da/d4b/trice__limits_8h.html#a95db897f5efddbef085caad2416229bc", null ],
     [ "textFromStdString", "da/d4b/trice__limits_8h.html#a923c658d0d5e93c30c907bf6938c8507", null ],
+    [ "MAX_COUNTERS_ON_CARD", "da/d4b/trice__limits_8h.html#a10ae563893ebe47790d6fb56c1b2bbbc", null ],
     [ "MAX_FILE_LENGTH", "da/d4b/trice__limits_8h.html#aaef0e59c89d055e87fa188d8aab00bd2", null ],
     [ "MAX_NAME_LENGTH", "da/d4b/trice__limits_8h.html#a19776e9ad56df15c40feb555a4725dd2", null ],
     [ "MAX_TEXT_LENGTH", "da/d4b/trice__limits_8h.html#a9aad8b3136a5069bc9caabaa033ab83e", null ],

@@ -1,5 +1,10 @@
 var NAVTREEINDEX42 =
 {
+"db/d0a/classRelease.html#ad24d9062659b790d3e499a8816566851":[4,1,0,386,18],
+"db/d0a/classRelease.html#add0a13f9051b54451bb92aa873a5e8c1":[4,1,0,386,11],
+"db/d0a/classRelease.html#ae0db5bf93322f1523833b44f4e573fb6":[4,1,0,386,3],
+"db/d0a/classRelease.html#ae1127ce24f7365d500a6f2004f21c96a":[4,1,0,386,13],
+"db/d0a/classRelease.html#af31cccf24fd1bc461da7c8707195d066":[4,1,0,386,8],
 "db/d0e/card__picture__loader__request__status__display__widget_8cpp.html":[4,2,0,0,1,5,0,6],
 "db/d0e/deck__editor__database__display__widget_8cpp.html":[4,2,0,0,1,5,4,2,4],
 "db/d0e/deck__editor__database__display__widget_8cpp.html#a7fa751ff16fdac8a4dcfff1fafb32e8e":[4,2,0,0,1,5,4,2,4,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX42 =
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#afaee1384c719b0884d2bdda5d1561889":[4,1,0,3,47,12],
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#afb21efe506e35896ea25211063e56e92":[4,0,0,15,48,11],
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#afb21efe506e35896ea25211063e56e92":[4,1,0,3,47,11],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#aff8c5b50652c1096d0f5272454e6933e":[4,0,0,15,48,22],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#aff8c5b50652c1096d0f5272454e6933e":[4,1,0,3,47,22],
-"db/d39/resizable__panel_8h.html":[4,2,0,0,1,5,4,1,14],
-"db/d39/resizable__panel_8h_source.html":[4,2,0,0,1,5,4,1,14],
-"db/d3b/classGeneralCounter.html":[4,1,0,255],
-"db/d3b/classGeneralCounter.html#a28296acef0c91203cbe843cfdcd447d8":[4,1,0,255,0]
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#aff8c5b50652c1096d0f5272454e6933e":[4,0,0,15,48,22]
 };

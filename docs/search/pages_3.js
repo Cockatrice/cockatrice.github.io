@@ -7,7 +7,7 @@ var searchData=
   ['database_20schemas_4',['Card Database Schemas',['../d7/d47/card_database_schema_and_parsing.html#card-database-schemas',1,'']]],
   ['deck_20analytics_5',['Deck Analytics',['../de/d6e/editing_decks_visual.html#deck-analytics',1,'']]],
   ['deck_20editor_6',['Deck Editor',['../d3/d32/editing_decks_classic.html',1,'Classic Deck Editor'],['../de/d6e/editing_decks_visual.html',1,'Visual Deck Editor']]],
-  ['deck_20editor_20tab_7',['Deck Editor Tab',['../db/d91/importing_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../d0/d51/exporting_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
+  ['deck_20editor_20tab_7',['Deck Editor Tab',['../d0/d51/exporting_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../db/d91/importing_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
   ['deck_20information_8',['Deck Information',['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
   ['deck_20layout_9',['Modifying the visual deck layout',['../de/d6e/editing_decks_visual.html#modifying-the-visual-deck-layout',1,'']]],
   ['deck_20list_10',['Deck List',['../d3/d32/editing_decks_classic.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../de/d6e/editing_decks_visual.html#modifying-the-deck-list-1',1,'Modifying the Deck List']]],

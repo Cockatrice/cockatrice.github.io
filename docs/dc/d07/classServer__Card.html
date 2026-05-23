@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-05-23-Development-3.1.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -139,7 +139,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac8a0b15b0042b05117ede306b309f571" id="r_ac8a0b15b0042b05117ede306b309f571"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac8a0b15b0042b05117ede306b309f571">setId</a> (int _id)</td></tr>
 <tr class="memitem:a5e55fc95e64ac9af1645e4bcd7eb1206" id="r_a5e55fc95e64ac9af1645e4bcd7eb1206"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5e55fc95e64ac9af1645e4bcd7eb1206">setCoords</a> (int x, int y)</td></tr>
 <tr class="memitem:af385a9b0523d53073b8b438ebe8523e0" id="r_af385a9b0523d53073b8b438ebe8523e0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af385a9b0523d53073b8b438ebe8523e0">setCardRef</a> (const <a class="el" href="../../d1/d66/structCardRef.html">CardRef</a> &amp;_cardRef)</td></tr>
-<tr class="memitem:a572bcb1afc5a6399c9b8f02ab964119d" id="r_a572bcb1afc5a6399c9b8f02ab964119d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a572bcb1afc5a6399c9b8f02ab964119d">setCounter</a> (int _id, int value, Event_SetCardCounter *event=nullptr)</td></tr>
+<tr class="memitem:a9649a6601e2efa1e6bdeb35564ff61e0" id="r_a9649a6601e2efa1e6bdeb35564ff61e0"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a9649a6601e2efa1e6bdeb35564ff61e0">setCounter</a> (int _id, int value, Event_SetCardCounter *event=nullptr)</td></tr>
+<tr class="memdesc:a9649a6601e2efa1e6bdeb35564ff61e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets a card counter to an exact value with clamping.  <br /></td></tr>
+<tr class="memitem:a29a8e7cdb16ac6f067e3f9f3e6280d15" id="r_a29a8e7cdb16ac6f067e3f9f3e6280d15"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a29a8e7cdb16ac6f067e3f9f3e6280d15">incrementCounter</a> (int counterId, int delta, Event_SetCardCounter *event=nullptr)</td></tr>
+<tr class="memdesc:a29a8e7cdb16ac6f067e3f9f3e6280d15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increments a card counter with overflow-safe arithmetic.  <br /></td></tr>
 <tr class="memitem:a5a447e5b5f5abd0342b4ec2a860965f9" id="r_a5a447e5b5f5abd0342b4ec2a860965f9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5a447e5b5f5abd0342b4ec2a860965f9">setTapped</a> (bool _tapped)</td></tr>
 <tr class="memitem:a999be78eb039247ae4bdc76449bb7b90" id="r_a999be78eb039247ae4bdc76449bb7b90"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a999be78eb039247ae4bdc76449bb7b90">setAttacking</a> (bool _attacking)</td></tr>
 <tr class="memitem:ad5eeb66f03ff46c5720515f055ff2d8e" id="r_ad5eeb66f03ff46c5720515f055ff2d8e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad5eeb66f03ff46c5720515f055ff2d8e">setFaceDown</a> (bool _facedown)</td></tr>
@@ -443,11 +446,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d07/classServer__Card_a3db6936ef5fced399e58e697540d437e_icgraph.svg" width="407" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
@@ -863,6 +861,59 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a29a8e7cdb16ac6f067e3f9f3e6280d15" name="a29a8e7cdb16ac6f067e3f9f3e6280d15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29a8e7cdb16ac6f067e3f9f3e6280d15">&#9670;&#160;</a></span>incrementCounter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Server_Card::incrementCounter </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>counterId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Event_SetCardCounter *</td>          <td class="paramname"><span class="paramname"><em>event</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Increments a card counter with overflow-safe arithmetic. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">counterId</td><td>The counter ID to modify. </td></tr>
+    <tr><td class="paramname">delta</td><td>The amount to add (may be negative for decrement). </td></tr>
+    <tr><td class="paramname">event</td><td>Optional event to populate with counter state. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the value changed, false otherwise. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If counter does not exist, starts from 0. Counter is removed if result is 0. </dd>
+<dd>
+Clamps result to [0, MAX_COUNTERS_ON_CARD]. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d07/classServer__Card_a29a8e7cdb16ac6f067e3f9f3e6280d15_icgraph.svg" width="452" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ad0fda8566bad70b5acae14c74d8d34e3" name="ad0fda8566bad70b5acae14c74d8d34e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad0fda8566bad70b5acae14c74d8d34e3">&#9670;&#160;</a></span>removeAttachedCard()</h2>
 
@@ -1136,14 +1187,17 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a572bcb1afc5a6399c9b8f02ab964119d" name="a572bcb1afc5a6399c9b8f02ab964119d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a572bcb1afc5a6399c9b8f02ab964119d">&#9670;&#160;</a></span>setCounter()</h2>
+<a id="a9649a6601e2efa1e6bdeb35564ff61e0" name="a9649a6601e2efa1e6bdeb35564ff61e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9649a6601e2efa1e6bdeb35564ff61e0">&#9670;&#160;</a></span>setCounter()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Server_Card::setCounter </td>
+          <td class="memname">bool Server_Card::setCounter </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>_id</em></span>, </td>
         </tr>
@@ -1158,11 +1212,27 @@ Here is the caller graph for this function:</div>
           <td class="paramtype">Event_SetCardCounter *</td>          <td class="paramname"><span class="paramname"><em>event</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Sets a card counter to an exact value with clamping. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_id</td><td>The counter ID. </td></tr>
+    <tr><td class="paramname">value</td><td>The desired value (clamped to [0, MAX_COUNTERS_ON_CARD]; 0 removes the counter). </td></tr>
+    <tr><td class="paramname">event</td><td>Optional event to populate with counter state. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the value changed, false otherwise. </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d07/classServer__Card_a572bcb1afc5a6399c9b8f02ab964119d_icgraph.svg" width="406" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d07/classServer__Card_a9649a6601e2efa1e6bdeb35564ff61e0_icgraph.svg" width="406" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

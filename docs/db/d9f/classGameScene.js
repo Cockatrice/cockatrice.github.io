@@ -21,6 +21,7 @@ var classGameScene =
     [ "getViewportTransform", "db/d9f/classGameScene.html#abeec27581934322149e31fb7cd48b6e5", null ],
     [ "getViewTransform", "db/d9f/classGameScene.html#a4419f238b28538f767528b02845ed4da", null ],
     [ "onArrowCreateRequested", "db/d9f/classGameScene.html#a22c6c21bab59acf8ea72f4e5b32a8829", null ],
+    [ "onArrowDeleted", "db/d9f/classGameScene.html#ab499b62c9498d47d7ac0eca9c2a6fcdf", null ],
     [ "onArrowDeleteRequested", "db/d9f/classGameScene.html#a7980d6516686bf895548271fdcdb4a29", null ],
     [ "onCardZoneChanged", "db/d9f/classGameScene.html#a4326218936b502a0a0f658bfd5393303", null ],
     [ "processViewSizeChange", "db/d9f/classGameScene.html#aa829f63c3bc81884dc30cc7fbe250810", null ],

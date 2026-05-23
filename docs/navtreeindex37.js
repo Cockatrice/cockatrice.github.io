@@ -1,5 +1,8 @@
 var NAVTREEINDEX37 =
 {
+"d9/df8/group__NetworkDialogs.html":[3,5,1,1,0],
+"d9/dfc/classDeckViewCardContainer.html":[4,1,0,156],
+"d9/dfc/classDeckViewCardContainer.html#a08dbc75e11163c8ee6deced736721bf9":[4,1,0,156,12],
 "d9/dfc/classDeckViewCardContainer.html#a09cd92dcdf042e29b0eeb276270758d6":[4,1,0,156,6],
 "d9/dfc/classDeckViewCardContainer.html#a0cecec39c2cf1622a03a9c59f7b7ee30":[4,1,0,156,4],
 "d9/dfc/classDeckViewCardContainer.html#a11b95ef5b27a86463e571fc893f562fb":[4,1,0,156,17],
@@ -79,6 +82,7 @@ var NAVTREEINDEX37 =
 "d9/dfd/structpeg_1_1FindReference.html#aff8c5b50652c1096d0f5272454e6933e":[4,0,0,15,51,21],
 "d9/dfd/structpeg_1_1FindReference.html#aff8c5b50652c1096d0f5272454e6933e":[4,1,0,3,50,21],
 "d9/dfe/server__player_8cpp.html":[4,2,0,7,0,0,1,1,0,17],
+"da/d02/server__counter__test_8cpp.html":[3,8,1],
 "da/d03/editing_decks.html":[0,0,2],
 "da/d09/visual__deck__storage__widget_8h.html":[3,1,0,5,1,6],
 "da/d09/visual__deck__storage__widget_8h.html":[3,3,2,0,0,1,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX37 =
 "da/d2f/classServatrice__ConnectionPool.html#af07c3b7db2f694b19b41f9fc8d7bd69f":[4,1,0,412,8],
 "da/d2f/classServatrice__ConnectionPool.html#af22c0189e397d6c4b29476365d15475e":[4,1,0,412,4],
 "da/d2f/classServatrice__ConnectionPool.html#af823638924481b3d2d50a75ce59a0d62":[4,1,0,412,6],
-"da/d33/deck__list__node__tree_8cpp.html":[4,2,0,3,0,0,6],
-"da/d34/card__search__model_8h.html":[3,2,4,0,2],
-"da/d34/tab__deck__editor__visual_8cpp.html":[4,2,0,0,1,5,4,11,1,0],
-"da/d36/deck__loader_8h.html":[3,3,2,2,3],
-"da/d36/dlg__roll__dice_8cpp.html":[4,2,0,0,1,3,2,4]
+"da/d33/deck__list__node__tree_8cpp.html":[4,2,0,3,0,0,6]
 };

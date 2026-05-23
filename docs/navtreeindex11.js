@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"d2/df2/classAnalyticsPanelWidgetFactory.html#a9afdb687885652911135433ddf8bbb7b":[4,1,0,25,2],
 "d2/df2/classAnalyticsPanelWidgetFactory.html#ae958fa0f1521e7d6de0c2db6d7fab3ae":[4,1,0,25,3],
 "d2/df3/card__counter__settings_8h.html":[3,7,3,0],
 "d2/df3/user__info__connection_8h.html":[3,5,1,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "d3/d58/classLayoutsSettings.html#a144acef9f5ed129d47cccc6f2a986d39":[4,1,0,276,27],
 "d3/d58/classLayoutsSettings.html#a191acbe049763313f50684ea0a6efc86":[4,1,0,276,22],
 "d3/d58/classLayoutsSettings.html#a1b9bb68d0da4a01df7af01a9b46ae356":[4,1,0,276,24],
-"d3/d58/classLayoutsSettings.html#a22f0959ed1e7b40e693dd11461ed352c":[4,1,0,276,15],
-"d3/d58/classLayoutsSettings.html#a27b0b4d4deb26914f5d35b3e01a5420f":[4,1,0,276,8]
+"d3/d58/classLayoutsSettings.html#a22f0959ed1e7b40e693dd11461ed352c":[4,1,0,276,15]
 };
