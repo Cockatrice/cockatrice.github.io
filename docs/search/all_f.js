@@ -240,7 +240,7 @@ var searchData=
   ['owned_237',['owned',['../d2/d63/classArchidektApiResponseCard.html#abd19311e820b40d2534fcdc9e33b99be',1,'ArchidektApiResponseCard']]],
   ['owner_238',['owner',['../d9/dce/classArrowTarget.html#ac0fed6798fc9b10b91a37ea13fcfb5e9',1,'ArrowTarget::owner'],['../dc/d3c/classArchidektApiResponseDeck.html#a20abfd1481eb75abfa29df87569d8023',1,'ArchidektApiResponseDeck::owner'],['../dd/d44/classArchidektApiResponseDeckListingContainer.html#a09fafd369eb1724480b096ca16536fe1',1,'ArchidektApiResponseDeckListingContainer::owner']]],
   ['ownerfield_239',['ownerField',['../db/d5d/classTabArchidekt.html#a99c0d17c0574f179011035a60cd64cd8',1,'TabArchidekt']]],
-  ['ownership_3a_240',['Ownership:',['../da/d68/classDeckList.html#ownership',1,'Ownership:'],['../d3/de9/classAbstractDecklistCardNode.html#ownership-1',1,'Ownership:'],['../d5/d22/classDecklistCardNode.html#ownership-2',1,'Ownership:'],['../d4/d55/classInnerDecklistNode.html#ownership-3',1,'Ownership:']]],
+  ['ownership_3a_240',['Ownership:',['../da/d68/classDeckList.html#ownership',1,'Ownership:'],['../d3/de9/classAbstractDecklistCardNode.html#ownership-1',1,'Ownership:'],['../d4/d55/classInnerDecklistNode.html#ownership-2',1,'Ownership:'],['../d5/d22/classDecklistCardNode.html#ownership-3',1,'Ownership:']]],
   ['ownuser_241',['ownUser',['../df/d78/classTabRoom.html#addea7f2790e05bf04a7f846cbbc6fc79',1,'TabRoom']]],
   ['ownuserinfo_242',['ownUserInfo',['../db/d6d/classUserListManager.html#a343b88aec385ef35d3df7c0e0133d797',1,'UserListManager::ownUserInfo'],['../d1/de7/classTabMessage.html#a5eb7d12dd4dedcfa71d2476dd01d7cb3',1,'TabMessage::ownUserInfo']]],
   ['ownusername_243',['ownUserName',['../dc/dea/classChatView.html#a247c82f13e8feec5cfac6c46648829ba',1,'ChatView']]]
