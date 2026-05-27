@@ -1,5 +1,8 @@
 var NAVTREEINDEX37 =
 {
+"d9/df7/classDeckEditorDeckDockWidget.html#afdd892acc314bba57becce6e2e8917f9":[4,1,0,125,38],
+"d9/df8/group__NetworkDialogs.html":[3,1,0,0,0],
+"d9/df8/group__NetworkDialogs.html":[3,1,0,9,0],
 "d9/df8/group__NetworkDialogs.html":[3,5,1,1,0],
 "d9/dfc/classDeckViewCardContainer.html":[4,1,0,156],
 "d9/dfc/classDeckViewCardContainer.html#a08dbc75e11163c8ee6deced736721bf9":[4,1,0,156,12],
@@ -25,8 +28,8 @@ var NAVTREEINDEX37 =
 "d9/dfc/classDeckViewCardContainer.html#af037a05119c26971d5392ddab0e4e981":[4,1,0,156,9],
 "d9/dfc/classDeckViewCardContainer.html#afda869561e43c22d93638920c3736f8c":[4,1,0,156,10],
 "d9/dfd/game__filters__settings_8h.html":[3,7,3,1],
-"d9/dfd/structpeg_1_1FindReference.html":[4,1,0,3,50],
 "d9/dfd/structpeg_1_1FindReference.html":[4,0,0,15,51],
+"d9/dfd/structpeg_1_1FindReference.html":[4,1,0,3,50],
 "d9/dfd/structpeg_1_1FindReference.html#a02561bb3cd4316f3097adcf22488e2a6":[4,0,0,15,51,26],
 "d9/dfd/structpeg_1_1FindReference.html#a02561bb3cd4316f3097adcf22488e2a6":[4,1,0,3,50,26],
 "d9/dfd/structpeg_1_1FindReference.html#a0b44ffa13eaf58c3af9fc740da4624a7":[4,0,0,15,51,18],
@@ -246,8 +249,5 @@ var NAVTREEINDEX37 =
 "da/d2f/classServatrice__ConnectionPool.html#ab86bcdf716a5cf2488b438b201404d83":[4,1,0,412,5],
 "da/d2f/classServatrice__ConnectionPool.html#abb8f3e9f2a9b0df8bf158a0d82fb8acb":[4,1,0,412,3],
 "da/d2f/classServatrice__ConnectionPool.html#ae0dd18888364a5fcf26d7670f6a48040":[4,1,0,412,0],
-"da/d2f/classServatrice__ConnectionPool.html#af07c3b7db2f694b19b41f9fc8d7bd69f":[4,1,0,412,8],
-"da/d2f/classServatrice__ConnectionPool.html#af22c0189e397d6c4b29476365d15475e":[4,1,0,412,4],
-"da/d2f/classServatrice__ConnectionPool.html#af823638924481b3d2d50a75ce59a0d62":[4,1,0,412,6],
-"da/d33/deck__list__node__tree_8cpp.html":[4,2,0,3,0,0,6]
+"da/d2f/classServatrice__ConnectionPool.html#af07c3b7db2f694b19b41f9fc8d7bd69f":[4,1,0,412,8]
 };

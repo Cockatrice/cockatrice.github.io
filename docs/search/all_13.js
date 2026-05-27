@@ -971,7 +971,7 @@ var searchData=
   ['signalhandler_968',['signalhandler',['../d0/d8b/servatrice_2src_2main_8cpp.html#ae17b1bc78ca6e1a56d7d3def17e3c08e',1,'main.cpp']]],
   ['signalhandler_2ecpp_969',['signalhandler.cpp',['../de/d2d/signalhandler_8cpp.html',1,'']]],
   ['signalhandler_2eh_970',['signalhandler.h',['../d6/da8/signalhandler_8h.html',1,'']]],
-  ['signals_971',['Signals',['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#signals',1,'Signals'],['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#signals-1',1,'Signals'],['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#signals-2',1,'Signals']]],
+  ['signals_971',['Signals',['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#signals',1,'Signals'],['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#signals-1',1,'Signals'],['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#signals-2',1,'Signals']]],
   ['sigpixmapupdated_972',['sigPixmapUpdated',['../d4/db9/classAbstractCardItem.html#a7bcb3536fe4fc599e07d9b26b743c499',1,'AbstractCardItem']]],
   ['sigpromptforforgotpasswordchallenge_973',['sigPromptForForgotPasswordChallenge',['../db/d53/classRemoteClient.html#aa0a78030dc27255ae4a364556c29473c',1,'RemoteClient']]],
   ['sigpromptforforgotpasswordreset_974',['sigPromptForForgotPasswordReset',['../db/d53/classRemoteClient.html#a642e299d5fb0d8e226d797ec506c629e',1,'RemoteClient']]],

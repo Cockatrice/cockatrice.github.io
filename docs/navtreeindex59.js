@@ -1,5 +1,8 @@
 var NAVTREEINDEX59 =
 {
+"de/dbe/classCardDatabaseSettings.html#a19bd88c51ef167d07c6cb7e7d87b93e0":[4,1,0,67,0],
+"de/dbe/classCardDatabaseSettings.html#a638768afda3a6eb230aaf7b6ced129b4":[4,1,0,67,7],
+"de/dbe/classCardDatabaseSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,67,8],
 "de/dbe/classCardDatabaseSettings.html#a94eeeab6307c485dc5550bf683f2ed8d":[4,1,0,67,1],
 "de/dbe/classCardDatabaseSettings.html#a9fbbedcd8e76da030a3c3906b7710337":[4,1,0,67,3],
 "de/dbe/classCardDatabaseSettings.html#aa652520d5e9b8fed81e5a42f35450675":[4,1,0,67,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX59 =
 "df/d13/cockatrice__xml__3_8cpp.html#a0a44d97f4ac855afca537267748e1a50":[4,2,0,2,0,0,0,0,2,2],
 "df/d13/cockatrice__xml__3_8cpp.html#a25ca4a8e2f5cf520228cb9078a5a7917":[4,2,0,2,0,0,0,0,2,0],
 "df/d13/cockatrice__xml__3_8cpp.html#a7fa78dc2e28f619b62d91e22a85e1b36":[4,2,0,2,0,0,0,0,2,4],
-"df/d13/cockatrice__xml__3_8cpp.html#ad13439b03f3b3d2571aaf0bb4b8d4b28":[4,2,0,2,0,0,0,0,2,1],
-"df/d15/remote__client_8h.html":[3,5,1,8],
-"df/d16/structTabGame_1_1DockActions.html":[4,1,0,484,0],
-"df/d16/structTabGame_1_1DockActions.html#aa6094d88c3abdbf1344c5016b4df3cc6":[4,1,0,484,0,1]
+"df/d13/cockatrice__xml__3_8cpp.html#ad13439b03f3b3d2571aaf0bb4b8d4b28":[4,2,0,2,0,0,0,0,2,1]
 };

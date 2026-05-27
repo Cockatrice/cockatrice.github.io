@@ -1,5 +1,8 @@
 var NAVTREEINDEX56 =
 {
+"de/d26/classDlgSelectSetForCards.html#a7910e59cb63c3ffe3cda7275ed284e32":[4,1,0,182,17],
+"de/d26/classDlgSelectSetForCards.html#a7f9686837f559207272a643cd1933cd8":[4,1,0,182,19],
+"de/d26/classDlgSelectSetForCards.html#a836f6ff8ea608217957544bbeb8d3215":[4,1,0,182,26],
 "de/d26/classDlgSelectSetForCards.html#a915907a76047db85dfdd718e1883c63d":[4,1,0,182,10],
 "de/d26/classDlgSelectSetForCards.html#a91bde869263cc49ea3d2fdd35716253f":[4,1,0,182,5],
 "de/d26/classDlgSelectSetForCards.html#a93309588a6def57b6e7bb9503304a959":[4,1,0,182,23],
@@ -183,8 +186,8 @@ var NAVTREEINDEX56 =
 "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#ad5587db6e2a34969df7b6f264d122666":[4,1,0,36,1],
 "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#adf05ab5f11564fc76eefb9aa756de215":[4,1,0,36,0],
 "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#aed66acd342a99dffe97052af58105275":[4,1,0,36,4],
-"de/d4a/structpeg_1_1TokenChecker.html":[4,1,0,3,42],
 "de/d4a/structpeg_1_1TokenChecker.html":[4,0,0,15,43],
+"de/d4a/structpeg_1_1TokenChecker.html":[4,1,0,3,42],
 "de/d4a/structpeg_1_1TokenChecker.html#a1380148534b584e498ce2408facdc5ee":[4,0,0,15,43,9],
 "de/d4a/structpeg_1_1TokenChecker.html#a1380148534b584e498ce2408facdc5ee":[4,1,0,3,42,9],
 "de/d4a/structpeg_1_1TokenChecker.html#a236dd74d320c8cdf68c11a86452760f6":[4,0,0,15,43,17],
@@ -246,8 +249,5 @@ var NAVTREEINDEX56 =
 "de/d4e/classUnZip.html#a3019704de84e9da2afb3efa66c3fc856":[4,1,0,508,14],
 "de/d4e/classUnZip.html#a31f127b879e59dd89d1dac23562c835c":[4,1,0,508,15],
 "de/d4e/classUnZip.html#a46a3e794ab4d50dbf180ceeacb688035":[4,1,0,508,16],
-"de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412":[4,1,0,508,2],
-"de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a28f3c78471ec542b8d3d0f950d6b03a0":[4,1,0,508,2,8],
-"de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a341b2dd8a32521ff6f380dde215759bb":[4,1,0,508,2,15],
-"de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a4591c191ad75e75fb992490f2dca263d":[4,1,0,508,2,16]
+"de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412":[4,1,0,508,2]
 };

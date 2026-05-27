@@ -1,5 +1,8 @@
 var NAVTREEINDEX58 =
 {
+"de/d8f/classGameEventStorage.html#a222e6ba32284ad4e080cb316aea50e16":[4,1,0,243,13],
+"de/d8f/classGameEventStorage.html#a609d49488a62d4926c01ce247441348f":[4,1,0,243,12],
+"de/d8f/classGameEventStorage.html#a63717bcdf79f5f243a00d412304e4b83":[4,1,0,243,11],
 "de/d8f/classGameEventStorage.html#a64f99cd79e8519f105d6a447a98a3eb5":[4,1,0,243,5],
 "de/d8f/classGameEventStorage.html#a6dc7b9a868d61cac421240d16acfe672":[4,1,0,243,9],
 "de/d8f/classGameEventStorage.html#a6fa7501982b2dd9ed08b743afd2a980c":[4,1,0,243,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX58 =
 "de/dba/classRNG__Abstract.html#ae178b12153e702f8250c343636a2db37":[4,1,0,400,2],
 "de/dbe/classCardDatabaseSettings.html":[4,1,0,67],
 "de/dbe/classCardDatabaseSettings.html#a06bb3199840818021504d99a472818a7":[4,1,0,67,6],
-"de/dbe/classCardDatabaseSettings.html#a167321b275a5fce82059550adf45dce3":[4,1,0,67,2],
-"de/dbe/classCardDatabaseSettings.html#a19bd88c51ef167d07c6cb7e7d87b93e0":[4,1,0,67,0],
-"de/dbe/classCardDatabaseSettings.html#a638768afda3a6eb230aaf7b6ced129b4":[4,1,0,67,7],
-"de/dbe/classCardDatabaseSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,67,8]
+"de/dbe/classCardDatabaseSettings.html#a167321b275a5fce82059550adf45dce3":[4,1,0,67,2]
 };

@@ -19,6 +19,7 @@ var classCardItem =
     [ "getGridPos", "d6/dbd/classCardItem.html#aebfa5f421e39a193dcd59d697bb1f70d", null ],
     [ "getOwner", "d6/dbd/classCardItem.html#a5327b200bf462e5d69401f6ccd2d7ef7", null ],
     [ "getPT", "d6/dbd/classCardItem.html#abcc171ca5ef4afef25bc24c562ae545d", null ],
+    [ "getState", "d6/dbd/classCardItem.html#a8e98c6cf9a950590c8284ca7e43e4a4b", null ],
     [ "getZone", "d6/dbd/classCardItem.html#a464318314d7d5484dded1d6d9de6baf9", null ],
     [ "handleClickedToPlay", "d6/dbd/classCardItem.html#a290adeb95b1bec59cad6b0f21159857b", null ],
     [ "itemChange", "d6/dbd/classCardItem.html#af92b50c95517631cddf3fcefdc3a6971", null ],

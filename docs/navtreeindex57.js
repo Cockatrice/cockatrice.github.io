@@ -1,5 +1,8 @@
 var NAVTREEINDEX57 =
 {
+"de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a28f3c78471ec542b8d3d0f950d6b03a0":[4,1,0,508,2,8],
+"de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a341b2dd8a32521ff6f380dde215759bb":[4,1,0,508,2,15],
+"de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a4591c191ad75e75fb992490f2dca263d":[4,1,0,508,2,16],
 "de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a4b76006fdff4a8adc90db646a16a3fa0":[4,1,0,508,2,12],
 "de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a6485489af32d66acaa3ea4c22c33461c":[4,1,0,508,2,10],
 "de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a68938fe618aaf526fcf0e203d9ab7718":[4,1,0,508,2,14],
@@ -61,8 +64,8 @@ var NAVTREEINDEX57 =
 "de/d63/classpeg_1_1Whitespace.html#a60f0f1bc712b9f7e2ca0cb19c06e7bca":[4,1,0,3,33,1],
 "de/d63/classpeg_1_1Whitespace.html#a6436269ad30a81f5d8d6ceca070f3412":[4,0,0,15,34,0],
 "de/d63/classpeg_1_1Whitespace.html#a6436269ad30a81f5d8d6ceca070f3412":[4,1,0,3,33,0],
-"de/d67/structpeg_1_1IsLiteralToken.html":[4,1,0,3,41],
 "de/d67/structpeg_1_1IsLiteralToken.html":[4,0,0,15,42],
+"de/d67/structpeg_1_1IsLiteralToken.html":[4,1,0,3,41],
 "de/d67/structpeg_1_1IsLiteralToken.html#a002b7261bcd0a3aa255d05f6ed70e26c":[4,0,0,15,42,22],
 "de/d67/structpeg_1_1IsLiteralToken.html#a002b7261bcd0a3aa255d05f6ed70e26c":[4,1,0,3,41,22],
 "de/d67/structpeg_1_1IsLiteralToken.html#a021dd10ad3402ddc400b3e81294215f4":[4,0,0,15,42,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX57 =
 "de/d8d/edhrec__top__cards__api__response_8h.html":[3,3,2,3,0,0,7],
 "de/d8d/edhrec__top__cards__api__response_8h.html":[3,5,1,0,0,7],
 "de/d8f/classGameEventStorage.html":[4,1,0,243],
-"de/d8f/classGameEventStorage.html#a0e6f77aa3a5ea8a7699ffb3fd3428745":[4,1,0,243,4],
-"de/d8f/classGameEventStorage.html#a222e6ba32284ad4e080cb316aea50e16":[4,1,0,243,13],
-"de/d8f/classGameEventStorage.html#a609d49488a62d4926c01ce247441348f":[4,1,0,243,12],
-"de/d8f/classGameEventStorage.html#a63717bcdf79f5f243a00d412304e4b83":[4,1,0,243,11]
+"de/d8f/classGameEventStorage.html#a0e6f77aa3a5ea8a7699ffb3fd3428745":[4,1,0,243,4]
 };

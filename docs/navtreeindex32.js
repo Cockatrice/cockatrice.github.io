@@ -1,5 +1,8 @@
 var NAVTREEINDEX32 =
 {
+"d8/d9e/classTappedOutInterface.html#aa9ae20301235112b199e55644cf9a484":[4,1,0,495,5],
+"d8/d9e/classTappedOutInterface.html#ae3e15fe133ffb523da99fdb0d0887f90":[4,1,0,495,3],
+"d8/d9f/chat__view_8h.html":[3,1,0,9,2],
 "d8/d9f/chat__view_8h.html":[3,5,1,1,2],
 "d8/d9f/classDeckCardZoneDisplayWidget.html":[4,1,0,121],
 "d8/d9f/classDeckCardZoneDisplayWidget.html#a0017f6d401a42010ee1c3d2674019e79":[4,1,0,121,31],
@@ -246,8 +249,5 @@ var NAVTREEINDEX32 =
 "d8/dcf/classRemoteDeckList__TreeModel.html#af557f37373569891e4e85558f013c4a6":[4,1,0,389,14],
 "d8/dcf/classRemoteDeckList__TreeModel.html#afb0d952dc1472c29e352e50a84526e62":[4,1,0,389,26],
 "d8/dcf/classRemoteDeckList__TreeModel.html#afb1406760f696098d9213c8c6308eb4d":[4,1,0,389,3],
-"d8/ddc/tab__game_8cpp.html":[4,2,0,0,1,5,4,11,15],
-"d8/dec/group__RoomWidgets.html":[3,1,0,10],
-"d8/dec/group__RoomWidgets.html":[3,5,1,3],
-"d8/df0/classSaveSetsPage.html":[4,1,0,403]
+"d8/ddc/tab__game_8cpp.html":[4,2,0,0,1,5,4,11,15]
 };

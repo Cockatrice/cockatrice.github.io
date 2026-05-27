@@ -1,5 +1,8 @@
 var NAVTREEINDEX44 =
 {
+"db/d67/classLogger.html#af1a8490c7d7652060c17347ded72e910":[4,1,0,290,3],
+"db/d67/classLogger.html#afee741267f0de25da55208a6424eb84f":[4,1,0,290,1],
+"db/d68/game__filter__configs_8h.html":[4,2,0,0,1,5,4,9,4],
 "db/d68/game__filter__configs_8h_source.html":[4,2,0,0,1,5,4,9,4],
 "db/d68/group__Dialogs.html":[3,1,0,0],
 "db/d6b/structMockCard.html":[4,1,0,314],
@@ -246,8 +249,5 @@ var NAVTREEINDEX44 =
 "db/da9/tearoff__menu_8h.html":[3,4,0,3,3],
 "db/daa/classBarWidget.html":[4,1,0,55],
 "db/daa/classBarWidget.html#a1f6062d37de48da67e0e1edc34e8e0c0":[4,1,0,55,6],
-"db/daa/classBarWidget.html#a3bb93777543f5464091057063ecc94e6":[4,1,0,55,5],
-"db/daa/classBarWidget.html#ab54c24990268eb617e7fb5df8205d35a":[4,1,0,55,0],
-"db/daa/classBarWidget.html#ad1f5caf3a2b1cb30f2d957a20dff70f8":[4,1,0,55,4],
-"db/daa/classBarWidget.html#ae4536c2fac7c3cc275e48f4fae6b1435":[4,1,0,55,3]
+"db/daa/classBarWidget.html#a3bb93777543f5464091057063ecc94e6":[4,1,0,55,5]
 };

@@ -798,7 +798,7 @@ var searchData=
   ['getstarttime_795',['getStartTime',['../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html#ad823365920c6b49fcd783408b501a058',1,'CardPictureLoaderRequestStatusDisplayWidget']]],
   ['getstartupcardupdatecheckalwaysupdate_796',['getStartupCardUpdateCheckAlwaysUpdate',['../d5/d88/classSettingsCache.html#a21121206932b91d9c11d0f1adcb473a9',1,'SettingsCache']]],
   ['getstartupcardupdatecheckpromptforupdate_797',['getStartupCardUpdateCheckPromptForUpdate',['../d5/d88/classSettingsCache.html#acb49491b3a4341a9fa5c768f4f1e7bd2',1,'SettingsCache']]],
-  ['getstate_798',['getState',['../d0/d90/classToggleButton.html#a3a3c31fddff40c59dafffb2b7ef3e551',1,'ToggleButton::getState()'],['../df/dde/classDeckPreviewTagDisplayWidget.html#a30a2df05c121c88353541cd41193fe1c',1,'DeckPreviewTagDisplayWidget::getState()']]],
+  ['getstate_798',['getState',['../d6/dbd/classCardItem.html#a8e98c6cf9a950590c8284ca7e43e4a4b',1,'CardItem::getState()'],['../d0/d90/classToggleButton.html#a3a3c31fddff40c59dafffb2b7ef3e551',1,'ToggleButton::getState()'],['../df/dde/classDeckPreviewTagDisplayWidget.html#a30a2df05c121c88353541cd41193fe1c',1,'DeckPreviewTagDisplayWidget::getState()']]],
   ['getstatus_799',['getStatus',['../dc/d86/classAbstractClient.html#aca11328e6ad61c0883a15ac3432379a8',1,'AbstractClient']]],
   ['getstorereplaysenabled_800',['getStoreReplaysEnabled',['../db/d00/classServer.html#afebd8b8b26da4d2226322a61de503044',1,'Server::getStoreReplaysEnabled()'],['../d5/d0e/classServatrice.html#a8a87721b1c3db26d793bb0d009ecb1f9',1,'Servatrice::getStoreReplaysEnabled()']]],
   ['getstringpropertyfrommap_801',['getStringPropertyFromMap',['../d9/d21/oracleimporter_8cpp.html#ad238bd5c81655a67d0f8a96066df5731',1,'oracleimporter.cpp']]],

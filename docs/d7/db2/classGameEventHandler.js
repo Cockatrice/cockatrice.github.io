@@ -2,6 +2,7 @@ var classGameEventHandler =
 [
     [ "GameEventHandler", "d7/db2/classGameEventHandler.html#a25b81a294f69aaae698a9d3fa3de2c2f", null ],
     [ "addPlayerToAutoCompleteList", "d7/db2/classGameEventHandler.html#a3df535aac5be08fa6a1758d1024ac8db", null ],
+    [ "arrowDeleted", "d7/db2/classGameEventHandler.html#a16a4cecb7030cda37424d096f9e1a8f1", null ],
     [ "commandFinished", "d7/db2/classGameEventHandler.html#a13205be722399533ef81b039cd22a3ca", null ],
     [ "containerProcessingDone", "d7/db2/classGameEventHandler.html#a15261de82508c5f1d8938d65ec57b669", null ],
     [ "containerProcessingStarted", "d7/db2/classGameEventHandler.html#a7913171f85dc78ca2f45031d5c51e727", null ],
@@ -27,6 +28,7 @@ var classGameEventHandler =
     [ "handleActiveLocalPlayerUnconceded", "d7/db2/classGameEventHandler.html#a90717b933b41fd7acd66f713f097d73d", null ],
     [ "handleActivePhaseChanged", "d7/db2/classGameEventHandler.html#af4d64c6216dc200cdccb2768438a94b9", null ],
     [ "handleArrowDeletion", "d7/db2/classGameEventHandler.html#a408d70eba50f6292cd3080d46294f1f2", null ],
+    [ "handleArrowDeletionFinished", "d7/db2/classGameEventHandler.html#a465a3eae8373125688b8aaee8684e4af", null ],
     [ "handleChatMessageSent", "d7/db2/classGameEventHandler.html#aa5bd8649c46daafb2319ece1586736c2", null ],
     [ "handleGameLeft", "d7/db2/classGameEventHandler.html#ad102a88c7c5538da90f7cda1926f8e9e", null ],
     [ "handleNextTurn", "d7/db2/classGameEventHandler.html#a0301a250d83437cd66fd535ad6548cf0", null ],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX52 =
 {
+"dd/d7e/structpeg_1_1ComputeFirstSet.html#a6ce23dd2d378fd2576b78b31f836dac7":[4,0,0,15,52,13],
+"dd/d7e/structpeg_1_1ComputeFirstSet.html#a6ce23dd2d378fd2576b78b31f836dac7":[4,1,0,3,51,13],
+"dd/d7e/structpeg_1_1ComputeFirstSet.html#a6fd555b5ad02775b494949280ab91331":[4,0,0,15,52,16],
 "dd/d7e/structpeg_1_1ComputeFirstSet.html#a6fd555b5ad02775b494949280ab91331":[4,1,0,3,51,16],
 "dd/d7e/structpeg_1_1ComputeFirstSet.html#a715add280a2f881d7c9a315a998be247":[4,0,0,15,52,19],
 "dd/d7e/structpeg_1_1ComputeFirstSet.html#a715add280a2f881d7c9a315a998be247":[4,1,0,3,51,19],
@@ -246,8 +249,5 @@ var NAVTREEINDEX52 =
 "dd/d97/classGameView.html#af70c41824588dc223d5a9a17ddba21d7":[4,1,0,254,3],
 "dd/d97/z__value__layer__manager_8h.html":[3,4,0,4,7],
 "dd/d9e/passwordhasher_8h.html":[4,2,0,11,0,0,8],
-"dd/d9e/passwordhasher_8h_source.html":[4,2,0,11,0,0,8],
-"dd/da0/todo.html":[2],
-"dd/da1/classCardInfoPictureWithTextOverlayWidget.html":[4,1,0,78],
-"dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a0f7450e594b39010a0d93ec8057e8516":[4,1,0,78,8]
+"dd/d9e/passwordhasher_8h_source.html":[4,2,0,11,0,0,8]
 };

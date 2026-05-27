@@ -846,7 +846,7 @@ var searchData=
   ['arrowcolor_843',['arrowColor',['../df/d3b/classServer__Arrow.html#af95ab6d280cb8e751225c4dccf42f4d3',1,'Server_Arrow']]],
   ['arrowcreaterequested_844',['arrowCreateRequested',['../d2/d98/classPlayerLogic.html#ab333a6f1e9d82991a8f5d44e387fd06d',1,'PlayerLogic']]],
   ['arrowdata_845',['ArrowData',['../db/d21/structArrowData.html',1,'']]],
-  ['arrowdeleted_846',['arrowDeleted',['../d2/d98/classPlayerLogic.html#a8016c0617f8bf3092c5416487a1a7bd9',1,'PlayerLogic']]],
+  ['arrowdeleted_846',['arrowDeleted',['../d7/db2/classGameEventHandler.html#a16a4cecb7030cda37424d096f9e1a8f1',1,'GameEventHandler::arrowDeleted()'],['../d2/d98/classPlayerLogic.html#a8016c0617f8bf3092c5416487a1a7bd9',1,'PlayerLogic::arrowDeleted(int arrowId)']]],
   ['arrowdeleterequested_847',['arrowDeleteRequested',['../d2/d98/classPlayerLogic.html#a2b684c5ce99a80fba301982ed3e32342',1,'PlayerLogic']]],
   ['arrowdragitem_848',['ArrowDragItem',['../d4/ddc/classArrowDragItem.html',1,'ArrowDragItem'],['../d4/ddc/classArrowDragItem.html#adef70bc6e7e9e90b3a46045d15033fc7',1,'ArrowDragItem::ArrowDragItem()']]],
   ['arrowitem_849',['ArrowItem',['../df/d2a/classArrowItem.html',1,'ArrowItem'],['../df/d2a/classArrowItem.html#a82ce295222d21a3ae269dec4c1c97622',1,'ArrowItem::ArrowItem()']]],

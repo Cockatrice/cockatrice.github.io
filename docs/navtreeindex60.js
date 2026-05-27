@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"df/d15/remote__client_8h.html":[3,5,1,8],
+"df/d16/structTabGame_1_1DockActions.html":[4,1,0,484,0],
+"df/d16/structTabGame_1_1DockActions.html#aa6094d88c3abdbf1344c5016b4df3cc6":[4,1,0,484,0,1],
 "df/d16/structTabGame_1_1DockActions.html#aa9ba91f5c0ae781585025d80325546a4":[4,1,0,484,0,0],
 "df/d16/structTabGame_1_1DockActions.html#ab6d7afb81ee05dffce236526d5b4b241":[4,1,0,484,0,3],
 "df/d16/structTabGame_1_1DockActions.html#ad1aa1864e3aedf6b3de6c653a509b7af":[4,1,0,484,0,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "df/d78/classTabRoom.html#a41d31a922432055d65fc23fc81ff6473":[4,1,0,491,30],
 "df/d78/classTabRoom.html#a48e68993b350dc1ae4eb91ae34edeb68":[4,1,0,491,3],
 "df/d78/classTabRoom.html#a4a8350708666f5eb89cb3c0b1a6f7a1f":[4,1,0,491,17],
-"df/d78/classTabRoom.html#a50509f0850382e53013dd09d9f2b178a":[4,1,0,491,45],
-"df/d78/classTabRoom.html#a5a20121f1a9136c1588a2bf4477a624d":[4,1,0,491,8],
-"df/d78/classTabRoom.html#a5b126d66af6796b90a200cd74228d1c1":[4,1,0,491,32],
-"df/d78/classTabRoom.html#a60e7647a7288c15446b1f4e5771080a4":[4,1,0,491,14]
+"df/d78/classTabRoom.html#a50509f0850382e53013dd09d9f2b178a":[4,1,0,491,45]
 };
