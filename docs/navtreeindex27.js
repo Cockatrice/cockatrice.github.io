@@ -1,5 +1,10 @@
 var NAVTREEINDEX27 =
 {
+"d7/d30/classColorIdentityWidget.html#ab4bf52f1b69697d46c305301e890824a":[4,1,0,111,0],
+"d7/d30/classColorIdentityWidget.html#ab641d4700587eecb13436f4251e86f7b":[4,1,0,111,7],
+"d7/d30/classColorIdentityWidget.html#ac38a09804e81578bebc92a2cb85dec7c":[4,1,0,111,5],
+"d7/d31/deck__list__history__manager_8cpp.html":[4,2,0,3,0,0,3],
+"d7/d36/pile__zone__logic_8h.html":[3,4,1,1,2],
 "d7/d3d/tab__archidekt_8cpp.html":[4,2,0,0,1,5,4,11,0,0,2],
 "d7/d42/mana__curve__category__widget_8h.html":[4,2,0,0,1,5,4,1,0,2,1],
 "d7/d42/mana__curve__category__widget_8h_source.html":[4,2,0,0,1,5,4,1,0,2,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX27 =
 "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#afaacba52180ed0f17d4edf0af5d41fd6":[4,1,0,540,25],
 "d7/d93/classMessageLogWidget.html":[4,1,0,311],
 "d7/d93/classMessageLogWidget.html#a02f5d80be7bfbc370bb23738139387d4":[4,1,0,311,8],
-"d7/d93/classMessageLogWidget.html#a07db806786771f82b2eb2c9bd14a9e2c":[4,1,0,311,14],
-"d7/d93/classMessageLogWidget.html#a088e8bcf62c208a5e1af7f51caf6b3e7":[4,1,0,311,26],
-"d7/d93/classMessageLogWidget.html#a13df61814a0a4510ed07d236a4914d5f":[4,1,0,311,3],
-"d7/d93/classMessageLogWidget.html#a19180bd267ded6a9c68d45bb199b4222":[4,1,0,311,34],
-"d7/d93/classMessageLogWidget.html#a224798718a90999c28a13d024f76c809":[4,1,0,311,21],
-"d7/d93/classMessageLogWidget.html#a2527a5f6397aafa11b80928674963a8f":[4,1,0,311,54]
+"d7/d93/classMessageLogWidget.html#a07db806786771f82b2eb2c9bd14a9e2c":[4,1,0,311,14]
 };

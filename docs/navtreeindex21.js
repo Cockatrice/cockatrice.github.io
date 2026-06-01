@@ -1,5 +1,10 @@
 var NAVTREEINDEX21 =
 {
+"d5/da6/group__GameMenusCards.html":[3,4,0,3,2],
+"d5/da7/classTabAccount.html":[4,1,0,473],
+"d5/da7/classTabAccount.html#a0c0b514670d6d37435deba9186cadef2":[4,1,0,473,9],
+"d5/da7/classTabAccount.html#a1d4cb6c2d51b1f7c3a101521b7afb664":[4,1,0,473,7],
+"d5/da7/classTabAccount.html#a2a9fed6ece4a53306291760da028e9ae":[4,1,0,473,3],
 "d5/da7/classTabAccount.html#a3cf849889d4a417fc6d9a238cfd6d895":[4,1,0,473,4],
 "d5/da7/classTabAccount.html#a5fe75a6b033e0d7eab2058476551e434":[4,1,0,473,8],
 "d5/da7/classTabAccount.html#a60c2fa0c4dd7cf1c419907712aa90068":[4,1,0,473,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX21 =
 "d5/dd3/classCardDragItem.html#a859f421df46bec2ed918a31e57648b33":[4,1,0,68,8],
 "d5/dd3/classCardDragItem.html#ae70a276125c2936ed89248481030076b":[4,1,0,68,5],
 "d5/dd3/classCardDragItem.html#afe72c9786ad359984fd1ee500bbca6f0":[4,1,0,68,3],
-"d5/dd3/flow__widget_8h.html":[3,1,7],
-"d5/dd6/server__arrow_8cpp.html":[4,2,0,7,0,0,1,1,0,4],
-"d5/dd7/classSideboardMenu.html":[4,1,0,459],
-"d5/dd7/classSideboardMenu.html#a03010023b1d8e563effe60cf84dbd219":[4,1,0,459,2],
-"d5/dd7/classSideboardMenu.html#a461c87580804a0cea85e93e32c4fc2b1":[4,1,0,459,0],
-"d5/dd7/classSideboardMenu.html#a5ed7c9053558be7942a356a92dbcf3d4":[4,1,0,459,5]
+"d5/dd3/flow__widget_8h.html":[3,1,7]
 };

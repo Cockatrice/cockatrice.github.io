@@ -1,5 +1,12 @@
 var NAVTREEINDEX59 =
 {
+"de/dba/classRNG__Abstract.html#a33135e7af3865f772b3ed5528da88b6f":[4,1,0,400,1],
+"de/dba/classRNG__Abstract.html#aa06011945373c4bfe8b7914f479f68c4":[4,1,0,400,3],
+"de/dba/classRNG__Abstract.html#ad4e5a284460861357acc3c5f83afa814":[4,1,0,400,0],
+"de/dba/classRNG__Abstract.html#ae178b12153e702f8250c343636a2db37":[4,1,0,400,2],
+"de/dbe/classCardDatabaseSettings.html":[4,1,0,67],
+"de/dbe/classCardDatabaseSettings.html#a06bb3199840818021504d99a472818a7":[4,1,0,67,6],
+"de/dbe/classCardDatabaseSettings.html#a167321b275a5fce82059550adf45dce3":[4,1,0,67,2],
 "de/dbe/classCardDatabaseSettings.html#a19bd88c51ef167d07c6cb7e7d87b93e0":[4,1,0,67,0],
 "de/dbe/classCardDatabaseSettings.html#a638768afda3a6eb230aaf7b6ced129b4":[4,1,0,67,7],
 "de/dbe/classCardDatabaseSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,67,8],
@@ -242,12 +249,5 @@ var NAVTREEINDEX59 =
 "df/d0e/pile__zone_8cpp.html":[4,2,0,0,1,4,1,4],
 "df/d10/edhrec__top__commanders__api__response_8cpp.html":[4,2,0,0,1,5,4,11,0,1,0,6,0],
 "df/d11/dlg__view__log_8h.html":[3,1,0,0,0,5,0],
-"df/d11/dlg__view__log_8h.html":[3,1,0,9,0,5,0],
-"df/d11/dlg__view__log_8h.html":[3,5,1,1,0,5,0],
-"df/d13/cockatrice__xml__3_8cpp.html":[4,2,0,2,0,0,0,0,2],
-"df/d13/cockatrice__xml__3_8cpp.html#a04d75b2bb062600c737dc748b85a65eb":[4,2,0,2,0,0,0,0,2,3],
-"df/d13/cockatrice__xml__3_8cpp.html#a0a44d97f4ac855afca537267748e1a50":[4,2,0,2,0,0,0,0,2,2],
-"df/d13/cockatrice__xml__3_8cpp.html#a25ca4a8e2f5cf520228cb9078a5a7917":[4,2,0,2,0,0,0,0,2,0],
-"df/d13/cockatrice__xml__3_8cpp.html#a7fa78dc2e28f619b62d91e22a85e1b36":[4,2,0,2,0,0,0,0,2,4],
-"df/d13/cockatrice__xml__3_8cpp.html#ad13439b03f3b3d2571aaf0bb4b8d4b28":[4,2,0,2,0,0,0,0,2,1]
+"df/d11/dlg__view__log_8h.html":[3,1,0,9,0,5,0]
 };

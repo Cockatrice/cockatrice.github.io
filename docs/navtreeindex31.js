@@ -1,5 +1,10 @@
 var NAVTREEINDEX31 =
 {
+"d8/d70/qxtmailattachment_8h_source.html":[4,2,0,13,0,0,5],
+"d8/d78/dlg__filter__games_8cpp.html":[4,2,0,0,1,5,4,3,16],
+"d8/d78/group__Tabs.html":[3,1,0,1],
+"d8/d7a/edhrec__commander__api__response__display__widget_8cpp.html":[4,2,0,0,1,5,4,11,0,1,1,2,6],
+"d8/d7b/card__picture__loader_8cpp.html":[4,2,0,0,1,5,0,0],
 "d8/d7b/card__picture__loader_8cpp.html#a65ae35bbdacd4b6c83eee62f8c08a989":[4,2,0,0,1,5,0,0,0],
 "d8/d7b/qxtmailmessage_8h.html":[4,2,0,13,0,0,7],
 "d8/d7b/qxtmailmessage_8h.html#a95f85e10364bc7162e5987cf1c28401d":[4,2,0,13,0,0,7,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX31 =
 "d8/d9b/classpeg_1_1AnyCharacter.html#acc9defac823725ad089a938c9abb2df3":[4,1,0,3,24,0],
 "d8/d9d/card__info__display__widget_8cpp.html":[4,2,0,0,1,5,4,0,2],
 "d8/d9d/shortcut__treeview_8h.html":[3,7,1,0],
-"d8/d9e/classTappedOutInterface.html":[4,1,0,495],
-"d8/d9e/classTappedOutInterface.html#a17fd5bb2aef01ccfb408f393d5e6f834":[4,1,0,495,2],
-"d8/d9e/classTappedOutInterface.html#a2e37223e280978cdf02d50261109bcdd":[4,1,0,495,4],
-"d8/d9e/classTappedOutInterface.html#a33d831f8c77ac791ea4d0e65f0ed6336":[4,1,0,495,1],
-"d8/d9e/classTappedOutInterface.html#a58d20b7e98625b24b49be807af67e5c3":[4,1,0,495,6],
-"d8/d9e/classTappedOutInterface.html#a809f522a63a9530e30a812af4e78d1a6":[4,1,0,495,0]
+"d8/d9e/classTappedOutInterface.html":[4,1,0,495]
 };

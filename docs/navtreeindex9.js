@@ -1,5 +1,9 @@
 var NAVTREEINDEX9 =
 {
+"d2/d63/classArchidektApiResponseCard.html#af6772b596a488e19926d4f7066e1d291":[4,1,0,29,0],
+"d2/d63/classArchidektApiResponseCard.html#afad2142d377e3c5a56f9d16872532a11":[4,1,0,29,12],
+"d2/d65/deck__list__card__node_8cpp.html":[4,2,0,3,0,0,0,4],
+"d2/d66/classpeg_1_1Ope.html":[4,0,0,15,13],
 "d2/d66/classpeg_1_1Ope.html":[4,1,0,3,12],
 "d2/d66/classpeg_1_1Ope.html#a91a45bcf5cc492eaf320b066e3598a8b":[4,0,0,15,13,5],
 "d2/d66/classpeg_1_1Ope.html#a91a45bcf5cc492eaf320b066e3598a8b":[4,1,0,3,12,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "d2/d98/classPlayerLogic.html#a76592936e6dfbbe82b2b8b0bb724e803":[4,1,0,359,29],
 "d2/d98/classPlayerLogic.html#a793977e178841b17ca915b9d23e13d8f":[4,1,0,359,17],
 "d2/d98/classPlayerLogic.html#a8016c0617f8bf3092c5416487a1a7bd9":[4,1,0,359,9],
-"d2/d98/classPlayerLogic.html#a831e347af506eb0493414f7cbaf4155c":[4,1,0,359,56],
-"d2/d98/classPlayerLogic.html#a845746b02fa61ceb730276a9a5e08e73":[4,1,0,359,60],
-"d2/d98/classPlayerLogic.html#a84b2da3ccc40e45ccc3a3de060f26deb":[4,1,0,359,12],
-"d2/d98/classPlayerLogic.html#a874c443bab587df925c8a5d1d7c4bd74":[4,1,0,359,23],
-"d2/d98/classPlayerLogic.html#a8da728af140f91d285295b3203d4b579":[4,1,0,359,21]
+"d2/d98/classPlayerLogic.html#a831e347af506eb0493414f7cbaf4155c":[4,1,0,359,56]
 };

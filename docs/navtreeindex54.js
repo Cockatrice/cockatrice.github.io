@@ -1,5 +1,12 @@
 var NAVTREEINDEX54 =
 {
+"dd/dd2/classCardInfo.html#ae93671742c179b4da21add1ec997b586":[3,2,7,3],
+"dd/dd2/classCardInfo.html#aed0062cd2d4d936dab67dcc279616ad6":[3,2,7,7],
+"dd/dd2/classCardInfo.html#af1d1302ff829cb813f3b4c97e8c6dc7b":[3,2,7,48],
+"dd/dd2/classCardInfo.html#af2a0e300829b6b147cb4e717c58f68e4":[3,2,7,21],
+"dd/dd2/classCardInfo.html#af783715e86ee525bb25eea6a429d7bbf":[3,2,7,58],
+"dd/dd2/classCardInfo.html#afc4e1f841fe0d229f66ea9f1b4e0c69b":[3,2,7,19],
+"dd/dd2/classCardInfoPictureWidget.html":[4,1,0,77],
 "dd/dd2/classCardInfoPictureWidget.html#a0c8c6fcb453f4459851cb91222233cd8":[4,1,0,77,23],
 "dd/dd2/classCardInfoPictureWidget.html#a0ee2d270a29b4fc61e47cb42d8d4d373":[4,1,0,77,0],
 "dd/dd2/classCardInfoPictureWidget.html#a123a399de8c54af7d18fc30c4e679c8f":[4,1,0,77,20],
@@ -242,12 +249,5 @@ var NAVTREEINDEX54 =
 "dd/dea/palette__grid__widget_8h_source.html":[4,2,0,0,1,5,3,7],
 "dd/df3/group__DeckEditors.html":[3,3,1],
 "dd/df4/color__pie_8cpp.html":[4,2,0,0,1,5,4,4,0,0,1,0],
-"dd/df4/dlg__forgot__password__reset_8cpp.html":[4,2,0,0,1,5,4,3,22],
-"dd/df6/classSetsDisplayModel.html":[4,1,0,441],
-"dd/df6/classSetsDisplayModel.html#a15a8c4cba12804e3410492979f68a60b":[4,1,0,441,1],
-"dd/df6/classSetsDisplayModel.html#a498343fc28af59ac455f056e7442da25":[4,1,0,441,0],
-"dd/df6/classSetsDisplayModel.html#aa936f160c0e2bd724a6e5629635943ae":[4,1,0,441,3],
-"dd/df6/classSetsDisplayModel.html#aecb9938bdf75d06273561ed73f616817":[4,1,0,441,2],
-"dd/df8/group__CardPrintings.html":[3,2,2],
-"dd/dfc/message__log__widget_8cpp.html":[4,2,0,0,1,3,3,0]
+"dd/df4/dlg__forgot__password__reset_8cpp.html":[4,2,0,0,1,5,4,3,22]
 };

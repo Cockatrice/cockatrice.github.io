@@ -1,5 +1,12 @@
 var NAVTREEINDEX63 =
 {
+"df/dd1/classDeckEditorSettingsPage.html#af430cfccf49983ca3ab125e236d5702b":[4,1,0,129,12],
+"df/dd5/structpeg_1_1SemanticValues.html":[4,0,0,15,4],
+"df/dd5/structpeg_1_1SemanticValues.html":[4,1,0,3,3],
+"df/dd5/structpeg_1_1SemanticValues.html#a02e5b0ba9db61ad2f8c23dff4a928337":[4,0,0,15,4,4],
+"df/dd5/structpeg_1_1SemanticValues.html#a02e5b0ba9db61ad2f8c23dff4a928337":[4,1,0,3,3,4],
+"df/dd5/structpeg_1_1SemanticValues.html#a03fd6f38c9bbb720acda0e755f741f82":[4,0,0,15,4,9],
+"df/dd5/structpeg_1_1SemanticValues.html#a03fd6f38c9bbb720acda0e755f741f82":[4,1,0,3,3,9],
 "df/dd5/structpeg_1_1SemanticValues.html#a08af0af2e3c89cae324278ed5301bc36":[4,0,0,15,4,26],
 "df/dd5/structpeg_1_1SemanticValues.html#a08af0af2e3c89cae324278ed5301bc36":[4,1,0,3,3,26],
 "df/dd5/structpeg_1_1SemanticValues.html#a0d13a0c3ba9124e9eb8d15ca4a55a73e":[4,0,0,15,4,19],
@@ -242,12 +249,5 @@ var NAVTREEINDEX63 =
 "df/dff/structpeg_1_1DetectLeftRecursion.html#a469d6c2304fca68af01f6d191c732004":[4,1,0,3,44,4],
 "df/dff/structpeg_1_1DetectLeftRecursion.html#a48e41801dcaf2d23306725701d268fc2":[4,0,0,15,45,21],
 "df/dff/structpeg_1_1DetectLeftRecursion.html#a48e41801dcaf2d23306725701d268fc2":[4,1,0,3,44,21],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a4902ea4c8e269102796c555e8f6a3482":[4,0,0,15,45,17],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a4902ea4c8e269102796c555e8f6a3482":[4,1,0,3,44,17],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a4ae53f4b56984c63fa746000154fd02f":[4,0,0,15,45,26],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a4ae53f4b56984c63fa746000154fd02f":[4,1,0,3,44,26],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a560de438a29bf16f56d14b0c220a5b87":[4,0,0,15,45,19],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a560de438a29bf16f56d14b0c220a5b87":[4,1,0,3,44,19],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a6832730a9e68ac4d3c702a308897324c":[4,0,0,15,45,5],
-"df/dff/structpeg_1_1DetectLeftRecursion.html#a6832730a9e68ac4d3c702a308897324c":[4,1,0,3,44,5]
+"df/dff/structpeg_1_1DetectLeftRecursion.html#a4902ea4c8e269102796c555e8f6a3482":[4,0,0,15,45,17]
 };

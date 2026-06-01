@@ -1,5 +1,10 @@
 var NAVTREEINDEX30 =
 {
+"d8/d21/classServer__Player.html#af4f29c0855ce09de6cb16673b6ffc798":[4,1,0,428,19],
+"d8/d21/classServer__Player.html#af6f52fb7fa79abcda96d0012fa931c99":[4,1,0,428,15],
+"d8/d23/group__GameMenusZones.html":[3,4,0,3,1],
+"d8/d24/server__card__counter__test_8cpp.html":[3,8,0],
+"d8/d2c/dynamic__font__size__label_8h.html":[3,1,0,15],
 "d8/d2d/classOracleWizardPage.html":[4,1,0,328],
 "d8/d2d/classOracleWizardPage.html#a0f280c5ae5e3817b7bad4f3a207c47ba":[4,1,0,328,0],
 "d8/d2d/classOracleWizardPage.html#a27632e8dc2b86d6e6adf2c11f3e62e91":[4,1,0,328,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX30 =
 "d8/d70/classZoneViewZoneLogic.html#af2f1c5ab07a31e9279bcbe8447293fde":[4,1,0,555,15],
 "d8/d70/classZoneViewZoneLogic.html#af8e982515d0688d1edd6384e77d5a03a":[4,1,0,555,1],
 "d8/d70/qxtmailattachment_8h.html":[4,2,0,13,0,0,5],
-"d8/d70/qxtmailattachment_8h.html#a90aa37e15a86744b22d8284f48c27021":[4,2,0,13,0,0,5,1],
-"d8/d70/qxtmailattachment_8h_source.html":[4,2,0,13,0,0,5],
-"d8/d78/dlg__filter__games_8cpp.html":[4,2,0,0,1,5,4,3,16],
-"d8/d78/group__Tabs.html":[3,1,0,1],
-"d8/d7a/edhrec__commander__api__response__display__widget_8cpp.html":[4,2,0,0,1,5,4,11,0,1,1,2,6],
-"d8/d7b/card__picture__loader_8cpp.html":[4,2,0,0,1,5,0,0]
+"d8/d70/qxtmailattachment_8h.html#a90aa37e15a86744b22d8284f48c27021":[4,2,0,13,0,0,5,1]
 };

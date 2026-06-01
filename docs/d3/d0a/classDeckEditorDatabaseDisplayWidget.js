@@ -1,6 +1,7 @@
 var classDeckEditorDatabaseDisplayWidget =
 [
     [ "DeckEditorDatabaseDisplayWidget", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a2b7a824a487c3bcf735f38aa23836773", null ],
+    [ "actAddCard", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#ad7d4b1a1a0c9026d9a267d91cfc430e0", null ],
     [ "actAddCardToMainDeck", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#ad9985e48ffae89266d9afa57df1795d6", null ],
     [ "actAddCardToSideboard", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#ac63097b897346ae0de5acd4650c98ae4", null ],
     [ "actDecrementCardFromMainDeck", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html#a654cc4e123a733366976700f207b4253", null ],

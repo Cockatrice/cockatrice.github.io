@@ -1,5 +1,10 @@
 var NAVTREEINDEX33 =
 {
+"d8/dcf/classRemoteDeckList__TreeModel.html#ad5bc737e522782af5a2310f89e8e08e9":[4,1,0,389,19],
+"d8/dcf/classRemoteDeckList__TreeModel.html#af557f37373569891e4e85558f013c4a6":[4,1,0,389,14],
+"d8/dcf/classRemoteDeckList__TreeModel.html#afb0d952dc1472c29e352e50a84526e62":[4,1,0,389,26],
+"d8/dcf/classRemoteDeckList__TreeModel.html#afb1406760f696098d9213c8c6308eb4d":[4,1,0,389,3],
+"d8/ddc/tab__game_8cpp.html":[4,2,0,0,1,5,4,11,15],
 "d8/dec/group__RoomWidgets.html":[3,1,0,10],
 "d8/dec/group__RoomWidgets.html":[3,5,1,3],
 "d8/df0/classSaveSetsPage.html":[4,1,0,403],
@@ -244,10 +249,5 @@ var NAVTREEINDEX33 =
 "d9/d35/classCardPictureLoaderWorkerWork.html#a29b0c81fad846004a783ec3d09262dfb":[3,2,0,5,12],
 "d9/d35/classCardPictureLoaderWorkerWork.html#a388059b693ffc302e344c1d4d1ef4f79":[3,1,1,5,2],
 "d9/d35/classCardPictureLoaderWorkerWork.html#a388059b693ffc302e344c1d4d1ef4f79":[3,2,0,5,2],
-"d9/d35/classCardPictureLoaderWorkerWork.html#a4c09d28e6f6b041f95adfb803e06e0d1":[3,1,1,5,7],
-"d9/d35/classCardPictureLoaderWorkerWork.html#a4c09d28e6f6b041f95adfb803e06e0d1":[3,2,0,5,7],
-"d9/d35/classCardPictureLoaderWorkerWork.html#a583f215234b5b58a68c088c6fe418f15":[3,1,1,5,10],
-"d9/d35/classCardPictureLoaderWorkerWork.html#a583f215234b5b58a68c088c6fe418f15":[3,2,0,5,10],
-"d9/d35/classCardPictureLoaderWorkerWork.html#a88f83beace09a5548a577934c665703e":[3,1,1,5,13],
-"d9/d35/classCardPictureLoaderWorkerWork.html#a88f83beace09a5548a577934c665703e":[3,2,0,5,13]
+"d9/d35/classCardPictureLoaderWorkerWork.html#a4c09d28e6f6b041f95adfb803e06e0d1":[3,1,1,5,7]
 };

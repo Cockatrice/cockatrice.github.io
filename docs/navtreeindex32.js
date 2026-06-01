@@ -1,5 +1,10 @@
 var NAVTREEINDEX32 =
 {
+"d8/d9e/classTappedOutInterface.html#a17fd5bb2aef01ccfb408f393d5e6f834":[4,1,0,495,2],
+"d8/d9e/classTappedOutInterface.html#a2e37223e280978cdf02d50261109bcdd":[4,1,0,495,4],
+"d8/d9e/classTappedOutInterface.html#a33d831f8c77ac791ea4d0e65f0ed6336":[4,1,0,495,1],
+"d8/d9e/classTappedOutInterface.html#a58d20b7e98625b24b49be807af67e5c3":[4,1,0,495,6],
+"d8/d9e/classTappedOutInterface.html#a809f522a63a9530e30a812af4e78d1a6":[4,1,0,495,0],
 "d8/d9e/classTappedOutInterface.html#aa9ae20301235112b199e55644cf9a484":[4,1,0,495,5],
 "d8/d9e/classTappedOutInterface.html#ae3e15fe133ffb523da99fdb0d0887f90":[4,1,0,495,3],
 "d8/d9f/chat__view_8h.html":[3,1,0,9,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX32 =
 "d8/dcf/classRemoteDeckList__TreeModel.html#ab483a54c0bc53579f7f86909e951f9fc":[4,1,0,389,11],
 "d8/dcf/classRemoteDeckList__TreeModel.html#ab6f0885532fc5955d56d4178c19e9bc0":[4,1,0,389,13],
 "d8/dcf/classRemoteDeckList__TreeModel.html#ac054a736263af0188aa246701f4f82a2":[4,1,0,389,25],
-"d8/dcf/classRemoteDeckList__TreeModel.html#ad5201b4b94ec6dac8716637796e70364":[4,1,0,389,22],
-"d8/dcf/classRemoteDeckList__TreeModel.html#ad5bc737e522782af5a2310f89e8e08e9":[4,1,0,389,19],
-"d8/dcf/classRemoteDeckList__TreeModel.html#af557f37373569891e4e85558f013c4a6":[4,1,0,389,14],
-"d8/dcf/classRemoteDeckList__TreeModel.html#afb0d952dc1472c29e352e50a84526e62":[4,1,0,389,26],
-"d8/dcf/classRemoteDeckList__TreeModel.html#afb1406760f696098d9213c8c6308eb4d":[4,1,0,389,3],
-"d8/ddc/tab__game_8cpp.html":[4,2,0,0,1,5,4,11,15]
+"d8/dcf/classRemoteDeckList__TreeModel.html#ad5201b4b94ec6dac8716637796e70364":[4,1,0,389,22]
 };

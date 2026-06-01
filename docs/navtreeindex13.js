@@ -1,5 +1,10 @@
 var NAVTREEINDEX13 =
 {
+"d3/d9b/classDlgForgotPasswordReset.html#adc75e4bc78fecc3b6f850708eea6dbc9":[4,1,0,173,10],
+"d3/d9b/classDlgForgotPasswordReset.html#ae92f49b948ee78ca7a92dd89ff366866":[4,1,0,173,13],
+"d3/d9f/classClientUpdateChecker.html":[4,1,0,105],
+"d3/d9f/classClientUpdateChecker.html#a3444e7add106a93cd0fc54ab3da2463e":[4,1,0,105,6],
+"d3/d9f/classClientUpdateChecker.html#a3c3c7488e6fbffe557d0270ed8d123fe":[4,1,0,105,5],
 "d3/d9f/classClientUpdateChecker.html#a40c0ac762b7e9937cd264eb714adb91c":[4,1,0,105,7],
 "d3/d9f/classClientUpdateChecker.html#a6b77a98e02757c34e0111e9a53ea71c3":[4,1,0,105,2],
 "d3/d9f/classClientUpdateChecker.html#a7b240768eb64332cd06b286765a9ff9c":[4,1,0,105,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX13 =
 "d3/de9/classAbstractDecklistCardNode.html#ae86a8201eb294c8074650385af146b9f":[3,3,0,0,15],
 "d3/def/classArchidektJsonParser.html":[4,1,0,41],
 "d3/def/classArchidektJsonParser.html#a46be25229701d459ac7124044c475bfa":[4,1,0,41,0],
-"d3/def/edhrec__commander__api__response_8h.html":[4,2,0,0,1,5,4,11,0,1,0,4,1],
-"d3/def/edhrec__commander__api__response_8h_source.html":[4,2,0,0,1,5,4,11,0,1,0,4,1],
-"d3/df1/mana__curve__widget_8h.html":[3,1,0,4,1,1],
-"d3/df1/mana__curve__widget_8h.html":[3,3,1,1,1,1],
-"d3/df2/abstract__game_8cpp.html":[4,2,0,0,1,3,6],
-"d3/df2/player__logic_8h.html":[4,2,0,0,1,3,4,16]
+"d3/def/edhrec__commander__api__response_8h.html":[4,2,0,0,1,5,4,11,0,1,0,4,1]
 };

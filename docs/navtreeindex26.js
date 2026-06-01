@@ -1,5 +1,10 @@
 var NAVTREEINDEX26 =
 {
+"d6/de6/structCardPictureLoaderCacheMethod_1_1CacheMethodInfo.html#a6a85034b31570ec688236b08d59f60ec":[4,0,0,3,0,0],
+"d6/de6/structCardPictureLoaderCacheMethod_1_1CacheMethodInfo.html#a6a85034b31570ec688236b08d59f60ec":[4,1,0,1,0,0],
+"d6/de9/group__ServerLogDialogs.html":[3,1,0,0,0,5],
+"d6/de9/group__ServerLogDialogs.html":[3,1,0,9,0,5],
+"d6/de9/group__ServerLogDialogs.html":[3,5,1,1,0,5],
 "d6/deb/classQxtSmtpPrivate.html":[4,1,0,384],
 "d6/deb/classQxtSmtpPrivate.html#a03fa60815b1b4cb6825e09017c60d719":[4,1,0,384,9],
 "d6/deb/classQxtSmtpPrivate.html#a177d60fd3b1d4e84eba7c981f356d623":[4,1,0,384,19],
@@ -244,10 +249,5 @@ var NAVTREEINDEX26 =
 "d7/d30/classColorIdentityWidget.html#a1911b548df538e8e965b9ad963543b5c":[4,1,0,111,4],
 "d7/d30/classColorIdentityWidget.html#a76b5eb38f655d99181c4adb746b13886":[4,1,0,111,1],
 "d7/d30/classColorIdentityWidget.html#a9e8b981d5ada1feda78d25922eef8fbf":[4,1,0,111,6],
-"d7/d30/classColorIdentityWidget.html#aa890171c8d35393be9d1eccdb93bc5f5":[4,1,0,111,2],
-"d7/d30/classColorIdentityWidget.html#ab4bf52f1b69697d46c305301e890824a":[4,1,0,111,0],
-"d7/d30/classColorIdentityWidget.html#ab641d4700587eecb13436f4251e86f7b":[4,1,0,111,7],
-"d7/d30/classColorIdentityWidget.html#ac38a09804e81578bebc92a2cb85dec7c":[4,1,0,111,5],
-"d7/d31/deck__list__history__manager_8cpp.html":[4,2,0,3,0,0,3],
-"d7/d36/pile__zone__logic_8h.html":[3,4,1,1,2]
+"d7/d30/classColorIdentityWidget.html#aa890171c8d35393be9d1eccdb93bc5f5":[4,1,0,111,2]
 };

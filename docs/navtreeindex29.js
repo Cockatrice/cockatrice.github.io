@@ -1,5 +1,10 @@
 var NAVTREEINDEX29 =
 {
+"d7/dd2/oracle_2src_2main_8h.html":[4,2,0,12,0,4],
+"d7/dd2/oracle_2src_2main_8h.html#a5478ed32ecba2ea3746feedf3a4d896e":[4,2,0,12,0,4,2],
+"d7/dd2/oracle_2src_2main_8h.html#a8673a2e2e7004cad43f37daf45ea02db":[4,2,0,12,0,4,1],
+"d7/dd2/oracle_2src_2main_8h.html#a95459f5f6bf2f4de18c7b62e60fe5a75":[4,2,0,12,0,4,4],
+"d7/dd2/oracle_2src_2main_8h.html#a9f8b1077cdf88022508dd967530d4e8b":[4,2,0,12,0,4,0],
 "d7/dd2/oracle_2src_2main_8h.html#af6ed40c10ba5fdfc3ba8a6e100e43a3f":[4,2,0,12,0,4,3],
 "d7/dd2/oracle_2src_2main_8h_source.html":[4,2,0,12,0,4],
 "d7/dd6/card__database__loader_8cpp.html":[4,2,0,2,0,0,0,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX29 =
 "d8/d21/classServer__Player.html#adbfad6a6eb8b32ede88e8369642cd4a1":[4,1,0,428,14],
 "d8/d21/classServer__Player.html#adec0fd8256ae73982116f6426e412310":[4,1,0,428,16],
 "d8/d21/classServer__Player.html#aef755d02bc5efe7394cf53e6f48ecacf":[4,1,0,428,25],
-"d8/d21/classServer__Player.html#af3e59a1e6ef18bf647c49e126604db67":[4,1,0,428,26],
-"d8/d21/classServer__Player.html#af4f29c0855ce09de6cb16673b6ffc798":[4,1,0,428,19],
-"d8/d21/classServer__Player.html#af6f52fb7fa79abcda96d0012fa931c99":[4,1,0,428,15],
-"d8/d23/group__GameMenusZones.html":[3,4,0,3,1],
-"d8/d24/server__card__counter__test_8cpp.html":[3,8,0],
-"d8/d2c/dynamic__font__size__label_8h.html":[3,1,0,15]
+"d8/d21/classServer__Player.html#af3e59a1e6ef18bf647c49e126604db67":[4,1,0,428,26]
 };

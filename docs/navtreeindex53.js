@@ -1,5 +1,12 @@
 var NAVTREEINDEX53 =
 {
+"dd/d97/classGameView.html#abb199d16bf452a795673a2ab8ade90eb":[4,1,0,254,12],
+"dd/d97/classGameView.html#abe5a1c8430b6b874b107dcfd9ce892eb":[4,1,0,254,2],
+"dd/d97/classGameView.html#aef251a480bd3a38b4e2f2d4d00468288":[4,1,0,254,5],
+"dd/d97/classGameView.html#af70c41824588dc223d5a9a17ddba21d7":[4,1,0,254,3],
+"dd/d97/z__value__layer__manager_8h.html":[3,4,0,4,7],
+"dd/d9e/passwordhasher_8h.html":[4,2,0,11,0,0,8],
+"dd/d9e/passwordhasher_8h_source.html":[4,2,0,11,0,0,8],
 "dd/da0/todo.html":[2],
 "dd/da1/classCardInfoPictureWithTextOverlayWidget.html":[4,1,0,78],
 "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a0f7450e594b39010a0d93ec8057e8516":[4,1,0,78,8],
@@ -242,12 +249,5 @@ var NAVTREEINDEX53 =
 "dd/dd2/classCardInfo.html#ae3038736850ab030b20f81bf1426a19b":[3,2,7,35],
 "dd/dd2/classCardInfo.html#ae4d332485255b973e67e25b2b6e47a8a":[3,2,7,9],
 "dd/dd2/classCardInfo.html#ae5eb6091199db1f8dab7f27bee144924":[3,2,7,38],
-"dd/dd2/classCardInfo.html#ae7c99d0abbc0a191ea764822a0e3ecd5":[3,2,7,20],
-"dd/dd2/classCardInfo.html#ae93671742c179b4da21add1ec997b586":[3,2,7,3],
-"dd/dd2/classCardInfo.html#aed0062cd2d4d936dab67dcc279616ad6":[3,2,7,7],
-"dd/dd2/classCardInfo.html#af1d1302ff829cb813f3b4c97e8c6dc7b":[3,2,7,48],
-"dd/dd2/classCardInfo.html#af2a0e300829b6b147cb4e717c58f68e4":[3,2,7,21],
-"dd/dd2/classCardInfo.html#af783715e86ee525bb25eea6a429d7bbf":[3,2,7,58],
-"dd/dd2/classCardInfo.html#afc4e1f841fe0d229f66ea9f1b4e0c69b":[3,2,7,19],
-"dd/dd2/classCardInfoPictureWidget.html":[4,1,0,77]
+"dd/dd2/classCardInfo.html#ae7c99d0abbc0a191ea764822a0e3ecd5":[3,2,7,20]
 };
