@@ -6,5 +6,6 @@ var classArrowAttachItem =
     [ "mouseMoveEvent", "d2/d91/classArrowAttachItem.html#a64252e354933830e7a0cdad4bda0934f", null ],
     [ "mouseReleaseEvent", "d2/d91/classArrowAttachItem.html#ad2249f14d4bf9009023e4de1253d52c2", null ],
     [ "childArrows", "d2/d91/classArrowAttachItem.html#aabf5439e43d9570ad5e3883bda438aec", null ],
+    [ "player", "d2/d91/classArrowAttachItem.html#a638819249f0382a6383e1352cc271347", null ],
     [ "positionConnection", "d2/d91/classArrowAttachItem.html#a4bf5dc42c8848639476411c58d641f70", null ]
 ];

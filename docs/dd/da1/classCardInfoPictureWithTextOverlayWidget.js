@@ -2,7 +2,6 @@ var classCardInfoPictureWithTextOverlayWidget =
 [
     [ "CardInfoPictureWithTextOverlayWidget", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a4e94ea7ef0934a0f1905d38518084948", null ],
     [ "drawOutlinedText", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#ac559146d12c9c056866fece085162dd5", null ],
-    [ "imageClicked", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#ab2fa020e0e3fa0f52e4564faf6f46abc", null ],
     [ "minimumSizeHint", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#adc64acb3267f654c49295d06869174e8", null ],
     [ "mousePressEvent", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#ada1b7626dc7a5b89a3ee03a94f89a7a5", null ],
     [ "paintEvent", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a1d894efe3243198897e9e3b5b06e82c7", null ],

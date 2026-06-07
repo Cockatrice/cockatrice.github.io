@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-01-Development-3.1.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-07-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -154,6 +154,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abd1317ead76c93a8878a302b9be563b6" id="r_abd1317ead76c93a8878a302b9be563b6"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#abd1317ead76c93a8878a302b9be563b6">getActivePhase</a> () const</td></tr>
 <tr class="memitem:ab7071e69dccc862692be181bc322c4d0" id="r_ab7071e69dccc862692be181bc322c4d0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab7071e69dccc862692be181bc322c4d0">setActivePlayer</a> (int newPlayer)</td></tr>
 <tr class="memitem:a35e3ec2c25c0d6c25273bf08f421c00c" id="r_a35e3ec2c25c0d6c25273bf08f421c00c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a35e3ec2c25c0d6c25273bf08f421c00c">setActivePhase</a> (int newPhase)</td></tr>
+<tr class="memitem:acdfbb74e2df96dac024f632acc393b4f" id="r_acdfbb74e2df96dac024f632acc393b4f"><td class="memItemLeft">qint64&#160;</td><td class="memItemRight"><a class="el" href="#acdfbb74e2df96dac024f632acc393b4f">generateArrowId</a> ()</td></tr>
 <tr class="memitem:a0ee36e9a8b99cff6c39cf1ed01737e94" id="r_a0ee36e9a8b99cff6c39cf1ed01737e94"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0ee36e9a8b99cff6c39cf1ed01737e94">removeArrows</a> (int newPhase, bool force=false)</td></tr>
 <tr class="memitem:a364c5a0716a166aea4cb7c60eaa96829" id="r_a364c5a0716a166aea4cb7c60eaa96829"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a364c5a0716a166aea4cb7c60eaa96829">nextTurn</a> ()</td></tr>
 <tr class="memitem:aa81ff567c7c1378ae86deaafe00544ae" id="r_aa81ff567c7c1378ae86deaafe00544ae"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aa81ff567c7c1378ae86deaafe00544ae">getSecondsElapsed</a> () const</td></tr>
@@ -183,6 +184,7 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a74758511cffbfd6a2793a715d0a635d7" id="r_a74758511cffbfd6a2793a715d0a635d7"><td class="memItemLeft"><a class="el" href="../../d1/d15/classServer__Room.html">Server_Room</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a74758511cffbfd6a2793a715d0a635d7">room</a></td></tr>
 <tr class="memitem:ac96b285edd77a07b6538bf55ebd213e1" id="r_ac96b285edd77a07b6538bf55ebd213e1"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ac96b285edd77a07b6538bf55ebd213e1">nextPlayerId</a></td></tr>
+<tr class="memitem:a3017a614f32730b464ba2b593e8320fe" id="r_a3017a614f32730b464ba2b593e8320fe"><td class="memItemLeft">std::atomic&lt; qint64 &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a3017a614f32730b464ba2b593e8320fe">nextArrowId</a> = 1</td></tr>
 <tr class="memitem:ade0fdcc9e779b34c36ff5f64f5a5b145" id="r_ade0fdcc9e779b34c36ff5f64f5a5b145"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ade0fdcc9e779b34c36ff5f64f5a5b145">hostId</a></td></tr>
 <tr class="memitem:a267c2435f77b3da231a88b182593ee59" id="r_a267c2435f77b3da231a88b182593ee59"><td class="memItemLeft">ServerInfo_User *&#160;</td><td class="memItemRight"><a class="el" href="#a267c2435f77b3da231a88b182593ee59">creatorInfo</a></td></tr>
 <tr class="memitem:a36315c7a6d3bd7d2bf9c23ee566db4c4" id="r_a36315c7a6d3bd7d2bf9c23ee566db4c4"><td class="memItemLeft">QMap&lt; int, <a class="el" href="../../d0/d00/classServer__AbstractParticipant.html">Server_AbstractParticipant</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a36315c7a6d3bd7d2bf9c23ee566db4c4">participants</a></td></tr>
@@ -371,7 +373,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000278">Todo</a></b></dt><dd>Transferring host to spectators has side effects. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000277">Todo</a></b></dt><dd>Transferring host to spectators has side effects. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -555,7 +557,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000277">Todo</a></b></dt><dd>Move them to Spectators instead. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000276">Todo</a></b></dt><dd>Move them to Spectators instead. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -596,6 +598,23 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_a16d4b8a7306d0fc4f6528d25961bcb8c_icgraph.svg" width="100%" height="569"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+
+</div>
+</div>
+<a id="acdfbb74e2df96dac024f632acc393b4f" name="acdfbb74e2df96dac024f632acc393b4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdfbb74e2df96dac024f632acc393b4f">&#9670;&#160;</a></span>generateArrowId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">qint64 Server_Game::generateArrowId </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2084,6 +2103,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">int Server_Game::maxPlayers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3017a614f32730b464ba2b593e8320fe" name="a3017a614f32730b464ba2b593e8320fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3017a614f32730b464ba2b593e8320fe">&#9670;&#160;</a></span>nextArrowId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;qint64&gt; Server_Game::nextArrowId = 1</td>
         </tr>
       </table>
   </td>

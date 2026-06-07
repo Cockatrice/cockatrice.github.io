@@ -1,11 +1,12 @@
 var classVisualDatabaseDisplayFilterToolbarWidget =
 [
-    [ "VisualDatabaseDisplayFilterToolbarWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a001c8be80e280834997ae4892caccadb", null ],
+    [ "VisualDatabaseDisplayFilterToolbarWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a5207bd8080a75c9e05272208c06bbed1", null ],
     [ "initialize", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#ae082ebcaf9eb889536d2ad23df52c71b", null ],
     [ "resizeEvent", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a28b11ae44b4d2c7bbd48a64f01b88bc4", null ],
     [ "retranslateUi", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#ab5d2743697877f5e034e02918bb44548", null ],
     [ "searchModelChanged", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a121f925d19c6d7e3510e78207d687e60", null ],
     [ "updateCompactMode", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a85e13b4f083c93dae4ed47918fee61d7", null ],
+    [ "deckListModel", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a871ba7c8675e477e739a774b3a4abd93", null ],
     [ "filterByLabel", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a202de37fe335759ac37618041d47c64c", null ],
     [ "filterGroupBox", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#afe0334f620d4a9da3fd1838998a192f2", null ],
     [ "formatLegalityWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a468a06e2d6e6725e1391d4875fa0da73", null ],

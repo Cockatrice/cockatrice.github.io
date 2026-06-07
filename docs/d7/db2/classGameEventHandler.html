@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-01-Development-3.1.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-07-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -138,7 +138,7 @@ Signals</h2></td></tr>
 <tr class="memitem:a7913171f85dc78ca2f45031d5c51e727" id="r_a7913171f85dc78ca2f45031d5c51e727"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7913171f85dc78ca2f45031d5c51e727">containerProcessingStarted</a> (GameEventContext context)</td></tr>
 <tr class="memitem:a49b88c8439586c2820aeaf89767677bd" id="r_a49b88c8439586c2820aeaf89767677bd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a49b88c8439586c2820aeaf89767677bd">setContextJudgeName</a> (QString judgeName)</td></tr>
 <tr class="memitem:a15261de82508c5f1d8938d65ec57b669" id="r_a15261de82508c5f1d8938d65ec57b669"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a15261de82508c5f1d8938d65ec57b669">containerProcessingDone</a> ()</td></tr>
-<tr class="memitem:a16a4cecb7030cda37424d096f9e1a8f1" id="r_a16a4cecb7030cda37424d096f9e1a8f1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a16a4cecb7030cda37424d096f9e1a8f1">arrowDeleted</a> (int arrowId)</td></tr>
+<tr class="memitem:a6bac0ed07b0905a2f9271b469ae3ceb4" id="r_a6bac0ed07b0905a2f9271b469ae3ceb4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6bac0ed07b0905a2f9271b469ae3ceb4">arrowDeleted</a> (int creatorId, int arrowId)</td></tr>
 <tr class="memitem:a6f02d78d37926022e3e6f85af5a43abf" id="r_a6f02d78d37926022e3e6f85af5a43abf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6f02d78d37926022e3e6f85af5a43abf">logSpectatorSay</a> (ServerInfo_User userInfo, QString message)</td></tr>
 <tr class="memitem:a10ed94a76500a04083c93ee17b3e261d" id="r_a10ed94a76500a04083c93ee17b3e261d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a10ed94a76500a04083c93ee17b3e261d">logSpectatorLeave</a> (QString name, QString reason)</td></tr>
 <tr class="memitem:a4cdb7b414f8e44fd8501ce28de46f8eb" id="r_a4cdb7b414f8e44fd8501ce28de46f8eb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4cdb7b414f8e44fd8501ce28de46f8eb">logGameStart</a> ()</td></tr>
@@ -168,8 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af4d64c6216dc200cdccb2768438a94b9" id="r_af4d64c6216dc200cdccb2768438a94b9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af4d64c6216dc200cdccb2768438a94b9">handleActivePhaseChanged</a> (int phase)</td></tr>
 <tr class="memitem:ad102a88c7c5538da90f7cda1926f8e9e" id="r_ad102a88c7c5538da90f7cda1926f8e9e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad102a88c7c5538da90f7cda1926f8e9e">handleGameLeft</a> ()</td></tr>
 <tr class="memitem:aa5bd8649c46daafb2319ece1586736c2" id="r_aa5bd8649c46daafb2319ece1586736c2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa5bd8649c46daafb2319ece1586736c2">handleChatMessageSent</a> (const QString &amp;chatMessage)</td></tr>
-<tr class="memitem:a408d70eba50f6292cd3080d46294f1f2" id="r_a408d70eba50f6292cd3080d46294f1f2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a408d70eba50f6292cd3080d46294f1f2">handleArrowDeletion</a> (int arrowId)</td></tr>
-<tr class="memitem:a465a3eae8373125688b8aaee8684e4af" id="r_a465a3eae8373125688b8aaee8684e4af"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a465a3eae8373125688b8aaee8684e4af">handleArrowDeletionFinished</a> (const Response &amp;response, int arrowId)</td></tr>
+<tr class="memitem:a836561885a2b98f33d24d8c412bed6ba" id="r_a836561885a2b98f33d24d8c412bed6ba"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a836561885a2b98f33d24d8c412bed6ba">handleArrowDeletion</a> (int creatorId, int arrowId)</td></tr>
+<tr class="memitem:ac1d0abfd2ccc71efdb8c58196fbf422e" id="r_ac1d0abfd2ccc71efdb8c58196fbf422e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac1d0abfd2ccc71efdb8c58196fbf422e">handleArrowDeletionFinished</a> (const Response &amp;response, int creatorId, int arrowId)</td></tr>
 <tr class="memitem:af406c6fac5729732c0ad9453004094ee" id="r_af406c6fac5729732c0ad9453004094ee"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af406c6fac5729732c0ad9453004094ee">eventSpectatorSay</a> (const Event_GameSay &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
 <tr class="memitem:a430fefabdfd6148b034e0483786e7dda" id="r_a430fefabdfd6148b034e0483786e7dda"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a430fefabdfd6148b034e0483786e7dda">eventSpectatorLeave</a> (const Event_Leave &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
 <tr class="memitem:a7738ec99a5a2340a62d6a27bf5809015" id="r_a7738ec99a5a2340a62d6a27bf5809015"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7738ec99a5a2340a62d6a27bf5809015">eventGameStateChanged</a> (const Event_GameStateChanged &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
@@ -251,8 +251,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a16a4cecb7030cda37424d096f9e1a8f1" name="a16a4cecb7030cda37424d096f9e1a8f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16a4cecb7030cda37424d096f9e1a8f1">&#9670;&#160;</a></span>arrowDeleted</h2>
+<a id="a6bac0ed07b0905a2f9271b469ae3ceb4" name="a6bac0ed07b0905a2f9271b469ae3ceb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bac0ed07b0905a2f9271b469ae3ceb4">&#9670;&#160;</a></span>arrowDeleted</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -263,8 +263,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::arrowDeleted </td>
           <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arrowId</em></span></td><td>)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>creatorId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arrowId</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -276,7 +280,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a16a4cecb7030cda37424d096f9e1a8f1_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a6bac0ed07b0905a2f9271b469ae3ceb4_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -599,7 +603,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a848bbbf5f8a2966ab34b12a65c283662_cgraph.svg" width="100%" height="516"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a848bbbf5f8a2966ab34b12a65c283662_cgraph.svg" width="100%" height="525"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1044,8 +1048,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a408d70eba50f6292cd3080d46294f1f2" name="a408d70eba50f6292cd3080d46294f1f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a408d70eba50f6292cd3080d46294f1f2">&#9670;&#160;</a></span>handleArrowDeletion()</h2>
+<a id="a836561885a2b98f33d24d8c412bed6ba" name="a836561885a2b98f33d24d8c412bed6ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a836561885a2b98f33d24d8c412bed6ba">&#9670;&#160;</a></span>handleArrowDeletion()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1053,26 +1057,30 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::handleArrowDeletion </td>
           <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arrowId</em></span></td><td>)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>creatorId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arrowId</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a408d70eba50f6292cd3080d46294f1f2_cgraph.svg" width="100%" height="516"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a836561885a2b98f33d24d8c412bed6ba_cgraph.svg" width="100%" height="516"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a408d70eba50f6292cd3080d46294f1f2_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a836561885a2b98f33d24d8c412bed6ba_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a465a3eae8373125688b8aaee8684e4af" name="a465a3eae8373125688b8aaee8684e4af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a465a3eae8373125688b8aaee8684e4af">&#9670;&#160;</a></span>handleArrowDeletionFinished()</h2>
+<a id="ac1d0abfd2ccc71efdb8c58196fbf422e" name="ac1d0abfd2ccc71efdb8c58196fbf422e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1d0abfd2ccc71efdb8c58196fbf422e">&#9670;&#160;</a></span>handleArrowDeletionFinished()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1085,6 +1093,11 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>creatorId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arrowId</em></span>&#160;)</td>
         </tr>
       </table>
@@ -1092,12 +1105,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a465a3eae8373125688b8aaee8684e4af_cgraph.svg" width="506" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_ac1d0abfd2ccc71efdb8c58196fbf422e_cgraph.svg" width="506" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a465a3eae8373125688b8aaee8684e4af_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_ac1d0abfd2ccc71efdb8c58196fbf422e_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

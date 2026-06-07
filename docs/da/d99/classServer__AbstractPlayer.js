@@ -30,7 +30,6 @@ var classServer__AbstractPlayer =
     [ "getReadyStart", "da/d99/classServer__AbstractPlayer.html#a85f492ba6aa393275986fdd3e82e504a", null ],
     [ "getZones", "da/d99/classServer__AbstractPlayer.html#acb13829ad009e505b9c3e76349150549", null ],
     [ "moveCard", "da/d99/classServer__AbstractPlayer.html#aae9b5d4a87368a98428c9b1c8f50d180", null ],
-    [ "newArrowId", "da/d99/classServer__AbstractPlayer.html#acbc3d8e514ac60e5ab41015e3f775d5f", null ],
     [ "newCardId", "da/d99/classServer__AbstractPlayer.html#a25d3e4c638a4f5d821207f7686693ba6", null ],
     [ "onCardBeingMoved", "da/d99/classServer__AbstractPlayer.html#a9123f3b066d6661e4f5a923c32cebaf2", null ],
     [ "prepareDestroy", "da/d99/classServer__AbstractPlayer.html#aa9cbcb1d16f1e49bd4efa4524c77a9fd", null ],

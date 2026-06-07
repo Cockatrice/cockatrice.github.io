@@ -151,5 +151,6 @@ var searchData=
   ['bylastloaded_148',['ByLastLoaded',['../dd/d71/classVisualDeckStorageSortWidget.html#afe1e695f9d17f70c9b59d938d13b95eeaffe94b5d5fa3d022d3e150b48c4ea695',1,'VisualDeckStorageSortWidget']]],
   ['bylastmodified_149',['ByLastModified',['../dd/d71/classVisualDeckStorageSortWidget.html#afe1e695f9d17f70c9b59d938d13b95eea19de6b1ceeb30ef80b6ddd7281c807ef',1,'VisualDeckStorageSortWidget']]],
   ['byname_150',['ByName',['../dd/d71/classVisualDeckStorageSortWidget.html#afe1e695f9d17f70c9b59d938d13b95eead4018e61819e1207834ae4a8aae0ee40',1,'VisualDeckStorageSortWidget::ByName'],['../d8/d7d/abstract__deck__list__node_8h.html#ga8ea3802f8561f16be908a83a08a796ceacd701b91fcc9e93950ad71fa8f7eb47a',1,'ByName:&#160;abstract_deck_list_node.h']]],
-  ['bynumber_151',['ByNumber',['../d8/d7d/abstract__deck__list__node_8h.html#ga8ea3802f8561f16be908a83a08a796cea73c7b90bd5bfdaa976a06eb630fe4aae',1,'abstract_deck_list_node.h']]]
+  ['bynumber_151',['ByNumber',['../d8/d7d/abstract__deck__list__node_8h.html#ga8ea3802f8561f16be908a83a08a796cea73c7b90bd5bfdaa976a06eb630fe4aae',1,'abstract_deck_list_node.h']]],
+  ['byplayer_152',['byPlayer',['../df/df7/classArrowRegistry.html#a32629e413974b8bedd411c30f9e56246',1,'ArrowRegistry']]]
 ];

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-01-Development-3.1.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-07-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -127,7 +127,7 @@ Signals</h2></td></tr>
 <tr class="memitem:aedf40cd029a12b0d297fd6a421011337" id="r_aedf40cd029a12b0d297fd6a421011337"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aedf40cd029a12b0d297fd6a421011337">activeCardChanged</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;activeCard)</td></tr>
 <tr class="memitem:a9816abac1f8cb72e16bc4cc36510a6a7" id="r_a9816abac1f8cb72e16bc4cc36510a6a7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9816abac1f8cb72e16bc4cc36510a6a7">activeGroupCriteriaChanged</a> (QString activeGroupCriteria)</td></tr>
 <tr class="memitem:a074da1eea56c9dc6145bf3dcc7831a63" id="r_a074da1eea56c9dc6145bf3dcc7831a63"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a074da1eea56c9dc6145bf3dcc7831a63">activeSortCriteriaChanged</a> (QStringList activeSortCriteria)</td></tr>
-<tr class="memitem:a8e97c4beb664d6c9170b382bf1b18e96" id="r_a8e97c4beb664d6c9170b382bf1b18e96"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8e97c4beb664d6c9170b382bf1b18e96">cardClicked</a> (QMouseEvent *event, <a class="el" href="../../dd/da1/classCardInfoPictureWithTextOverlayWidget.html">CardInfoPictureWithTextOverlayWidget</a> *instance, QString zoneName)</td></tr>
+<tr class="memitem:a460b176e5e01bab2efb55d36a10a04eb" id="r_a460b176e5e01bab2efb55d36a10a04eb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a460b176e5e01bab2efb55d36a10a04eb">cardClicked</a> (QMouseEvent *event, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QString &amp;zoneName)</td></tr>
 <tr class="memitem:a0d5b64551fa4684e379fc2fac155f31f" id="r_a0d5b64551fa4684e379fc2fac155f31f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0d5b64551fa4684e379fc2fac155f31f">cardAdditionRequested</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
 <tr class="memitem:a99bdfc5a191fdb93326a0a8e9cdb9093" id="r_a99bdfc5a191fdb93326a0a8e9cdb9093"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a99bdfc5a191fdb93326a0a8e9cdb9093">displayTypeChanged</a> (<a class="el" href="../../d8/d36/visual__deck__editor__widget_8h.html#a18c0cbeece6bcb1c64d7463ce253ff50">DisplayType</a> displayType)</td></tr>
 </table><table class="memberdecls">
@@ -151,7 +151,6 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-slots" class="groupheader"><a id="pro-slots" name="pro-slots"></a>
 Protected Slots</h2></td></tr>
 <tr class="memitem:a758833c49e70af3c3b02baebba7ab5c9" id="r_a758833c49e70af3c3b02baebba7ab5c9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a758833c49e70af3c3b02baebba7ab5c9">onHover</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;hoveredCard)</td></tr>
-<tr class="memitem:af94884b83eb033d2e5c1cbbf4b20fbd5" id="r_af94884b83eb033d2e5c1cbbf4b20fbd5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af94884b83eb033d2e5c1cbbf4b20fbd5">onCardClick</a> (QMouseEvent *event, <a class="el" href="../../dd/da1/classCardInfoPictureWithTextOverlayWidget.html">CardInfoPictureWithTextOverlayWidget</a> *instance, QString zoneName)</td></tr>
 <tr class="memitem:a241de5f6dd9a0cd49cc226e1998153b0" id="r_a241de5f6dd9a0cd49cc226e1998153b0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a241de5f6dd9a0cd49cc226e1998153b0">decklistModelReset</a> ()</td></tr>
 <tr class="memitem:afcc4b112a430ab94103d6654d52d422d" id="r_afcc4b112a430ab94103d6654d52d422d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afcc4b112a430ab94103d6654d52d422d">resizeEvent</a> (QResizeEvent *event) override</td></tr>
 </table><table class="memberdecls">
@@ -346,8 +345,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a8e97c4beb664d6c9170b382bf1b18e96" name="a8e97c4beb664d6c9170b382bf1b18e96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e97c4beb664d6c9170b382bf1b18e96">&#9670;&#160;</a></span>cardClicked</h2>
+<a id="a460b176e5e01bab2efb55d36a10a04eb" name="a460b176e5e01bab2efb55d36a10a04eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a460b176e5e01bab2efb55d36a10a04eb">&#9670;&#160;</a></span>cardClicked</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -363,12 +362,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da1/classCardInfoPictureWithTextOverlayWidget.html">CardInfoPictureWithTextOverlayWidget</a> *</td>          <td class="paramname"><span class="paramname"><em>instance</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>zoneName</em></span>&#160;)</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>zoneName</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -380,7 +379,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d1e/classVisualDeckEditorWidget_a8e97c4beb664d6c9170b382bf1b18e96_icgraph.svg" width="100%" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d1e/classVisualDeckEditorWidget_a460b176e5e01bab2efb55d36a10a04eb_icgraph.svg" width="100%" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -860,50 +859,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="af94884b83eb033d2e5c1cbbf4b20fbd5" name="af94884b83eb033d2e5c1cbbf4b20fbd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af94884b83eb033d2e5c1cbbf4b20fbd5">&#9670;&#160;</a></span>onCardClick</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisualDeckEditorWidget::onCardClick </td>
-          <td>(</td>
-          <td class="paramtype">QMouseEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da1/classCardInfoPictureWithTextOverlayWidget.html">CardInfoPictureWithTextOverlayWidget</a> *</td>          <td class="paramname"><span class="paramname"><em>instance</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>zoneName</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d1e/classVisualDeckEditorWidget_af94884b83eb033d2e5c1cbbf4b20fbd5_cgraph.svg" width="416" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d1e/classVisualDeckEditorWidget_af94884b83eb033d2e5c1cbbf4b20fbd5_icgraph.svg" width="100%" height="407"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="a6f618d9730fe359564f0535252611e2a" name="a6f618d9730fe359564f0535252611e2a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f618d9730fe359564f0535252611e2a">&#9670;&#160;</a></span>onCardRemoval</h2>
 
@@ -970,7 +925,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000239">Todo</a></b></dt><dd>Highlight hovered card visually. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000238">Todo</a></b></dt><dd>Highlight hovered card visually. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1093,7 +1048,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000240">Todo</a></b></dt><dd>Possibly disconnect old signal connections. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000239">Todo</a></b></dt><dd>Possibly disconnect old signal connections. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

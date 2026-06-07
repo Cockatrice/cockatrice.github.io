@@ -48,9 +48,11 @@ var searchData=
   ['arrowdata_45',['ArrowData',['../db/d21/structArrowData.html',1,'']]],
   ['arrowdragitem_46',['ArrowDragItem',['../d4/ddc/classArrowDragItem.html',1,'']]],
   ['arrowitem_47',['ArrowItem',['../df/d2a/classArrowItem.html',1,'']]],
-  ['arrowtarget_48',['ArrowTarget',['../d9/dce/classArrowTarget.html',1,'']]],
-  ['assignidtodefinition_49',['AssignIDToDefinition',['../d9/d27/structpeg_1_1AssignIDToDefinition.html',1,'peg']]],
-  ['astbase_50',['AstBase',['../d2/d75/structpeg_1_1AstBase.html',1,'peg']]],
-  ['astbase_3c_20emptytype_20_3e_51',['AstBase&lt; EmptyType &gt;',['../d2/d75/structpeg_1_1AstBase.html',1,'peg']]],
-  ['astoptimizer_52',['AstOptimizer',['../da/dae/structpeg_1_1AstOptimizer.html',1,'peg']]]
+  ['arrowkey_48',['ArrowKey',['../d4/ddd/structArrowKey.html',1,'']]],
+  ['arrowregistry_49',['ArrowRegistry',['../df/df7/classArrowRegistry.html',1,'']]],
+  ['arrowtarget_50',['ArrowTarget',['../d9/dce/classArrowTarget.html',1,'']]],
+  ['assignidtodefinition_51',['AssignIDToDefinition',['../d9/d27/structpeg_1_1AssignIDToDefinition.html',1,'peg']]],
+  ['astbase_52',['AstBase',['../d2/d75/structpeg_1_1AstBase.html',1,'peg']]],
+  ['astbase_3c_20emptytype_20_3e_53',['AstBase&lt; EmptyType &gt;',['../d2/d75/structpeg_1_1AstBase.html',1,'peg']]],
+  ['astoptimizer_54',['AstOptimizer',['../da/dae/structpeg_1_1AstOptimizer.html',1,'peg']]]
 ];

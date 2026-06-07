@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-01-Development-3.1.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-07-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -119,12 +119,10 @@ Collaboration diagram for TabDeckEditorVisual:</div>
 Public Slots</h2></td></tr>
 <tr class="memitem:a218c82a1db7e1f4f528b3387504b4fb9" id="r_a218c82a1db7e1f4f528b3387504b4fb9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a218c82a1db7e1f4f528b3387504b4fb9">onDeckChanged</a> () override</td></tr>
 <tr class="memdesc:a218c82a1db7e1f4f528b3387504b4fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refresh UI when the deck changes.  <br /></td></tr>
-<tr class="memitem:a7812172767f8fbf88e10850eea8a1022" id="r_a7812172767f8fbf88e10850eea8a1022"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7812172767f8fbf88e10850eea8a1022">showPrintingSelector</a> () override</td></tr>
-<tr class="memdesc:a7812172767f8fbf88e10850eea8a1022"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the printing selector dock for the currently active card.  <br /></td></tr>
-<tr class="memitem:a222b01da4168b156b7027fca2ac37806" id="r_a222b01da4168b156b7027fca2ac37806"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a222b01da4168b156b7027fca2ac37806">processMainboardCardClick</a> (QMouseEvent *event, <a class="el" href="../../dd/da1/classCardInfoPictureWithTextOverlayWidget.html">CardInfoPictureWithTextOverlayWidget</a> *instance, const QString &amp;zoneName)</td></tr>
-<tr class="memdesc:a222b01da4168b156b7027fca2ac37806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle card clicks in the mainboard visual deck.  <br /></td></tr>
-<tr class="memitem:a735f0020e6916150378bd44aa3c977c8" id="r_a735f0020e6916150378bd44aa3c977c8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a735f0020e6916150378bd44aa3c977c8">processCardClickDatabaseDisplay</a> (QMouseEvent *event, <a class="el" href="../../dd/da1/classCardInfoPictureWithTextOverlayWidget.html">CardInfoPictureWithTextOverlayWidget</a> *instance)</td></tr>
-<tr class="memdesc:a735f0020e6916150378bd44aa3c977c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle card clicks in the database visual display.  <br /></td></tr>
+<tr class="memitem:a59d8ad05f969edfae9e17d433c211ea5" id="r_a59d8ad05f969edfae9e17d433c211ea5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a59d8ad05f969edfae9e17d433c211ea5">processMainboardCardClick</a> (const QMouseEvent *event, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QString &amp;zoneName)</td></tr>
+<tr class="memdesc:a59d8ad05f969edfae9e17d433c211ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle card clicks in the mainboard visual deck.  <br /></td></tr>
+<tr class="memitem:a8a0ab5aeb38048139152545355972966" id="r_a8a0ab5aeb38048139152545355972966"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8a0ab5aeb38048139152545355972966">processDatabaseCardClick</a> (const QMouseEvent *event, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
+<tr class="memdesc:a8a0ab5aeb38048139152545355972966"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle card clicks in the database visual display.  <br /></td></tr>
 <tr class="memitem:a95c20b47c28729b3d3e8f1f71b4ca4c8" id="r_a95c20b47c28729b3d3e8f1f71b4ca4c8"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a95c20b47c28729b3d3e8f1f71b4ca4c8">actSaveDeckAs</a> () override</td></tr>
 <tr class="memdesc:a95c20b47c28729b3d3e8f1f71b4ca4c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the deck under a new name.  <br /></td></tr>
 <tr class="inherit_header pub_slots_classAbstractTabDeckEditor"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_slots_classAbstractTabDeckEditor')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Slots inherited from <a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a></td></tr>
@@ -133,27 +131,23 @@ Public Slots</h2></td></tr>
 <tr class="memitem:acf8aa2689f726f1cb553f14b646873d6 inherit pub_slots_classAbstractTabDeckEditor" id="r_acf8aa2689f726f1cb553f14b646873d6"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#acf8aa2689f726f1cb553f14b646873d6">onDeckModified</a> ()</td></tr>
 <tr class="memdesc:acf8aa2689f726f1cb553f14b646873d6 inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the deck is modified.  <br /></td></tr>
 <tr class="memitem:a51f8be3c74964024053c3dd633e9a335 inherit pub_slots_classAbstractTabDeckEditor" id="r_a51f8be3c74964024053c3dd633e9a335"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a51f8be3c74964024053c3dd633e9a335">updateCard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
-<tr class="memdesc:a51f8be3c74964024053c3dd633e9a335 inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the card info panel.  <br /></td></tr>
+<tr class="memdesc:a51f8be3c74964024053c3dd633e9a335 inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the card info dock and printing selector.  <br /></td></tr>
+<tr class="memitem:a12388d163e24ae1b27f12d3537563d51 inherit pub_slots_classAbstractTabDeckEditor" id="r_a12388d163e24ae1b27f12d3537563d51"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a12388d163e24ae1b27f12d3537563d51">updateCardInfo</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
+<tr class="memdesc:a12388d163e24ae1b27f12d3537563d51 inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates just the card info dock.  <br /></td></tr>
 <tr class="memitem:acfcafa6ea5275d7a5d647724c63e92bf inherit pub_slots_classAbstractTabDeckEditor" id="r_acfcafa6ea5275d7a5d647724c63e92bf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#acfcafa6ea5275d7a5d647724c63e92bf">addCard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QString &amp;zoneName)</td></tr>
 <tr class="memdesc:acfcafa6ea5275d7a5d647724c63e92bf inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a card to the given zone.  <br /></td></tr>
 <tr class="memitem:aa856dca888efcf8a3ba932afa2b27c1a inherit pub_slots_classAbstractTabDeckEditor" id="r_aa856dca888efcf8a3ba932afa2b27c1a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#aa856dca888efcf8a3ba932afa2b27c1a">decrementCard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QString &amp;zoneName)</td></tr>
 <tr class="memdesc:aa856dca888efcf8a3ba932afa2b27c1a inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrements a card from the given zone.  <br /></td></tr>
-<tr class="memitem:a86fddfe318be81f8fe4aa54e980fcdd1 inherit pub_slots_classAbstractTabDeckEditor" id="r_a86fddfe318be81f8fe4aa54e980fcdd1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a86fddfe318be81f8fe4aa54e980fcdd1">actAddCard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
-<tr class="memdesc:a86fddfe318be81f8fe4aa54e980fcdd1 inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a card to the main deck or sideboard based on Ctrl key.  <br /></td></tr>
-<tr class="memitem:ad81c6e4ddfb67cdb61cc8bc6179bb5c6 inherit pub_slots_classAbstractTabDeckEditor" id="r_ad81c6e4ddfb67cdb61cc8bc6179bb5c6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#ad81c6e4ddfb67cdb61cc8bc6179bb5c6">actAddCardToSideboard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
-<tr class="memdesc:ad81c6e4ddfb67cdb61cc8bc6179bb5c6 inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a card to the sideboard explicitly.  <br /></td></tr>
-<tr class="memitem:ad3695aa2697226b04e4d9b9185446a7d inherit pub_slots_classAbstractTabDeckEditor" id="r_ad3695aa2697226b04e4d9b9185446a7d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#ad3695aa2697226b04e4d9b9185446a7d">actDecrementCard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
-<tr class="memdesc:ad3695aa2697226b04e4d9b9185446a7d inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrements a card from the main deck.  <br /></td></tr>
-<tr class="memitem:a7e385dad46e8275452dd56892b176340 inherit pub_slots_classAbstractTabDeckEditor" id="r_a7e385dad46e8275452dd56892b176340"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a7e385dad46e8275452dd56892b176340">actDecrementCardFromSideboard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
-<tr class="memdesc:a7e385dad46e8275452dd56892b176340 inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrements a card from the sideboard.  <br /></td></tr>
 <tr class="memitem:a93013b383705b8effdc489fcad6aaee3 inherit pub_slots_classAbstractTabDeckEditor" id="r_a93013b383705b8effdc489fcad6aaee3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a93013b383705b8effdc489fcad6aaee3">actOpenRecent</a> (const QString &amp;fileName)</td></tr>
 <tr class="memdesc:a93013b383705b8effdc489fcad6aaee3 inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens a recently opened deck file.  <br /></td></tr>
 <tr class="memitem:aacd82d0984feb4ef1608d96d2cbeae0c inherit pub_slots_classAbstractTabDeckEditor" id="r_aacd82d0984feb4ef1608d96d2cbeae0c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#aacd82d0984feb4ef1608d96d2cbeae0c">filterTreeChanged</a> (<a class="el" href="../../d8/d95/classFilterTree.html">FilterTree</a> *filterTree)</td></tr>
 <tr class="memdesc:aacd82d0984feb4ef1608d96d2cbeae0c inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the filter tree changes.  <br /></td></tr>
 <tr class="memitem:a4bde29fd51a237d46dd203ae58459660 inherit pub_slots_classAbstractTabDeckEditor" id="r_a4bde29fd51a237d46dd203ae58459660"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a4bde29fd51a237d46dd203ae58459660">closeRequest</a> () override</td></tr>
 <tr class="memdesc:a4bde29fd51a237d46dd203ae58459660 inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests closing the tab.  <br /></td></tr>
-<tr class="memitem:a6295641a0b9f3bc6936e9d942d52f0ca inherit pub_slots_classAbstractTabDeckEditor" id="r_a6295641a0b9f3bc6936e9d942d52f0ca"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a6295641a0b9f3bc6936e9d942d52f0ca">showPrintingSelector</a> ()=0</td></tr>
-<tr class="memdesc:a6295641a0b9f3bc6936e9d942d52f0ca inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the printing selector dock. Pure virtual.  <br /></td></tr>
+<tr class="memitem:a4c6ab86dbc523e4b665dfdb871feb7a8 inherit pub_slots_classAbstractTabDeckEditor" id="r_a4c6ab86dbc523e4b665dfdb871feb7a8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a4c6ab86dbc523e4b665dfdb871feb7a8">showPrintingSelector</a> ()</td></tr>
+<tr class="memdesc:a4c6ab86dbc523e4b665dfdb871feb7a8 inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the printing selector dock and updates it with the current card.  <br /></td></tr>
+<tr class="memitem:a8ac538eb276b327a7bd225ba477ff458 inherit pub_slots_classAbstractTabDeckEditor" id="r_a8ac538eb276b327a7bd225ba477ff458"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a8ac538eb276b327a7bd225ba477ff458">openEdhrecTab</a> (const <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> &amp;info, bool isCommander)</td></tr>
+<tr class="memdesc:a8ac538eb276b327a7bd225ba477ff458 inherit pub_slots_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens an EDHRec tab for the given card.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -283,6 +277,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a409c727ef0d8c34fd96c01cc0bdf786f inherit signals_classTab" id="r_a409c727ef0d8c34fd96c01cc0bdf786f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../de/d9c/classTab.html#a409c727ef0d8c34fd96c01cc0bdf786f">tabTextChanged</a> (<a class="el" href="../../de/d9c/classTab.html">Tab</a> *tab, const QString &amp;newTabText)</td></tr>
 <tr class="inherit_header pub_attribs_classAbstractTabDeckEditor"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_classAbstractTabDeckEditor')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Attributes inherited from <a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a></td></tr>
 <tr class="memitem:a885fcd116df8275a4854aa8be0dd0776 inherit pub_attribs_classAbstractTabDeckEditor" id="r_a885fcd116df8275a4854aa8be0dd0776"><td class="memItemLeft"><a class="el" href="../../dd/dab/classDeckStateManager.html">DeckStateManager</a> *&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a885fcd116df8275a4854aa8be0dd0776">deckStateManager</a></td></tr>
+<tr class="memitem:a53c06a26fd399e808babf69dde222739 inherit pub_attribs_classAbstractTabDeckEditor" id="r_a53c06a26fd399e808babf69dde222739"><td class="memItemLeft"><a class="el" href="../../dd/d83/classCardDatabaseModel.html">CardDatabaseModel</a> *&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a53c06a26fd399e808babf69dde222739">databaseModel</a></td></tr>
+<tr class="memdesc:a53c06a26fd399e808babf69dde222739 inherit pub_attribs_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Card database.  <br /></td></tr>
 <tr class="memitem:a4fe2e23bb658d15306e164fc1b9de589 inherit pub_attribs_classAbstractTabDeckEditor" id="r_a4fe2e23bb658d15306e164fc1b9de589"><td class="memItemLeft"><a class="el" href="../../dc/d76/classDeckEditorMenu.html">DeckEditorMenu</a> *&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a4fe2e23bb658d15306e164fc1b9de589">deckMenu</a></td></tr>
 <tr class="memdesc:a4fe2e23bb658d15306e164fc1b9de589 inherit pub_attribs_classAbstractTabDeckEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Menu for deck operations.  <br /></td></tr>
 <tr class="memitem:a4c9e543a5abc97d081675ed353e72349 inherit pub_attribs_classAbstractTabDeckEditor" id="r_a4c9e543a5abc97d081675ed353e72349"><td class="memItemLeft"><a class="el" href="../../d1/d94/classDeckEditorCardDatabaseDockWidget.html">DeckEditorCardDatabaseDockWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a4c9e543a5abc97d081675ed353e72349">cardDatabaseDockWidget</a></td></tr>
@@ -343,9 +339,9 @@ Additional Inherited Members</h2></td></tr>
 <li><a class="el" href="#abeb032d158d188fa3bfbe3e5bddf5fab" title="Update the currently selected card in the deck and UI.">changeModelIndexAndCardInfo(const ExactCard &amp;card)</a> — Updates deck model selection and card info.</li>
 <li><a class="el" href="#ae3eacfbb252458c78b285fd3a9d2fabd" title="Change the deck view selection to a specific card.">changeModelIndexToCard(const ExactCard &amp;card)</a> — Selects the card in the deck view.</li>
 <li>processMainboardCardClick(QMouseEvent *event, ...) — Handles clicks on mainboard cards.</li>
-<li>processCardClickDatabaseDisplay(QMouseEvent *event, ...) — Handles clicks on database cards.</li>
+<li>processDatabaseCardClick(QMouseEvent *event, ...) — Handles clicks on database cards.</li>
 <li><a class="el" href="#a95c20b47c28729b3d3e8f1f71b4ca4c8" title="Save the deck under a new name.">actSaveDeckAs()</a> — Overrides save action with temporary UI adjustments.</li>
-<li><a class="el" href="#a7812172767f8fbf88e10850eea8a1022" title="Show the printing selector dock for the currently active card.">showPrintingSelector()</a> — Opens the printing selector dock for the current card.</li>
+<li><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html#a4c6ab86dbc523e4b665dfdb871feb7a8" title="Shows the printing selector dock and updates it with the current card.">showPrintingSelector()</a> — Opens the printing selector dock for the current card.</li>
 <li>freeDocksSize() — Frees constraints on dock widget sizes.</li>
 <li><a class="el" href="#a337d55db65af9cd2fbafd73a21447702" title="Refresh keyboard shortcuts for this tab.">refreshShortcuts()</a> — Updates tab-specific shortcuts from settings.</li>
 <li><a class="el" href="#ae9b8573b2c6d4e876577f7dc8146e192" title="Load the editor layout from settings.">loadLayout()</a> — Loads saved layout or applies default if none exists.</li>
@@ -762,8 +758,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a735f0020e6916150378bd44aa3c977c8" name="a735f0020e6916150378bd44aa3c977c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a735f0020e6916150378bd44aa3c977c8">&#9670;&#160;</a></span>processCardClickDatabaseDisplay</h2>
+<a id="a8a0ab5aeb38048139152545355972966" name="a8a0ab5aeb38048139152545355972966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a0ab5aeb38048139152545355972966">&#9670;&#160;</a></span>processDatabaseCardClick</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -772,14 +768,14 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void TabDeckEditorVisual::processCardClickDatabaseDisplay </td>
+          <td class="memname">void TabDeckEditorVisual::processDatabaseCardClick </td>
           <td>(</td>
-          <td class="paramtype">QMouseEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const QMouseEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da1/classCardInfoPictureWithTextOverlayWidget.html">CardInfoPictureWithTextOverlayWidget</a> *</td>          <td class="paramname"><span class="paramname"><em>instance</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>card</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -794,25 +790,25 @@ Here is the call graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">event</td><td>Mouse event triggering the action. </td></tr>
-    <tr><td class="paramname">instance</td><td>Widget representing the clicked card. </td></tr>
+    <tr><td class="paramname">card</td><td>The clicked card. </td></tr>
   </table>
   </dd>
 </dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d63/classTabDeckEditorVisual_a735f0020e6916150378bd44aa3c977c8_cgraph.svg" width="664" height="243"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d63/classTabDeckEditorVisual_a8a0ab5aeb38048139152545355972966_cgraph.svg" width="432" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d63/classTabDeckEditorVisual_a735f0020e6916150378bd44aa3c977c8_icgraph.svg" width="632" height="66"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d63/classTabDeckEditorVisual_a8a0ab5aeb38048139152545355972966_icgraph.svg" width="632" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a222b01da4168b156b7027fca2ac37806" name="a222b01da4168b156b7027fca2ac37806"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a222b01da4168b156b7027fca2ac37806">&#9670;&#160;</a></span>processMainboardCardClick</h2>
+<a id="a59d8ad05f969edfae9e17d433c211ea5" name="a59d8ad05f969edfae9e17d433c211ea5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59d8ad05f969edfae9e17d433c211ea5">&#9670;&#160;</a></span>processMainboardCardClick</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -823,12 +819,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void TabDeckEditorVisual::processMainboardCardClick </td>
           <td>(</td>
-          <td class="paramtype">QMouseEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const QMouseEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/da1/classCardInfoPictureWithTextOverlayWidget.html">CardInfoPictureWithTextOverlayWidget</a> *</td>          <td class="paramname"><span class="paramname"><em>instance</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -847,7 +843,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">event</td><td>Mouse event triggering the action. </td></tr>
-    <tr><td class="paramname">instance</td><td>Widget representing the clicked card. </td></tr>
+    <tr><td class="paramname">card</td><td>The clicked card. </td></tr>
     <tr><td class="paramname">zoneName</td><td>Deck zone of the card. </td></tr>
   </table>
   </dd>
@@ -855,12 +851,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d63/classTabDeckEditorVisual_a222b01da4168b156b7027fca2ac37806_cgraph.svg" width="100%" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d63/classTabDeckEditorVisual_a59d8ad05f969edfae9e17d433c211ea5_cgraph.svg" width="439" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d63/classTabDeckEditorVisual_a222b01da4168b156b7027fca2ac37806_icgraph.svg" width="639" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d63/classTabDeckEditorVisual_a59d8ad05f969edfae9e17d433c211ea5_icgraph.svg" width="639" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -968,34 +964,6 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d63/classTabDeckEditorVisual_a4b19367f3db21bf231f9912dde075e80_icgraph.svg" width="376" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-
-</div>
-</div>
-<a id="a7812172767f8fbf88e10850eea8a1022" name="a7812172767f8fbf88e10850eea8a1022"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7812172767f8fbf88e10850eea8a1022">&#9670;&#160;</a></span>showPrintingSelector</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void TabDeckEditorVisual::showPrintingSelector </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Show the printing selector dock for the currently active card. </p>
-<p>Shows the printing selector dock and updates it with the current card. </p>
 
 </div>
 </div>

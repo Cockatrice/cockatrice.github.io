@@ -2,7 +2,7 @@ var classCardGroupDisplayWidget =
 [
     [ "CardGroupDisplayWidget", "d9/d5d/classCardGroupDisplayWidget.html#a58f960e75f3790fc55253dfd1619f1e2", null ],
     [ "addToLayout", "d9/d5d/classCardGroupDisplayWidget.html#a1b9aa1c2714dc0169ac4b5085593ce6d", null ],
-    [ "cardClicked", "d9/d5d/classCardGroupDisplayWidget.html#a5c979647ebb23ff76469a08cbca6b291", null ],
+    [ "cardClicked", "d9/d5d/classCardGroupDisplayWidget.html#a808e13fba305ff37fc8839dfa9eea8a3", null ],
     [ "cardHovered", "d9/d5d/classCardGroupDisplayWidget.html#a615ccafeb04c478c28eb581a022bf41a", null ],
     [ "cleanupRequested", "d9/d5d/classCardGroupDisplayWidget.html#a69907462d8d37481e85469cb4a7bfaeb", null ],
     [ "clearAllDisplayWidgets", "d9/d5d/classCardGroupDisplayWidget.html#a694e09929f18bedcc4b1f36519b10487", null ],
@@ -13,9 +13,7 @@ var classCardGroupDisplayWidget =
     [ "onActiveSortCriteriaChanged", "d9/d5d/classCardGroupDisplayWidget.html#a3d1aff146a25dd6c5432167fcfc1b679", null ],
     [ "onCardAddition", "d9/d5d/classCardGroupDisplayWidget.html#a0ff94e3f4d8bbea1ebf44cebc83e74b9", null ],
     [ "onCardRemoval", "d9/d5d/classCardGroupDisplayWidget.html#a850bc0083f761ec2519d4b3e653aa135", null ],
-    [ "onClick", "d9/d5d/classCardGroupDisplayWidget.html#ab8a68821bacb1b2671454bc01caceb31", null ],
     [ "onDataChanged", "d9/d5d/classCardGroupDisplayWidget.html#ade0beef5f74c7e170bed549c21ad2a32", null ],
-    [ "onHover", "d9/d5d/classCardGroupDisplayWidget.html#ad977528d6276f0c8ad74215629a165b3", null ],
     [ "onSelectionChanged", "d9/d5d/classCardGroupDisplayWidget.html#a5b200f848687a00bee6a047448a07871", null ],
     [ "refreshSelectionForIndex", "d9/d5d/classCardGroupDisplayWidget.html#aebabd43bc8ad3c440b5fe57d90d5c85d", null ],
     [ "removeFromLayout", "d9/d5d/classCardGroupDisplayWidget.html#a86ac114b33007721c76d4efd2e01c2a7", null ],

@@ -38,6 +38,8 @@ var hierarchy =
     [ "ArchidektDeckListingApiResponse", "d3/d7f/classArchidektDeckListingApiResponse.html", null ],
     [ "peg::argument_count&lt; T &gt;", "df/d2c/structpeg_1_1argument__count.html", null ],
     [ "ArrowData", "db/d21/structArrowData.html", null ],
+    [ "ArrowKey", "d4/ddd/structArrowKey.html", null ],
+    [ "ArrowRegistry", "df/df7/classArrowRegistry.html", null ],
     [ "peg::AstOptimizer", "da/dae/structpeg_1_1AstOptimizer.html", null ],
     [ "BackgroundSources", "d1/df3/classBackgroundSources.html", null ],
     [ "BarData", "dc/da2/structBarData.html", null ],
@@ -605,6 +607,7 @@ var hierarchy =
       [ "ColorButton", "dc/dfa/classColorButton.html", null ]
     ] ],
     [ "QTreeView", null, [
+      [ "CardDatabaseView", "d5/d33/classCardDatabaseView.html", null ],
       [ "RemoteDeckList_TreeWidget", "d7/dd0/classRemoteDeckList__TreeWidget.html", null ],
       [ "RemoteReplayList_TreeWidget", "db/dea/classRemoteReplayList__TreeWidget.html", null ],
       [ "ShortcutTreeView", "d6/dc6/classShortcutTreeView.html", null ]

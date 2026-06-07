@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-01-Development-3.1.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-07-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -130,10 +130,10 @@ Signals</h2></td></tr>
 <tr class="memitem:a0b4b3fb2ce81f0420c59f4697b6f0031" id="r_a0b4b3fb2ce81f0420c59f4697b6f0031"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0b4b3fb2ce81f0420c59f4697b6f0031">clearCustomZonesMenu</a> ()</td></tr>
 <tr class="memitem:a17eb71b39e0de312f912ad1cfb6d355e" id="r_a17eb71b39e0de312f912ad1cfb6d355e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a17eb71b39e0de312f912ad1cfb6d355e">addViewCustomZoneActionToCustomZoneMenu</a> (QString zoneName)</td></tr>
 <tr class="memitem:a20acb9baa5181520b24026d7c12ee68c" id="r_a20acb9baa5181520b24026d7c12ee68c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a20acb9baa5181520b24026d7c12ee68c">resetTopCardMenuActions</a> ()</td></tr>
-<tr class="memitem:ab333a6f1e9d82991a8f5d44e387fd06d" id="r_ab333a6f1e9d82991a8f5d44e387fd06d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab333a6f1e9d82991a8f5d44e387fd06d">arrowCreateRequested</a> (<a class="el" href="../../db/d21/structArrowData.html">ArrowData</a> data)</td></tr>
-<tr class="memitem:a2b684c5ce99a80fba301982ed3e32342" id="r_a2b684c5ce99a80fba301982ed3e32342"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2b684c5ce99a80fba301982ed3e32342">arrowDeleteRequested</a> (int arrowId)</td></tr>
-<tr class="memitem:a8016c0617f8bf3092c5416487a1a7bd9" id="r_a8016c0617f8bf3092c5416487a1a7bd9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8016c0617f8bf3092c5416487a1a7bd9">arrowDeleted</a> (int arrowId)</td></tr>
-<tr class="memitem:a196c179c420b04f329b43f927595a4b8" id="r_a196c179c420b04f329b43f927595a4b8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a196c179c420b04f329b43f927595a4b8">arrowsCleared</a> ()</td></tr>
+<tr class="memitem:ae1a14e41d27ebbe066f0fd406e0935e6" id="r_ae1a14e41d27ebbe066f0fd406e0935e6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae1a14e41d27ebbe066f0fd406e0935e6">arrowCreateRequested</a> (QSharedPointer&lt; <a class="el" href="../../db/d21/structArrowData.html">ArrowData</a> &gt; data)</td></tr>
+<tr class="memitem:add442d9533eb720e72d7a5ec1102c22f" id="r_add442d9533eb720e72d7a5ec1102c22f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#add442d9533eb720e72d7a5ec1102c22f">arrowDeleteRequested</a> (int creatorId, int arrowId)</td></tr>
+<tr class="memitem:ac6fd197194a714de7930016332840faa" id="r_ac6fd197194a714de7930016332840faa"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac6fd197194a714de7930016332840faa">arrowDeleted</a> (int creatorId, int arrowId)</td></tr>
+<tr class="memitem:acf04d2aa1ce2e833224ecb6192207c60" id="r_acf04d2aa1ce2e833224ecb6192207c60"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acf04d2aa1ce2e833224ecb6192207c60">arrowsClearedLocally</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -453,8 +453,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ab333a6f1e9d82991a8f5d44e387fd06d" name="ab333a6f1e9d82991a8f5d44e387fd06d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab333a6f1e9d82991a8f5d44e387fd06d">&#9670;&#160;</a></span>arrowCreateRequested</h2>
+<a id="ae1a14e41d27ebbe066f0fd406e0935e6" name="ae1a14e41d27ebbe066f0fd406e0935e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1a14e41d27ebbe066f0fd406e0935e6">&#9670;&#160;</a></span>arrowCreateRequested</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -465,7 +465,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void PlayerLogic::arrowCreateRequested </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d21/structArrowData.html">ArrowData</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td class="paramtype">QSharedPointer&lt; <a class="el" href="../../db/d21/structArrowData.html">ArrowData</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -478,13 +478,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_ab333a6f1e9d82991a8f5d44e387fd06d_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_ae1a14e41d27ebbe066f0fd406e0935e6_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a8016c0617f8bf3092c5416487a1a7bd9" name="a8016c0617f8bf3092c5416487a1a7bd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8016c0617f8bf3092c5416487a1a7bd9">&#9670;&#160;</a></span>arrowDeleted</h2>
+<a id="ac6fd197194a714de7930016332840faa" name="ac6fd197194a714de7930016332840faa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6fd197194a714de7930016332840faa">&#9670;&#160;</a></span>arrowDeleted</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -495,8 +495,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void PlayerLogic::arrowDeleted </td>
           <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arrowId</em></span></td><td>)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>creatorId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arrowId</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -508,13 +512,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_a8016c0617f8bf3092c5416487a1a7bd9_icgraph.svg" width="426" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_ac6fd197194a714de7930016332840faa_icgraph.svg" width="426" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a2b684c5ce99a80fba301982ed3e32342" name="a2b684c5ce99a80fba301982ed3e32342"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b684c5ce99a80fba301982ed3e32342">&#9670;&#160;</a></span>arrowDeleteRequested</h2>
+<a id="add442d9533eb720e72d7a5ec1102c22f" name="add442d9533eb720e72d7a5ec1102c22f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add442d9533eb720e72d7a5ec1102c22f">&#9670;&#160;</a></span>arrowDeleteRequested</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -525,8 +529,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void PlayerLogic::arrowDeleteRequested </td>
           <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arrowId</em></span></td><td>)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>creatorId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>arrowId</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -538,13 +546,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_a2b684c5ce99a80fba301982ed3e32342_icgraph.svg" width="418" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_add442d9533eb720e72d7a5ec1102c22f_icgraph.svg" width="418" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a196c179c420b04f329b43f927595a4b8" name="a196c179c420b04f329b43f927595a4b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a196c179c420b04f329b43f927595a4b8">&#9670;&#160;</a></span>arrowsCleared</h2>
+<a id="acf04d2aa1ce2e833224ecb6192207c60" name="acf04d2aa1ce2e833224ecb6192207c60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf04d2aa1ce2e833224ecb6192207c60">&#9670;&#160;</a></span>arrowsClearedLocally</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -553,7 +561,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void PlayerLogic::arrowsCleared </td>
+          <td class="memname">void PlayerLogic::arrowsClearedLocally </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -568,7 +576,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_a196c179c420b04f329b43f927595a4b8_icgraph.svg" width="100%" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_acf04d2aa1ce2e833224ecb6192207c60_icgraph.svg" width="100%" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -590,7 +598,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_a84b2da3ccc40e45ccc3a3de060f26deb_cgraph.svg" width="659" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_a84b2da3ccc40e45ccc3a3de060f26deb_cgraph.svg" width="659" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1412,7 +1420,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_a0dc70bbccde3616cecba6d7e503482c6_icgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_a0dc70bbccde3616cecba6d7e503482c6_icgraph.svg" width="100%" height="557"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1665,7 +1673,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_afae5be4204550ffe5c66553b51435ff6_cgraph.svg" width="100%" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_afae5be4204550ffe5c66553b51435ff6_cgraph.svg" width="100%" height="428"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1744,7 +1752,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_a989329badf896471fd5afa7083d247fd_cgraph.svg" width="100%" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d98/classPlayerLogic_a989329badf896471fd5afa7083d247fd_cgraph.svg" width="100%" height="428"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

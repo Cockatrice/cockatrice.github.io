@@ -8,6 +8,8 @@ var dir_fcc53323f100f3840d6c8e04b287c6d3 =
     [ "zones", "dir_8f04e89bf047ba4e7a3267da4b339b83.html", "dir_8f04e89bf047ba4e7a3267da4b339b83" ],
     [ "abstract_game.cpp", "d3/df2/abstract__game_8cpp.html", null ],
     [ "abstract_game.h", "da/d99/abstract__game_8h.html", "da/d99/abstract__game_8h" ],
+    [ "arrow_registry.cpp", "d0/dd7/arrow__registry_8cpp.html", null ],
+    [ "arrow_registry.h", "dc/d96/arrow__registry_8h.html", "dc/d96/arrow__registry_8h" ],
     [ "card_dimensions.h", "d5/dcf/card__dimensions_8h.html", "d5/dcf/card__dimensions_8h" ],
     [ "game.cpp", "df/dd9/game_8cpp.html", null ],
     [ "game.h", "d2/dd5/game_8h.html", "d2/dd5/game_8h" ],
