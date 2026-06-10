@@ -8,7 +8,7 @@ var classPrintingSelectorCardOverlayWidget =
     [ "leaveEvent", "d3/d2f/classPrintingSelectorCardOverlayWidget.html#ac3359c2694d4d210547d242ce84cee38", null ],
     [ "mousePressEvent", "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a6129980c03c3a513372163ac15b6e26c", null ],
     [ "resizeEvent", "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a82c95cbdb463e0413590e953530a8f52", null ],
-    [ "updateCardAmounts", "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a4bdd760b7e968e7cc948c45d3e1191fa", null ],
+    [ "updateCardAmounts", "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a3c9952b76e88e6287511bdca395b209a", null ],
     [ "updatePinBadgeVisibility", "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a2ccc5f8ed84642ae85eb7c304af7e1b4", null ],
     [ "updateVisibility", "d3/d2f/classPrintingSelectorCardOverlayWidget.html#aa4ea86c86e95476eecef9d5ebbe31d88", null ],
     [ "allZonesCardAmountWidget", "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a62c60e901179fa4b813bc165080338b2", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"d3/d9f/classClientUpdateChecker.html#a3444e7add106a93cd0fc54ab3da2463e":[4,1,0,108,6],
+"d3/d9f/classClientUpdateChecker.html#a3c3c7488e6fbffe557d0270ed8d123fe":[4,1,0,108,5],
 "d3/d9f/classClientUpdateChecker.html#a40c0ac762b7e9937cd264eb714adb91c":[4,1,0,108,7],
 "d3/d9f/classClientUpdateChecker.html#a6b77a98e02757c34e0111e9a53ea71c3":[4,1,0,108,2],
 "d3/d9f/classClientUpdateChecker.html#a7b240768eb64332cd06b286765a9ff9c":[4,1,0,108,1],
@@ -219,8 +221,8 @@ var NAVTREEINDEX13 =
 "d3/de4/structDeckList_1_1Metadata.html#aa441b4f72c49593f204154e7e7a43e5a":[3,3,3,0,6],
 "d3/de4/structDeckList_1_1Metadata.html#abb32713a1d1c64e37f9242f7b5534405":[3,3,3,0,2],
 "d3/de6/group__RemoteDeckStorageDialogs.html":[3,1,0,6,0],
-"d3/de6/group__RemoteDeckStorageDialogs.html":[3,3,2,2,1,0],
 "d3/de6/group__RemoteDeckStorageDialogs.html":[3,3,2,1,0,0],
+"d3/de6/group__RemoteDeckStorageDialogs.html":[3,3,2,2,1,0],
 "d3/de7/grave__menu_8h.html":[3,4,0,3,1,1],
 "d3/de9/classAbstractDecklistCardNode.html":[3,3,0,0],
 "d3/de9/classAbstractDecklistCardNode.html#a29cbc47c621c4f110d45a7e5e5d6e6e7":[3,3,0,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "d3/def/edhrec__commander__api__response_8h.html":[4,2,0,0,1,5,4,11,0,1,0,4,1],
 "d3/def/edhrec__commander__api__response_8h_source.html":[4,2,0,0,1,5,4,11,0,1,0,4,1],
 "d3/df1/mana__curve__widget_8h.html":[3,1,0,4,1,1],
-"d3/df1/mana__curve__widget_8h.html":[3,3,1,1,1,1],
-"d3/df2/abstract__game_8cpp.html":[4,2,0,0,1,3,6],
-"d3/df2/player__logic_8h.html":[4,2,0,0,1,3,4,16]
+"d3/df1/mana__curve__widget_8h.html":[3,3,1,1,1,1]
 };

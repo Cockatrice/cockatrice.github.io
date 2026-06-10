@@ -2,7 +2,7 @@ var dir_d765547cb107e3eb2b3b1574ade0a766 =
 [
     [ "user_context_menu.cpp", "d5/dec/user__context__menu_8cpp.html", null ],
     [ "user_context_menu.h", "d7/d76/user__context__menu_8h.html", "d7/d76/user__context__menu_8h" ],
-    [ "user_info_box.cpp", "d8/da7/user__info__box_8cpp.html", "d8/da7/user__info__box_8cpp" ],
+    [ "user_info_box.cpp", "d8/da7/user__info__box_8cpp.html", null ],
     [ "user_info_box.h", "de/d3d/user__info__box_8h.html", "de/d3d/user__info__box_8h" ],
     [ "user_info_connection.cpp", "de/d3c/user__info__connection_8cpp.html", null ],
     [ "user_info_connection.h", "d2/df3/user__info__connection_8h.html", "d2/df3/user__info__connection_8h" ],

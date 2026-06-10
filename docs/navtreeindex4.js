@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"d1/d53/classAbstractTabDeckEditor.html#a7af6ee3c111358c9a82f0f0d3582d423":[3,3,1,0,0,26],
 "d1/d53/classAbstractTabDeckEditor.html#a7af6ee3c111358c9a82f0f0d3582d423":[3,3,1,1,0,0,26],
 "d1/d53/classAbstractTabDeckEditor.html#a7df08364fc7784e1a9295616bf5ea76c":[3,1,0,1,0,0,4],
 "d1/d53/classAbstractTabDeckEditor.html#a7df08364fc7784e1a9295616bf5ea76c":[3,1,0,4,0,0,4],
@@ -244,10 +245,9 @@ var NAVTREEINDEX4 =
 "d1/d8d/group__LocalDeckStorageDialogs.html":[3,3,2,0,0,0],
 "d1/d8d/group__LocalDeckStorageDialogs.html":[3,3,2,2,0],
 "d1/d8d/view__zone_8cpp.html":[4,2,0,0,1,4,1,12],
-"d1/d8e/classCardPictureLoaderStatusBar.html":[3,2,0,3],
 "d1/d8e/classCardPictureLoaderStatusBar.html":[3,1,1,3],
-"d1/d8e/classCardPictureLoaderStatusBar.html#a182a288e07ee90458bd2e03c33a17281":[3,2,0,3,2],
+"d1/d8e/classCardPictureLoaderStatusBar.html":[3,2,0,3],
 "d1/d8e/classCardPictureLoaderStatusBar.html#a182a288e07ee90458bd2e03c33a17281":[3,1,1,3,2],
-"d1/d8e/classCardPictureLoaderStatusBar.html#a24af4282e57956eebcd1ae17228784e0":[3,2,0,3,4],
+"d1/d8e/classCardPictureLoaderStatusBar.html#a182a288e07ee90458bd2e03c33a17281":[3,2,0,3,2],
 "d1/d8e/classCardPictureLoaderStatusBar.html#a24af4282e57956eebcd1ae17228784e0":[3,1,1,3,4]
 };

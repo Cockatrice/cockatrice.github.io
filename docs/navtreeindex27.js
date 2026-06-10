@@ -1,5 +1,14 @@
 var NAVTREEINDEX27 =
 {
+"d7/d23/classPhasesToolbar.html#a9884b764b4d71fc32f4c986d26ed69da":[4,1,0,349,6],
+"d7/d23/classPhasesToolbar.html#aa36a987aee2bcb9574502ce569c501f9":[4,1,0,349,18],
+"d7/d23/classPhasesToolbar.html#aa63aa3121bf6618930dcfe4e5af33e27":[4,1,0,349,1],
+"d7/d23/classPhasesToolbar.html#aae9c98b1ea749515bac55bf4801e8703":[4,1,0,349,2],
+"d7/d23/classPhasesToolbar.html#ab0835ff85f24447f4c7eb55afa6f68ea":[4,1,0,349,21],
+"d7/d23/classPhasesToolbar.html#ab9b5297e9db753c9a2d68e1f6a1f94cb":[4,1,0,349,12],
+"d7/d23/classPhasesToolbar.html#aca85a479c2cdb23965d9a00bd89a7def":[4,1,0,349,20],
+"d7/d23/classPhasesToolbar.html#ade6a54c600c3c772d60e23ac93d156b2":[4,1,0,349,16],
+"d7/d23/classPhasesToolbar.html#ae3eca21105d21698aff677be23ef9d3e":[4,1,0,349,13],
 "d7/d23/classPhasesToolbar.html#ae6037e83507d0f8f8f69ef8fde95f256":[4,1,0,349,8],
 "d7/d23/classPhasesToolbar.html#aee84882d9808fd7dcd4fafc3fc0709ce":[4,1,0,349,7],
 "d7/d23/classPhasesToolbar.html#af0911e318ed1455c0402a172604a104f":[4,1,0,349,17],
@@ -240,14 +249,5 @@ var NAVTREEINDEX27 =
 "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a0405be1733397834fed6492258ca648a":[4,1,0,543,3],
 "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a05ed4861999eee54dd0c706591260c53":[4,1,0,543,26],
 "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a07485238a801c0b01ce6a1583ca912f9":[4,1,0,543,27],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a1d2973a65518195efcc4756bbfc3319e":[4,1,0,543,8],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a203e58a49d73e185ac81a174b1bd9f46":[4,1,0,543,22],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a3b33157bf773b818e26ddbfc2a25a38a":[4,1,0,543,21],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a40b5cee43f980b5d2d5690e249b8df79":[4,1,0,543,7],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a40c658b713ad8df9570ca0d60311d8ce":[4,1,0,543,17],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a41348d9a4dc293b1c6bbcc0efb7c634f":[4,1,0,543,14],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a423b00807caba9b26759ee4b3b330311":[4,1,0,543,11],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a4533de051383c4b7257abe5e1ccbcdf6":[4,1,0,543,4],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a47be656a75a8b1f1710a7e9424df1fe4":[4,1,0,543,1],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a48ac0a4a58f3b93c52169ed5d3ae3b8b":[4,1,0,543,2]
+"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a1d2973a65518195efcc4756bbfc3319e":[4,1,0,543,8]
 };

@@ -8,10 +8,11 @@ var searchData=
   ['zoneid_5',['zoneId',['../d2/d98/classPlayerLogic.html#a4aed8b942524d7f6e05a22efb515c333',1,'PlayerLogic']]],
   ['zonelabelmainboard_6',['zoneLabelMainboard',['../d7/ddb/classAllZonesCardAmountWidget.html#acf8619757ef34191d6532d2038d2b5f2',1,'AllZonesCardAmountWidget']]],
   ['zonelabelsideboard_7',['zoneLabelSideboard',['../d7/ddb/classAllZonesCardAmountWidget.html#ac8b98ef76d0e4f0fca178911d6d9df0a',1,'AllZonesCardAmountWidget']]],
-  ['zonename_8',['zoneName',['../d9/d5d/classCardGroupDisplayWidget.html#ae96b83990920b990490c4d10df1bea55',1,'CardGroupDisplayWidget::zoneName'],['../d8/d9f/classDeckCardZoneDisplayWidget.html#aad27e26bdafcbd5f43ba2f3a81b3cc8f',1,'DeckCardZoneDisplayWidget::zoneName'],['../dc/d15/classCardAmountWidget.html#a9e4d915e5bde4b559e8e4203475ca0c3',1,'CardAmountWidget::zoneName']]],
-  ['zones_9',['zones',['../d2/d98/classPlayerLogic.html#a3054f62eb9bdddb9ab8489d0630dcef1',1,'PlayerLogic::zones'],['../da/d99/classServer__AbstractPlayer.html#ad908ae4976aad93f0dd00dcfe915eda8',1,'Server_AbstractPlayer::zones']]],
-  ['zoneviewgroupbyindex_10',['zoneViewGroupByIndex',['../d5/d88/classSettingsCache.html#a0ac12837806845b1a433d0779f170c94',1,'SettingsCache']]],
-  ['zoneviewpileview_11',['zoneViewPileView',['../d5/d88/classSettingsCache.html#aebfc75cab9857311d7d123afa000b4e3',1,'SettingsCache']]],
-  ['zoneviews_12',['zoneViews',['../db/d9f/classGameScene.html#adbd05dc03b8a1b08cd9bd204713e61fb',1,'GameScene']]],
-  ['zoneviewsortbyindex_13',['zoneViewSortByIndex',['../d5/d88/classSettingsCache.html#a98c7127c9eacc3e0257c8d866c132157',1,'SettingsCache']]]
+  ['zonelabeltokensboard_8',['zoneLabelTokensboard',['../d7/ddb/classAllZonesCardAmountWidget.html#ae4fc0473250a52b4f93c0ad47fc1a487',1,'AllZonesCardAmountWidget']]],
+  ['zonename_9',['zoneName',['../d9/d5d/classCardGroupDisplayWidget.html#ae96b83990920b990490c4d10df1bea55',1,'CardGroupDisplayWidget::zoneName'],['../d8/d9f/classDeckCardZoneDisplayWidget.html#aad27e26bdafcbd5f43ba2f3a81b3cc8f',1,'DeckCardZoneDisplayWidget::zoneName'],['../dc/d15/classCardAmountWidget.html#a9e4d915e5bde4b559e8e4203475ca0c3',1,'CardAmountWidget::zoneName']]],
+  ['zones_10',['zones',['../d2/d98/classPlayerLogic.html#a3054f62eb9bdddb9ab8489d0630dcef1',1,'PlayerLogic::zones'],['../da/d99/classServer__AbstractPlayer.html#ad908ae4976aad93f0dd00dcfe915eda8',1,'Server_AbstractPlayer::zones']]],
+  ['zoneviewgroupbyindex_11',['zoneViewGroupByIndex',['../d5/d88/classSettingsCache.html#a0ac12837806845b1a433d0779f170c94',1,'SettingsCache']]],
+  ['zoneviewpileview_12',['zoneViewPileView',['../d5/d88/classSettingsCache.html#aebfc75cab9857311d7d123afa000b4e3',1,'SettingsCache']]],
+  ['zoneviews_13',['zoneViews',['../db/d9f/classGameScene.html#adbd05dc03b8a1b08cd9bd204713e61fb',1,'GameScene']]],
+  ['zoneviewsortbyindex_14',['zoneViewSortByIndex',['../d5/d88/classSettingsCache.html#a98c7127c9eacc3e0257c8d866c132157',1,'SettingsCache']]]
 ];

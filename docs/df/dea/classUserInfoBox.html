@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-07-Development-3.1.0-beta.4</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-09-Development-3.1.0-beta.5</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -122,10 +122,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2b4c020723194ff4c0ed037487c52001" id="r_a2b4c020723194ff4c0ed037487c52001"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a2b4c020723194ff4c0ed037487c52001">UserInfoBox</a> (<a class="el" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *_client, bool <a class="el" href="#ad9bd6543fb583c122dedebaecb3e8735">editable</a>, QWidget *parent=nullptr, Qt::WindowFlags flags={})</td></tr>
 <tr class="memitem:a6cb9ea1bed71f00e877636f2c727ac4e" id="r_a6cb9ea1bed71f00e877636f2c727ac4e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6cb9ea1bed71f00e877636f2c727ac4e">retranslateUi</a> ()</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8710e1758d1d82d6871149e094162ffe" id="r_a8710e1758d1d82d6871149e094162ffe"><td class="memItemLeft">static QPair&lt; int, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a8710e1758d1d82d6871149e094162ffe">getDaysAndYearsBetween</a> (const QDate &amp;then, const QDate &amp;now)</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a96dabd86a721b644f98260376e24bab3" id="r_a96dabd86a721b644f98260376e24bab3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a96dabd86a721b644f98260376e24bab3">processResponse</a> (const Response &amp;r)</td></tr>
@@ -167,7 +163,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:adb0550ae365629f5e14a5d45c8ba2d05" id="r_adb0550ae365629f5e14a5d45c8ba2d05"><td class="memItemLeft">QPushButton&#160;</td><td class="memItemRight"><a class="el" href="#adb0550ae365629f5e14a5d45c8ba2d05">avatarButton</a></td></tr>
 <tr class="memitem:a6c2dbb4aabd38566c4af8ee1039da3da" id="r_a6c2dbb4aabd38566c4af8ee1039da3da"><td class="memItemLeft">QPixmap&#160;</td><td class="memItemRight"><a class="el" href="#a6c2dbb4aabd38566c4af8ee1039da3da">avatarPixmap</a></td></tr>
 <tr class="memitem:ada3fe8e81bff934135ff012911e97711" id="r_ada3fe8e81bff934135ff012911e97711"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ada3fe8e81bff934135ff012911e97711">hasAvatar</a></td></tr>
-<tr class="memitem:a1a3f4af558438d5854abcb3f85420c8e" id="r_a1a3f4af558438d5854abcb3f85420c8e"><td class="memItemLeft">const ServerInfo_User *&#160;</td><td class="memItemRight"><a class="el" href="#a1a3f4af558438d5854abcb3f85420c8e">currentUserInfo</a></td></tr>
+<tr class="memitem:afb85b7fc8510fadd171e5385bf7305e0" id="r_afb85b7fc8510fadd171e5385bf7305e0"><td class="memItemLeft">UserLevelFlags&#160;</td><td class="memItemRight"><a class="el" href="#afb85b7fc8510fadd171e5385bf7305e0">userLevel</a></td></tr>
+<tr class="memitem:a74dc450a3eafb2857f77d2b95444ddb9" id="r_a74dc450a3eafb2857f77d2b95444ddb9"><td class="memItemLeft">ServerInfo_User::PawnColorsOverride&#160;</td><td class="memItemRight"><a class="el" href="#a74dc450a3eafb2857f77d2b95444ddb9">pawnColors</a></td></tr>
+<tr class="memitem:ab68c60a62241a1d850eab4620aff6977" id="r_ab68c60a62241a1d850eab4620aff6977"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ab68c60a62241a1d850eab4620aff6977">privLevel</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2b4c020723194ff4c0ed037487c52001" name="a2b4c020723194ff4c0ed037487c52001"></a>
@@ -232,7 +230,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a1612139fd32f8a203acac3f6a72d487f_cgraph.svg" width="100%" height="477"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a1612139fd32f8a203acac3f6a72d487f_cgraph.svg" width="100%" height="458"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -302,7 +300,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a9a670af6febc0b35623aea6c93613a4f_cgraph.svg" width="100%" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a9a670af6febc0b35623aea6c93613a4f_cgraph.svg" width="100%" height="569"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -411,46 +409,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a94957b75179515fca185e293b43ec40c_cgraph.svg" width="476" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a94957b75179515fca185e293b43ec40c_cgraph.svg" width="446" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a94957b75179515fca185e293b43ec40c_icgraph.svg" width="100%" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a8710e1758d1d82d6871149e094162ffe" name="a8710e1758d1d82d6871149e094162ffe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8710e1758d1d82d6871149e094162ffe">&#9670;&#160;</a></span>getDaysAndYearsBetween()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QPair&lt; int, int &gt; UserInfoBox::getDaysAndYearsBetween </td>
-          <td>(</td>
-          <td class="paramtype">const QDate &amp;</td>          <td class="paramname"><span class="paramname"><em>then</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QDate &amp;</td>          <td class="paramname"><span class="paramname"><em>now</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a8710e1758d1d82d6871149e094162ffe_icgraph.svg" width="100%" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -480,7 +444,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a4d53cad9bd28d39e64bf9e957029ee01_cgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a4d53cad9bd28d39e64bf9e957029ee01_cgraph.svg" width="100%" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -515,7 +479,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a05d5c0c03ce4953893caf796e93e1015_cgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a05d5c0c03ce4953893caf796e93e1015_cgraph.svg" width="100%" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -580,7 +544,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a96dabd86a721b644f98260376e24bab3_cgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a96dabd86a721b644f98260376e24bab3_cgraph.svg" width="100%" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -667,7 +631,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_abb02aa91a34af90db7d2e7e4707e4ea0_cgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_abb02aa91a34af90db7d2e7e4707e4ea0_cgraph.svg" width="100%" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -697,7 +661,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a80d788ff3c660bd58e59163af75ee865_cgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dea/classUserInfoBox_a80d788ff3c660bd58e59163af75ee865_cgraph.svg" width="100%" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -906,28 +870,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a1a3f4af558438d5854abcb3f85420c8e" name="a1a3f4af558438d5854abcb3f85420c8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a3f4af558438d5854abcb3f85420c8e">&#9670;&#160;</a></span>currentUserInfo</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const ServerInfo_User* UserInfoBox::currentUserInfo</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad9bd6543fb583c122dedebaecb3e8735" name="ad9bd6543fb583c122dedebaecb3e8735"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9bd6543fb583c122dedebaecb3e8735">&#9670;&#160;</a></span>editable</h2>
 
@@ -1038,6 +980,50 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a74dc450a3eafb2857f77d2b95444ddb9" name="a74dc450a3eafb2857f77d2b95444ddb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74dc450a3eafb2857f77d2b95444ddb9">&#9670;&#160;</a></span>pawnColors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ServerInfo_User::PawnColorsOverride UserInfoBox::pawnColors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab68c60a62241a1d850eab4620aff6977" name="ab68c60a62241a1d850eab4620aff6977"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab68c60a62241a1d850eab4620aff6977">&#9670;&#160;</a></span>privLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString UserInfoBox::privLevel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a87fbb5f7a52e818e64d3b99d1b570142" name="a87fbb5f7a52e818e64d3b99d1b570142"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a87fbb5f7a52e818e64d3b99d1b570142">&#9670;&#160;</a></span>realNameLabel1</h2>
 
@@ -1071,6 +1057,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QLabel UserInfoBox::realNameLabel2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb85b7fc8510fadd171e5385bf7305e0" name="afb85b7fc8510fadd171e5385bf7305e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb85b7fc8510fadd171e5385bf7305e0">&#9670;&#160;</a></span>userLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UserLevelFlags UserInfoBox::userLevel</td>
         </tr>
       </table>
   </td>

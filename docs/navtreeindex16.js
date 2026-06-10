@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"d4/d99/theme__manager_8cpp.html#afd05fe920fe646312b45316922094bae":[4,2,0,0,1,5,13,2],
+"d4/d9d/deck__filter__string_8cpp.html":[4,2,0,0,1,2,0],
 "d4/d9d/deck__filter__string_8cpp.html#a1b3f5c50a74878001e05fb6c700d3d16":[4,2,0,0,1,2,0,0],
 "d4/d9d/deck__filter__string_8cpp.html#a7cd1776ce070457b6ff51645ece1b341":[4,2,0,0,1,2,0,1],
 "d4/d9d/deck__filter__string_8cpp.html#aebd5b6f2f0331b8cd0ec91f09a3acbfd":[4,2,0,0,1,2,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "d5/d07/classReplayTimelineWidget.html#af7ea8935fe5f56467e17f773e1a26385":[4,1,0,398,8],
 "d5/d08/sideboard__menu_8cpp.html":[4,2,0,0,1,3,4,0,21],
 "d5/d0c/printing__info_8cpp.html":[4,2,0,2,0,0,3,2],
-"d5/d0e/classServatrice.html":[4,1,0,414],
-"d5/d0e/classServatrice.html#a0015f412f40870b6f435727e72a34b9f":[4,1,0,414,34],
-"d5/d0e/classServatrice.html#a0201ff028f10e23671941fddef338323":[4,1,0,414,48]
+"d5/d0e/classServatrice.html":[4,1,0,414]
 };

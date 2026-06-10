@@ -1,5 +1,17 @@
 var NAVTREEINDEX42 =
 {
+"db/d04/classHandMenu.html#aff5515fc97cd006434cd5b551984de2e":[4,1,0,263,13],
+"db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html":[4,1,0,211],
+"db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#a12e33d29ba43b61b69364683b73172d9":[4,1,0,211,5],
+"db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#a1cfad19f186b00e66bd4c01163873df9":[4,1,0,211,2],
+"db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#a6a9b5ba8c635db1c8491f8bc08f2660a":[4,1,0,211,1],
+"db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#a70cfc35f0a2b75fb353c75d35a923767":[4,1,0,211,10],
+"db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#a761d7b02ae0d68dd57ab005567ee77fc":[4,1,0,211,9],
+"db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#a8d3f71c81da313ccd67bc8467c105446":[4,1,0,211,6],
+"db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#aad794116e95b122fb05e1798be6b80ba":[4,1,0,211,0],
+"db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#ab2d2afcf8b7550947685cc3f70250b3d":[4,1,0,211,8],
+"db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#aca979f8ab264e6d41f004e21ece97101":[4,1,0,211,7],
+"db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#ad06e19b4da1bb79be13f1e9968f4c093":[4,1,0,211,3],
 "db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#ad6ab30039b330fdf64a08e9396bd3bef":[4,1,0,211,4],
 "db/d06/card__name__normalizer_8cpp.html":[4,2,0,2,0,0,2,0],
 "db/d06/card__name__normalizer_8cpp.html#aced687d86000b12a9bbb887fab18c556":[4,2,0,2,0,0,2,0,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX42 =
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#a4902ea4c8e269102796c555e8f6a3482":[4,0,0,15,48,17],
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#a4902ea4c8e269102796c555e8f6a3482":[4,1,0,3,47,17],
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#a4d256311ac54faa26de95bab9a620195":[4,0,0,15,48,13],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a4d256311ac54faa26de95bab9a620195":[4,1,0,3,47,13],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a5579b8dba4d997613e90dbfbecb1b8f6":[4,0,0,15,48,1],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a5579b8dba4d997613e90dbfbecb1b8f6":[4,1,0,3,47,1],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a5d40de623e7750f2832c84d17a9ed6f8":[4,0,0,15,48,18],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a5d40de623e7750f2832c84d17a9ed6f8":[4,1,0,3,47,18],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a6832730a9e68ac4d3c702a308897324c":[4,0,0,15,48,5],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a6832730a9e68ac4d3c702a308897324c":[4,1,0,3,47,5],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a75b661651ebd771a310a14f205a9aa87":[4,0,0,15,48,24],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a75b661651ebd771a310a14f205a9aa87":[4,1,0,3,47,24],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a96059bf5925b9f1b606d7ca706daa4c6":[4,0,0,15,48,15],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a96059bf5925b9f1b606d7ca706daa4c6":[4,1,0,3,47,15],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a9e1579a19a37333b691b07a661614f2a":[4,0,0,15,48,28],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a9e1579a19a37333b691b07a661614f2a":[4,1,0,3,47,28]
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#a4d256311ac54faa26de95bab9a620195":[4,1,0,3,47,13]
 };

@@ -1,6 +1,7 @@
 var classReplayManager =
 [
     [ "ReplayManager", "da/de9/classReplayManager.html#afb3cad9876028dfafcd64078fce5af0a", null ],
+    [ "eventReplayed", "da/de9/classReplayManager.html#ad53f40a28d232da1ba41b7db94a99eb9", null ],
     [ "refreshShortcuts", "da/de9/classReplayManager.html#ab1428760b79a1a4904018dcebf39f922", null ],
     [ "replayFastForwardButtonToggled", "da/de9/classReplayManager.html#a838f8ba81c54650eab534f3136348015", null ],
     [ "replayFinished", "da/de9/classReplayManager.html#a1045209c661d90fd89ea982cadf07af1", null ],

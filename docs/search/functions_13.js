@@ -40,7 +40,7 @@ var searchData=
   ['takestashedcard_37',['takeStashedCard',['../dc/d07/classServer__Card.html#a51b52f11a8323079406575ee9fa35ef5',1,'Server_Card']]],
   ['talkclosing_38',['talkClosing',['../d1/de7/classTabMessage.html#a9f69dbb40a6823ca69d710dd58eb197d',1,'TabMessage']]],
   ['talkleft_39',['talkLeft',['../dd/d81/classTabSupervisor.html#a59f84774c6608a778708394bc93f7b01',1,'TabSupervisor']]],
-  ['tallyuuidcounts_40',['tallyUuidCounts',['../d2/d32/printing__selector_8cpp.html#ae4dcac5032bad08ce6d9ae7c8ca65910',1,'printing_selector.cpp']]],
+  ['tallyuuidcounts_40',['tallyUuidCounts',['../d2/d32/printing__selector_8cpp.html#affbb07d5540f25c41f30d53dbb426a67',1,'printing_selector.cpp']]],
   ['tappedoutinterface_41',['TappedOutInterface',['../d8/d9e/classTappedOutInterface.html#ac1082b7a5ae142dcfcd92997d063dfd5',1,'TappedOutInterface']]],
   ['tcpserversocketinterface_42',['TcpServerSocketInterface',['../dd/d13/classTcpServerSocketInterface.html#a076f21dfced18c70a378fd3010683915',1,'TcpServerSocketInterface']]],
   ['tearoffmenu_43',['TearOffMenu',['../de/d53/classTearOffMenu.html#a68deb1207f5d301d1429b011b098502e',1,'TearOffMenu::TearOffMenu(const QString &amp;title, QWidget *parent=nullptr)'],['../de/d53/classTearOffMenu.html#a0e4224a1693d58e543302d19e0ebdd0e',1,'TearOffMenu::TearOffMenu(QWidget *parent=nullptr)']]],

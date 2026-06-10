@@ -1,5 +1,16 @@
 var NAVTREEINDEX39 =
 {
+"da/d67/room__message__type_8h.html":[4,2,0,7,0,0,1,1,1],
+"da/d67/room__message__type_8h_source.html":[4,2,0,7,0,0,1,1,1],
+"da/d67/visual__database__display__color__filter__widget_8h.html":[3,1,0,3,1,0],
+"da/d67/visual__database__display__color__filter__widget_8h.html":[3,2,4,2,1,0],
+"da/d68/classDeckList.html":[3,3,3],
+"da/d68/classDeckList.html#a011d41232bbf43b948d82271a49fa4d8":[3,3,3,33],
+"da/d68/classDeckList.html#a0762038bdd843f2937e9c2f551b63e54":[3,3,3,23],
+"da/d68/classDeckList.html#a084e4cc436edcbdc3b248d886f03a8b3":[3,3,3,24],
+"da/d68/classDeckList.html#a0c593080d57c8d9a87a03d610701e2c8":[3,3,3,5],
+"da/d68/classDeckList.html#a16a875bdb4b6594e3ba2713e217a0ff4":[3,3,3,13],
+"da/d68/classDeckList.html#a17a48cae68974337aa44792677a0e0b9":[3,3,3,37],
 "da/d68/classDeckList.html#a19235bea73e3765d8788c87f9695ffef":[3,3,3,2],
 "da/d68/classDeckList.html#a1d0c79372af707b37607829efd2168b6":[3,3,3,51],
 "da/d68/classDeckList.html#a26993d1ecf902c97868eefe08a9ccf0e":[3,3,3,43],
@@ -238,16 +249,5 @@ var NAVTREEINDEX39 =
 "da/d8d/classCardDatabaseDisplayModel.html#a1d72f9b98f0e98dc783777e1329b959a":[4,1,0,64,0],
 "da/d8d/classCardDatabaseDisplayModel.html#a1d72f9b98f0e98dc783777e1329b959aa07e44ef6c9b2d36f8b15f49f050336ac":[4,1,0,64,0,0],
 "da/d8d/classCardDatabaseDisplayModel.html#a1d72f9b98f0e98dc783777e1329b959aa887bd6f98ae1b6c6929018812dad33ef":[4,1,0,64,0,2],
-"da/d8d/classCardDatabaseDisplayModel.html#a1d72f9b98f0e98dc783777e1329b959aac945bef6cba13953125d38976d811101":[4,1,0,64,0,1],
-"da/d8d/classCardDatabaseDisplayModel.html#a24512008235ce1ab58ed5933daa6a653":[4,1,0,64,3],
-"da/d8d/classCardDatabaseDisplayModel.html#a28afea38aa397d13e513c26bf0541b1b":[4,1,0,64,26],
-"da/d8d/classCardDatabaseDisplayModel.html#a2a80e3f7a355244d16fc3701c30ee941":[4,1,0,64,1],
-"da/d8d/classCardDatabaseDisplayModel.html#a2fb28cf05d480d3e7a75b6f5c0d72aa9":[4,1,0,64,9],
-"da/d8d/classCardDatabaseDisplayModel.html#a2fe264213814d4792dfd397005ce98bf":[4,1,0,64,10],
-"da/d8d/classCardDatabaseDisplayModel.html#a33d7f1953b2ae04fe58e2f2d3391af7a":[4,1,0,64,30],
-"da/d8d/classCardDatabaseDisplayModel.html#a52393b73655091dbd51c5b14a7050651":[4,1,0,64,21],
-"da/d8d/classCardDatabaseDisplayModel.html#a5d5056700a4b37484600e673f0e41dae":[4,1,0,64,13],
-"da/d8d/classCardDatabaseDisplayModel.html#a7c76d5a4786d1622c40ef5cd886d913b":[4,1,0,64,15],
-"da/d8d/classCardDatabaseDisplayModel.html#a8a107a12b07ace3f0f44f260107c009b":[4,1,0,64,17],
-"da/d8d/classCardDatabaseDisplayModel.html#a8b8c4ed30b20f0b6d1be5e2112991922":[4,1,0,64,16]
+"da/d8d/classCardDatabaseDisplayModel.html#a1d72f9b98f0e98dc783777e1329b959aac945bef6cba13953125d38976d811101":[4,1,0,64,0,1]
 };

@@ -849,5 +849,6 @@ var hierarchy =
     [ "Zip", "d8/df5/classZip.html", null ],
     [ "UnZip::ZipEntry", "d9/d9c/structUnZip_1_1ZipEntry.html", null ],
     [ "ZipEntryP", "d6/dd9/classZipEntryP.html", null ],
+    [ "ZoneCounts", "de/d45/structZoneCounts.html", null ],
     [ "SelectZone::ZoneLayout", "d9/d0d/structSelectZone_1_1ZoneLayout.html", null ]
 ];

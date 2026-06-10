@@ -5,12 +5,15 @@ var classAllZonesCardAmountWidget =
     [ "enterEvent", "d7/ddb/classAllZonesCardAmountWidget.html#aa4e03f80e3acac13e35f5a0235584cb2", null ],
     [ "getMainboardAmount", "d7/ddb/classAllZonesCardAmountWidget.html#ac96d24629967d3ac607fb810ee26fa36", null ],
     [ "getSideboardAmount", "d7/ddb/classAllZonesCardAmountWidget.html#ac664b3bc94d887b3873c18dd2893691f", null ],
+    [ "getTokensboardAmount", "d7/ddb/classAllZonesCardAmountWidget.html#a553c772617779dc7d9df5b13caca824e", null ],
     [ "isNonZero", "d7/ddb/classAllZonesCardAmountWidget.html#a4f7311796db65aee9f63dfbb49782c10", null ],
-    [ "setAmounts", "d7/ddb/classAllZonesCardAmountWidget.html#ac6b6b9d4b6814e6d9d8e6c0c7e630395", null ],
+    [ "setAmounts", "d7/ddb/classAllZonesCardAmountWidget.html#a352359611ce58c19345a0b24b6635b9b", null ],
     [ "buttonBoxMainboard", "d7/ddb/classAllZonesCardAmountWidget.html#a670f40d4c0272f906d6674d7a6f78fe9", null ],
     [ "buttonBoxSideboard", "d7/ddb/classAllZonesCardAmountWidget.html#a3ef63fb5a359d16fb7fa60fa6804fe0b", null ],
+    [ "buttonBoxTokensboard", "d7/ddb/classAllZonesCardAmountWidget.html#a4ddf54932493ec6f02bb8fd57ba8c80a", null ],
     [ "cardSizeSlider", "d7/ddb/classAllZonesCardAmountWidget.html#a437c9d2230634c6fa82b28769b0611f7", null ],
     [ "layout", "d7/ddb/classAllZonesCardAmountWidget.html#a85853103db2d18ab7397328d8f868f44", null ],
     [ "zoneLabelMainboard", "d7/ddb/classAllZonesCardAmountWidget.html#acf8619757ef34191d6532d2038d2b5f2", null ],
-    [ "zoneLabelSideboard", "d7/ddb/classAllZonesCardAmountWidget.html#ac8b98ef76d0e4f0fca178911d6d9df0a", null ]
+    [ "zoneLabelSideboard", "d7/ddb/classAllZonesCardAmountWidget.html#ac8b98ef76d0e4f0fca178911d6d9df0a", null ],
+    [ "zoneLabelTokensboard", "d7/ddb/classAllZonesCardAmountWidget.html#ae4fc0473250a52b4f93c0ad47fc1a487", null ]
 ];

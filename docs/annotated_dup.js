@@ -625,6 +625,7 @@ var annotated_dup =
     [ "Zip", "d8/df5/classZip.html", "d8/df5/classZip" ],
     [ "ZipEntryP", "d6/dd9/classZipEntryP.html", "d6/dd9/classZipEntryP" ],
     [ "ZipPrivate", "df/daf/classZipPrivate.html", "df/daf/classZipPrivate" ],
+    [ "ZoneCounts", "de/d45/structZoneCounts.html", "de/d45/structZoneCounts" ],
     [ "ZoneViewWidget", "d0/dd9/classZoneViewWidget.html", "d0/dd9/classZoneViewWidget" ],
     [ "ZoneViewZone", "d0/db5/classZoneViewZone.html", "d0/db5/classZoneViewZone" ],
     [ "ZoneViewZoneLogic", "d8/d70/classZoneViewZoneLogic.html", "d8/d70/classZoneViewZoneLogic" ]

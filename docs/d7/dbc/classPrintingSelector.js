@@ -1,7 +1,7 @@
 var classPrintingSelector =
 [
     [ "PrintingSelector", "d7/dbc/classPrintingSelector.html#ab6d8607519ea0250bea869add24d18e0", null ],
-    [ "cardAmountsChanged", "d7/dbc/classPrintingSelector.html#a30820da81c7132fa8ece8d8c08b7aad6", null ],
+    [ "cardAmountsChanged", "d7/dbc/classPrintingSelector.html#a7f95bda85395a91665d5254d68681d05", null ],
     [ "getAllSetsForCurrentCard", "d7/dbc/classPrintingSelector.html#ae77e2510421de004cf819a01f97d6a73", null ],
     [ "nextCardRequested", "d7/dbc/classPrintingSelector.html#a3054e185daecdbd464dde6c25b28f39b", null ],
     [ "prevCardRequested", "d7/dbc/classPrintingSelector.html#ae17f313d771a27159043f341486a98b3", null ],

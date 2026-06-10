@@ -2,6 +2,7 @@ var dir_f4be27d36b478c7f01a45661d0a08936 =
 [
     [ "card_ref.h", "dc/d89/card__ref_8h.html", "dc/d89/card__ref_8h" ],
     [ "color.h", "da/dec/color_8h.html", "da/dec/color_8h" ],
+    [ "days_years_between.h", "d7/d1f/days__years__between_8h.html", "d7/d1f/days__years__between_8h" ],
     [ "expression.cpp", "da/d45/expression_8cpp.html", "da/d45/expression_8cpp" ],
     [ "expression.h", "d3/d1b/expression_8h.html", "d3/d1b/expression_8h" ],
     [ "levenshtein.cpp", "de/dd6/levenshtein_8cpp.html", "de/dd6/levenshtein_8cpp" ],

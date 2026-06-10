@@ -11,7 +11,8 @@ var searchData=
   ['zonedeleted_8',['zoneDeleted',['../d0/dd9/classZoneViewWidget.html#a0075c03caa66498c7be0411607c864e8',1,'ZoneViewWidget']]],
   ['zonedumpreceived_9',['zoneDumpReceived',['../d0/db5/classZoneViewZone.html#af10cb1744e98665557413b94b450fa40',1,'ZoneViewZone']]],
   ['zoneidchanged_10',['zoneIdChanged',['../d2/d98/classPlayerLogic.html#af25c5b27d0fccbd4dadf5e5662ef22d7',1,'PlayerLogic']]],
-  ['zoneviewwidget_11',['ZoneViewWidget',['../d0/dd9/classZoneViewWidget.html#a163efadda5973a8b3f5ffc4ee64c5ab2',1,'ZoneViewWidget']]],
-  ['zoneviewzone_12',['ZoneViewZone',['../d0/db5/classZoneViewZone.html#a6edf294de4065c2f00f6fabb74456fa5',1,'ZoneViewZone']]],
-  ['zoneviewzonelogic_13',['ZoneViewZoneLogic',['../d8/d70/classZoneViewZoneLogic.html#af8e982515d0688d1edd6384e77d5a03a',1,'ZoneViewZoneLogic']]]
+  ['zonelogname_11',['zoneLogName',['../d1/d29/card__amount__widget_8cpp.html#abcf0fecab6a7a7b443c01303250fc1d5',1,'card_amount_widget.cpp']]],
+  ['zoneviewwidget_12',['ZoneViewWidget',['../d0/dd9/classZoneViewWidget.html#a163efadda5973a8b3f5ffc4ee64c5ab2',1,'ZoneViewWidget']]],
+  ['zoneviewzone_13',['ZoneViewZone',['../d0/db5/classZoneViewZone.html#a6edf294de4065c2f00f6fabb74456fa5',1,'ZoneViewZone']]],
+  ['zoneviewzonelogic_14',['ZoneViewZoneLogic',['../d8/d70/classZoneViewZoneLogic.html#af8e982515d0688d1edd6384e77d5a03a',1,'ZoneViewZoneLogic']]]
 ];

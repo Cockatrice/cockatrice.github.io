@@ -244,7 +244,7 @@ var NAVTREEINDEX0 =
 "d0/d4d/edhrec__top__commanders__api__response__display__widget_8cpp.html":[4,2,0,0,1,5,4,11,0,1,1,4,0],
 "d0/d4d/settingscache_8cpp.html":[4,2,0,13,0,17],
 "d0/d51/exporting_decks.html":[0,0,3],
-"d0/d51/exporting_decks.html#from-an-online-service":[0,0,3,1,2],
+"d0/d51/exporting_decks.html#from-an-online-service-1":[0,0,3,1,2],
 "d0/d51/exporting_decks.html#from-clipboard":[0,0,3,1,1],
 "d0/d51/exporting_decks.html#local-file-storage":[0,0,3,1,0],
 "d0/d51/exporting_decks.html#the-deck-editor-tab":[0,0,3,1],

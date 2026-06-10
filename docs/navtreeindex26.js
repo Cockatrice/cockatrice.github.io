@@ -1,5 +1,11 @@
 var NAVTREEINDEX26 =
 {
+"d6/dd2/card__database__display__model_8cpp.html":[4,2,0,6,0,0,0,3],
+"d6/dd4/view__zone__logic_8h.html":[3,4,1,1,5],
+"d6/dd5/stack__zone_8h.html":[3,4,0,4,1,4],
+"d6/dd9/classZipEntryP.html":[4,1,0,554],
+"d6/dd9/classZipEntryP.html#a404d895c7f7c57cd542da8801499044e":[4,1,0,554,4],
+"d6/dd9/classZipEntryP.html#a53915fea87845f4896f781f158cf67d8":[4,1,0,554,14],
 "d6/dd9/classZipEntryP.html#a5d9932a47b10ec7dec63535f3c407369":[4,1,0,554,6],
 "d6/dd9/classZipEntryP.html#a5f1858e52947596467955c1185c7e4eb":[4,1,0,554,15],
 "d6/dd9/classZipEntryP.html#a706f776bf90a3ac8056303ee809825ea":[4,1,0,554,12],
@@ -228,6 +234,9 @@ var NAVTREEINDEX26 =
 "d7/d1a/visual__database__display__sub__type__filter__widget_8h.html":[3,2,4,2,1,5],
 "d7/d1b/shortcut__settings__page_8h.html":[4,2,0,0,1,5,4,10,10],
 "d7/d1b/shortcut__settings__page_8h_source.html":[4,2,0,0,1,5,4,10,10],
+"d7/d1f/days__years__between_8h.html":[4,2,0,11,0,0,2],
+"d7/d1f/days__years__between_8h.html#ad8abafa3e37605abb4291e8ffde1e59f":[4,2,0,11,0,0,2,0],
+"d7/d1f/days__years__between_8h_source.html":[4,2,0,11,0,0,2],
 "d7/d20/tab__game_8h.html":[3,1,0,1,6],
 "d7/d20/tab__game_8h.html":[3,1,0,7,3],
 "d7/d20/tab__game_8h.html":[3,4,0,1,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX26 =
 "d7/d23/classPhasesToolbar.html#a48ce48593e89952f021b759a3fb949b4":[4,1,0,349,11],
 "d7/d23/classPhasesToolbar.html#a5a4c63d928bc8ac23c936a672b3da57f":[4,1,0,349,5],
 "d7/d23/classPhasesToolbar.html#a64b9bfa5d89549febef8620d4700078c":[4,1,0,349,10],
-"d7/d23/classPhasesToolbar.html#a7c78467dff512af7c7639f8500525761":[4,1,0,349,9],
-"d7/d23/classPhasesToolbar.html#a9884b764b4d71fc32f4c986d26ed69da":[4,1,0,349,6],
-"d7/d23/classPhasesToolbar.html#aa36a987aee2bcb9574502ce569c501f9":[4,1,0,349,18],
-"d7/d23/classPhasesToolbar.html#aa63aa3121bf6618930dcfe4e5af33e27":[4,1,0,349,1],
-"d7/d23/classPhasesToolbar.html#aae9c98b1ea749515bac55bf4801e8703":[4,1,0,349,2],
-"d7/d23/classPhasesToolbar.html#ab0835ff85f24447f4c7eb55afa6f68ea":[4,1,0,349,21],
-"d7/d23/classPhasesToolbar.html#ab9b5297e9db753c9a2d68e1f6a1f94cb":[4,1,0,349,12],
-"d7/d23/classPhasesToolbar.html#aca85a479c2cdb23965d9a00bd89a7def":[4,1,0,349,20],
-"d7/d23/classPhasesToolbar.html#ade6a54c600c3c772d60e23ac93d156b2":[4,1,0,349,16],
-"d7/d23/classPhasesToolbar.html#ae3eca21105d21698aff677be23ef9d3e":[4,1,0,349,13]
+"d7/d23/classPhasesToolbar.html#a7c78467dff512af7c7639f8500525761":[4,1,0,349,9]
 };

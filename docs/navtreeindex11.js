@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"d2/df2/classAnalyticsPanelWidgetFactory.html":[4,1,0,25],
+"d2/df2/classAnalyticsPanelWidgetFactory.html#a2678ae1686bc4999ba5b40bc6963342c":[4,1,0,25,8],
 "d2/df2/classAnalyticsPanelWidgetFactory.html#a349d8df7dd9b96ed10fe1e575b3d0779":[4,1,0,25,9],
 "d2/df2/classAnalyticsPanelWidgetFactory.html#a5f9444b4f6fcf4339a2854e656d96ddf":[4,1,0,25,5],
 "d2/df2/classAnalyticsPanelWidgetFactory.html#a6d22c83afbd3aa51fc9681f7a72a077e":[4,1,0,25,1],
@@ -121,8 +123,8 @@ var NAVTREEINDEX11 =
 "d3/d15/classAddAnalyticsPanelDialog.html#aa670de640f30dddecf28ba85b356115b":[4,1,0,20,3],
 "d3/d15/classAddAnalyticsPanelDialog.html#ad0e7b78f55f8fbe5171eb11386ef3c06":[4,1,0,20,1],
 "d3/d15/classAddAnalyticsPanelDialog.html#adf068c15ca801f7640582b287578c924":[4,1,0,20,2],
-"d3/d1b/expression_8h.html":[4,2,0,11,0,0,3],
-"d3/d1b/expression_8h_source.html":[4,2,0,11,0,0,3],
+"d3/d1b/expression_8h.html":[4,2,0,11,0,0,4],
+"d3/d1b/expression_8h_source.html":[4,2,0,11,0,0,4],
 "d3/d1d/loaded__deck_8cpp.html":[4,2,0,0,1,5,1,6],
 "d3/d1e/smtpclient_8h.html":[4,2,0,13,0,22],
 "d3/d1e/smtpclient_8h_source.html":[4,2,0,13,0,22],
@@ -152,8 +154,8 @@ var NAVTREEINDEX11 =
 "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a16dc606aed04563cb7e8c31ac542d9bf":[4,1,0,371,15],
 "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a25e3201791d68f7f2cd9ff17c5ff9b14":[4,1,0,371,14],
 "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a2ccc5f8ed84642ae85eb7c304af7e1b4":[4,1,0,371,9],
+"d3/d2f/classPrintingSelectorCardOverlayWidget.html#a3c9952b76e88e6287511bdca395b209a":[4,1,0,371,8],
 "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a462cf9a19c268d0a0ba1025ead2e21b5":[4,1,0,371,12],
-"d3/d2f/classPrintingSelectorCardOverlayWidget.html#a4bdd760b7e968e7cc948c45d3e1191fa":[4,1,0,371,8],
 "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a4fd7f2ccace1335af6de17c64ec6c001":[4,1,0,371,13],
 "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a6129980c03c3a513372163ac15b6e26c":[4,1,0,371,6],
 "d3/d2f/classPrintingSelectorCardOverlayWidget.html#a62c60e901179fa4b813bc165080338b2":[4,1,0,371,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "d3/d58/classLayoutsSettings.html#a0ba60235fa9f80016b6528b78b110423":[4,1,0,279,5],
 "d3/d58/classLayoutsSettings.html#a10e9337fd533bd29dc8758711133dec6":[4,1,0,279,0],
 "d3/d58/classLayoutsSettings.html#a144acef9f5ed129d47cccc6f2a986d39":[4,1,0,279,27],
-"d3/d58/classLayoutsSettings.html#a191acbe049763313f50684ea0a6efc86":[4,1,0,279,22],
-"d3/d58/classLayoutsSettings.html#a1b9bb68d0da4a01df7af01a9b46ae356":[4,1,0,279,24],
-"d3/d58/classLayoutsSettings.html#a22f0959ed1e7b40e693dd11461ed352c":[4,1,0,279,15]
+"d3/d58/classLayoutsSettings.html#a191acbe049763313f50684ea0a6efc86":[4,1,0,279,22]
 };

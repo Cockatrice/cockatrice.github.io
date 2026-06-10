@@ -1,5 +1,17 @@
 var NAVTREEINDEX32 =
 {
+"d8/d95/classFilterTree.html":[4,1,0,236],
+"d8/d95/classFilterTree.html#a11ac83adb25bdc3598aaf1b02f353892":[4,1,0,236,21],
+"d8/d95/classFilterTree.html#a1214626802a27cca2fa11b5eb2ad160f":[4,1,0,236,22],
+"d8/d95/classFilterTree.html#a52695bc306a777ca8940cc7f0766dbb0":[4,1,0,236,13],
+"d8/d95/classFilterTree.html#a69ace2c797b4a495093a060a2fd7906c":[4,1,0,236,17],
+"d8/d95/classFilterTree.html#a6e7725952b764779c85d7a63284bad44":[4,1,0,236,7],
+"d8/d95/classFilterTree.html#a7d145d49a0d1782bce296712bac05ddb":[4,1,0,236,19],
+"d8/d95/classFilterTree.html#a815da2affead176aedfbed917b66b7e4":[4,1,0,236,3],
+"d8/d95/classFilterTree.html#a8ef66b12964d8ca6baf1a0ac9054e45f":[4,1,0,236,14],
+"d8/d95/classFilterTree.html#a997af71ebe947da3f0db04f9a1285da3":[4,1,0,236,18],
+"d8/d95/classFilterTree.html#a9f212333d59f811efeacba5f4c4a33db":[4,1,0,236,9],
+"d8/d95/classFilterTree.html#aa07f936cc08019fb3c84ebbae0571876":[4,1,0,236,5],
 "d8/d95/classFilterTree.html#aa9746172c17ec96604eee99aaf8a9855":[4,1,0,236,12],
 "d8/d95/classFilterTree.html#aaa41d00dd44745d76d8f73444cf26e8a":[4,1,0,236,2],
 "d8/d95/classFilterTree.html#aacdab9327019f1c259febc737c928898":[4,1,0,236,10],
@@ -80,7 +92,6 @@ var NAVTREEINDEX32 =
 "d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#adf7188c8e40118196a440eba66c36594":[3,3,2,3,0,0,11,0],
 "d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#adf7188c8e40118196a440eba66c36594":[3,5,1,0,0,11,0],
 "d8/da7/user__info__box_8cpp.html":[4,2,0,0,1,5,4,9,2,2],
-"d8/da7/user__info__box_8cpp.html#a5a28893db7bf1ddde95cded8c2ee921b":[4,2,0,0,1,5,4,9,2,2,0],
 "d8/da8/cockatrice_2src_2main_8cpp.html":[4,2,0,0,1,6],
 "d8/da8/cockatrice_2src_2main_8cpp.html#a0bf8c3520b15e7a908298f722205eb02":[4,2,0,0,1,6,6],
 "d8/da8/cockatrice_2src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97":[4,2,0,0,1,6,3],
@@ -238,16 +249,5 @@ var NAVTREEINDEX32 =
 "d8/dc5/classAppearanceSettingsPage.html#ac34069f71dadec649c34c42b812c5c4e":[4,1,0,28,44],
 "d8/dc5/classAppearanceSettingsPage.html#ac696bea00d34387d129059c857300f40":[4,1,0,28,16],
 "d8/dc5/classAppearanceSettingsPage.html#ad1ad2ef449dea13ec8efcd716e7d5bfe":[4,1,0,28,5],
-"d8/dc5/classAppearanceSettingsPage.html#ad760c0d5f92d8d92562e31c5a21f6948":[4,1,0,28,49],
-"d8/dc5/classAppearanceSettingsPage.html#ada1fce21fd6f5bf9a8621b4d47c93f58":[4,1,0,28,33],
-"d8/dc5/classAppearanceSettingsPage.html#adb73cc03f47412978f67a5f6471f1e0a":[4,1,0,28,41],
-"d8/dc5/classAppearanceSettingsPage.html#ade9cead8f02fb0275b3992ddea20e2ac":[4,1,0,28,20],
-"d8/dc5/classAppearanceSettingsPage.html#ae027eeb72a57dc385a88f264a67957ef":[4,1,0,28,25],
-"d8/dc5/classAppearanceSettingsPage.html#ae2f58a8d87cfde32ebc3cb7ce1a51302":[4,1,0,28,42],
-"d8/dc5/classAppearanceSettingsPage.html#ae8764613021b372b72fcb31e059555fd":[4,1,0,28,28],
-"d8/dc5/classAppearanceSettingsPage.html#afd9c10e3e1b2b98845d3cf8eae56cad2":[4,1,0,28,43],
-"d8/dc8/structPaletteColorInfo.html":[4,1,0,337],
-"d8/dc8/structPaletteColorInfo.html#a07da66daaa61aabc7787f7b0d42ea4fd":[4,1,0,337,0],
-"d8/dc8/structPaletteColorInfo.html#a3c3337d1c048fbf4a6ae27ea63eab54b":[4,1,0,337,1],
-"d8/dc8/structPaletteColorInfo.html#a51d9ff19544f10a4ec21159cc7b81278":[4,1,0,337,2]
+"d8/dc5/classAppearanceSettingsPage.html#ad760c0d5f92d8d92562e31c5a21f6948":[4,1,0,28,49]
 };

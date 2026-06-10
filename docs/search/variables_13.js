@@ -166,7 +166,7 @@ var searchData=
   ['shutdownserverbutton_163',['shutdownServerButton',['../d5/d3b/classTabAdmin.html#a5aadfb9a6fe4ce99ae144586d7dba099',1,'TabAdmin']]],
   ['shutdowntimer_164',['shutdownTimer',['../d5/d0e/classServatrice.html#a2840b56d540a04b668bec067271b0ca6',1,'Servatrice']]],
   ['sideboard_165',['SIDEBOARD',['../d0/d0f/namespaceZoneNames.html#a8710e03d563dd27bded2442a170a80f4',1,'ZoneNames']]],
-  ['sideboard_166',['sideboard',['../dd/d7e/structResult.html#a68020341eab9ab3490cdf75104ba4f80',1,'Result']]],
+  ['sideboard_166',['sideboard',['../de/d45/structZoneCounts.html#a36f435d40f9dfa0b97ba4ffde270dec5',1,'ZoneCounts::sideboard'],['../dd/d7e/structResult.html#a68020341eab9ab3490cdf75104ba4f80',1,'Result::sideboard']]],
   ['sideboardgraphicsitem_167',['sideboardGraphicsItem',['../d3/de4/classPlayerGraphicsItem.html#ac2ce579c5f2511e818b756343e578b17',1,'PlayerGraphicsItem']]],
   ['sideboardlockbutton_168',['sideboardLockButton',['../df/ddd/classDeckViewContainer.html#ad506ddd572d19daf934b82b572ddd184',1,'DeckViewContainer']]],
   ['sideboardlocked_169',['sideboardLocked',['../da/d99/classServer__AbstractPlayer.html#a52f3f7d47ef10f72a3d0e90815b21c70',1,'Server_AbstractPlayer']]],
