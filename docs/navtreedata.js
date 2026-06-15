@@ -100,7 +100,7 @@ var NAVTREEINDEX =
 "d4/d56/classSetEntryWidget.html#a787c784ec4af02117f6476d96148acb1",
 "d4/d99/theme__manager_8cpp.html#afd05fe920fe646312b45316922094bae",
 "d5/d0e/classServatrice.html#a0015f412f40870b6f435727e72a34b9f",
-"d5/d45/classCardDatabase.html#a38027a22689c13facebbd79bdded2150",
+"d5/d45/classCardDatabase.html#a3bc03b512064c4cbf97fc61c4488afbe",
 "d5/d88/classSettingsCache.html#a2da846020064719f532dcf3d62075f80",
 "d5/d88/classSettingsCache.html#a9a3af48140bd3a531d931ebea9d14231",
 "d5/d9d/pagetemplates_8cpp.html",
