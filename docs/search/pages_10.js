@@ -18,6 +18,6 @@ var searchData=
   ['responsibilities_15',['Responsibilities',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#responsibilities',1,'']]],
   ['responsibilities_3a_16',['Responsibilities:',['../dc/d8b/classSideboardPlan.html#responsibilities-1',1,'Responsibilities:'],['../d3/de9/classAbstractDecklistCardNode.html#responsibilities-2',1,'Responsibilities:'],['../d4/d55/classInnerDecklistNode.html#responsibilities-3',1,'Responsibilities:']]],
   ['responsibilities_3a_17',['Core responsibilities:',['../da/d68/classDeckList.html#core-responsibilities',1,'']]],
-  ['role_20in_20the_20hierarchy_3a_18',['Role in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
+  ['role_20in_20the_20hierarchy_3a_18',['Role in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
   ['run_19',['Run',['../d0/d30/md_README.html#run',1,'']]]
 ];

@@ -1,5 +1,10 @@
 var NAVTREEINDEX50 =
 {
+"dc/de9/deck__preview__color__identity__filter__widget_8h.html":[3,1,0,5,1,0,0],
+"dc/de9/deck__preview__color__identity__filter__widget_8h.html":[3,3,2,0,0,1,0,0],
+"dc/dea/classChatView.html":[4,1,0,107],
+"dc/dea/classChatView.html#a00fae4d3c4127b7e2aedbd2a6fe635fd":[4,1,0,107,5],
+"dc/dea/classChatView.html#a0217fff10dfe9bcd0ac192bdc1fa6aa3":[4,1,0,107,52],
 "dc/dea/classChatView.html#a03584abb1020f2a70c7984f9253b66bb":[4,1,0,107,37],
 "dc/dea/classChatView.html#a04b1cd53fdc831ea08dd953ee8d61ef1":[4,1,0,107,0],
 "dc/dea/classChatView.html#a04b1cd53fdc831ea08dd953ee8d61ef1a22928d4e12e7a3504ab874e4ddac5208":[4,1,0,107,0,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX50 =
 "dd/d25/card__info__text__widget_8cpp.html":[4,2,0,0,1,5,4,0,14],
 "dd/d29/override__printing__warning_8cpp.html":[4,2,0,0,1,5,4,3,50],
 "dd/d2d/edhrec__commander__api__response_8cpp.html":[4,2,0,0,1,5,4,11,0,1,0,4,0],
-"dd/d2f/abstract__tab__deck__editor_8h.html":[4,2,0,0,1,5,4,11,4],
-"dd/d2f/abstract__tab__deck__editor_8h_source.html":[4,2,0,0,1,5,4,11,4],
-"dd/d32/deck__editor__printing__selector__dock__widget_8h.html":[3,1,0,4,11],
-"dd/d32/deck__editor__printing__selector__dock__widget_8h.html":[3,3,1,1,11],
-"dd/d33/classTabEdhRec.html":[4,1,0,485],
-"dd/d33/classTabEdhRec.html#a0043c79e51e5d8efbabba6c8b7108bd7":[4,1,0,485,1]
+"dd/d2f/abstract__tab__deck__editor_8h.html":[4,2,0,0,1,5,4,11,4]
 };

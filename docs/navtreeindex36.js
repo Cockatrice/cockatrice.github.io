@@ -1,5 +1,10 @@
 var NAVTREEINDEX36 =
 {
+"d9/dcc/classSpoilerBackgroundUpdater.html#a756e914683d0a0124b672218cf7976b3":[4,1,0,470,4],
+"d9/dcc/classSpoilerBackgroundUpdater.html#a7af2b5cc8788f825b1eaff3e8f052d18":[4,1,0,470,5],
+"d9/dcc/classSpoilerBackgroundUpdater.html#a7af79b1bbc6fa69392629fd653b1b611":[4,1,0,470,10],
+"d9/dcc/classSpoilerBackgroundUpdater.html#a9e21148c9aaf252a954af59b2e98e926":[4,1,0,470,11],
+"d9/dcc/classSpoilerBackgroundUpdater.html#ab3a8052952039141a3eaa0b64be9622f":[4,1,0,470,6],
 "d9/dcc/classSpoilerBackgroundUpdater.html#ab8af3d876a3dac4f2da8bbebfe44eb47":[4,1,0,470,14],
 "d9/dcc/classSpoilerBackgroundUpdater.html#ac3029523f2c7a78a2972a9ad2a75ccdf":[4,1,0,470,2],
 "d9/dcc/classSpoilerBackgroundUpdater.html#aeea4e39bf6e1bf18a09139e0b05cc3bf":[4,1,0,470,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX36 =
 "d9/df7/classDeckEditorDeckDockWidget.html#a12066d3dae1ad6280520543bc9a1b6ff":[4,1,0,128,56],
 "d9/df7/classDeckEditorDeckDockWidget.html#a1930ae464142497dbfb5233c657de5bb":[4,1,0,128,63],
 "d9/df7/classDeckEditorDeckDockWidget.html#a249172ea05effe8b63654b2ff209edf2":[4,1,0,128,36],
-"d9/df7/classDeckEditorDeckDockWidget.html#a30095063ec325e8108c78bbc187bd20d":[4,1,0,128,22],
-"d9/df7/classDeckEditorDeckDockWidget.html#a305928fe5501945ecfa288bb75b3267c":[4,1,0,128,29],
-"d9/df7/classDeckEditorDeckDockWidget.html#a3221f162c120dc889858d5b0943db884":[4,1,0,128,45],
-"d9/df7/classDeckEditorDeckDockWidget.html#a35fb89a1cbd969e9f106f0e9b207419e":[4,1,0,128,25],
-"d9/df7/classDeckEditorDeckDockWidget.html#a36b1873cf0cfc6c8a529326e8295ddfc":[4,1,0,128,11],
-"d9/df7/classDeckEditorDeckDockWidget.html#a3e6c171de64ce44de13dc007b1f10060":[4,1,0,128,34]
+"d9/df7/classDeckEditorDeckDockWidget.html#a30095063ec325e8108c78bbc187bd20d":[4,1,0,128,22]
 };

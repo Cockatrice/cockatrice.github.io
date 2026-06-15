@@ -1,5 +1,10 @@
 var NAVTREEINDEX38 =
 {
+"da/d22/classVisualDeckStorageFolderDisplayWidget.html#a43dbb454ae30b02f0c96c1325179afc8":[4,1,0,542,7],
+"da/d22/classVisualDeckStorageFolderDisplayWidget.html#a4403ddcd58198b4471f1d0381a57143a":[4,1,0,542,9],
+"da/d22/classVisualDeckStorageFolderDisplayWidget.html#a69a41841db7719c50d5fed4fc93d3fcd":[4,1,0,542,11],
+"da/d22/classVisualDeckStorageFolderDisplayWidget.html#a71e16e8afc4e3a6bc8bc73ba6ffeb3d2":[4,1,0,542,6],
+"da/d22/classVisualDeckStorageFolderDisplayWidget.html#a7f6472ee18e10a640e19cc2c3222e678":[4,1,0,542,14],
 "da/d22/classVisualDeckStorageFolderDisplayWidget.html#a880f186e3d7306716bcfe77dec9b4015":[4,1,0,542,12],
 "da/d22/classVisualDeckStorageFolderDisplayWidget.html#a914e34b3d915495c7843081e2057f55b":[4,1,0,542,2],
 "da/d22/classVisualDeckStorageFolderDisplayWidget.html#aac8a16c40a5df15c103e104a81ebba1a":[4,1,0,542,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX38 =
 "da/d66/querying_the_card_database.html#exactcards":[0,1,3,0,1,2],
 "da/d66/querying_the_card_database.html#generic-card-infos":[0,1,3,0,1,0],
 "da/d66/querying_the_card_database.html#guessing-cards":[0,1,3,0,1,1],
-"da/d66/querying_the_card_database.html#obtaining-a-handle-to-the-carddatabasequerier-for-usage":[0,1,3,0,0],
-"da/d66/querying_the_card_database.html#querying-for-known-cards":[0,1,3,0,1],
-"da/d66/querying_the_card_database.html#the-carddatabasequerier-class":[0,1,3,0],
-"da/d66/visual__deck__storage__tag__filter__widget_8h.html":[3,1,0,5,1,5],
-"da/d66/visual__deck__storage__tag__filter__widget_8h.html":[3,3,2,0,0,1,5],
-"da/d67/archidekt__deck__listing__api__response_8cpp.html":[4,2,0,0,1,5,4,11,0,0,0,3]
+"da/d66/querying_the_card_database.html#obtaining-a-handle-to-the-carddatabasequerier-for-usage":[0,1,3,0,0]
 };

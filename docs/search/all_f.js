@@ -60,7 +60,7 @@ var searchData=
   ['ongroupcriteriachange_57',['onGroupCriteriaChange',['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#abce9b3d899405d1d044733c9b3b3f68e',1,'ArchidektApiResponseDeckDisplayWidget']]],
   ['onhover_58',['onHover',['../d8/d9f/classDeckCardZoneDisplayWidget.html#a1615b8300f3f2683a1143337c619d3c8',1,'DeckCardZoneDisplayWidget::onHover()'],['../d2/d32/classVisualDatabaseDisplayWidget.html#ae7dddcfac07b6d64cdfcd1d29435ce22',1,'VisualDatabaseDisplayWidget::onHover()'],['../da/d1e/classVisualDeckEditorWidget.html#a758833c49e70af3c3b02baebba7ab5c9',1,'VisualDeckEditorWidget::onHover()']]],
   ['onlendlibrarytriggered_59',['onLendLibraryTriggered',['../d9/d65/classLibraryMenu.html#ad48a8d40d6859c421e098bac078c42f9',1,'LibraryMenu']]],
-  ['online_20service_60',['online service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
+  ['online_20service_60',['online service',['../db/d91/importing_decks.html#from-an-online-service',1,'From an online service'],['../d0/d51/exporting_decks.html#from-an-online-service-1',1,'From an online service']]],
   ['onlinecount_61',['onlineCount',['../da/d3b/classUserListWidget.html#a67d76b3921c7361bc18df58496b62ee7',1,'UserListWidget']]],
   ['onlineusers_62',['onlineUsers',['../db/d6d/classUserListManager.html#ae9d958ea579315cc6b9b1e1ef1a85130',1,'UserListManager']]],
   ['onlistclicked_63',['onListClicked',['../d6/ded/classDeckListHistoryManagerWidget.html#ae7757465242b3791dc6ef74a3e94c8f1',1,'DeckListHistoryManagerWidget']]],
@@ -240,7 +240,7 @@ var searchData=
   ['owned_237',['owned',['../d2/d63/classArchidektApiResponseCard.html#abd19311e820b40d2534fcdc9e33b99be',1,'ArchidektApiResponseCard']]],
   ['owner_238',['owner',['../d9/dce/classArrowTarget.html#ac0fed6798fc9b10b91a37ea13fcfb5e9',1,'ArrowTarget::owner'],['../dc/d3c/classArchidektApiResponseDeck.html#a20abfd1481eb75abfa29df87569d8023',1,'ArchidektApiResponseDeck::owner'],['../dd/d44/classArchidektApiResponseDeckListingContainer.html#a09fafd369eb1724480b096ca16536fe1',1,'ArchidektApiResponseDeckListingContainer::owner']]],
   ['ownerfield_239',['ownerField',['../db/d5d/classTabArchidekt.html#a99c0d17c0574f179011035a60cd64cd8',1,'TabArchidekt']]],
-  ['ownership_3a_240',['Ownership:',['../da/d68/classDeckList.html#ownership',1,'Ownership:'],['../d3/de9/classAbstractDecklistCardNode.html#ownership-1',1,'Ownership:'],['../d4/d55/classInnerDecklistNode.html#ownership-2',1,'Ownership:'],['../d5/d22/classDecklistCardNode.html#ownership-3',1,'Ownership:']]],
+  ['ownership_3a_240',['Ownership:',['../da/d68/classDeckList.html#ownership',1,'Ownership:'],['../d3/de9/classAbstractDecklistCardNode.html#ownership-1',1,'Ownership:'],['../d5/d22/classDecklistCardNode.html#ownership-2',1,'Ownership:'],['../d4/d55/classInnerDecklistNode.html#ownership-3',1,'Ownership:']]],
   ['ownuser_241',['ownUser',['../df/d78/classTabRoom.html#addea7f2790e05bf04a7f846cbbc6fc79',1,'TabRoom']]],
   ['ownuserinfo_242',['ownUserInfo',['../db/d6d/classUserListManager.html#a343b88aec385ef35d3df7c0e0133d797',1,'UserListManager::ownUserInfo'],['../d1/de7/classTabMessage.html#a5eb7d12dd4dedcfa71d2476dd01d7cb3',1,'TabMessage::ownUserInfo']]],
   ['ownusername_243',['ownUserName',['../dc/dea/classChatView.html#a247c82f13e8feec5cfac6c46648829ba',1,'ChatView']]]

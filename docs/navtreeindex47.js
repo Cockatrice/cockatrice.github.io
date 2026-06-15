@@ -1,5 +1,10 @@
 var NAVTREEINDEX47 =
 {
+"dc/d1f/dlg__load__deck_8cpp.html":[4,2,0,0,1,5,4,3,24],
+"dc/d31/draw__probability__config_8h.html":[4,2,0,0,1,5,4,1,0,0,1],
+"dc/d31/draw__probability__config_8h_source.html":[4,2,0,0,1,5,4,1,0,0,1],
+"dc/d32/deck__editor__filter__dock__widget_8h.html":[3,1,0,3,3],
+"dc/d32/deck__editor__filter__dock__widget_8h.html":[3,1,0,4,10],
 "dc/d32/deck__editor__filter__dock__widget_8h.html":[3,2,4,2,3],
 "dc/d32/deck__editor__filter__dock__widget_8h.html":[3,3,1,1,10],
 "dc/d33/edhrec__api__response__card__list__display__widget_8cpp.html":[4,2,0,0,1,5,4,11,0,1,1,1,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX47 =
 "dc/d63/classTabDeckEditorVisual.html#ae68a7ae85d04b94e38a587da77338d45":[3,3,1,0,2,5],
 "dc/d63/classTabDeckEditorVisual.html#ae68a7ae85d04b94e38a587da77338d45":[3,3,1,1,0,2,5],
 "dc/d63/classTabDeckEditorVisual.html#ae96e926517779ec8e4a686e81c42cb80":[3,1,0,1,0,2,9],
-"dc/d63/classTabDeckEditorVisual.html#ae96e926517779ec8e4a686e81c42cb80":[3,1,0,4,0,2,9],
-"dc/d63/classTabDeckEditorVisual.html#ae96e926517779ec8e4a686e81c42cb80":[3,3,1,0,2,9],
-"dc/d63/classTabDeckEditorVisual.html#ae96e926517779ec8e4a686e81c42cb80":[3,3,1,1,0,2,9],
-"dc/d63/classTabDeckEditorVisual.html#ae9b8573b2c6d4e876577f7dc8146e192":[3,1,0,1,0,2,10],
-"dc/d63/classTabDeckEditorVisual.html#ae9b8573b2c6d4e876577f7dc8146e192":[3,1,0,4,0,2,10],
-"dc/d63/classTabDeckEditorVisual.html#ae9b8573b2c6d4e876577f7dc8146e192":[3,3,1,0,2,10]
+"dc/d63/classTabDeckEditorVisual.html#ae96e926517779ec8e4a686e81c42cb80":[3,1,0,4,0,2,9]
 };

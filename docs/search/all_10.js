@@ -521,7 +521,7 @@ var searchData=
   ['printinginfo_518',['printingInfo',['../d5/d45/classSplitCardPart.html#ad99322e5791af95b0ebb8a0d3dcdf25f',1,'SplitCardPart']]],
   ['printinginfo_20and_20exactcard_519',['Getting specific: PrintingInfo and ExactCard',['../da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard',1,'']]],
   ['printings_520',['Card Printings',['../dd/df8/group__CardPrintings.html',1,'']]],
-  ['printings_521',['printings',['../d3/d32/editing_decks_classic.html#modifying-printings',1,'Modifying printings'],['../de/d6e/editing_decks_visual.html#modifying-printings-1',1,'Modifying printings']]],
+  ['printings_521',['printings',['../d3/d32/editing_decks_classic.html#modifying-printings-1',1,'Modifying printings'],['../de/d6e/editing_decks_visual.html#modifying-printings',1,'Modifying printings']]],
   ['printingselector_522',['PrintingSelector',['../d7/dbc/classPrintingSelector.html',1,'PrintingSelector'],['../d7/dbc/classPrintingSelector.html#ab6d8607519ea0250bea869add24d18e0',1,'PrintingSelector::PrintingSelector()']]],
   ['printingselector_523',['printingSelector',['../dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ab60bd850dcddab08d724d961ee6f7c91',1,'DeckEditorPrintingSelectorDockWidget::printingSelector'],['../d9/dcf/classTabDeckEditorVisualTabWidget.html#a586d54e377d31e6cb0fcff1829ef17a8',1,'TabDeckEditorVisualTabWidget::printingSelector']]],
   ['printingselectorcarddisplaywidget_524',['PrintingSelectorCardDisplayWidget',['../d9/db3/classPrintingSelectorCardDisplayWidget.html',1,'PrintingSelectorCardDisplayWidget'],['../d9/db3/classPrintingSelectorCardDisplayWidget.html#a0f6cb8e03cc6849a1c37a9bf5bd51c3f',1,'PrintingSelectorCardDisplayWidget::PrintingSelectorCardDisplayWidget()']]],

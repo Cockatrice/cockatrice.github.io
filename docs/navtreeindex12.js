@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"d3/d58/classLayoutsSettings.html#a191acbe049763313f50684ea0a6efc86":[4,1,0,279,22],
 "d3/d58/classLayoutsSettings.html#a1b9bb68d0da4a01df7af01a9b46ae356":[4,1,0,279,24],
 "d3/d58/classLayoutsSettings.html#a22f0959ed1e7b40e693dd11461ed352c":[4,1,0,279,15],
 "d3/d58/classLayoutsSettings.html#a27b0b4d4deb26914f5d35b3e01a5420f":[4,1,0,279,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "d3/d9b/classDlgForgotPasswordReset.html#ac703f552457beb765b789061b473a8b3":[4,1,0,176,2],
 "d3/d9b/classDlgForgotPasswordReset.html#ad535982e00a4e9f865d0995e3e39292a":[4,1,0,176,4],
 "d3/d9b/classDlgForgotPasswordReset.html#adc75e4bc78fecc3b6f850708eea6dbc9":[4,1,0,176,10],
-"d3/d9b/classDlgForgotPasswordReset.html#ae92f49b948ee78ca7a92dd89ff366866":[4,1,0,176,13],
-"d3/d9f/classClientUpdateChecker.html":[4,1,0,108]
+"d3/d9b/classDlgForgotPasswordReset.html#ae92f49b948ee78ca7a92dd89ff366866":[4,1,0,176,13]
 };

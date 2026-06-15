@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"d4/d99/theme__manager_8cpp.html#a9e1075c47c842272a13565a0e51acac1":[4,2,0,0,1,5,13,4],
 "d4/d99/theme__manager_8cpp.html#afd05fe920fe646312b45316922094bae":[4,2,0,0,1,5,13,2],
 "d4/d9d/deck__filter__string_8cpp.html":[4,2,0,0,1,2,0],
 "d4/d9d/deck__filter__string_8cpp.html#a1b3f5c50a74878001e05fb6c700d3d16":[4,2,0,0,1,2,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "d5/d07/classReplayTimelineWidget.html#aeecd6e0bd4142cfc728aa72dadebd23c":[4,1,0,398,1],
 "d5/d07/classReplayTimelineWidget.html#af7ea8935fe5f56467e17f773e1a26385":[4,1,0,398,8],
 "d5/d08/sideboard__menu_8cpp.html":[4,2,0,0,1,3,4,0,21],
-"d5/d0c/printing__info_8cpp.html":[4,2,0,2,0,0,3,2],
-"d5/d0e/classServatrice.html":[4,1,0,414]
+"d5/d0c/printing__info_8cpp.html":[4,2,0,2,0,0,3,2]
 };

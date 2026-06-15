@@ -1,5 +1,10 @@
 var NAVTREEINDEX41 =
 {
+"da/dc4/classEdhrecTopCardsApiResponse.html#a8be4b0ef877ea065ec3c532d316abc13":[4,1,0,218,3],
+"da/dc4/classEdhrecTopCardsApiResponse.html#ac1ed82746ce32d9b2f20547bb998823e":[4,1,0,218,2],
+"da/dc4/classEdhrecTopCardsApiResponse.html#ae1b035d9eafe994976c524261f39e8ec":[4,1,0,218,1],
+"da/dc7/classTipsOfTheDay.html":[4,1,0,505],
+"da/dc7/classTipsOfTheDay.html#a1c26ac375bbc22d08d64b15e2f108e60":[4,1,0,505,4],
 "da/dc7/classTipsOfTheDay.html#a22715051ed846ffd7099afcc37c27ac9":[4,1,0,505,2],
 "da/dc7/classTipsOfTheDay.html#a53aefded9c3ed84a672f80f2f9496fc9":[4,1,0,505,0],
 "da/dc7/classTipsOfTheDay.html#a53aefded9c3ed84a672f80f2f9496fc9a2589a386d5b4651260a9b1f30f4a08b2":[4,1,0,505,0,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX41 =
 "db/d04/classHandMenu.html#a9b44d4e7fa227b6bf1d8c511ba5361dd":[4,1,0,263,12],
 "db/d04/classHandMenu.html#aa4461771172517b243a62659221a4971":[4,1,0,263,17],
 "db/d04/classHandMenu.html#aac306e0d1ccab150ad8fa7b7444140a7":[4,1,0,263,15],
-"db/d04/classHandMenu.html#ab43c7cf72fe0a01e92a2ddb1bf0ad8ef":[4,1,0,263,3],
-"db/d04/classHandMenu.html#ab93da88ffd170e2f70ad846f6f41d944":[4,1,0,263,0],
-"db/d04/classHandMenu.html#abd340dc2e1e96a823f68957ff121b3c8":[4,1,0,263,27],
-"db/d04/classHandMenu.html#ac56aad48281488bc14b0cc254d5b9628":[4,1,0,263,7],
-"db/d04/classHandMenu.html#ae0dca20bd7c7633ea30f5f1a94b03fc0":[4,1,0,263,22],
-"db/d04/classHandMenu.html#aec1c1144ee708853bb0d36a1dcd0f93a":[4,1,0,263,14]
+"db/d04/classHandMenu.html#ab43c7cf72fe0a01e92a2ddb1bf0ad8ef":[4,1,0,263,3]
 };

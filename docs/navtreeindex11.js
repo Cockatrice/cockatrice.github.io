@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"d2/df1/deck__view__container_8h_source.html":[4,2,0,0,1,3,1,3],
 "d2/df2/classAnalyticsPanelWidgetFactory.html":[4,1,0,25],
 "d2/df2/classAnalyticsPanelWidgetFactory.html#a2678ae1686bc4999ba5b40bc6963342c":[4,1,0,25,8],
 "d2/df2/classAnalyticsPanelWidgetFactory.html#a349d8df7dd9b96ed10fe1e575b3d0779":[4,1,0,25,9],
@@ -173,10 +174,10 @@ var NAVTREEINDEX11 =
 "d3/d30/logger_8cpp.html#a7e1c57336f7d35d4ea8462240846ba21":[4,2,0,0,1,5,7,1],
 "d3/d31/printing__disabled__info__widget_8cpp.html":[4,2,0,0,1,5,4,2,20],
 "d3/d32/editing_decks_classic.html":[0,0,2,0],
-"d3/d32/editing_decks_classic.html#adding-cards":[0,0,2,0,1],
-"d3/d32/editing_decks_classic.html#editing-basic-deck-information":[0,0,2,0,0],
-"d3/d32/editing_decks_classic.html#modifying-printings":[0,0,2,0,3],
-"d3/d32/editing_decks_classic.html#modifying-the-deck-list":[0,0,2,0,2],
+"d3/d32/editing_decks_classic.html#adding-cards-1":[0,0,2,0,1],
+"d3/d32/editing_decks_classic.html#editing-basic-deck-information-1":[0,0,2,0,0],
+"d3/d32/editing_decks_classic.html#modifying-printings-1":[0,0,2,0,3],
+"d3/d32/editing_decks_classic.html#modifying-the-deck-list-1":[0,0,2,0,2],
 "d3/d32/segmented__bar__widget_8cpp.html":[4,2,0,0,1,5,4,4,0,0,0,10],
 "d3/d37/classDlgEditTokens.html":[4,1,0,171],
 "d3/d37/classDlgEditTokens.html#a0f03207500c05826808c4744043da575":[4,1,0,171,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "d3/d58/classLayoutsSettings.html#a053db519aaf7d0a8e30e9d9eb25a4534":[4,1,0,279,3],
 "d3/d58/classLayoutsSettings.html#a0ba60235fa9f80016b6528b78b110423":[4,1,0,279,5],
 "d3/d58/classLayoutsSettings.html#a10e9337fd533bd29dc8758711133dec6":[4,1,0,279,0],
-"d3/d58/classLayoutsSettings.html#a144acef9f5ed129d47cccc6f2a986d39":[4,1,0,279,27],
-"d3/d58/classLayoutsSettings.html#a191acbe049763313f50684ea0a6efc86":[4,1,0,279,22]
+"d3/d58/classLayoutsSettings.html#a144acef9f5ed129d47cccc6f2a986d39":[4,1,0,279,27]
 };

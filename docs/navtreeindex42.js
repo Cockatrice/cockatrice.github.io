@@ -1,5 +1,10 @@
 var NAVTREEINDEX42 =
 {
+"db/d04/classHandMenu.html#ab93da88ffd170e2f70ad846f6f41d944":[4,1,0,263,0],
+"db/d04/classHandMenu.html#abd340dc2e1e96a823f68957ff121b3c8":[4,1,0,263,27],
+"db/d04/classHandMenu.html#ac56aad48281488bc14b0cc254d5b9628":[4,1,0,263,7],
+"db/d04/classHandMenu.html#ae0dca20bd7c7633ea30f5f1a94b03fc0":[4,1,0,263,22],
+"db/d04/classHandMenu.html#aec1c1144ee708853bb0d36a1dcd0f93a":[4,1,0,263,14],
 "db/d04/classHandMenu.html#aff5515fc97cd006434cd5b551984de2e":[4,1,0,263,13],
 "db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html":[4,1,0,211],
 "db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#a12e33d29ba43b61b69364683b73172d9":[4,1,0,211,5],
@@ -244,10 +249,5 @@ var NAVTREEINDEX42 =
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#a1380148534b584e498ce2408facdc5ee":[4,1,0,3,47,10],
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#a2e4e36c6006d9ad050c72b03d9e058e6":[4,0,0,15,48,7],
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#a2e4e36c6006d9ad050c72b03d9e058e6":[4,1,0,3,47,7],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a48e41801dcaf2d23306725701d268fc2":[4,0,0,15,48,21],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a48e41801dcaf2d23306725701d268fc2":[4,1,0,3,47,21],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a4902ea4c8e269102796c555e8f6a3482":[4,0,0,15,48,17],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a4902ea4c8e269102796c555e8f6a3482":[4,1,0,3,47,17],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a4d256311ac54faa26de95bab9a620195":[4,0,0,15,48,13],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#a4d256311ac54faa26de95bab9a620195":[4,1,0,3,47,13]
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#a48e41801dcaf2d23306725701d268fc2":[4,0,0,15,48,21]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"d2/d98/classPlayerLogic.html#a831e347af506eb0493414f7cbaf4155c":[4,1,0,362,56],
 "d2/d98/classPlayerLogic.html#a845746b02fa61ceb730276a9a5e08e73":[4,1,0,362,60],
 "d2/d98/classPlayerLogic.html#a84b2da3ccc40e45ccc3a3de060f26deb":[4,1,0,362,12],
 "d2/d98/classPlayerLogic.html#a874c443bab587df925c8a5d1d7c4bd74":[4,1,0,362,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "d2/ded/filter__builder_8h.html":[3,2,4,0,0,0],
 "d2/ded/group__RemoteDeckStorage.html":[3,3,2,1],
 "d2/df0/card__completer__proxy__model_8cpp.html":[4,2,0,6,0,0,0,0,0],
-"d2/df1/deck__view__container_8h.html":[4,2,0,0,1,3,1,3],
-"d2/df1/deck__view__container_8h_source.html":[4,2,0,0,1,3,1,3]
+"d2/df1/deck__view__container_8h.html":[4,2,0,0,1,3,1,3]
 };

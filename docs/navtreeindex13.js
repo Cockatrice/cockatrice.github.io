@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"d3/d9f/classClientUpdateChecker.html":[4,1,0,108],
 "d3/d9f/classClientUpdateChecker.html#a3444e7add106a93cd0fc54ab3da2463e":[4,1,0,108,6],
 "d3/d9f/classClientUpdateChecker.html#a3c3c7488e6fbffe557d0270ed8d123fe":[4,1,0,108,5],
 "d3/d9f/classClientUpdateChecker.html#a40c0ac762b7e9937cd264eb714adb91c":[4,1,0,108,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "d3/def/classArchidektJsonParser.html#a46be25229701d459ac7124044c475bfa":[4,1,0,41,0],
 "d3/def/edhrec__commander__api__response_8h.html":[4,2,0,0,1,5,4,11,0,1,0,4,1],
 "d3/def/edhrec__commander__api__response_8h_source.html":[4,2,0,0,1,5,4,11,0,1,0,4,1],
-"d3/df1/mana__curve__widget_8h.html":[3,1,0,4,1,1],
-"d3/df1/mana__curve__widget_8h.html":[3,3,1,1,1,1]
+"d3/df1/mana__curve__widget_8h.html":[3,1,0,4,1,1]
 };

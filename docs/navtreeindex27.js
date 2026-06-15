@@ -1,5 +1,10 @@
 var NAVTREEINDEX27 =
 {
+"d7/d23/classPhasesToolbar.html#a468fd4337d07d4f2ec2f41a64ac56750":[4,1,0,349,15],
+"d7/d23/classPhasesToolbar.html#a48ce48593e89952f021b759a3fb949b4":[4,1,0,349,11],
+"d7/d23/classPhasesToolbar.html#a5a4c63d928bc8ac23c936a672b3da57f":[4,1,0,349,5],
+"d7/d23/classPhasesToolbar.html#a64b9bfa5d89549febef8620d4700078c":[4,1,0,349,10],
+"d7/d23/classPhasesToolbar.html#a7c78467dff512af7c7639f8500525761":[4,1,0,349,9],
 "d7/d23/classPhasesToolbar.html#a9884b764b4d71fc32f4c986d26ed69da":[4,1,0,349,6],
 "d7/d23/classPhasesToolbar.html#aa36a987aee2bcb9574502ce569c501f9":[4,1,0,349,18],
 "d7/d23/classPhasesToolbar.html#aa63aa3121bf6618930dcfe4e5af33e27":[4,1,0,349,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX27 =
 "d7/d8f/classSmtpClient.html#abbcb9e5646684b08020beb13450cce24":[4,1,0,466,3],
 "d7/d8f/classSmtpClient.html#adc6e2022e5e2c4d1b722414ae0c93dc0":[4,1,0,466,10],
 "d7/d8f/classSmtpClient.html#ae532e43f1c1caa67b3e785740beee429":[4,1,0,466,8],
-"d7/d90/group__CardSets.html":[3,2,1],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html":[4,1,0,543],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a0405be1733397834fed6492258ca648a":[4,1,0,543,3],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a05ed4861999eee54dd0c706591260c53":[4,1,0,543,26],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a07485238a801c0b01ce6a1583ca912f9":[4,1,0,543,27],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a1d2973a65518195efcc4756bbfc3319e":[4,1,0,543,8]
+"d7/d90/group__CardSets.html":[3,2,1]
 };

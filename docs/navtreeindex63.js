@@ -1,5 +1,11 @@
 var NAVTREEINDEX63 =
 {
+"df/dd0/classGameFiltersSettings.html#a966fcfc38f70431274cea43041f3b5f8":[4,1,0,249,22],
+"df/dd0/classGameFiltersSettings.html#aab5da84a888654ee2c7140183a29ea75":[4,1,0,249,18],
+"df/dd0/classGameFiltersSettings.html#aaed95ca610f953fe451aeda99678808b":[4,1,0,249,16],
+"df/dd0/classGameFiltersSettings.html#ab38d45f1b471c22ef591d616d0e07f54":[4,1,0,249,28],
+"df/dd0/classGameFiltersSettings.html#abd2f1ec2193049543f17833d5b5cba3d":[4,1,0,249,11],
+"df/dd0/classGameFiltersSettings.html#abd3ff2823682e59bfa87c38e09a093c0":[4,1,0,249,31],
 "df/dd0/classGameFiltersSettings.html#abe3e0fad71cc3919bfcf0ed164e28bd8":[4,1,0,249,20],
 "df/dd0/classGameFiltersSettings.html#abfb12dcac99c917cbb1bdb1caaa8dbb8":[4,1,0,249,9],
 "df/dd0/classGameFiltersSettings.html#ac1b8dc1641dce8c64bc84158ccb7c34c":[4,1,0,249,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX63 =
 "df/df7/classArrowRegistry.html":[4,1,0,47],
 "df/df7/classArrowRegistry.html#a0208b1bc712a457806c58f3d05675361":[4,1,0,47,7],
 "df/df7/classArrowRegistry.html#a32629e413974b8bedd411c30f9e56246":[4,1,0,47,6],
-"df/df7/classArrowRegistry.html#a51758a769712cfd3670baaadd1c62ee0":[4,1,0,47,3],
-"df/df7/classArrowRegistry.html#a591d75b8ae5deb42cfea1a360f207d26":[4,1,0,47,0],
-"df/df7/classArrowRegistry.html#a64ae873a938ff4c820c6cfb6d72fddcf":[4,1,0,47,8],
-"df/df7/classArrowRegistry.html#a8f64add9042565cc0e24734115a2ff86":[4,1,0,47,2],
-"df/df7/classArrowRegistry.html#a981c4e9ee5eda17625c9877d403d50fb":[4,1,0,47,4],
-"df/df7/classArrowRegistry.html#ab6cdfbb6c0e592490a9582d9cfe5ab79":[4,1,0,47,1],
-"df/df7/classArrowRegistry.html#aea6459cdf4d2baebdeda1d6916cc298c":[4,1,0,47,5]
+"df/df7/classArrowRegistry.html#a51758a769712cfd3670baaadd1c62ee0":[4,1,0,47,3]
 };

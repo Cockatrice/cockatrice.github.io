@@ -1,5 +1,10 @@
 var NAVTREEINDEX26 =
 {
+"d6/dd1/classDlgForgotPasswordChallenge.html#ac8420c6aa10b95ab7fa17257da9ef3e3":[4,1,0,174,0],
+"d6/dd1/classDlgForgotPasswordChallenge.html#ad16f1c2c199b5799d8ffcae2a87a15f2":[4,1,0,174,9],
+"d6/dd1/classDlgForgotPasswordChallenge.html#adad17c20b0fbcc82f6bee0c4890ae822":[4,1,0,174,8],
+"d6/dd1/classDlgForgotPasswordChallenge.html#aee77b314f1fc9bad302e4fd2b0d3802a":[4,1,0,174,14],
+"d6/dd1/classDlgForgotPasswordChallenge.html#af0cd566aa7cf8c4fff8a56d9450a70ac":[4,1,0,174,4],
 "d6/dd2/card__database__display__model_8cpp.html":[4,2,0,6,0,0,0,3],
 "d6/dd4/view__zone__logic_8h.html":[3,4,1,1,5],
 "d6/dd5/stack__zone_8h.html":[3,4,0,4,1,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX26 =
 "d7/d23/classPhasesToolbar.html#a3165c0920f66ce5758daffdf618698ee":[4,1,0,349,24],
 "d7/d23/classPhasesToolbar.html#a327b9dbe9d0447401656de97bb1590a8":[4,1,0,349,19],
 "d7/d23/classPhasesToolbar.html#a331167d375779464f696e24389f1b84d":[4,1,0,349,22],
-"d7/d23/classPhasesToolbar.html#a3fe9546670ae177bca09b141c0d059ff":[4,1,0,349,14],
-"d7/d23/classPhasesToolbar.html#a468fd4337d07d4f2ec2f41a64ac56750":[4,1,0,349,15],
-"d7/d23/classPhasesToolbar.html#a48ce48593e89952f021b759a3fb949b4":[4,1,0,349,11],
-"d7/d23/classPhasesToolbar.html#a5a4c63d928bc8ac23c936a672b3da57f":[4,1,0,349,5],
-"d7/d23/classPhasesToolbar.html#a64b9bfa5d89549febef8620d4700078c":[4,1,0,349,10],
-"d7/d23/classPhasesToolbar.html#a7c78467dff512af7c7639f8500525761":[4,1,0,349,9]
+"d7/d23/classPhasesToolbar.html#a3fe9546670ae177bca09b141c0d059ff":[4,1,0,349,14]
 };

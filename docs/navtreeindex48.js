@@ -1,5 +1,10 @@
 var NAVTREEINDEX48 =
 {
+"dc/d63/classTabDeckEditorVisual.html#ae96e926517779ec8e4a686e81c42cb80":[3,3,1,0,2,9],
+"dc/d63/classTabDeckEditorVisual.html#ae96e926517779ec8e4a686e81c42cb80":[3,3,1,1,0,2,9],
+"dc/d63/classTabDeckEditorVisual.html#ae9b8573b2c6d4e876577f7dc8146e192":[3,1,0,1,0,2,10],
+"dc/d63/classTabDeckEditorVisual.html#ae9b8573b2c6d4e876577f7dc8146e192":[3,1,0,4,0,2,10],
+"dc/d63/classTabDeckEditorVisual.html#ae9b8573b2c6d4e876577f7dc8146e192":[3,3,1,0,2,10],
 "dc/d63/classTabDeckEditorVisual.html#ae9b8573b2c6d4e876577f7dc8146e192":[3,3,1,1,0,2,10],
 "dc/d63/classTabDeckEditorVisual.html#aec91c521ca5625c9f1361834a4350709":[3,1,0,1,0,2,17],
 "dc/d63/classTabDeckEditorVisual.html#aec91c521ca5625c9f1361834a4350709":[3,1,0,4,0,2,17],
@@ -244,10 +249,5 @@ var NAVTREEINDEX48 =
 "dc/da4/shadow__background__label_8h.html":[3,3,1,1,3,1],
 "dc/da9/classMoveMenu.html":[4,1,0,322],
 "dc/da9/classMoveMenu.html#a0d6f5c864bbc4751d0f43cc8f23c3da2":[4,1,0,322,4],
-"dc/da9/classMoveMenu.html#a3b9e8dba4b1104dd65dab577ae0e3566":[4,1,0,322,5],
-"dc/da9/classMoveMenu.html#a74d0f42e58ec7564aef79312b318f72e":[4,1,0,322,7],
-"dc/da9/classMoveMenu.html#a81c16992523ca7a7bdae23a40bcef205":[4,1,0,322,0],
-"dc/da9/classMoveMenu.html#a9def751fee4c10ffabb9d163c0b082bf":[4,1,0,322,1],
-"dc/da9/classMoveMenu.html#ab4d7a01aa3de1f242a7a0c17705594ac":[4,1,0,322,6],
-"dc/da9/classMoveMenu.html#abf1705b74dafce22f0815b339c7c69f3":[4,1,0,322,3]
+"dc/da9/classMoveMenu.html#a3b9e8dba4b1104dd65dab577ae0e3566":[4,1,0,322,5]
 };

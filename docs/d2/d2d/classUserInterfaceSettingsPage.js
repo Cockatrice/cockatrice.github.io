@@ -15,6 +15,7 @@ var classUserInterfaceSettingsPage =
     [ "doubleClickToPlayCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#a41a91da15d5837334c3763f727e62319", null ],
     [ "focusCardViewSearchBarCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#a0b41a98449cb62894541d9ec926c2ffb", null ],
     [ "generalGroupBox", "d2/d2d/classUserInterfaceSettingsPage.html#a4448756dcab919b10fa94b00a320a5b2", null ],
+    [ "keepGameChatFocusCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#a1fc5e13a2a10d2345ae606870084ba2b", null ],
     [ "notificationsEnabledCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#ad2b4424895dc1e22f3948e529feca42b", null ],
     [ "notificationsGroupBox", "d2/d2d/classUserInterfaceSettingsPage.html#aff1563bdd7a391853712647d551cbf9e", null ],
     [ "openDeckInNewTabCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#aad92111681f44c2e8c4baf61a17336c9", null ],
