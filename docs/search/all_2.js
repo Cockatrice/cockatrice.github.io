@@ -59,7 +59,7 @@ var searchData=
   ['baseurl_56',['baseUrl',['../d8/d82/structParsedDeckInfo.html#a0adb7fed0858a98ae949566ef450b09a',1,'ParsedDeckInfo']]],
   ['basic_57',['basic',['../d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a0f108aa5cfc9f42bbb6d59dc0632f0f2',1,'EdhrecCommanderApiResponseAverageDeckStatistics']]],
   ['basic_20card_20object_3a_20cardinfo_58',['A Basic Card Object: CardInfo',['../da/d69/primer_cards.html#a-basic-card-object-cardinfo',1,'']]],
-  ['basic_20deck_20information_59',['Basic Deck Information',['../de/d6e/editing_decks_visual.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../d3/d32/editing_decks_classic.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
+  ['basic_20deck_20information_59',['Basic Deck Information',['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
   ['batch_5fsize_60',['BATCH_SIZE',['../da/dbb/printing__selector_8h.html#a9ae2958e436c566413867028fc829ec0',1,'printing_selector.h']]],
   ['batchwrite_61',['batchWrite',['../d1/dea/classSettingsManager.html#a4aff609a325fbe8051c4014d35674b61',1,'SettingsManager']]],
   ['battle_62',['battle',['../d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a321f50f9b2460d7949d8c314696c89f3',1,'EdhrecCommanderApiResponseAverageDeckStatistics']]],

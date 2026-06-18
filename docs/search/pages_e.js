@@ -11,7 +11,7 @@ var searchData=
   ['printing_20info_8',['Printing Info',['../da/d69/primer_cards.html#printing-info',1,'']]],
   ['printing_20selector_9',['Printing Selector',['../d7/d64/editing_decks_printings.html',1,'Printing Selector'],['../d7/d64/editing_decks_printings.html#using-the-printing-selector',1,'Using the Printing Selector']]],
   ['printinginfo_20and_20exactcard_10',['Getting specific: PrintingInfo and ExactCard',['../da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard',1,'']]],
-  ['printings_11',['printings',['../d3/d32/editing_decks_classic.html#modifying-printings-1',1,'Modifying printings'],['../de/d6e/editing_decks_visual.html#modifying-printings',1,'Modifying printings']]],
+  ['printings_11',['printings',['../d3/d32/editing_decks_classic.html#modifying-printings',1,'Modifying printings'],['../de/d6e/editing_decks_visual.html#modifying-printings-1',1,'Modifying printings']]],
   ['providerids_12',['PixmapCacheKeys and ProviderIDs',['../d9/d1c/loading_card_pictures.html#pixmapcachekeys-and-providerids',1,'']]],
   ['purpose_13',['Purpose',['../d7/d64/editing_decks_printings.html#purpose',1,'']]]
 ];
