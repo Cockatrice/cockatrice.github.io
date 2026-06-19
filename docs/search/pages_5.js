@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['features_0',['Features',['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#features',1,'Features'],['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#features-1',1,'Features'],['../d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#features-2',1,'Features'],['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#features-3',1,'Features']]],
+  ['features_0',['Features',['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#features',1,'Features'],['../d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#features-1',1,'Features'],['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#features-2',1,'Features'],['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#features-3',1,'Features']]],
   ['feedback_1',['Giving Feedback',['../d9/d9b/beta_release.html#giving-feedback',1,'']]],
   ['fetchcontent_2',['CMake with FetchContent',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#cmake-with-fetchcontent',1,'']]],
   ['file_20storage_3',['File Storage',['../d0/d51/exporting_decks.html#local-file-storage',1,'Local File Storage'],['../db/d91/importing_decks.html#local-file-storage-1',1,'Local File Storage']]],
