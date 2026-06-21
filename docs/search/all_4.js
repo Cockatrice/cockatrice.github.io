@@ -51,7 +51,7 @@ var searchData=
   ['deck_20analytics_48',['Deck Analytics',['../de/d6e/editing_decks_visual.html#deck-analytics',1,'']]],
   ['deck_20editor_49',['Deck Editor',['../d3/d32/editing_decks_classic.html',1,'Classic Deck Editor'],['../de/d6e/editing_decks_visual.html',1,'Visual Deck Editor']]],
   ['deck_20editor_20analytics_20widgets_50',['Deck Editor Analytics Widgets',['../d9/da2/group__DeckEditorAnalyticsWidgets.html',1,'']]],
-  ['deck_20editor_20tab_51',['Deck Editor Tab',['../d0/d51/exporting_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../db/d91/importing_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
+  ['deck_20editor_20tab_51',['Deck Editor Tab',['../db/d91/importing_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../d0/d51/exporting_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
   ['deck_20editor_20tabs_52',['Deck Editor Tabs',['../d5/dc3/group__DeckEditorTabs.html',1,'']]],
   ['deck_20editor_20widgets_53',['Deck Editor Widgets',['../d4/d5d/group__DeckEditorWidgets.html',1,'']]],
   ['deck_20editors_54',['Deck Editors',['../dd/df3/group__DeckEditors.html',1,'']]],
