@@ -131,7 +131,7 @@ var searchData=
   ['minrows_128',['minRows',['../d0/db5/classZoneViewZone.html#a5f1bd4c4f1e8b6fbde1aebb9165bc137',1,'ZoneViewZone']]],
   ['minutesedit_129',['minutesEdit',['../dd/d5d/classBanDialog.html#a11b855d488e6a4104c24be3aa96168e2',1,'BanDialog::minutesEdit'],['../d0/d35/classShutdownDialog.html#a283f3d3672e6af8b4de6f3747567fae1',1,'ShutdownDialog::minutesEdit']]],
   ['minuteslabel_130',['minutesLabel',['../dd/d5d/classBanDialog.html#a929922014d77fd9a800ce25662db9ecb',1,'BanDialog']]],
-  ['mirrored_131',['mirrored',['../d3/de4/classPlayerGraphicsItem.html#afad99603356aed7457f2b172ff3150d3',1,'PlayerGraphicsItem']]],
+  ['mirrored_131',['mirrored',['../d3/de4/classPlayerGraphicsItem.html#afad99603356aed7457f2b172ff3150d3',1,'PlayerGraphicsItem::mirrored'],['../d6/d6f/classTableZone.html#a8025972a9de7703aefc7a241ac6f032f',1,'TableZone::mirrored']]],
   ['misses_132',['misses',['../db/dcb/structpeg_1_1Context_1_1PackratStats.html#a5c36a6687e384fa25f78e928b305515b',1,'peg::Context::PackratStats']]],
   ['mlendlibrary_133',['mLendLibrary',['../d9/d65/classLibraryMenu.html#ad47cd34c6bc4462f2b5441351522641d',1,'LibraryMenu']]],
   ['mmovehandmenu_134',['mMoveHandMenu',['../db/d04/classHandMenu.html#a23630034b83485a7dee8dc4db9f0ad42',1,'HandMenu']]],

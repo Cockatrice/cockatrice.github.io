@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Release-3.0.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Development-3.1.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -118,6 +118,7 @@ Collaboration diagram for TableZone:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:a051dd462b5e0fb0e55d3d1d0d8abda65" id="r_a051dd462b5e0fb0e55d3d1d0d8abda65"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a051dd462b5e0fb0e55d3d1d0d8abda65">reorganizeCards</a> () override</td></tr>
+<tr class="memitem:a5b349fd50b27717d9a9bef272a86150a" id="r_a5b349fd50b27717d9a9bef272a86150a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5b349fd50b27717d9a9bef272a86150a">setMirrored</a> (bool isMirrored)</td></tr>
 <tr class="inherit_header pub_slots_classCardZone"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_slots_classCardZone')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Slots inherited from <a class="el" href="../../de/da1/classCardZone.html">CardZone</a></td></tr>
 <tr class="memitem:a4d61e290018a18fdae2e4e3e06ad224d inherit pub_slots_classCardZone" id="r_a4d61e290018a18fdae2e4e3e06ad224d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a4d61e290018a18fdae2e4e3e06ad224d">showContextMenu</a> (const QPoint &amp;screenPos)</td></tr>
 </table><table class="memberdecls">
@@ -127,7 +128,7 @@ Signals</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a70d1bea5a28c08f735e4fffbf9d0530e" id="r_a70d1bea5a28c08f735e4fffbf9d0530e"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a70d1bea5a28c08f735e4fffbf9d0530e">TableZone</a> (<a class="el" href="../../dc/ded/classTableZoneLogic.html">TableZoneLogic</a> *_logic, QGraphicsItem *parent=nullptr)</td></tr>
+<tr class="memitem:abb74274d2a776edf55621d4c123fec1a" id="r_abb74274d2a776edf55621d4c123fec1a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#abb74274d2a776edf55621d4c123fec1a">TableZone</a> (<a class="el" href="../../dc/ded/classTableZoneLogic.html">TableZoneLogic</a> *_logic, bool <a class="el" href="#a8025972a9de7703aefc7a241ac6f032f">mirrored</a>, QGraphicsItem *parent=nullptr)</td></tr>
 <tr class="memitem:aa5bc29be4db724fb001788a223d9cb35" id="r_aa5bc29be4db724fb001788a223d9cb35"><td class="memItemLeft">QRectF&#160;</td><td class="memItemRight"><a class="el" href="#aa5bc29be4db724fb001788a223d9cb35">boundingRect</a> () const override</td></tr>
 <tr class="memitem:a049ba4ae8a44aa10ff31299be7a8d257" id="r_a049ba4ae8a44aa10ff31299be7a8d257"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a049ba4ae8a44aa10ff31299be7a8d257">paint</a> (QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override</td></tr>
 <tr class="memitem:ac958837aa5ffa93bdf59b14bb05a009d" id="r_ac958837aa5ffa93bdf59b14bb05a009d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac958837aa5ffa93bdf59b14bb05a009d">toggleTapped</a> ()</td></tr>
@@ -189,6 +190,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a504940de85916956662a206455ba6096" id="r_a504940de85916956662a206455ba6096"><td class="memItemLeft">QMap&lt; int, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a504940de85916956662a206455ba6096">cardStackWidth</a></td></tr>
 <tr class="memitem:aa69a5329c8e12b49d7804e90b22bb273" id="r_aa69a5329c8e12b49d7804e90b22bb273"><td class="memItemLeft">QPixmap&#160;</td><td class="memItemRight"><a class="el" href="#aa69a5329c8e12b49d7804e90b22bb273">backgroundPixelMap</a></td></tr>
 <tr class="memitem:ac7737b35855d6a60917afa160b93e177" id="r_ac7737b35855d6a60917afa160b93e177"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac7737b35855d6a60917afa160b93e177">active</a> = false</td></tr>
+<tr class="memitem:a8025972a9de7703aefc7a241ac6f032f" id="r_a8025972a9de7703aefc7a241ac6f032f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8025972a9de7703aefc7a241ac6f032f">mirrored</a> = false</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -251,8 +253,8 @@ Additional Inherited Members</h2></td></tr>
 <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000074">Todo</a></b></dt><dd>Document this file. </dd></dl>
 <p>It is the main play zone and can be customized with background images. </p><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000075">Todo</a></b></dt><dd>Refactor methods to make more readable, extract logic to private methods (especially <a class="el" href="#a051dd462b5e0fb0e55d3d1d0d8abda65">reorganizeCards()</a>). </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a70d1bea5a28c08f735e4fffbf9d0530e" name="a70d1bea5a28c08f735e4fffbf9d0530e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70d1bea5a28c08f735e4fffbf9d0530e">&#9670;&#160;</a></span>TableZone()</h2>
+<a id="abb74274d2a776edf55621d4c123fec1a" name="abb74274d2a776edf55621d4c123fec1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb74274d2a776edf55621d4c123fec1a">&#9670;&#160;</a></span>TableZone()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,6 +266,11 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">TableZone::TableZone </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dc/ded/classTableZoneLogic.html">TableZoneLogic</a> *</td>          <td class="paramname"><span class="paramname"><em>_logic</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>mirrored</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -288,7 +295,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_a70d1bea5a28c08f735e4fffbf9d0530e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_abb74274d2a776edf55621d4c123fec1a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -977,6 +984,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a5b349fd50b27717d9a9bef272a86150a" name="a5b349fd50b27717d9a9bef272a86150a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b349fd50b27717d9a9bef272a86150a">&#9670;&#160;</a></span>setMirrored</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TableZone::setMirrored </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isMirrored</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_a5b349fd50b27717d9a9bef272a86150a_icgraph.svg" width="588" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ae61590673fe24889e5f0fe52faff7088" name="ae61590673fe24889e5f0fe52faff7088"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae61590673fe24889e5f0fe52faff7088">&#9670;&#160;</a></span>setWidth()</h2>
 
@@ -1027,7 +1064,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_affdbd7c0d3f501906e7be7a82e51893a_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_affdbd7c0d3f501906e7be7a82e51893a_icgraph.svg" width="100%" height="423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1063,7 +1100,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_a63384b2cc004092f7c253e3ea349e6fb_icgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_a63384b2cc004092f7c253e3ea349e6fb_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1452,6 +1489,28 @@ Here is the caller graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8025972a9de7703aefc7a241ac6f032f" name="a8025972a9de7703aefc7a241ac6f032f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8025972a9de7703aefc7a241ac6f032f">&#9670;&#160;</a></span>mirrored</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TableZone::mirrored = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

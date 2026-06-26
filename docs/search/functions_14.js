@@ -168,5 +168,5 @@ var searchData=
   ['usersessionexists_165',['userSessionExists',['../d2/d12/classServer__DatabaseInterface.html#a1b1bc8b90fb1e7634e9a20e56b9a1e3b',1,'Server_DatabaseInterface::userSessionExists()'],['../d3/d76/classServatrice__DatabaseInterface.html#a3aab0c7a13115e5d2ff52046e31f4a82',1,'Servatrice_DatabaseInterface::userSessionExists()']]],
   ['usetearoffmenuschanged_166',['useTearOffMenusChanged',['../d5/d88/classSettingsCache.html#a9b8de43dae91635d9a5d04c81552d9f0',1,'SettingsCache']]],
   ['usr_167',['usr',['../dc/db2/namespacepeg.html#af280bd9a763ba4a861e7dca2c5118200',1,'peg']]],
-  ['utilitymenu_168',['UtilityMenu',['../da/d1c/classUtilityMenu.html#abf96e5ae6287150b04db2938dd77b65b',1,'UtilityMenu']]]
+  ['utilitymenu_168',['UtilityMenu',['../da/d1c/classUtilityMenu.html#a5459b0bdeb749837f70d32c2815cdeac',1,'UtilityMenu']]]
 ];

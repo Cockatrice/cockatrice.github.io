@@ -1,6 +1,6 @@
 var classGraveyardMenu =
 [
-    [ "GraveyardMenu", "d2/d73/classGraveyardMenu.html#aede17be0a44e8ca9b36dcfc10a34187b", null ],
+    [ "GraveyardMenu", "d2/d73/classGraveyardMenu.html#af19235403e2eb0266edb2137911b2ddd", null ],
     [ "createMoveActions", "d2/d73/classGraveyardMenu.html#a9c89b06caef91ca24e91b24bbbac35dc", null ],
     [ "createViewActions", "d2/d73/classGraveyardMenu.html#a02a61a1b424f34f607e472cd16dfd140", null ],
     [ "newPlayerActionCreated", "d2/d73/classGraveyardMenu.html#aaeeece8f7998876a633b79a1a4312c6e", null ],
@@ -16,5 +16,5 @@ var classGraveyardMenu =
     [ "aViewGraveyard", "d2/d73/classGraveyardMenu.html#a16453bac3d4be0072c0603c4881b6f71", null ],
     [ "moveGraveMenu", "d2/d73/classGraveyardMenu.html#a856e105533c153ed310beffd3cb58dbf", null ],
     [ "mRevealRandomGraveyardCard", "d2/d73/classGraveyardMenu.html#a07152181c90a986669df69ef7a73c08f", null ],
-    [ "player", "d2/d73/classGraveyardMenu.html#a3f5761f795b54b61414b7424215f2651", null ]
+    [ "player", "d2/d73/classGraveyardMenu.html#adad654a0aa7f9c4accd856b944160180", null ]
 ];

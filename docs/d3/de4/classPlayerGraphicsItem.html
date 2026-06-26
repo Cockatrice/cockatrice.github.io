@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Release-3.0.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Development-3.1.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -114,12 +114,13 @@ Collaboration diagram for PlayerGraphicsItem:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a0298ecee4e14201c232131da02bfbe5d" id="r_a0298ecee4e14201c232131da02bfbe5d"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <a class="el" href="#a0298ecee4e14201c232131da02bfbe5da129ab0cb09585222ca599f3553318ad9">Type</a> = typeOther
+<tr class="memitem:aa0a1ba535d14f698b7aab4932f07c4d3" id="r_aa0a1ba535d14f698b7aab4932f07c4d3"><td class="memItemLeft">enum &#160;</td><td class="memItemRight">{ <a class="el" href="#aa0a1ba535d14f698b7aab4932f07c4d3a129ab0cb09585222ca599f3553318ad9">Type</a> = typeOther
  }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:a52dabbbc6e9cd01f29a97671a75f95dc" id="r_a52dabbbc6e9cd01f29a97671a75f95dc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a52dabbbc6e9cd01f29a97671a75f95dc">onPlayerActiveChanged</a> (bool _active)</td></tr>
+<tr class="memitem:a64ce5d063e968c0c59c2e049712921ee" id="r_a64ce5d063e968c0c59c2e049712921ee"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a64ce5d063e968c0c59c2e049712921ee">onCustomZoneAdded</a> (QString customZoneName)</td></tr>
 <tr class="memitem:a43ee93775a6e8bf0dc7831d13d4e9cee" id="r_a43ee93775a6e8bf0dc7831d13d4e9cee"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a43ee93775a6e8bf0dc7831d13d4e9cee">onCounterAdded</a> (<a class="el" href="../../d9/d98/classCounterState.html">CounterState</a> *state)</td></tr>
 <tr class="memitem:a1aad7fbc982ea1bf6cdaaf63cf3a498c" id="r_a1aad7fbc982ea1bf6cdaaf63cf3a498c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1aad7fbc982ea1bf6cdaaf63cf3a498c">onCounterRemoved</a> (int counterId)</td></tr>
 <tr class="memitem:aa713ab177e0f167084906f118a3f3268" id="r_aa713ab177e0f167084906f118a3f3268"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa713ab177e0f167084906f118a3f3268">rearrangeCounters</a> ()</td></tr>
@@ -129,6 +130,8 @@ Public Slots</h2></td></tr>
 Signals</h2></td></tr>
 <tr class="memitem:ae8e3c4e833ffaaf424c068aec792a339" id="r_ae8e3c4e833ffaaf424c068aec792a339"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae8e3c4e833ffaaf424c068aec792a339">sizeChanged</a> ()</td></tr>
 <tr class="memitem:a742ccbc0beb2971365bcf701d557fdf1" id="r_a742ccbc0beb2971365bcf701d557fdf1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a742ccbc0beb2971365bcf701d557fdf1">playerCountChanged</a> ()</td></tr>
+<tr class="memitem:ad73a6eaedeab375032eec956e32825c0" id="r_ad73a6eaedeab375032eec956e32825c0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad73a6eaedeab375032eec956e32825c0">mirroredChanged</a> (bool isMirrored)</td></tr>
+<tr class="memitem:aa9caf0d86a4d83503ff650a464caaf95" id="r_aa9caf0d86a4d83503ff650a464caaf95"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa9caf0d86a4d83503ff650a464caaf95">cardInfoRequested</a> (const <a class="el" href="../../d1/d66/structCardRef.html">CardRef</a> &amp;cardRef)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -142,9 +145,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba69bbc705918ca8e8d3909198194d13" id="r_aba69bbc705918ca8e8d3909198194d13"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aba69bbc705918ca8e8d3909198194d13">setMirrored</a> (bool _mirrored)</td></tr>
 <tr class="memitem:ad3bf90a1f51a09f6358ef00247ac0844" id="r_ad3bf90a1f51a09f6358ef00247ac0844"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ad3bf90a1f51a09f6358ef00247ac0844">getMirrored</a> () const</td></tr>
 <tr class="memitem:a5781825d47b6353e0c20de5f801a87c6" id="r_a5781825d47b6353e0c20de5f801a87c6"><td class="memItemLeft"><a class="el" href="../../db/d9f/classGameScene.html">GameScene</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a5781825d47b6353e0c20de5f801a87c6">getGameScene</a> () const</td></tr>
-<tr class="memitem:a8825795d82703f28744f11101cc0be08" id="r_a8825795d82703f28744f11101cc0be08"><td class="memItemLeft"><a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a8825795d82703f28744f11101cc0be08">getPlayer</a> () const</td></tr>
+<tr class="memitem:af2750a9abbc8f41fab052b154de6380f" id="r_af2750a9abbc8f41fab052b154de6380f"><td class="memItemLeft"><a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af2750a9abbc8f41fab052b154de6380f">getLogic</a> () const</td></tr>
+<tr class="memitem:a09096a491c068ee940821aefefb43142" id="r_a09096a491c068ee940821aefefb43142"><td class="memItemLeft"><a class="el" href="../../d7/dd6/classPlayerMenu.html">PlayerMenu</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a09096a491c068ee940821aefefb43142">getPlayerMenu</a> () const</td></tr>
 <tr class="memitem:a930b91e8c6b91b6a5fed674128f77f3c" id="r_a930b91e8c6b91b6a5fed674128f77f3c"><td class="memItemLeft"><a class="el" href="../../d8/d93/classPlayerArea.html">PlayerArea</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a930b91e8c6b91b6a5fed674128f77f3c">getPlayerArea</a> () const</td></tr>
 <tr class="memitem:a2348b5bb8fc1491ad0d5b3fe3859665b" id="r_a2348b5bb8fc1491ad0d5b3fe3859665b"><td class="memItemLeft"><a class="el" href="../../d2/d6f/classPlayerTarget.html">PlayerTarget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a2348b5bb8fc1491ad0d5b3fe3859665b">getPlayerTarget</a> () const</td></tr>
+<tr class="memitem:a2ac00168ad5381bfefd61aa3ffa59df0" id="r_a2ac00168ad5381bfefd61aa3ffa59df0"><td class="memItemLeft"><a class="el" href="../../de/da1/classCardZone.html">CardZone</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a2ac00168ad5381bfefd61aa3ffa59df0">getZoneGraphicsItem</a> (const QString &amp;name) const</td></tr>
 <tr class="memitem:a0852eac8da1aedfd5e0438baf4faf04c" id="r_a0852eac8da1aedfd5e0438baf4faf04c"><td class="memItemLeft"><a class="el" href="../../d6/d02/classPileZone.html">PileZone</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a0852eac8da1aedfd5e0438baf4faf04c">getDeckZoneGraphicsItem</a> () const</td></tr>
 <tr class="memitem:a4849bf5d61aa5c4bcf6a75d7d5699314" id="r_a4849bf5d61aa5c4bcf6a75d7d5699314"><td class="memItemLeft"><a class="el" href="../../d6/d02/classPileZone.html">PileZone</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a4849bf5d61aa5c4bcf6a75d7d5699314">getSideboardZoneGraphicsItem</a> () const</td></tr>
 <tr class="memitem:a4da93a68a49d688f99721b33b0f6432d" id="r_a4da93a68a49d688f99721b33b0f6432d"><td class="memItemLeft"><a class="el" href="../../d6/d02/classPileZone.html">PileZone</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a4da93a68a49d688f99721b33b0f6432d">getGraveyardZoneGraphicsItem</a> () const</td></tr>
@@ -165,9 +170,12 @@ Private Slots</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a2c3176c361d91640659a18074d0ca554" id="r_a2c3176c361d91640659a18074d0ca554"><td class="memItemLeft"><a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a2c3176c361d91640659a18074d0ca554">player</a></td></tr>
+<tr class="memitem:a8b2c592e8386ae63f697aa0a38f5ef7d" id="r_a8b2c592e8386ae63f697aa0a38f5ef7d"><td class="memItemLeft"><a class="el" href="../../d7/dd6/classPlayerMenu.html">PlayerMenu</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a8b2c592e8386ae63f697aa0a38f5ef7d">playerMenu</a></td></tr>
+<tr class="memitem:a798ce16e1b2a080cd18b98e654551cb2" id="r_a798ce16e1b2a080cd18b98e654551cb2"><td class="memItemLeft"><a class="el" href="../../df/da8/classPlayerDialogs.html">PlayerDialogs</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a798ce16e1b2a080cd18b98e654551cb2">playerDialogs</a></td></tr>
 <tr class="memitem:aea4d1bb377a622e8eab5d8c4fae7b903" id="r_aea4d1bb377a622e8eab5d8c4fae7b903"><td class="memItemLeft"><a class="el" href="../../d8/d93/classPlayerArea.html">PlayerArea</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aea4d1bb377a622e8eab5d8c4fae7b903">playerArea</a></td></tr>
 <tr class="memitem:af20b6ba93776a5143121790343d2c3e7" id="r_af20b6ba93776a5143121790343d2c3e7"><td class="memItemLeft"><a class="el" href="../../d2/d6f/classPlayerTarget.html">PlayerTarget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af20b6ba93776a5143121790343d2c3e7">playerTarget</a></td></tr>
 <tr class="memitem:a6e2d22cc782f620c518ca659c99886a3" id="r_a6e2d22cc782f620c518ca659c99886a3"><td class="memItemLeft">QMap&lt; int, <a class="el" href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a6e2d22cc782f620c518ca659c99886a3">counterWidgets</a></td></tr>
+<tr class="memitem:a9837cebd361ff399ad93dce90d7b4d9a" id="r_a9837cebd361ff399ad93dce90d7b4d9a"><td class="memItemLeft">QMap&lt; QString, <a class="el" href="../../de/da1/classCardZone.html">CardZone</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9837cebd361ff399ad93dce90d7b4d9a">zoneGraphicsItems</a></td></tr>
 <tr class="memitem:a008f4d3dcaa4f8307394baef814b0173" id="r_a008f4d3dcaa4f8307394baef814b0173"><td class="memItemLeft"><a class="el" href="../../d6/d02/classPileZone.html">PileZone</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a008f4d3dcaa4f8307394baef814b0173">deckZoneGraphicsItem</a></td></tr>
 <tr class="memitem:ac2ce579c5f2511e818b756343e578b17" id="r_ac2ce579c5f2511e818b756343e578b17"><td class="memItemLeft"><a class="el" href="../../d6/d02/classPileZone.html">PileZone</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ac2ce579c5f2511e818b756343e578b17">sideboardGraphicsItem</a></td></tr>
 <tr class="memitem:a6f0965ebd150d64dcc66b238cd4b12b5" id="r_a6f0965ebd150d64dcc66b238cd4b12b5"><td class="memItemLeft"><a class="el" href="../../d6/d02/classPileZone.html">PileZone</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a6f0965ebd150d64dcc66b238cd4b12b5">graveyardZoneGraphicsItem</a></td></tr>
@@ -180,8 +188,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:acb71cdd984836712348bd663c2437118" id="r_acb71cdd984836712348bd663c2437118"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#acb71cdd984836712348bd663c2437118">handVisible</a> = false</td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
-<a id="a0298ecee4e14201c232131da02bfbe5d" name="a0298ecee4e14201c232131da02bfbe5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0298ecee4e14201c232131da02bfbe5d">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="aa0a1ba535d14f698b7aab4932f07c4d3" name="aa0a1ba535d14f698b7aab4932f07c4d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0a1ba535d14f698b7aab4932f07c4d3">&#9670;&#160;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,7 +200,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0298ecee4e14201c232131da02bfbe5da129ab0cb09585222ca599f3553318ad9" name="a0298ecee4e14201c232131da02bfbe5da129ab0cb09585222ca599f3553318ad9"></a>Type&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa0a1ba535d14f698b7aab4932f07c4d3a129ab0cb09585222ca599f3553318ad9" name="aa0a1ba535d14f698b7aab4932f07c4d3a129ab0cb09585222ca599f3553318ad9"></a>Type&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -259,6 +267,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aa9caf0d86a4d83503ff650a464caaf95" name="aa9caf0d86a4d83503ff650a464caaf95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9caf0d86a4d83503ff650a464caaf95">&#9670;&#160;</a></span>cardInfoRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerGraphicsItem::cardInfoRequested </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d66/structCardRef.html">CardRef</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cardRef</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_aa9caf0d86a4d83503ff650a464caaf95_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a0852eac8da1aedfd5e0438baf4faf04c" name="a0852eac8da1aedfd5e0438baf4faf04c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0852eac8da1aedfd5e0438baf4faf04c">&#9670;&#160;</a></span>getDeckZoneGraphicsItem()</h2>
 
@@ -309,7 +347,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_a5781825d47b6353e0c20de5f801a87c6_icgraph.svg" width="414" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_a5781825d47b6353e0c20de5f801a87c6_icgraph.svg" width="384" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -364,6 +402,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af2750a9abbc8f41fab052b154de6380f" name="af2750a9abbc8f41fab052b154de6380f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2750a9abbc8f41fab052b154de6380f">&#9670;&#160;</a></span>getLogic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> * PlayerGraphicsItem::getLogic </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_af2750a9abbc8f41fab052b154de6380f_icgraph.svg" width="384" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ac5dbb9f98b2dcf1e0531150bd83ccae5" name="ac5dbb9f98b2dcf1e0531150bd83ccae5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5dbb9f98b2dcf1e0531150bd83ccae5">&#9670;&#160;</a></span>getMinimumWidth()</h2>
 
@@ -411,31 +479,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a8825795d82703f28744f11101cc0be08" name="a8825795d82703f28744f11101cc0be08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8825795d82703f28744f11101cc0be08">&#9670;&#160;</a></span>getPlayer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> * PlayerGraphicsItem::getPlayer </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a930b91e8c6b91b6a5fed674128f77f3c" name="a930b91e8c6b91b6a5fed674128f77f3c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a930b91e8c6b91b6a5fed674128f77f3c">&#9670;&#160;</a></span>getPlayerArea()</h2>
 
@@ -455,6 +498,31 @@ Here is the call graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09096a491c068ee940821aefefb43142" name="a09096a491c068ee940821aefefb43142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09096a491c068ee940821aefefb43142">&#9670;&#160;</a></span>getPlayerMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/dd6/classPlayerMenu.html">PlayerMenu</a> * PlayerGraphicsItem::getPlayerMenu </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -586,6 +654,31 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a2ac00168ad5381bfefd61aa3ffa59df0" name="a2ac00168ad5381bfefd61aa3ffa59df0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ac00168ad5381bfefd61aa3ffa59df0">&#9670;&#160;</a></span>getZoneGraphicsItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/da1/classCardZone.html">CardZone</a> * PlayerGraphicsItem::getZoneGraphicsItem </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3622610889ff18515ab9f33363346ccb" name="a3622610889ff18515ab9f33363346ccb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3622610889ff18515ab9f33363346ccb">&#9670;&#160;</a></span>initializeZones()</h2>
 
@@ -604,6 +697,41 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_a3622610889ff18515ab9f33363346ccb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_a3622610889ff18515ab9f33363346ccb_icgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ad73a6eaedeab375032eec956e32825c0" name="ad73a6eaedeab375032eec956e32825c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad73a6eaedeab375032eec956e32825c0">&#9670;&#160;</a></span>mirroredChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerGraphicsItem::mirroredChanged </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isMirrored</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ad73a6eaedeab375032eec956e32825c0_icgraph.svg" width="100%" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -678,6 +806,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a64ce5d063e968c0c59c2e049712921ee" name="a64ce5d063e968c0c59c2e049712921ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64ce5d063e968c0c59c2e049712921ee">&#9670;&#160;</a></span>onCustomZoneAdded</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerGraphicsItem::onCustomZoneAdded </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>customZoneName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_a64ce5d063e968c0c59c2e049712921ee_icgraph.svg" width="388" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a52dabbbc6e9cd01f29a97671a75f95dc" name="a52dabbbc6e9cd01f29a97671a75f95dc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a52dabbbc6e9cd01f29a97671a75f95dc">&#9670;&#160;</a></span>onPlayerActiveChanged</h2>
 
@@ -703,7 +861,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_a52dabbbc6e9cd01f29a97671a75f95dc_icgraph.svg" width="424" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_a52dabbbc6e9cd01f29a97671a75f95dc_icgraph.svg" width="403" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -881,6 +1039,11 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_a5115e8d7c446a6def965640e45aa126a_icgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -936,7 +1099,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ae8e3c4e833ffaaf424c068aec792a339_icgraph.svg" width="100%" height="525"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ae8e3c4e833ffaaf424c068aec792a339_icgraph.svg" width="100%" height="529"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1222,6 +1385,50 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a798ce16e1b2a080cd18b98e654551cb2" name="a798ce16e1b2a080cd18b98e654551cb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a798ce16e1b2a080cd18b98e654551cb2">&#9670;&#160;</a></span>playerDialogs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/da8/classPlayerDialogs.html">PlayerDialogs</a>* PlayerGraphicsItem::playerDialogs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8b2c592e8386ae63f697aa0a38f5ef7d" name="a8b2c592e8386ae63f697aa0a38f5ef7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b2c592e8386ae63f697aa0a38f5ef7d">&#9670;&#160;</a></span>playerMenu</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/dd6/classPlayerMenu.html">PlayerMenu</a>* PlayerGraphicsItem::playerMenu</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af20b6ba93776a5143121790343d2c3e7" name="af20b6ba93776a5143121790343d2c3e7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af20b6ba93776a5143121790343d2c3e7">&#9670;&#160;</a></span>playerTarget</h2>
 
@@ -1332,9 +1539,31 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a9837cebd361ff399ad93dce90d7b4d9a" name="a9837cebd361ff399ad93dce90d7b4d9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9837cebd361ff399ad93dce90d7b4d9a">&#9670;&#160;</a></span>zoneGraphicsItems</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, <a class="el" href="../../de/da1/classCardZone.html">CardZone</a> *&gt; PlayerGraphicsItem::zoneGraphicsItems</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>cockatrice/src/game/player/<a class="el" href="../../db/d6e/player__graphics__item_8h_source.html">player_graphics_item.h</a></li>
-<li>cockatrice/src/game/player/<a class="el" href="../../de/df2/player__graphics__item_8cpp.html">player_graphics_item.cpp</a></li>
+<li>cockatrice/src/game_graphics/player/<a class="el" href="../../db/d6e/player__graphics__item_8h_source.html">player_graphics_item.h</a></li>
+<li>cockatrice/src/game_graphics/player/<a class="el" href="../../de/df2/player__graphics__item_8cpp.html">player_graphics_item.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

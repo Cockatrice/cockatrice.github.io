@@ -1,9 +1,24 @@
 var searchData=
 [
-  ['what_20to_20expect_20from_20the_20beta_0',['What to Expect from the Beta',['../d9/d9b/beta_release.html#what-to-expect-from-the-beta',1,'']]],
-  ['where_20to_20export_1',['Where to export?',['../d0/d51/exporting_decks.html#where-to-export',1,'']]],
-  ['where_20to_20import_2',['Where to import?',['../db/d91/importing_decks.html#where-to-import',1,'']]],
-  ['wide_3',['System-wide',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#system-wide',1,'']]],
-  ['with_20fetchcontent_4',['CMake with FetchContent',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#cmake-with-fetchcontent',1,'']]],
-  ['workflow_3a_5',['Example workflow:',['../da/d68/classDeckList.html#example-workflow',1,'']]]
+  ['sample_20hand_0',['Sample Hand',['../de/d6e/editing_decks_visual.html#sample-hand',1,'']]],
+  ['scheduling_1',['4. Verify before scheduling',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md4-verify-before-scheduling',1,'']]],
+  ['schema_20and_20parsing_2',['Card Database Schema and Parsing',['../d7/d47/card_database_schema_and_parsing.html',1,'developer_reference']]],
+  ['schemas_3',['Card Database Schemas',['../d7/d47/card_database_schema_and_parsing.html#card-database-schemas',1,'']]],
+  ['search_20syntax_20help_4',['Search Syntax Help',['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help'],['../de/dec/deck_search_syntax_help.html#deck-search-syntax-help',1,'Deck Search Syntax Help'],['../dc/dcd/search_syntax_help.html',1,'Search Syntax Help'],['../dc/dcd/search_syntax_help.html#search-syntax-help',1,'Search Syntax Help']]],
+  ['selector_5',['Selector',['../d7/d64/editing_decks_printings.html',1,'Printing Selector'],['../d7/d64/editing_decks_printings.html#using-the-printing-selector',1,'Using the Printing Selector']]],
+  ['service_6',['service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
+  ['setup_7',['Setup',['../d9/d4f/logging.html#logging-setup',1,'Logging Setup'],['../dir_7bfb512e87101b177eb3569817b9fc67.html#setup',1,'Setup']]],
+  ['signals_8',['Signals',['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#signals',1,'Signals'],['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#signals-1',1,'Signals'],['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#signals-2',1,'Signals']]],
+  ['simple_20display_9',['Simple Display',['../dc/d8a/displaying_cards.html#simple-display',1,'']]],
+  ['slots_10',['Slots',['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#slots',1,'']]],
+  ['specific_3a_20printinginfo_20and_20exactcard_11',['Getting specific: PrintingInfo and ExactCard',['../da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard',1,'']]],
+  ['stable_12',['Switching back to Stable',['../d9/d9b/beta_release.html#switching-back-to-stable',1,'']]],
+  ['storage_13',['Storage',['../d0/d51/exporting_decks.html#local-file-storage',1,'Local File Storage'],['../db/d91/importing_decks.html#local-file-storage-1',1,'Local File Storage']]],
+  ['stored_3a_14',['Data stored:',['../d5/d22/classDecklistCardNode.html#data-stored',1,'']]],
+  ['submodule_15',['Git submodule',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#git-submodule',1,'']]],
+  ['support_16',['Browser support',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#browser-support',1,'']]],
+  ['switching_20back_20to_20stable_17',['Switching back to Stable',['../d9/d9b/beta_release.html#switching-back-to-stable',1,'']]],
+  ['switching_20to_20the_20beta_18',['Switching to the Beta',['../d9/d9b/beta_release.html#switching-to-the-beta',1,'']]],
+  ['syntax_20help_19',['Syntax Help',['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help'],['../de/dec/deck_search_syntax_help.html#deck-search-syntax-help',1,'Deck Search Syntax Help'],['../dc/dcd/search_syntax_help.html',1,'Search Syntax Help'],['../dc/dcd/search_syntax_help.html#search-syntax-help',1,'Search Syntax Help'],['../d6/d8b/user_reference.html#syntax-help',1,'Syntax Help']]],
+  ['system_20wide_20',['System-wide',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#system-wide',1,'']]]
 ];

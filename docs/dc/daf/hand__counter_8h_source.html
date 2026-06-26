@@ -7,7 +7,7 @@
     <meta content="IE=11" http-equiv="X-UA-Compatible"/>
     <meta content="Doxygen 1.16.1" name="generator"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <title>Cockatrice: cockatrice/src/game/hand_counter.h Source File</title>
+    <title>Cockatrice: cockatrice/src/game_graphics/hand_counter.h Source File</title>
     <link href="../../cockatrice.png" rel="icon" type="image/x-icon"/>
     <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
     <script src="../../jquery.js" type="text/javascript"></script>
@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Release-3.0.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Development-3.1.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -104,8 +104,8 @@ $(function(){initNavTree('dc/daf/hand__counter_8h_source.html','../../',''); });
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef HANDCOUNTER_H</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define HANDCOUNTER_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../d5/d21/abstract__graphics__item_8h.html">../game_graphics/board/abstract_graphics_item.h</a>&quot;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="../../de/d83/graphics__item__type_8h.html">../game_graphics/board/graphics_item_type.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../d5/d21/abstract__graphics__item_8h.html">board/abstract_graphics_item.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="../../de/d83/graphics__item__type_8h.html">board/graphics_item_type.h</a>&quot;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
@@ -129,12 +129,12 @@ $(function(){initNavTree('dc/daf/hand__counter_8h_source.html','../../',''); });
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">enum</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    {</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../da/da0/classHandCounter.html#a1b2692849966c915be998854298483b7ad0781d692dcac473fef16a06c43ea35a">   34</a></span>        <a class="code hl_enumvalue" href="../../da/da0/classHandCounter.html#a1b2692849966c915be998854298483b7ad0781d692dcac473fef16a06c43ea35a">Type</a> = <a class="code hl_enumvalue" href="../../de/d83/graphics__item__type_8h.html#a9ed98431a807406f09f12e25ac2c8072a0177e6e33a8cc464174a0b2b88338f28">typeOther</a></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../da/da0/classHandCounter.html#a6fcfb3272abf33197e31f8d2b46e2d4aad0781d692dcac473fef16a06c43ea35a">   34</a></span>        <a class="code hl_enumvalue" href="../../da/da0/classHandCounter.html#a6fcfb3272abf33197e31f8d2b46e2d4aad0781d692dcac473fef16a06c43ea35a">Type</a> = <a class="code hl_enumvalue" href="../../de/d83/graphics__item__type_8h.html#a9ed98431a807406f09f12e25ac2c8072a0177e6e33a8cc464174a0b2b88338f28">typeOther</a></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    };</div>
 <div class="foldopen" id="foldopen00036" data-start="{" data-end="}">
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../da/da0/classHandCounter.html#a499c2dd1b939fdb4b5816e429561ea6b">   36</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="../../da/da0/classHandCounter.html#a499c2dd1b939fdb4b5816e429561ea6b">type</a>()<span class="keyword"> const override</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../da/da0/classHandCounter.html#a1b2692849966c915be998854298483b7ad0781d692dcac473fef16a06c43ea35a">Type</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../da/da0/classHandCounter.html#a6fcfb3272abf33197e31f8d2b46e2d4aad0781d692dcac473fef16a06c43ea35a">Type</a>;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    }</div>
 </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../da/da0/classHandCounter.html#ac4320dc98609d5bd10599f657c292766">HandCounter</a>(QGraphicsItem *parent = <span class="keyword">nullptr</span>);</div>
@@ -148,9 +148,9 @@ $(function(){initNavTree('dc/daf/hand__counter_8h_source.html','../../',''); });
 <div class="ttc" id="aabstract__graphics__item_8h_html"><div class="ttname"><a href="../../d5/d21/abstract__graphics__item_8h.html">abstract_graphics_item.h</a></div></div>
 <div class="ttc" id="aclassAbstractGraphicsItem_html_aa5bbe73de9b947e1578582c639decfd9"><div class="ttname"><a href="../../de/dfe/classAbstractGraphicsItem.html#aa5bbe73de9b947e1578582c639decfd9">AbstractGraphicsItem::AbstractGraphicsItem</a></div><div class="ttdeci">AbstractGraphicsItem(QGraphicsItem *parent=nullptr)</div><div class="ttdef"><b>Definition</b> abstract_graphics_item.h:23</div></div>
 <div class="ttc" id="aclassHandCounter_html_a12b148ff8f24ef9019a1cab091036f9d"><div class="ttname"><a href="../../da/da0/classHandCounter.html#a12b148ff8f24ef9019a1cab091036f9d">HandCounter::mousePressEvent</a></div><div class="ttdeci">void mousePressEvent(QGraphicsSceneMouseEvent *event) override</div><div class="ttdef"><b>Definition</b> hand_counter.cpp:45</div></div>
-<div class="ttc" id="aclassHandCounter_html_a1b2692849966c915be998854298483b7ad0781d692dcac473fef16a06c43ea35a"><div class="ttname"><a href="../../da/da0/classHandCounter.html#a1b2692849966c915be998854298483b7ad0781d692dcac473fef16a06c43ea35a">HandCounter::Type</a></div><div class="ttdeci">@ Type</div><div class="ttdef"><b>Definition</b> hand_counter.h:34</div></div>
 <div class="ttc" id="aclassHandCounter_html_a3a386b59460b59dc3360c1d44e3a6b25"><div class="ttname"><a href="../../da/da0/classHandCounter.html#a3a386b59460b59dc3360c1d44e3a6b25">HandCounter::number</a></div><div class="ttdeci">int number</div><div class="ttdef"><b>Definition</b> hand_counter.h:22</div></div>
 <div class="ttc" id="aclassHandCounter_html_a499c2dd1b939fdb4b5816e429561ea6b"><div class="ttname"><a href="../../da/da0/classHandCounter.html#a499c2dd1b939fdb4b5816e429561ea6b">HandCounter::type</a></div><div class="ttdeci">int type() const override</div><div class="ttdef"><b>Definition</b> hand_counter.h:36</div></div>
+<div class="ttc" id="aclassHandCounter_html_a6fcfb3272abf33197e31f8d2b46e2d4aad0781d692dcac473fef16a06c43ea35a"><div class="ttname"><a href="../../da/da0/classHandCounter.html#a6fcfb3272abf33197e31f8d2b46e2d4aad0781d692dcac473fef16a06c43ea35a">HandCounter::Type</a></div><div class="ttdeci">@ Type</div><div class="ttdef"><b>Definition</b> hand_counter.h:34</div></div>
 <div class="ttc" id="aclassHandCounter_html_a9a83715f4ae5ccab345b45e5c3a0b599"><div class="ttname"><a href="../../da/da0/classHandCounter.html#a9a83715f4ae5ccab345b45e5c3a0b599">HandCounter::boundingRect</a></div><div class="ttdeci">QRectF boundingRect() const override</div><div class="ttdef"><b>Definition</b> hand_counter.cpp:24</div></div>
 <div class="ttc" id="aclassHandCounter_html_ab5dc5e4cdd53d2e5506fa09c8ee8e81e"><div class="ttname"><a href="../../da/da0/classHandCounter.html#ab5dc5e4cdd53d2e5506fa09c8ee8e81e">HandCounter::paint</a></div><div class="ttdeci">void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override</div><div class="ttdef"><b>Definition</b> hand_counter.cpp:29</div></div>
 <div class="ttc" id="aclassHandCounter_html_ac4320dc98609d5bd10599f657c292766"><div class="ttname"><a href="../../da/da0/classHandCounter.html#ac4320dc98609d5bd10599f657c292766">HandCounter::HandCounter</a></div><div class="ttdeci">HandCounter(QGraphicsItem *parent=nullptr)</div><div class="ttdef"><b>Definition</b> hand_counter.cpp:9</div></div>
@@ -167,7 +167,7 @@ $(function(){initNavTree('dc/daf/hand__counter_8h_source.html','../../',''); });
 <script src="../../graph_toggle.js"></script>
 <div class="navpath" id="nav-path"><!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a href="../../dir_fcc53323f100f3840d6c8e04b287c6d3.html">game</a></li><li class="navelem"><a href="../../dc/daf/hand__counter_8h.html">hand_counter.h</a></li>
+        <li class="navelem"><a href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a href="../../dir_4db5280bbb861c4570d5072585939b1b.html">game_graphics</a></li><li class="navelem"><a href="../../dc/daf/hand__counter_8h.html">hand_counter.h</a></li>
         <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img alt="doxygen"
                                                                                           class="footer"
                                                                                           height="31" src="../../doxygen.svg"

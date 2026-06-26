@@ -1,17 +1,16 @@
 var searchData=
 [
-  ['image_20loading_0',['Local Image Loading',['../d9/d1c/loading_card_pictures.html#local-image-loading',1,'']]],
-  ['import_1',['Where to import?',['../db/d91/importing_decks.html#where-to-import',1,'']]],
-  ['importing_20decks_2',['Importing Decks',['../db/d91/importing_decks.html',1,'user_reference']]],
-  ['in_20client_3',['In-client',['../dc/d8a/displaying_cards.html#in-client',1,'']]],
-  ['in_20game_4',['In-game',['../dc/d8a/displaying_cards.html#in-game',1,'']]],
-  ['in_20the_20hierarchy_3a_5',['in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
-  ['info_6',['Printing Info',['../da/d69/primer_cards.html#printing-info',1,'']]],
-  ['information_7',['Information',['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
-  ['infos_8',['Generic Card Infos',['../da/d66/querying_the_card_database.html#generic-card-infos',1,'']]],
-  ['installation_9',['Installation',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#installation',1,'']]],
-  ['installation_20instructions_10',['Further installation instructions',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#further-installation-instructions',1,'']]],
-  ['instructions_11',['Further installation instructions',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#further-installation-instructions',1,'']]],
-  ['integration_12',['API Integration',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#api-integration',1,'']]],
-  ['interface_13',['Pre-requisites (User Interface)',['../d7/d64/editing_decks_printings.html#pre-requisites-user-interface',1,'']]]
+  ['editing_20basic_20deck_20information_0',['Editing Basic Deck Information',['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
+  ['editing_20decks_1',['Editing Decks',['../da/d03/editing_decks.html',1,'user_reference']]],
+  ['editor_2',['Editor',['../d3/d32/editing_decks_classic.html',1,'Classic Deck Editor'],['../de/d6e/editing_decks_visual.html',1,'Visual Deck Editor']]],
+  ['editor_20tab_3',['Editor Tab',['../d0/d51/exporting_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../db/d91/importing_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
+  ['every_202_20minutes_20with_20cron_4',['Run it every 2 minutes with cron',['../dir_7bfb512e87101b177eb3569817b9fc67.html#run-it-every-2-minutes-with-cron',1,'']]],
+  ['exact_20card_5',['Exact Card',['../da/d69/primer_cards.html#exact-card',1,'']]],
+  ['exactcard_6',['Getting specific: PrintingInfo and ExactCard',['../da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard',1,'']]],
+  ['exactcards_7',['ExactCards',['../da/d66/querying_the_card_database.html#exactcards',1,'']]],
+  ['example_20workflow_3a_8',['Example workflow:',['../da/d68/classDeckList.html#example-workflow',1,'']]],
+  ['examples_9',['Examples',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#examples',1,'']]],
+  ['expect_20from_20the_20beta_10',['What to Expect from the Beta',['../d9/d9b/beta_release.html#what-to-expect-from-the-beta',1,'']]],
+  ['export_11',['Where to export?',['../d0/d51/exporting_decks.html#where-to-export',1,'']]],
+  ['exporting_20decks_12',['Exporting Decks',['../d0/d51/exporting_decks.html',1,'user_reference']]]
 ];

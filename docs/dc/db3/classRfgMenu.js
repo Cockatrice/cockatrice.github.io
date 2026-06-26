@@ -1,6 +1,6 @@
 var classRfgMenu =
 [
-    [ "RfgMenu", "dc/db3/classRfgMenu.html#a1252cd2fb8b28222f537f136adf5d5a8", null ],
+    [ "RfgMenu", "dc/db3/classRfgMenu.html#ab4963951d66219b62b0c57bdabf1284c", null ],
     [ "createMoveActions", "dc/db3/classRfgMenu.html#a71b95f89f9d2b46399a3beefa5362bd5", null ],
     [ "createViewActions", "dc/db3/classRfgMenu.html#a8723b7d709b3272109e722118356d4cd", null ],
     [ "retranslateUi", "dc/db3/classRfgMenu.html#a6590b698639619f07a2f0c342cdf7084", null ],
@@ -12,5 +12,5 @@ var classRfgMenu =
     [ "aMoveRfgToTopLibrary", "dc/db3/classRfgMenu.html#a32eae60d35111dda4a9fc23b97c9b0d6", null ],
     [ "aViewRfg", "dc/db3/classRfgMenu.html#a4c1ef82a5a2a47cacd1e65c5d4a59cc6", null ],
     [ "moveRfgMenu", "dc/db3/classRfgMenu.html#a8ce72d96ceb09675600a21a9e1aaad92", null ],
-    [ "player", "dc/db3/classRfgMenu.html#aeb10637ebaaabc208607e30c64c5359e", null ]
+    [ "player", "dc/db3/classRfgMenu.html#a28992b093f5a0802cde1ae25fa276909", null ]
 ];

@@ -1,6 +1,6 @@
 var classTableZone =
 [
-    [ "TableZone", "d6/d6f/classTableZone.html#a70d1bea5a28c08f735e4fffbf9d0530e", null ],
+    [ "TableZone", "d6/d6f/classTableZone.html#abb74274d2a776edf55621d4c123fec1a", null ],
     [ "boundingRect", "d6/d6f/classTableZone.html#aa5bc29be4db724fb001788a223d9cb35", null ],
     [ "clampValidTableRow", "d6/d6f/classTableZone.html#a1d2de5c47bda321b913000f0b893a805", null ],
     [ "closestGridPoint", "d6/d6f/classTableZone.html#ab1c4485f2e6240cbb5b42f2471249d80", null ],
@@ -21,6 +21,7 @@ var classTableZone =
     [ "reorganizeCards", "d6/d6f/classTableZone.html#a051dd462b5e0fb0e55d3d1d0d8abda65", null ],
     [ "resizeToContents", "d6/d6f/classTableZone.html#a997bb85badfa165b94355054c88d6c9a", null ],
     [ "setActive", "d6/d6f/classTableZone.html#a1a5b346e500195fe51dedf1b56fe6225", null ],
+    [ "setMirrored", "d6/d6f/classTableZone.html#a5b349fd50b27717d9a9bef272a86150a", null ],
     [ "setWidth", "d6/d6f/classTableZone.html#ae61590673fe24889e5f0fe52faff7088", null ],
     [ "sizeChanged", "d6/d6f/classTableZone.html#affdbd7c0d3f501906e7be7a82e51893a", null ],
     [ "tableRowToGridY", "d6/d6f/classTableZone.html#a63384b2cc004092f7c253e3ea349e6fb", null ],
@@ -41,6 +42,7 @@ var classTableZone =
     [ "MARGIN_RIGHT", "d6/d6f/classTableZone.html#acfd5bd887d2bd86b1f6bf21d5008f418", null ],
     [ "MARGIN_TOP", "d6/d6f/classTableZone.html#af450820313f485e158e2a2afa0a76b80", null ],
     [ "MIN_WIDTH", "d6/d6f/classTableZone.html#ac6727616c3cefb55d2696bc0168aee22", null ],
+    [ "mirrored", "d6/d6f/classTableZone.html#a8025972a9de7703aefc7a241ac6f032f", null ],
     [ "PADDING_X", "d6/d6f/classTableZone.html#a5989054f82d32bf8cc23e3d0b7ab8e29", null ],
     [ "PADDING_Y", "d6/d6f/classTableZone.html#a53b79daca9b9e6f5734d9fd949894c53", null ],
     [ "STACKED_CARD_OFFSET_X", "d6/d6f/classTableZone.html#a96ad40631c903ed18a4a3d037d268696", null ],

@@ -1,11 +1,12 @@
 var classUtilityMenu =
 [
-    [ "UtilityMenu", "da/d1c/classUtilityMenu.html#abf96e5ae6287150b04db2938dd77b65b", null ],
+    [ "UtilityMenu", "da/d1c/classUtilityMenu.html#a5459b0bdeb749837f70d32c2815cdeac", null ],
     [ "createAnotherTokenActionExists", "da/d1c/classUtilityMenu.html#a4d9238d7cbf5aecb326003bc7c6af51a", null ],
     [ "getPredefinedTokens", "da/d1c/classUtilityMenu.html#aa5f2ad8bfb4fabfffc10da8b3c0ec7b4", null ],
     [ "populatePredefinedTokensMenu", "da/d1c/classUtilityMenu.html#a57e36afe35a75c91b15469a767c190d1", null ],
     [ "retranslateUi", "da/d1c/classUtilityMenu.html#ab71de425a7a32cc958df0bcd8675e379", null ],
     [ "setAndEnableCreateAnotherTokenAction", "da/d1c/classUtilityMenu.html#a282a05f9ace73ce47d3e68057b7656af", null ],
+    [ "setLastToken", "da/d1c/classUtilityMenu.html#ac8e77090b96b298b07bf62295b3ae331", null ],
     [ "setShortcutsActive", "da/d1c/classUtilityMenu.html#a181258934ac31b8aa48eca704a474045", null ],
     [ "setShortcutsInactive", "da/d1c/classUtilityMenu.html#aad631289397fbc709261e72abf68773d", null ],
     [ "aCreateAnotherToken", "da/d1c/classUtilityMenu.html#a81523d173bff53c239f235060892ad6f", null ],
@@ -15,6 +16,6 @@ var classUtilityMenu =
     [ "aRollDie", "da/d1c/classUtilityMenu.html#a7190a19efdbe8bb743c2a9ef7d05a14b", null ],
     [ "aUntapAll", "da/d1c/classUtilityMenu.html#aede17381b744df51ddfbbdf6621f24ae", null ],
     [ "createPredefinedTokenMenu", "da/d1c/classUtilityMenu.html#a2f8fcb0328f38db90e80b4243b3a0844", null ],
-    [ "player", "da/d1c/classUtilityMenu.html#a388913f33fde71c015d151628df645ec", null ],
+    [ "player", "da/d1c/classUtilityMenu.html#a2251fc4ab486680ae038bf7382e4deae", null ],
     [ "predefinedTokens", "da/d1c/classUtilityMenu.html#a10a07f317f70fb1420f10022900288f3", null ]
 ];

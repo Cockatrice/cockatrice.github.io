@@ -42,7 +42,7 @@ var searchData=
   ['acreatetoken_39',['aCreateToken',['../da/d1c/classUtilityMenu.html#a69db6a266df56efed91742822b192700',1,'UtilityMenu']]],
   ['action_40',['action',['../d8/d94/classpeg_1_1Definition.html#aef8ab093bc4a6ad56003d3c0448b68b0',1,'peg::Definition']]],
   ['activateuserbutton_41',['activateUserButton',['../d5/d3b/classTabAdmin.html#ad100ed44c3737317d63585363298df9e',1,'TabAdmin']]],
-  ['active_42',['active',['../da/d20/classPhaseButton.html#a63dd7dc316df101ba7189d4187de74c0',1,'PhaseButton::active'],['../d2/d98/classPlayerLogic.html#abeff419a66b5bd0eaecea025a0109490',1,'PlayerLogic::active'],['../d6/d6f/classTableZone.html#ac7737b35855d6a60917afa160b93e177',1,'TableZone::active']]],
+  ['active_42',['active',['../d2/d98/classPlayerLogic.html#abeff419a66b5bd0eaecea025a0109490',1,'PlayerLogic::active'],['../da/d20/classPhaseButton.html#a63dd7dc316df101ba7189d4187de74c0',1,'PhaseButton::active'],['../d6/d6f/classTableZone.html#ac7737b35855d6a60917afa160b93e177',1,'TableZone::active']]],
   ['activeanimationcounter_43',['activeAnimationCounter',['../da/d20/classPhaseButton.html#af6d4580a94bbb052c82eb55d3921a917',1,'PhaseButton']]],
   ['activeanimationtimer_44',['activeAnimationTimer',['../da/d20/classPhaseButton.html#aeb596b323f626d27970720eeea96f234',1,'PhaseButton']]],
   ['activecard_45',['activeCard',['../d3/d44/classAbstractGame.html#a32c0fc4f09abcd718e0ed17a02046ba3',1,'AbstractGame']]],

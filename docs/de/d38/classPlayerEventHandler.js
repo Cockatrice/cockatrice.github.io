@@ -46,6 +46,7 @@ var classPlayerEventHandler =
     [ "logUndoDraw", "de/d38/classPlayerEventHandler.html#a1269557d311436c06869c2ea59f7dec1", null ],
     [ "logUndoDrawFailed", "de/d38/classPlayerEventHandler.html#a02ff7cf248ec0f445c0cde723cd73a28", null ],
     [ "processGameEvent", "de/d38/classPlayerEventHandler.html#a0c4c71f0f775e5b4b9513bb2f3b7cb54", null ],
+    [ "requestCardMenuUpdate", "de/d38/classPlayerEventHandler.html#a276485255a3596399e59fe2bf8a4259a", null ],
     [ "setCardAttrHelper", "de/d38/classPlayerEventHandler.html#a73173b6b6a0aa2759a2adc373a4e9fd9", null ],
     [ "player", "de/d38/classPlayerEventHandler.html#a2fb78c77e99af8ccc02545d1d4f901c7", null ]
 ];

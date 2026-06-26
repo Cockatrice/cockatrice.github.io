@@ -1,8 +1,9 @@
 var classPlayerMenu =
 [
-    [ "PlayerMenu", "d7/dd6/classPlayerMenu.html#ad0d3ca35311ea213eb216ee81bb243ea", null ],
+    [ "PlayerMenu", "d7/dd6/classPlayerMenu.html#ac6921cbf87a93929f882def822602cf5", null ],
     [ "addManagedMenu", "d7/dd6/classPlayerMenu.html#a88d6feb2f2201e9d95ce4365d34a393d", null ],
-    [ "cardMenuUpdated", "d7/dd6/classPlayerMenu.html#a3956c4c71da8c542885d7b80f0f7b6e9", null ],
+    [ "cardInfoRequested", "d7/dd6/classPlayerMenu.html#adcb74b94287cfc1843b9c46e4b0c9398", null ],
+    [ "cardMenuUpdated", "d7/dd6/classPlayerMenu.html#a2ed31dd000f03c9775b976014e9fbccc", null ],
     [ "createManagedComponent", "d7/dd6/classPlayerMenu.html#a44e493fcf061c0a7dab3a18b5bf8d444", null ],
     [ "getCountersMenu", "d7/dd6/classPlayerMenu.html#a959d7d816ae9103d931ec8d2902b6b4d", null ],
     [ "getLibraryMenu", "d7/dd6/classPlayerMenu.html#aa179e8ad3f740c6fba49ae2ceb3775b1", null ],
@@ -24,7 +25,7 @@ var classPlayerMenu =
     [ "handMenu", "d7/dd6/classPlayerMenu.html#a427cac2a0390b10de4544ff265d15868", null ],
     [ "libraryMenu", "d7/dd6/classPlayerMenu.html#ac0598367f937d065bd9053f855840179", null ],
     [ "managedComponents", "d7/dd6/classPlayerMenu.html#acce27709e012258dd774c6a65509f78a", null ],
-    [ "player", "d7/dd6/classPlayerMenu.html#ab24f23b899e1864323b3fe0ca6d5305e", null ],
+    [ "player", "d7/dd6/classPlayerMenu.html#a778b1aa46b2b9bb61482c7b73b9aa750", null ],
     [ "playerMenu", "d7/dd6/classPlayerMenu.html#a38d3fbfc5a68ed2fa0c2b718a03082fd", null ],
     [ "rfgMenu", "d7/dd6/classPlayerMenu.html#ae3a78c5e6da3fa4b966c7d215406ea1d", null ],
     [ "sayMenu", "d7/dd6/classPlayerMenu.html#accfdb6bdbc2bbd5e97a950b2e03383dd", null ],

@@ -483,6 +483,7 @@ var hierarchy =
       [ "PhasesToolbar", "d7/d23/classPhasesToolbar.html", null ],
       [ "PlayerActions", "d2/d23/classPlayerActions.html", null ],
       [ "PlayerArea", "d8/d93/classPlayerArea.html", null ],
+      [ "PlayerDialogs", "df/da8/classPlayerDialogs.html", null ],
       [ "PlayerEventHandler", "de/d38/classPlayerEventHandler.html", null ],
       [ "PlayerInfo", "df/df7/classPlayerInfo.html", null ],
       [ "PlayerLogic", "d2/d98/classPlayerLogic.html", null ],

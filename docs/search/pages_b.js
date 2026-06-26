@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['management_0',['Deck Management',['../d6/d8b/user_reference.html#deck-management',1,'']]],
-  ['message_20pattern_1',['Log Message Pattern',['../d9/d4f/logging.html#log-message-pattern',1,'']]],
-  ['modifying_20printings_2',['Modifying printings',['../d3/d32/editing_decks_classic.html#modifying-printings',1,'Modifying printings'],['../de/d6e/editing_decks_visual.html#modifying-printings-1',1,'Modifying printings']]],
-  ['modifying_20the_20deck_20list_3',['Modifying the Deck List',['../d3/d32/editing_decks_classic.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../de/d6e/editing_decks_visual.html#modifying-the-deck-list-1',1,'Modifying the Deck List']]],
-  ['modifying_20the_20visual_20deck_20layout_4',['Modifying the visual deck layout',['../de/d6e/editing_decks_visual.html#modifying-the-visual-deck-layout',1,'']]],
-  ['motivation_5',['Motivation',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#motivation',1,'']]]
+  ['hand_0',['Sample Hand',['../de/d6e/editing_decks_visual.html#sample-hand',1,'']]],
+  ['handle_20to_20the_20carddatabasequerier_20for_20usage_1',['Obtaining a handle to the CardDatabaseQuerier for usage',['../da/d66/querying_the_card_database.html#obtaining-a-handle-to-the-carddatabasequerier-for-usage',1,'']]],
+  ['help_2',['Help',['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help'],['../de/dec/deck_search_syntax_help.html#deck-search-syntax-help',1,'Deck Search Syntax Help'],['../dc/dcd/search_syntax_help.html',1,'Search Syntax Help'],['../dc/dcd/search_syntax_help.html#search-syntax-help',1,'Search Syntax Help'],['../d6/d8b/user_reference.html#syntax-help',1,'Syntax Help']]],
+  ['hierarchy_3a_3',['hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
+  ['how_20it_20decides_20what_20is_20new_4',['How it decides what is &quot;new&quot;',['../dir_7bfb512e87101b177eb3569817b9fc67.html#how-it-decides-what-is-new',1,'']]],
+  ['how_20requests_20are_20triggered_5',['How requests are triggered',['../d9/d1c/loading_card_pictures.html#how-requests-are-triggered',1,'']]]
 ];

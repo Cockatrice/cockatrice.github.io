@@ -425,6 +425,7 @@ var annotated_dup =
     [ "PlayerActions", "d2/d23/classPlayerActions.html", "d2/d23/classPlayerActions" ],
     [ "PlayerArea", "d8/d93/classPlayerArea.html", "d8/d93/classPlayerArea" ],
     [ "PlayerCounter", "db/df9/classPlayerCounter.html", "db/df9/classPlayerCounter" ],
+    [ "PlayerDialogs", "df/da8/classPlayerDialogs.html", "df/da8/classPlayerDialogs" ],
     [ "PlayerEventHandler", "de/d38/classPlayerEventHandler.html", "de/d38/classPlayerEventHandler" ],
     [ "PlayerGraphicsItem", "d3/de4/classPlayerGraphicsItem.html", "d3/de4/classPlayerGraphicsItem" ],
     [ "PlayerInfo", "df/df7/classPlayerInfo.html", "df/df7/classPlayerInfo" ],

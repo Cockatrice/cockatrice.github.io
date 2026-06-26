@@ -1,6 +1,6 @@
 var classHandMenu =
 [
-    [ "HandMenu", "db/d04/classHandMenu.html#ab93da88ffd170e2f70ad846f6f41d944", null ],
+    [ "HandMenu", "db/d04/classHandMenu.html#a7045ce5b022ffcdf2380cf827310f6d9", null ],
     [ "onRevealHandTriggered", "db/d04/classHandMenu.html#a29e6bed4627670d625523e4048786723", null ],
     [ "onRevealRandomHandCardTriggered", "db/d04/classHandMenu.html#a6a0202b61be83a52dcb5f2694dec06e8", null ],
     [ "populateRevealHandMenuWithActivePlayers", "db/d04/classHandMenu.html#ab43c7cf72fe0a01e92a2ddb1bf0ad8ef", null ],
@@ -27,5 +27,5 @@ var classHandMenu =
     [ "mRevealHand", "db/d04/classHandMenu.html#a5023cc9a2dcf5dd79217d610b4d4d6ca", null ],
     [ "mRevealRandomHandCard", "db/d04/classHandMenu.html#a0a8a6df07324f6fc3ac946e502fff1e3", null ],
     [ "mSortHand", "db/d04/classHandMenu.html#a8dbb34049bf08cf5e6cdba9a13e5c59e", null ],
-    [ "player", "db/d04/classHandMenu.html#abd340dc2e1e96a823f68957ff121b3c8", null ]
+    [ "player", "db/d04/classHandMenu.html#a382ea77ffb916f70f3dc156afea00c20", null ]
 ];

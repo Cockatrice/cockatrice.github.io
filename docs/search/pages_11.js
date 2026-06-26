@@ -1,23 +1,11 @@
 var searchData=
 [
-  ['sample_20hand_0',['Sample Hand',['../de/d6e/editing_decks_visual.html#sample-hand',1,'']]],
-  ['schema_20and_20parsing_1',['Card Database Schema and Parsing',['../d7/d47/card_database_schema_and_parsing.html',1,'developer_reference']]],
-  ['schemas_2',['Card Database Schemas',['../d7/d47/card_database_schema_and_parsing.html#card-database-schemas',1,'']]],
-  ['search_20syntax_20help_3',['Search Syntax Help',['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help'],['../de/dec/deck_search_syntax_help.html#deck-search-syntax-help',1,'Deck Search Syntax Help'],['../dc/dcd/search_syntax_help.html',1,'Search Syntax Help'],['../dc/dcd/search_syntax_help.html#search-syntax-help',1,'Search Syntax Help']]],
-  ['selector_4',['Selector',['../d7/d64/editing_decks_printings.html',1,'Printing Selector'],['../d7/d64/editing_decks_printings.html#using-the-printing-selector',1,'Using the Printing Selector']]],
-  ['service_5',['service',['../db/d91/importing_decks.html#from-an-online-service',1,'From an online service'],['../d0/d51/exporting_decks.html#from-an-online-service-1',1,'From an online service']]],
-  ['setup_6',['Logging Setup',['../d9/d4f/logging.html#logging-setup',1,'']]],
-  ['signals_7',['Signals',['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#signals',1,'Signals'],['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#signals-1',1,'Signals'],['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#signals-2',1,'Signals']]],
-  ['simple_20display_8',['Simple Display',['../dc/d8a/displaying_cards.html#simple-display',1,'']]],
-  ['slots_9',['Slots',['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#slots',1,'']]],
-  ['specific_3a_20printinginfo_20and_20exactcard_10',['Getting specific: PrintingInfo and ExactCard',['../da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard',1,'']]],
-  ['stable_11',['Switching back to Stable',['../d9/d9b/beta_release.html#switching-back-to-stable',1,'']]],
-  ['storage_12',['Storage',['../db/d91/importing_decks.html#local-file-storage',1,'Local File Storage'],['../d0/d51/exporting_decks.html#local-file-storage-1',1,'Local File Storage']]],
-  ['stored_3a_13',['Data stored:',['../d5/d22/classDecklistCardNode.html#data-stored',1,'']]],
-  ['submodule_14',['Git submodule',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#git-submodule',1,'']]],
-  ['support_15',['Browser support',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#browser-support',1,'']]],
-  ['switching_20back_20to_20stable_16',['Switching back to Stable',['../d9/d9b/beta_release.html#switching-back-to-stable',1,'']]],
-  ['switching_20to_20the_20beta_17',['Switching to the Beta',['../d9/d9b/beta_release.html#switching-to-the-beta',1,'']]],
-  ['syntax_20help_18',['Syntax Help',['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help'],['../de/dec/deck_search_syntax_help.html#deck-search-syntax-help',1,'Deck Search Syntax Help'],['../dc/dcd/search_syntax_help.html',1,'Search Syntax Help'],['../dc/dcd/search_syntax_help.html#search-syntax-help',1,'Search Syntax Help'],['../d6/d8b/user_reference.html#syntax-help',1,'Syntax Help']]],
-  ['system_20wide_19',['System-wide',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#system-wide',1,'']]]
+  ['object_3a_20cardinfo_0',['A Basic Card Object: CardInfo',['../da/d69/primer_cards.html#a-basic-card-object-cardinfo',1,'']]],
+  ['obtaining_20a_20handle_20to_20the_20carddatabasequerier_20for_20usage_1',['Obtaining a handle to the CardDatabaseQuerier for usage',['../da/d66/querying_the_card_database.html#obtaining-a-handle-to-the-carddatabasequerier-for-usage',1,'']]],
+  ['of_20cards_2',['Groups of Cards',['../dc/d8a/displaying_cards.html#groups-of-cards',1,'']]],
+  ['on_20cards_3',['A Primer on Cards',['../da/d69/primer_cards.html',1,'developer_reference']]],
+  ['online_20service_4',['online service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
+  ['only_20database_20user_5',['1. Create a read-only database user',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md1-create-a-read-only-database-user',1,'']]],
+  ['options_6',['Options',['../dir_7bfb512e87101b177eb3569817b9fc67.html#options',1,'']]],
+  ['ownership_3a_7',['Ownership:',['../da/d68/classDeckList.html#ownership',1,'Ownership:'],['../d3/de9/classAbstractDecklistCardNode.html#ownership-1',1,'Ownership:'],['../d5/d22/classDecklistCardNode.html#ownership-2',1,'Ownership:'],['../d4/d55/classInnerDecklistNode.html#ownership-3',1,'Ownership:']]]
 ];

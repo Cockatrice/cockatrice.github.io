@@ -1,7 +1,7 @@
 var searchData=
 [
   ['r_5f_0',['r_',['../df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html#ad39cfca49fd993e715578828c87b36b7',1,'peg::ParserGenerator::SyntaxErrorException']]],
-  ['radius_1',['radius',['../d4/d67/classAbstractCounter.html#a2d9474c30bb92b0d48d0045d1a77f8e8',1,'AbstractCounter::radius'],['../d9/d98/classCounterState.html#a03cc04536f33ddb6d3e4d6e6d461a2a2',1,'CounterState::radius'],['../d6/dcc/classServer__Counter.html#a63ede246cb19b8b2b53e450b3928a27d',1,'Server_Counter::radius']]],
+  ['radius_1',['radius',['../d9/d98/classCounterState.html#a03cc04536f33ddb6d3e4d6e6d461a2a2',1,'CounterState::radius'],['../d4/d67/classAbstractCounter.html#a2d9474c30bb92b0d48d0045d1a77f8e8',1,'AbstractCounter::radius'],['../d6/dcc/classServer__Counter.html#a63ede246cb19b8b2b53e450b3928a27d',1,'Server_Counter::radius']]],
   ['raiseonenter_2',['raiseOnEnter',['../dd/dd2/classCardInfoPictureWidget.html#a6eb6547b9771b8f6927d4b4821337ed7',1,'CardInfoPictureWidget']]],
   ['rangegrid_3',['rangeGrid',['../d9/ded/classTabLog.html#a98bc98bc2af6af32dad752a65987b86e',1,'TabLog']]],
   ['rangegroupbox_4',['rangeGroupBox',['../d9/ded/classTabLog.html#a34a7de1942a500fe78a6c0645e4283c8',1,'TabLog']]],

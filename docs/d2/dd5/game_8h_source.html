@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Release-3.0.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Development-3.1.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -109,24 +109,23 @@ $(function(){initNavTree('d2/dd5/game_8h_source.html','../../',''); });
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../d9/d68/classGame.html">   14</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d9/d68/classGame.html#a7d76f418ce9cffd95e0292dee1328e23">Game</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d3/d44/classAbstractGame.html#aed103b0bd57a4da98e9bf3175fd0f43c">AbstractGame</a></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../d9/d68/classGame.html">   14</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d9/d68/classGame.html#a0e1cea8628860de4685a25bc8a37c5b8">Game</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d3/d44/classAbstractGame.html#afadb91c3d58889f91e9bc2f679768524">AbstractGame</a></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    Q_OBJECT</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_function" href="../../d9/d68/classGame.html#a7d76f418ce9cffd95e0292dee1328e23">Game</a>(<a class="code hl_class" href="../../de/d08/classTabGame.html">TabGame</a> *<a class="code hl_variable" href="../../d3/d44/classAbstractGame.html#a8ad9d5998e88123c05ce37527f206c34">tab</a>,</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>         QList&lt;AbstractClient *&gt; &amp;_clients,</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>         <span class="keyword">const</span> Event_GameJoined &amp;event,</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>         <span class="keyword">const</span> QMap&lt;int, QString&gt; &amp;_roomGameTypes);</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>};</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_function" href="../../d9/d68/classGame.html#a0e1cea8628860de4685a25bc8a37c5b8">Game</a>(QObject *parent,</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>         <span class="keywordtype">bool</span> isLocalGame,</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>         QList&lt;AbstractClient *&gt; &amp;_clients,</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>         <span class="keyword">const</span> Event_GameJoined &amp;event,</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>         <span class="keyword">const</span> QMap&lt;int, QString&gt; &amp;_roomGameTypes);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>};</div>
 </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_GAME_H</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_GAME_H</span></div>
 <div class="ttc" id="aabstract__game_8h_html"><div class="ttname"><a href="../../da/d99/abstract__game_8h.html">abstract_game.h</a></div></div>
-<div class="ttc" id="aclassAbstractGame_html_a8ad9d5998e88123c05ce37527f206c34"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html#a8ad9d5998e88123c05ce37527f206c34">AbstractGame::tab</a></div><div class="ttdeci">TabGame * tab</div><div class="ttdef"><b>Definition</b> abstract_game.h:27</div></div>
-<div class="ttc" id="aclassAbstractGame_html_aed103b0bd57a4da98e9bf3175fd0f43c"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html#aed103b0bd57a4da98e9bf3175fd0f43c">AbstractGame::AbstractGame</a></div><div class="ttdeci">AbstractGame(TabGame *tab)</div><div class="ttdef"><b>Definition</b> abstract_game.cpp:6</div></div>
-<div class="ttc" id="aclassGame_html_a7d76f418ce9cffd95e0292dee1328e23"><div class="ttname"><a href="../../d9/d68/classGame.html#a7d76f418ce9cffd95e0292dee1328e23">Game::Game</a></div><div class="ttdeci">Game(TabGame *tab, QList&lt; AbstractClient * &gt; &amp;_clients, const Event_GameJoined &amp;event, const QMap&lt; int, QString &gt; &amp;_roomGameTypes)</div><div class="ttdef"><b>Definition</b> game.cpp:7</div></div>
-<div class="ttc" id="aclassTabGame_html"><div class="ttname"><a href="../../de/d08/classTabGame.html">TabGame</a></div><div class="ttdef"><b>Definition</b> tab_game.h:56</div></div>
+<div class="ttc" id="aclassAbstractGame_html_afadb91c3d58889f91e9bc2f679768524"><div class="ttname"><a href="../../d3/d44/classAbstractGame.html#afadb91c3d58889f91e9bc2f679768524">AbstractGame::AbstractGame</a></div><div class="ttdeci">AbstractGame(QObject *parent)</div><div class="ttdef"><b>Definition</b> abstract_game.cpp:6</div></div>
+<div class="ttc" id="aclassGame_html_a0e1cea8628860de4685a25bc8a37c5b8"><div class="ttname"><a href="../../d9/d68/classGame.html#a0e1cea8628860de4685a25bc8a37c5b8">Game::Game</a></div><div class="ttdeci">Game(QObject *parent, bool isLocalGame, QList&lt; AbstractClient * &gt; &amp;_clients, const Event_GameJoined &amp;event, const QMap&lt; int, QString &gt; &amp;_roomGameTypes)</div><div class="ttdef"><b>Definition</b> game.cpp:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

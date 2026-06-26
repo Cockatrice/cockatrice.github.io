@@ -1,8 +1,9 @@
 var classCardMenu =
 [
-    [ "CardMenu", "d8/d6d/classCardMenu.html#ac1cd2efccc8aed087c968092e815dd2f", null ],
+    [ "CardMenu", "d8/d6d/classCardMenu.html#a10c381216ae94e4cbb073b9e9143193e", null ],
     [ "addRelatedCardActions", "d8/d6d/classCardMenu.html#aeb960e68af7e87347f27aebce235e8db", null ],
     [ "addRelatedCardView", "d8/d6d/classCardMenu.html#a5f31a2e834fcfd2fc0384631f3dfdb3f", null ],
+    [ "cardInfoRequested", "d8/d6d/classCardMenu.html#a41838991888d9aef9c203fb42584f17c", null ],
     [ "createGraveyardOrExileMenu", "d8/d6d/classCardMenu.html#a1c762ac61890856d5c4a8cb370b7a363", null ],
     [ "createHandOrCustomZoneMenu", "d8/d6d/classCardMenu.html#a7bbed70edefca75a858e5c31ef6daeba", null ],
     [ "createStackMenu", "d8/d6d/classCardMenu.html#abcbce46d1bf913558f75dddb6924723b", null ],
@@ -34,7 +35,7 @@ var classCardMenu =
     [ "aUnattach", "d8/d6d/classCardMenu.html#a460dddebdc9a18a2c2b072f48d2a29b0", null ],
     [ "card", "d8/d6d/classCardMenu.html#ad907c34a7883226bbac21dea5cc30e74", null ],
     [ "mCardCounters", "d8/d6d/classCardMenu.html#aff83d485bf31366b49fbc65e441bacad", null ],
-    [ "player", "d8/d6d/classCardMenu.html#a770c97e3be9ea1ff750c608d945c9738", null ],
+    [ "player", "d8/d6d/classCardMenu.html#a8450bc31df4c9aaad30e20d0dcb6c974", null ],
     [ "playersInfo", "d8/d6d/classCardMenu.html#ae49e72cca172bc2eb7f2720c9f7caf82", null ],
     [ "shortcutsActive", "d8/d6d/classCardMenu.html#a94cfd2f3118cde53e9633d53e389289b", null ]
 ];

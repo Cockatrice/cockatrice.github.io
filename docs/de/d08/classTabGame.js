@@ -73,7 +73,7 @@ var classTabGame =
     [ "retranslateUi", "de/d08/classTabGame.html#a5be706a6530029b3666d537567045f34", null ],
     [ "setActivePhase", "de/d08/classTabGame.html#acceda2afba1d486dc948855de82161cb", null ],
     [ "setActivePlayer", "de/d08/classTabGame.html#af9c58852a23a7e949f835c0e34f73a39", null ],
-    [ "setCardMenu", "de/d08/classTabGame.html#a6164d1f31ddfd4553436529002178dc6", null ],
+    [ "setCardMenu", "de/d08/classTabGame.html#a18ff7fe4c2a2ee7bc9e6119c813d9d9f", null ],
     [ "startGame", "de/d08/classTabGame.html#a1ef95d71105fcc7ce6fa8da147bd4dda", null ],
     [ "stopGame", "de/d08/classTabGame.html#a42b5afe25a30450d6124844895d6e3ed", null ],
     [ "turnAdvanced", "de/d08/classTabGame.html#ac2b08a1ba1a678af9c9182b8f385dd85", null ],
