@@ -1,5 +1,9 @@
 var NAVTREEINDEX29 =
 {
+"d7/dbc/classPrintingSelector.html#a7c2b2d6ba291f44bced93b36466270e9":[4,1,0,369,21],
+"d7/dbc/classPrintingSelector.html#a7f95bda85395a91665d5254d68681d05":[4,1,0,369,1],
+"d7/dbc/classPrintingSelector.html#a812b9a1868793faca7d60680af475e36":[4,1,0,369,15],
+"d7/dbc/classPrintingSelector.html#a8192e425977c04f6b26d34f79138ca3f":[4,1,0,369,18],
 "d7/dbc/classPrintingSelector.html#a89c2d3479e70eee7311b93b92c88ff7e":[4,1,0,369,7],
 "d7/dbc/classPrintingSelector.html#a907ce0d014526e46f1b8e4fcc6cae71c":[4,1,0,369,25],
 "d7/dbc/classPrintingSelector.html#ab6d8607519ea0250bea869add24d18e0":[4,1,0,369,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX29 =
 "d8/d12/classCardOverrideSettings.html#adb7398fdd9e58b627241facfc22c2c4d":[4,1,0,87,2],
 "d8/d13/tab__home_8cpp.html":[4,2,0,0,1,5,4,11,17],
 "d8/d16/unzip__p_8h.html":[4,2,0,12,0,2,2],
-"d8/d16/unzip__p_8h.html#a396bd2cacddb96b42c76830a7a7ce54c":[4,2,0,12,0,2,2,1],
-"d8/d16/unzip__p_8h_source.html":[4,2,0,12,0,2,2],
-"d8/d18/tabbed__deck__view__container_8cpp.html":[4,2,0,0,1,3,1,4],
-"d8/d19/servatrice__database__interface_8cpp.html":[4,2,0,13,0,11],
-"d8/d19/servatrice__database__interface_8cpp.html#a5261bf95f926dbea4a715d3f599b8df6":[4,2,0,13,0,11,0]
+"d8/d16/unzip__p_8h.html#a396bd2cacddb96b42c76830a7a7ce54c":[4,2,0,12,0,2,2,1]
 };

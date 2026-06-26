@@ -1,11 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"db/d5d/classTabArchidekt.html#ad39badaeb99800f5328f89d1cffb0d34":[4,1,0,478,52],
-"db/d5d/classTabArchidekt.html#ad53ddc422871d57001ca2ef1f5dcc5c4":[4,1,0,478,28],
-"db/d5d/classTabArchidekt.html#ad6712177ac25124485635d2f5fa2ce4b":[4,1,0,478,15],
-"db/d5d/classTabArchidekt.html#adda4d061c5a29f6ca507c763b4144bdd":[4,1,0,478,0],
-"db/d5d/classTabArchidekt.html#ae26f9fd7e548e450648ff68ec5255297":[4,1,0,478,29],
-"db/d5d/classTabArchidekt.html#af896049a6d7de951e51b180b3916d549":[4,1,0,478,10],
 "db/d5d/classTabArchidekt.html#aff479defa71d268e3238f6d336174b3a":[4,1,0,478,6],
 "db/d5d/user__list__proxy_8h.html":[3,1,10],
 "db/d5f/classDlgSettings.html":[4,1,0,186],
@@ -249,5 +243,11 @@ var NAVTREEINDEX44 =
 "db/da4/classFilterString.html#af247ed5a2cca402ecd3cb529dc351917":[4,1,0,235,4],
 "db/da4/user__level_8h.html":[4,2,0,7,0,0,1,1,19],
 "db/da4/user__level_8h_source.html":[4,2,0,7,0,0,1,1,19],
-"db/da5/archidekt__api__response__deck__listing__container_8cpp.html":[4,2,0,0,1,5,4,11,0,0,0,2,0]
+"db/da5/archidekt__api__response__deck__listing__container_8cpp.html":[4,2,0,0,1,5,4,11,0,0,0,2,0],
+"db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html":[4,0,0,4,0],
+"db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html":[4,1,0,2,0],
+"db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html#a420d4cbf01f9139f0b0275f2f22e6985":[4,0,0,4,0,2],
+"db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html#a420d4cbf01f9139f0b0275f2f22e6985":[4,1,0,2,0,2],
+"db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html#a66faf62d1880847ff42ad7dc4b9269de":[4,0,0,4,0,1],
+"db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html#a66faf62d1880847ff42ad7dc4b9269de":[4,1,0,2,0,1]
 };

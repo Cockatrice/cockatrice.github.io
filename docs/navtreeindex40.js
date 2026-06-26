@@ -1,11 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"da/d8d/classCardDatabaseDisplayModel.html#a1b31acc45e070d08d650e37b5690630f":[4,1,0,64,12],
-"da/d8d/classCardDatabaseDisplayModel.html#a1d72f9b98f0e98dc783777e1329b959a":[4,1,0,64,0],
-"da/d8d/classCardDatabaseDisplayModel.html#a1d72f9b98f0e98dc783777e1329b959aa07e44ef6c9b2d36f8b15f49f050336ac":[4,1,0,64,0,0],
-"da/d8d/classCardDatabaseDisplayModel.html#a1d72f9b98f0e98dc783777e1329b959aa887bd6f98ae1b6c6929018812dad33ef":[4,1,0,64,0,2],
-"da/d8d/classCardDatabaseDisplayModel.html#a1d72f9b98f0e98dc783777e1329b959aac945bef6cba13953125d38976d811101":[4,1,0,64,0,1],
-"da/d8d/classCardDatabaseDisplayModel.html#a24512008235ce1ab58ed5933daa6a653":[4,1,0,64,3],
 "da/d8d/classCardDatabaseDisplayModel.html#a28afea38aa397d13e513c26bf0541b1b":[4,1,0,64,26],
 "da/d8d/classCardDatabaseDisplayModel.html#a2a80e3f7a355244d16fc3701c30ee941":[4,1,0,64,1],
 "da/d8d/classCardDatabaseDisplayModel.html#a2fb28cf05d480d3e7a75b6f5c0d72aa9":[4,1,0,64,9],
@@ -249,5 +243,11 @@ var NAVTREEINDEX40 =
 "da/dbd/classGamesModel.html#aedfde34eb51fc59ff069b1f4d1372f42":[4,1,0,254,14],
 "da/dc4/classEdhrecTopCardsApiResponse.html":[4,1,0,218],
 "da/dc4/classEdhrecTopCardsApiResponse.html#a6dfd0bcd1f569a911caf171e836fc611":[4,1,0,218,0],
-"da/dc4/classEdhrecTopCardsApiResponse.html#a71f36272c9633c00fa848b8690273c95":[4,1,0,218,4]
+"da/dc4/classEdhrecTopCardsApiResponse.html#a71f36272c9633c00fa848b8690273c95":[4,1,0,218,4],
+"da/dc4/classEdhrecTopCardsApiResponse.html#a8be4b0ef877ea065ec3c532d316abc13":[4,1,0,218,3],
+"da/dc4/classEdhrecTopCardsApiResponse.html#ac1ed82746ce32d9b2f20547bb998823e":[4,1,0,218,2],
+"da/dc4/classEdhrecTopCardsApiResponse.html#ae1b035d9eafe994976c524261f39e8ec":[4,1,0,218,1],
+"da/dc7/classTipsOfTheDay.html":[4,1,0,505],
+"da/dc7/classTipsOfTheDay.html#a1c26ac375bbc22d08d64b15e2f108e60":[4,1,0,505,4],
+"da/dc7/classTipsOfTheDay.html#a22715051ed846ffd7099afcc37c27ac9":[4,1,0,505,2]
 };

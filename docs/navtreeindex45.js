@@ -1,11 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html":[4,0,0,4,0],
-"db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html":[4,1,0,2,0],
-"db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html#a420d4cbf01f9139f0b0275f2f22e6985":[4,0,0,4,0,2],
-"db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html#a420d4cbf01f9139f0b0275f2f22e6985":[4,1,0,2,0,2],
-"db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html#a66faf62d1880847ff42ad7dc4b9269de":[4,0,0,4,0,1],
-"db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html#a66faf62d1880847ff42ad7dc4b9269de":[4,1,0,2,0,1],
 "db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html#afd93999559bc005f20910cabe21ff9fa":[4,0,0,4,0,0],
 "db/da5/structCardPictureLoaderLocalSchemes_1_1NamingSchemeInfo.html#afd93999559bc005f20910cabe21ff9fa":[4,1,0,2,0,0],
 "db/da6/structPhases.html":[4,1,0,348],
@@ -249,5 +243,11 @@ var NAVTREEINDEX45 =
 "db/de0/classpeg_1_1CharacterClass.html#a38b0bf2c5688f229d09db0aee3b89857":[4,0,0,15,23,13],
 "db/de0/classpeg_1_1CharacterClass.html#a38b0bf2c5688f229d09db0aee3b89857":[4,1,0,3,22,13],
 "db/de0/classpeg_1_1CharacterClass.html#a4c16c8d905cec0269f9a784c9649c611":[4,0,0,15,23,0],
-"db/de0/classpeg_1_1CharacterClass.html#a4c16c8d905cec0269f9a784c9649c611":[4,1,0,3,22,0]
+"db/de0/classpeg_1_1CharacterClass.html#a4c16c8d905cec0269f9a784c9649c611":[4,1,0,3,22,0],
+"db/de0/classpeg_1_1CharacterClass.html#a5803f91a8431094a892584eb94feddab":[4,0,0,15,23,7],
+"db/de0/classpeg_1_1CharacterClass.html#a5803f91a8431094a892584eb94feddab":[4,1,0,3,22,7],
+"db/de0/classpeg_1_1CharacterClass.html#a63475952b6c6510bde556e272a84b62a":[4,0,0,15,23,6],
+"db/de0/classpeg_1_1CharacterClass.html#a63475952b6c6510bde556e272a84b62a":[4,1,0,3,22,6],
+"db/de0/classpeg_1_1CharacterClass.html#a6ccc045ab9911e099b85b39b5dfab19c":[4,0,0,15,23,4],
+"db/de0/classpeg_1_1CharacterClass.html#a6ccc045ab9911e099b85b39b5dfab19c":[4,1,0,3,22,4]
 };

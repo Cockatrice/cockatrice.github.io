@@ -1,5 +1,9 @@
 var NAVTREEINDEX26 =
 {
+"d6/dd1/classDlgForgotPasswordChallenge.html#a8dfc3b8780ccebf3385da53456a0431d":[4,1,0,174,10],
+"d6/dd1/classDlgForgotPasswordChallenge.html#a954621918a9b248d3ba61364ab4fd55d":[4,1,0,174,2],
+"d6/dd1/classDlgForgotPasswordChallenge.html#a9c9a98531d54fcf7f21de17dcdf9b150":[4,1,0,174,7],
+"d6/dd1/classDlgForgotPasswordChallenge.html#ab52148b8ae27c42770e68e47a3e400f8":[4,1,0,174,11],
 "d6/dd1/classDlgForgotPasswordChallenge.html#ac8420c6aa10b95ab7fa17257da9ef3e3":[4,1,0,174,0],
 "d6/dd1/classDlgForgotPasswordChallenge.html#ad16f1c2c199b5799d8ffcae2a87a15f2":[4,1,0,174,9],
 "d6/dd1/classDlgForgotPasswordChallenge.html#adad17c20b0fbcc82f6bee0c4890ae822":[4,1,0,174,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX26 =
 "d7/d20/tab__game_8h.html":[3,1,0,1,6],
 "d7/d20/tab__game_8h.html":[3,1,0,7,3],
 "d7/d20/tab__game_8h.html":[3,4,0,1,3],
-"d7/d23/classPhasesToolbar.html":[4,1,0,349],
-"d7/d23/classPhasesToolbar.html#a3165c0920f66ce5758daffdf618698ee":[4,1,0,349,24],
-"d7/d23/classPhasesToolbar.html#a327b9dbe9d0447401656de97bb1590a8":[4,1,0,349,19],
-"d7/d23/classPhasesToolbar.html#a331167d375779464f696e24389f1b84d":[4,1,0,349,22],
-"d7/d23/classPhasesToolbar.html#a3fe9546670ae177bca09b141c0d059ff":[4,1,0,349,14]
+"d7/d23/classPhasesToolbar.html":[4,1,0,349]
 };

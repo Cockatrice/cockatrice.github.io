@@ -1,5 +1,9 @@
 var NAVTREEINDEX23 =
 {
+"d6/d1a/classMainWindow.html#a342f1c051fd85a21d4b6f88aae1d799c":[4,1,0,296,16],
+"d6/d1a/classMainWindow.html#a3984e9d945bb4b2b8b612225e4ee69b4":[4,1,0,296,77],
+"d6/d1a/classMainWindow.html#a3cce2b6a9c8894036d4145362a52f13e":[4,1,0,296,29],
+"d6/d1a/classMainWindow.html#a3f4bce98392c8ca410a64bf01b6471cd":[4,1,0,296,4],
 "d6/d1a/classMainWindow.html#a40b5f95558842b9b3a834c3f39849166":[4,1,0,296,18],
 "d6/d1a/classMainWindow.html#a40eb18227dca52851a7fd47a2e862e6d":[4,1,0,296,85],
 "d6/d1a/classMainWindow.html#a416ae2140ac1aa9f03a6279316abdcad":[4,1,0,296,31],
@@ -245,9 +249,5 @@ var NAVTREEINDEX23 =
 "d6/d5f/classDialogConvertDeckToCodFormat.html#aedaa0d62aa67669e532b66698d841e85":[4,1,0,163,3],
 "d6/d64/classPrintingDisabledInfoWidget.html":[4,1,0,367],
 "d6/d64/classPrintingDisabledInfoWidget.html#a15ef0f89b26cd2bfc09929d056aa5c65":[4,1,0,367,4],
-"d6/d64/classPrintingDisabledInfoWidget.html#a5a4834a6e0f4be2a8e80990e7bcd86d5":[4,1,0,367,0],
-"d6/d64/classPrintingDisabledInfoWidget.html#a7cb61945b2b3299d4fc9fc77c4046379":[4,1,0,367,3],
-"d6/d64/classPrintingDisabledInfoWidget.html#ad5bbdd210fe61502757f2626ba3da3d7":[4,1,0,367,2],
-"d6/d64/classPrintingDisabledInfoWidget.html#ad9e82979e95e560a7e4b2aa72845d9a7":[4,1,0,367,1],
-"d6/d64/structpeg_1_1ParserGenerator_1_1Instruction.html":[4,0,0,15,55,1]
+"d6/d64/classPrintingDisabledInfoWidget.html#a5a4834a6e0f4be2a8e80990e7bcd86d5":[4,1,0,367,0]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX17 =
 {
+"d5/d07/classReplayTimelineWidget.html#aeecd6e0bd4142cfc728aa72dadebd23c":[4,1,0,398,1],
+"d5/d07/classReplayTimelineWidget.html#af7ea8935fe5f56467e17f773e1a26385":[4,1,0,398,8],
+"d5/d08/sideboard__menu_8cpp.html":[4,2,0,0,1,3,4,0,21],
+"d5/d0c/printing__info_8cpp.html":[4,2,0,2,0,0,3,2],
 "d5/d0e/classServatrice.html":[4,1,0,414],
 "d5/d0e/classServatrice.html#a0015f412f40870b6f435727e72a34b9f":[4,1,0,414,34],
 "d5/d0e/classServatrice.html#a0201ff028f10e23671941fddef338323":[4,1,0,414,48],
@@ -245,9 +249,5 @@ var NAVTREEINDEX17 =
 "d5/d45/classCardDatabase.html#a03b65551376df53526a834ace1b7e844":[3,2,4,4,6],
 "d5/d45/classCardDatabase.html#a0620fe9132b26b82d30d5ed3410f31d2":[3,2,4,4,15],
 "d5/d45/classCardDatabase.html#a0b72c76e38c459b44f3aa76340875897":[3,2,4,4,25],
-"d5/d45/classCardDatabase.html#a0def74208b0f26956b33b314160f4c2a":[3,2,4,4,27],
-"d5/d45/classCardDatabase.html#a1d55d0010c36734450367a71715ba22c":[3,2,4,4,30],
-"d5/d45/classCardDatabase.html#a1eb7590a33df0f848f67562dbc179187":[3,2,4,4,10],
-"d5/d45/classCardDatabase.html#a29d5784f18ae980cc52c56a53ae831ca":[3,2,4,4,37],
-"d5/d45/classCardDatabase.html#a359da0943870a290d4f3aa13a38decb4":[3,2,4,4,21]
+"d5/d45/classCardDatabase.html#a0def74208b0f26956b33b314160f4c2a":[3,2,4,4,27]
 };

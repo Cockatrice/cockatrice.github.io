@@ -1,5 +1,9 @@
 var NAVTREEINDEX35 =
 {
+"d9/d77/decompress_8h.html":[4,2,0,12,0,0,1],
+"d9/d77/decompress_8h_source.html":[4,2,0,12,0,0,1],
+"d9/d77/group__UI.html":[3,1],
+"d9/d79/analytics__panel__widget__factory_8h.html":[4,2,0,0,1,5,4,1,6],
 "d9/d79/analytics__panel__widget__factory_8h_source.html":[4,2,0,0,1,5,4,1,6],
 "d9/d7a/group__Messages.html":[3,5,0],
 "d9/d7d/card__picture__loader_8h.html":[4,2,0,0,1,5,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX35 =
 "d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#ae7443abd071dabe45cf58b377c92c899":[4,1,0,34,14],
 "d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#afc2e47fb6c7110ea13be1d16872220bc":[4,1,0,34,17],
 "d9/dcc/classSpoilerBackgroundUpdater.html":[4,1,0,470],
-"d9/dcc/classSpoilerBackgroundUpdater.html#a11efd8948a5489130c659cd240227176":[4,1,0,470,7],
-"d9/dcc/classSpoilerBackgroundUpdater.html#a330ea967a53d0d363753a66a7046fc7b":[4,1,0,470,3],
-"d9/dcc/classSpoilerBackgroundUpdater.html#a389af5c0f97839f5d739dcd945cd379b":[4,1,0,470,13],
-"d9/dcc/classSpoilerBackgroundUpdater.html#a555a891ad2d3346bfdc5fedfb53f42a5":[4,1,0,470,8],
-"d9/dcc/classSpoilerBackgroundUpdater.html#a603c0ca9ad5f6d8f0416777ddd2393a5":[4,1,0,470,9]
+"d9/dcc/classSpoilerBackgroundUpdater.html#a11efd8948a5489130c659cd240227176":[4,1,0,470,7]
 };
