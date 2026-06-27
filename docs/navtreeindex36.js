@@ -1,5 +1,9 @@
 var NAVTREEINDEX36 =
 {
+"d9/da1/classDrawProbabilityConfigDialog.html#aacf3e5065cf108835f919445620a59fa":[4,1,0,196,4],
+"d9/da1/classDrawProbabilityConfigDialog.html#ad19dfbf6d435f4a5da7d0af905a2a134":[4,1,0,196,11],
+"d9/da1/classDrawProbabilityConfigDialog.html#aeb6abecdda90875618c30e9c00699685":[4,1,0,196,8],
+"d9/da1/classDrawProbabilityConfigDialog.html#af3fa3b1d15ad0e3c6a9c4585f51c7ca3":[4,1,0,196,5],
 "d9/da1/classDrawProbabilityConfigDialog.html#af95b45ff48f1de1311c2021633c5d355":[4,1,0,196,14],
 "d9/da2/edhrec__deck__api__response_8h.html":[3,3,2,2,2,0,1],
 "d9/da2/edhrec__deck__api__response_8h.html":[3,3,2,3,0,0,1],
@@ -244,10 +248,6 @@ var NAVTREEINDEX36 =
 "d9/dd5/group__AccountDialogs.html":[3,1,0,9,0,3],
 "d9/dd5/group__AccountDialogs.html":[3,5,1,1,0,3],
 "d9/dd6/structCardArtRulesModel_1_1Entry.html":[4,1,0,62,0],
-"d9/dd6/structCardArtRulesModel_1_1Entry.html#a03fe33180ee44ad0b8b10f42c61ea55e":[4,1,0,62,0,2],
-"d9/dd6/structCardArtRulesModel_1_1Entry.html#a0e0be49344797c9f895cd4216b9c4b69":[4,1,0,62,0,0],
-"d9/dd6/structCardArtRulesModel_1_1Entry.html#a80fb55900ee5336a9a89805b332b9390":[4,1,0,62,0,1],
-"d9/dd7/classDlgStartupCardCheck.html":[4,1,0,190],
-"d9/dd7/classDlgStartupCardCheck.html#a0b16ee956ca868505861d3a3f8edde6d":[4,1,0,190,9],
-"d9/dd7/classDlgStartupCardCheck.html#a12168d9564b316d505c6ffd6cdddfa33":[4,1,0,190,7]
+"d9/dd6/structCardArtRulesModel_1_1Entry.html#a03fe33180ee44ad0b8b10f42c61ea55e":[4,1,0,62,0,3],
+"d9/dd6/structCardArtRulesModel_1_1Entry.html#a0ca859f26f67457799afd552b86242b9":[4,1,0,62,0,1]
 };

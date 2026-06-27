@@ -1,5 +1,9 @@
 var NAVTREEINDEX21 =
 {
+"d5/d88/classSettingsCache.html#aebfc75cab9857311d7d123afa000b4e3":[4,1,0,453,543],
+"d5/d88/classSettingsCache.html#aec719f53493def27ef4a91ba204024ef":[4,1,0,453,129],
+"d5/d88/classSettingsCache.html#aecb4e264f77558554e192cf42b8ee817":[4,1,0,453,336],
+"d5/d88/classSettingsCache.html#aeccf07448d5ef709323804588065c1cd":[4,1,0,453,190],
 "d5/d88/classSettingsCache.html#aed8347665f4bae8424d5877fc5e923bb":[4,1,0,453,311],
 "d5/d88/classSettingsCache.html#aee5c15eb54cc6fd387b4434b5b0d92f8":[4,1,0,453,445],
 "d5/d88/classSettingsCache.html#aee9fc37ad7c0beecc241ebcce9dca59c":[4,1,0,453,269],
@@ -245,9 +249,5 @@ var NAVTREEINDEX21 =
 "d5/db4/classQxtMailAttachment.html#afb17b5f1402b302973c29adb74a40852":[4,1,0,385,21],
 "d5/db4/game__scene_8cpp.html":[4,2,0,0,1,4,7],
 "d5/db7/classOverlapControlWidget.html":[4,1,0,336],
-"d5/db7/classOverlapControlWidget.html#a00f48a4c84e9d5cfb08f257a3d5953b2":[4,1,0,336,0],
-"d5/db7/classOverlapControlWidget.html#a40f58600d2d0b1b9cfecd547adf84579":[4,1,0,336,2],
-"d5/db7/classOverlapControlWidget.html#a42bfb055cd41c79c8d06430fd4aaab50":[4,1,0,336,5],
-"d5/db7/classOverlapControlWidget.html#a5b9cd91be029bdcb9f31cb893ff4c1a2":[4,1,0,336,7],
-"d5/db7/classOverlapControlWidget.html#a80a43e8875a0c56c9a337d0ea19705e6":[4,1,0,336,1]
+"d5/db7/classOverlapControlWidget.html#a00f48a4c84e9d5cfb08f257a3d5953b2":[4,1,0,336,0]
 };

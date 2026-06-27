@@ -1,5 +1,9 @@
 var NAVTREEINDEX35 =
 {
+"d9/d4f/logging.html#logging-configuration":[0,1,0,2],
+"d9/d4f/logging.html#logging-setup":[0,1,0,3],
+"d9/d51/card__set__list_8cpp.html":[4,2,0,2,0,0,5,3],
+"d9/d51/custom__line__edit_8cpp.html":[4,2,0,0,1,5,4,12,2],
 "d9/d53/exact__card_8cpp.html":[4,2,0,2,0,0,3,0],
 "d9/d54/abstract__card__drag__item_8h.html":[3,4,0,4,2,0],
 "d9/d59/visual__deck__storage__widget_8cpp.html":[4,2,0,0,1,5,4,15,11],
@@ -132,8 +136,8 @@ var NAVTREEINDEX35 =
 "d9/d69/tab__room_8h.html":[3,1,0,1,1,2,0],
 "d9/d69/tab__room_8h.html":[3,1,0,9,1,2,0],
 "d9/d69/tab__room_8h.html":[3,1,0,10,0,0],
-"d9/d69/tab__room_8h.html":[3,5,1,1,1,2,0],
 "d9/d69/tab__room_8h.html":[3,5,1,3,0,0],
+"d9/d69/tab__room_8h.html":[3,5,1,1,1,2,0],
 "d9/d6d/deck__view__container_8cpp.html":[4,2,0,0,1,4,1,2],
 "d9/d6d/deck__view__container_8cpp.html#abe1eaa29ce7c3b369c455805e01403f3":[4,2,0,0,1,4,1,2,0],
 "d9/d6e/classLogicMap.html":[4,1,0,297],
@@ -245,9 +249,5 @@ var NAVTREEINDEX35 =
 "d9/da1/classDrawProbabilityConfigDialog.html#a6267bb2c7ee3a696b959ddd5e8163c3c":[4,1,0,196,2],
 "d9/da1/classDrawProbabilityConfigDialog.html#a8c6302d83e738808a57c1d46ea6e4817":[4,1,0,196,12],
 "d9/da1/classDrawProbabilityConfigDialog.html#a8f4fd7b44044961a9c1ea590ae923a5e":[4,1,0,196,7],
-"d9/da1/classDrawProbabilityConfigDialog.html#a9787073570cedf9c77d221f1e72a9aa0":[4,1,0,196,3],
-"d9/da1/classDrawProbabilityConfigDialog.html#aacf3e5065cf108835f919445620a59fa":[4,1,0,196,4],
-"d9/da1/classDrawProbabilityConfigDialog.html#ad19dfbf6d435f4a5da7d0af905a2a134":[4,1,0,196,11],
-"d9/da1/classDrawProbabilityConfigDialog.html#aeb6abecdda90875618c30e9c00699685":[4,1,0,196,8],
-"d9/da1/classDrawProbabilityConfigDialog.html#af3fa3b1d15ad0e3c6a9c4585f51c7ca3":[4,1,0,196,5]
+"d9/da1/classDrawProbabilityConfigDialog.html#a9787073570cedf9c77d221f1e72a9aa0":[4,1,0,196,3]
 };

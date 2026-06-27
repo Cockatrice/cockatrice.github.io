@@ -1,5 +1,9 @@
 var NAVTREEINDEX24 =
 {
+"d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa5130639d8ec84e4b578864a7c6bc2693":[3,2,1,1,0,1],
+"d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa6028c953f8ac0fb77178b25fd915897a":[3,2,1,1,0,0],
+"d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa7c5bae467c8ee755d632f948860a0e0a":[3,2,1,1,0,3],
+"d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fab4eaac9b9e7568cc5b5775dd6a8108eb":[3,2,1,1,0,2],
 "d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fadce4ed2df134165537be91ddfbb5bdfa":[3,2,1,1,0,5],
 "d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fae37b3629c6539e06ef68c5d93664027c":[3,2,1,1,0,4],
 "d6/d3d/classCardSet.html#ad03e76c9ff4ce7669d0454525afd1d16":[3,2,1,1,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX24 =
 "d6/d85/structQxtMailMessagePrivate.html#ae0915964b3ff04c0e519d1296676f859":[4,1,0,388,6],
 "d6/d85/structQxtMailMessagePrivate.html#aea674d61ebec8764d6d8ec62fbdb23f2":[4,1,0,388,5],
 "d6/d8b/user_reference.html":[0,0],
-"d6/d8b/user_reference.html#deck-management":[0],
-"d6/d8b/user_reference.html#release-channels":[1],
-"d6/d8b/user_reference.html#syntax-help":[2],
-"d6/d8c/zip_8cpp.html":[4,2,0,12,0,2,3],
-"d6/d8c/zip_8cpp.html#a0008e01473ea8142ceeb2bfde7566d7a":[4,2,0,12,0,2,3,9]
+"d6/d8b/user_reference.html#deck-management":[0]
 };

@@ -339,7 +339,7 @@ var searchData=
   ['cardprices_336',['CardPrices',['../d3/dab/classCardPrices.html',1,'CardPrices'],['../d3/dab/classCardPrices.html#ae90bee4451a8fdb89d297d7a7029c0ae',1,'CardPrices::CardPrices()']]],
   ['cardprices_337',['cardPrices',['../d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a2c2ab456f63d162a191e08fedffd4251',1,'EdhrecApiResponseCardPricesDisplayWidget']]],
   ['cardpricesdisplaywidget_338',['cardPricesDisplayWidget',['../d0/dd1/classEdhrecCommanderResponseCommanderDetailsDisplayWidget.html#acecc271d514e0e766a7ec281f98afb41',1,'EdhrecCommanderResponseCommanderDetailsDisplayWidget']]],
-  ['cardproviderid_339',['cardProviderId',['../d5/d22/classDecklistCardNode.html#aacbd95b7ec3604488c9e3af05f4646f5',1,'DecklistCardNode']]],
+  ['cardproviderid_339',['cardProviderId',['../dd/d52/structCardArtParams.html#aba5576d7a42eff0950bc3c10eecc8aa6',1,'CardArtParams::cardProviderId'],['../d9/dd6/structCardArtRulesModel_1_1Entry.html#a0ca859f26f67457799afd552b86242b9',1,'CardArtRulesModel::Entry::cardProviderId'],['../d5/d22/classDecklistCardNode.html#aacbd95b7ec3604488c9e3af05f4646f5',1,'DecklistCardNode::cardProviderId']]],
   ['cardproxymodel_340',['cardProxyModel',['../da/de8/classTabCardArtRules.html#a2521e1cd2a7d00f077c46166f1eaa84c',1,'TabCardArtRules']]],
   ['cardref_341',['CardRef',['../d1/d66/structCardRef.html',1,'']]],
   ['cardref_342',['cardRef',['../d4/db9/classAbstractCardItem.html#a210502dbe2ddc3b8832ccbd95365f4cf',1,'AbstractCardItem::cardRef'],['../dc/d07/classServer__Card.html#a59287efaefff9ec28261d1800c08096d',1,'Server_Card::cardRef']]],

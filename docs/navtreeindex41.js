@@ -1,5 +1,10 @@
 var NAVTREEINDEX41 =
 {
+"da/d99/classServer__AbstractPlayer.html#a80ef691f143b7dee2bc8f3987319e284":[4,1,0,427,41],
+"da/d99/classServer__AbstractPlayer.html#a8108e92a46e86ca5097b5dfb49351089":[4,1,0,427,44],
+"da/d99/classServer__AbstractPlayer.html#a85f492ba6aa393275986fdd3e82e504a":[4,1,0,427,27],
+"da/d99/classServer__AbstractPlayer.html#a8d51eb4a425121c34e02360fa44c6b4a":[4,1,0,427,36],
+"da/d99/classServer__AbstractPlayer.html#a9064bd54618f3ddaad2e60ff4f43125e":[4,1,0,427,7],
 "da/d99/classServer__AbstractPlayer.html#a9123f3b066d6661e4f5a923c32cebaf2":[4,1,0,427,31],
 "da/d99/classServer__AbstractPlayer.html#aa0ad185c446e6637781f697169ac9283":[4,1,0,427,24],
 "da/d99/classServer__AbstractPlayer.html#aa3d5e50caff5f6e93e7dd98be9773c6b":[4,1,0,427,6],
@@ -19,8 +24,8 @@ var NAVTREEINDEX41 =
 "da/d99/classServer__AbstractPlayer.html#aec16950f506fd0e79497295e9e2a8a57":[4,1,0,427,5],
 "da/d99/classServer__AbstractPlayer.html#af0737d399b084952c2ec0f36c8fdd0b1":[4,1,0,427,21],
 "da/d99/classServer__AbstractPlayer.html#af2f778ecf1b5840a683930d4d576d8aa":[4,1,0,427,26],
-"da/d9d/edhrec__top__tags__api__response_8h.html":[3,3,2,2,2,0,9],
 "da/d9d/edhrec__top__tags__api__response_8h.html":[3,3,2,3,0,0,9],
+"da/d9d/edhrec__top__tags__api__response_8h.html":[3,3,2,2,2,0,9],
 "da/d9d/edhrec__top__tags__api__response_8h.html":[3,5,1,0,0,9],
 "da/d9e/player__area_8h.html":[3,4,0,4,0,4],
 "da/da0/classHandCounter.html":[4,1,0,264],
@@ -244,10 +249,5 @@ var NAVTREEINDEX41 =
 "da/ddf/structpeg_1_1TraversalVisitor.html#ab556201c50d16952717dbe812339adbb":[4,1,0,3,38,17],
 "da/ddf/structpeg_1_1TraversalVisitor.html#ab8cbd5c8d2101d30a80835a0ed492eba":[4,0,0,15,39,6],
 "da/ddf/structpeg_1_1TraversalVisitor.html#ab8cbd5c8d2101d30a80835a0ed492eba":[4,1,0,3,38,6],
-"da/ddf/structpeg_1_1TraversalVisitor.html#ad011b4166cbb9dbf5c8f5523adee920e":[4,0,0,15,39,4],
-"da/ddf/structpeg_1_1TraversalVisitor.html#ad011b4166cbb9dbf5c8f5523adee920e":[4,1,0,3,38,4],
-"da/ddf/structpeg_1_1TraversalVisitor.html#ad83702d93ee7f6d0e03be5c472b5c19d":[4,0,0,15,39,0],
-"da/ddf/structpeg_1_1TraversalVisitor.html#ad83702d93ee7f6d0e03be5c472b5c19d":[4,1,0,3,38,0],
-"da/ddf/structpeg_1_1TraversalVisitor.html#add683fb4926e3c682592d9fc15fc0c0a":[4,0,0,15,39,18],
-"da/ddf/structpeg_1_1TraversalVisitor.html#add683fb4926e3c682592d9fc15fc0c0a":[4,1,0,3,38,18]
+"da/ddf/structpeg_1_1TraversalVisitor.html#ad011b4166cbb9dbf5c8f5523adee920e":[4,0,0,15,39,4]
 };

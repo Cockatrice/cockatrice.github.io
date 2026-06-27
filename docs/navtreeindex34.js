@@ -1,5 +1,9 @@
 var NAVTREEINDEX34 =
 {
+"d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6":[4,1,0,565,0],
+"d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6a064bd55ff4af08ebb31ebab570b05fed":[4,1,0,565,0,3],
+"d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6a089888e0edbc2cc216b0357b476b76f5":[4,1,0,565,0,11],
+"d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6a1e6897707f1e381d45c1557884156894":[4,1,0,565,0,7],
 "d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6a30e364b23e77c1b840ffcc23f865e624":[4,1,0,565,0,9],
 "d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6a5d8a11d040ce97fcb49bd25cf02df7c5":[4,1,0,565,0,6],
 "d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6a62cc3ef5a9c16b7c269c5a26a6b8282e":[4,1,0,565,0,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX34 =
 "d9/d47/edhrec__top__tags__api__response__display__widget_8cpp.html":[4,2,0,0,1,5,4,11,0,1,1,5,0],
 "d9/d4f/logging.html":[0,1,0],
 "d9/d4f/logging.html#log-level-and-categories":[0,1,0,1],
-"d9/d4f/logging.html#log-message-pattern":[0,1,0,0],
-"d9/d4f/logging.html#logging-configuration":[0,1,0,2],
-"d9/d4f/logging.html#logging-setup":[0,1,0,3],
-"d9/d51/card__set__list_8cpp.html":[4,2,0,2,0,0,5,3],
-"d9/d51/custom__line__edit_8cpp.html":[4,2,0,0,1,5,4,12,2]
+"d9/d4f/logging.html#log-message-pattern":[0,1,0,0]
 };

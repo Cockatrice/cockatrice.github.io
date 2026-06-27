@@ -6,6 +6,7 @@ var classCardArtRulesModel =
     [ "clear", "df/db2/classCardArtRulesModel.html#abc9d08755e3947c02b8f88c80a9400c5", null ],
     [ "columnCount", "df/db2/classCardArtRulesModel.html#afebc9cdc1215a78cd1ff5a1e346c7339", null ],
     [ "data", "df/db2/classCardArtRulesModel.html#aa839fdae5e176e2f558bd4250d1d659a", null ],
+    [ "entryAt", "df/db2/classCardArtRulesModel.html#ab36fdf74921d0d72c7d9772b73d1fc9d", null ],
     [ "headerData", "df/db2/classCardArtRulesModel.html#a24a48c8ad2d084b40608e338db158518", null ],
     [ "onRefreshFinished", "df/db2/classCardArtRulesModel.html#a65338d1bfb109193e081eac4fdb547ee", null ],
     [ "refresh", "df/db2/classCardArtRulesModel.html#a5f16c6a65ed9f1426a1503e71e580d4b", null ],

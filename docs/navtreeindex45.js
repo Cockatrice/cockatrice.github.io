@@ -1,5 +1,12 @@
 var NAVTREEINDEX45 =
 {
+"db/d67/classLogger.html#a68c0d3e95a78e07978f131bd97b3b2d0":[4,1,0,296,20],
+"db/d67/classLogger.html#a6aa0432bffbc2abff42ba31de9b7fba4":[4,1,0,296,9],
+"db/d67/classLogger.html#a724e09b39b88c5a880f2405a260949cb":[4,1,0,296,21],
+"db/d67/classLogger.html#aa194c59c212c64f794631571c5270e3b":[4,1,0,296,14],
+"db/d67/classLogger.html#aa74312e7edcf3a5bcfd9ccba190b2621":[4,1,0,296,16],
+"db/d67/classLogger.html#aad38a42954355a3142e0f6fa0c3a44b1":[4,1,0,296,19],
+"db/d67/classLogger.html#ab324f46dcca8a02672dd4d66c395b9eb":[4,1,0,296,13],
 "db/d67/classLogger.html#abc41bfb031d896170c7675fa96a6b30c":[4,1,0,296,0],
 "db/d67/classLogger.html#abc7d371802ceb2154a5cfb9209a62551":[4,1,0,296,15],
 "db/d67/classLogger.html#ac36eb723b85f7205fb8eb50a006a33b2":[4,1,0,296,18],
@@ -211,7 +218,7 @@ var NAVTREEINDEX45 =
 "db/d9f/classGameScene.html#af76c5624ddfa0394ff4e4f97d36197ac":[3,4,0,4,10,50],
 "db/d9f/classGameScene.html#afae26fb9ea0229b1044bb34db29dae3e":[3,4,0,4,10,27],
 "db/da3/user__card__art__provider_8cpp.html":[4,2,0,0,1,5,4,9,2,2],
-"db/da3/user__card__art__provider_8cpp.html#ad251c57a1ff77911435b085f98d51834":[4,2,0,0,1,5,4,9,2,2,0],
+"db/da3/user__card__art__provider_8cpp.html#a1248f46ecd071de460918a4c9929b7cc":[4,2,0,0,1,5,4,9,2,2,0],
 "db/da4/classFilterString.html":[4,1,0,238],
 "db/da4/classFilterString.html#a32cdec29bee2b10535358ec8167c1db9":[4,1,0,238,1],
 "db/da4/classFilterString.html#a5141dd4ffca62002db131c5a1b16f3d8":[4,1,0,238,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX45 =
 "db/da9/structpeg_1_1ErrorInfo.html":[4,0,0,15,11],
 "db/da9/structpeg_1_1ErrorInfo.html":[4,1,0,3,10],
 "db/da9/structpeg_1_1ErrorInfo.html#a130d2a3096210e94e1a8252747b2694d":[4,0,0,15,11,7],
-"db/da9/structpeg_1_1ErrorInfo.html#a130d2a3096210e94e1a8252747b2694d":[4,1,0,3,10,7],
-"db/da9/structpeg_1_1ErrorInfo.html#a14bb07ce46d09b423f6b6418765471e4":[4,0,0,15,11,5],
-"db/da9/structpeg_1_1ErrorInfo.html#a14bb07ce46d09b423f6b6418765471e4":[4,1,0,3,10,5],
-"db/da9/structpeg_1_1ErrorInfo.html#a16c8b9c6c0e0d3d17d076cc9027eb4be":[4,0,0,15,11,2],
-"db/da9/structpeg_1_1ErrorInfo.html#a16c8b9c6c0e0d3d17d076cc9027eb4be":[4,1,0,3,10,2],
-"db/da9/structpeg_1_1ErrorInfo.html#a18ccf43b97ee8a7a58f02738455bc853":[4,0,0,15,11,12],
-"db/da9/structpeg_1_1ErrorInfo.html#a18ccf43b97ee8a7a58f02738455bc853":[4,1,0,3,10,12],
-"db/da9/structpeg_1_1ErrorInfo.html#a33a1eb52f71b79bd56188a3fb2ed51de":[4,0,0,15,11,1]
+"db/da9/structpeg_1_1ErrorInfo.html#a130d2a3096210e94e1a8252747b2694d":[4,1,0,3,10,7]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX55 =
 {
+"dd/dc3/classStorageSettingsPage.html#adcb3ee58f3ec24d40501489c544c7830":[4,1,0,479,4],
+"dd/dc3/classStorageSettingsPage.html#ae13149004ff901ba609f2adfece278d5":[4,1,0,479,18],
+"dd/dc3/classStorageSettingsPage.html#af8cedfb70a608020e2d7994b7017377d":[4,1,0,479,16],
+"dd/dc7/classUserListTWI.html":[4,1,0,534],
+"dd/dc7/classUserListTWI.html#a27c9aec5d8482bf5d32ffe22e5c6c6d1":[4,1,0,534,2],
+"dd/dc7/classUserListTWI.html#a2d5b8483375910220aa133cc565c13e0":[4,1,0,534,3],
+"dd/dc7/classUserListTWI.html#a3f1a82b948ac1c6a595164b49f7c6379":[4,1,0,534,5],
+"dd/dc7/classUserListTWI.html#adcbfc4d690e3a71eacf361b66bfc3958":[4,1,0,534,4],
 "dd/dc7/classUserListTWI.html#ae25e26425a54871cb6d2ec86e46438ff":[4,1,0,534,1],
 "dd/dc7/classUserListTWI.html#aeb83a00f25611300b45710f97b76bb53":[4,1,0,534,0],
 "dd/dd0/tab__server_8h.html":[3,1,0,1,1,0,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX55 =
 "dd/dea/classAbstractServerSocketInterface.html#a0dd27751872acff7ae75b0d0d50bd730":[4,1,0,17,73],
 "dd/dea/classAbstractServerSocketInterface.html#a108f2aeec6a9aa4cf7cc58903d5d4b50":[4,1,0,17,65],
 "dd/dea/classAbstractServerSocketInterface.html#a10e74ce5f266f400f2b36ca283828e0a":[4,1,0,17,40],
-"dd/dea/classAbstractServerSocketInterface.html#a1791b79436c9b0884e58cd33e81dd3ee":[4,1,0,17,15],
-"dd/dea/classAbstractServerSocketInterface.html#a1a58e52a1ee04bfd8385c7fd10ce0805":[4,1,0,17,28],
-"dd/dea/classAbstractServerSocketInterface.html#a1f56ca32a135e7410c364aef44992839":[4,1,0,17,16],
-"dd/dea/classAbstractServerSocketInterface.html#a2114c8f24adf64eff92c572a427cf457":[4,1,0,17,5],
-"dd/dea/classAbstractServerSocketInterface.html#a22e008ec7f06c1b2db1f341f5c98339f":[4,1,0,17,32],
-"dd/dea/classAbstractServerSocketInterface.html#a234a8b804690f2b4ae0fe7ce5512ee1d":[4,1,0,17,52],
-"dd/dea/classAbstractServerSocketInterface.html#a2881e8a438fb6795e20563c2f88c32f1":[4,1,0,17,19],
-"dd/dea/classAbstractServerSocketInterface.html#a29c754da1ce168d27eba08641eabd7fc":[4,1,0,17,13],
-"dd/dea/classAbstractServerSocketInterface.html#a2d217f9a6715028241e5c9b5829133c6":[4,1,0,17,23]
+"dd/dea/classAbstractServerSocketInterface.html#a1791b79436c9b0884e58cd33e81dd3ee":[4,1,0,17,15]
 };

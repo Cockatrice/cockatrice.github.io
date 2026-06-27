@@ -54,7 +54,7 @@ var searchData=
   ['makebtn_51',['makeBtn',['../d8/de8/user__info__popup_8cpp.html#a95d11f4568ebedf41ce7d41913700d09',1,'user_info_popup.cpp']]],
   ['makecolor_52',['makeColor',['../da/dec/color_8h.html#a1d8bea332919559eaa25348d33b1f31a',1,'color.h']]],
   ['makecreatetokenevent_53',['makeCreateTokenEvent',['../dd/d6f/server__abstract__player_8cpp.html#a18f70efed28619c8f51fe2a60e761387',1,'server_abstract_player.cpp']]],
-  ['makekey_54',['makeKey',['../db/da3/user__card__art__provider_8cpp.html#ad251c57a1ff77911435b085f98d51834',1,'makeKey(const QString &amp;user, const QString &amp;card):&#160;user_card_art_provider.cpp'],['../dd/d70/user__list__painter_8cpp.html#ad251c57a1ff77911435b085f98d51834',1,'makeKey(const QString &amp;user, const QString &amp;card):&#160;user_list_painter.cpp']]],
+  ['makekey_54',['makeKey',['../db/da3/user__card__art__provider_8cpp.html#a1248f46ecd071de460918a4c9929b7cc',1,'makeKey(const QString &amp;user, const QString &amp;card, const QString &amp;providerId):&#160;user_card_art_provider.cpp'],['../dd/d70/user__list__painter_8cpp.html#a1248f46ecd071de460918a4c9929b7cc',1,'makeKey(const QString &amp;user, const QString &amp;card, const QString &amp;providerId):&#160;user_list_painter.cpp']]],
   ['makenumbersvector_55',['makeNumbersVector',['../de/dba/classRNG__Abstract.html#a33135e7af3865f772b3ed5528da88b6f',1,'RNG_Abstract']]],
   ['makerequest_56',['makeRequest',['../d6/da1/classCardPictureLoaderWorker.html#aec8d3e81aa486e0071d2da2d970d62c8',1,'CardPictureLoaderWorker']]],
   ['makescrollable_57',['makeScrollable',['../dd/d7b/dlg__settings_8cpp.html#a870c5adff25f09e0ee870f600249f5b2',1,'dlg_settings.cpp']]],

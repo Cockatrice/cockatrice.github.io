@@ -1,5 +1,13 @@
 var NAVTREEINDEX62 =
 {
+"df/d47/classCardSizeWidget.html#a4468e2a33a74b9c7c6ed382872d79186":[4,1,0,105,6],
+"df/d47/classCardSizeWidget.html#a4cc5a0ae025c831b67905513c9de6ed3":[4,1,0,105,9],
+"df/d47/classCardSizeWidget.html#a6582d087d9daa4245961deca2dc05a68":[4,1,0,105,4],
+"df/d47/classCardSizeWidget.html#aacdfc5b6e70c4b22970761c67943b488":[4,1,0,105,10],
+"df/d47/classCardSizeWidget.html#ab30f3c11142480d692da5d848d46d2cb":[4,1,0,105,3],
+"df/d47/classCardSizeWidget.html#ac0164c6dacf55f8a7183e658facc9017":[4,1,0,105,5],
+"df/d47/classCardSizeWidget.html#ac9a6a5fed069e0bac53ef2440eda025f":[4,1,0,105,2],
+"df/d47/classCardSizeWidget.html#acc789bba34e2f9bcceb04caf38698d77":[4,1,0,105,0],
 "df/d49/tapped__out__interface_8h.html":[3,3,2,2,2,2],
 "df/d49/tapped__out__interface_8h.html":[3,3,2,3,0,2],
 "df/d49/tapped__out__interface_8h.html":[3,5,1,0,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX62 =
 "df/d89/classServer__Game.html#ab706f35eb7bf97af5d06e9cb4f4d2efb":[4,1,0,435,32],
 "df/d89/classServer__Game.html#ab7071e69dccc862692be181bc322c4d0":[4,1,0,435,46],
 "df/d89/classServer__Game.html#aba1c3426f031a94d6e699991cdec18a8":[4,1,0,435,7],
-"df/d89/classServer__Game.html#abd1317ead76c93a8878a302b9be563b6":[4,1,0,435,10],
-"df/d89/classServer__Game.html#abd35f75c6609116d81954d3f4d93d2b6":[4,1,0,435,80],
-"df/d89/classServer__Game.html#abe3fb3e77b712a22bfcca4d1a916e641":[4,1,0,435,37],
-"df/d89/classServer__Game.html#abf00fac26d0cf1f809cadc8efca38931":[4,1,0,435,15],
-"df/d89/classServer__Game.html#ac8ffeecd2100bcf1e3f464aade87fc7c":[4,1,0,435,41],
-"df/d89/classServer__Game.html#ac96b285edd77a07b6538bf55ebd213e1":[4,1,0,435,69],
-"df/d89/classServer__Game.html#acdfbb74e2df96dac024f632acc393b4f":[4,1,0,435,9],
-"df/d89/classServer__Game.html#acea57cbc97a75287ccf40305961f92c3":[4,1,0,435,5],
-"df/d89/classServer__Game.html#ade0fdcc9e779b34c36ff5f64f5a5b145":[4,1,0,435,65]
+"df/d89/classServer__Game.html#abd1317ead76c93a8878a302b9be563b6":[4,1,0,435,10]
 };

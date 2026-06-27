@@ -59,7 +59,7 @@ var classAbstractServerSocketInterface =
     [ "getPeerAddress", "dd/dea/classAbstractServerSocketInterface.html#af53807686a4e9381a5bf0f48c3ee4cad", null ],
     [ "incTxBytes", "dd/dea/classAbstractServerSocketInterface.html#ab2a67995b10577c6afedfddfe58d10f2", null ],
     [ "initSession", "dd/dea/classAbstractServerSocketInterface.html#aa971b9ef9acb9c4ff9fbd0d0585dcbd1", null ],
-    [ "isCardNameAllowed", "dd/dea/classAbstractServerSocketInterface.html#a838f233f2d7e7e899ffa61d94fab598d", null ],
+    [ "isCardNameAllowed", "dd/dea/classAbstractServerSocketInterface.html#a5d96a0124855b373448bea690e2a2f01", null ],
     [ "isPasswordLongEnough", "dd/dea/classAbstractServerSocketInterface.html#a04e8bdb22ae05a3283988156c4030a6c", null ],
     [ "logDebugMessage", "dd/dea/classAbstractServerSocketInterface.html#a9335626ba568dc0c62dfa71d91fcd1f0", null ],
     [ "outputQueueChanged", "dd/dea/classAbstractServerSocketInterface.html#abdf629133dd2c38064cbdf324dfd80bc", null ],

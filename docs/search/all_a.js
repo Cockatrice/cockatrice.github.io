@@ -239,7 +239,7 @@ var searchData=
   ['freepilesmap_236',['freePilesMap',['../dc/d3a/classServer__CardZone.html#aee9daad3d11076d0fef953392e13c3c0',1,'Server_CardZone']]],
   ['freespacemap_237',['freeSpaceMap',['../dc/d3a/classServer__CardZone.html#ad4893111787d3ffc71abac9cdced9a68',1,'Server_CardZone']]],
   ['friendslist_238',['friendsList',['../df/d78/classTabRoom.html#a45a35511e908674efe96733046371777',1,'TabRoom']]],
-  ['from_20an_20online_20service_239',['From an online service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
+  ['from_20an_20online_20service_239',['From an online service',['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service'],['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service']]],
   ['from_20clipboard_240',['From Clipboard',['../d0/d51/exporting_decks.html#from-clipboard',1,'From Clipboard'],['../db/d91/importing_decks.html#from-clipboard-1',1,'From Clipboard']]],
   ['from_20the_20beta_241',['What to Expect from the Beta',['../d9/d9b/beta_release.html#what-to-expect-from-the-beta',1,'']]],
   ['fromaccent_242',['fromAccent',['../d7/d77/namespacePaletteGenerator.html#a722d278177e39e85802b4458258f151c',1,'PaletteGenerator']]],

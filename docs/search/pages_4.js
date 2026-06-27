@@ -9,7 +9,7 @@ var searchData=
   ['activity_6',['Repository Activity',['../d0/d30/md_README.html#repository-activity',1,'']]],
   ['add_20it_20to_20the_20config_7',['2. Create the Discord webhook and add it to the config',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md2-create-the-discord-webhook-and-add-it-to-the-config',1,'']]],
   ['adding_20cards_8',['Adding Cards',['../d3/d32/editing_decks_classic.html#adding-cards',1,'Adding Cards'],['../de/d6e/editing_decks_visual.html#adding-cards-1',1,'Adding Cards']]],
-  ['an_20online_20service_9',['an online service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
+  ['an_20online_20service_9',['an online service',['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service'],['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service']]],
   ['analytics_10',['Deck Analytics',['../de/d6e/editing_decks_visual.html#deck-analytics',1,'']]],
   ['and_20add_20it_20to_20the_20config_11',['2. Create the Discord webhook and add it to the config',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md2-create-the-discord-webhook-and-add-it-to-the-config',1,'']]],
   ['and_20categories_12',['Log Level and Categories',['../d9/d4f/logging.html#log-level-and-categories',1,'']]],
@@ -19,7 +19,7 @@ var searchData=
   ['and_20qnetworkdiskcache_16',['The QPixmapCache and QNetworkDiskCache',['../d9/d1c/loading_card_pictures.html#the-qpixmapcache-and-qnetworkdiskcache',1,'']]],
   ['and_20resolution_17',['URL Generation and Resolution',['../d9/d1c/loading_card_pictures.html#url-generation-and-resolution',1,'']]],
   ['api_20integration_18',['API Integration',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#api-integration',1,'']]],
-  ['architecture_19',['Architecture',['../d2/d1d/z__values_8h.html#layer-architecture',1,'Layer Architecture'],['../dd/d97/z__value__layer__manager_8h.html#layer-architecture-1',1,'Layer Architecture']]],
+  ['architecture_19',['Architecture',['../dd/d97/z__value__layer__manager_8h.html#layer-architecture',1,'Layer Architecture'],['../d2/d1d/z__values_8h.html#layer-architecture-1',1,'Layer Architecture']]],
   ['are_20triggered_20',['How requests are triggered',['../d9/d1c/loading_card_pictures.html#how-requests-are-triggered',1,'']]],
   ['awesome_21',['Doxygen Awesome',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#doxygen-awesome',1,'']]]
 ];

@@ -1,5 +1,13 @@
 var NAVTREEINDEX56 =
 {
+"dd/dea/classAbstractServerSocketInterface.html#a1a58e52a1ee04bfd8385c7fd10ce0805":[4,1,0,17,28],
+"dd/dea/classAbstractServerSocketInterface.html#a1f56ca32a135e7410c364aef44992839":[4,1,0,17,16],
+"dd/dea/classAbstractServerSocketInterface.html#a2114c8f24adf64eff92c572a427cf457":[4,1,0,17,5],
+"dd/dea/classAbstractServerSocketInterface.html#a22e008ec7f06c1b2db1f341f5c98339f":[4,1,0,17,32],
+"dd/dea/classAbstractServerSocketInterface.html#a234a8b804690f2b4ae0fe7ce5512ee1d":[4,1,0,17,52],
+"dd/dea/classAbstractServerSocketInterface.html#a2881e8a438fb6795e20563c2f88c32f1":[4,1,0,17,19],
+"dd/dea/classAbstractServerSocketInterface.html#a29c754da1ce168d27eba08641eabd7fc":[4,1,0,17,13],
+"dd/dea/classAbstractServerSocketInterface.html#a2d217f9a6715028241e5c9b5829133c6":[4,1,0,17,23],
 "dd/dea/classAbstractServerSocketInterface.html#a305dd67759e6143a23d69080b9e5e639":[4,1,0,17,42],
 "dd/dea/classAbstractServerSocketInterface.html#a32e1d263221a94e204ae9f2694cdc5ff":[4,1,0,17,10],
 "dd/dea/classAbstractServerSocketInterface.html#a35316e959bf030b59ccf2de8468f211a":[4,1,0,17,55],
@@ -14,12 +22,12 @@ var NAVTREEINDEX56 =
 "dd/dea/classAbstractServerSocketInterface.html#a54bcc38aba74c590c521df9dde5591e2":[4,1,0,17,44],
 "dd/dea/classAbstractServerSocketInterface.html#a550accb3de3e0cf994310277844e7a2d":[4,1,0,17,35],
 "dd/dea/classAbstractServerSocketInterface.html#a5a797299384403866da22930faddad1b":[4,1,0,17,17],
+"dd/dea/classAbstractServerSocketInterface.html#a5d96a0124855b373448bea690e2a2f01":[4,1,0,17,59],
 "dd/dea/classAbstractServerSocketInterface.html#a5f9a06042276d7fefc8773529199a253":[4,1,0,17,63],
 "dd/dea/classAbstractServerSocketInterface.html#a60abb59561da7bafac9acbf72b2b9dbf":[4,1,0,17,41],
 "dd/dea/classAbstractServerSocketInterface.html#a6f9bc4b747b8f54d2959edc867c576aa":[4,1,0,17,48],
 "dd/dea/classAbstractServerSocketInterface.html#a80bbb9176de96d50819977e94a77b50a":[4,1,0,17,20],
 "dd/dea/classAbstractServerSocketInterface.html#a80d7ba757b3d725643be70a031ae905f":[4,1,0,17,2],
-"dd/dea/classAbstractServerSocketInterface.html#a838f233f2d7e7e899ffa61d94fab598d":[4,1,0,17,59],
 "dd/dea/classAbstractServerSocketInterface.html#a8e9f129f553b0408eae6edaa7c56f198":[4,1,0,17,66],
 "dd/dea/classAbstractServerSocketInterface.html#a8eea40f2b72b266c71982c5ab8052eb1":[4,1,0,17,70],
 "dd/dea/classAbstractServerSocketInterface.html#a9121b9dda62706b5df78d49e3f24c8be":[4,1,0,17,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX56 =
 "de/d08/classTabGame.html#ab737ec63d5401a653e9b549624b14198":[4,1,0,493,22],
 "de/d08/classTabGame.html#ab7f63134f141f73682faf33d3c501757":[4,1,0,493,28],
 "de/d08/classTabGame.html#ab981800f8668ec1051b1fa6b097a7f11":[4,1,0,493,16],
-"de/d08/classTabGame.html#aba254554eed4ef5fd0beca99a0b8ff29":[4,1,0,493,81],
-"de/d08/classTabGame.html#ac1fc9fc6a92e2646be4ef8e31bf45c70":[4,1,0,493,88],
-"de/d08/classTabGame.html#ac224ed509114397ac1c3760d911bde04":[4,1,0,493,56],
-"de/d08/classTabGame.html#ac2b08a1ba1a678af9c9182b8f385dd85":[4,1,0,493,76],
-"de/d08/classTabGame.html#ac36c67bd4d548537f189c9ee424c51c5":[4,1,0,493,36],
-"de/d08/classTabGame.html#ac38cf375d7c7b8069e49cc136dedeb6f":[4,1,0,493,104],
-"de/d08/classTabGame.html#ac5759a803391dc8712b21a61ff7cd73a":[4,1,0,493,100],
-"de/d08/classTabGame.html#ac76bfb14375c313bf24446d7d3d15670":[4,1,0,493,34],
-"de/d08/classTabGame.html#acad4f3f20fe4657578bf9d51a5f78fe3":[4,1,0,493,77]
+"de/d08/classTabGame.html#aba254554eed4ef5fd0beca99a0b8ff29":[4,1,0,493,81]
 };

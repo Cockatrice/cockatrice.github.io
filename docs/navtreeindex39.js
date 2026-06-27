@@ -1,5 +1,10 @@
 var NAVTREEINDEX39 =
 {
+"da/d38/classShortcutsSettings.html#af9091c290dbfa46a15b1eb8b07c8688b":[4,1,0,464,13],
+"da/d38/classShortcutsSettings.html#affde8055fe06494f41635c4151b0fa51":[4,1,0,464,22],
+"da/d38/classpeg_1_1Cut.html":[4,0,0,15,38],
+"da/d38/classpeg_1_1Cut.html":[4,1,0,3,37],
+"da/d38/classpeg_1_1Cut.html#aa2a0f0ed71d9c8168c9116f096e5e2c2":[4,0,0,15,38,0],
 "da/d38/classpeg_1_1Cut.html#aa2a0f0ed71d9c8168c9116f096e5e2c2":[4,1,0,3,37,0],
 "da/d38/classpeg_1_1Cut.html#aa77fc7a544523d95694b1a838b7663db":[4,0,0,15,38,1],
 "da/d38/classpeg_1_1Cut.html#aa77fc7a544523d95694b1a838b7663db":[4,1,0,3,37,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX39 =
 "da/d68/classDeckList.html#af067641c4cd0fceeaac592a4a5b48572":[3,3,3,30],
 "da/d68/classDeckList.html#af45030e8a0bde6bcfed09376a95c4bf4":[3,3,3,52],
 "da/d68/classDeckList.html#afa7f023276656ecfe4f8df74cbebbbd4":[3,3,3,44],
-"da/d69/primer_cards.html":[0,1,1],
-"da/d69/primer_cards.html#a-basic-card-object-cardinfo":[0,1,1,1],
-"da/d69/primer_cards.html#exact-card":[0,1,1,2,1],
-"da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard":[0,1,1,2],
-"da/d69/primer_cards.html#printing-info":[0,1,1,2,0],
-"da/d69/primer_cards.html#the-cockatrice-card-library":[0,1,1,0]
+"da/d69/primer_cards.html":[0,1,1]
 };

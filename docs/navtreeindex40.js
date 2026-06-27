@@ -1,5 +1,10 @@
 var NAVTREEINDEX40 =
 {
+"da/d69/primer_cards.html#a-basic-card-object-cardinfo":[0,1,1,1],
+"da/d69/primer_cards.html#exact-card":[0,1,1,2,1],
+"da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard":[0,1,1,2],
+"da/d69/primer_cards.html#printing-info":[0,1,1,2,0],
+"da/d69/primer_cards.html#the-cockatrice-card-library":[0,1,1,0],
 "da/d69/primer_cards.html#using-cards":[0,1,1,3],
 "da/d6b/deck__preview__color__identity__filter__widget_8cpp.html":[4,2,0,0,1,5,4,15,0,0],
 "da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html":[4,1,0,548],
@@ -244,10 +249,5 @@ var NAVTREEINDEX40 =
 "da/d99/classServer__AbstractPlayer.html#a657ab23ea309e5a882f92e5dd04a3cf6":[4,1,0,427,23],
 "da/d99/classServer__AbstractPlayer.html#a66b58488521f1d01dd1e3809b844dc18":[4,1,0,427,8],
 "da/d99/classServer__AbstractPlayer.html#a6b2b56da8c2da86da4e06357e269229c":[4,1,0,427,1],
-"da/d99/classServer__AbstractPlayer.html#a7747ca8a54aa8e4de4791e166423d290":[4,1,0,427,9],
-"da/d99/classServer__AbstractPlayer.html#a80ef691f143b7dee2bc8f3987319e284":[4,1,0,427,41],
-"da/d99/classServer__AbstractPlayer.html#a8108e92a46e86ca5097b5dfb49351089":[4,1,0,427,44],
-"da/d99/classServer__AbstractPlayer.html#a85f492ba6aa393275986fdd3e82e504a":[4,1,0,427,27],
-"da/d99/classServer__AbstractPlayer.html#a8d51eb4a425121c34e02360fa44c6b4a":[4,1,0,427,36],
-"da/d99/classServer__AbstractPlayer.html#a9064bd54618f3ddaad2e60ff4f43125e":[4,1,0,427,7]
+"da/d99/classServer__AbstractPlayer.html#a7747ca8a54aa8e4de4791e166423d290":[4,1,0,427,9]
 };

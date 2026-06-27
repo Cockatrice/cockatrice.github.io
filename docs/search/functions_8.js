@@ -100,7 +100,7 @@ var searchData=
   ['isblanknewdeck_97',['isBlankNewDeck',['../dd/dab/classDeckStateManager.html#aa48e4d66b11550130ea93ab43012e209',1,'DeckStateManager']]],
   ['isbuiltintheme_98',['isBuiltInTheme',['../da/d5a/classThemeManager.html#a7ed7bea9fbcc087e1211535e3856c0c4',1,'ThemeManager']]],
   ['iscardatposlookedat_99',['isCardAtPosLookedAt',['../dc/d3a/classServer__CardZone.html#a19c5115b35a06d6dd1bb8da9353fc1a0',1,'Server_CardZone']]],
-  ['iscardnameallowed_100',['isCardNameAllowed',['../dd/dea/classAbstractServerSocketInterface.html#a838f233f2d7e7e899ffa61d94fab598d',1,'AbstractServerSocketInterface']]],
+  ['iscardnameallowed_100',['isCardNameAllowed',['../dd/dea/classAbstractServerSocketInterface.html#a5d96a0124855b373448bea690e2a2f01',1,'AbstractServerSocketInterface']]],
   ['iscardnodelegalforformat_101',['isCardNodeLegalForFormat',['../d1/df7/deck__list__model_8cpp.html#a5eaacbb2d11a3be7c23b9d510c06bce8',1,'deck_list_model.cpp']]],
   ['iscardquantitylegalforformat_102',['isCardQuantityLegalForFormat',['../d1/df7/deck__list__model_8cpp.html#a080370ae429801e4ef700342d433df34',1,'deck_list_model.cpp']]],
   ['ischecked_103',['isChecked',['../d4/d56/classSetEntryWidget.html#a77bd230191d41e651fe7358d0f0c3aa5',1,'SetEntryWidget']]],

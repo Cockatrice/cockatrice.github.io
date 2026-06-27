@@ -1,5 +1,12 @@
 var NAVTREEINDEX47 =
 {
+"db/de1/classDlgEditUser.html":[4,1,0,175],
+"db/de1/classDlgEditUser.html#a36087efba0883aec272c3ed58a555b41":[4,1,0,175,1],
+"db/de1/classDlgEditUser.html#a473ac941c90d6f1a944266de4b054d37":[4,1,0,175,9],
+"db/de1/classDlgEditUser.html#a4cafca9ade2106b5fb84906160803cdf":[4,1,0,175,2],
+"db/de1/classDlgEditUser.html#a5454c50fe88dcce266fe5202db87b1f4":[4,1,0,175,10],
+"db/de1/classDlgEditUser.html#a6c74953864d52f52a63c85a93bbdee64":[4,1,0,175,4],
+"db/de1/classDlgEditUser.html#a6d0449b3ec72e16117a084aa9b7ef693":[4,1,0,175,5],
 "db/de1/classDlgEditUser.html#a86d6e09100959fce3f24e6ce2bd77c37":[4,1,0,175,3],
 "db/de1/classDlgEditUser.html#a8a3617ed793cc85f1fda64afe4109f53":[4,1,0,175,6],
 "db/de1/classDlgEditUser.html#a8e8adab7c29e8804877799a3db5a8f05":[4,1,0,175,7],
@@ -185,10 +192,10 @@ var NAVTREEINDEX47 =
 "dc/d12/classUserCardArtProvider.html#a230f1d708cbebaa23835e1cd36d813f7":[4,1,0,521,13],
 "dc/d12/classUserCardArtProvider.html#a2490c8497744128204cb52b438d6aa04":[4,1,0,521,9],
 "dc/d12/classUserCardArtProvider.html#a33d0a0b5fd8ecd6878d7cb8444bbdd17":[4,1,0,521,1],
+"dc/d12/classUserCardArtProvider.html#a39f18f5347b2e2114570b205cba5606d":[4,1,0,521,7],
 "dc/d12/classUserCardArtProvider.html#a60fadacc8a43c68f2fb35b75c62af000":[4,1,0,521,10],
 "dc/d12/classUserCardArtProvider.html#a61653177de52ad9f918391bbd3f37f4d":[4,1,0,521,2],
 "dc/d12/classUserCardArtProvider.html#a9d869db06c5d1f234ab0a67f76422c53":[4,1,0,521,6],
-"dc/d12/classUserCardArtProvider.html#aaf98e4368c6ffc0b3dfadbaf03ab7cc5":[4,1,0,521,7],
 "dc/d12/classUserCardArtProvider.html#abc2768741280dc56b306893760d7f2e5":[4,1,0,521,4],
 "dc/d12/classUserCardArtProvider.html#ad6d3392ce84c7f8cf2ffd39d97b64a33":[4,1,0,521,0],
 "dc/d12/classUserCardArtProvider.html#ae15514cd849e2edfff0ac27db5f74643":[4,1,0,521,5],
@@ -242,12 +249,5 @@ var NAVTREEINDEX47 =
 "dc/d1f/dlg__load__deck_8cpp.html":[4,2,0,0,1,5,4,3,24],
 "dc/d31/draw__probability__config_8h.html":[4,2,0,0,1,5,4,1,0,0,1],
 "dc/d31/draw__probability__config_8h_source.html":[4,2,0,0,1,5,4,1,0,0,1],
-"dc/d32/deck__editor__filter__dock__widget_8h.html":[3,1,0,3,3],
-"dc/d32/deck__editor__filter__dock__widget_8h.html":[3,1,0,4,10],
-"dc/d32/deck__editor__filter__dock__widget_8h.html":[3,2,4,2,3],
-"dc/d32/deck__editor__filter__dock__widget_8h.html":[3,3,1,1,10],
-"dc/d33/edhrec__api__response__card__list__display__widget_8cpp.html":[4,2,0,0,1,5,4,11,0,1,1,1,4],
-"dc/d37/background__plate__widget_8cpp.html":[4,2,0,0,1,5,4,4,0,1],
-"dc/d3a/classServer__CardZone.html":[4,1,0,432],
-"dc/d3a/classServer__CardZone.html#a03150488f8d8e26c1b585e3a0a5f3636":[4,1,0,432,3]
+"dc/d32/deck__editor__filter__dock__widget_8h.html":[3,1,0,3,3]
 };

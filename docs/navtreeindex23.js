@@ -1,5 +1,9 @@
 var NAVTREEINDEX23 =
 {
+"d5/dff/classQxtMailMessage.html#a0a14985fd9ed37122c54b5edde3dbce7":[4,1,0,387,13],
+"d5/dff/classQxtMailMessage.html#a0dcd0983392014987d2e03b611e5e64b":[4,1,0,387,17],
+"d5/dff/classQxtMailMessage.html#a22c670448ac0c633df34bd16ba248b90":[4,1,0,387,1],
+"d5/dff/classQxtMailMessage.html#a2d601a3a8c4dab60abdcee06e8e02772":[4,1,0,387,7],
 "d5/dff/classQxtMailMessage.html#a2f7b3179bdf8ca3e209e3ab2008d7151":[4,1,0,387,9],
 "d5/dff/classQxtMailMessage.html#a307df76921f054d94818fcefbd54db7f":[4,1,0,387,11],
 "d5/dff/classQxtMailMessage.html#a3442e95354f4ae9e51810538b4fb7abd":[4,1,0,387,23],
@@ -245,9 +249,5 @@ var NAVTREEINDEX23 =
 "d6/d3d/classCardSet.html#ab84e452bacbd5359336bba517f0a0a63":[3,2,1,1,5],
 "d6/d3d/classCardSet.html#ac38426b471a1ebc442f4eaae615a2ed3":[3,2,1,1,1],
 "d6/d3d/classCardSet.html#ac901a19528453d5fc54e5e78e2581beb":[3,2,1,1,8],
-"d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13f":[3,2,1,1,0],
-"d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa5130639d8ec84e4b578864a7c6bc2693":[3,2,1,1,0,1],
-"d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa6028c953f8ac0fb77178b25fd915897a":[3,2,1,1,0,0],
-"d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa7c5bae467c8ee755d632f948860a0e0a":[3,2,1,1,0,3],
-"d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fab4eaac9b9e7568cc5b5775dd6a8108eb":[3,2,1,1,0,2]
+"d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13f":[3,2,1,1,0]
 };

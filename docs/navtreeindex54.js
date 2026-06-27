@@ -1,5 +1,13 @@
 var NAVTREEINDEX54 =
 {
+"dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0a95e108c69140cf51c70f81df2266dfe2":[4,1,0,70,0,4],
+"dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0a9dc0d055ca2b9767bc5dde88bdd20174":[4,1,0,70,0,2],
+"dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0aa54ea2ec95312cce3f505332bd6d4d3b":[4,1,0,70,0,0],
+"dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0ac2a10e06763afb5e0a820d0a0d0dbd7c":[4,1,0,70,0,5],
+"dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0afdcec8a6bd4181ebe06b26f647c5fdcd":[4,1,0,70,0,3],
+"dd/d83/classCardDatabaseModel.html#a7be322e1b0d470f000a859764ca49b27":[4,1,0,70,7],
+"dd/d83/classCardDatabaseModel.html#ab41b2c6e8c05396f8cf24f5cce34d965":[4,1,0,70,13],
+"dd/d83/classCardDatabaseModel.html#ad03b6b6363a30f9ebdb0639a1bf7977c":[4,1,0,70,3],
 "dd/d83/classCardDatabaseModel.html#ad4747ca3567a7f17867c75a97765f6d8":[4,1,0,70,9],
 "dd/d83/classCardDatabaseModel.html#addaed879cfb5971b58e2f15f6f2f6a85":[4,1,0,70,5],
 "dd/d83/classCardDatabaseModel.html#ae68129509a551e4c132ecb5eb5f86122":[4,1,0,70,10],
@@ -90,8 +98,8 @@ var NAVTREEINDEX54 =
 "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#afcec71173364ca17644d85e793208768":[4,1,0,84,9],
 "dd/da2/server__room_8cpp.html":[4,2,0,7,0,0,1,1,15],
 "dd/da4/card__database__parser_8cpp.html":[4,2,0,2,0,0,0,0,0],
-"dd/da4/card__size__widget_8h.html":[3,1,0,2,7],
 "dd/da4/card__size__widget_8h.html":[3,1,0,4,5],
+"dd/da4/card__size__widget_8h.html":[3,1,0,2,7],
 "dd/da4/card__size__widget_8h.html":[3,2,3,7],
 "dd/da4/card__size__widget_8h.html":[3,3,1,1,5],
 "dd/da4/zipglobal_8cpp.html":[4,2,0,12,0,2,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX54 =
 "dd/dc3/classStorageSettingsPage.html#acfad52491d495119dd3c85e98063739f":[4,1,0,479,14],
 "dd/dc3/classStorageSettingsPage.html#ad2148897d7343e9c5b73a40fe53ae997":[4,1,0,479,21],
 "dd/dc3/classStorageSettingsPage.html#ad98b58b9d7e26f67f7219942b0b324b1":[4,1,0,479,23],
-"dd/dc3/classStorageSettingsPage.html#adb7b0ad1fa54cc1bfafb7a7d2ec5d7cb":[4,1,0,479,10],
-"dd/dc3/classStorageSettingsPage.html#adcb3ee58f3ec24d40501489c544c7830":[4,1,0,479,4],
-"dd/dc3/classStorageSettingsPage.html#ae13149004ff901ba609f2adfece278d5":[4,1,0,479,18],
-"dd/dc3/classStorageSettingsPage.html#af8cedfb70a608020e2d7994b7017377d":[4,1,0,479,16],
-"dd/dc7/classUserListTWI.html":[4,1,0,534],
-"dd/dc7/classUserListTWI.html#a27c9aec5d8482bf5d32ffe22e5c6c6d1":[4,1,0,534,2],
-"dd/dc7/classUserListTWI.html#a2d5b8483375910220aa133cc565c13e0":[4,1,0,534,3],
-"dd/dc7/classUserListTWI.html#a3f1a82b948ac1c6a595164b49f7c6379":[4,1,0,534,5],
-"dd/dc7/classUserListTWI.html#adcbfc4d690e3a71eacf361b66bfc3958":[4,1,0,534,4]
+"dd/dc3/classStorageSettingsPage.html#adb7b0ad1fa54cc1bfafb7a7d2ec5d7cb":[4,1,0,479,10]
 };
