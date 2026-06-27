@@ -15,5 +15,7 @@ var searchData=
   ['zoneviewgroupbyindex_12',['zoneViewGroupByIndex',['../d5/d88/classSettingsCache.html#a0ac12837806845b1a433d0779f170c94',1,'SettingsCache']]],
   ['zoneviewpileview_13',['zoneViewPileView',['../d5/d88/classSettingsCache.html#aebfc75cab9857311d7d123afa000b4e3',1,'SettingsCache']]],
   ['zoneviews_14',['zoneViews',['../db/d9f/classGameScene.html#adbd05dc03b8a1b08cd9bd204713e61fb',1,'GameScene']]],
-  ['zoneviewsortbyindex_15',['zoneViewSortByIndex',['../d5/d88/classSettingsCache.html#a98c7127c9eacc3e0257c8d866c132157',1,'SettingsCache']]]
+  ['zoneviewsortbyindex_15',['zoneViewSortByIndex',['../d5/d88/classSettingsCache.html#a98c7127c9eacc3e0257c8d866c132157',1,'SettingsCache']]],
+  ['zoom_16',['zoom',['../dd/d52/structCardArtParams.html#a3e56a2bfee26a4804f44f49917e12ce1',1,'CardArtParams']]],
+  ['zoomspin_17',['zoomSpin',['../d4/d35/classUserCardArtSettingsDialog.html#a1ef178e8d7be2a42f2b24b5fbcb82236',1,'UserCardArtSettingsDialog']]]
 ];

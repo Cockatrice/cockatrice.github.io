@@ -38,7 +38,7 @@ var searchData=
   ['enlargedpixmap_35',['enlargedPixmap',['../d1/d0c/classCardInfoPictureEnlargedWidget.html#a8659fffce509a59ffd70e31d335b0678',1,'CardInfoPictureEnlargedWidget']]],
   ['enlargedpixmapwidget_36',['enlargedPixmapWidget',['../dd/dd2/classCardInfoPictureWidget.html#a64ee1b338dbbd7e41ed1c1ed31ad29f6',1,'CardInfoPictureWidget']]],
   ['enter_37',['enter',['../d8/d94/classpeg_1_1Definition.html#ae15b3eebb6d49e5319c66bff8afede44',1,'peg::Definition']]],
-  ['entries_38',['entries',['../d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#aca0582aca2527a06c6c22fd2f0edff88',1,'EdhrecCommanderApiResponseArchidektLinks']]],
+  ['entries_38',['entries',['../d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#aca0582aca2527a06c6c22fd2f0edff88',1,'EdhrecCommanderApiResponseArchidektLinks::entries'],['../df/db2/classCardArtRulesModel.html#aaa0cfe187d443e09004f0f7ff94ab668',1,'CardArtRulesModel::entries']]],
   ['entry_5fwidgets_39',['entry_widgets',['../de/d26/classDlgSelectSetForCards.html#a7f9686837f559207272a643cd1933cd8',1,'DlgSelectSetForCards']]],
   ['eocdoffset_40',['eocdOffset',['../df/d90/classUnzipPrivate.html#a04b0b8fa88d83c630682dc6cb60b11dd',1,'UnzipPrivate']]],
   ['eoi_5fcheck_41',['eoi_check',['../d8/d94/classpeg_1_1Definition.html#a0a90106d9400901ea5da73f17106ab06',1,'peg::Definition']]],

@@ -16,7 +16,7 @@ var searchData=
   ['ignore_5fcase_5f_13',['ignore_case_',['../d4/da5/classpeg_1_1Trie.html#acfcf1d7f580f18cb76ffc66a7b1d6cdd',1,'peg::Trie::ignore_case_'],['../d2/de2/classpeg_1_1LiteralString.html#a5715ddf3a8bd41f8f6b737b2b186af55',1,'peg::LiteralString::ignore_case_'],['../db/de0/classpeg_1_1CharacterClass.html#a2a4f6f896c4619082f2cfa9721d04e68',1,'peg::CharacterClass::ignore_case_']]],
   ['ignore_5ftrace_5fstate_14',['ignore_trace_state',['../df/d94/classpeg_1_1Context.html#ae7fbff9d688f3f1ee74d19a8972d6227',1,'peg::Context']]],
   ['ignoredusers_15',['ignoredUsers',['../db/d6d/classUserListManager.html#a66f8229a72fc32dc3eda29c23a8a104a',1,'UserListManager']]],
-  ['ignorelist_16',['ignoreList',['../d5/da7/classTabAccount.html#ad4e92adaaa0eab6c9e7dd4b59a6b9879',1,'TabAccount']]],
+  ['ignorelist_16',['ignoreList',['../d5/da7/classTabAccount.html#ad4e92adaaa0eab6c9e7dd4b59a6b9879',1,'TabAccount::ignoreList'],['../df/d78/classTabRoom.html#a7b8de07e175472fa6d2470d8949cdc85',1,'TabRoom::ignoreList']]],
   ['ignorenonbuddyusermessages_17',['ignoreNonBuddyUserMessages',['../d5/d88/classSettingsCache.html#a81dcd6a1496d88d56e22f10a83cce466',1,'SettingsCache::ignoreNonBuddyUserMessages'],['../d2/dae/classMessagesSettingsPage.html#ac34e015598f012515c7cffc86d3d482d',1,'MessagesSettingsPage::ignoreNonBuddyUserMessages']]],
   ['ignoresemanticvalue_18',['ignoreSemanticValue',['../d8/d94/classpeg_1_1Definition.html#a0a0e45e5c8b3b1b9daa7da6d8feadbf7',1,'peg::Definition']]],
   ['ignoreunregisteredusermessages_19',['ignoreUnregisteredUserMessages',['../d5/d88/classSettingsCache.html#a38495a05d9eea76b700a462488acaf7c',1,'SettingsCache']]],

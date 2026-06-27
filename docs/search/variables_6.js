@@ -106,12 +106,13 @@ var searchData=
   ['frame_103',['frame',['../dc/dde/classResizablePanel.html#aacf3ba1cdae810fcb0701e04a62fd8e9',1,'ResizablePanel']]],
   ['freepilesmap_104',['freePilesMap',['../dc/d3a/classServer__CardZone.html#aee9daad3d11076d0fef953392e13c3c0',1,'Server_CardZone']]],
   ['freespacemap_105',['freeSpaceMap',['../dc/d3a/classServer__CardZone.html#ad4893111787d3ffc71abac9cdced9a68',1,'Server_CardZone']]],
-  ['ftree_106',['fTree',['../d7/d62/classFilterTreeModel.html#afc9c10fd6eaef1a2cac8ea846301015a',1,'FilterTreeModel']]],
-  ['fulladmin_107',['fullAdmin',['../d5/d3b/classTabAdmin.html#ab420748b5723baa57ebbd4e514cf48a4',1,'TabAdmin']]],
-  ['fullcolor_108',['fullColor',['../df/d2a/classArrowItem.html#a53ecce5495194a3dcb49c2c6e9b5bc1c',1,'ArrowItem']]],
-  ['fullpixmap_109',['fullPixmap',['../d2/d6f/classPlayerTarget.html#a6b4757b6ef678be73a3ff59e04c1179e',1,'PlayerTarget']]],
-  ['fulltext_110',['fullText',['../d1/df1/classCompactPushButton.html#a22418cecd9feba5e5f52834baf657033',1,'CompactPushButton']]],
-  ['fullurl_111',['fullUrl',['../d8/d82/structParsedDeckInfo.html#ac4c47427fa68940535016f13f33932d3',1,'ParsedDeckInfo']]],
-  ['fullwidthhint_112',['fullWidthHint',['../d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a9d80d8764501da38e6e632cf79f99897',1,'VisualDatabaseDisplayFilterToolbarWidget']]],
-  ['future_113',['future',['../d1/d64/classLoadSetsPage.html#a87f3925310b39d7fadbbd80c203e2ab8',1,'LoadSetsPage']]]
+  ['friendslist_106',['friendsList',['../df/d78/classTabRoom.html#a45a35511e908674efe96733046371777',1,'TabRoom']]],
+  ['ftree_107',['fTree',['../d7/d62/classFilterTreeModel.html#afc9c10fd6eaef1a2cac8ea846301015a',1,'FilterTreeModel']]],
+  ['fulladmin_108',['fullAdmin',['../d5/d3b/classTabAdmin.html#ab420748b5723baa57ebbd4e514cf48a4',1,'TabAdmin']]],
+  ['fullcolor_109',['fullColor',['../df/d2a/classArrowItem.html#a53ecce5495194a3dcb49c2c6e9b5bc1c',1,'ArrowItem']]],
+  ['fullpixmap_110',['fullPixmap',['../d2/d6f/classPlayerTarget.html#a6b4757b6ef678be73a3ff59e04c1179e',1,'PlayerTarget']]],
+  ['fulltext_111',['fullText',['../d1/df1/classCompactPushButton.html#a22418cecd9feba5e5f52834baf657033',1,'CompactPushButton']]],
+  ['fullurl_112',['fullUrl',['../d8/d82/structParsedDeckInfo.html#ac4c47427fa68940535016f13f33932d3',1,'ParsedDeckInfo']]],
+  ['fullwidthhint_113',['fullWidthHint',['../d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a9d80d8764501da38e6e632cf79f99897',1,'VisualDatabaseDisplayFilterToolbarWidget']]],
+  ['future_114',['future',['../d1/d64/classLoadSetsPage.html#a87f3925310b39d7fadbbd80c203e2ab8',1,'LoadSetsPage']]]
 ];

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Development-3.1.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Development-3.1.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -237,6 +237,11 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a5f9a06042276d7fefc8773529199a253" id="r_a5f9a06042276d7fefc8773529199a253"><td class="memItemLeft">Response::ResponseCode&#160;</td><td class="memItemRight"><a class="el" href="#a5f9a06042276d7fefc8773529199a253">processExtendedAdminCommand</a> (int cmdType, const AdminCommand &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a2114c8f24adf64eff92c572a427cf457" id="r_a2114c8f24adf64eff92c572a427cf457"><td class="memItemLeft">Response::ResponseCode&#160;</td><td class="memItemRight"><a class="el" href="#a2114c8f24adf64eff92c572a427cf457">cmdAccountEdit</a> (const Command_AccountEdit &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a9db7a2c3ba53af7eaa9094bb6afe076a" id="r_a9db7a2c3ba53af7eaa9094bb6afe076a"><td class="memItemLeft">Response::ResponseCode&#160;</td><td class="memItemRight"><a class="el" href="#a9db7a2c3ba53af7eaa9094bb6afe076a">cmdAccountImage</a> (const Command_AccountImage &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:a838f233f2d7e7e899ffa61d94fab598d" id="r_a838f233f2d7e7e899ffa61d94fab598d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a838f233f2d7e7e899ffa61d94fab598d">isCardNameAllowed</a> (const QString &amp;cardName)</td></tr>
+<tr class="memitem:a60abb59561da7bafac9acbf72b2b9dbf" id="r_a60abb59561da7bafac9acbf72b2b9dbf"><td class="memItemLeft">Response::ResponseCode&#160;</td><td class="memItemRight"><a class="el" href="#a60abb59561da7bafac9acbf72b2b9dbf">cmdSetCardArtParams</a> (const Command_SetCardArtParams &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;)</td></tr>
+<tr class="memitem:adb34f4f82a393abb3e8b883e8718abdb" id="r_adb34f4f82a393abb3e8b883e8718abdb"><td class="memItemLeft">Response::ResponseCode&#160;</td><td class="memItemRight"><a class="el" href="#adb34f4f82a393abb3e8b883e8718abdb">cmdAddCardArtRule</a> (const Command_AddCardArtRule &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;)</td></tr>
+<tr class="memitem:a22e008ec7f06c1b2db1f341f5c98339f" id="r_a22e008ec7f06c1b2db1f341f5c98339f"><td class="memItemLeft">Response::ResponseCode&#160;</td><td class="memItemRight"><a class="el" href="#a22e008ec7f06c1b2db1f341f5c98339f">cmdRemoveCardArtRule</a> (const Command_RemoveCardArtRule &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;)</td></tr>
+<tr class="memitem:aedc43c87ab1d9e14ec2b8b178ce83101" id="r_aedc43c87ab1d9e14ec2b8b178ce83101"><td class="memItemLeft">Response::ResponseCode&#160;</td><td class="memItemRight"><a class="el" href="#aedc43c87ab1d9e14ec2b8b178ce83101">cmdListCardArtRules</a> (const Command_ListCardArtRules &amp;, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a992f2e2e3038c2ea3ed0bb6f762c478c" id="r_a992f2e2e3038c2ea3ed0bb6f762c478c"><td class="memItemLeft">Response::ResponseCode&#160;</td><td class="memItemRight"><a class="el" href="#a992f2e2e3038c2ea3ed0bb6f762c478c">cmdAccountPassword</a> (const Command_AccountPassword &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a1a58e52a1ee04bfd8385c7fd10ce0805" id="r_a1a58e52a1ee04bfd8385c7fd10ce0805"><td class="memItemLeft">Response::ResponseCode&#160;</td><td class="memItemRight"><a class="el" href="#a1a58e52a1ee04bfd8385c7fd10ce0805">cmdGrantReplayAccess</a> (const Command_GrantReplayAccess &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a2881e8a438fb6795e20563c2f88c32f1" id="r_a2881e8a438fb6795e20563c2f88c32f1"><td class="memItemLeft">Response::ResponseCode&#160;</td><td class="memItemRight"><a class="el" href="#a2881e8a438fb6795e20563c2f88c32f1">cmdForceActivateUser</a> (const Command_ForceActivateUser &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
@@ -577,6 +582,40 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_acbf7073a5aa7254a07b13fde1ac5b472_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="adb34f4f82a393abb3e8b883e8718abdb" name="adb34f4f82a393abb3e8b883e8718abdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb34f4f82a393abb3e8b883e8718abdb">&#9670;&#160;</a></span>cmdAddCardArtRule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Response::ResponseCode AbstractServerSocketInterface::cmdAddCardArtRule </td>
+          <td>(</td>
+          <td class="paramtype">const Command_AddCardArtRule &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_adb34f4f82a393abb3e8b883e8718abdb_icgraph.svg" width="552" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1312,6 +1351,45 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aedc43c87ab1d9e14ec2b8b178ce83101" name="aedc43c87ab1d9e14ec2b8b178ce83101"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedc43c87ab1d9e14ec2b8b178ce83101">&#9670;&#160;</a></span>cmdListCardArtRules()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Response::ResponseCode AbstractServerSocketInterface::cmdListCardArtRules </td>
+          <td>(</td>
+          <td class="paramtype">const Command_ListCardArtRules &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_aedc43c87ab1d9e14ec2b8b178ce83101_cgraph.svg" width="447" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_aedc43c87ab1d9e14ec2b8b178ce83101_icgraph.svg" width="552" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a0d92d407ae6471003d73f484db54c718" name="a0d92d407ae6471003d73f484db54c718"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d92d407ae6471003d73f484db54c718">&#9670;&#160;</a></span>cmdRegisterAccount()</h2>
 
@@ -1387,6 +1465,40 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a99160020a07ee2f5ed72bc2daa1332db_icgraph.svg" width="528" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a22e008ec7f06c1b2db1f341f5c98339f" name="a22e008ec7f06c1b2db1f341f5c98339f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22e008ec7f06c1b2db1f341f5c98339f">&#9670;&#160;</a></span>cmdRemoveCardArtRule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Response::ResponseCode AbstractServerSocketInterface::cmdRemoveCardArtRule </td>
+          <td>(</td>
+          <td class="paramtype">const Command_RemoveCardArtRule &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a22e008ec7f06c1b2db1f341f5c98339f_icgraph.svg" width="552" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1689,6 +1801,45 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a10e74ce5f266f400f2b36ca283828e0a_icgraph.svg" width="536" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a60abb59561da7bafac9acbf72b2b9dbf" name="a60abb59561da7bafac9acbf72b2b9dbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60abb59561da7bafac9acbf72b2b9dbf">&#9670;&#160;</a></span>cmdSetCardArtParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Response::ResponseCode AbstractServerSocketInterface::cmdSetCardArtParams </td>
+          <td>(</td>
+          <td class="paramtype">const Command_SetCardArtParams &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a60abb59561da7bafac9acbf72b2b9dbf_cgraph.svg" width="496" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a60abb59561da7bafac9acbf72b2b9dbf_icgraph.svg" width="536" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -2271,6 +2422,36 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_aa971b9ef9acb9c4ff9fbd0d0585dcbd1_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a838f233f2d7e7e899ffa61d94fab598d" name="a838f233f2d7e7e899ffa61d94fab598d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a838f233f2d7e7e899ffa61d94fab598d">&#9670;&#160;</a></span>isCardNameAllowed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractServerSocketInterface::isCardNameAllowed </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>cardName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a838f233f2d7e7e899ffa61d94fab598d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

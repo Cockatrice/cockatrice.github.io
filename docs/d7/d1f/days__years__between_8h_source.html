@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Development-3.1.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Development-3.1.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -99,17 +99,22 @@ $(function(){initNavTree('d7/d1f/days__years__between_8h_source.html','../../','
   <div class="headertitle"><div class="title">days_years_between.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d7/d1f/days__years__between_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &lt;QDateTime&gt;</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="foldopen" id="foldopen00003" data-start="{" data-end="}">
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="../../d7/d1f/days__years__between_8h.html#ad8abafa3e37605abb4291e8ffde1e59f">    3</a></span><span class="keyword">inline</span> <span class="keyword">static</span> QPair&lt;int, int&gt; <a class="code hl_function" href="../../d7/d1f/days__years__between_8h.html#ad8abafa3e37605abb4291e8ffde1e59f">getDaysAndYearsBetween</a>(<span class="keyword">const</span> QDate &amp;then, <span class="keyword">const</span> QDate &amp;now)</div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>{</div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>    <span class="keywordtype">int</span> years = now.addDays(1 - then.dayOfYear()).year() - then.year(); <span class="comment">// there is no yearsTo</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>    <span class="keywordtype">int</span> days = then.addYears(years).daysTo(now);</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <span class="keywordflow">return</span> {days, years};</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>}</div>
+<a href="../../d7/d1f/days__years__between_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef COCKATRICE_DAYS_YEARS_BETWEEN_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define COCKATRICE_DAYS_YEARS_BETWEEN_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QDateTime&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="foldopen" id="foldopen00006" data-start="{" data-end="}">
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="../../d7/d1f/days__years__between_8h.html#ad8abafa3e37605abb4291e8ffde1e59f">    6</a></span><span class="keyword">inline</span> <span class="keyword">static</span> QPair&lt;int, int&gt; <a class="code hl_function" href="../../d7/d1f/days__years__between_8h.html#ad8abafa3e37605abb4291e8ffde1e59f">getDaysAndYearsBetween</a>(<span class="keyword">const</span> QDate &amp;then, <span class="keyword">const</span> QDate &amp;now)</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    <span class="keywordtype">int</span> years = now.addDays(1 - then.dayOfYear()).year() - then.year(); <span class="comment">// there is no yearsTo</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <span class="keywordtype">int</span> days = then.addYears(years).daysTo(now);</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keywordflow">return</span> {days, years};</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>}</div>
 </div>
-<div class="ttc" id="adays__years__between_8h_html_ad8abafa3e37605abb4291e8ffde1e59f"><div class="ttname"><a href="../../d7/d1f/days__years__between_8h.html#ad8abafa3e37605abb4291e8ffde1e59f">getDaysAndYearsBetween</a></div><div class="ttdeci">static QPair&lt; int, int &gt; getDaysAndYearsBetween(const QDate &amp;then, const QDate &amp;now)</div><div class="ttdef"><b>Definition</b> days_years_between.h:3</div></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_DAYS_YEARS_BETWEEN_H</span></div>
+<div class="ttc" id="adays__years__between_8h_html_ad8abafa3e37605abb4291e8ffde1e59f"><div class="ttname"><a href="../../d7/d1f/days__years__between_8h.html#ad8abafa3e37605abb4291e8ffde1e59f">getDaysAndYearsBetween</a></div><div class="ttdeci">static QPair&lt; int, int &gt; getDaysAndYearsBetween(const QDate &amp;then, const QDate &amp;now)</div><div class="ttdef"><b>Definition</b> days_years_between.h:6</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

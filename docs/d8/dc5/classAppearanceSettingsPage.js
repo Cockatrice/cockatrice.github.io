@@ -46,6 +46,8 @@ var classAppearanceSettingsPage =
     [ "schemeComboLabel", "d8/dc5/classAppearanceSettingsPage.html#afd9c10e3e1b2b98845d3cf8eae56cad2", null ],
     [ "showGameSelectorFilterToolbarCheckBox", "d8/dc5/classAppearanceSettingsPage.html#ac34069f71dadec649c34c42b812c5c4e", null ],
     [ "showShortcutsCheckBox", "d8/dc5/classAppearanceSettingsPage.html#a3a5582e9558f8bd9e7ac72b6b0b6abfb", null ],
+    [ "styleUserListCheckBox", "d8/dc5/classAppearanceSettingsPage.html#a616d4af62a6ef66d64f4597d8a5c6bde", null ],
+    [ "stylingGroupBox", "d8/dc5/classAppearanceSettingsPage.html#a80439e52317b2ff3d4fdb25d4f66280b", null ],
     [ "tableGroupBox", "d8/dc5/classAppearanceSettingsPage.html#ab080e7a67c146c2213307c9c70104efa", null ],
     [ "themeBox", "d8/dc5/classAppearanceSettingsPage.html#a555cd034256341a35841dd797354614b", null ],
     [ "themeGroupBox", "d8/dc5/classAppearanceSettingsPage.html#a6902a5a13840d6aa24228b499737e14c", null ],

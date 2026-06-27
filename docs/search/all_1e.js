@@ -92,6 +92,8 @@ var searchData=
   ['zoneviewwidget_89',['ZoneViewWidget',['../d0/dd9/classZoneViewWidget.html',1,'ZoneViewWidget'],['../d0/dd9/classZoneViewWidget.html#a163efadda5973a8b3f5ffc4ee64c5ab2',1,'ZoneViewWidget::ZoneViewWidget()']]],
   ['zoneviewzone_90',['ZoneViewZone',['../d0/db5/classZoneViewZone.html',1,'ZoneViewZone'],['../d0/db5/classZoneViewZone.html#a6edf294de4065c2f00f6fabb74456fa5',1,'ZoneViewZone::ZoneViewZone()']]],
   ['zoneviewzonelogic_91',['ZoneViewZoneLogic',['../d8/d70/classZoneViewZoneLogic.html',1,'ZoneViewZoneLogic'],['../d8/d70/classZoneViewZoneLogic.html#af8e982515d0688d1edd6384e77d5a03a',1,'ZoneViewZoneLogic::ZoneViewZoneLogic()']]],
-  ['zvaluelayermanager_92',['ZValueLayerManager',['../d7/dd1/namespaceZValueLayerManager.html',1,'']]],
-  ['zvalues_93',['ZValues',['../db/dd0/namespaceZValues.html',1,'']]]
+  ['zoom_92',['zoom',['../dd/d52/structCardArtParams.html#a3e56a2bfee26a4804f44f49917e12ce1',1,'CardArtParams']]],
+  ['zoomspin_93',['zoomSpin',['../d4/d35/classUserCardArtSettingsDialog.html#a1ef178e8d7be2a42f2b24b5fbcb82236',1,'UserCardArtSettingsDialog']]],
+  ['zvaluelayermanager_94',['ZValueLayerManager',['../d7/dd1/namespaceZValueLayerManager.html',1,'']]],
+  ['zvalues_95',['ZValues',['../db/dd0/namespaceZValues.html',1,'']]]
 ];

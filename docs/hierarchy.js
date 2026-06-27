@@ -42,9 +42,11 @@ var hierarchy =
     [ "ArrowRegistry", "df/df7/classArrowRegistry.html", null ],
     [ "peg::AstOptimizer", "da/dae/structpeg_1_1AstOptimizer.html", null ],
     [ "BackgroundSources", "d1/df3/classBackgroundSources.html", null ],
+    [ "UserListPainter::Badge", "d1/d2d/structUserListPainter_1_1Badge.html", null ],
     [ "BarData", "dc/da2/structBarData.html", null ],
     [ "BarSegment", "d9/d3d/structBarSegment.html", null ],
     [ "CardPictureLoaderCacheMethod::CacheMethodInfo", "d6/de6/structCardPictureLoaderCacheMethod_1_1CacheMethodInfo.html", null ],
+    [ "CardArtParams", "dd/d52/structCardArtParams.html", null ],
     [ "CardCondition", "d3/d64/structCardCondition.html", null ],
     [ "CardDatabaseManager", "dc/db4/classCardDatabaseManager.html", null ],
     [ "CardInfoComparator", "d8/d3f/classCardInfoComparator.html", null ],
@@ -97,6 +99,7 @@ var hierarchy =
       [ "peg::Reference", "d5/dba/classpeg_1_1Reference.html", null ]
     ] ],
     [ "BackgroundSources::Entry", "d3/d4a/structBackgroundSources_1_1Entry.html", null ],
+    [ "CardArtRulesModel::Entry", "d9/dd6/structCardArtRulesModel_1_1Entry.html", null ],
     [ "peg::ErrorInfo", "db/da9/structpeg_1_1ErrorInfo.html", null ],
     [ "ExactCard", "df/d4e/classExactCard.html", null ],
     [ "ExceptionRule", "de/dae/structExceptionRule.html", null ],
@@ -226,6 +229,7 @@ var hierarchy =
       [ "TipsOfTheDay", "da/dc7/classTipsOfTheDay.html", null ]
     ] ],
     [ "QAbstractTableModel", null, [
+      [ "CardArtRulesModel", "df/db2/classCardArtRulesModel.html", null ],
       [ "GamesModel", "da/dbd/classGamesModel.html", null ],
       [ "SetsModel", "da/d64/classSetsModel.html", null ]
     ] ],
@@ -270,6 +274,7 @@ var hierarchy =
       [ "ManaDistributionConfigDialog", "d0/da7/classManaDistributionConfigDialog.html", null ],
       [ "PaletteEditorDialog", "d0/dc0/classPaletteEditorDialog.html", null ],
       [ "ShutdownDialog", "d0/d35/classShutdownDialog.html", null ],
+      [ "UserCardArtSettingsDialog", "d4/d35/classUserCardArtSettingsDialog.html", null ],
       [ "WarningDialog", "d4/d0d/classWarningDialog.html", null ]
     ] ],
     [ "QDockWidget", null, [
@@ -284,7 +289,8 @@ var hierarchy =
     ] ],
     [ "QFrame", null, [
       [ "CardInfoDisplayWidget", "d1/de1/classCardInfoDisplayWidget.html", null ],
-      [ "CardInfoTextWidget", "dd/d82/classCardInfoTextWidget.html", null ]
+      [ "CardInfoTextWidget", "dd/d82/classCardInfoTextWidget.html", null ],
+      [ "UserInfoPopup", "df/d81/classUserInfoPopup.html", null ]
     ] ],
     [ "QGraphicsItem", null, [
       [ "AbstractCardDragItem", "d6/dc0/classAbstractCardDragItem.html", [
@@ -386,6 +392,7 @@ var hierarchy =
         [ "TabAccount", "d5/da7/classTabAccount.html", null ],
         [ "TabAdmin", "d5/d3b/classTabAdmin.html", null ],
         [ "TabArchidekt", "db/d5d/classTabArchidekt.html", null ],
+        [ "TabCardArtRules", "da/de8/classTabCardArtRules.html", null ],
         [ "TabDeckStorage", "d1/dd7/classTabDeckStorage.html", null ],
         [ "TabDeckStorageVisual", "d9/dba/classTabDeckStorageVisual.html", null ],
         [ "TabEdhRec", "dd/d33/classTabEdhRec.html", null ],
@@ -549,6 +556,8 @@ var hierarchy =
       [ "ThemeManager", "da/d5a/classThemeManager.html", null ],
       [ "UnzipPrivate", "df/d90/classUnzipPrivate.html", null ],
       [ "UpdateDownloader", "db/df5/classUpdateDownloader.html", null ],
+      [ "UserAvatarProvider", "d9/d2b/classUserAvatarProvider.html", null ],
+      [ "UserCardArtProvider", "dc/d12/classUserCardArtProvider.html", null ],
       [ "UserContextMenu", "d7/d67/classUserContextMenu.html", null ],
       [ "UserListManager", "db/d6d/classUserListManager.html", null ],
       [ "VisibilityChangeListener", "df/d71/classVisibilityChangeListener.html", null ],
@@ -587,6 +596,7 @@ var hierarchy =
     ] ],
     [ "QStyledItemDelegate", null, [
       [ "PlayerListItemDelegate", "d3/d79/classPlayerListItemDelegate.html", null ],
+      [ "PopupGameDelegate", "de/d5e/classPopupGameDelegate.html", null ],
       [ "UserListItemDelegate", "dc/d89/classUserListItemDelegate.html", null ]
     ] ],
     [ "QTabWidget", null, [
@@ -652,6 +662,7 @@ var hierarchy =
       [ "BarChartWidget", "d4/d89/classBarChartWidget.html", null ],
       [ "BarWidget", "db/daa/classBarWidget.html", null ],
       [ "CardAmountWidget", "dc/d15/classCardAmountWidget.html", null ],
+      [ "CardArtPreviewWidget", "dd/d2f/classCardArtPreviewWidget.html", null ],
       [ "CardGroupDisplayWidget", "d9/d5d/classCardGroupDisplayWidget.html", [
         [ "FlatCardGroupDisplayWidget", "de/d0d/classFlatCardGroupDisplayWidget.html", null ],
         [ "OverlappedCardGroupDisplayWidget", "d4/d79/classOverlappedCardGroupDisplayWidget.html", null ]
@@ -730,6 +741,7 @@ var hierarchy =
       ] ],
       [ "SettingsPopupWidget", "d1/d7d/classSettingsPopupWidget.html", null ],
       [ "UserInfoBox", "df/dea/classUserInfoBox.html", null ],
+      [ "UserInfoHeaderWidget", "d7/d45/classUserInfoHeaderWidget.html", null ],
       [ "VisualDatabaseDisplayColorFilterCircleWidget", "d2/d83/classVisualDatabaseDisplayColorFilterCircleWidget.html", null ],
       [ "VisualDatabaseDisplayColorFilterWidget", "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html", null ],
       [ "VisualDatabaseDisplayFilterSaveLoadWidget", "d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html", null ],
@@ -821,6 +833,7 @@ var hierarchy =
     [ "UnZip", "de/d4e/classUnZip.html", null ],
     [ "UserConnection_Information", "d5/d88/classUserConnection__Information.html", null ],
     [ "UserLevelPixmapGenerator", "d8/df9/classUserLevelPixmapGenerator.html", null ],
+    [ "UserListPainter", "d8/dc1/classUserListPainter.html", null ],
     [ "UserListProxy", "dc/dc8/classUserListProxy.html", [
       [ "UserListManager", "db/d6d/classUserListManager.html", null ]
     ] ],

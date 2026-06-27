@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Development-3.1.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Development-3.1.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -114,12 +114,20 @@ Collaboration diagram for UserListItemDelegate:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:addc38b4151edc31cccda5f81345328a0" id="r_addc38b4151edc31cccda5f81345328a0"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#addc38b4151edc31cccda5f81345328a0">UserListItemDelegate</a> (QObject *const parent)</td></tr>
+<tr class="memitem:a59ee92abf80a64af599d73745852eb15" id="r_a59ee92abf80a64af599d73745852eb15"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a59ee92abf80a64af599d73745852eb15">UserListItemDelegate</a> (QObject *const parent, const QMap&lt; QString, QPixmap &gt; *<a class="el" href="#a24d0029854e5cdcac829e875cbde3679">avatarCache</a>, const QMap&lt; QString, QPixmap &gt; *<a class="el" href="#a1e2c01a093bcdd70809fa4be1811e217">cardArtCache</a>, const QMap&lt; QString, <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &gt; *<a class="el" href="#afb4bb4d2d9a8767abe2049d53e86e409">cardArtParamsMap</a>)</td></tr>
 <tr class="memitem:a68d784685fc256eee73dff7b6d816096" id="r_a68d784685fc256eee73dff7b6d816096"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a68d784685fc256eee73dff7b6d816096">editorEvent</a> (QEvent *event, QAbstractItemModel *model, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) override</td></tr>
+<tr class="memitem:a21e7503cec2b6d836e22ac12e73729a9" id="r_a21e7503cec2b6d836e22ac12e73729a9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a21e7503cec2b6d836e22ac12e73729a9">paint</a> (QPainter *painter, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const override</td></tr>
+<tr class="memitem:ad18b5a0c12fbb997e80c6eed8d530eb9" id="r_ad18b5a0c12fbb997e80c6eed8d530eb9"><td class="memItemLeft">QSize&#160;</td><td class="memItemRight"><a class="el" href="#ad18b5a0c12fbb997e80c6eed8d530eb9">sizeHint</a> (const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index) const override</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a24d0029854e5cdcac829e875cbde3679" id="r_a24d0029854e5cdcac829e875cbde3679"><td class="memItemLeft">const QMap&lt; QString, QPixmap &gt; *&#160;</td><td class="memItemRight"><a class="el" href="#a24d0029854e5cdcac829e875cbde3679">avatarCache</a></td></tr>
+<tr class="memitem:a1e2c01a093bcdd70809fa4be1811e217" id="r_a1e2c01a093bcdd70809fa4be1811e217"><td class="memItemLeft">const QMap&lt; QString, QPixmap &gt; *&#160;</td><td class="memItemRight"><a class="el" href="#a1e2c01a093bcdd70809fa4be1811e217">cardArtCache</a></td></tr>
+<tr class="memitem:afb4bb4d2d9a8767abe2049d53e86e409" id="r_afb4bb4d2d9a8767abe2049d53e86e409"><td class="memItemLeft">const QMap&lt; QString, <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &gt; *&#160;</td><td class="memItemRight"><a class="el" href="#afb4bb4d2d9a8767abe2049d53e86e409">cardArtParamsMap</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="addc38b4151edc31cccda5f81345328a0" name="addc38b4151edc31cccda5f81345328a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addc38b4151edc31cccda5f81345328a0">&#9670;&#160;</a></span>UserListItemDelegate()</h2>
+<a id="a59ee92abf80a64af599d73745852eb15" name="a59ee92abf80a64af599d73745852eb15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59ee92abf80a64af599d73745852eb15">&#9670;&#160;</a></span>UserListItemDelegate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130,8 +138,22 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">UserListItemDelegate::UserListItemDelegate </td>
           <td>(</td>
-          <td class="paramtype">QObject *const</td>          <td class="paramname"><span class="paramname"><em>parent</em></span></td><td>)</td>
+          <td class="paramtype">QObject *const</td>          <td class="paramname"><span class="paramname"><em>parent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const QMap&lt; QString, QPixmap &gt; *</td>          <td class="paramname"><span class="paramname"><em>avatarCache</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QMap&lt; QString, QPixmap &gt; *</td>          <td class="paramname"><span class="paramname"><em>cardArtCache</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QMap&lt; QString, <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &gt; *</td>          <td class="paramname"><span class="paramname"><em>cardArtParamsMap</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -177,6 +199,146 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21e7503cec2b6d836e22ac12e73729a9" name="a21e7503cec2b6d836e22ac12e73729a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21e7503cec2b6d836e22ac12e73729a9">&#9670;&#160;</a></span>paint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserListItemDelegate::paint </td>
+          <td>(</td>
+          <td class="paramtype">QPainter *</td>          <td class="paramname"><span class="paramname"><em>painter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QStyleOptionViewItem &amp;</td>          <td class="paramname"><span class="paramname"><em>option</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d89/classUserListItemDelegate_a21e7503cec2b6d836e22ac12e73729a9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad18b5a0c12fbb997e80c6eed8d530eb9" name="ad18b5a0c12fbb997e80c6eed8d530eb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad18b5a0c12fbb997e80c6eed8d530eb9">&#9670;&#160;</a></span>sizeHint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize UserListItemDelegate::sizeHint </td>
+          <td>(</td>
+          <td class="paramtype">const QStyleOptionViewItem &amp;</td>          <td class="paramname"><span class="paramname"><em>option</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d89/classUserListItemDelegate_ad18b5a0c12fbb997e80c6eed8d530eb9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a24d0029854e5cdcac829e875cbde3679" name="a24d0029854e5cdcac829e875cbde3679"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24d0029854e5cdcac829e875cbde3679">&#9670;&#160;</a></span>avatarCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QMap&lt;QString, QPixmap&gt;* UserListItemDelegate::avatarCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e2c01a093bcdd70809fa4be1811e217" name="a1e2c01a093bcdd70809fa4be1811e217"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e2c01a093bcdd70809fa4be1811e217">&#9670;&#160;</a></span>cardArtCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QMap&lt;QString, QPixmap&gt;* UserListItemDelegate::cardArtCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb4bb4d2d9a8767abe2049d53e86e409" name="afb4bb4d2d9a8767abe2049d53e86e409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb4bb4d2d9a8767abe2049d53e86e409">&#9670;&#160;</a></span>cardArtParamsMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QMap&lt;QString, <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a>&gt;* UserListItemDelegate::cardArtParamsMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

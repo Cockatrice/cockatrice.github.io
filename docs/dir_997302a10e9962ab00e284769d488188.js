@@ -11,6 +11,8 @@ var dir_997302a10e9962ab00e284769d488188 =
     [ "tab_account.h", "d5/d5d/tab__account_8h.html", "d5/d5d/tab__account_8h" ],
     [ "tab_admin.cpp", "d3/db8/tab__admin_8cpp.html", null ],
     [ "tab_admin.h", "d9/db2/tab__admin_8h.html", "d9/db2/tab__admin_8h" ],
+    [ "tab_card_art_rules.cpp", "dd/d8f/tab__card__art__rules_8cpp.html", null ],
+    [ "tab_card_art_rules.h", "d2/d98/tab__card__art__rules_8h.html", "d2/d98/tab__card__art__rules_8h" ],
     [ "tab_deck_editor.cpp", "df/d41/tab__deck__editor_8cpp.html", null ],
     [ "tab_deck_editor.h", "d5/d9f/tab__deck__editor_8h.html", null ],
     [ "tab_deck_storage.cpp", "d7/d97/tab__deck__storage_8cpp.html", null ],

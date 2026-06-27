@@ -1,0 +1,23 @@
+var classUserCardArtSettingsDialog =
+[
+    [ "UserCardArtSettingsDialog", "d4/d35/classUserCardArtSettingsDialog.html#a7f275ec5898ffc993388bae6179cb6f0", null ],
+    [ "initializeSearchBar", "d4/d35/classUserCardArtSettingsDialog.html#a7b33e445f40a1e268594c1987339fbd6", null ],
+    [ "makeSpinBox", "d4/d35/classUserCardArtSettingsDialog.html#a9b21fa0288ccbc90aa63620e012906a5", null ],
+    [ "onCardNameChanged", "d4/d35/classUserCardArtSettingsDialog.html#a369b6f54936c4be6df879b36616b14f6", null ],
+    [ "onParamChanged", "d4/d35/classUserCardArtSettingsDialog.html#ae08de4c9a09a5446b16448d18b7a75ba", null ],
+    [ "params", "d4/d35/classUserCardArtSettingsDialog.html#ad7e847dae2353a4af36184160acadfe3", null ],
+    [ "setupUi", "d4/d35/classUserCardArtSettingsDialog.html#a12ad46f2c9f39789d9784b04934ae062", null ],
+    [ "cardDatabaseDisplayModel", "d4/d35/classUserCardArtSettingsDialog.html#a716aad74dad2752aa1d57c8b75ef3527", null ],
+    [ "cardDatabaseModel", "d4/d35/classUserCardArtSettingsDialog.html#a72d95cf1470912fe9ca76bbde10772ab", null ],
+    [ "completer", "d4/d35/classUserCardArtSettingsDialog.html#a894e5c6e2acb80d77f570822d6d52dbb", null ],
+    [ "currentParams", "d4/d35/classUserCardArtSettingsDialog.html#a2af76bbb0c50b0725929f29a60c29e8f", null ],
+    [ "currentPixmap", "d4/d35/classUserCardArtSettingsDialog.html#a4ce2ebd5a582ddfd631c8debec5db8c4", null ],
+    [ "marginLSpin", "d4/d35/classUserCardArtSettingsDialog.html#ac4e421b8b326a4a6250ef393e5eb47ca", null ],
+    [ "marginRSpin", "d4/d35/classUserCardArtSettingsDialog.html#acc517e8eb897e1004e9cc8b7fd2436db", null ],
+    [ "preview", "d4/d35/classUserCardArtSettingsDialog.html#a7f68eb92b749d4a2683c9f0bcc41dc65", null ],
+    [ "proxyModel", "d4/d35/classUserCardArtSettingsDialog.html#a1f3061d40cae97453c8341f987ab769d", null ],
+    [ "searchBar", "d4/d35/classUserCardArtSettingsDialog.html#a7569d313c814cd20c123e0dd00a0e509", null ],
+    [ "searchModel", "d4/d35/classUserCardArtSettingsDialog.html#aa625ccb9c55296b9dee01579ca936d0f", null ],
+    [ "verticalOffsetSpin", "d4/d35/classUserCardArtSettingsDialog.html#a2dd9925b0baa9a2a9c594b1db369192d", null ],
+    [ "zoomSpin", "d4/d35/classUserCardArtSettingsDialog.html#a1ef178e8d7be2a42f2b24b5fbcb82236", null ]
+];

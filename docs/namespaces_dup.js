@@ -96,10 +96,17 @@ var namespaces_dup =
       [ "fromAccent", "d7/d77/namespacePaletteGenerator.html#a722d278177e39e85802b4458258f151c", null ]
     ] ],
     [ "peg", "dc/db2/namespacepeg.html", "dc/db2/namespacepeg" ],
+    [ "PopupRoles", "d4/d04/namespacePopupRoles.html", [
+      [ "GameData", "d4/d04/namespacePopupRoles.html#aee3b53b3382f1365454509a058ad3641", null ]
+    ] ],
     [ "QtJson", "dc/dfb/namespaceQtJson.html", "dc/dfb/namespaceQtJson" ],
     [ "QtUtils", "dc/d55/namespaceQtUtils.html", [
       [ "clearLayoutRec", "dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301", null ],
       [ "findParentOfType", "dc/d55/namespaceQtUtils.html#a573d4567ad2940b0f5fce244a0f585f6", null ]
+    ] ],
+    [ "UserListRoles", "d7/dc9/namespaceUserListRoles.html", [
+      [ "Online", "d7/dc9/namespaceUserListRoles.html#ad8ce129214f65f5ec323fc8e83c3e596", null ],
+      [ "UserInfo", "d7/dc9/namespaceUserListRoles.html#a208d64623e00f247f41a49b7ee6c7288", null ]
     ] ],
     [ "ZoneNames", "d0/d0f/namespaceZoneNames.html", [
       [ "DECK", "d0/d0f/namespaceZoneNames.html#af8d05d4775040388288c9177ab4dfbf1", null ],

@@ -6,6 +6,7 @@ var classServer =
     [ "addPersistentPlayer", "db/d00/classServer.html#a33666c211fc1a5edac79c0dfe579c502", null ],
     [ "addRoom", "db/d00/classServer.html#a79f1893e316cce06ed224fb767bb14f0", null ],
     [ "broadcastRoomUpdate", "db/d00/classServer.html#a38ec4b8035107714c1fe0a0563172af7", null ],
+    [ "broadcastUserInfoUpdate", "db/d00/classServer.html#ae6405e5ad9aa11de45d5487ff6452bb4", null ],
     [ "doSendIslMessage", "db/d00/classServer.html#a58e79828fe7930d4736e2da4b7a14da8", null ],
     [ "endSession", "db/d00/classServer.html#ab9d826143e9d3ff1c4a34963c3573f18", null ],
     [ "externalGameCommandContainerReceived", "db/d00/classServer.html#adc2f78ec2a185fc0c55151b3c6f46c8a", null ],

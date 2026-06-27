@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Development-3.1.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-26-Development-3.1.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -127,11 +127,16 @@ Signals</h2></td></tr>
 <tr class="memitem:a7232aef733d626b43d48425028d23943" id="r_a7232aef733d626b43d48425028d23943"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7232aef733d626b43d48425028d23943">removeBuddy</a> (const QString &amp;userName)</td></tr>
 <tr class="memitem:adab8614560dde04de431ea2c260557fb" id="r_adab8614560dde04de431ea2c260557fb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adab8614560dde04de431ea2c260557fb">addIgnore</a> (const QString &amp;userName)</td></tr>
 <tr class="memitem:a8a1fc76a53abc05fbafabbd97eed3750" id="r_a8a1fc76a53abc05fbafabbd97eed3750"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8a1fc76a53abc05fbafabbd97eed3750">removeIgnore</a> (const QString &amp;userName)</td></tr>
+<tr class="memitem:ace62e58e3760a79233b03d9cf529ccc1" id="r_ace62e58e3760a79233b03d9cf529ccc1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ace62e58e3760a79233b03d9cf529ccc1">joinGameRequested</a> (int gameId, int roomId, bool asSpectator)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a320f0ae2827805a85ae79b12d702756d" id="r_a320f0ae2827805a85ae79b12d702756d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a320f0ae2827805a85ae79b12d702756d">UserListWidget</a> (<a class="el" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *_tabSupervisor, <a class="el" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *_client, <a class="el" href="#abf013e42f0196e76737d014e9403552c">UserListType</a> _type, QWidget *parent=nullptr)</td></tr>
+<tr class="memitem:a38c37de8b8a69cfa957212e3f2b4792f" id="r_a38c37de8b8a69cfa957212e3f2b4792f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a38c37de8b8a69cfa957212e3f2b4792f">bind</a> (<a class="el" href="../../db/d6d/classUserListManager.html">UserListManager</a> *mgr)</td></tr>
+<tr class="memitem:a5b6e28a2e4469642859e0fa8b578e744" id="r_a5b6e28a2e4469642859e0fa8b578e744"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5b6e28a2e4469642859e0fa8b578e744">applyDisplayMode</a> ()</td></tr>
+<tr class="memitem:acd64901ffbf6d7314e8b5b11c3ef43d8" id="r_acd64901ffbf6d7314e8b5b11c3ef43d8"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#acd64901ffbf6d7314e8b5b11c3ef43d8">eventFilter</a> (QObject *obj, QEvent *event) override</td></tr>
 <tr class="memitem:aa8c1d7dd437c33cc6d9df0505ce82a82" id="r_aa8c1d7dd437c33cc6d9df0505ce82a82"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa8c1d7dd437c33cc6d9df0505ce82a82">retranslateUi</a> ()</td></tr>
+<tr class="memitem:a5fec1ac5364c6ad4473ea2d80907c646" id="r_a5fec1ac5364c6ad4473ea2d80907c646"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5fec1ac5364c6ad4473ea2d80907c646">rebuild</a> ()</td></tr>
 <tr class="memitem:a7f0bb1a942c168f2f4f0c3ca3213aa32" id="r_a7f0bb1a942c168f2f4f0c3ca3213aa32"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7f0bb1a942c168f2f4f0c3ca3213aa32">processUserInfo</a> (const ServerInfo_User &amp;user, bool online)</td></tr>
 <tr class="memitem:ae9968538297ad9b2c45d2917d6392cd4" id="r_ae9968538297ad9b2c45d2917d6392cd4"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae9968538297ad9b2c45d2917d6392cd4">deleteUser</a> (const QString &amp;userName)</td></tr>
 <tr class="memitem:a87badc0d753302d15a4e5e61c5659b35" id="r_a87badc0d753302d15a4e5e61c5659b35"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a87badc0d753302d15a4e5e61c5659b35">setUserOnline</a> (const QString &amp;userName, bool online)</td></tr>
@@ -139,16 +144,34 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a76cdb35be6e0d7b1c9c5739da746cfb1" id="r_a76cdb35be6e0d7b1c9c5739da746cfb1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a76cdb35be6e0d7b1c9c5739da746cfb1">showContextMenu</a> (const QPoint &amp;pos, const QModelIndex &amp;index)</td></tr>
 <tr class="memitem:aee416abdd4300fed647df458a2dc4094" id="r_aee416abdd4300fed647df458a2dc4094"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aee416abdd4300fed647df458a2dc4094">sortItems</a> ()</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:adebfb54b41ac9b3294aed8a037562eca" id="r_adebfb54b41ac9b3294aed8a037562eca"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adebfb54b41ac9b3294aed8a037562eca">hideEvent</a> (QHideEvent *e) override</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a0befc4d9d5a63a09920d5e2245c886ae" id="r_a0befc4d9d5a63a09920d5e2245c886ae"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0befc4d9d5a63a09920d5e2245c886ae">userClicked</a> (QTreeWidgetItem *item, int column)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a4d3c9d48049de5889ad4fbef2580c240" id="r_a4d3c9d48049de5889ad4fbef2580c240"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4d3c9d48049de5889ad4fbef2580c240">showPopupForUser</a> (const QString &amp;userName)</td></tr>
+<tr class="memitem:abfefb9a856d3266e1487eecd7f8c7bc4" id="r_abfefb9a856d3266e1487eecd7f8c7bc4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abfefb9a856d3266e1487eecd7f8c7bc4">hidePopup</a> (bool immediate=false)</td></tr>
+<tr class="memitem:ad99ecf2461eea3fa6e437f2c34460adb" id="r_ad99ecf2461eea3fa6e437f2c34460adb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad99ecf2461eea3fa6e437f2c34460adb">positionPopup</a> (const QString &amp;userName)</td></tr>
+<tr class="memitem:a5349c83a77cf8f31d65787cee76b1eec" id="r_a5349c83a77cf8f31d65787cee76b1eec"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5349c83a77cf8f31d65787cee76b1eec">connectPopupSignals</a> ()</td></tr>
 <tr class="memitem:afd363f7dfe762e6552f01f8701b0bfdd" id="r_afd363f7dfe762e6552f01f8701b0bfdd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afd363f7dfe762e6552f01f8701b0bfdd">updateCount</a> ()</td></tr>
+<tr class="memitem:a8e3cd49fb08136b5589fbd135a524cd0" id="r_a8e3cd49fb08136b5589fbd135a524cd0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8e3cd49fb08136b5589fbd135a524cd0">refreshPopupButtons</a> (const QString &amp;userName)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a47385c70b5c39357a2cea5f5f862930a" id="r_a47385c70b5c39357a2cea5f5f862930a"><td class="memItemLeft"><a class="el" href="../../db/d6d/classUserListManager.html">UserListManager</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a47385c70b5c39357a2cea5f5f862930a">manager</a> = nullptr</td></tr>
+<tr class="memitem:a1f9029bb8a103f7ca7bb7061c3209fc1" id="r_a1f9029bb8a103f7ca7bb7061c3209fc1"><td class="memItemLeft"><a class="el" href="../../d9/d2b/classUserAvatarProvider.html">UserAvatarProvider</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a1f9029bb8a103f7ca7bb7061c3209fc1">avatarProvider</a> = nullptr</td></tr>
+<tr class="memitem:a08c6b6d78c02282556f6d69957dd524f" id="r_a08c6b6d78c02282556f6d69957dd524f"><td class="memItemLeft"><a class="el" href="../../dc/d12/classUserCardArtProvider.html">UserCardArtProvider</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a08c6b6d78c02282556f6d69957dd524f">cardArtProvider</a> = nullptr</td></tr>
+<tr class="memitem:a4821515adc2ff2cc61c6f9c210a62a87" id="r_a4821515adc2ff2cc61c6f9c210a62a87"><td class="memItemLeft">QMap&lt; QString, <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a4821515adc2ff2cc61c6f9c210a62a87">cardArtParamsMap</a></td></tr>
+<tr class="memitem:a1bec5dba933ed6a70d87e010f89551ca" id="r_a1bec5dba933ed6a70d87e010f89551ca"><td class="memItemLeft"><a class="el" href="../../df/d81/classUserInfoPopup.html">UserInfoPopup</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a1bec5dba933ed6a70d87e010f89551ca">m_userInfoPopup</a> = nullptr</td></tr>
+<tr class="memitem:a420a3295f4b88dfd7c1e6f3cb6478fb4" id="r_a420a3295f4b88dfd7c1e6f3cb6478fb4"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#a420a3295f4b88dfd7c1e6f3cb6478fb4">m_showPopupTimer</a> = nullptr</td></tr>
+<tr class="memitem:ad8c653dd10170248366347d3f7b16120" id="r_ad8c653dd10170248366347d3f7b16120"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#ad8c653dd10170248366347d3f7b16120">m_hidePopupTimer</a> = nullptr</td></tr>
+<tr class="memitem:a6053a3c5a8087c04f2a6cb32c3b17086" id="r_a6053a3c5a8087c04f2a6cb32c3b17086"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a6053a3c5a8087c04f2a6cb32c3b17086">m_hoveredUser</a></td></tr>
+<tr class="memitem:a325a08ff337ae6bdb947cd3520efe3d2" id="r_a325a08ff337ae6bdb947cd3520efe3d2"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a325a08ff337ae6bdb947cd3520efe3d2">m_popupPinned</a> = false</td></tr>
 <tr class="memitem:ab706d3c922d675f365ddf0ea36078876" id="r_ab706d3c922d675f365ddf0ea36078876"><td class="memItemLeft">QMap&lt; QString, <a class="el" href="../../dd/dc7/classUserListTWI.html">UserListTWI</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab706d3c922d675f365ddf0ea36078876">users</a></td></tr>
 <tr class="memitem:a419f8420e8682540f1e38421dee437ab" id="r_a419f8420e8682540f1e38421dee437ab"><td class="memItemLeft"><a class="el" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a419f8420e8682540f1e38421dee437ab">tabSupervisor</a></td></tr>
 <tr class="memitem:af40c666f892ecce4f2477d682af3a0d1" id="r_af40c666f892ecce4f2477d682af3a0d1"><td class="memItemLeft"><a class="el" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af40c666f892ecce4f2477d682af3a0d1">client</a></td></tr>
@@ -212,7 +235,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a320f0ae2827805a85ae79b12d702756d_cgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a320f0ae2827805a85ae79b12d702756d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -268,6 +291,85 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a5b6e28a2e4469642859e0fa8b578e744" name="a5b6e28a2e4469642859e0fa8b578e744"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b6e28a2e4469642859e0fa8b578e744">&#9670;&#160;</a></span>applyDisplayMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserListWidget::applyDisplayMode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a5b6e28a2e4469642859e0fa8b578e744_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a38c37de8b8a69cfa957212e3f2b4792f" name="a38c37de8b8a69cfa957212e3f2b4792f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38c37de8b8a69cfa957212e3f2b4792f">&#9670;&#160;</a></span>bind()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserListWidget::bind </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d6d/classUserListManager.html">UserListManager</a> *</td>          <td class="paramname"><span class="paramname"><em>mgr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a38c37de8b8a69cfa957212e3f2b4792f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a5349c83a77cf8f31d65787cee76b1eec" name="a5349c83a77cf8f31d65787cee76b1eec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5349c83a77cf8f31d65787cee76b1eec">&#9670;&#160;</a></span>connectPopupSignals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserListWidget::connectPopupSignals </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a5349c83a77cf8f31d65787cee76b1eec_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a5349c83a77cf8f31d65787cee76b1eec_icgraph.svg" width="462" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ae9968538297ad9b2c45d2917d6392cd4" name="ae9968538297ad9b2c45d2917d6392cd4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae9968538297ad9b2c45d2917d6392cd4">&#9670;&#160;</a></span>deleteUser()</h2>
 
@@ -290,7 +392,41 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_ae9968538297ad9b2c45d2917d6392cd4_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_ae9968538297ad9b2c45d2917d6392cd4_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="acd64901ffbf6d7314e8b5b11c3ef43d8" name="acd64901ffbf6d7314e8b5b11c3ef43d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd64901ffbf6d7314e8b5b11c3ef43d8">&#9670;&#160;</a></span>eventFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UserListWidget::eventFilter </td>
+          <td>(</td>
+          <td class="paramtype">QObject *</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_acd64901ffbf6d7314e8b5b11c3ef43d8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -314,6 +450,100 @@ Here is the caller graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adebfb54b41ac9b3294aed8a037562eca" name="adebfb54b41ac9b3294aed8a037562eca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adebfb54b41ac9b3294aed8a037562eca">&#9670;&#160;</a></span>hideEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserListWidget::hideEvent </td>
+          <td>(</td>
+          <td class="paramtype">QHideEvent *</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_adebfb54b41ac9b3294aed8a037562eca_cgraph.svg" width="451" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="abfefb9a856d3266e1487eecd7f8c7bc4" name="abfefb9a856d3266e1487eecd7f8c7bc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfefb9a856d3266e1487eecd7f8c7bc4">&#9670;&#160;</a></span>hidePopup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserListWidget::hidePopup </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>immediate</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_abfefb9a856d3266e1487eecd7f8c7bc4_icgraph.svg" width="100%" height="414"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ace62e58e3760a79233b03d9cf529ccc1" name="ace62e58e3760a79233b03d9cf529ccc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace62e58e3760a79233b03d9cf529ccc1">&#9670;&#160;</a></span>joinGameRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserListWidget::joinGameRequested </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>gameId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>roomId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>asSpectator</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -354,6 +584,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ad99ecf2461eea3fa6e437f2c34460adb" name="ad99ecf2461eea3fa6e437f2c34460adb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad99ecf2461eea3fa6e437f2c34460adb">&#9670;&#160;</a></span>positionPopup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserListWidget::positionPopup </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_ad99ecf2461eea3fa6e437f2c34460adb_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a7f0bb1a942c168f2f4f0c3ca3213aa32" name="a7f0bb1a942c168f2f4f0c3ca3213aa32"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f0bb1a942c168f2f4f0c3ca3213aa32">&#9670;&#160;</a></span>processUserInfo()</h2>
 
@@ -375,12 +635,74 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a7f0bb1a942c168f2f4f0c3ca3213aa32_cgraph.svg" width="100%" height="448"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a7f0bb1a942c168f2f4f0c3ca3213aa32_cgraph.svg" width="100%" height="485"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a7f0bb1a942c168f2f4f0c3ca3213aa32_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a7f0bb1a942c168f2f4f0c3ca3213aa32_icgraph.svg" width="100%" height="395"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a5fec1ac5364c6ad4473ea2d80907c646" name="a5fec1ac5364c6ad4473ea2d80907c646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fec1ac5364c6ad4473ea2d80907c646">&#9670;&#160;</a></span>rebuild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserListWidget::rebuild </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a5fec1ac5364c6ad4473ea2d80907c646_cgraph.svg" width="100%" height="485"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a5fec1ac5364c6ad4473ea2d80907c646_icgraph.svg" width="391" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8e3cd49fb08136b5589fbd135a524cd0" name="a8e3cd49fb08136b5589fbd135a524cd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e3cd49fb08136b5589fbd135a524cd0">&#9670;&#160;</a></span>refreshPopupButtons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserListWidget::refreshPopupButtons </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a8e3cd49fb08136b5589fbd135a524cd0_cgraph.svg" width="483" height="200"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a8e3cd49fb08136b5589fbd135a524cd0_icgraph.svg" width="431" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -454,11 +776,6 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_aa8c1d7dd437c33cc6d9df0505ce82a82_cgraph.svg" width="486" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_aa8c1d7dd437c33cc6d9df0505ce82a82_icgraph.svg" width="456" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
@@ -484,6 +801,11 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a87badc0d753302d15a4e5e61c5659b35_cgraph.svg" width="492" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a87badc0d753302d15a4e5e61c5659b35_icgraph.svg" width="438" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -514,6 +836,41 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a4d3c9d48049de5889ad4fbef2580c240" name="a4d3c9d48049de5889ad4fbef2580c240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d3c9d48049de5889ad4fbef2580c240">&#9670;&#160;</a></span>showPopupForUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserListWidget::showPopupForUser </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a4d3c9d48049de5889ad4fbef2580c240_cgraph.svg" width="446" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_a4d3c9d48049de5889ad4fbef2580c240_icgraph.svg" width="444" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="aee416abdd4300fed647df458a2dc4094" name="aee416abdd4300fed647df458a2dc4094"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee416abdd4300fed647df458a2dc4094">&#9670;&#160;</a></span>sortItems()</h2>
 
@@ -531,7 +888,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_aee416abdd4300fed647df458a2dc4094_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_aee416abdd4300fed647df458a2dc4094_icgraph.svg" width="100%" height="414"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -561,7 +918,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_afd363f7dfe762e6552f01f8701b0bfdd_icgraph.svg" width="100%" height="455"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d3b/classUserListWidget_afd363f7dfe762e6552f01f8701b0bfdd_icgraph.svg" width="100%" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -606,6 +963,72 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a1f9029bb8a103f7ca7bb7061c3209fc1" name="a1f9029bb8a103f7ca7bb7061c3209fc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f9029bb8a103f7ca7bb7061c3209fc1">&#9670;&#160;</a></span>avatarProvider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d2b/classUserAvatarProvider.html">UserAvatarProvider</a>* UserListWidget::avatarProvider = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4821515adc2ff2cc61c6f9c210a62a87" name="a4821515adc2ff2cc61c6f9c210a62a87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4821515adc2ff2cc61c6f9c210a62a87">&#9670;&#160;</a></span>cardArtParamsMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a>&gt; UserListWidget::cardArtParamsMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a08c6b6d78c02282556f6d69957dd524f" name="a08c6b6d78c02282556f6d69957dd524f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08c6b6d78c02282556f6d69957dd524f">&#9670;&#160;</a></span>cardArtProvider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d12/classUserCardArtProvider.html">UserCardArtProvider</a>* UserListWidget::cardArtProvider = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af40c666f892ecce4f2477d682af3a0d1" name="af40c666f892ecce4f2477d682af3a0d1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af40c666f892ecce4f2477d682af3a0d1">&#9670;&#160;</a></span>client</h2>
 
@@ -639,6 +1062,138 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../dc/d89/classUserListItemDelegate.html">UserListItemDelegate</a>* UserListWidget::itemDelegate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8c653dd10170248366347d3f7b16120" name="ad8c653dd10170248366347d3f7b16120"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8c653dd10170248366347d3f7b16120">&#9670;&#160;</a></span>m_hidePopupTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTimer* UserListWidget::m_hidePopupTimer = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6053a3c5a8087c04f2a6cb32c3b17086" name="a6053a3c5a8087c04f2a6cb32c3b17086"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6053a3c5a8087c04f2a6cb32c3b17086">&#9670;&#160;</a></span>m_hoveredUser</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString UserListWidget::m_hoveredUser</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a325a08ff337ae6bdb947cd3520efe3d2" name="a325a08ff337ae6bdb947cd3520efe3d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a325a08ff337ae6bdb947cd3520efe3d2">&#9670;&#160;</a></span>m_popupPinned</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UserListWidget::m_popupPinned = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a420a3295f4b88dfd7c1e6f3cb6478fb4" name="a420a3295f4b88dfd7c1e6f3cb6478fb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a420a3295f4b88dfd7c1e6f3cb6478fb4">&#9670;&#160;</a></span>m_showPopupTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTimer* UserListWidget::m_showPopupTimer = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1bec5dba933ed6a70d87e010f89551ca" name="a1bec5dba933ed6a70d87e010f89551ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bec5dba933ed6a70d87e010f89551ca">&#9670;&#160;</a></span>m_userInfoPopup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d81/classUserInfoPopup.html">UserInfoPopup</a>* UserListWidget::m_userInfoPopup = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47385c70b5c39357a2cea5f5f862930a" name="a47385c70b5c39357a2cea5f5f862930a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47385c70b5c39357a2cea5f5f862930a">&#9670;&#160;</a></span>manager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d6d/classUserListManager.html">UserListManager</a>* UserListWidget::manager = nullptr</td>
         </tr>
       </table>
   </td>
