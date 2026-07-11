@@ -9,8 +9,9 @@ let ubuntu = fallbackDownloadUrl;
 let debian = fallbackDownloadUrl;
 let fedora = fallbackDownloadUrl;
 
-// Update download links based on the latest release assets
 $.getJSON(githubReleasesAPI, function (json) {
+
+    // Update download links based on the latest release assets
     for (asset of json.assets) {
         url = asset.browser_download_url;
         console.log(url);
@@ -33,24 +34,20 @@ $.getJSON(githubReleasesAPI, function (json) {
             fedora = url;
         }
     }
-
     $('#win64').attr('href', win64);
     $('#macOS_latest').attr('href', macOS_latest);
     $('#macOS_legacy').attr('href', macOS_legacy);
     $('#ubuntu').attr('href', ubuntu);
     $('#debian').attr('href', debian);
     $('#fedora').attr('href', fedora);
-}).fail(function() {
-    console.error('Failed to fetch download links.');
-});
 
-// Update news section with the latest release information
-$.getJSON(githubReleasesAPI, function(json) {
+    // Update news section with the latest release information
     var releaseName = json.name;
     var releaseDate = new Date(json.published_at).toISOString().split('T')[0];
     var releaseUrl = json.html_url;
     var newsItem = `<li><kbd>${releaseDate}</kbd> <a href="${releaseUrl}" target="_blank" rel="noreferrer">${releaseName}</a> released!</li>`;
     $('#news-list').html(newsItem);    // Replace static content with newest release item fetched
+
 }).fail(function() {
-    console.error('Failed to fetch release news.');
+    console.error('Failed to fetch latest GitHub release.');
 });
