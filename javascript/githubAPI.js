@@ -27,7 +27,7 @@ function updateReleaseNews(json) {
 
     const newsItem = `<li><kbd>${releaseDate}</kbd> <a href="${releaseURL}" target="_blank" rel="noreferrer">${releaseName}</a> released!</li>`;
 
-    $('#news-list').html(newsItem);
+    document.getElementById('news-list').innerHTML = newsItem;
 }
     
 // Update download links based on the latest release assets
@@ -63,10 +63,11 @@ function updateDownloadLinks(json) {
         }
     }
 
-    $('#win64').attr('href', win);
-    $('#macOS_latest').attr('href', mac);
-    $('#macOS_legacy').attr('href', macIntel);
-    $('#ubuntu').attr('href', ubuntu);
-    $('#debian').attr('href', debian);
-    $('#fedora').attr('href', fedora);
+    // Update download buttons with new links
+    document.getElementById('win64').href = win;
+    document.getElementById('macOS_latest').href = mac;
+    document.getElementById('macOS_legacy').href = macIntel;
+    document.getElementById('ubuntu').href = ubuntu;
+    document.getElementById('debian').href = debian;
+    document.getElementById('fedora').href = fedora;
 }
