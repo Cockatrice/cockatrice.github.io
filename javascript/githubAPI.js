@@ -11,6 +11,13 @@ let fedora = fallbackDownloadUrl;
 
 $.getJSON(githubReleasesAPI, function (json) {
 
+    // Update news section with latest release information
+    var releaseName = json.name;
+    var releaseDate = new Date(json.published_at).toISOString().split('T')[0];
+    var releaseUrl = json.html_url;
+    var newsItem = `<li><kbd>${releaseDate}</kbd> <a href="${releaseUrl}" target="_blank" rel="noreferrer">${releaseName}</a> released!</li>`;
+    $('#news-list').html(newsItem);    // Replace static content with newest release item fetched
+
     // Update download links based on the latest release assets
     for (asset of json.assets) {
         url = asset.browser_download_url;
@@ -40,13 +47,6 @@ $.getJSON(githubReleasesAPI, function (json) {
     $('#ubuntu').attr('href', ubuntu);
     $('#debian').attr('href', debian);
     $('#fedora').attr('href', fedora);
-
-    // Update news section with the latest release information
-    var releaseName = json.name;
-    var releaseDate = new Date(json.published_at).toISOString().split('T')[0];
-    var releaseUrl = json.html_url;
-    var newsItem = `<li><kbd>${releaseDate}</kbd> <a href="${releaseUrl}" target="_blank" rel="noreferrer">${releaseName}</a> released!</li>`;
-    $('#news-list').html(newsItem);    // Replace static content with newest release item fetched
 
 }).fail(function() {
     console.error('Failed to fetch latest GitHub release.');
