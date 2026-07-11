@@ -1,14 +1,16 @@
 var githubReleasesAPI = "https://api.github.com/repos/Cockatrice/Cockatrice/releases/latest";
 
+const fallbackDownloadUrl = "https://github.com/Cockatrice/Cockatrice/releases/latest";
+
+let win64 = fallbackDownloadUrl;
+let macOS_latest = fallbackDownloadUrl;
+let macOS_legacy = fallbackDownloadUrl;
+let ubuntu = fallbackDownloadUrl;
+let debian = fallbackDownloadUrl;
+let fedora = fallbackDownloadUrl;
+
 // Update download links based on the latest release assets
 $.getJSON(githubReleasesAPI, function (json) {
-    var win64 = 'https://github.com/Cockatrice/Cockatrice/releases/latest';
-    var macOS_latest = 'https://github.com/Cockatrice/Cockatrice/releases/latest';
-    var macOS_legacy = 'https://github.com/Cockatrice/Cockatrice/releases/latest';
-    var ubuntu = 'https://github.com/Cockatrice/Cockatrice/releases/latest';
-    var debian = 'https://github.com/Cockatrice/Cockatrice/releases/latest';
-    var fedora = 'https://github.com/Cockatrice/Cockatrice/releases/latest';
-
     for (asset of json.assets) {
         url = asset.browser_download_url;
         console.log(url);
