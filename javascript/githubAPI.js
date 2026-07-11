@@ -1,5 +1,14 @@
 const githubReleasesAPI = "https://api.github.com/repos/Cockatrice/Cockatrice/releases/latest";
+
 const fallbackDownloadURL = "https://github.com/Cockatrice/Cockatrice/releases/latest";
+
+// TODO: Update regex patterns
+const windowsRegex = /(?:Win|Windows)(\d+).*\.exe$/i;
+const macRegex = /-macOS(\d+)/i;
+const macIntelRegex = /Intel/i;
+const ubuntuRegex = /-Ubuntu(\d+\.\d+)\.deb$/i;
+const debianRegex = /-Debian(\d+)\.deb$/i;
+const fedoraRegex = /-Fedora(\d+)\.rpm$/i;
 
 async function updatePage() {
     try {
@@ -39,30 +48,80 @@ function updateDownloadLinks(json) {
     let debian = fallbackDownloadURL;
     let fedora = fallbackDownloadURL;
 
+    let oldestWindowsVersion = Infinity;
+    let oldestMacVersion = Infinity;
+    let oldestMacIntelVersion = Infinity;
+
+    let newestUbuntuVersion = -1;
+    let newestDebianVersion = -1;
+    let newestFedoraVersion = -1;
+
     for (const asset of json.assets) {
         const downloadURL = asset.browser_download_url;
         console.debug(downloadURL);
 
-        if (downloadURL.includes('Win10')) {
-            win = downloadURL;
+        let match;
+
+        match = downloadURL.match(windowsRegex);
+        if (match) {
+            const version = Number(match[1]);
+
+            if (version < oldestWindowsVersion) {
+                oldestWindowsVersion = version;
+                win = downloadURL;
+            }
         }
-        else if (downloadURL.includes('macOS15')) {
-            mac = downloadURL;
+
+        match = downloadURL.match(macRegex);
+        if (match) {
+            const version = Number(match[1]);
+
+            if (intelRegex.test(downloadURL)) {
+                if (version < oldestMacIntelVersion) {
+                    oldestMacIntelVersion = version;
+                    macIntel = downloadURL;
+                }
+            } else {
+                if (version < oldestMacVersion) {
+                    oldestMacVersion = version;
+                    mac = downloadURL;
+                }
+            }
         }
-        else if (downloadURL.includes('macOS13')) {
-            macIntel = downloadURL;
+
+        match = downloadURL.match(ubuntuRegex);
+        if (match) {
+            const version = parseFloat(match[1]);    // version is e.g. "26.04"
+
+            if (version > newestUbuntuVersion) {
+                newestUbuntuVersion = version;
+                ubuntu = downloadURL;
+            }
         }
-        else if (downloadURL.includes('Ubuntu26')) {
-            ubuntu = downloadURL;
+
+        // version is hardcoded so as not to pick up servatrice debian by accident
+        match = downloadURL.match(debianRegex);
+        if (match) {
+            const version = Number(match[1]);
+
+            if (version > newestDebianVersion) {
+                newestDebianVersion = version;
+                debian = downloadURL;
+            }
         }
-        else if (downloadURL.includes("Debian13")) {    //version is hardcoded so as not to pick up servatrice debian by accident
-            debian = downloadURL;
-        }
-        else if (downloadURL.includes("Fedora")) {
-            fedora = downloadURL;
+
+        match = downloadURL.match(fedoraRegex);
+        if (match) {
+            const version = Number(match[1]);
+
+            if (version > newestFedoraVersion) {
+                newestFedoraVersion = version;
+                fedora = downloadURL;
+            }
         }
     }
 
+    // TODO: change to new names (html + here)
     // Update download buttons with new links
     document.getElementById('win64').href = win;
     document.getElementById('macOS_latest').href = mac;
