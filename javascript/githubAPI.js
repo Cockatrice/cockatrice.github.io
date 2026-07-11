@@ -1,44 +1,43 @@
-var githubReleasesAPI = "https://api.github.com/repos/Cockatrice/Cockatrice/releases/latest";
+const githubReleasesAPI = "https://api.github.com/repos/Cockatrice/Cockatrice/releases/latest";
+const fallbackDownloadURL = "https://github.com/Cockatrice/Cockatrice/releases/latest";
 
-const fallbackDownloadUrl = "https://github.com/Cockatrice/Cockatrice/releases/latest";
-
-let win64 = fallbackDownloadUrl;
-let macOS_latest = fallbackDownloadUrl;
-let macOS_legacy = fallbackDownloadUrl;
-let ubuntu = fallbackDownloadUrl;
-let debian = fallbackDownloadUrl;
-let fedora = fallbackDownloadUrl;
+let win64 = fallbackDownloadURL;
+let macOS_latest = fallbackDownloadURL;
+let macOS_legacy = fallbackDownloadURL;
+let ubuntu = fallbackDownloadURL;
+let debian = fallbackDownloadURL;
+let fedora = fallbackDownloadURL;
 
 $.getJSON(githubReleasesAPI, function (json) {
 
     // Update news section with latest release information
-    var releaseName = json.name;
-    var releaseDate = new Date(json.published_at).toISOString().split('T')[0];
-    var releaseUrl = json.html_url;
-    var newsItem = `<li><kbd>${releaseDate}</kbd> <a href="${releaseUrl}" target="_blank" rel="noreferrer">${releaseName}</a> released!</li>`;
+    const releaseName = json.name;
+    const releaseDate = new Date(json.published_at).toISOString().split('T')[0];
+    const releaseURL = json.html_url;
+    const newsItem = `<li><kbd>${releaseDate}</kbd> <a href="${releaseUrl}" target="_blank" rel="noreferrer">${releaseName}</a> released!</li>`;
     $('#news-list').html(newsItem);    // Replace static content with newest release item fetched
 
     // Update download links based on the latest release assets
-    for (asset of json.assets) {
-        url = asset.browser_download_url;
-        console.log(url);
-        if (url.includes('Win10')) {
-            win64 = url;
+    for (const asset of json.assets) {
+        const assetURL = asset.browser_download_url;
+        console.log(assetURL);
+        if (assetURL.includes('Win10')) {
+            win64 = assetUrl;
         }
-        else if (url.includes('macOS15')) {
-            macOS_latest = url;
+        else if (assetURL.includes('macOS15')) {
+            macOS_latest = assetUrl;
         }
-        else if (url.includes('macOS13')) {
-            macOS_legacy = url;
+        else if (assetURL.includes('macOS13')) {
+            macOS_legacy = assetUrl;
         }
-        else if (url.includes('Ubuntu26')) {
-            ubuntu = url;
+        else if (assetURL.includes('Ubuntu26')) {
+            ubuntu = assetUrl;
         }
-        else if (url.includes("Debian13")) {
-            debian = url;
+        else if (assetURL.includes("Debian13")) {
+            debian = assetUrl;
         } //version is hardcoded so as not to pick up servatrice debian by accident
-        else if (url.includes("Fedora")) {
-            fedora = url;
+        else if (assetURL.includes("Fedora")) {
+            fedora = assetUrl;
         }
     }
     $('#win64').attr('href', win64);
