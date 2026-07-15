@@ -2,13 +2,13 @@ const githubReleasesAPI = "https://api.github.com/repos/Cockatrice/Cockatrice/re
 
 const fallbackDownloadURL = "https://github.com/Cockatrice/Cockatrice/releases/latest";
 
-// TODO: Update regex patterns
-const windowsRegex = /(?:Win|Windows)(\d+).*\.exe$/i;
-const macOsRegex = /-macOS(\d+)/i;
-const macOsIntelRegex = /Intel/i;
-const ubuntuRegex = /-Ubuntu(\d+\.\d+)\.deb$/i;
-const debianRegex = /-Debian(\d+)\.deb$/i;
-const fedoraRegex = /-Fedora(\d+)\.rpm$/i;
+// TODO: Update regex patterns (adjust other PR equally - updater logic in c++)
+const windowsRegex = /-(?:Win|Windows)(\d+).*\.exe$/i;    // "-Windows10.exe"
+const macOsRegex = /-macOS(\d+)/i;                        // "-macOS14.dmg"
+const macOsIntelRegex = /Intel/i;                         // "-macOS13_Intel.dmg"
+const ubuntuRegex = /-Ubuntu(\d+\.\d+)\.deb$/i;           // "-Ubuntu25.10.deb"
+const debianRegex = /-Debian(\d+)\.deb$/i;                // "-Debian13.deb"
+const fedoraRegex = /-Fedora(\d+)\.rpm$/i;                // "-Fedora44.rpm"
 
 async function updateWebpage() {
     try {
@@ -48,14 +48,25 @@ function updateDownloadLinks(json) {
     let debianDownloadURL = fallbackDownloadURL;
     let fedoraDownloadURL = fallbackDownloadURL;
 
-    // Store best matching version according to OS specific compatibility strategy
-    let oldestWindowsVersion = Infinity;
-    let oldestMacOsVersion = Infinity;
-    let oldestMacOsIntelVersion = Infinity;
-    let newestUbuntuVersion = -1;
-    let newestDebianVersion = -1;
-    let newestFedoraVersion = -1;
+	// Windows/macOS: Start with the largest possible value and find smallest version available
+    // Linux distros: Start with the smallest possible value and find biggest version available
+    let windowsOldestVersionValue = Infinity;
+    let macOsOldestVersionValue = Infinity;
+    let macOsIntelOldestVersionValue = Infinity;
+    let ubuntuNewestVersionValue = -Infinity;
+    let debianNewestVersionValue = -Infinity;
+    let fedoraNewestVersionValue = -Infinity;
 
+    let windowsTargetVersion = "";
+    let macOsTargetVersion = "";
+    let macOsIntelTargetVersion = "";
+    let ubuntuTargetVersion = "";
+    let debianTargetVersion = "";
+    let fedoraTargetVersion = "";
+
+    // Store best matching version according to OS specific compatibility rules:
+    // Windows/macOS: pick oldest targeted version (lowest number), assets will work on newer OS versions
+    // Linux distros: pick newest targeted version (highest number), newer OS require assets targeting new versions
     for (const asset of json.assets) {
         const downloadURL = asset.browser_download_url;
         console.debug(downloadURL);
@@ -65,10 +76,11 @@ function updateDownloadLinks(json) {
         // Windows
         match = downloadURL.match(windowsRegex);
         if (match) {
-            const version = Number(match[1]);
+            const versionValue = Number(match[1]);
 
-            if (version < oldestWindowsVersion) {
-                oldestWindowsVersion = version;
+            if (versionValue < windowsOldestVersionValue) {
+                windowsOldestVersionValue = versionValue;
+				windowsTargetVersion = versionValue + "+";
                 windowsDownloadURL = downloadURL;
             }
         }
@@ -76,18 +88,20 @@ function updateDownloadLinks(json) {
         // macOS
         match = downloadURL.match(macOsRegex);
         if (match) {
-            const version = Number(match[1]);
+            const versionValue = Number(match[1]);
 
             // Intel CPU (x86)
             if (macOsIntelRegex.test(downloadURL)) {
-                if (version < oldestMacOsIntelVersion) {
-                    oldestMacOsIntelVersion = version;
+                if (versionValue < macOsIntelOldestVersionValue) {
+                    macOsIntelOldestVersionValue = versionValue;
+                    macOsIntelTargetVersion = versionValue + "+ (Intel)";
                     macOsIntelDownloadURL = downloadURL;
                 }
             // Apple Silicon CPU (ARM)
             } else {
-                if (version < oldestMacOsVersion) {
-                    oldestMacOsVersion = version;
+                if (versionValue < macOsOldestVersionValue) {
+                    macOsOldestVersionValue = versionValue;
+                    macOsTargetVersion = versionValue + "+";
                     macOsDownloadURL = downloadURL;
                 }
             }
@@ -96,10 +110,11 @@ function updateDownloadLinks(json) {
         // Ubuntu
         match = downloadURL.match(ubuntuRegex);
         if (match) {
-            const version = parseFloat(match[1]);    // version is e.g. "26.04"
+            const versionValue = Number(match[1]);    // "25.10" --> 25.1, numeric comparison is still safe for Ubuntu's YY.04 / YY.10 release convention
 
-            if (version > newestUbuntuVersion) {
-                newestUbuntuVersion = version;
+            if (versionValue > ubuntuNewestVersionValue) {
+                ubuntuNewestVersionValue = versionValue;
+                ubuntuTargetVersion = versionValue.toFixed(2);    // 25.1 --> "25.10"
                 ubuntuDownloadURL = downloadURL;
             }
         }
@@ -107,10 +122,11 @@ function updateDownloadLinks(json) {
         // Debian
         match = downloadURL.match(debianRegex);
         if (match) {
-            const version = Number(match[1]);
+            const versionValue = Number(match[1]);
 
-            if (version > newestDebianVersion) {
-                newestDebianVersion = version;
+            if (versionValue > debianNewestVersionValue) {
+                debianNewestVersionValue = versionValue;
+                debianTargetVersion = versionValue;
                 debianDownloadURL = downloadURL;
             }
         }
@@ -118,10 +134,11 @@ function updateDownloadLinks(json) {
         // Fedora
         match = downloadURL.match(fedoraRegex);
         if (match) {
-            const version = Number(match[1]);
+            const versionValue = Number(match[1]);
 
-            if (version > newestFedoraVersion) {
-                newestFedoraVersion = version;
+            if (versionValue > fedoraNewestVersionValue) {
+                fedoraNewestVersionValue = versionValue;
+                fedoraTargetVersion = versionValue;
                 fedoraDownloadURL = downloadURL;
             }
         }
@@ -134,6 +151,13 @@ function updateDownloadLinks(json) {
     document.getElementById('ubuntuDownloadButton').href = ubuntuDownloadURL;
     document.getElementById('debianDownloadButton').href = debianDownloadURL;
     document.getElementById('fedoraDownloadButton').href = fedoraDownloadURL;
+
+    document.getElementById("windowsTargetVersion").textContent = windowsTargetVersion;
+    document.getElementById("macOsTargetVersion").textContent = macOsTargetVersion;
+    document.getElementById("macOsIntelTargetVersion").textContent = macOsIntelTargetVersion;
+    document.getElementById("ubuntuTargetVersion").textContent = ubuntuTargetVersion;
+    document.getElementById("debianTargetVersion").textContent = debianTargetVersion;
+    document.getElementById("fedoraTargetVersion").textContent = fedoraTargetVersion;
 }
 
 updateWebpage();
