@@ -2,13 +2,13 @@ const githubReleasesAPI = "https://api.github.com/repos/Cockatrice/Cockatrice/re
 
 const fallbackDownloadURL = "https://github.com/Cockatrice/Cockatrice/releases/latest";
 
-// TODO: Update regex patterns (adjust other PR equally - updater logic in c++)
-const windowsRegex = /-(?:Win|Windows)(\d+).*\.exe$/i;    // "-Windows10.exe"
-const macOsRegex = /-macOS(\d+)/i;                        // "-macOS14.dmg"
-const macOsIntelRegex = /Intel/i;                         // "-macOS13_Intel.dmg"
-const ubuntuRegex = /-Ubuntu(\d+\.\d+)\.deb$/i;           // "-Ubuntu25.10.deb"
-const debianRegex = /-Debian(\d+)\.deb$/i;                // "-Debian13.deb"
-const fedoraRegex = /-Fedora(\d+)\.rpm$/i;                // "-Fedora44.rpm"
+// String ending with separator "-", followed by "OS name", "version digits", "dot", "file extension"
+const windowsRegex = /-(?:Win|Windows)(\d+)\.[^.]+$/i;    // e.g. "-Windows10.exe"
+const macOsRegex = /-macOS(\d+)\.[^.]+$/i;                // e.g. "-macOS14.dmg"
+const macOsIntelRegex = /-macOS(\d+)_Intel\.[^.]+$/i;     // e.g. "-macOS13_Intel.dmg"
+const ubuntuRegex = /-Ubuntu(\d+\.\d+)\.[^.]+$/i;         // e.g. "-Ubuntu25.10.deb"
+const debianRegex = /-Debian(\d+)\.[^.]+$/i;              // e.g. "-Debian13.deb"
+const fedoraRegex = /-Fedora(\d+)\.[^.]+$/i;              // e.g. "-Fedora44.rpm"
 
 async function updateWebpage() {
     try {
@@ -85,25 +85,27 @@ function updateDownloadLinks(json) {
             }
         }
 
-        // macOS
+        // macOS, Intel CPU (x86)
+        match = downloadURL.match(macOsIntelRegex);
+        if (match) {
+            const versionValue = Number(match[1]);
+
+            if (versionValue < macOsIntelOldestVersionValue) {
+                macOsIntelOldestVersionValue = versionValue;
+                macOsIntelTargetVersion = versionValue + "+ (Intel)";
+                macOsIntelDownloadURL = downloadURL;
+            }
+        }
+
+        // macOS, Apple Silicon CPU (ARM) 
         match = downloadURL.match(macOsRegex);
         if (match) {
             const versionValue = Number(match[1]);
 
-            // Intel CPU (x86)
-            if (macOsIntelRegex.test(downloadURL)) {
-                if (versionValue < macOsIntelOldestVersionValue) {
-                    macOsIntelOldestVersionValue = versionValue;
-                    macOsIntelTargetVersion = versionValue + "+ (Intel)";
-                    macOsIntelDownloadURL = downloadURL;
-                }
-            // Apple Silicon CPU (ARM)
-            } else {
-                if (versionValue < macOsOldestVersionValue) {
-                    macOsOldestVersionValue = versionValue;
-                    macOsTargetVersion = versionValue + "+";
-                    macOsDownloadURL = downloadURL;
-                }
+            if (versionValue < macOsOldestVersionValue) {
+                macOsOldestVersionValue = versionValue;
+                macOsTargetVersion = versionValue + "+";
+                macOsDownloadURL = downloadURL;
             }
         }
 
