@@ -48,7 +48,11 @@ function updateDownloadLinks(json) {
     let debianDownloadURL = fallbackDownloadURL;
     let fedoraDownloadURL = fallbackDownloadURL;
 
-	// Windows/macOS: Start with the largest possible value and find smallest version available
+    // Store best matching version according to OS specific compatibility rules:
+    // Windows/macOS: pick oldest targeted version (lowest number), assets will work on newer OS versions
+    // Linux distros: pick newest targeted version (highest number), newer OS require assets targeting new versions
+    //
+    // Windows/macOS: Start with the largest possible value and find smallest version available
     // Linux distros: Start with the smallest possible value and find biggest version available
     let windowsOldestVersionValue = Infinity;
     let macOsOldestVersionValue = Infinity;
@@ -64,9 +68,6 @@ function updateDownloadLinks(json) {
     let debianTargetVersion = "";
     let fedoraTargetVersion = "";
 
-    // Store best matching version according to OS specific compatibility rules:
-    // Windows/macOS: pick oldest targeted version (lowest number), assets will work on newer OS versions
-    // Linux distros: pick newest targeted version (highest number), newer OS require assets targeting new versions
     for (const asset of json.assets) {
         const downloadURL = asset.browser_download_url;
         console.debug(downloadURL);
