@@ -49,8 +49,8 @@ function updateDownloadLinks(json) {
     let fedoraDownloadURL = fallbackDownloadURL;
 
     // Store best matching version according to OS specific compatibility rules:
-    // Windows/macOS: pick oldest targeted version (lowest number), assets will work on newer OS versions
-    // Linux distros: pick newest targeted version (highest number), newer OS require assets targeting new versions
+    // Windows/macOS: Pick oldest targeted version (lowest number), assets will work on newer OS versions
+    // Linux distros: Pick newest targeted version (highest number), newer OS require assets targeting new versions
     //
     // Windows/macOS: Start with the largest possible value and find smallest version available
     // Linux distros: Start with the smallest possible value and find biggest version available
