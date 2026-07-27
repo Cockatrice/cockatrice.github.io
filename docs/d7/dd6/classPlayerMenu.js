@@ -31,5 +31,6 @@ var classPlayerMenu =
     [ "sayMenu", "d7/dd6/classPlayerMenu.html#accfdb6bdbc2bbd5e97a950b2e03383dd", null ],
     [ "shortcutsActive", "d7/dd6/classPlayerMenu.html#a22187a61bb3297d702897b1c9bd6c691", null ],
     [ "sideboardMenu", "d7/dd6/classPlayerMenu.html#a93cd301b4861482d0935d7938ad929a7", null ],
+    [ "tallyMenu", "d7/dd6/classPlayerMenu.html#a5be210b2e82292c2502f2745f3c5efe8", null ],
     [ "utilityMenu", "d7/dd6/classPlayerMenu.html#a417d1d508e42c1ec06019dd20c751d69", null ]
 ];

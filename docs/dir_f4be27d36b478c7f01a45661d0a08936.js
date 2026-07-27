@@ -1,8 +1,11 @@
 var dir_f4be27d36b478c7f01a45661d0a08936 =
 [
     [ "card_ref.h", "dc/d89/card__ref_8h.html", "dc/d89/card__ref_8h" ],
+    [ "clamped_arithmetic.h", "d9/d2a/clamped__arithmetic_8h.html", "d9/d2a/clamped__arithmetic_8h" ],
     [ "color.h", "da/dec/color_8h.html", "da/dec/color_8h" ],
+    [ "counter_limits.h", "d8/d39/counter__limits_8h.html", "d8/d39/counter__limits_8h" ],
     [ "days_years_between.h", "d7/d1f/days__years__between_8h.html", "d7/d1f/days__years__between_8h" ],
+    [ "dice_limits.h", "db/d27/dice__limits_8h.html", "db/d27/dice__limits_8h" ],
     [ "expression.cpp", "da/d45/expression_8cpp.html", "da/d45/expression_8cpp" ],
     [ "expression.h", "d3/d1b/expression_8h.html", "d3/d1b/expression_8h" ],
     [ "levenshtein.cpp", "de/dd6/levenshtein_8cpp.html", "de/dd6/levenshtein_8cpp" ],
@@ -12,6 +15,6 @@ var dir_f4be27d36b478c7f01a45661d0a08936 =
     [ "passwordhasher.h", "dd/d9e/passwordhasher_8h.html", "dd/d9e/passwordhasher_8h" ],
     [ "peglib.h", "de/d9d/peglib_8h.html", "de/d9d/peglib_8h" ],
     [ "qt_utils.h", "dd/d8d/qt__utils_8h.html", "dd/d8d/qt__utils_8h" ],
-    [ "trice_limits.h", "da/d4b/trice__limits_8h.html", "da/d4b/trice__limits_8h" ],
+    [ "string_limits.h", "d9/d78/string__limits_8h.html", "d9/d78/string__limits_8h" ],
     [ "zone_names.h", "d6/d64/zone__names_8h.html", "d6/d64/zone__names_8h" ]
 ];

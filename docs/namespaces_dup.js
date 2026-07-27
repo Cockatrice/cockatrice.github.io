@@ -104,6 +104,13 @@ var namespaces_dup =
       [ "clearLayoutRec", "dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301", null ],
       [ "findParentOfType", "dc/d55/namespaceQtUtils.html#a573d4567ad2940b0f5fce244a0f585f6", null ]
     ] ],
+    [ "SubtypeTally", "d9/d99/namespaceSubtypeTally.html", [
+      [ "countSubtypes", "d9/d99/namespaceSubtypeTally.html#a80953f8e6a0dfc0dc98d0d016ccb4f8c", null ]
+    ] ],
+    [ "Tally", "dd/d5d/namespaceTally.html", [
+      [ "compute", "dd/d5d/namespaceTally.html#ad399ab77d75272e9968de8d104970a16", null ],
+      [ "intToType", "dd/d5d/namespaceTally.html#a1adbe8fe3299c129dbcee73ba8c636cb", null ]
+    ] ],
     [ "UserListRoles", "d7/dc9/namespaceUserListRoles.html", [
       [ "Online", "d7/dc9/namespaceUserListRoles.html#ad8ce129214f65f5ec323fc8e83c3e596", null ],
       [ "UserInfo", "d7/dc9/namespaceUserListRoles.html#a208d64623e00f247f41a49b7ee6c7288", null ]

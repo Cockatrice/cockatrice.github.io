@@ -1,0 +1,25 @@
+var classUpdatesSettings =
+[
+    [ "UpdatesSettings", "d2/dde/classUpdatesSettings.html#a76bd59ae8bb20366a90e00f10f7df989", null ],
+    [ "UpdatesSettings", "d2/dde/classUpdatesSettings.html#aa21d16f8d172771005c930631262eb85", null ],
+    [ "getAlwaysEnableNewSets", "d2/dde/classUpdatesSettings.html#aaddf06f6e4af1567b1e635c782985311", null ],
+    [ "getCardUpdateCheckInterval", "d2/dde/classUpdatesSettings.html#a44df422317a1d21debd4dfdcf02bcfa1", null ],
+    [ "getCardUpdateCheckRequired", "d2/dde/classUpdatesSettings.html#afa71d2b5b2bd0d52106f2ffe0b2d0e0a", null ],
+    [ "getCheckUpdatesOnStartup", "d2/dde/classUpdatesSettings.html#a8032c90f5131dce13b30fb0f732a60f5", null ],
+    [ "getLastCardUpdateCheck", "d2/dde/classUpdatesSettings.html#a3c151aa3970d14bc27c772fbcb2c0660", null ],
+    [ "getNotifyAboutNewVersion", "d2/dde/classUpdatesSettings.html#a2281ab78e9405bcfd0814377df3d02ef", null ],
+    [ "getNotifyAboutUpdates", "d2/dde/classUpdatesSettings.html#a81a44fe8e614468e9eafca0d0bd2d7e6", null ],
+    [ "getStartupCardUpdateCheckAlwaysUpdate", "d2/dde/classUpdatesSettings.html#a5930e26e640239a957df6481a90b7e26", null ],
+    [ "getStartupCardUpdateCheckPromptForUpdate", "d2/dde/classUpdatesSettings.html#a82b42ddd55256f0d9cfcf78adb65596b", null ],
+    [ "getUpdateReleaseChannelIndex", "d2/dde/classUpdatesSettings.html#a9017905efb9f42596133d3e54d5336e1", null ],
+    [ "setAlwaysEnableNewSets", "d2/dde/classUpdatesSettings.html#a193a0171efcdc283ac33a122d7ec0904", null ],
+    [ "setCardUpdateCheckInterval", "d2/dde/classUpdatesSettings.html#a6285552d074d22801c806cbcf2c6c2f8", null ],
+    [ "setCheckUpdatesOnStartup", "d2/dde/classUpdatesSettings.html#ac2bbee1a15d6702020a16232da9f96d9", null ],
+    [ "setLastCardUpdateCheck", "d2/dde/classUpdatesSettings.html#a400830998150f8d15be2b2e94518b359", null ],
+    [ "setNotifyAboutNewVersion", "d2/dde/classUpdatesSettings.html#ae3541fe87394328bd68fd0abe45b98f1", null ],
+    [ "setNotifyAboutUpdates", "d2/dde/classUpdatesSettings.html#a55c450b93592efd4d3b791af38885176", null ],
+    [ "setStartupCardUpdateCheckAlwaysUpdate", "d2/dde/classUpdatesSettings.html#a8d058be6d85dd8eb7555d17e0a07795f", null ],
+    [ "setStartupCardUpdateCheckPromptForUpdate", "d2/dde/classUpdatesSettings.html#ab541aceb788982ae8c67f3cddb0ccc32", null ],
+    [ "setUpdateReleaseChannelIndex", "d2/dde/classUpdatesSettings.html#ac7e738ce5b003078cf0ed3a44ca4edcb", null ],
+    [ "SettingsCache", "d2/dde/classUpdatesSettings.html#a859ba68015a001567c5ef72352e7b69b", null ]
+];

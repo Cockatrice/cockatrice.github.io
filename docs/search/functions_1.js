@@ -36,5 +36,5 @@ var searchData=
   ['buildsearchurl_33',['buildSearchUrl',['../db/d5d/classTabArchidekt.html#a783c5b26773c23178f9183e8ee74388e',1,'TabArchidekt']]],
   ['buildstackparams_34',['buildStackParams',['../d7/ddf/classSelectZone.html#adea31b5636e65a81dd6c8faf58d5bf98',1,'SelectZone']]],
   ['buildui_35',['buildUi',['../df/d81/classUserInfoPopup.html#a9aa320cc3870a382159618961445ea66',1,'UserInfoPopup']]],
-  ['bumpsetswithcardsindecktotopchanged_36',['bumpSetsWithCardsInDeckToTopChanged',['../d5/d88/classSettingsCache.html#a95e77f30805f321b9b9149bbbf1e2efc',1,'SettingsCache']]]
+  ['bumpsetswithcardsindecktotopchanged_36',['bumpSetsWithCardsInDeckToTopChanged',['../d4/d4a/classCardsDisplaySettings.html#ae5a6729ce6cc52552b8819505730fcd1',1,'CardsDisplaySettings']]]
 ];

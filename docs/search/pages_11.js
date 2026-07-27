@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['object_3a_20cardinfo_0',['A Basic Card Object: CardInfo',['../da/d69/primer_cards.html#a-basic-card-object-cardinfo',1,'']]],
-  ['obtaining_20a_20handle_20to_20the_20carddatabasequerier_20for_20usage_1',['Obtaining a handle to the CardDatabaseQuerier for usage',['../da/d66/querying_the_card_database.html#obtaining-a-handle-to-the-carddatabasequerier-for-usage',1,'']]],
-  ['of_20cards_2',['Groups of Cards',['../dc/d8a/displaying_cards.html#groups-of-cards',1,'']]],
-  ['on_20cards_3',['A Primer on Cards',['../da/d69/primer_cards.html',1,'developer_reference']]],
-  ['online_20service_4',['online service',['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service'],['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service']]],
-  ['only_20database_20user_5',['1. Create a read-only database user',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md1-create-a-read-only-database-user',1,'']]],
-  ['options_6',['Options',['../dir_7bfb512e87101b177eb3569817b9fc67.html#options',1,'']]],
-  ['ownership_3a_7',['Ownership:',['../da/d68/classDeckList.html#ownership',1,'Ownership:'],['../d3/de9/classAbstractDecklistCardNode.html#ownership-1',1,'Ownership:'],['../d5/d22/classDecklistCardNode.html#ownership-2',1,'Ownership:'],['../d4/d55/classInnerDecklistNode.html#ownership-3',1,'Ownership:']]]
+  ['network_20overview_0',['Network (Overview)',['../d1/d47/developer_reference_network_overview.html',1,'developer_reference']]],
+  ['networking_20overview_1',['Client Networking (Overview)',['../d6/d60/developer_reference_network_client.html',1,'developer_reference_network_overview']]],
+  ['new_2',['How it decides what is &quot;new&quot;',['../dir_7bfb512e87101b177eb3569817b9fc67.html#how-it-decides-what-is-new',1,'']]],
+  ['next_5fturn_201022_3',['&lt;span class=&quot;tt&quot;&gt;NEXT_TURN&lt;/span&gt; (1022)',['../d0/d5b/protocol_game_command.html#next_turn-1022',1,'']]],
+  ['note_4',['Privacy note',['../dir_7bfb512e87101b177eb3569817b9fc67.html#privacy-note',1,'']]],
+  ['notes_5',['Notes',['../d0/d5b/protocol_game_command.html#notes',1,'Notes'],['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#performance-notes',1,'Performance Notes']]],
+  ['notes_3a_6',['Design notes:',['../d4/d55/classInnerDecklistNode.html#design-notes',1,'']]],
+  ['npm_20xpm_20dependency_7',['npm/xpm dependency',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#npmxpm-dependency',1,'']]]
 ];

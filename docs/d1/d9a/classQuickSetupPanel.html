@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-27-Development-3.1.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -117,8 +117,8 @@ Collaboration diagram for QuickSetupPanel:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:a03bd4e3bdf3ad9d6556ca4c8abb9b798" id="r_a03bd4e3bdf3ad9d6556ca4c8abb9b798"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a03bd4e3bdf3ad9d6556ca4c8abb9b798">generateRequested</a> (QColor accent, int <a class="el" href="#ac3ed7a183d39149802db666216684e06">intensity</a>)</td></tr>
-<tr class="memdesc:a03bd4e3bdf3ad9d6556ca4c8abb9b798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the user requests palette generation.  <br /></td></tr>
+<tr class="memitem:a2ccc1bcfb0e3128d04eb1f7ffab049b7" id="r_a2ccc1bcfb0e3128d04eb1f7ffab049b7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2ccc1bcfb0e3128d04eb1f7ffab049b7">valueChanged</a> (QColor accent, int <a class="el" href="#ac3ed7a183d39149802db666216684e06">intensity</a>)</td></tr>
+<tr class="memdesc:a2ccc1bcfb0e3128d04eb1f7ffab049b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever the accent colour or intensity changes.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -144,16 +144,14 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aed0c777615008bbd66b7d0536c7e2084" id="r_aed0c777615008bbd66b7d0536c7e2084"><td class="memItemLeft">QLabel *&#160;</td><td class="memItemRight"><a class="el" href="#aed0c777615008bbd66b7d0536c7e2084">labelHigh</a></td></tr>
 <tr class="memitem:a04608a70fd60c86099b01091ac75a773" id="r_a04608a70fd60c86099b01091ac75a773"><td class="memItemLeft">QSlider *&#160;</td><td class="memItemRight"><a class="el" href="#a04608a70fd60c86099b01091ac75a773">intensitySlider</a></td></tr>
 <tr class="memitem:a2055a4e9c0e3a8f6b5d92645fe043550" id="r_a2055a4e9c0e3a8f6b5d92645fe043550"><td class="memItemLeft">QLabel *&#160;</td><td class="memItemRight"><a class="el" href="#a2055a4e9c0e3a8f6b5d92645fe043550">intensityPercentageLabel</a></td></tr>
-<tr class="memitem:a064b08b0fcf3fa1db6515646b220c9d6" id="r_a064b08b0fcf3fa1db6515646b220c9d6"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a064b08b0fcf3fa1db6515646b220c9d6">generateButton</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides a compact "Quick Setup" interface for generating theme palettes. </p>
 <p>The panel contains:</p><ul>
 <li>an accent color picker,</li>
-<li>an intensity slider,</li>
-<li>and a generate button.</li>
+<li>an intensity slider.</li>
 </ul>
-<p>When the user clicks the generate button, the panel emits <a class="el" href="#a03bd4e3bdf3ad9d6556ca4c8abb9b798" title="Emitted when the user requests palette generation.">generateRequested()</a> with the currently selected accent color and intensity value.</p>
+<p>Whenever either value changes the panel emits <a class="el" href="#a2ccc1bcfb0e3128d04eb1f7ffab049b7" title="Emitted whenever the accent colour or intensity changes.">valueChanged()</a> with the current accent colour and intensity, which the parent dialog uses to auto-apply the generated palette.</p>
 <p>Typically used together with <a class="el" href="../../d7/d77/namespacePaletteGenerator.html#a722d278177e39e85802b4458258f151c">PaletteGenerator::fromAccent()</a> to quickly generate color schemes from a chosen accent color. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1839345a0eda1592d9b5b533e55d8fe3" name="a1839345a0eda1592d9b5b533e55d8fe3"></a>
@@ -189,7 +187,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d9a/classQuickSetupPanel_a1839345a0eda1592d9b5b533e55d8fe3_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d9a/classQuickSetupPanel_a1839345a0eda1592d9b5b533e55d8fe3_cgraph.svg" width="100%" height="401"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -212,54 +210,6 @@ Here is the call graph for this function:</div>
 
 <p>Returns the currently selected accent color. </p>
 <dl class="section return"><dt>Returns</dt><dd>The selected accent color. </dd></dl>
-
-</div>
-</div>
-<a id="a03bd4e3bdf3ad9d6556ca4c8abb9b798" name="a03bd4e3bdf3ad9d6556ca4c8abb9b798"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03bd4e3bdf3ad9d6556ca4c8abb9b798">&#9670;&#160;</a></span>generateRequested</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void QuickSetupPanel::generateRequested </td>
-          <td>(</td>
-          <td class="paramtype">QColor</td>          <td class="paramname"><span class="paramname"><em>accent</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>intensity</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Emitted when the user requests palette generation. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">accent</td><td>The selected accent color. </td></tr>
-    <tr><td class="paramname"><a class="el" href="#ac3ed7a183d39149802db666216684e06" title="Returns the current intensity slider value.">intensity</a></td><td>The selected intensity value. </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d9a/classQuickSetupPanel_a03bd4e3bdf3ad9d6556ca4c8abb9b798_cgraph.svg" width="452" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d9a/classQuickSetupPanel_a03bd4e3bdf3ad9d6556ca4c8abb9b798_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>
@@ -339,6 +289,48 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a2ccc1bcfb0e3128d04eb1f7ffab049b7" name="a2ccc1bcfb0e3128d04eb1f7ffab049b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ccc1bcfb0e3128d04eb1f7ffab049b7">&#9670;&#160;</a></span>valueChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QuickSetupPanel::valueChanged </td>
+          <td>(</td>
+          <td class="paramtype">QColor</td>          <td class="paramname"><span class="paramname"><em>accent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>intensity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted whenever the accent colour or intensity changes. </p>
+<p>The parent dialog consumes this to auto-apply the generated palette without requiring an explicit Generate click. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d9a/classQuickSetupPanel_a2ccc1bcfb0e3128d04eb1f7ffab049b7_cgraph.svg" width="487" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d9a/classQuickSetupPanel_a2ccc1bcfb0e3128d04eb1f7ffab049b7_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="aa206ea6f6fb10f89a525da517f28f3a3" name="aa206ea6f6fb10f89a525da517f28f3a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa206ea6f6fb10f89a525da517f28f3a3">&#9670;&#160;</a></span>accentButton</h2>
@@ -373,28 +365,6 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QLabel* QuickSetupPanel::accentLabel</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a064b08b0fcf3fa1db6515646b220c9d6" name="a064b08b0fcf3fa1db6515646b220c9d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a064b08b0fcf3fa1db6515646b220c9d6">&#9670;&#160;</a></span>generateButton</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QPushButton* QuickSetupPanel::generateButton</td>
         </tr>
       </table>
   </td>

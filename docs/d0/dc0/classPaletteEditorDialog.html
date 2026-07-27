@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-27-Development-3.1.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -151,15 +151,16 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad07d045aa7473eedadc0fcdb470c1913" id="r_ad07d045aa7473eedadc0fcdb470c1913"><td class="memItemLeft">QComboBox *&#160;</td><td class="memItemRight"><a class="el" href="#ad07d045aa7473eedadc0fcdb470c1913">schemeComboBox</a> = nullptr</td></tr>
 <tr class="memitem:a48b9710d64de74894d703fa5fa4a13fc" id="r_a48b9710d64de74894d703fa5fa4a13fc"><td class="memItemLeft">QDialogButtonBox *&#160;</td><td class="memItemRight"><a class="el" href="#a48b9710d64de74894d703fa5fa4a13fc">buttonBox</a> = nullptr</td></tr>
 <tr class="memitem:ad38f42a0843699bde7f3c87d5e54990f" id="r_ad38f42a0843699bde7f3c87d5e54990f"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#ad38f42a0843699bde7f3c87d5e54990f">resetBtn</a> = nullptr</td></tr>
-<tr class="memitem:af74ac61e5722e31945c9c0a921a82705" id="r_af74ac61e5722e31945c9c0a921a82705"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#af74ac61e5722e31945c9c0a921a82705">applyBtn</a> = nullptr</td></tr>
 <tr class="memitem:a3edb9d53982c984bec252364c43a72b2" id="r_a3edb9d53982c984bec252364c43a72b2"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a3edb9d53982c984bec252364c43a72b2">saveBtn</a> = nullptr</td></tr>
 <tr class="memitem:a695395fa65e2a2625ba4dd6fdd6fcdfb" id="r_a695395fa65e2a2625ba4dd6fdd6fcdfb"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a695395fa65e2a2625ba4dd6fdd6fcdfb">closeBtn</a> = nullptr</td></tr>
 <tr class="memitem:ae1c26052b9192f941890ba95a1bbbe3f" id="r_ae1c26052b9192f941890ba95a1bbbe3f"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#ae1c26052b9192f941890ba95a1bbbe3f">revertButton</a> = nullptr</td></tr>
 <tr class="memitem:a9ba2a0d245137bdd7558b497ccb11a7e" id="r_a9ba2a0d245137bdd7558b497ccb11a7e"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a9ba2a0d245137bdd7558b497ccb11a7e">themeDirPath</a></td></tr>
 <tr class="memitem:a4d371cb1338076b1b6eac040a027247d" id="r_a4d371cb1338076b1b6eac040a027247d"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a4d371cb1338076b1b6eac040a027247d">themeName</a></td></tr>
 <tr class="memitem:ac1d1e9a330f3d70b0876b184a073d950" id="r_ac1d1e9a330f3d70b0876b184a073d950"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ac1d1e9a330f3d70b0876b184a073d950">loadedScheme</a></td></tr>
+<tr class="memitem:aaf3724c6c8ef4e07026ffbfb7b248dd8" id="r_aaf3724c6c8ef4e07026ffbfb7b248dd8"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#aaf3724c6c8ef4e07026ffbfb7b248dd8">saveDir</a></td></tr>
 <tr class="memitem:a49e48d4f4d726e4eef8d6539e2b538ee" id="r_a49e48d4f4d726e4eef8d6539e2b538ee"><td class="memItemLeft">QMap&lt; QString, <a class="el" href="../../d4/dd8/structPaletteConfig.html">PaletteConfig</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a49e48d4f4d726e4eef8d6539e2b538ee">workingConfig</a></td></tr>
 <tr class="memitem:a691065f8b86fe77cc641548790ca0be8" id="r_a691065f8b86fe77cc641548790ca0be8"><td class="memItemLeft">QMap&lt; QString, <a class="el" href="../../d4/dd8/structPaletteConfig.html">PaletteConfig</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a691065f8b86fe77cc641548790ca0be8">savedConfig</a></td></tr>
+<tr class="memitem:a32c6fbd6f127425f1b033b66bda83eb8" id="r_a32c6fbd6f127425f1b033b66bda83eb8"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#a32c6fbd6f127425f1b033b66bda83eb8">autoApplyTimer</a> = nullptr</td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adae8bf464178fecb29a3b0a7d9210b79" name="adae8bf464178fecb29a3b0a7d9210b79"></a>
@@ -274,7 +275,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_a244328e4c80c11e3afec6c700f38a0ab_cgraph.svg" width="636" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_a244328e4c80c11e3afec6c700f38a0ab_cgraph.svg" width="100%" height="477"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -309,7 +310,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_a851b4fc1634191ce121ec1958edefb1b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_a851b4fc1634191ce121ec1958edefb1b_icgraph.svg" width="555" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -376,6 +377,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_a5eb1b07f8d2446cff715d9fc8ff6f3f2_cgraph.svg" width="396" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_a5eb1b07f8d2446cff715d9fc8ff6f3f2_icgraph.svg" width="555" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
@@ -408,7 +414,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_ae70f930bcd5fe7cd7fcf93a6c7d68be9_cgraph.svg" width="636" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_ae70f930bcd5fe7cd7fcf93a6c7d68be9_cgraph.svg" width="100%" height="462"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -478,7 +484,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_aacfdabebb44faeb054ac44798244b5d5_cgraph.svg" width="404" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_aacfdabebb44faeb054ac44798244b5d5_cgraph.svg" width="404" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -543,7 +549,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_a36d206ff87fe2a09c41e0ec93ff24de1_cgraph.svg" width="632" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_a36d206ff87fe2a09c41e0ec93ff24de1_cgraph.svg" width="354" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -578,7 +584,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_a1ae47e08e962f049027724546d04d229_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/dc0/classPaletteEditorDialog_a1ae47e08e962f049027724546d04d229_icgraph.svg" width="100%" height="457"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -619,8 +625,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="af74ac61e5722e31945c9c0a921a82705" name="af74ac61e5722e31945c9c0a921a82705"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af74ac61e5722e31945c9c0a921a82705">&#9670;&#160;</a></span>applyBtn</h2>
+<a id="a32c6fbd6f127425f1b033b66bda83eb8" name="a32c6fbd6f127425f1b033b66bda83eb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32c6fbd6f127425f1b033b66bda83eb8">&#9670;&#160;</a></span>autoApplyTimer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -629,7 +635,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QPushButton* PaletteEditorDialog::applyBtn = nullptr</td>
+          <td class="memname">QTimer* PaletteEditorDialog::autoApplyTimer = nullptr</td>
         </tr>
       </table>
   </td>
@@ -938,6 +944,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QMap&lt;QString, <a class="el" href="../../d4/dd8/structPaletteConfig.html">PaletteConfig</a>&gt; PaletteEditorDialog::savedConfig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf3724c6c8ef4e07026ffbfb7b248dd8" name="aaf3724c6c8ef4e07026ffbfb7b248dd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf3724c6c8ef4e07026ffbfb7b248dd8">&#9670;&#160;</a></span>saveDir</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString PaletteEditorDialog::saveDir</td>
         </tr>
       </table>
   </td>

@@ -1,11 +1,24 @@
 var searchData=
 [
-  ['verifyonly_0',['VerifyOnly',['../de/d4e/classUnZip.html#ae76e35ba02ddc4793ddaca60a06e5968a79378ae04cd44373c9f83bacbcd54196',1,'UnZip']]],
-  ['versiontooold_1',['VersionTooOld',['../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11ca422771f682fde1171b691435d1b3a70f',1,'card_database_loader.h']]],
-  ['view_2',['View',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca2ca0a88e786f276ec49b6a3a24ca4879',1,'ShortcutGroup']]],
-  ['vintage_3',['Vintage',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a67bc3557dcf90ce84e22914c21a699ba',1,'ArchidektFormats']]],
-  ['visualdeckeditor_4',['VisualDeckEditor',['../dd/d81/classTabSupervisor.html#a9a12eee7783c0c5e8310e96ec8a71d13a5d15f0d108a74079892a75d58837a552',1,'TabSupervisor']]],
-  ['visualdeckstoragepromptforconversionindexalways_5',['visualDeckStoragePromptForConversionIndexAlways',['../de/d9d/user__interface__settings__page_8cpp.html#ae82e9cff65aa2b6d9166d7255df2fe8fac9c98c7411dc824197128de98b053efa',1,'user_interface_settings_page.cpp']]],
-  ['visualdeckstoragepromptforconversionindexnone_6',['visualDeckStoragePromptForConversionIndexNone',['../de/d9d/user__interface__settings__page_8cpp.html#ae82e9cff65aa2b6d9166d7255df2fe8facdc5af4eb92aca4ce3fc95d7e2ab92bc',1,'user_interface_settings_page.cpp']]],
-  ['visualdeckstoragepromptforconversionindexprompt_7',['visualDeckStoragePromptForConversionIndexPrompt',['../de/d9d/user__interface__settings__page_8cpp.html#ae82e9cff65aa2b6d9166d7255df2fe8fa5ff175714ac52596ccbd7aa89aacd00b',1,'user_interface_settings_page.cpp']]]
+  ['unconcede_0',['UNCONCEDE',['../dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12a24bd8e7da6acb2ee5f5f8683cb441c85',1,'GameCommand::UNCONCEDE'],['../dd/dd1/structGameEventContext.html#a387e6072c0cecf60722f7b098ce45bc8a82f96415d1c3fe5521e62e6794ab67a5',1,'GameEventContext::UNCONCEDE']]],
+  ['undo_5fdraw_1',['UNDO_DRAW',['../dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12afffed1b796804c8ab5efa8ea21501782',1,'GameCommand::UNDO_DRAW'],['../dd/dd1/structGameEventContext.html#a387e6072c0cecf60722f7b098ce45bc8a58dc531406312a1ee1ba25ccf746c668',1,'GameEventContext::UNDO_DRAW']]],
+  ['undo_5fdraw_5ffailed_2',['UNDO_DRAW_FAILED',['../dd/d88/structEvent__GameLogNotice.html#a2811aeff244536021893295311d19d7fabf32d279f385171d836b1ae474567673',1,'Event_GameLogNotice']]],
+  ['unknown_3',['UNKNOWN',['../d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eeae71c52c93af89f060987158b2454927f',1,'Event_NotifyUser']]],
+  ['unknown_4',['Unknown',['../da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a88183b946cc5f0e8c96b2e66e1c74a7e',1,'Unknown:&#160;deck_link_to_api_transformer.h'],['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a88183b946cc5f0e8c96b2e66e1c74a7e',1,'ArchidektFormats::Unknown']]],
+  ['unknowncompression_5',['UnknownCompression',['../de/d4e/classUnZip.html#af0741165d4b27b4692beef94c48528b5a9788816a26ba5f13145b3a0991e91de1',1,'UnZip']]],
+  ['unknownuser_6',['UnknownUser',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cda5da8543c5cc835ac31b82e4c1a40d0b0',1,'server.h']]],
+  ['update_5fadmin_5fnotes_7',['UPDATE_ADMIN_NOTES',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a4687f604fbe9fe9334878f02a3f43477',1,'ModeratorCommand']]],
+  ['update_5fserver_5fmessage_8',['UPDATE_SERVER_MESSAGE',['../d5/dca/structAdminCommand.html#ae76daf563330ca25d27812f9ffec6aecac3710984aa5d50b3cb27695bf69ff300',1,'AdminCommand']]],
+  ['user_5fdisconnected_9',['USER_DISCONNECTED',['../d9/d05/structEvent__Leave.html#a9df2c0d5e1297bc0863a4a5a859e3487ae3543194ab65b1b363ba08a134df63f3',1,'Event_Leave']]],
+  ['user_5fjoined_10',['USER_JOINED',['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624a8d9aad0f474cb89d893dec35c8da08dc',1,'SessionEvent']]],
+  ['user_5fkicked_11',['USER_KICKED',['../d9/d05/structEvent__Leave.html#a9df2c0d5e1297bc0863a4a5a859e3487a34026b71d0a824a7ce0239a45867bcee',1,'Event_Leave']]],
+  ['user_5fleft_12',['USER_LEFT',['../d9/d05/structEvent__Leave.html#a9df2c0d5e1297bc0863a4a5a859e3487ad497a1516b75c790cfb95c955361d04d',1,'Event_Leave::USER_LEFT'],['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624a50cf0bb42c22838b5a0c35602eb3f672',1,'SessionEvent::USER_LEFT']]],
+  ['user_5flimit_5freached_13',['USER_LIMIT_REACHED',['../da/d30/structEvent__ConnectionClosed.html#a9f79dac37fda0c21614d4e24d30e04a0ac880b4fba58010925fdac296f764816b',1,'Event_ConnectionClosed']]],
+  ['user_5fmessage_14',['USER_MESSAGE',['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624ab2ef23449caa398b80b6dc0c286a1a2d',1,'SessionEvent']]],
+  ['userisbanned_15',['UserIsBanned',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cda89cfca64c3689a06a9fa4940f7c4aee0',1,'server.h']]],
+  ['userisinactive_16',['UserIsInactive',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cda2a1102e19b39be6300cac8790b0abd40',1,'server.h']]],
+  ['usermessage_17',['UserMessage',['../d9/d02/structEvent__RoomSay.html#a699c54b7e58022d25d9905eb4f15ecb9ac3d5d43aa1b857ec56bc010e968102b7',1,'Event_RoomSay']]],
+  ['usernameinvalid_18',['USERNAMEINVALID',['../da/d30/structEvent__ConnectionClosed.html#a9f79dac37fda0c21614d4e24d30e04a0a84259ec304218a13a5c8b3b43111d5c2',1,'Event_ConnectionClosed']]],
+  ['usernameinvalid_19',['UsernameInvalid',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdaecbd40434d3b40e6fdb3bacb2e9343a2',1,'server.h']]],
+  ['usernotlocal_20',['UserNotLocal',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673a17de40f8b621b7b1ae22adbc540b7f9c',1,'QxtSmtp']]]
 ];

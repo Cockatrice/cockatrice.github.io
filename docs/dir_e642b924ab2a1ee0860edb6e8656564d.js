@@ -23,6 +23,8 @@ var dir_e642b924ab2a1ee0860edb6e8656564d =
     [ "say_menu.h", "d3/dbe/say__menu_8h.html", "d3/dbe/say__menu_8h" ],
     [ "sideboard_menu.cpp", "d5/d08/sideboard__menu_8cpp.html", null ],
     [ "sideboard_menu.h", "d6/d5d/sideboard__menu_8h.html", "d6/d5d/sideboard__menu_8h" ],
+    [ "tally_menu.cpp", "d7/d38/tally__menu_8cpp.html", null ],
+    [ "tally_menu.h", "da/de5/tally__menu_8h.html", "da/de5/tally__menu_8h" ],
     [ "utility_menu.cpp", "db/db3/utility__menu_8cpp.html", null ],
     [ "utility_menu.h", "da/d3e/utility__menu_8h.html", "da/d3e/utility__menu_8h" ]
 ];

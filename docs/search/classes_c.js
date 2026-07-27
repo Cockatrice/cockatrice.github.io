@@ -28,8 +28,10 @@ var searchData=
   ['mockcardlist_25',['MockCardList',['../db/dc5/classMockCardList.html',1,'']]],
   ['mockcardref_26',['MockCardRef',['../d6/d3b/structMockCardRef.html',1,'']]],
   ['mockdatabaseinterface_27',['MockDatabaseInterface',['../d1/db6/classMockDatabaseInterface.html',1,'']]],
-  ['movecardstruct_28',['MoveCardStruct',['../d1/d62/structMoveCardStruct.html',1,'']]],
-  ['movemenu_29',['MoveMenu',['../dc/da9/classMoveMenu.html',1,'']]],
-  ['movetopcardsuntiloptions_30',['MoveTopCardsUntilOptions',['../d4/d25/structMoveTopCardsUntilOptions.html',1,'']]],
-  ['moxfieldjsonparser_31',['MoxfieldJsonParser',['../dd/d95/classMoxfieldJsonParser.html',1,'']]]
+  ['moderatorcommand_28',['ModeratorCommand',['../d4/d5c/structCommand__AddCardArtRule_1_1ModeratorCommand.html',1,'Command_AddCardArtRule::ModeratorCommand'],['../d8/ded/structCommand__BanFromServer_1_1ModeratorCommand.html',1,'Command_BanFromServer::ModeratorCommand'],['../d7/dc0/structCommand__ForceActivateUser_1_1ModeratorCommand.html',1,'Command_ForceActivateUser::ModeratorCommand'],['../d8/d19/structCommand__GetAdminNotes_1_1ModeratorCommand.html',1,'Command_GetAdminNotes::ModeratorCommand'],['../d3/d71/structCommand__GetBanHistory_1_1ModeratorCommand.html',1,'Command_GetBanHistory::ModeratorCommand'],['../d6/d1e/structCommand__GetWarnHistory_1_1ModeratorCommand.html',1,'Command_GetWarnHistory::ModeratorCommand'],['../dc/dff/structCommand__GetWarnList_1_1ModeratorCommand.html',1,'Command_GetWarnList::ModeratorCommand'],['../db/dae/structCommand__GrantReplayAccess_1_1ModeratorCommand.html',1,'Command_GrantReplayAccess::ModeratorCommand'],['../d3/d2d/structCommand__ListCardArtRules_1_1ModeratorCommand.html',1,'Command_ListCardArtRules::ModeratorCommand'],['../d8/d4c/structCommand__RemoveCardArtRule_1_1ModeratorCommand.html',1,'Command_RemoveCardArtRule::ModeratorCommand'],['../d8/d01/structCommand__UpdateAdminNotes_1_1ModeratorCommand.html',1,'Command_UpdateAdminNotes::ModeratorCommand'],['../d9/db5/structCommand__ViewLogHistory_1_1ModeratorCommand.html',1,'Command_ViewLogHistory::ModeratorCommand'],['../d4/d9c/structCommand__WarnUser_1_1ModeratorCommand.html',1,'Command_WarnUser::ModeratorCommand'],['../d0/d8c/structModeratorCommand.html',1,'ModeratorCommand']]],
+  ['movecard_5ftozone_29',['MoveCard_ToZone',['../d5/d93/structMoveCard__ToZone.html',1,'']]],
+  ['movecardstruct_30',['MoveCardStruct',['../d1/d62/structMoveCardStruct.html',1,'']]],
+  ['movemenu_31',['MoveMenu',['../dc/da9/classMoveMenu.html',1,'']]],
+  ['movetopcardsuntiloptions_32',['MoveTopCardsUntilOptions',['../d4/d25/structMoveTopCardsUntilOptions.html',1,'']]],
+  ['moxfieldjsonparser_33',['MoxfieldJsonParser',['../dd/d95/classMoxfieldJsonParser.html',1,'']]]
 ];

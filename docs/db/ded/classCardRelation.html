@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-27-Development-3.1.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -117,8 +117,8 @@ Collaboration diagram for CardRelation:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad28d1d9132d72faa44f3c516e2ab4ab3" id="r_ad28d1d9132d72faa44f3c516e2ab4ab3"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad28d1d9132d72faa44f3c516e2ab4ab3">CardRelation</a> (const QString &amp;_name=QString(), <a class="el" href="../../d6/dc2/group__Cards.html#gabc3ced840172c7b624b340e282544a4f">CardRelationType</a> _attachType=<a class="el" href="../../d6/dc2/group__Cards.html#ggabc3ced840172c7b624b340e282544a4fa40c6146ad219739b0ea10f49bda3a1e7">CardRelationType::DoesNotAttach</a>, bool _isCreateAllExclusion=false, bool _isVariableCount=false, int _defaultCount=1, bool _isPersistent=false)</td></tr>
-<tr class="memdesc:ad28d1d9132d72faa44f3c516e2ab4ab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="../../db/ded/classCardRelation.html" title="Represents a relationship between two cards.">CardRelation</a> with optional parameters.  <br /></td></tr>
+<tr class="memitem:aa387bd4aa38b90d3363b57c01838a661" id="r_aa387bd4aa38b90d3363b57c01838a661"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa387bd4aa38b90d3363b57c01838a661">CardRelation</a> (const QString &amp;_name=QString(), <a class="el" href="../../d6/dc2/group__Cards.html#gabc3ced840172c7b624b340e282544a4f">CardRelationType</a> _attachType=<a class="el" href="../../d6/dc2/group__Cards.html#ggabc3ced840172c7b624b340e282544a4fa40c6146ad219739b0ea10f49bda3a1e7">CardRelationType::DoesNotAttach</a>, bool _isCreateAllExclusion=false, bool _isVariableCount=false, int _defaultCount=1, bool _isPersistent=false, bool _isFaceDown=false)</td></tr>
+<tr class="memdesc:aa387bd4aa38b90d3363b57c01838a661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="../../db/ded/classCardRelation.html" title="Represents a relationship between two cards.">CardRelation</a> with optional parameters.  <br /></td></tr>
 <tr class="memitem:addb9813ed1ecf8363461d4f5a9cbb277" id="r_addb9813ed1ecf8363461d4f5a9cbb277"><td class="memItemLeft">const QString &amp;&#160;</td><td class="memItemRight"><a class="el" href="#addb9813ed1ecf8363461d4f5a9cbb277">getName</a> () const</td></tr>
 <tr class="memdesc:addb9813ed1ecf8363461d4f5a9cbb277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of the related card.  <br /></td></tr>
 <tr class="memitem:ad1b762e395d78b8e60dd9ea426ce818f" id="r_ad1b762e395d78b8e60dd9ea426ce818f"><td class="memItemLeft"><a class="el" href="../../d6/dc2/group__Cards.html#gabc3ced840172c7b624b340e282544a4f">CardRelationType</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad1b762e395d78b8e60dd9ea426ce818f">getAttachType</a> () const</td></tr>
@@ -139,6 +139,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aae2f68bd2eb11f7ceead11c45472feb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default count of related cards.  <br /></td></tr>
 <tr class="memitem:ac217fe154f453854a81d228c53437af5" id="r_ac217fe154f453854a81d228c53437af5"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac217fe154f453854a81d228c53437af5">getIsPersistent</a> () const</td></tr>
 <tr class="memdesc:ac217fe154f453854a81d228c53437af5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the relation is persistent.  <br /></td></tr>
+<tr class="memitem:ac946bd1497eff70cfe2f7ac87b5153e9" id="r_ac946bd1497eff70cfe2f7ac87b5153e9"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac946bd1497eff70cfe2f7ac87b5153e9">getIsFaceDown</a> () const</td></tr>
+<tr class="memdesc:ac946bd1497eff70cfe2f7ac87b5153e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the relation creates the token facedown.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -154,6 +156,8 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a71bb4fe66f30bb0c4ab0b2df53a24cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default number of cards created or involved.  <br /></td></tr>
 <tr class="memitem:aeb74921efb0c50c39ea7b4afaca74ba9" id="r_aeb74921efb0c50c39ea7b4afaca74ba9"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aeb74921efb0c50c39ea7b4afaca74ba9">isPersistent</a></td></tr>
 <tr class="memdesc:aeb74921efb0c50c39ea7b4afaca74ba9"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this relation persists (i.e. is not destroyed) on zone change.  <br /></td></tr>
+<tr class="memitem:a2dbe83a7b2786532be44617654d3ad24" id="r_a2dbe83a7b2786532be44617654d3ad24"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a2dbe83a7b2786532be44617654d3ad24">isFaceDown</a></td></tr>
+<tr class="memdesc:a2dbe83a7b2786532be44617654d3ad24"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this relation creates the tokens facedown.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a relationship between two cards. </p>
@@ -164,8 +168,8 @@ Private Attributes</h2></td></tr>
 </ul>
 <p>Relations may also define metadata such as whether multiple creations are possible, whether the relation is persistent, and default counts. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad28d1d9132d72faa44f3c516e2ab4ab3" name="ad28d1d9132d72faa44f3c516e2ab4ab3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad28d1d9132d72faa44f3c516e2ab4ab3">&#9670;&#160;</a></span>CardRelation()</h2>
+<a id="aa387bd4aa38b90d3363b57c01838a661" name="aa387bd4aa38b90d3363b57c01838a661"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa387bd4aa38b90d3363b57c01838a661">&#9670;&#160;</a></span>CardRelation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -201,7 +205,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>_isPersistent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>_isPersistent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>_isFaceDown</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -220,6 +229,7 @@ Private Attributes</h2></td></tr>
     <tr><td class="paramname">_isVariableCount</td><td>Whether the count is variable. </td></tr>
     <tr><td class="paramname">_defaultCount</td><td>Default number for creations or transformations. </td></tr>
     <tr><td class="paramname">_isPersistent</td><td>Whether the relation persists across zone changes. </td></tr>
+    <tr><td class="paramname">_isFaceDown</td><td>Whether the relation creates the token face down </td></tr>
   </table>
   </dd>
 </dl>
@@ -453,6 +463,39 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ac946bd1497eff70cfe2f7ac87b5153e9" name="ac946bd1497eff70cfe2f7ac87b5153e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac946bd1497eff70cfe2f7ac87b5153e9">&#9670;&#160;</a></span>getIsFaceDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CardRelation::getIsFaceDown </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns whether the relation creates the token facedown. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if facedown, false otherwise. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/ded/classCardRelation_ac946bd1497eff70cfe2f7ac87b5153e9_icgraph.svg" width="482" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ac217fe154f453854a81d228c53437af5" name="ac217fe154f453854a81d228c53437af5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac217fe154f453854a81d228c53437af5">&#9670;&#160;</a></span>getIsPersistent()</h2>
 
@@ -623,6 +666,30 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>True if this relation should exclude multiple creations in "create all" operations. </p>
+
+</div>
+</div>
+<a id="a2dbe83a7b2786532be44617654d3ad24" name="a2dbe83a7b2786532be44617654d3ad24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dbe83a7b2786532be44617654d3ad24">&#9670;&#160;</a></span>isFaceDown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CardRelation::isFaceDown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if this relation creates the tokens facedown. </p>
 
 </div>
 </div>

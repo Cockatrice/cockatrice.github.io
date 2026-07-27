@@ -43,10 +43,12 @@ var searchData=
   ['visual_5fdeck_5fstorage_5fquick_5fsettings_5fwidget_2eh_40',['visual_deck_storage_quick_settings_widget.h',['../d0/dfb/visual__deck__storage__quick__settings__widget_8h.html',1,'']]],
   ['visual_5fdeck_5fstorage_5fsearch_5fwidget_2ecpp_41',['visual_deck_storage_search_widget.cpp',['../d2/dfd/visual__deck__storage__search__widget_8cpp.html',1,'']]],
   ['visual_5fdeck_5fstorage_5fsearch_5fwidget_2eh_42',['visual_deck_storage_search_widget.h',['../dd/d49/visual__deck__storage__search__widget_8h.html',1,'']]],
-  ['visual_5fdeck_5fstorage_5fsort_5fwidget_2ecpp_43',['visual_deck_storage_sort_widget.cpp',['../db/dfd/visual__deck__storage__sort__widget_8cpp.html',1,'']]],
-  ['visual_5fdeck_5fstorage_5fsort_5fwidget_2eh_44',['visual_deck_storage_sort_widget.h',['../d5/dab/visual__deck__storage__sort__widget_8h.html',1,'']]],
-  ['visual_5fdeck_5fstorage_5ftag_5ffilter_5fwidget_2ecpp_45',['visual_deck_storage_tag_filter_widget.cpp',['../df/d32/visual__deck__storage__tag__filter__widget_8cpp.html',1,'']]],
-  ['visual_5fdeck_5fstorage_5ftag_5ffilter_5fwidget_2eh_46',['visual_deck_storage_tag_filter_widget.h',['../da/d66/visual__deck__storage__tag__filter__widget_8h.html',1,'']]],
-  ['visual_5fdeck_5fstorage_5fwidget_2ecpp_47',['visual_deck_storage_widget.cpp',['../d9/d59/visual__deck__storage__widget_8cpp.html',1,'']]],
-  ['visual_5fdeck_5fstorage_5fwidget_2eh_48',['visual_deck_storage_widget.h',['../da/d09/visual__deck__storage__widget_8h.html',1,'']]]
+  ['visual_5fdeck_5fstorage_5fsettings_2ecpp_43',['visual_deck_storage_settings.cpp',['../db/d27/visual__deck__storage__settings_8cpp.html',1,'']]],
+  ['visual_5fdeck_5fstorage_5fsettings_2eh_44',['visual_deck_storage_settings.h',['../d5/d52/visual__deck__storage__settings_8h.html',1,'']]],
+  ['visual_5fdeck_5fstorage_5fsort_5fwidget_2ecpp_45',['visual_deck_storage_sort_widget.cpp',['../db/dfd/visual__deck__storage__sort__widget_8cpp.html',1,'']]],
+  ['visual_5fdeck_5fstorage_5fsort_5fwidget_2eh_46',['visual_deck_storage_sort_widget.h',['../d5/dab/visual__deck__storage__sort__widget_8h.html',1,'']]],
+  ['visual_5fdeck_5fstorage_5ftag_5ffilter_5fwidget_2ecpp_47',['visual_deck_storage_tag_filter_widget.cpp',['../df/d32/visual__deck__storage__tag__filter__widget_8cpp.html',1,'']]],
+  ['visual_5fdeck_5fstorage_5ftag_5ffilter_5fwidget_2eh_48',['visual_deck_storage_tag_filter_widget.h',['../da/d66/visual__deck__storage__tag__filter__widget_8h.html',1,'']]],
+  ['visual_5fdeck_5fstorage_5fwidget_2ecpp_49',['visual_deck_storage_widget.cpp',['../d9/d59/visual__deck__storage__widget_8cpp.html',1,'']]],
+  ['visual_5fdeck_5fstorage_5fwidget_2eh_50',['visual_deck_storage_widget.h',['../da/d09/visual__deck__storage__widget_8h.html',1,'']]]
 ];

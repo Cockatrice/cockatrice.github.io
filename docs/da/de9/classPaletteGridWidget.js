@@ -5,6 +5,7 @@ var classPaletteGridWidget =
     [ "changeEvent", "da/de9/classPaletteGridWidget.html#a502b789b3d2f4cadd5f9607a0c162c3b", null ],
     [ "currentPaletteConfig", "da/de9/classPaletteGridWidget.html#a41d39fd6e3f176d066a8393161b38759", null ],
     [ "loadPalette", "da/de9/classPaletteGridWidget.html#a2850a291715a9c7f2321d74cac65453a", null ],
+    [ "paletteChanged", "da/de9/classPaletteGridWidget.html#a96131f08a0f1d75ed189b0fb9480271e", null ],
     [ "refreshChromePalettes", "da/de9/classPaletteGridWidget.html#a2c3ddaaaef8cf2325b50480d21576d0e", null ],
     [ "colorButtons", "da/de9/classPaletteGridWidget.html#a614751e573a3d643b1feaab3f966904c", null ],
     [ "gridHost", "da/de9/classPaletteGridWidget.html#a1a78bf054d4d2068cfeb99389a53c984", null ],

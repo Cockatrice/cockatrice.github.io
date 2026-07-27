@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['known_20cards_0',['Querying for known cards',['../da/d66/querying_the_card_database.html#querying-for-known-cards',1,'']]]
+  ['judge_201033_0',['&lt;span class=&quot;tt&quot;&gt;JUDGE&lt;/span&gt; (1033)',['../d0/d5b/protocol_game_command.html#judge-1033',1,'']]]
 ];

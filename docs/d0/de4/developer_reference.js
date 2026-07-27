@@ -45,5 +45,6 @@ var developer_reference =
         [ "Groups of Cards", "dc/d8a/displaying_cards.html#groups-of-cards", null ]
       ] ],
       [ "In-game", "dc/d8a/displaying_cards.html#in-game", null ]
-    ] ]
+    ] ],
+    [ "Network (Overview)", "d1/d47/developer_reference_network_overview.html", "d1/d47/developer_reference_network_overview" ]
 ];

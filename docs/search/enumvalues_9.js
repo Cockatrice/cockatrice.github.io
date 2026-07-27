@@ -1,15 +1,19 @@
 var searchData=
 [
-  ['jsontokencolon_0',['JsonTokenColon',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5abfb15d89c9e4acc48bce8107c23c51fe',1,'QtJson']]],
-  ['jsontokencomma_1',['JsonTokenComma',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5ad1c597ad17bef5dad078ea52ded0d287',1,'QtJson']]],
-  ['jsontokencurlyclose_2',['JsonTokenCurlyClose',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a7009219d4073e0827c8e958b54ff57f5',1,'QtJson']]],
-  ['jsontokencurlyopen_3',['JsonTokenCurlyOpen',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a367bd0ab2b0ab1036ee53dd48f0f4afa',1,'QtJson']]],
-  ['jsontokenfalse_4',['JsonTokenFalse',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a505049fcaa83f2b410ffca0c50fb2085',1,'QtJson']]],
-  ['jsontokennone_5',['JsonTokenNone',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a9e21c9aaf533f7f7d3ff3f450d6f3f48',1,'QtJson']]],
-  ['jsontokennull_6',['JsonTokenNull',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a05a0d316386867b0f7ba1f0813dbb25b',1,'QtJson']]],
-  ['jsontokennumber_7',['JsonTokenNumber',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a6e190b194567f0399d9c4dc8bda013eb',1,'QtJson']]],
-  ['jsontokensquaredclose_8',['JsonTokenSquaredClose',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a6e6250ea5f55e5de97af5057c7b534ca',1,'QtJson']]],
-  ['jsontokensquaredopen_9',['JsonTokenSquaredOpen',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a48d3d020e6814adb3b883e8ca5c5d3a1',1,'QtJson']]],
-  ['jsontokenstring_10',['JsonTokenString',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a1c6ed8295954a12ba80f6c2a9565829d',1,'QtJson']]],
-  ['jsontokentrue_11',['JsonTokenTrue',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a67f8a97a5a8ed721646382e67e4d8885',1,'QtJson']]]
+  ['join_0',['JOIN',['../de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35ac871002ad070c230de52352c3f939d32',1,'GameEvent']]],
+  ['join_5fgame_1',['JOIN_GAME',['../da/de3/structRoomCommand.html#ab13483cb4478270184e4aeeffdba9956a251b135cab0850f21ba602993eb15bb2',1,'RoomCommand']]],
+  ['join_5froom_2',['JOIN_ROOM',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a67f14505c71f239a90bd648ac06a25d3',1,'Response::JOIN_ROOM'],['../d7/dc2/structRoomEvent.html#a38dab0b0acac484e5bc10ff0ec2c0021a6545859eb0af6182f50acb0f32088d3b',1,'RoomEvent::JOIN_ROOM'],['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700aa1edc7a0db9ccbffe92725b20ad7b1dc',1,'SessionCommand::JOIN_ROOM']]],
+  ['jsontokencolon_3',['JsonTokenColon',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5abfb15d89c9e4acc48bce8107c23c51fe',1,'QtJson']]],
+  ['jsontokencomma_4',['JsonTokenComma',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5ad1c597ad17bef5dad078ea52ded0d287',1,'QtJson']]],
+  ['jsontokencurlyclose_5',['JsonTokenCurlyClose',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a7009219d4073e0827c8e958b54ff57f5',1,'QtJson']]],
+  ['jsontokencurlyopen_6',['JsonTokenCurlyOpen',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a367bd0ab2b0ab1036ee53dd48f0f4afa',1,'QtJson']]],
+  ['jsontokenfalse_7',['JsonTokenFalse',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a505049fcaa83f2b410ffca0c50fb2085',1,'QtJson']]],
+  ['jsontokennone_8',['JsonTokenNone',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a9e21c9aaf533f7f7d3ff3f450d6f3f48',1,'QtJson']]],
+  ['jsontokennull_9',['JsonTokenNull',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a05a0d316386867b0f7ba1f0813dbb25b',1,'QtJson']]],
+  ['jsontokennumber_10',['JsonTokenNumber',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a6e190b194567f0399d9c4dc8bda013eb',1,'QtJson']]],
+  ['jsontokensquaredclose_11',['JsonTokenSquaredClose',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a6e6250ea5f55e5de97af5057c7b534ca',1,'QtJson']]],
+  ['jsontokensquaredopen_12',['JsonTokenSquaredOpen',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a48d3d020e6814adb3b883e8ca5c5d3a1',1,'QtJson']]],
+  ['jsontokenstring_13',['JsonTokenString',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a1c6ed8295954a12ba80f6c2a9565829d',1,'QtJson']]],
+  ['jsontokentrue_14',['JsonTokenTrue',['../dc/dfb/namespaceQtJson.html#ae6d1c0e24dd59604363a6130cbdca5d5a67f8a97a5a8ed721646382e67e4d8885',1,'QtJson']]],
+  ['judge_15',['JUDGE',['../dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12ae082f918ae85a29d06607ea22f8db10e',1,'GameCommand']]]
 ];

@@ -1,26 +1,10 @@
 var searchData=
 [
-  ['parameternotimplemented_0',['ParameterNotImplemented',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673a31ede022abced4f4ce3e212c5f9713e7',1,'QxtSmtp']]],
-  ['partiallycorrupted_1',['PartiallyCorrupted',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412ab41ccb474dacdf6d066b70114afe2425',1,'UnZip']]],
-  ['passwordright_2',['PasswordRight',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdabc06a19c00f829792a1758862cd5e9c9',1,'server.h']]],
-  ['pauper_3',['Pauper',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2ab2e6f79d956e5e66959b3f3e77e5aa0b',1,'ArchidektFormats']]],
-  ['paupercommander_4',['PauperCommander',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a8c19923e1933d06a06ed2259924fbc30',1,'ArchidektFormats']]],
-  ['pennydreadful_5',['PennyDreadful',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a5aecf5a9cb80433dad12cf42d33b5893',1,'ArchidektFormats']]],
-  ['pioneer_6',['Pioneer',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2af13e3963c9624dbc775c57d41fbe61ab',1,'ArchidektFormats']]],
-  ['plaintext_7',['PlainText',['../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945a13d9fc7e92cd6d8d9e62035b3b864fa6',1,'DeckFileFormat']]],
-  ['player_8',['Player',['../da/d5a/classThemeManager.html#a3aa764444425be577be3cd450e79f278ad0be6f042b6f1934cec53f878f960d87',1,'ThemeManager']]],
-  ['player_5fcounters_9',['Player_Counters',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca1c41c5e2f7e5b863d04efbcb1b29514a',1,'ShortcutGroup']]],
-  ['players_10',['PLAYERS',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0ac31b7cc9b4d9329929f7990d79e777ad',1,'games_model.cpp']]],
-  ['playing_5farea_11',['Playing_Area',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca3df4ede70eed7b04f181c8ae0cc59b92',1,'ShortcutGroup']]],
-  ['power_5ftoughness_12',['Power_Toughness',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca7fb4124712d26fdbc808b7c16cff441d',1,'ShortcutGroup']]],
-  ['predh_13',['PreDH',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2ac3d3ff6167e7fae4184187ec0caaaa3e',1,'ArchidektFormats']]],
-  ['premodern_14',['Premodern',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a1c34226c5bdf6cf252398829448e5317',1,'ArchidektFormats']]],
-  ['prioritycol_15',['PriorityCol',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735a072cd49309ba4c2b9160541eff55023e',1,'SetsModel']]],
-  ['priorityfallback_16',['PriorityFallback',['../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa6028c953f8ac0fb77178b25fd915897a',1,'CardSet']]],
-  ['prioritylowest_17',['PriorityLowest',['../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fadce4ed2df134165537be91ddfbb5bdfa',1,'CardSet']]],
-  ['priorityother_18',['PriorityOther',['../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fae37b3629c6539e06ef68c5d93664027c',1,'CardSet']]],
-  ['priorityprimary_19',['PriorityPrimary',['../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa5130639d8ec84e4b578864a7c6bc2693',1,'CardSet']]],
-  ['priorityreprint_20',['PriorityReprint',['../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa7c5bae467c8ee755d632f948860a0e0a',1,'CardSet']]],
-  ['prioritysecondary_21',['PrioritySecondary',['../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fab4eaac9b9e7568cc5b5775dd6a8108eb',1,'CardSet']]],
-  ['ptcolumn_22',['PTColumn',['../dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0afdcec8a6bd4181ebe06b26f647c5fdcd',1,'CardDatabaseModel']]]
+  ['oathbreaker_0',['Oathbreaker',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a429f14d12d2e509f9c7f0dc093495692',1,'ArchidektFormats']]],
+  ['ok_1',['Ok',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412aca26bc86226ae232c98aa2c988cd1a99',1,'UnZip::Ok'],['../d8/df5/classZip.html#aa445490ca64ce3051470bed52ee9198ca48abb970043d56b260f34b0e03f7faa2',1,'Zip::Ok'],['../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11ca06d32f047358de4e6a30c28046f4688e',1,'Ok:&#160;card_database_loader.h']]],
+  ['oldschool_2',['OldSchool',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a423682d888bdda8695a01126b6816c46',1,'ArchidektFormats']]],
+  ['openfailed_3',['OpenFailed',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412aa629c8043afd7cb1e05ecb36bba7c709',1,'UnZip::OpenFailed'],['../d8/df5/classZip.html#aa445490ca64ce3051470bed52ee9198ca536dba66d1bac24d19bb954b7c7339b8',1,'Zip::OpenFailed']]],
+  ['other_4',['OTHER',['../da/d30/structEvent__ConnectionClosed.html#a9f79dac37fda0c21614d4e24d30e04a0a905ecda324825d991e7e5a089a7c8d62',1,'Event_ConnectionClosed::OTHER'],['../d9/d05/structEvent__Leave.html#a9df2c0d5e1297bc0863a4a5a859e3487ac49e94eb34785412ff97d298fae9ca14',1,'Event_Leave::OTHER']]],
+  ['overlap_5',['Overlap',['../d8/d36/visual__deck__editor__widget_8h.html#a18c0cbeece6bcb1c64d7463ce253ff50a2359a16283d7b4bfaaff2f6e90cbd116',1,'visual_deck_editor_widget.h']]],
+  ['overlay_6',['Overlay',['../d7/dd1/namespaceZValueLayerManager.html#abbe88f12d743947441bb00e112b7b276a6b551379c3c0b59326abdaf3b4395bd3',1,'ZValueLayerManager']]]
 ];

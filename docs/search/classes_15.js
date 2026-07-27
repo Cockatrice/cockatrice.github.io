@@ -20,7 +20,8 @@ var searchData=
   ['visualdeckstoragefolderdisplaywidget_17',['VisualDeckStorageFolderDisplayWidget',['../da/d22/classVisualDeckStorageFolderDisplayWidget.html',1,'']]],
   ['visualdeckstoragequicksettingswidget_18',['VisualDeckStorageQuickSettingsWidget',['../d7/d92/classVisualDeckStorageQuickSettingsWidget.html',1,'']]],
   ['visualdeckstoragesearchwidget_19',['VisualDeckStorageSearchWidget',['../d8/d1c/classVisualDeckStorageSearchWidget.html',1,'']]],
-  ['visualdeckstoragesortwidget_20',['VisualDeckStorageSortWidget',['../dd/d71/classVisualDeckStorageSortWidget.html',1,'']]],
-  ['visualdeckstoragetagfilterwidget_21',['VisualDeckStorageTagFilterWidget',['../d8/d4e/classVisualDeckStorageTagFilterWidget.html',1,'']]],
-  ['visualdeckstoragewidget_22',['VisualDeckStorageWidget',['../d0/dfe/classVisualDeckStorageWidget.html',1,'']]]
+  ['visualdeckstoragesettings_20',['VisualDeckStorageSettings',['../d3/d93/classVisualDeckStorageSettings.html',1,'']]],
+  ['visualdeckstoragesortwidget_21',['VisualDeckStorageSortWidget',['../dd/d71/classVisualDeckStorageSortWidget.html',1,'']]],
+  ['visualdeckstoragetagfilterwidget_22',['VisualDeckStorageTagFilterWidget',['../d8/d4e/classVisualDeckStorageTagFilterWidget.html',1,'']]],
+  ['visualdeckstoragewidget_23',['VisualDeckStorageWidget',['../d0/dfe/classVisualDeckStorageWidget.html',1,'']]]
 ];

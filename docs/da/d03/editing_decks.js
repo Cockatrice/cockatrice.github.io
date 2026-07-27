@@ -16,7 +16,7 @@ var editing_decks =
       [ "Sample Hand", "de/d6e/editing_decks_visual.html#sample-hand", null ]
     ] ],
     [ "Printing Selector", "d7/d64/editing_decks_printings.html", [
-      [ "Purpose", "d7/d64/editing_decks_printings.html#purpose", null ],
+      [ "Purpose", "d7/d64/editing_decks_printings.html#purpose-1", null ],
       [ "Pre-requisites (User Interface)", "d7/d64/editing_decks_printings.html#pre-requisites-user-interface", null ],
       [ "Pre-requisites (Card Database)", "d7/d64/editing_decks_printings.html#pre-requisites-card-database", null ],
       [ "Using the Printing Selector", "d7/d64/editing_decks_printings.html#using-the-printing-selector", null ]

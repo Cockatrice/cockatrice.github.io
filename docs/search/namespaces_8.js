@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['userlistroles_0',['UserListRoles',['../d7/dc9/namespaceUserListRoles.html',1,'']]]
+  ['subtypetally_0',['SubtypeTally',['../d9/d99/namespaceSubtypeTally.html',1,'']]]
 ];

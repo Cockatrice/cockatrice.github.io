@@ -15,7 +15,7 @@ var classGameEventHandler =
     [ "eventLeave", "d7/db2/classGameEventHandler.html#a848bbbf5f8a2966ab34b12a65c283662", null ],
     [ "eventPing", "d7/db2/classGameEventHandler.html#a425eaa14ef6a4a6046a90359486405af", null ],
     [ "eventPlayerPropertiesChanged", "d7/db2/classGameEventHandler.html#ad0a8ae81f23c40d023717e1ba9a540c3", null ],
-    [ "eventReverseTurn", "d7/db2/classGameEventHandler.html#a35dd558035d9f1cbc63e8bb515345421", null ],
+    [ "eventReverseTurn", "d7/db2/classGameEventHandler.html#a1fa4f438f6344bf3fa82b455f6428295", null ],
     [ "eventSetActivePhase", "d7/db2/classGameEventHandler.html#aae31d2fd10c178c5ab3d9e2da30caf9d", null ],
     [ "eventSetActivePlayer", "d7/db2/classGameEventHandler.html#a8c5b211b72391aae98f00a1db77f135d", null ],
     [ "eventSpectatorLeave", "d7/db2/classGameEventHandler.html#a430fefabdfd6148b034e0483786e7dda", null ],

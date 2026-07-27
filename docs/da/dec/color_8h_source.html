@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-27-Development-3.1.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -109,14 +109,14 @@ $(function(){initNavTree('da/dec/color_8h_source.html','../../',''); });
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;libcockatrice/protocol/pb/color.pb.h&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifdef QT_GUI_LIB</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">inline</span> QColor convertColorToQColor(<span class="keyword">const</span> color &amp;c)</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">inline</span> QColor convertColorToQColor(<span class="keyword">const</span> <a class="code hl_struct" href="../../d0/d91/structcolor.html">color</a> &amp;c)</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keywordflow">return</span> QColor(c.r(), c.g(), c.b());</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keywordflow">return</span> QColor(c.<a class="code hl_variable" href="../../d0/d91/structcolor.html#a69db30dc705122830d4496e6831fb8ae">r</a>(), c.<a class="code hl_variable" href="../../d0/d91/structcolor.html#aa98b9651f127df3fab206ab2da0f1f8b">g</a>(), c.<a class="code hl_variable" href="../../d0/d91/structcolor.html#ad451dfe06d5b65b688a2e7c3c0a0e905">b</a>());</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>}</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">inline</span> color convertQColorToColor(<span class="keyword">const</span> QColor &amp;c)</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">inline</span> <a class="code hl_struct" href="../../d0/d91/structcolor.html">color</a> convertQColorToColor(<span class="keyword">const</span> QColor &amp;c)</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    color result;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_struct" href="../../d0/d91/structcolor.html">color</a> result;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    result.set_r(c.red());</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    result.set_g(c.green());</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    result.set_b(c.blue());</div>
@@ -193,9 +193,9 @@ $(function(){initNavTree('da/dec/color_8h_source.html','../../',''); });
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
 <div class="foldopen" id="foldopen00094" data-start="{" data-end="}">
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="../../da/dec/color_8h.html#a1d8bea332919559eaa25348d33b1f31a">   94</a></span><span class="keyword">inline</span> color <a class="code hl_function" href="../../da/dec/color_8h.html#a1d8bea332919559eaa25348d33b1f31a">makeColor</a>(<span class="keywordtype">int</span> r, <span class="keywordtype">int</span> g, <span class="keywordtype">int</span> b)</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="../../da/dec/color_8h.html#a1d8bea332919559eaa25348d33b1f31a">   94</a></span><span class="keyword">inline</span> <a class="code hl_struct" href="../../d0/d91/structcolor.html">color</a> <a class="code hl_function" href="../../da/dec/color_8h.html#a1d8bea332919559eaa25348d33b1f31a">makeColor</a>(<span class="keywordtype">int</span> r, <span class="keywordtype">int</span> g, <span class="keywordtype">int</span> b)</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>{</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    color result;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <a class="code hl_struct" href="../../d0/d91/structcolor.html">color</a> result;</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    result.set_r(r);</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    result.set_g(g);</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    result.set_b(b);</div>
@@ -206,6 +206,10 @@ $(function(){initNavTree('da/dec/color_8h_source.html','../../',''); });
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="acolor_8h_html_a1d8bea332919559eaa25348d33b1f31a"><div class="ttname"><a href="../../da/dec/color_8h.html#a1d8bea332919559eaa25348d33b1f31a">makeColor</a></div><div class="ttdeci">color makeColor(int r, int g, int b)</div><div class="ttdef"><b>Definition</b> color.h:94</div></div>
 <div class="ttc" id="adeck__list_8cpp_html_a3dc3492557506ea620057f90f6253638"><div class="ttname"><a href="../../d3/d94/deck__list_8cpp.html#a3dc3492557506ea620057f90f6253638">qHash</a></div><div class="ttdeci">uint qHash(const QRegularExpression &amp;key, uint seed) noexcept</div><div class="ttdef"><b>Definition</b> deck_list.cpp:18</div></div>
+<div class="ttc" id="astructcolor_html"><div class="ttname"><a href="../../d0/d91/structcolor.html">color</a></div><div class="ttdef"><b>Definition</b> color.proto:4</div></div>
+<div class="ttc" id="astructcolor_html_a69db30dc705122830d4496e6831fb8ae"><div class="ttname"><a href="../../d0/d91/structcolor.html#a69db30dc705122830d4496e6831fb8ae">color::r</a></div><div class="ttdeci">optional uint32 r</div><div class="ttdef"><b>Definition</b> color.proto:7</div></div>
+<div class="ttc" id="astructcolor_html_aa98b9651f127df3fab206ab2da0f1f8b"><div class="ttname"><a href="../../d0/d91/structcolor.html#aa98b9651f127df3fab206ab2da0f1f8b">color::g</a></div><div class="ttdeci">optional uint32 g</div><div class="ttdef"><b>Definition</b> color.proto:10</div></div>
+<div class="ttc" id="astructcolor_html_ad451dfe06d5b65b688a2e7c3c0a0e905"><div class="ttname"><a href="../../d0/d91/structcolor.html#ad451dfe06d5b65b688a2e7c3c0a0e905">color::b</a></div><div class="ttdeci">optional uint32 b</div><div class="ttdef"><b>Definition</b> color.proto:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

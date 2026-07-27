@@ -1,0 +1,38 @@
+var structSessionCommand =
+[
+    [ "SessionCommandType", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700", [
+      [ "PING", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a5b3bc25d683e6dc3043950b79f0f81db", null ],
+      [ "LOGIN", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a4929a6236a2be6be8e246f18cd1afccf", null ],
+      [ "MESSAGE", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a6bf6a21282c2a7cc5e2de5861357c6c4", null ],
+      [ "LIST_USERS", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a4d4eb95d257f77f4da456907b7a4bcf5", null ],
+      [ "GET_GAMES_OF_USER", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ac2efaa0bb2a85a32eadd889ecba8b73f", null ],
+      [ "GET_USER_INFO", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700aef176145d81c3c6fabc90fe0cc5bc297", null ],
+      [ "ADD_TO_LIST", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a7476e983b1d0b07107fbda3d759d4464", null ],
+      [ "REMOVE_FROM_LIST", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a0ce55d141424b8b7348ae6088fbd555c", null ],
+      [ "DECK_LIST", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a0e7474326f6b192a53dcd92275e43103", null ],
+      [ "DECK_NEW_DIR", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a87d17929dc1a154678d8b1a6a0f953bb", null ],
+      [ "DECK_DEL_DIR", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a00121090d69e9f2a26d82183934777eb", null ],
+      [ "DECK_DEL", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700aea8419d4755eff6434cb41b7287f5643", null ],
+      [ "DECK_DOWNLOAD", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ab794aee54ea138de62fb9e1a3f58f57f", null ],
+      [ "DECK_UPLOAD", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a5bd3b15394d3f93270b6d7bb22a31d8e", null ],
+      [ "LIST_ROOMS", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700aa8b42efb0fd36e0a243b667eba2b7ade", null ],
+      [ "JOIN_ROOM", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700aa1edc7a0db9ccbffe92725b20ad7b1dc", null ],
+      [ "REGISTER", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ab1b18a09c58593d1a1d0086344377d6d", null ],
+      [ "ACTIVATE", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ac5c93851a60ad072611f11dfaa6ab4d1", null ],
+      [ "ACCOUNT_EDIT", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a065ebc5376b7e2d13295ab4dfdfe7935", null ],
+      [ "ACCOUNT_IMAGE", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a5341d375b48f5705921693b9d311507e", null ],
+      [ "ACCOUNT_PASSWORD", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700aa2866f5fed8f8b8a999150ca882f5314", null ],
+      [ "FORGOT_PASSWORD_REQUEST", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700aa6ec0c376bfdd0303a49df60a1ab2d03", null ],
+      [ "FORGOT_PASSWORD_RESET", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a975fd9e0827ddaa1d8db3302d7167a69", null ],
+      [ "FORGOT_PASSWORD_CHALLENGE", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a0d80048c19cca74caf50461da31b988a", null ],
+      [ "REQUEST_PASSWORD_SALT", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a29c40ca421210c33ff7ecbdafbfd440e", null ],
+      [ "SET_CARD_ART_PARAMS", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a7bee8c720b69150c3d83a3135517c170", null ],
+      [ "REPLAY_LIST", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ab49ebb5b6e830efe87a2c6f197ff6574", null ],
+      [ "REPLAY_DOWNLOAD", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a653c24e35bb18efb2f83a056f192fd85", null ],
+      [ "REPLAY_MODIFY_MATCH", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ab21822177cddfd9882df605aaf4ed566", null ],
+      [ "REPLAY_DELETE_MATCH", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a33dddfa7334d4d5a7138428bc793b734", null ],
+      [ "REPLAY_GET_CODE", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ad1a39211c8453a239c5ad451e6746b5b", null ],
+      [ "REPLAY_SUBMIT_CODE", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700afc5f62ab24fbe99886e8a7cea983c830", null ]
+    ] ],
+    [ "max", "d8/de9/structSessionCommand.html#a246a4710a7c6e2383b1ce64276b866d1", null ]
+];

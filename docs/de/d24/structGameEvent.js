@@ -1,0 +1,37 @@
+var structGameEvent =
+[
+    [ "GameEventType", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35", [
+      [ "JOIN", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35ac871002ad070c230de52352c3f939d32", null ],
+      [ "LEAVE", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35aee1cf80ba86a188c913a190388252a1a", null ],
+      [ "GAME_CLOSED", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a262cbbd103d917a6501da43ebc6a1541", null ],
+      [ "GAME_HOST_CHANGED", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a3512d59e31c335a824b422820e99754b", null ],
+      [ "KICKED", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35ad29618b59ea093c9e1e46e33b1823dde", null ],
+      [ "GAME_STATE_CHANGED", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a7d99502337f3da9c6d0b5747ec5dcf91", null ],
+      [ "PLAYER_PROPERTIES_CHANGED", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a1bfce6776a60eefd1af1765463e13de9", null ],
+      [ "GAME_SAY", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35aee7049c3542b132a8218b435baceb001", null ],
+      [ "CREATE_ARROW", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35acdf42b63b0684853f7f72f0b7eb4edd0", null ],
+      [ "DELETE_ARROW", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a44e43bb7b83975d56e8e51b5a1276923", null ],
+      [ "CREATE_COUNTER", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a860d959eb829d4b8b04cb692ad9bab49", null ],
+      [ "SET_COUNTER", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35ae8a8d4319460a8b632d3f9c8d2ecd681", null ],
+      [ "DEL_COUNTER", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a4e7c49d09d9e098f7ac1566d60c50bc2", null ],
+      [ "DRAW_CARDS", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a04afbd9eb5bc93dd058c6ed93eb01a96", null ],
+      [ "REVEAL_CARDS", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35abfa5fc556358d8a9d10f2e7403d7a67f", null ],
+      [ "SHUFFLE", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a0bde3a5d74ec5b03f38af861262f7b1b", null ],
+      [ "ROLL_DIE", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a205e888471827da9811b3a6a8f1ce2e4", null ],
+      [ "MOVE_CARD", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35af0de58bdbd58e21b1843cc0c84e2ac06", null ],
+      [ "FLIP_CARD", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a14351d4b788cde40b2f5aac5015af196", null ],
+      [ "DESTROY_CARD", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35ac8d65854d66a172626cce33c76a629ca", null ],
+      [ "ATTACH_CARD", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a91cb44f8352dc8ba8245e43411f89b48", null ],
+      [ "CREATE_TOKEN", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a6c4cc02d615fbcbce8c4fee750f8c7f2", null ],
+      [ "SET_CARD_ATTR", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a256167bfec73ae42456690eed66770f6", null ],
+      [ "SET_CARD_COUNTER", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35aed884cc7e57ae01e0b85208c18adada7", null ],
+      [ "SET_ACTIVE_PLAYER", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a988fda5c6789eecc14221de2eaf46b6b", null ],
+      [ "SET_ACTIVE_PHASE", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35aa53fc94ea0be09e049893df8afc17a7b", null ],
+      [ "DUMP_ZONE", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a479ec10e8fa580d3d1d6826999c26feb", null ],
+      [ "CHANGE_ZONE_PROPERTIES", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a339843ac717b340ff407737904546247", null ],
+      [ "REVERSE_TURN", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35af9ae30a59dfc7a5a2b8af3a5ba3619b4", null ],
+      [ "GAME_LOG_NOTICE", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a7cfe2139978749604216271d62426e56", null ]
+    ] ],
+    [ "max", "de/d24/structGameEvent.html#a5dc1b47345f7159252ef08d8d6212e3a", null ],
+    [ "player_id", "de/d24/structGameEvent.html#a7e6975f3339d2131786c270d0b2c20e1", null ]
+];

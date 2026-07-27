@@ -1,10 +1,10 @@
 var searchData=
 [
   ['name_0',['name',['../df/dd5/structpeg_1_1SemanticValues.html#a83be04ad273680f06c8e8280b0a4995a',1,'peg::SemanticValues::name()'],['../da/dab/classpeg_1_1Holder.html#a3e9c2a416e13d31c755811f497899d04',1,'peg::Holder::name()']]],
-  ['namefromstdstring_1',['nameFromStdString',['../da/d4b/trice__limits_8h.html#a95db897f5efddbef085caad2416229bc',1,'trice_limits.h']]],
+  ['namefromstdstring_1',['nameFromStdString',['../d9/d78/string__limits_8h.html#aa22de6ca596fe8cc27d6d22cd7b139cc',1,'string_limits.h']]],
   ['ncls_2',['ncls',['../dc/db2/namespacepeg.html#abf603c864440a9b11d319421ea53baa4',1,'peg::ncls(const std::string &amp;s)'],['../dc/db2/namespacepeg.html#ab0717a41ff5ecc09dd35b5fe3aebd496',1,'peg::ncls(const std::vector&lt; std::pair&lt; char32_t, char32_t &gt; &gt; &amp;ranges, bool ignore_case=false)']]],
   ['nearendofpage_3',['nearEndOfPage',['../d2/d32/classVisualDatabaseDisplayWidget.html#ab78c682fc14a079228cfc08e0e4afee6',1,'VisualDatabaseDisplayWidget']]],
-  ['networkcachesizechanged_4',['networkCacheSizeChanged',['../d5/d88/classSettingsCache.html#ada9c05b15089011112e2d91b37a5f4cb',1,'SettingsCache']]],
+  ['networkcachesizechanged_4',['networkCacheSizeChanged',['../d0/d41/classCacheStorageSettings.html#a1556563c64b9b781e1d62894aa127dc8',1,'CacheStorageSettings']]],
   ['newcardadded_5',['newCardAdded',['../d2/d98/classPlayerLogic.html#ad013cde90b250f212649d079f6baef12',1,'PlayerLogic::newCardAdded()'],['../db/db5/classDeckViewScene.html#ae9ddc44fbd89544efcb848b433e17dd2',1,'DeckViewScene::newCardAdded()'],['../d9/d25/classDeckView.html#a74922f14cd118099f63021c02451def8',1,'DeckView::newCardAdded()'],['../df/ddd/classDeckViewContainer.html#a30c24481aca7021386ff6479bbd41fff',1,'DeckViewContainer::newCardAdded()'],['../de/d08/classTabGame.html#a3add34468552a20eeb22a832955a1656',1,'TabGame::newCardAdded()']]],
   ['newcardid_6',['newCardId',['../da/d99/classServer__AbstractPlayer.html#a25d3e4c638a4f5d821207f7686693ba6',1,'Server_AbstractPlayer']]],
   ['newconnection_7',['newConnection',['../d2/d40/classLocalServer.html#a01549f64366c28e3ab7617a59445137d',1,'LocalServer']]],

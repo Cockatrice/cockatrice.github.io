@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-27-Development-3.1.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -128,7 +128,7 @@ $(function(){initNavTree('d0/d1f/server__response__containers_8h_source.html','.
 </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    Q_DECLARE_FLAGS(EventRecipients, <a class="code hl_enumeration" href="../../da/df9/classGameEventStorageItem.html#a19cc9739761186fa56a0ff2292bc9d64">EventRecipient</a>)</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../da/df9/classGameEventStorageItem.html#a663e95ad84040d5472ba201c861653d6">   27</a></span>    GameEvent *<a class="code hl_variable" href="../../da/df9/classGameEventStorageItem.html#a663e95ad84040d5472ba201c861653d6">event</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../da/df9/classGameEventStorageItem.html#a663e95ad84040d5472ba201c861653d6">   27</a></span>    <a class="code hl_struct" href="../../de/d24/structGameEvent.html">GameEvent</a> *<a class="code hl_variable" href="../../da/df9/classGameEventStorageItem.html#a663e95ad84040d5472ba201c861653d6">event</a>;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="../../da/df9/classGameEventStorageItem.html#a41484bce9fc7f3b59b2a056363da4709">   28</a></span>    EventRecipients <a class="code hl_variable" href="../../da/df9/classGameEventStorageItem.html#a41484bce9fc7f3b59b2a056363da4709">recipients</a>;</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">public</span>:</div>
@@ -136,7 +136,7 @@ $(function(){initNavTree('d0/d1f/server__response__containers_8h_source.html','.
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <a class="code hl_function" href="../../da/df9/classGameEventStorageItem.html#a0e6c416369f6f0449a846563218a0006">~GameEventStorageItem</a>();</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
 <div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../da/df9/classGameEventStorageItem.html#afaf49e25fbb777704ae47ef557b55c98">   34</a></span>    [[nodiscard]] <span class="keyword">const</span> GameEvent &amp;<a class="code hl_function" href="../../da/df9/classGameEventStorageItem.html#afaf49e25fbb777704ae47ef557b55c98">getGameEvent</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../da/df9/classGameEventStorageItem.html#afaf49e25fbb777704ae47ef557b55c98">   34</a></span>    [[nodiscard]] <span class="keyword">const</span> <a class="code hl_struct" href="../../de/d24/structGameEvent.html">GameEvent</a> &amp;<a class="code hl_function" href="../../da/df9/classGameEventStorageItem.html#afaf49e25fbb777704ae47ef557b55c98">getGameEvent</a>()<span class="keyword"> const</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">    </span>{</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordflow">return</span> *<a class="code hl_variable" href="../../da/df9/classGameEventStorageItem.html#a663e95ad84040d5472ba201c861653d6">event</a>;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
@@ -237,13 +237,13 @@ $(function(){initNavTree('d0/d1f/server__response__containers_8h_source.html','.
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    }</div>
 </div>
 <div class="foldopen" id="foldopen00111" data-start="{" data-end="}">
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="../../db/d74/classResponseContainer.html#a71779a177ab3d9e14055231857801150">  111</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d74/classResponseContainer.html#a71779a177ab3d9e14055231857801150">enqueuePreResponseItem</a>(ServerMessage::MessageType type, ::google::protobuf::Message *item)</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="../../db/d74/classResponseContainer.html#a71779a177ab3d9e14055231857801150">  111</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d74/classResponseContainer.html#a71779a177ab3d9e14055231857801150">enqueuePreResponseItem</a>(<a class="code hl_enumeration" href="../../d3/d1d/structServerMessage.html#ab80373bacb5a14a61e4ce5102bb0d405">ServerMessage::MessageType</a> type, ::google::protobuf::Message *item)</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    {</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        <a class="code hl_variable" href="../../db/d74/classResponseContainer.html#aa5a8aab2ffe77f7e6db72a3f863ede53">preResponseQueue</a>.append(qMakePair(type, item));</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    }</div>
 </div>
 <div class="foldopen" id="foldopen00115" data-start="{" data-end="}">
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="../../db/d74/classResponseContainer.html#ace21d09da59555ab02b2fc1b3d2b03e3">  115</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d74/classResponseContainer.html#ace21d09da59555ab02b2fc1b3d2b03e3">enqueuePostResponseItem</a>(ServerMessage::MessageType type, ::google::protobuf::Message *item)</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="../../db/d74/classResponseContainer.html#ace21d09da59555ab02b2fc1b3d2b03e3">  115</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/d74/classResponseContainer.html#ace21d09da59555ab02b2fc1b3d2b03e3">enqueuePostResponseItem</a>(<a class="code hl_enumeration" href="../../d3/d1d/structServerMessage.html#ab80373bacb5a14a61e4ce5102bb0d405">ServerMessage::MessageType</a> type, ::google::protobuf::Message *item)</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    {</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        <a class="code hl_variable" href="../../db/d74/classResponseContainer.html#a4f86265ee8e561514276eb06f8284624">postResponseQueue</a>.append(qMakePair(type, item));</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    }</div>
@@ -303,6 +303,8 @@ $(function(){initNavTree('d0/d1f/server__response__containers_8h_source.html','.
 <div class="ttc" id="aclassServer__Game_html"><div class="ttname"><a href="../../df/d89/classServer__Game.html">Server_Game</a></div><div class="ttdef"><b>Definition</b> server_game.h:47</div></div>
 <div class="ttc" id="anamespacegoogle_1_1protobuf_html"><div class="ttname"><a href="../../d0/df5/namespacegoogle_1_1protobuf.html">google::protobuf</a></div><div class="ttdef"><b>Definition</b> player_actions.h:26</div></div>
 <div class="ttc" id="anamespacegoogle_html"><div class="ttname"><a href="../../df/d40/namespacegoogle.html">google</a></div><div class="ttdef"><b>Definition</b> player_actions.h:24</div></div>
+<div class="ttc" id="astructGameEvent_html"><div class="ttname"><a href="../../de/d24/structGameEvent.html">GameEvent</a></div><div class="ttdef"><b>Definition</b> game_event.proto:4</div></div>
+<div class="ttc" id="astructServerMessage_html_ab80373bacb5a14a61e4ce5102bb0d405"><div class="ttname"><a href="../../d3/d1d/structServerMessage.html#ab80373bacb5a14a61e4ce5102bb0d405">ServerMessage::MessageType</a></div><div class="ttdeci">MessageType</div><div class="ttdef"><b>Definition</b> server_message.proto:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

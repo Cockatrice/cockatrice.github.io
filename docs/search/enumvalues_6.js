@@ -1,9 +1,21 @@
 var searchData=
 [
-  ['game_5flobby_0',['Game_Lobby',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca043664351784ef0911bd7ea8d612b12d',1,'ShortcutGroup']]],
-  ['game_5fphases_1',['Game_Phases',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2cecab9433bb3ed2506af72378b5de19098b1',1,'ShortcutGroup']]],
-  ['game_5ftype_2',['GAME_TYPE',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0a287910c7599edcf046d338ce2e769468',1,'games_model.cpp']]],
-  ['game_5fwindow_3',['Game_window',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca5921d217d113bfc5b00f151de0a128e8',1,'ShortcutGroup']]],
-  ['gameplay_4',['Gameplay',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca18a984a955ce2efe7d66dbf44bfaffa7',1,'ShortcutGroup']]],
-  ['gladiator_5',['Gladiator',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2af92b36491af502e1a73ef7aa499211b0',1,'ArchidektFormats']]]
+  ['game_5fclosed_0',['GAME_CLOSED',['../de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a262cbbd103d917a6501da43ebc6a1541',1,'GameEvent']]],
+  ['game_5fcommand_5fcontainer_1',['GAME_COMMAND_CONTAINER',['../d7/ddb/structIslMessage.html#af04cd60b7dee078087f73be71b718e1da784970d0384a10680a87a1b94e6e2470',1,'IslMessage']]],
+  ['game_5fevent_5fcontainer_2',['GAME_EVENT_CONTAINER',['../d7/ddb/structIslMessage.html#af04cd60b7dee078087f73be71b718e1dae8998d17ee03d4663c889d1100056b5d',1,'IslMessage::GAME_EVENT_CONTAINER'],['../d3/d1d/structServerMessage.html#ab80373bacb5a14a61e4ce5102bb0d405ae045b1f14f306f7a9524f8e7f2385687',1,'ServerMessage::GAME_EVENT_CONTAINER']]],
+  ['game_5fhost_5fchanged_3',['GAME_HOST_CHANGED',['../de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a3512d59e31c335a824b422820e99754b',1,'GameEvent']]],
+  ['game_5fjoined_4',['GAME_JOINED',['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624a6453189949936944082ee9ed3f448bcd',1,'SessionEvent']]],
+  ['game_5flobby_5',['Game_Lobby',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca043664351784ef0911bd7ea8d612b12d',1,'ShortcutGroup']]],
+  ['game_5flog_5fnotice_6',['GAME_LOG_NOTICE',['../de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a7cfe2139978749604216271d62426e56',1,'GameEvent']]],
+  ['game_5fphases_7',['Game_Phases',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2cecab9433bb3ed2506af72378b5de19098b1',1,'ShortcutGroup']]],
+  ['game_5fsay_8',['GAME_SAY',['../dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12a9278c442d2e291ff66d90975af7553bd',1,'GameCommand::GAME_SAY'],['../de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35aee7049c3542b132a8218b435baceb001',1,'GameEvent::GAME_SAY']]],
+  ['game_5fstate_5fchanged_9',['GAME_STATE_CHANGED',['../de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a7d99502337f3da9c6d0b5747ec5dcf91',1,'GameEvent']]],
+  ['game_5ftype_10',['GAME_TYPE',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0a287910c7599edcf046d338ce2e769468',1,'games_model.cpp']]],
+  ['game_5fwindow_11',['Game_window',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca5921d217d113bfc5b00f151de0a128e8',1,'ShortcutGroup']]],
+  ['gameplay_12',['Gameplay',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca18a984a955ce2efe7d66dbf44bfaffa7',1,'ShortcutGroup']]],
+  ['get_5fadmin_5fnotes_13',['GET_ADMIN_NOTES',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129ab0926546c1fd2477758f879d4dc79d42',1,'ModeratorCommand::GET_ADMIN_NOTES'],['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442acc7434fe8c64b495555c3f95f9c465b1',1,'Response::GET_ADMIN_NOTES']]],
+  ['get_5fgames_5fof_5fuser_14',['GET_GAMES_OF_USER',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442af1ec623315b236386aa67f5145270467',1,'Response::GET_GAMES_OF_USER'],['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ac2efaa0bb2a85a32eadd889ecba8b73f',1,'SessionCommand::GET_GAMES_OF_USER']]],
+  ['get_5fuser_5finfo_15',['GET_USER_INFO',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a1ea59c0586356cc9750b23c65318e947',1,'Response::GET_USER_INFO'],['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700aef176145d81c3c6fabc90fe0cc5bc297',1,'SessionCommand::GET_USER_INFO']]],
+  ['gladiator_16',['Gladiator',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2af92b36491af502e1a73ef7aa499211b0',1,'ArchidektFormats']]],
+  ['grant_5freplay_5faccess_17',['GRANT_REPLAY_ACCESS',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a1c211f2e55a858b3d5baaf69565d77ca',1,'ModeratorCommand']]]
 ];

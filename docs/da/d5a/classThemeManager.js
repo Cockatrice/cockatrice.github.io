@@ -18,6 +18,7 @@ var classThemeManager =
     [ "isBuiltInTheme", "da/d5a/classThemeManager.html#a7ed7bea9fbcc087e1211535e3856c0c4", null ],
     [ "isDarkMode", "da/d5a/classThemeManager.html#a274b9d3ad827ddf6bb09e5a7fd674724", null ],
     [ "loadBrush", "da/d5a/classThemeManager.html#a0ab60b6b3e4ab42f99dd399f3fa0b90d", null ],
+    [ "loadDefaultPaletteConfig", "da/d5a/classThemeManager.html#a60787db344e5586109329b0122579501", null ],
     [ "loadExtraBrush", "da/d5a/classThemeManager.html#a7c1de1f5a5a91e22b2ef5e19be0a592f", null ],
     [ "loadGlobalConfig", "da/d5a/classThemeManager.html#a6a9cfe3529b2efd9dcd8f094b6e78efe", null ],
     [ "loadPaletteConfig", "da/d5a/classThemeManager.html#ab230f2c1f0e3406f2f76f64bc57f83b7", null ],
@@ -26,11 +27,13 @@ var classThemeManager =
     [ "saveGlobalConfig", "da/d5a/classThemeManager.html#a703cf9e1ed4fdad9da4fd35d50806c45", null ],
     [ "savePaletteConfig", "da/d5a/classThemeManager.html#ac67997fbceb570405dc1f9825071b8c9", null ],
     [ "setColorScheme", "da/d5a/classThemeManager.html#a67895e37594b5974a03710142e847f6a", null ],
+    [ "setStyleName", "da/d5a/classThemeManager.html#a156c82b555aece7f1de4ff79fbe6afa4", null ],
     [ "themeChanged", "da/d5a/classThemeManager.html#a6e64af50ca5000e922470470d0ca419e", null ],
     [ "themeChangedSlot", "da/d5a/classThemeManager.html#a7b4f23aecc7ce0b5f0d445a9eb5aebb6", null ],
     [ "availableThemes", "da/d5a/classThemeManager.html#afba19265134c4254852f085c1867d6f4", null ],
     [ "brushes", "da/d5a/classThemeManager.html#a626270ba2668d8bfd66ff39a95ac0b45", null ],
     [ "brushesCache", "da/d5a/classThemeManager.html#a52e77439e7cd77ecea28db6b92db5823", null ],
     [ "currentThemePath", "da/d5a/classThemeManager.html#a6714f931ef12c07a545acbdf4c005dab", null ],
+    [ "defaultPalette", "da/d5a/classThemeManager.html#a7d7fec18edc22dbd614f004150b38508", null ],
     [ "defaultStyleName", "da/d5a/classThemeManager.html#a30da6d13fa5b57e3c97e0d72ae469b23", null ]
 ];

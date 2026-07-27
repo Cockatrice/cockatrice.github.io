@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-27-Development-3.1.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -159,7 +159,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2aff5b52f46a12d278d944e2612add26" id="r_a2aff5b52f46a12d278d944e2612add26"><td class="memItemLeft">const QList&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> * &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a2aff5b52f46a12d278d944e2612add26">getAttachedCards</a> () const</td></tr>
 <tr class="memitem:a823be72654ee9bacdad7fda926a79438" id="r_a823be72654ee9bacdad7fda926a79438"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a823be72654ee9bacdad7fda926a79438">resetState</a> (bool keepAnnotations=false)</td></tr>
 <tr class="memdesc:a823be72654ee9bacdad7fda926a79438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the fields that should be reset after a zone transition.  <br /></td></tr>
-<tr class="memitem:a2d9c61384c103ee1bd879c269193fc17" id="r_a2d9c61384c103ee1bd879c269193fc17"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2d9c61384c103ee1bd879c269193fc17">processCardInfo</a> (const ServerInfo_Card &amp;_info)</td></tr>
+<tr class="memitem:a2d9c61384c103ee1bd879c269193fc17" id="r_a2d9c61384c103ee1bd879c269193fc17"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2d9c61384c103ee1bd879c269193fc17">processCardInfo</a> (const <a class="el" href="../../d6/da1/structServerInfo__Card.html">ServerInfo_Card</a> &amp;_info)</td></tr>
 <tr class="memitem:afeb512c33421acc38c2de02d67ad2954" id="r_afeb512c33421acc38c2de02d67ad2954"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#afeb512c33421acc38c2de02d67ad2954">animationEvent</a> ()</td></tr>
 <tr class="memitem:ab406049a44e376361f34dec030d99b8c" id="r_ab406049a44e376361f34dec030d99b8c"><td class="memItemLeft"><a class="el" href="../../d5/dd3/classCardDragItem.html">CardDragItem</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ab406049a44e376361f34dec030d99b8c">createDragItem</a> (int _id, const QPointF &amp;_pos, const QPointF &amp;_scenePos, bool forceFaceDown)</td></tr>
 <tr class="memitem:a11a295fed06a249d59baacceafee7467" id="r_a11a295fed06a249d59baacceafee7467"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a11a295fed06a249d59baacceafee7467">deleteDragItem</a> ()</td></tr>
@@ -224,7 +224,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="inherit_header pro_methods_classArrowTarget"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classArrowTarget')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="../../d9/dce/classArrowTarget.html">ArrowTarget</a></td></tr>
 <tr class="memitem:a7f7e969e9d848c01cf9d6726f80653bc inherit pro_methods_classArrowTarget" id="r_a7f7e969e9d848c01cf9d6726f80653bc"><td class="memItemLeft">QVariant&#160;</td><td class="memItemRight"><a class="el" href="../../d9/dce/classArrowTarget.html#a7f7e969e9d848c01cf9d6726f80653bc">itemChange</a> (GraphicsItemChange change, const QVariant &amp;value) override</td></tr>
 <tr class="inherit_header pro_methods_classAbstractGraphicsItem"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classAbstractGraphicsItem')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="../../de/dfe/classAbstractGraphicsItem.html">AbstractGraphicsItem</a></td></tr>
-<tr class="memitem:a1fa1ac7adc4064b33049b7726afce790 inherit pro_methods_classAbstractGraphicsItem" id="r_a1fa1ac7adc4064b33049b7726afce790"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../de/dfe/classAbstractGraphicsItem.html#a1fa1ac7adc4064b33049b7726afce790">paintNumberEllipse</a> (int number, int radius, const QColor &amp;color, int position, int count, QPainter *painter)</td></tr>
+<tr class="memitem:a1fa1ac7adc4064b33049b7726afce790 inherit pro_methods_classAbstractGraphicsItem" id="r_a1fa1ac7adc4064b33049b7726afce790"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../de/dfe/classAbstractGraphicsItem.html#a1fa1ac7adc4064b33049b7726afce790">paintNumberEllipse</a> (int number, int radius, const QColor &amp;<a class="el" href="../../d0/d91/structcolor.html">color</a>, int position, int count, QPainter *painter)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -1217,7 +1217,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void CardItem::processCardInfo </td>
           <td>(</td>
-          <td class="paramtype">const ServerInfo_Card &amp;</td>          <td class="paramname"><span class="paramname"><em>_info</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../d6/da1/structServerInfo__Card.html">ServerInfo_Card</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>_info</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

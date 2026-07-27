@@ -11,6 +11,7 @@ var theme__manager_8cpp =
     [ "printPaletteColors", "d4/d99/theme__manager_8cpp.html#a2bbefdc46db0a3a927527e5257d9e739", null ],
     [ "queryAllPaletteColors", "d4/d99/theme__manager_8cpp.html#a359b0a8f79fe6d7826ce5371fa70fd2e", null ],
     [ "roleBgName", "d4/d99/theme__manager_8cpp.html#a3b154ff641e1f48a4cf8d32e18d1faa7", null ],
+    [ "systemThemesBasePath", "d4/d99/theme__manager_8cpp.html#a9852ee45307978bce8ee0a561f8720d3", null ],
     [ "DEFAULT_RESOURCE_PATHS", "d4/d99/theme__manager_8cpp.html#a95fc390098c3edbb232107e42fb6f9cf", null ],
     [ "HANDZONE_BG_DEFAULT", "d4/d99/theme__manager_8cpp.html#a30f3d6e030dd1942d7ee2b2e25d9ac9a", null ],
     [ "PLAYERZONE_BG_DEFAULT", "d4/d99/theme__manager_8cpp.html#a9b6fc155dfd5aa38765986ac6b08e1b9", null ],

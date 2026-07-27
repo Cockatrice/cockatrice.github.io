@@ -107,7 +107,7 @@ var classPlayerActions =
     [ "cardMenuAction", "d2/d23/classPlayerActions.html#a63d7c487935765b7df2766bd123a7936", null ],
     [ "cmdSetBottomCard", "d2/d23/classPlayerActions.html#a8df021b94e58670c2b51254202ec87c0", null ],
     [ "cmdSetTopCard", "d2/d23/classPlayerActions.html#ac9d846d4de143a086e68885668e109fc", null ],
-    [ "createCard", "d2/d23/classPlayerActions.html#a2d905a181bc7f9023c4b2451b24406ce", null ],
+    [ "createCard", "d2/d23/classPlayerActions.html#a156eb234e7049333ba14e0edd09a0bd9", null ],
     [ "createRelatedFromRelation", "d2/d23/classPlayerActions.html#a9192acfdc7f501a2c28420280e697c9e", null ],
     [ "doMulligan", "d2/d23/classPlayerActions.html#a138321bc016b1a381d79dfbcdb445f1a", null ],
     [ "isMovingCardsUntil", "d2/d23/classPlayerActions.html#a38870a9341e559ce205c98ef77567560", null ],

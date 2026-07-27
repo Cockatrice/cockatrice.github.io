@@ -1,18 +1,13 @@
 var searchData=
 [
-  ['parsing_0',['Parsing',['../d7/d47/card_database_schema_and_parsing.html#card-database-parsing',1,'Card Database Parsing'],['../d7/d47/card_database_schema_and_parsing.html',1,'Card Database Schema and Parsing']]],
-  ['pattern_1',['Log Message Pattern',['../d9/d4f/logging.html#log-message-pattern',1,'']]],
-  ['performance_20notes_2',['Performance Notes',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#performance-notes',1,'']]],
-  ['pictures_3',['Loading Card Pictures',['../d9/d1c/loading_card_pictures.html',1,'developer_reference']]],
-  ['pixmapcachekeys_20and_20providerids_4',['PixmapCacheKeys and ProviderIDs',['../d9/d1c/loading_card_pictures.html#pixmapcachekeys-and-providerids',1,'']]],
-  ['pre_20requisites_20card_20database_5',['Pre-requisites (Card Database)',['../d7/d64/editing_decks_printings.html#pre-requisites-card-database',1,'']]],
-  ['pre_20requisites_20user_20interface_6',['Pre-requisites (User Interface)',['../d7/d64/editing_decks_printings.html#pre-requisites-user-interface',1,'']]],
-  ['primer_20on_20cards_7',['A Primer on Cards',['../da/d69/primer_cards.html',1,'developer_reference']]],
-  ['printing_20info_8',['Printing Info',['../da/d69/primer_cards.html#printing-info',1,'']]],
-  ['printing_20selector_9',['Printing Selector',['../d7/d64/editing_decks_printings.html',1,'Printing Selector'],['../d7/d64/editing_decks_printings.html#using-the-printing-selector',1,'Using the Printing Selector']]],
-  ['printinginfo_20and_20exactcard_10',['Getting specific: PrintingInfo and ExactCard',['../da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard',1,'']]],
-  ['printings_11',['printings',['../d3/d32/editing_decks_classic.html#modifying-printings',1,'Modifying printings'],['../de/d6e/editing_decks_visual.html#modifying-printings-1',1,'Modifying printings']]],
-  ['privacy_20note_12',['Privacy note',['../dir_7bfb512e87101b177eb3569817b9fc67.html#privacy-note',1,'']]],
-  ['providerids_13',['PixmapCacheKeys and ProviderIDs',['../d9/d1c/loading_card_pictures.html#pixmapcachekeys-and-providerids',1,'']]],
-  ['purpose_14',['Purpose',['../d7/d64/editing_decks_printings.html#purpose',1,'']]]
+  ['object_3a_20cardinfo_0',['A Basic Card Object: CardInfo',['../da/d69/primer_cards.html#a-basic-card-object-cardinfo',1,'']]],
+  ['obtaining_20a_20handle_20to_20the_20carddatabasequerier_20for_20usage_1',['Obtaining a handle to the CardDatabaseQuerier for usage',['../da/d66/querying_the_card_database.html#obtaining-a-handle-to-the-carddatabasequerier-for-usage',1,'']]],
+  ['of_20cards_2',['Groups of Cards',['../dc/d8a/displaying_cards.html#groups-of-cards',1,'']]],
+  ['on_20cards_3',['A Primer on Cards',['../da/d69/primer_cards.html',1,'developer_reference']]],
+  ['online_20service_4',['online service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
+  ['only_20database_20user_5',['1. Create a read-only database user',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md1-create-a-read-only-database-user',1,'']]],
+  ['options_6',['Options',['../dir_7bfb512e87101b177eb3569817b9fc67.html#options',1,'']]],
+  ['overview_7',['Overview',['../d6/d60/developer_reference_network_client.html',1,'Client Networking (Overview)'],['../df/d26/developer_reference_protocol_overview.html#cockatrice-server-protocol--overview',1,'Cockatrice Server Protocol – Overview'],['../d1/d47/developer_reference_network_overview.html',1,'Network (Overview)'],['../db/d15/game_event_handler.html#overview',1,'Overview'],['../d4/d5b/player_event_handler.html#overview-1',1,'Overview'],['../db/d15/game_event_handler.html#overview-2',1,'Overview'],['../d4/d5b/player_event_handler.html#overview-3',1,'Overview'],['../dd/d01/protocol_command_container.html#cc_overview',1,'Overview'],['../d3/d39/protocol_response.html#overview-4',1,'Overview'],['../dc/d6c/protocol_server_message.html#overview-5',1,'Overview'],['../d8/d17/developer_reference_protocol.html',1,'Protocol (Overview)'],['../df/d26/developer_reference_protocol_overview.html',1,'Protocol (Overview)']]],
+  ['ownership_8',['Lifetime and Ownership',['../dd/d01/protocol_command_container.html#cc_lifecycle',1,'']]],
+  ['ownership_3a_9',['Ownership:',['../da/d68/classDeckList.html#ownership',1,'Ownership:'],['../d3/de9/classAbstractDecklistCardNode.html#ownership-1',1,'Ownership:'],['../d5/d22/classDecklistCardNode.html#ownership-2',1,'Ownership:'],['../d4/d55/classInnerDecklistNode.html#ownership-3',1,'Ownership:']]]
 ];

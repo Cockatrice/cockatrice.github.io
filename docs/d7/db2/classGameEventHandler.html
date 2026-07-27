@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-06-27-Development-3.1.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -100,6 +100,9 @@ $(function(){initNavTree('d7/db2/classGameEventHandler.html','../../','d8/dbf/cl
 </div><!--header-->
 <div class="contents">
 
+<p>Central dispatcher for game-wide commands and events.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../da/d54/game__event__handler_8h_source.html">game_event_handler.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for GameEventHandler:</div>
@@ -114,32 +117,45 @@ Collaboration diagram for GameEventHandler:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
+<tr id="pub-slots-0" class="groupHeader"><td colspan="2"><div class="groupHeader">Command dispatch slots</div></td></tr>
+<tr><td colspan="2" class="ititle"><div class="groupText"><p>Low-level command transmission. </p>
+</div></td></tr>
 <tr class="memitem:aa284e089a86d0e58970b0f9069ba1f00" id="r_aa284e089a86d0e58970b0f9069ba1f00"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa284e089a86d0e58970b0f9069ba1f00">sendGameCommand</a> (<a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a> *pend, int playerId=-1)</td></tr>
+<tr class="memdesc:aa284e089a86d0e58970b0f9069ba1f00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a prepared <a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a>.  <br /></td></tr>
 <tr class="memitem:a04c456751650771b81e7eda5731614b4" id="r_a04c456751650771b81e7eda5731614b4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a04c456751650771b81e7eda5731614b4">sendGameCommand</a> (const ::google::protobuf::Message &amp;command, int playerId=-1)</td></tr>
+<tr class="memdesc:a04c456751650771b81e7eda5731614b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a single protobuf command.  <br /></td></tr>
+<tr class="memitem:a13205be722399533ef81b039cd22a3ca" id="r_a13205be722399533ef81b039cd22a3ca"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a13205be722399533ef81b039cd22a3ca">commandFinished</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;response)</td></tr>
+<tr class="memdesc:a13205be722399533ef81b039cd22a3ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a <a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a> finishes execution.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
+<tr id="signals-0" class="groupHeader"><td colspan="2"><div class="groupHeader">Core state signals</div></td></tr>
 <tr class="memitem:a925d13d9268eba84d41a45f301e932ff" id="r_a925d13d9268eba84d41a45f301e932ff"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a925d13d9268eba84d41a45f301e932ff">emitUserEvent</a> ()</td></tr>
+<tr class="memitem:a7913171f85dc78ca2f45031d5c51e727" id="r_a7913171f85dc78ca2f45031d5c51e727"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7913171f85dc78ca2f45031d5c51e727">containerProcessingStarted</a> (<a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> context)</td></tr>
+<tr class="memitem:a15261de82508c5f1d8938d65ec57b669" id="r_a15261de82508c5f1d8938d65ec57b669"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a15261de82508c5f1d8938d65ec57b669">containerProcessingDone</a> ()</td></tr>
+<tr class="memitem:a2273d849f249f181eed3e812205226e2" id="r_a2273d849f249f181eed3e812205226e2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2273d849f249f181eed3e812205226e2">gameFlooded</a> ()</td></tr>
+<tr class="memitem:a49b88c8439586c2820aeaf89767677bd" id="r_a49b88c8439586c2820aeaf89767677bd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a49b88c8439586c2820aeaf89767677bd">setContextJudgeName</a> (QString judgeName)</td></tr>
+<tr id="signals-1" class="groupHeader"><td colspan="2"><div class="groupHeader">Player and spectator signals</div></td></tr>
 <tr class="memitem:a3df535aac5be08fa6a1758d1024ac8db" id="r_a3df535aac5be08fa6a1758d1024ac8db"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3df535aac5be08fa6a1758d1024ac8db">addPlayerToAutoCompleteList</a> (QString playerName)</td></tr>
-<tr class="memitem:a9bab986ec64e609845bdebaff8d6f451" id="r_a9bab986ec64e609845bdebaff8d6f451"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9bab986ec64e609845bdebaff8d6f451">localPlayerDeckSelected</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *localPlayer, int playerId, ServerInfo_Player playerInfo)</td></tr>
+<tr class="memitem:a9bab986ec64e609845bdebaff8d6f451" id="r_a9bab986ec64e609845bdebaff8d6f451"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9bab986ec64e609845bdebaff8d6f451">localPlayerDeckSelected</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *localPlayer, int playerId, <a class="el" href="../../d3/d6b/structServerInfo__Player.html">ServerInfo_Player</a> playerInfo)</td></tr>
 <tr class="memitem:a550b53b3818d45f60c869d6aa6b116e5" id="r_a550b53b3818d45f60c869d6aa6b116e5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a550b53b3818d45f60c869d6aa6b116e5">remotePlayerDeckSelected</a> (QString deckList, int playerId, QString playerName)</td></tr>
 <tr class="memitem:a0ffd8b134f11885dba87780836b93885" id="r_a0ffd8b134f11885dba87780836b93885"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0ffd8b134f11885dba87780836b93885">remotePlayersDecksSelected</a> (QVector&lt; QPair&lt; int, QPair&lt; QString, QString &gt; &gt; &gt; opponentDecks)</td></tr>
 <tr class="memitem:aae8c6fb7131c4b7a0db58c7123ed83c5" id="r_aae8c6fb7131c4b7a0db58c7123ed83c5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aae8c6fb7131c4b7a0db58c7123ed83c5">localPlayerSideboardLocked</a> (int playerId, bool sideboardLocked)</td></tr>
 <tr class="memitem:a10df6bd27269ad266de1b3a58d9c9f08" id="r_a10df6bd27269ad266de1b3a58d9c9f08"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a10df6bd27269ad266de1b3a58d9c9f08">localPlayerReadyStateChanged</a> (int playerId, bool ready)</td></tr>
+<tr id="signals-2" class="groupHeader"><td colspan="2"><div class="groupHeader">Game flow signals</div></td></tr>
 <tr class="memitem:a1a2685609b3e7cee62441f55a5cc33bf" id="r_a1a2685609b3e7cee62441f55a5cc33bf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1a2685609b3e7cee62441f55a5cc33bf">gameStopped</a> ()</td></tr>
 <tr class="memitem:a7cd6917692f9cb5484aa5db5031fa317" id="r_a7cd6917692f9cb5484aa5db5031fa317"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7cd6917692f9cb5484aa5db5031fa317">gameClosed</a> ()</td></tr>
-<tr class="memitem:a5a576a24d99321b5f1194da442fed518" id="r_a5a576a24d99321b5f1194da442fed518"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5a576a24d99321b5f1194da442fed518">playerPropertiesChanged</a> (const ServerInfo_PlayerProperties &amp;prop, int playerId)</td></tr>
-<tr class="memitem:add49fd4e69d0a8f557f9d3666e0b2fe7" id="r_add49fd4e69d0a8f557f9d3666e0b2fe7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#add49fd4e69d0a8f557f9d3666e0b2fe7">playerJoined</a> (const ServerInfo_PlayerProperties &amp;playerInfo)</td></tr>
+<tr class="memitem:a5a576a24d99321b5f1194da442fed518" id="r_a5a576a24d99321b5f1194da442fed518"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5a576a24d99321b5f1194da442fed518">playerPropertiesChanged</a> (const <a class="el" href="../../da/d6b/structServerInfo__PlayerProperties.html">ServerInfo_PlayerProperties</a> &amp;prop, int playerId)</td></tr>
+<tr class="memitem:add49fd4e69d0a8f557f9d3666e0b2fe7" id="r_add49fd4e69d0a8f557f9d3666e0b2fe7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#add49fd4e69d0a8f557f9d3666e0b2fe7">playerJoined</a> (const <a class="el" href="../../da/d6b/structServerInfo__PlayerProperties.html">ServerInfo_PlayerProperties</a> &amp;playerInfo)</td></tr>
 <tr class="memitem:a6ea076e638de251991c524a3359e0030" id="r_a6ea076e638de251991c524a3359e0030"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6ea076e638de251991c524a3359e0030">playerLeft</a> (int leavingPlayerId)</td></tr>
 <tr class="memitem:a144e1881795e1e7c02f0d575ead8434f" id="r_a144e1881795e1e7c02f0d575ead8434f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a144e1881795e1e7c02f0d575ead8434f">playerKicked</a> ()</td></tr>
-<tr class="memitem:a9d941e20764a9576a50bf1a9b9ae1644" id="r_a9d941e20764a9576a50bf1a9b9ae1644"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9d941e20764a9576a50bf1a9b9ae1644">spectatorJoined</a> (const ServerInfo_PlayerProperties &amp;spectatorInfo)</td></tr>
+<tr class="memitem:a9d941e20764a9576a50bf1a9b9ae1644" id="r_a9d941e20764a9576a50bf1a9b9ae1644"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9d941e20764a9576a50bf1a9b9ae1644">spectatorJoined</a> (const <a class="el" href="../../da/d6b/structServerInfo__PlayerProperties.html">ServerInfo_PlayerProperties</a> &amp;spectatorInfo)</td></tr>
 <tr class="memitem:ab3d74a425af1cc62114c5bd25b9c77e6" id="r_ab3d74a425af1cc62114c5bd25b9c77e6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab3d74a425af1cc62114c5bd25b9c77e6">spectatorLeft</a> (int leavingSpectatorId)</td></tr>
-<tr class="memitem:a2273d849f249f181eed3e812205226e2" id="r_a2273d849f249f181eed3e812205226e2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2273d849f249f181eed3e812205226e2">gameFlooded</a> ()</td></tr>
-<tr class="memitem:a7913171f85dc78ca2f45031d5c51e727" id="r_a7913171f85dc78ca2f45031d5c51e727"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7913171f85dc78ca2f45031d5c51e727">containerProcessingStarted</a> (GameEventContext context)</td></tr>
-<tr class="memitem:a49b88c8439586c2820aeaf89767677bd" id="r_a49b88c8439586c2820aeaf89767677bd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a49b88c8439586c2820aeaf89767677bd">setContextJudgeName</a> (QString judgeName)</td></tr>
-<tr class="memitem:a15261de82508c5f1d8938d65ec57b669" id="r_a15261de82508c5f1d8938d65ec57b669"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a15261de82508c5f1d8938d65ec57b669">containerProcessingDone</a> ()</td></tr>
 <tr class="memitem:a6bac0ed07b0905a2f9271b469ae3ceb4" id="r_a6bac0ed07b0905a2f9271b469ae3ceb4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6bac0ed07b0905a2f9271b469ae3ceb4">arrowDeleted</a> (int creatorId, int arrowId)</td></tr>
-<tr class="memitem:a6f02d78d37926022e3e6f85af5a43abf" id="r_a6f02d78d37926022e3e6f85af5a43abf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6f02d78d37926022e3e6f85af5a43abf">logSpectatorSay</a> (ServerInfo_User userInfo, QString message)</td></tr>
+<tr id="signals-3" class="groupHeader"><td colspan="2"><div class="groupHeader">Logging signals</div></td></tr>
+<tr><td colspan="2" class="ititle"><div class="groupText"><p>Signals consumed by <a class="el" href="../../d7/d93/classMessageLogWidget.html">MessageLogWidget</a>. </p>
+</div></td></tr>
+<tr class="memitem:a6f02d78d37926022e3e6f85af5a43abf" id="r_a6f02d78d37926022e3e6f85af5a43abf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6f02d78d37926022e3e6f85af5a43abf">logSpectatorSay</a> (<a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> userInfo, QString message)</td></tr>
 <tr class="memitem:a10ed94a76500a04083c93ee17b3e261d" id="r_a10ed94a76500a04083c93ee17b3e261d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a10ed94a76500a04083c93ee17b3e261d">logSpectatorLeave</a> (QString name, QString reason)</td></tr>
 <tr class="memitem:a4cdb7b414f8e44fd8501ce28de46f8eb" id="r_a4cdb7b414f8e44fd8501ce28de46f8eb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4cdb7b414f8e44fd8501ce28de46f8eb">logGameStart</a> ()</td></tr>
 <tr class="memitem:a53e1291ae35362f789276ac88e62df90" id="r_a53e1291ae35362f789276ac88e62df90"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a53e1291ae35362f789276ac88e62df90">logReadyStart</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player)</td></tr>
@@ -160,41 +176,97 @@ Signals</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr id="pub-methods-0" class="groupHeader"><td colspan="2"><div class="groupHeader">Construction</div></td></tr>
+<tr><td colspan="2" class="ititle"><div class="groupText"><p>Lifecycle and ownership. </p>
+</div></td></tr>
 <tr class="memitem:a25b81a294f69aaae698a9d3fa3de2c2f" id="r_a25b81a294f69aaae698a9d3fa3de2c2f"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a25b81a294f69aaae698a9d3fa3de2c2f">GameEventHandler</a> (<a class="el" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *_game)</td></tr>
+<tr class="memdesc:a25b81a294f69aaae698a9d3fa3de2c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="../../d7/db2/classGameEventHandler.html" title="Central dispatcher for game-wide commands and events.">GameEventHandler</a>.  <br /></td></tr>
+<tr id="pub-methods-1" class="groupHeader"><td colspan="2"><div class="groupHeader">Outgoing game commands</div></td></tr>
+<tr><td colspan="2" class="ititle"><div class="groupText"><p>Commands initiated locally and sent to the server.</p>
+<p>These methods construct and send protobuf commands corresponding to user actions in the UI. </p>
+</div></td></tr>
 <tr class="memitem:a0301a250d83437cd66fd535ad6548cf0" id="r_a0301a250d83437cd66fd535ad6548cf0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0301a250d83437cd66fd535ad6548cf0">handleNextTurn</a> ()</td></tr>
+<tr class="memdesc:a0301a250d83437cd66fd535ad6548cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request advancing the game to the next turn.  <br /></td></tr>
 <tr class="memitem:a897ebe20e24915c632bf1af9b25f9796" id="r_a897ebe20e24915c632bf1af9b25f9796"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a897ebe20e24915c632bf1af9b25f9796">handleReverseTurn</a> ()</td></tr>
+<tr class="memdesc:a897ebe20e24915c632bf1af9b25f9796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request reversing the current turn order.  <br /></td></tr>
 <tr class="memitem:a3e7f5be4294ec643ab81d9f9f204a9d1" id="r_a3e7f5be4294ec643ab81d9f9f204a9d1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3e7f5be4294ec643ab81d9f9f204a9d1">handleActiveLocalPlayerConceded</a> ()</td></tr>
+<tr class="memdesc:a3e7f5be4294ec643ab81d9f9f204a9d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concede the game for the currently active local player.  <br /></td></tr>
 <tr class="memitem:a90717b933b41fd7acd66f713f097d73d" id="r_a90717b933b41fd7acd66f713f097d73d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a90717b933b41fd7acd66f713f097d73d">handleActiveLocalPlayerUnconceded</a> ()</td></tr>
+<tr class="memdesc:a90717b933b41fd7acd66f713f097d73d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo a previous concede for the active local player.  <br /></td></tr>
 <tr class="memitem:af4d64c6216dc200cdccb2768438a94b9" id="r_af4d64c6216dc200cdccb2768438a94b9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af4d64c6216dc200cdccb2768438a94b9">handleActivePhaseChanged</a> (int phase)</td></tr>
+<tr class="memdesc:af4d64c6216dc200cdccb2768438a94b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the active phase of the game.  <br /></td></tr>
 <tr class="memitem:ad102a88c7c5538da90f7cda1926f8e9e" id="r_ad102a88c7c5538da90f7cda1926f8e9e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad102a88c7c5538da90f7cda1926f8e9e">handleGameLeft</a> ()</td></tr>
+<tr class="memdesc:ad102a88c7c5538da90f7cda1926f8e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Leave the current game session.  <br /></td></tr>
 <tr class="memitem:aa5bd8649c46daafb2319ece1586736c2" id="r_aa5bd8649c46daafb2319ece1586736c2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa5bd8649c46daafb2319ece1586736c2">handleChatMessageSent</a> (const QString &amp;chatMessage)</td></tr>
+<tr class="memdesc:aa5bd8649c46daafb2319ece1586736c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a chat message to all players and spectators.  <br /></td></tr>
 <tr class="memitem:a836561885a2b98f33d24d8c412bed6ba" id="r_a836561885a2b98f33d24d8c412bed6ba"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a836561885a2b98f33d24d8c412bed6ba">handleArrowDeletion</a> (int creatorId, int arrowId)</td></tr>
-<tr class="memitem:ac1d0abfd2ccc71efdb8c58196fbf422e" id="r_ac1d0abfd2ccc71efdb8c58196fbf422e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac1d0abfd2ccc71efdb8c58196fbf422e">handleArrowDeletionFinished</a> (const Response &amp;response, int creatorId, int arrowId)</td></tr>
-<tr class="memitem:af406c6fac5729732c0ad9453004094ee" id="r_af406c6fac5729732c0ad9453004094ee"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af406c6fac5729732c0ad9453004094ee">eventSpectatorSay</a> (const Event_GameSay &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
-<tr class="memitem:a430fefabdfd6148b034e0483786e7dda" id="r_a430fefabdfd6148b034e0483786e7dda"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a430fefabdfd6148b034e0483786e7dda">eventSpectatorLeave</a> (const Event_Leave &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
-<tr class="memitem:a7738ec99a5a2340a62d6a27bf5809015" id="r_a7738ec99a5a2340a62d6a27bf5809015"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7738ec99a5a2340a62d6a27bf5809015">eventGameStateChanged</a> (const Event_GameStateChanged &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
-<tr class="memitem:ab841d29d36abf32e8722715b93969c58" id="r_ab841d29d36abf32e8722715b93969c58"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab841d29d36abf32e8722715b93969c58">processCardAttachmentsForPlayers</a> (const Event_GameStateChanged &amp;event)</td></tr>
-<tr class="memitem:ad0a8ae81f23c40d023717e1ba9a540c3" id="r_ad0a8ae81f23c40d023717e1ba9a540c3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad0a8ae81f23c40d023717e1ba9a540c3">eventPlayerPropertiesChanged</a> (const Event_PlayerPropertiesChanged &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
-<tr class="memitem:a9a05dc3d4c78d9ceb23eec5759e49f53" id="r_a9a05dc3d4c78d9ceb23eec5759e49f53"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9a05dc3d4c78d9ceb23eec5759e49f53">eventJoin</a> (const Event_Join &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
-<tr class="memitem:a848bbbf5f8a2966ab34b12a65c283662" id="r_a848bbbf5f8a2966ab34b12a65c283662"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a848bbbf5f8a2966ab34b12a65c283662">eventLeave</a> (const Event_Leave &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
-<tr class="memitem:aa391c32395d270641c245a4c0db906b9" id="r_aa391c32395d270641c245a4c0db906b9"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#aa391c32395d270641c245a4c0db906b9">getLeaveReason</a> (Event_Leave::LeaveReason reason)</td></tr>
-<tr class="memitem:a99379fc781cf40e4001dcba255bbf1fd" id="r_a99379fc781cf40e4001dcba255bbf1fd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a99379fc781cf40e4001dcba255bbf1fd">eventKicked</a> (const Event_Kicked &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
-<tr class="memitem:aa3a752be25a98ff739c6c18fc8d1d0dc" id="r_aa3a752be25a98ff739c6c18fc8d1d0dc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa3a752be25a98ff739c6c18fc8d1d0dc">eventGameHostChanged</a> (const Event_GameHostChanged &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
-<tr class="memitem:a3b13ce40cec5b7fa3603f47eb5c366f4" id="r_a3b13ce40cec5b7fa3603f47eb5c366f4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3b13ce40cec5b7fa3603f47eb5c366f4">eventGameClosed</a> (const Event_GameClosed &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
-<tr class="memitem:a8c5b211b72391aae98f00a1db77f135d" id="r_a8c5b211b72391aae98f00a1db77f135d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8c5b211b72391aae98f00a1db77f135d">eventSetActivePlayer</a> (const Event_SetActivePlayer &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
-<tr class="memitem:aae31d2fd10c178c5ab3d9e2da30caf9d" id="r_aae31d2fd10c178c5ab3d9e2da30caf9d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aae31d2fd10c178c5ab3d9e2da30caf9d">eventSetActivePhase</a> (const Event_SetActivePhase &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
-<tr class="memitem:a425eaa14ef6a4a6046a90359486405af" id="r_a425eaa14ef6a4a6046a90359486405af"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a425eaa14ef6a4a6046a90359486405af">eventPing</a> (const Event_Ping &amp;event, int eventPlayerId, const GameEventContext &amp;context)</td></tr>
-<tr class="memitem:a35dd558035d9f1cbc63e8bb515345421" id="r_a35dd558035d9f1cbc63e8bb515345421"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a35dd558035d9f1cbc63e8bb515345421">eventReverseTurn</a> (const Event_ReverseTurn &amp;event, int eventPlayerId, const GameEventContext &amp;)</td></tr>
-<tr class="memitem:a13205be722399533ef81b039cd22a3ca" id="r_a13205be722399533ef81b039cd22a3ca"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a13205be722399533ef81b039cd22a3ca">commandFinished</a> (const Response &amp;response)</td></tr>
-<tr class="memitem:a0314b457308fd96a157f68d780e717ef" id="r_a0314b457308fd96a157f68d780e717ef"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0314b457308fd96a157f68d780e717ef">processGameEventContainer</a> (const GameEventContainer &amp;cont, <a class="el" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *client, EventProcessingOptions options)</td></tr>
+<tr class="memdesc:a836561885a2b98f33d24d8c412bed6ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete an existing arrow.  <br /></td></tr>
+<tr class="memitem:ac1d0abfd2ccc71efdb8c58196fbf422e" id="r_ac1d0abfd2ccc71efdb8c58196fbf422e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac1d0abfd2ccc71efdb8c58196fbf422e">handleArrowDeletionFinished</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;response, int creatorId, int arrowId)</td></tr>
+<tr id="pub-methods-2" class="groupHeader"><td colspan="2"><div class="groupHeader">Incoming event processing</div></td></tr>
+<tr><td colspan="2" class="ititle"><div class="groupText"><p>Entry points for server-sent events. </p>
+</div></td></tr>
+<tr class="memitem:a0314b457308fd96a157f68d780e717ef" id="r_a0314b457308fd96a157f68d780e717ef"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0314b457308fd96a157f68d780e717ef">processGameEventContainer</a> (const <a class="el" href="../../d6/d6f/structGameEventContainer.html">GameEventContainer</a> &amp;cont, <a class="el" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *client, EventProcessingOptions options)</td></tr>
+<tr class="memdesc:a0314b457308fd96a157f68d780e717ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process a container of game events received from the server.  <br /></td></tr>
+<tr id="pub-methods-3" class="groupHeader"><td colspan="2"><div class="groupHeader">Command preparation helpers</div></td></tr>
+<tr><td colspan="2" class="ititle"><div class="groupText"><p>Internal helpers for building command containers. </p>
+</div></td></tr>
 <tr class="memitem:a20da3d1f7e209822a60f414e82dc5de7" id="r_a20da3d1f7e209822a60f414e82dc5de7"><td class="memItemLeft"><a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a20da3d1f7e209822a60f414e82dc5de7">prepareGameCommand</a> (const ::google::protobuf::Message &amp;cmd)</td></tr>
+<tr class="memdesc:a20da3d1f7e209822a60f414e82dc5de7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrap a single protobuf command in a <a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a>.  <br /></td></tr>
 <tr class="memitem:a3fd06df999daaf0dfcaeaec7daf16b6a" id="r_a3fd06df999daaf0dfcaeaec7daf16b6a"><td class="memItemLeft"><a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a3fd06df999daaf0dfcaeaec7daf16b6a">prepareGameCommand</a> (const QList&lt; const ::google::protobuf::Message * &gt; &amp;cmdList)</td></tr>
+<tr class="memdesc:a3fd06df999daaf0dfcaeaec7daf16b6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrap multiple protobuf commands in a single <a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a>.  <br /></td></tr>
+<tr id="pub-methods-4" class="groupHeader"><td colspan="2"><div class="groupHeader">Spectator event handlers</div></td></tr>
+<tr><td colspan="2" class="ititle"><div class="groupText"><p>Events originating from spectators. </p>
+</div></td></tr>
+<tr class="memitem:af406c6fac5729732c0ad9453004094ee" id="r_af406c6fac5729732c0ad9453004094ee"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af406c6fac5729732c0ad9453004094ee">eventSpectatorSay</a> (const <a class="el" href="../../d2/ddd/structEvent__GameSay.html">Event_GameSay</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:af406c6fac5729732c0ad9453004094ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle a spectator chat message.  <br /></td></tr>
+<tr class="memitem:a430fefabdfd6148b034e0483786e7dda" id="r_a430fefabdfd6148b034e0483786e7dda"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a430fefabdfd6148b034e0483786e7dda">eventSpectatorLeave</a> (const <a class="el" href="../../d9/d05/structEvent__Leave.html">Event_Leave</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:a430fefabdfd6148b034e0483786e7dda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle a spectator leaving the game.  <br /></td></tr>
+<tr id="pub-methods-5" class="groupHeader"><td colspan="2"><div class="groupHeader">Game state event handlers</div></td></tr>
+<tr><td colspan="2" class="ititle"><div class="groupText"><p>Events that affect global game state. </p>
+</div></td></tr>
+<tr class="memitem:a7738ec99a5a2340a62d6a27bf5809015" id="r_a7738ec99a5a2340a62d6a27bf5809015"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7738ec99a5a2340a62d6a27bf5809015">eventGameStateChanged</a> (const <a class="el" href="../../d3/d59/structEvent__GameStateChanged.html">Event_GameStateChanged</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:a7738ec99a5a2340a62d6a27bf5809015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle a full game state update from the server.  <br /></td></tr>
+<tr class="memitem:ab841d29d36abf32e8722715b93969c58" id="r_ab841d29d36abf32e8722715b93969c58"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab841d29d36abf32e8722715b93969c58">processCardAttachmentsForPlayers</a> (const <a class="el" href="../../d3/d59/structEvent__GameStateChanged.html">Event_GameStateChanged</a> &amp;event)</td></tr>
+<tr class="memdesc:ab841d29d36abf32e8722715b93969c58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update card attachment relationships for all players.  <br /></td></tr>
+<tr class="memitem:aa3a752be25a98ff739c6c18fc8d1d0dc" id="r_aa3a752be25a98ff739c6c18fc8d1d0dc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa3a752be25a98ff739c6c18fc8d1d0dc">eventGameHostChanged</a> (const <a class="el" href="../../d4/d39/structEvent__GameHostChanged.html">Event_GameHostChanged</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:aa3a752be25a98ff739c6c18fc8d1d0dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle a change in game host.  <br /></td></tr>
+<tr class="memitem:a3b13ce40cec5b7fa3603f47eb5c366f4" id="r_a3b13ce40cec5b7fa3603f47eb5c366f4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3b13ce40cec5b7fa3603f47eb5c366f4">eventGameClosed</a> (const <a class="el" href="../../d3/dcb/structEvent__GameClosed.html">Event_GameClosed</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:a3b13ce40cec5b7fa3603f47eb5c366f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle the game being closed by the server.  <br /></td></tr>
+<tr class="memitem:a8c5b211b72391aae98f00a1db77f135d" id="r_a8c5b211b72391aae98f00a1db77f135d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8c5b211b72391aae98f00a1db77f135d">eventSetActivePlayer</a> (const <a class="el" href="../../d8/da0/structEvent__SetActivePlayer.html">Event_SetActivePlayer</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:a8c5b211b72391aae98f00a1db77f135d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle a change of the active player.  <br /></td></tr>
+<tr class="memitem:aae31d2fd10c178c5ab3d9e2da30caf9d" id="r_aae31d2fd10c178c5ab3d9e2da30caf9d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aae31d2fd10c178c5ab3d9e2da30caf9d">eventSetActivePhase</a> (const <a class="el" href="../../d2/d39/structEvent__SetActivePhase.html">Event_SetActivePhase</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:aae31d2fd10c178c5ab3d9e2da30caf9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle a change of the active phase.  <br /></td></tr>
+<tr class="memitem:a1fa4f438f6344bf3fa82b455f6428295" id="r_a1fa4f438f6344bf3fa82b455f6428295"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1fa4f438f6344bf3fa82b455f6428295">eventReverseTurn</a> (const <a class="el" href="../../de/dde/structEvent__ReverseTurn.html">Event_ReverseTurn</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:a1fa4f438f6344bf3fa82b455f6428295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle a turn reversal event.  <br /></td></tr>
+<tr class="memitem:a425eaa14ef6a4a6046a90359486405af" id="r_a425eaa14ef6a4a6046a90359486405af"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a425eaa14ef6a4a6046a90359486405af">eventPing</a> (const Event_Ping &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:a425eaa14ef6a4a6046a90359486405af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle ping / latency updates.  <br /></td></tr>
+<tr id="pub-methods-6" class="groupHeader"><td colspan="2"><div class="groupHeader">Player lifecycle and property handlers</div></td></tr>
+<tr><td colspan="2" class="ititle"><div class="groupText"><p>Events related to players joining, leaving, or changing state. </p>
+</div></td></tr>
+<tr class="memitem:ad0a8ae81f23c40d023717e1ba9a540c3" id="r_ad0a8ae81f23c40d023717e1ba9a540c3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad0a8ae81f23c40d023717e1ba9a540c3">eventPlayerPropertiesChanged</a> (const <a class="el" href="../../d4/d28/structEvent__PlayerPropertiesChanged.html">Event_PlayerPropertiesChanged</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:ad0a8ae81f23c40d023717e1ba9a540c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle updates to a player's properties.  <br /></td></tr>
+<tr class="memitem:a9a05dc3d4c78d9ceb23eec5759e49f53" id="r_a9a05dc3d4c78d9ceb23eec5759e49f53"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9a05dc3d4c78d9ceb23eec5759e49f53">eventJoin</a> (const <a class="el" href="../../df/dcd/structEvent__Join.html">Event_Join</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:a9a05dc3d4c78d9ceb23eec5759e49f53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle a player or spectator joining the game.  <br /></td></tr>
+<tr class="memitem:a848bbbf5f8a2966ab34b12a65c283662" id="r_a848bbbf5f8a2966ab34b12a65c283662"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a848bbbf5f8a2966ab34b12a65c283662">eventLeave</a> (const <a class="el" href="../../d9/d05/structEvent__Leave.html">Event_Leave</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:a848bbbf5f8a2966ab34b12a65c283662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle a player leaving the game.  <br /></td></tr>
+<tr class="memitem:a99379fc781cf40e4001dcba255bbf1fd" id="r_a99379fc781cf40e4001dcba255bbf1fd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a99379fc781cf40e4001dcba255bbf1fd">eventKicked</a> (const <a class="el" href="../../db/d65/structEvent__Kicked.html">Event_Kicked</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:a99379fc781cf40e4001dcba255bbf1fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle the local player being kicked from the game.  <br /></td></tr>
+<tr class="memitem:aa391c32395d270641c245a4c0db906b9" id="r_aa391c32395d270641c245a4c0db906b9"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#aa391c32395d270641c245a4c0db906b9">getLeaveReason</a> (<a class="el" href="../../d9/d05/structEvent__Leave.html#a9df2c0d5e1297bc0863a4a5a859e3487">Event_Leave::LeaveReason</a> reason)</td></tr>
+<tr class="memdesc:aa391c32395d270641c245a4c0db906b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a leave reason enum to a human-readable string.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ae211e0e294de11d79ecbcd5b431c7ff7" id="r_ae211e0e294de11d79ecbcd5b431c7ff7"><td class="memItemLeft"><a class="el" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ae211e0e294de11d79ecbcd5b431c7ff7">game</a></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Central dispatcher for game-wide commands and events. </p>
+<p>This class owns no game state itself. Instead, it:</p><ul>
+<li>Sends commands to the server on behalf of local players</li>
+<li>Receives and dispatches server-side game events</li>
+<li>Updates the game model indirectly via Player, <a class="el" href="../../d3/df3/classGameState.html">GameState</a>, and <a class="el" href="../../dc/d5d/classPlayerManager.html">PlayerManager</a></li>
+<li>Emits high-level signals for UI updates and logging </li>
+</ul>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a25b81a294f69aaae698a9d3fa3de2c2f" name="a25b81a294f69aaae698a9d3fa3de2c2f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25b81a294f69aaae698a9d3fa3de2c2f">&#9670;&#160;</a></span>GameEventHandler()</h2>
 
@@ -217,6 +289,15 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Construct a <a class="el" href="../../d7/db2/classGameEventHandler.html" title="Central dispatcher for game-wide commands and events.">GameEventHandler</a>. </p>
+<p>The handler is owned by the <a class="el" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> instance and uses it to access the game state, players, and network clients.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_game</td><td>Owning game instance (also used as QObject parent). </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -286,19 +367,30 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="a13205be722399533ef81b039cd22a3ca" name="a13205be722399533ef81b039cd22a3ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13205be722399533ef81b039cd22a3ca">&#9670;&#160;</a></span>commandFinished()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a13205be722399533ef81b039cd22a3ca">&#9670;&#160;</a></span>commandFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void GameEventHandler::commandFinished </td>
           <td>(</td>
-          <td class="paramtype">const Response &amp;</td>          <td class="paramname"><span class="paramname"><em>response</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>response</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Called when a <a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a> finishes execution. </p>
+<p>Used to detect server-side errors such as chat flood protection. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -354,7 +446,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::containerProcessingStarted </td>
           <td>(</td>
-          <td class="paramtype">GameEventContext</td>          <td class="paramname"><span class="paramname"><em>context</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a></td>          <td class="paramname"><span class="paramname"><em>context</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -411,7 +503,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::eventGameClosed </td>
           <td>(</td>
-          <td class="paramtype">const Event_GameClosed &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d3/dcb/structEvent__GameClosed.html">Event_GameClosed</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -421,10 +513,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const GameEventContext &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle the game being closed by the server. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -447,7 +541,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::eventGameHostChanged </td>
           <td>(</td>
-          <td class="paramtype">const Event_GameHostChanged &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d4/d39/structEvent__GameHostChanged.html">Event_GameHostChanged</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -457,10 +551,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const GameEventContext &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle a change in game host. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -478,7 +574,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::eventGameStateChanged </td>
           <td>(</td>
-          <td class="paramtype">const Event_GameStateChanged &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d3/d59/structEvent__GameStateChanged.html">Event_GameStateChanged</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -488,10 +584,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const GameEventContext &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle a full game state update from the server. </p>
+<p>Used during game startup, reconnection, and resynchronization. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -514,7 +613,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::eventJoin </td>
           <td>(</td>
-          <td class="paramtype">const Event_Join &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../df/dcd/structEvent__Join.html">Event_Join</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -524,10 +623,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const GameEventContext &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle a player or spectator joining the game. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -550,7 +651,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::eventKicked </td>
           <td>(</td>
-          <td class="paramtype">const Event_Kicked &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../db/d65/structEvent__Kicked.html">Event_Kicked</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -560,10 +661,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const GameEventContext &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle the local player being kicked from the game. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -586,7 +689,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::eventLeave </td>
           <td>(</td>
-          <td class="paramtype">const Event_Leave &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d9/d05/structEvent__Leave.html">Event_Leave</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -596,10 +699,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const GameEventContext &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle a player leaving the game. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -632,10 +737,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const GameEventContext &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle ping / latency updates. </p>
 
 </div>
 </div>
@@ -648,7 +755,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::eventPlayerPropertiesChanged </td>
           <td>(</td>
-          <td class="paramtype">const Event_PlayerPropertiesChanged &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d4/d28/structEvent__PlayerPropertiesChanged.html">Event_PlayerPropertiesChanged</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -658,10 +765,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const GameEventContext &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle updates to a player's properties. </p>
+<p>Includes readiness, concede state, deck selection, sideboard lock, and connection state changes. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -675,8 +785,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a35dd558035d9f1cbc63e8bb515345421" name="a35dd558035d9f1cbc63e8bb515345421"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35dd558035d9f1cbc63e8bb515345421">&#9670;&#160;</a></span>eventReverseTurn()</h2>
+<a id="a1fa4f438f6344bf3fa82b455f6428295" name="a1fa4f438f6344bf3fa82b455f6428295"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fa4f438f6344bf3fa82b455f6428295">&#9670;&#160;</a></span>eventReverseTurn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -684,7 +794,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::eventReverseTurn </td>
           <td>(</td>
-          <td class="paramtype">const Event_ReverseTurn &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../de/dde/structEvent__ReverseTurn.html">Event_ReverseTurn</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -694,19 +804,21 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const GameEventContext &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle a turn reversal event. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a35dd558035d9f1cbc63e8bb515345421_cgraph.svg" width="538" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a1fa4f438f6344bf3fa82b455f6428295_cgraph.svg" width="538" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a35dd558035d9f1cbc63e8bb515345421_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a1fa4f438f6344bf3fa82b455f6428295_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -720,7 +832,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::eventSetActivePhase </td>
           <td>(</td>
-          <td class="paramtype">const Event_SetActivePhase &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d2/d39/structEvent__SetActivePhase.html">Event_SetActivePhase</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -730,10 +842,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const GameEventContext &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle a change of the active phase. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -756,7 +870,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::eventSetActivePlayer </td>
           <td>(</td>
-          <td class="paramtype">const Event_SetActivePlayer &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d8/da0/structEvent__SetActivePlayer.html">Event_SetActivePlayer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -766,10 +880,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const GameEventContext &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle a change of the active player. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -792,7 +908,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::eventSpectatorLeave </td>
           <td>(</td>
-          <td class="paramtype">const Event_Leave &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d9/d05/structEvent__Leave.html">Event_Leave</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -802,10 +918,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const GameEventContext &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle a spectator leaving the game. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -828,7 +946,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::eventSpectatorSay </td>
           <td>(</td>
-          <td class="paramtype">const Event_GameSay &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d2/ddd/structEvent__GameSay.html">Event_GameSay</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -838,10 +956,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const GameEventContext &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handle a spectator chat message. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -954,11 +1074,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">QString GameEventHandler::getLeaveReason </td>
           <td>(</td>
-          <td class="paramtype">Event_Leave::LeaveReason</td>          <td class="paramname"><span class="paramname"><em>reason</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d9/d05/structEvent__Leave.html#a9df2c0d5e1297bc0863a4a5a859e3487">Event_Leave::LeaveReason</a></td>          <td class="paramname"><span class="paramname"><em>reason</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Convert a leave reason enum to a human-readable string. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -981,6 +1103,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Concede the game for the currently active local player. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1008,6 +1132,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Undo a previous concede for the active local player. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1035,6 +1161,15 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set the active phase of the game. </p>
+<p>Typically triggered by the active player selecting a new phase.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">phase</td><td><a class="el" href="../../d4/d41/classPhase.html">Phase</a> identifier. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1066,6 +1201,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Delete an existing arrow. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arrowId</td><td>Unique identifier of the arrow to delete. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1088,7 +1231,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::handleArrowDeletionFinished </td>
           <td>(</td>
-          <td class="paramtype">const Response &amp;</td>          <td class="paramname"><span class="paramname"><em>response</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>response</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1129,6 +1272,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Send a chat message to all players and spectators. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chatMessage</td><td>Message text. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1156,6 +1307,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Leave the current game session. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1183,6 +1336,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Request advancing the game to the next turn. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1210,6 +1365,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Request reversing the current turn order. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1245,7 +1402,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ServerInfo_Player</td>          <td class="paramname"><span class="paramname"><em>playerInfo</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="../../d3/d6b/structServerInfo__Player.html">ServerInfo_Player</a></td>          <td class="paramname"><span class="paramname"><em>playerInfo</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1817,7 +1974,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::logSpectatorSay </td>
           <td>(</td>
-          <td class="paramtype">ServerInfo_User</td>          <td class="paramname"><span class="paramname"><em>userInfo</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a></td>          <td class="paramname"><span class="paramname"><em>userInfo</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1915,7 +2072,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::playerJoined </td>
           <td>(</td>
-          <td class="paramtype">const ServerInfo_PlayerProperties &amp;</td>          <td class="paramname"><span class="paramname"><em>playerInfo</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../da/d6b/structServerInfo__PlayerProperties.html">ServerInfo_PlayerProperties</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>playerInfo</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2005,7 +2162,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::playerPropertiesChanged </td>
           <td>(</td>
-          <td class="paramtype">const ServerInfo_PlayerProperties &amp;</td>          <td class="paramname"><span class="paramname"><em>prop</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../da/d6b/structServerInfo__PlayerProperties.html">ServerInfo_PlayerProperties</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>prop</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2041,6 +2198,15 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Wrap a single protobuf command in a <a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cmd</td><td>Protobuf command message. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Newly allocated <a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a> (caller takes ownership). </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2064,6 +2230,16 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Wrap multiple protobuf commands in a single <a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a>. </p>
+<p>Ownership of the messages in cmdList is transferred to the handler.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cmdList</td><td>List of protobuf command messages. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Newly allocated <a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a>. </dd></dl>
+
 </div>
 </div>
 <a id="ab841d29d36abf32e8722715b93969c58" name="ab841d29d36abf32e8722715b93969c58"></a>
@@ -2075,11 +2251,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::processCardAttachmentsForPlayers </td>
           <td>(</td>
-          <td class="paramtype">const Event_GameStateChanged &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../d3/d59/structEvent__GameStateChanged.html">Event_GameStateChanged</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Update card attachment relationships for all players. </p>
+<p>Called after a game state update to ensure attachments are resolved consistently across all zones. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2102,7 +2281,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::processGameEventContainer </td>
           <td>(</td>
-          <td class="paramtype">const GameEventContainer &amp;</td>          <td class="paramname"><span class="paramname"><em>cont</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d6/d6f/structGameEventContainer.html">GameEventContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cont</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2116,6 +2295,17 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Process a container of game events received from the server. </p>
+<p>This is the main dispatch function for incoming game events. Events are routed to spectator handlers, game-level handlers, or forwarded to <a class="el" href="../../de/d38/classPlayerEventHandler.html" title="Applies player-specific game events and emits corresponding log signals.">PlayerEventHandler</a> instances as appropriate.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cont</td><td><a class="el" href="../../d9/d68/classGame.html">Game</a> event container from the server. </td></tr>
+    <tr><td class="paramname">client</td><td>Client that received the container. </td></tr>
+    <tr><td class="paramname">options</td><td>Processing flags (e.g. silent, replay). </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2225,6 +2415,15 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Send a single protobuf command. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">command</td><td>Protobuf command message. </td></tr>
+    <tr><td class="paramname">playerId</td><td>Player whose client should send the command. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="aa284e089a86d0e58970b0f9069ba1f00" name="aa284e089a86d0e58970b0f9069ba1f00"></a>
@@ -2253,6 +2452,15 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Send a prepared <a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pend</td><td>Pending command to send. </td></tr>
+    <tr><td class="paramname">playerId</td><td>Player whose client should send the command. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2308,7 +2516,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameEventHandler::spectatorJoined </td>
           <td>(</td>
-          <td class="paramtype">const ServerInfo_PlayerProperties &amp;</td>          <td class="paramname"><span class="paramname"><em>spectatorInfo</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../da/d6b/structServerInfo__PlayerProperties.html">ServerInfo_PlayerProperties</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>spectatorInfo</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2376,6 +2584,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Pointer to the owning game instance. </p>
 
 </div>
 </div>

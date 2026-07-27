@@ -45,6 +45,8 @@ var searchData=
   ['messages_5fsettings_5fpage_2eh_42',['messages_settings_page.h',['../d1/d60/messages__settings__page_8h.html',1,'']]],
   ['mocks_2ecpp_43',['mocks.cpp',['../dc/d48/mocks_8cpp.html',1,'']]],
   ['mocks_2eh_44',['mocks.h',['../db/de6/mocks_8h.html',1,'']]],
-  ['move_5fmenu_2ecpp_45',['move_menu.cpp',['../d3/d6e/move__menu_8cpp.html',1,'']]],
-  ['move_5fmenu_2eh_46',['move_menu.h',['../d0/d58/move__menu_8h.html',1,'']]]
+  ['moderator_5fcommands_2eproto_45',['moderator_commands.proto',['../dc/df1/moderator__commands_8proto.html',1,'']]],
+  ['move_5fcard_5fto_5fzone_2eproto_46',['move_card_to_zone.proto',['../d3/da1/move__card__to__zone_8proto.html',1,'']]],
+  ['move_5fmenu_2ecpp_47',['move_menu.cpp',['../d3/d6e/move__menu_8cpp.html',1,'']]],
+  ['move_5fmenu_2eh_48',['move_menu.h',['../d0/d58/move__menu_8h.html',1,'']]]
 ];

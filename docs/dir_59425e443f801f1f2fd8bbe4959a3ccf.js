@@ -5,6 +5,8 @@ var dir_59425e443f801f1f2fd8bbe4959a3ccf =
     [ "loading_from_clipboard", "dir_49a5d6cd8e873f8b8495355f4c6e645e.html", "dir_49a5d6cd8e873f8b8495355f4c6e645e" ],
     [ "movecard_tests", "dir_7363cee211784d1cb0bbab5326eff361.html", "dir_7363cee211784d1cb0bbab5326eff361" ],
     [ "oracle", "dir_4809c84f5830e36eebe036e24e28adf5.html", "dir_4809c84f5830e36eebe036e24e28adf5" ],
+    [ "settings", "dir_a2a8d0665692626ee62c86b1ea3ccf2a.html", "dir_a2a8d0665692626ee62c86b1ea3ccf2a" ],
+    [ "clamped_arithmetic_test.cpp", "da/d4a/clamped__arithmetic__test_8cpp.html", "da/d4a/clamped__arithmetic__test_8cpp" ],
     [ "deck_hash_performance_test.cpp", "d6/d42/deck__hash__performance__test_8cpp.html", "d6/d42/deck__hash__performance__test_8cpp" ],
     [ "dummy_test.cpp", "d4/d0d/dummy__test_8cpp.html", "d4/d0d/dummy__test_8cpp" ],
     [ "expression_test.cpp", "d2/d0b/expression__test_8cpp.html", "d2/d0b/expression__test_8cpp" ],
