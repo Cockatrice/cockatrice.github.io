@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -100,6 +100,9 @@ $(function(){initNavTree('da/de9/classReplayManager.html','../../','df/d9f/class
 </div><!--header-->
 <div class="contents">
 
+<p>This class handles all logic to do with playing back replays.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d2/d22/replay__manager_8h_source.html">replay_manager.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ReplayManager:</div>
@@ -109,57 +112,114 @@ Inheritance diagram for ReplayManager:</div>
 <div class="dynheader">
 Collaboration diagram for ReplayManager:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0b/classReplayManager__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0b/classReplayManager__coll__graph.svg" width="603" height="435"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
+Public Slots</h2></td></tr>
+<tr class="memitem:ac6d3d66c06f67992cf9f63031aacd972" id="r_ac6d3d66c06f67992cf9f63031aacd972"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac6d3d66c06f67992cf9f63031aacd972">startReplay</a> ()</td></tr>
+<tr class="memitem:ad3e2bc23150728d03a8078aebc3cac04" id="r_ad3e2bc23150728d03a8078aebc3cac04"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad3e2bc23150728d03a8078aebc3cac04">stopReplay</a> ()</td></tr>
+<tr class="memitem:abd9ea4f6f2a48ae61ca05a010cad1ebb" id="r_abd9ea4f6f2a48ae61ca05a010cad1ebb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abd9ea4f6f2a48ae61ca05a010cad1ebb">setTime</a> (int time)</td></tr>
+<tr class="memitem:a7a8ea93b07a11227d3d715052c7dc2ba" id="r_a7a8ea93b07a11227d3d715052c7dc2ba"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7a8ea93b07a11227d3d715052c7dc2ba">skipByAmount</a> (int <a class="el" href="../../d6/d42/deck__hash__performance__test_8cpp.html#a021789e29c74073d63b613c2eff92cd5">amount</a>)</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:a85163e4dc33118ccafa742315445853e" id="r_a85163e4dc33118ccafa742315445853e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a85163e4dc33118ccafa742315445853e">requestChatAndPhaseReset</a> ()</td></tr>
+<tr class="memitem:a45e84aad0c2d77e6580f79f5412b02eb" id="r_a45e84aad0c2d77e6580f79f5412b02eb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a45e84aad0c2d77e6580f79f5412b02eb">timeChanged</a> (int time)</td></tr>
 <tr class="memitem:ad53f40a28d232da1ba41b7db94a99eb9" id="r_ad53f40a28d232da1ba41b7db94a99eb9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad53f40a28d232da1ba41b7db94a99eb9">eventReplayed</a> (const <a class="el" href="../../d6/d6f/structGameEventContainer.html">GameEventContainer</a> &amp;cont, EventProcessingOptions options)</td></tr>
+<tr class="memitem:a1045209c661d90fd89ea982cadf07af1" id="r_a1045209c661d90fd89ea982cadf07af1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1045209c661d90fd89ea982cadf07af1">replayFinished</a> ()</td></tr>
+<tr class="memitem:ad2244be18e1fb84a7ef925f923c68a24" id="r_ad2244be18e1fb84a7ef925f923c68a24"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad2244be18e1fb84a7ef925f923c68a24">rewound</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afb3cad9876028dfafcd64078fce5af0a" id="r_afb3cad9876028dfafcd64078fce5af0a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#afb3cad9876028dfafcd64078fce5af0a">ReplayManager</a> (<a class="el" href="../../de/d08/classTabGame.html">TabGame</a> *parent, <a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a> *<a class="el" href="#a1f89eb9cfd3c48bed872cb0d6465ac53">replay</a>)</td></tr>
+<tr class="memitem:ad57b0f76443bc3ceb024cff0aa131cb8" id="r_ad57b0f76443bc3ceb024cff0aa131cb8"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad57b0f76443bc3ceb024cff0aa131cb8">ReplayManager</a> (QObject *parent, <a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a> *<a class="el" href="#a1f89eb9cfd3c48bed872cb0d6465ac53">replay</a>)</td></tr>
+<tr class="memitem:a99aaa7ec7b0bbe88a2b5667dc5799420" id="r_a99aaa7ec7b0bbe88a2b5667dc5799420"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a99aaa7ec7b0bbe88a2b5667dc5799420">~ReplayManager</a> () override</td></tr>
+<tr class="memitem:a3a5a306ee1983f64f427cb4c1ede3a6d" id="r_a3a5a306ee1983f64f427cb4c1ede3a6d"><td class="memItemLeft">const QList&lt; int &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a3a5a306ee1983f64f427cb4c1ede3a6d">getReplayTimeline</a> () const</td></tr>
+<tr class="memitem:abd4d664309768a02f09d869180080e70" id="r_abd4d664309768a02f09d869180080e70"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abd4d664309768a02f09d869180080e70">setTimeScaleFactor</a> (qreal _timeScaleFactor)</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ab74e1d74545d5d61859934a54ef796f4" id="r_ab74e1d74545d5d61859934a54ef796f4"><td class="memItemLeft"><a class="el" href="../../de/d08/classTabGame.html">TabGame</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ab74e1d74545d5d61859934a54ef796f4">game</a></td></tr>
-<tr class="memitem:a1f89eb9cfd3c48bed872cb0d6465ac53" id="r_a1f89eb9cfd3c48bed872cb0d6465ac53"><td class="memItemLeft"><a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a1f89eb9cfd3c48bed872cb0d6465ac53">replay</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a237da2cb0c76ca2ea6cd2479f7f71089" id="r_a237da2cb0c76ca2ea6cd2479f7f71089"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a237da2cb0c76ca2ea6cd2479f7f71089">SMALL_SKIP_MS</a> = 1000</td></tr>
+<tr class="memitem:a6ea423dd701a836cbcae02a83dc0066c" id="r_a6ea423dd701a836cbcae02a83dc0066c"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a6ea423dd701a836cbcae02a83dc0066c">BIG_SKIP_MS</a> = 10000</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-types" class="groupheader"><a id="pri-types" name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a13328112f7a27b265513526c15002286" id="r_a13328112f7a27b265513526c15002286"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a13328112f7a27b265513526c15002286">PlaybackMode</a> { <a class="el" href="#a13328112f7a27b265513526c15002286a75a2a45f5cd819b640d95c14ed4e84c5">NORMAL_PLAYBACK</a>
+, <a class="el" href="#a13328112f7a27b265513526c15002286af71f3c35fe08faa676c316c8afbbe1a5">FORWARD_SKIP</a>
+, <a class="el" href="#a13328112f7a27b265513526c15002286a3fed68eb0bdaa28a5916f7d6a9ac11ae">BACKWARD_SKIP</a>
+ }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
-<tr class="memitem:a2d702708ffc716cc6dd5092cb01ed67f" id="r_a2d702708ffc716cc6dd5092cb01ed67f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2d702708ffc716cc6dd5092cb01ed67f">replayNextEvent</a> (EventProcessingOptions options)</td></tr>
-<tr class="memitem:a1045209c661d90fd89ea982cadf07af1" id="r_a1045209c661d90fd89ea982cadf07af1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1045209c661d90fd89ea982cadf07af1">replayFinished</a> ()</td></tr>
-<tr class="memitem:a8b523fa13eb7b21f172e3f1054aa61cb" id="r_a8b523fa13eb7b21f172e3f1054aa61cb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8b523fa13eb7b21f172e3f1054aa61cb">replayPlayButtonToggled</a> (bool checked)</td></tr>
-<tr class="memitem:a4ff62fc362f4e3a5d78daeb4012abb1a" id="r_a4ff62fc362f4e3a5d78daeb4012abb1a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4ff62fc362f4e3a5d78daeb4012abb1a">updateTimeScaleFactor</a> (bool checked)</td></tr>
-<tr class="memitem:a6ef6274aa83c3d5101e412def51f1355" id="r_a6ef6274aa83c3d5101e412def51f1355"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6ef6274aa83c3d5101e412def51f1355">replayRewind</a> ()</td></tr>
-<tr class="memdesc:a6ef6274aa83c3d5101e412def51f1355"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles everything that needs to be reset when doing a replay rewind.  <br /></td></tr>
-<tr class="memitem:ab1428760b79a1a4904018dcebf39f922" id="r_ab1428760b79a1a4904018dcebf39f922"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab1428760b79a1a4904018dcebf39f922">refreshShortcuts</a> ()</td></tr>
+<tr class="memitem:abeab77d7d17a8f606d42906f442e100c" id="r_abeab77d7d17a8f606d42906f442e100c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abeab77d7d17a8f606d42906f442e100c">replayTimerTimeout</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a587a9d94e12fdc4c2d3d39ce01e9c510" id="r_a587a9d94e12fdc4c2d3d39ce01e9c510"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a587a9d94e12fdc4c2d3d39ce01e9c510">skipToTime</a> (int newTime, bool doRewindBuffering)</td></tr>
+<tr class="memitem:aa2b9af668ddb3b898bd60825b1baa0a3" id="r_aa2b9af668ddb3b898bd60825b1baa0a3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa2b9af668ddb3b898bd60825b1baa0a3">handleBackwardsSkip</a> (bool doRewindBuffering)</td></tr>
+<tr class="memdesc:aa2b9af668ddb3b898bd60825b1baa0a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles a backwards skip in the replay timeline.  <br /></td></tr>
+<tr class="memitem:ab3fb882a2f6094bed222a43a081df277" id="r_ab3fb882a2f6094bed222a43a081df277"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab3fb882a2f6094bed222a43a081df277">processRewind</a> ()</td></tr>
+<tr class="memitem:a0d6f02c10a8fe46a84d891ac506b8aaf" id="r_a0d6f02c10a8fe46a84d891ac506b8aaf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0d6f02c10a8fe46a84d891ac506b8aaf">processNewEvents</a> (<a class="el" href="#a13328112f7a27b265513526c15002286">PlaybackMode</a> playbackMode)</td></tr>
+<tr class="memdesc:a0d6f02c10a8fe46a84d891ac506b8aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes all unprocessed events up to the current time.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a864ed67afcddcb142540f49442285d97" id="r_a864ed67afcddcb142540f49442285d97"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a864ed67afcddcb142540f49442285d97">currentReplayStep</a> = 0</td></tr>
+<tr class="memitem:a1f89eb9cfd3c48bed872cb0d6465ac53" id="r_a1f89eb9cfd3c48bed872cb0d6465ac53"><td class="memItemLeft"><a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a1f89eb9cfd3c48bed872cb0d6465ac53">replay</a></td></tr>
 <tr class="memitem:adce17cb8cb221bf7d148519c42ccc07c" id="r_adce17cb8cb221bf7d148519c42ccc07c"><td class="memItemLeft">QList&lt; int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#adce17cb8cb221bf7d148519c42ccc07c">replayTimeline</a></td></tr>
-<tr class="memitem:a1adedcf2402d725e2ddb2c4004d7c435" id="r_a1adedcf2402d725e2ddb2c4004d7c435"><td class="memItemLeft"><a class="el" href="../../d5/d07/classReplayTimelineWidget.html">ReplayTimelineWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a1adedcf2402d725e2ddb2c4004d7c435">timelineWidget</a></td></tr>
-<tr class="memitem:aff82c3241734a41ff6ab52ff624499b5" id="r_aff82c3241734a41ff6ab52ff624499b5"><td class="memItemLeft">QToolButton *&#160;</td><td class="memItemRight"><a class="el" href="#aff82c3241734a41ff6ab52ff624499b5">replayPlayButton</a></td></tr>
-<tr class="memitem:a90fc20e398e5a554f286bdfe45d5f0c1" id="r_a90fc20e398e5a554f286bdfe45d5f0c1"><td class="memItemLeft">QToolButton *&#160;</td><td class="memItemRight"><a class="el" href="#a90fc20e398e5a554f286bdfe45d5f0c1">replayFastForwardButton</a></td></tr>
-<tr class="memitem:a98f55d85c802c8560f3032296270f77b" id="r_a98f55d85c802c8560f3032296270f77b"><td class="memItemLeft"><a class="el" href="../../d3/d37/classReplayQuickSettingsWidget.html">ReplayQuickSettingsWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a98f55d85c802c8560f3032296270f77b">settingsWidget</a></td></tr>
-<tr class="memitem:a5a1f799740307cb8d3b6dbb0767bbd33" id="r_a5a1f799740307cb8d3b6dbb0767bbd33"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a5a1f799740307cb8d3b6dbb0767bbd33">aReplaySkipForward</a></td></tr>
-<tr class="memitem:a2ccbf60ef60e62c20c6ac682791f152d" id="r_a2ccbf60ef60e62c20c6ac682791f152d"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a2ccbf60ef60e62c20c6ac682791f152d">aReplaySkipBackward</a></td></tr>
-<tr class="memitem:a5867e673534d027eed864fdb3985d6f8" id="r_a5867e673534d027eed864fdb3985d6f8"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a5867e673534d027eed864fdb3985d6f8">aReplaySkipForwardBig</a></td></tr>
-<tr class="memitem:ab4d7c11afe513f678f7cfa330336aa85" id="r_ab4d7c11afe513f678f7cfa330336aa85"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#ab4d7c11afe513f678f7cfa330336aa85">aReplaySkipBackwardBig</a></td></tr>
+<tr class="memdesc:adce17cb8cb221bf7d148519c42ccc07c"><td class="mdescLeft">&#160;</td><td class="mdescRight">timestamp of each event, with the indexes corresponding  <br /></td></tr>
+<tr class="memitem:a478ffab6e0bcf97669e57295cc79d394" id="r_a478ffab6e0bcf97669e57295cc79d394"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a478ffab6e0bcf97669e57295cc79d394">maxTime</a></td></tr>
+<tr class="memitem:a82db3f0665d1e1a7690210ae943a5507" id="r_a82db3f0665d1e1a7690210ae943a5507"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#a82db3f0665d1e1a7690210ae943a5507">replayTimer</a></td></tr>
+<tr class="memitem:a25cec85e214830cc97beb1cdae0de7de" id="r_a25cec85e214830cc97beb1cdae0de7de"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#a25cec85e214830cc97beb1cdae0de7de">rewindBufferingTimer</a></td></tr>
+<tr class="memitem:a562b667344515115d13c7d471a713ada" id="r_a562b667344515115d13c7d471a713ada"><td class="memItemLeft">qreal&#160;</td><td class="memItemRight"><a class="el" href="#a562b667344515115d13c7d471a713ada">timeScaleFactor</a> = 1.0</td></tr>
+<tr class="memitem:ac13f914aadf547e6ff83637f2c06a1ac" id="r_ac13f914aadf547e6ff83637f2c06a1ac"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ac13f914aadf547e6ff83637f2c06a1ac">currentVisualTime</a> = 0</td></tr>
+<tr class="memdesc:ac13f914aadf547e6ff83637f2c06a1ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">time currently displayed by the timeline  <br /></td></tr>
+<tr class="memitem:abdb81d0cc94379d2292a7a1bb9acc2a8" id="r_abdb81d0cc94379d2292a7a1bb9acc2a8"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#abdb81d0cc94379d2292a7a1bb9acc2a8">currentProcessedTime</a> = 0</td></tr>
+<tr class="memitem:a74a4aa2f417f8de3404d51e6aa9c420d" id="r_a74a4aa2f417f8de3404d51e6aa9c420d"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a74a4aa2f417f8de3404d51e6aa9c420d">currentEvent</a> = 0</td></tr>
+<tr class="memdesc:a74a4aa2f417f8de3404d51e6aa9c420d"><td class="mdescLeft">&#160;</td><td class="mdescRight">current event's index  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="afb3cad9876028dfafcd64078fce5af0a" name="afb3cad9876028dfafcd64078fce5af0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb3cad9876028dfafcd64078fce5af0a">&#9670;&#160;</a></span>ReplayManager()</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class handles all logic to do with playing back replays. </p>
+</div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
+<a id="a13328112f7a27b265513526c15002286" name="a13328112f7a27b265513526c15002286"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13328112f7a27b265513526c15002286">&#9670;&#160;</a></span>PlaybackMode</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a13328112f7a27b265513526c15002286">ReplayManager::PlaybackMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a13328112f7a27b265513526c15002286a75a2a45f5cd819b640d95c14ed4e84c5" name="a13328112f7a27b265513526c15002286a75a2a45f5cd819b640d95c14ed4e84c5"></a>NORMAL_PLAYBACK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a13328112f7a27b265513526c15002286af71f3c35fe08faa676c316c8afbbe1a5" name="a13328112f7a27b265513526c15002286af71f3c35fe08faa676c316c8afbbe1a5"></a>FORWARD_SKIP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a13328112f7a27b265513526c15002286a3fed68eb0bdaa28a5916f7d6a9ac11ae" name="a13328112f7a27b265513526c15002286a3fed68eb0bdaa28a5916f7d6a9ac11ae"></a>BACKWARD_SKIP&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad57b0f76443bc3ceb024cff0aa131cb8" name="ad57b0f76443bc3ceb024cff0aa131cb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad57b0f76443bc3ceb024cff0aa131cb8">&#9670;&#160;</a></span>ReplayManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">ReplayManager::ReplayManager </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d08/classTabGame.html">TabGame</a> *</td>          <td class="paramname"><span class="paramname"><em>parent</em></span>, </td>
+          <td class="paramtype">QObject *</td>          <td class="paramname"><span class="paramname"><em>parent</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -167,12 +227,49 @@ Private Attributes</h2></td></tr>
           <td class="paramtype"><a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a> *</td>          <td class="paramname"><span class="paramname"><em>replay</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>The parent QObject </td></tr>
+    <tr><td class="paramname"><a class="el" href="#a1f89eb9cfd3c48bed872cb0d6465ac53">replay</a></td><td>Cannot be null. Takes ownership of the object. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_afb3cad9876028dfafcd64078fce5af0a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ad57b0f76443bc3ceb024cff0aa131cb8_cgraph.svg" width="100%" height="428"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+
+</div>
+</div>
+<a id="a99aaa7ec7b0bbe88a2b5667dc5799420" name="a99aaa7ec7b0bbe88a2b5667dc5799420"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99aaa7ec7b0bbe88a2b5667dc5799420">&#9670;&#160;</a></span>~ReplayManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ReplayManager::~ReplayManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -206,13 +303,13 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ad53f40a28d232da1ba41b7db94a99eb9_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ad53f40a28d232da1ba41b7db94a99eb9_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="ab1428760b79a1a4904018dcebf39f922" name="ab1428760b79a1a4904018dcebf39f922"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1428760b79a1a4904018dcebf39f922">&#9670;&#160;</a></span>refreshShortcuts</h2>
+<a id="a3a5a306ee1983f64f427cb4c1ede3a6d" name="a3a5a306ee1983f64f427cb4c1ede3a6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a5a306ee1983f64f427cb4c1ede3a6d">&#9670;&#160;</a></span>getReplayTimeline()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +318,112 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ReplayManager::refreshShortcuts </td>
+          <td class="memname">const QList&lt; int &gt; &amp; ReplayManager::getReplayTimeline </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2b9af668ddb3b898bd60825b1baa0a3" name="aa2b9af668ddb3b898bd60825b1baa0a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2b9af668ddb3b898bd60825b1baa0a3">&#9670;&#160;</a></span>handleBackwardsSkip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ReplayManager::handleBackwardsSkip </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>doRewindBuffering</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handles a backwards skip in the replay timeline. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">doRewindBuffering</td><td>When true, if multiple backward skips are made in quick succession, only a single rewind is processed at the end. When false, the backwards skip will always cause an immediate rewind. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_aa2b9af668ddb3b898bd60825b1baa0a3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_aa2b9af668ddb3b898bd60825b1baa0a3_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a0d6f02c10a8fe46a84d891ac506b8aaf" name="a0d6f02c10a8fe46a84d891ac506b8aaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d6f02c10a8fe46a84d891ac506b8aaf">&#9670;&#160;</a></span>processNewEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ReplayManager::processNewEvents </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a13328112f7a27b265513526c15002286">PlaybackMode</a></td>          <td class="paramname"><span class="paramname"><em>playbackMode</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Processes all unprocessed events up to the current time. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a0d6f02c10a8fe46a84d891ac506b8aaf_cgraph.svg" width="500" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a0d6f02c10a8fe46a84d891ac506b8aaf_icgraph.svg" width="100%" height="395"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab3fb882a2f6094bed222a43a081df277" name="ab3fb882a2f6094bed222a43a081df277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3fb882a2f6094bed222a43a081df277">&#9670;&#160;</a></span>processRewind()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ReplayManager::processRewind </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -229,19 +431,19 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ab1428760b79a1a4904018dcebf39f922_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ab3fb882a2f6094bed222a43a081df277_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ab1428760b79a1a4904018dcebf39f922_icgraph.svg" width="532" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ab3fb882a2f6094bed222a43a081df277_icgraph.svg" width="100%" height="383"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -264,20 +466,20 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a1045209c661d90fd89ea982cadf07af1_icgraph.svg" width="520" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a1045209c661d90fd89ea982cadf07af1_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a2d702708ffc716cc6dd5092cb01ed67f" name="a2d702708ffc716cc6dd5092cb01ed67f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d702708ffc716cc6dd5092cb01ed67f">&#9670;&#160;</a></span>replayNextEvent</h2>
+<a id="abeab77d7d17a8f606d42906f442e100c" name="abeab77d7d17a8f606d42906f442e100c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeab77d7d17a8f606d42906f442e100c">&#9670;&#160;</a></span>replayTimerTimeout</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,72 +488,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ReplayManager::replayNextEvent </td>
-          <td>(</td>
-          <td class="paramtype">EventProcessingOptions</td>          <td class="paramname"><span class="paramname"><em>options</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a2d702708ffc716cc6dd5092cb01ed67f_cgraph.svg" width="494" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a2d702708ffc716cc6dd5092cb01ed67f_icgraph.svg" width="498" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a8b523fa13eb7b21f172e3f1054aa61cb" name="a8b523fa13eb7b21f172e3f1054aa61cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b523fa13eb7b21f172e3f1054aa61cb">&#9670;&#160;</a></span>replayPlayButtonToggled</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ReplayManager::replayPlayButtonToggled </td>
-          <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>checked</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a8b523fa13eb7b21f172e3f1054aa61cb_icgraph.svg" width="495" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a6ef6274aa83c3d5101e412def51f1355" name="a6ef6274aa83c3d5101e412def51f1355"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ef6274aa83c3d5101e412def51f1355">&#9670;&#160;</a></span>replayRewind</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ReplayManager::replayRewind </td>
+          <td class="memname">void ReplayManager::replayTimerTimeout </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -363,23 +500,21 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Handles everything that needs to be reset when doing a replay rewind. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a6ef6274aa83c3d5101e412def51f1355_cgraph.svg" width="491" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_abeab77d7d17a8f606d42906f442e100c_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a6ef6274aa83c3d5101e412def51f1355_icgraph.svg" width="515" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_abeab77d7d17a8f606d42906f442e100c_icgraph.svg" width="504" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a85163e4dc33118ccafa742315445853e" name="a85163e4dc33118ccafa742315445853e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85163e4dc33118ccafa742315445853e">&#9670;&#160;</a></span>requestChatAndPhaseReset</h2>
+<a id="ad2244be18e1fb84a7ef925f923c68a24" name="ad2244be18e1fb84a7ef925f923c68a24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2244be18e1fb84a7ef925f923c68a24">&#9670;&#160;</a></span>rewound</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -388,7 +523,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ReplayManager::requestChatAndPhaseReset </td>
+          <td class="memname">void ReplayManager::rewound </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -403,13 +538,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a85163e4dc33118ccafa742315445853e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ad2244be18e1fb84a7ef925f923c68a24_icgraph.svg" width="100%" height="393"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a4ff62fc362f4e3a5d78daeb4012abb1a" name="a4ff62fc362f4e3a5d78daeb4012abb1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ff62fc362f4e3a5d78daeb4012abb1a">&#9670;&#160;</a></span>updateTimeScaleFactor</h2>
+<a id="abd9ea4f6f2a48ae61ca05a010cad1ebb" name="abd9ea4f6f2a48ae61ca05a010cad1ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd9ea4f6f2a48ae61ca05a010cad1ebb">&#9670;&#160;</a></span>setTime</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -418,34 +553,200 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ReplayManager::updateTimeScaleFactor </td>
+          <td class="memname">void ReplayManager::setTime </td>
           <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>checked</em></span></td><td>)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>time</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a4ff62fc362f4e3a5d78daeb4012abb1a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_abd9ea4f6f2a48ae61ca05a010cad1ebb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a4ff62fc362f4e3a5d78daeb4012abb1a_icgraph.svg" width="504" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_abd9ea4f6f2a48ae61ca05a010cad1ebb_icgraph.svg" width="456" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="abd4d664309768a02f09d869180080e70" name="abd4d664309768a02f09d869180080e70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd4d664309768a02f09d869180080e70">&#9670;&#160;</a></span>setTimeScaleFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ReplayManager::setTimeScaleFactor </td>
+          <td>(</td>
+          <td class="paramtype">qreal</td>          <td class="paramname"><span class="paramname"><em>_timeScaleFactor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a8ea93b07a11227d3d715052c7dc2ba" name="a7a8ea93b07a11227d3d715052c7dc2ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a8ea93b07a11227d3d715052c7dc2ba">&#9670;&#160;</a></span>skipByAmount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ReplayManager::skipByAmount </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>amount</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a7a8ea93b07a11227d3d715052c7dc2ba_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a587a9d94e12fdc4c2d3d39ce01e9c510" name="a587a9d94e12fdc4c2d3d39ce01e9c510"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a587a9d94e12fdc4c2d3d39ce01e9c510">&#9670;&#160;</a></span>skipToTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ReplayManager::skipToTime </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newTime</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>doRewindBuffering</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a587a9d94e12fdc4c2d3d39ce01e9c510_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a587a9d94e12fdc4c2d3d39ce01e9c510_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac6d3d66c06f67992cf9f63031aacd972" name="ac6d3d66c06f67992cf9f63031aacd972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6d3d66c06f67992cf9f63031aacd972">&#9670;&#160;</a></span>startReplay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ReplayManager::startReplay </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad3e2bc23150728d03a8078aebc3cac04" name="ad3e2bc23150728d03a8078aebc3cac04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3e2bc23150728d03a8078aebc3cac04">&#9670;&#160;</a></span>stopReplay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ReplayManager::stopReplay </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a45e84aad0c2d77e6580f79f5412b02eb" name="a45e84aad0c2d77e6580f79f5412b02eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45e84aad0c2d77e6580f79f5412b02eb">&#9670;&#160;</a></span>timeChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ReplayManager::timeChanged </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>time</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a45e84aad0c2d77e6580f79f5412b02eb_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a2ccbf60ef60e62c20c6ac682791f152d" name="a2ccbf60ef60e62c20c6ac682791f152d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ccbf60ef60e62c20c6ac682791f152d">&#9670;&#160;</a></span>aReplaySkipBackward</h2>
+<a id="a6ea423dd701a836cbcae02a83dc0066c" name="a6ea423dd701a836cbcae02a83dc0066c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ea423dd701a836cbcae02a83dc0066c">&#9670;&#160;</a></span>BIG_SKIP_MS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -454,7 +755,29 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QAction * ReplayManager::aReplaySkipBackward</td>
+          <td class="memname">int ReplayManager::BIG_SKIP_MS = 10000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74a4aa2f417f8de3404d51e6aa9c420d" name="a74a4aa2f417f8de3404d51e6aa9c420d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74a4aa2f417f8de3404d51e6aa9c420d">&#9670;&#160;</a></span>currentEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ReplayManager::currentEvent = 0</td>
         </tr>
       </table>
   </td>
@@ -464,10 +787,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>current event's index </p>
+
 </div>
 </div>
-<a id="ab4d7c11afe513f678f7cfa330336aa85" name="ab4d7c11afe513f678f7cfa330336aa85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4d7c11afe513f678f7cfa330336aa85">&#9670;&#160;</a></span>aReplaySkipBackwardBig</h2>
+<a id="abdb81d0cc94379d2292a7a1bb9acc2a8" name="abdb81d0cc94379d2292a7a1bb9acc2a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb81d0cc94379d2292a7a1bb9acc2a8">&#9670;&#160;</a></span>currentProcessedTime</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -476,7 +801,30 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QAction * ReplayManager::aReplaySkipBackwardBig</td>
+          <td class="memname">int ReplayManager::currentProcessedTime = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>time that events are currently processed up to. Could differ from visual time due to rewind buffering </p>
+
+</div>
+</div>
+<a id="ac13f914aadf547e6ff83637f2c06a1ac" name="ac13f914aadf547e6ff83637f2c06a1ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac13f914aadf547e6ff83637f2c06a1ac">&#9670;&#160;</a></span>currentVisualTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ReplayManager::currentVisualTime = 0</td>
         </tr>
       </table>
   </td>
@@ -486,10 +834,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>time currently displayed by the timeline </p>
+
 </div>
 </div>
-<a id="a5a1f799740307cb8d3b6dbb0767bbd33" name="a5a1f799740307cb8d3b6dbb0767bbd33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a1f799740307cb8d3b6dbb0767bbd33">&#9670;&#160;</a></span>aReplaySkipForward</h2>
+<a id="a478ffab6e0bcf97669e57295cc79d394" name="a478ffab6e0bcf97669e57295cc79d394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a478ffab6e0bcf97669e57295cc79d394">&#9670;&#160;</a></span>maxTime</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -498,7 +848,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QAction* ReplayManager::aReplaySkipForward</td>
+          <td class="memname">int ReplayManager::maxTime</td>
         </tr>
       </table>
   </td>
@@ -506,64 +856,6 @@ Here is the caller graph for this function:</div>
 <span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5867e673534d027eed864fdb3985d6f8" name="a5867e673534d027eed864fdb3985d6f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5867e673534d027eed864fdb3985d6f8">&#9670;&#160;</a></span>aReplaySkipForwardBig</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QAction * ReplayManager::aReplaySkipForwardBig</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a864ed67afcddcb142540f49442285d97" name="a864ed67afcddcb142540f49442285d97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a864ed67afcddcb142540f49442285d97">&#9670;&#160;</a></span>currentReplayStep</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ReplayManager::currentReplayStep = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab74e1d74545d5d61859934a54ef796f4" name="ab74e1d74545d5d61859934a54ef796f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab74e1d74545d5d61859934a54ef796f4">&#9670;&#160;</a></span>game</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d08/classTabGame.html">TabGame</a>* ReplayManager::game</td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>
@@ -573,48 +865,12 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a>* ReplayManager::replay</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a90fc20e398e5a554f286bdfe45d5f0c1" name="a90fc20e398e5a554f286bdfe45d5f0c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90fc20e398e5a554f286bdfe45d5f0c1">&#9670;&#160;</a></span>replayFastForwardButton</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QToolButton * ReplayManager::replayFastForwardButton</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aff82c3241734a41ff6ab52ff624499b5" name="aff82c3241734a41ff6ab52ff624499b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff82c3241734a41ff6ab52ff624499b5">&#9670;&#160;</a></span>replayPlayButton</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QToolButton* ReplayManager::replayPlayButton</td>
         </tr>
       </table>
   </td>
@@ -646,10 +902,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>timestamp of each event, with the indexes corresponding </p>
+
 </div>
 </div>
-<a id="a98f55d85c802c8560f3032296270f77b" name="a98f55d85c802c8560f3032296270f77b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98f55d85c802c8560f3032296270f77b">&#9670;&#160;</a></span>settingsWidget</h2>
+<a id="a82db3f0665d1e1a7690210ae943a5507" name="a82db3f0665d1e1a7690210ae943a5507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82db3f0665d1e1a7690210ae943a5507">&#9670;&#160;</a></span>replayTimer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -658,7 +916,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/d37/classReplayQuickSettingsWidget.html">ReplayQuickSettingsWidget</a>* ReplayManager::settingsWidget</td>
+          <td class="memname">QTimer* ReplayManager::replayTimer</td>
         </tr>
       </table>
   </td>
@@ -670,8 +928,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a1adedcf2402d725e2ddb2c4004d7c435" name="a1adedcf2402d725e2ddb2c4004d7c435"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1adedcf2402d725e2ddb2c4004d7c435">&#9670;&#160;</a></span>timelineWidget</h2>
+<a id="a25cec85e214830cc97beb1cdae0de7de" name="a25cec85e214830cc97beb1cdae0de7de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25cec85e214830cc97beb1cdae0de7de">&#9670;&#160;</a></span>rewindBufferingTimer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -680,7 +938,51 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d07/classReplayTimelineWidget.html">ReplayTimelineWidget</a>* ReplayManager::timelineWidget</td>
+          <td class="memname">QTimer* ReplayManager::rewindBufferingTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a237da2cb0c76ca2ea6cd2479f7f71089" name="a237da2cb0c76ca2ea6cd2479f7f71089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a237da2cb0c76ca2ea6cd2479f7f71089">&#9670;&#160;</a></span>SMALL_SKIP_MS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ReplayManager::SMALL_SKIP_MS = 1000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a562b667344515115d13c7d471a713ada" name="a562b667344515115d13c7d471a713ada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a562b667344515115d13c7d471a713ada">&#9670;&#160;</a></span>timeScaleFactor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal ReplayManager::timeScaleFactor = 1.0</td>
         </tr>
       </table>
   </td>

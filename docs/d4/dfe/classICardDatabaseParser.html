@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -112,7 +112,7 @@ Inheritance diagram for ICardDatabaseParser:</div>
 <div class="dynheader">
 Collaboration diagram for ICardDatabaseParser:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/da0/classICardDatabaseParser__coll__graph.svg" width="343" height="132"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/da0/classICardDatabaseParser__coll__graph.svg" width="478" height="132"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
@@ -129,6 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa58bc4645fc309c7225527f22d90a050"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether this parser can parse the given file.  <br /></td></tr>
 <tr class="memitem:a5a7c1ca5738843cd07c30148e1e20e8f" id="r_a5a7c1ca5738843cd07c30148e1e20e8f"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a5a7c1ca5738843cd07c30148e1e20e8f">parseFile</a> (QIODevice &amp;device)=0</td></tr>
 <tr class="memdesc:a5a7c1ca5738843cd07c30148e1e20e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a database file and emits addCard/addSet signals.  <br /></td></tr>
+<tr class="memitem:a3a9898f67a594ae5d2ec03a83344768f" id="r_a3a9898f67a594ae5d2ec03a83344768f"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a3a9898f67a594ae5d2ec03a83344768f">parseFileInto</a> (QIODevice &amp;device, <a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> &amp;data)=0</td></tr>
+<tr class="memdesc:a3a9898f67a594ae5d2ec03a83344768f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a database file into the given snapshot, without emitting any signals. Used for background loads that swap the snapshot into the live database once complete.  <br /></td></tr>
 <tr class="memitem:a4ed61d5daf8eccca140d31ef257c32c9" id="r_a4ed61d5daf8eccca140d31ef257c32c9"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a4ed61d5daf8eccca140d31ef257c32c9">saveToFile</a> (<a class="el" href="../../df/df3/card__info_8h.html#a2e9686002e62dcaed3d15d08802eede7">FormatRulesNameMap</a> _formats, <a class="el" href="../../df/df3/card__info_8h.html#a7c9db9f714d3b5488be46278c2e576e8">SetNameMap</a> <a class="el" href="#a9dbd0972e9552f222fd6dec4fd9f1088">sets</a>, <a class="el" href="../../df/df3/card__info_8h.html#afe09e708464a3f7085db662112b509f3">CardNameMap</a> cards, const QString &amp;fileName, const QString &amp;sourceUrl=&quot;unknown&quot;, const QString &amp;sourceVersion=&quot;unknown&quot;)=0</td></tr>
 <tr class="memdesc:a4ed61d5daf8eccca140d31ef257c32c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves card and set data to a file.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -145,6 +147,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a0b189b300b49e5c2c1373544e146c16c" id="r_a0b189b300b49e5c2c1373544e146c16c"><td class="memItemLeft"><a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a0b189b300b49e5c2c1373544e146c16c">cardSetPriorityController</a></td></tr>
+<tr class="memitem:a66883932a0e685ecf3d25a49392331e7" id="r_a66883932a0e685ecf3d25a49392331e7"><td class="memItemLeft"><a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a66883932a0e685ecf3d25a49392331e7">targetData</a> = nullptr</td></tr>
+<tr class="memdesc:a66883932a0e685ecf3d25a49392331e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Snapshot the current parse is filling, or nullptr when emitting signals.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -229,7 +233,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/dfe/classICardDatabaseParser_a5affb7253a0dd4f4e8c611ae2ad4b119_icgraph.svg" width="596" height="179"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/dfe/classICardDatabaseParser_a5affb7253a0dd4f4e8c611ae2ad4b119_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -259,7 +263,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/dfe/classICardDatabaseParser_af9dd84adbd35f10dd6d905c62b0a734a_icgraph.svg" width="596" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/dfe/classICardDatabaseParser_af9dd84adbd35f10dd6d905c62b0a734a_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -322,7 +326,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/dfe/classICardDatabaseParser_a2586623f68369edcd6fcaa28d6ac1355_icgraph.svg" width="646" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/dfe/classICardDatabaseParser_a2586623f68369edcd6fcaa28d6ac1355_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -430,7 +434,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/dfe/classICardDatabaseParser_a32a66ec769cb3c0462eeac79317fbe08_icgraph.svg" width="594" height="243"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/dfe/classICardDatabaseParser_a32a66ec769cb3c0462eeac79317fbe08_icgraph.svg" width="100%" height="482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -467,6 +471,46 @@ Here is the caller graph for this function:</div>
 </dl>
 
 <p>Implemented in <a class="el" href="../../d5/dba/classCockatriceXml3Parser.html#a8afc719e5e43cd140c4149270a12cbcf">CockatriceXml3Parser</a>, and <a class="el" href="../../dc/d53/classCockatriceXml4Parser.html#a1fc252f895431057517d6ad304f99161">CockatriceXml4Parser</a>.</p>
+
+</div>
+</div>
+<a id="a3a9898f67a594ae5d2ec03a83344768f" name="a3a9898f67a594ae5d2ec03a83344768f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a9898f67a594ae5d2ec03a83344768f">&#9670;&#160;</a></span>parseFileInto()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ICardDatabaseParser::parseFileInto </td>
+          <td>(</td>
+          <td class="paramtype">QIODevice &amp;</td>          <td class="paramname"><span class="paramname"><em>device</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parses a database file into the given snapshot, without emitting any signals. Used for background loads that swap the snapshot into the live database once complete. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">device</td><td>QIODevice representing the file content. </td></tr>
+    <tr><td class="paramname">data</td><td>Target snapshot to populate. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="../../d5/dba/classCockatriceXml3Parser.html#af5b75421ca719fe5b8392e822cc70f9a">CockatriceXml3Parser</a>, and <a class="el" href="../../dc/d53/classCockatriceXml4Parser.html#a83f4975d114a61b07cd1d2bbf18fe02d">CockatriceXml4Parser</a>.</p>
 
 </div>
 </div>
@@ -579,6 +623,31 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Cached global list of sets shared between all parsers. </p>
+
+</div>
+</div>
+<a id="a66883932a0e685ecf3d25a49392331e7" name="a66883932a0e685ecf3d25a49392331e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66883932a0e685ecf3d25a49392331e7">&#9670;&#160;</a></span>targetData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a>* ICardDatabaseParser::targetData = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Snapshot the current parse is filling, or nullptr when emitting signals. </p>
+<p>This is an implicit-inheritance-via-member-variable pattern: <a class="el" href="#a3a9898f67a594ae5d2ec03a83344768f" title="Parses a database file into the given snapshot, without emitting any signals. Used for background loa...">parseFileInto()</a> sets this before delegating to <a class="el" href="#a5a7c1ca5738843cd07c30148e1e20e8f" title="Parses a database file and emits addCard/addSet signals.">parseFile()</a>, and loadCardsFromXml() / loadFormats() check it to decide between direct insertion and signal emission. Safe under the current model because loadFromFileMutex serialises all parser access and <a class="el" href="#a5a7c1ca5738843cd07c30148e1e20e8f" title="Parses a database file and emits addCard/addSet signals.">parseFile()</a> is never re-entered. If a future change adds parallel parsing or a second <a class="el" href="#a3a9898f67a594ae5d2ec03a83344768f" title="Parses a database file into the given snapshot, without emitting any signals. Used for background loa...">parseFileInto()</a> call within <a class="el" href="#a5a7c1ca5738843cd07c30148e1e20e8f" title="Parses a database file and emits addCard/addSet signals.">parseFile()</a>, this pointer would race &ndash; at that point refactor to pass CardDatabaseData* through the call chain instead. However, we are mostly RAM, not CPU bound on DB startup at this point so there's not much point to parallel parsing. </p>
 
 </div>
 </div>

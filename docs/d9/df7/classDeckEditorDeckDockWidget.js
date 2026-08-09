@@ -45,6 +45,7 @@ var classDeckEditorDeckDockWidget =
     [ "aSwapCard", "d9/df7/classDeckEditorDeckDockWidget.html#ae52bd17da47ada3862d69b2a2c467ae4", null ],
     [ "bannerCardComboBox", "d9/df7/classDeckEditorDeckDockWidget.html#a6c8e6a65e6ba83cc40689a86d1818303", null ],
     [ "bannerCardLabel", "d9/df7/classDeckEditorDeckDockWidget.html#aa7aec9a73d90690573a9273b44c9e2bd", null ],
+    [ "commanderBracketWidget", "d9/df7/classDeckEditorDeckDockWidget.html#a43e01d3b7f404412be7af03ca13b3378", null ],
     [ "commentsDebounceTimer", "d9/df7/classDeckEditorDeckDockWidget.html#a3221f162c120dc889858d5b0943db884", null ],
     [ "commentsEdit", "d9/df7/classDeckEditorDeckDockWidget.html#a3feb4aa4fb64c50733d92c7b643c694b", null ],
     [ "commentsLabel", "d9/df7/classDeckEditorDeckDockWidget.html#a8c67dc71f0e36dd824f585098723ad83", null ],

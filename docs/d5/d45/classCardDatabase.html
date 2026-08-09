@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -127,11 +127,15 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a0b72c76e38c459b44f3aa76340875897" id="r_a0b72c76e38c459b44f3aa76340875897"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0b72c76e38c459b44f3aa76340875897">reloadCardDatabasesAndNotify</a> ()</td></tr>
 <tr class="memitem:a0def74208b0f26956b33b314160f4c2a" id="r_a0def74208b0f26956b33b314160f4c2a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0def74208b0f26956b33b314160f4c2a">saveCustomTokensToFile</a> ()</td></tr>
 <tr class="memdesc:a0def74208b0f26956b33b314160f4c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves custom tokens to file.  <br /></td></tr>
+<tr class="memitem:a96031e366c7b9871e870b611e5ee03e4" id="r_a96031e366c7b9871e870b611e5ee03e4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a96031e366c7b9871e870b611e5ee03e4">swapInDatabaseData</a> (<a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> data)</td></tr>
+<tr class="memdesc:a96031e366c7b9871e870b611e5ee03e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the entire contents of the database with the provided snapshot in a single operation. Intended to be called once a background load has finished building a <a class="el" href="../../d4/da7/structCardDatabaseData.html" title="Value type holding the full parsed state of a card database.">CardDatabaseData</a>, so that observers never see a partially-populated database.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:a37d58e549c2bffd82e032492fa7124f1" id="r_a37d58e549c2bffd82e032492fa7124f1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a37d58e549c2bffd82e032492fa7124f1">cardDatabaseLoadingFinished</a> ()</td></tr>
 <tr class="memdesc:a37d58e549c2bffd82e032492fa7124f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the card database has finished loading successfully.  <br /></td></tr>
+<tr class="memitem:acdd353b4eee3682f6ccf8c3fc3bc5d06" id="r_acdd353b4eee3682f6ccf8c3fc3bc5d06"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acdd353b4eee3682f6ccf8c3fc3bc5d06">cardDatabaseReset</a> ()</td></tr>
+<tr class="memdesc:acdd353b4eee3682f6ccf8c3fc3bc5d06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted once after the live database contents have been replaced by a freshly loaded snapshot. Models should rebuild from the database in a single batch rather than reacting to per-card adds.  <br /></td></tr>
 <tr class="memitem:a439da156ad6a7358140d58b7f61e158e" id="r_a439da156ad6a7358140d58b7f61e158e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a439da156ad6a7358140d58b7f61e158e">cardDatabaseLoadingFailed</a> ()</td></tr>
 <tr class="memdesc:a439da156ad6a7358140d58b7f61e158e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the card database fails to load.  <br /></td></tr>
 <tr class="memitem:a1eb7590a33df0f848f67562dbc179187" id="r_a1eb7590a33df0f848f67562dbc179187"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1eb7590a33df0f848f67562dbc179187">cardDatabaseNewSetsFound</a> (int numUnknownSets, QStringList unknownSetsNames)</td></tr>
@@ -169,8 +173,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4223bced0f40c1475904143b8d68010f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables all unknown sets in the database.  <br /></td></tr>
 <tr class="memitem:a359da0943870a290d4f3aa13a38decb4" id="r_a359da0943870a290d4f3aa13a38decb4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a359da0943870a290d4f3aa13a38decb4">markAllSetsAsKnown</a> ()</td></tr>
 <tr class="memdesc:a359da0943870a290d4f3aa13a38decb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks all sets as known.  <br /></td></tr>
-<tr class="memitem:a56a3727444527703459220022c118025" id="r_a56a3727444527703459220022c118025"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a56a3727444527703459220022c118025">notifyEnabledSetsChanged</a> ()</td></tr>
-<tr class="memdesc:a56a3727444527703459220022c118025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifies listeners that enabled sets changed.  <br /></td></tr>
+<tr class="memitem:a9de542348a63c056811575b4e6946d44" id="r_a9de542348a63c056811575b4e6946d44"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9de542348a63c056811575b4e6946d44">notifyEnabledSetsChanged</a> (bool recomputeCachedSets=true)</td></tr>
+<tr class="memdesc:a9de542348a63c056811575b4e6946d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifies listeners that enabled sets changed.  <br /></td></tr>
+<tr class="memitem:a574a373af165a06fe47abed197c69740" id="r_a574a373af165a06fe47abed197c69740"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a574a373af165a06fe47abed197c69740">checkUnknownSets</a> ()</td></tr>
+<tr class="memdesc:a574a373af165a06fe47abed197c69740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for sets that are unknown and emit signals if needed.  <br /></td></tr>
 <tr class="memitem:a781f888cd013d7de2612c6b8b7020f3c" id="r_a781f888cd013d7de2612c6b8b7020f3c"><td class="memItemLeft"><a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a781f888cd013d7de2612c6b8b7020f3c">getPriorityController</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
@@ -193,10 +199,10 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a574a373af165a06fe47abed197c69740" id="r_a574a373af165a06fe47abed197c69740"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a574a373af165a06fe47abed197c69740">checkUnknownSets</a> ()</td></tr>
-<tr class="memdesc:a574a373af165a06fe47abed197c69740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check for sets that are unknown and emit signals if needed.  <br /></td></tr>
 <tr class="memitem:a3bc03b512064c4cbf97fc61c4488afbe" id="r_a3bc03b512064c4cbf97fc61c4488afbe"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3bc03b512064c4cbf97fc61c4488afbe">refreshCachedReverseRelatedCards</a> ()</td></tr>
 <tr class="memdesc:a3bc03b512064c4cbf97fc61c4488afbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refreshes the cached reverse-related cards for all cards.  <br /></td></tr>
+<tr class="memitem:a63fc57ca5d277f7fcf12deabd23e042a" id="r_a63fc57ca5d277f7fcf12deabd23e042a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a63fc57ca5d277f7fcf12deabd23e042a">refreshCachedReverseRelatedCards</a> (<a class="el" href="../../df/df3/card__info_8h.html#afe09e708464a3f7085db662112b509f3">CardNameMap</a> &amp;cardMap)</td></tr>
+<tr class="memdesc:a63fc57ca5d277f7fcf12deabd23e042a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refreshes the cached reverse-related cards for the given card map.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -337,11 +343,6 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a59243a66bc3b3a304d61de843ca296fa_cgraph.svg" width="426" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a59243a66bc3b3a304d61de843ca296fa_icgraph.svg" width="402" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
@@ -367,11 +368,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a5a56fc9608dad7243b4c796f4f19b2c8_icgraph.svg" width="418" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
@@ -405,11 +401,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_ae9017d986d73b42e2d3677412d666fcb_icgraph.svg" width="392" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
@@ -440,7 +431,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_ae98c83b197f92d9e6c850c5da43383e5_icgraph.svg" width="640" height="108"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_ae98c83b197f92d9e6c850c5da43383e5_icgraph.svg" width="426" height="151"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -472,7 +463,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a03b65551376df53526a834ace1b7e844_icgraph.svg" width="520" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a03b65551376df53526a834ace1b7e844_icgraph.svg" width="100%" height="484"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -611,7 +602,39 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a1eb7590a33df0f848f67562dbc179187_icgraph.svg" width="520" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a1eb7590a33df0f848f67562dbc179187_icgraph.svg" width="100%" height="484"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="acdd353b4eee3682f6ccf8c3fc3bc5d06" name="acdd353b4eee3682f6ccf8c3fc3bc5d06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd353b4eee3682f6ccf8c3fc3bc5d06">&#9670;&#160;</a></span>cardDatabaseReset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardDatabase::cardDatabaseReset </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted once after the live database contents have been replaced by a freshly loaded snapshot. Models should rebuild from the database in a single batch rather than reacting to per-card adds. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_acdd353b4eee3682f6ccf8c3fc3bc5d06_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -643,7 +666,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a68b4169947d4d9ddbe3b76a19ddea3eb_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a68b4169947d4d9ddbe3b76a19ddea3eb_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -653,9 +676,6 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void CardDatabase::checkUnknownSets </td>
@@ -664,18 +684,19 @@ Here is the caller graph for this function:</div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Check for sets that are unknown and emit signals if needed. </p>
+<p>Called from <a class="el" href="../../d6/d1a/classMainWindow.html#ab9bcbb634d82332732230028d2e3f2f5">MainWindow::startupConfigCheck()</a> after signal connections are live (the front-loaded parse in <a class="el" href="../../d8/da8/cockatrice_2src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a> runs before <a class="el" href="../../d6/d1a/classMainWindow.html">MainWindow</a> exists, so signals emitted there would have no receivers). May also be called by the loader via the friend declaration. Has side effects: enables all sets when none are enabled (first-run), marks all sets as known. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a574a373af165a06fe47abed197c69740_cgraph.svg" width="100%" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a574a373af165a06fe47abed197c69740_icgraph.svg" width="100%" height="445"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -792,7 +813,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a02680f8cbc02be76591602e46e2da379_icgraph.svg" width="450" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a02680f8cbc02be76591602e46e2da379_icgraph.svg" width="476" height="230"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -885,7 +906,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a57aff9cd51f83c06bd58794f4c52dba2_icgraph.svg" width="100%" height="500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a57aff9cd51f83c06bd58794f4c52dba2_icgraph.svg" width="100%" height="548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -951,8 +972,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a56a3727444527703459220022c118025" name="a56a3727444527703459220022c118025"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56a3727444527703459220022c118025">&#9670;&#160;</a></span>notifyEnabledSetsChanged()</h2>
+<a id="a9de542348a63c056811575b4e6946d44" name="a9de542348a63c056811575b4e6946d44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9de542348a63c056811575b4e6946d44">&#9670;&#160;</a></span>notifyEnabledSetsChanged()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -960,22 +981,28 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void CardDatabase::notifyEnabledSetsChanged </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>recomputeCachedSets</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Notifies listeners that enabled sets changed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">recomputeCachedSets</td><td>When true, every card's cached set-name / alt-name data is recomputed (needed only when enabled-set state actually changed). Pass false after a plain reload, where enabled-set state is unchanged and the cached data is still valid. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a56a3727444527703459220022c118025_cgraph.svg" width="482" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a9de542348a63c056811575b4e6946d44_cgraph.svg" width="482" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a56a3727444527703459220022c118025_icgraph.svg" width="100%" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a9de542348a63c056811575b4e6946d44_icgraph.svg" width="100%" height="445"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1018,7 +1045,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="a3bc03b512064c4cbf97fc61c4488afbe" name="a3bc03b512064c4cbf97fc61c4488afbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bc03b512064c4cbf97fc61c4488afbe">&#9670;&#160;</a></span>refreshCachedReverseRelatedCards()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bc03b512064c4cbf97fc61c4488afbe">&#9670;&#160;</a></span>refreshCachedReverseRelatedCards() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1041,6 +1068,49 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Refreshes the cached reverse-related cards for all cards. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a3bc03b512064c4cbf97fc61c4488afbe_cgraph.svg" width="227" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a3bc03b512064c4cbf97fc61c4488afbe_icgraph.svg" width="227" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a63fc57ca5d277f7fcf12deabd23e042a" name="a63fc57ca5d277f7fcf12deabd23e042a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63fc57ca5d277f7fcf12deabd23e042a">&#9670;&#160;</a></span>refreshCachedReverseRelatedCards() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardDatabase::refreshCachedReverseRelatedCards </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#afe09e708464a3f7085db662112b509f3">CardNameMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cardMap</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Refreshes the cached reverse-related cards for the given card map. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cardMap</td><td>Map of cards to process. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1069,7 +1139,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a0b72c76e38c459b44f3aa76340875897_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a0b72c76e38c459b44f3aa76340875897_cgraph.svg" width="100%" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1143,6 +1213,49 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a0def74208b0f26956b33b314160f4c2a_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a96031e366c7b9871e870b611e5ee03e4" name="a96031e366c7b9871e870b611e5ee03e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96031e366c7b9871e870b611e5ee03e4">&#9670;&#160;</a></span>swapInDatabaseData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardDatabase::swapInDatabaseData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replaces the entire contents of the database with the provided snapshot in a single operation. Intended to be called once a background load has finished building a <a class="el" href="../../d4/da7/structCardDatabaseData.html" title="Value type holding the full parsed state of a card database.">CardDatabaseData</a>, so that observers never see a partially-populated database. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>The fully-built snapshot to adopt. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a96031e366c7b9871e870b611e5ee03e4_cgraph.svg" width="532" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d45/classCardDatabase_a96031e366c7b9871e870b611e5ee03e4_icgraph.svg" width="535" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

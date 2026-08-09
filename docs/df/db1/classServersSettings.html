@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -140,6 +140,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa948b173276281858d742e57075cb6ed" id="r_aa948b173276281858d742e57075cb6ed"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa948b173276281858d742e57075cb6ed">addNewServer</a> (const QString &amp;saveName, const QString &amp;serv, const QString &amp;port, const QString &amp;username, const QString &amp;password, bool savePassword, const QString &amp;site=QString())</td></tr>
 <tr class="memitem:aed70ab0f2d55edbee4303021a3a7663f" id="r_aed70ab0f2d55edbee4303021a3a7663f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aed70ab0f2d55edbee4303021a3a7663f">removeServer</a> (QString servAddr)</td></tr>
 <tr class="memitem:ac19792f9f126c3cd7bbd1ff14222843d" id="r_ac19792f9f126c3cd7bbd1ff14222843d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac19792f9f126c3cd7bbd1ff14222843d">updateExistingServer</a> (QString saveName, QString serv, QString port, QString username, QString password, bool savePassword, QString site=QString())</td></tr>
+<tr class="memitem:afd8ed37b74b6c337635c8b29b080e52e" id="r_afd8ed37b74b6c337635c8b29b080e52e"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#afd8ed37b74b6c337635c8b29b080e52e">findServerIndex</a> (const QString &amp;host, const QString &amp;port) const</td></tr>
+<tr class="memitem:ae63f5cba3f62f5e605bee00cb42c3bf3" id="r_ae63f5cba3f62f5e605bee00cb42c3bf3"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae63f5cba3f62f5e605bee00cb42c3bf3">hasUsername</a> (const QString &amp;host, const QString &amp;port) const</td></tr>
+<tr class="memitem:a9ef50d7bed5a94f7bde3b82454c6c964" id="r_a9ef50d7bed5a94f7bde3b82454c6c964"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a9ef50d7bed5a94f7bde3b82454c6c964">hasCredentials</a> (const QString &amp;host, const QString &amp;port) const</td></tr>
+<tr class="memitem:ac715dd3d0df7ffa5325007a37821d7ae" id="r_ac715dd3d0df7ffa5325007a37821d7ae"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac715dd3d0df7ffa5325007a37821d7ae">hasLoginData</a> (const QString &amp;host, const QString &amp;port) const</td></tr>
 <tr class="memitem:a04dd481e4840600a420c7423c4c2c148" id="r_a04dd481e4840600a420c7423c4c2c148"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a04dd481e4840600a420c7423c4c2c148">updateExistingServerWithoutLoss</a> (QString saveName, QString serv=QString(), QString port=QString(), QString site=QString())</td></tr>
 <tr class="memitem:aaeaec69f13e06d6fc201e785dcd349f3" id="r_aaeaec69f13e06d6fc201e785dcd349f3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaeaec69f13e06d6fc201e785dcd349f3">setClearDebugLogStatus</a> (bool abIsChecked)</td></tr>
 <tr class="memitem:a8d460602f5d4b6b96b0b7377dfb879aa" id="r_a8d460602f5d4b6b96b0b7377dfb879aa"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8d460602f5d4b6b96b0b7377dfb879aa">getClearDebugLogStatus</a> (bool abDefaultValue) const</td></tr>
@@ -296,6 +300,37 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/db1/classServersSettings_aa948b173276281858d742e57075cb6ed_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="afd8ed37b74b6c337635c8b29b080e52e" name="afd8ed37b74b6c337635c8b29b080e52e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd8ed37b74b6c337635c8b29b080e52e">&#9670;&#160;</a></span>findServerIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ServersSettings::findServerIndex </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>host</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>port</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/db1/classServersSettings_afd8ed37b74b6c337635c8b29b080e52e_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/db1/classServersSettings_afd8ed37b74b6c337635c8b29b080e52e_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -698,6 +733,99 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/db1/classServersSettings_a711bbb99be7ac77ce01ce1a3006bf45a_cgraph.svg" width="100%" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a9ef50d7bed5a94f7bde3b82454c6c964" name="a9ef50d7bed5a94f7bde3b82454c6c964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ef50d7bed5a94f7bde3b82454c6c964">&#9670;&#160;</a></span>hasCredentials()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ServersSettings::hasCredentials </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>host</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>port</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/db1/classServersSettings_a9ef50d7bed5a94f7bde3b82454c6c964_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/db1/classServersSettings_a9ef50d7bed5a94f7bde3b82454c6c964_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac715dd3d0df7ffa5325007a37821d7ae" name="ac715dd3d0df7ffa5325007a37821d7ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac715dd3d0df7ffa5325007a37821d7ae">&#9670;&#160;</a></span>hasLoginData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ServersSettings::hasLoginData </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>host</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>port</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/db1/classServersSettings_ac715dd3d0df7ffa5325007a37821d7ae_cgraph.svg" width="100%" height="365"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/db1/classServersSettings_ac715dd3d0df7ffa5325007a37821d7ae_icgraph.svg" width="472" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae63f5cba3f62f5e605bee00cb42c3bf3" name="ae63f5cba3f62f5e605bee00cb42c3bf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae63f5cba3f62f5e605bee00cb42c3bf3">&#9670;&#160;</a></span>hasUsername()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ServersSettings::hasUsername </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>host</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>port</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/db1/classServersSettings_ae63f5cba3f62f5e605bee00cb42c3bf3_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/db1/classServersSettings_ae63f5cba3f62f5e605bee00cb42c3bf3_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

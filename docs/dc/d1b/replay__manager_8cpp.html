@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -100,17 +100,78 @@ $(function(){initNavTree('dc/d1b/replay__manager_8cpp.html','../../',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d2/d22/replay__manager_8h_source.html">replay_manager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/dfd/shortcuts__settings_8h_source.html">../../../client/settings/shortcuts_settings.h</a>&quot;</code><br />
-<code>#include &quot;../interface/widgets/tabs/tab_game.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d9b/replay__quick__settings__widget_8h_source.html">replay_quick_settings_widget.h</a>&quot;</code><br />
-<code>#include &lt;QHBoxLayout&gt;</code><br />
-<code>#include &lt;QToolButton&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">../../../client/settings/cache_settings.h</a>&quot;</code><br />
+<code>#include &lt;QTimer&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d5/d46/interface__settings_8h_source.html">libcockatrice/settings/interface_settings.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for replay_manager.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d89/replay__manager_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d89/replay__manager_8cpp__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-</div></div><!-- contents -->
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a6282378e9c2e3fb6e3bd5ee89b5133e7" id="r_a6282378e9c2e3fb6e3bd5ee89b5133e7"><td class="memItemLeft">static QList&lt; int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a6282378e9c2e3fb6e3bd5ee89b5133e7">createReplayTimeline</a> (const <a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a> *replay)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a6217f478f1c031453f8397ae971a5f23" id="r_a6217f478f1c031453f8397ae971a5f23"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a6217f478f1c031453f8397ae971a5f23">TIMER_INTERVAL_MS</a> = 200</td></tr>
+</table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a6282378e9c2e3fb6e3bd5ee89b5133e7" name="a6282378e9c2e3fb6e3bd5ee89b5133e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6282378e9c2e3fb6e3bd5ee89b5133e7">&#9670;&#160;</a></span>createReplayTimeline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; int &gt; createReplayTimeline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a> *</td>          <td class="paramname"><span class="paramname"><em>replay</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d1b/replay__manager_8cpp_a6282378e9c2e3fb6e3bd5ee89b5133e7_icgraph.svg" width="459" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="a6217f478f1c031453f8397ae971a5f23" name="a6217f478f1c031453f8397ae971a5f23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6217f478f1c031453f8397ae971a5f23">&#9670;&#160;</a></span>TIMER_INTERVAL_MS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TIMER_INTERVAL_MS = 200</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

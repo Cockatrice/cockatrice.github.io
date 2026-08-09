@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -148,6 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a74fb39b3974a3c68905d8e6a24b6e535" id="r_a74fb39b3974a3c68905d8e6a24b6e535"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a74fb39b3974a3c68905d8e6a24b6e535">sendCommand</a> (<a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a> *pend)</td></tr>
 <tr class="memitem:a40a7215004b01875fa8cb83805bf5099" id="r_a40a7215004b01875fa8cb83805bf5099"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a40a7215004b01875fa8cb83805bf5099">getServerSupportsPasswordHash</a> () const</td></tr>
 <tr class="memitem:ad18e27de66819afadea919c928ea50a5" id="r_ad18e27de66819afadea919c928ea50a5"><td class="memItemLeft">const QString &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ad18e27de66819afadea919c928ea50a5">getUserName</a> () const</td></tr>
+<tr class="memitem:a8394ac82d32f0bbb835c9c816e0abd9c" id="r_a8394ac82d32f0bbb835c9c816e0abd9c"><td class="memItemLeft">virtual QString&#160;</td><td class="memItemRight"><a class="el" href="#a8394ac82d32f0bbb835c9c816e0abd9c">serverName</a> () const</td></tr>
+<tr class="memdesc:a8394ac82d32f0bbb835c9c816e0abd9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the server address configured for the current connection.  <br /></td></tr>
+<tr class="memitem:adb8eac324659648f045d18dcdf54031c" id="r_adb8eac324659648f045d18dcdf54031c"><td class="memItemLeft">virtual quint16&#160;</td><td class="memItemRight"><a class="el" href="#adb8eac324659648f045d18dcdf54031c">serverPort</a> () const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -1144,6 +1147,63 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d86/classAbstractClient_a2db267d7bd68f1ec92cdf9e4d81ab98f_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+
+</div>
+</div>
+<a id="a8394ac82d32f0bbb835c9c816e0abd9c" name="a8394ac82d32f0bbb835c9c816e0abd9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8394ac82d32f0bbb835c9c816e0abd9c">&#9670;&#160;</a></span>serverName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual QString AbstractClient::serverName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the server address configured for the current connection. </p>
+<p>May be empty for clients that have no server counterpart (e.g. local test clients). </p>
+
+<p>Reimplemented in <a class="el" href="../../db/d53/classRemoteClient.html#afe198428c16410ff7e37126a15e87452">RemoteClient</a>.</p>
+
+</div>
+</div>
+<a id="adb8eac324659648f045d18dcdf54031c" name="adb8eac324659648f045d18dcdf54031c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb8eac324659648f045d18dcdf54031c">&#9670;&#160;</a></span>serverPort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual quint16 AbstractClient::serverPort </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../db/d53/classRemoteClient.html#ade47c174443aa55b8d740d876140912c">RemoteClient</a>.</p>
 
 </div>
 </div>

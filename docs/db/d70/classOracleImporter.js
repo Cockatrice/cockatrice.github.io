@@ -1,7 +1,7 @@
 var classOracleImporter =
 [
     [ "OracleImporter", "db/d70/classOracleImporter.html#a1f742d2efe0a636cb28b4cb1de5caa2d", null ],
-    [ "addCard", "db/d70/classOracleImporter.html#afa2915edded3791231a8599879263f8a", null ],
+    [ "addCard", "db/d70/classOracleImporter.html#a796a918ea604fdc96c44d76865e7d7f9", null ],
     [ "clear", "db/d70/classOracleImporter.html#aee18776bd3879a8b153a8a6290cd5666", null ],
     [ "createDefaultMagicFormats", "db/d70/classOracleImporter.html#ae6f5da062c4760a0e194e63b9018f880", null ],
     [ "dataReadProgress", "db/d70/classOracleImporter.html#acfddc9ce72411abd6cda8c6012538075", null ],

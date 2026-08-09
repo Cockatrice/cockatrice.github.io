@@ -9,7 +9,7 @@ var classAbstractGame =
     [ "getGameState", "d3/d44/classAbstractGame.html#a0d43480006c1087da655034a0382b0ba", null ],
     [ "getPlayerManager", "d3/d44/classAbstractGame.html#a30acfb1e00b1b9b1bd43356d857f5f96", null ],
     [ "isHost", "d3/d44/classAbstractGame.html#aeacfa87607a0e05889fce655a75abf33", null ],
-    [ "loadReplay", "d3/d44/classAbstractGame.html#a58b82de7a053879e5ba539fc0588817d", null ],
+    [ "loadReplay", "d3/d44/classAbstractGame.html#ad0ed3a7346662578764fea37f9d35084", null ],
     [ "setActiveCard", "d3/d44/classAbstractGame.html#af18d64442d84bfe69e907cabe713c3ff", null ],
     [ "activeCard", "d3/d44/classAbstractGame.html#a32c0fc4f09abcd718e0ed17a02046ba3", null ],
     [ "gameEventHandler", "d3/d44/classAbstractGame.html#a868daea793dafb724056c012f3c8c0a4", null ],

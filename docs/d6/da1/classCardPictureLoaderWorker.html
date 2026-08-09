@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -150,6 +150,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac1005009df1f4f92ffb8f5e4ddfacbca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enqueues an <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> for loading.  <br /></td></tr>
 <tr class="memitem:a4407caff689d63d893eab3f0cb4e2640" id="r_a4407caff689d63d893eab3f0cb4e2640"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4407caff689d63d893eab3f0cb4e2640">queueRequest</a> (const QUrl &amp;url, <a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html">CardPictureLoaderWorkerWork</a> *worker)</td></tr>
 <tr class="memdesc:a4407caff689d63d893eab3f0cb4e2640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queues a network request for a given URL and worker thread.  <br /></td></tr>
+<tr class="memitem:a455729fba3dd7cb891d9f54a43c6b13c" id="r_a455729fba3dd7cb891d9f54a43c6b13c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a455729fba3dd7cb891d9f54a43c6b13c">onHostRateLimited</a> (const QString &amp;host)</td></tr>
+<tr class="memdesc:a455729fba3dd7cb891d9f54a43c6b13c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles a server returning HTTP 429 by reducing that host's request quota.  <br /></td></tr>
 <tr class="memitem:a0955b3c5b94dec178c10fe85a96e598c" id="r_a0955b3c5b94dec178c10fe85a96e598c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0955b3c5b94dec178c10fe85a96e598c">clearNetworkCache</a> ()</td></tr>
 <tr class="memdesc:a0955b3c5b94dec178c10fe85a96e598c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the network cache and redirect cache.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -191,6 +193,12 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a196a1dcf47c67c79e58959c61266ec48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remaining requests allowed per second.  <br /></td></tr>
 <tr class="memitem:abff858491faddc82f72a3584bb81ae83" id="r_abff858491faddc82f72a3584bb81ae83"><td class="memItemLeft">QTimer&#160;</td><td class="memItemRight"><a class="el" href="#abff858491faddc82f72a3584bb81ae83">requestTimer</a></td></tr>
 <tr class="memdesc:abff858491faddc82f72a3584bb81ae83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer to reset the request quota.  <br /></td></tr>
+<tr class="memitem:a0c6c120bc823fe7fbeca721e4124836a" id="r_a0c6c120bc823fe7fbeca721e4124836a"><td class="memItemLeft">QHash&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a0c6c120bc823fe7fbeca721e4124836a">hostRequestQuota</a></td></tr>
+<tr class="memdesc:a0c6c120bc823fe7fbeca721e4124836a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sustained per-host request allowance.  <br /></td></tr>
+<tr class="memitem:a73d37871c046524b6760f5361b83d78d" id="r_a73d37871c046524b6760f5361b83d78d"><td class="memItemLeft">QHash&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a73d37871c046524b6760f5361b83d78d">hostQuotaRemaining</a></td></tr>
+<tr class="memdesc:a73d37871c046524b6760f5361b83d78d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per-host allowance left in the current second.  <br /></td></tr>
+<tr class="memitem:a792c6166bc626e007af9c74246e2297d" id="r_a792c6166bc626e007af9c74246e2297d"><td class="memItemLeft">QHash&lt; QString, QDateTime &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a792c6166bc626e007af9c74246e2297d">hostLast429</a></td></tr>
+<tr class="memdesc:a792c6166bc626e007af9c74246e2297d"><td class="mdescLeft">&#160;</td><td class="mdescRight">When each host was last rate limited.  <br /></td></tr>
 <tr class="memitem:a3d72609d0c251a0a3d0dd84784693409" id="r_a3d72609d0c251a0a3d0dd84784693409"><td class="memItemLeft"><a class="el" href="../../dd/d17/classCardPictureLoaderLocal.html">CardPictureLoaderLocal</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a3d72609d0c251a0a3d0dd84784693409">localLoader</a></td></tr>
 <tr class="memdesc:a3d72609d0c251a0a3d0dd84784693409"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loader for local images.  <br /></td></tr>
 <tr class="memitem:a358b46899b72a3c7b45ece3ca5848d9d" id="r_a358b46899b72a3c7b45ece3ca5848d9d"><td class="memItemLeft">QSet&lt; QString &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a358b46899b72a3c7b45ece3ca5848d9d">currentlyLoading</a></td></tr>
@@ -306,7 +314,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_aac33ec5f1fa6a9cb95a0c5536e4ffc72_icgraph.svg" width="100%" height="422"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_aac33ec5f1fa6a9cb95a0c5536e4ffc72_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -435,7 +443,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a3fe176133a9bfe277179521c63343d3a_icgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a3fe176133a9bfe277179521c63343d3a_icgraph.svg" width="100%" height="494"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -484,7 +492,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_af7163450d1f8ae11a1d1081f0d3406ec_icgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_af7163450d1f8ae11a1d1081f0d3406ec_icgraph.svg" width="100%" height="519"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -743,7 +751,37 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_aec8d3e81aa486e0071d2da2d970d62c8_icgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_aec8d3e81aa486e0071d2da2d970d62c8_icgraph.svg" width="100%" height="466"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a455729fba3dd7cb891d9f54a43c6b13c" name="a455729fba3dd7cb891d9f54a43c6b13c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455729fba3dd7cb891d9f54a43c6b13c">&#9670;&#160;</a></span>onHostRateLimited()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardPictureLoaderWorker::onHostRateLimited </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>host</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handles a server returning HTTP 429 by reducing that host's request quota. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">host</td><td>The host that returned 429 </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a455729fba3dd7cb891d9f54a43c6b13c_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -780,7 +818,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a3b6fcecbdbd98ece38d7cb1d5bb4a007_icgraph.svg" width="100%" height="528"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a3b6fcecbdbd98ece38d7cb1d5bb4a007_icgraph.svg" width="100%" height="576"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -818,7 +856,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a8b5de81b379963a017f2b62acafe7aaf_icgraph.svg" width="100%" height="461"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a8b5de81b379963a017f2b62acafe7aaf_icgraph.svg" width="100%" height="505"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -858,7 +896,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a4407caff689d63d893eab3f0cb4e2640_icgraph.svg" width="100%" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a4407caff689d63d893eab3f0cb4e2640_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -890,7 +928,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a836f750d7f5c9786d56a6e693e895564_icgraph.svg" width="100%" height="422"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a836f750d7f5c9786d56a6e693e895564_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1058,6 +1096,78 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Deduplication: contains pixmapCacheKey currently being loaded. </p>
+
+</div>
+</div>
+<a id="a792c6166bc626e007af9c74246e2297d" name="a792c6166bc626e007af9c74246e2297d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a792c6166bc626e007af9c74246e2297d">&#9670;&#160;</a></span>hostLast429</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, QDateTime&gt; CardPictureLoaderWorker::hostLast429</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>When each host was last rate limited. </p>
+
+</div>
+</div>
+<a id="a73d37871c046524b6760f5361b83d78d" name="a73d37871c046524b6760f5361b83d78d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73d37871c046524b6760f5361b83d78d">&#9670;&#160;</a></span>hostQuotaRemaining</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, int&gt; CardPictureLoaderWorker::hostQuotaRemaining</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Per-host allowance left in the current second. </p>
+
+</div>
+</div>
+<a id="a0c6c120bc823fe7fbeca721e4124836a" name="a0c6c120bc823fe7fbeca721e4124836a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c6c120bc823fe7fbeca721e4124836a">&#9670;&#160;</a></span>hostRequestQuota</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, int&gt; CardPictureLoaderWorker::hostRequestQuota</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sustained per-host request allowance. </p>
 
 </div>
 </div>

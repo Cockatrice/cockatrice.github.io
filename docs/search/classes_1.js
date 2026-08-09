@@ -11,5 +11,8 @@ var searchData=
   ['bardata_8',['BarData',['../dc/da2/structBarData.html',1,'']]],
   ['barsegment_9',['BarSegment',['../d9/d3d/structBarSegment.html',1,'']]],
   ['barwidget_10',['BarWidget',['../db/daa/classBarWidget.html',1,'']]],
-  ['betareleasechannel_11',['BetaReleaseChannel',['../d0/dc4/classBetaReleaseChannel.html',1,'']]]
+  ['betareleasechannel_11',['BetaReleaseChannel',['../d0/dc4/classBetaReleaseChannel.html',1,'']]],
+  ['bracketexplainer_12',['BracketExplainer',['../df/d33/classBracketExplainer.html',1,'']]],
+  ['bracketexplanation_13',['BracketExplanation',['../df/dfa/structBracketExplanation.html',1,'']]],
+  ['bracketexplanationsection_14',['BracketExplanationSection',['../d6/d74/structBracketExplanationSection.html',1,'']]]
 ];

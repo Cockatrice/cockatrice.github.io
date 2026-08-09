@@ -1,6 +1,7 @@
 var classSettingsButtonWidget =
 [
     [ "SettingsButtonWidget", "d2/dd6/classSettingsButtonWidget.html#af70253293d1aec40f9e6f7387d35a9ff", null ],
+    [ "~SettingsButtonWidget", "d2/dd6/classSettingsButtonWidget.html#a605e3f367a2185446a8ebf902c3ed441", null ],
     [ "addSettingsWidget", "d2/dd6/classSettingsButtonWidget.html#a3bd286a6fa8311c22cce733d5c4669cd", null ],
     [ "isCompact", "d2/dd6/classSettingsButtonWidget.html#a030c29a16e3c58e05e735e9269e6d56c", null ],
     [ "mousePressEvent", "d2/dd6/classSettingsButtonWidget.html#aac3d0a8d817b169a9326f1553a82675e", null ],

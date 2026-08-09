@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -112,15 +112,15 @@ Inheritance diagram for CardDatabaseLoader:</div>
 <div class="dynheader">
 Collaboration diagram for CardDatabaseLoader:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/deb/classCardDatabaseLoader__coll__graph.svg" width="100%" height="599"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/deb/classCardDatabaseLoader__coll__graph.svg" width="547" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:ac0cd4d50fa61eeebb743b527f7564fea" id="r_ac0cd4d50fa61eeebb743b527f7564fea"><td class="memItemLeft"><a class="el" href="../../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11c">LoadStatus</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac0cd4d50fa61eeebb743b527f7564fea">loadCardDatabases</a> ()</td></tr>
 <tr class="memdesc:ac0cd4d50fa61eeebb743b527f7564fea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all configured card databases.  <br /></td></tr>
-<tr class="memitem:a770f7109e9fd981cb238999206017d59" id="r_a770f7109e9fd981cb238999206017d59"><td class="memItemLeft"><a class="el" href="../../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11c">LoadStatus</a>&#160;</td><td class="memItemRight"><a class="el" href="#a770f7109e9fd981cb238999206017d59">loadCardDatabase</a> (const QString &amp;path)</td></tr>
-<tr class="memdesc:a770f7109e9fd981cb238999206017d59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a single card database file.  <br /></td></tr>
+<tr class="memitem:aa0d558aa4f4c2c8a5eb00bbbdc37b306" id="r_aa0d558aa4f4c2c8a5eb00bbbdc37b306"><td class="memItemLeft"><a class="el" href="../../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11c">LoadStatus</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa0d558aa4f4c2c8a5eb00bbbdc37b306">loadCardDatabase</a> (const QString &amp;path, <a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> &amp;data)</td></tr>
+<tr class="memdesc:aa0d558aa4f4c2c8a5eb00bbbdc37b306"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a single card database file into the given snapshot.  <br /></td></tr>
 <tr class="memitem:a239f40b243fbcddb09e735069c9ee6aa" id="r_a239f40b243fbcddb09e735069c9ee6aa"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a239f40b243fbcddb09e735069c9ee6aa">saveCustomTokensToFile</a> ()</td></tr>
 <tr class="memdesc:a239f40b243fbcddb09e735069c9ee6aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves custom tokens to the user-defined custom database path.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -132,6 +132,8 @@ Signals</h2></td></tr>
 <tr class="memdesc:a109926cdfec10dd979c64b7aa436bf27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when loading finishes successfully.  <br /></td></tr>
 <tr class="memitem:a0713a543ff21174c295adae0ce62afda" id="r_a0713a543ff21174c295adae0ce62afda"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0713a543ff21174c295adae0ce62afda">loadingFailed</a> ()</td></tr>
 <tr class="memdesc:a0713a543ff21174c295adae0ce62afda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when loading fails.  <br /></td></tr>
+<tr class="memitem:a3474006f1f6d3496d13365c8932c5127" id="r_a3474006f1f6d3496d13365c8932c5127"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3474006f1f6d3496d13365c8932c5127">databaseDataReady</a> (<a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> data)</td></tr>
+<tr class="memdesc:a3474006f1f6d3496d13365c8932c5127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted with the fully-built snapshot once background loading completes. The receiver swaps it into the live database.  <br /></td></tr>
 <tr class="memitem:a9e55305662b2cb071bef02c31e9bcc49" id="r_a9e55305662b2cb071bef02c31e9bcc49"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9e55305662b2cb071bef02c31e9bcc49">newSetsFound</a> (int numSets, const QStringList &amp;setNames)</td></tr>
 <tr class="memdesc:a9e55305662b2cb071bef02c31e9bcc49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when new sets are discovered during loading.  <br /></td></tr>
 <tr class="memitem:a7a026d93658e636004d918e78c5964c0" id="r_a7a026d93658e636004d918e78c5964c0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7a026d93658e636004d918e78c5964c0">allNewSetsEnabled</a> ()</td></tr>
@@ -146,18 +148,30 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:aa1b6ffc4fc12c80961f07474705fc188" id="r_aa1b6ffc4fc12c80961f07474705fc188"><td class="memItemLeft"><a class="el" href="../../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11c">LoadStatus</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa1b6ffc4fc12c80961f07474705fc188">loadFromFile</a> (const QString &amp;fileName)</td></tr>
-<tr class="memdesc:aa1b6ffc4fc12c80961f07474705fc188"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a database from a single file using the available parsers.  <br /></td></tr>
+<tr class="memitem:a90ddc90d8955d2e830746cda87a00da2" id="r_a90ddc90d8955d2e830746cda87a00da2"><td class="memItemLeft"><a class="el" href="../../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11c">LoadStatus</a>&#160;</td><td class="memItemRight"><a class="el" href="#a90ddc90d8955d2e830746cda87a00da2">loadFromFile</a> (const QString &amp;fileName, <a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> &amp;data)</td></tr>
+<tr class="memdesc:a90ddc90d8955d2e830746cda87a00da2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a single file into the given snapshot using the available parsers.  <br /></td></tr>
+<tr class="memitem:aeb3a5ca43a0e3f6be9a68cfc4b0c7b3f" id="r_aeb3a5ca43a0e3f6be9a68cfc4b0c7b3f"><td class="memItemLeft"><a class="el" href="../../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11c">LoadStatus</a>&#160;</td><td class="memItemRight"><a class="el" href="#aeb3a5ca43a0e3f6be9a68cfc4b0c7b3f">doLoadCardDatabases</a> ()</td></tr>
+<tr class="memdesc:aeb3a5ca43a0e3f6be9a68cfc4b0c7b3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the actual load work synchronously on the calling thread.  <br /></td></tr>
 <tr class="memitem:aa1b7a8668bc802a93f63b275305b2988" id="r_aa1b7a8668bc802a93f63b275305b2988"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#aa1b7a8668bc802a93f63b275305b2988">collectCustomDatabasePaths</a> () const</td></tr>
 <tr class="memdesc:aa1b7a8668bc802a93f63b275305b2988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects custom card database paths recursively.  <br /></td></tr>
+<tr class="memitem:a5fa4e747080c39c12bc759f158977726" id="r_a5fa4e747080c39c12bc759f158977726"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#a5fa4e747080c39c12bc759f158977726">computeSourceHash</a> (const QStringList &amp;customPaths) const</td></tr>
+<tr class="memdesc:a5fa4e747080c39c12bc759f158977726"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a hash identifying the current set of input database files.  <br /></td></tr>
+<tr class="memitem:ae2838de086bc82b3dfd1e4a468045085" id="r_ae2838de086bc82b3dfd1e4a468045085"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ae2838de086bc82b3dfd1e4a468045085">cachePath</a> () const</td></tr>
+<tr class="memdesc:ae2838de086bc82b3dfd1e4a468045085"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path of the binary cache file derived from the main card database path.  <br /></td></tr>
+<tr class="memitem:adea098255c5f4f9f9c8ade11ce96f566" id="r_adea098255c5f4f9f9c8ade11ce96f566"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#adea098255c5f4f9f9c8ade11ce96f566">loadFromCache</a> (<a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> &amp;data, const QByteArray &amp;sourceHash)</td></tr>
+<tr class="memdesc:adea098255c5f4f9f9c8ade11ce96f566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to populate the snapshot from the binary cache.  <br /></td></tr>
+<tr class="memitem:af0afcd4f1810f54b4ea655fd6ae8031d" id="r_af0afcd4f1810f54b4ea655fd6ae8031d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#af0afcd4f1810f54b4ea655fd6ae8031d">saveToCache</a> (const <a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> &amp;data, const QByteArray &amp;sourceHash)</td></tr>
+<tr class="memdesc:af0afcd4f1810f54b4ea655fd6ae8031d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the snapshot to the binary cache for the current inputs.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a304b598c14f088d959d398c7eab76c01" id="r_a304b598c14f088d959d398c7eab76c01"><td class="memItemLeft"><a class="el" href="../../d5/d45/classCardDatabase.html">CardDatabase</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a304b598c14f088d959d398c7eab76c01">database</a></td></tr>
 <tr class="memitem:a493cfdb98c1c78afb45b44325cae61c0" id="r_a493cfdb98c1c78afb45b44325cae61c0"><td class="memItemLeft"><a class="el" href="../../dd/d8e/classICardDatabasePathProvider.html">ICardDatabasePathProvider</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a493cfdb98c1c78afb45b44325cae61c0">pathProvider</a></td></tr>
+<tr class="memitem:a85deb13d01d31752fb527263ebbf1230" id="r_a85deb13d01d31752fb527263ebbf1230"><td class="memItemLeft"><a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a85deb13d01d31752fb527263ebbf1230">priorityController</a></td></tr>
 <tr class="memitem:a41c56af3a7d7dbe001da934245fe30cb" id="r_a41c56af3a7d7dbe001da934245fe30cb"><td class="memItemLeft">QList&lt; <a class="el" href="../../d4/dfe/classICardDatabaseParser.html">ICardDatabaseParser</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a41c56af3a7d7dbe001da934245fe30cb">availableParsers</a></td></tr>
 <tr class="memitem:ac541098b174808decac4158624ed6918" id="r_ac541098b174808decac4158624ed6918"><td class="memItemLeft">QBasicMutex *&#160;</td><td class="memItemRight"><a class="el" href="#ac541098b174808decac4158624ed6918">loadFromFileMutex</a> = new QBasicMutex()</td></tr>
 <tr class="memitem:aff574f6180bda5fb7cbd5458cfb2290e" id="r_aff574f6180bda5fb7cbd5458cfb2290e"><td class="memItemLeft">QBasicMutex *&#160;</td><td class="memItemRight"><a class="el" href="#aff574f6180bda5fb7cbd5458cfb2290e">reloadDatabaseMutex</a> = new QBasicMutex()</td></tr>
+<tr class="memitem:a5b973437b3ab1026b0e5344b98f3c12c" id="r_a5b973437b3ab1026b0e5344b98f3c12c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a5b973437b3ab1026b0e5344b98f3c12c">initialLoadComplete</a> = false</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Handles loading card databases from disk and saving custom tokens. </p>
@@ -288,6 +302,39 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ae2838de086bc82b3dfd1e4a468045085" name="ae2838de086bc82b3dfd1e4a468045085"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2838de086bc82b3dfd1e4a468045085">&#9670;&#160;</a></span>cachePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString CardDatabaseLoader::cachePath </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Path of the binary cache file derived from the main card database path. </p>
+<dl class="section return"><dt>Returns</dt><dd>Cache file path. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_ae2838de086bc82b3dfd1e4a468045085_icgraph.svg" width="100%" height="400"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="aa1b7a8668bc802a93f63b275305b2988" name="aa1b7a8668bc802a93f63b275305b2988"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa1b7a8668bc802a93f63b275305b2988">&#9670;&#160;</a></span>collectCustomDatabasePaths()</h2>
 
@@ -316,13 +363,116 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_aa1b7a8668bc802a93f63b275305b2988_icgraph.svg" width="652" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_aa1b7a8668bc802a93f63b275305b2988_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a770f7109e9fd981cb238999206017d59" name="a770f7109e9fd981cb238999206017d59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a770f7109e9fd981cb238999206017d59">&#9670;&#160;</a></span>loadCardDatabase</h2>
+<a id="a5fa4e747080c39c12bc759f158977726" name="a5fa4e747080c39c12bc759f158977726"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fa4e747080c39c12bc759f158977726">&#9670;&#160;</a></span>computeSourceHash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray CardDatabaseLoader::computeSourceHash </td>
+          <td>(</td>
+          <td class="paramtype">const QStringList &amp;</td>          <td class="paramname"><span class="paramname"><em>customPaths</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes a hash identifying the current set of input database files. </p>
+<dl class="section return"><dt>Returns</dt><dd>Hash over the paths, sizes and modification times of all inputs. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_a5fa4e747080c39c12bc759f158977726_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a3474006f1f6d3496d13365c8932c5127" name="a3474006f1f6d3496d13365c8932c5127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3474006f1f6d3496d13365c8932c5127">&#9670;&#160;</a></span>databaseDataReady</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardDatabaseLoader::databaseDataReady </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted with the fully-built snapshot once background loading completes. The receiver swaps it into the live database. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_a3474006f1f6d3496d13365c8932c5127_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aeb3a5ca43a0e3f6be9a68cfc4b0c7b3f" name="aeb3a5ca43a0e3f6be9a68cfc4b0c7b3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb3a5ca43a0e3f6be9a68cfc4b0c7b3f">&#9670;&#160;</a></span>doLoadCardDatabases()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11c">LoadStatus</a> CardDatabaseLoader::doLoadCardDatabases </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs the actual load work synchronously on the calling thread. </p>
+<dl class="section return"><dt>Returns</dt><dd>Status of the main database load. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_aeb3a5ca43a0e3f6be9a68cfc4b0c7b3f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_aeb3a5ca43a0e3f6be9a68cfc4b0c7b3f_icgraph.svg" width="608" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa0d558aa4f4c2c8a5eb00bbbdc37b306" name="aa0d558aa4f4c2c8a5eb00bbbdc37b306"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0d558aa4f4c2c8a5eb00bbbdc37b306">&#9670;&#160;</a></span>loadCardDatabase</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -333,8 +483,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="../../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11c">LoadStatus</a> CardDatabaseLoader::loadCardDatabase </td>
           <td>(</td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -344,10 +498,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Loads a single card database file. </p>
+<p>Loads a single card database file into the given snapshot. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>Path to the database file. </td></tr>
+    <tr><td class="paramname">data</td><td>Snapshot to populate. </td></tr>
   </table>
   </dd>
 </dl>
@@ -355,12 +510,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_a770f7109e9fd981cb238999206017d59_cgraph.svg" width="376" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_aa0d558aa4f4c2c8a5eb00bbbdc37b306_cgraph.svg" width="376" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_a770f7109e9fd981cb238999206017d59_icgraph.svg" width="591" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_aa0d558aa4f4c2c8a5eb00bbbdc37b306_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -389,11 +544,11 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Loads all configured card databases. </p>
-<dl class="section return"><dt>Returns</dt><dd>Status of the main database load. </dd></dl>
+<p>Runs synchronously on the calling thread. The caller should ensure that any signal receivers are already connected before invoking this. </p><dl class="section return"><dt>Returns</dt><dd>Status of the main database load. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_ac0cd4d50fa61eeebb743b527f7564fea_cgraph.svg" width="644" height="307"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_ac0cd4d50fa61eeebb743b527f7564fea_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -403,8 +558,57 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aa1b6ffc4fc12c80961f07474705fc188" name="aa1b6ffc4fc12c80961f07474705fc188"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1b6ffc4fc12c80961f07474705fc188">&#9670;&#160;</a></span>loadFromFile()</h2>
+<a id="adea098255c5f4f9f9c8ade11ce96f566" name="adea098255c5f4f9f9c8ade11ce96f566"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adea098255c5f4f9f9c8ade11ce96f566">&#9670;&#160;</a></span>loadFromCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CardDatabaseLoader::loadFromCache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QByteArray &amp;</td>          <td class="paramname"><span class="paramname"><em>sourceHash</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Attempts to populate the snapshot from the binary cache. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>Snapshot to populate. </td></tr>
+    <tr><td class="paramname">sourceHash</td><td>Pre-computed hash identifying the current input files. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if a valid, up-to-date cache was read. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_adea098255c5f4f9f9c8ade11ce96f566_cgraph.svg" width="408" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_adea098255c5f4f9f9c8ade11ce96f566_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a90ddc90d8955d2e830746cda87a00da2" name="a90ddc90d8955d2e830746cda87a00da2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90ddc90d8955d2e830746cda87a00da2">&#9670;&#160;</a></span>loadFromFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -415,8 +619,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="../../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11c">LoadStatus</a> CardDatabaseLoader::loadFromFile </td>
           <td>(</td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span></td><td>)</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -426,10 +634,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Loads a database from a single file using the available parsers. </p>
+<p>Parses a single file into the given snapshot using the available parsers. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fileName</td><td>Path to the database file. </td></tr>
+    <tr><td class="paramname">data</td><td>Snapshot to populate. </td></tr>
   </table>
   </dd>
 </dl>
@@ -437,7 +646,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_aa1b6ffc4fc12c80961f07474705fc188_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_a90ddc90d8955d2e830746cda87a00da2_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -469,7 +678,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_a0713a543ff21174c295adae0ce62afda_icgraph.svg" width="647" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_a0713a543ff21174c295adae0ce62afda_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -501,7 +710,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_a109926cdfec10dd979c64b7aa436bf27_icgraph.svg" width="647" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_a109926cdfec10dd979c64b7aa436bf27_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -533,7 +742,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_a202ed30a19622cd54e7e351473bfcc77_icgraph.svg" width="591" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_a202ed30a19622cd54e7e351473bfcc77_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -609,6 +818,55 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af0afcd4f1810f54b4ea655fd6ae8031d" name="af0afcd4f1810f54b4ea655fd6ae8031d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0afcd4f1810f54b4ea655fd6ae8031d">&#9670;&#160;</a></span>saveToCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CardDatabaseLoader::saveToCache </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QByteArray &amp;</td>          <td class="paramname"><span class="paramname"><em>sourceHash</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Writes the snapshot to the binary cache for the current inputs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>Snapshot to serialize. </td></tr>
+    <tr><td class="paramname">sourceHash</td><td>Pre-computed hash identifying the current input files. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the cache was written successfully. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_af0afcd4f1810f54b4ea655fd6ae8031d_cgraph.svg" width="380" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d1b/classCardDatabaseLoader_af0afcd4f1810f54b4ea655fd6ae8031d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a41c56af3a7d7dbe001da934245fe30cb" name="a41c56af3a7d7dbe001da934245fe30cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a41c56af3a7d7dbe001da934245fe30cb">&#9670;&#160;</a></span>availableParsers</h2>
@@ -656,6 +914,29 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a5b973437b3ab1026b0e5344b98f3c12c" name="a5b973437b3ab1026b0e5344b98f3c12c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b973437b3ab1026b0e5344b98f3c12c">&#9670;&#160;</a></span>initialLoadComplete</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CardDatabaseLoader::initialLoadComplete = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set after the first successful load. </p>
+
+</div>
+</div>
 <a id="ac541098b174808decac4158624ed6918" name="ac541098b174808decac4158624ed6918"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac541098b174808decac4158624ed6918">&#9670;&#160;</a></span>loadFromFileMutex</h2>
 
@@ -699,6 +980,29 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <p>Pointer to the path provider. </p>
+
+</div>
+</div>
+<a id="a85deb13d01d31752fb527263ebbf1230" name="a85deb13d01d31752fb527263ebbf1230"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85deb13d01d31752fb527263ebbf1230">&#9670;&#160;</a></span>priorityController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a>* CardDatabaseLoader::priorityController</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Controller for reconstructing set state. </p>
 
 </div>
 </div>

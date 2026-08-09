@@ -1,16 +1,9 @@
 var classIVisualDeckStorageSettingsProvider =
 [
     [ "~IVisualDeckStorageSettingsProvider", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#a1e778ccbd5b68a60fc1337d2e847ffec", null ],
-    [ "getArchidektPreviewSize", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#a141e675e7bc0dd50b59b1192557f79b8", null ],
-    [ "getDefaultDeckEditorType", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#acebbd2e591d76cbd47b65c1940bbf758", null ],
-    [ "getEDHRecCardSize", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#adfcaff0d4f074fa1c4dfb7b6d272ea19", null ],
-    [ "getVisualDatabaseDisplayCardSize", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#af08086673eb8e59794840690f1ab0529", null ],
     [ "getVisualDatabaseDisplayFilterToMostRecentSetsAmount", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#a3692bd0d8e4448e16379a772cff8537b", null ],
     [ "getVisualDatabaseDisplayFilterToMostRecentSetsEnabled", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#ade35db3a6b11c2a595c54162d957ad9e", null ],
-    [ "getVisualDeckEditorCardSize", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#acd9bd52e2693c40aff807ed61c361079", null ],
-    [ "getVisualDeckEditorSampleHandSize", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#a91cd24fad595d5293f5aacda00e3ed6e", null ],
     [ "getVisualDeckStorageAlwaysConvert", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#acecd1ab19add5eb5e5c7f820234ef395", null ],
-    [ "getVisualDeckStorageCardSize", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#a96aab3b1e8f3405bccf036a800d61678", null ],
     [ "getVisualDeckStorageDefaultTagsList", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#a042e0ffc00b6fd2ab5dd71e83d0461cf", null ],
     [ "getVisualDeckStorageDrawUnusedColorIdentities", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#aa4ac22eaba9b7b21b28d5af5c9205f35", null ],
     [ "getVisualDeckStorageInGame", "d8/dc3/classIVisualDeckStorageSettingsProvider.html#a92d80c1a5ec34686f991ee1de9d84d05", null ],

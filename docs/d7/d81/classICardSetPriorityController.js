@@ -1,7 +1,9 @@
 var classICardSetPriorityController =
 [
     [ "SetSaveData", "d0/db0/structICardSetPriorityController_1_1SetSaveData.html", "d0/db0/structICardSetPriorityController_1_1SetSaveData" ],
+    [ "SetOptions", "d7/d77/structICardSetPriorityController_1_1SetOptions.html", "d7/d77/structICardSetPriorityController_1_1SetOptions" ],
     [ "~ICardSetPriorityController", "d7/d81/classICardSetPriorityController.html#a87c55e7b18616199ea7b8372a04ad99f", null ],
+    [ "getSetOptions", "d7/d81/classICardSetPriorityController.html#acd5d0d0fb4c064eee77b5efdb8ada3bd", null ],
     [ "getSortKey", "d7/d81/classICardSetPriorityController.html#ab6579413cb6c2b5452f5c1c65e8c1ab9", null ],
     [ "isEnabled", "d7/d81/classICardSetPriorityController.html#ab1c7c415fd40f4884c60068166829f50", null ],
     [ "isKnown", "d7/d81/classICardSetPriorityController.html#a9449e5b720506ef5e20250761906743c", null ],

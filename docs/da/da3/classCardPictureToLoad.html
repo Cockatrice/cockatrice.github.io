@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -118,6 +118,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ee471434b4e877c7e3d3b90a65e077d" id="r_a4ee471434b4e877c7e3d3b90a65e077d"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a4ee471434b4e877c7e3d3b90a65e077d">getCurrentUrl</a> () const</td></tr>
 <tr class="memitem:a6b1ad2314cb06b680c4d278cd64ef256" id="r_a6b1ad2314cb06b680c4d278cd64ef256"><td class="memItemLeft"><a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6b1ad2314cb06b680c4d278cd64ef256">getCurrentSet</a> () const</td></tr>
 <tr class="memitem:ac89ab3bb71756517aef8ca1cbedca021" id="r_ac89ab3bb71756517aef8ca1cbedca021"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ac89ab3bb71756517aef8ca1cbedca021">getSetName</a> () const</td></tr>
+<tr class="memitem:aa9465dd39bdd63907a2743cde4f1cc9f" id="r_aa9465dd39bdd63907a2743cde4f1cc9f"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#aa9465dd39bdd63907a2743cde4f1cc9f">peekNextUrl</a> () const</td></tr>
 <tr class="memitem:a08ded2d3e1511a346a7d4d1828de611b" id="r_a08ded2d3e1511a346a7d4d1828de611b"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a08ded2d3e1511a346a7d4d1828de611b">transformUrl</a> (const QString &amp;urlTemplate) const</td></tr>
 <tr class="memdesc:a08ded2d3e1511a346a7d4d1828de611b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms a URL template into a concrete URL for this card/set.  <br /></td></tr>
 <tr class="memitem:a9a66e6cbc4dba7aeb488d2b25f5aedb8" id="r_a9a66e6cbc4dba7aeb488d2b25f5aedb8"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a9a66e6cbc4dba7aeb488d2b25f5aedb8">nextSet</a> ()</td></tr>
@@ -126,6 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a261da948cd652e2f5207640154c8718e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advance to the next URL in the current set's list.  <br /></td></tr>
 <tr class="memitem:a33a38486572b8ddf1856a85cf64466c1" id="r_a33a38486572b8ddf1856a85cf64466c1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a33a38486572b8ddf1856a85cf64466c1">populateSetUrls</a> ()</td></tr>
 <tr class="memdesc:a33a38486572b8ddf1856a85cf64466c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populates the currentSetUrls list with URLs for the current set.  <br /></td></tr>
+<tr class="memitem:ae0aae259733842afa731f415c4553413" id="r_ae0aae259733842afa731f415c4553413"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae0aae259733842afa731f415c4553413">resetIndices</a> ()</td></tr>
+<tr class="memdesc:ae0aae259733842afa731f415c4553413"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets iteration indices to the beginning.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -146,6 +149,10 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a5ebf7325de24c7e52820fbd006483e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently active URL to download.  <br /></td></tr>
 <tr class="memitem:af4a6033b478b9013dd2fa5a1362d2cd2" id="r_af4a6033b478b9013dd2fa5a1362d2cd2"><td class="memItemLeft"><a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a>&#160;</td><td class="memItemRight"><a class="el" href="#af4a6033b478b9013dd2fa5a1362d2cd2">currentSet</a></td></tr>
 <tr class="memdesc:af4a6033b478b9013dd2fa5a1362d2cd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently active set.  <br /></td></tr>
+<tr class="memitem:ac1bfc6c29744cb78cb46ee20f990d050" id="r_ac1bfc6c29744cb78cb46ee20f990d050"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ac1bfc6c29744cb78cb46ee20f990d050">currentSetIndex</a> = 0</td></tr>
+<tr class="memdesc:ac1bfc6c29744cb78cb46ee20f990d050"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current position in sortedSets.  <br /></td></tr>
+<tr class="memitem:ada34cd6219d7fd495daa53395f025286" id="r_ada34cd6219d7fd495daa53395f025286"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ada34cd6219d7fd495daa53395f025286">currentUrlIndex</a> = 0</td></tr>
+<tr class="memdesc:ada34cd6219d7fd495daa53395f025286"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current position in currentSetUrls.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages all URLs and sets for downloading a specific card image. </p>
@@ -267,7 +274,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a3235e9720b02a41a256580f2f6fb9552_icgraph.svg" width="100%" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a3235e9720b02a41a256580f2f6fb9552_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -298,7 +305,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a6b1ad2314cb06b680c4d278cd64ef256_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a6b1ad2314cb06b680c4d278cd64ef256_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -355,7 +362,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_ac89ab3bb71756517aef8ca1cbedca021_icgraph.svg" width="100%" height="528"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_ac89ab3bb71756517aef8ca1cbedca021_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -381,12 +388,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a9a66e6cbc4dba7aeb488d2b25f5aedb8_cgraph.svg" width="100%" height="572"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a9a66e6cbc4dba7aeb488d2b25f5aedb8_icgraph.svg" width="360" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a9a66e6cbc4dba7aeb488d2b25f5aedb8_cgraph.svg" width="100%" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -409,11 +411,32 @@ Here is the caller graph for this function:</div>
 <p>Advance to the next URL in the current set's list. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if a next URL exists, false if at the end.</dd></dl>
 <p>Updates currentUrl. If we are already at the end of the list, then currentUrl is set to empty. </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a261da948cd652e2f5207640154c8718e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+
 </div>
+</div>
+<a id="aa9465dd39bdd63907a2743cde4f1cc9f" name="aa9465dd39bdd63907a2743cde4f1cc9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9465dd39bdd63907a2743cde4f1cc9f">&#9670;&#160;</a></span>peekNextUrl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString CardPictureToLoad::peekNextUrl </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>The next URL in the current set's list without advancing, or empty if at end. </dd></dl>
 
 </div>
 </div>
@@ -437,12 +460,37 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a33a38486572b8ddf1856a85cf64466c1_cgraph.svg" width="100%" height="572"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a33a38486572b8ddf1856a85cf64466c1_cgraph.svg" width="100%" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a33a38486572b8ddf1856a85cf64466c1_icgraph.svg" width="559" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a33a38486572b8ddf1856a85cf64466c1_icgraph.svg" width="360" height="179"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae0aae259733842afa731f415c4553413" name="ae0aae259733842afa731f415c4553413"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0aae259733842afa731f415c4553413">&#9670;&#160;</a></span>resetIndices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardPictureToLoad::resetIndices </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resets iteration indices to the beginning. </p>
+<p>Restarts URL/set iteration from the first set and first URL. Used for deferred retry after server backoff expires. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_ae0aae259733842afa731f415c4553413_cgraph.svg" width="100%" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -473,12 +521,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a08ded2d3e1511a346a7d4d1828de611b_cgraph.svg" width="100%" height="572"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a08ded2d3e1511a346a7d4d1828de611b_cgraph.svg" width="100%" height="579"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a08ded2d3e1511a346a7d4d1828de611b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/da3/classCardPictureToLoad_a08ded2d3e1511a346a7d4d1828de611b_icgraph.svg" width="559" height="179"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -532,6 +580,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ac1bfc6c29744cb78cb46ee20f990d050" name="ac1bfc6c29744cb78cb46ee20f990d050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1bfc6c29744cb78cb46ee20f990d050">&#9670;&#160;</a></span>currentSetIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CardPictureToLoad::currentSetIndex = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current position in sortedSets. </p>
+
+</div>
+</div>
 <a id="a9b8c21f48830a6ce8459370e5ef2d025" name="a9b8c21f48830a6ce8459370e5ef2d025"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b8c21f48830a6ce8459370e5ef2d025">&#9670;&#160;</a></span>currentSetUrls</h2>
 
@@ -577,6 +649,30 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Currently active URL to download. </p>
+
+</div>
+</div>
+<a id="ada34cd6219d7fd495daa53395f025286" name="ada34cd6219d7fd495daa53395f025286"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada34cd6219d7fd495daa53395f025286">&#9670;&#160;</a></span>currentUrlIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CardPictureToLoad::currentUrlIndex = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Current position in currentSetUrls. </p>
 
 </div>
 </div>

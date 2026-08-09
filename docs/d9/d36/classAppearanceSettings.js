@@ -1,0 +1,23 @@
+var classAppearanceSettings =
+[
+    [ "AppearanceSettings", "d9/d36/classAppearanceSettings.html#a40d7670a4cb2ee243d32d3219fd7e5f8", null ],
+    [ "AppearanceSettings", "d9/d36/classAppearanceSettings.html#af7036581592c53dec534967a650f7180", null ],
+    [ "getHomeTabBackgroundShuffleFrequency", "d9/d36/classAppearanceSettings.html#ae3b3d82ee596b8baeac32caed7195a32", null ],
+    [ "getHomeTabBackgroundSource", "d9/d36/classAppearanceSettings.html#ac642688c209a479266c325a326227a98", null ],
+    [ "getHomeTabDisplayCardName", "d9/d36/classAppearanceSettings.html#a6d997e89b060eacfe042006f12a8eec0", null ],
+    [ "getMaxFontSize", "d9/d36/classAppearanceSettings.html#ab1f18dbc150245f9f82adbc363cb56c1", null ],
+    [ "getStyleUserList", "d9/d36/classAppearanceSettings.html#a92494e58c9a6a6deba9cf7d0980d153c", null ],
+    [ "getThemeName", "d9/d36/classAppearanceSettings.html#af5118d671476814f2661bf6dd190c1fb", null ],
+    [ "homeTabBackgroundShuffleFrequencyChanged", "d9/d36/classAppearanceSettings.html#a7358f36160efb0f39c174c316df180cf", null ],
+    [ "homeTabBackgroundSourceChanged", "d9/d36/classAppearanceSettings.html#a2a952aeb152254b8be582fda64574331", null ],
+    [ "homeTabDisplayCardNameChanged", "d9/d36/classAppearanceSettings.html#a50bdfe394636aee3895e5e89815801f5", null ],
+    [ "setHomeTabBackgroundShuffleFrequency", "d9/d36/classAppearanceSettings.html#ad89231886f3257cfb901fa0d8dd0541d", null ],
+    [ "setHomeTabBackgroundSource", "d9/d36/classAppearanceSettings.html#a3adf8887424672df857025963856b8fd", null ],
+    [ "setHomeTabDisplayCardName", "d9/d36/classAppearanceSettings.html#abeb513ecffc27e7991d0c08220520919", null ],
+    [ "setMaxFontSize", "d9/d36/classAppearanceSettings.html#a48844b64acfd77de5781d7f5e6cf162c", null ],
+    [ "setStyleUserList", "d9/d36/classAppearanceSettings.html#a5512b3e7f6d3e3223ddcd06c8e6f9573", null ],
+    [ "setThemeName", "d9/d36/classAppearanceSettings.html#ad8032caf553e109ca14b21c4061874c2", null ],
+    [ "styleUserListChanged", "d9/d36/classAppearanceSettings.html#ac3348a60259895fd5a18111871854ccf", null ],
+    [ "themeNameChanged", "d9/d36/classAppearanceSettings.html#a2139cc949bf84361fd1fb5e5e7c2a94b", null ],
+    [ "SettingsCache", "d9/d36/classAppearanceSettings.html#a859ba68015a001567c5ef72352e7b69b", null ]
+];

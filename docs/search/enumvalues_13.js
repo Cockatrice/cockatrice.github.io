@@ -15,10 +15,11 @@ var searchData=
   ['user_5fleft_12',['USER_LEFT',['../d9/d05/structEvent__Leave.html#a9df2c0d5e1297bc0863a4a5a859e3487ad497a1516b75c790cfb95c955361d04d',1,'Event_Leave::USER_LEFT'],['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624a50cf0bb42c22838b5a0c35602eb3f672',1,'SessionEvent::USER_LEFT']]],
   ['user_5flimit_5freached_13',['USER_LIMIT_REACHED',['../da/d30/structEvent__ConnectionClosed.html#a9f79dac37fda0c21614d4e24d30e04a0ac880b4fba58010925fdac296f764816b',1,'Event_ConnectionClosed']]],
   ['user_5fmessage_14',['USER_MESSAGE',['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624ab2ef23449caa398b80b6dc0c286a1a2d',1,'SessionEvent']]],
-  ['userisbanned_15',['UserIsBanned',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cda89cfca64c3689a06a9fa4940f7c4aee0',1,'server.h']]],
-  ['userisinactive_16',['UserIsInactive',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cda2a1102e19b39be6300cac8790b0abd40',1,'server.h']]],
-  ['usermessage_17',['UserMessage',['../d9/d02/structEvent__RoomSay.html#a699c54b7e58022d25d9905eb4f15ecb9ac3d5d43aa1b857ec56bc010e968102b7',1,'Event_RoomSay']]],
-  ['usernameinvalid_18',['USERNAMEINVALID',['../da/d30/structEvent__ConnectionClosed.html#a9f79dac37fda0c21614d4e24d30e04a0a84259ec304218a13a5c8b3b43111d5c2',1,'Event_ConnectionClosed']]],
-  ['usernameinvalid_19',['UsernameInvalid',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdaecbd40434d3b40e6fdb3bacb2e9343a2',1,'server.h']]],
-  ['usernotlocal_20',['UserNotLocal',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673a17de40f8b621b7b1ae22adbc540b7f9c',1,'QxtSmtp']]]
+  ['userinterfacepage_15',['UserInterfacePage',['../db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788aa84d559db812ab77b59ab7097f9ec283',1,'DlgSettings']]],
+  ['userisbanned_16',['UserIsBanned',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cda89cfca64c3689a06a9fa4940f7c4aee0',1,'server.h']]],
+  ['userisinactive_17',['UserIsInactive',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cda2a1102e19b39be6300cac8790b0abd40',1,'server.h']]],
+  ['usermessage_18',['UserMessage',['../d9/d02/structEvent__RoomSay.html#a699c54b7e58022d25d9905eb4f15ecb9ac3d5d43aa1b857ec56bc010e968102b7',1,'Event_RoomSay']]],
+  ['usernameinvalid_19',['USERNAMEINVALID',['../da/d30/structEvent__ConnectionClosed.html#a9f79dac37fda0c21614d4e24d30e04a0a84259ec304218a13a5c8b3b43111d5c2',1,'Event_ConnectionClosed']]],
+  ['usernameinvalid_20',['UsernameInvalid',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdaecbd40434d3b40e6fdb3bacb2e9343a2',1,'server.h']]],
+  ['usernotlocal_21',['UserNotLocal',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673a17de40f8b621b7b1ae22adbc540b7f9c',1,'QxtSmtp']]]
 ];

@@ -7,5 +7,7 @@ var dir_c9c7359a086d7bdecf4d0ab1ae660017 =
     [ "game_graphics", "dir_4db5280bbb861c4570d5072585939b1b.html", "dir_4db5280bbb861c4570d5072585939b1b" ],
     [ "interface", "dir_cd36a3f9f9d202308a2deae5eeddfa6f.html", "dir_cd36a3f9f9d202308a2deae5eeddfa6f" ],
     [ "main.cpp", "d8/da8/cockatrice_2src_2main_8cpp.html", "d8/da8/cockatrice_2src_2main_8cpp" ],
-    [ "main.h", "da/dd7/cockatrice_2src_2main_8h.html", "da/dd7/cockatrice_2src_2main_8h" ]
+    [ "main.h", "da/dd7/cockatrice_2src_2main_8h.html", "da/dd7/cockatrice_2src_2main_8h" ],
+    [ "single_instance_manager.cpp", "d8/d8a/single__instance__manager_8cpp.html", null ],
+    [ "single_instance_manager.h", "d6/d56/single__instance__manager_8h.html", "d6/d56/single__instance__manager_8h" ]
 ];

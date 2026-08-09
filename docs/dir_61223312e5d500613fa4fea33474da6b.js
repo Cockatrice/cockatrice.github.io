@@ -1,5 +1,6 @@
 var dir_61223312e5d500613fa4fea33474da6b =
 [
+    [ "abstract_settings_page.cpp", "d3/d80/abstract__settings__page_8cpp.html", "d3/d80/abstract__settings__page_8cpp" ],
     [ "abstract_settings_page.h", "d5/d31/abstract__settings__page_8h.html", "d5/d31/abstract__settings__page_8h" ],
     [ "appearance_settings_page.cpp", "d7/d6f/appearance__settings__page_8cpp.html", null ],
     [ "appearance_settings_page.h", "da/d5a/appearance__settings__page_8h.html", "da/d5a/appearance__settings__page_8h" ],
@@ -9,6 +10,10 @@ var dir_61223312e5d500613fa4fea33474da6b =
     [ "general_settings_page.h", "d3/d5e/general__settings__page_8h.html", "d3/d5e/general__settings__page_8h" ],
     [ "messages_settings_page.cpp", "d8/dfe/messages__settings__page_8cpp.html", null ],
     [ "messages_settings_page.h", "d1/d60/messages__settings__page_8h.html", "d1/d60/messages__settings__page_8h" ],
+    [ "settings_search_delegate.cpp", "d6/d8c/settings__search__delegate_8cpp.html", null ],
+    [ "settings_search_delegate.h", "da/db8/settings__search__delegate_8h.html", "da/db8/settings__search__delegate_8h" ],
+    [ "settings_search_model.cpp", "d8/dd6/settings__search__model_8cpp.html", "d8/dd6/settings__search__model_8cpp" ],
+    [ "settings_search_model.h", "da/d1d/settings__search__model_8h.html", "da/d1d/settings__search__model_8h" ],
     [ "shortcut_settings_page.cpp", "db/d46/shortcut__settings__page_8cpp.html", null ],
     [ "shortcut_settings_page.h", "d7/d1b/shortcut__settings__page_8h.html", "d7/d1b/shortcut__settings__page_8h" ],
     [ "sound_settings_page.cpp", "d5/dc6/sound__settings__page_8cpp.html", null ],

@@ -16,7 +16,7 @@ var searchData=
   ['noopenarchive_13',['NoOpenArchive',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412ae10add6b4bce36588d25c2a62445d2aa',1,'UnZip::NoOpenArchive'],['../d8/df5/classZip.html#aa445490ca64ce3051470bed52ee9198ca567830bb63c285cff6c4efdee4d765b9',1,'Zip::NoOpenArchive']]],
   ['nooptions_14',['NoOptions',['../df/d48/structEvent__ServerIdentification.html#a42dc11e928736dbfb7e240906767586ea95f51292ae6e6a28b204e633bcae9e39',1,'Event_ServerIdentification']]],
   ['norecipients_15',['NoRecipients',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673a128008e25ab3079dbc766721c9945391',1,'QxtSmtp']]],
-  ['normal_5fplayback_16',['NORMAL_PLAYBACK',['../d5/d07/classReplayTimelineWidget.html#a1ae1c702ba60c6f885313c1dea1b0bd3a5ea0fb792e41ae724b80ddc825771a2c',1,'ReplayTimelineWidget']]],
+  ['normal_5fplayback_16',['NORMAL_PLAYBACK',['../da/de9/classReplayManager.html#a13328112f7a27b265513526c15002286a75a2a45f5cd819b640d95c14ed4e84c5',1,'ReplayManager']]],
   ['nosilentdirectorycreation_17',['NoSilentDirectoryCreation',['../de/d4e/classUnZip.html#ae76e35ba02ddc4793ddaca60a06e5968a03c135b4f525d6ef11d0229a5a2833dd',1,'UnZip']]],
   ['nosort_18',['NoSort',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714faca41862bd3df624bf8b0e7b8b5481482',1,'CardList']]],
   ['notcontains_19',['NotContains',['../de/d2f/format__legality__rules_8h.html#a3166c752edac185a97b2d3dd54081f72a75daf57db1d55d476f96772ecca737c7',1,'format_legality_rules.h']]],
@@ -24,5 +24,6 @@ var searchData=
   ['notify_5fuser_21',['NOTIFY_USER',['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624a392eabb23ae730f03e3d8b5758e80538',1,'SessionEvent']]],
   ['notloaded_22',['NotLoaded',['../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11ca2b964c155c8b577ebe1a26ebabd27439',1,'card_database_loader.h']]],
   ['notloggedin_23',['NotLoggedIn',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdaf08382239c29cb2673fa99d0898e1249',1,'server.h']]],
-  ['notselected_24',['NotSelected',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea7dc39dc840c9dbdefd059f8d96226d11',1,'deck_preview_tag_display_widget.h']]]
+  ['notselected_24',['NotSelected',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea7dc39dc840c9dbdefd059f8d96226d11',1,'deck_preview_tag_display_widget.h']]],
+  ['numpages_25',['NumPages',['../db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788a200e2477e7618da50aa4a123247a9841',1,'DlgSettings']]]
 ];

@@ -32,6 +32,8 @@ var classAbstractClient =
     [ "sendCommandContainer", "dc/d86/classAbstractClient.html#ad95b3e02e0e99ac840cb3e623b5b5134", null ],
     [ "serverIdentificationEventReceived", "dc/d86/classAbstractClient.html#a84820548976ae0564b60e8713ea904c2", null ],
     [ "serverMessageEventReceived", "dc/d86/classAbstractClient.html#a2db267d7bd68f1ec92cdf9e4d81ab98f", null ],
+    [ "serverName", "dc/d86/classAbstractClient.html#a8394ac82d32f0bbb835c9c816e0abd9c", null ],
+    [ "serverPort", "dc/d86/classAbstractClient.html#adb8eac324659648f045d18dcdf54031c", null ],
     [ "serverShutdownEventReceived", "dc/d86/classAbstractClient.html#ae11abf0a339b6b6915f27b909409bfb7", null ],
     [ "setStatus", "dc/d86/classAbstractClient.html#aaf039f2109abe9e5f98e18bfc1125017", null ],
     [ "sigQueuePendingCommand", "dc/d86/classAbstractClient.html#ab3f74829f38993cc38279c584827446b", null ],

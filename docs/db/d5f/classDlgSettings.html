@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -100,6 +100,9 @@ $(function(){initNavTree('db/d5f/classDlgSettings.html','../../','d3/de0/classDl
 </div><!--header-->
 <div class="contents">
 
+<p>Main application settings dialog with tabbed navigation and search.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d2/d12/dlg__settings_8h_source.html">dlg_settings.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for DlgSettings:</div>
@@ -109,9 +112,27 @@ Inheritance diagram for DlgSettings:</div>
 <div class="dynheader">
 Collaboration diagram for DlgSettings:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d5d/classDlgSettings__coll__graph.svg" width="108" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d5d/classDlgSettings__coll__graph.svg" width="472" height="207"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a96d1c89fa58edb2b06245af49f111788" id="r_a96d1c89fa58edb2b06245af49f111788"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a96d1c89fa58edb2b06245af49f111788">SettingsPage</a> { <br />
+&#160;&#160;<a class="el" href="#a96d1c89fa58edb2b06245af49f111788adcb3d0057089e32bad803c96e42186b0">GeneralPage</a> = 0
+, <a class="el" href="#a96d1c89fa58edb2b06245af49f111788af9ad1374d171abe3061c0a3196cd8c7a">AppearancePage</a>
+, <a class="el" href="#a96d1c89fa58edb2b06245af49f111788aa84d559db812ab77b59ab7097f9ec283">UserInterfacePage</a>
+, <a class="el" href="#a96d1c89fa58edb2b06245af49f111788a222ca7ccf512fc9966106e031c944f12">DeckEditorPage</a>
+, <br />
+&#160;&#160;<a class="el" href="#a96d1c89fa58edb2b06245af49f111788aaa6f778ee3a2b971dad3237fbc899ec8">StoragePage</a>
+, <a class="el" href="#a96d1c89fa58edb2b06245af49f111788a110d7c20e2efe9eac05be3d3d05e9295">MessagesPage</a>
+, <a class="el" href="#a96d1c89fa58edb2b06245af49f111788a2f8114b093872ca0255743e196661ffd">SoundPage</a>
+, <a class="el" href="#a96d1c89fa58edb2b06245af49f111788a904d1ced3b97961d5103f41e63b4445f">ShortcutsPage</a>
+, <br />
+&#160;&#160;<a class="el" href="#a96d1c89fa58edb2b06245af49f111788a200e2477e7618da50aa4a123247a9841">NumPages</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a96d1c89fa58edb2b06245af49f111788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Page order in the tab bar, matching the order pages are added in <a class="el" href="#acec9c8219c34f164b6e9eca321a9a301">setupUi()</a>.  <a href="#a96d1c89fa58edb2b06245af49f111788">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6c30238e6bf1381900ef16b33ba9788b" id="r_a6c30238e6bf1381900ef16b33ba9788b"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a6c30238e6bf1381900ef16b33ba9788b">DlgSettings</a> (QWidget *parent=nullptr)</td></tr>
@@ -120,30 +141,91 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a4b161845121ee115a230bfe8629c8d7d" id="r_a4b161845121ee115a230bfe8629c8d7d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4b161845121ee115a230bfe8629c8d7d">closeEvent</a> (QCloseEvent *event) override</td></tr>
+<tr class="memitem:a0059b679895c6bf05f2813aaff64e713" id="r_a0059b679895c6bf05f2813aaff64e713"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0059b679895c6bf05f2813aaff64e713">eventFilter</a> (QObject *watched, QEvent *event) override</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
-<tr class="memitem:af989010fc5b5d4a44c20630c963afa6f" id="r_af989010fc5b5d4a44c20630c963afa6f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af989010fc5b5d4a44c20630c963afa6f">changePage</a> (QListWidgetItem *current, QListWidgetItem *previous)</td></tr>
+<tr class="memitem:ae9298353b30cea64c4867dc57d742254" id="r_ae9298353b30cea64c4867dc57d742254"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae9298353b30cea64c4867dc57d742254">onTabClicked</a> (int index)</td></tr>
+<tr class="memitem:aac3c683ba3f9bcbd2960706ae7fd1b9e" id="r_aac3c683ba3f9bcbd2960706ae7fd1b9e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aac3c683ba3f9bcbd2960706ae7fd1b9e">onSearchTextChanged</a> (const QString &amp;text)</td></tr>
+<tr class="memitem:acb56bbabad819ceda5eea30b32a0912e" id="r_acb56bbabad819ceda5eea30b32a0912e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acb56bbabad819ceda5eea30b32a0912e">onSearchResultClicked</a> (const QModelIndex &amp;index)</td></tr>
 <tr class="memitem:a3f97ddc8ad013f643ed6b03e6be34895" id="r_a3f97ddc8ad013f643ed6b03e6be34895"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3f97ddc8ad013f643ed6b03e6be34895">updateLanguage</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a172bd6d966342cdcb881505fd1e121a6" id="r_a172bd6d966342cdcb881505fd1e121a6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a172bd6d966342cdcb881505fd1e121a6">createIcons</a> ()</td></tr>
+<tr class="memitem:acec9c8219c34f164b6e9eca321a9a301" id="r_acec9c8219c34f164b6e9eca321a9a301"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acec9c8219c34f164b6e9eca321a9a301">setupUi</a> ()</td></tr>
+<tr class="memitem:af7380e9671dd430bc66814750f284c76" id="r_af7380e9671dd430bc66814750f284c76"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af7380e9671dd430bc66814750f284c76">setupTabBar</a> ()</td></tr>
+<tr class="memitem:a580b34faf8deff750d9e0cbd130c2165" id="r_a580b34faf8deff750d9e0cbd130c2165"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a580b34faf8deff750d9e0cbd130c2165">buildSearchIndex</a> ()</td></tr>
+<tr class="memitem:a4f4a75200d97eeaead53b3d5d4799e35" id="r_a4f4a75200d97eeaead53b3d5d4799e35"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4f4a75200d97eeaead53b3d5d4799e35">switchToTabMode</a> ()</td></tr>
+<tr class="memitem:ae1d1c65cfc1efe97debb2bf64065eb28" id="r_ae1d1c65cfc1efe97debb2bf64065eb28"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae1d1c65cfc1efe97debb2bf64065eb28">switchToSearchMode</a> ()</td></tr>
+<tr class="memitem:a4619c58ba13178cc26bc79dfb30e02d9" id="r_a4619c58ba13178cc26bc79dfb30e02d9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4619c58ba13178cc26bc79dfb30e02d9">navigateToSearchResult</a> (const QModelIndex &amp;index)</td></tr>
+<tr class="memitem:a120414ed56baca189fefa529711ec827" id="r_a120414ed56baca189fefa529711ec827"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a120414ed56baca189fefa529711ec827">setActiveTab</a> (int index)</td></tr>
 <tr class="memitem:af2c22344e56042fc1f03807a956f954d" id="r_af2c22344e56042fc1f03807a956f954d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af2c22344e56042fc1f03807a956f954d">retranslateUi</a> ()</td></tr>
+<tr class="memitem:ad32a236ec1cf0909b2ff140fc2526c5f" id="r_ad32a236ec1cf0909b2ff140fc2526c5f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad32a236ec1cf0909b2ff140fc2526c5f">retranslateTabNames</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:ae7198de2a2b1390da5063c5e1c2c7457" id="r_ae7198de2a2b1390da5063c5e1c2c7457"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ae7198de2a2b1390da5063c5e1c2c7457">flashWidget</a> (QWidget *widget)</td></tr>
+<tr class="memitem:a73e029a14180633f727a8b9251d5de5a" id="r_a73e029a14180633f727a8b9251d5de5a"><td class="memItemLeft">static QStringList&#160;</td><td class="memItemRight"><a class="el" href="#a73e029a14180633f727a8b9251d5de5a">translatedPageNames</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a7f2084aeafce5040645e4a13f4452f0a" id="r_a7f2084aeafce5040645e4a13f4452f0a"><td class="memItemLeft">QListWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a7f2084aeafce5040645e4a13f4452f0a">contentsWidget</a></td></tr>
+<tr class="memitem:abecd2eeb7e525813f35437503d2c7273" id="r_abecd2eeb7e525813f35437503d2c7273"><td class="memItemLeft">QLineEdit *&#160;</td><td class="memItemRight"><a class="el" href="#abecd2eeb7e525813f35437503d2c7273">searchEdit</a></td></tr>
+<tr class="memdesc:abecd2eeb7e525813f35437503d2c7273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search bar for filtering settings.  <br /></td></tr>
+<tr class="memitem:a8b7acbc3fed0bfdb1e5d59d17fedd62a" id="r_a8b7acbc3fed0bfdb1e5d59d17fedd62a"><td class="memItemLeft">QWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a8b7acbc3fed0bfdb1e5d59d17fedd62a">tabBarWidget</a></td></tr>
+<tr class="memdesc:a8b7acbc3fed0bfdb1e5d59d17fedd62a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container widget for the tab buttons.  <br /></td></tr>
+<tr class="memitem:a40dfc12d4f0490cca726fa29757b90d3" id="r_a40dfc12d4f0490cca726fa29757b90d3"><td class="memItemLeft">QList&lt; QToolButton * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a40dfc12d4f0490cca726fa29757b90d3">tabButtons</a></td></tr>
+<tr class="memdesc:a40dfc12d4f0490cca726fa29757b90d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Navigation tab buttons.  <br /></td></tr>
 <tr class="memitem:af49047295cbff2e8e2a1448dfcce2aa3" id="r_af49047295cbff2e8e2a1448dfcce2aa3"><td class="memItemLeft">QStackedWidget *&#160;</td><td class="memItemRight"><a class="el" href="#af49047295cbff2e8e2a1448dfcce2aa3">pagesWidget</a></td></tr>
-<tr class="memitem:a2458fbae2a8787127c850e6c1a205905" id="r_a2458fbae2a8787127c850e6c1a205905"><td class="memItemLeft">QListWidgetItem *&#160;</td><td class="memItemRight"><a class="el" href="#a2458fbae2a8787127c850e6c1a205905">generalButton</a></td></tr>
-<tr class="memitem:a61d7a0784c9c621d862271ad53b5b88c" id="r_a61d7a0784c9c621d862271ad53b5b88c"><td class="memItemLeft">QListWidgetItem *&#160;</td><td class="memItemRight"><a class="el" href="#a61d7a0784c9c621d862271ad53b5b88c">appearanceButton</a></td></tr>
-<tr class="memitem:afb284a59a086e745c63c94557c0b8211" id="r_afb284a59a086e745c63c94557c0b8211"><td class="memItemLeft">QListWidgetItem *&#160;</td><td class="memItemRight"><a class="el" href="#afb284a59a086e745c63c94557c0b8211">userInterfaceButton</a></td></tr>
-<tr class="memitem:ad01a4da6fda6269de0316e7dbae6fbc3" id="r_ad01a4da6fda6269de0316e7dbae6fbc3"><td class="memItemLeft">QListWidgetItem *&#160;</td><td class="memItemRight"><a class="el" href="#ad01a4da6fda6269de0316e7dbae6fbc3">deckEditorButton</a></td></tr>
-<tr class="memitem:a4e387e38e8e50c10cb0d241d0efe1f9f" id="r_a4e387e38e8e50c10cb0d241d0efe1f9f"><td class="memItemLeft">QListWidgetItem *&#160;</td><td class="memItemRight"><a class="el" href="#a4e387e38e8e50c10cb0d241d0efe1f9f">storageButton</a></td></tr>
-<tr class="memitem:ab5229c7fc8baece995dec8c04f7215ba" id="r_ab5229c7fc8baece995dec8c04f7215ba"><td class="memItemLeft">QListWidgetItem *&#160;</td><td class="memItemRight"><a class="el" href="#ab5229c7fc8baece995dec8c04f7215ba">messagesButton</a></td></tr>
-<tr class="memitem:a5feb032fde64c07231590ddbb902e40d" id="r_a5feb032fde64c07231590ddbb902e40d"><td class="memItemLeft">QListWidgetItem *&#160;</td><td class="memItemRight"><a class="el" href="#a5feb032fde64c07231590ddbb902e40d">soundButton</a></td></tr>
-<tr class="memitem:a06ef3156e87f3f1e0b1ad411254a69a0" id="r_a06ef3156e87f3f1e0b1ad411254a69a0"><td class="memItemLeft">QListWidgetItem *&#160;</td><td class="memItemRight"><a class="el" href="#a06ef3156e87f3f1e0b1ad411254a69a0">shortcutsButton</a></td></tr>
+<tr class="memdesc:af49047295cbff2e8e2a1448dfcce2aa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stacked widget containing settings pages.  <br /></td></tr>
+<tr class="memitem:a396ac3ffa68d1069813a6f70630e5793" id="r_a396ac3ffa68d1069813a6f70630e5793"><td class="memItemLeft">QListView *&#160;</td><td class="memItemRight"><a class="el" href="#a396ac3ffa68d1069813a6f70630e5793">searchResultsView</a></td></tr>
+<tr class="memdesc:a396ac3ffa68d1069813a6f70630e5793"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search results list view.  <br /></td></tr>
+<tr class="memitem:a4114f24cb6b21288181c09372cb47984" id="r_a4114f24cb6b21288181c09372cb47984"><td class="memItemLeft">QWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a4114f24cb6b21288181c09372cb47984">pagesContainer</a></td></tr>
+<tr class="memdesc:a4114f24cb6b21288181c09372cb47984"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container stacking pages and search results.  <br /></td></tr>
+<tr class="memitem:af8e0bcf9718983ffb1ee921f6f62e0ea" id="r_af8e0bcf9718983ffb1ee921f6f62e0ea"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#af8e0bcf9718983ffb1ee921f6f62e0ea">okButton</a></td></tr>
+<tr class="memdesc:af8e0bcf9718983ffb1ee921f6f62e0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button to close the dialog.  <br /></td></tr>
+<tr class="memitem:ad27c9a9e4ade4129bcdd1f6107bd499d" id="r_ad27c9a9e4ade4129bcdd1f6107bd499d"><td class="memItemLeft">QList&lt; <a class="el" href="../../d0/d4c/classAbstractSettingsPage.html">AbstractSettingsPage</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ad27c9a9e4ade4129bcdd1f6107bd499d">pages</a></td></tr>
+<tr class="memdesc:ad27c9a9e4ade4129bcdd1f6107bd499d"><td class="mdescLeft">&#160;</td><td class="mdescRight">All settings page instances.  <br /></td></tr>
+<tr class="memitem:a2e91e6638e507fd310638534ce5b6790" id="r_a2e91e6638e507fd310638534ce5b6790"><td class="memItemLeft"><a class="el" href="../../df/d23/classSettingsSearchModel.html">SettingsSearchModel</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a2e91e6638e507fd310638534ce5b6790">searchModel</a></td></tr>
+<tr class="memdesc:a2e91e6638e507fd310638534ce5b6790"><td class="mdescLeft">&#160;</td><td class="mdescRight">Model for search results.  <br /></td></tr>
+<tr class="memitem:a63e1197e4310b61ee905570f77d38c86" id="r_a63e1197e4310b61ee905570f77d38c86"><td class="memItemLeft"><a class="el" href="../../d9/df9/classSettingsSearchDelegate.html">SettingsSearchDelegate</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a63e1197e4310b61ee905570f77d38c86">searchDelegate</a></td></tr>
+<tr class="memdesc:a63e1197e4310b61ee905570f77d38c86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate for search result rendering.  <br /></td></tr>
+<tr class="memitem:a5438de7c2eca7cb8bc124535f36b9ad6" id="r_a5438de7c2eca7cb8bc124535f36b9ad6"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a5438de7c2eca7cb8bc124535f36b9ad6">currentTabIndex</a></td></tr>
+<tr class="memdesc:a5438de7c2eca7cb8bc124535f36b9ad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently active tab index.  <br /></td></tr>
+<tr class="memitem:ab2b59e3880730030b580a932b71b6612" id="r_ab2b59e3880730030b580a932b71b6612"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ab2b59e3880730030b580a932b71b6612">searchActive</a></td></tr>
+<tr class="memdesc:ab2b59e3880730030b580a932b71b6612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether search mode is active.  <br /></td></tr>
 </table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Main application settings dialog with tabbed navigation and search. </p>
+<p>Provides a modern settings interface organized into tabbed pages. Users can either navigate by clicking tabs or search for specific settings using the built-in search bar. Search results are filtered and ranked by relevance. </p>
+</div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
+<a id="a96d1c89fa58edb2b06245af49f111788" name="a96d1c89fa58edb2b06245af49f111788"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96d1c89fa58edb2b06245af49f111788">&#9670;&#160;</a></span>SettingsPage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a96d1c89fa58edb2b06245af49f111788">DlgSettings::SettingsPage</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Page order in the tab bar, matching the order pages are added in <a class="el" href="#acec9c8219c34f164b6e9eca321a9a301">setupUi()</a>. </p>
+<p>Use these values instead of raw indices so reordering pages never silently breaks external callers like <a class="el" href="../../d6/d0d/tab__room_8cpp.html">tab_room.cpp</a>. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a96d1c89fa58edb2b06245af49f111788adcb3d0057089e32bad803c96e42186b0" name="a96d1c89fa58edb2b06245af49f111788adcb3d0057089e32bad803c96e42186b0"></a>GeneralPage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a96d1c89fa58edb2b06245af49f111788af9ad1374d171abe3061c0a3196cd8c7a" name="a96d1c89fa58edb2b06245af49f111788af9ad1374d171abe3061c0a3196cd8c7a"></a>AppearancePage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a96d1c89fa58edb2b06245af49f111788aa84d559db812ab77b59ab7097f9ec283" name="a96d1c89fa58edb2b06245af49f111788aa84d559db812ab77b59ab7097f9ec283"></a>UserInterfacePage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a96d1c89fa58edb2b06245af49f111788a222ca7ccf512fc9966106e031c944f12" name="a96d1c89fa58edb2b06245af49f111788a222ca7ccf512fc9966106e031c944f12"></a>DeckEditorPage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a96d1c89fa58edb2b06245af49f111788aaa6f778ee3a2b971dad3237fbc899ec8" name="a96d1c89fa58edb2b06245af49f111788aaa6f778ee3a2b971dad3237fbc899ec8"></a>StoragePage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a96d1c89fa58edb2b06245af49f111788a110d7c20e2efe9eac05be3d3d05e9295" name="a96d1c89fa58edb2b06245af49f111788a110d7c20e2efe9eac05be3d3d05e9295"></a>MessagesPage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a96d1c89fa58edb2b06245af49f111788a2f8114b093872ca0255743e196661ffd" name="a96d1c89fa58edb2b06245af49f111788a2f8114b093872ca0255743e196661ffd"></a>SoundPage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a96d1c89fa58edb2b06245af49f111788a904d1ced3b97961d5103f41e63b4445f" name="a96d1c89fa58edb2b06245af49f111788a904d1ced3b97961d5103f41e63b4445f"></a>ShortcutsPage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a96d1c89fa58edb2b06245af49f111788a200e2477e7618da50aa4a123247a9841" name="a96d1c89fa58edb2b06245af49f111788a200e2477e7618da50aa4a123247a9841"></a>NumPages&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6c30238e6bf1381900ef16b33ba9788b" name="a6c30238e6bf1381900ef16b33ba9788b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6c30238e6bf1381900ef16b33ba9788b">&#9670;&#160;</a></span>DlgSettings()</h2>
@@ -176,8 +258,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="af989010fc5b5d4a44c20630c963afa6f" name="af989010fc5b5d4a44c20630c963afa6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af989010fc5b5d4a44c20630c963afa6f">&#9670;&#160;</a></span>changePage</h2>
+<a id="a580b34faf8deff750d9e0cbd130c2165" name="a580b34faf8deff750d9e0cbd130c2165"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a580b34faf8deff750d9e0cbd130c2165">&#9670;&#160;</a></span>buildSearchIndex()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,26 +268,27 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DlgSettings::changePage </td>
+          <td class="memname">void DlgSettings::buildSearchIndex </td>
           <td>(</td>
-          <td class="paramtype">QListWidgetItem *</td>          <td class="paramname"><span class="paramname"><em>current</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">QListWidgetItem *</td>          <td class="paramname"><span class="paramname"><em>previous</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a580b34faf8deff750d9e0cbd130c2165_cgraph.svg" width="443" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_af989010fc5b5d4a44c20630c963afa6f_icgraph.svg" width="100%" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a580b34faf8deff750d9e0cbd130c2165_icgraph.svg" width="659" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -232,8 +315,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000136">Todo</a></b></dt><dd>Prompt to create the deck directory. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000137">Todo</a></b></dt><dd>Prompt to create the pictures directory. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -242,8 +323,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a172bd6d966342cdcb881505fd1e121a6" name="a172bd6d966342cdcb881505fd1e121a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a172bd6d966342cdcb881505fd1e121a6">&#9670;&#160;</a></span>createIcons()</h2>
+<a id="a0059b679895c6bf05f2813aaff64e713" name="a0059b679895c6bf05f2813aaff64e713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0059b679895c6bf05f2813aaff64e713">&#9670;&#160;</a></span>eventFilter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -252,7 +333,211 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DlgSettings::createIcons </td>
+          <td class="memname">bool DlgSettings::eventFilter </td>
+          <td>(</td>
+          <td class="paramtype">QObject *</td>          <td class="paramname"><span class="paramname"><em>watched</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a0059b679895c6bf05f2813aaff64e713_cgraph.svg" width="100%" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae7198de2a2b1390da5063c5e1c2c7457" name="ae7198de2a2b1390da5063c5e1c2c7457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7198de2a2b1390da5063c5e1c2c7457">&#9670;&#160;</a></span>flashWidget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DlgSettings::flashWidget </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *</td>          <td class="paramname"><span class="paramname"><em>widget</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_ae7198de2a2b1390da5063c5e1c2c7457_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a4619c58ba13178cc26bc79dfb30e02d9" name="a4619c58ba13178cc26bc79dfb30e02d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4619c58ba13178cc26bc79dfb30e02d9">&#9670;&#160;</a></span>navigateToSearchResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DlgSettings::navigateToSearchResult </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a4619c58ba13178cc26bc79dfb30e02d9_cgraph.svg" width="100%" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a4619c58ba13178cc26bc79dfb30e02d9_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="acb56bbabad819ceda5eea30b32a0912e" name="acb56bbabad819ceda5eea30b32a0912e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb56bbabad819ceda5eea30b32a0912e">&#9670;&#160;</a></span>onSearchResultClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DlgSettings::onSearchResultClicked </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_acb56bbabad819ceda5eea30b32a0912e_cgraph.svg" width="100%" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_acb56bbabad819ceda5eea30b32a0912e_icgraph.svg" width="648" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aac3c683ba3f9bcbd2960706ae7fd1b9e" name="aac3c683ba3f9bcbd2960706ae7fd1b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac3c683ba3f9bcbd2960706ae7fd1b9e">&#9670;&#160;</a></span>onSearchTextChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DlgSettings::onSearchTextChanged </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>text</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_aac3c683ba3f9bcbd2960706ae7fd1b9e_cgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_aac3c683ba3f9bcbd2960706ae7fd1b9e_icgraph.svg" width="634" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae9298353b30cea64c4867dc57d742254" name="ae9298353b30cea64c4867dc57d742254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9298353b30cea64c4867dc57d742254">&#9670;&#160;</a></span>onTabClicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DlgSettings::onTabClicked </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_ae9298353b30cea64c4867dc57d742254_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_ae9298353b30cea64c4867dc57d742254_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad32a236ec1cf0909b2ff140fc2526c5f" name="ad32a236ec1cf0909b2ff140fc2526c5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad32a236ec1cf0909b2ff140fc2526c5f">&#9670;&#160;</a></span>retranslateTabNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DlgSettings::retranslateTabNames </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -267,12 +552,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a172bd6d966342cdcb881505fd1e121a6_cgraph.svg" width="422" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_ad32a236ec1cf0909b2ff140fc2526c5f_cgraph.svg" width="438" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a172bd6d966342cdcb881505fd1e121a6_icgraph.svg" width="419" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_ad32a236ec1cf0909b2ff140fc2526c5f_icgraph.svg" width="654" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -300,9 +585,44 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_af2c22344e56042fc1f03807a956f954d_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_af2c22344e56042fc1f03807a956f954d_icgraph.svg" width="430" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a120414ed56baca189fefa529711ec827" name="a120414ed56baca189fefa529711ec827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a120414ed56baca189fefa529711ec827">&#9670;&#160;</a></span>setActiveTab()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DlgSettings::setActiveTab </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a120414ed56baca189fefa529711ec827_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -324,12 +644,177 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a48124169fe94918b5657f9dfcb95a5e2_cgraph.svg" width="388" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a48124169fe94918b5657f9dfcb95a5e2_cgraph.svg" width="394" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a48124169fe94918b5657f9dfcb95a5e2_icgraph.svg" width="100%" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af7380e9671dd430bc66814750f284c76" name="af7380e9671dd430bc66814750f284c76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7380e9671dd430bc66814750f284c76">&#9670;&#160;</a></span>setupTabBar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DlgSettings::setupTabBar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_af7380e9671dd430bc66814750f284c76_cgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_af7380e9671dd430bc66814750f284c76_icgraph.svg" width="627" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="acec9c8219c34f164b6e9eca321a9a301" name="acec9c8219c34f164b6e9eca321a9a301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acec9c8219c34f164b6e9eca321a9a301">&#9670;&#160;</a></span>setupUi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DlgSettings::setupUi </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_acec9c8219c34f164b6e9eca321a9a301_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_acec9c8219c34f164b6e9eca321a9a301_icgraph.svg" width="394" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae1d1c65cfc1efe97debb2bf64065eb28" name="ae1d1c65cfc1efe97debb2bf64065eb28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1d1c65cfc1efe97debb2bf64065eb28">&#9670;&#160;</a></span>switchToSearchMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DlgSettings::switchToSearchMode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_ae1d1c65cfc1efe97debb2bf64065eb28_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a4f4a75200d97eeaead53b3d5d4799e35" name="a4f4a75200d97eeaead53b3d5d4799e35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f4a75200d97eeaead53b3d5d4799e35">&#9670;&#160;</a></span>switchToTabMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DlgSettings::switchToTabMode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a4f4a75200d97eeaead53b3d5d4799e35_cgraph.svg" width="466" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a4f4a75200d97eeaead53b3d5d4799e35_icgraph.svg" width="100%" height="459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a73e029a14180633f727a8b9251d5de5a" name="a73e029a14180633f727a8b9251d5de5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73e029a14180633f727a8b9251d5de5a">&#9670;&#160;</a></span>translatedPageNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList DlgSettings::translatedPageNames </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d5f/classDlgSettings_a73e029a14180633f727a8b9251d5de5a_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -370,8 +855,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a61d7a0784c9c621d862271ad53b5b88c" name="a61d7a0784c9c621d862271ad53b5b88c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61d7a0784c9c621d862271ad53b5b88c">&#9670;&#160;</a></span>appearanceButton</h2>
+<a id="a5438de7c2eca7cb8bc124535f36b9ad6" name="a5438de7c2eca7cb8bc124535f36b9ad6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5438de7c2eca7cb8bc124535f36b9ad6">&#9670;&#160;</a></span>currentTabIndex</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -380,7 +865,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QListWidgetItem * DlgSettings::appearanceButton</td>
+          <td class="memname">int DlgSettings::currentTabIndex</td>
         </tr>
       </table>
   </td>
@@ -390,10 +875,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Currently active tab index. </p>
+
 </div>
 </div>
-<a id="a7f2084aeafce5040645e4a13f4452f0a" name="a7f2084aeafce5040645e4a13f4452f0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f2084aeafce5040645e4a13f4452f0a">&#9670;&#160;</a></span>contentsWidget</h2>
+<a id="af8e0bcf9718983ffb1ee921f6f62e0ea" name="af8e0bcf9718983ffb1ee921f6f62e0ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8e0bcf9718983ffb1ee921f6f62e0ea">&#9670;&#160;</a></span>okButton</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -402,7 +889,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QListWidget* DlgSettings::contentsWidget</td>
+          <td class="memname">QPushButton* DlgSettings::okButton</td>
         </tr>
       </table>
   </td>
@@ -412,10 +899,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Button to close the dialog. </p>
+
 </div>
 </div>
-<a id="ad01a4da6fda6269de0316e7dbae6fbc3" name="ad01a4da6fda6269de0316e7dbae6fbc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad01a4da6fda6269de0316e7dbae6fbc3">&#9670;&#160;</a></span>deckEditorButton</h2>
+<a id="ad27c9a9e4ade4129bcdd1f6107bd499d" name="ad27c9a9e4ade4129bcdd1f6107bd499d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad27c9a9e4ade4129bcdd1f6107bd499d">&#9670;&#160;</a></span>pages</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -424,7 +913,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QListWidgetItem * DlgSettings::deckEditorButton</td>
+          <td class="memname">QList&lt;<a class="el" href="../../d0/d4c/classAbstractSettingsPage.html">AbstractSettingsPage</a> *&gt; DlgSettings::pages</td>
         </tr>
       </table>
   </td>
@@ -434,10 +923,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>All settings page instances. </p>
+
 </div>
 </div>
-<a id="a2458fbae2a8787127c850e6c1a205905" name="a2458fbae2a8787127c850e6c1a205905"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2458fbae2a8787127c850e6c1a205905">&#9670;&#160;</a></span>generalButton</h2>
+<a id="a4114f24cb6b21288181c09372cb47984" name="a4114f24cb6b21288181c09372cb47984"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4114f24cb6b21288181c09372cb47984">&#9670;&#160;</a></span>pagesContainer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -446,7 +937,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QListWidgetItem* DlgSettings::generalButton</td>
+          <td class="memname">QWidget* DlgSettings::pagesContainer</td>
         </tr>
       </table>
   </td>
@@ -456,27 +947,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ab5229c7fc8baece995dec8c04f7215ba" name="ab5229c7fc8baece995dec8c04f7215ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5229c7fc8baece995dec8c04f7215ba">&#9670;&#160;</a></span>messagesButton</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QListWidgetItem * DlgSettings::messagesButton</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Container stacking pages and search results. </p>
 
 </div>
 </div>
@@ -500,10 +971,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Stacked widget containing settings pages. </p>
+
 </div>
 </div>
-<a id="a06ef3156e87f3f1e0b1ad411254a69a0" name="a06ef3156e87f3f1e0b1ad411254a69a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06ef3156e87f3f1e0b1ad411254a69a0">&#9670;&#160;</a></span>shortcutsButton</h2>
+<a id="ab2b59e3880730030b580a932b71b6612" name="ab2b59e3880730030b580a932b71b6612"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2b59e3880730030b580a932b71b6612">&#9670;&#160;</a></span>searchActive</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -512,7 +985,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QListWidgetItem * DlgSettings::shortcutsButton</td>
+          <td class="memname">bool DlgSettings::searchActive</td>
         </tr>
       </table>
   </td>
@@ -522,10 +995,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Whether search mode is active. </p>
+
 </div>
 </div>
-<a id="a5feb032fde64c07231590ddbb902e40d" name="a5feb032fde64c07231590ddbb902e40d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5feb032fde64c07231590ddbb902e40d">&#9670;&#160;</a></span>soundButton</h2>
+<a id="a63e1197e4310b61ee905570f77d38c86" name="a63e1197e4310b61ee905570f77d38c86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63e1197e4310b61ee905570f77d38c86">&#9670;&#160;</a></span>searchDelegate</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -534,7 +1009,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QListWidgetItem * DlgSettings::soundButton</td>
+          <td class="memname"><a class="el" href="../../d9/df9/classSettingsSearchDelegate.html">SettingsSearchDelegate</a>* DlgSettings::searchDelegate</td>
         </tr>
       </table>
   </td>
@@ -544,10 +1019,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Delegate for search result rendering. </p>
+
 </div>
 </div>
-<a id="a4e387e38e8e50c10cb0d241d0efe1f9f" name="a4e387e38e8e50c10cb0d241d0efe1f9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e387e38e8e50c10cb0d241d0efe1f9f">&#9670;&#160;</a></span>storageButton</h2>
+<a id="abecd2eeb7e525813f35437503d2c7273" name="abecd2eeb7e525813f35437503d2c7273"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abecd2eeb7e525813f35437503d2c7273">&#9670;&#160;</a></span>searchEdit</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -556,7 +1033,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QListWidgetItem * DlgSettings::storageButton</td>
+          <td class="memname">QLineEdit* DlgSettings::searchEdit</td>
         </tr>
       </table>
   </td>
@@ -566,10 +1043,12 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Search bar for filtering settings. </p>
+
 </div>
 </div>
-<a id="afb284a59a086e745c63c94557c0b8211" name="afb284a59a086e745c63c94557c0b8211"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb284a59a086e745c63c94557c0b8211">&#9670;&#160;</a></span>userInterfaceButton</h2>
+<a id="a2e91e6638e507fd310638534ce5b6790" name="a2e91e6638e507fd310638534ce5b6790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e91e6638e507fd310638534ce5b6790">&#9670;&#160;</a></span>searchModel</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -578,7 +1057,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QListWidgetItem * DlgSettings::userInterfaceButton</td>
+          <td class="memname"><a class="el" href="../../df/d23/classSettingsSearchModel.html">SettingsSearchModel</a>* DlgSettings::searchModel</td>
         </tr>
       </table>
   </td>
@@ -587,6 +1066,80 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Model for search results. </p>
+
+</div>
+</div>
+<a id="a396ac3ffa68d1069813a6f70630e5793" name="a396ac3ffa68d1069813a6f70630e5793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a396ac3ffa68d1069813a6f70630e5793">&#9670;&#160;</a></span>searchResultsView</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QListView* DlgSettings::searchResultsView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Search results list view. </p>
+
+</div>
+</div>
+<a id="a8b7acbc3fed0bfdb1e5d59d17fedd62a" name="a8b7acbc3fed0bfdb1e5d59d17fedd62a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b7acbc3fed0bfdb1e5d59d17fedd62a">&#9670;&#160;</a></span>tabBarWidget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget* DlgSettings::tabBarWidget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Container widget for the tab buttons. </p>
+
+</div>
+</div>
+<a id="a40dfc12d4f0490cca726fa29757b90d3" name="a40dfc12d4f0490cca726fa29757b90d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40dfc12d4f0490cca726fa29757b90d3">&#9670;&#160;</a></span>tabButtons</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;QToolButton *&gt; DlgSettings::tabButtons</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Navigation tab buttons. </p>
 
 </div>
 </div>

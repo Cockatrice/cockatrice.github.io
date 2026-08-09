@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -163,6 +163,8 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a410348349fde931141ef5b26607fd579"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worker thread for async image loading.  <br /></td></tr>
 <tr class="memitem:a45b5c2e43f37cc9c599ce5df4169f7fa" id="r_a45b5c2e43f37cc9c599ce5df4169f7fa"><td class="memItemLeft"><a class="el" href="../../d1/d8e/classCardPictureLoaderStatusBar.html">CardPictureLoaderStatusBar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a45b5c2e43f37cc9c599ce5df4169f7fa">statusBar</a></td></tr>
 <tr class="memdesc:a45b5c2e43f37cc9c599ce5df4169f7fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Status bar widget showing load progress.  <br /></td></tr>
+<tr class="memitem:a0da06adf1b8cdb3a8a734de0663f485c" id="r_a0da06adf1b8cdb3a8a734de0663f485c"><td class="memItemLeft">QHash&lt; QString, QDateTime &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a0da06adf1b8cdb3a8a734de0663f485c">failedAt</a></td></tr>
+<tr class="memdesc:a0da06adf1b8cdb3a8a734de0663f485c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timestamp of the last failed load attempt per pixmap cache key.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Singleton class to manage card image loading and caching. Provides functionality to asynchronously load, cache, and manage card images for the client. </p>
@@ -446,7 +448,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_adca8471ef127371a3491fe7a99eca549_icgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_adca8471ef127371a3491fe7a99eca549_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -844,6 +846,30 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a0da06adf1b8cdb3a8a734de0663f485c" name="a0da06adf1b8cdb3a8a734de0663f485c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0da06adf1b8cdb3a8a734de0663f485c">&#9670;&#160;</a></span>failedAt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, QDateTime&gt; CardPictureLoader::failedAt</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Timestamp of the last failed load attempt per pixmap cache key. </p>
+
+</div>
+</div>
 <a id="a45b5c2e43f37cc9c599ce5df4169f7fa" name="a45b5c2e43f37cc9c599ce5df4169f7fa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a45b5c2e43f37cc9c599ce5df4169f7fa">&#9670;&#160;</a></span>statusBar</h2>
 

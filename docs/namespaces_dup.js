@@ -33,6 +33,10 @@ var namespaces_dup =
       [ "formatToApiName", "dc/d95/namespaceArchidektFormats.html#a1a163460305496ade5ce5e6747960017", null ],
       [ "formatToCockatriceName", "dc/d95/namespaceArchidektFormats.html#aaf6f587210cecf39d83ae062cc6970b6", null ]
     ] ],
+    [ "CardDatabaseCache", "d0/df0/namespaceCardDatabaseCache.html", [
+      [ "read", "d0/df0/namespaceCardDatabaseCache.html#a6b2cba29de0d821e6e6d452785eed575", null ],
+      [ "write", "d0/df0/namespaceCardDatabaseCache.html#a2447de98b39c79f348adb74f000c0c10", null ]
+    ] ],
     [ "CardDimensions", "d2/da1/namespaceCardDimensions.html", [
       [ "HEIGHT", "d2/da1/namespaceCardDimensions.html#a64b8d017e832580bb3e8d611b33ffe8b", null ],
       [ "HEIGHT_F", "d2/da1/namespaceCardDimensions.html#a9fce11f3e977f6088d93114896d4921d", null ],
@@ -46,6 +50,11 @@ var namespaces_dup =
     [ "CardPictureLoaderLocalSchemes", "d7/de8/namespaceCardPictureLoaderLocalSchemes.html", "d7/de8/namespaceCardPictureLoaderLocalSchemes" ],
     [ "CardZoneAlgorithms", "df/df0/namespaceCardZoneAlgorithms.html", [
       [ "addCardToList", "df/df0/namespaceCardZoneAlgorithms.html#a05ec47bef01054c1f69e4ab3ab9d2c9f", null ]
+    ] ],
+    [ "CommanderBracketNames", "dc/d33/namespaceCommanderBracketNames.html", [
+      [ "CommanderSpellbookBracketNames", "dc/d33/namespaceCommanderBracketNames.html#ab8435bc30b056ea2e9109beebae6217d", null ],
+      [ "Explainer", "dc/d33/namespaceCommanderBracketNames.html#a2c30658c96e98d6cd74d074a38dbc5b0", null ],
+      [ "OfficialCommanderBracketNames", "dc/d33/namespaceCommanderBracketNames.html#ab61a12681e88f6aaae325fbe2db000ce", null ]
     ] ],
     [ "DeckFileFormat", "d4/d60/namespaceDeckFileFormat.html", [
       [ "Format", "d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945", [
@@ -103,6 +112,9 @@ var namespaces_dup =
     [ "QtUtils", "dc/d55/namespaceQtUtils.html", [
       [ "clearLayoutRec", "dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301", null ],
       [ "findParentOfType", "dc/d55/namespaceQtUtils.html#a573d4567ad2940b0f5fce244a0f585f6", null ]
+    ] ],
+    [ "StatsTally", "d5/d5f/namespaceStatsTally.html", [
+      [ "computeTotalPower", "d5/d5f/namespaceStatsTally.html#ab034fea6c61ce11fab9d5a6b17a3dd10", null ]
     ] ],
     [ "SubtypeTally", "d9/d99/namespaceSubtypeTally.html", [
       [ "countSubtypes", "d9/d99/namespaceSubtypeTally.html#a80953f8e6a0dfc0dc98d0d016ccb4f8c", null ]

@@ -9,7 +9,9 @@ var classICardDatabaseParser =
     [ "getCanParseFile", "d4/dfe/classICardDatabaseParser.html#aa58bc4645fc309c7225527f22d90a050", null ],
     [ "internalAddSet", "d4/dfe/classICardDatabaseParser.html#a32a66ec769cb3c0462eeac79317fbe08", null ],
     [ "parseFile", "d4/dfe/classICardDatabaseParser.html#a5a7c1ca5738843cd07c30148e1e20e8f", null ],
+    [ "parseFileInto", "d4/dfe/classICardDatabaseParser.html#a3a9898f67a594ae5d2ec03a83344768f", null ],
     [ "saveToFile", "d4/dfe/classICardDatabaseParser.html#a4ed61d5daf8eccca140d31ef257c32c9", null ],
     [ "cardSetPriorityController", "d4/dfe/classICardDatabaseParser.html#a0b189b300b49e5c2c1373544e146c16c", null ],
-    [ "sets", "d4/dfe/classICardDatabaseParser.html#a9dbd0972e9552f222fd6dec4fd9f1088", null ]
+    [ "sets", "d4/dfe/classICardDatabaseParser.html#a9dbd0972e9552f222fd6dec4fd9f1088", null ],
+    [ "targetData", "d4/dfe/classICardDatabaseParser.html#a66883932a0e685ecf3d25a49392331e7", null ]
 ];

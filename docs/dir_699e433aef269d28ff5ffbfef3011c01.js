@@ -6,6 +6,7 @@ var dir_699e433aef269d28ff5ffbfef3011c01 =
     [ "interface_card_set_priority_controller.h", "d7/de6/interface__card__set__priority__controller_8h.html", "d7/de6/interface__card__set__priority__controller_8h" ],
     [ "interface_cards_display_settings_provider.h", "d7/d6a/interface__cards__display__settings__provider_8h.html", "d7/d6a/interface__cards__display__settings__provider_8h" ],
     [ "interface_chat_settings_provider.h", "de/daf/interface__chat__settings__provider_8h.html", "de/daf/interface__chat__settings__provider_8h" ],
+    [ "interface_deck_editor_settings_provider.h", "d4/d18/interface__deck__editor__settings__provider_8h.html", "d4/d18/interface__deck__editor__settings__provider_8h" ],
     [ "interface_game_settings_provider.h", "d7/d2f/interface__game__settings__provider_8h.html", "d7/d2f/interface__game__settings__provider_8h" ],
     [ "interface_interface_settings_provider.h", "de/dbf/interface__interface__settings__provider_8h.html", "de/dbf/interface__interface__settings__provider_8h" ],
     [ "interface_network_settings_provider.h", "de/d51/interface__network__settings__provider_8h.html", "de/d51/interface__network__settings__provider_8h" ],

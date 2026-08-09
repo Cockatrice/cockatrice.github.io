@@ -23,6 +23,7 @@ var classCardDatabaseModel =
     [ "getCard", "dd/d83/classCardDatabaseModel.html#a47a63e50e206bfb0e4a89a2fff5c484e", null ],
     [ "getDatabase", "dd/d83/classCardDatabaseModel.html#a292657749e03a07b5e52c48b5ca48986", null ],
     [ "headerData", "dd/d83/classCardDatabaseModel.html#ab41b2c6e8c05396f8cf24f5cce34d965", null ],
+    [ "resetCardList", "dd/d83/classCardDatabaseModel.html#a35513f2fd5077b90f1b74b9e9138e95c", null ],
     [ "rowCount", "dd/d83/classCardDatabaseModel.html#a55dad0554dd0f517e25c218e5903914b", null ],
     [ "cardList", "dd/d83/classCardDatabaseModel.html#a0c93673d7e16f86cc2c739db896510bf", null ],
     [ "cardListSet", "dd/d83/classCardDatabaseModel.html#a102776adf28d237be3ee626925152f76", null ],

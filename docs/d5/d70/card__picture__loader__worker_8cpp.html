@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -110,8 +110,8 @@ $(function(){initNavTree('d5/d70/card__picture__loader__worker_8cpp.html','../..
 <code>#include &lt;QNetworkReply&gt;</code><br />
 <code>#include &lt;QThread&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/df1/cache__storage__settings_8h_source.html">libcockatrice/settings/cache_storage_settings.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d0/de1/download__settings_8h_source.html">libcockatrice/settings/download_settings.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/d62/paths__settings_8h_source.html">libcockatrice/settings/paths_settings.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d2/d49/personal__settings_8h_source.html">libcockatrice/settings/personal_settings.h</a>&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;version_string.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -123,6 +123,10 @@ Include dependency graph for card_picture_loader_worker.cpp:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:ac3d9e3861fa93f2c6e8812152aabaf76" id="r_ac3d9e3861fa93f2c6e8812152aabaf76"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#ac3d9e3861fa93f2c6e8812152aabaf76">MAX_REQUESTS_PER_SEC</a> = 10</td></tr>
+<tr class="memitem:a600dd706ed3e19dbdd71db93be781dd5" id="r_a600dd706ed3e19dbdd71db93be781dd5"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a600dd706ed3e19dbdd71db93be781dd5">MIN_HOST_QUOTA</a> = 1</td></tr>
+<tr class="memdesc:a600dd706ed3e19dbdd71db93be781dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Floor for the per-host request allowance.  <br /></td></tr>
+<tr class="memitem:af74515de3cf9086cd59db6e9fab2387a" id="r_af74515de3cf9086cd59db6e9fab2387a"><td class="memItemLeft">static constexpr qint64&#160;</td><td class="memItemRight"><a class="el" href="#af74515de3cf9086cd59db6e9fab2387a">QUOTA_RECOVER_MS</a> = 60000</td></tr>
+<tr class="memdesc:af74515de3cf9086cd59db6e9fab2387a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Idle time before a reduced quota starts recovering.  <br /></td></tr>
 </table>
 <a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
 <a id="ac3d9e3861fa93f2c6e8812152aabaf76" name="ac3d9e3861fa93f2c6e8812152aabaf76"></a>
@@ -144,6 +148,54 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a600dd706ed3e19dbdd71db93be781dd5" name="a600dd706ed3e19dbdd71db93be781dd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a600dd706ed3e19dbdd71db93be781dd5">&#9670;&#160;</a></span>MIN_HOST_QUOTA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MIN_HOST_QUOTA = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Floor for the per-host request allowance. </p>
+
+</div>
+</div>
+<a id="af74515de3cf9086cd59db6e9fab2387a" name="af74515de3cf9086cd59db6e9fab2387a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af74515de3cf9086cd59db6e9fab2387a">&#9670;&#160;</a></span>QUOTA_RECOVER_MS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qint64 QUOTA_RECOVER_MS = 60000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Idle time before a reduced quota starts recovering. </p>
 
 </div>
 </div>

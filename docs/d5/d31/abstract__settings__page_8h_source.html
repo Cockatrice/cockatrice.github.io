@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -102,23 +102,34 @@ $(function(){initNavTree('d5/d31/abstract__settings__page_8h_source.html','../..
 <a href="../../d5/d31/abstract__settings__page_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef COCKATRICE_ABSTRACT_SETTINGS_PAGE_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define COCKATRICE_ABSTRACT_SETTINGS_PAGE_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="../../d5/d31/abstract__settings__page_8h.html#aadd046b665ebbee46381d48dc1ca2250">    6</a></span><span class="preprocessor">#define WIKI_CUSTOM_PIC_URL &quot;https://github.com/Cockatrice/Cockatrice/wiki/Custom-Picture-Download-URLs&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../d5/d31/abstract__settings__page_8h.html#ab72739ab99172d24dee0595f91b97f0a">    7</a></span><span class="preprocessor">#define WIKI_CUSTOM_SHORTCUTS &quot;https://github.com/Cockatrice/Cockatrice/wiki/Custom-Keyboard-Shortcuts&quot;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../d5/d31/abstract__settings__page_8h.html#a2be223e7bc5e68ddfec0935c263fef29">    8</a></span><span class="preprocessor">#define WIKI_TRANSLATION_FAQ &quot;https://github.com/Cockatrice/Cockatrice/wiki/Translation-FAQ&quot;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../d0/d4c/classAbstractSettingsPage.html">   10</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d0/d4c/classAbstractSettingsPage.html">AbstractSettingsPage</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../d0/d4c/classAbstractSettingsPage.html#a3b815db0fd661cf75d82a76a46d69862">   13</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d4c/classAbstractSettingsPage.html#a3b815db0fd661cf75d82a76a46d69862">retranslateUi</a>() = 0;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>};</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QList&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../d5/d31/abstract__settings__page_8h.html#aadd046b665ebbee46381d48dc1ca2250">    7</a></span><span class="preprocessor">#define WIKI_CUSTOM_PIC_URL &quot;https://github.com/Cockatrice/Cockatrice/wiki/Custom-Picture-Download-URLs&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../d5/d31/abstract__settings__page_8h.html#ab72739ab99172d24dee0595f91b97f0a">    8</a></span><span class="preprocessor">#define WIKI_CUSTOM_SHORTCUTS &quot;https://github.com/Cockatrice/Cockatrice/wiki/Custom-Keyboard-Shortcuts&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../d5/d31/abstract__settings__page_8h.html#a2be223e7bc5e68ddfec0935c263fef29">    9</a></span><span class="preprocessor">#define WIKI_TRANSLATION_FAQ &quot;https://github.com/Cockatrice/Cockatrice/wiki/Translation-FAQ&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">struct </span><a class="code hl_struct" href="../../d8/d7f/structSettingsSearchEntry.html">SettingsSearchEntry</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../d0/d4c/classAbstractSettingsPage.html">   13</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d0/d4c/classAbstractSettingsPage.html">AbstractSettingsPage</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    Q_OBJECT</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d0/d4c/classAbstractSettingsPage.html#a3b815db0fd661cf75d82a76a46d69862">   17</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d0/d4c/classAbstractSettingsPage.html#a3b815db0fd661cf75d82a76a46d69862">retranslateUi</a>() = 0;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">virtual</span> QList&lt;SettingsSearchEntry&gt; <a class="code hl_function" href="../../d0/d4c/classAbstractSettingsPage.html#acf589bbf3a6f2babc141ca65d12bf151">getSearchEntries</a>();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">static</span> QList&lt;SettingsSearchEntry&gt; <a class="code hl_function" href="../../d0/d4c/classAbstractSettingsPage.html#ae7f71204d4991908b61b028acb98ed93">autoDetectSearchEntries</a>(QWidget *page, <span class="keywordtype">int</span> pageIndex);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
 </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_ABSTRACT_SETTINGS_PAGE_H</span></div>
-<div class="ttc" id="aclassAbstractSettingsPage_html"><div class="ttname"><a href="../../d0/d4c/classAbstractSettingsPage.html">AbstractSettingsPage</a></div><div class="ttdef"><b>Definition</b> abstract_settings_page.h:11</div></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_ABSTRACT_SETTINGS_PAGE_H</span></div>
+<div class="ttc" id="aclassAbstractSettingsPage_html"><div class="ttname"><a href="../../d0/d4c/classAbstractSettingsPage.html">AbstractSettingsPage</a></div><div class="ttdef"><b>Definition</b> abstract_settings_page.h:14</div></div>
 <div class="ttc" id="aclassAbstractSettingsPage_html_a3b815db0fd661cf75d82a76a46d69862"><div class="ttname"><a href="../../d0/d4c/classAbstractSettingsPage.html#a3b815db0fd661cf75d82a76a46d69862">AbstractSettingsPage::retranslateUi</a></div><div class="ttdeci">virtual void retranslateUi()=0</div></div>
+<div class="ttc" id="aclassAbstractSettingsPage_html_acf589bbf3a6f2babc141ca65d12bf151"><div class="ttname"><a href="../../d0/d4c/classAbstractSettingsPage.html#acf589bbf3a6f2babc141ca65d12bf151">AbstractSettingsPage::getSearchEntries</a></div><div class="ttdeci">virtual QList&lt; SettingsSearchEntry &gt; getSearchEntries()</div><div class="ttdef"><b>Definition</b> abstract_settings_page.cpp:127</div></div>
+<div class="ttc" id="aclassAbstractSettingsPage_html_ae7f71204d4991908b61b028acb98ed93"><div class="ttname"><a href="../../d0/d4c/classAbstractSettingsPage.html#ae7f71204d4991908b61b028acb98ed93">AbstractSettingsPage::autoDetectSearchEntries</a></div><div class="ttdeci">static QList&lt; SettingsSearchEntry &gt; autoDetectSearchEntries(QWidget *page, int pageIndex)</div><div class="ttdef"><b>Definition</b> abstract_settings_page.cpp:132</div></div>
+<div class="ttc" id="astructSettingsSearchEntry_html"><div class="ttname"><a href="../../d8/d7f/structSettingsSearchEntry.html">SettingsSearchEntry</a></div><div class="ttdoc">Represents a single searchable setting entry.</div><div class="ttdef"><b>Definition</b> settings_search_model.h:21</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

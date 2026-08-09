@@ -59,6 +59,7 @@ var classChatView =
     [ "serverMessageColor", "dc/dea/classChatView.html#afef98c4bc47da6bf0ee143d3198a225a", null ],
     [ "showTimestamps", "dc/dea/classChatView.html#a0217fff10dfe9bcd0ac192bdc1fa6aa3", null ],
     [ "tabSupervisor", "dc/dea/classChatView.html#a6230286087960e1f10d59fd2dfbfa973", null ],
+    [ "unresolvedCardTagColor", "dc/dea/classChatView.html#ab3fbb0fc6680a8d47443a1d8ff7bb3f5", null ],
     [ "userContextMenu", "dc/dea/classChatView.html#a661937be9bccd1937c71b6714f67e04f", null ],
     [ "userListProxy", "dc/dea/classChatView.html#aa999e6c663bf00b062356e393a387060", null ],
     [ "userMessagePositions", "dc/dea/classChatView.html#abd93235f470f550723df69b3894887cd", null ]

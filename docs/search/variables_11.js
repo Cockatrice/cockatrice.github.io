@@ -2,7 +2,7 @@ var searchData=
 [
   ['q_0',['q',['../d3/d61/classEdhrecApiResponseArchidektLink.html#adbf52dbefe3ff50d5399480859d35f5d',1,'EdhrecApiResponseArchidektLink']]],
   ['qttranslator_1',['qtTranslator',['../d8/da8/cockatrice_2src_2main_8cpp.html#abacca76764ce2dfacbd0f6d821170fcd',1,'qtTranslator:&#160;main.cpp'],['../d8/d33/oracle_2src_2main_8cpp.html#abacca76764ce2dfacbd0f6d821170fcd',1,'qtTranslator:&#160;main.cpp']]],
-  ['quantity_2',['quantity',['../d4/de4/structDrawProbabilityConfig.html#a1b946e756ca773b9db64f4b820f193a1',1,'DrawProbabilityConfig::quantity'],['../d9/da1/classDrawProbabilityConfigDialog.html#af95b45ff48f1de1311c2021633c5d355',1,'DrawProbabilityConfigDialog::quantity'],['../d3/dc3/classArchidektApiResponseCardEntry.html#a7e2f450b95c5f895b029388df87200f9',1,'ArchidektApiResponseCardEntry::quantity']]],
+  ['quantity_2',['quantity',['../d4/de4/structDrawProbabilityConfig.html#a1b946e756ca773b9db64f4b820f193a1',1,'DrawProbabilityConfig::quantity'],['../d9/da1/classDrawProbabilityConfigDialog.html#af95b45ff48f1de1311c2021633c5d355',1,'DrawProbabilityConfigDialog::quantity'],['../d3/dc3/classArchidektApiResponseCardEntry.html#a7e2f450b95c5f895b029388df87200f9',1,'ArchidektApiResponseCardEntry::quantity'],['../d1/d23/structCardInDeckRequest.html#a08a5cde3022f51b12565b5313a9e99a7',1,'CardInDeckRequest::quantity']]],
   ['quantityspin_3',['quantitySpin',['../dd/de9/classDrawProbabilityWidget.html#a60da39b426b335ce5a9cff84ecc8f802',1,'DrawProbabilityWidget']]],
   ['querier_4',['querier',['../d5/d45/classCardDatabase.html#a75b810badc88ed57a59771ec845bc9b8',1,'CardDatabase']]],
   ['queue_5',['queue',['../dc/d12/classUserCardArtProvider.html#a230f1d708cbebaa23835e1cd36d813f7',1,'UserCardArtProvider']]],
@@ -15,6 +15,7 @@ var searchData=
   ['quickfiltertoolbar_12',['quickFilterToolBar',['../df/d3f/classGameSelector.html#a4fc1004c477393760c4c282ba8e7a7f1',1,'GameSelector']]],
   ['quicksettingswidget_13',['quickSettingsWidget',['../d9/df7/classDeckEditorDeckDockWidget.html#a0c46f51d0320c1ac4074e51b0918e900',1,'DeckEditorDeckDockWidget::quickSettingsWidget'],['../d0/dfe/classVisualDeckStorageWidget.html#a3ca1a8b1d5be00b4b01ba33f0c27c0e7',1,'VisualDeckStorageWidget::quickSettingsWidget']]],
   ['quicksetuppanel_14',['quickSetupPanel',['../d0/dc0/classPaletteEditorDialog.html#a1302ab1065dc72e9b0619d1c24211649',1,'PaletteEditorDialog']]],
-  ['qxt_5fd_15',['qxt_d',['../d5/db4/classQxtMailAttachment.html#afb17b5f1402b302973c29adb74a40852',1,'QxtMailAttachment::qxt_d'],['../d5/dff/classQxtMailMessage.html#af518da51bc50f73332cd1a2b5f285e49',1,'QxtMailMessage::qxt_d']]],
-  ['qxt_5fp_5fptr_16',['qxt_p_ptr',['../db/d14/classQxtPrivate.html#a795119eb3c84d0788a8c6c24fc440166',1,'QxtPrivate']]]
+  ['quota_5frecover_5fms_15',['QUOTA_RECOVER_MS',['../d5/d70/card__picture__loader__worker_8cpp.html#af74515de3cf9086cd59db6e9fab2387a',1,'card_picture_loader_worker.cpp']]],
+  ['qxt_5fd_16',['qxt_d',['../d5/db4/classQxtMailAttachment.html#afb17b5f1402b302973c29adb74a40852',1,'QxtMailAttachment::qxt_d'],['../d5/dff/classQxtMailMessage.html#af518da51bc50f73332cd1a2b5f285e49',1,'QxtMailMessage::qxt_d']]],
+  ['qxt_5fp_5fptr_17',['qxt_p_ptr',['../db/d14/classQxtPrivate.html#a795119eb3c84d0788a8c6c24fc440166',1,'QxtPrivate']]]
 ];

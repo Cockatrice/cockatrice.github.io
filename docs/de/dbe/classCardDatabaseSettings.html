@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -120,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a94eeeab6307c485dc5550bf683f2ed8d" id="r_a94eeeab6307c485dc5550bf683f2ed8d"><td class="memItemLeft">unsigned int&#160;</td><td class="memItemRight"><a class="el" href="#a94eeeab6307c485dc5550bf683f2ed8d">getSortKey</a> (QString shortName) const override</td></tr>
 <tr class="memitem:a167321b275a5fce82059550adf45dce3" id="r_a167321b275a5fce82059550adf45dce3"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a167321b275a5fce82059550adf45dce3">isEnabled</a> (QString shortName) const override</td></tr>
 <tr class="memitem:a9fbbedcd8e76da030a3c3906b7710337" id="r_a9fbbedcd8e76da030a3c3906b7710337"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a9fbbedcd8e76da030a3c3906b7710337">isKnown</a> (QString shortName) const override</td></tr>
+<tr class="memitem:a84ebaabe0d016233a93be3178851733a" id="r_a84ebaabe0d016233a93be3178851733a"><td class="memItemLeft"><a class="el" href="../../d7/d77/structICardSetPriorityController_1_1SetOptions.html">SetOptions</a>&#160;</td><td class="memItemRight"><a class="el" href="#a84ebaabe0d016233a93be3178851733a">getSetOptions</a> (QString shortName) const override</td></tr>
+<tr class="memdesc:a84ebaabe0d016233a93be3178851733a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bundled priority options for a set in a single call.  <br /></td></tr>
 <tr class="memitem:aa652520d5e9b8fed81e5a42f35450675" id="r_aa652520d5e9b8fed81e5a42f35450675"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa652520d5e9b8fed81e5a42f35450675">saveSets</a> (const QVector&lt; <a class="el" href="../../d0/db0/structICardSetPriorityController_1_1SetSaveData.html">SetSaveData</a> &gt; &amp;data) override</td></tr>
 <tr class="inherit_header pub_methods_classSettingsManager"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classSettingsManager')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="../../d1/dea/classSettingsManager.html">SettingsManager</a></td></tr>
 <tr class="memitem:a7be922bcff08d4de81a60f4882601f18 inherit pub_methods_classSettingsManager" id="r_a7be922bcff08d4de81a60f4882601f18"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="../../d1/dea/classSettingsManager.html#a7be922bcff08d4de81a60f4882601f18">SettingsManager</a> (const QString &amp;<a class="el" href="../../d1/dea/classSettingsManager.html#ab861cb5c7844d1436786711ab5964707">settingPath</a>, const QString &amp;<a class="el" href="../../d1/dea/classSettingsManager.html#ab5d4cf5643bd35d6ca389159043d854d">defaultGroup</a>=QString(), const QString &amp;<a class="el" href="../../d1/dea/classSettingsManager.html#a9b6d9a9af58b05d08666e99da18a209e">defaultSubGroup</a>=QString(), QObject *parent=nullptr)</td></tr>
@@ -134,6 +136,13 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a19bd88c51ef167d07c6cb7e7d87b93e0" id="r_a19bd88c51ef167d07c6cb7e7d87b93e0"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a19bd88c51ef167d07c6cb7e7d87b93e0">CardDatabaseSettings</a> (const QString &amp;<a class="el" href="../../d1/dea/classSettingsManager.html#ab861cb5c7844d1436786711ab5964707">settingPath</a>, QObject *parent=nullptr)</td></tr>
+<tr class="memitem:aa5bf66db37d6604ed7f9607c3fbe0691" id="r_aa5bf66db37d6604ed7f9607c3fbe0691"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa5bf66db37d6604ed7f9607c3fbe0691">ensureSetOptionsLoaded</a> () const</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a479a8b7ed22df9f2fc7da0437c3c66ac" id="r_a479a8b7ed22df9f2fc7da0437c3c66ac"><td class="memItemLeft">QMutex&#160;</td><td class="memItemRight"><a class="el" href="#a479a8b7ed22df9f2fc7da0437c3c66ac">setOptionsMutex</a></td></tr>
+<tr class="memitem:ac20722865a5a99a52c9cd073c426a812" id="r_ac20722865a5a99a52c9cd073c426a812"><td class="memItemLeft">QHash&lt; QString, <a class="el" href="../../d7/d77/structICardSetPriorityController_1_1SetOptions.html">SetOptions</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ac20722865a5a99a52c9cd073c426a812">setOptionsCache</a></td></tr>
+<tr class="memitem:a30dbaad145912ed168dac35bacb8b170" id="r_a30dbaad145912ed168dac35bacb8b170"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a30dbaad145912ed168dac35bacb8b170">setOptionsLoaded</a> = false</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -153,7 +162,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a9b6d9a9af58b05d08666e99da18a209e inherit pro_attribs_classSettingsManager" id="r_a9b6d9a9af58b05d08666e99da18a209e"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="../../d1/dea/classSettingsManager.html#a9b6d9a9af58b05d08666e99da18a209e">defaultSubGroup</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000277">Todo</a></b></dt><dd>Document this file. </dd></dl>
+<div class="textblock"><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000275">Todo</a></b></dt><dd>Document this file. </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a19bd88c51ef167d07c6cb7e7d87b93e0" name="a19bd88c51ef167d07c6cb7e7d87b93e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19bd88c51ef167d07c6cb7e7d87b93e0">&#9670;&#160;</a></span>CardDatabaseSettings()</h2>
@@ -190,6 +199,82 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="aa5bf66db37d6604ed7f9607c3fbe0691" name="aa5bf66db37d6604ed7f9607c3fbe0691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5bf66db37d6604ed7f9607c3fbe0691">&#9670;&#160;</a></span>ensureSetOptionsLoaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardDatabaseSettings::ensureSetOptionsLoaded </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dbe/classCardDatabaseSettings_aa5bf66db37d6604ed7f9607c3fbe0691_cgraph.svg" width="466" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dbe/classCardDatabaseSettings_aa5bf66db37d6604ed7f9607c3fbe0691_icgraph.svg" width="418" height="499"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a84ebaabe0d016233a93be3178851733a" name="a84ebaabe0d016233a93be3178851733a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84ebaabe0d016233a93be3178851733a">&#9670;&#160;</a></span>getSetOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d77/structICardSetPriorityController_1_1SetOptions.html">ICardSetPriorityController::SetOptions</a> CardDatabaseSettings::getSetOptions </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>shortName</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the bundled priority options for a set in a single call. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shortName</td><td>The set's short name. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The sort key, enabled and known flags for the set. </dd></dl>
+
+<p>Implements <a class="el" href="../../d7/d81/classICardSetPriorityController.html#acd5d0d0fb4c064eee77b5efdb8ada3bd">ICardSetPriorityController</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dbe/classCardDatabaseSettings_a84ebaabe0d016233a93be3178851733a_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a94eeeab6307c485dc5550bf683f2ed8d" name="a94eeeab6307c485dc5550bf683f2ed8d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a94eeeab6307c485dc5550bf683f2ed8d">&#9670;&#160;</a></span>getSortKey()</h2>
 
@@ -313,7 +398,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dbe/classCardDatabaseSettings_aa652520d5e9b8fed81e5a42f35450675_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dbe/classCardDatabaseSettings_aa652520d5e9b8fed81e5a42f35450675_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -349,7 +434,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dbe/classCardDatabaseSettings_aad6d6521443d33a3a80c74fb12ea2b7d_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dbe/classCardDatabaseSettings_aad6d6521443d33a3a80c74fb12ea2b7d_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -385,7 +470,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dbe/classCardDatabaseSettings_a06bb3199840818021504d99a472818a7_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dbe/classCardDatabaseSettings_a06bb3199840818021504d99a472818a7_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -421,7 +506,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dbe/classCardDatabaseSettings_a638768afda3a6eb230aaf7b6ced129b4_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dbe/classCardDatabaseSettings_a638768afda3a6eb230aaf7b6ced129b4_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -443,6 +528,73 @@ Here is the call graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel friend">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ac20722865a5a99a52c9cd073c426a812" name="ac20722865a5a99a52c9cd073c426a812"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac20722865a5a99a52c9cd073c426a812">&#9670;&#160;</a></span>setOptionsCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, <a class="el" href="../../d7/d77/structICardSetPriorityController_1_1SetOptions.html">SetOptions</a>&gt; CardDatabaseSettings::setOptionsCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel mutable">mutable</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30dbaad145912ed168dac35bacb8b170" name="a30dbaad145912ed168dac35bacb8b170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30dbaad145912ed168dac35bacb8b170">&#9670;&#160;</a></span>setOptionsLoaded</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CardDatabaseSettings::setOptionsLoaded = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel mutable">mutable</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a479a8b7ed22df9f2fc7da0437c3c66ac" name="a479a8b7ed22df9f2fc7da0437c3c66ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a479a8b7ed22df9f2fc7da0437c3c66ac">&#9670;&#160;</a></span>setOptionsMutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMutex CardDatabaseSettings::setOptionsMutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel mutable">mutable</span><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

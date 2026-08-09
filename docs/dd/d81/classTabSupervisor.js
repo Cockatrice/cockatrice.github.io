@@ -37,6 +37,7 @@ var classTabSupervisor =
     [ "getIsLocalGame", "dd/d81/classTabSupervisor.html#a6323db15dfa949bb554fb4d0ab117cef", null ],
     [ "getRoomTabs", "dd/d81/classTabSupervisor.html#a42328388160aec9fd9d77fa96df5cbb1", null ],
     [ "getTabAccount", "dd/d81/classTabSupervisor.html#a33b81ef0583b4b67c27602c934229995", null ],
+    [ "getTabServer", "dd/d81/classTabSupervisor.html#aeb4c335639b1a1655f686429947b36e3", null ],
     [ "getUserInfo", "dd/d81/classTabSupervisor.html#a1ba87454a8981d70948babf046d277ad", null ],
     [ "getUserListManager", "dd/d81/classTabSupervisor.html#a275669df3300698ddf187910669b8aee", null ],
     [ "initStartupTabs", "dd/d81/classTabSupervisor.html#aee1c4492654fe6a12894135b5968b150", null ],

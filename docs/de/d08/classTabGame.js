@@ -117,7 +117,7 @@ var classTabGame =
     [ "playerListWidget", "de/d08/classTabGame.html#ab066a00b8316bfbcf2f93611a7333cda", null ],
     [ "playersSeparator", "de/d08/classTabGame.html#adfaeb5a326ad8fa990defb3f5fc4a151", null ],
     [ "replayDock", "de/d08/classTabGame.html#aab536452e10e4429e465f4504410f6d7", null ],
-    [ "replayManager", "de/d08/classTabGame.html#ad43286fd7c07a28200f7e0a20b2200d2", null ],
+    [ "replayWidget", "de/d08/classTabGame.html#abcc636cfa63bb77fd9698a97cad5476c", null ],
     [ "sayEdit", "de/d08/classTabGame.html#af8115157f0dd84941d6c53550a2d6bdf", null ],
     [ "sayLabel", "de/d08/classTabGame.html#a2a09b206d79c6364bb0381e1708519f4", null ],
     [ "scene", "de/d08/classTabGame.html#a452430b1dd39637daba425a3f8eb4dc6", null ],
