@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-14-Development-3.1.0-beta.5</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -186,10 +186,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acc71fd2029d4ac911844db7ad929d50c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes columns and distributes extra width to players.  <br /></td></tr>
 <tr class="memitem:a3fd207ae5223e7936da2df9f0f842bd7" id="r_a3fd207ae5223e7936da2df9f0f842bd7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3fd207ae5223e7936da2df9f0f842bd7">updateHoveredCard</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *newCard)</td></tr>
 <tr class="memdesc:a3fd207ae5223e7936da2df9f0f842bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates hovered card highlighting.  <br /></td></tr>
-<tr class="memitem:aa80898fcd516dd3ff2d9fdf0f9de8c2e" id="r_aa80898fcd516dd3ff2d9fdf0f9de8c2e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa80898fcd516dd3ff2d9fdf0f9de8c2e">registerAnimationItem</a> (<a class="el" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a> *card)</td></tr>
-<tr class="memdesc:aa80898fcd516dd3ff2d9fdf0f9de8c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a card for animation updates.  <br /></td></tr>
-<tr class="memitem:abc98ace010c7cfd39370972db7636df9" id="r_abc98ace010c7cfd39370972db7636df9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abc98ace010c7cfd39370972db7636df9">unregisterAnimationItem</a> (<a class="el" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a> *card)</td></tr>
-<tr class="memdesc:abc98ace010c7cfd39370972db7636df9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregisters a card from animation updates.  <br /></td></tr>
+<tr class="memitem:a6d6d998fc582390d47292147fde48c60" id="r_a6d6d998fc582390d47292147fde48c60"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6d6d998fc582390d47292147fde48c60">registerAnimationItem</a> (<a class="el" href="../../da/dd9/classIAnimatedItem.html">IAnimatedItem</a> *item)</td></tr>
+<tr class="memdesc:a6d6d998fc582390d47292147fde48c60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers an item for animation updates with the shared scene timer.  <br /></td></tr>
+<tr class="memitem:a594237111de84b26a2269fce292d30b8" id="r_a594237111de84b26a2269fce292d30b8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a594237111de84b26a2269fce292d30b8">unregisterAnimationItem</a> (<a class="el" href="../../da/dd9/classIAnimatedItem.html">IAnimatedItem</a> *item)</td></tr>
+<tr class="memdesc:a594237111de84b26a2269fce292d30b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregisters an item from animation updates.  <br /></td></tr>
 <tr class="memitem:a2fb90682de067644f5eb5fe3ddc09981" id="r_a2fb90682de067644f5eb5fe3ddc09981"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2fb90682de067644f5eb5fe3ddc09981">startRubberBand</a> (const QPointF &amp;selectionOrigin)</td></tr>
 <tr class="memitem:a27c7a695579cfc03d43a8744b270ddc0" id="r_a27c7a695579cfc03d43a8744b270ddc0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a27c7a695579cfc03d43a8744b270ddc0">resizeRubberBand</a> (const QPointF &amp;cursorPoint, int selectedCount)</td></tr>
 <tr class="memitem:a76c1eb9524989d20a99da4e3d8423f24" id="r_a76c1eb9524989d20a99da4e3d8423f24"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a76c1eb9524989d20a99da4e3d8423f24">stopRubberBand</a> ()</td></tr>
@@ -209,6 +209,11 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a87d0fd08b1540319e8770e187379d4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles hover updates.  <br /></td></tr>
 <tr class="memitem:a314752d51d28491b92c69440d6afa784" id="r_a314752d51d28491b92c69440d6afa784"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a314752d51d28491b92c69440d6afa784">timerEvent</a> (QTimerEvent *<a class="el" href="#a87d0fd08b1540319e8770e187379d4ba">event</a>) override</td></tr>
 <tr class="memdesc:a314752d51d28491b92c69440d6afa784"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles animation timer updates.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:ad628588ac60c08fb03f2096165fc9429" id="r_ad628588ac60c08fb03f2096165fc9429"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad628588ac60c08fb03f2096165fc9429">removeAnimatedItem</a> (QObject *item)</td></tr>
+<tr class="memdesc:ad628588ac60c08fb03f2096165fc9429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a destroyed item from the animation set.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -236,9 +241,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a9d567d70c813595eb7bec6b83d2a79bf" id="r_a9d567d70c813595eb7bec6b83d2a79bf"><td class="memItemLeft">QPointer&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9d567d70c813595eb7bec6b83d2a79bf">hoveredCard</a></td></tr>
 <tr class="memdesc:a9d567d70c813595eb7bec6b83d2a79bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently hovered card.  <br /></td></tr>
 <tr class="memitem:abcfad631804efabf322bb70d673a063f" id="r_abcfad631804efabf322bb70d673a063f"><td class="memItemLeft">QBasicTimer *&#160;</td><td class="memItemRight"><a class="el" href="#abcfad631804efabf322bb70d673a063f">animationTimer</a></td></tr>
-<tr class="memdesc:abcfad631804efabf322bb70d673a063f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer for card animations.  <br /></td></tr>
-<tr class="memitem:ae4d015e84c7a7f93d1089d95c0f47560" id="r_ae4d015e84c7a7f93d1089d95c0f47560"><td class="memItemLeft">QSet&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ae4d015e84c7a7f93d1089d95c0f47560">cardsToAnimate</a></td></tr>
-<tr class="memdesc:ae4d015e84c7a7f93d1089d95c0f47560"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cards currently animating.  <br /></td></tr>
+<tr class="memdesc:abcfad631804efabf322bb70d673a063f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer for scene animations.  <br /></td></tr>
+<tr class="memitem:a233a5d8534c7e8830f7c379d37b0565b" id="r_a233a5d8534c7e8830f7c379d37b0565b"><td class="memItemLeft">QHash&lt; QObject *, <a class="el" href="../../da/dd9/classIAnimatedItem.html">IAnimatedItem</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a233a5d8534c7e8830f7c379d37b0565b">animatedItems</a></td></tr>
+<tr class="memdesc:a233a5d8534c7e8830f7c379d37b0565b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Items currently animating.  <br /></td></tr>
 <tr class="memitem:a9caa047f70d1ed75024e3caf3bbb7229" id="r_a9caa047f70d1ed75024e3caf3bbb7229"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a9caa047f70d1ed75024e3caf3bbb7229">playerRotation</a></td></tr>
 <tr class="memdesc:a9caa047f70d1ed75024e3caf3bbb7229"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation offset for player layout.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -1443,8 +1448,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aa80898fcd516dd3ff2d9fdf0f9de8c2e" name="aa80898fcd516dd3ff2d9fdf0f9de8c2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa80898fcd516dd3ff2d9fdf0f9de8c2e">&#9670;&#160;</a></span>registerAnimationItem()</h2>
+<a id="a6d6d998fc582390d47292147fde48c60" name="a6d6d998fc582390d47292147fde48c60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d6d998fc582390d47292147fde48c60">&#9670;&#160;</a></span>registerAnimationItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1452,13 +1457,51 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameScene::registerAnimationItem </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../da/dd9/classIAnimatedItem.html">IAnimatedItem</a> *</td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Registers a card for animation updates. </p>
+<p>Registers an item for animation updates with the shared scene timer. </p>
+<p>The item must inherit QObject; it is unregistered automatically when it is destroyed, so it may be deleted mid-animation without a dangling pointer. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a6d6d998fc582390d47292147fde48c60_cgraph.svg" width="564" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ad628588ac60c08fb03f2096165fc9429" name="ad628588ac60c08fb03f2096165fc9429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad628588ac60c08fb03f2096165fc9429">&#9670;&#160;</a></span>removeAnimatedItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::removeAnimatedItem </td>
+          <td>(</td>
+          <td class="paramtype">QObject *</td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes a destroyed item from the animation set. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_ad628588ac60c08fb03f2096165fc9429_icgraph.svg" width="564" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -1957,8 +2000,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="abc98ace010c7cfd39370972db7636df9" name="abc98ace010c7cfd39370972db7636df9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc98ace010c7cfd39370972db7636df9">&#9670;&#160;</a></span>unregisterAnimationItem()</h2>
+<a id="a594237111de84b26a2269fce292d30b8" name="a594237111de84b26a2269fce292d30b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a594237111de84b26a2269fce292d30b8">&#9670;&#160;</a></span>unregisterAnimationItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1966,13 +2009,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameScene::unregisterAnimationItem </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../da/dd9/classIAnimatedItem.html">IAnimatedItem</a> *</td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Unregisters a card from animation updates. </p>
+<p>Unregisters an item from animation updates. </p>
 
 </div>
 </div>
@@ -2074,6 +2117,30 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a233a5d8534c7e8830f7c379d37b0565b" name="a233a5d8534c7e8830f7c379d37b0565b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a233a5d8534c7e8830f7c379d37b0565b">&#9670;&#160;</a></span>animatedItems</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QObject *, <a class="el" href="../../da/dd9/classIAnimatedItem.html">IAnimatedItem</a> *&gt; GameScene::animatedItems</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Items currently animating. </p>
+
+</div>
+</div>
 <a id="abcfad631804efabf322bb70d673a063f" name="abcfad631804efabf322bb70d673a063f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcfad631804efabf322bb70d673a063f">&#9670;&#160;</a></span>animationTimer</h2>
 
@@ -2094,7 +2161,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Timer for card animations. </p>
+<p>Timer for scene animations. </p>
 
 </div>
 </div>
@@ -2119,30 +2186,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>ID registry for arrow graphics items. </p>
-
-</div>
-</div>
-<a id="ae4d015e84c7a7f93d1089d95c0f47560" name="ae4d015e84c7a7f93d1089d95c0f47560"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4d015e84c7a7f93d1089d95c0f47560">&#9670;&#160;</a></span>cardsToAnimate</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QSet&lt;<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *&gt; GameScene::cardsToAnimate</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Cards currently animating. </p>
 
 </div>
 </div>

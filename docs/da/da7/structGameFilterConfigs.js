@@ -2,7 +2,6 @@ var structGameFilterConfigs =
 [
     [ "isDefault", "da/da7/structGameFilterConfigs.html#a44492df3457e338aee20679ec505588e", null ],
     [ "operator==", "da/da7/structGameFilterConfigs.html#a7bb6121494768c00f504129cfed783f5", null ],
-    [ "creatorNameFilters", "da/da7/structGameFilterConfigs.html#a59bdb44c0b08f5be741409d686b5cdfa", null ],
     [ "DEFAULT_MAX_PLAYERS_MAX", "da/da7/structGameFilterConfigs.html#a2fd0c86f9447810514d9abbd47fb1475", null ],
     [ "DEFAULT_MAX_PLAYERS_MIN", "da/da7/structGameFilterConfigs.html#a878860c9b6ce3e1480bd711da1daf8ac", null ],
     [ "gameNameFilter", "da/da7/structGameFilterConfigs.html#a3b66bfe477fad3898c0547a297428f4c", null ],
@@ -14,6 +13,7 @@ var structGameFilterConfigs =
     [ "hideNotBuddyCreatedGames", "da/da7/structGameFilterConfigs.html#a0476f3ec15b6023c162e04caf82a0305", null ],
     [ "hideOpenDecklistGames", "da/da7/structGameFilterConfigs.html#a14676210626ffda5038c2563217e0a6e", null ],
     [ "hidePasswordProtectedGames", "da/da7/structGameFilterConfigs.html#a9e37cbd4d1e53d870419fd67fd36682c", null ],
+    [ "hostNameFilters", "da/da7/structGameFilterConfigs.html#a0522b3e7445e142a8a6ba81d2a53ff61", null ],
     [ "maxGameAge", "da/da7/structGameFilterConfigs.html#a210c33957ebcc89361bd738760255d7f", null ],
     [ "maxPlayersFilterMax", "da/da7/structGameFilterConfigs.html#aea9d854076decec29d0926d2abc336c0", null ],
     [ "maxPlayersFilterMin", "da/da7/structGameFilterConfigs.html#a7a7e26d3208772102fafcb5b548f40c7", null ],

@@ -10,11 +10,13 @@ var classReplayManager =
     [ "eventReplayed", "da/de9/classReplayManager.html#ad53f40a28d232da1ba41b7db94a99eb9", null ],
     [ "getReplayTimeline", "da/de9/classReplayManager.html#a3a5a306ee1983f64f427cb4c1ede3a6d", null ],
     [ "handleBackwardsSkip", "da/de9/classReplayManager.html#aa2b9af668ddb3b898bd60825b1baa0a3", null ],
+    [ "handleSkipEmptySection", "da/de9/classReplayManager.html#a263ca34ee8b4dd859bc3e18cf22252d3", null ],
     [ "processNewEvents", "da/de9/classReplayManager.html#a0d6f02c10a8fe46a84d891ac506b8aaf", null ],
     [ "processRewind", "da/de9/classReplayManager.html#ab3fb882a2f6094bed222a43a081df277", null ],
     [ "replayFinished", "da/de9/classReplayManager.html#a1045209c661d90fd89ea982cadf07af1", null ],
     [ "replayTimerTimeout", "da/de9/classReplayManager.html#abeab77d7d17a8f606d42906f442e100c", null ],
     [ "rewound", "da/de9/classReplayManager.html#ad2244be18e1fb84a7ef925f923c68a24", null ],
+    [ "setSkipEmptySections", "da/de9/classReplayManager.html#ab7b93089dd563304d5a895a0c8feeb55", null ],
     [ "setTime", "da/de9/classReplayManager.html#abd9ea4f6f2a48ae61ca05a010cad1ebb", null ],
     [ "setTimeScaleFactor", "da/de9/classReplayManager.html#abd4d664309768a02f09d869180080e70", null ],
     [ "skipByAmount", "da/de9/classReplayManager.html#a7a8ea93b07a11227d3d715052c7dc2ba", null ],
@@ -31,6 +33,7 @@ var classReplayManager =
     [ "replayTimeline", "da/de9/classReplayManager.html#adce17cb8cb221bf7d148519c42ccc07c", null ],
     [ "replayTimer", "da/de9/classReplayManager.html#a82db3f0665d1e1a7690210ae943a5507", null ],
     [ "rewindBufferingTimer", "da/de9/classReplayManager.html#a25cec85e214830cc97beb1cdae0de7de", null ],
+    [ "skipEmptySections", "da/de9/classReplayManager.html#a0b5d1786324edb109c3bf1d11a4ed570", null ],
     [ "SMALL_SKIP_MS", "da/de9/classReplayManager.html#a237da2cb0c76ca2ea6cd2479f7f71089", null ],
     [ "timeScaleFactor", "da/de9/classReplayManager.html#a562b667344515115d13c7d471a713ada", null ]
 ];

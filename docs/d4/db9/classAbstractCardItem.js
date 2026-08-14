@@ -2,6 +2,7 @@ var classAbstractCardItem =
 [
     [ "AbstractCardItem", "d4/db9/classAbstractCardItem.html#a6312ea1ad13a1658f975075e0ea5d4c3", null ],
     [ "~AbstractCardItem", "d4/db9/classAbstractCardItem.html#a08d7b303d8050858a7a8ddc231507639", null ],
+    [ "animationEvent", "d4/db9/classAbstractCardItem.html#a6f5127715389ccf6c832e9aa35230c34", null ],
     [ "boundingRect", "d4/db9/classAbstractCardItem.html#a54d2423abee9a6f7388f402ae95f0345", null ],
     [ "cacheBgColor", "d4/db9/classAbstractCardItem.html#a77d6b404581e1b80d59b7ed37b7ab825", null ],
     [ "cardShiftClicked", "d4/db9/classAbstractCardItem.html#a460608f3aa54157d5ed6bb9d83c5da3c", null ],

@@ -47,10 +47,11 @@ var searchData=
   ['response_5fwarnlist_44',['Response_WarnList',['../d3/de2/structResponse__WarnList.html',1,'']]],
   ['responsecontainer_45',['ResponseContainer',['../db/d74/classResponseContainer.html',1,'']]],
   ['result_46',['Result',['../df/d1f/structpeg_1_1Definition_1_1Result.html',1,'peg::Definition::Result'],['../dd/d7e/structResult.html',1,'Result']]],
-  ['rfgmenu_47',['RfgMenu',['../dc/db3/classRfgMenu.html',1,'']]],
-  ['rng_5fabstract_48',['RNG_Abstract',['../de/dba/classRNG__Abstract.html',1,'']]],
-  ['rng_5fsfmt_49',['RNG_SFMT',['../d4/dc7/classRNG__SFMT.html',1,'']]],
-  ['roomcommand_50',['RoomCommand',['../d7/dea/structCommand__CreateGame_1_1RoomCommand.html',1,'Command_CreateGame::RoomCommand'],['../d8/d9d/structCommand__JoinGame_1_1RoomCommand.html',1,'Command_JoinGame::RoomCommand'],['../df/d4c/structCommand__LeaveRoom_1_1RoomCommand.html',1,'Command_LeaveRoom::RoomCommand'],['../d0/d9e/structCommand__RoomSay_1_1RoomCommand.html',1,'Command_RoomSay::RoomCommand'],['../da/de3/structRoomCommand.html',1,'RoomCommand']]],
-  ['roomevent_51',['RoomEvent',['../d8/df8/structEvent__JoinRoom_1_1RoomEvent.html',1,'Event_JoinRoom::RoomEvent'],['../d8/d69/structEvent__LeaveRoom_1_1RoomEvent.html',1,'Event_LeaveRoom::RoomEvent'],['../d5/de6/structEvent__ListGames_1_1RoomEvent.html',1,'Event_ListGames::RoomEvent'],['../d3/da6/structEvent__RemoveMessages_1_1RoomEvent.html',1,'Event_RemoveMessages::RoomEvent'],['../d6/d18/structEvent__RoomSay_1_1RoomEvent.html',1,'Event_RoomSay::RoomEvent'],['../d7/dc2/structRoomEvent.html',1,'RoomEvent']]],
-  ['roomselector_52',['RoomSelector',['../d8/d49/classRoomSelector.html',1,'']]]
+  ['reversedcompletermodel_47',['ReversedCompleterModel',['../d1/de3/classReversedCompleterModel.html',1,'']]],
+  ['rfgmenu_48',['RfgMenu',['../dc/db3/classRfgMenu.html',1,'']]],
+  ['rng_5fabstract_49',['RNG_Abstract',['../de/dba/classRNG__Abstract.html',1,'']]],
+  ['rng_5fsfmt_50',['RNG_SFMT',['../d4/dc7/classRNG__SFMT.html',1,'']]],
+  ['roomcommand_51',['RoomCommand',['../d7/dea/structCommand__CreateGame_1_1RoomCommand.html',1,'Command_CreateGame::RoomCommand'],['../d8/d9d/structCommand__JoinGame_1_1RoomCommand.html',1,'Command_JoinGame::RoomCommand'],['../df/d4c/structCommand__LeaveRoom_1_1RoomCommand.html',1,'Command_LeaveRoom::RoomCommand'],['../d0/d9e/structCommand__RoomSay_1_1RoomCommand.html',1,'Command_RoomSay::RoomCommand'],['../da/de3/structRoomCommand.html',1,'RoomCommand']]],
+  ['roomevent_52',['RoomEvent',['../d8/df8/structEvent__JoinRoom_1_1RoomEvent.html',1,'Event_JoinRoom::RoomEvent'],['../d8/d69/structEvent__LeaveRoom_1_1RoomEvent.html',1,'Event_LeaveRoom::RoomEvent'],['../d5/de6/structEvent__ListGames_1_1RoomEvent.html',1,'Event_ListGames::RoomEvent'],['../d3/da6/structEvent__RemoveMessages_1_1RoomEvent.html',1,'Event_RemoveMessages::RoomEvent'],['../d6/d18/structEvent__RoomSay_1_1RoomEvent.html',1,'Event_RoomSay::RoomEvent'],['../d7/dc2/structRoomEvent.html',1,'RoomEvent']]],
+  ['roomselector_53',['RoomSelector',['../d8/d49/classRoomSelector.html',1,'']]]
 ];

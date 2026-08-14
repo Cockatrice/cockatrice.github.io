@@ -57,6 +57,7 @@ var hierarchy =
     [ "CardPictureLoaderCacheMethod::CacheMethodInfo", "d6/de6/structCardPictureLoaderCacheMethod_1_1CacheMethodInfo.html", null ],
     [ "CardArtParams", "dd/d52/structCardArtParams.html", null ],
     [ "ServerInfo_User::CardArtParams", "d8/d4b/structServerInfo__User_1_1CardArtParams.html", null ],
+    [ "CardCompleterSetup", "dc/d40/structCardCompleterSetup.html", null ],
     [ "CardCondition", "d3/d64/structCardCondition.html", null ],
     [ "CardDatabaseData", "d4/da7/structCardDatabaseData.html", null ],
     [ "CardDatabaseManager", "dc/db4/classCardDatabaseManager.html", null ],
@@ -164,6 +165,7 @@ var hierarchy =
     [ "CommanderSpellbookCardResult", "de/d6c/structCommanderSpellbookCardResult.html", null ],
     [ "CommanderSpellbookDeckRequest", "de/d86/structCommanderSpellbookDeckRequest.html", null ],
     [ "CommanderSpellbookVariantResult", "df/d78/structCommanderSpellbookVariantResult.html", null ],
+    [ "CompleterInfo", "d4/dac/structCompleterInfo.html", null ],
     [ "peg::Context", "df/d94/classpeg_1_1Context.html", null ],
     [ "Context_Concede", "dc/d36/structContext__Concede.html", null ],
     [ "Context_ConnectionStateChanged", "d8/de2/structContext__ConnectionStateChanged.html", null ],
@@ -186,6 +188,7 @@ var hierarchy =
     [ "DeckListMemento", "d8/dfe/classDeckListMemento.html", null ],
     [ "DecklistNodeTree", "db/df8/classDecklistNodeTree.html", null ],
     [ "DeckListStatisticsAnalyzerConfig", "dc/d67/structDeckListStatisticsAnalyzerConfig.html", null ],
+    [ "DeckSearchData", "d9/df8/structDeckSearchData.html", null ],
     [ "peg::Definition", "d8/d94/classpeg_1_1Definition.html", null ],
     [ "AnalyticsPanelWidgetFactory::Descriptor", "dc/d03/structAnalyticsPanelWidgetFactory_1_1Descriptor.html", null ],
     [ "AbstractTabDeckEditor::DockActions", "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html", null ],
@@ -274,7 +277,6 @@ var hierarchy =
     [ "ExactCard", "df/d4e/classExactCard.html", null ],
     [ "ExceptionRule", "de/dae/structExceptionRule.html", null ],
     [ "Expression", "de/d94/classExpression.html", null ],
-    [ "ExtraDeckSearchInfo", "d1/d36/structExtraDeckSearchInfo.html", null ],
     [ "FilterString", "db/da4/classFilterString.html", null ],
     [ "FilterTreeNode", "db/d51/classFilterTreeNode.html", [
       [ "FilterTreeBranch< FilterItem * >", "d0/d92/classFilterTreeBranch.html", [
@@ -374,6 +376,18 @@ var hierarchy =
     [ "GameFilterConfigs", "da/da7/structGameFilterConfigs.html", null ],
     [ "GameReplay", "d9/d75/structGameReplay.html", null ],
     [ "ZoneViewZone::GridSize", "db/dc7/structZoneViewZone_1_1GridSize.html", null ],
+    [ "IAnimatedItem", "da/dd9/classIAnimatedItem.html", [
+      [ "AbstractCardItem", "d4/db9/classAbstractCardItem.html", [
+        [ "CardItem", "d6/dbd/classCardItem.html", null ],
+        [ "DeckViewCard", "dc/d0b/classDeckViewCard.html", null ]
+      ] ],
+      [ "ArrowItem", "df/d2a/classArrowItem.html", [
+        [ "ArrowAttachItem", "d2/d91/classArrowAttachItem.html", null ],
+        [ "ArrowDragItem", "d4/ddc/classArrowDragItem.html", null ]
+      ] ],
+      [ "PlayerCounter", "db/df9/classPlayerCounter.html", null ],
+      [ "TableZone", "d6/d6f/classTableZone.html", null ]
+    ] ],
     [ "ICacheStorageSettingsProvider", "d4/dbd/classICacheStorageSettingsProvider.html", [
       [ "CacheStorageSettings", "d0/d41/classCacheStorageSettings.html", null ]
     ] ],
@@ -436,6 +450,7 @@ var hierarchy =
     [ "QtJson::Json", "d3/d98/classQtJson_1_1Json.html", null ],
     [ "CardSetList::KeyCompareFunctor", "da/d79/classCardSetList_1_1KeyCompareFunctor.html", null ],
     [ "peg::KeywordGuardData", "d7/d9a/structpeg_1_1KeywordGuardData.html", null ],
+    [ "LazyPropertiesHash", "d9/dd0/classLazyPropertiesHash.html", null ],
     [ "ListOfCardsToMove", "da/d6b/structListOfCardsToMove.html", null ],
     [ "LoadedDeck", "d9/dc2/structLoadedDeck.html", null ],
     [ "LoadedDeck::LoadInfo", "d4/d0d/structLoadedDeck_1_1LoadInfo.html", null ],
@@ -532,6 +547,9 @@ var hierarchy =
       [ "SettingsSearchModel", "df/d23/classSettingsSearchModel.html", null ],
       [ "TipsOfTheDay", "da/dc7/classTipsOfTheDay.html", null ]
     ] ],
+    [ "QAbstractProxyModel", null, [
+      [ "ReversedCompleterModel", "d1/de3/classReversedCompleterModel.html", null ]
+    ] ],
     [ "QAbstractTableModel", null, [
       [ "CardArtRulesModel", "df/db2/classCardArtRulesModel.html", null ],
       [ "GamesModel", "da/dbd/classGamesModel.html", null ],
@@ -602,10 +620,7 @@ var hierarchy =
         [ "DeckViewCardDragItem", "d9/d25/classDeckViewCardDragItem.html", null ]
       ] ],
       [ "AbstractCounter", "d4/d67/classAbstractCounter.html", null ],
-      [ "ArrowItem", "df/d2a/classArrowItem.html", [
-        [ "ArrowAttachItem", "d2/d91/classArrowAttachItem.html", null ],
-        [ "ArrowDragItem", "d4/ddc/classArrowDragItem.html", null ]
-      ] ],
+      [ "ArrowItem", "df/d2a/classArrowItem.html", null ],
       [ "DeckViewCardContainer", "d9/dfc/classDeckViewCardContainer.html", null ],
       [ "PhaseButton", "da/d20/classPhaseButton.html", null ],
       [ "PhasesToolbar", "d7/d23/classPhasesToolbar.html", null ],
@@ -617,10 +632,7 @@ var hierarchy =
     [ "QGraphicsObject", null, [
       [ "AbstractGraphicsItem", "de/dfe/classAbstractGraphicsItem.html", [
         [ "ArrowTarget", "d9/dce/classArrowTarget.html", [
-          [ "AbstractCardItem", "d4/db9/classAbstractCardItem.html", [
-            [ "CardItem", "d6/dbd/classCardItem.html", null ],
-            [ "DeckViewCard", "dc/d0b/classDeckViewCard.html", null ]
-          ] ],
+          [ "AbstractCardItem", "d4/db9/classAbstractCardItem.html", null ],
           [ "PlayerTarget", "d2/d6f/classPlayerTarget.html", null ]
         ] ],
         [ "CardZone", "de/da1/classCardZone.html", [
@@ -744,6 +756,7 @@ var hierarchy =
         [ "Replay", "d2/daf/classReplay.html", null ]
       ] ],
       [ "ArrowItem", "df/d2a/classArrowItem.html", null ],
+      [ "CardCompleterStyler", "de/d06/classCardCompleterStyler.html", null ],
       [ "CardDatabase", "d5/d45/classCardDatabase.html", null ],
       [ "CardDatabaseLoader", "d2/d1b/classCardDatabaseLoader.html", null ],
       [ "CardDatabaseQuerier", "d8/dbe/classCardDatabaseQuerier.html", null ],
@@ -933,6 +946,7 @@ var hierarchy =
       [ "ShortcutFilterProxyModel", "d0/d68/classShortcutFilterProxyModel.html", null ]
     ] ],
     [ "QStyledItemDelegate", null, [
+      [ "CardCompleterDelegate", "d7/d29/classCardCompleterDelegate.html", null ],
       [ "PlayerListItemDelegate", "d3/d79/classPlayerListItemDelegate.html", null ],
       [ "PopupGameDelegate", "de/d5e/classPopupGameDelegate.html", null ],
       [ "SettingsSearchDelegate", "d9/df9/classSettingsSearchDelegate.html", null ],

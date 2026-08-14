@@ -1,6 +1,7 @@
 var classTableZone =
 [
     [ "TableZone", "d6/d6f/classTableZone.html#abb74274d2a776edf55621d4c123fec1a", null ],
+    [ "animationEvent", "d6/d6f/classTableZone.html#aaacec74549ce94ba21bd574293e3fa1e", null ],
     [ "boundingRect", "d6/d6f/classTableZone.html#aa5bc29be4db724fb001788a223d9cb35", null ],
     [ "clampValidTableRow", "d6/d6f/classTableZone.html#a1d2de5c47bda321b913000f0b893a805", null ],
     [ "closestGridPoint", "d6/d6f/classTableZone.html#ab1c4485f2e6240cbb5b42f2471249d80", null ],
@@ -26,6 +27,7 @@ var classTableZone =
     [ "sizeChanged", "d6/d6f/classTableZone.html#affdbd7c0d3f501906e7be7a82e51893a", null ],
     [ "tableRowToGridY", "d6/d6f/classTableZone.html#a63384b2cc004092f7c253e3ea349e6fb", null ],
     [ "toggleTapped", "d6/d6f/classTableZone.html#ac958837aa5ffa93bdf59b14bb05a009d", null ],
+    [ "triggerDamageShimmer", "d6/d6f/classTableZone.html#a45c316443bc89dfea3b593c35a2ca587", null ],
     [ "updateBg", "d6/d6f/classTableZone.html#a545e9b1000b33e5fb26779c671b70360", null ],
     [ "active", "d6/d6f/classTableZone.html#ac7737b35855d6a60917afa160b93e177", null ],
     [ "BACKGROUND_COLOR", "d6/d6f/classTableZone.html#ad8eb13eaf6b5cd4e8bff9b2956520acd", null ],
@@ -33,6 +35,7 @@ var classTableZone =
     [ "BOX_LINE_WIDTH", "d6/d6f/classTableZone.html#ac8b9f721a7e27a954ef763c1a9f3fa9d", null ],
     [ "cardStackWidth", "d6/d6f/classTableZone.html#a504940de85916956662a206455ba6096", null ],
     [ "currentMinimumWidth", "d6/d6f/classTableZone.html#adc4956e250bca4fddab30f8fa3d5e83f", null ],
+    [ "damageShimmerAlpha", "d6/d6f/classTableZone.html#ad69f8e74af1d1e8bf84f112646c34153", null ],
     [ "FADE_MASK", "d6/d6f/classTableZone.html#a56ada4dfe0246bd4430c60371acddd59", null ],
     [ "GRADIENT_COLOR", "d6/d6f/classTableZone.html#a95987cbcefe960e9d768456cc496bf0f", null ],
     [ "GRADIENT_COLORLESS", "d6/d6f/classTableZone.html#ad0eba76e7bed824b4ade2c1b9709b80b", null ],
@@ -45,6 +48,8 @@ var classTableZone =
     [ "mirrored", "d6/d6f/classTableZone.html#a8025972a9de7703aefc7a241ac6f032f", null ],
     [ "PADDING_X", "d6/d6f/classTableZone.html#a5989054f82d32bf8cc23e3d0b7ab8e29", null ],
     [ "PADDING_Y", "d6/d6f/classTableZone.html#a53b79daca9b9e6f5734d9fd949894c53", null ],
+    [ "shimmerClock", "d6/d6f/classTableZone.html#aaeb25064fc1bdfa79eacd0a3aebd7116", null ],
+    [ "shimmerDurationMs", "d6/d6f/classTableZone.html#a3916776b82c76daf4b9817e31fab4386", null ],
     [ "STACKED_CARD_OFFSET_X", "d6/d6f/classTableZone.html#a96ad40631c903ed18a4a3d037d268696", null ],
     [ "STACKED_CARD_OFFSET_Y", "d6/d6f/classTableZone.html#a30400fda5d93e14e554a7f3cc29bfa00", null ],
     [ "TABLEROWS", "d6/d6f/classTableZone.html#a6f633fd80c94ed7621416135ec92ac1b", null ],

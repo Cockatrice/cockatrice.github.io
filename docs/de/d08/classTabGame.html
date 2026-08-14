@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-14-Development-3.1.0-beta.5</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -233,7 +233,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ab3175eaed87e027bcd376deebbc35889" id="r_ab3175eaed87e027bcd376deebbc35889"><td class="memItemLeft">const <a class="el" href="../../dc/dc8/classUserListProxy.html">UserListProxy</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ab3175eaed87e027bcd376deebbc35889">userListProxy</a></td></tr>
 <tr class="memitem:abcc636cfa63bb77fd9698a97cad5476c" id="r_abcc636cfa63bb77fd9698a97cad5476c"><td class="memItemLeft"><a class="el" href="../../d4/da2/classReplayWidget.html">ReplayWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#abcc636cfa63bb77fd9698a97cad5476c">replayWidget</a> = nullptr</td></tr>
 <tr class="memitem:a1590151441aca9403621f7cd38ad9eac" id="r_a1590151441aca9403621f7cd38ad9eac"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#a1590151441aca9403621f7cd38ad9eac">gameTypes</a></td></tr>
-<tr class="memitem:a2431742c4a8fe34aae1245351d7ce90e" id="r_a2431742c4a8fe34aae1245351d7ce90e"><td class="memItemLeft">QCompleter *&#160;</td><td class="memItemRight"><a class="el" href="#a2431742c4a8fe34aae1245351d7ce90e">completer</a></td></tr>
+<tr class="memitem:a3476e1d178a8ff7c33674371641f0c34" id="r_a3476e1d178a8ff7c33674371641f0c34"><td class="memItemLeft">QCompleter *&#160;</td><td class="memItemRight"><a class="el" href="#a3476e1d178a8ff7c33674371641f0c34">mentionCompleter</a></td></tr>
+<tr class="memitem:a1afd5eb704679604713884798f7a871d" id="r_a1afd5eb704679604713884798f7a871d"><td class="memItemLeft">QStringListModel *&#160;</td><td class="memItemRight"><a class="el" href="#a1afd5eb704679604713884798f7a871d">mentionModel</a></td></tr>
 <tr class="memitem:a5234d0902492dca020a12f551ddd146a" id="r_a5234d0902492dca020a12f551ddd146a"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#a5234d0902492dca020a12f551ddd146a">autocompleteUserList</a></td></tr>
 <tr class="memitem:ad11c5d2cb113680e89ead01339a60cab" id="r_ad11c5d2cb113680e89ead01339a60cab"><td class="memItemLeft">QStackedWidget *&#160;</td><td class="memItemRight"><a class="el" href="#ad11c5d2cb113680e89ead01339a60cab">mainWidget</a></td></tr>
 <tr class="memitem:a4968e2fcb78f9fe875dfd5c2c2e9760d" id="r_a4968e2fcb78f9fe875dfd5c2c2e9760d"><td class="memItemLeft"><a class="el" href="../../db/d22/classCardInfoFrameWidget.html">CardInfoFrameWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a4968e2fcb78f9fe875dfd5c2c2e9760d">cardInfoFrameWidget</a></td></tr>
@@ -3232,28 +3233,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2431742c4a8fe34aae1245351d7ce90e" name="a2431742c4a8fe34aae1245351d7ce90e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2431742c4a8fe34aae1245351d7ce90e">&#9670;&#160;</a></span>completer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QCompleter* TabGame::completer</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aefe8a873e7c8ffdb38d102287b63f353" name="aefe8a873e7c8ffdb38d102287b63f353"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aefe8a873e7c8ffdb38d102287b63f353">&#9670;&#160;</a></span>deckViewContainerLayout</h2>
 
@@ -3463,6 +3442,50 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QStackedWidget* TabGame::mainWidget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3476e1d178a8ff7c33674371641f0c34" name="a3476e1d178a8ff7c33674371641f0c34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3476e1d178a8ff7c33674371641f0c34">&#9670;&#160;</a></span>mentionCompleter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCompleter* TabGame::mentionCompleter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1afd5eb704679604713884798f7a871d" name="a1afd5eb704679604713884798f7a871d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1afd5eb704679604713884798f7a871d">&#9670;&#160;</a></span>mentionModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringListModel* TabGame::mentionModel</td>
         </tr>
       </table>
   </td>

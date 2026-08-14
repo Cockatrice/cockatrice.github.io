@@ -7,6 +7,7 @@ var dir_4db5280bbb861c4570d5072585939b1b =
     [ "player", "dir_f77e965eb978055bfbb928fd624d4ba5.html", "dir_f77e965eb978055bfbb928fd624d4ba5" ],
     [ "tally", "dir_21591e0c5f6344c64eb1df6f7854f059.html", "dir_21591e0c5f6344c64eb1df6f7854f059" ],
     [ "zones", "dir_5400883134c59e88d16a68945b238c82.html", "dir_5400883134c59e88d16a68945b238c82" ],
+    [ "animated_item.h", "d2/d52/animated__item_8h.html", "d2/d52/animated__item_8h" ],
     [ "card_dimensions.h", "d5/dcf/card__dimensions_8h.html", "d5/dcf/card__dimensions_8h" ],
     [ "game_scene.cpp", "d5/db4/game__scene_8cpp.html", null ],
     [ "game_scene.h", "d5/d6f/game__scene_8h.html", "d5/d6f/game__scene_8h" ],

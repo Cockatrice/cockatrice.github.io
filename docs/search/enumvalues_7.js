@@ -5,8 +5,9 @@ var searchData=
   ['helosent_2',['HeloSent',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216aa322c895211675ac5e101ac8ade18d2f',1,'QxtSmtpPrivate']]],
   ['hiddenzone_3',['HiddenZone',['../df/d6e/structServerInfo__Zone.html#ad6a574f50e092cbde39cfcf48cffc0d7aed46163c64faf6086b82e26eef05a130',1,'ServerInfo_Zone']]],
   ['historic_4',['Historic',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2ac1f5e9f36e707d5220cd7d241fcd8530',1,'ArchidektFormats']]],
-  ['hoveredcard_5',['HoveredCard',['../dc/dea/classChatView.html#a04b1cd53fdc831ea08dd953ee8d61ef1a74530cf45cddf956a22dcb05e2e00703',1,'ChatView']]],
-  ['hoverednothing_6',['HoveredNothing',['../dc/dea/classChatView.html#a04b1cd53fdc831ea08dd953ee8d61ef1a22928d4e12e7a3504ab874e4ddac5208',1,'ChatView']]],
-  ['hoveredurl_7',['HoveredUrl',['../dc/dea/classChatView.html#a04b1cd53fdc831ea08dd953ee8d61ef1a4041b99b4238eda2f02f2dc5c2148a42',1,'ChatView']]],
-  ['hovereduser_8',['HoveredUser',['../dc/dea/classChatView.html#a04b1cd53fdc831ea08dd953ee8d61ef1ad8cc4934c7a73abdd941f9c7194f7d9e',1,'ChatView']]]
+  ['host_5',['HOST',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0a1e8b0083abfe3fb8f02bcb3a1c26a766',1,'games_model.cpp']]],
+  ['hoveredcard_6',['HoveredCard',['../dc/dea/classChatView.html#a04b1cd53fdc831ea08dd953ee8d61ef1a74530cf45cddf956a22dcb05e2e00703',1,'ChatView']]],
+  ['hoverednothing_7',['HoveredNothing',['../dc/dea/classChatView.html#a04b1cd53fdc831ea08dd953ee8d61ef1a22928d4e12e7a3504ab874e4ddac5208',1,'ChatView']]],
+  ['hoveredurl_8',['HoveredUrl',['../dc/dea/classChatView.html#a04b1cd53fdc831ea08dd953ee8d61ef1a4041b99b4238eda2f02f2dc5c2148a42',1,'ChatView']]],
+  ['hovereduser_9',['HoveredUser',['../dc/dea/classChatView.html#a04b1cd53fdc831ea08dd953ee8d61ef1ad8cc4934c7a73abdd941f9c7194f7d9e',1,'ChatView']]]
 ];

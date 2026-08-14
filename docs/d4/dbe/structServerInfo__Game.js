@@ -5,6 +5,7 @@ var structServerInfo__Game =
     [ "description", "d4/dbe/structServerInfo__Game.html#a66f6fa384a9bd7926e7ada56f4fd21ea", null ],
     [ "game_id", "d4/dbe/structServerInfo__Game.html#a137540d6a2492016705e7fe8d211b411", null ],
     [ "game_types", "d4/dbe/structServerInfo__Game.html#aa479fc98cdf913affd90d4a8359f0bcd", null ],
+    [ "host_info", "d4/dbe/structServerInfo__Game.html#a373ea8a6bf034ef3b2af1fef1609944d", null ],
     [ "max_players", "d4/dbe/structServerInfo__Game.html#aa1e5f23b6726aa8bae6f7d602bc207a1", null ],
     [ "only_buddies", "d4/dbe/structServerInfo__Game.html#a67a9783a8dfea4472e0773f2f90df026", null ],
     [ "only_registered", "d4/dbe/structServerInfo__Game.html#adad1f4c5b73784893cb6c79beec5e1cf", null ],

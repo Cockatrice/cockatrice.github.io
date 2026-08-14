@@ -25,6 +25,7 @@ var classUserInfoPopup =
     [ "promoteToModRequested", "df/d81/classUserInfoPopup.html#ad07389987ba537aef8cfff117c37048c", null ],
     [ "rebuildActionButtons", "df/d81/classUserInfoPopup.html#aff751938cfa888408193ab4795c74fc7", null ],
     [ "refreshGames", "df/d81/classUserInfoPopup.html#a7365d87c228150319dd1813b4f4030b5", null ],
+    [ "refreshHeader", "df/d81/classUserInfoPopup.html#a93a2c40bac1d3a66990810d550186ec6", null ],
     [ "removeBuddyRequested", "df/d81/classUserInfoPopup.html#af38af4f8b8bfb50023d950d32aa1318d", null ],
     [ "removeIgnoreRequested", "df/d81/classUserInfoPopup.html#a99fbe755d960d5481871bbbe4943c715", null ],
     [ "showForUser", "df/d81/classUserInfoPopup.html#ae4711ef0fbcc089ed868a99e492af158", null ],

@@ -1,6 +1,6 @@
 var classVisualDeckEditorWidget =
 [
-    [ "VisualDeckEditorWidget", "da/d1e/classVisualDeckEditorWidget.html#a27242b08de167b572dce420b0a355887", null ],
+    [ "VisualDeckEditorWidget", "da/d1e/classVisualDeckEditorWidget.html#a1e0c15b11d8f24cbb33ba65941bd7c78", null ],
     [ "activeCardChanged", "da/d1e/classVisualDeckEditorWidget.html#aedf40cd029a12b0d297fd6a421011337", null ],
     [ "activeGroupCriteriaChanged", "da/d1e/classVisualDeckEditorWidget.html#a9816abac1f8cb72e16bc4cc36510a6a7", null ],
     [ "activeSortCriteriaChanged", "da/d1e/classVisualDeckEditorWidget.html#a074da1eea56c9dc6145bf3dcc7831a63", null ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-14-Development-3.1.0-beta.5</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -164,12 +164,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae51f5f1e216309b2bc5215f35efc9c08" id="r_ae51f5f1e216309b2bc5215f35efc9c08"><td class="memItemLeft"><a class="el" href="../../df/df3/card__info_8h.html#a411c105e9a86135bec85413e40d7a243">FormatRulesPtr</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae51f5f1e216309b2bc5215f35efc9c08">getFormat</a> (const QString &amp;formatName) const</td></tr>
 <tr class="memitem:a2722920cbb9e3062557755f2baeb81de" id="r_a2722920cbb9e3062557755f2baeb81de"><td class="memItemLeft">QMap&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a2722920cbb9e3062557755f2baeb81de">getAllFormatsWithCount</a> () const</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:ae85aee3b687c199fb77f199e692fb68c" id="r_ae85aee3b687c199fb77f199e692fb68c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae85aee3b687c199fb77f199e692fb68c">invalidateCaches</a> ()</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a6396bd7e9c448e857264b30adc6a5112" id="r_a6396bd7e9c448e857264b30adc6a5112"><td class="memItemLeft">const <a class="el" href="../../d5/d45/classCardDatabase.html">CardDatabase</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a6396bd7e9c448e857264b30adc6a5112">db</a></td></tr>
 <tr class="memdesc:a6396bd7e9c448e857264b30adc6a5112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Card database used for all lookups.  <br /></td></tr>
 <tr class="memitem:a23b87c1580b96ff915c04204b8cc6268" id="r_a23b87c1580b96ff915c04204b8cc6268"><td class="memItemLeft">const <a class="el" href="../../db/df2/classICardPreferenceProvider.html">ICardPreferenceProvider</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a23b87c1580b96ff915c04204b8cc6268">prefs</a></td></tr>
 <tr class="memdesc:a23b87c1580b96ff915c04204b8cc6268"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preference provider for preferred printings.  <br /></td></tr>
+<tr class="memitem:a49967b9fc32962e2a943fd14cfb7263e" id="r_a49967b9fc32962e2a943fd14cfb7263e"><td class="memItemLeft">QMap&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a49967b9fc32962e2a943fd14cfb7263e">mainCardTypeCountsCache</a></td></tr>
+<tr class="memitem:ae420e500c02a65f57c9ecbebca1ec416" id="r_ae420e500c02a65f57c9ecbebca1ec416"><td class="memItemLeft">QMap&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ae420e500c02a65f57c9ecbebca1ec416">subCardTypeCountsCache</a></td></tr>
+<tr class="memitem:aaa88be6840c7949216e2ff1bca07b0d4" id="r_aaa88be6840c7949216e2ff1bca07b0d4"><td class="memItemLeft">QMap&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aaa88be6840c7949216e2ff1bca07b0d4">formatsCountCache</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides lookup and convenience functions for querying cards and their printings. </p>
@@ -216,6 +223,11 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_ac639ef2377e57063888429c4a8154406_cgraph.svg" width="442" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -320,6 +332,11 @@ Here is the caller graph for this function:</div>
 
 <p>Returns a list of all main card types present in the database. </p>
 <dl class="section return"><dt>Returns</dt><dd>List of main card type strings. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_ad7a44bd0d6fc30ad154460f6cc93af4c_cgraph.svg" width="460" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -351,7 +368,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_a12bea7540977c28f51a7f92dfae77fa3_icgraph.svg" width="535" height="66"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_a12bea7540977c28f51a7f92dfae77fa3_icgraph.svg" width="535" height="131"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -527,7 +544,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_a9871e62a9d6241ba2dc45d82eb11990c_cgraph.svg" width="100%" height="570"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_a9871e62a9d6241ba2dc45d82eb11990c_cgraph.svg" width="100%" height="567"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -913,7 +930,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_a3987a302ea70ee115d7d91367927501c_cgraph.svg" width="100%" height="414"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_a3987a302ea70ee115d7d91367927501c_cgraph.svg" width="100%" height="408"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1108,6 +1125,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ae85aee3b687c199fb77f199e692fb68c" name="ae85aee3b687c199fb77f199e692fb68c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae85aee3b687c199fb77f199e692fb68c">&#9670;&#160;</a></span>invalidateCaches</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardDatabaseQuerier::invalidateCaches </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_ae85aee3b687c199fb77f199e692fb68c_icgraph.svg" width="392" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a05b921764c9c29c7aea31bd4cd03b212" name="a05b921764c9c29c7aea31bd4cd03b212"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a05b921764c9c29c7aea31bd4cd03b212">&#9670;&#160;</a></span>isPreferredPrinting()</h2>
 
@@ -1142,7 +1189,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_a05b921764c9c29c7aea31bd4cd03b212_cgraph.svg" width="100%" height="414"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_a05b921764c9c29c7aea31bd4cd03b212_cgraph.svg" width="100%" height="408"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1216,6 +1263,50 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aaa88be6840c7949216e2ff1bca07b0d4" name="aaa88be6840c7949216e2ff1bca07b0d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa88be6840c7949216e2ff1bca07b0d4">&#9670;&#160;</a></span>formatsCountCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, int&gt; CardDatabaseQuerier::formatsCountCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel mutable">mutable</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49967b9fc32962e2a943fd14cfb7263e" name="a49967b9fc32962e2a943fd14cfb7263e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49967b9fc32962e2a943fd14cfb7263e">&#9670;&#160;</a></span>mainCardTypeCountsCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, int&gt; CardDatabaseQuerier::mainCardTypeCountsCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel mutable">mutable</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a23b87c1580b96ff915c04204b8cc6268" name="a23b87c1580b96ff915c04204b8cc6268"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a23b87c1580b96ff915c04204b8cc6268">&#9670;&#160;</a></span>prefs</h2>
 
@@ -1237,6 +1328,28 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Preference provider for preferred printings. </p>
+
+</div>
+</div>
+<a id="ae420e500c02a65f57c9ecbebca1ec416" name="ae420e500c02a65f57c9ecbebca1ec416"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae420e500c02a65f57c9ecbebca1ec416">&#9670;&#160;</a></span>subCardTypeCountsCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, int&gt; CardDatabaseQuerier::subCardTypeCountsCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel mutable">mutable</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

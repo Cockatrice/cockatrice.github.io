@@ -2,6 +2,7 @@ var classICardsDisplaySettingsProvider =
 [
     [ "~ICardsDisplaySettingsProvider", "d8/d32/classICardsDisplaySettingsProvider.html#a5d2ba808389509397e24655c9b62be3c", null ],
     [ "getArchidektPreviewSize", "d8/d32/classICardsDisplaySettingsProvider.html#af7596bf8eb234a906ca31137ab34e50c", null ],
+    [ "getArrowDrawAnimation", "d8/d32/classICardsDisplaySettingsProvider.html#a9d5013b6ba06ef08319b06e896dd22e9", null ],
     [ "getAutoRotateSidewaysLayoutCards", "d8/d32/classICardsDisplaySettingsProvider.html#aae82dff8de0b0a2dfcbac916d434fcfc", null ],
     [ "getBumpSetsWithCardsInDeckToTop", "d8/d32/classICardsDisplaySettingsProvider.html#a6c871eadc95baa2141567e891129ab1d", null ],
     [ "getCardInfoViewMode", "d8/d32/classICardsDisplaySettingsProvider.html#a715c4b51b52a3202f0de117d0e11da6d", null ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-14-Development-3.1.0-beta.5</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -159,9 +159,11 @@ Protected Slots</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a3b269e295cb184abf957d4a647600d58" id="r_a3b269e295cb184abf957d4a647600d58"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3b269e295cb184abf957d4a647600d58">resizeEvent</a> (QResizeEvent *event) override</td></tr>
+<tr class="memitem:a016d8ece53348c977feeb586ebf2d5cc" id="r_a016d8ece53348c977feeb586ebf2d5cc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a016d8ece53348c977feeb586ebf2d5cc">showEvent</a> (QShowEvent *event) override</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:ae9929e27c9916865c9032f175f7af3ef" id="r_ae9929e27c9916865c9032f175f7af3ef"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae9929e27c9916865c9032f175f7af3ef">initializeFilters</a> ()</td></tr>
 <tr class="memitem:a8d9ca97dc71d14446b82d95cdceb9d18" id="r_a8d9ca97dc71d14446b82d95cdceb9d18"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8d9ca97dc71d14446b82d95cdceb9d18">highlightAllSearchEdit</a> ()</td></tr>
 <tr class="memitem:ab78c682fc14a079228cfc08e0e4afee6" id="r_ab78c682fc14a079228cfc08e0e4afee6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ab78c682fc14a079228cfc08e0e4afee6">nearEndOfPage</a> () const</td></tr>
 </table><table class="memberdecls">
@@ -186,10 +188,11 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a0b5cf4549d9530cab35fb1bd1d213450" id="r_a0b5cf4549d9530cab35fb1bd1d213450"><td class="memItemLeft"><a class="el" href="../../d5/db7/classOverlapControlWidget.html">OverlapControlWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a0b5cf4549d9530cab35fb1bd1d213450">overlapControlWidget</a></td></tr>
 <tr class="memitem:adaa96ce10b712c11146d4f18c3433daa" id="r_adaa96ce10b712c11146d4f18c3433daa"><td class="memItemLeft"><a class="el" href="../../df/d47/classCardSizeWidget.html">CardSizeWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#adaa96ce10b712c11146d4f18c3433daa">cardSizeWidget</a></td></tr>
 <tr class="memitem:ab06f32915a6d8afd766e7fe88b916b51" id="r_ab06f32915a6d8afd766e7fe88b916b51"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#ab06f32915a6d8afd766e7fe88b916b51">debounceTimer</a></td></tr>
-<tr class="memitem:a4e3361d5b0dddaa26c92267e38d91bf7" id="r_a4e3361d5b0dddaa26c92267e38d91bf7"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#a4e3361d5b0dddaa26c92267e38d91bf7">loadCardsTimer</a></td></tr>
 <tr class="memitem:a71f8edf9be56cad1cd4a6acff239d2fc" id="r_a71f8edf9be56cad1cd4a6acff239d2fc"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a71f8edf9be56cad1cd4a6acff239d2fc">debounceTime</a> = 300</td></tr>
 <tr class="memitem:a6c41fbf0384743aabc6837f079e9aacf" id="r_a6c41fbf0384743aabc6837f079e9aacf"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a6c41fbf0384743aabc6837f079e9aacf">currentPage</a> = 0</td></tr>
 <tr class="memitem:ad57f48ced9241eec01eac9b2c7ed2dc3" id="r_ad57f48ced9241eec01eac9b2c7ed2dc3"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ad57f48ced9241eec01eac9b2c7ed2dc3">cardsPerPage</a> = 100</td></tr>
+<tr class="memitem:a4689b1c8e2585978cb4cf702a7b9cb46" id="r_a4689b1c8e2585978cb4cf702a7b9cb46"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a4689b1c8e2585978cb4cf702a7b9cb46">filtersInitialized</a> = false</td></tr>
+<tr class="memitem:aa68a0ac99f0093b6a1ddf48bcc6213af" id="r_aa68a0ac99f0093b6a1ddf48bcc6213af"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa68a0ac99f0093b6a1ddf48bcc6213af">initialLoadScheduled</a> = false</td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a00bbf3a8f09d2ae03529ffd7af734658" name="a00bbf3a8f09d2ae03529ffd7af734658"></a>
@@ -489,7 +492,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_ade5d95d2e27f36e37c51256ca87eb721_icgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_ade5d95d2e27f36e37c51256ca87eb721_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -727,6 +730,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ae9929e27c9916865c9032f175f7af3ef" name="ae9929e27c9916865c9032f175f7af3ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9929e27c9916865c9032f175f7af3ef">&#9670;&#160;</a></span>initializeFilters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDatabaseDisplayWidget::initializeFilters </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_ae9929e27c9916865c9032f175f7af3ef_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_ae9929e27c9916865c9032f175f7af3ef_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a7ce9e1e8cf753bb97e8727d0944f71d2" name="a7ce9e1e8cf753bb97e8727d0944f71d2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ce9e1e8cf753bb97e8727d0944f71d2">&#9670;&#160;</a></span>isVisualDisplayMode()</h2>
 
@@ -767,7 +805,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a68cbb03374d3668a507adea2dc871283_icgraph.svg" width="100%" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a68cbb03374d3668a507adea2dc871283_icgraph.svg" width="100%" height="570"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -885,7 +923,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_ab78c682fc14a079228cfc08e0e4afee6_icgraph.svg" width="100%" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_ab78c682fc14a079228cfc08e0e4afee6_icgraph.svg" width="100%" height="570"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1208,7 +1246,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a9c32dbb1747bc4426b77b4e7184923a7_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a9c32dbb1747bc4426b77b4e7184923a7_icgraph.svg" width="100%" height="408"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1227,6 +1265,36 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a016d8ece53348c977feeb586ebf2d5cc" name="a016d8ece53348c977feeb586ebf2d5cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a016d8ece53348c977feeb586ebf2d5cc">&#9670;&#160;</a></span>showEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDatabaseDisplayWidget::showEvent </td>
+          <td>(</td>
+          <td class="paramtype">QShowEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d32/classVisualDatabaseDisplayWidget_a016d8ece53348c977feeb586ebf2d5cc_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -1560,6 +1628,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a4689b1c8e2585978cb4cf702a7b9cb46" name="a4689b1c8e2585978cb4cf702a7b9cb46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4689b1c8e2585978cb4cf702a7b9cb46">&#9670;&#160;</a></span>filtersInitialized</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool VisualDatabaseDisplayWidget::filtersInitialized = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a02c9e7503daf8ef8dde494f50edcf92c" name="a02c9e7503daf8ef8dde494f50edcf92c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a02c9e7503daf8ef8dde494f50edcf92c">&#9670;&#160;</a></span>flowWidget</h2>
 
@@ -1582,8 +1672,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a4e3361d5b0dddaa26c92267e38d91bf7" name="a4e3361d5b0dddaa26c92267e38d91bf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e3361d5b0dddaa26c92267e38d91bf7">&#9670;&#160;</a></span>loadCardsTimer</h2>
+<a id="aa68a0ac99f0093b6a1ddf48bcc6213af" name="aa68a0ac99f0093b6a1ddf48bcc6213af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa68a0ac99f0093b6a1ddf48bcc6213af">&#9670;&#160;</a></span>initialLoadScheduled</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1592,7 +1682,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QTimer* VisualDatabaseDisplayWidget::loadCardsTimer</td>
+          <td class="memname">bool VisualDatabaseDisplayWidget::initialLoadScheduled = false</td>
         </tr>
       </table>
   </td>

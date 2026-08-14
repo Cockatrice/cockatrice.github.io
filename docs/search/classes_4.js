@@ -82,6 +82,5 @@ var searchData=
   ['event_5fusermessage_79',['Event_UserMessage',['../d0/d3d/structEvent__UserMessage.html',1,'']]],
   ['exactcard_80',['ExactCard',['../df/d4e/classExactCard.html',1,'']]],
   ['exceptionrule_81',['ExceptionRule',['../de/dae/structExceptionRule.html',1,'']]],
-  ['expression_82',['Expression',['../de/d94/classExpression.html',1,'']]],
-  ['extradecksearchinfo_83',['ExtraDeckSearchInfo',['../d1/d36/structExtraDeckSearchInfo.html',1,'']]]
+  ['expression_82',['Expression',['../de/d94/classExpression.html',1,'']]]
 ];

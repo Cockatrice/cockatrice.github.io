@@ -14,6 +14,7 @@ var classAbstractCounter =
     [ "hoverLeaveEvent", "d4/d67/classAbstractCounter.html#a8bfff772ad1042991fce1392acf9ecd2", null ],
     [ "incrementCounter", "d4/d67/classAbstractCounter.html#a8e5c60520600f311206baf171c4dd1f3", null ],
     [ "mousePressEvent", "d4/d67/classAbstractCounter.html#a6dfdaaeaad933c1decd10897ed066f62", null ],
+    [ "onValueChanged", "d4/d67/classAbstractCounter.html#a85ee8fb73dde10558781a29b01871c3b", null ],
     [ "refreshShortcuts", "d4/d67/classAbstractCounter.html#a3378a0b27c44076991a0f94d079db8f3", null ],
     [ "retranslateUi", "d4/d67/classAbstractCounter.html#a0d65591c0c7e7aa68374700f775a9645", null ],
     [ "setCounter", "d4/d67/classAbstractCounter.html#af7334fc6e5ab8cbb02f62f569c229126", null ],

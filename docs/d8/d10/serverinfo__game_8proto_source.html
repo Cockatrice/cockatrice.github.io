@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-14-Development-3.1.0-beta.5</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -164,13 +164,17 @@ $(function(){initNavTree('d8/d10/serverinfo__game_8proto_source.html','../../','
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../d4/dbe/structServerInfo__Game.html#a4806413527d74bd8deae71d699c8b73f">   62</a></span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="comment">// whether the game is closed. Closed games are finished and can&#39;t be interacted with</span></div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    optional <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d4/dbe/structServerInfo__Game.html#ace2fdc98e1f0dd58c229c3671f8c90b3">closed</a> = 52;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../d4/dbe/structServerInfo__Game.html#ace2fdc98e1f0dd58c229c3671f8c90b3">   65</a></span>}</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../d4/dbe/structServerInfo__Game.html#ace2fdc98e1f0dd58c229c3671f8c90b3">   65</a></span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="comment">// the current host of the game, which may differ from the creator after a host transfer</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    optional <a class="code hl_struct" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> <a class="code hl_variable" href="../../d4/dbe/structServerInfo__Game.html#a373ea8a6bf034ef3b2af1fef1609944d">host_info</a> = 53;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../d4/dbe/structServerInfo__Game.html#a373ea8a6bf034ef3b2af1fef1609944d">   68</a></span>}</div>
 </div>
 <div class="ttc" id="aadmin__commands_8proto_html_adbedb258e13546cc707a6ebb073a3d8a"><div class="ttname"><a href="../../d6/d75/admin__commands_8proto.html#adbedb258e13546cc707a6ebb073a3d8a">syntax</a></div><div class="ttdeci">syntax</div><div class="ttdef"><b>Definition</b> admin_commands.proto:1</div></div>
 <div class="ttc" id="aserverinfo__user_8proto_html"><div class="ttname"><a href="../../dc/d44/serverinfo__user_8proto.html">serverinfo_user.proto</a></div></div>
 <div class="ttc" id="astructServerInfo__Game_html"><div class="ttname"><a href="../../d4/dbe/structServerInfo__Game.html">ServerInfo_Game</a></div><div class="ttdef"><b>Definition</b> serverinfo_game.proto:5</div></div>
 <div class="ttc" id="astructServerInfo__Game_html_a137540d6a2492016705e7fe8d211b411"><div class="ttname"><a href="../../d4/dbe/structServerInfo__Game.html#a137540d6a2492016705e7fe8d211b411">ServerInfo_Game::game_id</a></div><div class="ttdeci">optional sint32 game_id</div><div class="ttdef"><b>Definition</b> serverinfo_game.proto:14</div></div>
 <div class="ttc" id="astructServerInfo__Game_html_a1b3d65ee2785d613d54384e163793901"><div class="ttname"><a href="../../d4/dbe/structServerInfo__Game.html#a1b3d65ee2785d613d54384e163793901">ServerInfo_Game::spectators_omniscient</a></div><div class="ttdeci">optional bool spectators_omniscient</div><div class="ttdef"><b>Definition</b> serverinfo_game.proto:47</div></div>
+<div class="ttc" id="astructServerInfo__Game_html_a373ea8a6bf034ef3b2af1fef1609944d"><div class="ttname"><a href="../../d4/dbe/structServerInfo__Game.html#a373ea8a6bf034ef3b2af1fef1609944d">ServerInfo_Game::host_info</a></div><div class="ttdeci">optional ServerInfo_User host_info</div><div class="ttdef"><b>Definition</b> serverinfo_game.proto:68</div></div>
 <div class="ttc" id="astructServerInfo__Game_html_a429dc00a368fc62c9a6d1136dce8173f"><div class="ttname"><a href="../../d4/dbe/structServerInfo__Game.html#a429dc00a368fc62c9a6d1136dce8173f">ServerInfo_Game::room_id</a></div><div class="ttdeci">optional sint32 room_id</div><div class="ttdef"><b>Definition</b> serverinfo_game.proto:11</div></div>
 <div class="ttc" id="astructServerInfo__Game_html_a4806413527d74bd8deae71d699c8b73f"><div class="ttname"><a href="../../d4/dbe/structServerInfo__Game.html#a4806413527d74bd8deae71d699c8b73f">ServerInfo_Game::start_time</a></div><div class="ttdeci">optional uint32 start_time</div><div class="ttdef"><b>Definition</b> serverinfo_game.proto:62</div></div>
 <div class="ttc" id="astructServerInfo__Game_html_a5931f204d610df928735ed3d92594aad"><div class="ttname"><a href="../../d4/dbe/structServerInfo__Game.html#a5931f204d610df928735ed3d92594aad">ServerInfo_Game::with_password</a></div><div class="ttdeci">optional bool with_password</div><div class="ttdef"><b>Definition</b> serverinfo_game.proto:20</div></div>

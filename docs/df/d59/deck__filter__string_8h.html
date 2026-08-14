@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-14-Development-3.1.0-beta.5</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -99,7 +99,7 @@ $(function(){initNavTree('df/d59/deck__filter__string_8h.html','../../',''); });
   <div class="headertitle"><div class="title">deck_filter_string.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../da/d94/deck__preview__widget_8h_source.html">../interface/widgets/visual_deck_storage/deck_preview/deck_preview_widget.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../da/d25/loaded__deck_8h_source.html">../interface/deck_loader/loaded_deck.h</a>&quot;</code><br />
 <code>#include &lt;QLoggingCategory&gt;</code><br />
 <code>#include &lt;QString&gt;</code><br />
 <code>#include &lt;functional&gt;</code><br />
@@ -118,26 +118,26 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:ExtraDeckSearchInfo" id="r_ExtraDeckSearchInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="../../d1/d36/structExtraDeckSearchInfo.html">ExtraDeckSearchInfo</a></td></tr>
+<tr class="memitem:DeckSearchData" id="r_DeckSearchData"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="../../d9/df8/structDeckSearchData.html">DeckSearchData</a></td></tr>
 <tr class="memitem:DeckFilterString" id="r_DeckFilterString"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="../../d5/dc2/classDeckFilterString.html">DeckFilterString</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a33463e1514affff65013584b66537087" id="r_a33463e1514affff65013584b66537087"><td class="memItemLeft">typedef std::function&lt; bool(const <a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a> *, const <a class="el" href="../../d1/d36/structExtraDeckSearchInfo.html">ExtraDeckSearchInfo</a> &amp;)&gt;&#160;</td><td class="memItemRight"><a class="el" href="#a33463e1514affff65013584b66537087">DeckFilter</a></td></tr>
+<tr class="memitem:ab5a76366e06880fdbf4e5cf1f0dac3a7" id="r_ab5a76366e06880fdbf4e5cf1f0dac3a7"><td class="memItemLeft">typedef std::function&lt; bool(const <a class="el" href="../../d9/df8/structDeckSearchData.html">DeckSearchData</a> &amp;data)&gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab5a76366e06880fdbf4e5cf1f0dac3a7">DeckFilter</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aa8b3a84163249abcadd880e09abb7308" id="r_aa8b3a84163249abcadd880e09abb7308"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa8b3a84163249abcadd880e09abb7308">Q_LOGGING_CATEGORY</a> (DeckFilterStringLog, &quot;deck_filter_string&quot;)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a33463e1514affff65013584b66537087" name="a33463e1514affff65013584b66537087"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33463e1514affff65013584b66537087">&#9670;&#160;</a></span>DeckFilter</h2>
+<a id="ab5a76366e06880fdbf4e5cf1f0dac3a7" name="ab5a76366e06880fdbf4e5cf1f0dac3a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5a76366e06880fdbf4e5cf1f0dac3a7">&#9670;&#160;</a></span>DeckFilter</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::function&lt;bool(const <a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a> *, const <a class="el" href="../../d1/d36/structExtraDeckSearchInfo.html">ExtraDeckSearchInfo</a> &amp;)&gt; <a class="el" href="#a33463e1514affff65013584b66537087">DeckFilter</a></td>
+          <td class="memname">typedef std::function&lt;bool(const <a class="el" href="../../d9/df8/structDeckSearchData.html">DeckSearchData</a> &amp;data)&gt; <a class="el" href="#ab5a76366e06880fdbf4e5cf1f0dac3a7">DeckFilter</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -171,7 +171,7 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000014">Todo</a></b></dt><dd>Document this file. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000013">Todo</a></b></dt><dd>Document this file. </dd></dl>
 
 </div>
 </div>

@@ -31,6 +31,7 @@ var classServer =
     [ "getGameShouldPing", "db/d00/classServer.html#ae9561bd84fe3874ee75e13ce09adcf73", null ],
     [ "getIdleClientTimeout", "db/d00/classServer.html#ad508ecf2e0c0074fb12be8cf777ef6a3", null ],
     [ "getLoginMessage", "db/d00/classServer.html#a566907e5a150cbe7761ebdfa45fa6dae", null ],
+    [ "getLoginSessionEvent", "db/d00/classServer.html#a8b83e76738b20fa14faa95efb0dd4784", null ],
     [ "getMaxCommandCountPerInterval", "db/d00/classServer.html#a7c949cf9ece875a9bedee3b9aa292fc8", null ],
     [ "getMaxGameInactivityTime", "db/d00/classServer.html#a24ce48283f399fded0b70ffd551fba08", null ],
     [ "getMaxGamesPerUser", "db/d00/classServer.html#a35e3a09eb7eed52ee5da91dc4960ef38", null ],

@@ -120,10 +120,14 @@ var group__CardDatabase =
       [ "getSpecificPrinting", "d8/dbe/classCardDatabaseQuerier.html#a9290152b7a0d6f5adf643bba33d2cde7", null ],
       [ "getSpecificPrinting", "d8/dbe/classCardDatabaseQuerier.html#ac6bddedb729a6fded2bef5f61b1934bb", null ],
       [ "guessCard", "d8/dbe/classCardDatabaseQuerier.html#a976eac55c8dffaea621414c439d2f74e", null ],
+      [ "invalidateCaches", "d8/dbe/classCardDatabaseQuerier.html#ae85aee3b687c199fb77f199e692fb68c", null ],
       [ "isPreferredPrinting", "d8/dbe/classCardDatabaseQuerier.html#a05b921764c9c29c7aea31bd4cd03b212", null ],
       [ "lookupCardByName", "d8/dbe/classCardDatabaseQuerier.html#a88851785aa59886aa8f53e09ef163585", null ],
       [ "db", "d8/dbe/classCardDatabaseQuerier.html#a6396bd7e9c448e857264b30adc6a5112", null ],
-      [ "prefs", "d8/dbe/classCardDatabaseQuerier.html#a23b87c1580b96ff915c04204b8cc6268", null ]
+      [ "formatsCountCache", "d8/dbe/classCardDatabaseQuerier.html#aaa88be6840c7949216e2ff1bca07b0d4", null ],
+      [ "mainCardTypeCountsCache", "d8/dbe/classCardDatabaseQuerier.html#a49967b9fc32962e2a943fd14cfb7263e", null ],
+      [ "prefs", "d8/dbe/classCardDatabaseQuerier.html#a23b87c1580b96ff915c04204b8cc6268", null ],
+      [ "subCardTypeCountsCache", "d8/dbe/classCardDatabaseQuerier.html#ae420e500c02a65f57c9ecbebca1ec416", null ]
     ] ],
     [ "ICardDatabaseParser", "d4/dfe/classICardDatabaseParser.html", [
       [ "ICardDatabaseParser", "d4/dfe/classICardDatabaseParser.html#a161a67495843dc3d27529aa47a889df7", null ],

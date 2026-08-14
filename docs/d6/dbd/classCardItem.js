@@ -2,7 +2,7 @@ var classCardItem =
 [
     [ "CardItem", "d6/dbd/classCardItem.html#a1f44b2982636342cdfd86030da3908bc", null ],
     [ "addAttachedCard", "d6/dbd/classCardItem.html#af9f82ceec48142484cdae5c4afb5914f", null ],
-    [ "animationEvent", "d6/dbd/classCardItem.html#afeb512c33421acc38c2de02d67ad2954", null ],
+    [ "animationEvent", "d6/dbd/classCardItem.html#a1bc6b427ad6c747d38d980271ecdeac9", null ],
     [ "createDragItem", "d6/dbd/classCardItem.html#ab406049a44e376361f34dec030d99b8c", null ],
     [ "deleteDragItem", "d6/dbd/classCardItem.html#a11a295fed06a249d59baacceafee7467", null ],
     [ "deleteLater", "d6/dbd/classCardItem.html#aaea32d499d90c7fc724d407850a08ba3", null ],

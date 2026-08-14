@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-08-Development-3.1.0-beta.4</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-14-Development-3.1.0-beta.5</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -107,7 +107,7 @@ $(function(){initNavTree('d6/d6f/classTableZone.html','../../','d5/d62/classTabl
 <div class="dynheader">
 Inheritance diagram for TableZone:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d5e/classTableZone__inherit__graph.svg" width="174" height="330"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d5e/classTableZone__inherit__graph.svg" width="283" height="330"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for TableZone:</div>
@@ -131,6 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abb74274d2a776edf55621d4c123fec1a" id="r_abb74274d2a776edf55621d4c123fec1a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#abb74274d2a776edf55621d4c123fec1a">TableZone</a> (<a class="el" href="../../dc/ded/classTableZoneLogic.html">TableZoneLogic</a> *_logic, bool <a class="el" href="#a8025972a9de7703aefc7a241ac6f032f">mirrored</a>, QGraphicsItem *parent=nullptr)</td></tr>
 <tr class="memitem:aa5bc29be4db724fb001788a223d9cb35" id="r_aa5bc29be4db724fb001788a223d9cb35"><td class="memItemLeft">QRectF&#160;</td><td class="memItemRight"><a class="el" href="#aa5bc29be4db724fb001788a223d9cb35">boundingRect</a> () const override</td></tr>
 <tr class="memitem:a049ba4ae8a44aa10ff31299be7a8d257" id="r_a049ba4ae8a44aa10ff31299be7a8d257"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a049ba4ae8a44aa10ff31299be7a8d257">paint</a> (QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override</td></tr>
+<tr class="memitem:a45c316443bc89dfea3b593c35a2ca587" id="r_a45c316443bc89dfea3b593c35a2ca587"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a45c316443bc89dfea3b593c35a2ca587">triggerDamageShimmer</a> ()</td></tr>
+<tr class="memitem:aaacec74549ce94ba21bd574293e3fa1e" id="r_aaacec74549ce94ba21bd574293e3fa1e"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aaacec74549ce94ba21bd574293e3fa1e">animationEvent</a> () override</td></tr>
+<tr class="memdesc:aaacec74549ce94ba21bd574293e3fa1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decays the damage shimmer by one timer tick.  <br /></td></tr>
 <tr class="memitem:ac958837aa5ffa93bdf59b14bb05a009d" id="r_ac958837aa5ffa93bdf59b14bb05a009d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac958837aa5ffa93bdf59b14bb05a009d">toggleTapped</a> ()</td></tr>
 <tr class="memitem:ac17a53c5b6e259da5b0e85c803114be4" id="r_ac17a53c5b6e259da5b0e85c803114be4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac17a53c5b6e259da5b0e85c803114be4">handleDropEvent</a> (const QList&lt; <a class="el" href="../../d5/dd3/classCardDragItem.html">CardDragItem</a> * &gt; &amp;dragItems, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *startZone, const QPoint &amp;dropPoint) override</td></tr>
 <tr class="memitem:a3e9c21b3c31cb08b0bee680785117be8" id="r_a3e9c21b3c31cb08b0bee680785117be8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3e9c21b3c31cb08b0bee680785117be8">handleDropEventByGrid</a> (const QList&lt; <a class="el" href="../../d5/dd3/classCardDragItem.html">CardDragItem</a> * &gt; &amp;dragItems, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *startZone, const QPoint &amp;gridPoint)</td></tr>
@@ -159,6 +162,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a432f5022efcc74dcfa94ac9acbf3fb65 inherit pub_methods_classCardZone" id="r_a432f5022efcc74dcfa94ac9acbf3fb65"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a432f5022efcc74dcfa94ac9acbf3fb65">setMenu</a> (QMenu *_menu, QAction *_doubleClickAction=0)</td></tr>
 <tr class="inherit_header pub_methods_classAbstractGraphicsItem"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classAbstractGraphicsItem')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="../../de/dfe/classAbstractGraphicsItem.html">AbstractGraphicsItem</a></td></tr>
 <tr class="memitem:aa5bbe73de9b947e1578582c639decfd9 inherit pub_methods_classAbstractGraphicsItem" id="r_aa5bbe73de9b947e1578582c639decfd9"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="../../de/dfe/classAbstractGraphicsItem.html#aa5bbe73de9b947e1578582c639decfd9">AbstractGraphicsItem</a> (QGraphicsItem *parent=nullptr)</td></tr>
+<tr class="inherit_header pub_methods_classIAnimatedItem"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classIAnimatedItem')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="../../da/dd9/classIAnimatedItem.html">IAnimatedItem</a></td></tr>
+<tr class="memitem:aef7c8011be0832bbe24387faf62d1cd2 inherit pub_methods_classIAnimatedItem" id="r_aef7c8011be0832bbe24387faf62d1cd2"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="../../da/dd9/classIAnimatedItem.html#aef7c8011be0832bbe24387faf62d1cd2">~IAnimatedItem</a> ()=default</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -191,6 +196,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa69a5329c8e12b49d7804e90b22bb273" id="r_aa69a5329c8e12b49d7804e90b22bb273"><td class="memItemLeft">QPixmap&#160;</td><td class="memItemRight"><a class="el" href="#aa69a5329c8e12b49d7804e90b22bb273">backgroundPixelMap</a></td></tr>
 <tr class="memitem:ac7737b35855d6a60917afa160b93e177" id="r_ac7737b35855d6a60917afa160b93e177"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac7737b35855d6a60917afa160b93e177">active</a> = false</td></tr>
 <tr class="memitem:a8025972a9de7703aefc7a241ac6f032f" id="r_a8025972a9de7703aefc7a241ac6f032f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8025972a9de7703aefc7a241ac6f032f">mirrored</a> = false</td></tr>
+<tr class="memitem:aaeb25064fc1bdfa79eacd0a3aebd7116" id="r_aaeb25064fc1bdfa79eacd0a3aebd7116"><td class="memItemLeft">QElapsedTimer&#160;</td><td class="memItemRight"><a class="el" href="#aaeb25064fc1bdfa79eacd0a3aebd7116">shimmerClock</a></td></tr>
+<tr class="memitem:ad69f8e74af1d1e8bf84f112646c34153" id="r_ad69f8e74af1d1e8bf84f112646c34153"><td class="memItemLeft">qreal&#160;</td><td class="memItemRight"><a class="el" href="#ad69f8e74af1d1e8bf84f112646c34153">damageShimmerAlpha</a> = 0.0</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -209,6 +216,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:a56ada4dfe0246bd4430c60371acddd59" id="r_a56ada4dfe0246bd4430c60371acddd59"><td class="memItemLeft">static const QColor&#160;</td><td class="memItemRight"><a class="el" href="#a56ada4dfe0246bd4430c60371acddd59">FADE_MASK</a> = QColor(0, 0, 0, 80)</td></tr>
 <tr class="memitem:a95987cbcefe960e9d768456cc496bf0f" id="r_a95987cbcefe960e9d768456cc496bf0f"><td class="memItemLeft">static const QColor&#160;</td><td class="memItemRight"><a class="el" href="#a95987cbcefe960e9d768456cc496bf0f">GRADIENT_COLOR</a> = QColor(255, 255, 255, 150)</td></tr>
 <tr class="memitem:ad0eba76e7bed824b4ade2c1b9709b80b" id="r_ad0eba76e7bed824b4ade2c1b9709b80b"><td class="memItemLeft">static const QColor&#160;</td><td class="memItemRight"><a class="el" href="#ad0eba76e7bed824b4ade2c1b9709b80b">GRADIENT_COLORLESS</a> = QColor(255, 255, 255, 0)</td></tr>
+<tr class="memitem:a3916776b82c76daf4b9817e31fab4386" id="r_a3916776b82c76daf4b9817e31fab4386"><td class="memItemLeft">static constexpr qreal&#160;</td><td class="memItemRight"><a class="el" href="#a3916776b82c76daf4b9817e31fab4386">shimmerDurationMs</a> = 450.0</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -250,8 +258,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../d6/d6f/classTableZone.html" title="TableZone is the grid based rect where CardItems may be placed.">TableZone</a> is the grid based rect where CardItems may be placed. </p>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000072">Todo</a></b></dt><dd>Document this file. </dd></dl>
-<p>It is the main play zone and can be customized with background images. </p><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000073">Todo</a></b></dt><dd>Refactor methods to make more readable, extract logic to private methods (especially <a class="el" href="#a051dd462b5e0fb0e55d3d1d0d8abda65">reorganizeCards()</a>). </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000071">Todo</a></b></dt><dd>Document this file. </dd></dl>
+<p>It is the main play zone and can be customized with background images. </p><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000072">Todo</a></b></dt><dd>Refactor methods to make more readable, extract logic to private methods (especially <a class="el" href="#a051dd462b5e0fb0e55d3d1d0d8abda65">reorganizeCards()</a>). </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abb74274d2a776edf55621d4c123fec1a" name="abb74274d2a776edf55621d4c123fec1a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abb74274d2a776edf55621d4c123fec1a">&#9670;&#160;</a></span>TableZone()</h2>
@@ -301,6 +309,35 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="aaacec74549ce94ba21bd574293e3fa1e" name="aaacec74549ce94ba21bd574293e3fa1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaacec74549ce94ba21bd574293e3fa1e">&#9670;&#160;</a></span>animationEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TableZone::animationEvent </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Decays the damage shimmer by one timer tick. </p>
+
+<p>Implements <a class="el" href="../../da/dd9/classIAnimatedItem.html#a513a36f11347f0119e4d41390c8bc0a0">IAnimatedItem</a>.</p>
+
+</div>
+</div>
 <a id="aa5bc29be4db724fb001788a223d9cb35" name="aa5bc29be4db724fb001788a223d9cb35"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa5bc29be4db724fb001788a223d9cb35">&#9670;&#160;</a></span>boundingRect()</h2>
 
@@ -1133,6 +1170,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a45c316443bc89dfea3b593c35a2ca587" name="a45c316443bc89dfea3b593c35a2ca587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45c316443bc89dfea3b593c35a2ca587">&#9670;&#160;</a></span>triggerDamageShimmer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TableZone::triggerDamageShimmer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Flashes the table surface after a player loses life.</p>
+<p>Wired up through the life counter so the battlefield glows when life drops. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_a45c316443bc89dfea3b593c35a2ca587_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a545e9b1000b33e5fb26779c671b70360" name="a545e9b1000b33e5fb26779c671b70360"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a545e9b1000b33e5fb26779c671b70360">&#9670;&#160;</a></span>updateBg</h2>
 
@@ -1286,6 +1347,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">int TableZone::currentMinimumWidth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad69f8e74af1d1e8bf84f112646c34153" name="ad69f8e74af1d1e8bf84f112646c34153"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad69f8e74af1d1e8bf84f112646c34153">&#9670;&#160;</a></span>damageShimmerAlpha</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal TableZone::damageShimmerAlpha = 0.0</td>
         </tr>
       </table>
   </td>
@@ -1555,6 +1638,50 @@ Here is the caller graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaeb25064fc1bdfa79eacd0a3aebd7116" name="aaeb25064fc1bdfa79eacd0a3aebd7116"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeb25064fc1bdfa79eacd0a3aebd7116">&#9670;&#160;</a></span>shimmerClock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QElapsedTimer TableZone::shimmerClock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3916776b82c76daf4b9817e31fab4386" name="a3916776b82c76daf4b9817e31fab4386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3916776b82c76daf4b9817e31fab4386">&#9670;&#160;</a></span>shimmerDurationMs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal TableZone::shimmerDurationMs = 450.0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

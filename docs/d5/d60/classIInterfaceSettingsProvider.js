@@ -2,6 +2,7 @@ var classIInterfaceSettingsProvider =
 [
     [ "~IInterfaceSettingsProvider", "d5/d60/classIInterfaceSettingsProvider.html#a83bf773431d11d9407762b4e9f6a283e", null ],
     [ "getAnnotateTokens", "d5/d60/classIInterfaceSettingsProvider.html#a493d07ee536190a65465e00ce119d89b", null ],
+    [ "getBattlefieldFlashEnabled", "d5/d60/classIInterfaceSettingsProvider.html#ab82d314d53634b10095e5912f3a896e0", null ],
     [ "getBuddyConnectNotificationsEnabled", "d5/d60/classIInterfaceSettingsProvider.html#ad7bd1cfcbf6c47249a6f570227a4fd55", null ],
     [ "getCardViewExpandedRowsMax", "d5/d60/classIInterfaceSettingsProvider.html#ac25385602fd758bcb5a0c017038d0bbb", null ],
     [ "getCardViewInitialRowsMax", "d5/d60/classIInterfaceSettingsProvider.html#a1dc4c18135db353fc9caaf2c93ad9756", null ],
@@ -15,6 +16,7 @@ var classIInterfaceSettingsProvider =
     [ "getInvertVerticalCoordinate", "d5/d60/classIInterfaceSettingsProvider.html#a85fc0011e98f7b1ca406e90ab5aa4a83", null ],
     [ "getKeepGameChatFocus", "d5/d60/classIInterfaceSettingsProvider.html#aba5234f726f020d7b52a5c217333aec4", null ],
     [ "getLeftJustified", "d5/d60/classIInterfaceSettingsProvider.html#a8f7f7e36cb91523b5b88140e65e342a9", null ],
+    [ "getLifeCounterAnimationsEnabled", "d5/d60/classIInterfaceSettingsProvider.html#aec30504c00dcc5347cfff52d20925684", null ],
     [ "getMinPlayersForMultiColumnLayout", "d5/d60/classIInterfaceSettingsProvider.html#a4d3168b6be2dba2158430a4436aa1d57", null ],
     [ "getNotificationsEnabled", "d5/d60/classIInterfaceSettingsProvider.html#a6ad07eeddcc0b5035d491c549a9b4964", null ],
     [ "getPlayToStack", "d5/d60/classIInterfaceSettingsProvider.html#abc04ade41a8b74d9134d9d839add3969", null ],
@@ -24,6 +26,7 @@ var classIInterfaceSettingsProvider =
     [ "getShowShortcuts", "d5/d60/classIInterfaceSettingsProvider.html#ae4405d440f3f6fee3226e6c0624bdbc5", null ],
     [ "getShowStatusBar", "d5/d60/classIInterfaceSettingsProvider.html#a59378961580a26c9936b4c57ca5ca01c", null ],
     [ "getShowTotalSelectionCount", "d5/d60/classIInterfaceSettingsProvider.html#aa6338b369c31bf20beb5445af9345f68", null ],
+    [ "getSkipEmptySections", "d5/d60/classIInterfaceSettingsProvider.html#a375552216bc2e8f4e19832f173192e20", null ],
     [ "getSpectatorNotificationsEnabled", "d5/d60/classIInterfaceSettingsProvider.html#acb6ddd0e5fa28ce6bc10b21c965b1223", null ],
     [ "getStartingHandSize", "d5/d60/classIInterfaceSettingsProvider.html#ae7fd9ad4acd926e0a9e388e8d648b7ad", null ],
     [ "getTallyType", "d5/d60/classIInterfaceSettingsProvider.html#a0e232b20536c90f26aa2d1ae20a4bbd5", null ],

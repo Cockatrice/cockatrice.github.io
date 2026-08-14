@@ -16,10 +16,8 @@ var group__CardPrintings =
       [ "printing", "df/d4e/classExactCard.html#a716bba80438929c3a0c43f82deb5c7b1", null ]
     ] ],
     [ "PrintingInfo", "d6/d90/classPrintingInfo.html", [
-      [ "PrintingInfo", "d6/d90/classPrintingInfo.html#af384a7f19845cee93bd02ef3de2bcad5", null ],
-      [ "PrintingInfo", "d6/d90/classPrintingInfo.html#ab27de275341dbedcb655221a6480baaf", null ],
+      [ "PrintingInfo", "d6/d90/classPrintingInfo.html#aadd4d83acea9892beae15b0bdafe218b", null ],
       [ "~PrintingInfo", "d6/d90/classPrintingInfo.html#af19aa23535fdee84a0400cfc252d0ec7", null ],
-      [ "ensurePropertiesLoaded", "d6/d90/classPrintingInfo.html#a16b15989848a6a64b82deca09d61fe49", null ],
       [ "getFlavorName", "d6/d90/classPrintingInfo.html#a41d31bc9a6afbd9c72083c0a48f3f076", null ],
       [ "getProperties", "d6/d90/classPrintingInfo.html#aecff5ef49d1a30f74b276b3f63a4bc46", null ],
       [ "getPropertiesHash", "d6/d90/classPrintingInfo.html#acaae252356825fb3a1d5a226f4c5bfde", null ],
@@ -29,10 +27,7 @@ var group__CardPrintings =
       [ "isEmpty", "d6/d90/classPrintingInfo.html#ab06c8f60b1373d56e796c563094b73f1", null ],
       [ "operator==", "d6/d90/classPrintingInfo.html#a522caa424ad5372decec64efdc9b2206", null ],
       [ "setProperty", "d6/d90/classPrintingInfo.html#a9be9b5577d7b4075a9797858958e7aef", null ],
-      [ "propertiesBlob", "d6/d90/classPrintingInfo.html#add09966409f5351106c4e86b3a53ff14", null ],
-      [ "propertiesCache", "d6/d90/classPrintingInfo.html#a981717df7f0c5956f7d44f17135a2363", null ],
-      [ "propertiesLoaded", "d6/d90/classPrintingInfo.html#ade2c88774706950bd23ddbda262fdcdf", null ],
-      [ "propertiesMutex", "d6/d90/classPrintingInfo.html#a9742f07d978c01c3b5ffba3592909c99", null ],
+      [ "properties", "d6/d90/classPrintingInfo.html#a4d41458c90cee90588e526f51046ad5c", null ],
       [ "set", "d6/d90/classPrintingInfo.html#af33d15f1c3318397b081f5b6dcbffd88", null ]
     ] ]
 ];

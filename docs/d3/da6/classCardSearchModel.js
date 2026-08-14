@@ -1,6 +1,9 @@
 var classCardSearchModel =
 [
     [ "SearchResult", "df/d87/structCardSearchModel_1_1SearchResult.html", "df/d87/structCardSearchModel_1_1SearchResult" ],
+    [ "CardSearchRoles", "d3/da6/classCardSearchModel.html#ac4a3a9b6a794aa55ac4e235c4a236a51", [
+      [ "CardInfoRole", "d3/da6/classCardSearchModel.html#ac4a3a9b6a794aa55ac4e235c4a236a51ab2d2aca89259b61a04a1803066c175e2", null ]
+    ] ],
     [ "CardSearchModel", "d3/da6/classCardSearchModel.html#a905552f5528221f136e36e55b8aba8da", null ],
     [ "data", "d3/da6/classCardSearchModel.html#af7e5b8c59520e151b2a6b023367b2488", null ],
     [ "rowCount", "d3/da6/classCardSearchModel.html#a48b387b648df5a905c541e754248f8ec", null ],
