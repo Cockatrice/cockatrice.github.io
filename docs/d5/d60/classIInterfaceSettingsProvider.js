@@ -30,6 +30,7 @@ var classIInterfaceSettingsProvider =
     [ "getSpectatorNotificationsEnabled", "d5/d60/classIInterfaceSettingsProvider.html#acb6ddd0e5fa28ce6bc10b21c965b1223", null ],
     [ "getStartingHandSize", "d5/d60/classIInterfaceSettingsProvider.html#ae7fd9ad4acd926e0a9e388e8d648b7ad", null ],
     [ "getTallyType", "d5/d60/classIInterfaceSettingsProvider.html#a0e232b20536c90f26aa2d1ae20a4bbd5", null ],
+    [ "getUserListExpandedSections", "d5/d60/classIInterfaceSettingsProvider.html#a60d5a6600ff7050d39dc9ca396d02bb3", null ],
     [ "getUseTearOffMenus", "d5/d60/classIInterfaceSettingsProvider.html#a951f1ec355acdacc78ecf4d84a330414", null ],
     [ "getZoneViewGroupByIndex", "d5/d60/classIInterfaceSettingsProvider.html#a1b9aacf23c6fa4c8e11d902500ca859b", null ],
     [ "getZoneViewPileView", "d5/d60/classIInterfaceSettingsProvider.html#ad39d45eafa8de087113cfc812406ea33", null ],

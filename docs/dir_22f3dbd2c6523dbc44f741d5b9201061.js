@@ -15,6 +15,8 @@ var dir_22f3dbd2c6523dbc44f741d5b9201061 =
     [ "intent_login.h", "dc/d7f/intent__login_8h.html", "dc/d7f/intent__login_8h" ],
     [ "intent_open_local_deck.cpp", "d1/d06/intent__open__local__deck_8cpp.html", null ],
     [ "intent_open_local_deck.h", "de/de5/intent__open__local__deck_8h.html", "de/de5/intent__open__local__deck_8h" ],
+    [ "intent_open_server_room_by_name.cpp", "d6/d5c/intent__open__server__room__by__name_8cpp.html", null ],
+    [ "intent_open_server_room_by_name.h", "dc/dd7/intent__open__server__room__by__name_8h.html", "dc/dd7/intent__open__server__room__by__name_8h" ],
     [ "intent_wait_for_database_load.cpp", "de/d33/intent__wait__for__database__load_8cpp.html", null ],
     [ "intent_wait_for_database_load.h", "d6/dfa/intent__wait__for__database__load_8h.html", "d6/dfa/intent__wait__for__database__load_8h" ],
     [ "url_parser.cpp", "d3/d32/url__parser_8cpp.html", null ],

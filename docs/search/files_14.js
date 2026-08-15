@@ -31,9 +31,11 @@ var searchData=
   ['user_5flist_5fmanager_2eh_28',['user_list_manager.h',['../d3/d57/user__list__manager_8h.html',1,'']]],
   ['user_5flist_5fpainter_2ecpp_29',['user_list_painter.cpp',['../dd/d70/user__list__painter_8cpp.html',1,'']]],
   ['user_5flist_5fpainter_2eh_30',['user_list_painter.h',['../d6/d1d/user__list__painter_8h.html',1,'']]],
-  ['user_5flist_5fproxy_2eh_31',['user_list_proxy.h',['../db/d5d/user__list__proxy_8h.html',1,'']]],
-  ['user_5flist_5fwidget_2ecpp_32',['user_list_widget.cpp',['../dc/d13/user__list__widget_8cpp.html',1,'']]],
-  ['user_5flist_5fwidget_2eh_33',['user_list_widget.h',['../d9/d2a/user__list__widget_8h.html',1,'']]],
-  ['utility_5fmenu_2ecpp_34',['utility_menu.cpp',['../db/db3/utility__menu_8cpp.html',1,'']]],
-  ['utility_5fmenu_2eh_35',['utility_menu.h',['../da/d3e/utility__menu_8h.html',1,'']]]
+  ['user_5flist_5fpanel_5fwidget_2ecpp_31',['user_list_panel_widget.cpp',['../d5/dbc/user__list__panel__widget_8cpp.html',1,'']]],
+  ['user_5flist_5fpanel_5fwidget_2eh_32',['user_list_panel_widget.h',['../d7/d6b/user__list__panel__widget_8h.html',1,'']]],
+  ['user_5flist_5fproxy_2eh_33',['user_list_proxy.h',['../db/d5d/user__list__proxy_8h.html',1,'']]],
+  ['user_5flist_5fwidget_2ecpp_34',['user_list_widget.cpp',['../dc/d13/user__list__widget_8cpp.html',1,'']]],
+  ['user_5flist_5fwidget_2eh_35',['user_list_widget.h',['../d9/d2a/user__list__widget_8h.html',1,'']]],
+  ['utility_5fmenu_2ecpp_36',['utility_menu.cpp',['../db/db3/utility__menu_8cpp.html',1,'']]],
+  ['utility_5fmenu_2eh_37',['utility_menu.h',['../da/d3e/utility__menu_8h.html',1,'']]]
 ];

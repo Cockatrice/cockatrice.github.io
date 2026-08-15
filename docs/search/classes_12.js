@@ -111,5 +111,6 @@ var searchData=
   ['stackzone_108',['StackZone',['../df/d82/classStackZone.html',1,'']]],
   ['stackzonelogic_109',['StackZoneLogic',['../db/dfe/classStackZoneLogic.html',1,'']]],
   ['storagesettingspage_110',['StorageSettingsPage',['../dd/dc3/classStorageSettingsPage.html',1,'']]],
-  ['syntaxerrorexception_111',['SyntaxErrorException',['../df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html',1,'peg::ParserGenerator']]]
+  ['style_111',['Style',['../d3/d6e/structUserListPainter_1_1Style.html',1,'UserListPainter']]],
+  ['syntaxerrorexception_112',['SyntaxErrorException',['../df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html',1,'peg::ParserGenerator']]]
 ];

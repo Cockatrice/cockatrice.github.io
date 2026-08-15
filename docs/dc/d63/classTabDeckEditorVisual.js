@@ -17,6 +17,7 @@ var classTabDeckEditorVisual =
     [ "refreshShortcuts", "dc/d63/classTabDeckEditorVisual.html#a337d55db65af9cd2fbafd73a21447702", null ],
     [ "restartLayout", "dc/d63/classTabDeckEditorVisual.html#a7b29a1688ef8781eeb2bd92b1a8a1b6e", null ],
     [ "retranslateUi", "dc/d63/classTabDeckEditorVisual.html#a4b19367f3db21bf231f9912dde075e80", null ],
+    [ "setDeck", "dc/d63/classTabDeckEditorVisual.html#a9548cf5b67a4a6a70b8a20932e065e48", null ],
     [ "centralFrame", "dc/d63/classTabDeckEditorVisual.html#aec91c521ca5625c9f1361834a4350709", null ],
     [ "centralWidget", "dc/d63/classTabDeckEditorVisual.html#a41e7eb516e39d703f25870699e0495fc", null ],
     [ "searchAndDatabaseDock", "dc/d63/classTabDeckEditorVisual.html#af418aa296559c24abb77e21ce522b06d", null ],

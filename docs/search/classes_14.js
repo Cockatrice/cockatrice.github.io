@@ -20,9 +20,10 @@ var searchData=
   ['userlistitemdelegate_17',['UserListItemDelegate',['../dc/d89/classUserListItemDelegate.html',1,'']]],
   ['userlistmanager_18',['UserListManager',['../db/d6d/classUserListManager.html',1,'']]],
   ['userlistpainter_19',['UserListPainter',['../d8/dc1/classUserListPainter.html',1,'']]],
-  ['userlistproxy_20',['UserListProxy',['../dc/dc8/classUserListProxy.html',1,'']]],
-  ['userlisttwi_21',['UserListTWI',['../dd/dc7/classUserListTWI.html',1,'']]],
-  ['userlistwidget_22',['UserListWidget',['../da/d3b/classUserListWidget.html',1,'']]],
-  ['usermessageposition_23',['UserMessagePosition',['../de/d70/classUserMessagePosition.html',1,'']]],
-  ['utilitymenu_24',['UtilityMenu',['../da/d1c/classUtilityMenu.html',1,'']]]
+  ['userlistpanelwidget_20',['UserListPanelWidget',['../da/d60/classUserListPanelWidget.html',1,'']]],
+  ['userlistproxy_21',['UserListProxy',['../dc/dc8/classUserListProxy.html',1,'']]],
+  ['userlisttwi_22',['UserListTWI',['../dd/dc7/classUserListTWI.html',1,'']]],
+  ['userlistwidget_23',['UserListWidget',['../da/d3b/classUserListWidget.html',1,'']]],
+  ['usermessageposition_24',['UserMessagePosition',['../de/d70/classUserMessagePosition.html',1,'']]],
+  ['utilitymenu_25',['UtilityMenu',['../da/d1c/classUtilityMenu.html',1,'']]]
 ];

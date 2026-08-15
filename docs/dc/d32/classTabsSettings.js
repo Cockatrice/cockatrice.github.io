@@ -2,6 +2,10 @@ var classTabsSettings =
 [
     [ "TabsSettings", "dc/d32/classTabsSettings.html#ac54f134d8d76f1e3856990b5c47484a9", null ],
     [ "TabsSettings", "dc/d32/classTabsSettings.html#a1f82600e13b09f9a86cb05a9122dec97", null ],
+    [ "getStartupRoomName", "dc/d32/classTabsSettings.html#ac671f85b1a9a32cf32981a9544fe886e", null ],
+    [ "getStartupServerHost", "dc/d32/classTabsSettings.html#af89c88ff7fcbf1e9bf2be60c606267ce", null ],
+    [ "getStartupServerPort", "dc/d32/classTabsSettings.html#aaf3ad525da1c96035fe038ac0b4377bc", null ],
+    [ "getStartupTabIndex", "dc/d32/classTabsSettings.html#a7f562c0508b830fa3a349c1e3c91a6c7", null ],
     [ "getTabAccountOpen", "dc/d32/classTabsSettings.html#aeebd9d57753e910689023b0271b927ab", null ],
     [ "getTabAdminOpen", "dc/d32/classTabsSettings.html#a7659206b775daa1b055f5b8fe21934fc", null ],
     [ "getTabDeckStorageOpen", "dc/d32/classTabsSettings.html#ae70da7bc21ba0c4f85175441139e787a", null ],
@@ -9,6 +13,10 @@ var classTabsSettings =
     [ "getTabReplaysOpen", "dc/d32/classTabsSettings.html#a688bb6f356d5074cd0a546f5bb7143b8", null ],
     [ "getTabServerOpen", "dc/d32/classTabsSettings.html#a5fab6f9a433d5941497e7eba744d196c", null ],
     [ "getTabVisualDeckStorageOpen", "dc/d32/classTabsSettings.html#a579c832c24bd774fa364f985e901ac03", null ],
+    [ "setStartupRoomName", "dc/d32/classTabsSettings.html#ab89b0f1687b9f90464d8c4ba22bd6d8c", null ],
+    [ "setStartupServerHost", "dc/d32/classTabsSettings.html#a4297bf318c384d612db1891714603f5c", null ],
+    [ "setStartupServerPort", "dc/d32/classTabsSettings.html#ab2b7d0ebb2c724d2cee2c49434ac2a4e", null ],
+    [ "setStartupTabIndex", "dc/d32/classTabsSettings.html#ac0a7ebe0f998f98da0fb4a6bf8f80630", null ],
     [ "setTabAccountOpen", "dc/d32/classTabsSettings.html#a800198f2a165aedec13eece1c91b0290", null ],
     [ "setTabAdminOpen", "dc/d32/classTabsSettings.html#a863e6f2a06293931297542d5dcfe92e4", null ],
     [ "setTabDeckStorageOpen", "dc/d32/classTabsSettings.html#a5acf725d76fb61feb59ab1747f268d60", null ],
@@ -16,5 +24,9 @@ var classTabsSettings =
     [ "setTabReplaysOpen", "dc/d32/classTabsSettings.html#a22c7977a46d92d1a7c82928db85a9b2f", null ],
     [ "setTabServerOpen", "dc/d32/classTabsSettings.html#a1dff906caa87c7d2561688e2e8f3a2a6", null ],
     [ "setTabVisualDeckStorageOpen", "dc/d32/classTabsSettings.html#a27459215f6c8ff80d3cb73230dc35b03", null ],
+    [ "startupRoomNameChanged", "dc/d32/classTabsSettings.html#af948be33ad827f2d4a83ae7e93c5a75a", null ],
+    [ "startupServerHostChanged", "dc/d32/classTabsSettings.html#a46c6a169b357c3e25e6e0817a23ab103", null ],
+    [ "startupServerPortChanged", "dc/d32/classTabsSettings.html#a837f85a2631d4baa76c0407ef7238e7d", null ],
+    [ "startupTabIndexChanged", "dc/d32/classTabsSettings.html#a2d01205272526ade8df5d6b888580768", null ],
     [ "SettingsCache", "dc/d32/classTabsSettings.html#a859ba68015a001567c5ef72352e7b69b", null ]
 ];

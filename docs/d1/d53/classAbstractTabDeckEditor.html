@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-14-Development-3.1.0-beta.5</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-15-Development-3.1.0-beta.6</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -250,6 +250,8 @@ Protected Slots</h2></td></tr>
 <tr class="memitem:a40ee098e949fa4314d7dd8335aeebe84" id="r_a40ee098e949fa4314d7dd8335aeebe84"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a40ee098e949fa4314d7dd8335aeebe84">refreshShortcuts</a> ()=0</td></tr>
 <tr class="memitem:af60e45537569c1a11510b52237204208" id="r_af60e45537569c1a11510b52237204208"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af60e45537569c1a11510b52237204208">closeEvent</a> (QCloseEvent *event) override</td></tr>
 <tr class="memdesc:af60e45537569c1a11510b52237204208"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles dock close events.  <br /></td></tr>
+<tr class="memitem:add2f46f9abcc04f43ddd1d88e34c4c59" id="r_add2f46f9abcc04f43ddd1d88e34c4c59"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#add2f46f9abcc04f43ddd1d88e34c4c59">setDeck</a> (const <a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;_deck)</td></tr>
+<tr class="memdesc:add2f46f9abcc04f43ddd1d88e34c4c59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the deck for this tab.  <br /></td></tr>
 <tr class="inherit_header pro_slots_classTab"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_slots_classTab')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Slots inherited from <a class="el" href="../../de/d9c/classTab.html">Tab</a></td></tr>
 <tr class="memitem:ac49d8dc9f05ebcfb09422bf77fd6c827 inherit pro_slots_classTab" id="r_ac49d8dc9f05ebcfb09422bf77fd6c827"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../de/d9c/classTab.html#ac49d8dc9f05ebcfb09422bf77fd6c827">showCardInfoPopup</a> (const QPoint &amp;pos, const <a class="el" href="../../d1/d66/structCardRef.html">CardRef</a> &amp;cardRef)</td></tr>
 <tr class="memitem:a2ab2dc9ab9ab89dc2b0082c2bb60445c inherit pro_slots_classTab" id="r_a2ab2dc9ab9ab89dc2b0082c2bb60445c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../de/d9c/classTab.html#a2ab2dc9ab9ab89dc2b0082c2bb60445c">deleteCardInfoPopup</a> (const QString &amp;cardName)</td></tr>
@@ -277,8 +279,6 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:add2f46f9abcc04f43ddd1d88e34c4c59" id="r_add2f46f9abcc04f43ddd1d88e34c4c59"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#add2f46f9abcc04f43ddd1d88e34c4c59">setDeck</a> (const <a class="el" href="../../d9/dc2/structLoadedDeck.html">LoadedDeck</a> &amp;_deck)</td></tr>
-<tr class="memdesc:add2f46f9abcc04f43ddd1d88e34c4c59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the deck for this tab.  <br /></td></tr>
 <tr class="memitem:a823d13f8beae9553539687726aedd39a" id="r_a823d13f8beae9553539687726aedd39a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a823d13f8beae9553539687726aedd39a">editDeckInClipboard</a> (bool annotated)</td></tr>
 <tr class="memdesc:a823d13f8beae9553539687726aedd39a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper for editing decks from the clipboard.  <br /></td></tr>
 <tr class="memitem:a624fb9ed2aa13ac8bc4a5d36c5418123" id="r_a624fb9ed2aa13ac8bc4a5d36c5418123"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a624fb9ed2aa13ac8bc4a5d36c5418123">exportToDecklistWebsite</a> (<a class="el" href="../../de/de9/classDeckLoader.html#ad214abc48fd2d93f2a66bacf7d277e4b">DeckLoader::DecklistWebsite</a> website)</td></tr>
@@ -1413,7 +1413,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_ad01e84b6ba3ca44886b4483ae440162b_icgraph.svg" width="100%" height="598"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d53/classAbstractTabDeckEditor_ad01e84b6ba3ca44886b4483ae440162b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2068,7 +2068,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="add2f46f9abcc04f43ddd1d88e34c4c59" name="add2f46f9abcc04f43ddd1d88e34c4c59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add2f46f9abcc04f43ddd1d88e34c4c59">&#9670;&#160;</a></span>setDeck()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#add2f46f9abcc04f43ddd1d88e34c4c59">&#9670;&#160;</a></span>setDeck</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2085,7 +2085,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span><span class="mlabel slot">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2099,6 +2099,8 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
+
+<p>Reimplemented in <a class="el" href="../../dc/d63/classTabDeckEditorVisual.html#a9548cf5b67a4a6a70b8a20932e065e48">TabDeckEditorVisual</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

@@ -17,7 +17,7 @@ var searchData=
   ['ignore_5flist_14',['ignore_list',['../df/d1d/structResponse__Login.html#ac1cd88100b46487e8e430fe22b4895d3',1,'Response_Login']]],
   ['ignore_5ftrace_5fstate_15',['ignore_trace_state',['../df/d94/classpeg_1_1Context.html#ae7fbff9d688f3f1ee74d19a8972d6227',1,'peg::Context']]],
   ['ignoredusers_16',['ignoredUsers',['../db/d6d/classUserListManager.html#a66f8229a72fc32dc3eda29c23a8a104a',1,'UserListManager']]],
-  ['ignorelist_17',['ignoreList',['../d5/da7/classTabAccount.html#ad4e92adaaa0eab6c9e7dd4b59a6b9879',1,'TabAccount::ignoreList'],['../df/d78/classTabRoom.html#a7b8de07e175472fa6d2470d8949cdc85',1,'TabRoom::ignoreList']]],
+  ['ignorelist_17',['ignoreList',['../d5/da7/classTabAccount.html#ad4e92adaaa0eab6c9e7dd4b59a6b9879',1,'TabAccount']]],
   ['ignorenonbuddyusermessages_18',['ignoreNonBuddyUserMessages',['../d2/dae/classMessagesSettingsPage.html#ac34e015598f012515c7cffc86d3d482d',1,'MessagesSettingsPage']]],
   ['ignoresemanticvalue_19',['ignoreSemanticValue',['../d8/d94/classpeg_1_1Definition.html#a0a0e45e5c8b3b1b9daa7da6d8feadbf7',1,'peg::Definition']]],
   ['ignoreunregusermessages_20',['ignoreUnregUserMessages',['../d2/dae/classMessagesSettingsPage.html#a06e9a5728c9bcbc8dde544a43b3a8068',1,'MessagesSettingsPage']]],

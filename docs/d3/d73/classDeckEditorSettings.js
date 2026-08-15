@@ -11,12 +11,15 @@ var classDeckEditorSettings =
     [ "getDefaultDeckEditorType", "d3/d73/classDeckEditorSettings.html#a5ae6bde7ca025aa7a40bbf29aeef3841", null ],
     [ "getOpenDeckInNewTab", "d3/d73/classDeckEditorSettings.html#a76368847bbdec994e41495b055bb483d", null ],
     [ "getTagsWidgetVisible", "d3/d73/classDeckEditorSettings.html#a27812cbada90ab5fdcb182752683ce0e", null ],
+    [ "getVdeStartupTab", "d3/d73/classDeckEditorSettings.html#a447092b87dd3062ed88baf5f42486497", null ],
     [ "setBannerCardComboBoxVisible", "d3/d73/classDeckEditorSettings.html#adc764fa74de224947c78559637f6e88b", null ],
     [ "setCommanderSpellbookIntegrationEnabled", "d3/d73/classDeckEditorSettings.html#a5bfe83a67ee0419d68a8dcbb55684e6d", null ],
     [ "setCommanderSpellbookIntegrationUseOfficialBracketNames", "d3/d73/classDeckEditorSettings.html#aa387c8530173b142cad6f805a772214a", null ],
     [ "setDefaultDeckEditorType", "d3/d73/classDeckEditorSettings.html#a4cb38a48008b069a76324c4e86e8d094", null ],
     [ "setOpenDeckInNewTab", "d3/d73/classDeckEditorSettings.html#a9704d024dae3b9bd11d1fb4bd27815fe", null ],
     [ "setTagsWidgetVisible", "d3/d73/classDeckEditorSettings.html#a6f633f4d097a68ac3456e5ba67250bc5", null ],
+    [ "setVdeStartupTab", "d3/d73/classDeckEditorSettings.html#a8afe7ea6e3165945dbc5ffb0c138c4c4", null ],
     [ "tagsWidgetVisibleChanged", "d3/d73/classDeckEditorSettings.html#a925d5db5c43be5b9b83eacbe8b835a0c", null ],
+    [ "vdeStartupTabChanged", "d3/d73/classDeckEditorSettings.html#a6dd0aa258bf057f05b32748a7fda42e7", null ],
     [ "SettingsCache", "d3/d73/classDeckEditorSettings.html#a859ba68015a001567c5ef72352e7b69b", null ]
 ];

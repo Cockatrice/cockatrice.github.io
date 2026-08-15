@@ -1,6 +1,10 @@
 var classITabsSettingsProvider =
 [
     [ "~ITabsSettingsProvider", "d7/dfe/classITabsSettingsProvider.html#a0d153a87a4ddf7e7c93f8dd1041dc614", null ],
+    [ "getStartupRoomName", "d7/dfe/classITabsSettingsProvider.html#a562c1b37e1c93562593af222ba648469", null ],
+    [ "getStartupServerHost", "d7/dfe/classITabsSettingsProvider.html#a3d44deda61b7f28a2da3cfc263eac20d", null ],
+    [ "getStartupServerPort", "d7/dfe/classITabsSettingsProvider.html#a73c74554aa850b392bae85312f3c3e7d", null ],
+    [ "getStartupTabIndex", "d7/dfe/classITabsSettingsProvider.html#a029863352f4bd8ebfadb4b674f73aa3f", null ],
     [ "getTabAccountOpen", "d7/dfe/classITabsSettingsProvider.html#a4663cebcfb9ca6a7a36e8c64442e787f", null ],
     [ "getTabAdminOpen", "d7/dfe/classITabsSettingsProvider.html#ab25d121dab5cedcde2108c39a5de2eb3", null ],
     [ "getTabDeckStorageOpen", "d7/dfe/classITabsSettingsProvider.html#ab900ffacf4bafda60b30056bd3ef7764", null ],

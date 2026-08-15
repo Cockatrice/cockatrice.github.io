@@ -1,5 +1,11 @@
 var classTabDeckEditorVisualTabWidget =
 [
+    [ "TabIndex", "d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17", [
+      [ "VisualDeckView", "d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17a1f825a2bcea091fee36af0e041e9d846", null ],
+      [ "VisualDatabaseDisplay", "d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17a4932b38f307abca50b17dd8ed56cff5e", null ],
+      [ "DeckAnalytics", "d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17a2daee2a16189a002bbff3a9d19b6cf96", null ],
+      [ "SampleHand", "d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17aafc46af620e1b377ff72651070cbdaca", null ]
+    ] ],
     [ "TabDeckEditorVisualTabWidget", "d9/dcf/classTabDeckEditorVisualTabWidget.html#af10392afb62b1d5edc4b79a1fdc45774", null ],
     [ "actAddCard", "d9/dcf/classTabDeckEditorVisualTabWidget.html#aa810dec38ba5c9ec1af0aecb5002e9da", null ],
     [ "addNewTab", "d9/dcf/classTabDeckEditorVisualTabWidget.html#af4f2e96fc9a2776f042a3cb0aa6efe83", null ],

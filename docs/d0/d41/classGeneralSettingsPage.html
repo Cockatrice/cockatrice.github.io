@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-14-Development-3.1.0-beta.5</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-15-Development-3.1.0-beta.6</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -130,6 +130,7 @@ Private Slots</h2></td></tr>
 <tr class="memitem:a02080824dc84c280f36f88b8bede9187" id="r_a02080824dc84c280f36f88b8bede9187"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a02080824dc84c280f36f88b8bede9187">tokenDatabasePathButtonClicked</a> ()</td></tr>
 <tr class="memitem:aee2ee56d94ed8382ec23e613fca5e9f2" id="r_aee2ee56d94ed8382ec23e613fca5e9f2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aee2ee56d94ed8382ec23e613fca5e9f2">resetAllPathsClicked</a> ()</td></tr>
 <tr class="memitem:ac50c27cb0fcf6fce7bd9749251656aa4" id="r_ac50c27cb0fcf6fce7bd9749251656aa4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac50c27cb0fcf6fce7bd9749251656aa4">languageBoxChanged</a> (int index)</td></tr>
+<tr class="memitem:a94b5416502209f8814f45e4d60e520d4" id="r_a94b5416502209f8814f45e4d60e520d4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a94b5416502209f8814f45e4d60e520d4">updateStartupServerControlsVisibility</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -173,6 +174,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:af97845fc3ec963de3f3b8f23be567303" id="r_af97845fc3ec963de3f3b8f23be567303"><td class="memItemLeft">QLabel&#160;</td><td class="memItemRight"><a class="el" href="#af97845fc3ec963de3f3b8f23be567303">updateReleaseChannelLabel</a></td></tr>
 <tr class="memitem:a50c5483fab2a3816de9be6c8824ca292" id="r_a50c5483fab2a3816de9be6c8824ca292"><td class="memItemLeft">QLabel&#160;</td><td class="memItemRight"><a class="el" href="#a50c5483fab2a3816de9be6c8824ca292">advertiseTranslationPageLabel</a></td></tr>
 <tr class="memitem:ab98fbd652bfa1e2b76619e6b07538845" id="r_ab98fbd652bfa1e2b76619e6b07538845"><td class="memItemLeft">QCheckBox&#160;</td><td class="memItemRight"><a class="el" href="#ab98fbd652bfa1e2b76619e6b07538845">showTipsOnStartup</a></td></tr>
+<tr class="memitem:acf5d415e2152ddc2e98b124771d2c1ec" id="r_acf5d415e2152ddc2e98b124771d2c1ec"><td class="memItemLeft">QLabel&#160;</td><td class="memItemRight"><a class="el" href="#acf5d415e2152ddc2e98b124771d2c1ec">startupTabLabel</a></td></tr>
+<tr class="memitem:afc42c0470c59467a483adbd2aae74edd" id="r_afc42c0470c59467a483adbd2aae74edd"><td class="memItemLeft">QComboBox&#160;</td><td class="memItemRight"><a class="el" href="#afc42c0470c59467a483adbd2aae74edd">startupTabSelector</a></td></tr>
+<tr class="memitem:a897c0d86bce79f1e4e53670ae224ba23" id="r_a897c0d86bce79f1e4e53670ae224ba23"><td class="memItemLeft">QLabel&#160;</td><td class="memItemRight"><a class="el" href="#a897c0d86bce79f1e4e53670ae224ba23">startupServerLabel</a></td></tr>
+<tr class="memitem:ad1b93021dafe8bf5d625860e0aa3c25d" id="r_ad1b93021dafe8bf5d625860e0aa3c25d"><td class="memItemLeft">QComboBox&#160;</td><td class="memItemRight"><a class="el" href="#ad1b93021dafe8bf5d625860e0aa3c25d">startupServerSelector</a></td></tr>
+<tr class="memitem:a5ee5a96900efeda51b0252c979ab858d" id="r_a5ee5a96900efeda51b0252c979ab858d"><td class="memItemLeft">QLabel&#160;</td><td class="memItemRight"><a class="el" href="#a5ee5a96900efeda51b0252c979ab858d">startupRoomLabel</a></td></tr>
+<tr class="memitem:a4a2f45c7d7ac996e0b95dacaa44bdf89" id="r_a4a2f45c7d7ac996e0b95dacaa44bdf89"><td class="memItemLeft">QLineEdit *&#160;</td><td class="memItemRight"><a class="el" href="#a4a2f45c7d7ac996e0b95dacaa44bdf89">startupRoomNameEdit</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -194,11 +201,6 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d41/classGeneralSettingsPage_a194cddb22aa7e0ac755ca26b4675ca99_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>
@@ -611,6 +613,36 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d41/classGeneralSettingsPage_a02080824dc84c280f36f88b8bede9187_icgraph.svg" width="471" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a94b5416502209f8814f45e4d60e520d4" name="a94b5416502209f8814f45e4d60e520d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94b5416502209f8814f45e4d60e520d4">&#9670;&#160;</a></span>updateStartupServerControlsVisibility</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GeneralSettingsPage::updateStartupServerControlsVisibility </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d41/classGeneralSettingsPage_a94b5416502209f8814f45e4d60e520d4_icgraph.svg" width="443" height="66"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1221,6 +1253,138 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QGroupBox* GeneralSettingsPage::startupGroupBox</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ee5a96900efeda51b0252c979ab858d" name="a5ee5a96900efeda51b0252c979ab858d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ee5a96900efeda51b0252c979ab858d">&#9670;&#160;</a></span>startupRoomLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel GeneralSettingsPage::startupRoomLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a2f45c7d7ac996e0b95dacaa44bdf89" name="a4a2f45c7d7ac996e0b95dacaa44bdf89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a2f45c7d7ac996e0b95dacaa44bdf89">&#9670;&#160;</a></span>startupRoomNameEdit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLineEdit* GeneralSettingsPage::startupRoomNameEdit</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a897c0d86bce79f1e4e53670ae224ba23" name="a897c0d86bce79f1e4e53670ae224ba23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a897c0d86bce79f1e4e53670ae224ba23">&#9670;&#160;</a></span>startupServerLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel GeneralSettingsPage::startupServerLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1b93021dafe8bf5d625860e0aa3c25d" name="ad1b93021dafe8bf5d625860e0aa3c25d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1b93021dafe8bf5d625860e0aa3c25d">&#9670;&#160;</a></span>startupServerSelector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QComboBox GeneralSettingsPage::startupServerSelector</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf5d415e2152ddc2e98b124771d2c1ec" name="acf5d415e2152ddc2e98b124771d2c1ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf5d415e2152ddc2e98b124771d2c1ec">&#9670;&#160;</a></span>startupTabLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel GeneralSettingsPage::startupTabLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc42c0470c59467a483adbd2aae74edd" name="afc42c0470c59467a483adbd2aae74edd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc42c0470c59467a483adbd2aae74edd">&#9670;&#160;</a></span>startupTabSelector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QComboBox GeneralSettingsPage::startupTabSelector</td>
         </tr>
       </table>
   </td>

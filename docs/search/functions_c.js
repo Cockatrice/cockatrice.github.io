@@ -9,7 +9,7 @@ var searchData=
   ['make_5fgrammar_6',['make_grammar',['../dc/dbb/classpeg_1_1ParserGenerator.html#a543f2d8a9a40794cb4b82321774792a0',1,'peg::ParserGenerator']]],
   ['makeaction_7',['makeAction',['../dc/d18/card__menu_8cpp.html#a8b8c85b45776796f3a1a196328535138',1,'card_menu.cpp']]],
   ['makeattachcardevent_8',['makeAttachCardEvent',['../dd/d6f/server__abstract__player_8cpp.html#a0a273fbe2a878a1ca806d3c0fe67bef6',1,'server_abstract_player.cpp']]],
-  ['makebtn_9',['makeBtn',['../d8/de8/user__info__popup_8cpp.html#a95d11f4568ebedf41ce7d41913700d09',1,'user_info_popup.cpp']]],
+  ['makebtn_9',['makeBtn',['../d8/de8/user__info__popup_8cpp.html#a2ee6e67e049c3377a180e216b714e74a',1,'user_info_popup.cpp']]],
   ['makecolor_10',['makeColor',['../da/dec/color_8h.html#a1d8bea332919559eaa25348d33b1f31a',1,'color.h']]],
   ['makecreatetokenevent_11',['makeCreateTokenEvent',['../dd/d6f/server__abstract__player_8cpp.html#a18f70efed28619c8f51fe2a60e761387',1,'server_abstract_player.cpp']]],
   ['makekey_12',['makeKey',['../db/da3/user__card__art__provider_8cpp.html#a1248f46ecd071de460918a4c9929b7cc',1,'makeKey(const QString &amp;user, const QString &amp;card, const QString &amp;providerId):&#160;user_card_art_provider.cpp'],['../dd/d70/user__list__painter_8cpp.html#a1248f46ecd071de460918a4c9929b7cc',1,'makeKey(const QString &amp;user, const QString &amp;card, const QString &amp;providerId):&#160;user_list_painter.cpp']]],

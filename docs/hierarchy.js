@@ -530,6 +530,7 @@ var hierarchy =
     [ "Phases", "db/da6/structPhases.html", null ],
     [ "PingPixmapGenerator", "d6/d4f/classPingPixmapGenerator.html", null ],
     [ "PlayerReference", "d8/d3d/classPlayerReference.html", null ],
+    [ "PopupTheme", "d1/d10/structPopupTheme.html", null ],
     [ "peg::Predicate", "da/da7/classpeg_1_1Predicate.html", null ],
     [ "PrintingInfo", "d6/d90/classPrintingInfo.html", null ],
     [ "QAbstractButton", null, [
@@ -810,6 +811,7 @@ var hierarchy =
         [ "IntentJoinServerGame", "dc/d39/classIntentJoinServerGame.html", null ],
         [ "IntentJoinServerRoom", "dd/d25/classIntentJoinServerRoom.html", null ],
         [ "IntentOpenLocalDeck", "dc/db9/classIntentOpenLocalDeck.html", null ],
+        [ "IntentOpenServerRoomByName", "dd/dd9/classIntentOpenServerRoomByName.html", null ],
         [ "IntentWaitForDatabaseLoad", "dc/d10/classIntentWaitForDatabaseLoad.html", null ]
       ] ],
       [ "IntentUrlParser", "d4/d47/classIntentUrlParser.html", null ],
@@ -1097,6 +1099,7 @@ var hierarchy =
       [ "SettingsPopupWidget", "d1/d7d/classSettingsPopupWidget.html", null ],
       [ "UserInfoBox", "df/dea/classUserInfoBox.html", null ],
       [ "UserInfoHeaderWidget", "d7/d45/classUserInfoHeaderWidget.html", null ],
+      [ "UserListPanelWidget", "da/d60/classUserListPanelWidget.html", null ],
       [ "VisualDatabaseDisplayColorFilterCircleWidget", "d2/d83/classVisualDatabaseDisplayColorFilterCircleWidget.html", null ],
       [ "VisualDatabaseDisplayColorFilterWidget", "d6/d6e/classVisualDatabaseDisplayColorFilterWidget.html", null ],
       [ "VisualDatabaseDisplayFilterSaveLoadWidget", "d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html", null ],
@@ -1308,6 +1311,7 @@ var hierarchy =
     [ "peg::Context::Snapshot", "dd/de0/structpeg_1_1Context_1_1Snapshot.html", null ],
     [ "SplitCardPart", "d5/d45/classSplitCardPart.html", null ],
     [ "SelectZone::StackLayoutParams", "d0/d19/structSelectZone_1_1StackLayoutParams.html", null ],
+    [ "UserListPainter::Style", "d3/d6e/structUserListPainter_1_1Style.html", null ],
     [ "TallyRow", "d3/d34/structTallyRow.html", null ],
     [ "testing::Test", null, [
       [ "AddCardAlgorithmTest", "d1/df2/classAddCardAlgorithmTest.html", null ]

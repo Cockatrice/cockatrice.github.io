@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-14-Development-3.1.0-beta.5</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-15-Development-3.1.0-beta.6</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -133,6 +133,7 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a35411c5c05b38ab39d4a9dc0cc26a75e" id="r_a35411c5c05b38ab39d4a9dc0cc26a75e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a35411c5c05b38ab39d4a9dc0cc26a75e">actTabVisualDeckStorage</a> (bool checked)</td></tr>
 <tr class="memitem:a7f72ffb352830f222002f68faf8a7b23" id="r_a7f72ffb352830f222002f68faf8a7b23"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7f72ffb352830f222002f68faf8a7b23">actTabReplays</a> (bool checked)</td></tr>
 <tr class="memitem:a8497e4f61413ef2740ffd0ff992587c9" id="r_a8497e4f61413ef2740ffd0ff992587c9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8497e4f61413ef2740ffd0ff992587c9">openTabServer</a> ()</td></tr>
+<tr class="memitem:a7d95cde550dbc6ac07db81547b1e772d" id="r_a7d95cde550dbc6ac07db81547b1e772d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7d95cde550dbc6ac07db81547b1e772d">addRoomTab</a> (const <a class="el" href="../../d8/d0e/structServerInfo__Room.html">ServerInfo_Room</a> &amp;info, bool setCurrent)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
@@ -190,7 +191,6 @@ Private Slots</h2></td></tr>
 <tr class="memitem:a6396f49593a8033e85531a822d264622" id="r_a6396f49593a8033e85531a822d264622"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6396f49593a8033e85531a822d264622">gameJoined</a> (const <a class="el" href="../../d5/da4/structEvent__GameJoined.html">Event_GameJoined</a> &amp;event)</td></tr>
 <tr class="memitem:ad7ae9e932602258473ab1afd8e4b88a6" id="r_ad7ae9e932602258473ab1afd8e4b88a6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad7ae9e932602258473ab1afd8e4b88a6">localGameJoined</a> (const <a class="el" href="../../d5/da4/structEvent__GameJoined.html">Event_GameJoined</a> &amp;event)</td></tr>
 <tr class="memitem:a3b951ce129061a39d4707707e354e943" id="r_a3b951ce129061a39d4707707e354e943"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3b951ce129061a39d4707707e354e943">gameLeft</a> (<a class="el" href="../../de/d08/classTabGame.html">TabGame</a> *tab)</td></tr>
-<tr class="memitem:a7d95cde550dbc6ac07db81547b1e772d" id="r_a7d95cde550dbc6ac07db81547b1e772d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7d95cde550dbc6ac07db81547b1e772d">addRoomTab</a> (const <a class="el" href="../../d8/d0e/structServerInfo__Room.html">ServerInfo_Room</a> &amp;info, bool setCurrent)</td></tr>
 <tr class="memitem:a307de9ce654a8fff8bf95e90945cabe1" id="r_a307de9ce654a8fff8bf95e90945cabe1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a307de9ce654a8fff8bf95e90945cabe1">roomLeft</a> (<a class="el" href="../../df/d78/classTabRoom.html">TabRoom</a> *tab)</td></tr>
 <tr class="memitem:ab42d442ac4f960784c14ff38f93f39d9" id="r_ab42d442ac4f960784c14ff38f93f39d9"><td class="memItemLeft"><a class="el" href="../../d1/de7/classTabMessage.html">TabMessage</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ab42d442ac4f960784c14ff38f93f39d9">addMessageTab</a> (const QString &amp;userName, bool focus)</td></tr>
 <tr class="memitem:ab262a2fe145ac19d7529a8fdf7c47b93" id="r_ab262a2fe145ac19d7529a8fdf7c47b93"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab262a2fe145ac19d7529a8fdf7c47b93">replayLeft</a> (<a class="el" href="../../de/d08/classTabGame.html">TabGame</a> *tab)</td></tr>
@@ -807,7 +807,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_ab9e6defef11968ee79f93dde3414dec9_icgraph.svg" width="100%" height="549"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_ab9e6defef11968ee79f93dde3414dec9_icgraph.svg" width="100%" height="575"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -947,7 +947,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1029,7 +1029,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_a6a16af01ff76c52ea1760eedbe0d6969_icgraph.svg" width="100%" height="548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_a6a16af01ff76c52ea1760eedbe0d6969_icgraph.svg" width="100%" height="576"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1124,7 +1124,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_ab821eba51d3e7c944addf2c4122ae567_icgraph.svg" width="100%" height="598"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_ab821eba51d3e7c944addf2c4122ae567_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1474,7 +1474,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Opens the always-available tabs, depending on settings. </p>
+<p>Opens the always-available tabs, depending on settings, and lands on the configured startup tab.</p>
+<p>The startup destination is a request: tabs that were not open before (deck editors, storage tabs disabled in the Tabs menu) are opened as part of the startup flow. Destinations that require a server connection (<a class="el" href="../../db/d00/classServer.html">Server</a>, <a class="el" href="../../db/d00/classServer.html">Server</a> Room) are handled asynchronously by <a class="el" href="../../d6/d1a/classMainWindow.html">MainWindow</a> through the intent system, since this class has no <a class="el" href="../../db/d53/classRemoteClient.html">RemoteClient</a>. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

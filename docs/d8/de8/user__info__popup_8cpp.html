@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-14-Development-3.1.0-beta.5</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-15-Development-3.1.0-beta.6</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -101,6 +101,7 @@ $(function(){initNavTree('d8/de8/user__info__popup_8cpp.html','../../',''); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../da/d4c/user__info__popup_8h_source.html">user_info_popup.h</a>&quot;</code><br />
 <code>#include &quot;../../interface/pixel_map_generator.h&quot;</code><br />
+<code>#include &quot;../../interface/theme_manager.h&quot;</code><br />
 <code>#include &quot;../../interface/widgets/tabs/tab_supervisor.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d1d/user__list__painter_8h_source.html">user_list_painter.h</a>&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
@@ -132,11 +133,45 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a95d11f4568ebedf41ce7d41913700d09" id="r_a95d11f4568ebedf41ce7d41913700d09"><td class="memItemLeft">static QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a95d11f4568ebedf41ce7d41913700d09">makeBtn</a> (const QString &amp;label, const QString &amp;tip, QWidget *p)</td></tr>
+<tr class="memitem:a61102bdeca6e9d80ec416130f2fa8508" id="r_a61102bdeca6e9d80ec416130f2fa8508"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#a61102bdeca6e9d80ec416130f2fa8508">colorStr</a> (const QColor &amp;<a class="el" href="../../d0/d91/structcolor.html">color</a>)</td></tr>
+<tr class="memdesc:a61102bdeca6e9d80ec416130f2fa8508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Qt stylesheets accept #aarrggbb, which is QColor::name(QColor::HexArgb).  <br /></td></tr>
+<tr class="memitem:a2ee6e67e049c3377a180e216b714e74a" id="r_a2ee6e67e049c3377a180e216b714e74a"><td class="memItemLeft">static QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a2ee6e67e049c3377a180e216b714e74a">makeBtn</a> (const QString &amp;label, const QString &amp;tip, QWidget *p, const <a class="el" href="../../d1/d10/structPopupTheme.html">PopupTheme</a> &amp;t)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a95d11f4568ebedf41ce7d41913700d09" name="a95d11f4568ebedf41ce7d41913700d09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95d11f4568ebedf41ce7d41913700d09">&#9670;&#160;</a></span>makeBtn()</h2>
+<a id="a61102bdeca6e9d80ec416130f2fa8508" name="a61102bdeca6e9d80ec416130f2fa8508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61102bdeca6e9d80ec416130f2fa8508">&#9670;&#160;</a></span>colorStr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString colorStr </td>
+          <td>(</td>
+          <td class="paramtype">const QColor &amp;</td>          <td class="paramname"><span class="paramname"><em>color</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Qt stylesheets accept #aarrggbb, which is QColor::name(QColor::HexArgb). </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/de8/user__info__popup_8cpp_a61102bdeca6e9d80ec416130f2fa8508_icgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a2ee6e67e049c3377a180e216b714e74a" name="a2ee6e67e049c3377a180e216b714e74a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ee6e67e049c3377a180e216b714e74a">&#9670;&#160;</a></span>makeBtn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,7 +192,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QWidget *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>&#160;)</td>
+          <td class="paramtype">QWidget *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d1/d10/structPopupTheme.html">PopupTheme</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -167,9 +207,14 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/de8/user__info__popup_8cpp_a2ee6e67e049c3377a180e216b714e74a_cgraph.svg" width="211" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/de8/user__info__popup_8cpp_a95d11f4568ebedf41ce7d41913700d09_icgraph.svg" width="608" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/de8/user__info__popup_8cpp_a2ee6e67e049c3377a180e216b714e74a_icgraph.svg" width="608" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

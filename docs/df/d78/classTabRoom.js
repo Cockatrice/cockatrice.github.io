@@ -14,6 +14,7 @@ var classTabRoom =
     [ "getGameSelector", "df/d78/classTabRoom.html#a3fe3b48a271f42ad67fc9d599ce30a7c", null ],
     [ "getGameTypes", "df/d78/classTabRoom.html#a0dc3adaa194c29d04c9918e12a868616", null ],
     [ "getRoomId", "df/d78/classTabRoom.html#aa7e3748d1670c3262ec2ea7715a0805a", null ],
+    [ "getRoomName", "df/d78/classTabRoom.html#ac31d4f1439a31c0810fe358b2ea2921b", null ],
     [ "getTabText", "df/d78/classTabRoom.html#a036f14b7f192cabdbef4c76708f8d8c5", null ],
     [ "getUserInfo", "df/d78/classTabRoom.html#a3abc7384afda0b3b68a4c270dbf5c7ad", null ],
     [ "maximizeClient", "df/d78/classTabRoom.html#a60e7647a7288c15446b1f4e5771080a4", null ],
@@ -41,10 +42,8 @@ var classTabRoom =
     [ "chatGroupBox", "df/d78/classTabRoom.html#ad0de66c3cf9afba0e7c168d8fe6777ae", null ],
     [ "chatView", "df/d78/classTabRoom.html#a80ab639d8fa5548056ce6b567768b1cf", null ],
     [ "client", "df/d78/classTabRoom.html#af0b211ddc653ae18b5dbd4ed6b546004", null ],
-    [ "friendsList", "df/d78/classTabRoom.html#a45a35511e908674efe96733046371777", null ],
     [ "gameSelector", "df/d78/classTabRoom.html#abf6049893b36318f079d2c2509e055a5", null ],
     [ "gameTypes", "df/d78/classTabRoom.html#a351fe2c901a1abfd798bf12e9b86ec52", null ],
-    [ "ignoreList", "df/d78/classTabRoom.html#a7b8de07e175472fa6d2470d8949cdc85", null ],
     [ "mentionCompleter", "df/d78/classTabRoom.html#a6502ed49c8b2155bcee5fe3e49e1fe5e", null ],
     [ "mentionModel", "df/d78/classTabRoom.html#af432f2a07707dca6ec9bcaa043ca48fe", null ],
     [ "ownUser", "df/d78/classTabRoom.html#addea7f2790e05bf04a7f846cbbc6fc79", null ],
@@ -54,5 +53,6 @@ var classTabRoom =
     [ "sayEdit", "df/d78/classTabRoom.html#ab279295ba95ca0c65bfd62a6b0460164", null ],
     [ "sayLabel", "df/d78/classTabRoom.html#a99080727c7869e4b062e6cb4352b4710", null ],
     [ "userList", "df/d78/classTabRoom.html#ad9f29d5963cbc6e9280b0b870566c00d", null ],
+    [ "userListPanel", "df/d78/classTabRoom.html#a1b867201414d67cad8bdfd1f221687bb", null ],
     [ "userListProxy", "df/d78/classTabRoom.html#adc6720e4d5d9bd584e8e40c665b15c1a", null ]
 ];

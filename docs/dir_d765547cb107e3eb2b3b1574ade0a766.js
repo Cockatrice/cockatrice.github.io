@@ -18,6 +18,8 @@ var dir_d765547cb107e3eb2b3b1574ade0a766 =
     [ "user_list_manager.h", "d3/d57/user__list__manager_8h.html", "d3/d57/user__list__manager_8h" ],
     [ "user_list_painter.cpp", "dd/d70/user__list__painter_8cpp.html", "dd/d70/user__list__painter_8cpp" ],
     [ "user_list_painter.h", "d6/d1d/user__list__painter_8h.html", "d6/d1d/user__list__painter_8h" ],
+    [ "user_list_panel_widget.cpp", "d5/dbc/user__list__panel__widget_8cpp.html", null ],
+    [ "user_list_panel_widget.h", "d7/d6b/user__list__panel__widget_8h.html", "d7/d6b/user__list__panel__widget_8h" ],
     [ "user_list_proxy.h", "db/d5d/user__list__proxy_8h.html", "db/d5d/user__list__proxy_8h" ],
     [ "user_list_widget.cpp", "dc/d13/user__list__widget_8cpp.html", "dc/d13/user__list__widget_8cpp" ],
     [ "user_list_widget.h", "d9/d2a/user__list__widget_8h.html", "d9/d2a/user__list__widget_8h" ]

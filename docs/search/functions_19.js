@@ -122,10 +122,11 @@ var searchData=
   ['_7etipsoftheday_119',['~TipsOfTheDay',['../da/dc7/classTipsOfTheDay.html#a22715051ed846ffd7099afcc37c27ac9',1,'TipsOfTheDay']]],
   ['_7eunzip_120',['~UnZip',['../de/d4e/classUnZip.html#ae386ce110c217c6dd72a826a0b64d1c8',1,'UnZip']]],
   ['_7euserlistmanager_121',['~UserListManager',['../db/d6d/classUserListManager.html#a667fe830d3a1b7671df38858ed7032b6',1,'UserListManager']]],
-  ['_7evisitor_122',['~Visitor',['../d2/daa/structpeg_1_1Ope_1_1Visitor.html#a316d7ba17b8bb435ea3f52d4f36fd4f7',1,'peg::Ope::Visitor']]],
-  ['_7ewebsocketserversocketinterface_123',['~WebsocketServerSocketInterface',['../de/db1/classWebsocketServerSocketInterface.html#a70c24063505c789f4ca4899815ccfe47',1,'WebsocketServerSocketInterface']]],
-  ['_7ewndsets_124',['~WndSets',['../dd/d67/classWndSets.html#a47a79511ca6f9b7b8da5ce6a358cb7f3',1,'WndSets']]],
-  ['_7exzdecompressor_125',['~XzDecompressor',['../d1/dfe/classXzDecompressor.html#a22912e68d1443206a59a2564a8bd6bc9',1,'XzDecompressor']]],
-  ['_7ezip_126',['~Zip',['../d8/df5/classZip.html#a8073ab04f193fbad82fdf7d1bdf09858',1,'Zip']]],
-  ['_7ezipprivate_127',['~ZipPrivate',['../df/daf/classZipPrivate.html#a1689f724ccdcb052a499d31c087c1879',1,'ZipPrivate']]]
+  ['_7euserlistwidget_122',['~UserListWidget',['../da/d3b/classUserListWidget.html#a174e6f6b95d07955d45eaa065024def3',1,'UserListWidget']]],
+  ['_7evisitor_123',['~Visitor',['../d2/daa/structpeg_1_1Ope_1_1Visitor.html#a316d7ba17b8bb435ea3f52d4f36fd4f7',1,'peg::Ope::Visitor']]],
+  ['_7ewebsocketserversocketinterface_124',['~WebsocketServerSocketInterface',['../de/db1/classWebsocketServerSocketInterface.html#a70c24063505c789f4ca4899815ccfe47',1,'WebsocketServerSocketInterface']]],
+  ['_7ewndsets_125',['~WndSets',['../dd/d67/classWndSets.html#a47a79511ca6f9b7b8da5ce6a358cb7f3',1,'WndSets']]],
+  ['_7exzdecompressor_126',['~XzDecompressor',['../d1/dfe/classXzDecompressor.html#a22912e68d1443206a59a2564a8bd6bc9',1,'XzDecompressor']]],
+  ['_7ezip_127',['~Zip',['../d8/df5/classZip.html#a8073ab04f193fbad82fdf7d1bdf09858',1,'Zip']]],
+  ['_7ezipprivate_128',['~ZipPrivate',['../df/daf/classZipPrivate.html#a1689f724ccdcb052a499d31c087c1879',1,'ZipPrivate']]]
 ];

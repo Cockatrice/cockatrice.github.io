@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-14-Development-3.1.0-beta.5</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-15-Development-3.1.0-beta.6</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -104,11 +104,15 @@ $(function(){initNavTree('d8/dc1/classUserListPainter.html','../../','d8/d47/cla
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:Style" id="r_Style"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="../../d3/d6e/structUserListPainter_1_1Style.html">Style</a></td></tr>
 <tr class="memitem:Badge" id="r_Badge"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="../../d1/d2d/structUserListPainter_1_1Badge.html">Badge</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:afac49a1d1112bd2a0e3899855382d154" id="r_afac49a1d1112bd2a0e3899855382d154"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#afac49a1d1112bd2a0e3899855382d154">paint</a> (QPainter *painter, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index, const <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &amp;userInfo, const QMap&lt; QString, QPixmap &gt; *avatarCache, const QMap&lt; QString, QPixmap &gt; *cardArtCache, const QMap&lt; QString, <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &gt; *cardArtParamsMap)</td></tr>
+<tr class="memitem:af22f31dfbdb21d7b7c278d27cdd59ec9" id="r_af22f31dfbdb21d7b7c278d27cdd59ec9"><td class="memItemLeft">static <a class="el" href="../../d3/d6e/structUserListPainter_1_1Style.html">Style</a>&#160;</td><td class="memItemRight"><a class="el" href="#af22f31dfbdb21d7b7c278d27cdd59ec9">resolveStyle</a> (const QPalette &amp;palette, bool dark)</td></tr>
+<tr class="memitem:af40706de62e9aeaf9eba8f86e288839e" id="r_af40706de62e9aeaf9eba8f86e288839e"><td class="memItemLeft">static QColor&#160;</td><td class="memItemRight"><a class="el" href="#af40706de62e9aeaf9eba8f86e288839e">blend</a> (const QColor &amp;a, const QColor &amp;b, qreal t)</td></tr>
+<tr class="memdesc:af40706de62e9aeaf9eba8f86e288839e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linear interpolation: <code class="param">t</code> = 0 returns <code class="param">a</code>, <code class="param">t</code> = 1 returns <code class="param">b</code>.  <br /></td></tr>
+<tr class="memitem:a218bc8f5ce4072d0e56dd5d8387276ab" id="r_a218bc8f5ce4072d0e56dd5d8387276ab"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a218bc8f5ce4072d0e56dd5d8387276ab">paint</a> (QPainter *painter, const QStyleOptionViewItem &amp;option, const QModelIndex &amp;index, const <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &amp;userInfo, const QMap&lt; QString, QPixmap &gt; *avatarCache, const QMap&lt; QString, QPixmap &gt; *cardArtCache, const QMap&lt; QString, <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &gt; *cardArtParamsMap, bool dark)</td></tr>
 <tr class="memitem:a57ed614ebc460e75b58b934f507a398d" id="r_a57ed614ebc460e75b58b934f507a398d"><td class="memItemLeft">static QSize&#160;</td><td class="memItemRight"><a class="el" href="#a57ed614ebc460e75b58b934f507a398d">sizeHint</a> ()</td></tr>
 <tr class="memitem:aeecacb2990e9816fd513bbeb0db65d39" id="r_aeecacb2990e9816fd513bbeb0db65d39"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aeecacb2990e9816fd513bbeb0db65d39">drawCardArt</a> (QPainter *painter, const QRect &amp;rect, int cardRight, const QString &amp;userName, const QMap&lt; QString, QPixmap &gt; *cardArtCache, const <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &amp;params, const QPixmap *overridePixmap)</td></tr>
 </table><table class="memberdecls">
@@ -116,16 +120,57 @@ Static Public Member Functions</h2></td></tr>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a36fa4fb7e41f4490b5bb2666e5129b8f" id="r_a36fa4fb7e41f4490b5bb2666e5129b8f"><td class="memItemLeft">static QColor&#160;</td><td class="memItemRight"><a class="el" href="#a36fa4fb7e41f4490b5bb2666e5129b8f">getAccentColor</a> (const UserLevelFlags &amp;userLevel, bool online)</td></tr>
 <tr class="memitem:a6a1784bff5930e3f99a1e2a41fad5dfc" id="r_a6a1784bff5930e3f99a1e2a41fad5dfc"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#a6a1784bff5930e3f99a1e2a41fad5dfc">getCardRight</a> (const QStyleOptionViewItem &amp;option, const QRect &amp;rect)</td></tr>
-<tr class="memitem:a7d301d64c492627e10e82e7ffb36a16e" id="r_a7d301d64c492627e10e82e7ffb36a16e"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a7d301d64c492627e10e82e7ffb36a16e">drawBackground</a> (QPainter *painter, const QRectF &amp;cardRect, const QColor &amp;accentColor, bool selected)</td></tr>
+<tr class="memitem:a9b5d289ecf06628a18838ee39f7dfe2e" id="r_a9b5d289ecf06628a18838ee39f7dfe2e"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a9b5d289ecf06628a18838ee39f7dfe2e">drawBackground</a> (QPainter *painter, const QRectF &amp;cardRect, const QColor &amp;accentColor, bool selected, const <a class="el" href="../../d3/d6e/structUserListPainter_1_1Style.html">Style</a> &amp;style, bool hasRole)</td></tr>
 <tr class="memitem:a684cfae3f4c1fa3a8393a23dfa0780f2" id="r_a684cfae3f4c1fa3a8393a23dfa0780f2"><td class="memItemLeft">static QRect&#160;</td><td class="memItemRight"><a class="el" href="#a684cfae3f4c1fa3a8393a23dfa0780f2">getAvatarRect</a> (const QRect &amp;rect)</td></tr>
-<tr class="memitem:a28da89dd7f8a51fcc5cd1865399ef52b" id="r_a28da89dd7f8a51fcc5cd1865399ef52b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a28da89dd7f8a51fcc5cd1865399ef52b">drawAvatar</a> (QPainter *painter, const QRect &amp;avatarRect, const QString &amp;userName, const QColor &amp;accentColor, const UserLevelFlags &amp;userLevel, const <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &amp;userInfo, const QString &amp;privLevel, const QMap&lt; QString, QPixmap &gt; *avatarCache)</td></tr>
-<tr class="memitem:a1db8b5ca78a0ddbd16418c3a5b6ffee0" id="r_a1db8b5ca78a0ddbd16418c3a5b6ffee0"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a1db8b5ca78a0ddbd16418c3a5b6ffee0">drawStatusRing</a> (QPainter *painter, const QRect &amp;avatarRect, bool online)</td></tr>
-<tr class="memitem:a071c5e7c07597673974c9b631ce87655" id="r_a071c5e7c07597673974c9b631ce87655"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a071c5e7c07597673974c9b631ce87655">drawUserName</a> (QPainter *painter, const QStyleOptionViewItem &amp;option, const QRect &amp;rect, int cardRight, int textX, const QString &amp;userName, bool online, bool selected)</td></tr>
+<tr class="memitem:a85a09bfff6567760abcdd0391a402f15" id="r_a85a09bfff6567760abcdd0391a402f15"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a85a09bfff6567760abcdd0391a402f15">drawAvatar</a> (QPainter *painter, const QRect &amp;avatarRect, const QString &amp;userName, const QColor &amp;accentColor, const UserLevelFlags &amp;userLevel, const <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &amp;userInfo, const QString &amp;privLevel, const QMap&lt; QString, QPixmap &gt; *avatarCache, const <a class="el" href="../../d3/d6e/structUserListPainter_1_1Style.html">Style</a> &amp;style)</td></tr>
+<tr class="memitem:a114f7fc22da9fd52b8728ca552d8bd72" id="r_a114f7fc22da9fd52b8728ca552d8bd72"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a114f7fc22da9fd52b8728ca552d8bd72">drawStatusRing</a> (QPainter *painter, const QRect &amp;avatarRect, bool online, const <a class="el" href="../../d3/d6e/structUserListPainter_1_1Style.html">Style</a> &amp;style)</td></tr>
+<tr class="memitem:a735d312d442dfe4f5114f3163bda5282" id="r_a735d312d442dfe4f5114f3163bda5282"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a735d312d442dfe4f5114f3163bda5282">drawUserName</a> (QPainter *painter, const QStyleOptionViewItem &amp;option, const QRect &amp;rect, int cardRight, int textX, const QString &amp;userName, bool online, const <a class="el" href="../../d3/d6e/structUserListPainter_1_1Style.html">Style</a> &amp;style)</td></tr>
 <tr class="memitem:ab8bc912e1b7f212b100b032bdcc37ddd" id="r_ab8bc912e1b7f212b100b032bdcc37ddd"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ab8bc912e1b7f212b100b032bdcc37ddd">drawCountryFlag</a> (QPainter *painter, const QRect &amp;rect, int textX, const <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &amp;userInfo)</td></tr>
 <tr class="memitem:a777fce77f4a16625f2f35008c620753b" id="r_a777fce77f4a16625f2f35008c620753b"><td class="memItemLeft">static QList&lt; <a class="el" href="../../d1/d2d/structUserListPainter_1_1Badge.html">Badge</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a777fce77f4a16625f2f35008c620753b">buildBadges</a> (const UserLevelFlags &amp;userLevel, const QString &amp;privLevel)</td></tr>
-<tr class="memitem:aa771dcdd7faec30f7fd82df38071e5eb" id="r_aa771dcdd7faec30f7fd82df38071e5eb"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aa771dcdd7faec30f7fd82df38071e5eb">drawBadges</a> (QPainter *painter, const QStyleOptionViewItem &amp;option, const QRect &amp;rect, int cardRight, const QList&lt; <a class="el" href="../../d1/d2d/structUserListPainter_1_1Badge.html">Badge</a> &gt; &amp;badges, bool online)</td></tr>
+<tr class="memitem:aab839b6abfbf01ac492b3e871d475664" id="r_aab839b6abfbf01ac492b3e871d475664"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aab839b6abfbf01ac492b3e871d475664">drawBadges</a> (QPainter *painter, const QStyleOptionViewItem &amp;option, const QRect &amp;rect, int cardRight, const QList&lt; <a class="el" href="../../d1/d2d/structUserListPainter_1_1Badge.html">Badge</a> &gt; &amp;badges, bool online, const <a class="el" href="../../d3/d6e/structUserListPainter_1_1Style.html">Style</a> &amp;style)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="af40706de62e9aeaf9eba8f86e288839e" name="af40706de62e9aeaf9eba8f86e288839e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af40706de62e9aeaf9eba8f86e288839e">&#9670;&#160;</a></span>blend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QColor UserListPainter::blend </td>
+          <td>(</td>
+          <td class="paramtype">const QColor &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QColor &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Linear interpolation: <code class="param">t</code> = 0 returns <code class="param">a</code>, <code class="param">t</code> = 1 returns <code class="param">b</code>. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_af40706de62e9aeaf9eba8f86e288839e_icgraph.svg" width="100%" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a777fce77f4a16625f2f35008c620753b" name="a777fce77f4a16625f2f35008c620753b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a777fce77f4a16625f2f35008c620753b">&#9670;&#160;</a></span>buildBadges()</h2>
 
@@ -160,8 +205,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a28da89dd7f8a51fcc5cd1865399ef52b" name="a28da89dd7f8a51fcc5cd1865399ef52b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28da89dd7f8a51fcc5cd1865399ef52b">&#9670;&#160;</a></span>drawAvatar()</h2>
+<a id="a85a09bfff6567760abcdd0391a402f15" name="a85a09bfff6567760abcdd0391a402f15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85a09bfff6567760abcdd0391a402f15">&#9670;&#160;</a></span>drawAvatar()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,7 +252,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const QMap&lt; QString, QPixmap &gt; *</td>          <td class="paramname"><span class="paramname"><em>avatarCache</em></span>&#160;)</td>
+          <td class="paramtype">const QMap&lt; QString, QPixmap &gt; *</td>          <td class="paramname"><span class="paramname"><em>avatarCache</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/d6e/structUserListPainter_1_1Style.html">Style</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>style</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -219,18 +269,18 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_a28da89dd7f8a51fcc5cd1865399ef52b_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_a85a09bfff6567760abcdd0391a402f15_cgraph.svg" width="100%" height="400"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_a28da89dd7f8a51fcc5cd1865399ef52b_icgraph.svg" width="635" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_a85a09bfff6567760abcdd0391a402f15_icgraph.svg" width="635" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a7d301d64c492627e10e82e7ffb36a16e" name="a7d301d64c492627e10e82e7ffb36a16e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d301d64c492627e10e82e7ffb36a16e">&#9670;&#160;</a></span>drawBackground()</h2>
+<a id="a9b5d289ecf06628a18838ee39f7dfe2e" name="a9b5d289ecf06628a18838ee39f7dfe2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b5d289ecf06628a18838ee39f7dfe2e">&#9670;&#160;</a></span>drawBackground()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -256,7 +306,17 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>selected</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>selected</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/d6e/structUserListPainter_1_1Style.html">Style</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>style</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>hasRole</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -266,15 +326,20 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_a9b5d289ecf06628a18838ee39f7dfe2e_cgraph.svg" width="460" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_a7d301d64c492627e10e82e7ffb36a16e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_a9b5d289ecf06628a18838ee39f7dfe2e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="aa771dcdd7faec30f7fd82df38071e5eb" name="aa771dcdd7faec30f7fd82df38071e5eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa771dcdd7faec30f7fd82df38071e5eb">&#9670;&#160;</a></span>drawBadges()</h2>
+<a id="aab839b6abfbf01ac492b3e871d475664" name="aab839b6abfbf01ac492b3e871d475664"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab839b6abfbf01ac492b3e871d475664">&#9670;&#160;</a></span>drawBadges()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -310,7 +375,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>online</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>online</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/d6e/structUserListPainter_1_1Style.html">Style</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>style</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -320,9 +390,14 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_aab839b6abfbf01ac492b3e871d475664_cgraph.svg" width="431" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_aa771dcdd7faec30f7fd82df38071e5eb_icgraph.svg" width="640" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_aab839b6abfbf01ac492b3e871d475664_icgraph.svg" width="640" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -440,8 +515,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a1db8b5ca78a0ddbd16418c3a5b6ffee0" name="a1db8b5ca78a0ddbd16418c3a5b6ffee0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1db8b5ca78a0ddbd16418c3a5b6ffee0">&#9670;&#160;</a></span>drawStatusRing()</h2>
+<a id="a114f7fc22da9fd52b8728ca552d8bd72" name="a114f7fc22da9fd52b8728ca552d8bd72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a114f7fc22da9fd52b8728ca552d8bd72">&#9670;&#160;</a></span>drawStatusRing()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -462,7 +537,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>online</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>online</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/d6e/structUserListPainter_1_1Style.html">Style</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>style</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -474,13 +554,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_a1db8b5ca78a0ddbd16418c3a5b6ffee0_icgraph.svg" width="663" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_a114f7fc22da9fd52b8728ca552d8bd72_icgraph.svg" width="663" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a071c5e7c07597673974c9b631ce87655" name="a071c5e7c07597673974c9b631ce87655"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a071c5e7c07597673974c9b631ce87655">&#9670;&#160;</a></span>drawUserName()</h2>
+<a id="a735d312d442dfe4f5114f3163bda5282" name="a735d312d442dfe4f5114f3163bda5282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a735d312d442dfe4f5114f3163bda5282">&#9670;&#160;</a></span>drawUserName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -526,7 +606,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>selected</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="../../d3/d6e/structUserListPainter_1_1Style.html">Style</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>style</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -538,7 +618,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_a071c5e7c07597673974c9b631ce87655_icgraph.svg" width="662" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_a735d312d442dfe4f5114f3163bda5282_icgraph.svg" width="662" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -641,8 +721,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="afac49a1d1112bd2a0e3899855382d154" name="afac49a1d1112bd2a0e3899855382d154"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afac49a1d1112bd2a0e3899855382d154">&#9670;&#160;</a></span>paint()</h2>
+<a id="a218bc8f5ce4072d0e56dd5d8387276ab" name="a218bc8f5ce4072d0e56dd5d8387276ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a218bc8f5ce4072d0e56dd5d8387276ab">&#9670;&#160;</a></span>paint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -683,7 +763,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const QMap&lt; QString, <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &gt; *</td>          <td class="paramname"><span class="paramname"><em>cardArtParamsMap</em></span>&#160;)</td>
+          <td class="paramtype">const QMap&lt; QString, <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &gt; *</td>          <td class="paramname"><span class="paramname"><em>cardArtParamsMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>dark</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -695,12 +780,46 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_afac49a1d1112bd2a0e3899855382d154_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_a218bc8f5ce4072d0e56dd5d8387276ab_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_afac49a1d1112bd2a0e3899855382d154_icgraph.svg" width="384" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_a218bc8f5ce4072d0e56dd5d8387276ab_icgraph.svg" width="384" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="af22f31dfbdb21d7b7c278d27cdd59ec9" name="af22f31dfbdb21d7b7c278d27cdd59ec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af22f31dfbdb21d7b7c278d27cdd59ec9">&#9670;&#160;</a></span>resolveStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d6e/structUserListPainter_1_1Style.html">UserListPainter::Style</a> UserListPainter::resolveStyle </td>
+          <td>(</td>
+          <td class="paramtype">const QPalette &amp;</td>          <td class="paramname"><span class="paramname"><em>palette</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>dark</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dc1/classUserListPainter_af22f31dfbdb21d7b7c278d27cdd59ec9_icgraph.svg" width="618" height="108"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
