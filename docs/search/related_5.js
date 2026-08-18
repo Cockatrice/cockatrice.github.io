@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['qxtprivate_3c_20pub_20_3e_0',['QxtPrivate&lt; PUB &gt;',['../de/ddc/classQxtPrivateInterface.html#a1a9e74afa6faa815c02bc2f184b21c68',1,'QxtPrivateInterface']]]
+  ['opesignature_0',['OpeSignature',['../db/de0/classpeg_1_1CharacterClass.html#a849ac549490ed324981f5a800371381e',1,'peg::CharacterClass']]]
 ];

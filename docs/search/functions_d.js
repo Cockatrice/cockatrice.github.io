@@ -37,6 +37,7 @@ var searchData=
   ['notifyplayerkicked_34',['notifyPlayerKicked',['../de/d08/classTabGame.html#a6679d298f8865631103558ebb88ebac9',1,'TabGame']]],
   ['notifyuseraboutupdate_35',['notifyUserAboutUpdate',['../db/d53/classRemoteClient.html#a8bdb5ca024d9270ab33e513c2f6f913b',1,'RemoteClient']]],
   ['notifyusereventreceived_36',['notifyUserEventReceived',['../dc/d86/classAbstractClient.html#a3724eb71e98c6c58fbdd03c9b983dae4',1,'AbstractClient']]],
-  ['notpredicate_37',['NotPredicate',['../d9/d92/classpeg_1_1NotPredicate.html#aa5a0e18a11e51ade960595d5ccbc34e5',1,'peg::NotPredicate']]],
-  ['npd_38',['npd',['../dc/db2/namespacepeg.html#aa640011930cbd676512eb812ae4fbf17',1,'peg']]]
+  ['notifyuseroffline_37',['notifyUserOffline',['../d1/de7/classTabMessage.html#a3c6d5ee8db3b69f22f848173a0e6ad8d',1,'TabMessage']]],
+  ['notpredicate_38',['NotPredicate',['../d9/d92/classpeg_1_1NotPredicate.html#aa5a0e18a11e51ade960595d5ccbc34e5',1,'peg::NotPredicate']]],
+  ['npd_39',['npd',['../dc/db2/namespacepeg.html#aa640011930cbd676512eb812ae4fbf17',1,'peg']]]
 ];

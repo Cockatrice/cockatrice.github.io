@@ -14,6 +14,8 @@ var classUserContextMenu =
     [ "execBanHistory", "d7/d67/classUserContextMenu.html#a8bd9614726add4ad4a9190f62d2c6adf", null ],
     [ "execChat", "d7/d67/classUserContextMenu.html#a5d163c6c1e437647c06680dbe09370ce", null ],
     [ "execDetails", "d7/d67/classUserContextMenu.html#ac37994a139c99483b92843663307b343", null ],
+    [ "execInvite", "d7/d67/classUserContextMenu.html#ab4ff790435e581d6dfaa2139c6d1c57f", null ],
+    [ "execInvite", "d7/d67/classUserContextMenu.html#a903c1dfa527853ef38d3c948bdb13cf4", null ],
     [ "execKick", "d7/d67/classUserContextMenu.html#a665a5ddd10995053aeef4d2c185989d9", null ],
     [ "execRemoveFromBuddy", "d7/d67/classUserContextMenu.html#ac51cdba852aafecd800b2582e5ee89f9", null ],
     [ "execRemoveFromIgnore", "d7/d67/classUserContextMenu.html#a9fcc5eec7b2321265037eaa094f67c6e", null ],
@@ -23,8 +25,11 @@ var classUserContextMenu =
     [ "gamesOfUserReceived", "d7/d67/classUserContextMenu.html#a88f27c8c806fb4ce91fa9a35533dc0b4", null ],
     [ "getAdminNotes_processResponse", "d7/d67/classUserContextMenu.html#a060cfa5d8dffb381cbb13febf8365940", null ],
     [ "getUserListProxy", "d7/d67/classUserContextMenu.html#aa2ba6dd653052b5d18f6d0a5f56a4453", null ],
+    [ "hasGameInviteLink", "d7/d67/classUserContextMenu.html#a64e16baa1f0ad58d148326d05e9ff9fd", null ],
+    [ "inviteOptionsForUser", "d7/d67/classUserContextMenu.html#a4825a3e9c6e6ed0ba968b1946dd0f8ae", null ],
     [ "openMessageDialog", "d7/d67/classUserContextMenu.html#a245b70097413556945f4f03a89e81d59", null ],
     [ "retranslateUi", "d7/d67/classUserContextMenu.html#a4d1a1eb563a43054a60820f54da27e02", null ],
+    [ "setGameInviteLinkProvider", "d7/d67/classUserContextMenu.html#ab76ca8653fd5fc5ad77fb7190ed191e5", null ],
     [ "showContextMenu", "d7/d67/classUserContextMenu.html#ab6f23cea89375a93e0b893786de58615", null ],
     [ "showContextMenu", "d7/d67/classUserContextMenu.html#a09c03c3d10345985b9022a424f9dcbf0", null ],
     [ "showContextMenu", "d7/d67/classUserContextMenu.html#a7597e1651cbbbfb2b0b74280d7f02aef", null ],
@@ -53,6 +58,7 @@ var classUserContextMenu =
     [ "aWarnUser", "d7/d67/classUserContextMenu.html#a23620dcd42610e090512a305c4eeec63", null ],
     [ "client", "d7/d67/classUserContextMenu.html#a0612afa58e0d452f0859e1e0614c2a58", null ],
     [ "game", "d7/d67/classUserContextMenu.html#a30fa395c4f604f023160b259d18b0aae", null ],
+    [ "gameInviteLinkProvider", "d7/d67/classUserContextMenu.html#a2d876914deb6ed1d0e8c325daf96b70a", null ],
     [ "tabSupervisor", "d7/d67/classUserContextMenu.html#a16f8cb5f3cd8047a49846188f790d5c0", null ],
     [ "userListProxy", "d7/d67/classUserContextMenu.html#abbae7745f6352dcaa3ff3269be3b8531", null ]
 ];

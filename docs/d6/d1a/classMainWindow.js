@@ -45,6 +45,7 @@ var classMainWindow =
     [ "getNextCustomSetPrefix", "d6/d1a/classMainWindow.html#aa69eca00949fd383c1b1bb6d3f0cd881", null ],
     [ "getRemoteClient", "d6/d1a/classMainWindow.html#aa80e78da7019f197df8b45f802ee7db9", null ],
     [ "getTabSupervisor", "d6/d1a/classMainWindow.html#af8376d00ea3433cbd7c13f04ea690a79", null ],
+    [ "handleCockatriceLink", "d6/d1a/classMainWindow.html#abf20bd253be1ab8e3f1642c4016ec2ca", null ],
     [ "localGameEnded", "d6/d1a/classMainWindow.html#a7aee9e10e2bb6453f8f0abbaabd23a9a", null ],
     [ "onStartupDestinationConnected", "d6/d1a/classMainWindow.html#af7d8e36211e4d0a73c3f2b14a92da437", null ],
     [ "pixmapCacheSizeChanged", "d6/d1a/classMainWindow.html#a1a7454f3889aeb3b4d8b97b6c42cb9f9", null ],
@@ -100,5 +101,6 @@ var classMainWindow =
     [ "tabSupervisor", "d6/d1a/classMainWindow.html#ae5b362928a93495f61f1ad9f5e7b81a5", null ],
     [ "tip", "d6/d1a/classMainWindow.html#a6a20a6f36883d30498c02d350ecb6374", null ],
     [ "trayIconMenu", "d6/d1a/classMainWindow.html#a19b098fdb19629900a665a249dc22429", null ],
+    [ "urlParser", "d6/d1a/classMainWindow.html#a98645266191da4b9ec82e5e3f45d8678", null ],
     [ "wndSets", "d6/d1a/classMainWindow.html#aea8e652c33d58ab63e8b1c4f1eee7a8b", null ]
 ];

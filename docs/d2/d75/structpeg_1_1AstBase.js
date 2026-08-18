@@ -1,7 +1,7 @@
 var structpeg_1_1AstBase =
 [
-    [ "AstBase", "d2/d75/structpeg_1_1AstBase.html#aa0337a9fc676efe6d7af99020a7320bf", null ],
-    [ "AstBase", "d2/d75/structpeg_1_1AstBase.html#a19855abbba29b2b03cab0a5bab9dbf1f", null ],
+    [ "AstBase", "d2/d75/structpeg_1_1AstBase.html#a1505abe44d7f6b77eac3990e791f9987", null ],
+    [ "AstBase", "d2/d75/structpeg_1_1AstBase.html#a488bee16b94215289f7980cf563398a7", null ],
     [ "AstBase", "d2/d75/structpeg_1_1AstBase.html#a13b9ee3548d9d4595614725d696bd102", null ],
     [ "token_to_number", "d2/d75/structpeg_1_1AstBase.html#a2bea0abc849b2c26d202170f82bd88de", null ],
     [ "token_to_string", "d2/d75/structpeg_1_1AstBase.html#a9e5661f3bcefd3b32fe4391c56b602fb", null ],
@@ -20,6 +20,7 @@ var structpeg_1_1AstBase =
     [ "parent", "d2/d75/structpeg_1_1AstBase.html#a15e6eee47b52ee59ecc1138aa9c7afab", null ],
     [ "path", "d2/d75/structpeg_1_1AstBase.html#a947790524a68e5cad7b94737e36fa022", null ],
     [ "position", "d2/d75/structpeg_1_1AstBase.html#a59b590ef3829536cfe2da660811bebea", null ],
+    [ "preserve_position", "d2/d75/structpeg_1_1AstBase.html#afb1c3dc36d0eb7dffbc7979ddb0cb354", null ],
     [ "tag", "d2/d75/structpeg_1_1AstBase.html#aedf6804525934b3af8ae9ead8fc9cdd5", null ],
     [ "token", "d2/d75/structpeg_1_1AstBase.html#a71a9583b1bd6a6e13ad62c365b3b4b63", null ]
 ];

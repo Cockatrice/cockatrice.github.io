@@ -5,6 +5,7 @@ var structpeg_1_1ErrorInfo =
     [ "clear", "db/da9/structpeg_1_1ErrorInfo.html#a16c8b9c6c0e0d3d17d076cc9027eb4be", null ],
     [ "heuristic_error_token", "db/da9/structpeg_1_1ErrorInfo.html#a7021cf38d8efdc186281e3632ddfc4ce", null ],
     [ "output_log", "db/da9/structpeg_1_1ErrorInfo.html#aba50700eda63a4a6e099ea86e20f87ed", null ],
+    [ "output_log", "db/da9/structpeg_1_1ErrorInfo.html#a961933f38b6cc3ce69256e437088ca96", null ],
     [ "replace_all", "db/da9/structpeg_1_1ErrorInfo.html#a14bb07ce46d09b423f6b6418765471e4", null ],
     [ "error_pos", "db/da9/structpeg_1_1ErrorInfo.html#ae775f6e21214aaf03f1ebe8f77ca533f", null ],
     [ "expected_tokens", "db/da9/structpeg_1_1ErrorInfo.html#a130d2a3096210e94e1a8252747b2694d", null ],

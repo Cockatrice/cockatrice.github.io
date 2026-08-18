@@ -6,6 +6,7 @@ var classpeg_1_1Trie =
     [ "match", "d4/da5/classpeg_1_1Trie.html#a9a252266af52a133dedff28fe06ce895", null ],
     [ "size", "d4/da5/classpeg_1_1Trie.html#acaf75193b32c0165405d090dcf75a8b6", null ],
     [ "ComputeFirstSet", "d4/da5/classpeg_1_1Trie.html#a9ee13fff4770d19ada03452125f43dfc", null ],
+    [ "GrammarBlob", "d4/da5/classpeg_1_1Trie.html#a309c791d55539c0ce698022c19825edb", null ],
     [ "dic_", "d4/da5/classpeg_1_1Trie.html#a91c998a6083828048de64be97024b729", null ],
     [ "ignore_case_", "d4/da5/classpeg_1_1Trie.html#acfcf1d7f580f18cb76ffc66a7b1d6cdd", null ],
     [ "items_count_", "d4/da5/classpeg_1_1Trie.html#adbd60f562f0bbd132e553229c6417ca4", null ],

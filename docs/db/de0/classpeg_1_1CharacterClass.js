@@ -9,6 +9,8 @@ var classpeg_1_1CharacterClass =
     [ "parse_core", "db/de0/classpeg_1_1CharacterClass.html#a63475952b6c6510bde556e272a84b62a", null ],
     [ "setup_ascii_bitset", "db/de0/classpeg_1_1CharacterClass.html#a5803f91a8431094a892584eb94feddab", null ],
     [ "ComputeFirstSet", "db/de0/classpeg_1_1CharacterClass.html#a9ee13fff4770d19ada03452125f43dfc", null ],
+    [ "GrammarBlob", "db/de0/classpeg_1_1CharacterClass.html#a309c791d55539c0ce698022c19825edb", null ],
+    [ "OpeSignature", "db/de0/classpeg_1_1CharacterClass.html#a849ac549490ed324981f5a800371381e", null ],
     [ "ascii_bitset_", "db/de0/classpeg_1_1CharacterClass.html#afed16fae8422e45c7fbb36f9f4578956", null ],
     [ "ignore_case_", "db/de0/classpeg_1_1CharacterClass.html#a2a4f6f896c4619082f2cfa9721d04e68", null ],
     [ "is_ascii_only_", "db/de0/classpeg_1_1CharacterClass.html#a80ac1f91648b4a61fdfafdfd43c02daa", null ],

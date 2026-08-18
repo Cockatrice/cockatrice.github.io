@@ -10,6 +10,7 @@ var group__UI =
     [ "flow_widget.h", "d5/dd3/flow__widget_8h.html", null ],
     [ "overlap_control_widget.h", "dd/d5d/overlap__control__widget_8h.html", null ],
     [ "overlap_widget.h", "d2/d52/overlap__widget_8h.html", null ],
+    [ "game_link.h", "dc/dae/game__link_8h.html", null ],
     [ "user_list_proxy.h", "db/d5d/user__list__proxy_8h.html", null ],
     [ "custom_line_edit.h", "d0/d23/custom__line__edit_8h.html", null ],
     [ "get_text_with_max.h", "d9/dc8/get__text__with__max_8h.html", null ],

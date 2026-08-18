@@ -1,5 +1,6 @@
 var dir_c8351e4946a3db43e350164236048225 =
 [
+    [ "game_config.h", "d4/d3c/game__config_8h.html", "d4/d3c/game__config_8h" ],
     [ "server_abstract_participant.cpp", "d1/d18/server__abstract__participant_8cpp.html", null ],
     [ "server_abstract_participant.h", "d9/d3f/server__abstract__participant_8h.html", "d9/d3f/server__abstract__participant_8h" ],
     [ "server_abstract_player.cpp", "dd/d6f/server__abstract__player_8cpp.html", "dd/d6f/server__abstract__player_8cpp" ],
@@ -14,6 +15,7 @@ var dir_c8351e4946a3db43e350164236048225 =
     [ "server_cardzone.h", "d2/d5c/server__cardzone_8h.html", "d2/d5c/server__cardzone_8h" ],
     [ "server_counter.cpp", "d1/d9e/server__counter_8cpp.html", null ],
     [ "server_counter.h", "d7/d75/server__counter_8h.html", "d7/d75/server__counter_8h" ],
+    [ "server_deck_validation_strategy.h", "d9/d4e/server__deck__validation__strategy_8h.html", "d9/d4e/server__deck__validation__strategy_8h" ],
     [ "server_game.cpp", "d2/d84/server__game_8cpp.html", null ],
     [ "server_game.h", "db/d12/server__game_8h.html", "db/d12/server__game_8h" ],
     [ "server_move_card_struct.h", "d4/d00/server__move__card__struct_8h.html", "d4/d00/server__move__card__struct_8h" ],

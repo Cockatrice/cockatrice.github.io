@@ -1,6 +1,6 @@
 var classServer__Game =
 [
-    [ "Server_Game", "df/d89/classServer__Game.html#a7d8b0ff8f6ab5452f4f89fc36e0d554b", null ],
+    [ "Server_Game", "df/d89/classServer__Game.html#ac00e6a75dd5af5f7aedb46e3ee111041", null ],
     [ "~Server_Game", "df/d89/classServer__Game.html#a688712ac5fe43e7d1f4e8655a0911969", null ],
     [ "addPlayer", "df/d89/classServer__Game.html#ae148abd9d42256a5b47ad78779575873", null ],
     [ "checkJoin", "df/d89/classServer__Game.html#a626ba6797618028591e6dbc4d58af494", null ],
@@ -13,6 +13,7 @@ var classServer__Game =
     [ "getActivePhase", "df/d89/classServer__Game.html#abd1317ead76c93a8878a302b9be563b6", null ],
     [ "getActivePlayer", "df/d89/classServer__Game.html#a00540bc16b52734c9026fe2f45084b3e", null ],
     [ "getCreatorInfo", "df/d89/classServer__Game.html#aaa94a926691cb3e066e7627645b0c1c0", null ],
+    [ "getDeckValidationStrategy", "df/d89/classServer__Game.html#ac09f1402a0899b239a71417a782102cb", null ],
     [ "getDescription", "df/d89/classServer__Game.html#ae0ce6622c341af91968867181f95359b", null ],
     [ "getGameId", "df/d89/classServer__Game.html#ae5d52d87721a4f422815f85e46de570b", null ],
     [ "getGameStarted", "df/d89/classServer__Game.html#abf00fac26d0cf1f809cadc8efca38931", null ],
@@ -47,6 +48,7 @@ var classServer__Game =
     [ "sendGameStateToPlayers", "df/d89/classServer__Game.html#a03820f49c6252407e7f800b727832fb9", null ],
     [ "setActivePhase", "df/d89/classServer__Game.html#a35e3ec2c25c0d6c25273bf08f421c00c", null ],
     [ "setActivePlayer", "df/d89/classServer__Game.html#ab7071e69dccc862692be181bc322c4d0", null ],
+    [ "setDeckValidationStrategy", "df/d89/classServer__Game.html#afeafcef88f2b6d3b28e7ba5ba0e710c1", null ],
     [ "sigStartGameIfReady", "df/d89/classServer__Game.html#a9c53e80e9fcc25e5319e7e636bbab2ad", null ],
     [ "startGameIfReady", "df/d89/classServer__Game.html#a2df5b24f0b46029452f409710eeffd49", null ],
     [ "stopGameIfFinished", "df/d89/classServer__Game.html#a042625cfa763abbc19149a99aa84a69c", null ],
@@ -58,6 +60,7 @@ var classServer__Game =
     [ "allSpectatorsEver", "df/d89/classServer__Game.html#a89ce520ae9e2502d95e830a76a8b2989", null ],
     [ "creatorInfo", "df/d89/classServer__Game.html#a267c2435f77b3da231a88b182593ee59", null ],
     [ "currentReplay", "df/d89/classServer__Game.html#af3c6c8e8b21c4346224216bf31c16ea8", null ],
+    [ "deckValidationStrategy", "df/d89/classServer__Game.html#acfdeaa2a31ade500469d5c81f91963d0", null ],
     [ "description", "df/d89/classServer__Game.html#a800a4ff3cdb0b41f611e38cd752dbce7", null ],
     [ "firstGameStarted", "df/d89/classServer__Game.html#a270900006524df946340c5a6245f08ff", null ],
     [ "gameClosed", "df/d89/classServer__Game.html#a0b0a1581e8b5425882728c94cdbc0afe", null ],

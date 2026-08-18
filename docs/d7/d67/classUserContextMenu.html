@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-15-Development-3.1.0-beta.6</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -124,7 +124,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7597e1651cbbbfb2b0b74280d7f02aef" id="r_a7597e1651cbbbfb2b0b74280d7f02aef"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7597e1651cbbbfb2b0b74280d7f02aef">showContextMenu</a> (const QPoint &amp;pos, const QString &amp;userName, UserLevelFlags userLevel, <a class="el" href="../../dc/dea/classChatView.html">ChatView</a> *chatView)</td></tr>
 <tr class="memitem:ab6f23cea89375a93e0b893786de58615" id="r_ab6f23cea89375a93e0b893786de58615"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab6f23cea89375a93e0b893786de58615">showContextMenu</a> (const QPoint &amp;pos, const QString &amp;userName, UserLevelFlags userLevel, bool online, int playerId, const QString &amp;deckHash, <a class="el" href="../../dc/dea/classChatView.html">ChatView</a> *chatView=nullptr)</td></tr>
 <tr class="memitem:aa2ba6dd653052b5d18f6d0a5f56a4453" id="r_aa2ba6dd653052b5d18f6d0a5f56a4453"><td class="memItemLeft">const <a class="el" href="../../dc/dc8/classUserListProxy.html">UserListProxy</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aa2ba6dd653052b5d18f6d0a5f56a4453">getUserListProxy</a> () const</td></tr>
+<tr class="memitem:ab76ca8653fd5fc5ad77fb7190ed191e5" id="r_ab76ca8653fd5fc5ad77fb7190ed191e5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab76ca8653fd5fc5ad77fb7190ed191e5">setGameInviteLinkProvider</a> (std::function&lt; QList&lt; <a class="el" href="../../d7/dc5/structGameInviteOption.html">GameInviteOption</a> &gt;()&gt; provider)</td></tr>
+<tr class="memitem:a4825a3e9c6e6ed0ba968b1946dd0f8ae" id="r_a4825a3e9c6e6ed0ba968b1946dd0f8ae"><td class="memItemLeft">QList&lt; <a class="el" href="../../d7/dc5/structGameInviteOption.html">GameInviteOption</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a4825a3e9c6e6ed0ba968b1946dd0f8ae">inviteOptionsForUser</a> (const QString &amp;userName) const</td></tr>
+<tr class="memitem:a64e16baa1f0ad58d148326d05e9ff9fd" id="r_a64e16baa1f0ad58d148326d05e9ff9fd"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a64e16baa1f0ad58d148326d05e9ff9fd">hasGameInviteLink</a> (const QString &amp;userName) const</td></tr>
 <tr class="memitem:a5d163c6c1e437647c06680dbe09370ce" id="r_a5d163c6c1e437647c06680dbe09370ce"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5d163c6c1e437647c06680dbe09370ce">execChat</a> (const QString &amp;userName)</td></tr>
+<tr class="memitem:ab4ff790435e581d6dfaa2139c6d1c57f" id="r_ab4ff790435e581d6dfaa2139c6d1c57f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab4ff790435e581d6dfaa2139c6d1c57f">execInvite</a> (const QString &amp;userName)</td></tr>
 <tr class="memitem:ac37994a139c99483b92843663307b343" id="r_ac37994a139c99483b92843663307b343"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac37994a139c99483b92843663307b343">execDetails</a> (const QString &amp;userName)</td></tr>
 <tr class="memitem:a8e1702cbe6ecdc84fb02d8316a794701" id="r_a8e1702cbe6ecdc84fb02d8316a794701"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8e1702cbe6ecdc84fb02d8316a794701">execShowGames</a> (const QString &amp;userName)</td></tr>
 <tr class="memitem:a8a3b0815841f99176221168ed72c0d15" id="r_a8a3b0815841f99176221168ed72c0d15"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8a3b0815841f99176221168ed72c0d15">execAddToBuddy</a> (const QString &amp;userName)</td></tr>
@@ -154,6 +158,10 @@ Private Slots</h2></td></tr>
 <tr class="memitem:ae09c5da9a96b65ae28cae641d7db4b88" id="r_ae09c5da9a96b65ae28cae641d7db4b88"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae09c5da9a96b65ae28cae641d7db4b88">updateAdminNotes_dialogFinished</a> ()</td></tr>
 <tr class="memitem:a88f27c8c806fb4ce91fa9a35533dc0b4" id="r_a88f27c8c806fb4ce91fa9a35533dc0b4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a88f27c8c806fb4ce91fa9a35533dc0b4">gamesOfUserReceived</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;resp, const <a class="el" href="../../d3/d65/structCommandContainer.html">CommandContainer</a> &amp;commandContainer)</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a903c1dfa527853ef38d3c948bdb13cf4" id="r_a903c1dfa527853ef38d3c948bdb13cf4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a903c1dfa527853ef38d3c948bdb13cf4">execInvite</a> (const QString &amp;userName, const <a class="el" href="../../d7/dc5/structGameInviteOption.html">GameInviteOption</a> &amp;option)</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a0612afa58e0d452f0859e1e0614c2a58" id="r_a0612afa58e0d452f0859e1e0614c2a58"><td class="memItemLeft"><a class="el" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a0612afa58e0d452f0859e1e0614c2a58">client</a></td></tr>
@@ -178,6 +186,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a23620dcd42610e090512a305c4eeec63" id="r_a23620dcd42610e090512a305c4eeec63"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a23620dcd42610e090512a305c4eeec63">aWarnUser</a></td></tr>
 <tr class="memitem:a2bcd3b4c48b95061cf9675b6bb87b354" id="r_a2bcd3b4c48b95061cf9675b6bb87b354"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a2bcd3b4c48b95061cf9675b6bb87b354">aWarnHistory</a></td></tr>
 <tr class="memitem:a90f81f6dd078c29b937eecab7d586ce8" id="r_a90f81f6dd078c29b937eecab7d586ce8"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a90f81f6dd078c29b937eecab7d586ce8">aGetAdminNotes</a></td></tr>
+<tr class="memitem:a2d876914deb6ed1d0e8c325daf96b70a" id="r_a2d876914deb6ed1d0e8c325daf96b70a"><td class="memItemLeft">std::function&lt; QList&lt; <a class="el" href="../../d7/dc5/structGameInviteOption.html">GameInviteOption</a> &gt;()&gt;&#160;</td><td class="memItemRight"><a class="el" href="#a2d876914deb6ed1d0e8c325daf96b70a">gameInviteLinkProvider</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8832d6f39d9cdc3a8054eb394c492a5d" name="a8832d6f39d9cdc3a8054eb394c492a5d"></a>
@@ -577,6 +586,62 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ab4ff790435e581d6dfaa2139c6d1c57f" name="ab4ff790435e581d6dfaa2139c6d1c57f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4ff790435e581d6dfaa2139c6d1c57f">&#9670;&#160;</a></span>execInvite() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserContextMenu::execInvite </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d67/classUserContextMenu_ab4ff790435e581d6dfaa2139c6d1c57f_cgraph.svg" width="508" height="68"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d67/classUserContextMenu_ab4ff790435e581d6dfaa2139c6d1c57f_icgraph.svg" width="542" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a903c1dfa527853ef38d3c948bdb13cf4" name="a903c1dfa527853ef38d3c948bdb13cf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a903c1dfa527853ef38d3c948bdb13cf4">&#9670;&#160;</a></span>execInvite() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserContextMenu::execInvite </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d7/dc5/structGameInviteOption.html">GameInviteOption</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>option</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a665a5ddd10995053aeef4d2c185989d9" name="a665a5ddd10995053aeef4d2c185989d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a665a5ddd10995053aeef4d2c185989d9">&#9670;&#160;</a></span>execKick()</h2>
 
@@ -818,6 +883,60 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a64e16baa1f0ad58d148326d05e9ff9fd" name="a64e16baa1f0ad58d148326d05e9ff9fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64e16baa1f0ad58d148326d05e9ff9fd">&#9670;&#160;</a></span>hasGameInviteLink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UserContextMenu::hasGameInviteLink </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Whether at least one invite link is currently available for <code class="param">userName</code>. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d67/classUserContextMenu_a64e16baa1f0ad58d148326d05e9ff9fd_cgraph.svg" width="503" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a4825a3e9c6e6ed0ba968b1946dd0f8ae" name="a4825a3e9c6e6ed0ba968b1946dd0f8ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4825a3e9c6e6ed0ba968b1946dd0f8ae">&#9670;&#160;</a></span>inviteOptionsForUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="../../d7/dc5/structGameInviteOption.html">GameInviteOption</a> &gt; UserContextMenu::inviteOptionsForUser </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The games currently inviteable for <code class="param">userName</code>, honoring the room's buddy-only setting (the inviter must be the game's creator and the target a buddy of theirs). Empty when there is no live provider. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d67/classUserContextMenu_a4825a3e9c6e6ed0ba968b1946dd0f8ae_icgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a245b70097413556945f4f03a89e81d59" name="a245b70097413556945f4f03a89e81d59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a245b70097413556945f4f03a89e81d59">&#9670;&#160;</a></span>openMessageDialog</h2>
 
@@ -871,6 +990,31 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d67/classUserContextMenu_a4d1a1eb563a43054a60820f54da27e02_icgraph.svg" width="555" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a id="ab76ca8653fd5fc5ad77fb7190ed191e5" name="ab76ca8653fd5fc5ad77fb7190ed191e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab76ca8653fd5fc5ad77fb7190ed191e5">&#9670;&#160;</a></span>setGameInviteLinkProvider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserContextMenu::setGameInviteLinkProvider </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; QList&lt; <a class="el" href="../../d7/dc5/structGameInviteOption.html">GameInviteOption</a> &gt;()&gt;</td>          <td class="paramname"><span class="paramname"><em>provider</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1597,6 +1741,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d3/d44/classAbstractGame.html">AbstractGame</a>* UserContextMenu::game</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d876914deb6ed1d0e8c325daf96b70a" name="a2d876914deb6ed1d0e8c325daf96b70a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d876914deb6ed1d0e8c325daf96b70a">&#9670;&#160;</a></span>gameInviteLinkProvider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;QList&lt;<a class="el" href="../../d7/dc5/structGameInviteOption.html">GameInviteOption</a>&gt;()&gt; UserContextMenu::gameInviteLinkProvider</td>
         </tr>
       </table>
   </td>

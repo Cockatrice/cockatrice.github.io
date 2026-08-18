@@ -3,6 +3,7 @@ var classTab =
     [ "Tab", "de/d9c/classTab.html#a78be3ec2696f8a5ad2e175fb3c6eb6a2", null ],
     [ "addTabMenu", "de/d9c/classTab.html#a16a9cb60f02fe99dfdb5b26511209f8f", null ],
     [ "closeRequest", "de/d9c/classTab.html#abc34e642c5afb7cca0c9e6f84d951976", null ],
+    [ "cockatriceLinkActivated", "de/d9c/classTab.html#a474b35b5f929c2b7a6546c1f4c61b3e7", null ],
     [ "deleteCardInfoPopup", "de/d9c/classTab.html#a2ab2dc9ab9ab89dc2b0082c2bb60445c", null ],
     [ "getContentsChanged", "de/d9c/classTab.html#a03616f6cbec108f2fd1873ab4cb18110", null ],
     [ "getTabMenus", "de/d9c/classTab.html#a6866c81c403157c9370315aaceceac19", null ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-15-Development-3.1.0-beta.6</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -141,6 +141,7 @@ Signals</h2></td></tr>
 <tr class="memitem:ac0b0adf14b567736f673f25113b9d803" id="r_ac0b0adf14b567736f673f25113b9d803"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac0b0adf14b567736f673f25113b9d803">localGameEnded</a> ()</td></tr>
 <tr class="memitem:aaedab92a60588dba7e865bf65bc174b3" id="r_aaedab92a60588dba7e865bf65bc174b3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaedab92a60588dba7e865bf65bc174b3">adminLockChanged</a> (bool lock)</td></tr>
 <tr class="memitem:ac31da367dc37582c4bd0df38b89e2da4" id="r_ac31da367dc37582c4bd0df38b89e2da4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac31da367dc37582c4bd0df38b89e2da4">showWindowIfHidden</a> ()</td></tr>
+<tr class="memitem:a935b44a59bc7b3cc6f2f9ee35fcb9f25" id="r_a935b44a59bc7b3cc6f2f9ee35fcb9f25"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a935b44a59bc7b3cc6f2f9ee35fcb9f25">cockatriceLinkActivated</a> (const QString &amp;url)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -160,6 +161,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeb4c335639b1a1655f686429947b36e3" id="r_aeb4c335639b1a1655f686429947b36e3"><td class="memItemLeft"><a class="el" href="../../dc/d05/classTabServer.html">TabServer</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aeb4c335639b1a1655f686429947b36e3">getTabServer</a> () const</td></tr>
 <tr class="memitem:a42328388160aec9fd9d77fa96df5cbb1" id="r_a42328388160aec9fd9d77fa96df5cbb1"><td class="memItemLeft">const QMap&lt; int, <a class="el" href="../../df/d78/classTabRoom.html">TabRoom</a> * &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a42328388160aec9fd9d77fa96df5cbb1">getRoomTabs</a> () const</td></tr>
 <tr class="memitem:ab6a6fb0241e8e518fd04bd5d981cf2d4" id="r_ab6a6fb0241e8e518fd04bd5d981cf2d4"><td class="memItemLeft">QList&lt; <a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab6a6fb0241e8e518fd04bd5d981cf2d4">getDeckEditorTabs</a> () const</td></tr>
+<tr class="memitem:a9c0f45562627fa4b00e6a0698e4baf2e" id="r_a9c0f45562627fa4b00e6a0698e4baf2e"><td class="memItemLeft">QList&lt; <a class="el" href="../../d7/dc5/structGameInviteOption.html">GameInviteOption</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9c0f45562627fa4b00e6a0698e4baf2e">getGameInviteLinksForRoom</a> (int roomId) const</td></tr>
+<tr class="memitem:ab1ba13561cc2d3880050d711c4335ac3" id="r_ab1ba13561cc2d3880050d711c4335ac3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab1ba13561cc2d3880050d711c4335ac3">sendInviteToUser</a> (const QString &amp;userName, const QString &amp;inviteText)</td></tr>
 <tr class="memitem:afc4339275a69b4f0f1dff57e648d6f2d" id="r_afc4339275a69b4f0f1dff57e648d6f2d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#afc4339275a69b4f0f1dff57e648d6f2d">getAdminLocked</a> () const</td></tr>
 <tr class="memitem:a75c35ea1ffd7225b88f12ce9889db9af" id="r_a75c35ea1ffd7225b88f12ce9889db9af"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a75c35ea1ffd7225b88f12ce9889db9af">closeEvent</a> (QCloseEvent *event) override</td></tr>
 <tr class="memitem:a75b4292024b9027b66fc93790df411ce" id="r_a75b4292024b9027b66fc93790df411ce"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a75b4292024b9027b66fc93790df411ce">switchToGameTabIfAlreadyExists</a> (const int gameId)</td></tr>
@@ -920,7 +923,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_ab42d442ac4f960784c14ff38f93f39d9_icgraph.svg" width="100%" height="540"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_ab42d442ac4f960784c14ff38f93f39d9_icgraph.svg" width="100%" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1090,6 +1093,36 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_a75c35ea1ffd7225b88f12ce9889db9af_cgraph.svg" width="470" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a935b44a59bc7b3cc6f2f9ee35fcb9f25" name="a935b44a59bc7b3cc6f2f9ee35fcb9f25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a935b44a59bc7b3cc6f2f9ee35fcb9f25">&#9670;&#160;</a></span>cockatriceLinkActivated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabSupervisor::cockatriceLinkActivated </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>url</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_a935b44a59bc7b3cc6f2f9ee35fcb9f25_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1301,6 +1334,36 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_a1279d3dc8371e15a215a35b7a2443913_icgraph.svg" width="470" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9c0f45562627fa4b00e6a0698e4baf2e" name="a9c0f45562627fa4b00e6a0698e4baf2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c0f45562627fa4b00e6a0698e4baf2e">&#9670;&#160;</a></span>getGameInviteLinksForRoom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="../../d7/dc5/structGameInviteOption.html">GameInviteOption</a> &gt; TabSupervisor::getGameInviteLinksForRoom </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>roomId</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_a9c0f45562627fa4b00e6a0698e4baf2e_cgraph.svg" width="454" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1579,7 +1642,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_ab4e0f501f282a0331ffaa68651e16db5_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_ab4e0f501f282a0331ffaa68651e16db5_icgraph.svg" width="100%" height="554"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2451,6 +2514,32 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ab1ba13561cc2d3880050d711c4335ac3" name="ab1ba13561cc2d3880050d711c4335ac3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1ba13561cc2d3880050d711c4335ac3">&#9670;&#160;</a></span>sendInviteToUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabSupervisor::sendInviteToUser </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>inviteText</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_ab1ba13561cc2d3880050d711c4335ac3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="ac799b64b60adb0c8374f7ad822bec57c" name="ac799b64b60adb0c8374f7ad822bec57c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac799b64b60adb0c8374f7ad822bec57c">&#9670;&#160;</a></span>setMenu</h2>
 
@@ -2506,7 +2595,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_ac31da367dc37582c4bd0df38b89e2da4_icgraph.svg" width="100%" height="572"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_ac31da367dc37582c4bd0df38b89e2da4_icgraph.svg" width="100%" height="585"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2705,7 +2794,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_a59f84774c6608a778708394bc93f7b01_icgraph.svg" width="100%" height="540"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d81/classTabSupervisor_a59f84774c6608a778708394bc93f7b01_icgraph.svg" width="100%" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

@@ -127,6 +127,7 @@ var namespaces_dup =
       [ "Online", "d7/dc9/namespaceUserListRoles.html#ad8ce129214f65f5ec323fc8e83c3e596", null ],
       [ "UserInfo", "d7/dc9/namespaceUserListRoles.html#a208d64623e00f247f41a49b7ee6c7288", null ]
     ] ],
+    [ "VisualDeckStorageRoles", "d7/d99/namespaceVisualDeckStorageRoles.html", null ],
     [ "ZoneNames", "d0/d0f/namespaceZoneNames.html", [
       [ "DECK", "d0/d0f/namespaceZoneNames.html#af8d05d4775040388288c9177ab4dfbf1", null ],
       [ "EXILE", "d0/d0f/namespaceZoneNames.html#a73b2c9dd3403d532ce61640bac994833", null ],

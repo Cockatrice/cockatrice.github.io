@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-15-Development-3.1.0-beta.6</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -120,6 +120,8 @@ $(function(){initNavTree('d8/ddc/tab__game_8cpp.html','../../',''); });
 <code>#include &quot;../interface/card_picture_loader/card_picture_loader.h&quot;</code><br />
 <code>#include &quot;../interface/widgets/cards/card_info_frame_widget.h&quot;</code><br />
 <code>#include &quot;../interface/widgets/dialogs/dlg_create_game.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/dialogs/dlg_invite_to_game.h&quot;</code><br />
+<code>#include &quot;../interface/widgets/server/game_link.h&quot;</code><br />
 <code>#include &quot;../interface/widgets/server/user/user_list_manager.h&quot;</code><br />
 <code>#include &quot;../interface/widgets/utility/completer_utils.h&quot;</code><br />
 <code>#include &quot;../interface/widgets/utility/line_edit_completer.h&quot;</code><br />
@@ -132,6 +134,8 @@ $(function(){initNavTree('d8/ddc/tab__game_8cpp.html','../../',''); });
 <code>#include &quot;<a class="el" href="../../d8/dba/card__database__model_8h_source.html">card_database_model.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d89/tab__supervisor_8h_source.html">tab_supervisor.h</a>&quot;</code><br />
 <code>#include &lt;QAction&gt;</code><br />
+<code>#include &lt;QApplication&gt;</code><br />
+<code>#include &lt;QClipboard&gt;</code><br />
 <code>#include &lt;QCompleter&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QDockWidget&gt;</code><br />
@@ -139,10 +143,12 @@ $(function(){initNavTree('d8/ddc/tab__game_8cpp.html','../../',''); });
 <code>#include &lt;QLabel&gt;</code><br />
 <code>#include &lt;QMenu&gt;</code><br />
 <code>#include &lt;QMessageBox&gt;</code><br />
+<code>#include &lt;QPushButton&gt;</code><br />
 <code>#include &lt;QRegularExpression&gt;</code><br />
 <code>#include &lt;QStackedWidget&gt;</code><br />
 <code>#include &lt;QStringListModel&gt;</code><br />
 <code>#include &lt;QTimer&gt;</code><br />
+<code>#include &lt;QVBoxLayout&gt;</code><br />
 <code>#include &lt;QWidget&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d7/d66/card__database_8h_source.html">libcockatrice/card/database/card_database.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-15-Development-3.1.0-beta.6</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -114,6 +114,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6854e187188daad7b0b528b4f438914b" id="r_a6854e187188daad7b0b528b4f438914b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a6854e187188daad7b0b528b4f438914b">load_grammar</a> (const char *s, size_t n, std::string_view start={})</td></tr>
 <tr class="memitem:acb761f306d0a7e4ebe2bd98aca41e4af" id="r_acb761f306d0a7e4ebe2bd98aca41e4af"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#acb761f306d0a7e4ebe2bd98aca41e4af">load_grammar</a> (std::string_view sv, const <a class="el" href="../../dc/db2/namespacepeg.html#a779ac1b87f0362736a5f2604f3129426">Rules</a> &amp;rules, std::string_view start={})</td></tr>
 <tr class="memitem:a413157c71cb3b6c3c6b22d3353dbf5c1" id="r_a413157c71cb3b6c3c6b22d3353dbf5c1"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a413157c71cb3b6c3c6b22d3353dbf5c1">load_grammar</a> (std::string_view sv, std::string_view start={})</td></tr>
+<tr class="memitem:a4c129ac64ed1db1ad402b8901739236f" id="r_a4c129ac64ed1db1ad402b8901739236f"><td class="memItemLeft">std::vector&lt; uint8_t &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a4c129ac64ed1db1ad402b8901739236f">serialize_grammar</a> () const</td></tr>
+<tr class="memitem:aaff164ae8d0a28c923127fff933c75ba" id="r_aaff164ae8d0a28c923127fff933c75ba"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aaff164ae8d0a28c923127fff933c75ba">load_blob</a> (const std::vector&lt; uint8_t &gt; &amp;blob)</td></tr>
 <tr class="memitem:aecf69400627989cb4c080479471f8d7c" id="r_aecf69400627989cb4c080479471f8d7c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aecf69400627989cb4c080479471f8d7c">parse_n</a> (const char *s, size_t n, const char *path=nullptr) const</td></tr>
 <tr class="memitem:a3d2138de61805b8d8918fbd6c4af1b06" id="r_a3d2138de61805b8d8918fbd6c4af1b06"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a3d2138de61805b8d8918fbd6c4af1b06">parse_n</a> (const char *s, size_t n, std::any &amp;dt, const char *path=nullptr) const</td></tr>
 <tr class="memitem:a8c1fbb31c7b3c9f402ce77f38876ecfd" id="r_a8c1fbb31c7b3c9f402ce77f38876ecfd"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -140,6 +142,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7af8b5f752dcfb0c6393835895492a32" id="r_a7af8b5f752dcfb0c6393835895492a32"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a7af8b5f752dcfb0c6393835895492a32 template"><td class="memItemLeft">std::shared_ptr&lt; T &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a7af8b5f752dcfb0c6393835895492a32">optimize_ast</a> (std::shared_ptr&lt; T &gt; ast, bool opt_mode=true) const</td></tr>
 <tr class="memitem:a3fb3e67e1dbce94f5700f0d9fb7063be" id="r_a3fb3e67e1dbce94f5700f0d9fb7063be"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3fb3e67e1dbce94f5700f0d9fb7063be">set_logger</a> (<a class="el" href="../../dc/db2/namespacepeg.html#a1975b490f2ed1e4ec99fe688003e6688">Log</a> log)</td></tr>
+<tr class="memitem:a4a555a690510da00543340911508ce2b" id="r_a4a555a690510da00543340911508ce2b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4a555a690510da00543340911508ce2b">set_error_reporter</a> (<a class="el" href="../../dc/db2/namespacepeg.html#ae460d92b0f52dfc3f8f6a4e0e016b3b2">ErrorReporter</a> reporter)</td></tr>
 <tr class="memitem:aa0845b9de2b55aa76c3b677c6dee6527" id="r_aa0845b9de2b55aa76c3b677c6dee6527"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa0845b9de2b55aa76c3b677c6dee6527">set_logger</a> (std::function&lt; void(size_t line, size_t col, const std::string &amp;msg)&gt; log)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
@@ -154,6 +157,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a404ef124976bdde021764e21be2a9266" id="r_a404ef124976bdde021764e21be2a9266"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a404ef124976bdde021764e21be2a9266">enableLeftRecursion_</a> = true</td></tr>
 <tr class="memitem:a195fb75bf67bae65663e963dff0068db" id="r_a195fb75bf67bae65663e963dff0068db"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a195fb75bf67bae65663e963dff0068db">enablePackratParsing_</a> = false</td></tr>
 <tr class="memitem:a0af160f0bf2c6e96071e96c7ac6ed2bf" id="r_a0af160f0bf2c6e96071e96c7ac6ed2bf"><td class="memItemLeft"><a class="el" href="../../dc/db2/namespacepeg.html#a1975b490f2ed1e4ec99fe688003e6688">Log</a>&#160;</td><td class="memItemRight"><a class="el" href="#a0af160f0bf2c6e96071e96c7ac6ed2bf">log_</a></td></tr>
+<tr class="memitem:a7b649c4c24dab3483f68b84a7a677d37" id="r_a7b649c4c24dab3483f68b84a7a677d37"><td class="memItemLeft"><a class="el" href="../../dc/db2/namespacepeg.html#ae460d92b0f52dfc3f8f6a4e0e016b3b2">ErrorReporter</a>&#160;</td><td class="memItemRight"><a class="el" href="#a7b649c4c24dab3483f68b84a7a677d37">error_reporter_</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8570343b6e075893f55962aaa4ae0481" name="a8570343b6e075893f55962aaa4ae0481"></a>
@@ -558,6 +562,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aaff164ae8d0a28c923127fff933c75ba" name="aaff164ae8d0a28c923127fff933c75ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaff164ae8d0a28c923127fff933c75ba">&#9670;&#160;</a></span>load_blob()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool peg::parser::load_blob </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; uint8_t &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>blob</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_aaff164ae8d0a28c923127fff933c75ba_cgraph.svg" width="100%" height="543"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="aa34433c348cf20a950c7a46956ed4cdb" name="aa34433c348cf20a950c7a46956ed4cdb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa34433c348cf20a950c7a46956ed4cdb">&#9670;&#160;</a></span>load_grammar() <span class="overload">[1/4]</span></h2>
 
@@ -834,7 +868,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_aed32355c4ec5d1448da6f828f290f466_cgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_aed32355c4ec5d1448da6f828f290f466_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -873,7 +907,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_a985babb67451165bb14c8a73c1e1bac9_cgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_a985babb67451165bb14c8a73c1e1bac9_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -919,7 +953,7 @@ template&lt;typename T&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_ab5d7044894b769eecb3d203b0a4c9b94_cgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_ab5d7044894b769eecb3d203b0a4c9b94_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -960,7 +994,7 @@ template&lt;typename T&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_adc45f75e845d39c157fd8a1141f86f6a_cgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_adc45f75e845d39c157fd8a1141f86f6a_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -999,7 +1033,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_aecf69400627989cb4c080479471f8d7c_cgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_aecf69400627989cb4c080479471f8d7c_cgraph.svg" width="636" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1048,7 +1082,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_a3d2138de61805b8d8918fbd6c4af1b06_cgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_a3d2138de61805b8d8918fbd6c4af1b06_cgraph.svg" width="636" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1099,7 +1133,7 @@ template&lt;typename T&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_a1de7147cf3d59ed082a7ada7aa2b1ad2_cgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_a1de7147cf3d59ed082a7ada7aa2b1ad2_cgraph.svg" width="636" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1145,7 +1179,7 @@ template&lt;typename T&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_a8c1fbb31c7b3c9f402ce77f38876ecfd_cgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_a8c1fbb31c7b3c9f402ce77f38876ecfd_cgraph.svg" width="636" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1184,13 +1218,68 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_abc8ac1571f4e173ba58b1a6050d99744_cgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_abc8ac1571f4e173ba58b1a6050d99744_cgraph.svg" width="434" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_abc8ac1571f4e173ba58b1a6050d99744_icgraph.svg" width="588" height="258"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a id="a4c129ac64ed1db1ad402b8901739236f" name="a4c129ac64ed1db1ad402b8901739236f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c129ac64ed1db1ad402b8901739236f">&#9670;&#160;</a></span>serialize_grammar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; uint8_t &gt; peg::parser::serialize_grammar </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d7b/classpeg_1_1parser_a4c129ac64ed1db1ad402b8901739236f_cgraph.svg" width="100%" height="474"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a4a555a690510da00543340911508ce2b" name="a4a555a690510da00543340911508ce2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a555a690510da00543340911508ce2b">&#9670;&#160;</a></span>set_error_reporter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void peg::parser::set_error_reporter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/db2/namespacepeg.html#ae460d92b0f52dfc3f8f6a4e0e016b3b2">ErrorReporter</a></td>          <td class="paramname"><span class="paramname"><em>reporter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1303,6 +1392,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">bool peg::parser::enablePackratParsing_ = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b649c4c24dab3483f68b84a7a677d37" name="a7b649c4c24dab3483f68b84a7a677d37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b649c4c24dab3483f68b84a7a677d37">&#9670;&#160;</a></span>error_reporter_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/db2/namespacepeg.html#ae460d92b0f52dfc3f8f6a4e0e016b3b2">ErrorReporter</a> peg::parser::error_reporter_</td>
         </tr>
       </table>
   </td>

@@ -9,5 +9,6 @@ var classpeg_1_1PrecedenceClimbing =
     [ "atom_", "d5/dd9/classpeg_1_1PrecedenceClimbing.html#a0526d732fb703f61e1dc3990880eaa36", null ],
     [ "binop_", "d5/dd9/classpeg_1_1PrecedenceClimbing.html#a9bbaf81f54c6cccf4c407121b601ad30", null ],
     [ "info_", "d5/dd9/classpeg_1_1PrecedenceClimbing.html#ac880480e4e1f0a5376ac7fc61bdc0209", null ],
+    [ "info_keys_", "d5/dd9/classpeg_1_1PrecedenceClimbing.html#aeef2fecb0fbba61876633158ee03a83f", null ],
     [ "rule_", "d5/dd9/classpeg_1_1PrecedenceClimbing.html#a6f261119110a42159fb73df9f370d1cd", null ]
 ];

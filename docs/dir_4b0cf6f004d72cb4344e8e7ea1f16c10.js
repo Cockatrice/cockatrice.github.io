@@ -24,6 +24,8 @@ var dir_4b0cf6f004d72cb4344e8e7ea1f16c10 =
     [ "dlg_forgot_password_request.h", "d7/dfb/dlg__forgot__password__request_8h.html", "d7/dfb/dlg__forgot__password__request_8h" ],
     [ "dlg_forgot_password_reset.cpp", "dd/df4/dlg__forgot__password__reset_8cpp.html", null ],
     [ "dlg_forgot_password_reset.h", "d4/d45/dlg__forgot__password__reset_8h.html", "d4/d45/dlg__forgot__password__reset_8h" ],
+    [ "dlg_invite_to_game.cpp", "d3/de3/dlg__invite__to__game_8cpp.html", null ],
+    [ "dlg_invite_to_game.h", "d2/d74/dlg__invite__to__game_8h.html", "d2/d74/dlg__invite__to__game_8h" ],
     [ "dlg_load_deck.cpp", "dc/d1f/dlg__load__deck_8cpp.html", null ],
     [ "dlg_load_deck.h", "df/d46/dlg__load__deck_8h.html", "df/d46/dlg__load__deck_8h" ],
     [ "dlg_load_deck_from_clipboard.cpp", "d4/df3/dlg__load__deck__from__clipboard_8cpp.html", "d4/df3/dlg__load__deck__from__clipboard_8cpp" ],

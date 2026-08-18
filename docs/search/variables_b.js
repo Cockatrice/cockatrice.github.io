@@ -4,10 +4,13 @@ var searchData=
   ['kconstructedcounts_1',['kConstructedCounts',['../d9/d21/oracleimporter_8cpp.html#ac78b5ee560e5d90fe42b89ff9521d849',1,'oracleimporter.cpp']]],
   ['keep_5fprevious_5ftoken_2',['keep_previous_token',['../db/da9/structpeg_1_1ErrorInfo.html#abbbc5f183ac6704880a6b7d4e80ad629',1,'peg::ErrorInfo']]],
   ['keepgamechatfocuscheckbox_3',['keepGameChatFocusCheckBox',['../d2/d2d/classUserInterfaceSettingsPage.html#a1fc5e13a2a10d2345ae606870084ba2b',1,'UserInterfaceSettingsPage']]],
-  ['keys_4',['keys',['../d3/d0a/classSequenceEdit.html#a20fb7aca6572907654b698faa8ab9ce8',1,'SequenceEdit']]],
-  ['keywords_5',['keywords',['../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8',1,'EdhrecApiResponseCardContainer']]],
-  ['knownlist_6',['knownList',['../d1/df2/classAddCardAlgorithmTest.html#a646c170308c9a742478be87f4dea80cb',1,'AddCardAlgorithmTest']]],
-  ['knowntags_5f_7',['knownTags_',['../de/d04/classDeckPreviewTagDialog.html#a6a36974baeae9cd4f95be489245a984e',1,'DeckPreviewTagDialog']]],
-  ['ksingletoncounts_8',['kSingletonCounts',['../d9/d21/oracleimporter_8cpp.html#acc91fb4fd31c2c37c31726137ff47425',1,'oracleimporter.cpp']]],
-  ['kw_5fguard_5f_9',['kw_guard_',['../d3/d7c/classpeg_1_1Sequence.html#a41130a9093261d13902c999b7238fec8',1,'peg::Sequence']]]
+  ['kempty_4',['kEmpty',['../d8/da2/classpeg_1_1PackratCache.html#a9db98510f330fea32e41bfbe6d329b9a',1,'peg::PackratCache']]],
+  ['key_5',['key',['../d9/d8f/structpeg_1_1PackratCache_1_1Slot.html#ad6161f6ad9312b737d3d58a951939531',1,'peg::PackratCache::Slot']]],
+  ['keys_6',['keys',['../d3/d0a/classSequenceEdit.html#a20fb7aca6572907654b698faa8ab9ce8',1,'SequenceEdit']]],
+  ['keywords_7',['keywords',['../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8',1,'EdhrecApiResponseCardContainer']]],
+  ['knownlist_8',['knownList',['../d1/df2/classAddCardAlgorithmTest.html#a646c170308c9a742478be87f4dea80cb',1,'AddCardAlgorithmTest']]],
+  ['knowntags_5f_9',['knownTags_',['../de/d04/classDeckPreviewTagDialog.html#a6a36974baeae9cd4f95be489245a984e',1,'DeckPreviewTagDialog']]],
+  ['ksingletoncounts_10',['kSingletonCounts',['../d9/d21/oracleimporter_8cpp.html#acc91fb4fd31c2c37c31726137ff47425',1,'oracleimporter.cpp']]],
+  ['ktombstone_11',['kTombstone',['../d8/da2/classpeg_1_1PackratCache.html#ae5aca07fa37d2cfadf1ab51bf474a146',1,'peg::PackratCache']]],
+  ['kw_5fguard_5f_12',['kw_guard_',['../d3/d7c/classpeg_1_1Sequence.html#a41130a9093261d13902c999b7238fec8',1,'peg::Sequence']]]
 ];

@@ -36,9 +36,10 @@ var searchData=
   ['destroy_5fcard_33',['DESTROY_CARD',['../de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35ac8d65854d66a172626cce33c76a629ca',1,'GameEvent']]],
   ['directory_34',['Directory',['../de/d4e/classUnZip.html#af7876c8fe61c0298d536a513f2ac1670a32d15cfa95ebfc03fa52a23471f83392',1,'UnZip']]],
   ['disconnected_35',['Disconnected',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216ac3b1f44c1b08e7e686f7808c98d264d3',1,'QxtSmtpPrivate']]],
-  ['doesnotattach_36',['DoesNotAttach',['../d6/dc2/group__Cards.html#ggabc3ced840172c7b624b340e282544a4fa40c6146ad219739b0ea10f49bda3a1e7',1,'card_relation_type.h']]],
-  ['draw_5fcards_37',['DRAW_CARDS',['../dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12aae523628642c5c6b45b47a3557d66d03',1,'GameCommand::DRAW_CARDS'],['../de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a04afbd9eb5bc93dd058c6ed93eb01a96',1,'GameEvent::DRAW_CARDS']]],
-  ['drawing_38',['Drawing',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca74116250efd8e81fcab97c474221fccd',1,'ShortcutGroup']]],
-  ['dualcommander_39',['DualCommander',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a84d045d5728e6365fce7aabc7eb98721',1,'ArchidektFormats']]],
-  ['dump_5fzone_40',['DUMP_ZONE',['../dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12af50f80955d385fcf956ff947946f01ad',1,'GameCommand::DUMP_ZONE'],['../de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a479ec10e8fa580d3d1d6826999c26feb',1,'GameEvent::DUMP_ZONE'],['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442ac9e3ad43348b24dc60492f0f0d725590',1,'Response::DUMP_ZONE']]]
+  ['displaynamerole_36',['DisplayNameRole',['../d7/d99/namespaceVisualDeckStorageRoles.html#aa481f934a865f563199c6ebedd013f80a96b43f3552e23989ef1d012f83705954',1,'VisualDeckStorageRoles']]],
+  ['doesnotattach_37',['DoesNotAttach',['../d6/dc2/group__Cards.html#ggabc3ced840172c7b624b340e282544a4fa40c6146ad219739b0ea10f49bda3a1e7',1,'card_relation_type.h']]],
+  ['draw_5fcards_38',['DRAW_CARDS',['../dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12aae523628642c5c6b45b47a3557d66d03',1,'GameCommand::DRAW_CARDS'],['../de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a04afbd9eb5bc93dd058c6ed93eb01a96',1,'GameEvent::DRAW_CARDS']]],
+  ['drawing_39',['Drawing',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca74116250efd8e81fcab97c474221fccd',1,'ShortcutGroup']]],
+  ['dualcommander_40',['DualCommander',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a84d045d5728e6365fce7aabc7eb98721',1,'ArchidektFormats']]],
+  ['dump_5fzone_41',['DUMP_ZONE',['../dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12af50f80955d385fcf956ff947946f01ad',1,'GameCommand::DUMP_ZONE'],['../de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a479ec10e8fa580d3d1d6826999c26feb',1,'GameEvent::DUMP_ZONE'],['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442ac9e3ad43348b24dc60492f0f0d725590',1,'Response::DUMP_ZONE']]]
 ];

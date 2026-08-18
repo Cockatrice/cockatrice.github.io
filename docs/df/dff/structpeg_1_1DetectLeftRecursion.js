@@ -1,7 +1,9 @@
 var structpeg_1_1DetectLeftRecursion =
 [
+    [ "ResolvedArg", "d3/d3f/structpeg_1_1DetectLeftRecursion_1_1ResolvedArg.html", "d3/d3f/structpeg_1_1DetectLeftRecursion_1_1ResolvedArg" ],
     [ "DetectLeftRecursion", "df/dff/structpeg_1_1DetectLeftRecursion.html#acb8c0b6800ff6b6682b66d1bf61d0918", null ],
-    [ "resolve_macro_arg", "df/dff/structpeg_1_1DetectLeftRecursion.html#af7bb19cc3530cbc0b4bc009a081fa150", null ],
+    [ "intern_macro_inst", "df/dff/structpeg_1_1DetectLeftRecursion.html#a8b71e01dace4c814d68fd785a2359f60", null ],
+    [ "resolve_macro_arg", "df/dff/structpeg_1_1DetectLeftRecursion.html#a9fdaed3aa57f8072baaeb72a74a5783c", null ],
     [ "visit", "df/dff/structpeg_1_1DetectLeftRecursion.html#a2db5f4214c94c7dc6764da5dd8768973", null ],
     [ "visit", "df/dff/structpeg_1_1DetectLeftRecursion.html#a224997e001bc757915eab1787affa18a", null ],
     [ "visit", "df/dff/structpeg_1_1DetectLeftRecursion.html#a469d6c2304fca68af01f6d191c732004", null ],
@@ -25,9 +27,13 @@ var structpeg_1_1DetectLeftRecursion =
     [ "visit", "df/dff/structpeg_1_1DetectLeftRecursion.html#af5b7db5699ef1306f0146388ac6f8d8d", null ],
     [ "visit", "df/dff/structpeg_1_1DetectLeftRecursion.html#aef40db5685cb0d1563ec3358e563e8b8", null ],
     [ "visit", "df/dff/structpeg_1_1DetectLeftRecursion.html#a75b661651ebd771a310a14f205a9aa87", null ],
+    [ "visit_in_defining_scope", "df/dff/structpeg_1_1DetectLeftRecursion.html#a6bb357be319d27ace7b54961b7c33e8b", null ],
     [ "done_", "df/dff/structpeg_1_1DetectLeftRecursion.html#a1775629357f358d42612bbbeafd741d5", null ],
     [ "error_s", "df/dff/structpeg_1_1DetectLeftRecursion.html#a4ae53f4b56984c63fa746000154fd02f", null ],
     [ "macro_args_stack_", "df/dff/structpeg_1_1DetectLeftRecursion.html#af1b15b3631b6fcffc533d8b137e4a094", null ],
+    [ "macro_inst_ids_", "df/dff/structpeg_1_1DetectLeftRecursion.html#aae73540c048fb3df406d3d5de3ba62aa", null ],
+    [ "max_macro_inst_depth", "df/dff/structpeg_1_1DetectLeftRecursion.html#a2cc2a4444e3086ce90193f5c1144e277", null ],
     [ "name_", "df/dff/structpeg_1_1DetectLeftRecursion.html#aa1efb550a44f700f8f92b999b4465660", null ],
-    [ "refs_", "df/dff/structpeg_1_1DetectLeftRecursion.html#a8ecfc35c20edc63f9bd1ce7ce13336bb", null ]
+    [ "next_macro_inst_", "df/dff/structpeg_1_1DetectLeftRecursion.html#a4cc9f83102819ef1b731d75de4635d03", null ],
+    [ "refs_", "df/dff/structpeg_1_1DetectLeftRecursion.html#a3fd727328a80f6815a53f15523e30683", null ]
 ];

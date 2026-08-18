@@ -42,6 +42,7 @@ var hierarchy =
     [ "ArchidektApiResponseDeckOwner", "d1/ddd/classArchidektApiResponseDeckOwner.html", null ],
     [ "ArchidektApiResponseEdition", "da/d25/classArchidektApiResponseEdition.html", null ],
     [ "ArchidektDeckListingApiResponse", "d3/d7f/classArchidektDeckListingApiResponse.html", null ],
+    [ "peg::Context::ArgsFrame", "d0/dc8/structpeg_1_1Context_1_1ArgsFrame.html", null ],
     [ "peg::argument_count&lt; T &gt;", "df/d2c/structpeg_1_1argument__count.html", null ],
     [ "ArrowData", "db/d21/structArrowData.html", null ],
     [ "ArrowKey", "d4/ddd/structArrowKey.html", null ],
@@ -188,6 +189,7 @@ var hierarchy =
     [ "DeckListMemento", "d8/dfe/classDeckListMemento.html", null ],
     [ "DecklistNodeTree", "db/df8/classDecklistNodeTree.html", null ],
     [ "DeckListStatisticsAnalyzerConfig", "dc/d67/structDeckListStatisticsAnalyzerConfig.html", null ],
+    [ "DeckPreviewData", "dd/d46/structDeckPreviewData.html", null ],
     [ "DeckSearchData", "d9/df8/structDeckSearchData.html", null ],
     [ "peg::Definition", "d8/d94/classpeg_1_1Definition.html", null ],
     [ "AnalyticsPanelWidgetFactory::Descriptor", "dc/d03/structAnalyticsPanelWidgetFactory_1_1Descriptor.html", null ],
@@ -224,6 +226,7 @@ var hierarchy =
     [ "BackgroundSources::Entry", "d3/d4a/structBackgroundSources_1_1Entry.html", null ],
     [ "CardArtRulesModel::Entry", "d9/dd6/structCardArtRulesModel_1_1Entry.html", null ],
     [ "peg::ErrorInfo", "db/da9/structpeg_1_1ErrorInfo.html", null ],
+    [ "peg::ErrorReport", "db/d9c/structpeg_1_1ErrorReport.html", null ],
     [ "EstimateBracketResult", "d8/dd8/structEstimateBracketResult.html", null ],
     [ "Event_AddToList", "d2/d2b/structEvent__AddToList.html", null ],
     [ "Event_AttachCard", "df/da8/structEvent__AttachCard.html", null ],
@@ -328,6 +331,7 @@ var hierarchy =
     [ "Command_Unconcede::GameCommand", "d7/d05/structCommand__Unconcede_1_1GameCommand.html", null ],
     [ "Command_UndoDraw::GameCommand", "d1/d1b/structCommand__UndoDraw_1_1GameCommand.html", null ],
     [ "GameCommand", "dd/de5/structGameCommand.html", null ],
+    [ "GameConfig", "dc/d61/structGameConfig.html", null ],
     [ "Event_AttachCard::GameEvent", "da/d3c/structEvent__AttachCard_1_1GameEvent.html", null ],
     [ "Event_ChangeZoneProperties::GameEvent", "d8/dbf/structEvent__ChangeZoneProperties_1_1GameEvent.html", null ],
     [ "Event_CreateArrow::GameEvent", "d7/ddc/structEvent__CreateArrow_1_1GameEvent.html", null ],
@@ -374,7 +378,9 @@ var hierarchy =
     [ "GameEventStorage", "de/d8f/classGameEventStorage.html", null ],
     [ "GameEventStorageItem", "da/df9/classGameEventStorageItem.html", null ],
     [ "GameFilterConfigs", "da/da7/structGameFilterConfigs.html", null ],
+    [ "GameInviteOption", "d7/dc5/structGameInviteOption.html", null ],
     [ "GameReplay", "d9/d75/structGameReplay.html", null ],
+    [ "peg::GrammarBlob", "d5/d93/structpeg_1_1GrammarBlob.html", null ],
     [ "ZoneViewZone::GridSize", "db/dc7/structZoneViewZone_1_1GridSize.html", null ],
     [ "IAnimatedItem", "da/dd9/classIAnimatedItem.html", [
       [ "AbstractCardItem", "d4/db9/classAbstractCardItem.html", [
@@ -516,6 +522,7 @@ var hierarchy =
       [ "peg::WeakHolder", "db/d5b/classpeg_1_1WeakHolder.html", null ],
       [ "peg::Whitespace", "de/d63/classpeg_1_1Whitespace.html", null ]
     ] ],
+    [ "peg::PackratCache", "d8/da2/classpeg_1_1PackratCache.html", null ],
     [ "peg::Context::PackratStats", "db/dcb/structpeg_1_1Context_1_1PackratStats.html", null ],
     [ "PaletteColorInfo", "d8/dc8/structPaletteColorInfo.html", null ],
     [ "PaletteConfig", "d4/dd8/structPaletteConfig.html", null ],
@@ -546,7 +553,8 @@ var hierarchy =
       [ "CardDatabaseModel", "dd/d83/classCardDatabaseModel.html", null ],
       [ "CardSearchModel", "d3/da6/classCardSearchModel.html", null ],
       [ "SettingsSearchModel", "df/d23/classSettingsSearchModel.html", null ],
-      [ "TipsOfTheDay", "da/dc7/classTipsOfTheDay.html", null ]
+      [ "TipsOfTheDay", "da/dc7/classTipsOfTheDay.html", null ],
+      [ "VisualDeckStorageModel", "d1/d10/classVisualDeckStorageModel.html", null ]
     ] ],
     [ "QAbstractProxyModel", null, [
       [ "ReversedCompleterModel", "d1/de3/classReversedCompleterModel.html", null ]
@@ -578,6 +586,7 @@ var hierarchy =
       [ "DlgForgotPasswordChallenge", "d6/dd1/classDlgForgotPasswordChallenge.html", null ],
       [ "DlgForgotPasswordRequest", "dc/dec/classDlgForgotPasswordRequest.html", null ],
       [ "DlgForgotPasswordReset", "d3/d9b/classDlgForgotPasswordReset.html", null ],
+      [ "DlgInviteToGame", "d5/d38/classDlgInviteToGame.html", null ],
       [ "DlgLoadDeckFromWebsite", "d9/d2f/classDlgLoadDeckFromWebsite.html", null ],
       [ "DlgLoadRemoteDeck", "d5/ddc/classDlgLoadRemoteDeck.html", null ],
       [ "DlgLocalGameOptions", "d6/d68/classDlgLocalGameOptions.html", null ],
@@ -945,7 +954,8 @@ var hierarchy =
       [ "DeckListSortFilterProxyModel", "dc/dba/classDeckListSortFilterProxyModel.html", null ],
       [ "GamesProxyModel", "db/db4/classGamesProxyModel.html", null ],
       [ "SetsDisplayModel", "dd/df6/classSetsDisplayModel.html", null ],
-      [ "ShortcutFilterProxyModel", "d0/d68/classShortcutFilterProxyModel.html", null ]
+      [ "ShortcutFilterProxyModel", "d0/d68/classShortcutFilterProxyModel.html", null ],
+      [ "VisualDeckStorageSortFilterProxyModel", "df/d53/classVisualDeckStorageSortFilterProxyModel.html", null ]
     ] ],
     [ "QStyledItemDelegate", null, [
       [ "CardCompleterDelegate", "d7/d29/classCardCompleterDelegate.html", null ],
@@ -1146,7 +1156,9 @@ var hierarchy =
       [ "QxtSmtpPrivate", "d6/deb/classQxtSmtpPrivate.html", null ]
     ] ],
     [ "QxtPrivateInterface&lt; PUB, PVT &gt;", "de/ddc/classQxtPrivateInterface.html", null ],
+    [ "peg::GrammarBlob::Reader", "d8/dfc/structpeg_1_1GrammarBlob_1_1Reader.html", null ],
     [ "Release", "db/d0a/classRelease.html", null ],
+    [ "peg::DetectLeftRecursion::ResolvedArg", "d3/d3f/structpeg_1_1DetectLeftRecursion_1_1ResolvedArg.html", null ],
     [ "CardNodeFunction::ResolveProviderId", "df/d98/structCardNodeFunction_1_1ResolveProviderId.html", null ],
     [ "Response", "d1/db9/structResponse.html", null ],
     [ "Response_Activate::Response", "de/dc4/structResponse__Activate_1_1Response.html", null ],
@@ -1219,6 +1231,9 @@ var hierarchy =
     [ "Server_Arrow", "df/d3b/classServer__Arrow.html", null ],
     [ "Server_CardZone", "dc/d3a/classServer__CardZone.html", null ],
     [ "Server_Counter", "d6/dcc/classServer__Counter.html", null ],
+    [ "Server_DeckValidationStrategy", "de/db3/classServer__DeckValidationStrategy.html", [
+      [ "Server_DefaultDeckValidationStrategy", "dd/daf/classServer__DefaultDeckValidationStrategy.html", null ]
+    ] ],
     [ "ServerInfo_Arrow", "d8/ded/structServerInfo__Arrow.html", null ],
     [ "ServerInfo_Ban", "da/d3a/structServerInfo__Ban.html", null ],
     [ "ServerInfo_Card", "d6/da1/structServerInfo__Card.html", null ],
@@ -1308,6 +1323,7 @@ var hierarchy =
     [ "SFMT_T", "db/d02/structSFMT__T.html", null ],
     [ "ShortcutGroup", "d2/d7a/classShortcutGroup.html", null ],
     [ "SideboardPlan", "dc/d8b/classSideboardPlan.html", null ],
+    [ "peg::PackratCache::Slot", "d9/d8f/structpeg_1_1PackratCache_1_1Slot.html", null ],
     [ "peg::Context::Snapshot", "dd/de0/structpeg_1_1Context_1_1Snapshot.html", null ],
     [ "SplitCardPart", "d5/d45/classSplitCardPart.html", null ],
     [ "SelectZone::StackLayoutParams", "d0/d19/structSelectZone_1_1StackLayoutParams.html", null ],
@@ -1337,6 +1353,7 @@ var hierarchy =
       [ "peg::FindLiteralToken", "dd/dfd/structpeg_1_1FindLiteralToken.html", null ],
       [ "peg::FindReference", "d9/dfd/structpeg_1_1FindReference.html", null ],
       [ "peg::IsLiteralToken", "de/d67/structpeg_1_1IsLiteralToken.html", null ],
+      [ "peg::OpeSignature", "d6/df6/structpeg_1_1OpeSignature.html", null ],
       [ "peg::TraceOpeName", "d1/dab/structpeg_1_1TraceOpeName.html", null ],
       [ "peg::TraversalVisitor", "da/ddf/structpeg_1_1TraversalVisitor.html", [
         [ "peg::AssignIDToDefinition", "d9/d27/structpeg_1_1AssignIDToDefinition.html", null ],
@@ -1352,6 +1369,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "W128_T", "df/db1/unionW128__T.html", null ],
+    [ "peg::GrammarBlob::Writer", "dd/d4c/structpeg_1_1GrammarBlob_1_1Writer.html", null ],
     [ "Zip", "d8/df5/classZip.html", null ],
     [ "UnZip::ZipEntry", "d9/d9c/structUnZip_1_1ZipEntry.html", null ],
     [ "ZipEntryP", "d6/dd9/classZipEntryP.html", null ],

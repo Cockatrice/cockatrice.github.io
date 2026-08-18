@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b_0',['b',['../d0/d91/structcolor.html#ad451dfe06d5b65b688a2e7c3c0a0e905',1,'color']]],
+  ['b_0',['b',['../d0/d91/structcolor.html#ad451dfe06d5b65b688a2e7c3c0a0e905',1,'color::b'],['../dd/d4c/structpeg_1_1GrammarBlob_1_1Writer.html#a27c08216cf22e5e5d8e26ee7cbc430f9',1,'peg::GrammarBlob::Writer::b']]],
   ['background_1',['background',['../de/de3/classHomeWidget.html#a1333bc217d4cbc8668c8cbb055ccebc5',1,'HomeWidget']]],
   ['background_5fcolor_2',['BACKGROUND_COLOR',['../d6/d6f/classTableZone.html#ad8eb13eaf6b5cd4e8bff9b2956520acd',1,'TableZone']]],
   ['backgroundalwaysbtn_3',['backgroundAlwaysBtn',['../d9/dd7/classDlgStartupCardCheck.html#a7f62f2f113268aad30beeb89ae48114b',1,'DlgStartupCardCheck']]],
@@ -18,7 +18,7 @@ var searchData=
   ['banner_15',['banner',['../d9/d5d/classCardGroupDisplayWidget.html#ad5465363b57f2133e05b939f9aede266',1,'CardGroupDisplayWidget::banner'],['../d8/d9f/classDeckCardZoneDisplayWidget.html#adf067e61f5d34c6d9991f128f8db8f13',1,'DeckCardZoneDisplayWidget::banner']]],
   ['bannerandsettingscontainer_16',['bannerAndSettingsContainer',['../d2/d31/classAbstractAnalyticsPanelWidget.html#aa57f658477f4e76288c832129982fb43',1,'AbstractAnalyticsPanelWidget']]],
   ['bannerandsettingslayout_17',['bannerAndSettingsLayout',['../d2/d31/classAbstractAnalyticsPanelWidget.html#af12ce940176a1c01663e5ae67e5eb060',1,'AbstractAnalyticsPanelWidget']]],
-  ['bannercard_18',['bannerCard',['../d3/de4/structDeckList_1_1Metadata.html#a9e8725c87fbe9a7aa9f317c867b639ad',1,'DeckList::Metadata']]],
+  ['bannercard_18',['bannerCard',['../dd/d46/structDeckPreviewData.html#ad9d742da1783fbd4a0007002aac7add7',1,'DeckPreviewData::bannerCard'],['../d3/de4/structDeckList_1_1Metadata.html#a9e8725c87fbe9a7aa9f317c867b639ad',1,'DeckList::Metadata::bannerCard']]],
   ['bannercardbutton_19',['bannerCardButton',['../df/dea/classUserInfoBox.html#a6126166df6a19de31f7648134c4b1f89',1,'UserInfoBox']]],
   ['bannercardcombobox_20',['bannerCardComboBox',['../d9/df7/classDeckEditorDeckDockWidget.html#a6c8e6a65e6ba83cc40689a86d1818303',1,'DeckEditorDeckDockWidget::bannerCardComboBox'],['../d5/d79/classDeckPreviewWidget.html#a00cbd5e146de92342118018f4a80d1b2',1,'DeckPreviewWidget::bannerCardComboBox']]],
   ['bannercarddisplaywidget_21',['bannerCardDisplayWidget',['../d5/d79/classDeckPreviewWidget.html#ad6189ae6fcd8b34788e1f4e4274b0531',1,'DeckPreviewWidget']]],
