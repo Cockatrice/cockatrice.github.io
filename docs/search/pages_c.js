@@ -6,7 +6,7 @@ var searchData=
   ['importing_20decks_3',['Importing Decks',['../db/d91/importing_decks.html',1,'user_reference']]],
   ['in_20client_4',['In-client',['../dc/d8a/displaying_cards.html#in-client',1,'']]],
   ['in_20game_5',['In-game',['../dc/d8a/displaying_cards.html#in-game',1,'']]],
-  ['in_20the_20hierarchy_3a_6',['in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
+  ['in_20the_20hierarchy_3a_6',['in the hierarchy:',['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
   ['inc_5fcard_5fcounter_201015_7',['&lt;span class=&quot;tt&quot;&gt;INC_CARD_COUNTER&lt;/span&gt; (1015)',['../d0/d5b/protocol_game_command.html#inc_card_counter-1015',1,'']]],
   ['inc_5fcounter_201018_8',['&lt;span class=&quot;tt&quot;&gt;INC_COUNTER&lt;/span&gt; (1018)',['../d0/d5b/protocol_game_command.html#inc_counter-1018',1,'']]],
   ['incoming_20game_20events_9',['incoming game events',['../db/d15/game_event_handler.html#autotoc_md2-processing-incoming-game-events',1,'2. Processing incoming game events'],['../db/d15/game_event_handler.html#autotoc_md2-processing-incoming-game-events-1',1,'2. Processing incoming game events']]],

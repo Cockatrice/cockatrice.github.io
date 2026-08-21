@@ -11,6 +11,7 @@ var group__Decks =
         [ "gameFormat", "d3/de4/structDeckList_1_1Metadata.html#a8904d754278a55c961599c0d0a3a1600", null ],
         [ "lastLoadedTimestamp", "d3/de4/structDeckList_1_1Metadata.html#a7683438a14f101fdb9f4eba6116339ba", null ],
         [ "name", "d3/de4/structDeckList_1_1Metadata.html#a26688c47b071cced7bc0d0b70d270634", null ],
+        [ "playmat", "d3/de4/structDeckList_1_1Metadata.html#a36593b0aa523d3dd05b34c23178f07b3", null ],
         [ "tags", "d3/de4/structDeckList_1_1Metadata.html#aa441b4f72c49593f204154e7e7a43e5a", null ]
       ] ],
       [ "DeckList", "da/d68/classDeckList.html#a60b845c8edd7b5e01e5ed7a90591ea8f", null ],
@@ -33,6 +34,7 @@ var group__Decks =
       [ "getLastLoadedTimestamp", "da/d68/classDeckList.html#a8d3de2c681503941edd3d33ccb54fb4d", null ],
       [ "getMetadata", "da/d68/classDeckList.html#a2b6e67b6ac121b74584c1b6b5c941500", null ],
       [ "getName", "da/d68/classDeckList.html#a79d884815abdd7b61694bf9657d27c56", null ],
+      [ "getPlaymat", "da/d68/classDeckList.html#a0c61c4b1abd59f09de4f4c3ad61faf9a", null ],
       [ "getSideboardPlans", "da/d68/classDeckList.html#a79f3cb971fe33bcb433f9b60ab9d5b86", null ],
       [ "getSideboardSize", "da/d68/classDeckList.html#aa4b3eab9ecd1a70f81b3638d0f705d91", null ],
       [ "getTags", "da/d68/classDeckList.html#a0762038bdd843f2937e9c2f551b63e54", null ],
@@ -57,6 +59,7 @@ var group__Decks =
       [ "setGameFormat", "da/d68/classDeckList.html#a65aac1d90cd42091efc25915f0d3e740", null ],
       [ "setLastLoadedTimestamp", "da/d68/classDeckList.html#a26993d1ecf902c97868eefe08a9ccf0e", null ],
       [ "setName", "da/d68/classDeckList.html#afa7f023276656ecfe4f8df74cbebbbd4", null ],
+      [ "setPlaymat", "da/d68/classDeckList.html#a4ba7284dde7f05dc288b479776e864e8", null ],
       [ "setTags", "da/d68/classDeckList.html#adb44268592051a93cc19abbc27de95b2", null ],
       [ "write", "da/d68/classDeckList.html#a9bef2e38b0a9b7f7138f0a1010c98ab8", null ],
       [ "writeToString_Native", "da/d68/classDeckList.html#a79d6a068df3b2a323a04621fb3ecb8b0", null ],
@@ -75,5 +78,18 @@ var group__Decks =
       [ "write", "dc/d8b/classSideboardPlan.html#a86b289858e4ee6a3fe2549c7e688218c", null ],
       [ "moveList", "dc/d8b/classSideboardPlan.html#a33fce3444dbfdfa2a968f845c04c25c2", null ],
       [ "name", "dc/d8b/classSideboardPlan.html#a31d73d7a47729d65777963ec21b3d3c2", null ]
+    ] ],
+    [ "PlaymatParams", "d0/d30/structPlaymatParams.html", [
+      [ "operator!=", "d0/d30/structPlaymatParams.html#a9a9985bacb75b8ad9a7e09c9734f5670", null ],
+      [ "operator==", "d0/d30/structPlaymatParams.html#a49fcb371b2699770f0b2e25db1161bcb", null ],
+      [ "marginPctL", "d0/d30/structPlaymatParams.html#a2a1c41b1015ebefd91062cb8ce938080", null ],
+      [ "marginPctR", "d0/d30/structPlaymatParams.html#a41f3904a2fa3fb57d284dc3a24e98f58", null ],
+      [ "verticalOffset", "d0/d30/structPlaymatParams.html#a8310343a17f02c65edacaab652d86f64", null ],
+      [ "zoom", "d0/d30/structPlaymatParams.html#add269f520bef844a0bb7139b6bd23898", null ]
+    ] ],
+    [ "PlaymatInfo", "d1/d3c/structPlaymatInfo.html", [
+      [ "operator==", "d1/d3c/structPlaymatInfo.html#ad905bec615bef868f034d8c2ee2ce10e", null ],
+      [ "card", "d1/d3c/structPlaymatInfo.html#a0b8df796825ef0257557848507d17d7a", null ],
+      [ "params", "d1/d3c/structPlaymatInfo.html#a083f7abe5275395c70f1c6585d896734", null ]
     ] ]
 ];

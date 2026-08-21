@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,6 +123,8 @@ Signals</h2></td></tr>
 <tr class="memitem:a12bae177d30b62cd2fb10042447f9061" id="r_a12bae177d30b62cd2fb10042447f9061"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a12bae177d30b62cd2fb10042447f9061">tallyTypeChanged</a> (int type)</td></tr>
 <tr class="memitem:a7a9b045397b458cac008114513d675f7" id="r_a7a9b045397b458cac008114513d675f7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7a9b045397b458cac008114513d675f7">showStatusBarChanged</a> (bool state)</td></tr>
 <tr class="memitem:a0f084bcc295b428fc30287aa0aa2d074" id="r_a0f084bcc295b428fc30287aa0aa2d074"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0f084bcc295b428fc30287aa0aa2d074">showGameSelectorFilterToolbarChanged</a> (bool state)</td></tr>
+<tr class="memitem:adc38be9f6f20c3ac7c2942ecc1905f37" id="r_adc38be9f6f20c3ac7c2942ecc1905f37"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adc38be9f6f20c3ac7c2942ecc1905f37">playmatVisibilityChanged</a> (int visibility)</td></tr>
+<tr class="memitem:ae4830098e14010dd3ae9e333a4ce0082" id="r_ae4830098e14010dd3ae9e333a4ce0082"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae4830098e14010dd3ae9e333a4ce0082">playmatSettingsChanged</a> ()</td></tr>
 <tr class="memitem:a9a151f2694f18091c3718d786b3afe04" id="r_a9a151f2694f18091c3718d786b3afe04"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9a151f2694f18091c3718d786b3afe04">lifeCounterAnimationsEnabledChanged</a> (bool state)</td></tr>
 <tr class="memitem:a11585643b5366a320a9a87271de919c0" id="r_a11585643b5366a320a9a87271de919c0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a11585643b5366a320a9a87271de919c0">battlefieldFlashEnabledChanged</a> (bool state)</td></tr>
 </table><table class="memberdecls">
@@ -159,6 +161,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3332337147501d05b220147ebab514fa" id="r_a3332337147501d05b220147ebab514fa"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a3332337147501d05b220147ebab514fa">getShowStatusBar</a> () const override</td></tr>
 <tr class="memitem:ad5175d348c395a825822b73c2c6b7495" id="r_ad5175d348c395a825822b73c2c6b7495"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ad5175d348c395a825822b73c2c6b7495">getShowShortcuts</a> () const override</td></tr>
 <tr class="memitem:ac9d75c9a909a126067bde4360a86bcb4" id="r_ac9d75c9a909a126067bde4360a86bcb4"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac9d75c9a909a126067bde4360a86bcb4">getShowGameSelectorFilterToolbar</a> () const override</td></tr>
+<tr class="memitem:a38ef343a634e55ca3af34e473222f20a" id="r_a38ef343a634e55ca3af34e473222f20a"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a38ef343a634e55ca3af34e473222f20a">getPlaymatVisibility</a> () const override</td></tr>
+<tr class="memdesc:a38ef343a634e55ca3af34e473222f20a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Who gets playmats rendered: <a class="el" href="../../de/dbf/interface__interface__settings__provider_8h.html#a272f5831fe2891386ab6293f441fdbca" title="PlaymatVisibility">PlaymatVisibility</a>.  <br /></td></tr>
+<tr class="memitem:a77c225dd484c1b41ecf37783cef73014" id="r_a77c225dd484c1b41ecf37783cef73014"><td class="memItemLeft">QList&lt; <a class="el" href="../../d1/d3c/structPlaymatInfo.html">PlaymatInfo</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a77c225dd484c1b41ecf37783cef73014">getPlaymatFallbackList</a> () const override</td></tr>
+<tr class="memdesc:a77c225dd484c1b41ecf37783cef73014"><td class="mdescLeft">&#160;</td><td class="mdescRight">User-level playmat collection. Used either as a forced playmat (mode == <a class="el" href="../../de/dbf/interface__interface__settings__provider_8h.html#a19c5ded4d05baeef83a33dd38c7684c2a91cdea687663c680aeba0cfce117e2f0" title="PlaymatModeOverrideDeck">PlaymatModeOverrideDeck</a>) or as a fallback when a deck has none (mode == <a class="el" href="../../de/dbf/interface__interface__settings__provider_8h.html#a19c5ded4d05baeef83a33dd38c7684c2a60f154f02be4eff1c5531926d54d03b9" title="PlaymatModeFallback">PlaymatModeFallback</a>).  <br /></td></tr>
+<tr class="memitem:aa921bc6cb3e742dccffe70e04d42ce1b" id="r_aa921bc6cb3e742dccffe70e04d42ce1b"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aa921bc6cb3e742dccffe70e04d42ce1b">getPlaymatMode</a> () const override</td></tr>
+<tr class="memdesc:aa921bc6cb3e742dccffe70e04d42ce1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">How the fallback list is applied: <a class="el" href="../../de/dbf/interface__interface__settings__provider_8h.html#a19c5ded4d05baeef83a33dd38c7684c2" title="PlaymatMode">PlaymatMode</a>.  <br /></td></tr>
+<tr class="memitem:aeee2545f99945917ccc72a56dfb2c72e" id="r_aeee2545f99945917ccc72a56dfb2c72e"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aeee2545f99945917ccc72a56dfb2c72e">getPlaymatFallbackBehavior</a> () const override</td></tr>
+<tr class="memdesc:aeee2545f99945917ccc72a56dfb2c72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">How the fallback list is picked from when mode is PlaymatModeFallback: <a class="el" href="../../de/dbf/interface__interface__settings__provider_8h.html#ad65a8f27f1d953cd18e28c62d6cb1b62" title="PlaymatFallbackMode">PlaymatFallbackMode</a>.  <br /></td></tr>
 <tr class="memitem:a25c15639fe28085695aa866fc854405d" id="r_a25c15639fe28085695aa866fc854405d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a25c15639fe28085695aa866fc854405d">getLifeCounterAnimationsEnabled</a> () const override</td></tr>
 <tr class="memitem:a0b97da425480284bf3922d767a740189" id="r_a0b97da425480284bf3922d767a740189"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0b97da425480284bf3922d767a740189">getBattlefieldFlashEnabled</a> () const override</td></tr>
 <tr class="memitem:aa41830a4d722e8c900d8d2fdd18ee0ec" id="r_aa41830a4d722e8c900d8d2fdd18ee0ec"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#aa41830a4d722e8c900d8d2fdd18ee0ec">getUserListExpandedSections</a> () const override</td></tr>
@@ -193,6 +203,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a22ac96c425590e90e5947174f98072f6" id="r_a22ac96c425590e90e5947174f98072f6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a22ac96c425590e90e5947174f98072f6">setShowStatusBar</a> (bool _showStatusBar)</td></tr>
 <tr class="memitem:a026f5474cde64fe7d5fc8bdece92201b" id="r_a026f5474cde64fe7d5fc8bdece92201b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a026f5474cde64fe7d5fc8bdece92201b">setShowShortcuts</a> (bool _showShortcuts)</td></tr>
 <tr class="memitem:ad94f3c95f837a55daff9fd30d7747567" id="r_ad94f3c95f837a55daff9fd30d7747567"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad94f3c95f837a55daff9fd30d7747567">setShowGameSelectorFilterToolbar</a> (bool _showGameSelectorFilterToolbar)</td></tr>
+<tr class="memitem:acc93c71d0efa1a00d2148a50f0b79c58" id="r_acc93c71d0efa1a00d2148a50f0b79c58"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acc93c71d0efa1a00d2148a50f0b79c58">setPlaymatVisibility</a> (int _visibility)</td></tr>
+<tr class="memitem:a6adad7de29edd9afcd9c50a2d68cff82" id="r_a6adad7de29edd9afcd9c50a2d68cff82"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6adad7de29edd9afcd9c50a2d68cff82">setPlaymatFallbackList</a> (const QList&lt; <a class="el" href="../../d1/d3c/structPlaymatInfo.html">PlaymatInfo</a> &gt; &amp;_fallbackList)</td></tr>
+<tr class="memitem:a68f2a753f4fd956b7ca1ae4a4e88d06e" id="r_a68f2a753f4fd956b7ca1ae4a4e88d06e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a68f2a753f4fd956b7ca1ae4a4e88d06e">setPlaymatMode</a> (int _mode)</td></tr>
+<tr class="memitem:a89ae7b9bbd48764991f67a73121dd82a" id="r_a89ae7b9bbd48764991f67a73121dd82a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a89ae7b9bbd48764991f67a73121dd82a">setPlaymatFallbackBehavior</a> (int _behavior)</td></tr>
 <tr class="memitem:a76f0d506edbf41e994ca11fd575bc964" id="r_a76f0d506edbf41e994ca11fd575bc964"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a76f0d506edbf41e994ca11fd575bc964">setLifeCounterAnimationsEnabled</a> (bool _lifeCounterAnimationsEnabled)</td></tr>
 <tr class="memitem:ab10fb479016cb2c667a15a49b6bb9dd6" id="r_ab10fb479016cb2c667a15a49b6bb9dd6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab10fb479016cb2c667a15a49b6bb9dd6">setBattlefieldFlashEnabled</a> (bool _battlefieldFlashEnabled)</td></tr>
 <tr class="memitem:af2fef2307f6e16c389e61f1bdc5563c2" id="r_af2fef2307f6e16c389e61f1bdc5563c2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af2fef2307f6e16c389e61f1bdc5563c2">setUserListExpandedSections</a> (const QStringList &amp;sections)</td></tr>
@@ -898,7 +912,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a4ba6c62e259ee7dc25996c04f16c3d65_icgraph.svg" width="100%" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a4ba6c62e259ee7dc25996c04f16c3d65_icgraph.svg" width="100%" height="525"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -935,6 +949,157 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="aeee2545f99945917ccc72a56dfb2c72e" name="aeee2545f99945917ccc72a56dfb2c72e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeee2545f99945917ccc72a56dfb2c72e">&#9670;&#160;</a></span>getPlaymatFallbackBehavior()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InterfaceSettings::getPlaymatFallbackBehavior </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>How the fallback list is picked from when mode is PlaymatModeFallback: <a class="el" href="../../de/dbf/interface__interface__settings__provider_8h.html#ad65a8f27f1d953cd18e28c62d6cb1b62" title="PlaymatFallbackMode">PlaymatFallbackMode</a>. </p>
+
+<p>Implements <a class="el" href="../../d5/d60/classIInterfaceSettingsProvider.html#ae19557d1d2b333d0702918c6f62a4ff0">IInterfaceSettingsProvider</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_aeee2545f99945917ccc72a56dfb2c72e_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_aeee2545f99945917ccc72a56dfb2c72e_icgraph.svg" width="474" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a77c225dd484c1b41ecf37783cef73014" name="a77c225dd484c1b41ecf37783cef73014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77c225dd484c1b41ecf37783cef73014">&#9670;&#160;</a></span>getPlaymatFallbackList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; <a class="el" href="../../d1/d3c/structPlaymatInfo.html">PlaymatInfo</a> &gt; InterfaceSettings::getPlaymatFallbackList </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>User-level playmat collection. Used either as a forced playmat (mode == <a class="el" href="../../de/dbf/interface__interface__settings__provider_8h.html#a19c5ded4d05baeef83a33dd38c7684c2a91cdea687663c680aeba0cfce117e2f0" title="PlaymatModeOverrideDeck">PlaymatModeOverrideDeck</a>) or as a fallback when a deck has none (mode == <a class="el" href="../../de/dbf/interface__interface__settings__provider_8h.html#a19c5ded4d05baeef83a33dd38c7684c2a60f154f02be4eff1c5531926d54d03b9" title="PlaymatModeFallback">PlaymatModeFallback</a>). </p>
+
+<p>Implements <a class="el" href="../../d5/d60/classIInterfaceSettingsProvider.html#a94ca82db3752a1e208136c559a6c989d">IInterfaceSettingsProvider</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a77c225dd484c1b41ecf37783cef73014_cgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aa921bc6cb3e742dccffe70e04d42ce1b" name="aa921bc6cb3e742dccffe70e04d42ce1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa921bc6cb3e742dccffe70e04d42ce1b">&#9670;&#160;</a></span>getPlaymatMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InterfaceSettings::getPlaymatMode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>How the fallback list is applied: <a class="el" href="../../de/dbf/interface__interface__settings__provider_8h.html#a19c5ded4d05baeef83a33dd38c7684c2" title="PlaymatMode">PlaymatMode</a>. </p>
+
+<p>Implements <a class="el" href="../../d5/d60/classIInterfaceSettingsProvider.html#a2f884f8bcfa6b634fa81026e0d829457">IInterfaceSettingsProvider</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_aa921bc6cb3e742dccffe70e04d42ce1b_cgraph.svg" width="660" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_aa921bc6cb3e742dccffe70e04d42ce1b_icgraph.svg" width="580" height="79"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a38ef343a634e55ca3af34e473222f20a" name="a38ef343a634e55ca3af34e473222f20a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38ef343a634e55ca3af34e473222f20a">&#9670;&#160;</a></span>getPlaymatVisibility()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InterfaceSettings::getPlaymatVisibility </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Who gets playmats rendered: <a class="el" href="../../de/dbf/interface__interface__settings__provider_8h.html#a272f5831fe2891386ab6293f441fdbca" title="PlaymatVisibility">PlaymatVisibility</a>. </p>
+
+<p>Implements <a class="el" href="../../d5/d60/classIInterfaceSettingsProvider.html#a63a7ab37db806ac4b831fc1b15a75cf2">IInterfaceSettingsProvider</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a38ef343a634e55ca3af34e473222f20a_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a38ef343a634e55ca3af34e473222f20a_icgraph.svg" width="606" height="207"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a2cfe49f95e3687acaf1e085b38f2668e" name="a2cfe49f95e3687acaf1e085b38f2668e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2cfe49f95e3687acaf1e085b38f2668e">&#9670;&#160;</a></span>getPlayToStack()</h2>
 
@@ -967,7 +1132,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a2cfe49f95e3687acaf1e085b38f2668e_icgraph.svg" width="100%" height="482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a2cfe49f95e3687acaf1e085b38f2668e_icgraph.svg" width="100%" height="549"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1238,7 +1403,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a11b536b68b179216bbdd8a1ab84266aa_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a11b536b68b179216bbdd8a1ab84266aa_icgraph.svg" width="100%" height="469"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1658,6 +1823,66 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_afc3557383a1b00a1a5e9fddcb25c384b_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae4830098e14010dd3ae9e333a4ce0082" name="ae4830098e14010dd3ae9e333a4ce0082"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4830098e14010dd3ae9e333a4ce0082">&#9670;&#160;</a></span>playmatSettingsChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InterfaceSettings::playmatSettingsChanged </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_ae4830098e14010dd3ae9e333a4ce0082_icgraph.svg" width="100%" height="482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="adc38be9f6f20c3ac7c2942ecc1905f37" name="adc38be9f6f20c3ac7c2942ecc1905f37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc38be9f6f20c3ac7c2942ecc1905f37">&#9670;&#160;</a></span>playmatVisibilityChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InterfaceSettings::playmatVisibilityChanged </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>visibility</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_adc38be9f6f20c3ac7c2942ecc1905f37_icgraph.svg" width="647" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -2144,6 +2369,109 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_ab0a036c05b3001add94e17cccd25ff98_icgraph.svg" width="438" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a89ae7b9bbd48764991f67a73121dd82a" name="a89ae7b9bbd48764991f67a73121dd82a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89ae7b9bbd48764991f67a73121dd82a">&#9670;&#160;</a></span>setPlaymatFallbackBehavior()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InterfaceSettings::setPlaymatFallbackBehavior </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>_behavior</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a89ae7b9bbd48764991f67a73121dd82a_cgraph.svg" width="100%" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a6adad7de29edd9afcd9c50a2d68cff82" name="a6adad7de29edd9afcd9c50a2d68cff82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6adad7de29edd9afcd9c50a2d68cff82">&#9670;&#160;</a></span>setPlaymatFallbackList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InterfaceSettings::setPlaymatFallbackList </td>
+          <td>(</td>
+          <td class="paramtype">const QList&lt; <a class="el" href="../../d1/d3c/structPlaymatInfo.html">PlaymatInfo</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>_fallbackList</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a6adad7de29edd9afcd9c50a2d68cff82_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a6adad7de29edd9afcd9c50a2d68cff82_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a68f2a753f4fd956b7ca1ae4a4e88d06e" name="a68f2a753f4fd956b7ca1ae4a4e88d06e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68f2a753f4fd956b7ca1ae4a4e88d06e">&#9670;&#160;</a></span>setPlaymatMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InterfaceSettings::setPlaymatMode </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>_mode</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a68f2a753f4fd956b7ca1ae4a4e88d06e_cgraph.svg" width="100%" height="400"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_a68f2a753f4fd956b7ca1ae4a4e88d06e_icgraph.svg" width="391" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="acc93c71d0efa1a00d2148a50f0b79c58" name="acc93c71d0efa1a00d2148a50f0b79c58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc93c71d0efa1a00d2148a50f0b79c58">&#9670;&#160;</a></span>setPlaymatVisibility()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InterfaceSettings::setPlaymatVisibility </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>_visibility</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_acc93c71d0efa1a00d2148a50f0b79c58_cgraph.svg" width="100%" height="400"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/dc5/classInterfaceSettings_acc93c71d0efa1a00d2148a50f0b79c58_icgraph.svg" width="403" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

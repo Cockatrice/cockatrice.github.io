@@ -113,6 +113,12 @@ var namespaces_dup =
       [ "clearLayoutRec", "dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301", null ],
       [ "findParentOfType", "dc/d55/namespaceQtUtils.html#a573d4567ad2940b0f5fce244a0f585f6", null ]
     ] ],
+    [ "report_utils", "d8/d80/namespacereport__utils.html", [
+      [ "fillReportTableRow", "d8/d80/namespacereport__utils.html#aad25353920308e3ab67d83868b839809", null ],
+      [ "formatReportCategory", "d8/d80/namespacereport__utils.html#aa522b2bfcaa63dfb583413958f170510", null ],
+      [ "formatReportTime", "d8/d80/namespacereport__utils.html#a65f3a661628579cbba9d83d9398d4a40", null ],
+      [ "renderReportDetails", "d8/d80/namespacereport__utils.html#a178b67e76b905f63a76cea2aacf24e59", null ]
+    ] ],
     [ "StatsTally", "d5/d5f/namespaceStatsTally.html", [
       [ "computeTotalPower", "d5/d5f/namespaceStatsTally.html#ab034fea6c61ce11fab9d5a6b17a3dd10", null ]
     ] ],

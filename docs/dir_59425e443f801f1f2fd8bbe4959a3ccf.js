@@ -11,8 +11,10 @@ var dir_59425e443f801f1f2fd8bbe4959a3ccf =
     [ "dummy_test.cpp", "d4/d0d/dummy__test_8cpp.html", "d4/d0d/dummy__test_8cpp" ],
     [ "expression_test.cpp", "d2/d0b/expression__test_8cpp.html", "d2/d0b/expression__test_8cpp" ],
     [ "password_hash_test.cpp", "d5/d3d/password__hash__test_8cpp.html", "d5/d3d/password__hash__test_8cpp" ],
+    [ "playmat_resolver_test.cpp", "d3/ddc/playmat__resolver__test_8cpp.html", "d3/ddc/playmat__resolver__test_8cpp" ],
     [ "server_card_counter_test.cpp", "d8/d24/server__card__counter__test_8cpp.html", "d8/d24/server__card__counter__test_8cpp" ],
     [ "server_counter_test.cpp", "da/d02/server__counter__test_8cpp.html", "da/d02/server__counter__test_8cpp" ],
     [ "server_rate_limiter_test.cpp", "dc/dfb/server__rate__limiter__test_8cpp.html", "dc/dfb/server__rate__limiter__test_8cpp" ],
-    [ "test_age_formatting.cpp", "dd/dd6/test__age__formatting_8cpp.html", "dd/dd6/test__age__formatting_8cpp" ]
+    [ "test_age_formatting.cpp", "dd/dd6/test__age__formatting_8cpp.html", "dd/dd6/test__age__formatting_8cpp" ],
+    [ "warning_categories_test.cpp", "d7/d42/warning__categories__test_8cpp.html", "d7/d42/warning__categories__test_8cpp" ]
 ];

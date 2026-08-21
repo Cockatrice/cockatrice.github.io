@@ -3,6 +3,7 @@ var classUserInfoHeaderWidget =
     [ "UserInfoHeaderWidget", "d7/d45/classUserInfoHeaderWidget.html#a89ce10aa64bff3c44257debe0e155a6b", null ],
     [ "paintEvent", "d7/d45/classUserInfoHeaderWidget.html#ade411a62d2225be489183a0db239fa4c", null ],
     [ "setUserData", "d7/d45/classUserInfoHeaderWidget.html#a3fd855045e5dc4f6d5bec6544807a977", null ],
+    [ "attribution", "d7/d45/classUserInfoHeaderWidget.html#afd15937f7dd00813adc11d4eb262f990", null ],
     [ "avatar", "d7/d45/classUserInfoHeaderWidget.html#aede11646a98fcbbd8cf83e110b944620", null ],
     [ "AvatarPawnSize", "d7/d45/classUserInfoHeaderWidget.html#a9bf7a97fe2f70e149d5fd36ff05e1104", null ],
     [ "AvatarSize", "d7/d45/classUserInfoHeaderWidget.html#a723c8f14374872a1cf78f7e85c7068fd", null ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -132,6 +132,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a380adcdcd2acd38d234ace5c80502864" id="r_a380adcdcd2acd38d234ace5c80502864"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a380adcdcd2acd38d234ace5c80502864">appendMessage</a> (QString message, RoomMessageTypeFlags messageType={}, const <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &amp;userInfo={}, bool playerBold=false)</td></tr>
 <tr class="memitem:a88e22eecf2dbbff3e1a79ac59cabc53f" id="r_a88e22eecf2dbbff3e1a79ac59cabc53f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a88e22eecf2dbbff3e1a79ac59cabc53f">clearChat</a> ()</td></tr>
 <tr class="memitem:ac692d347982fefe550b8256f082fc6ab" id="r_ac692d347982fefe550b8256f082fc6ab"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac692d347982fefe550b8256f082fc6ab">redactMessages</a> (const QString &amp;userName, int <a class="el" href="../../d6/d42/deck__hash__performance__test_8cpp.html#a021789e29c74073d63b613c2eff92cd5">amount</a>)</td></tr>
+<tr class="memitem:a5b7c52e0bad9dcfbab1364139cf2a6a9" id="r_a5b7c52e0bad9dcfbab1364139cf2a6a9"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a5b7c52e0bad9dcfbab1364139cf2a6a9">getRecentChatLog</a> (int maxMessages=50) const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -202,10 +203,15 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ac964d5ae31ec3a041675205b23daeb28" id="r_ac964d5ae31ec3a041675205b23daeb28"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ac964d5ae31ec3a041675205b23daeb28">hoveredContent</a></td></tr>
 <tr class="memitem:a2e6386048f40b8b02583729e70deea9b" id="r_a2e6386048f40b8b02583729e70deea9b"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a2e6386048f40b8b02583729e70deea9b">messageClicked</a></td></tr>
 <tr class="memitem:abd93235f470f550723df69b3894887cd" id="r_abd93235f470f550723df69b3894887cd"><td class="memItemLeft">QMap&lt; QString, QVector&lt; <a class="el" href="../../de/d70/classUserMessagePosition.html">UserMessagePosition</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#abd93235f470f550723df69b3894887cd">userMessagePositions</a></td></tr>
+<tr class="memitem:a1ad102b8ce9426b5744fad6c65e1b0e0" id="r_a1ad102b8ce9426b5744fad6c65e1b0e0"><td class="memItemLeft">QList&lt; <a class="el" href="../../d3/d1f/structChatLogEntry.html">ChatLogEntry</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a1ad102b8ce9426b5744fad6c65e1b0e0">chatHistory</a></td></tr>
 <tr class="memitem:ac50041473e16df37f23c08a363189457" id="r_ac50041473e16df37f23c08a363189457"><td class="memItemLeft">QColor&#160;</td><td class="memItemRight"><a class="el" href="#ac50041473e16df37f23c08a363189457">otherUserColor</a> = QColor(0, 65, 255)</td></tr>
 <tr class="memitem:afef98c4bc47da6bf0ee143d3198a225a" id="r_afef98c4bc47da6bf0ee143d3198a225a"><td class="memItemLeft">QColor&#160;</td><td class="memItemRight"><a class="el" href="#afef98c4bc47da6bf0ee143d3198a225a">serverMessageColor</a> = QColor(0x85, 0x15, 0x15)</td></tr>
 <tr class="memitem:ac3501897ca7df854a58feab9c92c82f7" id="r_ac3501897ca7df854a58feab9c92c82f7"><td class="memItemLeft">QColor&#160;</td><td class="memItemRight"><a class="el" href="#ac3501897ca7df854a58feab9c92c82f7">linkColor</a></td></tr>
 <tr class="memitem:ab3fbb0fc6680a8d47443a1d8ff7bb3f5" id="r_ab3fbb0fc6680a8d47443a1d8ff7bb3f5"><td class="memItemLeft">QColor&#160;</td><td class="memItemRight"><a class="el" href="#ab3fbb0fc6680a8d47443a1d8ff7bb3f5">unresolvedCardTagColor</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:abbb2a7175a63ce4ab07db319e7454945" id="r_abbb2a7175a63ce4ab07db319e7454945"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#abbb2a7175a63ce4ab07db319e7454945">MAX_CHAT_HISTORY</a> = 200</td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
 <a id="a04b1cd53fdc831ea08dd953ee8d61ef1" name="a04b1cd53fdc831ea08dd953ee8d61ef1"></a>
@@ -444,7 +450,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dea/classChatView_afcaa9bd115aaef0f29098493bbba4843_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dea/classChatView_afcaa9bd115aaef0f29098493bbba4843_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -526,7 +532,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dea/classChatView_a380adcdcd2acd38d234ace5c80502864_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dea/classChatView_a380adcdcd2acd38d234ace5c80502864_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -585,7 +591,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dea/classChatView_ac788b437ded8ff280baa438e34453947_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dea/classChatView_ac788b437ded8ff280baa438e34453947_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -905,6 +911,28 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b7c52e0bad9dcfbab1364139cf2a6a9" name="a5b7c52e0bad9dcfbab1364139cf2a6a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b7c52e0bad9dcfbab1364139cf2a6a9">&#9670;&#160;</a></span>getRecentChatLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ChatView::getRecentChatLog </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxMessages</em></span><span class="paramdefsep"> = </span><span class="paramdefval">50</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dea/classChatView_a5b7c52e0bad9dcfbab1364139cf2a6a9_icgraph.svg" width="538" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -1414,6 +1442,28 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a1ad102b8ce9426b5744fad6c65e1b0e0" name="a1ad102b8ce9426b5744fad6c65e1b0e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ad102b8ce9426b5744fad6c65e1b0e0">&#9670;&#160;</a></span>chatHistory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="../../d3/d1f/structChatLogEntry.html">ChatLogEntry</a>&gt; ChatView::chatHistory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aee275619d83e2d9d1ea6f8a9e4d70861" name="aee275619d83e2d9d1ea6f8a9e4d70861"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee275619d83e2d9d1ea6f8a9e4d70861">&#9670;&#160;</a></span>defaultFormat</h2>
 
@@ -1606,6 +1656,28 @@ Here is the call graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abbb2a7175a63ce4ab07db319e7454945" name="abbb2a7175a63ce4ab07db319e7454945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbb2a7175a63ce4ab07db319e7454945">&#9670;&#160;</a></span>MAX_CHAT_HISTORY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ChatView::MAX_CHAT_HISTORY = 200</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -128,7 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a469b920caa40b2976f139c82a67617e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates UI text for translation/localization.  <br /></td></tr>
 <tr class="memitem:aaac69a09b58136e991c396581a6b115c" id="r_aaac69a09b58136e991c396581a6b115c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaac69a09b58136e991c396581a6b115c">processGameInfo</a> (const <a class="el" href="../../d4/dbe/structServerInfo__Game.html">ServerInfo_Game</a> &amp;info)</td></tr>
 <tr class="memdesc:aaac69a09b58136e991c396581a6b115c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates or adds a game entry in the list.  <br /></td></tr>
-<tr class="memitem:a1040ff56d219144b74ebd6d60d96cbde" id="r_a1040ff56d219144b74ebd6d60d96cbde"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a1040ff56d219144b74ebd6d60d96cbde">joinGameById</a> (int gameId)</td></tr>
+<tr class="memitem:a50089ce8c8f7a2b82c87e2af7fdf48bf" id="r_a50089ce8c8f7a2b82c87e2af7fdf48bf"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a50089ce8c8f7a2b82c87e2af7fdf48bf">joinGameById</a> (int gameId, bool asSpectator=false)</td></tr>
+<tr class="memdesc:a50089ce8c8f7a2b82c87e2af7fdf48bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a game by ID and joins or spectates it.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
@@ -171,6 +172,8 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:ac4634b075dc2bd62ae419aab7f5a72c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables buttons for a specific game index.  <br /></td></tr>
 <tr class="memitem:ad9a45b612f0bdd4e6c111fc7ef749989" id="r_ad9a45b612f0bdd4e6c111fc7ef749989"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad9a45b612f0bdd4e6c111fc7ef749989">joinGame</a> (bool asSpectator=false, bool asJudge=false)</td></tr>
 <tr class="memdesc:ad9a45b612f0bdd4e6c111fc7ef749989"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the join or spectate action for the currently selected game.  <br /></td></tr>
+<tr class="memitem:a1d14abdda4d2328dabd2b1c229460db8" id="r_a1d14abdda4d2328dabd2b1c229460db8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1d14abdda4d2328dabd2b1c229460db8">joinGame</a> (const <a class="el" href="../../d4/dbe/structServerInfo__Game.html">ServerInfo_Game</a> &amp;game, bool asSpectator=false, bool asJudge=false)</td></tr>
+<tr class="memdesc:a1d14abdda4d2328dabd2b1c229460db8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the join or spectate action for a specific game.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -369,7 +372,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a40d098545421529a7296deb4f6e0bf3f_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a40d098545421529a7296deb4f6e0bf3f_cgraph.svg" width="411" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -406,7 +409,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a7140a90aa5ebeeec57e4ad3c01ec7d71_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a7140a90aa5ebeeec57e4ad3c01ec7d71_cgraph.svg" width="463" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -441,7 +444,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_af6a9cedd383f4206ecda6a3bbc731e28_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_af6a9cedd383f4206ecda6a3bbc731e28_cgraph.svg" width="463" height="68"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -478,7 +481,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a285ea10d7bed54309847a24b8e18c414_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a285ea10d7bed54309847a24b8e18c414_cgraph.svg" width="488" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -644,7 +647,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_aea5f0f05185cbce6f395de46f29ccb94_icgraph.svg" width="100%" height="557"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_aea5f0f05185cbce6f395de46f29ccb94_icgraph.svg" width="467" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -682,7 +685,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a9c8278ce269bfa328bf5afeea336df3a_cgraph.svg" width="100%" height="549"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a9c8278ce269bfa328bf5afeea336df3a_cgraph.svg" width="100%" height="526"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -719,7 +722,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a9ff8b9dc96b99a203e198599c42e21c2_icgraph.svg" width="100%" height="557"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a9ff8b9dc96b99a203e198599c42e21c2_icgraph.svg" width="463" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -756,7 +759,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a21930436fc63bc8a5140d87284ac9b88_icgraph.svg" width="100%" height="557"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a21930436fc63bc8a5140d87284ac9b88_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -794,7 +797,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_ac4634b075dc2bd62ae419aab7f5a72c8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_ac4634b075dc2bd62ae419aab7f5a72c8_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -871,7 +874,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="ad9a45b612f0bdd4e6c111fc7ef749989" name="ad9a45b612f0bdd4e6c111fc7ef749989"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9a45b612f0bdd4e6c111fc7ef749989">&#9670;&#160;</a></span>joinGame()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9a45b612f0bdd4e6c111fc7ef749989">&#9670;&#160;</a></span>joinGame() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -909,7 +912,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_ad9a45b612f0bdd4e6c111fc7ef749989_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_ad9a45b612f0bdd4e6c111fc7ef749989_cgraph.svg" width="196" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -919,8 +922,58 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a1040ff56d219144b74ebd6d60d96cbde" name="a1040ff56d219144b74ebd6d60d96cbde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1040ff56d219144b74ebd6d60d96cbde">&#9670;&#160;</a></span>joinGameById()</h2>
+<a id="a1d14abdda4d2328dabd2b1c229460db8" name="a1d14abdda4d2328dabd2b1c229460db8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d14abdda4d2328dabd2b1c229460db8">&#9670;&#160;</a></span>joinGame() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::joinGame </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/dbe/structServerInfo__Game.html">ServerInfo_Game</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>game</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>asSpectator</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>asJudge</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs the join or spectate action for a specific game. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">game</td><td>The game to join. </td></tr>
+    <tr><td class="paramname">asSpectator</td><td>True to join as a spectator, false to join as a player. </td></tr>
+    <tr><td class="paramname">asJudge</td><td>True to join as a judge, false to join as a player.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Unlike the selection-based overload, this does not depend on the game being visible in the filtered game list. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a1d14abdda4d2328dabd2b1c229460db8_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a50089ce8c8f7a2b82c87e2af7fdf48bf" name="a50089ce8c8f7a2b82c87e2af7fdf48bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50089ce8c8f7a2b82c87e2af7fdf48bf">&#9670;&#160;</a></span>joinGameById()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -928,20 +981,35 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">bool GameSelector::joinGameById </td>
           <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>gameId</em></span></td><td>)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>gameId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>asSpectator</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Finds a game by ID and joins or spectates it. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameId</td><td>The ID of the game to join. </td></tr>
+    <tr><td class="paramname">asSpectator</td><td>True to join as a spectator, false to join as a player. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the game was found and joined, false otherwise.</dd></dl>
+<p>Unlike the selection-based overload, this does not depend on the game being visible in the filtered game list. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a1040ff56d219144b74ebd6d60d96cbde_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a50089ce8c8f7a2b82c87e2af7fdf48bf_cgraph.svg" width="459" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a1040ff56d219144b74ebd6d60d96cbde_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a50089ce8c8f7a2b82c87e2af7fdf48bf_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

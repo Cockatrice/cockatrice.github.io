@@ -32,6 +32,7 @@ var classServer__DatabaseInterface =
     [ "logMessage", "d2/d12/classServer__DatabaseInterface.html#a3b03eacc95a17525dd1a17e215bde7d5", null ],
     [ "registerUser", "d2/d12/classServer__DatabaseInterface.html#a7a0e773dd7247dc301c915d7b575663d", null ],
     [ "removeForgotPassword", "d2/d12/classServer__DatabaseInterface.html#ac5dd81dcecd97a5c9aecad7863ebaeaf", null ],
+    [ "setForcePasswordChange", "d2/d12/classServer__DatabaseInterface.html#a6ada8cbb9cc21476f1930cfa7eb96440", null ],
     [ "startSession", "d2/d12/classServer__DatabaseInterface.html#a71a56a04d31bc6d9bff1e2e2845c1127", null ],
     [ "storeGameInformation", "d2/d12/classServer__DatabaseInterface.html#a1063cd25c1c105042cca91809803c6f4", null ],
     [ "unlockSessionTables", "d2/d12/classServer__DatabaseInterface.html#a4e8876ed96af9efce79b7cc22007b515", null ],

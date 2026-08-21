@@ -14,6 +14,8 @@ var dir_827f07a19842004c86163e496911e4bc =
     [ "get_text_with_max.h", "d9/dc8/get__text__with__max_8h.html", "d9/dc8/get__text__with__max_8h" ],
     [ "line_edit_completer.cpp", "d5/d88/line__edit__completer_8cpp.html", null ],
     [ "line_edit_completer.h", "d2/de8/line__edit__completer_8h.html", "d2/de8/line__edit__completer_8h" ],
+    [ "report_utils.cpp", "da/d06/report__utils_8cpp.html", "da/d06/report__utils_8cpp" ],
+    [ "report_utils.h", "d6/d7f/report__utils_8h.html", "d6/d7f/report__utils_8h" ],
     [ "reversed_completer_model.cpp", "d5/d4b/reversed__completer__model_8cpp.html", null ],
     [ "reversed_completer_model.h", "dc/dcf/reversed__completer__model_8h.html", "dc/dcf/reversed__completer__model_8h" ],
     [ "sequence_edit.cpp", "d4/d4b/sequence__edit_8cpp.html", null ],

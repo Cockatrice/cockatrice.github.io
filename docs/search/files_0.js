@@ -69,5 +69,7 @@ var searchData=
   ['arrow_5fregistry_2ecpp_66',['arrow_registry.cpp',['../d0/dd7/arrow__registry_8cpp.html',1,'']]],
   ['arrow_5fregistry_2eh_67',['arrow_registry.h',['../dc/d96/arrow__registry_8h.html',1,'']]],
   ['arrow_5ftarget_2ecpp_68',['arrow_target.cpp',['../dc/d4b/arrow__target_8cpp.html',1,'']]],
-  ['arrow_5ftarget_2eh_69',['arrow_target.h',['../dc/dda/arrow__target_8h.html',1,'']]]
+  ['arrow_5ftarget_2eh_69',['arrow_target.h',['../dc/dda/arrow__target_8h.html',1,'']]],
+  ['art_5fcrop_5fattribution_2ecpp_70',['art_crop_attribution.cpp',['../d0/d7d/art__crop__attribution_8cpp.html',1,'']]],
+  ['art_5fcrop_5fattribution_2eh_71',['art_crop_attribution.h',['../d5/d0f/art__crop__attribution_8h.html',1,'']]]
 ];

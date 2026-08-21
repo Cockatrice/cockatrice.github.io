@@ -27,5 +27,13 @@ var moderator__commands_8proto =
     [ "Command_RemoveCardArtRule::ModeratorCommand", "d8/d4c/structCommand__RemoveCardArtRule_1_1ModeratorCommand.html", "d8/d4c/structCommand__RemoveCardArtRule_1_1ModeratorCommand" ],
     [ "Command_ListCardArtRules", "d5/d81/structCommand__ListCardArtRules.html", "d5/d81/structCommand__ListCardArtRules" ],
     [ "Command_ListCardArtRules::ModeratorCommand", "d3/d2d/structCommand__ListCardArtRules_1_1ModeratorCommand.html", "d3/d2d/structCommand__ListCardArtRules_1_1ModeratorCommand" ],
+    [ "Command_GetUserSessions", "d2/d98/structCommand__GetUserSessions.html", "d2/d98/structCommand__GetUserSessions" ],
+    [ "Command_GetUserSessions::ModeratorCommand", "d5/d8b/structCommand__GetUserSessions_1_1ModeratorCommand.html", "d5/d8b/structCommand__GetUserSessions_1_1ModeratorCommand" ],
+    [ "Command_GetUserAlts", "dd/dfe/structCommand__GetUserAlts.html", "dd/dfe/structCommand__GetUserAlts" ],
+    [ "Command_GetUserAlts::ModeratorCommand", "db/d14/structCommand__GetUserAlts_1_1ModeratorCommand.html", "db/d14/structCommand__GetUserAlts_1_1ModeratorCommand" ],
+    [ "Command_GetModeratorLastLogins", "da/d8f/structCommand__GetModeratorLastLogins.html", "da/d8f/structCommand__GetModeratorLastLogins" ],
+    [ "Command_GetModeratorLastLogins::ModeratorCommand", "d5/d62/structCommand__GetModeratorLastLogins_1_1ModeratorCommand.html", "d5/d62/structCommand__GetModeratorLastLogins_1_1ModeratorCommand" ],
+    [ "Command_RemoveUserAvatar", "d7/d1a/structCommand__RemoveUserAvatar.html", "d7/d1a/structCommand__RemoveUserAvatar" ],
+    [ "Command_RemoveUserAvatar::ModeratorCommand", "d8/d33/structCommand__RemoveUserAvatar_1_1ModeratorCommand.html", "d8/d33/structCommand__RemoveUserAvatar_1_1ModeratorCommand" ],
     [ "syntax", "dc/df1/moderator__commands_8proto.html#adbedb258e13546cc707a6ebb073a3d8a", null ]
 ];

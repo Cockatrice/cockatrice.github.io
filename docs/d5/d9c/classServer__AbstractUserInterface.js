@@ -7,6 +7,7 @@ var classServer__AbstractUserInterface =
     [ "getGames", "d5/d9c/classServer__AbstractUserInterface.html#a01a95971489cffd7a410f795726ebbd1", null ],
     [ "getLastCommandTime", "d5/d9c/classServer__AbstractUserInterface.html#a73889f2a37245a5d0afdb02d41a1c0c7", null ],
     [ "joinPersistentGames", "d5/d9c/classServer__AbstractUserInterface.html#a30f0ce2f69847bbcec89e524227db527", null ],
+    [ "onLogin", "d5/d9c/classServer__AbstractUserInterface.html#a4531a571b66ed9fb8abacd1b98de01f5", null ],
     [ "playerAddedToGame", "d5/d9c/classServer__AbstractUserInterface.html#ac74cd5d5abf714ddb871e17888ea21ae", null ],
     [ "playerRemovedFromGame", "d5/d9c/classServer__AbstractUserInterface.html#aa7820d3ebd1d5201147e614dd38188f8", null ],
     [ "prepareSessionEvent", "d5/d9c/classServer__AbstractUserInterface.html#a4f9b42a8a3c7cb37fb7cddda35e1b0f1", null ],

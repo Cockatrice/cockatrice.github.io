@@ -70,11 +70,13 @@ var group__GameGraphics =
       [ "animationTimer", "db/d9f/classGameScene.html#abcfad631804efabf322bb70d673a063f", null ],
       [ "arrowRegistry", "db/d9f/classGameScene.html#ada3cba3ec0bd1062f72f8c0351a84afe", null ],
       [ "hoveredCard", "db/d9f/classGameScene.html#a9d567d70c813595eb7bec6b83d2a79bf", null ],
+      [ "needsReArrange", "db/d9f/classGameScene.html#a6eaec022b09e27ad819ec9d6d7f7692b", null ],
       [ "phasesToolbar", "db/d9f/classGameScene.html#a3380b15516bd04aa811354adda68e93d", null ],
       [ "playerAreaSpacing", "db/d9f/classGameScene.html#a6b6a7bb15edc1db49088d6a7203a30bf", null ],
       [ "playerRotation", "db/d9f/classGameScene.html#a9caa047f70d1ed75024e3caf3bbb7229", null ],
       [ "playersByColumn", "db/d9f/classGameScene.html#aa8f93249b2b666d8a7e3f14db41d8976", null ],
       [ "playerViews", "db/d9f/classGameScene.html#acb71d97b5cfe4c914341a89aba37e199", null ],
+      [ "rearranging", "db/d9f/classGameScene.html#adfdee64967aaf3c0b5f9da88deb4795d", null ],
       [ "viewSize", "db/d9f/classGameScene.html#a72ab60c9119d77b1bdc6ae503a37afb4", null ],
       [ "zoneViews", "db/d9f/classGameScene.html#adbd05dc03b8a1b08cd9bd204713e61fb", null ]
     ] ]

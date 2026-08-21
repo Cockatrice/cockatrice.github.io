@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -117,6 +117,7 @@ Collaboration diagram for TableZone:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
+<tr class="memitem:ae5e588cb38333d865b0b9f407535f417" id="r_ae5e588cb38333d865b0b9f407535f417"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae5e588cb38333d865b0b9f407535f417">onPlaymatChanged</a> (bool <a class="el" href="#ac7737b35855d6a60917afa160b93e177">active</a>)</td></tr>
 <tr class="memitem:a051dd462b5e0fb0e55d3d1d0d8abda65" id="r_a051dd462b5e0fb0e55d3d1d0d8abda65"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a051dd462b5e0fb0e55d3d1d0d8abda65">reorganizeCards</a> () override</td></tr>
 <tr class="memitem:a5b349fd50b27717d9a9bef272a86150a" id="r_a5b349fd50b27717d9a9bef272a86150a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5b349fd50b27717d9a9bef272a86150a">setMirrored</a> (bool isMirrored)</td></tr>
 <tr class="inherit_header pub_slots_classCardZone"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_slots_classCardZone')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Slots inherited from <a class="el" href="../../de/da1/classCardZone.html">CardZone</a></td></tr>
@@ -196,6 +197,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa69a5329c8e12b49d7804e90b22bb273" id="r_aa69a5329c8e12b49d7804e90b22bb273"><td class="memItemLeft">QPixmap&#160;</td><td class="memItemRight"><a class="el" href="#aa69a5329c8e12b49d7804e90b22bb273">backgroundPixelMap</a></td></tr>
 <tr class="memitem:ac7737b35855d6a60917afa160b93e177" id="r_ac7737b35855d6a60917afa160b93e177"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac7737b35855d6a60917afa160b93e177">active</a> = false</td></tr>
 <tr class="memitem:a8025972a9de7703aefc7a241ac6f032f" id="r_a8025972a9de7703aefc7a241ac6f032f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8025972a9de7703aefc7a241ac6f032f">mirrored</a> = false</td></tr>
+<tr class="memitem:ae30eb641f13d4d941b7f13d611857cc1" id="r_ae30eb641f13d4d941b7f13d611857cc1"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae30eb641f13d4d941b7f13d611857cc1">playmatActive</a> = false</td></tr>
 <tr class="memitem:aaeb25064fc1bdfa79eacd0a3aebd7116" id="r_aaeb25064fc1bdfa79eacd0a3aebd7116"><td class="memItemLeft">QElapsedTimer&#160;</td><td class="memItemRight"><a class="el" href="#aaeb25064fc1bdfa79eacd0a3aebd7116">shimmerClock</a></td></tr>
 <tr class="memitem:ad69f8e74af1d1e8bf84f112646c34153" id="r_ad69f8e74af1d1e8bf84f112646c34153"><td class="memItemLeft">qreal&#160;</td><td class="memItemRight"><a class="el" href="#ad69f8e74af1d1e8bf84f112646c34153">damageShimmerAlpha</a> = 0.0</td></tr>
 </table><table class="memberdecls">
@@ -258,8 +260,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../d6/d6f/classTableZone.html" title="TableZone is the grid based rect where CardItems may be placed.">TableZone</a> is the grid based rect where CardItems may be placed. </p>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000072">Todo</a></b></dt><dd>Document this file. </dd></dl>
-<p>It is the main play zone and can be customized with background images. </p><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000073">Todo</a></b></dt><dd>Refactor methods to make more readable, extract logic to private methods (especially <a class="el" href="#a051dd462b5e0fb0e55d3d1d0d8abda65">reorganizeCards()</a>). </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000073">Todo</a></b></dt><dd>Document this file. </dd></dl>
+<p>It is the main play zone and can be customized with background images. </p><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000074">Todo</a></b></dt><dd>Refactor methods to make more readable, extract logic to private methods (especially <a class="el" href="#a051dd462b5e0fb0e55d3d1d0d8abda65">reorganizeCards()</a>). </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abb74274d2a776edf55621d4c123fec1a" name="abb74274d2a776edf55621d4c123fec1a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abb74274d2a776edf55621d4c123fec1a">&#9670;&#160;</a></span>TableZone()</h2>
@@ -811,6 +813,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ae5e588cb38333d865b0b9f407535f417" name="ae5e588cb38333d865b0b9f407535f417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5e588cb38333d865b0b9f407535f417">&#9670;&#160;</a></span>onPlaymatChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TableZone::onPlaymatChanged </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>active</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_ae5e588cb38333d865b0b9f407535f417_icgraph.svg" width="442" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a049ba4ae8a44aa10ff31299be7a8d257" name="a049ba4ae8a44aa10ff31299be7a8d257"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a049ba4ae8a44aa10ff31299be7a8d257">&#9670;&#160;</a></span>paint()</h2>
 
@@ -1073,6 +1105,11 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_ae61590673fe24889e5f0fe52faff7088_cgraph.svg" width="394" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -1101,7 +1138,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_affdbd7c0d3f501906e7be7a82e51893a_icgraph.svg" width="100%" height="423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_affdbd7c0d3f501906e7be7a82e51893a_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1638,6 +1675,28 @@ Here is the caller graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae30eb641f13d4d941b7f13d611857cc1" name="ae30eb641f13d4d941b7f13d611857cc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae30eb641f13d4d941b7f13d611857cc1">&#9670;&#160;</a></span>playmatActive</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TableZone::playmatActive = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

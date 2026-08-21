@@ -15,6 +15,7 @@ var classServer__Player =
     [ "cmdReverseTurn", "d8/d21/classServer__Player.html#a3bdb8eef66cc4ce9f2cdb4002eea5485", null ],
     [ "cmdSetActivePhase", "d8/d21/classServer__Player.html#ac2f3f345b85b437c72eedfdbc4d7d284", null ],
     [ "cmdSetCounter", "d8/d21/classServer__Player.html#adbfad6a6eb8b32ede88e8369642cd4a1", null ],
+    [ "cmdSetPlaymat", "d8/d21/classServer__Player.html#a696f825c90e2cea0c7ded96140f71361", null ],
     [ "cmdSetSideboardLock", "d8/d21/classServer__Player.html#af6f52fb7fa79abcda96d0012fa931c99", null ],
     [ "cmdSetSideboardPlan", "d8/d21/classServer__Player.html#adec0fd8256ae73982116f6426e412310", null ],
     [ "cmdShuffle", "d8/d21/classServer__Player.html#a5faaffc648895db313be8a4d03ec98c8", null ],

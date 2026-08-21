@@ -10,6 +10,7 @@ var server_8h =
       [ "UsernameInvalid", "d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdaecbd40434d3b40e6fdb3bacb2e9343a2", null ],
       [ "RegistrationRequired", "d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cda83cb1afc154a940ecac2c93322727a55", null ],
       [ "UserIsInactive", "d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cda2a1102e19b39be6300cac8790b0abd40", null ],
-      [ "ClientIdRequired", "d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdaa6c89a59ececc367335a013419976ebc", null ]
+      [ "ClientIdRequired", "d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdaa6c89a59ececc367335a013419976ebc", null ],
+      [ "PasswordChangeRequired", "d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cda5477865b352cdb432db7888bd720e303", null ]
     ] ]
 ];

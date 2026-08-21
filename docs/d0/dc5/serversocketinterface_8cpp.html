@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -128,10 +128,20 @@ $(function(){initNavTree('d0/dc5/serversocketinterface_8cpp.html','../../',''); 
 <code>#include &lt;libcockatrice/protocol/pb/command_deck_upload.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_replay_delete_match.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_replay_download.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_replay_download_by_game_id.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_replay_get_code.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_replay_list.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_replay_modify_match.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_replay_submit_code.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_report.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_report_add_comment.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_report_assign.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_report_details.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_report_list.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_report_my_list.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_report_resolve.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_report_stats.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_report_user_info.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/commands.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/event_add_to_list.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/event_connection_closed.pb.h&gt;</code><br />
@@ -149,20 +159,36 @@ $(function(){initNavTree('d0/dc5/serversocketinterface_8cpp.html','../../',''); 
 <code>#include &lt;libcockatrice/protocol/pb/response_deck_upload.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_forgotpasswordrequest.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_get_admin_notes.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_moderator_last_logins.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_password_salt.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_register.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_remove_user_avatar.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_replay_download.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_replay_download_by_game_id.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_replay_get_code.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_replay_list.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_report_details.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_report_list.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_report_my_list.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_report_stats.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_report_user_info.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_reset_user_password.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_user_alts.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_user_sessions.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_viewlog_history.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_warn_history.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_warn_list.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/serverinfo_ban.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/serverinfo_chat_message.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/serverinfo_deckstorage.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/serverinfo_moderator_login.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/serverinfo_replay.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/serverinfo_user.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/serverinfo_user_alt.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/serverinfo_user_session.pb.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../dd/d9e/passwordhasher_8h_source.html">libcockatrice/utility/passwordhasher.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d78/string__limits_8h_source.html">libcockatrice/utility/string_limits.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/dbe/warning__categories_8h_source.html">libcockatrice/utility/warning_categories.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d1f/server__response__containers_8h_source.html">server_response_containers.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/d97/server__room_8h_source.html">server_room.h</a>&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />

@@ -8,6 +8,7 @@ var classTabAccount =
     [ "getTabText", "d5/da7/classTabAccount.html#ac6ccc3ee32aefefd934cebae091c0bd5", null ],
     [ "ignoreListReceived", "d5/da7/classTabAccount.html#a79c918edf672d9f175363ba2060d898f", null ],
     [ "openMessageDialog", "d5/da7/classTabAccount.html#a1d4cb6c2d51b1f7c3a101521b7afb664", null ],
+    [ "openMyReports", "d5/da7/classTabAccount.html#a5c976b832c4d949f3c69f2f627847f94", null ],
     [ "processAddToListEvent", "d5/da7/classTabAccount.html#a5fe75a6b033e0d7eab2058476551e434", null ],
     [ "processListUsersResponse", "d5/da7/classTabAccount.html#a0c0b514670d6d37435deba9186cadef2", null ],
     [ "processRemoveFromListEvent", "d5/da7/classTabAccount.html#a8a3a02c189e3839183ea403bfb606c0b", null ],
@@ -22,5 +23,6 @@ var classTabAccount =
     [ "buddyList", "d5/da7/classTabAccount.html#ae4f69a2b37373e95717ab9261697fb17", null ],
     [ "client", "d5/da7/classTabAccount.html#af8f32426d4a6c41513b9b94860c39934", null ],
     [ "ignoreList", "d5/da7/classTabAccount.html#ad4e92adaaa0eab6c9e7dd4b59a6b9879", null ],
+    [ "myReportsButton", "d5/da7/classTabAccount.html#ad989ce718ee8565fcb3925d09397e75e", null ],
     [ "userInfoBox", "d5/da7/classTabAccount.html#a6b9756a3f863b069d110507ed76ba746", null ]
 ];

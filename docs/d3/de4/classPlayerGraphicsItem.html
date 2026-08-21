@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -132,6 +132,7 @@ Signals</h2></td></tr>
 <tr class="memitem:a742ccbc0beb2971365bcf701d557fdf1" id="r_a742ccbc0beb2971365bcf701d557fdf1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a742ccbc0beb2971365bcf701d557fdf1">playerCountChanged</a> ()</td></tr>
 <tr class="memitem:ad73a6eaedeab375032eec956e32825c0" id="r_ad73a6eaedeab375032eec956e32825c0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad73a6eaedeab375032eec956e32825c0">mirroredChanged</a> (bool isMirrored)</td></tr>
 <tr class="memitem:aa9caf0d86a4d83503ff650a464caaf95" id="r_aa9caf0d86a4d83503ff650a464caaf95"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa9caf0d86a4d83503ff650a464caaf95">cardInfoRequested</a> (const <a class="el" href="../../d1/d66/structCardRef.html">CardRef</a> &amp;cardRef)</td></tr>
+<tr class="memitem:abd2a717a087c33b88b902741b54fdf36" id="r_abd2a717a087c33b88b902741b54fdf36"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abd2a717a087c33b88b902741b54fdf36">playmatChanged</a> (bool <a class="el" href="#a551b785e33561f00192230c351d8ca32">hasPlaymat</a>)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -166,6 +167,13 @@ Static Public Attributes</h2></td></tr>
 Private Slots</h2></td></tr>
 <tr class="memitem:ac7e3e5c1b5f45490288209ad02cb5dd4" id="r_ac7e3e5c1b5f45490288209ad02cb5dd4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac7e3e5c1b5f45490288209ad02cb5dd4">updateBoundingRect</a> ()</td></tr>
 <tr class="memitem:ad126bca5e51725c0130e922e114c6b0d" id="r_ad126bca5e51725c0130e922e114c6b0d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad126bca5e51725c0130e922e114c6b0d">rearrangeZones</a> ()</td></tr>
+<tr class="memitem:a219363ac71e5a138a347686541e9a198" id="r_a219363ac71e5a138a347686541e9a198"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a219363ac71e5a138a347686541e9a198">clearPlaymat</a> ()</td></tr>
+<tr class="memitem:ab1c45617d00e0664577ecc9edadb1ada" id="r_ab1c45617d00e0664577ecc9edadb1ada"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab1c45617d00e0664577ecc9edadb1ada">updatePlaymat</a> ()</td></tr>
+<tr class="memitem:afbef0a295503582741c50756a53fdb8a" id="r_afbef0a295503582741c50756a53fdb8a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afbef0a295503582741c50756a53fdb8a">onPlaymatPixmapReady</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a54a1003dc538083a4809ce6c7c0b0c3d" id="r_a54a1003dc538083a4809ce6c7c0b0c3d"><td class="memItemLeft">QPixmap&#160;</td><td class="memItemRight"><a class="el" href="#a54a1003dc538083a4809ce6c7c0b0c3d">scaledPlaymatFor</a> (const QRectF &amp;srcRect, const QSizeF &amp;deviceDstSize)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -186,6 +194,13 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:afcafe76822c44781bd0a4cd4838854bc" id="r_afcafe76822c44781bd0a4cd4838854bc"><td class="memItemLeft">QRectF&#160;</td><td class="memItemRight"><a class="el" href="#afcafe76822c44781bd0a4cd4838854bc">bRect</a></td></tr>
 <tr class="memitem:afad99603356aed7457f2b172ff3150d3" id="r_afad99603356aed7457f2b172ff3150d3"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#afad99603356aed7457f2b172ff3150d3">mirrored</a></td></tr>
 <tr class="memitem:acb71cdd984836712348bd663c2437118" id="r_acb71cdd984836712348bd663c2437118"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#acb71cdd984836712348bd663c2437118">handVisible</a> = false</td></tr>
+<tr class="memitem:a7f4f185ce160349d9610b36ea6e84e99" id="r_a7f4f185ce160349d9610b36ea6e84e99"><td class="memItemLeft">QPixmap&#160;</td><td class="memItemRight"><a class="el" href="#a7f4f185ce160349d9610b36ea6e84e99">playmatPixmap</a></td></tr>
+<tr class="memitem:a2b07361854a15bf133f6adbac2ec5a95" id="r_a2b07361854a15bf133f6adbac2ec5a95"><td class="memItemLeft">QPixmap&#160;</td><td class="memItemRight"><a class="el" href="#a2b07361854a15bf133f6adbac2ec5a95">scaledPlaymatPixmap</a></td></tr>
+<tr class="memitem:a668a50c4bb491f24f3a15724247b42a5" id="r_a668a50c4bb491f24f3a15724247b42a5"><td class="memItemLeft">QSize&#160;</td><td class="memItemRight"><a class="el" href="#a668a50c4bb491f24f3a15724247b42a5">scaledPlaymatKey</a></td></tr>
+<tr class="memitem:a2845e869783b51fbe6e677dcfef17294" id="r_a2845e869783b51fbe6e677dcfef17294"><td class="memItemLeft"><a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2845e869783b51fbe6e677dcfef17294">playmatParams</a></td></tr>
+<tr class="memitem:a54db3eb8546afddbc21079e8865c8fa9" id="r_a54db3eb8546afddbc21079e8865c8fa9"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a54db3eb8546afddbc21079e8865c8fa9">playmatAttribution</a></td></tr>
+<tr class="memitem:a551b785e33561f00192230c351d8ca32" id="r_a551b785e33561f00192230c351d8ca32"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a551b785e33561f00192230c351d8ca32">hasPlaymat</a> = false</td></tr>
+<tr class="memitem:a130323411a351b116a400a9e1bf0791a" id="r_a130323411a351b116a400a9e1bf0791a"><td class="memItemLeft">QMetaObject::Connection&#160;</td><td class="memItemRight"><a class="el" href="#a130323411a351b116a400a9e1bf0791a">playmatPixmapConnection</a></td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
 <a id="aa0a1ba535d14f698b7aab4932f07c4d3" name="aa0a1ba535d14f698b7aab4932f07c4d3"></a>
@@ -262,7 +277,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ab1f478b81edde525b7d125cb552eaadc_icgraph.svg" width="100%" height="582"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ab1f478b81edde525b7d125cb552eaadc_icgraph.svg" width="100%" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -292,7 +307,42 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_aa9caf0d86a4d83503ff650a464caaf95_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_aa9caf0d86a4d83503ff650a464caaf95_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a219363ac71e5a138a347686541e9a198" name="a219363ac71e5a138a347686541e9a198"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a219363ac71e5a138a347686541e9a198">&#9670;&#160;</a></span>clearPlaymat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerGraphicsItem::clearPlaymat </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_a219363ac71e5a138a347686541e9a198_cgraph.svg" width="360" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_a219363ac71e5a138a347686541e9a198_icgraph.svg" width="599" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -731,7 +781,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ad73a6eaedeab375032eec956e32825c0_icgraph.svg" width="100%" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ad73a6eaedeab375032eec956e32825c0_icgraph.svg" width="100%" height="525"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -866,6 +916,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="afbef0a295503582741c50756a53fdb8a" name="afbef0a295503582741c50756a53fdb8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbef0a295503582741c50756a53fdb8a">&#9670;&#160;</a></span>onPlaymatPixmapReady</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerGraphicsItem::onPlaymatPixmapReady </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_afbef0a295503582741c50756a53fdb8a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_afbef0a295503582741c50756a53fdb8a_icgraph.svg" width="607" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ab5b10dc6eba1990d6a427a04e83b698e" name="ab5b10dc6eba1990d6a427a04e83b698e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab5b10dc6eba1990d6a427a04e83b698e">&#9670;&#160;</a></span>paint()</h2>
 
@@ -897,6 +982,11 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ab5b10dc6eba1990d6a427a04e83b698e_cgraph.svg" width="380" height="200"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -922,6 +1012,36 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd2a717a087c33b88b902741b54fdf36" name="abd2a717a087c33b88b902741b54fdf36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd2a717a087c33b88b902741b54fdf36">&#9670;&#160;</a></span>playmatChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerGraphicsItem::playmatChanged </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>hasPlaymat</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_abd2a717a087c33b88b902741b54fdf36_icgraph.svg" width="100%" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -977,7 +1097,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_aa713ab177e0f167084906f118a3f3268_icgraph.svg" width="100%" height="540"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_aa713ab177e0f167084906f118a3f3268_icgraph.svg" width="100%" height="551"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1012,7 +1132,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ad126bca5e51725c0130e922e114c6b0d_icgraph.svg" width="100%" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ad126bca5e51725c0130e922e114c6b0d_icgraph.svg" width="100%" height="525"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1047,6 +1167,40 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a54a1003dc538083a4809ce6c7c0b0c3d" name="a54a1003dc538083a4809ce6c7c0b0c3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54a1003dc538083a4809ce6c7c0b0c3d">&#9670;&#160;</a></span>scaledPlaymatFor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap PlayerGraphicsItem::scaledPlaymatFor </td>
+          <td>(</td>
+          <td class="paramtype">const QRectF &amp;</td>          <td class="paramname"><span class="paramname"><em>srcRect</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QSizeF &amp;</td>          <td class="paramname"><span class="paramname"><em>deviceDstSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_a54a1003dc538083a4809ce6c7c0b0c3d_icgraph.svg" width="360" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="aba69bbc705918ca8e8d3909198194d13" name="aba69bbc705918ca8e8d3909198194d13"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba69bbc705918ca8e8d3909198194d13">&#9670;&#160;</a></span>setMirrored()</h2>
 
@@ -1069,7 +1223,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_aba69bbc705918ca8e8d3909198194d13_icgraph.svg" width="100%" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_aba69bbc705918ca8e8d3909198194d13_icgraph.svg" width="100%" height="525"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1099,7 +1253,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ae8e3c4e833ffaaf424c068aec792a339_icgraph.svg" width="100%" height="529"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ae8e3c4e833ffaaf424c068aec792a339_icgraph.svg" width="100%" height="599"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1159,7 +1313,42 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ac7e3e5c1b5f45490288209ad02cb5dd4_icgraph.svg" width="100%" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ac7e3e5c1b5f45490288209ad02cb5dd4_icgraph.svg" width="100%" height="525"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab1c45617d00e0664577ecc9edadb1ada" name="ab1c45617d00e0664577ecc9edadb1ada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1c45617d00e0664577ecc9edadb1ada">&#9670;&#160;</a></span>updatePlaymat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerGraphicsItem::updatePlaymat </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ab1c45617d00e0664577ecc9edadb1ada_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/classPlayerGraphicsItem_ab1c45617d00e0664577ecc9edadb1ada_icgraph.svg" width="400" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1319,6 +1508,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a551b785e33561f00192230c351d8ca32" name="a551b785e33561f00192230c351d8ca32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a551b785e33561f00192230c351d8ca32">&#9670;&#160;</a></span>hasPlaymat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PlayerGraphicsItem::hasPlaymat = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afad99603356aed7457f2b172ff3150d3" name="afad99603356aed7457f2b172ff3150d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afad99603356aed7457f2b172ff3150d3">&#9670;&#160;</a></span>mirrored</h2>
 
@@ -1451,6 +1662,94 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a54db3eb8546afddbc21079e8865c8fa9" name="a54db3eb8546afddbc21079e8865c8fa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54db3eb8546afddbc21079e8865c8fa9">&#9670;&#160;</a></span>playmatAttribution</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString PlayerGraphicsItem::playmatAttribution</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2845e869783b51fbe6e677dcfef17294" name="a2845e869783b51fbe6e677dcfef17294"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2845e869783b51fbe6e677dcfef17294">&#9670;&#160;</a></span>playmatParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> PlayerGraphicsItem::playmatParams</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f4f185ce160349d9610b36ea6e84e99" name="a7f4f185ce160349d9610b36ea6e84e99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f4f185ce160349d9610b36ea6e84e99">&#9670;&#160;</a></span>playmatPixmap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap PlayerGraphicsItem::playmatPixmap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a130323411a351b116a400a9e1bf0791a" name="a130323411a351b116a400a9e1bf0791a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a130323411a351b116a400a9e1bf0791a">&#9670;&#160;</a></span>playmatPixmapConnection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMetaObject::Connection PlayerGraphicsItem::playmatPixmapConnection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af171d2c6173b6a05d79ea1990f9e29fa" name="af171d2c6173b6a05d79ea1990f9e29fa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af171d2c6173b6a05d79ea1990f9e29fa">&#9670;&#160;</a></span>rfgZoneGraphicsItem</h2>
 
@@ -1462,6 +1761,50 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d6/d02/classPileZone.html">PileZone</a>* PlayerGraphicsItem::rfgZoneGraphicsItem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a668a50c4bb491f24f3a15724247b42a5" name="a668a50c4bb491f24f3a15724247b42a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a668a50c4bb491f24f3a15724247b42a5">&#9670;&#160;</a></span>scaledPlaymatKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize PlayerGraphicsItem::scaledPlaymatKey</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b07361854a15bf133f6adbac2ec5a95" name="a2b07361854a15bf133f6adbac2ec5a95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b07361854a15bf133f6adbac2ec5a95">&#9670;&#160;</a></span>scaledPlaymatPixmap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPixmap PlayerGraphicsItem::scaledPlaymatPixmap</td>
         </tr>
       </table>
   </td>

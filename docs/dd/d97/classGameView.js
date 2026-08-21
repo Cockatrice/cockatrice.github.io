@@ -14,6 +14,7 @@ var classGameView =
     [ "aCloseMostRecentZoneView", "dd/d97/classGameView.html#a9a832d7fe17ada6fafebaa5d3310cbb6", null ],
     [ "cachedTallyRows", "dd/d97/classGameView.html#a5f465c645324aeff61c47e0aca0903ed", null ],
     [ "dragCountLabel", "dd/d97/classGameView.html#a9673b6ffdf2ee664544b7cc02da684fe", null ],
+    [ "previousBandRect", "dd/d97/classGameView.html#a377b7bd4c400408e708d291ffd3fa985", null ],
     [ "rubberBand", "dd/d97/classGameView.html#a72006182f4b439a2404bc4d78d912bc6", null ],
     [ "selectionOrigin", "dd/d97/classGameView.html#a164090d52174007030aa241c6947736c", null ],
     [ "tallyContainer", "dd/d97/classGameView.html#a4618f71e32c45102cdc61b6e00c333d2", null ],

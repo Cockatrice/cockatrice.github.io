@@ -39,7 +39,8 @@ var structResponse =
       [ "RespClientIdRequired", "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dac4a4b41dafaa702058f2f134d86b9fc2", null ],
       [ "RespClientUpdateRequired", "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dabc90d3dedc5d117ffd323f2061c3eafb", null ],
       [ "RespServerFull", "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451daec83811eba8fbcaa4b29a717164e3afa", null ],
-      [ "RespEmailBlackListed", "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451da1854fcdf911e53d31bcf72109b3045fd", null ]
+      [ "RespEmailBlackListed", "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451da1854fcdf911e53d31bcf72109b3045fd", null ],
+      [ "RespPasswordChangeRequired", "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451da7517a91ad1830e8d6e7a920b819542bf", null ]
     ] ],
     [ "ResponseType", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442", [
       [ "JOIN_ROOM", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a67f14505c71f239a90bd648ac06a25d3", null ],

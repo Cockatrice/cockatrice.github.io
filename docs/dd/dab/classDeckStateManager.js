@@ -37,6 +37,7 @@ var classDeckStateManager =
     [ "setLastLoadInfo", "dd/dab/classDeckStateManager.html#ad5de9fbedac1605825205cada4e4f32f", null ],
     [ "setModified", "dd/dab/classDeckStateManager.html#a2b8582ad1977ed94c3fee0062f890786", null ],
     [ "setName", "dd/dab/classDeckStateManager.html#ab6fa2882e597d4211eb934d1fdf8e99c", null ],
+    [ "setPlaymat", "dd/dab/classDeckStateManager.html#a13900da4701b806274781f8f5432aac4", null ],
     [ "setTags", "dd/dab/classDeckStateManager.html#a73a56c587e7d759cac07325f2672f02a", null ],
     [ "swapCardAtIndex", "dd/dab/classDeckStateManager.html#aac8bb40a3b2705db7a04cf880972e63f", null ],
     [ "toLoadedDeck", "dd/dab/classDeckStateManager.html#a52819a18916c9f52856bb8002c224c16", null ],

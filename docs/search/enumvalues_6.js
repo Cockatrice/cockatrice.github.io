@@ -16,7 +16,10 @@ var searchData=
   ['generalpage_13',['GeneralPage',['../db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788adcb3d0057089e32bad803c96e42186b0',1,'DlgSettings']]],
   ['get_5fadmin_5fnotes_14',['GET_ADMIN_NOTES',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129ab0926546c1fd2477758f879d4dc79d42',1,'ModeratorCommand::GET_ADMIN_NOTES'],['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442acc7434fe8c64b495555c3f95f9c465b1',1,'Response::GET_ADMIN_NOTES']]],
   ['get_5fgames_5fof_5fuser_15',['GET_GAMES_OF_USER',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442af1ec623315b236386aa67f5145270467',1,'Response::GET_GAMES_OF_USER'],['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ac2efaa0bb2a85a32eadd889ecba8b73f',1,'SessionCommand::GET_GAMES_OF_USER']]],
-  ['get_5fuser_5finfo_16',['GET_USER_INFO',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a1ea59c0586356cc9750b23c65318e947',1,'Response::GET_USER_INFO'],['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700aef176145d81c3c6fabc90fe0cc5bc297',1,'SessionCommand::GET_USER_INFO']]],
-  ['gladiator_17',['Gladiator',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2af92b36491af502e1a73ef7aa499211b0',1,'ArchidektFormats']]],
-  ['grant_5freplay_5faccess_18',['GRANT_REPLAY_ACCESS',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a1c211f2e55a858b3d5baaf69565d77ca',1,'ModeratorCommand']]]
+  ['get_5fmoderator_5flast_5flogins_16',['GET_MODERATOR_LAST_LOGINS',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a07bcdae082f9758f363abb3cabc223ac',1,'ModeratorCommand']]],
+  ['get_5fuser_5falts_17',['GET_USER_ALTS',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129ab99e307b499fb09ea8d95ee032f5f436',1,'ModeratorCommand']]],
+  ['get_5fuser_5finfo_18',['GET_USER_INFO',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a1ea59c0586356cc9750b23c65318e947',1,'Response::GET_USER_INFO'],['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700aef176145d81c3c6fabc90fe0cc5bc297',1,'SessionCommand::GET_USER_INFO']]],
+  ['get_5fuser_5fsessions_19',['GET_USER_SESSIONS',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a67c4ff55eeefbb707efd61541ccdcfca',1,'ModeratorCommand']]],
+  ['gladiator_20',['Gladiator',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2af92b36491af502e1a73ef7aa499211b0',1,'ArchidektFormats']]],
+  ['grant_5freplay_5faccess_21',['GRANT_REPLAY_ACCESS',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a1c211f2e55a858b3d5baaf69565d77ca',1,'ModeratorCommand']]]
 ];

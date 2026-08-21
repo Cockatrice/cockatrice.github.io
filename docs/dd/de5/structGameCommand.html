@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -145,6 +145,7 @@ Public Types</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="#a7b8ff20e6438163dead68ec4b4116f12ae082f918ae85a29d06607ea22f8db10e">JUDGE</a> = 1033
 , <a class="el" href="#a7b8ff20e6438163dead68ec4b4116f12acd9dc16baab2c45ef9c98372c255c099">REVERSE_TURN</a> = 1034
+, <a class="el" href="#a7b8ff20e6438163dead68ec4b4116f12ab56442672f8be920b1770f379e05297c">SET_PLAYMAT</a> = 1035
 <br />
  }</td></tr>
 </table><table class="memberdecls">
@@ -235,6 +236,8 @@ Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a7b8ff20e6438163dead68ec4b4116f12ae082f918ae85a29d06607ea22f8db10e" name="a7b8ff20e6438163dead68ec4b4116f12ae082f918ae85a29d06607ea22f8db10e"></a>JUDGE&#160;</td><td class="fielddoc"><p>/ Execute a command on behalf of another player. / <a class="el" href="../../db/d00/classServer.html">Server</a>: <a class="el" href="../../d0/d00/classServer__AbstractParticipant.html#aed450bf7e03cadd5ba6588bd7a310461">Server_AbstractParticipant::cmdJudge</a> / Client: transparent (wrapped commands handled normally) </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a7b8ff20e6438163dead68ec4b4116f12acd9dc16baab2c45ef9c98372c255c099" name="a7b8ff20e6438163dead68ec4b4116f12acd9dc16baab2c45ef9c98372c255c099"></a>REVERSE_TURN&#160;</td><td class="fielddoc"><p>/ Reverse the current turn order. / <a class="el" href="../../db/d00/classServer.html">Server</a>: <a class="el" href="../../d8/d21/classServer__Player.html#a3bdb8eef66cc4ce9f2cdb4002eea5485">Server_Player::cmdReverseTurn</a> / Client: reflected via subsequent turn events </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7b8ff20e6438163dead68ec4b4116f12ab56442672f8be920b1770f379e05297c" name="a7b8ff20e6438163dead68ec4b4116f12ab56442672f8be920b1770f379e05297c"></a>SET_PLAYMAT&#160;</td><td class="fielddoc"><p>/ Set the player's playmat independently of the deck. / <a class="el" href="../../db/d00/classServer.html">Server</a>: <a class="el" href="../../d8/d21/classServer__Player.html#a696f825c90e2cea0c7ded96140f71361">Server_Player::cmdSetPlaymat</a> / Client: reflected via player properties changed event </p>
 </td></tr>
 </table>
 

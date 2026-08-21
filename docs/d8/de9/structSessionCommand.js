@@ -32,7 +32,11 @@ var structSessionCommand =
       [ "REPLAY_MODIFY_MATCH", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ab21822177cddfd9882df605aaf4ed566", null ],
       [ "REPLAY_DELETE_MATCH", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a33dddfa7334d4d5a7138428bc793b734", null ],
       [ "REPLAY_GET_CODE", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ad1a39211c8453a239c5ad451e6746b5b", null ],
-      [ "REPLAY_SUBMIT_CODE", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700afc5f62ab24fbe99886e8a7cea983c830", null ]
+      [ "REPLAY_SUBMIT_CODE", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700afc5f62ab24fbe99886e8a7cea983c830", null ],
+      [ "REPORT", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a2efec3075d6195ad7c05219915777fbf", null ],
+      [ "REPORT_MY_LIST", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a3c8413098fbd8f31fc414b367045a5f8", null ],
+      [ "REPORT_ADD_COMMENT", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a3eaa479299d1c2316bec9fe1ea8e583c", null ],
+      [ "REPORT_DETAILS", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a6f54ceba2dc6afca94b4e026cc604075", null ]
     ] ],
     [ "max", "d8/de9/structSessionCommand.html#a246a4710a7c6e2383b1ce64276b866d1", null ]
 ];

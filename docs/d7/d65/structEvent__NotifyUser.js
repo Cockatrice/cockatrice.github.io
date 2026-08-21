@@ -6,7 +6,9 @@ var structEvent__NotifyUser =
       [ "PROMOTED", "d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eead58a06df3888aa016a93f606bbc6df13", null ],
       [ "WARNING", "d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eea5d1b52b57696e052fdbd46b095cd599b", null ],
       [ "IDLEWARNING", "d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eea0e8de1ed07af7654ed2fc13d65652362", null ],
-      [ "CUSTOM", "d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eea2456a908760a653d3322b6ca1160df39", null ]
+      [ "CUSTOM", "d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eea2456a908760a653d3322b6ca1160df39", null ],
+      [ "REPORT_RESOLVED", "d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eeaeb2dda637d77a1fae8b2ce4fd873827d", null ],
+      [ "REPORT_COMMENT", "d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eea668e7578c6a8b1bd7fabcfafa0976b7f", null ]
     ] ],
     [ "custom_content", "d7/d65/structEvent__NotifyUser.html#abb659671495c1a0ad58f48d38034be93", null ],
     [ "custom_title", "d7/d65/structEvent__NotifyUser.html#a0ca8cbcb69b8ef9aa8c8d5d87617c5dc", null ],

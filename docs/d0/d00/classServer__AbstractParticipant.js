@@ -31,6 +31,7 @@ var classServer__AbstractParticipant =
     [ "cmdSetCardAttr", "d0/d00/classServer__AbstractParticipant.html#a9964451aa70ddb94efdadda82424cfad", null ],
     [ "cmdSetCardCounter", "d0/d00/classServer__AbstractParticipant.html#a3dd6c5817c27a0451f5a45fcc4db1abe", null ],
     [ "cmdSetCounter", "d0/d00/classServer__AbstractParticipant.html#a3cb36d0939d36d2da893a8ec5e341a5d", null ],
+    [ "cmdSetPlaymat", "d0/d00/classServer__AbstractParticipant.html#ab9429ef9d755d4b512af8ce3fd3ecbeb", null ],
     [ "cmdSetSideboardLock", "d0/d00/classServer__AbstractParticipant.html#ae63b84f1848120de3d00809908d9930b", null ],
     [ "cmdSetSideboardPlan", "d0/d00/classServer__AbstractParticipant.html#acd25c778a3d31b72cedb6cc84f2549ed", null ],
     [ "cmdShuffle", "d0/d00/classServer__AbstractParticipant.html#ae90682bca30923790d8609a788d7dffa", null ],

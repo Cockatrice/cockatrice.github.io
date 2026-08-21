@@ -22,7 +22,7 @@ var searchData=
   ['channels_19',['Release Channels',['../d6/d8b/user_reference.html#release-channels',1,'']]],
   ['choosing_20a_20layout_20',['Choosing a layout',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#choosing-a-layout',1,'']]],
   ['class_21',['The CardDatabaseQuerier Class',['../da/d66/querying_the_card_database.html#the-carddatabasequerier-class',1,'']]],
-  ['classes_22',['Classes',['../db/d15/game_event_handler.html#related-classes',1,'Related Classes'],['../db/d15/game_event_handler.html#related-classes-1',1,'Related Classes'],['../d4/d5b/player_event_handler.html#related-classes-2',1,'Related Classes'],['../d4/d5b/player_event_handler.html#related-classes-3',1,'Related Classes']]],
+  ['classes_22',['Classes',['../db/d15/game_event_handler.html#related-classes',1,'Related Classes'],['../d4/d5b/player_event_handler.html#related-classes-1',1,'Related Classes'],['../d4/d5b/player_event_handler.html#related-classes-2',1,'Related Classes'],['../db/d15/game_event_handler.html#related-classes-3',1,'Related Classes']]],
   ['classic_20deck_20editor_23',['Classic Deck Editor',['../d3/d32/editing_decks_classic.html',1,'editing_decks']]],
   ['client_24',['In-client',['../dc/d8a/displaying_cards.html#in-client',1,'']]],
   ['client_20→_20server_3a_20commandcontainer_25',['Client → Server: CommandContainer',['../df/d26/developer_reference_protocol_overview.html#client--server-commandcontainer',1,'']]],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,8 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9444753b7264a2aef77b17f099d70af0" id="r_a9444753b7264a2aef77b17f099d70af0"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a9444753b7264a2aef77b17f099d70af0">~AbstractServerSocketInterface</a> ()</td></tr>
 <tr class="memitem:aa971b9ef9acb9c4ff9fbd0d0585dcbd1" id="r_aa971b9ef9acb9c4ff9fbd0d0585dcbd1"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa971b9ef9acb9c4ff9fbd0d0585dcbd1">initSession</a> ()</td></tr>
 <tr class="memitem:af53807686a4e9381a5bf0f48c3ee4cad" id="r_af53807686a4e9381a5bf0f48c3ee4cad"><td class="memItemLeft">virtual QHostAddress&#160;</td><td class="memItemRight"><a class="el" href="#af53807686a4e9381a5bf0f48c3ee4cad">getPeerAddress</a> () const =0</td></tr>
-<tr class="memitem:a234a8b804690f2b4ae0fe7ce5512ee1d" id="r_a234a8b804690f2b4ae0fe7ce5512ee1d"><td class="memItemLeft">virtual QString&#160;</td><td class="memItemRight"><a class="el" href="#a234a8b804690f2b4ae0fe7ce5512ee1d">getAddress</a> () const =0</td></tr>
-<tr class="memitem:a8eea40f2b72b266c71982c5ab8052eb1" id="r_a8eea40f2b72b266c71982c5ab8052eb1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8eea40f2b72b266c71982c5ab8052eb1">transmitProtocolItem</a> (const <a class="el" href="../../d3/d1d/structServerMessage.html">ServerMessage</a> &amp;item)</td></tr>
+<tr class="memitem:a2dda966531091ea0b2fa4e02b395e606" id="r_a2dda966531091ea0b2fa4e02b395e606"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a2dda966531091ea0b2fa4e02b395e606">getAddress</a> () const override=0</td></tr>
+<tr class="memitem:a56b93959a8232684debb0826df8ab029" id="r_a56b93959a8232684debb0826df8ab029"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a56b93959a8232684debb0826df8ab029">transmitProtocolItem</a> (const <a class="el" href="../../d3/d1d/structServerMessage.html">ServerMessage</a> &amp;item) override</td></tr>
 <tr class="inherit_header pub_methods_classServer__ProtocolHandler"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classServer__ProtocolHandler')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="../../d0/d23/classServer__ProtocolHandler.html">Server_ProtocolHandler</a></td></tr>
 <tr class="memitem:ada81817845263d57c5c0a8770008531d inherit pub_methods_classServer__ProtocolHandler" id="r_ada81817845263d57c5c0a8770008531d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="../../d0/d23/classServer__ProtocolHandler.html#ada81817845263d57c5c0a8770008531d">Server_ProtocolHandler</a> (<a class="el" href="../../db/d00/classServer.html">Server</a> *_server, <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html">Server_DatabaseInterface</a> *_databaseInterface, QObject *parent=0)</td></tr>
 <tr class="memitem:af680135af0a49dc248af4059626bfb55 inherit pub_methods_classServer__ProtocolHandler" id="r_af680135af0a49dc248af4059626bfb55"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="../../d0/d23/classServer__ProtocolHandler.html#af680135af0a49dc248af4059626bfb55">~Server_ProtocolHandler</a> ()</td></tr>
@@ -168,7 +168,7 @@ Protected Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a9335626ba568dc0c62dfa71d91fcd1f0" id="r_a9335626ba568dc0c62dfa71d91fcd1f0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9335626ba568dc0c62dfa71d91fcd1f0">logDebugMessage</a> (const QString &amp;message)</td></tr>
+<tr class="memitem:ab0a3827de8b85040bc4bd66231127d39" id="r_ab0a3827de8b85040bc4bd66231127d39"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab0a3827de8b85040bc4bd66231127d39">logDebugMessage</a> (const QString &amp;message) override</td></tr>
 <tr class="memitem:a424df5abbad60ed6da0fda566dc8a5bf" id="r_a424df5abbad60ed6da0fda566dc8a5bf"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a424df5abbad60ed6da0fda566dc8a5bf">tooManyRegistrationAttempts</a> (const QString &amp;ipAddress)</td></tr>
 <tr class="memitem:a49d340b855e928b79d08d3c364fc7eef" id="r_a49d340b855e928b79d08d3c364fc7eef"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a49d340b855e928b79d08d3c364fc7eef">writeToSocket</a> (QByteArray &amp;data)=0</td></tr>
 <tr class="memitem:af95a08238c579245d9adcdce3bcfca18" id="r_af95a08238c579245d9adcdce3bcfca18"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#af95a08238c579245d9adcdce3bcfca18">flushSocket</a> ()=0</td></tr>
@@ -216,6 +216,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a9bbba9f4c5015895f068c39893610bd2" id="r_a9bbba9f4c5015895f068c39893610bd2"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9bbba9f4c5015895f068c39893610bd2">cmdReplayGetCode</a> (const <a class="el" href="../../d8/d0f/structCommand__ReplayGetCode.html">Command_ReplayGetCode</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a41b3034c0494a8e0728ccbdcd5806acf" id="r_a41b3034c0494a8e0728ccbdcd5806acf"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a41b3034c0494a8e0728ccbdcd5806acf">cmdReplaySubmitCode</a> (const <a class="el" href="../../d8/db9/structCommand__ReplaySubmitCode.html">Command_ReplaySubmitCode</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:af0144035762d36148ff3e299bf1516e8" id="r_af0144035762d36148ff3e299bf1516e8"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#af0144035762d36148ff3e299bf1516e8">cmdBanFromServer</a> (const <a class="el" href="../../d4/db0/structCommand__BanFromServer.html">Command_BanFromServer</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:a31589964b646d501a54772147d207205" id="r_a31589964b646d501a54772147d207205"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a31589964b646d501a54772147d207205">cmdReportList</a> (const <a class="el" href="../../d7/d5d/structCommand__ReportList.html">Command_ReportList</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:adbce1f84fbc05b379ee66dcb24f77845" id="r_adbce1f84fbc05b379ee66dcb24f77845"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#adbce1f84fbc05b379ee66dcb24f77845">cmdWarnUser</a> (const <a class="el" href="../../d6/dde/structCommand__WarnUser.html">Command_WarnUser</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a54514c70ed93eb40a5038d3d3bf7ec4c" id="r_a54514c70ed93eb40a5038d3d3bf7ec4c"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a54514c70ed93eb40a5038d3d3bf7ec4c">cmdGetLogHistory</a> (const <a class="el" href="../../d7/dbb/structCommand__ViewLogHistory.html">Command_ViewLogHistory</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:ac6ff54b9bf1722402839d499c72b0454" id="r_ac6ff54b9bf1722402839d499c72b0454"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac6ff54b9bf1722402839d499c72b0454">cmdGetBanHistory</a> (const <a class="el" href="../../d6/d97/structCommand__GetBanHistory.html">Command_GetBanHistory</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
@@ -223,6 +224,10 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ad627f5d0f116e4866fe4be440532ac20" id="r_ad627f5d0f116e4866fe4be440532ac20"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad627f5d0f116e4866fe4be440532ac20">cmdGetWarnHistory</a> (const <a class="el" href="../../de/d95/structCommand__GetWarnHistory.html">Command_GetWarnHistory</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a305dd67759e6143a23d69080b9e5e639" id="r_a305dd67759e6143a23d69080b9e5e639"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a305dd67759e6143a23d69080b9e5e639">cmdShutdownServer</a> (const <a class="el" href="../../df/dd0/structCommand__ShutdownServer.html">Command_ShutdownServer</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a54bcc38aba74c590c521df9dde5591e2" id="r_a54bcc38aba74c590c521df9dde5591e2"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a54bcc38aba74c590c521df9dde5591e2">cmdUpdateServerMessage</a> (const <a class="el" href="../../d0/d6e/structCommand__UpdateServerMessage.html">Command_UpdateServerMessage</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:a11007a4db78e1d8527fa202a815e3eb3" id="r_a11007a4db78e1d8527fa202a815e3eb3"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a11007a4db78e1d8527fa202a815e3eb3">cmdReportAssign</a> (const <a class="el" href="../../d1/d22/structCommand__ReportAssign.html">Command_ReportAssign</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;)</td></tr>
+<tr class="memitem:a54f2364ae4c6c5e07cc1198ff3e06b03" id="r_a54f2364ae4c6c5e07cc1198ff3e06b03"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a54f2364ae4c6c5e07cc1198ff3e06b03">cmdReportResolve</a> (const <a class="el" href="../../dd/d72/structCommand__ReportResolve.html">Command_ReportResolve</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;)</td></tr>
+<tr class="memitem:a50fd91b3547c60042cfe743a681c501f" id="r_a50fd91b3547c60042cfe743a681c501f"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a50fd91b3547c60042cfe743a681c501f">cmdReportUserInfo</a> (const <a class="el" href="../../dc/d13/structCommand__ReportUserInfo.html">Command_ReportUserInfo</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:ada63708c1395d4ad7180c3e963a0227f" id="r_ada63708c1395d4ad7180c3e963a0227f"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#ada63708c1395d4ad7180c3e963a0227f">cmdReportStats</a> (const <a class="el" href="../../df/dbd/structCommand__ReportStats.html">Command_ReportStats</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a0d92d407ae6471003d73f484db54c718" id="r_a0d92d407ae6471003d73f484db54c718"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a0d92d407ae6471003d73f484db54c718">cmdRegisterAccount</a> (const <a class="el" href="../../d9/d06/structCommand__Register.html">Command_Register</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:acbf7073a5aa7254a07b13fde1ac5b472" id="r_acbf7073a5aa7254a07b13fde1ac5b472"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#acbf7073a5aa7254a07b13fde1ac5b472">cmdActivateAccount</a> (const <a class="el" href="../../db/d12/structCommand__Activate.html">Command_Activate</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;)</td></tr>
 <tr class="memitem:a99160020a07ee2f5ed72bc2daa1332db" id="r_a99160020a07ee2f5ed72bc2daa1332db"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a99160020a07ee2f5ed72bc2daa1332db">cmdReloadConfig</a> (const <a class="el" href="../../de/d31/structCommand__ReloadConfig.html">Command_ReloadConfig</a> &amp;, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;)</td></tr>
@@ -232,9 +237,16 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:acfc7c63d6755bacc618b1bd1a6c0a1bb" id="r_acfc7c63d6755bacc618b1bd1a6c0a1bb"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#acfc7c63d6755bacc618b1bd1a6c0a1bb">cmdForgotPasswordReset</a> (const <a class="el" href="../../d3/da5/structCommand__ForgotPasswordReset.html">Command_ForgotPasswordReset</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a80bbb9176de96d50819977e94a77b50a" id="r_a80bbb9176de96d50819977e94a77b50a"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a80bbb9176de96d50819977e94a77b50a">cmdForgotPasswordChallenge</a> (const <a class="el" href="../../d7/d16/structCommand__ForgotPasswordChallenge.html">Command_ForgotPasswordChallenge</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a10e74ce5f266f400f2b36ca283828e0a" id="r_a10e74ce5f266f400f2b36ca283828e0a"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a10e74ce5f266f400f2b36ca283828e0a">cmdRequestPasswordSalt</a> (const <a class="el" href="../../d1/ded/structCommand__RequestPasswordSalt.html">Command_RequestPasswordSalt</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
-<tr class="memitem:a108f2aeec6a9aa4cf7cc58903d5d4b50" id="r_a108f2aeec6a9aa4cf7cc58903d5d4b50"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a108f2aeec6a9aa4cf7cc58903d5d4b50">processExtendedSessionCommand</a> (int cmdType, const <a class="el" href="../../d8/de9/structSessionCommand.html">SessionCommand</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
-<tr class="memitem:abcaba2fb39dce3419f90e2c61c898c66" id="r_abcaba2fb39dce3419f90e2c61c898c66"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#abcaba2fb39dce3419f90e2c61c898c66">processExtendedModeratorCommand</a> (int cmdType, const <a class="el" href="../../d0/d8c/structModeratorCommand.html">ModeratorCommand</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
-<tr class="memitem:a5f9a06042276d7fefc8773529199a253" id="r_a5f9a06042276d7fefc8773529199a253"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a5f9a06042276d7fefc8773529199a253">processExtendedAdminCommand</a> (int cmdType, const <a class="el" href="../../d5/dca/structAdminCommand.html">AdminCommand</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:ad0e4bd44ccf423a00a5a99d6aea30740" id="r_ad0e4bd44ccf423a00a5a99d6aea30740"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad0e4bd44ccf423a00a5a99d6aea30740">cmdReport</a> (const <a class="el" href="../../d5/d6d/structCommand__Report.html">Command_Report</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;)</td></tr>
+<tr class="memitem:a8f85b6a940738c1a68b571375edd3bc1" id="r_a8f85b6a940738c1a68b571375edd3bc1"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8f85b6a940738c1a68b571375edd3bc1">cmdReportMyList</a> (const <a class="el" href="../../db/d19/structCommand__ReportMyList.html">Command_ReportMyList</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:aeba9204ad48bf08d9cdbd43b98b049f4" id="r_aeba9204ad48bf08d9cdbd43b98b049f4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aeba9204ad48bf08d9cdbd43b98b049f4">sendPendingReportNotifications</a> (<a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:ac856988eb8bae130dfc79764347370b0" id="r_ac856988eb8bae130dfc79764347370b0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac856988eb8bae130dfc79764347370b0">onLogin</a> (<a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc) override</td></tr>
+<tr class="memitem:a906ae1faab89851355439deb3624c9e3" id="r_a906ae1faab89851355439deb3624c9e3"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a906ae1faab89851355439deb3624c9e3">cmdReportDetails</a> (const <a class="el" href="../../d8/de7/structCommand__ReportDetails.html">Command_ReportDetails</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:a943d3900f1ba5f7360c4e91bdb08a866" id="r_a943d3900f1ba5f7360c4e91bdb08a866"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a943d3900f1ba5f7360c4e91bdb08a866">cmdReportAddComment</a> (const <a class="el" href="../../df/d40/structCommand__ReportAddComment.html">Command_ReportAddComment</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:ab1babd943402a9454392f61d6c46ddf3" id="r_ab1babd943402a9454392f61d6c46ddf3"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab1babd943402a9454392f61d6c46ddf3">cmdReplayDownloadByGameId</a> (const <a class="el" href="../../d1/d2d/structCommand__ReplayDownloadByGameId.html">Command_ReplayDownloadByGameId</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:a688ceeeddb1c1a850dc3dc9a999fb45e" id="r_a688ceeeddb1c1a850dc3dc9a999fb45e"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a688ceeeddb1c1a850dc3dc9a999fb45e">processExtendedSessionCommand</a> (int cmdType, const <a class="el" href="../../d8/de9/structSessionCommand.html">SessionCommand</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc) override</td></tr>
+<tr class="memitem:a290f10911f6aca2e590d38630d90620a" id="r_a290f10911f6aca2e590d38630d90620a"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a290f10911f6aca2e590d38630d90620a">processExtendedModeratorCommand</a> (int cmdType, const <a class="el" href="../../d0/d8c/structModeratorCommand.html">ModeratorCommand</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc) override</td></tr>
+<tr class="memitem:a9fb2291ddf83b63cb04874d834a8f174" id="r_a9fb2291ddf83b63cb04874d834a8f174"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9fb2291ddf83b63cb04874d834a8f174">processExtendedAdminCommand</a> (int cmdType, const <a class="el" href="../../d5/dca/structAdminCommand.html">AdminCommand</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc) override</td></tr>
 <tr class="memitem:a2114c8f24adf64eff92c572a427cf457" id="r_a2114c8f24adf64eff92c572a427cf457"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2114c8f24adf64eff92c572a427cf457">cmdAccountEdit</a> (const <a class="el" href="../../d6/def/structCommand__AccountEdit.html">Command_AccountEdit</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a9db7a2c3ba53af7eaa9094bb6afe076a" id="r_a9db7a2c3ba53af7eaa9094bb6afe076a"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9db7a2c3ba53af7eaa9094bb6afe076a">cmdAccountImage</a> (const <a class="el" href="../../d1/d74/structCommand__AccountImage.html">Command_AccountImage</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a5d96a0124855b373448bea690e2a2f01" id="r_a5d96a0124855b373448bea690e2a2f01"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a5d96a0124855b373448bea690e2a2f01">isCardNameAllowed</a> (const QString &amp;cardName, const QString &amp;cardProviderId)</td></tr>
@@ -247,6 +259,11 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a2881e8a438fb6795e20563c2f88c32f1" id="r_a2881e8a438fb6795e20563c2f88c32f1"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2881e8a438fb6795e20563c2f88c32f1">cmdForceActivateUser</a> (const <a class="el" href="../../d2/de0/structCommand__ForceActivateUser.html">Command_ForceActivateUser</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a2d217f9a6715028241e5c9b5829133c6" id="r_a2d217f9a6715028241e5c9b5829133c6"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2d217f9a6715028241e5c9b5829133c6">cmdGetAdminNotes</a> (const <a class="el" href="../../d1/d55/structCommand__GetAdminNotes.html">Command_GetAdminNotes</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:ac8f2939f1c1eeb79ddd5869985ec55bb" id="r_ac8f2939f1c1eeb79ddd5869985ec55bb"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac8f2939f1c1eeb79ddd5869985ec55bb">cmdUpdateAdminNotes</a> (const <a class="el" href="../../d3/d2e/structCommand__UpdateAdminNotes.html">Command_UpdateAdminNotes</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:aacd63625f366dc80e1f43358ed4a6936" id="r_aacd63625f366dc80e1f43358ed4a6936"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#aacd63625f366dc80e1f43358ed4a6936">cmdGetUserSessions</a> (const <a class="el" href="../../d2/d98/structCommand__GetUserSessions.html">Command_GetUserSessions</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:adcb1da4aa3a882c307ba4847b0d7d50c" id="r_adcb1da4aa3a882c307ba4847b0d7d50c"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#adcb1da4aa3a882c307ba4847b0d7d50c">cmdGetUserAlts</a> (const <a class="el" href="../../dd/dfe/structCommand__GetUserAlts.html">Command_GetUserAlts</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:a6f9140b5f1a37311261b3f6818708103" id="r_a6f9140b5f1a37311261b3f6818708103"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6f9140b5f1a37311261b3f6818708103">cmdGetModeratorLastLogins</a> (const <a class="el" href="../../da/d8f/structCommand__GetModeratorLastLogins.html">Command_GetModeratorLastLogins</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:aaeba9a6be8cd419c6cf53907e1bdaf4d" id="r_aaeba9a6be8cd419c6cf53907e1bdaf4d"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#aaeba9a6be8cd419c6cf53907e1bdaf4d">cmdResetUserPassword</a> (const <a class="el" href="../../dd/d6c/structCommand__ResetUserPassword.html">Command_ResetUserPassword</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:aa1eab2fc1e3ed43d10123590768c5907" id="r_aa1eab2fc1e3ed43d10123590768c5907"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa1eab2fc1e3ed43d10123590768c5907">cmdRemoveUserAvatar</a> (const <a class="el" href="../../d7/d1a/structCommand__RemoveUserAvatar.html">Command_RemoveUserAvatar</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a80d7ba757b3d725643be70a031ae905f" id="r_a80d7ba757b3d725643be70a031ae905f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a80d7ba757b3d725643be70a031ae905f">addAdminFlagToUser</a> (const QString &amp;user, int flag)</td></tr>
 <tr class="memitem:a8e9f129f553b0408eae6edaa7c56f198" id="r_a8e9f129f553b0408eae6edaa7c56f198"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8e9f129f553b0408eae6edaa7c56f198">removeAdminFlagFromUser</a> (const QString &amp;user, int flag)</td></tr>
 <tr class="memitem:a04e8bdb22ae05a3283988156c4030a6c" id="r_a04e8bdb22ae05a3283988156c4030a6c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a04e8bdb22ae05a3283988156c4030a6c">isPasswordLongEnough</a> (const int passwordLength)</td></tr>
@@ -1239,6 +1256,123 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a6f9140b5f1a37311261b3f6818708103" name="a6f9140b5f1a37311261b3f6818708103"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f9140b5f1a37311261b3f6818708103">&#9670;&#160;</a></span>cmdGetModeratorLastLogins()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdGetModeratorLastLogins </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../da/d8f/structCommand__GetModeratorLastLogins.html">Command_GetModeratorLastLogins</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a6f9140b5f1a37311261b3f6818708103_cgraph.svg" width="447" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a6f9140b5f1a37311261b3f6818708103_icgraph.svg" width="552" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="adcb1da4aa3a882c307ba4847b0d7d50c" name="adcb1da4aa3a882c307ba4847b0d7d50c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcb1da4aa3a882c307ba4847b0d7d50c">&#9670;&#160;</a></span>cmdGetUserAlts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdGetUserAlts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/dfe/structCommand__GetUserAlts.html">Command_GetUserAlts</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_adcb1da4aa3a882c307ba4847b0d7d50c_cgraph.svg" width="447" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_adcb1da4aa3a882c307ba4847b0d7d50c_icgraph.svg" width="552" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aacd63625f366dc80e1f43358ed4a6936" name="aacd63625f366dc80e1f43358ed4a6936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacd63625f366dc80e1f43358ed4a6936">&#9670;&#160;</a></span>cmdGetUserSessions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdGetUserSessions </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/d98/structCommand__GetUserSessions.html">Command_GetUserSessions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_aacd63625f366dc80e1f43358ed4a6936_cgraph.svg" width="447" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_aacd63625f366dc80e1f43358ed4a6936_icgraph.svg" width="552" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ad627f5d0f116e4866fe4be440532ac20" name="ad627f5d0f116e4866fe4be440532ac20"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad627f5d0f116e4866fe4be440532ac20">&#9670;&#160;</a></span>cmdGetWarnHistory()</h2>
 
@@ -1307,7 +1441,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a46dbf9261c2f0cb3c053b65d23830a0b_cgraph.svg" width="447" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a46dbf9261c2f0cb3c053b65d23830a0b_cgraph.svg" width="459" height="151"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1542,6 +1676,45 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aa1eab2fc1e3ed43d10123590768c5907" name="aa1eab2fc1e3ed43d10123590768c5907"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1eab2fc1e3ed43d10123590768c5907">&#9670;&#160;</a></span>cmdRemoveUserAvatar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdRemoveUserAvatar </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d7/d1a/structCommand__RemoveUserAvatar.html">Command_RemoveUserAvatar</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_aa1eab2fc1e3ed43d10123590768c5907_cgraph.svg" width="496" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_aa1eab2fc1e3ed43d10123590768c5907_icgraph.svg" width="552" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a057549781023064000f82d1b7c29552e" name="a057549781023064000f82d1b7c29552e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a057549781023064000f82d1b7c29552e">&#9670;&#160;</a></span>cmdReplayDeleteMatch()</h2>
 
@@ -1611,6 +1784,45 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a550accb3de3e0cf994310277844e7a2d_icgraph.svg" width="536" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ab1babd943402a9454392f61d6c46ddf3" name="ab1babd943402a9454392f61d6c46ddf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1babd943402a9454392f61d6c46ddf3">&#9670;&#160;</a></span>cmdReplayDownloadByGameId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdReplayDownloadByGameId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d2d/structCommand__ReplayDownloadByGameId.html">Command_ReplayDownloadByGameId</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_ab1babd943402a9454392f61d6c46ddf3_cgraph.svg" width="464" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_ab1babd943402a9454392f61d6c46ddf3_icgraph.svg" width="570" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1766,6 +1978,352 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ad0e4bd44ccf423a00a5a99d6aea30740" name="ad0e4bd44ccf423a00a5a99d6aea30740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0e4bd44ccf423a00a5a99d6aea30740">&#9670;&#160;</a></span>cmdReport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdReport </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d6d/structCommand__Report.html">Command_Report</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_ad0e4bd44ccf423a00a5a99d6aea30740_cgraph.svg" width="440" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_ad0e4bd44ccf423a00a5a99d6aea30740_icgraph.svg" width="536" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a943d3900f1ba5f7360c4e91bdb08a866" name="a943d3900f1ba5f7360c4e91bdb08a866"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a943d3900f1ba5f7360c4e91bdb08a866">&#9670;&#160;</a></span>cmdReportAddComment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdReportAddComment </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../df/d40/structCommand__ReportAddComment.html">Command_ReportAddComment</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a943d3900f1ba5f7360c4e91bdb08a866_cgraph.svg" width="100%" height="531"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a943d3900f1ba5f7360c4e91bdb08a866_icgraph.svg" width="536" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a11007a4db78e1d8527fa202a815e3eb3" name="a11007a4db78e1d8527fa202a815e3eb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11007a4db78e1d8527fa202a815e3eb3">&#9670;&#160;</a></span>cmdReportAssign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdReportAssign </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d22/structCommand__ReportAssign.html">Command_ReportAssign</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a11007a4db78e1d8527fa202a815e3eb3_icgraph.svg" width="552" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a906ae1faab89851355439deb3624c9e3" name="a906ae1faab89851355439deb3624c9e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a906ae1faab89851355439deb3624c9e3">&#9670;&#160;</a></span>cmdReportDetails()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdReportDetails </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d8/de7/structCommand__ReportDetails.html">Command_ReportDetails</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a906ae1faab89851355439deb3624c9e3_cgraph.svg" width="447" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a906ae1faab89851355439deb3624c9e3_icgraph.svg" width="536" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a31589964b646d501a54772147d207205" name="a31589964b646d501a54772147d207205"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31589964b646d501a54772147d207205">&#9670;&#160;</a></span>cmdReportList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdReportList </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d7/d5d/structCommand__ReportList.html">Command_ReportList</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a31589964b646d501a54772147d207205_cgraph.svg" width="447" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a31589964b646d501a54772147d207205_icgraph.svg" width="552" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8f85b6a940738c1a68b571375edd3bc1" name="a8f85b6a940738c1a68b571375edd3bc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f85b6a940738c1a68b571375edd3bc1">&#9670;&#160;</a></span>cmdReportMyList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdReportMyList </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d19/structCommand__ReportMyList.html">Command_ReportMyList</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a8f85b6a940738c1a68b571375edd3bc1_cgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a8f85b6a940738c1a68b571375edd3bc1_icgraph.svg" width="536" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a54f2364ae4c6c5e07cc1198ff3e06b03" name="a54f2364ae4c6c5e07cc1198ff3e06b03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54f2364ae4c6c5e07cc1198ff3e06b03">&#9670;&#160;</a></span>cmdReportResolve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdReportResolve </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d72/structCommand__ReportResolve.html">Command_ReportResolve</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a54f2364ae4c6c5e07cc1198ff3e06b03_cgraph.svg" width="100%" height="579"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a54f2364ae4c6c5e07cc1198ff3e06b03_icgraph.svg" width="552" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ada63708c1395d4ad7180c3e963a0227f" name="ada63708c1395d4ad7180c3e963a0227f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada63708c1395d4ad7180c3e963a0227f">&#9670;&#160;</a></span>cmdReportStats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdReportStats </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../df/dbd/structCommand__ReportStats.html">Command_ReportStats</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_ada63708c1395d4ad7180c3e963a0227f_cgraph.svg" width="447" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_ada63708c1395d4ad7180c3e963a0227f_icgraph.svg" width="552" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a50fd91b3547c60042cfe743a681c501f" name="a50fd91b3547c60042cfe743a681c501f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50fd91b3547c60042cfe743a681c501f">&#9670;&#160;</a></span>cmdReportUserInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdReportUserInfo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dc/d13/structCommand__ReportUserInfo.html">Command_ReportUserInfo</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a50fd91b3547c60042cfe743a681c501f_cgraph.svg" width="447" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a50fd91b3547c60042cfe743a681c501f_icgraph.svg" width="552" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a10e74ce5f266f400f2b36ca283828e0a" name="a10e74ce5f266f400f2b36ca283828e0a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a10e74ce5f266f400f2b36ca283828e0a">&#9670;&#160;</a></span>cmdRequestPasswordSalt()</h2>
 
@@ -1801,6 +2359,45 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a10e74ce5f266f400f2b36ca283828e0a_icgraph.svg" width="536" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aaeba9a6be8cd419c6cf53907e1bdaf4d" name="aaeba9a6be8cd419c6cf53907e1bdaf4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeba9a6be8cd419c6cf53907e1bdaf4d">&#9670;&#160;</a></span>cmdResetUserPassword()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdResetUserPassword </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d6c/structCommand__ResetUserPassword.html">Command_ResetUserPassword</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_aaeba9a6be8cd419c6cf53907e1bdaf4d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_aaeba9a6be8cd419c6cf53907e1bdaf4d_icgraph.svg" width="528" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -2209,8 +2806,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a234a8b804690f2b4ae0fe7ce5512ee1d" name="a234a8b804690f2b4ae0fe7ce5512ee1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a234a8b804690f2b4ae0fe7ce5512ee1d">&#9670;&#160;</a></span>getAddress()</h2>
+<a id="a2dda966531091ea0b2fa4e02b395e606" name="a2dda966531091ea0b2fa4e02b395e606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dda966531091ea0b2fa4e02b395e606">&#9670;&#160;</a></span>getAddress()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2219,7 +2816,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual QString AbstractServerSocketInterface::getAddress </td>
+          <td class="memname">QString AbstractServerSocketInterface::getAddress </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2227,7 +2824,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2238,7 +2835,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a234a8b804690f2b4ae0fe7ce5512ee1d_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a2dda966531091ea0b2fa4e02b395e606_icgraph.svg" width="100%" height="578"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2490,8 +3087,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a9335626ba568dc0c62dfa71d91fcd1f0" name="a9335626ba568dc0c62dfa71d91fcd1f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9335626ba568dc0c62dfa71d91fcd1f0">&#9670;&#160;</a></span>logDebugMessage()</h2>
+<a id="ab0a3827de8b85040bc4bd66231127d39" name="ab0a3827de8b85040bc4bd66231127d39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0a3827de8b85040bc4bd66231127d39">&#9670;&#160;</a></span>logDebugMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2508,7 +3105,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2517,7 +3114,39 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a9335626ba568dc0c62dfa71d91fcd1f0_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_ab0a3827de8b85040bc4bd66231127d39_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac856988eb8bae130dfc79764347370b0" name="ac856988eb8bae130dfc79764347370b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac856988eb8bae130dfc79764347370b0">&#9670;&#160;</a></span>onLogin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractServerSocketInterface::onLogin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../d5/d9c/classServer__AbstractUserInterface.html#a4531a571b66ed9fb8abacd1b98de01f5">Server_AbstractUserInterface</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_ac856988eb8bae130dfc79764347370b0_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2552,8 +3181,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a5f9a06042276d7fefc8773529199a253" name="a5f9a06042276d7fefc8773529199a253"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f9a06042276d7fefc8773529199a253">&#9670;&#160;</a></span>processExtendedAdminCommand()</h2>
+<a id="a9fb2291ddf83b63cb04874d834a8f174" name="a9fb2291ddf83b63cb04874d834a8f174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fb2291ddf83b63cb04874d834a8f174">&#9670;&#160;</a></span>processExtendedAdminCommand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2579,7 +3208,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2588,13 +3217,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a5f9a06042276d7fefc8773529199a253_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a9fb2291ddf83b63cb04874d834a8f174_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="abcaba2fb39dce3419f90e2c61c898c66" name="abcaba2fb39dce3419f90e2c61c898c66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcaba2fb39dce3419f90e2c61c898c66">&#9670;&#160;</a></span>processExtendedModeratorCommand()</h2>
+<a id="a290f10911f6aca2e590d38630d90620a" name="a290f10911f6aca2e590d38630d90620a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a290f10911f6aca2e590d38630d90620a">&#9670;&#160;</a></span>processExtendedModeratorCommand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2620,7 +3249,7 @@ Here is the call graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2629,13 +3258,13 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_abcaba2fb39dce3419f90e2c61c898c66_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a290f10911f6aca2e590d38630d90620a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a108f2aeec6a9aa4cf7cc58903d5d4b50" name="a108f2aeec6a9aa4cf7cc58903d5d4b50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a108f2aeec6a9aa4cf7cc58903d5d4b50">&#9670;&#160;</a></span>processExtendedSessionCommand()</h2>
+<a id="a688ceeeddb1c1a850dc3dc9a999fb45e" name="a688ceeeddb1c1a850dc3dc9a999fb45e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a688ceeeddb1c1a850dc3dc9a999fb45e">&#9670;&#160;</a></span>processExtendedSessionCommand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2661,7 +3290,7 @@ Here is the call graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2670,7 +3299,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a108f2aeec6a9aa4cf7cc58903d5d4b50_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a688ceeeddb1c1a850dc3dc9a999fb45e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2748,6 +3377,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aeba9204ad48bf08d9cdbd43b98b049f4" name="aeba9204ad48bf08d9cdbd43b98b049f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeba9204ad48bf08d9cdbd43b98b049f4">&#9670;&#160;</a></span>sendPendingReportNotifications()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractServerSocketInterface::sendPendingReportNotifications </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_aeba9204ad48bf08d9cdbd43b98b049f4_cgraph.svg" width="511" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_aeba9204ad48bf08d9cdbd43b98b049f4_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a45a0330dacd1eec6bad62af4cdc3875c" name="a45a0330dacd1eec6bad62af4cdc3875c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a45a0330dacd1eec6bad62af4cdc3875c">&#9670;&#160;</a></span>sendServerMessage()</h2>
 
@@ -2818,8 +3482,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a8eea40f2b72b266c71982c5ab8052eb1" name="a8eea40f2b72b266c71982c5ab8052eb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8eea40f2b72b266c71982c5ab8052eb1">&#9670;&#160;</a></span>transmitProtocolItem()</h2>
+<a id="a56b93959a8232684debb0826df8ab029" name="a56b93959a8232684debb0826df8ab029"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56b93959a8232684debb0826df8ab029">&#9670;&#160;</a></span>transmitProtocolItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2836,7 +3500,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2845,7 +3509,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a8eea40f2b72b266c71982c5ab8052eb1_cgraph.svg" width="496" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a56b93959a8232684debb0826df8ab029_cgraph.svg" width="496" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

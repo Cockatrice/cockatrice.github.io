@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -184,6 +184,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a98c888e65b5195b96454ae99d36edb67" id="r_a98c888e65b5195b96454ae99d36edb67"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a98c888e65b5195b96454ae99d36edb67">islConnectionExists</a> (int _serverId) const</td></tr>
 <tr class="memitem:afce52a443698f524f6ab1f5c47791c90" id="r_afce52a443698f524f6ab1f5c47791c90"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afce52a443698f524f6ab1f5c47791c90">addIslInterface</a> (int _serverId, <a class="el" href="../../d0/de8/classIslInterface.html">IslInterface</a> *interface)</td></tr>
 <tr class="memitem:a97e8cff18a276937542961b68c538238" id="r_a97e8cff18a276937542961b68c538238"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a97e8cff18a276937542961b68c538238">removeIslInterface</a> (int _serverId)</td></tr>
+<tr class="memitem:a423b122d0a261e36bb55b9191ccb2811" id="r_a423b122d0a261e36bb55b9191ccb2811"><td class="memItemLeft">std::shared_ptr&lt; const <a class="el" href="../../d9/dcb/structResponse__ReportStats.html">Response_ReportStats</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a423b122d0a261e36bb55b9191ccb2811">getCachedReportStats</a> () const</td></tr>
+<tr class="memitem:af707cb81339a15756e1020d1586bc201" id="r_af707cb81339a15756e1020d1586bc201"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af707cb81339a15756e1020d1586bc201">cacheReportStats</a> (const <a class="el" href="../../d9/dcb/structResponse__ReportStats.html">Response_ReportStats</a> &amp;stats)</td></tr>
 <tr class="memitem:aadefa94e4b3c592ef99e347dc56a048b" id="r_aadefa94e4b3c592ef99e347dc56a048b"><td class="memItemLeft">QList&lt; <a class="el" href="../../d4/d8d/classServerProperties.html">ServerProperties</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aadefa94e4b3c592ef99e347dc56a048b">getServerList</a> () const</td></tr>
 <tr class="inherit_header pub_methods_classServer"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classServer')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="../../db/d00/classServer.html">Server</a></td></tr>
 <tr class="memitem:aaf98d5194faee831c6340cc736b9b879 inherit pub_methods_classServer" id="r_aaf98d5194faee831c6340cc736b9b879"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="../../db/d00/classServer.html#aaf98d5194faee831c6340cc736b9b879">Server</a> (QObject *parent=nullptr)</td></tr>
@@ -288,9 +290,16 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:af599e46b7e24d176785279ca5e7e7a1e" id="r_af599e46b7e24d176785279ca5e7e7a1e"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#af599e46b7e24d176785279ca5e7e7a1e">shutdownMinutes</a></td></tr>
 <tr class="memitem:a1974942e557f22fe54f99dcc3b564ab1" id="r_a1974942e557f22fe54f99dcc3b564ab1"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a1974942e557f22fe54f99dcc3b564ab1">nextShutdownMessageMinutes</a></td></tr>
 <tr class="memitem:a2840b56d540a04b668bec067271b0ca6" id="r_a2840b56d540a04b668bec067271b0ca6"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#a2840b56d540a04b668bec067271b0ca6">shutdownTimer</a></td></tr>
+<tr class="memitem:a82d64fd8d3bde405276dd84416818f17" id="r_a82d64fd8d3bde405276dd84416818f17"><td class="memItemLeft">QMutex&#160;</td><td class="memItemRight"><a class="el" href="#a82d64fd8d3bde405276dd84416818f17">reportStatsMutex</a></td></tr>
+<tr class="memitem:affb0f0b3598b1f6a17eb5c072cdd3e6c" id="r_affb0f0b3598b1f6a17eb5c072cdd3e6c"><td class="memItemLeft">QDateTime&#160;</td><td class="memItemRight"><a class="el" href="#affb0f0b3598b1f6a17eb5c072cdd3e6c">reportStatsTimestamp</a></td></tr>
+<tr class="memitem:a26608ace4e6cb95c2706ee3f6595685e" id="r_a26608ace4e6cb95c2706ee3f6595685e"><td class="memItemLeft">std::shared_ptr&lt; const <a class="el" href="../../d9/dcb/structResponse__ReportStats.html">Response_ReportStats</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a26608ace4e6cb95c2706ee3f6595685e">reportStatsCache</a></td></tr>
 <tr class="memitem:a5c8e76f466bb722043f3d781c34397c5" id="r_a5c8e76f466bb722043f3d781c34397c5"><td class="memItemLeft">QMutex&#160;</td><td class="memItemRight"><a class="el" href="#a5c8e76f466bb722043f3d781c34397c5">serverListMutex</a></td></tr>
 <tr class="memitem:a19712211937048a6082dfc95058b986b" id="r_a19712211937048a6082dfc95058b986b"><td class="memItemLeft">QList&lt; <a class="el" href="../../d4/d8d/classServerProperties.html">ServerProperties</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a19712211937048a6082dfc95058b986b">serverList</a></td></tr>
 <tr class="memitem:aae79e1c143779140510668464e779a3b" id="r_aae79e1c143779140510668464e779a3b"><td class="memItemLeft">QMap&lt; int, <a class="el" href="../../d0/de8/classIslInterface.html">IslInterface</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aae79e1c143779140510668464e779a3b">islInterfaces</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a9d63c9c2c752772bc6f3e214038c827b" id="r_a9d63c9c2c752772bc6f3e214038c827b"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a9d63c9c2c752772bc6f3e214038c827b">reportStatsCacheTtlSeconds</a> = 60</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -474,6 +483,23 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="af707cb81339a15756e1020d1586bc201" name="af707cb81339a15756e1020d1586bc201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af707cb81339a15756e1020d1586bc201">&#9670;&#160;</a></span>cacheReportStats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servatrice::cacheReportStats </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dcb/structResponse__ReportStats.html">Response_ReportStats</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>stats</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2e4e2e38c7fc2794ae2515b73576169c" name="a2e4e2e38c7fc2794ae2515b73576169c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e4e2e38c7fc2794ae2515b73576169c">&#9670;&#160;</a></span>doSendIslMessage()</h2>
 
@@ -549,6 +575,23 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a0e26759c6ee6e95f40f43a3fab536c39_icgraph.svg" width="430" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a id="a423b122d0a261e36bb55b9191ccb2811" name="a423b122d0a261e36bb55b9191ccb2811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a423b122d0a261e36bb55b9191ccb2811">&#9670;&#160;</a></span>getCachedReportStats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; const <a class="el" href="../../d9/dcb/structResponse__ReportStats.html">Response_ReportStats</a> &gt; Servatrice::getCachedReportStats </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2809,6 +2852,94 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QTimer* Servatrice::pingClock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a26608ace4e6cb95c2706ee3f6595685e" name="a26608ace4e6cb95c2706ee3f6595685e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26608ace4e6cb95c2706ee3f6595685e">&#9670;&#160;</a></span>reportStatsCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="../../d9/dcb/structResponse__ReportStats.html">Response_ReportStats</a>&gt; Servatrice::reportStatsCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d63c9c2c752772bc6f3e214038c827b" name="a9d63c9c2c752772bc6f3e214038c827b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d63c9c2c752772bc6f3e214038c827b">&#9670;&#160;</a></span>reportStatsCacheTtlSeconds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::reportStatsCacheTtlSeconds = 60</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82d64fd8d3bde405276dd84416818f17" name="a82d64fd8d3bde405276dd84416818f17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82d64fd8d3bde405276dd84416818f17">&#9670;&#160;</a></span>reportStatsMutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMutex Servatrice::reportStatsMutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel mutable">mutable</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="affb0f0b3598b1f6a17eb5c072cdd3e6c" name="affb0f0b3598b1f6a17eb5c072cdd3e6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affb0f0b3598b1f6a17eb5c072cdd3e6c">&#9670;&#160;</a></span>reportStatsTimestamp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDateTime Servatrice::reportStatsTimestamp</td>
         </tr>
       </table>
   </td>

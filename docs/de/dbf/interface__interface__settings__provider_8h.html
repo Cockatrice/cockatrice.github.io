@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -99,12 +99,14 @@ $(function(){initNavTree('de/dbf/interface__interface__settings__provider_8h.htm
   <div class="headertitle"><div class="title">interface_interface_settings_provider.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;QString&gt;</code><br />
+<div class="textblock"><code>#include &lt;QList&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
 <code>#include &lt;QStringList&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d2/df4/playmat__params_8h_source.html">libcockatrice/utility/playmat_params.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for interface_interface_settings_provider.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d29/interface__interface__settings__provider_8h__incl.svg" width="219" height="154"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d29/interface__interface__settings__provider_8h__incl.svg" width="407" height="315"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -117,7 +119,98 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:IInterfaceSettingsProvider" id="r_IInterfaceSettingsProvider"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="../../d5/d60/classIInterfaceSettingsProvider.html">IInterfaceSettingsProvider</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a272f5831fe2891386ab6293f441fdbca" id="r_a272f5831fe2891386ab6293f441fdbca"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a272f5831fe2891386ab6293f441fdbca">PlaymatVisibility</a> { <a class="el" href="#a272f5831fe2891386ab6293f441fdbcaae8a63be8c5db779deeb74fb409f514aa">PlaymatVisibilityNone</a> = 0
+, <a class="el" href="#a272f5831fe2891386ab6293f441fdbcaa208b5f5683f854f31a22a0f5568cdcbc">PlaymatVisibilityOwnOnly</a> = 1
+, <a class="el" href="#a272f5831fe2891386ab6293f441fdbcaa19ef2c7391c6d193bea2c1949af4c47e">PlaymatVisibilityAll</a> = 2
+ }</td></tr>
+<tr class="memdesc:a272f5831fe2891386ab6293f441fdbca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether playmats are rendered in-game, and for whom.  <a href="#a272f5831fe2891386ab6293f441fdbca">More...</a><br /></td></tr>
+<tr class="memitem:a19c5ded4d05baeef83a33dd38c7684c2" id="r_a19c5ded4d05baeef83a33dd38c7684c2"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a19c5ded4d05baeef83a33dd38c7684c2">PlaymatMode</a> { <a class="el" href="#a19c5ded4d05baeef83a33dd38c7684c2a91cdea687663c680aeba0cfce117e2f0">PlaymatModeOverrideDeck</a> = 0
+, <a class="el" href="#a19c5ded4d05baeef83a33dd38c7684c2a60f154f02be4eff1c5531926d54d03b9">PlaymatModeFallback</a> = 1
+, <a class="el" href="#a19c5ded4d05baeef83a33dd38c7684c2a8180d5766e1f17a81962fbf15d79ef84">PlaymatModeDeckOnly</a> = 2
+ }</td></tr>
+<tr class="memdesc:a19c5ded4d05baeef83a33dd38c7684c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">How the user-level playmat collection interacts with the deck-configured playmat.  <a href="#a19c5ded4d05baeef83a33dd38c7684c2">More...</a><br /></td></tr>
+<tr class="memitem:ad65a8f27f1d953cd18e28c62d6cb1b62" id="r_ad65a8f27f1d953cd18e28c62d6cb1b62"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#ad65a8f27f1d953cd18e28c62d6cb1b62">PlaymatFallbackMode</a> { <a class="el" href="#ad65a8f27f1d953cd18e28c62d6cb1b62a436c070b5da9516392075f2136df24fe">PlaymatFallbackModeFixed</a> = 0
+, <a class="el" href="#ad65a8f27f1d953cd18e28c62d6cb1b62a5c07bb538f08e66f0e6198beee6db6e1">PlaymatFallbackModeRoundRobin</a> = 1
+, <a class="el" href="#ad65a8f27f1d953cd18e28c62d6cb1b62ae1ffd9b71e20abb11364b9e8d560121b">PlaymatFallbackModeRandom</a> = 2
+ }</td></tr>
+<tr class="memdesc:ad65a8f27f1d953cd18e28c62d6cb1b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">How the user-level fallback playmat list is consulted when a deck has no playmat configured.  <a href="#ad65a8f27f1d953cd18e28c62d6cb1b62">More...</a><br /></td></tr>
 </table>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="ad65a8f27f1d953cd18e28c62d6cb1b62" name="ad65a8f27f1d953cd18e28c62d6cb1b62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad65a8f27f1d953cd18e28c62d6cb1b62">&#9670;&#160;</a></span>PlaymatFallbackMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ad65a8f27f1d953cd18e28c62d6cb1b62">PlaymatFallbackMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>How the user-level fallback playmat list is consulted when a deck has no playmat configured. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad65a8f27f1d953cd18e28c62d6cb1b62a436c070b5da9516392075f2136df24fe" name="ad65a8f27f1d953cd18e28c62d6cb1b62a436c070b5da9516392075f2136df24fe"></a>PlaymatFallbackModeFixed&#160;</td><td class="fielddoc"><p>Always use the first entry of the fallback list. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad65a8f27f1d953cd18e28c62d6cb1b62a5c07bb538f08e66f0e6198beee6db6e1" name="ad65a8f27f1d953cd18e28c62d6cb1b62a5c07bb538f08e66f0e6198beee6db6e1"></a>PlaymatFallbackModeRoundRobin&#160;</td><td class="fielddoc"><p>Cycle through the list, advancing one entry per resolution. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad65a8f27f1d953cd18e28c62d6cb1b62ae1ffd9b71e20abb11364b9e8d560121b" name="ad65a8f27f1d953cd18e28c62d6cb1b62ae1ffd9b71e20abb11364b9e8d560121b"></a>PlaymatFallbackModeRandom&#160;</td><td class="fielddoc"><p>Pick a random entry per resolution. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a19c5ded4d05baeef83a33dd38c7684c2" name="a19c5ded4d05baeef83a33dd38c7684c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19c5ded4d05baeef83a33dd38c7684c2">&#9670;&#160;</a></span>PlaymatMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a19c5ded4d05baeef83a33dd38c7684c2">PlaymatMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>How the user-level playmat collection interacts with the deck-configured playmat. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a19c5ded4d05baeef83a33dd38c7684c2a91cdea687663c680aeba0cfce117e2f0" name="a19c5ded4d05baeef83a33dd38c7684c2a91cdea687663c680aeba0cfce117e2f0"></a>PlaymatModeOverrideDeck&#160;</td><td class="fielddoc"><p>Always use the collection, ignoring any deck-configured playmat. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a19c5ded4d05baeef83a33dd38c7684c2a60f154f02be4eff1c5531926d54d03b9" name="a19c5ded4d05baeef83a33dd38c7684c2a60f154f02be4eff1c5531926d54d03b9"></a>PlaymatModeFallback&#160;</td><td class="fielddoc"><p>Prefer the deck-configured playmat; fall back to the collection when absent. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a19c5ded4d05baeef83a33dd38c7684c2a8180d5766e1f17a81962fbf15d79ef84" name="a19c5ded4d05baeef83a33dd38c7684c2a8180d5766e1f17a81962fbf15d79ef84"></a>PlaymatModeDeckOnly&#160;</td><td class="fielddoc"><p>Use only the deck-configured playmat, ignoring the collection. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a272f5831fe2891386ab6293f441fdbca" name="a272f5831fe2891386ab6293f441fdbca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a272f5831fe2891386ab6293f441fdbca">&#9670;&#160;</a></span>PlaymatVisibility</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a272f5831fe2891386ab6293f441fdbca">PlaymatVisibility</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether playmats are rendered in-game, and for whom. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a272f5831fe2891386ab6293f441fdbcaae8a63be8c5db779deeb74fb409f514aa" name="a272f5831fe2891386ab6293f441fdbcaae8a63be8c5db779deeb74fb409f514aa"></a>PlaymatVisibilityNone&#160;</td><td class="fielddoc"><p>Don't use playmats. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a272f5831fe2891386ab6293f441fdbcaa208b5f5683f854f31a22a0f5568cdcbc" name="a272f5831fe2891386ab6293f441fdbcaa208b5f5683f854f31a22a0f5568cdcbc"></a>PlaymatVisibilityOwnOnly&#160;</td><td class="fielddoc"><p>Show the local player's playmat only. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a272f5831fe2891386ab6293f441fdbcaa19ef2c7391c6d193bea2c1949af4c47e" name="a272f5831fe2891386ab6293f441fdbcaa19ef2c7391c6d193bea2c1949af4c47e"></a>PlaymatVisibilityAll&#160;</td><td class="fielddoc"><p>Show playmats for all players. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

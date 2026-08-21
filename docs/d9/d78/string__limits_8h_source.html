@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -125,19 +125,35 @@ $(function(){initNavTree('d9/d78/string__limits_8h_source.html','../../',''); })
 </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
 <div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d9/d78/string__limits_8h.html#ae20e0c8e786a06dc2652d5f7c33b89c5">   26</a></span><span class="keyword">inline</span> QString <a class="code hl_function" href="../../d9/d78/string__limits_8h.html#ae20e0c8e786a06dc2652d5f7c33b89c5">fileFromStdString</a>(<span class="keyword">const</span> std::string &amp;_string)</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d9/d78/string__limits_8h.html#a6bfa46452502e722c45c8025d4995e66">   26</a></span><span class="keyword">inline</span> QString <a class="code hl_function" href="../../d9/d78/string__limits_8h.html#a6bfa46452502e722c45c8025d4995e66">textTailFromStdString</a>(<span class="keyword">const</span> std::string &amp;_string)</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>{</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordflow">return</span> QString::fromUtf8(_string.data(), std::min(<span class="keywordtype">int</span>(_string.size()), <a class="code hl_variable" href="../../d9/d78/string__limits_8h.html#aaef0e59c89d055e87fa188d8aab00bd2">MAX_FILE_LENGTH</a>));</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>}</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordflow">if</span> (<span class="keywordtype">int</span>(_string.size()) &lt;= <a class="code hl_variable" href="../../d9/d78/string__limits_8h.html#a9aad8b3136a5069bc9caabaa033ab83e">MAX_TEXT_LENGTH</a>) {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">return</span> QString::fromUtf8(_string.data(), <span class="keywordtype">int</span>(_string.size()));</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">int</span> start = int(_string.size()) - <a class="code hl_variable" href="../../d9/d78/string__limits_8h.html#a9aad8b3136a5069bc9caabaa033ab83e">MAX_TEXT_LENGTH</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordflow">while</span> (start &lt; <span class="keywordtype">int</span>(_string.size()) &amp;&amp; (<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span><span class="keyword">&gt;</span>(_string[start]) &amp; 0xC0) == 0x80) {</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        ++start;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordflow">return</span> QString::fromUtf8(_string.data() + start, <span class="keywordtype">int</span>(_string.size()) - start);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}</div>
 </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#endif </span><span class="comment">// STRING_LIMITS_H</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span></div>
+<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d9/d78/string__limits_8h.html#ae20e0c8e786a06dc2652d5f7c33b89c5">   39</a></span><span class="keyword">inline</span> QString <a class="code hl_function" href="../../d9/d78/string__limits_8h.html#ae20e0c8e786a06dc2652d5f7c33b89c5">fileFromStdString</a>(<span class="keyword">const</span> std::string &amp;_string)</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>{</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordflow">return</span> QString::fromUtf8(_string.data(), std::min(<span class="keywordtype">int</span>(_string.size()), <a class="code hl_variable" href="../../d9/d78/string__limits_8h.html#aaef0e59c89d055e87fa188d8aab00bd2">MAX_FILE_LENGTH</a>));</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
+</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#endif </span><span class="comment">// STRING_LIMITS_H</span></div>
 <div class="ttc" id="astring__limits_8h_html_a140b6d464e4f764620f8e7c06eb31b66"><div class="ttname"><a href="../../d9/d78/string__limits_8h.html#a140b6d464e4f764620f8e7c06eb31b66">textFromStdString</a></div><div class="ttdeci">QString textFromStdString(const std::string &amp;_string)</div><div class="ttdoc">Returns a QString from a std::string, truncated to at most MAX_TEXT_LENGTH bytes.</div><div class="ttdef"><b>Definition</b> string_limits.h:21</div></div>
 <div class="ttc" id="astring__limits_8h_html_a19776e9ad56df15c40feb555a4725dd2"><div class="ttname"><a href="../../d9/d78/string__limits_8h.html#a19776e9ad56df15c40feb555a4725dd2">MAX_NAME_LENGTH</a></div><div class="ttdeci">constexpr int MAX_NAME_LENGTH</div><div class="ttdoc">Max size for short strings, like names and things that are generally a single phrase.</div><div class="ttdef"><b>Definition</b> string_limits.h:9</div></div>
+<div class="ttc" id="astring__limits_8h_html_a6bfa46452502e722c45c8025d4995e66"><div class="ttname"><a href="../../d9/d78/string__limits_8h.html#a6bfa46452502e722c45c8025d4995e66">textTailFromStdString</a></div><div class="ttdeci">QString textTailFromStdString(const std::string &amp;_string)</div><div class="ttdoc">Returns a QString from a std::string, truncated to at most MAX_TEXT_LENGTH bytes, keeping the tail.</div><div class="ttdef"><b>Definition</b> string_limits.h:26</div></div>
 <div class="ttc" id="astring__limits_8h_html_a9aad8b3136a5069bc9caabaa033ab83e"><div class="ttname"><a href="../../d9/d78/string__limits_8h.html#a9aad8b3136a5069bc9caabaa033ab83e">MAX_TEXT_LENGTH</a></div><div class="ttdeci">constexpr int MAX_TEXT_LENGTH</div><div class="ttdoc">Max size for chat messages and text contents.</div><div class="ttdef"><b>Definition</b> string_limits.h:11</div></div>
 <div class="ttc" id="astring__limits_8h_html_aa22de6ca596fe8cc27d6d22cd7b139cc"><div class="ttname"><a href="../../d9/d78/string__limits_8h.html#aa22de6ca596fe8cc27d6d22cd7b139cc">nameFromStdString</a></div><div class="ttdeci">QString nameFromStdString(const std::string &amp;_string)</div><div class="ttdoc">Returns a QString from a std::string, truncated to at most MAX_NAME_LENGTH bytes.</div><div class="ttdef"><b>Definition</b> string_limits.h:16</div></div>
 <div class="ttc" id="astring__limits_8h_html_aaef0e59c89d055e87fa188d8aab00bd2"><div class="ttname"><a href="../../d9/d78/string__limits_8h.html#aaef0e59c89d055e87fa188d8aab00bd2">MAX_FILE_LENGTH</a></div><div class="ttdeci">constexpr int MAX_FILE_LENGTH</div><div class="ttdoc">Max size for deck files and pictures (about 2 megabytes).</div><div class="ttdef"><b>Definition</b> string_limits.h:13</div></div>
-<div class="ttc" id="astring__limits_8h_html_ae20e0c8e786a06dc2652d5f7c33b89c5"><div class="ttname"><a href="../../d9/d78/string__limits_8h.html#ae20e0c8e786a06dc2652d5f7c33b89c5">fileFromStdString</a></div><div class="ttdeci">QString fileFromStdString(const std::string &amp;_string)</div><div class="ttdoc">Returns a QString from a std::string, truncated to at most MAX_FILE_LENGTH bytes.</div><div class="ttdef"><b>Definition</b> string_limits.h:26</div></div>
+<div class="ttc" id="astring__limits_8h_html_ae20e0c8e786a06dc2652d5f7c33b89c5"><div class="ttname"><a href="../../d9/d78/string__limits_8h.html#ae20e0c8e786a06dc2652d5f7c33b89c5">fileFromStdString</a></div><div class="ttdeci">QString fileFromStdString(const std::string &amp;_string)</div><div class="ttdoc">Returns a QString from a std::string, truncated to at most MAX_FILE_LENGTH bytes.</div><div class="ttdef"><b>Definition</b> string_limits.h:39</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

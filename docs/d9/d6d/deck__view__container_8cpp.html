@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-18-Development-3.1.0-beta.7</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -113,12 +113,15 @@ $(function(){initNavTree('d9/d6d/deck__view__container_8cpp.html','../../',''); 
 <code>#include &lt;QMessageBox&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d7/d66/card__database_8h_source.html">libcockatrice/card/database/card_database.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d9/d0b/playmat__resolver_8h_source.html">libcockatrice/deck_list/playmat_resolver.h</a>&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_deck_select.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_ready_start.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_set_playmat.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_set_sideboard_lock.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_set_sideboard_plan.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_deck_download.pb.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d07/pending__command_8h_source.html">libcockatrice/protocol/pending_command.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d5/d46/interface__settings_8h_source.html">libcockatrice/settings/interface_settings.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d5/d52/visual__deck__storage__settings_8h_source.html">libcockatrice/settings/visual_deck_storage_settings.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d78/string__limits_8h_source.html">libcockatrice/utility/string_limits.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">

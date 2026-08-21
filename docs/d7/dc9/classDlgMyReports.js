@@ -1,0 +1,26 @@
+var classDlgMyReports =
+[
+    [ "DlgMyReports", "d7/dc9/classDlgMyReports.html#acef5296543a75c5608bf838857855514", null ],
+    [ "addComment", "d7/dc9/classDlgMyReports.html#a311701fd481dcdc8caed6055ead32e15", null ],
+    [ "addCommentResponse", "d7/dc9/classDlgMyReports.html#adba86856590f46355119ab8e441e422a", null ],
+    [ "loadReportDetails", "d7/dc9/classDlgMyReports.html#aaeb4532ca6367260680642bdc6a76d4f", null ],
+    [ "onSelectionChanged", "d7/dc9/classDlgMyReports.html#afa41f06c744d49d2d24e3c55ea9faa90", null ],
+    [ "refreshList", "d7/dc9/classDlgMyReports.html#a4e2c10a9745565eb4b38e095b6624c21", null ],
+    [ "reportDetailsResponse", "d7/dc9/classDlgMyReports.html#ae6588746a44203f78c72f1ab5dee4386", null ],
+    [ "reportListResponse", "d7/dc9/classDlgMyReports.html#ad94f45c8947f8d9ca1212d81b0c3cdba", null ],
+    [ "setActionsEnabled", "d7/dc9/classDlgMyReports.html#af327fcb32104ff48e426d8115e21b7d1", null ],
+    [ "chatLogEdit", "d7/dc9/classDlgMyReports.html#af6219d7b90537ece8d191b9d962c345c", null ],
+    [ "client", "d7/dc9/classDlgMyReports.html#a650283d26121621dc047da6dcb15e49a", null ],
+    [ "closeButton", "d7/dc9/classDlgMyReports.html#accc904971e38d24ffb13832133509e76", null ],
+    [ "commentButton", "d7/dc9/classDlgMyReports.html#a79d62b6689a9ea15fd222549a46f05f7", null ],
+    [ "commentDraftBeforeRefresh", "d7/dc9/classDlgMyReports.html#a1a70c8861d3fb8537c4bc35f1575aa7a", null ],
+    [ "commentInput", "d7/dc9/classDlgMyReports.html#a14baafaf73b1b51c45dbd4b03f5515e5", null ],
+    [ "commentsEdit", "d7/dc9/classDlgMyReports.html#a5d5c3ca50bb781d359ac25df7cf37245", null ],
+    [ "currentReports", "d7/dc9/classDlgMyReports.html#a9cb443e6a277594a1cfbfa4279aa0e75", null ],
+    [ "descriptionEdit", "d7/dc9/classDlgMyReports.html#adc43c996137e0bb723947d1d7ad9dcf0", null ],
+    [ "refreshButton", "d7/dc9/classDlgMyReports.html#a8e8a25508f16197cdb77de4888b778b6", null ],
+    [ "selectedReportId", "d7/dc9/classDlgMyReports.html#afe70164ab2854b6f61dd216df80b74fa", null ],
+    [ "selectedReportIdBeforeRefresh", "d7/dc9/classDlgMyReports.html#ae05ee5b6708bf06ca47b13271c525bcc", null ],
+    [ "statusLabel", "d7/dc9/classDlgMyReports.html#a93aff63ddea86e2ce2d21dd708986ec3", null ],
+    [ "table", "d7/dc9/classDlgMyReports.html#a1a895b25f9f00dc95fba7908e83279af", null ]
+];
