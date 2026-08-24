@@ -37,7 +37,8 @@ var searchData=
   ['priorityreprint_34',['PriorityReprint',['../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa7c5bae467c8ee755d632f948860a0e0a',1,'CardSet']]],
   ['prioritysecondary_35',['PrioritySecondary',['../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fab4eaac9b9e7568cc5b5775dd6a8108eb',1,'CardSet']]],
   ['privatezone_36',['PrivateZone',['../df/d6e/structServerInfo__Zone.html#ad6a574f50e092cbde39cfcf48cffc0d7ae849012bc5d06a789814612141a4d551',1,'ServerInfo_Zone']]],
-  ['promoted_37',['PROMOTED',['../d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eead58a06df3888aa016a93f606bbc6df13',1,'Event_NotifyUser']]],
-  ['ptcolumn_38',['PTColumn',['../dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0afdcec8a6bd4181ebe06b26f647c5fdcd',1,'CardDatabaseModel']]],
-  ['publiczone_39',['PublicZone',['../df/d6e/structServerInfo__Zone.html#ad6a574f50e092cbde39cfcf48cffc0d7aea86d2af0414e13aab8c976d435d8c57',1,'ServerInfo_Zone']]]
+  ['proceednormal_37',['ProceedNormal',['../d5/de4/classServer__GameLifecycleStrategy.html#a63df2a508967c8cd78048c5fea7f2463acead191b92e07bb3d3eb8e69bec51816',1,'Server_GameLifecycleStrategy']]],
+  ['promoted_38',['PROMOTED',['../d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eead58a06df3888aa016a93f606bbc6df13',1,'Event_NotifyUser']]],
+  ['ptcolumn_39',['PTColumn',['../dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0afdcec8a6bd4181ebe06b26f647c5fdcd',1,'CardDatabaseModel']]],
+  ['publiczone_40',['PublicZone',['../df/d6e/structServerInfo__Zone.html#ad6a574f50e092cbde39cfcf48cffc0d7aea86d2af0414e13aab8c976d435d8c57',1,'ServerInfo_Zone']]]
 ];

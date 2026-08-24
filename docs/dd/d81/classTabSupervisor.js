@@ -87,6 +87,7 @@ var classTabSupervisor =
     [ "tabUserEvent", "dd/d81/classTabSupervisor.html#a44735c3d50fcb9cfdc12d15547ec9e3c", null ],
     [ "talkLeft", "dd/d81/classTabSupervisor.html#a59f84774c6608a778708394bc93f7b01", null ],
     [ "updateCurrent", "dd/d81/classTabSupervisor.html#acf9737f5b93a1fe63628c78f5a5519af", null ],
+    [ "updateLatencyTooltip", "dd/d81/classTabSupervisor.html#ae40d1812f17dfc4bc9d15fac86b373d8", null ],
     [ "updatePingTime", "dd/d81/classTabSupervisor.html#aa3d323bd42db5fdefaae5b174cf72e42", null ],
     [ "updateTabText", "dd/d81/classTabSupervisor.html#ae3266e6beb4dedf665f1f8e407398b77", null ],
     [ "aTabAccount", "dd/d81/classTabSupervisor.html#a17b1e994a443b2e965d9e9c6f31b68a8", null ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -100,6 +100,9 @@ $(function(){initNavTree('dd/d2f/classCardArtPreviewWidget.html','../../','d9/d4
 </div><!--header-->
 <div class="contents">
 
+<p>Interactive preview of the user list banner art.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d8/da7/user__card__settings__dialog_8h_source.html">user_card_settings_dialog.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for CardArtPreviewWidget:</div>
@@ -109,9 +112,14 @@ Inheritance diagram for CardArtPreviewWidget:</div>
 <div class="dynheader">
 Collaboration diagram for CardArtPreviewWidget:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d82/classCardArtPreviewWidget__coll__graph.svg" width="232" height="132"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d82/classCardArtPreviewWidget__coll__graph.svg" width="275" height="152"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:a26840595a0a0028814663d7104fb81fd" id="r_a26840595a0a0028814663d7104fb81fd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a26840595a0a0028814663d7104fb81fd">paramsEdited</a> (const <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &amp;<a class="el" href="#ade8b1744bb1365c46ec7df6edb0213e3">params</a>)</td></tr>
+<tr class="memdesc:a26840595a0a0028814663d7104fb81fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever direct manipulation (drag, wheel, keys) changes the parameters.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af273ac631fde4f1901de6b78381c5529" id="r_af273ac631fde4f1901de6b78381c5529"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#af273ac631fde4f1901de6b78381c5529">CardArtPreviewWidget</a> (QWidget *parent=nullptr)</td></tr>
@@ -122,14 +130,37 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a233c28bb640bbf8897bda5bc1362ac84" id="r_a233c28bb640bbf8897bda5bc1362ac84"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a233c28bb640bbf8897bda5bc1362ac84">paintEvent</a> (QPaintEvent *event) override</td></tr>
+<tr class="memitem:afd3201c7443a45c9e877327ae1452fd7" id="r_afd3201c7443a45c9e877327ae1452fd7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afd3201c7443a45c9e877327ae1452fd7">mousePressEvent</a> (QMouseEvent *event) override</td></tr>
+<tr class="memitem:a3091230f9976cf8d15e29d4accb6c036" id="r_a3091230f9976cf8d15e29d4accb6c036"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3091230f9976cf8d15e29d4accb6c036">mouseMoveEvent</a> (QMouseEvent *event) override</td></tr>
+<tr class="memitem:ac1aa572e8fac01987dd9cdf2bb0517f0" id="r_ac1aa572e8fac01987dd9cdf2bb0517f0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac1aa572e8fac01987dd9cdf2bb0517f0">mouseReleaseEvent</a> (QMouseEvent *event) override</td></tr>
+<tr class="memitem:a8fb7164ec7c86a35c99fe4cef98a921d" id="r_a8fb7164ec7c86a35c99fe4cef98a921d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8fb7164ec7c86a35c99fe4cef98a921d">wheelEvent</a> (QWheelEvent *event) override</td></tr>
+<tr class="memitem:adefa386bb3ad6d62737e3e31a73c13c3" id="r_adefa386bb3ad6d62737e3e31a73c13c3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adefa386bb3ad6d62737e3e31a73c13c3">keyPressEvent</a> (QKeyEvent *event) override</td></tr>
+<tr class="memitem:a02b0f162581510d95f44b21d56eb4c01" id="r_a02b0f162581510d95f44b21d56eb4c01"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a02b0f162581510d95f44b21d56eb4c01">focusInEvent</a> (QFocusEvent *event) override</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aa320fe50b94a5c7d4fa31ce4a25804aa" id="r_aa320fe50b94a5c7d4fa31ce4a25804aa"><td class="memItemLeft">qreal&#160;</td><td class="memItemRight"><a class="el" href="#aa320fe50b94a5c7d4fa31ce4a25804aa">bannerTravel</a> () const</td></tr>
+<tr class="memdesc:aa320fe50b94a5c7d4fa31ce4a25804aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertical travel of the art behind the strip, in output pixels  <br /></td></tr>
+<tr class="memitem:a5404f3034c5a2b2c8c65e28ad391e15b" id="r_a5404f3034c5a2b2c8c65e28ad391e15b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5404f3034c5a2b2c8c65e28ad391e15b">applyCropDelta</a> (qreal dOffset, qreal zoomFactor)</td></tr>
+<tr class="memitem:a61ddd2ed1d09366ba8b11595347b8c37" id="r_a61ddd2ed1d09366ba8b11595347b8c37"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a61ddd2ed1d09366ba8b11595347b8c37">sameCrop</a> (const <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &amp;a, const <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &amp;b) const</td></tr>
+<tr class="memitem:a20ccf6f488aa560ee16e78a71a5a9e85" id="r_a20ccf6f488aa560ee16e78a71a5a9e85"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a20ccf6f488aa560ee16e78a71a5a9e85">restoreSnapshot</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ae15b0354c8a40a6164c512ac5cb177b8" id="r_ae15b0354c8a40a6164c512ac5cb177b8"><td class="memItemLeft">QPixmap&#160;</td><td class="memItemRight"><a class="el" href="#ae15b0354c8a40a6164c512ac5cb177b8">sourcePixmap</a></td></tr>
 <tr class="memitem:ade8b1744bb1365c46ec7df6edb0213e3" id="r_ade8b1744bb1365c46ec7df6edb0213e3"><td class="memItemLeft"><a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a>&#160;</td><td class="memItemRight"><a class="el" href="#ade8b1744bb1365c46ec7df6edb0213e3">params</a></td></tr>
+<tr class="memitem:aaea4c62adf5f6d5bf6ce6f8c9f845433" id="r_aaea4c62adf5f6d5bf6ce6f8c9f845433"><td class="memItemLeft"><a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a>&#160;</td><td class="memItemRight"><a class="el" href="#aaea4c62adf5f6d5bf6ce6f8c9f845433">paramsAtFocusIn</a></td></tr>
+<tr class="memdesc:aaea4c62adf5f6d5bf6ce6f8c9f845433"><td class="mdescLeft">&#160;</td><td class="mdescRight">crop as of the latest focus gain, restored by Esc or Backspace  <br /></td></tr>
 <tr class="memitem:acaa62ee440e50c5af6d433dd8f3ca566" id="r_acaa62ee440e50c5af6d433dd8f3ca566"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#acaa62ee440e50c5af6d433dd8f3ca566">attributionText</a></td></tr>
+<tr class="memitem:afda107a388229531ccc2bcbe99c9bb27" id="r_afda107a388229531ccc2bcbe99c9bb27"><td class="memItemLeft">QPoint&#160;</td><td class="memItemRight"><a class="el" href="#afda107a388229531ccc2bcbe99c9bb27">lastDragPos</a></td></tr>
+<tr class="memdesc:afda107a388229531ccc2bcbe99c9bb27"><td class="mdescLeft">&#160;</td><td class="mdescRight">widget space position of the previous mouse move while panning  <br /></td></tr>
+<tr class="memitem:a2f19e3ecdfbe0f5c4c9bd5a54c709f9a" id="r_a2f19e3ecdfbe0f5c4c9bd5a54c709f9a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a2f19e3ecdfbe0f5c4c9bd5a54c709f9a">dragging</a> {false}</td></tr>
+<tr class="memdesc:a2f19e3ecdfbe0f5c4c9bd5a54c709f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">true between an accepted press and its release, guards stale drag positions  <br /></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Interactive preview of the user list banner art. </p>
+<p>Renders the banner strip with the given <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> through the same <a class="el" href="../../d8/dc1/classUserListPainter.html#aeecacb2990e9816fd513bbeb0db65d39">UserListPainter::drawCardArt()</a> the live delegate uses, including the avatar placeholder and fade masks. Dragging pans the art vertically at output scale, the wheel zooms, arrow keys nudge, Backspace or Esc restores the parameters as of focus gain. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af273ac631fde4f1901de6b78381c5529" name="af273ac631fde4f1901de6b78381c5529"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af273ac631fde4f1901de6b78381c5529">&#9670;&#160;</a></span>CardArtPreviewWidget()</h2>
 
@@ -156,6 +187,217 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a5404f3034c5a2b2c8c65e28ad391e15b" name="a5404f3034c5a2b2c8c65e28ad391e15b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5404f3034c5a2b2c8c65e28ad391e15b">&#9670;&#160;</a></span>applyCropDelta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardArtPreviewWidget::applyCropDelta </td>
+          <td>(</td>
+          <td class="paramtype">qreal</td>          <td class="paramname"><span class="paramname"><em>dOffset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal</td>          <td class="paramname"><span class="paramname"><em>zoomFactor</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d2f/classCardArtPreviewWidget_a5404f3034c5a2b2c8c65e28ad391e15b_cgraph.svg" width="398" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d2f/classCardArtPreviewWidget_a5404f3034c5a2b2c8c65e28ad391e15b_icgraph.svg" width="398" height="179"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa320fe50b94a5c7d4fa31ce4a25804aa" name="aa320fe50b94a5c7d4fa31ce4a25804aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa320fe50b94a5c7d4fa31ce4a25804aa">&#9670;&#160;</a></span>bannerTravel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal CardArtPreviewWidget::bannerTravel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>vertical travel of the art behind the strip, in output pixels </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d2f/classCardArtPreviewWidget_aa320fe50b94a5c7d4fa31ce4a25804aa_icgraph.svg" width="398" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a02b0f162581510d95f44b21d56eb4c01" name="a02b0f162581510d95f44b21d56eb4c01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02b0f162581510d95f44b21d56eb4c01">&#9670;&#160;</a></span>focusInEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardArtPreviewWidget::focusInEvent </td>
+          <td>(</td>
+          <td class="paramtype">QFocusEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adefa386bb3ad6d62737e3e31a73c13c3" name="adefa386bb3ad6d62737e3e31a73c13c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adefa386bb3ad6d62737e3e31a73c13c3">&#9670;&#160;</a></span>keyPressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardArtPreviewWidget::keyPressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QKeyEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d2f/classCardArtPreviewWidget_adefa386bb3ad6d62737e3e31a73c13c3_cgraph.svg" width="615" height="134"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a3091230f9976cf8d15e29d4accb6c036" name="a3091230f9976cf8d15e29d4accb6c036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3091230f9976cf8d15e29d4accb6c036">&#9670;&#160;</a></span>mouseMoveEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardArtPreviewWidget::mouseMoveEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d2f/classCardArtPreviewWidget_a3091230f9976cf8d15e29d4accb6c036_cgraph.svg" width="615" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="afd3201c7443a45c9e877327ae1452fd7" name="afd3201c7443a45c9e877327ae1452fd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd3201c7443a45c9e877327ae1452fd7">&#9670;&#160;</a></span>mousePressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardArtPreviewWidget::mousePressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d2f/classCardArtPreviewWidget_afd3201c7443a45c9e877327ae1452fd7_cgraph.svg" width="398" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ac1aa572e8fac01987dd9cdf2bb0517f0" name="ac1aa572e8fac01987dd9cdf2bb0517f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1aa572e8fac01987dd9cdf2bb0517f0">&#9670;&#160;</a></span>mouseReleaseEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardArtPreviewWidget::mouseReleaseEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a233c28bb640bbf8897bda5bc1362ac84" name="a233c28bb640bbf8897bda5bc1362ac84"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a233c28bb640bbf8897bda5bc1362ac84">&#9670;&#160;</a></span>paintEvent()</h2>
 
@@ -182,6 +424,107 @@ Private Attributes</h2></td></tr>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d2f/classCardArtPreviewWidget_a233c28bb640bbf8897bda5bc1362ac84_cgraph.svg" width="568" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a26840595a0a0028814663d7104fb81fd" name="a26840595a0a0028814663d7104fb81fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26840595a0a0028814663d7104fb81fd">&#9670;&#160;</a></span>paramsEdited</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardArtPreviewWidget::paramsEdited </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted whenever direct manipulation (drag, wheel, keys) changes the parameters. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d2f/classCardArtPreviewWidget_a26840595a0a0028814663d7104fb81fd_icgraph.svg" width="100%" height="482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a20ccf6f488aa560ee16e78a71a5a9e85" name="a20ccf6f488aa560ee16e78a71a5a9e85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20ccf6f488aa560ee16e78a71a5a9e85">&#9670;&#160;</a></span>restoreSnapshot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardArtPreviewWidget::restoreSnapshot </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d2f/classCardArtPreviewWidget_a20ccf6f488aa560ee16e78a71a5a9e85_cgraph.svg" width="398" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d2f/classCardArtPreviewWidget_a20ccf6f488aa560ee16e78a71a5a9e85_icgraph.svg" width="398" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a61ddd2ed1d09366ba8b11595347b8c37" name="a61ddd2ed1d09366ba8b11595347b8c37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61ddd2ed1d09366ba8b11595347b8c37">&#9670;&#160;</a></span>sameCrop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CardArtPreviewWidget::sameCrop </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d2f/classCardArtPreviewWidget_a61ddd2ed1d09366ba8b11595347b8c37_icgraph.svg" width="615" height="198"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -237,6 +580,36 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a8fb7164ec7c86a35c99fe4cef98a921d" name="a8fb7164ec7c86a35c99fe4cef98a921d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fb7164ec7c86a35c99fe4cef98a921d">&#9670;&#160;</a></span>wheelEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardArtPreviewWidget::wheelEvent </td>
+          <td>(</td>
+          <td class="paramtype">QWheelEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d2f/classCardArtPreviewWidget_a8fb7164ec7c86a35c99fe4cef98a921d_cgraph.svg" width="615" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="acaa62ee440e50c5af6d433dd8f3ca566" name="acaa62ee440e50c5af6d433dd8f3ca566"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acaa62ee440e50c5af6d433dd8f3ca566">&#9670;&#160;</a></span>attributionText</h2>
@@ -260,6 +633,54 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a2f19e3ecdfbe0f5c4c9bd5a54c709f9a" name="a2f19e3ecdfbe0f5c4c9bd5a54c709f9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f19e3ecdfbe0f5c4c9bd5a54c709f9a">&#9670;&#160;</a></span>dragging</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CardArtPreviewWidget::dragging {false}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>true between an accepted press and its release, guards stale drag positions </p>
+
+</div>
+</div>
+<a id="afda107a388229531ccc2bcbe99c9bb27" name="afda107a388229531ccc2bcbe99c9bb27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afda107a388229531ccc2bcbe99c9bb27">&#9670;&#160;</a></span>lastDragPos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPoint CardArtPreviewWidget::lastDragPos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>widget space position of the previous mouse move while panning </p>
+
+</div>
+</div>
 <a id="ade8b1744bb1365c46ec7df6edb0213e3" name="ade8b1744bb1365c46ec7df6edb0213e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ade8b1744bb1365c46ec7df6edb0213e3">&#9670;&#160;</a></span>params</h2>
 
@@ -279,6 +700,30 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaea4c62adf5f6d5bf6ce6f8c9f845433" name="aaea4c62adf5f6d5bf6ce6f8c9f845433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaea4c62adf5f6d5bf6ce6f8c9f845433">&#9670;&#160;</a></span>paramsAtFocusIn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> CardArtPreviewWidget::paramsAtFocusIn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>crop as of the latest focus gain, restored by Esc or Backspace </p>
 
 </div>
 </div>

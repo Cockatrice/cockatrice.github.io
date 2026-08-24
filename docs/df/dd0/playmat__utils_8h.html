@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -116,103 +116,30 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="../../df/dd0/playmat__utils_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:PlaymatUtils" id="r_PlaymatUtils"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="../../d3/dc9/namespacePlaymatUtils.html">PlaymatUtils</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a61e29f0c5b42dc56a4cbb56728f0b715" id="r_a61e29f0c5b42dc56a4cbb56728f0b715"><td class="memItemLeft">QRectF&#160;</td><td class="memItemRight"><a class="el" href="#a61e29f0c5b42dc56a4cbb56728f0b715">computeArtSourceRect</a> (const QSize &amp;fullCardSize, const <a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> &amp;params)</td></tr>
-<tr class="memdesc:a61e29f0c5b42dc56a4cbb56728f0b715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the source region of the full-resolution card image to use as a playmat.  <br /></td></tr>
-<tr class="memitem:acc05aca182461364fbb41c267544624c" id="r_acc05aca182461364fbb41c267544624c"><td class="memItemLeft">QRectF&#160;</td><td class="memItemRight"><a class="el" href="#acc05aca182461364fbb41c267544624c">coverFitRect</a> (const QRectF &amp;dstArea, const QSizeF &amp;srcSize)</td></tr>
-<tr class="memdesc:acc05aca182461364fbb41c267544624c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the destination rectangle that fits a source of the given aspect ratio into dstArea using "cover" semantics (no distortion, overflows cropped).  <br /></td></tr>
+<tr class="memitem:a95a76c2cf9870f4c20fb20cf7a45ffc7" id="r_a95a76c2cf9870f4c20fb20cf7a45ffc7"><td class="memItemLeft">qreal&#160;</td><td class="memItemRight"><a class="el" href="../../d3/dc9/namespacePlaymatUtils.html#a95a76c2cf9870f4c20fb20cf7a45ffc7">PlaymatUtils::playmatVisibleWidth</a> (const QSize &amp;fullCardSize, const <a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a95a76c2cf9870f4c20fb20cf7a45ffc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Width of the outer viewing window: full card width trimmed by the horizontal margins. Guarded against margins summing to &gt;= 1.  <br /></td></tr>
+<tr class="memitem:a2bc39b8e69fcc11ee9ac33bc6870a3cc" id="r_a2bc39b8e69fcc11ee9ac33bc6870a3cc"><td class="memItemLeft">qreal&#160;</td><td class="memItemRight"><a class="el" href="../../d3/dc9/namespacePlaymatUtils.html#a2bc39b8e69fcc11ee9ac33bc6870a3cc">PlaymatUtils::playmatClampedZoom</a> (const QSize &amp;fullCardSize, const <a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a2bc39b8e69fcc11ee9ac33bc6870a3cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zoom clamped to the range where every step renders differently.  <br /></td></tr>
+<tr class="memitem:a0c16028aef60376da1faccea09946950" id="r_a0c16028aef60376da1faccea09946950"><td class="memItemLeft">qreal&#160;</td><td class="memItemRight"><a class="el" href="../../d3/dc9/namespacePlaymatUtils.html#a0c16028aef60376da1faccea09946950">PlaymatUtils::playmatWindowSide</a> (const QSize &amp;fullCardSize, const <a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a0c16028aef60376da1faccea09946950"><td class="mdescLeft">&#160;</td><td class="mdescRight">Side of the square sampling window actually rendered for these parameters. Never exceeds either card dimension, so the source rect always lies within the image (vertical travel remains for panning whenever the art is taller than it is wide).  <br /></td></tr>
+<tr class="memitem:a1d38a3f11e408a377ac6fa7e5ff1edac" id="r_a1d38a3f11e408a377ac6fa7e5ff1edac"><td class="memItemLeft">QRectF&#160;</td><td class="memItemRight"><a class="el" href="../../d3/dc9/namespacePlaymatUtils.html#a1d38a3f11e408a377ac6fa7e5ff1edac">PlaymatUtils::computeArtSourceRect</a> (const QSize &amp;fullCardSize, const <a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a1d38a3f11e408a377ac6fa7e5ff1edac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the source region of the full resolution card image to use as a playmat.  <br /></td></tr>
+<tr class="memitem:a4bb604f5084ec575fe27fd4e208206c7" id="r_a4bb604f5084ec575fe27fd4e208206c7"><td class="memItemLeft">QRectF&#160;</td><td class="memItemRight"><a class="el" href="../../d3/dc9/namespacePlaymatUtils.html#a4bb604f5084ec575fe27fd4e208206c7">PlaymatUtils::coverFitRect</a> (const QRectF &amp;dstArea, const QSizeF &amp;srcSize)</td></tr>
+<tr class="memdesc:a4bb604f5084ec575fe27fd4e208206c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the destination rectangle that fits a source of the given aspect ratio into dstArea using "cover" semantics (no distortion, overflows cropped).  <br /></td></tr>
+<tr class="memitem:a88ddc4d52fd220663d1e3a75039c7f66" id="r_a88ddc4d52fd220663d1e3a75039c7f66"><td class="memItemLeft">QRectF&#160;</td><td class="memItemRight"><a class="el" href="../../d3/dc9/namespacePlaymatUtils.html#a88ddc4d52fd220663d1e3a75039c7f66">PlaymatUtils::aspectFitRect</a> (const QRectF &amp;dstArea, qreal aspect)</td></tr>
+<tr class="memdesc:a88ddc4d52fd220663d1e3a75039c7f66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fits a rectangle of the given aspect ratio into dstArea, centered, touching the constraining dimension ("aspect fit" of the FRAME itself, not of a source image).  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a4571734a3a0f56722bd906102373e5c1" id="r_a4571734a3a0f56722bd906102373e5c1"><td class="memItemLeft">constexpr qreal&#160;</td><td class="memItemRight"><a class="el" href="../../d3/dc9/namespacePlaymatUtils.html#a4571734a3a0f56722bd906102373e5c1">PlaymatUtils::MAX_ZOOM</a> = 4.0</td></tr>
+<tr class="memdesc:a4571734a3a0f56722bd906102373e5c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upper bound for zooming into the playmat art.  <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a61e29f0c5b42dc56a4cbb56728f0b715" name="a61e29f0c5b42dc56a4cbb56728f0b715"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61e29f0c5b42dc56a4cbb56728f0b715">&#9670;&#160;</a></span>computeArtSourceRect()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QRectF computeArtSourceRect </td>
-          <td>(</td>
-          <td class="paramtype">const QSize &amp;</td>          <td class="paramname"><span class="paramname"><em>fullCardSize</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Computes the source region of the full-resolution card image to use as a playmat. </p>
-<p>Parameters are relative to the full card image: horizontal margins trim the card borders, the vertical offset positions a square viewing window, and zoom scales into that window. The result is clamped to the card image bounds.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">fullCardSize</td><td>Size of the full card image. </td></tr>
-    <tr><td class="paramname">params</td><td>Positioning parameters. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Source rectangle in full-card image pixel coordinates. </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dd0/playmat__utils_8h_a61e29f0c5b42dc56a4cbb56728f0b715_icgraph.svg" width="404" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="acc05aca182461364fbb41c267544624c" name="acc05aca182461364fbb41c267544624c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc05aca182461364fbb41c267544624c">&#9670;&#160;</a></span>coverFitRect()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QRectF coverFitRect </td>
-          <td>(</td>
-          <td class="paramtype">const QRectF &amp;</td>          <td class="paramname"><span class="paramname"><em>dstArea</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QSizeF &amp;</td>          <td class="paramname"><span class="paramname"><em>srcSize</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the destination rectangle that fits a source of the given aspect ratio into dstArea using "cover" semantics (no distortion, overflows cropped). </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dstArea</td><td>Area to fill. </td></tr>
-    <tr><td class="paramname">srcSize</td><td>Size of the source; only its aspect ratio matters. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Destination rectangle centered in dstArea. </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dd0/playmat__utils_8h_acc05aca182461364fbb41c267544624c_icgraph.svg" width="336" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

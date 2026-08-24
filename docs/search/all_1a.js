@@ -39,7 +39,7 @@ var searchData=
   ['verticalmargin_36',['verticalMargin',['../de/d8b/classFlowLayout.html#a12beca01208e7deee5649655d433ee3b',1,'FlowLayout']]],
   ['verticaloffset_37',['verticalOffset',['../dd/d52/structCardArtParams.html#aa225192cac86a6d076560aff4b5d7050',1,'CardArtParams::verticalOffset'],['../d0/d30/structPlaymatParams.html#a8310343a17f02c65edacaab652d86f64',1,'PlaymatParams::verticalOffset']]],
   ['verticaloffsetlabel_38',['verticalOffsetLabel',['../d5/dac/classPlaymatSettingsDialog.html#abf8edcd021be4e569ba0260a4fb1dec2',1,'PlaymatSettingsDialog']]],
-  ['verticaloffsetspin_39',['verticalOffsetSpin',['../d5/dac/classPlaymatSettingsDialog.html#af12dfc7be967f6560106a81ad224ee7d',1,'PlaymatSettingsDialog::verticalOffsetSpin'],['../d4/d35/classUserCardArtSettingsDialog.html#a2dd9925b0baa9a2a9c594b1db369192d',1,'UserCardArtSettingsDialog::verticalOffsetSpin']]],
+  ['verticaloffsetspin_39',['verticalOffsetSpin',['../d5/dac/classPlaymatSettingsDialog.html#af12dfc7be967f6560106a81ad224ee7d',1,'PlaymatSettingsDialog']]],
   ['verticalspacing_40',['verticalSpacing',['../de/d8b/classFlowLayout.html#a06210851533f6e9d0d09477968aa0eb5',1,'FlowLayout']]],
   ['view_41',['View',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca2ca0a88e786f276ec49b6a3a24ca4879',1,'ShortcutGroup']]],
   ['view_42',['view',['../dd/d67/classWndSets.html#a0a3a8d5175cdd93504f63cdd4bfeb122',1,'WndSets']]],

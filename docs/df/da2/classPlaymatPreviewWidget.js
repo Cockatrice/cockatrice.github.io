@@ -1,11 +1,26 @@
 var classPlaymatPreviewWidget =
 [
     [ "PlaymatPreviewWidget", "df/da2/classPlaymatPreviewWidget.html#ada25b8794d0158df62b533de23f926cc", null ],
+    [ "activePlayArea", "df/da2/classPlaymatPreviewWidget.html#a3592f5afbc7fc3b953f5c61c8334dd03", null ],
+    [ "applyCropDelta", "df/da2/classPlaymatPreviewWidget.html#a717a6b9b14a9c1d0e81419e6625dd055", null ],
+    [ "focusInEvent", "df/da2/classPlaymatPreviewWidget.html#a585d126f9b6ceb00df203f8fcf9cb447", null ],
+    [ "keyPressEvent", "df/da2/classPlaymatPreviewWidget.html#aef389d3684c106c8467c791f3549b4f8", null ],
+    [ "mouseMoveEvent", "df/da2/classPlaymatPreviewWidget.html#ae15e051f6cd59e6d40e7940bb57ba680", null ],
+    [ "mousePressEvent", "df/da2/classPlaymatPreviewWidget.html#a208f5075fd3d0bf74ae78229a1e1f10a", null ],
+    [ "mouseReleaseEvent", "df/da2/classPlaymatPreviewWidget.html#af7fbf10bdcfe8e08e9d13bd81f1e7a9d", null ],
     [ "paintEvent", "df/da2/classPlaymatPreviewWidget.html#a6344b2f8b015ef70580a582e3dd0c20d", null ],
+    [ "paramsEdited", "df/da2/classPlaymatPreviewWidget.html#ad9da179bdce7da78212f24446b50350c", null ],
+    [ "restoreSnapshot", "df/da2/classPlaymatPreviewWidget.html#a9f4ceb99be6caa018c83e1bac00bdda6", null ],
+    [ "sameCrop", "df/da2/classPlaymatPreviewWidget.html#a9e619a20375ee85bd8e5ebedf951227d", null ],
+    [ "samplingWindowSide", "df/da2/classPlaymatPreviewWidget.html#a43e68d9c442accf2554248f4af57e783", null ],
     [ "setAttribution", "df/da2/classPlaymatPreviewWidget.html#ac2a3e7f5ee97f325d76ac55082b02fc4", null ],
     [ "setParams", "df/da2/classPlaymatPreviewWidget.html#abfba038799b6ac51a90f7fe521e801d1", null ],
     [ "setPixmap", "df/da2/classPlaymatPreviewWidget.html#a6dd0220bf799f17f0b17c0c66face8b2", null ],
+    [ "wheelEvent", "df/da2/classPlaymatPreviewWidget.html#a7af01715bfd4dc8d5f9081c968c1a840", null ],
+    [ "widgetToSourceScale", "df/da2/classPlaymatPreviewWidget.html#a9cab9e23ec92ea50546d818744f2e468", null ],
     [ "attributionText", "df/da2/classPlaymatPreviewWidget.html#a7ac12e7e42438563536b68fb343d7417", null ],
+    [ "lastDragPos", "df/da2/classPlaymatPreviewWidget.html#a37874ffe1a117d6e2bad1ecf594950fe", null ],
     [ "params", "df/da2/classPlaymatPreviewWidget.html#ad1f92b172158c53b9296c48820a28e2b", null ],
+    [ "paramsAtFocusIn", "df/da2/classPlaymatPreviewWidget.html#a25c7193e8154103fa4f9c7930d950323", null ],
     [ "sourcePixmap", "df/da2/classPlaymatPreviewWidget.html#a570f00c8b9af97f791d14414014f9e48", null ]
 ];

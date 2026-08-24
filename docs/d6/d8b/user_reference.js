@@ -3,6 +3,7 @@ var user_reference =
     [ "Creating Decks", "d3/d9a/creating_decks.html", [
       [ "Deck Management", "d6/d8b/user_reference.html#deck-management", null ],
       [ "Release Channels", "d6/d8b/user_reference.html#release-channels", null ],
+      [ "Troubleshooting", "d6/d8b/user_reference.html#troubleshooting", null ],
       [ "Syntax Help", "d6/d8b/user_reference.html#syntax-help", null ],
       [ "Further References", "d3/d9a/creating_decks.html#further-references", null ]
     ] ],
@@ -28,6 +29,14 @@ var user_reference =
       [ "Switching to the Beta", "d9/d9b/beta_release.html#switching-to-the-beta", null ],
       [ "Switching back to Stable", "d9/d9b/beta_release.html#switching-back-to-stable", null ],
       [ "Giving Feedback", "d9/d9b/beta_release.html#giving-feedback", null ]
+    ] ],
+    [ "Fixing Card Pictures", "d9/d7b/fixing_card_pictures.html", "d9/d7b/fixing_card_pictures" ],
+    [ "Enabling Debug Logs", "d2/d8f/enabling_debug_logs.html", [
+      [ "Step 1: Create the file", "d2/d8f/enabling_debug_logs.html#step-1-create-the-file", null ],
+      [ "Step 2: Tell Cockatrice where the file is", "d2/d8f/enabling_debug_logs.html#step-2-tell-cockatrice-where-the-file-is", null ],
+      [ "Step 3: See the logs", "d2/d8f/enabling_debug_logs.html#step-3-see-the-logs", null ],
+      [ "Which categories are available?", "d2/d8f/enabling_debug_logs.html#which-categories-are-available", null ],
+      [ "When you are done", "d2/d8f/enabling_debug_logs.html#when-you-are-done", null ]
     ] ],
     [ "Search Syntax Help", "dc/dcd/search_syntax_help.html", null ],
     [ "Deck Search Syntax Help", "de/dec/deck_search_syntax_help.html", null ]

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -132,7 +132,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a768a4592fe3437bbc6816d43c1a14489" id="r_a768a4592fe3437bbc6816d43c1a14489"><td class="memItemLeft"><a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a768a4592fe3437bbc6816d43c1a14489">addCard</a> (const QString &amp;cardName, int <a class="el" href="../../d6/d42/deck__hash__performance__test_8cpp.html#a021789e29c74073d63b613c2eff92cd5">amount</a>, const QString &amp;zoneName, int position, const QString &amp;cardSetName=QString(), const QString &amp;cardSetCollectorNumber=QString(), const QString &amp;cardProviderId=QString(), const bool formatLegal=true)</td></tr>
 <tr class="memitem:ad562ee6818f263e6b64b2e0510654544" id="r_ad562ee6818f263e6b64b2e0510654544"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ad562ee6818f263e6b64b2e0510654544">deleteNode</a> (<a class="el" href="../../dc/dd8/classAbstractDecklistNode.html">AbstractDecklistNode</a> *node, <a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *rootNode=nullptr)</td></tr>
 <tr class="memitem:ac6805473c9f516dc8523bd7b7c4623dd" id="r_ac6805473c9f516dc8523bd7b7c4623dd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac6805473c9f516dc8523bd7b7c4623dd">forEachCard</a> (const std::function&lt; void(<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *, <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> *)&gt; &amp;func) const</td></tr>
-<tr class="memdesc:ac6805473c9f516dc8523bd7b7c4623dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply a function to every card in the deck tree. This can modify the cards.  <br /></td></tr>
+<tr class="memdesc:ac6805473c9f516dc8523bd7b7c4623dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a function to every card in the deck tree. This can modify the cards.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -379,10 +379,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Apply a function to every card in the deck tree. This can modify the cards. </p>
+<p>Applies a function to every card in the deck tree. This can modify the cards. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">func</td><td>Function taking (zone node, card node). </td></tr>
+    <tr><td class="paramname">func</td><td>Function taking (top-level board zone node, card node). Cards nested in custom zones are reported with their board zone. </td></tr>
   </table>
   </dd>
 </dl>

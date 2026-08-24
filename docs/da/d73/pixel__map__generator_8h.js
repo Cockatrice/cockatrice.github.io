@@ -7,6 +7,7 @@ var pixel__map__generator_8h =
     [ "UserLevelPixmapGenerator", "d8/df9/classUserLevelPixmapGenerator.html", "d8/df9/classUserLevelPixmapGenerator" ],
     [ "LockPixmapGenerator", "dd/dd6/classLockPixmapGenerator.html", "dd/dd6/classLockPixmapGenerator" ],
     [ "DropdownIconPixmapGenerator", "d1/db5/classDropdownIconPixmapGenerator.html", "d1/db5/classDropdownIconPixmapGenerator" ],
+    [ "ManaSymbolPixmapGenerator", "d2/dcd/classManaSymbolPixmapGenerator.html", "d2/dcd/classManaSymbolPixmapGenerator" ],
     [ "loadColorAdjustedPixmap", "da/d73/pixel__map__generator_8h.html#a5dd6facc9a6720bb61cd12e83886c294", null ],
     [ "Q_LOGGING_CATEGORY", "da/d73/pixel__map__generator_8h.html#abc35ca8a03678118df72e697eed33409", null ]
 ];

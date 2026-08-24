@@ -13,5 +13,6 @@ var abstract__client_8h =
       [ "StatusSubmitForgotPasswordReset", "d5/db3/abstract__client_8h.html#a7e5fc64e45e1ab3af52e22eaf1c1bfc4ab6c47cd54cf0c4caec2c73501ac45172", null ],
       [ "StatusSubmitForgotPasswordChallenge", "d5/db3/abstract__client_8h.html#a7e5fc64e45e1ab3af52e22eaf1c1bfc4ab89d179a2ba0af67c5b5660d38179e6e", null ],
       [ "StatusGettingPasswordSalt", "d5/db3/abstract__client_8h.html#a7e5fc64e45e1ab3af52e22eaf1c1bfc4adc925621ffcfcad47c5cfff0122c7834", null ]
-    ] ]
+    ] ],
+    [ "Q_LOGGING_CATEGORY", "d5/db3/abstract__client_8h.html#ad1fcd01fd046b0a8c74b58ccc3738e57", null ]
 ];

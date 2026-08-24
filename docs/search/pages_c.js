@@ -6,7 +6,7 @@ var searchData=
   ['importing_20decks_3',['Importing Decks',['../db/d91/importing_decks.html',1,'user_reference']]],
   ['in_20client_4',['In-client',['../dc/d8a/displaying_cards.html#in-client',1,'']]],
   ['in_20game_5',['In-game',['../dc/d8a/displaying_cards.html#in-game',1,'']]],
-  ['in_20the_20hierarchy_3a_6',['in the hierarchy:',['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
+  ['in_20the_20hierarchy_3a_6',['in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
   ['inc_5fcard_5fcounter_201015_7',['&lt;span class=&quot;tt&quot;&gt;INC_CARD_COUNTER&lt;/span&gt; (1015)',['../d0/d5b/protocol_game_command.html#inc_card_counter-1015',1,'']]],
   ['inc_5fcounter_201018_8',['&lt;span class=&quot;tt&quot;&gt;INC_COUNTER&lt;/span&gt; (1018)',['../d0/d5b/protocol_game_command.html#inc_counter-1018',1,'']]],
   ['incoming_20game_20events_9',['incoming game events',['../db/d15/game_event_handler.html#autotoc_md2-processing-incoming-game-events',1,'2. Processing incoming game events'],['../db/d15/game_event_handler.html#autotoc_md2-processing-incoming-game-events-1',1,'2. Processing incoming game events']]],
@@ -22,8 +22,9 @@ var searchData=
   ['interactions_19',['interactions',['../d4/d5b/player_event_handler.html#autotoc_md4-handling-cross-player-interactions',1,'4. Handling cross-player interactions'],['../d4/d5b/player_event_handler.html#autotoc_md4-handling-cross-player-interactions-1',1,'4. Handling cross-player interactions']]],
   ['interface_20',['Pre-requisites (User Interface)',['../d7/d64/editing_decks_printings.html#pre-requisites-user-interface',1,'']]],
   ['invariants_21',['Invariants',['../dd/d01/protocol_command_container.html#cc_invariants',1,'']]],
-  ['is_20new_22',['How it decides what is &quot;new&quot;',['../dir_7bfb512e87101b177eb3569817b9fc67.html#how-it-decides-what-is-new',1,'']]],
-  ['it_20decides_20what_20is_20new_23',['How it decides what is &quot;new&quot;',['../dir_7bfb512e87101b177eb3569817b9fc67.html#how-it-decides-what-is-new',1,'']]],
-  ['it_20every_202_20minutes_20with_20cron_24',['Run it every 2 minutes with cron',['../dir_7bfb512e87101b177eb3569817b9fc67.html#run-it-every-2-minutes-with-cron',1,'']]],
-  ['it_20to_20the_20config_25',['2. Create the Discord webhook and add it to the config',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md2-create-the-discord-webhook-and-add-it-to-the-config',1,'']]]
+  ['is_22',['Step 2: Tell Cockatrice where the file is',['../d2/d8f/enabling_debug_logs.html#step-2-tell-cockatrice-where-the-file-is',1,'']]],
+  ['is_20new_23',['How it decides what is &quot;new&quot;',['../dir_7bfb512e87101b177eb3569817b9fc67.html#how-it-decides-what-is-new',1,'']]],
+  ['it_20decides_20what_20is_20new_24',['How it decides what is &quot;new&quot;',['../dir_7bfb512e87101b177eb3569817b9fc67.html#how-it-decides-what-is-new',1,'']]],
+  ['it_20every_202_20minutes_20with_20cron_25',['Run it every 2 minutes with cron',['../dir_7bfb512e87101b177eb3569817b9fc67.html#run-it-every-2-minutes-with-cron',1,'']]],
+  ['it_20to_20the_20config_26',['2. Create the Discord webhook and add it to the config',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md2-create-the-discord-webhook-and-add-it-to-the-config',1,'']]]
 ];

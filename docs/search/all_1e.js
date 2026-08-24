@@ -96,7 +96,7 @@ var searchData=
   ['zoneviewzonelogic_93',['ZoneViewZoneLogic',['../d8/d70/classZoneViewZoneLogic.html',1,'ZoneViewZoneLogic'],['../d8/d70/classZoneViewZoneLogic.html#af8e982515d0688d1edd6384e77d5a03a',1,'ZoneViewZoneLogic::ZoneViewZoneLogic()']]],
   ['zoom_94',['zoom',['../dd/d52/structCardArtParams.html#a3e56a2bfee26a4804f44f49917e12ce1',1,'CardArtParams::zoom'],['../d6/d34/structServerInfo__PlayerProperties_1_1PlaymatParams.html#af5fd523a416d42ddac7feb9c0ef531f5',1,'ServerInfo_PlayerProperties::PlaymatParams::zoom'],['../d8/d4b/structServerInfo__User_1_1CardArtParams.html#a6787f8555c2a83ea6a6b5cc680e7b4f1',1,'ServerInfo_User::CardArtParams::zoom'],['../db/d98/structCommand__SetCardArtParams.html#a0b089eb7a2012f118c4104ec89c0ccbb',1,'Command_SetCardArtParams::zoom'],['../d0/d30/structPlaymatParams.html#add269f520bef844a0bb7139b6bd23898',1,'PlaymatParams::zoom']]],
   ['zoomlabel_95',['zoomLabel',['../d5/dac/classPlaymatSettingsDialog.html#a1ae1e458ae4be303edd2eb967cca6edb',1,'PlaymatSettingsDialog']]],
-  ['zoomspin_96',['zoomSpin',['../d5/dac/classPlaymatSettingsDialog.html#a85ac99f08d08a7002969395ff5f54ea9',1,'PlaymatSettingsDialog::zoomSpin'],['../d4/d35/classUserCardArtSettingsDialog.html#a1ef178e8d7be2a42f2b24b5fbcb82236',1,'UserCardArtSettingsDialog::zoomSpin']]],
+  ['zoomspin_96',['zoomSpin',['../d5/dac/classPlaymatSettingsDialog.html#a85ac99f08d08a7002969395ff5f54ea9',1,'PlaymatSettingsDialog']]],
   ['zvaluelayermanager_97',['ZValueLayerManager',['../d7/dd1/namespaceZValueLayerManager.html',1,'']]],
   ['zvalues_98',['ZValues',['../db/dd0/namespaceZValues.html',1,'']]]
 ];

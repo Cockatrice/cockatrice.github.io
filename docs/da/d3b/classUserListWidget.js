@@ -52,7 +52,7 @@ var classUserListWidget =
     [ "refreshVisibleUserHeader", "da/d3b/classUserListWidget.html#a6ccb3a86fb5e32917b3296d437be8e8e", null ],
     [ "removeBuddy", "da/d3b/classUserListWidget.html#a7232aef733d626b43d48425028d23943", null ],
     [ "removeIgnore", "da/d3b/classUserListWidget.html#a8a1fc76a53abc05fbafabbd97eed3750", null ],
-    [ "requestAvatarsForVisibleItems", "da/d3b/classUserListWidget.html#ae785893782b9191d44e72421f319ae74", null ],
+    [ "requestVisibleItemResources", "da/d3b/classUserListWidget.html#ab51f9d90c5f15dd0d6273cbd6b22f4e2", null ],
     [ "retranslateUi", "da/d3b/classUserListWidget.html#aa8c1d7dd437c33cc6d9df0505ce82a82", null ],
     [ "sectionExpanded", "da/d3b/classUserListWidget.html#a8d4ed64c44d04235ea1a9cc6b5a733f6", null ],
     [ "sectionTitle", "da/d3b/classUserListWidget.html#a345d2d485c19320afa13d3931079a32d", null ],

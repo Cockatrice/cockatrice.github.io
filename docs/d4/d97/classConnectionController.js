@@ -26,6 +26,7 @@ var classConnectionController =
     [ "onSocketError", "d4/d97/classConnectionController.html#a88f91a58ea79a77a220379d0ebd35763", null ],
     [ "onStatusChanged", "d4/d97/classConnectionController.html#a6fa3963d902065393535bcc8c63488bf", null ],
     [ "onUserInfoReceived", "d4/d97/classConnectionController.html#a6aadb99e35dc47f6bb3b8bf94abaff9a", null ],
+    [ "pingStatsUpdated", "d4/d97/classConnectionController.html#a6e8254074ab622e2bd62a9f158d01a01", null ],
     [ "refreshWindowTitle", "d4/d97/classConnectionController.html#a000228756d1d995721b640f7cb21a6e5", null ],
     [ "registerToServer", "d4/d97/classConnectionController.html#aae6a9c646c37f8a91efe5b8d6b68e785", null ],
     [ "statusChanged", "d4/d97/classConnectionController.html#a06b85ace84695a3e38bc84afe5dee2e4", null ],

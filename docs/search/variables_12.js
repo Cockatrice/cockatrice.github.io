@@ -65,7 +65,7 @@ var searchData=
   ['remoteplaymatparams_62',['remotePlaymatParams',['../d2/d98/classPlayerLogic.html#a4a4087821c8a25a596e655b3d4db086c',1,'PlayerLogic']]],
   ['remove_5fmessages_63',['remove_messages',['../d4/db0/structCommand__BanFromServer.html#a267b23dc95d9e05f1b0e6eb02e6b16df',1,'Command_BanFromServer::remove_messages'],['../d6/dde/structCommand__WarnUser.html#a214b4ae9fc25bbcdd920b9fdd22647b5',1,'Command_WarnUser::remove_messages']]],
   ['removeavatarbutton_64',['removeAvatarButton',['../d6/d55/classTabModeration.html#a4d8f341c73f21d10f5f0f7e409d60f9a',1,'TabModeration']]],
-  ['removebtn_65',['removeBtn',['../da/de8/classTabCardArtRules.html#ae1ca562fb559b3be3aa9bfe354a616f7',1,'TabCardArtRules']]],
+  ['removebtn_65',['removeBtn',['../d4/d35/classUserCardArtSettingsDialog.html#a82140599d9e5baf7d08785ec8e1a7c41',1,'UserCardArtSettingsDialog::removeBtn'],['../da/de8/classTabCardArtRules.html#ae1ca562fb559b3be3aa9bfe354a616f7',1,'TabCardArtRules::removeBtn']]],
   ['removebutton_66',['removeButton',['../d4/d77/classDeckAnalyticsWidget.html#a78af009d0718ad08d07da515d51976af',1,'DeckAnalyticsWidget::removeButton'],['../d8/d22/classPlaymatCollectionDialog.html#abc4c49428d6376ae0c4f48da9e4ad9d4',1,'PlaymatCollectionDialog::removeButton'],['../d5/dac/classPlaymatSettingsDialog.html#a7c352f2b8025375c57c87f739201d646',1,'PlaymatSettingsDialog::removeButton']]],
   ['removecardmutex_67',['removeCardMutex',['../d5/d45/classCardDatabase.html#a29d5784f18ae980cc52c56a53ae831ca',1,'CardDatabase']]],
   ['removedcategories_68',['removedCategories',['../d3/dc3/classArchidektApiResponseCardEntry.html#a900a82f9a2be346cab542c3ce59f0e5a',1,'ArchidektApiResponseCardEntry']]],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -100,7 +100,7 @@ $(function(){initNavTree('df/da2/classPlaymatPreviewWidget.html','../../','df/d0
 </div><!--header-->
 <div class="contents">
 
-<p>Preview widget that shows how a playmat card art will appear across the combined table + stack play area.  
+<p>Interactive crop surface showing how a playmat card art will appear across the combined table + stack play area.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d3/df6/playmat__preview__widget_8h_source.html">playmat_preview_widget.h</a>&gt;</code></p>
@@ -112,9 +112,14 @@ Inheritance diagram for PlaymatPreviewWidget:</div>
 <div class="dynheader">
 Collaboration diagram for PlaymatPreviewWidget:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/dd4/classPlaymatPreviewWidget__coll__graph.svg" width="238" height="132"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/dd4/classPlaymatPreviewWidget__coll__graph.svg" width="276" height="152"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:ad9da179bdce7da78212f24446b50350c" id="r_ad9da179bdce7da78212f24446b50350c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad9da179bdce7da78212f24446b50350c">paramsEdited</a> (const <a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> &amp;<a class="el" href="#ad1f92b172158c53b9296c48820a28e2b">params</a>)</td></tr>
+<tr class="memdesc:ad9da179bdce7da78212f24446b50350c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever direct manipulation (drag, wheel, keys) changes the crop parameters.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ada25b8794d0158df62b533de23f926cc" id="r_ada25b8794d0158df62b533de23f926cc"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ada25b8794d0158df62b533de23f926cc">PlaymatPreviewWidget</a> (QWidget *parent=nullptr)</td></tr>
@@ -125,16 +130,37 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a6344b2f8b015ef70580a582e3dd0c20d" id="r_a6344b2f8b015ef70580a582e3dd0c20d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6344b2f8b015ef70580a582e3dd0c20d">paintEvent</a> (QPaintEvent *event) override</td></tr>
+<tr class="memitem:a208f5075fd3d0bf74ae78229a1e1f10a" id="r_a208f5075fd3d0bf74ae78229a1e1f10a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a208f5075fd3d0bf74ae78229a1e1f10a">mousePressEvent</a> (QMouseEvent *event) override</td></tr>
+<tr class="memitem:ae15e051f6cd59e6d40e7940bb57ba680" id="r_ae15e051f6cd59e6d40e7940bb57ba680"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae15e051f6cd59e6d40e7940bb57ba680">mouseMoveEvent</a> (QMouseEvent *event) override</td></tr>
+<tr class="memitem:af7fbf10bdcfe8e08e9d13bd81f1e7a9d" id="r_af7fbf10bdcfe8e08e9d13bd81f1e7a9d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af7fbf10bdcfe8e08e9d13bd81f1e7a9d">mouseReleaseEvent</a> (QMouseEvent *event) override</td></tr>
+<tr class="memitem:a7af01715bfd4dc8d5f9081c968c1a840" id="r_a7af01715bfd4dc8d5f9081c968c1a840"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7af01715bfd4dc8d5f9081c968c1a840">wheelEvent</a> (QWheelEvent *event) override</td></tr>
+<tr class="memitem:aef389d3684c106c8467c791f3549b4f8" id="r_aef389d3684c106c8467c791f3549b4f8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aef389d3684c106c8467c791f3549b4f8">keyPressEvent</a> (QKeyEvent *event) override</td></tr>
+<tr class="memitem:a585d126f9b6ceb00df203f8fcf9cb447" id="r_a585d126f9b6ceb00df203f8fcf9cb447"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a585d126f9b6ceb00df203f8fcf9cb447">focusInEvent</a> (QFocusEvent *event) override</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a3592f5afbc7fc3b953f5c61c8334dd03" id="r_a3592f5afbc7fc3b953f5c61c8334dd03"><td class="memItemLeft">QRectF&#160;</td><td class="memItemRight"><a class="el" href="#a3592f5afbc7fc3b953f5c61c8334dd03">activePlayArea</a> () const</td></tr>
+<tr class="memdesc:a3592f5afbc7fc3b953f5c61c8334dd03"><td class="mdescLeft">&#160;</td><td class="mdescRight">destination rect used for rendering AND gesture math  <br /></td></tr>
+<tr class="memitem:a43e68d9c442accf2554248f4af57e783" id="r_a43e68d9c442accf2554248f4af57e783"><td class="memItemLeft">qreal&#160;</td><td class="memItemRight"><a class="el" href="#a43e68d9c442accf2554248f4af57e783">samplingWindowSide</a> () const</td></tr>
+<tr class="memdesc:a43e68d9c442accf2554248f4af57e783"><td class="mdescLeft">&#160;</td><td class="mdescRight">clamped square window side, shared with the render path  <br /></td></tr>
+<tr class="memitem:a9cab9e23ec92ea50546d818744f2e468" id="r_a9cab9e23ec92ea50546d818744f2e468"><td class="memItemLeft">qreal&#160;</td><td class="memItemRight"><a class="el" href="#a9cab9e23ec92ea50546d818744f2e468">widgetToSourceScale</a> () const</td></tr>
+<tr class="memitem:a717a6b9b14a9c1d0e81419e6625dd055" id="r_a717a6b9b14a9c1d0e81419e6625dd055"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a717a6b9b14a9c1d0e81419e6625dd055">applyCropDelta</a> (qreal dMarginL, qreal dMarginR, qreal dOffset, qreal zoomFactor)</td></tr>
+<tr class="memitem:a9e619a20375ee85bd8e5ebedf951227d" id="r_a9e619a20375ee85bd8e5ebedf951227d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a9e619a20375ee85bd8e5ebedf951227d">sameCrop</a> (const <a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> &amp;a, const <a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> &amp;b) const</td></tr>
+<tr class="memitem:a9f4ceb99be6caa018c83e1bac00bdda6" id="r_a9f4ceb99be6caa018c83e1bac00bdda6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9f4ceb99be6caa018c83e1bac00bdda6">restoreSnapshot</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a570f00c8b9af97f791d14414014f9e48" id="r_a570f00c8b9af97f791d14414014f9e48"><td class="memItemLeft">QPixmap&#160;</td><td class="memItemRight"><a class="el" href="#a570f00c8b9af97f791d14414014f9e48">sourcePixmap</a></td></tr>
 <tr class="memitem:ad1f92b172158c53b9296c48820a28e2b" id="r_ad1f92b172158c53b9296c48820a28e2b"><td class="memItemLeft"><a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad1f92b172158c53b9296c48820a28e2b">params</a></td></tr>
+<tr class="memitem:a25c7193e8154103fa4f9c7930d950323" id="r_a25c7193e8154103fa4f9c7930d950323"><td class="memItemLeft"><a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a>&#160;</td><td class="memItemRight"><a class="el" href="#a25c7193e8154103fa4f9c7930d950323">paramsAtFocusIn</a></td></tr>
+<tr class="memdesc:a25c7193e8154103fa4f9c7930d950323"><td class="mdescLeft">&#160;</td><td class="mdescRight">crop as of the latest focus gain, restored by Esc or Backspace  <br /></td></tr>
 <tr class="memitem:a7ac12e7e42438563536b68fb343d7417" id="r_a7ac12e7e42438563536b68fb343d7417"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a7ac12e7e42438563536b68fb343d7417">attributionText</a></td></tr>
+<tr class="memitem:a37874ffe1a117d6e2bad1ecf594950fe" id="r_a37874ffe1a117d6e2bad1ecf594950fe"><td class="memItemLeft">QPoint&#160;</td><td class="memItemRight"><a class="el" href="#a37874ffe1a117d6e2bad1ecf594950fe">lastDragPos</a></td></tr>
+<tr class="memdesc:a37874ffe1a117d6e2bad1ecf594950fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">widget space position of the previous mouse move while panning  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Preview widget that shows how a playmat card art will appear across the combined table + stack play area. </p>
-<p>Renders a miniature mockup with the card art applied using the given <a class="el" href="../../d0/d30/structPlaymatParams.html" title="Positioning parameters for a playmat card image.">PlaymatParams</a>, including faint zone divider lines. </p>
+<div class="textblock"><p>Interactive crop surface showing how a playmat card art will appear across the combined table + stack play area. </p>
+<p>Renders a fixed frame shaped like a fresh board's stack+table area (the most generous framing the game produces): it shows the tallest slice of the square crop in normal play, with dimmed strips marking where a wider, developed table crops further, exactly the game's own render pipeline. The widget doubles as the editor's primary crop control: dragging pans the art behind the frame, the wheel zooms, and arrow keys nudge, mirroring the stored parameters (margins pan horizontally, verticalOffset vertically, zoom scales) so no separate numeric controls are needed. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ada25b8794d0158df62b533de23f926cc" name="ada25b8794d0158df62b533de23f926cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada25b8794d0158df62b533de23f926cc">&#9670;&#160;</a></span>PlaymatPreviewWidget()</h2>
@@ -162,6 +188,232 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a3592f5afbc7fc3b953f5c61c8334dd03" name="a3592f5afbc7fc3b953f5c61c8334dd03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3592f5afbc7fc3b953f5c61c8334dd03">&#9670;&#160;</a></span>activePlayArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRectF PlaymatPreviewWidget::activePlayArea </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>destination rect used for rendering AND gesture math </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a3592f5afbc7fc3b953f5c61c8334dd03_cgraph.svg" width="436" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a3592f5afbc7fc3b953f5c61c8334dd03_icgraph.svg" width="631" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a717a6b9b14a9c1d0e81419e6625dd055" name="a717a6b9b14a9c1d0e81419e6625dd055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a717a6b9b14a9c1d0e81419e6625dd055">&#9670;&#160;</a></span>applyCropDelta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlaymatPreviewWidget::applyCropDelta </td>
+          <td>(</td>
+          <td class="paramtype">qreal</td>          <td class="paramname"><span class="paramname"><em>dMarginL</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal</td>          <td class="paramname"><span class="paramname"><em>dMarginR</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal</td>          <td class="paramname"><span class="paramname"><em>dOffset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qreal</td>          <td class="paramname"><span class="paramname"><em>zoomFactor</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a717a6b9b14a9c1d0e81419e6625dd055_cgraph.svg" width="100%" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a717a6b9b14a9c1d0e81419e6625dd055_icgraph.svg" width="408" height="179"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a585d126f9b6ceb00df203f8fcf9cb447" name="a585d126f9b6ceb00df203f8fcf9cb447"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a585d126f9b6ceb00df203f8fcf9cb447">&#9670;&#160;</a></span>focusInEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlaymatPreviewWidget::focusInEvent </td>
+          <td>(</td>
+          <td class="paramtype">QFocusEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef389d3684c106c8467c791f3549b4f8" name="aef389d3684c106c8467c791f3549b4f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef389d3684c106c8467c791f3549b4f8">&#9670;&#160;</a></span>keyPressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlaymatPreviewWidget::keyPressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QKeyEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_aef389d3684c106c8467c791f3549b4f8_cgraph.svg" width="100%" height="429"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae15e051f6cd59e6d40e7940bb57ba680" name="ae15e051f6cd59e6d40e7940bb57ba680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae15e051f6cd59e6d40e7940bb57ba680">&#9670;&#160;</a></span>mouseMoveEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlaymatPreviewWidget::mouseMoveEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_ae15e051f6cd59e6d40e7940bb57ba680_cgraph.svg" width="100%" height="520"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a208f5075fd3d0bf74ae78229a1e1f10a" name="a208f5075fd3d0bf74ae78229a1e1f10a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a208f5075fd3d0bf74ae78229a1e1f10a">&#9670;&#160;</a></span>mousePressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlaymatPreviewWidget::mousePressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a208f5075fd3d0bf74ae78229a1e1f10a_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af7fbf10bdcfe8e08e9d13bd81f1e7a9d" name="af7fbf10bdcfe8e08e9d13bd81f1e7a9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7fbf10bdcfe8e08e9d13bd81f1e7a9d">&#9670;&#160;</a></span>mouseReleaseEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlaymatPreviewWidget::mouseReleaseEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6344b2f8b015ef70580a582e3dd0c20d" name="a6344b2f8b015ef70580a582e3dd0c20d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6344b2f8b015ef70580a582e3dd0c20d">&#9670;&#160;</a></span>paintEvent()</h2>
 
@@ -187,7 +439,145 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a6344b2f8b015ef70580a582e3dd0c20d_cgraph.svg" width="404" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a6344b2f8b015ef70580a582e3dd0c20d_cgraph.svg" width="100%" height="461"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad9da179bdce7da78212f24446b50350c" name="ad9da179bdce7da78212f24446b50350c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9da179bdce7da78212f24446b50350c">&#9670;&#160;</a></span>paramsEdited</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlaymatPreviewWidget::paramsEdited </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted whenever direct manipulation (drag, wheel, keys) changes the crop parameters. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_ad9da179bdce7da78212f24446b50350c_icgraph.svg" width="635" height="243"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9f4ceb99be6caa018c83e1bac00bdda6" name="a9f4ceb99be6caa018c83e1bac00bdda6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f4ceb99be6caa018c83e1bac00bdda6">&#9670;&#160;</a></span>restoreSnapshot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlaymatPreviewWidget::restoreSnapshot </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a9f4ceb99be6caa018c83e1bac00bdda6_cgraph.svg" width="408" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a9f4ceb99be6caa018c83e1bac00bdda6_icgraph.svg" width="408" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9e619a20375ee85bd8e5ebedf951227d" name="a9e619a20375ee85bd8e5ebedf951227d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e619a20375ee85bd8e5ebedf951227d">&#9670;&#160;</a></span>sameCrop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PlaymatPreviewWidget::sameCrop </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a9e619a20375ee85bd8e5ebedf951227d_icgraph.svg" width="631" height="198"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a43e68d9c442accf2554248f4af57e783" name="a43e68d9c442accf2554248f4af57e783"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43e68d9c442accf2554248f4af57e783">&#9670;&#160;</a></span>samplingWindowSide()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal PlaymatPreviewWidget::samplingWindowSide </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>clamped square window side, shared with the render path </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a43e68d9c442accf2554248f4af57e783_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a43e68d9c442accf2554248f4af57e783_icgraph.svg" width="631" height="204"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -243,6 +633,71 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a7af01715bfd4dc8d5f9081c968c1a840" name="a7af01715bfd4dc8d5f9081c968c1a840"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7af01715bfd4dc8d5f9081c968c1a840">&#9670;&#160;</a></span>wheelEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlaymatPreviewWidget::wheelEvent </td>
+          <td>(</td>
+          <td class="paramtype">QWheelEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a7af01715bfd4dc8d5f9081c968c1a840_cgraph.svg" width="100%" height="462"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a9cab9e23ec92ea50546d818744f2e468" name="a9cab9e23ec92ea50546d818744f2e468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cab9e23ec92ea50546d818744f2e468">&#9670;&#160;</a></span>widgetToSourceScale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal PlaymatPreviewWidget::widgetToSourceScale </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a9cab9e23ec92ea50546d818744f2e468_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/da2/classPlaymatPreviewWidget_a9cab9e23ec92ea50546d818744f2e468_icgraph.svg" width="408" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a7ac12e7e42438563536b68fb343d7417" name="a7ac12e7e42438563536b68fb343d7417"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ac12e7e42438563536b68fb343d7417">&#9670;&#160;</a></span>attributionText</h2>
@@ -266,6 +721,30 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a37874ffe1a117d6e2bad1ecf594950fe" name="a37874ffe1a117d6e2bad1ecf594950fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37874ffe1a117d6e2bad1ecf594950fe">&#9670;&#160;</a></span>lastDragPos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPoint PlaymatPreviewWidget::lastDragPos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>widget space position of the previous mouse move while panning </p>
+
+</div>
+</div>
 <a id="ad1f92b172158c53b9296c48820a28e2b" name="ad1f92b172158c53b9296c48820a28e2b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1f92b172158c53b9296c48820a28e2b">&#9670;&#160;</a></span>params</h2>
 
@@ -285,6 +764,30 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25c7193e8154103fa4f9c7930d950323" name="a25c7193e8154103fa4f9c7930d950323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25c7193e8154103fa4f9c7930d950323">&#9670;&#160;</a></span>paramsAtFocusIn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d30/structPlaymatParams.html">PlaymatParams</a> PlaymatPreviewWidget::paramsAtFocusIn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>crop as of the latest focus gain, restored by Esc or Backspace </p>
 
 </div>
 </div>

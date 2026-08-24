@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -109,13 +109,15 @@ Inheritance diagram for AbstractClient:</div>
 <div class="dynheader">
 Collaboration diagram for AbstractClient:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d28/classAbstractClient__coll__graph.svg" width="126" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d28/classAbstractClient__coll__graph.svg" width="248" height="132"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:aa8ffda0d0b2f5f59041c7d2562c6ee47" id="r_aa8ffda0d0b2f5f59041c7d2562c6ee47"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa8ffda0d0b2f5f59041c7d2562c6ee47">statusChanged</a> (<a class="el" href="../../d5/db3/abstract__client_8h.html#a7e5fc64e45e1ab3af52e22eaf1c1bfc4">ClientStatus</a> _status)</td></tr>
 <tr class="memitem:a947b7a61c5bc7ce1e6af31bd725036ad" id="r_a947b7a61c5bc7ce1e6af31bd725036ad"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a947b7a61c5bc7ce1e6af31bd725036ad">maxPingTime</a> (int seconds, int maxSeconds)</td></tr>
+<tr class="memitem:aaf0519384e94cb2afebee38666ca5698" id="r_aaf0519384e94cb2afebee38666ca5698"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaf0519384e94cb2afebee38666ca5698">pingStatsUpdated</a> (const <a class="el" href="../../d7/d35/structLatencyTracker_1_1Stats.html">LatencyTracker::Stats</a> &amp;stats, const QList&lt; int &gt; &amp;samplesMs)</td></tr>
+<tr class="memdesc:aaf0519384e94cb2afebee38666ca5698"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aggregated round-trip statistics and a chronological snapshot of the rolling window, emitted at most once per second.  <br /></td></tr>
 <tr class="memitem:a02eef8d7dbcc2d5e5e5ece92580e9c68" id="r_a02eef8d7dbcc2d5e5e5ece92580e9c68"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a02eef8d7dbcc2d5e5e5ece92580e9c68">roomEventReceived</a> (const <a class="el" href="../../d7/dc2/structRoomEvent.html">RoomEvent</a> &amp;event)</td></tr>
 <tr class="memitem:a2c81829e95e862d8223182ddff54ab59" id="r_a2c81829e95e862d8223182ddff54ab59"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2c81829e95e862d8223182ddff54ab59">gameEventContainerReceived</a> (const <a class="el" href="../../d6/d6f/structGameEventContainer.html">GameEventContainer</a> &amp;event)</td></tr>
 <tr class="memitem:a84820548976ae0564b60e8713ea904c2" id="r_a84820548976ae0564b60e8713ea904c2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a84820548976ae0564b60e8713ea904c2">serverIdentificationEventReceived</a> (const <a class="el" href="../../df/d48/structEvent__ServerIdentification.html">Event_ServerIdentification</a> &amp;event)</td></tr>
@@ -146,6 +148,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aca11328e6ad61c0883a15ac3432379a8" id="r_aca11328e6ad61c0883a15ac3432379a8"><td class="memItemLeft"><a class="el" href="../../d5/db3/abstract__client_8h.html#a7e5fc64e45e1ab3af52e22eaf1c1bfc4">ClientStatus</a>&#160;</td><td class="memItemRight"><a class="el" href="#aca11328e6ad61c0883a15ac3432379a8">getStatus</a> () const</td></tr>
 <tr class="memitem:a759acefdf58266cafdf63284c55c5711" id="r_a759acefdf58266cafdf63284c55c5711"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a759acefdf58266cafdf63284c55c5711">sendCommand</a> (const <a class="el" href="../../d3/d65/structCommandContainer.html">CommandContainer</a> &amp;cont)</td></tr>
 <tr class="memitem:a74fb39b3974a3c68905d8e6a24b6e535" id="r_a74fb39b3974a3c68905d8e6a24b6e535"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a74fb39b3974a3c68905d8e6a24b6e535">sendCommand</a> (<a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a> *pend)</td></tr>
+<tr class="memitem:a24012400af1bad2608e7d5bd693c37a0" id="r_a24012400af1bad2608e7d5bd693c37a0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a24012400af1bad2608e7d5bd693c37a0">clearLatencyStats</a> ()</td></tr>
+<tr class="memdesc:a24012400af1bad2608e7d5bd693c37a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops all recorded round-trip samples and resets the stats emission throttle, emitting zeroed stats so that UI listeners can clear their display.  <br /></td></tr>
 <tr class="memitem:a40a7215004b01875fa8cb83805bf5099" id="r_a40a7215004b01875fa8cb83805bf5099"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a40a7215004b01875fa8cb83805bf5099">getServerSupportsPasswordHash</a> () const</td></tr>
 <tr class="memitem:ad18e27de66819afadea919c928ea50a5" id="r_ad18e27de66819afadea919c928ea50a5"><td class="memItemLeft">const QString &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ad18e27de66819afadea919c928ea50a5">getUserName</a> () const</td></tr>
 <tr class="memitem:a8394ac82d32f0bbb835c9c816e0abd9c" id="r_a8394ac82d32f0bbb835c9c816e0abd9c"><td class="memItemLeft">virtual QString&#160;</td><td class="memItemRight"><a class="el" href="#a8394ac82d32f0bbb835c9c816e0abd9c">serverName</a> () const</td></tr>
@@ -188,11 +192,18 @@ Protected Attributes</h2></td></tr>
 Private Slots</h2></td></tr>
 <tr class="memitem:aedb92ac3b3256c25e68084f906d9d93c" id="r_aedb92ac3b3256c25e68084f906d9d93c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aedb92ac3b3256c25e68084f906d9d93c">queuePendingCommand</a> (<a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a> *pend)</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:af61e0b793fe0bd3d9adb41e707c33694" id="r_af61e0b793fe0bd3d9adb41e707c33694"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af61e0b793fe0bd3d9adb41e707c33694">recordLatency</a> (<a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a> &amp;pend)</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a858c537f1a045b894bf212dda8efe4ee" id="r_a858c537f1a045b894bf212dda8efe4ee"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a858c537f1a045b894bf212dda8efe4ee">nextCmdId</a></td></tr>
 <tr class="memitem:a99d111a01fcb5af35911205d0480f440" id="r_a99d111a01fcb5af35911205d0480f440"><td class="memItemLeft">QMutex&#160;</td><td class="memItemRight"><a class="el" href="#a99d111a01fcb5af35911205d0480f440">clientMutex</a></td></tr>
 <tr class="memitem:adbda30db928bf5e2240574f7c898c2e4" id="r_adbda30db928bf5e2240574f7c898c2e4"><td class="memItemLeft"><a class="el" href="../../d5/db3/abstract__client_8h.html#a7e5fc64e45e1ab3af52e22eaf1c1bfc4">ClientStatus</a>&#160;</td><td class="memItemRight"><a class="el" href="#adbda30db928bf5e2240574f7c898c2e4">status</a></td></tr>
+<tr class="memitem:a681d616627f157b6cb0240cc48cf1acd" id="r_a681d616627f157b6cb0240cc48cf1acd"><td class="memItemLeft"><a class="el" href="../../d3/d07/classLatencyTracker.html">LatencyTracker</a>&#160;</td><td class="memItemRight"><a class="el" href="#a681d616627f157b6cb0240cc48cf1acd">latencyTracker</a></td></tr>
+<tr class="memitem:aca4d41e8c794bc89de74e523e8bf0afc" id="r_aca4d41e8c794bc89de74e523e8bf0afc"><td class="memItemLeft">QElapsedTimer&#160;</td><td class="memItemRight"><a class="el" href="#aca4d41e8c794bc89de74e523e8bf0afc">statsEmitClock</a></td></tr>
+<tr class="memitem:ac7ec6e3275217c7b1e235ccc568346d4" id="r_ac7ec6e3275217c7b1e235ccc568346d4"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac7ec6e3275217c7b1e235ccc568346d4">statsEmitClockStarted</a> = false</td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab32b3738a7c8621a841661a49e01eec1" name="ab32b3738a7c8621a841661a49e01eec1"></a>
@@ -220,7 +231,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d86/classAbstractClient_ab32b3738a7c8621a841661a49e01eec1_cgraph.svg" width="100%" height="429"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d86/classAbstractClient_ab32b3738a7c8621a841661a49e01eec1_cgraph.svg" width="100%" height="462"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -342,6 +353,36 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d86/classAbstractClient_a847c2cfbfc9574b2bdfa6cd3cb60cfb5_icgraph.svg" width="100%" height="527"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a24012400af1bad2608e7d5bd693c37a0" name="a24012400af1bad2608e7d5bd693c37a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24012400af1bad2608e7d5bd693c37a0">&#9670;&#160;</a></span>clearLatencyStats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractClient::clearLatencyStats </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Drops all recorded round-trip samples and resets the stats emission throttle, emitting zeroed stats so that UI listeners can clear their display. </p>
+<p>Must be called from the client thread (as <a class="el" href="../../db/d53/classRemoteClient.html">RemoteClient</a>'s disconnect path does). The tracker is deliberately lock-free. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d86/classAbstractClient_a24012400af1bad2608e7d5bd693c37a0_cgraph.svg" width="447" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d86/classAbstractClient_a24012400af1bad2608e7d5bd693c37a0_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -670,6 +711,43 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aaf0519384e94cb2afebee38666ca5698" name="aaf0519384e94cb2afebee38666ca5698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf0519384e94cb2afebee38666ca5698">&#9670;&#160;</a></span>pingStatsUpdated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractClient::pingStatsUpdated </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d7/d35/structLatencyTracker_1_1Stats.html">LatencyTracker::Stats</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>stats</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QList&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>samplesMs</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Aggregated round-trip statistics and a chronological snapshot of the rolling window, emitted at most once per second. </p>
+<p>All values in the stats struct are in milliseconds; sampleCount is the number of samples currently in the rolling window. The samples list is ordered oldest first so graphs can redraw without polling the tracker across threads. Emitted from the client thread. The connection to UI objects is automatically queued across threads. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d86/classAbstractClient_aaf0519384e94cb2afebee38666ca5698_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a1c105ed6696e0b7dbfd478237d48faa3" name="a1c105ed6696e0b7dbfd478237d48faa3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c105ed6696e0b7dbfd478237d48faa3">&#9670;&#160;</a></span>prepareAdminCommand()</h2>
 
@@ -849,12 +927,47 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d86/classAbstractClient_aedb92ac3b3256c25e68084f906d9d93c_cgraph.svg" width="511" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d86/classAbstractClient_aedb92ac3b3256c25e68084f906d9d93c_cgraph.svg" width="511" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d86/classAbstractClient_aedb92ac3b3256c25e68084f906d9d93c_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af61e0b793fe0bd3d9adb41e707c33694" name="af61e0b793fe0bd3d9adb41e707c33694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af61e0b793fe0bd3d9adb41e707c33694">&#9670;&#160;</a></span>recordLatency()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractClient::recordLatency </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pend</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d86/classAbstractClient_af61e0b793fe0bd3d9adb41e707c33694_cgraph.svg" width="511" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d86/classAbstractClient_af61e0b793fe0bd3d9adb41e707c33694_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1543,6 +1656,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a681d616627f157b6cb0240cc48cf1acd" name="a681d616627f157b6cb0240cc48cf1acd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a681d616627f157b6cb0240cc48cf1acd">&#9670;&#160;</a></span>latencyTracker</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d07/classLatencyTracker.html">LatencyTracker</a> AbstractClient::latencyTracker</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a858c537f1a045b894bf212dda8efe4ee" name="a858c537f1a045b894bf212dda8efe4ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a858c537f1a045b894bf212dda8efe4ee">&#9670;&#160;</a></span>nextCmdId</h2>
 
@@ -1647,6 +1782,50 @@ Here is the caller graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca4d41e8c794bc89de74e523e8bf0afc" name="aca4d41e8c794bc89de74e523e8bf0afc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca4d41e8c794bc89de74e523e8bf0afc">&#9670;&#160;</a></span>statsEmitClock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QElapsedTimer AbstractClient::statsEmitClock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7ec6e3275217c7b1e235ccc568346d4" name="ac7ec6e3275217c7b1e235ccc568346d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7ec6e3275217c7b1e235ccc568346d4">&#9670;&#160;</a></span>statsEmitClockStarted</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractClient::statsEmitClockStarted = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

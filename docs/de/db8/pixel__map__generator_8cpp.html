@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -103,6 +103,7 @@ $(function(){initNavTree('de/db8/pixel__map__generator_8cpp.html','../../',''); 
 <code>#include &lt;QApplication&gt;</code><br />
 <code>#include &lt;QDomDocument&gt;</code><br />
 <code>#include &lt;QFile&gt;</code><br />
+<code>#include &lt;QImageReader&gt;</code><br />
 <code>#include &lt;QPainter&gt;</code><br />
 <code>#include &lt;QPalette&gt;</code><br />
 <code>#include &lt;QSvgRenderer&gt;</code><br />
@@ -123,6 +124,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ae5481a6f01916779b3903f22e77946e2" id="r_ae5481a6f01916779b3903f22e77946e2"><td class="memItemLeft">static QSize&#160;</td><td class="memItemRight"><a class="el" href="#ae5481a6f01916779b3903f22e77946e2">capRenderSize</a> (const QSize &amp;renderSize, const QSize &amp;requestedSize)</td></tr>
 <tr class="memitem:a6752fa5d3c1c1130fe5ea7d1461addd5" id="r_a6752fa5d3c1c1130fe5ea7d1461addd5"><td class="memItemLeft">static QPixmap&#160;</td><td class="memItemRight"><a class="el" href="#a6752fa5d3c1c1130fe5ea7d1461addd5">loadSvg</a> (const QString &amp;svgPath, const QSize &amp;size, bool expandOnly=false)</td></tr>
 <tr class="memitem:a6cfe65fb28ed67863cea38029bcf9654" id="r_a6cfe65fb28ed67863cea38029bcf9654"><td class="memItemLeft">static QPixmap&#160;</td><td class="memItemRight"><a class="el" href="#a6cfe65fb28ed67863cea38029bcf9654">tryLoadImage</a> (const QString &amp;path, const QSize &amp;size, bool expandOnly=false)</td></tr>
 <tr class="memitem:a19851b0be52474cb39ed3a4fd63f702c" id="r_a19851b0be52474cb39ed3a4fd63f702c"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a19851b0be52474cb39ed3a4fd63f702c">setAttrRecur</a> (QDomElement &amp;elem, const QString &amp;tagName, const QString &amp;attrName, const QString &amp;idName, const QString &amp;attrValue)</td></tr>
@@ -202,6 +204,50 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="ae5481a6f01916779b3903f22e77946e2" name="ae5481a6f01916779b3903f22e77946e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5481a6f01916779b3903f22e77946e2">&#9670;&#160;</a></span>capRenderSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize capRenderSize </td>
+          <td>(</td>
+          <td class="paramtype">const QSize &amp;</td>          <td class="paramname"><span class="paramname"><em>renderSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QSize &amp;</td>          <td class="paramname"><span class="paramname"><em>requestedSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Clamps an svg render size so that rendering does not exceed a multiple of the requested size.</p>
+<p>Rendering at the full native size of an svg just to scale it down afterwards wastes memory, and canvases with extreme coordinates can exceed Qt's rasterizer coordinate limit which makes Qt silently drop shapes from the rendered image.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">renderSize</td><td>The size the svg would be rendered at. </td></tr>
+    <tr><td class="paramname">requestedSize</td><td>The size that was actually requested.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A size with the aspect ratio of renderSize whose longest side is at most four times the longest side of requestedSize. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/db8/pixel__map__generator_8cpp_ae5481a6f01916779b3903f22e77946e2_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a4e58f8954fb254f5389bfa3397f19811" name="a4e58f8954fb254f5389bfa3397f19811"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e58f8954fb254f5389bfa3397f19811">&#9670;&#160;</a></span>getIconType()</h2>
 
@@ -288,7 +334,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/db8/pixel__map__generator_8cpp_ab301083235ed832f8596d9079627588e_cgraph.svg" width="295" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/db8/pixel__map__generator_8cpp_ab301083235ed832f8596d9079627588e_cgraph.svg" width="311" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -361,6 +407,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The svg loaded into a Pixmap with the given size, or an empty Pixmap if the loading failed. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/db8/pixel__map__generator_8cpp_a6752fa5d3c1c1130fe5ea7d1461addd5_cgraph.svg" width="252" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -477,7 +528,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/db8/pixel__map__generator_8cpp_a6cfe65fb28ed67863cea38029bcf9654_cgraph.svg" width="246" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/db8/pixel__map__generator_8cpp_a6cfe65fb28ed67863cea38029bcf9654_cgraph.svg" width="412" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>

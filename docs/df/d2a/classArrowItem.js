@@ -16,6 +16,7 @@ var classArrowItem =
     [ "setTargetLocked", "df/d2a/classArrowItem.html#a0b98fd952ae58f9658cb49377a801a58", null ],
     [ "shape", "df/d2a/classArrowItem.html#a8ed2b6e002e0ba6ed6ef4ac15b29c22f", null ],
     [ "startDrawAnimation", "df/d2a/classArrowItem.html#a4551fc0a6eed09776958f4e53d8f7684", null ],
+    [ "type", "df/d2a/classArrowItem.html#a36abeb7fe4cc9347ac066e660b8413b1", null ],
     [ "updatePath", "df/d2a/classArrowItem.html#ab491c5e2cc41e954f73da693eebb6b33", null ],
     [ "updatePath", "df/d2a/classArrowItem.html#a488014fa5fe4e29acc42738cc729f5fc", null ],
     [ "animationClock", "df/d2a/classArrowItem.html#a259b8169f9d3ff0bc88ee123a07f60a7", null ],

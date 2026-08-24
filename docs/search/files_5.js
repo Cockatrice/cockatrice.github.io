@@ -13,12 +13,13 @@ var searchData=
   ['filter_5ftree_2eh_10',['filter_tree.h',['../d4/df3/filter__tree_8h.html',1,'']]],
   ['filter_5ftree_5fmodel_2ecpp_11',['filter_tree_model.cpp',['../d6/d53/filter__tree__model_8cpp.html',1,'']]],
   ['filter_5ftree_5fmodel_2eh_12',['filter_tree_model.h',['../d0/d18/filter__tree__model_8h.html',1,'']]],
-  ['flat_5fcard_5fgroup_5fdisplay_5fwidget_2ecpp_13',['flat_card_group_display_widget.cpp',['../d7/d9b/flat__card__group__display__widget_8cpp.html',1,'']]],
-  ['flat_5fcard_5fgroup_5fdisplay_5fwidget_2eh_14',['flat_card_group_display_widget.h',['../d3/d13/flat__card__group__display__widget_8h.html',1,'']]],
-  ['flow_5flayout_2ecpp_15',['flow_layout.cpp',['../dc/d41/flow__layout_8cpp.html',1,'']]],
-  ['flow_5flayout_2eh_16',['flow_layout.h',['../dc/d3b/flow__layout_8h.html',1,'']]],
-  ['flow_5fwidget_2ecpp_17',['flow_widget.cpp',['../dd/d6b/flow__widget_8cpp.html',1,'']]],
-  ['flow_5fwidget_2eh_18',['flow_widget.h',['../d5/dd3/flow__widget_8h.html',1,'']]],
-  ['format_5flegality_5frules_2ecpp_19',['format_legality_rules.cpp',['../d9/d01/format__legality__rules_8cpp.html',1,'']]],
-  ['format_5flegality_5frules_2eh_20',['format_legality_rules.h',['../de/d2f/format__legality__rules_8h.html',1,'']]]
+  ['fixing_5fcard_5fpictures_2emd_13',['fixing_card_pictures.md',['../db/dfc/fixing__card__pictures_8md.html',1,'']]],
+  ['flat_5fcard_5fgroup_5fdisplay_5fwidget_2ecpp_14',['flat_card_group_display_widget.cpp',['../d7/d9b/flat__card__group__display__widget_8cpp.html',1,'']]],
+  ['flat_5fcard_5fgroup_5fdisplay_5fwidget_2eh_15',['flat_card_group_display_widget.h',['../d3/d13/flat__card__group__display__widget_8h.html',1,'']]],
+  ['flow_5flayout_2ecpp_16',['flow_layout.cpp',['../dc/d41/flow__layout_8cpp.html',1,'']]],
+  ['flow_5flayout_2eh_17',['flow_layout.h',['../dc/d3b/flow__layout_8h.html',1,'']]],
+  ['flow_5fwidget_2ecpp_18',['flow_widget.cpp',['../dd/d6b/flow__widget_8cpp.html',1,'']]],
+  ['flow_5fwidget_2eh_19',['flow_widget.h',['../d5/dd3/flow__widget_8h.html',1,'']]],
+  ['format_5flegality_5frules_2ecpp_20',['format_legality_rules.cpp',['../d9/d01/format__legality__rules_8cpp.html',1,'']]],
+  ['format_5flegality_5frules_2eh_21',['format_legality_rules.h',['../de/d2f/format__legality__rules_8h.html',1,'']]]
 ];

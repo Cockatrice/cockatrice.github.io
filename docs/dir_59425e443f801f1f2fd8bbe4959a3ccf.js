@@ -10,6 +10,8 @@ var dir_59425e443f801f1f2fd8bbe4959a3ccf =
     [ "deck_hash_performance_test.cpp", "d6/d42/deck__hash__performance__test_8cpp.html", "d6/d42/deck__hash__performance__test_8cpp" ],
     [ "dummy_test.cpp", "d4/d0d/dummy__test_8cpp.html", "d4/d0d/dummy__test_8cpp" ],
     [ "expression_test.cpp", "d2/d0b/expression__test_8cpp.html", "d2/d0b/expression__test_8cpp" ],
+    [ "lag_monitor_test.cpp", "d0/d40/lag__monitor__test_8cpp.html", "d0/d40/lag__monitor__test_8cpp" ],
+    [ "latency_tracker_test.cpp", "d6/df2/latency__tracker__test_8cpp.html", "d6/df2/latency__tracker__test_8cpp" ],
     [ "password_hash_test.cpp", "d5/d3d/password__hash__test_8cpp.html", "d5/d3d/password__hash__test_8cpp" ],
     [ "playmat_resolver_test.cpp", "d3/ddc/playmat__resolver__test_8cpp.html", "d3/ddc/playmat__resolver__test_8cpp" ],
     [ "server_card_counter_test.cpp", "d8/d24/server__card__counter__test_8cpp.html", "d8/d24/server__card__counter__test_8cpp" ],

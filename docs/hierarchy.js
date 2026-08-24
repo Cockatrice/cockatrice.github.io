@@ -475,6 +475,7 @@ var hierarchy =
     [ "QtJson::Json", "d3/d98/classQtJson_1_1Json.html", null ],
     [ "CardSetList::KeyCompareFunctor", "da/d79/classCardSetList_1_1KeyCompareFunctor.html", null ],
     [ "peg::KeywordGuardData", "d7/d9a/structpeg_1_1KeywordGuardData.html", null ],
+    [ "LatencyTracker", "d3/d07/classLatencyTracker.html", null ],
     [ "LazyPropertiesHash", "d9/dd0/classLazyPropertiesHash.html", null ],
     [ "ListOfCardsToMove", "da/d6b/structListOfCardsToMove.html", null ],
     [ "LoadedDeck", "d9/dc2/structLoadedDeck.html", null ],
@@ -486,6 +487,7 @@ var hierarchy =
     [ "ManaCurveConfig", "d6/d55/structManaCurveConfig.html", null ],
     [ "ManaDevotionConfig", "d5/d54/structManaDevotionConfig.html", null ],
     [ "ManaDistributionConfig", "d7/d68/structManaDistributionConfig.html", null ],
+    [ "ManaSymbolPixmapGenerator", "d2/dcd/classManaSymbolPixmapGenerator.html", null ],
     [ "DeckList::Metadata", "d3/de4/structDeckList_1_1Metadata.html", null ],
     [ "MockCard", "db/d6b/structMockCard.html", null ],
     [ "MockCardList", "db/dc5/classMockCardList.html", null ],
@@ -864,6 +866,7 @@ var hierarchy =
       [ "IntentUrlParser", "d4/d47/classIntentUrlParser.html", null ],
       [ "IslInterface", "d0/de8/classIslInterface.html", null ],
       [ "KeySignals", "da/d89/classKeySignals.html", null ],
+      [ "LagMonitor", "d5/d51/classLagMonitor.html", null ],
       [ "Logger", "db/d67/classLogger.html", null ],
       [ "NoScrollFilter", "da/d92/classNoScrollFilter.html", null ],
       [ "OracleImporter", "db/d70/classOracleImporter.html", null ],
@@ -1116,6 +1119,8 @@ var hierarchy =
       [ "GameSelectorQuickFilterToolBar", "df/dac/classGameSelectorQuickFilterToolBar.html", null ],
       [ "HomeWidget", "de/de3/classHomeWidget.html", null ],
       [ "LabeledInput", "d8/d6f/classLabeledInput.html", null ],
+      [ "LatencyGraphWidget", "dc/d24/classLatencyGraphWidget.html", null ],
+      [ "LatencyStatusWidget", "d5/d67/classLatencyStatusWidget.html", null ],
       [ "ManaCostWidget", "df/d0e/classManaCostWidget.html", null ],
       [ "ManaCurveCategoryWidget", "de/dc7/classManaCurveCategoryWidget.html", null ],
       [ "ManaCurveTotalWidget", "d1/d94/classManaCurveTotalWidget.html", null ],
@@ -1297,6 +1302,13 @@ var hierarchy =
     [ "Server_DeckValidationStrategy", "de/db3/classServer__DeckValidationStrategy.html", [
       [ "Server_DefaultDeckValidationStrategy", "dd/daf/classServer__DefaultDeckValidationStrategy.html", null ]
     ] ],
+    [ "Server_GameLifecycleStrategy", "d5/de4/classServer__GameLifecycleStrategy.html", [
+      [ "Server_DefaultLifecycleStrategy", "da/d2d/classServer__DefaultLifecycleStrategy.html", null ]
+    ] ],
+    [ "Server_MatchGameFactory", "d6/da0/classServer__MatchGameFactory.html", null ],
+    [ "Server_MatchResultStrategy", "d5/d5a/classServer__MatchResultStrategy.html", [
+      [ "Server_NullMatchResultStrategy", "d3/d0f/classServer__NullMatchResultStrategy.html", null ]
+    ] ],
     [ "ServerInfo_Arrow", "d8/ded/structServerInfo__Arrow.html", null ],
     [ "ServerInfo_Ban", "da/d3a/structServerInfo__Ban.html", null ],
     [ "ServerInfo_Card", "d6/da1/structServerInfo__Card.html", null ],
@@ -1399,10 +1411,13 @@ var hierarchy =
     [ "peg::Context::Snapshot", "dd/de0/structpeg_1_1Context_1_1Snapshot.html", null ],
     [ "SplitCardPart", "d5/d45/classSplitCardPart.html", null ],
     [ "SelectZone::StackLayoutParams", "d0/d19/structSelectZone_1_1StackLayoutParams.html", null ],
+    [ "LagMonitor::StallRecord", "d0/df7/structLagMonitor_1_1StallRecord.html", null ],
+    [ "LatencyTracker::Stats", "d7/d35/structLatencyTracker_1_1Stats.html", null ],
     [ "UserListPainter::Style", "d3/d6e/structUserListPainter_1_1Style.html", null ],
     [ "TallyRow", "d3/d34/structTallyRow.html", null ],
     [ "testing::Test", null, [
-      [ "AddCardAlgorithmTest", "d1/df2/classAddCardAlgorithmTest.html", null ]
+      [ "AddCardAlgorithmTest", "d1/df2/classAddCardAlgorithmTest.html", null ],
+      [ "LagMonitorTest", "d5/d8d/classLagMonitorTest.html", null ]
     ] ],
     [ "ThemeConfig", "dc/dec/structThemeConfig.html", null ],
     [ "TipOfTheDay", "d2/dba/classTipOfTheDay.html", null ],

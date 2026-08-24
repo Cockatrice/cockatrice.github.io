@@ -8,5 +8,7 @@ var classColorIdentityWidget =
     [ "setColorIdentity", "d7/d30/classColorIdentityWidget.html#ac38a09804e81578bebc92a2cb85dec7c", null ],
     [ "toggleUnusedVisibility", "d7/d30/classColorIdentityWidget.html#a9e8b981d5ada1feda78d25922eef8fbf", null ],
     [ "colorIdentity", "d7/d30/classColorIdentityWidget.html#ab641d4700587eecb13436f4251e86f7b", null ],
+    [ "lastIconSize", "d7/d30/classColorIdentityWidget.html#a2b155544e4513a3ce939195b5747bf2c", null ],
+    [ "lastWidth", "d7/d30/classColorIdentityWidget.html#a35bb7b082894f94a7511c1226d7053cb", null ],
     [ "layout", "d7/d30/classColorIdentityWidget.html#a038c103a40dcff8f70670c9fe553092b", null ]
 ];

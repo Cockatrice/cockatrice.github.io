@@ -93,6 +93,8 @@ var classMainWindow =
     [ "dbMenu", "d6/d1a/classMainWindow.html#ab0a16639183781b13b65df6e09a18bfd", null ],
     [ "fileNameFilters", "d6/d1a/classMainWindow.html#a6669ee35e6f5dc518d140d6a5a8729df", null ],
     [ "helpMenu", "d6/d1a/classMainWindow.html#a40eb18227dca52851a7fd47a2e862e6d", null ],
+    [ "lagMonitor", "d6/d1a/classMainWindow.html#a2716cf3fca8e1fdb479506260c086a97", null ],
+    [ "latencyStatus", "d6/d1a/classMainWindow.html#a14fa41c9ff95fe3c688cf68ed06c68c9", null ],
     [ "localServer", "d6/d1a/classMainWindow.html#a80831f62b11108c89f3a50afd5fe8cbc", null ],
     [ "logviewDialog", "d6/d1a/classMainWindow.html#a6745ab872e9020453344be5d9e670508", null ],
     [ "replay", "d6/d1a/classMainWindow.html#a67dd0adf03452c1edf61af8cdb7f89fe", null ],

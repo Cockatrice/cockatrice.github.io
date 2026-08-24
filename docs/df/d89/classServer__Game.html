@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-21-Development-3.1.0-beta.8</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -169,6 +169,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac09f1402a0899b239a71417a782102cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current deck validation strategy (non-owning).  <br /></td></tr>
 <tr class="memitem:afeafcef88f2b6d3b28e7ba5ba0e710c1" id="r_afeafcef88f2b6d3b28e7ba5ba0e710c1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afeafcef88f2b6d3b28e7ba5ba0e710c1">setDeckValidationStrategy</a> (<a class="el" href="../../de/db3/classServer__DeckValidationStrategy.html">Server_DeckValidationStrategy</a> *strategy)</td></tr>
 <tr class="memdesc:afeafcef88f2b6d3b28e7ba5ba0e710c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the deck validation strategy; takes ownership of <code class="param">strategy</code>.  <br /></td></tr>
+<tr class="memitem:a677a7be5f1a297ad7028bc7e65ef1023" id="r_a677a7be5f1a297ad7028bc7e65ef1023"><td class="memItemLeft"><a class="el" href="../../d5/de4/classServer__GameLifecycleStrategy.html">Server_GameLifecycleStrategy</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a677a7be5f1a297ad7028bc7e65ef1023">getLifecycleStrategy</a> () const</td></tr>
+<tr class="memdesc:a677a7be5f1a297ad7028bc7e65ef1023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current game lifecycle strategy (non-owning).  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -221,6 +223,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a3bfe0bea3ece2d9ae3fd1b3bd62f6764" id="r_a3bfe0bea3ece2d9ae3fd1b3bd62f6764"><td class="memItemLeft">QList&lt; <a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a3bfe0bea3ece2d9ae3fd1b3bd62f6764">replayList</a></td></tr>
 <tr class="memitem:af3c6c8e8b21c4346224216bf31c16ea8" id="r_af3c6c8e8b21c4346224216bf31c16ea8"><td class="memItemLeft"><a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af3c6c8e8b21c4346224216bf31c16ea8">currentReplay</a></td></tr>
 <tr class="memitem:acfdeaa2a31ade500469d5c81f91963d0" id="r_acfdeaa2a31ade500469d5c81f91963d0"><td class="memItemLeft">QScopedPointer&lt; <a class="el" href="../../de/db3/classServer__DeckValidationStrategy.html">Server_DeckValidationStrategy</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#acfdeaa2a31ade500469d5c81f91963d0">deckValidationStrategy</a></td></tr>
+<tr class="memitem:a6c17e47dd2607bef92a6a37b1a8476fa" id="r_a6c17e47dd2607bef92a6a37b1a8476fa"><td class="memItemLeft">QScopedPointer&lt; <a class="el" href="../../d5/de4/classServer__GameLifecycleStrategy.html">Server_GameLifecycleStrategy</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a6c17e47dd2607bef92a6a37b1a8476fa">lifecycleStrategy</a></td></tr>
+<tr class="memitem:adaf315f8abe7862f5816ff562c019fb2" id="r_adaf315f8abe7862f5816ff562c019fb2"><td class="memItemLeft">QScopedPointer&lt; <a class="el" href="../../d5/d5a/classServer__MatchResultStrategy.html">Server_MatchResultStrategy</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#adaf315f8abe7862f5816ff562c019fb2">matchResultStrategy</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac00e6a75dd5af5f7aedb46e3ee111041" name="ac00e6a75dd5af5f7aedb46e3ee111041"></a>
@@ -799,6 +803,33 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_a63a794c985e4a690d661f167444a90fe_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+
+</div>
+</div>
+<a id="a677a7be5f1a297ad7028bc7e65ef1023" name="a677a7be5f1a297ad7028bc7e65ef1023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a677a7be5f1a297ad7028bc7e65ef1023">&#9670;&#160;</a></span>getLifecycleStrategy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/de4/classServer__GameLifecycleStrategy.html">Server_GameLifecycleStrategy</a> * Server_Game::getLifecycleStrategy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current game lifecycle strategy (non-owning). </p>
 
 </div>
 </div>
@@ -1671,7 +1702,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_a042625cfa763abbc19149a99aa84a69c_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_a042625cfa763abbc19149a99aa84a69c_cgraph.svg" width="100%" height="499"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -2089,6 +2120,50 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">int Server_Game::inactivityCounter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c17e47dd2607bef92a6a37b1a8476fa" name="a6c17e47dd2607bef92a6a37b1a8476fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c17e47dd2607bef92a6a37b1a8476fa">&#9670;&#160;</a></span>lifecycleStrategy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QScopedPointer&lt;<a class="el" href="../../d5/de4/classServer__GameLifecycleStrategy.html">Server_GameLifecycleStrategy</a>&gt; Server_Game::lifecycleStrategy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adaf315f8abe7862f5816ff562c019fb2" name="adaf315f8abe7862f5816ff562c019fb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaf315f8abe7862f5816ff562c019fb2">&#9670;&#160;</a></span>matchResultStrategy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QScopedPointer&lt;<a class="el" href="../../d5/d5a/classServer__MatchResultStrategy.html">Server_MatchResultStrategy</a>&gt; Server_Game::matchResultStrategy</td>
         </tr>
       </table>
   </td>

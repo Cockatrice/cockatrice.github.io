@@ -33,5 +33,6 @@ var searchData=
   ['1031_30',['&lt;span class=&quot;tt&quot;&gt;CHANGE_ZONE_PROPERTIES&lt;/span&gt; (1031)',['../d0/d5b/protocol_game_command.html#change_zone_properties-1031',1,'']]],
   ['1032_31',['&lt;span class=&quot;tt&quot;&gt;UNCONCEDE&lt;/span&gt; (1032)',['../d0/d5b/protocol_game_command.html#unconcede-1032',1,'']]],
   ['1033_32',['&lt;span class=&quot;tt&quot;&gt;JUDGE&lt;/span&gt; (1033)',['../d0/d5b/protocol_game_command.html#judge-1033',1,'']]],
-  ['1034_33',['&lt;span class=&quot;tt&quot;&gt;REVERSE_TURN&lt;/span&gt; (1034)',['../d0/d5b/protocol_game_command.html#reverse_turn-1034',1,'']]]
+  ['1034_33',['&lt;span class=&quot;tt&quot;&gt;REVERSE_TURN&lt;/span&gt; (1034)',['../d0/d5b/protocol_game_command.html#reverse_turn-1034',1,'']]],
+  ['1_3a_20create_20the_20file_34',['Step 1: Create the file',['../d2/d8f/enabling_debug_logs.html#step-1-create-the-file',1,'']]]
 ];

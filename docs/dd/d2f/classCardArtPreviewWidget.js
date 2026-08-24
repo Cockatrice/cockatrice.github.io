@@ -1,11 +1,25 @@
 var classCardArtPreviewWidget =
 [
     [ "CardArtPreviewWidget", "dd/d2f/classCardArtPreviewWidget.html#af273ac631fde4f1901de6b78381c5529", null ],
+    [ "applyCropDelta", "dd/d2f/classCardArtPreviewWidget.html#a5404f3034c5a2b2c8c65e28ad391e15b", null ],
+    [ "bannerTravel", "dd/d2f/classCardArtPreviewWidget.html#aa320fe50b94a5c7d4fa31ce4a25804aa", null ],
+    [ "focusInEvent", "dd/d2f/classCardArtPreviewWidget.html#a02b0f162581510d95f44b21d56eb4c01", null ],
+    [ "keyPressEvent", "dd/d2f/classCardArtPreviewWidget.html#adefa386bb3ad6d62737e3e31a73c13c3", null ],
+    [ "mouseMoveEvent", "dd/d2f/classCardArtPreviewWidget.html#a3091230f9976cf8d15e29d4accb6c036", null ],
+    [ "mousePressEvent", "dd/d2f/classCardArtPreviewWidget.html#afd3201c7443a45c9e877327ae1452fd7", null ],
+    [ "mouseReleaseEvent", "dd/d2f/classCardArtPreviewWidget.html#ac1aa572e8fac01987dd9cdf2bb0517f0", null ],
     [ "paintEvent", "dd/d2f/classCardArtPreviewWidget.html#a233c28bb640bbf8897bda5bc1362ac84", null ],
+    [ "paramsEdited", "dd/d2f/classCardArtPreviewWidget.html#a26840595a0a0028814663d7104fb81fd", null ],
+    [ "restoreSnapshot", "dd/d2f/classCardArtPreviewWidget.html#a20ccf6f488aa560ee16e78a71a5a9e85", null ],
+    [ "sameCrop", "dd/d2f/classCardArtPreviewWidget.html#a61ddd2ed1d09366ba8b11595347b8c37", null ],
     [ "setAttribution", "dd/d2f/classCardArtPreviewWidget.html#adbf7fcba7b7c4142684576af80da9878", null ],
     [ "setParams", "dd/d2f/classCardArtPreviewWidget.html#ac9ac74de7bdbb24371d1a250e1b1d7bf", null ],
     [ "setPixmap", "dd/d2f/classCardArtPreviewWidget.html#a161b80b05fc44886e3ce0963e66fd480", null ],
+    [ "wheelEvent", "dd/d2f/classCardArtPreviewWidget.html#a8fb7164ec7c86a35c99fe4cef98a921d", null ],
     [ "attributionText", "dd/d2f/classCardArtPreviewWidget.html#acaa62ee440e50c5af6d433dd8f3ca566", null ],
+    [ "dragging", "dd/d2f/classCardArtPreviewWidget.html#a2f19e3ecdfbe0f5c4c9bd5a54c709f9a", null ],
+    [ "lastDragPos", "dd/d2f/classCardArtPreviewWidget.html#afda107a388229531ccc2bcbe99c9bb27", null ],
     [ "params", "dd/d2f/classCardArtPreviewWidget.html#ade8b1744bb1365c46ec7df6edb0213e3", null ],
+    [ "paramsAtFocusIn", "dd/d2f/classCardArtPreviewWidget.html#aaea4c62adf5f6d5bf6ce6f8c9f845433", null ],
     [ "sourcePixmap", "dd/d2f/classCardArtPreviewWidget.html#ae15b0354c8a40a6164c512ac5cb177b8", null ]
 ];
