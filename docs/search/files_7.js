@@ -14,6 +14,7 @@ var searchData=
   ['handle_5fpublic_5fservers_2eh_11',['handle_public_servers.h',['../d5/def/handle__public__servers_8h.html',1,'']]],
   ['home_5fstyled_5fbutton_2ecpp_12',['home_styled_button.cpp',['../da/d0c/home__styled__button_8cpp.html',1,'']]],
   ['home_5fstyled_5fbutton_2eh_13',['home_styled_button.h',['../d0/d26/home__styled__button_8h.html',1,'']]],
-  ['home_5fwidget_2ecpp_14',['home_widget.cpp',['../d2/ddc/home__widget_8cpp.html',1,'']]],
-  ['home_5fwidget_2eh_15',['home_widget.h',['../d9/d29/home__widget_8h.html',1,'']]]
+  ['home_5ftab_5fbutton_5fcolor_2eh_14',['home_tab_button_color.h',['../dd/d5a/home__tab__button__color_8h.html',1,'']]],
+  ['home_5fwidget_2ecpp_15',['home_widget.cpp',['../d2/ddc/home__widget_8cpp.html',1,'']]],
+  ['home_5fwidget_2eh_16',['home_widget.h',['../d9/d29/home__widget_8h.html',1,'']]]
 ];

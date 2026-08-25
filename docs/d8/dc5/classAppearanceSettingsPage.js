@@ -29,6 +29,8 @@ var classAppearanceSettingsPage =
     [ "homeTabBackgroundShuffleFrequencySpinBox", "d8/dc5/classAppearanceSettingsPage.html#ae027eeb72a57dc385a88f264a67957ef", null ],
     [ "homeTabBackgroundSourceBox", "d8/dc5/classAppearanceSettingsPage.html#a591a4143a1190dfc182e6adcbf0df954", null ],
     [ "homeTabBackgroundSourceLabel", "d8/dc5/classAppearanceSettingsPage.html#a01b8e49982e5f7ea078b49b05e25e862", null ],
+    [ "homeTabButtonColorSourceBox", "d8/dc5/classAppearanceSettingsPage.html#a8785c8c391388bd0fcf87c9f35d6165a", null ],
+    [ "homeTabButtonColorSourceLabel", "d8/dc5/classAppearanceSettingsPage.html#a02b82139f9257ce9de695532da01cd11", null ],
     [ "homeTabDisplayCardNameCheckBox", "d8/dc5/classAppearanceSettingsPage.html#ae8764613021b372b72fcb31e059555fd", null ],
     [ "homeTabGroupBox", "d8/dc5/classAppearanceSettingsPage.html#a46e1eede1990a728430988b7c1de2957", null ],
     [ "horizontalHandCheckBox", "d8/dc5/classAppearanceSettingsPage.html#a43522582d1379310737cca43da8ee748", null ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-25-Development-3.1.0-beta.9</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -114,7 +114,7 @@ Include dependency graph for visual_deck_storage_sort_filter_proxy_model.h:</div
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d09/visual__deck__storage__sort__filter__proxy__model_8h__dep__incl.svg" width="239" height="198"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d09/visual__deck__storage__sort__filter__proxy__model_8h__dep__incl.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d7/d1b/visual__deck__storage__sort__filter__proxy__model_8h_source.html">Go to the source code of this file.</a></p>
@@ -125,7 +125,8 @@ Classes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Sorting and filtering proxy on top of <a class="el" href="../../d1/d10/classVisualDeckStorageModel.html" title="The list model backing the Visual Deck Storage widget tree.">VisualDeckStorageModel</a>. </p>
-<p>Owns all search / tag / color filter state and the sort order. Filtering is evaluated against the model's data (never against widgets), so it can run before any view exists and re-evaluate whenever deck data finishes loading. </p>
+<p>Owns all search / tag / color filter state and the sort order. Filtering is evaluated against the model's data (never against widgets), so it can run before any view exists and re-evaluate whenever deck data finishes loading.</p>
+<p>Rows are never removed by filtering. Instead, every row carries the FilterMatchRole, which views read to show or hide their widgets while keeping them alive; all rows stay in the proxy so they keep their sorted position. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

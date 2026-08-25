@@ -125,7 +125,8 @@ var searchData=
   ['stackzonelogic_122',['StackZoneLogic',['../db/dfe/classStackZoneLogic.html',1,'']]],
   ['stallrecord_123',['StallRecord',['../d0/df7/structLagMonitor_1_1StallRecord.html',1,'LagMonitor']]],
   ['stats_124',['Stats',['../d7/d35/structLatencyTracker_1_1Stats.html',1,'LatencyTracker']]],
-  ['storagesettingspage_125',['StorageSettingsPage',['../dd/dc3/classStorageSettingsPage.html',1,'']]],
-  ['style_126',['Style',['../d3/d6e/structUserListPainter_1_1Style.html',1,'UserListPainter']]],
-  ['syntaxerrorexception_127',['SyntaxErrorException',['../df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html',1,'peg::ParserGenerator']]]
+  ['stepindicatorwidget_125',['StepIndicatorWidget',['../d0/d1e/classStepIndicatorWidget.html',1,'']]],
+  ['storagesettingspage_126',['StorageSettingsPage',['../dd/dc3/classStorageSettingsPage.html',1,'']]],
+  ['style_127',['Style',['../d3/d6e/structUserListPainter_1_1Style.html',1,'UserListPainter']]],
+  ['syntaxerrorexception_128',['SyntaxErrorException',['../df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html',1,'peg::ParserGenerator']]]
 ];

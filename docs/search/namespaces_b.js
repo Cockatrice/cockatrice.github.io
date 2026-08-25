@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['userlistroles_0',['UserListRoles',['../d7/dc9/namespaceUserListRoles.html',1,'']]]
+  ['tally_0',['Tally',['../dd/d5d/namespaceTally.html',1,'']]]
 ];

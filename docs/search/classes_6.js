@@ -24,7 +24,8 @@ var searchData=
   ['gameview_21',['GameView',['../dd/d97/classGameView.html',1,'']]],
   ['generalcounter_22',['GeneralCounter',['../db/d3b/classGeneralCounter.html',1,'']]],
   ['generalsettingspage_23',['GeneralSettingsPage',['../d0/d41/classGeneralSettingsPage.html',1,'']]],
-  ['grammarblob_24',['GrammarBlob',['../d5/d93/structpeg_1_1GrammarBlob.html',1,'peg']]],
-  ['graveyardmenu_25',['GraveyardMenu',['../d2/d73/classGraveyardMenu.html',1,'']]],
-  ['gridsize_26',['GridSize',['../db/dc7/structZoneViewZone_1_1GridSize.html',1,'ZoneViewZone']]]
+  ['gradientfallbackwidget_24',['GradientFallbackWidget',['../d3/d52/classGradientFallbackWidget.html',1,'']]],
+  ['grammarblob_25',['GrammarBlob',['../d5/d93/structpeg_1_1GrammarBlob.html',1,'peg']]],
+  ['graveyardmenu_26',['GraveyardMenu',['../d2/d73/classGraveyardMenu.html',1,'']]],
+  ['gridsize_27',['GridSize',['../db/dc7/structZoneViewZone_1_1GridSize.html',1,'ZoneViewZone']]]
 ];

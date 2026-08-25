@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['overrideprintingwarning_0',['OverridePrintingWarning',['../da/d73/namespaceOverridePrintingWarning.html',1,'']]]
+  ['mtg_0',['Mtg',['../db/d09/namespaceMtg.html',1,'']]]
 ];

@@ -2,6 +2,7 @@ var classHomeWidget =
 [
     [ "HomeWidget", "de/de3/classHomeWidget.html#ab3d9b41b45ce3ea2eff58af5d7f49dc3", null ],
     [ "createButtons", "de/de3/classHomeWidget.html#ae2eb511293bf8d098f7bf5c2ef83e6e8", null ],
+    [ "determineButtonColor", "de/de3/classHomeWidget.html#ac4a650f149c286256954fe5ecaa25a22", null ],
     [ "extractDominantColors", "de/de3/classHomeWidget.html#a0c0d1ea5a3f6b67673f4c3a7b275af9e", null ],
     [ "initializeBackgroundFromSource", "de/de3/classHomeWidget.html#aa0e9bb35c3b793b0a445e8be0ef9302f", null ],
     [ "loadBackgroundSourceDeck", "de/de3/classHomeWidget.html#a66d9b7e19a62b23107b7fbeb8f35dddc", null ],

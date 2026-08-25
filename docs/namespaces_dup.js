@@ -85,6 +85,7 @@ var namespaces_dup =
     ] ],
     [ "DeckRoles", "d5/d55/namespaceDeckRoles.html", null ],
     [ "google", "df/d40/namespacegoogle.html", "df/d40/namespacegoogle" ],
+    [ "HomeTabButtonColor", "d4/dc8/namespaceHomeTabButtonColor.html", "d4/dc8/namespaceHomeTabButtonColor" ],
     [ "Mtg", "db/d09/namespaceMtg.html", [
       [ "CardType", "db/d09/namespaceMtg.html#a4bc91765ba60a174b43cddf261eee6e0", null ],
       [ "ColorIdentity", "db/d09/namespaceMtg.html#aa9e7a690abc2e0dc46289745bd7bdd36", null ],

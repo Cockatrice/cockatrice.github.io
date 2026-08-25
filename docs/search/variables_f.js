@@ -7,7 +7,7 @@ var searchData=
   ['officialwarnings_4',['officialWarnings',['../d5/d0e/classServatrice.html#a8ffe531e2f04178975ecbe3940785666',1,'Servatrice']]],
   ['offset_5',['offset',['../d7/d5d/structCommand__ReportList.html#a37e7b8de5b62506140a043e6eb911a36',1,'Command_ReportList']]],
   ['ohash_6',['ohash',['../d9/dac/classQxtHmacPrivate.html#ab57ea96b732394d617e3841d3c097183',1,'QxtHmacPrivate']]],
-  ['ok_7',['ok',['../d8/d3f/classDlgUpdate.html#a3e9f089ff582e75ce05b46309ace5060',1,'DlgUpdate']]],
+  ['ok_7',['ok',['../d8/d3f/classDlgUpdate.html#a3e9f089ff582e75ce05b46309ace5060',1,'DlgUpdate::ok'],['../d8/d65/structPendingDeckLoad.html#abd842cbd6a21cf72f70a59ffad41482d',1,'PendingDeckLoad::ok']]],
   ['okbutton_8',['okButton',['../db/d5f/classDlgSettings.html#af8e0bcf9718983ffb1ee921f6f62e0ea',1,'DlgSettings::okButton'],['../de/d04/classDeckPreviewTagDialog.html#a97b9c690e4f7fefb3752bb01108d68c8',1,'DeckPreviewTagDialog::okButton']]],
   ['old_5fpassword_9',['old_password',['../d5/da2/structCommand__AccountPassword.html#ad2a050fc5264e5bd8423dc675a49cfbc',1,'Command_AccountPassword']]],
   ['oldpasswordedit_10',['oldPasswordEdit',['../d0/ddf/classDlgEditPassword.html#a85643e105d5fe8221155b06f1a84d013',1,'DlgEditPassword']]],

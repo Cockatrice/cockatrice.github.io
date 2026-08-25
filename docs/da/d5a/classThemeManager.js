@@ -10,6 +10,7 @@ var classThemeManager =
     ] ],
     [ "ThemeManager", "da/d5a/classThemeManager.html#af600542d18b306e40ce06f04c83008ed", null ],
     [ "applyStyleAndPalette", "da/d5a/classThemeManager.html#a8300518f723b48f70ebec28374f425f4", null ],
+    [ "commitPalette", "da/d5a/classThemeManager.html#aade88444d4857dd593f37f38cff6b54f", null ],
     [ "ensureThemeDirectoryExists", "da/d5a/classThemeManager.html#ae3292849edcf5eebf2e3ebeefec4c76f", null ],
     [ "getAvailableThemes", "da/d5a/classThemeManager.html#aac07619e1466066e2c5d3dd3fb7e3054", null ],
     [ "getBgBrush", "da/d5a/classThemeManager.html#a10579cf3a92c7d200bb1907128224b31", null ],

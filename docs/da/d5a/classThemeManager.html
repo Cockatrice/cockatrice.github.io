@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-25-Development-3.1.0-beta.9</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -151,6 +151,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab230f2c1f0e3406f2f76f64bc57f83b7" id="r_ab230f2c1f0e3406f2f76f64bc57f83b7"><td class="memItemLeft">static <a class="el" href="../../d4/dd8/structPaletteConfig.html">PaletteConfig</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab230f2c1f0e3406f2f76f64bc57f83b7">loadPaletteConfig</a> (const QString &amp;themeDirPath, const QString &amp;colorScheme)</td></tr>
 <tr class="memitem:ac67997fbceb570405dc1f9825071b8c9" id="r_ac67997fbceb570405dc1f9825071b8c9"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ac67997fbceb570405dc1f9825071b8c9">savePaletteConfig</a> (const QString &amp;themeDirPath, const QString &amp;colorScheme, const <a class="el" href="../../d4/dd8/structPaletteConfig.html">PaletteConfig</a> &amp;cfg)</td></tr>
 <tr class="memitem:a60787db344e5586109329b0122579501" id="r_a60787db344e5586109329b0122579501"><td class="memItemLeft">static <a class="el" href="../../d4/dd8/structPaletteConfig.html">PaletteConfig</a>&#160;</td><td class="memItemRight"><a class="el" href="#a60787db344e5586109329b0122579501">loadDefaultPaletteConfig</a> (const QString &amp;themeDirPath, const QString &amp;themeName, const QString &amp;colorScheme)</td></tr>
+<tr class="memitem:aade88444d4857dd593f37f38cff6b54f" id="r_aade88444d4857dd593f37f38cff6b54f"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#aade88444d4857dd593f37f38cff6b54f">commitPalette</a> (const QString &amp;themeDirPath, const QString &amp;colorScheme, const <a class="el" href="../../d4/dd8/structPaletteConfig.html">PaletteConfig</a> &amp;cfg)</td></tr>
+<tr class="memdesc:aade88444d4857dd593f37f38cff6b54f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes cfg to disk as the theme's palette-&lt;scheme&gt;.toml and updates the theme's stored colour scheme to match. Shared by <a class="el" href="../../d0/dc0/classPaletteEditorDialog.html#a8dfad39a87c456a6048f3d7c283f4f62">PaletteEditorDialog::onSave</a> and <a class="el" href="../../d2/dc2/classFirstRunWizard.html" title="Polished first-run onboarding flow: card database setup, theme selection, server account setup,...">FirstRunWizard</a>'s theme step so the two "generate + keep" paths can't drift.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-slots" class="groupheader"><a id="pro-slots" name="pro-slots"></a>
 Protected Slots</h2></td></tr>
@@ -264,6 +266,52 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a8300518f723b48f70ebec28374f425f4_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aade88444d4857dd593f37f38cff6b54f" name="aade88444d4857dd593f37f38cff6b54f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aade88444d4857dd593f37f38cff6b54f">&#9670;&#160;</a></span>commitPalette()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ThemeManager::commitPalette </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>themeDirPath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>colorScheme</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d4/dd8/structPaletteConfig.html">PaletteConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cfg</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Writes cfg to disk as the theme's palette-&lt;scheme&gt;.toml and updates the theme's stored colour scheme to match. Shared by <a class="el" href="../../d0/dc0/classPaletteEditorDialog.html#a8dfad39a87c456a6048f3d7c283f4f62">PaletteEditorDialog::onSave</a> and <a class="el" href="../../d2/dc2/classFirstRunWizard.html" title="Polished first-run onboarding flow: card database setup, theme selection, server account setup,...">FirstRunWizard</a>'s theme step so the two "generate + keep" paths can't drift. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_aade88444d4857dd593f37f38cff6b54f_cgraph.svg" width="100%" height="441"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_aade88444d4857dd593f37f38cff6b54f_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -784,7 +832,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_ac67997fbceb570405dc1f9825071b8c9_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_ac67997fbceb570405dc1f9825071b8c9_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -858,7 +906,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a6e64af50ca5000e922470470d0ca419e_icgraph.svg" width="100%" height="561"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a6e64af50ca5000e922470470d0ca419e_icgraph.svg" width="100%" height="598"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

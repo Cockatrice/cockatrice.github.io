@@ -28,7 +28,7 @@ var searchData=
   ['edhrectoptagsapiresponsedisplaywidget_25',['EdhrecTopTagsApiResponseDisplayWidget',['../d5/d61/classEdhrecTopTagsApiResponseDisplayWidget.html',1,'']]],
   ['emailparser_26',['EmailParser',['../dd/d83/classEmailParser.html',1,'']]],
   ['emptytype_27',['EmptyType',['../d2/d75/structpeg_1_1EmptyType.html',1,'peg']]],
-  ['entry_28',['Entry',['../d3/d4a/structBackgroundSources_1_1Entry.html',1,'BackgroundSources::Entry'],['../d9/dd6/structCardArtRulesModel_1_1Entry.html',1,'CardArtRulesModel::Entry']]],
+  ['entry_28',['Entry',['../d3/d4a/structBackgroundSources_1_1Entry.html',1,'BackgroundSources::Entry'],['../d9/dd6/structCardArtRulesModel_1_1Entry.html',1,'CardArtRulesModel::Entry'],['../db/d3b/structHomeTabButtonColor_1_1Entry.html',1,'HomeTabButtonColor::Entry']]],
   ['errorinfo_29',['ErrorInfo',['../db/da9/structpeg_1_1ErrorInfo.html',1,'peg']]],
   ['errorreport_30',['ErrorReport',['../db/d9c/structpeg_1_1ErrorReport.html',1,'peg']]],
   ['estimatebracketresult_31',['EstimateBracketResult',['../d8/dd8/structEstimateBracketResult.html',1,'']]],

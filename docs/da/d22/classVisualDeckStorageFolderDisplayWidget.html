@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-25-Development-3.1.0-beta.9</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -114,34 +114,76 @@ Collaboration diagram for VisualDeckStorageFolderDisplayWidget:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
-<tr class="memitem:a4403ddcd58198b4471f1d0381a57143a" id="r_a4403ddcd58198b4471f1d0381a57143a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4403ddcd58198b4471f1d0381a57143a">updateVisibility</a> (bool recursive=true)</td></tr>
-<tr class="memitem:ac9413d1f188484345cd709f2d39016cb" id="r_ac9413d1f188484345cd709f2d39016cb"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac9413d1f188484345cd709f2d39016cb">checkVisibility</a> ()</td></tr>
+<tr class="memitem:ab9cc6ab82975ba1eb871246491660aec" id="r_ab9cc6ab82975ba1eb871246491660aec"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab9cc6ab82975ba1eb871246491660aec">reconcile</a> ()</td></tr>
+<tr class="memdesc:ab9cc6ab82975ba1eb871246491660aec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts a new chunked reconcile pass that re-reads the proxy and rebuilds the deck previews and subfolder widgets to match.  <br /></td></tr>
+<tr class="memitem:aedcc1df3a74edf7070173f8dfabd262e" id="r_aedcc1df3a74edf7070173f8dfabd262e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aedcc1df3a74edf7070173f8dfabd262e">scheduleReconcile</a> ()</td></tr>
+<tr class="memdesc:aedcc1df3a74edf7070173f8dfabd262e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coalesces proxy change signals (a burst of deck loads or filter invalidations) into a single reconcile on the next event loop turn.  <br /></td></tr>
 <tr class="memitem:ab557f19828493bf2e073ef1852776c5b" id="r_ab557f19828493bf2e073ef1852776c5b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab557f19828493bf2e073ef1852776c5b">updateShowFolders</a> (bool enabled)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:ac1f382a47ba83ec057f8c6fc9bd9e661" id="r_ac1f382a47ba83ec057f8c6fc9bd9e661"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac1f382a47ba83ec057f8c6fc9bd9e661">contentVisibilityChanged</a> ()</td></tr>
+<tr class="memdesc:ac1f382a47ba83ec057f8c6fc9bd9e661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever this folder's visible content changes, so parent folders can re-evaluate their own visibility.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aac8a16c40a5df15c103e104a81ebba1a" id="r_aac8a16c40a5df15c103e104a81ebba1a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aac8a16c40a5df15c103e104a81ebba1a">VisualDeckStorageFolderDisplayWidget</a> (QWidget *parent, <a class="el" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *_visualDeckStorageWidget, QString _filePath, bool canBeHidden, bool _showFolders)</td></tr>
-<tr class="memitem:a43dbb454ae30b02f0c96c1325179afc8" id="r_a43dbb454ae30b02f0c96c1325179afc8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a43dbb454ae30b02f0c96c1325179afc8">refreshUi</a> ()</td></tr>
-<tr class="memitem:a914e34b3d915495c7843081e2057f55b" id="r_a914e34b3d915495c7843081e2057f55b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a914e34b3d915495c7843081e2057f55b">createWidgetsForFiles</a> ()</td></tr>
-<tr class="memitem:ae1a5a9fcfdcbda42307405274992a394" id="r_ae1a5a9fcfdcbda42307405274992a394"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae1a5a9fcfdcbda42307405274992a394">createWidgetsForFolders</a> ()</td></tr>
-<tr class="memitem:a25115e9313f86f19bd21882872a7e76d" id="r_a25115e9313f86f19bd21882872a7e76d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a25115e9313f86f19bd21882872a7e76d">flattenFolderStructure</a> ()</td></tr>
-<tr class="memitem:a20030c5bf18f2b652eff0bb727745635" id="r_a20030c5bf18f2b652eff0bb727745635"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#a20030c5bf18f2b652eff0bb727745635">gatherAllTagsFromFlowWidget</a> () const</td></tr>
-<tr class="memitem:a71e16e8afc4e3a6bc8bc73ba6ffeb3d2" id="r_a71e16e8afc4e3a6bc8bc73ba6ffeb3d2"><td class="memItemLeft"><a class="el" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a71e16e8afc4e3a6bc8bc73ba6ffeb3d2">getFlowWidget</a> () const</td></tr>
+<tr class="memitem:a11f32502b6ae472fdfedccaeaeb8f9c7" id="r_a11f32502b6ae472fdfedccaeaeb8f9c7"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a11f32502b6ae472fdfedccaeaeb8f9c7">VisualDeckStorageFolderDisplayWidget</a> (QWidget *parent, <a class="el" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *<a class="el" href="#ad52915450f9a735a2d7579d93006ad4f">visualDeckStorageWidget</a>, const QString &amp;<a class="el" href="#afa636117a85d88f136bb805edd84fa5a">folderPath</a>, bool canBeHidden, bool <a class="el" href="#ad63e8c9fe2693f5f993e92fefdd45ea6">showFolders</a>)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:af66df9a7e28a0153ef67288b14ee4ded" id="r_af66df9a7e28a0153ef67288b14ee4ded"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af66df9a7e28a0153ef67288b14ee4ded">beginDeckPass</a> ()</td></tr>
+<tr class="memitem:a0fad3784fe53552cc6c009413e4026c3" id="r_a0fad3784fe53552cc6c009413e4026c3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0fad3784fe53552cc6c009413e4026c3">continueDeckPass</a> ()</td></tr>
+<tr class="memitem:a35f1c8db1cb6d5e83e25d38fb068cdef" id="r_a35f1c8db1cb6d5e83e25d38fb068cdef"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a35f1c8db1cb6d5e83e25d38fb068cdef">finishDeckPass</a> ()</td></tr>
+<tr class="memitem:ac331c9d1e20839aec72dda46e004826d" id="r_ac331c9d1e20839aec72dda46e004826d"><td class="memItemLeft"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ac331c9d1e20839aec72dda46e004826d">createDeckPreviewWidget</a> (const QString &amp;filePath)</td></tr>
+<tr class="memdesc:ac331c9d1e20839aec72dda46e004826d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a deck preview widget and wires it up to the storage widget.  <br /></td></tr>
+<tr class="memitem:a3fa957f30f32027cd8630de514479f26" id="r_a3fa957f30f32027cd8630de514479f26"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3fa957f30f32027cd8630de514479f26">createSubFolderWidgets</a> ()</td></tr>
+<tr class="memdesc:a3fa957f30f32027cd8630de514479f26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates, removes and keeps in sync the subfolder widgets of this folder.  <br /></td></tr>
+<tr class="memitem:a2d7fd66eabb9770fc2f8c11050b19ddb" id="r_a2d7fd66eabb9770fc2f8c11050b19ddb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2d7fd66eabb9770fc2f8c11050b19ddb">refreshVisibility</a> ()</td></tr>
+<tr class="memdesc:a2d7fd66eabb9770fc2f8c11050b19ddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hides the folder when it contains nothing visible, and reports the change upward.  <br /></td></tr>
+<tr class="memitem:a39e86507ca57b73a02f31f69ae734c97" id="r_a39e86507ca57b73a02f31f69ae734c97"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a39e86507ca57b73a02f31f69ae734c97">hasContent</a> () const</td></tr>
+<tr class="memdesc:a39e86507ca57b73a02f31f69ae734c97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this folder shows any deck previews or has any visible subfolder.  <br /></td></tr>
+<tr class="memitem:ad8c71bef3706a1b29da52c2d522d579e" id="r_ad8c71bef3706a1b29da52c2d522d579e"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#ad8c71bef3706a1b29da52c2d522d579e">childFolderPaths</a> () const</td></tr>
+<tr class="memdesc:ad8c71bef3706a1b29da52c2d522d579e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The direct child folder paths of this folder, sorted by name.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ad63e8c9fe2693f5f993e92fefdd45ea6" id="r_ad63e8c9fe2693f5f993e92fefdd45ea6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ad63e8c9fe2693f5f993e92fefdd45ea6">showFolders</a></td></tr>
+<tr class="memitem:afa636117a85d88f136bb805edd84fa5a" id="r_afa636117a85d88f136bb805edd84fa5a"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#afa636117a85d88f136bb805edd84fa5a">folderPath</a></td></tr>
+<tr class="memdesc:afa636117a85d88f136bb805edd84fa5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path relative to the deck folder, empty for the root folder.  <br /></td></tr>
+<tr class="memitem:a5cf5a0e27adb44b0e52d3d48851a1289" id="r_a5cf5a0e27adb44b0e52d3d48851a1289"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a5cf5a0e27adb44b0e52d3d48851a1289">visibleDeckCount</a> = 0</td></tr>
+<tr class="memdesc:a5cf5a0e27adb44b0e52d3d48851a1289"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of this folder's deck previews not filtered out.  <br /></td></tr>
 <tr class="memitem:a306945b789beb1bf4c949f476158e2d1" id="r_a306945b789beb1bf4c949f476158e2d1"><td class="memItemLeft">QVBoxLayout *&#160;</td><td class="memItemRight"><a class="el" href="#a306945b789beb1bf4c949f476158e2d1">layout</a></td></tr>
-<tr class="memitem:ad52915450f9a735a2d7579d93006ad4f" id="r_ad52915450f9a735a2d7579d93006ad4f"><td class="memItemLeft"><a class="el" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ad52915450f9a735a2d7579d93006ad4f">visualDeckStorageWidget</a></td></tr>
-<tr class="memitem:a880f186e3d7306716bcfe77dec9b4015" id="r_a880f186e3d7306716bcfe77dec9b4015"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a880f186e3d7306716bcfe77dec9b4015">filePath</a></td></tr>
-<tr class="memitem:a7f6472ee18e10a640e19cc2c3222e678" id="r_a7f6472ee18e10a640e19cc2c3222e678"><td class="memItemLeft"><a class="el" href="../../d2/d73/classBannerWidget.html">BannerWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a7f6472ee18e10a640e19cc2c3222e678">header</a></td></tr>
 <tr class="memitem:a1661e3a1c30a10e015c420947c256260" id="r_a1661e3a1c30a10e015c420947c256260"><td class="memItemLeft">QWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a1661e3a1c30a10e015c420947c256260">container</a></td></tr>
 <tr class="memitem:a69a41841db7719c50d5fed4fc93d3fcd" id="r_a69a41841db7719c50d5fed4fc93d3fcd"><td class="memItemLeft">QVBoxLayout *&#160;</td><td class="memItemRight"><a class="el" href="#a69a41841db7719c50d5fed4fc93d3fcd">containerLayout</a></td></tr>
 <tr class="memitem:aece2f6c369daa2e7d60cfddb6d5b6224" id="r_aece2f6c369daa2e7d60cfddb6d5b6224"><td class="memItemLeft"><a class="el" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aece2f6c369daa2e7d60cfddb6d5b6224">flowWidget</a></td></tr>
+<tr class="memitem:a7f6472ee18e10a640e19cc2c3222e678" id="r_a7f6472ee18e10a640e19cc2c3222e678"><td class="memItemLeft"><a class="el" href="../../d2/d73/classBannerWidget.html">BannerWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a7f6472ee18e10a640e19cc2c3222e678">header</a></td></tr>
+<tr class="memitem:ad52915450f9a735a2d7579d93006ad4f" id="r_ad52915450f9a735a2d7579d93006ad4f"><td class="memItemLeft"><a class="el" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ad52915450f9a735a2d7579d93006ad4f">visualDeckStorageWidget</a></td></tr>
+<tr class="memitem:a19fd5e2fbba180e6a5a9431a7e758141" id="r_a19fd5e2fbba180e6a5a9431a7e758141"><td class="memItemLeft">QHash&lt; QString, <a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a19fd5e2fbba180e6a5a9431a7e758141">deckWidgets</a></td></tr>
+<tr class="memdesc:a19fd5e2fbba180e6a5a9431a7e758141"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deck file path -&gt; preview widget.  <br /></td></tr>
+<tr class="memitem:a194839b93d8ec3df408385f2bd60fa79" id="r_a194839b93d8ec3df408385f2bd60fa79"><td class="memItemLeft">QHash&lt; QString, <a class="el" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html">VisualDeckStorageFolderDisplayWidget</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a194839b93d8ec3df408385f2bd60fa79">subFolderWidgets</a></td></tr>
+<tr class="memdesc:a194839b93d8ec3df408385f2bd60fa79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Folder path -&gt; subfolder widget.  <br /></td></tr>
+<tr class="memitem:a8451963c9a825a1b3efc3f9477b10980" id="r_a8451963c9a825a1b3efc3f9477b10980"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#a8451963c9a825a1b3efc3f9477b10980">reconcileTimer</a> = nullptr</td></tr>
+<tr class="memdesc:a8451963c9a825a1b3efc3f9477b10980"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coalesces proxy change bursts.  <br /></td></tr>
+<tr class="memitem:a41cb4f0e144ed81a95cfb7a33a1cce01" id="r_a41cb4f0e144ed81a95cfb7a33a1cce01"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#a41cb4f0e144ed81a95cfb7a33a1cce01">lastOrderedFilePaths</a></td></tr>
+<tr class="memdesc:a41cb4f0e144ed81a95cfb7a33a1cce01"><td class="mdescLeft">&#160;</td><td class="mdescRight">The deck order last applied to the flow layout.  <br /></td></tr>
+<tr class="memitem:a1150845280d251a5c022f6b0587ffeed" id="r_a1150845280d251a5c022f6b0587ffeed"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a1150845280d251a5c022f6b0587ffeed">deckPassActive</a> = false</td></tr>
+<tr class="memdesc:a1150845280d251a5c022f6b0587ffeed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether a chunked reconcile pass is currently running.  <br /></td></tr>
+<tr class="memitem:a165aaffb199dcf8a97dd9661ce236acb" id="r_a165aaffb199dcf8a97dd9661ce236acb"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a165aaffb199dcf8a97dd9661ce236acb">deckPassRestartRequested</a> = false</td></tr>
+<tr class="memitem:aaedfe775486249d75b375910fb54a923" id="r_aaedfe775486249d75b375910fb54a923"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aaedfe775486249d75b375910fb54a923">initialPassCompleted</a> = false</td></tr>
+<tr class="memdesc:aaedfe775486249d75b375910fb54a923"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the first reconcile pass has run to completion at least once.  <br /></td></tr>
+<tr class="memitem:a2d36b211aae6276895f842f8bf665f2c" id="r_a2d36b211aae6276895f842f8bf665f2c"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a2d36b211aae6276895f842f8bf665f2c">deckPassRow</a> = 0</td></tr>
+<tr class="memdesc:a2d36b211aae6276895f842f8bf665f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Next proxy row to scan in the active pass.  <br /></td></tr>
+<tr class="memitem:aabe5bb2074ce2a6c6f99194e12bc9923" id="r_aabe5bb2074ce2a6c6f99194e12bc9923"><td class="memItemLeft">QSet&lt; QString &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aabe5bb2074ce2a6c6f99194e12bc9923">deckPassPresentPaths</a></td></tr>
+<tr class="memdesc:aabe5bb2074ce2a6c6f99194e12bc9923"><td class="mdescLeft">&#160;</td><td class="mdescRight">File paths seen so far in the active pass.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a23c23cb240b88d775fee8d66b01b23e7" id="r_a23c23cb240b88d775fee8d66b01b23e7"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a23c23cb240b88d775fee8d66b01b23e7">DECK_PASS_TIME_BUDGET_MS</a> = 20</td></tr>
+<tr class="memdesc:a23c23cb240b88d775fee8d66b01b23e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum time in milliseconds spent creating deck previews per event loop turn.  <br /></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aac8a16c40a5df15c103e104a81ebba1a" name="aac8a16c40a5df15c103e104a81ebba1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac8a16c40a5df15c103e104a81ebba1a">&#9670;&#160;</a></span>VisualDeckStorageFolderDisplayWidget()</h2>
+<a id="a11f32502b6ae472fdfedccaeaeb8f9c7" name="a11f32502b6ae472fdfedccaeaeb8f9c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11f32502b6ae472fdfedccaeaeb8f9c7">&#9670;&#160;</a></span>VisualDeckStorageFolderDisplayWidget()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154,12 +196,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *</td>          <td class="paramname"><span class="paramname"><em>_visualDeckStorageWidget</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d0/dfe/classVisualDeckStorageWidget.html">VisualDeckStorageWidget</a> *</td>          <td class="paramname"><span class="paramname"><em>visualDeckStorageWidget</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>_filePath</em></span>, </td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>folderPath</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -169,26 +211,26 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>_showFolders</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>showFolders</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_aac8a16c40a5df15c103e104a81ebba1a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a11f32502b6ae472fdfedccaeaeb8f9c7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_aac8a16c40a5df15c103e104a81ebba1a_icgraph.svg" width="100%" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a11f32502b6ae472fdfedccaeaeb8f9c7_icgraph.svg" width="100%" height="409"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="ac9413d1f188484345cd709f2d39016cb" name="ac9413d1f188484345cd709f2d39016cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9413d1f188484345cd709f2d39016cb">&#9670;&#160;</a></span>checkVisibility</h2>
+<a id="af66df9a7e28a0153ef67288b14ee4ded" name="af66df9a7e28a0153ef67288b14ee4ded"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af66df9a7e28a0153ef67288b14ee4ded">&#9670;&#160;</a></span>beginDeckPass()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -197,7 +239,295 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool VisualDeckStorageFolderDisplayWidget::checkVisibility </td>
+          <td class="memname">void VisualDeckStorageFolderDisplayWidget::beginDeckPass </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_af66df9a7e28a0153ef67288b14ee4ded_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_af66df9a7e28a0153ef67288b14ee4ded_icgraph.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad8c71bef3706a1b29da52c2d522d579e" name="ad8c71bef3706a1b29da52c2d522d579e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8c71bef3706a1b29da52c2d522d579e">&#9670;&#160;</a></span>childFolderPaths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList VisualDeckStorageFolderDisplayWidget::childFolderPaths </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The direct child folder paths of this folder, sorted by name. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_ad8c71bef3706a1b29da52c2d522d579e_icgraph.svg" width="100%" height="452"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac1f382a47ba83ec057f8c6fc9bd9e661" name="ac1f382a47ba83ec057f8c6fc9bd9e661"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1f382a47ba83ec057f8c6fc9bd9e661">&#9670;&#160;</a></span>contentVisibilityChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDeckStorageFolderDisplayWidget::contentVisibilityChanged </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted whenever this folder's visible content changes, so parent folders can re-evaluate their own visibility. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_ac1f382a47ba83ec057f8c6fc9bd9e661_icgraph.svg" width="100%" height="488"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a0fad3784fe53552cc6c009413e4026c3" name="a0fad3784fe53552cc6c009413e4026c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fad3784fe53552cc6c009413e4026c3">&#9670;&#160;</a></span>continueDeckPass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDeckStorageFolderDisplayWidget::continueDeckPass </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a0fad3784fe53552cc6c009413e4026c3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a0fad3784fe53552cc6c009413e4026c3_icgraph.svg" width="100%" height="406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac331c9d1e20839aec72dda46e004826d" name="ac331c9d1e20839aec72dda46e004826d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac331c9d1e20839aec72dda46e004826d">&#9670;&#160;</a></span>createDeckPreviewWidget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a> * VisualDeckStorageFolderDisplayWidget::createDeckPreviewWidget </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a deck preview widget and wires it up to the storage widget. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>The absolute path of the deck file to preview. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_ac331c9d1e20839aec72dda46e004826d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_ac331c9d1e20839aec72dda46e004826d_icgraph.svg" width="100%" height="406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a3fa957f30f32027cd8630de514479f26" name="a3fa957f30f32027cd8630de514479f26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fa957f30f32027cd8630de514479f26">&#9670;&#160;</a></span>createSubFolderWidgets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDeckStorageFolderDisplayWidget::createSubFolderWidgets </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates, removes and keeps in sync the subfolder widgets of this folder. </p>
+<p>Only direct child folders are created here; each child manages its own children, mirroring the folder tree on disk. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a3fa957f30f32027cd8630de514479f26_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a3fa957f30f32027cd8630de514479f26_icgraph.svg" width="100%" height="452"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a35f1c8db1cb6d5e83e25d38fb068cdef" name="a35f1c8db1cb6d5e83e25d38fb068cdef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35f1c8db1cb6d5e83e25d38fb068cdef">&#9670;&#160;</a></span>finishDeckPass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDeckStorageFolderDisplayWidget::finishDeckPass </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a35f1c8db1cb6d5e83e25d38fb068cdef_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a35f1c8db1cb6d5e83e25d38fb068cdef_icgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a39e86507ca57b73a02f31f69ae734c97" name="a39e86507ca57b73a02f31f69ae734c97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39e86507ca57b73a02f31f69ae734c97">&#9670;&#160;</a></span>hasContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool VisualDeckStorageFolderDisplayWidget::hasContent </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether this folder shows any deck previews or has any visible subfolder. </p>
+<p>While the first pass is still building, the folder counts as having content so it doesn't flicker or hide prematurely before its previews have been created. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a39e86507ca57b73a02f31f69ae734c97_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a39e86507ca57b73a02f31f69ae734c97_icgraph.svg" width="100%" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab9cc6ab82975ba1eb871246491660aec" name="ab9cc6ab82975ba1eb871246491660aec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9cc6ab82975ba1eb871246491660aec">&#9670;&#160;</a></span>reconcile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDeckStorageFolderDisplayWidget::reconcile </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -209,98 +539,24 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Starts a new chunked reconcile pass that re-reads the proxy and rebuilds the deck previews and subfolder widgets to match. </p>
+<p>Starts a new chunked scan of the source model, yielding to the event loop between chunks. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_ac9413d1f188484345cd709f2d39016cb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_ab9cc6ab82975ba1eb871246491660aec_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_ac9413d1f188484345cd709f2d39016cb_icgraph.svg" width="528" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_ab9cc6ab82975ba1eb871246491660aec_icgraph.svg" width="100%" height="409"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a914e34b3d915495c7843081e2057f55b" name="a914e34b3d915495c7843081e2057f55b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a914e34b3d915495c7843081e2057f55b">&#9670;&#160;</a></span>createWidgetsForFiles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisualDeckStorageFolderDisplayWidget::createWidgetsForFiles </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a914e34b3d915495c7843081e2057f55b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a914e34b3d915495c7843081e2057f55b_icgraph.svg" width="100%" height="409"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="ae1a5a9fcfdcbda42307405274992a394" name="ae1a5a9fcfdcbda42307405274992a394"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1a5a9fcfdcbda42307405274992a394">&#9670;&#160;</a></span>createWidgetsForFolders()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisualDeckStorageFolderDisplayWidget::createWidgetsForFolders </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_ae1a5a9fcfdcbda42307405274992a394_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_ae1a5a9fcfdcbda42307405274992a394_icgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a25115e9313f86f19bd21882872a7e76d" name="a25115e9313f86f19bd21882872a7e76d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25115e9313f86f19bd21882872a7e76d">&#9670;&#160;</a></span>flattenFolderStructure()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisualDeckStorageFolderDisplayWidget::flattenFolderStructure </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Steals all DeckPreviewWidgets from this widget's nested subfolders, and deletes those subfolders </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a25115e9313f86f19bd21882872a7e76d_icgraph.svg" width="528" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a20030c5bf18f2b652eff0bb727745635" name="a20030c5bf18f2b652eff0bb727745635"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20030c5bf18f2b652eff0bb727745635">&#9670;&#160;</a></span>gatherAllTagsFromFlowWidget()</h2>
+<a id="a2d7fd66eabb9770fc2f8c11050b19ddb" name="a2d7fd66eabb9770fc2f8c11050b19ddb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d7fd66eabb9770fc2f8c11050b19ddb">&#9670;&#160;</a></span>refreshVisibility()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -309,23 +565,35 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QStringList VisualDeckStorageFolderDisplayWidget::gatherAllTagsFromFlowWidget </td>
+          <td class="memname">void VisualDeckStorageFolderDisplayWidget::refreshVisibility </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Hides the folder when it contains nothing visible, and reports the change upward. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a2d7fd66eabb9770fc2f8c11050b19ddb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a2d7fd66eabb9770fc2f8c11050b19ddb_icgraph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
 </div>
 </div>
-<a id="a71e16e8afc4e3a6bc8bc73ba6ffeb3d2" name="a71e16e8afc4e3a6bc8bc73ba6ffeb3d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71e16e8afc4e3a6bc8bc73ba6ffeb3d2">&#9670;&#160;</a></span>getFlowWidget()</h2>
+<a id="aedcc1df3a74edf7070173f8dfabd262e" name="aedcc1df3a74edf7070173f8dfabd262e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedcc1df3a74edf7070173f8dfabd262e">&#9670;&#160;</a></span>scheduleReconcile</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,49 +602,24 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> * VisualDeckStorageFolderDisplayWidget::getFlowWidget </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a71e16e8afc4e3a6bc8bc73ba6ffeb3d2_icgraph.svg" width="511" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a43dbb454ae30b02f0c96c1325179afc8" name="a43dbb454ae30b02f0c96c1325179afc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43dbb454ae30b02f0c96c1325179afc8">&#9670;&#160;</a></span>refreshUi()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisualDeckStorageFolderDisplayWidget::refreshUi </td>
+          <td class="memname">void VisualDeckStorageFolderDisplayWidget::scheduleReconcile </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a43dbb454ae30b02f0c96c1325179afc8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
+
+<p>Coalesces proxy change signals (a burst of deck loads or filter invalidations) into a single reconcile on the next event loop turn. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a43dbb454ae30b02f0c96c1325179afc8_icgraph.svg" width="100%" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_aedcc1df3a74edf7070173f8dfabd262e_icgraph.svg" width="100%" height="420"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -406,44 +649,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_ab557f19828493bf2e073ef1852776c5b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a4403ddcd58198b4471f1d0381a57143a" name="a4403ddcd58198b4471f1d0381a57143a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4403ddcd58198b4471f1d0381a57143a">&#9670;&#160;</a></span>updateVisibility</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void VisualDeckStorageFolderDisplayWidget::updateVisibility </td>
-          <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>recursive</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Updates the visibility of this folder and all its DeckPreviewWidgets</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">recursive</td><td>Also update the visibility of all subfolders and their DeckPreviewWidgets. </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_a4403ddcd58198b4471f1d0381a57143a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d22/classVisualDeckStorageFolderDisplayWidget_ab557f19828493bf2e073ef1852776c5b_cgraph.svg" width="528" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -493,8 +699,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a880f186e3d7306716bcfe77dec9b4015" name="a880f186e3d7306716bcfe77dec9b4015"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a880f186e3d7306716bcfe77dec9b4015">&#9670;&#160;</a></span>filePath</h2>
+<a id="a23c23cb240b88d775fee8d66b01b23e7" name="a23c23cb240b88d775fee8d66b01b23e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23c23cb240b88d775fee8d66b01b23e7">&#9670;&#160;</a></span>DECK_PASS_TIME_BUDGET_MS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -503,7 +709,32 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QString VisualDeckStorageFolderDisplayWidget::filePath</td>
+          <td class="memname">int VisualDeckStorageFolderDisplayWidget::DECK_PASS_TIME_BUDGET_MS = 20</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The maximum time in milliseconds spent creating deck previews per event loop turn. </p>
+<p>Creating all previews of a large folder at once blocks the ui thread for hundreds of milliseconds, so the pass is split into chunks that yield to the event loop instead. </p>
+
+</div>
+</div>
+<a id="a1150845280d251a5c022f6b0587ffeed" name="a1150845280d251a5c022f6b0587ffeed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1150845280d251a5c022f6b0587ffeed">&#9670;&#160;</a></span>deckPassActive</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool VisualDeckStorageFolderDisplayWidget::deckPassActive = false</td>
         </tr>
       </table>
   </td>
@@ -512,6 +743,103 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Whether a chunked reconcile pass is currently running. </p>
+
+</div>
+</div>
+<a id="aabe5bb2074ce2a6c6f99194e12bc9923" name="aabe5bb2074ce2a6c6f99194e12bc9923"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabe5bb2074ce2a6c6f99194e12bc9923">&#9670;&#160;</a></span>deckPassPresentPaths</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSet&lt;QString&gt; VisualDeckStorageFolderDisplayWidget::deckPassPresentPaths</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>File paths seen so far in the active pass. </p>
+
+</div>
+</div>
+<a id="a165aaffb199dcf8a97dd9661ce236acb" name="a165aaffb199dcf8a97dd9661ce236acb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a165aaffb199dcf8a97dd9661ce236acb">&#9670;&#160;</a></span>deckPassRestartRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool VisualDeckStorageFolderDisplayWidget::deckPassRestartRequested = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set when the model changes mid-pass. Discards progress and restarts the scan once the current chunk finishes so the pass always converges on the latest model state. </p>
+
+</div>
+</div>
+<a id="a2d36b211aae6276895f842f8bf665f2c" name="a2d36b211aae6276895f842f8bf665f2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d36b211aae6276895f842f8bf665f2c">&#9670;&#160;</a></span>deckPassRow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int VisualDeckStorageFolderDisplayWidget::deckPassRow = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Next proxy row to scan in the active pass. </p>
+
+</div>
+</div>
+<a id="a19fd5e2fbba180e6a5a9431a7e758141" name="a19fd5e2fbba180e6a5a9431a7e758141"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19fd5e2fbba180e6a5a9431a7e758141">&#9670;&#160;</a></span>deckWidgets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, <a class="el" href="../../d5/d79/classDeckPreviewWidget.html">DeckPreviewWidget</a> *&gt; VisualDeckStorageFolderDisplayWidget::deckWidgets</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deck file path -&gt; preview widget. </p>
 
 </div>
 </div>
@@ -537,6 +865,30 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="afa636117a85d88f136bb805edd84fa5a" name="afa636117a85d88f136bb805edd84fa5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa636117a85d88f136bb805edd84fa5a">&#9670;&#160;</a></span>folderPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString VisualDeckStorageFolderDisplayWidget::folderPath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Path relative to the deck folder, empty for the root folder. </p>
+
+</div>
+</div>
 <a id="a7f6472ee18e10a640e19cc2c3222e678" name="a7f6472ee18e10a640e19cc2c3222e678"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f6472ee18e10a640e19cc2c3222e678">&#9670;&#160;</a></span>header</h2>
 
@@ -556,6 +908,54 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaedfe775486249d75b375910fb54a923" name="aaedfe775486249d75b375910fb54a923"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaedfe775486249d75b375910fb54a923">&#9670;&#160;</a></span>initialPassCompleted</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool VisualDeckStorageFolderDisplayWidget::initialPassCompleted = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the first reconcile pass has run to completion at least once. </p>
+
+</div>
+</div>
+<a id="a41cb4f0e144ed81a95cfb7a33a1cce01" name="a41cb4f0e144ed81a95cfb7a33a1cce01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41cb4f0e144ed81a95cfb7a33a1cce01">&#9670;&#160;</a></span>lastOrderedFilePaths</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList VisualDeckStorageFolderDisplayWidget::lastOrderedFilePaths</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The deck order last applied to the flow layout. </p>
 
 </div>
 </div>
@@ -581,6 +981,30 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a8451963c9a825a1b3efc3f9477b10980" name="a8451963c9a825a1b3efc3f9477b10980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8451963c9a825a1b3efc3f9477b10980">&#9670;&#160;</a></span>reconcileTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTimer* VisualDeckStorageFolderDisplayWidget::reconcileTimer = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Coalesces proxy change bursts. </p>
+
+</div>
+</div>
 <a id="ad63e8c9fe2693f5f993e92fefdd45ea6" name="ad63e8c9fe2693f5f993e92fefdd45ea6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad63e8c9fe2693f5f993e92fefdd45ea6">&#9670;&#160;</a></span>showFolders</h2>
 
@@ -600,6 +1024,54 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a194839b93d8ec3df408385f2bd60fa79" name="a194839b93d8ec3df408385f2bd60fa79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a194839b93d8ec3df408385f2bd60fa79">&#9670;&#160;</a></span>subFolderWidgets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, <a class="el" href="../../da/d22/classVisualDeckStorageFolderDisplayWidget.html">VisualDeckStorageFolderDisplayWidget</a> *&gt; VisualDeckStorageFolderDisplayWidget::subFolderWidgets</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Folder path -&gt; subfolder widget. </p>
+
+</div>
+</div>
+<a id="a5cf5a0e27adb44b0e52d3d48851a1289" name="a5cf5a0e27adb44b0e52d3d48851a1289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cf5a0e27adb44b0e52d3d48851a1289">&#9670;&#160;</a></span>visibleDeckCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int VisualDeckStorageFolderDisplayWidget::visibleDeckCount = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The number of this folder's deck previews not filtered out. </p>
 
 </div>
 </div>

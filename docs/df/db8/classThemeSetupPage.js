@@ -1,0 +1,24 @@
+var classThemeSetupPage =
+[
+    [ "ThemeSetupPage", "df/db8/classThemeSetupPage.html#a45e82cac4a40beba2839c403dc8bab33", null ],
+    [ "currentScheme", "df/db8/classThemeSetupPage.html#a1d9a9890ccff194042b47960ce5dc091", null ],
+    [ "initializePage", "df/db8/classThemeSetupPage.html#ab00a5618a258b6b77b90f46a634ab003", null ],
+    [ "isSkippable", "df/db8/classThemeSetupPage.html#a1ce39cdaedad1e700ed4cd48fa07f37b", null ],
+    [ "maybeAutoGeneratePalette", "df/db8/classThemeSetupPage.html#adf31db924560051b9d97cdd69201f1bb", null ],
+    [ "onGenerateFromAccent", "df/db8/classThemeSetupPage.html#ad66437f14329cc57c89f562cf469d61b", null ],
+    [ "onHomeTabBackgroundChanged", "df/db8/classThemeSetupPage.html#a63b013f4cd5707983dff74090d505b46", null ],
+    [ "onSchemeChanged", "df/db8/classThemeSetupPage.html#a4c4f7b6706575d1ff67552c5da162002", null ],
+    [ "onThemeChanged", "df/db8/classThemeSetupPage.html#a2a46089148a570cdde101ea480c66c54", null ],
+    [ "resolvedScheme", "df/db8/classThemeSetupPage.html#a312ca1592760d70805f5af24e369e2c6", null ],
+    [ "retranslateUi", "df/db8/classThemeSetupPage.html#ac70e822911c1decffcbf3db92944d52b", null ],
+    [ "stepSubtitle", "df/db8/classThemeSetupPage.html#aadbaac1dcc92092232e10b9cdf571e5f", null ],
+    [ "stepTitle", "df/db8/classThemeSetupPage.html#a97cbbd58113e3848e18c92e8f9f47acb", null ],
+    [ "validatePage", "df/db8/classThemeSetupPage.html#a9d9d18d673cec78a615ad7ef75b2b4be", null ],
+    [ "writableThemeDir", "df/db8/classThemeSetupPage.html#ab70632348a4c24bcfdf7b7cd3a7269eb", null ],
+    [ "accentGroup", "df/db8/classThemeSetupPage.html#a0c8cb607c5e493535b1027ab366c6139", null ],
+    [ "homeTabBackgroundCombo", "df/db8/classThemeSetupPage.html#ae54199bc23648b379ff06f8904dfcd43", null ],
+    [ "paletteDirty", "df/db8/classThemeSetupPage.html#aaa6ddc3273d064d32a084522a0a366da", null ],
+    [ "quickSetupPanel", "df/db8/classThemeSetupPage.html#ae8e2285093eebc77fe5c2daba9df6263", null ],
+    [ "schemeCombo", "df/db8/classThemeSetupPage.html#a59cc03672190a0ab00d7d7463e971039", null ],
+    [ "themeCombo", "df/db8/classThemeSetupPage.html#a30f0f70c72ab591cd74a02f95849c0e9", null ]
+];

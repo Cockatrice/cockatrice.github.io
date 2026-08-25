@@ -84,6 +84,7 @@ var searchData=
   ['storagepage_81',['StoragePage',['../db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788aaa6f778ee3a2b971dad3237fbc899ec8',1,'DlgSettings']]],
   ['store_82',['Store',['../d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6a8f633b522e17f5a4f0ddf466cbcaf2c9',1,'Zip']]],
   ['subtypes_83',['Subtypes',['../dc/d06/tally_8h.html#a210730729ae1985c85bd1ed922ff6bdead207c6ac823ae4502130291926e0f203',1,'tally.h']]],
-  ['supportspasswordhash_84',['SupportsPasswordHash',['../df/d48/structEvent__ServerIdentification.html#a42dc11e928736dbfb7e240906767586eaa4ee9af0db11e1bc0292845160ddd4b8',1,'Event_ServerIdentification']]],
-  ['syntaxerror_85',['SyntaxError',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673a4614404d6d4ddb356304741e5d631fe0',1,'QxtSmtp']]]
+  ['succeeded_84',['Succeeded',['../d3/d60/classCardDatabaseSetupPage.html#a0c5c64f3ee6c9d591feb4c76a92bbe89a66d02c2f8a582446f8dd8752366002b5',1,'CardDatabaseSetupPage']]],
+  ['supportspasswordhash_85',['SupportsPasswordHash',['../df/d48/structEvent__ServerIdentification.html#a42dc11e928736dbfb7e240906767586eaa4ee9af0db11e1bc0292845160ddd4b8',1,'Event_ServerIdentification']]],
+  ['syntaxerror_86',['SyntaxError',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673a4614404d6d4ddb356304741e5d631fe0',1,'QxtSmtp']]]
 ];

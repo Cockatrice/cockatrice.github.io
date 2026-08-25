@@ -25,5 +25,6 @@ var searchData=
   ['notloaded_22',['NotLoaded',['../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11ca2b964c155c8b577ebe1a26ebabd27439',1,'card_database_loader.h']]],
   ['notloggedin_23',['NotLoggedIn',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdaf08382239c29cb2673fa99d0898e1249',1,'server.h']]],
   ['notselected_24',['NotSelected',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea7dc39dc840c9dbdefd059f8d96226d11',1,'deck_preview_tag_display_widget.h']]],
-  ['numpages_25',['NumPages',['../db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788a200e2477e7618da50aa4a123247a9841',1,'DlgSettings']]]
+  ['notstarted_25',['NotStarted',['../d3/d60/classCardDatabaseSetupPage.html#a0c5c64f3ee6c9d591feb4c76a92bbe89afa7be7845bc42b3491d9d0377958be94',1,'CardDatabaseSetupPage']]],
+  ['numpages_26',['NumPages',['../db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788a200e2477e7618da50aa4a123247a9841',1,'DlgSettings']]]
 ];

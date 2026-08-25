@@ -23,12 +23,13 @@ var searchData=
   ['width_5ff_20',['WIDTH_F',['../d2/da1/namespaceCardDimensions.html#ab003b0b6934b4b1461a5633bcf478b42',1,'CardDimensions']]],
   ['width_5fhalf_5ff_21',['WIDTH_HALF_F',['../d2/da1/namespaceCardDimensions.html#a8721cfc0b18eaf599e56502609a4a9de',1,'CardDimensions']]],
   ['windowsize_22',['WindowSize',['../d3/d07/classLatencyTracker.html#acf76e84becb257eac12ae6e1fa974632',1,'LatencyTracker']]],
-  ['with_5fcoords_23',['with_coords',['../df/d6e/structServerInfo__Zone.html#a2748fb0c59d1f683de3d29a5a5197e4b',1,'ServerInfo_Zone']]],
-  ['with_5fpassword_24',['with_password',['../d4/dbe/structServerInfo__Game.html#a5931f204d610df928735ed3d92594aad',1,'ServerInfo_Game']]],
-  ['wndsets_25',['wndSets',['../d6/d1a/classMainWindow.html#aea8e652c33d58ab63e8b1c4f1eee7a8b',1,'MainWindow']]],
-  ['word_5fdefinition_5fname_26',['WORD_DEFINITION_NAME',['../dc/db2/namespacepeg.html#a05fef7118467bf5732c5a658a41bb2aa',1,'peg']]],
-  ['wordope_27',['wordOpe',['../df/d94/classpeg_1_1Context.html#a1983c08e355bac46676f3a1fc24f9e0e',1,'peg::Context::wordOpe'],['../d8/d94/classpeg_1_1Definition.html#a028424db0704ddf17e5c5eb69348da16',1,'peg::Definition::wordOpe']]],
-  ['worker_28',['worker',['../d2/d5d/classCardPictureLoader.html#a410348349fde931141ef5b26607fd579',1,'CardPictureLoader']]],
-  ['workingconfig_29',['workingConfig',['../d0/dc0/classPaletteEditorDialog.html#a49e48d4f4d726e4eef8d6539e2b538ee',1,'PaletteEditorDialog']]],
-  ['writeablerevealzone_30',['writeableRevealZone',['../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2',1,'ZoneViewZoneLogic']]]
+  ['windowsizebeforeexpansion_23',['windowSizeBeforeExpansion',['../d3/d60/classCardDatabaseSetupPage.html#a5d4b5afc791c8041873d6adaf791afc7',1,'CardDatabaseSetupPage']]],
+  ['with_5fcoords_24',['with_coords',['../df/d6e/structServerInfo__Zone.html#a2748fb0c59d1f683de3d29a5a5197e4b',1,'ServerInfo_Zone']]],
+  ['with_5fpassword_25',['with_password',['../d4/dbe/structServerInfo__Game.html#a5931f204d610df928735ed3d92594aad',1,'ServerInfo_Game']]],
+  ['wndsets_26',['wndSets',['../d6/d1a/classMainWindow.html#aea8e652c33d58ab63e8b1c4f1eee7a8b',1,'MainWindow']]],
+  ['word_5fdefinition_5fname_27',['WORD_DEFINITION_NAME',['../dc/db2/namespacepeg.html#a05fef7118467bf5732c5a658a41bb2aa',1,'peg']]],
+  ['wordope_28',['wordOpe',['../df/d94/classpeg_1_1Context.html#a1983c08e355bac46676f3a1fc24f9e0e',1,'peg::Context::wordOpe'],['../d8/d94/classpeg_1_1Definition.html#a028424db0704ddf17e5c5eb69348da16',1,'peg::Definition::wordOpe']]],
+  ['worker_29',['worker',['../d2/d5d/classCardPictureLoader.html#a410348349fde931141ef5b26607fd579',1,'CardPictureLoader']]],
+  ['workingconfig_30',['workingConfig',['../d0/dc0/classPaletteEditorDialog.html#a49e48d4f4d726e4eef8d6539e2b538ee',1,'PaletteEditorDialog']]],
+  ['writeablerevealzone_31',['writeableRevealZone',['../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2',1,'ZoneViewZoneLogic']]]
 ];

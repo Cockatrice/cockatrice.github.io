@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-25-Development-3.1.0-beta.9</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -148,29 +148,42 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a1e6a7e7306250e8aac11ed1ef900f0" id="r_a9a1e6a7e7306250e8aac11ed1ef900f0"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a9a1e6a7e7306250e8aac11ed1ef900f0">convertToCockatriceFormat</a> (int row)</td></tr>
 <tr class="memitem:aa4054160058de22db8c6a7e7c3c6cba6" id="r_aa4054160058de22db8c6a7e7c3c6cba6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa4054160058de22db8c6a7e7c3c6cba6">reloadIfModified</a> (int row)</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
+Private Slots</h2></td></tr>
+<tr class="memitem:aefffc252290955c6d197c3c4e89ffc34" id="r_aefffc252290955c6d197c3c4e89ffc34"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aefffc252290955c6d197c3c4e89ffc34">drainPendingLoads</a> ()</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a5592f41860d51c932ff0add4ec7e3248" id="r_a5592f41860d51c932ff0add4ec7e3248"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5592f41860d51c932ff0add4ec7e3248">startScan</a> ()</td></tr>
 <tr class="memitem:a0a6b4eb55c67323dff5ce8a181118ed7" id="r_a0a6b4eb55c67323dff5ce8a181118ed7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0a6b4eb55c67323dff5ce8a181118ed7">beginLoad</a> (int row)</td></tr>
+<tr class="memitem:a348f6045e1adbdcfcf7fddfb3fc81002" id="r_a348f6045e1adbdcfcf7fddfb3fc81002"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a348f6045e1adbdcfcf7fddfb3fc81002">reindexFilePaths</a> ()</td></tr>
+<tr class="memdesc:a348f6045e1adbdcfcf7fddfb3fc81002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rebuilds the file path -&gt; row index from scratch after bulk changes.  <br /></td></tr>
+<tr class="memitem:a239588056bfb69571e020c0ce6bd2172" id="r_a239588056bfb69571e020c0ce6bd2172"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a239588056bfb69571e020c0ce6bd2172">schedulePendingLoadDrain</a> ()</td></tr>
 <tr class="memitem:ac06cdbed566a8bcf28de0d2e3f4b3ff1" id="r_ac06cdbed566a8bcf28de0d2e3f4b3ff1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac06cdbed566a8bcf28de0d2e3f4b3ff1">setFilePathForRow</a> (int row, const QString &amp;newFilePath)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a6c0be7afc3ccc78f1197caa719866d4b" id="r_a6c0be7afc3ccc78f1197caa719866d4b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a6c0be7afc3ccc78f1197caa719866d4b">recomputeDeckMetadata</a> (<a class="el" href="../../dd/d46/structDeckPreviewData.html">DeckPreviewData</a> &amp;<a class="el" href="#ac4dfb61ce203d710138712f936834f2f">data</a>)</td></tr>
-<tr class="memdesc:a6c0be7afc3ccc78f1197caa719866d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recomputes all derived metadata of a row from its loaded deck.  <br /></td></tr>
+<tr class="memitem:ab93bd825e8c370c30ed4b9c813a5bbd3" id="r_ab93bd825e8c370c30ed4b9c813a5bbd3"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ab93bd825e8c370c30ed4b9c813a5bbd3">recomputeDeckMetadata</a> (<a class="el" href="../../dd/d46/structDeckPreviewData.html">DeckPreviewData</a> &amp;<a class="el" href="#ac4dfb61ce203d710138712f936834f2f">data</a>, bool recomputeColorIdentity=true)</td></tr>
+<tr class="memdesc:ab93bd825e8c370c30ed4b9c813a5bbd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recomputes all derived metadata of a row from its loaded deck.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a0efee87500c8e87c47ac70ec013747dc" id="r_a0efee87500c8e87c47ac70ec013747dc"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a0efee87500c8e87c47ac70ec013747dc">deckPath</a></td></tr>
 <tr class="memitem:a0436347ac649823304db9a33d1c2d804" id="r_a0436347ac649823304db9a33d1c2d804"><td class="memItemLeft">QList&lt; <a class="el" href="../../dd/d46/structDeckPreviewData.html">DeckPreviewData</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a0436347ac649823304db9a33d1c2d804">decks</a></td></tr>
+<tr class="memitem:a48de371c53b86fa96aa6968f727e6e22" id="r_a48de371c53b86fa96aa6968f727e6e22"><td class="memItemLeft">QHash&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a48de371c53b86fa96aa6968f727e6e22">rowByFilePath</a></td></tr>
+<tr class="memdesc:a48de371c53b86fa96aa6968f727e6e22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps each deck's file path to its row for O(1) lookups.  <br /></td></tr>
 <tr class="memitem:a120eb66b72f4df365beb129e6064acf5" id="r_a120eb66b72f4df365beb129e6064acf5"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#a120eb66b72f4df365beb129e6064acf5">folderPaths</a></td></tr>
 <tr class="memdesc:a120eb66b72f4df365beb129e6064acf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">All subdirectories of the deck folder, sorted.  <br /></td></tr>
 <tr class="memitem:a1956bf1a66d5d783a9aeb78527e10c43" id="r_a1956bf1a66d5d783a9aeb78527e10c43"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a1956bf1a66d5d783a9aeb78527e10c43">scanGeneration</a> = 0</td></tr>
 <tr class="memdesc:a1956bf1a66d5d783a9aeb78527e10c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bumped on every scan so stale results are ignored.  <br /></td></tr>
+<tr class="memitem:ab77ec02a05aad349eb30a0ed5f4fcd2a" id="r_ab77ec02a05aad349eb30a0ed5f4fcd2a"><td class="memItemLeft">QVector&lt; <a class="el" href="../../d8/d65/structPendingDeckLoad.html">PendingDeckLoad</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab77ec02a05aad349eb30a0ed5f4fcd2a">pendingLoads</a></td></tr>
+<tr class="memdesc:ab77ec02a05aad349eb30a0ed5f4fcd2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finished background loads waiting to be applied.  <br /></td></tr>
+<tr class="memitem:ac88d234e6f0da55c6370c13a2193002c" id="r_ac88d234e6f0da55c6370c13a2193002c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac88d234e6f0da55c6370c13a2193002c">drainScheduled</a> = false</td></tr>
+<tr class="memdesc:ac88d234e6f0da55c6370c13a2193002c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether a queued drain pass is already pending.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The list model backing the Visual Deck Storage widget tree. </p>
-<p>Rows are in filesystem scan order; ordering and filtering are handled by <a class="el" href="../../df/d53/classVisualDeckStorageSortFilterProxyModel.html">VisualDeckStorageSortFilterProxyModel</a> on top of this model. </p>
+<p>Rows are in filesystem scan order; ordering and filtering are handled by <a class="el" href="../../df/d53/classVisualDeckStorageSortFilterProxyModel.html">VisualDeckStorageSortFilterProxyModel</a> on top of this model. The proxy keeps every row and exposes each row's filter result through its FilterMatchRole. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a031e37f2243ca84c79cb9af4aa0a92b1" name="a031e37f2243ca84c79cb9af4aa0a92b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a031e37f2243ca84c79cb9af4aa0a92b1">&#9670;&#160;</a></span>VisualDeckStorageModel()</h2>
@@ -367,7 +380,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_afcf2dcc76b1ced812bd1268e27cf426b_icgraph.svg" width="451" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_afcf2dcc76b1ced812bd1268e27cf426b_icgraph.svg" width="451" height="179"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -435,7 +448,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_a59cdef884fa463d43ef701be2c692e20_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_a59cdef884fa463d43ef701be2c692e20_icgraph.svg" width="100%" height="458"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -454,6 +467,41 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefffc252290955c6d197c3c4e89ffc34" name="aefffc252290955c6d197c3c4e89ffc34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefffc252290955c6d197c3c4e89ffc34">&#9670;&#160;</a></span>drainPendingLoads</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDeckStorageModel::drainPendingLoads </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_aefffc252290955c6d197c3c4e89ffc34_cgraph.svg" width="100%" height="543"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_aefffc252290955c6d197c3c4e89ffc34_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -509,8 +557,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6c0be7afc3ccc78f1197caa719866d4b" name="a6c0be7afc3ccc78f1197caa719866d4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c0be7afc3ccc78f1197caa719866d4b">&#9670;&#160;</a></span>recomputeDeckMetadata()</h2>
+<a id="ab93bd825e8c370c30ed4b9c813a5bbd3" name="ab93bd825e8c370c30ed4b9c813a5bbd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab93bd825e8c370c30ed4b9c813a5bbd3">&#9670;&#160;</a></span>recomputeDeckMetadata()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -521,8 +569,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void VisualDeckStorageModel::recomputeDeckMetadata </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d46/structDeckPreviewData.html">DeckPreviewData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../dd/d46/structDeckPreviewData.html">DeckPreviewData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>recomputeColorIdentity</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -536,12 +588,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_a6c0be7afc3ccc78f1197caa719866d4b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_ab93bd825e8c370c30ed4b9c813a5bbd3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_a6c0be7afc3ccc78f1197caa719866d4b_icgraph.svg" width="100%" height="506"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_ab93bd825e8c370c30ed4b9c813a5bbd3_icgraph.svg" width="100%" height="482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -566,6 +618,38 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_aec2c7b9508f2d6c865848fd8eda4c8dd_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a348f6045e1adbdcfcf7fddfb3fc81002" name="a348f6045e1adbdcfcf7fddfb3fc81002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a348f6045e1adbdcfcf7fddfb3fc81002">&#9670;&#160;</a></span>reindexFilePaths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDeckStorageModel::reindexFilePaths </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rebuilds the file path -&gt; row index from scratch after bulk changes. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_a348f6045e1adbdcfcf7fddfb3fc81002_icgraph.svg" width="663" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -695,6 +779,41 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_ab62535674a78be24f233068e34fbd211_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a239588056bfb69571e020c0ce6bd2172" name="a239588056bfb69571e020c0ce6bd2172"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a239588056bfb69571e020c0ce6bd2172">&#9670;&#160;</a></span>schedulePendingLoadDrain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDeckStorageModel::schedulePendingLoadDrain </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_a239588056bfb69571e020c0ce6bd2172_cgraph.svg" width="100%" height="542"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d10/classVisualDeckStorageModel_a239588056bfb69571e020c0ce6bd2172_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -894,6 +1013,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ac88d234e6f0da55c6370c13a2193002c" name="ac88d234e6f0da55c6370c13a2193002c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac88d234e6f0da55c6370c13a2193002c">&#9670;&#160;</a></span>drainScheduled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool VisualDeckStorageModel::drainScheduled = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether a queued drain pass is already pending. </p>
+
+</div>
+</div>
 <a id="a120eb66b72f4df365beb129e6064acf5" name="a120eb66b72f4df365beb129e6064acf5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a120eb66b72f4df365beb129e6064acf5">&#9670;&#160;</a></span>folderPaths</h2>
 
@@ -915,6 +1058,54 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>All subdirectories of the deck folder, sorted. </p>
+
+</div>
+</div>
+<a id="ab77ec02a05aad349eb30a0ed5f4fcd2a" name="ab77ec02a05aad349eb30a0ed5f4fcd2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab77ec02a05aad349eb30a0ed5f4fcd2a">&#9670;&#160;</a></span>pendingLoads</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt;<a class="el" href="../../d8/d65/structPendingDeckLoad.html">PendingDeckLoad</a>&gt; VisualDeckStorageModel::pendingLoads</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finished background loads waiting to be applied. </p>
+
+</div>
+</div>
+<a id="a48de371c53b86fa96aa6968f727e6e22" name="a48de371c53b86fa96aa6968f727e6e22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48de371c53b86fa96aa6968f727e6e22">&#9670;&#160;</a></span>rowByFilePath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, int&gt; VisualDeckStorageModel::rowByFilePath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maps each deck's file path to its row for O(1) lookups. </p>
 
 </div>
 </div>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mtg_0',['Mtg',['../db/d09/namespaceMtg.html',1,'']]]
+  ['hometabbuttoncolor_0',['HomeTabButtonColor',['../d4/dc8/namespaceHomeTabButtonColor.html',1,'']]]
 ];

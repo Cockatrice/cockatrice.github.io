@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-25-Development-3.1.0-beta.9</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -105,6 +105,7 @@ $(function(){initNavTree('d7/dd6/visual__deck__storage__model_8h.html','../../',
 <div class="textblock"><code>#include &quot;<a class="el" href="../../da/d25/loaded__deck_8h_source.html">../../deck_loader/loaded_deck.h</a>&quot;</code><br />
 <code>#include &lt;QAbstractListModel&gt;</code><br />
 <code>#include &lt;QDateTime&gt;</code><br />
+<code>#include &lt;QHash&gt;</code><br />
 <code>#include &lt;QList&gt;</code><br />
 <code>#include &lt;QStringList&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d7/d1a/deck__list_8h_source.html">libcockatrice/deck_list/deck_list.h</a>&gt;</code><br />
@@ -117,7 +118,7 @@ Include dependency graph for visual_deck_storage_model.h:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d84/visual__deck__storage__model_8h__dep__incl.svg" width="499" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d84/visual__deck__storage__model_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d7/dd6/visual__deck__storage__model_8h_source.html">Go to the source code of this file.</a></p>
@@ -126,6 +127,8 @@ This graph shows which files directly or indirectly include this file:</div>
 Classes</h2></td></tr>
 <tr class="memitem:DeckPreviewData" id="r_DeckPreviewData"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="../../dd/d46/structDeckPreviewData.html">DeckPreviewData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">One deck file as seen by the Visual Deck Storage.  <a href="../../dd/d46/structDeckPreviewData.html#details">More...</a><br /></td></tr>
+<tr class="memitem:PendingDeckLoad" id="r_PendingDeckLoad"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="../../d8/d65/structPendingDeckLoad.html">PendingDeckLoad</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">One finished background deck load that has not been applied to the model yet.  <a href="../../d8/d65/structPendingDeckLoad.html#details">More...</a><br /></td></tr>
 <tr class="memitem:VisualDeckStorageModel" id="r_VisualDeckStorageModel"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="../../d1/d10/classVisualDeckStorageModel.html">VisualDeckStorageModel</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list model backing the Visual Deck Storage widget tree.  <a href="../../d1/d10/classVisualDeckStorageModel.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
@@ -148,6 +151,7 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="../../d7/d99/namespaceVisualDeckStorageRoles.html#aa481f934a865f563199c6ebedd013f80aab232282bf74a0c28ab91bdf33fff01c">VisualDeckStorageRoles::BannerCardNameRole</a>
 , <a class="el" href="../../d7/d99/namespaceVisualDeckStorageRoles.html#aa481f934a865f563199c6ebedd013f80a9bdb53feee0ae31936f4d787af14d955">VisualDeckStorageRoles::BannerCardProviderIdRole</a>
+, <a class="el" href="../../d7/d99/namespaceVisualDeckStorageRoles.html#aa481f934a865f563199c6ebedd013f80a88dcb3ecc4142892d706fe6fabb4c7c0">VisualDeckStorageRoles::FilterMatchRole</a>
 <br />
  }</td></tr>
 <tr class="memdesc:aa481f934a865f563199c6ebedd013f80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom roles exposed by the <a class="el" href="../../d1/d10/classVisualDeckStorageModel.html" title="The list model backing the Visual Deck Storage widget tree.">VisualDeckStorageModel</a>.  <a href="../../d7/d99/namespaceVisualDeckStorageRoles.html#aa481f934a865f563199c6ebedd013f80">More...</a><br /></td></tr>

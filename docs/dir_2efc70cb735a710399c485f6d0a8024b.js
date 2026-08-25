@@ -6,6 +6,7 @@ var dir_2efc70cb735a710399c485f6d0a8024b =
     [ "background_sources.h", "df/d99/background__sources_8h.html", "df/d99/background__sources_8h" ],
     [ "home_styled_button.cpp", "da/d0c/home__styled__button_8cpp.html", null ],
     [ "home_styled_button.h", "d0/d26/home__styled__button_8h.html", "d0/d26/home__styled__button_8h" ],
-    [ "home_widget.cpp", "d2/ddc/home__widget_8cpp.html", null ],
+    [ "home_tab_button_color.h", "dd/d5a/home__tab__button__color_8h.html", "dd/d5a/home__tab__button__color_8h" ],
+    [ "home_widget.cpp", "d2/ddc/home__widget_8cpp.html", "d2/ddc/home__widget_8cpp" ],
     [ "home_widget.h", "d9/d29/home__widget_8h.html", "d9/d29/home__widget_8h" ]
 ];

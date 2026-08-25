@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['visualdeckstorageroles_0',['VisualDeckStorageRoles',['../d7/d99/namespaceVisualDeckStorageRoles.html',1,'']]]
+  ['userlistroles_0',['UserListRoles',['../d7/dc9/namespaceUserListRoles.html',1,'']]]
 ];

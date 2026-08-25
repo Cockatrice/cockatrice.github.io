@@ -243,6 +243,7 @@ var hierarchy =
     ] ],
     [ "BackgroundSources::Entry", "d3/d4a/structBackgroundSources_1_1Entry.html", null ],
     [ "CardArtRulesModel::Entry", "d9/dd6/structCardArtRulesModel_1_1Entry.html", null ],
+    [ "HomeTabButtonColor::Entry", "db/d3b/structHomeTabButtonColor_1_1Entry.html", null ],
     [ "peg::ErrorInfo", "db/da9/structpeg_1_1ErrorInfo.html", null ],
     [ "peg::ErrorReport", "db/d9c/structpeg_1_1ErrorReport.html", null ],
     [ "EstimateBracketResult", "d8/dd8/structEstimateBracketResult.html", null ],
@@ -563,6 +564,7 @@ var hierarchy =
     [ "peg::ParserGenerator", "dc/dbb/classpeg_1_1ParserGenerator.html", null ],
     [ "PasswordHasher", "d0/d46/classPasswordHasher.html", null ],
     [ "ServerInfo_User::PawnColorsOverride", "d1/d71/structServerInfo__User_1_1PawnColorsOverride.html", null ],
+    [ "PendingDeckLoad", "d8/d65/structPendingDeckLoad.html", null ],
     [ "Phase", "d4/d41/classPhase.html", null ],
     [ "PhasePixmapGenerator", "d6/db3/classPhasePixmapGenerator.html", null ],
     [ "Phases", "db/da6/structPhases.html", null ],
@@ -573,6 +575,7 @@ var hierarchy =
     [ "ServerInfo_PlayerProperties::PlaymatParams", "d6/d34/structServerInfo__PlayerProperties_1_1PlaymatParams.html", null ],
     [ "PopupTheme", "d1/d10/structPopupTheme.html", null ],
     [ "peg::Predicate", "da/da7/classpeg_1_1Predicate.html", null ],
+    [ "BannerHost::Preset", "d3/dbb/structBannerHost_1_1Preset.html", null ],
     [ "PrintingInfo", "d6/d90/classPrintingInfo.html", null ],
     [ "QAbstractButton", null, [
       [ "CloseButton", "df/df8/classCloseButton.html", null ]
@@ -636,6 +639,7 @@ var hierarchy =
       [ "DlgUpdate", "d8/d3f/classDlgUpdate.html", null ],
       [ "DlgViewLog", "d8/d50/classDlgViewLog.html", null ],
       [ "DrawProbabilityConfigDialog", "d9/da1/classDrawProbabilityConfigDialog.html", null ],
+      [ "FirstRunWizard", "d2/dc2/classFirstRunWizard.html", null ],
       [ "ManaBaseConfigDialog", "d9/da3/classManaBaseConfigDialog.html", null ],
       [ "ManaCurveConfigDialog", "d5/de0/classManaCurveConfigDialog.html", null ],
       [ "ManaDevotionConfigDialog", "d3/dfa/classManaDevotionConfigDialog.html", null ],
@@ -806,6 +810,7 @@ var hierarchy =
         [ "Replay", "d2/daf/classReplay.html", null ]
       ] ],
       [ "ArrowItem", "df/d2a/classArrowItem.html", null ],
+      [ "BannerShaderConfig", "dc/d6c/classBannerShaderConfig.html", null ],
       [ "CardCompleterStyler", "de/d06/classCardCompleterStyler.html", null ],
       [ "CardDatabase", "d5/d45/classCardDatabase.html", null ],
       [ "CardDatabaseLoader", "d2/d1b/classCardDatabaseLoader.html", null ],
@@ -1063,6 +1068,7 @@ var hierarchy =
       [ "ArchidektApiResponseDeckListingsDisplayWidget", "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html", null ],
       [ "ArchidektDeckPreviewImageDisplayWidget", "d6/d30/classArchidektDeckPreviewImageDisplayWidget.html", null ],
       [ "BackgroundPlateWidget", "d3/dcd/classBackgroundPlateWidget.html", null ],
+      [ "BannerHost", "d3/d27/classBannerHost.html", null ],
       [ "BannerWidget", "d2/d73/classBannerWidget.html", null ],
       [ "BarChartBackgroundWidget", "d1/d7f/classBarChartBackgroundWidget.html", null ],
       [ "BarChartWidget", "d4/d89/classBarChartWidget.html", null ],
@@ -1113,10 +1119,19 @@ var hierarchy =
       [ "EdhrecTopTagsApiResponseDisplayWidget", "d5/d61/classEdhrecTopTagsApiResponseDisplayWidget.html", null ],
       [ "FilterBuilder", "d3/dff/classFilterBuilder.html", null ],
       [ "FilterDisplayWidget", "d9/ddf/classFilterDisplayWidget.html", null ],
+      [ "FirstRunWizardPage", "d5/ddb/classFirstRunWizardPage.html", [
+        [ "AccountSetupPage", "dc/d41/classAccountSetupPage.html", null ],
+        [ "CardDatabaseSetupPage", "d3/d60/classCardDatabaseSetupPage.html", null ],
+        [ "FinishPage", "d6/ddc/classFinishPage.html", null ],
+        [ "PreferencesSetupPage", "df/db0/classPreferencesSetupPage.html", null ],
+        [ "ThemeSetupPage", "df/db8/classThemeSetupPage.html", null ],
+        [ "WelcomePage", "de/d10/classWelcomePage.html", null ]
+      ] ],
       [ "FlowWidget", "d5/d53/classFlowWidget.html", [
         [ "VisualDatabaseDisplayFilterToolbarWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html", null ]
       ] ],
       [ "GameSelectorQuickFilterToolBar", "df/dac/classGameSelectorQuickFilterToolBar.html", null ],
+      [ "GradientFallbackWidget", "d3/d52/classGradientFallbackWidget.html", null ],
       [ "HomeWidget", "de/de3/classHomeWidget.html", null ],
       [ "LabeledInput", "d8/d6f/classLabeledInput.html", null ],
       [ "LatencyGraphWidget", "dc/d24/classLatencyGraphWidget.html", null ],
@@ -1151,6 +1166,7 @@ var hierarchy =
         [ "VisualDeckStorageQuickSettingsWidget", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html", null ]
       ] ],
       [ "SettingsPopupWidget", "d1/d7d/classSettingsPopupWidget.html", null ],
+      [ "StepIndicatorWidget", "d0/d1e/classStepIndicatorWidget.html", null ],
       [ "UserInfoBox", "df/dea/classUserInfoBox.html", null ],
       [ "UserInfoHeaderWidget", "d7/d45/classUserInfoHeaderWidget.html", null ],
       [ "UserListPanelWidget", "da/d60/classUserListPanelWidget.html", null ],

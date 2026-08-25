@@ -89,5 +89,6 @@ var searchData=
   ['room_5fcommand_5fcontainer_86',['ROOM_COMMAND_CONTAINER',['../d7/ddb/structIslMessage.html#af04cd60b7dee078087f73be71b718e1da0185eba554fce2ed57272c7e3ac8014c',1,'IslMessage']]],
   ['room_5fevent_87',['ROOM_EVENT',['../d7/ddb/structIslMessage.html#af04cd60b7dee078087f73be71b718e1da38529ada9a204edc3c9a72177a955a9b',1,'IslMessage::ROOM_EVENT'],['../d3/d1d/structServerMessage.html#ab80373bacb5a14a61e4ce5102bb0d405a6abf2f092028f4d01a0b8516a76a85e3',1,'ServerMessage::ROOM_EVENT']]],
   ['room_5fsay_88',['ROOM_SAY',['../da/de3/structRoomCommand.html#ab13483cb4478270184e4aeeffdba9956acd411f4059c1f9edc6ce6dfff693e367',1,'RoomCommand::ROOM_SAY'],['../d7/dc2/structRoomEvent.html#a38dab0b0acac484e5bc10ff0ec2c0021a4face927311ebed5b2605ba207daad72',1,'RoomEvent::ROOM_SAY']]],
-  ['roomlist_89',['RoomList',['../da/d3b/classUserListWidget.html#abf013e42f0196e76737d014e9403552ca11dddad2b73973c4291cdd4b6b5bc069',1,'UserListWidget']]]
+  ['roomlist_89',['RoomList',['../da/d3b/classUserListWidget.html#abf013e42f0196e76737d014e9403552ca11dddad2b73973c4291cdd4b6b5bc069',1,'UserListWidget']]],
+  ['running_90',['Running',['../d3/d60/classCardDatabaseSetupPage.html#a0c5c64f3ee6c9d591feb4c76a92bbe89a5bda814c4aedb126839228f1a3d92f09',1,'CardDatabaseSetupPage']]]
 ];

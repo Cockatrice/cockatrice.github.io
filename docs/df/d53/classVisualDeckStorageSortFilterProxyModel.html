@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-25-Development-3.1.0-beta.9</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -129,6 +129,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e42d87a4a46aacecfad087ec94e3919" id="r_a0e42d87a4a46aacecfad087ec94e3919"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a0e42d87a4a46aacecfad087ec94e3919">VisualDeckStorageSortFilterProxyModel</a> (QObject *parent=nullptr)</td></tr>
+<tr class="memitem:ab620dd53fb75367c133c76867f7423c2" id="r_ab620dd53fb75367c133c76867f7423c2"><td class="memItemLeft">QVariant&#160;</td><td class="memItemRight"><a class="el" href="#ab620dd53fb75367c133c76867f7423c2">data</a> (const QModelIndex &amp;index, int role) const override</td></tr>
 <tr class="memitem:ad5fcb9214d8ebd587505f8f751a65a0f" id="r_ad5fcb9214d8ebd587505f8f751a65a0f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad5fcb9214d8ebd587505f8f751a65a0f">setSourceModel</a> (QAbstractItemModel *model) override</td></tr>
 <tr class="memitem:ad39911963aed330d113752f227fed746" id="r_ad39911963aed330d113752f227fed746"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad39911963aed330d113752f227fed746">setSortOrder</a> (<a class="el" href="#a34c0f4823347abf0d21080564d67916e">SortOrder</a> order)</td></tr>
 <tr class="memdesc:ad39911963aed330d113752f227fed746"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the sort order and applies it immediately.  <br /></td></tr>
@@ -148,6 +149,7 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a7b13796473eeae37ffc571db26fd9f07" id="r_a7b13796473eeae37ffc571db26fd9f07"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a7b13796473eeae37ffc571db26fd9f07">rowMatches</a> (int sourceRow) const</td></tr>
 <tr class="memitem:a0293572ce5fbbe59087216d3541573fb" id="r_a0293572ce5fbbe59087216d3541573fb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0293572ce5fbbe59087216d3541573fb">resizeMatchLists</a> ()</td></tr>
 <tr class="memitem:a8a622352e02b34bfc61283b2c514eb81" id="r_a8a622352e02b34bfc61283b2c514eb81"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8a622352e02b34bfc61283b2c514eb81">updateSearchMatches</a> ()</td></tr>
 <tr class="memitem:af2ee12d20ac76a42a0a0828c3ae6527c" id="r_af2ee12d20ac76a42a0a0828c3ae6527c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af2ee12d20ac76a42a0a0828c3ae6527c">updateTagMatches</a> ()</td></tr>
@@ -240,6 +242,45 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ab620dd53fb75367c133c76867f7423c2" name="ab620dd53fb75367c133c76867f7423c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab620dd53fb75367c133c76867f7423c2">&#9670;&#160;</a></span>data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant VisualDeckStorageSortFilterProxyModel::data </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>role</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel override">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d53/classVisualDeckStorageSortFilterProxyModel_ab620dd53fb75367c133c76867f7423c2_cgraph.svg" width="467" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d53/classVisualDeckStorageSortFilterProxyModel_ab620dd53fb75367c133c76867f7423c2_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a7c1c2a831de83f362a2466b32122e034" name="a7c1c2a831de83f362a2466b32122e034"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c1c2a831de83f362a2466b32122e034">&#9670;&#160;</a></span>deckSourceModel()</h2>
 
@@ -352,7 +393,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d53/classVisualDeckStorageSortFilterProxyModel_a9df5825059430c0e2353cbacd912cb7c_cgraph.svg" width="100%" height="463"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d53/classVisualDeckStorageSortFilterProxyModel_a9df5825059430c0e2353cbacd912cb7c_cgraph.svg" width="100%" height="474"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -406,6 +447,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a7b13796473eeae37ffc571db26fd9f07" name="a7b13796473eeae37ffc571db26fd9f07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b13796473eeae37ffc571db26fd9f07">&#9670;&#160;</a></span>rowMatches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool VisualDeckStorageSortFilterProxyModel::rowMatches </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>sourceRow</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d53/classVisualDeckStorageSortFilterProxyModel_a7b13796473eeae37ffc571db26fd9f07_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a852c2d56e9b7bbc3187a2384f6553e1b" name="a852c2d56e9b7bbc3187a2384f6553e1b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a852c2d56e9b7bbc3187a2384f6553e1b">&#9670;&#160;</a></span>setColorFilter()</h2>
 
@@ -449,7 +520,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d53/classVisualDeckStorageSortFilterProxyModel_a9482374f130e410ff8cb346f02fa0e7e_cgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d53/classVisualDeckStorageSortFilterProxyModel_a9482374f130e410ff8cb346f02fa0e7e_cgraph.svg" width="100%" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -589,7 +660,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d53/classVisualDeckStorageSortFilterProxyModel_a8a622352e02b34bfc61283b2c514eb81_cgraph.svg" width="532" height="151"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d53/classVisualDeckStorageSortFilterProxyModel_a8a622352e02b34bfc61283b2c514eb81_cgraph.svg" width="100%" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
