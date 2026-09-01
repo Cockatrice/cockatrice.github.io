@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['1_20applying_20player_20specific_20state_20changes_0',['1 Applying player specific state changes',['../d4/d5b/player_event_handler.html#autotoc_md1-applying-player-specific-state-changes-1',1,'1. Applying player-specific state changes'],['../d4/d5b/player_event_handler.html#autotoc_md1-applying-player-specific-state-changes',1,'1. Applying player-specific state changes']]],
+  ['1_20applying_20player_20specific_20state_20changes_0',['1 Applying player specific state changes',['../d4/d5b/player_event_handler.html#autotoc_md1-applying-player-specific-state-changes',1,'1. Applying player-specific state changes'],['../d4/d5b/player_event_handler.html#autotoc_md1-applying-player-specific-state-changes-1',1,'1. Applying player-specific state changes']]],
   ['1_20create_20a_20read_20only_20database_20user_1',['1. Create a read-only database user',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md1-create-a-read-only-database-user',1,'']]],
   ['1_20sending_20game_20wide_20commands_2',['1 Sending game wide commands',['../db/d15/game_event_handler.html#autotoc_md1-sending-game-wide-commands',1,'1. Sending game-wide commands'],['../db/d15/game_event_handler.html#autotoc_md1-sending-game-wide-commands-1',1,'1. Sending game-wide commands']]],
   ['1002_3',['&lt;span class=&quot;tt&quot;&gt;GAME_SAY&lt;/span&gt; (1002)',['../d0/d5b/protocol_game_command.html#game_say-1002',1,'']]],
