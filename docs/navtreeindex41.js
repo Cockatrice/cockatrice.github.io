@@ -1,5 +1,9 @@
 var NAVTREEINDEX41 =
 {
+"d8/d7e/structCommand__CreateToken_1_1GameCommand.html":[4,1,0,155,0],
+"d8/d7e/structCommand__CreateToken_1_1GameCommand.html#ababfe2a6ade6a3f9c545a181079353c6":[4,1,0,155,0,0],
+"d8/d7f/response__warn__history_8proto.html":[4,2,0,8,0,0,0,158],
+"d8/d7f/response__warn__history_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,158,2],
 "d8/d7f/structSettingsSearchEntry.html":[4,1,0,802],
 "d8/d7f/structSettingsSearchEntry.html#a0e1a172452bf0f3870d66cd82f9a4245":[4,1,0,802,3],
 "d8/d7f/structSettingsSearchEntry.html#a1ec1d40148c2da864235d9ad19a69099":[4,1,0,802,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX41 =
 "d8/d9b/classpeg_1_1AnyCharacter.html#a5f197bb0c5c9bceacc7ad75ea08a2ba9":[4,0,0,18,27,1],
 "d8/d9b/classpeg_1_1AnyCharacter.html#a5f197bb0c5c9bceacc7ad75ea08a2ba9":[4,1,0,4,26,1],
 "d8/d9b/classpeg_1_1AnyCharacter.html#acc9defac823725ad089a938c9abb2df3":[4,0,0,18,27,0],
-"d8/d9b/classpeg_1_1AnyCharacter.html#acc9defac823725ad089a938c9abb2df3":[4,1,0,4,26,0],
-"d8/d9d/card__info__display__widget_8cpp.html":[4,2,0,0,1,5,5,0,4],
-"d8/d9d/shortcut__treeview_8h.html":[3,7,1,0],
-"d8/d9d/structCommand__JoinGame_1_1RoomCommand.html":[4,1,0,185,0],
-"d8/d9d/structCommand__JoinGame_1_1RoomCommand.html#a63294e00ac32ad0f6075ff08b12e9e25":[4,1,0,185,0,0]
+"d8/d9b/classpeg_1_1AnyCharacter.html#acc9defac823725ad089a938c9abb2df3":[4,1,0,4,26,0]
 };

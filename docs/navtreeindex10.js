@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"d2/d23/classPlayerActions.html#a3cddcdc1b2cfa45cbf90abbf2edf1844":[4,1,0,612,30],
 "d2/d23/classPlayerActions.html#a3d690afc271236d90d00d67fe8413ebc":[4,1,0,612,129],
 "d2/d23/classPlayerActions.html#a42a07e439dc03d3fe96538ec32bf3dee":[4,1,0,612,46],
 "d2/d23/classPlayerActions.html#a454ba5195286705cda9341a5b99cca97":[4,1,0,612,159],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "d2/d32/classVisualDatabaseDisplayWidget.html#ab8990d58827e489012998e5d7f977280":[4,1,0,908,12],
 "d2/d32/classVisualDatabaseDisplayWidget.html#ab8b8b188ed883333c81b82850a4f61f4":[4,1,0,908,2],
 "d2/d32/classVisualDatabaseDisplayWidget.html#abf6bd5b0ae9b45970bb896d25672409b":[4,1,0,908,28],
-"d2/d32/classVisualDatabaseDisplayWidget.html#ac291f9cf9bd56b40e6e2651214f2a274":[4,1,0,908,49],
-"d2/d32/classVisualDatabaseDisplayWidget.html#ac9d7940df9b7036c68fac9b4b9f4b1b6":[4,1,0,908,9]
+"d2/d32/classVisualDatabaseDisplayWidget.html#ac291f9cf9bd56b40e6e2651214f2a274":[4,1,0,908,49]
 };

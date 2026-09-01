@@ -1,5 +1,9 @@
 var NAVTREEINDEX43 =
 {
+"d8/dc3/classIVisualDeckStorageSettingsProvider.html#a92d80c1a5ec34686f991ee1de9d84d05":[4,1,0,521,6],
+"d8/dc3/classIVisualDeckStorageSettingsProvider.html#a9d7736aec61c9175eb7139decf65807f":[4,1,0,521,8],
+"d8/dc3/classIVisualDeckStorageSettingsProvider.html#aa4ac22eaba9b7b21b28d5af5c9205f35":[4,1,0,521,5],
+"d8/dc3/classIVisualDeckStorageSettingsProvider.html#aaa524ba7cf598af858ab561bf5d5c5e4":[4,1,0,521,10],
 "d8/dc3/classIVisualDeckStorageSettingsProvider.html#acecd1ab19add5eb5e5c7f820234ef395":[4,1,0,521,3],
 "d8/dc3/classIVisualDeckStorageSettingsProvider.html#ade35db3a6b11c2a595c54162d957ad9e":[4,1,0,521,2],
 "d8/dc3/classSetToDownload.html":[4,1,0,804],
@@ -245,9 +249,5 @@ var NAVTREEINDEX43 =
 "d8/df0/classSaveSetsPage.html#a74f7afcaff9a72cf4fd11729bd2d9348":[4,1,0,717,7],
 "d8/df0/classSaveSetsPage.html#a87f289df0abba6b2fda5e0a1aef40ab8":[4,1,0,717,4],
 "d8/df0/classSaveSetsPage.html#a9bc2f10cede29b03a3f271fc65bea308":[4,1,0,717,1],
-"d8/df0/classSaveSetsPage.html#a9d0ad25be76d207175081c52535326fc":[4,1,0,717,9],
-"d8/df0/classSaveSetsPage.html#abf9431cd242ae16431d85444d851da25":[4,1,0,717,2],
-"d8/df0/classSaveSetsPage.html#af78995d2674f8099dd7cde423cb7f260":[4,1,0,717,3],
-"d8/df0/mana__distribution__widget_8cpp.html":[4,2,0,0,1,5,5,1,0,4,6],
-"d8/df0/mana__distribution__widget_8cpp.html#ab422457084c8880ca23ab8b3f3c50d89":[4,2,0,0,1,5,5,1,0,4,6,0]
+"d8/df0/classSaveSetsPage.html#a9d0ad25be76d207175081c52535326fc":[4,1,0,717,9]
 };

@@ -5,7 +5,7 @@ var classSelectZone =
     [ "SelectZone", "d7/ddf/classSelectZone.html#af2112d1ee84e526a4d7a5a84a4e24585", null ],
     [ "~SelectZone", "d7/ddf/classSelectZone.html#a2998c88aa7a928d43461bed0568f1302", null ],
     [ "buildStackParams", "d7/ddf/classSelectZone.html#adea31b5636e65a81dd6c8faf58d5bf98", null ],
-    [ "calcDropIndexFromY", "d7/ddf/classSelectZone.html#a43b48400e4e0148f156407d02e054a6c", null ],
+    [ "calcDropIndexFromY", "d7/ddf/classSelectZone.html#a625ce7de1f6e5489f18e478bbd5720bf", null ],
     [ "computeZoneLayout", "d7/ddf/classSelectZone.html#a8721b3d5c38e2c43a67f4a8b9280b82f", null ],
     [ "escapeClipForHover", "d7/ddf/classSelectZone.html#a056d38ba3837dd8f53a448fc9dfb7ee5", null ],
     [ "findOwningSelectZone", "d7/ddf/classSelectZone.html#a8ada2034c8dd1d66f6feb1c2d9f7d75f", null ],

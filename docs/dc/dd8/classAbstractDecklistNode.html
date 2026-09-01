@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-25-Development-3.1.0-beta.9</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-01-Development-3.1.0-beta.10</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -126,6 +126,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9888346a6af100b2f95b5bc4d661711c" id="r_a9888346a6af100b2f95b5bc4d661711c"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a9888346a6af100b2f95b5bc4d661711c">isDeckHeader</a> () const =0</td></tr>
 <tr class="memdesc:a9888346a6af100b2f95b5bc4d661711c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this node is the "deck header" (deck metadata).  <br /></td></tr>
 <tr class="memitem:a0c271fecd144b59d4d9e17de1ca34615" id="r_a0c271fecd144b59d4d9e17de1ca34615"><td class="memItemLeft"><a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a0c271fecd144b59d4d9e17de1ca34615">getParent</a> () const</td></tr>
+<tr class="memitem:afc5f3eb8e9971e4ee240eb3ee5d81f59" id="r_afc5f3eb8e9971e4ee240eb3ee5d81f59"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afc5f3eb8e9971e4ee240eb3ee5d81f59">setParent</a> (<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *newParent)</td></tr>
 <tr class="memitem:a538462c83bd5618501b9ca66fba2b2a0" id="r_a538462c83bd5618501b9ca66fba2b2a0"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a538462c83bd5618501b9ca66fba2b2a0">depth</a> () const</td></tr>
 <tr class="memdesc:a538462c83bd5618501b9ca66fba2b2a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the depth of this node in the tree.  <br /></td></tr>
 <tr class="memitem:af6494038bc06f8ab382381da72934a05" id="r_af6494038bc06f8ab382381da72934a05"><td class="memItemLeft">virtual int&#160;</td><td class="memItemRight"><a class="el" href="#af6494038bc06f8ab382381da72934a05">height</a> () const =0</td></tr>
@@ -142,7 +143,7 @@ Public Member Functions</h2></td></tr>
 <tr id="pub-methods-1" class="groupHeader"><td colspan="2"><div class="groupHeader">XML serialization</div></td></tr>
 <tr><td colspan="2" class="ititle"><div class="groupText"><p>These methods support reading and writing decks from/to Cockatrice deck XML format. </p>
 </div></td></tr>
-<tr class="memitem:aca429c72525ac78daa53e22cfdb360b4" id="r_aca429c72525ac78daa53e22cfdb360b4"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#aca429c72525ac78daa53e22cfdb360b4">readElement</a> (QXmlStreamReader *xml)=0</td></tr>
+<tr class="memitem:a32b08d1968b2f3fb9ac459d9100a7838" id="r_a32b08d1968b2f3fb9ac459d9100a7838"><td class="memItemLeft">virtual int&#160;</td><td class="memItemRight"><a class="el" href="#a32b08d1968b2f3fb9ac459d9100a7838">readElement</a> (QXmlStreamReader *xml, int limit)=0</td></tr>
 <tr class="memitem:aa63a74f48c8f68b8ec7a89a4612fce3f" id="r_aa63a74f48c8f68b8ec7a89a4612fce3f"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#aa63a74f48c8f68b8ec7a89a4612fce3f">writeElement</a> (QXmlStreamWriter *xml)=0</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
@@ -526,8 +527,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aca429c72525ac78daa53e22cfdb360b4" name="aca429c72525ac78daa53e22cfdb360b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca429c72525ac78daa53e22cfdb360b4">&#9670;&#160;</a></span>readElement()</h2>
+<a id="a32b08d1968b2f3fb9ac459d9100a7838" name="a32b08d1968b2f3fb9ac459d9100a7838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32b08d1968b2f3fb9ac459d9100a7838">&#9670;&#160;</a></span>readElement()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -536,10 +537,14 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool AbstractDecklistNode::readElement </td>
+          <td class="memname">virtual int AbstractDecklistNode::readElement </td>
           <td>(</td>
-          <td class="paramtype">QXmlStreamReader *</td>          <td class="paramname"><span class="paramname"><em>xml</em></span></td><td>)</td>
+          <td class="paramtype">QXmlStreamReader *</td>          <td class="paramname"><span class="paramname"><em>xml</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>limit</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -549,7 +554,38 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d3/de9/classAbstractDecklistCardNode.html#aa9381e2c36b8e3f59e5e44a6524fa8a5">AbstractDecklistCardNode</a>, and <a class="el" href="../../d4/d55/classInnerDecklistNode.html#a2bd2961ab32a0813bc3345bed4332844">InnerDecklistNode</a>.</p>
+<p>Implemented in <a class="el" href="../../d3/de9/classAbstractDecklistCardNode.html#adee7aff5f6433fa703e6b98b66aba25e">AbstractDecklistCardNode</a>, and <a class="el" href="../../d4/d55/classInnerDecklistNode.html#a8ecb64a4ba030025218738997a53d7c5">InnerDecklistNode</a>.</p>
+
+</div>
+</div>
+<a id="afc5f3eb8e9971e4ee240eb3ee5d81f59" name="afc5f3eb8e9971e4ee240eb3ee5d81f59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc5f3eb8e9971e4ee240eb3ee5d81f59">&#9670;&#160;</a></span>setParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractDecklistNode::setParent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *</td>          <td class="paramname"><span class="paramname"><em>newParent</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newParent</td><td>Reparent this node. The new parent takes ownership. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

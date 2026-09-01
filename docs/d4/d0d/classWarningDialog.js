@@ -1,7 +1,7 @@
 var classWarningDialog =
 [
-    [ "WarningDialog", "d4/d0d/classWarningDialog.html#a492e5e9686c6d038fb22b3117208a7c6", null ],
-    [ "addWarningOption", "d4/d0d/classWarningDialog.html#a643fbc5c75eedb6be06df2833d7feb1c", null ],
+    [ "WarningDialog", "d4/d0d/classWarningDialog.html#a663f0c112d04ae81106b746e59afa8de", null ],
+    [ "addWarningOption", "d4/d0d/classWarningDialog.html#a26324a0dc7b32429498b2a6597368d69", null ],
     [ "getDeleteMessages", "d4/d0d/classWarningDialog.html#aa8873b348c0485da093acbddeba8b463", null ],
     [ "getName", "d4/d0d/classWarningDialog.html#ad65ee5fd7e4426f402c8bb31861f33ba", null ],
     [ "getReason", "d4/d0d/classWarningDialog.html#a1343040fc8046df25ecadf25651a8a58", null ],

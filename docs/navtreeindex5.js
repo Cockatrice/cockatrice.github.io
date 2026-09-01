@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"d1/d53/classAbstractTabDeckEditor.html#a00cf12dcbaa0cb66a66f09c85b06a676":[3,3,1,0,0,27],
 "d1/d53/classAbstractTabDeckEditor.html#a00cf12dcbaa0cb66a66f09c85b06a676":[3,3,1,1,0,0,27],
 "d1/d53/classAbstractTabDeckEditor.html#a02a22dd0833c0b5d7ff9aac7416b7af0":[3,1,0,1,0,0,28],
 "d1/d53/classAbstractTabDeckEditor.html#a02a22dd0833c0b5d7ff9aac7416b7af0":[3,1,0,4,0,0,28],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "d1/d53/classAbstractTabDeckEditor.html#ae139f0f8412ffe93aaa8fda373a43130":[3,1,0,1,0,0,17],
 "d1/d53/classAbstractTabDeckEditor.html#ae139f0f8412ffe93aaa8fda373a43130":[3,1,0,4,0,0,17],
 "d1/d53/classAbstractTabDeckEditor.html#ae139f0f8412ffe93aaa8fda373a43130":[3,3,1,0,0,17],
-"d1/d53/classAbstractTabDeckEditor.html#ae139f0f8412ffe93aaa8fda373a43130":[3,3,1,1,0,0,17],
-"d1/d53/classAbstractTabDeckEditor.html#ae2f4248db9f26ecc485ccd2a05bebe13":[3,1,0,1,0,0,8]
+"d1/d53/classAbstractTabDeckEditor.html#ae139f0f8412ffe93aaa8fda373a43130":[3,3,1,1,0,0,17]
 };

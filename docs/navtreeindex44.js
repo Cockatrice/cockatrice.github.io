@@ -1,5 +1,9 @@
 var NAVTREEINDEX44 =
 {
+"d8/df0/classSaveSetsPage.html#abf9431cd242ae16431d85444d851da25":[4,1,0,717,2],
+"d8/df0/classSaveSetsPage.html#af78995d2674f8099dd7cde423cb7f260":[4,1,0,717,3],
+"d8/df0/mana__distribution__widget_8cpp.html":[4,2,0,0,1,5,5,1,0,4,6],
+"d8/df0/mana__distribution__widget_8cpp.html#ab422457084c8880ca23ab8b3f3c50d89":[4,2,0,0,1,5,5,1,0,4,6,0],
 "d8/df3/game__replay_8proto.html":[4,2,0,8,0,0,0,121],
 "d8/df3/game__replay_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,121,1],
 "d8/df5/classZip.html":[4,1,0,929],
@@ -245,9 +249,5 @@ var NAVTREEINDEX44 =
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#a718fcbe10c49cde9ebf9158e157f38a4":[4,1,0,4,42,16],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#a75b661651ebd771a310a14f205a9aa87":[4,0,0,18,43,22],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#a75b661651ebd771a310a14f205a9aa87":[4,1,0,4,42,22],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#aadb330f199dc95345c7318199e8abcdc":[4,0,0,18,43,23],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#aadb330f199dc95345c7318199e8abcdc":[4,1,0,4,42,23],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#ab556201c50d16952717dbe812339adbb":[4,0,0,18,43,17],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#ab556201c50d16952717dbe812339adbb":[4,1,0,4,42,17],
-"d9/d27/structpeg_1_1AssignIDToDefinition.html#ab8cbd5c8d2101d30a80835a0ed492eba":[4,0,0,18,43,6]
+"d9/d27/structpeg_1_1AssignIDToDefinition.html#aadb330f199dc95345c7318199e8abcdc":[4,0,0,18,43,23]
 };

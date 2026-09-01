@@ -1,16 +1,20 @@
 var NAVTREEINDEX39 =
 {
+"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a6713f37abf62df6857f727cf8843a35d":[3,5,1,0,0,14,5],
+"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a77f119a06f75035ab829a725e3574000":[3,3,2,2,2,0,14,0],
+"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a77f119a06f75035ab829a725e3574000":[3,3,2,3,0,0,14,0],
+"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a77f119a06f75035ab829a725e3574000":[3,5,1,0,0,14,0],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a977ca3d14dc6c848933c8348f7c9992d":[3,3,2,2,2,0,14,4],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a977ca3d14dc6c848933c8348f7c9992d":[3,3,2,3,0,0,14,4],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#a977ca3d14dc6c848933c8348f7c9992d":[3,5,1,0,0,14,4],
-"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#aa38a1aacbf7128d5c4151dcd6a332789":[3,3,2,2,2,0,14,8],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#aa38a1aacbf7128d5c4151dcd6a332789":[3,3,2,3,0,0,14,8],
+"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#aa38a1aacbf7128d5c4151dcd6a332789":[3,3,2,2,2,0,14,8],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#aa38a1aacbf7128d5c4151dcd6a332789":[3,5,1,0,0,14,8],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#ac88101a19216656e2ba8fdf47ee02315":[3,3,2,2,2,0,14,1],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#ac88101a19216656e2ba8fdf47ee02315":[3,3,2,3,0,0,14,1],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#ac88101a19216656e2ba8fdf47ee02315":[3,5,1,0,0,14,1],
-"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#aef8a951c0f43e2cac224415641240cd1":[3,3,2,2,2,0,14,6],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#aef8a951c0f43e2cac224415641240cd1":[3,3,2,3,0,0,14,6],
+"d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#aef8a951c0f43e2cac224415641240cd1":[3,3,2,2,2,0,14,6],
 "d8/d0f/structEdhrecCommanderApiResponseAverageDeckStatistics.html#aef8a951c0f43e2cac224415641240cd1":[3,5,1,0,0,14,6],
 "d8/d10/serverinfo__game_8proto.html":[4,2,0,8,0,0,0,170],
 "d8/d10/serverinfo__game_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,170,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX39 =
 "d8/d45/interface__sound__settings__provider_8h_source.html":[4,2,0,5,0,0,12],
 "d8/d49/classRoomSelector.html":[4,1,0,716],
 "d8/d49/classRoomSelector.html#a1202f0702c43e950cc764f8ebe588a4a":[4,1,0,716,1],
-"d8/d49/classRoomSelector.html#a2f2134cf3950644df2e718f1b9c2aa73":[4,1,0,716,0],
-"d8/d49/classRoomSelector.html#a6e08a79f741c0d7f6797652a81405cda":[4,1,0,716,8],
-"d8/d49/classRoomSelector.html#a6f9770fee9c39d8c8b930152858607b9":[4,1,0,716,6],
-"d8/d49/classRoomSelector.html#a7be8523b3aec333f1bef11fe68fc8e04":[4,1,0,716,3],
-"d8/d49/classRoomSelector.html#a8e5032e87de9a830ff7243dc5283fd63":[4,1,0,716,5]
+"d8/d49/classRoomSelector.html#a2f2134cf3950644df2e718f1b9c2aa73":[4,1,0,716,0]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX23 =
 {
+"d4/dbe/structServerInfo__Game.html#aef81dcc5d1ea28568e8b7980df4bf2da":[4,1,0,763,9],
+"d4/dbe/structServerInfo__Game.html#afa71312165e7c3f6350538a368a820b4":[4,1,0,763,14],
+"d4/dbe/structServerInfo__PlayerPing.html":[4,1,0,767],
 "d4/dbe/structServerInfo__PlayerPing.html#a0d9a4ca37987f9677b6efaae6267814f":[4,1,0,767,1],
 "d4/dbe/structServerInfo__PlayerPing.html#a2a179c21adbb641805ba447dde5036f5":[4,1,0,767,0],
 "d4/dc3/event__notify__user_8proto.html":[4,2,0,8,0,0,0,95],
@@ -31,8 +34,8 @@ var NAVTREEINDEX23 =
 "d4/dc8/namespaceHomeTabButtonColor.html#affeaff1dd38134fcce07fddc4b1b127aab7c76442baf4eb6b5c5f678f0bf5345b":[4,0,0,14,1,0],
 "d4/dca/structContext__DeckSelect_1_1GameEventContext.html":[4,1,0,259,0],
 "d4/dca/structContext__DeckSelect_1_1GameEventContext.html#a1429614ce5174c4f58c5cf728c2b24a9":[4,1,0,259,0,0],
-"d4/dce/settings__migration__test_8cpp.html":[4,2,0,14,5,2],
-"d4/dce/settings__migration__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,5,2,0],
+"d4/dce/settings__migration__test_8cpp.html":[4,2,0,14,6,2],
+"d4/dce/settings__migration__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,6,2,0],
 "d4/dcf/tab__edhrec_8h.html":[3,1,0,1,2],
 "d4/dd0/event__replay__added_8proto.html":[4,2,0,8,0,0,0,99],
 "d4/dd0/event__replay__added_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,99,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX23 =
 "d5/d0e/classServatrice.html#a9a62fac8386df5932097cb0cca455ed7":[4,1,0,725,26],
 "d5/d0e/classServatrice.html#a9c8dca71c55d2733b3b322f1880b6ec7":[4,1,0,725,18],
 "d5/d0e/classServatrice.html#a9d63c9c2c752772bc6f3e214038c827b":[4,1,0,725,100],
-"d5/d0e/classServatrice.html#a9f623c4f5ff9cde895cbda4797d2ce64":[4,1,0,725,17],
-"d5/d0e/classServatrice.html#aa0d7ef03f18424135df70e6c8f9306f7":[4,1,0,725,44],
-"d5/d0e/classServatrice.html#aa45154582d7c19c02a79dc0886c030e4":[4,1,0,725,49],
-"d5/d0e/classServatrice.html#aa646ce5587af4afe086ad9e7139318e2":[4,1,0,725,116]
+"d5/d0e/classServatrice.html#a9f623c4f5ff9cde895cbda4797d2ce64":[4,1,0,725,17]
 };

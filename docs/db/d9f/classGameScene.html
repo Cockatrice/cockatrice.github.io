@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-08-25-Development-3.1.0-beta.9</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-01-Development-3.1.0-beta.10</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -244,6 +244,8 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:abcfad631804efabf322bb70d673a063f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer for scene animations.  <br /></td></tr>
 <tr class="memitem:a233a5d8534c7e8830f7c379d37b0565b" id="r_a233a5d8534c7e8830f7c379d37b0565b"><td class="memItemLeft">QHash&lt; QObject *, <a class="el" href="../../da/dd9/classIAnimatedItem.html">IAnimatedItem</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a233a5d8534c7e8830f7c379d37b0565b">animatedItems</a></td></tr>
 <tr class="memdesc:a233a5d8534c7e8830f7c379d37b0565b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Items currently animating.  <br /></td></tr>
+<tr class="memitem:a827eae4e94cfd52eb9292175eb39d003" id="r_a827eae4e94cfd52eb9292175eb39d003"><td class="memItemLeft">QHash&lt; QObject *, QMetaObject::Connection &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a827eae4e94cfd52eb9292175eb39d003">animationItemConnections</a></td></tr>
+<tr class="memdesc:a827eae4e94cfd52eb9292175eb39d003"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroyed-&gt;removeAnimatedItem handles per animated item  <br /></td></tr>
 <tr class="memitem:a9caa047f70d1ed75024e3caf3bbb7229" id="r_a9caa047f70d1ed75024e3caf3bbb7229"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a9caa047f70d1ed75024e3caf3bbb7229">playerRotation</a></td></tr>
 <tr class="memdesc:a9caa047f70d1ed75024e3caf3bbb7229"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotation offset for player layout.  <br /></td></tr>
 <tr class="memitem:adfdee64967aaf3c0b5f9da88deb4795d" id="r_adfdee64967aaf3c0b5f9da88deb4795d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#adfdee64967aaf3c0b5f9da88deb4795d">rearranging</a> = false</td></tr>
@@ -2142,6 +2144,30 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Items currently animating. </p>
+
+</div>
+</div>
+<a id="a827eae4e94cfd52eb9292175eb39d003" name="a827eae4e94cfd52eb9292175eb39d003"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a827eae4e94cfd52eb9292175eb39d003">&#9670;&#160;</a></span>animationItemConnections</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QObject *, QMetaObject::Connection&gt; GameScene::animationItemConnections</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>destroyed-&gt;removeAnimatedItem handles per animated item </p>
 
 </div>
 </div>

@@ -1,5 +1,8 @@
 var NAVTREEINDEX21 =
 {
+"d4/d4b/structCommand__ShutdownServer_1_1AdminCommand.html#ab1f7a9b1418b7673d6ec6bd3245cca1b":[4,1,0,237,0,0],
+"d4/d4d/group__CardWidgets.html":[3,1,0,2],
+"d4/d4d/group__CardWidgets.html":[3,2,3],
 "d4/d51/card__set_8cpp.html":[4,2,0,2,0,0,5,0],
 "d4/d55/classInnerDecklistNode.html":[4,1,0,501],
 "d4/d55/classInnerDecklistNode.html#a0b561ece7a960acc3d8c3f00865cbf54":[4,1,0,501,2],
@@ -7,7 +10,6 @@ var NAVTREEINDEX21 =
 "d4/d55/classInnerDecklistNode.html#a0bb97e7ad6ce56b677f79f137eb21b55":[4,1,0,501,3],
 "d4/d55/classInnerDecklistNode.html#a2013d48b4954cd0519c3f6d2c331e019":[4,1,0,501,9],
 "d4/d55/classInnerDecklistNode.html#a20d24c3c56a0e559f73445a6ca0100a3":[4,1,0,501,6],
-"d4/d55/classInnerDecklistNode.html#a2bd2961ab32a0813bc3345bed4332844":[4,1,0,501,16],
 "d4/d55/classInnerDecklistNode.html#a45b30bbf3de92fcf4d16b9ca097a7392":[4,1,0,501,1],
 "d4/d55/classInnerDecklistNode.html#a482129682c74f0bf00377fab38d0f193":[4,1,0,501,17],
 "d4/d55/classInnerDecklistNode.html#a4f08f49557660bd24e2e2e705b6596b9":[4,1,0,501,7],
@@ -17,6 +19,7 @@ var NAVTREEINDEX21 =
 "d4/d55/classInnerDecklistNode.html#a60a83b3eae9d802ea394dea41d60bfe9":[4,1,0,501,22],
 "d4/d55/classInnerDecklistNode.html#a70bc4a2edf4890b41357f4ca6c4ba1ba":[4,1,0,501,11],
 "d4/d55/classInnerDecklistNode.html#a7dea35bc93c3e894a5ee5413f721767b":[4,1,0,501,18],
+"d4/d55/classInnerDecklistNode.html#a8ecb64a4ba030025218738997a53d7c5":[4,1,0,501,16],
 "d4/d55/classInnerDecklistNode.html#a92527157347c6cce163b5da1f80bf997":[4,1,0,501,15],
 "d4/d55/classInnerDecklistNode.html#a94abeedc57ff33366ef3f9e1029e3615":[4,1,0,501,14],
 "d4/d55/classInnerDecklistNode.html#a94ec1bd0a786a8943743305507631407":[4,1,0,501,23],
@@ -246,8 +249,5 @@ var NAVTREEINDEX21 =
 "d4/d94/release__channel_8cpp.html#a85c4dc6c89645ce9062ee949c5adfff3":[4,2,0,0,1,0,0,3,1,2,3],
 "d4/d94/release__channel_8cpp.html#a9b4f0a8fb8227069a24f9ddca683fedb":[4,2,0,0,1,0,0,3,1,2,0],
 "d4/d94/release__channel_8cpp.html#aaf4ad2018b7fdbe17c70365d1e25aab8":[4,2,0,0,1,0,0,3,1,2,6],
-"d4/d94/structResponse__JoinRoom_1_1Response.html":[4,1,0,685,0],
-"d4/d94/structResponse__JoinRoom_1_1Response.html#a36c2e3c8a393d7ffdd7e408b89aa7065":[4,1,0,685,0,0],
-"d4/d95/dlg__forgot__password__challenge_8h.html":[3,1,0,0,0,3,2],
-"d4/d95/dlg__forgot__password__challenge_8h.html":[3,1,0,9,0,3,2]
+"d4/d94/structResponse__JoinRoom_1_1Response.html":[4,1,0,685,0]
 };

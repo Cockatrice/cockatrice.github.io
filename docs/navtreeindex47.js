@@ -1,5 +1,9 @@
 var NAVTREEINDEX47 =
 {
+"d9/da3/classManaBaseConfigDialog.html#a826ecfe4986c2c0b81c6c458d13fdcbb":[4,1,0,550,1],
+"d9/da3/classManaBaseConfigDialog.html#a8c3f6b40da36f616b3c9c3a3c65b4f5d":[4,1,0,550,2],
+"d9/da3/classManaBaseConfigDialog.html#aa7974b7c32707f08fa8ffc6dc4a0c5b9":[4,1,0,550,5],
+"d9/da3/classManaBaseConfigDialog.html#acc375c06ef712e8e2cb94112afef7e90":[4,1,0,550,3],
 "d9/da3/group__Game.html":[3,4],
 "d9/da4/draw__probability__config_8cpp.html":[4,2,0,0,1,5,5,1,0,0,0],
 "d9/da4/event__del__counter_8proto.html":[4,2,0,8,0,0,0,75],
@@ -115,12 +119,12 @@ var NAVTREEINDEX47 =
 "d9/dc2/structLoadedDeck.html#a4a1bb584eb17822779da6375c7f1bc9f":[4,1,0,535,2],
 "d9/dc2/structLoadedDeck.html#aca2b86f22377d8077723f5256e4932dd":[4,1,0,535,3],
 "d9/dc2/structLoadedDeck.html#ad615c97838f9067811c30d26d9e4ca6c":[4,1,0,535,1],
-"d9/dc4/clipboard__testing_8h.html":[4,2,0,14,2,1],
-"d9/dc4/clipboard__testing_8h.html#a3f90ecdbcafe9aa87057325ef230057e":[4,2,0,14,2,1,4],
-"d9/dc4/clipboard__testing_8h.html#a60baaff12e89fb18f386becf1270635d":[4,2,0,14,2,1,3],
-"d9/dc4/clipboard__testing_8h.html#ae254fe1bcc890964653df7d893a1bcc5":[4,2,0,14,2,1,1],
-"d9/dc4/clipboard__testing_8h.html#ae7d4ab1fe617c1c2c33a471737016983":[4,2,0,14,2,1,2],
-"d9/dc4/clipboard__testing_8h_source.html":[4,2,0,14,2,1],
+"d9/dc4/clipboard__testing_8h.html":[4,2,0,14,3,1],
+"d9/dc4/clipboard__testing_8h.html#a3f90ecdbcafe9aa87057325ef230057e":[4,2,0,14,3,1,4],
+"d9/dc4/clipboard__testing_8h.html#a60baaff12e89fb18f386becf1270635d":[4,2,0,14,3,1,3],
+"d9/dc4/clipboard__testing_8h.html#ae254fe1bcc890964653df7d893a1bcc5":[4,2,0,14,3,1,1],
+"d9/dc4/clipboard__testing_8h.html#ae7d4ab1fe617c1c2c33a471737016983":[4,2,0,14,3,1,2],
+"d9/dc4/clipboard__testing_8h_source.html":[4,2,0,14,3,1],
 "d9/dc7/settings__migration_8h.html":[4,2,0,10,0,0,43],
 "d9/dc7/settings__migration_8h_source.html":[4,2,0,10,0,0,43],
 "d9/dc8/get__text__with__max_8h.html":[3,1,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX47 =
 "d9/dcf/classTabDeckEditorVisualTabWidget.html#ae0220d459c84aec8a8539ce2e092845b":[3,1,0,4,12,12],
 "d9/dcf/classTabDeckEditorVisualTabWidget.html#ae0220d459c84aec8a8539ce2e092845b":[3,3,1,1,12,12],
 "d9/dcf/classTabDeckEditorVisualTabWidget.html#ae54b9c6d95b36c6fb041092bbf68c8c5":[3,1,0,4,12,14],
-"d9/dcf/classTabDeckEditorVisualTabWidget.html#ae54b9c6d95b36c6fb041092bbf68c8c5":[3,3,1,1,12,14],
-"d9/dcf/classTabDeckEditorVisualTabWidget.html#af10392afb62b1d5edc4b79a1fdc45774":[3,1,0,4,12,1],
-"d9/dcf/classTabDeckEditorVisualTabWidget.html#af10392afb62b1d5edc4b79a1fdc45774":[3,3,1,1,12,1],
-"d9/dcf/classTabDeckEditorVisualTabWidget.html#af4f2e96fc9a2776f042a3cb0aa6efe83":[3,1,0,4,12,3],
-"d9/dcf/classTabDeckEditorVisualTabWidget.html#af4f2e96fc9a2776f042a3cb0aa6efe83":[3,3,1,1,12,3]
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#ae54b9c6d95b36c6fb041092bbf68c8c5":[3,3,1,1,12,14]
 };

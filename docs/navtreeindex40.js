@@ -1,5 +1,9 @@
 var NAVTREEINDEX40 =
 {
+"d8/d49/classRoomSelector.html#a6e08a79f741c0d7f6797652a81405cda":[4,1,0,716,8],
+"d8/d49/classRoomSelector.html#a6f9770fee9c39d8c8b930152858607b9":[4,1,0,716,6],
+"d8/d49/classRoomSelector.html#a7be8523b3aec333f1bef11fe68fc8e04":[4,1,0,716,3],
+"d8/d49/classRoomSelector.html#a8e5032e87de9a830ff7243dc5283fd63":[4,1,0,716,5],
 "d8/d49/classRoomSelector.html#a9f7229adf652b6ad2dc74662f84cd026":[4,1,0,716,4],
 "d8/d49/classRoomSelector.html#abaade0104ae80bf3da9564219291f00c":[4,1,0,716,2],
 "d8/d49/classRoomSelector.html#ac99a7915be0c0053a398b1e1aba17b8f":[4,1,0,716,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX40 =
 "d8/d7d/abstract__deck__list__node_8h.html#ga8ea3802f8561f16be908a83a08a796ceacd701b91fcc9e93950ad71fa8f7eb47a":[3,3,0,5,1],
 "d8/d7d/abstract__deck__list__node_8h.html#ga8ea3802f8561f16be908a83a08a796ceacd701b91fcc9e93950ad71fa8f7eb47a":[4,2,0,3,0,0,0,3,0,1],
 "d8/d7d/abstract__deck__list__node_8h_source.html":[4,2,0,3,0,0,0,3],
-"d8/d7d/custom__zone__menu_8h.html":[3,4,0,3,1,0],
-"d8/d7e/structCommand__CreateToken_1_1GameCommand.html":[4,1,0,155,0],
-"d8/d7e/structCommand__CreateToken_1_1GameCommand.html#ababfe2a6ade6a3f9c545a181079353c6":[4,1,0,155,0,0],
-"d8/d7f/response__warn__history_8proto.html":[4,2,0,8,0,0,0,158],
-"d8/d7f/response__warn__history_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,158,2]
+"d8/d7d/custom__zone__menu_8h.html":[3,4,0,3,1,0]
 };

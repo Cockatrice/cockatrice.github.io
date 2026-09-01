@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"d2/d32/classVisualDatabaseDisplayWidget.html#ac9d7940df9b7036c68fac9b4b9f4b1b6":[4,1,0,908,9],
 "d2/d32/classVisualDatabaseDisplayWidget.html#acac3f46bd7c455aedfc8e8e1aad0d48d":[4,1,0,908,27],
 "d2/d32/classVisualDatabaseDisplayWidget.html#acc48c163a1a97bf4e653d265afc1bc9b":[4,1,0,908,11],
 "d2/d32/classVisualDatabaseDisplayWidget.html#ad57f48ced9241eec01eac9b2c7ed2dc3":[4,1,0,908,39],
@@ -102,6 +103,8 @@ var NAVTREEINDEX11 =
 "d2/d52/animated__item_8h.html":[3,4,0,4,3],
 "d2/d52/overlap__widget_8h.html":[3,1,9],
 "d2/d54/group__Widgets.html":[3,1,0],
+"d2/d55/user__list__dialog_8h.html":[4,2,0,0,1,5,5,11,2,15],
+"d2/d55/user__list__dialog_8h_source.html":[4,2,0,0,1,5,5,11,2,15],
 "d2/d56/archidekt__deck__listing__api__response_8h.html":[4,2,0,0,1,5,5,13,0,0,0,4],
 "d2/d56/archidekt__deck__listing__api__response_8h_source.html":[4,2,0,0,1,5,5,13,0,0,0,4],
 "d2/d59/card__info__frame__widget_8cpp.html":[4,2,0,0,1,5,5,0,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX11 =
 "d2/d73/classBannerWidget.html#a06a7bf014a4042d990455902b97a0e49":[4,1,0,58,0],
 "d2/d73/classBannerWidget.html#a1251888b1e98ccc658a1779e6148933c":[4,1,0,58,15],
 "d2/d73/classBannerWidget.html#a2c373a82328dbff984a203907e28bba4":[4,1,0,58,10],
-"d2/d73/classBannerWidget.html#a65c09129bdeeab9af411c0c2f03a1e6c":[4,1,0,58,14],
-"d2/d73/classBannerWidget.html#a7b9eddf290bcac74c51e681d2ebd2ee1":[4,1,0,58,11],
-"d2/d73/classBannerWidget.html#a80a09874156ce940818003fa253c944c":[4,1,0,58,4],
-"d2/d73/classBannerWidget.html#a8ccfc909c2c2d1882784d848a686e4d5":[4,1,0,58,1]
+"d2/d73/classBannerWidget.html#a65c09129bdeeab9af411c0c2f03a1e6c":[4,1,0,58,14]
 };

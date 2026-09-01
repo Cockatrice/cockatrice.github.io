@@ -124,6 +124,7 @@ var NAVTREEINDEX3 =
 "d0/ddf/dlg__connect_8cpp.html":[4,2,0,0,1,5,5,3,0],
 "d0/ddf/structCommand__Message_1_1SessionCommand.html":[4,1,0,195,0],
 "d0/ddf/structCommand__Message_1_1SessionCommand.html#aac13c094f53a4889a869438b0229d9c0":[4,1,0,195,0,0],
+"d0/de0/user__list__dialog_8cpp.html":[4,2,0,0,1,5,5,11,2,14],
 "d0/de1/download__settings_8h.html":[3,7,2,0],
 "d0/de2/view__zone_8h.html":[3,4,0,4,1,6],
 "d0/de4/developer_reference.html":[0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "d0/dfe/classVisualDeckStorageWidget.html#ab089396a1ca3a7fcdc230d4b29619c1c":[4,1,0,921,31],
 "d0/dfe/classVisualDeckStorageWidget.html#ab9a452f5c794fa7a9edffc5ad576d194":[4,1,0,921,15],
 "d0/dfe/classVisualDeckStorageWidget.html#ac61f87fecc280a0eb23e0dd44ec8fd7a":[4,1,0,921,27],
-"d0/dfe/classVisualDeckStorageWidget.html#aca243063b6508ec8db077c6e26b51da3":[4,1,0,921,18],
-"d0/dfe/classVisualDeckStorageWidget.html#acc2a1f53f1ec8d66308b905abff74e59":[4,1,0,921,2]
+"d0/dfe/classVisualDeckStorageWidget.html#aca243063b6508ec8db077c6e26b51da3":[4,1,0,921,18]
 };

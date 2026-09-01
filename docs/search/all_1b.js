@@ -19,7 +19,7 @@ var searchData=
   ['warning_5fil_16',['warning_il',['../d3/de2/structResponse__WarnList.html#a3f086552872469a7b1232d6d293673bb',1,'Response_WarnList']]],
   ['warning_5freason_17',['warning_reason',['../d7/d65/structEvent__NotifyUser.html#a85dbbc28fe4a4e27e52826c11916e09e',1,'Event_NotifyUser']]],
   ['warningcategory_18',['WarningCategory',['../de/d7f/structWarningCategory.html',1,'']]],
-  ['warningdialog_19',['WarningDialog',['../d4/d0d/classWarningDialog.html',1,'WarningDialog'],['../d4/d0d/classWarningDialog.html#a492e5e9686c6d038fb22b3117208a7c6',1,'WarningDialog::WarningDialog(const QString userName, const QString clientID, QWidget *parent=nullptr)']]],
+  ['warningdialog_19',['WarningDialog',['../d4/d0d/classWarningDialog.html',1,'WarningDialog'],['../d4/d0d/classWarningDialog.html#a663f0c112d04ae81106b746e59afa8de',1,'WarningDialog::WarningDialog(const QString &amp;userName, const QString &amp;clientID, QWidget *parent=nullptr)']]],
   ['warningoption_20',['warningOption',['../d4/d0d/classWarningDialog.html#af895dabec6402434a15635f4ac5144a0',1,'WarningDialog']]],
   ['warnrequested_21',['warnRequested',['../df/d81/classUserInfoPopup.html#a12f468e0b003aa53938ceb61172091c0',1,'UserInfoPopup']]],
   ['warnuser_5fdialogfinished_22',['warnUser_dialogFinished',['../d7/d67/classUserContextMenu.html#a14c8d11800a7dd0a9e75b947709a686b',1,'UserContextMenu']]],

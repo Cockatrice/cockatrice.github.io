@@ -1,5 +1,8 @@
 var NAVTREEINDEX33 =
 {
+"d6/dbd/classCardItem.html#a8e98c6cf9a950590c8284ca7e43e4a4b":[4,1,0,102,19],
+"d6/dbd/classCardItem.html#a996d111c2d52e73386a4e42dc10817c0":[4,1,0,102,45],
+"d6/dbd/classCardItem.html#aada02ed3a791d16cf4451dc44802442a":[4,1,0,102,37],
 "d6/dbd/classCardItem.html#aaea32d499d90c7fc724d407850a08ba3":[4,1,0,102,5],
 "d6/dbd/classCardItem.html#ab0fe58848e518dcee82a948c5571fe5a":[4,1,0,102,33],
 "d6/dbd/classCardItem.html#ab406049a44e376361f34dec030d99b8c":[4,1,0,102,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX33 =
 "d6/dee/classDlgCreateGame.html#ac006d96d03cc4be08c28e86de96ea475":[4,1,0,320,9],
 "d6/dee/classDlgCreateGame.html#ac2e8fb9a0b6a4d0995e0717dcb49f135":[4,1,0,320,32],
 "d6/dee/classDlgCreateGame.html#ac8c346ad76500355cb35f134b2de4b99":[4,1,0,320,12],
-"d6/dee/classDlgCreateGame.html#ad1de598f72e261102624d700b04d33e9":[4,1,0,320,33],
-"d6/dee/classDlgCreateGame.html#ad3fd619fb9038dcdb783db0d0f359d3a":[4,1,0,320,3],
-"d6/dee/classDlgCreateGame.html#ad892314a252376df5798d32420405bf2":[4,1,0,320,24],
-"d6/dee/classDlgCreateGame.html#ae9bdb54b9dd967d4827064d831baff2b":[4,1,0,320,31]
+"d6/dee/classDlgCreateGame.html#ad1de598f72e261102624d700b04d33e9":[4,1,0,320,33]
 };

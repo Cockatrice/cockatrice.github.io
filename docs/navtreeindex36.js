@@ -1,5 +1,8 @@
 var NAVTREEINDEX36 =
 {
+"d7/d67/classUserContextMenu.html#a64e16baa1f0ad58d148326d05e9ff9fd":[4,1,0,882,26],
+"d7/d67/classUserContextMenu.html#a665a5ddd10995053aeef4d2c185989d9":[4,1,0,882,17],
+"d7/d67/classUserContextMenu.html#a7597e1651cbbbfb2b0b74280d7f02aef":[4,1,0,882,33],
 "d7/d67/classUserContextMenu.html#a7fa5037a417fa7cf113822ce5f8fb7b0":[4,1,0,882,6],
 "d7/d67/classUserContextMenu.html#a80950502acd13ce4e0d6e0dff7573f7e":[4,1,0,882,9],
 "d7/d67/classUserContextMenu.html#a814da88f25e73f6b0e2b6ea21e245f12":[4,1,0,882,43],
@@ -46,8 +49,8 @@ var NAVTREEINDEX36 =
 "d7/d6a/interface__cards__display__settings__provider_8h_source.html":[4,2,0,5,0,0,4],
 "d7/d6a/structResponse__ReplayGetCode_1_1Response.html":[4,1,0,695,0],
 "d7/d6a/structResponse__ReplayGetCode_1_1Response.html#a278577abbe08e40a645f348e29c68701":[4,1,0,695,0,0],
-"d7/d6b/user__list__panel__widget_8h.html":[4,2,0,0,1,5,5,11,2,19],
-"d7/d6b/user__list__panel__widget_8h_source.html":[4,2,0,0,1,5,5,11,2,19],
+"d7/d6b/user__list__panel__widget_8h.html":[4,2,0,0,1,5,5,11,2,21],
+"d7/d6b/user__list__panel__widget_8h_source.html":[4,2,0,0,1,5,5,11,2,21],
 "d7/d6d/tab__visual__database__display_8cpp.html":[4,2,0,0,1,5,5,13,37],
 "d7/d6f/appearance__settings__page_8cpp.html":[4,2,0,0,1,5,5,12,2],
 "d7/d71/structResponse__WarnList_1_1Response.html":[4,1,0,707,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX36 =
 "d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,1,0,8,4],
 "d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,3,2,2,2,0,0,4],
 "d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,3,2,3,0,0,0,4],
-"d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,5,1,0,0,0,4],
-"d7/d9a/group__GameGraphicsPlayers.html":[3,4,0,4,0],
-"d7/d9a/structpeg_1_1KeywordGuardData.html":[4,0,0,18,16],
-"d7/d9a/structpeg_1_1KeywordGuardData.html":[4,1,0,4,15]
+"d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,5,1,0,0,0,4]
 };

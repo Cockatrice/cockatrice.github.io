@@ -1,5 +1,8 @@
 var NAVTREEINDEX37 =
 {
+"d7/d9a/group__GameGraphicsPlayers.html":[3,4,0,4,0],
+"d7/d9a/structpeg_1_1KeywordGuardData.html":[4,0,0,18,16],
+"d7/d9a/structpeg_1_1KeywordGuardData.html":[4,1,0,4,15],
 "d7/d9a/structpeg_1_1KeywordGuardData.html#a28dd1d29e9bc3275eefe6e6cef96a19c":[4,0,0,18,16,3],
 "d7/d9a/structpeg_1_1KeywordGuardData.html#a28dd1d29e9bc3275eefe6e6cef96a19c":[4,1,0,4,15,3],
 "d7/d9a/structpeg_1_1KeywordGuardData.html#a6b1ed84a02cd2d3c5a8cd5a3f53275ac":[4,0,0,18,16,2],
@@ -31,11 +34,11 @@ var NAVTREEINDEX37 =
 "d7/da4/classOutroPage.html#aa34e529ed73c494afcbf36469b876c50":[4,1,0,588,1],
 "d7/da4/classOutroPage.html#aa828bf73298a1345999ac01d62b70c33":[4,1,0,588,0],
 "d7/da7/player__menu_8cpp.html":[4,2,0,0,1,4,4,0,13],
-"d7/dac/clipboard__testing_8cpp.html":[4,2,0,14,2,0],
-"d7/dac/clipboard__testing_8cpp.html#a3f90ecdbcafe9aa87057325ef230057e":[4,2,0,14,2,0,3],
-"d7/dac/clipboard__testing_8cpp.html#a60baaff12e89fb18f386becf1270635d":[4,2,0,14,2,0,2],
-"d7/dac/clipboard__testing_8cpp.html#a8b3efa4770e747d1b8a97ed270830579":[4,2,0,14,2,0,0],
-"d7/dac/clipboard__testing_8cpp.html#ae7d4ab1fe617c1c2c33a471737016983":[4,2,0,14,2,0,1],
+"d7/dac/clipboard__testing_8cpp.html":[4,2,0,14,3,0],
+"d7/dac/clipboard__testing_8cpp.html#a3f90ecdbcafe9aa87057325ef230057e":[4,2,0,14,3,0,3],
+"d7/dac/clipboard__testing_8cpp.html#a60baaff12e89fb18f386becf1270635d":[4,2,0,14,3,0,2],
+"d7/dac/clipboard__testing_8cpp.html#a8b3efa4770e747d1b8a97ed270830579":[4,2,0,14,3,0,0],
+"d7/dac/clipboard__testing_8cpp.html#ae7d4ab1fe617c1c2c33a471737016983":[4,2,0,14,3,0,1],
 "d7/db2/classGameEventHandler.html":[4,1,0,460],
 "d7/db2/classGameEventHandler.html#a0301a250d83437cd66fd535ad6548cf0":[4,1,0,460,31],
 "d7/db2/classGameEventHandler.html#a0314b457308fd96a157f68d780e717ef":[4,1,0,460,61],
@@ -246,8 +249,5 @@ var NAVTREEINDEX37 =
 "d7/dd1/namespaceZValueLayerManager.html#ad9bba7bf3b723d6c351eb777b20e0c81":[4,0,0,30,2],
 "d7/dd2/oracle_2src_2main_8h.html":[4,2,0,12,0,4],
 "d7/dd2/oracle_2src_2main_8h.html#a5478ed32ecba2ea3746feedf3a4d896e":[4,2,0,12,0,4,2],
-"d7/dd2/oracle_2src_2main_8h.html#a8673a2e2e7004cad43f37daf45ea02db":[4,2,0,12,0,4,1],
-"d7/dd2/oracle_2src_2main_8h.html#a95459f5f6bf2f4de18c7b62e60fe5a75":[4,2,0,12,0,4,4],
-"d7/dd2/oracle_2src_2main_8h.html#a9f8b1077cdf88022508dd967530d4e8b":[4,2,0,12,0,4,0],
-"d7/dd2/oracle_2src_2main_8h.html#af6ed40c10ba5fdfc3ba8a6e100e43a3f":[4,2,0,12,0,4,3]
+"d7/dd2/oracle_2src_2main_8h.html#a8673a2e2e7004cad43f37daf45ea02db":[4,2,0,12,0,4,1]
 };

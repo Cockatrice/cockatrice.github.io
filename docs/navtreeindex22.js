@@ -1,5 +1,8 @@
 var NAVTREEINDEX22 =
 {
+"d4/d94/structResponse__JoinRoom_1_1Response.html#a36c2e3c8a393d7ffdd7e408b89aa7065":[4,1,0,685,0,0],
+"d4/d95/dlg__forgot__password__challenge_8h.html":[3,1,0,0,0,3,2],
+"d4/d95/dlg__forgot__password__challenge_8h.html":[3,1,0,9,0,3,2],
 "d4/d95/dlg__forgot__password__challenge_8h.html":[3,5,1,1,0,3,2],
 "d4/d95/group__GameSettings.html":[3,7,3],
 "d4/d97/classConnectionController.html":[4,1,0,256],
@@ -246,8 +249,5 @@ var NAVTREEINDEX22 =
 "d4/dbe/structServerInfo__Game.html#aa5eaa0f09667e99e8e6d2224def72148":[4,1,0,763,13],
 "d4/dbe/structServerInfo__Game.html#ace2fdc98e1f0dd58c229c3671f8c90b3":[4,1,0,763,0],
 "d4/dbe/structServerInfo__Game.html#adad1f4c5b73784893cb6c79beec5e1cf":[4,1,0,763,8],
-"d4/dbe/structServerInfo__Game.html#ae1fd5e8e7747d81e6ba767f39f2d9ca0":[4,1,0,763,12],
-"d4/dbe/structServerInfo__Game.html#aef81dcc5d1ea28568e8b7980df4bf2da":[4,1,0,763,9],
-"d4/dbe/structServerInfo__Game.html#afa71312165e7c3f6350538a368a820b4":[4,1,0,763,14],
-"d4/dbe/structServerInfo__PlayerPing.html":[4,1,0,767]
+"d4/dbe/structServerInfo__Game.html#ae1fd5e8e7747d81e6ba767f39f2d9ca0":[4,1,0,763,12]
 };

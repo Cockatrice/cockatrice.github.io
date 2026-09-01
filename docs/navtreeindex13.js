@@ -1,5 +1,8 @@
 var NAVTREEINDEX13 =
 {
+"d2/d98/classPlayerLogic.html#aaf914ecb88ea7f0796f916c424408c0b":[4,1,0,622,30],
+"d2/d98/classPlayerLogic.html#ab0756da6fabb7a39d0e6c0f6bc84676a":[4,1,0,622,70],
+"d2/d98/classPlayerLogic.html#ab24e74f04a19b1f817b604031fb2b415":[4,1,0,622,24],
 "d2/d98/classPlayerLogic.html#ab72bdac7b93e7b4a6c01eac77fe19280":[4,1,0,622,41],
 "d2/d98/classPlayerLogic.html#ab9be3b60982698191d1a3f426d6cf715":[4,1,0,622,68],
 "d2/d98/classPlayerLogic.html#abea9766b1a454fb091f7a2d55533bb77":[4,1,0,622,35],
@@ -246,8 +249,5 @@ var NAVTREEINDEX13 =
 "d2/dd2/structCommand__MoveCard.html#a698c7a79c6fbe04ebd5665c2ff74757a":[4,1,0,196,7],
 "d2/dd2/structCommand__MoveCard.html#a70709f11372384c9191f34cb7281ef77":[4,1,0,196,3],
 "d2/dd2/structCommand__MoveCard.html#a74d16d09b35e5cd318e807d9246942f7":[4,1,0,196,5],
-"d2/dd2/structCommand__MoveCard.html#ac84728ca172e1217be49d0561c6b111f":[4,1,0,196,2],
-"d2/dd5/card__database__setup__page_8cpp.html":[4,2,0,0,1,5,5,6,0,2],
-"d2/dd5/card__in__deck__request_8cpp.html":[4,2,0,0,1,5,5,13,0,1,0,0],
-"d2/dd5/game_8h.html":[3,4,1,4]
+"d2/dd2/structCommand__MoveCard.html#ac84728ca172e1217be49d0561c6b111f":[4,1,0,196,2]
 };

@@ -1,5 +1,10 @@
 var NAVTREEINDEX52 =
 {
+"da/d69/primer_cards.html#exact-card":[0,1,1,2,1],
+"da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard":[0,1,1,2],
+"da/d69/primer_cards.html#printing-info":[0,1,1,2,0],
+"da/d69/primer_cards.html#the-cockatrice-card-library":[0,1,1,0],
+"da/d69/primer_cards.html#using-cards":[0,1,1,3],
 "da/d6b/deck__preview__color__identity__filter__widget_8cpp.html":[4,2,0,0,1,5,5,17,0,0],
 "da/d6b/structListOfCardsToMove.html":[4,1,0,534],
 "da/d6b/structListOfCardsToMove.html#adfe6c526d442933a0c22d0cedd3d3a22":[4,1,0,534,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX52 =
 "da/d8f/deck__file__format_8cpp.html":[4,2,0,0,1,5,1,2],
 "da/d8f/structCommand__DeckList.html":[4,1,0,159],
 "da/d8f/structCommand__GetModeratorLastLogins.html":[4,1,0,176],
-"da/d92/classNoScrollFilter.html":[4,1,0,584],
-"da/d92/classNoScrollFilter.html#a17d85f62373252a8b4a9b4ff6f581543":[4,1,0,584,0],
-"da/d92/classNoScrollFilter.html#aa46dbebd212f91b5193189fd4d0ae0d7":[4,1,0,584,1],
-"da/d94/deck__preview__widget_8h.html":[3,1,0,5,1,0,6],
-"da/d94/deck__preview__widget_8h.html":[3,3,2,0,0,1,0,6],
-"da/d98/group__DeckSettings.html":[3,7,5]
+"da/d92/classNoScrollFilter.html":[4,1,0,584]
 };

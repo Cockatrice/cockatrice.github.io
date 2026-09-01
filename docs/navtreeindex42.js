@@ -1,5 +1,9 @@
 var NAVTREEINDEX42 =
 {
+"d8/d9d/card__info__display__widget_8cpp.html":[4,2,0,0,1,5,5,0,4],
+"d8/d9d/shortcut__treeview_8h.html":[3,7,1,0],
+"d8/d9d/structCommand__JoinGame_1_1RoomCommand.html":[4,1,0,185,0],
+"d8/d9d/structCommand__JoinGame_1_1RoomCommand.html#a63294e00ac32ad0f6075ff08b12e9e25":[4,1,0,185,0,0],
 "d8/d9e/classTappedOutInterface.html":[4,1,0,859],
 "d8/d9e/classTappedOutInterface.html#a17fd5bb2aef01ccfb408f393d5e6f834":[4,1,0,859,2],
 "d8/d9e/classTappedOutInterface.html#a2e37223e280978cdf02d50261109bcdd":[4,1,0,859,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX42 =
 "d8/dc3/classIVisualDeckStorageSettingsProvider.html#a6e79bbe76510f502e2a47a08a3ec1511":[4,1,0,521,17],
 "d8/dc3/classIVisualDeckStorageSettingsProvider.html#a74a0ee2e53518607d2a2c137495234f8":[4,1,0,521,13],
 "d8/dc3/classIVisualDeckStorageSettingsProvider.html#a7eee841f6c6d1c297d25eaec6a38bb85":[4,1,0,521,14],
-"d8/dc3/classIVisualDeckStorageSettingsProvider.html#a9210d43dfff0d0b38cdf55a5b868578a":[4,1,0,521,16],
-"d8/dc3/classIVisualDeckStorageSettingsProvider.html#a92d80c1a5ec34686f991ee1de9d84d05":[4,1,0,521,6],
-"d8/dc3/classIVisualDeckStorageSettingsProvider.html#a9d7736aec61c9175eb7139decf65807f":[4,1,0,521,8],
-"d8/dc3/classIVisualDeckStorageSettingsProvider.html#aa4ac22eaba9b7b21b28d5af5c9205f35":[4,1,0,521,5],
-"d8/dc3/classIVisualDeckStorageSettingsProvider.html#aaa524ba7cf598af858ab561bf5d5c5e4":[4,1,0,521,10]
+"d8/dc3/classIVisualDeckStorageSettingsProvider.html#a9210d43dfff0d0b38cdf55a5b868578a":[4,1,0,521,16]
 };

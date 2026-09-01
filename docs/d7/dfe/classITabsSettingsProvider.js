@@ -7,6 +7,7 @@ var classITabsSettingsProvider =
     [ "getStartupTabIndex", "d7/dfe/classITabsSettingsProvider.html#a029863352f4bd8ebfadb4b674f73aa3f", null ],
     [ "getTabAccountOpen", "d7/dfe/classITabsSettingsProvider.html#a4663cebcfb9ca6a7a36e8c64442e787f", null ],
     [ "getTabAdminOpen", "d7/dfe/classITabsSettingsProvider.html#ab25d121dab5cedcde2108c39a5de2eb3", null ],
+    [ "getTabCardArtRulesOpen", "d7/dfe/classITabsSettingsProvider.html#a63c96522ba4528267213ba8415e2c09b", null ],
     [ "getTabDeckStorageOpen", "d7/dfe/classITabsSettingsProvider.html#ab900ffacf4bafda60b30056bd3ef7764", null ],
     [ "getTabLogOpen", "d7/dfe/classITabsSettingsProvider.html#a5bcbec0e008e6d350d7f78a8baa83f5a", null ],
     [ "getTabModerationOpen", "d7/dfe/classITabsSettingsProvider.html#a6bfee75af09419dd6433f27f2a07e1c4", null ],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"d3/da4/classDlgConnect.html#ab897f80e8f18b568734a4433e7ff02ed":[4,1,0,319,12],
+"d3/da4/classDlgConnect.html#abba92e56a0c619d16db9f04eea616359":[4,1,0,319,2],
+"d3/da4/classDlgConnect.html#abece558ffeb7c697df91097302abad3e":[4,1,0,319,19],
 "d3/da4/classDlgConnect.html#ac3051518474d67107785978a0a08fa02":[4,1,0,319,13],
 "d3/da4/classDlgConnect.html#ac88475468453fba43671d3fc78f0b1a6":[4,1,0,319,9],
 "d3/da4/classDlgConnect.html#acf7651c7d6c6f82f53b1f8193fd32836":[4,1,0,319,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "d3/dd8/sideboard__plan_8h.html":[4,2,0,3,0,0,11],
 "d3/dd8/sideboard__plan_8h_source.html":[4,2,0,3,0,0,11],
 "d3/dda/card__set_8h.html":[4,2,0,2,0,0,5,1],
-"d3/dda/card__set_8h.html#a21cc940a925deec957f621696b9ec199":[4,2,0,2,0,0,5,1,1],
-"d3/dda/card__set_8h.html#a2aeb282303adffd3229122dc04327699":[4,2,0,2,0,0,5,1,0],
-"d3/dda/card__set_8h_source.html":[4,2,0,2,0,0,5,1],
-"d3/ddc/playmat__resolver__test_8cpp.html":[4,2,0,14,13]
+"d3/dda/card__set_8h.html#a21cc940a925deec957f621696b9ec199":[4,2,0,2,0,0,5,1,1]
 };

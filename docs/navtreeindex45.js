@@ -1,5 +1,9 @@
 var NAVTREEINDEX45 =
 {
+"d9/d27/structpeg_1_1AssignIDToDefinition.html#aadb330f199dc95345c7318199e8abcdc":[4,1,0,4,42,23],
+"d9/d27/structpeg_1_1AssignIDToDefinition.html#ab556201c50d16952717dbe812339adbb":[4,0,0,18,43,17],
+"d9/d27/structpeg_1_1AssignIDToDefinition.html#ab556201c50d16952717dbe812339adbb":[4,1,0,4,42,17],
+"d9/d27/structpeg_1_1AssignIDToDefinition.html#ab8cbd5c8d2101d30a80835a0ed492eba":[4,0,0,18,43,6],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#ab8cbd5c8d2101d30a80835a0ed492eba":[4,1,0,4,42,6],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#ad011b4166cbb9dbf5c8f5523adee920e":[4,0,0,18,43,4],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#ad011b4166cbb9dbf5c8f5523adee920e":[4,1,0,4,42,4],
@@ -26,8 +30,8 @@ var NAVTREEINDEX45 =
 "d9/d2a/clamped__arithmetic_8h.html":[4,2,0,11,0,0,1],
 "d9/d2a/clamped__arithmetic_8h.html#aaf9291b5384211dfe747bf6df7252be6":[4,2,0,11,0,0,1,0],
 "d9/d2a/clamped__arithmetic_8h_source.html":[4,2,0,11,0,0,1],
-"d9/d2a/user__list__widget_8h.html":[4,2,0,0,1,5,5,11,2,22],
-"d9/d2a/user__list__widget_8h_source.html":[4,2,0,0,1,5,5,11,2,22],
+"d9/d2a/user__list__widget_8h.html":[4,2,0,0,1,5,5,11,2,24],
+"d9/d2a/user__list__widget_8h_source.html":[4,2,0,0,1,5,5,11,2,24],
 "d9/d2b/classUserAvatarProvider.html":[4,1,0,878],
 "d9/d2b/classUserAvatarProvider.html#a4c5fcb222a9fb575a16fa6e43acaeb00":[4,1,0,878,2],
 "d9/d2b/classUserAvatarProvider.html#a5868f01941f50417a6f9657bdfa30c1b":[4,1,0,878,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX45 =
 "d9/d65/classLibraryMenu.html#a4713c2a21cad8bae08fe1b4ccbe578f0":[4,1,0,531,11],
 "d9/d65/classLibraryMenu.html#a4edbc7edd9dbfa6e4b23ba8b7a56ec45":[4,1,0,531,12],
 "d9/d65/classLibraryMenu.html#a58e237f4ea317741726602677c944986":[4,1,0,531,43],
-"d9/d65/classLibraryMenu.html#a58f1d33483ee86e9bee8d231db1a73c5":[4,1,0,531,53],
-"d9/d65/classLibraryMenu.html#a5a1c2670866954aadb116e9d8e368e84":[4,1,0,531,49],
-"d9/d65/classLibraryMenu.html#a5f1906bd8ab1147d3630e83a1df0486d":[4,1,0,531,28],
-"d9/d65/classLibraryMenu.html#a64fadb1f7f08b27c48201f2c1848f982":[4,1,0,531,59],
-"d9/d65/classLibraryMenu.html#a6abd9537bd4cb08c274c1c4ccc0da0d7":[4,1,0,531,33]
+"d9/d65/classLibraryMenu.html#a58f1d33483ee86e9bee8d231db1a73c5":[4,1,0,531,53]
 };

@@ -2,7 +2,7 @@ var searchData=
 [
   ['waitforgame_0',['waitForGame',['../dc/d39/classIntentJoinServerGame.html#ac9f782b9b9857529473daa227e60e3f1',1,'IntentJoinServerGame']]],
   ['warnhistoryrequested_1',['warnHistoryRequested',['../df/d81/classUserInfoPopup.html#a0895b042a6ee51ef10c191e530e9d53f',1,'UserInfoPopup']]],
-  ['warningdialog_2',['WarningDialog',['../d4/d0d/classWarningDialog.html#a492e5e9686c6d038fb22b3117208a7c6',1,'WarningDialog']]],
+  ['warningdialog_2',['WarningDialog',['../d4/d0d/classWarningDialog.html#a663f0c112d04ae81106b746e59afa8de',1,'WarningDialog']]],
   ['warnrequested_3',['warnRequested',['../df/d81/classUserInfoPopup.html#a12f468e0b003aa53938ceb61172091c0',1,'UserInfoPopup']]],
   ['warnuser_5fdialogfinished_4',['warnUser_dialogFinished',['../d7/d67/classUserContextMenu.html#a14c8d11800a7dd0a9e75b947709a686b',1,'UserContextMenu']]],
   ['warnuser_5fprocessgetwarningslistresponse_5',['warnUser_processGetWarningsListResponse',['../d7/d67/classUserContextMenu.html#a895d949638c0a8b3e08734cb0413ca96',1,'UserContextMenu']]],

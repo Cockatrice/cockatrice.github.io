@@ -55,6 +55,7 @@ var classGameScene =
     [ "updateHoveredCard", "db/d9f/classGameScene.html#a3fd207ae5223e7936da2df9f0f842bd7", null ],
     [ "viewForPlayer", "db/d9f/classGameScene.html#ac95610420c6fd287a2e274ea9182e3d7", null ],
     [ "animatedItems", "db/d9f/classGameScene.html#a233a5d8534c7e8830f7c379d37b0565b", null ],
+    [ "animationItemConnections", "db/d9f/classGameScene.html#a827eae4e94cfd52eb9292175eb39d003", null ],
     [ "animationTimer", "db/d9f/classGameScene.html#abcfad631804efabf322bb70d673a063f", null ],
     [ "arrowRegistry", "db/d9f/classGameScene.html#ada3cba3ec0bd1062f72f8c0351a84afe", null ],
     [ "hoveredCard", "db/d9f/classGameScene.html#a9d567d70c813595eb7bec6b83d2a79bf", null ],

@@ -14,6 +14,8 @@ var dir_d765547cb107e3eb2b3b1574ade0a766 =
     [ "user_info_connection.h", "d2/df3/user__info__connection_8h.html", "d2/df3/user__info__connection_8h" ],
     [ "user_info_popup.cpp", "d8/de8/user__info__popup_8cpp.html", "d8/de8/user__info__popup_8cpp" ],
     [ "user_info_popup.h", "da/d4c/user__info__popup_8h.html", "da/d4c/user__info__popup_8h" ],
+    [ "user_list_dialog.cpp", "d0/de0/user__list__dialog_8cpp.html", null ],
+    [ "user_list_dialog.h", "d2/d55/user__list__dialog_8h.html", "d2/d55/user__list__dialog_8h" ],
     [ "user_list_manager.cpp", "d9/d8e/user__list__manager_8cpp.html", null ],
     [ "user_list_manager.h", "d3/d57/user__list__manager_8h.html", "d3/d57/user__list__manager_8h" ],
     [ "user_list_painter.cpp", "dd/d70/user__list__painter_8cpp.html", "dd/d70/user__list__painter_8cpp" ],

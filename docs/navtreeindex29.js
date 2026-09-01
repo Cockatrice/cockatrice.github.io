@@ -1,5 +1,8 @@
 var NAVTREEINDEX29 =
 {
+"d5/dff/classQxtMailMessage.html#a2f7b3179bdf8ca3e209e3ab2008d7151":[4,1,0,650,9],
+"d5/dff/classQxtMailMessage.html#a307df76921f054d94818fcefbd54db7f":[4,1,0,650,11],
+"d5/dff/classQxtMailMessage.html#a3442e95354f4ae9e51810538b4fb7abd":[4,1,0,650,23],
 "d5/dff/classQxtMailMessage.html#a3477ecc870b609381002861e2a540384":[4,1,0,650,10],
 "d5/dff/classQxtMailMessage.html#a3aa4b1b409b94d022f0106fbad4fd6ba":[4,1,0,650,20],
 "d5/dff/classQxtMailMessage.html#a518edd4bac40d81681dde8c5ded5c4ce":[4,1,0,650,24],
@@ -193,8 +196,8 @@ var NAVTREEINDEX29 =
 "d6/d1c/classpeg_1_1PrioritizedChoice.html#afb7c12829498f42d9fb8ad79300a31db":[4,1,0,4,18,2],
 "d6/d1c/color__bar_8h.html":[4,2,0,0,1,5,5,4,0,0,0,7],
 "d6/d1c/color__bar_8h_source.html":[4,2,0,0,1,5,5,4,0,0,0,7],
-"d6/d1d/user__list__painter_8h.html":[4,2,0,0,1,5,5,11,2,17],
-"d6/d1d/user__list__painter_8h_source.html":[4,2,0,0,1,5,5,11,2,17],
+"d6/d1d/user__list__painter_8h.html":[4,2,0,0,1,5,5,11,2,19],
+"d6/d1d/user__list__painter_8h_source.html":[4,2,0,0,1,5,5,11,2,19],
 "d6/d1e/structCommand__GetWarnHistory_1_1ModeratorCommand.html":[4,1,0,180,0],
 "d6/d1e/structCommand__GetWarnHistory_1_1ModeratorCommand.html#ac14a51cdb9c9d7ae45df7a8d3961613a":[4,1,0,180,0,0],
 "d6/d22/visual__deck__editor__placeholder__widget_8h.html":[4,2,0,0,1,5,5,16,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX29 =
 "d6/d2d/oraclewizard_8cpp.html":[4,2,0,12,0,7],
 "d6/d2f/commander__spellbook__estimate__bracket__result_8h.html":[4,2,0,0,1,5,5,13,0,1,0,7],
 "d6/d2f/commander__spellbook__estimate__bracket__result_8h_source.html":[4,2,0,0,1,5,5,13,0,1,0,7],
-"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html":[4,1,0,44],
-"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a182080c139589c5e6012fcaacff2c442":[4,1,0,44,6],
-"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a20a97d403a81a9e367d7cc6637a9c5f0":[4,1,0,44,3],
-"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a2815f602b9dd75ceb2f866c65ec99776":[4,1,0,44,4]
+"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html":[4,1,0,44]
 };
