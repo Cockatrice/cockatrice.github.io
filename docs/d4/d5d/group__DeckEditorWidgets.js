@@ -12,6 +12,7 @@ var group__DeckEditorWidgets =
     [ "deck_editor_deck_dock_widget.h", "d3/d4d/deck__editor__deck__dock__widget_8h.html", null ],
     [ "deck_editor_filter_dock_widget.h", "dc/d32/deck__editor__filter__dock__widget_8h.html", null ],
     [ "deck_editor_printing_selector_dock_widget.h", "dd/d32/deck__editor__printing__selector__dock__widget_8h.html", null ],
+    [ "deck_zone_dialog.h", "d1/d57/deck__zone__dialog_8h.html", null ],
     [ "TabDeckEditorVisualTabWidget", "d9/dcf/classTabDeckEditorVisualTabWidget.html", [
       [ "TabIndex", "d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17", [
         [ "VisualDeckView", "d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17a1f825a2bcea091fee36af0e041e9d846", null ],

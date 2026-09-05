@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-01-Development-3.1.0-beta.10</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -176,6 +176,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aab1173bea5e55685275634c31250f065"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increments the number of copies of the card at the given index by 1. No-ops if index is invalid or not a card node. Saves the operation to history if successful.  <br /></td></tr>
 <tr class="memitem:a5e52ee827e0ff79c697e547ce9d07a9c" id="r_a5e52ee827e0ff79c697e547ce9d07a9c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a5e52ee827e0ff79c697e547ce9d07a9c">decrementCountAtIndex</a> (const QModelIndex &amp;idx)</td></tr>
 <tr class="memdesc:a5e52ee827e0ff79c697e547ce9d07a9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrements the number of copies of the card at the given index by 1. No-ops if index is invalid or not a card node. Saves the operation to history if successful.  <br /></td></tr>
+<tr class="memitem:a5051f0477f12ba417287ff915b3f5399" id="r_a5051f0477f12ba417287ff915b3f5399"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a5051f0477f12ba417287ff915b3f5399">moveCardToZone</a> (const QModelIndex &amp;idx, const QString &amp;targetZoneName)</td></tr>
+<tr class="memdesc:a5051f0477f12ba417287ff915b3f5399"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves all copies of the card at the given index to the given zone. No-ops if the index is invalid, not a card node, the card is a token, or the card is already in the target zone. Saves the operation to history if successful.  <br /></td></tr>
+<tr class="memitem:a7dcbdab61bbac98695697f1d4f13a4a0" id="r_a7dcbdab61bbac98695697f1d4f13a4a0"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a7dcbdab61bbac98695697f1d4f13a4a0">createCustomZone</a> (const QString &amp;boardZoneName, const QString &amp;zoneName)</td></tr>
+<tr class="memdesc:a7dcbdab61bbac98695697f1d4f13a4a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new custom zone nested under a board zone. Saves the operation to history if successful.  <br /></td></tr>
+<tr class="memitem:ab5d2c940874c71ead6fcb008a3abf91f" id="r_ab5d2c940874c71ead6fcb008a3abf91f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ab5d2c940874c71ead6fcb008a3abf91f">renameCustomZone</a> (const QString &amp;oldZoneName, const QString &amp;newZoneName)</td></tr>
+<tr class="memdesc:ab5d2c940874c71ead6fcb008a3abf91f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renames a custom zone. Saves the operation to history if successful.  <br /></td></tr>
+<tr class="memitem:a8ddcb26bb5783fa1b83a05bbdf9e352b" id="r_a8ddcb26bb5783fa1b83a05bbdf9e352b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8ddcb26bb5783fa1b83a05bbdf9e352b">moveCustomZone</a> (const QString &amp;zoneName, const QString &amp;newBoardZoneName)</td></tr>
+<tr class="memdesc:a8ddcb26bb5783fa1b83a05bbdf9e352b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves a custom zone (and its cards) to a different board zone. Same-board moves succeed without creating a history entry. Saves the operation to history if successful.  <br /></td></tr>
+<tr class="memitem:a74bd295de9e50feeffcc190c6d107879" id="r_a74bd295de9e50feeffcc190c6d107879"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a74bd295de9e50feeffcc190c6d107879">removeCustomZone</a> (const QString &amp;zoneName)</td></tr>
+<tr class="memdesc:a74bd295de9e50feeffcc190c6d107879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a custom zone and all its cards. Saves the operation to history if successful.  <br /></td></tr>
+<tr class="memitem:a4e89020807f98b980054ef223c5e1efc" id="r_a4e89020807f98b980054ef223c5e1efc"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a4e89020807f98b980054ef223c5e1efc">validateNewZoneName</a> (const QString &amp;zoneName) const</td></tr>
+<tr class="memdesc:a4e89020807f98b980054ef223c5e1efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a candidate name is usable for a new custom zone.  <br /></td></tr>
 <tr class="memitem:a4ec30ac041bf15f9c7dccfe1cdbbfeda" id="r_a4ec30ac041bf15f9c7dccfe1cdbbfeda"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4ec30ac041bf15f9c7dccfe1cdbbfeda">undo</a> (int steps=1)</td></tr>
 <tr class="memitem:a7a8148d41fbdbf886515fb49a8dd0eb2" id="r_a7a8148d41fbdbf886515fb49a8dd0eb2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7a8148d41fbdbf886515fb49a8dd0eb2">redo</a> (int steps=1)</td></tr>
 <tr id="pub-methods-0" class="groupHeader"><td colspan="2"><div class="groupHeader">Metadata setters</div></td></tr>
@@ -191,6 +203,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a428aba6cb764ef94947160ce85ed2a67" id="r_a428aba6cb764ef94947160ce85ed2a67"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a428aba6cb764ef94947160ce85ed2a67">offsetCountAtIndex</a> (const QModelIndex &amp;idx, int offset)</td></tr>
+<tr class="memitem:a71dd2d5886fbfd6ca7ff5eb7845bc8ea" id="r_a71dd2d5886fbfd6ca7ff5eb7845bc8ea"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a71dd2d5886fbfd6ca7ff5eb7845bc8ea">modifyTree</a> (const QString &amp;reason, const std::function&lt; bool(<a class="el" href="../../db/df8/classDecklistNodeTree.html">DecklistNodeTree</a> *)&gt; &amp;operation)</td></tr>
 <tr class="memitem:a231fc809c22df91ea071a89409da316a" id="r_a231fc809c22df91ea071a89409da316a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a231fc809c22df91ea071a89409da316a">doCardModified</a> ()</td></tr>
 <tr class="memdesc:a231fc809c22df91ea071a89409da316a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles updating state and emitting signals whenever the cards are modified.  <br /></td></tr>
 <tr class="memitem:a7e3b0a10b29e6f58881a8616d841e56b" id="r_a7e3b0a10b29e6f58881a8616d841e56b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7e3b0a10b29e6f58881a8616d841e56b">doMetadataModified</a> ()</td></tr>
@@ -301,7 +314,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_aa6c164ba04db772603ab41a92219b17f_icgraph.svg" width="100%" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_aa6c164ba04db772603ab41a92219b17f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -326,6 +339,47 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a7ffa10f8ea5da6a00cabfa3bc0c8b010_cgraph.svg" width="100%" height="370"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a7dcbdab61bbac98695697f1d4f13a4a0" name="a7dcbdab61bbac98695697f1d4f13a4a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dcbdab61bbac98695697f1d4f13a4a0">&#9670;&#160;</a></span>createCustomZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DeckStateManager::createCustomZone </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>boardZoneName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>zoneName</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a new custom zone nested under a board zone. Saves the operation to history if successful. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boardZoneName</td><td>The board zone to nest the custom zone under </td></tr>
+    <tr><td class="paramname">zoneName</td><td>The name of the new custom zone. Gets trimmed and must be unique across the deck. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the zone was created </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a7dcbdab61bbac98695697f1d4f13a4a0_cgraph.svg" width="100%" height="498"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a7dcbdab61bbac98695697f1d4f13a4a0_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -491,7 +545,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a231fc809c22df91ea071a89409da316a_icgraph.svg" width="100%" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a231fc809c22df91ea071a89409da316a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -714,6 +768,11 @@ Here is the caller graph for this function:</div>
 
 <p>Gets the underlying <a class="el" href="../../d9/de1/classDeckListModel.html" title="Qt model representing a decklist for use in views (tree/table).">DeckListModel</a>. You should generally refrain modifying the returned model directly. However, it's fine (and intended) to perform queries on the returned model. </p>
 <dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="../../d9/de1/classDeckListModel.html" title="Qt model representing a decklist for use in views (tree/table).">DeckListModel</a> instance </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a78baf060192aa78a8d2cd85c0906cee7_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -958,7 +1017,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_af9605fa385a46caeb763bfc988eef0c2_icgraph.svg" width="100%" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_af9605fa385a46caeb763bfc988eef0c2_icgraph.svg" width="100%" height="520"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -989,6 +1048,117 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_afe4131d59ba6b1639de3e5e00970f88f_cgraph.svg" width="100%" height="407"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a71dd2d5886fbfd6ca7ff5eb7845bc8ea" name="a71dd2d5886fbfd6ca7ff5eb7845bc8ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71dd2d5886fbfd6ca7ff5eb7845bc8ea">&#9670;&#160;</a></span>modifyTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DeckStateManager::modifyTree </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>reason</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; bool(<a class="el" href="../../db/df8/classDecklistNodeTree.html">DecklistNodeTree</a> *)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>operation</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a71dd2d5886fbfd6ca7ff5eb7845bc8ea_cgraph.svg" width="100%" height="407"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a71dd2d5886fbfd6ca7ff5eb7845bc8ea_icgraph.svg" width="100%" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a5051f0477f12ba417287ff915b3f5399" name="a5051f0477f12ba417287ff915b3f5399"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5051f0477f12ba417287ff915b3f5399">&#9670;&#160;</a></span>moveCardToZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DeckStateManager::moveCardToZone </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>idx</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>targetZoneName</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Moves all copies of the card at the given index to the given zone. No-ops if the index is invalid, not a card node, the card is a token, or the card is already in the target zone. Saves the operation to history if successful. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td>The model index of the card to move </td></tr>
+    <tr><td class="paramname">targetZoneName</td><td>The zone to move the card to (board zone or custom zone name) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the operation was successfully performed </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a5051f0477f12ba417287ff915b3f5399_cgraph.svg" width="100%" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8ddcb26bb5783fa1b83a05bbdf9e352b" name="a8ddcb26bb5783fa1b83a05bbdf9e352b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ddcb26bb5783fa1b83a05bbdf9e352b">&#9670;&#160;</a></span>moveCustomZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DeckStateManager::moveCustomZone </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>zoneName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>newBoardZoneName</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Moves a custom zone (and its cards) to a different board zone. Same-board moves succeed without creating a history entry. Saves the operation to history if successful. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">zoneName</td><td>The custom zone to move </td></tr>
+    <tr><td class="paramname">newBoardZoneName</td><td>The board zone to move the custom zone under </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the move succeeded </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a8ddcb26bb5783fa1b83a05bbdf9e352b_cgraph.svg" width="100%" height="466"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1087,6 +1257,73 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a20546405c2390b22f22374dc8ba78897_cgraph.svg" width="100%" height="407"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a74bd295de9e50feeffcc190c6d107879" name="a74bd295de9e50feeffcc190c6d107879"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74bd295de9e50feeffcc190c6d107879">&#9670;&#160;</a></span>removeCustomZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DeckStateManager::removeCustomZone </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>zoneName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes a custom zone and all its cards. Saves the operation to history if successful. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">zoneName</td><td>The custom zone to remove </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the zone was removed </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a74bd295de9e50feeffcc190c6d107879_cgraph.svg" width="100%" height="418"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab5d2c940874c71ead6fcb008a3abf91f" name="ab5d2c940874c71ead6fcb008a3abf91f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5d2c940874c71ead6fcb008a3abf91f">&#9670;&#160;</a></span>renameCustomZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DeckStateManager::renameCustomZone </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>oldZoneName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>newZoneName</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Renames a custom zone. Saves the operation to history if successful. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">oldZoneName</td><td>The current name of the custom zone </td></tr>
+    <tr><td class="paramname">newZoneName</td><td>The new name. Gets trimmed and must be unique across the deck. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the rename succeeded </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_ab5d2c940874c71ead6fcb008a3abf91f_cgraph.svg" width="100%" height="450"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1483,6 +1720,45 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a64379ba1486f2354c22123ff8dfbe1e0_icgraph.svg" width="479" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a4e89020807f98b980054ef223c5e1efc" name="a4e89020807f98b980054ef223c5e1efc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e89020807f98b980054ef223c5e1efc">&#9670;&#160;</a></span>validateNewZoneName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DeckStateManager::validateNewZoneName </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>zoneName</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks whether a candidate name is usable for a new custom zone. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">zoneName</td><td>The candidate name </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An empty string when the name is usable, otherwise a user-facing error message describing the problem </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dab/classDeckStateManager_a4e89020807f98b980054ef223c5e1efc_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

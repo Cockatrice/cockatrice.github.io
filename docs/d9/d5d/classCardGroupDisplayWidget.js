@@ -1,6 +1,7 @@
 var classCardGroupDisplayWidget =
 [
     [ "CardGroupDisplayWidget", "d9/d5d/classCardGroupDisplayWidget.html#a58f960e75f3790fc55253dfd1619f1e2", null ],
+    [ "addCardWidgets", "d9/d5d/classCardGroupDisplayWidget.html#abc2deed0762270dae0e182171cecf816", null ],
     [ "addToLayout", "d9/d5d/classCardGroupDisplayWidget.html#a1b9aa1c2714dc0169ac4b5085593ce6d", null ],
     [ "cardClicked", "d9/d5d/classCardGroupDisplayWidget.html#a808e13fba305ff37fc8839dfa9eea8a3", null ],
     [ "cardHovered", "d9/d5d/classCardGroupDisplayWidget.html#a615ccafeb04c478c28eb581a022bf41a", null ],

@@ -20,11 +20,12 @@ var searchData=
   ['invalidmailboxname_17',['InvalidMailboxName',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673adfd2aaa00f2cf7019fbb0e216d7b5b7d',1,'QxtSmtp']]],
   ['isadmin_18',['IsAdmin',['../d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814aeca33e973d0735eab605ece61b189df8',1,'ServerInfo_User']]],
   ['iscardrole_19',['IsCardRole',['../d5/d55/namespaceDeckRoles.html#a6944de8e59ad938ef47b6fc51aa4154ba699f7b302e1976e68142aa94226ca718',1,'DeckRoles']]],
-  ['isjudge_20',['IsJudge',['../d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a12d3d589833d07a95ca905162294c532',1,'ServerInfo_User']]],
-  ['isknowncol_21',['IsKnownCol',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735af8ffcadc092be8aef0ee6b5d1f723321',1,'SetsModel']]],
-  ['islegalrole_22',['IsLegalRole',['../d5/d55/namespaceDeckRoles.html#a6944de8e59ad938ef47b6fc51aa4154ba0fc9a9676121d3a5bd395e13d538cd30',1,'DeckRoles']]],
-  ['ismoderator_23',['IsModerator',['../d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a8748d452d5eaa37530e6834611c1e06d',1,'ServerInfo_User']]],
-  ['isnothing_24',['IsNothing',['../d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a808f516bc4d06d6b08d44d2ca2dc972d',1,'ServerInfo_User']]],
-  ['isregistered_25',['IsRegistered',['../d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a390bc7ac8d1ff3502f27c58bc5001d37',1,'ServerInfo_User']]],
-  ['isuser_26',['IsUser',['../d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a6be8495414a61aeb5dabe6d0efb89132',1,'ServerInfo_User']]]
+  ['iscustomzonerole_20',['IsCustomZoneRole',['../d5/d55/namespaceDeckRoles.html#a6944de8e59ad938ef47b6fc51aa4154ba3d8312c61a3e20c96ed3df991990faae',1,'DeckRoles']]],
+  ['isjudge_21',['IsJudge',['../d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a12d3d589833d07a95ca905162294c532',1,'ServerInfo_User']]],
+  ['isknowncol_22',['IsKnownCol',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735af8ffcadc092be8aef0ee6b5d1f723321',1,'SetsModel']]],
+  ['islegalrole_23',['IsLegalRole',['../d5/d55/namespaceDeckRoles.html#a6944de8e59ad938ef47b6fc51aa4154ba0fc9a9676121d3a5bd395e13d538cd30',1,'DeckRoles']]],
+  ['ismoderator_24',['IsModerator',['../d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a8748d452d5eaa37530e6834611c1e06d',1,'ServerInfo_User']]],
+  ['isnothing_25',['IsNothing',['../d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a808f516bc4d06d6b08d44d2ca2dc972d',1,'ServerInfo_User']]],
+  ['isregistered_26',['IsRegistered',['../d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a390bc7ac8d1ff3502f27c58bc5001d37',1,'ServerInfo_User']]],
+  ['isuser_27',['IsUser',['../d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a6be8495414a61aeb5dabe6d0efb89132',1,'ServerInfo_User']]]
 ];

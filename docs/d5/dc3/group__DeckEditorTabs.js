@@ -93,6 +93,7 @@ var group__DeckEditorTabs =
       [ "createCentralFrame", "dc/d63/classTabDeckEditorVisual.html#ae20d58ad11818d4afe126e8f13cbb27d", null ],
       [ "createDeckAnalyticsDock", "dc/d63/classTabDeckEditorVisual.html#ae68a7ae85d04b94e38a587da77338d45", null ],
       [ "createMenus", "dc/d63/classTabDeckEditorVisual.html#af65c4ade9485855b3f003088abc9c95c", null ],
+      [ "createNewZone", "dc/d63/classTabDeckEditorVisual.html#a621b0e15a0fdbb88b02975120e2bb445", null ],
       [ "createSearchAndDatabaseFrame", "dc/d63/classTabDeckEditorVisual.html#a3adf7cdea183caeec2def8e8edb380f0", null ],
       [ "eventFilter", "dc/d63/classTabDeckEditorVisual.html#ac800044966bd093f0489c56a8c21f05b", null ],
       [ "getTabText", "dc/d63/classTabDeckEditorVisual.html#ae96e926517779ec8e4a686e81c42cb80", null ],

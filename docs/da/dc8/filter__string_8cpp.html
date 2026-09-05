@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-01-Development-3.1.0-beta.10</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -105,6 +105,7 @@ $(function(){initNavTree('da/dc8/filter__string_8cpp.html','../../',''); });
 <code>#include &lt;QRegularExpression&gt;</code><br />
 <code>#include &lt;QString&gt;</code><br />
 <code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../de/d9d/peglib_8h_source.html">libcockatrice/utility/peglib.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for filter_string.cpp:</div>
@@ -118,7 +119,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:afcc69a04ed62bd86259a7ada407907f4" id="r_afcc69a04ed62bd86259a7ada407907f4"><td class="memItemLeft">static <a class="el" href="../../da/d7b/classpeg_1_1parser.html">peg::parser</a>&#160;</td><td class="memItemRight"><a class="el" href="#afcc69a04ed62bd86259a7ada407907f4">search</a> (R&quot;(
+<tr class="memitem:ad1b67785d6cc34e7b8854fbb2715a35e" id="r_ad1b67785d6cc34e7b8854fbb2715a35e"><td class="memItemLeft">static <a class="el" href="../../da/d7b/classpeg_1_1parser.html">peg::parser</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad1b67785d6cc34e7b8854fbb2715a35e">search</a> (R&quot;(
 Start &lt;- QueryPartList
 ~ws &lt;- [ ]+
 QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart)* ws*
@@ -130,7 +131,7 @@ SomewhatComplexQueryPart &lt;- [(] QueryPartList [)] / QueryPart
 QueryPart &lt;- NotQuery / SetQuery / RarityQuery / CMCQuery / FormatQuery / PowerQuery / ToughnessQuery / ColorQuery / TypeQuery / OracleQuery / FieldQuery / GenericQuery
 
 NotQuery &lt;- ('NOT' ws/'-') SomewhatComplexQueryPart
-SetQuery &lt;- ('e'/'set') [:] FlexStringValue
+SetQuery &lt;- ('e'/'set') SetExpression / ([:] FlexStringValue)
 OracleQuery &lt;- 'o' [:] MatcherString
 
 
@@ -172,6 +173,8 @@ RegexMatcherString &lt;- ('\\/' / !'/' .)+
 
 FlexStringValue &lt;- CompactStringSet / String / [(] StringList [)]
 CompactStringSet &lt;- StringListString ([,+] StringListString)+
+
+SetExpression &lt;- NumericOperator ws? String
 
 NumericExpression &lt;- NumericOperator ws? NumericValue
 NumericOperator &lt;- [=:] / &lt;[&gt;&lt;!][=]?&gt;
@@ -228,8 +231,8 @@ NumericValue &lt;- [0-9]+
 
 </div>
 </div>
-<a id="afcc69a04ed62bd86259a7ada407907f4" name="afcc69a04ed62bd86259a7ada407907f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcc69a04ed62bd86259a7ada407907f4">&#9670;&#160;</a></span>search</h2>
+<a id="ad1b67785d6cc34e7b8854fbb2715a35e" name="ad1b67785d6cc34e7b8854fbb2715a35e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1b67785d6cc34e7b8854fbb2715a35e">&#9670;&#160;</a></span>search</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,7 +253,7 @@ SomewhatComplexQueryPart &lt;- [(] QueryPartList [)] / QueryPart
 QueryPart &lt;- NotQuery / SetQuery / RarityQuery / CMCQuery / FormatQuery / PowerQuery / ToughnessQuery / ColorQuery / TypeQuery / OracleQuery / FieldQuery / GenericQuery
 
 NotQuery &lt;- ('NOT' ws/'-') SomewhatComplexQueryPart
-SetQuery &lt;- ('e'/'set') [:] FlexStringValue
+SetQuery &lt;- ('e'/'set') SetExpression / ([:] FlexStringValue)
 OracleQuery &lt;- 'o' [:] MatcherString
 
 
@@ -293,12 +296,14 @@ RegexMatcherString &lt;- ('\\/' / !'/' .)+
 FlexStringValue &lt;- CompactStringSet / String / [(] StringList [)]
 CompactStringSet &lt;- StringListString ([,+] StringListString)+
 
+SetExpression &lt;- NumericOperator ws? String
+
 NumericExpression &lt;- NumericOperator ws? NumericValue
 NumericOperator &lt;- [=:] / &lt;[&gt;&lt;!][=]?&gt;
 NumericValue &lt;- [0-9]+
 )&quot;) </td>
           <td>(</td>
-          <td class="paramtype">R&quot;(Start &lt;- QueryPartList~ws &lt;- [ ]+QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart)* ws*ComplexQueryPart &lt;- SomewhatComplexQueryPart ws &quot;OR&quot; ws ComplexQueryPart / SomewhatComplexQueryPartSomewhatComplexQueryPart &lt;- [(] QueryPartList [)] / QueryPartQueryPart &lt;- NotQuery / SetQuery / RarityQuery / CMCQuery / FormatQuery / PowerQuery / ToughnessQuery / ColorQuery / TypeQuery / OracleQuery / FieldQuery / GenericQueryNotQuery &lt;- ('NOT' ws/'-') SomewhatComplexQueryPartSetQuery &lt;- ('e'/'set') [:] FlexStringValueOracleQuery &lt;- 'o' [:] MatcherStringCMCQuery &lt;- ('cmc'/'mv') ws? NumericExpressionPowerQuery &lt;- [Pp] 'ow' 'er'? ws? NumericExpressionToughnessQuery &lt;- [Tt] 'ou' 'ghness'? ws? NumericExpressionRarityQuery &lt;- [rR] ':' RarityRarity &lt;- [Cc] 'ommon'? / [Uu] 'ncommon'? / [Rr] 'are'? / [Mm] 'ythic'? / [Ss] 'pecial'? / [a-zA-Z] [a-z]*FormatQuery &lt;- 'f' ':' Format / Legality ':' FormatFormat &lt;- [a-zA-Z] [a-z]*Legality &lt;- [Ll] 'egal'? / [Bb] 'anned'? / [Rr] 'estricted'TypeQuery &lt;- [tT] 'ype'? [:] StringValueColor &lt;- &lt; [Ww] 'hite'? / [Uu] / [Bb] 'lack'? / [Rr] 'ed'? / [Gg] 'reen'?  / [Bb] 'lue'? &gt;ColorEx &lt;- Color / [mc]ColorQuery &lt;- [cC] 'olor'? &lt;[iI]?&gt; &lt;[:!]&gt; ColorEx*FieldQuery &lt;- String [:] MatcherString / String ws? NumericExpressionNonDoubleQuoteUnlessEscaped &lt;- '\\\&quot;'. / ![&quot;].NonSingleQuoteUnlessEscaped&lt;- &quot;\\\'&quot;./!['].UnescapedStringListPart&lt;- !['&quot;:&lt;&gt;()=! ].SingleApostropheString &lt;- (UnescapedStringListPart+ ws*)* ['] (UnescapedStringListPart+ ws*)*String &lt;- SingleApostropheString / UnescapedStringListPart+ / [&quot;]&lt; NonDoubleQuoteUnlessEscaped * &gt;[&quot;] / ['] &lt;NonSingleQuoteUnlessEscaped*&gt; [']StringValue &lt;- String / [(] StringList [)]StringList &lt;- StringListString (ws? [,] ws? StringListString)*StringListString &lt;- UnescapedStringListPart+GenericQuery &lt;- MatcherString# A String that can either be a normal string or a regex search stringMatcherString &lt;- RegexMatcher / NormalMatcherNormalMatcher &lt;- StringRegexMatcher &lt;- '/' RegexMatcherString '/'RegexMatcherString &lt;- ('\\/' / !'/' .)+FlexStringValue &lt;- CompactStringSet / String / [(] StringList [)]CompactStringSet &lt;- StringListString ([,+] StringListString)+NumericExpression &lt;- NumericOperator ws? NumericValueNumericOperator &lt;- [=:] / &lt;[&gt;&lt;!][=]?&gt;NumericValue &lt;- [0-9]+)&quot;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">R&quot;(Start &lt;- QueryPartList~ws &lt;- [ ]+QueryPartList &lt;- ComplexQueryPart ( ws (&quot;AND&quot; ws)? ComplexQueryPart)* ws*ComplexQueryPart &lt;- SomewhatComplexQueryPart ws &quot;OR&quot; ws ComplexQueryPart / SomewhatComplexQueryPartSomewhatComplexQueryPart &lt;- [(] QueryPartList [)] / QueryPartQueryPart &lt;- NotQuery / SetQuery / RarityQuery / CMCQuery / FormatQuery / PowerQuery / ToughnessQuery / ColorQuery / TypeQuery / OracleQuery / FieldQuery / GenericQueryNotQuery &lt;- ('NOT' ws/'-') SomewhatComplexQueryPartSetQuery &lt;- ('e'/'set') SetExpression / ([:] FlexStringValue)OracleQuery &lt;- 'o' [:] MatcherStringCMCQuery &lt;- ('cmc'/'mv') ws? NumericExpressionPowerQuery &lt;- [Pp] 'ow' 'er'? ws? NumericExpressionToughnessQuery &lt;- [Tt] 'ou' 'ghness'? ws? NumericExpressionRarityQuery &lt;- [rR] ':' RarityRarity &lt;- [Cc] 'ommon'? / [Uu] 'ncommon'? / [Rr] 'are'? / [Mm] 'ythic'? / [Ss] 'pecial'? / [a-zA-Z] [a-z]*FormatQuery &lt;- 'f' ':' Format / Legality ':' FormatFormat &lt;- [a-zA-Z] [a-z]*Legality &lt;- [Ll] 'egal'? / [Bb] 'anned'? / [Rr] 'estricted'TypeQuery &lt;- [tT] 'ype'? [:] StringValueColor &lt;- &lt; [Ww] 'hite'? / [Uu] / [Bb] 'lack'? / [Rr] 'ed'? / [Gg] 'reen'?  / [Bb] 'lue'? &gt;ColorEx &lt;- Color / [mc]ColorQuery &lt;- [cC] 'olor'? &lt;[iI]?&gt; &lt;[:!]&gt; ColorEx*FieldQuery &lt;- String [:] MatcherString / String ws? NumericExpressionNonDoubleQuoteUnlessEscaped &lt;- '\\\&quot;'. / ![&quot;].NonSingleQuoteUnlessEscaped&lt;- &quot;\\\'&quot;./!['].UnescapedStringListPart&lt;- !['&quot;:&lt;&gt;()=! ].SingleApostropheString &lt;- (UnescapedStringListPart+ ws*)* ['] (UnescapedStringListPart+ ws*)*String &lt;- SingleApostropheString / UnescapedStringListPart+ / [&quot;]&lt; NonDoubleQuoteUnlessEscaped * &gt;[&quot;] / ['] &lt;NonSingleQuoteUnlessEscaped*&gt; [']StringValue &lt;- String / [(] StringList [)]StringList &lt;- StringListString (ws? [,] ws? StringListString)*StringListString &lt;- UnescapedStringListPart+GenericQuery &lt;- MatcherString# A String that can either be a normal string or a regex search stringMatcherString &lt;- RegexMatcher / NormalMatcherNormalMatcher &lt;- StringRegexMatcher &lt;- '/' RegexMatcherString '/'RegexMatcherString &lt;- ('\\/' / !'/' .)+FlexStringValue &lt;- CompactStringSet / String / [(] StringList [)]CompactStringSet &lt;- StringListString ([,+] StringListString)+SetExpression &lt;- NumericOperator ws? StringNumericExpression &lt;- NumericOperator ws? NumericValueNumericOperator &lt;- [=:] / &lt;[&gt;&lt;!][=]?&gt;NumericValue &lt;- [0-9]+)&quot;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

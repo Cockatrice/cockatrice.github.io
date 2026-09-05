@@ -78,8 +78,10 @@ var annotated_dup =
       [ "EmptyType", "d2/d75/structpeg_1_1EmptyType.html", null ],
       [ "parser", "da/d7b/classpeg_1_1parser.html", "da/d7b/classpeg_1_1parser" ]
     ] ],
-    [ "QtJson", "dc/dfb/namespaceQtJson.html", [
-      [ "Json", "d3/d98/classQtJson_1_1Json.html", "d3/d98/classQtJson_1_1Json" ]
+    [ "RawJson", "d6/d63/namespaceRawJson.html", [
+      [ "SetDataRange", "dd/df7/structRawJson_1_1SetDataRange.html", "dd/df7/structRawJson_1_1SetDataRange" ],
+      [ "SetRange", "d9/d1d/structRawJson_1_1SetRange.html", "d9/d1d/structRawJson_1_1SetRange" ],
+      [ "ScanError", "dc/d38/structRawJson_1_1ScanError.html", "dc/d38/structRawJson_1_1ScanError" ]
     ] ],
     [ "AbstractAnalyticsPanelWidget", "d2/d31/classAbstractAnalyticsPanelWidget.html", "d2/d31/classAbstractAnalyticsPanelWidget" ],
     [ "AbstractCardDragItem", "d6/dc0/classAbstractCardDragItem.html", "d6/dc0/classAbstractCardDragItem" ],
@@ -369,6 +371,7 @@ var annotated_dup =
     [ "DeckListMemento", "d8/dfe/classDeckListMemento.html", "d8/dfe/classDeckListMemento" ],
     [ "DeckListModel", "d9/de1/classDeckListModel.html", "d9/de1/classDeckListModel" ],
     [ "DecklistModelCardNode", "dd/d4f/classDecklistModelCardNode.html", "dd/d4f/classDecklistModelCardNode" ],
+    [ "DecklistModelSubZoneNode", "dc/db4/classDecklistModelSubZoneNode.html", "dc/db4/classDecklistModelSubZoneNode" ],
     [ "DecklistNodeTree", "db/df8/classDecklistNodeTree.html", "db/df8/classDecklistNodeTree" ],
     [ "DeckListSortFilterProxyModel", "dc/dba/classDeckListSortFilterProxyModel.html", "dc/dba/classDeckListSortFilterProxyModel" ],
     [ "DeckListStatisticsAnalyzer", "d7/d02/classDeckListStatisticsAnalyzer.html", "d7/d02/classDeckListStatisticsAnalyzer" ],
@@ -393,6 +396,7 @@ var annotated_dup =
     [ "DeckViewCardDragItem", "d9/d25/classDeckViewCardDragItem.html", "d9/d25/classDeckViewCardDragItem" ],
     [ "DeckViewContainer", "df/ddd/classDeckViewContainer.html", "df/ddd/classDeckViewContainer" ],
     [ "DeckViewScene", "db/db5/classDeckViewScene.html", "db/db5/classDeckViewScene" ],
+    [ "DeckZoneDialog", "d0/dcf/classDeckZoneDialog.html", "d0/dcf/classDeckZoneDialog" ],
     [ "DialogConvertDeckToCodFormat", "d6/d5f/classDialogConvertDeckToCodFormat.html", "d6/d5f/classDialogConvertDeckToCodFormat" ],
     [ "DlgConnect", "d3/da4/classDlgConnect.html", "d3/da4/classDlgConnect" ],
     [ "DlgCreateGame", "d6/dee/classDlgCreateGame.html", "d6/dee/classDlgCreateGame" ],
@@ -642,6 +646,7 @@ var annotated_dup =
     [ "ManaDistributionWidget", "df/d43/classManaDistributionWidget.html", "df/d43/classManaDistributionWidget" ],
     [ "ManaSymbolPixmapGenerator", "d2/dcd/classManaSymbolPixmapGenerator.html", "d2/dcd/classManaSymbolPixmapGenerator" ],
     [ "ManaSymbolWidget", "d8/d8e/classManaSymbolWidget.html", "d8/d8e/classManaSymbolWidget" ],
+    [ "MemorySnapshot", "d4/d37/structMemorySnapshot.html", "d4/d37/structMemorySnapshot" ],
     [ "MessageLogWidget", "d7/d93/classMessageLogWidget.html", "d7/d93/classMessageLogWidget" ],
     [ "MessageSettings", "d3/dc1/classMessageSettings.html", "d3/dc1/classMessageSettings" ],
     [ "MessagesSettingsPage", "d2/dae/classMessagesSettingsPage.html", "d2/dae/classMessagesSettingsPage" ],
@@ -661,6 +666,7 @@ var annotated_dup =
     [ "NoopCardSetPriorityController", "d3/d21/classNoopCardSetPriorityController.html", "d3/d21/classNoopCardSetPriorityController" ],
     [ "NoScrollFilter", "da/d92/classNoScrollFilter.html", "da/d92/classNoScrollFilter" ],
     [ "OracleImporter", "db/d70/classOracleImporter.html", "db/d70/classOracleImporter" ],
+    [ "OracleImporterTest", "dd/d20/classOracleImporterTest.html", "dd/d20/classOracleImporterTest" ],
     [ "OracleWizard", "d5/dba/classOracleWizard.html", "d5/dba/classOracleWizard" ],
     [ "OracleWizardPage", "d8/d2d/classOracleWizardPage.html", "d8/d2d/classOracleWizardPage" ],
     [ "OutroPage", "d7/da4/classOutroPage.html", "d7/da4/classOutroPage" ],

@@ -20,6 +20,8 @@ var dir_92d403742a3e0828f8dabf9c7c1d5f4c =
     [ "deck_list_style_proxy.h", "df/db8/deck__list__style__proxy_8h.html", "df/db8/deck__list__style__proxy_8h" ],
     [ "deck_state_manager.cpp", "df/d8c/deck__state__manager_8cpp.html", "df/d8c/deck__state__manager_8cpp" ],
     [ "deck_state_manager.h", "d6/dc4/deck__state__manager_8h.html", "d6/dc4/deck__state__manager_8h" ],
+    [ "deck_zone_dialog.cpp", "d8/d39/deck__zone__dialog_8cpp.html", null ],
+    [ "deck_zone_dialog.h", "d1/d57/deck__zone__dialog_8h.html", "d1/d57/deck__zone__dialog_8h" ],
     [ "printing_disabled_info_widget.cpp", "d3/d31/printing__disabled__info__widget_8cpp.html", null ],
     [ "printing_disabled_info_widget.h", "df/ddf/printing__disabled__info__widget_8h.html", "df/ddf/printing__disabled__info__widget_8h" ]
 ];

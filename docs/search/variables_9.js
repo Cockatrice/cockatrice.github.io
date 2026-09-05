@@ -40,7 +40,7 @@ var searchData=
   ['imageurifrontsmall_37',['imageUriFrontSmall',['../de/d6c/structCommanderSpellbookCardResult.html#a95db9e3f765d7f4ccd14d4368ddd9e7d',1,'CommanderSpellbookCardResult']]],
   ['imageuris_38',['imageUris',['../d6/dac/classEdhrecCommanderApiResponseCommanderDetails.html#a595f18f534c58383d338984cd90c5852',1,'EdhrecCommanderApiResponseCommanderDetails']]],
   ['imageurl_39',['imageUrl',['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#ad149c6a42a6e7a24f95d4364480be74c',1,'ArchidektApiResponseDeckEntryDisplayWidget']]],
-  ['importer_40',['importer',['../d5/dba/classOracleWizard.html#a9e341b6d01ebe10bf21bfee24b34150a',1,'OracleWizard']]],
+  ['importer_40',['importer',['../d5/dba/classOracleWizard.html#a9e341b6d01ebe10bf21bfee24b34150a',1,'OracleWizard::importer'],['../dd/d20/classOracleImporterTest.html#a444ee1aff4246a7d8ff6f59a2e562d13',1,'OracleImporterTest::importer']]],
   ['in_5ftoken_5fboundary_5fcount_41',['in_token_boundary_count',['../df/d94/classpeg_1_1Context.html#a0a29838b2aea3de5522f8b5fdb59a91d',1,'peg::Context']]],
   ['in_5fwhitespace_42',['in_whitespace',['../df/d94/classpeg_1_1Context.html#ab343f6850da55c4617213d81b64232c8',1,'peg::Context']]],
   ['inactivitycounter_43',['inactivityCounter',['../df/d89/classServer__Game.html#af46963b6f56681b26097211350cfcd9e',1,'Server_Game']]],

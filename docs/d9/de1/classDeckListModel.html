@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-01-Development-3.1.0-beta.10</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -174,6 +174,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad0abbec6eacb2e42ea95ed23080de242"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a deduplicated list of all CardRefs that appear in the model.  <br /></td></tr>
 <tr class="memitem:a9792f8b64e1a2284ee3aca39a2f6939f" id="r_a9792f8b64e1a2284ee3aca39a2f6939f"><td class="memItemLeft">QList&lt; QString &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9792f8b64e1a2284ee3aca39a2f6939f">getZones</a> () const</td></tr>
 <tr class="memdesc:a9792f8b64e1a2284ee3aca39a2f6939f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a list of all zone names that appear in the model.  <br /></td></tr>
+<tr class="memitem:a47a86de4092fca04d4236d82f4a0ece5" id="r_a47a86de4092fca04d4236d82f4a0ece5"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#a47a86de4092fca04d4236d82f4a0ece5">getCustomZoneNames</a> (const QString &amp;boardZoneName) const</td></tr>
+<tr class="memdesc:a47a86de4092fca04d4236d82f4a0ece5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the names of the custom zones nested under the given board zone.  <br /></td></tr>
 <tr id="pub-methods-0" class="groupHeader"><td colspan="2"><div class="groupHeader">Qt model overrides</div></td></tr>
 <tr class="memitem:a50aa585d273a7919f96fcb9d8dcf25d0" id="r_a50aa585d273a7919f96fcb9d8dcf25d0"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a50aa585d273a7919f96fcb9d8dcf25d0">rowCount</a> (const QModelIndex &amp;<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>) const override</td></tr>
 <tr class="memitem:a5ff46dbf1e469617398492561810788e" id="r_a5ff46dbf1e469617398492561810788e"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a5ff46dbf1e469617398492561810788e">columnCount</a> (const QModelIndex &amp;=QModelIndex()) const override</td></tr>
@@ -198,6 +200,8 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a4a2fe2b0098a76b175b947bf5996c457" id="r_a4a2fe2b0098a76b175b947bf5996c457"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4a2fe2b0098a76b175b947bf5996c457">emitRecursiveUpdates</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>)</td></tr>
 <tr class="memdesc:a4a2fe2b0098a76b175b947bf5996c457"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recursively emits the dataChanged signal for the given node and all parent nodes.  <br /></td></tr>
 <tr class="memitem:a4b5bac3a4a9628c2a980cc57d1087aae" id="r_a4b5bac3a4a9628c2a980cc57d1087aae"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4b5bac3a4a9628c2a980cc57d1087aae">sortHelper</a> (<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *node, Qt::SortOrder order)</td></tr>
+<tr class="memitem:a15f9ba5a54223b4c3c8b3bfd2e5e976c" id="r_a15f9ba5a54223b4c3c8b3bfd2e5e976c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a15f9ba5a54223b4c3c8b3bfd2e5e976c">sortShadowTree</a> (<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *node, Qt::SortOrder order)</td></tr>
+<tr class="memdesc:a15f9ba5a54223b4c3c8b3bfd2e5e976c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts a freshly built shadow subtree without emitting model signals.  <br /></td></tr>
 <tr class="memitem:a40eb591f587892f375f9942f6668519b" id="r_a40eb591f587892f375f9942f6668519b"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a40eb591f587892f375f9942f6668519b template"><td class="memItemLeft">T&#160;</td><td class="memItemRight"><a class="el" href="#a40eb591f587892f375f9942f6668519b">getNode</a> (const QModelIndex &amp;<a class="el" href="#a668baf2a150e168e25b0188f0877a74d">index</a>) const</td></tr>
 <tr class="memitem:a9c45720ad82f9d3c12e98b39a0d748e8" id="r_a9c45720ad82f9d3c12e98b39a0d748e8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9c45720ad82f9d3c12e98b39a0d748e8">refreshCardFormatLegalities</a> ()</td></tr>
@@ -352,7 +356,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_ac31406c75864382e2499851f3c84460e_icgraph.svg" width="100%" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_ac31406c75864382e2499851f3c84460e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -442,7 +446,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a050afffcc543e063c9eecc4fda084f7d_icgraph.svg" width="100%" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a050afffcc543e063c9eecc4fda084f7d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -485,7 +489,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a21a5c3bdf3dd67b1b0bf6de39c24d92b_icgraph.svg" width="100%" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a21a5c3bdf3dd67b1b0bf6de39c24d92b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -667,7 +671,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a5ff46dbf1e469617398492561810788e_icgraph.svg" width="100%" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a5ff46dbf1e469617398492561810788e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -701,12 +705,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_aceb783126435fc113dcb903a9ef31f0f_cgraph.svg" width="100%" height="365"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_aceb783126435fc113dcb903a9ef31f0f_cgraph.svg" width="100%" height="414"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_aceb783126435fc113dcb903a9ef31f0f_icgraph.svg" width="100%" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_aceb783126435fc113dcb903a9ef31f0f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -777,7 +781,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a3b3448445b238d8ed10203d302b2a039_icgraph.svg" width="100%" height="579"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a3b3448445b238d8ed10203d302b2a039_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -900,7 +904,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a4a2fe2b0098a76b175b947bf5996c457_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a4a2fe2b0098a76b175b947bf5996c457_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -956,12 +960,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a1d400b8fce69e71fffa9a5e0ae5d3df3_cgraph.svg" width="100%" height="579"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a1d400b8fce69e71fffa9a5e0ae5d3df3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a1d400b8fce69e71fffa9a5e0ae5d3df3_icgraph.svg" width="100%" height="482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a1d400b8fce69e71fffa9a5e0ae5d3df3_icgraph.svg" width="100%" height="582"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1005,12 +1009,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_acae2553ca72ba83683de08e15567f7f2_cgraph.svg" width="100%" height="552"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_acae2553ca72ba83683de08e15567f7f2_cgraph.svg" width="100%" height="579"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_acae2553ca72ba83683de08e15567f7f2_icgraph.svg" width="100%" height="482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_acae2553ca72ba83683de08e15567f7f2_icgraph.svg" width="100%" height="582"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1059,7 +1063,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a0e42775d1e442263924c55f42f91bc0c_icgraph.svg" width="100%" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a0e42775d1e442263924c55f42f91bc0c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1231,6 +1235,45 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_ad0abbec6eacb2e42ea95ed23080de242_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a47a86de4092fca04d4236d82f4a0ece5" name="a47a86de4092fca04d4236d82f4a0ece5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47a86de4092fca04d4236d82f4a0ece5">&#9670;&#160;</a></span>getCustomZoneNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList DeckListModel::getCustomZoneNames </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>boardZoneName</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the names of the custom zones nested under the given board zone. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boardZoneName</td><td>The board zone to query (main/side/maybeboard) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The custom zone names, in deck order </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a47a86de4092fca04d4236d82f4a0ece5_icgraph.svg" width="483" height="200"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1576,7 +1619,6 @@ Here is the caller graph for this function:</div>
 
 <p>Rebuilds the model tree from the underlying node tree. </p>
 <p>This updates all indices and ensures the model reflects the current state of the deck. </p>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000254">Todo</a></b></dt><dd>Better sanity checking. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1585,7 +1627,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a0f1a16328bef79628489b3384cf9377b_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a0f1a16328bef79628489b3384cf9377b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1695,7 +1737,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a52c113839c36515c5350d8c979e00ee5_cgraph.svg" width="100%" height="485"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a52c113839c36515c5350d8c979e00ee5_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1735,7 +1777,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a50aa585d273a7919f96fcb9d8dcf25d0_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a50aa585d273a7919f96fcb9d8dcf25d0_icgraph.svg" width="100%" height="468"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1919,12 +1961,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a93fc3adc648030ffc217b06ef4ce5c22_cgraph.svg" width="664" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a93fc3adc648030ffc217b06ef4ce5c22_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a93fc3adc648030ffc217b06ef4ce5c22_icgraph.svg" width="100%" height="575"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a93fc3adc648030ffc217b06ef4ce5c22_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1958,12 +2000,54 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a4b5bac3a4a9628c2a980cc57d1087aae_cgraph.svg" width="466" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a4b5bac3a4a9628c2a980cc57d1087aae_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a4b5bac3a4a9628c2a980cc57d1087aae_icgraph.svg" width="100%" height="575"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a4b5bac3a4a9628c2a980cc57d1087aae_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a15f9ba5a54223b4c3c8b3bfd2e5e976c" name="a15f9ba5a54223b4c3c8b3bfd2e5e976c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15f9ba5a54223b4c3c8b3bfd2e5e976c">&#9670;&#160;</a></span>sortShadowTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckListModel::sortShadowTree </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *</td>          <td class="paramname"><span class="paramname"><em>node</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Qt::SortOrder</td>          <td class="paramname"><span class="paramname"><em>order</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sorts a freshly built shadow subtree without emitting model signals. </p>
+<p>Used by rebuildTree while the model reset is still open (emitting layout changes during a reset is invalid). Reorders every node just like sortHelper does, but ignores the movement mapping because there are no persistent indices established yet. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a15f9ba5a54223b4c3c8b3bfd2e5e976c_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a15f9ba5a54223b4c3c8b3bfd2e5e976c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

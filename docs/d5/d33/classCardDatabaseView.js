@@ -16,7 +16,10 @@ var classCardDatabaseView =
     [ "resetSelectionIfEmpty", "d5/d33/classCardDatabaseView.html#add07f49fbe833ef847555950a635a23b", null ],
     [ "saveDbHeaderState", "d5/d33/classCardDatabaseView.html#af07a99ac88209d6e01d66d2e35ae03bf", null ],
     [ "selectPrintingClicked", "d5/d33/classCardDatabaseView.html#a1605eee20c82335aa7a471775a9dbcd0", null ],
+    [ "setZoneMenuProvider", "d5/d33/classCardDatabaseView.html#a799c992ed3e894ffebdbf3b7962c9272", null ],
     [ "updateCard", "d5/d33/classCardDatabaseView.html#a7eb9a8905693bbe5b40bf533861a6e20", null ],
     [ "databaseDisplayModel", "d5/d33/classCardDatabaseView.html#afeff80ac5a0dcee46f611f04e6419d7a", null ],
-    [ "searchKeySignals", "d5/d33/classCardDatabaseView.html#a6f34e10e78a996e0c82c02ceadd8ae54", null ]
+    [ "newZoneHandler", "d5/d33/classCardDatabaseView.html#af9316d6930dfb78fbb580cecf13ab469", null ],
+    [ "searchKeySignals", "d5/d33/classCardDatabaseView.html#a6f34e10e78a996e0c82c02ceadd8ae54", null ],
+    [ "zoneMenuProvider", "d5/d33/classCardDatabaseView.html#aaa70581dfad6140459219670f2093050", null ]
 ];

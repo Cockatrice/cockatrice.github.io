@@ -5,7 +5,9 @@ var hierarchy =
         [ "DecklistCardNode", "d5/d22/classDecklistCardNode.html", null ],
         [ "DecklistModelCardNode", "dd/d4f/classDecklistModelCardNode.html", null ]
       ] ],
-      [ "InnerDecklistNode", "d4/d55/classInnerDecklistNode.html", null ]
+      [ "InnerDecklistNode", "d4/d55/classInnerDecklistNode.html", [
+        [ "DecklistModelSubZoneNode", "dc/db4/classDecklistModelSubZoneNode.html", null ]
+      ] ]
     ] ],
     [ "AbstractPlayerComponent", "d3/d2a/classAbstractPlayerComponent.html", [
       [ "AbstractCounter", "d4/d67/classAbstractCounter.html", [
@@ -473,7 +475,6 @@ var hierarchy =
     [ "IVisualDeckStorageSettingsProvider", "d8/dc3/classIVisualDeckStorageSettingsProvider.html", [
       [ "VisualDeckStorageSettings", "d3/d93/classVisualDeckStorageSettings.html", null ]
     ] ],
-    [ "QtJson::Json", "d3/d98/classQtJson_1_1Json.html", null ],
     [ "CardSetList::KeyCompareFunctor", "da/d79/classCardSetList_1_1KeyCompareFunctor.html", null ],
     [ "peg::KeywordGuardData", "d7/d9a/structpeg_1_1KeywordGuardData.html", null ],
     [ "LatencyTracker", "d3/d07/classLatencyTracker.html", null ],
@@ -489,6 +490,7 @@ var hierarchy =
     [ "ManaDevotionConfig", "d5/d54/structManaDevotionConfig.html", null ],
     [ "ManaDistributionConfig", "d7/d68/structManaDistributionConfig.html", null ],
     [ "ManaSymbolPixmapGenerator", "d2/dcd/classManaSymbolPixmapGenerator.html", null ],
+    [ "MemorySnapshot", "d4/d37/structMemorySnapshot.html", null ],
     [ "DeckList::Metadata", "d3/de4/structDeckList_1_1Metadata.html", null ],
     [ "MockCard", "db/d6b/structMockCard.html", null ],
     [ "MockCardList", "db/dc5/classMockCardList.html", null ],
@@ -610,6 +612,7 @@ var hierarchy =
       [ "AdminNotesDialog", "d0/d36/classAdminNotesDialog.html", null ],
       [ "BanDialog", "dd/d5d/classBanDialog.html", null ],
       [ "DeckPreviewTagDialog", "de/d04/classDeckPreviewTagDialog.html", null ],
+      [ "DeckZoneDialog", "d0/dcf/classDeckZoneDialog.html", null ],
       [ "DialogConvertDeckToCodFormat", "d6/d5f/classDialogConvertDeckToCodFormat.html", null ],
       [ "DlgConnect", "d3/da4/classDlgConnect.html", null ],
       [ "DlgCreateGame", "d6/dee/classDlgCreateGame.html", null ],
@@ -1309,6 +1312,7 @@ var hierarchy =
     [ "std::runtime_error", null, [
       [ "peg::ParserGenerator::SyntaxErrorException", "df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html", null ]
     ] ],
+    [ "RawJson::ScanError", "dc/d38/structRawJson_1_1ScanError.html", null ],
     [ "peg::scope_exit&lt; EF &gt;", "d5/dbb/structpeg_1_1scope__exit.html", null ],
     [ "CardSearchModel::SearchResult", "df/d87/structCardSearchModel_1_1SearchResult.html", null ],
     [ "SegmentedBarWidget::Segment", "d2/d89/structSegmentedBarWidget_1_1Segment.html", null ],
@@ -1412,9 +1416,11 @@ var hierarchy =
     [ "Event_UserLeft::SessionEvent", "d3/d5c/structEvent__UserLeft_1_1SessionEvent.html", null ],
     [ "Event_UserMessage::SessionEvent", "d5/df4/structEvent__UserMessage_1_1SessionEvent.html", null ],
     [ "SessionEvent", "d4/d0c/structSessionEvent.html", null ],
+    [ "RawJson::SetDataRange", "dd/df7/structRawJson_1_1SetDataRange.html", null ],
     [ "ICardSetPriorityController::SetOptions", "d7/d77/structICardSetPriorityController_1_1SetOptions.html", null ],
     [ "SetPriorityComparator", "d5/dee/classSetPriorityComparator.html", null ],
     [ "CardNodeFunction::SetProviderIdToPreferred", "d0/d52/structCardNodeFunction_1_1SetProviderIdToPreferred.html", null ],
+    [ "RawJson::SetRange", "d9/d1d/structRawJson_1_1SetRange.html", null ],
     [ "SetReleaseDateComparator", "d4/d3e/classSetReleaseDateComparator.html", null ],
     [ "ICardSetPriorityController::SetSaveData", "d0/db0/structICardSetPriorityController_1_1SetSaveData.html", null ],
     [ "SettingsMigration", "d3/d46/classSettingsMigration.html", null ],
@@ -1433,7 +1439,8 @@ var hierarchy =
     [ "TallyRow", "d3/d34/structTallyRow.html", null ],
     [ "testing::Test", null, [
       [ "AddCardAlgorithmTest", "d1/df2/classAddCardAlgorithmTest.html", null ],
-      [ "LagMonitorTest", "d5/d8d/classLagMonitorTest.html", null ]
+      [ "LagMonitorTest", "d5/d8d/classLagMonitorTest.html", null ],
+      [ "OracleImporterTest", "dd/d20/classOracleImporterTest.html", null ]
     ] ],
     [ "ThemeConfig", "dc/dec/structThemeConfig.html", null ],
     [ "TipOfTheDay", "d2/dba/classTipOfTheDay.html", null ],

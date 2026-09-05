@@ -56,6 +56,10 @@ var namespaces_dup =
       [ "Explainer", "dc/d33/namespaceCommanderBracketNames.html#a2c30658c96e98d6cd74d074a38dbc5b0", null ],
       [ "OfficialCommanderBracketNames", "dc/d33/namespaceCommanderBracketNames.html#ab61a12681e88f6aaae325fbe2db000ce", null ]
     ] ],
+    [ "CryptoUtil", "dc/d23/namespaceCryptoUtil.html", [
+      [ "randomBytes", "dc/d23/namespaceCryptoUtil.html#a5423b665382f70c06c0f6911e4d7f212", null ],
+      [ "randomUInt64", "dc/d23/namespaceCryptoUtil.html#a651a904e55bdba2021b04b26de455cb5", null ]
+    ] ],
     [ "DeckFileFormat", "d4/d60/namespaceDeckFileFormat.html", [
       [ "Format", "d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945", [
         [ "PlainText", "d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945a13d9fc7e92cd6d8d9e62035b3b864fa6", null ],
@@ -74,6 +78,13 @@ var namespaces_dup =
       [ "TAPPEDOUT_SUFFIX", "de/d23/namespaceDeckLinkToApiTransformer.html#a3db155dfbb3fb857dba5041d72dea623", null ]
     ] ],
     [ "DeckListModelColumns", "d5/d1c/namespaceDeckListModelColumns.html", null ],
+    [ "DeckListModelCustomZones", "db/da5/namespaceDeckListModelCustomZones.html", [
+      [ "findGroupChild", "db/da5/namespaceDeckListModelCustomZones.html#a9c327726b0bffe20e636b4a397b285cd", null ],
+      [ "findSubZoneByName", "db/da5/namespaceDeckListModelCustomZones.html#afe5e8a39c051c0654817a1c132e6edfe", null ],
+      [ "isCustomZone", "db/da5/namespaceDeckListModelCustomZones.html#a9f468e71898cc23ecb2148bab3e6145a", null ],
+      [ "mirrorCustomZones", "db/da5/namespaceDeckListModelCustomZones.html#a51ce578f4775ca705f44569dd8333015", null ],
+      [ "sortWithCustomZonesLast", "db/da5/namespaceDeckListModelCustomZones.html#a3e76cf1cb1785a2cf76016d05cf76743", null ]
+    ] ],
     [ "DeckListModelGroupCriteria", "d2/d91/namespaceDeckListModelGroupCriteria.html", [
       [ "Type", "d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179", [
         [ "MAIN_TYPE", "d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179a081ae8dc8b4489f081e67a36ff6128ee", null ],
@@ -118,11 +129,11 @@ var namespaces_dup =
     [ "PopupRoles", "d4/d04/namespacePopupRoles.html", [
       [ "GameData", "d4/d04/namespacePopupRoles.html#aee3b53b3382f1365454509a058ad3641", null ]
     ] ],
-    [ "QtJson", "dc/dfb/namespaceQtJson.html", "dc/dfb/namespaceQtJson" ],
     [ "QtUtils", "dc/d55/namespaceQtUtils.html", [
       [ "clearLayoutRec", "dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301", null ],
       [ "findParentOfType", "dc/d55/namespaceQtUtils.html#a573d4567ad2940b0f5fce244a0f585f6", null ]
     ] ],
+    [ "RawJson", "d6/d63/namespaceRawJson.html", "d6/d63/namespaceRawJson" ],
     [ "report_utils", "d8/d80/namespacereport__utils.html", [
       [ "fillReportTableRow", "d8/d80/namespacereport__utils.html#aad25353920308e3ab67d83868b839809", null ],
       [ "formatReportCategory", "d8/d80/namespacereport__utils.html#aa522b2bfcaa63dfb583413958f170510", null ],

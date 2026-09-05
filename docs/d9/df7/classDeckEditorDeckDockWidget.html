@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-01-Development-3.1.0-beta.10</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -181,6 +181,10 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ae050c8573c137ae2fbc0073a5e966779" id="r_ae050c8573c137ae2fbc0073a5e966779"><td class="memItemLeft">QModelIndexList&#160;</td><td class="memItemRight"><a class="el" href="#ae050c8573c137ae2fbc0073a5e966779">getSelectedCardNodeSourceIndices</a> () const</td></tr>
 <tr class="memitem:ae62018c18651e82ea1423f9d44716059" id="r_ae62018c18651e82ea1423f9d44716059"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae62018c18651e82ea1423f9d44716059">offsetCountAtIndex</a> (const QModelIndex &amp;idx, bool isIncrement)</td></tr>
 <tr class="memdesc:ae62018c18651e82ea1423f9d44716059"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increments or decrements the amount of the card node at the index by 1.  <br /></td></tr>
+<tr class="memitem:ab339f7d082939816223322bb1fdf5844" id="r_ab339f7d082939816223322bb1fdf5844"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab339f7d082939816223322bb1fdf5844">addMoveToZoneMenu</a> (QMenu *menu, const QModelIndex &amp;sourceCardIndex, const QString &amp;currentBoardName)</td></tr>
+<tr class="memitem:a04783d5f812eba3aea8798e51f39e10a" id="r_a04783d5f812eba3aea8798e51f39e10a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a04783d5f812eba3aea8798e51f39e10a">addChangeBoardMenu</a> (QMenu *menu, const QString &amp;zoneName)</td></tr>
+<tr class="memitem:ae4ae6b27f8b690be07deef4a5a43db95" id="r_ae4ae6b27f8b690be07deef4a5a43db95"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ae4ae6b27f8b690be07deef4a5a43db95">createNewCustomZone</a> (const QString &amp;initialBoardName={})</td></tr>
+<tr class="memitem:ac0e1c2d81d226ffc97bae7ca7c15d11d" id="r_ac0e1c2d81d226ffc97bae7ca7c15d11d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac0e1c2d81d226ffc97bae7ca7c15d11d">addNewZoneAction</a> (QMenu *menu, const QString &amp;initialBoardName={})</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -328,7 +332,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000115">Todo</a></b></dt><dd>Remove the hack and also handle reselection when all rows of a multi-selection gets deleted. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000123">Todo</a></b></dt><dd>Remove the hack and also handle reselection when all rows of a multi-selection gets deleted. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -399,7 +403,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000116">Todo</a></b></dt><dd>Remove the hack and also handle reselection when all rows of a multi-selection gets deleted. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000124">Todo</a></b></dt><dd>Remove the hack and also handle reselection when all rows of a multi-selection gets deleted. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -469,7 +473,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000114">Todo</a></b></dt><dd>Remove the hack and also handle reselection when all rows of a multi-selection gets deleted. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000122">Todo</a></b></dt><dd>Remove the hack and also handle reselection when all rows of a multi-selection gets deleted. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -479,6 +483,128 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_a424495629262fb039bfa6d37d58b48de_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a04783d5f812eba3aea8798e51f39e10a" name="a04783d5f812eba3aea8798e51f39e10a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04783d5f812eba3aea8798e51f39e10a">&#9670;&#160;</a></span>addChangeBoardMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckEditorDeckDockWidget::addChangeBoardMenu </td>
+          <td>(</td>
+          <td class="paramtype">QMenu *</td>          <td class="paramname"><span class="paramname"><em>menu</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>zoneName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_a04783d5f812eba3aea8798e51f39e10a_cgraph.svg" width="440" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_a04783d5f812eba3aea8798e51f39e10a_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab339f7d082939816223322bb1fdf5844" name="ab339f7d082939816223322bb1fdf5844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab339f7d082939816223322bb1fdf5844">&#9670;&#160;</a></span>addMoveToZoneMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckEditorDeckDockWidget::addMoveToZoneMenu </td>
+          <td>(</td>
+          <td class="paramtype">QMenu *</td>          <td class="paramname"><span class="paramname"><em>menu</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>sourceCardIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>currentBoardName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_ab339f7d082939816223322bb1fdf5844_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_ab339f7d082939816223322bb1fdf5844_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac0e1c2d81d226ffc97bae7ca7c15d11d" name="ac0e1c2d81d226ffc97bae7ca7c15d11d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0e1c2d81d226ffc97bae7ca7c15d11d">&#9670;&#160;</a></span>addNewZoneAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckEditorDeckDockWidget::addNewZoneAction </td>
+          <td>(</td>
+          <td class="paramtype">QMenu *</td>          <td class="paramname"><span class="paramname"><em>menu</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>initialBoardName</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_ac0e1c2d81d226ffc97bae7ca7c15d11d_cgraph.svg" width="100%" height="456"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_ac0e1c2d81d226ffc97bae7ca7c15d11d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -548,7 +674,7 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000112">Todo</a></b></dt><dd>Figure out why it's happening so we can do a proper fix instead of a hacky workaround. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000121">Todo</a></b></dt><dd>Figure out why it's happening so we can do a proper fix instead of a hacky workaround. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -589,6 +715,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ae4ae6b27f8b690be07deef4a5a43db95" name="ae4ae6b27f8b690be07deef4a5a43db95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4ae6b27f8b690be07deef4a5a43db95">&#9670;&#160;</a></span>createNewCustomZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DeckEditorDeckDockWidget::createNewCustomZone </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>initialBoardName</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_ae4ae6b27f8b690be07deef4a5a43db95_cgraph.svg" width="100%" height="456"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_ae4ae6b27f8b690be07deef4a5a43db95_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a36b1873cf0cfc6c8a529326e8295ddfc" name="a36b1873cf0cfc6c8a529326e8295ddfc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36b1873cf0cfc6c8a529326e8295ddfc">&#9670;&#160;</a></span>decklistCustomMenu</h2>
 
@@ -614,7 +775,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_a36b1873cf0cfc6c8a529326e8295ddfc_cgraph.svg" width="434" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_a36b1873cf0cfc6c8a529326e8295ddfc_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>

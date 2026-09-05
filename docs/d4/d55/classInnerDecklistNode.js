@@ -3,6 +3,7 @@ var classInnerDecklistNode =
     [ "InnerDecklistNode", "d4/d55/classInnerDecklistNode.html#ac20f2f05e6658d236abccc427f7d848c", null ],
     [ "InnerDecklistNode", "d4/d55/classInnerDecklistNode.html#a45b30bbf3de92fcf4d16b9ca097a7392", null ],
     [ "~InnerDecklistNode", "d4/d55/classInnerDecklistNode.html#a0b561ece7a960acc3d8c3f00865cbf54", null ],
+    [ "boardZoneNames", "d4/d55/classInnerDecklistNode.html#ac79e52cd241520737e4ac83673cd2520", null ],
     [ "clearTree", "d4/d55/classInnerDecklistNode.html#a0bb97e7ad6ce56b677f79f137eb21b55", null ],
     [ "compare", "d4/d55/classInnerDecklistNode.html#ade1e5aca36502a7e16d8a5ffec3a4dbc", null ],
     [ "compareName", "d4/d55/classInnerDecklistNode.html#a575bd44d01072d88ba50e3a1806b5ad5", null ],

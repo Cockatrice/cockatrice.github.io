@@ -29,7 +29,7 @@ var searchData=
   ['oncategoryaddition_26',['onCategoryAddition',['../d8/d9f/classDeckCardZoneDisplayWidget.html#a70b55869f59899b5ee070a4811d470ce',1,'DeckCardZoneDisplayWidget']]],
   ['oncategoryremoval_27',['onCategoryRemoval',['../d8/d9f/classDeckCardZoneDisplayWidget.html#a11a19ab2165c2dbd9592fc8a2687fd71',1,'DeckCardZoneDisplayWidget']]],
   ['oncheckboxstatechanged_28',['onCheckboxStateChanged',['../de/d04/classDeckPreviewTagDialog.html#accacd21704d11a8693bbd586d9717641',1,'DeckPreviewTagDialog']]],
-  ['onclick_29',['onClick',['../d8/d9f/classDeckCardZoneDisplayWidget.html#a5d6904f1a5a4d62fe5496c4b8f1b3fb5',1,'DeckCardZoneDisplayWidget::onClick()'],['../d2/d32/classVisualDatabaseDisplayWidget.html#a53fe9f5b2484eb16048cf97135c774b7',1,'VisualDatabaseDisplayWidget::onClick()']]],
+  ['onclick_29',['onClick',['../d2/d32/classVisualDatabaseDisplayWidget.html#a53fe9f5b2484eb16048cf97135c774b7',1,'VisualDatabaseDisplayWidget']]],
   ['onclientstatuschanged_30',['onClientStatusChanged',['../dd/dd9/classIntentOpenServerRoomByName.html#adc4e6a85a3d1c9285e3634fbdd7a4621',1,'IntentOpenServerRoomByName']]],
   ['oncompletionreset_31',['onCompletionReset',['../de/d06/classCardCompleterStyler.html#a950d358236c71b24f3e61c892b338e49',1,'CardCompleterStyler']]],
   ['onconnectionclosedevent_32',['onConnectionClosedEvent',['../d4/d97/classConnectionController.html#a7eb49af91ddcdc2100b16dfcf5225875',1,'ConnectionController']]],

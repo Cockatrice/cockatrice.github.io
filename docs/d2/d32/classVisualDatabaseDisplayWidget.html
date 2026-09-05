@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-01-Development-3.1.0-beta.10</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -137,6 +137,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a68cbb03374d3668a507adea2dc871283" id="r_a68cbb03374d3668a507adea2dc871283"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a68cbb03374d3668a507adea2dc871283">loadCurrentPage</a> ()</td></tr>
 <tr class="memitem:a619bdcf9ef46b12a6e9259ccf6191553" id="r_a619bdcf9ef46b12a6e9259ccf6191553"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a619bdcf9ef46b12a6e9259ccf6191553">sortCardList</a> (const QStringList &amp;properties, Qt::SortOrder order) const</td></tr>
 <tr class="memitem:aa4e30db80c7486f2e04cd492b89060e7" id="r_aa4e30db80c7486f2e04cd492b89060e7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa4e30db80c7486f2e04cd492b89060e7">setDeckList</a> (const <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &amp;new_deck_list_model)</td></tr>
+<tr class="memitem:a5a3f9e96ecdd626dd80e1624ff5e10fd" id="r_a5a3f9e96ecdd626dd80e1624ff5e10fd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5a3f9e96ecdd626dd80e1624ff5e10fd">setNewZoneCreator</a> (const std::function&lt; QString()&gt; &amp;creator)</td></tr>
+<tr class="memdesc:a5a3f9e96ecdd626dd80e1624ff5e10fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the callback used to create a custom zone from the add-to-zone menu. The callback returns the name of the created zone, or an empty string if creation was cancelled.  <br /></td></tr>
 <tr class="memitem:ab8990d58827e489012998e5d7f977280" id="r_ab8990d58827e489012998e5d7f977280"><td class="memItemLeft"><a class="el" href="../../da/d8d/classCardDatabaseDisplayModel.html">CardDatabaseDisplayModel</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ab8990d58827e489012998e5d7f977280">getDatabaseDisplayModel</a> ()</td></tr>
 <tr class="memitem:a93e7ebb1ced03e9707b7d325c8d19d2e" id="r_a93e7ebb1ced03e9707b7d325c8d19d2e"><td class="memItemLeft"><a class="el" href="../../d5/d33/classCardDatabaseView.html">CardDatabaseView</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a93e7ebb1ced03e9707b7d325c8d19d2e">getDatabaseView</a> ()</td></tr>
 <tr class="memitem:af9a78f8e25405a806583b3bdaed2f7d1" id="r_af9a78f8e25405a806583b3bdaed2f7d1"><td class="memItemLeft"><a class="el" href="../../d7/d62/classFilterTreeModel.html">FilterTreeModel</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af9a78f8e25405a806583b3bdaed2f7d1">getFilterModel</a> ()</td></tr>
@@ -179,6 +181,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ac291f9cf9bd56b40e6e2651214f2a274" id="r_ac291f9cf9bd56b40e6e2651214f2a274"><td class="memItemLeft"><a class="el" href="../../d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html">VisualDatabaseDisplayFilterToolbarWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ac291f9cf9bd56b40e6e2651214f2a274">filterContainer</a></td></tr>
 <tr class="memitem:a4e435523edfcae568cb61a26ac67b32e" id="r_a4e435523edfcae568cb61a26ac67b32e"><td class="memItemLeft"><a class="el" href="../../da/d8d/classCardDatabaseDisplayModel.html">CardDatabaseDisplayModel</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a4e435523edfcae568cb61a26ac67b32e">databaseDisplayModel</a></td></tr>
 <tr class="memitem:a61114e699c3ddfcf1fb5598e47385f19" id="r_a61114e699c3ddfcf1fb5598e47385f19"><td class="memItemLeft"><a class="el" href="../../d5/d33/classCardDatabaseView.html">CardDatabaseView</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a61114e699c3ddfcf1fb5598e47385f19">databaseView</a></td></tr>
+<tr class="memitem:a3e24023afce06400296077c770eb95b7" id="r_a3e24023afce06400296077c770eb95b7"><td class="memItemLeft">std::function&lt; QString()&gt;&#160;</td><td class="memItemRight"><a class="el" href="#a3e24023afce06400296077c770eb95b7">newZoneCreator</a></td></tr>
 <tr class="memitem:a9242327b4b00bf96689af6fd90c676ac" id="r_a9242327b4b00bf96689af6fd90c676ac"><td class="memItemLeft">QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; *&#160;</td><td class="memItemRight"><a class="el" href="#a9242327b4b00bf96689af6fd90c676ac">cards</a></td></tr>
 <tr class="memitem:a15dfc22fc93543180258a94638a1dda4" id="r_a15dfc22fc93543180258a94638a1dda4"><td class="memItemLeft">QVBoxLayout *&#160;</td><td class="memItemRight"><a class="el" href="#a15dfc22fc93543180258a94638a1dda4">mainLayout</a></td></tr>
 <tr class="memitem:ab37fbed59e04e459ddc24ff3db035a2b" id="r_ab37fbed59e04e459ddc24ff3db035a2b"><td class="memItemLeft">QScrollArea *&#160;</td><td class="memItemRight"><a class="el" href="#ab37fbed59e04e459ddc24ff3db035a2b">scrollArea</a></td></tr>
@@ -1268,6 +1271,25 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a5a3f9e96ecdd626dd80e1624ff5e10fd" name="a5a3f9e96ecdd626dd80e1624ff5e10fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a3f9e96ecdd626dd80e1624ff5e10fd">&#9670;&#160;</a></span>setNewZoneCreator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDatabaseDisplayWidget::setNewZoneCreator </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; QString()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>creator</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the callback used to create a custom zone from the add-to-zone menu. The callback returns the name of the created zone, or an empty string if creation was cancelled. </p>
+
+</div>
+</div>
 <a id="a016d8ece53348c977feeb586ebf2d5cc" name="a016d8ece53348c977feeb586ebf2d5cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a016d8ece53348c977feeb586ebf2d5cc">&#9670;&#160;</a></span>showEvent()</h2>
 
@@ -1705,6 +1727,28 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QVBoxLayout* VisualDatabaseDisplayWidget::mainLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e24023afce06400296077c770eb95b7" name="a3e24023afce06400296077c770eb95b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e24023afce06400296077c770eb95b7">&#9670;&#160;</a></span>newZoneCreator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;QString()&gt; VisualDatabaseDisplayWidget::newZoneCreator</td>
         </tr>
       </table>
   </td>

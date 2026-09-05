@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['userlevelflag_0',['UserLevelFlag',['../d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814',1,'ServerInfo_User']]],
-  ['userlisttype_1',['UserListType',['../da/d3b/classUserListWidget.html#abf013e42f0196e76737d014e9403552c',1,'UserListWidget']]]
+  ['vdestartuptab_0',['VdeStartupTab',['../d6/d5e/deck__editor__settings_8h.html#a2bce49be9379cab2de836369689db1b9',1,'deck_editor_settings.h']]],
+  ['viewmode_1',['ViewMode',['../db/d22/classCardInfoFrameWidget.html#a8bbf46261515687958b7f79213cd592d',1,'CardInfoFrameWidget']]],
+  ['visualdeckstoragepromptforconversionindex_2',['visualDeckStoragePromptForConversionIndex',['../de/d9d/user__interface__settings__page_8cpp.html#ae82e9cff65aa2b6d9166d7255df2fe8f',1,'user_interface_settings_page.cpp']]]
 ];

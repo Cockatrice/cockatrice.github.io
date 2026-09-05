@@ -1,5 +1,6 @@
 var group__DeckModels =
 [
+    [ "DeckListModelCustomZones", "db/da5/namespaceDeckListModelCustomZones.html", null ],
     [ "AbstractDecklistCardNode", "d3/de9/classAbstractDecklistCardNode.html", [
       [ "AbstractDecklistCardNode", "d3/de9/classAbstractDecklistCardNode.html#a29cbc47c621c4f110d45a7e5e5d6e6e7", null ],
       [ "compare", "d3/de9/classAbstractDecklistCardNode.html#a5c49007f00fe34492de3fe81b1057d9b", null ],
@@ -111,6 +112,7 @@ var group__DeckModels =
       [ "getCardNodes", "d9/de1/classDeckListModel.html#a2c09627b92213e45e4fc8a86f0293035", null ],
       [ "getCardNodesForZone", "d9/de1/classDeckListModel.html#a3fe415fc5c616a12f448e15412463762", null ],
       [ "getCardRefs", "d9/de1/classDeckListModel.html#ad0abbec6eacb2e42ea95ed23080de242", null ],
+      [ "getCustomZoneNames", "d9/de1/classDeckListModel.html#a47a86de4092fca04d4236d82f4a0ece5", null ],
       [ "getDeckList", "d9/de1/classDeckListModel.html#a224db4a8d5389f1e96cb6bc5b6ee9dc9", null ],
       [ "getNode", "d9/de1/classDeckListModel.html#a40eb591f587892f375f9942f6668519b", null ],
       [ "getRoot", "d9/de1/classDeckListModel.html#a42bedcaca0c194f67fd1a95884f59ff6", null ],
@@ -131,11 +133,16 @@ var group__DeckModels =
       [ "setDeckList", "d9/de1/classDeckListModel.html#aa87143204e143b61eb7d5811bb007477", null ],
       [ "sort", "d9/de1/classDeckListModel.html#a93fc3adc648030ffc217b06ef4ce5c22", null ],
       [ "sortHelper", "d9/de1/classDeckListModel.html#a4b5bac3a4a9628c2a980cc57d1087aae", null ],
+      [ "sortShadowTree", "d9/de1/classDeckListModel.html#a15f9ba5a54223b4c3c8b3bfd2e5e976c", null ],
       [ "activeGroupCriteria", "d9/de1/classDeckListModel.html#aec2d7e1d65996197326e43f9436db4ac", null ],
       [ "deckList", "d9/de1/classDeckListModel.html#a93f8ef6228bd75ea618cdc9d4d01a9ec", null ],
       [ "lastKnownColumn", "d9/de1/classDeckListModel.html#a6d0bdb8f1f6df2ea7e15bfd9158047c1", null ],
       [ "lastKnownOrder", "d9/de1/classDeckListModel.html#a6de2f3556c4b6fe7ebca0d17106e23d0", null ],
       [ "root", "d9/de1/classDeckListModel.html#acf9b31e662afe4a86fbb2b4cc98f759a", null ]
+    ] ],
+    [ "DecklistModelSubZoneNode", "dc/db4/classDecklistModelSubZoneNode.html", [
+      [ "InnerDecklistNode", "dc/db4/classDecklistModelSubZoneNode.html#a45b30bbf3de92fcf4d16b9ca097a7392", null ],
+      [ "InnerDecklistNode", "dc/db4/classDecklistModelSubZoneNode.html#ac20f2f05e6658d236abccc427f7d848c", null ]
     ] ],
     [ "DeckSortMethod", "d1/d6c/group__DeckModels.html#ga8ea3802f8561f16be908a83a08a796ce", [
       [ "ByNumber", "d8/d7d/abstract__deck__list__node_8h.html#ga8ea3802f8561f16be908a83a08a796cea73c7b90bd5bfdaa976a06eb630fe4aae", null ],

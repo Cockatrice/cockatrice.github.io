@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-01-Development-3.1.0-beta.10</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -130,6 +130,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a73ee52fba8e9b6f6aeff1f1df166eb9b" id="r_a73ee52fba8e9b6f6aeff1f1df166eb9b"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a73ee52fba8e9b6f6aeff1f1df166eb9b">currentCardName</a> () const</td></tr>
 <tr class="memitem:a5a664e898c423cffa1bb4fad9a560fe5" id="r_a5a664e898c423cffa1bb4fad9a560fe5"><td class="memItemLeft"><a class="el" href="../../da/d89/classKeySignals.html">KeySignals</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a5a664e898c423cffa1bb4fad9a560fe5">getKeySignals</a> ()</td></tr>
 <tr class="memdesc:a5a664e898c423cffa1bb4fad9a560fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="../../da/d89/classKeySignals.html">KeySignals</a> that are connected to this view. You can install the <a class="el" href="../../da/d89/classKeySignals.html">KeySignals</a> as an eventFilter to capture keyboard shortcuts for adding and decrementing cards.  <br /></td></tr>
+<tr class="memitem:a799c992ed3e894ffebdbf3b7962c9272" id="r_a799c992ed3e894ffebdbf3b7962c9272"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a799c992ed3e894ffebdbf3b7962c9272">setZoneMenuProvider</a> (const std::function&lt; QList&lt; QPair&lt; QString, QStringList &gt; &gt;()&gt; &amp;provider, const std::function&lt; QString()&gt; &amp;<a class="el" href="#af9316d6930dfb78fbb580cecf13ab469">newZoneHandler</a>)</td></tr>
+<tr class="memdesc:a799c992ed3e894ffebdbf3b7962c9272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the provider used to populate the "Add to zone" submenu of the context menu. If no provider is set, the submenu is not shown.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
@@ -146,6 +148,8 @@ Private Slots</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a6f34e10e78a996e0c82c02ceadd8ae54" id="r_a6f34e10e78a996e0c82c02ceadd8ae54"><td class="memItemLeft"><a class="el" href="../../da/d89/classKeySignals.html">KeySignals</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6f34e10e78a996e0c82c02ceadd8ae54">searchKeySignals</a></td></tr>
 <tr class="memitem:afeff80ac5a0dcee46f611f04e6419d7a" id="r_afeff80ac5a0dcee46f611f04e6419d7a"><td class="memItemLeft"><a class="el" href="../../da/d8d/classCardDatabaseDisplayModel.html">CardDatabaseDisplayModel</a> *&#160;</td><td class="memItemRight"><a class="el" href="#afeff80ac5a0dcee46f611f04e6419d7a">databaseDisplayModel</a></td></tr>
+<tr class="memitem:aaa70581dfad6140459219670f2093050" id="r_aaa70581dfad6140459219670f2093050"><td class="memItemLeft">std::function&lt; QList&lt; QPair&lt; QString, QStringList &gt; &gt;()&gt;&#160;</td><td class="memItemRight"><a class="el" href="#aaa70581dfad6140459219670f2093050">zoneMenuProvider</a></td></tr>
+<tr class="memitem:af9316d6930dfb78fbb580cecf13ab469" id="r_af9316d6930dfb78fbb580cecf13ab469"><td class="memItemLeft">std::function&lt; QString()&gt;&#160;</td><td class="memItemRight"><a class="el" href="#af9316d6930dfb78fbb580cecf13ab469">newZoneHandler</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The card database table. </p>
@@ -661,6 +665,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a799c992ed3e894ffebdbf3b7962c9272" name="a799c992ed3e894ffebdbf3b7962c9272"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a799c992ed3e894ffebdbf3b7962c9272">&#9670;&#160;</a></span>setZoneMenuProvider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardDatabaseView::setZoneMenuProvider </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; QList&lt; QPair&lt; QString, QStringList &gt; &gt;()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>provider</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; QString()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>newZoneHandler</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the provider used to populate the "Add to zone" submenu of the context menu. If no provider is set, the submenu is not shown. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">provider</td><td>Returns the custom zones of the current deck, grouped by board zone </td></tr>
+    <tr><td class="paramname"><a class="el" href="#af9316d6930dfb78fbb580cecf13ab469">newZoneHandler</a></td><td>Creates a new custom zone and returns its name, or an empty string if creation was cancelled. The menu entry is hidden when not provided. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a7eb9a8905693bbe5b40bf533861a6e20" name="a7eb9a8905693bbe5b40bf533861a6e20"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7eb9a8905693bbe5b40bf533861a6e20">&#9670;&#160;</a></span>updateCard</h2>
 
@@ -723,6 +757,29 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af9316d6930dfb78fbb580cecf13ab469" name="af9316d6930dfb78fbb580cecf13ab469"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9316d6930dfb78fbb580cecf13ab469">&#9670;&#160;</a></span>newZoneHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;QString()&gt; CardDatabaseView::newZoneHandler</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Handler invoked when the user picks "New zone..." from the add-to-zone menu. Returns the name of the created zone, or an empty string if creation was cancelled. </p>
+
+</div>
+</div>
 <a id="a6f34e10e78a996e0c82c02ceadd8ae54" name="a6f34e10e78a996e0c82c02ceadd8ae54"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f34e10e78a996e0c82c02ceadd8ae54">&#9670;&#160;</a></span>searchKeySignals</h2>
 
@@ -742,6 +799,29 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa70581dfad6140459219670f2093050" name="aaa70581dfad6140459219670f2093050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa70581dfad6140459219670f2093050">&#9670;&#160;</a></span>zoneMenuProvider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt;QList&lt;QPair&lt;QString, QStringList&gt; &gt;()&gt; CardDatabaseView::zoneMenuProvider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Provides the custom zones available in the current deck, grouped by board zone. The list contains (board zone name, custom zone names) pairs for every board. </p>
 
 </div>
 </div>
