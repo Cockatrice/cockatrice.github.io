@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -127,7 +127,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af4ab30f4c9faa92ec4b268f35935f6ea" id="r_af4ab30f4c9faa92ec4b268f35935f6ea"><td class="memItemLeft"><a class="el" href="../../d2/d12/classServer__DatabaseInterface.html">Server_DatabaseInterface</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af4ab30f4c9faa92ec4b268f35935f6ea">getDatabaseInterface</a> () const</td></tr>
 <tr class="memitem:a36fa4e621e6a086b27bbe5cd42bd8453" id="r_a36fa4e621e6a086b27bbe5cd42bd8453"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a36fa4e621e6a086b27bbe5cd42bd8453">getLastCommandTime</a> () const</td></tr>
 <tr class="memitem:afba947ec10ba0f7ba39429028ea7b399" id="r_afba947ec10ba0f7ba39429028ea7b399"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#afba947ec10ba0f7ba39429028ea7b399">addSaidMessageSize</a> (int size)</td></tr>
-<tr class="memitem:a5d3b699ffcf0dcfb4a3f42d180a8a2f7" id="r_a5d3b699ffcf0dcfb4a3f42d180a8a2f7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5d3b699ffcf0dcfb4a3f42d180a8a2f7">processCommandContainer</a> (const <a class="el" href="../../d3/d65/structCommandContainer.html">CommandContainer</a> &amp;cont)</td></tr>
+<tr class="memitem:a5d3b699ffcf0dcfb4a3f42d180a8a2f7" id="r_a5d3b699ffcf0dcfb4a3f42d180a8a2f7"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a5d3b699ffcf0dcfb4a3f42d180a8a2f7">processCommandContainer</a> (const <a class="el" href="../../d3/d65/structCommandContainer.html">CommandContainer</a> &amp;cont)</td></tr>
 <tr class="memitem:a0740cc76bbd30fed5c329da5ce2bda29" id="r_a0740cc76bbd30fed5c329da5ce2bda29"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0740cc76bbd30fed5c329da5ce2bda29">sendProtocolItem</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;item)</td></tr>
 <tr class="memitem:aaff9db623626840a8184dc58668f6a54" id="r_aaff9db623626840a8184dc58668f6a54"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaff9db623626840a8184dc58668f6a54">sendProtocolItem</a> (const <a class="el" href="../../d4/d0c/structSessionEvent.html">SessionEvent</a> &amp;item)</td></tr>
 <tr class="memitem:ad8bad9616bdb64ca5c3d11cd886265f0" id="r_ad8bad9616bdb64ca5c3d11cd886265f0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad8bad9616bdb64ca5c3d11cd886265f0">sendProtocolItem</a> (const <a class="el" href="../../d6/d6f/structGameEventContainer.html">GameEventContainer</a> &amp;item)</td></tr>
@@ -200,6 +200,8 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:aebc7405c38b5c285100f124c51d9d78e" id="r_aebc7405c38b5c285100f124c51d9d78e"><td class="memItemLeft">virtual <a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#aebc7405c38b5c285100f124c51d9d78e">processExtendedModeratorCommand</a> (int, const <a class="el" href="../../d0/d8c/structModeratorCommand.html">ModeratorCommand</a> &amp;, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;)</td></tr>
 <tr class="memitem:ae9760d77bb0a96e331791182bca161e7" id="r_ae9760d77bb0a96e331791182bca161e7"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae9760d77bb0a96e331791182bca161e7">processAdminCommandContainer</a> (const <a class="el" href="../../d3/d65/structCommandContainer.html">CommandContainer</a> &amp;cont, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a3483c9a4f4d36ae0047a9cf4319e0c6d" id="r_a3483c9a4f4d36ae0047a9cf4319e0c6d"><td class="memItemLeft">virtual <a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3483c9a4f4d36ae0047a9cf4319e0c6d">processExtendedAdminCommand</a> (int, const <a class="el" href="../../d5/dca/structAdminCommand.html">AdminCommand</a> &amp;, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;)</td></tr>
+<tr class="memitem:ac2c8aa4b8ec00be0dd53d1aa494270a8" id="r_ac2c8aa4b8ec00be0dd53d1aa494270a8"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac2c8aa4b8ec00be0dd53d1aa494270a8">processDeveloperCommandContainer</a> (const <a class="el" href="../../d3/d65/structCommandContainer.html">CommandContainer</a> &amp;cont, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:ae536ee26cdb74a24ce3d005c822ab33c" id="r_ae536ee26cdb74a24ce3d005c822ab33c"><td class="memItemLeft">virtual <a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae536ee26cdb74a24ce3d005c822ab33c">processExtendedDeveloperCommand</a> (int, const <a class="el" href="../../d9/d08/structDeveloperCommand.html">DeveloperCommand</a> &amp;, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;)</td></tr>
 <tr class="memitem:a21e9d56a38835bd39565fdc4ac84b275" id="r_a21e9d56a38835bd39565fdc4ac84b275"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a21e9d56a38835bd39565fdc4ac84b275">resetIdleTimer</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -298,7 +300,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_afba947ec10ba0f7ba39429028ea7b399_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_afba947ec10ba0f7ba39429028ea7b399_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -342,7 +344,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a1aa616629a1a6f551787f52818788d49_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a1aa616629a1a6f551787f52818788d49_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -381,7 +383,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a6fc78a764a61bd91ce576a2b32cb28a5_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a6fc78a764a61bd91ce576a2b32cb28a5_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -420,7 +422,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a136ef5ad61c0044c7581ba5f71fdf5e1_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a136ef5ad61c0044c7581ba5f71fdf5e1_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -464,7 +466,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a80a629f238d2f278fa85e82569ce5db5_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a80a629f238d2f278fa85e82569ce5db5_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -503,7 +505,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a4be1b55eec06fa2b3b28b2272077e369_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a4be1b55eec06fa2b3b28b2272077e369_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -547,7 +549,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a2941e58f6b6c3c4000db9c5e716dd76c_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a2941e58f6b6c3c4000db9c5e716dd76c_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -586,7 +588,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a6cb82e5b5cf18630702172387e0fb1ea_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a6cb82e5b5cf18630702172387e0fb1ea_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -625,7 +627,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a4d08d6db4b9f09c7bd3fa103fc534c8d_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a4d08d6db4b9f09c7bd3fa103fc534c8d_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -664,7 +666,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a89bec8d718f524f9bea8459b2c1c1642_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a89bec8d718f524f9bea8459b2c1c1642_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -703,7 +705,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a3777851e7483958a764d6ae51fb32c4b_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a3777851e7483958a764d6ae51fb32c4b_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -737,7 +739,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_add8aba60457fbff71b8b2bf9e62c8e18_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_add8aba60457fbff71b8b2bf9e62c8e18_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -781,7 +783,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_aab37b72de51fb271eb4ebd307cf1ee6a_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_aab37b72de51fb271eb4ebd307cf1ee6a_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -895,7 +897,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a16a38ec9b4b5889d629bb7b5dd882a19_icgraph.svg" width="100%" height="461"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a16a38ec9b4b5889d629bb7b5dd882a19_icgraph.svg" width="100%" height="450"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -979,7 +981,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a48b9b66b2242d56e8e6be8d443c229d2_icgraph.svg" width="100%" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a48b9b66b2242d56e8e6be8d443c229d2_icgraph.svg" width="100%" height="578"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1088,7 +1090,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_ae9760d77bb0a96e331791182bca161e7_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_ae9760d77bb0a96e331791182bca161e7_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1098,6 +1100,9 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void Server_ProtocolHandler::processCommandContainer </td>
@@ -1106,7 +1111,14 @@ Here is the caller graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../dd/dea/classAbstractServerSocketInterface.html#af1e0001f469fdf6b6672523bb07f4b08">AbstractServerSocketInterface</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1115,7 +1127,46 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a5d3b699ffcf0dcfb4a3f42d180a8a2f7_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a5d3b699ffcf0dcfb4a3f42d180a8a2f7_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac2c8aa4b8ec00be0dd53d1aa494270a8" name="ac2c8aa4b8ec00be0dd53d1aa494270a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2c8aa4b8ec00be0dd53d1aa494270a8">&#9670;&#160;</a></span>processDeveloperCommandContainer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> Server_ProtocolHandler::processDeveloperCommandContainer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/d65/structCommandContainer.html">CommandContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cont</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_ac2c8aa4b8ec00be0dd53d1aa494270a8_cgraph.svg" width="611" height="279"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_ac2c8aa4b8ec00be0dd53d1aa494270a8_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1156,7 +1207,48 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a3483c9a4f4d36ae0047a9cf4319e0c6d_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a3483c9a4f4d36ae0047a9cf4319e0c6d_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae536ee26cdb74a24ce3d005c822ab33c" name="ae536ee26cdb74a24ce3d005c822ab33c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae536ee26cdb74a24ce3d005c822ab33c">&#9670;&#160;</a></span>processExtendedDeveloperCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> Server_ProtocolHandler::processExtendedDeveloperCommand </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/d08/structDeveloperCommand.html">DeveloperCommand</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../dd/dea/classAbstractServerSocketInterface.html#a96df0b0d5eed52a21a54d7fa173f8d38">AbstractServerSocketInterface</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_ae536ee26cdb74a24ce3d005c822ab33c_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1197,7 +1289,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_aebc7405c38b5c285100f124c51d9d78e_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_aebc7405c38b5c285100f124c51d9d78e_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1238,7 +1330,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a662408ac12482dc36c6a18e6ecdfa253_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a662408ac12482dc36c6a18e6ecdfa253_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1277,7 +1369,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a566f21e245977eff1ffb0b946fb34239_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a566f21e245977eff1ffb0b946fb34239_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1316,7 +1408,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_ae42017c6be898e1ad6493abf33d46bb6_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_ae42017c6be898e1ad6493abf33d46bb6_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1355,7 +1447,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a0e26caee42790f25027eb553089365ca_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a0e26caee42790f25027eb553089365ca_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1394,7 +1486,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a68e611b6964cf6d151b078665e397d01_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a68e611b6964cf6d151b078665e397d01_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1424,7 +1516,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a21e9d56a38835bd39565fdc4ac84b275_icgraph.svg" width="100%" height="515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a21e9d56a38835bd39565fdc4ac84b275_icgraph.svg" width="100%" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -114,7 +114,8 @@ Collaboration diagram for CounterState:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:a189c63f1764624e8d7948db426016b37" id="r_a189c63f1764624e8d7948db426016b37"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a189c63f1764624e8d7948db426016b37">valueChanged</a> (int oldValue, int newValue)</td></tr>
+<tr class="memitem:ae75356dde7f215217cb13851611ceef6" id="r_ae75356dde7f215217cb13851611ceef6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae75356dde7f215217cb13851611ceef6">valueChanged</a> (int oldValue, int newValue, bool skipDamageAnimation)</td></tr>
+<tr class="memdesc:ae75356dde7f215217cb13851611ceef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted whenever the value changes.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -124,7 +125,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae03ade37d3de5c83bc8028fe8f664602" id="r_ae03ade37d3de5c83bc8028fe8f664602"><td class="memItemLeft">QColor&#160;</td><td class="memItemRight"><a class="el" href="#ae03ade37d3de5c83bc8028fe8f664602">getColor</a> () const</td></tr>
 <tr class="memitem:a5160cb8b1a982b2c6ae06b3c8fa0e39f" id="r_a5160cb8b1a982b2c6ae06b3c8fa0e39f"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a5160cb8b1a982b2c6ae06b3c8fa0e39f">getRadius</a> () const</td></tr>
 <tr class="memitem:a1cb651d3560712016d27695982025f26" id="r_a1cb651d3560712016d27695982025f26"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a1cb651d3560712016d27695982025f26">getValue</a> () const</td></tr>
-<tr class="memitem:a75e44a1965990ebcc0f8655c898f8110" id="r_a75e44a1965990ebcc0f8655c898f8110"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a75e44a1965990ebcc0f8655c898f8110">setValue</a> (int newValue)</td></tr>
+<tr class="memitem:aa49b24a61fbc2ff999be38255f1d4976" id="r_aa49b24a61fbc2ff999be38255f1d4976"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa49b24a61fbc2ff999be38255f1d4976">setValue</a> (int newValue, bool skipDamageAnimation=false)</td></tr>
+<tr class="memdesc:aa49b24a61fbc2ff999be38255f1d4976"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the counter value.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -360,8 +362,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a75e44a1965990ebcc0f8655c898f8110" name="a75e44a1965990ebcc0f8655c898f8110"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75e44a1965990ebcc0f8655c898f8110">&#9670;&#160;</a></span>setValue()</h2>
+<a id="aa49b24a61fbc2ff999be38255f1d4976" name="aa49b24a61fbc2ff999be38255f1d4976"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa49b24a61fbc2ff999be38255f1d4976">&#9670;&#160;</a></span>setValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -369,26 +371,39 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void CounterState::setValue </td>
           <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newValue</em></span></td><td>)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>skipDamageAnimation</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set the counter value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newValue</td><td>The new value. </td></tr>
+    <tr><td class="paramname">skipDamageAnimation</td><td>When true, valueChanged is emitted with skipDamageAnimation=true, letting views suppress damage-related feedback (e.g. battlefield shimmer, life counter flash) for values set during replay rewinds. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d98/classCounterState_a75e44a1965990ebcc0f8655c898f8110_cgraph.svg" width="438" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d98/classCounterState_aa49b24a61fbc2ff999be38255f1d4976_cgraph.svg" width="438" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d98/classCounterState_a75e44a1965990ebcc0f8655c898f8110_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d98/classCounterState_aa49b24a61fbc2ff999be38255f1d4976_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a189c63f1764624e8d7948db426016b37" name="a189c63f1764624e8d7948db426016b37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a189c63f1764624e8d7948db426016b37">&#9670;&#160;</a></span>valueChanged</h2>
+<a id="ae75356dde7f215217cb13851611ceef6" name="ae75356dde7f215217cb13851611ceef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae75356dde7f215217cb13851611ceef6">&#9670;&#160;</a></span>valueChanged</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -404,7 +419,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newValue</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>skipDamageAnimation</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -413,10 +433,20 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Emitted whenever the value changes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">oldValue</td><td>The previous value. </td></tr>
+    <tr><td class="paramname">newValue</td><td>The new value. </td></tr>
+    <tr><td class="paramname">skipDamageAnimation</td><td>True when the change should not trigger damage/life-change feedback in views. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d98/classCounterState_a189c63f1764624e8d7948db426016b37_icgraph.svg" width="100%" height="475"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d98/classCounterState_ae75356dde7f215217cb13851611ceef6_icgraph.svg" width="100%" height="475"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

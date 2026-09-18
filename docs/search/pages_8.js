@@ -3,7 +3,7 @@ var searchData=
   ['editing_20basic_20deck_20information_0',['Editing Basic Deck Information',['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
   ['editing_20decks_1',['Editing Decks',['../da/d03/editing_decks.html',1,'user_reference']]],
   ['editor_2',['Editor',['../d3/d32/editing_decks_classic.html',1,'Classic Deck Editor'],['../de/d6e/editing_decks_visual.html',1,'Visual Deck Editor']]],
-  ['editor_20tab_3',['Editor Tab',['../d0/d51/exporting_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../db/d91/importing_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
+  ['editor_20tab_3',['Editor Tab',['../db/d91/importing_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../d0/d51/exporting_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
   ['emitting_20logging_20signals_4',['Emitting logging signals',['../d4/d5b/player_event_handler.html#autotoc_md3-emitting-logging-signals',1,'3. Emitting logging signals'],['../d4/d5b/player_event_handler.html#autotoc_md3-emitting-logging-signals-1',1,'3. Emitting logging signals']]],
   ['emitting_20ui_20and_20logging_20signals_5',['Emitting UI and logging signals',['../db/d15/game_event_handler.html#autotoc_md4-emitting-ui-and-logging-signals',1,'4. Emitting UI and logging signals'],['../db/d15/game_event_handler.html#autotoc_md4-emitting-ui-and-logging-signals-1',1,'4. Emitting UI and logging signals']]],
   ['enable_20picture_20loader_20debug_20logs_6',['Enable Picture Loader Debug Logs',['../d9/d7b/fixing_card_pictures.html#enable-picture-loader-debug-logs',1,'']]],

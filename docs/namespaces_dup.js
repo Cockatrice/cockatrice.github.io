@@ -1,5 +1,11 @@
 var namespaces_dup =
 [
+    [ "AppColor", "d0/d1a/namespaceAppColor.html", [
+      [ "Role", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90", [
+        [ "AccentStrong", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90aa8345a4346fb925a37d24ef971e399c2", null ],
+        [ "AccentSoft", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a566a76d9192ef71afe404432bff3b67c", null ]
+      ] ]
+    ] ],
     [ "ArchidektFormats", "dc/d95/namespaceArchidektFormats.html", [
       [ "DeckFormat", "dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2", [
         [ "Standard", "dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2aeb6d8ae6f20283755b339c0dc273988b", null ],
@@ -33,6 +39,9 @@ var namespaces_dup =
       [ "formatToApiName", "dc/d95/namespaceArchidektFormats.html#a1a163460305496ade5ce5e6747960017", null ],
       [ "formatToCockatriceName", "dc/d95/namespaceArchidektFormats.html#aaf6f587210cecf39d83ae062cc6970b6", null ]
     ] ],
+    [ "CardArtUtils", "d0/d1e/namespaceCardArtUtils.html", [
+      [ "rotateSidewaysLayoutArt", "d0/d1e/namespaceCardArtUtils.html#a33971cbfa356b66b1a75d78507e471d9", null ]
+    ] ],
     [ "CardDatabaseCache", "d0/df0/namespaceCardDatabaseCache.html", [
       [ "read", "d0/df0/namespaceCardDatabaseCache.html#a6b2cba29de0d821e6e6d452785eed575", null ],
       [ "write", "d0/df0/namespaceCardDatabaseCache.html#a2447de98b39c79f348adb74f000c0c10", null ]
@@ -44,6 +53,15 @@ var namespaces_dup =
       [ "WIDTH", "d2/da1/namespaceCardDimensions.html#a7742a945c1334067aa6778c6b5920362", null ],
       [ "WIDTH_F", "d2/da1/namespaceCardDimensions.html#ab003b0b6934b4b1461a5633bcf478b42", null ],
       [ "WIDTH_HALF_F", "d2/da1/namespaceCardDimensions.html#a8721cfc0b18eaf599e56502609a4a9de", null ]
+    ] ],
+    [ "CardLocalization", "d3/df9/namespaceCardLocalization.html", [
+      [ "displayLang", "d3/df9/namespaceCardLocalization.html#a7e6903965a252ea642ea731d941ce93e", null ],
+      [ "displayName", "d3/df9/namespaceCardLocalization.html#aae3a715728303329e7d69f30e1e66cdf", null ],
+      [ "displayName", "d3/df9/namespaceCardLocalization.html#aec63e38fae4d80a04210fe7fc1328748", null ],
+      [ "displayText", "d3/df9/namespaceCardLocalization.html#a75fc4ee327408c76e8b2e88d0f287087", null ],
+      [ "displayText", "d3/df9/namespaceCardLocalization.html#aa2a9b393b66a871c3925797d5cb42fbd", null ],
+      [ "languageDisplayName", "d3/df9/namespaceCardLocalization.html#aae840c7d14da5584a62f99be60beb9cd", null ],
+      [ "supportedLanguages", "d3/df9/namespaceCardLocalization.html#a6eef99e9bb07f2c6d2968bc38293fb94", null ]
     ] ],
     [ "CardNodeFunction", "dd/d5d/namespaceCardNodeFunction.html", "dd/d5d/namespaceCardNodeFunction" ],
     [ "CardPictureLoaderCacheMethod", "dd/d38/namespaceCardPictureLoaderCacheMethod.html", "dd/d38/namespaceCardPictureLoaderCacheMethod" ],
@@ -94,6 +112,9 @@ var namespaces_dup =
       [ "fromString", "d2/d91/namespaceDeckListModelGroupCriteria.html#a2c1c809409de18b0bb7ad9785547c535", null ],
       [ "toString", "d2/d91/namespaceDeckListModelGroupCriteria.html#a0d2a8995016b3b4a78fc96695d62490c", null ]
     ] ],
+    [ "DeckListPlainText", "d3/df1/namespaceDeckListPlainText.html", [
+      [ "parse", "d3/df1/namespaceDeckListPlainText.html#a2c3248b2e5802612766801e572a8b363", null ]
+    ] ],
     [ "DeckRoles", "d5/d55/namespaceDeckRoles.html", null ],
     [ "google", "df/d40/namespacegoogle.html", "df/d40/namespacegoogle" ],
     [ "HomeTabButtonColor", "d4/dc8/namespaceHomeTabButtonColor.html", "d4/dc8/namespaceHomeTabButtonColor" ],
@@ -141,7 +162,8 @@ var namespaces_dup =
       [ "renderReportDetails", "d8/d80/namespacereport__utils.html#a178b67e76b905f63a76cea2aacf24e59", null ]
     ] ],
     [ "StatsTally", "d5/d5f/namespaceStatsTally.html", [
-      [ "computeTotalPower", "d5/d5f/namespaceStatsTally.html#ab034fea6c61ce11fab9d5a6b17a3dd10", null ]
+      [ "computeTotalPower", "d5/d5f/namespaceStatsTally.html#ab034fea6c61ce11fab9d5a6b17a3dd10", null ],
+      [ "computeTotalToughness", "d5/d5f/namespaceStatsTally.html#aa9aa54a2dbe465293de452e40b6fadc8", null ]
     ] ],
     [ "SubtypeTally", "d9/d99/namespaceSubtypeTally.html", [
       [ "countSubtypes", "d9/d99/namespaceSubtypeTally.html#a80953f8e6a0dfc0dc98d0d016ccb4f8c", null ]

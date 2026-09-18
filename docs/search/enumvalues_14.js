@@ -7,7 +7,7 @@ var searchData=
   ['versiontooold_4',['VersionTooOld',['../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11ca422771f682fde1171b691435d1b3a70f',1,'card_database_loader.h']]],
   ['view_5',['View',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca2ca0a88e786f276ec49b6a3a24ca4879',1,'ShortcutGroup']]],
   ['view_5flog_6',['VIEW_LOG',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442aef5b2b41c3f924988434870842823fa9',1,'Response']]],
-  ['viewlog_5fhistory_7',['VIEWLOG_HISTORY',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a866849a977a6961bb493d5e3029171ea',1,'ModeratorCommand']]],
+  ['viewlog_5fhistory_7',['VIEWLOG_HISTORY',['../d9/d08/structDeveloperCommand.html#aad455c361544762146aff957214b1541a13ee5a1d182b6a96a0afe33930cc5e17',1,'DeveloperCommand::VIEWLOG_HISTORY'],['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a866849a977a6961bb493d5e3029171ea',1,'ModeratorCommand::VIEWLOG_HISTORY']]],
   ['vintage_8',['Vintage',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a67bc3557dcf90ce84e22914c21a699ba',1,'ArchidektFormats']]],
   ['visualdatabasedisplay_9',['VisualDatabaseDisplay',['../d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17a4932b38f307abca50b17dd8ed56cff5e',1,'TabDeckEditorVisualTabWidget']]],
   ['visualdeckeditor_10',['VisualDeckEditor',['../dd/d81/classTabSupervisor.html#a9a12eee7783c0c5e8310e96ec8a71d13a5d15f0d108a74079892a75d58837a552',1,'TabSupervisor']]],

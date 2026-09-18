@@ -7,5 +7,6 @@ var pages_8cpp =
     [ "SPOILERS_URL", "d3/d12/pages_8cpp.html#a71f0e011f997b2e09a9cf4f958f925c4", null ],
     [ "TOKENS_URL", "d3/d12/pages_8cpp.html#a4e97ca67b56580bd41d3baa64d90e92a", null ],
     [ "XZ_SIGNATURE", "d3/d12/pages_8cpp.html#ab0de6e03a8c58f235305064def8b9b0f", null ],
-    [ "ZIP_SIGNATURE", "d3/d12/pages_8cpp.html#a38aa37166da673dad86409cf7ecba465", null ]
+    [ "ZIP_SIGNATURE", "d3/d12/pages_8cpp.html#a38aa37166da673dad86409cf7ecba465", null ],
+    [ "emitBackgroundProgress", "d3/d12/pages_8cpp.html#a96947fa816aae3492dfae0e965bc0cc9", null ]
 ];

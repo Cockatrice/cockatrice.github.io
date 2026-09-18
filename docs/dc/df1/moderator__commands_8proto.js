@@ -13,6 +13,7 @@ var moderator__commands_8proto =
     [ "Command_GetWarnList::ModeratorCommand", "dc/dff/structCommand__GetWarnList_1_1ModeratorCommand.html", "dc/dff/structCommand__GetWarnList_1_1ModeratorCommand" ],
     [ "Command_ViewLogHistory", "d7/dbb/structCommand__ViewLogHistory.html", "d7/dbb/structCommand__ViewLogHistory" ],
     [ "Command_ViewLogHistory::ModeratorCommand", "d9/db5/structCommand__ViewLogHistory_1_1ModeratorCommand.html", "d9/db5/structCommand__ViewLogHistory_1_1ModeratorCommand" ],
+    [ "Command_ViewLogHistory::DeveloperCommand", "df/d55/structCommand__ViewLogHistory_1_1DeveloperCommand.html", "df/d55/structCommand__ViewLogHistory_1_1DeveloperCommand" ],
     [ "Command_GrantReplayAccess", "da/df2/structCommand__GrantReplayAccess.html", "da/df2/structCommand__GrantReplayAccess" ],
     [ "Command_GrantReplayAccess::ModeratorCommand", "db/dae/structCommand__GrantReplayAccess_1_1ModeratorCommand.html", "db/dae/structCommand__GrantReplayAccess_1_1ModeratorCommand" ],
     [ "Command_ForceActivateUser", "d2/de0/structCommand__ForceActivateUser.html", "d2/de0/structCommand__ForceActivateUser" ],

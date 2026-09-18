@@ -132,5 +132,5 @@ var searchData=
   ['fulltext_129',['fullText',['../d1/df1/classCompactPushButton.html#a22418cecd9feba5e5f52834baf657033',1,'CompactPushButton']]],
   ['fullurl_130',['fullUrl',['../d8/d82/structParsedDeckInfo.html#ac4c47427fa68940535016f13f33932d3',1,'ParsedDeckInfo']]],
   ['fullwidthhint_131',['fullWidthHint',['../d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a9d80d8764501da38e6e632cf79f99897',1,'VisualDatabaseDisplayFilterToolbarWidget']]],
-  ['future_132',['future',['../d1/d64/classLoadSetsPage.html#a87f3925310b39d7fadbbd80c203e2ab8',1,'LoadSetsPage']]]
+  ['future_132',['future',['../d1/d64/classLoadSetsPage.html#aef36d8dc900c20203e4f0cadc9d6fd6a',1,'LoadSetsPage']]]
 ];

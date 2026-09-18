@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -136,7 +136,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a6129980c03c3a513372163ac15b6e26c" id="r_a6129980c03c3a513372163ac15b6e26c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6129980c03c3a513372163ac15b6e26c">mousePressEvent</a> (QMouseEvent *event) override</td></tr>
 <tr class="memdesc:a6129980c03c3a513372163ac15b6e26c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the mouse press event for right-clicks to show the context menu.  <br /></td></tr>
 <tr class="memitem:a92ce5f04288f60b614b071038e76a7d7" id="r_a92ce5f04288f60b614b071038e76a7d7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a92ce5f04288f60b614b071038e76a7d7">customMenu</a> (QPoint point)</td></tr>
-<tr class="memdesc:a92ce5f04288f60b614b071038e76a7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and shows a custom context menu when the right mouse button is clicked.  <br /></td></tr>
+<tr class="memdesc:a92ce5f04288f60b614b071038e76a7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates and shows the card-overlay context menu.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
@@ -149,6 +149,14 @@ Private Slots</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ae29fe05676b306379068943f2d1880fe" id="r_ae29fe05676b306379068943f2d1880fe"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae29fe05676b306379068943f2d1880fe">initializePinBadge</a> ()</td></tr>
 <tr class="memdesc:ae29fe05676b306379068943f2d1880fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the pin badge overlay and loads its icon with DPI-aware rasterization.  <br /></td></tr>
+<tr class="memitem:aa31fc6200ee6ea51b6f8b58de4418a10" id="r_aa31fc6200ee6ea51b6f8b58de4418a10"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa31fc6200ee6ea51b6f8b58de4418a10">loadCustomImage</a> ()</td></tr>
+<tr class="memdesc:aa31fc6200ee6ea51b6f8b58de4418a10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asks for an image file and installs it as the card's custom art.  <br /></td></tr>
+<tr class="memitem:a1c363696f4c33d6e9796b0ab47129ae6" id="r_a1c363696f4c33d6e9796b0ab47129ae6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1c363696f4c33d6e9796b0ab47129ae6">showPreviewForAction</a> (QAction *action)</td></tr>
+<tr class="memdesc:a1c363696f4c33d6e9796b0ab47129ae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the hover preview for a highlighted printing entry in the Image Overrides submenu.  <br /></td></tr>
+<tr class="memitem:a36d1fd9bae07fdc9be99cf5bc6d83f04" id="r_a36d1fd9bae07fdc9be99cf5bc6d83f04"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a36d1fd9bae07fdc9be99cf5bc6d83f04">refreshPreview</a> ()</td></tr>
+<tr class="memdesc:a36d1fd9bae07fdc9be99cf5bc6d83f04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders the hover preview for the currently highlighted printing.  <br /></td></tr>
+<tr class="memitem:ae0b24ff269bbfc875fd3d3b88db6fd8f" id="r_ae0b24ff269bbfc875fd3d3b88db6fd8f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae0b24ff269bbfc875fd3d3b88db6fd8f">hidePreview</a> ()</td></tr>
+<tr class="memdesc:ae0b24ff269bbfc875fd3d3b88db6fd8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hides the hover preview and forgets the currently highlighted printing.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -157,10 +165,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a25e3201791d68f7f2cd9ff17c5ff9b14" id="r_a25e3201791d68f7f2cd9ff17c5ff9b14"><td class="memItemLeft">QLabel *&#160;</td><td class="memItemRight"><a class="el" href="#a25e3201791d68f7f2cd9ff17c5ff9b14">pinBadge</a> = nullptr</td></tr>
 <tr class="memitem:a4fd7f2ccace1335af6de17c64ec6c001" id="r_a4fd7f2ccace1335af6de17c64ec6c001"><td class="memItemLeft"><a class="el" href="../../d1/d53/classAbstractTabDeckEditor.html">AbstractTabDeckEditor</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a4fd7f2ccace1335af6de17c64ec6c001">deckEditor</a></td></tr>
 <tr class="memitem:a16dc606aed04563cb7e8c31ac542d9bf" id="r_a16dc606aed04563cb7e8c31ac542d9bf"><td class="memItemLeft"><a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a>&#160;</td><td class="memItemRight"><a class="el" href="#a16dc606aed04563cb7e8c31ac542d9bf">rootCard</a></td></tr>
+<tr class="memitem:a92384a4c1b9d1053063ab60565e23a0b" id="r_a92384a4c1b9d1053063ab60565e23a0b"><td class="memItemLeft">QLabel *&#160;</td><td class="memItemRight"><a class="el" href="#a92384a4c1b9d1053063ab60565e23a0b">cardOverridePreviewLabel</a> = nullptr</td></tr>
+<tr class="memitem:a840ff68e3959c612369da620943d847a" id="r_a840ff68e3959c612369da620943d847a"><td class="memItemLeft"><a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a>&#160;</td><td class="memItemRight"><a class="el" href="#a840ff68e3959c612369da620943d847a">hoveredOverrideCard</a></td></tr>
+<tr class="memitem:a41f2b6483d3f0401fff7fa5a1783dabb" id="r_a41f2b6483d3f0401fff7fa5a1783dabb"><td class="memItemLeft">QMenu *&#160;</td><td class="memItemRight"><a class="el" href="#a41f2b6483d3f0401fff7fa5a1783dabb">previewSourceMenu</a> = nullptr</td></tr>
+<tr class="memitem:a4863073d1dab023f8478dd2d089981cf" id="r_a4863073d1dab023f8478dd2d089981cf"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a4863073d1dab023f8478dd2d089981cf">hoveredOverrideAction</a> = nullptr</td></tr>
 </table>
-<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000155">Todo</a></b></dt><dd>Document this file. </dd></dl>
-</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad8f14348b8e2368033af4f784dec11f0" name="ad8f14348b8e2368033af4f784dec11f0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8f14348b8e2368033af4f784dec11f0">&#9670;&#160;</a></span>PrintingSelectorCardOverlayWidget()</h2>
 
@@ -218,7 +228,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_ad8f14348b8e2368033af4f784dec11f0_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_ad8f14348b8e2368033af4f784dec11f0_cgraph.svg" width="526" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -249,7 +259,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_a815a53c6096623b2830dcf6629a77994_icgraph.svg" width="100%" height="457"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_a815a53c6096623b2830dcf6629a77994_icgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -277,11 +287,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Creates and shows a custom context menu when the right mouse button is clicked. </p>
-<p>The context menu includes an option to show related cards, which displays a submenu with actions for each related card. When an action is triggered, the card information is updated, and the printing selector is shown.</p>
+<p>Creates and shows the card-overlay context menu. </p>
+<p>The menu includes the card art preference (Pin/Unpin Printing), the Image Overrides submenu (Load Custom Image, Clear Custom Image, and one entry per alternate printing with a live preview), and the Show Related cards submenu.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">point</td><td>The position of the mouse when the right-click occurred. </td></tr>
+    <tr><td class="paramname">point</td><td>The local position the menu should pop at. </td></tr>
   </table>
   </dd>
 </dl>
@@ -333,6 +343,38 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_ac17bfc122207ade27bc647b3dfb55c15_cgraph.svg" width="472" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae0b24ff269bbfc875fd3d3b88db6fd8f" name="ae0b24ff269bbfc875fd3d3b88db6fd8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0b24ff269bbfc875fd3d3b88db6fd8f">&#9670;&#160;</a></span>hidePreview()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintingSelectorCardOverlayWidget::hidePreview </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hides the hover preview and forgets the currently highlighted printing. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_ae0b24ff269bbfc875fd3d3b88db6fd8f_icgraph.svg" width="100%" height="373"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -409,6 +451,44 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="aa31fc6200ee6ea51b6f8b58de4418a10" name="aa31fc6200ee6ea51b6f8b58de4418a10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa31fc6200ee6ea51b6f8b58de4418a10">&#9670;&#160;</a></span>loadCustomImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintingSelectorCardOverlayWidget::loadCustomImage </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Asks for an image file and installs it as the card's custom art. </p>
+<p>Unreadable files answer with a visible warning instead of a silent no-op. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_aa31fc6200ee6ea51b6f8b58de4418a10_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_aa31fc6200ee6ea51b6f8b58de4418a10_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a6129980c03c3a513372163ac15b6e26c" name="a6129980c03c3a513372163ac15b6e26c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6129980c03c3a513372163ac15b6e26c">&#9670;&#160;</a></span>mousePressEvent()</h2>
 
@@ -448,6 +528,44 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a36d1fd9bae07fdc9be99cf5bc6d83f04" name="a36d1fd9bae07fdc9be99cf5bc6d83f04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d1fd9bae07fdc9be99cf5bc6d83f04">&#9670;&#160;</a></span>refreshPreview()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintingSelectorCardOverlayWidget::refreshPreview </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Renders the hover preview for the currently highlighted printing. </p>
+<p>The preview shows the loading placeholder while the art is pending and swaps in the real art when it resolves. The label is positioned against its already-resized geometry so the first-ever show at the screen's edges stays fully on-screen. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_a36d1fd9bae07fdc9be99cf5bc6d83f04_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_a36d1fd9bae07fdc9be99cf5bc6d83f04_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a82c95cbdb463e0413590e953530a8f52" name="a82c95cbdb463e0413590e953530a8f52"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82c95cbdb463e0413590e953530a8f52">&#9670;&#160;</a></span>resizeEvent()</h2>
 
@@ -479,6 +597,51 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a1c363696f4c33d6e9796b0ab47129ae6" name="a1c363696f4c33d6e9796b0ab47129ae6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c363696f4c33d6e9796b0ab47129ae6">&#9670;&#160;</a></span>showPreviewForAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintingSelectorCardOverlayWidget::showPreviewForAction </td>
+          <td>(</td>
+          <td class="paramtype">QAction *</td>          <td class="paramname"><span class="paramname"><em>action</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shows the hover preview for a highlighted printing entry in the Image Overrides submenu. </p>
+<p>QMenu::hovered fires on keyboard highlight too, so the preview appears when arrows walk onto a printing entry, not only under the mouse.</p>
+<p>Non-printing entries (e.g., Load Custom Image, Clear Custom Image) hide the preview.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">action</td><td>The action that was highlighted. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_a1c363696f4c33d6e9796b0ab47129ae6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_a1c363696f4c33d6e9796b0ab47129ae6_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -551,11 +714,6 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_a2ccc5f8ed84642ae85eb7c304af7e1b4_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_a2ccc5f8ed84642ae85eb7c304af7e1b4_icgraph.svg" width="558" height="66"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -637,6 +795,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a92384a4c1b9d1053063ab60565e23a0b" name="a92384a4c1b9d1053063ab60565e23a0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92384a4c1b9d1053063ab60565e23a0b">&#9670;&#160;</a></span>cardOverridePreviewLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* PrintingSelectorCardOverlayWidget::cardOverridePreviewLabel = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4fd7f2ccace1335af6de17c64ec6c001" name="a4fd7f2ccace1335af6de17c64ec6c001"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4fd7f2ccace1335af6de17c64ec6c001">&#9670;&#160;</a></span>deckEditor</h2>
 
@@ -659,6 +839,50 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a4863073d1dab023f8478dd2d089981cf" name="a4863073d1dab023f8478dd2d089981cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4863073d1dab023f8478dd2d089981cf">&#9670;&#160;</a></span>hoveredOverrideAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* PrintingSelectorCardOverlayWidget::hoveredOverrideAction = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a840ff68e3959c612369da620943d847a" name="a840ff68e3959c612369da620943d847a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a840ff68e3959c612369da620943d847a">&#9670;&#160;</a></span>hoveredOverrideCard</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> PrintingSelectorCardOverlayWidget::hoveredOverrideCard</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a25e3201791d68f7f2cd9ff17c5ff9b14" name="a25e3201791d68f7f2cd9ff17c5ff9b14"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25e3201791d68f7f2cd9ff17c5ff9b14">&#9670;&#160;</a></span>pinBadge</h2>
 
@@ -670,6 +894,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QLabel* PrintingSelectorCardOverlayWidget::pinBadge = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41f2b6483d3f0401fff7fa5a1783dabb" name="a41f2b6483d3f0401fff7fa5a1783dabb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41f2b6483d3f0401fff7fa5a1783dabb">&#9670;&#160;</a></span>previewSourceMenu</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMenu* PrintingSelectorCardOverlayWidget::previewSourceMenu = nullptr</td>
         </tr>
       </table>
   </td>

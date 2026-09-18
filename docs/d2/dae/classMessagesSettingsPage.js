@@ -25,6 +25,7 @@ var classMessagesSettingsPage =
     [ "hexLabel", "d2/dae/classMessagesSettingsPage.html#af0fb4e99b057105e6bd2d69119ded697", null ],
     [ "highlightColor", "d2/dae/classMessagesSettingsPage.html#a36ee1d4d89b881a925e7150aef797d23", null ],
     [ "highlightGroupBox", "d2/dae/classMessagesSettingsPage.html#ab1839656958e871a6030e2067c888624", null ],
+    [ "ignoreAllPrivateMessagesCheckBox", "d2/dae/classMessagesSettingsPage.html#a94d6b82f26d0327221fa9f17efee3c25", null ],
     [ "ignoreNonBuddyUserMessages", "d2/dae/classMessagesSettingsPage.html#ac34e015598f012515c7cffc86d3d482d", null ],
     [ "ignoreUnregUserMessages", "d2/dae/classMessagesSettingsPage.html#a06e9a5728c9bcbc8dde544a43b3a8068", null ],
     [ "ignoreUnregUsersMainChat", "d2/dae/classMessagesSettingsPage.html#a426f3c1cc73ae4804de24632aef8c6a7", null ],

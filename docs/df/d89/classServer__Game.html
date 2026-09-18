@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -127,6 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaa94a926691cb3e066e7627645b0c1c0" id="r_aaa94a926691cb3e066e7627645b0c1c0"><td class="memItemLeft"><a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aaa94a926691cb3e066e7627645b0c1c0">getCreatorInfo</a> () const</td></tr>
 <tr class="memitem:abf00fac26d0cf1f809cadc8efca38931" id="r_abf00fac26d0cf1f809cadc8efca38931"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#abf00fac26d0cf1f809cadc8efca38931">getGameStarted</a> () const</td></tr>
 <tr class="memitem:ab29a10e86bf358a04d0f7a73ad586e1a" id="r_ab29a10e86bf358a04d0f7a73ad586e1a"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ab29a10e86bf358a04d0f7a73ad586e1a">getPlayerCount</a> () const</td></tr>
+<tr class="memitem:aa95321394144eac5daf035b26874399b" id="r_aa95321394144eac5daf035b26874399b"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aa95321394144eac5daf035b26874399b">getCardsInGame</a> () const</td></tr>
+<tr class="memdesc:aa95321394144eac5daf035b26874399b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total cards across all players' zones. Takes gameMutex itself.  <br /></td></tr>
 <tr class="memitem:a33b1b32840eea3bd61eea403dd3c2a81" id="r_a33b1b32840eea3bd61eea403dd3c2a81"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a33b1b32840eea3bd61eea403dd3c2a81">getSpectatorCount</a> () const</td></tr>
 <tr class="memitem:a540b85be4a6fdaab1ebb548a4d2424a5" id="r_a540b85be4a6fdaab1ebb548a4d2424a5"><td class="memItemLeft">QMap&lt; int, <a class="el" href="../../da/d99/classServer__AbstractPlayer.html">Server_AbstractPlayer</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a540b85be4a6fdaab1ebb548a4d2424a5">getPlayers</a> () const</td></tr>
 <tr class="memitem:aa44baffa0425cc939d78aa2e7100a1da" id="r_aa44baffa0425cc939d78aa2e7100a1da"><td class="memItemLeft"><a class="el" href="../../da/d99/classServer__AbstractPlayer.html">Server_AbstractPlayer</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aa44baffa0425cc939d78aa2e7100a1da">getPlayer</a> (int id) const</td></tr>
@@ -317,7 +319,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000263">Todo</a></b></dt><dd>Transferring host to spectators has side effects. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000266">Todo</a></b></dt><dd>Transferring host to spectators has side effects. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -326,7 +328,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_ae148abd9d42256a5b47ad78779575873_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_ae148abd9d42256a5b47ad78779575873_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -372,7 +374,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_a626ba6797618028591e6dbc4d58af494_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_a626ba6797618028591e6dbc4d58af494_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -394,7 +396,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_a33c20fcaabce24aace489fc6db2a3975_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_a33c20fcaabce24aace489fc6db2a3975_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -501,7 +503,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000262">Todo</a></b></dt><dd>Move them to Spectators instead. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000265">Todo</a></b></dt><dd>Move them to Spectators instead. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -540,7 +542,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_a16d4b8a7306d0fc4f6528d25961bcb8c_icgraph.svg" width="100%" height="569"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_a16d4b8a7306d0fc4f6528d25961bcb8c_icgraph.svg" width="100%" height="545"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -609,6 +611,30 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa95321394144eac5daf035b26874399b" name="aa95321394144eac5daf035b26874399b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa95321394144eac5daf035b26874399b">&#9670;&#160;</a></span>getCardsInGame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Server_Game::getCardsInGame </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Total cards across all players' zones. Takes gameMutex itself. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_aa95321394144eac5daf035b26874399b_cgraph.svg" width="472" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -724,7 +750,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_ae5d52d87721a4f422815f85e46de570b_icgraph.svg" width="100%" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d89/classServer__Game_ae5d52d87721a4f422815f85e46de570b_icgraph.svg" width="100%" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

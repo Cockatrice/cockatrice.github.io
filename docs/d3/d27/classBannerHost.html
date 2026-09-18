@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -147,6 +147,7 @@ Protected Member Functions</h2></td></tr>
 Private Slots</h2></td></tr>
 <tr class="memitem:ac768d322e3b548ac92880942bc9f28b3" id="r_ac768d322e3b548ac92880942bc9f28b3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac768d322e3b548ac92880942bc9f28b3">tick</a> ()</td></tr>
 <tr class="memitem:ab952cd3c62ec68799edb9469e5e99e2a" id="r_ab952cd3c62ec68799edb9469e5e99e2a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab952cd3c62ec68799edb9469e5e99e2a">onSceneGraphFailed</a> ()</td></tr>
+<tr class="memitem:a4cefab855e3c234649194e7b47ba2cb5" id="r_a4cefab855e3c234649194e7b47ba2cb5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4cefab855e3c234649194e7b47ba2cb5">applyThemeColors</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -164,6 +165,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ab5408ca6a56bac56dd04aac3206f68ca" id="r_ab5408ca6a56bac56dd04aac3206f68ca"><td class="memItemLeft">QQuickWidget *&#160;</td><td class="memItemRight"><a class="el" href="#ab5408ca6a56bac56dd04aac3206f68ca">quickWidget</a> = nullptr</td></tr>
 <tr class="memitem:a0128585193c36385d228a8d7a211e203" id="r_a0128585193c36385d228a8d7a211e203"><td class="memItemLeft"><a class="el" href="../../dc/d6c/classBannerShaderConfig.html">BannerShaderConfig</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a0128585193c36385d228a8d7a211e203">config</a> = nullptr</td></tr>
 <tr class="memitem:ada73388dcbc454b515b863392add93ab" id="r_ada73388dcbc454b515b863392add93ab"><td class="memItemLeft"><a class="el" href="../../d3/d52/classGradientFallbackWidget.html">GradientFallbackWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ada73388dcbc454b515b863392add93ab">fallback</a> = nullptr</td></tr>
+<tr class="memitem:a6f14d125d7ace799ae35d343cc887829" id="r_a6f14d125d7ace799ae35d343cc887829"><td class="memItemLeft">QColor&#160;</td><td class="memItemRight"><a class="el" href="#a6f14d125d7ace799ae35d343cc887829">bannerColorA</a></td></tr>
+<tr class="memitem:a578148c017d54fe67182a194de0070d5" id="r_a578148c017d54fe67182a194de0070d5"><td class="memItemLeft">QColor&#160;</td><td class="memItemRight"><a class="el" href="#a578148c017d54fe67182a194de0070d5">bannerColorB</a></td></tr>
+<tr class="memitem:a371ac8ebb99258ff8cdfb7b4f20f4e23" id="r_a371ac8ebb99258ff8cdfb7b4f20f4e23"><td class="memItemLeft">QColor&#160;</td><td class="memItemRight"><a class="el" href="#a371ac8ebb99258ff8cdfb7b4f20f4e23">bannerAccent</a></td></tr>
 <tr class="memitem:a1e94be9ec83e61052d89b4d62f687cb2" id="r_a1e94be9ec83e61052d89b4d62f687cb2"><td class="memItemLeft">QTimer&#160;</td><td class="memItemRight"><a class="el" href="#a1e94be9ec83e61052d89b4d62f687cb2">clock</a></td></tr>
 <tr class="memitem:afa501e1f89938c722cc618fe2056054d" id="r_afa501e1f89938c722cc618fe2056054d"><td class="memItemLeft">QElapsedTimer&#160;</td><td class="memItemRight"><a class="el" href="#afa501e1f89938c722cc618fe2056054d">elapsed</a></td></tr>
 <tr class="memitem:aa09bddd6953c18d64074492dfb391e5e" id="r_aa09bddd6953c18d64074492dfb391e5e"><td class="memItemLeft"><a class="el" href="#a929a7d9d513288e211ddabcd0e01fd50">Motif</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa09bddd6953c18d64074492dfb391e5e">currentMotif</a> = <a class="el" href="#a929a7d9d513288e211ddabcd0e01fd50a83218ac34c1834c26781fe4bde918ee4">Motif::Welcome</a></td></tr>
@@ -231,7 +235,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d27/classBannerHost_af09e0652a760b0aa8451ec5e12b0029f_cgraph.svg" width="100%" height="473"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d27/classBannerHost_af09e0652a760b0aa8451ec5e12b0029f_cgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -298,6 +302,36 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d27/classBannerHost_a9017aa82d63fec109b8133c5d2d806c4_icgraph.svg" width="459" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a4cefab855e3c234649194e7b47ba2cb5" name="a4cefab855e3c234649194e7b47ba2cb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cefab855e3c234649194e7b47ba2cb5">&#9670;&#160;</a></span>applyThemeColors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BannerHost::applyThemeColors </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d27/classBannerHost_a4cefab855e3c234649194e7b47ba2cb5_icgraph.svg" width="648" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -492,6 +526,11 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d27/classBannerHost_ac768d322e3b548ac92880942bc9f28b3_cgraph.svg" width="418" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d27/classBannerHost_ac768d322e3b548ac92880942bc9f28b3_icgraph.svg" width="372" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
@@ -530,6 +569,72 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a371ac8ebb99258ff8cdfb7b4f20f4e23" name="a371ac8ebb99258ff8cdfb7b4f20f4e23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a371ac8ebb99258ff8cdfb7b4f20f4e23">&#9670;&#160;</a></span>bannerAccent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QColor BannerHost::bannerAccent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f14d125d7ace799ae35d343cc887829" name="a6f14d125d7ace799ae35d343cc887829"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f14d125d7ace799ae35d343cc887829">&#9670;&#160;</a></span>bannerColorA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QColor BannerHost::bannerColorA</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a578148c017d54fe67182a194de0070d5" name="a578148c017d54fe67182a194de0070d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a578148c017d54fe67182a194de0070d5">&#9670;&#160;</a></span>bannerColorB</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QColor BannerHost::bannerColorB</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1e94be9ec83e61052d89b4d62f687cb2" name="a1e94be9ec83e61052d89b4d62f687cb2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1e94be9ec83e61052d89b4d62f687cb2">&#9670;&#160;</a></span>clock</h2>
 

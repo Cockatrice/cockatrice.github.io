@@ -20,7 +20,7 @@ var classPlayerEventHandler =
     [ "eventRollDie", "de/d38/classPlayerEventHandler.html#a774ff0907ae681d1ec4f1b6156d712f0", null ],
     [ "eventSetCardAttr", "de/d38/classPlayerEventHandler.html#aa7fb3795dfc48ded56aea88806bbc949", null ],
     [ "eventSetCardCounter", "de/d38/classPlayerEventHandler.html#ad924caba39855c3ad21c372533007ae1", null ],
-    [ "eventSetCounter", "de/d38/classPlayerEventHandler.html#aa0c4187217a973812fc3ba10bee16953", null ],
+    [ "eventSetCounter", "de/d38/classPlayerEventHandler.html#a81efa5eadd1e84dd40e538e9b1118656", null ],
     [ "eventShuffle", "de/d38/classPlayerEventHandler.html#a2c5de5f818b95d476b18d33b9d61d1b6", null ],
     [ "logAlwaysLookAtTopCard", "de/d38/classPlayerEventHandler.html#ab7586054d86b41528cc6bd69a1a555bc", null ],
     [ "logAlwaysRevealTopCard", "de/d38/classPlayerEventHandler.html#acca7bc49abce3f04182cea8e7bced1a5", null ],

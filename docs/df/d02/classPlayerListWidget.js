@@ -2,6 +2,7 @@ var classPlayerListWidget =
 [
     [ "PlayerListWidget", "df/d02/classPlayerListWidget.html#a557fa2d55358f086e6140d64f70b0acc", null ],
     [ "addPlayer", "df/d02/classPlayerListWidget.html#a2e452598e9ab3a1e3bda549770d0f8aa", null ],
+    [ "clearSpectators", "df/d02/classPlayerListWidget.html#a8a6a205345cb716a2b17bdc483cf828d", null ],
     [ "openMessageDialog", "df/d02/classPlayerListWidget.html#a1f82388fa1898f7659b68b17b01a9faf", null ],
     [ "removePlayer", "df/d02/classPlayerListWidget.html#a44242d17cd530e0b5a3e636a22615ee6", null ],
     [ "retranslateUi", "df/d02/classPlayerListWidget.html#a90b4e3c38828b030e45535766cec70de", null ],

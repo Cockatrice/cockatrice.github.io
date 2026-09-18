@@ -1,6 +1,6 @@
 var classTabLog =
 [
-    [ "TabLog", "d9/ded/classTabLog.html#ac27cbbd40947614c37ebaaae685167d2", null ],
+    [ "TabLog", "d9/ded/classTabLog.html#a1e2a247f895316a7b2f771a89038cad7", null ],
     [ "~TabLog", "d9/ded/classTabLog.html#aec7fa5c548a479eb83211bbc9914423f", null ],
     [ "clearClicked", "d9/ded/classTabLog.html#a1985eab072d9704eedb8908c67058a10", null ],
     [ "createDock", "d9/ded/classTabLog.html#ae9e48e6e3382a309c2cb7305871fb5f5", null ],
@@ -11,6 +11,7 @@ var classTabLog =
     [ "viewLogHistory_processResponse", "d9/ded/classTabLog.html#a5655893af9a446da70d340f11ad19776", null ],
     [ "buttonGrid", "d9/ded/classTabLog.html#a9f775e38bfa0597635f079bb35fe4087", null ],
     [ "buttonGroupBox", "d9/ded/classTabLog.html#ae12c6bb510d5e9caa1f63a68859c9b06", null ],
+    [ "canUseDeveloperCommands", "d9/ded/classTabLog.html#a692ff78e2f62145ee3ab812332d349d8", null ],
     [ "chatTable", "d9/ded/classTabLog.html#a2224852ffe8b239713a960ca599b0350", null ],
     [ "clearButton", "d9/ded/classTabLog.html#a07c487c0df2a607d9b0bf35d7df1d951", null ],
     [ "client", "d9/ded/classTabLog.html#a93b4ce7a91567c3e2a902904ca4400fb", null ],

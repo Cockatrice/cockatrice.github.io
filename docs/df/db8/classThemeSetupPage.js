@@ -17,6 +17,7 @@ var classThemeSetupPage =
     [ "writableThemeDir", "df/db8/classThemeSetupPage.html#ab70632348a4c24bcfdf7b7cd3a7269eb", null ],
     [ "accentGroup", "df/db8/classThemeSetupPage.html#a0c8cb607c5e493535b1027ab366c6139", null ],
     [ "homeTabBackgroundCombo", "df/db8/classThemeSetupPage.html#ae54199bc23648b379ff06f8904dfcd43", null ],
+    [ "lastSeededTheme", "df/db8/classThemeSetupPage.html#a63f32fb147438ce4dfac018cf106aba3", null ],
     [ "paletteDirty", "df/db8/classThemeSetupPage.html#aaa6ddc3273d064d32a084522a0a366da", null ],
     [ "quickSetupPanel", "df/db8/classThemeSetupPage.html#ae8e2285093eebc77fe5c2daba9df6263", null ],
     [ "schemeCombo", "df/db8/classThemeSetupPage.html#a59cc03672190a0ab00d7d7463e971039", null ],

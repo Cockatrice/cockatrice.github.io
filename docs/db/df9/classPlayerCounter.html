@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -143,8 +143,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aebfb3235f3cd7d6eca87702e321b4ace" id="r_aebfb3235f3cd7d6eca87702e321b4ace"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aebfb3235f3cd7d6eca87702e321b4ace">onValueChanged</a> (int oldValue, int newValue) override</td></tr>
-<tr class="memdesc:aebfb3235f3cd7d6eca87702e321b4ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for subclasses that need per-value-change feedback (e.g. life-total flash).  <br /></td></tr>
+<tr class="memitem:a9e13557dad58922f92e65b5cf7104d14" id="r_a9e13557dad58922f92e65b5cf7104d14"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9e13557dad58922f92e65b5cf7104d14">onValueChanged</a> (int oldValue, int newValue, bool skipDamageAnimation) override</td></tr>
+<tr class="memdesc:a9e13557dad58922f92e65b5cf7104d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hook for subclasses that need per-value-change feedback (e.g. life-total flash).  <br /></td></tr>
 <tr class="inherit_header pro_methods_classAbstractCounter"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classAbstractCounter')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="../../d4/d67/classAbstractCounter.html">AbstractCounter</a></td></tr>
 <tr class="memitem:a6dfdaaeaad933c1decd10897ed066f62 inherit pro_methods_classAbstractCounter" id="r_a6dfdaaeaad933c1decd10897ed066f62"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d4/d67/classAbstractCounter.html#a6dfdaaeaad933c1decd10897ed066f62">mousePressEvent</a> (QGraphicsSceneMouseEvent *event) override</td></tr>
 <tr class="memitem:af7bc693d1684c5a2c3f63fb006b6a1c3 inherit pro_methods_classAbstractCounter" id="r_af7bc693d1684c5a2c3f63fb006b6a1c3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d4/d67/classAbstractCounter.html#af7bc693d1684c5a2c3f63fb006b6a1c3">hoverEnterEvent</a> (QGraphicsSceneHoverEvent *event) override</td></tr>
@@ -260,8 +260,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aebfb3235f3cd7d6eca87702e321b4ace" name="aebfb3235f3cd7d6eca87702e321b4ace"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebfb3235f3cd7d6eca87702e321b4ace">&#9670;&#160;</a></span>onValueChanged()</h2>
+<a id="a9e13557dad58922f92e65b5cf7104d14" name="a9e13557dad58922f92e65b5cf7104d14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e13557dad58922f92e65b5cf7104d14">&#9670;&#160;</a></span>onValueChanged()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,7 +277,12 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newValue</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>newValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>skipDamageAnimation</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -288,13 +293,18 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Hook for subclasses that need per-value-change feedback (e.g. life-total flash). </p>
-<p>Called whenever the counter's value changes, before the item repaints. </p>
+<p>Called whenever the counter's value changes, before the item repaints. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">skipDamageAnimation</td><td>True when damage-related feedback should be suppressed (replay rewinds). </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Reimplemented from <a class="el" href="../../d4/d67/classAbstractCounter.html#a85ee8fb73dde10558781a29b01871c3b">AbstractCounter</a>.</p>
+<p>Reimplemented from <a class="el" href="../../d4/d67/classAbstractCounter.html#a8f95d2191f10e4d9c7f24b4bd1fe45c8">AbstractCounter</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df9/classPlayerCounter_aebfb3235f3cd7d6eca87702e321b4ace_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df9/classPlayerCounter_a9e13557dad58922f92e65b5cf7104d14_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

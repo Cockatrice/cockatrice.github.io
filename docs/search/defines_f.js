@@ -39,5 +39,6 @@ var searchData=
   ['stablerelease_5furl_36',['STABLERELEASE_URL',['../d4/d94/release__channel_8cpp.html#a37095738392deb1ac4af2ec984114694',1,'release_channel.cpp']]],
   ['stabletag_5furl_37',['STABLETAG_URL',['../d4/d94/release__channel_8cpp.html#aaf4ad2018b7fdbe17c70365d1e25aab8',1,'release_channel.cpp']]],
   ['stackzone_5fbg_5fname_38',['STACKZONE_BG_NAME',['../d4/d99/theme__manager_8cpp.html#a4ee2be63495ec29e55fbf0c721fa28ad',1,'theme_manager.cpp']]],
-  ['style_5fcss_5fname_39',['STYLE_CSS_NAME',['../d4/d99/theme__manager_8cpp.html#a02a93947f65f45e8aa5bedfed04b41c3',1,'theme_manager.cpp']]]
+  ['style_5fcss_5fname_39',['STYLE_CSS_NAME',['../d4/d99/theme__manager_8cpp.html#a02a93947f65f45e8aa5bedfed04b41c3',1,'theme_manager.cpp']]],
+  ['system_5ftheme_5fname_40',['SYSTEM_THEME_NAME',['../d4/d99/theme__manager_8cpp.html#ac2b618b130d9f3b1b6ff587fa09abf34',1,'theme_manager.cpp']]]
 ];

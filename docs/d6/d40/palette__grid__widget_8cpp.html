@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -100,6 +100,7 @@ $(function(){initNavTree('d6/d40/palette__grid__widget_8cpp.html','../../',''); 
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../dd/dea/palette__grid__widget_8h_source.html">palette_grid_widget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d65/theme__manager_8h_source.html">../theme_manager.h</a>&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
 <code>#include &lt;QGridLayout&gt;</code><br />
 <code>#include &lt;QLabel&gt;</code><br />
@@ -121,6 +122,7 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:aa16b9996897a581bad770b3eacc67b6a" id="r_aa16b9996897a581bad770b3eacc67b6a"><td class="memItemLeft">static const QList&lt; QPalette::ColorGroup &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa16b9996897a581bad770b3eacc67b6a">ALL_GROUPS</a> = {QPalette::Active, QPalette::Disabled, QPalette::Inactive}</td></tr>
 <tr class="memitem:af02db4ad61e8aef40b151501a45a1830" id="r_af02db4ad61e8aef40b151501a45a1830"><td class="memItemLeft">static const QMap&lt; QPalette::ColorRole, const char * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af02db4ad61e8aef40b151501a45a1830">ROLE_DESCRIPTIONS</a></td></tr>
+<tr class="memitem:a7f89888cf412a60a0de1409a496fb1f2" id="r_a7f89888cf412a60a0de1409a496fb1f2"><td class="memItemLeft">static const QMap&lt; <a class="el" href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90">AppColor::Role</a>, const char * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a7f89888cf412a60a0de1409a496fb1f2">APP_ROLE_DESCRIPTIONS</a></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="aaba5994321495731e136aaf8db0485f4" name="aaba5994321495731e136aaf8db0485f4"></a>
@@ -174,6 +176,34 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a7f89888cf412a60a0de1409a496fb1f2" name="a7f89888cf412a60a0de1409a496fb1f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f89888cf412a60a0de1409a496fb1f2">&#9670;&#160;</a></span>APP_ROLE_DESCRIPTIONS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QMap&lt;<a class="el" href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90">AppColor::Role</a>, const char *&gt; APP_ROLE_DESCRIPTIONS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">                                        = {</div>
+<div class="line">    {<a class="code hl_enumvalue" href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90aa8345a4346fb925a37d24ef971e399c2">AppColor::AccentStrong</a>, QT_TR_NOOP(<span class="stringliteral">&quot;Vivid primary accent (e.g. home-tab button gradient start)&quot;</span>)},</div>
+<div class="line">    {<a class="code hl_enumvalue" href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a566a76d9192ef71afe404432bff3b67c">AppColor::AccentSoft</a>, QT_TR_NOOP(<span class="stringliteral">&quot;Lightened, desaturated accent (e.g. home-tab button gradient end)&quot;</span>)},</div>
+<div class="line">}</div>
+<div class="ttc" id="anamespaceAppColor_html_a9f948c49b7279a43a6afadaa1748ce90a566a76d9192ef71afe404432bff3b67c"><div class="ttname"><a href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a566a76d9192ef71afe404432bff3b67c">AppColor::AccentSoft</a></div><div class="ttdeci">@ AccentSoft</div><div class="ttdef"><b>Definition</b> theme_config.h:20</div></div>
+<div class="ttc" id="anamespaceAppColor_html_a9f948c49b7279a43a6afadaa1748ce90aa8345a4346fb925a37d24ef971e399c2"><div class="ttname"><a href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90aa8345a4346fb925a37d24ef971e399c2">AppColor::AccentStrong</a></div><div class="ttdeci">@ AccentStrong</div><div class="ttdef"><b>Definition</b> theme_config.h:19</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af02db4ad61e8aef40b151501a45a1830" name="af02db4ad61e8aef40b151501a45a1830"></a>

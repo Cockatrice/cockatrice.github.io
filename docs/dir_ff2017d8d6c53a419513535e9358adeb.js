@@ -8,6 +8,8 @@ var dir_ff2017d8d6c53a419513535e9358adeb =
     [ "deck_list_memento.h", "dd/db5/deck__list__memento_8h.html", "dd/db5/deck__list__memento_8h" ],
     [ "deck_list_node_tree.cpp", "da/d33/deck__list__node__tree_8cpp.html", "da/d33/deck__list__node__tree_8cpp" ],
     [ "deck_list_node_tree.h", "d5/dbf/deck__list__node__tree_8h.html", "d5/dbf/deck__list__node__tree_8h" ],
+    [ "deck_list_plain_text_parser.cpp", "d1/da2/deck__list__plain__text__parser_8cpp.html", "d1/da2/deck__list__plain__text__parser_8cpp" ],
+    [ "deck_list_plain_text_parser.h", "db/d33/deck__list__plain__text__parser_8h.html", "db/d33/deck__list__plain__text__parser_8h" ],
     [ "playmat_resolver.cpp", "d0/dbe/playmat__resolver_8cpp.html", "d0/dbe/playmat__resolver_8cpp" ],
     [ "playmat_resolver.h", "d9/d0b/playmat__resolver_8h.html", "d9/d0b/playmat__resolver_8h" ],
     [ "sideboard_plan.cpp", "d4/d46/sideboard__plan_8cpp.html", null ],

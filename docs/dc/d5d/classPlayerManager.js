@@ -5,6 +5,7 @@ var classPlayerManager =
     [ "activeLocalPlayerUnconceded", "dc/d5d/classPlayerManager.html#a63a82c15b6318538874347ea1b31ede5", null ],
     [ "addPlayer", "dc/d5d/classPlayerManager.html#aeac22e4145bd8e1c5052ec350555c930", null ],
     [ "addSpectator", "dc/d5d/classPlayerManager.html#a31871ad99adbf33edc15f7b5f06be02d", null ],
+    [ "clearSpectators", "dc/d5d/classPlayerManager.html#a87958dfac9aed8f6f24bea2bcc13c64d", null ],
     [ "getActiveLocalPlayer", "dc/d5d/classPlayerManager.html#ac6de2c7984fc0d813e6a22aacc927956", null ],
     [ "getGame", "dc/d5d/classPlayerManager.html#a7d60d4238267021be5686e2aecb8edfd", null ],
     [ "getLocalPlayerId", "dc/d5d/classPlayerManager.html#a6b00167963964d83c7e2307addd31194", null ],

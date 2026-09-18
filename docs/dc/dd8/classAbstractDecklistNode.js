@@ -11,7 +11,6 @@ var classAbstractDecklistNode =
     [ "getParent", "dc/dd8/classAbstractDecklistNode.html#a0c271fecd144b59d4d9e17de1ca34615", null ],
     [ "height", "dc/dd8/classAbstractDecklistNode.html#af6494038bc06f8ab382381da72934a05", null ],
     [ "isDeckHeader", "dc/dd8/classAbstractDecklistNode.html#a9888346a6af100b2f95b5bc4d661711c", null ],
-    [ "readElement", "dc/dd8/classAbstractDecklistNode.html#a32b08d1968b2f3fb9ac459d9100a7838", null ],
     [ "setParent", "dc/dd8/classAbstractDecklistNode.html#afc5f3eb8e9971e4ee240eb3ee5d81f59", null ],
     [ "setSortMethod", "dc/dd8/classAbstractDecklistNode.html#a4fb09e2e18f0a55c5fa5bd81a2396e3e", null ],
     [ "writeElement", "dc/dd8/classAbstractDecklistNode.html#aa63a74f48c8f68b8ec7a89a4612fce3f", null ],

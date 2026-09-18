@@ -23,6 +23,7 @@ var classServer__AbstractPlayer =
     [ "cmdUnconcede", "da/d99/classServer__AbstractPlayer.html#abd5b1fce1c48fd3df8302b9c0ee7412a", null ],
     [ "deleteArrow", "da/d99/classServer__AbstractPlayer.html#af0737d399b084952c2ec0f36c8fdd0b1", null ],
     [ "getArrows", "da/d99/classServer__AbstractPlayer.html#a0049a43da06e0c90b8641c4e2ab7f6f9", null ],
+    [ "getCardCount", "da/d99/classServer__AbstractPlayer.html#acd3008aaac673566bdb632a570de8675", null ],
     [ "getConceded", "da/d99/classServer__AbstractPlayer.html#a657ab23ea309e5a882f92e5dd04a3cf6", null ],
     [ "getDeckList", "da/d99/classServer__AbstractPlayer.html#aa0ad185c446e6637781f697169ac9283", null ],
     [ "getInfo", "da/d99/classServer__AbstractPlayer.html#aaf5f13baa8a123b1ae207ba30bed1c0f", null ],

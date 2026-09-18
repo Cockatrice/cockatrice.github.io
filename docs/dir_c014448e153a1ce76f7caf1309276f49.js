@@ -2,6 +2,7 @@ var dir_c014448e153a1ce76f7caf1309276f49 =
 [
     [ "pages", "dir_cd196a9b9d4d704e1f7a286caf8ee67f.html", "dir_cd196a9b9d4d704e1f7a286caf8ee67f" ],
     [ "banner_shader_config.h", "d1/dce/banner__shader__config_8h.html", "d1/dce/banner__shader__config_8h" ],
+    [ "brand_colors.h", "dd/da4/brand__colors_8h.html", "dd/da4/brand__colors_8h" ],
     [ "first_run_wizard.cpp", "db/d68/first__run__wizard_8cpp.html", null ],
     [ "first_run_wizard.h", "de/dc4/first__run__wizard_8h.html", "de/dc4/first__run__wizard_8h" ],
     [ "first_run_wizard_page.cpp", "d4/de8/first__run__wizard__page_8cpp.html", null ],

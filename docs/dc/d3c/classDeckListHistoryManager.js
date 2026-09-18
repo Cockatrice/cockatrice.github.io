@@ -7,6 +7,7 @@ var classDeckListHistoryManager =
     [ "getRedoStack", "dc/d3c/classDeckListHistoryManager.html#a0edb53ed14b77d9c07f9bb4d3fc78c45", null ],
     [ "getUndoStack", "dc/d3c/classDeckListHistoryManager.html#a3ea85c3a5b74acad68fc1ae936a3eb0e", null ],
     [ "redo", "dc/d3c/classDeckListHistoryManager.html#abec004b5d022b9e2bb2fa1a8c8bd325a", null ],
+    [ "restoreAndSwap", "dc/d3c/classDeckListHistoryManager.html#a6a470c76b04cb714fe87c7d541889714", null ],
     [ "save", "dc/d3c/classDeckListHistoryManager.html#adec8ee4cde3fe51e7d4ce867849ddf52", null ],
     [ "undo", "dc/d3c/classDeckListHistoryManager.html#a37cc7dd2e485538a13ca2c581736df52", null ],
     [ "undoRedoStateChanged", "dc/d3c/classDeckListHistoryManager.html#a01e787adc79e867d294a11cdd64f7908", null ],

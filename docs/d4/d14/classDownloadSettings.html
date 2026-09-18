@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,6 +123,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1dc5076ca3e38bd1131f092990710de3" id="r_a1dc5076ca3e38bd1131f092990710de3"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#a1dc5076ca3e38bd1131f092990710de3">getAllURLs</a> () const</td></tr>
 <tr class="memitem:ab99a632e3c99f64b35ceb9b5cbe6fdfd" id="r_ab99a632e3c99f64b35ceb9b5cbe6fdfd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab99a632e3c99f64b35ceb9b5cbe6fdfd">setDownloadUrls</a> (const QStringList &amp;downloadURLs)</td></tr>
 <tr class="memitem:a590a9adb92656f9a2809cead713f194d" id="r_a590a9adb92656f9a2809cead713f194d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a590a9adb92656f9a2809cead713f194d">resetToDefaultURLs</a> ()</td></tr>
+<tr class="memitem:a19c5379146b0b61a0fc16e458f27699f" id="r_a19c5379146b0b61a0fc16e458f27699f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a19c5379146b0b61a0fc16e458f27699f">addLocalizedScryfallUrl</a> ()</td></tr>
 <tr class="memitem:aef441380ebeb7a914a473f65e9710a35" id="r_aef441380ebeb7a914a473f65e9710a35"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aef441380ebeb7a914a473f65e9710a35">getPicDownload</a> () const</td></tr>
 <tr class="memitem:acc51525e2c62d08088c4db031c9c5ce8" id="r_acc51525e2c62d08088c4db031c9c5ce8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acc51525e2c62d08088c4db031c9c5ce8">setPicDownload</a> (bool _picDownload)</td></tr>
 <tr class="memitem:aa819cc95a0c06192e446a53fbadc6693" id="r_aa819cc95a0c06192e446a53fbadc6693"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa819cc95a0c06192e446a53fbadc6693">getDownloadSpoilersStatus</a> () const</td></tr>
@@ -138,6 +139,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:ab644f5cd6589c1d67761bbe2ef332b41" id="r_ab644f5cd6589c1d67761bbe2ef332b41"><td class="memItemLeft">static const QStringList&#160;</td><td class="memItemRight"><a class="el" href="#ab644f5cd6589c1d67761bbe2ef332b41">DEFAULT_DOWNLOAD_URLS</a></td></tr>
+<tr class="memitem:a19cc324a75c951d244e7d377f2aba288" id="r_a19cc324a75c951d244e7d377f2aba288"><td class="memItemLeft">static const QString&#160;</td><td class="memItemRight"><a class="el" href="#a19cc324a75c951d244e7d377f2aba288">SCRYFALL_NAMED_LOCALIZED_URL</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -157,7 +159,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a9b6d9a9af58b05d08666e99da18a209e inherit pro_attribs_classSettingsManager" id="r_a9b6d9a9af58b05d08666e99da18a209e"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="../../d1/dea/classSettingsManager.html#a9b6d9a9af58b05d08666e99da18a209e">defaultSubGroup</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000270">Todo</a></b></dt><dd>Document this file. </dd></dl>
+<div class="textblock"><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000272">Todo</a></b></dt><dd>Document this file. </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a30e1f21f83acb88d0ee03c5e084f5f01" name="a30e1f21f83acb88d0ee03c5e084f5f01"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30e1f21f83acb88d0ee03c5e084f5f01">&#9670;&#160;</a></span>DownloadSettings()</h2>
@@ -194,6 +196,41 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a19c5379146b0b61a0fc16e458f27699f" name="a19c5379146b0b61a0fc16e458f27699f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19c5379146b0b61a0fc16e458f27699f">&#9670;&#160;</a></span>addLocalizedScryfallUrl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DownloadSettings::addLocalizedScryfallUrl </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_a19c5379146b0b61a0fc16e458f27699f_cgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_a19c5379146b0b61a0fc16e458f27699f_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a9b5ea19e9f3dcb6bbdedcf2ff51acf04" name="a9b5ea19e9f3dcb6bbdedcf2ff51acf04"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b5ea19e9f3dcb6bbdedcf2ff51acf04">&#9670;&#160;</a></span>downloadSpoilerStatusChanged</h2>
 
@@ -242,6 +279,11 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_a1dc5076ca3e38bd1131f092990710de3_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_a1dc5076ca3e38bd1131f092990710de3_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -422,7 +464,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_ab99a632e3c99f64b35ceb9b5cbe6fdfd_icgraph.svg" width="100%" height="482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_ab99a632e3c99f64b35ceb9b5cbe6fdfd_icgraph.svg" width="100%" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -499,10 +541,34 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">                                                      = {</div>
 <div class="line"><span class="stringliteral">&quot;https://cards.scryfall.io/large/!prop:side!/!set:uuid_substr_0_1!/!set:uuid_substr_1_1!/!set:uuid!.jpg&quot;</span>,</div>
-<div class="line"><span class="stringliteral">&quot;https://api.scryfall.com/cards/!set:uuid!?format=image&amp;face=!prop:side!&quot;</span>,</div>
-<div class="line"><span class="stringliteral">&quot;https://api.scryfall.com/cards/multiverse/!set:muid!?format=image&quot;</span>,</div>
+<div class="line"><span class="stringliteral">&quot;https://api.scryfall.com/cards/!set:uuid!?format=image&amp;face=!prop:side!&amp;lang=!sflang!&quot;</span>,</div>
+<div class="line"><span class="stringliteral">&quot;https://api.scryfall.com/cards/multiverse/!set:muid!?format=image&amp;lang=!sflang!&quot;</span>,</div>
 <div class="line"><span class="stringliteral">&quot;https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=!set:muid!&amp;type=card&quot;</span>,</div>
 <div class="line"><span class="stringliteral">&quot;https://gatherer.wizards.com/Handlers/Image.ashx?name=!name!&amp;type=card&quot;</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a19cc324a75c951d244e7d377f2aba288" name="a19cc324a75c951d244e7d377f2aba288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19cc324a75c951d244e7d377f2aba288">&#9670;&#160;</a></span>SCRYFALL_NAMED_LOCALIZED_URL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString DownloadSettings::SCRYFALL_NAMED_LOCALIZED_URL</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">                                                         =</div>
+<div class="line"><span class="stringliteral">&quot;https://api.scryfall.com/cards/named?fuzzy=!localizedName!&amp;lang=!sflang!&amp;format=image&amp;face=!prop:side!&quot;</span></div>
 </div><!-- fragment -->
 </div>
 </div>

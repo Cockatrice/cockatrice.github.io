@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -102,10 +102,11 @@ $(function(){initNavTree('d9/d85/raw__json__scanner_8h.html','../../',''); });
 <div class="textblock"><code>#include &lt;QByteArray&gt;</code><br />
 <code>#include &lt;QList&gt;</code><br />
 <code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for raw_json_scanner.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d75/raw__json__scanner_8h__incl.svg" width="282" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d75/raw__json__scanner_8h__incl.svg" width="392" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -126,10 +127,15 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:RawJson" id="r_RawJson"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="../../d6/d63/namespaceRawJson.html">RawJson</a></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a4db89453dbbbcfc5fb225d0be60d25a2" id="r_a4db89453dbbbcfc5fb225d0be60d25a2"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="../../d6/d63/namespaceRawJson.html#a4db89453dbbbcfc5fb225d0be60d25a2">RawJson::ScanProgressCallback</a> = std::function&lt;void(qsizetype bytesRead, qsizetype totalBytes)&gt;</td></tr>
+<tr class="memdesc:a4db89453dbbbcfc5fb225d0be60d25a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional progress callback receiving <code></code>(bytesRead, totalBytes) while the document is walked. Invoked from the scanning thread; the caller decides how the throttled offsets are relayed to a GUI event loop.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abb6e9444bab90ca250b82d6ad207207b" id="r_abb6e9444bab90ca250b82d6ad207207b"><td class="memItemLeft">QList&lt; <a class="el" href="../../d9/d1d/structRawJson_1_1SetRange.html">SetRange</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="../../d6/d63/namespaceRawJson.html#abb6e9444bab90ca250b82d6ad207207b">RawJson::scanSetRanges</a> (const QByteArray &amp;json, <a class="el" href="../../dc/d38/structRawJson_1_1ScanError.html">ScanError</a> *error=nullptr)</td></tr>
-<tr class="memdesc:abb6e9444bab90ca250b82d6ad207207b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans a full MTGJSON document without materializing the JSON tree.  <br /></td></tr>
+<tr class="memitem:af72e6cd75b535686a6e7d49c00bbed9d" id="r_af72e6cd75b535686a6e7d49c00bbed9d"><td class="memItemLeft">QList&lt; <a class="el" href="../../d9/d1d/structRawJson_1_1SetRange.html">SetRange</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="../../d6/d63/namespaceRawJson.html#af72e6cd75b535686a6e7d49c00bbed9d">RawJson::scanSetRanges</a> (const QByteArray &amp;json, <a class="el" href="../../dc/d38/structRawJson_1_1ScanError.html">ScanError</a> *error=nullptr, const <a class="el" href="../../d6/d63/namespaceRawJson.html#a4db89453dbbbcfc5fb225d0be60d25a2">ScanProgressCallback</a> &amp;progress=<a class="el" href="../../d6/d63/namespaceRawJson.html#a4db89453dbbbcfc5fb225d0be60d25a2">ScanProgressCallback</a>())</td></tr>
+<tr class="memdesc:af72e6cd75b535686a6e7d49c00bbed9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans a full MTGJSON document without materializing the JSON tree.  <br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

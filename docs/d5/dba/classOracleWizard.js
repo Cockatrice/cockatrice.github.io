@@ -9,6 +9,7 @@ var classOracleWizard =
     [ "getCardSourceVersion", "d5/dba/classOracleWizard.html#ab28d6d76f7effab983cc447502e036c1", null ],
     [ "hasTokensData", "d5/dba/classOracleWizard.html#a6a4c2dea7cb0a8731f406901cb42052e", null ],
     [ "migrateOracleSettings", "d5/dba/classOracleWizard.html#a14bd530842d6789b5987001b4bb980a4", null ],
+    [ "reject", "d5/dba/classOracleWizard.html#a07a2731bdd3832742005b03798e714ec", null ],
     [ "retranslateUi", "d5/dba/classOracleWizard.html#a2200b2067c2cf0c706ddfaa89c70a906", null ],
     [ "runInBackground", "d5/dba/classOracleWizard.html#aef6088222aa32ec97d89c9c87017d922", null ],
     [ "saveTokensToFile", "d5/dba/classOracleWizard.html#a7d0e278fba15c80e1a51ccc8361ce1b1", null ],

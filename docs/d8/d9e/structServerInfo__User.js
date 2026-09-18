@@ -8,7 +8,8 @@ var structServerInfo__User =
       [ "IsRegistered", "d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a390bc7ac8d1ff3502f27c58bc5001d37", null ],
       [ "IsModerator", "d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a8748d452d5eaa37530e6834611c1e06d", null ],
       [ "IsAdmin", "d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814aeca33e973d0735eab605ece61b189df8", null ],
-      [ "IsJudge", "d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a12d3d589833d07a95ca905162294c532", null ]
+      [ "IsJudge", "d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a12d3d589833d07a95ca905162294c532", null ],
+      [ "IsDeveloper", "d8/d9e/structServerInfo__User.html#ade0f5661acd6a9ee2bf9233fb9746814a7c5c314fb3f6b1b0fa0b97cc43978cb0", null ]
     ] ],
     [ "accountage_secs", "d8/d9e/structServerInfo__User.html#a75c3374d8d02304c93deb40482c5f0b4", null ],
     [ "address", "d8/d9e/structServerInfo__User.html#a6c930789628ce374b60212b2aecf5449", null ],

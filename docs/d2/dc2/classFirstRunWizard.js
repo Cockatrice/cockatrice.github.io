@@ -11,6 +11,7 @@ var classFirstRunWizard =
     [ "goNext", "d2/dc2/classFirstRunWizard.html#a252ee0604a0e77ee8d3ab2adbc3d561c", null ],
     [ "manualCardDatabaseSetupRequested", "d2/dc2/classFirstRunWizard.html#ab4b430fa13a38cc88548e54b72732692", null ],
     [ "onCardDatabaseUpdateFinished", "d2/dc2/classFirstRunWizard.html#ada22e509f231791caa6560d0a1e1c819", null ],
+    [ "onCardDatabaseUpdateProgress", "d2/dc2/classFirstRunWizard.html#a780d693aef6a40d3addcb5a0057300e4", null ],
     [ "registerRequested", "d2/dc2/classFirstRunWizard.html#a77cd878a201cf7092ea6b21554adb4a6", null ],
     [ "retranslateUi", "d2/dc2/classFirstRunWizard.html#a21a805dfeccdf6b55f8396623aa86044", null ],
     [ "showPage", "d2/dc2/classFirstRunWizard.html#a01103f10215d523a1f5aa5212549bcfe", null ],

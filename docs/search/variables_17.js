@@ -7,7 +7,7 @@ var searchData=
   ['warning_5fil_4',['warning_il',['../d3/de2/structResponse__WarnList.html#a3f086552872469a7b1232d6d293673bb',1,'Response_WarnList']]],
   ['warning_5freason_5',['warning_reason',['../d7/d65/structEvent__NotifyUser.html#a85dbbc28fe4a4e27e52826c11916e09e',1,'Event_NotifyUser']]],
   ['warningoption_6',['warningOption',['../d4/d0d/classWarningDialog.html#af895dabec6402434a15635f4ac5144a0',1,'WarningDialog']]],
-  ['watcher_7',['watcher',['../d1/d64/classLoadSetsPage.html#a7117d11cffdf836581e849bb25b82cb6',1,'LoadSetsPage']]],
+  ['watcher_7',['watcher',['../d1/d64/classLoadSetsPage.html#a64b25c11959fe21128570ae91305bc4e',1,'LoadSetsPage']]],
   ['weak_5f_8',['weak_',['../db/d5b/classpeg_1_1WeakHolder.html#aba7354d1ffe33770617ebc5f4960a2a7',1,'peg::WeakHolder']]],
   ['websocket_9',['websocket',['../db/d53/classRemoteClient.html#a7a22fa82d127d27a5c27e89a6a2cba09',1,'RemoteClient']]],
   ['websocketgameserver_10',['websocketGameServer',['../d5/d0e/classServatrice.html#ac098e504ae78d781a6832a98fb4e32a2',1,'Servatrice']]],

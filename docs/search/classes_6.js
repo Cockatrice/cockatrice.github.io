@@ -20,12 +20,13 @@ var searchData=
   ['gamesettings_17',['GameSettings',['../dc/d48/classGameSettings.html',1,'']]],
   ['gamesmodel_18',['GamesModel',['../da/dbd/classGamesModel.html',1,'']]],
   ['gamesproxymodel_19',['GamesProxyModel',['../db/db4/classGamesProxyModel.html',1,'']]],
-  ['gamestate_20',['GameState',['../d3/df3/classGameState.html',1,'']]],
-  ['gameview_21',['GameView',['../dd/d97/classGameView.html',1,'']]],
-  ['generalcounter_22',['GeneralCounter',['../db/d3b/classGeneralCounter.html',1,'']]],
-  ['generalsettingspage_23',['GeneralSettingsPage',['../d0/d41/classGeneralSettingsPage.html',1,'']]],
-  ['gradientfallbackwidget_24',['GradientFallbackWidget',['../d3/d52/classGradientFallbackWidget.html',1,'']]],
-  ['grammarblob_25',['GrammarBlob',['../d5/d93/structpeg_1_1GrammarBlob.html',1,'peg']]],
-  ['graveyardmenu_26',['GraveyardMenu',['../d2/d73/classGraveyardMenu.html',1,'']]],
-  ['gridsize_27',['GridSize',['../db/dc7/structZoneViewZone_1_1GridSize.html',1,'ZoneViewZone']]]
+  ['gamestartsnapshot_20',['GameStartSnapshot',['../da/d09/structMetricsRegistry_1_1GameStartSnapshot.html',1,'MetricsRegistry']]],
+  ['gamestate_21',['GameState',['../d3/df3/classGameState.html',1,'']]],
+  ['gameview_22',['GameView',['../dd/d97/classGameView.html',1,'']]],
+  ['generalcounter_23',['GeneralCounter',['../db/d3b/classGeneralCounter.html',1,'']]],
+  ['generalsettingspage_24',['GeneralSettingsPage',['../d0/d41/classGeneralSettingsPage.html',1,'']]],
+  ['gradientfallbackwidget_25',['GradientFallbackWidget',['../d3/d52/classGradientFallbackWidget.html',1,'']]],
+  ['grammarblob_26',['GrammarBlob',['../d5/d93/structpeg_1_1GrammarBlob.html',1,'peg']]],
+  ['graveyardmenu_27',['GraveyardMenu',['../d2/d73/classGraveyardMenu.html',1,'']]],
+  ['gridsize_28',['GridSize',['../db/dc7/structZoneViewZone_1_1GridSize.html',1,'ZoneViewZone']]]
 ];

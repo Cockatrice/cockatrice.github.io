@@ -14,7 +14,7 @@ var searchData=
   ['loader_20debug_20logs_11',['Enable Picture Loader Debug Logs',['../d9/d7b/fixing_card_pictures.html#enable-picture-loader-debug-logs',1,'']]],
   ['loading_12',['Local Image Loading',['../d9/d1c/loading_card_pictures.html#local-image-loading',1,'']]],
   ['loading_20card_20pictures_13',['Loading Card Pictures',['../d9/d1c/loading_card_pictures.html',1,'developer_reference']]],
-  ['local_20file_20storage_14',['Local File Storage',['../d0/d51/exporting_decks.html#local-file-storage',1,'Local File Storage'],['../db/d91/importing_decks.html#local-file-storage-1',1,'Local File Storage']]],
+  ['local_20file_20storage_14',['Local File Storage',['../db/d91/importing_decks.html#local-file-storage',1,'Local File Storage'],['../d0/d51/exporting_decks.html#local-file-storage-1',1,'Local File Storage']]],
   ['local_20image_20loading_15',['Local Image Loading',['../d9/d1c/loading_card_pictures.html#local-image-loading',1,'']]],
   ['local_20picture_20folder_16',['Check Your Local Picture Folder',['../d9/d7b/fixing_card_pictures.html#check-your-local-picture-folder',1,'']]],
   ['log_20level_20and_20categories_17',['Log Level and Categories',['../d9/d4f/logging.html#log-level-and-categories',1,'']]],

@@ -8,6 +8,7 @@ var classIChatSettingsProvider =
     [ "getChatMentionCompleter", "d0/d5a/classIChatSettingsProvider.html#a52ccf32b87a84cb2466818d0a452de75", null ],
     [ "getChatMentionForeground", "d0/d5a/classIChatSettingsProvider.html#a6e4d45ad8d8b4cb4954f0c2977796182", null ],
     [ "getHighlightWords", "d0/d5a/classIChatSettingsProvider.html#ab0b06acafe981d5f83afddfeec15e87c", null ],
+    [ "getIgnoreAllPrivateMessages", "d0/d5a/classIChatSettingsProvider.html#aee7022cc3e7dc49e169d4ab1917c59da", null ],
     [ "getIgnoreNonBuddyUserMessages", "d0/d5a/classIChatSettingsProvider.html#af6bd84760c017bfc0459288c508dec85", null ],
     [ "getIgnoreUnregisteredUserMessages", "d0/d5a/classIChatSettingsProvider.html#ac3191e1e1736fdf5f84e8bde97e9143b", null ],
     [ "getIgnoreUnregisteredUsers", "d0/d5a/classIChatSettingsProvider.html#a2be9abcae2011fa857617d849a5f424e", null ],

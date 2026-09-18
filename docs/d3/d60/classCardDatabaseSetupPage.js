@@ -18,6 +18,7 @@ var classCardDatabaseSetupPage =
     [ "onRestoreDefaultUrl", "d3/d60/classCardDatabaseSetupPage.html#aa68e0c91349469d3449c29bd6b748f5a", null ],
     [ "onToggleAdvanced", "d3/d60/classCardDatabaseSetupPage.html#a53fb7e0156209caf44432ade5ddeb6d5", null ],
     [ "onUpdateFinished", "d3/d60/classCardDatabaseSetupPage.html#ab8c8de03c7d6767c445df56a18a283ae", null ],
+    [ "onUpdateProgress", "d3/d60/classCardDatabaseSetupPage.html#a06b86701a22bd5cee8494be49c48654a", null ],
     [ "oracleSettingsFilePath", "d3/d60/classCardDatabaseSetupPage.html#a601ede826766f8fb9831aead0efe503a", null ],
     [ "readCustomUrl", "d3/d60/classCardDatabaseSetupPage.html#a9bd44189b39ff090db34c11f7ab25312", null ],
     [ "retranslateUi", "d3/d60/classCardDatabaseSetupPage.html#a39380c87fe3dec3e0f919632e7eb6b51", null ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -155,6 +155,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7577c630957160fda8908f484ad56c76" id="r_a7577c630957160fda8908f484ad56c76"><td class="memItemLeft">virtual int&#160;</td><td class="memItemRight"><a class="el" href="#a7577c630957160fda8908f484ad56c76">getMaxUserTotal</a> () const</td></tr>
 <tr class="memitem:a935629c17763e02a205edfe7d6dc3d7d" id="r_a935629c17763e02a205edfe7d6dc3d7d"><td class="memItemLeft">virtual int&#160;</td><td class="memItemRight"><a class="el" href="#a935629c17763e02a205edfe7d6dc3d7d">getServerID</a> () const</td></tr>
 <tr class="memitem:aca2ff41050c7651ba85712c93d8d4637" id="r_aca2ff41050c7651ba85712c93d8d4637"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#aca2ff41050c7651ba85712c93d8d4637">permitCreateGameAsJudge</a> () const</td></tr>
+<tr class="memitem:a123c37fb2025993c211552ac39d941ed" id="r_a123c37fb2025993c211552ac39d941ed"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a123c37fb2025993c211552ac39d941ed">observeGameStartDurationMs</a> (qint64)</td></tr>
 <tr class="memitem:acbc52f94ef02ec5dd0a78531e5579f85" id="r_acbc52f94ef02ec5dd0a78531e5579f85"><td class="memItemLeft"><a class="el" href="../../d2/d12/classServer__DatabaseInterface.html">Server_DatabaseInterface</a> *&#160;</td><td class="memItemRight"><a class="el" href="#acbc52f94ef02ec5dd0a78531e5579f85">getDatabaseInterface</a> () const</td></tr>
 <tr class="memitem:ab9fab8cf8b7c60aeaa4be16997e122ad" id="r_ab9fab8cf8b7c60aeaa4be16997e122ad"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ab9fab8cf8b7c60aeaa4be16997e122ad">getNextLocalGameId</a> ()</td></tr>
 <tr class="memitem:ad98f3ebec5aed55fe6ca38d92985ff72" id="r_ad98f3ebec5aed55fe6ca38d92985ff72"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad98f3ebec5aed55fe6ca38d92985ff72">sendIsl_Response</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;item, int serverId=-1, qint64 sessionId=-1)</td></tr>
@@ -1937,6 +1938,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a123c37fb2025993c211552ac39d941ed" name="a123c37fb2025993c211552ac39d941ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a123c37fb2025993c211552ac39d941ed">&#9670;&#160;</a></span>observeGameStartDurationMs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Server::observeGameStartDurationMs </td>
+          <td>(</td>
+          <td class="paramtype">qint64</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called once per actual game start with how long bringing every player's zones online took, so servers can spot deck sizes that wedge threads. </p>
+
+<p>Reimplemented in <a class="el" href="../../d5/d0e/classServatrice.html#aea2f7479af667a0c4007df6dc670dbe9">Servatrice</a>.</p>
+
+</div>
+</div>
 <a id="aca2ff41050c7651ba85712c93d8d4637" name="aca2ff41050c7651ba85712c93d8d4637"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca2ff41050c7651ba85712c93d8d4637">&#9670;&#160;</a></span>permitCreateGameAsJudge()</h2>
 
@@ -2248,7 +2277,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_a8b896f14c25360cb990026bf6096eb72_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_a8b896f14c25360cb990026bf6096eb72_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

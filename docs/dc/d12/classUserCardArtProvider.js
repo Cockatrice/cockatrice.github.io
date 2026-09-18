@@ -3,7 +3,7 @@ var classUserCardArtProvider =
     [ "UserCardArtProvider", "dc/d12/classUserCardArtProvider.html#ad6d3392ce84c7f8cf2ffd39d97b64a33", null ],
     [ "cache", "dc/d12/classUserCardArtProvider.html#a33d0a0b5fd8ecd6878d7cb8444bbdd17", null ],
     [ "cardArtUpdated", "dc/d12/classUserCardArtProvider.html#a61653177de52ad9f918391bbd3f37f4d", null ],
-    [ "cropCardArt", "dc/d12/classUserCardArtProvider.html#a147bab234220e4d78d063b22f0f2d445", null ],
+    [ "cropCardArt", "dc/d12/classUserCardArtProvider.html#a47f453d701da6ea2bdad528886be9286", null ],
     [ "insertIntoCache", "dc/d12/classUserCardArtProvider.html#abc2768741280dc56b306893760d7f2e5", null ],
     [ "onDatabaseReady", "dc/d12/classUserCardArtProvider.html#ae15514cd849e2edfff0ac27db5f74643", null ],
     [ "processQueue", "dc/d12/classUserCardArtProvider.html#a9d869db06c5d1f234ab0a67f76422c53", null ],

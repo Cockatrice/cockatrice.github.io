@@ -4,6 +4,8 @@ var dir_cb8e08b98c526ef28decbb3027ba2769 =
     [ "card_group_display_widgets", "dir_f7f3b0129328dc87c8a56d7daf2207e7.html", "dir_f7f3b0129328dc87c8a56d7daf2207e7" ],
     [ "art_crop_attribution.cpp", "d0/d7d/art__crop__attribution_8cpp.html", "d0/d7d/art__crop__attribution_8cpp" ],
     [ "art_crop_attribution.h", "d5/d0f/art__crop__attribution_8h.html", "d5/d0f/art__crop__attribution_8h" ],
+    [ "card_art_utils.cpp", "d3/dc6/card__art__utils_8cpp.html", "d3/dc6/card__art__utils_8cpp" ],
+    [ "card_art_utils.h", "de/dc4/card__art__utils_8h.html", "de/dc4/card__art__utils_8h" ],
     [ "card_info_display_widget.cpp", "d8/d9d/card__info__display__widget_8cpp.html", null ],
     [ "card_info_display_widget.h", "d1/df6/card__info__display__widget_8h.html", "d1/df6/card__info__display__widget_8h" ],
     [ "card_info_frame_widget.cpp", "d2/d59/card__info__frame__widget_8cpp.html", "d2/d59/card__info__frame__widget_8cpp" ],

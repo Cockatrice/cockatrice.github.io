@@ -11,5 +11,7 @@ var card__zone__algorithms__test_8cpp =
     [ "TEST_F", "db/d1d/card__zone__algorithms__test_8cpp.html#a92769cf5c58c46d200e38a13dfda5fa1", null ],
     [ "TEST_F", "db/d1d/card__zone__algorithms__test_8cpp.html#a1fdce8d6b782295858599993ad12ac98", null ],
     [ "TEST_F", "db/d1d/card__zone__algorithms__test_8cpp.html#a8e66d01243a3eb91da83fc37a794a2a9", null ],
-    [ "TEST_F", "db/d1d/card__zone__algorithms__test_8cpp.html#ab46f576c8786fe8cefe9e42cea0c8a74", null ]
+    [ "TEST_F", "db/d1d/card__zone__algorithms__test_8cpp.html#ab46f576c8786fe8cefe9e42cea0c8a74", null ],
+    [ "TEST_F", "db/d1d/card__zone__algorithms__test_8cpp.html#af493e7ca6df906e839aa55a0184e2d0e", null ],
+    [ "TEST_F", "db/d1d/card__zone__algorithms__test_8cpp.html#ac7d3724c9e7b9e1c572ec7ae736ef5bf", null ]
 ];

@@ -6,6 +6,7 @@ var dir_cd36a3f9f9d202308a2deae5eeddfa6f =
     [ "layouts", "dir_d46e1f1e9f5fb343ca463403556689cd.html", "dir_d46e1f1e9f5fb343ca463403556689cd" ],
     [ "palette_editor", "dir_02c08e923e6d6bab37e8080dfab631de.html", "dir_02c08e923e6d6bab37e8080dfab631de" ],
     [ "widgets", "dir_ff904cee2da7fc4774f8298cfe1e7610.html", "dir_ff904cee2da7fc4774f8298cfe1e7610" ],
+    [ "card_localization.h", "db/d18/cockatrice_2src_2interface_2card__localization_8h.html", "db/d18/cockatrice_2src_2interface_2card__localization_8h" ],
     [ "key_signals.cpp", "d1/d37/key__signals_8cpp.html", null ],
     [ "key_signals.h", "d4/d91/key__signals_8h.html", "d4/d91/key__signals_8h" ],
     [ "logger.cpp", "d3/d30/logger_8cpp.html", "d3/d30/logger_8cpp" ],

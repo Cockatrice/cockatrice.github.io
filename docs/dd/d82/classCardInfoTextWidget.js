@@ -6,7 +6,7 @@ var classCardInfoTextWidget =
     [ "setCard", "dd/d82/classCardInfoTextWidget.html#ad91cf0fc3cd154c5cd61225636d3a643", null ],
     [ "setInvalidCardName", "dd/d82/classCardInfoTextWidget.html#ad339987dd7cb3e17408caa95722ca11f", null ],
     [ "setTexts", "dd/d82/classCardInfoTextWidget.html#af386312b9a8ec3f6558e36dd9648fb63", null ],
-    [ "info", "dd/d82/classCardInfoTextWidget.html#a1afd060653443cb5dbb12c9558c84477", null ],
+    [ "currentCard", "dd/d82/classCardInfoTextWidget.html#a1d5e630aa27880f0fdf628ce1c8b0f53", null ],
     [ "propsLabel", "dd/d82/classCardInfoTextWidget.html#ae2468513454d1eccca3e1d6a53c22ee6", null ],
     [ "propsScroll", "dd/d82/classCardInfoTextWidget.html#aae6b55346ccdc94c04358791d7d60987", null ],
     [ "textLabel", "dd/d82/classCardInfoTextWidget.html#ae1ee9e3936e7fff70bd816ce2007c9d3", null ]

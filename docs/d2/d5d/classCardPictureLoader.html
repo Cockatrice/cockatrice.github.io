@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,7 +121,9 @@ Public Slots</h2></td></tr>
 <tr class="memdesc:afb0dbb05c8f40aca08e70a45238019c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the network disk cache of the worker.  <br /></td></tr>
 <tr class="memitem:ac86051978ab7dca15a5630ba1c5ea81b" id="r_ac86051978ab7dca15a5630ba1c5ea81b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac86051978ab7dca15a5630ba1c5ea81b">imageLoaded</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QImage &amp;image)</td></tr>
 <tr class="memdesc:ac86051978ab7dca15a5630ba1c5ea81b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot called by the worker when an image is loaded. Inserts the pixmap into the cache and emits pixmap updated signals.  <br /></td></tr>
-<tr class="memitem:a8c8a0fe9f8177b89925977f5c081e615" id="r_a8c8a0fe9f8177b89925977f5c081e615"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8c8a0fe9f8177b89925977f5c081e615">saveCardImageToLocalStorage</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QPixmap &amp;pixmap)</td></tr>
+<tr class="memitem:afcbab02db4eef9525a86e577bed62135" id="r_afcbab02db4eef9525a86e577bed62135"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afcbab02db4eef9525a86e577bed62135">saveCardImageToLocalStorage</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QPixmap &amp;pixmap, bool allowOverwrite=false)</td></tr>
+<tr class="memitem:ad3ec1fe58bc140f31e300936718877d8" id="r_ad3ec1fe58bc140f31e300936718877d8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad3ec1fe58bc140f31e300936718877d8">installPrintingOverride</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;originalCard, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;overrideCard)</td></tr>
+<tr class="memitem:aca5ac9f1078b64b09174821935df1856" id="r_aca5ac9f1078b64b09174821935df1856"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aca5ac9f1078b64b09174821935df1856">installPrintingOverrideOnLoad</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;originalCard, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;overrideCard)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -137,8 +139,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:adca8471ef127371a3491fe7a99eca549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a card back pixmap for the loading-failed state.  <br /></td></tr>
 <tr class="memitem:adbe0c9e725e3c98bd9bd86e85a428010" id="r_adbe0c9e725e3c98bd9bd86e85a428010"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#adbe0c9e725e3c98bd9bd86e85a428010">cacheCardPixmaps</a> (const QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; &amp;cards)</td></tr>
 <tr class="memdesc:adbe0c9e725e3c98bd9bd86e85a428010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preload a list of cards into the pixmap cache (limited to CACHED_CARD_PER_DECK_MAX).  <br /></td></tr>
-<tr class="memitem:a239420c5b634a759fd184425eea2be7f" id="r_a239420c5b634a759fd184425eea2be7f"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a239420c5b634a759fd184425eea2be7f">hasCustomArt</a> ()</td></tr>
-<tr class="memdesc:a239420c5b634a759fd184425eea2be7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the user has custom card art in the picsPath directory.  <br /></td></tr>
+<tr class="memitem:a19cd7c649ff8719d5ee2abb1fa7bcf1f" id="r_a19cd7c649ff8719d5ee2abb1fa7bcf1f"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a19cd7c649ff8719d5ee2abb1fa7bcf1f">hasLocalOverrides</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
+<tr class="memdesc:a19cd7c649ff8719d5ee2abb1fa7bcf1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a local override image already exists for the card.  <br /></td></tr>
+<tr class="memitem:a799f488151a1a0466a4be4aed32a74b5" id="r_a799f488151a1a0466a4be4aed32a74b5"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a799f488151a1a0466a4be4aed32a74b5">deleteAllLocalOverrides</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
+<tr class="memdesc:a799f488151a1a0466a4be4aed32a74b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all locally stored override images for the card.  <br /></td></tr>
 <tr class="memitem:a81bd60c304d9a2e62339fb56d5f7fa0d" id="r_a81bd60c304d9a2e62339fb56d5f7fa0d"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a81bd60c304d9a2e62339fb56d5f7fa0d">clearPixmapCache</a> ()</td></tr>
 <tr class="memdesc:a81bd60c304d9a2e62339fb56d5f7fa0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the in-memory QPixmap cache for all cards.  <br /></td></tr>
 <tr class="memitem:a8d10a5750bd4ec5a4edc3c7f76b688ce" id="r_a8d10a5750bd4ec5a4edc3c7f76b688ce"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a8d10a5750bd4ec5a4edc3c7f76b688ce">clearPixmapCache</a> (<a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> card)</td></tr>
@@ -149,6 +153,8 @@ Private Slots</h2></td></tr>
 <tr class="memdesc:a687d0f0f13aea4e0d30ae78451d9a995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when the user changes the picture download settings. Clears the QPixmap cache to reload images.  <br /></td></tr>
 <tr class="memitem:a39cf9e1707fa389e498b222d41c0eda4" id="r_a39cf9e1707fa389e498b222d41c0eda4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a39cf9e1707fa389e498b222d41c0eda4">picsPathChanged</a> ()</td></tr>
 <tr class="memdesc:a39cf9e1707fa389e498b222d41c0eda4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when the pictures path changes. Clears the QPixmap cache to reload images.  <br /></td></tr>
+<tr class="memitem:ad872e0ec80d5d72cc4fc2085081b4757" id="r_ad872e0ec80d5d72cc4fc2085081b4757"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad872e0ec80d5d72cc4fc2085081b4757">cardLangChanged</a> ()</td></tr>
+<tr class="memdesc:ad872e0ec80d5d72cc4fc2085081b4757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when the card language setting changes. Clears the in-memory picture caches so images reload in the new language.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -316,6 +322,38 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ad872e0ec80d5d72cc4fc2085081b4757" name="ad872e0ec80d5d72cc4fc2085081b4757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad872e0ec80d5d72cc4fc2085081b4757">&#9670;&#160;</a></span>cardLangChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardPictureLoader::cardLangChanged </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Triggered when the card language setting changes. Clears the in-memory picture caches so images reload in the new language. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_ad872e0ec80d5d72cc4fc2085081b4757_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="afb0dbb05c8f40aca08e70a45238019c3" name="afb0dbb05c8f40aca08e70a45238019c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afb0dbb05c8f40aca08e70a45238019c3">&#9670;&#160;</a></span>clearNetworkCache</h2>
 
@@ -348,7 +386,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_afb0dbb05c8f40aca08e70a45238019c3_icgraph.svg" width="100%" height="454"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_afb0dbb05c8f40aca08e70a45238019c3_icgraph.svg" width="100%" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -380,7 +418,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_a81bd60c304d9a2e62339fb56d5f7fa0d_icgraph.svg" width="100%" height="566"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_a81bd60c304d9a2e62339fb56d5f7fa0d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -407,6 +445,49 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a799f488151a1a0466a4be4aed32a74b5" name="a799f488151a1a0466a4be4aed32a74b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a799f488151a1a0466a4be4aed32a74b5">&#9670;&#160;</a></span>deleteAllLocalOverrides()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardPictureLoader::deleteAllLocalOverrides </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes all locally stored override images for the card. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">card</td><td>The card to remove the override images of. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_a799f488151a1a0466a4be4aed32a74b5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_a799f488151a1a0466a4be4aed32a74b5_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -446,9 +527,14 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_adca8471ef127371a3491fe7a99eca549_cgraph.svg" width="415" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_adca8471ef127371a3491fe7a99eca549_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_adca8471ef127371a3491fe7a99eca549_icgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -489,9 +575,14 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_a2c83a68e09eb0cadaf6a8c902e3242ad_cgraph.svg" width="396" height="66"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_a2c83a68e09eb0cadaf6a8c902e3242ad_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_a2c83a68e09eb0cadaf6a8c902e3242ad_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -531,6 +622,11 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_acc392d72779124c27dd2cc83782b31ae_cgraph.svg" width="327" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -631,8 +727,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a239420c5b634a759fd184425eea2be7f" name="a239420c5b634a759fd184425eea2be7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a239420c5b634a759fd184425eea2be7f">&#9670;&#160;</a></span>hasCustomArt()</h2>
+<a id="a19cd7c649ff8719d5ee2abb1fa7bcf1f" name="a19cd7c649ff8719d5ee2abb1fa7bcf1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19cd7c649ff8719d5ee2abb1fa7bcf1f">&#9670;&#160;</a></span>hasLocalOverrides()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -641,9 +737,9 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool CardPictureLoader::hasCustomArt </td>
+          <td class="memname">bool CardPictureLoader::hasLocalOverrides </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -654,12 +750,23 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Check if the user has custom card art in the picsPath directory. </p>
-<dl class="section return"><dt>Returns</dt><dd>True if any custom art exists. </dd></dl>
+<p>Check if a local override image already exists for the card. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">card</td><td>The card to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the card has at least one locally stored override image. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_a239420c5b634a759fd184425eea2be7f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_a19cd7c649ff8719d5ee2abb1fa7bcf1f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_a19cd7c649ff8719d5ee2abb1fa7bcf1f_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -708,6 +815,84 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_ac86051978ab7dca15a5630ba1c5ea81b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad3ec1fe58bc140f31e300936718877d8" name="ad3ec1fe58bc140f31e300936718877d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3ec1fe58bc140f31e300936718877d8">&#9670;&#160;</a></span>installPrintingOverride</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardPictureLoader::installPrintingOverride </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>originalCard</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>overrideCard</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_ad3ec1fe58bc140f31e300936718877d8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_ad3ec1fe58bc140f31e300936718877d8_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aca5ac9f1078b64b09174821935df1856" name="aca5ac9f1078b64b09174821935df1856"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca5ac9f1078b64b09174821935df1856">&#9670;&#160;</a></span>installPrintingOverrideOnLoad</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardPictureLoader::installPrintingOverrideOnLoad </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>originalCard</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>overrideCard</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_aca5ac9f1078b64b09174821935df1856_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_aca5ac9f1078b64b09174821935df1856_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -806,8 +991,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a8c8a0fe9f8177b89925977f5c081e615" name="a8c8a0fe9f8177b89925977f5c081e615"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c8a0fe9f8177b89925977f5c081e615">&#9670;&#160;</a></span>saveCardImageToLocalStorage</h2>
+<a id="afcbab02db4eef9525a86e577bed62135" name="afcbab02db4eef9525a86e577bed62135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcbab02db4eef9525a86e577bed62135">&#9670;&#160;</a></span>saveCardImageToLocalStorage</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -823,7 +1008,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const QPixmap &amp;</td>          <td class="paramname"><span class="paramname"><em>pixmap</em></span>&#160;)</td>
+          <td class="paramtype">const QPixmap &amp;</td>          <td class="paramname"><span class="paramname"><em>pixmap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>allowOverwrite</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -835,12 +1025,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_a8c8a0fe9f8177b89925977f5c081e615_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_afcbab02db4eef9525a86e577bed62135_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_a8c8a0fe9f8177b89925977f5c081e615_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_afcbab02db4eef9525a86e577bed62135_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

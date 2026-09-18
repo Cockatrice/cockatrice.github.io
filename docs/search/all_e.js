@@ -21,9 +21,8 @@ var searchData=
   ['joinroom_18',['joinRoom',['../dc/d05/classTabServer.html#a1b169055e015d3069d64668f9be6416b',1,'TabServer']]],
   ['joinroomfinished_19',['joinRoomFinished',['../dc/d05/classTabServer.html#a32cf9d1e94bda0eb8af6df6966c83b85',1,'TabServer']]],
   ['joinroomrequest_20',['joinRoomRequest',['../d8/d49/classRoomSelector.html#a7be8523b3aec333f1bef11fe68fc8e04',1,'RoomSelector']]],
-  ['jsondata_21',['jsonData',['../d1/d64/classLoadSetsPage.html#a3e03eec0e1027e03116c3e39ad66f5c2',1,'LoadSetsPage']]],
-  ['judge_22',['JUDGE',['../dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12ae082f918ae85a29d06607ea22f8db10e',1,'GameCommand']]],
-  ['judge_23',['judge',['../df/df7/classPlayerInfo.html#a4a8f51043ca087810668e918bcc13676',1,'PlayerInfo::judge'],['../d0/d00/classServer__AbstractParticipant.html#ab5f069a3fd006a1e20b1c29d5c2a5888',1,'Server_AbstractParticipant::judge'],['../d5/da4/structEvent__GameJoined.html#a55ab13a5cae0c12ace3319caf5958915',1,'Event_GameJoined::judge'],['../da/d6b/structServerInfo__PlayerProperties.html#a0a0d872c205b20df0f11cdeed551cb1a',1,'ServerInfo_PlayerProperties::judge']]],
-  ['judge_201033_24',['&lt;span class=&quot;tt&quot;&gt;JUDGE&lt;/span&gt; (1033)',['../d0/d5b/protocol_game_command.html#judge-1033',1,'']]],
-  ['judgeicon_25',['judgeIcon',['../df/d02/classPlayerListWidget.html#af44fe6425d039af9639912eae6013cb9',1,'PlayerListWidget']]]
+  ['judge_21',['JUDGE',['../dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12ae082f918ae85a29d06607ea22f8db10e',1,'GameCommand']]],
+  ['judge_22',['judge',['../df/df7/classPlayerInfo.html#a4a8f51043ca087810668e918bcc13676',1,'PlayerInfo::judge'],['../d0/d00/classServer__AbstractParticipant.html#ab5f069a3fd006a1e20b1c29d5c2a5888',1,'Server_AbstractParticipant::judge'],['../d5/da4/structEvent__GameJoined.html#a55ab13a5cae0c12ace3319caf5958915',1,'Event_GameJoined::judge'],['../da/d6b/structServerInfo__PlayerProperties.html#a0a0d872c205b20df0f11cdeed551cb1a',1,'ServerInfo_PlayerProperties::judge']]],
+  ['judge_201033_23',['&lt;span class=&quot;tt&quot;&gt;JUDGE&lt;/span&gt; (1033)',['../d0/d5b/protocol_game_command.html#judge-1033',1,'']]],
+  ['judgeicon_24',['judgeIcon',['../df/d02/classPlayerListWidget.html#af44fe6425d039af9639912eae6013cb9',1,'PlayerListWidget']]]
 ];

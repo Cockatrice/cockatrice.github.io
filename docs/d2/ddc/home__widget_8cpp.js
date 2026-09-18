@@ -1,4 +1,4 @@
 var home__widget_8cpp =
 [
-    [ "isDefaultBackgroundAndTheme", "d2/ddc/home__widget_8cpp.html#abfd9dfa874834e7bb2f10bc7726510ab", null ]
+    [ "paletteDerivedButtonColors", "d2/ddc/home__widget_8cpp.html#a51a86b8a799e4e017199a227e6145832", null ]
 ];

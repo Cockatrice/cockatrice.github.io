@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -147,6 +147,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a83489c3a11ffc4cc8a713cda2d780aa9" id="r_a83489c3a11ffc4cc8a713cda2d780aa9"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a83489c3a11ffc4cc8a713cda2d780aa9">DeckListModel</a> (QObject *<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>=nullptr)</td></tr>
 <tr class="memitem:a8d1b0d175ab928d4b1002307c2b17af9" id="r_a8d1b0d175ab928d4b1002307c2b17af9"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a8d1b0d175ab928d4b1002307c2b17af9">DeckListModel</a> (QObject *<a class="el" href="#abc148eac619b9e6ca14691c0d73f1395">parent</a>, const QSharedPointer&lt; <a class="el" href="../../da/d68/classDeckList.html">DeckList</a> &gt; &amp;<a class="el" href="#a93f8ef6228bd75ea618cdc9d4d01a9ec">deckList</a>)</td></tr>
 <tr class="memitem:a9b2e90b8fc2e40fae2322aa3fceca967" id="r_a9b2e90b8fc2e40fae2322aa3fceca967"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a9b2e90b8fc2e40fae2322aa3fceca967">~DeckListModel</a> () override</td></tr>
+<tr class="memitem:a44685d78068c6baceee1b53cc49cbf3b" id="r_a44685d78068c6baceee1b53cc49cbf3b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a44685d78068c6baceee1b53cc49cbf3b">setDisplayLanguage</a> (const QString &amp;lang)</td></tr>
+<tr class="memdesc:a44685d78068c6baceee1b53cc49cbf3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the language code for localized card names in the display role.  <br /></td></tr>
 <tr class="memitem:a42bedcaca0c194f67fd1a95884f59ff6" id="r_a42bedcaca0c194f67fd1a95884f59ff6"><td class="memItemLeft">QModelIndex&#160;</td><td class="memItemRight"><a class="el" href="#a42bedcaca0c194f67fd1a95884f59ff6">getRoot</a> () const</td></tr>
 <tr class="memdesc:a42bedcaca0c194f67fd1a95884f59ff6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the root index of the model.  <br /></td></tr>
 <tr class="memitem:a1d400b8fce69e71fffa9a5e0ae5d3df3" id="r_a1d400b8fce69e71fffa9a5e0ae5d3df3"><td class="memItemLeft">QModelIndex&#160;</td><td class="memItemRight"><a class="el" href="#a1d400b8fce69e71fffa9a5e0ae5d3df3">findCard</a> (const QString &amp;cardName, const QString &amp;zoneName, const QString &amp;providerId=&quot;&quot;, const QString &amp;cardNumber=&quot;&quot;) const</td></tr>
@@ -213,6 +215,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aec2d7e1d65996197326e43f9436db4ac" id="r_aec2d7e1d65996197326e43f9436db4ac"><td class="memItemLeft"><a class="el" href="../../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179">DeckListModelGroupCriteria::Type</a>&#160;</td><td class="memItemRight"><a class="el" href="#aec2d7e1d65996197326e43f9436db4ac">activeGroupCriteria</a> = <a class="el" href="../../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179a081ae8dc8b4489f081e67a36ff6128ee">DeckListModelGroupCriteria::MAIN_TYPE</a></td></tr>
 <tr class="memitem:a6d0bdb8f1f6df2ea7e15bfd9158047c1" id="r_a6d0bdb8f1f6df2ea7e15bfd9158047c1"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a6d0bdb8f1f6df2ea7e15bfd9158047c1">lastKnownColumn</a></td></tr>
 <tr class="memitem:a6de2f3556c4b6fe7ebca0d17106e23d0" id="r_a6de2f3556c4b6fe7ebca0d17106e23d0"><td class="memItemLeft">Qt::SortOrder&#160;</td><td class="memItemRight"><a class="el" href="#a6de2f3556c4b6fe7ebca0d17106e23d0">lastKnownOrder</a></td></tr>
+<tr class="memitem:aea6fffb4545819d77a9d9e2c7e976fe0" id="r_aea6fffb4545819d77a9d9e2c7e976fe0"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#aea6fffb4545819d77a9d9e2c7e976fe0">displayLang</a> = &quot;en&quot;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Qt model representing a decklist for use in views (tree/table). </p>
@@ -744,7 +747,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a2407550028a32526ff3cabdb29dd19e1_cgraph.svg" width="100%" height="420"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/de1/classDeckListModel_a2407550028a32526ff3cabdb29dd19e1_cgraph.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1932,6 +1935,31 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a44685d78068c6baceee1b53cc49cbf3b" name="a44685d78068c6baceee1b53cc49cbf3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44685d78068c6baceee1b53cc49cbf3b">&#9670;&#160;</a></span>setDisplayLanguage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckListModel::setDisplayLanguage </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>lang</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects the language code for localized card names in the display role. </p>
+<p>The model never reads global settings itself; callers wire this to the card language setting (including reacting to its changes) rather than the model querying it. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lang</td><td>Language code; "en" shows the canonical English names. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a93fc3adc648030ffc217b06ef4ce5c22" name="a93fc3adc648030ffc217b06ef4ce5c22"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93fc3adc648030ffc217b06ef4ce5c22">&#9670;&#160;</a></span>sort()</h2>
 
@@ -2095,6 +2123,29 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <p>Pointer to the decklist providing the underlying data. </p>
+
+</div>
+</div>
+<a id="aea6fffb4545819d77a9d9e2c7e976fe0" name="aea6fffb4545819d77a9d9e2c7e976fe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea6fffb4545819d77a9d9e2c7e976fe0">&#9670;&#160;</a></span>displayLang</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DeckListModel::displayLang = &quot;en&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Language code for localized card names in the display role. </p>
 
 </div>
 </div>

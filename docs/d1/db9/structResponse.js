@@ -62,6 +62,7 @@ var structResponse =
       [ "FORGOT_PASSWORD_REQUEST", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a671e6d93f1f01da751aac7b21423f208", null ],
       [ "PASSWORD_SALT", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442afec579168fbd47e1c6cc39d37c865d8a", null ],
       [ "GET_ADMIN_NOTES", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442acc7434fe8c64b495555c3f95f9c465b1", null ],
+      [ "GET_SERVER_STATS", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a1c6d0e1e511978686f39ed05a1dd2c81", null ],
       [ "REPLAY_LIST", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a39447a1b9957f3c23ff3e3625afc031e", null ],
       [ "REPLAY_DOWNLOAD", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442aca9391025562f2d1aab126ca2b444124", null ],
       [ "REPLAY_GET_CODE", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a6ab67e42b2aaffa35596359704d31a1c", null ],

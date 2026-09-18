@@ -43,10 +43,13 @@ var searchData=
   ['message_5fsettings_2eh_40',['message_settings.h',['../db/d2c/message__settings_8h.html',1,'']]],
   ['messages_5fsettings_5fpage_2ecpp_41',['messages_settings_page.cpp',['../d8/dfe/messages__settings__page_8cpp.html',1,'']]],
   ['messages_5fsettings_5fpage_2eh_42',['messages_settings_page.h',['../d1/d60/messages__settings__page_8h.html',1,'']]],
-  ['mocks_2ecpp_43',['mocks.cpp',['../dc/d48/mocks_8cpp.html',1,'']]],
-  ['mocks_2eh_44',['mocks.h',['../db/de6/mocks_8h.html',1,'']]],
-  ['moderator_5fcommands_2eproto_45',['moderator_commands.proto',['../dc/df1/moderator__commands_8proto.html',1,'']]],
-  ['move_5fcard_5fto_5fzone_2eproto_46',['move_card_to_zone.proto',['../d3/da1/move__card__to__zone_8proto.html',1,'']]],
-  ['move_5fmenu_2ecpp_47',['move_menu.cpp',['../d3/d6e/move__menu_8cpp.html',1,'']]],
-  ['move_5fmenu_2eh_48',['move_menu.h',['../d0/d58/move__menu_8h.html',1,'']]]
+  ['metrics_5fregistry_2ecpp_43',['metrics_registry.cpp',['../d5/da6/metrics__registry_8cpp.html',1,'']]],
+  ['metrics_5fregistry_2eh_44',['metrics_registry.h',['../d0/d02/metrics__registry_8h.html',1,'']]],
+  ['metrics_5fregistry_5ftest_2ecpp_45',['metrics_registry_test.cpp',['../dd/dc6/metrics__registry__test_8cpp.html',1,'']]],
+  ['mocks_2ecpp_46',['mocks.cpp',['../dc/d48/mocks_8cpp.html',1,'']]],
+  ['mocks_2eh_47',['mocks.h',['../db/de6/mocks_8h.html',1,'']]],
+  ['moderator_5fcommands_2eproto_48',['moderator_commands.proto',['../dc/df1/moderator__commands_8proto.html',1,'']]],
+  ['move_5fcard_5fto_5fzone_2eproto_49',['move_card_to_zone.proto',['../d3/da1/move__card__to__zone_8proto.html',1,'']]],
+  ['move_5fmenu_2ecpp_50',['move_menu.cpp',['../d3/d6e/move__menu_8cpp.html',1,'']]],
+  ['move_5fmenu_2eh_51',['move_menu.h',['../d0/d58/move__menu_8h.html',1,'']]]
 ];

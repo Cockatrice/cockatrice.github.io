@@ -8,7 +8,6 @@ var searchData=
   ['joingamebutton_5',['joinGameButton',['../dc/d80/classTabReport.html#ab561c69d8d5699d268dcd85ca7c8a8f8',1,'TabReport']]],
   ['joinmessage_6',['joinMessage',['../d1/d15/classServer__Room.html#aa1955d359e2472fc90894ba0dc952035',1,'Server_Room']]],
   ['joinpending_7',['joinPending',['../dd/dd9/classIntentOpenServerRoomByName.html#a6cc19b5244ed166bb8a603a44caa3996',1,'IntentOpenServerRoomByName']]],
-  ['jsondata_8',['jsonData',['../d1/d64/classLoadSetsPage.html#a3e03eec0e1027e03116c3e39ad66f5c2',1,'LoadSetsPage']]],
-  ['judge_9',['judge',['../df/df7/classPlayerInfo.html#a4a8f51043ca087810668e918bcc13676',1,'PlayerInfo::judge'],['../d0/d00/classServer__AbstractParticipant.html#ab5f069a3fd006a1e20b1c29d5c2a5888',1,'Server_AbstractParticipant::judge'],['../d5/da4/structEvent__GameJoined.html#a55ab13a5cae0c12ace3319caf5958915',1,'Event_GameJoined::judge'],['../da/d6b/structServerInfo__PlayerProperties.html#a0a0d872c205b20df0f11cdeed551cb1a',1,'ServerInfo_PlayerProperties::judge']]],
-  ['judgeicon_10',['judgeIcon',['../df/d02/classPlayerListWidget.html#af44fe6425d039af9639912eae6013cb9',1,'PlayerListWidget']]]
+  ['judge_8',['judge',['../df/df7/classPlayerInfo.html#a4a8f51043ca087810668e918bcc13676',1,'PlayerInfo::judge'],['../d0/d00/classServer__AbstractParticipant.html#ab5f069a3fd006a1e20b1c29d5c2a5888',1,'Server_AbstractParticipant::judge'],['../d5/da4/structEvent__GameJoined.html#a55ab13a5cae0c12ace3319caf5958915',1,'Event_GameJoined::judge'],['../da/d6b/structServerInfo__PlayerProperties.html#a0a0d872c205b20df0f11cdeed551cb1a',1,'ServerInfo_PlayerProperties::judge']]],
+  ['judgeicon_9',['judgeIcon',['../df/d02/classPlayerListWidget.html#af44fe6425d039af9639912eae6013cb9',1,'PlayerListWidget']]]
 ];

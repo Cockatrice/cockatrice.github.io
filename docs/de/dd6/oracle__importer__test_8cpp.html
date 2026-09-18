@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -104,6 +104,8 @@ $(function(){initNavTree('de/dd6/oracle__importer__test_8cpp.html','../../','');
 <code>#include &lt;QJsonArray&gt;</code><br />
 <code>#include &lt;QJsonDocument&gt;</code><br />
 <code>#include &lt;QJsonObject&gt;</code><br />
+<code>#include &lt;QObject&gt;</code><br />
+<code>#include &lt;QPair&gt;</code><br />
 <code>#include &lt;QSet&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../de/d2f/format__legality__rules_8h_source.html">libcockatrice/card/format/format_legality_rules.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/dda/card__set_8h_source.html">libcockatrice/card/set/card_set.h</a>&gt;</code><br />
@@ -154,6 +156,19 @@ Functions</h2></td></tr>
 <tr class="memitem:a29a22ca38523dfeb576e44256b29f053" id="r_a29a22ca38523dfeb576e44256b29f053"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a29a22ca38523dfeb576e44256b29f053">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, ScanSetRangesRejectsDeepNesting)</td></tr>
 <tr class="memitem:a5cddeb6f14c5df0626899456a752451b" id="r_a5cddeb6f14c5df0626899456a752451b"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a5cddeb6f14c5df0626899456a752451b">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, ScanSetRangesAcceptsQtMaxNesting)</td></tr>
 <tr class="memitem:a94f23d74241c46713d6b5f2fb1315af7" id="r_a94f23d74241c46713d6b5f2fb1315af7"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a94f23d74241c46713d6b5f2fb1315af7">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, StartImportParsesSetsLazily)</td></tr>
+<tr class="memitem:a67fa9ad514613f01a1f1b439121ac542" id="r_a67fa9ad514613f01a1f1b439121ac542"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a67fa9ad514613f01a1f1b439121ac542">TEST</a> (OracleScanProgress, ScanProgressReportsMonotonicBytesToTotal)</td></tr>
+<tr class="memitem:a233d981075e1291c19fbbc638cc73eab" id="r_a233d981075e1291c19fbbc638cc73eab"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a233d981075e1291c19fbbc638cc73eab">TEST</a> (OracleScanProgress, ScanWithoutCallbackStillParses)</td></tr>
+<tr class="memitem:a0e9499504012c4bcba5cb70f0a2bc625" id="r_a0e9499504012c4bcba5cb70f0a2bc625"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a0e9499504012c4bcba5cb70f0a2bc625">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, ReadSetsFromByteArrayEmitsScanProgress)</td></tr>
+<tr class="memitem:a71a77e31e80de2e4c2d611fcd2469b19" id="r_a71a77e31e80de2e4c2d611fcd2469b19"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a71a77e31e80de2e4c2d611fcd2469b19">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, DisablingProgressReportingSuppressesScanEmissions)</td></tr>
+<tr class="memitem:ab6531efb7912f2ffc36a04e99168bc0b" id="r_ab6531efb7912f2ffc36a04e99168bc0b"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ab6531efb7912f2ffc36a04e99168bc0b">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, ImportsLocalizedTextForRequestedLanguage)</td></tr>
+<tr class="memitem:a45a185674be286e5a8328528dbe9ee22" id="r_a45a185674be286e5a8328528dbe9ee22"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a45a185674be286e5a8328528dbe9ee22">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, ImportsLocalizedNameAndTextForMultiFaceCards)</td></tr>
+<tr class="memitem:a134f4117928a9845e0963300b42747b9" id="r_a134f4117928a9845e0963300b42747b9"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a134f4117928a9845e0963300b42747b9">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, MultiFaceCardsWithoutCompleteForeignTextKeepEnglishText)</td></tr>
+<tr class="memitem:a89687c8621a7632651a4c7d9751ddc16" id="r_a89687c8621a7632651a4c7d9751ddc16"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a89687c8621a7632651a4c7d9751ddc16">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, DefaultLanguageSkipsForeignData)</td></tr>
+<tr class="memitem:ae51346f8ece0ccb8b68adedd223fa059" id="r_ae51346f8ece0ccb8b68adedd223fa059"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ae51346f8ece0ccb8b68adedd223fa059">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, UnsupportedLanguageSkipsForeignData)</td></tr>
+<tr class="memitem:aaa47438806017c332c631e240be1f44d" id="r_aaa47438806017c332c631e240be1f44d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aaa47438806017c332c631e240be1f44d">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, NonMatchingLanguageNotCollected)</td></tr>
+<tr class="memitem:a616271e0112ada8beacf7511f33b1227" id="r_a616271e0112ada8beacf7511f33b1227"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a616271e0112ada8beacf7511f33b1227">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, HigherPrioritySetWinsForReprint)</td></tr>
+<tr class="memitem:a3d43ce2297e0e90b980bc2554ec1e8ca" id="r_a3d43ce2297e0e90b980bc2554ec1e8ca"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a3d43ce2297e0e90b980bc2554ec1e8ca">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, HigherPrioritySplitSetWinsForReprint)</td></tr>
+<tr class="memitem:a9aead8f4cca323f319f4db7cca5b5cba" id="r_a9aead8f4cca323f319f4db7cca5b5cba"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a9aead8f4cca323f319f4db7cca5b5cba">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, StartImportAppliesLocalizedData)</td></tr>
 <tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627" id="r_a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
@@ -178,8 +193,60 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a67fa9ad514613f01a1f1b439121ac542" name="a67fa9ad514613f01a1f1b439121ac542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67fa9ad514613f01a1f1b439121ac542">&#9670;&#160;</a></span>TEST() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">OracleScanProgress</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ScanProgressReportsMonotonicBytesToTotal</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_a67fa9ad514613f01a1f1b439121ac542_cgraph.svg" width="298" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a233d981075e1291c19fbbc638cc73eab" name="a233d981075e1291c19fbbc638cc73eab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a233d981075e1291c19fbbc638cc73eab">&#9670;&#160;</a></span>TEST() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">OracleScanProgress</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ScanWithoutCallbackStillParses</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_a233d981075e1291c19fbbc638cc73eab_cgraph.svg" width="298" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a5ad7dc4053fed9bf8885588bd825be81" name="a5ad7dc4053fed9bf8885588bd825be81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ad7dc4053fed9bf8885588bd825be81">&#9670;&#160;</a></span>TEST_F() <span class="overload">[1/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ad7dc4053fed9bf8885588bd825be81">&#9670;&#160;</a></span>TEST_F() <span class="overload">[1/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,7 +267,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="adecc3e2d5578c23ac7d13d8c1673ba38" name="adecc3e2d5578c23ac7d13d8c1673ba38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adecc3e2d5578c23ac7d13d8c1673ba38">&#9670;&#160;</a></span>TEST_F() <span class="overload">[2/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adecc3e2d5578c23ac7d13d8c1673ba38">&#9670;&#160;</a></span>TEST_F() <span class="overload">[2/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +288,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="aec5816b1cec35b69f61b3c99bfa269e3" name="aec5816b1cec35b69f61b3c99bfa269e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec5816b1cec35b69f61b3c99bfa269e3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[3/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aec5816b1cec35b69f61b3c99bfa269e3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[3/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,7 +309,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="af5a290b9c980eb84a5102bb6bef9e8b8" name="af5a290b9c980eb84a5102bb6bef9e8b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5a290b9c980eb84a5102bb6bef9e8b8">&#9670;&#160;</a></span>TEST_F() <span class="overload">[4/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af5a290b9c980eb84a5102bb6bef9e8b8">&#9670;&#160;</a></span>TEST_F() <span class="overload">[4/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -263,7 +330,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a52a45b22ce70ecdf7c21bb33c150d212" name="a52a45b22ce70ecdf7c21bb33c150d212"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52a45b22ce70ecdf7c21bb33c150d212">&#9670;&#160;</a></span>TEST_F() <span class="overload">[5/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a52a45b22ce70ecdf7c21bb33c150d212">&#9670;&#160;</a></span>TEST_F() <span class="overload">[5/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +351,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a754c91eca1dbb2bc31dbc9a63d0a0d35" name="a754c91eca1dbb2bc31dbc9a63d0a0d35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a754c91eca1dbb2bc31dbc9a63d0a0d35">&#9670;&#160;</a></span>TEST_F() <span class="overload">[6/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a754c91eca1dbb2bc31dbc9a63d0a0d35">&#9670;&#160;</a></span>TEST_F() <span class="overload">[6/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -305,7 +372,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ae7972f8bcad960c9cb7ffc8471ce01fb" name="ae7972f8bcad960c9cb7ffc8471ce01fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7972f8bcad960c9cb7ffc8471ce01fb">&#9670;&#160;</a></span>TEST_F() <span class="overload">[7/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7972f8bcad960c9cb7ffc8471ce01fb">&#9670;&#160;</a></span>TEST_F() <span class="overload">[7/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -325,8 +392,55 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a89687c8621a7632651a4c7d9751ddc16" name="a89687c8621a7632651a4c7d9751ddc16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89687c8621a7632651a4c7d9751ddc16">&#9670;&#160;</a></span>TEST_F() <span class="overload">[8/45]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DefaultLanguageSkipsForeignData</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71a77e31e80de2e4c2d611fcd2469b19" name="a71a77e31e80de2e4c2d611fcd2469b19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71a77e31e80de2e4c2d611fcd2469b19">&#9670;&#160;</a></span>TEST_F() <span class="overload">[9/45]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DisablingProgressReportingSuppressesScanEmissions</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_a71a77e31e80de2e4c2d611fcd2469b19_cgraph.svg" width="319" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ab901980a42fa31dac8f92eed59463a24" name="ab901980a42fa31dac8f92eed59463a24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab901980a42fa31dac8f92eed59463a24">&#9670;&#160;</a></span>TEST_F() <span class="overload">[8/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab901980a42fa31dac8f92eed59463a24">&#9670;&#160;</a></span>TEST_F() <span class="overload">[10/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -351,8 +465,102 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a616271e0112ada8beacf7511f33b1227" name="a616271e0112ada8beacf7511f33b1227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a616271e0112ada8beacf7511f33b1227">&#9670;&#160;</a></span>TEST_F() <span class="overload">[11/45]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HigherPrioritySetWinsForReprint</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_a616271e0112ada8beacf7511f33b1227_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a3d43ce2297e0e90b980bc2554ec1e8ca" name="a3d43ce2297e0e90b980bc2554ec1e8ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d43ce2297e0e90b980bc2554ec1e8ca">&#9670;&#160;</a></span>TEST_F() <span class="overload">[12/45]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HigherPrioritySplitSetWinsForReprint</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_a3d43ce2297e0e90b980bc2554ec1e8ca_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a45a185674be286e5a8328528dbe9ee22" name="a45a185674be286e5a8328528dbe9ee22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45a185674be286e5a8328528dbe9ee22">&#9670;&#160;</a></span>TEST_F() <span class="overload">[13/45]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImportsLocalizedNameAndTextForMultiFaceCards</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6531efb7912f2ffc36a04e99168bc0b" name="ab6531efb7912f2ffc36a04e99168bc0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6531efb7912f2ffc36a04e99168bc0b">&#9670;&#160;</a></span>TEST_F() <span class="overload">[14/45]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImportsLocalizedTextForRequestedLanguage</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abd9920f251f7b4f3f3141ce04044d8d4" name="abd9920f251f7b4f3f3141ce04044d8d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd9920f251f7b4f3f3141ce04044d8d4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[9/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abd9920f251f7b4f3f3141ce04044d8d4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[15/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -373,7 +581,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a622e659a914fa29d5999d3dc050e279f" name="a622e659a914fa29d5999d3dc050e279f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a622e659a914fa29d5999d3dc050e279f">&#9670;&#160;</a></span>TEST_F() <span class="overload">[10/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a622e659a914fa29d5999d3dc050e279f">&#9670;&#160;</a></span>TEST_F() <span class="overload">[16/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,7 +607,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ad6a4614bc48effb38999e4f01b547492" name="ad6a4614bc48effb38999e4f01b547492"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6a4614bc48effb38999e4f01b547492">&#9670;&#160;</a></span>TEST_F() <span class="overload">[11/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a4614bc48effb38999e4f01b547492">&#9670;&#160;</a></span>TEST_F() <span class="overload">[17/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,7 +633,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a687db99a7eac3fe26e33c2db3e56feba" name="a687db99a7eac3fe26e33c2db3e56feba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a687db99a7eac3fe26e33c2db3e56feba">&#9670;&#160;</a></span>TEST_F() <span class="overload">[12/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a687db99a7eac3fe26e33c2db3e56feba">&#9670;&#160;</a></span>TEST_F() <span class="overload">[18/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,8 +653,29 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a134f4117928a9845e0963300b42747b9" name="a134f4117928a9845e0963300b42747b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a134f4117928a9845e0963300b42747b9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[19/45]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MultiFaceCardsWithoutCompleteForeignTextKeepEnglishText</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a35a39d8af5715bbbd5ca8c58dcc1f217" name="a35a39d8af5715bbbd5ca8c58dcc1f217"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35a39d8af5715bbbd5ca8c58dcc1f217">&#9670;&#160;</a></span>TEST_F() <span class="overload">[13/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a35a39d8af5715bbbd5ca8c58dcc1f217">&#9670;&#160;</a></span>TEST_F() <span class="overload">[20/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -466,8 +695,29 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="aaa47438806017c332c631e240be1f44d" name="aaa47438806017c332c631e240be1f44d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa47438806017c332c631e240be1f44d">&#9670;&#160;</a></span>TEST_F() <span class="overload">[21/45]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">NonMatchingLanguageNotCollected</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5c03a9c905156f07dd1750c4f76a75b7" name="a5c03a9c905156f07dd1750c4f76a75b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c03a9c905156f07dd1750c4f76a75b7">&#9670;&#160;</a></span>TEST_F() <span class="overload">[14/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c03a9c905156f07dd1750c4f76a75b7">&#9670;&#160;</a></span>TEST_F() <span class="overload">[22/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -488,7 +738,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a61d4e7da9d60d82755dfd6966226ede3" name="a61d4e7da9d60d82755dfd6966226ede3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61d4e7da9d60d82755dfd6966226ede3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[15/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a61d4e7da9d60d82755dfd6966226ede3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[23/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -508,8 +758,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a0e9499504012c4bcba5cb70f0a2bc625" name="a0e9499504012c4bcba5cb70f0a2bc625"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e9499504012c4bcba5cb70f0a2bc625">&#9670;&#160;</a></span>TEST_F() <span class="overload">[24/45]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ReadSetsFromByteArrayEmitsScanProgress</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_a0e9499504012c4bcba5cb70f0a2bc625_cgraph.svg" width="319" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ac1f2dc2f62b5f8e9f0b955a9fe54b5df" name="ac1f2dc2f62b5f8e9f0b955a9fe54b5df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1f2dc2f62b5f8e9f0b955a9fe54b5df">&#9670;&#160;</a></span>TEST_F() <span class="overload">[16/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1f2dc2f62b5f8e9f0b955a9fe54b5df">&#9670;&#160;</a></span>TEST_F() <span class="overload">[25/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -530,7 +806,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ac9b711c6bfa8df5587e3a6a1f193ed62" name="ac9b711c6bfa8df5587e3a6a1f193ed62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9b711c6bfa8df5587e3a6a1f193ed62">&#9670;&#160;</a></span>TEST_F() <span class="overload">[17/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b711c6bfa8df5587e3a6a1f193ed62">&#9670;&#160;</a></span>TEST_F() <span class="overload">[26/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -551,7 +827,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a4b8d6d4cfce030b8f0598c9be5592790" name="a4b8d6d4cfce030b8f0598c9be5592790"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b8d6d4cfce030b8f0598c9be5592790">&#9670;&#160;</a></span>TEST_F() <span class="overload">[18/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b8d6d4cfce030b8f0598c9be5592790">&#9670;&#160;</a></span>TEST_F() <span class="overload">[27/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -572,7 +848,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="aaf9b84a5f8427260f07fbc97635bacc4" name="aaf9b84a5f8427260f07fbc97635bacc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf9b84a5f8427260f07fbc97635bacc4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[19/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf9b84a5f8427260f07fbc97635bacc4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[28/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -593,7 +869,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a5cddeb6f14c5df0626899456a752451b" name="a5cddeb6f14c5df0626899456a752451b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cddeb6f14c5df0626899456a752451b">&#9670;&#160;</a></span>TEST_F() <span class="overload">[20/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cddeb6f14c5df0626899456a752451b">&#9670;&#160;</a></span>TEST_F() <span class="overload">[29/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -619,7 +895,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a10f2d1c8ec809a8e3e19609038a65fb5" name="a10f2d1c8ec809a8e3e19609038a65fb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10f2d1c8ec809a8e3e19609038a65fb5">&#9670;&#160;</a></span>TEST_F() <span class="overload">[21/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f2d1c8ec809a8e3e19609038a65fb5">&#9670;&#160;</a></span>TEST_F() <span class="overload">[30/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -645,7 +921,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ad19ce801170c525aa8bac54c66655f21" name="ad19ce801170c525aa8bac54c66655f21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad19ce801170c525aa8bac54c66655f21">&#9670;&#160;</a></span>TEST_F() <span class="overload">[22/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad19ce801170c525aa8bac54c66655f21">&#9670;&#160;</a></span>TEST_F() <span class="overload">[31/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -671,7 +947,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ab003a6cd155f77a4602c7493fec420c2" name="ab003a6cd155f77a4602c7493fec420c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab003a6cd155f77a4602c7493fec420c2">&#9670;&#160;</a></span>TEST_F() <span class="overload">[23/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab003a6cd155f77a4602c7493fec420c2">&#9670;&#160;</a></span>TEST_F() <span class="overload">[32/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -697,7 +973,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a29a22ca38523dfeb576e44256b29f053" name="a29a22ca38523dfeb576e44256b29f053"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29a22ca38523dfeb576e44256b29f053">&#9670;&#160;</a></span>TEST_F() <span class="overload">[24/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a29a22ca38523dfeb576e44256b29f053">&#9670;&#160;</a></span>TEST_F() <span class="overload">[33/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -723,7 +999,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a3a83257e5ef45cac2d594462701c96c9" name="a3a83257e5ef45cac2d594462701c96c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a83257e5ef45cac2d594462701c96c9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[25/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a83257e5ef45cac2d594462701c96c9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[34/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -749,7 +1025,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a03d7fe8c0b4f28e40c91cf8001e59db9" name="a03d7fe8c0b4f28e40c91cf8001e59db9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03d7fe8c0b4f28e40c91cf8001e59db9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[26/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a03d7fe8c0b4f28e40c91cf8001e59db9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[35/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -770,7 +1046,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a04ee54a2b692f235b9a39ba957673804" name="a04ee54a2b692f235b9a39ba957673804"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04ee54a2b692f235b9a39ba957673804">&#9670;&#160;</a></span>TEST_F() <span class="overload">[27/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a04ee54a2b692f235b9a39ba957673804">&#9670;&#160;</a></span>TEST_F() <span class="overload">[36/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -791,7 +1067,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a4fe5668c08619ab44721c3f395289a07" name="a4fe5668c08619ab44721c3f395289a07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fe5668c08619ab44721c3f395289a07">&#9670;&#160;</a></span>TEST_F() <span class="overload">[28/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fe5668c08619ab44721c3f395289a07">&#9670;&#160;</a></span>TEST_F() <span class="overload">[37/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -812,7 +1088,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a556441d163193784c5455b1ac031ab6b" name="a556441d163193784c5455b1ac031ab6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a556441d163193784c5455b1ac031ab6b">&#9670;&#160;</a></span>TEST_F() <span class="overload">[29/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a556441d163193784c5455b1ac031ab6b">&#9670;&#160;</a></span>TEST_F() <span class="overload">[38/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -833,7 +1109,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a9d3acce2b58a1d79832b60d72c7401d5" name="a9d3acce2b58a1d79832b60d72c7401d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d3acce2b58a1d79832b60d72c7401d5">&#9670;&#160;</a></span>TEST_F() <span class="overload">[30/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d3acce2b58a1d79832b60d72c7401d5">&#9670;&#160;</a></span>TEST_F() <span class="overload">[39/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -854,7 +1130,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a61dbbcf4f245a9016972c5f2398fa4c4" name="a61dbbcf4f245a9016972c5f2398fa4c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61dbbcf4f245a9016972c5f2398fa4c4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[31/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a61dbbcf4f245a9016972c5f2398fa4c4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[40/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -875,7 +1151,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a7cc8d4f097af45afb77165aaaca50dc0" name="a7cc8d4f097af45afb77165aaaca50dc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cc8d4f097af45afb77165aaaca50dc0">&#9670;&#160;</a></span>TEST_F() <span class="overload">[32/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc8d4f097af45afb77165aaaca50dc0">&#9670;&#160;</a></span>TEST_F() <span class="overload">[41/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -896,7 +1172,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="acefbb26d700612c818dd9f8950807733" name="acefbb26d700612c818dd9f8950807733"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acefbb26d700612c818dd9f8950807733">&#9670;&#160;</a></span>TEST_F() <span class="overload">[33/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acefbb26d700612c818dd9f8950807733">&#9670;&#160;</a></span>TEST_F() <span class="overload">[42/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -916,8 +1192,29 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a9aead8f4cca323f319f4db7cca5b5cba" name="a9aead8f4cca323f319f4db7cca5b5cba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aead8f4cca323f319f4db7cca5b5cba">&#9670;&#160;</a></span>TEST_F() <span class="overload">[43/45]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StartImportAppliesLocalizedData</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a94f23d74241c46713d6b5f2fb1315af7" name="a94f23d74241c46713d6b5f2fb1315af7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94f23d74241c46713d6b5f2fb1315af7">&#9670;&#160;</a></span>TEST_F() <span class="overload">[34/34]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a94f23d74241c46713d6b5f2fb1315af7">&#9670;&#160;</a></span>TEST_F() <span class="overload">[44/45]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -931,6 +1228,27 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">StartImportParsesSetsLazily</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae51346f8ece0ccb8b68adedd223fa059" name="ae51346f8ece0ccb8b68adedd223fa059"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae51346f8ece0ccb8b68adedd223fa059">&#9670;&#160;</a></span>TEST_F() <span class="overload">[45/45]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnsupportedLanguageSkipsForeignData</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -12,6 +12,7 @@ var classServer__Game =
     [ "generateArrowId", "df/d89/classServer__Game.html#acdfbb74e2df96dac024f632acc393b4f", null ],
     [ "getActivePhase", "df/d89/classServer__Game.html#abd1317ead76c93a8878a302b9be563b6", null ],
     [ "getActivePlayer", "df/d89/classServer__Game.html#a00540bc16b52734c9026fe2f45084b3e", null ],
+    [ "getCardsInGame", "df/d89/classServer__Game.html#aa95321394144eac5daf035b26874399b", null ],
     [ "getCreatorInfo", "df/d89/classServer__Game.html#aaa94a926691cb3e066e7627645b0c1c0", null ],
     [ "getDeckValidationStrategy", "df/d89/classServer__Game.html#ac09f1402a0899b239a71417a782102cb", null ],
     [ "getDescription", "df/d89/classServer__Game.html#ae0ce6622c341af91968867181f95359b", null ],

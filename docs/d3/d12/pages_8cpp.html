@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -110,6 +110,7 @@ $(function(){initNavTree('d3/d12/pages_8cpp.html','../../',''); });
 <code>#include &lt;QBuffer&gt;</code><br />
 <code>#include &lt;QCheckBox&gt;</code><br />
 <code>#include &lt;QComboBox&gt;</code><br />
+<code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QDir&gt;</code><br />
 <code>#include &lt;QFileDialog&gt;</code><br />
 <code>#include &lt;QGridLayout&gt;</code><br />
@@ -118,19 +119,22 @@ $(function(){initNavTree('d3/d12/pages_8cpp.html','../../',''); });
 <code>#include &lt;QMessageBox&gt;</code><br />
 <code>#include &lt;QNetworkAccessManager&gt;</code><br />
 <code>#include &lt;QNetworkReply&gt;</code><br />
+<code>#include &lt;QPointer&gt;</code><br />
 <code>#include &lt;QProgressBar&gt;</code><br />
 <code>#include &lt;QPushButton&gt;</code><br />
 <code>#include &lt;QRadioButton&gt;</code><br />
 <code>#include &lt;QScrollBar&gt;</code><br />
 <code>#include &lt;QStandardPaths&gt;</code><br />
 <code>#include &lt;QTextEdit&gt;</code><br />
+<code>#include &lt;QTextStream&gt;</code><br />
 <code>#include &lt;QtConcurrent&gt;</code><br />
 <code>#include &lt;QtGui&gt;</code><br />
+<code>#include &lt;cstdio&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d2/d49/personal__settings_8h_source.html">libcockatrice/settings/personal_settings.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for pages.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d2d/pages_8cpp__incl.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d2d/pages_8cpp__incl.svg" width="100%" height="525"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
@@ -143,6 +147,11 @@ Macros</h2></td></tr>
 <tr class="memitem:a5d8ad9819a0b66c618ecaea2030e6286" id="r_a5d8ad9819a0b66c618ecaea2030e6286"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a5d8ad9819a0b66c618ecaea2030e6286">ALLSETS_URL</a>&#160;&#160;&#160;&quot;https://www.mtgjson.com/api/v5/AllPrintings.json&quot;</td></tr>
 <tr class="memitem:a4e97ca67b56580bd41d3baa64d90e92a" id="r_a4e97ca67b56580bd41d3baa64d90e92a"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a4e97ca67b56580bd41d3baa64d90e92a">TOKENS_URL</a>&#160;&#160;&#160;&quot;https://raw.githubusercontent.com/Cockatrice/Magic-Token/master/tokens.xml&quot;</td></tr>
 <tr class="memitem:a71f0e011f997b2e09a9cf4f958f925c4" id="r_a71f0e011f997b2e09a9cf4f958f925c4"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a71f0e011f997b2e09a9cf4f958f925c4">SPOILERS_URL</a>&#160;&#160;&#160;&quot;https://raw.githubusercontent.com/Cockatrice/Magic-Spoiler/files/spoiler.xml&quot;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a96947fa816aae3492dfae0e965bc0cc9" id="r_a96947fa816aae3492dfae0e965bc0cc9"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a96947fa816aae3492dfae0e965bc0cc9">emitBackgroundProgress</a> (const char *stage, qint64 done, qint64 total)</td></tr>
+<tr class="memdesc:a96947fa816aae3492dfae0e965bc0cc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emits one machine-readable background-run progress line to stdout.  <br /></td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
 <a id="a5d8ad9819a0b66c618ecaea2030e6286" name="a5d8ad9819a0b66c618ecaea2030e6286"></a>
@@ -254,6 +263,49 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a96947fa816aae3492dfae0e965bc0cc9" name="a96947fa816aae3492dfae0e965bc0cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96947fa816aae3492dfae0e965bc0cc9">&#9670;&#160;</a></span>emitBackgroundProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void emitBackgroundProgress </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>stage</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qint64</td>          <td class="paramname"><span class="paramname"><em>done</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qint64</td>          <td class="paramname"><span class="paramname"><em>total</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emits one machine-readable background-run progress line to stdout. </p>
+<p>Used only in background mode, so the hosting Cockatrice client can parse these lines to drive a determinate progress bar. stderr stays reserved for human-readable log output. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d12/pages_8cpp_a96947fa816aae3492dfae0e965bc0cc9_icgraph.svg" width="100%" height="489"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>

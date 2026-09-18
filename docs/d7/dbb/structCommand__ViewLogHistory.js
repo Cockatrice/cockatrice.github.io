@@ -1,6 +1,7 @@
 var structCommand__ViewLogHistory =
 [
     [ "ModeratorCommand", "d9/db5/structCommand__ViewLogHistory_1_1ModeratorCommand.html", "d9/db5/structCommand__ViewLogHistory_1_1ModeratorCommand" ],
+    [ "DeveloperCommand", "df/d55/structCommand__ViewLogHistory_1_1DeveloperCommand.html", "df/d55/structCommand__ViewLogHistory_1_1DeveloperCommand" ],
     [ "date_range", "d7/dbb/structCommand__ViewLogHistory.html#ab0a797e98975deb97068510de7aaaf58", null ],
     [ "game_id", "d7/dbb/structCommand__ViewLogHistory.html#ad2c5e47c2f6e6e0c9b93429c909845e3", null ],
     [ "game_name", "d7/dbb/structCommand__ViewLogHistory.html#a73963a03a50c638e9da2d1759389d104", null ],

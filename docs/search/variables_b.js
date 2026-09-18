@@ -11,11 +11,14 @@ var searchData=
   ['key_8',['key',['../d9/d8f/structpeg_1_1PackratCache_1_1Slot.html#ad6161f6ad9312b737d3d58a951939531',1,'peg::PackratCache::Slot']]],
   ['keys_9',['keys',['../d3/d0a/classSequenceEdit.html#a20fb7aca6572907654b698faa8ab9ce8',1,'SequenceEdit']]],
   ['keywords_10',['keywords',['../db/d43/classEdhrecApiResponseCardContainer.html#a46895f00f585e081ed68b74b9b33d1d8',1,'EdhrecApiResponseCardContainer']]],
-  ['knownlist_11',['knownList',['../d1/df2/classAddCardAlgorithmTest.html#a646c170308c9a742478be87f4dea80cb',1,'AddCardAlgorithmTest']]],
-  ['knowntags_5f_12',['knownTags_',['../de/d04/classDeckPreviewTagDialog.html#a6a36974baeae9cd4f95be489245a984e',1,'DeckPreviewTagDialog']]],
-  ['knowntagsprovider_13',['knownTagsProvider',['../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a3903f20af219d9aad71091de855d4620',1,'DeckPreviewDeckTagsDisplayWidget']]],
-  ['ksingletoncounts_14',['kSingletonCounts',['../d9/d21/oracleimporter_8cpp.html#acc91fb4fd31c2c37c31726137ff47425',1,'oracleimporter.cpp']]],
-  ['ktombstone_15',['kTombstone',['../d8/da2/classpeg_1_1PackratCache.html#ae5aca07fa37d2cfadf1ab51bf474a146',1,'peg::PackratCache']]],
-  ['kverticalmargin_16',['kVerticalMargin',['../d0/d1e/classStepIndicatorWidget.html#aa49471c0d783ade675010e31723643be',1,'StepIndicatorWidget']]],
-  ['kw_5fguard_5f_17',['kw_guard_',['../d3/d7c/classpeg_1_1Sequence.html#a41130a9093261d13902c999b7238fec8',1,'peg::Sequence']]]
+  ['kind_5findex_11',['kind_index',['../d4/d2b/structCommandStats.html#abc4d268e6e9031fb3098b227fd6362ca',1,'CommandStats']]],
+  ['kindnames_12',['KindNames',['../dd/de4/classMetricsRegistry.html#a2ce0f1a889f18de2a991ae2858357bc5',1,'MetricsRegistry']]],
+  ['kindstride_13',['KindStride',['../dd/de4/classMetricsRegistry.html#ac71f6c6a6bfa9344b3e8ad767facf49d',1,'MetricsRegistry']]],
+  ['knownlist_14',['knownList',['../d1/df2/classAddCardAlgorithmTest.html#a646c170308c9a742478be87f4dea80cb',1,'AddCardAlgorithmTest']]],
+  ['knowntags_5f_15',['knownTags_',['../de/d04/classDeckPreviewTagDialog.html#a6a36974baeae9cd4f95be489245a984e',1,'DeckPreviewTagDialog']]],
+  ['knowntagsprovider_16',['knownTagsProvider',['../d2/d69/classDeckPreviewDeckTagsDisplayWidget.html#a3903f20af219d9aad71091de855d4620',1,'DeckPreviewDeckTagsDisplayWidget']]],
+  ['ksingletoncounts_17',['kSingletonCounts',['../d9/d21/oracleimporter_8cpp.html#acc91fb4fd31c2c37c31726137ff47425',1,'oracleimporter.cpp']]],
+  ['ktombstone_18',['kTombstone',['../d8/da2/classpeg_1_1PackratCache.html#ae5aca07fa37d2cfadf1ab51bf474a146',1,'peg::PackratCache']]],
+  ['kverticalmargin_19',['kVerticalMargin',['../d0/d1e/classStepIndicatorWidget.html#aa49471c0d783ade675010e31723643be',1,'StepIndicatorWidget']]],
+  ['kw_5fguard_5f_20',['kw_guard_',['../d3/d7c/classpeg_1_1Sequence.html#a41130a9093261d13902c999b7238fec8',1,'peg::Sequence']]]
 ];

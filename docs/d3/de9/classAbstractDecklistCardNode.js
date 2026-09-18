@@ -11,7 +11,6 @@ var classAbstractDecklistCardNode =
     [ "getName", "d3/de9/classAbstractDecklistCardNode.html#ae11a02fca18fc76c23b1d0f11c7a731d", null ],
     [ "getNumber", "d3/de9/classAbstractDecklistCardNode.html#a882ba2b5e428cb7406f00c800fd1a3b7", null ],
     [ "height", "d3/de9/classAbstractDecklistCardNode.html#a99820e33f1476b4aecfe7e4ffd4df5b3", null ],
-    [ "readElement", "d3/de9/classAbstractDecklistCardNode.html#adee7aff5f6433fa703e6b98b66aba25e", null ],
     [ "setCardCollectorNumber", "d3/de9/classAbstractDecklistCardNode.html#a80b865c69e80778e61e4a0138d9b06ea", null ],
     [ "setCardProviderId", "d3/de9/classAbstractDecklistCardNode.html#ad18d9c3cfcb1b04dd6bf96e9e0651a3c", null ],
     [ "setCardSetShortName", "d3/de9/classAbstractDecklistCardNode.html#ac11e3a79f20cf2d4c914e3d0792e495d", null ],

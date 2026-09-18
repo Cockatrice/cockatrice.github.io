@@ -19,6 +19,7 @@ var classAbstractClient =
     [ "notifyUserEventReceived", "dc/d86/classAbstractClient.html#a3724eb71e98c6c58fbdd03c9b983dae4", null ],
     [ "pingStatsUpdated", "dc/d86/classAbstractClient.html#aaf0519384e94cb2afebee38666ca5698", null ],
     [ "prepareAdminCommand", "dc/d86/classAbstractClient.html#a1c105ed6696e0b7dbfd478237d48faa3", null ],
+    [ "prepareDeveloperCommand", "dc/d86/classAbstractClient.html#ab7ba65dd43f727667b49efe3aa79643b", null ],
     [ "prepareModeratorCommand", "dc/d86/classAbstractClient.html#a97c51fb4e9c873beb87665e2fc577b76", null ],
     [ "prepareRoomCommand", "dc/d86/classAbstractClient.html#af3098410ec984a9b66bf3842abeda6d2", null ],
     [ "prepareSessionCommand", "dc/d86/classAbstractClient.html#afd7538b953c3e9d204b68d076b0c6ab1", null ],

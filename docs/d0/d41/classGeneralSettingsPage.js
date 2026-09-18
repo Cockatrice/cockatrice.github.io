@@ -2,6 +2,8 @@ var classGeneralSettingsPage =
 [
     [ "GeneralSettingsPage", "d0/d41/classGeneralSettingsPage.html#a194cddb22aa7e0ac755ca26b4675ca99", null ],
     [ "cardDatabasePathButtonClicked", "d0/d41/classGeneralSettingsPage.html#aa80e52d50745d1515823356b2d77f366", null ],
+    [ "cardDatabaseUpdateRequested", "d0/d41/classGeneralSettingsPage.html#ac0d3ff75ab7cc2f822e95f33cebb1458", null ],
+    [ "cardLanguageBoxChanged", "d0/d41/classGeneralSettingsPage.html#a34005af48d31e05e5d073ca4559a6ade", null ],
     [ "customCardDatabaseButtonClicked", "d0/d41/classGeneralSettingsPage.html#a9eabbdeb2d9eee5f088f7bd1b39ec7a4", null ],
     [ "deckPathButtonClicked", "d0/d41/classGeneralSettingsPage.html#aa85fef9fb5b82fd97e01c53cd109b95c", null ],
     [ "filtersPathButtonClicked", "d0/d41/classGeneralSettingsPage.html#af6e75f3da428180c7dbeb64be65652f1", null ],
@@ -19,6 +21,9 @@ var classGeneralSettingsPage =
     [ "cardDatabaseGroupBox", "d0/d41/classGeneralSettingsPage.html#a5771da795097aef1d21e829c70a95ce3", null ],
     [ "cardDatabasePathEdit", "d0/d41/classGeneralSettingsPage.html#a3c9cd0a8229091df896e53f609b50c22", null ],
     [ "cardDatabasePathLabel", "d0/d41/classGeneralSettingsPage.html#af08aeaf0bb09399a9f5006a5b3a339dc", null ],
+    [ "cardLanguageBox", "d0/d41/classGeneralSettingsPage.html#adff3f289975e2fa523f4780339df60bb", null ],
+    [ "cardLanguageLabel", "d0/d41/classGeneralSettingsPage.html#a3bf11226c17d1d05d597dd79ade2d410", null ],
+    [ "cardLanguageNoteLabel", "d0/d41/classGeneralSettingsPage.html#a6c169f70aa514562488a4271cd12940f", null ],
     [ "cardUpdateCheckIntervalLabel", "d0/d41/classGeneralSettingsPage.html#ae7d6caaec1c579696b67767afd1890f1", null ],
     [ "cardUpdateCheckIntervalSpinBox", "d0/d41/classGeneralSettingsPage.html#acd94ae04ed996e39c735128fbe783242", null ],
     [ "customCardDatabasePathEdit", "d0/d41/classGeneralSettingsPage.html#a079dec17b5050821e6221cbfeb5fab15", null ],

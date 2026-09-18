@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -101,9 +101,12 @@ $(function(){initNavTree('d4/d99/theme__manager_8cpp.html','../../',''); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d65/theme__manager_8h_source.html">theme_manager.h</a>&quot;</code><br />
 <code>#include &quot;../../client/settings/cache_settings.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d73/pixel__map__generator_8h_source.html">pixel_map_generator.h</a>&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
 <code>#include &lt;QColor&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
+<code>#include &lt;QFile&gt;</code><br />
+<code>#include &lt;QFileInfo&gt;</code><br />
 <code>#include &lt;QLibraryInfo&gt;</code><br />
 <code>#include &lt;QMap&gt;</code><br />
 <code>#include &lt;QMetaEnum&gt;</code><br />
@@ -120,7 +123,7 @@ $(function(){initNavTree('d4/d99/theme__manager_8cpp.html','../../',''); });
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for theme_manager.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/da0/theme__manager_8cpp__incl.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/da0/theme__manager_8cpp__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -129,7 +132,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a75b34c563c608754e2e807df7ebe8e6c" id="r_a75b34c563c608754e2e807df7ebe8e6c"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a75b34c563c608754e2e807df7ebe8e6c">NONE_THEME_NAME</a>&#160;&#160;&#160;&quot;Default&quot;</td></tr>
+<tr class="memitem:ac2b618b130d9f3b1b6ff587fa09abf34" id="r_ac2b618b130d9f3b1b6ff587fa09abf34"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ac2b618b130d9f3b1b6ff587fa09abf34">SYSTEM_THEME_NAME</a>&#160;&#160;&#160;&quot;System&quot;</td></tr>
 <tr class="memitem:a6307c018c008b80395353e115f4440f3" id="r_a6307c018c008b80395353e115f4440f3"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a6307c018c008b80395353e115f4440f3">FUSION_THEME_NAME</a>&#160;&#160;&#160;&quot;Fusion&quot;</td></tr>
 <tr class="memitem:a02a93947f65f45e8aa5bedfed04b41c3" id="r_a02a93947f65f45e8aa5bedfed04b41c3"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a02a93947f65f45e8aa5bedfed04b41c3">STYLE_CSS_NAME</a>&#160;&#160;&#160;&quot;style.css&quot;</td></tr>
 <tr class="memitem:afd05fe920fe646312b45316922094bae" id="r_afd05fe920fe646312b45316922094bae"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#afd05fe920fe646312b45316922094bae">HANDZONE_BG_NAME</a>&#160;&#160;&#160;&quot;handzone&quot;</td></tr>
@@ -182,20 +185,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a75b34c563c608754e2e807df7ebe8e6c" name="a75b34c563c608754e2e807df7ebe8e6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75b34c563c608754e2e807df7ebe8e6c">&#9670;&#160;</a></span>NONE_THEME_NAME</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define NONE_THEME_NAME&#160;&#160;&#160;&quot;Default&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a9e1075c47c842272a13565a0e51acac1" name="a9e1075c47c842272a13565a0e51acac1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e1075c47c842272a13565a0e51acac1">&#9670;&#160;</a></span>PLAYERZONE_BG_NAME</h2>
 
@@ -232,6 +221,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define STYLE_CSS_NAME&#160;&#160;&#160;&quot;style.css&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2b618b130d9f3b1b6ff587fa09abf34" name="ac2b618b130d9f3b1b6ff587fa09abf34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2b618b130d9f3b1b6ff587fa09abf34">&#9670;&#160;</a></span>SYSTEM_THEME_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SYSTEM_THEME_NAME&#160;&#160;&#160;&quot;System&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -358,7 +361,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d99/theme__manager_8cpp_a9852ee45307978bce8ee0a561f8720d3_icgraph.svg" width="100%" height="586"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d99/theme__manager_8cpp_a9852ee45307978bce8ee0a561f8720d3_icgraph.svg" width="100%" height="549"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

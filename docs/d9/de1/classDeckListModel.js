@@ -47,11 +47,13 @@ var classDeckListModel =
     [ "setActiveGroupCriteria", "d9/de1/classDeckListModel.html#a8efbe7d7418bdca0c4c43dcefd4ddffc", null ],
     [ "setData", "d9/de1/classDeckListModel.html#af334c11ca5bf3ccb8290836486206bab", null ],
     [ "setDeckList", "d9/de1/classDeckListModel.html#aa87143204e143b61eb7d5811bb007477", null ],
+    [ "setDisplayLanguage", "d9/de1/classDeckListModel.html#a44685d78068c6baceee1b53cc49cbf3b", null ],
     [ "sort", "d9/de1/classDeckListModel.html#a93fc3adc648030ffc217b06ef4ce5c22", null ],
     [ "sortHelper", "d9/de1/classDeckListModel.html#a4b5bac3a4a9628c2a980cc57d1087aae", null ],
     [ "sortShadowTree", "d9/de1/classDeckListModel.html#a15f9ba5a54223b4c3c8b3bfd2e5e976c", null ],
     [ "activeGroupCriteria", "d9/de1/classDeckListModel.html#aec2d7e1d65996197326e43f9436db4ac", null ],
     [ "deckList", "d9/de1/classDeckListModel.html#a93f8ef6228bd75ea618cdc9d4d01a9ec", null ],
+    [ "displayLang", "d9/de1/classDeckListModel.html#aea6fffb4545819d77a9d9e2c7e976fe0", null ],
     [ "lastKnownColumn", "d9/de1/classDeckListModel.html#a6d0bdb8f1f6df2ea7e15bfd9158047c1", null ],
     [ "lastKnownOrder", "d9/de1/classDeckListModel.html#a6de2f3556c4b6fe7ebca0d17106e23d0", null ],
     [ "root", "d9/de1/classDeckListModel.html#acf9b31e662afe4a86fbb2b4cc98f759a", null ]

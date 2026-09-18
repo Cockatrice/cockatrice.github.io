@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -107,14 +107,36 @@ Classes</h2></td></tr>
 <tr class="memitem:SetRange" id="r_SetRange"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="../../d9/d1d/structRawJson_1_1SetRange.html">SetRange</a></td></tr>
 <tr class="memitem:ScanError" id="r_ScanError"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="../../dc/d38/structRawJson_1_1ScanError.html">ScanError</a></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a4db89453dbbbcfc5fb225d0be60d25a2" id="r_a4db89453dbbbcfc5fb225d0be60d25a2"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a4db89453dbbbcfc5fb225d0be60d25a2">ScanProgressCallback</a> = std::function&lt;void(qsizetype bytesRead, qsizetype totalBytes)&gt;</td></tr>
+<tr class="memdesc:a4db89453dbbbcfc5fb225d0be60d25a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional progress callback receiving <code></code>(bytesRead, totalBytes) while the document is walked. Invoked from the scanning thread; the caller decides how the throttled offsets are relayed to a GUI event loop.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abb6e9444bab90ca250b82d6ad207207b" id="r_abb6e9444bab90ca250b82d6ad207207b"><td class="memItemLeft">QList&lt; <a class="el" href="../../d9/d1d/structRawJson_1_1SetRange.html">SetRange</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#abb6e9444bab90ca250b82d6ad207207b">scanSetRanges</a> (const QByteArray &amp;json, <a class="el" href="../../dc/d38/structRawJson_1_1ScanError.html">ScanError</a> *error=nullptr)</td></tr>
-<tr class="memdesc:abb6e9444bab90ca250b82d6ad207207b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans a full MTGJSON document without materializing the JSON tree.  <br /></td></tr>
+<tr class="memitem:af72e6cd75b535686a6e7d49c00bbed9d" id="r_af72e6cd75b535686a6e7d49c00bbed9d"><td class="memItemLeft">QList&lt; <a class="el" href="../../d9/d1d/structRawJson_1_1SetRange.html">SetRange</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af72e6cd75b535686a6e7d49c00bbed9d">scanSetRanges</a> (const QByteArray &amp;json, <a class="el" href="../../dc/d38/structRawJson_1_1ScanError.html">ScanError</a> *error=nullptr, const <a class="el" href="#a4db89453dbbbcfc5fb225d0be60d25a2">ScanProgressCallback</a> &amp;progress=<a class="el" href="#a4db89453dbbbcfc5fb225d0be60d25a2">ScanProgressCallback</a>())</td></tr>
+<tr class="memdesc:af72e6cd75b535686a6e7d49c00bbed9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scans a full MTGJSON document without materializing the JSON tree.  <br /></td></tr>
 </table>
+<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="a4db89453dbbbcfc5fb225d0be60d25a2" name="a4db89453dbbbcfc5fb225d0be60d25a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4db89453dbbbcfc5fb225d0be60d25a2">&#9670;&#160;</a></span>ScanProgressCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a4db89453dbbbcfc5fb225d0be60d25a2">RawJson::ScanProgressCallback</a> = std::function&lt;void(qsizetype bytesRead, qsizetype totalBytes)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Optional progress callback receiving <code></code>(bytesRead, totalBytes) while the document is walked. Invoked from the scanning thread; the caller decides how the throttled offsets are relayed to a GUI event loop. </p>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="abb6e9444bab90ca250b82d6ad207207b" name="abb6e9444bab90ca250b82d6ad207207b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb6e9444bab90ca250b82d6ad207207b">&#9670;&#160;</a></span>scanSetRanges()</h2>
+<a id="af72e6cd75b535686a6e7d49c00bbed9d" name="af72e6cd75b535686a6e7d49c00bbed9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af72e6cd75b535686a6e7d49c00bbed9d">&#9670;&#160;</a></span>scanSetRanges()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -127,19 +149,25 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/d38/structRawJson_1_1ScanError.html">ScanError</a> *</td>          <td class="paramname"><span class="paramname"><em>error</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="../../dc/d38/structRawJson_1_1ScanError.html">ScanError</a> *</td>          <td class="paramname"><span class="paramname"><em>error</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a4db89453dbbbcfc5fb225d0be60d25a2">ScanProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a4db89453dbbbcfc5fb225d0be60d25a2">ScanProgressCallback</a>()</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Scans a full MTGJSON document without materializing the JSON tree. </p>
-<p>Splits the top-level "data" object into per-set byte ranges and reads each set's metadata directly from the raw bytes. The oracle importer can then parse one set at a time during import, keeping peak memory far below a single QJsonDocument::fromJson() over the whole file.</p>
+<p>Splits the top-level "data" object into per-set byte ranges and reads each set's metadata directly from the raw bytes. The Oracle importer can then parse one set at a time during import, keeping peak memory far below a single QJsonDocument::fromJson() over the whole file.</p>
 <p>The whole document is structurally validated while scanning (strings, escapes, braces, and a trailing-content check) and nesting depth is capped at 1024 to match QJsonDocument, so pathologically deep documents fail shallowly instead of exhausting the stack. Verdicts agree with QJsonDocument::fromJson on structurally malformed input; unlike Qt, string metadata fields ("name", "type", "releaseDate", "code") tolerate null / non-string values by defaulting to empty rather than rejecting the whole document, so one broken set cannot abort the import of the rest.</p>
 <p>Following QJsonDocument::fromJson's convention, the parsed ranges are returned by value and any failure is reported through the <code class="param">error</code> out parameter.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">json</td><td>The raw MTGJSON document bytes. </td></tr>
     <tr><td class="paramname">error</td><td>Out parameter. Set to an error <a class="el" href="../../dc/d38/structRawJson_1_1ScanError.html">ScanError</a> when the document cannot be parsed, otherwise left empty. Passing a null pointer disables error reporting. </td></tr>
+    <tr><td class="paramname">progress</td><td>Optional progress callback. When non-empty it is invoked as the scanner advances through the document, throttled to a tiny fraction of the total size. </td></tr>
   </table>
   </dd>
 </dl>
@@ -147,7 +175,7 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d63/namespaceRawJson_abb6e9444bab90ca250b82d6ad207207b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d63/namespaceRawJson_af72e6cd75b535686a6e7d49c00bbed9d_icgraph.svg" width="531" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

@@ -1,5 +1,6 @@
 var classServatrice__DatabaseInterface =
 [
+    [ "UptimeSnapshot", "d6/d14/structServatrice__DatabaseInterface_1_1UptimeSnapshot.html", "d6/d14/structServatrice__DatabaseInterface_1_1UptimeSnapshot" ],
     [ "Servatrice_DatabaseInterface", "d3/d76/classServatrice__DatabaseInterface.html#a3b21c6dbd21b2ec7ec6af43895821623", null ],
     [ "~Servatrice_DatabaseInterface", "d3/d76/classServatrice__DatabaseInterface.html#ae1ea66e7e92c4cc6d7353bbf90dedd0a", null ],
     [ "activateUser", "d3/d76/classServatrice__DatabaseInterface.html#a0063ec013dd73c526ada255fea57fa82", null ],
@@ -26,6 +27,7 @@ var classServatrice__DatabaseInterface =
     [ "getDatabase", "d3/d76/classServatrice__DatabaseInterface.html#a81f04dc84ba2075a2be82146de119a4b", null ],
     [ "getDeckFromDatabase", "d3/d76/classServatrice__DatabaseInterface.html#a391805db9abb5e5f64ef2b49ad48b74f", null ],
     [ "getIgnoreList", "d3/d76/classServatrice__DatabaseInterface.html#a1d2b588d7a2f7fab190d569c0597332b", null ],
+    [ "getLatestUptimeSnapshot", "d3/d76/classServatrice__DatabaseInterface.html#a5891f4690eb7faf55f28493a39d42f36", null ],
     [ "getMessageLogHistory", "d3/d76/classServatrice__DatabaseInterface.html#a10e8fb557521e74a771936fe68c8df70", null ],
     [ "getModeratorLastLogins", "d3/d76/classServatrice__DatabaseInterface.html#a6318ed7a6489e2a22f7f6b59a59c383d", null ],
     [ "getNextGameId", "d3/d76/classServatrice__DatabaseInterface.html#a41faeb94ec316520eced63bcf2d15b6c", null ],
@@ -41,6 +43,7 @@ var classServatrice__DatabaseInterface =
     [ "initDatabase", "d3/d76/classServatrice__DatabaseInterface.html#afafa4e295fc91e13da29cc08b8848990", null ],
     [ "isInBuddyList", "d3/d76/classServatrice__DatabaseInterface.html#a8f8793388a55582a96d7afb240a73144", null ],
     [ "isInIgnoreList", "d3/d76/classServatrice__DatabaseInterface.html#a33d9c0bdc9227ccc9a14cada88ce29f8", null ],
+    [ "isStrictModeEnabled", "d3/d76/classServatrice__DatabaseInterface.html#acc5e5e03481083d1718998aff42a77d7", null ],
     [ "lockSessionTables", "d3/d76/classServatrice__DatabaseInterface.html#a30354ebcc104d22fc53954ba63ee90ad", null ],
     [ "logMessage", "d3/d76/classServatrice__DatabaseInterface.html#ac78310ca92da32452c72f367b1b1902f", null ],
     [ "openDatabase", "d3/d76/classServatrice__DatabaseInterface.html#a1668cb98d2b46b355e2a5f3d82f7a2d7", null ],

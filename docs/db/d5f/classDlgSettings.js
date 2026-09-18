@@ -20,6 +20,7 @@ var classDlgSettings =
     [ "onSearchResultClicked", "db/d5f/classDlgSettings.html#acb56bbabad819ceda5eea30b32a0912e", null ],
     [ "onSearchTextChanged", "db/d5f/classDlgSettings.html#aac3c683ba3f9bcbd2960706ae7fd1b9e", null ],
     [ "onTabClicked", "db/d5f/classDlgSettings.html#ae9298353b30cea64c4867dc57d742254", null ],
+    [ "page", "db/d5f/classDlgSettings.html#a305bc364671124dcb9ce48ac5ad7d785", null ],
     [ "retranslateTabNames", "db/d5f/classDlgSettings.html#ad32a236ec1cf0909b2ff140fc2526c5f", null ],
     [ "retranslateUi", "db/d5f/classDlgSettings.html#af2c22344e56042fc1f03807a956f954d", null ],
     [ "setActiveTab", "db/d5f/classDlgSettings.html#a120414ed56baca189fefa529711ec827", null ],

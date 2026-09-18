@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -111,6 +111,10 @@ Collaboration diagram for DeckList::Metadata:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6d77b71257ae9768e34ef0efe008e90e" id="r_a6d77b71257ae9768e34ef0efe008e90e"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a6d77b71257ae9768e34ef0efe008e90e">isEmpty</a> () const</td></tr>
 <tr class="memdesc:a6d77b71257ae9768e34ef0efe008e90e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if all values (except for lastLoadedTimestamp) in the metadata is empty.  <br /></td></tr>
+<tr class="memitem:a14533dc7d3e6f81caa0f061abfafe9af" id="r_a14533dc7d3e6f81caa0f061abfafe9af"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a14533dc7d3e6f81caa0f061abfafe9af">readElement</a> (QXmlStreamReader *xml, const QString &amp;childName)</td></tr>
+<tr class="memdesc:a14533dc7d3e6f81caa0f061abfafe9af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a single deck metadata element from a Cockatrice deck XML stream.  <br /></td></tr>
+<tr class="memitem:aab316677caf65b61062b01128d5b48c3" id="r_aab316677caf65b61062b01128d5b48c3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aab316677caf65b61062b01128d5b48c3">write</a> (QXmlStreamWriter *xml) const</td></tr>
+<tr class="memdesc:aab316677caf65b61062b01128d5b48c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the deck metadata section of a Cockatrice deck XML file.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -146,6 +150,67 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Checks if all values (except for lastLoadedTimestamp) in the metadata is empty. </p>
+
+</div>
+</div>
+<a id="a14533dc7d3e6f81caa0f061abfafe9af" name="a14533dc7d3e6f81caa0f061abfafe9af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14533dc7d3e6f81caa0f061abfafe9af">&#9670;&#160;</a></span>readElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DeckList::Metadata::readElement </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader *</td>          <td class="paramname"><span class="paramname"><em>xml</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>childName</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads a single deck metadata element from a Cockatrice deck XML stream. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xml</td><td>Reader positioned at the element. </td></tr>
+    <tr><td class="paramname">childName</td><td>Name of the current element. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if a metadata element was consumed, false if <code class="param">childName</code> is not a metadata element. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/de4/structDeckList_1_1Metadata_a14533dc7d3e6f81caa0f061abfafe9af_cgraph.svg" width="364" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aab316677caf65b61062b01128d5b48c3" name="aab316677caf65b61062b01128d5b48c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab316677caf65b61062b01128d5b48c3">&#9670;&#160;</a></span>write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckList::Metadata::write </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamWriter *</td>          <td class="paramname"><span class="paramname"><em>xml</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes the deck metadata section of a Cockatrice deck XML file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">xml</td><td>Writer to append the metadata elements to. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

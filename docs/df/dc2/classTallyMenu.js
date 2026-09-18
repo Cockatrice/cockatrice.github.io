@@ -8,5 +8,6 @@ var classTallyMenu =
     [ "actionGroup", "df/dc2/classTallyMenu.html#af031526e84d69466b1399209b100b683", null ],
     [ "aTallyNone", "df/dc2/classTallyMenu.html#a88745debb6a2d7324ac1de5d5b2d1f30", null ],
     [ "aTallySubtypes", "df/dc2/classTallyMenu.html#a15104baeb217e9235762e8cab4f0dcd5", null ],
-    [ "aTallyTotalPower", "df/dc2/classTallyMenu.html#a346619a3478314bb04d31d5277ad109b", null ]
+    [ "aTallyTotalPower", "df/dc2/classTallyMenu.html#a346619a3478314bb04d31d5277ad109b", null ],
+    [ "aTallyTotalToughness", "df/dc2/classTallyMenu.html#a73fb3e23caec9f371110d39a1413339f", null ]
 ];

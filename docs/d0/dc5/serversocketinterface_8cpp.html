@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -109,6 +109,7 @@ $(function(){initNavTree('d0/dc5/serversocketinterface_8cpp.html','../../',''); 
 <code>#include &quot;version_string.h&quot;</code><br />
 <code>#include &lt;QDateTime&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
+<code>#include &lt;QElapsedTimer&gt;</code><br />
 <code>#include &lt;QHostAddress&gt;</code><br />
 <code>#include &lt;QJsonDocument&gt;</code><br />
 <code>#include &lt;QJsonObject&gt;</code><br />
@@ -118,14 +119,17 @@ $(function(){initNavTree('d0/dc5/serversocketinterface_8cpp.html','../../',''); 
 <code>#include &lt;QSqlQuery&gt;</code><br />
 <code>#include &lt;QString&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d80/server__player_8h_source.html">game/server_player.h</a>&gt;</code><br />
+<code>#include &lt;google/protobuf/descriptor.h&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d7/d1a/deck__list_8h_source.html">libcockatrice/deck_list/deck_list.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d2/d8b/get__pb__extension_8h_source.html">libcockatrice/protocol/get_pb_extension.h</a>&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_deck_del.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_deck_del_dir.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_deck_download.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_deck_list.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_deck_new_dir.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_deck_upload.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_get_server_stats.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_replay_delete_match.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_replay_download.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_replay_download_by_game_id.pb.h&gt;</code><br />
@@ -159,6 +163,7 @@ $(function(){initNavTree('d0/dc5/serversocketinterface_8cpp.html','../../',''); 
 <code>#include &lt;libcockatrice/protocol/pb/response_deck_upload.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_forgotpasswordrequest.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_get_admin_notes.pb.h&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/response_get_server_stats.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_moderator_last_logins.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_password_salt.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_register.pb.h&gt;</code><br />

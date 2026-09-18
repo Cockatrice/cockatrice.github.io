@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['tab_0',['Tab',['../d0/d51/exporting_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../db/d91/importing_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
+  ['tab_0',['Tab',['../db/d91/importing_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../d0/d51/exporting_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
   ['tell_20cockatrice_20where_20the_20file_20is_1',['Step 2: Tell Cockatrice where the file is',['../d2/d8f/enabling_debug_logs.html#step-2-tell-cockatrice-where-the-file-is',1,'']]],
   ['the_20beta_2',['the Beta',['../d9/d9b/beta_release.html#switching-to-the-beta',1,'Switching to the Beta'],['../d9/d9b/beta_release.html#what-to-expect-from-the-beta',1,'What to Expect from the Beta']]],
   ['the_20card_20database_3',['Querying the Card Database',['../da/d66/querying_the_card_database.html',1,'developer_reference']]],
@@ -9,7 +9,7 @@ var searchData=
   ['the_20client_6',['Restart the Client',['../d9/d7b/fixing_card_pictures.html#restart-the-client',1,'']]],
   ['the_20cockatrice_20card_20library_7',['The Cockatrice Card Library',['../da/d69/primer_cards.html#the-cockatrice-card-library',1,'']]],
   ['the_20config_8',['2. Create the Discord webhook and add it to the config',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md2-create-the-discord-webhook-and-add-it-to-the-config',1,'']]],
-  ['the_20deck_20editor_20tab_9',['The Deck Editor Tab',['../d0/d51/exporting_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../db/d91/importing_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
+  ['the_20deck_20editor_20tab_9',['The Deck Editor Tab',['../db/d91/importing_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../d0/d51/exporting_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
   ['the_20deck_20list_10',['the Deck List',['../d3/d32/editing_decks_classic.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../de/d6e/editing_decks_visual.html#modifying-the-deck-list-1',1,'Modifying the Deck List']]],
   ['the_20discord_20webhook_20and_20add_20it_20to_20the_20config_11',['2. Create the Discord webhook and add it to the config',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md2-create-the-discord-webhook-and-add-it-to-the-config',1,'']]],
   ['the_20file_12',['Step 1: Create the file',['../d2/d8f/enabling_debug_logs.html#step-1-create-the-file',1,'']]],

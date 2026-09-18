@@ -13,5 +13,6 @@ var searchData=
   ['bar_5fchart_5fwidget_2eh_10',['bar_chart_widget.h',['../dd/de2/bar__chart__widget_8h.html',1,'']]],
   ['bar_5fwidget_2ecpp_11',['bar_widget.cpp',['../da/ddf/bar__widget_8cpp.html',1,'']]],
   ['bar_5fwidget_2eh_12',['bar_widget.h',['../d5/d72/bar__widget_8h.html',1,'']]],
-  ['beta_2emd_13',['beta.md',['../d8/d84/beta_8md.html',1,'']]]
+  ['beta_2emd_13',['beta.md',['../d8/d84/beta_8md.html',1,'']]],
+  ['brand_5fcolors_2eh_14',['brand_colors.h',['../dd/da4/brand__colors_8h.html',1,'']]]
 ];

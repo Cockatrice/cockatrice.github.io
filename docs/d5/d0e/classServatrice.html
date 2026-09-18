@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-05-Development-3.1.0-beta.11</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -181,6 +181,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adabd641c59570f4aede7d2c9977d1f04" id="r_adabd641c59570f4aede7d2c9977d1f04"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adabd641c59570f4aede7d2c9977d1f04">incTxBytes</a> (quint64 num)</td></tr>
 <tr class="memitem:a85d77e835efc302a4ab2f6d170a3a5f8" id="r_a85d77e835efc302a4ab2f6d170a3a5f8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a85d77e835efc302a4ab2f6d170a3a5f8">incRxBytes</a> (quint64 num)</td></tr>
 <tr class="memitem:a2ab75ad11ac7f8ce391b7d9b8df454d6" id="r_a2ab75ad11ac7f8ce391b7d9b8df454d6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2ab75ad11ac7f8ce391b7d9b8df454d6">addDatabaseInterface</a> (QThread *thread, <a class="el" href="../../d3/d76/classServatrice__DatabaseInterface.html">Servatrice_DatabaseInterface</a> *databaseInterface)</td></tr>
+<tr class="memitem:a3262c9618f1203ff0443315933af5340" id="r_a3262c9618f1203ff0443315933af5340"><td class="memItemLeft"><a class="el" href="../../dd/de4/classMetricsRegistry.html">MetricsRegistry</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a3262c9618f1203ff0443315933af5340">getMetricsRegistry</a> ()</td></tr>
+<tr class="memitem:aeb31cedaccdf80445fe4363ef69e7edb" id="r_aeb31cedaccdf80445fe4363ef69e7edb"><td class="memItemLeft">qint64&#160;</td><td class="memItemRight"><a class="el" href="#aeb31cedaccdf80445fe4363ef69e7edb">getCardsInGamesTotal</a> () const</td></tr>
+<tr class="memitem:a03a714003a5c70bcb3018953a94fe76a" id="r_a03a714003a5c70bcb3018953a94fe76a"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a03a714003a5c70bcb3018953a94fe76a">getMetricsSlowCommandMs</a> () const</td></tr>
+<tr class="memitem:a8916ffac69cf02823225fe0a62a6c094" id="r_a8916ffac69cf02823225fe0a62a6c094"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a8916ffac69cf02823225fe0a62a6c094">getMetricsStallWarnMs</a> () const</td></tr>
+<tr class="memdesc:a8916ffac69cf02823225fe0a62a6c094"><td class="mdescLeft">&#160;</td><td class="mdescRight">Heartbeat overshoot that counts as a stall. A value of 0 disables the watchdogs.  <br /></td></tr>
+<tr class="memitem:aea2f7479af667a0c4007df6dc670dbe9" id="r_aea2f7479af667a0c4007df6dc670dbe9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aea2f7479af667a0c4007df6dc670dbe9">observeGameStartDurationMs</a> (qint64 elapsedMs) override</td></tr>
+<tr class="memitem:adaea6dc57e3de147e2cb7f9ef1f6afba" id="r_adaea6dc57e3de147e2cb7f9ef1f6afba"><td class="memItemLeft">qint64&#160;</td><td class="memItemRight"><a class="el" href="#adaea6dc57e3de147e2cb7f9ef1f6afba">getEventLoopStallsTotal</a> () const</td></tr>
+<tr class="memitem:af3acaa51a8a01ddf211af5c0f8a0238a" id="r_af3acaa51a8a01ddf211af5c0f8a0238a"><td class="memItemLeft">qint64&#160;</td><td class="memItemRight"><a class="el" href="#af3acaa51a8a01ddf211af5c0f8a0238a">getEventLoopLastStallMs</a> () const</td></tr>
+<tr class="memitem:ad1de6272c40dfdc61bc8bc2908488192" id="r_ad1de6272c40dfdc61bc8bc2908488192"><td class="memItemLeft">qint64&#160;</td><td class="memItemRight"><a class="el" href="#ad1de6272c40dfdc61bc8bc2908488192">getEventLoopMaxStallMs</a> () const</td></tr>
+<tr class="memitem:af5c6557743f04aad8a86fbe18480b358" id="r_af5c6557743f04aad8a86fbe18480b358"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af5c6557743f04aad8a86fbe18480b358">observeEventLoopStall</a> (const QString &amp;threadName, qint64 overshootMs)</td></tr>
+<tr class="memdesc:af5c6557743f04aad8a86fbe18480b358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Records one heartbeat overshoot and logs a single warning for it.  <br /></td></tr>
+<tr class="memitem:abcaff54e2bcc64d13fe46ce8c278fb23" id="r_abcaff54e2bcc64d13fe46ce8c278fb23"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abcaff54e2bcc64d13fe46ce8c278fb23">watchWorkerThread</a> (QThread *thread)</td></tr>
 <tr class="memitem:a98c888e65b5195b96454ae99d36edb67" id="r_a98c888e65b5195b96454ae99d36edb67"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a98c888e65b5195b96454ae99d36edb67">islConnectionExists</a> (int _serverId) const</td></tr>
 <tr class="memitem:afce52a443698f524f6ab1f5c47791c90" id="r_afce52a443698f524f6ab1f5c47791c90"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afce52a443698f524f6ab1f5c47791c90">addIslInterface</a> (int _serverId, <a class="el" href="../../d0/de8/classIslInterface.html">IslInterface</a> *interface)</td></tr>
 <tr class="memitem:a97e8cff18a276937542961b68c538238" id="r_a97e8cff18a276937542961b68c538238"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a97e8cff18a276937542961b68c538238">removeIslInterface</a> (int _serverId)</td></tr>
@@ -286,6 +298,15 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aff0d433cc9205421c33b45a692fe3987" id="r_aff0d433cc9205421c33b45a692fe3987"><td class="memItemLeft">QMutex&#160;</td><td class="memItemRight"><a class="el" href="#aff0d433cc9205421c33b45a692fe3987">rxBytesMutex</a></td></tr>
 <tr class="memitem:ad1da85489372a4dabbe01c0c74634b73" id="r_ad1da85489372a4dabbe01c0c74634b73"><td class="memItemLeft">quint64&#160;</td><td class="memItemRight"><a class="el" href="#ad1da85489372a4dabbe01c0c74634b73">txBytes</a></td></tr>
 <tr class="memitem:a0ed636649bbff1264bbde4bf1e2db59f" id="r_a0ed636649bbff1264bbde4bf1e2db59f"><td class="memItemLeft">quint64&#160;</td><td class="memItemRight"><a class="el" href="#a0ed636649bbff1264bbde4bf1e2db59f">rxBytes</a></td></tr>
+<tr class="memitem:a86f9af3120f0e826a3800906c9b30fc4" id="r_a86f9af3120f0e826a3800906c9b30fc4"><td class="memItemLeft"><a class="el" href="../../dd/de4/classMetricsRegistry.html">MetricsRegistry</a>&#160;</td><td class="memItemRight"><a class="el" href="#a86f9af3120f0e826a3800906c9b30fc4">metricsRegistry</a></td></tr>
+<tr class="memitem:a16277f1fcda01979dc620b11bec181fe" id="r_a16277f1fcda01979dc620b11bec181fe"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a16277f1fcda01979dc620b11bec181fe">metricsSlowCommandMs</a> = 500</td></tr>
+<tr class="memitem:a10f4bedfea6d142496fcbffcf11f9cab" id="r_a10f4bedfea6d142496fcbffcf11f9cab"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a10f4bedfea6d142496fcbffcf11f9cab">metricsStallWarnMs</a> = 2000</td></tr>
+<tr class="memitem:ab4741f50bc3fc87817e81f5478f39982" id="r_ab4741f50bc3fc87817e81f5478f39982"><td class="memItemLeft">std::atomic&lt; qint64 &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab4741f50bc3fc87817e81f5478f39982">eventLoopStallsTotal</a> {0}</td></tr>
+<tr class="memdesc:ab4741f50bc3fc87817e81f5478f39982"><td class="mdescLeft">&#160;</td><td class="mdescRight">heartbeat overshoots past the warn threshold  <br /></td></tr>
+<tr class="memitem:a06847e24a5cf58dc692c2c3ba5d23037" id="r_a06847e24a5cf58dc692c2c3ba5d23037"><td class="memItemLeft">std::atomic&lt; qint64 &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a06847e24a5cf58dc692c2c3ba5d23037">eventLoopLastStallMs</a> {0}</td></tr>
+<tr class="memdesc:a06847e24a5cf58dc692c2c3ba5d23037"><td class="mdescLeft">&#160;</td><td class="mdescRight">overshoot of the most recent stall  <br /></td></tr>
+<tr class="memitem:a1919b2d75190664b037067896faaef96" id="r_a1919b2d75190664b037067896faaef96"><td class="memItemLeft">std::atomic&lt; qint64 &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a1919b2d75190664b037067896faaef96">eventLoopMaxStallMs</a> {0}</td></tr>
+<tr class="memdesc:a1919b2d75190664b037067896faaef96"><td class="mdescLeft">&#160;</td><td class="mdescRight">worst overshoot seen since process start  <br /></td></tr>
 <tr class="memitem:aed9d28fe6f4ba8dcbf22632284a26c2a" id="r_aed9d28fe6f4ba8dcbf22632284a26c2a"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#aed9d28fe6f4ba8dcbf22632284a26c2a">shutdownReason</a></td></tr>
 <tr class="memitem:af599e46b7e24d176785279ca5e7e7a1e" id="r_af599e46b7e24d176785279ca5e7e7a1e"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#af599e46b7e24d176785279ca5e7e7a1e">shutdownMinutes</a></td></tr>
 <tr class="memitem:a1974942e557f22fe54f99dcc3b564ab1" id="r_a1974942e557f22fe54f99dcc3b564ab1"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a1974942e557f22fe54f99dcc3b564ab1">nextShutdownMessageMinutes</a></td></tr>
@@ -592,6 +613,29 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb31cedaccdf80445fe4363ef69e7edb" name="aeb31cedaccdf80445fe4363ef69e7edb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb31cedaccdf80445fe4363ef69e7edb">&#9670;&#160;</a></span>getCardsInGamesTotal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">qint64 Servatrice::getCardsInGamesTotal </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sums cards across all zones of all running games. Each game takes its own gameMutex &ndash; the hot per-game lock every game action contends on &ndash; and then iterates every player's zones, so the scrape cost is really O(total cards in play) plus one mutex acquisition per live game. Keep scrapes infrequent in big multiplayer rooms. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_aeb31cedaccdf80445fe4363ef69e7edb_cgraph.svg" width="455" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -1091,6 +1135,81 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_ab693618f2c25a1599a09dad0e2512646_icgraph.svg" width="458" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a id="af3acaa51a8a01ddf211af5c0f8a0238a" name="af3acaa51a8a01ddf211af5c0f8a0238a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3acaa51a8a01ddf211af5c0f8a0238a">&#9670;&#160;</a></span>getEventLoopLastStallMs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qint64 Servatrice::getEventLoopLastStallMs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1de6272c40dfdc61bc8bc2908488192" name="ad1de6272c40dfdc61bc8bc2908488192"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1de6272c40dfdc61bc8bc2908488192">&#9670;&#160;</a></span>getEventLoopMaxStallMs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qint64 Servatrice::getEventLoopMaxStallMs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adaea6dc57e3de147e2cb7f9ef1f6afba" name="adaea6dc57e3de147e2cb7f9ef1f6afba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaea6dc57e3de147e2cb7f9ef1f6afba">&#9670;&#160;</a></span>getEventLoopStallsTotal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qint64 Servatrice::getEventLoopStallsTotal </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1687,6 +1806,83 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../db/d00/classServer.html#aabc143139dbd6324f84255d0f4ba5338">Server</a>.</p>
+
+</div>
+</div>
+<a id="a3262c9618f1203ff0443315933af5340" name="a3262c9618f1203ff0443315933af5340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3262c9618f1203ff0443315933af5340">&#9670;&#160;</a></span>getMetricsRegistry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/de4/classMetricsRegistry.html">MetricsRegistry</a> &amp; Servatrice::getMetricsRegistry </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03a714003a5c70bcb3018953a94fe76a" name="a03a714003a5c70bcb3018953a94fe76a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03a714003a5c70bcb3018953a94fe76a">&#9670;&#160;</a></span>getMetricsSlowCommandMs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::getMetricsSlowCommandMs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8916ffac69cf02823225fe0a62a6c094" name="a8916ffac69cf02823225fe0a62a6c094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8916ffac69cf02823225fe0a62a6c094">&#9670;&#160;</a></span>getMetricsStallWarnMs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::getMetricsStallWarnMs </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Heartbeat overshoot that counts as a stall. A value of 0 disables the watchdogs. </p>
 
 </div>
 </div>
@@ -2331,6 +2527,57 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af5c6557743f04aad8a86fbe18480b358" name="af5c6557743f04aad8a86fbe18480b358"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5c6557743f04aad8a86fbe18480b358">&#9670;&#160;</a></span>observeEventLoopStall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servatrice::observeEventLoopStall </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>threadName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qint64</td>          <td class="paramname"><span class="paramname"><em>overshootMs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Records one heartbeat overshoot and logs a single warning for it. </p>
+
+</div>
+</div>
+<a id="aea2f7479af667a0c4007df6dc670dbe9" name="aea2f7479af667a0c4007df6dc670dbe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea2f7479af667a0c4007df6dc670dbe9">&#9670;&#160;</a></span>observeGameStartDurationMs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servatrice::observeGameStartDurationMs </td>
+          <td>(</td>
+          <td class="paramtype">qint64</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called once per actual game start with how long bringing every player's zones online took, so servers can spot deck sizes that wedge threads. </p>
+
+<p>Reimplemented from <a class="el" href="../../db/d00/classServer.html#a123c37fb2025993c211552ac39d941ed">Server</a>.</p>
+
+</div>
+</div>
 <a id="aad489d82ad5fe20eb2901d8a8819c41b" name="aad489d82ad5fe20eb2901d8a8819c41b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aad489d82ad5fe20eb2901d8a8819c41b">&#9670;&#160;</a></span>permitCreateGameAsJudge()</h2>
 
@@ -2606,6 +2853,29 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="abcaff54e2bcc64d13fe46ce8c278fb23" name="abcaff54e2bcc64d13fe46ce8c278fb23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcaff54e2bcc64d13fe46ce8c278fb23">&#9670;&#160;</a></span>watchWorkerThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servatrice::watchWorkerThread </td>
+          <td>(</td>
+          <td class="paramtype">QThread *</td>          <td class="paramname"><span class="paramname"><em>thread</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Installs an <a class="el" href="../../d9/d79/classEventLoopWatchdog.html" title="Detects blocked or overloaded worker event loops.">EventLoopWatchdog</a> in <code class="param">thread</code>. Called once per socket pool thread right after it starts. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_abcaff54e2bcc64d13fe46ce8c278fb23_cgraph.svg" width="658" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a591bb66d3874493b711ce6872d307820" name="a591bb66d3874493b711ce6872d307820"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a591bb66d3874493b711ce6872d307820">&#9670;&#160;</a></span>authenticationMethod</h2>
@@ -2670,6 +2940,78 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a06847e24a5cf58dc692c2c3ba5d23037" name="a06847e24a5cf58dc692c2c3ba5d23037"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06847e24a5cf58dc692c2c3ba5d23037">&#9670;&#160;</a></span>eventLoopLastStallMs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;qint64&gt; Servatrice::eventLoopLastStallMs {0}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>overshoot of the most recent stall </p>
+
+</div>
+</div>
+<a id="a1919b2d75190664b037067896faaef96" name="a1919b2d75190664b037067896faaef96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1919b2d75190664b037067896faaef96">&#9670;&#160;</a></span>eventLoopMaxStallMs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;qint64&gt; Servatrice::eventLoopMaxStallMs {0}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>worst overshoot seen since process start </p>
+
+</div>
+</div>
+<a id="ab4741f50bc3fc87817e81f5478f39982" name="ab4741f50bc3fc87817e81f5478f39982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4741f50bc3fc87817e81f5478f39982">&#9670;&#160;</a></span>eventLoopStallsTotal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;qint64&gt; Servatrice::eventLoopStallsTotal {0}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>heartbeat overshoots past the warn threshold </p>
 
 </div>
 </div>
@@ -2791,6 +3133,72 @@ Here is the caller graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel mutable">mutable</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a86f9af3120f0e826a3800906c9b30fc4" name="a86f9af3120f0e826a3800906c9b30fc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86f9af3120f0e826a3800906c9b30fc4">&#9670;&#160;</a></span>metricsRegistry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/de4/classMetricsRegistry.html">MetricsRegistry</a> Servatrice::metricsRegistry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16277f1fcda01979dc620b11bec181fe" name="a16277f1fcda01979dc620b11bec181fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16277f1fcda01979dc620b11bec181fe">&#9670;&#160;</a></span>metricsSlowCommandMs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::metricsSlowCommandMs = 500</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10f4bedfea6d142496fcbffcf11f9cab" name="a10f4bedfea6d142496fcbffcf11f9cab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f4bedfea6d142496fcbffcf11f9cab">&#9670;&#160;</a></span>metricsStallWarnMs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::metricsStallWarnMs = 2000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

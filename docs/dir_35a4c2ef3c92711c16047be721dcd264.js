@@ -10,6 +10,8 @@ var dir_35a4c2ef3c92711c16047be721dcd264 =
     [ "card_info.h", "df/df3/card__info_8h.html", "df/df3/card__info_8h" ],
     [ "card_info_comparator.cpp", "d9/d63/card__info__comparator_8cpp.html", null ],
     [ "card_info_comparator.h", "d1/d20/card__info__comparator_8h.html", "d1/d20/card__info__comparator_8h" ],
+    [ "card_localization.cpp", "d5/d7f/card__localization_8cpp.html", "d5/d7f/card__localization_8cpp" ],
+    [ "card_localization.h", "d1/d4d/libcockatrice__card_2libcockatrice_2card_2card__localization_8h.html", "d1/d4d/libcockatrice__card_2libcockatrice_2card_2card__localization_8h" ],
     [ "game_specific_terms.h", "d9/def/game__specific__terms_8h.html", "d9/def/game__specific__terms_8h" ],
     [ "lazy_properties_hash.cpp", "db/d87/lazy__properties__hash_8cpp.html", null ],
     [ "lazy_properties_hash.h", "df/dc8/lazy__properties__hash_8h.html", "df/dc8/lazy__properties__hash_8h" ]

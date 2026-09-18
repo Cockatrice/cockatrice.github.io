@@ -17,6 +17,8 @@ var dir_997302a10e9962ab00e284769d488188 =
     [ "tab_deck_editor.h", "d5/d9f/tab__deck__editor_8h.html", null ],
     [ "tab_deck_storage.cpp", "d7/d97/tab__deck__storage_8cpp.html", null ],
     [ "tab_deck_storage.h", "d6/df1/tab__deck__storage_8h.html", "d6/df1/tab__deck__storage_8h" ],
+    [ "tab_developer.cpp", "dd/db3/tab__developer_8cpp.html", "dd/db3/tab__developer_8cpp" ],
+    [ "tab_developer.h", "df/dfa/tab__developer_8h.html", "df/dfa/tab__developer_8h" ],
     [ "tab_game.cpp", "d8/ddc/tab__game_8cpp.html", null ],
     [ "tab_game.h", "d7/d20/tab__game_8h.html", "d7/d20/tab__game_8h" ],
     [ "tab_home.cpp", "d8/d13/tab__home_8cpp.html", null ],

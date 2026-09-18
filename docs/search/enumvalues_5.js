@@ -19,6 +19,7 @@ var searchData=
   ['forgot_5fpassword_5freset_16',['FORGOT_PASSWORD_RESET',['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a975fd9e0827ddaa1d8db3302d7167a69',1,'SessionCommand']]],
   ['forward_5fskip_17',['FORWARD_SKIP',['../da/de9/classReplayManager.html#a13328112f7a27b265513526c15002286af71f3c35fe08faa676c316c8afbbe1a5',1,'ReplayManager']]],
   ['frombackground_18',['FromBackground',['../d4/dc8/namespaceHomeTabButtonColor.html#affeaff1dd38134fcce07fddc4b1b127aa79c18ac8394edfb898b5fc363c74db43',1,'HomeTabButtonColor']]],
-  ['frontier_19',['Frontier',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a14a16b1bfe4eec571e16ba761caa77b1',1,'ArchidektFormats']]],
-  ['futurestandard_20',['FutureStandard',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a8125667e770dfed552b8f8de41540760',1,'ArchidektFormats']]]
+  ['fromthemecolors_19',['FromThemeColors',['../d4/dc8/namespaceHomeTabButtonColor.html#affeaff1dd38134fcce07fddc4b1b127aa24f383899923c6f8baf08f9cee87c26b',1,'HomeTabButtonColor']]],
+  ['frontier_20',['Frontier',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a14a16b1bfe4eec571e16ba761caa77b1',1,'ArchidektFormats']]],
+  ['futurestandard_21',['FutureStandard',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a8125667e770dfed552b8f8de41540760',1,'ArchidektFormats']]]
 ];

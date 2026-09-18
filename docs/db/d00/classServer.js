@@ -56,6 +56,7 @@ var classServer =
     [ "getUsersCount", "db/d00/classServer.html#a034c60db57e7f99df397761e2444c022", null ],
     [ "getWebSocketUserCount", "db/d00/classServer.html#a714c6fcfaddbfb9b92fe979d361558b9", null ],
     [ "loginUser", "db/d00/classServer.html#a5de08fbf684ccdbeb508b1fe53f38481", null ],
+    [ "observeGameStartDurationMs", "db/d00/classServer.html#a123c37fb2025993c211552ac39d941ed", null ],
     [ "permitCreateGameAsJudge", "db/d00/classServer.html#aca2ff41050c7651ba85712c93d8d4637", null ],
     [ "permitUnregisteredUsers", "db/d00/classServer.html#a26205f340743ca24b892f2abf9885126", null ],
     [ "pingClockTimeout", "db/d00/classServer.html#aedaa4929b66891b4df102c49ab5659cb", null ],
