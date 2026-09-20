@@ -8,6 +8,7 @@ var group__Tabs =
     [ "tab_deck_storage.h", "d6/df1/tab__deck__storage_8h.html", null ],
     [ "tab_game.h", "d7/d20/tab__game_8h.html", null ],
     [ "tab_home.h", "dd/d8f/tab__home_8h.html", null ],
+    [ "tab_public_decks.h", "db/d1c/tab__public__decks_8h.html", null ],
     [ "tab_replays.h", "de/d3a/tab__replays_8h.html", null ],
     [ "tab_supervisor.h", "d8/d89/tab__supervisor_8h.html", null ],
     [ "tab_visual_database_display.h", "dd/d72/tab__visual__database__display_8h.html", null ],

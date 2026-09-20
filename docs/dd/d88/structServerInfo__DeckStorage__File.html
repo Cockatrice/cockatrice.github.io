@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -103,8 +103,56 @@ $(function(){initNavTree('dd/d88/structServerInfo__DeckStorage__File.html','../.
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a7d25b09347e5af1fccf9de869ccd9ce0" id="r_a7d25b09347e5af1fccf9de869ccd9ce0"><td class="memItemLeft">optional uint32&#160;</td><td class="memItemRight"><a class="el" href="#a7d25b09347e5af1fccf9de869ccd9ce0">creation_time</a> = 1</td></tr>
+<tr class="memitem:aeac5f371b8f4ca2b64eb774a041a8996" id="r_aeac5f371b8f4ca2b64eb774a041a8996"><td class="memItemLeft">optional bool&#160;</td><td class="memItemRight"><a class="el" href="#aeac5f371b8f4ca2b64eb774a041a8996">is_public</a> = 2</td></tr>
+<tr class="memitem:af5c3724442c3a121e57f59a67bf49ea7" id="r_af5c3724442c3a121e57f59a67bf49ea7"><td class="memItemLeft">optional string&#160;</td><td class="memItemRight"><a class="el" href="#af5c3724442c3a121e57f59a67bf49ea7">banner_card_name</a> = 3</td></tr>
+<tr class="memitem:a97cabc2362dde9c2bc90211f50366437" id="r_a97cabc2362dde9c2bc90211f50366437"><td class="memItemLeft">optional string&#160;</td><td class="memItemRight"><a class="el" href="#a97cabc2362dde9c2bc90211f50366437">banner_card_provider</a> = 4</td></tr>
+<tr class="memitem:a1e52b9b1e6930c0fd0a0135f8a233968" id="r_a1e52b9b1e6930c0fd0a0135f8a233968"><td class="memItemLeft">optional string&#160;</td><td class="memItemRight"><a class="el" href="#a1e52b9b1e6930c0fd0a0135f8a233968">color_identity</a> = 5</td></tr>
+<tr class="memitem:accc90a20be34a44d0daf5a67bf9751da" id="r_accc90a20be34a44d0daf5a67bf9751da"><td class="memItemLeft">repeated string&#160;</td><td class="memItemRight"><a class="el" href="#accc90a20be34a44d0daf5a67bf9751da">tags</a> = 6</td></tr>
 </table>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="af5c3724442c3a121e57f59a67bf49ea7" name="af5c3724442c3a121e57f59a67bf49ea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5c3724442c3a121e57f59a67bf49ea7">&#9670;&#160;</a></span>banner_card_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional string ServerInfo_DeckStorage_File::banner_card_name = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Preview metadata computed by the uploading client, so other clients can render this deck (e.g. in a visual storage grid) without downloading the full deck list. Empty for decks uploaded before the metadata columns. </p>
+
+</div>
+</div>
+<a id="a97cabc2362dde9c2bc90211f50366437" name="a97cabc2362dde9c2bc90211f50366437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97cabc2362dde9c2bc90211f50366437">&#9670;&#160;</a></span>banner_card_provider</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional string ServerInfo_DeckStorage_File::banner_card_provider = 4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e52b9b1e6930c0fd0a0135f8a233968" name="a1e52b9b1e6930c0fd0a0135f8a233968"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e52b9b1e6930c0fd0a0135f8a233968">&#9670;&#160;</a></span>color_identity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional string ServerInfo_DeckStorage_File::color_identity = 5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7d25b09347e5af1fccf9de869ccd9ce0" name="a7d25b09347e5af1fccf9de869ccd9ce0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7d25b09347e5af1fccf9de869ccd9ce0">&#9670;&#160;</a></span>creation_time</h2>
 
@@ -116,6 +164,35 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeac5f371b8f4ca2b64eb774a041a8996" name="aeac5f371b8f4ca2b64eb774a041a8996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeac5f371b8f4ca2b64eb774a041a8996">&#9670;&#160;</a></span>is_public</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional bool ServerInfo_DeckStorage_File::is_public = 2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accc90a20be34a44d0daf5a67bf9751da" name="accc90a20be34a44d0daf5a67bf9751da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accc90a20be34a44d0daf5a67bf9751da">&#9670;&#160;</a></span>tags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">repeated string ServerInfo_DeckStorage_File::tags = 6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tag names associated with the deck. Empty for decks uploaded before the tags column existed. </p>
 
 </div>
 </div>

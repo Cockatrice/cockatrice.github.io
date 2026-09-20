@@ -35,6 +35,7 @@ var developer_reference =
       [ "PixmapCacheKeys and ProviderIDs", "d9/d1c/loading_card_pictures.html#pixmapcachekeys-and-providerids", null ],
       [ "The Redirect Cache", "d9/d1c/loading_card_pictures.html#the-redirect-cache", null ],
       [ "Local Image Loading", "d9/d1c/loading_card_pictures.html#local-image-loading", null ],
+      [ "Local Image Overrides", "d9/d1c/loading_card_pictures.html#local-image-overrides", null ],
       [ "URL Generation and Resolution", "d9/d1c/loading_card_pictures.html#url-generation-and-resolution", null ]
     ] ],
     [ "Displaying Cards", "dc/d8a/displaying_cards.html", [

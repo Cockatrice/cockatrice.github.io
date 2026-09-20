@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,19 +121,54 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a42a38799091c6deb644cbad0834115c4" id="r_a42a38799091c6deb644cbad0834115c4"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a42a38799091c6deb644cbad0834115c4">SingleInstanceManager</a> (QObject *parent=nullptr)</td></tr>
 <tr class="memitem:a4c806c858a08b45bff0e836bdbab0000" id="r_a4c806c858a08b45bff0e836bdbab0000"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a4c806c858a08b45bff0e836bdbab0000">tryRun</a> (const QStringList &amp;initialFiles)</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-types" class="groupheader"><a id="pri-types" name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a1465403d5d91b2053973f0e1a64f6184" id="r_a1465403d5d91b2053973f0e1a64f6184"><td class="memItemLeft">enum class &#160;</td><td class="memItemRight"><a class="el" href="#a1465403d5d91b2053973f0e1a64f6184">ForwardResult</a> { <a class="el" href="#a1465403d5d91b2053973f0e1a64f6184a67edd3b99247c9eb5884a02802a20fa7">Delivered</a>
+, <a class="el" href="#a1465403d5d91b2053973f0e1a64f6184a0b65b7f7ea0224e83af094b5de223653">NoPrimary</a>
+, <a class="el" href="#a1465403d5d91b2053973f0e1a64f6184a470112d6a7be35fcb3fb7421fc597109">PrimaryBusy</a>
+ }</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a9f1dba8ae029b718f16436e29a198c64" id="r_a9f1dba8ae029b718f16436e29a198c64"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9f1dba8ae029b718f16436e29a198c64">handleNewConnection</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a132baa1a46759653a42dedea6a7a018f" id="r_a132baa1a46759653a42dedea6a7a018f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a132baa1a46759653a42dedea6a7a018f">forwardToPrimary</a> (const QStringList &amp;filesToSend)</td></tr>
+<tr class="memitem:ae6ea15f3eabdbc85d59f9c861e6c9d26" id="r_ae6ea15f3eabdbc85d59f9c861e6c9d26"><td class="memItemLeft"><a class="el" href="#a1465403d5d91b2053973f0e1a64f6184">ForwardResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae6ea15f3eabdbc85d59f9c861e6c9d26">forwardToPrimary</a> (const QStringList &amp;filesToSend)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:af0df6bdc25c382f0be33a04f9d71bb05" id="r_af0df6bdc25c382f0be33a04f9d71bb05"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#af0df6bdc25c382f0be33a04f9d71bb05">serverName</a></td></tr>
 <tr class="memitem:a2c070883294d5caefa3b5b99baadf686" id="r_a2c070883294d5caefa3b5b99baadf686"><td class="memItemLeft">QLocalServer *&#160;</td><td class="memItemRight"><a class="el" href="#a2c070883294d5caefa3b5b99baadf686">server</a> = nullptr</td></tr>
 </table>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
+<a id="a1465403d5d91b2053973f0e1a64f6184" name="a1465403d5d91b2053973f0e1a64f6184"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1465403d5d91b2053973f0e1a64f6184">&#9670;&#160;</a></span>ForwardResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a1465403d5d91b2053973f0e1a64f6184">SingleInstanceManager::ForwardResult</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1465403d5d91b2053973f0e1a64f6184a67edd3b99247c9eb5884a02802a20fa7" name="a1465403d5d91b2053973f0e1a64f6184a67edd3b99247c9eb5884a02802a20fa7"></a>Delivered&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1465403d5d91b2053973f0e1a64f6184a0b65b7f7ea0224e83af094b5de223653" name="a1465403d5d91b2053973f0e1a64f6184a0b65b7f7ea0224e83af094b5de223653"></a>NoPrimary&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1465403d5d91b2053973f0e1a64f6184a470112d6a7be35fcb3fb7421fc597109" name="a1465403d5d91b2053973f0e1a64f6184a470112d6a7be35fcb3fb7421fc597109"></a>PrimaryBusy&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a42a38799091c6deb644cbad0834115c4" name="a42a38799091c6deb644cbad0834115c4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a42a38799091c6deb644cbad0834115c4">&#9670;&#160;</a></span>SingleInstanceManager()</h2>
@@ -191,8 +226,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a132baa1a46759653a42dedea6a7a018f" name="a132baa1a46759653a42dedea6a7a018f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a132baa1a46759653a42dedea6a7a018f">&#9670;&#160;</a></span>forwardToPrimary()</h2>
+<a id="ae6ea15f3eabdbc85d59f9c861e6c9d26" name="ae6ea15f3eabdbc85d59f9c861e6c9d26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6ea15f3eabdbc85d59f9c861e6c9d26">&#9670;&#160;</a></span>forwardToPrimary()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -201,7 +236,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool SingleInstanceManager::forwardToPrimary </td>
+          <td class="memname"><a class="el" href="#a1465403d5d91b2053973f0e1a64f6184">SingleInstanceManager::ForwardResult</a> SingleInstanceManager::forwardToPrimary </td>
           <td>(</td>
           <td class="paramtype">const QStringList &amp;</td>          <td class="paramname"><span class="paramname"><em>filesToSend</em></span></td><td>)</td>
           <td></td>
@@ -216,7 +251,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d5a/classSingleInstanceManager_a132baa1a46759653a42dedea6a7a018f_icgraph.svg" width="614" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d5a/classSingleInstanceManager_ae6ea15f3eabdbc85d59f9c861e6c9d26_icgraph.svg" width="614" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -141,6 +141,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae1f64a1979bb24464b3bb83506195c88" id="r_ae1f64a1979bb24464b3bb83506195c88"><td class="memItemLeft"><a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae1f64a1979bb24464b3bb83506195c88">getUserData</a> (const QString &amp;name, bool withId=false) override</td></tr>
 <tr class="memitem:a38947a92bd60f183a424265c6b65d2eb" id="r_a38947a92bd60f183a424265c6b65d2eb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a38947a92bd60f183a424265c6b65d2eb">storeGameInformation</a> (const QString &amp;roomName, const QStringList &amp;roomGameTypes, const <a class="el" href="../../d4/dbe/structServerInfo__Game.html">ServerInfo_Game</a> &amp;gameInfo, const QSet&lt; QString &gt; &amp;allPlayersEver, const QSet&lt; QString &gt; &amp;allSpectatorsEver, const QList&lt; <a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a> * &gt; &amp;replayList) override</td></tr>
 <tr class="memitem:a391805db9abb5e5f64ef2b49ad48b74f" id="r_a391805db9abb5e5f64ef2b49ad48b74f"><td class="memItemLeft"><a class="el" href="../../da/d68/classDeckList.html">DeckList</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a391805db9abb5e5f64ef2b49ad48b74f">getDeckFromDatabase</a> (int deckId, int userId) override</td></tr>
+<tr class="memitem:afa7bccf3872b397f785f4c1f3a0907e6" id="r_afa7bccf3872b397f785f4c1f3a0907e6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#afa7bccf3872b397f785f4c1f3a0907e6">createDeckShare</a> (const QString &amp;token, const QString &amp;name, int userId, const QList&lt; <a class="el" href="../../d6/d6a/structDeckShareItemRecord.html">DeckShareItemRecord</a> &gt; &amp;items, int expiryDays, qint64 &amp;expiresAt)</td></tr>
+<tr class="memdesc:afa7bccf3872b397f785f4c1f3a0907e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new temporary deck share bundle.  <br /></td></tr>
+<tr class="memitem:ae909d5cecf1d3e152d98adfbf65937ac" id="r_ae909d5cecf1d3e152d98adfbf65937ac"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae909d5cecf1d3e152d98adfbf65937ac">getDeckSharesForUser</a> (int userId, QList&lt; <a class="el" href="../../de/d47/structDeckShareSummaryRecord.html">DeckShareSummaryRecord</a> &gt; &amp;shares)</td></tr>
+<tr class="memdesc:ae909d5cecf1d3e152d98adfbf65937ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists the share bundles created by a user, newest first.  <br /></td></tr>
+<tr class="memitem:a3590d5ffb00b1ad97fb44cda0a85b1da" id="r_a3590d5ffb00b1ad97fb44cda0a85b1da"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a3590d5ffb00b1ad97fb44cda0a85b1da">deleteDeckShare</a> (int shareId, int userId)</td></tr>
+<tr class="memdesc:a3590d5ffb00b1ad97fb44cda0a85b1da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes one of a user's own share bundles (cascades to its items).  <br /></td></tr>
+<tr class="memitem:a6c0ec809679136a6db847edd2eff1d24" id="r_a6c0ec809679136a6db847edd2eff1d24"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a6c0ec809679136a6db847edd2eff1d24">getDeckShareList</a> (const QString &amp;token, QString &amp;name, qint64 &amp;expiresAt, QList&lt; <a class="el" href="../../d6/d6a/structDeckShareItemRecord.html">DeckShareItemRecord</a> &gt; &amp;items)</td></tr>
+<tr class="memdesc:a6c0ec809679136a6db847edd2eff1d24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up a valid (non-expired) share bundle by token.  <br /></td></tr>
+<tr class="memitem:ac73f4d007e9a70172c2b5ff93490c66b" id="r_ac73f4d007e9a70172c2b5ff93490c66b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac73f4d007e9a70172c2b5ff93490c66b">getDeckShareItem</a> (const QString &amp;token, int itemId, QString &amp;content)</td></tr>
+<tr class="memdesc:ac73f4d007e9a70172c2b5ff93490c66b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetches the content of one item of a valid share bundle.  <br /></td></tr>
+<tr class="memitem:a28bf00d14aa130e648820e3e0bd867c3" id="r_a28bf00d14aa130e648820e3e0bd867c3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a28bf00d14aa130e648820e3e0bd867c3">cleanupExpiredDeckShares</a> ()</td></tr>
+<tr class="memdesc:a28bf00d14aa130e648820e3e0bd867c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all expired share bundles (cascades to their items).  <br /></td></tr>
 <tr class="memitem:a41faeb94ec316520eced63bcf2d15b6c" id="r_a41faeb94ec316520eced63bcf2d15b6c"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a41faeb94ec316520eced63bcf2d15b6c">getNextGameId</a> () override</td></tr>
 <tr class="memitem:aa99f4ef15d98e42d55fff51f91d45872" id="r_aa99f4ef15d98e42d55fff51f91d45872"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aa99f4ef15d98e42d55fff51f91d45872">getNextReplayId</a> () override</td></tr>
 <tr class="memitem:a98aff5c68f5f10db47fb871564ecf25b" id="r_a98aff5c68f5f10db47fb871564ecf25b"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a98aff5c68f5f10db47fb871564ecf25b">getActiveUserCount</a> (QString connectionType=QString()) override</td></tr>
@@ -845,6 +857,30 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a28bf00d14aa130e648820e3e0bd867c3" name="a28bf00d14aa130e648820e3e0bd867c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28bf00d14aa130e648820e3e0bd867c3">&#9670;&#160;</a></span>cleanupExpiredDeckShares()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servatrice_DatabaseInterface::cleanupExpiredDeckShares </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deletes all expired share bundles (cascades to their items). </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a28bf00d14aa130e648820e3e0bd867c3_cgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="af4df6701fd79e20df9e13bbe19f0f089" name="af4df6701fd79e20df9e13bbe19f0f089"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af4df6701fd79e20df9e13bbe19f0f089">&#9670;&#160;</a></span>clearSessionTables()</h2>
 
@@ -873,6 +909,90 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_af4df6701fd79e20df9e13bbe19f0f089_cgraph.svg" width="100%" height="444"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="afa7bccf3872b397f785f4c1f3a0907e6" name="afa7bccf3872b397f785f4c1f3a0907e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa7bccf3872b397f785f4c1f3a0907e6">&#9670;&#160;</a></span>createDeckShare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice_DatabaseInterface::createDeckShare </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>token</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>userId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QList&lt; <a class="el" href="../../d6/d6a/structDeckShareItemRecord.html">DeckShareItemRecord</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>items</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>expiryDays</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qint64 &amp;</td>          <td class="paramname"><span class="paramname"><em>expiresAt</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a new temporary deck share bundle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">expiresAt</td><td>Receives the actual expiry read back from the database. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>false on failure. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_afa7bccf3872b397f785f4c1f3a0907e6_cgraph.svg" width="100%" height="460"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a3590d5ffb00b1ad97fb44cda0a85b1da" name="a3590d5ffb00b1ad97fb44cda0a85b1da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3590d5ffb00b1ad97fb44cda0a85b1da">&#9670;&#160;</a></span>deleteDeckShare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice_DatabaseInterface::deleteDeckShare </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>shareId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>userId</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deletes one of a user's own share bundles (cascades to its items). </p>
+<dl class="section return"><dt>Returns</dt><dd>false if no such bundle belongs to the user. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a3590d5ffb00b1ad97fb44cda0a85b1da_cgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -988,11 +1108,6 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a7be1b29a72d3c6b454f4ad620a209afe_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a7be1b29a72d3c6b454f4ad620a209afe_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1117,7 +1232,108 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a391805db9abb5e5f64ef2b49ad48b74f_cgraph.svg" width="100%" height="566"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a391805db9abb5e5f64ef2b49ad48b74f_cgraph.svg" width="100%" height="585"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac73f4d007e9a70172c2b5ff93490c66b" name="ac73f4d007e9a70172c2b5ff93490c66b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac73f4d007e9a70172c2b5ff93490c66b">&#9670;&#160;</a></span>getDeckShareItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice_DatabaseInterface::getDeckShareItem </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>token</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>itemId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString &amp;</td>          <td class="paramname"><span class="paramname"><em>content</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fetches the content of one item of a valid share bundle. </p>
+<dl class="section return"><dt>Returns</dt><dd>false if the token is unknown/expired or the item does not belong to the bundle. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_ac73f4d007e9a70172c2b5ff93490c66b_cgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a6c0ec809679136a6db847edd2eff1d24" name="a6c0ec809679136a6db847edd2eff1d24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c0ec809679136a6db847edd2eff1d24">&#9670;&#160;</a></span>getDeckShareList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice_DatabaseInterface::getDeckShareList </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>token</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qint64 &amp;</td>          <td class="paramname"><span class="paramname"><em>expiresAt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QList&lt; <a class="el" href="../../d6/d6a/structDeckShareItemRecord.html">DeckShareItemRecord</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>items</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Looks up a valid (non-expired) share bundle by token. </p>
+<dl class="section return"><dt>Returns</dt><dd>false if the token is unknown or expired. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a6c0ec809679136a6db847edd2eff1d24_cgraph.svg" width="100%" height="460"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae909d5cecf1d3e152d98adfbf65937ac" name="ae909d5cecf1d3e152d98adfbf65937ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae909d5cecf1d3e152d98adfbf65937ac">&#9670;&#160;</a></span>getDeckSharesForUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice_DatabaseInterface::getDeckSharesForUser </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>userId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QList&lt; <a class="el" href="../../de/d47/structDeckShareSummaryRecord.html">DeckShareSummaryRecord</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>shares</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lists the share bundles created by a user, newest first. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_ae909d5cecf1d3e152d98adfbf65937ac_cgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1832,11 +2048,6 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a447d886942669b059ec356b92924c7c8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>

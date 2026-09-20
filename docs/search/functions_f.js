@@ -46,7 +46,7 @@ var searchData=
   ['parsergenerator_43',['ParserGenerator',['../dc/dbb/classpeg_1_1ParserGenerator.html#a6d5a546be5e34286b2d5d06d6e2ce02d',1,'peg::ParserGenerator']]],
   ['parsesequencestring_44',['parseSequenceString',['../da/d38/classShortcutsSettings.html#af9091c290dbfa46a15b1eb8b07c8688b',1,'ShortcutsSettings']]],
   ['parsewarningcategories_45',['parseWarningCategories',['../da/dbb/warning__categories_8cpp.html#a1a7e8607d6fa31999131cdbe4b222c95',1,'parseWarningCategories(const QString &amp;value):&#160;warning_categories.cpp'],['../d1/dbe/warning__categories_8h.html#a1a7e8607d6fa31999131cdbe4b222c95',1,'parseWarningCategories(const QString &amp;value):&#160;warning_categories.cpp']]],
-  ['password_46',['password',['../d8/df5/classZip.html#ae242df4ab5a04b9e16e47af29dadfba1',1,'Zip::password()'],['../de/d8a/classQxtSmtp.html#af3718f827b81a7678a1e3cdfa3416f5a',1,'QxtSmtp::password()']]],
+  ['password_46',['password',['../d6/d01/classDlgLoginPrompt.html#a316b119c0f30f480fb59a14841dd8c57',1,'DlgLoginPrompt::password()'],['../d8/df5/classZip.html#ae242df4ab5a04b9e16e47af29dadfba1',1,'Zip::password()'],['../de/d8a/classQxtSmtp.html#af3718f827b81a7678a1e3cdfa3416f5a',1,'QxtSmtp::password()']]],
   ['passwordsaltresponse_47',['passwordSaltResponse',['../db/d53/classRemoteClient.html#a8203596b00d006b733b11c17e84b2e73',1,'RemoteClient']]],
   ['passwordsaved_48',['passwordSaved',['../d3/da4/classDlgConnect.html#acf7651c7d6c6f82f53b1f8193fd32836',1,'DlgConnect']]],
   ['paths_49',['paths',['../d5/d88/classSettingsCache.html#ad98849d58149704e869e53c37db50acd',1,'SettingsCache']]],
@@ -292,8 +292,11 @@ var searchData=
   ['proxyendinsertrow_289',['proxyEndInsertRow',['../d7/d62/classFilterTreeModel.html#a3558c35945811674b412b1541476552e',1,'FilterTreeModel']]],
   ['proxyendremoverow_290',['proxyEndRemoveRow',['../d7/d62/classFilterTreeModel.html#a1e89ce0b59555e2a960faaf27631036b',1,'FilterTreeModel']]],
   ['proxymodel_291',['proxyModel',['../d0/dfe/classVisualDeckStorageWidget.html#ad660f42ada4fa5cbdfee582af6feb478',1,'VisualDeckStorageWidget']]],
-  ['ptchanged_292',['ptChanged',['../db/d1b/classCardState.html#a92099099947d2f2029fc26ff411ea2c0',1,'CardState::ptChanged()'],['../d3/d37/classDlgEditTokens.html#af8fab8f7a7bf074e662e23697b3b489d',1,'DlgEditTokens::ptChanged()']]],
-  ['ptmenu_293',['PtMenu',['../d3/d77/classPtMenu.html#a7fe7638e23a8a259ffa6db8ee1728f5e',1,'PtMenu']]],
-  ['push_5fargs_294',['push_args',['../df/d94/classpeg_1_1Context.html#a94a326b8071f9694e7a29b5e6cbad28f',1,'peg::Context']]],
-  ['push_5fsemantic_5fvalues_5fscope_295',['push_semantic_values_scope',['../df/d94/classpeg_1_1Context.html#a75ad7dc2e705646eaeaf2370571726b0',1,'peg::Context']]]
+  ['pruneemptyboardzone_292',['pruneEmptyBoardZone',['../db/df8/classDecklistNodeTree.html#ae61944d216fd249e8d23ca192bb1f524',1,'DecklistNodeTree']]],
+  ['ptchanged_293',['ptChanged',['../db/d1b/classCardState.html#a92099099947d2f2029fc26ff411ea2c0',1,'CardState::ptChanged()'],['../d3/d37/classDlgEditTokens.html#af8fab8f7a7bf074e662e23697b3b489d',1,'DlgEditTokens::ptChanged()']]],
+  ['ptmenu_294',['PtMenu',['../d3/d77/classPtMenu.html#a7fe7638e23a8a259ffa6db8ee1728f5e',1,'PtMenu']]],
+  ['publicdeckpreviewwidget_295',['PublicDeckPreviewWidget',['../d8/d3b/classPublicDeckPreviewWidget.html#a13b894912acf0667512ee54f398db929',1,'PublicDeckPreviewWidget']]],
+  ['publicdecksclosed_296',['publicDecksClosed',['../dd/d81/classTabSupervisor.html#a820e2523a62ca4919a363f475c1fc65f',1,'TabSupervisor']]],
+  ['push_5fargs_297',['push_args',['../df/d94/classpeg_1_1Context.html#a94a326b8071f9694e7a29b5e6cbad28f',1,'peg::Context']]],
+  ['push_5fsemantic_5fvalues_5fscope_298',['push_semantic_values_scope',['../df/d94/classpeg_1_1Context.html#a75ad7dc2e705646eaeaf2370571726b0',1,'peg::Context']]]
 ];

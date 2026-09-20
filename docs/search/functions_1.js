@@ -52,8 +52,9 @@ var searchData=
   ['buildmapsbycategory_49',['buildMapsByCategory',['../df/d3e/mana__curve__widget_8cpp.html#aef75eb9139879fdb765d54726d3fb530',1,'mana_curve_widget.cpp']]],
   ['buildsearchindex_50',['buildSearchIndex',['../db/d5f/classDlgSettings.html#a580b34faf8deff750d9e0cbd130c2165',1,'DlgSettings']]],
   ['buildsearchurl_51',['buildSearchUrl',['../db/d5d/classTabArchidekt.html#a783c5b26773c23178f9183e8ee74388e',1,'TabArchidekt']]],
-  ['buildstackparams_52',['buildStackParams',['../d7/ddf/classSelectZone.html#adea31b5636e65a81dd6c8faf58d5bf98',1,'SelectZone']]],
-  ['buildsyntheticdata_53',['buildSyntheticData',['../dd/d3c/oracle__importer__benchmark__test_8cpp.html#a673f6072a1c57ebd980eff5c12835996',1,'oracle_importer_benchmark_test.cpp']]],
-  ['buildui_54',['buildUi',['../df/d81/classUserInfoPopup.html#a9aa320cc3870a382159618961445ea66',1,'UserInfoPopup']]],
-  ['bumpsetswithcardsindecktotopchanged_55',['bumpSetsWithCardsInDeckToTopChanged',['../d4/d4a/classCardsDisplaySettings.html#ae5a6729ce6cc52552b8819505730fcd1',1,'CardsDisplaySettings']]]
+  ['buildsharelink_52',['buildShareLink',['../de/d57/namespaceDeckShareUtils.html#a192e13cc7bffc65a0605049be2194acf',1,'DeckShareUtils']]],
+  ['buildstackparams_53',['buildStackParams',['../d7/ddf/classSelectZone.html#adea31b5636e65a81dd6c8faf58d5bf98',1,'SelectZone']]],
+  ['buildsyntheticdata_54',['buildSyntheticData',['../dd/d3c/oracle__importer__benchmark__test_8cpp.html#a673f6072a1c57ebd980eff5c12835996',1,'oracle_importer_benchmark_test.cpp']]],
+  ['buildui_55',['buildUi',['../df/d81/classUserInfoPopup.html#a9aa320cc3870a382159618961445ea66',1,'UserInfoPopup']]],
+  ['bumpsetswithcardsindecktotopchanged_56',['bumpSetsWithCardsInDeckToTopChanged',['../d4/d4a/classCardsDisplaySettings.html#ae5a6729ce6cc52552b8819505730fcd1',1,'CardsDisplaySettings']]]
 ];

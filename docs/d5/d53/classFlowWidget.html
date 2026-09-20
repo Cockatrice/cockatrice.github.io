@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -122,8 +122,10 @@ Public Slots</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab0d878153855f0ce4e2ba84d0137016f" id="r_ab0d878153855f0ce4e2ba84d0137016f"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ab0d878153855f0ce4e2ba84d0137016f">FlowWidget</a> (QWidget *parent, Qt::Orientation orientation, Qt::ScrollBarPolicy horizontalPolicy, Qt::ScrollBarPolicy verticalPolicy)</td></tr>
 <tr class="memdesc:ab0d878153855f0ce4e2ba84d0137016f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="../../d5/d53/classFlowWidget.html">FlowWidget</a>.  <br /></td></tr>
-<tr class="memitem:a822ae4496286ebe6e3870c70cb811798" id="r_a822ae4496286ebe6e3870c70cb811798"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a822ae4496286ebe6e3870c70cb811798">addWidget</a> (QWidget *widget_to_add) const</td></tr>
-<tr class="memdesc:a822ae4496286ebe6e3870c70cb811798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a widget to the flow layout within the <a class="el" href="../../d5/d53/classFlowWidget.html">FlowWidget</a>.  <br /></td></tr>
+<tr class="memitem:ae32f7c8a736aa0d4faada4a2fdb1a6cf" id="r_ae32f7c8a736aa0d4faada4a2fdb1a6cf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae32f7c8a736aa0d4faada4a2fdb1a6cf">addWidget</a> (QWidget *widget_to_add)</td></tr>
+<tr class="memdesc:ae32f7c8a736aa0d4faada4a2fdb1a6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a widget to the flow layout within the <a class="el" href="../../d5/d53/classFlowWidget.html">FlowWidget</a>.  <br /></td></tr>
+<tr class="memitem:a8144b9ec8f1815028e3477bb373fd8ef" id="r_a8144b9ec8f1815028e3477bb373fd8ef"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8144b9ec8f1815028e3477bb373fd8ef">addNavigableWidget</a> (QWidget *widget_to_add)</td></tr>
+<tr class="memdesc:a8144b9ec8f1815028e3477bb373fd8ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a widget and routes its arrow keys to <a class="el" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> focus navigation.  <br /></td></tr>
 <tr class="memitem:af020d01f974ad84716803a0fdec6b508" id="r_af020d01f974ad84716803a0fdec6b508"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af020d01f974ad84716803a0fdec6b508">insertWidgetAtIndex</a> (QWidget *toInsert, int index)</td></tr>
 <tr class="memitem:ab064367a218ace4e8879c054448738a6" id="r_ab064367a218ace4e8879c054448738a6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab064367a218ace4e8879c054448738a6">removeWidget</a> (QWidget *widgetToRemove) const</td></tr>
 <tr class="memitem:a50862bc6637621c64d38ba0d06d39d72" id="r_a50862bc6637621c64d38ba0d06d39d72"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a50862bc6637621c64d38ba0d06d39d72">clearLayout</a> ()</td></tr>
@@ -138,8 +140,15 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a10803819a39e9a61a6cc45004ccb06f3" id="r_a10803819a39e9a61a6cc45004ccb06f3"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a10803819a39e9a61a6cc45004ccb06f3">eventFilter</a> (QObject *watched, QEvent *event) override</td></tr>
 <tr class="memitem:add6f47bdf75d7748dc0bf97770dd1250" id="r_add6f47bdf75d7748dc0bf97770dd1250"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#add6f47bdf75d7748dc0bf97770dd1250">resizeEvent</a> (QResizeEvent *event) override</td></tr>
 <tr class="memdesc:add6f47bdf75d7748dc0bf97770dd1250"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks the flow layout as dirty so Qt recomputes item positions.  <br /></td></tr>
+<tr class="memitem:adbbf0dd06d0df5e60670e0d326542828" id="r_adbbf0dd06d0df5e60670e0d326542828"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adbbf0dd06d0df5e60670e0d326542828">keyPressEvent</a> (QKeyEvent *event) override</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a8c8ff054e2fb4dd8d10b48ecd40c539d" id="r_a8c8ff054e2fb4dd8d10b48ecd40c539d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8c8ff054e2fb4dd8d10b48ecd40c539d">moveFocus</a> (QKeyEvent *event)</td></tr>
+<tr class="memdesc:a8c8ff054e2fb4dd8d10b48ecd40c539d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves keyboard focus to an adjacent flow item for an arrow-key event.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -198,8 +207,34 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a822ae4496286ebe6e3870c70cb811798" name="a822ae4496286ebe6e3870c70cb811798"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a822ae4496286ebe6e3870c70cb811798">&#9670;&#160;</a></span>addWidget()</h2>
+<a id="a8144b9ec8f1815028e3477bb373fd8ef" name="a8144b9ec8f1815028e3477bb373fd8ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8144b9ec8f1815028e3477bb373fd8ef">&#9670;&#160;</a></span>addNavigableWidget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FlowWidget::addNavigableWidget </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *</td>          <td class="paramname"><span class="paramname"><em>widget_to_add</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a widget and routes its arrow keys to <a class="el" href="../../d5/d53/classFlowWidget.html">FlowWidget</a> focus navigation. </p>
+<p>The widget is filtered for arrow-key events so keyboard navigation between the flow items keeps working even when the flow sits inside a QScrollArea, which swallows arrow keys before they can reach <a class="el" href="#adbbf0dd06d0df5e60670e0d326542828">FlowWidget::keyPressEvent</a>. Only widgets added through this method are affected; anything that needs its own arrow keys should use plain addWidget.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">widget_to_add</td><td>The widget to add to the flow layout. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae32f7c8a736aa0d4faada4a2fdb1a6cf" name="ae32f7c8a736aa0d4faada4a2fdb1a6cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae32f7c8a736aa0d4faada4a2fdb1a6cf">&#9670;&#160;</a></span>addWidget()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -208,12 +243,13 @@ Here is the caller graph for this function:</div>
           <td class="memname">void FlowWidget::addWidget </td>
           <td>(</td>
           <td class="paramtype">QWidget *</td>          <td class="paramname"><span class="paramname"><em>widget_to_add</em></span></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Adds a widget to the flow layout within the <a class="el" href="../../d5/d53/classFlowWidget.html">FlowWidget</a>. </p>
+<p>Plain widgets are not filtered for arrow keys: intercepting them would steal Up/Down/Left/Right from controls that use them (combo boxes, spin boxes etc.). Widgets that want keyboard navigation between flow items must be added via addNavigableWidget instead.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">widget_to_add</td><td>The widget to add to the flow layout. </td></tr>
@@ -223,7 +259,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d53/classFlowWidget_a822ae4496286ebe6e3870c70cb811798_icgraph.svg" width="443" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d53/classFlowWidget_ae32f7c8a736aa0d4faada4a2fdb1a6cf_icgraph.svg" width="443" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -273,6 +309,40 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a10803819a39e9a61a6cc45004ccb06f3" name="a10803819a39e9a61a6cc45004ccb06f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10803819a39e9a61a6cc45004ccb06f3">&#9670;&#160;</a></span>eventFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FlowWidget::eventFilter </td>
+          <td>(</td>
+          <td class="paramtype">QObject *</td>          <td class="paramname"><span class="paramname"><em>watched</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d53/classFlowWidget_a10803819a39e9a61a6cc45004ccb06f3_cgraph.svg" width="418" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="af020d01f974ad84716803a0fdec6b508" name="af020d01f974ad84716803a0fdec6b508"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af020d01f974ad84716803a0fdec6b508">&#9670;&#160;</a></span>insertWidgetAtIndex()</h2>
 
@@ -316,6 +386,69 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbbf0dd06d0df5e60670e0d326542828" name="adbbf0dd06d0df5e60670e0d326542828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbbf0dd06d0df5e60670e0d326542828">&#9670;&#160;</a></span>keyPressEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FlowWidget::keyPressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QKeyEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d53/classFlowWidget_adbbf0dd06d0df5e60670e0d326542828_cgraph.svg" width="443" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8c8ff054e2fb4dd8d10b48ecd40c539d" name="a8c8ff054e2fb4dd8d10b48ecd40c539d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c8ff054e2fb4dd8d10b48ecd40c539d">&#9670;&#160;</a></span>moveFocus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FlowWidget::moveFocus </td>
+          <td>(</td>
+          <td class="paramtype">QKeyEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Moves keyboard focus to an adjacent flow item for an arrow-key event. </p>
+<dl class="section return"><dt>Returns</dt><dd>True when the event was an arrow key and was handled. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d53/classFlowWidget_a8c8ff054e2fb4dd8d10b48ecd40c539d_icgraph.svg" width="443" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>

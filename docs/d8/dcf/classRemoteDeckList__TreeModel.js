@@ -17,6 +17,7 @@ var classRemoteDeckList__TreeModel =
     [ "getRoot", "d8/dcf/classRemoteDeckList__TreeModel.html#af557f37373569891e4e85558f013c4a6", null ],
     [ "headerData", "d8/dcf/classRemoteDeckList__TreeModel.html#a29d3f6818d79a90e0d4134e4f2294836", null ],
     [ "index", "d8/dcf/classRemoteDeckList__TreeModel.html#a39ee6be8d35592e8b90a874bd6d65503", null ],
+    [ "isEffectivelyPublic", "d8/dcf/classRemoteDeckList__TreeModel.html#af7e30c98713948a85b653f527cc018ec", null ],
     [ "nodeToIndex", "d8/dcf/classRemoteDeckList__TreeModel.html#a3d867313540af51bc8cabb2b34e48274", null ],
     [ "parent", "d8/dcf/classRemoteDeckList__TreeModel.html#a9af29f72f87fc4e5eb8df62f130d2fa5", null ],
     [ "refreshTree", "d8/dcf/classRemoteDeckList__TreeModel.html#ad5bc737e522782af5a2310f89e8e08e9", null ],

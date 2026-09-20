@@ -1,0 +1,27 @@
+var classIntentOpenSharedDeck =
+[
+    [ "IntentOpenSharedDeck", "df/d3e/classIntentOpenSharedDeck.html#a55506645f89208c36a22bb2818aa5c4c", null ],
+    [ "checkPrecondition", "df/d3e/classIntentOpenSharedDeck.html#a3fa057c331c6872f763d7fce5a54fb44", null ],
+    [ "downloadNextItem", "df/d3e/classIntentOpenSharedDeck.html#ace20bfb99347f90b6f024a6b4f699889", null ],
+    [ "downloadShareFinished", "df/d3e/classIntentOpenSharedDeck.html#adb58a4db9618db1642ef18c3680c2f5d", null ],
+    [ "finishAll", "df/d3e/classIntentOpenSharedDeck.html#a8992ad21dd65d9d606ffb5556c1dc481", null ],
+    [ "listShareFinished", "df/d3e/classIntentOpenSharedDeck.html#a7a89793d7952e5e039acfdf8e58c0377", null ],
+    [ "onDownloadTimeout", "df/d3e/classIntentOpenSharedDeck.html#a1499ddd7b316271c831eae787c913ff8", null ],
+    [ "onItemFailure", "df/d3e/classIntentOpenSharedDeck.html#a093c6e6757ac89b2772ad6c629c85783", null ],
+    [ "onPreconditionNotSatisfied", "df/d3e/classIntentOpenSharedDeck.html#ae476b9f6c53071307ee1a85f6651e3c7", null ],
+    [ "onPreconditionSatisfied", "df/d3e/classIntentOpenSharedDeck.html#a74b9a1347cb444e9d29593856daeb8ca", null ],
+    [ "startDownloads", "df/d3e/classIntentOpenSharedDeck.html#afd3e0ae32a6848dcff85d0693c7d1fb0", null ],
+    [ "completedItems", "df/d3e/classIntentOpenSharedDeck.html#a85e182672addb5c67ba2de2ea1276a95", null ],
+    [ "context", "df/d3e/classIntentOpenSharedDeck.html#ab3775e381f2020a81a38b8a278e07478", null ],
+    [ "currentItemId", "df/d3e/classIntentOpenSharedDeck.html#a3394faac947b623ef63f8e202e8fb38e", null ],
+    [ "downloadTimer", "df/d3e/classIntentOpenSharedDeck.html#a6aa839124fd324607e89bee698ece2bf", null ],
+    [ "itemNames", "df/d3e/classIntentOpenSharedDeck.html#af575fae658501bc555339e02ca4aa2a9", null ],
+    [ "listPhase", "df/d3e/classIntentOpenSharedDeck.html#a96bdd23478c17d11de9986849886bc62", null ],
+    [ "loadedDecks", "df/d3e/classIntentOpenSharedDeck.html#af5fd7324c96f00a45ec7bfd131ba332d", null ],
+    [ "pendingItemIds", "df/d3e/classIntentOpenSharedDeck.html#a84c4ea25cb7ba210d757393719abea9a", null ],
+    [ "previewDialog", "df/d3e/classIntentOpenSharedDeck.html#a2ca6e99b1dc6454413fa74d44306c05c", null ],
+    [ "querier", "df/d3e/classIntentOpenSharedDeck.html#a1efd1d466c59da574c38c2072ea7eace", null ],
+    [ "remoteClient", "df/d3e/classIntentOpenSharedDeck.html#a616b06eb6738ca20959e4f24595d3083", null ],
+    [ "tabSupervisor", "df/d3e/classIntentOpenSharedDeck.html#a5388d268c213b5e4b43f913b038a80fb", null ],
+    [ "totalItems", "df/d3e/classIntentOpenSharedDeck.html#a51f246383630cee0d1082a0e44fd18a9", null ]
+];

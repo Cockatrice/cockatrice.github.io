@@ -66,6 +66,10 @@ var structResponse =
       [ "REPLAY_LIST", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a39447a1b9957f3c23ff3e3625afc031e", null ],
       [ "REPLAY_DOWNLOAD", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442aca9391025562f2d1aab126ca2b444124", null ],
       [ "REPLAY_GET_CODE", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a6ab67e42b2aaffa35596359704d31a1c", null ],
+      [ "DECK_SHARE_CREATE", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442aeec24a4a70627dc59508be68f1f84c52", null ],
+      [ "DECK_SHARE_LIST", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a34c5339d09d33d0d78e0613c8eec5d3b", null ],
+      [ "DECK_SHARE_DOWNLOAD", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442ad3dca74453f32cddd0192def66236df1", null ],
+      [ "DECK_SHARE_LIST_MINE", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a495ba322526a91918711227ac3ee8e1b", null ],
       [ "CARD_ART_RULE_LIST", "d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442aa3d875e4db1507a0c20ef1291c23b2ba", null ]
     ] ],
     [ "cmd_id", "d1/db9/structResponse.html#ac7d132f43b08aa8158cf42d97664d6a4", null ],

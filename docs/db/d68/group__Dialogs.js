@@ -6,6 +6,7 @@ var group__Dialogs =
     [ "dlg_select_set_for_cards.h", "d6/d38/dlg__select__set__for__cards_8h.html", null ],
     [ "dlg_settings.cpp", "dd/d7b/dlg__settings_8cpp.html", null ],
     [ "dlg_settings.h", "d2/d12/dlg__settings_8h.html", null ],
+    [ "dlg_share_deck.h", "d2/d8e/dlg__share__deck_8h.html", null ],
     [ "dlg_tip_of_the_day.h", "d5/d8e/dlg__tip__of__the__day_8h.html", null ],
     [ "tip_of_the_day.h", "de/dde/tip__of__the__day_8h.html", null ],
     [ "settings_search_delegate.cpp", "d6/d8c/settings__search__delegate_8cpp.html", null ],

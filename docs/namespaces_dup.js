@@ -116,6 +116,7 @@ var namespaces_dup =
       [ "parse", "d3/df1/namespaceDeckListPlainText.html#a2c3248b2e5802612766801e572a8b363", null ]
     ] ],
     [ "DeckRoles", "d5/d55/namespaceDeckRoles.html", null ],
+    [ "DeckShareUtils", "de/d57/namespaceDeckShareUtils.html", "de/d57/namespaceDeckShareUtils" ],
     [ "google", "df/d40/namespacegoogle.html", "df/d40/namespacegoogle" ],
     [ "HomeTabButtonColor", "d4/dc8/namespaceHomeTabButtonColor.html", "d4/dc8/namespaceHomeTabButtonColor" ],
     [ "Mtg", "db/d09/namespaceMtg.html", [

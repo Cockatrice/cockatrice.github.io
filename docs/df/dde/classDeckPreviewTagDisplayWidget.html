@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -115,7 +115,7 @@ Collaboration diagram for DeckPreviewTagDisplayWidget:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:af927dcc21afdf77ddb96b67466014267" id="r_af927dcc21afdf77ddb96b67466014267"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af927dcc21afdf77ddb96b67466014267">tagClicked</a> ()</td></tr>
-<tr class="memdesc:af927dcc21afdf77ddb96b67466014267"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the tag is clicked.  <br /></td></tr>
+<tr class="memdesc:af927dcc21afdf77ddb96b67466014267"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a click toggles the chip's selection/exclusion state.  <br /></td></tr>
 <tr class="memitem:afcc336e5eadf9d2e2746fb6f24fa6f06" id="r_afcc336e5eadf9d2e2746fb6f24fa6f06"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afcc336e5eadf9d2e2746fb6f24fa6f06">tagClosed</a> ()</td></tr>
 <tr class="memdesc:afcc336e5eadf9d2e2746fb6f24fa6f06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the close button is clicked.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -385,7 +385,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Emitted when the tag is clicked. </p>
+<p>Emitted when a click toggles the chip's selection/exclusion state. </p>
+<p>Not emitted for clicks that leave the state unchanged. Connected handlers use this as the trigger to update filters built from selectedTags()/excludedTags(). </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

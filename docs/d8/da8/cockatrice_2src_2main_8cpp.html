@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -106,7 +106,6 @@ $(function(){initNavTree('d8/da8/cockatrice_2src_2main_8cpp.html','../../',''); 
 <code>#include &quot;<a class="el" href="../../d8/d9e/url__scheme__event__filter_8h_source.html">client/url_scheme_event_filter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/dda/settings__card__preference__provider_8h_source.html">database/interface/settings_card_preference_provider.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/de5/intent__open__local__deck_8h_source.html">interface/intents/intent_open_local_deck.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/dc2/url__parser_8h_source.html">interface/intents/url_parser.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d8c/logger_8h_source.html">interface/logger.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/d73/pixel__map__generator_8h_source.html">interface/pixel_map_generator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d65/theme__manager_8h_source.html">interface/theme_manager.h</a>&quot;</code><br />
@@ -124,6 +123,8 @@ $(function(){initNavTree('d8/da8/cockatrice_2src_2main_8cpp.html','../../',''); 
 <code>#include &lt;QMessageBox&gt;</code><br />
 <code>#include &lt;QSystemTrayIcon&gt;</code><br />
 <code>#include &lt;QTranslator&gt;</code><br />
+<code>#include &lt;QUrl&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/dfe/rng__sfmt_8h_source.html">libcockatrice/rng/rng_sfmt.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/de2/appearance__settings_8h_source.html">libcockatrice/settings/appearance_settings.h</a>&gt;</code><br />
@@ -144,6 +145,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a94ffb586e59189ba9091bffd15afa800" id="r_a94ffb586e59189ba9091bffd15afa800"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a94ffb586e59189ba9091bffd15afa800">CockatriceLogger</a> (QtMsgType type, const QMessageLogContext &amp;ctx, const QString &amp;message)</td></tr>
 <tr class="memitem:a9f8b1077cdf88022508dd967530d4e8b" id="r_a9f8b1077cdf88022508dd967530d4e8b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9f8b1077cdf88022508dd967530d4e8b">installNewTranslator</a> ()</td></tr>
 <tr class="memitem:ac17970b6e74cf0873edb278df612c2b9" id="r_ac17970b6e74cf0873edb278df612c2b9"><td class="memItemLeft">QString const&#160;</td><td class="memItemRight"><a class="el" href="#ac17970b6e74cf0873edb278df612c2b9">generateClientID</a> ()</td></tr>
+<tr class="memitem:a322c63a4a5b71366f6e1dac2579e5e3a" id="r_a322c63a4a5b71366f6e1dac2579e5e3a"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#a322c63a4a5b71366f6e1dac2579e5e3a">redactActivationUrl</a> (const QString &amp;url)</td></tr>
 <tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97" id="r_a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
@@ -278,6 +280,36 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/da8/cockatrice_2src_2main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_icgraph.svg" width="168" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a322c63a4a5b71366f6e1dac2579e5e3a" name="a322c63a4a5b71366f6e1dac2579e5e3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a322c63a4a5b71366f6e1dac2579e5e3a">&#9670;&#160;</a></span>redactActivationUrl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString redactActivationUrl </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>url</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/da8/cockatrice_2src_2main_8cpp_a322c63a4a5b71366f6e1dac2579e5e3a_icgraph.svg" width="364" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

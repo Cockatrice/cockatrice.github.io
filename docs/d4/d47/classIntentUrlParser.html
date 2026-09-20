@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -100,6 +100,9 @@ $(function(){initNavTree('d4/d47/classIntentUrlParser.html','../../','db/dc9/cla
 </div><!--header-->
 <div class="contents">
 
+<p>Parses cockatrice:// links and runs them as serialized intent chains.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../db/dc2/url__parser_8h_source.html">url_parser.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for IntentUrlParser:</div>
@@ -112,21 +115,39 @@ Collaboration diagram for IntentUrlParser:</div>
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/db4/classIntentUrlParser__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:add68fc6596672d551d8a69344d267c49" id="r_add68fc6596672d551d8a69344d267c49"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#add68fc6596672d551d8a69344d267c49">urlChainFinished</a> (bool connected)</td></tr>
+<tr class="memdesc:add68fc6596672d551d8a69344d267c49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the last queued chain ended; carries whether the client is logged in.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad88f7f57ee59f97a354d98eac3f6c346" id="r_ad88f7f57ee59f97a354d98eac3f6c346"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad88f7f57ee59f97a354d98eac3f6c346">IntentUrlParser</a> (QObject *parent, <a class="el" href="../../d6/d1a/classMainWindow.html">MainWindow</a> *<a class="el" href="#a2f99e62493b2b880a76ebd2f8d1e0ecb">mainWindow</a>)</td></tr>
 <tr class="memitem:ae499e65986b9308b402c5038459e7e43" id="r_ae499e65986b9308b402c5038459e7e43"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae499e65986b9308b402c5038459e7e43">handle</a> (const QString &amp;urlStr)</td></tr>
-<tr class="memitem:ab232bcd027410a1475ee479ca645ae0d" id="r_ab232bcd027410a1475ee479ca645ae0d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab232bcd027410a1475ee479ca645ae0d">handleJoinGame</a> (const QUrlQuery &amp;query)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:ab5729ab1a83c0047ebd42733f3920cde" id="r_ab5729ab1a83c0047ebd42733f3920cde"><td class="memItemLeft"><a class="el" href="../../d5/dc9/classIntent.html">Intent</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ab5729ab1a83c0047ebd42733f3920cde">createJoinGameIntent</a> (const QUrlQuery &amp;query, <a class="el" href="../../d2/df5/structPendingIntentChain.html">PendingIntentChain</a> &amp;chain)</td></tr>
+<tr class="memitem:a73d743ff3c18450ab0519527974decf7" id="r_a73d743ff3c18450ab0519527974decf7"><td class="memItemLeft"><a class="el" href="../../d5/dc9/classIntent.html">Intent</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a73d743ff3c18450ab0519527974decf7">createOpenDeckIntent</a> (const QUrlQuery &amp;query, <a class="el" href="../../d2/df5/structPendingIntentChain.html">PendingIntentChain</a> &amp;chain)</td></tr>
 <tr class="memitem:a74d864337e8ae179287c328a373d7771" id="r_a74d864337e8ae179287c328a373d7771"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a74d864337e8ae179287c328a373d7771">generateJoinGameMessage</a> (const <a class="el" href="../../d6/d37/structContextJoinGame.html">ContextJoinGame</a> &amp;context, const QString &amp;gameDescription)</td></tr>
+<tr class="memitem:a64116359fbb4218657227bce8cacaa15" id="r_a64116359fbb4218657227bce8cacaa15"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a64116359fbb4218657227bce8cacaa15">isConnectedTo</a> (const QString &amp;hostname, const QString &amp;port) const</td></tr>
+<tr class="memitem:ab321be76637f4897775db49f9aabda54" id="r_ab321be76637f4897775db49f9aabda54"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab321be76637f4897775db49f9aabda54">startNextChain</a> ()</td></tr>
+<tr class="memitem:a965c9c29b5273fa2db74e37df232f370" id="r_a965c9c29b5273fa2db74e37df232f370"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a965c9c29b5273fa2db74e37df232f370">chainEnded</a> (bool chainSucceeded)</td></tr>
+<tr class="memitem:a857509b4216609b7c8651456fc2f17db" id="r_a857509b4216609b7c8651456fc2f17db"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a857509b4216609b7c8651456fc2f17db">onChainIntentDestroyed</a> ()</td></tr>
+<tr class="memitem:a466504b577a67455eff61a398f9ef2c7" id="r_a466504b577a67455eff61a398f9ef2c7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a466504b577a67455eff61a398f9ef2c7">restorePreviousServer</a> (const <a class="el" href="../../d2/df5/structPendingIntentChain.html">PendingIntentChain</a> &amp;chain)</td></tr>
+<tr class="memitem:a109e4d6ddc79af00a8e892f34d5fdae8" id="r_a109e4d6ddc79af00a8e892f34d5fdae8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a109e4d6ddc79af00a8e892f34d5fdae8">restoreToPreviousServer</a> (const <a class="el" href="../../d2/df5/structPendingIntentChain.html">PendingIntentChain</a> &amp;chain)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a2f99e62493b2b880a76ebd2f8d1e0ecb" id="r_a2f99e62493b2b880a76ebd2f8d1e0ecb"><td class="memItemLeft"><a class="el" href="../../d6/d1a/classMainWindow.html">MainWindow</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a2f99e62493b2b880a76ebd2f8d1e0ecb">mainWindow</a></td></tr>
+<tr class="memitem:a78c7c1d8d832daa0a0e44efe805ff6c7" id="r_a78c7c1d8d832daa0a0e44efe805ff6c7"><td class="memItemLeft">QList&lt; <a class="el" href="../../d2/df5/structPendingIntentChain.html">PendingIntentChain</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a78c7c1d8d832daa0a0e44efe805ff6c7">pendingChains</a></td></tr>
+<tr class="memitem:abad2e56d4ff21928461057e72f577c17" id="r_abad2e56d4ff21928461057e72f577c17"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#abad2e56d4ff21928461057e72f577c17">chainRunning</a> = false</td></tr>
+<tr class="memitem:a456f0c308e1100e5083459c8ee84f69a" id="r_a456f0c308e1100e5083459c8ee84f69a"><td class="memItemLeft">QMetaObject::Connection&#160;</td><td class="memItemRight"><a class="el" href="#a456f0c308e1100e5083459c8ee84f69a">chainBackstopConnection</a></td></tr>
 </table>
-<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Parses cockatrice:// links and runs them as serialized intent chains. </p>
+<p>Links are parsed by action (joingame/opendeck) and translated into an intent chain. Chains are queued and run one at a time: a document can hand multiple links to the window while an earlier chain still connects, and running two connect chains concurrently tears the connection down. urlChainFinished is emitted once the queue has fully drained. </p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad88f7f57ee59f97a354d98eac3f6c346" name="ad88f7f57ee59f97a354d98eac3f6c346"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad88f7f57ee59f97a354d98eac3f6c346">&#9670;&#160;</a></span>IntentUrlParser()</h2>
 
@@ -149,6 +170,119 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a965c9c29b5273fa2db74e37df232f370" name="a965c9c29b5273fa2db74e37df232f370"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a965c9c29b5273fa2db74e37df232f370">&#9670;&#160;</a></span>chainEnded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntentUrlParser::chainEnded </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>chainSucceeded</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a965c9c29b5273fa2db74e37df232f370_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a965c9c29b5273fa2db74e37df232f370_icgraph.svg" width="100%" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab5729ab1a83c0047ebd42733f3920cde" name="ab5729ab1a83c0047ebd42733f3920cde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5729ab1a83c0047ebd42733f3920cde">&#9670;&#160;</a></span>createJoinGameIntent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/dc9/classIntent.html">Intent</a> * IntentUrlParser::createJoinGameIntent </td>
+          <td>(</td>
+          <td class="paramtype">const QUrlQuery &amp;</td>          <td class="paramname"><span class="paramname"><em>query</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/df5/structPendingIntentChain.html">PendingIntentChain</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>chain</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_ab5729ab1a83c0047ebd42733f3920cde_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_ab5729ab1a83c0047ebd42733f3920cde_icgraph.svg" width="422" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a73d743ff3c18450ab0519527974decf7" name="a73d743ff3c18450ab0519527974decf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73d743ff3c18450ab0519527974decf7">&#9670;&#160;</a></span>createOpenDeckIntent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/dc9/classIntent.html">Intent</a> * IntentUrlParser::createOpenDeckIntent </td>
+          <td>(</td>
+          <td class="paramtype">const QUrlQuery &amp;</td>          <td class="paramname"><span class="paramname"><em>query</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/df5/structPendingIntentChain.html">PendingIntentChain</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>chain</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a73d743ff3c18450ab0519527974decf7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a73d743ff3c18450ab0519527974decf7_icgraph.svg" width="432" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a74d864337e8ae179287c328a373d7771" name="a74d864337e8ae179287c328a373d7771"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a74d864337e8ae179287c328a373d7771">&#9670;&#160;</a></span>generateJoinGameMessage()</h2>
 
@@ -183,7 +317,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a74d864337e8ae179287c328a373d7771_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a74d864337e8ae179287c328a373d7771_icgraph.svg" width="655" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -210,34 +344,262 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ab232bcd027410a1475ee479ca645ae0d" name="ab232bcd027410a1475ee479ca645ae0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab232bcd027410a1475ee479ca645ae0d">&#9670;&#160;</a></span>handleJoinGame()</h2>
+<a id="a64116359fbb4218657227bce8cacaa15" name="a64116359fbb4218657227bce8cacaa15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64116359fbb4218657227bce8cacaa15">&#9670;&#160;</a></span>isConnectedTo()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void IntentUrlParser::handleJoinGame </td>
+          <td class="memname">bool IntentUrlParser::isConnectedTo </td>
           <td>(</td>
-          <td class="paramtype">const QUrlQuery &amp;</td>          <td class="paramname"><span class="paramname"><em>query</em></span></td><td>)</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>hostname</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>port</em></span>&#160;) const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_ab232bcd027410a1475ee479ca645ae0d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a64116359fbb4218657227bce8cacaa15_cgraph.svg" width="479" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_ab232bcd027410a1475ee479ca645ae0d_icgraph.svg" width="464" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a64116359fbb4218657227bce8cacaa15_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a857509b4216609b7c8651456fc2f17db" name="a857509b4216609b7c8651456fc2f17db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a857509b4216609b7c8651456fc2f17db">&#9670;&#160;</a></span>onChainIntentDestroyed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntentUrlParser::onChainIntentDestroyed </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a857509b4216609b7c8651456fc2f17db_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a857509b4216609b7c8651456fc2f17db_icgraph.svg" width="100%" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a466504b577a67455eff61a398f9ef2c7" name="a466504b577a67455eff61a398f9ef2c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a466504b577a67455eff61a398f9ef2c7">&#9670;&#160;</a></span>restorePreviousServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntentUrlParser::restorePreviousServer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/df5/structPendingIntentChain.html">PendingIntentChain</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>chain</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a466504b577a67455eff61a398f9ef2c7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a466504b577a67455eff61a398f9ef2c7_icgraph.svg" width="100%" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a109e4d6ddc79af00a8e892f34d5fdae8" name="a109e4d6ddc79af00a8e892f34d5fdae8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a109e4d6ddc79af00a8e892f34d5fdae8">&#9670;&#160;</a></span>restoreToPreviousServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntentUrlParser::restoreToPreviousServer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/df5/structPendingIntentChain.html">PendingIntentChain</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>chain</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a109e4d6ddc79af00a8e892f34d5fdae8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_a109e4d6ddc79af00a8e892f34d5fdae8_icgraph.svg" width="100%" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab321be76637f4897775db49f9aabda54" name="ab321be76637f4897775db49f9aabda54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab321be76637f4897775db49f9aabda54">&#9670;&#160;</a></span>startNextChain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntentUrlParser::startNextChain </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_ab321be76637f4897775db49f9aabda54_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_ab321be76637f4897775db49f9aabda54_icgraph.svg" width="100%" height="383"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="add68fc6596672d551d8a69344d267c49" name="add68fc6596672d551d8a69344d267c49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add68fc6596672d551d8a69344d267c49">&#9670;&#160;</a></span>urlChainFinished</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IntentUrlParser::urlChainFinished </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>connected</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted when the last queued chain ended; carries whether the client is logged in. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d47/classIntentUrlParser_add68fc6596672d551d8a69344d267c49_icgraph.svg" width="100%" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a456f0c308e1100e5083459c8ee84f69a" name="a456f0c308e1100e5083459c8ee84f69a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a456f0c308e1100e5083459c8ee84f69a">&#9670;&#160;</a></span>chainBackstopConnection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMetaObject::Connection IntentUrlParser::chainBackstopConnection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abad2e56d4ff21928461057e72f577c17" name="abad2e56d4ff21928461057e72f577c17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abad2e56d4ff21928461057e72f577c17">&#9670;&#160;</a></span>chainRunning</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IntentUrlParser::chainRunning = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2f99e62493b2b880a76ebd2f8d1e0ecb" name="a2f99e62493b2b880a76ebd2f8d1e0ecb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2f99e62493b2b880a76ebd2f8d1e0ecb">&#9670;&#160;</a></span>mainWindow</h2>
 
@@ -249,6 +611,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d6/d1a/classMainWindow.html">MainWindow</a>* IntentUrlParser::mainWindow</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78c7c1d8d832daa0a0e44efe805ff6c7" name="a78c7c1d8d832daa0a0e44efe805ff6c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78c7c1d8d832daa0a0e44efe805ff6c7">&#9670;&#160;</a></span>pendingChains</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt;<a class="el" href="../../d2/df5/structPendingIntentChain.html">PendingIntentChain</a>&gt; IntentUrlParser::pendingChains</td>
         </tr>
       </table>
   </td>

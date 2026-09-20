@@ -16,6 +16,7 @@ var classVisualDeckStorageSettings =
     [ "getVisualDeckStorageShowFolders", "d3/d93/classVisualDeckStorageSettings.html#a632ee750be6e1d6be9fde8f6d19646d6", null ],
     [ "getVisualDeckStorageShowTagFilter", "d3/d93/classVisualDeckStorageSettings.html#ac5d2df7055a7f65db0e46075fbeca278", null ],
     [ "getVisualDeckStorageShowTagsOnDeckPreviews", "d3/d93/classVisualDeckStorageSettings.html#aa69bdab8fb233816d45052d377f6bb20", null ],
+    [ "getVisualDeckStorageShowUploadTime", "d3/d93/classVisualDeckStorageSettings.html#a54143199ebcdb8dc2fdcc9d9dd9539a9", null ],
     [ "getVisualDeckStorageSortingOrder", "d3/d93/classVisualDeckStorageSettings.html#a9185f7335e8b635244862c672d54a8f3", null ],
     [ "getVisualDeckStorageTooltipType", "d3/d93/classVisualDeckStorageSettings.html#a8262af19da1cc266c5203025b78ce7f2", null ],
     [ "getVisualDeckStorageUnusedColorIdentitiesOpacity", "d3/d93/classVisualDeckStorageSettings.html#a5a1173989ab34862c002da573a6e5424", null ],
@@ -33,6 +34,7 @@ var classVisualDeckStorageSettings =
     [ "setVisualDeckStorageShowFolders", "d3/d93/classVisualDeckStorageSettings.html#a2e232385e707a676285d005d1ef9260a", null ],
     [ "setVisualDeckStorageShowTagFilter", "d3/d93/classVisualDeckStorageSettings.html#a69eceb89b0427866412d5a55050741ea", null ],
     [ "setVisualDeckStorageShowTagsOnDeckPreviews", "d3/d93/classVisualDeckStorageSettings.html#ad42618d54d75e94db5a31e678936063a", null ],
+    [ "setVisualDeckStorageShowUploadTime", "d3/d93/classVisualDeckStorageSettings.html#aff9e6cf5de5b3ee144de8caeff360add", null ],
     [ "setVisualDeckStorageSortingOrder", "d3/d93/classVisualDeckStorageSettings.html#a3dd1c5795c04e830e4dafb071b68a0f4", null ],
     [ "setVisualDeckStorageTooltipType", "d3/d93/classVisualDeckStorageSettings.html#ab0112a66dcf5fa064c96e10c78e0c85b", null ],
     [ "setVisualDeckStorageUnusedColorIdentitiesOpacity", "d3/d93/classVisualDeckStorageSettings.html#a3ff0d9c5109f036c7e2058733a71d383", null ],
@@ -46,6 +48,7 @@ var classVisualDeckStorageSettings =
     [ "visualDeckStorageShowColorIdentityChanged", "d3/d93/classVisualDeckStorageSettings.html#a26b481dbe8c60ffa451f5b34e1d95005", null ],
     [ "visualDeckStorageShowTagFilterChanged", "d3/d93/classVisualDeckStorageSettings.html#a3768366013e228b2f021d3cad5b01db7", null ],
     [ "visualDeckStorageShowTagsOnDeckPreviewsChanged", "d3/d93/classVisualDeckStorageSettings.html#a4f7bbe17ed49001c48880a9f6fff90a1", null ],
+    [ "visualDeckStorageShowUploadTimeChanged", "d3/d93/classVisualDeckStorageSettings.html#a68378bdb3c09ee4032ff6a74d7b578b5", null ],
     [ "visualDeckStorageUnusedColorIdentitiesOpacityChanged", "d3/d93/classVisualDeckStorageSettings.html#ad02baf70d5d990ba7c1c8e9e69825bff", null ],
     [ "SettingsCache", "d3/d93/classVisualDeckStorageSettings.html#a859ba68015a001567c5ef72352e7b69b", null ]
 ];

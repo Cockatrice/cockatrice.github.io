@@ -3,6 +3,7 @@ var classServersSettings =
     [ "ServersSettings", "df/db1/classServersSettings.html#af046182c285b59005158b0b4a5943393", null ],
     [ "ServersSettings", "df/db1/classServersSettings.html#af69338720818acd6eecdc3514af3c338", null ],
     [ "addNewServer", "df/db1/classServersSettings.html#aa948b173276281858d742e57075cb6ed", null ],
+    [ "findHostIndex", "df/db1/classServersSettings.html#a979840833090d3e4d1c146cc765c3037", null ],
     [ "findServerIndex", "df/db1/classServersSettings.html#afd8ed37b74b6c337635c8b29b080e52e", null ],
     [ "getAutoConnect", "df/db1/classServersSettings.html#a15e5afe87f92f887c66a074b9c4e1cd4", null ],
     [ "getClearDebugLogStatus", "df/db1/classServersSettings.html#a8d460602f5d4b6b96b0b7377dfb879aa", null ],
@@ -35,5 +36,6 @@ var classServersSettings =
     [ "setSite", "df/db1/classServersSettings.html#a0df26f6eb4dd1b4dccbe671517dfd2c3", null ],
     [ "updateExistingServer", "df/db1/classServersSettings.html#ac19792f9f126c3cd7bbd1ff14222843d", null ],
     [ "updateExistingServerWithoutLoss", "df/db1/classServersSettings.html#a04dd481e4840600a420c7423c4c2c148", null ],
+    [ "updateServerFields", "df/db1/classServersSettings.html#a17e48f3a4d698e4f4535e3fb87a873d9", null ],
     [ "SettingsCache", "df/db1/classServersSettings.html#a859ba68015a001567c5ef72352e7b69b", null ]
 ];

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -100,24 +100,66 @@ $(function(){initNavTree('d3/d32/url__parser_8cpp.html','../../',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../db/dc2/url__parser_8h_source.html">url_parser.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">../../client/settings/cache_settings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d69/tab__room_8h_source.html">../widgets/tabs/tab_room.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d89/tab__supervisor_8h_source.html">../widgets/tabs/tab_supervisor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/df4/window__main_8h_source.html">../window_main.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d87/context__join__game_8h_source.html">contexts/context_join_game.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d81/context__open__deck_8h_source.html">contexts/context_open_deck.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d6f/intent_8h_source.html">intent.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/dc9/intent__join__server__game_8h_source.html">intent_join_server_game.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d7f/intent__login_8h_source.html">intent_login.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/daa/intent__open__shared__deck_8h_source.html">intent_open_shared_deck.h</a>&quot;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
+<code>#include &lt;QLoggingCategory&gt;</code><br />
 <code>#include &lt;QMessageBox&gt;</code><br />
 <code>#include &lt;QUrl&gt;</code><br />
 <code>#include &lt;QUrlQuery&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d5/db3/abstract__client_8h_source.html">libcockatrice/network/client/abstract/abstract_client.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../db/db0/servers__settings_8h_source.html">libcockatrice/settings/servers_settings.h</a>&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for url_parser.cpp:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d7c/url__parser_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-</div></div><!-- contents -->
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a6ca628b2a54cf92fad0a4c2e69ee89ca" id="r_a6ca628b2a54cf92fad0a4c2e69ee89ca"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a6ca628b2a54cf92fad0a4c2e69ee89ca">Q_LOGGING_CATEGORY</a> (UrlParserLog, &quot;url_parser&quot;)</td></tr>
+</table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a6ca628b2a54cf92fad0a4c2e69ee89ca" name="a6ca628b2a54cf92fad0a4c2e69ee89ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ca628b2a54cf92fad0a4c2e69ee89ca">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_LOGGING_CATEGORY </td>
+          <td>(</td>
+          <td class="paramtype">UrlParserLog</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;url_parser&quot;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

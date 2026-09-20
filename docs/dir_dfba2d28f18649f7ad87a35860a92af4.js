@@ -1,6 +1,7 @@
 var dir_dfba2d28f18649f7ad87a35860a92af4 =
 [
     [ "smtp", "dir_88c12a17f5661172583bba636bb30fc0.html", "dir_88c12a17f5661172583bba636bb30fc0" ],
+    [ "deck_tag_serialization.h", "d9/d85/deck__tag__serialization_8h.html", "d9/d85/deck__tag__serialization_8h" ],
     [ "email_parser.cpp", "d7/d04/email__parser_8cpp.html", null ],
     [ "email_parser.h", "d7/de2/email__parser_8h.html", "d7/de2/email__parser_8h" ],
     [ "event_loop_watchdog.cpp", "d7/dcc/event__loop__watchdog_8cpp.html", null ],

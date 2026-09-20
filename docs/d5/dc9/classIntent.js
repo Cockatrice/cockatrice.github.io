@@ -2,7 +2,9 @@ var classIntent =
 [
     [ "Intent", "d5/dc9/classIntent.html#af94ef411fa9156a6bb302b90c3161d75", null ],
     [ "~Intent", "d5/dc9/classIntent.html#a6cecac1f9b27fd4b98dd2b572e4b9d11", null ],
+    [ "cancelled", "d5/dc9/classIntent.html#ada9770e56135698396193de29b628ff6", null ],
     [ "checkPrecondition", "d5/dc9/classIntent.html#abb14c929d1065b2f5167d4851838bd22", null ],
+    [ "emitCancelled", "d5/dc9/classIntent.html#a4c305566b181027d762090fad88e1d80", null ],
     [ "emitFailed", "d5/dc9/classIntent.html#a9e9371903c31fd2c519260a729dc5309", null ],
     [ "emitFinished", "d5/dc9/classIntent.html#a523a7d664652b9ff85feda589dcb3d49", null ],
     [ "execute", "d5/dc9/classIntent.html#ab89972465ba1e6e5e360e6d72d5e9771", null ],

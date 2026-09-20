@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -163,6 +163,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a28dcc3bf4a1b391526eee02945832c2b" id="r_a28dcc3bf4a1b391526eee02945832c2b"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a28dcc3bf4a1b391526eee02945832c2b">getMaxGameInactivityTime</a> () const override</td></tr>
 <tr class="memitem:a39bdd7bc2800b5488f114dda9a807d6f" id="r_a39bdd7bc2800b5488f114dda9a807d6f"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a39bdd7bc2800b5488f114dda9a807d6f">getMaxPlayerInactivityTime</a> () const override</td></tr>
 <tr class="memitem:adec18699c6d9527873342cf8e26585fe" id="r_adec18699c6d9527873342cf8e26585fe"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#adec18699c6d9527873342cf8e26585fe">getClientKeepAlive</a> () const override</td></tr>
+<tr class="memitem:a120a2692791bf28110e0b699d2a4880a" id="r_a120a2692791bf28110e0b699d2a4880a"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a120a2692791bf28110e0b699d2a4880a">getDeckShareExpiryDays</a> () const</td></tr>
+<tr class="memitem:a0393329a283cd1ef0de35d054eeb9a49" id="r_a0393329a283cd1ef0de35d054eeb9a49"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a0393329a283cd1ef0de35d054eeb9a49">getDeckShareCleanupInterval</a> () const</td></tr>
+<tr class="memitem:aee00d6a39d567ae7f1ada131cb7d116d" id="r_aee00d6a39d567ae7f1ada131cb7d116d"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aee00d6a39d567ae7f1ada131cb7d116d">getDeckShareMaxDecksPerShare</a> () const</td></tr>
+<tr class="memitem:a9e67eb698343b79d88049a9d5a6d78a1" id="r_a9e67eb698343b79d88049a9d5a6d78a1"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a9e67eb698343b79d88049a9d5a6d78a1">getDeckShareMaxSharesPerDay</a> () const</td></tr>
 <tr class="memitem:a1f3e139f4a7f15fa3e590c952e705e93" id="r_a1f3e139f4a7f15fa3e590c952e705e93"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a1f3e139f4a7f15fa3e590c952e705e93">getMaxUsersPerAddress</a> () const</td></tr>
 <tr class="memitem:a0201ff028f10e23671941fddef338323" id="r_a0201ff028f10e23671941fddef338323"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a0201ff028f10e23671941fddef338323">getMessageCountingInterval</a> () const override</td></tr>
 <tr class="memitem:a2850a8246a0c9627df8c4fba7815920c" id="r_a2850a8246a0c9627df8c4fba7815920c"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a2850a8246a0c9627df8c4fba7815920c">getMaxMessageCountPerInterval</a> () const override</td></tr>
@@ -253,6 +257,7 @@ Private Types</h2></td></tr>
 Private Slots</h2></td></tr>
 <tr class="memitem:a68e0c50f6eb27af2efd8a3d6ae39882f" id="r_a68e0c50f6eb27af2efd8a3d6ae39882f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a68e0c50f6eb27af2efd8a3d6ae39882f">statusUpdate</a> ()</td></tr>
 <tr class="memitem:a284967101fe62a3eaf29dd99f9f084da" id="r_a284967101fe62a3eaf29dd99f9f084da"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a284967101fe62a3eaf29dd99f9f084da">shutdownTimeout</a> ()</td></tr>
+<tr class="memitem:a541ca5f116fbded03d5c0b54fefdd8e9" id="r_a541ca5f116fbded03d5c0b54fefdd8e9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a541ca5f116fbded03d5c0b54fefdd8e9">cleanupExpiredDeckShares</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -282,6 +287,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a50c4f0501bd5015c14c8f9e7cc2be038" id="r_a50c4f0501bd5015c14c8f9e7cc2be038"><td class="memItemLeft"><a class="el" href="#a47a0f6c8186a694ad51d117cb31cb15d">DatabaseType</a>&#160;</td><td class="memItemRight"><a class="el" href="#a50c4f0501bd5015c14c8f9e7cc2be038">databaseType</a></td></tr>
 <tr class="memitem:a4b500b146d4c98548493e16752c02921" id="r_a4b500b146d4c98548493e16752c02921"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#a4b500b146d4c98548493e16752c02921">pingClock</a></td></tr>
 <tr class="memitem:ad63ae85829a4e7e8bf20702157e43530" id="r_ad63ae85829a4e7e8bf20702157e43530"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#ad63ae85829a4e7e8bf20702157e43530">statusUpdateClock</a></td></tr>
+<tr class="memitem:aedb91aef9ceb3be18ed46f0686e4fdf9" id="r_aedb91aef9ceb3be18ed46f0686e4fdf9"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#aedb91aef9ceb3be18ed46f0686e4fdf9">deckShareCleanupClock</a></td></tr>
 <tr class="memitem:aef1eed2de0478d142ce4d26850f59773" id="r_aef1eed2de0478d142ce4d26850f59773"><td class="memItemLeft"><a class="el" href="../../d2/dcd/classServatrice__GameServer.html">Servatrice_GameServer</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aef1eed2de0478d142ce4d26850f59773">gameServer</a></td></tr>
 <tr class="memitem:ac098e504ae78d781a6832a98fb4e32a2" id="r_ac098e504ae78d781a6832a98fb4e32a2"><td class="memItemLeft"><a class="el" href="../../df/daa/classServatrice__WebsocketGameServer.html">Servatrice_WebsocketGameServer</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ac098e504ae78d781a6832a98fb4e32a2">websocketGameServer</a></td></tr>
 <tr class="memitem:aaec8c775029e907aa6cbaded1f66466a" id="r_aaec8c775029e907aa6cbaded1f66466a"><td class="memItemLeft"><a class="el" href="../../df/d52/classServatrice__IslServer.html">Servatrice_IslServer</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aaec8c775029e907aa6cbaded1f66466a">islServer</a></td></tr>
@@ -518,6 +524,36 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a541ca5f116fbded03d5c0b54fefdd8e9" name="a541ca5f116fbded03d5c0b54fefdd8e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a541ca5f116fbded03d5c0b54fefdd8e9">&#9670;&#160;</a></span>cleanupExpiredDeckShares</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servatrice::cleanupExpiredDeckShares </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a541ca5f116fbded03d5c0b54fefdd8e9_icgraph.svg" width="414" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -924,6 +960,79 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_ae5f67237da6f91abe78953f69f3fc035_icgraph.svg" width="423" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a id="a0393329a283cd1ef0de35d054eeb9a49" name="a0393329a283cd1ef0de35d054eeb9a49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0393329a283cd1ef0de35d054eeb9a49">&#9670;&#160;</a></span>getDeckShareCleanupInterval()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::getDeckShareCleanupInterval </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a0393329a283cd1ef0de35d054eeb9a49_icgraph.svg" width="404" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a120a2692791bf28110e0b699d2a4880a" name="a120a2692791bf28110e0b699d2a4880a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a120a2692791bf28110e0b699d2a4880a">&#9670;&#160;</a></span>getDeckShareExpiryDays()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::getDeckShareExpiryDays </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee00d6a39d567ae7f1ada131cb7d116d" name="aee00d6a39d567ae7f1ada131cb7d116d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee00d6a39d567ae7f1ada131cb7d116d">&#9670;&#160;</a></span>getDeckShareMaxDecksPerShare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::getDeckShareMaxDecksPerShare </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e67eb698343b79d88049a9d5a6d78a1" name="a9e67eb698343b79d88049a9d5a6d78a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e67eb698343b79d88049a9d5a6d78a1">&#9670;&#160;</a></span>getDeckShareMaxSharesPerDay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::getDeckShareMaxSharesPerDay </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2932,6 +3041,28 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QString Servatrice::dbPrefix</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aedb91aef9ceb3be18ed46f0686e4fdf9" name="aedb91aef9ceb3be18ed46f0686e4fdf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedb91aef9ceb3be18ed46f0686e4fdf9">&#9670;&#160;</a></span>deckShareCleanupClock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTimer* Servatrice::deckShareCleanupClock</td>
         </tr>
       </table>
   </td>

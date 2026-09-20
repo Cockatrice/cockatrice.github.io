@@ -29,6 +29,8 @@ var dir_997302a10e9962ab00e284769d488188 =
     [ "tab_message.h", "df/d37/tab__message_8h.html", "df/d37/tab__message_8h" ],
     [ "tab_moderation.cpp", "da/d63/tab__moderation_8cpp.html", null ],
     [ "tab_moderation.h", "d3/d9e/tab__moderation_8h.html", "d3/d9e/tab__moderation_8h" ],
+    [ "tab_public_decks.cpp", "d2/d0f/tab__public__decks_8cpp.html", null ],
+    [ "tab_public_decks.h", "db/d1c/tab__public__decks_8h.html", "db/d1c/tab__public__decks_8h" ],
     [ "tab_replays.cpp", "d5/d63/tab__replays_8cpp.html", "d5/d63/tab__replays_8cpp" ],
     [ "tab_replays.h", "de/d3a/tab__replays_8h.html", "de/d3a/tab__replays_8h" ],
     [ "tab_report.cpp", "d2/d90/tab__report_8cpp.html", null ],

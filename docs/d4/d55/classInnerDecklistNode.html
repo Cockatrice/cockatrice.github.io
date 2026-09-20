@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -171,6 +171,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0b5a2e95bbf05f6d153f222dcb00a5cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translate an internal name into a user-visible name.  <br /></td></tr>
 <tr class="memitem:ac79e52cd241520737e4ac83673cd2520" id="r_ac79e52cd241520737e4ac83673cd2520"><td class="memItemLeft">static const QList&lt; QString &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ac79e52cd241520737e4ac83673cd2520">boardZoneNames</a> ()</td></tr>
 <tr class="memdesc:ac79e52cd241520737e4ac83673cd2520"><td class="mdescLeft">&#160;</td><td class="mdescRight">The standard board zone names, in display order.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a87fbd10ea29306bc969b568f6a64dd22" id="r_a87fbd10ea29306bc969b568f6a64dd22"><td class="memItemLeft">QVector&lt; QPair&lt; int, <a class="el" href="../../dc/dd8/classAbstractDecklistNode.html">AbstractDecklistNode</a> * &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a87fbd10ea29306bc969b568f6a64dd22">indexedSnapshot</a> () const</td></tr>
+<tr class="memdesc:a87fbd10ea29306bc969b568f6a64dd22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Snapshots the current children as (old index, node) pairs.  <br /></td></tr>
+<tr class="memitem:af4a824c1a88735f1ed62f89b9c98ff0c" id="r_af4a824c1a88735f1ed62f89b9c98ff0c"><td class="memItemLeft">QVector&lt; QPair&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af4a824c1a88735f1ed62f89b9c98ff0c">applySortedOrder</a> (const QVector&lt; QPair&lt; int, <a class="el" href="../../dc/dd8/classAbstractDecklistNode.html">AbstractDecklistNode</a> * &gt; &gt; &amp;sorted)</td></tr>
+<tr class="memdesc:af4a824c1a88735f1ed62f89b9c98ff0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces this node's children with <code class="param">sorted</code> and maps old indexes to new ones.  <br /></td></tr>
+<tr class="memitem:a00d0ad3db930e3374d2c2d2599c2d661" id="r_a00d0ad3db930e3374d2c2d2599c2d661"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a00d0ad3db930e3374d2c2d2599c2d661">readCardElement</a> (QXmlStreamReader *xml, int remainingBudget)</td></tr>
+<tr class="memdesc:a00d0ad3db930e3374d2c2d2599c2d661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a single <span class="tt">card</span> element and appends it to this node.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -346,6 +355,39 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="af4a824c1a88735f1ed62f89b9c98ff0c" name="af4a824c1a88735f1ed62f89b9c98ff0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4a824c1a88735f1ed62f89b9c98ff0c">&#9670;&#160;</a></span>applySortedOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt; QPair&lt; int, int &gt; &gt; InnerDecklistNode::applySortedOrder </td>
+          <td>(</td>
+          <td class="paramtype">const QVector&lt; QPair&lt; int, <a class="el" href="../../dc/dd8/classAbstractDecklistNode.html">AbstractDecklistNode</a> * &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>sorted</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replaces this node's children with <code class="param">sorted</code> and maps old indexes to new ones. </p>
+<dl class="section return"><dt>Returns</dt><dd>A list of (old index, new index) pairs for each reordered child. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d55/classInnerDecklistNode_af4a824c1a88735f1ed62f89b9c98ff0c_icgraph.svg" width="384" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ac79e52cd241520737e4ac83673cd2520" name="ac79e52cd241520737e4ac83673cd2520"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac79e52cd241520737e4ac83673cd2520">&#9670;&#160;</a></span>boardZoneNames()</h2>
 
@@ -788,6 +830,38 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a87fbd10ea29306bc969b568f6a64dd22" name="a87fbd10ea29306bc969b568f6a64dd22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87fbd10ea29306bc969b568f6a64dd22">&#9670;&#160;</a></span>indexedSnapshot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt; QPair&lt; int, <a class="el" href="../../dc/dd8/classAbstractDecklistNode.html">AbstractDecklistNode</a> * &gt; &gt; InnerDecklistNode::indexedSnapshot </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Snapshots the current children as (old index, node) pairs. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d55/classInnerDecklistNode_a87fbd10ea29306bc969b568f6a64dd22_icgraph.svg" width="384" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a92527157347c6cce163b5da1f80bf997" name="a92527157347c6cce163b5da1f80bf997"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a92527157347c6cce163b5da1f80bf997">&#9670;&#160;</a></span>isDeckHeader()</h2>
 
@@ -813,6 +887,44 @@ Here is the call graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>Always true; <a class="el" href="../../d4/d55/classInnerDecklistNode.html" title="Represents a container node in the deck list hierarchy (zones and groupings).">InnerDecklistNode</a> represents deck structure. </dd></dl>
 
 <p>Implements <a class="el" href="../../dc/dd8/classAbstractDecklistNode.html#a9888346a6af100b2f95b5bc4d661711c">AbstractDecklistNode</a>.</p>
+
+</div>
+</div>
+<a id="a00d0ad3db930e3374d2c2d2599c2d661" name="a00d0ad3db930e3374d2c2d2599c2d661"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00d0ad3db930e3374d2c2d2599c2d661">&#9670;&#160;</a></span>readCardElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InnerDecklistNode::readCardElement </td>
+          <td>(</td>
+          <td class="paramtype">QXmlStreamReader *</td>          <td class="paramname"><span class="paramname"><em>xml</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>remainingBudget</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reads a single <span class="tt">card</span> element and appends it to this node. </p>
+<p>The card's quantity is capped at <code class="param">remainingBudget</code> so a malicious or oversized deck file cannot push the total card count past the deck size limit.</p>
+<dl class="section return"><dt>Returns</dt><dd>The amount of cards actually added. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d55/classInnerDecklistNode_a00d0ad3db930e3374d2c2d2599c2d661_icgraph.svg" width="615" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -847,7 +959,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d55/classInnerDecklistNode_a43053dcf3c01f3142034533cf57cbba4_cgraph.svg" width="579" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d55/classInnerDecklistNode_a43053dcf3c01f3142034533cf57cbba4_cgraph.svg" width="579" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -995,6 +1107,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A QVector of (oldIndex, newIndex) pairs indicating how children were reordered. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d55/classInnerDecklistNode_ad296ae03fd556033ea46ec2a20ed9bce_cgraph.svg" width="384" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>

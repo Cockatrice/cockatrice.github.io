@@ -6,5 +6,6 @@ var group__VisualDeckPreviewWidgets =
     [ "deck_preview_tag_dialog.h", "d8/d8b/deck__preview__tag__dialog_8h.html", null ],
     [ "deck_preview_tag_display_widget.h", "d8/d6a/deck__preview__tag__display__widget_8h.html", null ],
     [ "deck_preview_tag_item_widget.h", "d7/d8b/deck__preview__tag__item__widget_8h.html", null ],
-    [ "deck_preview_widget.h", "da/d94/deck__preview__widget_8h.html", null ]
+    [ "deck_preview_widget.h", "da/d94/deck__preview__widget_8h.html", null ],
+    [ "public_deck_preview_widget.h", "da/d52/public__deck__preview__widget_8h.html", null ]
 ];

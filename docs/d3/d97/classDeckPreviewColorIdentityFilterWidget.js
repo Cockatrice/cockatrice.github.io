@@ -1,6 +1,6 @@
 var classDeckPreviewColorIdentityFilterWidget =
 [
-    [ "DeckPreviewColorIdentityFilterWidget", "d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a7b73454a465dd1a7d8030b6c7c42cb8b", null ],
+    [ "DeckPreviewColorIdentityFilterWidget", "d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a5fa82106fd5d318d8f2840afc497b356", null ],
     [ "activeColorsChanged", "d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a34d4d4a21bae7fa54d24744d4c48ff1e", null ],
     [ "filterModeChanged", "d3/d97/classDeckPreviewColorIdentityFilterWidget.html#a4cc3a9b629d246625f8d784bb1fed45d", null ],
     [ "getActiveColors", "d3/d97/classDeckPreviewColorIdentityFilterWidget.html#af242ce159c3ea171a007bda482c8e709", null ],

@@ -1,0 +1,26 @@
+var classPublicDeckPreviewWidget =
+[
+    [ "PublicDeckPreviewWidget", "d8/d3b/classPublicDeckPreviewWidget.html#a13b894912acf0667512ee54f398db929", null ],
+    [ "imageClickedEvent", "d8/d3b/classPublicDeckPreviewWidget.html#a0c1e7a2c3ead041867d68cd6569dc65c", null ],
+    [ "imageDoubleClickedEvent", "d8/d3b/classPublicDeckPreviewWidget.html#a0a64076a448a28b7837dce99a391101a", null ],
+    [ "keyPressEvent", "d8/d3b/classPublicDeckPreviewWidget.html#a6197e376d36c62cb1f04a563848cde75", null ],
+    [ "openDeckRequested", "d8/d3b/classPublicDeckPreviewWidget.html#a2c1664e84a1bb0ab0e8c827cb12ab164", null ],
+    [ "resizeEvent", "d8/d3b/classPublicDeckPreviewWidget.html#ab931da10d36ea153e83373cb93c01a89", null ],
+    [ "setBaseAccessibleName", "d8/d3b/classPublicDeckPreviewWidget.html#a56a3b4372f7c3f066e529ca49a31f8af", null ],
+    [ "setEntry", "d8/d3b/classPublicDeckPreviewWidget.html#aa2348c3de7f260424ab42f7664becbbe", null ],
+    [ "setScaleFactor", "d8/d3b/classPublicDeckPreviewWidget.html#a05622648ea783954fd5e85dfd883aab5", null ],
+    [ "updateColorIdentityVisibility", "d8/d3b/classPublicDeckPreviewWidget.html#a688eafcc6554741ab150bbc6234ab1f4", null ],
+    [ "updateTagsVisibility", "d8/d3b/classPublicDeckPreviewWidget.html#a7e18796b67b286ebdb325aac452978e8", null ],
+    [ "updateUploadTimeVisibility", "d8/d3b/classPublicDeckPreviewWidget.html#ab895a52e9928750af136e7117bbd2862", null ],
+    [ "bannerCardDisplayWidget", "d8/d3b/classPublicDeckPreviewWidget.html#aeac6da39f2fd77f4de21f97bedc7cc94", null ],
+    [ "baseAccessibleName", "d8/d3b/classPublicDeckPreviewWidget.html#a3b1a28ba8bd7f75696d2e2e747c8d12e", null ],
+    [ "colorIdentityWidget", "d8/d3b/classPublicDeckPreviewWidget.html#a0fa0d2ef5604a04e8a7c3d269a1c5ec3", null ],
+    [ "deckId", "d8/d3b/classPublicDeckPreviewWidget.html#aeeffc070969e81ac29c97f484c5ec214", null ],
+    [ "fixedWidthChildren", "d8/d3b/classPublicDeckPreviewWidget.html#a871403906f6d7a0d19e0c03dc2758fed", null ],
+    [ "hasColorIdentity", "d8/d3b/classPublicDeckPreviewWidget.html#a1a0bbbec6c752c4b2a1ec0fea2c03a88", null ],
+    [ "hasTags", "d8/d3b/classPublicDeckPreviewWidget.html#aa1199c7cf26c94023c0524569ce1ca86", null ],
+    [ "hasUploadTime", "d8/d3b/classPublicDeckPreviewWidget.html#acacb001ebce5da42b2b1bd880a241556", null ],
+    [ "lastKnownBannerWidth", "d8/d3b/classPublicDeckPreviewWidget.html#a0dd195b4d019265f1b0c20524137a501", null ],
+    [ "tagsFlowWidget", "d8/d3b/classPublicDeckPreviewWidget.html#a7f6c90c739e13c9d14b6e2f8af4c5d54", null ],
+    [ "uploadTimeLabel", "d8/d3b/classPublicDeckPreviewWidget.html#aa8fec60b1f4be705d19e963fb0ce4616", null ]
+];

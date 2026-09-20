@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -111,7 +111,7 @@ Update Your Client</h1>
 Check Your Download URLs</h1>
 <p>Card pictures are downloaded from a list of URL templates. Each template is tried in order until one produces a valid image, so the order matters: URLs at the top of the list are tried first.</p>
 <p>The list can be found in 'Cockatrice → Settings' (or Ctrl + Shift + P by default), on the 'Deck Editor' tab, in the 'URL Download Priority' section. Make sure 'Download card pictures on the fly' is enabled and that the list contains valid URLs. If you suspect the list has been modified or corrupted, press 'Reset Download URLs' to restore the defaults.</p>
-<p>For information on how to add your own custom URL templates, see the 'How to add a custom URL' link in the same settings section.</p>
+<p>For information on how to add your own custom URL templates, see the 'How to add a custom URL' link in the same settings section, or <a class="el" href="../../dc/d4d/custom_card_pictures.html" title="Custom Card Pictures">Custom Card Pictures</a> for a full reference of the URL reference points, the CUSTOM pictures folder, and custom card databases.</p>
 <h1 class="doxsection"><a class="anchor" id="check-your-local-picture-folder"></a>
 Check Your Local Picture Folder</h1>
 <p>Before any network request is made, Cockatrice looks for local image files. If a matching file is found on disk it is shown instead of anything downloaded, even if it is the wrong image.</p>
@@ -120,8 +120,10 @@ Check Your Local Picture Folder</h1>
 <li>The custom pictures folder (recursively indexed by file name).</li>
 <li><span class="tt">&lt;pictures directory&gt;/&lt;set code&gt;/&lt;card file name&gt;</span></li>
 <li><span class="tt">&lt;pictures directory&gt;/downloadedPics/&lt;set code&gt;/&lt;card file name&gt;</span></li>
+<li><span class="tt">&lt;pictures directory&gt;/downloadedPics/&lt;card file name&gt;</span> (for export naming schemes without a set folder)</li>
 </ul>
-<p>The following import naming schemes are recognized (using both <span class="tt">_</span> and <span class="tt">-</span> as separators):</p>
+<p>A file only matches when its name without the extension equals one of the recognized scheme patterns exactly.</p>
+<p>The following import naming schemes are recognized (using both <span class="tt">_</span> and <span class="tt">-</span> as separators). The canonical table with concrete example file names is on custom_card_pictures:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Scheme  </th><th class="markdownTableHeadNone">Pattern  </th></tr>
@@ -137,6 +139,7 @@ Check Your Local Picture Folder</h1>
 <td class="markdownTableBodyNone">Card Name  </td><td class="markdownTableBodyNone"><span class="tt">{name}</span>  </td></tr>
 </table>
 <p>If a picture you downloaded or placed manually is wrong, stale, or corrupted, delete the offending file. Pay special attention to the <span class="tt">downloadedPics</span> subfolder: this is where the filesystem caching method writes downloaded images, and after a provider outage it can permanently contain the wrong printing until you delete it manually.</p>
+<p>If a card persistently shows artwork you assigned yourself, you may have an <b>image override</b> set for it. Right-click the card in the deck editor's printing selector and use 'Image Overrides' → 'Clear Custom Image' to remove it (or delete the stored <span class="tt">.png</span> in <span class="tt">downloadedPics/</span>). See <a class="el" href="../../dc/d4d/custom_card_pictures.html" title="Custom Card Pictures">Custom Card Pictures</a> for details.</p>
 <p>See <a class="el" href="../../d9/d1c/loading_card_pictures.html" title="Loading Card Pictures">Loading Card Pictures</a> for details on how local images are loaded.</p>
 <h1 class="doxsection"><a class="anchor" id="clear-caches"></a>
 Clear Caches</h1>

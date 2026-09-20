@@ -31,6 +31,7 @@ var group__DeckEditorTabs =
       [ "actSaveDeckToClipboardNoSetInfo", "d1/d53/classAbstractTabDeckEditor.html#abe38891877241adeebf6c1e1a3e47f2e", null ],
       [ "actSaveDeckToClipboardRaw", "d1/d53/classAbstractTabDeckEditor.html#aa3363512fc413e709107ad6aa35c80ea", null ],
       [ "actSaveDeckToClipboardRawNoSetInfo", "d1/d53/classAbstractTabDeckEditor.html#a4db53498850fc1d3a722d74b4716ccb6", null ],
+      [ "actShareDeck", "d1/d53/classAbstractTabDeckEditor.html#ac56eb9f484733316cff51522306006a7", null ],
       [ "addCard", "d1/d53/classAbstractTabDeckEditor.html#acfcafa6ea5275d7a5d647724c63e92bf", null ],
       [ "cleanDeckAndResetModified", "d1/d53/classAbstractTabDeckEditor.html#a93bbff3de817dcf42b24e6b06b93e9ec", null ],
       [ "closeEvent", "d1/d53/classAbstractTabDeckEditor.html#af60e45537569c1a11510b52237204208", null ],

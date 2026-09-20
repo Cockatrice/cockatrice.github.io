@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -135,6 +135,16 @@ Public Types</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="#a0003a7eb3a8f42234cb435bfebdcd700a29c40ca421210c33ff7ecbdafbfd440e">REQUEST_PASSWORD_SALT</a> = 1024
 , <a class="el" href="#a0003a7eb3a8f42234cb435bfebdcd700a7bee8c720b69150c3d83a3135517c170">SET_CARD_ART_PARAMS</a> = 1025
+, <a class="el" href="#a0003a7eb3a8f42234cb435bfebdcd700a89602c72484fb1fd3f2fb8ad74b95094">DECK_SHARE_CREATE</a> = 1026
+, <a class="el" href="#a0003a7eb3a8f42234cb435bfebdcd700a00325d51f87c143d67e9362df4af6a48">DECK_SHARE_LIST</a> = 1027
+, <br />
+&#160;&#160;<a class="el" href="#a0003a7eb3a8f42234cb435bfebdcd700aba09ca2a9d68579062dd9ee3f122b23a">DECK_SHARE_DOWNLOAD</a> = 1028
+, <a class="el" href="#a0003a7eb3a8f42234cb435bfebdcd700ade54a6063910f121d720baa4135b837b">DECK_LIST_OTHER_USER</a> = 1029
+, <a class="el" href="#a0003a7eb3a8f42234cb435bfebdcd700a60cb8284fce1d6522b9ed5ef61447b2d">DECK_SET_VISIBILITY</a> = 1030
+, <a class="el" href="#a0003a7eb3a8f42234cb435bfebdcd700a9891e2f39339a05f939cbde51c4ecb5d">DECK_DOWNLOAD_PUBLIC</a> = 1031
+, <br />
+&#160;&#160;<a class="el" href="#a0003a7eb3a8f42234cb435bfebdcd700ab85e3952171c947c6ce8ede38f16568f">DECK_SHARE_LIST_MINE</a> = 1032
+, <a class="el" href="#a0003a7eb3a8f42234cb435bfebdcd700a97a39bd57e1c7e4e3c0c91716746e544">DECK_SHARE_REMOVE</a> = 1033
 , <a class="el" href="#a0003a7eb3a8f42234cb435bfebdcd700ab49ebb5b6e830efe87a2c6f197ff6574">REPLAY_LIST</a> = 1100
 , <a class="el" href="#a0003a7eb3a8f42234cb435bfebdcd700a653c24e35bb18efb2f83a056f192fd85">REPLAY_DOWNLOAD</a> = 1101
 , <br />
@@ -193,6 +203,14 @@ Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700a0d80048c19cca74caf50461da31b988a" name="a0003a7eb3a8f42234cb435bfebdcd700a0d80048c19cca74caf50461da31b988a"></a>FORGOT_PASSWORD_CHALLENGE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700a29c40ca421210c33ff7ecbdafbfd440e" name="a0003a7eb3a8f42234cb435bfebdcd700a29c40ca421210c33ff7ecbdafbfd440e"></a>REQUEST_PASSWORD_SALT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700a7bee8c720b69150c3d83a3135517c170" name="a0003a7eb3a8f42234cb435bfebdcd700a7bee8c720b69150c3d83a3135517c170"></a>SET_CARD_ART_PARAMS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700a89602c72484fb1fd3f2fb8ad74b95094" name="a0003a7eb3a8f42234cb435bfebdcd700a89602c72484fb1fd3f2fb8ad74b95094"></a>DECK_SHARE_CREATE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700a00325d51f87c143d67e9362df4af6a48" name="a0003a7eb3a8f42234cb435bfebdcd700a00325d51f87c143d67e9362df4af6a48"></a>DECK_SHARE_LIST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700aba09ca2a9d68579062dd9ee3f122b23a" name="a0003a7eb3a8f42234cb435bfebdcd700aba09ca2a9d68579062dd9ee3f122b23a"></a>DECK_SHARE_DOWNLOAD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700ade54a6063910f121d720baa4135b837b" name="a0003a7eb3a8f42234cb435bfebdcd700ade54a6063910f121d720baa4135b837b"></a>DECK_LIST_OTHER_USER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700a60cb8284fce1d6522b9ed5ef61447b2d" name="a0003a7eb3a8f42234cb435bfebdcd700a60cb8284fce1d6522b9ed5ef61447b2d"></a>DECK_SET_VISIBILITY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700a9891e2f39339a05f939cbde51c4ecb5d" name="a0003a7eb3a8f42234cb435bfebdcd700a9891e2f39339a05f939cbde51c4ecb5d"></a>DECK_DOWNLOAD_PUBLIC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700ab85e3952171c947c6ce8ede38f16568f" name="a0003a7eb3a8f42234cb435bfebdcd700ab85e3952171c947c6ce8ede38f16568f"></a>DECK_SHARE_LIST_MINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700a97a39bd57e1c7e4e3c0c91716746e544" name="a0003a7eb3a8f42234cb435bfebdcd700a97a39bd57e1c7e4e3c0c91716746e544"></a>DECK_SHARE_REMOVE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700ab49ebb5b6e830efe87a2c6f197ff6574" name="a0003a7eb3a8f42234cb435bfebdcd700ab49ebb5b6e830efe87a2c6f197ff6574"></a>REPLAY_LIST&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700a653c24e35bb18efb2f83a056f192fd85" name="a0003a7eb3a8f42234cb435bfebdcd700a653c24e35bb18efb2f83a056f192fd85"></a>REPLAY_DOWNLOAD&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0003a7eb3a8f42234cb435bfebdcd700ab21822177cddfd9882df605aaf4ed566" name="a0003a7eb3a8f42234cb435bfebdcd700ab21822177cddfd9882df605aaf4ed566"></a>REPLAY_MODIFY_MATCH&#160;</td><td class="fielddoc"></td></tr>

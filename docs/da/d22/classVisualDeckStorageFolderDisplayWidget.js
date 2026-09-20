@@ -12,6 +12,7 @@ var classVisualDeckStorageFolderDisplayWidget =
     [ "reconcile", "da/d22/classVisualDeckStorageFolderDisplayWidget.html#ab9cc6ab82975ba1eb871246491660aec", null ],
     [ "refreshVisibility", "da/d22/classVisualDeckStorageFolderDisplayWidget.html#a2d7fd66eabb9770fc2f8c11050b19ddb", null ],
     [ "scheduleReconcile", "da/d22/classVisualDeckStorageFolderDisplayWidget.html#aedcc1df3a74edf7070173f8dfabd262e", null ],
+    [ "setShareSelectable", "da/d22/classVisualDeckStorageFolderDisplayWidget.html#a9a6a374c010c8f276fb9b207587f3b06", null ],
     [ "updateShowFolders", "da/d22/classVisualDeckStorageFolderDisplayWidget.html#ab557f19828493bf2e073ef1852776c5b", null ],
     [ "container", "da/d22/classVisualDeckStorageFolderDisplayWidget.html#a1661e3a1c30a10e015c420947c256260", null ],
     [ "containerLayout", "da/d22/classVisualDeckStorageFolderDisplayWidget.html#a69a41841db7719c50d5fed4fc93d3fcd", null ],

@@ -6,5 +6,6 @@ var searchData=
   ['decklistmodelcustomzones_3',['DeckListModelCustomZones',['../db/da5/namespaceDeckListModelCustomZones.html',1,'']]],
   ['decklistmodelgroupcriteria_4',['DeckListModelGroupCriteria',['../d2/d91/namespaceDeckListModelGroupCriteria.html',1,'']]],
   ['decklistplaintext_5',['DeckListPlainText',['../d3/df1/namespaceDeckListPlainText.html',1,'']]],
-  ['deckroles_6',['DeckRoles',['../d5/d55/namespaceDeckRoles.html',1,'']]]
+  ['deckroles_6',['DeckRoles',['../d5/d55/namespaceDeckRoles.html',1,'']]],
+  ['deckshareutils_7',['DeckShareUtils',['../de/d57/namespaceDeckShareUtils.html',1,'']]]
 ];

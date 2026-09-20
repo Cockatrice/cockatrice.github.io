@@ -21,6 +21,7 @@ var classDecklistNodeTree =
     [ "isEmpty", "db/df8/classDecklistNodeTree.html#a45f279d4671116e0d608c26ccac43771", null ],
     [ "moveCustomZone", "db/df8/classDecklistNodeTree.html#a6aeb7b0fbf4ae1ed9fae02d59a13c661", null ],
     [ "operator=", "db/df8/classDecklistNodeTree.html#a7c8f50219949cf9dee710ff7c15af0b6", null ],
+    [ "pruneEmptyBoardZone", "db/df8/classDecklistNodeTree.html#ae61944d216fd249e8d23ca192bb1f524", null ],
     [ "readZoneElement", "db/df8/classDecklistNodeTree.html#ab1b6973cbdcc24db1356271cbed31e72", null ],
     [ "removeCustomZone", "db/df8/classDecklistNodeTree.html#af7dfde574f1fa1043bce8c49dc097401", null ],
     [ "renameCustomZone", "db/df8/classDecklistNodeTree.html#aa0895b2cb5402afaf7f010af0e0f91d6", null ],

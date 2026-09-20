@@ -1,0 +1,7 @@
+var deck__share__utils_8cpp =
+[
+    [ "DeckShareUtils::buildShareLink", "de/d57/namespaceDeckShareUtils.html#a192e13cc7bffc65a0605049be2194acf", null ],
+    [ "DeckShareUtils::copyShareLinkToClipboard", "de/d57/namespaceDeckShareUtils.html#a5d14d5820b21e6cd51249979d921f1ca", null ],
+    [ "DeckShareUtils::formatShareExpiry", "de/d57/namespaceDeckShareUtils.html#aa947a4c253a0396dcabaabeda0e11e01", null ],
+    [ "DeckShareUtils::handleShareResponse", "de/d57/namespaceDeckShareUtils.html#a72fbd4317e19c984fad17f6c1a692994", null ]
+];

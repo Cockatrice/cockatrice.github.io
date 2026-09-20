@@ -63,9 +63,10 @@ var searchData=
   ['visualdeckstorageshowcoloridentitychanged_60',['visualDeckStorageShowColorIdentityChanged',['../d3/d93/classVisualDeckStorageSettings.html#a26b481dbe8c60ffa451f5b34e1d95005',1,'VisualDeckStorageSettings']]],
   ['visualdeckstorageshowtagfilterchanged_61',['visualDeckStorageShowTagFilterChanged',['../d3/d93/classVisualDeckStorageSettings.html#a3768366013e228b2f021d3cad5b01db7',1,'VisualDeckStorageSettings']]],
   ['visualdeckstorageshowtagsondeckpreviewschanged_62',['visualDeckStorageShowTagsOnDeckPreviewsChanged',['../d3/d93/classVisualDeckStorageSettings.html#a4f7bbe17ed49001c48880a9f6fff90a1',1,'VisualDeckStorageSettings']]],
-  ['visualdeckstoragesortfilterproxymodel_63',['VisualDeckStorageSortFilterProxyModel',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a0e42d87a4a46aacecfad087ec94e3919',1,'VisualDeckStorageSortFilterProxyModel']]],
-  ['visualdeckstoragesortwidget_64',['VisualDeckStorageSortWidget',['../dd/d71/classVisualDeckStorageSortWidget.html#ad74bc451705aa8bc247c4390f7c203b3',1,'VisualDeckStorageSortWidget']]],
-  ['visualdeckstoragetagfilterwidget_65',['VisualDeckStorageTagFilterWidget',['../d8/d4e/classVisualDeckStorageTagFilterWidget.html#ac8cb1568070e1abdd36390085b50088b',1,'VisualDeckStorageTagFilterWidget']]],
-  ['visualdeckstorageunusedcoloridentitiesopacitychanged_66',['visualDeckStorageUnusedColorIdentitiesOpacityChanged',['../d3/d93/classVisualDeckStorageSettings.html#ad02baf70d5d990ba7c1c8e9e69825bff',1,'VisualDeckStorageSettings']]],
-  ['visualdeckstoragewidget_67',['VisualDeckStorageWidget',['../d0/dfe/classVisualDeckStorageWidget.html#adc8470bc055f442ed7b24d5f8b89bca7',1,'VisualDeckStorageWidget']]]
+  ['visualdeckstorageshowuploadtimechanged_63',['visualDeckStorageShowUploadTimeChanged',['../d3/d93/classVisualDeckStorageSettings.html#a68378bdb3c09ee4032ff6a74d7b578b5',1,'VisualDeckStorageSettings']]],
+  ['visualdeckstoragesortfilterproxymodel_64',['VisualDeckStorageSortFilterProxyModel',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a0e42d87a4a46aacecfad087ec94e3919',1,'VisualDeckStorageSortFilterProxyModel']]],
+  ['visualdeckstoragesortwidget_65',['VisualDeckStorageSortWidget',['../dd/d71/classVisualDeckStorageSortWidget.html#ad74bc451705aa8bc247c4390f7c203b3',1,'VisualDeckStorageSortWidget']]],
+  ['visualdeckstoragetagfilterwidget_66',['VisualDeckStorageTagFilterWidget',['../d8/d4e/classVisualDeckStorageTagFilterWidget.html#a501ec603a21b5397548134a64fbca457',1,'VisualDeckStorageTagFilterWidget']]],
+  ['visualdeckstorageunusedcoloridentitiesopacitychanged_67',['visualDeckStorageUnusedColorIdentitiesOpacityChanged',['../d3/d93/classVisualDeckStorageSettings.html#ad02baf70d5d990ba7c1c8e9e69825bff',1,'VisualDeckStorageSettings']]],
+  ['visualdeckstoragewidget_68',['VisualDeckStorageWidget',['../d0/dfe/classVisualDeckStorageWidget.html#adc8470bc055f442ed7b24d5f8b89bca7',1,'VisualDeckStorageWidget']]]
 ];

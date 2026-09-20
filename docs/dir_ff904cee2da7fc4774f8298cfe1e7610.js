@@ -3,6 +3,7 @@ var dir_ff904cee2da7fc4774f8298cfe1e7610 =
     [ "cards", "dir_cb8e08b98c526ef28decbb3027ba2769.html", "dir_cb8e08b98c526ef28decbb3027ba2769" ],
     [ "deck_analytics", "dir_3e590bd93444cb3a9b6105ee99d08734.html", "dir_3e590bd93444cb3a9b6105ee99d08734" ],
     [ "deck_editor", "dir_92d403742a3e0828f8dabf9c7c1d5f4c.html", "dir_92d403742a3e0828f8dabf9c7c1d5f4c" ],
+    [ "deck_share", "dir_f4cc86e7d521b81f1b080272170d94b3.html", "dir_f4cc86e7d521b81f1b080272170d94b3" ],
     [ "dialogs", "dir_4b0cf6f004d72cb4344e8e7ea1f16c10.html", "dir_4b0cf6f004d72cb4344e8e7ea1f16c10" ],
     [ "general", "dir_2efc70cb735a710399c485f6d0a8024b.html", "dir_2efc70cb735a710399c485f6d0a8024b" ],
     [ "menus", "dir_4a1ecbfbec8315730a38f86e2696812c.html", "dir_4a1ecbfbec8315730a38f86e2696812c" ],

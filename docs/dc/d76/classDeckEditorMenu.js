@@ -26,6 +26,7 @@ var classDeckEditorMenu =
     [ "aSaveDeckToClipboardNoSetInfo", "dc/d76/classDeckEditorMenu.html#ac57c9fe56f749edbd0cd22ac881b5212", null ],
     [ "aSaveDeckToClipboardRaw", "dc/d76/classDeckEditorMenu.html#a1f855aa92fa06429c3ae6c9c12005880", null ],
     [ "aSaveDeckToClipboardRawNoSetInfo", "dc/d76/classDeckEditorMenu.html#a215f3b02c905a472a56d1fac3ea36307", null ],
+    [ "aShareDeck", "dc/d76/classDeckEditorMenu.html#a59ef4b1fedd385d56929a8d04ed2146a", null ],
     [ "deckEditor", "dc/d76/classDeckEditorMenu.html#a437d5c0133ff1e6ccaefc700a429a905", null ],
     [ "editDeckInClipboardMenu", "dc/d76/classDeckEditorMenu.html#a2fae7fa5108d64ccea6ed7e64a960043", null ],
     [ "loadRecentDeckMenu", "dc/d76/classDeckEditorMenu.html#ad5f3aa8ab21656d730b03127a958c0a1", null ],

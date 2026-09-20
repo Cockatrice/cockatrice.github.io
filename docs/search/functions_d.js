@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name_0',['name',['../df/dd5/structpeg_1_1SemanticValues.html#a83be04ad273680f06c8e8280b0a4995a',1,'peg::SemanticValues::name()'],['../da/dab/classpeg_1_1Holder.html#a3e9c2a416e13d31c755811f497899d04',1,'peg::Holder::name()']]],
+  ['name_0',['name',['../d7/d12/classShareBarWidget.html#a4f0fecf37d8d16eda7dc6ccbdab326cd',1,'ShareBarWidget::name()'],['../df/dd5/structpeg_1_1SemanticValues.html#a83be04ad273680f06c8e8280b0a4995a',1,'peg::SemanticValues::name()'],['../da/dab/classpeg_1_1Holder.html#a3e9c2a416e13d31c755811f497899d04',1,'peg::Holder::name()']]],
   ['namefromstdstring_1',['nameFromStdString',['../d9/d78/string__limits_8h.html#aa22de6ca596fe8cc27d6d22cd7b139cc',1,'string_limits.h']]],
   ['navigatetosearchresult_2',['navigateToSearchResult',['../db/d5f/classDlgSettings.html#a4619c58ba13178cc26bc79dfb30e02d9',1,'DlgSettings']]],
   ['ncls_3',['ncls',['../dc/db2/namespacepeg.html#abf603c864440a9b11d319421ea53baa4',1,'peg::ncls(const std::string &amp;s)'],['../dc/db2/namespacepeg.html#ab0717a41ff5ecc09dd35b5fe3aebd496',1,'peg::ncls(const std::vector&lt; std::pair&lt; char32_t, char32_t &gt; &gt; &amp;ranges, bool ignore_case=false)']]],

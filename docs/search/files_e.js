@@ -96,5 +96,7 @@ var searchData=
   ['protocol_5fresponse_2emd_93',['protocol_response.md',['../d0/dbe/protocol__response_8md.html',1,'']]],
   ['protocol_5fserver_5fmessage_2emd_94',['protocol_server_message.md',['../d2/dde/protocol__server__message_8md.html',1,'']]],
   ['pt_5fmenu_2ecpp_95',['pt_menu.cpp',['../d1/dd9/pt__menu_8cpp.html',1,'']]],
-  ['pt_5fmenu_2eh_96',['pt_menu.h',['../d3/d2f/pt__menu_8h.html',1,'']]]
+  ['pt_5fmenu_2eh_96',['pt_menu.h',['../d3/d2f/pt__menu_8h.html',1,'']]],
+  ['public_5fdeck_5fpreview_5fwidget_2ecpp_97',['public_deck_preview_widget.cpp',['../d7/d89/public__deck__preview__widget_8cpp.html',1,'']]],
+  ['public_5fdeck_5fpreview_5fwidget_2eh_98',['public_deck_preview_widget.h',['../da/d52/public__deck__preview__widget_8h.html',1,'']]]
 ];

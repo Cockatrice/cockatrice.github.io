@@ -1,9 +1,26 @@
 var classTabDeckStorageVisual =
 [
-    [ "TabDeckStorageVisual", "d9/dba/classTabDeckStorageVisual.html#ab8a20e7336b2c096dab008b004f8ce79", null ],
+    [ "TabDeckStorageVisual", "d9/dba/classTabDeckStorageVisual.html#a30a8df470a64f50aff110d7ca5804dec", null ],
     [ "actOpenLocalDeck", "d9/dba/classTabDeckStorageVisual.html#a660326230cf9ce43d3227cfa1797bc8d", null ],
+    [ "actShareDeck", "d9/dba/classTabDeckStorageVisual.html#a57d9583305556023a9422f6f024a5691", null ],
+    [ "actShareSelected", "d9/dba/classTabDeckStorageVisual.html#ae31d6797b78fd2d7dbb99208d6614aa1", null ],
+    [ "enterShareMode", "d9/dba/classTabDeckStorageVisual.html#a70956c9d335f0763b7fb963cb5975c54", null ],
+    [ "exitShareMode", "d9/dba/classTabDeckStorageVisual.html#a781beb9959f5a6b347714de8458afd82", null ],
     [ "getTabText", "d9/dba/classTabDeckStorageVisual.html#a97b6f52b3b54302c6bd440a7c18eeaf6", null ],
+    [ "handleConnectionChanged", "d9/dba/classTabDeckStorageVisual.html#a17f3376cab0938eae13ed13fae5c554b", null ],
+    [ "isShareModeActive", "d9/dba/classTabDeckStorageVisual.html#a1d1a6969894267407e41c83667dd4d18", null ],
+    [ "onShareSelectionChanged", "d9/dba/classTabDeckStorageVisual.html#a46f8fd3b2973c90594849bdeb37d41e0", null ],
+    [ "onShareTimeout", "d9/dba/classTabDeckStorageVisual.html#a3a82f351b47680f96d0736ee5185d361", null ],
     [ "openDeckEditor", "d9/dba/classTabDeckStorageVisual.html#af1928ff54afe9b84ceb4e46e46052c6a", null ],
     [ "retranslateUi", "d9/dba/classTabDeckStorageVisual.html#a80a76e713766ebd017598fc6d8d88054", null ],
+    [ "shareFinished", "d9/dba/classTabDeckStorageVisual.html#ae95f9df5ad840f4c13e768ba2384df4a", null ],
+    [ "showShareNotice", "d9/dba/classTabDeckStorageVisual.html#a2a1e6e521aad8e833aa0037459a957dd", null ],
+    [ "updateShareHint", "d9/dba/classTabDeckStorageVisual.html#a1e14318d8cf9bbef9696c6d1ddcd9bd7", null ],
+    [ "client", "d9/dba/classTabDeckStorageVisual.html#a27d512ffcda7c69225f185abf15ac256", null ],
+    [ "shareBar", "d9/dba/classTabDeckStorageVisual.html#ae36f94ccb7446c1e091c87a4aec576da", null ],
+    [ "shareDeckAvailable", "d9/dba/classTabDeckStorageVisual.html#a94eeb067fd3ce627e193d14224b68410", null ],
+    [ "shareInFlightSeq", "d9/dba/classTabDeckStorageVisual.html#a5226c5d2ceb90ce93015f16469dc1556", null ],
+    [ "shareRequestSeq", "d9/dba/classTabDeckStorageVisual.html#a6ece268b48f6ad8c47fc8e42834f624b", null ],
+    [ "shareTimeoutTimer", "d9/dba/classTabDeckStorageVisual.html#aa5d2022732cabd4b4ee6358ae75c71b5", null ],
     [ "visualDeckStorageWidget", "d9/dba/classTabDeckStorageVisual.html#a5dffc5044b46556b711147d5c75a8792", null ]
 ];

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-18-Development-3.1.0-beta.12</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -104,7 +104,7 @@ $(function(){initNavTree('d5/dc9/classIntent.html','../../','dc/df4/classIntent-
 <div class="dynheader">
 Inheritance diagram for Intent:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dd1/classIntent__inherit__graph.svg" width="472" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dd1/classIntent__inherit__graph.svg" width="472" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Intent:</div>
@@ -116,6 +116,7 @@ Collaboration diagram for Intent:</div>
 Signals</h2></td></tr>
 <tr class="memitem:a841aac20f2d520ebaaea910c1e2702cc" id="r_a841aac20f2d520ebaaea910c1e2702cc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a841aac20f2d520ebaaea910c1e2702cc">finished</a> ()</td></tr>
 <tr class="memitem:a6a76b445fbe4f7d0b198aa421cf91cf6" id="r_a6a76b445fbe4f7d0b198aa421cf91cf6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6a76b445fbe4f7d0b198aa421cf91cf6">failed</a> (QString reason)</td></tr>
+<tr class="memitem:ada9770e56135698396193de29b628ff6" id="r_ada9770e56135698396193de29b628ff6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ada9770e56135698396193de29b628ff6">cancelled</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -131,6 +132,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a667ddb43e3d04a1a66e44fbcddc4d2b1" id="r_a667ddb43e3d04a1a66e44fbcddc4d2b1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a667ddb43e3d04a1a66e44fbcddc4d2b1">runDependency</a> (<a class="el" href="../../d5/dc9/classIntent.html">Intent</a> *dependency)</td></tr>
 <tr class="memitem:a523a7d664652b9ff85feda589dcb3d49" id="r_a523a7d664652b9ff85feda589dcb3d49"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a523a7d664652b9ff85feda589dcb3d49">emitFinished</a> ()</td></tr>
 <tr class="memitem:a9e9371903c31fd2c519260a729dc5309" id="r_a9e9371903c31fd2c519260a729dc5309"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9e9371903c31fd2c519260a729dc5309">emitFailed</a> (const QString &amp;reason)</td></tr>
+<tr class="memitem:a4c305566b181027d762090fad88e1d80" id="r_a4c305566b181027d762090fad88e1d80"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4c305566b181027d762090fad88e1d80">emitCancelled</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -162,7 +164,7 @@ Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dc9/classIntent_af94ef411fa9156a6bb302b90c3161d75_cgraph.svg" width="284" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dc9/classIntent_af94ef411fa9156a6bb302b90c3161d75_cgraph.svg" width="296" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -198,6 +200,36 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ada9770e56135698396193de29b628ff6" name="ada9770e56135698396193de29b628ff6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada9770e56135698396193de29b628ff6">&#9670;&#160;</a></span>cancelled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Intent::cancelled </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dc9/classIntent_ada9770e56135698396193de29b628ff6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="abb14c929d1065b2f5167d4851838bd22" name="abb14c929d1065b2f5167d4851838bd22"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abb14c929d1065b2f5167d4851838bd22">&#9670;&#160;</a></span>checkPrecondition()</h2>
 
@@ -221,11 +253,46 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../da/d29/classIntentConnectToServer.html#a9fc35eb5b354e54ed9216dd94cba8a53">IntentConnectToServer</a>, <a class="el" href="../../da/dc8/classIntentDisconnectFromServer.html#a541887637bf00a330b2c2d4a0691e81f">IntentDisconnectFromServer</a>, <a class="el" href="../../d6/d7e/classIntentGetLoginCredentials.html#a9f0ea275b2fdece96b034d166ea2b8ab">IntentGetLoginCredentials</a>, <a class="el" href="../../dc/d39/classIntentJoinServerGame.html#aab62a409f665baa65f0b7d4782dac04d">IntentJoinServerGame</a>, <a class="el" href="../../dd/d25/classIntentJoinServerRoom.html#a78bb9eac8d5d5d0d593b9b2aed734afc">IntentJoinServerRoom</a>, <a class="el" href="../../dc/db9/classIntentOpenLocalDeck.html#a4470555f75581c7544a1b821e3acd215">IntentOpenLocalDeck</a>, <a class="el" href="../../dd/dd9/classIntentOpenServerRoomByName.html#a78d8cd674247b75ae988e5aa6bb1bccc">IntentOpenServerRoomByName</a>, and <a class="el" href="../../dc/d10/classIntentWaitForDatabaseLoad.html#a231dd48c82161425144b6d6e183afe99">IntentWaitForDatabaseLoad</a>.</p>
+<p>Implemented in <a class="el" href="../../da/d29/classIntentConnectToServer.html#a9fc35eb5b354e54ed9216dd94cba8a53">IntentConnectToServer</a>, <a class="el" href="../../da/dc8/classIntentDisconnectFromServer.html#a541887637bf00a330b2c2d4a0691e81f">IntentDisconnectFromServer</a>, <a class="el" href="../../d6/d7e/classIntentGetLoginCredentials.html#a9f0ea275b2fdece96b034d166ea2b8ab">IntentGetLoginCredentials</a>, <a class="el" href="../../dc/d39/classIntentJoinServerGame.html#aab62a409f665baa65f0b7d4782dac04d">IntentJoinServerGame</a>, <a class="el" href="../../dd/d25/classIntentJoinServerRoom.html#a78bb9eac8d5d5d0d593b9b2aed734afc">IntentJoinServerRoom</a>, <a class="el" href="../../dc/db9/classIntentOpenLocalDeck.html#a4470555f75581c7544a1b821e3acd215">IntentOpenLocalDeck</a>, <a class="el" href="../../dd/dd9/classIntentOpenServerRoomByName.html#a78d8cd674247b75ae988e5aa6bb1bccc">IntentOpenServerRoomByName</a>, <a class="el" href="../../df/d3e/classIntentOpenSharedDeck.html#a3fa057c331c6872f763d7fce5a54fb44">IntentOpenSharedDeck</a>, and <a class="el" href="../../dc/d10/classIntentWaitForDatabaseLoad.html#a231dd48c82161425144b6d6e183afe99">IntentWaitForDatabaseLoad</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dc9/classIntent_abb14c929d1065b2f5167d4851838bd22_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a4c305566b181027d762090fad88e1d80" name="a4c305566b181027d762090fad88e1d80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c305566b181027d762090fad88e1d80">&#9670;&#160;</a></span>emitCancelled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Intent::emitCancelled </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dc9/classIntent_a4c305566b181027d762090fad88e1d80_cgraph.svg" width="352" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dc9/classIntent_a4c305566b181027d762090fad88e1d80_icgraph.svg" width="100%" height="414"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -410,11 +477,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../da/d29/classIntentConnectToServer.html#a740908fc226725d712cd7b4e3f060f85">IntentConnectToServer</a>, <a class="el" href="../../da/dc8/classIntentDisconnectFromServer.html#ab2ea9aaea20c1f7d8938b55df3fd8ff9">IntentDisconnectFromServer</a>, <a class="el" href="../../d6/d7e/classIntentGetLoginCredentials.html#af25dcb75394f96d0b266b30415ada43a">IntentGetLoginCredentials</a>, <a class="el" href="../../dc/d39/classIntentJoinServerGame.html#adeeb0d75fd8cdcafc4303ee463603816">IntentJoinServerGame</a>, <a class="el" href="../../dd/d25/classIntentJoinServerRoom.html#ad11e1e5ddc4fa0c277367c15d7236be1">IntentJoinServerRoom</a>, <a class="el" href="../../dc/db9/classIntentOpenLocalDeck.html#a67096832e70bf56889eb0836824ee0a1">IntentOpenLocalDeck</a>, <a class="el" href="../../dd/dd9/classIntentOpenServerRoomByName.html#ad083c82c99ed8acf533b641f9509da1f">IntentOpenServerRoomByName</a>, and <a class="el" href="../../dc/d10/classIntentWaitForDatabaseLoad.html#abdf93674663f721723328ea32e7e96aa">IntentWaitForDatabaseLoad</a>.</p>
+<p>Implemented in <a class="el" href="../../da/d29/classIntentConnectToServer.html#a740908fc226725d712cd7b4e3f060f85">IntentConnectToServer</a>, <a class="el" href="../../da/dc8/classIntentDisconnectFromServer.html#ab2ea9aaea20c1f7d8938b55df3fd8ff9">IntentDisconnectFromServer</a>, <a class="el" href="../../d6/d7e/classIntentGetLoginCredentials.html#af25dcb75394f96d0b266b30415ada43a">IntentGetLoginCredentials</a>, <a class="el" href="../../dc/d39/classIntentJoinServerGame.html#adeeb0d75fd8cdcafc4303ee463603816">IntentJoinServerGame</a>, <a class="el" href="../../dd/d25/classIntentJoinServerRoom.html#ad11e1e5ddc4fa0c277367c15d7236be1">IntentJoinServerRoom</a>, <a class="el" href="../../dc/db9/classIntentOpenLocalDeck.html#a67096832e70bf56889eb0836824ee0a1">IntentOpenLocalDeck</a>, <a class="el" href="../../dd/dd9/classIntentOpenServerRoomByName.html#ad083c82c99ed8acf533b641f9509da1f">IntentOpenServerRoomByName</a>, <a class="el" href="../../df/d3e/classIntentOpenSharedDeck.html#ae476b9f6c53071307ee1a85f6651e3c7">IntentOpenSharedDeck</a>, and <a class="el" href="../../dc/d10/classIntentWaitForDatabaseLoad.html#abdf93674663f721723328ea32e7e96aa">IntentWaitForDatabaseLoad</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dc9/classIntent_a4c891e168c0065b06db772d7571471b8_cgraph.svg" width="520" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dc9/classIntent_a4c891e168c0065b06db772d7571471b8_cgraph.svg" width="532" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -447,7 +514,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../da/d29/classIntentConnectToServer.html#aae51182eda3a83d660916d64ced044e7">IntentConnectToServer</a>, <a class="el" href="../../da/dc8/classIntentDisconnectFromServer.html#ac4734cffff3042c74a98374c2bfa9c30">IntentDisconnectFromServer</a>, <a class="el" href="../../d6/d7e/classIntentGetLoginCredentials.html#ac22534f71e4a8c8fdb039a100cdf99f9">IntentGetLoginCredentials</a>, <a class="el" href="../../dc/d39/classIntentJoinServerGame.html#a54bf74be3d2a3f439efe1a562426b1e2">IntentJoinServerGame</a>, <a class="el" href="../../dd/d25/classIntentJoinServerRoom.html#af241064e3f7102c9a98b720cca4c2ce3">IntentJoinServerRoom</a>, <a class="el" href="../../dc/db9/classIntentOpenLocalDeck.html#aa06c764ec58ea1f8d3bec594502ca43e">IntentOpenLocalDeck</a>, <a class="el" href="../../dd/dd9/classIntentOpenServerRoomByName.html#a0c1ea6d25070d74a800a3094907161f2">IntentOpenServerRoomByName</a>, and <a class="el" href="../../dc/d10/classIntentWaitForDatabaseLoad.html#a5fc4e23d915cc50b6d4080b595cd2b6b">IntentWaitForDatabaseLoad</a>.</p>
+<p>Implemented in <a class="el" href="../../da/d29/classIntentConnectToServer.html#aae51182eda3a83d660916d64ced044e7">IntentConnectToServer</a>, <a class="el" href="../../da/dc8/classIntentDisconnectFromServer.html#ac4734cffff3042c74a98374c2bfa9c30">IntentDisconnectFromServer</a>, <a class="el" href="../../d6/d7e/classIntentGetLoginCredentials.html#ac22534f71e4a8c8fdb039a100cdf99f9">IntentGetLoginCredentials</a>, <a class="el" href="../../dc/d39/classIntentJoinServerGame.html#a54bf74be3d2a3f439efe1a562426b1e2">IntentJoinServerGame</a>, <a class="el" href="../../dd/d25/classIntentJoinServerRoom.html#af241064e3f7102c9a98b720cca4c2ce3">IntentJoinServerRoom</a>, <a class="el" href="../../dc/db9/classIntentOpenLocalDeck.html#aa06c764ec58ea1f8d3bec594502ca43e">IntentOpenLocalDeck</a>, <a class="el" href="../../dd/dd9/classIntentOpenServerRoomByName.html#a0c1ea6d25070d74a800a3094907161f2">IntentOpenServerRoomByName</a>, <a class="el" href="../../df/d3e/classIntentOpenSharedDeck.html#a74b9a1347cb444e9d29593856daeb8ca">IntentOpenSharedDeck</a>, and <a class="el" href="../../dc/d10/classIntentWaitForDatabaseLoad.html#a5fc4e23d915cc50b6d4080b595cd2b6b">IntentWaitForDatabaseLoad</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -481,12 +548,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dc9/classIntent_a667ddb43e3d04a1a66e44fbcddc4d2b1_cgraph.svg" width="100%" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dc9/classIntent_a667ddb43e3d04a1a66e44fbcddc4d2b1_cgraph.svg" width="100%" height="494"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dc9/classIntent_a667ddb43e3d04a1a66e44fbcddc4d2b1_icgraph.svg" width="460" height="307"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dc9/classIntent_a667ddb43e3d04a1a66e44fbcddc4d2b1_icgraph.svg" width="460" height="371"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

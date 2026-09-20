@@ -21,6 +21,7 @@ var dir_59425e443f801f1f2fd8bbe4959a3ccf =
     [ "server_card_counter_test.cpp", "d8/d24/server__card__counter__test_8cpp.html", "d8/d24/server__card__counter__test_8cpp" ],
     [ "server_counter_test.cpp", "da/d02/server__counter__test_8cpp.html", "da/d02/server__counter__test_8cpp" ],
     [ "server_developer_role_test.cpp", "d5/d0e/server__developer__role__test_8cpp.html", "d5/d0e/server__developer__role__test_8cpp" ],
+    [ "server_game_join_test.cpp", "db/df0/server__game__join__test_8cpp.html", "db/df0/server__game__join__test_8cpp" ],
     [ "server_rate_limiter_test.cpp", "dc/dfb/server__rate__limiter__test_8cpp.html", "dc/dfb/server__rate__limiter__test_8cpp" ],
     [ "test_age_formatting.cpp", "dd/dd6/test__age__formatting_8cpp.html", "dd/dd6/test__age__formatting_8cpp" ],
     [ "warning_categories_test.cpp", "d7/d42/warning__categories__test_8cpp.html", "d7/d42/warning__categories__test_8cpp" ]

@@ -1,7 +1,6 @@
 var pixel__map__generator_8cpp =
 [
     [ "DEFAULT_COLOR_ADMIN", "de/db8/pixel__map__generator_8cpp.html#a9aea9017b19ca9b5e322b9f32c186e24", null ],
-    [ "DEFAULT_COLOR_DEVELOPER", "de/db8/pixel__map__generator_8cpp.html#a3c73253ab09140a6dbbc16607f4a1532", null ],
     [ "DEFAULT_COLOR_MODERATOR_LEFT", "de/db8/pixel__map__generator_8cpp.html#ab7a5c53348ca1721d0f94be643cc102d", null ],
     [ "DEFAULT_COLOR_MODERATOR_RIGHT", "de/db8/pixel__map__generator_8cpp.html#a74b015f5b666f330df1069f25203ac58", null ],
     [ "DEFAULT_COLOR_REGISTERED", "de/db8/pixel__map__generator_8cpp.html#a6d57e1ebc1db9f2ee1c2ebc3c0c76410", null ],
