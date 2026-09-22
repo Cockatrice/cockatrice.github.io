@@ -18,7 +18,7 @@ var searchData=
   ['printing_20info_15',['Printing Info',['../da/d69/primer_cards.html#printing-info',1,'']]],
   ['printing_20selector_16',['Printing Selector',['../d7/d64/editing_decks_printings.html',1,'Printing Selector'],['../d7/d64/editing_decks_printings.html#using-the-printing-selector',1,'Using the Printing Selector']]],
   ['printinginfo_20and_20exactcard_17',['Getting specific: PrintingInfo and ExactCard',['../da/d69/primer_cards.html#getting-specific-printinginfo-and-exactcard',1,'']]],
-  ['printings_18',['printings',['../d3/d32/editing_decks_classic.html#modifying-printings',1,'Modifying printings'],['../de/d6e/editing_decks_visual.html#modifying-printings-1',1,'Modifying printings']]],
+  ['printings_18',['printings',['../de/d6e/editing_decks_visual.html#modifying-printings',1,'Modifying printings'],['../d3/d32/editing_decks_classic.html#modifying-printings-1',1,'Modifying printings']]],
   ['privacy_20note_19',['Privacy note',['../dir_7bfb512e87101b177eb3569817b9fc67.html#privacy-note',1,'']]],
   ['processing_20flow_20',['Processing Flow',['../db/d15/game_event_handler.html#event-processing-flow',1,'Event Processing Flow'],['../db/d15/game_event_handler.html#event-processing-flow-1',1,'Event Processing Flow']]],
   ['processing_20incoming_20game_20events_21',['Processing incoming game events',['../db/d15/game_event_handler.html#autotoc_md2-processing-incoming-game-events',1,'2. Processing incoming game events'],['../db/d15/game_event_handler.html#autotoc_md2-processing-incoming-game-events-1',1,'2. Processing incoming game events']]],

@@ -2,7 +2,7 @@ var searchData=
 [
   ['back_20to_20stable_0',['Switching back to Stable',['../d9/d9b/beta_release.html#switching-back-to-stable',1,'']]],
   ['basic_20card_20object_3a_20cardinfo_1',['A Basic Card Object: CardInfo',['../da/d69/primer_cards.html#a-basic-card-object-cardinfo',1,'']]],
-  ['basic_20deck_20information_2',['Basic Deck Information',['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
+  ['basic_20deck_20information_2',['Basic Deck Information',['../de/d6e/editing_decks_visual.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../d3/d32/editing_decks_classic.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
   ['batching_3',['Batching',['../dd/d01/protocol_command_container.html#cc_batching',1,'Command Batching'],['../dc/d6c/protocol_server_message.html#event-batching',1,'Event Batching']]],
   ['before_20scheduling_4',['4. Verify before scheduling',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md4-verify-before-scheduling',1,'']]],
   ['beta_5',['Beta',['../d9/d9b/beta_release.html#switching-to-the-beta',1,'Switching to the Beta'],['../d9/d9b/beta_release.html#what-to-expect-from-the-beta',1,'What to Expect from the Beta']]],

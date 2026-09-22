@@ -13,8 +13,9 @@ var searchData=
   ['bardata_10',['BarData',['../dc/da2/structBarData.html',1,'']]],
   ['barsegment_11',['BarSegment',['../d9/d3d/structBarSegment.html',1,'']]],
   ['barwidget_12',['BarWidget',['../db/daa/classBarWidget.html',1,'']]],
-  ['betareleasechannel_13',['BetaReleaseChannel',['../d0/dc4/classBetaReleaseChannel.html',1,'']]],
-  ['bracketexplainer_14',['BracketExplainer',['../df/d33/classBracketExplainer.html',1,'']]],
-  ['bracketexplanation_15',['BracketExplanation',['../df/dfa/structBracketExplanation.html',1,'']]],
-  ['bracketexplanationsection_16',['BracketExplanationSection',['../d6/d74/structBracketExplanationSection.html',1,'']]]
+  ['benchmarkcarddatabasepathprovider_13',['BenchmarkCardDatabasePathProvider',['../d7/da8/classBenchmarkCardDatabasePathProvider.html',1,'']]],
+  ['betareleasechannel_14',['BetaReleaseChannel',['../d0/dc4/classBetaReleaseChannel.html',1,'']]],
+  ['bracketexplainer_15',['BracketExplainer',['../df/d33/classBracketExplainer.html',1,'']]],
+  ['bracketexplanation_16',['BracketExplanation',['../df/dfa/structBracketExplanation.html',1,'']]],
+  ['bracketexplanationsection_17',['BracketExplanationSection',['../d6/d74/structBracketExplanationSection.html',1,'']]]
 ];

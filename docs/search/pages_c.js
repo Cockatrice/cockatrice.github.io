@@ -12,7 +12,7 @@ var searchData=
   ['inc_5fcounter_201018_9',['&lt;span class=&quot;tt&quot;&gt;INC_COUNTER&lt;/span&gt; (1018)',['../d0/d5b/protocol_game_command.html#inc_counter-1018',1,'']]],
   ['incoming_20game_20events_10',['incoming game events',['../db/d15/game_event_handler.html#autotoc_md2-processing-incoming-game-events',1,'2. Processing incoming game events'],['../db/d15/game_event_handler.html#autotoc_md2-processing-incoming-game-events-1',1,'2. Processing incoming game events']]],
   ['info_11',['Printing Info',['../da/d69/primer_cards.html#printing-info',1,'']]],
-  ['information_12',['Information',['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
+  ['information_12',['Information',['../de/d6e/editing_decks_visual.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../d3/d32/editing_decks_classic.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
   ['infos_13',['Generic Card Infos',['../da/d66/querying_the_card_database.html#generic-card-infos',1,'']]],
   ['install_14',['3. Install',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md3-install',1,'']]],
   ['installation_15',['Installation',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#installation',1,'']]],

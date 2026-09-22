@@ -72,6 +72,7 @@ var hierarchy =
     [ "CardPictureToLoad", "da/da3/classCardPictureToLoad.html", null ],
     [ "CardPrices", "d3/dab/classCardPrices.html", null ],
     [ "CardRef", "d1/d66/structCardRef.html", null ],
+    [ "CardSearchLanguage", "da/d5f/structCardSearchLanguage.html", null ],
     [ "CardSetPriorityComparator", "d1/db4/classCardSetPriorityComparator.html", null ],
     [ "CardToMove", "db/d90/structCardToMove.html", null ],
     [ "Category", "de/dff/structCategory.html", null ],
@@ -506,6 +507,7 @@ var hierarchy =
     [ "LocalGameOptions", "d9/de7/structLocalGameOptions.html", null ],
     [ "LocalizedCardEntry", "de/d87/structLocalizedCardEntry.html", null ],
     [ "LockPixmapGenerator", "dd/dd6/classLockPixmapGenerator.html", null ],
+    [ "LogCounters", "d5/df3/structLogCounters.html", null ],
     [ "peg::Context::LRMemo", "d4/d84/structpeg_1_1Context_1_1LRMemo.html", null ],
     [ "ManaBaseConfig", "dd/db2/structManaBaseConfig.html", null ],
     [ "ManaCurveConfig", "d6/d55/structManaCurveConfig.html", null ],
@@ -587,6 +589,7 @@ var hierarchy =
     [ "peg::parser", "da/d7b/classpeg_1_1parser.html", null ],
     [ "peg::ParserGenerator::ParserContext", "d4/db3/structpeg_1_1ParserGenerator_1_1ParserContext.html", null ],
     [ "peg::ParserGenerator", "dc/dbb/classpeg_1_1ParserGenerator.html", null ],
+    [ "PassResult", "db/d06/structPassResult.html", null ],
     [ "PasswordHasher", "d0/d46/classPasswordHasher.html", null ],
     [ "ServerInfo_User::PawnColorsOverride", "d1/d71/structServerInfo__User_1_1PawnColorsOverride.html", null ],
     [ "PendingDeckLoad", "d8/d65/structPendingDeckLoad.html", null ],
@@ -886,6 +889,7 @@ var hierarchy =
         [ "CockatriceXml4Parser", "dc/d53/classCockatriceXml4Parser.html", null ]
       ] ],
       [ "ICardDatabasePathProvider", "dd/d8e/classICardDatabasePathProvider.html", [
+        [ "BenchmarkCardDatabasePathProvider", "d7/da8/classBenchmarkCardDatabasePathProvider.html", null ],
         [ "CliCardDatabasePathProvider", "d5/d91/classCliCardDatabasePathProvider.html", null ],
         [ "NoopCardDatabasePathProvider", "d5/dad/classNoopCardDatabasePathProvider.html", null ],
         [ "SettingsCache", "d5/d88/classSettingsCache.html", null ],
@@ -1493,12 +1497,14 @@ var hierarchy =
     [ "SelectZone::StackLayoutParams", "d0/d19/structSelectZone_1_1StackLayoutParams.html", null ],
     [ "LagMonitor::StallRecord", "d0/df7/structLagMonitor_1_1StallRecord.html", null ],
     [ "LatencyTracker::Stats", "d7/d35/structLatencyTracker_1_1Stats.html", null ],
+    [ "StressResult", "d4/dc6/structStressResult.html", null ],
     [ "UserListPainter::Style", "d3/d6e/structUserListPainter_1_1Style.html", null ],
     [ "TallyRow", "d3/d34/structTallyRow.html", null ],
     [ "testing::Test", null, [
       [ "AddCardAlgorithmTest", "d1/df2/classAddCardAlgorithmTest.html", null ],
       [ "LagMonitorTest", "d5/d8d/classLagMonitorTest.html", null ],
-      [ "OracleImporterTest", "dd/d20/classOracleImporterTest.html", null ]
+      [ "OracleImporterTest", "dd/d20/classOracleImporterTest.html", null ],
+      [ "SetQuery", "d4/d1b/classSetQuery.html", null ]
     ] ],
     [ "ThemeConfig", "dc/dec/structThemeConfig.html", null ],
     [ "TipOfTheDay", "d2/dba/classTipOfTheDay.html", null ],

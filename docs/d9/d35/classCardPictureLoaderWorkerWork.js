@@ -1,6 +1,6 @@
 var classCardPictureLoaderWorkerWork =
 [
-    [ "CardPictureLoaderWorkerWork", "d9/d35/classCardPictureLoaderWorkerWork.html#aa6e0123b9f1d6b567cd6f7da703ff59f", null ],
+    [ "CardPictureLoaderWorkerWork", "d9/d35/classCardPictureLoaderWorkerWork.html#a48a574323513d59f0440b95e8eb30835", null ],
     [ "cachedUrlInvalidated", "d9/d35/classCardPictureLoaderWorkerWork.html#a0345c852142011960d13bf32129142a8", null ],
     [ "concludeImageLoad", "d9/d35/classCardPictureLoaderWorkerWork.html#a388059b693ffc302e344c1d4d1ef4f79", null ],
     [ "handleFailedReply", "d9/d35/classCardPictureLoaderWorkerWork.html#ad5662553bdbb2b6faab62ef1bcf800a8", null ],
@@ -10,9 +10,10 @@ var classCardPictureLoaderWorkerWork =
     [ "picDownloadChanged", "d9/d35/classCardPictureLoaderWorkerWork.html#a4c09d28e6f6b041f95adfb803e06e0d1", null ],
     [ "picDownloadFailed", "d9/d35/classCardPictureLoaderWorkerWork.html#a89efc6349c980007b6e1fb9cd22623f9", null ],
     [ "rateLimited", "d9/d35/classCardPictureLoaderWorkerWork.html#a1736bd14f7db59bda4a8dd77477f4d83", null ],
+    [ "rateLimiter", "d9/d35/classCardPictureLoaderWorkerWork.html#a6f1b33596c67ac6ab9d6c43b818d3f8f", null ],
     [ "requestImageDownload", "d9/d35/classCardPictureLoaderWorkerWork.html#a9f43f61df393a775377560ec6cf6327c", null ],
     [ "requestSucceeded", "d9/d35/classCardPictureLoaderWorkerWork.html#a583f215234b5b58a68c088c6fe418f15", null ],
-    [ "scheduleDeferredRetry", "d9/d35/classCardPictureLoaderWorkerWork.html#ad18bb8534a782bddbe460b51dc7927dc", null ],
+    [ "scheduleDeferredRetry", "d9/d35/classCardPictureLoaderWorkerWork.html#ac06d608611c31319887f7c11aa1f8c0c", null ],
     [ "startNextPicDownload", "d9/d35/classCardPictureLoaderWorkerWork.html#ae01ebf763b31d3a33009fb27b3751c84", null ],
     [ "tryLoadImageFromReply", "d9/d35/classCardPictureLoaderWorkerWork.html#a29b0c81fad846004a783ec3d09262dfb", null ],
     [ "urlRedirected", "d9/d35/classCardPictureLoaderWorkerWork.html#a88f83beace09a5548a577934c665703e", null ],

@@ -22,6 +22,7 @@ var classCardDatabaseDisplayModel =
     [ "setCardNameSet", "da/d8d/classCardDatabaseDisplayModel.html#a7c76d5a4786d1622c40ef5cd886d913b", null ],
     [ "setFilterTree", "da/d8d/classCardDatabaseDisplayModel.html#a8b8c4ed30b20f0b6d1be5e2112991922", null ],
     [ "setIsToken", "da/d8d/classCardDatabaseDisplayModel.html#a8a107a12b07ace3f0f44f260107c009b", null ],
+    [ "setSearchLanguage", "da/d8d/classCardDatabaseDisplayModel.html#a7314924b96613ee4b7b6bd3009c3466e", null ],
     [ "setSourceModel", "da/d8d/classCardDatabaseDisplayModel.html#a1534e6b0da94e4b9e3132d42d45ec976", null ],
     [ "setStringFilter", "da/d8d/classCardDatabaseDisplayModel.html#a937ef96d9e417cb7dc1d8b81b0641457", null ],
     [ "cardColors", "da/d8d/classCardDatabaseDisplayModel.html#a14a642ada0e157c198f3357f7c89f4b8", null ],
@@ -34,5 +35,7 @@ var classCardDatabaseDisplayModel =
     [ "filterString", "da/d8d/classCardDatabaseDisplayModel.html#ad4c9507976bbfbeaf11ebaff8f26087a", null ],
     [ "filterTree", "da/d8d/classCardDatabaseDisplayModel.html#a9258992611139ddadb5653dae8ce8957", null ],
     [ "isToken", "da/d8d/classCardDatabaseDisplayModel.html#a97a49696b8abdab9339d9b50d54a476d", null ],
-    [ "loadedRowCount", "da/d8d/classCardDatabaseDisplayModel.html#a33d7f1953b2ae04fe58e2f2d3391af7a", null ]
+    [ "loadedRowCount", "da/d8d/classCardDatabaseDisplayModel.html#a33d7f1953b2ae04fe58e2f2d3391af7a", null ],
+    [ "searchLanguage", "da/d8d/classCardDatabaseDisplayModel.html#a2055598e0aca7bf66b0f26ecf8007fe9", null ],
+    [ "searchText", "da/d8d/classCardDatabaseDisplayModel.html#ab31b14b5a1efab99b0ae828ec71ef384", null ]
 ];

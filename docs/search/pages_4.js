@@ -9,7 +9,7 @@ var searchData=
   ['accuracy_6',['Provider Accuracy',['../d9/d7b/fixing_card_pictures.html#provider-accuracy',1,'']]],
   ['activity_7',['Repository Activity',['../d0/d30/md_README.html#repository-activity',1,'']]],
   ['add_20it_20to_20the_20config_8',['2. Create the Discord webhook and add it to the config',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md2-create-the-discord-webhook-and-add-it-to-the-config',1,'']]],
-  ['adding_20cards_9',['Adding Cards',['../d3/d32/editing_decks_classic.html#adding-cards',1,'Adding Cards'],['../de/d6e/editing_decks_visual.html#adding-cards-1',1,'Adding Cards']]],
+  ['adding_20cards_9',['Adding Cards',['../de/d6e/editing_decks_visual.html#adding-cards',1,'Adding Cards'],['../d3/d32/editing_decks_classic.html#adding-cards-1',1,'Adding Cards']]],
   ['also_10',['Also',['../db/d15/game_event_handler.html#see-also',1,'See Also'],['../d4/d5b/player_event_handler.html#see-also-1',1,'See Also'],['../d4/d5b/player_event_handler.html#see-also-2',1,'See Also'],['../db/d15/game_event_handler.html#see-also-3',1,'See Also']]],
   ['an_20online_20service_11',['an online service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
   ['analytics_12',['Deck Analytics',['../de/d6e/editing_decks_visual.html#deck-analytics',1,'']]],

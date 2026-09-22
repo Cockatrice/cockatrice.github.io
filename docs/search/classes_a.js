@@ -27,7 +27,8 @@ var searchData=
   ['localserver_5fdatabaseinterface_24',['LocalServer_DatabaseInterface',['../d1/d74/classLocalServer__DatabaseInterface.html',1,'']]],
   ['localserverinterface_25',['LocalServerInterface',['../d0/dc3/classLocalServerInterface.html',1,'']]],
   ['lockpixmapgenerator_26',['LockPixmapGenerator',['../dd/dd6/classLockPixmapGenerator.html',1,'']]],
-  ['logger_27',['Logger',['../db/d67/classLogger.html',1,'']]],
-  ['logicmap_28',['LogicMap',['../d9/d6e/classLogicMap.html',1,'']]],
-  ['lrmemo_29',['LRMemo',['../d4/d84/structpeg_1_1Context_1_1LRMemo.html',1,'peg::Context']]]
+  ['logcounters_27',['LogCounters',['../d5/df3/structLogCounters.html',1,'']]],
+  ['logger_28',['Logger',['../db/d67/classLogger.html',1,'']]],
+  ['logicmap_29',['LogicMap',['../d9/d6e/classLogicMap.html',1,'']]],
+  ['lrmemo_30',['LRMemo',['../d4/d84/structpeg_1_1Context_1_1LRMemo.html',1,'peg::Context']]]
 ];

@@ -7,6 +7,7 @@ var classICardsDisplaySettingsProvider =
     [ "getBumpSetsWithCardsInDeckToTop", "d8/d32/classICardsDisplaySettingsProvider.html#a6c871eadc95baa2141567e891129ab1d", null ],
     [ "getCardInfoViewMode", "d8/d32/classICardsDisplaySettingsProvider.html#a715c4b51b52a3202f0de117d0e11da6d", null ],
     [ "getCardLang", "d8/d32/classICardsDisplaySettingsProvider.html#aec8bc713c00d6d8ce10a26a3f5584a71", null ],
+    [ "getCardSearchLanguage", "d8/d32/classICardsDisplaySettingsProvider.html#a9307e830b61afe374c3d09e809f1c940", null ],
     [ "getDisplayCardNames", "d8/d32/classICardsDisplaySettingsProvider.html#a69479cd0d222fba772646a7db81f9809", null ],
     [ "getEDHRecCardSize", "d8/d32/classICardsDisplaySettingsProvider.html#a1153ac077ad6972f0488a601d568cc82", null ],
     [ "getIncludeRebalancedCards", "d8/d32/classICardsDisplaySettingsProvider.html#a501f8eb1c0e45affd74e06481271a02c", null ],

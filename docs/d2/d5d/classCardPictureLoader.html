@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-21-Development-3.1.0-beta.13</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -124,6 +124,11 @@ Public Slots</h2></td></tr>
 <tr class="memitem:afcbab02db4eef9525a86e577bed62135" id="r_afcbab02db4eef9525a86e577bed62135"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afcbab02db4eef9525a86e577bed62135">saveCardImageToLocalStorage</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QPixmap &amp;pixmap, bool allowOverwrite=false)</td></tr>
 <tr class="memitem:ad3ec1fe58bc140f31e300936718877d8" id="r_ad3ec1fe58bc140f31e300936718877d8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad3ec1fe58bc140f31e300936718877d8">installPrintingOverride</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;originalCard, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;overrideCard)</td></tr>
 <tr class="memitem:aca5ac9f1078b64b09174821935df1856" id="r_aca5ac9f1078b64b09174821935df1856"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aca5ac9f1078b64b09174821935df1856">installPrintingOverrideOnLoad</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;originalCard, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;overrideCard)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:a9ab294f8b955439800fd91723ffa569f" id="r_a9ab294f8b955439800fd91723ffa569f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9ab294f8b955439800fd91723ffa569f">networkCacheCleared</a> ()</td></tr>
+<tr class="memdesc:a9ab294f8b955439800fd91723ffa569f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted after the worker has finished clearing the network and redirect caches.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -378,6 +383,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Clears the network disk cache of the worker. </p>
+<p>The clear runs on the worker thread, so this returns before it has completed; connect to <a class="el" href="#a9ab294f8b955439800fd91723ffa569f" title="Emitted after the worker has finished clearing the network and redirect caches.">networkCacheCleared()</a> to act once it is done. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -893,6 +899,38 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_aca5ac9f1078b64b09174821935df1856_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a9ab294f8b955439800fd91723ffa569f" name="a9ab294f8b955439800fd91723ffa569f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ab294f8b955439800fd91723ffa569f">&#9670;&#160;</a></span>networkCacheCleared</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardPictureLoader::networkCacheCleared </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted after the worker has finished clearing the network and redirect caches. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d5d/classCardPictureLoader_a9ab294f8b955439800fd91723ffa569f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

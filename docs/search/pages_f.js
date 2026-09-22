@@ -10,7 +10,7 @@ var searchData=
   ['lifecycle_7',['Lifecycle',['../db/d15/game_event_handler.html#command-lifecycle',1,'Command Lifecycle'],['../db/d15/game_event_handler.html#command-lifecycle-1',1,'Command Lifecycle']]],
   ['lifetime_20and_20delivery_8',['Lifetime and Delivery',['../dc/d6c/protocol_server_message.html#lifetime-and-delivery',1,'']]],
   ['lifetime_20and_20ownership_9',['Lifetime and Ownership',['../dd/d01/protocol_command_container.html#cc_lifecycle',1,'']]],
-  ['list_10',['List',['../d3/d32/editing_decks_classic.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../de/d6e/editing_decks_visual.html#modifying-the-deck-list-1',1,'Modifying the Deck List'],['../dd/da0/todo.html',1,'Todo List']]],
+  ['list_10',['List',['../de/d6e/editing_decks_visual.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../d3/d32/editing_decks_classic.html#modifying-the-deck-list-1',1,'Modifying the Deck List'],['../dd/da0/todo.html',1,'Todo List']]],
   ['loader_20debug_20logs_11',['Enable Picture Loader Debug Logs',['../d9/d7b/fixing_card_pictures.html#enable-picture-loader-debug-logs',1,'']]],
   ['loading_12',['Local Image Loading',['../d9/d1c/loading_card_pictures.html#local-image-loading',1,'']]],
   ['loading_20card_20pictures_13',['Loading Card Pictures',['../d9/d1c/loading_card_pictures.html',1,'developer_reference']]],

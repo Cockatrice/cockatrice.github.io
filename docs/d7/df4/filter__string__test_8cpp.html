@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-21-Development-3.1.0-beta.13</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -102,6 +102,9 @@ $(function(){initNavTree('d7/df4/filter__string__test_8cpp.html','../../',''); }
 <div class="textblock"><code>#include &quot;<a class="el" href="../../db/de6/mocks_8h_source.html">mocks.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d44/test__card__database__path__provider_8h_source.html">test_card_database_path_provider.h</a>&quot;</code><br />
 <code>#include &quot;gtest/gtest.h&quot;</code><br />
+<code>#include &lt;<a class="el" href="../../df/df3/card__info_8h_source.html">libcockatrice/card/card_info.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../dc/dd2/printing__info_8h_source.html">libcockatrice/card/printing/printing_info.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/da2/filter__string_8h_source.html">libcockatrice/filters/filter_string.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d6/d3f/noop__card__preference__provider_8h_source.html">libcockatrice/interfaces/noop_card_preference_provider.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/dd1/noop__card__set__priority__controller_8h_source.html">libcockatrice/interfaces/noop_card_set_priority_controller.h</a>&gt;</code><br />
@@ -111,12 +114,20 @@ Include dependency graph for filter_string_test.cpp:</div>
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d75/filter__string__test_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:SetQuery" id="r_SetQuery"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="../../d4/d1b/classSetQuery.html">SetQuery</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a6228121b0bc999f5d9e01a22b620f193" id="r_a6228121b0bc999f5d9e01a22b620f193"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a6228121b0bc999f5d9e01a22b620f193">QUERY</a>(name,  card,  query,  match)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a683b7dad02a9a2b7a34ec2e9e00c610e" id="r_a683b7dad02a9a2b7a34ec2e9e00c610e"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a683b7dad02a9a2b7a34ec2e9e00c610e">TEST_F</a> (<a class="el" href="../../d4/d1b/classSetQuery.html">SetQuery</a>, ExactMatchSeparatesSameDaySets)</td></tr>
+<tr class="memitem:aa06b6bbe2cc441e1d025f6a0d4e5df2f" id="r_aa06b6bbe2cc441e1d025f6a0d4e5df2f"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa06b6bbe2cc441e1d025f6a0d4e5df2f">TEST_F</a> (<a class="el" href="../../d4/d1b/classSetQuery.html">SetQuery</a>, ExactMatchIsCaseInsensitive)</td></tr>
+<tr class="memitem:a0f17dc30dd842c24fde73139d1f94030" id="r_a0f17dc30dd842c24fde73139d1f94030"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a0f17dc30dd842c24fde73139d1f94030">TEST_F</a> (<a class="el" href="../../d4/d1b/classSetQuery.html">SetQuery</a>, NotEqualsMatchesPrintingsOutsideTheSet)</td></tr>
+<tr class="memitem:a78c5dd5b72dc9348a482e17a2646d0ab" id="r_a78c5dd5b72dc9348a482e17a2646d0ab"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a78c5dd5b72dc9348a482e17a2646d0ab">TEST_F</a> (<a class="el" href="../../d4/d1b/classSetQuery.html">SetQuery</a>, ComparisonMatchesByReleaseDate)</td></tr>
 <tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627" id="r_a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
@@ -153,7 +164,7 @@ Functions</h2></td></tr>
 <div class="line">    ASSERT_EQ(<a class="code hl_class" href="../../db/da4/classFilterString.html">FilterString</a>(query).check(card), match);                                                             \</div>
 <div class="line">}</div>
 <div class="ttc" id="acard__zone__algorithms__test_8cpp_html_ab46f576c8786fe8cefe9e42cea0c8a74"><div class="ttname"><a href="../../db/d1d/card__zone__algorithms__test_8cpp.html#ab46f576c8786fe8cefe9e42cea0c8a74">TEST_F</a></div><div class="ttdeci">TEST_F(AddCardAlgorithmTest, NegativeIndexClampsToEnd)</div><div class="ttdef"><b>Definition</b> card_zone_algorithms_test.cpp:82</div></div>
-<div class="ttc" id="aclassFilterString_html"><div class="ttname"><a href="../../db/da4/classFilterString.html">FilterString</a></div><div class="ttdef"><b>Definition</b> filter_string.h:35</div></div>
+<div class="ttc" id="aclassFilterString_html"><div class="ttname"><a href="../../db/da4/classFilterString.html">FilterString</a></div><div class="ttdef"><b>Definition</b> filter_string.h:36</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -173,6 +184,90 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">char **</td>          <td class="paramname"><span class="paramname"><em>argv</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a78c5dd5b72dc9348a482e17a2646d0ab" name="a78c5dd5b72dc9348a482e17a2646d0ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78c5dd5b72dc9348a482e17a2646d0ab">&#9670;&#160;</a></span>TEST_F() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1b/classSetQuery.html">SetQuery</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ComparisonMatchesByReleaseDate</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa06b6bbe2cc441e1d025f6a0d4e5df2f" name="aa06b6bbe2cc441e1d025f6a0d4e5df2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa06b6bbe2cc441e1d025f6a0d4e5df2f">&#9670;&#160;</a></span>TEST_F() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1b/classSetQuery.html">SetQuery</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ExactMatchIsCaseInsensitive</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a683b7dad02a9a2b7a34ec2e9e00c610e" name="a683b7dad02a9a2b7a34ec2e9e00c610e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a683b7dad02a9a2b7a34ec2e9e00c610e">&#9670;&#160;</a></span>TEST_F() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1b/classSetQuery.html">SetQuery</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ExactMatchSeparatesSameDaySets</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f17dc30dd842c24fde73139d1f94030" name="a0f17dc30dd842c24fde73139d1f94030"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f17dc30dd842c24fde73139d1f94030">&#9670;&#160;</a></span>TEST_F() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1b/classSetQuery.html">SetQuery</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">NotEqualsMatchesPrintingsOutsideTheSet</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b_0',['b',['../d0/d91/structcolor.html#ad451dfe06d5b65b688a2e7c3c0a0e905',1,'color::b'],['../dd/d4c/structpeg_1_1GrammarBlob_1_1Writer.html#a27c08216cf22e5e5d8e26ee7cbc430f9',1,'peg::GrammarBlob::Writer::b']]],
+  ['b_0',['b',['../d0/d91/structcolor.html#ad451dfe06d5b65b688a2e7c3c0a0e905',1,'color::b'],['../dd/d4c/structpeg_1_1GrammarBlob_1_1Writer.html#a27c08216cf22e5e5d8e26ee7cbc430f9',1,'peg::GrammarBlob::Writer::b'],['../d4/dc6/structStressResult.html#a7c30f8fe5d3ff09a4b1c65cdf73b1174',1,'StressResult::b']]],
   ['backbutton_1',['backButton',['../d2/dc2/classFirstRunWizard.html#a9f54e7bc6f13f0b24b4daee71e3cfd9f',1,'FirstRunWizard']]],
   ['background_2',['background',['../de/de3/classHomeWidget.html#a1333bc217d4cbc8668c8cbb055ccebc5',1,'HomeWidget']]],
   ['background_5fcolor_3',['BACKGROUND_COLOR',['../d6/d6f/classTableZone.html#ad8eb13eaf6b5cd4e8bff9b2956520acd',1,'TableZone']]],

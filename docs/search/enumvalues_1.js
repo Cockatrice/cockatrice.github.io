@@ -9,11 +9,12 @@ var searchData=
   ['bannercardprovideridrole_6',['BannerCardProviderIdRole',['../d7/d99/namespaceVisualDeckStorageRoles.html#aa481f934a865f563199c6ebedd013f80a9bdb53feee0ae31936f4d787af14d955',1,'VisualDeckStorageRoles']]],
   ['bcc_7',['Bcc',['../d5/dff/classQxtMailMessage.html#af5ef6ffaabd7588ace94f823a7542180a781969af0a6c516822ae3074b896c6e1',1,'QxtMailMessage']]],
   ['bodysent_8',['BodySent',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216af9041e2208cf9a6827bd7088182a5a0e',1,'QxtSmtpPrivate']]],
-  ['brawl_9',['Brawl',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2af4b79351a643c016aad8a1626702af3c',1,'ArchidektFormats']]],
-  ['buddy_10',['Buddy',['../da/d3b/classUserListWidget.html#a3b2e7175927009772d371d7d1ddeafb7a8fb645e200b5986d7cdfb4a5d2542a7f',1,'UserListWidget']]],
-  ['buddylist_11',['BuddyList',['../da/d3b/classUserListWidget.html#abf013e42f0196e76737d014e9403552cacc741b6ab2f2e01f265bd1a9a7e67716',1,'UserListWidget']]],
-  ['bylastloaded_12',['ByLastLoaded',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a34c0f4823347abf0d21080564d67916ea1e53c85a2aca2b7b3b4119b569c1c009',1,'VisualDeckStorageSortFilterProxyModel']]],
-  ['bylastmodified_13',['ByLastModified',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a34c0f4823347abf0d21080564d67916ea7e5d20e98e5638a5e9a849b029990f70',1,'VisualDeckStorageSortFilterProxyModel']]],
-  ['byname_14',['ByName',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a34c0f4823347abf0d21080564d67916ea6055c1a7d4d170553fe88efaed9e8f24',1,'VisualDeckStorageSortFilterProxyModel::ByName'],['../d8/d7d/abstract__deck__list__node_8h.html#ga8ea3802f8561f16be908a83a08a796ceacd701b91fcc9e93950ad71fa8f7eb47a',1,'ByName:&#160;abstract_deck_list_node.h']]],
-  ['bynumber_15',['ByNumber',['../d8/d7d/abstract__deck__list__node_8h.html#ga8ea3802f8561f16be908a83a08a796cea73c7b90bd5bfdaa976a06eb630fe4aae',1,'abstract_deck_list_node.h']]]
+  ['both_9',['Both',['../d1/d4d/libcockatrice__card_2libcockatrice_2card_2card__localization_8h.html#a923de91ab5c9550fb6822888cb431370a130c5b3473c57faa76e2a1c54e26f88e',1,'card_localization.h']]],
+  ['brawl_10',['Brawl',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2af4b79351a643c016aad8a1626702af3c',1,'ArchidektFormats']]],
+  ['buddy_11',['Buddy',['../da/d3b/classUserListWidget.html#a3b2e7175927009772d371d7d1ddeafb7a8fb645e200b5986d7cdfb4a5d2542a7f',1,'UserListWidget']]],
+  ['buddylist_12',['BuddyList',['../da/d3b/classUserListWidget.html#abf013e42f0196e76737d014e9403552cacc741b6ab2f2e01f265bd1a9a7e67716',1,'UserListWidget']]],
+  ['bylastloaded_13',['ByLastLoaded',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a34c0f4823347abf0d21080564d67916ea1e53c85a2aca2b7b3b4119b569c1c009',1,'VisualDeckStorageSortFilterProxyModel']]],
+  ['bylastmodified_14',['ByLastModified',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a34c0f4823347abf0d21080564d67916ea7e5d20e98e5638a5e9a849b029990f70',1,'VisualDeckStorageSortFilterProxyModel']]],
+  ['byname_15',['ByName',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a34c0f4823347abf0d21080564d67916ea6055c1a7d4d170553fe88efaed9e8f24',1,'VisualDeckStorageSortFilterProxyModel::ByName'],['../d8/d7d/abstract__deck__list__node_8h.html#ga8ea3802f8561f16be908a83a08a796ceacd701b91fcc9e93950ad71fa8f7eb47a',1,'ByName:&#160;abstract_deck_list_node.h']]],
+  ['bynumber_16',['ByNumber',['../d8/d7d/abstract__deck__list__node_8h.html#ga8ea3802f8561f16be908a83a08a796cea73c7b90bd5bfdaa976a06eb630fe4aae',1,'abstract_deck_list_node.h']]]
 ];

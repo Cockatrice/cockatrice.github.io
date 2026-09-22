@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-21-Development-3.1.0-beta.13</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -117,10 +117,14 @@ Collaboration diagram for CardPictureLoaderWorker:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
+<tr class="memitem:a0955b3c5b94dec178c10fe85a96e598c" id="r_a0955b3c5b94dec178c10fe85a96e598c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0955b3c5b94dec178c10fe85a96e598c">clearNetworkCache</a> ()</td></tr>
+<tr class="memdesc:a0955b3c5b94dec178c10fe85a96e598c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the network cache and redirect cache.  <br /></td></tr>
 <tr class="memitem:aec8d3e81aa486e0071d2da2d970d62c8" id="r_aec8d3e81aa486e0071d2da2d970d62c8"><td class="memItemLeft">QNetworkReply *&#160;</td><td class="memItemRight"><a class="el" href="#aec8d3e81aa486e0071d2da2d970d62c8">makeRequest</a> (const QUrl &amp;url, <a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html">CardPictureLoaderWorkerWork</a> *workThread)</td></tr>
 <tr class="memdesc:aec8d3e81aa486e0071d2da2d970d62c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a network request for the given URL using the specified worker.  <br /></td></tr>
 <tr class="memitem:a3b6fcecbdbd98ece38d7cb1d5bb4a007" id="r_a3b6fcecbdbd98ece38d7cb1d5bb4a007"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3b6fcecbdbd98ece38d7cb1d5bb4a007">processQueuedRequests</a> ()</td></tr>
-<tr class="memdesc:a3b6fcecbdbd98ece38d7cb1d5bb4a007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes all queued requests respecting the request quota.  <br /></td></tr>
+<tr class="memdesc:a3b6fcecbdbd98ece38d7cb1d5bb4a007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensures the pacing and quota-reset timers reflect the current queue and recovery state.  <br /></td></tr>
+<tr class="memitem:a26f3222af81c16af2d8270ff9c87b61d" id="r_a26f3222af81c16af2d8270ff9c87b61d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a26f3222af81c16af2d8270ff9c87b61d">dispatchQueuedRequest</a> ()</td></tr>
+<tr class="memdesc:a26f3222af81c16af2d8270ff9c87b61d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chooses a request from the queue and starts it, respecting the quota and pacing.  <br /></td></tr>
 <tr class="memitem:a8b5de81b379963a017f2b62acafe7aaf" id="r_a8b5de81b379963a017f2b62acafe7aaf"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8b5de81b379963a017f2b62acafe7aaf">processSingleRequest</a> ()</td></tr>
 <tr class="memdesc:a8b5de81b379963a017f2b62acafe7aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes a single queued request.  <br /></td></tr>
 <tr class="memitem:af7163450d1f8ae11a1d1081f0d3406ec" id="r_af7163450d1f8ae11a1d1081f0d3406ec"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af7163450d1f8ae11a1d1081f0d3406ec">handleImageLoaded</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QImage &amp;image)</td></tr>
@@ -140,6 +144,8 @@ Signals</h2></td></tr>
 <tr class="memdesc:a1ae8e8e20f4df35e602ac03818b91d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a request is added to the network queue.  <br /></td></tr>
 <tr class="memitem:a2deb47e63ff055ed99d924a665707e6c" id="r_a2deb47e63ff055ed99d924a665707e6c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2deb47e63ff055ed99d924a665707e6c">imageRequestSucceeded</a> (const QUrl &amp;url)</td></tr>
 <tr class="memdesc:a2deb47e63ff055ed99d924a665707e6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a network request successfully completes.  <br /></td></tr>
+<tr class="memitem:aba448112ec21b29f2731c1f2e79c99f4" id="r_aba448112ec21b29f2731c1f2e79c99f4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aba448112ec21b29f2731c1f2e79c99f4">networkCacheCleared</a> ()</td></tr>
+<tr class="memdesc:aba448112ec21b29f2731c1f2e79c99f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted after <a class="el" href="#a0955b3c5b94dec178c10fe85a96e598c" title="Clears the network cache and redirect cache.">clearNetworkCache()</a> has finished clearing both caches.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -152,8 +158,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4407caff689d63d893eab3f0cb4e2640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queues a network request for a given URL and worker thread.  <br /></td></tr>
 <tr class="memitem:a455729fba3dd7cb891d9f54a43c6b13c" id="r_a455729fba3dd7cb891d9f54a43c6b13c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a455729fba3dd7cb891d9f54a43c6b13c">onHostRateLimited</a> (const QString &amp;host)</td></tr>
 <tr class="memdesc:a455729fba3dd7cb891d9f54a43c6b13c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles a server returning HTTP 429 by reducing that host's request quota.  <br /></td></tr>
-<tr class="memitem:a0955b3c5b94dec178c10fe85a96e598c" id="r_a0955b3c5b94dec178c10fe85a96e598c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0955b3c5b94dec178c10fe85a96e598c">clearNetworkCache</a> ()</td></tr>
-<tr class="memdesc:a0955b3c5b94dec178c10fe85a96e598c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the network cache and redirect cache.  <br /></td></tr>
+<tr class="memitem:a4277ddd4082a7a5b90b64501ba4120c3" id="r_a4277ddd4082a7a5b90b64501ba4120c3"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a4277ddd4082a7a5b90b64501ba4120c3">shutdownThread</a> ()</td></tr>
+<tr class="memdesc:a4277ddd4082a7a5b90b64501ba4120c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops the worker thread and reports whether it stopped.  <br /></td></tr>
+<tr class="memitem:a837653329b03faefab8fe5e720326236" id="r_a837653329b03faefab8fe5e720326236"><td class="memItemLeft">QThread *&#160;</td><td class="memItemRight"><a class="el" href="#a837653329b03faefab8fe5e720326236">workerThread</a> () const</td></tr>
+<tr class="memdesc:a837653329b03faefab8fe5e720326236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the worker's QThread.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
@@ -164,14 +172,24 @@ Private Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:ae026e47d8af1cfdbeb42db656b0f1d9d" id="r_ae026e47d8af1cfdbeb42db656b0f1d9d"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ae026e47d8af1cfdbeb42db656b0f1d9d">hostAllowanceCeiling</a> (const QString &amp;host) const</td></tr>
+<tr class="memdesc:ae026e47d8af1cfdbeb42db656b0f1d9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Effective per-host allowance ceiling for a host.  <br /></td></tr>
+<tr class="memitem:a2b1597741f935017a53dd929e4333f19" id="r_a2b1597741f935017a53dd929e4333f19"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a2b1597741f935017a53dd929e4333f19">isUnlockedHost</a> (const QString &amp;host) const</td></tr>
+<tr class="memdesc:a2b1597741f935017a53dd929e4333f19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether a host may skip dispatch pacing and per-host allowance entirely.  <br /></td></tr>
 <tr class="memitem:a3fe176133a9bfe277179521c63343d3a" id="r_a3fe176133a9bfe277179521c63343d3a"><td class="memItemLeft">QUrl&#160;</td><td class="memItemRight"><a class="el" href="#a3fe176133a9bfe277179521c63343d3a">getCachedRedirect</a> (const QUrl &amp;originalUrl) const</td></tr>
 <tr class="memdesc:a3fe176133a9bfe277179521c63343d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cached redirect URL for the given original URL, if available.  <br /></td></tr>
+<tr class="memitem:a8cff3f7363031cbe364313b7f3dd09d3" id="r_a8cff3f7363031cbe364313b7f3dd09d3"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8cff3f7363031cbe364313b7f3dd09d3">requestTouchesNetwork</a> (const QUrl &amp;url) const</td></tr>
+<tr class="memdesc:a8cff3f7363031cbe364313b7f3dd09d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether a request for this URL would actually touch the network, rather than being served from the disk cache.  <br /></td></tr>
+<tr class="memitem:ae533a95c51c94caa4a31b4d27745155a" id="r_ae533a95c51c94caa4a31b4d27745155a"><td class="memItemLeft">QUrl&#160;</td><td class="memItemRight"><a class="el" href="#ae533a95c51c94caa4a31b4d27745155a">resolveCachedRedirect</a> (const QUrl &amp;url) const</td></tr>
+<tr class="memdesc:ae533a95c51c94caa4a31b4d27745155a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Follows the cached-redirect chain to the URL that will actually be requested.  <br /></td></tr>
 <tr class="memitem:ae0b8da937a0c6dd2cf0d3331399452e9" id="r_ae0b8da937a0c6dd2cf0d3331399452e9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae0b8da937a0c6dd2cf0d3331399452e9">loadRedirectCache</a> ()</td></tr>
 <tr class="memdesc:ae0b8da937a0c6dd2cf0d3331399452e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads redirect cache from disk.  <br /></td></tr>
 <tr class="memitem:a29f1d609e64d89f29874fc74c28aaaa2" id="r_a29f1d609e64d89f29874fc74c28aaaa2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a29f1d609e64d89f29874fc74c28aaaa2">saveRedirectCache</a> () const</td></tr>
 <tr class="memdesc:a29f1d609e64d89f29874fc74c28aaaa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves redirect cache to disk.  <br /></td></tr>
 <tr class="memitem:a09e388e798e1e7a8207ffaae3c54af5c" id="r_a09e388e798e1e7a8207ffaae3c54af5c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a09e388e798e1e7a8207ffaae3c54af5c">cleanStaleEntries</a> ()</td></tr>
 <tr class="memdesc:a09e388e798e1e7a8207ffaae3c54af5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes stale redirect entries older than TTL.  <br /></td></tr>
+<tr class="memitem:a73ef6d2e045a85e6846d34e98a4a9d4b" id="r_a73ef6d2e045a85e6846d34e98a4a9d4b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a73ef6d2e045a85e6846d34e98a4a9d4b">updateTimerState</a> ()</td></tr>
+<tr class="memdesc:a73ef6d2e045a85e6846d34e98a4a9d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts or stops the pacing and quota-reset timers to match the queue and recovery state.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -189,16 +207,20 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a7d4e270dd66d4c513ca29ebdbb73a894"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether downloading images from network is enabled.  <br /></td></tr>
 <tr class="memitem:a05b32782258e6adc3fc29556987f5adc" id="r_a05b32782258e6adc3fc29556987f5adc"><td class="memItemLeft">QQueue&lt; QPair&lt; QUrl, <a class="el" href="../../d9/d35/classCardPictureLoaderWorkerWork.html">CardPictureLoaderWorkerWork</a> * &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a05b32782258e6adc3fc29556987f5adc">requestLoadQueue</a></td></tr>
 <tr class="memdesc:a05b32782258e6adc3fc29556987f5adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue of pending network requests.  <br /></td></tr>
-<tr class="memitem:a196a1dcf47c67c79e58959c61266ec48" id="r_a196a1dcf47c67c79e58959c61266ec48"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a196a1dcf47c67c79e58959c61266ec48">requestQuota</a></td></tr>
-<tr class="memdesc:a196a1dcf47c67c79e58959c61266ec48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remaining requests allowed per second.  <br /></td></tr>
 <tr class="memitem:abff858491faddc82f72a3584bb81ae83" id="r_abff858491faddc82f72a3584bb81ae83"><td class="memItemLeft">QTimer&#160;</td><td class="memItemRight"><a class="el" href="#abff858491faddc82f72a3584bb81ae83">requestTimer</a></td></tr>
 <tr class="memdesc:abff858491faddc82f72a3584bb81ae83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer to reset the request quota.  <br /></td></tr>
+<tr class="memitem:a1b78741ba655603bbf11d8ba046b02c4" id="r_a1b78741ba655603bbf11d8ba046b02c4"><td class="memItemLeft">QTimer&#160;</td><td class="memItemRight"><a class="el" href="#a1b78741ba655603bbf11d8ba046b02c4">dispatchTimer</a></td></tr>
+<tr class="memdesc:a1b78741ba655603bbf11d8ba046b02c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer pacing individual network requests.  <br /></td></tr>
 <tr class="memitem:a0c6c120bc823fe7fbeca721e4124836a" id="r_a0c6c120bc823fe7fbeca721e4124836a"><td class="memItemLeft">QHash&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a0c6c120bc823fe7fbeca721e4124836a">hostRequestQuota</a></td></tr>
 <tr class="memdesc:a0c6c120bc823fe7fbeca721e4124836a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sustained per-host request allowance.  <br /></td></tr>
+<tr class="memitem:abcc325a09a462ba20fa1ed9941e065d7" id="r_abcc325a09a462ba20fa1ed9941e065d7"><td class="memItemLeft">QHash&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#abcc325a09a462ba20fa1ed9941e065d7">hostRequestLimits</a></td></tr>
+<tr class="memdesc:abcc325a09a462ba20fa1ed9941e065d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">User-set per-host request allowances.  <br /></td></tr>
 <tr class="memitem:a73d37871c046524b6760f5361b83d78d" id="r_a73d37871c046524b6760f5361b83d78d"><td class="memItemLeft">QHash&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a73d37871c046524b6760f5361b83d78d">hostQuotaRemaining</a></td></tr>
 <tr class="memdesc:a73d37871c046524b6760f5361b83d78d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per-host allowance left in the current second.  <br /></td></tr>
 <tr class="memitem:a792c6166bc626e007af9c74246e2297d" id="r_a792c6166bc626e007af9c74246e2297d"><td class="memItemLeft">QHash&lt; QString, QDateTime &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a792c6166bc626e007af9c74246e2297d">hostLast429</a></td></tr>
 <tr class="memdesc:a792c6166bc626e007af9c74246e2297d"><td class="mdescLeft">&#160;</td><td class="mdescRight">When each host was last rate limited.  <br /></td></tr>
+<tr class="memitem:af431d8b41bb7690a0ac5ed8f0ae98ce6" id="r_af431d8b41bb7690a0ac5ed8f0ae98ce6"><td class="memItemLeft">QHash&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af431d8b41bb7690a0ac5ed8f0ae98ce6">hostInFlight</a></td></tr>
+<tr class="memdesc:af431d8b41bb7690a0ac5ed8f0ae98ce6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Network replies currently in flight, per host.  <br /></td></tr>
 <tr class="memitem:a3d72609d0c251a0a3d0dd84784693409" id="r_a3d72609d0c251a0a3d0dd84784693409"><td class="memItemLeft"><a class="el" href="../../dd/d17/classCardPictureLoaderLocal.html">CardPictureLoaderLocal</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a3d72609d0c251a0a3d0dd84784693409">localLoader</a></td></tr>
 <tr class="memdesc:a3d72609d0c251a0a3d0dd84784693409"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loader for local images.  <br /></td></tr>
 <tr class="memitem:a358b46899b72a3c7b45ece3ca5848d9d" id="r_a358b46899b72a3c7b45ece3ca5848d9d"><td class="memItemLeft">QSet&lt; QString &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a358b46899b72a3c7b45ece3ca5848d9d">currentlyLoading</a></td></tr>
@@ -208,6 +230,10 @@ Private Attributes</h2></td></tr>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a868fa60416eaeb8c0b551e3c624094c1" id="r_a868fa60416eaeb8c0b551e3c624094c1"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a868fa60416eaeb8c0b551e3c624094c1">CacheTTLInDays</a> = 30</td></tr>
 <tr class="memdesc:a868fa60416eaeb8c0b551e3c624094c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time-to-live for redirect cache entries (days).  <br /></td></tr>
+<tr class="memitem:ab017339b23daae6e1d9e3c7b4a639914" id="r_ab017339b23daae6e1d9e3c7b4a639914"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#ab017339b23daae6e1d9e3c7b4a639914">MAX_IN_FLIGHT_PER_HOST</a> = 6</td></tr>
+<tr class="memdesc:ab017339b23daae6e1d9e3c7b4a639914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum concurrent in-flight network replies per host.  <br /></td></tr>
+<tr class="memitem:a3444993ec472e1c8611a56dd25be9a57" id="r_a3444993ec472e1c8611a56dd25be9a57"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a3444993ec472e1c8611a56dd25be9a57">MAX_REDIRECT_CHAIN_DEPTH</a> = 10</td></tr>
+<tr class="memdesc:a3444993ec472e1c8611a56dd25be9a57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bound on how many cached-redirect hops dispatch resolution will follow.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Handles asynchronous loading of card images, both locally and via network. </p>
@@ -314,7 +340,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_aac33ec5f1fa6a9cb95a0c5536e4ffc72_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_aac33ec5f1fa6a9cb95a0c5536e4ffc72_icgraph.svg" width="100%" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -357,10 +383,13 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="a0955b3c5b94dec178c10fe85a96e598c" name="a0955b3c5b94dec178c10fe85a96e598c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0955b3c5b94dec178c10fe85a96e598c">&#9670;&#160;</a></span>clearNetworkCache()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0955b3c5b94dec178c10fe85a96e598c">&#9670;&#160;</a></span>clearNetworkCache</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void CardPictureLoaderWorker::clearNetworkCache </td>
@@ -369,13 +398,61 @@ Here is the caller graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Clears the network cache and redirect cache. </p>
+<p>Runs on the worker thread; invoke it via a queued call when coming from another thread, since both caches are owned by the worker thread. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a0955b3c5b94dec178c10fe85a96e598c_cgraph.svg" width="432" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a0955b3c5b94dec178c10fe85a96e598c_icgraph.svg" width="100%" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a26f3222af81c16af2d8270ff9c87b61d" name="a26f3222af81c16af2d8270ff9c87b61d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26f3222af81c16af2d8270ff9c87b61d">&#9670;&#160;</a></span>dispatchQueuedRequest</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardPictureLoaderWorker::dispatchQueuedRequest </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Chooses a request from the queue and starts it, respecting the quota and pacing. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a26f3222af81c16af2d8270ff9c87b61d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a26f3222af81c16af2d8270ff9c87b61d_icgraph.svg" width="442" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -443,7 +520,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a3fe176133a9bfe277179521c63343d3a_icgraph.svg" width="100%" height="494"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a3fe176133a9bfe277179521c63343d3a_icgraph.svg" width="100%" height="580"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -492,7 +569,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_af7163450d1f8ae11a1d1081f0d3406ec_icgraph.svg" width="100%" height="519"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_af7163450d1f8ae11a1d1081f0d3406ec_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -530,6 +607,50 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_ab86acfef4f922dd645842baf57c75074_icgraph.svg" width="464" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae026e47d8af1cfdbeb42db656b0f1d9d" name="ae026e47d8af1cfdbeb42db656b0f1d9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae026e47d8af1cfdbeb42db656b0f1d9d">&#9670;&#160;</a></span>hostAllowanceCeiling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CardPictureLoaderWorker::hostAllowanceCeiling </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>host</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Effective per-host allowance ceiling for a host. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">host</td><td>The host to look up </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The allowance ceiling in requests/second, or <a class="el" href="../../d4/d14/classDownloadSettings.html#a8a8414b068aa1dd1cbe27bfa03c4c143" title="Developer cap marking a host as never throttled per host or by the dispatch pacing.">DownloadSettings::UNLIMITED_HOST_QUOTA</a> when the developer unlocked the host and no user limit is set for it. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_ae026e47d8af1cfdbeb42db656b0f1d9d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_ae026e47d8af1cfdbeb42db656b0f1d9d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -675,6 +796,44 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a2b1597741f935017a53dd929e4333f19" name="a2b1597741f935017a53dd929e4333f19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b1597741f935017a53dd929e4333f19">&#9670;&#160;</a></span>isUnlockedHost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CardPictureLoaderWorker::isUnlockedHost </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>host</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether a host may skip dispatch pacing and per-host allowance entirely. </p>
+<p>A host is unlocked while it has no user limit and no reduced allowance installed by a 429. A 429 drops it out of the fast path until <a class="el" href="#a3a15caab80e2ac40b4577f46273c56d3" title="Resets the request quota for rate-limiting.">resetRequestQuota()</a> walks the allowance back up. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a2b1597741f935017a53dd929e4333f19_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a2b1597741f935017a53dd929e4333f19_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="ae0b8da937a0c6dd2cf0d3331399452e9" name="ae0b8da937a0c6dd2cf0d3331399452e9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0b8da937a0c6dd2cf0d3331399452e9">&#9670;&#160;</a></span>loadRedirectCache()</h2>
 
@@ -751,7 +910,39 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_aec8d3e81aa486e0071d2da2d970d62c8_icgraph.svg" width="100%" height="466"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_aec8d3e81aa486e0071d2da2d970d62c8_icgraph.svg" width="100%" height="566"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aba448112ec21b29f2731c1f2e79c99f4" name="aba448112ec21b29f2731c1f2e79c99f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba448112ec21b29f2731c1f2e79c99f4">&#9670;&#160;</a></span>networkCacheCleared</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardPictureLoaderWorker::networkCacheCleared </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted after <a class="el" href="#a0955b3c5b94dec178c10fe85a96e598c" title="Clears the network cache and redirect cache.">clearNetworkCache()</a> has finished clearing both caches. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_aba448112ec21b29f2731c1f2e79c99f4_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -779,9 +970,14 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a455729fba3dd7cb891d9f54a43c6b13c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a455729fba3dd7cb891d9f54a43c6b13c_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a455729fba3dd7cb891d9f54a43c6b13c_icgraph.svg" width="100%" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -809,16 +1005,16 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Processes all queued requests respecting the request quota. </p>
+<p>Ensures the pacing and quota-reset timers reflect the current queue and recovery state. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a3b6fcecbdbd98ece38d7cb1d5bb4a007_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a3b6fcecbdbd98ece38d7cb1d5bb4a007_cgraph.svg" width="436" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a3b6fcecbdbd98ece38d7cb1d5bb4a007_icgraph.svg" width="100%" height="576"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a3b6fcecbdbd98ece38d7cb1d5bb4a007_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -856,7 +1052,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a8b5de81b379963a017f2b62acafe7aaf_icgraph.svg" width="100%" height="505"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a8b5de81b379963a017f2b62acafe7aaf_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -896,7 +1092,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a4407caff689d63d893eab3f0cb4e2640_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a4407caff689d63d893eab3f0cb4e2640_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -928,7 +1124,44 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a836f750d7f5c9786d56a6e693e895564_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a836f750d7f5c9786d56a6e693e895564_icgraph.svg" width="100%" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8cff3f7363031cbe364313b7f3dd09d3" name="a8cff3f7363031cbe364313b7f3dd09d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cff3f7363031cbe364313b7f3dd09d3">&#9670;&#160;</a></span>requestTouchesNetwork()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CardPictureLoaderWorker::requestTouchesNetwork </td>
+          <td>(</td>
+          <td class="paramtype">const QUrl &amp;</td>          <td class="paramname"><span class="paramname"><em>url</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether a request for this URL would actually touch the network, rather than being served from the disk cache. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a8cff3f7363031cbe364313b7f3dd09d3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a8cff3f7363031cbe364313b7f3dd09d3_icgraph.svg" width="100%" height="566"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -970,6 +1203,51 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ae533a95c51c94caa4a31b4d27745155a" name="ae533a95c51c94caa4a31b4d27745155a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae533a95c51c94caa4a31b4d27745155a">&#9670;&#160;</a></span>resolveCachedRedirect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QUrl CardPictureLoaderWorker::resolveCachedRedirect </td>
+          <td>(</td>
+          <td class="paramtype">const QUrl &amp;</td>          <td class="paramname"><span class="paramname"><em>url</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Follows the cached-redirect chain to the URL that will actually be requested. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>The URL to resolve </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The final URL after chasing cached redirects, or <code class="param">url</code> itself if none lead elsewhere</dd></dl>
+<p>Dispatch decisions (unlocked-host fast path, 429 backoff, in-flight cap) must key on the host a request really goes to, not the URL that merely redirects to it. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_ae533a95c51c94caa4a31b4d27745155a_cgraph.svg" width="432" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_ae533a95c51c94caa4a31b4d27745155a_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a29f1d609e64d89f29874fc74c28aaaa2" name="a29f1d609e64d89f29874fc74c28aaaa2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29f1d609e64d89f29874fc74c28aaaa2">&#9670;&#160;</a></span>saveRedirectCache()</h2>
 
@@ -998,6 +1276,98 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a29f1d609e64d89f29874fc74c28aaaa2_icgraph.svg" width="451" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a4277ddd4082a7a5b90b64501ba4120c3" name="a4277ddd4082a7a5b90b64501ba4120c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4277ddd4082a7a5b90b64501ba4120c3">&#9670;&#160;</a></span>shutdownThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CardPictureLoaderWorker::shutdownThread </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stops the worker thread and reports whether it stopped. </p>
+<p>Called from the owning thread (<a class="el" href="../../d2/d5d/classCardPictureLoader.html" title="Singleton class to manage card image loading and caching. Provides functionality to asynchronously lo...">CardPictureLoader</a>) on its way out. QThread::quit() posts an exit request to the worker's event loop and QThread::wait() blocks (bounded) until the loop has returned and the thread finished. Only QThread members are touched here, so this method is safe to call from the owning thread. The worker object itself is freed by the finished() -&gt; deleteLater chain (see the constructor); the QThread object is deleted afterwards by the owner (<a class="el" href="../../d2/d5d/classCardPictureLoader.html#a33ef50147e594ccd6b8611c45e8a82dc">CardPictureLoader::~CardPictureLoader</a>), not by this method.</p>
+<dl class="section return"><dt>Returns</dt><dd>true if the thread stopped within the timeout, false if it is still running (in which case the owner must not delete the QThread). </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a4277ddd4082a7a5b90b64501ba4120c3_icgraph.svg" width="595" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a73ef6d2e045a85e6846d34e98a4a9d4b" name="a73ef6d2e045a85e6846d34e98a4a9d4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73ef6d2e045a85e6846d34e98a4a9d4b">&#9670;&#160;</a></span>updateTimerState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardPictureLoaderWorker::updateTimerState </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Starts or stops the pacing and quota-reset timers to match the queue and recovery state. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a73ef6d2e045a85e6846d34e98a4a9d4b_icgraph.svg" width="100%" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a837653329b03faefab8fe5e720326236" name="a837653329b03faefab8fe5e720326236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a837653329b03faefab8fe5e720326236">&#9670;&#160;</a></span>workerThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QThread * CardPictureLoaderWorker::workerThread </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the worker's QThread. </p>
+<dl class="section return"><dt>Returns</dt><dd>The worker thread</dd></dl>
+<p>Only meaningful while the worker object is alive; capture it before calling <a class="el" href="#a4277ddd4082a7a5b90b64501ba4120c3" title="Stops the worker thread and reports whether it stopped.">shutdownThread()</a>. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/da1/classCardPictureLoaderWorker_a837653329b03faefab8fe5e720326236_icgraph.svg" width="595" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1099,6 +1469,54 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a1b78741ba655603bbf11d8ba046b02c4" name="a1b78741ba655603bbf11d8ba046b02c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b78741ba655603bbf11d8ba046b02c4">&#9670;&#160;</a></span>dispatchTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTimer CardPictureLoaderWorker::dispatchTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Timer pacing individual network requests. </p>
+
+</div>
+</div>
+<a id="af431d8b41bb7690a0ac5ed8f0ae98ce6" name="af431d8b41bb7690a0ac5ed8f0ae98ce6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af431d8b41bb7690a0ac5ed8f0ae98ce6">&#9670;&#160;</a></span>hostInFlight</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, int&gt; CardPictureLoaderWorker::hostInFlight</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Network replies currently in flight, per host. </p>
+
+</div>
+</div>
 <a id="a792c6166bc626e007af9c74246e2297d" name="a792c6166bc626e007af9c74246e2297d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a792c6166bc626e007af9c74246e2297d">&#9670;&#160;</a></span>hostLast429</h2>
 
@@ -1147,6 +1565,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="abcc325a09a462ba20fa1ed9941e065d7" name="abcc325a09a462ba20fa1ed9941e065d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcc325a09a462ba20fa1ed9941e065d7">&#9670;&#160;</a></span>hostRequestLimits</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt;QString, int&gt; CardPictureLoaderWorker::hostRequestLimits</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>User-set per-host request allowances. </p>
+
+</div>
+</div>
 <a id="a0c6c120bc823fe7fbeca721e4124836a" name="a0c6c120bc823fe7fbeca721e4124836a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c6c120bc823fe7fbeca721e4124836a">&#9670;&#160;</a></span>hostRequestQuota</h2>
 
@@ -1192,6 +1634,54 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Loader for local images. </p>
+
+</div>
+</div>
+<a id="ab017339b23daae6e1d9e3c7b4a639914" name="ab017339b23daae6e1d9e3c7b4a639914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab017339b23daae6e1d9e3c7b4a639914">&#9670;&#160;</a></span>MAX_IN_FLIGHT_PER_HOST</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CardPictureLoaderWorker::MAX_IN_FLIGHT_PER_HOST = 6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maximum concurrent in-flight network replies per host. </p>
+
+</div>
+</div>
+<a id="a3444993ec472e1c8611a56dd25be9a57" name="a3444993ec472e1c8611a56dd25be9a57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3444993ec472e1c8611a56dd25be9a57">&#9670;&#160;</a></span>MAX_REDIRECT_CHAIN_DEPTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CardPictureLoaderWorker::MAX_REDIRECT_CHAIN_DEPTH = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Bound on how many cached-redirect hops dispatch resolution will follow. </p>
 
 </div>
 </div>
@@ -1312,30 +1802,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Queue of pending network requests. </p>
-
-</div>
-</div>
-<a id="a196a1dcf47c67c79e58959c61266ec48" name="a196a1dcf47c67c79e58959c61266ec48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a196a1dcf47c67c79e58959c61266ec48">&#9670;&#160;</a></span>requestQuota</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int CardPictureLoaderWorker::requestQuota</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Remaining requests allowed per second. </p>
 
 </div>
 </div>

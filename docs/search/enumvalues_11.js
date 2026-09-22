@@ -3,7 +3,7 @@ var searchData=
   ['same_5ftab_0',['SAME_TAB',['../d1/d53/classAbstractTabDeckEditor.html#a59362c003e9fd04abbec91a0962342dca5e1f39ebcd4c6ca5fb4d016dcdda3aa9',1,'AbstractTabDeckEditor']]],
   ['samplehand_1',['SampleHand',['../d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17aafc46af620e1b377ff72651070cbdaca',1,'TabDeckEditorVisualTabWidget']]],
   ['seekfailed_2',['SeekFailed',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412ace60ce1e15b15a6454b8e3e480b6d34b',1,'UnZip::SeekFailed'],['../d8/df5/classZip.html#aa445490ca64ce3051470bed52ee9198cad43fb52355fcb2e22818d58bd8334fd4',1,'Zip::SeekFailed']]],
-  ['selected_3',['Selected',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea91b442d385b54e1418d81adc34871053',1,'deck_preview_tag_display_widget.h']]],
+  ['selected_3',['Selected',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea91b442d385b54e1418d81adc34871053',1,'Selected:&#160;deck_preview_tag_display_widget.h'],['../d1/d4d/libcockatrice__card_2libcockatrice_2card_2card__localization_8h.html#a923de91ab5c9550fb6822888cb431370a91b442d385b54e1418d81adc34871053',1,'Selected:&#160;card_localization.h']]],
   ['sendingbody_4',['SendingBody',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216adc43c1150a911004eeb2ee5aad69b388',1,'QxtSmtpPrivate']]],
   ['sendtoothers_5',['SendToOthers',['../da/df9/classGameEventStorageItem.html#a19cc9739761186fa56a0ff2292bc9d64ac2b522d3ac2833b0d275cd193ffb5040',1,'GameEventStorageItem']]],
   ['sendtoprivate_6',['SendToPrivate',['../da/df9/classGameEventStorageItem.html#a19cc9739761186fa56a0ff2292bc9d64a0685ff5b2d0ce6ed61483d4cd8d4e146',1,'GameEventStorageItem']]],

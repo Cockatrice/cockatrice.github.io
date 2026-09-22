@@ -17,6 +17,7 @@ var searchData=
   ['quicksetuppanel_14',['quickSetupPanel',['../d0/dc0/classPaletteEditorDialog.html#a1302ab1065dc72e9b0619d1c24211649',1,'PaletteEditorDialog::quickSetupPanel'],['../df/db8/classThemeSetupPage.html#ae8e2285093eebc77fe5c2daba9df6263',1,'ThemeSetupPage::quickSetupPanel']]],
   ['quickwidget_15',['quickWidget',['../d3/d27/classBannerHost.html#ab5408ca6a56bac56dd04aac3206f68ca',1,'BannerHost']]],
   ['quota_5frecover_5fms_16',['QUOTA_RECOVER_MS',['../d5/d70/card__picture__loader__worker_8cpp.html#af74515de3cf9086cd59db6e9fab2387a',1,'card_picture_loader_worker.cpp']]],
-  ['qxt_5fd_17',['qxt_d',['../d5/db4/classQxtMailAttachment.html#afb17b5f1402b302973c29adb74a40852',1,'QxtMailAttachment::qxt_d'],['../d5/dff/classQxtMailMessage.html#af518da51bc50f73332cd1a2b5f285e49',1,'QxtMailMessage::qxt_d']]],
-  ['qxt_5fp_5fptr_18',['qxt_p_ptr',['../db/d14/classQxtPrivate.html#a795119eb3c84d0788a8c6c24fc440166',1,'QxtPrivate']]]
+  ['quota_5freset_5finterval_5fms_17',['QUOTA_RESET_INTERVAL_MS',['../d5/d70/card__picture__loader__worker_8cpp.html#a6a1b9732f11e2a7a1144bb5554d63b54',1,'card_picture_loader_worker.cpp']]],
+  ['qxt_5fd_18',['qxt_d',['../d5/db4/classQxtMailAttachment.html#afb17b5f1402b302973c29adb74a40852',1,'QxtMailAttachment::qxt_d'],['../d5/dff/classQxtMailMessage.html#af518da51bc50f73332cd1a2b5f285e49',1,'QxtMailMessage::qxt_d']]],
+  ['qxt_5fp_5fptr_19',['qxt_p_ptr',['../db/d14/classQxtPrivate.html#a795119eb3c84d0788a8c6c24fc440166',1,'QxtPrivate']]]
 ];

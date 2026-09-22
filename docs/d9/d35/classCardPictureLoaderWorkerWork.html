@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-21-Development-3.1.0-beta.13</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -137,8 +137,17 @@ Signals</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa6e0123b9f1d6b567cd6f7da703ff59f" id="r_aa6e0123b9f1d6b567cd6f7da703ff59f"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa6e0123b9f1d6b567cd6f7da703ff59f">CardPictureLoaderWorkerWork</a> (const <a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html">CardPictureLoaderWorker</a> *worker, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;toLoad)</td></tr>
-<tr class="memdesc:aa6e0123b9f1d6b567cd6f7da703ff59f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a worker for downloading a specific card image.  <br /></td></tr>
+<tr class="memitem:a48a574323513d59f0440b95e8eb30835" id="r_a48a574323513d59f0440b95e8eb30835"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a48a574323513d59f0440b95e8eb30835">CardPictureLoaderWorkerWork</a> (<a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html">CardPictureLoaderWorker</a> *worker, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;toLoad)</td></tr>
+<tr class="memdesc:a48a574323513d59f0440b95e8eb30835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a worker for downloading a specific card image.  <br /></td></tr>
+<tr class="memitem:ae01ebf763b31d3a33009fb27b3751c84" id="r_ae01ebf763b31d3a33009fb27b3751c84"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae01ebf763b31d3a33009fb27b3751c84">startNextPicDownload</a> ()</td></tr>
+<tr class="memdesc:ae01ebf763b31d3a33009fb27b3751c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts downloading the next URL for this card.  <br /></td></tr>
+<tr class="memitem:ac06d608611c31319887f7c11aa1f8c0c" id="r_ac06d608611c31319887f7c11aa1f8c0c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac06d608611c31319887f7c11aa1f8c0c">scheduleDeferredRetry</a> (const QString &amp;preferredHost={})</td></tr>
+<tr class="memdesc:ac06d608611c31319887f7c11aa1f8c0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Schedules a deferred retry after the relevant server backoff expires.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a6f1b33596c67ac6ab9d6c43b818d3f8f" id="r_a6f1b33596c67ac6ab9d6c43b818d3f8f"><td class="memItemLeft">static const <a class="el" href="../../d2/d4f/classServerRateLimiter.html">ServerRateLimiter</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a6f1b33596c67ac6ab9d6c43b818d3f8f">rateLimiter</a> ()</td></tr>
+<tr class="memdesc:a6f1b33596c67ac6ab9d6c43b818d3f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shared per-server 429 backoff state.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -152,8 +161,6 @@ Private Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ae01ebf763b31d3a33009fb27b3751c84" id="r_ae01ebf763b31d3a33009fb27b3751c84"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae01ebf763b31d3a33009fb27b3751c84">startNextPicDownload</a> ()</td></tr>
-<tr class="memdesc:ae01ebf763b31d3a33009fb27b3751c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts downloading the next URL for this card.  <br /></td></tr>
 <tr class="memitem:a89efc6349c980007b6e1fb9cd22623f9" id="r_a89efc6349c980007b6e1fb9cd22623f9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a89efc6349c980007b6e1fb9cd22623f9">picDownloadFailed</a> ()</td></tr>
 <tr class="memdesc:a89efc6349c980007b6e1fb9cd22623f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when all URLs have been exhausted or download failed.  <br /></td></tr>
 <tr class="memitem:ad5662553bdbb2b6faab62ef1bcf800a8" id="r_ad5662553bdbb2b6faab62ef1bcf800a8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad5662553bdbb2b6faab62ef1bcf800a8">handleFailedReply</a> (const QNetworkReply *reply)</td></tr>
@@ -164,8 +171,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:a29b0c81fad846004a783ec3d09262dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to read an image from a network reply.  <br /></td></tr>
 <tr class="memitem:a388059b693ffc302e344c1d4d1ef4f79" id="r_a388059b693ffc302e344c1d4d1ef4f79"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a388059b693ffc302e344c1d4d1ef4f79">concludeImageLoad</a> (const QImage &amp;image)</td></tr>
 <tr class="memdesc:a388059b693ffc302e344c1d4d1ef4f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalizes the image loading process.  <br /></td></tr>
-<tr class="memitem:ad18bb8534a782bddbe460b51dc7927dc" id="r_ad18bb8534a782bddbe460b51dc7927dc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad18bb8534a782bddbe460b51dc7927dc">scheduleDeferredRetry</a> ()</td></tr>
-<tr class="memdesc:ad18bb8534a782bddbe460b51dc7927dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Schedules a deferred retry after the relevant server backoff expires.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -187,8 +192,8 @@ Static Private Attributes</h2></td></tr>
 <li>Delete itself after loading completes. </li>
 </ul>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa6e0123b9f1d6b567cd6f7da703ff59f" name="aa6e0123b9f1d6b567cd6f7da703ff59f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6e0123b9f1d6b567cd6f7da703ff59f">&#9670;&#160;</a></span>CardPictureLoaderWorkerWork()</h2>
+<a id="a48a574323513d59f0440b95e8eb30835" name="a48a574323513d59f0440b95e8eb30835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48a574323513d59f0440b95e8eb30835">&#9670;&#160;</a></span>CardPictureLoaderWorkerWork()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -199,7 +204,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">CardPictureLoaderWorkerWork::CardPictureLoaderWorkerWork </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html">CardPictureLoaderWorker</a> *</td>          <td class="paramname"><span class="paramname"><em>worker</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html">CardPictureLoaderWorker</a> *</td>          <td class="paramname"><span class="paramname"><em>worker</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -217,7 +222,7 @@ Static Private Attributes</h2></td></tr>
 <p>Constructs a worker for downloading a specific card image. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">worker</td><td>The orchestrating <a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html" title="Handles asynchronous loading of card images, both locally and via network.">CardPictureLoaderWorker</a> </td></tr>
+    <tr><td class="paramname">worker</td><td>The orchestrating <a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html" title="Handles asynchronous loading of card images, both locally and via network.">CardPictureLoaderWorker</a>; the work object becomes its child so it is destroyed with the worker even if it never reaches <a class="el" href="#a388059b693ffc302e344c1d4d1ef4f79" title="Finalizes the image loading process.">concludeImageLoad()</a>. </td></tr>
     <tr><td class="paramname">toLoad</td><td>The <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> to download </td></tr>
   </table>
   </dd>
@@ -225,12 +230,12 @@ Static Private Attributes</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_aa6e0123b9f1d6b567cd6f7da703ff59f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a48a574323513d59f0440b95e8eb30835_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_aa6e0123b9f1d6b567cd6f7da703ff59f_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a48a574323513d59f0440b95e8eb30835_icgraph.svg" width="100%" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -263,7 +268,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a0345c852142011960d13bf32129142a8_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a0345c852142011960d13bf32129142a8_icgraph.svg" width="100%" height="528"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -307,7 +312,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a388059b693ffc302e344c1d4d1ef4f79_icgraph.svg" width="100%" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a388059b693ffc302e344c1d4d1ef4f79_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -344,7 +349,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_ad5662553bdbb2b6faab62ef1bcf800a8_icgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_ad5662553bdbb2b6faab62ef1bcf800a8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -387,7 +392,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a908ff687bf28ed1b03bca7f29f1eafe2_icgraph.svg" width="100%" height="520"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a908ff687bf28ed1b03bca7f29f1eafe2_icgraph.svg" width="100%" height="540"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -424,7 +429,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_afd089911d98f940e58167f9110968f44_icgraph.svg" width="100%" height="498"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_afd089911d98f940e58167f9110968f44_icgraph.svg" width="100%" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -468,7 +473,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a242d919dedadb96a767d5554931ef9b6_icgraph.svg" width="100%" height="505"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a242d919dedadb96a767d5554931ef9b6_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -505,7 +510,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a4c09d28e6f6b041f95adfb803e06e0d1_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a4c09d28e6f6b041f95adfb803e06e0d1_icgraph.svg" width="100%" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -542,7 +547,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a89efc6349c980007b6e1fb9cd22623f9_icgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a89efc6349c980007b6e1fb9cd22623f9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -574,7 +579,39 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a1736bd14f7db59bda4a8dd77477f4d83_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a1736bd14f7db59bda4a8dd77477f4d83_icgraph.svg" width="100%" height="528"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a6f1b33596c67ac6ab9d6c43b818d3f8f" name="a6f1b33596c67ac6ab9d6c43b818d3f8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f1b33596c67ac6ab9d6c43b818d3f8f">&#9670;&#160;</a></span>rateLimiter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d2/d4f/classServerRateLimiter.html">ServerRateLimiter</a> &amp; CardPictureLoaderWorkerWork::rateLimiter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shared per-server 429 backoff state. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a6f1b33596c67ac6ab9d6c43b818d3f8f_icgraph.svg" width="100%" height="580"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -615,7 +652,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a9f43f61df393a775377560ec6cf6327c_icgraph.svg" width="100%" height="529"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a9f43f61df393a775377560ec6cf6327c_icgraph.svg" width="100%" height="526"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -647,45 +684,43 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a583f215234b5b58a68c088c6fe418f15_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a583f215234b5b58a68c088c6fe418f15_icgraph.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="ad18bb8534a782bddbe460b51dc7927dc" name="ad18bb8534a782bddbe460b51dc7927dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad18bb8534a782bddbe460b51dc7927dc">&#9670;&#160;</a></span>scheduleDeferredRetry()</h2>
+<a id="ac06d608611c31319887f7c11aa1f8c0c" name="ac06d608611c31319887f7c11aa1f8c0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac06d608611c31319887f7c11aa1f8c0c">&#9670;&#160;</a></span>scheduleDeferredRetry()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void CardPictureLoaderWorkerWork::scheduleDeferredRetry </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>preferredHost</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Schedules a deferred retry after the relevant server backoff expires. </p>
-<p>Waits on the current URL's server when it is the reason we are blocked, otherwise on the earliest active backoff. If no servers are in backoff, concludes with failure. Otherwise resets the <a class="el" href="../../da/da3/classCardPictureToLoad.html" title="Manages all URLs and sets for downloading a specific card image.">CardPictureToLoad</a> indices and retries after the backoff period. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">preferredHost</td><td>The server that is actually blocking the request, or an empty string to use the current URL's server</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Waits on the blocking server's backoff deadline, otherwise on the earliest active backoff. If no servers are in backoff, concludes with failure. Otherwise resets the <a class="el" href="../../da/da3/classCardPictureToLoad.html" title="Manages all URLs and sets for downloading a specific card image.">CardPictureToLoad</a> indices and retries after the backoff period. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_ad18bb8534a782bddbe460b51dc7927dc_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_ac06d608611c31319887f7c11aa1f8c0c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_ad18bb8534a782bddbe460b51dc7927dc_icgraph.svg" width="100%" height="560"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_ac06d608611c31319887f7c11aa1f8c0c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -695,9 +730,6 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void CardPictureLoaderWorkerWork::startNextPicDownload </td>
@@ -706,14 +738,10 @@ Here is the caller graph for this function:</div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Starts downloading the next URL for this card. </p>
+<p>Skips URLs whose server is currently in 429 backoff, either waiting the backoff out or falling through to the other configured sources. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -722,7 +750,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_ae01ebf763b31d3a33009fb27b3751c84_icgraph.svg" width="100%" height="462"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_ae01ebf763b31d3a33009fb27b3751c84_icgraph.svg" width="100%" height="468"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -761,7 +789,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a29b0c81fad846004a783ec3d09262dfb_icgraph.svg" width="100%" height="498"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a29b0c81fad846004a783ec3d09262dfb_icgraph.svg" width="100%" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -797,7 +825,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a88f83beace09a5548a577934c665703e_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d35/classCardPictureLoaderWorkerWork_a88f83beace09a5548a577934c665703e_icgraph.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

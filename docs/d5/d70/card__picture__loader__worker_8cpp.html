@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-21-Development-3.1.0-beta.13</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -122,13 +122,42 @@ Include dependency graph for card_picture_loader_worker.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ac3d9e3861fa93f2c6e8812152aabaf76" id="r_ac3d9e3861fa93f2c6e8812152aabaf76"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#ac3d9e3861fa93f2c6e8812152aabaf76">MAX_REQUESTS_PER_SEC</a> = 10</td></tr>
-<tr class="memitem:a600dd706ed3e19dbdd71db93be781dd5" id="r_a600dd706ed3e19dbdd71db93be781dd5"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a600dd706ed3e19dbdd71db93be781dd5">MIN_HOST_QUOTA</a> = 1</td></tr>
-<tr class="memdesc:a600dd706ed3e19dbdd71db93be781dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Floor for the per-host request allowance.  <br /></td></tr>
+<tr class="memitem:ac3d9e3861fa93f2c6e8812152aabaf76" id="r_ac3d9e3861fa93f2c6e8812152aabaf76"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#ac3d9e3861fa93f2c6e8812152aabaf76">MAX_REQUESTS_PER_SEC</a> = <a class="el" href="../../d4/d14/classDownloadSettings.html#a58fe3e8494aa1dbdd62a34099edb0f7c">DownloadSettings::DEFAULT_HOST_REQUEST_LIMIT</a></td></tr>
+<tr class="memitem:a600dd706ed3e19dbdd71db93be781dd5" id="r_a600dd706ed3e19dbdd71db93be781dd5"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a600dd706ed3e19dbdd71db93be781dd5">MIN_HOST_QUOTA</a> = <a class="el" href="../../d4/d14/classDownloadSettings.html#a10e49333d6d0d025f19b96bd7cf0d088">DownloadSettings::MIN_HOST_REQUEST_LIMIT</a></td></tr>
 <tr class="memitem:af74515de3cf9086cd59db6e9fab2387a" id="r_af74515de3cf9086cd59db6e9fab2387a"><td class="memItemLeft">static constexpr qint64&#160;</td><td class="memItemRight"><a class="el" href="#af74515de3cf9086cd59db6e9fab2387a">QUOTA_RECOVER_MS</a> = 60000</td></tr>
 <tr class="memdesc:af74515de3cf9086cd59db6e9fab2387a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Idle time before a reduced quota starts recovering.  <br /></td></tr>
+<tr class="memitem:a28961fa9b8a81aaa905264621d6f8c4e" id="r_a28961fa9b8a81aaa905264621d6f8c4e"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a28961fa9b8a81aaa905264621d6f8c4e">DISPATCH_INTERVAL_MS</a> = 100</td></tr>
+<tr class="memdesc:a28961fa9b8a81aaa905264621d6f8c4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pacing between individual network requests.  <br /></td></tr>
+<tr class="memitem:a6a1b9732f11e2a7a1144bb5554d63b54" id="r_a6a1b9732f11e2a7a1144bb5554d63b54"><td class="memItemLeft">static constexpr qint64&#160;</td><td class="memItemRight"><a class="el" href="#a6a1b9732f11e2a7a1144bb5554d63b54">QUOTA_RESET_INTERVAL_MS</a> = 1000</td></tr>
+<tr class="memdesc:a6a1b9732f11e2a7a1144bb5554d63b54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interval at which the request quota resets.  <br /></td></tr>
+<tr class="memitem:a9661cf0645512c9c473e1d9946346f4b" id="r_a9661cf0645512c9c473e1d9946346f4b"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a9661cf0645512c9c473e1d9946346f4b">THREAD_SHUTDOWN_WAIT_MS</a> = 5000</td></tr>
+<tr class="memdesc:a9661cf0645512c9c473e1d9946346f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounded wait for the worker thread to stop at exit.  <br /></td></tr>
 </table>
 <a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="a28961fa9b8a81aaa905264621d6f8c4e" name="a28961fa9b8a81aaa905264621d6f8c4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28961fa9b8a81aaa905264621d6f8c4e">&#9670;&#160;</a></span>DISPATCH_INTERVAL_MS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DISPATCH_INTERVAL_MS = 100</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pacing between individual network requests. </p>
+
+</div>
+</div>
 <a id="ac3d9e3861fa93f2c6e8812152aabaf76" name="ac3d9e3861fa93f2c6e8812152aabaf76"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3d9e3861fa93f2c6e8812152aabaf76">&#9670;&#160;</a></span>MAX_REQUESTS_PER_SEC</h2>
 
@@ -139,7 +168,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int MAX_REQUESTS_PER_SEC = 10</td>
+          <td class="memname">int MAX_REQUESTS_PER_SEC = <a class="el" href="../../d4/d14/classDownloadSettings.html#a58fe3e8494aa1dbdd62a34099edb0f7c">DownloadSettings::DEFAULT_HOST_REQUEST_LIMIT</a></td>
         </tr>
       </table>
   </td>
@@ -161,7 +190,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int MIN_HOST_QUOTA = 1</td>
+          <td class="memname">int MIN_HOST_QUOTA = <a class="el" href="../../d4/d14/classDownloadSettings.html#a10e49333d6d0d025f19b96bd7cf0d088">DownloadSettings::MIN_HOST_REQUEST_LIMIT</a></td>
         </tr>
       </table>
   </td>
@@ -170,8 +199,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Floor for the per-host request allowance. </p>
 
 </div>
 </div>
@@ -196,6 +223,54 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Idle time before a reduced quota starts recovering. </p>
+
+</div>
+</div>
+<a id="a6a1b9732f11e2a7a1144bb5554d63b54" name="a6a1b9732f11e2a7a1144bb5554d63b54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a1b9732f11e2a7a1144bb5554d63b54">&#9670;&#160;</a></span>QUOTA_RESET_INTERVAL_MS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qint64 QUOTA_RESET_INTERVAL_MS = 1000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Interval at which the request quota resets. </p>
+
+</div>
+</div>
+<a id="a9661cf0645512c9c473e1d9946346f4b" name="a9661cf0645512c9c473e1d9946346f4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9661cf0645512c9c473e1d9946346f4b">&#9670;&#160;</a></span>THREAD_SHUTDOWN_WAIT_MS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int THREAD_SHUTDOWN_WAIT_MS = 5000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Bounded wait for the worker thread to stop at exit. </p>
 
 </div>
 </div>

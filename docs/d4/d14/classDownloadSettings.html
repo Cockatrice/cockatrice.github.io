@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-09-21-Development-3.1.0-beta.13</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -116,6 +116,7 @@ Collaboration diagram for DownloadSettings:</div>
 Signals</h2></td></tr>
 <tr class="memitem:a24aa3904ad12c4283def3d315db73921" id="r_a24aa3904ad12c4283def3d315db73921"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a24aa3904ad12c4283def3d315db73921">picDownloadChanged</a> ()</td></tr>
 <tr class="memitem:a9b5ea19e9f3dcb6bbdedcf2ff51acf04" id="r_a9b5ea19e9f3dcb6bbdedcf2ff51acf04"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9b5ea19e9f3dcb6bbdedcf2ff51acf04">downloadSpoilerStatusChanged</a> ()</td></tr>
+<tr class="memitem:a44deb7b63a2f6e9b2a4d8bbb355e6317" id="r_a44deb7b63a2f6e9b2a4d8bbb355e6317"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a44deb7b63a2f6e9b2a4d8bbb355e6317">hostRequestLimitsChanged</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -128,6 +129,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acc51525e2c62d08088c4db031c9c5ce8" id="r_acc51525e2c62d08088c4db031c9c5ce8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acc51525e2c62d08088c4db031c9c5ce8">setPicDownload</a> (bool _picDownload)</td></tr>
 <tr class="memitem:aa819cc95a0c06192e446a53fbadc6693" id="r_aa819cc95a0c06192e446a53fbadc6693"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa819cc95a0c06192e446a53fbadc6693">getDownloadSpoilersStatus</a> () const</td></tr>
 <tr class="memitem:a3852207d5ea84058f690c257e26eb289" id="r_a3852207d5ea84058f690c257e26eb289"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3852207d5ea84058f690c257e26eb289">setDownloadSpoilerStatus</a> (bool _spoilerStatus)</td></tr>
+<tr class="memitem:ab5f732120471fb34781f53a07c109a1a" id="r_ab5f732120471fb34781f53a07c109a1a"><td class="memItemLeft">QHash&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab5f732120471fb34781f53a07c109a1a">getHostRequestLimits</a> () const</td></tr>
+<tr class="memdesc:ab5f732120471fb34781f53a07c109a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">User-set per-host request allowances (requests/second). Missing hosts use the developer default.  <br /></td></tr>
+<tr class="memitem:a55734a38e8124a90cc592df9edd6a892" id="r_a55734a38e8124a90cc592df9edd6a892"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a55734a38e8124a90cc592df9edd6a892">setHostRequestLimits</a> (const QHash&lt; QString, int &gt; &amp;hostRequestLimits)</td></tr>
+<tr class="memitem:a193c7709136f7b9b56f5157c79e7f63f" id="r_a193c7709136f7b9b56f5157c79e7f63f"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a193c7709136f7b9b56f5157c79e7f63f">clampHostRequestLimit</a> (const QString &amp;host, int requested) const</td></tr>
+<tr class="memdesc:a193c7709136f7b9b56f5157c79e7f63f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clamps the user's requested allowance for a host against its developer cap.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classSettingsManager"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classSettingsManager')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="../../d1/dea/classSettingsManager.html">SettingsManager</a></td></tr>
 <tr class="memitem:a7be922bcff08d4de81a60f4882601f18 inherit pub_methods_classSettingsManager" id="r_a7be922bcff08d4de81a60f4882601f18"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="../../d1/dea/classSettingsManager.html#a7be922bcff08d4de81a60f4882601f18">SettingsManager</a> (const QString &amp;<a class="el" href="../../d1/dea/classSettingsManager.html#ab861cb5c7844d1436786711ab5964707">settingPath</a>, const QString &amp;<a class="el" href="../../d1/dea/classSettingsManager.html#ab5d4cf5643bd35d6ca389159043d854d">defaultGroup</a>=QString(), const QString &amp;<a class="el" href="../../d1/dea/classSettingsManager.html#a9b6d9a9af58b05d08666e99da18a209e">defaultSubGroup</a>=QString(), QObject *parent=nullptr)</td></tr>
 <tr class="memitem:a74df48209c84a03c4d08f35c67ae4fff inherit pub_methods_classSettingsManager" id="r_a74df48209c84a03c4d08f35c67ae4fff"><td class="memItemLeft">QVariant&#160;</td><td class="memItemRight"><a class="el" href="../../d1/dea/classSettingsManager.html#a74df48209c84a03c4d08f35c67ae4fff">getValue</a> (const QString &amp;name) const</td></tr>
@@ -136,10 +142,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4aff609a325fbe8051c4014d35674b61 inherit pub_methods_classSettingsManager" id="r_a4aff609a325fbe8051c4014d35674b61"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/dea/classSettingsManager.html#a4aff609a325fbe8051c4014d35674b61">batchWrite</a> (std::function&lt; void(QSettings &amp;)&gt; batchWriteFunction)</td></tr>
 <tr class="memitem:a3b183f2b7c0e13753e2eb64f7cb5f1f5 inherit pub_methods_classSettingsManager" id="r_a3b183f2b7c0e13753e2eb64f7cb5f1f5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d1/dea/classSettingsManager.html#a3b183f2b7c0e13753e2eb64f7cb5f1f5">sync</a> ()</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a90f8e8ea3933b10d4d47cf44f61d9484" id="r_a90f8e8ea3933b10d4d47cf44f61d9484"><td class="memItemLeft">static const QHash&lt; QString, int &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a90f8e8ea3933b10d4d47cf44f61d9484">getDeveloperHostCaps</a> ()</td></tr>
+<tr class="memdesc:a90f8e8ea3933b10d4d47cf44f61d9484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Developer-set per-host allowance ceilings (requests/second), keyed by host.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a58fe3e8494aa1dbdd62a34099edb0f7c" id="r_a58fe3e8494aa1dbdd62a34099edb0f7c"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a58fe3e8494aa1dbdd62a34099edb0f7c">DEFAULT_HOST_REQUEST_LIMIT</a> = 10</td></tr>
+<tr class="memdesc:a58fe3e8494aa1dbdd62a34099edb0f7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Per-host request allowance (requests/second) when no developer cap applies.  <br /></td></tr>
+<tr class="memitem:a10e49333d6d0d025f19b96bd7cf0d088" id="r_a10e49333d6d0d025f19b96bd7cf0d088"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a10e49333d6d0d025f19b96bd7cf0d088">MIN_HOST_REQUEST_LIMIT</a> = 1</td></tr>
+<tr class="memdesc:a10e49333d6d0d025f19b96bd7cf0d088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Floor for any per-host request allowance.  <br /></td></tr>
+<tr class="memitem:a776e6fd845ec60b624838e648d8f0edc" id="r_a776e6fd845ec60b624838e648d8f0edc"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a776e6fd845ec60b624838e648d8f0edc">UNLOCKED_HOST_LIMIT_MAX</a> = 50</td></tr>
+<tr class="memdesc:a776e6fd845ec60b624838e648d8f0edc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upper bound offered to the user when lowering an unlocked host's allowance.  <br /></td></tr>
+<tr class="memitem:a8a8414b068aa1dd1cbe27bfa03c4c143" id="r_a8a8414b068aa1dd1cbe27bfa03c4c143"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a8a8414b068aa1dd1cbe27bfa03c4c143">UNLIMITED_HOST_QUOTA</a> = -1</td></tr>
+<tr class="memdesc:a8a8414b068aa1dd1cbe27bfa03c4c143"><td class="mdescLeft">&#160;</td><td class="mdescRight">Developer cap marking a host as never throttled per host or by the dispatch pacing.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:ab644f5cd6589c1d67761bbe2ef332b41" id="r_ab644f5cd6589c1d67761bbe2ef332b41"><td class="memItemLeft">static const QStringList&#160;</td><td class="memItemRight"><a class="el" href="#ab644f5cd6589c1d67761bbe2ef332b41">DEFAULT_DOWNLOAD_URLS</a></td></tr>
 <tr class="memitem:a19cc324a75c951d244e7d377f2aba288" id="r_a19cc324a75c951d244e7d377f2aba288"><td class="memItemLeft">static const QString&#160;</td><td class="memItemRight"><a class="el" href="#a19cc324a75c951d244e7d377f2aba288">SCRYFALL_NAMED_LOCALIZED_URL</a></td></tr>
+<tr class="memitem:af049d4c09620dac11a4ae65915473195" id="r_af049d4c09620dac11a4ae65915473195"><td class="memItemLeft">static const QHash&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af049d4c09620dac11a4ae65915473195">DEVELOPER_HOST_CAPS</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -231,6 +254,50 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a193c7709136f7b9b56f5157c79e7f63f" name="a193c7709136f7b9b56f5157c79e7f63f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a193c7709136f7b9b56f5157c79e7f63f">&#9670;&#160;</a></span>clampHostRequestLimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DownloadSettings::clampHostRequestLimit </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>host</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>requested</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clamps the user's requested allowance for a host against its developer cap. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">host</td><td>The host to clamp for </td></tr>
+    <tr><td class="paramname">requested</td><td>The user-requested allowance in requests/second </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The effective allowance. Users may lower a host's allowance but never raise it above the developer cap; hosts with UNLIMITED_HOST_QUOTA have no upper bound. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_a193c7709136f7b9b56f5157c79e7f63f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a9b5ea19e9f3dcb6bbdedcf2ff51acf04" name="a9b5ea19e9f3dcb6bbdedcf2ff51acf04"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b5ea19e9f3dcb6bbdedcf2ff51acf04">&#9670;&#160;</a></span>downloadSpoilerStatusChanged</h2>
 
@@ -283,7 +350,40 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_a1dc5076ca3e38bd1131f092990710de3_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_a1dc5076ca3e38bd1131f092990710de3_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a90f8e8ea3933b10d4d47cf44f61d9484" name="a90f8e8ea3933b10d4d47cf44f61d9484"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90f8e8ea3933b10d4d47cf44f61d9484">&#9670;&#160;</a></span>getDeveloperHostCaps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QHash&lt; QString, int &gt; &amp; DownloadSettings::getDeveloperHostCaps </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Developer-set per-host allowance ceilings (requests/second), keyed by host. </p>
+<p>Hosts not present default to DEFAULT_HOST_REQUEST_LIMIT. An entry of UNLIMITED_HOST_QUOTA marks a host that users may still lower, but that is never throttled per host by default. Users can never raise a host's allowance above its developer cap. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_a90f8e8ea3933b10d4d47cf44f61d9484_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -323,6 +423,35 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ab5f732120471fb34781f53a07c109a1a" name="ab5f732120471fb34781f53a07c109a1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5f732120471fb34781f53a07c109a1a">&#9670;&#160;</a></span>getHostRequestLimits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHash&lt; QString, int &gt; DownloadSettings::getHostRequestLimits </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>User-set per-host request allowances (requests/second). Missing hosts use the developer default. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_ab5f732120471fb34781f53a07c109a1a_cgraph.svg" width="472" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_ab5f732120471fb34781f53a07c109a1a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="aef441380ebeb7a914a473f65e9710a35" name="aef441380ebeb7a914a473f65e9710a35"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aef441380ebeb7a914a473f65e9710a35">&#9670;&#160;</a></span>getPicDownload()</h2>
 
@@ -353,7 +482,37 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_aef441380ebeb7a914a473f65e9710a35_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_aef441380ebeb7a914a473f65e9710a35_icgraph.svg" width="100%" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a44deb7b63a2f6e9b2a4d8bbb355e6317" name="a44deb7b63a2f6e9b2a4d8bbb355e6317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44deb7b63a2f6e9b2a4d8bbb355e6317">&#9670;&#160;</a></span>hostRequestLimitsChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DownloadSettings::hostRequestLimitsChanged </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_a44deb7b63a2f6e9b2a4d8bbb355e6317_icgraph.svg" width="100%" height="506"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -469,6 +628,33 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a55734a38e8124a90cc592df9edd6a892" name="a55734a38e8124a90cc592df9edd6a892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55734a38e8124a90cc592df9edd6a892">&#9670;&#160;</a></span>setHostRequestLimits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DownloadSettings::setHostRequestLimits </td>
+          <td>(</td>
+          <td class="paramtype">const QHash&lt; QString, int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>hostRequestLimits</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_a55734a38e8124a90cc592df9edd6a892_cgraph.svg" width="487" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d14/classDownloadSettings_a55734a38e8124a90cc592df9edd6a892_icgraph.svg" width="100%" height="504"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="acc51525e2c62d08088c4db031c9c5ce8" name="acc51525e2c62d08088c4db031c9c5ce8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acc51525e2c62d08088c4db031c9c5ce8">&#9670;&#160;</a></span>setPicDownload()</h2>
 
@@ -548,6 +734,83 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 </div>
 </div>
+<a id="a58fe3e8494aa1dbdd62a34099edb0f7c" name="a58fe3e8494aa1dbdd62a34099edb0f7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58fe3e8494aa1dbdd62a34099edb0f7c">&#9670;&#160;</a></span>DEFAULT_HOST_REQUEST_LIMIT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DownloadSettings::DEFAULT_HOST_REQUEST_LIMIT = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Per-host request allowance (requests/second) when no developer cap applies. </p>
+
+</div>
+</div>
+<a id="af049d4c09620dac11a4ae65915473195" name="af049d4c09620dac11a4ae65915473195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af049d4c09620dac11a4ae65915473195">&#9670;&#160;</a></span>DEVELOPER_HOST_CAPS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QHash&lt; QString, int &gt; DownloadSettings::DEVELOPER_HOST_CAPS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">                                                  = {</div>
+<div class="line">    </div>
+<div class="line">    {<span class="stringliteral">&quot;api.scryfall.com&quot;</span>, 9},</div>
+<div class="line">    </div>
+<div class="line">    {<span class="stringliteral">&quot;cards.scryfall.io&quot;</span>, <a class="code hl_variable" href="#a8a8414b068aa1dd1cbe27bfa03c4c143">UNLIMITED_HOST_QUOTA</a>},</div>
+<div class="line">}</div>
+<div class="ttc" id="aclassDownloadSettings_html_a8a8414b068aa1dd1cbe27bfa03c4c143"><div class="ttname"><a href="#a8a8414b068aa1dd1cbe27bfa03c4c143">DownloadSettings::UNLIMITED_HOST_QUOTA</a></div><div class="ttdeci">static constexpr int UNLIMITED_HOST_QUOTA</div><div class="ttdoc">Developer cap marking a host as never throttled per host or by the dispatch pacing.</div><div class="ttdef"><b>Definition</b> download_settings.h:38</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a10e49333d6d0d025f19b96bd7cf0d088" name="a10e49333d6d0d025f19b96bd7cf0d088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10e49333d6d0d025f19b96bd7cf0d088">&#9670;&#160;</a></span>MIN_HOST_REQUEST_LIMIT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DownloadSettings::MIN_HOST_REQUEST_LIMIT = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Floor for any per-host request allowance. </p>
+
+</div>
+</div>
 <a id="a19cc324a75c951d244e7d377f2aba288" name="a19cc324a75c951d244e7d377f2aba288"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19cc324a75c951d244e7d377f2aba288">&#9670;&#160;</a></span>SCRYFALL_NAMED_LOCALIZED_URL</h2>
 
@@ -570,6 +833,55 @@ Here is the caller graph for this function:</div>
 <b>Initial value:</b><div class="fragment"><div class="line">                                                         =</div>
 <div class="line"><span class="stringliteral">&quot;https://api.scryfall.com/cards/named?fuzzy=!localizedName!&amp;lang=!sflang!&amp;format=image&amp;face=!prop:side!&quot;</span></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="a8a8414b068aa1dd1cbe27bfa03c4c143" name="a8a8414b068aa1dd1cbe27bfa03c4c143"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a8414b068aa1dd1cbe27bfa03c4c143">&#9670;&#160;</a></span>UNLIMITED_HOST_QUOTA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DownloadSettings::UNLIMITED_HOST_QUOTA = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Developer cap marking a host as never throttled per host or by the dispatch pacing. </p>
+
+</div>
+</div>
+<a id="a776e6fd845ec60b624838e648d8f0edc" name="a776e6fd845ec60b624838e648d8f0edc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a776e6fd845ec60b624838e648d8f0edc">&#9670;&#160;</a></span>UNLOCKED_HOST_LIMIT_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DownloadSettings::UNLOCKED_HOST_LIMIT_MAX = 50</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Upper bound offered to the user when lowering an unlocked host's allowance. </p>
+<p>Unlocked hosts have no developer cap, so <span class="tt"><a class="el" href="#a193c7709136f7b9b56f5157c79e7f63f" title="Clamps the user&#39;s requested allowance for a host against its developer cap.">clampHostRequestLimit</a></span> puts no upper bound on them; this only bounds what the settings dialog offers, and matches the widest paced allowance a user is documented to be able to hand-edit in <span class="tt">downloads.ini</span>. Choosing 0 below this restores the "unlimited" fast path. </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>

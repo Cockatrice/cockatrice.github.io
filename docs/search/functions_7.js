@@ -94,10 +94,13 @@ var searchData=
   ['homewidget_91',['HomeWidget',['../de/de3/classHomeWidget.html#ab3d9b41b45ce3ea2eff58af5d7f49dc3',1,'HomeWidget']]],
   ['horizontalhandchanged_92',['horizontalHandChanged',['../d3/dc5/classInterfaceSettings.html#a4818f73f9a822e2af513e86e7f296598',1,'InterfaceSettings']]],
   ['horizontalspacing_93',['horizontalSpacing',['../de/d8b/classFlowLayout.html#a05a9929bf2d7749c8d45afe1fc15b27e',1,'FlowLayout']]],
-  ['hovered_94',['hovered',['../d4/db9/classAbstractCardItem.html#a6335ae85b261e8d1d8aefb4e88a739d8',1,'AbstractCardItem']]],
-  ['hoveredoncard_95',['hoveredOnCard',['../dd/dd2/classCardInfoPictureWidget.html#a692d4b6aaffbcc1b4422168b5fb99e4e',1,'CardInfoPictureWidget']]],
-  ['hoverenterevent_96',['hoverEnterEvent',['../d4/d67/classAbstractCounter.html#af7bc693d1684c5a2c3f63fb006b6a1c3',1,'AbstractCounter::hoverEnterEvent()'],['../dc/d0b/classDeckViewCard.html#ae92c389d10db3e4674dc51d686d2454a',1,'DeckViewCard::hoverEnterEvent()'],['../d6/d02/classPileZone.html#ad7a0b603c0ee39a54a8dcb969d777cfd',1,'PileZone::hoverEnterEvent()']]],
-  ['hoverleaveevent_97',['hoverLeaveEvent',['../d4/d67/classAbstractCounter.html#a8bfff772ad1042991fce1392acf9ecd2',1,'AbstractCounter']]],
-  ['hypergeometric_98',['hypergeometric',['../d7/d02/classDeckListStatisticsAnalyzer.html#a23d8b26c808a6825d43252929ceab5ea',1,'DeckListStatisticsAnalyzer']]],
-  ['hypergeometricprobability_99',['hypergeometricProbability',['../dd/de9/classDrawProbabilityWidget.html#a6e421b6145571e11dcd72f1948fbb1a2',1,'DrawProbabilityWidget']]]
+  ['hostallowanceceiling_94',['hostAllowanceCeiling',['../d6/da1/classCardPictureLoaderWorker.html#ae026e47d8af1cfdbeb42db656b0f1d9d',1,'CardPictureLoaderWorker']]],
+  ['hostof_95',['hostOf',['../d4/dc8/picture__loader__benchmark_8cpp.html#a8c9c891a67f021d24c1572332d3cf7ff',1,'picture_loader_benchmark.cpp']]],
+  ['hostrequestlimitschanged_96',['hostRequestLimitsChanged',['../d4/d14/classDownloadSettings.html#a44deb7b63a2f6e9b2a4d8bbb355e6317',1,'DownloadSettings']]],
+  ['hovered_97',['hovered',['../d4/db9/classAbstractCardItem.html#a6335ae85b261e8d1d8aefb4e88a739d8',1,'AbstractCardItem']]],
+  ['hoveredoncard_98',['hoveredOnCard',['../dd/dd2/classCardInfoPictureWidget.html#a692d4b6aaffbcc1b4422168b5fb99e4e',1,'CardInfoPictureWidget']]],
+  ['hoverenterevent_99',['hoverEnterEvent',['../d4/d67/classAbstractCounter.html#af7bc693d1684c5a2c3f63fb006b6a1c3',1,'AbstractCounter::hoverEnterEvent()'],['../dc/d0b/classDeckViewCard.html#ae92c389d10db3e4674dc51d686d2454a',1,'DeckViewCard::hoverEnterEvent()'],['../d6/d02/classPileZone.html#ad7a0b603c0ee39a54a8dcb969d777cfd',1,'PileZone::hoverEnterEvent()']]],
+  ['hoverleaveevent_100',['hoverLeaveEvent',['../d4/d67/classAbstractCounter.html#a8bfff772ad1042991fce1392acf9ecd2',1,'AbstractCounter']]],
+  ['hypergeometric_101',['hypergeometric',['../d7/d02/classDeckListStatisticsAnalyzer.html#a23d8b26c808a6825d43252929ceab5ea',1,'DeckListStatisticsAnalyzer']]],
+  ['hypergeometricprobability_102',['hypergeometricProbability',['../dd/de9/classDrawProbabilityWidget.html#a6e421b6145571e11dcd72f1948fbb1a2',1,'DrawProbabilityWidget']]]
 ];
