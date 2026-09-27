@@ -8,11 +8,13 @@ var NAVTREEINDEX79 =
 "de/d47/structDeckShareSummaryRecord.html#af52e00dbb340777aba0e7a48ca729463":[4,1,0,327,2],
 "de/d48/classDlgEditAvatar.html":[4,1,0,343],
 "de/d48/classDlgEditAvatar.html#a2e155ceb8f904386ea79424736a9f7b4":[4,1,0,343,1],
-"de/d48/classDlgEditAvatar.html#a4dde475035df043794fa6a9c14e22910":[4,1,0,343,6],
-"de/d48/classDlgEditAvatar.html#a8101801d4c376c970c50711bcea7a6a6":[4,1,0,343,5],
+"de/d48/classDlgEditAvatar.html#a31c2b8b18b020ca60066577384458e37":[4,1,0,343,8],
+"de/d48/classDlgEditAvatar.html#a3f8343445ba7db4c774ecc601c6d1480":[4,1,0,343,5],
+"de/d48/classDlgEditAvatar.html#a4dde475035df043794fa6a9c14e22910":[4,1,0,343,7],
+"de/d48/classDlgEditAvatar.html#a8101801d4c376c970c50711bcea7a6a6":[4,1,0,343,6],
 "de/d48/classDlgEditAvatar.html#a9b30221bfbbe54d6a8035bd51d56d06a":[4,1,0,343,3],
 "de/d48/classDlgEditAvatar.html#aa88791e6b8a102f146d2c484efaba861":[4,1,0,343,4],
-"de/d48/classDlgEditAvatar.html#acfe65f11f6f4c798bb4e8aac60d5cdc1":[4,1,0,343,7],
+"de/d48/classDlgEditAvatar.html#acfe65f11f6f4c798bb4e8aac60d5cdc1":[4,1,0,343,9],
 "de/d48/classDlgEditAvatar.html#ae1b7c6ecdb1fb2623df72a9253b8d0f8":[4,1,0,343,0],
 "de/d48/classDlgEditAvatar.html#ae3e0b26cbb4f36a149ea349501755018":[4,1,0,343,2],
 "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html":[4,1,0,41],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "de/d6c/structCommanderSpellbookCardResult.html#a87ac4eba0bd078ff6816a7fb1fc3493d":[4,1,0,263,0],
 "de/d6c/structCommanderSpellbookCardResult.html#a95db9e3f765d7f4ccd14d4368ddd9e7d":[4,1,0,263,11],
 "de/d6c/structCommanderSpellbookCardResult.html#a99b886627c49aa55178565f6f2f2b77c":[4,1,0,263,15],
-"de/d6c/structCommanderSpellbookCardResult.html#aa9901d43186092e949501d45ac016716":[4,1,0,263,5],
-"de/d6c/structCommanderSpellbookCardResult.html#abc63e8ccde85dad471bb92621ef7a08b":[4,1,0,263,14],
-"de/d6c/structCommanderSpellbookCardResult.html#abe0af9b56ec1f90a78de399ac4746d40":[4,1,0,263,10]
+"de/d6c/structCommanderSpellbookCardResult.html#aa9901d43186092e949501d45ac016716":[4,1,0,263,5]
 };

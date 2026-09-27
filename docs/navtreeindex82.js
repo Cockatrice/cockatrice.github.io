@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"de/dbe/classCardDatabaseSettings.html#a479a8b7ed22df9f2fc7da0437c3c66ac":[4,1,0,88,13],
+"de/dbe/classCardDatabaseSettings.html#a638768afda3a6eb230aaf7b6ced129b4":[4,1,0,88,9],
 "de/dbe/classCardDatabaseSettings.html#a84ebaabe0d016233a93be3178851733a":[4,1,0,88,2],
 "de/dbe/classCardDatabaseSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,88,10],
 "de/dbe/classCardDatabaseSettings.html#a94eeeab6307c485dc5550bf683f2ed8d":[4,1,0,88,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "de/df3/classTabEdhRecMain.html":[4,1,0,889],
 "de/df3/classTabEdhRecMain.html#a0278d170fcd5453d0cf7e0f02cc710d0":[4,1,0,889,31],
 "de/df3/classTabEdhRecMain.html#a02792c427ba6d98fe467b4f9aec30022":[4,1,0,889,26],
-"de/df3/classTabEdhRecMain.html#a054d13a0cc2607423bbf05f1753c9f69":[4,1,0,889,0],
-"de/df3/classTabEdhRecMain.html#a066d03e20d9f79e320cbe17d87bf4394":[4,1,0,889,13],
-"de/df3/classTabEdhRecMain.html#a0ea70a5b6fe5fd69cbefc144baa4151a":[4,1,0,889,16]
+"de/df3/classTabEdhRecMain.html#a054d13a0cc2607423bbf05f1753c9f69":[4,1,0,889,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"de/d6c/structCommanderSpellbookCardResult.html#abc63e8ccde85dad471bb92621ef7a08b":[4,1,0,263,14],
+"de/d6c/structCommanderSpellbookCardResult.html#abe0af9b56ec1f90a78de399ac4746d40":[4,1,0,263,10],
 "de/d6c/structCommanderSpellbookCardResult.html#adfa53e34da55352a5ffdb83c3c54408d":[4,1,0,263,1],
 "de/d6e/editing_decks_visual.html":[0,0,2,1],
 "de/d6e/editing_decks_visual.html#adding-cards-1":[0,0,2,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "de/d9d/peglib_8h.html#a52653c7ec21147e27654026df3e547e6":[4,2,0,11,0,0,15,133],
 "de/d9d/peglib_8h.html#a53c061d98fbbc220c20f8489e6ac8e97":[4,2,0,11,0,0,15,162],
 "de/d9d/peglib_8h.html#a55a263a5dce735aaf9f901ba396ea696":[4,2,0,11,0,0,15,79],
-"de/d9d/peglib_8h.html#a569e3112eead8960c8bd44c505f50cb0":[4,2,0,11,0,0,15,134],
-"de/d9d/peglib_8h.html#a578c2621efa94ad7f37185bb728fc3b2":[4,2,0,11,0,0,15,144],
-"de/d9d/peglib_8h.html#a5972ebbd78023ed4a4823ccaf0445f8e":[4,2,0,11,0,0,15,172]
+"de/d9d/peglib_8h.html#a569e3112eead8960c8bd44c505f50cb0":[4,2,0,11,0,0,15,134]
 };

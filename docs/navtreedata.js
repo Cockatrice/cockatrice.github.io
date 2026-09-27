@@ -163,18 +163,18 @@ var NAVTREEINDEX =
 "dd/dfd/structpeg_1_1FindLiteralToken.html#ade8440f9ed92da93693329208ba10381",
 "de/d24/classCommanderSpellbookApiAccessor.html",
 "de/d47/structDeckShareSummaryRecord.html",
-"de/d6c/structCommanderSpellbookCardResult.html#adfa53e34da55352a5ffdb83c3c54408d",
-"de/d9d/peglib_8h.html#a5ca7f6186d287770444c6cc1a912b824",
-"de/dbe/classCardDatabaseSettings.html#a84ebaabe0d016233a93be3178851733a",
-"de/df3/classTabEdhRecMain.html#a1a53139d2de1b3bd261adedb355c5659",
-"df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html",
-"df/d55/structCommand__ViewLogHistory_1_1DeveloperCommand.html",
-"df/d89/classServer__Game.html#a30da97b384f2a8a08178bd1534339eb2",
-"df/d94/classpeg_1_1Context.html#ae528ab480443e2143c89db2ead43ed4c",
-"df/db8/classThemeSetupPage.html#a4c4f7b6706575d1ff67552c5da162002",
-"df/ddd/classDeckViewContainer.html#af49d780ceae81e9ee6bb02cbc209b8c5",
-"dir_135a1cbfd54523c8ecfd53c2001b2626.html",
-"functions_prop.html"
+"de/d6c/structCommanderSpellbookCardResult.html#abc63e8ccde85dad471bb92621ef7a08b",
+"de/d9d/peglib_8h.html#a578c2621efa94ad7f37185bb728fc3b2",
+"de/dbe/classCardDatabaseSettings.html#a479a8b7ed22df9f2fc7da0437c3c66ac",
+"de/df3/classTabEdhRecMain.html#a066d03e20d9f79e320cbe17d87bf4394",
+"df/d2f/game__commands_8proto.html#adbedb258e13546cc707a6ebb073a3d8a",
+"df/d53/classVisualDeckStorageSortFilterProxyModel.html#ad5fcb9214d8ebd587505f8f751a65a0f",
+"df/d89/classServer__Game.html#a2df5b24f0b46029452f409710eeffd49",
+"df/d94/classpeg_1_1Context.html#ae3e51058a23191b0c93e095bbaf504bb",
+"df/db8/classThemeSetupPage.html#a312ca1592760d70805f5af24e369e2c6",
+"df/ddd/classDeckViewContainer.html#ae4fea6343deb13f6d77bae17d4cffcdc",
+"dir_11fbb345165a6d4408a12b9cfe893f8d.html",
+"functions_o.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

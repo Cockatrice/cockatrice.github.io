@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"de/d9d/peglib_8h.html#a578c2621efa94ad7f37185bb728fc3b2":[4,2,0,11,0,0,15,144],
+"de/d9d/peglib_8h.html#a5972ebbd78023ed4a4823ccaf0445f8e":[4,2,0,11,0,0,15,172],
 "de/d9d/peglib_8h.html#a5ca7f6186d287770444c6cc1a912b824":[4,2,0,11,0,0,15,156],
 "de/d9d/peglib_8h.html#a5cf40e466321f85b8cd467f3f188f125":[4,2,0,11,0,0,15,184],
 "de/d9d/peglib_8h.html#a6b5514369305a8688ec752c2cdf23858":[4,2,0,11,0,0,15,157],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "de/dbe/classCardDatabaseSettings.html#a06bb3199840818021504d99a472818a7":[4,1,0,88,8],
 "de/dbe/classCardDatabaseSettings.html#a167321b275a5fce82059550adf45dce3":[4,1,0,88,4],
 "de/dbe/classCardDatabaseSettings.html#a19bd88c51ef167d07c6cb7e7d87b93e0":[4,1,0,88,0],
-"de/dbe/classCardDatabaseSettings.html#a30dbaad145912ed168dac35bacb8b170":[4,1,0,88,12],
-"de/dbe/classCardDatabaseSettings.html#a479a8b7ed22df9f2fc7da0437c3c66ac":[4,1,0,88,13],
-"de/dbe/classCardDatabaseSettings.html#a638768afda3a6eb230aaf7b6ced129b4":[4,1,0,88,9]
+"de/dbe/classCardDatabaseSettings.html#a30dbaad145912ed168dac35bacb8b170":[4,1,0,88,12]
 };

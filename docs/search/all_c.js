@@ -171,7 +171,7 @@ var searchData=
   ['highlightedwords_168',['highlightedWords',['../dc/dea/classChatView.html#aa92f3b4e1318caa66cd9fe7487f5cd8b',1,'ChatView']]],
   ['highlightformat_169',['highlightFormat',['../dc/dea/classChatView.html#af1e12dcd74319ece72f31ce3996e67be',1,'ChatView']]],
   ['highlightgroupbox_170',['highlightGroupBox',['../d2/dae/classMessagesSettingsPage.html#ab1839656958e871a6030e2067c888624',1,'MessagesSettingsPage']]],
-  ['hintlabel_171',['hintLabel',['../d7/d12/classShareBarWidget.html#a44d619825aa0518b913f2d7da293d243',1,'ShareBarWidget']]],
+  ['hintlabel_171',['hintLabel',['../d7/d12/classShareBarWidget.html#a44d619825aa0518b913f2d7da293d243',1,'ShareBarWidget::hintLabel'],['../de/d48/classDlgEditAvatar.html#a3f8343445ba7db4c774ecc601c6d1480',1,'DlgEditAvatar::hintLabel']]],
   ['hintsgroupbox_172',['hintsGroupBox',['../dd/d67/classWndSets.html#ac1fdc0e9deb87c0ffe6308f93e084e4f',1,'WndSets']]],
   ['histogram_173',['histogram',['../d5/d07/classReplayTimelineWidget.html#a8b0d8d2ccc9722c4bd7463d6d87f5593',1,'ReplayTimelineWidget']]],
   ['historic_174',['Historic',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2ac1f5e9f36e707d5220cd7d241fcd8530',1,'ArchidektFormats']]],

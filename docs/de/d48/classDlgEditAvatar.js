@@ -5,7 +5,9 @@ var classDlgEditAvatar =
     [ "actOk", "de/d48/classDlgEditAvatar.html#ae3e0b26cbb4f36a149ea349501755018", null ],
     [ "getImage", "de/d48/classDlgEditAvatar.html#a9b30221bfbbe54d6a8035bd51d56d06a", null ],
     [ "browseButton", "de/d48/classDlgEditAvatar.html#aa88791e6b8a102f146d2c484efaba861", null ],
+    [ "hintLabel", "de/d48/classDlgEditAvatar.html#a3f8343445ba7db4c774ecc601c6d1480", null ],
     [ "image", "de/d48/classDlgEditAvatar.html#a8101801d4c376c970c50711bcea7a6a6", null ],
     [ "imageLabel", "de/d48/classDlgEditAvatar.html#a4dde475035df043794fa6a9c14e22910", null ],
+    [ "MAX_AVATAR_DIMENSION", "de/d48/classDlgEditAvatar.html#a31c2b8b18b020ca60066577384458e37", null ],
     [ "textLabel", "de/d48/classDlgEditAvatar.html#acfe65f11f6f4c798bb4e8aac60d5cdc1", null ]
 ];

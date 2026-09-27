@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"df/d2f/game__commands_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,127,3],
+"df/d2f/game__commands_8proto_source.html":[4,2,0,8,0,0,0,127],
 "df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html":[4,0,0,25,59,3],
 "df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html":[4,1,0,5,58,3],
 "df/d30/classpeg_1_1ParserGenerator_1_1SyntaxErrorException.html#ad39cfca49fd993e715578828c87b36b7":[4,0,0,25,59,3,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX84 =
 "df/d53/classVisualDeckStorageSortFilterProxyModel.html#abf6a3a7e798f1c7fa1875467c6ee0491":[4,1,0,966,25],
 "df/d53/classVisualDeckStorageSortFilterProxyModel.html#ac815d58c9b5be85049b8be8b7c1620e9":[4,1,0,966,24],
 "df/d53/classVisualDeckStorageSortFilterProxyModel.html#acb735ca136e127b5bb52ed54c3c41906":[4,1,0,966,21],
-"df/d53/classVisualDeckStorageSortFilterProxyModel.html#ad39911963aed330d113752f227fed746":[4,1,0,966,13],
-"df/d53/classVisualDeckStorageSortFilterProxyModel.html#ad5fcb9214d8ebd587505f8f751a65a0f":[4,1,0,966,14],
-"df/d53/classVisualDeckStorageSortFilterProxyModel.html#af2ee12d20ac76a42a0a0828c3ae6527c":[4,1,0,966,18]
+"df/d53/classVisualDeckStorageSortFilterProxyModel.html#ad39911963aed330d113752f227fed746":[4,1,0,966,13]
 };

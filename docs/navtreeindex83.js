@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"de/df3/classTabEdhRecMain.html#a066d03e20d9f79e320cbe17d87bf4394":[4,1,0,889,13],
+"de/df3/classTabEdhRecMain.html#a0ea70a5b6fe5fd69cbefc144baa4151a":[4,1,0,889,16],
 "de/df3/classTabEdhRecMain.html#a1a53139d2de1b3bd261adedb355c5659":[4,1,0,889,24],
 "de/df3/classTabEdhRecMain.html#a1ce1eb14583f11f834fc2ffce19a24a2":[4,1,0,889,12],
 "de/df3/classTabEdhRecMain.html#a1e84bfe76fa4b1eb411a0370815d7d47":[4,1,0,889,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "df/d2d/classEdhrecApiResponseCardListDisplayWidget.html#ae802fa3ff89f8d00434a65056093fa91":[4,1,0,385,1],
 "df/d2d/classEdhrecApiResponseCardListDisplayWidget.html#aed87692510138ff5b48994a48dd551ab":[4,1,0,385,0],
 "df/d2d/classEdhrecApiResponseCardListDisplayWidget.html#af25cb1852838a9fbce1df1e5b87ddcb5":[4,1,0,385,5],
-"df/d2f/game__commands_8proto.html":[4,2,0,8,0,0,0,127],
-"df/d2f/game__commands_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,127,3],
-"df/d2f/game__commands_8proto_source.html":[4,2,0,8,0,0,0,127]
+"df/d2f/game__commands_8proto.html":[4,2,0,8,0,0,0,127]
 };
