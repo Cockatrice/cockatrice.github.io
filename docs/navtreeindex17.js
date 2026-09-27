@@ -1,5 +1,8 @@
 var NAVTREEINDEX17 =
 {
+"d3/d59/structEvent__GameStateChanged.html":[4,1,0,425],
+"d3/d59/structEvent__GameStateChanged.html#a65f465e69092a0684f1ca31153b8004e":[4,1,0,425,4],
+"d3/d59/structEvent__GameStateChanged.html#a7764ebd0c92a9b8d3511473e372bcb6f":[4,1,0,425,1],
 "d3/d59/structEvent__GameStateChanged.html#a7bf3cdd456244acadf45df6116e8b052":[4,1,0,425,2],
 "d3/d59/structEvent__GameStateChanged.html#a950fbf3e9912299c0facc94aae590005":[4,1,0,425,5],
 "d3/d59/structEvent__GameStateChanged.html#ab144ff0713777ff0f4d5dbf6afcce135":[4,1,0,425,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX17 =
 "d3/d77/classPtMenu.html#a7fe7638e23a8a259ffa6db8ee1728f5e":[4,1,0,677,0],
 "d3/d77/classPtMenu.html#a8ea8bc3fb3109600f6dbd96c9a4e9879":[4,1,0,677,12],
 "d3/d77/classPtMenu.html#acfa8244e424dabaeca2732cf6c02ee60":[4,1,0,677,5],
-"d3/d77/classPtMenu.html#afaa09c52107f199091b73509ea5cad51":[4,1,0,677,1],
-"d3/d79/classPlayerListItemDelegate.html":[4,1,0,652],
-"d3/d79/classPlayerListItemDelegate.html#aa4e13db4625f6a1a0c0c45d6a5429716":[4,1,0,652,1],
-"d3/d79/classPlayerListItemDelegate.html#ab25c86d608a567c897b3d26872c944ba":[4,1,0,652,0]
+"d3/d77/classPtMenu.html#afaa09c52107f199091b73509ea5cad51":[4,1,0,677,1]
 };

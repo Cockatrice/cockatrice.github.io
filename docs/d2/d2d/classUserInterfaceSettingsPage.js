@@ -43,6 +43,7 @@ var classUserInterfaceSettingsPage =
     [ "useTearOffMenusCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#a00aa1c1a44f3b623d76fa97bcd26b0ba", null ],
     [ "vdeStartupTabLabel", "d2/d2d/classUserInterfaceSettingsPage.html#a935b8941ef1d4c525ec39a043cea26cc", null ],
     [ "vdeStartupTabSelector", "d2/d2d/classUserInterfaceSettingsPage.html#a42affaffd94ed15eb33eb1a9695a1e24", null ],
+    [ "visualDeckEditorShowCardCountsCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#a4a1077f867bacb49ea84912edced1387", null ],
     [ "visualDeckStorageInGameCheckBox", "d2/d2d/classUserInterfaceSettingsPage.html#a5d9c8741a4f816b15caeebae902737c6", null ],
     [ "visualDeckStoragePromptForConversionLabel", "d2/d2d/classUserInterfaceSettingsPage.html#a1dafa0bffb9ffc3ede3c1faba42d6dc9", null ],
     [ "visualDeckStoragePromptForConversionSelector", "d2/d2d/classUserInterfaceSettingsPage.html#acd79909b71ed6f03216e255cdc6237b0", null ],

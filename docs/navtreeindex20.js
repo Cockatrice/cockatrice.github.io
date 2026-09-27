@@ -1,5 +1,11 @@
 var NAVTREEINDEX20 =
 {
+"d3/de1/command__deck__del__dir_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,10,2],
+"d3/de1/event__user__message_8proto.html":[4,2,0,8,0,0,0,126],
+"d3/de1/event__user__message_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,126,2],
+"d3/de2/structResponse__WarnList.html":[4,1,0,747],
+"d3/de2/structResponse__WarnList.html#a3f086552872469a7b1232d6d293673bb":[4,1,0,747,4],
+"d3/de2/structResponse__WarnList.html#abb21a88fecbca0785f3fe91cd3071c4b":[4,1,0,747,1],
 "d3/de2/structResponse__WarnList.html#ad8fe5bc3027058860cd4436cf887db2c":[4,1,0,747,2],
 "d3/de2/structResponse__WarnList.html#ae90990036b499d4384adb570035b119d":[4,1,0,747,3],
 "d3/de3/dlg__invite__to__game_8cpp.html":[4,2,0,0,1,5,5,4,24],
@@ -242,12 +248,6 @@ var NAVTREEINDEX20 =
 "d4/d07/classEdhrecApiResponseCardSynergyDisplayWidget.html#ac452c38fd1e33ae013cd6439cc45b1f6":[4,1,0,387,0],
 "d4/d07/classEdhrecApiResponseCardSynergyDisplayWidget.html#aeb6fa37b25e0b00e5b1f170469c272bd":[4,1,0,387,1],
 "d4/d08/replay__quick__settings__widget_8cpp.html":[4,2,0,0,1,5,5,11,2],
-"d4/d09/server__rate__limiter_8cpp.html":[4,2,0,11,0,0,18],
-"d4/d0b/qxtsmtp__p_8h.html":[4,2,0,13,1,0,10],
-"d4/d0b/qxtsmtp__p_8h_source.html":[4,2,0,13,1,0,10],
-"d4/d0c/structSessionEvent.html":[4,1,0,828],
-"d4/d0c/structSessionEvent.html#a1e0c518a6512ccebaa55de1e743527b9":[4,1,0,828,1],
-"d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624":[4,1,0,828,0],
-"d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624a009ebba1056da39be99414bd67e55e49":[4,1,0,828,0,3],
-"d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624a28baa8c22e3f1a7138f2e3e89f24bf31":[4,1,0,828,0,13]
+"d4/d09/server__rate__limiter_8cpp.html":[4,2,0,11,0,0,20],
+"d4/d0b/qxtsmtp__p_8h.html":[4,2,0,13,1,0,10]
 };

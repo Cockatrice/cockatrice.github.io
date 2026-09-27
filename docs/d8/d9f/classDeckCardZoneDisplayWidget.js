@@ -17,6 +17,7 @@ var classDeckCardZoneDisplayWidget =
     [ "onSelectionChanged", "d8/d9f/classDeckCardZoneDisplayWidget.html#a95b0e6c366839b54fa392fb68358efd5", null ],
     [ "refreshDisplayType", "d8/d9f/classDeckCardZoneDisplayWidget.html#ac140319cdb3e43681bf8c3256a24b7ed", null ],
     [ "requestCleanup", "d8/d9f/classDeckCardZoneDisplayWidget.html#a53668d7e88c065f823cdb182ef4cbee0", null ],
+    [ "updateZoneCardCount", "d8/d9f/classDeckCardZoneDisplayWidget.html#adc42e881a13a8cb2c0e361577b41cb21", null ],
     [ "activeGroupCriteria", "d8/d9f/classDeckCardZoneDisplayWidget.html#a523a6a22b98daaee8020dc8f1c52bb3f", null ],
     [ "activeSortCriteria", "d8/d9f/classDeckCardZoneDisplayWidget.html#a3e1ce47b0ae2198936d4f18929a1fde7", null ],
     [ "banner", "d8/d9f/classDeckCardZoneDisplayWidget.html#adf067e61f5d34c6d9991f128f8db8f13", null ],

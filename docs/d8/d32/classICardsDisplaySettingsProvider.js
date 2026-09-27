@@ -22,5 +22,6 @@ var classICardsDisplaySettingsProvider =
     [ "getTapAnimation", "d8/d32/classICardsDisplaySettingsProvider.html#a536f15e571fbd30e20069204090d27a9", null ],
     [ "getVisualDatabaseDisplayCardSize", "d8/d32/classICardsDisplaySettingsProvider.html#a9b4a5ab62d5349f884198bf208901e31", null ],
     [ "getVisualDeckEditorCardSize", "d8/d32/classICardsDisplaySettingsProvider.html#a9397a98899a2694b75be0691a8d7ca88", null ],
+    [ "getVisualDeckEditorShowCardCounts", "d8/d32/classICardsDisplaySettingsProvider.html#a5f3f6356149ee0ec6d4828c50d204866", null ],
     [ "getVisualDeckStorageCardSize", "d8/d32/classICardsDisplaySettingsProvider.html#aabb4d1e290f3c8f3c36fcf343182b3c1", null ]
 ];

@@ -1,5 +1,8 @@
 var NAVTREEINDEX19 =
 {
+"d3/da6/classCardSearchModel.html#a87e855581367328d9ccf9ccbf08edb0b":[4,1,0,121,11],
+"d3/da6/classCardSearchModel.html#a905552f5528221f136e36e55b8aba8da":[4,1,0,121,2],
+"d3/da6/classCardSearchModel.html#ac4a3a9b6a794aa55ac4e235c4a236a51":[4,1,0,121,1],
 "d3/da6/classCardSearchModel.html#ac4a3a9b6a794aa55ac4e235c4a236a51ab2d2aca89259b61a04a1803066c175e2":[4,1,0,121,1,0],
 "d3/da6/classCardSearchModel.html#af7e5b8c59520e151b2a6b023367b2488":[4,1,0,121,3],
 "d3/da6/interface__settings_8cpp.html":[4,2,0,10,0,0,24],
@@ -52,6 +55,9 @@ var NAVTREEINDEX19 =
 "d3/db5/classRecentsSettings.html#af90cfe0dc7a2dd4ff84ff5876078e250":[4,1,0,690,0],
 "d3/db5/structCommand__RollDie_1_1GameCommand.html":[4,1,0,238,0],
 "d3/db5/structCommand__RollDie_1_1GameCommand.html#acde80f775520e7e3b994a7f8779e02aa":[4,1,0,238,0,0],
+"d3/db6/namespaceReportCategories.html":[4,0,0,31],
+"d3/db6/namespaceReportCategories.html#a41ea70cf296cd8ef4d901db90fa09288":[4,0,0,31,1],
+"d3/db6/namespaceReportCategories.html#aceba73439d053a6ffcd48dfb2c3b8fc8":[4,0,0,31,0],
 "d3/db7/archidekt__api__response__edition_8cpp.html":[4,2,0,0,1,5,5,14,0,0,0,0,4],
 "d3/db7/mana__distribution__widget_8h.html":[4,2,0,0,1,5,5,1,0,4,7],
 "d3/db7/mana__distribution__widget_8h_source.html":[4,2,0,0,1,5,5,1,0,4,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX19 =
 "d3/ddc/playmat__resolver__test_8cpp.html#acea3348324f10b073dfa9c41c27807af":[4,2,0,14,18,5],
 "d3/ddc/playmat__resolver__test_8cpp.html#afb7d0f5ce6d19fd19ebe3be247d951ee":[4,2,0,14,18,2],
 "d3/ddf/tab_8h.html":[3,1,0,1,4],
-"d3/de1/command__deck__del__dir_8proto.html":[4,2,0,8,0,0,0,10],
-"d3/de1/command__deck__del__dir_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,10,2],
-"d3/de1/event__user__message_8proto.html":[4,2,0,8,0,0,0,126],
-"d3/de1/event__user__message_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,126,2],
-"d3/de2/structResponse__WarnList.html":[4,1,0,747],
-"d3/de2/structResponse__WarnList.html#a3f086552872469a7b1232d6d293673bb":[4,1,0,747,4],
-"d3/de2/structResponse__WarnList.html#abb21a88fecbca0785f3fe91cd3071c4b":[4,1,0,747,1]
+"d3/de1/command__deck__del__dir_8proto.html":[4,2,0,8,0,0,0,10]
 };

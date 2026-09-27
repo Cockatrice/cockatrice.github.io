@@ -29,6 +29,7 @@ var classCardsDisplaySettings =
     [ "getTapAnimation", "d4/d4a/classCardsDisplaySettings.html#a734f8f159619d5f1beb831251a048eb0", null ],
     [ "getVisualDatabaseDisplayCardSize", "d4/d4a/classCardsDisplaySettings.html#aed4aa5fdcf92817d8e459cf4a19a7022", null ],
     [ "getVisualDeckEditorCardSize", "d4/d4a/classCardsDisplaySettings.html#a23ac07d855bf6ce3921d00e5a8b51f4b", null ],
+    [ "getVisualDeckEditorShowCardCounts", "d4/d4a/classCardsDisplaySettings.html#af3aa4952f4f87c81a0e4d697933af8ae", null ],
     [ "getVisualDeckStorageCardSize", "d4/d4a/classCardsDisplaySettings.html#ac0c1c91457126a06a1f5ae491c5409ee", null ],
     [ "includeRebalancedCardsChanged", "d4/d4a/classCardsDisplaySettings.html#a12e80a2b545bef2eac9ea997f2dccba9", null ],
     [ "overrideAllCardArtWithPersonalPreferenceChanged", "d4/d4a/classCardsDisplaySettings.html#a6db0adf0ef32ad21d859117feb7eb072", null ],
@@ -58,9 +59,11 @@ var classCardsDisplaySettings =
     [ "setTapAnimation", "d4/d4a/classCardsDisplaySettings.html#a4e9d0de7c0c64801dc99d88502c77802", null ],
     [ "setVisualDatabaseDisplayCardSize", "d4/d4a/classCardsDisplaySettings.html#a949317e28ea676446b337cae3801a38d", null ],
     [ "setVisualDeckEditorCardSize", "d4/d4a/classCardsDisplaySettings.html#a85a4265441042ba8c783327643f7d0ba", null ],
+    [ "setVisualDeckEditorShowCardCounts", "d4/d4a/classCardsDisplaySettings.html#af51b0a2eb5236d5f720c78f29a32c13b", null ],
     [ "setVisualDeckStorageCardSize", "d4/d4a/classCardsDisplaySettings.html#a6971e39a86c4c105b64bfb5515e1efa4", null ],
     [ "visualDatabaseDisplayCardSizeChanged", "d4/d4a/classCardsDisplaySettings.html#ab35e4ab4d329b32c213be84479c4e6ac", null ],
     [ "visualDeckEditorCardSizeChanged", "d4/d4a/classCardsDisplaySettings.html#a15eae6ba43b88cdf3715ee02179186e9", null ],
+    [ "visualDeckEditorShowCardCountsChanged", "d4/d4a/classCardsDisplaySettings.html#a280b88b0ecfc0ad2c18ba44ea450f808", null ],
     [ "visualDeckStorageCardSizeChanged", "d4/d4a/classCardsDisplaySettings.html#affe8a3162498f92b33cfc2d7bc0411b8", null ],
     [ "SettingsCache", "d4/d4a/classCardsDisplaySettings.html#a859ba68015a001567c5ef72352e7b69b", null ]
 ];

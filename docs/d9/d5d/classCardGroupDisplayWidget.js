@@ -19,6 +19,7 @@ var classCardGroupDisplayWidget =
     [ "refreshSelectionForIndex", "d9/d5d/classCardGroupDisplayWidget.html#aebabd43bc8ad3c440b5fe57d90d5c85d", null ],
     [ "removeFromLayout", "d9/d5d/classCardGroupDisplayWidget.html#a86ac114b33007721c76d4efd2e01c2a7", null ],
     [ "resizeEvent", "d9/d5d/classCardGroupDisplayWidget.html#ab8effbe117a9cd16cf2be0a349b2a30b", null ],
+    [ "updateCardCount", "d9/d5d/classCardGroupDisplayWidget.html#aa6e11e209d99b69caed774ab61279a60", null ],
     [ "updateCardDisplays", "d9/d5d/classCardGroupDisplayWidget.html#ac70bd917abfe591f28205ec0af807cf1", null ],
     [ "activeGroupCriteria", "d9/d5d/classCardGroupDisplayWidget.html#a27fcf02030337896443ca24682fd4526", null ],
     [ "activeSortCriteria", "d9/d5d/classCardGroupDisplayWidget.html#a7fb80b8353cbd677ffbd5cc7ae91b761", null ],

@@ -209,7 +209,7 @@ var searchData=
   ['isuserbuddy_206',['isUserBuddy',['../db/d6d/classUserListManager.html#a0a980050ad9d7bd3632f129ad593aa19',1,'UserListManager::isUserBuddy()'],['../dc/dc8/classUserListProxy.html#a4aa45237e0a3acc973a14f91cd647868',1,'UserListProxy::isUserBuddy()']]],
   ['isuserignored_207',['isUserIgnored',['../db/d6d/classUserListManager.html#a683a48a2d01fe57e2ed8a14b638057f4',1,'UserListManager::isUserIgnored()'],['../dc/dc8/classUserListProxy.html#ac233553b93e5fb2c5cead0a9ba1c27dd',1,'UserListProxy::isUserIgnored()']]],
   ['isuseronline_208',['isUserOnline',['../d1/de7/classTabMessage.html#ac236bc8fc35e4b396bf9dd750d63645b',1,'TabMessage']]],
-  ['isvalid_209',['isValid',['../da/d38/classShortcutsSettings.html#a3f15dfd836e39369e43150a63a9237f6',1,'ShortcutsSettings']]],
+  ['isvalid_209',['isValid',['../da/d38/classShortcutsSettings.html#a3f15dfd836e39369e43150a63a9237f6',1,'ShortcutsSettings::isValid()'],['../d3/db6/namespaceReportCategories.html#aceba73439d053a6ffcd48dfb2c3b8fc8',1,'ReportCategories::isValid()']]],
   ['isvalidcardzvalue_210',['isValidCardZValue',['../d7/dd1/namespaceZValueLayerManager.html#ad9bba7bf3b723d6c351eb777b20e0c81',1,'ZValueLayerManager']]],
   ['isvalidsettinglabel_211',['isValidSettingLabel',['../d3/d80/abstract__settings__page_8cpp.html#a0c756260e83db09fc66cb613866007e4',1,'abstract_settings_page.cpp']]],
   ['isvisualdisplaymode_212',['isVisualDisplayMode',['../d2/d32/classVisualDatabaseDisplayWidget.html#a7ce9e1e8cf753bb97e8727d0944f71d2',1,'VisualDatabaseDisplayWidget']]],

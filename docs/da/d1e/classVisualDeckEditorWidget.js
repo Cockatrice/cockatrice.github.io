@@ -4,6 +4,7 @@ var classVisualDeckEditorWidget =
     [ "activeCardChanged", "da/d1e/classVisualDeckEditorWidget.html#aedf40cd029a12b0d297fd6a421011337", null ],
     [ "activeGroupCriteriaChanged", "da/d1e/classVisualDeckEditorWidget.html#a9816abac1f8cb72e16bc4cc36510a6a7", null ],
     [ "activeSortCriteriaChanged", "da/d1e/classVisualDeckEditorWidget.html#a074da1eea56c9dc6145bf3dcc7831a63", null ],
+    [ "addCardFromSearch", "da/d1e/classVisualDeckEditorWidget.html#af7fbc722d46cc0b8e8d95fd382e2cde8", null ],
     [ "cardAdditionRequested", "da/d1e/classVisualDeckEditorWidget.html#a0d5b64551fa4684e379fc2fac155f31f", null ],
     [ "cardClicked", "da/d1e/classVisualDeckEditorWidget.html#a460b176e5e01bab2efb55d36a10a04eb", null ],
     [ "cleanupInvalidZones", "da/d1e/classVisualDeckEditorWidget.html#a9f6a352609b84a682edb91beb3386f67", null ],

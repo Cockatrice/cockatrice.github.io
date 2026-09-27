@@ -19,6 +19,7 @@ var dir_59425e443f801f1f2fd8bbe4959a3ccf =
     [ "metrics_registry_test.cpp", "dd/dc6/metrics__registry__test_8cpp.html", "dd/dc6/metrics__registry__test_8cpp" ],
     [ "password_hash_test.cpp", "d5/d3d/password__hash__test_8cpp.html", "d5/d3d/password__hash__test_8cpp" ],
     [ "playmat_resolver_test.cpp", "d3/ddc/playmat__resolver__test_8cpp.html", "d3/ddc/playmat__resolver__test_8cpp" ],
+    [ "report_categories_test.cpp", "d4/dbb/report__categories__test_8cpp.html", "d4/dbb/report__categories__test_8cpp" ],
     [ "server_card_counter_test.cpp", "d8/d24/server__card__counter__test_8cpp.html", "d8/d24/server__card__counter__test_8cpp" ],
     [ "server_counter_test.cpp", "da/d02/server__counter__test_8cpp.html", "da/d02/server__counter__test_8cpp" ],
     [ "server_developer_role_test.cpp", "d5/d0e/server__developer__role__test_8cpp.html", "d5/d0e/server__developer__role__test_8cpp" ],

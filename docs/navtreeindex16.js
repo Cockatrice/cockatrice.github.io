@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"d3/d21/classNoopCardSetPriorityController.html#a5d78e16d17215ee195b5d511e8680140":[4,1,0,613,3],
 "d3/d21/classNoopCardSetPriorityController.html#a8b21c912e0af3653f73c9097d1be58be":[4,1,0,613,7],
 "d3/d21/classNoopCardSetPriorityController.html#adb9c280ed6233e158f8ff28080a84ebc":[4,1,0,613,2],
 "d3/d21/classNoopCardSetPriorityController.html#ae3409048d346e3cc00f6cfe2fafe109e":[4,1,0,613,0],
@@ -88,11 +89,13 @@ var NAVTREEINDEX16 =
 "d3/d30/logger_8cpp.html#a20c9e99e2d65225802d7bdb1cb9c4cc1":[4,2,0,0,1,5,9,0],
 "d3/d30/logger_8cpp.html#a7e1c57336f7d35d4ea8462240846ba21":[4,2,0,0,1,5,9,1],
 "d3/d31/printing__disabled__info__widget_8cpp.html":[4,2,0,0,1,5,5,2,22],
+"d3/d31/report__categories_8h.html":[4,2,0,11,0,0,19],
+"d3/d31/report__categories_8h_source.html":[4,2,0,11,0,0,19],
 "d3/d32/editing_decks_classic.html":[0,0,2,0],
-"d3/d32/editing_decks_classic.html#adding-cards-1":[0,0,2,0,1],
-"d3/d32/editing_decks_classic.html#editing-basic-deck-information-1":[0,0,2,0,0],
-"d3/d32/editing_decks_classic.html#modifying-printings-1":[0,0,2,0,3],
-"d3/d32/editing_decks_classic.html#modifying-the-deck-list-1":[0,0,2,0,2],
+"d3/d32/editing_decks_classic.html#adding-cards":[0,0,2,0,1],
+"d3/d32/editing_decks_classic.html#editing-basic-deck-information":[0,0,2,0,0],
+"d3/d32/editing_decks_classic.html#modifying-printings":[0,0,2,0,3],
+"d3/d32/editing_decks_classic.html#modifying-the-deck-list":[0,0,2,0,2],
 "d3/d32/segmented__bar__widget_8cpp.html":[4,2,0,0,1,5,5,5,0,0,0,10],
 "d3/d32/url__parser_8cpp.html":[4,2,0,0,1,5,2,21],
 "d3/d32/url__parser_8cpp.html#a6ca628b2a54cf92fad0a4c2e69ee89ca":[4,2,0,0,1,5,2,21,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX16 =
 "d3/d58/classLayoutsSettings.html#af33ff2d89269115dcd98f9eb6d469e94":[4,1,0,554,23],
 "d3/d58/classLayoutsSettings.html#af66fd64d1b04841294bc7da408ce4aac":[4,1,0,554,6],
 "d3/d58/classLayoutsSettings.html#afccedd176fba7aa1db4e456708a88cec":[4,1,0,554,18],
-"d3/d59/deck__editor__card__database__dock__widget_8cpp.html":[4,2,0,0,1,5,5,2,2],
-"d3/d59/structEvent__GameStateChanged.html":[4,1,0,425],
-"d3/d59/structEvent__GameStateChanged.html#a65f465e69092a0684f1ca31153b8004e":[4,1,0,425,4],
-"d3/d59/structEvent__GameStateChanged.html#a7764ebd0c92a9b8d3511473e372bcb6f":[4,1,0,425,1]
+"d3/d59/deck__editor__card__database__dock__widget_8cpp.html":[4,2,0,0,1,5,5,2,2]
 };

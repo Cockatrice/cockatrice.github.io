@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"d2/da9/structFormatRules.html#a13ec5af40ee90378d4e433c8d19cab33":[4,1,0,477,0],
 "d2/da9/structFormatRules.html#a72886cc72b06d8e1dbe6cc3b99ef9668":[4,1,0,477,3],
 "d2/da9/structFormatRules.html#ab0679d779f97c7da4465868337ac75fe":[4,1,0,477,5],
 "d2/da9/structFormatRules.html#aeacbbd57080566e749e8b512793520e4":[4,1,0,477,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "d2/dde/structEvent__SetCardCounter.html":[4,1,0,450],
 "d2/dde/structEvent__SetCardCounter.html#a1dfe8fb0cc889c25b6c2b04ef7ed4602":[4,1,0,450,3],
 "d2/dde/structEvent__SetCardCounter.html#a61a4b5f2a6e3c8a089c9542fb89010ec":[4,1,0,450,2],
-"d2/dde/structEvent__SetCardCounter.html#aa94578ce96779d11ec18655f53c6e80c":[4,1,0,450,1],
-"d2/dde/structEvent__SetCardCounter.html#acebb7866a679e40c910f9ad19d6005c7":[4,1,0,450,4]
+"d2/dde/structEvent__SetCardCounter.html#aa94578ce96779d11ec18655f53c6e80c":[4,1,0,450,1]
 };

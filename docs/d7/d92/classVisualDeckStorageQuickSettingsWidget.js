@@ -9,6 +9,7 @@ var classVisualDeckStorageQuickSettingsWidget =
     [ "deckPreviewTooltipChanged", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a0405be1733397834fed6492258ca648a", null ],
     [ "drawUnusedColorIdentitiesChanged", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a4533de051383c4b7257abe5e1ccbcdf6", null ],
     [ "getCardSize", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a5b8ad4c4fa83185fc190c4c668e1e2c5", null ],
+    [ "getCardSizeWidget", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a4f5bccaf4f6b763ce5c79ab958908f7c", null ],
     [ "getDeckPreviewTooltip", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a81c0c8241e208adbe55eabee242ea025", null ],
     [ "getDrawUnusedColorIdentities", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a40b5cee43f980b5d2d5690e249b8df79", null ],
     [ "getShowBannerCardComboBox", "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a1d2973a65518195efcc4756bbfc3319e", null ],

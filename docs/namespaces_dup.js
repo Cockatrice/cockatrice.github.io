@@ -162,6 +162,10 @@ var namespaces_dup =
       [ "formatReportTime", "d8/d80/namespacereport__utils.html#a65f3a661628579cbba9d83d9398d4a40", null ],
       [ "renderReportDetails", "d8/d80/namespacereport__utils.html#a178b67e76b905f63a76cea2aacf24e59", null ]
     ] ],
+    [ "ReportCategories", "d3/db6/namespaceReportCategories.html", [
+      [ "isValid", "d3/db6/namespaceReportCategories.html#aceba73439d053a6ffcd48dfb2c3b8fc8", null ],
+      [ "keys", "d3/db6/namespaceReportCategories.html#a41ea70cf296cd8ef4d901db90fa09288", null ]
+    ] ],
     [ "StatsTally", "d5/d5f/namespaceStatsTally.html", [
       [ "computeTotalPower", "d5/d5f/namespaceStatsTally.html#ab034fea6c61ce11fab9d5a6b17a3dd10", null ],
       [ "computeTotalToughness", "d5/d5f/namespaceStatsTally.html#aa9aa54a2dbe465293de452e40b6fadc8", null ]

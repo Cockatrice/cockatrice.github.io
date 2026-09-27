@@ -58,7 +58,7 @@ var dir_4b0cf6f004d72cb4344e8e7ea1f16c10 =
     [ "dlg_startup_card_check.h", "db/dca/dlg__startup__card__check_8h.html", "db/dca/dlg__startup__card__check_8h" ],
     [ "dlg_tip_of_the_day.cpp", "db/ddf/dlg__tip__of__the__day_8cpp.html", "db/ddf/dlg__tip__of__the__day_8cpp" ],
     [ "dlg_tip_of_the_day.h", "d5/d8e/dlg__tip__of__the__day_8h.html", "d5/d8e/dlg__tip__of__the__day_8h" ],
-    [ "dlg_update.cpp", "de/dc6/dlg__update_8cpp.html", null ],
+    [ "dlg_update.cpp", "de/dc6/dlg__update_8cpp.html", "de/dc6/dlg__update_8cpp" ],
     [ "dlg_update.h", "d4/d46/dlg__update_8h.html", "d4/d46/dlg__update_8h" ],
     [ "dlg_view_log.cpp", "dc/d16/dlg__view__log_8cpp.html", null ],
     [ "dlg_view_log.h", "df/d11/dlg__view__log_8h.html", "df/d11/dlg__view__log_8h" ],

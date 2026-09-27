@@ -15,6 +15,7 @@ var classDlgUpdate =
     [ "gotoDownloadPage", "d8/d3f/classDlgUpdate.html#a81a429a6f11a638ad73114491379952b", null ],
     [ "setLabel", "d8/d3f/classDlgUpdate.html#a562c49fa907a84853f3da579f4ad5637", null ],
     [ "updateCheckError", "d8/d3f/classDlgUpdate.html#a1261aedd3795f22e1ba679b992eed2e3", null ],
+    [ "warnInstallerIsWaiting", "d8/d3f/classDlgUpdate.html#abaff5c8979453c746ed7f5e5ad7f6570", null ],
     [ "buttonBox", "d8/d3f/classDlgUpdate.html#aa3b89f06cff606ff8dacd4f51142c713", null ],
     [ "cancel", "d8/d3f/classDlgUpdate.html#a2f30b33d6b02fdb869cc34668fd7523c", null ],
     [ "descriptionLabel", "d8/d3f/classDlgUpdate.html#a86b5d5340ac0b9eb67a2ac9cf5f84f7c", null ],

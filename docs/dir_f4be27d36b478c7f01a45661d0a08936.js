@@ -18,6 +18,8 @@ var dir_f4be27d36b478c7f01a45661d0a08936 =
     [ "peglib.h", "de/d9d/peglib_8h.html", "de/d9d/peglib_8h" ],
     [ "playmat_params.h", "d2/df4/playmat__params_8h.html", null ],
     [ "qt_utils.h", "dd/d8d/qt__utils_8h.html", "dd/d8d/qt__utils_8h" ],
+    [ "report_categories.cpp", "dd/df8/report__categories_8cpp.html", "dd/df8/report__categories_8cpp" ],
+    [ "report_categories.h", "d3/d31/report__categories_8h.html", "d3/d31/report__categories_8h" ],
     [ "server_rate_limiter.cpp", "d4/d09/server__rate__limiter_8cpp.html", null ],
     [ "server_rate_limiter.h", "df/d17/server__rate__limiter_8h.html", "df/d17/server__rate__limiter_8h" ],
     [ "string_limits.h", "d9/d78/string__limits_8h.html", "d9/d78/string__limits_8h" ],

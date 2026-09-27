@@ -7,7 +7,7 @@ var searchData=
   ['scope_20and_20authority_4',['Scope and Authority',['../d4/d5b/player_event_handler.html#scope-and-authority',1,'Scope and Authority'],['../d4/d5b/player_event_handler.html#scope-and-authority-1',1,'Scope and Authority']]],
   ['scopes_5',['Event Scopes',['../dc/d6c/protocol_server_message.html#event-scopes',1,'']]],
   ['search_20syntax_20help_6',['Search Syntax Help',['../de/dec/deck_search_syntax_help.html',1,'Deck Search Syntax Help'],['../de/dec/deck_search_syntax_help.html#deck-search-syntax-help',1,'Deck Search Syntax Help'],['../dc/dcd/search_syntax_help.html',1,'Search Syntax Help'],['../dc/dcd/search_syntax_help.html#search-syntax-help',1,'Search Syntax Help']]],
-  ['see_20also_7',['See Also',['../db/d15/game_event_handler.html#see-also',1,'See Also'],['../d4/d5b/player_event_handler.html#see-also-1',1,'See Also'],['../d4/d5b/player_event_handler.html#see-also-2',1,'See Also'],['../db/d15/game_event_handler.html#see-also-3',1,'See Also']]],
+  ['see_20also_7',['See Also',['../db/d15/game_event_handler.html#see-also',1,'See Also'],['../d4/d5b/player_event_handler.html#see-also-1',1,'See Also'],['../db/d15/game_event_handler.html#see-also-2',1,'See Also'],['../d4/d5b/player_event_handler.html#see-also-3',1,'See Also']]],
   ['see_20the_20logs_8',['Step 3: See the logs',['../d2/d8f/enabling_debug_logs.html#step-3-see-the-logs',1,'']]],
   ['selector_9',['Selector',['../d7/d64/editing_decks_printings.html',1,'Printing Selector'],['../d7/d64/editing_decks_printings.html#using-the-printing-selector',1,'Using the Printing Selector']]],
   ['semantics_10',['Error Semantics',['../dc/d6c/protocol_server_message.html#error-semantics',1,'']]],

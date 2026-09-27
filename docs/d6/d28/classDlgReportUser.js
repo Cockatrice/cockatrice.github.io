@@ -2,6 +2,8 @@ var classDlgReportUser =
 [
     [ "DlgReportUser", "d6/d28/classDlgReportUser.html#a4276b4611489f91d4b23dee078f8bf65", null ],
     [ "actSubmit", "d6/d28/classDlgReportUser.html#ac6f9267bf2a5ecb6bcd37151b6717364", null ],
+    [ "categoryLabel", "d6/d28/classDlgReportUser.html#ae4ee1a564d55f6535fbf7d51f9b294cf", null ],
+    [ "categoryToolTip", "d6/d28/classDlgReportUser.html#a0e18b0c6c5c4f3bb72164b6f5279c9c8", null ],
     [ "reportResponse", "d6/d28/classDlgReportUser.html#a33bd55005755b8d9429931be5f07fc51", null ],
     [ "buttonBox", "d6/d28/classDlgReportUser.html#a6ff7e1779b4185892aa840c9a00c3e06", null ],
     [ "categoryBox", "d6/d28/classDlgReportUser.html#a9b7f91604f5e0238f5fbb91fb3d4871c", null ],

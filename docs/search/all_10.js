@@ -168,7 +168,7 @@ var searchData=
   ['linkcardtochat_165',['linkCardToChat',['../de/d08/classTabGame.html#a7f3163ac7fff7bbbea96e8b524c20559',1,'TabGame']]],
   ['linkcolor_166',['linkColor',['../dc/dea/classChatView.html#ac3501897ca7df854a58feab9c92c82f7',1,'ChatView']]],
   ['linkreferences_167',['LinkReferences',['../d1/dcf/structpeg_1_1LinkReferences.html',1,'peg::LinkReferences'],['../d1/dcf/structpeg_1_1LinkReferences.html#abe24655ae0df85eeb8d97bd2c9fe33ed',1,'peg::LinkReferences::LinkReferences()']]],
-  ['list_168',['List',['../de/d6e/editing_decks_visual.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../d3/d32/editing_decks_classic.html#modifying-the-deck-list-1',1,'Modifying the Deck List'],['../dd/da0/todo.html',1,'Todo List']]],
+  ['list_168',['List',['../d3/d32/editing_decks_classic.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../de/d6e/editing_decks_visual.html#modifying-the-deck-list-1',1,'Modifying the Deck List'],['../dd/da0/todo.html',1,'Todo List']]],
   ['list_169',['list',['../d5/d2d/structCommand__AddToList.html#adac27736acad421a36595e14cffbd7ac',1,'Command_AddToList::list'],['../de/d37/structCommand__RemoveFromList.html#a76845d70fd8d84a73171a4be102d03b4',1,'Command_RemoveFromList::list']]],
   ['list_5fcard_5fart_5frules_170',['LIST_CARD_ART_RULES',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129abbd6d6bc9ba3a23df7aefe0708411e98',1,'ModeratorCommand']]],
   ['list_5fgames_171',['LIST_GAMES',['../d7/dc2/structRoomEvent.html#a38dab0b0acac484e5bc10ff0ec2c0021a8479dc632b85c79b255a1b5a678187b6',1,'RoomEvent']]],
