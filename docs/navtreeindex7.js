@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"d1/d8b/abstract__graphics__item_8cpp.html#a67994425ec5f26f70926835e5b511364":[4,2,0,0,1,4,0,6,0],
 "d1/d8c/logger_8h.html":[3,0,2],
 "d1/d8d/group__LocalDeckStorageDialogs.html":[3,1,0,5,0],
 "d1/d8d/group__LocalDeckStorageDialogs.html":[3,3,2,0,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451daad6e9dd88604af29d3db8db7932f3bb6":[4,1,0,707,0,8],
 "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dab643c6892d835e0b835904cc9a8462ed":[4,1,0,707,0,16],
 "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dabc90d3dedc5d117ffd323f2061c3eafb":[4,1,0,707,0,36],
-"d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dabd98ea344a599613b77d2d855e2ed4c5":[4,1,0,707,0,14],
-"d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dac284ce3268938c3b34c46ba4a7f80d17":[4,1,0,707,0,7]
+"d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dabd98ea344a599613b77d2d855e2ed4c5":[4,1,0,707,0,14]
 };

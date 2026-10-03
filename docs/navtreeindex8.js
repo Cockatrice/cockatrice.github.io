@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dac284ce3268938c3b34c46ba4a7f80d17":[4,1,0,707,0,7],
 "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dac3ab5dcd0e151465b9437de511efd494":[4,1,0,707,0,31],
 "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dac4a4b41dafaa702058f2f134d86b9fc2":[4,1,0,707,0,35],
 "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dac69d4aa0abcff83fa8a1a6aaf43a024f":[4,1,0,707,0,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "d1/ddd/classArchidektApiResponseDeckOwner.html#adf03c5d75f9abc75b3d7491006b5f205":[4,1,0,42,0],
 "d1/ddd/classArchidektApiResponseDeckOwner.html#ae84f15f9fa866d680b4b1b64920d6ba4":[4,1,0,42,4],
 "d1/ddd/classArchidektApiResponseDeckOwner.html#af2e382e622475162d60d6767aed0ad61":[4,1,0,42,3],
-"d1/ddd/classArchidektApiResponseDeckOwner.html#af4f70365d3ce704cbbf284719b6c09ed":[4,1,0,42,6],
-"d1/ddd/classArchidektApiResponseDeckOwner.html#affe05b263062844a5583c41574a1e37c":[4,1,0,42,9]
+"d1/ddd/classArchidektApiResponseDeckOwner.html#af4f70365d3ce704cbbf284719b6c09ed":[4,1,0,42,6]
 };

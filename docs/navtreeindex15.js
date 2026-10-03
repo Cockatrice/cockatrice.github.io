@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"d2/dde/structEvent__SetCardCounter.html#a61a4b5f2a6e3c8a089c9542fb89010ec":[4,1,0,450,2],
+"d2/dde/structEvent__SetCardCounter.html#aa94578ce96779d11ec18655f53c6e80c":[4,1,0,450,1],
 "d2/dde/structEvent__SetCardCounter.html#acebb7866a679e40c910f9ad19d6005c7":[4,1,0,450,4],
 "d2/ddf/group__CardDatabaseWidgets.html":[3,1,0,3],
 "d2/ddf/group__CardDatabaseWidgets.html":[3,2,4,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "d3/d21/classDlgLoadDeck.html#a58e4a81ae83eec9fcfb98cee3366fa92":[4,1,0,353,0],
 "d3/d21/classDlgLoadDeck.html#afa961179b40728ced599640d7a50b546":[4,1,0,353,1],
 "d3/d21/classNoopCardSetPriorityController.html":[4,1,0,613],
-"d3/d21/classNoopCardSetPriorityController.html#a26645d23c3e1110f4fc7d644c2055957":[4,1,0,613,4],
-"d3/d21/classNoopCardSetPriorityController.html#a26e69237213da1fcea0a5dc8c595426c":[4,1,0,613,1],
-"d3/d21/classNoopCardSetPriorityController.html#a27cf913e42a8f7a193ff8ae60a958e48":[4,1,0,613,5]
+"d3/d21/classNoopCardSetPriorityController.html#a26645d23c3e1110f4fc7d644c2055957":[4,1,0,613,4]
 };

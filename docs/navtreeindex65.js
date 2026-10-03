@@ -1,5 +1,14 @@
 var NAVTREEINDEX65 =
 {
+"dc/d32/classTabsSettings.html#a7659206b775daa1b055f5b8fe21934fc":[4,1,0,902,7],
+"dc/d32/classTabsSettings.html#a7f562c0508b830fa3a349c1e3c91a6c7":[4,1,0,902,5],
+"dc/d32/classTabsSettings.html#a800198f2a165aedec13eece1c91b0290":[4,1,0,902,20],
+"dc/d32/classTabsSettings.html#a837f85a2631d4baa76c0407ef7238e7d":[4,1,0,902,32],
+"dc/d32/classTabsSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,902,34],
+"dc/d32/classTabsSettings.html#a863e6f2a06293931297542d5dcfe92e4":[4,1,0,902,21],
+"dc/d32/classTabsSettings.html#a87997c16ed4777979c26437a8eefa7b9":[4,1,0,902,8],
+"dc/d32/classTabsSettings.html#aaf3ad525da1c96035fe038ac0b4377bc":[4,1,0,902,4],
+"dc/d32/classTabsSettings.html#ab2b7d0ebb2c724d2cee2c49434ac2a4e":[4,1,0,902,18],
 "dc/d32/classTabsSettings.html#ab89b0f1687b9f90464d8c4ba22bd6d8c":[4,1,0,902,16],
 "dc/d32/classTabsSettings.html#abf30c311d0558afb02eca7d8c81b9dac":[4,1,0,902,27],
 "dc/d32/classTabsSettings.html#ac0a7ebe0f998f98da0fb4a6bf8f80630":[4,1,0,902,19],
@@ -240,14 +249,5 @@ var NAVTREEINDEX65 =
 "dc/d5d/classPlayerManager.html#a0273512bb2d9e9cbfee076dd6c45b36e":[4,1,0,656,33],
 "dc/d5d/classPlayerManager.html#a06aa093534865821b7c9a5ef2088841b":[4,1,0,656,15],
 "dc/d5d/classPlayerManager.html#a20a980d74700fa285e4bc84f032c3d85":[4,1,0,656,11],
-"dc/d5d/classPlayerManager.html#a31871ad99adbf33edc15f7b5f06be02d":[4,1,0,656,4],
-"dc/d5d/classPlayerManager.html#a31b0b4326f242c720da32e15859eee38":[4,1,0,656,13],
-"dc/d5d/classPlayerManager.html#a426cb680a0a617abd68354d0aaf7a1ce":[4,1,0,656,30],
-"dc/d5d/classPlayerManager.html#a55962d4478f73de6ed15a28eeb454733":[4,1,0,656,20],
-"dc/d5d/classPlayerManager.html#a573ad9921e8883cfcd16d1fae77a2d49":[4,1,0,656,25],
-"dc/d5d/classPlayerManager.html#a579299614545d266f67202d32d84a550":[4,1,0,656,10],
-"dc/d5d/classPlayerManager.html#a60f9e1b8cedf8b5221276a85bd05b8bd":[4,1,0,656,12],
-"dc/d5d/classPlayerManager.html#a63a82c15b6318538874347ea1b31ede5":[4,1,0,656,2],
-"dc/d5d/classPlayerManager.html#a6b00167963964d83c7e2307addd31194":[4,1,0,656,8],
-"dc/d5d/classPlayerManager.html#a74504f43a4eb3ca8a8aeb1ec9cc7aa73":[4,1,0,656,22]
+"dc/d5d/classPlayerManager.html#a31871ad99adbf33edc15f7b5f06be02d":[4,1,0,656,4]
 };

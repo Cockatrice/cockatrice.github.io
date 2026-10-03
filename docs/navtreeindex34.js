@@ -1,5 +1,12 @@
 var NAVTREEINDEX34 =
 {
+"d6/d8d/event__set__card__counter_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,121,2],
+"d6/d8e/classShortcutKey.html":[4,1,0,854],
+"d6/d8e/classShortcutKey.html#a33b88049b376356898eb0ee03b2803d7":[4,1,0,854,3],
+"d6/d8e/classShortcutKey.html#a68ab8031ecd9614f82bc6ffa91ff681f":[4,1,0,854,1],
+"d6/d8e/classShortcutKey.html#aacb372420f112b83ae047dbc38191dc1":[4,1,0,854,5],
+"d6/d8e/classShortcutKey.html#ac3564711c88eefa7f447a304ad5f6228":[4,1,0,854,0],
+"d6/d8e/classShortcutKey.html#acef4a1ffeedce643957548da24b20fc6":[4,1,0,854,2],
 "d6/d8e/classShortcutKey.html#ad32c22beb6d5549b6dabef8a71a792b8":[4,1,0,854,4],
 "d6/d8f/command__leave__game_8proto.html":[4,2,0,8,0,0,0,34],
 "d6/d8f/command__leave__game_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,34,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX34 =
 "d6/dac/response__deck__share__list__mine_8proto.html":[4,2,0,8,0,0,0,145],
 "d6/dac/response__deck__share__list__mine_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,145,2],
 "d6/db3/classPhasePixmapGenerator.html":[4,1,0,639],
-"d6/db3/classPhasePixmapGenerator.html#a25e92735712f415ecf547c652d2c0f92":[4,1,0,639,1],
-"d6/db3/classPhasePixmapGenerator.html#a68d71e0450083453a606f8023ee7cb2d":[4,1,0,639,2],
-"d6/db3/classPhasePixmapGenerator.html#af60b4af1186447f4c6557d2f8de05722":[4,1,0,639,0],
-"d6/db7/visual__database__display__main__type__filter__widget_8h.html":[3,1,0,3,1,2],
-"d6/db7/visual__database__display__main__type__filter__widget_8h.html":[3,2,4,2,1,2],
-"d6/dba/structCommanderBracketEstimate.html":[4,1,0,258],
-"d6/dba/structCommanderBracketEstimate.html#a0825daf2a5e0411d3fe11eb240849b92":[4,1,0,258,3],
-"d6/dba/structCommanderBracketEstimate.html#a14d703e42bdd50a6c8fc6802b1563baa":[4,1,0,258,0]
+"d6/db3/classPhasePixmapGenerator.html#a25e92735712f415ecf547c652d2c0f92":[4,1,0,639,1]
 };

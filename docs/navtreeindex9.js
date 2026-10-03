@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"d1/ddd/classArchidektApiResponseDeckOwner.html#affe05b263062844a5583c41574a1e37c":[4,1,0,42,9],
 "d1/ddf/commander__spellbook__estimate__bracket__result_8cpp.html":[4,2,0,0,1,5,5,14,0,1,0,6],
 "d1/de1/classCardInfoDisplayWidget.html":[4,1,0,97],
 "d1/de1/classCardInfoDisplayWidget.html#a47decc408e4d3992169947cc23646fbd":[4,1,0,97,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "d2/d00/classDlgTipOfTheDay.html#a245f05215d7fbf3c24dcd06df085db5d":[4,1,0,369,5],
 "d2/d00/classDlgTipOfTheDay.html#a3818952878a5ff8d470e3b1c1dbb7213":[4,1,0,369,0],
 "d2/d00/classDlgTipOfTheDay.html#a3fe889e5adcf0260ed4a85b8e86462c6":[4,1,0,369,17],
-"d2/d00/classDlgTipOfTheDay.html#a430f64749df5562aa0b9c21a994173b6":[4,1,0,369,6],
-"d2/d00/classDlgTipOfTheDay.html#a4d01122c90c167940bf559d5cdb1dc43":[4,1,0,369,19]
+"d2/d00/classDlgTipOfTheDay.html#a430f64749df5562aa0b9c21a994173b6":[4,1,0,369,6]
 };

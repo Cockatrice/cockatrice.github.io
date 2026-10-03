@@ -1,5 +1,17 @@
 var NAVTREEINDEX78 =
 {
+"de/d1a/structEvent__ServerIdentification_1_1SessionEvent.html#a2e2e349f385d68dc34dd1e5a08ca7b81":[4,1,0,444,0,0],
+"de/d1d/namespacepeg_1_1udl.html":[4,0,0,25,0],
+"de/d1d/namespacepeg_1_1udl.html#a31c67e45def45a0b44fb9219691ca317":[4,0,0,25,0,0],
+"de/d23/namespaceDeckLinkToApiTransformer.html":[4,0,0,13],
+"de/d23/namespaceDeckLinkToApiTransformer.html#a07f491b689bc9e3d0c177e0898bdf8a1":[4,0,0,13,5],
+"de/d23/namespaceDeckLinkToApiTransformer.html#a13a33b0b81979b0010b404c276552f94":[4,0,0,13,4],
+"de/d23/namespaceDeckLinkToApiTransformer.html#a15829804ecf369317209e8dbd4d45319":[4,0,0,13,6],
+"de/d23/namespaceDeckLinkToApiTransformer.html#a3db155dfbb3fb857dba5041d72dea623":[4,0,0,13,7],
+"de/d23/namespaceDeckLinkToApiTransformer.html#a8cf4d972f85f2f98059b918f6d8460cf":[4,0,0,13,2],
+"de/d23/namespaceDeckLinkToApiTransformer.html#a975381d4207738d8ea5cafe5745d6bd4":[4,0,0,13,1],
+"de/d23/namespaceDeckLinkToApiTransformer.html#ab00138f4b97c67f24509d48d986ef707":[4,0,0,13,0],
+"de/d23/namespaceDeckLinkToApiTransformer.html#aed0f8e3f0a5129eb07e606db68ddc5e3":[4,0,0,13,3],
 "de/d24/classCommanderSpellbookApiAccessor.html":[4,1,0,262],
 "de/d24/classCommanderSpellbookApiAccessor.html#a08029aa692892eae04571136615360ac":[4,1,0,262,3],
 "de/d24/classCommanderSpellbookApiAccessor.html#a0ee2e432828c25ded1931d46b1118bd0":[4,1,0,262,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX78 =
 "de/d41/structEvent__DestroyCard_1_1GameEvent.html":[4,1,0,416,0],
 "de/d41/structEvent__DestroyCard_1_1GameEvent.html#a4ff27dc05817153c2f54f48d9d28d56e":[4,1,0,416,0,0],
 "de/d44/classpeg_1_1Dictionary.html":[4,0,0,25,23],
-"de/d44/classpeg_1_1Dictionary.html":[4,1,0,5,22],
-"de/d44/classpeg_1_1Dictionary.html#a64f0e8e99e824bcd5eb6fd69454ec8fe":[4,0,0,25,23,0],
-"de/d44/classpeg_1_1Dictionary.html#a64f0e8e99e824bcd5eb6fd69454ec8fe":[4,1,0,5,22,0],
-"de/d44/classpeg_1_1Dictionary.html#a8df0963f049938adbdacb80c1356a294":[4,0,0,25,23,1],
-"de/d44/classpeg_1_1Dictionary.html#a8df0963f049938adbdacb80c1356a294":[4,1,0,5,22,1],
-"de/d44/classpeg_1_1Dictionary.html#a9d32f2e78fe7878112ddf022fa9c1a1e":[4,0,0,25,23,2],
-"de/d44/classpeg_1_1Dictionary.html#a9d32f2e78fe7878112ddf022fa9c1a1e":[4,1,0,5,22,2],
-"de/d44/classpeg_1_1Dictionary.html#ae6dbdfcc4cc395427b7cfaebf81ae391":[4,0,0,25,23,3],
-"de/d44/classpeg_1_1Dictionary.html#ae6dbdfcc4cc395427b7cfaebf81ae391":[4,1,0,5,22,3],
-"de/d45/structZoneCounts.html":[4,1,0,980],
-"de/d45/structZoneCounts.html#a36f435d40f9dfa0b97ba4ffde270dec5":[4,1,0,980,1],
-"de/d45/structZoneCounts.html#a895c84d75dd7f442ed7f7e1c0a0f68f5":[4,1,0,980,0],
-"de/d45/structZoneCounts.html#a9888fe03bcb22f4a40a6763118003124":[4,1,0,980,2]
+"de/d44/classpeg_1_1Dictionary.html":[4,1,0,5,22]
 };

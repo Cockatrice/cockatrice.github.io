@@ -1,5 +1,12 @@
 var NAVTREEINDEX26 =
 {
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#ad48b1e30ab505ca7ce10ec5668493b5a":[4,1,0,948,1],
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#ae3e9f737ad9075bd9cc5b899ad662ff1":[4,1,0,948,3],
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#afa7797159f9cd792ba748f0738d4b94a":[4,1,0,948,14],
+"d5/d33/classCardDatabaseView.html":[4,1,0,90],
+"d5/d33/classCardDatabaseView.html#a1605eee20c82335aa7a471775a9dbcd0":[4,1,0,90,15],
+"d5/d33/classCardDatabaseView.html#a1d09d1f8eeaa43067a3855759f58df2e":[4,1,0,90,11],
+"d5/d33/classCardDatabaseView.html#a2828cf6bccbbff6bef5cc36b94a2b757":[4,1,0,90,12],
 "d5/d33/classCardDatabaseView.html#a28fa1daa55669b7081ed525bda05f97e":[4,1,0,90,1],
 "d5/d33/classCardDatabaseView.html#a5a664e898c423cffa1bb4fad9a560fe5":[4,1,0,90,10],
 "d5/d33/classCardDatabaseView.html#a64b2529e7d4d725b92469be94d797231":[4,1,0,90,6],
@@ -242,12 +249,5 @@ var NAVTREEINDEX26 =
 "d5/d60/classIInterfaceSettingsProvider.html#abc04ade41a8b74d9134d9d839add3969":[4,1,0,522,23],
 "d5/d60/classIInterfaceSettingsProvider.html#ac1b68b1ce05506edfbcc5b8ea56fa64e":[4,1,0,522,24],
 "d5/d60/classIInterfaceSettingsProvider.html#ac25385602fd758bcb5a0c017038d0bbb":[4,1,0,522,4],
-"d5/d60/classIInterfaceSettingsProvider.html#acb6ddd0e5fa28ce6bc10b21c965b1223":[4,1,0,522,31],
-"d5/d60/classIInterfaceSettingsProvider.html#ad39d45eafa8de087113cfc812406ea33":[4,1,0,522,37],
-"d5/d60/classIInterfaceSettingsProvider.html#ad7bd1cfcbf6c47249a6f570227a4fd55":[4,1,0,522,3],
-"d5/d60/classIInterfaceSettingsProvider.html#ae19557d1d2b333d0702918c6f62a4ff0":[4,1,0,522,19],
-"d5/d60/classIInterfaceSettingsProvider.html#ae4405d440f3f6fee3226e6c0624bdbc5":[4,1,0,522,27],
-"d5/d60/classIInterfaceSettingsProvider.html#ae7fd9ad4acd926e0a9e388e8d648b7ad":[4,1,0,522,32],
-"d5/d60/classIInterfaceSettingsProvider.html#aec30504c00dcc5347cfff52d20925684":[4,1,0,522,16],
-"d5/d60/classIInterfaceSettingsProvider.html#af7f6d4a9378f531455c54e75d382b290":[4,1,0,522,6]
+"d5/d60/classIInterfaceSettingsProvider.html#acb6ddd0e5fa28ce6bc10b21c965b1223":[4,1,0,522,31]
 };

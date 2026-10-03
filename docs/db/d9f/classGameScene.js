@@ -18,6 +18,7 @@ var classGameScene =
     [ "computeSceneSizeAndPlayerLayout", "db/d9f/classGameScene.html#a24d4785b8f9a50978c0b21469cb5ef4b", null ],
     [ "deleteArrow", "db/d9f/classGameScene.html#a42ec86cb34cdcead2d6555c0277cb78a", null ],
     [ "determineColumnCount", "db/d9f/classGameScene.html#a0a97746b8b77b6477516ce8004292333", null ],
+    [ "emptyActiveViews", "db/d9f/classGameScene.html#a8f551986bb00bbc2f0b605b695183624", null ],
     [ "endCardHover", "db/d9f/classGameScene.html#a917ddaa9d252510b91bd4f3ce45f142f", null ],
     [ "event", "db/d9f/classGameScene.html#a87d0fd08b1540319e8770e187379d4ba", null ],
     [ "findTopmostCardInZone", "db/d9f/classGameScene.html#a476bba288208f67fdd56156d9e384df6", null ],

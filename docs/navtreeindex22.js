@@ -1,5 +1,12 @@
 var NAVTREEINDEX22 =
 {
+"d4/d4a/classCardsDisplaySettings.html#a316ff5a6324e3285f3de00ea457cd749":[4,1,0,119,21],
+"d4/d4a/classCardsDisplaySettings.html#a3a7f86f883f7f9e7751301523863e4ed":[4,1,0,119,42],
+"d4/d4a/classCardsDisplaySettings.html#a3cad6d0b387eda38fa94f27dc90256bc":[4,1,0,119,6],
+"d4/d4a/classCardsDisplaySettings.html#a45b833c86b5f33c8bb1e3f2629187976":[4,1,0,119,44],
+"d4/d4a/classCardsDisplaySettings.html#a46557f44dceb65959d9ce8734efcc138":[4,1,0,119,41],
+"d4/d4a/classCardsDisplaySettings.html#a4e9d0de7c0c64801dc99d88502c77802":[4,1,0,119,56],
+"d4/d4a/classCardsDisplaySettings.html#a51683030d800bdc7bdfce064ce5495e2":[4,1,0,119,33],
 "d4/d4a/classCardsDisplaySettings.html#a584fdf2acb9d9958ca8447b7cda6fbfb":[4,1,0,119,40],
 "d4/d4a/classCardsDisplaySettings.html#a61bd9d102813803cb1144918c3b24272":[4,1,0,119,4],
 "d4/d4a/classCardsDisplaySettings.html#a623f4a4e0f48ec81c4b182bd0c2fc2b8":[4,1,0,119,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX22 =
 "d4/d77/classDeckAnalyticsWidget.html#aedf606949bdba98975ae16eacaedf6b1":[4,1,0,289,29],
 "d4/d77/classDeckAnalyticsWidget.html#af135c43c263b9d3c9590870af7b612c5":[4,1,0,289,23],
 "d4/d77/raw__json__scanner_8cpp.html":[4,2,0,12,0,14],
-"d4/d79/classOverlappedCardGroupDisplayWidget.html":[4,1,0,622],
-"d4/d79/classOverlappedCardGroupDisplayWidget.html#a093caeda45207fa18d4b573bee4b99f5":[4,1,0,622,2],
-"d4/d79/classOverlappedCardGroupDisplayWidget.html#a1113f8e10bfcdb2d699f09e576398562":[4,1,0,622,5],
-"d4/d79/classOverlappedCardGroupDisplayWidget.html#a71716649efdaf6e3cdecf36d37397930":[4,1,0,622,6],
-"d4/d79/classOverlappedCardGroupDisplayWidget.html#ad2bc90456ba352a5f993f525ca5c080d":[4,1,0,622,0],
-"d4/d79/classOverlappedCardGroupDisplayWidget.html#ad2cf6b88fdc903b02ef04a82ca7449c5":[4,1,0,622,1],
-"d4/d79/classOverlappedCardGroupDisplayWidget.html#af39a723c03e45a75939edfc9ca17bb9f":[4,1,0,622,3],
-"d4/d79/classOverlappedCardGroupDisplayWidget.html#af9012d92747bd645e7dc8b6d0dd13795":[4,1,0,622,4]
+"d4/d79/classOverlappedCardGroupDisplayWidget.html":[4,1,0,622]
 };

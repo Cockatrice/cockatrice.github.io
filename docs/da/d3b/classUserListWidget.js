@@ -42,7 +42,6 @@ var classUserListWidget =
     [ "hidePopup", "da/d3b/classUserListWidget.html#abfefb9a856d3266e1487eecd7f8c7bc4", null ],
     [ "isItemNearViewport", "da/d3b/classUserListWidget.html#ad52f70918b18c3505c432c263a289ea4", null ],
     [ "isPressInsideListUi", "da/d3b/classUserListWidget.html#aeb3cbd0173799c0b63173929b74da129", null ],
-    [ "joinGameRequested", "da/d3b/classUserListWidget.html#ace62e58e3760a79233b03d9cf529ccc1", null ],
     [ "openMessageDialog", "da/d3b/classUserListWidget.html#a6ba28284a0d58034054b4f22cfaab9ab", null ],
     [ "positionPopup", "da/d3b/classUserListWidget.html#acc6d522f411e023a679bb4922d773b81", null ],
     [ "processUserInfo", "da/d3b/classUserListWidget.html#a7f0bb1a942c168f2f4f0c3ca3213aa32", null ],

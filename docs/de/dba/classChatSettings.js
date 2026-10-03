@@ -17,6 +17,7 @@ var classChatSettings =
     [ "getRoomHistory", "de/dba/classChatSettings.html#aa2b3490e5b76a6bd02874e9c4b7122d7", null ],
     [ "getShowMentionPopup", "de/dba/classChatSettings.html#ac6e2f1b84edb84a2b2f7ecf5997dad48", null ],
     [ "getShowMessagePopup", "de/dba/classChatSettings.html#a83f0e139d244c5d6a8b5f9bdb0b3941d", null ],
+    [ "getUseGameTime", "de/dba/classChatSettings.html#a19755c53019cfb18cfef1ba05bd38760", null ],
     [ "setChatHighlightColor", "de/dba/classChatSettings.html#ae2a84771870d1f65387a57fc91df4e05", null ],
     [ "setChatHighlightForeground", "de/dba/classChatSettings.html#a37fbf68b18a6805e75ce609faf32cee9", null ],
     [ "setChatMention", "de/dba/classChatSettings.html#a9c1c0d555e0360e0c61fa0d0c9ca8b2f", null ],
@@ -31,5 +32,6 @@ var classChatSettings =
     [ "setRoomHistory", "de/dba/classChatSettings.html#a1997e78f333183bd44ecfcfc4e1cce6e", null ],
     [ "setShowMentionPopups", "de/dba/classChatSettings.html#a6b6a10bdd01ff21049dcd3e1782bd24f", null ],
     [ "setShowMessagePopups", "de/dba/classChatSettings.html#a020d1311bf1638f2278b6f5ed1832afb", null ],
+    [ "setUseGameTime", "de/dba/classChatSettings.html#aa9e1298ad5f8a03811e5610bc2eb7947", null ],
     [ "SettingsCache", "de/dba/classChatSettings.html#a859ba68015a001567c5ef72352e7b69b", null ]
 ];

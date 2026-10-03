@@ -1,5 +1,13 @@
 var NAVTREEINDEX61 =
 {
+"db/d5f/classDlgSettings.html#a63e1197e4310b61ee905570f77d38c86":[4,1,0,365,27],
+"db/d5f/classDlgSettings.html#a6c30238e6bf1381900ef16b33ba9788b":[4,1,0,365,1],
+"db/d5f/classDlgSettings.html#a73e029a14180633f727a8b9251d5de5a":[4,1,0,365,19],
+"db/d5f/classDlgSettings.html#a8b7acbc3fed0bfdb1e5d59d17fedd62a":[4,1,0,365,31],
+"db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788":[4,1,0,365,0],
+"db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788a110d7c20e2efe9eac05be3d3d05e9295":[4,1,0,365,0,5],
+"db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788a200e2477e7618da50aa4a123247a9841":[4,1,0,365,0,8],
+"db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788a222ca7ccf512fc9966106e031c944f12":[4,1,0,365,0,3],
 "db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788a2f8114b093872ca0255743e196661ffd":[4,1,0,365,0,6],
 "db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788a904d1ced3b97961d5103f41e63b4445f":[4,1,0,365,0,7],
 "db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788aa84d559db812ab77b59ab7097f9ec283":[4,1,0,365,0,2],
@@ -197,10 +205,10 @@ var NAVTREEINDEX61 =
 "db/d90/structCardToMove.html#aa06b88de264c1f2dd4144535d46907b6":[4,1,0,127,1],
 "db/d90/structCardToMove.html#ac778b7d0cf5777ab9adf8b13ccf0ff95":[4,1,0,127,2],
 "db/d91/importing_decks.html":[0,0,1],
-"db/d91/importing_decks.html#from-an-online-service":[0,0,1,1,2],
-"db/d91/importing_decks.html#from-clipboard":[0,0,1,1,1],
-"db/d91/importing_decks.html#local-file-storage":[0,0,1,1,0],
-"db/d91/importing_decks.html#the-deck-editor-tab":[0,0,1,1],
+"db/d91/importing_decks.html#from-an-online-service-1":[0,0,1,1,2],
+"db/d91/importing_decks.html#from-clipboard-1":[0,0,1,1,1],
+"db/d91/importing_decks.html#local-file-storage-1":[0,0,1,1,0],
+"db/d91/importing_decks.html#the-deck-editor-tab-1":[0,0,1,1],
 "db/d91/importing_decks.html#where-to-import":[0,0,1,0],
 "db/d95/tab__logs_8h.html":[3,1,0,1,1,0,3],
 "db/d95/tab__logs_8h.html":[3,1,0,9,1,0,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX61 =
 "db/d9c/structpeg_1_1ErrorReport.html#a9f819117f89e2c882089ce725c8cfea5":[4,1,0,5,10,2],
 "db/d9c/structpeg_1_1ErrorReport.html#aa1a8f8da7359b8fa6a78cf9db2d97256":[4,0,0,25,11,4],
 "db/d9c/structpeg_1_1ErrorReport.html#aa1a8f8da7359b8fa6a78cf9db2d97256":[4,1,0,5,10,4],
-"db/d9c/structpeg_1_1ErrorReport.html#afefb53b12156939a6680023502ccb49e":[4,0,0,25,11,7],
-"db/d9c/structpeg_1_1ErrorReport.html#afefb53b12156939a6680023502ccb49e":[4,1,0,5,10,7],
-"db/d9e/structCommand__UndoDraw.html":[4,1,0,251],
-"db/d9e/visual__database__display__set__filter__widget_8h.html":[3,1,0,3,1,4],
-"db/d9e/visual__database__display__set__filter__widget_8h.html":[3,2,4,2,1,4],
-"db/d9f/classGameScene.html":[3,4,0,4,11],
-"db/d9f/classGameScene.html#a02ab54dfa3a9b7b49ab863ce0db03972":[3,4,0,4,11,26],
-"db/d9f/classGameScene.html#a094a33ef9f70a4c8c056e5e39cb5c79a":[3,4,0,4,11,9],
-"db/d9f/classGameScene.html#a0a97746b8b77b6477516ce8004292333":[3,4,0,4,11,17]
+"db/d9c/structpeg_1_1ErrorReport.html#afefb53b12156939a6680023502ccb49e":[4,0,0,25,11,7]
 };

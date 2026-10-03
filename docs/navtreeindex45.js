@@ -1,5 +1,14 @@
 var NAVTREEINDEX45 =
 {
+"d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html":[3,3,2,2,2,0,11],
+"d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html":[3,3,2,3,0,0,11],
+"d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html":[3,5,1,0,0,11],
+"d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#a3f333e58004595776ed63f8db3a3c374":[3,3,2,2,2,0,11,1],
+"d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#a3f333e58004595776ed63f8db3a3c374":[3,3,2,3,0,0,11,1],
+"d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#a3f333e58004595776ed63f8db3a3c374":[3,5,1,0,0,11,1],
+"d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#aca0582aca2527a06c6c22fd2f0edff88":[3,3,2,2,2,0,11,2],
+"d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#aca0582aca2527a06c6c22fd2f0edff88":[3,3,2,3,0,0,11,2],
+"d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#aca0582aca2527a06c6c22fd2f0edff88":[3,5,1,0,0,11,2],
 "d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#adf7188c8e40118196a440eba66c36594":[3,3,2,2,2,0,11,0],
 "d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#adf7188c8e40118196a440eba66c36594":[3,3,2,3,0,0,11,0],
 "d8/da3/classEdhrecCommanderApiResponseArchidektLinks.html#adf7188c8e40118196a440eba66c36594":[3,5,1,0,0,11,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX45 =
 "d8/dc5/classAppearanceSettingsPage.html#ad1ad2ef449dea13ec8efcd716e7d5bfe":[4,1,0,33,6],
 "d8/dc5/classAppearanceSettingsPage.html#ad760c0d5f92d8d92562e31c5a21f6948":[4,1,0,33,64],
 "d8/dc5/classAppearanceSettingsPage.html#ada1fce21fd6f5bf9a8621b4d47c93f58":[4,1,0,33,37],
-"d8/dc5/classAppearanceSettingsPage.html#adb73cc03f47412978f67a5f6471f1e0a":[4,1,0,33,52],
-"d8/dc5/classAppearanceSettingsPage.html#ade9cead8f02fb0275b3992ddea20e2ac":[4,1,0,33,21],
-"d8/dc5/classAppearanceSettingsPage.html#ae027eeb72a57dc385a88f264a67957ef":[4,1,0,33,27],
-"d8/dc5/classAppearanceSettingsPage.html#ae2f58a8d87cfde32ebc3cb7ce1a51302":[4,1,0,33,53],
-"d8/dc5/classAppearanceSettingsPage.html#ae8764613021b372b72fcb31e059555fd":[4,1,0,33,32],
-"d8/dc5/classAppearanceSettingsPage.html#afd9c10e3e1b2b98845d3cf8eae56cad2":[4,1,0,33,54],
-"d8/dc6/structEvent__UserJoined_1_1SessionEvent.html":[4,1,0,453,0],
-"d8/dc6/structEvent__UserJoined_1_1SessionEvent.html#abc0c88e793abe1fe5c1c126702a8b5c1":[4,1,0,453,0,0],
-"d8/dc8/structPaletteColorInfo.html":[4,1,0,624],
-"d8/dc8/structPaletteColorInfo.html#a07da66daaa61aabc7787f7b0d42ea4fd":[4,1,0,624,0]
+"d8/dc5/classAppearanceSettingsPage.html#adb73cc03f47412978f67a5f6471f1e0a":[4,1,0,33,52]
 };

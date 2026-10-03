@@ -14,5 +14,6 @@ var classIChatSettingsProvider =
     [ "getIgnoreUnregisteredUsers", "d0/d5a/classIChatSettingsProvider.html#a2be9abcae2011fa857617d849a5f424e", null ],
     [ "getRoomHistory", "d0/d5a/classIChatSettingsProvider.html#ab68a3cd9f0d61a92be3adf41033db8c5", null ],
     [ "getShowMentionPopup", "d0/d5a/classIChatSettingsProvider.html#a25e83bfe10a732e2e24ba8afbb7dd002", null ],
-    [ "getShowMessagePopup", "d0/d5a/classIChatSettingsProvider.html#ac1499351b1820d1d352f24d72ccbad4a", null ]
+    [ "getShowMessagePopup", "d0/d5a/classIChatSettingsProvider.html#ac1499351b1820d1d352f24d72ccbad4a", null ],
+    [ "getUseGameTime", "d0/d5a/classIChatSettingsProvider.html#a9f024950b69494c7abc9e8dccfd4fead", null ]
 ];

@@ -1,5 +1,13 @@
 var NAVTREEINDEX42 =
 {
+"d8/d32/classICardsDisplaySettingsProvider.html#a5d2ba808389509397e24655c9b62be3c":[4,1,0,517,0],
+"d8/d32/classICardsDisplaySettingsProvider.html#a5f3f6356149ee0ec6d4828c50d204866":[4,1,0,517,22],
+"d8/d32/classICardsDisplaySettingsProvider.html#a69479cd0d222fba772646a7db81f9809":[4,1,0,517,8],
+"d8/d32/classICardsDisplaySettingsProvider.html#a6c871eadc95baa2141567e891129ab1d":[4,1,0,517,4],
+"d8/d32/classICardsDisplaySettingsProvider.html#a715c4b51b52a3202f0de117d0e11da6d":[4,1,0,517,5],
+"d8/d32/classICardsDisplaySettingsProvider.html#a763adb6ed34567b44d042bf3f6063dee":[4,1,0,517,13],
+"d8/d32/classICardsDisplaySettingsProvider.html#a905b6f734548bd175245d413b641a329":[4,1,0,517,17],
+"d8/d32/classICardsDisplaySettingsProvider.html#a9307e830b61afe374c3d09e809f1c940":[4,1,0,517,7],
 "d8/d32/classICardsDisplaySettingsProvider.html#a9397a98899a2694b75be0691a8d7ca88":[4,1,0,517,21],
 "d8/d32/classICardsDisplaySettingsProvider.html#a9b4a5ab62d5349f884198bf208901e31":[4,1,0,517,20],
 "d8/d32/classICardsDisplaySettingsProvider.html#a9d5013b6ba06ef08319b06e896dd22e9":[4,1,0,517,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX42 =
 "d8/d62/classPendingCommand.html":[4,1,0,632],
 "d8/d62/classPendingCommand.html#a167e2fd7d8983fd8cf5dce8b0d83a4ba":[4,1,0,632,7],
 "d8/d62/classPendingCommand.html#a20aae71ea9883532f8b742017a2e9372":[4,1,0,632,1],
-"d8/d62/classPendingCommand.html#a426195c60472889d89b1ba20ab0f0beb":[4,1,0,632,3],
-"d8/d62/classPendingCommand.html#a4408c73776515519ee92932fa6fdb520":[4,1,0,632,11],
-"d8/d62/classPendingCommand.html#a44af6c6ddd33199a92b44e26cdbcdd86":[4,1,0,632,0],
-"d8/d62/classPendingCommand.html#a49ee09fbd60849e1d98ca00401eada3c":[4,1,0,632,8],
-"d8/d62/classPendingCommand.html#a4c22919b01a759831028af37c8f793c4":[4,1,0,632,9],
-"d8/d62/classPendingCommand.html#a592d604b15abf4153c4b401484396324":[4,1,0,632,2],
-"d8/d62/classPendingCommand.html#a8aa2b31da2bf1000fd5cb1b3155fe302":[4,1,0,632,12],
-"d8/d62/classPendingCommand.html#abfe09fdbfcd0830f72fcc57b01eca3e2":[4,1,0,632,10],
-"d8/d62/classPendingCommand.html#ae378679748817aaa01534f12159cd5b7":[4,1,0,632,5]
+"d8/d62/classPendingCommand.html#a426195c60472889d89b1ba20ab0f0beb":[4,1,0,632,3]
 };

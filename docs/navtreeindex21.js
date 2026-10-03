@@ -1,5 +1,9 @@
 var NAVTREEINDEX21 =
 {
+"d4/d07/classEdhrecApiResponseCardSynergyDisplayWidget.html#aeb6fa37b25e0b00e5b1f170469c272bd":[4,1,0,387,1],
+"d4/d08/replay__quick__settings__widget_8cpp.html":[4,2,0,0,1,5,5,11,2],
+"d4/d09/server__rate__limiter_8cpp.html":[4,2,0,11,0,0,20],
+"d4/d0b/qxtsmtp__p_8h.html":[4,2,0,13,1,0,10],
 "d4/d0b/qxtsmtp__p_8h_source.html":[4,2,0,13,1,0,10],
 "d4/d0c/structSessionEvent.html":[4,1,0,828],
 "d4/d0c/structSessionEvent.html#a1e0c518a6512ccebaa55de1e743527b9":[4,1,0,828,1],
@@ -99,6 +103,9 @@ var NAVTREEINDEX21 =
 "d4/d28/structEvent__PlayerPropertiesChanged.html":[4,1,0,435],
 "d4/d28/structEvent__PlayerPropertiesChanged.html#ab802cad06e671bde275668272a49da0a":[4,1,0,435,1],
 "d4/d29/edhrec__api__response__card__synergy__display__widget_8cpp.html":[4,2,0,0,1,5,5,14,0,2,1,1,6],
+"d4/d29/single__instance__manager__test_8cpp.html":[4,2,0,14,25],
+"d4/d29/single__instance__manager__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,25,0],
+"d4/d29/single__instance__manager__test_8cpp.html#abfe8f5132d50f8a0725d25a5e7c7d952":[4,2,0,14,25,1],
 "d4/d2b/structCommandStats.html":[4,1,0,266],
 "d4/d2b/structCommandStats.html#a01b6f7895abbeaf18e2d1f9f970ecfd7":[4,1,0,266,2],
 "d4/d2b/structCommandStats.html#a722e7ccf55624dae2bff2b191bb28de1":[4,1,0,266,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX21 =
 "d4/d4a/classCardsDisplaySettings.html#a23ac07d855bf6ce3921d00e5a8b51f4b":[4,1,0,119,28],
 "d4/d4a/classCardsDisplaySettings.html#a280b88b0ecfc0ad2c18ba44ea450f808":[4,1,0,119,63],
 "d4/d4a/classCardsDisplaySettings.html#a2c91c9f1212a26ee6171f0f04d8727cd":[4,1,0,119,54],
-"d4/d4a/classCardsDisplaySettings.html#a2f08e8eae661704c784c7ae2cfd8d37a":[4,1,0,119,46],
-"d4/d4a/classCardsDisplaySettings.html#a316ff5a6324e3285f3de00ea457cd749":[4,1,0,119,21],
-"d4/d4a/classCardsDisplaySettings.html#a3a7f86f883f7f9e7751301523863e4ed":[4,1,0,119,42],
-"d4/d4a/classCardsDisplaySettings.html#a3cad6d0b387eda38fa94f27dc90256bc":[4,1,0,119,6],
-"d4/d4a/classCardsDisplaySettings.html#a45b833c86b5f33c8bb1e3f2629187976":[4,1,0,119,44],
-"d4/d4a/classCardsDisplaySettings.html#a46557f44dceb65959d9ce8734efcc138":[4,1,0,119,41],
-"d4/d4a/classCardsDisplaySettings.html#a4e9d0de7c0c64801dc99d88502c77802":[4,1,0,119,56],
-"d4/d4a/classCardsDisplaySettings.html#a51683030d800bdc7bdfce064ce5495e2":[4,1,0,119,33]
+"d4/d4a/classCardsDisplaySettings.html#a2f08e8eae661704c784c7ae2cfd8d37a":[4,1,0,119,46]
 };

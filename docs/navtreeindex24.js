@@ -1,5 +1,12 @@
 var NAVTREEINDEX24 =
 {
+"d4/db9/classAbstractCardItem.html#a246cc553bda93c4e19a6f285dbf3b72f":[4,1,0,9,17],
+"d4/db9/classAbstractCardItem.html#a2639a8b69c5d980c4c491b91364e28f7":[4,1,0,9,38],
+"d4/db9/classAbstractCardItem.html#a27a8cbae4e8129f30079a9c44c1a4f67":[4,1,0,9,45],
+"d4/db9/classAbstractCardItem.html#a3036ffce26817d55e399c3d2130010b9":[4,1,0,9,41],
+"d4/db9/classAbstractCardItem.html#a365150eeb4cf810f94c1b651db9ea86b":[4,1,0,9,31],
+"d4/db9/classAbstractCardItem.html#a366ddbdae8174d6442e5351a8a2afd26":[4,1,0,9,7],
+"d4/db9/classAbstractCardItem.html#a39ccaecfbe2e8a434ddf3e2a907f8867":[4,1,0,9,40],
 "d4/db9/classAbstractCardItem.html#a3d9a36b80fa9c22798a11324ccb4c0dd":[4,1,0,9,24],
 "d4/db9/classAbstractCardItem.html#a460608f3aa54157d5ed6bb9d83c5da3c":[4,1,0,9,5],
 "d4/db9/classAbstractCardItem.html#a4d53a73ceaa1809fccd439d6cd1d0924":[4,1,0,9,19],
@@ -242,12 +249,5 @@ var NAVTREEINDEX24 =
 "d4/dfe/classICardDatabaseParser.html#a66883932a0e685ecf3d25a49392331e7":[3,2,4,9,13],
 "d4/dfe/classICardDatabaseParser.html#a8c862a86d060f3d3e659b5ff169edec0":[3,2,4,9,4],
 "d4/dfe/classICardDatabaseParser.html#a9dbd0972e9552f222fd6dec4fd9f1088":[3,2,4,9,12],
-"d4/dfe/classICardDatabaseParser.html#aa58bc4645fc309c7225527f22d90a050":[3,2,4,9,6],
-"d4/dfe/classICardDatabaseParser.html#ae3965749458fb6daf705f3e136823ad3":[3,2,4,9,1],
-"d4/dfe/classICardDatabaseParser.html#af9dd84adbd35f10dd6d905c62b0a734a":[3,2,4,9,3],
-"d5/d00/card__database__view_8cpp.html":[4,2,0,0,1,5,5,2,0],
-"d5/d00/card__database__view_8cpp.html#a7fa751ff16fdac8a4dcfff1fafb32e8e":[4,2,0,0,1,5,5,2,0,0],
-"d5/d06/classPlayerListTWI.html":[4,1,0,653],
-"d5/d06/classPlayerListTWI.html#a29e020f1a2c4d27ede8651578af97bbf":[4,1,0,653,0],
-"d5/d06/classPlayerListTWI.html#ad0750512ad4349964a158e9daff6c467":[4,1,0,653,1]
+"d4/dfe/classICardDatabaseParser.html#aa58bc4645fc309c7225527f22d90a050":[3,2,4,9,6]
 };

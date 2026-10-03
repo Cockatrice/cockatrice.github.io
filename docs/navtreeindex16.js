@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"d3/d21/classNoopCardSetPriorityController.html#a26e69237213da1fcea0a5dc8c595426c":[4,1,0,613,1],
+"d3/d21/classNoopCardSetPriorityController.html#a27cf913e42a8f7a193ff8ae60a958e48":[4,1,0,613,5],
 "d3/d21/classNoopCardSetPriorityController.html#a5d78e16d17215ee195b5d511e8680140":[4,1,0,613,3],
 "d3/d21/classNoopCardSetPriorityController.html#a8b21c912e0af3653f73c9097d1be58be":[4,1,0,613,7],
 "d3/d21/classNoopCardSetPriorityController.html#adb9c280ed6233e158f8ff28080a84ebc":[4,1,0,613,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "d3/d58/classLayoutsSettings.html#ac40e5ce8956769f8c783f8912d91af18":[4,1,0,554,14],
 "d3/d58/classLayoutsSettings.html#acdc54050233ddb99cb795f55622fdb59":[4,1,0,554,20],
 "d3/d58/classLayoutsSettings.html#af33ff2d89269115dcd98f9eb6d469e94":[4,1,0,554,23],
-"d3/d58/classLayoutsSettings.html#af66fd64d1b04841294bc7da408ce4aac":[4,1,0,554,6],
-"d3/d58/classLayoutsSettings.html#afccedd176fba7aa1db4e456708a88cec":[4,1,0,554,18],
-"d3/d59/deck__editor__card__database__dock__widget_8cpp.html":[4,2,0,0,1,5,5,2,2]
+"d3/d58/classLayoutsSettings.html#af66fd64d1b04841294bc7da408ce4aac":[4,1,0,554,6]
 };

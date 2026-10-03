@@ -10,6 +10,7 @@ var classMessageLogWidget =
     [ "connectToPlayerEventHandler", "d7/d93/classMessageLogWidget.html#a13df61814a0a4510ed07d236a4914d5f", null ],
     [ "containerProcessingDone", "d7/d93/classMessageLogWidget.html#ade00ea08ac67e1a767a67402393c2357", null ],
     [ "containerProcessingStarted", "d7/d93/classMessageLogWidget.html#ae2c2f9c6dccd9cc7151a8d0c37a8a98b", null ],
+    [ "getCurrentTime", "d7/d93/classMessageLogWidget.html#a79982a5b3eaa6cf9ddc777dd7049d1d2", null ],
     [ "getFromStr", "d7/d93/classMessageLogWidget.html#a9410b606516e2434e26a69bca3bc9bd2", null ],
     [ "logAlwaysLookAtTopCard", "d7/d93/classMessageLogWidget.html#a50b7728873a58c81c500eb45f323677c", null ],
     [ "logAlwaysRevealTopCard", "d7/d93/classMessageLogWidget.html#a02f5d80be7bfbc370bb23738139387d4", null ],

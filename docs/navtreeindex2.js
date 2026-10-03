@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"d0/d8b/servatrice_2src_2main_8cpp.html#a421d386c27e244a5416e7cb8b70264f6":[4,2,0,13,1,8,5],
 "d0/d8b/servatrice_2src_2main_8cpp.html#a697363d2e1957ff1f0b1e91fa5780933":[4,2,0,13,1,8,3],
 "d0/d8b/servatrice_2src_2main_8cpp.html#a946957425d4e45770706a0198ca2f777":[4,2,0,13,1,8,8],
 "d0/d8b/servatrice_2src_2main_8cpp.html#a978a7d0de98b63b009143f95d924bb4a":[4,2,0,13,1,8,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "d0/dc0/classPaletteEditorDialog.html#a4d371cb1338076b1b6eac040a027247d":[4,1,0,626,32],
 "d0/dc0/classPaletteEditorDialog.html#a5eb1b07f8d2446cff715d9fc8ff6f3f2":[4,1,0,626,6],
 "d0/dc0/classPaletteEditorDialog.html#a691065f8b86fe77cc641548790ca0be8":[4,1,0,626,28],
-"d0/dc0/classPaletteEditorDialog.html#a695395fa65e2a2625ba4dd6fdd6fcdfb":[4,1,0,626,16],
-"d0/dc0/classPaletteEditorDialog.html#a851b4fc1634191ce121ec1958edefb1b":[4,1,0,626,4]
+"d0/dc0/classPaletteEditorDialog.html#a695395fa65e2a2625ba4dd6fdd6fcdfb":[4,1,0,626,16]
 };

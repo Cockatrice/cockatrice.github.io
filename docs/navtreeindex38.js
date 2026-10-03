@@ -1,5 +1,12 @@
 var NAVTREEINDEX38 =
 {
+"d7/d62/classFilterTreeModel.html#af1fbb628068996d5e9824046ac0da47e":[4,1,0,469,2],
+"d7/d62/classFilterTreeModel.html#af6e2721ec44daa1857c88c8cd740f75c":[4,1,0,469,15],
+"d7/d62/classFilterTreeModel.html#afc9c10fd6eaef1a2cac8ea846301015a":[4,1,0,469,23],
+"d7/d62/structCommand__DumpZone.html":[4,1,0,177],
+"d7/d62/structCommand__DumpZone.html#a2aa73286cdbd2c9695acca85d1cdd631":[4,1,0,177,1],
+"d7/d62/structCommand__DumpZone.html#a5c1f1d322ca260926aacf390c0823775":[4,1,0,177,4],
+"d7/d62/structCommand__DumpZone.html#a667c635d66e51c29051eb4b00796cb31":[4,1,0,177,3],
 "d7/d62/structCommand__DumpZone.html#af6c8923ebc401c46cd115d294d2ffeec":[4,1,0,177,2],
 "d7/d64/editing_decks_printings.html":[0,0,2,2],
 "d7/d64/editing_decks_printings.html#pre-requisites-card-database":[0,0,2,2,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX38 =
 "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#ab685794c27b24974c22f91cbb238f9d0":[4,1,0,963,37],
 "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#ac0ef632a4ca280cd052b60fe4519d6a2":[4,1,0,963,15],
 "d7/d92/classVisualDeckStorageQuickSettingsWidget.html#ac6aa693c4913fffca655147cf57300e8":[4,1,0,963,11],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#acd1e9d497e852e6d6b4216502def61e9":[4,1,0,963,36],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#ad6a7039e902ad0db3e1eeda9a974b6ad":[4,1,0,963,33],
-"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#afaacba52180ed0f17d4edf0af5d41fd6":[4,1,0,963,30],
-"d7/d93/classMessageLogWidget.html":[4,1,0,596],
-"d7/d93/classMessageLogWidget.html#a02f5d80be7bfbc370bb23738139387d4":[4,1,0,596,8],
-"d7/d93/classMessageLogWidget.html#a07db806786771f82b2eb2c9bd14a9e2c":[4,1,0,596,14],
-"d7/d93/classMessageLogWidget.html#a088e8bcf62c208a5e1af7f51caf6b3e7":[4,1,0,596,26],
-"d7/d93/classMessageLogWidget.html#a13df61814a0a4510ed07d236a4914d5f":[4,1,0,596,3]
+"d7/d92/classVisualDeckStorageQuickSettingsWidget.html#acd1e9d497e852e6d6b4216502def61e9":[4,1,0,963,36]
 };

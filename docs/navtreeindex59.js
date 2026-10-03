@@ -1,5 +1,13 @@
 var NAVTREEINDEX59 =
 {
+"db/d15/game_event_handler.html":[0,1,6,1,0],
+"db/d18/cockatrice_2src_2interface_2card__localization_8h.html":[4,2,0,0,1,5,6],
+"db/d18/cockatrice_2src_2interface_2card__localization_8h_source.html":[4,2,0,0,1,5,6],
+"db/d19/structCommand__ReportMyList.html":[4,1,0,230],
+"db/d1a/structCommand__IncCardCounter_1_1GameCommand.html":[4,1,0,195,0],
+"db/d1a/structCommand__IncCardCounter_1_1GameCommand.html#a4109013f7e9dc5496308c7a081b5cec1":[4,1,0,195,0,0],
+"db/d1b/classCardState.html":[4,1,0,126],
+"db/d1b/classCardState.html#a16ba6f97f103a9c392ad3a7c45e54976":[4,1,0,126,36],
 "db/d1b/classCardState.html#a177a52de08a6e5f8d31b7ce8b31f28f1":[4,1,0,126,32],
 "db/d1b/classCardState.html#a18ae04ce83d8b27b58b11e53975d611d":[4,1,0,126,16],
 "db/d1b/classCardState.html#a2126fa9664c0c83a3b436d9a93e0356c":[4,1,0,126,29],
@@ -241,13 +249,5 @@ var NAVTREEINDEX59 =
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#af1d7ef5878ce6686a15e1f18eac2c9aa":[4,0,0,25,51,4],
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#af1d7ef5878ce6686a15e1f18eac2c9aa":[4,1,0,5,50,4],
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#af2ff13c0928c70e75dcb072578ee6dcb":[4,0,0,25,51,9],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#af2ff13c0928c70e75dcb072578ee6dcb":[4,1,0,5,50,9],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#af3686d1eb11dbad3bfd1c5101e86eab6":[4,0,0,25,51,3],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#af3686d1eb11dbad3bfd1c5101e86eab6":[4,1,0,5,50,3],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#af748e5003a9317b6bdafdb09f0b033bc":[4,0,0,25,51,14],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#af748e5003a9317b6bdafdb09f0b033bc":[4,1,0,5,50,14],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#afaee1384c719b0884d2bdda5d1561889":[4,0,0,25,51,12],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#afaee1384c719b0884d2bdda5d1561889":[4,1,0,5,50,12],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#afb21efe506e35896ea25211063e56e92":[4,0,0,25,51,11],
-"db/d34/structpeg_1_1DetectInfiniteLoop.html#afb21efe506e35896ea25211063e56e92":[4,1,0,5,50,11]
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#af2ff13c0928c70e75dcb072578ee6dcb":[4,1,0,5,50,9]
 };

@@ -8,6 +8,7 @@ var classZoneViewZoneLogic =
     [ "ZoneViewZoneLogic", "d8/d70/classZoneViewZoneLogic.html#af8e982515d0688d1edd6384e77d5a03a", null ],
     [ "addCardImpl", "d8/d70/classZoneViewZoneLogic.html#a5d24a6f4a5edb93de89ca3563eec033b", null ],
     [ "addToViews", "d8/d70/classZoneViewZoneLogic.html#a6ccd01d5f0328ada2f712d388f6aa5ab", null ],
+    [ "clearCards", "d8/d70/classZoneViewZoneLogic.html#a4a82ba85e7a8da88252fca7716e61ab7", null ],
     [ "closeView", "d8/d70/classZoneViewZoneLogic.html#abef056fee9d43aff83c3b8f2130a7853", null ],
     [ "getIsReversed", "d8/d70/classZoneViewZoneLogic.html#a1d1b674c3d213e88bb79fb238d5085e6", null ],
     [ "getNumberCards", "d8/d70/classZoneViewZoneLogic.html#a92f3d221b8945f8c9b3e11fbe0a07bdc", null ],

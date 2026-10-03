@@ -1,5 +1,13 @@
 var NAVTREEINDEX58 =
 {
+"da/de9/classReplayManager.html#abd9ea4f6f2a48ae61ca05a010cad1ebb":[4,1,0,700,13],
+"da/de9/classReplayManager.html#abdb81d0cc94379d2292a7a1bb9acc2a8":[4,1,0,700,22],
+"da/de9/classReplayManager.html#abeab77d7d17a8f606d42906f442e100c":[4,1,0,700,10],
+"da/de9/classReplayManager.html#ac13f914aadf547e6ff83637f2c06a1ac":[4,1,0,700,23],
+"da/de9/classReplayManager.html#ac6d3d66c06f67992cf9f63031aacd972":[4,1,0,700,17],
+"da/de9/classReplayManager.html#ad2244be18e1fb84a7ef925f923c68a24":[4,1,0,700,11],
+"da/de9/classReplayManager.html#ad3e2bc23150728d03a8078aebc3cac04":[4,1,0,700,18],
+"da/de9/classReplayManager.html#ad53f40a28d232da1ba41b7db94a99eb9":[4,1,0,700,3],
 "da/de9/classReplayManager.html#ad57b0f76443bc3ceb024cff0aa131cb8":[4,1,0,700,1],
 "da/de9/classReplayManager.html#adce17cb8cb221bf7d148519c42ccc07c":[4,1,0,700,26],
 "da/dec/color_8h.html":[4,2,0,11,0,0,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX58 =
 "db/d14/classQxtPrivate.html#a795119eb3c84d0788a8c6c24fc440166":[4,1,0,686,4],
 "db/d14/classQxtPrivate.html#ad78679ef4672ee0addaceda1d5420131":[4,1,0,686,2],
 "db/d14/structCommand__GetUserAlts_1_1ModeratorCommand.html":[4,1,0,189,0],
-"db/d14/structCommand__GetUserAlts_1_1ModeratorCommand.html#a9a1b2d5b76b4aee41378af9754bb96e4":[4,1,0,189,0,0],
-"db/d15/game_event_handler.html":[0,1,6,1,0],
-"db/d18/cockatrice_2src_2interface_2card__localization_8h.html":[4,2,0,0,1,5,6],
-"db/d18/cockatrice_2src_2interface_2card__localization_8h_source.html":[4,2,0,0,1,5,6],
-"db/d19/structCommand__ReportMyList.html":[4,1,0,230],
-"db/d1a/structCommand__IncCardCounter_1_1GameCommand.html":[4,1,0,195,0],
-"db/d1a/structCommand__IncCardCounter_1_1GameCommand.html#a4109013f7e9dc5496308c7a081b5cec1":[4,1,0,195,0,0],
-"db/d1b/classCardState.html":[4,1,0,126],
-"db/d1b/classCardState.html#a16ba6f97f103a9c392ad3a7c45e54976":[4,1,0,126,36]
+"db/d14/structCommand__GetUserAlts_1_1ModeratorCommand.html#a9a1b2d5b76b4aee41378af9754bb96e4":[4,1,0,189,0,0]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX60 =
 {
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#af3686d1eb11dbad3bfd1c5101e86eab6":[4,0,0,25,51,3],
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#af3686d1eb11dbad3bfd1c5101e86eab6":[4,1,0,5,50,3],
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#af748e5003a9317b6bdafdb09f0b033bc":[4,0,0,25,51,14],
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#af748e5003a9317b6bdafdb09f0b033bc":[4,1,0,5,50,14],
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#afaee1384c719b0884d2bdda5d1561889":[4,0,0,25,51,12],
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#afaee1384c719b0884d2bdda5d1561889":[4,1,0,5,50,12],
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#afb21efe506e35896ea25211063e56e92":[4,0,0,25,51,11],
+"db/d34/structpeg_1_1DetectInfiniteLoop.html#afb21efe506e35896ea25211063e56e92":[4,1,0,5,50,11],
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#aff8c5b50652c1096d0f5272454e6933e":[4,0,0,25,51,22],
 "db/d34/structpeg_1_1DetectInfiniteLoop.html#aff8c5b50652c1096d0f5272454e6933e":[4,1,0,5,50,22],
 "db/d39/resizable__panel_8h.html":[4,2,0,0,1,5,5,1,14],
@@ -241,13 +249,5 @@ var NAVTREEINDEX60 =
 "db/d5f/classDlgSettings.html#a4b161845121ee115a230bfe8629c8d7d":[4,1,0,365,3],
 "db/d5f/classDlgSettings.html#a4f4a75200d97eeaead53b3d5d4799e35":[4,1,0,365,18],
 "db/d5f/classDlgSettings.html#a5438de7c2eca7cb8bc124535f36b9ad6":[4,1,0,365,21],
-"db/d5f/classDlgSettings.html#a580b34faf8deff750d9e0cbd130c2165":[4,1,0,365,2],
-"db/d5f/classDlgSettings.html#a63e1197e4310b61ee905570f77d38c86":[4,1,0,365,27],
-"db/d5f/classDlgSettings.html#a6c30238e6bf1381900ef16b33ba9788b":[4,1,0,365,1],
-"db/d5f/classDlgSettings.html#a73e029a14180633f727a8b9251d5de5a":[4,1,0,365,19],
-"db/d5f/classDlgSettings.html#a8b7acbc3fed0bfdb1e5d59d17fedd62a":[4,1,0,365,31],
-"db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788":[4,1,0,365,0],
-"db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788a110d7c20e2efe9eac05be3d3d05e9295":[4,1,0,365,0,5],
-"db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788a200e2477e7618da50aa4a123247a9841":[4,1,0,365,0,8],
-"db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788a222ca7ccf512fc9966106e031c944f12":[4,1,0,365,0,3]
+"db/d5f/classDlgSettings.html#a580b34faf8deff750d9e0cbd130c2165":[4,1,0,365,2]
 };

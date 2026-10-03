@@ -25,6 +25,7 @@ var classChatView =
     [ "deleteCardInfoPopup", "dc/dea/classChatView.html#aaca91c1111baa708be1b9fbf3c6cbaea", null ],
     [ "enterEvent", "dc/dea/classChatView.html#a7ea9186898a0dc1956facb2c40431c46", null ],
     [ "extractNextWord", "dc/dea/classChatView.html#a642c96e8cb01ece34bcd1e75fe524746", null ],
+    [ "getCurrentTime", "dc/dea/classChatView.html#acda5ce7938bf1efc1df9f825299abeb5", null ],
     [ "getCustomHighlightColor", "dc/dea/classChatView.html#a3d1aae9c1f6f1917f4e12ed07445eb11", null ],
     [ "getCustomMentionColor", "dc/dea/classChatView.html#a6de5dd1797afe6a01e9522e731e05694", null ],
     [ "getFragmentUnderMouse", "dc/dea/classChatView.html#a23ccba00bfa2ed0f45ff5da13954104a", null ],

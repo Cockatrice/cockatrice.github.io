@@ -36,5 +36,6 @@ var classMessagesSettingsPage =
     [ "messageGroupBox", "d2/dae/classMessagesSettingsPage.html#a16f6c3fa546241fffe66746261704af9", null ],
     [ "messageList", "d2/dae/classMessagesSettingsPage.html#ad68ffdb1e3d71f64a461dbb3fcc80798", null ],
     [ "messagePopups", "d2/dae/classMessagesSettingsPage.html#a75f8483bd7d5d76a4a9c543c39e1a456", null ],
-    [ "roomHistory", "d2/dae/classMessagesSettingsPage.html#ad5457c7f69d9a5da12d479f1bc0398fb", null ]
+    [ "roomHistory", "d2/dae/classMessagesSettingsPage.html#ad5457c7f69d9a5da12d479f1bc0398fb", null ],
+    [ "useGameTimeCheckBox", "d2/dae/classMessagesSettingsPage.html#aaef5efbebf82bfc18cfab1d51b3a750b", null ]
 ];

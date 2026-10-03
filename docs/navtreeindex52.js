@@ -1,5 +1,14 @@
 var NAVTREEINDEX52 =
 {
+"d9/df7/classDeckEditorDeckDockWidget.html#aa5ed01907915c61f98156dcad7086cf8":[4,1,0,294,31],
+"d9/df7/classDeckEditorDeckDockWidget.html#aa646cffeb7cff704ae7193eb9fe387f7":[4,1,0,294,41],
+"d9/df7/classDeckEditorDeckDockWidget.html#aa718e47621f615838a85000770ab454e":[4,1,0,294,35],
+"d9/df7/classDeckEditorDeckDockWidget.html#aa7aec9a73d90690573a9273b44c9e2bd":[4,1,0,294,50],
+"d9/df7/classDeckEditorDeckDockWidget.html#aab6a4a76079a05f7ef06d7e312147062":[4,1,0,294,32],
+"d9/df7/classDeckEditorDeckDockWidget.html#ab1d63ef660280aba6c1ac3c1f3e3f013":[4,1,0,294,64],
+"d9/df7/classDeckEditorDeckDockWidget.html#ab339f7d082939816223322bb1fdf5844":[4,1,0,294,9],
+"d9/df7/classDeckEditorDeckDockWidget.html#abe1b6ab01f1410f83626de68cd777de3":[4,1,0,294,65],
+"d9/df7/classDeckEditorDeckDockWidget.html#abee370bbc984eee468f5bf1cc1777c71":[4,1,0,294,66],
 "d9/df7/classDeckEditorDeckDockWidget.html#ac0e1c2d81d226ffc97bae7ca7c15d11d":[4,1,0,294,10],
 "d9/df7/classDeckEditorDeckDockWidget.html#ac4cc2676a89e5151a19f4a698d314058":[4,1,0,294,60],
 "d9/df7/classDeckEditorDeckDockWidget.html#acb4e871acae5612f56d29ec0eef1e50a":[4,1,0,294,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX52 =
 "da/d20/classPhaseButton.html#a3203ead687f075fd4886f197b1358c38":[4,1,0,638,9],
 "da/d20/classPhaseButton.html#a49ddc75992a769124ce6d374cf447fe3":[4,1,0,638,2],
 "da/d20/classPhaseButton.html#a4b223d76104a80025718bfc65bf41afb":[4,1,0,638,7],
-"da/d20/classPhaseButton.html#a63bd377a5cc8b5bc1304895be46ebdc7":[4,1,0,638,6],
-"da/d20/classPhaseButton.html#a63dd7dc316df101ba7189d4187de74c0":[4,1,0,638,11],
-"da/d20/classPhaseButton.html#a68aa20798e9928adbc6bfc5bd7dcccab":[4,1,0,638,0],
-"da/d20/classPhaseButton.html#aa9636b51daccc73e75a2c01765f22182":[4,1,0,638,15],
-"da/d20/classPhaseButton.html#aacd15a2baefe446786a081e1d3bbc4e5":[4,1,0,638,17],
-"da/d20/classPhaseButton.html#ad748d39a4fe2feb43c818241790a56e7":[4,1,0,638,8],
-"da/d20/classPhaseButton.html#ae74ac71d2e549905a27cbbe53d1fe43a":[4,1,0,638,14],
-"da/d20/classPhaseButton.html#aeb596b323f626d27970720eeea96f234":[4,1,0,638,13],
-"da/d20/classPhaseButton.html#af52326e0ee5e45c9afcf40e47e93e385":[4,1,0,638,16],
-"da/d20/classPhaseButton.html#af6d4580a94bbb052c82eb55d3921a917":[4,1,0,638,12]
+"da/d20/classPhaseButton.html#a63bd377a5cc8b5bc1304895be46ebdc7":[4,1,0,638,6]
 };

@@ -6,7 +6,7 @@
 <!-- Title: ResizablePanel::eventFilter Pages: 1 -->
 <!--zoomable 119 -->
 
-<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
 
 <style type="text/css"><![CDATA[
 .node, .edge {opacity: 0.7;}
@@ -46,13 +46,8 @@
     <use xlink:href="#rim2" fill="#404040"><set attributeName="fill" to="#808080" begin="reset.mouseover" end="reset.mouseout"/></use>
   </g>
 </defs>
-<script type="application/ecmascript">
-var viewWidth = 1088;
-var viewHeight = 119;
-var sectionId = 'dynsection-12';
-</script>
 <script type="application/ecmascript" xlink:href="../../svg.min.js"/>
-<svg id="graph" class="graph">
+<svg id="graph" class="graph" data-view-width="1088" data-view-height="119" data-section-id="dynsection-16">
 <g id="viewport">
 <title>ResizablePanel::eventFilter</title>
 <!-- Node1 -->
@@ -112,9 +107,9 @@ var sectionId = 'dynsection-12';
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
-<g id="edge8_Node000001_Node000008" class="edge">
+<g id="edge9_Node000001_Node000008" class="edge">
 <title>Node1&#45;&gt;Node8</title>
-<g id="a_edge8_Node000001_Node000008"><a xlink:title=" ">
+<g id="a_edge9_Node000001_Node000008"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M121.65,-43.49C141.12,-39.87 164.08,-36.12 185,-34 386.06,-13.68 624.31,-12.64 745.54,-13.74"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="750.87,-13.79 745.85,-15.99 748.37,-13.77 745.87,-13.74 745.87,-13.74 745.87,-13.74 748.37,-13.77 745.89,-11.49 750.87,-13.79 750.87,-13.79"/>
 </a>
@@ -177,9 +172,9 @@ var sectionId = 'dynsection-12';
 </g>
 </g>
 <!-- Node5&#45;&gt;Node8 -->
-<g id="edge7_Node000005_Node000008" class="edge">
+<g id="edge8_Node000005_Node000008" class="edge">
 <title>Node5&#45;&gt;Node8</title>
-<g id="a_edge7_Node000005_Node000008"><a xlink:title=" ">
+<g id="a_edge8_Node000005_Node000008"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M705.03,-42.96C721.32,-39.16 738.88,-35.07 755.41,-31.22"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="760.51,-30.03 756.15,-33.36 758.07,-30.6 755.64,-31.17 755.64,-31.17 755.64,-31.17 758.07,-30.6 755.13,-28.97 760.51,-30.03 760.51,-30.03"/>
 </a>
@@ -203,18 +198,27 @@ var sectionId = 'dynsection-12';
 </a>
 </g>
 </g>
+<!-- Node7&#45;&gt;Node7 -->
+<g id="edge7_Node000007_Node000007" class="edge">
+<title>Node7&#45;&gt;Node7</title>
+<g id="a_edge7_Node000007_Node000007"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M982.14,-72.58C968.34,-81.23 977.8,-90.5 1010.5,-90.5 1039.12,-90.5 1049.93,-83.41 1042.94,-75.84"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1038.86,-72.58 1044.17,-73.94 1040.82,-74.14 1042.77,-75.7 1042.77,-75.7 1042.77,-75.7 1040.82,-74.14 1041.37,-77.46 1038.86,-72.58 1038.86,-72.58"/>
+</a>
+</g>
+</g>
 </g>
 </svg>
 
 <g id="navigator" transform="translate(0 0)" fill="#404254">
   <rect fill="#f2f5e9" fill-opacity="0.5" stroke="#606060" stroke-width=".5" x="0" y="0" width="60" height="60"/>
-  <use id="zoomplus" xlink:href="#zoomPlus" x="17" y="9" onmousedown="handleZoom(evt,'in')"/>
-  <use id="zoomminus" xlink:href="#zoomMin" x="42" y="9" onmousedown="handleZoom(evt,'out')"/>
-  <use id="reset" xlink:href="#resetDef" x="30" y="36" onmousedown="handleReset()"/>
-   <use id="arrowup" xlink:href="#arrowUp" x="0" y="0" onmousedown="handlePan(0,-1)"/>
-  <use id="arrowright" xlink:href="#arrowRight" x="0" y="0" onmousedown="handlePan(1,0)"/>
-  <use id="arrowdown" xlink:href="#arrowDown" x="0" y="0" onmousedown="handlePan(0,1)"/>
-  <use id="arrowleft" xlink:href="#arrowLeft" x="0" y="0" onmousedown="handlePan(-1,0)"/>
+  <use id="zoomplus" xlink:href="#zoomPlus" x="17" y="9" data-zoom="in"/>
+  <use id="zoomminus" xlink:href="#zoomMin" x="42" y="9" data-zoom="out"/>
+  <use id="reset" xlink:href="#resetDef" x="30" y="36" data-reset="true"/>
+  <use id="arrowup" xlink:href="#arrowUp" x="0" y="0" data-pan-x="0" data-pan-y="-1"/>
+  <use id="arrowright" xlink:href="#arrowRight" x="0" y="0" data-pan-x="1" data-pan-y="0"/>
+  <use id="arrowdown" xlink:href="#arrowDown" x="0" y="0" data-pan-x="0" data-pan-y="1"/>
+  <use id="arrowleft" xlink:href="#arrowLeft" x="0" y="0" data-pan-x="-1" data-pan-y="0"/>
 </g>
 <svg viewBox="0 0 15 15" width="100%" height="30px" preserveAspectRatio="xMaxYMin meet">
  <g id="arrow_out" transform="scale(0.3 0.3)">
@@ -234,10 +238,4 @@ var sectionId = 'dynsection-12';
 [data-mouse-over-selected='true']  { opacity: 1.0; }
 ]]>
 </style>
-<script type="application/ecmascript"><![CDATA[
-document.addEventListener('DOMContentLoaded', (event) => {
-  highlightEdges();
-  highlightAdjacentNodes();
-});
-]]></script>
 </svg>

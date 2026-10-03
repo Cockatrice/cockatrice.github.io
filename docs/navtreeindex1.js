@@ -104,10 +104,10 @@ var NAVTREEINDEX1 =
 "d0/d4d/edhrec__top__commanders__api__response__display__widget_8cpp.html":[4,2,0,0,1,5,5,14,0,2,1,4,0],
 "d0/d4d/settingscache_8cpp.html":[4,2,0,13,1,22],
 "d0/d51/exporting_decks.html":[0,0,3],
-"d0/d51/exporting_decks.html#from-an-online-service-1":[0,0,3,1,2],
-"d0/d51/exporting_decks.html#from-clipboard-1":[0,0,3,1,1],
-"d0/d51/exporting_decks.html#local-file-storage-1":[0,0,3,1,0],
-"d0/d51/exporting_decks.html#the-deck-editor-tab-1":[0,0,3,1],
+"d0/d51/exporting_decks.html#from-an-online-service":[0,0,3,1,2],
+"d0/d51/exporting_decks.html#from-clipboard":[0,0,3,1,1],
+"d0/d51/exporting_decks.html#local-file-storage":[0,0,3,1,0],
+"d0/d51/exporting_decks.html#the-deck-editor-tab":[0,0,3,1],
 "d0/d51/exporting_decks.html#where-to-export":[0,0,3,0],
 "d0/d52/structCardNodeFunction_1_1SetProviderIdToPreferred.html":[4,0,0,6,0],
 "d0/d52/structCardNodeFunction_1_1SetProviderIdToPreferred.html":[4,1,0,0,0],
@@ -133,6 +133,7 @@ var NAVTREEINDEX1 =
 "d0/d5a/classIChatSettingsProvider.html#a659921cdf7cab5f6dd888729939c4b84":[4,1,0,519,1],
 "d0/d5a/classIChatSettingsProvider.html#a6e4d45ad8d8b4cb4954f0c2977796182":[4,1,0,519,6],
 "d0/d5a/classIChatSettingsProvider.html#a913384bf8978af75c5e06b4021a679cf":[4,1,0,519,0],
+"d0/d5a/classIChatSettingsProvider.html#a9f024950b69494c7abc9e8dccfd4fead":[4,1,0,519,15],
 "d0/d5a/classIChatSettingsProvider.html#ab0b06acafe981d5f83afddfeec15e87c":[4,1,0,519,7],
 "d0/d5a/classIChatSettingsProvider.html#ab68a3cd9f0d61a92be3adf41033db8c5":[4,1,0,519,12],
 "d0/d5a/classIChatSettingsProvider.html#ac1499351b1820d1d352f24d72ccbad4a":[4,1,0,519,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "d0/d89/visual__deck__editor__widget_8cpp.html":[4,2,0,0,1,5,5,17,6],
 "d0/d8b/servatrice_2src_2main_8cpp.html":[4,2,0,13,1,8],
 "d0/d8b/servatrice_2src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97":[4,2,0,13,1,8,0],
-"d0/d8b/servatrice_2src_2main_8cpp.html#a24b7d55fc8a459e95f66f357fb92a2ee":[4,2,0,13,1,8,2],
-"d0/d8b/servatrice_2src_2main_8cpp.html#a421d386c27e244a5416e7cb8b70264f6":[4,2,0,13,1,8,5]
+"d0/d8b/servatrice_2src_2main_8cpp.html#a24b7d55fc8a459e95f66f357fb92a2ee":[4,2,0,13,1,8,2]
 };

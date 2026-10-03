@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"d2/d00/classDlgTipOfTheDay.html#a4d01122c90c167940bf559d5cdb1dc43":[4,1,0,369,19],
 "d2/d00/classDlgTipOfTheDay.html#a577113ab08a75e443679fb2dd636bda0":[4,1,0,369,12],
 "d2/d00/classDlgTipOfTheDay.html#a5baf2bdbdcbf8e614f4debe9be421704":[4,1,0,369,13],
 "d2/d00/classDlgTipOfTheDay.html#a60163f3846909567fe36cf99249c5e08":[4,1,0,369,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "d2/d23/classPlayerActions.html#ac5e4d5e217a61f9acfc1d17acab17300":[4,1,0,645,116],
 "d2/d23/classPlayerActions.html#ac93e3c23e23694e8fe3d31d2a8e992cf":[4,1,0,645,53],
 "d2/d23/classPlayerActions.html#ac9d846d4de143a086e68885668e109fc":[4,1,0,645,104],
-"d2/d23/classPlayerActions.html#acc18b0e782366e7e179ae69ae38d756e":[4,1,0,645,138],
-"d2/d23/classPlayerActions.html#acd2da6cb64cc0f52834a644089cf6cc7":[4,1,0,645,77]
+"d2/d23/classPlayerActions.html#acc18b0e782366e7e179ae69ae38d756e":[4,1,0,645,138]
 };

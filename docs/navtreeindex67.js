@@ -1,5 +1,14 @@
 var NAVTREEINDEX67 =
 {
+"dc/d6c/classBannerShaderConfig.html#ab97887ca05f1bdb951e984159073efdd":[4,1,0,58,73],
+"dc/d6c/classBannerShaderConfig.html#ab9b1409a8ff9b5e67257c4adc4ea0e42":[4,1,0,58,6],
+"dc/d6c/classBannerShaderConfig.html#abbc3b6a2039e92d41f83a5cc1ac37cfb":[4,1,0,58,75],
+"dc/d6c/classBannerShaderConfig.html#acbc9fce7cf3d2e7a9995c8d3fe002b41":[4,1,0,58,37],
+"dc/d6c/classBannerShaderConfig.html#acd07fb367725713e6cf16c03aeeffde9":[4,1,0,58,32],
+"dc/d6c/classBannerShaderConfig.html#ace90031f6dd6e817630e084a0e14215a":[4,1,0,58,85],
+"dc/d6c/classBannerShaderConfig.html#acee98ff0c3bc06200593072dbe8eedd4":[4,1,0,58,5],
+"dc/d6c/classBannerShaderConfig.html#ad17d09d44f7f40eb754f18bbe985df7a":[4,1,0,58,14],
+"dc/d6c/classBannerShaderConfig.html#ad1e65efe24ee4483b794084ba11ae32b":[4,1,0,58,34],
 "dc/d6c/classBannerShaderConfig.html#ad529fa62c3c2eb72e5916c76f328be75":[4,1,0,58,56],
 "dc/d6c/classBannerShaderConfig.html#ad68ac9ec8a842eda86ae780c93e98c87":[4,1,0,58,42],
 "dc/d6c/classBannerShaderConfig.html#ad7dfd1fc1001ec25947eaadd64ab876c":[4,1,0,58,43],
@@ -240,14 +249,5 @@ var NAVTREEINDEX67 =
 "dc/d89/card__ref_8h_source.html":[4,2,0,11,0,0,0],
 "dc/d89/classUserListItemDelegate.html":[4,1,0,936],
 "dc/d89/classUserListItemDelegate.html#a15fa5f78187001ba570fae54442283a0":[4,1,0,936,7],
-"dc/d89/classUserListItemDelegate.html#a1e2c01a093bcdd70809fa4be1811e217":[4,1,0,936,5],
-"dc/d89/classUserListItemDelegate.html#a21e7503cec2b6d836e22ac12e73729a9":[4,1,0,936,2],
-"dc/d89/classUserListItemDelegate.html#a24d0029854e5cdcac829e875cbde3679":[4,1,0,936,4],
-"dc/d89/classUserListItemDelegate.html#a4f10000888a5d12d3851d6ae992cb6a2":[4,1,0,936,8],
-"dc/d89/classUserListItemDelegate.html#a68d784685fc256eee73dff7b6d816096":[4,1,0,936,1],
-"dc/d89/classUserListItemDelegate.html#ad18b5a0c12fbb997e80c6eed8d530eb9":[4,1,0,936,3],
-"dc/d89/classUserListItemDelegate.html#ae6a2aee67356a9c7db3af1a5b18d535d":[4,1,0,936,0],
-"dc/d89/classUserListItemDelegate.html#afb4bb4d2d9a8767abe2049d53e86e409":[4,1,0,936,6],
-"dc/d8a/displaying_cards.html":[0,1,5],
-"dc/d8a/displaying_cards.html#detailed-display":[0,1,5,0,1]
+"dc/d89/classUserListItemDelegate.html#a1e2c01a093bcdd70809fa4be1811e217":[4,1,0,936,5]
 };

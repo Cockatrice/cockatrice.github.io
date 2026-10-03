@@ -1,5 +1,14 @@
 var NAVTREEINDEX51 =
 {
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#ae54b9c6d95b36c6fb041092bbf68c8c5":[3,3,1,1,13,14],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#af10392afb62b1d5edc4b79a1fdc45774":[3,1,0,4,13,1],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#af10392afb62b1d5edc4b79a1fdc45774":[3,3,1,1,13,1],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#af4f2e96fc9a2776f042a3cb0aa6efe83":[3,1,0,4,13,3],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#af4f2e96fc9a2776f042a3cb0aa6efe83":[3,3,1,1,13,3],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17":[3,1,0,4,13,0],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17":[3,3,1,1,13,0],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17a1f825a2bcea091fee36af0e041e9d846":[3,1,0,4,13,0,0],
+"d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17a1f825a2bcea091fee36af0e041e9d846":[3,3,1,1,13,0,0],
 "d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17a2daee2a16189a002bbff3a9d19b6cf96":[3,1,0,4,13,0,2],
 "d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17a2daee2a16189a002bbff3a9d19b6cf96":[3,3,1,1,13,0,2],
 "d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17a4932b38f307abca50b17dd8ed56cff5e":[3,1,0,4,13,0,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX51 =
 "d9/df7/classDeckEditorDeckDockWidget.html#a8c67dc71f0e36dd824f585098723ad83":[4,1,0,294,54],
 "d9/df7/classDeckEditorDeckDockWidget.html#a90138f6cb4a7c21f764ed1437ffac18d":[4,1,0,294,25],
 "d9/df7/classDeckEditorDeckDockWidget.html#a96a86b882e32a522d35c47f16178fed9":[4,1,0,294,28],
-"d9/df7/classDeckEditorDeckDockWidget.html#a9c3a37a3708515205c6ea483a10516a6":[4,1,0,294,57],
-"d9/df7/classDeckEditorDeckDockWidget.html#aa5ed01907915c61f98156dcad7086cf8":[4,1,0,294,31],
-"d9/df7/classDeckEditorDeckDockWidget.html#aa646cffeb7cff704ae7193eb9fe387f7":[4,1,0,294,41],
-"d9/df7/classDeckEditorDeckDockWidget.html#aa718e47621f615838a85000770ab454e":[4,1,0,294,35],
-"d9/df7/classDeckEditorDeckDockWidget.html#aa7aec9a73d90690573a9273b44c9e2bd":[4,1,0,294,50],
-"d9/df7/classDeckEditorDeckDockWidget.html#aab6a4a76079a05f7ef06d7e312147062":[4,1,0,294,32],
-"d9/df7/classDeckEditorDeckDockWidget.html#ab1d63ef660280aba6c1ac3c1f3e3f013":[4,1,0,294,64],
-"d9/df7/classDeckEditorDeckDockWidget.html#ab339f7d082939816223322bb1fdf5844":[4,1,0,294,9],
-"d9/df7/classDeckEditorDeckDockWidget.html#abe1b6ab01f1410f83626de68cd777de3":[4,1,0,294,65],
-"d9/df7/classDeckEditorDeckDockWidget.html#abee370bbc984eee468f5bf1cc1777c71":[4,1,0,294,66]
+"d9/df7/classDeckEditorDeckDockWidget.html#a9c3a37a3708515205c6ea483a10516a6":[4,1,0,294,57]
 };

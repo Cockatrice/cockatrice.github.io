@@ -1,5 +1,12 @@
 var NAVTREEINDEX29 =
 {
+"d5/dac/classPlaymatSettingsDialog.html#abf8edcd021be4e569ba0260a4fb1dec2":[4,1,0,664,36],
+"d5/dac/classPlaymatSettingsDialog.html#ac0a3679ecbe3271f6282faf2f8778a35":[4,1,0,664,28],
+"d5/dac/classPlaymatSettingsDialog.html#aca51afeed86e56b8dce271d5156e3d26":[4,1,0,664,16],
+"d5/dac/classPlaymatSettingsDialog.html#ad02f1370a10746928aa91e7dc18009fe":[4,1,0,664,27],
+"d5/dac/classPlaymatSettingsDialog.html#ad2222c8d2194bc24a1e9f2d6908896b1":[4,1,0,664,13],
+"d5/dac/classPlaymatSettingsDialog.html#ad2434562048f74e33840c33411d6cea9":[4,1,0,664,32],
+"d5/dac/classPlaymatSettingsDialog.html#adf0894410cad0792c079fba816b2dde9":[4,1,0,664,7],
 "d5/dac/classPlaymatSettingsDialog.html#aed6316dd31309d9a38138e77b5030ef3":[4,1,0,664,22],
 "d5/dac/classPlaymatSettingsDialog.html#af0330b8d3c7439a54f39bfea38fef8fa":[4,1,0,664,26],
 "d5/dac/classPlaymatSettingsDialog.html#af12dfc7be967f6560106a81ad224ee7d":[4,1,0,664,37],
@@ -242,12 +249,5 @@ var NAVTREEINDEX29 =
 "d5/dca/structAdminCommand.html#ae76daf563330ca25d27812f9ffec6aecab35d8b12f535cb8a70a447f2b6b1d5b1":[4,1,0,25,0,2],
 "d5/dca/structAdminCommand.html#ae76daf563330ca25d27812f9ffec6aecac3710984aa5d50b3cb27695bf69ff300":[4,1,0,25,0,0],
 "d5/dca/structAdminCommand.html#ae76daf563330ca25d27812f9ffec6aecaefdc8e5c9c7cce1bd9dd147e7e0f591f":[4,1,0,25,0,1],
-"d5/dca/structAdminCommand.html#aedf9a20668be6598cd260e1459ea7e39":[4,1,0,25,1],
-"d5/dcb/phase_8cpp.html":[4,2,0,0,1,3,15],
-"d5/dcb/phase_8cpp.html#a8ba982df78f38ac819f7dc62f022b2ef":[4,2,0,0,1,3,15,0],
-"d5/dcf/card__dimensions_8h.html":[4,2,0,0,1,4,8],
-"d5/dcf/card__dimensions_8h_source.html":[4,2,0,0,1,4,8],
-"d5/dcf/structCommand__RevealCards.html":[4,1,0,236],
-"d5/dcf/structCommand__RevealCards.html#a1d9d6840f90bc1d9f2285a5b3642b5ab":[4,1,0,236,3],
-"d5/dcf/structCommand__RevealCards.html#a4203a9cd72a12291ddcb924b0a96fe46":[4,1,0,236,4]
+"d5/dca/structAdminCommand.html#aedf9a20668be6598cd260e1459ea7e39":[4,1,0,25,1]
 };

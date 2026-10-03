@@ -71,7 +71,7 @@ var classTabGame =
     [ "registerDockWidget", "de/d08/classTabGame.html#a3883a97742f889b2d8dfc0d326daa46a", null ],
     [ "removePlayerFromAutoCompleteList", "de/d08/classTabGame.html#a40a62b019295d7e9a6ce1919c3eeda08", null ],
     [ "removeSpectator", "de/d08/classTabGame.html#aa739208e743034b7c2a46069f1ecce94", null ],
-    [ "resetChatAndPhase", "de/d08/classTabGame.html#afeb91fa93d90ab01928d8b281cf4d983", null ],
+    [ "resetForRewind", "de/d08/classTabGame.html#a3cdb336ed8c57405f3446b1b85afbc8d", null ],
     [ "retranslateUi", "de/d08/classTabGame.html#a5be706a6530029b3666d537567045f34", null ],
     [ "setActivePhase", "de/d08/classTabGame.html#acceda2afba1d486dc948855de82161cb", null ],
     [ "setActivePlayer", "de/d08/classTabGame.html#af9c58852a23a7e949f835c0e34f73a39", null ],

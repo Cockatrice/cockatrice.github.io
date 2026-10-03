@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"d2/da9/structFormatRules.html#a0b53d5e298935f9b744ec3ad87e1f9b2":[4,1,0,477,2],
 "d2/da9/structFormatRules.html#a13ec5af40ee90378d4e433c8d19cab33":[4,1,0,477,0],
 "d2/da9/structFormatRules.html#a72886cc72b06d8e1dbe6cc3b99ef9668":[4,1,0,477,3],
 "d2/da9/structFormatRules.html#ab0679d779f97c7da4465868337ac75fe":[4,1,0,477,5],
@@ -78,6 +79,7 @@ var NAVTREEINDEX14 =
 "d2/dae/classMessagesSettingsPage.html#a88ea28ab185d34826cb5c39e7abc5859":[4,1,0,598,15],
 "d2/dae/classMessagesSettingsPage.html#a94d6b82f26d0327221fa9f17efee3c25":[4,1,0,598,25],
 "d2/dae/classMessagesSettingsPage.html#a9b0002fd34ca939977b4f3a4c4f1516f":[4,1,0,598,10],
+"d2/dae/classMessagesSettingsPage.html#aaef5efbebf82bfc18cfab1d51b3a750b":[4,1,0,598,37],
 "d2/dae/classMessagesSettingsPage.html#ab1839656958e871a6030e2067c888624":[4,1,0,598,24],
 "d2/dae/classMessagesSettingsPage.html#abd238e001369c3915c8f766bd3bb9564":[4,1,0,598,9],
 "d2/dae/classMessagesSettingsPage.html#abfc7b75650e7de8abf11ee46fed9c1a7":[4,1,0,598,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "d2/dde/classUpdatesSettings.html#ae3541fe87394328bd68fd0abe45b98f1":[4,1,0,924,16],
 "d2/dde/classUpdatesSettings.html#afa71d2b5b2bd0d52106f2ffe0b2d0e0a":[4,1,0,924,4],
 "d2/dde/structEvent__SetCardCounter.html":[4,1,0,450],
-"d2/dde/structEvent__SetCardCounter.html#a1dfe8fb0cc889c25b6c2b04ef7ed4602":[4,1,0,450,3],
-"d2/dde/structEvent__SetCardCounter.html#a61a4b5f2a6e3c8a089c9542fb89010ec":[4,1,0,450,2],
-"d2/dde/structEvent__SetCardCounter.html#aa94578ce96779d11ec18655f53c6e80c":[4,1,0,450,1]
+"d2/dde/structEvent__SetCardCounter.html#a1dfe8fb0cc889c25b6c2b04ef7ed4602":[4,1,0,450,3]
 };

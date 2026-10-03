@@ -1,5 +1,12 @@
 var NAVTREEINDEX28 =
 {
+"d5/d88/classSettingsCache.html#adfa7f9f975919981b992db1fca9e4957":[4,1,0,838,38],
+"d5/d88/classSettingsCache.html#ae49cf02215fea76cdfb8d33ea525ca8c":[4,1,0,838,45],
+"d5/d88/classSettingsCache.html#ae88aa1f2687592c0f8fe7f9071c29a5e":[4,1,0,838,18],
+"d5/d88/classSettingsCache.html#ae9e6b31a65d4813b5765ef0839bb61bc":[4,1,0,838,24],
+"d5/d88/classSettingsCache.html#aef48e0153614cf622fa359a4d49f1cbf":[4,1,0,838,59],
+"d5/d88/classSettingsCache.html#af42e07a968a0517915af4986aa4a4a84":[4,1,0,838,82],
+"d5/d88/classSettingsCache.html#afaf64ee1ba054d076e47e35577edfdbe":[4,1,0,838,41],
 "d5/d88/classSettingsCache.html#afd0994e63760cd607dcf2eefdbe1b78a":[4,1,0,838,63],
 "d5/d88/classSettingsCache.html#aff74a0ec3754a542fb4ddc3b31f61954":[4,1,0,838,53],
 "d5/d88/classUserConnection__Information.html":[4,1,0,929],
@@ -242,12 +249,5 @@ var NAVTREEINDEX28 =
 "d5/dac/classPlaymatSettingsDialog.html#aa3cf3eb47dcfd5ef1622e0ace20e0489":[4,1,0,664,33],
 "d5/dac/classPlaymatSettingsDialog.html#aa8315ad98f18657137c66c617786dd4e":[4,1,0,664,4],
 "d5/dac/classPlaymatSettingsDialog.html#aab1dfe9f9e8b96b1de6055f4b2119677":[4,1,0,664,1],
-"d5/dac/classPlaymatSettingsDialog.html#aae43ded71d47d957d71445ef0f35bc6d":[4,1,0,664,0],
-"d5/dac/classPlaymatSettingsDialog.html#abf8edcd021be4e569ba0260a4fb1dec2":[4,1,0,664,36],
-"d5/dac/classPlaymatSettingsDialog.html#ac0a3679ecbe3271f6282faf2f8778a35":[4,1,0,664,28],
-"d5/dac/classPlaymatSettingsDialog.html#aca51afeed86e56b8dce271d5156e3d26":[4,1,0,664,16],
-"d5/dac/classPlaymatSettingsDialog.html#ad02f1370a10746928aa91e7dc18009fe":[4,1,0,664,27],
-"d5/dac/classPlaymatSettingsDialog.html#ad2222c8d2194bc24a1e9f2d6908896b1":[4,1,0,664,13],
-"d5/dac/classPlaymatSettingsDialog.html#ad2434562048f74e33840c33411d6cea9":[4,1,0,664,32],
-"d5/dac/classPlaymatSettingsDialog.html#adf0894410cad0792c079fba816b2dde9":[4,1,0,664,7]
+"d5/dac/classPlaymatSettingsDialog.html#aae43ded71d47d957d71445ef0f35bc6d":[4,1,0,664,0]
 };

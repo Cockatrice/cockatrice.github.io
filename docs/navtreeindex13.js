@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"d2/d75/structpeg_1_1AstBase.html#a59b590ef3829536cfe2da660811bebea":[4,0,0,25,1,19],
 "d2/d75/structpeg_1_1AstBase.html#a59b590ef3829536cfe2da660811bebea":[4,1,0,5,0,19],
 "d2/d75/structpeg_1_1AstBase.html#a6ec41a4eadc6756fb3f12003c1211611":[4,0,0,25,1,14],
 "d2/d75/structpeg_1_1AstBase.html#a6ec41a4eadc6756fb3f12003c1211611":[4,1,0,5,0,14],
@@ -101,18 +102,18 @@ var NAVTREEINDEX13 =
 "d2/d8d/response__replay__get__code_8proto.html":[4,2,0,8,0,0,0,162],
 "d2/d8d/response__replay__get__code_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,162,2],
 "d2/d8e/dlg__share__deck_8h.html":[3,1,0,0,6],
-"d2/d8f/enabling_debug_logs.html":[0,0,6,9],
 "d2/d8f/enabling_debug_logs.html":[0,0,7],
-"d2/d8f/enabling_debug_logs.html#step-1-create-the-file":[0,0,6,9,0],
+"d2/d8f/enabling_debug_logs.html":[0,0,6,9],
 "d2/d8f/enabling_debug_logs.html#step-1-create-the-file":[0,0,7,0],
-"d2/d8f/enabling_debug_logs.html#step-2-tell-cockatrice-where-the-file-is":[0,0,6,9,1],
+"d2/d8f/enabling_debug_logs.html#step-1-create-the-file":[0,0,6,9,0],
 "d2/d8f/enabling_debug_logs.html#step-2-tell-cockatrice-where-the-file-is":[0,0,7,1],
-"d2/d8f/enabling_debug_logs.html#step-3-see-the-logs":[0,0,6,9,2],
+"d2/d8f/enabling_debug_logs.html#step-2-tell-cockatrice-where-the-file-is":[0,0,6,9,1],
 "d2/d8f/enabling_debug_logs.html#step-3-see-the-logs":[0,0,7,2],
-"d2/d8f/enabling_debug_logs.html#when-you-are-done":[0,0,6,9,4],
+"d2/d8f/enabling_debug_logs.html#step-3-see-the-logs":[0,0,6,9,2],
 "d2/d8f/enabling_debug_logs.html#when-you-are-done":[0,0,7,4],
-"d2/d8f/enabling_debug_logs.html#which-categories-are-available":[0,0,6,9,3],
+"d2/d8f/enabling_debug_logs.html#when-you-are-done":[0,0,6,9,4],
 "d2/d8f/enabling_debug_logs.html#which-categories-are-available":[0,0,7,3],
+"d2/d8f/enabling_debug_logs.html#which-categories-are-available":[0,0,6,9,3],
 "d2/d90/tab__report_8cpp.html":[4,2,0,0,1,5,5,14,33],
 "d2/d91/classArrowAttachItem.html":[4,1,0,47],
 "d2/d91/classArrowAttachItem.html#a4bf5dc42c8848639476411c58d641f70":[4,1,0,47,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "d2/da6/color__button_8h.html":[4,2,0,0,1,5,4,1],
 "d2/da6/color__button_8h_source.html":[4,2,0,0,1,5,4,1],
 "d2/da9/structFormatRules.html":[4,1,0,477],
-"d2/da9/structFormatRules.html#a03c289653374645a29a245a50d5580e1":[4,1,0,477,4],
-"d2/da9/structFormatRules.html#a0b53d5e298935f9b744ec3ad87e1f9b2":[4,1,0,477,2]
+"d2/da9/structFormatRules.html#a03c289653374645a29a245a50d5580e1":[4,1,0,477,4]
 };

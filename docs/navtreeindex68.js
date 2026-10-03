@@ -1,5 +1,14 @@
 var NAVTREEINDEX68 =
 {
+"dc/d89/classUserListItemDelegate.html#a21e7503cec2b6d836e22ac12e73729a9":[4,1,0,936,2],
+"dc/d89/classUserListItemDelegate.html#a24d0029854e5cdcac829e875cbde3679":[4,1,0,936,4],
+"dc/d89/classUserListItemDelegate.html#a4f10000888a5d12d3851d6ae992cb6a2":[4,1,0,936,8],
+"dc/d89/classUserListItemDelegate.html#a68d784685fc256eee73dff7b6d816096":[4,1,0,936,1],
+"dc/d89/classUserListItemDelegate.html#ad18b5a0c12fbb997e80c6eed8d530eb9":[4,1,0,936,3],
+"dc/d89/classUserListItemDelegate.html#ae6a2aee67356a9c7db3af1a5b18d535d":[4,1,0,936,0],
+"dc/d89/classUserListItemDelegate.html#afb4bb4d2d9a8767abe2049d53e86e409":[4,1,0,936,6],
+"dc/d8a/displaying_cards.html":[0,1,5],
+"dc/d8a/displaying_cards.html#detailed-display":[0,1,5,0,1],
 "dc/d8a/displaying_cards.html#groups-of-cards":[0,1,5,0,3],
 "dc/d8a/displaying_cards.html#in-client":[0,1,5,0],
 "dc/d8a/displaying_cards.html#in-game":[0,1,5,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX68 =
 "dc/dba/classDeckListSortFilterProxyModel.html#a3059a683fd8442ed05bdfe4a2b496b42":[4,1,0,310,2],
 "dc/dba/classDeckListSortFilterProxyModel.html#a57b3e90443ffeeaa5cefe6c9770fb256":[4,1,0,310,0],
 "dc/dba/classDeckListSortFilterProxyModel.html#acf45a76fd148d1f361389b1210696eb4":[4,1,0,310,1],
-"dc/dba/classDeckListSortFilterProxyModel.html#af4be5074ae2153ac9ea73451ca760803":[4,1,0,310,3],
-"dc/dbb/classpeg_1_1ParserGenerator.html":[4,0,0,25,59],
-"dc/dbb/classpeg_1_1ParserGenerator.html":[4,1,0,5,58],
-"dc/dbb/classpeg_1_1ParserGenerator.html#a28cc2c9f6200d6bf55270d2808e9833a":[4,0,0,25,59,11],
-"dc/dbb/classpeg_1_1ParserGenerator.html#a28cc2c9f6200d6bf55270d2808e9833a":[4,1,0,5,58,11],
-"dc/dbb/classpeg_1_1ParserGenerator.html#a4e1b5dc42ccf7c70b038a45cb052d0f7":[4,0,0,25,59,5],
-"dc/dbb/classpeg_1_1ParserGenerator.html#a4e1b5dc42ccf7c70b038a45cb052d0f7":[4,1,0,5,58,5],
-"dc/dbb/classpeg_1_1ParserGenerator.html#a543f2d8a9a40794cb4b82321774792a0":[4,0,0,25,59,8],
-"dc/dbb/classpeg_1_1ParserGenerator.html#a543f2d8a9a40794cb4b82321774792a0":[4,1,0,5,58,8],
-"dc/dbb/classpeg_1_1ParserGenerator.html#a6c5211aeaee23309ccca0f1fcd68c004":[4,0,0,25,59,13]
+"dc/dba/classDeckListSortFilterProxyModel.html#af4be5074ae2153ac9ea73451ca760803":[4,1,0,310,3]
 };

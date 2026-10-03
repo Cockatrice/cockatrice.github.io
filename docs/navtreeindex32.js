@@ -1,5 +1,12 @@
 var NAVTREEINDEX32 =
 {
+"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a89701a5ea0e4af5e2cfb4f5a4f7406f2":[4,1,0,45,1],
+"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a9190e09789acdf88f999eae98425c1d1":[4,1,0,45,7],
+"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a924d733a5b41e07ee77f54f62c34c3c4":[4,1,0,45,2],
+"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#aab6848947a5c0732a745d950b22596e3":[4,1,0,45,8],
+"d6/d34/structServerInfo__PlayerProperties_1_1PlaymatParams.html":[4,1,0,810,0],
+"d6/d34/structServerInfo__PlayerProperties_1_1PlaymatParams.html#a082871f2943c44ff62052fcdcb32d432":[4,1,0,810,0,4],
+"d6/d34/structServerInfo__PlayerProperties_1_1PlaymatParams.html#a16ac6c5a19bd394a7491f072a2cd35c1":[4,1,0,810,0,0],
 "d6/d34/structServerInfo__PlayerProperties_1_1PlaymatParams.html#a57dfaafbc7e100b42bf1313b45be9873":[4,1,0,810,0,3],
 "d6/d34/structServerInfo__PlayerProperties_1_1PlaymatParams.html#acd33abb26a5975965d14d7a2c2e930cc":[4,1,0,810,0,2],
 "d6/d34/structServerInfo__PlayerProperties_1_1PlaymatParams.html#ae7857d01c0b5901f685a037f1ded88e2":[4,1,0,810,0,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX32 =
 "d6/d68/classDlgLocalGameOptions.html#a1c930098ff690acdad2d13ddf99b346e":[4,1,0,357,0],
 "d6/d68/classDlgLocalGameOptions.html#a8f22ea8474f93a53ae5291e32f6fe6dd":[4,1,0,357,8],
 "d6/d68/classDlgLocalGameOptions.html#a9a3dba9e7ef6583d5af69158e6547291":[4,1,0,357,7],
-"d6/d68/classDlgLocalGameOptions.html#aac30f5c95be64ff563fc974dea5b0b79":[4,1,0,357,4],
-"d6/d68/classDlgLocalGameOptions.html#aaee894779bef31d2aede490d2752098d":[4,1,0,357,6],
-"d6/d68/classDlgLocalGameOptions.html#ab6cc7a39cd98dd578ab0ff0d6b4982f2":[4,1,0,357,5],
-"d6/d68/classDlgLocalGameOptions.html#ab894ac2fe1e73421a124e162988f918c":[4,1,0,357,9],
-"d6/d68/classDlgLocalGameOptions.html#ad2e9198984c7b97597b5ead8df023cad":[4,1,0,357,3],
-"d6/d68/classDlgLocalGameOptions.html#adaf5c03097f450838c919c71aa984f3b":[4,1,0,357,2],
-"d6/d68/classDlgLocalGameOptions.html#ae0a84e386cf661ea2612d774d2dcfc2b":[4,1,0,357,1],
-"d6/d68/classDlgLocalGameOptions.html#af4579a2908f248d47a26454f5673d352":[4,1,0,357,10]
+"d6/d68/classDlgLocalGameOptions.html#aac30f5c95be64ff563fc974dea5b0b79":[4,1,0,357,4]
 };

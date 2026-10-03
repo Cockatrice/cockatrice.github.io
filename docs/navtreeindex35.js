@@ -1,5 +1,12 @@
 var NAVTREEINDEX35 =
 {
+"d6/db3/classPhasePixmapGenerator.html#a68d71e0450083453a606f8023ee7cb2d":[4,1,0,639,2],
+"d6/db3/classPhasePixmapGenerator.html#af60b4af1186447f4c6557d2f8de05722":[4,1,0,639,0],
+"d6/db7/visual__database__display__main__type__filter__widget_8h.html":[3,1,0,3,1,2],
+"d6/db7/visual__database__display__main__type__filter__widget_8h.html":[3,2,4,2,1,2],
+"d6/dba/structCommanderBracketEstimate.html":[4,1,0,258],
+"d6/dba/structCommanderBracketEstimate.html#a0825daf2a5e0411d3fe11eb240849b92":[4,1,0,258,3],
+"d6/dba/structCommanderBracketEstimate.html#a14d703e42bdd50a6c8fc6802b1563baa":[4,1,0,258,0],
 "d6/dba/structCommanderBracketEstimate.html#a18126c81fd9e726fe173f8e66a03a236":[4,1,0,258,1],
 "d6/dba/structCommanderBracketEstimate.html#a56f4007f784fe4505191ebafe1cf265d":[4,1,0,258,4],
 "d6/dba/structCommanderBracketEstimate.html#af22f8510dcc5e3661dcb6074458375ab":[4,1,0,258,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX35 =
 "d6/deb/classQxtSmtpPrivate.html#acdf3312139d468db12f6e899529a3c70":[4,1,0,689,28],
 "d6/deb/classQxtSmtpPrivate.html#ad563fdef397f3afc2677325b78c6b86f":[4,1,0,689,7],
 "d6/deb/classQxtSmtpPrivate.html#aee4dfcb292371e56fa55810e986ba6c7":[4,1,0,689,22],
-"d6/deb/classQxtSmtpPrivate.html#af132a9647690d51eb59b8afddb10a2c7":[4,1,0,689,18],
-"d6/deb/classQxtSmtpPrivate.html#af17220495be77a43fd34228ab7bef36e":[4,1,0,689,26],
-"d6/deb/classQxtSmtpPrivate.html#af530922e9e36bc24407cd1d37399e5d1":[4,1,0,689,8],
-"d6/deb/welcome__page_8cpp.html":[4,2,0,0,1,5,5,7,0,10],
-"d6/ded/classDeckListHistoryManagerWidget.html":[4,1,0,304],
-"d6/ded/classDeckListHistoryManagerWidget.html#a05a5004b1c7ff3869cdcb3872d6b085f":[4,1,0,304,10],
-"d6/ded/classDeckListHistoryManagerWidget.html#a08fb95fe55050a714b96c7b328f68bc7":[4,1,0,304,7],
-"d6/ded/classDeckListHistoryManagerWidget.html#a0aaf77f7ce12c4a5dbf8d4398ebc7857":[4,1,0,304,8]
+"d6/deb/classQxtSmtpPrivate.html#af132a9647690d51eb59b8afddb10a2c7":[4,1,0,689,18]
 };

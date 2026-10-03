@@ -1,5 +1,14 @@
 var NAVTREEINDEX46 =
 {
+"d8/dc5/classAppearanceSettingsPage.html#ade9cead8f02fb0275b3992ddea20e2ac":[4,1,0,33,21],
+"d8/dc5/classAppearanceSettingsPage.html#ae027eeb72a57dc385a88f264a67957ef":[4,1,0,33,27],
+"d8/dc5/classAppearanceSettingsPage.html#ae2f58a8d87cfde32ebc3cb7ce1a51302":[4,1,0,33,53],
+"d8/dc5/classAppearanceSettingsPage.html#ae8764613021b372b72fcb31e059555fd":[4,1,0,33,32],
+"d8/dc5/classAppearanceSettingsPage.html#afd9c10e3e1b2b98845d3cf8eae56cad2":[4,1,0,33,54],
+"d8/dc6/structEvent__UserJoined_1_1SessionEvent.html":[4,1,0,453,0],
+"d8/dc6/structEvent__UserJoined_1_1SessionEvent.html#abc0c88e793abe1fe5c1c126702a8b5c1":[4,1,0,453,0,0],
+"d8/dc8/structPaletteColorInfo.html":[4,1,0,624],
+"d8/dc8/structPaletteColorInfo.html#a07da66daaa61aabc7787f7b0d42ea4fd":[4,1,0,624,0],
 "d8/dc8/structPaletteColorInfo.html#a3c3337d1c048fbf4a6ae27ea63eab54b":[4,1,0,624,1],
 "d8/dc8/structPaletteColorInfo.html#a51d9ff19544f10a4ec21159cc7b81278":[4,1,0,624,2],
 "d8/dc9/intent__join__server__game_8h.html":[4,2,0,0,1,5,2,8],
@@ -240,14 +249,5 @@ var NAVTREEINDEX46 =
 "d8/df9/classUserLevelPixmapGenerator.html#a8562ceac04bec086df5c69faaf6d5569":[4,1,0,935,2],
 "d8/df9/classUserLevelPixmapGenerator.html#a97fc891e413ae6e417b6cd2cdf580f02":[4,1,0,935,1],
 "d8/df9/classUserLevelPixmapGenerator.html#a99eb054cb549e4c6c875814c50893257":[4,1,0,935,0],
-"d8/df9/classUserLevelPixmapGenerator.html#af24754f8fe1e7f383a43ac64c424b65e":[4,1,0,935,5],
-"d8/dfb/serverinfo__playerping_8proto.html":[4,2,0,8,0,0,0,191],
-"d8/dfb/serverinfo__playerping_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,191,1],
-"d8/dfc/structpeg_1_1GrammarBlob_1_1Reader.html":[4,0,0,25,58,1],
-"d8/dfc/structpeg_1_1GrammarBlob_1_1Reader.html":[4,1,0,5,57,1],
-"d8/dfc/structpeg_1_1GrammarBlob_1_1Reader.html#a57b86e408a2cb61bebc7679d0cf5481f":[4,0,0,25,58,1,1],
-"d8/dfc/structpeg_1_1GrammarBlob_1_1Reader.html#a57b86e408a2cb61bebc7679d0cf5481f":[4,1,0,5,57,1,1],
-"d8/dfc/structpeg_1_1GrammarBlob_1_1Reader.html#a63165ac0d8d5842b39fca5087eed29de":[4,0,0,25,58,1,5],
-"d8/dfc/structpeg_1_1GrammarBlob_1_1Reader.html#a63165ac0d8d5842b39fca5087eed29de":[4,1,0,5,57,1,5],
-"d8/dfc/structpeg_1_1GrammarBlob_1_1Reader.html#a74838d2bf23a0aa797c0ffa4ad609dc4":[4,0,0,25,58,1,4]
+"d8/df9/classUserLevelPixmapGenerator.html#af24754f8fe1e7f383a43ac64c424b65e":[4,1,0,935,5]
 };

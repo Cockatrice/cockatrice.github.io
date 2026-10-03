@@ -1,5 +1,14 @@
 var NAVTREEINDEX48 =
 {
+"d9/d2f/classDlgLoadDeckFromWebsite.html#ab81f4e5b4cec67483842adf72e92ccfb":[4,1,0,355,1],
+"d9/d2f/classDlgLoadDeckFromWebsite.html#ad40cef208833551c4c799a85ab05f5d9":[4,1,0,355,6],
+"d9/d2f/classDlgLoadDeckFromWebsite.html#afb0870ad27de6b54a4bbe3cd8fa52c29":[4,1,0,355,10],
+"d9/d35/classCardPictureLoaderWorkerWork.html":[3,1,1,5],
+"d9/d35/classCardPictureLoaderWorkerWork.html":[3,2,0,5],
+"d9/d35/classCardPictureLoaderWorkerWork.html#a0345c852142011960d13bf32129142a8":[3,1,1,5,1],
+"d9/d35/classCardPictureLoaderWorkerWork.html#a0345c852142011960d13bf32129142a8":[3,2,0,5,1],
+"d9/d35/classCardPictureLoaderWorkerWork.html#a040bb0d432740e960875c1966c0e6e1e":[3,1,1,5,19],
+"d9/d35/classCardPictureLoaderWorkerWork.html#a040bb0d432740e960875c1966c0e6e1e":[3,2,0,5,19],
 "d9/d35/classCardPictureLoaderWorkerWork.html#a1736bd14f7db59bda4a8dd77477f4d83":[3,1,1,5,9],
 "d9/d35/classCardPictureLoaderWorkerWork.html#a1736bd14f7db59bda4a8dd77477f4d83":[3,2,0,5,9],
 "d9/d35/classCardPictureLoaderWorkerWork.html#a242d919dedadb96a767d5554931ef9b6":[3,1,1,5,6],
@@ -240,14 +249,5 @@ var NAVTREEINDEX48 =
 "d9/d65/classLibraryMenu.html#aff39e99d70dad6d87130c4ec66554bed":[4,1,0,556,45],
 "d9/d65/classLibraryMenu.html#affa4368ca4b83c46d244998f189a44c9":[4,1,0,556,30],
 "d9/d65/inner__deck__list__node_8h.html":[4,2,0,3,0,0,0,7],
-"d9/d65/inner__deck__list__node_8h.html#a46222da992900a0aff2407fad74a4e38":[4,2,0,3,0,0,0,7,1],
-"d9/d65/inner__deck__list__node_8h.html#a527ae94baa69c081ac04dd65006d46df":[4,2,0,3,0,0,0,7,2],
-"d9/d65/inner__deck__list__node_8h.html#a8a6341b1d25a2e14a72683ca02f4c12e":[4,2,0,3,0,0,0,7,3],
-"d9/d65/inner__deck__list__node_8h.html#ab3f936858ef3de51d6a64252814c9361":[4,2,0,3,0,0,0,7,4],
-"d9/d65/inner__deck__list__node_8h_source.html":[4,2,0,3,0,0,0,7],
-"d9/d68/classGame.html":[4,1,0,478],
-"d9/d68/classGame.html#a0e1cea8628860de4685a25bc8a37c5b8":[4,1,0,478,0],
-"d9/d69/tab__room_8h.html":[3,1,0,1,1,2,0],
-"d9/d69/tab__room_8h.html":[3,1,0,9,1,2,0],
-"d9/d69/tab__room_8h.html":[3,1,0,10,0,0]
+"d9/d65/inner__deck__list__node_8h.html#a46222da992900a0aff2407fad74a4e38":[4,2,0,3,0,0,0,7,1]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX64 =
 {
+"db/df8/classDecklistNodeTree.html#ae5e12ba091e0d4556aa121cf004f62aa":[4,1,0,309,2],
+"db/df8/classDecklistNodeTree.html#ae61944d216fd249e8d23ca192bb1f524":[4,1,0,309,21],
+"db/df8/classDecklistNodeTree.html#ae72f60d4985e290f763f73c14eee8ed0":[4,1,0,309,15],
+"db/df8/classDecklistNodeTree.html#ae732ac173c44bac07e00ff6f6ab705e5":[4,1,0,309,8],
+"db/df8/classDecklistNodeTree.html#ae89bd4a8d1778422b90f5c481756c8b9":[4,1,0,309,9],
+"db/df8/classDecklistNodeTree.html#af7dfde574f1fa1043bce8c49dc097401":[4,1,0,309,23],
+"db/df8/event__move__card_8proto.html":[4,2,0,8,0,0,0,104],
+"db/df8/event__move__card_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,104,2],
+"db/df9/classPlayerCounter.html":[4,1,0,647],
 "db/df9/classPlayerCounter.html#a10394261e9601e924d0bcbb4e6b0d86f":[4,1,0,647,5],
 "db/df9/classPlayerCounter.html#a109b8cab9e1491a0292b58090ef7dc28":[4,1,0,647,0],
 "db/df9/classPlayerCounter.html#a1279922bc170d20f3db21141db1e448d":[4,1,0,647,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX64 =
 "dc/d32/classTabsSettings.html#a5acf725d76fb61feb59ab1747f268d60":[4,1,0,902,23],
 "dc/d32/classTabsSettings.html#a5fab6f9a433d5941497e7eba744d196c":[4,1,0,902,14],
 "dc/d32/classTabsSettings.html#a6032d5a398381c27bf2d830fba7e4ea9":[4,1,0,902,25],
-"dc/d32/classTabsSettings.html#a688bb6f356d5074cd0a546f5bb7143b8":[4,1,0,902,12],
-"dc/d32/classTabsSettings.html#a7659206b775daa1b055f5b8fe21934fc":[4,1,0,902,7],
-"dc/d32/classTabsSettings.html#a7f562c0508b830fa3a349c1e3c91a6c7":[4,1,0,902,5],
-"dc/d32/classTabsSettings.html#a800198f2a165aedec13eece1c91b0290":[4,1,0,902,20],
-"dc/d32/classTabsSettings.html#a837f85a2631d4baa76c0407ef7238e7d":[4,1,0,902,32],
-"dc/d32/classTabsSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,902,34],
-"dc/d32/classTabsSettings.html#a863e6f2a06293931297542d5dcfe92e4":[4,1,0,902,21],
-"dc/d32/classTabsSettings.html#a87997c16ed4777979c26437a8eefa7b9":[4,1,0,902,8],
-"dc/d32/classTabsSettings.html#aaf3ad525da1c96035fe038ac0b4377bc":[4,1,0,902,4],
-"dc/d32/classTabsSettings.html#ab2b7d0ebb2c724d2cee2c49434ac2a4e":[4,1,0,902,18]
+"dc/d32/classTabsSettings.html#a688bb6f356d5074cd0a546f5bb7143b8":[4,1,0,902,12]
 };

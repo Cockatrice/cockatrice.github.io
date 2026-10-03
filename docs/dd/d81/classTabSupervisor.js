@@ -48,6 +48,8 @@ var classTabSupervisor =
     [ "getUserInfo", "dd/d81/classTabSupervisor.html#a1ba87454a8981d70948babf046d277ad", null ],
     [ "getUserListManager", "dd/d81/classTabSupervisor.html#a275669df3300698ddf187910669b8aee", null ],
     [ "initStartupTabs", "dd/d81/classTabSupervisor.html#aee1c4492654fe6a12894135b5968b150", null ],
+    [ "joinGameByIntent", "dd/d81/classTabSupervisor.html#a903923d0c46f36166404db26f61a7532", null ],
+    [ "joinGameFromUserCard", "dd/d81/classTabSupervisor.html#a831a5ad92b118cdb14be07878bc5c91e", null ],
     [ "joinReportGame", "dd/d81/classTabSupervisor.html#a359afca3c5f9ecff8c612b34f227534a", null ],
     [ "localGameEnded", "dd/d81/classTabSupervisor.html#ac0b0adf14b567736f673f25113b9d803", null ],
     [ "localGameJoined", "dd/d81/classTabSupervisor.html#ad7ae9e932602258473ab1afd8e4b88a6", null ],
