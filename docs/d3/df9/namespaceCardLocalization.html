@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-02-Development-3.1.0-beta.16</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -136,6 +136,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:aae3a715728303329e7d69f30e1e66cdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Card name in the configured display language, falling back to English.  <br /></td></tr>
 <tr class="memitem:a75fc4ee327408c76e8b2e88d0f287087" id="r_a75fc4ee327408c76e8b2e88d0f287087"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a75fc4ee327408c76e8b2e88d0f287087">displayText</a> (const <a class="el" href="../../dd/dd2/classCardInfo.html">CardInfo</a> &amp;card)</td></tr>
 <tr class="memdesc:a75fc4ee327408c76e8b2e88d0f287087"><td class="mdescLeft">&#160;</td><td class="mdescRight">Card rules text in the configured display language, falling back to English.  <br /></td></tr>
+<tr class="memitem:ac3028bacea3aea1cc76dfd3a432f7837" id="r_ac3028bacea3aea1cc76dfd3a432f7837"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ac3028bacea3aea1cc76dfd3a432f7837">displayNameFor</a> (const QString &amp;cardName)</td></tr>
+<tr class="memdesc:ac3028bacea3aea1cc76dfd3a432f7837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks a card up by its canonical name and returns its name in the configured display language.  <br /></td></tr>
 <tr class="memitem:a6eef99e9bb07f2c6d2968bc38293fb94" id="r_a6eef99e9bb07f2c6d2968bc38293fb94"><td class="memItemLeft">const QStringList &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a6eef99e9bb07f2c6d2968bc38293fb94">supportedLanguages</a> ()</td></tr>
 <tr class="memdesc:a6eef99e9bb07f2c6d2968bc38293fb94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Language codes for which localized card data can be imported/displayed.  <br /></td></tr>
 <tr class="memitem:aae840c7d14da5584a62f99be60beb9cd" id="r_aae840c7d14da5584a62f99be60beb9cd"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#aae840c7d14da5584a62f99be60beb9cd">languageDisplayName</a> (const QString &amp;lang)</td></tr>
@@ -260,6 +262,51 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/df9/namespaceCardLocalization_aec63e38fae4d80a04210fe7fc1328748_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac3028bacea3aea1cc76dfd3a432f7837" name="ac3028bacea3aea1cc76dfd3a432f7837"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3028bacea3aea1cc76dfd3a432f7837">&#9670;&#160;</a></span>displayNameFor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString CardLocalization::displayNameFor </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>cardName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Looks a card up by its canonical name and returns its name in the configured display language. </p>
+<p>Use this where only the canonical name is known, such as the game log or [card] chat tags. Callers that already hold a resolved card and need to keep the canonical name around (as a link target, say) should use <a class="el" href="#aec63e38fae4d80a04210fe7fc1328748" title="Card name in the configured display language, falling back to English.">displayName()</a> directly instead.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cardName</td><td>The canonical card name. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The localized name, or cardName unchanged when the card is unknown to the database. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/df9/namespaceCardLocalization_ac3028bacea3aea1cc76dfd3a432f7837_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/df9/namespaceCardLocalization_ac3028bacea3aea1cc76dfd3a432f7837_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

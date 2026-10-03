@@ -1,5 +1,12 @@
 var NAVTREEINDEX29 =
 {
+"d5/dac/classPlaymatSettingsDialog.html#a7c352f2b8025375c57c87f739201d646":[4,1,0,664,31],
+"d5/dac/classPlaymatSettingsDialog.html#a85ac99f08d08a7002969395ff5f54ea9":[4,1,0,664,39],
+"d5/dac/classPlaymatSettingsDialog.html#a8ecced4f4d8febdb9f34ca5c352a5673":[4,1,0,664,29],
+"d5/dac/classPlaymatSettingsDialog.html#aa3cf3eb47dcfd5ef1622e0ace20e0489":[4,1,0,664,33],
+"d5/dac/classPlaymatSettingsDialog.html#aa8315ad98f18657137c66c617786dd4e":[4,1,0,664,4],
+"d5/dac/classPlaymatSettingsDialog.html#aab1dfe9f9e8b96b1de6055f4b2119677":[4,1,0,664,1],
+"d5/dac/classPlaymatSettingsDialog.html#aae43ded71d47d957d71445ef0f35bc6d":[4,1,0,664,0],
 "d5/dac/classPlaymatSettingsDialog.html#abf8edcd021be4e569ba0260a4fb1dec2":[4,1,0,664,36],
 "d5/dac/classPlaymatSettingsDialog.html#ac0a3679ecbe3271f6282faf2f8778a35":[4,1,0,664,28],
 "d5/dac/classPlaymatSettingsDialog.html#aca51afeed86e56b8dce271d5156e3d26":[4,1,0,664,16],
@@ -242,12 +249,5 @@ var NAVTREEINDEX29 =
 "d5/dc9/classIntent.html#ada9770e56135698396193de29b628ff6":[4,1,0,526,2],
 "d5/dc9/classIntent.html#af94ef411fa9156a6bb302b90c3161d75":[4,1,0,526,0],
 "d5/dc9/dlg__edit__tokens_8cpp.html":[4,2,0,0,1,5,5,4,12],
-"d5/dca/structAdminCommand.html":[4,1,0,25],
-"d5/dca/structAdminCommand.html#ae76daf563330ca25d27812f9ffec6aec":[4,1,0,25,0],
-"d5/dca/structAdminCommand.html#ae76daf563330ca25d27812f9ffec6aeca407083bd6e66e03f9bab203e6f7acc7b":[4,1,0,25,0,4],
-"d5/dca/structAdminCommand.html#ae76daf563330ca25d27812f9ffec6aeca6fd910da873dc5493d4f82d1de67db62":[4,1,0,25,0,3],
-"d5/dca/structAdminCommand.html#ae76daf563330ca25d27812f9ffec6aecab35d8b12f535cb8a70a447f2b6b1d5b1":[4,1,0,25,0,2],
-"d5/dca/structAdminCommand.html#ae76daf563330ca25d27812f9ffec6aecac3710984aa5d50b3cb27695bf69ff300":[4,1,0,25,0,0],
-"d5/dca/structAdminCommand.html#ae76daf563330ca25d27812f9ffec6aecaefdc8e5c9c7cce1bd9dd147e7e0f591f":[4,1,0,25,0,1],
-"d5/dca/structAdminCommand.html#aedf9a20668be6598cd260e1459ea7e39":[4,1,0,25,1]
+"d5/dca/structAdminCommand.html":[4,1,0,25]
 };

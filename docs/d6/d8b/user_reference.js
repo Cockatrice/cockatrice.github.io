@@ -3,6 +3,7 @@ var user_reference =
     [ "Creating Decks", "d3/d9a/creating_decks.html", [
       [ "Deck Management", "d6/d8b/user_reference.html#deck-management", null ],
       [ "Release Channels", "d6/d8b/user_reference.html#release-channels", null ],
+      [ "Settings", "d6/d8b/user_reference.html#settings", null ],
       [ "Card Pictures", "d6/d8b/user_reference.html#card-pictures", null ],
       [ "Troubleshooting", "d6/d8b/user_reference.html#troubleshooting", null ],
       [ "Syntax Help", "d6/d8b/user_reference.html#syntax-help", null ],
@@ -30,6 +31,11 @@ var user_reference =
       [ "Switching to the Beta", "d9/d9b/beta_release.html#switching-to-the-beta", null ],
       [ "Switching back to Stable", "d9/d9b/beta_release.html#switching-back-to-stable", null ],
       [ "Giving Feedback", "d9/d9b/beta_release.html#giving-feedback", null ]
+    ] ],
+    [ "Settings Folder and Backups", "d6/d17/settings_folder.html", [
+      [ "The Per-File Migration", "d6/d17/settings_folder.html#the-per-file-migration", null ],
+      [ "Automatic Backups", "d6/d17/settings_folder.html#automatic-backups", null ],
+      [ "Downgrading", "d6/d17/settings_folder.html#downgrading", null ]
     ] ],
     [ "Custom Card Pictures", "dc/d4d/custom_card_pictures.html", [
       [ "Custom Pictures Folder (CUSTOM)", "dc/d4d/custom_card_pictures.html#custom-pictures-folder-custom", null ],

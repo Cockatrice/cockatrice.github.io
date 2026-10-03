@@ -1,5 +1,9 @@
 var NAVTREEINDEX18 =
 {
+"d3/d77/classPtMenu.html#a72d5b50c090bb5a1cceacd72a9daf3ac":[4,1,0,677,3],
+"d3/d77/classPtMenu.html#a7eb66739c9e6064c00ddcd0c5a6140e2":[4,1,0,677,4],
+"d3/d77/classPtMenu.html#a7fe7638e23a8a259ffa6db8ee1728f5e":[4,1,0,677,0],
+"d3/d77/classPtMenu.html#a8ea8bc3fb3109600f6dbd96c9a4e9879":[4,1,0,677,12],
 "d3/d77/classPtMenu.html#acfa8244e424dabaeca2732cf6c02ee60":[4,1,0,677,5],
 "d3/d77/classPtMenu.html#afaa09c52107f199091b73509ea5cad51":[4,1,0,677,1],
 "d3/d79/classPlayerListItemDelegate.html":[4,1,0,652],
@@ -136,7 +140,7 @@ var NAVTREEINDEX18 =
 "d3/d9a/classCommanderBracketWidget.html#adc74b99b86a75bbf6d2553574facb278":[4,1,0,261,6],
 "d3/d9a/classCommanderBracketWidget.html#aff3aee9de91d2c90be1f66777262bd60":[4,1,0,261,5],
 "d3/d9a/creating_decks.html":[0,0,0],
-"d3/d9a/creating_decks.html#further-references":[0,0,0,5],
+"d3/d9a/creating_decks.html#further-references":[0,0,0,6],
 "d3/d9b/classDlgForgotPasswordReset.html":[4,1,0,351],
 "d3/d9b/classDlgForgotPasswordReset.html#a0a75737ecb9c2f2bff53e01dba81b01a":[4,1,0,351,15],
 "d3/d9b/classDlgForgotPasswordReset.html#a0b4d51dd95300d1d3de950b04352dabd":[4,1,0,351,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX18 =
 "d3/da5/structCommand__ForgotPasswordReset.html#a8197a12f572ce581d1f6575da4ae7780":[4,1,0,182,1],
 "d3/da5/structCommand__ForgotPasswordReset.html#ae541754af6e4b37aa5756fcd4e6f5dc4":[4,1,0,182,2],
 "d3/da6/classCardSearchModel.html":[4,1,0,121],
-"d3/da6/classCardSearchModel.html#a287b382a0c8f32178db1af463cc55ea8":[4,1,0,121,8],
-"d3/da6/classCardSearchModel.html#a3d6ab9c3976bd4a3ecacf94f40ea277e":[4,1,0,121,6],
-"d3/da6/classCardSearchModel.html#a4215a4f998edb3030abefc88e3ccadc1":[4,1,0,121,7],
-"d3/da6/classCardSearchModel.html#a48b387b648df5a905c541e754248f8ec":[4,1,0,121,4],
-"d3/da6/classCardSearchModel.html#a5ceec8df6597fd003f3ded2d488f9819":[4,1,0,121,5]
+"d3/da6/classCardSearchModel.html#a287b382a0c8f32178db1af463cc55ea8":[4,1,0,121,8]
 };

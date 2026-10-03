@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-02-Development-3.1.0-beta.16</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -127,8 +127,77 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d3/d46/classSe
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a45ea73e96a3a7fc4c495c6c5fdb5c8a2" id="r_a45ea73e96a3a7fc4c495c6c5fdb5c8a2"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a45ea73e96a3a7fc4c495c6c5fdb5c8a2">migrateSettingsFromGlobalIni</a> (const QString &amp;settingsPath)</td></tr>
 <tr class="memitem:a073bdb6a40bc54e18ff37828c9c6a4b3" id="r_a073bdb6a40bc54e18ff37828c9c6a4b3"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a073bdb6a40bc54e18ff37828c9c6a4b3">migrateLegacySettings</a> (const QString &amp;settingsPath)</td></tr>
+<tr class="memitem:a0770af2a9c46ae436ee97fadab1e6bff" id="r_a0770af2a9c46ae436ee97fadab1e6bff"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a0770af2a9c46ae436ee97fadab1e6bff">isMigrationPending</a> (const QString &amp;settingsPath)</td></tr>
+<tr class="memitem:a5e94c4ab6626e90a630c6b090733e6e7" id="r_a5e94c4ab6626e90a630c6b090733e6e7"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#a5e94c4ab6626e90a630c6b090733e6e7">backupSettingsDirectory</a> (const QString &amp;settingsPath)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a5e94c4ab6626e90a630c6b090733e6e7" name="a5e94c4ab6626e90a630c6b090733e6e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e94c4ab6626e90a630c6b090733e6e7">&#9670;&#160;</a></span>backupSettingsDirectory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString SettingsMigration::backupSettingsDirectory </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>settingsPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Copies the whole settings directory to a timestamped sibling folder, so a migration that overwrites per-domain files can be undone by hand. Returns the backup path, or an empty string when there was nothing to back up or the copy failed. Never aborts the migration. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d46/classSettingsMigration_a5e94c4ab6626e90a630c6b090733e6e7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a0770af2a9c46ae436ee97fadab1e6bff" name="a0770af2a9c46ae436ee97fadab1e6bff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0770af2a9c46ae436ee97fadab1e6bff">&#9670;&#160;</a></span>isMigrationPending()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SettingsMigration::isMigrationPending </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>settingsPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns true when at least one of the two migrations would still do work, i.e. when a backup of the settings directory is worth taking before they run. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d46/classSettingsMigration_a0770af2a9c46ae436ee97fadab1e6bff_cgraph.svg" width="414" height="68"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d46/classSettingsMigration_a0770af2a9c46ae436ee97fadab1e6bff_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a073bdb6a40bc54e18ff37828c9c6a4b3" name="a073bdb6a40bc54e18ff37828c9c6a4b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a073bdb6a40bc54e18ff37828c9c6a4b3">&#9670;&#160;</a></span>migrateLegacySettings()</h2>
 

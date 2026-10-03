@@ -1,5 +1,9 @@
 var NAVTREEINDEX17 =
 {
+"d3/d58/classLayoutsSettings.html#ac40e5ce8956769f8c783f8912d91af18":[4,1,0,554,14],
+"d3/d58/classLayoutsSettings.html#acdc54050233ddb99cb795f55622fdb59":[4,1,0,554,20],
+"d3/d58/classLayoutsSettings.html#af33ff2d89269115dcd98f9eb6d469e94":[4,1,0,554,23],
+"d3/d58/classLayoutsSettings.html#af66fd64d1b04841294bc7da408ce4aac":[4,1,0,554,6],
 "d3/d58/classLayoutsSettings.html#afccedd176fba7aa1db4e456708a88cec":[4,1,0,554,18],
 "d3/d59/deck__editor__card__database__dock__widget_8cpp.html":[4,2,0,0,1,5,5,2,2],
 "d3/d59/structEvent__GameStateChanged.html":[4,1,0,425],
@@ -245,9 +249,5 @@ var NAVTREEINDEX17 =
 "d3/d77/classPtMenu.html#a3c86ef45898fa0cfd55ee88bf7be9a28":[4,1,0,677,11],
 "d3/d77/classPtMenu.html#a53ce069cd6d94d442ace75643a09f516":[4,1,0,677,6],
 "d3/d77/classPtMenu.html#a70b283a3fa035a864e1a369564d93d2a":[4,1,0,677,10],
-"d3/d77/classPtMenu.html#a72bacce7b48a8d29030edad85a298a63":[4,1,0,677,8],
-"d3/d77/classPtMenu.html#a72d5b50c090bb5a1cceacd72a9daf3ac":[4,1,0,677,3],
-"d3/d77/classPtMenu.html#a7eb66739c9e6064c00ddcd0c5a6140e2":[4,1,0,677,4],
-"d3/d77/classPtMenu.html#a7fe7638e23a8a259ffa6db8ee1728f5e":[4,1,0,677,0],
-"d3/d77/classPtMenu.html#a8ea8bc3fb3109600f6dbd96c9a4e9879":[4,1,0,677,12]
+"d3/d77/classPtMenu.html#a72bacce7b48a8d29030edad85a298a63":[4,1,0,677,8]
 };

@@ -26,6 +26,7 @@ var classThemeManager =
     [ "loadExtraBrush", "da/d5a/classThemeManager.html#a7c1de1f5a5a91e22b2ef5e19be0a592f", null ],
     [ "loadGlobalConfig", "da/d5a/classThemeManager.html#a6a9cfe3529b2efd9dcd8f094b6e78efe", null ],
     [ "loadPaletteConfig", "da/d5a/classThemeManager.html#ab230f2c1f0e3406f2f76f64bc57f83b7", null ],
+    [ "migrateLegacyThemeDir", "da/d5a/classThemeManager.html#ad5ba27bfa97845c3ccfde2f6a157869f", null ],
     [ "paletteChanged", "da/d5a/classThemeManager.html#a03a668150392d283b7fb688bfde503f9", null ],
     [ "previewPalette", "da/d5a/classThemeManager.html#ac85cd067b059e9987a2f807e530224c3", null ],
     [ "reloadCurrentTheme", "da/d5a/classThemeManager.html#a9efb2e281a10f959959376fb6e6fcde9", null ],

@@ -9,6 +9,7 @@ var dir_59425e443f801f1f2fd8bbe4959a3ccf =
     [ "oracle", "dir_4809c84f5830e36eebe036e24e28adf5.html", "dir_4809c84f5830e36eebe036e24e28adf5" ],
     [ "picture_loader_benchmark", "dir_d2b8778dc7c76353e3686c20df09619a.html", "dir_d2b8778dc7c76353e3686c20df09619a" ],
     [ "settings", "dir_a2a8d0665692626ee62c86b1ea3ccf2a.html", "dir_a2a8d0665692626ee62c86b1ea3ccf2a" ],
+    [ "theme_migration", "dir_3477e437670806a202f1772244067694.html", "dir_3477e437670806a202f1772244067694" ],
     [ "clamped_arithmetic_test.cpp", "da/d4a/clamped__arithmetic__test_8cpp.html", "da/d4a/clamped__arithmetic__test_8cpp" ],
     [ "deck_hash_performance_test.cpp", "d6/d42/deck__hash__performance__test_8cpp.html", "d6/d42/deck__hash__performance__test_8cpp" ],
     [ "dummy_test.cpp", "d4/d0d/dummy__test_8cpp.html", "d4/d0d/dummy__test_8cpp" ],
@@ -27,5 +28,6 @@ var dir_59425e443f801f1f2fd8bbe4959a3ccf =
     [ "server_rate_limiter_test.cpp", "dc/dfb/server__rate__limiter__test_8cpp.html", "dc/dfb/server__rate__limiter__test_8cpp" ],
     [ "single_instance_manager_test.cpp", "d4/d29/single__instance__manager__test_8cpp.html", "d4/d29/single__instance__manager__test_8cpp" ],
     [ "test_age_formatting.cpp", "dd/dd6/test__age__formatting_8cpp.html", "dd/dd6/test__age__formatting_8cpp" ],
+    [ "translation_loader_test.cpp", "da/de2/translation__loader__test_8cpp.html", "da/de2/translation__loader__test_8cpp" ],
     [ "warning_categories_test.cpp", "d7/d42/warning__categories__test_8cpp.html", "d7/d42/warning__categories__test_8cpp" ]
 ];

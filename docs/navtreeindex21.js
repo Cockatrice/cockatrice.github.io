@@ -1,5 +1,10 @@
 var NAVTREEINDEX21 =
 {
+"d4/d07/classEdhrecApiResponseCardSynergyDisplayWidget.html#a6b3acbd20036e0d0641f2ed0bbf5f8f3":[4,1,0,387,5],
+"d4/d07/classEdhrecApiResponseCardSynergyDisplayWidget.html#a8b59edef9e8c21ac2ca252f5d45439b3":[4,1,0,387,3],
+"d4/d07/classEdhrecApiResponseCardSynergyDisplayWidget.html#a8c5127fe53544976ecdbc0da427b4d73":[4,1,0,387,2],
+"d4/d07/classEdhrecApiResponseCardSynergyDisplayWidget.html#ab20b9b7e3d86f1d1f6206a55111c8c35":[4,1,0,387,4],
+"d4/d07/classEdhrecApiResponseCardSynergyDisplayWidget.html#ac452c38fd1e33ae013cd6439cc45b1f6":[4,1,0,387,0],
 "d4/d07/classEdhrecApiResponseCardSynergyDisplayWidget.html#aeb6fa37b25e0b00e5b1f170469c272bd":[4,1,0,387,1],
 "d4/d08/replay__quick__settings__widget_8cpp.html":[4,2,0,0,1,5,5,11,2],
 "d4/d09/server__rate__limiter_8cpp.html":[4,2,0,11,0,0,20],
@@ -35,8 +40,8 @@ var NAVTREEINDEX21 =
 "d4/d0d/classWarningDialog.html#aaa55db42b02f38a0dd16807721057e8b":[4,1,0,972,7],
 "d4/d0d/classWarningDialog.html#ad65ee5fd7e4426f402c8bb31861f33ba":[4,1,0,972,3],
 "d4/d0d/classWarningDialog.html#af895dabec6402434a15635f4ac5144a0":[4,1,0,972,11],
-"d4/d0d/dummy__test_8cpp.html":[4,2,0,14,11],
-"d4/d0d/dummy__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,11,0],
+"d4/d0d/dummy__test_8cpp.html":[4,2,0,14,12],
+"d4/d0d/dummy__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,12,0],
 "d4/d0d/structLoadedDeck_1_1LoadInfo.html":[4,1,0,560,0],
 "d4/d0d/structLoadedDeck_1_1LoadInfo.html#a09585d36fb5704176deb0e7079a73cb9":[4,1,0,560,0,3],
 "d4/d0d/structLoadedDeck_1_1LoadInfo.html#a2c0056e70b2f4ad08040916c4cf7e2b7":[4,1,0,560,0,0],
@@ -103,9 +108,9 @@ var NAVTREEINDEX21 =
 "d4/d28/structEvent__PlayerPropertiesChanged.html":[4,1,0,435],
 "d4/d28/structEvent__PlayerPropertiesChanged.html#ab802cad06e671bde275668272a49da0a":[4,1,0,435,1],
 "d4/d29/edhrec__api__response__card__synergy__display__widget_8cpp.html":[4,2,0,0,1,5,5,14,0,2,1,1,6],
-"d4/d29/single__instance__manager__test_8cpp.html":[4,2,0,14,25],
-"d4/d29/single__instance__manager__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,25,0],
-"d4/d29/single__instance__manager__test_8cpp.html#abfe8f5132d50f8a0725d25a5e7c7d952":[4,2,0,14,25,1],
+"d4/d29/single__instance__manager__test_8cpp.html":[4,2,0,14,26],
+"d4/d29/single__instance__manager__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,26,0],
+"d4/d29/single__instance__manager__test_8cpp.html#abfe8f5132d50f8a0725d25a5e7c7d952":[4,2,0,14,26,1],
 "d4/d2b/structCommandStats.html":[4,1,0,266],
 "d4/d2b/structCommandStats.html#a01b6f7895abbeaf18e2d1f9f970ecfd7":[4,1,0,266,2],
 "d4/d2b/structCommandStats.html#a722e7ccf55624dae2bff2b191bb28de1":[4,1,0,266,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX21 =
 "d4/d4a/classCardsDisplaySettings.html#a0871eb7f6135b5196edd65a7723c248a":[4,1,0,119,25],
 "d4/d4a/classCardsDisplaySettings.html#a12e80a2b545bef2eac9ea997f2dccba9":[4,1,0,119,31],
 "d4/d4a/classCardsDisplaySettings.html#a142a8209948d214a678d35a6ae5c3ac5":[4,1,0,119,49],
-"d4/d4a/classCardsDisplaySettings.html#a15eae6ba43b88cdf3715ee02179186e9":[4,1,0,119,62],
-"d4/d4a/classCardsDisplaySettings.html#a181a0de0c5a6feeef937c256c1572a1a":[4,1,0,119,45],
-"d4/d4a/classCardsDisplaySettings.html#a23ac07d855bf6ce3921d00e5a8b51f4b":[4,1,0,119,28],
-"d4/d4a/classCardsDisplaySettings.html#a280b88b0ecfc0ad2c18ba44ea450f808":[4,1,0,119,63],
-"d4/d4a/classCardsDisplaySettings.html#a2c91c9f1212a26ee6171f0f04d8727cd":[4,1,0,119,54],
-"d4/d4a/classCardsDisplaySettings.html#a2f08e8eae661704c784c7ae2cfd8d37a":[4,1,0,119,46]
+"d4/d4a/classCardsDisplaySettings.html#a15eae6ba43b88cdf3715ee02179186e9":[4,1,0,119,62]
 };

@@ -1,5 +1,6 @@
 var settings__migration_8cpp =
 [
+    [ "hasPendingGlobalIniSettings", "d8/d3d/settings__migration_8cpp.html#ace8e511ed4f74ce7424f06c9c5d9ddb3", null ],
     [ "migrateAppearanceSettings", "d8/d3d/settings__migration_8cpp.html#a5aaea50f93f8e4b8f7f0fec884c0f525", null ],
     [ "migrateCacheStorageSettings", "d8/d3d/settings__migration_8cpp.html#abb63a4936077a92109761b49cc158114", null ],
     [ "migrateCardCounterSettings", "d8/d3d/settings__migration_8cpp.html#ac4722f6934a992400dba2167cb28b2d3", null ],
@@ -20,5 +21,6 @@ var settings__migration_8cpp =
     [ "migrateTabsSettings", "d8/d3d/settings__migration_8cpp.html#a6dba3a2dc1c171e87eb9d2cef95d6188", null ],
     [ "migrateUpdatesSettings", "d8/d3d/settings__migration_8cpp.html#a845b70a7fcace3ef56ad76f974da02da", null ],
     [ "migrateVisualDeckStorageSettings", "d8/d3d/settings__migration_8cpp.html#afe417c41b3e1b782844d6441fb546cd9", null ],
+    [ "Q_LOGGING_CATEGORY", "d8/d3d/settings__migration_8cpp.html#ad2b5ee0d4645d42ce432baaa8ac04bf1", null ],
     [ "MIGRATION_SENTINEL_KEY", "d8/d3d/settings__migration_8cpp.html#a0c4daa27003dbe085fe9851617ed7ea2", null ]
 ];

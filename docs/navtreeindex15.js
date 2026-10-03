@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"d2/dde/structEvent__SetCardCounter.html#a1dfe8fb0cc889c25b6c2b04ef7ed4602":[4,1,0,450,3],
 "d2/dde/structEvent__SetCardCounter.html#a61a4b5f2a6e3c8a089c9542fb89010ec":[4,1,0,450,2],
 "d2/dde/structEvent__SetCardCounter.html#aa94578ce96779d11ec18655f53c6e80c":[4,1,0,450,1],
 "d2/dde/structEvent__SetCardCounter.html#acebb7866a679e40c910f9ad19d6005c7":[4,1,0,450,4],
@@ -192,6 +193,7 @@ var NAVTREEINDEX15 =
 "d3/d0e/command__set__card__counter_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,60,2],
 "d3/d0f/classServer__NullMatchResultStrategy.html":[4,1,0,788],
 "d3/d0f/classServer__NullMatchResultStrategy.html#ad17c532665338dbc700a1110047fbbd5":[4,1,0,788,0],
+"d3/d0f/translation__loader_8cpp.html":[4,2,0,11,0,0,23],
 "d3/d12/pages_8cpp.html":[4,2,0,12,0,8],
 "d3/d12/pages_8cpp.html#a38aa37166da673dad86409cf7ecba465":[4,2,0,12,0,8,7],
 "d3/d12/pages_8cpp.html#a4008bfd118f4f4b79ff6227a3e9b0cd1":[4,2,0,12,0,8,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "d3/d1f/structChatLogEntry.html#ae520ba51fd6f8bbdf7d2a6af723cfbd3":[4,1,0,131,2],
 "d3/d21/classDlgLoadDeck.html":[4,1,0,353],
 "d3/d21/classDlgLoadDeck.html#a58e4a81ae83eec9fcfb98cee3366fa92":[4,1,0,353,0],
-"d3/d21/classDlgLoadDeck.html#afa961179b40728ced599640d7a50b546":[4,1,0,353,1],
-"d3/d21/classNoopCardSetPriorityController.html":[4,1,0,613],
-"d3/d21/classNoopCardSetPriorityController.html#a26645d23c3e1110f4fc7d644c2055957":[4,1,0,613,4]
+"d3/d21/classDlgLoadDeck.html#afa961179b40728ced599640d7a50b546":[4,1,0,353,1]
 };

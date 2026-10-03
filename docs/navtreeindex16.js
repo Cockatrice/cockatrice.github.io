@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"d3/d21/classNoopCardSetPriorityController.html":[4,1,0,613],
+"d3/d21/classNoopCardSetPriorityController.html#a26645d23c3e1110f4fc7d644c2055957":[4,1,0,613,4],
 "d3/d21/classNoopCardSetPriorityController.html#a26e69237213da1fcea0a5dc8c595426c":[4,1,0,613,1],
 "d3/d21/classNoopCardSetPriorityController.html#a27cf913e42a8f7a193ff8ae60a958e48":[4,1,0,613,5],
 "d3/d21/classNoopCardSetPriorityController.html#a5d78e16d17215ee195b5d511e8680140":[4,1,0,613,3],
@@ -179,8 +181,10 @@ var NAVTREEINDEX16 =
 "d3/d45/all__zones__card__amount__widget_8h.html":[3,2,3,0,3],
 "d3/d45/all__zones__card__amount__widget_8h.html":[3,3,1,1,3,2],
 "d3/d46/classSettingsMigration.html":[4,1,0,842],
-"d3/d46/classSettingsMigration.html#a073bdb6a40bc54e18ff37828c9c6a4b3":[4,1,0,842,0],
-"d3/d46/classSettingsMigration.html#a45ea73e96a3a7fc4c495c6c5fdb5c8a2":[4,1,0,842,1],
+"d3/d46/classSettingsMigration.html#a073bdb6a40bc54e18ff37828c9c6a4b3":[4,1,0,842,2],
+"d3/d46/classSettingsMigration.html#a0770af2a9c46ae436ee97fadab1e6bff":[4,1,0,842,1],
+"d3/d46/classSettingsMigration.html#a45ea73e96a3a7fc4c495c6c5fdb5c8a2":[4,1,0,842,3],
+"d3/d46/classSettingsMigration.html#a5e94c4ab6626e90a630c6b090733e6e7":[4,1,0,842,0],
 "d3/d48/structCommand__DeckShareListMine.html":[4,1,0,171],
 "d3/d49/tabs__settings_8h.html":[4,2,0,10,0,0,47],
 "d3/d49/tabs__settings_8h.html#ae8387ef97f91e913a72de3e99c7e574e":[4,2,0,10,0,0,47,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX16 =
 "d3/d58/classLayoutsSettings.html#a9f7bd182f6b94aac0787b26d30dfea52":[4,1,0,554,13],
 "d3/d58/classLayoutsSettings.html#aa9423b95a15309c32419a74a176a84ae":[4,1,0,554,17],
 "d3/d58/classLayoutsSettings.html#ab82bc45079d6de7c64cd8573b52258d2":[4,1,0,554,25],
-"d3/d58/classLayoutsSettings.html#ab8aba2b6cf3106a0f0d5504118b08a32":[4,1,0,554,26],
-"d3/d58/classLayoutsSettings.html#ac40e5ce8956769f8c783f8912d91af18":[4,1,0,554,14],
-"d3/d58/classLayoutsSettings.html#acdc54050233ddb99cb795f55622fdb59":[4,1,0,554,20],
-"d3/d58/classLayoutsSettings.html#af33ff2d89269115dcd98f9eb6d469e94":[4,1,0,554,23],
-"d3/d58/classLayoutsSettings.html#af66fd64d1b04841294bc7da408ce4aac":[4,1,0,554,6]
+"d3/d58/classLayoutsSettings.html#ab8aba2b6cf3106a0f0d5504118b08a32":[4,1,0,554,26]
 };

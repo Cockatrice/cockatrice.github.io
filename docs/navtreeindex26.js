@@ -1,5 +1,12 @@
 var NAVTREEINDEX26 =
 {
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a5181a7c32722708536f8a2d92127f585":[4,1,0,948,4],
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a54d3c6ec456240fbfb08b93942af4cff":[4,1,0,948,12],
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a6f498eec152a7a7e6bd9ba1946da7f58":[4,1,0,948,6],
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a78742b603d693b673f0c890663b19004":[4,1,0,948,8],
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a7f934855ec40e9f2b719735a75b3cb50":[4,1,0,948,10],
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a944e578b958566b6565a6e60c809398f":[4,1,0,948,5],
+"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#ad482e020e157f002d8c86b3a2ca1eadd":[4,1,0,948,13],
 "d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#ad48b1e30ab505ca7ce10ec5668493b5a":[4,1,0,948,1],
 "d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#ae3e9f737ad9075bd9cc5b899ad662ff1":[4,1,0,948,3],
 "d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#afa7797159f9cd792ba748f0738d4b94a":[4,1,0,948,14],
@@ -78,8 +85,8 @@ var NAVTREEINDEX26 =
 "d5/d3b/classTabAdmin.html#afd4dbc830edf3c95b90d33620f2277f1":[4,1,0,878,0],
 "d5/d3b/classTabAdmin.html#afd78d555a6b777389897a70cadd91910":[4,1,0,878,25],
 "d5/d3b/classTabAdmin.html#aff3cf76b7dfaa7ab0cba3e9e44f8ade4":[4,1,0,878,3],
-"d5/d3d/password__hash__test_8cpp.html":[4,2,0,14,17],
-"d5/d3d/password__hash__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,17,0],
+"d5/d3d/password__hash__test_8cpp.html":[4,2,0,14,18],
+"d5/d3d/password__hash__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,18,0],
 "d5/d42/structResponse__ListUsers.html":[4,1,0,727],
 "d5/d42/structResponse__ListUsers.html#a167a24c5a0b85c469cf46f5ebce4d04c":[4,1,0,727,1],
 "d5/d43/card__database__view_8h.html":[4,2,0,0,1,5,5,2,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX26 =
 "d5/d60/classIInterfaceSettingsProvider.html#a8f7f7e36cb91523b5b88140e65e342a9":[4,1,0,522,15],
 "d5/d60/classIInterfaceSettingsProvider.html#a94ca82db3752a1e208136c559a6c989d":[4,1,0,522,20],
 "d5/d60/classIInterfaceSettingsProvider.html#a951f1ec355acdacc78ecf4d84a330414":[4,1,0,522,35],
-"d5/d60/classIInterfaceSettingsProvider.html#aa6338b369c31bf20beb5445af9345f68":[4,1,0,522,29],
-"d5/d60/classIInterfaceSettingsProvider.html#ab82d314d53634b10095e5912f3a896e0":[4,1,0,522,2],
-"d5/d60/classIInterfaceSettingsProvider.html#ab97983fcba15956c5a47eb2ad9276e97":[4,1,0,522,26],
-"d5/d60/classIInterfaceSettingsProvider.html#aba5234f726f020d7b52a5c217333aec4":[4,1,0,522,14],
-"d5/d60/classIInterfaceSettingsProvider.html#abc04ade41a8b74d9134d9d839add3969":[4,1,0,522,23],
-"d5/d60/classIInterfaceSettingsProvider.html#ac1b68b1ce05506edfbcc5b8ea56fa64e":[4,1,0,522,24],
-"d5/d60/classIInterfaceSettingsProvider.html#ac25385602fd758bcb5a0c017038d0bbb":[4,1,0,522,4],
-"d5/d60/classIInterfaceSettingsProvider.html#acb6ddd0e5fa28ce6bc10b21c965b1223":[4,1,0,522,31]
+"d5/d60/classIInterfaceSettingsProvider.html#aa6338b369c31bf20beb5445af9345f68":[4,1,0,522,29]
 };

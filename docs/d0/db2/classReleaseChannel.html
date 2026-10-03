@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-02-Development-3.1.0-beta.16</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -158,7 +158,8 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-methods" class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:a932107ae014fe2d6c9bd03fb9bbb3672" id="r_a932107ae014fe2d6c9bd03fb9bbb3672"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a932107ae014fe2d6c9bd03fb9bbb3672">downloadMatchesCurrentOS</a> (const QString &amp;fileName)</td></tr>
+<tr class="memitem:a35c3b3b630ad5ef072a2bb754409857d" id="r_a35c3b3b630ad5ef072a2bb754409857d"><td class="memItemLeft">static std::optional&lt; int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a35c3b3b630ad5ef072a2bb754409857d">getTargetVersionForCurrentOS</a> (const QString &amp;fileName)</td></tr>
+<tr class="memitem:af9a2254e8b08b33dd4f2bc44f539e53b" id="r_af9a2254e8b08b33dd4f2bc44f539e53b"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#af9a2254e8b08b33dd4f2bc44f539e53b">findBestDownloadUrl</a> (const QVariantList &amp;assets)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -245,36 +246,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a932107ae014fe2d6c9bd03fb9bbb3672" name="a932107ae014fe2d6c9bd03fb9bbb3672"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a932107ae014fe2d6c9bd03fb9bbb3672">&#9670;&#160;</a></span>downloadMatchesCurrentOS()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ReleaseChannel::downloadMatchesCurrentOS </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/db2/classReleaseChannel_a932107ae014fe2d6c9bd03fb9bbb3672_icgraph.svg" width="100%" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="a47bd0694f23444cee6a8991be62b3b67" name="a47bd0694f23444cee6a8991be62b3b67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a47bd0694f23444cee6a8991be62b3b67">&#9670;&#160;</a></span>error</h2>
 
@@ -327,6 +298,41 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9a2254e8b08b33dd4f2bc44f539e53b" name="af9a2254e8b08b33dd4f2bc44f539e53b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9a2254e8b08b33dd4f2bc44f539e53b">&#9670;&#160;</a></span>findBestDownloadUrl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ReleaseChannel::findBestDownloadUrl </td>
+          <td>(</td>
+          <td class="paramtype">const QVariantList &amp;</td>          <td class="paramname"><span class="paramname"><em>assets</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/db2/classReleaseChannel_af9a2254e8b08b33dd4f2bc44f539e53b_cgraph.svg" width="443" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/db2/classReleaseChannel_af9a2254e8b08b33dd4f2bc44f539e53b_icgraph.svg" width="100%" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -481,6 +487,36 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/db2/classReleaseChannel_a6a316b853ca08d1d412ae364f85d1fba_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a35c3b3b630ad5ef072a2bb754409857d" name="a35c3b3b630ad5ef072a2bb754409857d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35c3b3b630ad5ef072a2bb754409857d">&#9670;&#160;</a></span>getTargetVersionForCurrentOS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; int &gt; ReleaseChannel::getTargetVersionForCurrentOS </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>fileName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/db2/classReleaseChannel_a35c3b3b630ad5ef072a2bb754409857d_icgraph.svg" width="100%" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

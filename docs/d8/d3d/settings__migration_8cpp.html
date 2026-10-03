@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-02-Development-3.1.0-beta.16</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,18 +121,26 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d8/d3d/setting
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d9/dc7/settings__migration_8h_source.html">settings_migration.h</a>&quot;</code><br />
+<code>#include &lt;QDateTime&gt;</code><br />
+<code>#include &lt;QDir&gt;</code><br />
+<code>#include &lt;QDirIterator&gt;</code><br />
 <code>#include &lt;QFile&gt;</code><br />
+<code>#include &lt;QFileInfo&gt;</code><br />
+<code>#include &lt;QLoggingCategory&gt;</code><br />
 <code>#include &lt;QMap&gt;</code><br />
 <code>#include &lt;QSettings&gt;</code><br />
 <code>#include &lt;QStringList&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for settings_migration.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dc0/settings__migration_8cpp__incl.svg" width="558" height="212"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dc0/settings__migration_8cpp__incl.svg" width="100%" height="459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ad2b5ee0d4645d42ce432baaa8ac04bf1" id="r_ad2b5ee0d4645d42ce432baaa8ac04bf1"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad2b5ee0d4645d42ce432baaa8ac04bf1">Q_LOGGING_CATEGORY</a> (SettingsMigrationLog, &quot;settings_migration&quot;)</td></tr>
+<tr class="memitem:ace8e511ed4f74ce7424f06c9c5d9ddb3" id="r_ace8e511ed4f74ce7424f06c9c5d9ddb3"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ace8e511ed4f74ce7424f06c9c5d9ddb3">hasPendingGlobalIniSettings</a> (const QString &amp;settingsPath)</td></tr>
 <tr class="memitem:a6dba3a2dc1c171e87eb9d2cef95d6188" id="r_a6dba3a2dc1c171e87eb9d2cef95d6188"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a6dba3a2dc1c171e87eb9d2cef95d6188">migrateTabsSettings</a> (const QString &amp;settingsPath, QSettings &amp;globalIni)</td></tr>
 <tr class="memitem:a0d9b411de2604385f6fd6b5aedb7f3b6" id="r_a0d9b411de2604385f6fd6b5aedb7f3b6"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a0d9b411de2604385f6fd6b5aedb7f3b6">migrateSoundSettings</a> (const QString &amp;settingsPath, QSettings &amp;globalIni)</td></tr>
 <tr class="memitem:a1a2ae12d65d57693b2b3556eec9de91b" id="r_a1a2ae12d65d57693b2b3556eec9de91b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a1a2ae12d65d57693b2b3556eec9de91b">migrateGameSettings</a> (const QString &amp;settingsPath, QSettings &amp;globalIni)</td></tr>
@@ -159,6 +167,42 @@ Variables</h2></td></tr>
 <tr class="memitem:a0c4daa27003dbe085fe9851617ed7ea2" id="r_a0c4daa27003dbe085fe9851617ed7ea2"><td class="memItemLeft">static const QString&#160;</td><td class="memItemRight"><a class="el" href="#a0c4daa27003dbe085fe9851617ed7ea2">MIGRATION_SENTINEL_KEY</a> = QStringLiteral(&quot;migration/perfile_complete&quot;)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="ace8e511ed4f74ce7424f06c9c5d9ddb3" name="ace8e511ed4f74ce7424f06c9c5d9ddb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace8e511ed4f74ce7424f06c9c5d9ddb3">&#9670;&#160;</a></span>hasPendingGlobalIniSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool hasPendingGlobalIniSettings </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>settingsPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>True when global.ini holds keys that migrateSettingsFromGlobalIni() would still move, i.e. the exact condition that function uses to decide whether it has work to do. If a user runs an older Cockatrice build that writes to global.ini (non-sentinel keys) and then upgrades back, those new keys would otherwise be silently ignored, so they are re-migrated instead. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_ace8e511ed4f74ce7424f06c9c5d9ddb3_cgraph.svg" width="219" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_ace8e511ed4f74ce7424f06c9c5d9ddb3_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a5aaea50f93f8e4b8f7f0fec884c0f525" name="a5aaea50f93f8e4b8f7f0fec884c0f525"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5aaea50f93f8e4b8f7f0fec884c0f525">&#9670;&#160;</a></span>migrateAppearanceSettings()</h2>
 
@@ -919,6 +963,40 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_afe417c41b3e1b782844d6441fb546cd9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad2b5ee0d4645d42ce432baaa8ac04bf1" name="ad2b5ee0d4645d42ce432baaa8ac04bf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2b5ee0d4645d42ce432baaa8ac04bf1">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_LOGGING_CATEGORY </td>
+          <td>(</td>
+          <td class="paramtype">SettingsMigrationLog</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;settings_migration&quot;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_ad2b5ee0d4645d42ce432baaa8ac04bf1_cgraph.svg" width="411" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

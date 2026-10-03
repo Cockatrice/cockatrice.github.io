@@ -40,11 +40,12 @@ var searchData=
   ['documentation_20theme_37',['Doxygen Documentation Theme',['../dir_04f2ecc425faf0d475a3caf484e551f3.html#doxygen-documentation-theme',1,'']]],
   ['domains_38',['Command Domains',['../dd/d01/protocol_command_container.html#cc_domains',1,'']]],
   ['done_39',['When you are done',['../d2/d8f/enabling_debug_logs.html#when-you-are-done',1,'']]],
-  ['download_40',['Download &lt;a href=&quot;https://tooomm.github.io/github-release-stats/?username=Cockatrice&amp;amp;repository=Cockatrice&amp;amp;search=0&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/downloads/cockatrice/cockatrice/total.svg&quot; alt=&quot;Cockatrice Eternal Download Count&quot; style=&quot;pointer-events: none;&quot; class=&quot;inline&quot;/&gt;&lt;/a&gt;',['../d0/d30/md_README.html#download-cockatrice-eternal-download-counthttpsimgshieldsiogithubdownloadscockatricecockatricetotalsvghttpstooommgithubiogithub-release-statsusernamecockatricerepositorycockatricesearch0',1,'']]],
-  ['download_20url_20templates_41',['Custom Download URL Templates',['../dc/d4d/custom_card_pictures.html#custom-download-url-templates',1,'']]],
-  ['download_20urls_42',['Check Your Download URLs',['../d9/d7b/fixing_card_pictures.html#check-your-download-urls',1,'']]],
-  ['doxygen_20awesome_43',['Doxygen Awesome',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#doxygen-awesome',1,'']]],
-  ['doxygen_20documentation_20theme_44',['Doxygen Documentation Theme',['../dir_04f2ecc425faf0d475a3caf484e551f3.html#doxygen-documentation-theme',1,'']]],
-  ['draw_5fcards_201006_45',['&lt;span class=&quot;tt&quot;&gt;DRAW_CARDS&lt;/span&gt; (1006)',['../d0/d5b/protocol_game_command.html#draw_cards-1006',1,'']]],
-  ['dump_5fzone_201024_46',['&lt;span class=&quot;tt&quot;&gt;DUMP_ZONE&lt;/span&gt; (1024)',['../d0/d5b/protocol_game_command.html#dump_zone-1024',1,'']]]
+  ['downgrading_40',['Downgrading',['../d6/d17/settings_folder.html#downgrading',1,'']]],
+  ['download_41',['Download &lt;a href=&quot;https://tooomm.github.io/github-release-stats/?username=Cockatrice&amp;amp;repository=Cockatrice&amp;amp;search=0&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/downloads/cockatrice/cockatrice/total.svg&quot; alt=&quot;Cockatrice Eternal Download Count&quot; style=&quot;pointer-events: none;&quot; class=&quot;inline&quot;/&gt;&lt;/a&gt;',['../d0/d30/md_README.html#download-cockatrice-eternal-download-counthttpsimgshieldsiogithubdownloadscockatricecockatricetotalsvghttpstooommgithubiogithub-release-statsusernamecockatricerepositorycockatricesearch0',1,'']]],
+  ['download_20url_20templates_42',['Custom Download URL Templates',['../dc/d4d/custom_card_pictures.html#custom-download-url-templates',1,'']]],
+  ['download_20urls_43',['Check Your Download URLs',['../d9/d7b/fixing_card_pictures.html#check-your-download-urls',1,'']]],
+  ['doxygen_20awesome_44',['Doxygen Awesome',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#doxygen-awesome',1,'']]],
+  ['doxygen_20documentation_20theme_45',['Doxygen Documentation Theme',['../dir_04f2ecc425faf0d475a3caf484e551f3.html#doxygen-documentation-theme',1,'']]],
+  ['draw_5fcards_201006_46',['&lt;span class=&quot;tt&quot;&gt;DRAW_CARDS&lt;/span&gt; (1006)',['../d0/d5b/protocol_game_command.html#draw_cards-1006',1,'']]],
+  ['dump_5fzone_201024_47',['&lt;span class=&quot;tt&quot;&gt;DUMP_ZONE&lt;/span&gt; (1024)',['../d0/d5b/protocol_game_command.html#dump_zone-1024',1,'']]]
 ];

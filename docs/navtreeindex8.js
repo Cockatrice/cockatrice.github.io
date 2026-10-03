@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dabd98ea344a599613b77d2d855e2ed4c5":[4,1,0,707,0,14],
 "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dac284ce3268938c3b34c46ba4a7f80d17":[4,1,0,707,0,7],
 "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dac3ab5dcd0e151465b9437de511efd494":[4,1,0,707,0,31],
 "d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dac4a4b41dafaa702058f2f134d86b9fc2":[4,1,0,707,0,35],
@@ -79,9 +80,9 @@ var NAVTREEINDEX8 =
 "d1/dba/classDlgFilterGames.html#ad60c99807d73a7179bb6ea5a2a98a760":[4,1,0,348,12],
 "d1/dba/classDlgFilterGames.html#ad7e6dbeefee0706b67a0441af088b678":[4,1,0,348,6],
 "d1/dba/classDlgFilterGames.html#af5479fcdfed74092ba209981207a5adb":[4,1,0,348,10],
-"d1/dbe/warning__categories_8h.html":[4,2,0,11,0,0,24],
-"d1/dbe/warning__categories_8h.html#a1a7e8607d6fa31999131cdbe4b222c95":[4,2,0,11,0,0,24,1],
-"d1/dbe/warning__categories_8h_source.html":[4,2,0,11,0,0,24],
+"d1/dbe/warning__categories_8h.html":[4,2,0,11,0,0,26],
+"d1/dbe/warning__categories_8h.html#a1a7e8607d6fa31999131cdbe4b222c95":[4,2,0,11,0,0,26,1],
+"d1/dbe/warning__categories_8h_source.html":[4,2,0,11,0,0,26],
 "d1/dc3/playmat__collection__dialog_8h.html":[4,2,0,0,1,5,5,8,1],
 "d1/dc3/playmat__collection__dialog_8h_source.html":[4,2,0,0,1,5,5,8,1],
 "d1/dc4/command__report__stats_8proto.html":[4,2,0,8,0,0,0,53],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "d1/ddd/classArchidektApiResponseDeckOwner.html#adc8563b441b80af8bcce2cf83f47c425":[4,1,0,42,7],
 "d1/ddd/classArchidektApiResponseDeckOwner.html#adf03c5d75f9abc75b3d7491006b5f205":[4,1,0,42,0],
 "d1/ddd/classArchidektApiResponseDeckOwner.html#ae84f15f9fa866d680b4b1b64920d6ba4":[4,1,0,42,4],
-"d1/ddd/classArchidektApiResponseDeckOwner.html#af2e382e622475162d60d6767aed0ad61":[4,1,0,42,3],
-"d1/ddd/classArchidektApiResponseDeckOwner.html#af4f70365d3ce704cbbf284719b6c09ed":[4,1,0,42,6]
+"d1/ddd/classArchidektApiResponseDeckOwner.html#af2e382e622475162d60d6767aed0ad61":[4,1,0,42,3]
 };

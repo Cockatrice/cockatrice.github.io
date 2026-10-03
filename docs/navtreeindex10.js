@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"d2/d00/classDlgTipOfTheDay.html#a430f64749df5562aa0b9c21a994173b6":[4,1,0,369,6],
 "d2/d00/classDlgTipOfTheDay.html#a4d01122c90c167940bf559d5cdb1dc43":[4,1,0,369,19],
 "d2/d00/classDlgTipOfTheDay.html#a577113ab08a75e443679fb2dd636bda0":[4,1,0,369,12],
 "d2/d00/classDlgTipOfTheDay.html#a5baf2bdbdcbf8e614f4debe9be421704":[4,1,0,369,13],
@@ -22,9 +23,9 @@ var NAVTREEINDEX10 =
 "d2/d05/response__report__stats_8proto.html":[4,2,0,8,0,0,0,167],
 "d2/d05/response__report__stats_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,167,4],
 "d2/d06/visual__database__display__widget_8cpp.html":[4,2,0,0,1,5,5,16,17],
-"d2/d0b/expression__test_8cpp.html":[4,2,0,14,12],
-"d2/d0b/expression__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,12,1],
-"d2/d0b/expression__test_8cpp.html#ab1eca99c73774ce449fb3865a2c22a41":[4,2,0,14,12,0],
+"d2/d0b/expression__test_8cpp.html":[4,2,0,14,13],
+"d2/d0b/expression__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,13,1],
+"d2/d0b/expression__test_8cpp.html#ab1eca99c73774ce449fb3865a2c22a41":[4,2,0,14,13,0],
 "d2/d0c/printing__selector__card__search__widget_8h.html":[3,1,0,4,3,7],
 "d2/d0c/printing__selector__card__search__widget_8h.html":[3,3,1,1,3,7],
 "d2/d0f/tab__public__decks_8cpp.html":[4,2,0,0,1,5,5,14,29],
@@ -72,8 +73,8 @@ var NAVTREEINDEX10 =
 "d2/d12/dlg__settings_8h.html":[3,1,0,0,5],
 "d2/d14/storage__settings__page_8h.html":[4,2,0,0,1,5,5,13,19],
 "d2/d14/storage__settings__page_8h_source.html":[4,2,0,0,1,5,5,13,19],
-"d2/d16/loader__local__matching__test_8cpp.html":[4,2,0,14,15],
-"d2/d16/loader__local__matching__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,15,0],
+"d2/d16/loader__local__matching__test_8cpp.html":[4,2,0,14,16],
+"d2/d16/loader__local__matching__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,16,0],
 "d2/d1a/structCommand__SetCardCounter.html":[4,1,0,243],
 "d2/d1a/structCommand__SetCardCounter.html#a0a3ee16d8a1b93293452ab7b6c7576a6":[4,1,0,243,2],
 "d2/d1a/structCommand__SetCardCounter.html#a5f7a180cd0a6b8ca6588d204410a87d1":[4,1,0,243,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "d2/d23/classPlayerActions.html#ac3c40dbabec01d4d99d76c9f1f9cd00c":[4,1,0,645,83],
 "d2/d23/classPlayerActions.html#ac5e4d5e217a61f9acfc1d17acab17300":[4,1,0,645,116],
 "d2/d23/classPlayerActions.html#ac93e3c23e23694e8fe3d31d2a8e992cf":[4,1,0,645,53],
-"d2/d23/classPlayerActions.html#ac9d846d4de143a086e68885668e109fc":[4,1,0,645,104],
-"d2/d23/classPlayerActions.html#acc18b0e782366e7e179ae69ae38d756e":[4,1,0,645,138]
+"d2/d23/classPlayerActions.html#ac9d846d4de143a086e68885668e109fc":[4,1,0,645,104]
 };

@@ -23,6 +23,8 @@ var dir_f4be27d36b478c7f01a45661d0a08936 =
     [ "server_rate_limiter.cpp", "d4/d09/server__rate__limiter_8cpp.html", null ],
     [ "server_rate_limiter.h", "df/d17/server__rate__limiter_8h.html", "df/d17/server__rate__limiter_8h" ],
     [ "string_limits.h", "d9/d78/string__limits_8h.html", "d9/d78/string__limits_8h" ],
+    [ "translation_loader.cpp", "d3/d0f/translation__loader_8cpp.html", null ],
+    [ "translation_loader.h", "dc/d0c/translation__loader_8h.html", "dc/d0c/translation__loader_8h" ],
     [ "warning_categories.cpp", "da/dbb/warning__categories_8cpp.html", "da/dbb/warning__categories_8cpp" ],
     [ "warning_categories.h", "d1/dbe/warning__categories_8h.html", "d1/dbe/warning__categories_8h" ],
     [ "zone_names.h", "d6/d64/zone__names_8h.html", "d6/d64/zone__names_8h" ]

@@ -1,5 +1,12 @@
 var NAVTREEINDEX31 =
 {
+"d6/d02/classPileZone.html#a5a12fb85c85f980f8423e9f74a057bca":[4,1,0,642,8],
+"d6/d02/classPileZone.html#a6130d6b891b0c724dd62e7f20aca1731":[4,1,0,642,6],
+"d6/d02/classPileZone.html#a773e24e37e84a0026b3a57464d8181fb":[4,1,0,642,1],
+"d6/d02/classPileZone.html#a8fb5583aa9b1933a36626eff58d4cfb4":[4,1,0,642,9],
+"d6/d02/classPileZone.html#ab45ed5ad0e7579f13fb60ef3ce8dec82":[4,1,0,642,2],
+"d6/d02/classPileZone.html#ab669754dc450611cf18dd36da068e680":[4,1,0,642,5],
+"d6/d02/classPileZone.html#ad7a0b603c0ee39a54a8dcb969d777cfd":[4,1,0,642,4],
 "d6/d02/classPileZone.html#aeb6561dcdb7a89df8fbb753b1b45a7cc":[4,1,0,642,7],
 "d6/d03/event__processing__options_8h.html":[3,4,1,0,0],
 "d6/d09/response__replay__download__by__game__id_8proto.html":[4,2,0,8,0,0,0,161],
@@ -36,6 +43,10 @@ var NAVTREEINDEX31 =
 "d6/d14/structServatrice__DatabaseInterface_1_1UptimeSnapshot.html#abc5b0532844694fc1f23ffde8b8bfdf8":[4,1,0,767,0,6],
 "d6/d14/structServatrice__DatabaseInterface_1_1UptimeSnapshot.html#ac2292fead430e308b99ef9725a6ceffc":[4,1,0,767,0,3],
 "d6/d14/structServatrice__DatabaseInterface_1_1UptimeSnapshot.html#adfa3341b7fd4bbb97910cfb961c18705":[4,1,0,767,0,5],
+"d6/d17/settings_folder.html":[0,0,5],
+"d6/d17/settings_folder.html#automatic-backups":[0,0,5,1],
+"d6/d17/settings_folder.html#downgrading":[0,0,5,2],
+"d6/d17/settings_folder.html#the-per-file-migration":[0,0,5,0],
 "d6/d18/structEvent__RoomSay_1_1RoomEvent.html":[4,1,0,442,0],
 "d6/d18/structEvent__RoomSay_1_1RoomEvent.html#afd21bf9b308274626e5d466671fb15bb":[4,1,0,442,0,0],
 "d6/d1a/classMainWindow.html":[4,1,0,576],
@@ -238,16 +249,5 @@ var NAVTREEINDEX31 =
 "d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html#abfd140ea3123d4ac76de28ae722a6ae2":[4,1,0,950,6],
 "d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html#ac381173f57031bf3a3783e767df26419":[4,1,0,950,0],
 "d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html#adc6893047846efa4d04bee9e670e2dd0":[4,1,0,950,2],
-"d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html#ae605334f95e97f308bd44f622ed22b09":[4,1,0,950,13],
-"d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html#af34da4318d1e37cf66b8daf4d7ade2bc":[4,1,0,950,17],
-"d6/d2d/oraclewizard_8cpp.html":[4,2,0,12,0,6],
-"d6/d2f/commander__spellbook__estimate__bracket__result_8h.html":[4,2,0,0,1,5,5,14,0,1,0,7],
-"d6/d2f/commander__spellbook__estimate__bracket__result_8h_source.html":[4,2,0,0,1,5,5,14,0,1,0,7],
-"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html":[4,1,0,45],
-"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a182080c139589c5e6012fcaacff2c442":[4,1,0,45,6],
-"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a20a97d403a81a9e367d7cc6637a9c5f0":[4,1,0,45,3],
-"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a2815f602b9dd75ceb2f866c65ec99776":[4,1,0,45,4],
-"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a2d852b403f62ce7e7066cc5f09456368":[4,1,0,45,5],
-"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a7275212c91a028a52bdb119e2c31457f":[4,1,0,45,9],
-"d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a77aa27d3d98e1dd503d35eb0dda600cf":[4,1,0,45,0]
+"d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html#ae605334f95e97f308bd44f622ed22b09":[4,1,0,950,13]
 };

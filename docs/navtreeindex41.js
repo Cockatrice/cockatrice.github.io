@@ -1,5 +1,17 @@
 var NAVTREEINDEX41 =
 {
+"d7/de8/namespaceCardPictureLoaderLocalSchemes.html#a7b74e84f44374f618623b27d67442b02a8c10fff92759b915403860016475022f":[4,0,0,8,1,2],
+"d7/de8/namespaceCardPictureLoaderLocalSchemes.html#a7b999f5cc2b2526719cf9afbc870e5e4":[4,0,0,8,3],
+"d7/de8/namespaceCardPictureLoaderLocalSchemes.html#ab140abed48e05822deba2c057e2cf870":[4,0,0,8,5],
+"d7/de8/namespaceCardPictureLoaderLocalSchemes.html#adb8b8537481bd3a111b73ccf7e66b5b3":[4,0,0,8,2],
+"d7/dea/classDeckListStyleProxy.html":[4,1,0,313],
+"d7/dea/classDeckListStyleProxy.html#a1529c91c43a042af5b187a57d5ae10b4":[4,1,0,313,0],
+"d7/dea/structCommand__CreateGame_1_1RoomCommand.html":[4,1,0,157,0],
+"d7/dea/structCommand__CreateGame_1_1RoomCommand.html#a20bb319c43c10ae8efa54b8523f0f34b":[4,1,0,157,0,0],
+"d7/df2/structResponse__JoinRoom.html":[4,1,0,725],
+"d7/df2/structResponse__JoinRoom.html#af4234b097c8629cb6bf2fe5b9abb4f6b":[4,1,0,725,1],
+"d7/df4/filter__string__test_8cpp.html":[4,2,0,14,1,1],
+"d7/df4/filter__string__test_8cpp.html#a0f17dc30dd842c24fde73139d1f94030":[4,2,0,14,1,1,6],
 "d7/df4/filter__string__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,1,1,2],
 "d7/df4/filter__string__test_8cpp.html#a6228121b0bc999f5d9e01a22b620f193":[4,2,0,14,1,1,1],
 "d7/df4/filter__string__test_8cpp.html#a683b7dad02a9a2b7a34ec2e9e00c610e":[4,2,0,14,1,1,5],
@@ -237,17 +249,5 @@ var NAVTREEINDEX41 =
 "d8/d2c/structResponse__GetGamesOfUser.html#a880e1b991ff329af17c3ee13e76d6c56":[4,1,0,722,2],
 "d8/d2d/classOracleWizardPage.html":[4,1,0,618],
 "d8/d2d/classOracleWizardPage.html#a0f280c5ae5e3817b7bad4f3a207c47ba":[4,1,0,618,0],
-"d8/d2d/classOracleWizardPage.html#a27632e8dc2b86d6e6adf2c11f3e62e91":[4,1,0,618,4],
-"d8/d2d/classOracleWizardPage.html#a46cff3ca2920f1eb841e33dff00b495f":[4,1,0,618,1],
-"d8/d2d/classOracleWizardPage.html#a5118b04fc40fffe10336c100a8fb6812":[4,1,0,618,3],
-"d8/d2d/classOracleWizardPage.html#a7ac366cc122c022ea1e48f582d07b61f":[4,1,0,618,2],
-"d8/d2d/structEvent__RollDie_1_1GameEvent.html":[4,1,0,441,0],
-"d8/d2d/structEvent__RollDie_1_1GameEvent.html#ac2d025507591264247deede2e978cd4f":[4,1,0,441,0,0],
-"d8/d32/classICardsDisplaySettingsProvider.html":[4,1,0,517],
-"d8/d32/classICardsDisplaySettingsProvider.html#a0eb26c1534da87859d00f888df6c07ec":[4,1,0,517,18],
-"d8/d32/classICardsDisplaySettingsProvider.html#a1153ac077ad6972f0488a601d568cc82":[4,1,0,517,9],
-"d8/d32/classICardsDisplaySettingsProvider.html#a2876232307ed0c5ab8a9018be0c3d58d":[4,1,0,517,14],
-"d8/d32/classICardsDisplaySettingsProvider.html#a501f8eb1c0e45affd74e06481271a02c":[4,1,0,517,10],
-"d8/d32/classICardsDisplaySettingsProvider.html#a536f15e571fbd30e20069204090d27a9":[4,1,0,517,19],
-"d8/d32/classICardsDisplaySettingsProvider.html#a59347bddcbee1cb0d8df075cd67e907e":[4,1,0,517,11]
+"d8/d2d/classOracleWizardPage.html#a27632e8dc2b86d6e6adf2c11f3e62e91":[4,1,0,618,4]
 };

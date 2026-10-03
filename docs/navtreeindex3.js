@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"d0/dc0/classPaletteEditorDialog.html#a695395fa65e2a2625ba4dd6fdd6fcdfb":[4,1,0,626,16],
 "d0/dc0/classPaletteEditorDialog.html#a851b4fc1634191ce121ec1958edefb1b":[4,1,0,626,4],
 "d0/dc0/classPaletteEditorDialog.html#a8dfad39a87c456a6048f3d7c283f4f62":[4,1,0,626,8],
 "d0/dc0/classPaletteEditorDialog.html#a90c13e3912efaf1f2475c2d536b0e739":[4,1,0,626,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#aed774e9b3bdb4cf7b731d574cb38a251":[4,1,0,954,19],
 "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#afcf2c1833921b099e86f1a4a548ccd8c":[4,1,0,954,13],
 "d0/de9/dlg__move__top__cards__until_8h.html":[3,4,0,2,1],
-"d0/dee/analytics__panel__widget__registrar_8h.html":[4,2,0,0,1,5,5,1,8],
-"d0/dee/analytics__panel__widget__registrar_8h_source.html":[4,2,0,0,1,5,5,1,8]
+"d0/dee/analytics__panel__widget__registrar_8h.html":[4,2,0,0,1,5,5,1,8]
 };

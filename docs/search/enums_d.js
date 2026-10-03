@@ -6,5 +6,6 @@ var searchData=
   ['tallytype_3',['TallyType',['../dc/d06/tally_8h.html#a210730729ae1985c85bd1ed922ff6bde',1,'tally.h']]],
   ['targetmode_4',['TargetMode',['../dd/d22/structCommand__CreateToken.html#a29d8a19ec37e08419a8110dd9eb8bff0',1,'Command_CreateToken']]],
   ['tooltiptype_5',['TooltipType',['../d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a949b930fc50cc62562e915e29184c190',1,'VisualDeckStorageQuickSettingsWidget']]],
-  ['type_6',['Type',['../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639',1,'BackgroundSources::Type'],['../d7/dfc/classCardFilter.html#a9399b331b33291a90e47255e8c27d562',1,'CardFilter::Type'],['../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179',1,'DeckListModelGroupCriteria::Type']]]
+  ['translationloadresult_6',['TranslationLoadResult',['../dc/d0c/translation__loader_8h.html#adaab297bf5f0b3c6339d620d1c551391',1,'translation_loader.h']]],
+  ['type_7',['Type',['../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639',1,'BackgroundSources::Type'],['../d7/dfc/classCardFilter.html#a9399b331b33291a90e47255e8c27d562',1,'CardFilter::Type'],['../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179',1,'DeckListModelGroupCriteria::Type']]]
 ];

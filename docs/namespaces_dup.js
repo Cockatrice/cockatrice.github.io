@@ -58,6 +58,7 @@ var namespaces_dup =
       [ "displayLang", "d3/df9/namespaceCardLocalization.html#a7e6903965a252ea642ea731d941ce93e", null ],
       [ "displayName", "d3/df9/namespaceCardLocalization.html#aae3a715728303329e7d69f30e1e66cdf", null ],
       [ "displayName", "d3/df9/namespaceCardLocalization.html#aec63e38fae4d80a04210fe7fc1328748", null ],
+      [ "displayNameFor", "d3/df9/namespaceCardLocalization.html#ac3028bacea3aea1cc76dfd3a432f7837", null ],
       [ "displayText", "d3/df9/namespaceCardLocalization.html#a75fc4ee327408c76e8b2e88d0f287087", null ],
       [ "displayText", "d3/df9/namespaceCardLocalization.html#aa2a9b393b66a871c3925797d5cb42fbd", null ],
       [ "languageDisplayName", "d3/df9/namespaceCardLocalization.html#aae840c7d14da5584a62f99be60beb9cd", null ],
@@ -176,6 +177,15 @@ var namespaces_dup =
     [ "Tally", "dd/d5d/namespaceTally.html", [
       [ "compute", "dd/d5d/namespaceTally.html#ad399ab77d75272e9968de8d104970a16", null ],
       [ "intToType", "dd/d5d/namespaceTally.html#a1adbe8fe3299c129dbcee73ba8c636cb", null ]
+    ] ],
+    [ "TranslationLoader", "dd/df1/namespaceTranslationLoader.html", [
+      [ "applicationTranslationPaths", "dd/df1/namespaceTranslationLoader.html#a1f4d270321ffc5e2b8d1b0213ff9cf1c", null ],
+      [ "availableLanguages", "dd/df1/namespaceTranslationLoader.html#a635049f6fd55910f302af8912c6c2b5f", null ],
+      [ "loadApplication", "dd/df1/namespaceTranslationLoader.html#a522eb0f0ec7abc4190b39f9e98dddb63", null ],
+      [ "loadFrom", "dd/df1/namespaceTranslationLoader.html#aeb424b2d131d5c00b422433a828e64e5", null ],
+      [ "loadQt", "dd/df1/namespaceTranslationLoader.html#ad8d21b766707f0228bb14d162aa90b12", null ],
+      [ "qtTranslationCandidates", "dd/df1/namespaceTranslationLoader.html#aa6a84a4f8eaa1f086c831ee25c7e724a", null ],
+      [ "qtTranslationPaths", "dd/df1/namespaceTranslationLoader.html#a54ccd0697a271cad98b630921414c2f5", null ]
     ] ],
     [ "UserListRoles", "d7/dc9/namespaceUserListRoles.html", [
       [ "Online", "d7/dc9/namespaceUserListRoles.html#ad8ce129214f65f5ec323fc8e83c3e596", null ],

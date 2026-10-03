@@ -1,5 +1,12 @@
 var NAVTREEINDEX27 =
 {
+"d5/d60/classIInterfaceSettingsProvider.html#ab82d314d53634b10095e5912f3a896e0":[4,1,0,522,2],
+"d5/d60/classIInterfaceSettingsProvider.html#ab97983fcba15956c5a47eb2ad9276e97":[4,1,0,522,26],
+"d5/d60/classIInterfaceSettingsProvider.html#aba5234f726f020d7b52a5c217333aec4":[4,1,0,522,14],
+"d5/d60/classIInterfaceSettingsProvider.html#abc04ade41a8b74d9134d9d839add3969":[4,1,0,522,23],
+"d5/d60/classIInterfaceSettingsProvider.html#ac1b68b1ce05506edfbcc5b8ea56fa64e":[4,1,0,522,24],
+"d5/d60/classIInterfaceSettingsProvider.html#ac25385602fd758bcb5a0c017038d0bbb":[4,1,0,522,4],
+"d5/d60/classIInterfaceSettingsProvider.html#acb6ddd0e5fa28ce6bc10b21c965b1223":[4,1,0,522,31],
 "d5/d60/classIInterfaceSettingsProvider.html#ad39d45eafa8de087113cfc812406ea33":[4,1,0,522,37],
 "d5/d60/classIInterfaceSettingsProvider.html#ad7bd1cfcbf6c47249a6f570227a4fd55":[4,1,0,522,3],
 "d5/d60/classIInterfaceSettingsProvider.html#ae19557d1d2b333d0702918c6f62a4ff0":[4,1,0,522,19],
@@ -242,12 +249,5 @@ var NAVTREEINDEX27 =
 "d5/d88/classSettingsCache.html#aa9dfcd0f747afa4c430c6a7c4f7f9b5d":[4,1,0,838,69],
 "d5/d88/classSettingsCache.html#ab2d0f544c3638f37ebdb8cd515e5e327":[4,1,0,838,12],
 "d5/d88/classSettingsCache.html#abcd8157a3bd16e7a2b0fd4ff1419e86a":[4,1,0,838,81],
-"d5/d88/classSettingsCache.html#ac6f7119efb1b643edf62124cb4f96e5e":[4,1,0,838,80],
-"d5/d88/classSettingsCache.html#ac9300700d0c8fa7cf82b10e717517e8a":[4,1,0,838,62],
-"d5/d88/classSettingsCache.html#ace6066f376120f542bb69cf6b5f437fa":[4,1,0,838,36],
-"d5/d88/classSettingsCache.html#acf868827f9ac5dfc95166c9ebad9675b":[4,1,0,838,13],
-"d5/d88/classSettingsCache.html#ad2f1a79bfdd2ed465b60aa089f7c2596":[4,1,0,838,40],
-"d5/d88/classSettingsCache.html#ad78819cfc47af1032e7332762ed94d03":[4,1,0,838,32],
-"d5/d88/classSettingsCache.html#ad886b2e4baa4f320c029adfc0635bd9b":[4,1,0,838,55],
-"d5/d88/classSettingsCache.html#ad98849d58149704e869e53c37db50acd":[4,1,0,838,43]
+"d5/d88/classSettingsCache.html#ac6f7119efb1b643edf62124cb4f96e5e":[4,1,0,838,80]
 };

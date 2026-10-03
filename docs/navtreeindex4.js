@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"d0/dee/analytics__panel__widget__registrar_8h_source.html":[4,2,0,0,1,5,5,1,8],
 "d0/df0/namespaceCardDatabaseCache.html":[4,0,0,3],
 "d0/df0/namespaceCardDatabaseCache.html#a2447de98b39c79f348adb74f000c0c10":[4,0,0,3,1],
 "d0/df0/namespaceCardDatabaseCache.html#a6b2cba29de0d821e6e6d452785eed575":[4,0,0,3,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a151a773af05db5205bf3c3e0c96657de":[4,1,0,386,2],
 "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a1d7a1d12ef256a9473652e8cf0080b74":[4,1,0,386,14],
 "d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a1eca99b3d5aa9cb755efcc11c9f7d589":[4,1,0,386,20],
-"d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a22fb449087fa430284c23c532e382f00":[4,1,0,386,6],
-"d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a2c2ab456f63d162a191e08fedffd4251":[4,1,0,386,8]
+"d1/d2e/classEdhrecApiResponseCardPricesDisplayWidget.html#a22fb449087fa430284c23c532e382f00":[4,1,0,386,6]
 };
