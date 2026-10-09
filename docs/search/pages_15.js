@@ -34,7 +34,7 @@ var searchData=
   ['restart_20the_20client_31',['Restart the Client',['../d9/d7b/fixing_card_pictures.html#restart-the-client',1,'']]],
   ['reveal_5fcards_201026_32',['&lt;span class=&quot;tt&quot;&gt;REVEAL_CARDS&lt;/span&gt; (1026)',['../d0/d5b/protocol_game_command.html#reveal_cards-1026',1,'']]],
   ['reverse_5fturn_201034_33',['&lt;span class=&quot;tt&quot;&gt;REVERSE_TURN&lt;/span&gt; (1034)',['../d0/d5b/protocol_game_command.html#reverse_turn-1034',1,'']]],
-  ['role_20in_20the_20hierarchy_3a_34',['Role in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
+  ['role_20in_20the_20hierarchy_3a_34',['Role in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
   ['roll_5fdie_201005_35',['&lt;span class=&quot;tt&quot;&gt;ROLL_DIE&lt;/span&gt; (1005)',['../d0/d5b/protocol_game_command.html#roll_die-1005',1,'']]],
   ['room_20events_36',['Room Events',['../dc/d6c/protocol_server_message.html#room-events',1,'']]],
   ['run_37',['Run',['../d0/d30/md_README.html#run',1,'']]],

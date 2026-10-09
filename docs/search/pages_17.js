@@ -15,7 +15,7 @@ var searchData=
   ['the_20discord_20webhook_20and_20add_20it_20to_20the_20config_12',['2. Create the Discord webhook and add it to the config',['../dir_7bfb512e87101b177eb3569817b9fc67.html#autotoc_md2-create-the-discord-webhook-and-add-it-to-the-config',1,'']]],
   ['the_20file_13',['Step 1: Create the file',['../d2/d8f/enabling_debug_logs.html#step-1-create-the-file',1,'']]],
   ['the_20file_20is_14',['Step 2: Tell Cockatrice where the file is',['../d2/d8f/enabling_debug_logs.html#step-2-tell-cockatrice-where-the-file-is',1,'']]],
-  ['the_20hierarchy_3a_15',['the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
+  ['the_20hierarchy_3a_15',['the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
   ['the_20logs_16',['Step 3: See the logs',['../d2/d8f/enabling_debug_logs.html#step-3-see-the-logs',1,'']]],
   ['the_20per_20file_20migration_17',['The Per-File Migration',['../d6/d17/settings_folder.html#the-per-file-migration',1,'']]],
   ['the_20printing_20selector_18',['Using the Printing Selector',['../d7/d64/editing_decks_printings.html#using-the-printing-selector',1,'']]],

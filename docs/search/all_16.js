@@ -769,7 +769,7 @@ var searchData=
   ['rng_5fsfmt_2eh_766',['rng_sfmt.h',['../d3/dfe/rng__sfmt_8h.html',1,'']]],
   ['role_767',['Role',['../da/d5a/classThemeManager.html#a3aa764444425be577be3cd450e79f278',1,'ThemeManager::Role'],['../dd/d83/classCardDatabaseModel.html#a1c3361bdf8abc45a4b19fd84c63e4502',1,'CardDatabaseModel::Role'],['../da/d64/classSetsModel.html#ab2e5e31efdaceaa9fca7279f10f87c28',1,'SetsModel::Role'],['../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90',1,'AppColor::Role']]],
   ['role_768',['role',['../d8/dc8/structPaletteColorInfo.html#a51d9ff19544f10a4ec21159cc7b81278',1,'PaletteColorInfo']]],
-  ['role_20in_20the_20hierarchy_3a_769',['Role in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
+  ['role_20in_20the_20hierarchy_3a_769',['Role in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
   ['role_5fdescriptions_770',['ROLE_DESCRIPTIONS',['../d6/d40/palette__grid__widget_8cpp.html#af02db4ad61e8aef40b151501a45a1830',1,'palette_grid_widget.cpp']]],
   ['rolebgname_771',['roleBgName',['../d4/d99/theme__manager_8cpp.html#a3b154ff641e1f48a4cf8d32e18d1faa7',1,'theme_manager.cpp']]],
   ['roles_772',['Roles',['../df/d23/classSettingsSearchModel.html#a5e51a5936ec81a4846ba3da5a3abab3d',1,'SettingsSearchModel']]],
