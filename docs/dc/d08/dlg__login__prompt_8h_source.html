@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -126,37 +126,40 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('dc/d08/dlg__lo
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define DLG_LOGIN_PROMPT_H</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QDialog&gt;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span>QCheckBox;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>QLineEdit;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span></div>
-<div class="foldopen" id="foldopen00023" data-start="{" data-end="};">
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="../../d6/d01/classDlgLoginPrompt.html">   23</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d6/d01/classDlgLoginPrompt.html#a56e00adbb989355cfecbd5ee96e905b9">DlgLoginPrompt</a> : <span class="keyword">public</span> QDialog</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    Q_OBJECT</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../d6/d01/classDlgLoginPrompt.html#a56e00adbb989355cfecbd5ee96e905b9">DlgLoginPrompt</a>(<span class="keyword">const</span> QString &amp;serverText, QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;qtmetamacros.h&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>QCheckBox;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span>QLineEdit;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span>QWidget;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span></div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../d6/d01/classDlgLoginPrompt.html">   26</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d6/d01/classDlgLoginPrompt.html#a56e00adbb989355cfecbd5ee96e905b9">DlgLoginPrompt</a> : <span class="keyword">public</span> QDialog</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>{</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    Q_OBJECT</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    [[nodiscard]] QString <a class="code hl_function" href="../../d6/d01/classDlgLoginPrompt.html#adc0741328d192399623e6f56cf565181">username</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    [[nodiscard]] QString <a class="code hl_function" href="../../d6/d01/classDlgLoginPrompt.html#a316b119c0f30f480fb59a14841dd8c57">password</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    [[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d6/d01/classDlgLoginPrompt.html#a87286edcfe843448ef532645fe7863de">savePassword</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../d6/d01/classDlgLoginPrompt.html#a7de7960c65c0e841b4f1e2f10049b3e2">   35</a></span>    QLineEdit *<a class="code hl_variable" href="../../d6/d01/classDlgLoginPrompt.html#a7de7960c65c0e841b4f1e2f10049b3e2">usernameEdit</a>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d6/d01/classDlgLoginPrompt.html#a3880d234ea2482b7498877ff562b526c">   36</a></span>    QLineEdit *<a class="code hl_variable" href="../../d6/d01/classDlgLoginPrompt.html#a3880d234ea2482b7498877ff562b526c">passwordEdit</a>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d6/d01/classDlgLoginPrompt.html#a5834435c8685b3ad651126b106b6b9c6">   37</a></span>    QCheckBox *<a class="code hl_variable" href="../../d6/d01/classDlgLoginPrompt.html#a5834435c8685b3ad651126b106b6b9c6">savePasswordCheckBox</a>;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../d6/d01/classDlgLoginPrompt.html#a56e00adbb989355cfecbd5ee96e905b9">DlgLoginPrompt</a>(<span class="keyword">const</span> QString &amp;serverText, QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    [[nodiscard]] QString <a class="code hl_function" href="../../d6/d01/classDlgLoginPrompt.html#adc0741328d192399623e6f56cf565181">username</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    [[nodiscard]] QString <a class="code hl_function" href="../../d6/d01/classDlgLoginPrompt.html#a316b119c0f30f480fb59a14841dd8c57">password</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    [[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d6/d01/classDlgLoginPrompt.html#a87286edcfe843448ef532645fe7863de">savePassword</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d6/d01/classDlgLoginPrompt.html#a7de7960c65c0e841b4f1e2f10049b3e2">   38</a></span>    QLineEdit *<a class="code hl_variable" href="../../d6/d01/classDlgLoginPrompt.html#a7de7960c65c0e841b4f1e2f10049b3e2">usernameEdit</a>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d6/d01/classDlgLoginPrompt.html#a3880d234ea2482b7498877ff562b526c">   39</a></span>    QLineEdit *<a class="code hl_variable" href="../../d6/d01/classDlgLoginPrompt.html#a3880d234ea2482b7498877ff562b526c">passwordEdit</a>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../d6/d01/classDlgLoginPrompt.html#a5834435c8685b3ad651126b106b6b9c6">   40</a></span>    QCheckBox *<a class="code hl_variable" href="../../d6/d01/classDlgLoginPrompt.html#a5834435c8685b3ad651126b106b6b9c6">savePasswordCheckBox</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>};</div>
 </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#endif </span><span class="comment">// DLG_LOGIN_PROMPT_H</span></div>
-<div class="ttc" id="aclassDlgLoginPrompt_html_a316b119c0f30f480fb59a14841dd8c57"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#a316b119c0f30f480fb59a14841dd8c57">DlgLoginPrompt::password</a></div><div class="ttdeci">QString password() const</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.cpp:42</div></div>
-<div class="ttc" id="aclassDlgLoginPrompt_html_a3880d234ea2482b7498877ff562b526c"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#a3880d234ea2482b7498877ff562b526c">DlgLoginPrompt::passwordEdit</a></div><div class="ttdeci">QLineEdit * passwordEdit</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.h:36</div></div>
-<div class="ttc" id="aclassDlgLoginPrompt_html_a56e00adbb989355cfecbd5ee96e905b9"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#a56e00adbb989355cfecbd5ee96e905b9">DlgLoginPrompt::DlgLoginPrompt</a></div><div class="ttdeci">DlgLoginPrompt(const QString &amp;serverText, QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.cpp:10</div></div>
-<div class="ttc" id="aclassDlgLoginPrompt_html_a5834435c8685b3ad651126b106b6b9c6"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#a5834435c8685b3ad651126b106b6b9c6">DlgLoginPrompt::savePasswordCheckBox</a></div><div class="ttdeci">QCheckBox * savePasswordCheckBox</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.h:37</div></div>
-<div class="ttc" id="aclassDlgLoginPrompt_html_a7de7960c65c0e841b4f1e2f10049b3e2"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#a7de7960c65c0e841b4f1e2f10049b3e2">DlgLoginPrompt::usernameEdit</a></div><div class="ttdeci">QLineEdit * usernameEdit</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.h:35</div></div>
-<div class="ttc" id="aclassDlgLoginPrompt_html_a87286edcfe843448ef532645fe7863de"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#a87286edcfe843448ef532645fe7863de">DlgLoginPrompt::savePassword</a></div><div class="ttdeci">bool savePassword() const</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.cpp:47</div></div>
-<div class="ttc" id="aclassDlgLoginPrompt_html_adc0741328d192399623e6f56cf565181"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#adc0741328d192399623e6f56cf565181">DlgLoginPrompt::username</a></div><div class="ttdeci">QString username() const</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.cpp:37</div></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#endif </span><span class="comment">// DLG_LOGIN_PROMPT_H</span></div>
+<div class="ttc" id="aclassDlgLoginPrompt_html_a316b119c0f30f480fb59a14841dd8c57"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#a316b119c0f30f480fb59a14841dd8c57">DlgLoginPrompt::password</a></div><div class="ttdeci">QString password() const</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.cpp:44</div></div>
+<div class="ttc" id="aclassDlgLoginPrompt_html_a3880d234ea2482b7498877ff562b526c"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#a3880d234ea2482b7498877ff562b526c">DlgLoginPrompt::passwordEdit</a></div><div class="ttdeci">QLineEdit * passwordEdit</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.h:39</div></div>
+<div class="ttc" id="aclassDlgLoginPrompt_html_a56e00adbb989355cfecbd5ee96e905b9"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#a56e00adbb989355cfecbd5ee96e905b9">DlgLoginPrompt::DlgLoginPrompt</a></div><div class="ttdeci">DlgLoginPrompt(const QString &amp;serverText, QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.cpp:12</div></div>
+<div class="ttc" id="aclassDlgLoginPrompt_html_a5834435c8685b3ad651126b106b6b9c6"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#a5834435c8685b3ad651126b106b6b9c6">DlgLoginPrompt::savePasswordCheckBox</a></div><div class="ttdeci">QCheckBox * savePasswordCheckBox</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.h:40</div></div>
+<div class="ttc" id="aclassDlgLoginPrompt_html_a7de7960c65c0e841b4f1e2f10049b3e2"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#a7de7960c65c0e841b4f1e2f10049b3e2">DlgLoginPrompt::usernameEdit</a></div><div class="ttdeci">QLineEdit * usernameEdit</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.h:38</div></div>
+<div class="ttc" id="aclassDlgLoginPrompt_html_a87286edcfe843448ef532645fe7863de"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#a87286edcfe843448ef532645fe7863de">DlgLoginPrompt::savePassword</a></div><div class="ttdeci">bool savePassword() const</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.cpp:49</div></div>
+<div class="ttc" id="aclassDlgLoginPrompt_html_adc0741328d192399623e6f56cf565181"><div class="ttname"><a href="../../d6/d01/classDlgLoginPrompt.html#adc0741328d192399623e6f56cf565181">DlgLoginPrompt::username</a></div><div class="ttdeci">QString username() const</div><div class="ttdef"><b>Definition</b> dlg_login_prompt.cpp:39</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

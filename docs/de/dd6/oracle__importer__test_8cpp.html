@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,16 +121,35 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('de/dd6/oracle_
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../dd/dac/oracleimporter_8h_source.html">../../oracle/src/oracleimporter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d85/raw__json__scanner_8h_source.html">../../oracle/src/raw_json_scanner.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/df3/card__info_8h_source.html">libcockatrice/card/card_info.h</a>&quot;</code><br />
 <code>#include &quot;gtest/gtest.h&quot;</code><br />
+<code>#include &lt;QByteArray&gt;</code><br />
+<code>#include &lt;QChar&gt;</code><br />
+<code>#include &lt;QDate&gt;</code><br />
 <code>#include &lt;QJsonArray&gt;</code><br />
 <code>#include &lt;QJsonDocument&gt;</code><br />
 <code>#include &lt;QJsonObject&gt;</code><br />
+<code>#include &lt;QJsonParseError&gt;</code><br />
+<code>#include &lt;QJsonValue&gt;</code><br />
+<code>#include &lt;QJsonValueRef&gt;</code><br />
+<code>#include &lt;QList&gt;</code><br />
+<code>#include &lt;QMap&gt;</code><br />
 <code>#include &lt;QObject&gt;</code><br />
 <code>#include &lt;QPair&gt;</code><br />
-<code>#include &lt;QSet&gt;</code><br />
+<code>#include &lt;QRegularExpression&gt;</code><br />
+<code>#include &lt;QRegularExpressionMatch&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QUuid&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
+<code>#include &lt;QVariantMap&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../de/d2f/format__legality__rules_8h_source.html">libcockatrice/card/format/format_legality_rules.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/dda/card__set_8h_source.html">libcockatrice/card/set/card_set.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/dd1/noop__card__set__priority__controller_8h_source.html">libcockatrice/interfaces/noop_card_set_priority_controller.h</a>&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for oracle_importer_test.cpp:</div>
 <div class="dyncontent">
@@ -240,7 +259,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_a67fa9ad514613f01a1f1b439121ac542_cgraph.svg" width="450" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_a67fa9ad514613f01a1f1b439121ac542_cgraph.svg" width="298" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -266,7 +285,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_a233d981075e1291c19fbbc638cc73eab_cgraph.svg" width="450" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_a233d981075e1291c19fbbc638cc73eab_cgraph.svg" width="298" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

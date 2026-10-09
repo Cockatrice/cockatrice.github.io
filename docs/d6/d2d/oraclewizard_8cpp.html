@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -126,17 +126,26 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d6/d2d/oraclew
 <code>#include &quot;<a class="el" href="../../dd/dac/oracleimporter_8h_source.html">oracleimporter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d56/pages_8h_source.html">pages.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/dfd/pagetemplates_8h_source.html">pagetemplates.h</a>&quot;</code><br />
-<code>#include &lt;QCheckBox&gt;</code><br />
-<code>#include &lt;QFileDialog&gt;</code><br />
-<code>#include &lt;QGridLayout&gt;</code><br />
-<code>#include &lt;QLineEdit&gt;</code><br />
-<code>#include &lt;QNetworkReply&gt;</code><br />
-<code>#include &lt;QPushButton&gt;</code><br />
-<code>#include &lt;QScrollBar&gt;</code><br />
-<code>#include &lt;QtConcurrent&gt;</code><br />
-<code>#include &lt;QtGui&gt;</code><br />
+<code>#include &lt;QAbstractButton&gt;</code><br />
+<code>#include &lt;QApplication&gt;</code><br />
+<code>#include &lt;QDebug&gt;</code><br />
+<code>#include &lt;QDialog&gt;</code><br />
+<code>#include &lt;QEvent&gt;</code><br />
+<code>#include &lt;QFile&gt;</code><br />
+<code>#include &lt;QIODevice&gt;</code><br />
+<code>#include &lt;QList&gt;</code><br />
+<code>#include &lt;QLocalServer&gt;</code><br />
+<code>#include &lt;QLocalSocket&gt;</code><br />
+<code>#include &lt;QNetworkAccessManager&gt;</code><br />
+<code>#include &lt;QSettings&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
+<code>#include &lt;QWindow&gt;</code><br />
+<code>#include &lt;QWizardPage&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d63/cards__display__settings_8h_source.html">libcockatrice/settings/cards_display_settings.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d2/d49/personal__settings_8h_source.html">libcockatrice/settings/personal_settings.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d6/da7/local__server__name_8h_source.html">libcockatrice/utility/local_server_name.h</a>&gt;</code><br />
+<code>#include &lt;qlogging.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for oraclewizard.cpp:</div>
 <div class="dyncontent">

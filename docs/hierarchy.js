@@ -75,6 +75,7 @@ var hierarchy =
     [ "CardSearchLanguage", "da/d5f/structCardSearchLanguage.html", null ],
     [ "CardSetPriorityComparator", "d1/db4/classCardSetPriorityComparator.html", null ],
     [ "CardToMove", "db/d90/structCardToMove.html", null ],
+    [ "CardUpdateProgress", "de/dbb/structCardUpdateProgress.html", null ],
     [ "Category", "de/dff/structCategory.html", null ],
     [ "ChatLogEntry", "d3/d1f/structChatLogEntry.html", null ],
     [ "CardNodeFunction::ClearPrintingData", "d2/db4/structCardNodeFunction_1_1ClearPrintingData.html", null ],
@@ -695,6 +696,7 @@ var hierarchy =
     [ "QFileDialog", null, [
       [ "DlgLoadDeck", "d3/d21/classDlgLoadDeck.html", null ]
     ] ],
+    [ "QFlags&lt; Enum &gt;", "dd/d03/classQFlags.html", null ],
     [ "QFrame", null, [
       [ "CardInfoDisplayWidget", "d1/de1/classCardInfoDisplayWidget.html", null ],
       [ "CardInfoTextWidget", "dd/d82/classCardInfoTextWidget.html", null ],
@@ -753,6 +755,7 @@ var hierarchy =
       [ "RoomSelector", "d8/d49/classRoomSelector.html", null ],
       [ "UserListWidget", "da/d3b/classUserListWidget.html", null ]
     ] ],
+    [ "QHash&lt; Key, T &gt;", "da/da1/classQHash.html", null ],
     [ "QIdentityProxyModel", null, [
       [ "DeckListStyleProxy", "d7/dea/classDeckListStyleProxy.html", null ]
     ] ],
@@ -775,14 +778,27 @@ var hierarchy =
         [ "SearchLineEdit", "d8/d4c/classSearchLineEdit.html", null ]
       ] ]
     ] ],
-    [ "QList", null, [
-      [ "CardList", "d4/d71/classCardList.html", null ],
-      [ "CardSet", "d6/d3d/classCardSet.html", null ],
-      [ "CardSetList", "dd/d65/classCardSetList.html", null ],
-      [ "InnerDecklistNode", "d4/d55/classInnerDecklistNode.html", null ],
-      [ "RemoteDeckList_TreeModel::DirectoryNode", "dc/d19/classRemoteDeckList__TreeModel_1_1DirectoryNode.html", null ],
-      [ "RemoteReplayList_TreeModel::MatchNode", "d7/d25/classRemoteReplayList__TreeModel_1_1MatchNode.html", null ],
+    [ "QList&lt; T &gt;", "d1/d4a/classQList.html", null ],
+    [ "QList&lt; AbstractDecklistNode * &gt;", "d1/d4a/classQList.html", [
+      [ "InnerDecklistNode", "d4/d55/classInnerDecklistNode.html", null ]
+    ] ],
+    [ "QList&lt; CardInfoPtr &gt;", "d1/d4a/classQList.html", [
+      [ "CardSet", "d6/d3d/classCardSet.html", null ]
+    ] ],
+    [ "QList&lt; CardItem * &gt;", "d1/d4a/classQList.html", [
+      [ "CardList", "d4/d71/classCardList.html", null ]
+    ] ],
+    [ "QList&lt; CardSetPtr &gt;", "d1/d4a/classQList.html", [
+      [ "CardSetList", "dd/d65/classCardSetList.html", null ]
+    ] ],
+    [ "QList&lt; Node * &gt;", "d1/d4a/classQList.html", [
+      [ "RemoteDeckList_TreeModel::DirectoryNode", "dc/d19/classRemoteDeckList__TreeModel_1_1DirectoryNode.html", null ]
+    ] ],
+    [ "QList&lt; QKeySequence &gt;", "d1/d4a/classQList.html", [
       [ "ShortcutKey", "d6/d8e/classShortcutKey.html", null ]
+    ] ],
+    [ "QList&lt; ReplayNode * &gt;", "d1/d4a/classQList.html", [
+      [ "RemoteReplayList_TreeModel::MatchNode", "d7/d25/classRemoteReplayList__TreeModel_1_1MatchNode.html", null ]
     ] ],
     [ "QMainWindow", null, [
       [ "MainWindow", "d6/d1a/classMainWindow.html", null ],
@@ -814,6 +830,7 @@ var hierarchy =
       ] ],
       [ "WndSets", "dd/d67/classWndSets.html", null ]
     ] ],
+    [ "QMap&lt; Key, T &gt;", "d0/d4c/classQMap.html", null ],
     [ "QMenu", null, [
       [ "CardMenu", "d8/d6d/classCardMenu.html", null ],
       [ "CustomZoneMenu", "d2/d1e/classCustomZoneMenu.html", null ],
@@ -1025,6 +1042,7 @@ var hierarchy =
     [ "QRubberBand", null, [
       [ "SelectionRubberBand", "df/d64/classSelectionRubberBand.html", null ]
     ] ],
+    [ "QSet&lt; T &gt;", "d4/dda/classQSet.html", null ],
     [ "QSettings", null, [
       [ "SettingsCache", "d5/d88/classSettingsCache.html", null ]
     ] ],
@@ -1032,6 +1050,7 @@ var hierarchy =
       [ "QxtMailAttachmentPrivate", "d5/d83/structQxtMailAttachmentPrivate.html", null ],
       [ "QxtMailMessagePrivate", "d6/d85/structQxtMailMessagePrivate.html", null ]
     ] ],
+    [ "QSharedPointer&lt; T &gt;", "dd/daa/classQSharedPointer.html", null ],
     [ "QSortFilterProxyModel", null, [
       [ "CardCompleterProxyModel", "d7/d80/classCardCompleterProxyModel.html", null ],
       [ "CardDatabaseDisplayModel", "da/d8d/classCardDatabaseDisplayModel.html", [
@@ -1116,6 +1135,7 @@ var hierarchy =
       [ "BarWidget", "db/daa/classBarWidget.html", null ],
       [ "CardAmountWidget", "dc/d15/classCardAmountWidget.html", null ],
       [ "CardArtPreviewWidget", "dd/d2f/classCardArtPreviewWidget.html", null ],
+      [ "CardDatabaseUpdateStatusBar", "d4/d7d/classCardDatabaseUpdateStatusBar.html", null ],
       [ "CardGroupDisplayWidget", "d9/d5d/classCardGroupDisplayWidget.html", [
         [ "FlatCardGroupDisplayWidget", "de/d0d/classFlatCardGroupDisplayWidget.html", null ],
         [ "OverlappedCardGroupDisplayWidget", "d4/d79/classOverlappedCardGroupDisplayWidget.html", null ]

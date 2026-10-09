@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,20 +121,33 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d9/d21/oraclei
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../dd/dac/oracleimporter_8h_source.html">oracleimporter.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d3f/noop__card__preference__provider_8h_source.html">libcockatrice/interfaces/noop_card_preference_provider.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/df3/card__info_8h_source.html">libcockatrice/card/card_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d2f/format__legality__rules_8h_source.html">libcockatrice/card/format/format_legality_rules.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/dc8/lazy__properties__hash_8h_source.html">libcockatrice/card/lazy_properties_hash.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d1e/card__relation__type_8h_source.html">libcockatrice/card/relation/card_relation_type.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/dd1/noop__card__set__priority__controller_8h_source.html">libcockatrice/interfaces/noop_card_set_priority_controller.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d57/parsehelpers_8h_source.html">parsehelpers.h</a>&quot;</code><br />
+<code>#include &lt;QChar&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QJsonDocument&gt;</code><br />
 <code>#include &lt;QJsonObject&gt;</code><br />
 <code>#include &lt;QJsonParseError&gt;</code><br />
+<code>#include &lt;QJsonValue&gt;</code><br />
+<code>#include &lt;QJsonValueConstRef&gt;</code><br />
+<code>#include &lt;QJsonValueRef&gt;</code><br />
+<code>#include &lt;QPair&gt;</code><br />
 <code>#include &lt;QRegularExpression&gt;</code><br />
+<code>#include &lt;QRegularExpressionMatch&gt;</code><br />
 <code>#include &lt;QSet&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;climits&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/d4d/libcockatrice__card_2libcockatrice_2card_2card__localization_8h_source.html">libcockatrice/card/card_localization.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d5/d69/cockatrice__xml__4_8h_source.html">libcockatrice/card/database/parser/cockatrice_xml_4.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/d72/card__relation_8h_source.html">libcockatrice/card/relation/card_relation.h</a>&gt;</code><br />
+<code>#include &lt;qlogging.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for oracleimporter.cpp:</div>
 <div class="dyncontent">
@@ -156,8 +169,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ac78b5ee560e5d90fe42b89ff9521d849" id="r_ac78b5ee560e5d90fe42b89ff9521d849"><td class="memItemLeft">static const QList&lt; <a class="el" href="../../d3/d3f/structAllowedCount.html">AllowedCount</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ac78b5ee560e5d90fe42b89ff9521d849">kConstructedCounts</a> = {{4, &quot;legal&quot;}, {0, &quot;banned&quot;}}</td></tr>
-<tr class="memitem:acc91fb4fd31c2c37c31726137ff47425" id="r_acc91fb4fd31c2c37c31726137ff47425"><td class="memItemLeft">static const QList&lt; <a class="el" href="../../d3/d3f/structAllowedCount.html">AllowedCount</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#acc91fb4fd31c2c37c31726137ff47425">kSingletonCounts</a> = {{1, &quot;legal&quot;}, {0, &quot;banned&quot;}}</td></tr>
+<tr class="memitem:ac78b5ee560e5d90fe42b89ff9521d849" id="r_ac78b5ee560e5d90fe42b89ff9521d849"><td class="memItemLeft">static const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d3/d3f/structAllowedCount.html">AllowedCount</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ac78b5ee560e5d90fe42b89ff9521d849">kConstructedCounts</a> = {{4, &quot;legal&quot;}, {0, &quot;banned&quot;}}</td></tr>
+<tr class="memitem:acc91fb4fd31c2c37c31726137ff47425" id="r_acc91fb4fd31c2c37c31726137ff47425"><td class="memItemLeft">static const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d3/d3f/structAllowedCount.html">AllowedCount</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#acc91fb4fd31c2c37c31726137ff47425">kSingletonCounts</a> = {{1, &quot;legal&quot;}, {0, &quot;banned&quot;}}</td></tr>
 <tr class="memitem:ac4847850212138e1fc661734ce7f80b8" id="r_ac4847850212138e1fc661734ce7f80b8"><td class="memItemLeft">static const QStringList&#160;</td><td class="memItemRight"><a class="el" href="#ac4847850212138e1fc661734ce7f80b8">MAIN_CARD_TYPE_PRIORITY</a></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
@@ -257,11 +270,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/d21/oracleimporter_8cpp_ab8d57ca677015b6ef918cc8b161d25fb_cgraph.svg" width="146" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -516,7 +524,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const QList&lt;<a class="el" href="../../d3/d3f/structAllowedCount.html">AllowedCount</a>&gt; kConstructedCounts = {{4, &quot;legal&quot;}, {0, &quot;banned&quot;}}</td>
+          <td class="memname">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt;<a class="el" href="../../d3/d3f/structAllowedCount.html">AllowedCount</a>&gt; kConstructedCounts = {{4, &quot;legal&quot;}, {0, &quot;banned&quot;}}</td>
         </tr>
       </table>
   </td>
@@ -538,7 +546,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const QList&lt;<a class="el" href="../../d3/d3f/structAllowedCount.html">AllowedCount</a>&gt; kSingletonCounts = {{1, &quot;legal&quot;}, {0, &quot;banned&quot;}}</td>
+          <td class="memname">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt;<a class="el" href="../../d3/d3f/structAllowedCount.html">AllowedCount</a>&gt; kSingletonCounts = {{1, &quot;legal&quot;}, {0, &quot;banned&quot;}}</td>
         </tr>
       </table>
   </td>

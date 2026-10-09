@@ -49,7 +49,7 @@ var searchData=
   ['actionarea_46',['actionArea',['../df/d81/classUserInfoPopup.html#af434f7dc1e1af46884a2c8a295a45d42',1,'UserInfoPopup']]],
   ['actiongroup_47',['actionGroup',['../df/dc2/classTallyMenu.html#af031526e84d69466b1399209b100b683',1,'TallyMenu']]],
   ['activateuserbutton_48',['activateUserButton',['../d5/d3b/classTabAdmin.html#ad100ed44c3737317d63585363298df9e',1,'TabAdmin']]],
-  ['active_49',['active',['../d2/d98/classPlayerLogic.html#abeff419a66b5bd0eaecea025a0109490',1,'PlayerLogic::active'],['../da/d20/classPhaseButton.html#a63dd7dc316df101ba7189d4187de74c0',1,'PhaseButton::active'],['../d6/d6f/classTableZone.html#ac7737b35855d6a60917afa160b93e177',1,'TableZone::active']]],
+  ['active_49',['active',['../d2/d98/classPlayerLogic.html#abeff419a66b5bd0eaecea025a0109490',1,'PlayerLogic::active'],['../da/d20/classPhaseButton.html#a63dd7dc316df101ba7189d4187de74c0',1,'PhaseButton::active'],['../d6/d6f/classTableZone.html#ac7737b35855d6a60917afa160b93e177',1,'TableZone::active'],['../d4/d7d/classCardDatabaseUpdateStatusBar.html#a4538a6e6617d94a80a5769eb5b9f8032',1,'CardDatabaseUpdateStatusBar::active']]],
   ['active_5fcommand_5ftypes_50',['active_command_types',['../df/d38/structResponse__GetServerStats.html#a9c56d7db1749d2823fe1f7a79e70519b',1,'Response_GetServerStats']]],
   ['active_5fphase_51',['active_phase',['../d3/d59/structEvent__GameStateChanged.html#a7764ebd0c92a9b8d3511473e372bcb6f',1,'Event_GameStateChanged']]],
   ['active_5fplayer_5fid_52',['active_player_id',['../d3/d59/structEvent__GameStateChanged.html#a7bf3cdd456244acadf45df6116e8b052',1,'Event_GameStateChanged::active_player_id'],['../d8/da0/structEvent__SetActivePlayer.html#a136d4bebdcf1a3de0447800b475c67e2',1,'Event_SetActivePlayer::active_player_id']]],

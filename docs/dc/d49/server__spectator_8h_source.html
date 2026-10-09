@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -125,24 +125,30 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('dc/d49/server_
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/d3f/server__abstract__participant_8h.html">server_abstract_participant.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="foldopen" id="foldopen00006" data-start="{" data-end="};">
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="../../d3/d2c/classServer__Spectator.html">    6</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d3/d2c/classServer__Spectator.html#ae0d52453c7ca9e105ecced0870f7d32d">Server_Spectator</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d00/classServer__AbstractParticipant.html#ac5049bcbff4ccba08e056cb3293ee787">Server_AbstractParticipant</a></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    Q_OBJECT</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <a class="code hl_function" href="../../d3/d2c/classServer__Spectator.html#ae0d52453c7ca9e105ecced0870f7d32d">Server_Spectator</a>(<a class="code hl_class" href="../../df/d89/classServer__Game.html">Server_Game</a> *_game,</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>                     <span class="keywordtype">int</span> _playerId,</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>                     <span class="keyword">const</span> <a class="code hl_struct" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &amp;_userInfo,</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>                     <span class="keywordtype">bool</span> _judge,</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>                     <a class="code hl_class" href="../../d5/d9c/classServer__AbstractUserInterface.html">Server_AbstractUserInterface</a> *_handler);</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>};</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;qtmetamacros.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">class </span><a class="code hl_struct" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a>;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">class </span><a class="code hl_class" href="../../d5/d9c/classServer__AbstractUserInterface.html">Server_AbstractUserInterface</a>;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span><a class="code hl_class" href="../../df/d89/classServer__Game.html">Server_Game</a>;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../d3/d2c/classServer__Spectator.html">   12</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d3/d2c/classServer__Spectator.html#ae0d52453c7ca9e105ecced0870f7d32d">Server_Spectator</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../d0/d00/classServer__AbstractParticipant.html#ac5049bcbff4ccba08e056cb3293ee787">Server_AbstractParticipant</a></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    Q_OBJECT</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_function" href="../../d3/d2c/classServer__Spectator.html#ae0d52453c7ca9e105ecced0870f7d32d">Server_Spectator</a>(<a class="code hl_class" href="../../df/d89/classServer__Game.html">Server_Game</a> *_game,</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>                     <span class="keywordtype">int</span> _playerId,</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                     <span class="keyword">const</span> <a class="code hl_struct" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &amp;_userInfo,</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>                     <span class="keywordtype">bool</span> _judge,</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>                     <a class="code hl_class" href="../../d5/d9c/classServer__AbstractUserInterface.html">Server_AbstractUserInterface</a> *_handler);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>};</div>
 </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassServer__AbstractParticipant_html_ac5049bcbff4ccba08e056cb3293ee787"><div class="ttname"><a href="../../d0/d00/classServer__AbstractParticipant.html#ac5049bcbff4ccba08e056cb3293ee787">Server_AbstractParticipant::Server_AbstractParticipant</a></div><div class="ttdeci">Server_AbstractParticipant(Server_Game *_game, int _playerId, const ServerInfo_User &amp;_userInfo, bool _judge, Server_AbstractUserInterface *_handler)</div><div class="ttdef"><b>Definition</b> server_abstract_participant.cpp:54</div></div>
-<div class="ttc" id="aclassServer__AbstractUserInterface_html"><div class="ttname"><a href="../../d5/d9c/classServer__AbstractUserInterface.html">Server_AbstractUserInterface</a></div><div class="ttdef"><b>Definition</b> server_abstractuserinterface.h:20</div></div>
-<div class="ttc" id="aclassServer__Game_html"><div class="ttname"><a href="../../df/d89/classServer__Game.html">Server_Game</a></div><div class="ttdef"><b>Definition</b> server_game.h:52</div></div>
-<div class="ttc" id="aclassServer__Spectator_html_ae0d52453c7ca9e105ecced0870f7d32d"><div class="ttname"><a href="../../d3/d2c/classServer__Spectator.html#ae0d52453c7ca9e105ecced0870f7d32d">Server_Spectator::Server_Spectator</a></div><div class="ttdeci">Server_Spectator(Server_Game *_game, int _playerId, const ServerInfo_User &amp;_userInfo, bool _judge, Server_AbstractUserInterface *_handler)</div><div class="ttdef"><b>Definition</b> server_spectator.cpp:3</div></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassServer__AbstractParticipant_html_ac5049bcbff4ccba08e056cb3293ee787"><div class="ttname"><a href="../../d0/d00/classServer__AbstractParticipant.html#ac5049bcbff4ccba08e056cb3293ee787">Server_AbstractParticipant::Server_AbstractParticipant</a></div><div class="ttdeci">Server_AbstractParticipant(Server_Game *_game, int _playerId, const ServerInfo_User &amp;_userInfo, bool _judge, Server_AbstractUserInterface *_handler)</div><div class="ttdef"><b>Definition</b> server_abstract_participant.cpp:61</div></div>
+<div class="ttc" id="aclassServer__AbstractUserInterface_html"><div class="ttname"><a href="../../d5/d9c/classServer__AbstractUserInterface.html">Server_AbstractUserInterface</a></div><div class="ttdef"><b>Definition</b> server_abstractuserinterface.h:28</div></div>
+<div class="ttc" id="aclassServer__Game_html"><div class="ttname"><a href="../../df/d89/classServer__Game.html">Server_Game</a></div><div class="ttdef"><b>Definition</b> server_game.h:67</div></div>
+<div class="ttc" id="aclassServer__Spectator_html_ae0d52453c7ca9e105ecced0870f7d32d"><div class="ttname"><a href="../../d3/d2c/classServer__Spectator.html#ae0d52453c7ca9e105ecced0870f7d32d">Server_Spectator::Server_Spectator</a></div><div class="ttdeci">Server_Spectator(Server_Game *_game, int _playerId, const ServerInfo_User &amp;_userInfo, bool _judge, Server_AbstractUserInterface *_handler)</div><div class="ttdef"><b>Definition</b> server_spectator.cpp:9</div></div>
 <div class="ttc" id="aserver__abstract__participant_8h_html"><div class="ttname"><a href="../../d9/d3f/server__abstract__participant_8h.html">server_abstract_participant.h</a></div></div>
 <div class="ttc" id="astructServerInfo__User_html"><div class="ttname"><a href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a></div><div class="ttdef"><b>Definition</b> serverinfo_user.proto:2</div></div>
 </div><!-- fragment --></div><!-- contents -->

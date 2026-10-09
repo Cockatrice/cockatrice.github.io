@@ -8,5 +8,5 @@ var pages_8cpp =
     [ "TOKENS_URL", "d3/d12/pages_8cpp.html#a4e97ca67b56580bd41d3baa64d90e92a", null ],
     [ "XZ_SIGNATURE", "d3/d12/pages_8cpp.html#ab0de6e03a8c58f235305064def8b9b0f", null ],
     [ "ZIP_SIGNATURE", "d3/d12/pages_8cpp.html#a38aa37166da673dad86409cf7ecba465", null ],
-    [ "emitBackgroundProgress", "d3/d12/pages_8cpp.html#a96947fa816aae3492dfae0e965bc0cc9", null ]
+    [ "emitProgress", "d3/d12/pages_8cpp.html#a0a82be69ef40d1ee70b04cfea3aaf905", null ]
 ];

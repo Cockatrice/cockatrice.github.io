@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -122,14 +122,20 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('dc/d8b/card__d
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d66/card__database_8h_source.html">card_database.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d72/card__relation_8h_source.html">../relation/card_relation.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">card_database_manager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d69/cockatrice__xml__4_8h_source.html">parser/cockatrice_xml_4.h</a>&quot;</code><br />
-<code>#include &lt;QCryptographicHash&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d5f/card__database__data_8h_source.html">libcockatrice/card/database/card_database_data.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d6b/card__database__loader_8h_source.html">libcockatrice/card/database/card_database_loader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d9e/card__database__querier_8h_source.html">libcockatrice/card/database/card_database_querier.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/df5/card__database__parser_8h_source.html">libcockatrice/card/database/parser/card_database_parser.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d2f/format__legality__rules_8h_source.html">libcockatrice/card/format/format_legality_rules.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/dd2/printing__info_8h_source.html">libcockatrice/card/printing/printing_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dda/card__set_8h_source.html">libcockatrice/card/set/card_set.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d0f/card__set__list_8h_source.html">libcockatrice/card/set/card_set_list.h</a>&quot;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
-<code>#include &lt;QDirIterator&gt;</code><br />
-<code>#include &lt;QFile&gt;</code><br />
-<code>#include &lt;QRegularExpression&gt;</code><br />
-<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;QList&gt;</code><br />
+<code>#include &lt;QMessageLogger&gt;</code><br />
+<code>#include &lt;QMetaType&gt;</code><br />
+<code>#include &lt;QMutexLocker&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for card_database.cpp:</div>

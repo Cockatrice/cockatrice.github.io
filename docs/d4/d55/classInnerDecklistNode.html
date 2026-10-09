@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -190,7 +190,7 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0b5a2e95bbf05f6d153f222dcb00a5cc" id="r_a0b5a2e95bbf05f6d153f222dcb00a5cc"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#a0b5a2e95bbf05f6d153f222dcb00a5cc">visibleNameFromName</a> (const QString &amp;_name)</td></tr>
 <tr class="memdesc:a0b5a2e95bbf05f6d153f222dcb00a5cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translate an internal name into a user-visible name.  <br /></td></tr>
-<tr class="memitem:ac79e52cd241520737e4ac83673cd2520" id="r_ac79e52cd241520737e4ac83673cd2520"><td class="memItemLeft">static const QList&lt; QString &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ac79e52cd241520737e4ac83673cd2520">boardZoneNames</a> ()</td></tr>
+<tr class="memitem:ac79e52cd241520737e4ac83673cd2520" id="r_ac79e52cd241520737e4ac83673cd2520"><td class="memItemLeft">static const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ac79e52cd241520737e4ac83673cd2520">boardZoneNames</a> ()</td></tr>
 <tr class="memdesc:ac79e52cd241520737e4ac83673cd2520"><td class="mdescLeft">&#160;</td><td class="mdescRight">The standard board zone names, in display order.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
@@ -218,7 +218,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a container node in the deck list hierarchy (zones and groupings). </p>
 <p>Unlike <a class="el" href="../../d5/d22/classDecklistCardNode.html" title="Concrete node type representing an actual card entry in the deck.">DecklistCardNode</a>, which holds leaf card data, this class manages collections of child nodes, which may themselves be <a class="el" href="../../d4/d55/classInnerDecklistNode.html" title="Represents a container node in the deck list hierarchy (zones and groupings).">InnerDecklistNode</a> or <a class="el" href="../../d5/d22/classDecklistCardNode.html" title="Concrete node type representing an actual card entry in the deck.">DecklistCardNode</a> objects.</p>
-<h3 class="doxsection"><a class="anchor" id="role-in-the-hierarchy-2"></a>
+<h3 class="doxsection"><a class="anchor" id="role-in-the-hierarchy-1"></a>
 Role in the hierarchy:</h3>
 <ul>
 <li>Root node (invisible): Holds zones.</li>
@@ -229,9 +229,9 @@ Role in the hierarchy:</h3>
 <h3 class="doxsection"><a class="anchor" id="design-notes"></a>
 Design notes:</h3>
 <ul>
-<li>Inherits from <a class="el" href="../../dc/dd8/classAbstractDecklistNode.html" title="Base class for all nodes in the deck list tree.">AbstractDecklistNode</a> (tree interface) and QList&lt;AbstractDecklistNode*&gt; (storage of children). This allows direct QList-style manipulation of children while still presenting a polymorphic node interface.</li>
+<li>Inherits from <a class="el" href="../../dc/dd8/classAbstractDecklistNode.html" title="Base class for all nodes in the deck list tree.">AbstractDecklistNode</a> (tree interface) and <a class="el" href="../../d1/d4a/classQList.html">QList&lt;AbstractDecklistNode*&gt;</a> (storage of children). This allows direct QList-style manipulation of children while still presenting a polymorphic node interface.</li>
 </ul>
-<h3 class="doxsection"><a class="anchor" id="responsibilities-7"></a>
+<h3 class="doxsection"><a class="anchor" id="responsibilities-5"></a>
 Responsibilities:</h3>
 <ul>
 <li>Store a display name.</li>
@@ -240,10 +240,10 @@ Responsibilities:</h3>
 <li>Implement sorting logic for reordering children.</li>
 <li>Implement XML serialization for persistence.</li>
 </ul>
-<h3 class="doxsection"><a class="anchor" id="ownership-3"></a>
+<h3 class="doxsection"><a class="anchor" id="ownership-2"></a>
 Ownership:</h3>
 <ul>
-<li>Owns all child nodes stored in the QList. The destructor recursively deletes children. </li>
+<li>Owns all child nodes stored in the <a class="el" href="../../d1/d4a/classQList.html">QList</a>. The destructor recursively deletes children. </li>
 </ul>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac20f2f05e6658d236abccc427f7d848c" name="ac20f2f05e6658d236abccc427f7d848c"></a>
@@ -419,7 +419,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const QList&lt; QString &gt; &amp; InnerDecklistNode::boardZoneNames </td>
+          <td class="memname">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt; &amp; InnerDecklistNode::boardZoneNames </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>

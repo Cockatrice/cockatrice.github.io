@@ -57,16 +57,16 @@ var group__CardDatabase =
       [ "simpleNameCards", "d4/da7/structCardDatabaseData.html#a324b8ff07c2c75b93834a2931b7208f2", null ]
     ] ],
     [ "CardDatabaseLoader", "d2/d1b/classCardDatabaseLoader.html", [
-      [ "CardDatabaseLoader", "d2/d1b/classCardDatabaseLoader.html#a7f8e91a450aee800d53ab73bb0f3b1d4", null ],
+      [ "CardDatabaseLoader", "d2/d1b/classCardDatabaseLoader.html#a5170e90524b56c0a2efa7e5cc8c0dd26", null ],
       [ "~CardDatabaseLoader", "d2/d1b/classCardDatabaseLoader.html#ae20f37cfeec85d8eb150ccee93b170e8", null ],
       [ "allNewSetsEnabled", "d2/d1b/classCardDatabaseLoader.html#a7a026d93658e636004d918e78c5964c0", null ],
       [ "cachePath", "d2/d1b/classCardDatabaseLoader.html#ae2838de086bc82b3dfd1e4a468045085", null ],
       [ "collectCustomDatabasePaths", "d2/d1b/classCardDatabaseLoader.html#aa1b7a8668bc802a93f63b275305b2988", null ],
       [ "computeSourceHash", "d2/d1b/classCardDatabaseLoader.html#a5fa4e747080c39c12bc759f158977726", null ],
       [ "databaseDataReady", "d2/d1b/classCardDatabaseLoader.html#a3474006f1f6d3496d13365c8932c5127", null ],
-      [ "doLoadCardDatabases", "d2/d1b/classCardDatabaseLoader.html#aeb3a5ca43a0e3f6be9a68cfc4b0c7b3f", null ],
+      [ "doLoadCardDatabases", "d2/d1b/classCardDatabaseLoader.html#a51779aff1fa932e546ed37fb6a68d2a3", null ],
       [ "loadCardDatabase", "d2/d1b/classCardDatabaseLoader.html#aa0d558aa4f4c2c8a5eb00bbbdc37b306", null ],
-      [ "loadCardDatabases", "d2/d1b/classCardDatabaseLoader.html#ac0cd4d50fa61eeebb743b527f7564fea", null ],
+      [ "loadCardDatabases", "d2/d1b/classCardDatabaseLoader.html#a8d366af0f73f61b90b4d47f4d0333257", null ],
       [ "loadFromCache", "d2/d1b/classCardDatabaseLoader.html#adea098255c5f4f9f9c8ade11ce96f566", null ],
       [ "loadFromFile", "d2/d1b/classCardDatabaseLoader.html#a90ddc90d8955d2e830746cda87a00da2", null ],
       [ "loadingFailed", "d2/d1b/classCardDatabaseLoader.html#a0713a543ff21174c295adae0ce62afda", null ],
@@ -157,7 +157,7 @@ var group__CardDatabase =
       [ "saveToFile", "d5/dba/classCockatriceXml3Parser.html#ab662948b7fc441506ae8fad0e2380cdc", null ]
     ] ],
     [ "CockatriceXml4Parser", "dc/d53/classCockatriceXml4Parser.html", [
-      [ "CockatriceXml4Parser", "dc/d53/classCockatriceXml4Parser.html#a45d81a078d3bf8de9cd1942d867ee31b", null ],
+      [ "CockatriceXml4Parser", "dc/d53/classCockatriceXml4Parser.html#a09b46187bde0449c2ef268efd688ed3e", null ],
       [ "~CockatriceXml4Parser", "dc/d53/classCockatriceXml4Parser.html#a2c2bb2eeebb38620f5fe828e03e25f3f", null ],
       [ "getCanParseFile", "dc/d53/classCockatriceXml4Parser.html#a034ced8c7edd611a7b1903c211625205", null ],
       [ "loadCardPropertiesFromXml", "dc/d53/classCockatriceXml4Parser.html#a84686ecb8e88a5832ed99a206855159f", null ],
@@ -166,7 +166,6 @@ var group__CardDatabase =
       [ "loadSetsFromXml", "dc/d53/classCockatriceXml4Parser.html#a558de55444ec5e73877fd6c45af3d87b", null ],
       [ "parseFile", "dc/d53/classCockatriceXml4Parser.html#a1fc252f895431057517d6ad304f99161", null ],
       [ "parseFileInto", "dc/d53/classCockatriceXml4Parser.html#a83f4975d114a61b07cd1d2bbf18fe02d", null ],
-      [ "saveToFile", "dc/d53/classCockatriceXml4Parser.html#af098532fd597f6e57bed9b2c8aa10d7d", null ],
-      [ "cardPreferenceProvider", "dc/d53/classCockatriceXml4Parser.html#ad7b2a3e28c6eeb44903a5511d0435502", null ]
+      [ "saveToFile", "dc/d53/classCockatriceXml4Parser.html#af098532fd597f6e57bed9b2c8aa10d7d", null ]
     ] ]
 ];

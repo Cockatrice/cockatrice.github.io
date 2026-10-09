@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,10 +123,15 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d2/d90/tab__re
 <div class="textblock"><code>#include &quot;<a class="el" href="../../dc/d0a/tab__report_8h_source.html">tab_report.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d7f/report__utils_8h_source.html">../utility/report_utils.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d5/db3/abstract__client_8h_source.html">abstract_client.h</a>&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/response.pb.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d89/tab__supervisor_8h_source.html">tab_supervisor.h</a>&quot;</code><br />
+<code>#include &lt;QAbstractItemView&gt;</code><br />
+<code>#include &lt;QChar&gt;</code><br />
 <code>#include &lt;QCheckBox&gt;</code><br />
 <code>#include &lt;QComboBox&gt;</code><br />
 <code>#include &lt;QDateTime&gt;</code><br />
+<code>#include &lt;QDebug&gt;</code><br />
+<code>#include &lt;QFont&gt;</code><br />
 <code>#include &lt;QFontDatabase&gt;</code><br />
 <code>#include &lt;QGridLayout&gt;</code><br />
 <code>#include &lt;QGroupBox&gt;</code><br />
@@ -135,16 +140,19 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d2/d90/tab__re
 <code>#include &lt;QInputDialog&gt;</code><br />
 <code>#include &lt;QLabel&gt;</code><br />
 <code>#include &lt;QLineEdit&gt;</code><br />
-<code>#include &lt;QMessageBox&gt;</code><br />
 <code>#include &lt;QPushButton&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
 <code>#include &lt;QSignalBlocker&gt;</code><br />
 <code>#include &lt;QSplitter&gt;</code><br />
 <code>#include &lt;QTableWidget&gt;</code><br />
+<code>#include &lt;QTableWidgetItem&gt;</code><br />
 <code>#include &lt;QTextCursor&gt;</code><br />
 <code>#include &lt;QTextEdit&gt;</code><br />
 <code>#include &lt;QTimer&gt;</code><br />
 <code>#include &lt;QVBoxLayout&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
 <code>#include &lt;QWidget&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_replay_download_by_game_id.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_report_add_comment.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_report_assign.pb.h&gt;</code><br />
@@ -161,11 +169,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d2/d90/tab__re
 <code>#include &lt;libcockatrice/protocol/pb/response_report_user_info.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/serverinfo_report.pb.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d07/pending__command_8h_source.html">libcockatrice/protocol/pending_command.h</a>&gt;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for tab_report.cpp:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d73/tab__report_8cpp__incl.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
+<code>#include &lt;qnamespace.h&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

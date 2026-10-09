@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -128,60 +128,61 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d5/d54/dlg__ed
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QComboBox&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QDialog&gt;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QLineEdit&gt;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>QLabel;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span>QPushButton;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span>QCheckBox;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html">   18</a></span><span class="keyword">class </span><a class="code hl_function" href="../../db/de1/classDlgEditUser.html#aea2eb1c7f64cd49b66617639f9a1cebd">DlgEditUser</a> : <span class="keyword">public</span> QDialog</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    Q_OBJECT</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../db/de1/classDlgEditUser.html#aea2eb1c7f64cd49b66617639f9a1cebd">DlgEditUser</a>(QWidget *parent = <span class="keyword">nullptr</span>,</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>                         QString email = QString(),</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>                         QString country = QString(),</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>                         QString realName = QString());</div>
-<div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html#a86d6e09100959fce3f24e6ce2bd77c37">   26</a></span>    [[nodiscard]] QString <a class="code hl_function" href="../../db/de1/classDlgEditUser.html#a86d6e09100959fce3f24e6ce2bd77c37">getEmail</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a8e8adab7c29e8804877799a3db5a8f05">emailEdit</a>-&gt;text();</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    }</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;qtmetamacros.h&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">class </span>QLabel;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span>QWidget;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html">   19</a></span><span class="keyword">class </span><a class="code hl_function" href="../../db/de1/classDlgEditUser.html#aea2eb1c7f64cd49b66617639f9a1cebd">DlgEditUser</a> : <span class="keyword">public</span> QDialog</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    Q_OBJECT</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../db/de1/classDlgEditUser.html#aea2eb1c7f64cd49b66617639f9a1cebd">DlgEditUser</a>(QWidget *parent = <span class="keyword">nullptr</span>,</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>                         QString email = QString(),</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>                         QString country = QString(),</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>                         QString realName = QString());</div>
+<div class="foldopen" id="foldopen00027" data-start="{" data-end="}">
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html#a86d6e09100959fce3f24e6ce2bd77c37">   27</a></span>    [[nodiscard]] QString <a class="code hl_function" href="../../db/de1/classDlgEditUser.html#a86d6e09100959fce3f24e6ce2bd77c37">getEmail</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a8e8adab7c29e8804877799a3db5a8f05">emailEdit</a>-&gt;text();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00030" data-start="{" data-end="}">
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html#a4cafca9ade2106b5fb84906160803cdf">   30</a></span>    [[nodiscard]] QString <a class="code hl_function" href="../../db/de1/classDlgEditUser.html#a4cafca9ade2106b5fb84906160803cdf">getCountry</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a6d0449b3ec72e16117a084aa9b7ef693">countryEdit</a>-&gt;currentIndex() == 0 ? <span class="stringliteral">&quot;&quot;</span> : <a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a6d0449b3ec72e16117a084aa9b7ef693">countryEdit</a>-&gt;currentText();</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    }</div>
+<div class="foldopen" id="foldopen00031" data-start="{" data-end="}">
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html#a4cafca9ade2106b5fb84906160803cdf">   31</a></span>    [[nodiscard]] QString <a class="code hl_function" href="../../db/de1/classDlgEditUser.html#a4cafca9ade2106b5fb84906160803cdf">getCountry</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a6d0449b3ec72e16117a084aa9b7ef693">countryEdit</a>-&gt;currentIndex() == 0 ? <span class="stringliteral">&quot;&quot;</span> : <a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a6d0449b3ec72e16117a084aa9b7ef693">countryEdit</a>-&gt;currentText();</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    }</div>
 </div>
-<div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html#a6c74953864d52f52a63c85a93bbdee64">   34</a></span>    [[nodiscard]] QString <a class="code hl_function" href="../../db/de1/classDlgEditUser.html#a6c74953864d52f52a63c85a93bbdee64">getRealName</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">    </span>{</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a473ac941c90d6f1a944266de4b054d37">realnameEdit</a>-&gt;text();</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    }</div>
+<div class="foldopen" id="foldopen00035" data-start="{" data-end="}">
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html#a6c74953864d52f52a63c85a93bbdee64">   35</a></span>    [[nodiscard]] QString <a class="code hl_function" href="../../db/de1/classDlgEditUser.html#a6c74953864d52f52a63c85a93bbdee64">getRealName</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a473ac941c90d6f1a944266de4b054d37">realnameEdit</a>-&gt;text();</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    }</div>
 </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../db/de1/classDlgEditUser.html#a36087efba0883aec272c3ed58a555b41">actOk</a>();</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html#a8a3617ed793cc85f1fda64afe4109f53">   42</a></span>    QLabel *<a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#af83444bf7fe28c180a209ebf9ab5b435">emailLabel</a>, *<a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a8a3617ed793cc85f1fda64afe4109f53">countryLabel</a>, *<a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a5454c50fe88dcce266fe5202db87b1f4">realnameLabel</a>;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html#a8e8adab7c29e8804877799a3db5a8f05">   43</a></span>    QLineEdit *<a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a8e8adab7c29e8804877799a3db5a8f05">emailEdit</a>, *<a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a473ac941c90d6f1a944266de4b054d37">realnameEdit</a>;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html#a6d0449b3ec72e16117a084aa9b7ef693">   44</a></span>    QComboBox *<a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a6d0449b3ec72e16117a084aa9b7ef693">countryEdit</a>;</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>};</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../db/de1/classDlgEditUser.html#a36087efba0883aec272c3ed58a555b41">actOk</a>();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html#a8a3617ed793cc85f1fda64afe4109f53">   43</a></span>    QLabel *<a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#af83444bf7fe28c180a209ebf9ab5b435">emailLabel</a>, *<a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a8a3617ed793cc85f1fda64afe4109f53">countryLabel</a>, *<a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a5454c50fe88dcce266fe5202db87b1f4">realnameLabel</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html#a8e8adab7c29e8804877799a3db5a8f05">   44</a></span>    QLineEdit *<a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a8e8adab7c29e8804877799a3db5a8f05">emailEdit</a>, *<a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a473ac941c90d6f1a944266de4b054d37">realnameEdit</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../db/de1/classDlgEditUser.html#a6d0449b3ec72e16117a084aa9b7ef693">   45</a></span>    QComboBox *<a class="code hl_variable" href="../../db/de1/classDlgEditUser.html#a6d0449b3ec72e16117a084aa9b7ef693">countryEdit</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>};</div>
 </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassDlgEditUser_html_a36087efba0883aec272c3ed58a555b41"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a36087efba0883aec272c3ed58a555b41">DlgEditUser::actOk</a></div><div class="ttdeci">void actOk()</div><div class="ttdef"><b>Definition</b> dlg_edit_user.cpp:64</div></div>
-<div class="ttc" id="aclassDlgEditUser_html_a473ac941c90d6f1a944266de4b054d37"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a473ac941c90d6f1a944266de4b054d37">DlgEditUser::realnameEdit</a></div><div class="ttdeci">QLineEdit * realnameEdit</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:43</div></div>
-<div class="ttc" id="aclassDlgEditUser_html_a4cafca9ade2106b5fb84906160803cdf"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a4cafca9ade2106b5fb84906160803cdf">DlgEditUser::getCountry</a></div><div class="ttdeci">QString getCountry() const</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:30</div></div>
-<div class="ttc" id="aclassDlgEditUser_html_a5454c50fe88dcce266fe5202db87b1f4"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a5454c50fe88dcce266fe5202db87b1f4">DlgEditUser::realnameLabel</a></div><div class="ttdeci">QLabel * realnameLabel</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:42</div></div>
-<div class="ttc" id="aclassDlgEditUser_html_a6c74953864d52f52a63c85a93bbdee64"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a6c74953864d52f52a63c85a93bbdee64">DlgEditUser::getRealName</a></div><div class="ttdeci">QString getRealName() const</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:34</div></div>
-<div class="ttc" id="aclassDlgEditUser_html_a6d0449b3ec72e16117a084aa9b7ef693"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a6d0449b3ec72e16117a084aa9b7ef693">DlgEditUser::countryEdit</a></div><div class="ttdeci">QComboBox * countryEdit</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:44</div></div>
-<div class="ttc" id="aclassDlgEditUser_html_a86d6e09100959fce3f24e6ce2bd77c37"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a86d6e09100959fce3f24e6ce2bd77c37">DlgEditUser::getEmail</a></div><div class="ttdeci">QString getEmail() const</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:26</div></div>
-<div class="ttc" id="aclassDlgEditUser_html_a8a3617ed793cc85f1fda64afe4109f53"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a8a3617ed793cc85f1fda64afe4109f53">DlgEditUser::countryLabel</a></div><div class="ttdeci">QLabel * countryLabel</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:42</div></div>
-<div class="ttc" id="aclassDlgEditUser_html_a8e8adab7c29e8804877799a3db5a8f05"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a8e8adab7c29e8804877799a3db5a8f05">DlgEditUser::emailEdit</a></div><div class="ttdeci">QLineEdit * emailEdit</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:43</div></div>
-<div class="ttc" id="aclassDlgEditUser_html_aea2eb1c7f64cd49b66617639f9a1cebd"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#aea2eb1c7f64cd49b66617639f9a1cebd">DlgEditUser::DlgEditUser</a></div><div class="ttdeci">DlgEditUser(QWidget *parent=nullptr, QString email=QString(), QString country=QString(), QString realName=QString())</div><div class="ttdef"><b>Definition</b> dlg_edit_user.cpp:11</div></div>
-<div class="ttc" id="aclassDlgEditUser_html_af83444bf7fe28c180a209ebf9ab5b435"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#af83444bf7fe28c180a209ebf9ab5b435">DlgEditUser::emailLabel</a></div><div class="ttdeci">QLabel * emailLabel</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:42</div></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassDlgEditUser_html_a36087efba0883aec272c3ed58a555b41"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a36087efba0883aec272c3ed58a555b41">DlgEditUser::actOk</a></div><div class="ttdeci">void actOk()</div><div class="ttdef"><b>Definition</b> dlg_edit_user.cpp:72</div></div>
+<div class="ttc" id="aclassDlgEditUser_html_a473ac941c90d6f1a944266de4b054d37"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a473ac941c90d6f1a944266de4b054d37">DlgEditUser::realnameEdit</a></div><div class="ttdeci">QLineEdit * realnameEdit</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:44</div></div>
+<div class="ttc" id="aclassDlgEditUser_html_a4cafca9ade2106b5fb84906160803cdf"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a4cafca9ade2106b5fb84906160803cdf">DlgEditUser::getCountry</a></div><div class="ttdeci">QString getCountry() const</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:31</div></div>
+<div class="ttc" id="aclassDlgEditUser_html_a5454c50fe88dcce266fe5202db87b1f4"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a5454c50fe88dcce266fe5202db87b1f4">DlgEditUser::realnameLabel</a></div><div class="ttdeci">QLabel * realnameLabel</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:43</div></div>
+<div class="ttc" id="aclassDlgEditUser_html_a6c74953864d52f52a63c85a93bbdee64"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a6c74953864d52f52a63c85a93bbdee64">DlgEditUser::getRealName</a></div><div class="ttdeci">QString getRealName() const</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:35</div></div>
+<div class="ttc" id="aclassDlgEditUser_html_a6d0449b3ec72e16117a084aa9b7ef693"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a6d0449b3ec72e16117a084aa9b7ef693">DlgEditUser::countryEdit</a></div><div class="ttdeci">QComboBox * countryEdit</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:45</div></div>
+<div class="ttc" id="aclassDlgEditUser_html_a86d6e09100959fce3f24e6ce2bd77c37"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a86d6e09100959fce3f24e6ce2bd77c37">DlgEditUser::getEmail</a></div><div class="ttdeci">QString getEmail() const</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:27</div></div>
+<div class="ttc" id="aclassDlgEditUser_html_a8a3617ed793cc85f1fda64afe4109f53"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a8a3617ed793cc85f1fda64afe4109f53">DlgEditUser::countryLabel</a></div><div class="ttdeci">QLabel * countryLabel</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:43</div></div>
+<div class="ttc" id="aclassDlgEditUser_html_a8e8adab7c29e8804877799a3db5a8f05"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#a8e8adab7c29e8804877799a3db5a8f05">DlgEditUser::emailEdit</a></div><div class="ttdeci">QLineEdit * emailEdit</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:44</div></div>
+<div class="ttc" id="aclassDlgEditUser_html_aea2eb1c7f64cd49b66617639f9a1cebd"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#aea2eb1c7f64cd49b66617639f9a1cebd">DlgEditUser::DlgEditUser</a></div><div class="ttdeci">DlgEditUser(QWidget *parent=nullptr, QString email=QString(), QString country=QString(), QString realName=QString())</div><div class="ttdef"><b>Definition</b> dlg_edit_user.cpp:19</div></div>
+<div class="ttc" id="aclassDlgEditUser_html_af83444bf7fe28c180a209ebf9ab5b435"><div class="ttname"><a href="../../db/de1/classDlgEditUser.html#af83444bf7fe28c180a209ebf9ab5b435">DlgEditUser::emailLabel</a></div><div class="ttdeci">QLabel * emailLabel</div><div class="ttdef"><b>Definition</b> dlg_edit_user.h:43</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

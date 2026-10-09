@@ -22,6 +22,7 @@ var classGeneralSettingsPage =
     [ "cardDatabaseGroupBox", "d0/d41/classGeneralSettingsPage.html#a5771da795097aef1d21e829c70a95ce3", null ],
     [ "cardDatabasePathEdit", "d0/d41/classGeneralSettingsPage.html#a3c9cd0a8229091df896e53f609b50c22", null ],
     [ "cardDatabasePathLabel", "d0/d41/classGeneralSettingsPage.html#af08aeaf0bb09399a9f5006a5b3a339dc", null ],
+    [ "cardDatabaseUpdateTrayNotificationCheckBox", "d0/d41/classGeneralSettingsPage.html#a9c7bc7c2937afcd88f99f882ad00f15f", null ],
     [ "cardLanguageBox", "d0/d41/classGeneralSettingsPage.html#adff3f289975e2fa523f4780339df60bb", null ],
     [ "cardLanguageLabel", "d0/d41/classGeneralSettingsPage.html#a3bf11226c17d1d05d597dd79ade2d410", null ],
     [ "cardLanguageNoteLabel", "d0/d41/classGeneralSettingsPage.html#a6c169f70aa514562488a4271cd12940f", null ],

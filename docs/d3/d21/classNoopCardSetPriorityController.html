@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -143,11 +143,44 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5d78e16d17215ee195b5d511e8680140" id="r_a5d78e16d17215ee195b5d511e8680140"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a5d78e16d17215ee195b5d511e8680140">isKnown</a> (QString) const override</td></tr>
 <tr class="memitem:ae3409048d346e3cc00f6cfe2fafe109e" id="r_ae3409048d346e3cc00f6cfe2fafe109e"><td class="memItemLeft"><a class="el" href="../../d7/d77/structICardSetPriorityController_1_1SetOptions.html">SetOptions</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae3409048d346e3cc00f6cfe2fafe109e">getSetOptions</a> (QString) const override</td></tr>
 <tr class="memdesc:ae3409048d346e3cc00f6cfe2fafe109e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bundled priority options for a set in a single call.  <br /></td></tr>
+<tr class="memitem:a8e62172a6414049bbc5c449598b46211" id="r_a8e62172a6414049bbc5c449598b46211"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#a8e62172a6414049bbc5c449598b46211">getEnabledSetNames</a> () const override</td></tr>
+<tr class="memdesc:a8e62172a6414049bbc5c449598b46211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the short names of every set currently marked as enabled.  <br /></td></tr>
 <tr class="memitem:a26645d23c3e1110f4fc7d644c2055957" id="r_a26645d23c3e1110f4fc7d644c2055957"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a26645d23c3e1110f4fc7d644c2055957">saveSets</a> (const QVector&lt; <a class="el" href="../../d0/db0/structICardSetPriorityController_1_1SetSaveData.html">SetSaveData</a> &gt; &amp;) override</td></tr>
 <tr class="inherit_header pub_methods_classICardSetPriorityController"><td colspan="2">Public Member Functions inherited from <a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a></td></tr>
 <tr class="memitem:a87c55e7b18616199ea7b8372a04ad99f pub_methods_classICardSetPriorityController" id="r_a87c55e7b18616199ea7b8372a04ad99f"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="../../d7/d81/classICardSetPriorityController.html#a87c55e7b18616199ea7b8372a04ad99f">~ICardSetPriorityController</a> ()=default</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a8e62172a6414049bbc5c449598b46211" name="a8e62172a6414049bbc5c449598b46211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e62172a6414049bbc5c449598b46211">&#9670;&#160;</a></span>getEnabledSetNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList NoopCardSetPriorityController::getEnabledSetNames </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the short names of every set currently marked as enabled. </p>
+<p>Callers fold this into the card database cache source hash so that toggling set enablement invalidates the cache.</p>
+<dl class="section return"><dt>Returns</dt><dd>The enabled set short names, sorted alphabetically. </dd></dl>
+
+<p>Implements <a class="el" href="../../d7/d81/classICardSetPriorityController.html#ac847e7a5d53c036fedf065ef3d8e2631">ICardSetPriorityController</a>.</p>
+
+</div>
+</div>
 <a id="ae3409048d346e3cc00f6cfe2fafe109e" name="ae3409048d346e3cc00f6cfe2fafe109e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3409048d346e3cc00f6cfe2fafe109e">&#9670;&#160;</a></span>getSetOptions()</h2>
 

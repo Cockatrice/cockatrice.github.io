@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -140,7 +140,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a480fd358f852dc7f2a953474b2864566" id="r_a480fd358f852dc7f2a953474b2864566"><td class="memItemLeft">QPainterPath&#160;</td><td class="memItemRight"><a class="el" href="#a480fd358f852dc7f2a953474b2864566">shape</a> () const override</td></tr>
 <tr class="memitem:a5a12fb85c85f980f8423e9f74a057bca" id="r_a5a12fb85c85f980f8423e9f74a057bca"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5a12fb85c85f980f8423e9f74a057bca">paint</a> (QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override</td></tr>
 <tr class="memitem:a8fb5583aa9b1933a36626eff58d4cfb4" id="r_a8fb5583aa9b1933a36626eff58d4cfb4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8fb5583aa9b1933a36626eff58d4cfb4">reorganizeCards</a> () override</td></tr>
-<tr class="memitem:a073cc33b30b3d04ea1b1397a5b59964e" id="r_a073cc33b30b3d04ea1b1397a5b59964e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a073cc33b30b3d04ea1b1397a5b59964e">handleDropEvent</a> (const QList&lt; <a class="el" href="../../d5/dd3/classCardDragItem.html">CardDragItem</a> * &gt; &amp;dragItems, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *startZone, const QPoint &amp;dropPoint) override</td></tr>
+<tr class="memitem:a073cc33b30b3d04ea1b1397a5b59964e" id="r_a073cc33b30b3d04ea1b1397a5b59964e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a073cc33b30b3d04ea1b1397a5b59964e">handleDropEvent</a> (const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d5/dd3/classCardDragItem.html">CardDragItem</a> * &gt; &amp;dragItems, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *startZone, const QPoint &amp;dropPoint) override</td></tr>
 <tr class="inherit_header pub_methods_classCardZone"><td colspan="2">Public Member Functions inherited from <a class="el" href="../../de/da1/classCardZone.html">CardZone</a></td></tr>
 <tr class="memitem:ae4d6eeb4ccea9bfd8c07408a119cd46a pub_methods_classCardZone" id="r_ae4d6eeb4ccea9bfd8c07408a119cd46a"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#ae4d6eeb4ccea9bfd8c07408a119cd46a">type</a> () const override</td></tr>
 <tr class="memitem:a0407fd33a75e203d9f7e03ed3f516092 pub_methods_classCardZone" id="r_a0407fd33a75e203d9f7e03ed3f516092"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a0407fd33a75e203d9f7e03ed3f516092">CardZone</a> (<a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *logic, QGraphicsItem *parent=nullptr)</td></tr>
@@ -182,8 +182,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a36d05add8c009852e6982e706d9a90be pro_attribs_classCardZone" id="r_a36d05add8c009852e6982e706d9a90be"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a36d05add8c009852e6982e706d9a90be">doubleClickAction</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000071">Todo</a></b></dt><dd>Document this file. </dd></dl>
-<p>A <a class="el" href="../../de/da1/classCardZone.html">CardZone</a> where the cards are in a single pile instead of being laid out. Usually only top card is accessible by clicking. </p>
+<div class="textblock"><p>A <a class="el" href="../../de/da1/classCardZone.html">CardZone</a> where the cards are in a single pile instead of being laid out. Usually only top card is accessible by clicking. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a470d56444c4f2770635629ff12bcc14b" name="a470d56444c4f2770635629ff12bcc14b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a470d56444c4f2770635629ff12bcc14b">&#9670;&#160;</a></span>PileZone()</h2>
@@ -284,7 +283,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void PileZone::handleDropEvent </td>
           <td>(</td>
-          <td class="paramtype">const QList&lt; <a class="el" href="../../d5/dd3/classCardDragItem.html">CardDragItem</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>dragItems</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d5/dd3/classCardDragItem.html">CardDragItem</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>dragItems</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

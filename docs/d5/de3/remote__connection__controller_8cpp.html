@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -129,13 +129,22 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d5/de3/remote_
 <code>#include &quot;../interface/widgets/dialogs/dlg_forgot_password_reset.h&quot;</code><br />
 <code>#include &quot;../interface/widgets/dialogs/dlg_register.h&quot;</code><br />
 <code>#include &quot;../interface/widgets/utility/get_text_with_max.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/event_connection_closed.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/event_server_shutdown.pb.h&quot;</code><br />
+<code>#include &lt;QChar&gt;</code><br />
 <code>#include &lt;QDateTime&gt;</code><br />
+<code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QLineEdit&gt;</code><br />
+<code>#include &lt;QList&gt;</code><br />
 <code>#include &lt;QMessageBox&gt;</code><br />
+<code>#include &lt;QPixmap&gt;</code><br />
+<code>#include &lt;QStringList&gt;</code><br />
+<code>#include &lt;QStringLiteral&gt;</code><br />
 <code>#include &lt;QThread&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/d15/remote__client_8h_source.html">libcockatrice/network/client/remote/remote_client.h</a>&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response.pb.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/db0/servers__settings_8h_source.html">libcockatrice/settings/servers_settings.h</a>&gt;</code><br />
+<code>#include &lt;qnamespace.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for remote_connection_controller.cpp:</div>
 <div class="dyncontent">

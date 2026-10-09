@@ -35,12 +35,13 @@ var searchData=
   ['normalizecardname_32',['normalizeCardName',['../d9/d21/oracleimporter_8cpp.html#a72f702e6db6a3a3c7a06b389f0be3a2a',1,'oracleimporter.cpp']]],
   ['noscrollfilter_33',['NoScrollFilter',['../da/d92/classNoScrollFilter.html#a17d85f62373252a8b4a9b4ff6f581543',1,'NoScrollFilter']]],
   ['notidle_34',['notIdle',['../df/ddd/classDeckViewContainer.html#ae4fea6343deb13f6d77bae17d4cffcdc',1,'DeckViewContainer::notIdle()'],['../de/d08/classTabGame.html#ade0b13e4460c05279916d0b339e7e06a',1,'TabGame::notIdle()'],['../df/d78/classTabRoom.html#ac114fe9d507e0f731026737b850d7c03',1,'TabRoom::notIdle()']]],
-  ['notifyenabledsetschanged_35',['notifyEnabledSetsChanged',['../d5/d45/classCardDatabase.html#a9de542348a63c056811575b4e6946d44',1,'CardDatabase']]],
-  ['notifyplayerjoin_36',['notifyPlayerJoin',['../de/d08/classTabGame.html#a3f805f5b09ffdc60b72925c1a54494eb',1,'TabGame']]],
-  ['notifyplayerkicked_37',['notifyPlayerKicked',['../de/d08/classTabGame.html#a6679d298f8865631103558ebb88ebac9',1,'TabGame']]],
-  ['notifyuseraboutupdate_38',['notifyUserAboutUpdate',['../db/d53/classRemoteClient.html#a8bdb5ca024d9270ab33e513c2f6f913b',1,'RemoteClient']]],
-  ['notifyusereventreceived_39',['notifyUserEventReceived',['../dc/d86/classAbstractClient.html#a3724eb71e98c6c58fbdd03c9b983dae4',1,'AbstractClient']]],
-  ['notifyuseroffline_40',['notifyUserOffline',['../d1/de7/classTabMessage.html#a3c6d5ee8db3b69f22f848173a0e6ad8d',1,'TabMessage']]],
-  ['notpredicate_41',['NotPredicate',['../d9/d92/classpeg_1_1NotPredicate.html#aa5a0e18a11e51ade960595d5ccbc34e5',1,'peg::NotPredicate']]],
-  ['npd_42',['npd',['../dc/db2/namespacepeg.html#aa640011930cbd676512eb812ae4fbf17',1,'peg']]]
+  ['notifycardupdatefinishedfromtray_35',['notifyCardUpdateFinishedFromTray',['../d6/d1a/classMainWindow.html#a982bd5f537fbbf7694065923b1f97944',1,'MainWindow']]],
+  ['notifyenabledsetschanged_36',['notifyEnabledSetsChanged',['../d5/d45/classCardDatabase.html#a9de542348a63c056811575b4e6946d44',1,'CardDatabase']]],
+  ['notifyplayerjoin_37',['notifyPlayerJoin',['../de/d08/classTabGame.html#a3f805f5b09ffdc60b72925c1a54494eb',1,'TabGame']]],
+  ['notifyplayerkicked_38',['notifyPlayerKicked',['../de/d08/classTabGame.html#a6679d298f8865631103558ebb88ebac9',1,'TabGame']]],
+  ['notifyuseraboutupdate_39',['notifyUserAboutUpdate',['../db/d53/classRemoteClient.html#a8bdb5ca024d9270ab33e513c2f6f913b',1,'RemoteClient']]],
+  ['notifyusereventreceived_40',['notifyUserEventReceived',['../dc/d86/classAbstractClient.html#a3724eb71e98c6c58fbdd03c9b983dae4',1,'AbstractClient']]],
+  ['notifyuseroffline_41',['notifyUserOffline',['../d1/de7/classTabMessage.html#a3c6d5ee8db3b69f22f848173a0e6ad8d',1,'TabMessage']]],
+  ['notpredicate_42',['NotPredicate',['../d9/d92/classpeg_1_1NotPredicate.html#aa5a0e18a11e51ade960595d5ccbc34e5',1,'peg::NotPredicate']]],
+  ['npd_43',['npd',['../dc/db2/namespacepeg.html#aa640011930cbd676512eb812ae4fbf17',1,'peg']]]
 ];

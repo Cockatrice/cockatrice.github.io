@@ -147,7 +147,7 @@ var searchData=
   ['topleftlabel_144',['topLeftLabel',['../d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#aab6848947a5c0732a745d950b22596e3',1,'ArchidektDeckPreviewImageDisplayWidget']]],
   ['toplibrarymenu_145',['topLibraryMenu',['../d9/d65/classLibraryMenu.html#a0ae64386b005e55f57c7077823f5b041',1,'LibraryMenu']]],
   ['toprightlabel_146',['topRightLabel',['../d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a7275212c91a028a52bdb119e2c31457f',1,'ArchidektDeckPreviewImageDisplayWidget']]],
-  ['total_147',['total',['../db/daa/classBarWidget.html#a3bb93777543f5464091057063ecc94e6',1,'BarWidget::total'],['../d9/d18/classSegmentedBarWidget.html#a61cfa2c3c5630c7c20685d7f9d3188c3',1,'SegmentedBarWidget::total']]],
+  ['total_147',['total',['../de/dbb/structCardUpdateProgress.html#acb290d0be54d31207b12652deeafac85',1,'CardUpdateProgress::total'],['../db/daa/classBarWidget.html#a3bb93777543f5464091057063ecc94e6',1,'BarWidget::total'],['../d9/d18/classSegmentedBarWidget.html#a61cfa2c3c5630c7c20685d7f9d3188c3',1,'SegmentedBarWidget::total']]],
   ['total_5fassigned_148',['total_assigned',['../d9/dcb/structResponse__ReportStats.html#adbe0027f871e997de1d48f36940f907f',1,'Response_ReportStats']]],
   ['total_5fbans_149',['total_bans',['../d2/d41/structResponse__ReportUserInfo.html#ac3adbdf0d964478420c670a889687149',1,'Response_ReportUserInfo']]],
   ['total_5fcommand_5ftime_5fms_150',['total_command_time_ms',['../df/d38/structResponse__GetServerStats.html#a61f2a705fa37ebe430e63f8c6541d915',1,'Response_GetServerStats']]],

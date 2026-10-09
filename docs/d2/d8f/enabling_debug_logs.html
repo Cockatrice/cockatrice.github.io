@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -175,20 +175,22 @@ Which categories are available?</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Card database loading and parsing  </td><td class="markdownTableBodyNone"><span class="tt">card_database</span>, <span class="tt">card_database.loading</span>, <span class="tt">card_database.loading.success_or_failure</span>, <span class="tt">cockatrice_xml.*</span>  </td></tr>
 <tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Card database update (running Oracle, progress, exit status, errors)  </td><td class="markdownTableBodyNone"><span class="tt">card_database.update</span>  </td></tr>
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Card, set, and deck information  </td><td class="markdownTableBodyNone"><span class="tt">card_info</span>, <span class="tt">card_list</span>, <span class="tt">deck_loader</span>  </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">Startup sequence and update checks  </td><td class="markdownTableBodyNone"><span class="tt">window_main.startup.*</span>, <span class="tt">release_channel</span>, <span class="tt">spoiler_background_updater</span>  </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">User interface and themes  </td><td class="markdownTableBodyNone"><span class="tt">theme_manager</span>, <span class="tt">sound_engine</span>, <span class="tt">flow_layout</span>, <span class="tt">flow_widget.*</span>, <span class="tt">pixel_map_generator</span>, <span class="tt">card_info_picture_widget</span>  </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">Networking and servers  </td><td class="markdownTableBodyNone"><span class="tt">local_client</span>, <span class="tt">remote_client</span>, <span class="tt">tapped_out_interface</span>, <span class="tt">servers_settings</span>  </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">In-game logic  </td><td class="markdownTableBodyNone"><span class="tt">player</span>, <span class="tt">game_scene.*</span>, <span class="tt">card_zone.*</span>, <span class="tt">view_zone</span>, <span class="tt">game_event_handler</span>  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Dialogs and tabs  </td><td class="markdownTableBodyNone"><span class="tt">dlg_settings</span>, <span class="tt">dlg_update</span>, <span class="tt">dlg_tip_of_the_day</span>, <span class="tt">tab_game</span>, <span class="tt">tab_message</span>, <span class="tt">tab_supervisor</span>  </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Settings and shortcuts  </td><td class="markdownTableBodyNone"><span class="tt">settings_cache</span>, <span class="tt">shortcuts_settings</span>  </td></tr>
+<td class="markdownTableBodyNone">Dialogs and tabs  </td><td class="markdownTableBodyNone"><span class="tt">dlg_settings</span>, <span class="tt">dlg_update</span>, <span class="tt">dlg_tip_of_the_day</span>, <span class="tt">tab_game</span>, <span class="tt">tab_message</span>, <span class="tt">tab_supervisor</span>  </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Settings and shortcuts  </td><td class="markdownTableBodyNone"><span class="tt">settings_cache</span>, <span class="tt">shortcuts_settings</span>  </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">Deck and card filtering  </td><td class="markdownTableBodyNone"><span class="tt">filter_string</span>, <span class="tt">deck_filter_string</span>, <span class="tt">syntax_help</span>  </td></tr>
 </table>
 <p>For example, to investigate why a card database update seems to fail, enable the card database categories:</p>
@@ -198,6 +200,7 @@ Which categories are available?</h1>
 <div class="line">card_database = true</div>
 <div class="line">card_database.loading = true</div>
 <div class="line">card_database.loading.success_or_failure = true</div>
+<div class="line">card_database.update = true</div>
 <div class="line">cockatrice_xml.* = true</div>
 </div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="when-you-are-done"></a>
 When you are done</h1>

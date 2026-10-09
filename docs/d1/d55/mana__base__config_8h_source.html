@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -124,28 +124,29 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d1/d55/mana__b
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#ifndef COCKATRICE_MANA_BASE_CONFIG_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#define COCKATRICE_MANA_BASE_CONFIG_H</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QJsonArray&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QJsonObject&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QStringList&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../dd/db2/structManaBaseConfig.html">    9</a></span><span class="keyword">struct </span><a class="code hl_struct" href="../../dd/db2/structManaBaseConfig.html">ManaBaseConfig</a></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../dd/db2/structManaBaseConfig.html#a4e66c340f5835b69ca3c0012ba630301">   11</a></span>    QString <a class="code hl_variable" href="../../dd/db2/structManaBaseConfig.html#a4e66c340f5835b69ca3c0012ba630301">displayType</a>; <span class="comment">// &quot;pie&quot; or &quot;bar&quot; or &quot;combinedBar&quot;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../dd/db2/structManaBaseConfig.html#af9dfb7d5eb2f754a063f179bc24227f4">   12</a></span>    QStringList <a class="code hl_variable" href="../../dd/db2/structManaBaseConfig.html#af9dfb7d5eb2f754a063f179bc24227f4">filters</a>; <span class="comment">// which colors to show, empty = all</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    QJsonObject <a class="code hl_function" href="../../dd/db2/structManaBaseConfig.html#aa7cd10dd108bf134584aebcf3928bb36">toJson</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">static</span> <a class="code hl_struct" href="../../dd/db2/structManaBaseConfig.html">ManaBaseConfig</a> <a class="code hl_function" href="../../dd/db2/structManaBaseConfig.html#a3c2215e59c173520826d1f001b713210">fromJson</a>(<span class="keyword">const</span> QJsonObject &amp;o);</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>};</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QJsonObject&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QList&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QStringList&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../dd/db2/structManaBaseConfig.html">   10</a></span><span class="keyword">struct </span><a class="code hl_struct" href="../../dd/db2/structManaBaseConfig.html">ManaBaseConfig</a></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../dd/db2/structManaBaseConfig.html#a4e66c340f5835b69ca3c0012ba630301">   12</a></span>    QString <a class="code hl_variable" href="../../dd/db2/structManaBaseConfig.html#a4e66c340f5835b69ca3c0012ba630301">displayType</a>; <span class="comment">// &quot;pie&quot; or &quot;bar&quot; or &quot;combinedBar&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../dd/db2/structManaBaseConfig.html#af9dfb7d5eb2f754a063f179bc24227f4">   13</a></span>    QStringList <a class="code hl_variable" href="../../dd/db2/structManaBaseConfig.html#af9dfb7d5eb2f754a063f179bc24227f4">filters</a>; <span class="comment">// which colors to show, empty = all</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    QJsonObject <a class="code hl_function" href="../../dd/db2/structManaBaseConfig.html#aa7cd10dd108bf134584aebcf3928bb36">toJson</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">static</span> <a class="code hl_struct" href="../../dd/db2/structManaBaseConfig.html">ManaBaseConfig</a> <a class="code hl_function" href="../../dd/db2/structManaBaseConfig.html#a3c2215e59c173520826d1f001b713210">fromJson</a>(<span class="keyword">const</span> QJsonObject &amp;o);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>};</div>
 </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_MANA_BASE_CONFIG_H</span></div>
-<div class="ttc" id="astructManaBaseConfig_html"><div class="ttname"><a href="../../dd/db2/structManaBaseConfig.html">ManaBaseConfig</a></div><div class="ttdef"><b>Definition</b> mana_base_config.h:10</div></div>
-<div class="ttc" id="astructManaBaseConfig_html_a3c2215e59c173520826d1f001b713210"><div class="ttname"><a href="../../dd/db2/structManaBaseConfig.html#a3c2215e59c173520826d1f001b713210">ManaBaseConfig::fromJson</a></div><div class="ttdeci">static ManaBaseConfig fromJson(const QJsonObject &amp;o)</div><div class="ttdef"><b>Definition</b> mana_base_config.cpp:15</div></div>
-<div class="ttc" id="astructManaBaseConfig_html_a4e66c340f5835b69ca3c0012ba630301"><div class="ttname"><a href="../../dd/db2/structManaBaseConfig.html#a4e66c340f5835b69ca3c0012ba630301">ManaBaseConfig::displayType</a></div><div class="ttdeci">QString displayType</div><div class="ttdef"><b>Definition</b> mana_base_config.h:11</div></div>
-<div class="ttc" id="astructManaBaseConfig_html_aa7cd10dd108bf134584aebcf3928bb36"><div class="ttname"><a href="../../dd/db2/structManaBaseConfig.html#aa7cd10dd108bf134584aebcf3928bb36">ManaBaseConfig::toJson</a></div><div class="ttdeci">QJsonObject toJson() const</div><div class="ttdef"><b>Definition</b> mana_base_config.cpp:3</div></div>
-<div class="ttc" id="astructManaBaseConfig_html_af9dfb7d5eb2f754a063f179bc24227f4"><div class="ttname"><a href="../../dd/db2/structManaBaseConfig.html#af9dfb7d5eb2f754a063f179bc24227f4">ManaBaseConfig::filters</a></div><div class="ttdeci">QStringList filters</div><div class="ttdef"><b>Definition</b> mana_base_config.h:12</div></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_MANA_BASE_CONFIG_H</span></div>
+<div class="ttc" id="astructManaBaseConfig_html"><div class="ttname"><a href="../../dd/db2/structManaBaseConfig.html">ManaBaseConfig</a></div><div class="ttdef"><b>Definition</b> mana_base_config.h:11</div></div>
+<div class="ttc" id="astructManaBaseConfig_html_a3c2215e59c173520826d1f001b713210"><div class="ttname"><a href="../../dd/db2/structManaBaseConfig.html#a3c2215e59c173520826d1f001b713210">ManaBaseConfig::fromJson</a></div><div class="ttdeci">static ManaBaseConfig fromJson(const QJsonObject &amp;o)</div><div class="ttdef"><b>Definition</b> mana_base_config.cpp:19</div></div>
+<div class="ttc" id="astructManaBaseConfig_html_a4e66c340f5835b69ca3c0012ba630301"><div class="ttname"><a href="../../dd/db2/structManaBaseConfig.html#a4e66c340f5835b69ca3c0012ba630301">ManaBaseConfig::displayType</a></div><div class="ttdeci">QString displayType</div><div class="ttdef"><b>Definition</b> mana_base_config.h:12</div></div>
+<div class="ttc" id="astructManaBaseConfig_html_aa7cd10dd108bf134584aebcf3928bb36"><div class="ttname"><a href="../../dd/db2/structManaBaseConfig.html#aa7cd10dd108bf134584aebcf3928bb36">ManaBaseConfig::toJson</a></div><div class="ttdeci">QJsonObject toJson() const</div><div class="ttdef"><b>Definition</b> mana_base_config.cpp:7</div></div>
+<div class="ttc" id="astructManaBaseConfig_html_af9dfb7d5eb2f754a063f179bc24227f4"><div class="ttname"><a href="../../dd/db2/structManaBaseConfig.html#af9dfb7d5eb2f754a063f179bc24227f4">ManaBaseConfig::filters</a></div><div class="ttdeci">QStringList filters</div><div class="ttdef"><b>Definition</b> mana_base_config.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

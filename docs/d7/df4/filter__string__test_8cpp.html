@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -120,15 +120,26 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d7/df4/filter_
   <div class="headertitle"><div class="title">filter_string_test.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../db/de6/mocks_8h_source.html">mocks.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d1/d4d/libcockatrice__card_2libcockatrice_2card_2card__localization_8h_source.html">libcockatrice/card/card_localization.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d66/card__database_8h_source.html">libcockatrice/card/database/card_database.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d9e/card__database__querier_8h_source.html">libcockatrice/card/database/card_database_querier.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dda/card__set_8h_source.html">libcockatrice/card/set/card_set.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d44/test__card__database__path__provider_8h_source.html">test_card_database_path_provider.h</a>&quot;</code><br />
 <code>#include &quot;gtest/gtest.h&quot;</code><br />
+<code>#include &lt;QDate&gt;</code><br />
+<code>#include &lt;QHash&gt;</code><br />
+<code>#include &lt;QList&gt;</code><br />
+<code>#include &lt;QPair&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/df3/card__info_8h_source.html">libcockatrice/card/card_info.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/dd2/printing__info_8h_source.html">libcockatrice/card/printing/printing_info.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/da2/filter__string_8h_source.html">libcockatrice/filters/filter_string.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d6/d3f/noop__card__preference__provider_8h_source.html">libcockatrice/interfaces/noop_card_preference_provider.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/dd1/noop__card__set__priority__controller_8h_source.html">libcockatrice/interfaces/noop_card_set_priority_controller.h</a>&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for filter_string_test.cpp:</div>
 <div class="dyncontent">
@@ -184,8 +195,8 @@ Functions</h2></td></tr>
 <div class="line">{                                                                                                                  \</div>
 <div class="line">    ASSERT_EQ(<a class="code hl_function" href="../../db/da4/classFilterString.html#a5d23a86f0acc622f046e993fa3abea9c">FilterString</a>(query).check(card), match);                                                             \</div>
 <div class="line">}</div>
-<div class="ttc" id="acard__zone__algorithms__test_8cpp_html_ab46f576c8786fe8cefe9e42cea0c8a74"><div class="ttname"><a href="../../db/d1d/card__zone__algorithms__test_8cpp.html#ab46f576c8786fe8cefe9e42cea0c8a74">TEST_F</a></div><div class="ttdeci">TEST_F(AddCardAlgorithmTest, NegativeIndexClampsToEnd)</div><div class="ttdef"><b>Definition</b> card_zone_algorithms_test.cpp:82</div></div>
-<div class="ttc" id="aclassFilterString_html_a5d23a86f0acc622f046e993fa3abea9c"><div class="ttname"><a href="../../db/da4/classFilterString.html#a5d23a86f0acc622f046e993fa3abea9c">FilterString::FilterString</a></div><div class="ttdeci">FilterString()</div><div class="ttdef"><b>Definition</b> filter_string.cpp:407</div></div>
+<div class="ttc" id="acard__zone__algorithms__test_8cpp_html_ab46f576c8786fe8cefe9e42cea0c8a74"><div class="ttname"><a href="../../db/d1d/card__zone__algorithms__test_8cpp.html#ab46f576c8786fe8cefe9e42cea0c8a74">TEST_F</a></div><div class="ttdeci">TEST_F(AddCardAlgorithmTest, NegativeIndexClampsToEnd)</div><div class="ttdef"><b>Definition</b> card_zone_algorithms_test.cpp:83</div></div>
+<div class="ttc" id="aclassFilterString_html_a5d23a86f0acc622f046e993fa3abea9c"><div class="ttname"><a href="../../db/da4/classFilterString.html#a5d23a86f0acc622f046e993fa3abea9c">FilterString::FilterString</a></div><div class="ttdeci">FilterString()</div><div class="ttdef"><b>Definition</b> filter_string.cpp:430</div></div>
 </div><!-- fragment -->
 </div>
 </div>

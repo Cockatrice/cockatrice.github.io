@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,16 +121,25 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d2/d2b/card__z
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../dd/dbf/card__zone__logic_8h_source.html">card_zone_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d94/translation_8h_source.html">../../client/translation.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d96/card__item_8h_source.html">../../game_graphics/board/card_item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/dc7/card__zone_8h_source.html">../../game_graphics/zones/card_zone.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/de2/view__zone_8h_source.html">../../game_graphics/zones/view_zone.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d73/card__list_8h_source.html">../board/card_list.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/db7/player__actions_8h_source.html">../player/player_actions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d83/player__info_8h_source.html">../player/player_info.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/df2/player__logic_8h_source.html">../player/player_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d66/card__database_8h_source.html">libcockatrice/card/database/card_database.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/dd4/view__zone__logic_8h_source.html">view_zone_logic.h</a>&quot;</code><br />
 <code>#include &lt;QAction&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
+<code>#include &lt;QMessageLogger&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_move_card.pb.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d6/d64/zone__names_8h_source.html">libcockatrice/utility/zone_names.h</a>&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for card_zone_logic.cpp:</div>
 <div class="dyncontent">

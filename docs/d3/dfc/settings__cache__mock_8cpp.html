@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -122,15 +122,21 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d3/dfc/setting
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">client/settings/cache_settings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/dd7/card__picture__loader__cache__method_8h_source.html">interface/card_picture_loader/card_picture_loader_cache_method.h</a>&quot;</code><br />
+<code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QDir&gt;</code><br />
 <code>#include &lt;QFile&gt;</code><br />
+<code>#include &lt;QLoggingCategory&gt;</code><br />
+<code>#include &lt;QMessageLogger&gt;</code><br />
 <code>#include &lt;QSettings&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
 <code>#include &lt;QStandardPaths&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/df1/cache__storage__settings_8h_source.html">libcockatrice/settings/cache_storage_settings.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d63/cards__display__settings_8h_source.html">libcockatrice/settings/cards_display_settings.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/de1/download__settings_8h_source.html">libcockatrice/settings/download_settings.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/d62/paths__settings_8h_source.html">libcockatrice/settings/paths_settings.h</a>&gt;</code><br />
-<code>#include &lt;utility&gt;</code><br />
+<code>#include &lt;qtmetamacros.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for settings_cache_mock.cpp:</div>
 <div class="dyncontent">

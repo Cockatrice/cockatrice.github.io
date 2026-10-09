@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,15 +123,25 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d3/d94/deck__l
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d1a/deck__list_8h_source.html">deck_list.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/db5/deck__list__memento_8h_source.html">deck_list_memento.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d33/deck__list__plain__text__parser_8h_source.html">deck_list_plain_text_parser.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d7d/abstract__deck__list__node_8h_source.html">tree/abstract_deck_list_node.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/dbf/deck__list__node__tree_8h_source.html">libcockatrice/deck_list/deck_list_node_tree.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dd8/sideboard__plan_8h_source.html">libcockatrice/deck_list/sideboard_plan.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/df4/playmat__params_8h_source.html">libcockatrice/utility/playmat_params.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d7e/deck__list__card__node_8h_source.html">tree/deck_list_card_node.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d65/inner__deck__list__node_8h_source.html">tree/inner_deck_list_node.h</a>&quot;</code><br />
-<code>#include &lt;QCryptographicHash&gt;</code><br />
+<code>#include &lt;QAnyStringView&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
-<code>#include &lt;QFile&gt;</code><br />
 <code>#include &lt;QSet&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
+<code>#include &lt;QStringView&gt;</code><br />
 <code>#include &lt;QTextStream&gt;</code><br />
+<code>#include &lt;QXmlStreamAttributes&gt;</code><br />
+<code>#include &lt;QXmlStreamReader&gt;</code><br />
+<code>#include &lt;QXmlStreamWriter&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;iterator&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../dc/d89/card__ref_8h_source.html">libcockatrice/utility/card_ref.h</a>&gt;</code><br />
+<code>#include &lt;qlogging.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for deck_list.cpp:</div>
 <div class="dyncontent">

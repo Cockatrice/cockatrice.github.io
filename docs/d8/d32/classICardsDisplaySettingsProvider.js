@@ -10,7 +10,6 @@ var classICardsDisplaySettingsProvider =
     [ "getCardSearchLanguage", "d8/d32/classICardsDisplaySettingsProvider.html#a9307e830b61afe374c3d09e809f1c940", null ],
     [ "getDisplayCardNames", "d8/d32/classICardsDisplaySettingsProvider.html#a69479cd0d222fba772646a7db81f9809", null ],
     [ "getEDHRecCardSize", "d8/d32/classICardsDisplaySettingsProvider.html#a1153ac077ad6972f0488a601d568cc82", null ],
-    [ "getIncludeRebalancedCards", "d8/d32/classICardsDisplaySettingsProvider.html#a501f8eb1c0e45affd74e06481271a02c", null ],
     [ "getOverrideAllCardArtWithPersonalPreference", "d8/d32/classICardsDisplaySettingsProvider.html#a59347bddcbee1cb0d8df075cd67e907e", null ],
     [ "getPrintingSelectorCardSize", "d8/d32/classICardsDisplaySettingsProvider.html#aaa86d651ed002037f4ac9af5b72ef8ca", null ],
     [ "getPrintingSelectorNavigationButtonsVisible", "d8/d32/classICardsDisplaySettingsProvider.html#a763adb6ed34567b44d042bf3f6063dee", null ],

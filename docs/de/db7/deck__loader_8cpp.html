@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,27 +121,49 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('de/db7/deck__l
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../da/d36/deck__loader_8h_source.html">deck_loader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/df3/card__info_8h_source.html">libcockatrice/card/card_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d9e/card__database__querier_8h_source.html">libcockatrice/card/database/card_database_querier.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/dcf/abstract__deck__list__card__node_8h_source.html">libcockatrice/deck_list/tree/abstract_deck_list_card_node.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d7d/abstract__deck__list__node_8h_source.html">libcockatrice/deck_list/tree/abstract_deck_list_node.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d65/inner__deck__list__node_8h_source.html">libcockatrice/deck_list/tree/inner_deck_list_node.h</a>&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
 <code>#include &lt;QClipboard&gt;</code><br />
+<code>#include &lt;QDateTime&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QDir&gt;</code><br />
 <code>#include &lt;QFile&gt;</code><br />
+<code>#include &lt;QFileDevice&gt;</code><br />
 <code>#include &lt;QFileInfo&gt;</code><br />
-<code>#include &lt;QFutureWatcher&gt;</code><br />
+<code>#include &lt;QFont&gt;</code><br />
+<code>#include &lt;QFuture&gt;</code><br />
+<code>#include &lt;QIODevice&gt;</code><br />
+<code>#include &lt;QList&gt;</code><br />
+<code>#include &lt;QMap&gt;</code><br />
+<code>#include &lt;QMessageLogger&gt;</code><br />
+<code>#include &lt;QMultiMap&gt;</code><br />
 <code>#include &lt;QPrinter&gt;</code><br />
 <code>#include &lt;QRegularExpression&gt;</code><br />
 <code>#include &lt;QSaveFile&gt;</code><br />
+<code>#include &lt;QSet&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
 <code>#include &lt;QStringList&gt;</code><br />
+<code>#include &lt;QTextBlockFormat&gt;</code><br />
+<code>#include &lt;QTextCharFormat&gt;</code><br />
 <code>#include &lt;QTextCursor&gt;</code><br />
 <code>#include &lt;QTextDocument&gt;</code><br />
+<code>#include &lt;QTextLength&gt;</code><br />
 <code>#include &lt;QTextStream&gt;</code><br />
 <code>#include &lt;QTextTable&gt;</code><br />
+<code>#include &lt;QTextTableCell&gt;</code><br />
+<code>#include &lt;QTextTableFormat&gt;</code><br />
+<code>#include &lt;QVector&gt;</code><br />
 <code>#include &lt;QtConcurrentRun&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d7/d66/card__database_8h_source.html">libcockatrice/card/database/card_database.h</a>&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/dff/card__name__normalizer_8h_source.html">libcockatrice/card/import/card_name_normalizer.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d7/d1a/deck__list_8h_source.html">libcockatrice/deck_list/deck_list.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/d7e/deck__list__card__node_8h_source.html">libcockatrice/deck_list/tree/deck_list_card_node.h</a>&gt;</code><br />
+<code>#include &lt;qnamespace.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for deck_loader.cpp:</div>
 <div class="dyncontent">
@@ -152,7 +174,7 @@ Include dependency graph for deck_loader.cpp:</div>
 Functions</h2></td></tr>
 <tr class="memitem:a592d32d8239cd3192211eb5bead466d9" id="r_a592d32d8239cd3192211eb5bead466d9"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#a592d32d8239cd3192211eb5bead466d9">getDomainForWebsite</a> (<a class="el" href="../../de/de9/classDeckLoader.html#ad214abc48fd2d93f2a66bacf7d277e4b">DeckLoader::DecklistWebsite</a> website)</td></tr>
 <tr class="memitem:a97d87c139537d3123de2bfc5dd3eaf1d" id="r_a97d87c139537d3123de2bfc5dd3eaf1d"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#a97d87c139537d3123de2bfc5dd3eaf1d">toDecklistExportString</a> (const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> *card)</td></tr>
-<tr class="memitem:a153be9883540fd93955209913318c516" id="r_a153be9883540fd93955209913318c516"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#a153be9883540fd93955209913318c516">toDecklistExportString</a> (const QList&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt; &amp;cardNodes)</td></tr>
+<tr class="memitem:a153be9883540fd93955209913318c516" id="r_a153be9883540fd93955209913318c516"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#a153be9883540fd93955209913318c516">toDecklistExportString</a> (const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt; &amp;cardNodes)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a592d32d8239cd3192211eb5bead466d9" name="a592d32d8239cd3192211eb5bead466d9"></a>
@@ -238,7 +260,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">QString toDecklistExportString </td>
           <td>(</td>
-          <td class="paramtype">const QList&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cardNodes</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cardNodes</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

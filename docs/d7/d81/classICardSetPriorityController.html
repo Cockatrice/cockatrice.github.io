@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -145,6 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9449e5b720506ef5e20250761906743c" id="r_a9449e5b720506ef5e20250761906743c"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a9449e5b720506ef5e20250761906743c">isKnown</a> (QString shortName) const =0</td></tr>
 <tr class="memitem:acd5d0d0fb4c064eee77b5efdb8ada3bd" id="r_acd5d0d0fb4c064eee77b5efdb8ada3bd"><td class="memItemLeft">virtual <a class="el" href="../../d7/d77/structICardSetPriorityController_1_1SetOptions.html">SetOptions</a>&#160;</td><td class="memItemRight"><a class="el" href="#acd5d0d0fb4c064eee77b5efdb8ada3bd">getSetOptions</a> (QString shortName) const =0</td></tr>
 <tr class="memdesc:acd5d0d0fb4c064eee77b5efdb8ada3bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bundled priority options for a set in a single call.  <br /></td></tr>
+<tr class="memitem:ac847e7a5d53c036fedf065ef3d8e2631" id="r_ac847e7a5d53c036fedf065ef3d8e2631"><td class="memItemLeft">virtual QStringList&#160;</td><td class="memItemRight"><a class="el" href="#ac847e7a5d53c036fedf065ef3d8e2631">getEnabledSetNames</a> () const =0</td></tr>
+<tr class="memdesc:ac847e7a5d53c036fedf065ef3d8e2631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the short names of every set currently marked as enabled.  <br /></td></tr>
 <tr class="memitem:a7c62bcbbedb01e6d3fc998650366b39d" id="r_a7c62bcbbedb01e6d3fc998650366b39d"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a7c62bcbbedb01e6d3fc998650366b39d">saveSets</a> (const QVector&lt; <a class="el" href="../../d0/db0/structICardSetPriorityController_1_1SetSaveData.html">SetSaveData</a> &gt; &amp;data)=0</td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -174,6 +176,42 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ac847e7a5d53c036fedf065ef3d8e2631" name="ac847e7a5d53c036fedf065ef3d8e2631"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac847e7a5d53c036fedf065ef3d8e2631">&#9670;&#160;</a></span>getEnabledSetNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual QStringList ICardSetPriorityController::getEnabledSetNames </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the short names of every set currently marked as enabled. </p>
+<p>Callers fold this into the card database cache source hash so that toggling set enablement invalidates the cache.</p>
+<dl class="section return"><dt>Returns</dt><dd>The enabled set short names, sorted alphabetically. </dd></dl>
+
+<p>Implemented in <a class="el" href="../../de/dbe/classCardDatabaseSettings.html#a15b2971a6a80bd450d21ee6b0e79eb6f">CardDatabaseSettings</a>, and <a class="el" href="../../d3/d21/classNoopCardSetPriorityController.html#a8e62172a6414049bbc5c449598b46211">NoopCardSetPriorityController</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d81/classICardSetPriorityController_ac847e7a5d53c036fedf065ef3d8e2631_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="acd5d0d0fb4c064eee77b5efdb8ada3bd" name="acd5d0d0fb4c064eee77b5efdb8ada3bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acd5d0d0fb4c064eee77b5efdb8ada3bd">&#9670;&#160;</a></span>getSetOptions()</h2>
 

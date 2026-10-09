@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -122,30 +122,58 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('dc/d15/dlg__se
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d6/d38/dlg__select__set__for__cards_8h_source.html">dlg_select_set_for_cards.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/d3d/card__node__function_8h_source.html">../../deck_loader/card_node_function.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d36/deck__loader_8h_source.html">../../deck_loader/deck_loader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/dc4/deck__state__manager_8h_source.html">../deck_editor/deck_state_manager.h</a>&quot;</code><br />
 <code>#include &quot;../interface/widgets/cards/card_info_picture_widget.h&quot;</code><br />
 <code>#include &quot;../interface/widgets/general/layout_containers/flow_widget.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d98/deck__list__model_8h_source.html">deck_list_model.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/df3/card__info_8h_source.html">libcockatrice/card/card_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d66/card__database_8h_source.html">libcockatrice/card/database/card_database.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d9e/card__database__querier_8h_source.html">libcockatrice/card/database/card_database_querier.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/dfd/exact__card_8h_source.html">libcockatrice/card/printing/exact_card.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/dd2/printing__info_8h_source.html">libcockatrice/card/printing/printing_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dda/card__set_8h_source.html">libcockatrice/card/set/card_set.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d65/inner__deck__list__node_8h_source.html">libcockatrice/deck_list/tree/inner_deck_list_node.h</a>&quot;</code><br />
+<code>#include &lt;QBrush&gt;</code><br />
+<code>#include &lt;QByteArray&gt;</code><br />
 <code>#include &lt;QCheckBox&gt;</code><br />
+<code>#include &lt;QColor&gt;</code><br />
 <code>#include &lt;QDialogButtonBox&gt;</code><br />
+<code>#include &lt;QDrag&gt;</code><br />
+<code>#include &lt;QDragEnterEvent&gt;</code><br />
+<code>#include &lt;QDragMoveEvent&gt;</code><br />
+<code>#include &lt;QDropEvent&gt;</code><br />
+<code>#include &lt;QHBoxLayout&gt;</code><br />
+<code>#include &lt;QImage&gt;</code><br />
 <code>#include &lt;QLabel&gt;</code><br />
-<code>#include &lt;QMessageBox&gt;</code><br />
+<code>#include &lt;QLayoutItem&gt;</code><br />
 <code>#include &lt;QMimeData&gt;</code><br />
+<code>#include &lt;QModelIndex&gt;</code><br />
+<code>#include &lt;QMouseEvent&gt;</code><br />
+<code>#include &lt;QObject&gt;</code><br />
 <code>#include &lt;QPainter&gt;</code><br />
+<code>#include &lt;QPair&gt;</code><br />
+<code>#include &lt;QPixmap&gt;</code><br />
+<code>#include &lt;QPoint&gt;</code><br />
+<code>#include &lt;QPointF&gt;</code><br />
 <code>#include &lt;QPushButton&gt;</code><br />
+<code>#include &lt;QRect&gt;</code><br />
+<code>#include &lt;QScrollArea&gt;</code><br />
 <code>#include &lt;QScrollBar&gt;</code><br />
+<code>#include &lt;QSet&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
+<code>#include &lt;QSizePolicy&gt;</code><br />
 <code>#include &lt;QSplitter&gt;</code><br />
 <code>#include &lt;QTimer&gt;</code><br />
 <code>#include &lt;QVBoxLayout&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
+<code>#include &lt;QVector&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
-<code>#include &lt;qdrag.h&gt;</code><br />
-<code>#include &lt;qevent.h&gt;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for dlg_select_set_for_cards.cpp:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/de1/dlg__select__set__for__cards_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
+<code>#include &lt;qalgorithms.h&gt;</code><br />
+<code>#include &lt;qnamespace.h&gt;</code><br />
+<code>#include &lt;qobjectdefs.h&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>

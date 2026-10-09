@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -122,13 +122,32 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d0/d0c/visual_
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../dc/d91/visual__deck__editor__sample__hand__widget_8h_source.html">visual_deck_editor_sample_hand_widget.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">../../../client/settings/cache_settings.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d36/deck__loader_8h_source.html">../../deck_loader/deck_loader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/dc1/card__info__picture__widget_8h_source.html">../cards/card_info_picture_widget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/da4/card__size__widget_8h_source.html">../cards/card_size_widget.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d1a/draw__probability__widget_8h_source.html">../deck_analytics/analyzer_modules/draw_probability/draw_probability_widget.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/df2/deck__list__statistics__analyzer_8h_source.html">../deck_analytics/deck_list_statistics_analyzer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/dd3/flow__widget_8h_source.html">../general/layout_containers/flow_widget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d98/deck__list__model_8h_source.html">deck_list_model.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/df3/card__info_8h_source.html">libcockatrice/card/card_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d9e/card__database__querier_8h_source.html">libcockatrice/card/database/card_database_querier.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d7e/deck__list__card__node_8h_source.html">libcockatrice/deck_list/tree/deck_list_card_node.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d65/inner__deck__list__node_8h_source.html">libcockatrice/deck_list/tree/inner_deck_list_node.h</a>&quot;</code><br />
+<code>#include &lt;QDebug&gt;</code><br />
+<code>#include &lt;QHBoxLayout&gt;</code><br />
+<code>#include &lt;QPushButton&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
+<code>#include &lt;QSlider&gt;</code><br />
+<code>#include &lt;QSpinBox&gt;</code><br />
 <code>#include &lt;QSplitter&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QVBoxLayout&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;compare&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d63/cards__display__settings_8h_source.html">libcockatrice/settings/cards_display_settings.h</a>&gt;</code><br />
+<code>#include &lt;qlogging.h&gt;</code><br />
+<code>#include &lt;qnamespace.h&gt;</code><br />
+<code>#include &lt;qobjectdefs.h&gt;</code><br />
 <code>#include &lt;random&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for visual_deck_editor_sample_hand_widget.cpp:</div>
@@ -138,7 +157,7 @@ Include dependency graph for visual_deck_editor_sample_hand_widget.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:adc1bc0ca1ec46df0a5420524d0f9d7ba" id="r_adc1bc0ca1ec46df0a5420524d0f9d7ba"><td class="memItemLeft">static QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#adc1bc0ca1ec46df0a5420524d0f9d7ba">cardNodesToExactCards</a> (QList&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt; nodes)</td></tr>
+<tr class="memitem:adc1bc0ca1ec46df0a5420524d0f9d7ba" id="r_adc1bc0ca1ec46df0a5420524d0f9d7ba"><td class="memItemLeft">static <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#adc1bc0ca1ec46df0a5420524d0f9d7ba">cardNodesToExactCards</a> (<a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt; nodes)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="adc1bc0ca1ec46df0a5420524d0f9d7ba" name="adc1bc0ca1ec46df0a5420524d0f9d7ba"></a>
@@ -151,9 +170,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; cardNodesToExactCards </td>
+          <td class="memname"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; cardNodesToExactCards </td>
           <td>(</td>
-          <td class="paramtype">QList&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt;</td>          <td class="paramname"><span class="paramname"><em>nodes</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; const <a class="el" href="../../d5/d22/classDecklistCardNode.html">DecklistCardNode</a> * &gt;</td>          <td class="paramname"><span class="paramname"><em>nodes</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

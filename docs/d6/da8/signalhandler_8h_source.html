@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -124,39 +124,40 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d6/da8/signalh
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define SIGNALHANDLER_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">class </span>QSocketNotifier;</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../df/dc9/classSignalHandler.html">    8</a></span><span class="keyword">class </span><a class="code hl_function" href="../../df/dc9/classSignalHandler.html#ae12a2e068be74d669d3a5678896d4b42">SignalHandler</a> : <span class="keyword">public</span> QObject</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    Q_OBJECT</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <a class="code hl_function" href="../../df/dc9/classSignalHandler.html#ae12a2e068be74d669d3a5678896d4b42">SignalHandler</a>(QObject *parent = 0);</div>
-<div class="foldopen" id="foldopen00013" data-start="{" data-end="}">
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="../../df/dc9/classSignalHandler.html#addc8b5b0b969eb405376a77a369de007">   13</a></span>    <a class="code hl_function" href="../../df/dc9/classSignalHandler.html#addc8b5b0b969eb405376a77a369de007">~SignalHandler</a>()</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    {</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    }</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;qtmetamacros.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">class </span>QSocketNotifier;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../df/dc9/classSignalHandler.html">    9</a></span><span class="keyword">class </span><a class="code hl_function" href="../../df/dc9/classSignalHandler.html#ae12a2e068be74d669d3a5678896d4b42">SignalHandler</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    Q_OBJECT</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_function" href="../../df/dc9/classSignalHandler.html#ae12a2e068be74d669d3a5678896d4b42">SignalHandler</a>(QObject *parent = 0);</div>
+<div class="foldopen" id="foldopen00014" data-start="{" data-end="}">
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="../../df/dc9/classSignalHandler.html#addc8b5b0b969eb405376a77a369de007">   14</a></span>    <a class="code hl_function" href="../../df/dc9/classSignalHandler.html#addc8b5b0b969eb405376a77a369de007">~SignalHandler</a>()</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    }</div>
 </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dc9/classSignalHandler.html#aebef0786c8a2da84e5f8bac0cdb2a60b">sigHupHandler</a>(<span class="keywordtype">int</span> <span class="comment">/* sig */</span>);</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dc9/classSignalHandler.html#a2f567b848a492e5f0ae054e8e480210c">sigSegvHandler</a>(<span class="keywordtype">int</span> sig);</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../df/dc9/classSignalHandler.html#a0f8a8acf432684a62cb81b7cf56bfd74">   20</a></span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="../../df/dc9/classSignalHandler.html#a0f8a8acf432684a62cb81b7cf56bfd74">sigHupFD</a>[2];</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../df/dc9/classSignalHandler.html#a8de29785c7f0209c8f551effbb472324">   21</a></span>    QSocketNotifier *<a class="code hl_variable" href="../../df/dc9/classSignalHandler.html#a8de29785c7f0209c8f551effbb472324">snHup</a>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../df/dc9/classSignalHandler.html#ae4d0e496a4e277a321c7d6efbc7ba611">internalSigHupHandler</a>();</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>};</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dc9/classSignalHandler.html#aebef0786c8a2da84e5f8bac0cdb2a60b">sigHupHandler</a>(<span class="keywordtype">int</span> <span class="comment">/* sig */</span>);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../df/dc9/classSignalHandler.html#a2f567b848a492e5f0ae054e8e480210c">sigSegvHandler</a>(<span class="keywordtype">int</span> sig);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../df/dc9/classSignalHandler.html#a0f8a8acf432684a62cb81b7cf56bfd74">   21</a></span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="../../df/dc9/classSignalHandler.html#a0f8a8acf432684a62cb81b7cf56bfd74">sigHupFD</a>[2];</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="../../df/dc9/classSignalHandler.html#a8de29785c7f0209c8f551effbb472324">   22</a></span>    QSocketNotifier *<a class="code hl_variable" href="../../df/dc9/classSignalHandler.html#a8de29785c7f0209c8f551effbb472324">snHup</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="../../df/dc9/classSignalHandler.html#ae4d0e496a4e277a321c7d6efbc7ba611">internalSigHupHandler</a>();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>};</div>
 </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassSignalHandler_html_a0f8a8acf432684a62cb81b7cf56bfd74"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#a0f8a8acf432684a62cb81b7cf56bfd74">SignalHandler::sigHupFD</a></div><div class="ttdeci">static int sigHupFD[2]</div><div class="ttdef"><b>Definition</b> signalhandler.h:20</div></div>
-<div class="ttc" id="aclassSignalHandler_html_a2f567b848a492e5f0ae054e8e480210c"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#a2f567b848a492e5f0ae054e8e480210c">SignalHandler::sigSegvHandler</a></div><div class="ttdeci">static void sigSegvHandler(int sig)</div><div class="ttdef"><b>Definition</b> signalhandler.cpp:102</div></div>
-<div class="ttc" id="aclassSignalHandler_html_a8de29785c7f0209c8f551effbb472324"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#a8de29785c7f0209c8f551effbb472324">SignalHandler::snHup</a></div><div class="ttdeci">QSocketNotifier * snHup</div><div class="ttdef"><b>Definition</b> signalhandler.h:21</div></div>
-<div class="ttc" id="aclassSignalHandler_html_addc8b5b0b969eb405376a77a369de007"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#addc8b5b0b969eb405376a77a369de007">SignalHandler::~SignalHandler</a></div><div class="ttdeci">~SignalHandler()</div><div class="ttdef"><b>Definition</b> signalhandler.h:13</div></div>
-<div class="ttc" id="aclassSignalHandler_html_ae12a2e068be74d669d3a5678896d4b42"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#ae12a2e068be74d669d3a5678896d4b42">SignalHandler::SignalHandler</a></div><div class="ttdeci">SignalHandler(QObject *parent=0)</div><div class="ttdef"><b>Definition</b> signalhandler.cpp:23</div></div>
-<div class="ttc" id="aclassSignalHandler_html_ae4d0e496a4e277a321c7d6efbc7ba611"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#ae4d0e496a4e277a321c7d6efbc7ba611">SignalHandler::internalSigHupHandler</a></div><div class="ttdeci">void internalSigHupHandler()</div><div class="ttdef"><b>Definition</b> signalhandler.cpp:58</div></div>
-<div class="ttc" id="aclassSignalHandler_html_aebef0786c8a2da84e5f8bac0cdb2a60b"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#aebef0786c8a2da84e5f8bac0cdb2a60b">SignalHandler::sigHupHandler</a></div><div class="ttdeci">static void sigHupHandler(int)</div><div class="ttdef"><b>Definition</b> signalhandler.cpp:49</div></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassSignalHandler_html_a0f8a8acf432684a62cb81b7cf56bfd74"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#a0f8a8acf432684a62cb81b7cf56bfd74">SignalHandler::sigHupFD</a></div><div class="ttdeci">static int sigHupFD[2]</div><div class="ttdef"><b>Definition</b> signalhandler.h:21</div></div>
+<div class="ttc" id="aclassSignalHandler_html_a2f567b848a492e5f0ae054e8e480210c"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#a2f567b848a492e5f0ae054e8e480210c">SignalHandler::sigSegvHandler</a></div><div class="ttdeci">static void sigSegvHandler(int sig)</div><div class="ttdef"><b>Definition</b> signalhandler.cpp:106</div></div>
+<div class="ttc" id="aclassSignalHandler_html_a8de29785c7f0209c8f551effbb472324"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#a8de29785c7f0209c8f551effbb472324">SignalHandler::snHup</a></div><div class="ttdeci">QSocketNotifier * snHup</div><div class="ttdef"><b>Definition</b> signalhandler.h:22</div></div>
+<div class="ttc" id="aclassSignalHandler_html_addc8b5b0b969eb405376a77a369de007"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#addc8b5b0b969eb405376a77a369de007">SignalHandler::~SignalHandler</a></div><div class="ttdeci">~SignalHandler()</div><div class="ttdef"><b>Definition</b> signalhandler.h:14</div></div>
+<div class="ttc" id="aclassSignalHandler_html_ae12a2e068be74d669d3a5678896d4b42"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#ae12a2e068be74d669d3a5678896d4b42">SignalHandler::SignalHandler</a></div><div class="ttdeci">SignalHandler(QObject *parent=0)</div><div class="ttdef"><b>Definition</b> signalhandler.cpp:27</div></div>
+<div class="ttc" id="aclassSignalHandler_html_ae4d0e496a4e277a321c7d6efbc7ba611"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#ae4d0e496a4e277a321c7d6efbc7ba611">SignalHandler::internalSigHupHandler</a></div><div class="ttdeci">void internalSigHupHandler()</div><div class="ttdef"><b>Definition</b> signalhandler.cpp:62</div></div>
+<div class="ttc" id="aclassSignalHandler_html_aebef0786c8a2da84e5f8bac0cdb2a60b"><div class="ttname"><a href="../../df/dc9/classSignalHandler.html#aebef0786c8a2da84e5f8bac0cdb2a60b">SignalHandler::sigHupHandler</a></div><div class="ttdeci">static void sigHupHandler(int)</div><div class="ttdef"><b>Definition</b> signalhandler.cpp:53</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

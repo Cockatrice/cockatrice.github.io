@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,26 +121,53 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('de/df2/player_
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../db/d6e/player__graphics__item_8h_source.html">player_graphics_item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">../../client/settings/cache_settings.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d95/counter__state_8h_source.html">../../game/board/counter_state.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/db7/player__actions_8h_source.html">../../game/player/player_actions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d83/player__info_8h_source.html">../../game/player/player_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/df2/player__logic_8h_source.html">../../game/player/player_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/dbf/card__zone__logic_8h_source.html">../../game/zones/card_zone_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/dc9/hand__zone__logic_8h_source.html">../../game/zones/hand_zone_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d36/pile__zone__logic_8h_source.html">../../game/zones/pile_zone_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d44/stack__zone__logic_8h_source.html">../../game/zones/stack_zone_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/da4/table__zone__logic_8h_source.html">../../game/zones/table_zone_logic.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d7d/card__picture__loader_8h_source.html">../../interface/card_picture_loader/card_picture_loader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d5/d0f/art__crop__attribution_8h_source.html">../../interface/widgets/cards/art_crop_attribution.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/dc4/card__art__utils_8h_source.html">../../interface/widgets/cards/card_art_utils.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/dd0/playmat__utils_8h_source.html">../../interface/widgets/playmat/playmat_utils.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d20/tab__game_8h_source.html">../../interface/widgets/tabs/tab_game.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/d73/abstract__card__item_8h_source.html">../board/abstract_card_item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d81/abstract__counter_8h_source.html">../board/abstract_counter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/d97/counter__general_8h_source.html">../board/counter_general.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/dcf/card__dimensions_8h_source.html">../card_dimensions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/daf/hand__counter_8h_source.html">../hand_counter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d5/dbb/hand__zone_8h_source.html">../zones/hand_zone.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/dfb/pile__zone_8h_source.html">../zones/pile_zone.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/dd5/stack__zone_8h_source.html">../zones/stack_zone.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/dff/table__zone_8h_source.html">../zones/table_zone.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/df3/card__info_8h_source.html">libcockatrice/card/card_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d9e/card__database__querier_8h_source.html">libcockatrice/card/database/card_database_querier.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/dfd/exact__card_8h_source.html">libcockatrice/card/printing/exact_card.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/dbf/interface__interface__settings__provider_8h_source.html">libcockatrice/interfaces/interface_interface_settings_provider.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d89/card__ref_8h_source.html">libcockatrice/utility/card_ref.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d74/player__menu_8h_source.html">menu/player_menu.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d9e/player__area_8h_source.html">player_area.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d5b/player__dialogs_8h_source.html">player_dialogs.h</a>&quot;</code><br />
-<code>#include &lt;QGraphicsView&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/dc1/player__target_8h_source.html">player_target.h</a>&quot;</code><br />
+<code>#include &lt;QList&gt;</code><br />
+<code>#include &lt;QMapIterator&gt;</code><br />
+<code>#include &lt;QMenu&gt;</code><br />
+<code>#include &lt;QPainter&gt;</code><br />
+<code>#include &lt;QPoint&gt;</code><br />
+<code>#include &lt;QPointF&gt;</code><br />
+<code>#include &lt;QRect&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
+<code>#include &lt;QTransform&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d7/d1a/deck__list_8h_source.html">libcockatrice/deck_list/deck_list.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d0b/playmat__resolver_8h_source.html">libcockatrice/deck_list/playmat_resolver.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d5/d46/interface__settings_8h_source.html">libcockatrice/settings/interface_settings.h</a>&gt;</code><br />
+<code>#include &lt;qnamespace.h&gt;</code><br />
+<code>#include &lt;qnumeric.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for player_graphics_item.cpp:</div>
 <div class="dyncontent">

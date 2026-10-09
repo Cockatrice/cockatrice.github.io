@@ -2,6 +2,7 @@ var classCardDatabaseSettings =
 [
     [ "CardDatabaseSettings", "de/dbe/classCardDatabaseSettings.html#a19bd88c51ef167d07c6cb7e7d87b93e0", null ],
     [ "ensureSetOptionsLoaded", "de/dbe/classCardDatabaseSettings.html#aa5bf66db37d6604ed7f9607c3fbe0691", null ],
+    [ "getEnabledSetNames", "de/dbe/classCardDatabaseSettings.html#a15b2971a6a80bd450d21ee6b0e79eb6f", null ],
     [ "getSetOptions", "de/dbe/classCardDatabaseSettings.html#a84ebaabe0d016233a93be3178851733a", null ],
     [ "getSortKey", "de/dbe/classCardDatabaseSettings.html#a94eeeab6307c485dc5550bf683f2ed8d", null ],
     [ "isEnabled", "de/dbe/classCardDatabaseSettings.html#a167321b275a5fce82059550adf45dce3", null ],

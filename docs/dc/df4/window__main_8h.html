@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,15 +121,23 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('dc/df4/window_
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d5/dae/lag__monitor_8h_source.html">../client/lag_monitor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d10/release__channel_8h_source.html">../client/network/update/client/release_channel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d1d/card__update__progress_8h_source.html">card_database_update/card_update_progress.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d20/remote__connection__controller_8h_source.html">connection_controller/remote_connection_controller.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/df6/dlg__local__game__options_8h_source.html">widgets/dialogs/dlg_local_game_options.h</a>&quot;</code><br />
+<code>#include &lt;QByteArray&gt;</code><br />
+<code>#include &lt;QDir&gt;</code><br />
+<code>#include &lt;QElapsedTimer&gt;</code><br />
 <code>#include &lt;QList&gt;</code><br />
+<code>#include &lt;QLoggingCategory&gt;</code><br />
 <code>#include &lt;QMainWindow&gt;</code><br />
-<code>#include &lt;QMessageBox&gt;</code><br />
-<code>#include &lt;QSystemTrayIcon&gt;</code><br />
-<code>#include &lt;QtNetwork&gt;</code><br />
+<code>#include &lt;QMenu&gt;</code><br />
+<code>#include &lt;QProcess&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QStringList&gt;</code><br />
+<code>#include &lt;QUrl&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d5/db3/abstract__client_8h_source.html">libcockatrice/network/client/abstract/abstract_client.h</a>&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/response.pb.h&gt;</code><br />
+<code>#include &lt;qtmetamacros.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for window_main.h:</div>
 <div class="dyncontent">
@@ -138,7 +146,7 @@ Include dependency graph for window_main.h:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/daf/window__main_8h__dep__incl.svg" width="100%" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/daf/window__main_8h__dep__incl.svg" width="100%" height="415"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../dc/df4/window__main_8h_source.html">Go to the source code of this file.</a></p>
@@ -154,10 +162,45 @@ Functions</h2></td></tr>
 <tr class="memitem:a8bc96f3110b4c86bdff5ea0c968a5487" id="r_a8bc96f3110b4c86bdff5ea0c968a5487"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a8bc96f3110b4c86bdff5ea0c968a5487">Q_LOGGING_CATEGORY</a> (WindowMainStartupVersionLog, &quot;window_main.startup.version&quot;)</td></tr>
 <tr class="memitem:ae350fb5f29dcdf30e799c6f0ee5975c8" id="r_ae350fb5f29dcdf30e799c6f0ee5975c8"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ae350fb5f29dcdf30e799c6f0ee5975c8">Q_LOGGING_CATEGORY</a> (WindowMainStartupShortcutsLog, &quot;window_main.startup.shortcuts&quot;)</td></tr>
 <tr class="memitem:a15008d2331c89a766af59ba6b3dac995" id="r_a15008d2331c89a766af59ba6b3dac995"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a15008d2331c89a766af59ba6b3dac995">Q_LOGGING_CATEGORY</a> (WindowMainStartupAutoconnectLog, &quot;window_main.startup.autoconnect&quot;)</td></tr>
+<tr class="memitem:a45fe35ecdcb072961ad641a06dcec19f" id="r_a45fe35ecdcb072961ad641a06dcec19f"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a45fe35ecdcb072961ad641a06dcec19f">Q_LOGGING_CATEGORY</a> (CardDatabaseUpdateLog, &quot;card_database.update&quot;)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a45fe35ecdcb072961ad641a06dcec19f" name="a45fe35ecdcb072961ad641a06dcec19f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45fe35ecdcb072961ad641a06dcec19f">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_LOGGING_CATEGORY </td>
+          <td>(</td>
+          <td class="paramtype">CardDatabaseUpdateLog</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;card_database.update&quot;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/df4/window__main_8h_a45fe35ecdcb072961ad641a06dcec19f_cgraph.svg" width="411" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a41ae930b87c96e2f95989283d7eca378" name="a41ae930b87c96e2f95989283d7eca378"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41ae930b87c96e2f95989283d7eca378">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ae930b87c96e2f95989283d7eca378">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182,7 +225,6 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000247">Todo</a></b></dt><dd>Document this file. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -192,7 +234,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a15008d2331c89a766af59ba6b3dac995" name="a15008d2331c89a766af59ba6b3dac995"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15008d2331c89a766af59ba6b3dac995">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a15008d2331c89a766af59ba6b3dac995">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,7 +268,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ab0a71b66f28ec3235fb37fde8ae0a858" name="ab0a71b66f28ec3235fb37fde8ae0a858"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0a71b66f28ec3235fb37fde8ae0a858">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0a71b66f28ec3235fb37fde8ae0a858">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -260,7 +302,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ae350fb5f29dcdf30e799c6f0ee5975c8" name="ae350fb5f29dcdf30e799c6f0ee5975c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae350fb5f29dcdf30e799c6f0ee5975c8">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae350fb5f29dcdf30e799c6f0ee5975c8">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,7 +336,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a8bc96f3110b4c86bdff5ea0c968a5487" name="a8bc96f3110b4c86bdff5ea0c968a5487"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bc96f3110b4c86bdff5ea0c968a5487">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bc96f3110b4c86bdff5ea0c968a5487">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

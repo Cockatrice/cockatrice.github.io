@@ -55,7 +55,7 @@ var searchData=
   ['whitespace_5fdefinition_5fname_52',['WHITESPACE_DEFINITION_NAME',['../dc/db2/namespacepeg.html#a5ffccf4db0cc93c828358908146917c2',1,'peg']]],
   ['whitespaceope_53',['whitespaceOpe',['../df/d94/classpeg_1_1Context.html#a3ec385bb6f437a97bffe29f879fe6924',1,'peg::Context::whitespaceOpe'],['../d8/d94/classpeg_1_1Definition.html#aa7a4fee9f484c027aea2484f9a4b92d8',1,'peg::Definition::whitespaceOpe']]],
   ['wide_54',['System-wide',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#system-wide',1,'']]],
-  ['wide_20commands_55',['wide commands',['../db/d15/game_event_handler.html#autotoc_md1-sending-game-wide-commands',1,'1. Sending game-wide commands'],['../db/d15/game_event_handler.html#autotoc_md1-sending-game-wide-commands-1',1,'1. Sending game-wide commands']]],
+  ['wide_20commands_55',['1. Sending game-wide commands',['../db/d15/game_event_handler.html#autotoc_md1-sending-game-wide-commands',1,'']]],
   ['widget_56',['widget',['../d8/d7f/structSettingsSearchEntry.html#a0e1a172452bf0f3870d66cd82f9a4245',1,'SettingsSearchEntry']]],
   ['widgetlabel_57',['widgetLabel',['../d8/d7f/structSettingsSearchEntry.html#a68f3bc81a8cba8359644f0b6a511fa9b',1,'SettingsSearchEntry']]],
   ['widgetloadingbuffertimer_58',['widgetLoadingBufferTimer',['../d7/dbc/classPrintingSelector.html#aeadece55f105261f20df3918c97895a7',1,'PrintingSelector']]],

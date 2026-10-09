@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,33 +121,37 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('df/d89/player_
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d3/df2/player__logic_8h_source.html">player_logic.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d4c/arrow__item_8h_source.html">../../game_graphics/board/arrow_item.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d96/card__item_8h_source.html">../../game_graphics/board/card_item.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d97/counter__general_8h_source.html">../../game_graphics/board/counter_general.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d6f/game__scene_8h_source.html">../../game_graphics/game_scene.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/dc1/player__target_8h_source.html">../../game_graphics/player/player_target.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dbb/hand__zone_8h_source.html">../../game_graphics/zones/hand_zone.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/dfb/pile__zone_8h_source.html">../../game_graphics/zones/pile_zone.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/dd5/stack__zone_8h_source.html">../../game_graphics/zones/stack_zone.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/dff/table__zone_8h_source.html">../../game_graphics/zones/table_zone.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d65/theme__manager_8h_source.html">../../interface/theme_manager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d20/tab__game_8h_source.html">../../interface/widgets/tabs/tab_game.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d73/card__list_8h_source.html">../board/card_list.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d99/abstract__game_8h_source.html">../abstract_game.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d85/arrow__data_8h_source.html">../board/arrow_data.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d95/counter__state_8h_source.html">../board/counter_state.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dd3/game__meta__info_8h_source.html">../game_meta_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/dc9/hand__zone__logic_8h_source.html">../zones/hand_zone_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d36/pile__zone__logic_8h_source.html">../zones/pile_zone_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d44/stack__zone__logic_8h_source.html">../zones/stack_zone_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/da4/table__zone__logic_8h_source.html">../zones/table_zone_logic.h</a>&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/serverinfo_card.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/serverinfo_counter.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/serverinfo_playerproperties.pb.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d64/zone__names_8h_source.html">libcockatrice/utility/zone_names.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/db7/player__actions_8h_source.html">player_actions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/df5/player__event__handler_8h_source.html">player_event_handler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d83/player__info_8h_source.html">player_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/df0/player__manager_8h_source.html">player_manager.h</a>&quot;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
-<code>#include &lt;QMenu&gt;</code><br />
-<code>#include &lt;QMetaType&gt;</code><br />
-<code>#include &lt;QPainter&gt;</code><br />
-<code>#include &lt;QtConcurrent&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/command_attach_card.pb.h&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/command_set_card_counter.pb.h&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/event_create_arrow.pb.h&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/event_create_counter.pb.h&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/event_draw_cards.pb.h&gt;</code><br />
+<code>#include &lt;QMapIterator&gt;</code><br />
+<code>#include &lt;QMessageLogger&gt;</code><br />
+<code>#include &lt;QMutableMapIterator&gt;</code><br />
+<code>#include &lt;QSet&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/serverinfo_player.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/serverinfo_user.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/serverinfo_zone.pb.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../dc/d89/card__ref_8h_source.html">libcockatrice/utility/card_ref.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/dec/color_8h_source.html">libcockatrice/utility/color.h</a>&gt;</code><br />
+<code>#include &lt;qalgorithms.h&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for player_logic.cpp:</div>
 <div class="dyncontent">

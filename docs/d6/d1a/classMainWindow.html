@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -146,9 +146,9 @@ Public Slots</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:ae0c3ab685f089bb3204bf85eafb73aea" id="r_ae0c3ab685f089bb3204bf85eafb73aea"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae0c3ab685f089bb3204bf85eafb73aea">cardDatabaseUpdateFinished</a> (bool success)</td></tr>
-<tr class="memdesc:ae0c3ab685f089bb3204bf85eafb73aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted after the background card-database update subprocess exits.  <br /></td></tr>
-<tr class="memitem:a2f9341e2d1d741d19352bbdd768b490c" id="r_a2f9341e2d1d741d19352bbdd768b490c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2f9341e2d1d741d19352bbdd768b490c">cardDatabaseUpdateProgress</a> (const QString &amp;stage, qint64 done, qint64 total)</td></tr>
-<tr class="memdesc:a2f9341e2d1d741d19352bbdd768b490c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted while the background card-database update subprocess runs. <code class="param">stage</code> is one of "download", "scan" or "import"; <code class="param">done/<code class="param">total</code> are</code> byte counts for the first two stages and set indices for "import".  <br /></td></tr>
+<tr class="memdesc:ae0c3ab685f089bb3204bf85eafb73aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted after the card-database update subprocess exits.  <br /></td></tr>
+<tr class="memitem:a535b71efbea749bc2971760cbde03615" id="r_a535b71efbea749bc2971760cbde03615"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a535b71efbea749bc2971760cbde03615">cardDatabaseUpdateProgress</a> (const <a class="el" href="../../de/dbb/structCardUpdateProgress.html">CardUpdateProgress</a> &amp;progress)</td></tr>
+<tr class="memdesc:a535b71efbea749bc2971760cbde03615"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted while the card-database update subprocess runs. <code class="param">progress.done/<code class="param">progress.total</code> are</code> byte counts for the first two stages and set indices for "import".  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -168,7 +168,7 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
-<tr class="memitem:a61667a34c3f793441a4c720b71b1bb94" id="r_a61667a34c3f793441a4c720b71b1bb94"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a61667a34c3f793441a4c720b71b1bb94">updateTabMenu</a> (const QList&lt; QMenu * &gt; &amp;newMenuList)</td></tr>
+<tr class="memitem:a61667a34c3f793441a4c720b71b1bb94" id="r_a61667a34c3f793441a4c720b71b1bb94"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a61667a34c3f793441a4c720b71b1bb94">updateTabMenu</a> (const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QMenu * &gt; &amp;newMenuList)</td></tr>
 <tr class="memitem:ad5ab8fcf40c9f96ba98b334da4f79397" id="r_ad5ab8fcf40c9f96ba98b334da4f79397"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad5ab8fcf40c9f96ba98b334da4f79397">statusChanged</a> (<a class="el" href="../../d5/db3/abstract__client_8h.html#a7e5fc64e45e1ab3af52e22eaf1c1bfc4">ClientStatus</a> _status)</td></tr>
 <tr class="memitem:a7aee9e10e2bb6453f8f0abbaabd23a9a" id="r_a7aee9e10e2bb6453f8f0abbaabd23a9a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7aee9e10e2bb6453f8f0abbaabd23a9a">localGameEnded</a> ()</td></tr>
 <tr class="memitem:a1a7454f3889aeb3b4d8b97b6c42cb9f9" id="r_a1a7454f3889aeb3b4d8b97b6c42cb9f9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1a7454f3889aeb3b4d8b97b6c42cb9f9">pixmapCacheSizeChanged</a> (int newSizeInMBs)</td></tr>
@@ -188,6 +188,7 @@ Private Slots</h2></td></tr>
 <tr class="memitem:a3cce2b6a9c8894036d4145362a52f13e" id="r_a3cce2b6a9c8894036d4145362a52f13e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3cce2b6a9c8894036d4145362a52f13e">cardUpdateError</a> (QProcess::ProcessError err)</td></tr>
 <tr class="memitem:ab562a6f3daeee8f98c30c0cf2bd1488f" id="r_ab562a6f3daeee8f98c30c0cf2bd1488f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab562a6f3daeee8f98c30c0cf2bd1488f">cardUpdateFinished</a> (int exitCode, QProcess::ExitStatus exitStatus)</td></tr>
 <tr class="memitem:af05238b80cab144f0aefb02ee6c46104" id="r_af05238b80cab144f0aefb02ee6c46104"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af05238b80cab144f0aefb02ee6c46104">cardUpdateProgressOutput</a> ()</td></tr>
+<tr class="memitem:acc44e90bc019982fe04d52684a7c8beb" id="r_acc44e90bc019982fe04d52684a7c8beb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acc44e90bc019982fe04d52684a7c8beb">cardUpdateStandardError</a> ()</td></tr>
 <tr class="memitem:aaa381eb62a10f3c4d097785f9e1b3fb9" id="r_aaa381eb62a10f3c4d097785f9e1b3fb9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaa381eb62a10f3c4d097785f9e1b3fb9">refreshShortcuts</a> ()</td></tr>
 <tr class="memitem:a939aef93716b23ceb818241973d795bf" id="r_a939aef93716b23ceb818241973d795bf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a939aef93716b23ceb818241973d795bf">cardDatabaseLoadingFailed</a> ()</td></tr>
 <tr class="memitem:a8127f55f462dc2b1234d3df005b3e99c" id="r_a8127f55f462dc2b1234d3df005b3e99c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8127f55f462dc2b1234d3df005b3e99c">cardDatabaseNewSetsFound</a> (int numUnknownSets, QStringList unknownSetsNames)</td></tr>
@@ -219,11 +220,17 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a57c9f094275eeaaa78073b61d84167bc" id="r_a57c9f094275eeaaa78073b61d84167bc"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a57c9f094275eeaaa78073b61d84167bc">getCardUpdaterBinaryName</a> ()</td></tr>
 <tr class="memitem:a723444b0da64109e26c3318017cca896" id="r_a723444b0da64109e26c3318017cca896"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a723444b0da64109e26c3318017cca896">createCardUpdateProcess</a> (bool background=false)</td></tr>
 <tr class="memitem:aabbd433827aa692777681e29bd408f82" id="r_aabbd433827aa692777681e29bd408f82"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aabbd433827aa692777681e29bd408f82">exitCardDatabaseUpdate</a> ()</td></tr>
+<tr class="memitem:a3aec1f6ce2d8dd63127f1f87da475fab" id="r_a3aec1f6ce2d8dd63127f1f87da475fab"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a3aec1f6ce2d8dd63127f1f87da475fab">requestCardUpdateRaise</a> ()</td></tr>
+<tr class="memdesc:a3aec1f6ce2d8dd63127f1f87da475fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to bring the open card database updater window to the front.  <br /></td></tr>
+<tr class="memitem:ab65a70c908bbeef0e977660cf1f45862" id="r_ab65a70c908bbeef0e977660cf1f45862"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab65a70c908bbeef0e977660cf1f45862">announceCardUpdateRunning</a> ()</td></tr>
+<tr class="memdesc:ab65a70c908bbeef0e977660cf1f45862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the user an update is running without blocking, honoring a hidden status bar.  <br /></td></tr>
+<tr class="memitem:a982bd5f537fbbf7694065923b1f97944" id="r_a982bd5f537fbbf7694065923b1f97944"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a982bd5f537fbbf7694065923b1f97944">notifyCardUpdateFinishedFromTray</a> (bool success)</td></tr>
+<tr class="memdesc:a982bd5f537fbbf7694065923b1f97944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Posts a tray notification when the status bar cannot show progress.  <br /></td></tr>
 <tr class="memitem:a5c472eb48650fd85bdf90633585d4f4e" id="r_a5c472eb48650fd85bdf90633585d4f4e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5c472eb48650fd85bdf90633585d4f4e">startLocalGame</a> (const <a class="el" href="../../d9/de7/structLocalGameOptions.html">LocalGameOptions</a> &amp;options)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a10d94f06d541f8bab3dbedb04ce5fc59" id="r_a10d94f06d541f8bab3dbedb04ce5fc59"><td class="memItemLeft">QList&lt; QMenu * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a10d94f06d541f8bab3dbedb04ce5fc59">tabMenus</a></td></tr>
+<tr class="memitem:a10d94f06d541f8bab3dbedb04ce5fc59" id="r_a10d94f06d541f8bab3dbedb04ce5fc59"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QMenu * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a10d94f06d541f8bab3dbedb04ce5fc59">tabMenus</a></td></tr>
 <tr class="memitem:a105fd44eed82687cf86e221088982443" id="r_a105fd44eed82687cf86e221088982443"><td class="memItemLeft">QMenu *&#160;</td><td class="memItemRight"><a class="el" href="#a105fd44eed82687cf86e221088982443">cockatriceMenu</a></td></tr>
 <tr class="memitem:ab0a16639183781b13b65df6e09a18bfd" id="r_ab0a16639183781b13b65df6e09a18bfd"><td class="memItemLeft">QMenu *&#160;</td><td class="memItemRight"><a class="el" href="#ab0a16639183781b13b65df6e09a18bfd">dbMenu</a></td></tr>
 <tr class="memitem:abee2809f7a4d6ebd4966a7b47c36f7bd" id="r_abee2809f7a4d6ebd4966a7b47c36f7bd"><td class="memItemLeft">QMenu *&#160;</td><td class="memItemRight"><a class="el" href="#abee2809f7a4d6ebd4966a7b47c36f7bd">tabsMenu</a></td></tr>
@@ -272,6 +279,16 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ae31bc058b89553871409936a0967318e" id="r_ae31bc058b89553871409936a0967318e"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae31bc058b89553871409936a0967318e">firstRunWizardActive</a> = false</td></tr>
 <tr class="memitem:a9607771c57b82eb661fdcb3077e5ffec" id="r_a9607771c57b82eb661fdcb3077e5ffec"><td class="memItemLeft">QProcess *&#160;</td><td class="memItemRight"><a class="el" href="#a9607771c57b82eb661fdcb3077e5ffec">cardUpdateProcess</a></td></tr>
 <tr class="memitem:a5e18ee0567129401315a0cdeea2e52fb" id="r_a5e18ee0567129401315a0cdeea2e52fb"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#a5e18ee0567129401315a0cdeea2e52fb">cardUpdateOutputBuffer</a></td></tr>
+<tr class="memitem:ae64a16899d69fede8223466cd81b7786" id="r_ae64a16899d69fede8223466cd81b7786"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#ae64a16899d69fede8223466cd81b7786">cardUpdateErrorOutput</a></td></tr>
+<tr class="memdesc:ae64a16899d69fede8223466cd81b7786"><td class="mdescLeft">&#160;</td><td class="mdescRight">diagnostic output collected from the updater's stderr  <br /></td></tr>
+<tr class="memitem:ae2601f70946a7c940106955976b368d2" id="r_ae2601f70946a7c940106955976b368d2"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#ae2601f70946a7c940106955976b368d2">cardUpdateErrorPartial</a></td></tr>
+<tr class="memdesc:ae2601f70946a7c940106955976b368d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">incomplete trailing stderr line, kept for line-based logging  <br /></td></tr>
+<tr class="memitem:ab3b46e2406c0e18079f8f8156a10333a" id="r_ab3b46e2406c0e18079f8f8156a10333a"><td class="memItemLeft"><a class="el" href="../../dd/d1d/card__update__progress_8h.html#a7c097a366913a865cefc150e0b09d892">CardUpdateStage</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab3b46e2406c0e18079f8f8156a10333a">cardUpdateLoggedStage</a> = <a class="el" href="../../dd/d1d/card__update__progress_8h.html#a7c097a366913a865cefc150e0b09d892a88183b946cc5f0e8c96b2e66e1c74a7e">CardUpdateStage::Unknown</a></td></tr>
+<tr class="memdesc:ab3b46e2406c0e18079f8f8156a10333a"><td class="mdescLeft">&#160;</td><td class="mdescRight">stage of the last logged progress update  <br /></td></tr>
+<tr class="memitem:a6fa16541842f8056bf6389d67d456fc9" id="r_a6fa16541842f8056bf6389d67d456fc9"><td class="memItemLeft">QElapsedTimer&#160;</td><td class="memItemRight"><a class="el" href="#a6fa16541842f8056bf6389d67d456fc9">cardUpdateProgressLogTimer</a></td></tr>
+<tr class="memdesc:a6fa16541842f8056bf6389d67d456fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">throttles progress logging to the running stage  <br /></td></tr>
+<tr class="memitem:a1f1cdc89cb489cd4e071f2a431dbfaa5" id="r_a1f1cdc89cb489cd4e071f2a431dbfaa5"><td class="memItemLeft"><a class="el" href="../../d4/d7d/classCardDatabaseUpdateStatusBar.html">CardDatabaseUpdateStatusBar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a1f1cdc89cb489cd4e071f2a431dbfaa5">cardUpdateStatusBar</a> = nullptr</td></tr>
+<tr class="memdesc:a1f1cdc89cb489cd4e071f2a431dbfaa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">status bar widget tracking the card database update  <br /></td></tr>
 <tr class="memitem:a6745ab872e9020453344be5d9e670508" id="r_a6745ab872e9020453344be5d9e670508"><td class="memItemLeft"><a class="el" href="../../d8/d50/classDlgViewLog.html">DlgViewLog</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a6745ab872e9020453344be5d9e670508">logviewDialog</a></td></tr>
 <tr class="memitem:a67dd0adf03452c1edf61af8cdb7f89fe" id="r_a67dd0adf03452c1edf61af8cdb7f89fe"><td class="memItemLeft"><a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a67dd0adf03452c1edf61af8cdb7f89fe">replay</a></td></tr>
 <tr class="memitem:a6a20a6f36883d30498c02d350ecb6374" id="r_a6a20a6f36883d30498c02d350ecb6374"><td class="memItemLeft"><a class="el" href="../../d2/d00/classDlgTipOfTheDay.html">DlgTipOfTheDay</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a6a20a6f36883d30498c02d350ecb6374">tip</a></td></tr>
@@ -305,11 +322,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a996c5a2b6f77944776856f08ec30858d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>
@@ -1198,6 +1210,43 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ab65a70c908bbeef0e977660cf1f45862" name="ab65a70c908bbeef0e977660cf1f45862"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab65a70c908bbeef0e977660cf1f45862">&#9670;&#160;</a></span>announceCardUpdateRunning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::announceCardUpdateRunning </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tells the user an update is running without blocking, honoring a hidden status bar. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_ab65a70c908bbeef0e977660cf1f45862_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_ab65a70c908bbeef0e977660cf1f45862_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="abd917668a62618a9306b854ba633c8d9" name="abd917668a62618a9306b854ba633c8d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abd917668a62618a9306b854ba633c8d9">&#9670;&#160;</a></span>applyStartupDestination</h2>
 
@@ -1401,7 +1450,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Emitted after the background card-database update subprocess exits. </p>
+<p>Emitted after the card-database update subprocess exits. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1410,8 +1459,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2f9341e2d1d741d19352bbdd768b490c" name="a2f9341e2d1d741d19352bbdd768b490c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f9341e2d1d741d19352bbdd768b490c">&#9670;&#160;</a></span>cardDatabaseUpdateProgress</h2>
+<a id="a535b71efbea749bc2971760cbde03615" name="a535b71efbea749bc2971760cbde03615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a535b71efbea749bc2971760cbde03615">&#9670;&#160;</a></span>cardDatabaseUpdateProgress</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1422,17 +1471,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void MainWindow::cardDatabaseUpdateProgress </td>
           <td>(</td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>stage</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="../../de/dbb/structCardUpdateProgress.html">CardUpdateProgress</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">qint64</td>          <td class="paramname"><span class="paramname"><em>done</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">qint64</td>          <td class="paramname"><span class="paramname"><em>total</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1442,16 +1482,16 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Emitted while the background card-database update subprocess runs. <code class="param">stage</code> is one of "download", "scan" or "import"; <code class="param">done/<code class="param">total</code> are</code> byte counts for the first two stages and set indices for "import". </p>
+<p>Emitted while the card-database update subprocess runs. <code class="param">progress.done/<code class="param">progress.total</code> are</code> byte counts for the first two stages and set indices for "import". </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a2f9341e2d1d741d19352bbdd768b490c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a535b71efbea749bc2971760cbde03615_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a2f9341e2d1d741d19352bbdd768b490c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a535b71efbea749bc2971760cbde03615_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1561,6 +1601,36 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_af05238b80cab144f0aefb02ee6c46104_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="acc44e90bc019982fe04d52684a7c8beb" name="acc44e90bc019982fe04d52684a7c8beb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc44e90bc019982fe04d52684a7c8beb">&#9670;&#160;</a></span>cardUpdateStandardError</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::cardUpdateStandardError </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_acc44e90bc019982fe04d52684a7c8beb_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2043,6 +2113,43 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a982bd5f537fbbf7694065923b1f97944" name="a982bd5f537fbbf7694065923b1f97944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a982bd5f537fbbf7694065923b1f97944">&#9670;&#160;</a></span>notifyCardUpdateFinishedFromTray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::notifyCardUpdateFinishedFromTray </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>success</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Posts a tray notification when the status bar cannot show progress. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a982bd5f537fbbf7694065923b1f97944_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a982bd5f537fbbf7694065923b1f97944_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="af7d8e36211e4d0a73c3f2b14a92da437" name="af7d8e36211e4d0a73c3f2b14a92da437"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af7d8e36211e4d0a73c3f2b14a92da437">&#9670;&#160;</a></span>onStartupDestinationConnected</h2>
 
@@ -2178,6 +2285,44 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_aaa381eb62a10f3c4d097785f9e1b3fb9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a3aec1f6ce2d8dd63127f1f87da475fab" name="a3aec1f6ce2d8dd63127f1f87da475fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aec1f6ce2d8dd63127f1f87da475fab">&#9670;&#160;</a></span>requestCardUpdateRaise()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MainWindow::requestCardUpdateRaise </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tries to bring the open card database updater window to the front. </p>
+<dl class="section return"><dt>Returns</dt><dd>true when the updater acknowledged the request </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a3aec1f6ce2d8dd63127f1f87da475fab_cgraph.svg" width="480" height="68"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a3aec1f6ce2d8dd63127f1f87da475fab_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2524,7 +2669,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void MainWindow::updateTabMenu </td>
           <td>(</td>
-          <td class="paramtype">const QList&lt; QMenu * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>newMenuList</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QMenu * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>newMenuList</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -3190,6 +3335,78 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ae64a16899d69fede8223466cd81b7786" name="ae64a16899d69fede8223466cd81b7786"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae64a16899d69fede8223466cd81b7786">&#9670;&#160;</a></span>cardUpdateErrorOutput</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray MainWindow::cardUpdateErrorOutput</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>diagnostic output collected from the updater's stderr </p>
+
+</div>
+</div>
+<a id="ae2601f70946a7c940106955976b368d2" name="ae2601f70946a7c940106955976b368d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2601f70946a7c940106955976b368d2">&#9670;&#160;</a></span>cardUpdateErrorPartial</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray MainWindow::cardUpdateErrorPartial</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>incomplete trailing stderr line, kept for line-based logging </p>
+
+</div>
+</div>
+<a id="ab3b46e2406c0e18079f8f8156a10333a" name="ab3b46e2406c0e18079f8f8156a10333a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3b46e2406c0e18079f8f8156a10333a">&#9670;&#160;</a></span>cardUpdateLoggedStage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d1d/card__update__progress_8h.html#a7c097a366913a865cefc150e0b09d892">CardUpdateStage</a> MainWindow::cardUpdateLoggedStage = <a class="el" href="../../dd/d1d/card__update__progress_8h.html#a7c097a366913a865cefc150e0b09d892a88183b946cc5f0e8c96b2e66e1c74a7e">CardUpdateStage::Unknown</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>stage of the last logged progress update </p>
+
+</div>
+</div>
 <a id="a5e18ee0567129401315a0cdeea2e52fb" name="a5e18ee0567129401315a0cdeea2e52fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e18ee0567129401315a0cdeea2e52fb">&#9670;&#160;</a></span>cardUpdateOutputBuffer</h2>
 
@@ -3231,6 +3448,54 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6fa16541842f8056bf6389d67d456fc9" name="a6fa16541842f8056bf6389d67d456fc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fa16541842f8056bf6389d67d456fc9">&#9670;&#160;</a></span>cardUpdateProgressLogTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QElapsedTimer MainWindow::cardUpdateProgressLogTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>throttles progress logging to the running stage </p>
+
+</div>
+</div>
+<a id="a1f1cdc89cb489cd4e071f2a431dbfaa5" name="a1f1cdc89cb489cd4e071f2a431dbfaa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f1cdc89cb489cd4e071f2a431dbfaa5">&#9670;&#160;</a></span>cardUpdateStatusBar</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d7d/classCardDatabaseUpdateStatusBar.html">CardDatabaseUpdateStatusBar</a>* MainWindow::cardUpdateStatusBar = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>status bar widget tracking the card database update </p>
 
 </div>
 </div>
@@ -3558,7 +3823,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QList&lt;QMenu *&gt; MainWindow::tabMenus</td>
+          <td class="memname"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt;QMenu *&gt; MainWindow::tabMenus</td>
         </tr>
       </table>
   </td>

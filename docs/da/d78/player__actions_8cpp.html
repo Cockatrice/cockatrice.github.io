@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,14 +121,54 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('da/d78/player_
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d9/db7/player__actions_8h_source.html">player_actions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">../../client/settings/cache_settings.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d96/card__item_8h_source.html">../../game_graphics/board/card_item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d63/dlg__create__token_8h_source.html">../../game_graphics/dialogs/dlg_create_token.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/de9/dlg__move__top__cards__until_8h_source.html">../../game_graphics/dialogs/dlg_move_top_cards_until.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/da7/dlg__roll__dice_8h_source.html">../../game_graphics/dialogs/dlg_roll_dice.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/d03/card__menu__action__type_8h_source.html">../../game_graphics/player/card_menu_action_type.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dbb/hand__zone_8h_source.html">../../game_graphics/zones/hand_zone.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/dff/table__zone_8h_source.html">../../game_graphics/zones/table_zone.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d20/tab__game_8h_source.html">../../interface/widgets/tabs/tab_game.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dc8/get__text__with__max_8h_source.html">../../interface/widgets/utility/get_text_with_max.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d25/loaded__deck_8h_source.html">../../interface/deck_loader/loaded_deck.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d99/abstract__game_8h_source.html">../abstract_game.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d95/counter__state_8h_source.html">../board/counter_state.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d54/game__event__handler_8h_source.html">../game_event_handler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/dbf/card__zone__logic_8h_source.html">../zones/card_zone_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/dc9/hand__zone__logic_8h_source.html">../zones/hand_zone_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d36/pile__zone__logic_8h_source.html">../zones/pile_zone_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/da4/table__zone__logic_8h_source.html">../zones/table_zone_logic.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/dd4/view__zone__logic_8h_source.html">../zones/view_zone_logic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d9e/card__database__querier_8h_source.html">libcockatrice/card/database/card_database_querier.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/dfd/exact__card_8h_source.html">libcockatrice/card/printing/exact_card.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/dd2/printing__info_8h_source.html">libcockatrice/card/printing/printing_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d1e/card__relation__type_8h_source.html">libcockatrice/card/relation/card_relation_type.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d1a/deck__list_8h_source.html">libcockatrice/deck_list/deck_list.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/da2/filter__string_8h_source.html">libcockatrice/filters/filter_string.h</a>&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/card_attributes.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/game_commands.pb.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d63/cards__display__settings_8h_source.html">libcockatrice/settings/cards_display_settings.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d83/player__info_8h_source.html">player_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/df2/player__logic_8h_source.html">player_logic.h</a>&quot;</code><br />
+<code>#include &lt;QAction&gt;</code><br />
+<code>#include &lt;QChar&gt;</code><br />
+<code>#include &lt;QColor&gt;</code><br />
+<code>#include &lt;QFlags&gt;</code><br />
+<code>#include &lt;QInputDialog&gt;</code><br />
+<code>#include &lt;QKeyEvent&gt;</code><br />
+<code>#include &lt;QList&gt;</code><br />
+<code>#include &lt;QMap&gt;</code><br />
+<code>#include &lt;QMapIterator&gt;</code><br />
+<code>#include &lt;QMetaType&gt;</code><br />
+<code>#include &lt;QPoint&gt;</code><br />
+<code>#include &lt;QPointF&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
+<code>#include &lt;QTimer&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
+<code>#include &lt;QVariantList&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;google/protobuf/descriptor.h&gt;</code><br />
+<code>#include &lt;google/protobuf/message.h&gt;</code><br />
+<code>#include &lt;google/protobuf/stubs/port.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/d72/card__relation_8h_source.html">libcockatrice/card/relation/card_relation.h</a>&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_attach_card.pb.h&gt;</code><br />
@@ -146,22 +186,20 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('da/d78/player_
 <code>#include &lt;libcockatrice/protocol/pb/command_set_card_counter.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_shuffle.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_undo_draw.pb.h&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/context_move_card.pb.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/d33/card__override__settings_8h_source.html">libcockatrice/settings/card_override_settings.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d5/d46/interface__settings_8h_source.html">libcockatrice/settings/interface_settings.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d2a/clamped__arithmetic_8h_source.html">libcockatrice/utility/clamped_arithmetic.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/d39/counter__limits_8h_source.html">libcockatrice/utility/counter_limits.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/d1b/expression_8h_source.html">libcockatrice/utility/expression.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d6/d64/zone__names_8h_source.html">libcockatrice/utility/zone_names.h</a>&gt;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for player_actions.cpp:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d93/player__actions_8cpp__incl.svg" width="100%" height="558"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;qnamespace.h&gt;</code><br />
+<code>#include &lt;qnumeric.h&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2139380b0a465e9b2cb1ec81514d7ecb" id="r_a2139380b0a465e9b2cb1ec81514d7ecb"><td class="memItemLeft">static QList&lt; <a class="el" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">CardList::SortOption</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a2139380b0a465e9b2cb1ec81514d7ecb">expandSortOption</a> (<a class="el" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">CardList::SortOption</a> option)</td></tr>
+<tr class="memitem:a2139380b0a465e9b2cb1ec81514d7ecb" id="r_a2139380b0a465e9b2cb1ec81514d7ecb"><td class="memItemLeft">static <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">CardList::SortOption</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a2139380b0a465e9b2cb1ec81514d7ecb">expandSortOption</a> (<a class="el" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">CardList::SortOption</a> option)</td></tr>
 <tr class="memdesc:a2139380b0a465e9b2cb1ec81514d7ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sortHand actions only pass along a single SortOption in its data. This method fills out the rest of the sort priority list given that option.  <br /></td></tr>
 <tr class="memitem:afdf6450d908c197041e134288e6ccf10" id="r_afdf6450d908c197041e134288e6ccf10"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#afdf6450d908c197041e134288e6ccf10">selectCardsInZone</a> (const <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *zone, std::function&lt; bool(const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *)&gt; filter=[](const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *) { return true;})</td></tr>
 <tr class="memitem:a5d4f4173beed500583a862e239956fc8" id="r_a5d4f4173beed500583a862e239956fc8"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a5d4f4173beed500583a862e239956fc8">isUnwritableRevealZone</a> (<a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *zone)</td></tr>
@@ -182,7 +220,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QList&lt; <a class="el" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">CardList::SortOption</a> &gt; expandSortOption </td>
+          <td class="memname"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">CardList::SortOption</a> &gt; expandSortOption </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f">CardList::SortOption</a></td>          <td class="paramname"><span class="paramname"><em>option</em></span></td><td>)</td>
           <td></td>

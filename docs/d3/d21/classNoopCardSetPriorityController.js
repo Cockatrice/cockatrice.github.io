@@ -1,5 +1,6 @@
 var classNoopCardSetPriorityController =
 [
+    [ "getEnabledSetNames", "d3/d21/classNoopCardSetPriorityController.html#a8e62172a6414049bbc5c449598b46211", null ],
     [ "getSetOptions", "d3/d21/classNoopCardSetPriorityController.html#ae3409048d346e3cc00f6cfe2fafe109e", null ],
     [ "getSortKey", "d3/d21/classNoopCardSetPriorityController.html#a26e69237213da1fcea0a5dc8c595426c", null ],
     [ "isEnabled", "d3/d21/classNoopCardSetPriorityController.html#adb9c280ed6233e158f8ff28080a84ebc", null ],

@@ -9,7 +9,7 @@ var searchData=
   ['game_5fevent_5fcontext_2eproto_6',['game_event_context.proto',['../dc/dfe/game__event__context_8proto.html',1,'']]],
   ['game_5fevent_5fhandler_2ecpp_7',['game_event_handler.cpp',['../d2/d48/game__event__handler_8cpp.html',1,'']]],
   ['game_5fevent_5fhandler_2eh_8',['game_event_handler.h',['../da/d54/game__event__handler_8h.html',1,'']]],
-  ['game_5fevent_5fhandler_2emd_9',['game_event_handler.md',['../d2/d06/client_2game__event__handler_8md.html',1,'(Global Namespace)'],['../db/dc1/game__event__handler_8md.html',1,'(Global Namespace)']]],
+  ['game_5fevent_5fhandler_2emd_9',['game_event_handler.md',['../db/dc1/game__event__handler_8md.html',1,'']]],
   ['game_5ffilter_5fconfigs_2ecpp_10',['game_filter_configs.cpp',['../d5/d1f/game__filter__configs_8cpp.html',1,'']]],
   ['game_5ffilter_5fconfigs_2eh_11',['game_filter_configs.h',['../db/d68/game__filter__configs_8h.html',1,'']]],
   ['game_5ffilters_5fsettings_2ecpp_12',['game_filters_settings.cpp',['../d8/d0b/game__filters__settings_8cpp.html',1,'']]],

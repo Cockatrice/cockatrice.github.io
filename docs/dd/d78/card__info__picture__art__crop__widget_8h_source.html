@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -127,24 +127,29 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('dd/d78/card__i
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="../../d8/dc1/card__info__picture__widget_8h.html">card_info_picture_widget.h</a>&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../de/dd3/classCardInfoPictureArtCropWidget.html">   12</a></span><span class="keyword">class </span><a class="code hl_function" href="../../de/dd3/classCardInfoPictureArtCropWidget.html#acc6098c84c4d183f7cb1dd28d42051bc">CardInfoPictureArtCropWidget</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../dd/dd2/classCardInfoPictureWidget.html#a0ee2d270a29b4fc61e47cb42d8d4d373">CardInfoPictureWidget</a></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    Q_OBJECT</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../de/dd3/classCardInfoPictureArtCropWidget.html#acc6098c84c4d183f7cb1dd28d42051bc">CardInfoPictureArtCropWidget</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="comment">// Returns a cropped version of the pixmap</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    QPixmap <a class="code hl_function" href="../../de/dd3/classCardInfoPictureArtCropWidget.html#a364d018a50173f1ef3b70f2a946a76c5">getBackground</a>();</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>};</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QPixmap&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;qtmetamacros.h&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span>QWidget;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../de/dd3/classCardInfoPictureArtCropWidget.html">   17</a></span><span class="keyword">class </span><a class="code hl_function" href="../../de/dd3/classCardInfoPictureArtCropWidget.html#acc6098c84c4d183f7cb1dd28d42051bc">CardInfoPictureArtCropWidget</a> : <span class="keyword">public</span> <a class="code hl_function" href="../../dd/dd2/classCardInfoPictureWidget.html#a0ee2d270a29b4fc61e47cb42d8d4d373">CardInfoPictureWidget</a></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    Q_OBJECT</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../de/dd3/classCardInfoPictureArtCropWidget.html#acc6098c84c4d183f7cb1dd28d42051bc">CardInfoPictureArtCropWidget</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="comment">// Returns a cropped version of the pixmap</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    QPixmap <a class="code hl_function" href="../../de/dd3/classCardInfoPictureArtCropWidget.html#a364d018a50173f1ef3b70f2a946a76c5">getBackground</a>();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>};</div>
 </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#endif </span><span class="comment">// CARD_INFO_PICTURE_ART_CROP_WIDGET_H</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#endif </span><span class="comment">// CARD_INFO_PICTURE_ART_CROP_WIDGET_H</span></div>
 <div class="ttc" id="acard__info__picture__widget_8h_html"><div class="ttname"><a href="../../d8/dc1/card__info__picture__widget_8h.html">card_info_picture_widget.h</a></div></div>
-<div class="ttc" id="aclassCardInfoPictureArtCropWidget_html_a364d018a50173f1ef3b70f2a946a76c5"><div class="ttname"><a href="../../de/dd3/classCardInfoPictureArtCropWidget.html#a364d018a50173f1ef3b70f2a946a76c5">CardInfoPictureArtCropWidget::getBackground</a></div><div class="ttdeci">QPixmap getBackground()</div><div class="ttdef"><b>Definition</b> card_info_picture_art_crop_widget.cpp:11</div></div>
-<div class="ttc" id="aclassCardInfoPictureArtCropWidget_html_acc6098c84c4d183f7cb1dd28d42051bc"><div class="ttname"><a href="../../de/dd3/classCardInfoPictureArtCropWidget.html#acc6098c84c4d183f7cb1dd28d42051bc">CardInfoPictureArtCropWidget::CardInfoPictureArtCropWidget</a></div><div class="ttdeci">CardInfoPictureArtCropWidget(QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition</b> card_info_picture_art_crop_widget.cpp:5</div></div>
-<div class="ttc" id="aclassCardInfoPictureWidget_html_a0ee2d270a29b4fc61e47cb42d8d4d373"><div class="ttname"><a href="../../dd/dd2/classCardInfoPictureWidget.html#a0ee2d270a29b4fc61e47cb42d8d4d373">CardInfoPictureWidget::CardInfoPictureWidget</a></div><div class="ttdeci">CardInfoPictureWidget(QWidget *parent=nullptr, bool hoverToZoomEnabled=false, bool raiseOnEnter=false)</div><div class="ttdoc">Constructs a CardInfoPictureWidget.</div><div class="ttdef"><b>Definition</b> card_info_picture_widget.cpp:48</div></div>
+<div class="ttc" id="aclassCardInfoPictureArtCropWidget_html_a364d018a50173f1ef3b70f2a946a76c5"><div class="ttname"><a href="../../de/dd3/classCardInfoPictureArtCropWidget.html#a364d018a50173f1ef3b70f2a946a76c5">CardInfoPictureArtCropWidget::getBackground</a></div><div class="ttdeci">QPixmap getBackground()</div><div class="ttdef"><b>Definition</b> card_info_picture_art_crop_widget.cpp:17</div></div>
+<div class="ttc" id="aclassCardInfoPictureArtCropWidget_html_acc6098c84c4d183f7cb1dd28d42051bc"><div class="ttname"><a href="../../de/dd3/classCardInfoPictureArtCropWidget.html#acc6098c84c4d183f7cb1dd28d42051bc">CardInfoPictureArtCropWidget::CardInfoPictureArtCropWidget</a></div><div class="ttdeci">CardInfoPictureArtCropWidget(QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition</b> card_info_picture_art_crop_widget.cpp:11</div></div>
+<div class="ttc" id="aclassCardInfoPictureWidget_html_a0ee2d270a29b4fc61e47cb42d8d4d373"><div class="ttname"><a href="../../dd/dd2/classCardInfoPictureWidget.html#a0ee2d270a29b4fc61e47cb42d8d4d373">CardInfoPictureWidget::CardInfoPictureWidget</a></div><div class="ttdeci">CardInfoPictureWidget(QWidget *parent=nullptr, bool hoverToZoomEnabled=false, bool raiseOnEnter=false)</div><div class="ttdoc">Constructs a CardInfoPictureWidget.</div><div class="ttdef"><b>Definition</b> card_info_picture_widget.cpp:74</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

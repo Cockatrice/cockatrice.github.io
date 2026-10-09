@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -130,7 +130,7 @@ Inheritance diagram for OracleWizard:</div>
 <div class="dynheader">
 Collaboration diagram for OracleWizard:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d19/classOracleWizard__coll__graph.svg" width="232" height="207"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d19/classOracleWizard__coll__graph.svg" width="100%" height="512"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -166,16 +166,23 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:abd99fc0239717a8faf27ebc4f578d4e4" id="r_abd99fc0239717a8faf27ebc4f578d4e4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abd99fc0239717a8faf27ebc4f578d4e4">updateLanguage</a> ()</td></tr>
+<tr class="memitem:a570c6c714254ee7a8322d5ef849f4e96" id="r_a570c6c714254ee7a8322d5ef849f4e96"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a570c6c714254ee7a8322d5ef849f4e96">handleRaiseRequest</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a14bd530842d6789b5987001b4bb980a4" id="r_a14bd530842d6789b5987001b4bb980a4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a14bd530842d6789b5987001b4bb980a4">migrateOracleSettings</a> ()</td></tr>
+<tr class="memitem:abe6a117a377c73e8ec44e562ff7bbd4f" id="r_abe6a117a377c73e8ec44e562ff7bbd4f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abe6a117a377c73e8ec44e562ff7bbd4f">startRaiseServer</a> ()</td></tr>
+<tr class="memdesc:abe6a117a377c73e8ec44e562ff7bbd4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the local socket the hosting Cockatrice client uses to bring this wizard forward.  <br /></td></tr>
+<tr class="memitem:a7bcb0f721814e2b1a0e71c5f1ba31b81" id="r_a7bcb0f721814e2b1a0e71c5f1ba31b81"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7bcb0f721814e2b1a0e71c5f1ba31b81">raiseWizard</a> ()</td></tr>
+<tr class="memdesc:a7bcb0f721814e2b1a0e71c5f1ba31b81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows, raises and activates the wizard window.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ae31123facf4abef01eaf3232fe264122" id="r_ae31123facf4abef01eaf3232fe264122"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#ae31123facf4abef01eaf3232fe264122">tokensData</a></td></tr>
 <tr class="memitem:a9c1dcbb3191ee9634c5fd1ef2262719c" id="r_a9c1dcbb3191ee9634c5fd1ef2262719c"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a9c1dcbb3191ee9634c5fd1ef2262719c">cardSourceUrl</a></td></tr>
 <tr class="memitem:a4e2a2134915b572884ac118ec07b1133" id="r_a4e2a2134915b572884ac118ec07b1133"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a4e2a2134915b572884ac118ec07b1133">cardSourceVersion</a></td></tr>
+<tr class="memitem:af174966b40b35f0ce8bdb2d740553caa" id="r_af174966b40b35f0ce8bdb2d740553caa"><td class="memItemLeft">QLocalServer *&#160;</td><td class="memItemRight"><a class="el" href="#af174966b40b35f0ce8bdb2d740553caa">raiseServer</a> = nullptr</td></tr>
+<tr class="memdesc:af174966b40b35f0ce8bdb2d740553caa"><td class="mdescLeft">&#160;</td><td class="mdescRight">listens for raise requests from the hosting client  <br /></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3fe02bd0aaecfcf6f42c582aa9a57640" name="a3fe02bd0aaecfcf6f42c582aa9a57640"></a>
@@ -363,6 +370,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a570c6c714254ee7a8322d5ef849f4e96" name="a570c6c714254ee7a8322d5ef849f4e96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a570c6c714254ee7a8322d5ef849f4e96">&#9670;&#160;</a></span>handleRaiseRequest</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OracleWizard::handleRaiseRequest </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dba/classOracleWizard_a570c6c714254ee7a8322d5ef849f4e96_cgraph.svg" width="451" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dba/classOracleWizard_a570c6c714254ee7a8322d5ef849f4e96_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a6a4c2dea7cb0a8731f406901cb42052e" name="a6a4c2dea7cb0a8731f406901cb42052e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a4c2dea7cb0a8731f406901cb42052e">&#9670;&#160;</a></span>hasTokensData()</h2>
 
@@ -420,6 +462,38 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dba/classOracleWizard_a14bd530842d6789b5987001b4bb980a4_icgraph.svg" width="474" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a7bcb0f721814e2b1a0e71c5f1ba31b81" name="a7bcb0f721814e2b1a0e71c5f1ba31b81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bcb0f721814e2b1a0e71c5f1ba31b81">&#9670;&#160;</a></span>raiseWizard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OracleWizard::raiseWizard </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shows, raises and activates the wizard window. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dba/classOracleWizard_a7bcb0f721814e2b1a0e71c5f1ba31b81_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -600,6 +674,43 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="abe6a117a377c73e8ec44e562ff7bbd4f" name="abe6a117a377c73e8ec44e562ff7bbd4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe6a117a377c73e8ec44e562ff7bbd4f">&#9670;&#160;</a></span>startRaiseServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OracleWizard::startRaiseServer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Starts the local socket the hosting Cockatrice client uses to bring this wizard forward. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dba/classOracleWizard_abe6a117a377c73e8ec44e562ff7bbd4f_cgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dba/classOracleWizard_abe6a117a377c73e8ec44e562ff7bbd4f_icgraph.svg" width="446" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="abd99fc0239717a8faf27ebc4f578d4e4" name="abd99fc0239717a8faf27ebc4f578d4e4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abd99fc0239717a8faf27ebc4f578d4e4">&#9670;&#160;</a></span>updateLanguage</h2>
 
@@ -733,6 +844,30 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="af174966b40b35f0ce8bdb2d740553caa" name="af174966b40b35f0ce8bdb2d740553caa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af174966b40b35f0ce8bdb2d740553caa">&#9670;&#160;</a></span>raiseServer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLocalServer* OracleWizard::raiseServer = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>listens for raise requests from the hosting client </p>
 
 </div>
 </div>

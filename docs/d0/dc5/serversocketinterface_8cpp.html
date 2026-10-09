@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,27 +123,62 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d0/dc5/servers
 <div class="textblock"><code>#include &quot;<a class="el" href="../../de/d08/serversocketinterface_8h_source.html">serversocketinterface.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d85/deck__tag__serialization_8h_source.html">deck_tag_serialization.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/de2/email__parser_8h_source.html">email_parser.h</a>&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/admin_commands.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/developer_commands.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/moderator_commands.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/serverinfo_deck_share_item.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/serverinfo_deck_share_summary.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/serverinfo_replay_match.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/serverinfo_report.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/serverinfo_warning.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/session_commands.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/session_event.pb.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d89/card__ref_8h_source.html">libcockatrice/utility/card_ref.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/d40/servatrice_2src_2main_8h_source.html">main.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/d02/metrics__registry_8h_source.html">metrics_registry.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/db3/servatrice_8h_source.html">servatrice.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/d8e/servatrice__database__interface_8h_source.html">servatrice_database_interface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/dc3/server_8h_source.html">server.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d74/server__database__interface_8h_source.html">server_database_interface.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d62/server__logger_8h_source.html">server_logger.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/d47/server__protocolhandler_8h_source.html">server_protocolhandler.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d96/settingscache_8h_source.html">settingscache.h</a>&quot;</code><br />
 <code>#include &quot;version_string.h&quot;</code><br />
+<code>#include &lt;QChar&gt;</code><br />
+<code>#include &lt;QCryptographicHash&gt;</code><br />
 <code>#include &lt;QDateTime&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QElapsedTimer&gt;</code><br />
 <code>#include &lt;QHostAddress&gt;</code><br />
 <code>#include &lt;QJsonDocument&gt;</code><br />
 <code>#include &lt;QJsonObject&gt;</code><br />
+<code>#include &lt;QJsonValueRef&gt;</code><br />
+<code>#include &lt;QListIterator&gt;</code><br />
 <code>#include &lt;QLoggingCategory&gt;</code><br />
+<code>#include &lt;QMap&gt;</code><br />
+<code>#include &lt;QMessageLogger&gt;</code><br />
+<code>#include &lt;QMetaObject&gt;</code><br />
+<code>#include &lt;QMetaType&gt;</code><br />
+<code>#include &lt;QMutexLocker&gt;</code><br />
+<code>#include &lt;QNetworkRequest&gt;</code><br />
 <code>#include &lt;QRandomGenerator&gt;</code><br />
-<code>#include &lt;QRegularExpression&gt;</code><br />
+<code>#include &lt;QReadLocker&gt;</code><br />
+<code>#include &lt;QReadWriteLock&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
 <code>#include &lt;QSqlError&gt;</code><br />
 <code>#include &lt;QSqlQuery&gt;</code><br />
 <code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QStringLiteral&gt;</code><br />
+<code>#include &lt;QTextStream&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d9/d80/server__player_8h_source.html">game/server_player.h</a>&gt;</code><br />
+<code>#include &lt;exception&gt;</code><br />
 <code>#include &lt;google/protobuf/descriptor.h&gt;</code><br />
+<code>#include &lt;google/protobuf/repeated_ptr_field.h&gt;</code><br />
+<code>#include &lt;google/protobuf/stubs/common.h&gt;</code><br />
+<code>#include &lt;google/protobuf/stubs/port.h&gt;</code><br />
+<code>#include &lt;initializer_list&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d7/d1a/deck__list_8h_source.html">libcockatrice/deck_list/deck_list.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d2/d8b/get__pb__extension_8h_source.html">libcockatrice/protocol/get_pb_extension.h</a>&gt;</code><br />
@@ -185,8 +220,6 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d0/dc5/servers
 <code>#include &lt;libcockatrice/protocol/pb/event_remove_from_list.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/event_replay_added.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/event_server_identification.pb.h&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/event_server_message.pb.h&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/event_user_joined.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/event_user_message.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_ban_history.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_card_art_rule_entry.pb.h&gt;</code><br />
@@ -231,9 +264,14 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d0/dc5/servers
 <code>#include &lt;<a class="el" href="../../d3/d31/report__categories_8h_source.html">libcockatrice/utility/report_categories.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d78/string__limits_8h_source.html">libcockatrice/utility/string_limits.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/dbe/warning__categories_8h_source.html">libcockatrice/utility/warning_categories.h</a>&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;qlogging.h&gt;</code><br />
+<code>#include &lt;qnamespace.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d1f/server__response__containers_8h_source.html">server_response_containers.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/d97/server__room_8h_source.html">server_room.h</a>&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -244,6 +282,7 @@ Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:afa8040df1b33ccdd6203eb91e4667ecd" id="r_afa8040df1b33ccdd6203eb91e4667ecd"><td class="memItemLeft">static const int&#160;</td><td class="memItemRight"><a class="el" href="#afa8040df1b33ccdd6203eb91e4667ecd">protocolVersion</a> = 14</td></tr>
+<tr class="memitem:a9aa5c3bd9215b4add911bf3654198099" id="r_a9aa5c3bd9215b4add911bf3654198099"><td class="memItemLeft">static const int&#160;</td><td class="memItemRight"><a class="el" href="#a9aa5c3bd9215b4add911bf3654198099">MAX_TCP_MESSAGE_SIZE</a> = 1500000</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a7bd630107cfa43302a770c28ff6b0c5c" name="a7bd630107cfa43302a770c28ff6b0c5c"></a>
@@ -349,6 +388,28 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="a9aa5c3bd9215b4add911bf3654198099" name="a9aa5c3bd9215b4add911bf3654198099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aa5c3bd9215b4add911bf3654198099">&#9670;&#160;</a></span>MAX_TCP_MESSAGE_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int MAX_TCP_MESSAGE_SIZE = 1500000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afa8040df1b33ccdd6203eb91e4667ecd" name="afa8040df1b33ccdd6203eb91e4667ecd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa8040df1b33ccdd6203eb91e4667ecd">&#9670;&#160;</a></span>protocolVersion</h2>
 

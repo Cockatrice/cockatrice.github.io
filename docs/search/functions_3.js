@@ -198,7 +198,7 @@ var searchData=
   ['doesforgotpasswordexist_195',['doesForgotPasswordExist',['../d3/d76/classServatrice__DatabaseInterface.html#a39ba1aa199513951ff6fa4f9ed344975',1,'Servatrice_DatabaseInterface']]],
   ['doesntuntapchanged_196',['doesntUntapChanged',['../db/d1b/classCardState.html#abe6f5fc3d9729e3a5e52eb2bfb6ac789',1,'CardState']]],
   ['dohashedlogin_197',['doHashedLogin',['../db/d53/classRemoteClient.html#ad8f6c81f52b6104e5da9b58160817bdd',1,'RemoteClient']]],
-  ['doloadcarddatabases_198',['doLoadCardDatabases',['../d2/d1b/classCardDatabaseLoader.html#aeb3a5ca43a0e3f6be9a68cfc4b0c7b3f',1,'CardDatabaseLoader']]],
+  ['doloadcarddatabases_198',['doLoadCardDatabases',['../d2/d1b/classCardDatabaseLoader.html#a51779aff1fa932e546ed37fb6a68d2a3',1,'CardDatabaseLoader']]],
   ['dologin_199',['doLogin',['../db/d53/classRemoteClient.html#aaa8af462dc06132f65e6eb4c59e7bdca',1,'RemoteClient']]],
   ['dometadatamodified_200',['doMetadataModified',['../dd/dab/classDeckStateManager.html#a7e3b0a10b29e6f58881a8616d841e56b',1,'DeckStateManager']]],
   ['domulligan_201',['doMulligan',['../d2/d23/classPlayerActions.html#a138321bc016b1a381d79dfbcdb445f1a',1,'PlayerActions']]],

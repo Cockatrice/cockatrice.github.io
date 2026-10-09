@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -133,7 +133,7 @@ Inheritance diagram for CardDatabase:</div>
 <div class="dynheader">
 Collaboration diagram for CardDatabase:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d95/classCardDatabase__coll__graph.svg" width="100%" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d95/classCardDatabase__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
@@ -144,8 +144,9 @@ Public Slots</h2></td></tr>
 <tr class="memdesc:ae9017d986d73b42e2d3677412d666fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a set to the database.  <br /></td></tr>
 <tr class="memitem:a5a56fc9608dad7243b4c796f4f19b2c8" id="r_a5a56fc9608dad7243b4c796f4f19b2c8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5a56fc9608dad7243b4c796f4f19b2c8">addFormat</a> (const <a class="el" href="../../df/df3/card__info_8h.html#a411c105e9a86135bec85413e40d7a243">FormatRulesPtr</a> &amp;format)</td></tr>
 <tr class="memitem:a4f94e38e40632d33d584187d7e1614f5" id="r_a4f94e38e40632d33d584187d7e1614f5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4f94e38e40632d33d584187d7e1614f5">loadCardDatabases</a> ()</td></tr>
-<tr class="memdesc:a4f94e38e40632d33d584187d7e1614f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads card databases from configured paths.  <br /></td></tr>
+<tr class="memdesc:a4f94e38e40632d33d584187d7e1614f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads card databases from configured paths, using the binary cache when valid.  <br /></td></tr>
 <tr class="memitem:a0b72c76e38c459b44f3aa76340875897" id="r_a0b72c76e38c459b44f3aa76340875897"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0b72c76e38c459b44f3aa76340875897">reloadCardDatabasesAndNotify</a> ()</td></tr>
+<tr class="memdesc:a0b72c76e38c459b44f3aa76340875897"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads card databases from disk, bypassing the binary cache, and notifies observers of the fresh state.  <br /></td></tr>
 <tr class="memitem:a0def74208b0f26956b33b314160f4c2a" id="r_a0def74208b0f26956b33b314160f4c2a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0def74208b0f26956b33b314160f4c2a">saveCustomTokensToFile</a> ()</td></tr>
 <tr class="memdesc:a0def74208b0f26956b33b314160f4c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves custom tokens to file.  <br /></td></tr>
 <tr class="memitem:a96031e366c7b9871e870b611e5ee03e4" id="r_a96031e366c7b9871e870b611e5ee03e4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a96031e366c7b9871e870b611e5ee03e4">swapInDatabaseData</a> (<a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> data)</td></tr>
@@ -970,7 +971,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Loads card databases from configured paths. </p>
+<p>Loads card databases from configured paths, using the binary cache when valid. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1182,6 +1183,8 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reloads card databases from disk, bypassing the binary cache, and notifies observers of the fresh state. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,21 +123,33 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d4/dc8/picture
 <div class="textblock"><code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">client/settings/cache_settings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/dbe/card__picture__loader__worker_8h_source.html">interface/card_picture_loader/card_picture_loader_worker.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d5b/card__picture__to__load_8h_source.html">interface/card_picture_loader/card_picture_to_load.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/df3/card__info_8h_source.html">libcockatrice/card/card_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d6b/card__database__loader_8h_source.html">libcockatrice/card/database/card_database_loader.h</a>&quot;</code><br />
+<code>#include &lt;QByteArrayView&gt;</code><br />
 <code>#include &lt;QCoreApplication&gt;</code><br />
 <code>#include &lt;QDir&gt;</code><br />
 <code>#include &lt;QElapsedTimer&gt;</code><br />
 <code>#include &lt;QEventLoop&gt;</code><br />
 <code>#include &lt;QFile&gt;</code><br />
+<code>#include &lt;QFlags&gt;</code><br />
 <code>#include &lt;QImage&gt;</code><br />
+<code>#include &lt;QLatin1String&gt;</code><br />
 <code>#include &lt;QList&gt;</code><br />
 <code>#include &lt;QMessageLogContext&gt;</code><br />
 <code>#include &lt;QMetaType&gt;</code><br />
 <code>#include &lt;QMutex&gt;</code><br />
+<code>#include &lt;QMutexLocker&gt;</code><br />
+<code>#include &lt;QObject&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QStringList&gt;</code><br />
+<code>#include &lt;QStringLiteral&gt;</code><br />
 <code>#include &lt;QTemporaryDir&gt;</code><br />
 <code>#include &lt;QThread&gt;</code><br />
 <code>#include &lt;QTimer&gt;</code><br />
 <code>#include &lt;QUrl&gt;</code><br />
-<code>#include &lt;QtLogging&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
+<code>#include &lt;QtMessageHandler&gt;</code><br />
 <code>#include &lt;atomic&gt;</code><br />
 <code>#include &lt;cstdio&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d7/d66/card__database_8h_source.html">libcockatrice/card/database/card_database.h</a>&gt;</code><br />
@@ -148,6 +160,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d4/dc8/picture
 <code>#include &lt;<a class="el" href="../../d4/dd1/noop__card__set__priority__controller_8h_source.html">libcockatrice/interfaces/noop_card_set_priority_controller.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/de1/download__settings_8h_source.html">libcockatrice/settings/download_settings.h</a>&gt;</code><br />
 <code>#include &lt;optional&gt;</code><br />
+<code>#include &lt;qsystemdetection.h&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for picture_loader_benchmark.cpp:</div>
 <div class="dyncontent">
@@ -163,11 +177,11 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a04bcd51cfb5f87af2ff62eee1da9123f" id="r_a04bcd51cfb5f87af2ff62eee1da9123f"><td class="memItemLeft">static QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a04bcd51cfb5f87af2ff62eee1da9123f">selectCardsForTemplate</a> (<a class="el" href="../../d5/d45/classCardDatabase.html">CardDatabase</a> &amp;db, const QString &amp;urlTemplate, int maxCards)</td></tr>
-<tr class="memitem:ab33c03e402079deb376940b53b134f47" id="r_ab33c03e402079deb376940b53b134f47"><td class="memItemLeft">static <a class="el" href="../../db/d06/structPassResult.html">PassResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab33c03e402079deb376940b53b134f47">runPass</a> (<a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html">CardPictureLoaderWorker</a> *worker, const QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; &amp;cards, int timeoutMs)</td></tr>
+<tr class="memitem:a04bcd51cfb5f87af2ff62eee1da9123f" id="r_a04bcd51cfb5f87af2ff62eee1da9123f"><td class="memItemLeft">static <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a04bcd51cfb5f87af2ff62eee1da9123f">selectCardsForTemplate</a> (<a class="el" href="../../d5/d45/classCardDatabase.html">CardDatabase</a> &amp;db, const QString &amp;urlTemplate, int maxCards)</td></tr>
+<tr class="memitem:ab33c03e402079deb376940b53b134f47" id="r_ab33c03e402079deb376940b53b134f47"><td class="memItemLeft">static <a class="el" href="../../db/d06/structPassResult.html">PassResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab33c03e402079deb376940b53b134f47">runPass</a> (<a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html">CardPictureLoaderWorker</a> *worker, const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; &amp;cards, int timeoutMs)</td></tr>
 <tr class="memitem:af53e4b44fb253531416fdc6bdfb56746" id="r_af53e4b44fb253531416fdc6bdfb56746"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#af53e4b44fb253531416fdc6bdfb56746">stressLogHandler</a> (QtMsgType type, const QMessageLogContext &amp;context, const QString &amp;msg)</td></tr>
 <tr class="memitem:a868b718bc2ba14ec94b457ee1c6347d7" id="r_a868b718bc2ba14ec94b457ee1c6347d7"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a868b718bc2ba14ec94b457ee1c6347d7">destroyWorker</a> (<a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html">CardPictureLoaderWorker</a> *worker)</td></tr>
-<tr class="memitem:aa5ec80e09bd918e869e5133fe77144a7" id="r_aa5ec80e09bd918e869e5133fe77144a7"><td class="memItemLeft">static <a class="el" href="../../d4/dc6/structStressResult.html">StressResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa5ec80e09bd918e869e5133fe77144a7">runStress</a> (<a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html">CardPictureLoaderWorker</a> *workerA, <a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html">CardPictureLoaderWorker</a> *workerB, const QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; &amp;cards, int timeoutMs)</td></tr>
+<tr class="memitem:aa5ec80e09bd918e869e5133fe77144a7" id="r_aa5ec80e09bd918e869e5133fe77144a7"><td class="memItemLeft">static <a class="el" href="../../d4/dc6/structStressResult.html">StressResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa5ec80e09bd918e869e5133fe77144a7">runStress</a> (<a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html">CardPictureLoaderWorker</a> *workerA, <a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html">CardPictureLoaderWorker</a> *workerB, const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; &amp;cards, int timeoutMs)</td></tr>
 <tr class="memitem:aa2b5c3954f51c5a4fb4db3304b2b4442" id="r_aa2b5c3954f51c5a4fb4db3304b2b4442"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#aa2b5c3954f51c5a4fb4db3304b2b4442">formatDuration</a> (qint64 ms)</td></tr>
 <tr class="memitem:ad59915b5673b5ce7c805f3d0e943172f" id="r_ad59915b5673b5ce7c805f3d0e943172f"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ad59915b5673b5ce7c805f3d0e943172f">likelyRedirects</a> (const QString &amp;urlTemplate)</td></tr>
 <tr class="memitem:a8c9c891a67f021d24c1572332d3cf7ff" id="r_a8c9c891a67f021d24c1572332d3cf7ff"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#a8c9c891a67f021d24c1572332d3cf7ff">hostOf</a> (const QString &amp;urlTemplate)</td></tr>
@@ -398,7 +412,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cards</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cards</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -447,7 +461,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cards</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cards</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -484,7 +498,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QList&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; selectCardsForTemplate </td>
+          <td class="memname"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &gt; selectCardsForTemplate </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d5/d45/classCardDatabase.html">CardDatabase</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>db</em></span>, </td>
         </tr>

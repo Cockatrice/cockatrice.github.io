@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,7 +121,25 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d6/d6a/abstrac
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d5/db3/abstract__client_8h_source.html">abstract_client.h</a>&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/admin_commands.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/developer_commands.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/game_event_container.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/moderator_commands.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/response.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/room_commands.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/room_event.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/serverinfo_user.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/session_commands.pb.h&quot;</code><br />
+<code>#include &quot;libcockatrice/protocol/pb/session_event.pb.h&quot;</code><br />
+<code>#include &lt;QDebug&gt;</code><br />
+<code>#include &lt;QList&gt;</code><br />
+<code>#include &lt;QMessageLogger&gt;</code><br />
+<code>#include &lt;QMetaType&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
 <code>#include &lt;google/protobuf/descriptor.h&gt;</code><br />
+<code>#include &lt;google/protobuf/message.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../de/d76/debug__pb__message_8h_source.html">libcockatrice/protocol/debug_pb_message.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d5/d84/featureset_8h_source.html">libcockatrice/protocol/featureset.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d2/d8b/get__pb__extension_8h_source.html">libcockatrice/protocol/get_pb_extension.h</a>&gt;</code><br />

@@ -10,6 +10,7 @@ var dir_59425e443f801f1f2fd8bbe4959a3ccf =
     [ "picture_loader_benchmark", "dir_d2b8778dc7c76353e3686c20df09619a.html", "dir_d2b8778dc7c76353e3686c20df09619a" ],
     [ "settings", "dir_a2a8d0665692626ee62c86b1ea3ccf2a.html", "dir_a2a8d0665692626ee62c86b1ea3ccf2a" ],
     [ "theme_migration", "dir_3477e437670806a202f1772244067694.html", "dir_3477e437670806a202f1772244067694" ],
+    [ "card_update_progress_test.cpp", "db/dd2/card__update__progress__test_8cpp.html", "db/dd2/card__update__progress__test_8cpp" ],
     [ "clamped_arithmetic_test.cpp", "da/d4a/clamped__arithmetic__test_8cpp.html", "da/d4a/clamped__arithmetic__test_8cpp" ],
     [ "deck_hash_performance_test.cpp", "d6/d42/deck__hash__performance__test_8cpp.html", "d6/d42/deck__hash__performance__test_8cpp" ],
     [ "dummy_test.cpp", "d4/d0d/dummy__test_8cpp.html", "d4/d0d/dummy__test_8cpp" ],

@@ -9,7 +9,7 @@ var searchData=
   ['where_20to_20import_6',['Where to import?',['../db/d91/importing_decks.html#where-to-import',1,'']]],
   ['which_20categories_20are_20available_7',['Which categories are available?',['../d2/d8f/enabling_debug_logs.html#which-categories-are-available',1,'']]],
   ['wide_8',['System-wide',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#system-wide',1,'']]],
-  ['wide_20commands_9',['wide commands',['../db/d15/game_event_handler.html#autotoc_md1-sending-game-wide-commands',1,'1. Sending game-wide commands'],['../db/d15/game_event_handler.html#autotoc_md1-sending-game-wide-commands-1',1,'1. Sending game-wide commands']]],
+  ['wide_20commands_9',['1. Sending game-wide commands',['../db/d15/game_event_handler.html#autotoc_md1-sending-game-wide-commands',1,'']]],
   ['with_20cron_10',['Run it every 2 minutes with cron',['../dir_7bfb512e87101b177eb3569817b9fc67.html#run-it-every-2-minutes-with-cron',1,'']]],
   ['with_20fetchcontent_11',['CMake with FetchContent',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#cmake-with-fetchcontent',1,'']]],
   ['workflow_3a_12',['Example workflow:',['../da/d68/classDeckList.html#example-workflow',1,'']]]

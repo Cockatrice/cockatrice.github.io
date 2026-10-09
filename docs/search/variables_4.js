@@ -190,7 +190,7 @@ var searchData=
   ['docktoactions_187',['dockToActions',['../d1/d53/classAbstractTabDeckEditor.html#a13a5f57d7f7ebbaefdfb5600432d633a',1,'AbstractTabDeckEditor::dockToActions'],['../de/d08/classTabGame.html#affefb13b643fc12047438d7e29940e8e',1,'TabGame::dockToActions']]],
   ['doesnt_5funtap_188',['doesnt_untap',['../d6/da1/structServerInfo__Card.html#ae0cecb5db60795c9e426a95568bec3b2',1,'ServerInfo_Card']]],
   ['doesntuntap_189',['doesntUntap',['../db/d1b/classCardState.html#ab440db9a4caf0bbeefd551af0f7007ec',1,'CardState::doesntUntap'],['../dc/d07/classServer__Card.html#af506f953297911846021d8cc6b813813',1,'Server_Card::doesntUntap']]],
-  ['done_190',['done',['../d1/d7b/structpeg_1_1Trie_1_1Info.html#a979c7cb33ca0d53447f4f2b1cbc59cff',1,'peg::Trie::Info']]],
+  ['done_190',['done',['../de/dbb/structCardUpdateProgress.html#a80824097e245151d969c03adff11d3cf',1,'CardUpdateProgress::done'],['../d1/d7b/structpeg_1_1Trie_1_1Info.html#a979c7cb33ca0d53447f4f2b1cbc59cff',1,'peg::Trie::Info::done']]],
   ['done_5f_191',['done_',['../df/dff/structpeg_1_1DetectLeftRecursion.html#a1775629357f358d42612bbbeafd741d5',1,'peg::DetectLeftRecursion']]],
   ['donotdeletearrowsinsubphasescheckbox_192',['doNotDeleteArrowsInSubPhasesCheckBox',['../d2/d2d/classUserInterfaceSettingsPage.html#afd853bacd0c586a724d2f4dcb2e32432',1,'UserInterfaceSettingsPage']]],
   ['dontaskagaincheckbox_193',['dontAskAgainCheckbox',['../d6/d5f/classDialogConvertDeckToCodFormat.html#a5c9cd30d6038b86138440bec02baada8',1,'DialogConvertDeckToCodFormat']]],

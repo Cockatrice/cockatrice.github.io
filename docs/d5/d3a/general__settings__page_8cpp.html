@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -126,13 +126,26 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d5/d3a/general
 <code>#include &quot;../main.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/df3/user__info__connection_8h_source.html">../server/user/user_info_connection.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d10/release__channel_8h_source.html">update/client/release_channel.h</a>&quot;</code><br />
+<code>#include &lt;QByteArray&gt;</code><br />
 <code>#include &lt;QCoreApplication&gt;</code><br />
+<code>#include &lt;QDate&gt;</code><br />
+<code>#include &lt;QDebug&gt;</code><br />
 <code>#include &lt;QFile&gt;</code><br />
 <code>#include &lt;QFileDialog&gt;</code><br />
 <code>#include &lt;QGridLayout&gt;</code><br />
+<code>#include &lt;QGroupBox&gt;</code><br />
 <code>#include &lt;QLineEdit&gt;</code><br />
+<code>#include &lt;QList&gt;</code><br />
+<code>#include &lt;QMap&gt;</code><br />
 <code>#include &lt;QMessageBox&gt;</code><br />
+<code>#include &lt;QPushButton&gt;</code><br />
+<code>#include &lt;QSharedPointer&gt;</code><br />
+<code>#include &lt;QSizePolicy&gt;</code><br />
 <code>#include &lt;QTranslator&gt;</code><br />
+<code>#include &lt;QVBoxLayout&gt;</code><br />
+<code>#include &lt;QVariant&gt;</code><br />
+<code>#include &lt;QVariantList&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/d4d/libcockatrice__card_2libcockatrice_2card_2card__localization_8h_source.html">libcockatrice/card/card_localization.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d63/cards__display__settings_8h_source.html">libcockatrice/settings/cards_display_settings.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/de1/download__settings_8h_source.html">libcockatrice/settings/download_settings.h</a>&gt;</code><br />
@@ -142,6 +155,9 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d5/d3a/general
 <code>#include &lt;<a class="el" href="../../dd/d79/updates__settings_8h_source.html">libcockatrice/settings/updates_settings.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../de/d3c/macros_8h_source.html">libcockatrice/utility/macros.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/d0c/translation__loader_8h_source.html">libcockatrice/utility/translation_loader.h</a>&gt;</code><br />
+<code>#include &lt;qlogging.h&gt;</code><br />
+<code>#include &lt;qnamespace.h&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for general_settings_page.cpp:</div>
 <div class="dyncontent">

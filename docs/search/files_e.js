@@ -44,7 +44,7 @@ var searchData=
   ['player_5fdialogs_2eh_41',['player_dialogs.h',['../d9/d5b/player__dialogs_8h.html',1,'']]],
   ['player_5fevent_5fhandler_2ecpp_42',['player_event_handler.cpp',['../d9/def/player__event__handler_8cpp.html',1,'']]],
   ['player_5fevent_5fhandler_2eh_43',['player_event_handler.h',['../d8/df5/player__event__handler_8h.html',1,'']]],
-  ['player_5fevent_5fhandler_2emd_44',['player_event_handler.md',['../d5/d94/client_2player__event__handler_8md.html',1,'(Global Namespace)'],['../dd/dbf/player__event__handler_8md.html',1,'(Global Namespace)']]],
+  ['player_5fevent_5fhandler_2emd_44',['player_event_handler.md',['../dd/dbf/player__event__handler_8md.html',1,'']]],
   ['player_5fgraphics_5fitem_2ecpp_45',['player_graphics_item.cpp',['../de/df2/player__graphics__item_8cpp.html',1,'']]],
   ['player_5fgraphics_5fitem_2eh_46',['player_graphics_item.h',['../db/d6e/player__graphics__item_8h.html',1,'']]],
   ['player_5finfo_2ecpp_47',['player_info.cpp',['../db/df6/player__info_8cpp.html',1,'']]],

@@ -1,15 +1,15 @@
 var classCardDatabaseLoader =
 [
-    [ "CardDatabaseLoader", "d2/d1b/classCardDatabaseLoader.html#a7f8e91a450aee800d53ab73bb0f3b1d4", null ],
+    [ "CardDatabaseLoader", "d2/d1b/classCardDatabaseLoader.html#a5170e90524b56c0a2efa7e5cc8c0dd26", null ],
     [ "~CardDatabaseLoader", "d2/d1b/classCardDatabaseLoader.html#ae20f37cfeec85d8eb150ccee93b170e8", null ],
     [ "allNewSetsEnabled", "d2/d1b/classCardDatabaseLoader.html#a7a026d93658e636004d918e78c5964c0", null ],
     [ "cachePath", "d2/d1b/classCardDatabaseLoader.html#ae2838de086bc82b3dfd1e4a468045085", null ],
     [ "collectCustomDatabasePaths", "d2/d1b/classCardDatabaseLoader.html#aa1b7a8668bc802a93f63b275305b2988", null ],
     [ "computeSourceHash", "d2/d1b/classCardDatabaseLoader.html#a5fa4e747080c39c12bc759f158977726", null ],
     [ "databaseDataReady", "d2/d1b/classCardDatabaseLoader.html#a3474006f1f6d3496d13365c8932c5127", null ],
-    [ "doLoadCardDatabases", "d2/d1b/classCardDatabaseLoader.html#aeb3a5ca43a0e3f6be9a68cfc4b0c7b3f", null ],
+    [ "doLoadCardDatabases", "d2/d1b/classCardDatabaseLoader.html#a51779aff1fa932e546ed37fb6a68d2a3", null ],
     [ "loadCardDatabase", "d2/d1b/classCardDatabaseLoader.html#aa0d558aa4f4c2c8a5eb00bbbdc37b306", null ],
-    [ "loadCardDatabases", "d2/d1b/classCardDatabaseLoader.html#ac0cd4d50fa61eeebb743b527f7564fea", null ],
+    [ "loadCardDatabases", "d2/d1b/classCardDatabaseLoader.html#a8d366af0f73f61b90b4d47f4d0333257", null ],
     [ "loadFromCache", "d2/d1b/classCardDatabaseLoader.html#adea098255c5f4f9f9c8ade11ce96f566", null ],
     [ "loadFromFile", "d2/d1b/classCardDatabaseLoader.html#a90ddc90d8955d2e830746cda87a00da2", null ],
     [ "loadingFailed", "d2/d1b/classCardDatabaseLoader.html#a0713a543ff21174c295adae0ce62afda", null ],

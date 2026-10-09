@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,14 +121,25 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d6/d40/palette
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../dd/dea/palette__grid__widget_8h_source.html">palette_grid_widget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/d19/theme__config_8h_source.html">../theme_config.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d65/theme__manager_8h_source.html">../theme_manager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/da6/color__button_8h_source.html">color_button.h</a>&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
+<code>#include &lt;QColor&gt;</code><br />
+<code>#include &lt;QEvent&gt;</code><br />
+<code>#include &lt;QFont&gt;</code><br />
+<code>#include &lt;QFrame&gt;</code><br />
 <code>#include &lt;QGridLayout&gt;</code><br />
 <code>#include &lt;QLabel&gt;</code><br />
 <code>#include &lt;QMetaEnum&gt;</code><br />
 <code>#include &lt;QScrollArea&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QStringList&gt;</code><br />
 <code>#include &lt;QTimer&gt;</code><br />
 <code>#include &lt;QVBoxLayout&gt;</code><br />
+<code>#include &lt;QtGlobal&gt;</code><br />
+<code>#include &lt;qnamespace.h&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for palette_grid_widget.cpp:</div>
 <div class="dyncontent">
@@ -137,13 +148,13 @@ Include dependency graph for palette_grid_widget.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aaba5994321495731e136aaf8db0485f4" id="r_aaba5994321495731e136aaf8db0485f4"><td class="memItemLeft">static QList&lt; QPalette::ColorRole &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aaba5994321495731e136aaf8db0485f4">allRoles</a> ()</td></tr>
+<tr class="memitem:aaba5994321495731e136aaf8db0485f4" id="r_aaba5994321495731e136aaf8db0485f4"><td class="memItemLeft">static <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QPalette::ColorRole &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aaba5994321495731e136aaf8db0485f4">allRoles</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aa16b9996897a581bad770b3eacc67b6a" id="r_aa16b9996897a581bad770b3eacc67b6a"><td class="memItemLeft">static const QList&lt; QPalette::ColorGroup &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa16b9996897a581bad770b3eacc67b6a">ALL_GROUPS</a> = {QPalette::Active, QPalette::Disabled, QPalette::Inactive}</td></tr>
-<tr class="memitem:af02db4ad61e8aef40b151501a45a1830" id="r_af02db4ad61e8aef40b151501a45a1830"><td class="memItemLeft">static const QMap&lt; QPalette::ColorRole, const char * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af02db4ad61e8aef40b151501a45a1830">ROLE_DESCRIPTIONS</a></td></tr>
-<tr class="memitem:a7f89888cf412a60a0de1409a496fb1f2" id="r_a7f89888cf412a60a0de1409a496fb1f2"><td class="memItemLeft">static const QMap&lt; <a class="el" href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90">AppColor::Role</a>, const char * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a7f89888cf412a60a0de1409a496fb1f2">APP_ROLE_DESCRIPTIONS</a></td></tr>
+<tr class="memitem:aa16b9996897a581bad770b3eacc67b6a" id="r_aa16b9996897a581bad770b3eacc67b6a"><td class="memItemLeft">static const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QPalette::ColorGroup &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa16b9996897a581bad770b3eacc67b6a">ALL_GROUPS</a> = {QPalette::Active, QPalette::Disabled, QPalette::Inactive}</td></tr>
+<tr class="memitem:af02db4ad61e8aef40b151501a45a1830" id="r_af02db4ad61e8aef40b151501a45a1830"><td class="memItemLeft">static const <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QPalette::ColorRole, const char * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af02db4ad61e8aef40b151501a45a1830">ROLE_DESCRIPTIONS</a></td></tr>
+<tr class="memitem:a7f89888cf412a60a0de1409a496fb1f2" id="r_a7f89888cf412a60a0de1409a496fb1f2"><td class="memItemLeft">static const <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; <a class="el" href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90">AppColor::Role</a>, const char * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a7f89888cf412a60a0de1409a496fb1f2">APP_ROLE_DESCRIPTIONS</a></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="aaba5994321495731e136aaf8db0485f4" name="aaba5994321495731e136aaf8db0485f4"></a>
@@ -156,7 +167,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QList&lt; QPalette::ColorRole &gt; allRoles </td>
+          <td class="memname"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QPalette::ColorRole &gt; allRoles </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -192,7 +203,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const QList&lt;QPalette::ColorGroup&gt; ALL_GROUPS = {QPalette::Active, QPalette::Disabled, QPalette::Inactive}</td>
+          <td class="memname">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt;QPalette::ColorGroup&gt; ALL_GROUPS = {QPalette::Active, QPalette::Disabled, QPalette::Inactive}</td>
         </tr>
       </table>
   </td>
@@ -214,7 +225,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const QMap&lt;<a class="el" href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90">AppColor::Role</a>, const char *&gt; APP_ROLE_DESCRIPTIONS</td>
+          <td class="memname">const <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt;<a class="el" href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90">AppColor::Role</a>, const char *&gt; APP_ROLE_DESCRIPTIONS</td>
         </tr>
       </table>
   </td>
@@ -227,8 +238,8 @@ Here is the caller graph for this function:</div>
 <div class="line">    {<a class="code hl_enumvalue" href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90aa8345a4346fb925a37d24ef971e399c2">AppColor::AccentStrong</a>, QT_TR_NOOP(<span class="stringliteral">&quot;Vivid primary accent (e.g. home-tab button gradient start)&quot;</span>)},</div>
 <div class="line">    {<a class="code hl_enumvalue" href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a566a76d9192ef71afe404432bff3b67c">AppColor::AccentSoft</a>, QT_TR_NOOP(<span class="stringliteral">&quot;Lightened, desaturated accent (e.g. home-tab button gradient end)&quot;</span>)},</div>
 <div class="line">}</div>
-<div class="ttc" id="anamespaceAppColor_html_a9f948c49b7279a43a6afadaa1748ce90a566a76d9192ef71afe404432bff3b67c"><div class="ttname"><a href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a566a76d9192ef71afe404432bff3b67c">AppColor::AccentSoft</a></div><div class="ttdeci">@ AccentSoft</div><div class="ttdef"><b>Definition</b> theme_config.h:20</div></div>
-<div class="ttc" id="anamespaceAppColor_html_a9f948c49b7279a43a6afadaa1748ce90aa8345a4346fb925a37d24ef971e399c2"><div class="ttname"><a href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90aa8345a4346fb925a37d24ef971e399c2">AppColor::AccentStrong</a></div><div class="ttdeci">@ AccentStrong</div><div class="ttdef"><b>Definition</b> theme_config.h:19</div></div>
+<div class="ttc" id="anamespaceAppColor_html_a9f948c49b7279a43a6afadaa1748ce90a566a76d9192ef71afe404432bff3b67c"><div class="ttname"><a href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a566a76d9192ef71afe404432bff3b67c">AppColor::AccentSoft</a></div><div class="ttdeci">@ AccentSoft</div><div class="ttdef"><b>Definition</b> theme_config.h:21</div></div>
+<div class="ttc" id="anamespaceAppColor_html_a9f948c49b7279a43a6afadaa1748ce90aa8345a4346fb925a37d24ef971e399c2"><div class="ttname"><a href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90aa8345a4346fb925a37d24ef971e399c2">AppColor::AccentStrong</a></div><div class="ttdeci">@ AccentStrong</div><div class="ttdef"><b>Definition</b> theme_config.h:20</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -242,7 +253,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const QMap&lt;QPalette::ColorRole, const char *&gt; ROLE_DESCRIPTIONS</td>
+          <td class="memname">const <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt;QPalette::ColorRole, const char *&gt; ROLE_DESCRIPTIONS</td>
         </tr>
       </table>
   </td>

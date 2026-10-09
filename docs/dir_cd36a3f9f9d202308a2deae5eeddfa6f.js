@@ -1,5 +1,6 @@
 var dir_cd36a3f9f9d202308a2deae5eeddfa6f =
 [
+    [ "card_database_update", "dir_6593dcf5ebed759214f2fb422aa84908.html", "dir_6593dcf5ebed759214f2fb422aa84908" ],
     [ "card_picture_loader", "dir_3739f630ebffb95d754b3bfce6063bc0.html", "dir_3739f630ebffb95d754b3bfce6063bc0" ],
     [ "deck_loader", "dir_2fed3acf106fa2934993254ddae22f0c.html", "dir_2fed3acf106fa2934993254ddae22f0c" ],
     [ "intents", "dir_22f3dbd2c6523dbc44f741d5b9201061.html", "dir_22f3dbd2c6523dbc44f741d5b9201061" ],

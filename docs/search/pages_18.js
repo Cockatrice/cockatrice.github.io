@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ui_20and_20logging_20signals_0',['UI and logging signals',['../db/d15/game_event_handler.html#autotoc_md4-emitting-ui-and-logging-signals',1,'4. Emitting UI and logging signals'],['../db/d15/game_event_handler.html#autotoc_md4-emitting-ui-and-logging-signals-1',1,'4. Emitting UI and logging signals']]],
+  ['ui_20and_20logging_20signals_0',['4. Emitting UI and logging signals',['../db/d15/game_event_handler.html#autotoc_md4-emitting-ui-and-logging-signals',1,'']]],
   ['unconcede_201032_1',['&lt;span class=&quot;tt&quot;&gt;UNCONCEDE&lt;/span&gt; (1032)',['../d0/d5b/protocol_game_command.html#unconcede-1032',1,'']]],
   ['undo_5fdraw_201007_2',['&lt;span class=&quot;tt&quot;&gt;UNDO_DRAW&lt;/span&gt; (1007)',['../d0/d5b/protocol_game_command.html#undo_draw-1007',1,'']]],
   ['update_20your_20client_3',['Update Your Client',['../d9/d7b/fixing_card_pictures.html#update-your-client',1,'']]],

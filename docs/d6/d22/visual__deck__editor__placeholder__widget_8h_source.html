@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-03-Release-3.1.0</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-09-Development-3.1.1-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,32 +123,34 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d6/d22/visual_
 <a href="../../d6/d22/visual__deck__editor__placeholder__widget_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef COCKATRICE_VISUAL_DECK_EDITOR_PLACEHOLDER_WIDGET_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define COCKATRICE_VISUAL_DECK_EDITOR_PLACEHOLDER_WIDGET_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QLabel&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QVBoxLayout&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html">    8</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a5d129276141722c4a909da8b816b341a">VisualDeckEditorPlaceholderWidget</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    Q_OBJECT</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a5d129276141722c4a909da8b816b341a">VisualDeckEditorPlaceholderWidget</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a26199c598bb802f7a8a84da67c531876">retranslateUi</a>();</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a89108a9d8b2bf722e6b632de80aaa4f7">   17</a></span>    QVBoxLayout *<a class="code hl_variable" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a89108a9d8b2bf722e6b632de80aaa4f7">mainLayout</a>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a6e947d05120f6baf0d91ff47bcd9f543">   18</a></span>    QLabel *<a class="code hl_variable" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a6e947d05120f6baf0d91ff47bcd9f543">imageLabel</a>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a8f650f4616073f00cb387a294ebad4b4">   19</a></span>    QLabel *<a class="code hl_variable" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a8f650f4616073f00cb387a294ebad4b4">textLabel</a>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>};</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;qtmetamacros.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">class </span>QLabel;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">class </span>QVBoxLayout;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html">   10</a></span><span class="keyword">class </span><a class="code hl_function" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a5d129276141722c4a909da8b816b341a">VisualDeckEditorPlaceholderWidget</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    Q_OBJECT</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keyword">explicit</span> <a class="code hl_function" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a5d129276141722c4a909da8b816b341a">VisualDeckEditorPlaceholderWidget</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a26199c598bb802f7a8a84da67c531876">retranslateUi</a>();</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a89108a9d8b2bf722e6b632de80aaa4f7">   19</a></span>    QVBoxLayout *<a class="code hl_variable" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a89108a9d8b2bf722e6b632de80aaa4f7">mainLayout</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a6e947d05120f6baf0d91ff47bcd9f543">   20</a></span>    QLabel *<a class="code hl_variable" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a6e947d05120f6baf0d91ff47bcd9f543">imageLabel</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a8f650f4616073f00cb387a294ebad4b4">   21</a></span>    QLabel *<a class="code hl_variable" href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a8f650f4616073f00cb387a294ebad4b4">textLabel</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
 </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_VISUAL_DECK_EDITOR_PLACEHOLDER_WIDGET_H</span></div>
-<div class="ttc" id="aclassVisualDeckEditorPlaceholderWidget_html_a26199c598bb802f7a8a84da67c531876"><div class="ttname"><a href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a26199c598bb802f7a8a84da67c531876">VisualDeckEditorPlaceholderWidget::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdef"><b>Definition</b> visual_deck_editor_placeholder_widget.cpp:26</div></div>
-<div class="ttc" id="aclassVisualDeckEditorPlaceholderWidget_html_a5d129276141722c4a909da8b816b341a"><div class="ttname"><a href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a5d129276141722c4a909da8b816b341a">VisualDeckEditorPlaceholderWidget::VisualDeckEditorPlaceholderWidget</a></div><div class="ttdeci">VisualDeckEditorPlaceholderWidget(QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition</b> visual_deck_editor_placeholder_widget.cpp:3</div></div>
-<div class="ttc" id="aclassVisualDeckEditorPlaceholderWidget_html_a6e947d05120f6baf0d91ff47bcd9f543"><div class="ttname"><a href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a6e947d05120f6baf0d91ff47bcd9f543">VisualDeckEditorPlaceholderWidget::imageLabel</a></div><div class="ttdeci">QLabel * imageLabel</div><div class="ttdef"><b>Definition</b> visual_deck_editor_placeholder_widget.h:18</div></div>
-<div class="ttc" id="aclassVisualDeckEditorPlaceholderWidget_html_a89108a9d8b2bf722e6b632de80aaa4f7"><div class="ttname"><a href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a89108a9d8b2bf722e6b632de80aaa4f7">VisualDeckEditorPlaceholderWidget::mainLayout</a></div><div class="ttdeci">QVBoxLayout * mainLayout</div><div class="ttdef"><b>Definition</b> visual_deck_editor_placeholder_widget.h:17</div></div>
-<div class="ttc" id="aclassVisualDeckEditorPlaceholderWidget_html_a8f650f4616073f00cb387a294ebad4b4"><div class="ttname"><a href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a8f650f4616073f00cb387a294ebad4b4">VisualDeckEditorPlaceholderWidget::textLabel</a></div><div class="ttdeci">QLabel * textLabel</div><div class="ttdef"><b>Definition</b> visual_deck_editor_placeholder_widget.h:19</div></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_VISUAL_DECK_EDITOR_PLACEHOLDER_WIDGET_H</span></div>
+<div class="ttc" id="aclassVisualDeckEditorPlaceholderWidget_html_a26199c598bb802f7a8a84da67c531876"><div class="ttname"><a href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a26199c598bb802f7a8a84da67c531876">VisualDeckEditorPlaceholderWidget::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdef"><b>Definition</b> visual_deck_editor_placeholder_widget.cpp:30</div></div>
+<div class="ttc" id="aclassVisualDeckEditorPlaceholderWidget_html_a5d129276141722c4a909da8b816b341a"><div class="ttname"><a href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a5d129276141722c4a909da8b816b341a">VisualDeckEditorPlaceholderWidget::VisualDeckEditorPlaceholderWidget</a></div><div class="ttdeci">VisualDeckEditorPlaceholderWidget(QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition</b> visual_deck_editor_placeholder_widget.cpp:7</div></div>
+<div class="ttc" id="aclassVisualDeckEditorPlaceholderWidget_html_a6e947d05120f6baf0d91ff47bcd9f543"><div class="ttname"><a href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a6e947d05120f6baf0d91ff47bcd9f543">VisualDeckEditorPlaceholderWidget::imageLabel</a></div><div class="ttdeci">QLabel * imageLabel</div><div class="ttdef"><b>Definition</b> visual_deck_editor_placeholder_widget.h:20</div></div>
+<div class="ttc" id="aclassVisualDeckEditorPlaceholderWidget_html_a89108a9d8b2bf722e6b632de80aaa4f7"><div class="ttname"><a href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a89108a9d8b2bf722e6b632de80aaa4f7">VisualDeckEditorPlaceholderWidget::mainLayout</a></div><div class="ttdeci">QVBoxLayout * mainLayout</div><div class="ttdef"><b>Definition</b> visual_deck_editor_placeholder_widget.h:19</div></div>
+<div class="ttc" id="aclassVisualDeckEditorPlaceholderWidget_html_a8f650f4616073f00cb387a294ebad4b4"><div class="ttname"><a href="../../d5/de5/classVisualDeckEditorPlaceholderWidget.html#a8f650f4616073f00cb387a294ebad4b4">VisualDeckEditorPlaceholderWidget::textLabel</a></div><div class="ttdeci">QLabel * textLabel</div><div class="ttdef"><b>Definition</b> visual_deck_editor_placeholder_widget.h:21</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

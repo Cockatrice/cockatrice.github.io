@@ -7,7 +7,7 @@ var searchData=
   ['level_20properties_4',['High-Level Properties',['../df/d26/developer_reference_protocol_overview.html#high-level-properties',1,'']]],
   ['library_5',['The Cockatrice Card Library',['../da/d69/primer_cards.html#the-cockatrice-card-library',1,'']]],
   ['license_6',['License &lt;a href=&quot;https://github.com/Cockatrice/Cockatrice/blob/master/LICENSE&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/license/Cockatrice/Cockatrice.svg&quot; alt=&quot;GPLv2 License&quot; style=&quot;pointer-events: none;&quot; class=&quot;inline&quot;/&gt;&lt;/a&gt;',['../d0/d30/md_README.html#license-gplv2-licensehttpsimgshieldsiogithublicensecockatricecockatricesvghttpsgithubcomcockatricecockatriceblobmasterlicense',1,'']]],
-  ['lifecycle_7',['Lifecycle',['../db/d15/game_event_handler.html#command-lifecycle',1,'Command Lifecycle'],['../db/d15/game_event_handler.html#command-lifecycle-1',1,'Command Lifecycle']]],
+  ['lifecycle_7',['Command Lifecycle',['../db/d15/game_event_handler.html#command-lifecycle',1,'']]],
   ['lifetime_20and_20delivery_8',['Lifetime and Delivery',['../dc/d6c/protocol_server_message.html#lifetime-and-delivery',1,'']]],
   ['lifetime_20and_20ownership_9',['Lifetime and Ownership',['../dd/d01/protocol_command_container.html#cc_lifecycle',1,'']]],
   ['list_10',['List',['../d3/d32/editing_decks_classic.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../de/d6e/editing_decks_visual.html#modifying-the-deck-list-1',1,'Modifying the Deck List'],['../dd/da0/todo.html',1,'Todo List']]],
@@ -23,7 +23,7 @@ var searchData=
   ['logging_20',['Logging',['../d9/d4f/logging.html',1,'developer_reference']]],
   ['logging_20configuration_21',['Logging Configuration',['../d9/d4f/logging.html#logging-configuration',1,'']]],
   ['logging_20setup_22',['Logging Setup',['../d9/d4f/logging.html#logging-setup',1,'']]],
-  ['logging_20signals_23',['logging signals',['../d4/d5b/player_event_handler.html#autotoc_md3-emitting-logging-signals',1,'3. Emitting logging signals'],['../d4/d5b/player_event_handler.html#autotoc_md3-emitting-logging-signals-1',1,'3. Emitting logging signals'],['../db/d15/game_event_handler.html#autotoc_md4-emitting-ui-and-logging-signals',1,'4. Emitting UI and logging signals'],['../db/d15/game_event_handler.html#autotoc_md4-emitting-ui-and-logging-signals-1',1,'4. Emitting UI and logging signals']]],
+  ['logging_20signals_23',['logging signals',['../d4/d5b/player_event_handler.html#autotoc_md3-emitting-logging-signals',1,'3. Emitting logging signals'],['../db/d15/game_event_handler.html#autotoc_md4-emitting-ui-and-logging-signals',1,'4. Emitting UI and logging signals']]],
   ['logs_24',['Logs',['../d9/d7b/fixing_card_pictures.html#check-logs',1,'Check Logs'],['../d9/d7b/fixing_card_pictures.html#enable-picture-loader-debug-logs',1,'Enable Picture Loader Debug Logs'],['../d2/d8f/enabling_debug_logs.html',1,'Enabling Debug Logs']]],
   ['logs_25',['Step 3: See the logs',['../d2/d8f/enabling_debug_logs.html#step-3-see-the-logs',1,'']]]
 ];
