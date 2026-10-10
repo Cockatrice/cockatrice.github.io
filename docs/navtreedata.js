@@ -174,7 +174,7 @@ var NAVTREEINDEX =
 "df/dac/classGameSelectorQuickFilterToolBar.html#af9c3896fcee7f81b1ee3c17454fab7ac",
 "df/dd1/classDeckEditorSettingsPage.html#a63412dbc4fb3d9a3834182d2c79343e0",
 "df/df3/card__info_8h.html#afe09e708464a3f7085db662112b509f3",
-"dir_a13a932f85347549b3f73095f3ee4e94.html",
+"dir_a089c33985d956480d97aa44cfa7713b.html",
 "globals_vars.html"
 ];
 
