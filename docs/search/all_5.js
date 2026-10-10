@@ -787,7 +787,7 @@ var searchData=
   ['amulligan_784',['aMulligan',['../db/d04/classHandMenu.html#aec1c1144ee708853bb0d36a1dcd0f93a',1,'HandMenu']]],
   ['amulliganminusone_785',['aMulliganMinusOne',['../db/d04/classHandMenu.html#aac306e0d1ccab150ad8fa7b7444140a7',1,'HandMenu']]],
   ['amulligansame_786',['aMulliganSame',['../db/d04/classHandMenu.html#a426a5fd36482a7b4af61044085bbf3ee',1,'HandMenu']]],
-  ['an_20online_20service_787',['an online service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
+  ['an_20online_20service_787',['an online service',['../db/d91/importing_decks.html#from-an-online-service',1,'From an online service'],['../d0/d51/exporting_decks.html#from-an-online-service-1',1,'From an online service']]],
   ['analytics_788',['Deck Analytics',['../de/d6e/editing_decks_visual.html#deck-analytics',1,'']]],
   ['analytics_20widgets_789',['Deck Editor Analytics Widgets',['../d9/da2/group__DeckEditorAnalyticsWidgets.html',1,'']]],
   ['analytics_5fpanel_5fwidget_5ffactory_2ecpp_790',['analytics_panel_widget_factory.cpp',['../db/d14/analytics__panel__widget__factory_8cpp.html',1,'']]],

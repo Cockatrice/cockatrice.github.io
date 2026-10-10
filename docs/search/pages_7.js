@@ -11,7 +11,7 @@ var searchData=
   ['decides_20what_20is_20new_8',['How it decides what is &quot;new&quot;',['../dir_7bfb512e87101b177eb3569817b9fc67.html#how-it-decides-what-is-new',1,'']]],
   ['deck_20analytics_9',['Deck Analytics',['../de/d6e/editing_decks_visual.html#deck-analytics',1,'']]],
   ['deck_20editor_10',['Deck Editor',['../d3/d32/editing_decks_classic.html',1,'Classic Deck Editor'],['../de/d6e/editing_decks_visual.html',1,'Visual Deck Editor']]],
-  ['deck_20editor_20tab_11',['Deck Editor Tab',['../d0/d51/exporting_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../db/d91/importing_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
+  ['deck_20editor_20tab_11',['Deck Editor Tab',['../db/d91/importing_decks.html#the-deck-editor-tab',1,'The Deck Editor Tab'],['../d0/d51/exporting_decks.html#the-deck-editor-tab-1',1,'The Deck Editor Tab']]],
   ['deck_20information_12',['Deck Information',['../d3/d32/editing_decks_classic.html#editing-basic-deck-information',1,'Editing Basic Deck Information'],['../de/d6e/editing_decks_visual.html#editing-basic-deck-information-1',1,'Editing Basic Deck Information']]],
   ['deck_20layout_13',['Modifying the visual deck layout',['../de/d6e/editing_decks_visual.html#modifying-the-visual-deck-layout',1,'']]],
   ['deck_20list_14',['Deck List',['../d3/d32/editing_decks_classic.html#modifying-the-deck-list',1,'Modifying the Deck List'],['../de/d6e/editing_decks_visual.html#modifying-the-deck-list-1',1,'Modifying the Deck List']]],

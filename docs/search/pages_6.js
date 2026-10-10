@@ -36,7 +36,7 @@ var searchData=
   ['client_20→_20server_3a_20commandcontainer_33',['Client → Server: CommandContainer',['../df/d26/developer_reference_protocol_overview.html#client--server-commandcontainer',1,'']]],
   ['client_20networking_20overview_34',['Client Networking (Overview)',['../d6/d60/developer_reference_network_client.html',1,'developer_reference_network_overview']]],
   ['client_3a_20servermessage_35',['Server → Client: ServerMessage',['../df/d26/developer_reference_protocol_overview.html#server--client-servermessage',1,'']]],
-  ['clipboard_36',['Clipboard',['../d0/d51/exporting_decks.html#from-clipboard',1,'From Clipboard'],['../db/d91/importing_decks.html#from-clipboard-1',1,'From Clipboard']]],
+  ['clipboard_36',['Clipboard',['../db/d91/importing_decks.html#from-clipboard',1,'From Clipboard'],['../d0/d51/exporting_decks.html#from-clipboard-1',1,'From Clipboard']]],
   ['cmake_20with_20fetchcontent_37',['CMake with FetchContent',['../dir_3960f0c6ffd6db55f2d45e1ae8cac5d3.html#cmake-with-fetchcontent',1,'']]],
   ['cockatrice_38',['Cockatrice',['../d0/d30/md_README.html#cockatrice',1,'']]],
   ['cockatrice_20card_20library_39',['The Cockatrice Card Library',['../da/d69/primer_cards.html#the-cockatrice-card-library',1,'']]],

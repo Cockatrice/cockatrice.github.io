@@ -747,7 +747,7 @@ var searchData=
   ['clientthread_744',['clientThread',['../d4/d97/classConnectionController.html#a44edd760df1f8cffba20b7e81a576b14',1,'ConnectionController']]],
   ['clientupdatechecker_745',['ClientUpdateChecker',['../d3/d9f/classClientUpdateChecker.html',1,'ClientUpdateChecker'],['../d3/d9f/classClientUpdateChecker.html#ae192ccf8e5192e0ebabaf767a7ed69c3',1,'ClientUpdateChecker::ClientUpdateChecker()']]],
   ['clientver_746',['clientver',['../dd/d9b/structCommand__Login.html#aa81e3d5f3ab46ca923aabbddbf016dd8',1,'Command_Login']]],
-  ['clipboard_747',['Clipboard',['../d0/d51/exporting_decks.html#from-clipboard',1,'From Clipboard'],['../db/d91/importing_decks.html#from-clipboard-1',1,'From Clipboard']]],
+  ['clipboard_747',['Clipboard',['../db/d91/importing_decks.html#from-clipboard',1,'From Clipboard'],['../d0/d51/exporting_decks.html#from-clipboard-1',1,'From Clipboard']]],
   ['clipboard_5ftesting_2ecpp_748',['clipboard_testing.cpp',['../d7/dac/clipboard__testing_8cpp.html',1,'']]],
   ['clipboard_5ftesting_2eh_749',['clipboard_testing.h',['../d9/dc4/clipboard__testing_8h.html',1,'']]],
   ['clock_750',['clock',['../d3/d27/classBannerHost.html#a1e94be9ec83e61052d89b4d62f687cb2',1,'BannerHost']]],
