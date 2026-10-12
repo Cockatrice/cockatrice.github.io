@@ -52,6 +52,7 @@ var dir_c26dd07670bd1b45cf40191eb2f4f034 =
     [ "command_report_details.proto", "d8/dac/command__report__details_8proto.html", "d8/dac/command__report__details_8proto" ],
     [ "command_report_list.proto", "d2/d2f/command__report__list_8proto.html", "d2/d2f/command__report__list_8proto" ],
     [ "command_report_my_list.proto", "da/d38/command__report__my__list_8proto.html", "da/d38/command__report__my__list_8proto" ],
+    [ "command_report_reopen.proto", "d4/df0/command__report__reopen_8proto.html", "d4/df0/command__report__reopen_8proto" ],
     [ "command_report_resolve.proto", "d1/d9a/command__report__resolve_8proto.html", "d1/d9a/command__report__resolve_8proto" ],
     [ "command_report_stats.proto", "d1/dc4/command__report__stats_8proto.html", "d1/dc4/command__report__stats_8proto" ],
     [ "command_report_user_info.proto", "d8/d01/command__report__user__info_8proto.html", "d8/d01/command__report__user__info_8proto" ],

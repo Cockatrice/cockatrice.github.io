@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -120,18 +120,22 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d3/d1e/smtpcli
   <div class="headertitle"><div class="title">smtpclient.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;QObject&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d7b/qxtmailmessage_8h_source.html">smtp/qxtmailmessage.h</a>&quot;</code><br />
+<code>#include &lt;QDateTime&gt;</code><br />
+<code>#include &lt;QHash&gt;</code><br />
+<code>#include &lt;QObject&gt;</code><br />
 <code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QTimer&gt;</code><br />
 <code>#include &lt;qtmetamacros.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for smtpclient.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/db6/smtpclient_8h__incl.svg" width="335" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/db6/smtpclient_8h__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/da4/smtpclient_8h__dep__incl.svg" width="652" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/da4/smtpclient_8h__dep__incl.svg" width="100%" height="448"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d3/d1e/smtpclient_8h_source.html">Go to the source code of this file.</a></p>
@@ -139,7 +143,78 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:SmtpClient" id="r_SmtpClient"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="../../d7/d8f/classSmtpClient.html">SmtpClient</a></td></tr>
+<tr class="memitem:SmtpClient_3A_3APendingEmail" id="r_SmtpClient_3A_3APendingEmail"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="../../dc/d6e/structSmtpClient_1_1PendingEmail.html">SmtpClient::PendingEmail</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a114558b2be2475c8ddc52d620a75e6b1" id="r_a114558b2be2475c8ddc52d620a75e6b1"><td class="memItemLeft">enum class &#160;</td><td class="memItemRight"><a class="el" href="#a114558b2be2475c8ddc52d620a75e6b1">EmailType</a> { <a class="el" href="#a114558b2be2475c8ddc52d620a75e6b1aa9a62e70841c4d06dd16306a85700d36">Activation</a>
+, <a class="el" href="#a114558b2be2475c8ddc52d620a75e6b1a4aa0c5abda7f9ddc64db093055ed75e3">ForgotPassword</a>
+ }</td></tr>
+<tr class="memdesc:a114558b2be2475c8ddc52d620a75e6b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of e-mail the SMTP client is able to deliver.  <a href="#a114558b2be2475c8ddc52d620a75e6b1">More...</a><br /></td></tr>
+<tr class="memitem:a2e1fab5fc244b0783172514baec21a6e" id="r_a2e1fab5fc244b0783172514baec21a6e"><td class="memItemLeft">enum class &#160;</td><td class="memItemRight"><a class="el" href="#a2e1fab5fc244b0783172514baec21a6e">FailureReason</a> { <a class="el" href="#a2e1fab5fc244b0783172514baec21a6ea1c1b8f63a10e12516d4e4a3b05ecea85">RetryExhausted</a>
+, <a class="el" href="#a2e1fab5fc244b0783172514baec21a6eaace1b0ca6acfba971c3416e7a717a15b">RecipientRejected</a>
+, <a class="el" href="#a2e1fab5fc244b0783172514baec21a6eac8009ab6fac84a96e1097ecbcaa8826b">SenderRejected</a>
+ }</td></tr>
+<tr class="memdesc:a2e1fab5fc244b0783172514baec21a6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Why a permanent e-mail delivery failure occurred.  <a href="#a2e1fab5fc244b0783172514baec21a6e">More...</a><br /></td></tr>
 </table>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="a114558b2be2475c8ddc52d620a75e6b1" name="a114558b2be2475c8ddc52d620a75e6b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a114558b2be2475c8ddc52d620a75e6b1">&#9670;&#160;</a></span>EmailType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a114558b2be2475c8ddc52d620a75e6b1">EmailType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Types of e-mail the SMTP client is able to deliver. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a114558b2be2475c8ddc52d620a75e6b1aa9a62e70841c4d06dd16306a85700d36" name="a114558b2be2475c8ddc52d620a75e6b1aa9a62e70841c4d06dd16306a85700d36"></a>Activation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a114558b2be2475c8ddc52d620a75e6b1a4aa0c5abda7f9ddc64db093055ed75e3" name="a114558b2be2475c8ddc52d620a75e6b1a4aa0c5abda7f9ddc64db093055ed75e3"></a>ForgotPassword&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a2e1fab5fc244b0783172514baec21a6e" name="a2e1fab5fc244b0783172514baec21a6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e1fab5fc244b0783172514baec21a6e">&#9670;&#160;</a></span>FailureReason</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a2e1fab5fc244b0783172514baec21a6e">FailureReason</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Why a permanent e-mail delivery failure occurred. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2e1fab5fc244b0783172514baec21a6ea1c1b8f63a10e12516d4e4a3b05ecea85" name="a2e1fab5fc244b0783172514baec21a6ea1c1b8f63a10e12516d4e4a3b05ecea85"></a>RetryExhausted&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e1fab5fc244b0783172514baec21a6eaace1b0ca6acfba971c3416e7a717a15b" name="a2e1fab5fc244b0783172514baec21a6eaace1b0ca6acfba971c3416e7a717a15b"></a>RecipientRejected&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2e1fab5fc244b0783172514baec21a6eac8009ab6fac84a96e1097ecbcaa8826b" name="a2e1fab5fc244b0783172514baec21a6eac8009ab6fac84a96e1097ecbcaa8826b"></a>SenderRejected&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

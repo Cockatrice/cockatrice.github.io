@@ -176,9 +176,8 @@ var searchData=
   ['draw_5fprobability_5fconfig_5fdialog_2eh_173',['draw_probability_config_dialog.h',['../df/da8/draw__probability__config__dialog_8h.html',1,'']]],
   ['draw_5fprobability_5fwidget_2ecpp_174',['draw_probability_widget.cpp',['../da/dfa/draw__probability__widget_8cpp.html',1,'']]],
   ['draw_5fprobability_5fwidget_2eh_175',['draw_probability_widget.h',['../df/d1a/draw__probability__widget_8h.html',1,'']]],
-  ['dummy_5ftest_2ecpp_176',['dummy_test.cpp',['../d4/d0d/dummy__test_8cpp.html',1,'']]],
-  ['dynamic_5ffont_5fsize_5flabel_2ecpp_177',['dynamic_font_size_label.cpp',['../db/d13/dynamic__font__size__label_8cpp.html',1,'']]],
-  ['dynamic_5ffont_5fsize_5flabel_2eh_178',['dynamic_font_size_label.h',['../d8/d2c/dynamic__font__size__label_8h.html',1,'']]],
-  ['dynamic_5ffont_5fsize_5fpush_5fbutton_2ecpp_179',['dynamic_font_size_push_button.cpp',['../d5/dfd/dynamic__font__size__push__button_8cpp.html',1,'']]],
-  ['dynamic_5ffont_5fsize_5fpush_5fbutton_2eh_180',['dynamic_font_size_push_button.h',['../d2/d00/dynamic__font__size__push__button_8h.html',1,'']]]
+  ['dynamic_5ffont_5fsize_5flabel_2ecpp_176',['dynamic_font_size_label.cpp',['../db/d13/dynamic__font__size__label_8cpp.html',1,'']]],
+  ['dynamic_5ffont_5fsize_5flabel_2eh_177',['dynamic_font_size_label.h',['../d8/d2c/dynamic__font__size__label_8h.html',1,'']]],
+  ['dynamic_5ffont_5fsize_5fpush_5fbutton_2ecpp_178',['dynamic_font_size_push_button.cpp',['../d5/dfd/dynamic__font__size__push__button_8cpp.html',1,'']]],
+  ['dynamic_5ffont_5fsize_5fpush_5fbutton_2eh_179',['dynamic_font_size_push_button.h',['../d2/d00/dynamic__font__size__push__button_8h.html',1,'']]]
 ];

@@ -139,6 +139,9 @@ var namespaces_dup =
     [ "PaletteGenerator", "d7/d77/namespacePaletteGenerator.html", [
       [ "fromAccent", "d7/d77/namespacePaletteGenerator.html#a722d278177e39e85802b4458258f151c", null ]
     ] ],
+    [ "PathSafetyWarning", "d4/dd8/namespacePathSafetyWarning.html", [
+      [ "confirmOutsideProgramDir", "d4/dd8/namespacePathSafetyWarning.html#a173a19814e258033e01a5298e15c00e3", null ]
+    ] ],
     [ "peg", "dc/db2/namespacepeg.html", "dc/db2/namespacepeg" ],
     [ "PlaymatUtils", "d3/dc9/namespacePlaymatUtils.html", [
       [ "aspectFitRect", "d3/dc9/namespacePlaymatUtils.html#a88ddc4d52fd220663d1e3a75039c7f66", null ],

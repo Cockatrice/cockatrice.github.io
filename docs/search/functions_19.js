@@ -116,7 +116,7 @@ var searchData=
   ['_7esetsmodel_113',['~SetsModel',['../da/d64/classSetsModel.html#aaf7e6bb6f6544be6684eea3b41edffbe',1,'SetsModel']]],
   ['_7esettingsbuttonwidget_114',['~SettingsButtonWidget',['../d2/dd6/classSettingsButtonWidget.html#a605e3f367a2185446a8ebf902c3ed441',1,'SettingsButtonWidget']]],
   ['_7esignalhandler_115',['~SignalHandler',['../df/dc9/classSignalHandler.html#addc8b5b0b969eb405376a77a369de007',1,'SignalHandler']]],
-  ['_7esmtpclient_116',['~SmtpClient',['../d7/d8f/classSmtpClient.html#a3887300d405d83ab6fe965e614022a51',1,'SmtpClient']]],
+  ['_7esmtpclient_116',['~SmtpClient',['../d7/d8f/classSmtpClient.html#aa6cb8ec4739f3c4e75ccbe331af85c9f',1,'SmtpClient']]],
   ['_7esoundengine_117',['~SoundEngine',['../d7/d66/classSoundEngine.html#ae8fdf089a0544eca286911227c9d546d',1,'SoundEngine']]],
   ['_7establereleasechannel_118',['~StableReleaseChannel',['../d8/d5f/classStableReleaseChannel.html#adcdbd4f6bd3ef9c1b1f916ec82c31fd7',1,'StableReleaseChannel']]],
   ['_7etabgame_119',['~TabGame',['../de/d08/classTabGame.html#acbf976b23b54310c5330bf536c2c93cc',1,'TabGame']]],

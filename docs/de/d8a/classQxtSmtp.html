@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -186,6 +186,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:affd5ca3c638f285e64cae9247de7eb21" id="r_affd5ca3c638f285e64cae9247de7eb21"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#affd5ca3c638f285e64cae9247de7eb21">setPassword</a> (const QByteArray &amp;password)</td></tr>
 <tr class="memitem:abc5b5bef64c1a2c5e25ab58490be8125" id="r_abc5b5bef64c1a2c5e25ab58490be8125"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#abc5b5bef64c1a2c5e25ab58490be8125">send</a> (const <a class="el" href="../../d5/dff/classQxtMailMessage.html">QxtMailMessage</a> &amp;message)</td></tr>
 <tr class="memitem:ab0a459ce9564af438895712cf9e2a9c4" id="r_ab0a459ce9564af438895712cf9e2a9c4"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ab0a459ce9564af438895712cf9e2a9c4">pendingMessages</a> () const</td></tr>
+<tr class="memitem:a5175062fb550524966839ed784ff8e29" id="r_a5175062fb550524966839ed784ff8e29"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5175062fb550524966839ed784ff8e29">clearPending</a> ()</td></tr>
+<tr class="memdesc:a5175062fb550524966839ed784ff8e29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops all queued (not yet transmitted) messages without sending them.  <br /></td></tr>
+<tr class="memitem:ae3513475f290b7539bd02c72533f529f" id="r_ae3513475f290b7539bd02c72533f529f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae3513475f290b7539bd02c72533f529f">reset</a> ()</td></tr>
+<tr class="memdesc:ae3513475f290b7539bd02c72533f529f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the outgoing queue and resets the SMTP state machine.  <br /></td></tr>
 <tr class="memitem:a493595cec2db45e015a36c8bb62b1c63" id="r_a493595cec2db45e015a36c8bb62b1c63"><td class="memItemLeft">QTcpSocket *&#160;</td><td class="memItemRight"><a class="el" href="#a493595cec2db45e015a36c8bb62b1c63">socket</a> () const</td></tr>
 <tr class="memitem:a833774a7f6539f8a21fed98c02598306" id="r_a833774a7f6539f8a21fed98c02598306"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a833774a7f6539f8a21fed98c02598306">connectToHost</a> (const QString &amp;hostName, quint16 port=25)</td></tr>
 <tr class="memitem:afc26315ea74a434d245590953aae16d6" id="r_afc26315ea74a434d245590953aae16d6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afc26315ea74a434d245590953aae16d6">connectToHost</a> (const QHostAddress &amp;address, quint16 port=25)</td></tr>
@@ -341,6 +345,26 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5175062fb550524966839ed784ff8e29" name="a5175062fb550524966839ed784ff8e29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5175062fb550524966839ed784ff8e29">&#9670;&#160;</a></span>clearPending()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QxtSmtp::clearPending </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Drops all queued (not yet transmitted) messages without sending them. </p>
+<p>Any message still awaiting delivery is discarded. This is used by callers that keep their own authoritative queue and wish to rebuild the SMTP buffer from scratch (e.g. after a reconnect) without risking duplicates. </p>
 
 </div>
 </div>
@@ -600,7 +624,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d8a/classQxtSmtp_a166c55a8572126db2d365c79feaff0b5_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d8a/classQxtSmtp_a166c55a8572126db2d365c79feaff0b5_icgraph.svg" width="100%" height="487"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -888,11 +912,6 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d8a/classQxtSmtp_ab0a459ce9564af438895712cf9e2a9c4_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>
@@ -964,6 +983,31 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ae3513475f290b7539bd02c72533f529f" name="ae3513475f290b7539bd02c72533f529f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3513475f290b7539bd02c72533f529f">&#9670;&#160;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QxtSmtp::reset </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clears the outgoing queue and resets the SMTP state machine. </p>
+<p>Unlike <a class="el" href="#a5175062fb550524966839ed784ff8e29" title="Drops all queued (not yet transmitted) messages without sending them.">clearPending()</a>, this also resets the internal state to Disconnected so that subsequent <a class="el" href="#abc5b5bef64c1a2c5e25ab58490be8125">send()</a> calls will not fire sendNext() prematurely on a not-yet-connected socket. Use this when rebuilding the queue from scratch before a fresh <a class="el" href="#a833774a7f6539f8a21fed98c02598306">connectToHost()</a> / <a class="el" href="#a294201b061dcd6c3a8fc8d55a6a87d22">connectToSecureHost()</a> cycle. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d8a/classQxtSmtp_ae3513475f290b7539bd02c72533f529f_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="abc5b5bef64c1a2c5e25ab58490be8125" name="abc5b5bef64c1a2c5e25ab58490be8125"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc5b5bef64c1a2c5e25ab58490be8125">&#9670;&#160;</a></span>send()</h2>
 
@@ -981,7 +1025,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d8a/classQxtSmtp_abc5b5bef64c1a2c5e25ab58490be8125_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d8a/classQxtSmtp_abc5b5bef64c1a2c5e25ab58490be8125_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1142,7 +1186,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d8a/classQxtSmtp_a493595cec2db45e015a36c8bb62b1c63_icgraph.svg" width="100%" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d8a/classQxtSmtp_a493595cec2db45e015a36c8bb62b1c63_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

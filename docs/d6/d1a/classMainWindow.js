@@ -71,6 +71,7 @@ var classMainWindow =
     [ "startupDestinationFailed", "d6/d1a/classMainWindow.html#a3e2c625a47780b162ddfedd1365f7d9b", null ],
     [ "statusChanged", "d6/d1a/classMainWindow.html#ad5ab8fcf40c9f96ba98b334da4f79397", null ],
     [ "updateTabMenu", "d6/d1a/classMainWindow.html#a61667a34c3f793441a4c720b71b1bb94", null ],
+    [ "warnAboutDataPathsInProgramDir", "d6/d1a/classMainWindow.html#a22fa439e777139e01a0630152f820910", null ],
     [ "aAbout", "d6/d1a/classMainWindow.html#af4e9e933de1556c4bf2d6c91903274ba", null ],
     [ "aAddCustomSet", "d6/d1a/classMainWindow.html#ac4a196ff0e9b57fd1a877bc32e74f195", null ],
     [ "aCheckCardUpdates", "d6/d1a/classMainWindow.html#a8904a83f28b059739f8902ccb42fe824", null ],

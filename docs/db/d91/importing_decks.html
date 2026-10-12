@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -148,7 +148,17 @@ From Clipboard</h2>
 Editor" menu in the application menu bar at the top of the screen. Alternatively, you can use the shortcut Ctrl/Cmd + Shift + V to access this action.</p>
 <p>Selecting this action will open a new text editor dialog with the contents of your clipboard pasted inside it.</p>
 <p>The import dialog expects each line to be a card with the following format:</p>
-<p>TODO</p>
+<p><span class="tt">[quantity] Card Name [options]</span></p>
+<ul>
+<li><span class="tt">quantity</span> is the number of copies and can be written as <span class="tt">2</span>, <span class="tt">2x</span> or <span class="tt">2X</span>. If omitted, a single copy is imported.</li>
+<li><span class="tt">options</span> are appended after the card name and are understood on a best-effort basis:<ul>
+<li>a set code and collector number, either as <span class="tt">Card Name (SET) 123</span> or <span class="tt">Card Name (SET) 123-1</span></li>
+<li>a foil marker, <span class="tt">Card Name *F*</span></li>
+</ul>
+</li>
+<li>Lines can also carry a <span class="tt">SB:</span> prefix or a set code prefix (<span class="tt">[SET]</span>) — Cockatrice tries to stay compatible with the most common deck formats.</li>
+</ul>
+<p>Tab-separated exports from third-party apps (such as Delver Lens) are also accepted: any line whose first column is a plain quantity treats the following columns as the card name and printer/set metadata (which is discarded), for example <span class="tt">2\tCard Name\tSet Name</span>.</p>
 <p>Each card should be on a separate line and there should be no empty lines between cards. The first empty line between two blocks of cards will be considered as the divider between mainboard and sideboard.</p>
 <p>Selecting "Parse Set Name and Number (if available)" will automatically parse these options and attempt to resolve them to valid provider IDs found in the card database. If this option is unselected, Cockatrice will import all cards as versions without provider IDs, which means they will display to everyone according to their own user defined set preferences, rather than being the same defined printing for everyone.</p>
 <h2 class="doxsection"><a class="anchor" id="from-an-online-service-1"></a>

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -127,8 +127,10 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d5/d23/smtpcli
 <code>#include &lt;QAbstractSocket&gt;</code><br />
 <code>#include &lt;QByteArray&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
+<code>#include &lt;QLoggingCategory&gt;</code><br />
 <code>#include &lt;QSharedPointer&gt;</code><br />
 <code>#include &lt;QSslSocket&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
 <code>#include &lt;QTcpSocket&gt;</code><br />
 <code>#include &lt;QVariant&gt;</code><br />
 <code>#include &lt;qlogging.h&gt;</code><br />
@@ -138,7 +140,236 @@ Include dependency graph for smtpclient.cpp:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d6e/smtpclient_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-</div></div><!-- contents -->
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a4059520fd85350e14880b8cb3963482d" id="r_a4059520fd85350e14880b8cb3963482d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a4059520fd85350e14880b8cb3963482d">Q_LOGGING_CATEGORY</a> (SmtpClientLog, &quot;smtp_client&quot;) static QString pendingKey(const QString &amp;userName</td></tr>
+<tr class="memitem:a166c2840b98a57fdcd20c47c793e7997" id="r_a166c2840b98a57fdcd20c47c793e7997"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a166c2840b98a57fdcd20c47c793e7997">isPermanentSmtpReply</a> (const QByteArray &amp;msg)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ad6fb30f2351df80698fccc0e8661f4c1" id="r_ad6fb30f2351df80698fccc0e8661f4c1"><td class="memItemLeft">static const qint64&#160;</td><td class="memItemRight"><a class="el" href="#ad6fb30f2351df80698fccc0e8661f4c1">DEFAULT_MAX_RETRIES</a> = 5</td></tr>
+<tr class="memitem:a65035dcb2852e0866299801959911002" id="r_a65035dcb2852e0866299801959911002"><td class="memItemLeft">static const qint64&#160;</td><td class="memItemRight"><a class="el" href="#a65035dcb2852e0866299801959911002">DEFAULT_RETRY_DELAY</a> = 60</td></tr>
+<tr class="memitem:a8896b5696eb62e87bc92625231a8ea0f" id="r_a8896b5696eb62e87bc92625231a8ea0f"><td class="memItemLeft">static const qint64&#160;</td><td class="memItemRight"><a class="el" href="#a8896b5696eb62e87bc92625231a8ea0f">MAX_RETRY_DELAY</a> = 1800</td></tr>
+<tr class="memitem:a800f703952e91d8e98970486a637f61f" id="r_a800f703952e91d8e98970486a637f61f"><td class="memItemLeft">static const qint64&#160;</td><td class="memItemRight"><a class="el" href="#a800f703952e91d8e98970486a637f61f">IDLE_TIMEOUT_MS</a> = 60000</td></tr>
+<tr class="memitem:a1af028c93c469aa4f09586779d8d69eb" id="r_a1af028c93c469aa4f09586779d8d69eb"><td class="memItemLeft">static const int&#160;</td><td class="memItemRight"><a class="el" href="#a1af028c93c469aa4f09586779d8d69eb">MAX_BACKOFF_SHIFT</a> = 10</td></tr>
+<tr class="memitem:ae22aedccd7c3c7cee05209de3cadb26a" id="r_ae22aedccd7c3c7cee05209de3cadb26a"><td class="memItemLeft"><a class="el" href="../../d3/d1e/smtpclient_8h.html#a114558b2be2475c8ddc52d620a75e6b1">EmailType</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae22aedccd7c3c7cee05209de3cadb26a">type</a></td></tr>
+<tr class="memitem:addf140c9d567db75150f1cd0942a3170" id="r_addf140c9d567db75150f1cd0942a3170"><td class="memItemLeft"><a class="el" href="../../d3/d1e/smtpclient_8h.html#a114558b2be2475c8ddc52d620a75e6b1">EmailType</a> const QString &amp;&#160;</td><td class="memItemRight"><a class="el" href="#addf140c9d567db75150f1cd0942a3170">token</a></td></tr>
+</table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a166c2840b98a57fdcd20c47c793e7997" name="a166c2840b98a57fdcd20c47c793e7997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a166c2840b98a57fdcd20c47c793e7997">&#9670;&#160;</a></span>isPermanentSmtpReply()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isPermanentSmtpReply </td>
+          <td>(</td>
+          <td class="paramtype">const QByteArray &amp;</td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d23/smtpclient_8cpp_a166c2840b98a57fdcd20c47c793e7997_cgraph.svg" width="186" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d23/smtpclient_8cpp_a166c2840b98a57fdcd20c47c793e7997_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a4059520fd85350e14880b8cb3963482d" name="a4059520fd85350e14880b8cb3963482d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4059520fd85350e14880b8cb3963482d">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Q_LOGGING_CATEGORY </td>
+          <td>(</td>
+          <td class="paramtype">SmtpClientLog</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;smtp_client&quot;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;) const &amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d23/smtpclient_8cpp_a4059520fd85350e14880b8cb3963482d_cgraph.svg" width="411" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="ad6fb30f2351df80698fccc0e8661f4c1" name="ad6fb30f2351df80698fccc0e8661f4c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6fb30f2351df80698fccc0e8661f4c1">&#9670;&#160;</a></span>DEFAULT_MAX_RETRIES</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const qint64 DEFAULT_MAX_RETRIES = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a65035dcb2852e0866299801959911002" name="a65035dcb2852e0866299801959911002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65035dcb2852e0866299801959911002">&#9670;&#160;</a></span>DEFAULT_RETRY_DELAY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const qint64 DEFAULT_RETRY_DELAY = 60</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a800f703952e91d8e98970486a637f61f" name="a800f703952e91d8e98970486a637f61f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a800f703952e91d8e98970486a637f61f">&#9670;&#160;</a></span>IDLE_TIMEOUT_MS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const qint64 IDLE_TIMEOUT_MS = 60000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1af028c93c469aa4f09586779d8d69eb" name="a1af028c93c469aa4f09586779d8d69eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1af028c93c469aa4f09586779d8d69eb">&#9670;&#160;</a></span>MAX_BACKOFF_SHIFT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int MAX_BACKOFF_SHIFT = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8896b5696eb62e87bc92625231a8ea0f" name="a8896b5696eb62e87bc92625231a8ea0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8896b5696eb62e87bc92625231a8ea0f">&#9670;&#160;</a></span>MAX_RETRY_DELAY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const qint64 MAX_RETRY_DELAY = 1800</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="addf140c9d567db75150f1cd0942a3170" name="addf140c9d567db75150f1cd0942a3170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addf140c9d567db75150f1cd0942a3170">&#9670;&#160;</a></span>token</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">return userName typeName token</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    <span class="keyword">const</span> <span class="keywordtype">char</span> *typeName = (<a class="code hl_variable" href="#ae22aedccd7c3c7cee05209de3cadb26a">type</a> == <a class="code hl_enumvalue" href="../../d3/d1e/smtpclient_8h.html#a114558b2be2475c8ddc52d620a75e6b1aa9a62e70841c4d06dd16306a85700d36">EmailType::Activation</a>) ? <span class="stringliteral">&quot;activation&quot;</span> : <span class="stringliteral">&quot;forgotpassword&quot;</span></div>
+<div class="ttc" id="asmtpclient_8cpp_html_ae22aedccd7c3c7cee05209de3cadb26a"><div class="ttname"><a href="#ae22aedccd7c3c7cee05209de3cadb26a">type</a></div><div class="ttdeci">EmailType type</div><div class="ttdef"><b>Definition</b> smtpclient.cpp:30</div></div>
+<div class="ttc" id="asmtpclient_8h_html_a114558b2be2475c8ddc52d620a75e6b1aa9a62e70841c4d06dd16306a85700d36"><div class="ttname"><a href="../../d3/d1e/smtpclient_8h.html#a114558b2be2475c8ddc52d620a75e6b1aa9a62e70841c4d06dd16306a85700d36">EmailType::Activation</a></div><div class="ttdeci">@ Activation</div><div class="ttdef"><b>Definition</b> smtpclient.h:21</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae22aedccd7c3c7cee05209de3cadb26a" name="ae22aedccd7c3c7cee05209de3cadb26a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae22aedccd7c3c7cee05209de3cadb26a">&#9670;&#160;</a></span>type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d1e/smtpclient_8h.html#a114558b2be2475c8ddc52d620a75e6b1">EmailType</a> type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

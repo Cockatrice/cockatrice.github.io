@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -145,6 +145,8 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a6763417d08f650979e0755149bb2a7ab" id="r_a6763417d08f650979e0755149bb2a7ab"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6763417d08f650979e0755149bb2a7ab">scheduleShutdown</a> (const QString &amp;reason, int minutes)</td></tr>
 <tr class="memitem:a8364801e146c3762838f99f2da453d8e" id="r_a8364801e146c3762838f99f2da453d8e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8364801e146c3762838f99f2da453d8e">updateLoginMessage</a> ()</td></tr>
 <tr class="memitem:a853ff437da00f91b058af48ea2334df4" id="r_a853ff437da00f91b058af48ea2334df4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a853ff437da00f91b058af48ea2334df4">setRequiredFeatures</a> (const QString &amp;featureList)</td></tr>
+<tr class="memitem:a1fc3ac7b6e4c679fe699bcc4f6c22d54" id="r_a1fc3ac7b6e4c679fe699bcc4f6c22d54"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1fc3ac7b6e4c679fe699bcc4f6c22d54">onEmailDelivered</a> (const QString &amp;userName, <a class="el" href="../../d3/d1e/smtpclient_8h.html#a114558b2be2475c8ddc52d620a75e6b1">EmailType</a> type, const QString &amp;token, qint64 rowId)</td></tr>
+<tr class="memitem:a22751b25437bddba661ab39ed1e790ae" id="r_a22751b25437bddba661ab39ed1e790ae"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a22751b25437bddba661ab39ed1e790ae">onEmailPermanentlyFailed</a> (const QString &amp;userName, <a class="el" href="../../d3/d1e/smtpclient_8h.html#a114558b2be2475c8ddc52d620a75e6b1">EmailType</a> type, <a class="el" href="../../d3/d1e/smtpclient_8h.html#a2e1fab5fc244b0783172514baec21a6e">FailureReason</a> reason, const QString &amp;token, qint64 rowId)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -282,6 +284,7 @@ Private Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a527b9958d9e8ffd7b472e3340c46a3c7" id="r_a527b9958d9e8ffd7b472e3340c46a3c7"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a527b9958d9e8ffd7b472e3340c46a3c7">cleanupDatabaseForEmail</a> (const QString &amp;userName, <a class="el" href="../../d3/d1e/smtpclient_8h.html#a114558b2be2475c8ddc52d620a75e6b1">EmailType</a> type, const QString &amp;token, qint64 rowId)</td></tr>
 <tr class="memitem:a65a9edd71b52bd561593c911c20cf7b3" id="r_a65a9edd71b52bd561593c911c20cf7b3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a65a9edd71b52bd561593c911c20cf7b3">updateServerList</a> ()</td></tr>
 <tr class="memitem:a9c8dca71c55d2733b3b322f1880b6ec7" id="r_a9c8dca71c55d2733b3b322f1880b6ec7"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a9c8dca71c55d2733b3b322f1880b6ec7">getDBPrefixString</a> () const</td></tr>
 <tr class="memitem:a1270310a6b224b67085a9cf9c799f43c" id="r_a1270310a6b224b67085a9cf9c799f43c"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a1270310a6b224b67085a9cf9c799f43c">getDBHostNameString</a> () const</td></tr>
@@ -564,6 +567,55 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_af707cb81339a15756e1020d1586bc201_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a527b9958d9e8ffd7b472e3340c46a3c7" name="a527b9958d9e8ffd7b472e3340c46a3c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a527b9958d9e8ffd7b472e3340c46a3c7">&#9670;&#160;</a></span>cleanupDatabaseForEmail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice::cleanupDatabaseForEmail </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d1e/smtpclient_8h.html#a114558b2be2475c8ddc52d620a75e6b1">EmailType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>token</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qint64</td>          <td class="paramname"><span class="paramname"><em>rowId</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a527b9958d9e8ffd7b472e3340c46a3c7_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a527b9958d9e8ffd7b472e3340c46a3c7_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2849,6 +2901,109 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_aea2f7479af667a0c4007df6dc670dbe9_cgraph.svg" width="460" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a1fc3ac7b6e4c679fe699bcc4f6c22d54" name="a1fc3ac7b6e4c679fe699bcc4f6c22d54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fc3ac7b6e4c679fe699bcc4f6c22d54">&#9670;&#160;</a></span>onEmailDelivered</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servatrice::onEmailDelivered </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d1e/smtpclient_8h.html#a114558b2be2475c8ddc52d620a75e6b1">EmailType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>token</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qint64</td>          <td class="paramname"><span class="paramname"><em>rowId</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a1fc3ac7b6e4c679fe699bcc4f6c22d54_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a1fc3ac7b6e4c679fe699bcc4f6c22d54_icgraph.svg" width="430" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a22751b25437bddba661ab39ed1e790ae" name="a22751b25437bddba661ab39ed1e790ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22751b25437bddba661ab39ed1e790ae">&#9670;&#160;</a></span>onEmailPermanentlyFailed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servatrice::onEmailPermanentlyFailed </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d1e/smtpclient_8h.html#a114558b2be2475c8ddc52d620a75e6b1">EmailType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d1e/smtpclient_8h.html#a2e1fab5fc244b0783172514baec21a6e">FailureReason</a></td>          <td class="paramname"><span class="paramname"><em>reason</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>token</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">qint64</td>          <td class="paramname"><span class="paramname"><em>rowId</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a22751b25437bddba661ab39ed1e790ae_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a22751b25437bddba661ab39ed1e790ae_icgraph.svg" width="450" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

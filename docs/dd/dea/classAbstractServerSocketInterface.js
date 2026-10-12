@@ -60,6 +60,7 @@ var classAbstractServerSocketInterface =
     [ "cmdReportDetails", "dd/dea/classAbstractServerSocketInterface.html#a906ae1faab89851355439deb3624c9e3", null ],
     [ "cmdReportList", "dd/dea/classAbstractServerSocketInterface.html#a31589964b646d501a54772147d207205", null ],
     [ "cmdReportMyList", "dd/dea/classAbstractServerSocketInterface.html#a8f85b6a940738c1a68b571375edd3bc1", null ],
+    [ "cmdReportReopen", "dd/dea/classAbstractServerSocketInterface.html#ab7171a7c9901860bf4d752b55bbfb487", null ],
     [ "cmdReportResolve", "dd/dea/classAbstractServerSocketInterface.html#a54f2364ae4c6c5e07cc1198ff3e06b03", null ],
     [ "cmdReportStats", "dd/dea/classAbstractServerSocketInterface.html#ada63708c1395d4ad7180c3e963a0227f", null ],
     [ "cmdReportUserInfo", "dd/dea/classAbstractServerSocketInterface.html#a50fd91b3547c60042cfe743a681c501f", null ],

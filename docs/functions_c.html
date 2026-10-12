@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -543,6 +543,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('functions_c.ht
 <li>cleanList()&#160;:&#160;<a class="el" href="da/d68/classDeckList.html#a773dea93b32b04d5251565251b4800ea">DeckList</a>, <a class="el" href="d9/de1/classDeckListModel.html#a1ecfd117038f01fce09c99796ccf67ea">DeckListModel</a></li>
 <li>cleanOldEntries()&#160;:&#160;<a class="el" href="d1/d8e/classCardPictureLoaderStatusBar.html#a2bf15cbd290bb1154061612b0d78104b">CardPictureLoaderStatusBar</a></li>
 <li>cleanStaleEntries()&#160;:&#160;<a class="el" href="d6/da1/classCardPictureLoaderWorker.html#a09e388e798e1e7a8207ffaae3c54af5c">CardPictureLoaderWorker</a></li>
+<li>cleanupDatabaseForEmail()&#160;:&#160;<a class="el" href="d5/d0e/classServatrice.html#a527b9958d9e8ffd7b472e3340c46a3c7">Servatrice</a></li>
 <li>cleanupExpiredDeckShares()&#160;:&#160;<a class="el" href="d5/d0e/classServatrice.html#a541ca5f116fbded03d5c0b54fefdd8e9">Servatrice</a>, <a class="el" href="d3/d76/classServatrice__DatabaseInterface.html#a28bf00d14aa130e648820e3e0bd867c3">Servatrice_DatabaseInterface</a></li>
 <li>cleanupInvalidCardGroup()&#160;:&#160;<a class="el" href="d8/d9f/classDeckCardZoneDisplayWidget.html#a32f8fd124c9e4f11da6de1d656e101db">DeckCardZoneDisplayWidget</a></li>
 <li>cleanupInvalidZones()&#160;:&#160;<a class="el" href="da/d1e/classVisualDeckEditorWidget.html#a9f6a352609b84a682edb91beb3386f67">VisualDeckEditorWidget</a></li>
@@ -584,6 +585,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('functions_c.ht
 <li>clearNewClientFeatures()&#160;:&#160;<a class="el" href="db/d53/classRemoteClient.html#a2f4ccb54e0f8257cfcf4242ea7f23a0c">RemoteClient</a></li>
 <li>clearPanels()&#160;:&#160;<a class="el" href="d4/d77/classDeckAnalyticsWidget.html#abf8992c68e9cee314900e53ed7c35690">DeckAnalyticsWidget</a></li>
 <li>clearPassword()&#160;:&#160;<a class="el" href="d8/df5/classZip.html#a69a31fc9d8b24c74e94e56149882ff1c">Zip</a></li>
+<li>clearPending()&#160;:&#160;<a class="el" href="de/d8a/classQxtSmtp.html#a5175062fb550524966839ed784ff8e29">QxtSmtp</a></li>
 <li>clearPixmapCache()&#160;:&#160;<a class="el" href="d2/d5d/classCardPictureLoader.html#a81bd60c304d9a2e62339fb56d5f7fa0d">CardPictureLoader</a></li>
 <li>clearPixmapCacheButton&#160;:&#160;<a class="el" href="dd/dc3/classStorageSettingsPage.html#aba7954d8b46e6c08f96be3ccc189e95c">StorageSettingsPage</a></li>
 <li>clearPixmapCacheButtonClicked()&#160;:&#160;<a class="el" href="dd/dc3/classStorageSettingsPage.html#a0217bca94f122b6737fe05b4a3936a66">StorageSettingsPage</a></li>
@@ -734,6 +736,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('functions_c.ht
 <li>cmdReportDetails()&#160;:&#160;<a class="el" href="dd/dea/classAbstractServerSocketInterface.html#a906ae1faab89851355439deb3624c9e3">AbstractServerSocketInterface</a></li>
 <li>cmdReportList()&#160;:&#160;<a class="el" href="dd/dea/classAbstractServerSocketInterface.html#a31589964b646d501a54772147d207205">AbstractServerSocketInterface</a></li>
 <li>cmdReportMyList()&#160;:&#160;<a class="el" href="dd/dea/classAbstractServerSocketInterface.html#a8f85b6a940738c1a68b571375edd3bc1">AbstractServerSocketInterface</a></li>
+<li>cmdReportReopen()&#160;:&#160;<a class="el" href="dd/dea/classAbstractServerSocketInterface.html#ab7171a7c9901860bf4d752b55bbfb487">AbstractServerSocketInterface</a></li>
 <li>cmdReportResolve()&#160;:&#160;<a class="el" href="dd/dea/classAbstractServerSocketInterface.html#a54f2364ae4c6c5e07cc1198ff3e06b03">AbstractServerSocketInterface</a></li>
 <li>cmdReportStats()&#160;:&#160;<a class="el" href="dd/dea/classAbstractServerSocketInterface.html#ada63708c1395d4ad7180c3e963a0227f">AbstractServerSocketInterface</a></li>
 <li>cmdReportUserInfo()&#160;:&#160;<a class="el" href="dd/dea/classAbstractServerSocketInterface.html#a50fd91b3547c60042cfe743a681c501f">AbstractServerSocketInterface</a></li>
@@ -910,6 +913,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('functions_c.ht
 <li>CONNECTION_CLOSED&#160;:&#160;<a class="el" href="d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624a5321c8b50e2906cd82dc2c2c46f95279">SessionEvent</a></li>
 <li>CONNECTION_STATE_CHANGED&#160;:&#160;<a class="el" href="dd/dd1/structGameEventContext.html#a387e6072c0cecf60722f7b098ce45bc8a26dc69e94921e1d0273142743b71f1b8">GameEventContext</a></li>
 <li>connection_type&#160;:&#160;<a class="el" href="dd/df6/structServerInfo__UserSession.html#a237001f7deb1df5ab040d7c649746a40">ServerInfo_UserSession</a></li>
+<li>connectionAttempts&#160;:&#160;<a class="el" href="d7/d8f/classSmtpClient.html#a1067234e8f9a9b732738a9bf92949e3a">SmtpClient</a></li>
+<li>connectionBackoffUntil&#160;:&#160;<a class="el" href="d7/d8f/classSmtpClient.html#af1c1ba5882fa4154f0457afb3f9effc4">SmtpClient</a></li>
 <li>connectionClosedEventReceived()&#160;:&#160;<a class="el" href="dc/d86/classAbstractClient.html#a87cffe7b7666154c485197ea39672863">AbstractClient</a></li>
 <li>ConnectionController()&#160;:&#160;<a class="el" href="d4/d97/classConnectionController.html#a11279b95cd9a338da7d251af1f22c716">ConnectionController</a></li>
 <li>connectionController&#160;:&#160;<a class="el" href="d6/d1a/classMainWindow.html#a2874ca61bdc939421a1a45630428c8ac">MainWindow</a></li>

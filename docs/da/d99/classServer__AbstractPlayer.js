@@ -29,6 +29,7 @@ var classServer__AbstractPlayer =
     [ "getInfo", "da/d99/classServer__AbstractPlayer.html#aaf5f13baa8a123b1ae207ba30bed1c0f", null ],
     [ "getPlayerProperties", "da/d99/classServer__AbstractPlayer.html#af2f778ecf1b5840a683930d4d576d8aa", null ],
     [ "getReadyStart", "da/d99/classServer__AbstractPlayer.html#a85f492ba6aa393275986fdd3e82e504a", null ],
+    [ "getSideboardLocked", "da/d99/classServer__AbstractPlayer.html#ab96f07365a953fb6aa7fd6407088e973", null ],
     [ "getZones", "da/d99/classServer__AbstractPlayer.html#acb13829ad009e505b9c3e76349150549", null ],
     [ "moveCard", "da/d99/classServer__AbstractPlayer.html#aae9b5d4a87368a98428c9b1c8f50d180", null ],
     [ "newCardId", "da/d99/classServer__AbstractPlayer.html#a25d3e4c638a4f5d821207f7686693ba6", null ],

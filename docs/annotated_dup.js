@@ -312,6 +312,7 @@ var annotated_dup =
     [ "Command_ReportDetails", "d8/de7/structCommand__ReportDetails.html", "d8/de7/structCommand__ReportDetails" ],
     [ "Command_ReportList", "d7/d5d/structCommand__ReportList.html", "d7/d5d/structCommand__ReportList" ],
     [ "Command_ReportMyList", "db/d19/structCommand__ReportMyList.html", "db/d19/structCommand__ReportMyList" ],
+    [ "Command_ReportReopen", "d6/da4/structCommand__ReportReopen.html", "d6/da4/structCommand__ReportReopen" ],
     [ "Command_ReportResolve", "dd/d72/structCommand__ReportResolve.html", "dd/d72/structCommand__ReportResolve" ],
     [ "Command_ReportStats", "df/dbd/structCommand__ReportStats.html", "df/dbd/structCommand__ReportStats" ],
     [ "Command_ReportUserInfo", "dc/d13/structCommand__ReportUserInfo.html", "dc/d13/structCommand__ReportUserInfo" ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -4172,9 +4172,9 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('de/d9d/peglib_
 <div class="line"><a id="l03497" name="l03497"></a><span class="lineno"> 3497</span>      } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d94/classpeg_1_1Context.html#a0ab893cce549f6849c869c53f5176922">rule_stack</a>.empty()) {</div>
 <div class="line"><a id="l03498" name="l03498"></a><span class="lineno"> 3498</span>        <span class="keyword">auto</span> rule = <a class="code hl_variable" href="../../df/d94/classpeg_1_1Context.html#a0ab893cce549f6849c869c53f5176922">rule_stack</a>.back();</div>
 <div class="line"><a id="l03499" name="l03499"></a><span class="lineno"> 3499</span>        <span class="keyword">auto</span> ope = rule-&gt;get_core_operator();</div>
-<div class="line"><a id="l03500" name="l03500"></a><span class="lineno"> 3500</span>        <span class="keywordflow">if</span> (<span class="keyword">auto</span> token = <a class="code hl_function" href="../../dd/dfd/structpeg_1_1FindLiteralToken.html#a912e90ec650af4a4e7cf7b35820499de">FindLiteralToken::token</a>(*ope);</div>
-<div class="line"><a id="l03501" name="l03501"></a><span class="lineno"> 3501</span>            token &amp;&amp; token[0] != <span class="charliteral">&#39;\0&#39;</span>) {</div>
-<div class="line"><a id="l03502" name="l03502"></a><span class="lineno"> 3502</span>          error_literal = token;</div>
+<div class="line"><a id="l03500" name="l03500"></a><span class="lineno"> 3500</span>        <span class="keywordflow">if</span> (<span class="keyword">auto</span> <a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#addf140c9d567db75150f1cd0942a3170">token</a> = <a class="code hl_function" href="../../dd/dfd/structpeg_1_1FindLiteralToken.html#a912e90ec650af4a4e7cf7b35820499de">FindLiteralToken::token</a>(*ope);</div>
+<div class="line"><a id="l03501" name="l03501"></a><span class="lineno"> 3501</span>            <a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#addf140c9d567db75150f1cd0942a3170">token</a> &amp;&amp; <a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#addf140c9d567db75150f1cd0942a3170">token</a>[0] != <span class="charliteral">&#39;\0&#39;</span>) {</div>
+<div class="line"><a id="l03502" name="l03502"></a><span class="lineno"> 3502</span>          error_literal = <a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#addf140c9d567db75150f1cd0942a3170">token</a>;</div>
 <div class="line"><a id="l03503" name="l03503"></a><span class="lineno"> 3503</span>        }</div>
 <div class="line"><a id="l03504" name="l03504"></a><span class="lineno"> 3504</span>      }</div>
 <div class="line"><a id="l03505" name="l03505"></a><span class="lineno"> 3505</span> </div>
@@ -6315,12 +6315,12 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('de/d9d/peglib_
 <div class="line"><a id="l05507" name="l05507"></a><span class="lineno"> 5507</span>        std::unordered_set&lt;std::string&gt; types;</div>
 <div class="line"><a id="l05508" name="l05508"></a><span class="lineno"> 5508</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;instruction :</div>
 <div class="line"><a id="l05509" name="l05509"></a><span class="lineno"> 5509</span>             std::any_cast&lt;std::vector&lt;Instruction&gt;&gt;(vs[index])) {</div>
-<div class="line"><a id="l05510" name="l05510"></a><span class="lineno"> 5510</span>          <span class="keyword">const</span> <span class="keyword">auto</span> &amp;type = instruction.type;</div>
-<div class="line"><a id="l05511" name="l05511"></a><span class="lineno"> 5511</span>          <span class="keywordflow">if</span> (types.find(type) == types.end()) {</div>
+<div class="line"><a id="l05510" name="l05510"></a><span class="lineno"> 5510</span>          <span class="keyword">const</span> <span class="keyword">auto</span> &amp;<a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#ae22aedccd7c3c7cee05209de3cadb26a">type</a> = instruction.type;</div>
+<div class="line"><a id="l05511" name="l05511"></a><span class="lineno"> 5511</span>          <span class="keywordflow">if</span> (types.find(<a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#ae22aedccd7c3c7cee05209de3cadb26a">type</a>) == types.end()) {</div>
 <div class="line"><a id="l05512" name="l05512"></a><span class="lineno"> 5512</span>            data.instructions[name].push_back(instruction);</div>
 <div class="line"><a id="l05513" name="l05513"></a><span class="lineno"> 5513</span>            types.insert(instruction.type);</div>
 <div class="line"><a id="l05514" name="l05514"></a><span class="lineno"> 5514</span>          } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l05515" name="l05515"></a><span class="lineno"> 5515</span>            data.duplicates_of_instruction.emplace_back(type,</div>
+<div class="line"><a id="l05515" name="l05515"></a><span class="lineno"> 5515</span>            data.duplicates_of_instruction.emplace_back(<a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#ae22aedccd7c3c7cee05209de3cadb26a">type</a>,</div>
 <div class="line"><a id="l05516" name="l05516"></a><span class="lineno"> 5516</span>                                                        instruction.sv.data());</div>
 <div class="line"><a id="l05517" name="l05517"></a><span class="lineno"> 5517</span>          }</div>
 <div class="line"><a id="l05518" name="l05518"></a><span class="lineno"> 5518</span>        }</div>
@@ -6417,7 +6417,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('de/d9d/peglib_
 <div class="line"><a id="l05609" name="l05609"></a><span class="lineno"> 5609</span> </div>
 <div class="line"><a id="l05610" name="l05610"></a><span class="lineno"> 5610</span>    <span class="keyword">struct </span>Loop {</div>
 <div class="line"><a id="l05611" name="l05611"></a><span class="lineno"> 5611</span>      <span class="keyword">enum class</span> Type { <a class="code hl_function" href="../../dc/db2/namespacepeg.html#a864655bd71746d397f495ba0f791ef8b">opt</a> = 0, <a class="code hl_function" href="../../dc/db2/namespacepeg.html#ae35a429594b769a0e7da6431747374aa">zom</a>, <a class="code hl_function" href="../../dc/db2/namespacepeg.html#a8ebc7c5678a9063f189796ff872193a2">oom</a>, <a class="code hl_function" href="../../dc/db2/namespacepeg.html#a9d85c89cbd1ef2cd7566c3d96e82ab46">rep</a> };</div>
-<div class="line"><a id="l05612" name="l05612"></a><span class="lineno"> 5612</span>      Type type;</div>
+<div class="line"><a id="l05612" name="l05612"></a><span class="lineno"> 5612</span>      Type <a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#ae22aedccd7c3c7cee05209de3cadb26a">type</a>;</div>
 <div class="line"><a id="l05613" name="l05613"></a><span class="lineno"> 5613</span>      std::pair&lt;size_t, size_t&gt; range;</div>
 <div class="line"><a id="l05614" name="l05614"></a><span class="lineno"> 5614</span>    };</div>
 <div class="line"><a id="l05615" name="l05615"></a><span class="lineno"> 5615</span> </div>
@@ -6883,11 +6883,11 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('de/d9d/peglib_
 <div class="line"><a id="l06071" name="l06071"></a><span class="lineno"> 6071</span> </div>
 <div class="line"><a id="l06072" name="l06072"></a><span class="lineno"> 6072</span>    <span class="comment">// Check duplicated instructions</span></div>
 <div class="line"><a id="l06073" name="l06073"></a><span class="lineno"> 6073</span>    <span class="keywordflow">if</span> (!data.<a class="code hl_variable" href="../../db/d2d/structpeg_1_1ParserGenerator_1_1Data.html#a57d716edec23715e39c11e8776044a0c">duplicates_of_instruction</a>.empty()) {</div>
-<div class="line"><a id="l06074" name="l06074"></a><span class="lineno"> 6074</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;[type, ptr] : data.<a class="code hl_variable" href="../../db/d2d/structpeg_1_1ParserGenerator_1_1Data.html#a57d716edec23715e39c11e8776044a0c">duplicates_of_instruction</a>) {</div>
+<div class="line"><a id="l06074" name="l06074"></a><span class="lineno"> 6074</span>      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;[<a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#ae22aedccd7c3c7cee05209de3cadb26a">type</a>, ptr] : data.<a class="code hl_variable" href="../../db/d2d/structpeg_1_1ParserGenerator_1_1Data.html#a57d716edec23715e39c11e8776044a0c">duplicates_of_instruction</a>) {</div>
 <div class="line"><a id="l06075" name="l06075"></a><span class="lineno"> 6075</span>        <span class="keywordflow">if</span> (log) {</div>
 <div class="line"><a id="l06076" name="l06076"></a><span class="lineno"> 6076</span>          <span class="keyword">auto</span> line = <a class="code hl_function" href="../../dc/db2/namespacepeg.html#a271c917c846302e10267a6be78a28d49">line_info</a>(s, ptr);</div>
 <div class="line"><a id="l06077" name="l06077"></a><span class="lineno"> 6077</span>          log(line.first, line.second,</div>
-<div class="line"><a id="l06078" name="l06078"></a><span class="lineno"> 6078</span>              <span class="stringliteral">&quot;the instruction &#39;&quot;</span> + type + <span class="stringliteral">&quot;&#39; is already defined.&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a id="l06078" name="l06078"></a><span class="lineno"> 6078</span>              <span class="stringliteral">&quot;the instruction &#39;&quot;</span> + <a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#ae22aedccd7c3c7cee05209de3cadb26a">type</a> + <span class="stringliteral">&quot;&#39; is already defined.&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a id="l06079" name="l06079"></a><span class="lineno"> 6079</span>        }</div>
 <div class="line"><a id="l06080" name="l06080"></a><span class="lineno"> 6080</span>      }</div>
 <div class="line"><a id="l06081" name="l06081"></a><span class="lineno"> 6081</span>      ret = <span class="keyword">false</span>;</div>
@@ -7824,11 +7824,11 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('de/d9d/peglib_
 <div class="line"><a id="l06915" name="l06915"></a><span class="lineno"> 6915</span>        <span class="keywordflow">if</span> (sv.choice_count() &gt; 0) {</div>
 <div class="line"><a id="l06916" name="l06916"></a><span class="lineno"> 6916</span>          choice &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; sv.choice() &lt;&lt; <span class="stringliteral">&quot;/&quot;</span> &lt;&lt; sv.choice_count();</div>
 <div class="line"><a id="l06917" name="l06917"></a><span class="lineno"> 6917</span>        }</div>
-<div class="line"><a id="l06918" name="l06918"></a><span class="lineno"> 6918</span>        std::string token;</div>
+<div class="line"><a id="l06918" name="l06918"></a><span class="lineno"> 6918</span>        std::string <a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#addf140c9d567db75150f1cd0942a3170">token</a>;</div>
 <div class="line"><a id="l06919" name="l06919"></a><span class="lineno"> 6919</span>        <span class="keywordflow">if</span> (!sv.tokens.empty()) {</div>
-<div class="line"><a id="l06920" name="l06920"></a><span class="lineno"> 6920</span>          token += <span class="stringliteral">&quot;, token &#39;&quot;</span>;</div>
-<div class="line"><a id="l06921" name="l06921"></a><span class="lineno"> 6921</span>          token += sv.tokens[0];</div>
-<div class="line"><a id="l06922" name="l06922"></a><span class="lineno"> 6922</span>          token += <span class="stringliteral">&quot;&#39;&quot;</span>;</div>
+<div class="line"><a id="l06920" name="l06920"></a><span class="lineno"> 6920</span>          <a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#addf140c9d567db75150f1cd0942a3170">token</a> += <span class="stringliteral">&quot;, token &#39;&quot;</span>;</div>
+<div class="line"><a id="l06921" name="l06921"></a><span class="lineno"> 6921</span>          <a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#addf140c9d567db75150f1cd0942a3170">token</a> += sv.tokens[0];</div>
+<div class="line"><a id="l06922" name="l06922"></a><span class="lineno"> 6922</span>          <a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#addf140c9d567db75150f1cd0942a3170">token</a> += <span class="stringliteral">&quot;&#39;&quot;</span>;</div>
 <div class="line"><a id="l06923" name="l06923"></a><span class="lineno"> 6923</span>        }</div>
 <div class="line"><a id="l06924" name="l06924"></a><span class="lineno"> 6924</span>        std::string matched;</div>
 <div class="line"><a id="l06925" name="l06925"></a><span class="lineno"> 6925</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dc/db2/namespacepeg.html#abb0779cb4c0b5f8e157e81bac9686c8a">peg::success</a>(len) &amp;&amp;</div>
@@ -7836,7 +7836,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('de/d9d/peglib_
 <div class="line"><a id="l06927" name="l06927"></a><span class="lineno"> 6927</span>          matched = <span class="stringliteral">&quot;, match &#39;&quot;</span> + <a class="code hl_function" href="../../dc/db2/namespacepeg.html#a04674285beedae9e1e5497bb42a9eb75">peg::escape_characters</a>(s, len) + <span class="stringliteral">&quot;&#39;&quot;</span>;</div>
 <div class="line"><a id="l06928" name="l06928"></a><span class="lineno"> 6928</span>        }</div>
 <div class="line"><a id="l06929" name="l06929"></a><span class="lineno"> 6929</span>        os &lt;&lt; <span class="stringliteral">&quot;L &quot;</span> &lt;&lt; pos + 1 &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; indent &lt;&lt; ret &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot; #&quot;</span></div>
-<div class="line"><a id="l06930" name="l06930"></a><span class="lineno"> 6930</span>           &lt;&lt; c.trace_ids.back() &lt;&lt; choice.str() &lt;&lt; token &lt;&lt; matched</div>
+<div class="line"><a id="l06930" name="l06930"></a><span class="lineno"> 6930</span>           &lt;&lt; c.trace_ids.back() &lt;&lt; choice.str() &lt;&lt; <a class="code hl_variable" href="../../d5/d23/smtpclient_8cpp.html#addf140c9d567db75150f1cd0942a3170">token</a> &lt;&lt; matched</div>
 <div class="line"><a id="l06931" name="l06931"></a><span class="lineno"> 6931</span>           &lt;&lt; std::endl;</div>
 <div class="line"><a id="l06932" name="l06932"></a><span class="lineno"> 6932</span>      },</div>
 <div class="line"><a id="l06933" name="l06933"></a><span class="lineno"> 6933</span>      [&amp;](<span class="keyword">auto</span> &amp;trace_data) { trace_data = <span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(0); },</div>
@@ -8430,6 +8430,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('de/d9d/peglib_
 <div class="ttc" id="anamespacepeg_html_af2b3ca42c63b359a96367fd9a20102fd"><div class="ttname"><a href="../../dc/db2/namespacepeg.html#af2b3ca42c63b359a96367fd9a20102fd">peg::to_lower</a></div><div class="ttdeci">std::string to_lower(std::string s)</div><div class="ttdef"><b>Definition</b> peglib.h:437</div></div>
 <div class="ttc" id="anamespacepeg_html_afd594272f2bbbdd693db888780515a3d"><div class="ttname"><a href="../../dc/db2/namespacepeg.html#afd594272f2bbbdd693db888780515a3d">peg::enable_tracing</a></div><div class="ttdeci">void enable_tracing(parser &amp;parser, std::ostream &amp;os)</div><div class="ttdef"><b>Definition</b> peglib.h:6881</div></div>
 <div class="ttc" id="apeglib_8h_html_aeefcfea504df51c0e18ada268613d6ad"><div class="ttname"><a href="../../de/d9d/peglib_8h.html#aeefcfea504df51c0e18ada268613d6ad">CPPPEGLIB_HEURISTIC_ERROR_TOKEN_MAX_CHAR_COUNT</a></div><div class="ttdeci">#define CPPPEGLIB_HEURISTIC_ERROR_TOKEN_MAX_CHAR_COUNT</div><div class="ttdef"><b>Definition</b> peglib.h:18</div></div>
+<div class="ttc" id="asmtpclient_8cpp_html_addf140c9d567db75150f1cd0942a3170"><div class="ttname"><a href="../../d5/d23/smtpclient_8cpp.html#addf140c9d567db75150f1cd0942a3170">token</a></div><div class="ttdeci">EmailType const QString &amp; token</div><div class="ttdef"><b>Definition</b> smtpclient.cpp:31</div></div>
+<div class="ttc" id="asmtpclient_8cpp_html_ae22aedccd7c3c7cee05209de3cadb26a"><div class="ttname"><a href="../../d5/d23/smtpclient_8cpp.html#ae22aedccd7c3c7cee05209de3cadb26a">type</a></div><div class="ttdeci">EmailType type</div><div class="ttdef"><b>Definition</b> smtpclient.cpp:30</div></div>
 <div class="ttc" id="astructResult_html"><div class="ttname"><a href="../../dd/d7e/structResult.html">Result</a></div><div class="ttdef"><b>Definition</b> clipboard_testing.h:14</div></div>
 <div class="ttc" id="astructpeg_1_1AssignIDToDefinition_html"><div class="ttname"><a href="../../d9/d27/structpeg_1_1AssignIDToDefinition.html">peg::AssignIDToDefinition</a></div><div class="ttdef"><b>Definition</b> peglib.h:2350</div></div>
 <div class="ttc" id="astructpeg_1_1AssignIDToDefinition_html_a5853dc8b9e357e6b648f87159a6a0768"><div class="ttname"><a href="../../d9/d27/structpeg_1_1AssignIDToDefinition.html#a5853dc8b9e357e6b648f87159a6a0768">peg::AssignIDToDefinition::visit</a></div><div class="ttdeci">void visit(Holder &amp;ope) override</div><div class="ttdef"><b>Definition</b> peglib.h:4167</div></div>

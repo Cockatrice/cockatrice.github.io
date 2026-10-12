@@ -9,10 +9,12 @@ var structServerInfo__Report =
     [ "replay_id", "df/d1f/structServerInfo__Report.html#ac9c5175089ffe3c66871b72066685880", null ],
     [ "report_id", "df/d1f/structServerInfo__Report.html#ae49b1941d47a63a5ec43cacc957eaa9e", null ],
     [ "report_time", "df/d1f/structServerInfo__Report.html#a4100a1810a2e713cf188b0bfcbc68b0b", null ],
+    [ "reported_user_level", "df/d1f/structServerInfo__Report.html#ad989187f3af67c730da416d0709ed8fb", null ],
     [ "reported_user_name", "df/d1f/structServerInfo__Report.html#a1b59bbf086f5286322b76870bf162509", null ],
     [ "reporter_name", "df/d1f/structServerInfo__Report.html#a1767cee49bef24261b112b50c0bd3f4c", null ],
     [ "resolution_note", "df/d1f/structServerInfo__Report.html#a44e86537ece6a6ef0b0c1a35276f4aac", null ],
     [ "resolution_time", "df/d1f/structServerInfo__Report.html#abd7d8bc575e4f4f73a876af954b9ea0c", null ],
+    [ "resolved_by_name", "df/d1f/structServerInfo__Report.html#a0fa126e51de6ac213dd19fec7782d3df", null ],
     [ "room_id", "df/d1f/structServerInfo__Report.html#ace7ce72d9c925e0bef7398d95e0158ec", null ],
     [ "status", "df/d1f/structServerInfo__Report.html#a7da293c7fd6c1e25ae20973af2134d83", null ]
 ];

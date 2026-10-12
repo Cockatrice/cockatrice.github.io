@@ -24,7 +24,8 @@ var structModeratorCommand =
       [ "REPORT_RESOLVE", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129af416f37342f348ddd7858fd47746c594", null ],
       [ "REPLAY_DOWNLOAD_BY_GAME_ID", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a2256e8e8f95c04b1c68deda80c3b5be0", null ],
       [ "REPORT_USER_INFO", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129ab44eb3910dfc131d39a59657ea5cad90", null ],
-      [ "REPORT_STATS", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a268bbcc08d5b0074a1c44e1d7b8950c9", null ]
+      [ "REPORT_STATS", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a268bbcc08d5b0074a1c44e1d7b8950c9", null ],
+      [ "REPORT_REOPEN", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129ae799e3c028753b9838f7ba02f431efd7", null ]
     ] ],
     [ "max", "d0/d8c/structModeratorCommand.html#ab9f59d9773edeb034db22f0ba00f1e68", null ]
 ];
