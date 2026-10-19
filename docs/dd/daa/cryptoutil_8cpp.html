@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,12 +121,14 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('dd/daa/cryptou
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../db/d8f/cryptoutil_8h_source.html">cryptoutil.h</a>&quot;</code><br />
+<code>#include &lt;QStringList&gt;</code><br />
+<code>#include &lt;openssl/evp.h&gt;</code><br />
 <code>#include &lt;openssl/rand.h&gt;</code><br />
 <code>#include &lt;qlogging.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for cryptoutil.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d0d/cryptoutil_8cpp__incl.svg" width="420" height="212"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d0d/cryptoutil_8cpp__incl.svg" width="100%" height="459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -137,7 +139,107 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a5423b665382f70c06c0f6911e4d7f212" id="r_a5423b665382f70c06c0f6911e4d7f212"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d23/namespaceCryptoUtil.html#a5423b665382f70c06c0f6911e4d7f212">CryptoUtil::randomBytes</a> (int count)</td></tr>
 <tr class="memitem:a651a904e55bdba2021b04b26de455cb5" id="r_a651a904e55bdba2021b04b26de455cb5"><td class="memItemLeft">quint64&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d23/namespaceCryptoUtil.html#a651a904e55bdba2021b04b26de455cb5">CryptoUtil::randomUInt64</a> ()</td></tr>
+<tr class="memitem:ae605bdc1eccf732ac9060cee6b416559" id="r_ae605bdc1eccf732ac9060cee6b416559"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d23/namespaceCryptoUtil.html#ae605bdc1eccf732ac9060cee6b416559">CryptoUtil::encryptSecret</a> (const QByteArray &amp;plaintext, const QByteArray &amp;key, const QByteArray &amp;aad={})</td></tr>
+<tr class="memdesc:ae605bdc1eccf732ac9060cee6b416559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seal a secret with AES-256-GCM as "enc1:&lt;b64 nonce&gt;:&lt;b64 ciphertext+tag&gt;". Returns an empty string unless <code class="param">key</code> is a valid 32-byte key and the cipher completes. <code class="param">aad</code> is authenticated but not stored (bind the ciphertext to its context, e.g. the user name it belongs to).  <br /></td></tr>
+<tr class="memitem:a8a5ed7e8c41fa6478af9661312b7e8fb" id="r_a8a5ed7e8c41fa6478af9661312b7e8fb"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d23/namespaceCryptoUtil.html#a8a5ed7e8c41fa6478af9661312b7e8fb">CryptoUtil::decryptSecret</a> (const QString &amp;sealed, const QByteArray &amp;key, const QByteArray &amp;aad={})</td></tr>
+<tr class="memdesc:a8a5ed7e8c41fa6478af9661312b7e8fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open a string produced by <a class="el" href="../../dc/d23/namespaceCryptoUtil.html#ae605bdc1eccf732ac9060cee6b416559" title="Seal a secret with AES-256-GCM as &quot;enc1:&lt;b64 nonce&gt;:&lt;b64 ciphertext+tag&gt;&quot;. Returns an empty string un...">encryptSecret()</a>. Returns an empty array on any failure: unknown format, malformed base64, wrong key, wrong aad, or tampering.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ac71fa8142c64d73e58673cabd554c2b6" id="r_ac71fa8142c64d73e58673cabd554c2b6"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#ac71fa8142c64d73e58673cabd554c2b6">SECRET_KEY_LENGTH</a> = 32</td></tr>
+<tr class="memitem:afceb141cbc33fdddd5d0763d7bd43a87" id="r_afceb141cbc33fdddd5d0763d7bd43a87"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#afceb141cbc33fdddd5d0763d7bd43a87">SECRET_NONCE_LENGTH</a> = 12</td></tr>
+<tr class="memitem:ae735532de2c070de18de8fb623accdd5" id="r_ae735532de2c070de18de8fb623accdd5"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#ae735532de2c070de18de8fb623accdd5">SECRET_TAG_LENGTH</a> = 16</td></tr>
+<tr class="memitem:a4d91ba6d7a7b92307eaa3044a0373dfa" id="r_a4d91ba6d7a7b92307eaa3044a0373dfa"><td class="memItemLeft">static const char *&#160;</td><td class="memItemRight"><a class="el" href="#a4d91ba6d7a7b92307eaa3044a0373dfa">SECRET_FORMAT_PREFIX</a> = &quot;enc1&quot;</td></tr>
 </table>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="a4d91ba6d7a7b92307eaa3044a0373dfa" name="a4d91ba6d7a7b92307eaa3044a0373dfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d91ba6d7a7b92307eaa3044a0373dfa">&#9670;&#160;</a></span>SECRET_FORMAT_PREFIX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* SECRET_FORMAT_PREFIX = &quot;enc1&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac71fa8142c64d73e58673cabd554c2b6" name="ac71fa8142c64d73e58673cabd554c2b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac71fa8142c64d73e58673cabd554c2b6">&#9670;&#160;</a></span>SECRET_KEY_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SECRET_KEY_LENGTH = 32</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afceb141cbc33fdddd5d0763d7bd43a87" name="afceb141cbc33fdddd5d0763d7bd43a87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afceb141cbc33fdddd5d0763d7bd43a87">&#9670;&#160;</a></span>SECRET_NONCE_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SECRET_NONCE_LENGTH = 12</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae735532de2c070de18de8fb623accdd5" name="ae735532de2c070de18de8fb623accdd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae735532de2c070de18de8fb623accdd5">&#9670;&#160;</a></span>SECRET_TAG_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SECRET_TAG_LENGTH = 16</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

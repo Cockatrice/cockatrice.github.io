@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -146,6 +146,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8afaf517ca4a77290fb3a1c02e4bcbc8" id="r_a8afaf517ca4a77290fb3a1c02e4bcbc8"><td class="memItemLeft">virtual QString&#160;</td><td class="memItemRight"><a class="el" href="#a8afaf517ca4a77290fb3a1c02e4bcbc8">getAddress</a> () const =0</td></tr>
 <tr class="memitem:a16a38ec9b4b5889d629bb7b5dd882a19" id="r_a16a38ec9b4b5889d629bb7b5dd882a19"><td class="memItemLeft">virtual QString&#160;</td><td class="memItemRight"><a class="el" href="#a16a38ec9b4b5889d629bb7b5dd882a19">getConnectionType</a> () const =0</td></tr>
 <tr class="memitem:af4ab30f4c9faa92ec4b268f35935f6ea" id="r_af4ab30f4c9faa92ec4b268f35935f6ea"><td class="memItemLeft"><a class="el" href="../../d2/d12/classServer__DatabaseInterface.html">Server_DatabaseInterface</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af4ab30f4c9faa92ec4b268f35935f6ea">getDatabaseInterface</a> () const</td></tr>
+<tr class="memitem:a72d718b940982b8025f6c3bf755638bd" id="r_a72d718b940982b8025f6c3bf755638bd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a72d718b940982b8025f6c3bf755638bd">setAuthNonce</a> (const QByteArray &amp;nonce, const QString &amp;userName)</td></tr>
+<tr class="memdesc:a72d718b940982b8025f6c3bf755638bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store a fresh challenge nonce bound to <code class="param">userName</code> for the next challenge-response login attempt.  <br /></td></tr>
+<tr class="memitem:aec51d3bab836558d51a0d37570837794" id="r_aec51d3bab836558d51a0d37570837794"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aec51d3bab836558d51a0d37570837794">isAuthNonceValid</a> (const QByteArray &amp;nonce, const QString &amp;userName) const</td></tr>
+<tr class="memdesc:aec51d3bab836558d51a0d37570837794"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if nonce matches the pending one, was issued for <code class="param">userName</code>, and is less than 60 seconds old.  <br /></td></tr>
+<tr class="memitem:a71122c8f3b9ed2897052518cec2973af" id="r_a71122c8f3b9ed2897052518cec2973af"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a71122c8f3b9ed2897052518cec2973af">clearAuthNonce</a> ()</td></tr>
+<tr class="memdesc:a71122c8f3b9ed2897052518cec2973af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidate the pending nonce (single-use).  <br /></td></tr>
 <tr class="memitem:a36fa4e621e6a086b27bbe5cd42bd8453" id="r_a36fa4e621e6a086b27bbe5cd42bd8453"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a36fa4e621e6a086b27bbe5cd42bd8453">getLastCommandTime</a> () const</td></tr>
 <tr class="memitem:afba947ec10ba0f7ba39429028ea7b399" id="r_afba947ec10ba0f7ba39429028ea7b399"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#afba947ec10ba0f7ba39429028ea7b399">addSaidMessageSize</a> (int size)</td></tr>
 <tr class="memitem:a5d3b699ffcf0dcfb4a3f42d180a8a2f7" id="r_a5d3b699ffcf0dcfb4a3f42d180a8a2f7"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a5d3b699ffcf0dcfb4a3f42d180a8a2f7">processCommandContainer</a> (const <a class="el" href="../../d3/d65/structCommandContainer.html">CommandContainer</a> &amp;cont)</td></tr>
@@ -189,6 +195,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:afbeb106dbcf7be700f86d453519db7f6" id="r_afbeb106dbcf7be700f86d453519db7f6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#afbeb106dbcf7be700f86d453519db7f6">acceptsUserListChanges</a></td></tr>
 <tr class="memitem:a0a7d6ffa10c8a01f1f8c1a0b8c04b109" id="r_a0a7d6ffa10c8a01f1f8c1a0b8c04b109"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0a7d6ffa10c8a01f1f8c1a0b8c04b109">acceptsRoomListChanges</a></td></tr>
 <tr class="memitem:ad9a1e328215cb1ecb52c55cd9c3c7be2" id="r_ad9a1e328215cb1ecb52c55cd9c3c7be2"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ad9a1e328215cb1ecb52c55cd9c3c7be2">idleClientWarningSent</a></td></tr>
+<tr class="memitem:a18aa2fcdb0d44333536170372e1b2757" id="r_a18aa2fcdb0d44333536170372e1b2757"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#a18aa2fcdb0d44333536170372e1b2757">authNonce</a></td></tr>
+<tr class="memitem:a38a7c9e30dbd086700e4670706d66e8c" id="r_a38a7c9e30dbd086700e4670706d66e8c"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a38a7c9e30dbd086700e4670706d66e8c">authNonceUser</a></td></tr>
+<tr class="memitem:a75b1033d3f77aaae6e39258c4218de87" id="r_a75b1033d3f77aaae6e39258c4218de87"><td class="memItemLeft">QDateTime&#160;</td><td class="memItemRight"><a class="el" href="#a75b1033d3f77aaae6e39258c4218de87">authNonceCreated</a></td></tr>
 <tr class="inherit_header pro_attribs_classServer__AbstractUserInterface"><td colspan="2">Protected Attributes inherited from <a class="el" href="../../d5/d9c/classServer__AbstractUserInterface.html">Server_AbstractUserInterface</a></td></tr>
 <tr class="memitem:accc9610024ad51dac692ff4b6644296a pro_attribs_classServer__AbstractUserInterface" id="r_accc9610024ad51dac692ff4b6644296a"><td class="memItemLeft"><a class="el" href="../../db/d00/classServer.html">Server</a> *&#160;</td><td class="memItemRight"><a class="el" href="../../d5/d9c/classServer__AbstractUserInterface.html#accc9610024ad51dac692ff4b6644296a">server</a></td></tr>
 <tr class="inherit_header pro_attribs_classServerInfo__User__Container"><td colspan="2">Protected Attributes inherited from <a class="el" href="../../d9/d5b/classServerInfo__User__Container.html">ServerInfo_User_Container</a></td></tr>
@@ -211,6 +220,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a4d08d6db4b9f09c7bd3fa103fc534c8d" id="r_a4d08d6db4b9f09c7bd3fa103fc534c8d"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4d08d6db4b9f09c7bd3fa103fc534c8d">cmdListUsers</a> (const <a class="el" href="../../d1/d0a/structCommand__ListUsers.html">Command_ListUsers</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a2941e58f6b6c3c4000db9c5e716dd76c" id="r_a2941e58f6b6c3c4000db9c5e716dd76c"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2941e58f6b6c3c4000db9c5e716dd76c">cmdLeaveRoom</a> (const <a class="el" href="../../d4/d00/structCommand__LeaveRoom.html">Command_LeaveRoom</a> &amp;cmd, <a class="el" href="../../d1/d15/classServer__Room.html">Server_Room</a> *room, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:aab37b72de51fb271eb4ebd307cf1ee6a" id="r_aab37b72de51fb271eb4ebd307cf1ee6a"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#aab37b72de51fb271eb4ebd307cf1ee6a">cmdRoomSay</a> (const <a class="el" href="../../dd/dd4/structCommand__RoomSay.html">Command_RoomSay</a> &amp;cmd, <a class="el" href="../../d1/d15/classServer__Room.html">Server_Room</a> *room, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:a540f53ba2f5b8bb2af5a2c0f8056c460" id="r_a540f53ba2f5b8bb2af5a2c0f8056c460"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a540f53ba2f5b8bb2af5a2c0f8056c460">cmdRoomChannelSay</a> (const <a class="el" href="../../d9/d8c/structCommand__RoomChannelSay.html">Command_RoomChannelSay</a> &amp;cmd, <a class="el" href="../../d1/d15/classServer__Room.html">Server_Room</a> *room, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a1aa616629a1a6f551787f52818788d49" id="r_a1aa616629a1a6f551787f52818788d49"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1aa616629a1a6f551787f52818788d49">cmdCreateGame</a> (const <a class="el" href="../../d8/de6/structCommand__CreateGame.html">Command_CreateGame</a> &amp;cmd, <a class="el" href="../../d1/d15/classServer__Room.html">Server_Room</a> *room, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a80a629f238d2f278fa85e82569ce5db5" id="r_a80a629f238d2f278fa85e82569ce5db5"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a80a629f238d2f278fa85e82569ce5db5">cmdJoinGame</a> (const <a class="el" href="../../df/da6/structCommand__JoinGame.html">Command_JoinGame</a> &amp;cmd, <a class="el" href="../../d1/d15/classServer__Room.html">Server_Room</a> *room, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a68e611b6964cf6d151b078665e397d01" id="r_a68e611b6964cf6d151b078665e397d01"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a68e611b6964cf6d151b078665e397d01">processSessionCommandContainer</a> (const <a class="el" href="../../d3/d65/structCommandContainer.html">CommandContainer</a> &amp;cont, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
@@ -327,6 +337,30 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_afba947ec10ba0f7ba39429028ea7b399_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a71122c8f3b9ed2897052518cec2973af" name="a71122c8f3b9ed2897052518cec2973af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71122c8f3b9ed2897052518cec2973af">&#9670;&#160;</a></span>clearAuthNonce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Server_ProtocolHandler::clearAuthNonce </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Invalidate the pending nonce (single-use). </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a71122c8f3b9ed2897052518cec2973af_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -570,7 +604,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a2941e58f6b6c3c4000db9c5e716dd76c_cgraph.svg" width="100%" height="461"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a2941e58f6b6c3c4000db9c5e716dd76c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -770,6 +804,50 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a540f53ba2f5b8bb2af5a2c0f8056c460" name="a540f53ba2f5b8bb2af5a2c0f8056c460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a540f53ba2f5b8bb2af5a2c0f8056c460">&#9670;&#160;</a></span>cmdRoomChannelSay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> Server_ProtocolHandler::cmdRoomChannelSay </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/d8c/structCommand__RoomChannelSay.html">Command_RoomChannelSay</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d15/classServer__Room.html">Server_Room</a> *</td>          <td class="paramname"><span class="paramname"><em>room</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a540f53ba2f5b8bb2af5a2c0f8056c460_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a540f53ba2f5b8bb2af5a2c0f8056c460_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="aab37b72de51fb271eb4ebd307cf1ee6a" name="aab37b72de51fb271eb4ebd307cf1ee6a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aab37b72de51fb271eb4ebd307cf1ee6a">&#9670;&#160;</a></span>cmdRoomSay()</h2>
 
@@ -804,7 +882,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_aab37b72de51fb271eb4ebd307cf1ee6a_cgraph.svg" width="100%" height="568"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_aab37b72de51fb271eb4ebd307cf1ee6a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -977,6 +1055,34 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d5/d9c/classServer__AbstractUserInterface.html#a73889f2a37245a5d0afdb02d41a1c0c7">Server_AbstractUserInterface</a>.</p>
+
+</div>
+</div>
+<a id="aec51d3bab836558d51a0d37570837794" name="aec51d3bab836558d51a0d37570837794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec51d3bab836558d51a0d37570837794">&#9670;&#160;</a></span>isAuthNonceValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Server_ProtocolHandler::isAuthNonceValid </td>
+          <td>(</td>
+          <td class="paramtype">const QByteArray &amp;</td>          <td class="paramname"><span class="paramname"><em>nonce</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>True if nonce matches the pending one, was issued for <code class="param">userName</code>, and is less than 60 seconds old. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_aec51d3bab836558d51a0d37570837794_icgraph.svg" width="448" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -1680,6 +1786,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a72d718b940982b8025f6c3bf755638bd" name="a72d718b940982b8025f6c3bf755638bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72d718b940982b8025f6c3bf755638bd">&#9670;&#160;</a></span>setAuthNonce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Server_ProtocolHandler::setAuthNonce </td>
+          <td>(</td>
+          <td class="paramtype">const QByteArray &amp;</td>          <td class="paramname"><span class="paramname"><em>nonce</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Store a fresh challenge nonce bound to <code class="param">userName</code> for the next challenge-response login attempt. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_a72d718b940982b8025f6c3bf755638bd_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a656d5f50efcdfd0591faf5c3e078bec1" name="a656d5f50efcdfd0591faf5c3e078bec1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a656d5f50efcdfd0591faf5c3e078bec1">&#9670;&#160;</a></span>transmitProtocolItem()</h2>
 
@@ -1751,6 +1885,72 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">bool Server_ProtocolHandler::acceptsUserListChanges</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18aa2fcdb0d44333536170372e1b2757" name="a18aa2fcdb0d44333536170372e1b2757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18aa2fcdb0d44333536170372e1b2757">&#9670;&#160;</a></span>authNonce</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray Server_ProtocolHandler::authNonce</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a75b1033d3f77aaae6e39258c4218de87" name="a75b1033d3f77aaae6e39258c4218de87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75b1033d3f77aaae6e39258c4218de87">&#9670;&#160;</a></span>authNonceCreated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QDateTime Server_ProtocolHandler::authNonceCreated</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a38a7c9e30dbd086700e4670706d66e8c" name="a38a7c9e30dbd086700e4670706d66e8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38a7c9e30dbd086700e4670706d66e8c">&#9670;&#160;</a></span>authNonceUser</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Server_ProtocolHandler::authNonceUser</td>
         </tr>
       </table>
   </td>

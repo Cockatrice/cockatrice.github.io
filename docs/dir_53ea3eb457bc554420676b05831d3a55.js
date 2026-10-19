@@ -9,7 +9,7 @@ var dir_53ea3eb457bc554420676b05831d3a55 =
     [ "server_database_interface.cpp", "d2/d4a/server__database__interface_8cpp.html", null ],
     [ "server_database_interface.h", "df/d74/server__database__interface_8h.html", "df/d74/server__database__interface_8h" ],
     [ "server_player_reference.h", "dc/d93/server__player__reference_8h.html", "dc/d93/server__player__reference_8h" ],
-    [ "server_protocolhandler.cpp", "d4/d38/server__protocolhandler_8cpp.html", null ],
+    [ "server_protocolhandler.cpp", "d4/d38/server__protocolhandler_8cpp.html", "d4/d38/server__protocolhandler_8cpp" ],
     [ "server_protocolhandler.h", "d0/d47/server__protocolhandler_8h.html", "d0/d47/server__protocolhandler_8h" ],
     [ "server_remoteuserinterface.cpp", "d2/d3d/server__remoteuserinterface_8cpp.html", null ],
     [ "server_remoteuserinterface.h", "d1/d62/server__remoteuserinterface_8h.html", "d1/d62/server__remoteuserinterface_8h" ],

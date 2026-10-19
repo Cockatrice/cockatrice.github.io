@@ -2,6 +2,7 @@ var classAbstractServerSocketInterface =
 [
     [ "AbstractServerSocketInterface", "dd/dea/classAbstractServerSocketInterface.html#a9121b9dda62706b5df78d49e3f24c8be", null ],
     [ "~AbstractServerSocketInterface", "dd/dea/classAbstractServerSocketInterface.html#a9444753b7264a2aef77b17f099d70af0", null ],
+    [ "acceptsCredentialFormat", "dd/dea/classAbstractServerSocketInterface.html#a0947a4b9a6da4881fa849695d8e63aa6", null ],
     [ "addAdminFlagToUser", "dd/dea/classAbstractServerSocketInterface.html#a80d7ba757b3d725643be70a031ae905f", null ],
     [ "catchSocketDisconnected", "dd/dea/classAbstractServerSocketInterface.html#a9b1979086d75aa8824e0eafabec454bf", null ],
     [ "catchSocketError", "dd/dea/classAbstractServerSocketInterface.html#acf12bca630c11f1558c519f45cf8130b", null ],
@@ -68,6 +69,7 @@ var classAbstractServerSocketInterface =
     [ "cmdResetUserPassword", "dd/dea/classAbstractServerSocketInterface.html#aaeba9a6be8cd419c6cf53907e1bdaf4d", null ],
     [ "cmdSetCardArtParams", "dd/dea/classAbstractServerSocketInterface.html#a60abb59561da7bafac9acbf72b2b9dbf", null ],
     [ "cmdShutdownServer", "dd/dea/classAbstractServerSocketInterface.html#a305dd67759e6143a23d69080b9e5e639", null ],
+    [ "cmdSubmitPasswordVerifier", "dd/dea/classAbstractServerSocketInterface.html#aa405087c8659183771b150abd801ede3", null ],
     [ "cmdUpdateAdminNotes", "dd/dea/classAbstractServerSocketInterface.html#ac8f2939f1c1eeb79ddd5869985ec55bb", null ],
     [ "cmdUpdateServerMessage", "dd/dea/classAbstractServerSocketInterface.html#a54bcc38aba74c590c521df9dde5591e2", null ],
     [ "cmdWarnUser", "dd/dea/classAbstractServerSocketInterface.html#adbce1f84fbc05b379ee66dcb24f77845", null ],
@@ -85,7 +87,6 @@ var classAbstractServerSocketInterface =
     [ "getPeerAddress", "dd/dea/classAbstractServerSocketInterface.html#af53807686a4e9381a5bf0f48c3ee4cad", null ],
     [ "incTxBytes", "dd/dea/classAbstractServerSocketInterface.html#ab2a67995b10577c6afedfddfe58d10f2", null ],
     [ "initSession", "dd/dea/classAbstractServerSocketInterface.html#aa971b9ef9acb9c4ff9fbd0d0585dcbd1", null ],
-    [ "isCardNameAllowed", "dd/dea/classAbstractServerSocketInterface.html#a5d96a0124855b373448bea690e2a2f01", null ],
     [ "isDeckEffectivelyPublic", "dd/dea/classAbstractServerSocketInterface.html#a0b60f409de16a26a5fe076074a3548ed", null ],
     [ "isPasswordLongEnough", "dd/dea/classAbstractServerSocketInterface.html#a04e8bdb22ae05a3283988156c4030a6c", null ],
     [ "logDebugMessage", "dd/dea/classAbstractServerSocketInterface.html#ab0a3827de8b85040bc4bd66231127d39", null ],

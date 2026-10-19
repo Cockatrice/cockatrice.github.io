@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -145,14 +145,12 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a63243efba23b24dcc46ecbf1e1f9c955" id="r_a63243efba23b24dcc46ecbf1e1f9c955"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a63243efba23b24dcc46ecbf1e1f9c955">sortByKey</a> ()</td></tr>
 <tr class="memdesc:a63243efba23b24dcc46ecbf1e1f9c955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the set list by each set’s assigned sort key.  <br /></td></tr>
-<tr class="memitem:a2e944caa63a529df481ad3fff4607bd9" id="r_a2e944caa63a529df481ad3fff4607bd9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2e944caa63a529df481ad3fff4607bd9">guessSortKeys</a> ()</td></tr>
-<tr class="memdesc:a2e944caa63a529df481ad3fff4607bd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reassigns sort keys based on the current order.  <br /></td></tr>
-<tr class="memitem:addb824d2ac56c04db1f7ae173c922461" id="r_addb824d2ac56c04db1f7ae173c922461"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#addb824d2ac56c04db1f7ae173c922461">enableAllUnknown</a> ()</td></tr>
-<tr class="memdesc:addb824d2ac56c04db1f7ae173c922461"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables all sets that are unknown or ignored.  <br /></td></tr>
-<tr class="memitem:af806779e88aba0190ddf0853695e344f" id="r_af806779e88aba0190ddf0853695e344f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af806779e88aba0190ddf0853695e344f">enableAll</a> ()</td></tr>
-<tr class="memdesc:af806779e88aba0190ddf0853695e344f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables all sets in the list.  <br /></td></tr>
-<tr class="memitem:aae296b1d662ebf1e41e78a0d0d8ed2a7" id="r_aae296b1d662ebf1e41e78a0d0d8ed2a7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aae296b1d662ebf1e41e78a0d0d8ed2a7">markAllAsKnown</a> ()</td></tr>
-<tr class="memdesc:aae296b1d662ebf1e41e78a0d0d8ed2a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks all sets as known and adjusts their enabled state.  <br /></td></tr>
+<tr class="memitem:a2e0cf8900a567273187a2a8ea4deea3a" id="r_a2e0cf8900a567273187a2a8ea4deea3a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2e0cf8900a567273187a2a8ea4deea3a">enableAllBatched</a> (<a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a> *controller)</td></tr>
+<tr class="memdesc:a2e0cf8900a567273187a2a8ea4deea3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables every set with fresh sort keys, persisting in one flush.  <br /></td></tr>
+<tr class="memitem:a1bef5d0f865d1e013acf5046f6b87e80" id="r_a1bef5d0f865d1e013acf5046f6b87e80"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1bef5d0f865d1e013acf5046f6b87e80">enableAllUnknownBatched</a> (<a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a> *controller)</td></tr>
+<tr class="memdesc:a1bef5d0f865d1e013acf5046f6b87e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables all sets that are unknown or ignored, persisting in one flush.  <br /></td></tr>
+<tr class="memitem:a9b7d8223e722b0850e3ab6108e03e233" id="r_a9b7d8223e722b0850e3ab6108e03e233"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9b7d8223e722b0850e3ab6108e03e233">markAllAsKnownBatched</a> (<a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a> *controller)</td></tr>
+<tr class="memdesc:a9b7d8223e722b0850e3ab6108e03e233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks all sets as known and adjusts their enabled state, persisting in one flush.  <br /></td></tr>
 <tr class="memitem:acd27b64e6dbc14a681de77b7efbf71f8" id="r_acd27b64e6dbc14a681de77b7efbf71f8"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#acd27b64e6dbc14a681de77b7efbf71f8">getEnabledSetsNum</a> ()</td></tr>
 <tr class="memdesc:acd27b64e6dbc14a681de77b7efbf71f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts the number of sets that are currently enabled.  <br /></td></tr>
 <tr class="memitem:ae8421f26c425de4ed7646faa78f333dd" id="r_ae8421f26c425de4ed7646faa78f333dd"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ae8421f26c425de4ed7646faa78f333dd">getUnknownSetsNum</a> ()</td></tr>
@@ -191,43 +189,63 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="af806779e88aba0190ddf0853695e344f" name="af806779e88aba0190ddf0853695e344f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af806779e88aba0190ddf0853695e344f">&#9670;&#160;</a></span>enableAll()</h2>
+<a id="a2e0cf8900a567273187a2a8ea4deea3a" name="a2e0cf8900a567273187a2a8ea4deea3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e0cf8900a567273187a2a8ea4deea3a">&#9670;&#160;</a></span>enableAllBatched()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void CardSetList::enableAll </td>
+          <td class="memname">void CardSetList::enableAllBatched </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a> *</td>          <td class="paramname"><span class="paramname"><em>controller</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Enables all sets in the list. </p>
-<p>Equivalent to calling <span class="tt">setEnabled(true)</span> on each entry. </p>
+<p>Enables every set with fresh sort keys, persisting in one flush. </p>
+<p>Assigns sequential sort keys in default-sorted order and marks every set known and enabled, writing all records through the controller's batched saveSets() in a single settings flush instead of ~3 QSettings rewrite cycles per set, which froze the GUI thread for seconds on a first run with a full database. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">controller</td><td>The set priority controller to persist the records with. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d65/classCardSetList_a2e0cf8900a567273187a2a8ea4deea3a_cgraph.svg" width="466" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
-<a id="addb824d2ac56c04db1f7ae173c922461" name="addb824d2ac56c04db1f7ae173c922461"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addb824d2ac56c04db1f7ae173c922461">&#9670;&#160;</a></span>enableAllUnknown()</h2>
+<a id="a1bef5d0f865d1e013acf5046f6b87e80" name="a1bef5d0f865d1e013acf5046f6b87e80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bef5d0f865d1e013acf5046f6b87e80">&#9670;&#160;</a></span>enableAllUnknownBatched()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void CardSetList::enableAllUnknown </td>
+          <td class="memname">void CardSetList::enableAllUnknownBatched </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a> *</td>          <td class="paramname"><span class="paramname"><em>controller</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Enables all sets that are unknown or ignored. </p>
-<p>Sets that are not marked as known and not ignored are marked as known and enabled. Ignored-known sets are also enabled, but remain ignored. </p>
+<p>Enables all sets that are unknown or ignored, persisting in one flush. </p>
+<p>Sets that are not marked as known and not ignored are marked as known and enabled. Ignored-known sets are also enabled, but remain ignored. Only changed sets are written, so the common case of a few new sets costs a single settings flush no matter how large the database is. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">controller</td><td>The set priority controller to persist the records with. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d65/classCardSetList_a1bef5d0f865d1e013acf5046f6b87e80_cgraph.svg" width="474" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -291,48 +309,33 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2e944caa63a529df481ad3fff4607bd9" name="a2e944caa63a529df481ad3fff4607bd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e944caa63a529df481ad3fff4607bd9">&#9670;&#160;</a></span>guessSortKeys()</h2>
+<a id="a9b7d8223e722b0850e3ab6108e03e233" name="a9b7d8223e722b0850e3ab6108e03e233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b7d8223e722b0850e3ab6108e03e233">&#9670;&#160;</a></span>markAllAsKnownBatched()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void CardSetList::guessSortKeys </td>
+          <td class="memname">void CardSetList::markAllAsKnownBatched </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a> *</td>          <td class="paramname"><span class="paramname"><em>controller</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reassigns sort keys based on the current order. </p>
-<p>Calls <a class="el" href="#a09f8de40f81a891afb31f120bb1a3756" title="Sorts the list by default rules.">defaultSort()</a> and then assigns sequential sort keys to all sets according to their resulting positions, replacing any existing sort keys to ensure consistent ordering. </p>
+<p>Marks all sets as known and adjusts their enabled state, persisting in one flush. </p>
+<p>Unknown, non-ignored sets become known and disabled. Ignored-known sets are enabled if they were previously disabled. Only changed sets are written; when nothing is unknown no flush happens at all. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">controller</td><td>The set priority controller to persist the records with. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d65/classCardSetList_a2e944caa63a529df481ad3fff4607bd9_cgraph.svg" width="434" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/d65/classCardSetList_a9b7d8223e722b0850e3ab6108e03e233_cgraph.svg" width="462" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-
-</div>
-</div>
-<a id="aae296b1d662ebf1e41e78a0d0d8ed2a7" name="aae296b1d662ebf1e41e78a0d0d8ed2a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae296b1d662ebf1e41e78a0d0d8ed2a7">&#9670;&#160;</a></span>markAllAsKnown()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CardSetList::markAllAsKnown </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Marks all sets as known and adjusts their enabled state. </p>
-<p>Unknown, non-ignored sets become known and disabled. Ignored-known sets are enabled if they were previously disabled. </p>
 
 </div>
 </div>

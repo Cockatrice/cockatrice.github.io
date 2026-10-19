@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -146,6 +146,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8e62172a6414049bbc5c449598b46211" id="r_a8e62172a6414049bbc5c449598b46211"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#a8e62172a6414049bbc5c449598b46211">getEnabledSetNames</a> () const override</td></tr>
 <tr class="memdesc:a8e62172a6414049bbc5c449598b46211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the short names of every set currently marked as enabled.  <br /></td></tr>
 <tr class="memitem:a26645d23c3e1110f4fc7d644c2055957" id="r_a26645d23c3e1110f4fc7d644c2055957"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a26645d23c3e1110f4fc7d644c2055957">saveSets</a> (const QVector&lt; <a class="el" href="../../d0/db0/structICardSetPriorityController_1_1SetSaveData.html">SetSaveData</a> &gt; &amp;) override</td></tr>
+<tr class="memdesc:a26645d23c3e1110f4fc7d644c2055957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Persists per-set options for every entry in a single settings flush.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classICardSetPriorityController"><td colspan="2">Public Member Functions inherited from <a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a></td></tr>
 <tr class="memitem:a87c55e7b18616199ea7b8372a04ad99f pub_methods_classICardSetPriorityController" id="r_a87c55e7b18616199ea7b8372a04ad99f"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="../../d7/d81/classICardSetPriorityController.html#a87c55e7b18616199ea7b8372a04ad99f">~ICardSetPriorityController</a> ()=default</td></tr>
 </table>
@@ -310,7 +311,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void NoopCardSetPriorityController::saveSets </td>
           <td>(</td>
-          <td class="paramtype">const QVector&lt; <a class="el" href="../../d0/db0/structICardSetPriorityController_1_1SetSaveData.html">SetSaveData</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const QVector&lt; <a class="el" href="../../d0/db0/structICardSetPriorityController_1_1SetSaveData.html">SetSaveData</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -320,6 +321,9 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Persists per-set options for every entry in a single settings flush. </p>
+<p>Each individual setSortKey/setEnabled/setIsKnown call re-opens and re-syncs the whole .ini when backed by QSettings, so persisting hundreds of sets one option at a time freezes the GUI thread for seconds. Callers that touch more than a handful of sets must bundle the records and call this once. </p>
 
 <p>Implements <a class="el" href="../../d7/d81/classICardSetPriorityController.html#a7c62bcbbedb01e6d3fc998650366b39d">ICardSetPriorityController</a>.</p>
 

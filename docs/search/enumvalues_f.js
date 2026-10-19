@@ -42,5 +42,6 @@ var searchData=
   ['proceednormal_39',['ProceedNormal',['../d5/de4/classServer__GameLifecycleStrategy.html#a63df2a508967c8cd78048c5fea7f2463acead191b92e07bb3d3eb8e69bec51816',1,'Server_GameLifecycleStrategy']]],
   ['promoted_40',['PROMOTED',['../d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eead58a06df3888aa016a93f606bbc6df13',1,'Event_NotifyUser']]],
   ['ptcolumn_41',['PTColumn',['../dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0afdcec8a6bd4181ebe06b26f647c5fdcd',1,'CardDatabaseModel']]],
-  ['publiczone_42',['PublicZone',['../df/d6e/structServerInfo__Zone.html#ad6a574f50e092cbde39cfcf48cffc0d7aea86d2af0414e13aab8c976d435d8c57',1,'ServerInfo_Zone']]]
+  ['public_42',['Public',['../de/de6/structServerInfo__RoomChannel.html#abf6f6bd04abb7febabddd868b3ee3b53a4476957ac6e7a9402a4ee9f2bdb43d37',1,'ServerInfo_RoomChannel']]],
+  ['publiczone_43',['PublicZone',['../df/d6e/structServerInfo__Zone.html#ad6a574f50e092cbde39cfcf48cffc0d7aea86d2af0414e13aab8c976d435d8c57',1,'ServerInfo_Zone']]]
 ];

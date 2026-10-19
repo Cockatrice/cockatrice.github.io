@@ -1,5 +1,6 @@
 var settings__migration_8cpp =
 [
+    [ "gameFiltersCamelCaseMigrationPending", "d8/d3d/settings__migration_8cpp.html#a666f57a1dfe31afed94084ee45161c24", null ],
     [ "hasPendingGlobalIniSettings", "d8/d3d/settings__migration_8cpp.html#ace8e511ed4f74ce7424f06c9c5d9ddb3", null ],
     [ "migrateAppearanceSettings", "d8/d3d/settings__migration_8cpp.html#a5aaea50f93f8e4b8f7f0fec884c0f525", null ],
     [ "migrateCacheStorageSettings", "d8/d3d/settings__migration_8cpp.html#abb63a4936077a92109761b49cc158114", null ],
@@ -22,5 +23,8 @@ var settings__migration_8cpp =
     [ "migrateUpdatesSettings", "d8/d3d/settings__migration_8cpp.html#a845b70a7fcace3ef56ad76f974da02da", null ],
     [ "migrateVisualDeckStorageSettings", "d8/d3d/settings__migration_8cpp.html#afe417c41b3e1b782844d6441fb546cd9", null ],
     [ "Q_LOGGING_CATEGORY", "d8/d3d/settings__migration_8cpp.html#ad2b5ee0d4645d42ce432baaa8ac04bf1", null ],
+    [ "renamedGameFilterKeys", "d8/d3d/settings__migration_8cpp.html#a87a9b144cfc285f2ed4f0ee3f1830c89", null ],
+    [ "GAME_FILTERS_GAME_TYPE_PREFIX", "d8/d3d/settings__migration_8cpp.html#a981962cd6562518f4e591b1db5a45516", null ],
+    [ "LEGACY_GAME_FILTERS_GAME_TYPE_PREFIX", "d8/d3d/settings__migration_8cpp.html#a617a7b47b9e53eb76326c2553fe4008d", null ],
     [ "MIGRATION_SENTINEL_KEY", "d8/d3d/settings__migration_8cpp.html#a0c4daa27003dbe085fe9851617ed7ea2", null ]
 ];

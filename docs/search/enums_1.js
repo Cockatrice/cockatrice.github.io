@@ -17,5 +17,6 @@ var searchData=
   ['compressionlevel_14',['CompressionLevel',['../d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6',1,'Zip']]],
   ['compressionmethod_15',['CompressionMethod',['../de/d4e/classUnZip.html#af0741165d4b27b4692beef94c48528b5',1,'UnZip']]],
   ['compressionoption_16',['CompressionOption',['../d8/df5/classZip.html#a939111cf77e16d456d380b8c68f637ab',1,'Zip']]],
-  ['contexttype_17',['ContextType',['../dd/dd1/structGameEventContext.html#a387e6072c0cecf60722f7b098ce45bc8',1,'GameEventContext']]]
+  ['contexttype_17',['ContextType',['../dd/dd1/structGameEventContext.html#a387e6072c0cecf60722f7b098ce45bc8',1,'GameEventContext']]],
+  ['crashreportingmode_18',['CrashReportingMode',['../d9/d8d/classPersonalSettings.html#a237e255015e8c068338dc103f9a9e928',1,'PersonalSettings']]]
 ];

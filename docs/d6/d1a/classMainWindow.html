@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -217,11 +217,11 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:aab6c1e834f96b09efe9c42766f171a74" id="r_aab6c1e834f96b09efe9c42766f171a74"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aab6c1e834f96b09efe9c42766f171a74">createTrayIcon</a> ()</td></tr>
 <tr class="memitem:aa69eca00949fd383c1b1bb6d3f0cd881" id="r_aa69eca00949fd383c1b1bb6d3f0cd881"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aa69eca00949fd383c1b1bb6d3f0cd881">getNextCustomSetPrefix</a> (QDir dataDir)</td></tr>
 <tr class="memitem:a9640f67af06f83718a7b3d3a3a5dcc15" id="r_a9640f67af06f83718a7b3d3a3a5dcc15"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9640f67af06f83718a7b3d3a3a5dcc15">runFirstRunWizard</a> (bool firstRun=false)</td></tr>
-<tr class="memitem:a22fa439e777139e01a0630152f820910" id="r_a22fa439e777139e01a0630152f820910"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a22fa439e777139e01a0630152f820910">warnAboutDataPathsInProgramDir</a> ()</td></tr>
-<tr class="memdesc:a22fa439e777139e01a0630152f820910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warns once when a non-portable install keeps its data paths inside the program directory.  <br /></td></tr>
 <tr class="memitem:a57c9f094275eeaaa78073b61d84167bc" id="r_a57c9f094275eeaaa78073b61d84167bc"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a57c9f094275eeaaa78073b61d84167bc">getCardUpdaterBinaryName</a> ()</td></tr>
 <tr class="memitem:a723444b0da64109e26c3318017cca896" id="r_a723444b0da64109e26c3318017cca896"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a723444b0da64109e26c3318017cca896">createCardUpdateProcess</a> (bool background=false)</td></tr>
-<tr class="memitem:aabbd433827aa692777681e29bd408f82" id="r_aabbd433827aa692777681e29bd408f82"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aabbd433827aa692777681e29bd408f82">exitCardDatabaseUpdate</a> ()</td></tr>
+<tr class="memitem:a0f5dcc6c0eccbc47b7a831a433604b70" id="r_a0f5dcc6c0eccbc47b7a831a433604b70"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0f5dcc6c0eccbc47b7a831a433604b70">exitCardDatabaseUpdate</a> (bool doReload)</td></tr>
+<tr class="memitem:a085b341f371026d00608e5a705f161de" id="r_a085b341f371026d00608e5a705f161de"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a085b341f371026d00608e5a705f161de">reloadCardDatabaseAndCheckSets</a> ()</td></tr>
+<tr class="memdesc:a085b341f371026d00608e5a705f161de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the card database on a worker thread and runs checkUnknownSets() once the finished snapshot has been swapped in.  <br /></td></tr>
 <tr class="memitem:a3aec1f6ce2d8dd63127f1f87da475fab" id="r_a3aec1f6ce2d8dd63127f1f87da475fab"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a3aec1f6ce2d8dd63127f1f87da475fab">requestCardUpdateRaise</a> ()</td></tr>
 <tr class="memdesc:a3aec1f6ce2d8dd63127f1f87da475fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to bring the open card database updater window to the front.  <br /></td></tr>
 <tr class="memitem:ab65a70c908bbeef0e977660cf1f45862" id="r_ab65a70c908bbeef0e977660cf1f45862"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab65a70c908bbeef0e977660cf1f45862">announceCardUpdateRunning</a> ()</td></tr>
@@ -242,6 +242,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a5b9a7a55441be094b0d7258476a933d7" id="r_a5b9a7a55441be094b0d7258476a933d7"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a5b9a7a55441be094b0d7258476a933d7">aSettings</a></td></tr>
 <tr class="memitem:a49f5056e1ab4748feaa15fd4e74c82d0" id="r_a49f5056e1ab4748feaa15fd4e74c82d0"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a49f5056e1ab4748feaa15fd4e74c82d0">aShow</a></td></tr>
 <tr class="memitem:a4ef901d0f32c6b94a3a5ccd9338183fe" id="r_a4ef901d0f32c6b94a3a5ccd9338183fe"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a4ef901d0f32c6b94a3a5ccd9338183fe">aExit</a></td></tr>
+<tr class="memitem:add17968c3f2dd5eae68a01237db86b06" id="r_add17968c3f2dd5eae68a01237db86b06"><td class="memItemLeft">QToolButton *&#160;</td><td class="memItemRight"><a class="el" href="#add17968c3f2dd5eae68a01237db86b06">settingsButton</a> = nullptr</td></tr>
 <tr class="memitem:a4c3417633a361dd31ce948929eb8cb7e" id="r_a4c3417633a361dd31ce948929eb8cb7e"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a4c3417633a361dd31ce948929eb8cb7e">aConnect</a></td></tr>
 <tr class="memitem:a83d228c61bc31ae2c1df02da99beb7c0" id="r_a83d228c61bc31ae2c1df02da99beb7c0"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a83d228c61bc31ae2c1df02da99beb7c0">aDisconnect</a></td></tr>
 <tr class="memitem:a0bf22f9ba83477e8d740ebc281faee07" id="r_a0bf22f9ba83477e8d740ebc281faee07"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a0bf22f9ba83477e8d740ebc281faee07">aRegister</a></td></tr>
@@ -1890,8 +1891,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aabbd433827aa692777681e29bd408f82" name="aabbd433827aa692777681e29bd408f82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabbd433827aa692777681e29bd408f82">&#9670;&#160;</a></span>exitCardDatabaseUpdate()</h2>
+<a id="a0f5dcc6c0eccbc47b7a831a433604b70" name="a0f5dcc6c0eccbc47b7a831a433604b70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f5dcc6c0eccbc47b7a831a433604b70">&#9670;&#160;</a></span>exitCardDatabaseUpdate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1902,7 +1903,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void MainWindow::exitCardDatabaseUpdate </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>doReload</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1915,12 +1916,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_aabbd433827aa692777681e29bd408f82_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a0f5dcc6c0eccbc47b7a831a433604b70_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_aabbd433827aa692777681e29bd408f82_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a0f5dcc6c0eccbc47b7a831a433604b70_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2287,6 +2288,44 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_aaa381eb62a10f3c4d097785f9e1b3fb9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a085b341f371026d00608e5a705f161de" name="a085b341f371026d00608e5a705f161de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a085b341f371026d00608e5a705f161de">&#9670;&#160;</a></span>reloadCardDatabaseAndCheckSets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::reloadCardDatabaseAndCheckSets </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reloads the card database on a worker thread and runs checkUnknownSets() once the finished snapshot has been swapped in. </p>
+<p>The loader never runs checkUnknownSets() itself (see main.cpp); post-update loads that can introduce new sets must own the check, and it has to run after the queued snapshot swap, not on the worker. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a085b341f371026d00608e5a705f161de_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a085b341f371026d00608e5a705f161de_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2692,43 +2731,6 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a61667a34c3f793441a4c720b71b1bb94_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a22fa439e777139e01a0630152f820910" name="a22fa439e777139e01a0630152f820910"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22fa439e777139e01a0630152f820910">&#9670;&#160;</a></span>warnAboutDataPathsInProgramDir()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::warnAboutDataPathsInProgramDir </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Warns once when a non-portable install keeps its data paths inside the program directory. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a22fa439e777139e01a0630152f820910_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a22fa439e777139e01a0630152f820910_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -3797,6 +3799,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a>* MainWindow::replay</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add17968c3f2dd5eae68a01237db86b06" name="add17968c3f2dd5eae68a01237db86b06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add17968c3f2dd5eae68a01237db86b06">&#9670;&#160;</a></span>settingsButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QToolButton* MainWindow::settingsButton = nullptr</td>
         </tr>
       </table>
   </td>

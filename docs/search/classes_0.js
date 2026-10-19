@@ -59,5 +59,8 @@ var searchData=
   ['assignidtodefinition_56',['AssignIDToDefinition',['../d9/d27/structpeg_1_1AssignIDToDefinition.html',1,'peg']]],
   ['astbase_57',['AstBase',['../d2/d75/structpeg_1_1AstBase.html',1,'peg']]],
   ['astbase_3c_20emptytype_20_3e_58',['AstBase&lt; EmptyType &gt;',['../d2/d75/structpeg_1_1AstBase.html',1,'peg']]],
-  ['astoptimizer_59',['AstOptimizer',['../da/dae/structpeg_1_1AstOptimizer.html',1,'peg']]]
+  ['astoptimizer_59',['AstOptimizer',['../da/dae/structpeg_1_1AstOptimizer.html',1,'peg']]],
+  ['atriskbackupoutcome_60',['AtRiskBackupOutcome',['../d9/df8/structAtRiskDataWarning_1_1AtRiskBackupOutcome.html',1,'AtRiskDataWarning']]],
+  ['atriskdatawarning_61',['AtRiskDataWarning',['../d7/d59/classAtRiskDataWarning.html',1,'']]],
+  ['attempthistory_62',['AttemptHistory',['../d2/d80/structRateLimiter_1_1AttemptHistory.html',1,'RateLimiter']]]
 ];

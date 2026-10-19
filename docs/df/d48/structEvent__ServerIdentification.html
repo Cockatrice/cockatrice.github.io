@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -137,6 +137,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a4079920c2588c93f402aaad16d52d5ba" id="r_a4079920c2588c93f402aaad16d52d5ba"><td class="memItemLeft">optional string&#160;</td><td class="memItemRight"><a class="el" href="#a4079920c2588c93f402aaad16d52d5ba">server_version</a> = 2</td></tr>
 <tr class="memitem:a572456a294a3cadb29f9e47ec2de6419" id="r_a572456a294a3cadb29f9e47ec2de6419"><td class="memItemLeft">optional uint32&#160;</td><td class="memItemRight"><a class="el" href="#a572456a294a3cadb29f9e47ec2de6419">protocol_version</a> = 3</td></tr>
 <tr class="memitem:a4387b4837c9d91794a0d7cd46824b3cd" id="r_a4387b4837c9d91794a0d7cd46824b3cd"><td class="memItemLeft">optional <a class="el" href="#a42dc11e928736dbfb7e240906767586e">ServerOptions</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4387b4837c9d91794a0d7cd46824b3cd">server_options</a> = 4 [default = <a class="el" href="#a42dc11e928736dbfb7e240906767586ea95f51292ae6e6a28b204e633bcae9e39">NoOptions</a>]</td></tr>
+<tr class="memitem:a74f6cdb00f6f5b6cf49ef64b9c6745bf" id="r_a74f6cdb00f6f5b6cf49ef64b9c6745bf"><td class="memItemLeft">optional bool&#160;</td><td class="memItemRight"><a class="el" href="#a74f6cdb00f6f5b6cf49ef64b9c6745bf">supports_challenge_response</a> = 5</td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
 <a id="a42dc11e928736dbfb7e240906767586e" name="a42dc11e928736dbfb7e240906767586e"></a>
@@ -211,6 +212,21 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74f6cdb00f6f5b6cf49ef64b9c6745bf" name="a74f6cdb00f6f5b6cf49ef64b9c6745bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74f6cdb00f6f5b6cf49ef64b9c6745bf">&#9670;&#160;</a></span>supports_challenge_response</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional bool Event_ServerIdentification::supports_challenge_response = 5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Advertises challenge-response authentication separately from server_options. server_options must stay exactly SupportsPasswordHash on the wire: it is a proto2 enum (closed), so already-released clients compiled without any new enumerator parse an unknown value as NoOptions and fall back to sending the plaintext password. New clients check this field instead. </p>
 
 </div>
 </div>

@@ -6,7 +6,7 @@ var searchData=
   ['sessioncommandtype_3',['SessionCommandType',['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700',1,'SessionCommand']]],
   ['sessioneventtype_4',['SessionEventType',['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624',1,'SessionEvent']]],
   ['setscolumns_5',['SetsColumns',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735',1,'SetsModel']]],
-  ['settingspage_6',['SettingsPage',['../db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788',1,'DlgSettings']]],
+  ['settingspage_6',['SettingsPage',['../da/dbe/classSettingsView.html#af4def4eb97317b7ef47567964e073901',1,'SettingsView']]],
   ['smtperror_7',['SmtpError',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673',1,'QxtSmtp']]],
   ['smtpstate_8',['SmtpState',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216',1,'QxtSmtpPrivate']]],
   ['sortoption_9',['SortOption',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f',1,'CardList']]],

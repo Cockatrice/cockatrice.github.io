@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -145,6 +145,7 @@ Signals</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5349eb187f8318d008fc1b805c17cf0c" id="r_a5349eb187f8318d008fc1b805c17cf0c"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a5349eb187f8318d008fc1b805c17cf0c">GameSelector</a> (<a class="el" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *_client, <a class="el" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *_tabSupervisor, <a class="el" href="../../df/d78/classTabRoom.html">TabRoom</a> *_room, const <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; int, QString &gt; &amp;_rooms, const <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; int, <a class="el" href="../../d8/d92/game__type__map_8h.html#a8fd9fd937325db0b4ae4edae4ae91924">GameTypeMap</a> &gt; &amp;_gameTypes, const bool restoresettings, const bool _showfilters, QWidget *parent=nullptr)</td></tr>
 <tr class="memdesc:a5349eb187f8318d008fc1b805c17cf0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="../../df/d3f/classGameSelector.html" title="Provides a widget for displaying, filtering, joining, spectating, and creating games in a room.">GameSelector</a> widget.  <br /></td></tr>
+<tr class="memitem:a25962456830841ae109682ff1a7603f0" id="r_a25962456830841ae109682ff1a7603f0"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a25962456830841ae109682ff1a7603f0">~GameSelector</a> () override</td></tr>
 <tr class="memitem:a469b920caa40b2976f139c82a67617e7" id="r_a469b920caa40b2976f139c82a67617e7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a469b920caa40b2976f139c82a67617e7">retranslateUi</a> ()</td></tr>
 <tr class="memdesc:a469b920caa40b2976f139c82a67617e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates UI text for translation/localization.  <br /></td></tr>
 <tr class="memitem:aaac69a09b58136e991c396581a6b115c" id="r_aaac69a09b58136e991c396581a6b115c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaac69a09b58136e991c396581a6b115c">processGameInfo</a> (const <a class="el" href="../../d4/dbe/structServerInfo__Game.html">ServerInfo_Game</a> &amp;info)</td></tr>
@@ -214,6 +215,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a39b8611cbe06ad9d1ccae0e3572886f8" id="r_a39b8611cbe06ad9d1ccae0e3572886f8"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a39b8611cbe06ad9d1ccae0e3572886f8">joinAsJudgeSpectatorButton</a></td></tr>
 <tr class="memitem:a471430f639605dfe80a280092650e044" id="r_a471430f639605dfe80a280092650e044"><td class="memItemLeft">const bool&#160;</td><td class="memItemRight"><a class="el" href="#a471430f639605dfe80a280092650e044">showFilters</a></td></tr>
 <tr class="memitem:a8c96ae17add913567b9228b0d37525bf" id="r_a8c96ae17add913567b9228b0d37525bf"><td class="memItemLeft"><a class="el" href="../../d8/d92/game__type__map_8h.html#a8fd9fd937325db0b4ae4edae4ae91924">GameTypeMap</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8c96ae17add913567b9228b0d37525bf">gameTypeMap</a></td></tr>
+<tr class="memitem:a57201b45a374c71526906a2c01ba51a7" id="r_a57201b45a374c71526906a2c01ba51a7"><td class="memItemLeft">QTimer&#160;</td><td class="memItemRight"><a class="el" href="#a57201b45a374c71526906a2c01ba51a7">filterSaveDebounceTimer</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides a widget for displaying, filtering, joining, spectating, and creating games in a room. </p>
@@ -291,6 +293,36 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a5349eb187f8318d008fc1b805c17cf0c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a25962456830841ae109682ff1a7603f0" name="a25962456830841ae109682ff1a7603f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25962456830841ae109682ff1a7603f0">&#9670;&#160;</a></span>~GameSelector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameSelector::~GameSelector </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a25962456830841ae109682ff1a7603f0_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1333,6 +1365,29 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <p>Button to open the filter dialog. </p>
+
+</div>
+</div>
+<a id="a57201b45a374c71526906a2c01ba51a7" name="a57201b45a374c71526906a2c01ba51a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57201b45a374c71526906a2c01ba51a7">&#9670;&#160;</a></span>filterSaveDebounceTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTimer GameSelector::filterSaveDebounceTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Delays persisting quick-filter edits so typing does not rewrite the settings file on every keystroke. </p>
 
 </div>
 </div>

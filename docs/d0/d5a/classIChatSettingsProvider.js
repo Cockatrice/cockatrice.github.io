@@ -1,6 +1,8 @@
 var classIChatSettingsProvider =
 [
     [ "~IChatSettingsProvider", "d0/d5a/classIChatSettingsProvider.html#a913384bf8978af75c5e06b4021a679cf", null ],
+    [ "getChannelMentionColor", "d0/d5a/classIChatSettingsProvider.html#ada3bde2db34cfd6a92b16e38a2e7fadb", null ],
+    [ "getChannelUnreadColor", "d0/d5a/classIChatSettingsProvider.html#a087f56708ce192245f865c1ddf909110", null ],
     [ "getChatHighlightColor", "d0/d5a/classIChatSettingsProvider.html#a659921cdf7cab5f6dd888729939c4b84", null ],
     [ "getChatHighlightForeground", "d0/d5a/classIChatSettingsProvider.html#ad79f110004bdd43701942420e78ab861", null ],
     [ "getChatMention", "d0/d5a/classIChatSettingsProvider.html#a58a090185384dd9cf48c06743e4a76bc", null ],

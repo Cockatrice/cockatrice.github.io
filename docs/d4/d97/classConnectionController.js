@@ -4,7 +4,7 @@ var classConnectionController =
     [ "~ConnectionController", "d4/d97/classConnectionController.html#a7ba1d5dcfb3f3268fe85f08c85e3ddda", null ],
     [ "client", "d4/d97/classConnectionController.html#aa00f1dc8103f3dd7a6bbe7a531307776", null ],
     [ "connectToServer", "d4/d97/classConnectionController.html#a561ee23b1c44ec274a5df7bf4987365a", null ],
-    [ "connectToServerDirect", "d4/d97/classConnectionController.html#ac5c2a5f23e1e900dfa57cdc8d8503f86", null ],
+    [ "connectToServerDirect", "d4/d97/classConnectionController.html#af143c113c48f05d3fd71424a8b4c3117", null ],
     [ "disconnectFromServer", "d4/d97/classConnectionController.html#a0e986feb4c78e2d39cf3d202bf93a7f8", null ],
     [ "extractInvalidUsernameMessage", "d4/d97/classConnectionController.html#ac0e79dc82c78f478e449d04525cf6622", null ],
     [ "forgotPasswordRequest", "d4/d97/classConnectionController.html#af7eacd3e8f77b7c5d5007f579bec4e5b", null ],
@@ -15,6 +15,7 @@ var classConnectionController =
     [ "onForgotPasswordSuccess", "d4/d97/classConnectionController.html#a178e600e168ab592b791953a4cfafe49", null ],
     [ "onLoginError", "d4/d97/classConnectionController.html#ab0367ac207951b4ae981f838adc623dd", null ],
     [ "onNotifyUserAboutUpdate", "d4/d97/classConnectionController.html#a02351d3de5919516ab18e64e7b8dd83a", null ],
+    [ "onPasswordVerifierReady", "d4/d97/classConnectionController.html#acdbcee12481a3a1fa7f0381e53f19b6c", null ],
     [ "onPromptForgotPasswordChallenge", "d4/d97/classConnectionController.html#ac44cbb866667627d00d44489a91cb05e", null ],
     [ "onPromptForgotPasswordReset", "d4/d97/classConnectionController.html#a392612f0126d8c88e98e3ca85f755754", null ],
     [ "onProtocolVersionMismatch", "d4/d97/classConnectionController.html#a63688a076a062eb3c5be982b42eb35d0", null ],
@@ -38,6 +39,8 @@ var classConnectionController =
     [ "clientThread", "d4/d97/classConnectionController.html#a44edd760df1f8cffba20b7e81a576b14", null ],
     [ "dialogParent", "d4/d97/classConnectionController.html#a1798d1bf4fa64a4f20c5bf089b2d5353", null ],
     [ "dlgConnect", "d4/d97/classConnectionController.html#af1c826845b7bf42e3c0432a5d96ba8b0", null ],
+    [ "pendingSaveName", "d4/d97/classConnectionController.html#a13a7c3ca49593b6dc52ea52a0ac82dff", null ],
+    [ "pendingSavePassword", "d4/d97/classConnectionController.html#a48ef6fc6201e06c716af7b526a678a5a", null ],
     [ "remoteClient", "d4/d97/classConnectionController.html#a89b871e5698a83bcca2472c82595b50d", null ],
     [ "serverShutdownMessageBox", "d4/d97/classConnectionController.html#a24d9fe3a8efff40d255de32e0f12b95b", null ]
 ];

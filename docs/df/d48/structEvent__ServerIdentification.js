@@ -8,5 +8,6 @@ var structEvent__ServerIdentification =
     [ "protocol_version", "df/d48/structEvent__ServerIdentification.html#a572456a294a3cadb29f9e47ec2de6419", null ],
     [ "server_name", "df/d48/structEvent__ServerIdentification.html#addb3ad550ee504ae617a321190de3ee6", null ],
     [ "server_options", "df/d48/structEvent__ServerIdentification.html#a4387b4837c9d91794a0d7cd46824b3cd", null ],
-    [ "server_version", "df/d48/structEvent__ServerIdentification.html#a4079920c2588c93f402aaad16d52d5ba", null ]
+    [ "server_version", "df/d48/structEvent__ServerIdentification.html#a4079920c2588c93f402aaad16d52d5ba", null ],
+    [ "supports_challenge_response", "df/d48/structEvent__ServerIdentification.html#a74f6cdb00f6f5b6cf49ef64b9c6745bf", null ]
 ];

@@ -73,5 +73,7 @@ var searchData=
   ['arrow_5ftarget_2ecpp_70',['arrow_target.cpp',['../dc/d4b/arrow__target_8cpp.html',1,'']]],
   ['arrow_5ftarget_2eh_71',['arrow_target.h',['../dc/dda/arrow__target_8h.html',1,'']]],
   ['art_5fcrop_5fattribution_2ecpp_72',['art_crop_attribution.cpp',['../d0/d7d/art__crop__attribution_8cpp.html',1,'']]],
-  ['art_5fcrop_5fattribution_2eh_73',['art_crop_attribution.h',['../d5/d0f/art__crop__attribution_8h.html',1,'']]]
+  ['art_5fcrop_5fattribution_2eh_73',['art_crop_attribution.h',['../d5/d0f/art__crop__attribution_8h.html',1,'']]],
+  ['at_5frisk_5fdata_5fwarning_2ecpp_74',['at_risk_data_warning.cpp',['../d4/ddf/at__risk__data__warning_8cpp.html',1,'']]],
+  ['at_5frisk_5fdata_5fwarning_2eh_75',['at_risk_data_warning.h',['../d1/dee/at__risk__data__warning_8h.html',1,'']]]
 ];

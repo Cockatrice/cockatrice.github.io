@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -139,6 +139,10 @@ Public Types</h2></td></tr>
 , <a class="el" href="#a6f20cb6b42e6ea4014827720ffc348ebaa0fbb76ffe4deea1684f7456fa69ce13">AuthenticationSql</a>
 , <a class="el" href="#a6f20cb6b42e6ea4014827720ffc348eba6b1009e489ff5f093edc3e46fd5bfdc1">AuthenticationPassword</a>
  }</td></tr>
+<tr class="memitem:a23ab4a66cb9cf78bff3600bc8ed9fc2c" id="r_a23ab4a66cb9cf78bff3600bc8ed9fc2c"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a23ab4a66cb9cf78bff3600bc8ed9fc2c">AuthenticationStrictness</a> { <a class="el" href="#a23ab4a66cb9cf78bff3600bc8ed9fc2ca3a7b2709bf0e017bc998fa0b17365d64">AuthenticationLegacy</a>
+, <a class="el" href="#a23ab4a66cb9cf78bff3600bc8ed9fc2ca754286d0b66865408480aac35d088a43">AuthenticationMixed</a>
+, <a class="el" href="#a23ab4a66cb9cf78bff3600bc8ed9fc2ca9683c81629d8459ab20afce87bc8c0d9">AuthenticationStrict</a>
+ }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
@@ -154,6 +158,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a46befa8f09a40cb13dd6455c417e318f" id="r_a46befa8f09a40cb13dd6455c417e318f"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a46befa8f09a40cb13dd6455c417e318f">~Servatrice</a> () override</td></tr>
 <tr class="memitem:a02e7c7603e41e4819c3820e9336b3a3e" id="r_a02e7c7603e41e4819c3820e9336b3a3e"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a02e7c7603e41e4819c3820e9336b3a3e">initServer</a> ()</td></tr>
 <tr class="memitem:afa71b44d4623cf7f33bc2c87919d7d06" id="r_afa71b44d4623cf7f33bc2c87919d7d06"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, bool &gt;&#160;</td><td class="memItemRight"><a class="el" href="#afa71b44d4623cf7f33bc2c87919d7d06">getServerRequiredFeatureList</a> () const override</td></tr>
+<tr class="memitem:a6fbadbae3fb5bd1e67fee6107c3ea448" id="r_a6fbadbae3fb5bd1e67fee6107c3ea448"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a6fbadbae3fb5bd1e67fee6107c3ea448">requiresChallengeResponseAuth</a> () const override</td></tr>
+<tr class="memdesc:a6fbadbae3fb5bd1e67fee6107c3ea448"><td class="mdescLeft">&#160;</td><td class="mdescRight">True when only challenge-response logins are accepted (strict mode).  <br /></td></tr>
+<tr class="memitem:a94259c1488a355784244dc6e2a408905" id="r_a94259c1488a355784244dc6e2a408905"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#a94259c1488a355784244dc6e2a408905">getLegacyBackupKey</a> () const</td></tr>
+<tr class="memdesc:a94259c1488a355784244dc6e2a408905"><td class="mdescLeft">&#160;</td><td class="mdescRight">Key sealing legacy password backups, or empty when they are disabled.  <br /></td></tr>
+<tr class="memitem:a8b0a1bcf0e279c93e84ca1258e46c697" id="r_a8b0a1bcf0e279c93e84ca1258e46c697"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a8b0a1bcf0e279c93e84ca1258e46c697">getLegacyBackupTtlDays</a> () const</td></tr>
+<tr class="memdesc:a8b0a1bcf0e279c93e84ca1258e46c697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Days a legacy password backup may go unused before it is purged.  <br /></td></tr>
 <tr class="memitem:a335afae0a98b627e02eda9bad609092e" id="r_a335afae0a98b627e02eda9bad609092e"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a335afae0a98b627e02eda9bad609092e">getServerName</a> () const</td></tr>
 <tr class="memitem:a3fe5521517964f16849bcb93f75f156e" id="r_a3fe5521517964f16849bcb93f75f156e"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a3fe5521517964f16849bcb93f75f156e">getLoginMessage</a> () const override</td></tr>
 <tr class="memitem:a82b13ab7d1846bb7f1cee9cb25d0c114" id="r_a82b13ab7d1846bb7f1cee9cb25d0c114"><td class="memItemLeft"><a class="el" href="../../d4/d0c/structSessionEvent.html">SessionEvent</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a82b13ab7d1846bb7f1cee9cb25d0c114">getLoginSessionEvent</a> () const override</td></tr>
@@ -165,6 +175,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aedace4fc5ae6586325b93d8c1331e6c7" id="r_aedace4fc5ae6586325b93d8c1331e6c7"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#aedace4fc5ae6586325b93d8c1331e6c7">getEmailBlackList</a> () const</td></tr>
 <tr class="memitem:a824f04bdad8e8764f5b9dd0055347987" id="r_a824f04bdad8e8764f5b9dd0055347987"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a824f04bdad8e8764f5b9dd0055347987">getEmailWhiteList</a> () const</td></tr>
 <tr class="memitem:a818d9ef866b194a90a80328b4c2603e8" id="r_a818d9ef866b194a90a80328b4c2603e8"><td class="memItemLeft"><a class="el" href="#a6f20cb6b42e6ea4014827720ffc348eb">AuthenticationMethod</a>&#160;</td><td class="memItemRight"><a class="el" href="#a818d9ef866b194a90a80328b4c2603e8">getAuthenticationMethod</a> () const</td></tr>
+<tr class="memitem:a618a3179d6d25b70f503c4bba10faf39" id="r_a618a3179d6d25b70f503c4bba10faf39"><td class="memItemLeft"><a class="el" href="#a23ab4a66cb9cf78bff3600bc8ed9fc2c">AuthenticationStrictness</a>&#160;</td><td class="memItemRight"><a class="el" href="#a618a3179d6d25b70f503c4bba10faf39">getAuthenticationStrictness</a> () const</td></tr>
 <tr class="memitem:afb8a8af2dff3aaaece49c0236ead4d4d" id="r_afb8a8af2dff3aaaece49c0236ead4d4d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#afb8a8af2dff3aaaece49c0236ead4d4d">permitUnregisteredUsers</a> () const override</td></tr>
 <tr class="memitem:ae312c9ae86f2f0469774361c21ce9c55" id="r_ae312c9ae86f2f0469774361c21ce9c55"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae312c9ae86f2f0469774361c21ce9c55">getGameShouldPing</a> () const override</td></tr>
 <tr class="memitem:a380fb5a329b1ace329fce36704f6b675" id="r_a380fb5a329b1ace329fce36704f6b675"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a380fb5a329b1ace329fce36704f6b675">getClientIDRequiredEnabled</a> () const override</td></tr>
@@ -191,6 +202,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aee00d6a39d567ae7f1ada131cb7d116d" id="r_aee00d6a39d567ae7f1ada131cb7d116d"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aee00d6a39d567ae7f1ada131cb7d116d">getDeckShareMaxDecksPerShare</a> () const</td></tr>
 <tr class="memitem:a9e67eb698343b79d88049a9d5a6d78a1" id="r_a9e67eb698343b79d88049a9d5a6d78a1"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a9e67eb698343b79d88049a9d5a6d78a1">getDeckShareMaxSharesPerDay</a> () const</td></tr>
 <tr class="memitem:a1f3e139f4a7f15fa3e590c952e705e93" id="r_a1f3e139f4a7f15fa3e590c952e705e93"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a1f3e139f4a7f15fa3e590c952e705e93">getMaxUsersPerAddress</a> () const</td></tr>
+<tr class="memitem:aec12a3463f55965b38b54e7d7f944b24" id="r_aec12a3463f55965b38b54e7d7f944b24"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#aec12a3463f55965b38b54e7d7f944b24">getTrustedSources</a> () const</td></tr>
+<tr class="memdesc:aec12a3463f55965b38b54e7d7f944b24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raw security/trusted_sources list; match addresses against it with <a class="el" href="../../dc/deb/trusted__sources_8cpp.html#ace5a31174a9a9f4e38e17a1c628ba1c5" title="True if address is listed in the comma-separated trustedSources (security/trusted_sources).">isTrustedSource()</a>.  <br /></td></tr>
 <tr class="memitem:a0201ff028f10e23671941fddef338323" id="r_a0201ff028f10e23671941fddef338323"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a0201ff028f10e23671941fddef338323">getMessageCountingInterval</a> () const override</td></tr>
 <tr class="memitem:a2850a8246a0c9627df8c4fba7815920c" id="r_a2850a8246a0c9627df8c4fba7815920c"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a2850a8246a0c9627df8c4fba7815920c">getMaxMessageCountPerInterval</a> () const override</td></tr>
 <tr class="memitem:aa0d7ef03f18424135df70e6c8f9306f7" id="r_aa0d7ef03f18424135df70e6c8f9306f7"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aa0d7ef03f18424135df70e6c8f9306f7">getMaxMessageSizePerInterval</a> () const override</td></tr>
@@ -220,6 +233,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af5c6557743f04aad8a86fbe18480b358" id="r_af5c6557743f04aad8a86fbe18480b358"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af5c6557743f04aad8a86fbe18480b358">observeEventLoopStall</a> (const QString &amp;threadName, qint64 overshootMs)</td></tr>
 <tr class="memdesc:af5c6557743f04aad8a86fbe18480b358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Records one heartbeat overshoot and logs a single warning for it.  <br /></td></tr>
 <tr class="memitem:abcaff54e2bcc64d13fe46ce8c278fb23" id="r_abcaff54e2bcc64d13fe46ce8c278fb23"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abcaff54e2bcc64d13fe46ce8c278fb23">watchWorkerThread</a> (QThread *thread)</td></tr>
+<tr class="memitem:ad98a95650adfe1637daf519916b5f327" id="r_ad98a95650adfe1637daf519916b5f327"><td class="memItemLeft"><a class="el" href="../../da/dd7/classRateLimiter.html">RateLimiter</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ad98a95650adfe1637daf519916b5f327">getRateLimiter</a> ()</td></tr>
+<tr class="memitem:a94cadc3a74bac26412443025cc7baf56" id="r_a94cadc3a74bac26412443025cc7baf56"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a94cadc3a74bac26412443025cc7baf56">recordFailedLogin</a> (const QString &amp;ipAddress, const QString &amp;userName) override</td></tr>
+<tr class="memdesc:a94cadc3a74bac26412443025cc7baf56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Record a failed login attempt for the (address, username) pair; returns true if now locked out.  <br /></td></tr>
+<tr class="memitem:a6c95fc605e95d3e468824c78092513c5" id="r_a6c95fc605e95d3e468824c78092513c5"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a6c95fc605e95d3e468824c78092513c5">isLoginRateLimited</a> (const QString &amp;ipAddress, const QString &amp;userName) override</td></tr>
+<tr class="memdesc:a6c95fc605e95d3e468824c78092513c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the (address, username) pair is already locked out of logging in.  <br /></td></tr>
+<tr class="memitem:a6d4d2103888c73992213d1fdee00a2b8" id="r_a6d4d2103888c73992213d1fdee00a2b8"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a6d4d2103888c73992213d1fdee00a2b8">loginRateLimitRemainingSeconds</a> (const QString &amp;ipAddress, const QString &amp;userName) override</td></tr>
+<tr class="memdesc:a6d4d2103888c73992213d1fdee00a2b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seconds remaining before the login rate limit for the (address, username) pair lifts. Returns 0 if not limited.  <br /></td></tr>
+<tr class="memitem:a9c5849ca2dd3569febb4ac951899e717" id="r_a9c5849ca2dd3569febb4ac951899e717"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9c5849ca2dd3569febb4ac951899e717">clearFailedLogins</a> (const QString &amp;ipAddress, const QString &amp;userName) override</td></tr>
+<tr class="memdesc:a9c5849ca2dd3569febb4ac951899e717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear any failed-login lockout for the (address, username) pair, e.g. after a successful login.  <br /></td></tr>
+<tr class="memitem:a0c030ebe66a3cbe9e303007a35148f3f" id="r_a0c030ebe66a3cbe9e303007a35148f3f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0c030ebe66a3cbe9e303007a35148f3f">recordRegistrationAttempt</a> (const QString &amp;ipAddress)</td></tr>
+<tr class="memitem:a4cdccf9cd636e2df52ebad5191581425" id="r_a4cdccf9cd636e2df52ebad5191581425"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a4cdccf9cd636e2df52ebad5191581425">recordForgotPasswordAttempt</a> (const QString &amp;ipAddress)</td></tr>
+<tr class="memitem:a5591bdb93ea3e67b3fa0639e028792eb" id="r_a5591bdb93ea3e67b3fa0639e028792eb"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a5591bdb93ea3e67b3fa0639e028792eb">isRateLimitExempt</a> (const QString &amp;ipAddress) const</td></tr>
+<tr class="memdesc:a5591bdb93ea3e67b3fa0639e028792eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">True when the address is in security/trusted_sources and therefore exempt from per-address limits.  <br /></td></tr>
+<tr class="memitem:a91ea26265434892b96486b31f01cdfe9" id="r_a91ea26265434892b96486b31f01cdfe9"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a91ea26265434892b96486b31f01cdfe9">getMaxLoginAttemptsPerIp</a> () const</td></tr>
+<tr class="memitem:a3dcb7cbd7900ec26517892b53706d488" id="r_a3dcb7cbd7900ec26517892b53706d488"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a3dcb7cbd7900ec26517892b53706d488">getLoginAttemptWindowSeconds</a> () const</td></tr>
+<tr class="memitem:a34f7167566979981f48eb9853824f542" id="r_a34f7167566979981f48eb9853824f542"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a34f7167566979981f48eb9853824f542">getMaxRegistrationsPerIp</a> () const</td></tr>
+<tr class="memitem:ae6190e020540638552105b1ac7f8230e" id="r_ae6190e020540638552105b1ac7f8230e"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ae6190e020540638552105b1ac7f8230e">getRegistrationWindowSeconds</a> () const</td></tr>
+<tr class="memitem:a474eac8fc3806aa1a1ce8c335547df43" id="r_a474eac8fc3806aa1a1ce8c335547df43"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a474eac8fc3806aa1a1ce8c335547df43">getMaxForgotPasswordRequestsPerIp</a> () const</td></tr>
+<tr class="memitem:a18160e0679835f5779f0318d11189d7f" id="r_a18160e0679835f5779f0318d11189d7f"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a18160e0679835f5779f0318d11189d7f">getForgotPasswordWindowSeconds</a> () const</td></tr>
 <tr class="memitem:a98c888e65b5195b96454ae99d36edb67" id="r_a98c888e65b5195b96454ae99d36edb67"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a98c888e65b5195b96454ae99d36edb67">islConnectionExists</a> (int _serverId) const</td></tr>
 <tr class="memitem:afce52a443698f524f6ab1f5c47791c90" id="r_afce52a443698f524f6ab1f5c47791c90"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afce52a443698f524f6ab1f5c47791c90">addIslInterface</a> (int _serverId, <a class="el" href="../../d0/de8/classIslInterface.html">IslInterface</a> *interface)</td></tr>
 <tr class="memitem:a97e8cff18a276937542961b68c538238" id="r_a97e8cff18a276937542961b68c538238"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a97e8cff18a276937542961b68c538238">removeIslInterface</a> (int _serverId)</td></tr>
@@ -279,6 +311,7 @@ Private Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a68e0c50f6eb27af2efd8a3d6ae39882f" id="r_a68e0c50f6eb27af2efd8a3d6ae39882f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a68e0c50f6eb27af2efd8a3d6ae39882f">statusUpdate</a> ()</td></tr>
+<tr class="memitem:a017e4a5114f59f1f91b07c72d6603989" id="r_a017e4a5114f59f1f91b07c72d6603989"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a017e4a5114f59f1f91b07c72d6603989">sweepLegacyBackups</a> ()</td></tr>
 <tr class="memitem:a284967101fe62a3eaf29dd99f9f084da" id="r_a284967101fe62a3eaf29dd99f9f084da"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a284967101fe62a3eaf29dd99f9f084da">shutdownTimeout</a> ()</td></tr>
 <tr class="memitem:a541ca5f116fbded03d5c0b54fefdd8e9" id="r_a541ca5f116fbded03d5c0b54fefdd8e9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a541ca5f116fbded03d5c0b54fefdd8e9">cleanupExpiredDeckShares</a> ()</td></tr>
 </table><table class="memberdecls">
@@ -312,6 +345,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a4b500b146d4c98548493e16752c02921" id="r_a4b500b146d4c98548493e16752c02921"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#a4b500b146d4c98548493e16752c02921">pingClock</a></td></tr>
 <tr class="memitem:ad63ae85829a4e7e8bf20702157e43530" id="r_ad63ae85829a4e7e8bf20702157e43530"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#ad63ae85829a4e7e8bf20702157e43530">statusUpdateClock</a></td></tr>
 <tr class="memitem:aedb91aef9ceb3be18ed46f0686e4fdf9" id="r_aedb91aef9ceb3be18ed46f0686e4fdf9"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#aedb91aef9ceb3be18ed46f0686e4fdf9">deckShareCleanupClock</a></td></tr>
+<tr class="memitem:aa235d8e2283ac367e68b3b60e61eb7a2" id="r_aa235d8e2283ac367e68b3b60e61eb7a2"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#aa235d8e2283ac367e68b3b60e61eb7a2">legacyBackupSweepClock</a></td></tr>
 <tr class="memitem:aef1eed2de0478d142ce4d26850f59773" id="r_aef1eed2de0478d142ce4d26850f59773"><td class="memItemLeft"><a class="el" href="../../d2/dcd/classServatrice__GameServer.html">Servatrice_GameServer</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aef1eed2de0478d142ce4d26850f59773">gameServer</a></td></tr>
 <tr class="memitem:ac098e504ae78d781a6832a98fb4e32a2" id="r_ac098e504ae78d781a6832a98fb4e32a2"><td class="memItemLeft"><a class="el" href="../../df/daa/classServatrice__WebsocketGameServer.html">Servatrice_WebsocketGameServer</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ac098e504ae78d781a6832a98fb4e32a2">websocketGameServer</a></td></tr>
 <tr class="memitem:aaec8c775029e907aa6cbaded1f66466a" id="r_aaec8c775029e907aa6cbaded1f66466a"><td class="memItemLeft"><a class="el" href="../../df/d52/classServatrice__IslServer.html">Servatrice_IslServer</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aaec8c775029e907aa6cbaded1f66466a">islServer</a></td></tr>
@@ -344,6 +378,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a82d64fd8d3bde405276dd84416818f17" id="r_a82d64fd8d3bde405276dd84416818f17"><td class="memItemLeft">QMutex&#160;</td><td class="memItemRight"><a class="el" href="#a82d64fd8d3bde405276dd84416818f17">reportStatsMutex</a></td></tr>
 <tr class="memitem:affb0f0b3598b1f6a17eb5c072cdd3e6c" id="r_affb0f0b3598b1f6a17eb5c072cdd3e6c"><td class="memItemLeft">QDateTime&#160;</td><td class="memItemRight"><a class="el" href="#affb0f0b3598b1f6a17eb5c072cdd3e6c">reportStatsTimestamp</a></td></tr>
 <tr class="memitem:a26608ace4e6cb95c2706ee3f6595685e" id="r_a26608ace4e6cb95c2706ee3f6595685e"><td class="memItemLeft">std::shared_ptr&lt; const <a class="el" href="../../d9/dcb/structResponse__ReportStats.html">Response_ReportStats</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a26608ace4e6cb95c2706ee3f6595685e">reportStatsCache</a></td></tr>
+<tr class="memitem:a60d173a6e347749bfbc96557293dc131" id="r_a60d173a6e347749bfbc96557293dc131"><td class="memItemLeft"><a class="el" href="../../da/dd7/classRateLimiter.html">RateLimiter</a>&#160;</td><td class="memItemRight"><a class="el" href="#a60d173a6e347749bfbc96557293dc131">rateLimiter</a></td></tr>
 <tr class="memitem:a5c8e76f466bb722043f3d781c34397c5" id="r_a5c8e76f466bb722043f3d781c34397c5"><td class="memItemLeft">QMutex&#160;</td><td class="memItemRight"><a class="el" href="#a5c8e76f466bb722043f3d781c34397c5">serverListMutex</a></td></tr>
 <tr class="memitem:a19712211937048a6082dfc95058b986b" id="r_a19712211937048a6082dfc95058b986b"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d4/d8d/classServerProperties.html">ServerProperties</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a19712211937048a6082dfc95058b986b">serverList</a></td></tr>
 <tr class="memitem:aae79e1c143779140510668464e779a3b" id="r_aae79e1c143779140510668464e779a3b"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; int, <a class="el" href="../../d0/de8/classIslInterface.html">IslInterface</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aae79e1c143779140510668464e779a3b">islInterfaces</a></td></tr>
@@ -363,7 +398,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a33c39260d6154e7f2762fd1f42ea5574 pro_slots_classServer" id="r_a33c39260d6154e7f2762fd1f42ea5574"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../db/d00/classServer.html#a33c39260d6154e7f2762fd1f42ea5574">externalUserLeft</a> (const QString &amp;userName)</td></tr>
 <tr class="memitem:a6b4bb65d6a6dc76910bf3d0e9621e6dc pro_slots_classServer" id="r_a6b4bb65d6a6dc76910bf3d0e9621e6dc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../db/d00/classServer.html#a6b4bb65d6a6dc76910bf3d0e9621e6dc">externalRoomUserJoined</a> (int roomId, const <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &amp;userInfo)</td></tr>
 <tr class="memitem:ab4a77e51a2862760d993d5609e285de7 pro_slots_classServer" id="r_ab4a77e51a2862760d993d5609e285de7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../db/d00/classServer.html#ab4a77e51a2862760d993d5609e285de7">externalRoomUserLeft</a> (int roomId, const QString &amp;userName)</td></tr>
-<tr class="memitem:a043a9eed1cd3e437bd525b598cb9b495 pro_slots_classServer" id="r_a043a9eed1cd3e437bd525b598cb9b495"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../db/d00/classServer.html#a043a9eed1cd3e437bd525b598cb9b495">externalRoomSay</a> (int roomId, const QString &amp;userName, const QString &amp;message)</td></tr>
+<tr class="memitem:afb7347ac37f4255e2f667b29c02d7e21 pro_slots_classServer" id="r_afb7347ac37f4255e2f667b29c02d7e21"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../db/d00/classServer.html#afb7347ac37f4255e2f667b29c02d7e21">externalRoomSay</a> (int roomId, const QString &amp;userName, const QString &amp;message, const QString &amp;channelId)</td></tr>
 <tr class="memitem:a639700317f5c1508040b64bb7c43a8e0 pro_slots_classServer" id="r_a639700317f5c1508040b64bb7c43a8e0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../db/d00/classServer.html#a639700317f5c1508040b64bb7c43a8e0">externalRoomRemoveMessages</a> (int roomId, const QString &amp;userName, int amount)</td></tr>
 <tr class="memitem:afd0bbd0176df65632d4f8ae6cb805827 pro_slots_classServer" id="r_afd0bbd0176df65632d4f8ae6cb805827"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../db/d00/classServer.html#afd0bbd0176df65632d4f8ae6cb805827">externalRoomGameListChanged</a> (int roomId, const <a class="el" href="../../d4/dbe/structServerInfo__Game.html">ServerInfo_Game</a> &amp;gameInfo)</td></tr>
 <tr class="memitem:a788482387416335455df80db85ea8b41 pro_slots_classServer" id="r_a788482387416335455df80db85ea8b41"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../db/d00/classServer.html#a788482387416335455df80db85ea8b41">externalJoinGameCommandReceived</a> (const <a class="el" href="../../df/da6/structCommand__JoinGame.html">Command_JoinGame</a> &amp;cmd, int cmdId, int roomId, int serverId, qint64 sessionId)</td></tr>
@@ -395,6 +430,25 @@ Additional Inherited Members</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6f20cb6b42e6ea4014827720ffc348eba849ac045264edda9b5c09ba28a23db88" name="a6f20cb6b42e6ea4014827720ffc348eba849ac045264edda9b5c09ba28a23db88"></a>AuthenticationNone&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6f20cb6b42e6ea4014827720ffc348ebaa0fbb76ffe4deea1684f7456fa69ce13" name="a6f20cb6b42e6ea4014827720ffc348ebaa0fbb76ffe4deea1684f7456fa69ce13"></a>AuthenticationSql&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6f20cb6b42e6ea4014827720ffc348eba6b1009e489ff5f093edc3e46fd5bfdc1" name="a6f20cb6b42e6ea4014827720ffc348eba6b1009e489ff5f093edc3e46fd5bfdc1"></a>AuthenticationPassword&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a23ab4a66cb9cf78bff3600bc8ed9fc2c" name="a23ab4a66cb9cf78bff3600bc8ed9fc2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23ab4a66cb9cf78bff3600bc8ed9fc2c">&#9670;&#160;</a></span>AuthenticationStrictness</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a23ab4a66cb9cf78bff3600bc8ed9fc2c">Servatrice::AuthenticationStrictness</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a23ab4a66cb9cf78bff3600bc8ed9fc2ca3a7b2709bf0e017bc998fa0b17365d64" name="a23ab4a66cb9cf78bff3600bc8ed9fc2ca3a7b2709bf0e017bc998fa0b17365d64"></a>AuthenticationLegacy&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23ab4a66cb9cf78bff3600bc8ed9fc2ca754286d0b66865408480aac35d088a43" name="a23ab4a66cb9cf78bff3600bc8ed9fc2ca754286d0b66865408480aac35d088a43"></a>AuthenticationMixed&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23ab4a66cb9cf78bff3600bc8ed9fc2ca9683c81629d8459ab20afce87bc8c0d9" name="a23ab4a66cb9cf78bff3600bc8ed9fc2ca9683c81629d8459ab20afce87bc8c0d9"></a>AuthenticationStrict&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -655,6 +709,44 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a9c5849ca2dd3569febb4ac951899e717" name="a9c5849ca2dd3569febb4ac951899e717"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c5849ca2dd3569febb4ac951899e717">&#9670;&#160;</a></span>clearFailedLogins()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servatrice::clearFailedLogins </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>ipAddress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear any failed-login lockout for the (address, username) pair, e.g. after a successful login. </p>
+
+<p>Reimplemented from <a class="el" href="../../db/d00/classServer.html#a8bb6cd2411311ff0c85130d58337d94e">Server</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a9c5849ca2dd3569febb4ac951899e717_cgraph.svg" width="466" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a2e4e2e38c7fc2794ae2515b73576169c" name="a2e4e2e38c7fc2794ae2515b73576169c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e4e2e38c7fc2794ae2515b73576169c">&#9670;&#160;</a></span>doSendIslMessage()</h2>
 
@@ -734,6 +826,28 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a0e26759c6ee6e95f40f43a3fab536c39_icgraph.svg" width="430" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a618a3179d6d25b70f503c4bba10faf39" name="a618a3179d6d25b70f503c4bba10faf39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618a3179d6d25b70f503c4bba10faf39">&#9670;&#160;</a></span>getAuthenticationStrictness()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a23ab4a66cb9cf78bff3600bc8ed9fc2c">Servatrice::AuthenticationStrictness</a> Servatrice::getAuthenticationStrictness </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a618a3179d6d25b70f503c4bba10faf39_icgraph.svg" width="100%" height="592"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1497,6 +1611,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a18160e0679835f5779f0318d11189d7f" name="a18160e0679835f5779f0318d11189d7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18160e0679835f5779f0318d11189d7f">&#9670;&#160;</a></span>getForgotPasswordWindowSeconds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::getForgotPasswordWindowSeconds </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a18160e0679835f5779f0318d11189d7f_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="ae312c9ae86f2f0469774361c21ce9c55" name="ae312c9ae86f2f0469774361c21ce9c55"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae312c9ae86f2f0469774361c21ce9c55">&#9670;&#160;</a></span>getGameShouldPing()</h2>
 
@@ -1676,6 +1812,76 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a94259c1488a355784244dc6e2a408905" name="a94259c1488a355784244dc6e2a408905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94259c1488a355784244dc6e2a408905">&#9670;&#160;</a></span>getLegacyBackupKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray Servatrice::getLegacyBackupKey </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Key sealing legacy password backups, or empty when they are disabled. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a94259c1488a355784244dc6e2a408905_icgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8b0a1bcf0e279c93e84ca1258e46c697" name="a8b0a1bcf0e279c93e84ca1258e46c697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b0a1bcf0e279c93e84ca1258e46c697">&#9670;&#160;</a></span>getLegacyBackupTtlDays()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::getLegacyBackupTtlDays </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Days a legacy password backup may go unused before it is purged. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a8b0a1bcf0e279c93e84ca1258e46c697_icgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a3dcb7cbd7900ec26517892b53706d488" name="a3dcb7cbd7900ec26517892b53706d488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dcb7cbd7900ec26517892b53706d488">&#9670;&#160;</a></span>getLoginAttemptWindowSeconds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::getLoginAttemptWindowSeconds </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a3dcb7cbd7900ec26517892b53706d488_icgraph.svg" width="486" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a3fe5521517964f16849bcb93f75f156e" name="a3fe5521517964f16849bcb93f75f156e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3fe5521517964f16849bcb93f75f156e">&#9670;&#160;</a></span>getLoginMessage()</h2>
 
@@ -1784,6 +1990,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a474eac8fc3806aa1a1ce8c335547df43" name="a474eac8fc3806aa1a1ce8c335547df43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a474eac8fc3806aa1a1ce8c335547df43">&#9670;&#160;</a></span>getMaxForgotPasswordRequestsPerIp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::getMaxForgotPasswordRequestsPerIp </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a474eac8fc3806aa1a1ce8c335547df43_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a28dcc3bf4a1b391526eee02945832c2b" name="a28dcc3bf4a1b391526eee02945832c2b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28dcc3bf4a1b391526eee02945832c2b">&#9670;&#160;</a></span>getMaxGameInactivityTime()</h2>
 
@@ -1835,6 +2063,28 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../db/d00/classServer.html#a35e3a09eb7eed52ee5da91dc4960ef38">Server</a>.</p>
+
+</div>
+</div>
+<a id="a91ea26265434892b96486b31f01cdfe9" name="a91ea26265434892b96486b31f01cdfe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91ea26265434892b96486b31f01cdfe9">&#9670;&#160;</a></span>getMaxLoginAttemptsPerIp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::getMaxLoginAttemptsPerIp </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a91ea26265434892b96486b31f01cdfe9_icgraph.svg" width="520" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -1916,6 +2166,28 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../db/d00/classServer.html#a4beeb8a97da9ab991b527bde2bb1b225">Server</a>.</p>
+
+</div>
+</div>
+<a id="a34f7167566979981f48eb9853824f542" name="a34f7167566979981f48eb9853824f542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34f7167566979981f48eb9853824f542">&#9670;&#160;</a></span>getMaxRegistrationsPerIp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::getMaxRegistrationsPerIp </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a34f7167566979981f48eb9853824f542_icgraph.svg" width="100%" height="455"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -2245,6 +2517,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ad98a95650adfe1637daf519916b5f327" name="ad98a95650adfe1637daf519916b5f327"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad98a95650adfe1637daf519916b5f327">&#9670;&#160;</a></span>getRateLimiter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/dd7/classRateLimiter.html">RateLimiter</a> * Servatrice::getRateLimiter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_ad98a95650adfe1637daf519916b5f327_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a36dcac972d42a827830025d814a8a468" name="a36dcac972d42a827830025d814a8a468"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36dcac972d42a827830025d814a8a468">&#9670;&#160;</a></span>getRegistrationEnabled()</h2>
 
@@ -2263,6 +2565,28 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a36dcac972d42a827830025d814a8a468_icgraph.svg" width="644" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae6190e020540638552105b1ac7f8230e" name="ae6190e020540638552105b1ac7f8230e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6190e020540638552105b1ac7f8230e">&#9670;&#160;</a></span>getRegistrationWindowSeconds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::getRegistrationWindowSeconds </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_ae6190e020540638552105b1ac7f8230e_icgraph.svg" width="100%" height="455"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2690,6 +3014,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aec12a3463f55965b38b54e7d7f944b24" name="aec12a3463f55965b38b54e7d7f944b24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec12a3463f55965b38b54e7d7f944b24">&#9670;&#160;</a></span>getTrustedSources()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Servatrice::getTrustedSources </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Raw security/trusted_sources list; match addresses against it with <a class="el" href="../../dc/deb/trusted__sources_8cpp.html#ace5a31174a9a9f4e38e17a1c628ba1c5" title="True if address is listed in the comma-separated trustedSources (security/trusted_sources).">isTrustedSource()</a>. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_aec12a3463f55965b38b54e7d7f944b24_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a0a4c5ab9b74804878df05f036e84318e" name="a0a4c5ab9b74804878df05f036e84318e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a4c5ab9b74804878df05f036e84318e">&#9670;&#160;</a></span>getUsersWithAddress()</h2>
 
@@ -2813,6 +3161,112 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a98c888e65b5195b96454ae99d36edb67_icgraph.svg" width="410" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a6c95fc605e95d3e468824c78092513c5" name="a6c95fc605e95d3e468824c78092513c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c95fc605e95d3e468824c78092513c5">&#9670;&#160;</a></span>isLoginRateLimited()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice::isLoginRateLimited </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>ipAddress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if the (address, username) pair is already locked out of logging in. </p>
+<p>Consulted before any authentication work (database round trip, password verification) so a blocked pair cannot burn server CPU per attempt. </p>
+
+<p>Reimplemented from <a class="el" href="../../db/d00/classServer.html#af2d74a65573e3093c84ce64474b1a7c8">Server</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a6c95fc605e95d3e468824c78092513c5_cgraph.svg" width="100%" height="516"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a5591bdb93ea3e67b3fa0639e028792eb" name="a5591bdb93ea3e67b3fa0639e028792eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5591bdb93ea3e67b3fa0639e028792eb">&#9670;&#160;</a></span>isRateLimitExempt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice::isRateLimitExempt </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>ipAddress</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>True when the address is in security/trusted_sources and therefore exempt from per-address limits. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a5591bdb93ea3e67b3fa0639e028792eb_cgraph.svg" width="492" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a5591bdb93ea3e67b3fa0639e028792eb_icgraph.svg" width="100%" height="559"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a6d4d2103888c73992213d1fdee00a2b8" name="a6d4d2103888c73992213d1fdee00a2b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d4d2103888c73992213d1fdee00a2b8">&#9670;&#160;</a></span>loginRateLimitRemainingSeconds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice::loginRateLimitRemainingSeconds </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>ipAddress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Seconds remaining before the login rate limit for the (address, username) pair lifts. Returns 0 if not limited. </p>
+
+<p>Reimplemented from <a class="el" href="../../db/d00/classServer.html#a3a14067401805971b9023e4efc7d72b0">Server</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a6d4d2103888c73992213d1fdee00a2b8_cgraph.svg" width="100%" height="479"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -3062,6 +3516,99 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a94cadc3a74bac26412443025cc7baf56" name="a94cadc3a74bac26412443025cc7baf56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94cadc3a74bac26412443025cc7baf56">&#9670;&#160;</a></span>recordFailedLogin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice::recordFailedLogin </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>ipAddress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Record a failed login attempt for the (address, username) pair; returns true if now locked out. </p>
+<p>Keyed by pair so a successful login as one user cannot wipe out another user's failure history from the same address (e.g. a guest login or the attacker's own account clearing the way for further guessing). </p>
+
+<p>Reimplemented from <a class="el" href="../../db/d00/classServer.html#afef3e90e126a62dcf54038d3b245b9d2">Server</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a94cadc3a74bac26412443025cc7baf56_cgraph.svg" width="100%" height="516"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a4cdccf9cd636e2df52ebad5191581425" name="a4cdccf9cd636e2df52ebad5191581425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cdccf9cd636e2df52ebad5191581425">&#9670;&#160;</a></span>recordForgotPasswordAttempt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice::recordForgotPasswordAttempt </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>ipAddress</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a4cdccf9cd636e2df52ebad5191581425_cgraph.svg" width="100%" height="461"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a4cdccf9cd636e2df52ebad5191581425_icgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a0c030ebe66a3cbe9e303007a35148f3f" name="a0c030ebe66a3cbe9e303007a35148f3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c030ebe66a3cbe9e303007a35148f3f">&#9670;&#160;</a></span>recordRegistrationAttempt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice::recordRegistrationAttempt </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>ipAddress</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a0c030ebe66a3cbe9e303007a35148f3f_cgraph.svg" width="100%" height="461"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a0c030ebe66a3cbe9e303007a35148f3f_icgraph.svg" width="100%" height="449"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a97e8cff18a276937542961b68c538238" name="a97e8cff18a276937542961b68c538238"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97e8cff18a276937542961b68c538238">&#9670;&#160;</a></span>removeIslInterface()</h2>
 
@@ -3080,6 +3627,40 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a97e8cff18a276937542961b68c538238_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a6fbadbae3fb5bd1e67fee6107c3ea448" name="a6fbadbae3fb5bd1e67fee6107c3ea448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fbadbae3fb5bd1e67fee6107c3ea448">&#9670;&#160;</a></span>requiresChallengeResponseAuth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice::requiresChallengeResponseAuth </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True when only challenge-response logins are accepted (strict mode). </p>
+
+<p>Reimplemented from <a class="el" href="../../db/d00/classServer.html#a2399d5c9bf93d24178259bf77507b24b">Server</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a6fbadbae3fb5bd1e67fee6107c3ea448_cgraph.svg" width="486" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -3219,6 +3800,41 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a68e0c50f6eb27af2efd8a3d6ae39882f_icgraph.svg" width="400" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a017e4a5114f59f1f91b07c72d6603989" name="a017e4a5114f59f1f91b07c72d6603989"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a017e4a5114f59f1f91b07c72d6603989">&#9670;&#160;</a></span>sweepLegacyBackups</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servatrice::sweepLegacyBackups </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a017e4a5114f59f1f91b07c72d6603989_cgraph.svg" width="100%" height="590"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d0e/classServatrice_a017e4a5114f59f1f91b07c72d6603989_icgraph.svg" width="456" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -3562,6 +4178,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aa235d8e2283ac367e68b3b60e61eb7a2" name="aa235d8e2283ac367e68b3b60e61eb7a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa235d8e2283ac367e68b3b60e61eb7a2">&#9670;&#160;</a></span>legacyBackupSweepClock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTimer* Servatrice::legacyBackupSweepClock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4372f81bcca193208320bf4239e06b02" name="a4372f81bcca193208320bf4239e06b02"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4372f81bcca193208320bf4239e06b02">&#9670;&#160;</a></span>loginMessage</h2>
 
@@ -3727,6 +4365,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QTimer* Servatrice::pingClock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a60d173a6e347749bfbc96557293dc131" name="a60d173a6e347749bfbc96557293dc131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60d173a6e347749bfbc96557293dc131">&#9670;&#160;</a></span>rateLimiter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/dd7/classRateLimiter.html">RateLimiter</a> Servatrice::rateLimiter</td>
         </tr>
       </table>
   </td>

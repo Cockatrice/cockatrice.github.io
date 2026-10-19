@@ -5,9 +5,11 @@ var classAbstractCardItem =
     [ "animationEvent", "d4/db9/classAbstractCardItem.html#a6f5127715389ccf6c832e9aa35230c34", null ],
     [ "boundingRect", "d4/db9/classAbstractCardItem.html#a54d2423abee9a6f7388f402ae95f0345", null ],
     [ "cacheBgColor", "d4/db9/classAbstractCardItem.html#a77d6b404581e1b80d59b7ed37b7ab825", null ],
+    [ "cancelPendingSelectionCollapse", "d4/db9/classAbstractCardItem.html#ac5ed9426a97a21ecacf47ea0e029dbd4", null ],
     [ "cardShiftClicked", "d4/db9/classAbstractCardItem.html#a460608f3aa54157d5ed6bb9d83c5da3c", null ],
     [ "deleteCardInfoPopup", "d4/db9/classAbstractCardItem.html#a651aa8cd61e98cccfcfdfc4655b3e6f5", null ],
     [ "deleteCardInfoPopup", "d4/db9/classAbstractCardItem.html#a366ddbdae8174d6442e5351a8a2afd26", null ],
+    [ "doubleClickActsOnSelection", "d4/db9/classAbstractCardItem.html#a73ed7017cd9fd8a43569b55f93bd2eac", null ],
     [ "getCard", "d4/db9/classAbstractCardItem.html#aa79097093eccf85abf0459c37765d2d3", null ],
     [ "getCardInfo", "d4/db9/classAbstractCardItem.html#aeda9d0b5eb73ed0e3076a1390e5d8e99", null ],
     [ "getCardRef", "d4/db9/classAbstractCardItem.html#a867345f4b0ed5ae5f33a274ba8dc829d", null ],
@@ -53,7 +55,9 @@ var classAbstractCardItem =
     [ "facedown", "d4/db9/classAbstractCardItem.html#a8785be49da76f32064b120986226f350", null ],
     [ "id", "d4/db9/classAbstractCardItem.html#a5d7bd8300dcb3a0ce3f93cf32add7f17", null ],
     [ "isHovered", "d4/db9/classAbstractCardItem.html#aeb90281dc3d536d4b0d6e456c068f551", null ],
+    [ "pendingSelectionCollapse", "d4/db9/classAbstractCardItem.html#a4547f9f81d50f113544c50f2c08ab309", null ],
     [ "realZValue", "d4/db9/classAbstractCardItem.html#a010af5327e07d8f9e42249d8e30527b5", null ],
+    [ "selectionCollapseGeneration", "d4/db9/classAbstractCardItem.html#a8f879e584e566f97be485daf2a9f87ba", null ],
     [ "tapAngle", "d4/db9/classAbstractCardItem.html#af6fab7ea1121d2f47b1a3f7781a401a1", null ],
     [ "tapped", "d4/db9/classAbstractCardItem.html#a1fcff3c746ac4b30df338673f1a0aab4", null ]
 ];

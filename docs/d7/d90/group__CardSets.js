@@ -26,6 +26,7 @@ var group__CardSets =
       [ "setEnabled", "d6/d3d/classCardSet.html#a7a8b69b1e7d68bfc8e49ec8259f6185a", null ],
       [ "setEnabledInMemory", "d6/d3d/classCardSet.html#a4f47714fd6b160ab13f059ccf0d40f90", null ],
       [ "setIsKnown", "d6/d3d/classCardSet.html#a45cc252c2f6872a39cb4e3f44f641455", null ],
+      [ "setIsKnownInMemory", "d6/d3d/classCardSet.html#aa72bbb8e697c75940d50d2a6b6b2f884", null ],
       [ "setLongName", "d6/d3d/classCardSet.html#af13b91683a4f20c89c89de6117025d48", null ],
       [ "setPriority", "d6/d3d/classCardSet.html#adc85323546749367b812203e3cea65f9", null ],
       [ "setReleaseDate", "d6/d3d/classCardSet.html#a793a70ea197c0889741189391b548142", null ],
@@ -48,13 +49,12 @@ var group__CardSets =
         [ "operator()", "da/d79/classCardSetList_1_1KeyCompareFunctor.html#a1b88f914b866e422dbb105a5e85c4cf3", null ]
       ] ],
       [ "defaultSort", "dd/d65/classCardSetList.html#a09f8de40f81a891afb31f120bb1a3756", null ],
-      [ "enableAll", "dd/d65/classCardSetList.html#af806779e88aba0190ddf0853695e344f", null ],
-      [ "enableAllUnknown", "dd/d65/classCardSetList.html#addb824d2ac56c04db1f7ae173c922461", null ],
+      [ "enableAllBatched", "dd/d65/classCardSetList.html#a2e0cf8900a567273187a2a8ea4deea3a", null ],
+      [ "enableAllUnknownBatched", "dd/d65/classCardSetList.html#a1bef5d0f865d1e013acf5046f6b87e80", null ],
       [ "getEnabledSetsNum", "dd/d65/classCardSetList.html#acd27b64e6dbc14a681de77b7efbf71f8", null ],
       [ "getUnknownSetsNames", "dd/d65/classCardSetList.html#a5639635454f688ecd0d64d19cca375bc", null ],
       [ "getUnknownSetsNum", "dd/d65/classCardSetList.html#ae8421f26c425de4ed7646faa78f333dd", null ],
-      [ "guessSortKeys", "dd/d65/classCardSetList.html#a2e944caa63a529df481ad3fff4607bd9", null ],
-      [ "markAllAsKnown", "dd/d65/classCardSetList.html#aae296b1d662ebf1e41e78a0d0d8ed2a7", null ],
+      [ "markAllAsKnownBatched", "dd/d65/classCardSetList.html#a9b7d8223e722b0850e3ab6108e03e233", null ],
       [ "sortByKey", "dd/d65/classCardSetList.html#a63243efba23b24dcc46ecbf1e1f9c955", null ]
     ] ]
 ];

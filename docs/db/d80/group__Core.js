@@ -1,5 +1,6 @@
 var group__Core =
 [
+    [ "crash_reporter.h", "d4/d06/crash__reporter_8h.html", null ],
     [ "sound_engine.h", "dc/d9b/sound__engine_8h.html", null ],
     [ "key_signals.h", "d4/d91/key__signals_8h.html", null ],
     [ "logger.h", "d1/d8c/logger_8h.html", null ],

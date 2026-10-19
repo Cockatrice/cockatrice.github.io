@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -186,6 +186,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a59613b084d526c1adfd5dd4524269629" id="r_a59613b084d526c1adfd5dd4524269629"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a59613b084d526c1adfd5dd4524269629">getFaceDown</a> () const</td></tr>
 <tr class="memitem:a19893fb15956d10964a8abf013c64501" id="r_a19893fb15956d10964a8abf013c64501"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a19893fb15956d10964a8abf013c64501">setFaceDown</a> (bool _facedown)</td></tr>
 <tr class="memitem:ad8a167428961aa8ed0b526766d024870" id="r_ad8a167428961aa8ed0b526766d024870"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad8a167428961aa8ed0b526766d024870">processHoverEvent</a> ()</td></tr>
+<tr class="memitem:ac5ed9426a97a21ecacf47ea0e029dbd4" id="r_ac5ed9426a97a21ecacf47ea0e029dbd4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac5ed9426a97a21ecacf47ea0e029dbd4">cancelPendingSelectionCollapse</a> ()</td></tr>
+<tr class="memdesc:ac5ed9426a97a21ecacf47ea0e029dbd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop a pending collapse and disarm any deferred collapse timer.  <br /></td></tr>
 <tr class="memitem:a651aa8cd61e98cccfcfdfc4655b3e6f5" id="r_a651aa8cd61e98cccfcfdfc4655b3e6f5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a651aa8cd61e98cccfcfdfc4655b3e6f5">deleteCardInfoPopup</a> ()</td></tr>
 <tr class="memitem:a6f5127715389ccf6c832e9aa35230c34" id="r_a6f5127715389ccf6c832e9aa35230c34"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a6f5127715389ccf6c832e9aa35230c34">animationEvent</a> () override</td></tr>
 <tr class="memdesc:a6f5127715389ccf6c832e9aa35230c34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default: no per-tick animation. Subclasses override to animate.  <br /></td></tr>
@@ -207,6 +209,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a3d9a36b80fa9c22798a11324ccb4c0dd" id="r_a3d9a36b80fa9c22798a11324ccb4c0dd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3d9a36b80fa9c22798a11324ccb4c0dd">mouseReleaseEvent</a> (QGraphicsSceneMouseEvent *event) override</td></tr>
 <tr class="memitem:a1ddf7fc3378ac56b26131c76bdc150e3" id="r_a1ddf7fc3378ac56b26131c76bdc150e3"><td class="memItemLeft">QVariant&#160;</td><td class="memItemRight"><a class="el" href="#a1ddf7fc3378ac56b26131c76bdc150e3">itemChange</a> (QGraphicsItem::GraphicsItemChange change, const QVariant &amp;value) override</td></tr>
 <tr class="memitem:a77d6b404581e1b80d59b7ed37b7ab825" id="r_a77d6b404581e1b80d59b7ed37b7ab825"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a77d6b404581e1b80d59b7ed37b7ab825">cacheBgColor</a> ()</td></tr>
+<tr class="memitem:a73ed7017cd9fd8a43569b55f93bd2eac" id="r_a73ed7017cd9fd8a43569b55f93bd2eac"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a73ed7017cd9fd8a43569b55f93bd2eac">doubleClickActsOnSelection</a> () const</td></tr>
+<tr class="memdesc:a73ed7017cd9fd8a43569b55f93bd2eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether a double-click on this item acts on the whole selection.  <br /></td></tr>
 <tr class="inherit_header pro_methods_classArrowTarget"><td colspan="2">Protected Member Functions inherited from <a class="el" href="../../d9/dce/classArrowTarget.html">ArrowTarget</a></td></tr>
 <tr class="memitem:a7f7e969e9d848c01cf9d6726f80653bc pro_methods_classArrowTarget" id="r_a7f7e969e9d848c01cf9d6726f80653bc"><td class="memItemLeft">QVariant&#160;</td><td class="memItemRight"><a class="el" href="../../d9/dce/classArrowTarget.html#a7f7e969e9d848c01cf9d6726f80653bc">itemChange</a> (GraphicsItemChange change, const QVariant &amp;value) override</td></tr>
 <tr class="inherit_header pro_methods_classAbstractGraphicsItem"><td colspan="2">Protected Member Functions inherited from <a class="el" href="../../de/dfe/classAbstractGraphicsItem.html">AbstractGraphicsItem</a></td></tr>
@@ -233,6 +237,9 @@ Private Slots</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aeb90281dc3d536d4b0d6e456c068f551" id="r_aeb90281dc3d536d4b0d6e456c068f551"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aeb90281dc3d536d4b0d6e456c068f551">isHovered</a></td></tr>
 <tr class="memitem:a010af5327e07d8f9e42249d8e30527b5" id="r_a010af5327e07d8f9e42249d8e30527b5"><td class="memItemLeft">qreal&#160;</td><td class="memItemRight"><a class="el" href="#a010af5327e07d8f9e42249d8e30527b5">realZValue</a></td></tr>
+<tr class="memitem:a4547f9f81d50f113544c50f2c08ab309" id="r_a4547f9f81d50f113544c50f2c08ab309"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a4547f9f81d50f113544c50f2c08ab309">pendingSelectionCollapse</a></td></tr>
+<tr class="memitem:a8f879e584e566f97be485daf2a9f87ba" id="r_a8f879e584e566f97be485daf2a9f87ba"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a8f879e584e566f97be485daf2a9f87ba">selectionCollapseGeneration</a> = 0</td></tr>
+<tr class="memdesc:a8f879e584e566f97be485daf2a9f87ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Guards the deferred collapse timer against stale firings.  <br /></td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
 <a id="aaa471242ff2bc5e6383cb5eba0703ea8" name="aaa471242ff2bc5e6383cb5eba0703ea8"></a>
@@ -429,6 +436,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ac5ed9426a97a21ecacf47ea0e029dbd4" name="ac5ed9426a97a21ecacf47ea0e029dbd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5ed9426a97a21ecacf47ea0e029dbd4">&#9670;&#160;</a></span>cancelPendingSelectionCollapse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AbstractCardItem::cancelPendingSelectionCollapse </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Drop a pending collapse and disarm any deferred collapse timer. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/db9/classAbstractCardItem_ac5ed9426a97a21ecacf47ea0e029dbd4_icgraph.svg" width="472" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a460608f3aa54157d5ed6bb9d83c5da3c" name="a460608f3aa54157d5ed6bb9d83c5da3c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a460608f3aa54157d5ed6bb9d83c5da3c">&#9670;&#160;</a></span>cardShiftClicked</h2>
 
@@ -515,6 +546,41 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/db9/classAbstractCardItem_a366ddbdae8174d6442e5351a8a2afd26_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a73ed7017cd9fd8a43569b55f93bd2eac" name="a73ed7017cd9fd8a43569b55f93bd2eac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73ed7017cd9fd8a43569b55f93bd2eac">&#9670;&#160;</a></span>doubleClickActsOnSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractCardItem::doubleClickActsOnSelection </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether a double-click on this item acts on the whole selection. </p>
+<p>When true, a release without drag defers the multi-selection collapse until the double-click window passes, so a following double-click still sees every selected card. Subclasses that handle double-clicks on the selection must return true here and call <a class="el" href="#ac5ed9426a97a21ecacf47ea0e029dbd4" title="Drop a pending collapse and disarm any deferred collapse timer.">cancelPendingSelectionCollapse()</a> from their double-click handler. </p>
+
+<p>Reimplemented in <a class="el" href="../../d6/dbd/classCardItem.html#a653d83b9a53c24a069046a94e9071d9f">CardItem</a>, and <a class="el" href="../../dc/d0b/classDeckViewCard.html#a5ac037c98177c6b15ab1d7b51e6b119d">DeckViewCard</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/db9/classAbstractCardItem_a73ed7017cd9fd8a43569b55f93bd2eac_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -998,7 +1064,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/db9/classAbstractCardItem_a5d4c254c430bc753d9c96ab75a02e3cf_cgraph.svg" width="490" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/db9/classAbstractCardItem_a5d4c254c430bc753d9c96ab75a02e3cf_cgraph.svg" width="490" height="179"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1028,7 +1094,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/db9/classAbstractCardItem_a3d9a36b80fa9c22798a11324ccb4c0dd_cgraph.svg" width="484" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/db9/classAbstractCardItem_a3d9a36b80fa9c22798a11324ccb4c0dd_cgraph.svg" width="487" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1872,6 +1938,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a4547f9f81d50f113544c50f2c08ab309" name="a4547f9f81d50f113544c50f2c08ab309"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4547f9f81d50f113544c50f2c08ab309">&#9670;&#160;</a></span>pendingSelectionCollapse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AbstractCardItem::pendingSelectionCollapse</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a010af5327e07d8f9e42249d8e30527b5" name="a010af5327e07d8f9e42249d8e30527b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a010af5327e07d8f9e42249d8e30527b5">&#9670;&#160;</a></span>realZValue</h2>
 
@@ -1891,6 +1979,30 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f879e584e566f97be485daf2a9f87ba" name="a8f879e584e566f97be485daf2a9f87ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f879e584e566f97be485daf2a9f87ba">&#9670;&#160;</a></span>selectionCollapseGeneration</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AbstractCardItem::selectionCollapseGeneration = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Guards the deferred collapse timer against stale firings. </p>
 
 </div>
 </div>

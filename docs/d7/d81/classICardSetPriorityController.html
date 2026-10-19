@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -148,6 +148,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac847e7a5d53c036fedf065ef3d8e2631" id="r_ac847e7a5d53c036fedf065ef3d8e2631"><td class="memItemLeft">virtual QStringList&#160;</td><td class="memItemRight"><a class="el" href="#ac847e7a5d53c036fedf065ef3d8e2631">getEnabledSetNames</a> () const =0</td></tr>
 <tr class="memdesc:ac847e7a5d53c036fedf065ef3d8e2631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the short names of every set currently marked as enabled.  <br /></td></tr>
 <tr class="memitem:a7c62bcbbedb01e6d3fc998650366b39d" id="r_a7c62bcbbedb01e6d3fc998650366b39d"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a7c62bcbbedb01e6d3fc998650366b39d">saveSets</a> (const QVector&lt; <a class="el" href="../../d0/db0/structICardSetPriorityController_1_1SetSaveData.html">SetSaveData</a> &gt; &amp;data)=0</td></tr>
+<tr class="memdesc:a7c62bcbbedb01e6d3fc998650366b39d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Persists per-set options for every entry in a single settings flush.  <br /></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a87c55e7b18616199ea7b8372a04ad99f" name="a87c55e7b18616199ea7b8372a04ad99f"></a>
@@ -356,6 +357,9 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Persists per-set options for every entry in a single settings flush. </p>
+<p>Each individual setSortKey/setEnabled/setIsKnown call re-opens and re-syncs the whole .ini when backed by QSettings, so persisting hundreds of sets one option at a time freezes the GUI thread for seconds. Callers that touch more than a handful of sets must bundle the records and call this once. </p>
 
 <p>Implemented in <a class="el" href="../../de/dbe/classCardDatabaseSettings.html#aa652520d5e9b8fed81e5a42f35450675">CardDatabaseSettings</a>, and <a class="el" href="../../d3/d21/classNoopCardSetPriorityController.html#a26645d23c3e1110f4fc7d644c2055957">NoopCardSetPriorityController</a>.</p>
 <div class="dynheader">

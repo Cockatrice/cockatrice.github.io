@@ -1,5 +1,6 @@
 var structServerInfo__ChatMessage =
 [
+    [ "channel", "df/dcb/structServerInfo__ChatMessage.html#a602cb1c61061b043d09d5d7b08bdf6da", null ],
     [ "sender_id", "df/dcb/structServerInfo__ChatMessage.html#aae67d2fd5524bf42d00625846f6ff247", null ],
     [ "sender_ip", "df/dcb/structServerInfo__ChatMessage.html#ada41c8ef0fbc576ed134e01739b2d58e", null ],
     [ "sender_name", "df/dcb/structServerInfo__ChatMessage.html#ac78e90d5f2f572dcbd38bbae7ab0008d", null ],

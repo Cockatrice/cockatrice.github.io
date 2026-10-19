@@ -5,6 +5,8 @@ var room__commands_8proto =
     [ "Command_LeaveRoom::RoomCommand", "df/d4c/structCommand__LeaveRoom_1_1RoomCommand.html", "df/d4c/structCommand__LeaveRoom_1_1RoomCommand" ],
     [ "Command_RoomSay", "dd/dd4/structCommand__RoomSay.html", "dd/dd4/structCommand__RoomSay" ],
     [ "Command_RoomSay::RoomCommand", "d0/d9e/structCommand__RoomSay_1_1RoomCommand.html", "d0/d9e/structCommand__RoomSay_1_1RoomCommand" ],
+    [ "Command_RoomChannelSay", "d9/d8c/structCommand__RoomChannelSay.html", "d9/d8c/structCommand__RoomChannelSay" ],
+    [ "Command_RoomChannelSay::RoomCommand", "d7/d6a/structCommand__RoomChannelSay_1_1RoomCommand.html", "d7/d6a/structCommand__RoomChannelSay_1_1RoomCommand" ],
     [ "Command_CreateGame", "d8/de6/structCommand__CreateGame.html", "d8/de6/structCommand__CreateGame" ],
     [ "Command_CreateGame::RoomCommand", "d7/dea/structCommand__CreateGame_1_1RoomCommand.html", "d7/dea/structCommand__CreateGame_1_1RoomCommand" ],
     [ "Command_JoinGame", "df/da6/structCommand__JoinGame.html", "df/da6/structCommand__JoinGame" ],

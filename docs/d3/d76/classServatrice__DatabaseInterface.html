@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -154,6 +154,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9e16eab6541b904763e2db4976431f4e" id="r_a9e16eab6541b904763e2db4976431f4e"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a9e16eab6541b904763e2db4976431f4e">activeUserExists</a> (const QString &amp;user) override</td></tr>
 <tr class="memitem:ad2de01d93b76794daf16333063fef700" id="r_ad2de01d93b76794daf16333063fef700"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ad2de01d93b76794daf16333063fef700">userExists</a> (const QString &amp;user) override</td></tr>
 <tr class="memitem:a4162dc3616cc0bda90741ec589fadb89" id="r_a4162dc3616cc0bda90741ec589fadb89"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a4162dc3616cc0bda90741ec589fadb89">getUserSalt</a> (const QString &amp;user) override</td></tr>
+<tr class="memitem:a088fe1620542dd0afddd7fe34854c2a2" id="r_a088fe1620542dd0afddd7fe34854c2a2"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a088fe1620542dd0afddd7fe34854c2a2">getUserPasswordData</a> (const QString &amp;user) override</td></tr>
+<tr class="memitem:af0c335fd25fabdb3e24f6500dd466124" id="r_af0c335fd25fabdb3e24f6500dd466124"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#af0c335fd25fabdb3e24f6500dd466124">submitPasswordVerifier</a> (const QString &amp;user, const QString &amp;passwordVerifier) override</td></tr>
+<tr class="memitem:aaf54707f25468881c21efa3530a4b27c" id="r_aaf54707f25468881c21efa3530a4b27c"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#aaf54707f25468881c21efa3530a4b27c">getUsableLegacyBackup</a> (const QString &amp;user)</td></tr>
+<tr class="memdesc:aaf54707f25468881c21efa3530a4b27c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrypt the account's legacy password backup when it exists, is decryptable with the configured key and has not aged out; purges it when it has. Returns the legacy credential in the stored "salt + hash" format, or an empty string.  <br /></td></tr>
+<tr class="memitem:a93f66618e07dcf4a0e46c046c95b4f57" id="r_a93f66618e07dcf4a0e46c046c95b4f57"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a93f66618e07dcf4a0e46c046c95b4f57">touchLegacyBackup</a> (const QString &amp;user)</td></tr>
+<tr class="memdesc:a93f66618e07dcf4a0e46c046c95b4f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refresh the age window of the account's legacy password backup.  <br /></td></tr>
+<tr class="memitem:a0dd348e1b418458fe9e94ec7d3454b7e" id="r_a0dd348e1b418458fe9e94ec7d3454b7e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0dd348e1b418458fe9e94ec7d3454b7e">clearLegacyBackup</a> (const QString &amp;user)</td></tr>
+<tr class="memdesc:a0dd348e1b418458fe9e94ec7d3454b7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop the account's legacy password backup.  <br /></td></tr>
+<tr class="memitem:aeb43cdb5126a3a001ed127be2143a9aa" id="r_aeb43cdb5126a3a001ed127be2143a9aa"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aeb43cdb5126a3a001ed127be2143a9aa">purgeExpiredLegacyBackups</a> ()</td></tr>
+<tr class="memdesc:aeb43cdb5126a3a001ed127be2143a9aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop every legacy password backup that has not been used within the TTL.  <br /></td></tr>
 <tr class="memitem:aeed3987401a4d5e8432fa7bde342fef1" id="r_aeed3987401a4d5e8432fa7bde342fef1"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aeed3987401a4d5e8432fa7bde342fef1">getUserIdInDB</a> (const QString &amp;name)</td></tr>
 <tr class="memitem:a3433022bcff8e492913ad29f8069423c" id="r_a3433022bcff8e492913ad29f8069423c"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a3433022bcff8e492913ad29f8069423c">getBuddyList</a> (const QString &amp;name) override</td></tr>
 <tr class="memitem:a1d2b588d7a2f7fab190d569c0597332b" id="r_a1d2b588d7a2f7fab190d569c0597332b"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a1d2b588d7a2f7fab190d569c0597332b">getIgnoreList</a> (const QString &amp;name) override</td></tr>
@@ -190,7 +200,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0063ec013dd73c526ada255fea57fa82" id="r_a0063ec013dd73c526ada255fea57fa82"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0063ec013dd73c526ada255fea57fa82">activateUser</a> (const QString &amp;userName, const QString &amp;token) override</td></tr>
 <tr class="memitem:ae21f97ab642597540a612c3105235bb0" id="r_ae21f97ab642597540a612c3105235bb0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae21f97ab642597540a612c3105235bb0">updateUsersClientID</a> (const QString &amp;userName, const QString &amp;userClientID) override</td></tr>
 <tr class="memitem:ae5b30dae8065352c171c7dec85ff8a9b" id="r_ae5b30dae8065352c171c7dec85ff8a9b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae5b30dae8065352c171c7dec85ff8a9b">updateUsersLastLoginData</a> (const QString &amp;userName, const QString &amp;clientVersion) override</td></tr>
-<tr class="memitem:ac78310ca92da32452c72f367b1b1902f" id="r_ac78310ca92da32452c72f367b1b1902f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac78310ca92da32452c72f367b1b1902f">logMessage</a> (const int senderId, const QString &amp;senderName, const QString &amp;senderIp, const QString &amp;logMessage, <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334">LogMessage_TargetType</a> targetType, const int targetId, const QString &amp;targetName) override</td></tr>
+<tr class="memitem:a39623126826ccf7b05b8ee32ace4669e" id="r_a39623126826ccf7b05b8ee32ace4669e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a39623126826ccf7b05b8ee32ace4669e">logMessage</a> (const int senderId, const QString &amp;senderName, const QString &amp;senderIp, const QString &amp;logMessage, <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334">LogMessage_TargetType</a> targetType, const int targetId, const QString &amp;targetName, const QString &amp;channel=QString()) override</td></tr>
 <tr class="memitem:a04148eb963ea802d910c16ffcaa98600" id="r_a04148eb963ea802d910c16ffcaa98600"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a04148eb963ea802d910c16ffcaa98600">changeUserPassword</a> (const QString &amp;user, const QString &amp;password, bool passwordNeedsHash) override</td></tr>
 <tr class="memitem:a7fede6bcac17a840ba691adc5efbe94f" id="r_a7fede6bcac17a840ba691adc5efbe94f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a7fede6bcac17a840ba691adc5efbe94f">changeUserPassword</a> (const QString &amp;user, const QString &amp;oldPassword, bool oldPasswordNeedsHash, const QString &amp;newPassword, bool newPasswordNeedsHash) override</td></tr>
 <tr class="memitem:a67666f0044fed995abeb1373eafbb3e5" id="r_a67666f0044fed995abeb1373eafbb3e5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a67666f0044fed995abeb1373eafbb3e5">setForcePasswordChange</a> (const QString &amp;user, bool force) override</td></tr>
@@ -203,6 +213,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6318ed7a6489e2a22f7f6b59a59c383d" id="r_a6318ed7a6489e2a22f7f6b59a59c383d"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../dc/ded/structServerInfo__ModeratorLogin.html">ServerInfo_ModeratorLogin</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a6318ed7a6489e2a22f7f6b59a59c383d">getModeratorLastLogins</a> ()</td></tr>
 <tr class="memitem:a5891f4690eb7faf55f28493a39d42f36" id="r_a5891f4690eb7faf55f28493a39d42f36"><td class="memItemLeft"><a class="el" href="../../d6/d14/structServatrice__DatabaseInterface_1_1UptimeSnapshot.html">UptimeSnapshot</a>&#160;</td><td class="memItemRight"><a class="el" href="#a5891f4690eb7faf55f28493a39d42f36">getLatestUptimeSnapshot</a> (int serverId)</td></tr>
 <tr class="memitem:af809d0360960775994878292f2e7cf6b" id="r_af809d0360960775994878292f2e7cf6b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#af809d0360960775994878292f2e7cf6b">removeUserAvatar</a> (const QString &amp;userName)</td></tr>
+<tr class="memitem:a7b3a81cacc23a214102be5bc7072f52c" id="r_a7b3a81cacc23a214102be5bc7072f52c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a7b3a81cacc23a214102be5bc7072f52c">isCardArtAllowed</a> (const QString &amp;cardName, const QString &amp;cardProviderId) override</td></tr>
+<tr class="memdesc:a7b3a81cacc23a214102be5bc7072f52c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the given card art may be shown (card art rules).  <br /></td></tr>
 <tr class="memitem:ad57c24c6e2fd003fe6c9259fd82fe7f3" id="r_ad57c24c6e2fd003fe6c9259fd82fe7f3"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ad57c24c6e2fd003fe6c9259fd82fe7f3">addForgotPassword</a> (const QString &amp;user)</td></tr>
 <tr class="memitem:a309fcb63a1ac1d486050a0419a2cf83b" id="r_a309fcb63a1ac1d486050a0419a2cf83b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a309fcb63a1ac1d486050a0419a2cf83b">removeForgotPassword</a> (const QString &amp;user) override</td></tr>
 <tr class="memitem:a39ba1aa199513951ff6fa4f9ed344975" id="r_a39ba1aa199513951ff6fa4f9ed344975"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a39ba1aa199513951ff6fa4f9ed344975">doesForgotPasswordExist</a> (const QString &amp;user)</td></tr>
@@ -236,10 +248,14 @@ Private Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_classServer__DatabaseInterface"><td colspan="2">Public Types inherited from <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html">Server_DatabaseInterface</a></td></tr>
-<tr class="memitem:a89b169819c61bccdb4292a1559341334 pub_types_classServer__DatabaseInterface" id="r_a89b169819c61bccdb4292a1559341334"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334">LogMessage_TargetType</a> { <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a91ea7dd053e2af8cd12962794fabdf4d">MessageTargetRoom</a>
+<tr class="memitem:a89b169819c61bccdb4292a1559341334 pub_types_classServer__DatabaseInterface" id="r_a89b169819c61bccdb4292a1559341334"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334">LogMessage_TargetType</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a91ea7dd053e2af8cd12962794fabdf4d">MessageTargetRoom</a>
 , <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a80f84e32bf1aa29a8834270986318120">MessageTargetGame</a>
 , <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334ae6f14fa6f84f921baeabf62f04da1679">MessageTargetChat</a>
 , <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a7b498d5d4759ceae094537a7dbf8f6e2">MessageTargetIslRoom</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334ade178da4f769ceab5750b449f15cb1ce">MessageTargetRoomChannel</a>
+<br />
  }</td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -928,6 +944,35 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a28bf00d14aa130e648820e3e0bd867c3_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a0dd348e1b418458fe9e94ec7d3454b7e" name="a0dd348e1b418458fe9e94ec7d3454b7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dd348e1b418458fe9e94ec7d3454b7e">&#9670;&#160;</a></span>clearLegacyBackup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servatrice_DatabaseInterface::clearLegacyBackup </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>user</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Drop the account's legacy password backup. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a0dd348e1b418458fe9e94ec7d3454b7e_cgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a0dd348e1b418458fe9e94ec7d3454b7e_icgraph.svg" width="100%" height="407"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1655,6 +1700,35 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="aaf54707f25468881c21efa3530a4b27c" name="aaf54707f25468881c21efa3530a4b27c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf54707f25468881c21efa3530a4b27c">&#9670;&#160;</a></span>getUsableLegacyBackup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Servatrice_DatabaseInterface::getUsableLegacyBackup </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>user</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Decrypt the account's legacy password backup when it exists, is decryptable with the configured key and has not aged out; purges it when it has. Returns the legacy credential in the stored "salt + hash" format, or an empty string. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_aaf54707f25468881c21efa3530a4b27c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_aaf54707f25468881c21efa3530a4b27c_icgraph.svg" width="100%" height="407"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="adf866135d6d9a4f4f601fcf2594155a6" name="adf866135d6d9a4f4f601fcf2594155a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf866135d6d9a4f4f601fcf2594155a6">&#9670;&#160;</a></span>getUserAlts()</h2>
 
@@ -1772,6 +1846,43 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a088fe1620542dd0afddd7fe34854c2a2" name="a088fe1620542dd0afddd7fe34854c2a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a088fe1620542dd0afddd7fe34854c2a2">&#9670;&#160;</a></span>getUserPasswordData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Servatrice_DatabaseInterface::getUserPasswordData </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>user</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a5ee724ba909f626113679f2fc5d929f8">Server_DatabaseInterface</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a088fe1620542dd0afddd7fe34854c2a2_cgraph.svg" width="100%" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a088fe1620542dd0afddd7fe34854c2a2_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a4162dc3616cc0bda90741ec589fadb89" name="a4162dc3616cc0bda90741ec589fadb89"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4162dc3616cc0bda90741ec589fadb89">&#9670;&#160;</a></span>getUserSalt()</h2>
 
@@ -1800,11 +1911,6 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a4162dc3616cc0bda90741ec589fadb89_cgraph.svg" width="100%" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a4162dc3616cc0bda90741ec589fadb89_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1939,6 +2045,50 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_afafa4e295fc91e13da29cc08b8848990_cgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a7b3a81cacc23a214102be5bc7072f52c" name="a7b3a81cacc23a214102be5bc7072f52c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b3a81cacc23a214102be5bc7072f52c">&#9670;&#160;</a></span>isCardArtAllowed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice_DatabaseInterface::isCardArtAllowed </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>cardName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>cardProviderId</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the given card art may be shown (card art rules). </p>
+<p>Default allows everything; the real server overrides this with a lookup in {prefix}_card_art_name_rules. Empty names are always allowed (clear path). </p>
+
+<p>Reimplemented from <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a8bbe9ebf3c324d5c23c627c6fe2ba10a">Server_DatabaseInterface</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a7b3a81cacc23a214102be5bc7072f52c_cgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a7b3a81cacc23a214102be5bc7072f52c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2082,8 +2232,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ac78310ca92da32452c72f367b1b1902f" name="ac78310ca92da32452c72f367b1b1902f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac78310ca92da32452c72f367b1b1902f">&#9670;&#160;</a></span>logMessage()</h2>
+<a id="a39623126826ccf7b05b8ee32ace4669e" name="a39623126826ccf7b05b8ee32ace4669e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39623126826ccf7b05b8ee32ace4669e">&#9670;&#160;</a></span>logMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2124,7 +2274,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>targetName</em></span>&#160;)</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>targetName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>channel</em></span><span class="paramdefsep"> = </span><span class="paramdefval">QString()</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -2134,16 +2289,16 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a3b03eacc95a17525dd1a17e215bde7d5">Server_DatabaseInterface</a>.</p>
+<p>Reimplemented from <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#ad3bcb7f2587a4ee8c96a21aaeb1efb76">Server_DatabaseInterface</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_ac78310ca92da32452c72f367b1b1902f_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a39623126826ccf7b05b8ee32ace4669e_cgraph.svg" width="100%" height="386"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_ac78310ca92da32452c72f367b1b1902f_icgraph.svg" width="226" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a39623126826ccf7b05b8ee32ace4669e_icgraph.svg" width="226" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -2193,6 +2348,35 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a447d886942669b059ec356b92924c7c8_cgraph.svg" width="446" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aeb43cdb5126a3a001ed127be2143a9aa" name="aeb43cdb5126a3a001ed127be2143a9aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb43cdb5126a3a001ed127be2143a9aa">&#9670;&#160;</a></span>purgeExpiredLegacyBackups()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servatrice_DatabaseInterface::purgeExpiredLegacyBackups </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Drop every legacy password backup that has not been used within the TTL. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_aeb43cdb5126a3a001ed127be2143a9aa_cgraph.svg" width="100%" height="576"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_aeb43cdb5126a3a001ed127be2143a9aa_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2466,6 +2650,76 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a38947a92bd60f183a424265c6b65d2eb_cgraph.svg" width="100%" height="482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af0c335fd25fabdb3e24f6500dd466124" name="af0c335fd25fabdb3e24f6500dd466124"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0c335fd25fabdb3e24f6500dd466124">&#9670;&#160;</a></span>submitPasswordVerifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Servatrice_DatabaseInterface::submitPasswordVerifier </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>user</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>passwordVerifier</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#aa5fc032229be7e34a479232476e7b644">Server_DatabaseInterface</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_af0c335fd25fabdb3e24f6500dd466124_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_af0c335fd25fabdb3e24f6500dd466124_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a93f66618e07dcf4a0e46c046c95b4f57" name="a93f66618e07dcf4a0e46c046c95b4f57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93f66618e07dcf4a0e46c046c95b4f57">&#9670;&#160;</a></span>touchLegacyBackup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Servatrice_DatabaseInterface::touchLegacyBackup </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>user</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Refresh the age window of the account's legacy password backup. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a93f66618e07dcf4a0e46c046c95b4f57_cgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a93f66618e07dcf4a0e46c046c95b4f57_icgraph.svg" width="488" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

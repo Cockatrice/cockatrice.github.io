@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -153,6 +153,8 @@ Signals</h2></td></tr>
 <tr class="memitem:a6ee63b58549dc285e32c3af52af13e5d" id="r_a6ee63b58549dc285e32c3af52af13e5d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6ee63b58549dc285e32c3af52af13e5d">sigSubmitForgotPasswordResetToServer</a> (const QString &amp;hostname, unsigned int port, const QString &amp;_userName, const QString &amp;_token, const QString &amp;_newpassword)</td></tr>
 <tr class="memitem:aa0a78030dc27255ae4a364556c29473c" id="r_aa0a78030dc27255ae4a364556c29473c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa0a78030dc27255ae4a364556c29473c">sigPromptForForgotPasswordChallenge</a> ()</td></tr>
 <tr class="memitem:a27278815e62df4c338dfd94b41520a1c" id="r_a27278815e62df4c338dfd94b41520a1c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a27278815e62df4c338dfd94b41520a1c">sigSubmitForgotPasswordChallengeToServer</a> (const QString &amp;hostname, unsigned int port, const QString &amp;_userName, const QString &amp;_email)</td></tr>
+<tr class="memitem:a8d078b57fdaaf4b229b38359b5fbfd96" id="r_a8d078b57fdaaf4b229b38359b5fbfd96"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8d078b57fdaaf4b229b38359b5fbfd96">sigPasswordVerifierReady</a> (const QString &amp;verifier)</td></tr>
+<tr class="memdesc:a8d078b57fdaaf4b229b38359b5fbfd96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted once a scrypt verifier for the given account is known and can be persisted instead of the plaintext password. The receiving side should only store it for the connection it is currently negotiating, so the hostname and user name are intentionally not part of the signal.  <br /></td></tr>
 <tr class="inherit_header signals_classAbstractClient"><td colspan="2">Signals inherited from <a class="el" href="../../dc/d86/classAbstractClient.html">AbstractClient</a></td></tr>
 <tr class="memitem:aa8ffda0d0b2f5f59041c7d2562c6ee47 signals_classAbstractClient" id="r_aa8ffda0d0b2f5f59041c7d2562c6ee47"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d86/classAbstractClient.html#aa8ffda0d0b2f5f59041c7d2562c6ee47">statusChanged</a> (<a class="el" href="../../d5/db3/abstract__client_8h.html#a7e5fc64e45e1ab3af52e22eaf1c1bfc4">ClientStatus</a> _status)</td></tr>
 <tr class="memitem:a947b7a61c5bc7ce1e6af31bd725036ad signals_classAbstractClient" id="r_a947b7a61c5bc7ce1e6af31bd725036ad"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d86/classAbstractClient.html#a947b7a61c5bc7ce1e6af31bd725036ad">maxPingTime</a> (int seconds, int maxSeconds)</td></tr>
@@ -191,6 +193,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:afe198428c16410ff7e37126a15e87452"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the server address configured for the current connection.  <br /></td></tr>
 <tr class="memitem:ade47c174443aa55b8d740d876140912c" id="r_ade47c174443aa55b8d740d876140912c"><td class="memItemLeft">quint16&#160;</td><td class="memItemRight"><a class="el" href="#ade47c174443aa55b8d740d876140912c">serverPort</a> () const override</td></tr>
 <tr class="memitem:a234dc73ffea4661e123c4ebb47e0058d" id="r_a234dc73ffea4661e123c4ebb47e0058d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a234dc73ffea4661e123c4ebb47e0058d">connectToServer</a> (const QString &amp;hostname, unsigned int port, const QString &amp;_userName, const QString &amp;_password)</td></tr>
+<tr class="memitem:a6c41c23566b4c6776402722aee80969b" id="r_a6c41c23566b4c6776402722aee80969b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6c41c23566b4c6776402722aee80969b">setStoredVerifier</a> (const QString &amp;verifier)</td></tr>
+<tr class="memdesc:a6c41c23566b4c6776402722aee80969b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provide a stored "$scrypt$..." verifier so the client can authenticate without the plaintext password.  <br /></td></tr>
 <tr class="memitem:a634002267a57d5a8e04df16e9c410d9e" id="r_a634002267a57d5a8e04df16e9c410d9e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a634002267a57d5a8e04df16e9c410d9e">registerToServer</a> (const QString &amp;hostname, unsigned int port, const QString &amp;_userName, const QString &amp;_password, const QString &amp;_email, const QString &amp;_country, const QString &amp;_realname)</td></tr>
 <tr class="memitem:a7777beb578f45e05c7c5ef7aa9ee5410" id="r_a7777beb578f45e05c7c5ef7aa9ee5410"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7777beb578f45e05c7c5ef7aa9ee5410">activateToServer</a> (const QString &amp;_token)</td></tr>
 <tr class="memitem:a305c8c46fe50428b11aba5b6b3b7b266" id="r_a305c8c46fe50428b11aba5b6b3b7b266"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a305c8c46fe50428b11aba5b6b3b7b266">disconnectFromServer</a> ()</td></tr>
@@ -206,6 +210,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a24012400af1bad2608e7d5bd693c37a0 pub_methods_classAbstractClient" id="r_a24012400af1bad2608e7d5bd693c37a0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d86/classAbstractClient.html#a24012400af1bad2608e7d5bd693c37a0">clearLatencyStats</a> ()</td></tr>
 <tr class="memdesc:a24012400af1bad2608e7d5bd693c37a0 pub_methods_classAbstractClient"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops all recorded round-trip samples and resets the stats emission throttle, emitting zeroed stats so that UI listeners can clear their display.  <br /></td></tr>
 <tr class="memitem:a40a7215004b01875fa8cb83805bf5099 pub_methods_classAbstractClient" id="r_a40a7215004b01875fa8cb83805bf5099"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d86/classAbstractClient.html#a40a7215004b01875fa8cb83805bf5099">getServerSupportsPasswordHash</a> () const</td></tr>
+<tr class="memitem:a368f230ea19399ab457aefa319cc993a pub_methods_classAbstractClient" id="r_a368f230ea19399ab457aefa319cc993a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d86/classAbstractClient.html#a368f230ea19399ab457aefa319cc993a">getServerSupportsChallengeResponse</a> () const</td></tr>
 <tr class="memitem:ad18e27de66819afadea919c928ea50a5 pub_methods_classAbstractClient" id="r_ad18e27de66819afadea919c928ea50a5"><td class="memItemLeft">const QString &amp;&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d86/classAbstractClient.html#ad18e27de66819afadea919c928ea50a5">getUserName</a> () const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-slots" class="groupheader"><a id="pro-slots" name="pro-slots"></a>
@@ -234,6 +239,8 @@ Private Slots</h2></td></tr>
 <tr class="memitem:aaa8af462dc06132f65e6eb4c59e7bdca" id="r_aaa8af462dc06132f65e6eb4c59e7bdca"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaa8af462dc06132f65e6eb4c59e7bdca">doLogin</a> ()</td></tr>
 <tr class="memitem:ad8f6c81f52b6104e5da9b58160817bdd" id="r_ad8f6c81f52b6104e5da9b58160817bdd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad8f6c81f52b6104e5da9b58160817bdd">doHashedLogin</a> ()</td></tr>
 <tr class="memitem:af54d2fee9bad595f0152cea6579923e0" id="r_af54d2fee9bad595f0152cea6579923e0"><td class="memItemLeft"><a class="el" href="../../dd/d9b/structCommand__Login.html">Command_Login</a>&#160;</td><td class="memItemRight"><a class="el" href="#af54d2fee9bad595f0152cea6579923e0">generateCommandLogin</a> ()</td></tr>
+<tr class="memitem:a793db51fff8a85e70c4404adf494d44e" id="r_a793db51fff8a85e70c4404adf494d44e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a793db51fff8a85e70c4404adf494d44e">doSubmitPasswordVerifier</a> ()</td></tr>
+<tr class="memitem:a57db90f01bde54f9fa7ab10ebc6e06b3" id="r_a57db90f01bde54f9fa7ab10ebc6e06b3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a57db90f01bde54f9fa7ab10ebc6e06b3">submitPasswordVerifierResponse</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;response)</td></tr>
 <tr class="memitem:a56ea6b47926ac4e966ecde03108e3559" id="r_a56ea6b47926ac4e966ecde03108e3559"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a56ea6b47926ac4e966ecde03108e3559">doDisconnectFromServer</a> ()</td></tr>
 <tr class="memitem:a6de6c2005393b981dbcea37272165414" id="r_a6de6c2005393b981dbcea37272165414"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6de6c2005393b981dbcea37272165414">doActivateToServer</a> (const QString &amp;_token)</td></tr>
 <tr class="memitem:adca6b6ed7ca05254884d6386ce25940b" id="r_adca6b6ed7ca05254884d6386ce25940b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adca6b6ed7ca05254884d6386ce25940b">doRequestForgotPasswordToServer</a> (const QString &amp;hostname, unsigned int port, const QString &amp;_userName)</td></tr>
@@ -267,6 +274,13 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a92def2e8d2e2fdc1cf5ba0bb7c3c199d" id="r_a92def2e8d2e2fdc1cf5ba0bb7c3c199d"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a92def2e8d2e2fdc1cf5ba0bb7c3c199d">lastHostname</a></td></tr>
 <tr class="memitem:ae9706019dda44a2f7f31dafc3120aaae" id="r_ae9706019dda44a2f7f31dafc3120aaae"><td class="memItemLeft">unsigned int&#160;</td><td class="memItemRight"><a class="el" href="#ae9706019dda44a2f7f31dafc3120aaae">lastPort</a></td></tr>
 <tr class="memitem:a5af9887c9190a7f2a39bfd6d653addce" id="r_a5af9887c9190a7f2a39bfd6d653addce"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a5af9887c9190a7f2a39bfd6d653addce">hashedPassword</a></td></tr>
+<tr class="memitem:a8c106f1e702dec35188ac0eb68ff54b5" id="r_a8c106f1e702dec35188ac0eb68ff54b5"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8c106f1e702dec35188ac0eb68ff54b5">passwordNeedsMigration</a></td></tr>
+<tr class="memitem:ac1c2550be77689099aa6cf474f2b0102" id="r_ac1c2550be77689099aa6cf474f2b0102"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ac1c2550be77689099aa6cf474f2b0102">storedVerifier</a></td></tr>
+<tr class="memdesc:ac1c2550be77689099aa6cf474f2b0102"><td class="mdescLeft">&#160;</td><td class="mdescRight">A previously stored "$scrypt$..." verifier used to authenticate without the plaintext password.  <br /></td></tr>
+<tr class="memitem:a61fa45a088b280af82554bd3ba8c653e" id="r_a61fa45a088b280af82554bd3ba8c653e"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a61fa45a088b280af82554bd3ba8c653e">derivedVerifier</a></td></tr>
+<tr class="memdesc:a61fa45a088b280af82554bd3ba8c653e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifier derived during the current login, persisted after success.  <br /></td></tr>
+<tr class="memitem:a9e8b2c672c0e3c3a0520f4baaf1d78da" id="r_a9e8b2c672c0e3c3a0520f4baaf1d78da"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a9e8b2c672c0e3c3a0520f4baaf1d78da">pendingVerifier</a></td></tr>
+<tr class="memdesc:a9e8b2c672c0e3c3a0520f4baaf1d78da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifier sent for migration, persisted once the server accepts it.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -291,6 +305,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a6310c4fa3e7838e18c83eb10c177ad97 pro_attribs_classAbstractClient" id="r_a6310c4fa3e7838e18c83eb10c177ad97"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d86/classAbstractClient.html#a6310c4fa3e7838e18c83eb10c177ad97">realName</a></td></tr>
 <tr class="memitem:a86db5dfebfc111d995442d400233b710 pro_attribs_classAbstractClient" id="r_a86db5dfebfc111d995442d400233b710"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d86/classAbstractClient.html#a86db5dfebfc111d995442d400233b710">token</a></td></tr>
 <tr class="memitem:a52ffa2252e18e3b8d829df8e3fd64ac2 pro_attribs_classAbstractClient" id="r_a52ffa2252e18e3b8d829df8e3fd64ac2"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d86/classAbstractClient.html#a52ffa2252e18e3b8d829df8e3fd64ac2">serverSupportsPasswordHash</a></td></tr>
+<tr class="memitem:ab35f6cf2eb6940304901f37b69b5d0e6 pro_attribs_classAbstractClient" id="r_ab35f6cf2eb6940304901f37b69b5d0e6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d86/classAbstractClient.html#ab35f6cf2eb6940304901f37b69b5d0e6">serverSupportsChallengeResponse</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a37f95399d855ffda07836178e244cce7" name="a37f95399d855ffda07836178e244cce7"></a>
@@ -388,7 +403,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a9062a34ca75fb418d0abed01cdcdb485_icgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a9062a34ca75fb418d0abed01cdcdb485_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -423,7 +438,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_ab26648a2334091721f9afd6f5c3c5da0_icgraph.svg" width="100%" height="422"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_ab26648a2334091721f9afd6f5c3c5da0_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -519,7 +534,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a4536efb0035093f3a665f5dc7d043c24_icgraph.svg" width="100%" height="578"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a4536efb0035093f3a665f5dc7d043c24_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -622,7 +637,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a6de6c2005393b981dbcea37272165414_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a6de6c2005393b981dbcea37272165414_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -671,7 +686,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a8227897821016665c8a6daf9234ff07a_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a8227897821016665c8a6daf9234ff07a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -741,7 +756,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_ad8f6c81f52b6104e5da9b58160817bdd_icgraph.svg" width="100%" height="576"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_ad8f6c81f52b6104e5da9b58160817bdd_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -778,7 +793,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_aaa8af462dc06132f65e6eb4c59e7bdca_icgraph.svg" width="100%" height="535"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_aaa8af462dc06132f65e6eb4c59e7bdca_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -842,7 +857,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a4ff7b1be6ca1bf72883d4da10fa8a4cc_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a4ff7b1be6ca1bf72883d4da10fa8a4cc_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -886,7 +901,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_adca6b6ed7ca05254884d6386ce25940b_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_adca6b6ed7ca05254884d6386ce25940b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -921,7 +936,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_ab7d09a5323416d70e7940e0c5bef6b86_icgraph.svg" width="100%" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_ab7d09a5323416d70e7940e0c5bef6b86_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -970,7 +985,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a86ebfd247122c1f134fd148e8641e3b5_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a86ebfd247122c1f134fd148e8641e3b5_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1024,7 +1039,42 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_aca9cb066bf256d71ff4256a73d4d5a3d_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_aca9cb066bf256d71ff4256a73d4d5a3d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a793db51fff8a85e70c4404adf494d44e" name="a793db51fff8a85e70c4404adf494d44e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a793db51fff8a85e70c4404adf494d44e">&#9670;&#160;</a></span>doSubmitPasswordVerifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RemoteClient::doSubmitPasswordVerifier </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a793db51fff8a85e70c4404adf494d44e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a793db51fff8a85e70c4404adf494d44e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1273,7 +1323,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a8203596b00d006b733b11c17e84b2e73_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a8203596b00d006b733b11c17e84b2e73_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1368,7 +1418,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a4dd35647eb2ec152c345e53bab27e80e_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a4dd35647eb2ec152c345e53bab27e80e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1403,7 +1453,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a3782282519793c52ca08d30e164208ca_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a3782282519793c52ca08d30e164208ca_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1438,7 +1488,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a1dacfbdba8d2bf0eb618cd4cba40d6b5_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a1dacfbdba8d2bf0eb618cd4cba40d6b5_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1472,7 +1522,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_ac7b6436e53573c8e1e84286db07e5287_icgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_ac7b6436e53573c8e1e84286db07e5287_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1507,7 +1557,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a58bdd4684d6d0dc438f5856bc4d736b6_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a58bdd4684d6d0dc438f5856bc4d736b6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1546,7 +1596,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_adc36bcf796b1c84fa34b815b0c0daddf_icgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_adc36bcf796b1c84fa34b815b0c0daddf_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1581,7 +1631,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a360b18eedad828edd891deea0cc94937_icgraph.svg" width="100%" height="422"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a360b18eedad828edd891deea0cc94937_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1672,7 +1722,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a39edfa79d8e7631bfaf1f38647913e37_icgraph.svg" width="100%" height="422"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a39edfa79d8e7631bfaf1f38647913e37_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1743,7 +1793,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_aa17411596df5da8c9abae96f61b521e6_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_aa17411596df5da8c9abae96f61b521e6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1840,7 +1890,39 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a690358b7581f3d7b2d83e9e87555ce72_icgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a690358b7581f3d7b2d83e9e87555ce72_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a6c41c23566b4c6776402722aee80969b" name="a6c41c23566b4c6776402722aee80969b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c41c23566b4c6776402722aee80969b">&#9670;&#160;</a></span>setStoredVerifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RemoteClient::setStoredVerifier </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>verifier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Provide a stored "$scrypt$..." verifier so the client can authenticate without the plaintext password. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a6c41c23566b4c6776402722aee80969b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1974,7 +2056,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a37ea980232ba56b97421e35f4ef2df0a_icgraph.svg" width="100%" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a37ea980232ba56b97421e35f4ef2df0a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2004,7 +2086,44 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a8d75e47be74e51e4a3b805b408c7b296_icgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a8d75e47be74e51e4a3b805b408c7b296_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8d078b57fdaaf4b229b38359b5fbfd96" name="a8d078b57fdaaf4b229b38359b5fbfd96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d078b57fdaaf4b229b38359b5fbfd96">&#9670;&#160;</a></span>sigPasswordVerifierReady</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RemoteClient::sigPasswordVerifierReady </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>verifier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted once a scrypt verifier for the given account is known and can be persisted instead of the plaintext password. The receiving side should only store it for the connection it is currently negotiating, so the hostname and user name are intentionally not part of the signal. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a8d078b57fdaaf4b229b38359b5fbfd96_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a8d078b57fdaaf4b229b38359b5fbfd96_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2034,7 +2153,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_aa0a78030dc27255ae4a364556c29473c_icgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_aa0a78030dc27255ae4a364556c29473c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2064,7 +2183,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a642e299d5fb0d8e226d797ec506c629e_icgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a642e299d5fb0d8e226d797ec506c629e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2204,11 +2323,6 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a27278815e62df4c338dfd94b41520a1c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a27278815e62df4c338dfd94b41520a1c_icgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
@@ -2295,7 +2409,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a0a20f01e4c85cf9a57d8fd7042142a63_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a0a20f01e4c85cf9a57d8fd7042142a63_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2330,7 +2444,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a8710dd4fe1b46922cfd73f7ac710fe0a_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a8710dd4fe1b46922cfd73f7ac710fe0a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2365,7 +2479,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_aa873bed64ed305fcf985c76aaeaf9b37_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_aa873bed64ed305fcf985c76aaeaf9b37_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2395,7 +2509,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_aa4ab4eeb67d39e8220bc83d9abd08df6_icgraph.svg" width="100%" height="465"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_aa4ab4eeb67d39e8220bc83d9abd08df6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2430,7 +2544,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_ab9ed10532e0f6bdbeb5a6b0bb078a960_icgraph.svg" width="100%" height="422"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_ab9ed10532e0f6bdbeb5a6b0bb078a960_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2466,7 +2580,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_ae8882e738a7d7ea87b96b73928999940_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_ae8882e738a7d7ea87b96b73928999940_cgraph.svg" width="490" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -2501,12 +2615,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a74c8c7891d361a88a2c90978ca111706_cgraph.svg" width="100%" height="493"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a74c8c7891d361a88a2c90978ca111706_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a74c8c7891d361a88a2c90978ca111706_icgraph.svg" width="100%" height="422"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a74c8c7891d361a88a2c90978ca111706_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2557,6 +2671,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a57db90f01bde54f9fa7ab10ebc6e06b3" name="a57db90f01bde54f9fa7ab10ebc6e06b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57db90f01bde54f9fa7ab10ebc6e06b3">&#9670;&#160;</a></span>submitPasswordVerifierResponse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RemoteClient::submitPasswordVerifierResponse </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>response</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a57db90f01bde54f9fa7ab10ebc6e06b3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a57db90f01bde54f9fa7ab10ebc6e06b3_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a885bf43b2b8c193b928db4b84567c3a9" name="a885bf43b2b8c193b928db4b84567c3a9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a885bf43b2b8c193b928db4b84567c3a9">&#9670;&#160;</a></span>websocketMessageReceived</h2>
 
@@ -2587,12 +2736,36 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a885bf43b2b8c193b928db4b84567c3a9_icgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d53/classRemoteClient_a885bf43b2b8c193b928db4b84567c3a9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a61fa45a088b280af82554bd3ba8c653e" name="a61fa45a088b280af82554bd3ba8c653e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61fa45a088b280af82554bd3ba8c653e">&#9670;&#160;</a></span>derivedVerifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString RemoteClient::derivedVerifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Verifier derived during the current login, persisted after success. </p>
+
+</div>
+</div>
 <a id="a44170334a31e9794fc8cf0e3fcdf2f26" name="a44170334a31e9794fc8cf0e3fcdf2f26"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44170334a31e9794fc8cf0e3fcdf2f26">&#9670;&#160;</a></span>handshakeStarted</h2>
 
@@ -2813,6 +2986,52 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a8c106f1e702dec35188ac0eb68ff54b5" name="a8c106f1e702dec35188ac0eb68ff54b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c106f1e702dec35188ac0eb68ff54b5">&#9670;&#160;</a></span>passwordNeedsMigration</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RemoteClient::passwordNeedsMigration</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e8b2c672c0e3c3a0520f4baaf1d78da" name="a9e8b2c672c0e3c3a0520f4baaf1d78da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e8b2c672c0e3c3a0520f4baaf1d78da">&#9670;&#160;</a></span>pendingVerifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString RemoteClient::pendingVerifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Verifier sent for migration, persisted once the server accepts it. </p>
+
+</div>
+</div>
 <a id="a96b6918942af86845b9736d83f3ae355" name="a96b6918942af86845b9736d83f3ae355"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a96b6918942af86845b9736d83f3ae355">&#9670;&#160;</a></span>socket</h2>
 
@@ -2832,6 +3051,30 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1c2550be77689099aa6cf474f2b0102" name="ac1c2550be77689099aa6cf474f2b0102"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1c2550be77689099aa6cf474f2b0102">&#9670;&#160;</a></span>storedVerifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString RemoteClient::storedVerifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A previously stored "$scrypt$..." verifier used to authenticate without the plaintext password. </p>
 
 </div>
 </div>

@@ -2,7 +2,7 @@ var dir_61223312e5d500613fa4fea33474da6b =
 [
     [ "abstract_settings_page.cpp", "d3/d80/abstract__settings__page_8cpp.html", "d3/d80/abstract__settings__page_8cpp" ],
     [ "abstract_settings_page.h", "d5/d31/abstract__settings__page_8h.html", "d5/d31/abstract__settings__page_8h" ],
-    [ "appearance_settings_page.cpp", "d7/d6f/appearance__settings__page_8cpp.html", null ],
+    [ "appearance_settings_page.cpp", "d7/d6f/appearance__settings__page_8cpp.html", "d7/d6f/appearance__settings__page_8cpp" ],
     [ "appearance_settings_page.h", "da/d5a/appearance__settings__page_8h.html", "da/d5a/appearance__settings__page_8h" ],
     [ "deck_editor_settings_page.cpp", "d9/d41/deck__editor__settings__page_8cpp.html", null ],
     [ "deck_editor_settings_page.h", "da/d0f/deck__editor__settings__page_8h.html", "da/d0f/deck__editor__settings__page_8h" ],

@@ -35,6 +35,7 @@ var structSessionCommand =
       [ "DECK_DOWNLOAD_PUBLIC", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a9891e2f39339a05f939cbde51c4ecb5d", null ],
       [ "DECK_SHARE_LIST_MINE", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ab85e3952171c947c6ce8ede38f16568f", null ],
       [ "DECK_SHARE_REMOVE", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a97a39bd57e1c7e4e3c0c91716746e544", null ],
+      [ "SUBMIT_PASSWORD_VERIFIER", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a9a88bd6d95937fa2bf5ff31de868fa4a", null ],
       [ "REPLAY_LIST", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ab49ebb5b6e830efe87a2c6f197ff6574", null ],
       [ "REPLAY_DOWNLOAD", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a653c24e35bb18efb2f83a056f192fd85", null ],
       [ "REPLAY_MODIFY_MATCH", "d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ab21822177cddfd9882df605aaf4ed566", null ],

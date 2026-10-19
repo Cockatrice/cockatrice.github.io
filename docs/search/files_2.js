@@ -258,12 +258,15 @@ var searchData=
   ['counter_5flimits_2eh_255',['counter_limits.h',['../d8/d39/counter__limits_8h.html',1,'']]],
   ['counter_5fstate_2ecpp_256',['counter_state.cpp',['../dc/d7f/counter__state_8cpp.html',1,'']]],
   ['counter_5fstate_2eh_257',['counter_state.h',['../d5/d95/counter__state_8h.html',1,'']]],
-  ['creating_5fdecks_2emd_258',['creating_decks.md',['../df/d53/creating__decks_8md.html',1,'']]],
-  ['cryptoutil_2ecpp_259',['cryptoutil.cpp',['../dd/daa/cryptoutil_8cpp.html',1,'']]],
-  ['cryptoutil_2eh_260',['cryptoutil.h',['../db/d8f/cryptoutil_8h.html',1,'']]],
-  ['custom_5fcard_5fpictures_2emd_261',['custom_card_pictures.md',['../d4/d80/custom__card__pictures_8md.html',1,'']]],
-  ['custom_5fline_5fedit_2ecpp_262',['custom_line_edit.cpp',['../d9/d51/custom__line__edit_8cpp.html',1,'']]],
-  ['custom_5fline_5fedit_2eh_263',['custom_line_edit.h',['../d0/d23/custom__line__edit_8h.html',1,'']]],
-  ['custom_5fzone_5fmenu_2ecpp_264',['custom_zone_menu.cpp',['../d5/dbd/custom__zone__menu_8cpp.html',1,'']]],
-  ['custom_5fzone_5fmenu_2eh_265',['custom_zone_menu.h',['../d8/d7d/custom__zone__menu_8h.html',1,'']]]
+  ['crash_5freporter_2ecpp_258',['crash_reporter.cpp',['../d3/d0b/crash__reporter_8cpp.html',1,'']]],
+  ['crash_5freporter_2eh_259',['crash_reporter.h',['../d4/d06/crash__reporter_8h.html',1,'']]],
+  ['crash_5freporter_5ftest_2ecpp_260',['crash_reporter_test.cpp',['../d5/db9/crash__reporter__test_8cpp.html',1,'']]],
+  ['creating_5fdecks_2emd_261',['creating_decks.md',['../df/d53/creating__decks_8md.html',1,'']]],
+  ['cryptoutil_2ecpp_262',['cryptoutil.cpp',['../dd/daa/cryptoutil_8cpp.html',1,'']]],
+  ['cryptoutil_2eh_263',['cryptoutil.h',['../db/d8f/cryptoutil_8h.html',1,'']]],
+  ['custom_5fcard_5fpictures_2emd_264',['custom_card_pictures.md',['../d4/d80/custom__card__pictures_8md.html',1,'']]],
+  ['custom_5fline_5fedit_2ecpp_265',['custom_line_edit.cpp',['../d9/d51/custom__line__edit_8cpp.html',1,'']]],
+  ['custom_5fline_5fedit_2eh_266',['custom_line_edit.h',['../d0/d23/custom__line__edit_8h.html',1,'']]],
+  ['custom_5fzone_5fmenu_2ecpp_267',['custom_zone_menu.cpp',['../d5/dbd/custom__zone__menu_8cpp.html',1,'']]],
+  ['custom_5fzone_5fmenu_2eh_268',['custom_zone_menu.h',['../d8/d7d/custom__zone__menu_8h.html',1,'']]]
 ];

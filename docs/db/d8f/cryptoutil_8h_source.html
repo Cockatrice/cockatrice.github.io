@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -124,18 +124,23 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('db/d8f/cryptou
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define CRYPTOUTIL_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QByteArray&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QtGlobal&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../dc/d23/namespaceCryptoUtil.html">CryptoUtil</a></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>QByteArray <a class="code hl_function" href="../../dc/d23/namespaceCryptoUtil.html#a5423b665382f70c06c0f6911e4d7f212">randomBytes</a>(<span class="keywordtype">int</span> count);</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>quint64 <a class="code hl_function" href="../../dc/d23/namespaceCryptoUtil.html#a651a904e55bdba2021b04b26de455cb5">randomUInt64</a>();</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>} <span class="comment">// namespace CryptoUtil</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="anamespaceCryptoUtil_html"><div class="ttname"><a href="../../dc/d23/namespaceCryptoUtil.html">CryptoUtil</a></div><div class="ttdef"><b>Definition</b> cryptoutil.cpp:7</div></div>
-<div class="ttc" id="anamespaceCryptoUtil_html_a5423b665382f70c06c0f6911e4d7f212"><div class="ttname"><a href="../../dc/d23/namespaceCryptoUtil.html#a5423b665382f70c06c0f6911e4d7f212">CryptoUtil::randomBytes</a></div><div class="ttdeci">QByteArray randomBytes(int count)</div><div class="ttdef"><b>Definition</b> cryptoutil.cpp:8</div></div>
-<div class="ttc" id="anamespaceCryptoUtil_html_a651a904e55bdba2021b04b26de455cb5"><div class="ttname"><a href="../../dc/d23/namespaceCryptoUtil.html#a651a904e55bdba2021b04b26de455cb5">CryptoUtil::randomUInt64</a></div><div class="ttdeci">quint64 randomUInt64()</div><div class="ttdef"><b>Definition</b> cryptoutil.cpp:18</div></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QtGlobal&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="../../dc/d23/namespaceCryptoUtil.html">CryptoUtil</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>QByteArray <a class="code hl_function" href="../../dc/d23/namespaceCryptoUtil.html#a5423b665382f70c06c0f6911e4d7f212">randomBytes</a>(<span class="keywordtype">int</span> count);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>quint64 <a class="code hl_function" href="../../dc/d23/namespaceCryptoUtil.html#a651a904e55bdba2021b04b26de455cb5">randomUInt64</a>();</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>QString <a class="code hl_function" href="../../dc/d23/namespaceCryptoUtil.html#ae605bdc1eccf732ac9060cee6b416559">encryptSecret</a>(<span class="keyword">const</span> QByteArray &amp;plaintext, <span class="keyword">const</span> QByteArray &amp;key, <span class="keyword">const</span> QByteArray &amp;aad = {});</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>QByteArray <a class="code hl_function" href="../../dc/d23/namespaceCryptoUtil.html#a8a5ed7e8c41fa6478af9661312b7e8fb">decryptSecret</a>(<span class="keyword">const</span> QString &amp;sealed, <span class="keyword">const</span> QByteArray &amp;key, <span class="keyword">const</span> QByteArray &amp;aad = {});</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>} <span class="comment">// namespace CryptoUtil</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="anamespaceCryptoUtil_html"><div class="ttname"><a href="../../dc/d23/namespaceCryptoUtil.html">CryptoUtil</a></div><div class="ttdef"><b>Definition</b> cryptoutil.cpp:15</div></div>
+<div class="ttc" id="anamespaceCryptoUtil_html_a5423b665382f70c06c0f6911e4d7f212"><div class="ttname"><a href="../../dc/d23/namespaceCryptoUtil.html#a5423b665382f70c06c0f6911e4d7f212">CryptoUtil::randomBytes</a></div><div class="ttdeci">QByteArray randomBytes(int count)</div><div class="ttdef"><b>Definition</b> cryptoutil.cpp:16</div></div>
+<div class="ttc" id="anamespaceCryptoUtil_html_a651a904e55bdba2021b04b26de455cb5"><div class="ttname"><a href="../../dc/d23/namespaceCryptoUtil.html#a651a904e55bdba2021b04b26de455cb5">CryptoUtil::randomUInt64</a></div><div class="ttdeci">quint64 randomUInt64()</div><div class="ttdef"><b>Definition</b> cryptoutil.cpp:26</div></div>
+<div class="ttc" id="anamespaceCryptoUtil_html_a8a5ed7e8c41fa6478af9661312b7e8fb"><div class="ttname"><a href="../../dc/d23/namespaceCryptoUtil.html#a8a5ed7e8c41fa6478af9661312b7e8fb">CryptoUtil::decryptSecret</a></div><div class="ttdeci">QByteArray decryptSecret(const QString &amp;sealed, const QByteArray &amp;key, const QByteArray &amp;aad)</div><div class="ttdoc">Open a string produced by encryptSecret(). Returns an empty array on any failure: unknown format,...</div><div class="ttdef"><b>Definition</b> cryptoutil.cpp:78</div></div>
+<div class="ttc" id="anamespaceCryptoUtil_html_ae605bdc1eccf732ac9060cee6b416559"><div class="ttname"><a href="../../dc/d23/namespaceCryptoUtil.html#ae605bdc1eccf732ac9060cee6b416559">CryptoUtil::encryptSecret</a></div><div class="ttdeci">QString encryptSecret(const QByteArray &amp;plaintext, const QByteArray &amp;key, const QByteArray &amp;aad)</div><div class="ttdoc">Seal a secret with AES-256-GCM as &quot;enc1:&lt;b64 nonce&gt;:&lt;b64 ciphertext+tag&gt;&quot;. Returns an empty string un...</div><div class="ttdef"><b>Definition</b> cryptoutil.cpp:35</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

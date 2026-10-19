@@ -20,7 +20,6 @@ var classCardDatabaseLoader =
     [ "saveToCache", "d2/d1b/classCardDatabaseLoader.html#af0afcd4f1810f54b4ea655fd6ae8031d", null ],
     [ "availableParsers", "d2/d1b/classCardDatabaseLoader.html#a41c56af3a7d7dbe001da934245fe30cb", null ],
     [ "database", "d2/d1b/classCardDatabaseLoader.html#a304b598c14f088d959d398c7eab76c01", null ],
-    [ "initialLoadComplete", "d2/d1b/classCardDatabaseLoader.html#a5b973437b3ab1026b0e5344b98f3c12c", null ],
     [ "loadFromFileMutex", "d2/d1b/classCardDatabaseLoader.html#ac541098b174808decac4158624ed6918", null ],
     [ "pathProvider", "d2/d1b/classCardDatabaseLoader.html#a493cfdb98c1c78afb45b44325cae61c0", null ],
     [ "priorityController", "d2/d1b/classCardDatabaseLoader.html#a85deb13d01d31752fb527263ebbf1230", null ],

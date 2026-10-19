@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -170,13 +170,52 @@ Functions</h2></td></tr>
 <tr class="memitem:ad139a6b4342cff3cec58abb1d5ffc7c8" id="r_ad139a6b4342cff3cec58abb1d5ffc7c8"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ad139a6b4342cff3cec58abb1d5ffc7c8">migrateLegacySets</a> (const QString &amp;settingsPath)</td></tr>
 <tr class="memitem:ad565b90e8480e955b486b6b970ff0432" id="r_ad565b90e8480e955b486b6b970ff0432"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ad565b90e8480e955b486b6b970ff0432">migrateLegacyServers</a> (const QString &amp;settingsPath)</td></tr>
 <tr class="memitem:ac490d6e760b689d16012ead797ba4f9d" id="r_ac490d6e760b689d16012ead797ba4f9d"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ac490d6e760b689d16012ead797ba4f9d">migrateLegacyMessages</a> (const QString &amp;settingsPath)</td></tr>
+<tr class="memitem:a87a9b144cfc285f2ed4f0ee3f1830c89" id="r_a87a9b144cfc285f2ed4f0ee3f1830c89"><td class="memItemLeft">static const <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, QString &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a87a9b144cfc285f2ed4f0ee3f1830c89">renamedGameFilterKeys</a> ()</td></tr>
 <tr class="memitem:aa6698c2c6c44ae11d59fe976c5c9b6b4" id="r_aa6698c2c6c44ae11d59fe976c5c9b6b4"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aa6698c2c6c44ae11d59fe976c5c9b6b4">migrateLegacyGameFilters</a> (const QString &amp;settingsPath)</td></tr>
+<tr class="memitem:a666f57a1dfe31afed94084ee45161c24" id="r_a666f57a1dfe31afed94084ee45161c24"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a666f57a1dfe31afed94084ee45161c24">gameFiltersCamelCaseMigrationPending</a> (const QString &amp;settingsPath)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a0c4daa27003dbe085fe9851617ed7ea2" id="r_a0c4daa27003dbe085fe9851617ed7ea2"><td class="memItemLeft">static const QString&#160;</td><td class="memItemRight"><a class="el" href="#a0c4daa27003dbe085fe9851617ed7ea2">MIGRATION_SENTINEL_KEY</a> = QStringLiteral(&quot;migration/perfile_complete&quot;)</td></tr>
+<tr class="memitem:a617a7b47b9e53eb76326c2553fe4008d" id="r_a617a7b47b9e53eb76326c2553fe4008d"><td class="memItemLeft">static const QString&#160;</td><td class="memItemRight"><a class="el" href="#a617a7b47b9e53eb76326c2553fe4008d">LEGACY_GAME_FILTERS_GAME_TYPE_PREFIX</a> = QStringLiteral(&quot;filter_games/game_type/&quot;)</td></tr>
+<tr class="memitem:a981962cd6562518f4e591b1db5a45516" id="r_a981962cd6562518f4e591b1db5a45516"><td class="memItemLeft">static const QString&#160;</td><td class="memItemRight"><a class="el" href="#a981962cd6562518f4e591b1db5a45516">GAME_FILTERS_GAME_TYPE_PREFIX</a> = QStringLiteral(&quot;filter_games/gameType/&quot;)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a666f57a1dfe31afed94084ee45161c24" name="a666f57a1dfe31afed94084ee45161c24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a666f57a1dfe31afed94084ee45161c24">&#9670;&#160;</a></span>gameFiltersCamelCaseMigrationPending()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gameFiltersCamelCaseMigrationPending </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>settingsPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_a666f57a1dfe31afed94084ee45161c24_cgraph.svg" width="476" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_a666f57a1dfe31afed94084ee45161c24_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="ace8e511ed4f74ce7424f06c9c5d9ddb3" name="ace8e511ed4f74ce7424f06c9c5d9ddb3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace8e511ed4f74ce7424f06c9c5d9ddb3">&#9670;&#160;</a></span>hasPendingGlobalIniSettings()</h2>
 
@@ -589,7 +628,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_aa6698c2c6c44ae11d59fe976c5c9b6b4_cgraph.svg" width="210" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_aa6698c2c6c44ae11d59fe976c5c9b6b4_cgraph.svg" width="440" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1011,7 +1050,87 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a87a9b144cfc285f2ed4f0ee3f1830c89" name="a87a9b144cfc285f2ed4f0ee3f1830c89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87a9b144cfc285f2ed4f0ee3f1830c89">&#9670;&#160;</a></span>renamedGameFilterKeys()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, QString &gt; &amp; renamedGameFilterKeys </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>gamefilters.ini keys renamed to camelCase by #7084. Profiles that migrated from the legacy native store before that rename still hold the old snake_case keys, which nothing reads anymore, so their saved filters silently stopped loading. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_a87a9b144cfc285f2ed4f0ee3f1830c89_cgraph.svg" width="194" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_a87a9b144cfc285f2ed4f0ee3f1830c89_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="a981962cd6562518f4e591b1db5a45516" name="a981962cd6562518f4e591b1db5a45516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a981962cd6562518f4e591b1db5a45516">&#9670;&#160;</a></span>GAME_FILTERS_GAME_TYPE_PREFIX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString GAME_FILTERS_GAME_TYPE_PREFIX = QStringLiteral(&quot;filter_games/gameType/&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a617a7b47b9e53eb76326c2553fe4008d" name="a617a7b47b9e53eb76326c2553fe4008d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a617a7b47b9e53eb76326c2553fe4008d">&#9670;&#160;</a></span>LEGACY_GAME_FILTERS_GAME_TYPE_PREFIX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString LEGACY_GAME_FILTERS_GAME_TYPE_PREFIX = QStringLiteral(&quot;filter_games/game_type/&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0c4daa27003dbe085fe9851617ed7ea2" name="a0c4daa27003dbe085fe9851617ed7ea2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c4daa27003dbe085fe9851617ed7ea2">&#9670;&#160;</a></span>MIGRATION_SENTINEL_KEY</h2>
 

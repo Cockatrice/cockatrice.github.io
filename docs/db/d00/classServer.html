@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -150,6 +150,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0ea9296edfae7441e5c42bf2d5ac4d49" id="r_a0ea9296edfae7441e5c42bf2d5ac4d49"><td class="memItemLeft">const <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, <a class="el" href="../../d0/d23/classServer__ProtocolHandler.html">Server_ProtocolHandler</a> * &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a0ea9296edfae7441e5c42bf2d5ac4d49">getUsers</a> () const</td></tr>
 <tr class="memitem:a7ede4e423c0595193a53a637fada6195" id="r_a7ede4e423c0595193a53a637fada6195"><td class="memItemLeft">const <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; qint64, <a class="el" href="../../d0/d23/classServer__ProtocolHandler.html">Server_ProtocolHandler</a> * &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a7ede4e423c0595193a53a637fada6195">getUsersBySessionId</a> () const</td></tr>
 <tr class="memitem:a14945b117af071bea5a3318822fd95d0" id="r_a14945b117af071bea5a3318822fd95d0"><td class="memItemLeft">virtual <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, bool &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a14945b117af071bea5a3318822fd95d0">getServerRequiredFeatureList</a> () const</td></tr>
+<tr class="memitem:a2399d5c9bf93d24178259bf77507b24b" id="r_a2399d5c9bf93d24178259bf77507b24b"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a2399d5c9bf93d24178259bf77507b24b">requiresChallengeResponseAuth</a> () const</td></tr>
+<tr class="memdesc:a2399d5c9bf93d24178259bf77507b24b"><td class="mdescLeft">&#160;</td><td class="mdescRight">True when only challenge-response logins are accepted (strict mode).  <br /></td></tr>
 <tr class="memitem:a8f1a3803c0d49910b33dce8b6eea850d" id="r_a8f1a3803c0d49910b33dce8b6eea850d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8f1a3803c0d49910b33dce8b6eea850d">addClient</a> (<a class="el" href="../../d0/d23/classServer__ProtocolHandler.html">Server_ProtocolHandler</a> *player)</td></tr>
 <tr class="memitem:a050f2edc18929a84b52aa4dbad4c0764" id="r_a050f2edc18929a84b52aa4dbad4c0764"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a050f2edc18929a84b52aa4dbad4c0764">removeClient</a> (<a class="el" href="../../d0/d23/classServer__ProtocolHandler.html">Server_ProtocolHandler</a> *player)</td></tr>
 <tr class="memitem:ae6c4972db8579c0cbdabc20d0d523aaf" id="r_ae6c4972db8579c0cbdabc20d0d523aaf"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ae6c4972db8579c0cbdabc20d0d523aaf">getOnlineModeratorList</a> () const</td></tr>
@@ -177,6 +179,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a935629c17763e02a205edfe7d6dc3d7d" id="r_a935629c17763e02a205edfe7d6dc3d7d"><td class="memItemLeft">virtual int&#160;</td><td class="memItemRight"><a class="el" href="#a935629c17763e02a205edfe7d6dc3d7d">getServerID</a> () const</td></tr>
 <tr class="memitem:aca2ff41050c7651ba85712c93d8d4637" id="r_aca2ff41050c7651ba85712c93d8d4637"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#aca2ff41050c7651ba85712c93d8d4637">permitCreateGameAsJudge</a> () const</td></tr>
 <tr class="memitem:a123c37fb2025993c211552ac39d941ed" id="r_a123c37fb2025993c211552ac39d941ed"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a123c37fb2025993c211552ac39d941ed">observeGameStartDurationMs</a> (qint64)</td></tr>
+<tr class="memitem:afef3e90e126a62dcf54038d3b245b9d2" id="r_afef3e90e126a62dcf54038d3b245b9d2"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#afef3e90e126a62dcf54038d3b245b9d2">recordFailedLogin</a> (const QString &amp;, const QString &amp;)</td></tr>
+<tr class="memdesc:afef3e90e126a62dcf54038d3b245b9d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Record a failed login attempt for the (address, username) pair; returns true if now locked out.  <br /></td></tr>
+<tr class="memitem:af2d74a65573e3093c84ce64474b1a7c8" id="r_af2d74a65573e3093c84ce64474b1a7c8"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#af2d74a65573e3093c84ce64474b1a7c8">isLoginRateLimited</a> (const QString &amp;, const QString &amp;)</td></tr>
+<tr class="memdesc:af2d74a65573e3093c84ce64474b1a7c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the (address, username) pair is already locked out of logging in.  <br /></td></tr>
+<tr class="memitem:a3a14067401805971b9023e4efc7d72b0" id="r_a3a14067401805971b9023e4efc7d72b0"><td class="memItemLeft">virtual int&#160;</td><td class="memItemRight"><a class="el" href="#a3a14067401805971b9023e4efc7d72b0">loginRateLimitRemainingSeconds</a> (const QString &amp;, const QString &amp;)</td></tr>
+<tr class="memdesc:a3a14067401805971b9023e4efc7d72b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seconds remaining before the login rate limit for the (address, username) pair lifts. Returns 0 if not limited.  <br /></td></tr>
+<tr class="memitem:a8bb6cd2411311ff0c85130d58337d94e" id="r_a8bb6cd2411311ff0c85130d58337d94e"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a8bb6cd2411311ff0c85130d58337d94e">clearFailedLogins</a> (const QString &amp;, const QString &amp;)</td></tr>
+<tr class="memdesc:a8bb6cd2411311ff0c85130d58337d94e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear any failed-login lockout for the (address, username) pair, e.g. after a successful login.  <br /></td></tr>
 <tr class="memitem:acbc52f94ef02ec5dd0a78531e5579f85" id="r_acbc52f94ef02ec5dd0a78531e5579f85"><td class="memItemLeft"><a class="el" href="../../d2/d12/classServer__DatabaseInterface.html">Server_DatabaseInterface</a> *&#160;</td><td class="memItemRight"><a class="el" href="#acbc52f94ef02ec5dd0a78531e5579f85">getDatabaseInterface</a> () const</td></tr>
 <tr class="memitem:ab9fab8cf8b7c60aeaa4be16997e122ad" id="r_ab9fab8cf8b7c60aeaa4be16997e122ad"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ab9fab8cf8b7c60aeaa4be16997e122ad">getNextLocalGameId</a> ()</td></tr>
 <tr class="memitem:ad98f3ebec5aed55fe6ca38d92985ff72" id="r_ad98f3ebec5aed55fe6ca38d92985ff72"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad98f3ebec5aed55fe6ca38d92985ff72">sendIsl_Response</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;item, int serverId=-1, qint64 sessionId=-1)</td></tr>
@@ -205,7 +215,7 @@ Protected Slots</h2></td></tr>
 <tr class="memitem:a33c39260d6154e7f2762fd1f42ea5574" id="r_a33c39260d6154e7f2762fd1f42ea5574"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a33c39260d6154e7f2762fd1f42ea5574">externalUserLeft</a> (const QString &amp;userName)</td></tr>
 <tr class="memitem:a6b4bb65d6a6dc76910bf3d0e9621e6dc" id="r_a6b4bb65d6a6dc76910bf3d0e9621e6dc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6b4bb65d6a6dc76910bf3d0e9621e6dc">externalRoomUserJoined</a> (int roomId, const <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &amp;userInfo)</td></tr>
 <tr class="memitem:ab4a77e51a2862760d993d5609e285de7" id="r_ab4a77e51a2862760d993d5609e285de7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab4a77e51a2862760d993d5609e285de7">externalRoomUserLeft</a> (int roomId, const QString &amp;userName)</td></tr>
-<tr class="memitem:a043a9eed1cd3e437bd525b598cb9b495" id="r_a043a9eed1cd3e437bd525b598cb9b495"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a043a9eed1cd3e437bd525b598cb9b495">externalRoomSay</a> (int roomId, const QString &amp;userName, const QString &amp;message)</td></tr>
+<tr class="memitem:afb7347ac37f4255e2f667b29c02d7e21" id="r_afb7347ac37f4255e2f667b29c02d7e21"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afb7347ac37f4255e2f667b29c02d7e21">externalRoomSay</a> (int roomId, const QString &amp;userName, const QString &amp;message, const QString &amp;channelId)</td></tr>
 <tr class="memitem:a639700317f5c1508040b64bb7c43a8e0" id="r_a639700317f5c1508040b64bb7c43a8e0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a639700317f5c1508040b64bb7c43a8e0">externalRoomRemoveMessages</a> (int roomId, const QString &amp;userName, int amount)</td></tr>
 <tr class="memitem:afd0bbd0176df65632d4f8ae6cb805827" id="r_afd0bbd0176df65632d4f8ae6cb805827"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afd0bbd0176df65632d4f8ae6cb805827">externalRoomGameListChanged</a> (int roomId, const <a class="el" href="../../d4/dbe/structServerInfo__Game.html">ServerInfo_Game</a> &amp;gameInfo)</td></tr>
 <tr class="memitem:a788482387416335455df80db85ea8b41" id="r_a788482387416335455df80db85ea8b41"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a788482387416335455df80db85ea8b41">externalJoinGameCommandReceived</a> (const <a class="el" href="../../df/da6/structCommand__JoinGame.html">Command_JoinGame</a> &amp;cmd, int cmdId, int roomId, int serverId, qint64 sessionId)</td></tr>
@@ -475,6 +485,44 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_ae6405e5ad9aa11de45d5487ff6452bb4_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8bb6cd2411311ff0c85130d58337d94e" name="a8bb6cd2411311ff0c85130d58337d94e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bb6cd2411311ff0c85130d58337d94e">&#9670;&#160;</a></span>clearFailedLogins()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Server::clearFailedLogins </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear any failed-login lockout for the (address, username) pair, e.g. after a successful login. </p>
+
+<p>Reimplemented in <a class="el" href="../../d5/d0e/classServatrice.html#a9c5849ca2dd3569febb4ac951899e717">Servatrice</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_a8bb6cd2411311ff0c85130d58337d94e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -760,7 +808,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_afd0bbd0176df65632d4f8ae6cb805827_cgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_afd0bbd0176df65632d4f8ae6cb805827_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -804,7 +852,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_a639700317f5c1508040b64bb7c43a8e0_cgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_a639700317f5c1508040b64bb7c43a8e0_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -814,8 +862,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a043a9eed1cd3e437bd525b598cb9b495" name="a043a9eed1cd3e437bd525b598cb9b495"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a043a9eed1cd3e437bd525b598cb9b495">&#9670;&#160;</a></span>externalRoomSay</h2>
+<a id="afb7347ac37f4255e2f667b29c02d7e21" name="afb7347ac37f4255e2f667b29c02d7e21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb7347ac37f4255e2f667b29c02d7e21">&#9670;&#160;</a></span>externalRoomSay</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -836,7 +884,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>message</em></span>&#160;)</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>message</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>channelId</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -848,12 +901,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_a043a9eed1cd3e437bd525b598cb9b495_cgraph.svg" width="100%" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_afb7347ac37f4255e2f667b29c02d7e21_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_a043a9eed1cd3e437bd525b598cb9b495_icgraph.svg" width="655" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_afb7347ac37f4255e2f667b29c02d7e21_icgraph.svg" width="655" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -887,7 +940,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_a6b4bb65d6a6dc76910bf3d0e9621e6dc_cgraph.svg" width="100%" height="461"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_a6b4bb65d6a6dc76910bf3d0e9621e6dc_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -926,7 +979,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_ab4a77e51a2862760d993d5609e285de7_cgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_ab4a77e51a2862760d993d5609e285de7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -2048,6 +2101,83 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af2d74a65573e3093c84ce64474b1a7c8" name="af2d74a65573e3093c84ce64474b1a7c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2d74a65573e3093c84ce64474b1a7c8">&#9670;&#160;</a></span>isLoginRateLimited()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Server::isLoginRateLimited </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if the (address, username) pair is already locked out of logging in. </p>
+<p>Consulted before any authentication work (database round trip, password verification) so a blocked pair cannot burn server CPU per attempt. </p>
+
+<p>Reimplemented in <a class="el" href="../../d5/d0e/classServatrice.html#a6c95fc605e95d3e468824c78092513c5">Servatrice</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_af2d74a65573e3093c84ce64474b1a7c8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a3a14067401805971b9023e4efc7d72b0" name="a3a14067401805971b9023e4efc7d72b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a14067401805971b9023e4efc7d72b0">&#9670;&#160;</a></span>loginRateLimitRemainingSeconds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Server::loginRateLimitRemainingSeconds </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Seconds remaining before the login rate limit for the (address, username) pair lifts. Returns 0 if not limited. </p>
+
+<p>Reimplemented in <a class="el" href="../../d5/d0e/classServatrice.html#a6d4d2103888c73992213d1fdee00a2b8">Servatrice</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_a3a14067401805971b9023e4efc7d72b0_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a5de08fbf684ccdbeb508b1fe53f38481" name="a5de08fbf684ccdbeb508b1fe53f38481"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5de08fbf684ccdbeb508b1fe53f38481">&#9670;&#160;</a></span>loginUser()</h2>
 
@@ -2271,6 +2401,45 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="afef3e90e126a62dcf54038d3b245b9d2" name="afef3e90e126a62dcf54038d3b245b9d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afef3e90e126a62dcf54038d3b245b9d2">&#9670;&#160;</a></span>recordFailedLogin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Server::recordFailedLogin </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Record a failed login attempt for the (address, username) pair; returns true if now locked out. </p>
+<p>Keyed by pair so a successful login as one user cannot wipe out another user's failure history from the same address (e.g. a guest login or the attacker's own account clearing the way for further guessing). </p>
+
+<p>Reimplemented in <a class="el" href="../../d5/d0e/classServatrice.html#a94cadc3a74bac26412443025cc7baf56">Servatrice</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_afef3e90e126a62dcf54038d3b245b9d2_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a050f2edc18929a84b52aa4dbad4c0764" name="a050f2edc18929a84b52aa4dbad4c0764"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a050f2edc18929a84b52aa4dbad4c0764">&#9670;&#160;</a></span>removeClient()</h2>
 
@@ -2335,6 +2504,40 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_a5510eb79f0e72b283c8aa9b2d4564fa6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a2399d5c9bf93d24178259bf77507b24b" name="a2399d5c9bf93d24178259bf77507b24b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2399d5c9bf93d24178259bf77507b24b">&#9670;&#160;</a></span>requiresChallengeResponseAuth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Server::requiresChallengeResponseAuth </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True when only challenge-response logins are accepted (strict mode). </p>
+
+<p>Reimplemented in <a class="el" href="../../d5/d0e/classServatrice.html#a6fbadbae3fb5bd1e67fee6107c3ea448">Servatrice</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d00/classServer_a2399d5c9bf93d24178259bf77507b24b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

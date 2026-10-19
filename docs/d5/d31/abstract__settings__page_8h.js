@@ -1,5 +1,6 @@
 var abstract__settings__page_8h =
 [
+    [ "SettingsPageSection", "d4/dab/structSettingsPageSection.html", "d4/dab/structSettingsPageSection" ],
     [ "AbstractSettingsPage", "d0/d4c/classAbstractSettingsPage.html", "d0/d4c/classAbstractSettingsPage" ],
     [ "WIKI_CUSTOM_PIC_URL", "d5/d31/abstract__settings__page_8h.html#aadd046b665ebbee46381d48dc1ca2250", null ],
     [ "WIKI_CUSTOM_SHORTCUTS", "d5/d31/abstract__settings__page_8h.html#ab72739ab99172d24dee0595f91b97f0a", null ],

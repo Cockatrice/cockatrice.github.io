@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -177,6 +177,7 @@ Private Slots</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a9816bd239db2fe49cb2404cc0281db58" id="r_a9816bd239db2fe49cb2404cc0281db58"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9816bd239db2fe49cb2404cc0281db58">tryCreateVisualDeckStorageWidget</a> ()</td></tr>
 <tr class="memitem:a190cf8d64942519edba4f020d6611a4e" id="r_a190cf8d64942519edba4f020d6611a4e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a190cf8d64942519edba4f020d6611a4e">sendReadyStartCommand</a> (bool ready)</td></tr>
+<tr class="memitem:ad84cea8580b9671d43442bb9046aa7a6" id="r_ad84cea8580b9671d43442bb9046aa7a6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad84cea8580b9671d43442bb9046aa7a6">notifyPlaymatBlacklisted</a> (const QString &amp;cardName, const QString &amp;message)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -199,6 +200,8 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:ad9532ce9ca2982631cab8231f9f569fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cached deck for live settings re-resolution.  <br /></td></tr>
 <tr class="memitem:add3ccd6be81f904876a17149761f96bc" id="r_add3ccd6be81f904876a17149761f96bc"><td class="memItemLeft"><a class="el" href="../../d1/d3c/structPlaymatInfo.html">PlaymatInfo</a>&#160;</td><td class="memItemRight"><a class="el" href="#add3ccd6be81f904876a17149761f96bc">lastResolvedPlaymat</a></td></tr>
 <tr class="memdesc:add3ccd6be81f904876a17149761f96bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tracks last sent playmat to avoid repeats in random mode.  <br /></td></tr>
+<tr class="memitem:a547d15e88b9a3cabf92f1b395d67d3c6" id="r_a547d15e88b9a3cabf92f1b395d67d3c6"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a547d15e88b9a3cabf92f1b395d67d3c6">lastBlacklistedPlaymatNotice</a></td></tr>
+<tr class="memdesc:a547d15e88b9a3cabf92f1b395d67d3c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Card name already reported as blacklisted, to avoid repeat popups.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This widget contains the deck selection view that is used before a game begins. </p>
@@ -593,6 +596,40 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/ddd/classDeckViewContainer_ae4fea6343deb13f6d77bae17d4cffcdc_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad84cea8580b9671d43442bb9046aa7a6" name="ad84cea8580b9671d43442bb9046aa7a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad84cea8580b9671d43442bb9046aa7a6">&#9670;&#160;</a></span>notifyPlaymatBlacklisted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckViewContainer::notifyPlaymatBlacklisted </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>cardName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>message</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/ddd/classDeckViewContainer_ad84cea8580b9671d43442bb9046aa7a6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1265,6 +1302,30 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a547d15e88b9a3cabf92f1b395d67d3c6" name="a547d15e88b9a3cabf92f1b395d67d3c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a547d15e88b9a3cabf92f1b395d67d3c6">&#9670;&#160;</a></span>lastBlacklistedPlaymatNotice</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DeckViewContainer::lastBlacklistedPlaymatNotice</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Card name already reported as blacklisted, to avoid repeat popups. </p>
 
 </div>
 </div>

@@ -33,6 +33,7 @@ var classServersSettings =
     [ "setPreviousHostList", "df/db1/classServersSettings.html#a8436f13d3dbef9de86b6b41616aed38d", null ],
     [ "setPreviousHostLogin", "df/db1/classServersSettings.html#a0742cf1f663eaaaccddae7bf6f03b670", null ],
     [ "setPrevioushostName", "df/db1/classServersSettings.html#afeb990c966579675eb8f7a15b340ed79", null ],
+    [ "setServerPassword", "df/db1/classServersSettings.html#a97aa7d8ec7fcba8f23f621423be1f25a", null ],
     [ "setSite", "df/db1/classServersSettings.html#a0df26f6eb4dd1b4dccbe671517dfd2c3", null ],
     [ "updateExistingServer", "df/db1/classServersSettings.html#ac19792f9f126c3cd7bbd1ff14222843d", null ],
     [ "updateExistingServerWithoutLoss", "df/db1/classServersSettings.html#a04dd481e4840600a420c7423c4c2c148", null ],

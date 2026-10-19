@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -149,7 +149,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aae6a9c646c37f8a91efe5b8d6b68e785" id="r_aae6a9c646c37f8a91efe5b8d6b68e785"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aae6a9c646c37f8a91efe5b8d6b68e785">registerToServer</a> ()</td></tr>
 <tr class="memitem:af7eacd3e8f77b7c5d5007f579bec4e5b" id="r_af7eacd3e8f77b7c5d5007f579bec4e5b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af7eacd3e8f77b7c5d5007f579bec4e5b">forgotPasswordRequest</a> ()</td></tr>
 <tr class="memitem:a561ee23b1c44ec274a5df7bf4987365a" id="r_a561ee23b1c44ec274a5df7bf4987365a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a561ee23b1c44ec274a5df7bf4987365a">connectToServer</a> ()</td></tr>
-<tr class="memitem:ac5c2a5f23e1e900dfa57cdc8d8503f86" id="r_ac5c2a5f23e1e900dfa57cdc8d8503f86"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac5c2a5f23e1e900dfa57cdc8d8503f86">connectToServerDirect</a> (const QString &amp;host, unsigned int port, const QString &amp;playerName, const QString &amp;password)</td></tr>
+<tr class="memitem:af143c113c48f05d3fd71424a8b4c3117" id="r_af143c113c48f05d3fd71424a8b4c3117"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af143c113c48f05d3fd71424a8b4c3117">connectToServerDirect</a> (const QString &amp;host, unsigned int port, const QString &amp;playerName, const QString &amp;password, const QString &amp;storedVerifier=QString(), const QString &amp;saveName=QString(), bool savePassword=false)</td></tr>
 <tr class="memitem:a0e986feb4c78e2d39cf3d202bf93a7f8" id="r_a0e986feb4c78e2d39cf3d202bf93a7f8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0e986feb4c78e2d39cf3d202bf93a7f8">disconnectFromServer</a> ()</td></tr>
 <tr class="memitem:a000228756d1d995721b640f7cb21a6e5" id="r_a000228756d1d995721b640f7cb21a6e5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a000228756d1d995721b640f7cb21a6e5">refreshWindowTitle</a> ()</td></tr>
 </table><table class="memberdecls">
@@ -173,6 +173,7 @@ Private Slots</h2></td></tr>
 <tr class="memitem:aabd9160c89a0563dadad3022ad62b2e9" id="r_aabd9160c89a0563dadad3022ad62b2e9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aabd9160c89a0563dadad3022ad62b2e9">onForgotPasswordError</a> ()</td></tr>
 <tr class="memitem:a392612f0126d8c88e98e3ca85f755754" id="r_a392612f0126d8c88e98e3ca85f755754"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a392612f0126d8c88e98e3ca85f755754">onPromptForgotPasswordReset</a> ()</td></tr>
 <tr class="memitem:ac44cbb866667627d00d44489a91cb05e" id="r_ac44cbb866667627d00d44489a91cb05e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac44cbb866667627d00d44489a91cb05e">onPromptForgotPasswordChallenge</a> ()</td></tr>
+<tr class="memitem:acdbcee12481a3a1fa7f0381e53f19b6c" id="r_acdbcee12481a3a1fa7f0381e53f19b6c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acdbcee12481a3a1fa7f0381e53f19b6c">onPasswordVerifierReady</a> (const QString &amp;verifier)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -190,6 +191,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a1798d1bf4fa64a4f20c5bf089b2d5353" id="r_a1798d1bf4fa64a4f20c5bf089b2d5353"><td class="memItemLeft">QWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a1798d1bf4fa64a4f20c5bf089b2d5353">dialogParent</a> {nullptr}</td></tr>
 <tr class="memitem:a24d9fe3a8efff40d255de32e0f12b95b" id="r_a24d9fe3a8efff40d255de32e0f12b95b"><td class="memItemLeft">QMessageBox&#160;</td><td class="memItemRight"><a class="el" href="#a24d9fe3a8efff40d255de32e0f12b95b">serverShutdownMessageBox</a></td></tr>
 <tr class="memitem:af1c826845b7bf42e3c0432a5d96ba8b0" id="r_af1c826845b7bf42e3c0432a5d96ba8b0"><td class="memItemLeft"><a class="el" href="../../d3/da4/classDlgConnect.html">DlgConnect</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af1c826845b7bf42e3c0432a5d96ba8b0">dlgConnect</a> {nullptr}</td></tr>
+<tr class="memitem:a13a7c3ca49593b6dc52ea52a0ac82dff" id="r_a13a7c3ca49593b6dc52ea52a0ac82dff"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a13a7c3ca49593b6dc52ea52a0ac82dff">pendingSaveName</a></td></tr>
+<tr class="memitem:a48ef6fc6201e06c716af7b526a678a5a" id="r_a48ef6fc6201e06c716af7b526a678a5a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a48ef6fc6201e06c716af7b526a678a5a">pendingSavePassword</a> {false}</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Owns the <a class="el" href="../../db/d53/classRemoteClient.html">RemoteClient</a> and its worker thread. Encapsulates all connection, authentication, and registration logic so that <a class="el" href="../../d6/d1a/classMainWindow.html">MainWindow</a> only needs to react to high-level signals. </p>
@@ -316,8 +319,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ac5c2a5f23e1e900dfa57cdc8d8503f86" name="ac5c2a5f23e1e900dfa57cdc8d8503f86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5c2a5f23e1e900dfa57cdc8d8503f86">&#9670;&#160;</a></span>connectToServerDirect()</h2>
+<a id="af143c113c48f05d3fd71424a8b4c3117" name="af143c113c48f05d3fd71424a8b4c3117"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af143c113c48f05d3fd71424a8b4c3117">&#9670;&#160;</a></span>connectToServerDirect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,19 +343,34 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>password</em></span>&#160;)</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>password</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>storedVerifier</em></span><span class="paramdefsep"> = </span><span class="paramdefval">QString()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>saveName</em></span><span class="paramdefsep"> = </span><span class="paramdefval">QString()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>savePassword</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d97/classConnectionController_ac5c2a5f23e1e900dfa57cdc8d8503f86_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d97/classConnectionController_af143c113c48f05d3fd71424a8b4c3117_cgraph.svg" width="100%" height="370"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d97/classConnectionController_ac5c2a5f23e1e900dfa57cdc8d8503f86_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d97/classConnectionController_af143c113c48f05d3fd71424a8b4c3117_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -691,6 +709,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="acdbcee12481a3a1fa7f0381e53f19b6c" name="acdbcee12481a3a1fa7f0381e53f19b6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdbcee12481a3a1fa7f0381e53f19b6c">&#9670;&#160;</a></span>onPasswordVerifierReady</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConnectionController::onPasswordVerifierReady </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>verifier</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d97/classConnectionController_acdbcee12481a3a1fa7f0381e53f19b6c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d97/classConnectionController_acdbcee12481a3a1fa7f0381e53f19b6c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="ac44cbb866667627d00d44489a91cb05e" name="ac44cbb866667627d00d44489a91cb05e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac44cbb866667627d00d44489a91cb05e">&#9670;&#160;</a></span>onPromptForgotPasswordChallenge</h2>
 
@@ -716,7 +769,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d97/classConnectionController_ac44cbb866667627d00d44489a91cb05e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d4/d97/classConnectionController_ac44cbb866667627d00d44489a91cb05e_cgraph.svg" width="100%" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1421,6 +1474,50 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d3/da4/classDlgConnect.html">DlgConnect</a>* ConnectionController::dlgConnect {nullptr}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13a7c3ca49593b6dc52ea52a0ac82dff" name="a13a7c3ca49593b6dc52ea52a0ac82dff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13a7c3ca49593b6dc52ea52a0ac82dff">&#9670;&#160;</a></span>pendingSaveName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString ConnectionController::pendingSaveName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a48ef6fc6201e06c716af7b526a678a5a" name="a48ef6fc6201e06c716af7b526a678a5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48ef6fc6201e06c716af7b526a678a5a">&#9670;&#160;</a></span>pendingSavePassword</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ConnectionController::pendingSavePassword {false}</td>
         </tr>
       </table>
   </td>

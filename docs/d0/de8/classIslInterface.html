@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -145,7 +145,7 @@ Signals</h2></td></tr>
 <tr class="memitem:afc7358f825629844b0e46c332d0c24e0" id="r_afc7358f825629844b0e46c332d0c24e0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afc7358f825629844b0e46c332d0c24e0">externalUserLeft</a> (QString userName)</td></tr>
 <tr class="memitem:aff57b21db13df02491512785e99e73f1" id="r_aff57b21db13df02491512785e99e73f1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aff57b21db13df02491512785e99e73f1">externalRoomUserJoined</a> (int roomId, <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> userInfo)</td></tr>
 <tr class="memitem:a5b5523dfc407549f1cdeec67dd80817b" id="r_a5b5523dfc407549f1cdeec67dd80817b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5b5523dfc407549f1cdeec67dd80817b">externalRoomUserLeft</a> (int roomId, QString userName)</td></tr>
-<tr class="memitem:a7c9b59d214339fee74fbc8a74677f5c6" id="r_a7c9b59d214339fee74fbc8a74677f5c6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7c9b59d214339fee74fbc8a74677f5c6">externalRoomSay</a> (int roomId, QString userName, QString message)</td></tr>
+<tr class="memitem:adca323424cee7392a7c96661970c3ff0" id="r_adca323424cee7392a7c96661970c3ff0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adca323424cee7392a7c96661970c3ff0">externalRoomSay</a> (int roomId, QString userName, QString message, QString channelId)</td></tr>
 <tr class="memitem:afc3e34cfbc7b275ad8984c1f543cd970" id="r_afc3e34cfbc7b275ad8984c1f543cd970"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afc3e34cfbc7b275ad8984c1f543cd970">externalRoomGameListChanged</a> (int roomId, <a class="el" href="../../d4/dbe/structServerInfo__Game.html">ServerInfo_Game</a> gameInfo)</td></tr>
 <tr class="memitem:a4e4b3267748e81e521db5b69714b7cc0" id="r_a4e4b3267748e81e521db5b69714b7cc0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4e4b3267748e81e521db5b69714b7cc0">externalRoomRemoveMessages</a> (int roomId, QString userName, int amount)</td></tr>
 <tr class="memitem:af78c4565162317d450971c8741e429a1" id="r_af78c4565162317d450971c8741e429a1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af78c4565162317d450971c8741e429a1">joinGameCommandReceived</a> (const <a class="el" href="../../df/da6/structCommand__JoinGame.html">Command_JoinGame</a> &amp;cmd, int cmdId, int roomId, int serverId, qint64 sessionId)</td></tr>
@@ -174,6 +174,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a115d35c8466d519f0f94f41f987dbe1d" id="r_a115d35c8466d519f0f94f41f987dbe1d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a115d35c8466d519f0f94f41f987dbe1d">roomEvent_UserJoined</a> (int roomId, const <a class="el" href="../../de/d73/structEvent__JoinRoom.html">Event_JoinRoom</a> &amp;event)</td></tr>
 <tr class="memitem:aa88b1d73ae556f8e7e0a7ef25364ade9" id="r_aa88b1d73ae556f8e7e0a7ef25364ade9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa88b1d73ae556f8e7e0a7ef25364ade9">roomEvent_UserLeft</a> (int roomId, const <a class="el" href="../../d8/dd0/structEvent__LeaveRoom.html">Event_LeaveRoom</a> &amp;event)</td></tr>
 <tr class="memitem:a9b8c9fa5f82a19cfd0edcc94ab90ebd2" id="r_a9b8c9fa5f82a19cfd0edcc94ab90ebd2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9b8c9fa5f82a19cfd0edcc94ab90ebd2">roomEvent_Say</a> (int roomId, const <a class="el" href="../../d9/d02/structEvent__RoomSay.html">Event_RoomSay</a> &amp;event)</td></tr>
+<tr class="memitem:a029bd168c0a87e033a72cbd1b3a89119" id="r_a029bd168c0a87e033a72cbd1b3a89119"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a029bd168c0a87e033a72cbd1b3a89119">roomEvent_ChannelSay</a> (int roomId, const <a class="el" href="../../d6/d4a/structEvent__RoomChannelSay.html">Event_RoomChannelSay</a> &amp;event)</td></tr>
 <tr class="memitem:a0e9be0299f2c1293e55c0725749d5c1b" id="r_a0e9be0299f2c1293e55c0725749d5c1b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0e9be0299f2c1293e55c0725749d5c1b">roomEvent_ListGames</a> (int roomId, const <a class="el" href="../../da/d45/structEvent__ListGames.html">Event_ListGames</a> &amp;event)</td></tr>
 <tr class="memitem:a406ad71e5a4ed05587929a4436e72a78" id="r_a406ad71e5a4ed05587929a4436e72a78"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a406ad71e5a4ed05587929a4436e72a78">roomEvent_RemoveMessages</a> (int roomId, const <a class="el" href="../../da/d7d/structEvent__RemoveMessages.html">Event_RemoveMessages</a> &amp;event)</td></tr>
 <tr class="memitem:a55bafc2d63e06900210cb9b3527d517c" id="r_a55bafc2d63e06900210cb9b3527d517c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a55bafc2d63e06900210cb9b3527d517c">roomCommand_JoinGame</a> (const <a class="el" href="../../df/da6/structCommand__JoinGame.html">Command_JoinGame</a> &amp;cmd, int cmdId, int roomId, qint64 sessionId)</td></tr>
@@ -423,8 +424,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a7c9b59d214339fee74fbc8a74677f5c6" name="a7c9b59d214339fee74fbc8a74677f5c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c9b59d214339fee74fbc8a74677f5c6">&#9670;&#160;</a></span>externalRoomSay</h2>
+<a id="adca323424cee7392a7c96661970c3ff0" name="adca323424cee7392a7c96661970c3ff0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adca323424cee7392a7c96661970c3ff0">&#9670;&#160;</a></span>externalRoomSay</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,7 +446,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>message</em></span>&#160;)</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>message</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>channelId</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -457,7 +463,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/de8/classIslInterface_a7c9b59d214339fee74fbc8a74677f5c6_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/de8/classIslInterface_adca323424cee7392a7c96661970c3ff0_icgraph.svg" width="100%" height="376"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -941,7 +947,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/de8/classIslInterface_a4a71b4b24f60e4262b25f096ebe1f6b8_cgraph.svg" width="100%" height="576"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/de8/classIslInterface_a4a71b4b24f60e4262b25f096ebe1f6b8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1104,6 +1110,45 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/de8/classIslInterface_a55bafc2d63e06900210cb9b3527d517c_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a029bd168c0a87e033a72cbd1b3a89119" name="a029bd168c0a87e033a72cbd1b3a89119"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a029bd168c0a87e033a72cbd1b3a89119">&#9670;&#160;</a></span>roomEvent_ChannelSay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IslInterface::roomEvent_ChannelSay </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>roomId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d6/d4a/structEvent__RoomChannelSay.html">Event_RoomChannelSay</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/de8/classIslInterface_a029bd168c0a87e033a72cbd1b3a89119_cgraph.svg" width="452" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/de8/classIslInterface_a029bd168c0a87e033a72cbd1b3a89119_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

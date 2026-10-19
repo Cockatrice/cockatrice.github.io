@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,6 +121,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d8/da8/cockatr
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../da/dd7/cockatrice_2src_2main_8h_source.html">main.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d06/crash__reporter_8h_source.html">client/crash/crash_reporter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d5d/spoiler__background__updater_8h_source.html">client/network/update/card_spoiler/spoiler_background_updater.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">client/settings/cache_settings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d9b/sound__engine_8h_source.html">client/sound_engine.h</a>&quot;</code><br />
@@ -131,6 +132,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d8/da8/cockatr
 <code>#include &quot;<a class="el" href="../../d1/d8c/logger_8h_source.html">interface/logger.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/d73/pixel__map__generator_8h_source.html">interface/pixel_map_generator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d65/theme__manager_8h_source.html">interface/theme_manager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/dbc/dlg__crash__report_8h_source.html">interface/widgets/dialogs/dlg_crash_report.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/df4/window__main_8h_source.html">interface/window_main.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/d66/card__database_8h_source.html">libcockatrice/card/database/card_database.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d04/rng__abstract_8h_source.html">libcockatrice/rng/rng_abstract.h</a>&quot;</code><br />
@@ -181,6 +183,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a9f8b1077cdf88022508dd967530d4e8b" id="r_a9f8b1077cdf88022508dd967530d4e8b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9f8b1077cdf88022508dd967530d4e8b">installNewTranslator</a> ()</td></tr>
 <tr class="memitem:ac17970b6e74cf0873edb278df612c2b9" id="r_ac17970b6e74cf0873edb278df612c2b9"><td class="memItemLeft">QString const&#160;</td><td class="memItemRight"><a class="el" href="#ac17970b6e74cf0873edb278df612c2b9">generateClientID</a> ()</td></tr>
 <tr class="memitem:a322c63a4a5b71366f6e1dac2579e5e3a" id="r_a322c63a4a5b71366f6e1dac2579e5e3a"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#a322c63a4a5b71366f6e1dac2579e5e3a">redactActivationUrl</a> (const QString &amp;url)</td></tr>
+<tr class="memitem:a7ecd2092e2222cadbc29eedadeb32186" id="r_a7ecd2092e2222cadbc29eedadeb32186"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a7ecd2092e2222cadbc29eedadeb32186">runCrashReportFlow</a> (<a class="el" href="../../d6/dc2/classCrashReporter.html">CrashReporter</a> &amp;crashReporter, QWidget *parent, int attachedEnvelopes)</td></tr>
+<tr class="memdesc:a7ecd2092e2222cadbc29eedadeb32186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the startup crash-report flow for an unclean exit (or &ndash;simulate-crash).  <br /></td></tr>
 <tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97" id="r_a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
@@ -355,6 +359,59 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/da8/cockatrice_2src_2main_8cpp_a322c63a4a5b71366f6e1dac2579e5e3a_icgraph.svg" width="364" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a7ecd2092e2222cadbc29eedadeb32186" name="a7ecd2092e2222cadbc29eedadeb32186"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ecd2092e2222cadbc29eedadeb32186">&#9670;&#160;</a></span>runCrashReportFlow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void runCrashReportFlow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/dc2/classCrashReporter.html">CrashReporter</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>crashReporter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QWidget *</td>          <td class="paramname"><span class="paramname"><em>parent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>attachedEnvelopes</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Run the startup crash-report flow for an unclean exit (or &ndash;simulate-crash). </p>
+<p>With a configured DSN the SDK owns capture and upload (consent-gated); with an empty DSN the flow falls back to a local mock file. AlwaysSend uploads silently (the log was folded into the pending native envelope(s) at startup); Ask offers the dialog; NeverSend skips silently.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">attachedEnvelopes</td><td>number of pending native envelopes that already carry the redacted log, so an AlwaysSend run only sends a standalone log event when no crash event existed. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/da8/cockatrice_2src_2main_8cpp_a7ecd2092e2222cadbc29eedadeb32186_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/da8/cockatrice_2src_2main_8cpp_a7ecd2092e2222cadbc29eedadeb32186_icgraph.svg" width="371" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -125,6 +125,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d3/d30/logger_
 <code>#include &lt;QApplication&gt;</code><br />
 <code>#include &lt;QDateTime&gt;</code><br />
 <code>#include &lt;QDebug&gt;</code><br />
+<code>#include &lt;QDir&gt;</code><br />
+<code>#include &lt;QFileInfo&gt;</code><br />
 <code>#include &lt;QFlags&gt;</code><br />
 <code>#include &lt;QIODevice&gt;</code><br />
 <code>#include &lt;QLocale&gt;</code><br />
@@ -145,6 +147,9 @@ Include dependency graph for logger.cpp:</div>
 Macros</h2></td></tr>
 <tr class="memitem:a7e1c57336f7d35d4ea8462240846ba21" id="r_a7e1c57336f7d35d4ea8462240846ba21"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a7e1c57336f7d35d4ea8462240846ba21">LOGGER_MAX_ENTRIES</a>&#160;&#160;&#160;128</td></tr>
 <tr class="memitem:a20c9e99e2d65225802d7bdb1cb9c4cc1" id="r_a20c9e99e2d65225802d7bdb1cb9c4cc1"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a20c9e99e2d65225802d7bdb1cb9c4cc1">LOGGER_FILENAME</a>&#160;&#160;&#160;&quot;qdebug.txt&quot;</td></tr>
+<tr class="memitem:a734a21ade1d6ac7563c99a814380df83" id="r_a734a21ade1d6ac7563c99a814380df83"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a734a21ade1d6ac7563c99a814380df83">LOGGER_SESSION_MARKER</a>&#160;&#160;&#160;&quot;Log session started at&quot;</td></tr>
+<tr class="memitem:a74ebf23d10029b110ac353aa0df75f00" id="r_a74ebf23d10029b110ac353aa0df75f00"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a74ebf23d10029b110ac353aa0df75f00">LOGGER_PERSISTENT_MAX_BYTES</a>&#160;&#160;&#160;(512 * 1024)</td></tr>
+<tr class="memitem:a5ca794ba2ed2c53146017b9387f68769" id="r_a5ca794ba2ed2c53146017b9387f68769"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a5ca794ba2ed2c53146017b9387f68769">LOGGER_PERSISTENT_KEEP_LINES</a>&#160;&#160;&#160;2000</td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
 <a id="a20c9e99e2d65225802d7bdb1cb9c4cc1" name="a20c9e99e2d65225802d7bdb1cb9c4cc1"></a>
@@ -169,6 +174,48 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define LOGGER_MAX_ENTRIES&#160;&#160;&#160;128</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ca794ba2ed2c53146017b9387f68769" name="a5ca794ba2ed2c53146017b9387f68769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ca794ba2ed2c53146017b9387f68769">&#9670;&#160;</a></span>LOGGER_PERSISTENT_KEEP_LINES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOGGER_PERSISTENT_KEEP_LINES&#160;&#160;&#160;2000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74ebf23d10029b110ac353aa0df75f00" name="a74ebf23d10029b110ac353aa0df75f00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74ebf23d10029b110ac353aa0df75f00">&#9670;&#160;</a></span>LOGGER_PERSISTENT_MAX_BYTES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOGGER_PERSISTENT_MAX_BYTES&#160;&#160;&#160;(512 * 1024)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a734a21ade1d6ac7563c99a814380df83" name="a734a21ade1d6ac7563c99a814380df83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a734a21ade1d6ac7563c99a814380df83">&#9670;&#160;</a></span>LOGGER_SESSION_MARKER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOGGER_SESSION_MARKER&#160;&#160;&#160;&quot;Log session started at&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">

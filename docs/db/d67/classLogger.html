@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -147,10 +147,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aed940a5ab00fdb60a5d6bee83db04524" id="r_aed940a5ab00fdb60a5d6bee83db04524"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#aed940a5ab00fdb60a5d6bee83db04524">getSystemLocale</a> ()</td></tr>
 <tr class="memitem:a43ffb2434b9a620beb8935fa78d648a1" id="r_a43ffb2434b9a620beb8935fa78d648a1"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a43ffb2434b9a620beb8935fa78d648a1">getClientInstallInfo</a> ()</td></tr>
 <tr class="memitem:acfa7b3fb8d0550befb8bcd5308d7675a" id="r_acfa7b3fb8d0550befb8bcd5308d7675a"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt;&#160;</td><td class="memItemRight"><a class="el" href="#acfa7b3fb8d0550befb8bcd5308d7675a">getLogBuffer</a> ()</td></tr>
+<tr class="memitem:a29da04ece29c67541a1b88d098394d89" id="r_a29da04ece29c67541a1b88d098394d89"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a29da04ece29c67541a1b88d098394d89">setPersistentLogPath</a> (const QString &amp;path)</td></tr>
+<tr class="memitem:a37c9f9207d62b1db605c9fb19f1011b1" id="r_a37c9f9207d62b1db605c9fb19f1011b1"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a37c9f9207d62b1db605c9fb19f1011b1">getPreviousSessionTail</a> (int maxLines=60) const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a56defd0fd628ce6263d25d02296e48ce" id="r_a56defd0fd628ce6263d25d02296e48ce"><td class="memItemLeft">static <a class="el" href="../../db/d67/classLogger.html">Logger</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a56defd0fd628ce6263d25d02296e48ce">getInstance</a> ()</td></tr>
+<tr class="memitem:aff057b181f0fae09b297a3eeed54dff6" id="r_aff057b181f0fae09b297a3eeed54dff6"><td class="memItemLeft">static <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aff057b181f0fae09b297a3eeed54dff6">extractPreviousSessionTail</a> (const QString &amp;filePath, int maxLines=60)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-slots" class="groupheader"><a id="pro-slots" name="pro-slots"></a>
 Protected Slots</h2></td></tr>
@@ -160,6 +163,9 @@ Protected Slots</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:abc7d371802ceb2154a5cfb9209a62551" id="r_abc7d371802ceb2154a5cfb9209a62551"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abc7d371802ceb2154a5cfb9209a62551">openLogfileSession</a> ()</td></tr>
 <tr class="memitem:af1a8490c7d7652060c17347ded72e910" id="r_af1a8490c7d7652060c17347ded72e910"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af1a8490c7d7652060c17347ded72e910">closeLogfileSession</a> ()</td></tr>
+<tr class="memitem:a350d816ab7df0642b05c76869acd8b29" id="r_a350d816ab7df0642b05c76869acd8b29"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a350d816ab7df0642b05c76869acd8b29">openPersistentLog</a> (const QString &amp;path)</td></tr>
+<tr class="memitem:a3af0332936765cdd60c8e4d0e8958b0f" id="r_a3af0332936765cdd60c8e4d0e8958b0f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3af0332936765cdd60c8e4d0e8958b0f">prunePersistentLog</a> (const QString &amp;path)</td></tr>
+<tr class="memitem:aee54e69fc4bd2094db6ab720d3ebf616" id="r_aee54e69fc4bd2094db6ab720d3ebf616"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aee54e69fc4bd2094db6ab720d3ebf616">closePersistentLogSession</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -175,6 +181,10 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a1e3fcd8d71fa75bd75ee7eb02eb79de8" id="r_a1e3fcd8d71fa75bd75ee7eb02eb79de8"><td class="memItemLeft">QFile&#160;</td><td class="memItemRight"><a class="el" href="#a1e3fcd8d71fa75bd75ee7eb02eb79de8">fileHandle</a></td></tr>
 <tr class="memitem:aad38a42954355a3142e0f6fa0c3a44b1" id="r_aad38a42954355a3142e0f6fa0c3a44b1"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aad38a42954355a3142e0f6fa0c3a44b1">logBuffer</a></td></tr>
 <tr class="memitem:a724e09b39b88c5a880f2405a260949cb" id="r_a724e09b39b88c5a880f2405a260949cb"><td class="memItemLeft">QMutex&#160;</td><td class="memItemRight"><a class="el" href="#a724e09b39b88c5a880f2405a260949cb">mutex</a></td></tr>
+<tr class="memitem:a18a25407baacdfc5dfcac1656ca5eec3" id="r_a18a25407baacdfc5dfcac1656ca5eec3"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a18a25407baacdfc5dfcac1656ca5eec3">persistentLogPath</a></td></tr>
+<tr class="memitem:a6ad8a672c110900c32f413ab4163f18a" id="r_a6ad8a672c110900c32f413ab4163f18a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a6ad8a672c110900c32f413ab4163f18a">persistentLogEnabled</a></td></tr>
+<tr class="memitem:a3077870ebb0ff6528d5c1333c84a61dc" id="r_a3077870ebb0ff6528d5c1333c84a61dc"><td class="memItemLeft">QTextStream&#160;</td><td class="memItemRight"><a class="el" href="#a3077870ebb0ff6528d5c1333c84a61dc">persistentFileStream</a></td></tr>
+<tr class="memitem:a562f2b86b65ba6669cb087ac9b8aa069" id="r_a562f2b86b65ba6669cb087ac9b8aa069"><td class="memItemLeft">QFile&#160;</td><td class="memItemRight"><a class="el" href="#a562f2b86b65ba6669cb087ac9b8aa069">persistentFileHandle</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abc41bfb031d896170c7675fa96a6b30c" name="abc41bfb031d896170c7675fa96a6b30c"></a>
@@ -237,7 +247,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d67/classLogger_afee741267f0de25da55208a6424eb84f_cgraph.svg" width="390" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d67/classLogger_afee741267f0de25da55208a6424eb84f_cgraph.svg" width="390" height="102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -299,6 +309,70 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d67/classLogger_af1a8490c7d7652060c17347ded72e910_icgraph.svg" width="596" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aee54e69fc4bd2094db6ab720d3ebf616" name="aee54e69fc4bd2094db6ab720d3ebf616"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee54e69fc4bd2094db6ab720d3ebf616">&#9670;&#160;</a></span>closePersistentLogSession()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Logger::closePersistentLogSession </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d67/classLogger_aee54e69fc4bd2094db6ab720d3ebf616_icgraph.svg" width="384" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aff057b181f0fae09b297a3eeed54dff6" name="aff057b181f0fae09b297a3eeed54dff6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff057b181f0fae09b297a3eeed54dff6">&#9670;&#160;</a></span>extractPreviousSessionTail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt; Logger::extractPreviousSessionTail </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxLines</em></span><span class="paramdefsep"> = </span><span class="paramdefval">60</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d67/classLogger_aff057b181f0fae09b297a3eeed54dff6_icgraph.svg" width="530" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -430,6 +504,28 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d67/classLogger_acfa7b3fb8d0550befb8bcd5308d7675a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a37c9f9207d62b1db605c9fb19f1011b1" name="a37c9f9207d62b1db605c9fb19f1011b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c9f9207d62b1db605c9fb19f1011b1">&#9670;&#160;</a></span>getPreviousSessionTail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt; Logger::getPreviousSessionTail </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxLines</em></span><span class="paramdefsep"> = </span><span class="paramdefval">60</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d67/classLogger_a37c9f9207d62b1db605c9fb19f1011b1_cgraph.svg" width="530" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -636,6 +732,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a350d816ab7df0642b05c76869acd8b29" name="a350d816ab7df0642b05c76869acd8b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a350d816ab7df0642b05c76869acd8b29">&#9670;&#160;</a></span>openPersistentLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Logger::openPersistentLog </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d67/classLogger_a350d816ab7df0642b05c76869acd8b29_cgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d67/classLogger_a350d816ab7df0642b05c76869acd8b29_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="aa74312e7edcf3a5bcfd9ccba190b2621" name="aa74312e7edcf3a5bcfd9ccba190b2621"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa74312e7edcf3a5bcfd9ccba190b2621">&#9670;&#160;</a></span>operator=()</h2>
 
@@ -662,6 +793,63 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d67/classLogger_aa74312e7edcf3a5bcfd9ccba190b2621_cgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a3af0332936765cdd60c8e4d0e8958b0f" name="a3af0332936765cdd60c8e4d0e8958b0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3af0332936765cdd60c8e4d0e8958b0f">&#9670;&#160;</a></span>prunePersistentLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Logger::prunePersistentLog </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d67/classLogger_a3af0332936765cdd60c8e4d0e8958b0f_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a29da04ece29c67541a1b88d098394d89" name="a29da04ece29c67541a1b88d098394d89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29da04ece29c67541a1b88d098394d89">&#9670;&#160;</a></span>setPersistentLogPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Logger::setPersistentLogPath </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d67/classLogger_a29da04ece29c67541a1b88d098394d89_cgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d67/classLogger_a29da04ece29c67541a1b88d098394d89_icgraph.svg" width="427" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -766,6 +954,94 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QMutex Logger::mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel mutable">mutable</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a562f2b86b65ba6669cb087ac9b8aa069" name="a562f2b86b65ba6669cb087ac9b8aa069"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a562f2b86b65ba6669cb087ac9b8aa069">&#9670;&#160;</a></span>persistentFileHandle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFile Logger::persistentFileHandle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3077870ebb0ff6528d5c1333c84a61dc" name="a3077870ebb0ff6528d5c1333c84a61dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3077870ebb0ff6528d5c1333c84a61dc">&#9670;&#160;</a></span>persistentFileStream</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTextStream Logger::persistentFileStream</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ad8a672c110900c32f413ab4163f18a" name="a6ad8a672c110900c32f413ab4163f18a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ad8a672c110900c32f413ab4163f18a">&#9670;&#160;</a></span>persistentLogEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Logger::persistentLogEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18a25407baacdfc5dfcac1656ca5eec3" name="a18a25407baacdfc5dfcac1656ca5eec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18a25407baacdfc5dfcac1656ca5eec3">&#9670;&#160;</a></span>persistentLogPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString Logger::persistentLogPath</td>
         </tr>
       </table>
   </td>

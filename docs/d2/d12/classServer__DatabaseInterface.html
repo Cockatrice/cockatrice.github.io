@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -135,10 +135,14 @@ Collaboration diagram for Server_DatabaseInterface:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a89b169819c61bccdb4292a1559341334" id="r_a89b169819c61bccdb4292a1559341334"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a89b169819c61bccdb4292a1559341334">LogMessage_TargetType</a> { <a class="el" href="#a89b169819c61bccdb4292a1559341334a91ea7dd053e2af8cd12962794fabdf4d">MessageTargetRoom</a>
+<tr class="memitem:a89b169819c61bccdb4292a1559341334" id="r_a89b169819c61bccdb4292a1559341334"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a89b169819c61bccdb4292a1559341334">LogMessage_TargetType</a> { <br />
+&#160;&#160;<a class="el" href="#a89b169819c61bccdb4292a1559341334a91ea7dd053e2af8cd12962794fabdf4d">MessageTargetRoom</a>
 , <a class="el" href="#a89b169819c61bccdb4292a1559341334a80f84e32bf1aa29a8834270986318120">MessageTargetGame</a>
 , <a class="el" href="#a89b169819c61bccdb4292a1559341334ae6f14fa6f84f921baeabf62f04da1679">MessageTargetChat</a>
 , <a class="el" href="#a89b169819c61bccdb4292a1559341334a7b498d5d4759ceae094537a7dbf8f6e2">MessageTargetIslRoom</a>
+, <br />
+&#160;&#160;<a class="el" href="#a89b169819c61bccdb4292a1559341334ade178da4f769ceab5750b449f15cb1ce">MessageTargetRoomChannel</a>
+<br />
  }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
@@ -153,6 +157,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a02fc2de582ba15de8fcbc4d842439acb" id="r_a02fc2de582ba15de8fcbc4d842439acb"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a02fc2de582ba15de8fcbc4d842439acb">activeUserExists</a> (const QString &amp;)</td></tr>
 <tr class="memitem:a9738a49f433aa0b91d5be5421659947f" id="r_a9738a49f433aa0b91d5be5421659947f"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a9738a49f433aa0b91d5be5421659947f">userExists</a> (const QString &amp;)</td></tr>
 <tr class="memitem:a551f250c28bcfb5500b75bee0903a071" id="r_a551f250c28bcfb5500b75bee0903a071"><td class="memItemLeft">virtual QString&#160;</td><td class="memItemRight"><a class="el" href="#a551f250c28bcfb5500b75bee0903a071">getUserSalt</a> (const QString &amp;)</td></tr>
+<tr class="memitem:a5ee724ba909f626113679f2fc5d929f8" id="r_a5ee724ba909f626113679f2fc5d929f8"><td class="memItemLeft">virtual QString&#160;</td><td class="memItemRight"><a class="el" href="#a5ee724ba909f626113679f2fc5d929f8">getUserPasswordData</a> (const QString &amp;)</td></tr>
+<tr class="memitem:aa5fc032229be7e34a479232476e7b644" id="r_aa5fc032229be7e34a479232476e7b644"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#aa5fc032229be7e34a479232476e7b644">submitPasswordVerifier</a> (const QString &amp;, const QString &amp;)</td></tr>
 <tr class="memitem:acb81751fa67ab8fe415cf5e1575fc2b3" id="r_acb81751fa67ab8fe415cf5e1575fc2b3"><td class="memItemLeft">virtual <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#acb81751fa67ab8fe415cf5e1575fc2b3">getBuddyList</a> (const QString &amp;)</td></tr>
 <tr class="memitem:afaeb45b29c90f52f011ed773490f5e78" id="r_afaeb45b29c90f52f011ed773490f5e78"><td class="memItemLeft">virtual <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#afaeb45b29c90f52f011ed773490f5e78">getIgnoreList</a> (const QString &amp;)</td></tr>
 <tr class="memitem:aefe9751e98c25893bc105ec0a75fb81c" id="r_aefe9751e98c25893bc105ec0a75fb81c"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#aefe9751e98c25893bc105ec0a75fb81c">isInBuddyList</a> (const QString &amp;, const QString &amp;)</td></tr>
@@ -175,12 +181,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad99dd65d5113ffc08411251acf543b4b" id="r_ad99dd65d5113ffc08411251acf543b4b"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#ad99dd65d5113ffc08411251acf543b4b">activateUser</a> (const QString &amp;, const QString &amp;)</td></tr>
 <tr class="memitem:a8930e5d69ba73648cd83facbb02ed870" id="r_a8930e5d69ba73648cd83facbb02ed870"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a8930e5d69ba73648cd83facbb02ed870">updateUsersClientID</a> (const QString &amp;, const QString &amp;)</td></tr>
 <tr class="memitem:aed8b2ee97d475d93e8d261459073dd17" id="r_aed8b2ee97d475d93e8d261459073dd17"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#aed8b2ee97d475d93e8d261459073dd17">updateUsersLastLoginData</a> (const QString &amp;, const QString &amp;)</td></tr>
-<tr class="memitem:a3b03eacc95a17525dd1a17e215bde7d5" id="r_a3b03eacc95a17525dd1a17e215bde7d5"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a3b03eacc95a17525dd1a17e215bde7d5">logMessage</a> (const int, const QString &amp;, const QString &amp;, const QString &amp;, <a class="el" href="#a89b169819c61bccdb4292a1559341334">LogMessage_TargetType</a>, const int, const QString &amp;)</td></tr>
+<tr class="memitem:ad3bcb7f2587a4ee8c96a21aaeb1efb76" id="r_ad3bcb7f2587a4ee8c96a21aaeb1efb76"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#ad3bcb7f2587a4ee8c96a21aaeb1efb76">logMessage</a> (const int, const QString &amp;, const QString &amp;, const QString &amp;, <a class="el" href="#a89b169819c61bccdb4292a1559341334">LogMessage_TargetType</a>, const int, const QString &amp;, const QString &amp;=QString())</td></tr>
 <tr class="memitem:abff451d90cbe13df845e182fdd1966a0" id="r_abff451d90cbe13df845e182fdd1966a0"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#abff451d90cbe13df845e182fdd1966a0">checkUserIsBanned</a> (<a class="el" href="../../d0/d23/classServer__ProtocolHandler.html">Server_ProtocolHandler</a> *, QString &amp;, int &amp;)</td></tr>
 <tr class="memitem:a1e64a68f69356a65b22d49e4a4608995" id="r_a1e64a68f69356a65b22d49e4a4608995"><td class="memItemLeft">virtual int&#160;</td><td class="memItemRight"><a class="el" href="#a1e64a68f69356a65b22d49e4a4608995">checkNumberOfUserAccounts</a> (const QString &amp;)</td></tr>
 <tr class="memitem:a847108b02de699e8cf970df439fc75fc" id="r_a847108b02de699e8cf970df439fc75fc"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a847108b02de699e8cf970df439fc75fc">changeUserPassword</a> (const QString &amp;, const QString &amp;, bool)</td></tr>
 <tr class="memitem:ad91b253e805f831e8a52ef743840536b" id="r_ad91b253e805f831e8a52ef743840536b"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#ad91b253e805f831e8a52ef743840536b">changeUserPassword</a> (const QString &amp;, const QString &amp;, bool, const QString &amp;, bool)</td></tr>
 <tr class="memitem:a6ada8cbb9cc21476f1930cfa7eb96440" id="r_a6ada8cbb9cc21476f1930cfa7eb96440"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a6ada8cbb9cc21476f1930cfa7eb96440">setForcePasswordChange</a> (const QString &amp;, bool)</td></tr>
+<tr class="memitem:a8bbe9ebf3c324d5c23c627c6fe2ba10a" id="r_a8bbe9ebf3c324d5c23c627c6fe2ba10a"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a8bbe9ebf3c324d5c23c627c6fe2ba10a">isCardArtAllowed</a> (const QString &amp;, const QString &amp;)</td></tr>
+<tr class="memdesc:a8bbe9ebf3c324d5c23c627c6fe2ba10a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the given card art may be shown (card art rules).  <br /></td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
 <a id="a89b169819c61bccdb4292a1559341334" name="a89b169819c61bccdb4292a1559341334"></a>
@@ -199,6 +207,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a89b169819c61bccdb4292a1559341334a80f84e32bf1aa29a8834270986318120" name="a89b169819c61bccdb4292a1559341334a80f84e32bf1aa29a8834270986318120"></a>MessageTargetGame&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a89b169819c61bccdb4292a1559341334ae6f14fa6f84f921baeabf62f04da1679" name="a89b169819c61bccdb4292a1559341334ae6f14fa6f84f921baeabf62f04da1679"></a>MessageTargetChat&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a89b169819c61bccdb4292a1559341334a7b498d5d4759ceae094537a7dbf8f6e2" name="a89b169819c61bccdb4292a1559341334a7b498d5d4759ceae094537a7dbf8f6e2"></a>MessageTargetIslRoom&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a89b169819c61bccdb4292a1559341334ade178da4f769ceab5750b449f15cb1ce" name="a89b169819c61bccdb4292a1559341334ade178da4f769ceab5750b449f15cb1ce"></a>MessageTargetRoomChannel&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -864,6 +873,33 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a5ee724ba909f626113679f2fc5d929f8" name="a5ee724ba909f626113679f2fc5d929f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ee724ba909f626113679f2fc5d929f8">&#9670;&#160;</a></span>getUserPasswordData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual QString Server_DatabaseInterface::getUserPasswordData </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../d3/d76/classServatrice__DatabaseInterface.html#a088fe1620542dd0afddd7fe34854c2a2">Servatrice_DatabaseInterface</a>.</p>
+
+</div>
+</div>
 <a id="a551f250c28bcfb5500b75bee0903a071" name="a551f250c28bcfb5500b75bee0903a071"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a551f250c28bcfb5500b75bee0903a071">&#9670;&#160;</a></span>getUserSalt()</h2>
 
@@ -888,6 +924,40 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../d3/d76/classServatrice__DatabaseInterface.html#a4162dc3616cc0bda90741ec589fadb89">Servatrice_DatabaseInterface</a>.</p>
+
+</div>
+</div>
+<a id="a8bbe9ebf3c324d5c23c627c6fe2ba10a" name="a8bbe9ebf3c324d5c23c627c6fe2ba10a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bbe9ebf3c324d5c23c627c6fe2ba10a">&#9670;&#160;</a></span>isCardArtAllowed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Server_DatabaseInterface::isCardArtAllowed </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the given card art may be shown (card art rules). </p>
+<p>Default allows everything; the real server overrides this with a lookup in {prefix}_card_art_name_rules. Empty names are always allowed (clear path). </p>
+
+<p>Reimplemented in <a class="el" href="../../d3/d76/classServatrice__DatabaseInterface.html#a7b3a81cacc23a214102be5bc7072f52c">Servatrice_DatabaseInterface</a>.</p>
 
 </div>
 </div>
@@ -995,8 +1065,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a3b03eacc95a17525dd1a17e215bde7d5" name="a3b03eacc95a17525dd1a17e215bde7d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b03eacc95a17525dd1a17e215bde7d5">&#9670;&#160;</a></span>logMessage()</h2>
+<a id="ad3bcb7f2587a4ee8c96a21aaeb1efb76" name="ad3bcb7f2587a4ee8c96a21aaeb1efb76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3bcb7f2587a4ee8c96a21aaeb1efb76">&#9670;&#160;</a></span>logMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1037,7 +1107,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span><span class="paramdefsep"> = </span><span class="paramdefval">QString()</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1047,11 +1122,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../d3/d76/classServatrice__DatabaseInterface.html#ac78310ca92da32452c72f367b1b1902f">Servatrice_DatabaseInterface</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d3/d76/classServatrice__DatabaseInterface.html#a39623126826ccf7b05b8ee32ace4669e">Servatrice_DatabaseInterface</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d12/classServer__DatabaseInterface_a3b03eacc95a17525dd1a17e215bde7d5_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d12/classServer__DatabaseInterface_ad3bcb7f2587a4ee8c96a21aaeb1efb76_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1282,6 +1357,37 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aa5fc032229be7e34a479232476e7b644" name="aa5fc032229be7e34a479232476e7b644"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5fc032229be7e34a479232476e7b644">&#9670;&#160;</a></span>submitPasswordVerifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Server_DatabaseInterface::submitPasswordVerifier </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../d3/d76/classServatrice__DatabaseInterface.html#af0c335fd25fabdb3e24f6500dd466124">Servatrice_DatabaseInterface</a>.</p>
+
+</div>
+</div>
 <a id="a4e8876ed96af9efce79b7cc22007b515" name="a4e8876ed96af9efce79b7cc22007b515"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e8876ed96af9efce79b7cc22007b515">&#9670;&#160;</a></span>unlockSessionTables()</h2>
 
@@ -1410,6 +1516,11 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../d3/d76/classServatrice__DatabaseInterface.html#ad2de01d93b76794daf16333063fef700">Servatrice_DatabaseInterface</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d12/classServer__DatabaseInterface_a9738a49f433aa0b91d5be5421659947f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>

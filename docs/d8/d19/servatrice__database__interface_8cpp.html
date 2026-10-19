@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -157,6 +157,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d8/d19/servatr
 <code>#include &lt;<a class="el" href="../../d7/d1a/deck__list_8h_source.html">libcockatrice/deck_list/deck_list.h</a>&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/game_replay.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/serverinfo_user.pb.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../db/d8f/cryptoutil_8h_source.html">libcockatrice/utility/cryptoutil.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dd/d9e/passwordhasher_8h_source.html">libcockatrice/utility/passwordhasher.h</a>&gt;</code><br />
 <code>#include &lt;qalgorithms.h&gt;</code><br />
 <code>#include &lt;qnamespace.h&gt;</code><br />
@@ -164,14 +165,54 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d8/d19/servatr
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for servatrice_database_interface.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d10/servatrice__database__interface_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d10/servatrice__database__interface_8cpp__incl.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a5261bf95f926dbea4a715d3f599b8df6" id="r_a5261bf95f926dbea4a715d3f599b8df6"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a5261bf95f926dbea4a715d3f599b8df6">Q_LOGGING_CATEGORY</a> (DatabaseInterfaceLog, &quot;database_interface&quot;)</td></tr>
+<tr class="memitem:a4bd30ec3ae3eb92369df979b322ee3a0" id="r_a4bd30ec3ae3eb92369df979b322ee3a0"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#a4bd30ec3ae3eb92369df979b322ee3a0">legacyBackupExpiryCutoff</a> (int ttlDays)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a5b5be89d22f6167fc932b69bc5b1d33a" id="r_a5b5be89d22f6167fc932b69bc5b1d33a"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a5b5be89d22f6167fc932b69bc5b1d33a">MAX_LEGACY_BACKUP_LENGTH</a> = 255</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a4bd30ec3ae3eb92369df979b322ee3a0" name="a4bd30ec3ae3eb92369df979b322ee3a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bd30ec3ae3eb92369df979b322ee3a0">&#9670;&#160;</a></span>legacyBackupExpiryCutoff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString legacyBackupExpiryCutoff </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>ttlDays</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d19/servatrice__database__interface_8cpp_a4bd30ec3ae3eb92369df979b322ee3a0_cgraph.svg" width="203" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d19/servatrice__database__interface_8cpp_a4bd30ec3ae3eb92369df979b322ee3a0_icgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a5261bf95f926dbea4a715d3f599b8df6" name="a5261bf95f926dbea4a715d3f599b8df6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5261bf95f926dbea4a715d3f599b8df6">&#9670;&#160;</a></span>Q_LOGGING_CATEGORY()</h2>
 
@@ -203,6 +244,29 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d19/servatrice__database__interface_8cpp_a5261bf95f926dbea4a715d3f599b8df6_cgraph.svg" width="411" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="a5b5be89d22f6167fc932b69bc5b1d33a" name="a5b5be89d22f6167fc932b69bc5b1d33a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5be89d22f6167fc932b69bc5b1d33a">&#9670;&#160;</a></span>MAX_LEGACY_BACKUP_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MAX_LEGACY_BACKUP_LENGTH = 255</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

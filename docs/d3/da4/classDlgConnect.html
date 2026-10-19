@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -150,6 +150,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac88475468453fba43671d3fc78f0b1a6" id="r_ac88475468453fba43671d3fc78f0b1a6"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ac88475468453fba43671d3fc78f0b1a6">getPort</a> () const</td></tr>
 <tr class="memitem:a9e013f0773a0bc78f11bbefd9c1e4ea8" id="r_a9e013f0773a0bc78f11bbefd9c1e4ea8"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a9e013f0773a0bc78f11bbefd9c1e4ea8">getPlayerName</a> () const</td></tr>
 <tr class="memitem:ab5a168c48a1496b6834b7ed36ed47aba" id="r_ab5a168c48a1496b6834b7ed36ed47aba"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ab5a168c48a1496b6834b7ed36ed47aba">getPassword</a> () const</td></tr>
+<tr class="memitem:a44940cedcd1d45a567f7a301de2842a8" id="r_a44940cedcd1d45a567f7a301de2842a8"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a44940cedcd1d45a567f7a301de2842a8">getStoredVerifier</a> () const</td></tr>
+<tr class="memdesc:a44940cedcd1d45a567f7a301de2842a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stored "$scrypt$..." verifier for challenge-response servers (never the plaintext password).  <br /></td></tr>
+<tr class="memitem:ab4fe0bd915a21daa125c3b893f8fc3b3" id="r_ab4fe0bd915a21daa125c3b893f8fc3b3"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ab4fe0bd915a21daa125c3b893f8fc3b3">getSaveName</a> () const</td></tr>
+<tr class="memitem:acd890aec187d8de6858e325227e46334" id="r_acd890aec187d8de6858e325227e46334"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#acd890aec187d8de6858e325227e46334">getSavePassword</a> () const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
@@ -200,6 +204,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a21badca3ef3d8b7b988d735883e4c6cc" id="r_a21badca3ef3d8b7b988d735883e4c6cc"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a21badca3ef3d8b7b988d735883e4c6cc">btnDeleteServer</a></td></tr>
 <tr class="memitem:a4fe921810f6d22976390c2ffe50bbf40" id="r_a4fe921810f6d22976390c2ffe50bbf40"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, std::pair&lt; QString, <a class="el" href="../../d5/d88/classUserConnection__Information.html">UserConnection_Information</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a4fe921810f6d22976390c2ffe50bbf40">savedHostList</a></td></tr>
 <tr class="memitem:a1718c5f0c17c098d1cfc54a52a53b23e" id="r_a1718c5f0c17c098d1cfc54a52a53b23e"><td class="memItemLeft"><a class="el" href="../../d9/ddd/classHandlePublicServers.html">HandlePublicServers</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a1718c5f0c17c098d1cfc54a52a53b23e">hps</a></td></tr>
+<tr class="memitem:a6961c137635bce98ffc8a572b8b1b51c" id="r_a6961c137635bce98ffc8a572b8b1b51c"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a6961c137635bce98ffc8a572b8b1b51c">storedVerifier</a></td></tr>
 <tr class="memitem:a959057e5065fdf9b740c1a9ed276eb9b" id="r_a959057e5065fdf9b740c1a9ed276eb9b"><td class="memItemLeft">const QString&#160;</td><td class="memItemRight"><a class="el" href="#a959057e5065fdf9b740c1a9ed276eb9b">placeHolderText</a> = tr(&quot;Downloading...&quot;)</td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -525,6 +530,98 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/da4/classDlgConnect_ac88475468453fba43671d3fc78f0b1a6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab4fe0bd915a21daa125c3b893f8fc3b3" name="ab4fe0bd915a21daa125c3b893f8fc3b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4fe0bd915a21daa125c3b893f8fc3b3">&#9670;&#160;</a></span>getSaveName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DlgConnect::getSaveName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/da4/classDlgConnect_ab4fe0bd915a21daa125c3b893f8fc3b3_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="acd890aec187d8de6858e325227e46334" name="acd890aec187d8de6858e325227e46334"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd890aec187d8de6858e325227e46334">&#9670;&#160;</a></span>getSavePassword()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DlgConnect::getSavePassword </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/da4/classDlgConnect_acd890aec187d8de6858e325227e46334_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a44940cedcd1d45a567f7a301de2842a8" name="a44940cedcd1d45a567f7a301de2842a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44940cedcd1d45a567f7a301de2842a8">&#9670;&#160;</a></span>getStoredVerifier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DlgConnect::getStoredVerifier </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stored "$scrypt$..." verifier for challenge-response servers (never the plaintext password). </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/da4/classDlgConnect_a44940cedcd1d45a567f7a301de2842a8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1571,6 +1668,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QLabel * DlgConnect::serverIssuesLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6961c137635bce98ffc8a572b8b1b51c" name="a6961c137635bce98ffc8a572b8b1b51c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6961c137635bce98ffc8a572b8b1b51c">&#9670;&#160;</a></span>storedVerifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DlgConnect::storedVerifier</td>
         </tr>
       </table>
   </td>

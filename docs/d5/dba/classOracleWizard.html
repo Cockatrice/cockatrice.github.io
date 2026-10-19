@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -138,6 +138,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3fe02bd0aaecfcf6f42c582aa9a57640" id="r_a3fe02bd0aaecfcf6f42c582aa9a57640"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a3fe02bd0aaecfcf6f42c582aa9a57640">OracleWizard</a> (QWidget *parent=nullptr)</td></tr>
 <tr class="memitem:a4c6b36541e63a1defce66002baaef6c9" id="r_a4c6b36541e63a1defce66002baaef6c9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4c6b36541e63a1defce66002baaef6c9">accept</a> () override</td></tr>
 <tr class="memitem:a07a2731bdd3832742005b03798e714ec" id="r_a07a2731bdd3832742005b03798e714ec"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a07a2731bdd3832742005b03798e714ec">reject</a> () override</td></tr>
+<tr class="memitem:af5cc2acfefb49d4de388797c25679983" id="r_af5cc2acfefb49d4de388797c25679983"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#af5cc2acfefb49d4de388797c25679983">wasCancelled</a> ()</td></tr>
+<tr class="memitem:a2e74023da964196f37b6b684391c95d0" id="r_a2e74023da964196f37b6b684391c95d0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2e74023da964196f37b6b684391c95d0">markDatabaseSaved</a> ()</td></tr>
+<tr class="memdesc:a2e74023da964196f37b6b684391c95d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Records that the card database was written to disk, so a later cancel still counts as an update.  <br /></td></tr>
+<tr class="memitem:a7177b7908e367f467b0bd54ec3309479" id="r_a7177b7908e367f467b0bd54ec3309479"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a7177b7908e367f467b0bd54ec3309479">hasSavedDatabase</a> ()</td></tr>
 <tr class="memitem:a54ce927fccf4c2275f978537b8b7ae0d" id="r_a54ce927fccf4c2275f978537b8b7ae0d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a54ce927fccf4c2275f978537b8b7ae0d">enableButtons</a> ()</td></tr>
 <tr class="memitem:a081342cf1dfa75f07a355e3f3b5e209a" id="r_a081342cf1dfa75f07a355e3f3b5e209a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a081342cf1dfa75f07a355e3f3b5e209a">disableButtons</a> ()</td></tr>
 <tr class="memitem:a2200b2067c2cf0c706ddfaa89c70a906" id="r_a2200b2067c2cf0c706ddfaa89c70a906"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2200b2067c2cf0c706ddfaa89c70a906">retranslateUi</a> ()</td></tr>
@@ -181,6 +185,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ae31123facf4abef01eaf3232fe264122" id="r_ae31123facf4abef01eaf3232fe264122"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#ae31123facf4abef01eaf3232fe264122">tokensData</a></td></tr>
 <tr class="memitem:a9c1dcbb3191ee9634c5fd1ef2262719c" id="r_a9c1dcbb3191ee9634c5fd1ef2262719c"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a9c1dcbb3191ee9634c5fd1ef2262719c">cardSourceUrl</a></td></tr>
 <tr class="memitem:a4e2a2134915b572884ac118ec07b1133" id="r_a4e2a2134915b572884ac118ec07b1133"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a4e2a2134915b572884ac118ec07b1133">cardSourceVersion</a></td></tr>
+<tr class="memitem:af131ea535e3e25225aa942be941dd708" id="r_af131ea535e3e25225aa942be941dd708"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#af131ea535e3e25225aa942be941dd708">cancelled</a> = false</td></tr>
+<tr class="memitem:a808cca369ab5dbd854e8cd6c6d3af06a" id="r_a808cca369ab5dbd854e8cd6c6d3af06a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a808cca369ab5dbd854e8cd6c6d3af06a">databaseSaved</a> = false</td></tr>
 <tr class="memitem:af174966b40b35f0ce8bdb2d740553caa" id="r_af174966b40b35f0ce8bdb2d740553caa"><td class="memItemLeft">QLocalServer *&#160;</td><td class="memItemRight"><a class="el" href="#af174966b40b35f0ce8bdb2d740553caa">raiseServer</a> = nullptr</td></tr>
 <tr class="memdesc:af174966b40b35f0ce8bdb2d740553caa"><td class="mdescLeft">&#160;</td><td class="mdescRight">listens for raise requests from the hosting client  <br /></td></tr>
 </table>
@@ -405,6 +411,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a7177b7908e367f467b0bd54ec3309479" name="a7177b7908e367f467b0bd54ec3309479"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7177b7908e367f467b0bd54ec3309479">&#9670;&#160;</a></span>hasSavedDatabase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OracleWizard::hasSavedDatabase </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dba/classOracleWizard_a7177b7908e367f467b0bd54ec3309479_icgraph.svg" width="356" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a6a4c2dea7cb0a8731f406901cb42052e" name="a6a4c2dea7cb0a8731f406901cb42052e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a4c2dea7cb0a8731f406901cb42052e">&#9670;&#160;</a></span>hasTokensData()</h2>
 
@@ -427,6 +463,38 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e74023da964196f37b6b684391c95d0" name="a2e74023da964196f37b6b684391c95d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e74023da964196f37b6b684391c95d0">&#9670;&#160;</a></span>markDatabaseSaved()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OracleWizard::markDatabaseSaved </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Records that the card database was written to disk, so a later cancel still counts as an update. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dba/classOracleWizard_a2e74023da964196f37b6b684391c95d0_icgraph.svg" width="100%" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -746,6 +814,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af5cc2acfefb49d4de388797c25679983" name="af5cc2acfefb49d4de388797c25679983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5cc2acfefb49d4de388797c25679983">&#9670;&#160;</a></span>wasCancelled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OracleWizard::wasCancelled </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/dba/classOracleWizard_af5cc2acfefb49d4de388797c25679983_icgraph.svg" width="320" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a2fdabf3223351486d82b9c0461d8d6aa" name="a2fdabf3223351486d82b9c0461d8d6aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2fdabf3223351486d82b9c0461d8d6aa">&#9670;&#160;</a></span>backgroundMode</h2>
@@ -757,6 +855,28 @@ Here is the caller graph for this function:</div>
           <td class="memname">bool OracleWizard::backgroundMode = false</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af131ea535e3e25225aa942be941dd708" name="af131ea535e3e25225aa942be941dd708"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af131ea535e3e25225aa942be941dd708">&#9670;&#160;</a></span>cancelled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OracleWizard::cancelled = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -794,6 +914,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QString OracleWizard::cardSourceVersion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a808cca369ab5dbd854e8cd6c6d3af06a" name="a808cca369ab5dbd854e8cd6c6d3af06a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a808cca369ab5dbd854e8cd6c6d3af06a">&#9670;&#160;</a></span>databaseSaved</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OracleWizard::databaseSaved = false</td>
         </tr>
       </table>
   </td>

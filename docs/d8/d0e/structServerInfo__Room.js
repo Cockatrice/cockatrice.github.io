@@ -1,6 +1,7 @@
 var structServerInfo__Room =
 [
     [ "auto_join", "d8/d0e/structServerInfo__Room.html#ae94f7c40a6432b177216fc49324af000", null ],
+    [ "channel_list", "d8/d0e/structServerInfo__Room.html#a4e373bd68e96c455877c966e4801d792", null ],
     [ "description", "d8/d0e/structServerInfo__Room.html#af6d6063452ac306f591118a3073044c8", null ],
     [ "game_count", "d8/d0e/structServerInfo__Room.html#a5f64263a9a7b23b2d7d1536719f007bd", null ],
     [ "game_list", "d8/d0e/structServerInfo__Room.html#ab817f10fab535b06ec57ec3ab88d21ec", null ],

@@ -85,5 +85,8 @@ var searchData=
   ['translation_2eh_82',['translation.h',['../d6/d94/translation_8h.html',1,'']]],
   ['translation_5floader_2ecpp_83',['translation_loader.cpp',['../d3/d0f/translation__loader_8cpp.html',1,'']]],
   ['translation_5floader_2eh_84',['translation_loader.h',['../dc/d0c/translation__loader_8h.html',1,'']]],
-  ['translation_5floader_5ftest_2ecpp_85',['translation_loader_test.cpp',['../da/de2/translation__loader__test_8cpp.html',1,'']]]
+  ['translation_5floader_5ftest_2ecpp_85',['translation_loader_test.cpp',['../da/de2/translation__loader__test_8cpp.html',1,'']]],
+  ['trusted_5fsources_2ecpp_86',['trusted_sources.cpp',['../dc/deb/trusted__sources_8cpp.html',1,'']]],
+  ['trusted_5fsources_2eh_87',['trusted_sources.h',['../d6/d09/trusted__sources_8h.html',1,'']]],
+  ['trusted_5fsources_5ftest_2ecpp_88',['trusted_sources_test.cpp',['../d3/df5/trusted__sources__test_8cpp.html',1,'']]]
 ];

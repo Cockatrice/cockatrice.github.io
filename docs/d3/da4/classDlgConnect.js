@@ -10,6 +10,9 @@ var classDlgConnect =
     [ "getPassword", "d3/da4/classDlgConnect.html#ab5a168c48a1496b6834b7ed36ed47aba", null ],
     [ "getPlayerName", "d3/da4/classDlgConnect.html#a9e013f0773a0bc78f11bbefd9c1e4ea8", null ],
     [ "getPort", "d3/da4/classDlgConnect.html#ac88475468453fba43671d3fc78f0b1a6", null ],
+    [ "getSaveName", "d3/da4/classDlgConnect.html#ab4fe0bd915a21daa125c3b893f8fc3b3", null ],
+    [ "getSavePassword", "d3/da4/classDlgConnect.html#acd890aec187d8de6858e325227e46334", null ],
+    [ "getStoredVerifier", "d3/da4/classDlgConnect.html#a44940cedcd1d45a567f7a301de2842a8", null ],
     [ "newHostSelected", "d3/da4/classDlgConnect.html#a6228bcb0baee9ae3d1aaf25a9ef17334", null ],
     [ "passwordSaved", "d3/da4/classDlgConnect.html#acf7651c7d6c6f82f53b1f8193fd32836", null ],
     [ "preRebuildComboBoxList", "d3/da4/classDlgConnect.html#ab897f80e8f18b568734a4433e7ff02ed", null ],
@@ -53,5 +56,6 @@ var classDlgConnect =
     [ "serverContactLink", "d3/da4/classDlgConnect.html#a1beff4cc4d0c5854b159e29d9ddd704d", null ],
     [ "serverInfoGroupBox", "d3/da4/classDlgConnect.html#a027cca4fbb41a8f691191c67106f58bf", null ],
     [ "serverInfoLayout", "d3/da4/classDlgConnect.html#a92d851ac7c022aa7899008b7c38dba0e", null ],
-    [ "serverIssuesLabel", "d3/da4/classDlgConnect.html#a17067f020cabc129c1ea030164c5581f", null ]
+    [ "serverIssuesLabel", "d3/da4/classDlgConnect.html#a17067f020cabc129c1ea030164c5581f", null ],
+    [ "storedVerifier", "d3/da4/classDlgConnect.html#a6961c137635bce98ffc8a572b8b1b51c", null ]
 ];

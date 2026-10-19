@@ -13,7 +13,7 @@ var searchData=
   ['game_5ftype_10',['GAME_TYPE',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0a287910c7599edcf046d338ce2e769468',1,'games_model.cpp']]],
   ['game_5fwindow_11',['Game_window',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca5921d217d113bfc5b00f151de0a128e8',1,'ShortcutGroup']]],
   ['gameplay_12',['Gameplay',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca18a984a955ce2efe7d66dbf44bfaffa7',1,'ShortcutGroup']]],
-  ['generalpage_13',['GeneralPage',['../db/d5f/classDlgSettings.html#a96d1c89fa58edb2b06245af49f111788adcb3d0057089e32bad803c96e42186b0',1,'DlgSettings']]],
+  ['generalpage_13',['GeneralPage',['../da/dbe/classSettingsView.html#af4def4eb97317b7ef47567964e073901ad5f344f7b72477064337b36cff3999e7',1,'SettingsView']]],
   ['get_5fadmin_5fnotes_14',['GET_ADMIN_NOTES',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129ab0926546c1fd2477758f879d4dc79d42',1,'ModeratorCommand::GET_ADMIN_NOTES'],['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442acc7434fe8c64b495555c3f95f9c465b1',1,'Response::GET_ADMIN_NOTES']]],
   ['get_5fgames_5fof_5fuser_15',['GET_GAMES_OF_USER',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442af1ec623315b236386aa67f5145270467',1,'Response::GET_GAMES_OF_USER'],['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700ac2efaa0bb2a85a32eadd889ecba8b73f',1,'SessionCommand::GET_GAMES_OF_USER']]],
   ['get_5fmoderator_5flast_5flogins_16',['GET_MODERATOR_LAST_LOGINS',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a07bcdae082f9758f363abb3cabc223ac',1,'ModeratorCommand']]],

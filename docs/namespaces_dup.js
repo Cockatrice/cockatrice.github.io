@@ -76,6 +76,8 @@ var namespaces_dup =
       [ "OfficialCommanderBracketNames", "dc/d33/namespaceCommanderBracketNames.html#ab61a12681e88f6aaae325fbe2db000ce", null ]
     ] ],
     [ "CryptoUtil", "dc/d23/namespaceCryptoUtil.html", [
+      [ "decryptSecret", "dc/d23/namespaceCryptoUtil.html#a8a5ed7e8c41fa6478af9661312b7e8fb", null ],
+      [ "encryptSecret", "dc/d23/namespaceCryptoUtil.html#ae605bdc1eccf732ac9060cee6b416559", null ],
       [ "randomBytes", "dc/d23/namespaceCryptoUtil.html#a5423b665382f70c06c0f6911e4d7f212", null ],
       [ "randomUInt64", "dc/d23/namespaceCryptoUtil.html#a651a904e55bdba2021b04b26de455cb5", null ]
     ] ],
@@ -189,6 +191,21 @@ var namespaces_dup =
       [ "loadQt", "dd/df1/namespaceTranslationLoader.html#ad8d21b766707f0228bb14d162aa90b12", null ],
       [ "qtTranslationCandidates", "dd/df1/namespaceTranslationLoader.html#aa6a84a4f8eaa1f086c831ee25c7e724a", null ],
       [ "qtTranslationPaths", "dd/df1/namespaceTranslationLoader.html#a54ccd0697a271cad98b630921414c2f5", null ]
+    ] ],
+    [ "UserDataBackup", "d2/df9/namespaceUserDataBackup.html", [
+      [ "backupAtRiskPaths", "d2/df9/namespaceUserDataBackup.html#afc15d1c7dfc4ae508733d7e353b896e4", null ],
+      [ "copyDirectoryRecursively", "d2/df9/namespaceUserDataBackup.html#ad02554b668a967db2b5e463a6c98065f", null ],
+      [ "createBackupSessionDir", "d2/df9/namespaceUserDataBackup.html#aab5e18b5eb4157750a5fabbf292136a4", null ],
+      [ "defaultBackupRoot", "d2/df9/namespaceUserDataBackup.html#a02672a2fa9489a9ca3ff93dbbd8b9945", null ],
+      [ "estimateBackupSize", "d2/df9/namespaceUserDataBackup.html#abe6dfa8e6fca4b7bf523a4428f0d7ac2", null ],
+      [ "findRecentCoveringBackupSession", "d2/df9/namespaceUserDataBackup.html#aed4108e78da7e0f1b30935566939ce5b", null ],
+      [ "findRecentUsableBackupSession", "d2/df9/namespaceUserDataBackup.html#ac4aef647e6984b72aa4baee98598ef72", null ],
+      [ "isBackupSessionComplete", "d2/df9/namespaceUserDataBackup.html#a4605bb4614403b5065645cddac319d91", null ],
+      [ "listBackupSessions", "d2/df9/namespaceUserDataBackup.html#a679073f3bca9ddea81d88738a1eb5520", null ],
+      [ "listSessionBackupLocations", "d2/df9/namespaceUserDataBackup.html#af1e43ecd64b2cf6a071a958935a7d7f9", null ],
+      [ "pruneOldBackupSessions", "d2/df9/namespaceUserDataBackup.html#aa8f6d8525e38f7818bcf3e02bf0b5ad6", null ],
+      [ "sessionCoversSources", "d2/df9/namespaceUserDataBackup.html#a5087d4c9bc2b26e65a1c260b1f28a1a6", null ],
+      [ "MAX_AUTO_BACKUP_BYTES", "d2/df9/namespaceUserDataBackup.html#aac4130b69c21785b0dac00ada100cd01", null ]
     ] ],
     [ "UserListRoles", "d7/dc9/namespaceUserListRoles.html", [
       [ "Online", "d7/dc9/namespaceUserListRoles.html#ad8ce129214f65f5ec323fc8e83c3e596", null ],

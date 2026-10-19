@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-12-Development-3.1.2-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -125,8 +125,88 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('dc/d23/namespa
 Functions</h2></td></tr>
 <tr class="memitem:a5423b665382f70c06c0f6911e4d7f212" id="r_a5423b665382f70c06c0f6911e4d7f212"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#a5423b665382f70c06c0f6911e4d7f212">randomBytes</a> (int count)</td></tr>
 <tr class="memitem:a651a904e55bdba2021b04b26de455cb5" id="r_a651a904e55bdba2021b04b26de455cb5"><td class="memItemLeft">quint64&#160;</td><td class="memItemRight"><a class="el" href="#a651a904e55bdba2021b04b26de455cb5">randomUInt64</a> ()</td></tr>
+<tr class="memitem:ae605bdc1eccf732ac9060cee6b416559" id="r_ae605bdc1eccf732ac9060cee6b416559"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ae605bdc1eccf732ac9060cee6b416559">encryptSecret</a> (const QByteArray &amp;plaintext, const QByteArray &amp;key, const QByteArray &amp;aad={})</td></tr>
+<tr class="memdesc:ae605bdc1eccf732ac9060cee6b416559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seal a secret with AES-256-GCM as "enc1:&lt;b64 nonce&gt;:&lt;b64 ciphertext+tag&gt;". Returns an empty string unless <code class="param">key</code> is a valid 32-byte key and the cipher completes. <code class="param">aad</code> is authenticated but not stored (bind the ciphertext to its context, e.g. the user name it belongs to).  <br /></td></tr>
+<tr class="memitem:a8a5ed7e8c41fa6478af9661312b7e8fb" id="r_a8a5ed7e8c41fa6478af9661312b7e8fb"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#a8a5ed7e8c41fa6478af9661312b7e8fb">decryptSecret</a> (const QString &amp;sealed, const QByteArray &amp;key, const QByteArray &amp;aad={})</td></tr>
+<tr class="memdesc:a8a5ed7e8c41fa6478af9661312b7e8fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open a string produced by <a class="el" href="#ae605bdc1eccf732ac9060cee6b416559" title="Seal a secret with AES-256-GCM as &quot;enc1:&lt;b64 nonce&gt;:&lt;b64 ciphertext+tag&gt;&quot;. Returns an empty string un...">encryptSecret()</a>. Returns an empty array on any failure: unknown format, malformed base64, wrong key, wrong aad, or tampering.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a8a5ed7e8c41fa6478af9661312b7e8fb" name="a8a5ed7e8c41fa6478af9661312b7e8fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a5ed7e8c41fa6478af9661312b7e8fb">&#9670;&#160;</a></span>decryptSecret()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray CryptoUtil::decryptSecret </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>sealed</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QByteArray &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QByteArray &amp;</td>          <td class="paramname"><span class="paramname"><em>aad</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Open a string produced by <a class="el" href="#ae605bdc1eccf732ac9060cee6b416559" title="Seal a secret with AES-256-GCM as &quot;enc1:&lt;b64 nonce&gt;:&lt;b64 ciphertext+tag&gt;&quot;. Returns an empty string un...">encryptSecret()</a>. Returns an empty array on any failure: unknown format, malformed base64, wrong key, wrong aad, or tampering. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d23/namespaceCryptoUtil_a8a5ed7e8c41fa6478af9661312b7e8fb_cgraph.svg" width="198" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d23/namespaceCryptoUtil_a8a5ed7e8c41fa6478af9661312b7e8fb_icgraph.svg" width="100%" height="407"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae605bdc1eccf732ac9060cee6b416559" name="ae605bdc1eccf732ac9060cee6b416559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae605bdc1eccf732ac9060cee6b416559">&#9670;&#160;</a></span>encryptSecret()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString CryptoUtil::encryptSecret </td>
+          <td>(</td>
+          <td class="paramtype">const QByteArray &amp;</td>          <td class="paramname"><span class="paramname"><em>plaintext</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QByteArray &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QByteArray &amp;</td>          <td class="paramname"><span class="paramname"><em>aad</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Seal a secret with AES-256-GCM as "enc1:&lt;b64 nonce&gt;:&lt;b64 ciphertext+tag&gt;". Returns an empty string unless <code class="param">key</code> is a valid 32-byte key and the cipher completes. <code class="param">aad</code> is authenticated but not stored (bind the ciphertext to its context, e.g. the user name it belongs to). </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d23/namespaceCryptoUtil_ae605bdc1eccf732ac9060cee6b416559_cgraph.svg" width="428" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d23/namespaceCryptoUtil_ae605bdc1eccf732ac9060cee6b416559_icgraph.svg" width="100%" height="372"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a5423b665382f70c06c0f6911e4d7f212" name="a5423b665382f70c06c0f6911e4d7f212"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5423b665382f70c06c0f6911e4d7f212">&#9670;&#160;</a></span>randomBytes()</h2>
 

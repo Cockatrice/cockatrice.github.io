@@ -1,6 +1,7 @@
 var classGameSelector =
 [
     [ "GameSelector", "df/d3f/classGameSelector.html#a5349eb187f8318d008fc1b805c17cf0c", null ],
+    [ "~GameSelector", "df/d3f/classGameSelector.html#a25962456830841ae109682ff1a7603f0", null ],
     [ "actClearFilter", "df/d3f/classGameSelector.html#a7bd6f443362d8a4bcece4207860e9f7f", null ],
     [ "actCreate", "df/d3f/classGameSelector.html#ac973e1aedb927b9b648bee822a49e7e1", null ],
     [ "actJoin", "df/d3f/classGameSelector.html#a40d098545421529a7296deb4f6e0bf3f", null ],
@@ -29,6 +30,7 @@ var classGameSelector =
     [ "client", "df/d3f/classGameSelector.html#a23b44acf77aeae77e83ade675951a0c1", null ],
     [ "createButton", "df/d3f/classGameSelector.html#a31c3b93261696172276bcbb4163190b2", null ],
     [ "filterButton", "df/d3f/classGameSelector.html#add4cce58a9f4c9c6c1a2a737a0fff2ff", null ],
+    [ "filterSaveDebounceTimer", "df/d3f/classGameSelector.html#a57201b45a374c71526906a2c01ba51a7", null ],
     [ "gameListModel", "df/d3f/classGameSelector.html#a95a03bb416252a302b9275c6fe56c36b", null ],
     [ "gameListProxyModel", "df/d3f/classGameSelector.html#a65fc5a21fa061838854f8441c7c56601", null ],
     [ "gameListView", "df/d3f/classGameSelector.html#adee45cd7d0100adcca7e9e0d200365a8", null ],

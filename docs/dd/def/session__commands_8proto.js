@@ -41,5 +41,7 @@ var session__commands_8proto =
     [ "Command_RequestPasswordSalt::SessionCommand", "d1/d6e/structCommand__RequestPasswordSalt_1_1SessionCommand.html", "d1/d6e/structCommand__RequestPasswordSalt_1_1SessionCommand" ],
     [ "Command_SetCardArtParams", "db/d98/structCommand__SetCardArtParams.html", "db/d98/structCommand__SetCardArtParams" ],
     [ "Command_SetCardArtParams::SessionCommand", "d0/d12/structCommand__SetCardArtParams_1_1SessionCommand.html", "d0/d12/structCommand__SetCardArtParams_1_1SessionCommand" ],
+    [ "Command_SubmitPasswordVerifier", "da/d4b/structCommand__SubmitPasswordVerifier.html", "da/d4b/structCommand__SubmitPasswordVerifier" ],
+    [ "Command_SubmitPasswordVerifier::SessionCommand", "d3/dc3/structCommand__SubmitPasswordVerifier_1_1SessionCommand.html", "d3/dc3/structCommand__SubmitPasswordVerifier_1_1SessionCommand" ],
     [ "syntax", "dd/def/session__commands_8proto.html#adbedb258e13546cc707a6ebb073a3d8a", null ]
 ];

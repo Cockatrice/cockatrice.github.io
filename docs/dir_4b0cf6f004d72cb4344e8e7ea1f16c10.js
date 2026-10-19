@@ -4,6 +4,8 @@ var dir_4b0cf6f004d72cb4344e8e7ea1f16c10 =
     [ "dlg_connect.h", "d0/d93/dlg__connect_8h.html", "d0/d93/dlg__connect_8h" ],
     [ "dlg_convert_deck_to_cod_format.cpp", "d2/d97/dlg__convert__deck__to__cod__format_8cpp.html", null ],
     [ "dlg_convert_deck_to_cod_format.h", "de/dce/dlg__convert__deck__to__cod__format_8h.html", "de/dce/dlg__convert__deck__to__cod__format_8h" ],
+    [ "dlg_crash_report.cpp", "da/dec/dlg__crash__report_8cpp.html", null ],
+    [ "dlg_crash_report.h", "d4/dbc/dlg__crash__report_8h.html", "d4/dbc/dlg__crash__report_8h" ],
     [ "dlg_create_game.cpp", "da/d4f/dlg__create__game_8cpp.html", null ],
     [ "dlg_create_game.h", "d0/da9/dlg__create__game_8h.html", "d0/da9/dlg__create__game_8h" ],
     [ "dlg_default_tags_editor.cpp", "d5/dd2/dlg__default__tags__editor_8cpp.html", null ],
@@ -66,6 +68,8 @@ var dir_4b0cf6f004d72cb4344e8e7ea1f16c10 =
     [ "override_printing_warning.h", "d6/dca/override__printing__warning_8h.html", "d6/dca/override__printing__warning_8h" ],
     [ "path_safety_warning.cpp", "d6/d3a/path__safety__warning_8cpp.html", null ],
     [ "path_safety_warning.h", "d5/d5a/path__safety__warning_8h.html", "d5/d5a/path__safety__warning_8h" ],
+    [ "settings_view.cpp", "d7/d6e/settings__view_8cpp.html", "d7/d6e/settings__view_8cpp" ],
+    [ "settings_view.h", "de/dd4/settings__view_8h.html", "de/dd4/settings__view_8h" ],
     [ "tip_of_the_day.cpp", "d4/d70/tip__of__the__day_8cpp.html", "d4/d70/tip__of__the__day_8cpp" ],
     [ "tip_of_the_day.h", "de/dde/tip__of__the__day_8h.html", "de/dde/tip__of__the__day_8h" ]
 ];
