@@ -13,7 +13,7 @@ var classCardDatabaseDisplayModel =
     [ "filterAcceptsRow", "da/d8d/classCardDatabaseDisplayModel.html#a065d523ec6c9ba098b4ca90c9416d8ad", null ],
     [ "filterTreeChanged", "da/d8d/classCardDatabaseDisplayModel.html#ace6b77ce4f24317bfa5b7adf05b08567", null ],
     [ "lessThan", "da/d8d/classCardDatabaseDisplayModel.html#ae0ced444dea1aa49fd247c8ee1ec2b65", null ],
-    [ "lessThanNumerically", "da/d8d/classCardDatabaseDisplayModel.html#a2fb28cf05d480d3e7a75b6f5c0d72aa9", null ],
+    [ "lessThanNumerically", "da/d8d/classCardDatabaseDisplayModel.html#a6e1e886c50f96a4833fe7b195fd1263d", null ],
     [ "modelDirty", "da/d8d/classCardDatabaseDisplayModel.html#a2fe264213814d4792dfd397005ce98bf", null ],
     [ "rowCount", "da/d8d/classCardDatabaseDisplayModel.html#a002ee15fe9f7f7969f8f3485830da437", null ],
     [ "rowMatchesCardName", "da/d8d/classCardDatabaseDisplayModel.html#a1b31acc45e070d08d650e37b5690630f", null ],

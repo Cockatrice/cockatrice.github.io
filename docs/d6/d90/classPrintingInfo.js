@@ -5,6 +5,7 @@ var classPrintingInfo =
     [ "getArtist", "d6/d90/classPrintingInfo.html#aee76159ca7baf5722da5779c9546cc00", null ],
     [ "getFlavorName", "d6/d90/classPrintingInfo.html#a41d31bc9a6afbd9c72083c0a48f3f076", null ],
     [ "getProperties", "d6/d90/classPrintingInfo.html#aecff5ef49d1a30f74b276b3f63a4bc46", null ],
+    [ "getPropertiesBlob", "d6/d90/classPrintingInfo.html#ace9be8fd572ea11eb87dd03d9a89456f", null ],
     [ "getPropertiesHash", "d6/d90/classPrintingInfo.html#acaae252356825fb3a1d5a226f4c5bfde", null ],
     [ "getProperty", "d6/d90/classPrintingInfo.html#a8620106e5ac0dd63baa9ccc435b970c4", null ],
     [ "getSet", "d6/d90/classPrintingInfo.html#a30a4ecdbbc401885cd8c28845991e20f", null ],

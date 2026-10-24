@@ -265,7 +265,7 @@ var searchData=
   ['appearancepage_262',['AppearancePage',['../db/d5f/classDlgSettings.html#ad2dc256f60cd06f5153405b331ca5135',1,'DlgSettings']]],
   ['appearancesettings_263',['appearanceSettings',['../d5/d88/classSettingsCache.html#aa6e77af804d880e9639dd5df6404f3f5',1,'SettingsCache']]],
   ['applyandretrybutton_264',['applyAndRetryButton',['../d3/d60/classCardDatabaseSetupPage.html#acc9c9f200e84f5ff880851718ab386d4',1,'CardDatabaseSetupPage']]],
-  ['appname_265',['appName',['../d6/d1a/classMainWindow.html#adae3999c647b28a89410f884451d54da',1,'MainWindow']]],
+  ['appname_265',['appName',['../d6/d1a/classMainWindow.html#adae3999c647b28a89410f884451d54da',1,'MainWindow::appName'],['../d3/d5a/structHolder.html#aee3d24474597a8ca61f82defc25c16d3',1,'Holder::appName']]],
   ['aprintdeck_266',['aPrintDeck',['../dc/d76/classDeckEditorMenu.html#a4fafa5041150d16a40883e6ef75a9c8b',1,'DeckEditorMenu']]],
   ['apromotetodeveloper_267',['aPromoteToDeveloper',['../d7/d67/classUserContextMenu.html#ad429b82b76bd2d115bb12cddf20a3282',1,'UserContextMenu']]],
   ['apromotetojudge_268',['aPromoteToJudge',['../d7/d67/classUserContextMenu.html#aab0cfabd9542e6763ff2932c580472da',1,'UserContextMenu']]],

@@ -8,7 +8,6 @@ var classFlowWidget =
     [ "eventFilter", "d5/d53/classFlowWidget.html#a10803819a39e9a61a6cc45004ccb06f3", null ],
     [ "insertWidgetAtIndex", "d5/d53/classFlowWidget.html#af020d01f974ad84716803a0fdec6b508", null ],
     [ "itemAt", "d5/d53/classFlowWidget.html#a4cc04941f7e2287792343d0daca2fead", null ],
-    [ "keyPressEvent", "d5/d53/classFlowWidget.html#adbbf0dd06d0df5e60670e0d326542828", null ],
     [ "moveFocus", "d5/d53/classFlowWidget.html#a8c8ff054e2fb4dd8d10b48ecd40c539d", null ],
     [ "removeWidget", "d5/d53/classFlowWidget.html#ab064367a218ace4e8879c054448738a6", null ],
     [ "resizeEvent", "d5/d53/classFlowWidget.html#add6f47bdf75d7748dc0bf97770dd1250", null ],

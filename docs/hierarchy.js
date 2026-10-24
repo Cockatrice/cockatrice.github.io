@@ -59,6 +59,7 @@ var hierarchy =
     [ "UserListPainter::Badge", "d1/d2d/structUserListPainter_1_1Badge.html", null ],
     [ "BarData", "dc/da2/structBarData.html", null ],
     [ "BarSegment", "d9/d3d/structBarSegment.html", null ],
+    [ "LazyPropertiesHash::BlobReader", "d1/d94/classLazyPropertiesHash_1_1BlobReader.html", null ],
     [ "BracketExplainer", "df/d33/classBracketExplainer.html", null ],
     [ "BracketExplanation", "df/dfa/structBracketExplanation.html", null ],
     [ "BracketExplanationSection", "d6/d74/structBracketExplanationSection.html", null ],
@@ -434,6 +435,7 @@ var hierarchy =
     [ "MetricsRegistry::GameStartSnapshot", "da/d09/structMetricsRegistry_1_1GameStartSnapshot.html", null ],
     [ "peg::GrammarBlob", "d5/d93/structpeg_1_1GrammarBlob.html", null ],
     [ "ZoneViewZone::GridSize", "db/dc7/structZoneViewZone_1_1GridSize.html", null ],
+    [ "Holder", "d3/d5a/structHolder.html", null ],
     [ "IAnimatedItem", "da/dd9/classIAnimatedItem.html", [
       [ "AbstractCardItem", "d4/db9/classAbstractCardItem.html", [
         [ "CardItem", "d6/dbd/classCardItem.html", null ],

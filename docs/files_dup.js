@@ -14,5 +14,6 @@ var files_dup =
     [ "libcockatrice_utility", "dir_ea8d64982b5609019074a0f83466341a.html", "dir_ea8d64982b5609019074a0f83466341a" ],
     [ "oracle", "dir_f4647ec01be943ceefd9ee4f7f0c1eae.html", "dir_f4647ec01be943ceefd9ee4f7f0c1eae" ],
     [ "servatrice", "dir_47b50084e681ac840fb2525e2edb4c58.html", "dir_47b50084e681ac840fb2525e2edb4c58" ],
-    [ "tests", "dir_59425e443f801f1f2fd8bbe4959a3ccf.html", "dir_59425e443f801f1f2fd8bbe4959a3ccf" ]
+    [ "tests", "dir_59425e443f801f1f2fd8bbe4959a3ccf.html", "dir_59425e443f801f1f2fd8bbe4959a3ccf" ],
+    [ "tools", "dir_4eeb864c4eec08c7d6b9d3b0352cfdde.html", "dir_4eeb864c4eec08c7d6b9d3b0352cfdde" ]
 ];

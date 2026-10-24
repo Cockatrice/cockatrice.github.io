@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-19-Development-3.1.2-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-24-Development-3.1.2-beta.3</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d6/dc2/classCr
 </div><!--header-->
 <div class="contents">
 
-<p>Sentry-backed crash-report facade, owned by <a class="el" href="../../d8/da8/cockatrice_2src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>.  
+<p>Sentry-backed crash-report facade, owned by <a class="el" href="../../da/d90/tools_2installer-holder-probe_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main()</a>.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d4/d06/crash__reporter_8h_source.html">crash_reporter.h</a>&gt;</code></p>
@@ -172,7 +172,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:abe5cb25d9395205ef59eda9ad2b79dc4" id="r_abe5cb25d9395205ef59eda9ad2b79dc4"><td class="memItemLeft">std::unique_ptr&lt; QLockFile &gt;&#160;</td><td class="memItemRight"><a class="el" href="#abe5cb25d9395205ef59eda9ad2b79dc4">sessionLock</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Sentry-backed crash-report facade, owned by <a class="el" href="../../d8/da8/cockatrice_2src_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main()</a>. </p>
+<div class="textblock"><p>Sentry-backed crash-report facade, owned by <a class="el" href="../../da/d90/tools_2installer-holder-probe_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main()</a>. </p>
 <p>An empty DSN (or Never consent) skips the SDK entirely, so the mock dialog fallback behaves exactly as before. All SDK calls are guarded so OFF builds compile to no-ops.</p>
 <dl class="section user"><dt>Consent gating</dt><dd><a class="el" href="#acd33aaeb1a19db276d13fb256157f4b4">init()</a> arms require-user-consent and before_send scrubbing. Stale persisted consent from a previous AlwaysSend run is cleared before init when the mode is not AlwaysSend, and cached crash envelopes are held for the dialog instead of being dropped. <a class="el" href="#a476cfccc067e2fb6e7eb75e91b6162f2">giveConsent()</a>/revokeConsent() gate uploads.</dd></dl>
 <dl class="section user"><dt>Envelope and log helpers</dt><dd><a class="el" href="#a2ab4c4f21937ef54beae0eb25097a836" title="Append the redacted log (and optional user note) to every pending native crash envelope in the local ...">attachToPendingCrashEnvelopes()</a> folds the redacted log and the optional user note into the pending native crash event(s) before consent releases them, so dump, stack, log and note arrive as ONE Sentry event. <a class="el" href="#af452db1e4ceaf08429c1c2028b139b33">sendReport()</a> is the fallback for unclean exits that produced no native crash event, capturing a redacted message event with the log preview attached. The log redaction helpers are static and SDK-independent.</dd></dl>
@@ -416,7 +416,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a2ab4c4f21937ef54beae0eb25097a836_icgraph.svg" width="100%" height="425"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a2ab4c4f21937ef54beae0eb25097a836_icgraph.svg" width="100%" height="450"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -446,7 +446,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a93acecaab7cb63841c44d170ee2e6d31_icgraph.svg" width="598" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a93acecaab7cb63841c44d170ee2e6d31_icgraph.svg" width="598" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -479,7 +479,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_aaa5dbd9fdc8b3d2ae8ca8d9d4655ac60_icgraph.svg" width="100%" height="400"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_aaa5dbd9fdc8b3d2ae8ca8d9d4655ac60_icgraph.svg" width="100%" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -521,7 +521,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_ac23b65a62c8de13578db67deeb61d416_icgraph.svg" width="100%" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_ac23b65a62c8de13578db67deeb61d416_icgraph.svg" width="100%" height="401"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -543,7 +543,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a9fc1dc0c1bc6a05c47ae9fa891fc1e59_icgraph.svg" width="100%" height="383"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a9fc1dc0c1bc6a05c47ae9fa891fc1e59_icgraph.svg" width="100%" height="401"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -565,7 +565,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a476cfccc067e2fb6e7eb75e91b6162f2_icgraph.svg" width="100%" height="425"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a476cfccc067e2fb6e7eb75e91b6162f2_icgraph.svg" width="100%" height="450"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -606,7 +606,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_acd33aaeb1a19db276d13fb256157f4b4_icgraph.svg" width="532" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_acd33aaeb1a19db276d13fb256157f4b4_icgraph.svg" width="532" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -639,7 +639,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a29632377f49b7b99deb9d6df4180ab3c_icgraph.svg" width="575" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a29632377f49b7b99deb9d6df4180ab3c_icgraph.svg" width="575" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -669,7 +669,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a68ed7d40f1f07ae2a6f533c394ca98ce_icgraph.svg" width="666" height="148"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a68ed7d40f1f07ae2a6f533c394ca98ce_icgraph.svg" width="666" height="172"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -705,7 +705,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a0fa4a83123cbb9d231a085ce5ce1932a_icgraph.svg" width="100%" height="383"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a0fa4a83123cbb9d231a085ce5ce1932a_icgraph.svg" width="100%" height="401"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -828,7 +828,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_adc7d449dba039d3086b99b4fe774076b_icgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_adc7d449dba039d3086b99b4fe774076b_icgraph.svg" width="100%" height="441"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -850,7 +850,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a5e467c7096780dec27867425b6117daf_icgraph.svg" width="100%" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a5e467c7096780dec27867425b6117daf_icgraph.svg" width="100%" height="466"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -880,7 +880,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a3fecc7a6ce1330f558b3341bc693c1d4_icgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_a3fecc7a6ce1330f558b3341bc693c1d4_icgraph.svg" width="100%" height="441"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -906,7 +906,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_af452db1e4ceaf08429c1c2028b139b33_icgraph.svg" width="100%" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_af452db1e4ceaf08429c1c2028b139b33_icgraph.svg" width="100%" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -928,7 +928,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_acbcff3d9d49a6dbcb913ce5197c1c63e_icgraph.svg" width="100%" height="383"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dc2/classCrashReporter_acbcff3d9d49a6dbcb913ce5197c1c63e_icgraph.svg" width="100%" height="401"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

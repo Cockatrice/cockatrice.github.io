@@ -598,6 +598,7 @@ var annotated_dup =
     [ "HandMenu", "db/d04/classHandMenu.html", "db/d04/classHandMenu" ],
     [ "HandZone", "d4/dc7/classHandZone.html", "d4/dc7/classHandZone" ],
     [ "HandZoneLogic", "df/db6/classHandZoneLogic.html", "df/db6/classHandZoneLogic" ],
+    [ "Holder", "d3/d5a/structHolder.html", "d3/d5a/structHolder" ],
     [ "HomeStyledButton", "d4/d42/classHomeStyledButton.html", "d4/d42/classHomeStyledButton" ],
     [ "HomeWidget", "de/de3/classHomeWidget.html", "de/de3/classHomeWidget" ],
     [ "IAnimatedItem", "da/dd9/classIAnimatedItem.html", "da/dd9/classIAnimatedItem" ],
