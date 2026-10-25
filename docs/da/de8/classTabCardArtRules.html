@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Development-3.1.2-beta.4</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -152,6 +152,8 @@ Private Slots</h2></td></tr>
 <tr class="memitem:ab8e17654540e706ddffcf3861b36e420" id="r_ab8e17654540e706ddffcf3861b36e420"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab8e17654540e706ddffcf3861b36e420">addRule</a> ()</td></tr>
 <tr class="memitem:acf99541e3f2290f15d05647264810adb" id="r_acf99541e3f2290f15d05647264810adb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acf99541e3f2290f15d05647264810adb">removeSelected</a> ()</td></tr>
 <tr class="memitem:a87ac1f8c8ed063b1dc84d5aa85625ede" id="r_a87ac1f8c8ed063b1dc84d5aa85625ede"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a87ac1f8c8ed063b1dc84d5aa85625ede">refresh</a> ()</td></tr>
+<tr class="memitem:a8dcc2742c7d1783cd92c0bde675878a0" id="r_a8dcc2742c7d1783cd92c0bde675878a0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8dcc2742c7d1783cd92c0bde675878a0">clearBlacklistedBanners</a> ()</td></tr>
+<tr class="memitem:ac75432c9c71eb90cadad34215125d4df" id="r_ac75432c9c71eb90cadad34215125d4df"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac75432c9c71eb90cadad34215125d4df">clearBlacklistedBannersResponse</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;r)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -174,6 +176,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a838e3b8095c5d35ccfc8c68b3ac37443" id="r_a838e3b8095c5d35ccfc8c68b3ac37443"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a838e3b8095c5d35ccfc8c68b3ac37443">addBtn</a></td></tr>
 <tr class="memitem:ae1ca562fb559b3be3aa9bfe354a616f7" id="r_ae1ca562fb559b3be3aa9bfe354a616f7"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#ae1ca562fb559b3be3aa9bfe354a616f7">removeBtn</a></td></tr>
 <tr class="memitem:a762058dddb42ff2a023da08e5cb27a3e" id="r_a762058dddb42ff2a023da08e5cb27a3e"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a762058dddb42ff2a023da08e5cb27a3e">refreshBtn</a></td></tr>
+<tr class="memitem:a5cf16fb9953f5c649d265c0639bbc37a" id="r_a5cf16fb9953f5c649d265c0639bbc37a"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a5cf16fb9953f5c649d265c0639bbc37a">clearBannedArtBtn</a></td></tr>
 <tr class="memitem:a947dbd949dcb302480e1e4e02d047f0b" id="r_a947dbd949dcb302480e1e4e02d047f0b"><td class="memItemLeft">QTableView *&#160;</td><td class="memItemRight"><a class="el" href="#a947dbd949dcb302480e1e4e02d047f0b">table</a></td></tr>
 <tr class="memitem:a1cc9f24233b17ba3bab178f188808758" id="r_a1cc9f24233b17ba3bab178f188808758"><td class="memItemLeft"><a class="el" href="../../df/db2/classCardArtRulesModel.html">CardArtRulesModel</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a1cc9f24233b17ba3bab178f188808758">tableModel</a></td></tr>
 </table><table class="memberdecls">
@@ -255,6 +258,71 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de8/classTabCardArtRules_ab8e17654540e706ddffcf3861b36e420_icgraph.svg" width="100%" height="373"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8dcc2742c7d1783cd92c0bde675878a0" name="a8dcc2742c7d1783cd92c0bde675878a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dcc2742c7d1783cd92c0bde675878a0">&#9670;&#160;</a></span>clearBlacklistedBanners</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabCardArtRules::clearBlacklistedBanners </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de8/classTabCardArtRules_a8dcc2742c7d1783cd92c0bde675878a0_cgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de8/classTabCardArtRules_a8dcc2742c7d1783cd92c0bde675878a0_icgraph.svg" width="100%" height="373"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac75432c9c71eb90cadad34215125d4df" name="ac75432c9c71eb90cadad34215125d4df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac75432c9c71eb90cadad34215125d4df">&#9670;&#160;</a></span>clearBlacklistedBannersResponse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabCardArtRules::clearBlacklistedBannersResponse </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>r</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de8/classTabCardArtRules_ac75432c9c71eb90cadad34215125d4df_icgraph.svg" width="100%" height="373"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -593,6 +661,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d3/da6/classCardSearchModel.html">CardSearchModel</a>* TabCardArtRules::cardSearchModel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cf16fb9953f5c649d265c0639bbc37a" name="a5cf16fb9953f5c649d265c0639bbc37a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cf16fb9953f5c649d265c0639bbc37a">&#9670;&#160;</a></span>clearBannedArtBtn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* TabCardArtRules::clearBannedArtBtn</td>
         </tr>
       </table>
   </td>

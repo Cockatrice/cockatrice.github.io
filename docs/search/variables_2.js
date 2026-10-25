@@ -76,7 +76,7 @@ var searchData=
   ['box_5fline_5fwidth_73',['BOX_LINE_WIDTH',['../d6/d6f/classTableZone.html#ac8b9f721a7e27a954ef763c1a9f3fa9d',1,'TableZone']]],
   ['bracket_74',['bracket',['../df/dfa/structBracketExplanation.html#a092b9e508e6f6118d7e4517a860ce98b',1,'BracketExplanation']]],
   ['bracketinfobutton_75',['bracketInfoButton',['../d3/d9a/classCommanderBracketWidget.html#aae667448810f61154d4bee45513bbb51',1,'CommanderBracketWidget']]],
-  ['bracketlabel_76',['bracketLabel',['../d3/d9a/classCommanderBracketWidget.html#a14938a6e1e9184e14fe3b2dbb4663cd5',1,'CommanderBracketWidget']]],
+  ['bracketlabel_76',['bracketLabel',['../db/d5d/classTabArchidekt.html#aa68b761960c77a705cc1d050087057fa',1,'TabArchidekt::bracketLabel'],['../d3/d9a/classCommanderBracketWidget.html#a14938a6e1e9184e14fe3b2dbb4663cd5',1,'CommanderBracketWidget::bracketLabel']]],
   ['bracketnavigationwidget_77',['bracketNavigationWidget',['../d1/df9/classEdhrecCommanderApiResponseNavigationWidget.html#af59dc367e8fa095a676399aa87794ecd',1,'EdhrecCommanderApiResponseNavigationWidget']]],
   ['bracketrefreshbutton_78',['bracketRefreshButton',['../d3/d9a/classCommanderBracketWidget.html#a712a7612cde7e2054bf84849128fe6c9',1,'CommanderBracketWidget']]],
   ['brackettag_79',['bracketTag',['../d8/dd8/structEstimateBracketResult.html#a9b1ef52c31076562a1148bf9d896a833',1,'EstimateBracketResult::bracketTag'],['../df/d78/structCommanderSpellbookVariantResult.html#a1ac4cf5fef1ba632c18dccc28008a5a8',1,'CommanderSpellbookVariantResult::bracketTag'],['../d6/dba/structCommanderBracketEstimate.html#a14d703e42bdd50a6c8fc6802b1563baa',1,'CommanderBracketEstimate::bracketTag']]],

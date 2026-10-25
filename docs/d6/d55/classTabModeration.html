@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Development-3.1.2-beta.4</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -159,6 +159,8 @@ Private Slots</h2></td></tr>
 <tr class="memitem:ab35e87a51471bd82a78d738530c8b3fe" id="r_ab35e87a51471bd82a78d738530c8b3fe"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab35e87a51471bd82a78d738530c8b3fe">resetPasswordResponse</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;response)</td></tr>
 <tr class="memitem:a9fdf622c10bae151a0e96d11815114e1" id="r_a9fdf622c10bae151a0e96d11815114e1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9fdf622c10bae151a0e96d11815114e1">removeAvatar</a> ()</td></tr>
 <tr class="memitem:ac36535bc6508510ec5364963c638232a" id="r_ac36535bc6508510ec5364963c638232a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac36535bc6508510ec5364963c638232a">removeAvatarResponse</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;response)</td></tr>
+<tr class="memitem:ac0389e257d07c892eaf669b19c8ace40" id="r_ac0389e257d07c892eaf669b19c8ace40"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac0389e257d07c892eaf669b19c8ace40">removeBanner</a> ()</td></tr>
+<tr class="memitem:ae5e36a296cb0d68d1b38010c0a1361e7" id="r_ae5e36a296cb0d68d1b38010c0a1361e7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae5e36a296cb0d68d1b38010c0a1361e7">removeBannerResponse</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;response)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -177,6 +179,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a75725b1037cc4fcb7a096cb484adc579" id="r_a75725b1037cc4fcb7a096cb484adc579"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a75725b1037cc4fcb7a096cb484adc579">investigateButton</a></td></tr>
 <tr class="memitem:adb50c40ddcbb825ac7ced1799002e025" id="r_adb50c40ddcbb825ac7ced1799002e025"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#adb50c40ddcbb825ac7ced1799002e025">resetPasswordButton</a></td></tr>
 <tr class="memitem:a4d8f341c73f21d10f5f0f7e409d60f9a" id="r_a4d8f341c73f21d10f5f0f7e409d60f9a"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a4d8f341c73f21d10f5f0f7e409d60f9a">removeAvatarButton</a></td></tr>
+<tr class="memitem:ae1216942fb592b9cfd7f257b84ea17f5" id="r_ae1216942fb592b9cfd7f257b84ea17f5"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#ae1216942fb592b9cfd7f257b84ea17f5">removeBannerButton</a></td></tr>
 <tr class="memitem:a232e91aa6efef69d6f3ee340a2408bab" id="r_a232e91aa6efef69d6f3ee340a2408bab"><td class="memItemLeft">QGroupBox *&#160;</td><td class="memItemRight"><a class="el" href="#a232e91aa6efef69d6f3ee340a2408bab">userInfoGroup</a></td></tr>
 <tr class="memitem:ab62660f6ac82d719391a63ccb69fb0e7" id="r_ab62660f6ac82d719391a63ccb69fb0e7"><td class="memItemLeft">QLabel *&#160;</td><td class="memItemRight"><a class="el" href="#ab62660f6ac82d719391a63ccb69fb0e7">userInfoNameLabel</a></td></tr>
 <tr class="memitem:a92572bfc39c3632b7b45f787228009d1" id="r_a92572bfc39c3632b7b45f787228009d1"><td class="memItemLeft">QLabel *&#160;</td><td class="memItemRight"><a class="el" href="#a92572bfc39c3632b7b45f787228009d1">userInfoNameValue</a></td></tr>
@@ -213,7 +216,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a25e38b8dedc77ca04d966348f588a25e pro_attribs_classTab" id="r_a25e38b8dedc77ca04d966348f588a25e"><td class="memItemLeft"><a class="el" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *&#160;</td><td class="memItemRight"><a class="el" href="../../de/d9c/classTab.html#a25e38b8dedc77ca04d966348f588a25e">tabSupervisor</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Staff investigation tool. Lets moderators look up a user's account data, alternate accounts, login sessions, and staff login activity, and offers the password-reset and remove-avatar actions. </p>
+<div class="textblock"><p>Staff investigation tool. Lets moderators look up a user's account data, alternate accounts, login sessions, and staff login activity, and offers the password-reset, remove-avatar, and remove-banner actions. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5d5387f88f0093019ee4d47e044f4cb7" name="a5d5387f88f0093019ee4d47e044f4cb7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d5387f88f0093019ee4d47e044f4cb7">&#9670;&#160;</a></span>TabModeration()</h2>
@@ -540,6 +543,71 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d55/classTabModeration_ac36535bc6508510ec5364963c638232a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac0389e257d07c892eaf669b19c8ace40" name="ac0389e257d07c892eaf669b19c8ace40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0389e257d07c892eaf669b19c8ace40">&#9670;&#160;</a></span>removeBanner</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabModeration::removeBanner </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d55/classTabModeration_ac0389e257d07c892eaf669b19c8ace40_cgraph.svg" width="100%" height="479"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d55/classTabModeration_ac0389e257d07c892eaf669b19c8ace40_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae5e36a296cb0d68d1b38010c0a1361e7" name="ae5e36a296cb0d68d1b38010c0a1361e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5e36a296cb0d68d1b38010c0a1361e7">&#9670;&#160;</a></span>removeBannerResponse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabModeration::removeBannerResponse </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>response</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d55/classTabModeration_ae5e36a296cb0d68d1b38010c0a1361e7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -995,6 +1063,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QPushButton* TabModeration::removeAvatarButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1216942fb592b9cfd7f257b84ea17f5" name="ae1216942fb592b9cfd7f257b84ea17f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1216942fb592b9cfd7f257b84ea17f5">&#9670;&#160;</a></span>removeBannerButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* TabModeration::removeBannerButton</td>
         </tr>
       </table>
   </td>

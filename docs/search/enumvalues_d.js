@@ -22,12 +22,14 @@ var searchData=
   ['normal_5fplayback_19',['NORMAL_PLAYBACK',['../da/de9/classReplayManager.html#a13328112f7a27b265513526c15002286a75a2a45f5cd819b640d95c14ed4e84c5',1,'ReplayManager']]],
   ['nosilentdirectorycreation_20',['NoSilentDirectoryCreation',['../de/d4e/classUnZip.html#ae76e35ba02ddc4793ddaca60a06e5968a03c135b4f525d6ef11d0229a5a2833dd',1,'UnZip']]],
   ['nosort_21',['NoSort',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714faca41862bd3df624bf8b0e7b8b5481482',1,'CardList']]],
-  ['notcontains_22',['NotContains',['../de/d2f/format__legality__rules_8h.html#a3166c752edac185a97b2d3dd54081f72a75daf57db1d55d476f96772ecca737c7',1,'format_legality_rules.h']]],
-  ['notequals_23',['NotEquals',['../de/d2f/format__legality__rules_8h.html#a3166c752edac185a97b2d3dd54081f72a34b5af77cc5bf3a5f2a999f11f578255',1,'format_legality_rules.h']]],
-  ['notify_5fuser_24',['NOTIFY_USER',['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624a392eabb23ae730f03e3d8b5758e80538',1,'SessionEvent']]],
-  ['notloaded_25',['NotLoaded',['../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11ca2b964c155c8b577ebe1a26ebabd27439',1,'card_database_loader.h']]],
-  ['notloggedin_26',['NotLoggedIn',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdaf08382239c29cb2673fa99d0898e1249',1,'server.h']]],
-  ['notselected_27',['NotSelected',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea7dc39dc840c9dbdefd059f8d96226d11',1,'deck_preview_tag_display_widget.h']]],
-  ['notstarted_28',['NotStarted',['../d3/d60/classCardDatabaseSetupPage.html#a0c5c64f3ee6c9d591feb4c76a92bbe89afa7be7845bc42b3491d9d0377958be94',1,'CardDatabaseSetupPage']]],
-  ['numpages_29',['NumPages',['../da/dbe/classSettingsView.html#af4def4eb97317b7ef47567964e073901a022381d622db702a5c028b1e13a74f71',1,'SettingsView']]]
+  ['nosuchuser_22',['NoSuchUser',['../d3/d76/classServatrice__DatabaseInterface.html#a160bef704264e09ac8ba4df0cbb9cda4a8095d5525a3ea6cb6db06e6c6e0e1611',1,'Servatrice_DatabaseInterface']]],
+  ['notcontains_23',['NotContains',['../de/d2f/format__legality__rules_8h.html#a3166c752edac185a97b2d3dd54081f72a75daf57db1d55d476f96772ecca737c7',1,'format_legality_rules.h']]],
+  ['notequals_24',['NotEquals',['../de/d2f/format__legality__rules_8h.html#a3166c752edac185a97b2d3dd54081f72a34b5af77cc5bf3a5f2a999f11f578255',1,'format_legality_rules.h']]],
+  ['nothingtoremove_25',['NothingToRemove',['../d3/d76/classServatrice__DatabaseInterface.html#a160bef704264e09ac8ba4df0cbb9cda4aad369fd1972243d82e964eaa156600dd',1,'Servatrice_DatabaseInterface']]],
+  ['notify_5fuser_26',['NOTIFY_USER',['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624a392eabb23ae730f03e3d8b5758e80538',1,'SessionEvent']]],
+  ['notloaded_27',['NotLoaded',['../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11ca2b964c155c8b577ebe1a26ebabd27439',1,'card_database_loader.h']]],
+  ['notloggedin_28',['NotLoggedIn',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdaf08382239c29cb2673fa99d0898e1249',1,'server.h']]],
+  ['notselected_29',['NotSelected',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93ea7dc39dc840c9dbdefd059f8d96226d11',1,'deck_preview_tag_display_widget.h']]],
+  ['notstarted_30',['NotStarted',['../d3/d60/classCardDatabaseSetupPage.html#a0c5c64f3ee6c9d591feb4c76a92bbe89afa7be7845bc42b3491d9d0377958be94',1,'CardDatabaseSetupPage']]],
+  ['numpages_31',['NumPages',['../da/dbe/classSettingsView.html#af4def4eb97317b7ef47567964e073901a022381d622db702a5c028b1e13a74f71',1,'SettingsView']]]
 ];

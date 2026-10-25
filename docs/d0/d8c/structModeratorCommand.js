@@ -19,6 +19,8 @@ var structModeratorCommand =
       [ "GET_MODERATOR_LAST_LOGINS", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a07bcdae082f9758f363abb3cabc223ac", null ],
       [ "RESET_USER_PASSWORD", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a8729866a2f5f602c77e8032280093d58", null ],
       [ "REMOVE_USER_AVATAR", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129aa1a370eee4e32e58e641bed5e4d0ab7d", null ],
+      [ "REMOVE_USER_BANNER", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a47820a5bffb3e08e847c46174b77a115", null ],
+      [ "CLEAR_BLACKLISTED_BANNERS", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129acd8c6ea9d506583bf0dfdffd68189f36", null ],
       [ "REPORT_LIST", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129ab0ada3fdf014c2e4de71eccb282f9135", null ],
       [ "REPORT_ASSIGN", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a3b6f6ec047a8c26072d1f87b970c505c", null ],
       [ "REPORT_RESOLVE", "d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129af416f37342f348ddd7858fd47746c594", null ],

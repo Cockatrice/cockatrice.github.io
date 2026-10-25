@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Development-3.1.2-beta.4</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -137,6 +137,24 @@ Collaboration diagram for Servatrice_DatabaseInterface:</div>
 Classes</h2></td></tr>
 <tr class="memitem:UptimeSnapshot" id="r_UptimeSnapshot"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="../../d6/d14/structServatrice__DatabaseInterface_1_1UptimeSnapshot.html">UptimeSnapshot</a></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a160bef704264e09ac8ba4df0cbb9cda4" id="r_a160bef704264e09ac8ba4df0cbb9cda4"><td class="memItemLeft">enum class &#160;</td><td class="memItemRight"><a class="el" href="#a160bef704264e09ac8ba4df0cbb9cda4">RemoveUserBannerResult</a> { <a class="el" href="#a160bef704264e09ac8ba4df0cbb9cda4a93f07b720ebf7d1246512569761a5804">Removed</a>
+, <a class="el" href="#a160bef704264e09ac8ba4df0cbb9cda4aad369fd1972243d82e964eaa156600dd">NothingToRemove</a>
+, <a class="el" href="#a160bef704264e09ac8ba4df0cbb9cda4a8095d5525a3ea6cb6db06e6c6e0e1611">NoSuchUser</a>
+, <a class="el" href="#a160bef704264e09ac8ba4df0cbb9cda4aa31437013b94ae5b39a818c6defac7ea">DatabaseError</a>
+ }</td></tr>
+<tr class="inherit_header pub_types_classServer__DatabaseInterface"><td colspan="2">Public Types inherited from <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html">Server_DatabaseInterface</a></td></tr>
+<tr class="memitem:a89b169819c61bccdb4292a1559341334 pub_types_classServer__DatabaseInterface" id="r_a89b169819c61bccdb4292a1559341334"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334">LogMessage_TargetType</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a91ea7dd053e2af8cd12962794fabdf4d">MessageTargetRoom</a>
+, <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a80f84e32bf1aa29a8834270986318120">MessageTargetGame</a>
+, <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334ae6f14fa6f84f921baeabf62f04da1679">MessageTargetChat</a>
+, <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a7b498d5d4759ceae094537a7dbf8f6e2">MessageTargetIslRoom</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334ade178da4f769ceab5750b449f15cb1ce">MessageTargetRoomChannel</a>
+<br />
+ }</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:afa8f98cb0ebb56a6b4816067c852f766" id="r_afa8f98cb0ebb56a6b4816067c852f766"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afa8f98cb0ebb56a6b4816067c852f766">initDatabase</a> (const QSqlDatabase &amp;_sqlDatabase)</td></tr>
@@ -213,6 +231,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6318ed7a6489e2a22f7f6b59a59c383d" id="r_a6318ed7a6489e2a22f7f6b59a59c383d"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../dc/ded/structServerInfo__ModeratorLogin.html">ServerInfo_ModeratorLogin</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a6318ed7a6489e2a22f7f6b59a59c383d">getModeratorLastLogins</a> ()</td></tr>
 <tr class="memitem:a5891f4690eb7faf55f28493a39d42f36" id="r_a5891f4690eb7faf55f28493a39d42f36"><td class="memItemLeft"><a class="el" href="../../d6/d14/structServatrice__DatabaseInterface_1_1UptimeSnapshot.html">UptimeSnapshot</a>&#160;</td><td class="memItemRight"><a class="el" href="#a5891f4690eb7faf55f28493a39d42f36">getLatestUptimeSnapshot</a> (int serverId)</td></tr>
 <tr class="memitem:af809d0360960775994878292f2e7cf6b" id="r_af809d0360960775994878292f2e7cf6b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#af809d0360960775994878292f2e7cf6b">removeUserAvatar</a> (const QString &amp;userName)</td></tr>
+<tr class="memitem:a40688e3f330d4117efc96a1c44476d38" id="r_a40688e3f330d4117efc96a1c44476d38"><td class="memItemLeft"><a class="el" href="#a160bef704264e09ac8ba4df0cbb9cda4">RemoveUserBannerResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#a40688e3f330d4117efc96a1c44476d38">removeUserBanner</a> (const QString &amp;userName)</td></tr>
+<tr class="memitem:a9c48033f7b612dbe9ac17883640f348b" id="r_a9c48033f7b612dbe9ac17883640f348b"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a9c48033f7b612dbe9ac17883640f348b">clearBlacklistedBanners</a> ()</td></tr>
 <tr class="memitem:a7b3a81cacc23a214102be5bc7072f52c" id="r_a7b3a81cacc23a214102be5bc7072f52c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a7b3a81cacc23a214102be5bc7072f52c">isCardArtAllowed</a> (const QString &amp;cardName, const QString &amp;cardProviderId) override</td></tr>
 <tr class="memdesc:a7b3a81cacc23a214102be5bc7072f52c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the given card art may be shown (card art rules).  <br /></td></tr>
 <tr class="memitem:ad57c24c6e2fd003fe6c9259fd82fe7f3" id="r_ad57c24c6e2fd003fe6c9259fd82fe7f3"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ad57c24c6e2fd003fe6c9259fd82fe7f3">addForgotPassword</a> (const QString &amp;user)</td></tr>
@@ -244,20 +264,36 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a3b331eefa0f8d450d65e602caceb27c9" id="r_a3b331eefa0f8d450d65e602caceb27c9"><td class="memItemLeft">QSqlDatabase&#160;</td><td class="memItemRight"><a class="el" href="#a3b331eefa0f8d450d65e602caceb27c9">sqlDatabase</a></td></tr>
 <tr class="memitem:aaf2c3a3834afe8ca42088c683704363d" id="r_aaf2c3a3834afe8ca42088c683704363d"><td class="memItemLeft"><a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt; QString, QSqlQuery * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aaf2c3a3834afe8ca42088c683704363d">preparedStatements</a></td></tr>
 <tr class="memitem:abdf92bdd7d22b343692ce9cf7050a5a7" id="r_abdf92bdd7d22b343692ce9cf7050a5a7"><td class="memItemLeft"><a class="el" href="../../d5/d0e/classServatrice.html">Servatrice</a> *&#160;</td><td class="memItemRight"><a class="el" href="#abdf92bdd7d22b343692ce9cf7050a5a7">server</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classServer__DatabaseInterface"><td colspan="2">Public Types inherited from <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html">Server_DatabaseInterface</a></td></tr>
-<tr class="memitem:a89b169819c61bccdb4292a1559341334 pub_types_classServer__DatabaseInterface" id="r_a89b169819c61bccdb4292a1559341334"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334">LogMessage_TargetType</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a91ea7dd053e2af8cd12962794fabdf4d">MessageTargetRoom</a>
-, <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a80f84e32bf1aa29a8834270986318120">MessageTargetGame</a>
-, <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334ae6f14fa6f84f921baeabf62f04da1679">MessageTargetChat</a>
-, <a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334a7b498d5d4759ceae094537a7dbf8f6e2">MessageTargetIslRoom</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d2/d12/classServer__DatabaseInterface.html#a89b169819c61bccdb4292a1559341334ade178da4f769ceab5750b449f15cb1ce">MessageTargetRoomChannel</a>
-<br />
- }</td></tr>
 </table>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
+<a id="a160bef704264e09ac8ba4df0cbb9cda4" name="a160bef704264e09ac8ba4df0cbb9cda4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a160bef704264e09ac8ba4df0cbb9cda4">&#9670;&#160;</a></span>RemoveUserBannerResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a160bef704264e09ac8ba4df0cbb9cda4">Servatrice_DatabaseInterface::RemoveUserBannerResult</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a160bef704264e09ac8ba4df0cbb9cda4a93f07b720ebf7d1246512569761a5804" name="a160bef704264e09ac8ba4df0cbb9cda4a93f07b720ebf7d1246512569761a5804"></a>Removed&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a160bef704264e09ac8ba4df0cbb9cda4aad369fd1972243d82e964eaa156600dd" name="a160bef704264e09ac8ba4df0cbb9cda4aad369fd1972243d82e964eaa156600dd"></a>NothingToRemove&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a160bef704264e09ac8ba4df0cbb9cda4a8095d5525a3ea6cb6db06e6c6e0e1611" name="a160bef704264e09ac8ba4df0cbb9cda4a8095d5525a3ea6cb6db06e6c6e0e1611"></a>NoSuchUser&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a160bef704264e09ac8ba4df0cbb9cda4aa31437013b94ae5b39a818c6defac7ea" name="a160bef704264e09ac8ba4df0cbb9cda4aa31437013b94ae5b39a818c6defac7ea"></a>DatabaseError&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3b21c6dbd21b2ec7ec6af43895821623" name="a3b21c6dbd21b2ec7ec6af43895821623"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3b21c6dbd21b2ec7ec6af43895821623">&#9670;&#160;</a></span>Servatrice_DatabaseInterface()</h2>
@@ -944,6 +980,33 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a28bf00d14aa130e648820e3e0bd867c3_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a9c48033f7b612dbe9ac17883640f348b" name="a9c48033f7b612dbe9ac17883640f348b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c48033f7b612dbe9ac17883640f348b">&#9670;&#160;</a></span>clearBlacklistedBanners()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Servatrice_DatabaseInterface::clearBlacklistedBanners </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a9c48033f7b612dbe9ac17883640f348b_cgraph.svg" width="100%" height="482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a9c48033f7b612dbe9ac17883640f348b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2507,6 +2570,33 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_af809d0360960775994878292f2e7cf6b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a40688e3f330d4117efc96a1c44476d38" name="a40688e3f330d4117efc96a1c44476d38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40688e3f330d4117efc96a1c44476d38">&#9670;&#160;</a></span>removeUserBanner()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a160bef704264e09ac8ba4df0cbb9cda4">Servatrice_DatabaseInterface::RemoveUserBannerResult</a> Servatrice_DatabaseInterface::removeUserBanner </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>userName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a40688e3f330d4117efc96a1c44476d38_cgraph.svg" width="100%" height="434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d76/classServatrice__DatabaseInterface_a40688e3f330d4117efc96a1c44476d38_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

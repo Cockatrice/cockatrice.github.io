@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Development-3.1.2-beta.4</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -168,6 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a30f0ce2f69847bbcec89e524227db527 pub_methods_classServer__AbstractUserInterface" id="r_a30f0ce2f69847bbcec89e524227db527"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d5/d9c/classServer__AbstractUserInterface.html#a30f0ce2f69847bbcec89e524227db527">joinPersistentGames</a> (<a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a4531a571b66ed9fb8abacd1b98de01f5 pub_methods_classServer__AbstractUserInterface" id="r_a4531a571b66ed9fb8abacd1b98de01f5"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="../../d5/d9c/classServer__AbstractUserInterface.html#a4531a571b66ed9fb8abacd1b98de01f5">onLogin</a> (<a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a01a95971489cffd7a410f795726ebbd1 pub_methods_classServer__AbstractUserInterface" id="r_a01a95971489cffd7a410f795726ebbd1"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; int, QPair&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="../../d5/d9c/classServer__AbstractUserInterface.html#a01a95971489cffd7a410f795726ebbd1">getGames</a> () const</td></tr>
+<tr class="memitem:a26aa35c4807fa9d675571fc43201e223 pub_methods_classServer__AbstractUserInterface" id="r_a26aa35c4807fa9d675571fc43201e223"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="../../d5/d9c/classServer__AbstractUserInterface.html#a26aa35c4807fa9d675571fc43201e223">getGameInfo</a> (int gameId, int &amp;roomId, int &amp;playerId) const</td></tr>
+<tr class="memdesc:a26aa35c4807fa9d675571fc43201e223 pub_methods_classServer__AbstractUserInterface"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up the room and player id of one game without copying the game list.  <br /></td></tr>
 <tr class="memitem:a9a749c2b02032ffa4c47e35e4f4e053d pub_methods_classServer__AbstractUserInterface" id="r_a9a749c2b02032ffa4c47e35e4f4e053d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d5/d9c/classServer__AbstractUserInterface.html#a9a749c2b02032ffa4c47e35e4f4e053d">sendProtocolItemByType</a> (<a class="el" href="../../d3/d1d/structServerMessage.html#ab80373bacb5a14a61e4ce5102bb0d405">ServerMessage::MessageType</a> type, const ::google::protobuf::Message &amp;item)</td></tr>
 <tr class="memitem:ae3a789f90486ba985ad0e244a4c8698d pub_methods_classServer__AbstractUserInterface" id="r_ae3a789f90486ba985ad0e244a4c8698d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../d5/d9c/classServer__AbstractUserInterface.html#ae3a789f90486ba985ad0e244a4c8698d">sendResponseContainer</a> (const <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;responseContainer, <a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> responseCode)</td></tr>
 <tr class="inherit_header pub_methods_classServerInfo__User__Container"><td colspan="2">Public Member Functions inherited from <a class="el" href="../../d9/d5b/classServerInfo__User__Container.html">ServerInfo_User_Container</a></td></tr>
@@ -184,6 +186,8 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a48b9b66b2242d56e8e6be8d443c229d2" id="r_a48b9b66b2242d56e8e6be8d443c229d2"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a48b9b66b2242d56e8e6be8d443c229d2">logDebugMessage</a> (const QString &amp;)</td></tr>
+<tr class="memitem:adfa87b16827169bd618ef246f78888e3" id="r_adfa87b16827169bd618ef246f78888e3"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#adfa87b16827169bd618ef246f78888e3">logsDebugMessages</a> () const</td></tr>
+<tr class="memdesc:adfa87b16827169bd618ef246f78888e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether debug messages produced by this handler are actually written anywhere.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -1118,6 +1122,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="adfa87b16827169bd618ef246f78888e3" name="adfa87b16827169bd618ef246f78888e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfa87b16827169bd618ef246f78888e3">&#9670;&#160;</a></span>logsDebugMessages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Server_ProtocolHandler::logsDebugMessages </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span><span class="mlabel protected">protected</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether debug messages produced by this handler are actually written anywhere. </p>
+<p>Formatting a protocol message for the log is expensive, so callers only build the debug string when this returns true. The base handler has no log destination and therefore never needs one. </p>
+
+<p>Reimplemented in <a class="el" href="../../dd/dea/classAbstractServerSocketInterface.html#a266b53390ba888f08997315fa292b6cb">AbstractServerSocketInterface</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_adfa87b16827169bd618ef246f78888e3_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a9002341e1339924be576c87433a15856" name="a9002341e1339924be576c87433a15856"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9002341e1339924be576c87433a15856">&#9670;&#160;</a></span>pingClockTimeout</h2>
 
@@ -1217,7 +1256,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_ae9760d77bb0a96e331791182bca161e7_cgraph.svg" width="562" height="327"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_ae9760d77bb0a96e331791182bca161e7_cgraph.svg" width="562" height="391"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1293,7 +1332,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_ac2c8aa4b8ec00be0dd53d1aa494270a8_cgraph.svg" width="611" height="327"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_ac2c8aa4b8ec00be0dd53d1aa494270a8_cgraph.svg" width="611" height="391"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1535,7 +1574,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_ae42017c6be898e1ad6493abf33d46bb6_cgraph.svg" width="611" height="327"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d23/classServer__ProtocolHandler_ae42017c6be898e1ad6493abf33d46bb6_cgraph.svg" width="611" height="391"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>

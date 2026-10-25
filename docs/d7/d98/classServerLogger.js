@@ -3,6 +3,7 @@ var classServerLogger =
     [ "ServerLogger", "d7/d98/classServerLogger.html#a8f430b208559655bd203532e650d9271", null ],
     [ "~ServerLogger", "d7/d98/classServerLogger.html#a1d9e94d936bd24c53daf90ba16ac24be", null ],
     [ "flushBuffer", "d7/d98/classServerLogger.html#a3168d99f3e0125161f7da8294e29bd6f", null ],
+    [ "isLoggingEnabled", "d7/d98/classServerLogger.html#a801e348fd89b522f4335650bf4eabcaf", null ],
     [ "logMessage", "d7/d98/classServerLogger.html#ad999153f6e71f12009ddd2a8e8c6b2c9", null ],
     [ "rotateLogs", "d7/d98/classServerLogger.html#acce5b865ba312e9dc3f32ef7e352beeb", null ],
     [ "sigFlushBuffer", "d7/d98/classServerLogger.html#a7e3a1951a4e8183432970cd0b39fc95f", null ],

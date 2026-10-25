@@ -25,6 +25,7 @@ var classServer__ProtocolHandler =
     [ "getLastCommandTime", "d0/d23/classServer__ProtocolHandler.html#a36fa4e621e6a086b27bbe5cd42bd8453", null ],
     [ "isAuthNonceValid", "d0/d23/classServer__ProtocolHandler.html#aec51d3bab836558d51a0d37570837794", null ],
     [ "logDebugMessage", "d0/d23/classServer__ProtocolHandler.html#a48b9b66b2242d56e8e6be8d443c229d2", null ],
+    [ "logsDebugMessages", "d0/d23/classServer__ProtocolHandler.html#adfa87b16827169bd618ef246f78888e3", null ],
     [ "pingClockTimeout", "d0/d23/classServer__ProtocolHandler.html#a9002341e1339924be576c87433a15856", null ],
     [ "prepareDestroy", "d0/d23/classServer__ProtocolHandler.html#a0f94276b2db58629559aae863bae8a89", null ],
     [ "processAdminCommandContainer", "d0/d23/classServer__ProtocolHandler.html#ae9760d77bb0a96e331791182bca161e7", null ],

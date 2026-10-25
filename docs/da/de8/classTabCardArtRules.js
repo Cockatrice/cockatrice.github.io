@@ -2,6 +2,8 @@ var classTabCardArtRules =
 [
     [ "TabCardArtRules", "da/de8/classTabCardArtRules.html#a95ff813f16d27d48a0cd3c845e02e22b", null ],
     [ "addRule", "da/de8/classTabCardArtRules.html#ab8e17654540e706ddffcf3861b36e420", null ],
+    [ "clearBlacklistedBanners", "da/de8/classTabCardArtRules.html#a8dcc2742c7d1783cd92c0bde675878a0", null ],
+    [ "clearBlacklistedBannersResponse", "da/de8/classTabCardArtRules.html#ac75432c9c71eb90cadad34215125d4df", null ],
     [ "getTabText", "da/de8/classTabCardArtRules.html#a7ade82838c3cfb1780cf4166b918f70b", null ],
     [ "initSearchBar", "da/de8/classTabCardArtRules.html#add8084c45f8a63db82b53b68925b0e87", null ],
     [ "populateProviderCombo", "da/de8/classTabCardArtRules.html#a7e9f43a74218dacb0e43423d1b5848c8", null ],
@@ -14,6 +16,7 @@ var classTabCardArtRules =
     [ "cardDbModel", "da/de8/classTabCardArtRules.html#a1651b8e11aaa42a1b3adfcaabda0bed2", null ],
     [ "cardProxyModel", "da/de8/classTabCardArtRules.html#a2521e1cd2a7d00f077c46166f1eaa84c", null ],
     [ "cardSearchModel", "da/de8/classTabCardArtRules.html#a2dc2b5649772d48407bc4fb69d1b4778", null ],
+    [ "clearBannedArtBtn", "da/de8/classTabCardArtRules.html#a5cf16fb9953f5c649d265c0639bbc37a", null ],
     [ "client", "da/de8/classTabCardArtRules.html#aaa217b961658d1e380f440ac87da1ff3", null ],
     [ "modeBox", "da/de8/classTabCardArtRules.html#ae315f8dea93c0a97de5dce865e888ebf", null ],
     [ "providerComboBox", "da/de8/classTabCardArtRules.html#af302cdd8d70da7dc1d1d40b0753d5413", null ],

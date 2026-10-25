@@ -1,6 +1,12 @@
 var classServatrice__DatabaseInterface =
 [
     [ "UptimeSnapshot", "d6/d14/structServatrice__DatabaseInterface_1_1UptimeSnapshot.html", "d6/d14/structServatrice__DatabaseInterface_1_1UptimeSnapshot" ],
+    [ "RemoveUserBannerResult", "d3/d76/classServatrice__DatabaseInterface.html#a160bef704264e09ac8ba4df0cbb9cda4", [
+      [ "Removed", "d3/d76/classServatrice__DatabaseInterface.html#a160bef704264e09ac8ba4df0cbb9cda4a93f07b720ebf7d1246512569761a5804", null ],
+      [ "NothingToRemove", "d3/d76/classServatrice__DatabaseInterface.html#a160bef704264e09ac8ba4df0cbb9cda4aad369fd1972243d82e964eaa156600dd", null ],
+      [ "NoSuchUser", "d3/d76/classServatrice__DatabaseInterface.html#a160bef704264e09ac8ba4df0cbb9cda4a8095d5525a3ea6cb6db06e6c6e0e1611", null ],
+      [ "DatabaseError", "d3/d76/classServatrice__DatabaseInterface.html#a160bef704264e09ac8ba4df0cbb9cda4aa31437013b94ae5b39a818c6defac7ea", null ]
+    ] ],
     [ "Servatrice_DatabaseInterface", "d3/d76/classServatrice__DatabaseInterface.html#a3b21c6dbd21b2ec7ec6af43895821623", null ],
     [ "~Servatrice_DatabaseInterface", "d3/d76/classServatrice__DatabaseInterface.html#ae1ea66e7e92c4cc6d7353bbf90dedd0a", null ],
     [ "activateUser", "d3/d76/classServatrice__DatabaseInterface.html#a0063ec013dd73c526ada255fea57fa82", null ],
@@ -18,6 +24,7 @@ var classServatrice__DatabaseInterface =
     [ "checkUserIsNameBanned", "d3/d76/classServatrice__DatabaseInterface.html#aef374e509b953d6453b69d3feeb1009c", null ],
     [ "checkUserPassword", "d3/d76/classServatrice__DatabaseInterface.html#a0e396c6edbf4c408ab6a9020514e862f", null ],
     [ "cleanupExpiredDeckShares", "d3/d76/classServatrice__DatabaseInterface.html#a28bf00d14aa130e648820e3e0bd867c3", null ],
+    [ "clearBlacklistedBanners", "d3/d76/classServatrice__DatabaseInterface.html#a9c48033f7b612dbe9ac17883640f348b", null ],
     [ "clearLegacyBackup", "d3/d76/classServatrice__DatabaseInterface.html#a0dd348e1b418458fe9e94ec7d3454b7e", null ],
     [ "clearSessionTables", "d3/d76/classServatrice__DatabaseInterface.html#af4df6701fd79e20df9e13bbe19f0f089", null ],
     [ "createDeckShare", "d3/d76/classServatrice__DatabaseInterface.html#afa7bccf3872b397f785f4c1f3a0907e6", null ],
@@ -62,6 +69,7 @@ var classServatrice__DatabaseInterface =
     [ "registerUser", "d3/d76/classServatrice__DatabaseInterface.html#ad9d4d248a2b712c791a7c5b5e026dfca", null ],
     [ "removeForgotPassword", "d3/d76/classServatrice__DatabaseInterface.html#a309fcb63a1ac1d486050a0419a2cf83b", null ],
     [ "removeUserAvatar", "d3/d76/classServatrice__DatabaseInterface.html#af809d0360960775994878292f2e7cf6b", null ],
+    [ "removeUserBanner", "d3/d76/classServatrice__DatabaseInterface.html#a40688e3f330d4117efc96a1c44476d38", null ],
     [ "setForcePasswordChange", "d3/d76/classServatrice__DatabaseInterface.html#a67666f0044fed995abeb1373eafbb3e5", null ],
     [ "startSession", "d3/d76/classServatrice__DatabaseInterface.html#a2cea8122a6fa7c88874e6368df561a85", null ],
     [ "storeGameInformation", "d3/d76/classServatrice__DatabaseInterface.html#a38947a92bd60f183a424265c6b65d2eb", null ],

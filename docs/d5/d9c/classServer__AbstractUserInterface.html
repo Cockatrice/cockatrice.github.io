@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Development-3.1.2-beta.4</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -145,6 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a30f0ce2f69847bbcec89e524227db527" id="r_a30f0ce2f69847bbcec89e524227db527"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a30f0ce2f69847bbcec89e524227db527">joinPersistentGames</a> (<a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a4531a571b66ed9fb8abacd1b98de01f5" id="r_a4531a571b66ed9fb8abacd1b98de01f5"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a4531a571b66ed9fb8abacd1b98de01f5">onLogin</a> (<a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a01a95971489cffd7a410f795726ebbd1" id="r_a01a95971489cffd7a410f795726ebbd1"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; int, QPair&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a01a95971489cffd7a410f795726ebbd1">getGames</a> () const</td></tr>
+<tr class="memitem:a26aa35c4807fa9d675571fc43201e223" id="r_a26aa35c4807fa9d675571fc43201e223"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a26aa35c4807fa9d675571fc43201e223">getGameInfo</a> (int gameId, int &amp;roomId, int &amp;playerId) const</td></tr>
+<tr class="memdesc:a26aa35c4807fa9d675571fc43201e223"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up the room and player id of one game without copying the game list.  <br /></td></tr>
 <tr class="memitem:aced6c8e92e1c7988faf6e76dd44032f3" id="r_aced6c8e92e1c7988faf6e76dd44032f3"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#aced6c8e92e1c7988faf6e76dd44032f3">sendProtocolItem</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;item)=0</td></tr>
 <tr class="memitem:a2e2751a14a7aad9047b4fbe6618e9ad5" id="r_a2e2751a14a7aad9047b4fbe6618e9ad5"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a2e2751a14a7aad9047b4fbe6618e9ad5">sendProtocolItem</a> (const <a class="el" href="../../d4/d0c/structSessionEvent.html">SessionEvent</a> &amp;item)=0</td></tr>
 <tr class="memitem:a81bee97ccda2a7942f90631231710c6b" id="r_a81bee97ccda2a7942f90631231710c6b"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a81bee97ccda2a7942f90631231710c6b">sendProtocolItem</a> (const <a class="el" href="../../d6/d6f/structGameEventContainer.html">GameEventContainer</a> &amp;item)=0</td></tr>
@@ -301,6 +303,40 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d9c/classServer__AbstractUserInterface_a2fddbaf05f2d84043d67b72bcaeee271_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a26aa35c4807fa9d675571fc43201e223" name="a26aa35c4807fa9d675571fc43201e223"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26aa35c4807fa9d675571fc43201e223">&#9670;&#160;</a></span>getGameInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Server_AbstractUserInterface::getGameInfo </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>gameId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;</td>          <td class="paramname"><span class="paramname"><em>roomId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;</td>          <td class="paramname"><span class="paramname"><em>playerId</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Looks up the room and player id of one game without copying the game list. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the game is known; otherwise false and the outputs are untouched. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d9c/classServer__AbstractUserInterface_a26aa35c4807fa9d675571fc43201e223_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

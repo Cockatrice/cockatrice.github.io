@@ -4,6 +4,7 @@ var classServer__AbstractUserInterface =
     [ "Server_AbstractUserInterface", "d5/d9c/classServer__AbstractUserInterface.html#ad6f4ab7d62f7acc059c284d0a20d9ec5", null ],
     [ "~Server_AbstractUserInterface", "d5/d9c/classServer__AbstractUserInterface.html#a2f212571d32042a303675864ccd4b76c", null ],
     [ "addSaidMessageSize", "d5/d9c/classServer__AbstractUserInterface.html#a2fddbaf05f2d84043d67b72bcaeee271", null ],
+    [ "getGameInfo", "d5/d9c/classServer__AbstractUserInterface.html#a26aa35c4807fa9d675571fc43201e223", null ],
     [ "getGames", "d5/d9c/classServer__AbstractUserInterface.html#a01a95971489cffd7a410f795726ebbd1", null ],
     [ "getLastCommandTime", "d5/d9c/classServer__AbstractUserInterface.html#a73889f2a37245a5d0afdb02d41a1c0c7", null ],
     [ "joinPersistentGames", "d5/d9c/classServer__AbstractUserInterface.html#a30f0ce2f69847bbcec89e524227db527", null ],

@@ -36,5 +36,9 @@ var moderator__commands_8proto =
     [ "Command_GetModeratorLastLogins::ModeratorCommand", "d5/d62/structCommand__GetModeratorLastLogins_1_1ModeratorCommand.html", "d5/d62/structCommand__GetModeratorLastLogins_1_1ModeratorCommand" ],
     [ "Command_RemoveUserAvatar", "d7/d1a/structCommand__RemoveUserAvatar.html", "d7/d1a/structCommand__RemoveUserAvatar" ],
     [ "Command_RemoveUserAvatar::ModeratorCommand", "d8/d33/structCommand__RemoveUserAvatar_1_1ModeratorCommand.html", "d8/d33/structCommand__RemoveUserAvatar_1_1ModeratorCommand" ],
+    [ "Command_RemoveUserBanner", "d7/dc3/structCommand__RemoveUserBanner.html", "d7/dc3/structCommand__RemoveUserBanner" ],
+    [ "Command_RemoveUserBanner::ModeratorCommand", "d1/d87/structCommand__RemoveUserBanner_1_1ModeratorCommand.html", "d1/d87/structCommand__RemoveUserBanner_1_1ModeratorCommand" ],
+    [ "Command_ClearBlacklistedBanners", "de/dd7/structCommand__ClearBlacklistedBanners.html", "de/dd7/structCommand__ClearBlacklistedBanners" ],
+    [ "Command_ClearBlacklistedBanners::ModeratorCommand", "db/d6f/structCommand__ClearBlacklistedBanners_1_1ModeratorCommand.html", "db/d6f/structCommand__ClearBlacklistedBanners_1_1ModeratorCommand" ],
     [ "syntax", "dc/df1/moderator__commands_8proto.html#adbedb258e13546cc707a6ebb073a3d8a", null ]
 ];

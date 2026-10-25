@@ -38,6 +38,7 @@ var classVisualDatabaseDisplayWidget =
     [ "setNewZoneCreator", "d2/d32/classVisualDatabaseDisplayWidget.html#a5a3f9e96ecdd626dd80e1624ff5e10fd", null ],
     [ "showEvent", "d2/d32/classVisualDatabaseDisplayWidget.html#a016d8ece53348c977feeb586ebf2d5cc", null ],
     [ "sortCardList", "d2/d32/classVisualDatabaseDisplayWidget.html#a619bdcf9ef46b12a6e9259ccf6191553", null ],
+    [ "updateDisplayModeButton", "d2/d32/classVisualDatabaseDisplayWidget.html#ae633c7299323459b876f31977391802c", null ],
     [ "cards", "d2/d32/classVisualDatabaseDisplayWidget.html#a9242327b4b00bf96689af6fd90c676ac", null ],
     [ "cardSizeWidget", "d2/d32/classVisualDatabaseDisplayWidget.html#adaa96ce10b712c11146d4f18c3433daa", null ],
     [ "cardsPerPage", "d2/d32/classVisualDatabaseDisplayWidget.html#ad57f48ced9241eec01eac9b2c7ed2dc3", null ],
