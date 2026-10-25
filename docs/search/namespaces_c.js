@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['userdatabackup_0',['UserDataBackup',['../d2/df9/namespaceUserDataBackup.html',1,'']]],
-  ['userlistroles_1',['UserListRoles',['../d7/dc9/namespaceUserListRoles.html',1,'']]]
+  ['tally_0',['Tally',['../dd/d5d/namespaceTally.html',1,'']]],
+  ['translationloader_1',['TranslationLoader',['../dd/df1/namespaceTranslationLoader.html',1,'']]]
 ];

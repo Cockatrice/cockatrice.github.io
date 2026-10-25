@@ -6,6 +6,7 @@ var classCardInfo =
     [ "addReverseRelatedCards2Me", "dd/dd2/classCardInfo.html#ac16dcbbd11963d2ba873594f5ba94ca8", null ],
     [ "addToSet", "dd/dd2/classCardInfo.html#ae93671742c179b4da21add1ec997b586", null ],
     [ "cardInfoChanged", "dd/dd2/classCardInfo.html#ac7314130c21a55725413c89a857e4c95", null ],
+    [ "clearDirectRelations", "dd/dd2/classCardInfo.html#ab65ca26d7338fc3c164acd77634c61de", null ],
     [ "clone", "dd/dd2/classCardInfo.html#ac3cba7ae717adf4411ac2734ab481ccd", null ],
     [ "combineLegalities", "dd/dd2/classCardInfo.html#a6faae63788160b8e1b36474bd4bd20ba", null ],
     [ "getAllRelatedCards", "dd/dd2/classCardInfo.html#aed0062cd2d4d936dab67dcc279616ad6", null ],

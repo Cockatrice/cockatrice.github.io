@@ -19,6 +19,7 @@ var classVisualDatabaseDisplaySetFilterWidget =
     [ "recentSetsSettingsWidget", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#a47ea88991baa11508fdac9de96c86d35", null ],
     [ "searchBox", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#a721e25e778607d4ec88b4b428d8c937c", null ],
     [ "setButtons", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#a16ec576b574a3edeba2d0b9035db96b6", null ],
+    [ "syncDebouncer", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#a1440be73fd9c8ecdb36e206924f5d80e", null ],
     [ "toggleButton", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#aed774e9b3bdb4cf7b731d574cb38a251", null ],
     [ "typeButtons", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html#ad5a2489cc8e200f0dc5b8c48a5434bcd", null ]
 ];

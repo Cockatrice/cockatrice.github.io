@@ -16,6 +16,7 @@ var classVisualDatabaseDisplayMainTypeFilterWidget =
     [ "flowWidget", "dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#a3a23649e26f21a255b4119177fc635cf", null ],
     [ "layout", "dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#ae80ce12d84b02ec87a2a3f23e0c8d1e9", null ],
     [ "spinBox", "dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#a530cf5bc3e138442622b6c2fa8e4abb5", null ],
+    [ "syncDebouncer", "dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#af28c251e91bfe530dba3bd5ce1adcb81", null ],
     [ "thresholdLabel", "dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#a770099068d6a3feeaad8c3d278b870d6", null ],
     [ "toggleButton", "dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#af731fc43eb1cd54e6c5f9e84b14bf23c", null ],
     [ "typeButtons", "dc/df1/classVisualDatabaseDisplayMainTypeFilterWidget.html#aadf2472bd285b3cfb030dccfa27209e1", null ]

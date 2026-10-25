@@ -135,6 +135,12 @@ var namespaces_dup =
       [ "PowTough", "db/d09/namespaceMtg.html#a417d3f54883a6f7af31b0e542dd0fa75", null ],
       [ "Side", "db/d09/namespaceMtg.html#a5b271237e604b4bf42c6b8eea641f4b5", null ]
     ] ],
+    [ "NaturalSort", "d9/df3/namespaceNaturalSort.html", [
+      [ "makeNaturalSortCollator", "d9/df3/namespaceNaturalSort.html#a9d57ff5ab0ab0ca47adbb81ce836fe9a", null ]
+    ] ],
+    [ "NetworkManagerFactory", "da/d40/namespaceNetworkManagerFactory.html", [
+      [ "create", "da/d40/namespaceNetworkManagerFactory.html#aa22f7b8add444458c7d995d99270a728", null ]
+    ] ],
     [ "OverridePrintingWarning", "da/d73/namespaceOverridePrintingWarning.html", [
       [ "execMessageBox", "da/d73/namespaceOverridePrintingWarning.html#a20e030722c3a36095107cc81baed4f0d", null ]
     ] ],
@@ -157,10 +163,7 @@ var namespaces_dup =
     [ "PopupRoles", "d4/d04/namespacePopupRoles.html", [
       [ "GameData", "d4/d04/namespacePopupRoles.html#aee3b53b3382f1365454509a058ad3641", null ]
     ] ],
-    [ "QtUtils", "dc/d55/namespaceQtUtils.html", [
-      [ "clearLayoutRec", "dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301", null ],
-      [ "findParentOfType", "dc/d55/namespaceQtUtils.html#a573d4567ad2940b0f5fce244a0f585f6", null ]
-    ] ],
+    [ "QtUtils", "dc/d55/namespaceQtUtils.html", "dc/d55/namespaceQtUtils" ],
     [ "RawJson", "d6/d63/namespaceRawJson.html", "d6/d63/namespaceRawJson" ],
     [ "report_utils", "d8/d80/namespacereport__utils.html", [
       [ "fillReportTableRow", "d8/d80/namespacereport__utils.html#aad25353920308e3ab67d83868b839809", null ],

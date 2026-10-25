@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['statstally_0',['StatsTally',['../d5/d5f/namespaceStatsTally.html',1,'']]],
-  ['subtypetally_1',['SubtypeTally',['../d9/d99/namespaceSubtypeTally.html',1,'']]]
+  ['rawjson_0',['RawJson',['../d6/d63/namespaceRawJson.html',1,'']]],
+  ['report_5futils_1',['report_utils',['../d8/d80/namespacereport__utils.html',1,'']]],
+  ['reportcategories_2',['ReportCategories',['../d3/db6/namespaceReportCategories.html',1,'']]]
 ];

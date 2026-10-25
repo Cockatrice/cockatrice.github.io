@@ -17,6 +17,7 @@ var classVisualDatabaseDisplayFormatLegalityFilterWidget =
     [ "formatButtons", "d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html#a8b4cc2abed0ce3da445e58787ccf0bb1", null ],
     [ "layout", "d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html#a2cc052dd6b14f171a18b132de89ba1c7", null ],
     [ "spinBox", "d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html#a1964bf280f09dd3945282a9089221401", null ],
+    [ "syncDebouncer", "d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html#a93ae1e223e3b1cbc667b9ec15c0a48e7", null ],
     [ "thresholdLabel", "d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html#af34da4318d1e37cf66b8daf4d7ade2bc", null ],
     [ "toggleButton", "d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html#a838d8fb463dac855ac287b7aa367e127", null ]
 ];

@@ -1,6 +1,7 @@
 var classVisualDeckDisplayOptionsWidget =
 [
     [ "VisualDeckDisplayOptionsWidget", "dc/de4/classVisualDeckDisplayOptionsWidget.html#ab5f02e41f717bbbd1ce6aaf47610649f", null ],
+    [ "changeEvent", "dc/de4/classVisualDeckDisplayOptionsWidget.html#a96e4af4692617fba1c8385afe017d548", null ],
     [ "compactWidth", "dc/de4/classVisualDeckDisplayOptionsWidget.html#ab01c736d44cf3fcef326b85786d3bbdd", null ],
     [ "displayTypeChanged", "dc/de4/classVisualDeckDisplayOptionsWidget.html#a9bac67204abbf221f529df6c3dbf3d04", null ],
     [ "expandedWidth", "dc/de4/classVisualDeckDisplayOptionsWidget.html#abb903749900dcd75e0cef9766309fd4c", null ],
@@ -13,6 +14,7 @@ var classVisualDeckDisplayOptionsWidget =
     [ "sortCriteriaChanged", "dc/de4/classVisualDeckDisplayOptionsWidget.html#aeca4296a6ae148c7a4143751dc987b31", null ],
     [ "updateCompactMode", "dc/de4/classVisualDeckDisplayOptionsWidget.html#a511c2a0283ba00b89be2c9f8422246af", null ],
     [ "updateDisplayType", "dc/de4/classVisualDeckDisplayOptionsWidget.html#ae5d7e602c3bc3771b26e8b69e6ec2fd6", null ],
+    [ "updateDisplayTypeButton", "dc/de4/classVisualDeckDisplayOptionsWidget.html#ab6badd811f5a0d44490b7dfe15942efd", null ],
     [ "activeGroupCriteria", "dc/de4/classVisualDeckDisplayOptionsWidget.html#aa70087bfb1c7f1b4991444e5d1924b76", null ],
     [ "activeSortCriteria", "dc/de4/classVisualDeckDisplayOptionsWidget.html#aea57225c5c643591249200ec7e7c973e", null ],
     [ "currentDisplayType", "dc/de4/classVisualDeckDisplayOptionsWidget.html#a3b6c6774e194a65e2c9371b9d89bda2b", null ],

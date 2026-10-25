@@ -7,6 +7,7 @@ var dir_f4be27d36b478c7f01a45661d0a08936 =
     [ "cryptoutil.cpp", "dd/daa/cryptoutil_8cpp.html", "dd/daa/cryptoutil_8cpp" ],
     [ "cryptoutil.h", "db/d8f/cryptoutil_8h.html", "db/d8f/cryptoutil_8h" ],
     [ "days_years_between.h", "d7/d1f/days__years__between_8h.html", "d7/d1f/days__years__between_8h" ],
+    [ "debouncer.h", "dd/d93/debouncer_8h.html", "dd/d93/debouncer_8h" ],
     [ "dice_limits.h", "db/d27/dice__limits_8h.html", "db/d27/dice__limits_8h" ],
     [ "expression.cpp", "da/d45/expression_8cpp.html", "da/d45/expression_8cpp" ],
     [ "expression.h", "d3/d1b/expression_8h.html", "d3/d1b/expression_8h" ],

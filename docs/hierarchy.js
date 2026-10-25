@@ -956,6 +956,7 @@ var hierarchy =
       [ "PlayerLogic", "d2/d98/classPlayerLogic.html", null ],
       [ "PlayerManager", "dc/d5d/classPlayerManager.html", null ],
       [ "PlayerMenu", "d7/dd6/classPlayerMenu.html", null ],
+      [ "QtUtils::Debouncer", "d0/d58/classQtUtils_1_1Debouncer.html", null ],
       [ "QxtSmtp", "de/d8a/classQxtSmtp.html", null ],
       [ "QxtSmtpPrivate", "d6/deb/classQxtSmtpPrivate.html", null ],
       [ "RNG_Abstract", "de/dba/classRNG__Abstract.html", [

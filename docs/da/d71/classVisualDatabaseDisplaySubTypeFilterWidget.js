@@ -17,6 +17,7 @@ var classVisualDatabaseDisplaySubTypeFilterWidget =
     [ "layout", "da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#af63f8725eba2a687f194661930818c41", null ],
     [ "searchBox", "da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#a828b6d75e3510f99bedaacbcb917fdb5", null ],
     [ "spinBox", "da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#abe00fbbe12c173133f378c1086f5c742", null ],
+    [ "syncDebouncer", "da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#a5439877e415efe1efef3fda1e1c29ac3", null ],
     [ "thresholdLabel", "da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#a36244cd742f5b17339282d5b0b8f2e82", null ],
     [ "toggleButton", "da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#ab8b249114fbf7c9e2323ee5e507b40b1", null ],
     [ "typeButtons", "da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html#aed43951ebd0fb147bc9aaf9dbd008ae2", null ]

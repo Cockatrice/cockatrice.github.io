@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['rawjson_0',['RawJson',['../d6/d63/namespaceRawJson.html',1,'']]],
-  ['report_5futils_1',['report_utils',['../d8/d80/namespacereport__utils.html',1,'']]],
-  ['reportcategories_2',['ReportCategories',['../d3/db6/namespaceReportCategories.html',1,'']]]
+  ['qtutils_0',['QtUtils',['../dc/d55/namespaceQtUtils.html',1,'']]]
 ];

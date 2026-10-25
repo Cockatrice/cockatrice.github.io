@@ -17,7 +17,7 @@ var searchData=
   ['server_3a_20commandcontainer_14',['Client → Server: CommandContainer',['../df/d26/developer_reference_protocol_overview.html#client--server-commandcontainer',1,'']]],
   ['servermessage_15',['Server → Client: ServerMessage',['../df/d26/developer_reference_protocol_overview.html#server--client-servermessage',1,'']]],
   ['servermessage_20protocol_20concept_16',['ServerMessage (Protocol Concept)',['../dc/d6c/protocol_server_message.html',1,'developer_reference_protocol']]],
-  ['service_17',['service',['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service'],['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service']]],
+  ['service_17',['service',['../d0/d51/exporting_decks.html#from-an-online-service',1,'From an online service'],['../db/d91/importing_decks.html#from-an-online-service-1',1,'From an online service']]],
   ['session_20events_18',['Session Events',['../dc/d6c/protocol_server_message.html#session-events',1,'']]],
   ['set_5factive_5fphase_201023_19',['&lt;span class=&quot;tt&quot;&gt;SET_ACTIVE_PHASE&lt;/span&gt; (1023)',['../d0/d5b/protocol_game_command.html#set_active_phase-1023',1,'']]],
   ['set_5fcard_5fattr_201013_20',['&lt;span class=&quot;tt&quot;&gt;SET_CARD_ATTR&lt;/span&gt; (1013)',['../d0/d5b/protocol_game_command.html#set_card_attr-1013',1,'']]],

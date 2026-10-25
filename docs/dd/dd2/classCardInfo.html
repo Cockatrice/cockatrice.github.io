@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-24-Development-3.1.2-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Development-3.1.2-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -190,6 +190,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a79ae5b6ac713873150582ddf2be0edc6" id="r_a79ae5b6ac713873150582ddf2be0edc6"><td class="memItemLeft">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../db/ded/classCardRelation.html">CardRelation</a> * &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a79ae5b6ac713873150582ddf2be0edc6">getReverseRelatedCards2Me</a> () const</td></tr>
 <tr class="memitem:aed0062cd2d4d936dab67dcc279616ad6" id="r_aed0062cd2d4d936dab67dcc279616ad6"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../db/ded/classCardRelation.html">CardRelation</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aed0062cd2d4d936dab67dcc279616ad6">getAllRelatedCards</a> () const</td></tr>
 <tr class="memitem:a416fb11b473e78f695dc4805f0af0fc0" id="r_a416fb11b473e78f695dc4805f0af0fc0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a416fb11b473e78f695dc4805f0af0fc0">resetReverseRelatedCards2Me</a> ()</td></tr>
+<tr class="memitem:ab65ca26d7338fc3c164acd77634c61de" id="r_ab65ca26d7338fc3c164acd77634c61de"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab65ca26d7338fc3c164acd77634c61de">clearDirectRelations</a> ()</td></tr>
+<tr class="memdesc:ab65ca26d7338fc3c164acd77634c61de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the raw relation lists without deleting the <a class="el" href="../../db/ded/classCardRelation.html" title="Represents a relationship between two cards.">CardRelation</a> objects.  <br /></td></tr>
 <tr class="memitem:ac16dcbbd11963d2ba873594f5ba94ca8" id="r_ac16dcbbd11963d2ba873594f5ba94ca8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac16dcbbd11963d2ba873594f5ba94ca8">addReverseRelatedCards2Me</a> (<a class="el" href="../../db/ded/classCardRelation.html">CardRelation</a> *cardRelation)</td></tr>
 <tr id="pub-methods-2" class="groupHeader"><td colspan="2"><div class="groupHeader">UI Positioning</div></td></tr>
 <tr class="memitem:a7430f3f40ce327d3fdc0f7052c9289d0" id="r_a7430f3f40ce327d3fdc0f7052c9289d0"><td class="memItemLeft">const <a class="el" href="../../d7/d93/structCardInfo_1_1UiAttributes.html">UiAttributes</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a7430f3f40ce327d3fdc0f7052c9289d0">getUiAttributes</a> () const</td></tr>
@@ -616,6 +618,26 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfo_ac7314130c21a55725413c89a857e4c95_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+
+</div>
+</div>
+<a id="ab65ca26d7338fc3c164acd77634c61de" name="ab65ca26d7338fc3c164acd77634c61de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab65ca26d7338fc3c164acd77634c61de">&#9670;&#160;</a></span>clearDirectRelations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardInfo::clearDirectRelations </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clears the raw relation lists without deleting the <a class="el" href="../../db/ded/classCardRelation.html" title="Represents a relationship between two cards.">CardRelation</a> objects. </p>
+<p>Callers that schedule the relations for deletion (e.g. <a class="el" href="../../d5/d45/classCardDatabase.html#aa69f85065cd0ef1c1a72cba614f00ab6" title="Removes a card from the database.">CardDatabase::removeCard()</a>) must use this to drop the now-dangling pointers from this <a class="el" href="../../dd/dd2/classCardInfo.html" title="Represents a card and its associated metadata, properties, and relationships.">CardInfo</a>, which may outlive them through external shared pointers. </p>
 
 </div>
 </div>

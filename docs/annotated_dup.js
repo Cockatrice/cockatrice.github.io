@@ -81,6 +81,9 @@ var annotated_dup =
       [ "EmptyType", "d2/d75/structpeg_1_1EmptyType.html", null ],
       [ "parser", "da/d7b/classpeg_1_1parser.html", "da/d7b/classpeg_1_1parser" ]
     ] ],
+    [ "QtUtils", "dc/d55/namespaceQtUtils.html", [
+      [ "Debouncer", "d0/d58/classQtUtils_1_1Debouncer.html", "d0/d58/classQtUtils_1_1Debouncer" ]
+    ] ],
     [ "RawJson", "d6/d63/namespaceRawJson.html", [
       [ "SetDataRange", "dd/df7/structRawJson_1_1SetDataRange.html", "dd/df7/structRawJson_1_1SetDataRange" ],
       [ "SetRange", "d9/d1d/structRawJson_1_1SetRange.html", "d9/d1d/structRawJson_1_1SetRange" ],

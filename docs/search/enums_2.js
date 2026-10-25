@@ -7,6 +7,7 @@ var searchData=
   ['deckopenlocation_4',['DeckOpenLocation',['../d1/d53/classAbstractTabDeckEditor.html#a59362c003e9fd04abbec91a0962342dc',1,'AbstractTabDeckEditor']]],
   ['deckprovider_5',['DeckProvider',['../da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7',1,'deck_link_to_api_transformer.h']]],
   ['decksortmethod_6',['DeckSortMethod',['../d1/d6c/group__DeckModels.html#ga8ea3802f8561f16be908a83a08a796ce',1,'abstract_deck_list_node.h']]],
-  ['developercommandtype_7',['DeveloperCommandType',['../d9/d08/structDeveloperCommand.html#aad455c361544762146aff957214b1541',1,'DeveloperCommand']]],
-  ['displaytype_8',['DisplayType',['../d8/d36/visual__deck__editor__widget_8h.html#a18c0cbeece6bcb1c64d7463ce253ff50',1,'visual_deck_editor_widget.h']]]
+  ['deletepolicy_7',['DeletePolicy',['../dc/d55/namespaceQtUtils.html#aa97021f3e39461ce5ae27fc3d1e464d4',1,'QtUtils']]],
+  ['developercommandtype_8',['DeveloperCommandType',['../d9/d08/structDeveloperCommand.html#aad455c361544762146aff957214b1541',1,'DeveloperCommand']]],
+  ['displaytype_9',['DisplayType',['../d8/d36/visual__deck__editor__widget_8h.html#a18c0cbeece6bcb1c64d7463ce253ff50',1,'visual_deck_editor_widget.h']]]
 ];

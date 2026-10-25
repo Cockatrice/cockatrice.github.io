@@ -141,7 +141,7 @@ var searchData=
   ['less_138',['Less',['../d4/d40/classFilterItem.html#ae90569006b7b208966d4832079b40bafa1cfdf0e8d0c87a228c1f40d9bee7888b',1,'FilterItem']]],
   ['lessequal_139',['LessEqual',['../d4/d40/classFilterItem.html#ae90569006b7b208966d4832079b40bafad3e6fdac55bb7b0edd7834c968ba1f38',1,'FilterItem']]],
   ['lessthan_140',['lessThan',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a958fa027b589019e16b79909df8dd8f3',1,'VisualDeckStorageSortFilterProxyModel::lessThan()'],['../da/d8d/classCardDatabaseDisplayModel.html#ae0ced444dea1aa49fd247c8ee1ec2b65',1,'CardDatabaseDisplayModel::lessThan()'],['../dd/df6/classSetsDisplayModel.html#aa936f160c0e2bd724a6e5629635943ae',1,'SetsDisplayModel::lessThan()'],['../dc/dba/classDeckListSortFilterProxyModel.html#acf45a76fd148d1f361389b1210696eb4',1,'DeckListSortFilterProxyModel::lessThan()']]],
-  ['lessthannumerically_141',['lessThanNumerically',['../da/d8d/classCardDatabaseDisplayModel.html#a6e1e886c50f96a4833fe7b195fd1263d',1,'CardDatabaseDisplayModel']]],
+  ['lessthannumerically_141',['lessThanNumerically',['../da/d8d/classCardDatabaseDisplayModel.html#a9d39a44347d30bb72ae74dafbf29248c',1,'CardDatabaseDisplayModel']]],
   ['level_20and_20categories_142',['Log Level and Categories',['../d9/d4f/logging.html#log-level-and-categories',1,'']]],
   ['level_20properties_143',['High-Level Properties',['../df/d26/developer_reference_protocol_overview.html#high-level-properties',1,'']]],
   ['levenshtein_2ecpp_144',['levenshtein.cpp',['../de/dd6/levenshtein_8cpp.html',1,'']]],

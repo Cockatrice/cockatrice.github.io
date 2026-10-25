@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-24-Development-3.1.2-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Development-3.1.2-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -164,12 +164,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaac4edd93318b105d93a038561f25767" id="r_aaac4edd93318b105d93a038561f25767"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#aaac4edd93318b105d93a038561f25767">getActiveSortCriteria</a> () const</td></tr>
 <tr class="memdesc:aaac4edd93318b105d93a038561f25767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the currently active ordered sort criteria.  <br /></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a96e4af4692617fba1c8385afe017d548" id="r_a96e4af4692617fba1c8385afe017d548"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a96e4af4692617fba1c8385afe017d548">changeEvent</a> (QEvent *event) override</td></tr>
+<tr class="memdesc:a96e4af4692617fba1c8385afe017d548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retranslates on QEvent::LanguageChange.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:af89e1a79399c4542b9975c1fbc8f177a" id="r_af89e1a79399c4542b9975c1fbc8f177a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af89e1a79399c4542b9975c1fbc8f177a">onSortCriteriaChange</a> ()</td></tr>
 <tr class="memdesc:af89e1a79399c4542b9975c1fbc8f177a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot triggered whenever the sort list is reordered.  <br /></td></tr>
 <tr class="memitem:ae5d7e602c3bc3771b26e8b69e6ec2fd6" id="r_ae5d7e602c3bc3771b26e8b69e6ec2fd6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae5d7e602c3bc3771b26e8b69e6ec2fd6">updateDisplayType</a> ()</td></tr>
 <tr class="memdesc:ae5d7e602c3bc3771b26e8b69e6ec2fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggles the display layout between flat and overlapping modes.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ab6badd811f5a0d44490b7dfe15942efd" id="r_ab6badd811f5a0d44490b7dfe15942efd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab6badd811f5a0d44490b7dfe15942efd">updateDisplayTypeButton</a> ()</td></tr>
+<tr class="memdesc:ab6badd811f5a0d44490b7dfe15942efd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the layout toggle button's text and icon for the current display type.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -250,6 +260,38 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a96e4af4692617fba1c8385afe017d548" name="a96e4af4692617fba1c8385afe017d548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e4af4692617fba1c8385afe017d548">&#9670;&#160;</a></span>changeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDeckDisplayOptionsWidget::changeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retranslates on QEvent::LanguageChange. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de4/classVisualDeckDisplayOptionsWidget_a96e4af4692617fba1c8385afe017d548_cgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="ab01c736d44cf3fcef326b85786d3bbdd" name="ab01c736d44cf3fcef326b85786d3bbdd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab01c736d44cf3fcef326b85786d3bbdd">&#9670;&#160;</a></span>compactWidth</h2>
 
@@ -520,7 +562,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de4/classVisualDeckDisplayOptionsWidget_af89e1a79399c4542b9975c1fbc8f177a_cgraph.svg" width="100%" height="586"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de4/classVisualDeckDisplayOptionsWidget_af89e1a79399c4542b9975c1fbc8f177a_cgraph.svg" width="100%" height="506"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -554,7 +596,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Updates all UI text for retranslation/localization. </p>
-<p>Called when the application language changes. </p>
+<p>Called when the application language changes. Also refreshes the layout toggle button text for the current display type. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -601,7 +643,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de4/classVisualDeckDisplayOptionsWidget_aeca4296a6ae148c7a4143751dc987b31_cgraph.svg" width="100%" height="586"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de4/classVisualDeckDisplayOptionsWidget_aeca4296a6ae148c7a4143751dc987b31_cgraph.svg" width="100%" height="506"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -674,12 +716,49 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de4/classVisualDeckDisplayOptionsWidget_ae5d7e602c3bc3771b26e8b69e6ec2fd6_cgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de4/classVisualDeckDisplayOptionsWidget_ae5d7e602c3bc3771b26e8b69e6ec2fd6_cgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de4/classVisualDeckDisplayOptionsWidget_ae5d7e602c3bc3771b26e8b69e6ec2fd6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab6badd811f5a0d44490b7dfe15942efd" name="ab6badd811f5a0d44490b7dfe15942efd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6badd811f5a0d44490b7dfe15942efd">&#9670;&#160;</a></span>updateDisplayTypeButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VisualDeckDisplayOptionsWidget::updateDisplayTypeButton </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates the layout toggle button's text and icon for the current display type. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de4/classVisualDeckDisplayOptionsWidget_ab6badd811f5a0d44490b7dfe15942efd_cgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de4/classVisualDeckDisplayOptionsWidget_ab6badd811f5a0d44490b7dfe15942efd_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

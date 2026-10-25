@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-24-Development-3.1.2-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Development-3.1.2-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -120,17 +120,21 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('dd/d8d/qt__uti
   <div class="headertitle"><div class="title">qt_utils.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;QLayout&gt;</code><br />
+<div class="textblock"><code>#include &lt;QDesktopServices&gt;</code><br />
+<code>#include &lt;QFont&gt;</code><br />
+<code>#include &lt;QFontDatabase&gt;</code><br />
+<code>#include &lt;QLayout&gt;</code><br />
+<code>#include &lt;QMessageBox&gt;</code><br />
 <code>#include &lt;QObject&gt;</code><br />
+<code>#include &lt;QPropertyAnimation&gt;</code><br />
+<code>#include &lt;QScrollArea&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QUrl&gt;</code><br />
+<code>#include &lt;QWidget&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for qt_utils.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d36/qt__utils_8h__incl.svg" width="187" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd3/qt__utils_8h__dep__incl.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d36/qt__utils_8h__incl.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../dd/d8d/qt__utils_8h_source.html">Go to the source code of this file.</a></p>
@@ -139,11 +143,37 @@ This graph shows which files directly or indirectly include this file:</div>
 Namespaces</h2></td></tr>
 <tr class="memitem:QtUtils" id="r_QtUtils"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html">QtUtils</a></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aa97021f3e39461ce5ae27fc3d1e464d4" id="r_aa97021f3e39461ce5ae27fc3d1e464d4"><td class="memItemLeft">enum class &#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html#aa97021f3e39461ce5ae27fc3d1e464d4">QtUtils::DeletePolicy</a> { <a class="el" href="../../dc/d55/namespaceQtUtils.html#aa97021f3e39461ce5ae27fc3d1e464d4a4ed71db54748b36eeb398876b0c747ac">QtUtils::Deferred</a>
+, <a class="el" href="../../dc/d55/namespaceQtUtils.html#aa97021f3e39461ce5ae27fc3d1e464d4a43f6615bbb2c40a5306ff804094420b1">QtUtils::Immediate</a>
+ }</td></tr>
+<tr class="memdesc:aa97021f3e39461ce5ae27fc3d1e464d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">How <a class="el" href="../../dc/d55/namespaceQtUtils.html#a3c92b2e557b54d9b6de8a59d69d58f13" title="Removes and deletes every item in l, recursing into nested layouts.">clearLayoutRec()</a> disposes of the widgets it removes.  <a href="../../dc/d55/namespaceQtUtils.html#aa97021f3e39461ce5ae27fc3d1e464d4">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a573d4567ad2940b0f5fce244a0f585f6" id="r_a573d4567ad2940b0f5fce244a0f585f6"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:a573d4567ad2940b0f5fce244a0f585f6 template"><td class="memItemLeft">T *&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html#a573d4567ad2940b0f5fce244a0f585f6">QtUtils::findParentOfType</a> (const QObject *obj)</td></tr>
-<tr class="memitem:a69bddef0b498de53c54c5b47f145f301" id="r_a69bddef0b498de53c54c5b47f145f301"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html#a69bddef0b498de53c54c5b47f145f301">QtUtils::clearLayoutRec</a> (QLayout *l)</td></tr>
+<tr class="memitem:a71af092700825f60b18e7f7e48634be5" id="r_a71af092700825f60b18e7f7e48634be5"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a71af092700825f60b18e7f7e48634be5 template"><td class="memItemLeft">T *&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html#a71af092700825f60b18e7f7e48634be5">QtUtils::findParentOfType</a> (const QObject *obj, bool includeSelf=false)</td></tr>
+<tr class="memdesc:a71af092700825f60b18e7f7e48634be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the nearest ancestor of <code class="param">obj</code> that casts to <code>T</code>.  <br /></td></tr>
+<tr class="memitem:a3c92b2e557b54d9b6de8a59d69d58f13" id="r_a3c92b2e557b54d9b6de8a59d69d58f13"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html#a3c92b2e557b54d9b6de8a59d69d58f13">QtUtils::clearLayoutRec</a> (QLayout *l, <a class="el" href="../../dc/d55/namespaceQtUtils.html#aa97021f3e39461ce5ae27fc3d1e464d4">DeletePolicy</a> policy=<a class="el" href="../../dc/d55/namespaceQtUtils.html#aa97021f3e39461ce5ae27fc3d1e464d4a4ed71db54748b36eeb398876b0c747ac">DeletePolicy::Deferred</a>)</td></tr>
+<tr class="memdesc:a3c92b2e557b54d9b6de8a59d69d58f13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes and deletes every item in <code class="param">l</code>, recursing into nested layouts.  <br /></td></tr>
+<tr class="memitem:abf210fa7f0353a6851daf36de8378677" id="r_abf210fa7f0353a6851daf36de8378677"><td class="memTemplParams" colspan="2">template&lt;typename LayoutT&gt; </td></tr>
+<tr class="memitem:abf210fa7f0353a6851daf36de8378677 template"><td class="memItemLeft">LayoutT *&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html#abf210fa7f0353a6851daf36de8378677">QtUtils::makeLayout</a> (QWidget *parent=nullptr, int spacing=-1, int margin=0)</td></tr>
+<tr class="memdesc:abf210fa7f0353a6851daf36de8378677"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a layout of type <code>LayoutT</code> with zero margins.  <br /></td></tr>
+<tr class="memitem:a7ce4c8c81db0970bbe67b5399d4ef821" id="r_a7ce4c8c81db0970bbe67b5399d4ef821"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html#a7ce4c8c81db0970bbe67b5399d4ef821">QtUtils::relayout</a> (QLayout *layout)</td></tr>
+<tr class="memdesc:a7ce4c8c81db0970bbe67b5399d4ef821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forces <code class="param">layout</code> to recompute and repaint immediately.  <br /></td></tr>
+<tr class="memitem:aad9029c37a97fc82d985367b8e8eec9f" id="r_aad9029c37a97fc82d985367b8e8eec9f"><td class="memItemLeft">static QScrollArea *&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html#aad9029c37a97fc82d985367b8e8eec9f">QtUtils::makeScrollArea</a> (QWidget *parent=nullptr, Qt::ScrollBarPolicy verticalPolicy=Qt::ScrollBarAsNeeded, Qt::ScrollBarPolicy horizontalPolicy=Qt::ScrollBarAlwaysOff)</td></tr>
+<tr class="memdesc:aad9029c37a97fc82d985367b8e8eec9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a QScrollArea using the conventions the client applies nearly everywhere: the inner widget resizes with the viewport and the horizontal bar is disabled.  <br /></td></tr>
+<tr class="memitem:a6226a7ae4bcb4b8f8cc413902f0476c7" id="r_a6226a7ae4bcb4b8f8cc413902f0476c7"><td class="memItemLeft">static QFont&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html#a6226a7ae4bcb4b8f8cc413902f0476c7">QtUtils::monospaceFont</a> ()</td></tr>
+<tr class="memdesc:a6226a7ae4bcb4b8f8cc413902f0476c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">A monospace font at the system UI font's point size.  <br /></td></tr>
+<tr class="memitem:a6b2994f58aa6ed212db30af578c7b342" id="r_a6b2994f58aa6ed212db30af578c7b342"><td class="memItemLeft">static QPropertyAnimation *&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html#a6b2994f58aa6ed212db30af578c7b342">QtUtils::fadeWindow</a> (QWidget *window, qreal startOpacity, qreal endOpacity, int durationMs, bool hideWhenFinished=false)</td></tr>
+<tr class="memdesc:a6b2994f58aa6ed212db30af578c7b342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fades <code class="param">window</code> between two opacity values.  <br /></td></tr>
+<tr class="memitem:abd15d9469d2efdb0961a488b0be43c09" id="r_abd15d9469d2efdb0961a488b0be43c09"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html#abd15d9469d2efdb0961a488b0be43c09">QtUtils::openPathInFileManager</a> (const QString &amp;path)</td></tr>
+<tr class="memdesc:abd15d9469d2efdb0961a488b0be43c09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens <code class="param">path</code> with the platform's file manager or default handler.  <br /></td></tr>
+<tr class="memitem:ab79350bd62a8775f8d527314a760865b" id="r_ab79350bd62a8775f8d527314a760865b"><td class="memItemLeft">static QFont&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html#ab79350bd62a8775f8d527314a760865b">QtUtils::boldFont</a> (QFont font)</td></tr>
+<tr class="memdesc:ab79350bd62a8775f8d527314a760865b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code class="param">font</code> with bold styling enabled.  <br /></td></tr>
+<tr class="memitem:af5b7d6ad806bfa3f97930d1767e7e356" id="r_af5b7d6ad806bfa3f97930d1767e7e356"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="../../dc/d55/namespaceQtUtils.html#af5b7d6ad806bfa3f97930d1767e7e356">QtUtils::confirm</a> (QWidget *parent, const QString &amp;title, const QString &amp;text, QMessageBox::StandardButton defaultButton=QMessageBox::NoButton)</td></tr>
+<tr class="memdesc:af5b7d6ad806bfa3f97930d1767e7e356"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a Yes/No confirmation dialog and returns true when the user confirms.  <br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

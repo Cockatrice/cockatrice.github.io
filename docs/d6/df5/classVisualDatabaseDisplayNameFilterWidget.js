@@ -16,5 +16,6 @@ var classVisualDatabaseDisplayNameFilterWidget =
     [ "layout", "d6/df5/classVisualDatabaseDisplayNameFilterWidget.html#af377fd8cb6b4c72e5d2c2c098ba8b9af", null ],
     [ "loadFromClipboardButton", "d6/df5/classVisualDatabaseDisplayNameFilterWidget.html#a35cacec62e60068c4195b21d85cd9552", null ],
     [ "loadFromDeckButton", "d6/df5/classVisualDatabaseDisplayNameFilterWidget.html#abefaa0d9c242a7297f1eb28e8043ec1c", null ],
-    [ "searchBox", "d6/df5/classVisualDatabaseDisplayNameFilterWidget.html#a4835789e377767d4c063b7e45244b00b", null ]
+    [ "searchBox", "d6/df5/classVisualDatabaseDisplayNameFilterWidget.html#a4835789e377767d4c063b7e45244b00b", null ],
+    [ "syncDebouncer", "d6/df5/classVisualDatabaseDisplayNameFilterWidget.html#a3ba4deacbbdb1aeb22afd3e44b8fe623", null ]
 ];

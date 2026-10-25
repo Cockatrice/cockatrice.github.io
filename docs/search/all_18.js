@@ -327,7 +327,7 @@ var searchData=
   ['timeelapsedlabel_324',['timeElapsedLabel',['../de/d08/classTabGame.html#a25e11be4aa706d3b63f1259884e0737c',1,'TabGame']]],
   ['timeless_325',['Timeless',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2aaaf2339fa6f2b21cc7027c894634e216',1,'ArchidektFormats']]],
   ['timelinewidget_326',['timelineWidget',['../d4/da2/classReplayWidget.html#ae28a685cc87432583d1349bf8e0af04c',1,'ReplayWidget']]],
-  ['timer_327',['timer',['../d5/d51/classLagMonitor.html#aab8c3f625c1871abc9a9792833dcd2c7',1,'LagMonitor::timer'],['../db/d53/classRemoteClient.html#a6bb0cc338cb5e8575f6e0a224ea65dd9',1,'RemoteClient::timer']]],
+  ['timer_327',['timer',['../d5/d51/classLagMonitor.html#aab8c3f625c1871abc9a9792833dcd2c7',1,'LagMonitor::timer'],['../db/d53/classRemoteClient.html#a6bb0cc338cb5e8575f6e0a224ea65dd9',1,'RemoteClient::timer'],['../d0/d58/classQtUtils_1_1Debouncer.html#ac235223c5a1794eff6830239faf81620',1,'QtUtils::Debouncer::timer']]],
   ['timer_5finterval_5fms_328',['TIMER_INTERVAL_MS',['../dc/d1b/replay__manager_8cpp.html#a6217f478f1c031453f8397ae971a5f23',1,'replay_manager.cpp']]],
   ['timerevent_329',['timerEvent',['../db/d9f/classGameScene.html#a314752d51d28491b92c69440d6afa784',1,'GameScene']]],
   ['timerunning_330',['timeRunning',['../db/d53/classRemoteClient.html#a41f4e42dfeb622f76812f5e4fe1790fb',1,'RemoteClient::timeRunning'],['../d0/d23/classServer__ProtocolHandler.html#aa68678e710c7a867732f2b2851ee80be',1,'Server_ProtocolHandler::timeRunning']]],
