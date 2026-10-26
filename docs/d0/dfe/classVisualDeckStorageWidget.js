@@ -29,7 +29,7 @@ var classVisualDeckStorageWidget =
     [ "updateSortOrder", "d0/dfe/classVisualDeckStorageWidget.html#a53592d9f1487124c2d9f27187ca62aa7", null ],
     [ "updateTagFilter", "d0/dfe/classVisualDeckStorageWidget.html#af289826d94dab48a04182086a85f177b", null ],
     [ "updateTagsVisibility", "d0/dfe/classVisualDeckStorageWidget.html#aca243063b6508ec8db077c6e26b51da3", null ],
-    [ "databaseLoadIndicator", "d0/dfe/classVisualDeckStorageWidget.html#a4c2528425a7427dd1de3ceef43ad80b6", null ],
+    [ "databaseLoadIndicator", "d0/dfe/classVisualDeckStorageWidget.html#a585170a1661c5cd93ed2b4a76057547e", null ],
     [ "deckPreviewColorIdentityFilterWidget", "d0/dfe/classVisualDeckStorageWidget.html#afecdd2493358e868b43b8be7d5557130", null ],
     [ "deckPreviewSelectionAnimationEnabled", "d0/dfe/classVisualDeckStorageWidget.html#a24f66016d93acb9848ab50143bf35b02", null ],
     [ "folderWidget", "d0/dfe/classVisualDeckStorageWidget.html#acd5e0275d8e5be6f65ca8a45b7090778", null ],

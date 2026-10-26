@@ -1,5 +1,9 @@
 var NAVTREEINDEX83 =
 {
+"de/d73/structEvent__JoinRoom.html#a46e026ea7224e7fa2927df28d9e19c88":[4,1,0,438,1],
+"de/d74/command__deck__share__list_8proto.html":[4,2,0,8,0,0,0,20],
+"de/d74/command__deck__share__list_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,20,2],
+"de/d75/card__database__model_8cpp.html":[4,2,0,6,0,0,0,5],
 "de/d75/card__database__model_8cpp.html#a6055fa5297d9250e41b28b7bc662f65d":[4,2,0,6,0,0,0,5,0],
 "de/d75/structResponse__ReportDetails.html":[4,1,0,760],
 "de/d75/structResponse__ReportDetails.html#a47ebadb795ab559a927c41d97362a505":[4,1,0,760,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX83 =
 "de/d9d/peglib_8h.html#a75193fbe834a316e421bc6bf412d0aef":[4,2,0,11,0,0,17,141],
 "de/d9d/peglib_8h.html#a75533c17b7899c422a3518d916afd5a2":[4,2,0,11,0,0,17,113],
 "de/d9d/peglib_8h.html#a777f509ab1b29abf824f06de57abb848":[4,2,0,11,0,0,17,153],
-"de/d9d/peglib_8h.html#a797f067fd76f54d3a845a2c05d9cd65d":[4,2,0,11,0,0,17,115],
-"de/d9d/peglib_8h.html#a7aa2fbbe107c29ece71ec512148e7d77":[4,2,0,11,0,0,17,137],
-"de/d9d/peglib_8h.html#a7aaf32166fe6b8996ef6277bcef74424":[4,2,0,11,0,0,17,127],
-"de/d9d/peglib_8h.html#a7dfcd0b07ff136ca9806e7abef88f87d":[4,2,0,11,0,0,17,145],
-"de/d9d/peglib_8h.html#a7f9281c728a03045fe2b6f22a19e259b":[4,2,0,11,0,0,17,175]
+"de/d9d/peglib_8h.html#a797f067fd76f54d3a845a2c05d9cd65d":[4,2,0,11,0,0,17,115]
 };

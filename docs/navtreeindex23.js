@@ -1,6 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"d4/d55/classInnerDecklistNode.html#a45b30bbf3de92fcf4d16b9ca097a7392":[4,1,0,538,1],
 "d4/d55/classInnerDecklistNode.html#a482129682c74f0bf00377fab38d0f193":[4,1,0,538,21],
 "d4/d55/classInnerDecklistNode.html#a4f08f49557660bd24e2e2e705b6596b9":[4,1,0,538,9],
 "d4/d55/classInnerDecklistNode.html#a5660fdc76707de2f6d709f03c5818b8f":[4,1,0,538,15],
@@ -249,5 +248,6 @@ var NAVTREEINDEX23 =
 "d4/d8d/classServerProperties.html#aa526ab4d12de9e804c2965226188e410":[4,1,0,848,5],
 "d4/d8d/classServerProperties.html#aea8e03e84c6bcbb2f7335ad5b3956266":[4,1,0,848,4],
 "d4/d8d/classServerProperties.html#af2290883570976ae0e0a3a8b74e2bcbd":[4,1,0,848,0],
-"d4/d8d/classServerProperties.html#af9d5cc007372f01f2347847ff080601f":[4,1,0,848,1]
+"d4/d8d/classServerProperties.html#af9d5cc007372f01f2347847ff080601f":[4,1,0,848,1],
+"d4/d8d/context__mulligan_8proto.html":[4,2,0,8,0,0,0,73]
 };

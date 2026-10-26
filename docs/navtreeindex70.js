@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"dc/d80/classTabReport.html#a493cfa5e855c9d49ec72495969ffea93":[4,1,0,925,49],
+"dc/d80/classTabReport.html#a4a987baac772f77d5852c44699fa843c":[4,1,0,925,51],
 "dc/d80/classTabReport.html#a53182419f313e31d410cfedbd9a3df7a":[4,1,0,925,3],
 "dc/d80/classTabReport.html#a565150029b4e54e224a6a318bec6279a":[4,1,0,925,74],
 "dc/d80/classTabReport.html#a57e2d84328394c3ef3f3e1e94a0c9925":[4,1,0,925,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "dc/da3/command__inc__counter_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,32,2],
 "dc/da4/shadow__background__label_8h.html":[3,1,0,4,3,1],
 "dc/da4/shadow__background__label_8h.html":[3,3,1,1,3,1],
-"dc/da5/event__kicked_8proto.html":[4,2,0,8,0,0,0,100],
-"dc/da5/event__kicked_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,100,2],
-"dc/da6/command__change__zone__properties_8proto.html":[4,2,0,8,0,0,0,4]
+"dc/da5/event__kicked_8proto.html":[4,2,0,8,0,0,0,100]
 };

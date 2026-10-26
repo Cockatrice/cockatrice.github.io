@@ -1,6 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"d9/d04/rng__abstract_8h.html#ae06734e5c9e469e3675423ec86f124ef":[4,2,0,9,0,0,2,1],
 "d9/d04/rng__abstract_8h_source.html":[4,2,0,9,0,0,2],
 "d9/d05/structEvent__Leave.html":[4,1,0,440],
 "d9/d05/structEvent__Leave.html#a2e1d3cbe1d81ead9e5c1b31f5fb2dd55":[4,1,0,440,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX49 =
 "d9/d36/classAppearanceSettings.html#a48844b64acfd77de5781d7f5e6cf162c":[4,1,0,33,20],
 "d9/d36/classAppearanceSettings.html#a50bdfe394636aee3895e5e89815801f5":[4,1,0,33,14],
 "d9/d36/classAppearanceSettings.html#a5512b3e7f6d3e3223ddcd06c8e6f9573":[4,1,0,33,21],
-"d9/d36/classAppearanceSettings.html#a61ba72aaaa25911e8b97c818185edaa4":[4,1,0,33,13]
+"d9/d36/classAppearanceSettings.html#a61ba72aaaa25911e8b97c818185edaa4":[4,1,0,33,13],
+"d9/d36/classAppearanceSettings.html#a6854ca680dc01c4ac1bf3b6317942288":[4,1,0,33,5]
 };

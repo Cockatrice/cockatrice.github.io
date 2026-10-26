@@ -1,10 +1,13 @@
 var NAVTREEINDEX60 =
 {
-"da/de2/translation__loader__test_8cpp.html#acd48a116e03661bf632b527cc8447a6d":[4,2,0,14,35,7],
-"da/de2/translation__loader__test_8cpp.html#ad40cd2e7f7003571e5952a959f730c0a":[4,2,0,14,35,2],
-"da/de2/translation__loader__test_8cpp.html#ae1748c69eedf9d91e0d08bec9f624923":[4,2,0,14,35,0],
-"da/de2/translation__loader__test_8cpp.html#af4d1058440e5df7768a009c31922d794":[4,2,0,14,35,9],
-"da/de2/translation__loader__test_8cpp.html#af931f178cf45556169d2534113ac0149":[4,2,0,14,35,13],
+"da/de2/translation__loader__test_8cpp.html#a8d955997847e34897f4ab270d0c5a387":[4,2,0,14,35,14],
+"da/de2/translation__loader__test_8cpp.html#a993b9605d53e8207fa01837d8549015f":[4,2,0,14,35,9],
+"da/de2/translation__loader__test_8cpp.html#acc0fc3de5c01bc3ce5555bdc7e97c5ed":[4,2,0,14,35,7],
+"da/de2/translation__loader__test_8cpp.html#acd48a116e03661bf632b527cc8447a6d":[4,2,0,14,35,10],
+"da/de2/translation__loader__test_8cpp.html#ad40cd2e7f7003571e5952a959f730c0a":[4,2,0,14,35,3],
+"da/de2/translation__loader__test_8cpp.html#ae1748c69eedf9d91e0d08bec9f624923":[4,2,0,14,35,1],
+"da/de2/translation__loader__test_8cpp.html#af4d1058440e5df7768a009c31922d794":[4,2,0,14,35,12],
+"da/de2/translation__loader__test_8cpp.html#af931f178cf45556169d2534113ac0149":[4,2,0,14,35,16],
 "da/de3/structRoomCommand.html":[4,1,0,777],
 "da/de3/structRoomCommand.html#ab13483cb4478270184e4aeeffdba9956":[4,1,0,777,0],
 "da/de3/structRoomCommand.html#ab13483cb4478270184e4aeeffdba9956a251b135cab0850f21ba602993eb15bb2":[4,1,0,777,0,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "db/d04/classHandMenu.html#a3a388cd130750fed8808ecd3e18463db":[4,1,0,519,18],
 "db/d04/classHandMenu.html#a3c98aa06f9dfec55f8d1fa050e227f9c":[4,1,0,519,5],
 "db/d04/classHandMenu.html#a426a5fd36482a7b4af61044085bbf3ee":[4,1,0,519,16],
-"db/d04/classHandMenu.html#a4b703b898237eea6748bfa5a10a4d24c":[4,1,0,519,19],
-"db/d04/classHandMenu.html#a5023cc9a2dcf5dd79217d610b4d4d6ca":[4,1,0,519,24],
-"db/d04/classHandMenu.html#a57d59c96d722b2b1f4416f6e17d59225":[4,1,0,519,4],
-"db/d04/classHandMenu.html#a5e1bd0eff5bbeda9de6ed247ee78b073":[4,1,0,519,8]
+"db/d04/classHandMenu.html#a4b703b898237eea6748bfa5a10a4d24c":[4,1,0,519,19]
 };

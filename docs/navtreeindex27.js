@@ -1,6 +1,5 @@
 var NAVTREEINDEX27 =
 {
-"d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a2e3b005433ee6b8a665f965535e8f9de":[4,1,0,974,2],
 "d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a343163262e6aa31250411cb150dd9e0e":[4,1,0,974,7],
 "d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a440009085398cc5c4cc664dd7020c0be":[4,1,0,974,0],
 "d5/d32/classVisualDatabaseDisplayFilterSaveLoadWidget.html#a44736f1e8a164ea77b6d3e1c44b28100":[4,1,0,974,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX27 =
 "d5/d60/classIInterfaceSettingsProvider.html#a3e586203e3bc8c6f91ff8e3839ced497":[4,1,0,535,38],
 "d5/d60/classIInterfaceSettingsProvider.html#a493d07ee536190a65465e00ce119d89b":[4,1,0,535,1],
 "d5/d60/classIInterfaceSettingsProvider.html#a4d3168b6be2dba2158430a4436aa1d57":[4,1,0,535,17],
-"d5/d60/classIInterfaceSettingsProvider.html#a50cc12ece4bd5e2165829b4de6e2b3cf":[4,1,0,535,10]
+"d5/d60/classIInterfaceSettingsProvider.html#a50cc12ece4bd5e2165829b4de6e2b3cf":[4,1,0,535,10],
+"d5/d60/classIInterfaceSettingsProvider.html#a59378961580a26c9936b4c57ca5ca01c":[4,1,0,535,28]
 };

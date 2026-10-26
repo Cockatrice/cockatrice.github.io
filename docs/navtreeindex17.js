@@ -1,6 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"d3/d37/classDlgEditTokens.html#a77a277bd9fba9085c16af5c23266b222":[4,1,0,357,15],
 "d3/d37/classDlgEditTokens.html#a7b543642f47bf763fd520413a3294d18":[4,1,0,357,6],
 "d3/d37/classDlgEditTokens.html#a7fe457de68fa0005e072bbea13405d1a":[4,1,0,357,17],
 "d3/d37/classDlgEditTokens.html#a85be1fa7faa10086ad7104f6026f55f4":[4,1,0,357,12],
@@ -249,5 +248,6 @@ var NAVTREEINDEX17 =
 "d3/d64/structCardCondition.html#a10306f3998f00d44cc19949642540bfe":[4,1,0,81,2],
 "d3/d64/structCardCondition.html#a5a5803d2a4b2b9ae5c761a9491d85c40":[4,1,0,81,0],
 "d3/d64/structCardCondition.html#ac1a0892b33da3c767aa2aef0419c3602":[4,1,0,81,1],
-"d3/d65/structCommandContainer.html":[4,1,0,265]
+"d3/d65/structCommandContainer.html":[4,1,0,265],
+"d3/d65/structCommandContainer.html#a08554c473fccac77e54b59d5a04d6fce":[4,1,0,265,2]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"da/d68/classDeckList.html#ae59e29e363c6979ebaac6347d07a09ae":[3,3,3,4],
 "da/d68/classDeckList.html#af067641c4cd0fceeaac592a4a5b48572":[3,3,3,31],
 "da/d68/classDeckList.html#af45030e8a0bde6bcfed09376a95c4bf4":[3,3,3,56],
 "da/d68/classDeckList.html#afa7f023276656ecfe4f8df74cbebbbd4":[3,3,3,47],
@@ -249,5 +248,6 @@ var NAVTREEINDEX57 =
 "da/d8d/classCardDatabaseDisplayModel.html":[4,1,0,85],
 "da/d8d/classCardDatabaseDisplayModel.html#a002ee15fe9f7f7969f8f3485830da437":[4,1,0,85,11],
 "da/d8d/classCardDatabaseDisplayModel.html#a045a2dbefa8a0521dacdc5c289373fb5":[4,1,0,85,14],
-"da/d8d/classCardDatabaseDisplayModel.html#a065d523ec6c9ba098b4ca90c9416d8ad":[4,1,0,85,6]
+"da/d8d/classCardDatabaseDisplayModel.html#a065d523ec6c9ba098b4ca90c9416d8ad":[4,1,0,85,6],
+"da/d8d/classCardDatabaseDisplayModel.html#a14a642ada0e157c198f3357f7c89f4b8":[4,1,0,85,21]
 };

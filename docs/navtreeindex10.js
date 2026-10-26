@@ -1,6 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"d1/df9/classCardZoneLogic.html#a55e5c170efc9e630fff197cd414f17e5":[4,1,0,133,7],
 "d1/df9/classCardZoneLogic.html#a57bad957bd64e3323aca0e340a2be3d5":[4,1,0,133,21],
 "d1/df9/classCardZoneLogic.html#a5a91fa28272fd51532064fecfd46178a":[4,1,0,133,2],
 "d1/df9/classCardZoneLogic.html#a5cd14badd8e3ce2575268fe26b017f5e":[4,1,0,133,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX10 =
 "d2/d23/classPlayerActions.html#a4cadd69e0ce9095062a598813e5bdd3a":[4,1,0,659,132],
 "d2/d23/classPlayerActions.html#a4db6b71b6d303896a3b3c63b13a1a784":[4,1,0,659,133],
 "d2/d23/classPlayerActions.html#a50f4710004a2ce79affaa2c02e7d0411":[4,1,0,659,58],
-"d2/d23/classPlayerActions.html#a51422ae252193040aba3f6a637764929":[4,1,0,659,64]
+"d2/d23/classPlayerActions.html#a51422ae252193040aba3f6a637764929":[4,1,0,659,64],
+"d2/d23/classPlayerActions.html#a544c4709356c3cb2221ae6f08f338077":[4,1,0,659,67]
 };

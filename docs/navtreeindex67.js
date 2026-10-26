@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"dc/d10/classIntentWaitForDatabaseLoad.html#abdf93674663f721723328ea32e7e96aa":[4,1,0,549,1],
+"dc/d12/classUserCardArtProvider.html":[4,1,0,953],
 "dc/d12/classUserCardArtProvider.html#a1009f18292aa6c73767eb1cba3f921d2":[4,1,0,953,12],
 "dc/d12/classUserCardArtProvider.html#a21b98de6a3e5f4facf6c4cfbf98e5b24":[4,1,0,953,8],
 "dc/d12/classUserCardArtProvider.html#a21d675e833406bdcc71adc41d9375105":[4,1,0,953,11],
@@ -129,8 +131,8 @@ var NAVTREEINDEX67 =
 "dc/d32/classTabsSettings.html#af1b16d2055b4b3a66230c0a0de5c2a91":[4,1,0,928,13],
 "dc/d32/classTabsSettings.html#af89c88ff7fcbf1e9bf2be60c606267ce":[4,1,0,928,3],
 "dc/d32/classTabsSettings.html#af948be33ad827f2d4a83ae7e93c5a75a":[4,1,0,928,30],
-"dc/d32/deck__editor__filter__dock__widget_8h.html":[3,1,0,4,10],
 "dc/d32/deck__editor__filter__dock__widget_8h.html":[3,1,0,3,3],
+"dc/d32/deck__editor__filter__dock__widget_8h.html":[3,1,0,4,10],
 "dc/d32/deck__editor__filter__dock__widget_8h.html":[3,2,4,2,3],
 "dc/d32/deck__editor__filter__dock__widget_8h.html":[3,3,1,1,10],
 "dc/d33/edhrec__api__response__card__list__display__widget_8cpp.html":[4,2,0,0,1,5,6,14,0,2,1,1,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "dc/d3c/classDeckListHistoryManager.html#a6a470c76b04cb714fe87c7d541889714":[4,1,0,313,7],
 "dc/d3c/classDeckListHistoryManager.html#a6d373cb66fb1ae3e2c21b4bf71d76536":[4,1,0,313,0],
 "dc/d3c/classDeckListHistoryManager.html#a9ad31e14aea9abf7ee6a1e13043e0465":[4,1,0,313,3],
-"dc/d3c/classDeckListHistoryManager.html#abec004b5d022b9e2bb2fa1a8c8bd325a":[4,1,0,313,6],
-"dc/d3c/classDeckListHistoryManager.html#ac2f1d8a7132b3bbf7db60e5f6cd5dd94":[4,1,0,313,1],
-"dc/d3c/classDeckListHistoryManager.html#acbbffd0c2da09d740c665cff8baca401":[4,1,0,313,2]
+"dc/d3c/classDeckListHistoryManager.html#abec004b5d022b9e2bb2fa1a8c8bd325a":[4,1,0,313,6]
 };

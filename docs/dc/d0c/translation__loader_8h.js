@@ -7,6 +7,8 @@ var translation__loader_8h =
     ] ],
     [ "TranslationLoader::applicationTranslationPaths", "dd/df1/namespaceTranslationLoader.html#a1f4d270321ffc5e2b8d1b0213ff9cf1c", null ],
     [ "TranslationLoader::availableLanguages", "dd/df1/namespaceTranslationLoader.html#a635049f6fd55910f302af8912c6c2b5f", null ],
+    [ "TranslationLoader::defaultLanguageCode", "dd/df1/namespaceTranslationLoader.html#a6b9e70752e99e68a4ff0fc54e00e61da", null ],
+    [ "TranslationLoader::languageDisplayName", "dd/df1/namespaceTranslationLoader.html#acbe9412c9d1cfcb922669ab1d2e0e9af", null ],
     [ "TranslationLoader::loadApplication", "dd/df1/namespaceTranslationLoader.html#a522eb0f0ec7abc4190b39f9e98dddb63", null ],
     [ "TranslationLoader::loadFrom", "dd/df1/namespaceTranslationLoader.html#aeb424b2d131d5c00b422433a828e64e5", null ],
     [ "TranslationLoader::loadQt", "dd/df1/namespaceTranslationLoader.html#ad8d21b766707f0228bb14d162aa90b12", null ],

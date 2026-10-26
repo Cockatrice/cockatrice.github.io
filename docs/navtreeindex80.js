@@ -1,5 +1,9 @@
 var NAVTREEINDEX80 =
 {
+"de/d02/edhrec__api__response__card__prices_8h.html":[3,3,2,2,2,0,2],
+"de/d02/edhrec__api__response__card__prices_8h.html":[3,3,2,3,0,0,2],
+"de/d02/edhrec__api__response__card__prices_8h.html":[3,5,1,0,0,2],
+"de/d04/classDeckPreviewTagDialog.html":[4,1,0,330],
 "de/d04/classDeckPreviewTagDialog.html#a12960b7067a86d6feb4e354bceb35ea7":[4,1,0,330,16],
 "de/d04/classDeckPreviewTagDialog.html#a19335ffbb6ebae3f6b16a4e58207a90d":[4,1,0,330,19],
 "de/d04/classDeckPreviewTagDialog.html#a1a43112ac7ba5968fbe4f5e67511be6b":[4,1,0,330,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX80 =
 "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a3512d59e31c335a824b422820e99754b":[4,1,0,493,0,3],
 "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a44e43bb7b83975d56e8e51b5a1276923":[4,1,0,493,0,9],
 "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a479ec10e8fa580d3d1d6826999c26feb":[4,1,0,493,0,26],
-"de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a4e7c49d09d9e098f7ac1566d60c50bc2":[4,1,0,493,0,12],
-"de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a6c4cc02d615fbcbce8c4fee750f8c7f2":[4,1,0,493,0,21],
-"de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a7cfe2139978749604216271d62426e56":[4,1,0,493,0,29],
-"de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a7d99502337f3da9c6d0b5747ec5dcf91":[4,1,0,493,0,5],
-"de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a860d959eb829d4b8b04cb692ad9bab49":[4,1,0,493,0,10]
+"de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a4e7c49d09d9e098f7ac1566d60c50bc2":[4,1,0,493,0,12]
 };

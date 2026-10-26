@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"dd/de9/classDrawProbabilityWidget.html#ae29d6393a060a44ceeaaa88f3b4b73c4":[4,1,0,386,4],
+"dd/de9/classDrawProbabilityWidget.html#af8f057d500498785d5147206138a7003":[4,1,0,386,17],
 "dd/de9/classDrawProbabilityWidget.html#afaa01f44a1bda14010431a0457fa8c4c":[4,1,0,386,7],
 "dd/de9/translate__counter__name_8cpp.html":[4,2,0,0,1,4,0,19],
 "dd/dea/classAbstractServerSocketInterface.html":[4,1,0,20],
@@ -142,12 +144,14 @@ var NAVTREEINDEX79 =
 "dd/df1/command__set__sideboard__plan_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,65,2],
 "dd/df1/namespaceTranslationLoader.html":[4,0,0,38],
 "dd/df1/namespaceTranslationLoader.html#a1f4d270321ffc5e2b8d1b0213ff9cf1c":[4,0,0,38,0],
-"dd/df1/namespaceTranslationLoader.html#a522eb0f0ec7abc4190b39f9e98dddb63":[4,0,0,38,2],
-"dd/df1/namespaceTranslationLoader.html#a54ccd0697a271cad98b630921414c2f5":[4,0,0,38,6],
+"dd/df1/namespaceTranslationLoader.html#a522eb0f0ec7abc4190b39f9e98dddb63":[4,0,0,38,4],
+"dd/df1/namespaceTranslationLoader.html#a54ccd0697a271cad98b630921414c2f5":[4,0,0,38,8],
 "dd/df1/namespaceTranslationLoader.html#a635049f6fd55910f302af8912c6c2b5f":[4,0,0,38,1],
-"dd/df1/namespaceTranslationLoader.html#aa6a84a4f8eaa1f086c831ee25c7e724a":[4,0,0,38,5],
-"dd/df1/namespaceTranslationLoader.html#ad8d21b766707f0228bb14d162aa90b12":[4,0,0,38,4],
-"dd/df1/namespaceTranslationLoader.html#aeb424b2d131d5c00b422433a828e64e5":[4,0,0,38,3],
+"dd/df1/namespaceTranslationLoader.html#a6b9e70752e99e68a4ff0fc54e00e61da":[4,0,0,38,2],
+"dd/df1/namespaceTranslationLoader.html#aa6a84a4f8eaa1f086c831ee25c7e724a":[4,0,0,38,7],
+"dd/df1/namespaceTranslationLoader.html#acbe9412c9d1cfcb922669ab1d2e0e9af":[4,0,0,38,3],
+"dd/df1/namespaceTranslationLoader.html#ad8d21b766707f0228bb14d162aa90b12":[4,0,0,38,6],
+"dd/df1/namespaceTranslationLoader.html#aeb424b2d131d5c00b422433a828e64e5":[4,0,0,38,5],
 "dd/df2/structEvent__AddToList_1_1SessionEvent.html":[4,1,0,418,0],
 "dd/df2/structEvent__AddToList_1_1SessionEvent.html#a67e0b2dbae6f647eb19fbf7b3cb81e77":[4,1,0,418,0,0],
 "dd/df3/group__DeckEditors.html":[3,3,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX79 =
 "de/d00/group__CardExtraInfoWidgets.html":[3,2,3,0],
 "de/d00/update__downloader_8cpp.html":[4,2,0,0,1,0,1,3,1,4],
 "de/d01/response__viewlog__history_8proto.html":[4,2,0,8,0,0,0,176],
-"de/d01/response__viewlog__history_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,176,2],
-"de/d02/edhrec__api__response__card__prices_8h.html":[3,3,2,2,2,0,2],
-"de/d02/edhrec__api__response__card__prices_8h.html":[3,3,2,3,0,0,2],
-"de/d02/edhrec__api__response__card__prices_8h.html":[3,5,1,0,0,2],
-"de/d04/classDeckPreviewTagDialog.html":[4,1,0,330]
+"de/d01/response__viewlog__history_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,176,2]
 };

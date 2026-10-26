@@ -135,6 +135,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:ad8d21b766707f0228bb14d162aa90b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads Qt's own translation for _lang, which covers the strings of Qt's own dialogs.  <br /></td></tr>
 <tr class="memitem:a635049f6fd55910f302af8912c6c2b5f" id="r_a635049f6fd55910f302af8912c6c2b5f"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a635049f6fd55910f302af8912c6c2b5f">availableLanguages</a> (const QString &amp;_prefix, const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt; &amp;_directories)</td></tr>
 <tr class="memdesc:a635049f6fd55910f302af8912c6c2b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The language codes of the &lt;<em>prefix&gt;</em>&lt;lang&gt;.qm files in _directories, sorted by code.  <br /></td></tr>
+<tr class="memitem:acbe9412c9d1cfcb922669ab1d2e0e9af" id="r_acbe9412c9d1cfcb922669ab1d2e0e9af"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#acbe9412c9d1cfcb922669ab1d2e0e9af">languageDisplayName</a> (const QString &amp;_lang)</td></tr>
+<tr class="memdesc:acbe9412c9d1cfcb922669ab1d2e0e9af"><td class="mdescLeft">&#160;</td><td class="mdescRight">A human-readable name for a language, e.g. "Deutsch (German)".  <br /></td></tr>
+<tr class="memitem:a6b9e70752e99e68a4ff0fc54e00e61da" id="r_a6b9e70752e99e68a4ff0fc54e00e61da"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a6b9e70752e99e68a4ff0fc54e00e61da">defaultLanguageCode</a> ()</td></tr>
+<tr class="memdesc:a6b9e70752e99e68a4ff0fc54e00e61da"><td class="mdescLeft">&#160;</td><td class="mdescRight">The language a client runs with when none is configured, for preselecting a selector entry.  <br /></td></tr>
 <tr class="memitem:a522eb0f0ec7abc4190b39f9e98dddb63" id="r_a522eb0f0ec7abc4190b39f9e98dddb63"><td class="memItemLeft"><a class="el" href="../../dc/d0c/translation__loader_8h.html#adaab297bf5f0b3c6339d620d1c551391">TranslationLoadResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#a522eb0f0ec7abc4190b39f9e98dddb63">loadApplication</a> (QTranslator &amp;_translator, const QString &amp;_prefix, const QString &amp;_lang, const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt; &amp;_directories)</td></tr>
 <tr class="memdesc:a522eb0f0ec7abc4190b39f9e98dddb63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the &lt;<em>prefix&gt;</em>&lt;_lang&gt;.qm translation file from _directories into _translator.  <br /></td></tr>
 </table>
@@ -195,6 +199,63 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/df1/namespaceTranslationLoader_a635049f6fd55910f302af8912c6c2b5f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a6b9e70752e99e68a4ff0fc54e00e61da" name="a6b9e70752e99e68a4ff0fc54e00e61da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b9e70752e99e68a4ff0fc54e00e61da">&#9670;&#160;</a></span>defaultLanguageCode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString TranslationLoader::defaultLanguageCode </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The language a client runs with when none is configured, for preselecting a selector entry. </p>
+<p>English is the untranslated default and ships no translation file of its own, so a selector has nothing of its own to point at and uses the entry that carries an English translation instead. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/df1/namespaceTranslationLoader_a6b9e70752e99e68a4ff0fc54e00e61da_icgraph.svg" width="388" height="151"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="acbe9412c9d1cfcb922669ab1d2e0e9af" name="acbe9412c9d1cfcb922669ab1d2e0e9af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbe9412c9d1cfcb922669ab1d2e0e9af">&#9670;&#160;</a></span>languageDisplayName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString TranslationLoader::languageDisplayName </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>_lang</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A human-readable name for a language, e.g. "Deutsch (German)". </p>
+<p>The names are data, not translations: a language selector has to be readable before any translation is loaded, and its labels must not depend on the translation of the language they name.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_lang</td><td>The language code, e.g. "de" or "pt_BR". </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The curated name; for a code it does not know, the native language name; the code itself when Qt has no name for it either; an empty string when _lang is empty. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/df1/namespaceTranslationLoader_acbe9412c9d1cfcb922669ab1d2e0e9af_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

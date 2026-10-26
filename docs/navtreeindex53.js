@@ -1,6 +1,5 @@
 var NAVTREEINDEX53 =
 {
-"d9/dd1/dlg__load__remote__deck_8cpp.html":[4,2,0,0,1,5,6,4,34],
 "d9/dd1/stats__tally_8cpp.html":[4,2,0,0,1,4,5,0],
 "d9/dd1/stats__tally_8cpp.html#a709ec8d8c8ad7ffcb2f5c17053d3b3dc":[4,2,0,0,1,4,5,0,1],
 "d9/dd1/stats__tally_8cpp.html#afe2bcfe405293daa659a30a7f65f72c1":[4,2,0,0,1,4,5,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX53 =
 "d9/df7/classDeckEditorDeckDockWidget.html#ae050c8573c137ae2fbc0073a5e966779":[4,1,0,304,20],
 "d9/df7/classDeckEditorDeckDockWidget.html#ae35d7f715c6a7530e708c7cadefdc3c9":[4,1,0,304,46],
 "d9/df7/classDeckEditorDeckDockWidget.html#ae4ae6b27f8b690be07deef4a5a43db95":[4,1,0,304,14],
-"d9/df7/classDeckEditorDeckDockWidget.html#ae52bd17da47ada3862d69b2a2c467ae4":[4,1,0,304,48]
+"d9/df7/classDeckEditorDeckDockWidget.html#ae52bd17da47ada3862d69b2a2c467ae4":[4,1,0,304,48],
+"d9/df7/classDeckEditorDeckDockWidget.html#ae62018c18651e82ea1423f9d44716059":[4,1,0,304,23]
 };

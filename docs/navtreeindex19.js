@@ -1,6 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"d3/d93/classVisualDeckStorageSettings.html#ac5d2df7055a7f65db0e46075fbeca278":[4,1,0,991,14],
 "d3/d93/classVisualDeckStorageSettings.html#ad02baf70d5d990ba7c1c8e9e69825bff":[4,1,0,991,49],
 "d3/d93/classVisualDeckStorageSettings.html#ad42618d54d75e94db5a31e678936063a":[4,1,0,991,33],
 "d3/d93/classVisualDeckStorageSettings.html#ad6cdb7d9d72ae67026e4765879b612be":[4,1,0,991,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX19 =
 "d3/dc1/classMessageSettings.html#ae2f1a23d9684192661188d3e14d4859a":[4,1,0,610,0],
 "d3/dc2/response__deck__list_8proto.html":[4,2,0,8,0,0,0,144],
 "d3/dc2/response__deck__list_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,144,2],
-"d3/dc3/classArchidektApiResponseCardEntry.html":[4,1,0,36]
+"d3/dc3/classArchidektApiResponseCardEntry.html":[4,1,0,36],
+"d3/dc3/classArchidektApiResponseCardEntry.html#a0b6906f289e4327b335e1b6c6f827862":[4,1,0,36,19]
 };

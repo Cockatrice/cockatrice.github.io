@@ -1,6 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"d1/d74/classLocalServer__DatabaseInterface.html#a959a1df765423a1b64d45358d99b7a5f":[4,1,0,582,3],
 "d1/d74/classLocalServer__DatabaseInterface.html#aa697573d9fc4efe83374d9d57bf592c5":[4,1,0,582,2],
 "d1/d74/classLocalServer__DatabaseInterface.html#adcd693b97bcfbbacee9ff1e685c04271":[4,1,0,582,1],
 "d1/d74/player__menu_8h.html":[3,4,0,3,0,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX7 =
 "d1/dad/classDlgCreateToken.html#aec52fdf8eb4ffe5ed63df2be8303b45e":[4,1,0,352,5],
 "d1/dad/classDlgCreateToken.html#aecf461d6a37ba797fd4d35447b4afc2b":[4,1,0,352,13],
 "d1/dad/classDlgCreateToken.html#af20db02b6aaf526ab17c464bb2cba1d8":[4,1,0,352,21],
-"d1/dae/classAbstractCounterDialog.html":[4,1,0,13]
+"d1/dae/classAbstractCounterDialog.html":[4,1,0,13],
+"d1/dae/classAbstractCounterDialog.html#a1a024b5e845e739217e9d1eeaad650ae":[4,1,0,13,1]
 };

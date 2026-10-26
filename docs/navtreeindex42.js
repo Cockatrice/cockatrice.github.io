@@ -1,6 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"d7/dcb/classHandleCommanderBrackets.html#abd84216857ae853d90925f2e5cffb707":[4,1,0,517,1],
 "d7/dcc/event__loop__watchdog_8cpp.html":[4,2,0,13,1,4],
 "d7/dce/palette__generator_8cpp.html":[4,2,0,0,1,5,5,4],
 "d7/dd0/classRemoteDeckList__TreeWidget.html":[4,1,0,716],
@@ -249,5 +248,6 @@ var NAVTREEINDEX42 =
 "d8/d02/group__ConnectionDialogs.html":[3,1,0,0,0,2],
 "d8/d02/group__ConnectionDialogs.html":[3,1,0,9,0,2],
 "d8/d02/group__ConnectionDialogs.html":[3,5,1,1,0,2],
-"d8/d08/structCommand__ReverseTurn_1_1GameCommand.html":[4,1,0,244,0]
+"d8/d08/structCommand__ReverseTurn_1_1GameCommand.html":[4,1,0,244,0],
+"d8/d08/structCommand__ReverseTurn_1_1GameCommand.html#a7c3741163fa5ab7433edf535cf24cb83":[4,1,0,244,0,0]
 };

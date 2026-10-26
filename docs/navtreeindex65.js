@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"db/daf/recents__settings_8h.html":[3,7,5,0],
+"db/db0/servers__settings_8h.html":[3,7,2,3],
 "db/db0/structCommand__LeaveGame.html":[4,1,0,206],
 "db/db1/dlg__manage__sets_8h.html":[3,1,0,0,3],
 "db/db2/classManaDistributionSingleDisplayWidget.html":[4,1,0,604],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "db/de0/classpeg_1_1CharacterClass.html#afcbbc7bab3db6996b8612f7a39e51b8b":[4,1,0,5,24,2],
 "db/de0/classpeg_1_1CharacterClass.html#afed16fae8422e45c7fbb36f9f4578956":[4,0,0,28,25,11],
 "db/de0/classpeg_1_1CharacterClass.html#afed16fae8422e45c7fbb36f9f4578956":[4,1,0,5,24,11],
-"db/de1/classDlgEditUser.html":[4,1,0,358],
-"db/de1/classDlgEditUser.html#a36087efba0883aec272c3ed58a555b41":[4,1,0,358,1],
-"db/de1/classDlgEditUser.html#a473ac941c90d6f1a944266de4b054d37":[4,1,0,358,9]
+"db/de1/classDlgEditUser.html":[4,1,0,358]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"db/de1/classDlgEditUser.html#a36087efba0883aec272c3ed58a555b41":[4,1,0,358,1],
+"db/de1/classDlgEditUser.html#a473ac941c90d6f1a944266de4b054d37":[4,1,0,358,9],
 "db/de1/classDlgEditUser.html#a4cafca9ade2106b5fb84906160803cdf":[4,1,0,358,2],
 "db/de1/classDlgEditUser.html#a5454c50fe88dcce266fe5202db87b1f4":[4,1,0,358,10],
 "db/de1/classDlgEditUser.html#a6c74953864d52f52a63c85a93bbdee64":[4,1,0,358,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "dc/d0c/visual__deck__display__options__widget_8cpp.html":[4,2,0,0,1,5,6,17,0],
 "dc/d10/classIntentWaitForDatabaseLoad.html":[4,1,0,549],
 "dc/d10/classIntentWaitForDatabaseLoad.html#a231dd48c82161425144b6d6e183afe99":[4,1,0,549,0],
-"dc/d10/classIntentWaitForDatabaseLoad.html#a5fc4e23d915cc50b6d4080b595cd2b6b":[4,1,0,549,2],
-"dc/d10/classIntentWaitForDatabaseLoad.html#abdf93674663f721723328ea32e7e96aa":[4,1,0,549,1],
-"dc/d12/classUserCardArtProvider.html":[4,1,0,953]
+"dc/d10/classIntentWaitForDatabaseLoad.html#a5fc4e23d915cc50b6d4080b595cd2b6b":[4,1,0,549,2]
 };

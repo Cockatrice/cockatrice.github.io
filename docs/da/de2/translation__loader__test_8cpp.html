@@ -124,6 +124,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('da/de2/transla
 <code>#include &lt;QByteArray&gt;</code><br />
 <code>#include &lt;QCoreApplication&gt;</code><br />
 <code>#include &lt;QDir&gt;</code><br />
+<code>#include &lt;QFileInfo&gt;</code><br />
 <code>#include &lt;QLibraryInfo&gt;</code><br />
 <code>#include &lt;QList&gt;</code><br />
 <code>#include &lt;QSet&gt;</code><br />
@@ -143,6 +144,7 @@ Include dependency graph for translation_loader_test.cpp:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ae1748c69eedf9d91e0d08bec9f624923" id="r_ae1748c69eedf9d91e0d08bec9f624923"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ae1748c69eedf9d91e0d08bec9f624923">TRANSLATION_LOADER_TEST_DIR</a>&#160;&#160;&#160;&quot;&quot;</td></tr>
+<tr class="memitem:a891ed07008c2bd9534209f58a6cd52c8" id="r_a891ed07008c2bd9534209f58a6cd52c8"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a891ed07008c2bd9534209f58a6cd52c8">COCKATRICE_TRANSLATIONS_DIR</a>&#160;&#160;&#160;&quot;&quot;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -159,11 +161,28 @@ Functions</h2></td></tr>
 <tr class="memitem:ad40cd2e7f7003571e5952a959f730c0a" id="r_ad40cd2e7f7003571e5952a959f730c0a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad40cd2e7f7003571e5952a959f730c0a">TEST</a> (TranslationLoaderTest, ABuildTreeFindsTheTranslationsNextToTheExecutable)</td></tr>
 <tr class="memitem:a49e04ceb7e5040a7055d8289c7e5f494" id="r_a49e04ceb7e5040a7055d8289c7e5f494"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a49e04ceb7e5040a7055d8289c7e5f494">TEST</a> (TranslationLoaderTest, ApplicationTranslationPathsHoldNoDuplicates)</td></tr>
 <tr class="memitem:a51d84a535baf0398eeac3dc3fda306e8" id="r_a51d84a535baf0398eeac3dc3fda306e8"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a51d84a535baf0398eeac3dc3fda306e8">TEST</a> (TranslationLoaderTest, AvailableLanguagesListsTheTranslationsThatCanBeLoaded)</td></tr>
+<tr class="memitem:a993b9605d53e8207fa01837d8549015f" id="r_a993b9605d53e8207fa01837d8549015f"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a993b9605d53e8207fa01837d8549015f">TEST</a> (TranslationLoaderTest, LanguageDisplayNamesDoNotNeedATranslationFile)</td></tr>
+<tr class="memitem:acc0fc3de5c01bc3ce5555bdc7e97c5ed" id="r_acc0fc3de5c01bc3ce5555bdc7e97c5ed"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#acc0fc3de5c01bc3ce5555bdc7e97c5ed">TEST</a> (TranslationLoaderTest, EveryLanguageTheClientShipsHasItsOwnDisplayName)</td></tr>
+<tr class="memitem:a0a9311b33c54e0c0577ef4249aca2f03" id="r_a0a9311b33c54e0c0577ef4249aca2f03"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a0a9311b33c54e0c0577ef4249aca2f03">TEST</a> (TranslationLoaderTest, UnknownLanguagesFallBackToTheNativeNameThenTheCode)</td></tr>
 <tr class="memitem:a7d0a54dac47e53c246e1a734dcef539a" id="r_a7d0a54dac47e53c246e1a734dcef539a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a7d0a54dac47e53c246e1a734dcef539a">TEST</a> (TranslationLoaderTest, LoadApplicationReportsAMissingTranslationDirectory)</td></tr>
 <tr class="memitem:a8ab2483c2903c527c782576924b11e7b" id="r_a8ab2483c2903c527c782576924b11e7b"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a8ab2483c2903c527c782576924b11e7b">TEST</a> (TranslationLoaderTest, UnsetLanguageLoadsNothing)</td></tr>
 <tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627" id="r_a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
+<a id="a891ed07008c2bd9534209f58a6cd52c8" name="a891ed07008c2bd9534209f58a6cd52c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a891ed07008c2bd9534209f58a6cd52c8">&#9670;&#160;</a></span>COCKATRICE_TRANSLATIONS_DIR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define COCKATRICE_TRANSLATIONS_DIR&#160;&#160;&#160;&quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae1748c69eedf9d91e0d08bec9f624923" name="ae1748c69eedf9d91e0d08bec9f624923"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae1748c69eedf9d91e0d08bec9f624923">&#9670;&#160;</a></span>TRANSLATION_LOADER_TEST_DIR</h2>
 
@@ -206,7 +225,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ad40cd2e7f7003571e5952a959f730c0a" name="ad40cd2e7f7003571e5952a959f730c0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad40cd2e7f7003571e5952a959f730c0a">&#9670;&#160;</a></span>TEST() <span class="overload">[1/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad40cd2e7f7003571e5952a959f730c0a">&#9670;&#160;</a></span>TEST() <span class="overload">[1/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -232,7 +251,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a49e04ceb7e5040a7055d8289c7e5f494" name="a49e04ceb7e5040a7055d8289c7e5f494"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49e04ceb7e5040a7055d8289c7e5f494">&#9670;&#160;</a></span>TEST() <span class="overload">[2/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a49e04ceb7e5040a7055d8289c7e5f494">&#9670;&#160;</a></span>TEST() <span class="overload">[2/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -258,7 +277,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a51d84a535baf0398eeac3dc3fda306e8" name="a51d84a535baf0398eeac3dc3fda306e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51d84a535baf0398eeac3dc3fda306e8">&#9670;&#160;</a></span>TEST() <span class="overload">[3/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d84a535baf0398eeac3dc3fda306e8">&#9670;&#160;</a></span>TEST() <span class="overload">[3/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +303,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a42c701661211483f3b0e1ca3ada23c02" name="a42c701661211483f3b0e1ca3ada23c02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42c701661211483f3b0e1ca3ada23c02">&#9670;&#160;</a></span>TEST() <span class="overload">[4/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a42c701661211483f3b0e1ca3ada23c02">&#9670;&#160;</a></span>TEST() <span class="overload">[4/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -309,8 +328,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="acc0fc3de5c01bc3ce5555bdc7e97c5ed" name="acc0fc3de5c01bc3ce5555bdc7e97c5ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc0fc3de5c01bc3ce5555bdc7e97c5ed">&#9670;&#160;</a></span>TEST() <span class="overload">[5/18]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">TranslationLoaderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EveryLanguageTheClientShipsHasItsOwnDisplayName</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de2/translation__loader__test_8cpp_acc0fc3de5c01bc3ce5555bdc7e97c5ed_cgraph.svg" width="284" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a486fccdf0672b67165de8c8e5c933075" name="a486fccdf0672b67165de8c8e5c933075"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a486fccdf0672b67165de8c8e5c933075">&#9670;&#160;</a></span>TEST() <span class="overload">[5/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a486fccdf0672b67165de8c8e5c933075">&#9670;&#160;</a></span>TEST() <span class="overload">[6/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -335,8 +380,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a993b9605d53e8207fa01837d8549015f" name="a993b9605d53e8207fa01837d8549015f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a993b9605d53e8207fa01837d8549015f">&#9670;&#160;</a></span>TEST() <span class="overload">[7/18]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">TranslationLoaderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LanguageDisplayNamesDoNotNeedATranslationFile</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de2/translation__loader__test_8cpp_a993b9605d53e8207fa01837d8549015f_cgraph.svg" width="284" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="acd48a116e03661bf632b527cc8447a6d" name="acd48a116e03661bf632b527cc8447a6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd48a116e03661bf632b527cc8447a6d">&#9670;&#160;</a></span>TEST() <span class="overload">[6/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acd48a116e03661bf632b527cc8447a6d">&#9670;&#160;</a></span>TEST() <span class="overload">[8/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -362,7 +433,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a7d0a54dac47e53c246e1a734dcef539a" name="a7d0a54dac47e53c246e1a734dcef539a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d0a54dac47e53c246e1a734dcef539a">&#9670;&#160;</a></span>TEST() <span class="overload">[7/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d0a54dac47e53c246e1a734dcef539a">&#9670;&#160;</a></span>TEST() <span class="overload">[9/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -388,7 +459,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="af4d1058440e5df7768a009c31922d794" name="af4d1058440e5df7768a009c31922d794"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4d1058440e5df7768a009c31922d794">&#9670;&#160;</a></span>TEST() <span class="overload">[8/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af4d1058440e5df7768a009c31922d794">&#9670;&#160;</a></span>TEST() <span class="overload">[10/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -414,7 +485,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a333ec18c472b424fcd91b84a07357eeb" name="a333ec18c472b424fcd91b84a07357eeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a333ec18c472b424fcd91b84a07357eeb">&#9670;&#160;</a></span>TEST() <span class="overload">[9/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a333ec18c472b424fcd91b84a07357eeb">&#9670;&#160;</a></span>TEST() <span class="overload">[11/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -440,7 +511,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a8d955997847e34897f4ab270d0c5a387" name="a8d955997847e34897f4ab270d0c5a387"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d955997847e34897f4ab270d0c5a387">&#9670;&#160;</a></span>TEST() <span class="overload">[10/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d955997847e34897f4ab270d0c5a387">&#9670;&#160;</a></span>TEST() <span class="overload">[12/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -466,7 +537,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a3d36169831824993e6cac8923bc75a71" name="a3d36169831824993e6cac8923bc75a71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d36169831824993e6cac8923bc75a71">&#9670;&#160;</a></span>TEST() <span class="overload">[11/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d36169831824993e6cac8923bc75a71">&#9670;&#160;</a></span>TEST() <span class="overload">[13/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -492,7 +563,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="af931f178cf45556169d2534113ac0149" name="af931f178cf45556169d2534113ac0149"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af931f178cf45556169d2534113ac0149">&#9670;&#160;</a></span>TEST() <span class="overload">[12/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af931f178cf45556169d2534113ac0149">&#9670;&#160;</a></span>TEST() <span class="overload">[14/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -518,7 +589,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a03cc31aac4d15fb1611e81b34272cdc7" name="a03cc31aac4d15fb1611e81b34272cdc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03cc31aac4d15fb1611e81b34272cdc7">&#9670;&#160;</a></span>TEST() <span class="overload">[13/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a03cc31aac4d15fb1611e81b34272cdc7">&#9670;&#160;</a></span>TEST() <span class="overload">[15/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -544,7 +615,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a6584a92a9693a6162425d9835d231e2d" name="a6584a92a9693a6162425d9835d231e2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6584a92a9693a6162425d9835d231e2d">&#9670;&#160;</a></span>TEST() <span class="overload">[14/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6584a92a9693a6162425d9835d231e2d">&#9670;&#160;</a></span>TEST() <span class="overload">[16/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -569,8 +640,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a0a9311b33c54e0c0577ef4249aca2f03" name="a0a9311b33c54e0c0577ef4249aca2f03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a9311b33c54e0c0577ef4249aca2f03">&#9670;&#160;</a></span>TEST() <span class="overload">[17/18]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">TranslationLoaderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnknownLanguagesFallBackToTheNativeNameThenTheCode</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de2/translation__loader__test_8cpp_a0a9311b33c54e0c0577ef4249aca2f03_cgraph.svg" width="284" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a8ab2483c2903c527c782576924b11e7b" name="a8ab2483c2903c527c782576924b11e7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ab2483c2903c527c782576924b11e7b">&#9670;&#160;</a></span>TEST() <span class="overload">[15/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ab2483c2903c527c782576924b11e7b">&#9670;&#160;</a></span>TEST() <span class="overload">[18/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

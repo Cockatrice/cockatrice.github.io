@@ -1,6 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"d5/dc3/group__DeckEditorTabs.html":[3,3,1,0],
 "d5/dc3/group__DeckEditorTabs.html":[3,3,1,1,0],
 "d5/dc3/structCommand__ReplayModifyMatch_1_1SessionCommand.html":[4,1,0,229,0],
 "d5/dc3/structCommand__ReplayModifyMatch_1_1SessionCommand.html#a53e92dfa0593aff70f92be7521867f47":[4,1,0,229,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX31 =
 "d5/dff/classQxtMailMessage.html#a22c670448ac0c633df34bd16ba248b90":[4,1,0,704,1],
 "d5/dff/classQxtMailMessage.html#a2d601a3a8c4dab60abdcee06e8e02772":[4,1,0,704,7],
 "d5/dff/classQxtMailMessage.html#a2f7b3179bdf8ca3e209e3ab2008d7151":[4,1,0,704,9],
-"d5/dff/classQxtMailMessage.html#a307df76921f054d94818fcefbd54db7f":[4,1,0,704,11]
+"d5/dff/classQxtMailMessage.html#a307df76921f054d94818fcefbd54db7f":[4,1,0,704,11],
+"d5/dff/classQxtMailMessage.html#a3442e95354f4ae9e51810538b4fb7abd":[4,1,0,704,23]
 };

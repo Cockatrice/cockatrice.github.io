@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"dc/da5/event__kicked_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,100,2],
+"dc/da6/command__change__zone__properties_8proto.html":[4,2,0,8,0,0,0,4],
 "dc/da6/command__change__zone__properties_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,4,2],
 "dc/da7/shader__banner__widget_8h.html":[4,2,0,0,1,5,6,7,8],
 "dc/da7/shader__banner__widget_8h_source.html":[4,2,0,0,1,5,6,7,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "dc/dde/classResizablePanel.html#a1cb1461432e10522564a6311a47e581c":[4,1,0,727,16],
 "dc/dde/classResizablePanel.html#a1e23dec50e0223b996b91da97d4f8083":[4,1,0,727,0],
 "dc/dde/classResizablePanel.html#a1e946db2a751e87b1ab9010b8e6c1f7a":[4,1,0,727,11],
-"dc/dde/classResizablePanel.html#a239f38606854261cc91ca8f054fed15c":[4,1,0,727,30],
-"dc/dde/classResizablePanel.html#a281c86455bf13d1253b80afe6dc72a21":[4,1,0,727,32],
-"dc/dde/classResizablePanel.html#a3804bac73f481a2ed5d19ba7836f8b00":[4,1,0,727,14]
+"dc/dde/classResizablePanel.html#a239f38606854261cc91ca8f054fed15c":[4,1,0,727,30]
 };

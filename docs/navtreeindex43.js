@@ -1,6 +1,5 @@
 var NAVTREEINDEX43 =
 {
-"d8/d08/structCommand__ReverseTurn_1_1GameCommand.html#a7c3741163fa5ab7433edf535cf24cb83":[4,1,0,244,0,0],
 "d8/d0b/game__filters__settings_8cpp.html":[4,2,0,10,0,0,20],
 "d8/d0b/game__filters__settings_8cpp.html#ab7570a3c9b0a2198ff74c1983f2696d6":[4,2,0,10,0,0,20,0],
 "d8/d0e/structServerInfo__Room.html":[4,1,0,838],
@@ -249,5 +248,6 @@ var NAVTREEINDEX43 =
 "d8/d3d/classPlayerReference.html#a59f3659cee31ac943a37c02ff938cd9a":[4,1,0,672,1],
 "d8/d3d/classPlayerReference.html#a7534b811b46ba4129d05422b1001af29":[4,1,0,672,4],
 "d8/d3d/classPlayerReference.html#a829d19fac118ecf67c56f6177d549af9":[4,1,0,672,2],
-"d8/d3d/classPlayerReference.html#aae8a6bd3114fe1d35e528897aea89835":[4,1,0,672,5]
+"d8/d3d/classPlayerReference.html#aae8a6bd3114fe1d35e528897aea89835":[4,1,0,672,5],
+"d8/d3d/classPlayerReference.html#ababdc483ab2cccdf9a2f4252bac90a6a":[4,1,0,672,0]
 };

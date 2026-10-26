@@ -1,5 +1,9 @@
 var NAVTREEINDEX81 =
 {
+"de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a6c4cc02d615fbcbce8c4fee750f8c7f2":[4,1,0,493,0,21],
+"de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a7cfe2139978749604216271d62426e56":[4,1,0,493,0,29],
+"de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a7d99502337f3da9c6d0b5747ec5dcf91":[4,1,0,493,0,5],
+"de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a860d959eb829d4b8b04cb692ad9bab49":[4,1,0,493,0,10],
 "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a91cb44f8352dc8ba8245e43411f89b48":[4,1,0,493,0,20],
 "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a988fda5c6789eecc14221de2eaf46b6b":[4,1,0,493,0,24],
 "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35aa53fc94ea0be09e049893df8afc17a7b":[4,1,0,493,0,25],
@@ -245,9 +249,5 @@ var NAVTREEINDEX81 =
 "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#ad54fc9a1c84d8c85adb1ae19e2678a53":[4,1,0,42,2],
 "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#ad5587db6e2a34969df7b6f264d122666":[4,1,0,42,1],
 "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#adf05ab5f11564fc76eefb9aa756de215":[4,1,0,42,0],
-"de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#aed66acd342a99dffe97052af58105275":[4,1,0,42,4],
-"de/d4a/structpeg_1_1TokenChecker.html":[4,0,0,28,45],
-"de/d4a/structpeg_1_1TokenChecker.html":[4,1,0,5,44],
-"de/d4a/structpeg_1_1TokenChecker.html#a1380148534b584e498ce2408facdc5ee":[4,0,0,28,45,9],
-"de/d4a/structpeg_1_1TokenChecker.html#a1380148534b584e498ce2408facdc5ee":[4,1,0,5,44,9]
+"de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#aed66acd342a99dffe97052af58105275":[4,1,0,42,4]
 };

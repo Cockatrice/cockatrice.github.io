@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"d0/d7d/structCommand__CreateCounter.html#a450466f99fadc1ccf4f0bb15f5dfd880":[4,1,0,161,4],
 "d0/d7d/structCommand__CreateCounter.html#a7d45e527863bb066d723c31b946832b2":[4,1,0,161,1],
 "d0/d7d/structCommand__CreateCounter.html#ad95e8c152eea3c26c75e11696a8268f3":[4,1,0,161,3],
 "d0/d7f/classArchidektApiResponseDeckDisplayWidget.html":[4,1,0,39],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "d0/db5/classZoneViewZone.html#a7d9235628ab873a6695c2454c2c893eb":[4,1,0,1008,4],
 "d0/db5/classZoneViewZone.html#a8537daa60242da80617ee782809219fd":[4,1,0,1008,11],
 "d0/db5/classZoneViewZone.html#a8baecf95047c7cf47067899399e44495":[4,1,0,1008,8],
-"d0/db5/classZoneViewZone.html#a8f8bb53ec226f1680cc6429d6e75e714":[4,1,0,1008,10]
+"d0/db5/classZoneViewZone.html#a8f8bb53ec226f1680cc6429d6e75e714":[4,1,0,1008,10],
+"d0/db5/classZoneViewZone.html#a93f4834b21934b96afffc47d93e7623d":[4,1,0,1008,13]
 };

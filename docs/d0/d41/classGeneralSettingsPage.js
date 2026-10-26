@@ -10,7 +10,6 @@ var classGeneralSettingsPage =
     [ "filtersPathButtonClicked", "d0/d41/classGeneralSettingsPage.html#af6e75f3da428180c7dbeb64be65652f1", null ],
     [ "findQmFiles", "d0/d41/classGeneralSettingsPage.html#ac70d74708d80f99d8895e19789f793c0", null ],
     [ "languageBoxChanged", "d0/d41/classGeneralSettingsPage.html#ac50c27cb0fcf6fce7bd9749251656aa4", null ],
-    [ "languageName", "d0/d41/classGeneralSettingsPage.html#a3bab36d8462b55694b6459a360d03a5d", null ],
     [ "picsPathButtonClicked", "d0/d41/classGeneralSettingsPage.html#a4736c8a34321c7c15fdd4af7fe534f7e", null ],
     [ "replaysPathButtonClicked", "d0/d41/classGeneralSettingsPage.html#af5d84bd3a39d0ad0213965f53b8a4dcb", null ],
     [ "resetAllPathsClicked", "d0/d41/classGeneralSettingsPage.html#aee2ee56d94ed8382ec23e613fca5e9f2", null ],

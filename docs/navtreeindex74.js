@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"dd/d3c/oracle__importer__benchmark__test_8cpp.html#a673f6072a1c57ebd980eff5c12835996":[4,2,0,14,6,0,1],
+"dd/d3c/oracle__importer__benchmark__test_8cpp.html#a8d083bd7281b8ab3d939755cedf3544e":[4,2,0,14,6,0,4],
 "dd/d3c/oracle__importer__benchmark__test_8cpp.html#a8e0d86b0c553cf3a8941758b87bddcc1":[4,2,0,14,6,0,9],
 "dd/d3c/oracle__importer__benchmark__test_8cpp.html#a90e49d6f424f8e93f7511d955196341f":[4,2,0,14,6,0,7],
 "dd/d3c/oracle__importer__benchmark__test_8cpp.html#a9b1dab98121a6e2cadf5ca2bbb72ad8f":[4,2,0,14,6,0,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "dd/d67/classWndSets.html#abb28b39d5cf784074f96b219961bc33e":[4,1,0,1001,20],
 "dd/d67/classWndSets.html#abe033f2dde434333d62cddd0fea3f7fc":[4,1,0,1001,5],
 "dd/d67/classWndSets.html#ac1fdc0e9deb87c0ffe6308f93e084e4f":[4,1,0,1001,35],
-"dd/d67/classWndSets.html#ac677aa8779b122076474743f2cdb838e":[4,1,0,1001,26],
-"dd/d67/classWndSets.html#acea95fb09d402d1a42e033adb22e7b99":[4,1,0,1001,3],
-"dd/d67/classWndSets.html#aded501177483bae0c82cf246ac39a6c3":[4,1,0,1001,16]
+"dd/d67/classWndSets.html#ac677aa8779b122076474743f2cdb838e":[4,1,0,1001,26]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"dd/dab/classDeckStateManager.html#a64379ba1486f2354c22123ff8dfbe1e0":[4,1,0,338,48],
+"dd/dab/classDeckStateManager.html#a68c49a5f6f179b44c09a8f593ce52b77":[4,1,0,338,51],
 "dd/dab/classDeckStateManager.html#a6dc9a44f88f41974c61b7525f7aaf53e":[4,1,0,338,16],
 "dd/dab/classDeckStateManager.html#a71dd2d5886fbfd6ca7ff5eb7845bc8ea":[4,1,0,338,27],
 "dd/dab/classDeckStateManager.html#a73a56c587e7d759cac07325f2672f02a":[4,1,0,338,44],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "dd/dd2/classCardInfo.html#aed0062cd2d4d936dab67dcc279616ad6":[3,2,8,9],
 "dd/dd2/classCardInfo.html#af1d1302ff829cb813f3b4c97e8c6dc7b":[3,2,8,60],
 "dd/dd2/classCardInfo.html#af2a0e300829b6b147cb4e717c58f68e4":[3,2,8,27],
-"dd/dd2/classCardInfo.html#af783715e86ee525bb25eea6a429d7bbf":[3,2,8,72],
-"dd/dd2/classCardInfo.html#af9d1083de2a56912e58f0fd5b5e5506b":[3,2,8,44],
-"dd/dd2/classCardInfo.html#afa5ecf11b6fb90a03df543ef9489407d":[3,2,8,41]
+"dd/dd2/classCardInfo.html#af783715e86ee525bb25eea6a429d7bbf":[3,2,8,72]
 };

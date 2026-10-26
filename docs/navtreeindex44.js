@@ -1,6 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"d8/d3d/classPlayerReference.html#ababdc483ab2cccdf9a2f4252bac90a6a":[4,1,0,672,0],
 "d8/d3d/classPlayerReference.html#acb4eb2a4940f278ecfc5f69124f5a15a":[4,1,0,672,6],
 "d8/d3d/classPlayerReference.html#afb75f7547a575810e98a9b799cadee63":[4,1,0,672,3],
 "d8/d3d/settings__migration_8cpp.html":[4,2,0,10,0,0,42],
@@ -249,5 +248,6 @@ var NAVTREEINDEX44 =
 "d8/d6d/classCardMenu.html#a8450bc31df4c9aaad30e20d0dcb6c974":[4,1,0,109,35],
 "d8/d6d/classCardMenu.html#a94cfd2f3118cde53e9633d53e389289b":[4,1,0,109,37],
 "d8/d6d/classCardMenu.html#a9569e54b0214d2ee0ed1ee5edbf921b1":[4,1,0,109,10],
-"d8/d6d/classCardMenu.html#a975bd1e609b3b2e2f5253bc6f1cdaeb3":[4,1,0,109,16]
+"d8/d6d/classCardMenu.html#a975bd1e609b3b2e2f5253bc6f1cdaeb3":[4,1,0,109,16],
+"d8/d6d/classCardMenu.html#aab5e65110bcd6a03aba41fe118605f71":[4,1,0,109,30]
 };

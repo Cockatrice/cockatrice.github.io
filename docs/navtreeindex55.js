@@ -1,6 +1,5 @@
 var NAVTREEINDEX55 =
 {
-"da/d22/classVisualDeckStorageFolderDisplayWidget.html#a0fad3784fe53552cc6c009413e4026c3":[4,1,0,987,4],
 "da/d22/classVisualDeckStorageFolderDisplayWidget.html#a1150845280d251a5c022f6b0587ffeed":[4,1,0,987,17],
 "da/d22/classVisualDeckStorageFolderDisplayWidget.html#a11f32502b6ae472fdfedccaeaeb8f9c7":[4,1,0,987,0],
 "da/d22/classVisualDeckStorageFolderDisplayWidget.html#a165aaffb199dcf8a97dd9661ce236acb":[4,1,0,987,19],
@@ -249,5 +248,6 @@ var NAVTREEINDEX55 =
 "da/d3b/classUserListWidget.html#abf013e42f0196e76737d014e9403552caf5438377df3181e41a8711ef536417a3":[4,1,0,968,1,3],
 "da/d3b/classUserListWidget.html#abfefb9a856d3266e1487eecd7f8c7bc4":[4,1,0,968,30],
 "da/d3b/classUserListWidget.html#ac1229a3020378bda2e7e1bb489ac753f":[4,1,0,968,22],
-"da/d3b/classUserListWidget.html#ac541ed8a4ca05d09bb559fc3c5a8e4a3":[4,1,0,968,74]
+"da/d3b/classUserListWidget.html#ac541ed8a4ca05d09bb559fc3c5a8e4a3":[4,1,0,968,74],
+"da/d3b/classUserListWidget.html#ac6b60c684345c5fcdd96c76d1f7b63c4":[4,1,0,968,56]
 };

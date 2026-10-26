@@ -1,5 +1,9 @@
 var NAVTREEINDEX85 =
 {
+"de/dbe/classCardDatabaseSettings.html#a19bd88c51ef167d07c6cb7e7d87b93e0":[4,1,0,90,0],
+"de/dbe/classCardDatabaseSettings.html#a30dbaad145912ed168dac35bacb8b170":[4,1,0,90,13],
+"de/dbe/classCardDatabaseSettings.html#a479a8b7ed22df9f2fc7da0437c3c66ac":[4,1,0,90,14],
+"de/dbe/classCardDatabaseSettings.html#a638768afda3a6eb230aaf7b6ced129b4":[4,1,0,90,10],
 "de/dbe/classCardDatabaseSettings.html#a84ebaabe0d016233a93be3178851733a":[4,1,0,90,3],
 "de/dbe/classCardDatabaseSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,90,11],
 "de/dbe/classCardDatabaseSettings.html#a94eeeab6307c485dc5550bf683f2ed8d":[4,1,0,90,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX85 =
 "de/de9/classDeckLoader.html#af6482d329918ca77eadf23010db1ccf3":[4,1,0,324,27],
 "de/de9/classDeckLoader.html#af71e0c4d5716ab83d3c920e1fbe3f767":[4,1,0,324,23],
 "de/de9/classManaBaseWidget.html":[4,1,0,592],
-"de/de9/classManaBaseWidget.html#a14a562a2372e7e97197b0bdd32edda03":[4,1,0,592,6],
-"de/de9/classManaBaseWidget.html#a34915078950512e409f3a6157a3ace60":[4,1,0,592,5],
-"de/de9/classManaBaseWidget.html#a3c3cb9f5e200d24edf0a7e26dce9ce6e":[4,1,0,592,8],
-"de/de9/classManaBaseWidget.html#a5329a7d3520f44161f35971b526d6b36":[4,1,0,592,7],
-"de/de9/classManaBaseWidget.html#a5cb8beb958a3743a28e39bf75617466d":[4,1,0,592,2]
+"de/de9/classManaBaseWidget.html#a14a562a2372e7e97197b0bdd32edda03":[4,1,0,592,6]
 };

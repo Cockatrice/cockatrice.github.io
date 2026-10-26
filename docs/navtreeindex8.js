@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"d1/dae/classAbstractCounterDialog.html#a1a024b5e845e739217e9d1eeaad650ae":[4,1,0,13,1],
 "d1/dae/classAbstractCounterDialog.html#a833c2079631f1536a0afeefbbe36e1d0":[4,1,0,13,2],
 "d1/dae/classAbstractCounterDialog.html#ad989216410f3ec5623e8d5b655c93735":[4,1,0,13,0],
 "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html":[4,1,0,975],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "d1/dd7/classTabDeckStorage.html#a1ae075599578009a6ab29e1e5923e7af":[4,1,0,911,45],
 "d1/dd7/classTabDeckStorage.html#a1b76bebfe0068f05481b334a73f14c98":[4,1,0,911,46],
 "d1/dd7/classTabDeckStorage.html#a1c95a0030a892e4537470dd976218776":[4,1,0,911,28],
-"d1/dd7/classTabDeckStorage.html#a203b72c6040175f582b0b1fffe12d9a7":[4,1,0,911,43]
+"d1/dd7/classTabDeckStorage.html#a203b72c6040175f582b0b1fffe12d9a7":[4,1,0,911,43],
+"d1/dd7/classTabDeckStorage.html#a20cbe0eab8d33c3f7284e615c9df3603":[4,1,0,911,51]
 };

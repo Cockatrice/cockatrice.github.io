@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"dc/dde/classResizablePanel.html#a281c86455bf13d1253b80afe6dc72a21":[4,1,0,727,32],
+"dc/dde/classResizablePanel.html#a3804bac73f481a2ed5d19ba7836f8b00":[4,1,0,727,14],
 "dc/dde/classResizablePanel.html#a410125e35fedbe85a594c5d7dfe22155":[4,1,0,727,1],
 "dc/dde/classResizablePanel.html#a4e317b4190d6a7614c727814169e22eb":[4,1,0,727,21],
 "dc/dde/classResizablePanel.html#a5aded9b19409b3b9c2b39690c6e178b6":[4,1,0,727,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "dd/d01/protocol_command_container.html":[0,1,6,0,2],
 "dd/d01/protocol_command_container.html#cc_batching":[0,1,6,0,2,6],
 "dd/d01/protocol_command_container.html#cc_cmd_id":[0,1,6,0,2,2],
-"dd/d01/protocol_command_container.html#cc_context":[0,1,6,0,2,3],
-"dd/d01/protocol_command_container.html#cc_dispatch":[0,1,6,0,2,7],
-"dd/d01/protocol_command_container.html#cc_domains":[0,1,6,0,2,5]
+"dd/d01/protocol_command_container.html#cc_context":[0,1,6,0,2,3]
 };

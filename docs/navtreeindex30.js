@@ -1,6 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"d5/dac/classPlaymatSettingsDialog.html#a18201f4b17ec5a22605f973cf3c1255a":[4,1,0,678,17],
 "d5/dac/classPlaymatSettingsDialog.html#a1ae1e458ae4be303edd2eb967cca6edb":[4,1,0,678,38],
 "d5/dac/classPlaymatSettingsDialog.html#a1df00fb5a155149f86e349b94977a5e0":[4,1,0,678,18],
 "d5/dac/classPlaymatSettingsDialog.html#a2e972d5daeadd9f8f0f1d87d86e41c71":[4,1,0,678,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX30 =
 "d5/dc2/classDeckFilterString.html#a992c9d801569aaba3c3dd7d200a5c0b4":[4,1,0,310,4],
 "d5/dc2/classDeckFilterString.html#abf5b81c35ebcfa7660a172b9c9f44ad6":[4,1,0,310,3],
 "d5/dc3/group__DeckEditorTabs.html":[3,1,0,1,0],
-"d5/dc3/group__DeckEditorTabs.html":[3,1,0,4,0]
+"d5/dc3/group__DeckEditorTabs.html":[3,1,0,4,0],
+"d5/dc3/group__DeckEditorTabs.html":[3,3,1,0]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"d2/dc2/classFirstRunWizard.html#a6ca37696bc29c55dafb4dc79a5711d94":[4,1,0,484,21],
 "d2/dc2/classFirstRunWizard.html#a6d76921f7efa0eca1cf7c1a6a92a71cb":[4,1,0,484,4],
 "d2/dc2/classFirstRunWizard.html#a74097d227783bb52393453ca3329838d":[4,1,0,484,23],
 "d2/dc2/classFirstRunWizard.html#a77cd878a201cf7092ea6b21554adb4a6":[4,1,0,484,12],
@@ -249,5 +248,6 @@ var NAVTREEINDEX15 =
 "d3/d00/classAnnotationDialog.html":[4,1,0,32],
 "d3/d00/classAnnotationDialog.html#a28a2110b62e706ad7f73cada50806947":[4,1,0,32,0],
 "d3/d00/classAnnotationDialog.html#a9f230cb6100bc36005bde0bd729add94":[4,1,0,32,1],
-"d3/d07/classLatencyTracker.html":[4,1,0,566]
+"d3/d07/classLatencyTracker.html":[4,1,0,566],
+"d3/d07/classLatencyTracker.html#a1eb9813cd857f04e9146a048e40bb347":[4,1,0,566,4]
 };

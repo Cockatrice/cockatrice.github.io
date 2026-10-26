@@ -1,12 +1,15 @@
 var translation__loader__test_8cpp =
 [
+    [ "COCKATRICE_TRANSLATIONS_DIR", "da/de2/translation__loader__test_8cpp.html#a891ed07008c2bd9534209f58a6cd52c8", null ],
     [ "TRANSLATION_LOADER_TEST_DIR", "da/de2/translation__loader__test_8cpp.html#ae1748c69eedf9d91e0d08bec9f624923", null ],
     [ "main", "da/de2/translation__loader__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627", null ],
     [ "TEST", "da/de2/translation__loader__test_8cpp.html#ad40cd2e7f7003571e5952a959f730c0a", null ],
     [ "TEST", "da/de2/translation__loader__test_8cpp.html#a49e04ceb7e5040a7055d8289c7e5f494", null ],
     [ "TEST", "da/de2/translation__loader__test_8cpp.html#a51d84a535baf0398eeac3dc3fda306e8", null ],
     [ "TEST", "da/de2/translation__loader__test_8cpp.html#a42c701661211483f3b0e1ca3ada23c02", null ],
+    [ "TEST", "da/de2/translation__loader__test_8cpp.html#acc0fc3de5c01bc3ce5555bdc7e97c5ed", null ],
     [ "TEST", "da/de2/translation__loader__test_8cpp.html#a486fccdf0672b67165de8c8e5c933075", null ],
+    [ "TEST", "da/de2/translation__loader__test_8cpp.html#a993b9605d53e8207fa01837d8549015f", null ],
     [ "TEST", "da/de2/translation__loader__test_8cpp.html#acd48a116e03661bf632b527cc8447a6d", null ],
     [ "TEST", "da/de2/translation__loader__test_8cpp.html#a7d0a54dac47e53c246e1a734dcef539a", null ],
     [ "TEST", "da/de2/translation__loader__test_8cpp.html#af4d1058440e5df7768a009c31922d794", null ],
@@ -16,5 +19,6 @@ var translation__loader__test_8cpp =
     [ "TEST", "da/de2/translation__loader__test_8cpp.html#af931f178cf45556169d2534113ac0149", null ],
     [ "TEST", "da/de2/translation__loader__test_8cpp.html#a03cc31aac4d15fb1611e81b34272cdc7", null ],
     [ "TEST", "da/de2/translation__loader__test_8cpp.html#a6584a92a9693a6162425d9835d231e2d", null ],
+    [ "TEST", "da/de2/translation__loader__test_8cpp.html#a0a9311b33c54e0c0577ef4249aca2f03", null ],
     [ "TEST", "da/de2/translation__loader__test_8cpp.html#a8ab2483c2903c527c782576924b11e7b", null ]
 ];

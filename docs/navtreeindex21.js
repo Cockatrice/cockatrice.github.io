@@ -1,6 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"d3/de4/structDeckList_1_1Metadata.html#a8904d754278a55c961599c0d0a3a1600":[3,3,3,0,5],
 "d3/de4/structDeckList_1_1Metadata.html#a9e8725c87fbe9a7aa9f317c867b639ad":[3,3,3,0,3],
 "d3/de4/structDeckList_1_1Metadata.html#aa441b4f72c49593f204154e7e7a43e5a":[3,3,3,0,9],
 "d3/de4/structDeckList_1_1Metadata.html#aab316677caf65b61062b01128d5b48c3":[3,3,3,0,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX21 =
 "d4/d18/interface__deck__editor__settings__provider_8h_source.html":[4,2,0,5,0,0,6],
 "d4/d18/visual__deck__storage__folder__display__widget_8h.html":[3,1,0,5,1,1],
 "d4/d18/visual__deck__storage__folder__display__widget_8h.html":[3,3,2,0,0,1,1],
-"d4/d1b/classSetQuery.html":[4,1,0,856]
+"d4/d1b/classSetQuery.html":[4,1,0,856],
+"d4/d1b/classSetQuery.html#a08920158548605b9d9dd6464bbf7459d":[4,1,0,856,6]
 };

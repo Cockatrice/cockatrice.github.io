@@ -1,5 +1,8 @@
 var NAVTREEINDEX62 =
 {
+"db/d26/qxtglobal_8h.html#afd27c0f97d0959829942f3f98c383f8e":[4,2,0,13,1,0,0,16],
+"db/d26/qxtglobal_8h_source.html":[4,2,0,13,1,0,0],
+"db/d27/dice__limits_8h.html":[4,2,0,11,0,0,8],
 "db/d27/dice__limits_8h.html#a0719e43559f998b7ef9093c3453dcee9":[4,2,0,11,0,0,8,3],
 "db/d27/dice__limits_8h.html#a17950a45afc0b8f2a3ad1b24c649cc6f":[4,2,0,11,0,0,8,0],
 "db/d27/dice__limits_8h.html#a46ed11e0a9bf5d315a6bb08052c1f81c":[4,2,0,11,0,0,8,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX62 =
 "db/d53/classRemoteClient.html#ad8f6c81f52b6104e5da9b58160817bdd":[4,1,0,714,12],
 "db/d53/classRemoteClient.html#adc36bcf796b1c84fa34b815b0c0daddf":[4,1,0,714,34],
 "db/d53/classRemoteClient.html#adca6b6ed7ca05254884d6386ce25940b":[4,1,0,714,15],
-"db/d53/classRemoteClient.html#ade47c174443aa55b8d740d876140912c":[4,1,0,714,41],
-"db/d53/classRemoteClient.html#ae83aeff84aec4a69ba37c2a3e27aa671":[4,1,0,714,69],
-"db/d53/classRemoteClient.html#ae8882e738a7d7ea87b96b73928999940":[4,1,0,714,61],
-"db/d53/classRemoteClient.html#ae9706019dda44a2f7f31dafc3120aaae":[4,1,0,714,72]
+"db/d53/classRemoteClient.html#ade47c174443aa55b8d740d876140912c":[4,1,0,714,41]
 };

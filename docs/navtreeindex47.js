@@ -1,6 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"d8/db3/servatrice_8h_source.html":[4,2,0,13,1,17],
 "d8/db9/card__info__picture__with__text__overlay__widget_8cpp.html":[4,2,0,0,1,5,6,0,16],
 "d8/db9/group__RemoteDeckStorageWidgets.html":[3,1,0,6],
 "d8/db9/group__RemoteDeckStorageWidgets.html":[3,3,2,1,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX47 =
 "d8/dd8/structEstimateBracketResult.html#ab7c79b74f2eeabd5c3f9cace192c8841":[4,1,0,417,12],
 "d8/dd8/structEstimateBracketResult.html#ae9ef4351936a9788cb3d46e5e4860001":[4,1,0,417,4],
 "d8/dd8/structEstimateBracketResult.html#aeb0831f16ea1b2f7a4dd6a89af71e666":[4,1,0,417,8],
-"d8/dd8/structEstimateBracketResult.html#af392871aef6a866199e7d3f2aae577f2":[4,1,0,417,6]
+"d8/dd8/structEstimateBracketResult.html#af392871aef6a866199e7d3f2aae577f2":[4,1,0,417,6],
+"d8/ddb/classUrlSchemeEventFilter.html":[4,1,0,951]
 };

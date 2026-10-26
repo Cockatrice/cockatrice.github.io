@@ -1,6 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"d3/d65/structCommandContainer.html#a08554c473fccac77e54b59d5a04d6fce":[4,1,0,265,2],
 "d3/d65/structCommandContainer.html#a127dad6aa1ab9c7f0197f5ee75e6a169":[4,1,0,265,5],
 "d3/d65/structCommandContainer.html#a3b7dabde04749920b41b328588036979":[4,1,0,265,6],
 "d3/d65/structCommandContainer.html#a681b28f6bc03b576579267c684f7226e":[4,1,0,265,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX18 =
 "d3/d93/classVisualDeckStorageSettings.html#aa69bdab8fb233816d45052d377f6bb20":[4,1,0,991,15],
 "d3/d93/classVisualDeckStorageSettings.html#aa83bf4baa52efb6a27b42a0a5bf4172e":[4,1,0,991,9],
 "d3/d93/classVisualDeckStorageSettings.html#aae165c76404a48fba42580baed7d08cb":[4,1,0,991,30],
-"d3/d93/classVisualDeckStorageSettings.html#ab0112a66dcf5fa064c96e10c78e0c85b":[4,1,0,991,36]
+"d3/d93/classVisualDeckStorageSettings.html#ab0112a66dcf5fa064c96e10c78e0c85b":[4,1,0,991,36],
+"d3/d93/classVisualDeckStorageSettings.html#ac5d2df7055a7f65db0e46075fbeca278":[4,1,0,991,14]
 };

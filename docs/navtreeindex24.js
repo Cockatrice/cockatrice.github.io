@@ -1,6 +1,5 @@
 var NAVTREEINDEX24 =
 {
-"d4/d8d/context__mulligan_8proto.html":[4,2,0,8,0,0,0,73],
 "d4/d8d/context__mulligan_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,73,2],
 "d4/d8e/servatrice__database__interface_8h.html":[4,2,0,13,1,21],
 "d4/d8e/servatrice__database__interface_8h.html#a48e3613be6028b1f67617cfe48dd1420":[4,2,0,13,1,21,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX24 =
 "d4/db9/classAbstractCardItem.html#adf25a32445087deb76c8422a85aa79cc":[4,1,0,10,48],
 "d4/db9/classAbstractCardItem.html#ae36536ddb4ab1aef8110d8c8b541342a":[4,1,0,10,20],
 "d4/db9/classAbstractCardItem.html#ae83a692db002deaab488f663964644a6":[4,1,0,10,36],
-"d4/db9/classAbstractCardItem.html#aeb90281dc3d536d4b0d6e456c068f551":[4,1,0,10,54]
+"d4/db9/classAbstractCardItem.html#aeb90281dc3d536d4b0d6e456c068f551":[4,1,0,10,54],
+"d4/db9/classAbstractCardItem.html#aeda9d0b5eb73ed0e3076a1390e5d8e99":[4,1,0,10,11]
 };

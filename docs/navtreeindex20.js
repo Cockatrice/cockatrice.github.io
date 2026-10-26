@@ -1,6 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"d3/dc3/classArchidektApiResponseCardEntry.html#a0b6906f289e4327b335e1b6c6f827862":[4,1,0,36,19],
 "d3/dc3/classArchidektApiResponseCardEntry.html#a1a004f37b9ea69340077369f8b3b6e92":[4,1,0,36,8],
 "d3/dc3/classArchidektApiResponseCardEntry.html#a1e74057ca04aa70e066d3041e21dd17a":[4,1,0,36,5],
 "d3/dc3/classArchidektApiResponseCardEntry.html#a40613b615e2431fcc06e249ca5c1605d":[4,1,0,36,14],
@@ -249,5 +248,6 @@ var NAVTREEINDEX20 =
 "d3/de4/structDeckList_1_1Metadata.html#a26688c47b071cced7bc0d0b70d270634":[3,3,3,0,7],
 "d3/de4/structDeckList_1_1Metadata.html#a36593b0aa523d3dd05b34c23178f07b3":[3,3,3,0,8],
 "d3/de4/structDeckList_1_1Metadata.html#a6d77b71257ae9768e34ef0efe008e90e":[3,3,3,0,0],
-"d3/de4/structDeckList_1_1Metadata.html#a7683438a14f101fdb9f4eba6116339ba":[3,3,3,0,6]
+"d3/de4/structDeckList_1_1Metadata.html#a7683438a14f101fdb9f4eba6116339ba":[3,3,3,0,6],
+"d3/de4/structDeckList_1_1Metadata.html#a8904d754278a55c961599c0d0a3a1600":[3,3,3,0,5]
 };
