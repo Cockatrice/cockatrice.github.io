@@ -83,6 +83,7 @@ var hierarchy =
     [ "Category", "de/dff/structCategory.html", null ],
     [ "ChatLogEntry", "d3/d1f/structChatLogEntry.html", null ],
     [ "CardNodeFunction::ClearPrintingData", "d2/db4/structCardNodeFunction_1_1ClearPrintingData.html", null ],
+    [ "CloseHoldersResult", "d5/d50/structCloseHoldersResult.html", null ],
     [ "color", "d0/d91/structcolor.html", null ],
     [ "Command_AccountEdit", "d6/def/structCommand__AccountEdit.html", null ],
     [ "Command_AccountImage", "d1/d74/structCommand__AccountImage.html", null ],

@@ -417,7 +417,7 @@ var searchData=
   ['replaywidget_414',['replayWidget',['../de/d08/classTabGame.html#abcc636cfa63bb77fd9698a97cad5476c',1,'TabGame']]],
   ['reply_415',['reply',['../d9/ddd/classHandlePublicServers.html#aedc3e1dff5ac3289e13b14c8476484c2',1,'HandlePublicServers::reply'],['../d7/dcb/classHandleCommanderBrackets.html#a2369c1729c4fb9fecacc0456ac4d4b69',1,'HandleCommanderBrackets::reply']]],
   ['report_416',['REPORT',['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a2efec3075d6195ad7c05219915777fbf',1,'SessionCommand']]],
-  ['report_417',['report',['../de/d75/structResponse__ReportDetails.html#a47ebadb795ab559a927c41d97362a505',1,'Response_ReportDetails']]],
+  ['report_417',['report',['../de/d75/structResponse__ReportDetails.html#a47ebadb795ab559a927c41d97362a505',1,'Response_ReportDetails::report'],['../d5/d50/structCloseHoldersResult.html#a4193c9a86fb6673bd673c513d4ab4ce1',1,'CloseHoldersResult::report']]],
   ['report_5fadd_5fcomment_418',['REPORT_ADD_COMMENT',['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a3eaa479299d1c2316bec9fe1ea8e583c',1,'SessionCommand']]],
   ['report_5fassign_419',['REPORT_ASSIGN',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a3b6f6ec047a8c26072d1f87b970c505c',1,'ModeratorCommand']]],
   ['report_5fcategories_2ecpp_420',['report_categories.cpp',['../dd/df8/report__categories_8cpp.html',1,'']]],

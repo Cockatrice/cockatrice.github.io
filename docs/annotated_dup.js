@@ -222,6 +222,7 @@ var annotated_dup =
     [ "CliCardDatabasePathProvider", "d5/d91/classCliCardDatabasePathProvider.html", "d5/d91/classCliCardDatabasePathProvider" ],
     [ "ClientUpdateChecker", "d3/d9f/classClientUpdateChecker.html", "d3/d9f/classClientUpdateChecker" ],
     [ "CloseButton", "df/df8/classCloseButton.html", "df/df8/classCloseButton" ],
+    [ "CloseHoldersResult", "d5/d50/structCloseHoldersResult.html", "d5/d50/structCloseHoldersResult" ],
     [ "CockatriceXml3Parser", "d5/dba/classCockatriceXml3Parser.html", "d5/dba/classCockatriceXml3Parser" ],
     [ "CockatriceXml4Parser", "dc/d53/classCockatriceXml4Parser.html", "dc/d53/classCockatriceXml4Parser" ],
     [ "color", "d0/d91/structcolor.html", "d0/d91/structcolor" ],
