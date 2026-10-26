@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"dc/da1/response__deck__download_8proto.html":[4,2,0,8,0,0,0,143],
+"dc/da1/response__deck__download_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,143,2],
 "dc/da2/structBarData.html":[4,1,0,64],
 "dc/da2/structBarData.html#a1acf9611ad0c29fe32ca7a89928fc08e":[4,1,0,64,0],
 "dc/da2/structBarData.html#ab92b691de65d509db8390319b0aabeef":[4,1,0,64,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "dc/ddd/edhrec__top__commanders__api__response__display__widget_8h.html":[3,3,2,3,0,0,0,9],
 "dc/ddd/edhrec__top__commanders__api__response__display__widget_8h.html":[3,5,1,0,0,0,9],
 "dc/ddd/local__server__interface_8cpp.html":[4,2,0,7,0,0,1,0,2],
-"dc/dde/classResizablePanel.html":[4,1,0,728],
-"dc/dde/classResizablePanel.html#a039d850da3aad05199b3e489d56f150f":[4,1,0,728,23],
-"dc/dde/classResizablePanel.html#a042deb42ba7ef86eb4892f8a3bb61ad4":[4,1,0,728,24]
+"dc/dde/classResizablePanel.html":[4,1,0,728]
 };

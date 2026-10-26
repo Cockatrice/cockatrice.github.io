@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"de/d48/classDlgEditAvatar.html#ae3e0b26cbb4f36a149ea349501755018":[4,1,0,355,2],
+"de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html":[4,1,0,42],
 "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#a18e645b9412a1f443bbcd27708b32f9e":[4,1,0,42,7],
 "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#a7a55912bddef879107ef7c6f26fedc8d":[4,1,0,42,6],
 "de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#a8a0cf030907760c315123d33b7042472":[4,1,0,42,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "de/d6f/intent_8h_source.html":[4,2,0,0,1,5,3,2],
 "de/d70/classUserMessagePosition.html":[4,1,0,970],
 "de/d70/classUserMessagePosition.html#a5bc2cce61bf8206bdba50a5ab8c0fcf5":[4,1,0,970,2],
-"de/d70/classUserMessagePosition.html#a793904ff6e6d0e61b792f6d3c1050c61":[4,1,0,970,0],
-"de/d70/classUserMessagePosition.html#a86c8c58baba09593f9959e88ed9a5a92":[4,1,0,970,1],
-"de/d70/visual__database__display__filter__button_8h.html":[4,2,0,0,1,5,6,16,2]
+"de/d70/classUserMessagePosition.html#a793904ff6e6d0e61b792f6d3c1050c61":[4,1,0,970,0]
 };

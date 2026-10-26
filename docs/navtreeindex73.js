@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"dc/dfe/structServerInfo__DeckShareItem.html#ae077a20589152e8bdc8de87f0b481596":[4,1,0,824,1],
+"dc/dfe/structServerInfo__DeckShareItem.html#ae4a7c095fa567913969cb17b281ea377":[4,1,0,824,3],
 "dc/dff/structCommand__GetWarnList_1_1ModeratorCommand.html":[4,1,0,199,0],
 "dc/dff/structCommand__GetWarnList_1_1ModeratorCommand.html#ab2b97af88d3364c23a96fc9b2ac13949":[4,1,0,199,0,0],
 "dd/d00/command__deck__list__other__user_8proto.html":[4,2,0,8,0,0,0,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "dd/d39/classOverlapLayout.html#ad72d9289f0e335fc6188bbda0ce7346b":[4,1,0,635,4],
 "dd/d39/classOverlapLayout.html#adc77402cabe9f675c50b7b6b7b71d064":[4,1,0,635,7],
 "dd/d39/classOverlapLayout.html#ae0b0c291863ae1bffc39106224c06202":[4,1,0,635,3],
-"dd/d39/classOverlapLayout.html#aeabd9848d95ef089934adbfe43352ab7":[4,1,0,635,0],
-"dd/d39/classOverlapLayout.html#aed341accbb95a0f2dec24d886f4653a9":[4,1,0,635,6],
-"dd/d39/classOverlapLayout.html#af39ee124a1a18ab1ecbff97ff4388160":[4,1,0,635,2]
+"dd/d39/classOverlapLayout.html#aeabd9848d95ef089934adbfe43352ab7":[4,1,0,635,0]
 };

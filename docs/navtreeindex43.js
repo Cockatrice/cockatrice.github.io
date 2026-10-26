@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"d8/d01/structCommand__UpdateAdminNotes_1_1ModeratorCommand.html":[4,1,0,262,0],
+"d8/d01/structCommand__UpdateAdminNotes_1_1ModeratorCommand.html#a4b69fc07ce584b8dbe13276d50b89f38":[4,1,0,262,0,0],
 "d8/d02/group__ConnectionDialogs.html":[3,1,0,0,0,2],
 "d8/d02/group__ConnectionDialogs.html":[3,1,0,9,0,2],
 "d8/d02/group__ConnectionDialogs.html":[3,5,1,1,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "d8/d3b/classPublicDeckPreviewWidget.html#ab931da10d36ea153e83373cb93c01a89":[4,1,0,693,5],
 "d8/d3b/classPublicDeckPreviewWidget.html#acacb001ebce5da42b2b1bd880a241556":[4,1,0,693,19],
 "d8/d3b/classPublicDeckPreviewWidget.html#aeac6da39f2fd77f4de21f97bedc7cc94":[4,1,0,693,12],
-"d8/d3b/classPublicDeckPreviewWidget.html#aeeffc070969e81ac29c97f484c5ec214":[4,1,0,693,15],
-"d8/d3d/classPlayerReference.html":[4,1,0,673],
-"d8/d3d/classPlayerReference.html#a03615d2d376d67b8ff19d81f1f74f8a8":[4,1,0,673,7]
+"d8/d3b/classPublicDeckPreviewWidget.html#aeeffc070969e81ac29c97f484c5ec214":[4,1,0,693,15]
 };

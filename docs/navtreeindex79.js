@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"dd/de9/classDrawProbabilityWidget.html#a626f7ef02db7edc22182767222d2e3d2":[4,1,0,387,6],
+"dd/de9/classDrawProbabilityWidget.html#a6e421b6145571e11dcd72f1948fbb1a2":[4,1,0,387,5],
 "dd/de9/classDrawProbabilityWidget.html#a7460908a124ecdc6c6543014bc59b8c4":[4,1,0,387,10],
 "dd/de9/classDrawProbabilityWidget.html#a802eec8115cd2fd6cee6da688622c530":[4,1,0,387,12],
 "dd/de9/classDrawProbabilityWidget.html#ab189c77586aa17e2d41a0d22baa374a4":[4,1,0,387,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "dd/dfd/structpeg_1_1FindLiteralToken.html#af3686d1eb11dbad3bfd1c5101e86eab6":[4,0,0,28,46,2],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#af3686d1eb11dbad3bfd1c5101e86eab6":[4,1,0,5,45,2],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#af814eac9661774cba0e861b166858a0d":[4,0,0,28,46,23],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#af814eac9661774cba0e861b166858a0d":[4,1,0,5,45,23],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#aff8c5b50652c1096d0f5272454e6933e":[4,0,0,28,46,21],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#aff8c5b50652c1096d0f5272454e6933e":[4,1,0,5,45,21]
+"dd/dfd/structpeg_1_1FindLiteralToken.html#af814eac9661774cba0e861b166858a0d":[4,1,0,5,45,23]
 };

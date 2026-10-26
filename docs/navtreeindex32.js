@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"d5/dff/classQxtMailMessage.html#a0dcd0983392014987d2e03b611e5e64b":[4,1,0,705,17],
 "d5/dff/classQxtMailMessage.html#a22c670448ac0c633df34bd16ba248b90":[4,1,0,705,1],
 "d5/dff/classQxtMailMessage.html#a2d601a3a8c4dab60abdcee06e8e02772":[4,1,0,705,7],
 "d5/dff/classQxtMailMessage.html#a2f7b3179bdf8ca3e209e3ab2008d7151":[4,1,0,705,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "d6/d1c/classpeg_1_1PrioritizedChoice.html#a260fb49579834fc71f4f36a182c12b01":[4,0,0,28,19,5],
 "d6/d1c/classpeg_1_1PrioritizedChoice.html#a260fb49579834fc71f4f36a182c12b01":[4,1,0,5,18,5],
 "d6/d1c/classpeg_1_1PrioritizedChoice.html#a2a6555692c3bf83f6ba81e1fc587830e":[4,0,0,28,19,4],
-"d6/d1c/classpeg_1_1PrioritizedChoice.html#a2a6555692c3bf83f6ba81e1fc587830e":[4,1,0,5,18,4],
-"d6/d1c/classpeg_1_1PrioritizedChoice.html#a4b58f8375b859b7bf40cd1d9bb43d697":[4,0,0,28,19,3]
+"d6/d1c/classpeg_1_1PrioritizedChoice.html#a2a6555692c3bf83f6ba81e1fc587830e":[4,1,0,5,18,4]
 };

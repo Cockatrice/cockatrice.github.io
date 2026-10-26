@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"db/d72/classQxtHmac.html#a68e35bcdcd26eba1925b0e2dd2bc0c65":[4,1,0,701,1],
+"db/d72/classQxtHmac.html#a7af4e2a71677ca523c9abf03c0f11d78":[4,1,0,701,2],
 "db/d72/classQxtHmac.html#a856980c267db2933eab4d2da946fd18b":[4,1,0,701,4],
 "db/d72/classQxtHmac.html#a896826e3d3eb125a8c849d0d96e2f0ce":[4,1,0,701,3],
 "db/d72/classQxtHmac.html#a8f813f0d0eabfc24390d1aeb9a428abf":[4,1,0,701,7],
@@ -56,9 +58,9 @@ var NAVTREEINDEX64 =
 "db/d90/structCardToMove.html#aa06b88de264c1f2dd4144535d46907b6":[4,1,0,130,1],
 "db/d90/structCardToMove.html#ac778b7d0cf5777ab9adf8b13ccf0ff95":[4,1,0,130,2],
 "db/d91/importing_decks.html":[0,0,1],
-"db/d91/importing_decks.html#from-an-online-service-1":[0,0,1,1,2],
-"db/d91/importing_decks.html#from-clipboard-1":[0,0,1,1,1],
-"db/d91/importing_decks.html#local-file-storage-1":[0,0,1,1,0],
+"db/d91/importing_decks.html#from-an-online-service":[0,0,1,1,2],
+"db/d91/importing_decks.html#from-clipboard":[0,0,1,1,1],
+"db/d91/importing_decks.html#local-file-storage":[0,0,1,1,0],
 "db/d91/importing_decks.html#the-deck-editor-tab-1":[0,0,1,1],
 "db/d91/importing_decks.html#where-to-import":[0,0,1,0],
 "db/d95/tab__logs_8h.html":[3,1,0,1,1,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "db/daa/classBarWidget.html#a3bb93777543f5464091057063ecc94e6":[4,1,0,66,5],
 "db/daa/classBarWidget.html#ab54c24990268eb617e7fb5df8205d35a":[4,1,0,66,0],
 "db/daa/classBarWidget.html#ad1f5caf3a2b1cb30f2d957a20dff70f8":[4,1,0,66,4],
-"db/daa/classBarWidget.html#ae4536c2fac7c3cc275e48f4fae6b1435":[4,1,0,66,3],
-"db/daa/classBarWidget.html#aeededd3e517b09774c1ef5754c1017b8":[4,1,0,66,1],
-"db/daa/classBarWidget.html#af8675c6aed6ad3d8e446f001fe1b1a89":[4,1,0,66,2]
+"db/daa/classBarWidget.html#ae4536c2fac7c3cc275e48f4fae6b1435":[4,1,0,66,3]
 };

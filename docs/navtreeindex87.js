@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"df/d2a/classArrowItem.html#a4551fc0a6eed09776958f4e53d8f7684":[4,1,0,51,15],
+"df/d2a/classArrowItem.html#a488014fa5fe4e29acc42738cc729f5fc":[4,1,0,51,18],
 "df/d2a/classArrowItem.html#a48b8da0fd8d53de17ad8b03310119985":[4,1,0,51,9],
 "df/d2a/classArrowItem.html#a48fdf746dd599013c3f48add5eca0c48":[4,1,0,51,22],
 "df/d2a/classArrowItem.html#a50e841d5a26b06441e4fddc110d98c2c":[4,1,0,51,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "df/d4e/classExactCard.html#adea1e8252a95ccfbd7554fecdb040a24":[3,2,2,0,2],
 "df/d4e/classExactCard.html#af339c5cc5d894e51d6d078f10355f1ec":[3,2,2,0,11],
 "df/d4e/classExactCard.html#af46a7ac0b8bf0e9a49727bfdb617730b":[3,2,2,0,0],
-"df/d4e/classExactCard.html#afcc79d97461c45bb10dbceab00f5d57a":[3,2,2,0,8],
-"df/d51/welcome__page_8h.html":[4,2,0,0,1,5,6,7,0,11],
-"df/d51/welcome__page_8h_source.html":[4,2,0,0,1,5,6,7,0,11]
+"df/d4e/classExactCard.html#afcc79d97461c45bb10dbceab00f5d57a":[3,2,2,0,8]
 };

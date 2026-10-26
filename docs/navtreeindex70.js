@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"dc/d80/classTabReport.html#a2e3018a3ff719d4b0d4865b78faa9b18":[4,1,0,926,37],
+"dc/d80/classTabReport.html#a2f1a4351a22284c964d320818752067a":[4,1,0,926,2],
 "dc/d80/classTabReport.html#a2ffd0d56b20680f1aa734643d343d642":[4,1,0,926,33],
 "dc/d80/classTabReport.html#a306952dc3f6afb6b8c2973d8002ba2ef":[4,1,0,926,4],
 "dc/d80/classTabReport.html#a30b006064e2c6be5a147791144276a59":[4,1,0,926,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "dc/d9b/visual__deck__storage__sort__filter__proxy__model_8cpp.html":[4,2,0,0,1,5,6,18,11],
 "dc/d9b/visual__deck__storage__sort__filter__proxy__model_8cpp.html#a6fdc05c3f85c2500ae59d76a2bc8cf22":[4,2,0,0,1,5,6,18,11,0],
 "dc/d9f/carddatabase__test_8cpp.html":[4,2,0,14,1,0],
-"dc/d9f/carddatabase__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,1,0,0],
-"dc/da1/response__deck__download_8proto.html":[4,2,0,8,0,0,0,143],
-"dc/da1/response__deck__download_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,143,2]
+"dc/d9f/carddatabase__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,1,0,0]
 };

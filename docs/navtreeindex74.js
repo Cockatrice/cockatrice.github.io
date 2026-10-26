@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"dd/d39/classOverlapLayout.html#aed341accbb95a0f2dec24d886f4653a9":[4,1,0,635,6],
+"dd/d39/classOverlapLayout.html#af39ee124a1a18ab1ecbff97ff4388160":[4,1,0,635,2],
 "dd/d39/classOverlapLayout.html#afe65a33e4cc2e1ba332ddd04c91599f0":[4,1,0,635,13],
 "dd/d3b/game__meta__info_8cpp.html":[4,2,0,0,1,3,11],
 "dd/d3c/oracle__importer__benchmark__test_8cpp.html":[4,2,0,14,6,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "dd/d67/classWndSets.html#a7e03713d0dd1505ea621adb8522d4691":[4,1,0,1002,40],
 "dd/d67/classWndSets.html#a808f1eb09e731dda33ef284cf47108f0":[4,1,0,1002,38],
 "dd/d67/classWndSets.html#a822ac2a1acd2bb60fff7f69982ba31e1":[4,1,0,1002,39],
-"dd/d67/classWndSets.html#a88b27c5d02b32d8295574c3115c6d86d":[4,1,0,1002,14],
-"dd/d67/classWndSets.html#a8c5725883929835208459939cdb764e8":[4,1,0,1002,30],
-"dd/d67/classWndSets.html#a94450a18f1e45470b548408e55a43c33":[4,1,0,1002,22]
+"dd/d67/classWndSets.html#a88b27c5d02b32d8295574c3115c6d86d":[4,1,0,1002,14]
 };

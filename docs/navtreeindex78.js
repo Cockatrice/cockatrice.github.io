@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"dd/dd2/classCardInfo.html#ae1fcc433f28444f91b92c2668c944c4b":[3,2,8,29],
+"dd/dd2/classCardInfo.html#ae3038736850ab030b20f81bf1426a19b":[3,2,8,45],
 "dd/dd2/classCardInfo.html#ae4d332485255b973e67e25b2b6e47a8a":[3,2,8,11],
 "dd/dd2/classCardInfo.html#ae5eb6091199db1f8dab7f27bee144924":[3,2,8,48],
 "dd/dd2/classCardInfo.html#ae7c99d0abbc0a191ea764822a0e3ecd5":[3,2,8,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "dd/de9/classDrawProbabilityWidget.html#a48d7705faf0d6cfc4b0500b630adcfc3":[4,1,0,387,11],
 "dd/de9/classDrawProbabilityWidget.html#a4afd46ccb95ea614863ff9d51500ffb4":[4,1,0,387,14],
 "dd/de9/classDrawProbabilityWidget.html#a60da39b426b335ce5a9cff84ecc8f802":[4,1,0,387,21],
-"dd/de9/classDrawProbabilityWidget.html#a60e0c30a668616ce6215f24df79dcd07":[4,1,0,387,8],
-"dd/de9/classDrawProbabilityWidget.html#a626f7ef02db7edc22182767222d2e3d2":[4,1,0,387,6],
-"dd/de9/classDrawProbabilityWidget.html#a6e421b6145571e11dcd72f1948fbb1a2":[4,1,0,387,5]
+"dd/de9/classDrawProbabilityWidget.html#a60e0c30a668616ce6215f24df79dcd07":[4,1,0,387,8]
 };

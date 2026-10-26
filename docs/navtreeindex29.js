@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"d5/d88/classSettingsCache.html#a8eefa090abbb38a1e27b7dee08ce5ceb":[4,1,0,863,52],
 "d5/d88/classSettingsCache.html#a8f3bc789b749436d361e9bf1b2f8a0ea":[4,1,0,863,65],
 "d5/d88/classSettingsCache.html#a9203086f195726592cc2f1ebabb97a1f":[4,1,0,863,14],
 "d5/d88/classSettingsCache.html#a935b807e1ff0f7c0f30edc75cec2fa22":[4,1,0,863,84],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "d5/da7/classTabAccount.html#af9f2b2f47ca3bb01313b34f5688f581f":[4,1,0,904,12],
 "d5/dab/visual__deck__storage__sort__widget_8h.html":[3,1,0,5,1,6],
 "d5/dab/visual__deck__storage__sort__widget_8h.html":[3,3,2,0,0,1,6],
-"d5/dac/classPlaymatSettingsDialog.html":[4,1,0,679],
-"d5/dac/classPlaymatSettingsDialog.html#a01707a40b93f9191d0dbac1a3b2760d0":[4,1,0,679,25]
+"d5/dac/classPlaymatSettingsDialog.html":[4,1,0,679]
 };

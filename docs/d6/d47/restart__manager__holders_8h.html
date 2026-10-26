@@ -138,20 +138,22 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a69f5cee162ac1f57a501a54e8be7d030" id="r_a69f5cee162ac1f57a501a54e8be7d030"><td class="memItemLeft">std::vector&lt; std::wstring &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a69f5cee162ac1f57a501a54e8be7d030">collectProbeFiles</a> (const std::wstring &amp;installDir)</td></tr>
-<tr class="memdesc:a69f5cee162ac1f57a501a54e8be7d030"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists the files a failed purge can be holding up, as full paths.  <br /></td></tr>
+<tr class="memitem:a8ba4c589b751eb643c95f3ec56b7005c" id="r_a8ba4c589b751eb643c95f3ec56b7005c"><td class="memItemLeft">std::vector&lt; std::wstring &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a8ba4c589b751eb643c95f3ec56b7005c">collectPayloadFiles</a> (const std::wstring &amp;installDir)</td></tr>
+<tr class="memdesc:a8ba4c589b751eb643c95f3ec56b7005c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists the payload files, as full paths.  <br /></td></tr>
 <tr class="memitem:a90874031ee8552558a49c6dec722e608" id="r_a90874031ee8552558a49c6dec722e608"><td class="memItemLeft">unsigned long&#160;</td><td class="memItemRight"><a class="el" href="#a90874031ee8552558a49c6dec722e608">findProcessesUsingFiles</a> (const std::vector&lt; std::wstring &gt; &amp;files, std::vector&lt; <a class="el" href="../../d3/d5a/structHolder.html">Holder</a> &gt; &amp;holders)</td></tr>
 <tr class="memdesc:a90874031ee8552558a49c6dec722e608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Names the applications and services that have one of <code class="param">files</code> open or mapped.  <br /></td></tr>
+<tr class="memitem:a71ba0f6b00c611d9531a220949e8d8de" id="r_a71ba0f6b00c611d9531a220949e8d8de"><td class="memItemLeft">std::vector&lt; <a class="el" href="../../d3/d5a/structHolder.html">Holder</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a71ba0f6b00c611d9531a220949e8d8de">findProcessesRunningFrom</a> (const std::wstring &amp;installDir)</td></tr>
+<tr class="memdesc:a71ba0f6b00c611d9531a220949e8d8de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists every process whose image lives in <code class="param">installDir</code>, whether or not it has a payload file open.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a69f5cee162ac1f57a501a54e8be7d030" name="a69f5cee162ac1f57a501a54e8be7d030"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69f5cee162ac1f57a501a54e8be7d030">&#9670;&#160;</a></span>collectProbeFiles()</h2>
+<a id="a8ba4c589b751eb643c95f3ec56b7005c" name="a8ba4c589b751eb643c95f3ec56b7005c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ba4c589b751eb643c95f3ec56b7005c">&#9670;&#160;</a></span>collectPayloadFiles()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; std::wstring &gt; collectProbeFiles </td>
+          <td class="memname">std::vector&lt; std::wstring &gt; collectPayloadFiles </td>
           <td>(</td>
           <td class="paramtype">const std::wstring &amp;</td>          <td class="paramname"><span class="paramname"><em>installDir</em></span></td><td>)</td>
           <td></td>
@@ -159,18 +161,56 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Lists the files a failed purge can be holding up, as full paths. </p>
-<p>Everything directly in <code class="param">installDir</code> plus everything below its Plugins directory: those are the two things the purge removes, so they are the two sets of files a holder can be holding. Restart Manager refuses a directory with ERROR_ACCESS_DENIED, which is why the probe registers files and this has to name them first.</p>
-<p>Missing or unreadable directories are skipped rather than reported, and the list is capped: this runs on the abort path and must not walk a tree of downloaded pictures. </p>
+<p>Lists the payload files, as full paths. </p>
+<p>The set is what the installer replaces and the purge removes: the three executables, qt.conf, every top-level DLL and everything below Plugins. A document, a log or a screenshot the user happens to have open in the install directory is not part of it, so it cannot be mistaken for a running instance and block an upgrade.</p>
+<p>Restart Manager refuses a directory with ERROR_ACCESS_DENIED, which is why the probe registers files and this has to name them first. Missing files and unreadable directories are skipped rather than reported, and the list is capped: this runs before the first page and on the abort path, and must not walk a tree of downloaded pictures. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d47/restart__manager__holders_8h_a69f5cee162ac1f57a501a54e8be7d030_cgraph.svg" width="143" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d47/restart__manager__holders_8h_a8ba4c589b751eb643c95f3ec56b7005c_cgraph.svg" width="158" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d47/restart__manager__holders_8h_a69f5cee162ac1f57a501a54e8be7d030_icgraph.svg" width="246" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d47/restart__manager__holders_8h_a8ba4c589b751eb643c95f3ec56b7005c_icgraph.svg" width="260" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a71ba0f6b00c611d9531a220949e8d8de" name="a71ba0f6b00c611d9531a220949e8d8de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71ba0f6b00c611d9531a220949e8d8de">&#9670;&#160;</a></span>findProcessesRunningFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="../../d3/d5a/structHolder.html">Holder</a> &gt; findProcessesRunningFrom </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;</td>          <td class="paramname"><span class="paramname"><em>installDir</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lists every process whose image lives in <code class="param">installDir</code>, whether or not it has a payload file open. </p>
+<p>Restart Manager answers the question "who has this file open", and a running instance does not necessarily have one open: its own image and the modules it loaded are mapped into it, not opened by it, and RmGetList does not reliably report a mapping. That is the state the failed updates this probe exists for were in - every DLL still on disk, an instance running from the directory, and "nothing is holding them any more" as the answer - so an answer built on file handles alone cannot be the guard's authority.</p>
+<p>Reading the image path needs PROCESS_QUERY_LIMITED_INFORMATION and QueryFullProcessImageNameW, neither of which depends on the bitness of either process, so a 64-bit instance is named from this 32-bit stub. The comparison is on the directory, not on an image name, so a process that merely shares a name (an Oracle database server next to a Cockatrice install) is never named.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">installDir</td><td>the directory being replaced, as a full path. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>one entry per process running from it, in snapshot order, without the probe itself; empty when the directory is empty or no process runs from it. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d47/restart__manager__holders_8h_a71ba0f6b00c611d9531a220949e8d8de_cgraph.svg" width="208" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d47/restart__manager__holders_8h_a71ba0f6b00c611d9531a220949e8d8de_icgraph.svg" width="311" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

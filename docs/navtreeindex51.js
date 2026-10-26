@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"d9/d78/string__limits_8h.html#a140b6d464e4f764620f8e7c06eb31b66":[4,2,0,11,0,0,24,2],
+"d9/d78/string__limits_8h.html#a19776e9ad56df15c40feb555a4725dd2":[4,2,0,11,0,0,24,5],
 "d9/d78/string__limits_8h.html#a6bfa46452502e722c45c8025d4995e66":[4,2,0,11,0,0,24,3],
 "d9/d78/string__limits_8h.html#a9aad8b3136a5069bc9caabaa033ab83e":[4,2,0,11,0,0,24,6],
 "d9/d78/string__limits_8h.html#aa22de6ca596fe8cc27d6d22cd7b139cc":[4,2,0,11,0,0,24,1],
@@ -133,16 +135,16 @@ var NAVTREEINDEX51 =
 "d9/d98/classCounterState.html#ae75356dde7f215217cb13851611ceef6":[4,1,0,295,8],
 "d9/d99/namespaceSubtypeTally.html":[4,0,0,36],
 "d9/d99/namespaceSubtypeTally.html#a80953f8e6a0dfc0dc98d0d016ccb4f8c":[4,0,0,36,0],
-"d9/d9b/beta_release.html":[0,0,4],
 "d9/d9b/beta_release.html":[0,0,7,8],
-"d9/d9b/beta_release.html#giving-feedback":[0,0,4,3],
+"d9/d9b/beta_release.html":[0,0,4],
 "d9/d9b/beta_release.html#giving-feedback":[0,0,7,8,3],
-"d9/d9b/beta_release.html#switching-back-to-stable":[0,0,4,2],
+"d9/d9b/beta_release.html#giving-feedback":[0,0,4,3],
 "d9/d9b/beta_release.html#switching-back-to-stable":[0,0,7,8,2],
-"d9/d9b/beta_release.html#switching-to-the-beta":[0,0,4,1],
+"d9/d9b/beta_release.html#switching-back-to-stable":[0,0,4,2],
 "d9/d9b/beta_release.html#switching-to-the-beta":[0,0,7,8,1],
-"d9/d9b/beta_release.html#what-to-expect-from-the-beta":[0,0,4,0],
+"d9/d9b/beta_release.html#switching-to-the-beta":[0,0,4,1],
 "d9/d9b/beta_release.html#what-to-expect-from-the-beta":[0,0,7,8,0],
+"d9/d9b/beta_release.html#what-to-expect-from-the-beta":[0,0,4,0],
 "d9/d9c/mana__curve__config_8cpp.html":[4,2,0,0,1,5,6,1,0,2,2],
 "d9/d9c/structUnZip_1_1ZipEntry.html":[4,1,0,948,0],
 "d9/d9c/structUnZip_1_1ZipEntry.html#a0f8f9aada2200f80ea573db3dd2b19f8":[4,1,0,948,0,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "d9/dad/classINetworkSettingsProvider.html#a04f72fa74cf41a8591e0fc784d15a224":[4,1,0,538,4],
 "d9/dad/classINetworkSettingsProvider.html#a16a74c66d2012e13764ac930f5de8873":[4,1,0,538,2],
 "d9/dad/classINetworkSettingsProvider.html#a4cd0bb8a7d0512702d0f461485141142":[4,1,0,538,0],
-"d9/dad/classINetworkSettingsProvider.html#a4e8567a1ddef64c655ea0a4f04194a9c":[4,1,0,538,5],
-"d9/dad/classINetworkSettingsProvider.html#a8d46f06b9084816fa88dbd0ba51bc3ca":[4,1,0,538,3],
-"d9/dad/classINetworkSettingsProvider.html#a90f033c8e6f4c84833e3a46d5643e126":[4,1,0,538,1]
+"d9/dad/classINetworkSettingsProvider.html#a4e8567a1ddef64c655ea0a4f04194a9c":[4,1,0,538,5]
 };

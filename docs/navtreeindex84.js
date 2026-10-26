@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"de/d9d/peglib_8h.html#a6c4f489b6eb4390ac2e789c2b35519ef":[4,2,0,11,0,0,17,118],
+"de/d9d/peglib_8h.html#a6d8b4e41c48462dc27617cc252a72f4a":[4,2,0,11,0,0,17,169],
 "de/d9d/peglib_8h.html#a6d9484d1d2d5c0e08812caab3c3d3add":[4,2,0,11,0,0,17,159],
 "de/d9d/peglib_8h.html#a6db2221c5d5f29c969c7aaf9af54a025":[4,2,0,11,0,0,17,155],
 "de/d9d/peglib_8h.html#a72968c5941c46c2d589bd0e5e90373bc":[4,2,0,11,0,0,17,180],
@@ -247,7 +249,5 @@ var NAVTREEINDEX84 =
 "de/dba/classRNG__Abstract.html#a33135e7af3865f772b3ed5528da88b6f":[4,1,0,776,1],
 "de/dba/classRNG__Abstract.html#aa06011945373c4bfe8b7914f479f68c4":[4,1,0,776,3],
 "de/dba/classRNG__Abstract.html#ad4e5a284460861357acc3c5f83afa814":[4,1,0,776,0],
-"de/dba/classRNG__Abstract.html#ae178b12153e702f8250c343636a2db37":[4,1,0,776,2],
-"de/dbb/structCardUpdateProgress.html":[4,1,0,131],
-"de/dbb/structCardUpdateProgress.html#a7e4672c762a8cbd40acb81895a4c4bd0":[4,1,0,131,1]
+"de/dba/classRNG__Abstract.html#ae178b12153e702f8250c343636a2db37":[4,1,0,776,2]
 };

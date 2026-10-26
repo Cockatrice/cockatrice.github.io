@@ -444,7 +444,7 @@ var searchData=
   ['collectcustomdatabasepaths_441',['collectCustomDatabasePaths',['../d2/d1b/classCardDatabaseLoader.html#aa1b7a8668bc802a93f63b275305b2988',1,'CardDatabaseLoader']]],
   ['collectforeigndata_442',['collectForeignData',['../db/d70/classOracleImporter.html#ae50a902231416c696121f62c286fcafb',1,'OracleImporter']]],
   ['collectinstalledatriskpaths_443',['collectInstalledAtRiskPaths',['../d7/d59/classAtRiskDataWarning.html#ac9bb28a47b41e11babbf76d6c1e136d4',1,'AtRiskDataWarning']]],
-  ['collectprobefiles_444',['collectProbeFiles',['../d2/d78/restart__manager__holders_8cpp.html#a69f5cee162ac1f57a501a54e8be7d030',1,'collectProbeFiles(const std::wstring &amp;installDir):&#160;restart_manager_holders.cpp'],['../d6/d47/restart__manager__holders_8h.html#a69f5cee162ac1f57a501a54e8be7d030',1,'collectProbeFiles(const std::wstring &amp;installDir):&#160;restart_manager_holders.cpp']]],
+  ['collectpayloadfiles_444',['collectPayloadFiles',['../d2/d78/restart__manager__holders_8cpp.html#a8ba4c589b751eb643c95f3ec56b7005c',1,'collectPayloadFiles(const std::wstring &amp;installDir):&#160;restart_manager_holders.cpp'],['../d6/d47/restart__manager__holders_8h.html#a8ba4c589b751eb643c95f3ec56b7005c',1,'collectPayloadFiles(const std::wstring &amp;installDir):&#160;restart_manager_holders.cpp']]],
   ['collectwidgets_445',['collectWidgets',['../d3/d80/abstract__settings__page_8cpp.html#a13eeff81de8e6f27cb5efd425b6558e7',1,'abstract_settings_page.cpp']]],
   ['color_446',['color',['../d3/d14/classCardCounterSettings.html#ac02293f9ff3ecc0806d846308a57da17',1,'CardCounterSettings']]],
   ['colora_447',['colorA',['../dc/d6c/classBannerShaderConfig.html#a094f6fd9eab95e6a92e9e56e4d278eda',1,'BannerShaderConfig']]],

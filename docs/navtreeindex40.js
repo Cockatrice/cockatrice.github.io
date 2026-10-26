@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"d7/d67/classUserContextMenu.html#ab4ff790435e581d6dfaa2139c6d1c57f":[4,1,0,957,16],
+"d7/d67/classUserContextMenu.html#ab6f23cea89375a93e0b893786de58615":[4,1,0,957,33],
 "d7/d67/classUserContextMenu.html#ab76ca8653fd5fc5ad77fb7190ed191e5":[4,1,0,957,32],
 "d7/d67/classUserContextMenu.html#ab9a208195b3b6834065519d9dc925506":[4,1,0,957,4],
 "d7/d67/classUserContextMenu.html#abbae7745f6352dcaa3ff3269be3b8531":[4,1,0,957,68],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "d7/d96/decompress_8cpp.html":[4,2,0,12,0,0,0],
 "d7/d97/tab__deck__storage_8cpp.html":[4,2,0,0,1,5,6,14,15],
 "d7/d98/classServerLogger.html":[4,1,0,847],
-"d7/d98/classServerLogger.html#a1a5161c62dd5446f96ce9de4870c4274":[4,1,0,847,12],
-"d7/d98/classServerLogger.html#a1d9e94d936bd24c53daf90ba16ac24be":[4,1,0,847,1],
-"d7/d98/classServerLogger.html#a2596f72a8fc3f41eca9cb38958bbe99b":[4,1,0,847,11]
+"d7/d98/classServerLogger.html#a1a5161c62dd5446f96ce9de4870c4274":[4,1,0,847,12]
 };

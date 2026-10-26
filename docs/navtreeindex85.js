@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"de/dbb/structCardUpdateProgress.html":[4,1,0,131],
+"de/dbb/structCardUpdateProgress.html#a7e4672c762a8cbd40acb81895a4c4bd0":[4,1,0,131,1],
 "de/dbb/structCardUpdateProgress.html#a80824097e245151d969c03adff11d3cf":[4,1,0,131,2],
 "de/dbb/structCardUpdateProgress.html#a9fb7c8f476fc24f2586ca78feb06f1ef":[4,1,0,131,3],
 "de/dbb/structCardUpdateProgress.html#acb290d0be54d31207b12652deeafac85":[4,1,0,131,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "de/de9/classDeckLoader.html#a922d279ba6d508b16d58401b67a39f57":[4,1,0,325,12],
 "de/de9/classDeckLoader.html#aa000edddeb93bce35c8ae4b86697b34c":[4,1,0,325,16],
 "de/de9/classDeckLoader.html#aa19219934f8a1ed72682a41ec7208de8":[4,1,0,325,25],
-"de/de9/classDeckLoader.html#aa8609c084ff6861647f91b013d00194b":[4,1,0,325,2],
-"de/de9/classDeckLoader.html#aacb3c46058038253a0d3ab21e62476e0":[4,1,0,325,17],
-"de/de9/classDeckLoader.html#ac56bfcac47c8958d9462914a24408478":[4,1,0,325,15]
+"de/de9/classDeckLoader.html#aa8609c084ff6861647f91b013d00194b":[4,1,0,325,2]
 };

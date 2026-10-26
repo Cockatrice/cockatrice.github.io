@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"dc/dde/classResizablePanel.html#a039d850da3aad05199b3e489d56f150f":[4,1,0,728,23],
+"dc/dde/classResizablePanel.html#a042deb42ba7ef86eb4892f8a3bb61ad4":[4,1,0,728,24],
 "dc/dde/classResizablePanel.html#a081392acd4df1dab4ef390acc88ef330":[4,1,0,728,25],
 "dc/dde/classResizablePanel.html#a1034050e16cc9b7de5c149c42d21aed6":[4,1,0,728,29],
 "dc/dde/classResizablePanel.html#a1259a0aea4df404d71ca246838a37479":[4,1,0,728,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "dc/dfe/structServerInfo__DeckShareItem.html#a4b7414d4736b6bcad0ef2b5bf7397aca":[4,1,0,824,5],
 "dc/dfe/structServerInfo__DeckShareItem.html#a629a9a101670afd640ff742e61c4e972":[4,1,0,824,4],
 "dc/dfe/structServerInfo__DeckShareItem.html#ab1912ad6a6b8ce46e667d4bf9ab53bed":[4,1,0,824,0],
-"dc/dfe/structServerInfo__DeckShareItem.html#ad4440d7253eaa996391bec005b5ce781":[4,1,0,824,2],
-"dc/dfe/structServerInfo__DeckShareItem.html#ae077a20589152e8bdc8de87f0b481596":[4,1,0,824,1],
-"dc/dfe/structServerInfo__DeckShareItem.html#ae4a7c095fa567913969cb17b281ea377":[4,1,0,824,3]
+"dc/dfe/structServerInfo__DeckShareItem.html#ad4440d7253eaa996391bec005b5ce781":[4,1,0,824,2]
 };

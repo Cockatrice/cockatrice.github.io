@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a14351d4b788cde40b2f5aac5015af196":[4,1,0,494,0,18],
+"de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a1bfce6776a60eefd1af1765463e13de9":[4,1,0,494,0,6],
 "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a205e888471827da9811b3a6a8f1ce2e4":[4,1,0,494,0,16],
 "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a256167bfec73ae42456690eed66770f6":[4,1,0,494,0,22],
 "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a262cbbd103d917a6501da43ebc6a1541":[4,1,0,494,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "de/d48/classDlgEditAvatar.html#a9b30221bfbbe54d6a8035bd51d56d06a":[4,1,0,355,3],
 "de/d48/classDlgEditAvatar.html#aa88791e6b8a102f146d2c484efaba861":[4,1,0,355,4],
 "de/d48/classDlgEditAvatar.html#acfe65f11f6f4c798bb4e8aac60d5cdc1":[4,1,0,355,9],
-"de/d48/classDlgEditAvatar.html#ae1b7c6ecdb1fb2623df72a9253b8d0f8":[4,1,0,355,0],
-"de/d48/classDlgEditAvatar.html#ae3e0b26cbb4f36a149ea349501755018":[4,1,0,355,2],
-"de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html":[4,1,0,42]
+"de/d48/classDlgEditAvatar.html#ae1b7c6ecdb1fb2623df72a9253b8d0f8":[4,1,0,355,0]
 };

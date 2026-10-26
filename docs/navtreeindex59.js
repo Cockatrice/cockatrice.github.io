@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"da/dae/structpeg_1_1AstOptimizer.html#acdbfeb0c73cb7c7e1f14619ccacbc8db":[4,1,0,5,59,0],
+"da/daf/classFakeServer.html":[4,1,0,473],
 "da/daf/classFakeServer.html#af4fdcd2deed73e20972f63d00a39d8c9":[4,1,0,473,0],
 "da/db5/classpeg_1_1TokenBoundary.html":[4,0,0,28,30],
 "da/db5/classpeg_1_1TokenBoundary.html":[4,1,0,5,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "da/de2/translation__loader__test_8cpp.html#a333ec18c472b424fcd91b84a07357eeb":[4,2,0,14,35,13],
 "da/de2/translation__loader__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,35,2],
 "da/de2/translation__loader__test_8cpp.html#a3d36169831824993e6cac8923bc75a71":[4,2,0,14,35,15],
-"da/de2/translation__loader__test_8cpp.html#a42c701661211483f3b0e1ca3ada23c02":[4,2,0,14,35,6],
-"da/de2/translation__loader__test_8cpp.html#a486fccdf0672b67165de8c8e5c933075":[4,2,0,14,35,8],
-"da/de2/translation__loader__test_8cpp.html#a49e04ceb7e5040a7055d8289c7e5f494":[4,2,0,14,35,4]
+"da/de2/translation__loader__test_8cpp.html#a42c701661211483f3b0e1ca3ada23c02":[4,2,0,14,35,6]
 };

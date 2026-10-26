@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"d7/d30/classColorIdentityWidget.html#aa890171c8d35393be9d1eccdb93bc5f5":[4,1,0,147,2],
+"d7/d30/classColorIdentityWidget.html#ab4bf52f1b69697d46c305301e890824a":[4,1,0,147,0],
 "d7/d30/classColorIdentityWidget.html#ab641d4700587eecb13436f4251e86f7b":[4,1,0,147,7],
 "d7/d30/classColorIdentityWidget.html#ac38a09804e81578bebc92a2cb85dec7c":[4,1,0,147,5],
 "d7/d31/deck__list__history__manager_8cpp.html":[4,2,0,3,0,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "d7/d67/classUserContextMenu.html#a9fcc5eec7b2321265037eaa094f67c6e":[4,1,0,957,20],
 "d7/d67/classUserContextMenu.html#aa2ba6dd653052b5d18f6d0a5f56a4453":[4,1,0,957,27],
 "d7/d67/classUserContextMenu.html#aa88b930975e206719a2b64e23fc5bad0":[4,1,0,957,3],
-"d7/d67/classUserContextMenu.html#aab0cfabd9542e6763ff2932c580472da":[4,1,0,957,54],
-"d7/d67/classUserContextMenu.html#ab4ff790435e581d6dfaa2139c6d1c57f":[4,1,0,957,16],
-"d7/d67/classUserContextMenu.html#ab6f23cea89375a93e0b893786de58615":[4,1,0,957,33]
+"d7/d67/classUserContextMenu.html#aab0cfabd9542e6763ff2932c580472da":[4,1,0,957,54]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"d4/d8d/classServerProperties.html#af2290883570976ae0e0a3a8b74e2bcbd":[4,1,0,849,0],
 "d4/d8d/classServerProperties.html#af9d5cc007372f01f2347847ff080601f":[4,1,0,849,1],
 "d4/d8d/context__mulligan_8proto.html":[4,2,0,8,0,0,0,73],
 "d4/d8d/context__mulligan_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,73,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "d4/db9/classAbstractCardItem.html#ad176e4c6e1c553dfa1764a732d223791":[4,1,0,10,50],
 "d4/db9/classAbstractCardItem.html#ad8a167428961aa8ed0b526766d024870":[4,1,0,10,32],
 "d4/db9/classAbstractCardItem.html#adf25a32445087deb76c8422a85aa79cc":[4,1,0,10,48],
-"d4/db9/classAbstractCardItem.html#ae36536ddb4ab1aef8110d8c8b541342a":[4,1,0,10,20],
-"d4/db9/classAbstractCardItem.html#ae83a692db002deaab488f663964644a6":[4,1,0,10,36]
+"d4/db9/classAbstractCardItem.html#ae36536ddb4ab1aef8110d8c8b541342a":[4,1,0,10,20]
 };

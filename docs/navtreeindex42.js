@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"d7/dcb/classHandleCommanderBrackets.html#a2369c1729c4fb9fecacc0456ac4d4b69":[4,1,0,518,7],
+"d7/dcb/classHandleCommanderBrackets.html#a3347d78c983b58256d263f6520015ae2":[4,1,0,518,3],
 "d7/dcb/classHandleCommanderBrackets.html#a5d3859c463623214ab0d1d9eaa50bff6":[4,1,0,518,6],
 "d7/dcb/classHandleCommanderBrackets.html#a873d822c4bced01c7ef41d3365ee9f4c":[4,1,0,518,5],
 "d7/dcb/classHandleCommanderBrackets.html#a8a64724fa815a308eb722cd95ceb327d":[4,1,0,518,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "d8/d00/structEvent__SetCounter_1_1GameEvent.html":[4,1,0,464,0],
 "d8/d00/structEvent__SetCounter_1_1GameEvent.html#a9ba77cb2cb0357861a1406cc7b3daedf":[4,1,0,464,0,0],
 "d8/d01/command__report__user__info_8proto.html":[4,2,0,8,0,0,0,55],
-"d8/d01/command__report__user__info_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,55,2],
-"d8/d01/structCommand__UpdateAdminNotes_1_1ModeratorCommand.html":[4,1,0,262,0],
-"d8/d01/structCommand__UpdateAdminNotes_1_1ModeratorCommand.html#a4b69fc07ce584b8dbe13276d50b89f38":[4,1,0,262,0,0]
+"d8/d01/command__report__user__info_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,55,2]
 };

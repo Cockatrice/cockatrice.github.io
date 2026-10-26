@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"d8/db1/phases__toolbar_8h.html":[3,1,0,7,1],
+"d8/db1/phases__toolbar_8h.html":[3,4,0,1,1],
 "d8/db1/phases__toolbar_8h.html":[3,4,0,4,8],
 "d8/db3/command__undo__draw_8proto.html":[4,2,0,8,0,0,0,67],
 "d8/db3/command__undo__draw_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,67,2],
@@ -7,8 +9,8 @@ var NAVTREEINDEX47 =
 "d8/db3/servatrice_8h_source.html":[4,2,0,13,1,17],
 "d8/db9/card__info__picture__with__text__overlay__widget_8cpp.html":[4,2,0,0,1,5,6,0,16],
 "d8/db9/group__RemoteDeckStorageWidgets.html":[3,1,0,6],
-"d8/db9/group__RemoteDeckStorageWidgets.html":[3,3,2,1,0],
 "d8/db9/group__RemoteDeckStorageWidgets.html":[3,3,2,2,1],
+"d8/db9/group__RemoteDeckStorageWidgets.html":[3,3,2,1,0],
 "d8/db9/structCommand__ReplaySubmitCode.html":[4,1,0,231],
 "d8/db9/structCommand__ReplaySubmitCode.html#a62b7f78008d37cb8402c6d3598a38a29":[4,1,0,231,1],
 "d8/dba/card__database__model_8h.html":[3,2,4,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "d8/dd8/structEstimateBracketResult.html#a615e232a8ea72af37621b93f86bd8952":[4,1,0,418,1],
 "d8/dd8/structEstimateBracketResult.html#a75d000281623d22a4b176a0711a715ce":[4,1,0,418,5],
 "d8/dd8/structEstimateBracketResult.html#a84859e8d5b74deea2e37ba9d449a9e4d":[4,1,0,418,3],
-"d8/dd8/structEstimateBracketResult.html#a9091efe4921696613a16851d4b571488":[4,1,0,418,0],
-"d8/dd8/structEstimateBracketResult.html#a920721ff28d71bf4e4255c84e8a80367":[4,1,0,418,10],
-"d8/dd8/structEstimateBracketResult.html#a9b1ef52c31076562a1148bf9d896a833":[4,1,0,418,2]
+"d8/dd8/structEstimateBracketResult.html#a9091efe4921696613a16851d4b571488":[4,1,0,418,0]
 };

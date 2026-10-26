@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"d7/d98/classServerLogger.html#a1d9e94d936bd24c53daf90ba16ac24be":[4,1,0,847,1],
+"d7/d98/classServerLogger.html#a2596f72a8fc3f41eca9cb38958bbe99b":[4,1,0,847,11],
 "d7/d98/classServerLogger.html#a2b0529259cfd95cf729cbd01e7bd4b00":[4,1,0,847,8],
 "d7/d98/classServerLogger.html#a3168d99f3e0125161f7da8294e29bd6f":[4,1,0,847,2],
 "d7/d98/classServerLogger.html#a451185a2922d17d4e04eae25f651c370":[4,1,0,847,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "d7/dc9/namespaceUserListRoles.html#a208d64623e00f247f41a49b7ee6c7288":[4,0,0,40,1],
 "d7/dc9/namespaceUserListRoles.html#ad8ce129214f65f5ec323fc8e83c3e596":[4,0,0,40,0],
 "d7/dcb/classHandleCommanderBrackets.html":[4,1,0,518],
-"d7/dcb/classHandleCommanderBrackets.html#a038385f3a9c9cbf9f07eb0fa280f8a84":[4,1,0,518,2],
-"d7/dcb/classHandleCommanderBrackets.html#a2369c1729c4fb9fecacc0456ac4d4b69":[4,1,0,518,7],
-"d7/dcb/classHandleCommanderBrackets.html#a3347d78c983b58256d263f6520015ae2":[4,1,0,518,3]
+"d7/dcb/classHandleCommanderBrackets.html#a038385f3a9c9cbf9f07eb0fa280f8a84":[4,1,0,518,2]
 };

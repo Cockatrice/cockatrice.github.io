@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"d3/d93/classVisualDeckStorageSettings.html#aae165c76404a48fba42580baed7d08cb":[4,1,0,992,30],
 "d3/d93/classVisualDeckStorageSettings.html#ab0112a66dcf5fa064c96e10c78e0c85b":[4,1,0,992,36],
 "d3/d93/classVisualDeckStorageSettings.html#ac5d2df7055a7f65db0e46075fbeca278":[4,1,0,992,14],
 "d3/d93/classVisualDeckStorageSettings.html#ad02baf70d5d990ba7c1c8e9e69825bff":[4,1,0,992,49],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "d3/dc1/classMessageSettings.html#aa9733545c935a109f990a75a67341391":[4,1,0,611,5],
 "d3/dc1/classMessageSettings.html#ab4df3613fc6c3a5ba68c3e3db8b7817d":[4,1,0,611,2],
 "d3/dc1/classMessageSettings.html#ae2f1a23d9684192661188d3e14d4859a":[4,1,0,611,0],
-"d3/dc2/response__deck__list_8proto.html":[4,2,0,8,0,0,0,144],
-"d3/dc2/response__deck__list_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,144,2]
+"d3/dc2/response__deck__list_8proto.html":[4,2,0,8,0,0,0,144]
 };

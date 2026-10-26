@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"d8/dd8/structEstimateBracketResult.html#a920721ff28d71bf4e4255c84e8a80367":[4,1,0,418,10],
+"d8/dd8/structEstimateBracketResult.html#a9b1ef52c31076562a1148bf9d896a833":[4,1,0,418,2],
 "d8/dd8/structEstimateBracketResult.html#ab7c79b74f2eeabd5c3f9cace192c8841":[4,1,0,418,12],
 "d8/dd8/structEstimateBracketResult.html#ae9ef4351936a9788cb3d46e5e4860001":[4,1,0,418,4],
 "d8/dd8/structEstimateBracketResult.html#aeb0831f16ea1b2f7a4dd6a89af71e666":[4,1,0,418,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "d9/d02/structEvent__RoomSay.html#a00f5c3323a38d232389c0831ac3175c1":[4,1,0,455,3],
 "d9/d02/structEvent__RoomSay.html#a51c308fb560e7fb6c08bbd4c050bc2d8":[4,1,0,455,2],
 "d9/d02/structEvent__RoomSay.html#a699c54b7e58022d25d9905eb4f15ecb9":[4,1,0,455,1],
-"d9/d02/structEvent__RoomSay.html#a699c54b7e58022d25d9905eb4f15ecb9a58584757a80c3b61fc611ec9778ada9c":[4,1,0,455,1,2],
-"d9/d02/structEvent__RoomSay.html#a699c54b7e58022d25d9905eb4f15ecb9ac3d5d43aa1b857ec56bc010e968102b7":[4,1,0,455,1,0],
-"d9/d02/structEvent__RoomSay.html#a699c54b7e58022d25d9905eb4f15ecb9ac5ce79f89ebf7866a5f72ab7e1b2acec":[4,1,0,455,1,1]
+"d9/d02/structEvent__RoomSay.html#a699c54b7e58022d25d9905eb4f15ecb9a58584757a80c3b61fc611ec9778ada9c":[4,1,0,455,1,2]
 };

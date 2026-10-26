@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"db/daa/classBarWidget.html#aeededd3e517b09774c1ef5754c1017b8":[4,1,0,66,1],
+"db/daa/classBarWidget.html#af8675c6aed6ad3d8e446f001fe1b1a89":[4,1,0,66,2],
 "db/dab/command__get__server__stats_8proto.html":[4,2,0,8,0,0,0,30],
 "db/dab/command__get__server__stats_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,30,2],
 "db/dad/classTokenEditModel.html":[4,1,0,945],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "db/de0/classpeg_1_1CharacterClass.html#a80ac1f91648b4a61fdfafdfd43c02daa":[4,1,0,5,24,13],
 "db/de0/classpeg_1_1CharacterClass.html#a817943f9dc9925806ff71f801374ffce":[4,0,0,28,25,5],
 "db/de0/classpeg_1_1CharacterClass.html#a817943f9dc9925806ff71f801374ffce":[4,1,0,5,24,5],
-"db/de0/classpeg_1_1CharacterClass.html#a849ac549490ed324981f5a800371381e":[4,0,0,28,25,10],
-"db/de0/classpeg_1_1CharacterClass.html#a849ac549490ed324981f5a800371381e":[4,1,0,5,24,10],
-"db/de0/classpeg_1_1CharacterClass.html#a9ee13fff4770d19ada03452125f43dfc":[4,0,0,28,25,8]
+"db/de0/classpeg_1_1CharacterClass.html#a849ac549490ed324981f5a800371381e":[4,0,0,28,25,10]
 };
