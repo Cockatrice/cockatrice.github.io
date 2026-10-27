@@ -307,7 +307,7 @@ var searchData=
   ['local_20deck_20storage_304',['Local Deck Storage',['../d9/d44/group__LocalDeckStorage.html',1,'']]],
   ['local_20deck_20storage_20dialogs_305',['Local Deck Storage Dialogs',['../d1/d8d/group__LocalDeckStorageDialogs.html',1,'']]],
   ['local_20deck_20storage_20widgets_306',['Local Deck Storage Widgets',['../d4/d18/group__LocalDeckStorageWidgets.html',1,'']]],
-  ['local_20file_20storage_307',['Local File Storage',['../db/d91/importing_decks.html#local-file-storage',1,'Local File Storage'],['../d0/d51/exporting_decks.html#local-file-storage-1',1,'Local File Storage']]],
+  ['local_20file_20storage_307',['Local File Storage',['../d0/d51/exporting_decks.html#local-file-storage',1,'Local File Storage'],['../db/d91/importing_decks.html#local-file-storage-1',1,'Local File Storage']]],
   ['local_20image_20loading_308',['Local Image Loading',['../d9/d1c/loading_card_pictures.html#local-image-loading',1,'']]],
   ['local_20image_20overrides_309',['Local Image Overrides',['../d9/d1c/loading_card_pictures.html#local-image-overrides',1,'']]],
   ['local_20picture_20folder_310',['Check Your Local Picture Folder',['../d9/d7b/fixing_card_pictures.html#check-your-local-picture-folder',1,'']]],

@@ -499,6 +499,7 @@ var annotated_dup =
     [ "EdhrecTopTagsApiResponse", "d6/d8d/classEdhrecTopTagsApiResponse.html", "d6/d8d/classEdhrecTopTagsApiResponse" ],
     [ "EdhrecTopTagsApiResponseDisplayWidget", "d5/d61/classEdhrecTopTagsApiResponseDisplayWidget.html", "d5/d61/classEdhrecTopTagsApiResponseDisplayWidget" ],
     [ "EmailParser", "dd/d83/classEmailParser.html", "dd/d83/classEmailParser" ],
+    [ "EndHoldersResult", "d9/d20/structEndHoldersResult.html", "d9/d20/structEndHoldersResult" ],
     [ "EstimateBracketResult", "d8/dd8/structEstimateBracketResult.html", "d8/dd8/structEstimateBracketResult" ],
     [ "Event_AddToList", "d2/d2b/structEvent__AddToList.html", "d2/d2b/structEvent__AddToList" ],
     [ "Event_AttachCard", "df/da8/structEvent__AttachCard.html", "df/da8/structEvent__AttachCard" ],

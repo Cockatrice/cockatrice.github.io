@@ -166,6 +166,13 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a05fb9d72c044aa3bb7d187b994704e2f" id="r_a05fb9d72c044aa3bb7d187b994704e2f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a05fb9d72c044aa3bb7d187b994704e2f">closeEvent</a> (QCloseEvent *event) override</td></tr>
 <tr class="memitem:a416ae2140ac1aa9f03a6279316abdcad" id="r_a416ae2140ac1aa9f03a6279316abdcad"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a416ae2140ac1aa9f03a6279316abdcad">changeEvent</a> (QEvent *event) override</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-types" class="groupheader"><a id="pri-types" name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:ae5db1bec047d610fafedcb344cc7c363" id="r_ae5db1bec047d610fafedcb344cc7c363"><td class="memItemLeft">enum class &#160;</td><td class="memItemRight"><a class="el" href="#ae5db1bec047d610fafedcb344cc7c363">ShutdownState</a> { <a class="el" href="#ae5db1bec047d610fafedcb344cc7c363ae599161956d626eda4cb0a5ffb85271c">Idle</a>
+, <a class="el" href="#ae5db1bec047d610fafedcb344cc7c363a473b026d439cfd0a8dd441dac3054104">Confirming</a>
+, <a class="el" href="#ae5db1bec047d610fafedcb344cc7c363a382ab522931673c11e398ead1b7b1678">Accepted</a>
+ }</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a61667a34c3f793441a4c720b71b1bb94" id="r_a61667a34c3f793441a4c720b71b1bb94"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a61667a34c3f793441a4c720b71b1bb94">updateTabMenu</a> (const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QMenu * &gt; &amp;newMenuList)</td></tr>
@@ -275,8 +282,7 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a14fa41c9ff95fe3c688cf68ed06c68c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">status bar widget with live round-trip stats and history graph  <br /></td></tr>
 <tr class="memitem:a0fbb0c99f4abe5c9069b985bb02c4c28" id="r_a0fbb0c99f4abe5c9069b985bb02c4c28"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0fbb0c99f4abe5c9069b985bb02c4c28">bHasActivated</a></td></tr>
 <tr class="memitem:a57440055707fba3aef8ea111eeeb4f2b" id="r_a57440055707fba3aef8ea111eeeb4f2b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a57440055707fba3aef8ea111eeeb4f2b">askedForDbUpdater</a></td></tr>
-<tr class="memitem:a0a83e04b318d8b617a55d4c0a1ff6613" id="r_a0a83e04b318d8b617a55d4c0a1ff6613"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0a83e04b318d8b617a55d4c0a1ff6613">bClosingDown</a> = false</td></tr>
-<tr class="memdesc:a0a83e04b318d8b617a55d4c0a1ff6613"><td class="mdescLeft">&#160;</td><td class="mdescRight">guards <a class="el" href="#a05fb9d72c044aa3bb7d187b994704e2f">closeEvent()</a> against re-entrancy  <br /></td></tr>
+<tr class="memitem:a32f07b4bb35dde72a14f6c437b6552b1" id="r_a32f07b4bb35dde72a14f6c437b6552b1"><td class="memItemLeft"><a class="el" href="#ae5db1bec047d610fafedcb344cc7c363">ShutdownState</a>&#160;</td><td class="memItemRight"><a class="el" href="#a32f07b4bb35dde72a14f6c437b6552b1">shutdownState</a> = <a class="el" href="#ae5db1bec047d610fafedcb344cc7c363ae599161956d626eda4cb0a5ffb85271c">ShutdownState::Idle</a></td></tr>
 <tr class="memitem:a01855793d196362926c6deadd808f108" id="r_a01855793d196362926c6deadd808f108"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a01855793d196362926c6deadd808f108">skipStartupAutoConnect</a> = false</td></tr>
 <tr class="memitem:a916c8cd57418152443a79cc0211ba399" id="r_a916c8cd57418152443a79cc0211ba399"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a916c8cd57418152443a79cc0211ba399">startupAutoConnectAttempted</a> = false</td></tr>
 <tr class="memitem:ae31bc058b89553871409936a0967318e" id="r_ae31bc058b89553871409936a0967318e"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae31bc058b89553871409936a0967318e">firstRunWizardActive</a> = false</td></tr>
@@ -302,6 +308,38 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:adae3999c647b28a89410f884451d54da" id="r_adae3999c647b28a89410f884451d54da"><td class="memItemLeft">static const QString&#160;</td><td class="memItemRight"><a class="el" href="#adae3999c647b28a89410f884451d54da">appName</a> = &quot;Cockatrice&quot;</td></tr>
 <tr class="memitem:a6669ee35e6f5dc518d140d6a5a8729df" id="r_a6669ee35e6f5dc518d140d6a5a8729df"><td class="memItemLeft">static const QStringList&#160;</td><td class="memItemRight"><a class="el" href="#a6669ee35e6f5dc518d140d6a5a8729df">fileNameFilters</a></td></tr>
 </table>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
+<a id="ae5db1bec047d610fafedcb344cc7c363" name="ae5db1bec047d610fafedcb344cc7c363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5db1bec047d610fafedcb344cc7c363">&#9670;&#160;</a></span>ShutdownState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#ae5db1bec047d610fafedcb344cc7c363">MainWindow::ShutdownState</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>How far a shutdown that was asked for has got. A close request that arrives while one is already asking the user something must not be accepted - see <a class="el" href="#a05fb9d72c044aa3bb7d187b994704e2f">closeEvent()</a>. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae5db1bec047d610fafedcb344cc7c363ae599161956d626eda4cb0a5ffb85271c" name="ae5db1bec047d610fafedcb344cc7c363ae599161956d626eda4cb0a5ffb85271c"></a>Idle&#160;</td><td class="fielddoc"><p>no shutdown has been asked for </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae5db1bec047d610fafedcb344cc7c363a473b026d439cfd0a8dd441dac3054104" name="ae5db1bec047d610fafedcb344cc7c363a473b026d439cfd0a8dd441dac3054104"></a>Confirming&#160;</td><td class="fielddoc"><p>asking about a card database update, open games or an unsaved deck </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae5db1bec047d610fafedcb344cc7c363a382ab522931673c11e398ead1b7b1678" name="ae5db1bec047d610fafedcb344cc7c363a382ab522931673c11e398ead1b7b1678"></a>Accepted&#160;</td><td class="fielddoc"><p>the close was accepted and the window is hiding </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a996c5a2b6f77944776856f08ec30858d" name="a996c5a2b6f77944776856f08ec30858d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a996c5a2b6f77944776856f08ec30858d">&#9670;&#160;</a></span>MainWindow()</h2>
@@ -3330,30 +3368,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a0a83e04b318d8b617a55d4c0a1ff6613" name="a0a83e04b318d8b617a55d4c0a1ff6613"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a83e04b318d8b617a55d4c0a1ff6613">&#9670;&#160;</a></span>bClosingDown</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MainWindow::bClosingDown = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>guards <a class="el" href="#a05fb9d72c044aa3bb7d187b994704e2f">closeEvent()</a> against re-entrancy </p>
-
-</div>
-</div>
 <a id="a0fbb0c99f4abe5c9069b985bb02c4c28" name="a0fbb0c99f4abe5c9069b985bb02c4c28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0fbb0c99f4abe5c9069b985bb02c4c28">&#9670;&#160;</a></span>bHasActivated</h2>
 
@@ -3821,6 +3835,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QToolButton* MainWindow::settingsButton = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a32f07b4bb35dde72a14f6c437b6552b1" name="a32f07b4bb35dde72a14f6c437b6552b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32f07b4bb35dde72a14f6c437b6552b1">&#9670;&#160;</a></span>shutdownState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ae5db1bec047d610fafedcb344cc7c363">ShutdownState</a> MainWindow::shutdownState = <a class="el" href="#ae5db1bec047d610fafedcb344cc7c363ae599161956d626eda4cb0a5ffb85271c">ShutdownState::Idle</a></td>
         </tr>
       </table>
   </td>

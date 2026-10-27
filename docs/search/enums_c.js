@@ -7,13 +7,14 @@ var searchData=
   ['sessioneventtype_4',['SessionEventType',['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624',1,'SessionEvent']]],
   ['setscolumns_5',['SetsColumns',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735',1,'SetsModel']]],
   ['settingspage_6',['SettingsPage',['../da/dbe/classSettingsView.html#af4def4eb97317b7ef47567964e073901',1,'SettingsView']]],
-  ['smtperror_7',['SmtpError',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673',1,'QxtSmtp']]],
-  ['smtpstate_8',['SmtpState',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216',1,'QxtSmtpPrivate']]],
-  ['sortoption_9',['SortOption',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f',1,'CardList']]],
-  ['sortorder_10',['SortOrder',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a34c0f4823347abf0d21080564d67916e',1,'VisualDeckStorageSortFilterProxyModel']]],
-  ['source_11',['Source',['../d4/dc8/namespaceHomeTabButtonColor.html#affeaff1dd38134fcce07fddc4b1b127a',1,'HomeTabButtonColor']]],
-  ['startaction_12',['StartAction',['../d5/de4/classServer__GameLifecycleStrategy.html#a63df2a508967c8cd78048c5fea7f2463',1,'Server_GameLifecycleStrategy']]],
-  ['startupcardupdatecheckbehaviorindex_13',['startupCardUpdateCheckBehaviorIndex',['../d5/d3a/general__settings__page_8cpp.html#aabda63228c5ec3c0d54401f86f3c1a96',1,'general_settings_page.cpp']]],
-  ['startuptab_14',['StartupTab',['../d3/d49/tabs__settings_8h.html#ae8387ef97f91e913a72de3e99c7e574e',1,'tabs_settings.h']]],
-  ['state_15',['State',['../d3/d60/classCardDatabaseSetupPage.html#a0c5c64f3ee6c9d591feb4c76a92bbe89',1,'CardDatabaseSetupPage']]]
+  ['shutdownstate_7',['ShutdownState',['../d6/d1a/classMainWindow.html#ae5db1bec047d610fafedcb344cc7c363',1,'MainWindow']]],
+  ['smtperror_8',['SmtpError',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673',1,'QxtSmtp']]],
+  ['smtpstate_9',['SmtpState',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216',1,'QxtSmtpPrivate']]],
+  ['sortoption_10',['SortOption',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f',1,'CardList']]],
+  ['sortorder_11',['SortOrder',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a34c0f4823347abf0d21080564d67916e',1,'VisualDeckStorageSortFilterProxyModel']]],
+  ['source_12',['Source',['../d4/dc8/namespaceHomeTabButtonColor.html#affeaff1dd38134fcce07fddc4b1b127a',1,'HomeTabButtonColor']]],
+  ['startaction_13',['StartAction',['../d5/de4/classServer__GameLifecycleStrategy.html#a63df2a508967c8cd78048c5fea7f2463',1,'Server_GameLifecycleStrategy']]],
+  ['startupcardupdatecheckbehaviorindex_14',['startupCardUpdateCheckBehaviorIndex',['../d5/d3a/general__settings__page_8cpp.html#aabda63228c5ec3c0d54401f86f3c1a96',1,'general_settings_page.cpp']]],
+  ['startuptab_15',['StartupTab',['../d3/d49/tabs__settings_8h.html#ae8387ef97f91e913a72de3e99c7e574e',1,'tabs_settings.h']]],
+  ['state_16',['State',['../d3/d60/classCardDatabaseSetupPage.html#a0c5c64f3ee6c9d591feb4c76a92bbe89',1,'CardDatabaseSetupPage']]]
 ];

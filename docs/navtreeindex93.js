@@ -1,5 +1,16 @@
 var NAVTREEINDEX93 =
 {
+"df/dfc/classDlgRollDice.html#a8245ab430438892579042eb1be7ff023":[4,1,0,375,7],
+"df/dfc/classDlgRollDice.html#ab33c9ae3759757b6621d7de45bf37140":[4,1,0,375,3],
+"df/dfc/command__game__say_8proto.html":[4,2,0,8,0,0,0,29],
+"df/dfc/command__game__say_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,29,2],
+"df/dff/structpeg_1_1DetectLeftRecursion.html":[4,0,0,28,47],
+"df/dff/structpeg_1_1DetectLeftRecursion.html":[4,1,0,5,46],
+"df/dff/structpeg_1_1DetectLeftRecursion.html#a0e60758a243fda1fe21448a97f964c2d":[4,0,0,28,47,20],
+"df/dff/structpeg_1_1DetectLeftRecursion.html#a0e60758a243fda1fe21448a97f964c2d":[4,1,0,5,46,20],
+"df/dff/structpeg_1_1DetectLeftRecursion.html#a1775629357f358d42612bbbeafd741d5":[4,0,0,28,47,28],
+"df/dff/structpeg_1_1DetectLeftRecursion.html#a1775629357f358d42612bbbeafd741d5":[4,1,0,5,46,28],
+"df/dff/structpeg_1_1DetectLeftRecursion.html#a224997e001bc757915eab1787affa18a":[4,0,0,28,47,5],
 "df/dff/structpeg_1_1DetectLeftRecursion.html#a224997e001bc757915eab1787affa18a":[4,1,0,5,46,5],
 "df/dff/structpeg_1_1DetectLeftRecursion.html#a272cab8852b0ed4a2f2b073967399fe8":[4,0,0,28,47,22],
 "df/dff/structpeg_1_1DetectLeftRecursion.html#a272cab8852b0ed4a2f2b073967399fe8":[4,1,0,5,46,22],
@@ -238,16 +249,5 @@ var NAVTREEINDEX93 =
 "dir_e68e8157741866f444e17edd764ebbae.html":[4,2,0,1],
 "dir_e6f2a239fe73dbef301891463e6c47dc.html":[4,2,0,2,0,0,4],
 "dir_ea8d64982b5609019074a0f83466341a.html":[4,2,0,11],
-"dir_eb10850db37dd764fd82984f089c556f.html":[4,2,0,1,0,0],
-"dir_ebe69efb0678dd425a868e0712b133d9.html":[4,2,0,0,1,5,6,0,0],
-"dir_edb0c1dfeb504bd9cfb443bc6b24a3fb.html":[4,2,0,0,1,5,6,14,0,2,1,1],
-"dir_ee86a45798be8b5ba156160d7db8c1d3.html":[4,2,0,9,0,0,0],
-"dir_f0cee67dbd606239bf5aae4476bbe603.html":[4,2,0,3,0,0,0],
-"dir_f28d132033c7495c6cbff0495ea1635e.html":[4,2,0,0,1,5,6,18],
-"dir_f3aef765df2a7860fd35e0943a5cc08c.html":[4,2,0,7],
-"dir_f3e5384751ea04ddbdd496c23fe9a390.html":[4,2,0,0,1,5,6,14,0,1,0],
-"dir_f4647ec01be943ceefd9ee4f7f0c1eae.html":[4,2,0,12],
-"dir_f4be27d36b478c7f01a45661d0a08936.html":[4,2,0,11,0,0],
-"dir_f4cc86e7d521b81f1b080272170d94b3.html":[4,2,0,0,1,5,6,3],
-"dir_f58a39ac21368c1cf9e5b42aefbaa528.html":[4,2,0,7,0,0,1]
+"dir_eb10850db37dd764fd82984f089c556f.html":[4,2,0,1,0,0]
 };

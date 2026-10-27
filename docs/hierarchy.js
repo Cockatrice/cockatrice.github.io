@@ -275,6 +275,7 @@ var hierarchy =
       [ "peg::LiteralString", "d2/de2/classpeg_1_1LiteralString.html", null ],
       [ "peg::Reference", "d5/dba/classpeg_1_1Reference.html", null ]
     ] ],
+    [ "EndHoldersResult", "d9/d20/structEndHoldersResult.html", null ],
     [ "BackgroundSources::Entry", "d3/d4a/structBackgroundSources_1_1Entry.html", null ],
     [ "CardArtRulesModel::Entry", "d9/dd6/structCardArtRulesModel_1_1Entry.html", null ],
     [ "HomeTabButtonColor::Entry", "db/d3b/structHomeTabButtonColor_1_1Entry.html", null ],

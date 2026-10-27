@@ -1,5 +1,10 @@
 var classMainWindow =
 [
+    [ "ShutdownState", "d6/d1a/classMainWindow.html#ae5db1bec047d610fafedcb344cc7c363", [
+      [ "Idle", "d6/d1a/classMainWindow.html#ae5db1bec047d610fafedcb344cc7c363ae599161956d626eda4cb0a5ffb85271c", null ],
+      [ "Confirming", "d6/d1a/classMainWindow.html#ae5db1bec047d610fafedcb344cc7c363a473b026d439cfd0a8dd441dac3054104", null ],
+      [ "Accepted", "d6/d1a/classMainWindow.html#ae5db1bec047d610fafedcb344cc7c363a382ab522931673c11e398ead1b7b1678", null ]
+    ] ],
     [ "MainWindow", "d6/d1a/classMainWindow.html#a996c5a2b6f77944776856f08ec30858d", null ],
     [ "~MainWindow", "d6/d1a/classMainWindow.html#a1f7d2c56410fc1bfa135bb907d43313f", null ],
     [ "actAbout", "d6/d1a/classMainWindow.html#a23af3d07e69f3cda6a3cee10d4d9f815", null ],
@@ -99,7 +104,6 @@ var classMainWindow =
     [ "aUpdate", "d6/d1a/classMainWindow.html#a5f98f8eb2a820160dbee0a127052d2de", null ],
     [ "aViewLog", "d6/d1a/classMainWindow.html#aa96d382cf357d15429118b94dce74729", null ],
     [ "aWatchReplay", "d6/d1a/classMainWindow.html#a3984e9d945bb4b2b8b612225e4ee69b4", null ],
-    [ "bClosingDown", "d6/d1a/classMainWindow.html#a0a83e04b318d8b617a55d4c0a1ff6613", null ],
     [ "bHasActivated", "d6/d1a/classMainWindow.html#a0fbb0c99f4abe5c9069b985bb02c4c28", null ],
     [ "cardUpdateErrorOutput", "d6/d1a/classMainWindow.html#ae64a16899d69fede8223466cd81b7786", null ],
     [ "cardUpdateErrorPartial", "d6/d1a/classMainWindow.html#ae2601f70946a7c940106955976b368d2", null ],
@@ -121,6 +125,7 @@ var classMainWindow =
     [ "logviewDialog", "d6/d1a/classMainWindow.html#a6745ab872e9020453344be5d9e670508", null ],
     [ "replay", "d6/d1a/classMainWindow.html#a67dd0adf03452c1edf61af8cdb7f89fe", null ],
     [ "settingsButton", "d6/d1a/classMainWindow.html#add17968c3f2dd5eae68a01237db86b06", null ],
+    [ "shutdownState", "d6/d1a/classMainWindow.html#a32f07b4bb35dde72a14f6c437b6552b1", null ],
     [ "skipStartupAutoConnect", "d6/d1a/classMainWindow.html#a01855793d196362926c6deadd808f108", null ],
     [ "startupAutoConnectAttempted", "d6/d1a/classMainWindow.html#a916c8cd57418152443a79cc0211ba399", null ],
     [ "tabMenus", "d6/d1a/classMainWindow.html#a10d94f06d541f8bab3dbedb04ce5fc59", null ],
