@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"de/d6e/editing_decks_visual.html":[0,0,2,1],
+"de/d6e/editing_decks_visual.html#adding-cards-1":[0,0,2,1,1],
 "de/d6e/editing_decks_visual.html#deck-analytics":[0,0,2,1,5],
 "de/d6e/editing_decks_visual.html#editing-basic-deck-information-1":[0,0,2,1,0],
 "de/d6e/editing_decks_visual.html#modifying-printings-1":[0,0,2,1,4],
@@ -35,8 +37,8 @@ var NAVTREEINDEX83 =
 "de/d76/structCommand__ReadyStart.html#a2199ad1e66ca0485be2e4ac279ff67ae":[4,1,0,218,1],
 "de/d76/structCommand__ReadyStart.html#ab2a0aa53bb25e03641f81a0b7ceca2af":[4,1,0,218,2],
 "de/d7a/edhrec__commander__api__response__display__widget_8h.html":[3,1,0,8,6],
-"de/d7a/edhrec__commander__api__response__display__widget_8h.html":[3,3,2,2,2,0,0,6],
 "de/d7a/edhrec__commander__api__response__display__widget_8h.html":[3,3,2,3,0,0,0,6],
+"de/d7a/edhrec__commander__api__response__display__widget_8h.html":[3,3,2,2,2,0,0,6],
 "de/d7a/edhrec__commander__api__response__display__widget_8h.html":[3,5,1,0,0,0,6],
 "de/d7f/structWarningCategory.html":[4,1,0,999],
 "de/d7f/structWarningCategory.html#abc8c549b5e37e6212e15a396e920da95":[4,1,0,999,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "de/d9d/peglib_8h.html#a3bc0a1f398e0422edecb282a196099fd":[4,2,0,11,0,0,17,123],
 "de/d9d/peglib_8h.html#a3f4d2dfe822a32c9393337358c0b1879":[4,2,0,11,0,0,17,86],
 "de/d9d/peglib_8h.html#a42fa870d4b44624dfe8b6c35a3adf6db":[4,2,0,11,0,0,17,143],
-"de/d9d/peglib_8h.html#a479f50ddeca68fdc0045264287c2a908":[4,2,0,11,0,0,17,130],
-"de/d9d/peglib_8h.html#a4a6becb3c7ad12c4628383d962af846d":[4,2,0,11,0,0,17,147],
-"de/d9d/peglib_8h.html#a4b823e98a2be8a2c4fc24aec230543c3":[4,2,0,11,0,0,17,132]
+"de/d9d/peglib_8h.html#a479f50ddeca68fdc0045264287c2a908":[4,2,0,11,0,0,17,130]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"d9/df7/classDeckEditorDeckDockWidget.html#aab6a4a76079a05f7ef06d7e312147062":[4,1,0,305,32],
+"d9/df7/classDeckEditorDeckDockWidget.html#ab1d63ef660280aba6c1ac3c1f3e3f013":[4,1,0,305,64],
 "d9/df7/classDeckEditorDeckDockWidget.html#ab339f7d082939816223322bb1fdf5844":[4,1,0,305,9],
 "d9/df7/classDeckEditorDeckDockWidget.html#abe1b6ab01f1410f83626de68cd777de3":[4,1,0,305,65],
 "d9/df7/classDeckEditorDeckDockWidget.html#abee370bbc984eee468f5bf1cc1777c71":[4,1,0,305,66],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "da/d1e/classVisualDeckEditorWidget.html#af9fe545695a868d0403bd25202545867":[4,1,0,988,37],
 "da/d1e/classVisualDeckEditorWidget.html#afcc4b112a430ab94103d6654d52d422d":[4,1,0,988,24],
 "da/d20/classPhaseButton.html":[4,1,0,654],
-"da/d20/classPhaseButton.html#a08e133f8669b1da61e09295222e276ee":[4,1,0,654,5],
-"da/d20/classPhaseButton.html#a09ec53398115faf2fa0f4953eb8f4a9c":[4,1,0,654,3],
-"da/d20/classPhaseButton.html#a2e351d47a3dadcfc679b666d0f30fe77":[4,1,0,654,1]
+"da/d20/classPhaseButton.html#a08e133f8669b1da61e09295222e276ee":[4,1,0,654,5]
 };

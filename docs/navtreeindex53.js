@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"d9/dd0/classLazyPropertiesHash.html#a624e5ec71efa3d0da8750a7d7c756ad2":[4,1,0,570,19],
+"d9/dd0/classLazyPropertiesHash.html#a6b73c78f20deba9048743061ed2d7a0f":[4,1,0,570,14],
 "d9/dd0/classLazyPropertiesHash.html#a6c797819a632044ebc1f19ace1416ad8":[4,1,0,570,5],
 "d9/dd0/classLazyPropertiesHash.html#a7564c9a330ad9301f5548fd44e96f931":[4,1,0,570,21],
 "d9/dd0/classLazyPropertiesHash.html#a7be2c890f016f147264ad722a7314229":[4,1,0,570,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "d9/df7/classDeckEditorDeckDockWidget.html#aa5ed01907915c61f98156dcad7086cf8":[4,1,0,305,31],
 "d9/df7/classDeckEditorDeckDockWidget.html#aa646cffeb7cff704ae7193eb9fe387f7":[4,1,0,305,41],
 "d9/df7/classDeckEditorDeckDockWidget.html#aa718e47621f615838a85000770ab454e":[4,1,0,305,35],
-"d9/df7/classDeckEditorDeckDockWidget.html#aa7aec9a73d90690573a9273b44c9e2bd":[4,1,0,305,50],
-"d9/df7/classDeckEditorDeckDockWidget.html#aab6a4a76079a05f7ef06d7e312147062":[4,1,0,305,32],
-"d9/df7/classDeckEditorDeckDockWidget.html#ab1d63ef660280aba6c1ac3c1f3e3f013":[4,1,0,305,64]
+"d9/df7/classDeckEditorDeckDockWidget.html#aa7aec9a73d90690573a9273b44c9e2bd":[4,1,0,305,50]
 };

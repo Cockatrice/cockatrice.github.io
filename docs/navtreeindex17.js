@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"d3/d37/classDlgEditTokens.html#a52dc346d1f0fad10b63f414ba03a29ec":[4,1,0,358,13],
 "d3/d37/classDlgEditTokens.html#a64ea454635d8b6fd1c2e2a2013968fb3":[4,1,0,358,10],
 "d3/d37/classDlgEditTokens.html#a77a277bd9fba9085c16af5c23266b222":[4,1,0,358,15],
 "d3/d37/classDlgEditTokens.html#a7b543642f47bf763fd520413a3294d18":[4,1,0,358,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "d3/d64/archidekt__api__response__deck__listings__display__widget_8cpp.html":[4,2,0,0,1,5,6,14,0,0,1,4],
 "d3/d64/structCardCondition.html":[4,1,0,81],
 "d3/d64/structCardCondition.html#a10306f3998f00d44cc19949642540bfe":[4,1,0,81,2],
-"d3/d64/structCardCondition.html#a5a5803d2a4b2b9ae5c761a9491d85c40":[4,1,0,81,0],
-"d3/d64/structCardCondition.html#ac1a0892b33da3c767aa2aef0419c3602":[4,1,0,81,1]
+"d3/d64/structCardCondition.html#a5a5803d2a4b2b9ae5c761a9491d85c40":[4,1,0,81,0]
 };

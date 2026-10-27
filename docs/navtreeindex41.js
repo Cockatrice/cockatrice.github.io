@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"d7/d93/structCardInfo_1_1UiAttributes.html#ac38509a804bc9c8087b0e008a4c168a4":[3,2,9,0],
+"d7/d93/structCardInfo_1_1UiAttributes.html#af602e5a87ff93ff67926a22dc6b5b637":[3,2,9,3],
 "d7/d94/cockatrice__xml__3_8h.html":[4,2,0,2,0,0,0,0,3],
 "d7/d94/cockatrice__xml__3_8h.html#a9f42abc33f46fba5ab10b7c1fff8fc28":[4,2,0,2,0,0,0,0,3,0],
 "d7/d94/cockatrice__xml__3_8h_source.html":[4,2,0,2,0,0,0,0,3],
@@ -27,8 +29,8 @@ var NAVTREEINDEX41 =
 "d7/d99/structContext__Mulligan.html":[4,1,0,284],
 "d7/d99/structContext__Mulligan.html#a12a19b0768514bb3af0b439009db910e":[4,1,0,284,1],
 "d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,1,0,8,4],
-"d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,3,2,2,2,0,0,4],
 "d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,3,2,3,0,0,0,4],
+"d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,3,2,2,2,0,0,4],
 "d7/d9a/edhrec__api__response__card__synergy__display__widget_8h.html":[3,5,1,0,0,0,4],
 "d7/d9a/group__GameGraphicsPlayers.html":[3,4,0,4,0],
 "d7/d9a/structpeg_1_1KeywordGuardData.html":[4,0,0,28,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "d7/dc9/classDlgMyReports.html#adba86856590f46355119ab8e441e422a":[4,1,0,372,2],
 "d7/dc9/classDlgMyReports.html#adc43c996137e0bb723947d1d7ad9dcf0":[4,1,0,372,17],
 "d7/dc9/classDlgMyReports.html#ae05ee5b6708bf06ca47b13271c525bcc":[4,1,0,372,20],
-"d7/dc9/classDlgMyReports.html#ae6588746a44203f78c72f1ab5dee4386":[4,1,0,372,6],
-"d7/dc9/classDlgMyReports.html#af327fcb32104ff48e426d8115e21b7d1":[4,1,0,372,8],
-"d7/dc9/classDlgMyReports.html#af6219d7b90537ece8d191b9d962c345c":[4,1,0,372,9]
+"d7/dc9/classDlgMyReports.html#ae6588746a44203f78c72f1ab5dee4386":[4,1,0,372,6]
 };

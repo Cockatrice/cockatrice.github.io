@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"d7/dc9/classDlgMyReports.html#af327fcb32104ff48e426d8115e21b7d1":[4,1,0,372,8],
+"d7/dc9/classDlgMyReports.html#af6219d7b90537ece8d191b9d962c345c":[4,1,0,372,9],
 "d7/dc9/classDlgMyReports.html#afa41f06c744d49d2d24e3c55ea9faa90":[4,1,0,372,4],
 "d7/dc9/classDlgMyReports.html#afe70164ab2854b6f61dd216df80b74fa":[4,1,0,372,19],
 "d7/dc9/namespaceUserListRoles.html":[4,0,0,40],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "d7/dfe/classITabsSettingsProvider.html#a73c74554aa850b392bae85312f3c3e7d":[4,1,0,559,3],
 "d7/dfe/classITabsSettingsProvider.html#a822cd309c0e4e93575c17fc365cc8f76":[4,1,0,559,13],
 "d7/dfe/classITabsSettingsProvider.html#ab25d121dab5cedcde2108c39a5de2eb3":[4,1,0,559,6],
-"d7/dfe/classITabsSettingsProvider.html#ab900ffacf4bafda60b30056bd3ef7764":[4,1,0,559,8],
-"d7/dfe/classITabsSettingsProvider.html#ac09a8191597a283992c5b6b4b51529cd":[4,1,0,559,11],
-"d7/dfe/classITabsSettingsProvider.html#add698ad9853f53ac92676e5617b72ce6":[4,1,0,559,12]
+"d7/dfe/classITabsSettingsProvider.html#ab900ffacf4bafda60b30056bd3ef7764":[4,1,0,559,8]
 };

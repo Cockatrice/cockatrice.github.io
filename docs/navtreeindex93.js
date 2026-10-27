@@ -1,5 +1,7 @@
 var NAVTREEINDEX93 =
 {
+"df/dfc/classDlgRollDice.html#a75818b2c166a67f51883c314d0bb4625":[4,1,0,375,5],
+"df/dfc/classDlgRollDice.html#a7b45dabff563b3275a940934544b633e":[4,1,0,375,4],
 "df/dfc/classDlgRollDice.html#a8245ab430438892579042eb1be7ff023":[4,1,0,375,7],
 "df/dfc/classDlgRollDice.html#ab33c9ae3759757b6621d7de45bf37140":[4,1,0,375,3],
 "df/dfc/command__game__say_8proto.html":[4,2,0,8,0,0,0,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX93 =
 "dir_e4645ecbfc91d4e08ab2a10db41488eb.html":[4,2,0,0,1,5,6,14,0,0],
 "dir_e642b924ab2a1ee0860edb6e8656564d.html":[4,2,0,0,1,4,4,0],
 "dir_e68e8157741866f444e17edd764ebbae.html":[4,2,0,1],
-"dir_e6f2a239fe73dbef301891463e6c47dc.html":[4,2,0,2,0,0,4],
-"dir_ea8d64982b5609019074a0f83466341a.html":[4,2,0,11],
-"dir_eb10850db37dd764fd82984f089c556f.html":[4,2,0,1,0,0]
+"dir_e6f2a239fe73dbef301891463e6c47dc.html":[4,2,0,2,0,0,4]
 };

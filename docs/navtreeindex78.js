@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"dd/dd2/classCardInfo.html#ac0e8d8f7cfee738932a89255a511850c":[3,2,8,14],
+"dd/dd2/classCardInfo.html#ac1013cb591fef96e1fdc606dae2909ea":[3,2,8,67],
 "dd/dd2/classCardInfo.html#ac16dcbbd11963d2ba873594f5ba94ca8":[3,2,8,3],
 "dd/dd2/classCardInfo.html#ac177dc7dd9e2f233c02f4fc56afd51ca":[3,2,8,58],
 "dd/dd2/classCardInfo.html#ac3cba7ae717adf4411ac2734ab481ccd":[3,2,8,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12af50f80955d385fcf956ff947946f01ad":[4,1,0,493,0,24],
 "dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12afc36d77e642f1ab790d4a7c50a8de35d":[4,1,0,493,0,13],
 "dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12afcdd7f70bf51756427efe2fdca508924":[4,1,0,493,0,11],
-"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12afe112ff03cee40dad03b80810be8c3ba":[4,1,0,493,0,5],
-"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12afffed1b796804c8ab5efa8ea21501782":[4,1,0,493,0,7],
-"dd/de5/structGameCommand.html#abaae69eb1857dda303419838a9706a31":[4,1,0,493,1]
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12afe112ff03cee40dad03b80810be8c3ba":[4,1,0,493,0,5]
 };

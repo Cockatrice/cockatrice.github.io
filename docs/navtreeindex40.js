@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"d7/d67/classUserContextMenu.html#a8a3b0815841f99176221168ed72c0d15":[4,1,0,958,5],
+"d7/d67/classUserContextMenu.html#a8bd9614726add4ad4a9190f62d2c6adf":[4,1,0,958,12],
 "d7/d67/classUserContextMenu.html#a8e1702cbe6ecdc84fb02d8316a794701":[4,1,0,958,21],
 "d7/d67/classUserContextMenu.html#a903c1dfa527853ef38d3c948bdb13cf4":[4,1,0,958,17],
 "d7/d67/classUserContextMenu.html#a90f81f6dd078c29b937eecab7d586ce8":[4,1,0,958,50],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "d7/d93/classMessageLogWidget.html#afbb87a498b9f8dd836a7d0e6d34af58d":[4,1,0,611,31],
 "d7/d93/structCardInfo_1_1UiAttributes.html":[3,2,9],
 "d7/d93/structCardInfo_1_1UiAttributes.html#a5aa3351ded5ed426a1e6963ec4d5cdb2":[3,2,9,2],
-"d7/d93/structCardInfo_1_1UiAttributes.html#aaf97bfd86c391c2bc5eadbba06c8a2a0":[3,2,9,1],
-"d7/d93/structCardInfo_1_1UiAttributes.html#ac38509a804bc9c8087b0e008a4c168a4":[3,2,9,0],
-"d7/d93/structCardInfo_1_1UiAttributes.html#af602e5a87ff93ff67926a22dc6b5b637":[3,2,9,3]
+"d7/d93/structCardInfo_1_1UiAttributes.html#aaf97bfd86c391c2bc5eadbba06c8a2a0":[3,2,9,1]
 };

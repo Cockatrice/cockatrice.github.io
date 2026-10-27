@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"d3/de4/structDeckList_1_1Metadata.html#a14533dc7d3e6f81caa0f061abfafe9af":[3,3,3,0,1],
 "d3/de4/structDeckList_1_1Metadata.html#a26688c47b071cced7bc0d0b70d270634":[3,3,3,0,7],
 "d3/de4/structDeckList_1_1Metadata.html#a36593b0aa523d3dd05b34c23178f07b3":[3,3,3,0,8],
 "d3/de4/structDeckList_1_1Metadata.html#a6d77b71257ae9768e34ef0efe008e90e":[3,3,3,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "d4/d17/edhrec__top__tags__api__response_8cpp.html":[4,2,0,0,1,5,6,14,0,2,0,7,0],
 "d4/d17/inner__deck__list__node_8cpp.html":[4,2,0,3,0,0,0,6],
 "d4/d18/group__LocalDeckStorageWidgets.html":[3,1,0,5],
-"d4/d18/group__LocalDeckStorageWidgets.html":[3,3,2,0,0],
-"d4/d18/interface__deck__editor__settings__provider_8h.html":[4,2,0,5,0,0,6]
+"d4/d18/group__LocalDeckStorageWidgets.html":[3,3,2,0,0]
 };

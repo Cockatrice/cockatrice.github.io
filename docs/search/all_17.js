@@ -1424,7 +1424,7 @@ var searchData=
   ['signalhandler_1421',['signalhandler',['../d0/d8b/servatrice_2src_2main_8cpp.html#ae17b1bc78ca6e1a56d7d3def17e3c08e',1,'main.cpp']]],
   ['signalhandler_2ecpp_1422',['signalhandler.cpp',['../de/d2d/signalhandler_8cpp.html',1,'']]],
   ['signalhandler_2eh_1423',['signalhandler.h',['../d6/da8/signalhandler_8h.html',1,'']]],
-  ['signals_1424',['Signals',['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#signals',1,'Signals'],['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#signals-1',1,'Signals'],['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#signals-2',1,'Signals']]],
+  ['signals_1424',['Signals',['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#signals',1,'Signals'],['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#signals-1',1,'Signals'],['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#signals-2',1,'Signals']]],
   ['signals_1425',['signals',['../d4/d5b/player_event_handler.html#autotoc_md3-emitting-logging-signals',1,'3. Emitting logging signals'],['../db/d15/game_event_handler.html#autotoc_md4-emitting-ui-and-logging-signals',1,'4. Emitting UI and logging signals']]],
   ['sigpasswordverifierready_1426',['sigPasswordVerifierReady',['../db/d53/classRemoteClient.html#a8d078b57fdaaf4b229b38359b5fbfd96',1,'RemoteClient']]],
   ['sigpixmapupdated_1427',['sigPixmapUpdated',['../d4/db9/classAbstractCardItem.html#a7bcb3536fe4fc599e07d9b26b743c499',1,'AbstractCardItem']]],

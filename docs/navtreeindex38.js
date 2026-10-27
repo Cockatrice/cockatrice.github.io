@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"d6/df6/structpeg_1_1OpeSignature.html#a06b437494ba9b4cd89fd3806563febec":[4,0,0,28,49,20],
+"d6/df6/structpeg_1_1OpeSignature.html#a06b437494ba9b4cd89fd3806563febec":[4,1,0,5,48,20],
 "d6/df6/structpeg_1_1OpeSignature.html#a121d5bc34d00191833059a1c08bb5a0b":[4,0,0,28,49,18],
 "d6/df6/structpeg_1_1OpeSignature.html#a121d5bc34d00191833059a1c08bb5a0b":[4,1,0,5,48,18],
 "d6/df6/structpeg_1_1OpeSignature.html#a153342e3036cdf52f3c0ec05dbd93ffb":[4,0,0,28,49,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "d7/d2c/playmat__settings__dialog_8cpp.html":[4,2,0,0,1,5,6,8,4],
 "d7/d2e/structCommand__SetCardAttr_1_1GameCommand.html":[4,1,0,251,0],
 "d7/d2e/structCommand__SetCardAttr_1_1GameCommand.html#aa3cfe787d163dbe411d6fc54b0d77a66":[4,1,0,251,0,0],
-"d7/d2f/interface__game__settings__provider_8h.html":[4,2,0,5,0,0,7],
-"d7/d2f/interface__game__settings__provider_8h_source.html":[4,2,0,5,0,0,7],
-"d7/d30/classColorIdentityWidget.html":[4,1,0,147]
+"d7/d2f/interface__game__settings__provider_8h.html":[4,2,0,5,0,0,7]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"de/d47/structDeckShareSummaryRecord.html#a1a2ccbda2dfade785b3970987d09284c":[4,1,0,338,0],
+"de/d47/structDeckShareSummaryRecord.html#abf3ca94e7793ab5e59c867e2246db65c":[4,1,0,338,1],
 "de/d47/structDeckShareSummaryRecord.html#af52e00dbb340777aba0e7a48ca729463":[4,1,0,338,2],
 "de/d48/classDlgEditAvatar.html":[4,1,0,355],
 "de/d48/classDlgEditAvatar.html#a2e155ceb8f904386ea79424736a9f7b4":[4,1,0,355,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "de/d6c/structCommanderSpellbookCardResult.html#aa9901d43186092e949501d45ac016716":[4,1,0,273,5],
 "de/d6c/structCommanderSpellbookCardResult.html#abc63e8ccde85dad471bb92621ef7a08b":[4,1,0,273,14],
 "de/d6c/structCommanderSpellbookCardResult.html#abe0af9b56ec1f90a78de399ac4746d40":[4,1,0,273,10],
-"de/d6c/structCommanderSpellbookCardResult.html#adfa53e34da55352a5ffdb83c3c54408d":[4,1,0,273,1],
-"de/d6e/editing_decks_visual.html":[0,0,2,1],
-"de/d6e/editing_decks_visual.html#adding-cards-1":[0,0,2,1,1]
+"de/d6c/structCommanderSpellbookCardResult.html#adfa53e34da55352a5ffdb83c3c54408d":[4,1,0,273,1]
 };

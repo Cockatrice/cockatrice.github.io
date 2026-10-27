@@ -29,7 +29,7 @@ var searchData=
   ['response_20protocol_20concept_26',['Response (Protocol Concept)',['../d3/d39/protocol_response.html',1,'developer_reference_protocol']]],
   ['response_20types_27',['Response Types',['../d3/d39/protocol_response.html#response-types',1,'']]],
   ['responsibilities_28',['Responsibilities',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#responsibilities',1,'Responsibilities'],['../db/d15/game_event_handler.html#responsibilities-1',1,'Responsibilities'],['../d4/d5b/player_event_handler.html#responsibilities-2',1,'Responsibilities']]],
-  ['responsibilities_3a_29',['Responsibilities:',['../d3/de9/classAbstractDecklistCardNode.html#responsibilities-3',1,'Responsibilities:'],['../dc/d8b/classSideboardPlan.html#responsibilities-4',1,'Responsibilities:'],['../d4/d55/classInnerDecklistNode.html#responsibilities-5',1,'Responsibilities:']]],
+  ['responsibilities_3a_29',['Responsibilities:',['../dc/d8b/classSideboardPlan.html#responsibilities-3',1,'Responsibilities:'],['../d3/de9/classAbstractDecklistCardNode.html#responsibilities-4',1,'Responsibilities:'],['../d4/d55/classInnerDecklistNode.html#responsibilities-5',1,'Responsibilities:']]],
   ['responsibilities_3a_30',['Core responsibilities:',['../da/d68/classDeckList.html#core-responsibilities',1,'']]],
   ['restart_20the_20client_31',['Restart the Client',['../d9/d7b/fixing_card_pictures.html#restart-the-client',1,'']]],
   ['reveal_5fcards_201026_32',['&lt;span class=&quot;tt&quot;&gt;REVEAL_CARDS&lt;/span&gt; (1026)',['../d0/d5b/protocol_game_command.html#reveal_cards-1026',1,'']]],

@@ -152,7 +152,7 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a93d28b113052974a81bdf5db01ab6a93" id="r_a93d28b113052974a81bdf5db01ab6a93"><td class="memItemLeft">constexpr std::size_t&#160;</td><td class="memItemRight"><a class="el" href="#a93d28b113052974a81bdf5db01ab6a93">HOLDER_LINE_MAX</a> = 5</td></tr>
 <tr class="memdesc:a93d28b113052974a81bdf5db01ab6a93"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many holders the single-line summary names before it says how many were left out.  <br /></td></tr>
-<tr class="memitem:ae0e41fbb455a81ada710b2cc815a96bc" id="r_ae0e41fbb455a81ada710b2cc815a96bc"><td class="memItemLeft">constexpr std::size_t&#160;</td><td class="memItemRight"><a class="el" href="#ae0e41fbb455a81ada710b2cc815a96bc">HOLDER_LINE_CHAR_MAX</a> = 400</td></tr>
+<tr class="memitem:ae0e41fbb455a81ada710b2cc815a96bc" id="r_ae0e41fbb455a81ada710b2cc815a96bc"><td class="memItemLeft">constexpr std::size_t&#160;</td><td class="memItemRight"><a class="el" href="#ae0e41fbb455a81ada710b2cc815a96bc">HOLDER_LINE_CHAR_MAX</a> = 320</td></tr>
 <tr class="memdesc:ae0e41fbb455a81ada710b2cc815a96bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many characters the summary may spend on the holders it names.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
@@ -227,7 +227,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t HOLDER_LINE_CHAR_MAX = 400</td>
+          <td class="memname">std::size_t HOLDER_LINE_CHAR_MAX = 320</td>
         </tr>
       </table>
   </td>
@@ -238,7 +238,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>How many characters the summary may spend on the holders it names. </p>
-<p>The line is not the whole string: the abort dialog puts it after a fixed paragraph and before the path of the installer log, inside an NSIS string of 1024 characters. Windows caps one application or service name well below this budget, so it bounds the list without ever cutting a single holder short. </p>
+<p>The line is not the whole string: every prompt puts it after a fixed paragraph and before the answers, and one NSIS string holds 1024 characters. Those paragraphs grew when the guard started spelling out what ending the programs costs and what is left to do by hand, so this budget is what keeps the longest message - the one that also says the last end freed nothing, plus the "; and N more" the summary appends after the budget - complete, including the Cancel line at its end. Windows caps one application or service name well below this, so it bounds the list without ever cutting a single holder short. </p>
 
 </div>
 </div>

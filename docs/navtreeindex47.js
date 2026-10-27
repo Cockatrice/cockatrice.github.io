@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a51805ed40c183448e69aca4458aa7cb6":[3,3,1,1,0,0,0,0],
+"d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#aa5ed3a7109953c59d22312c145f89593":[3,1,0,1,0,0,0,3],
 "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#aa5ed3a7109953c59d22312c145f89593":[3,1,0,4,0,0,0,3],
 "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#aa5ed3a7109953c59d22312c145f89593":[3,3,1,0,0,0,3],
 "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#aa5ed3a7109953c59d22312c145f89593":[3,3,1,1,0,0,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "d8/dd0/structEvent__LeaveRoom.html":[4,1,0,443],
 "d8/dd0/structEvent__LeaveRoom.html#a7209e1838fd94b54692c46d153236d4c":[4,1,0,443,1],
 "d8/dd5/structCommand__ChangeZoneProperties_1_1GameCommand.html":[4,1,0,158,0],
-"d8/dd5/structCommand__ChangeZoneProperties_1_1GameCommand.html#a862152d80f885b91446f1e64d3355026":[4,1,0,158,0,0],
-"d8/dd6/settings__search__model_8cpp.html":[3,1,0,0,14],
-"d8/dd8/structEstimateBracketResult.html":[4,1,0,419]
+"d8/dd5/structCommand__ChangeZoneProperties_1_1GameCommand.html#a862152d80f885b91446f1e64d3355026":[4,1,0,158,0,0]
 };

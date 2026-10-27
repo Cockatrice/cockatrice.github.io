@@ -121,6 +121,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d3/d6f/close__
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../db/d89/close__holders_8h_source.html">close_holders.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/d47/restart__manager__holders_8h_source.html">restart_manager_holders.h</a>&quot;</code><br />
 <code>#include &lt;windows.h&gt;</code><br />
 <code>#include &lt;cstddef&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
@@ -129,15 +130,15 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d3/d6f/close__
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for close_holders.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d96/close__holders_8cpp__incl.svg" width="566" height="271"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d96/close__holders_8cpp__incl.svg" width="100%" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ac393759e2c4a46ce9589272f2a1c1de4" id="r_ac393759e2c4a46ce9589272f2a1c1de4"><td class="memItemLeft"><a class="el" href="../../d5/d50/structCloseHoldersResult.html">CloseHoldersResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac393759e2c4a46ce9589272f2a1c1de4">closeCockatriceHolders</a> (const std::vector&lt; <a class="el" href="../../d3/d5a/structHolder.html">Holder</a> &gt; &amp;holders, unsigned long waitMilliseconds)</td></tr>
 <tr class="memdesc:ac393759e2c4a46ce9589272f2a1c1de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Brings every running Cockatrice holding an installer file forward and asks it to close.  <br /></td></tr>
-<tr class="memitem:a639821d19ff06afec51e47a301f73cb9" id="r_a639821d19ff06afec51e47a301f73cb9"><td class="memItemLeft"><a class="el" href="../../d9/d20/structEndHoldersResult.html">EndHoldersResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#a639821d19ff06afec51e47a301f73cb9">endCockatriceHolders</a> (const std::vector&lt; <a class="el" href="../../d3/d5a/structHolder.html">Holder</a> &gt; &amp;holders, unsigned long waitMilliseconds)</td></tr>
-<tr class="memdesc:a639821d19ff06afec51e47a301f73cb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ends every running Cockatrice the probe named.  <br /></td></tr>
+<tr class="memitem:a297a36b5f73cba7b730f767abb5fc8de" id="r_a297a36b5f73cba7b730f767abb5fc8de"><td class="memItemLeft"><a class="el" href="../../d9/d20/structEndHoldersResult.html">EndHoldersResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#a297a36b5f73cba7b730f767abb5fc8de">endHolders</a> (const std::vector&lt; <a class="el" href="../../d3/d5a/structHolder.html">Holder</a> &gt; &amp;holders, unsigned long waitMilliseconds)</td></tr>
+<tr class="memdesc:a297a36b5f73cba7b730f767abb5fc8de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ends every running Cockatrice, Oracle and <a class="el" href="../../d5/d0e/classServatrice.html">Servatrice</a> the probe named.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="ac393759e2c4a46ce9589272f2a1c1de4" name="ac393759e2c4a46ce9589272f2a1c1de4"></a>
@@ -183,14 +184,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a639821d19ff06afec51e47a301f73cb9" name="a639821d19ff06afec51e47a301f73cb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a639821d19ff06afec51e47a301f73cb9">&#9670;&#160;</a></span>endCockatriceHolders()</h2>
+<a id="a297a36b5f73cba7b730f767abb5fc8de" name="a297a36b5f73cba7b730f767abb5fc8de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a297a36b5f73cba7b730f767abb5fc8de">&#9670;&#160;</a></span>endHolders()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d20/structEndHoldersResult.html">EndHoldersResult</a> endCockatriceHolders </td>
+          <td class="memname"><a class="el" href="../../d9/d20/structEndHoldersResult.html">EndHoldersResult</a> endHolders </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; <a class="el" href="../../d3/d5a/structHolder.html">Holder</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>holders</em></span>, </td>
         </tr>
@@ -202,8 +203,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Ends every running Cockatrice the probe named. </p>
-<p>This is the last resort behind the installer's "end it now" answer, never a first move: a client that is still running may have an unsaved deck, an open game or a settings write in flight, so the caller only gets here after the user picked it from a prompt that says so. Only cockatrice.exe is ended - Oracle writes the card database in place and <a class="el" href="../../d5/d0e/classServatrice.html">Servatrice</a> is a service, so both are named and left to the user, exactly as they are for the close.</p>
+<p>Ends every running Cockatrice, Oracle and <a class="el" href="../../d5/d0e/classServatrice.html">Servatrice</a> the probe named. </p>
+<p>This is the last resort behind the installer's "end it now" answer, never a first move: a client that is still running may have an unsaved deck, an open game or a settings write in flight, Oracle may be part-way through writing the card database, and <a class="el" href="../../d5/d0e/classServatrice.html">Servatrice</a> may be serving a game, so the caller only gets here after the user picked it from a prompt that says so.</p>
+<p>Every program the payload installs is ended, services included. A service is terminated like a process rather than stopped through the Service Control Manager: the installer has asked the user first, and the SCM notices the process exit and marks the service stopped afterwards, so it can be started again normally. Anything else the Restart Manager named - a scanner holding a DLL, a program the user keeps in the install directory - is left to the user, because ending it would destroy something this installer does not own.</p>
 <p>Waits up to <code>waitMilliseconds</code> for what it ended to be gone, so the caller can measure the purge immediately afterwards instead of racing a process that is still exiting.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -215,12 +217,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d6f/close__holders_8cpp_a639821d19ff06afec51e47a301f73cb9_cgraph.svg" width="175" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d6f/close__holders_8cpp_a297a36b5f73cba7b730f767abb5fc8de_cgraph.svg" width="294" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d6f/close__holders_8cpp_a639821d19ff06afec51e47a301f73cb9_icgraph.svg" width="278" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d6f/close__holders_8cpp_a297a36b5f73cba7b730f767abb5fc8de_icgraph.svg" width="210" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

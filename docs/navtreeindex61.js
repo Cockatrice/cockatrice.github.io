@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"db/d02/structSFMT__T.html":[4,1,0,876],
+"db/d02/structSFMT__T.html#a7bf9ad40f20e770d1e703b70248a5386":[4,1,0,876,1],
 "db/d02/structSFMT__T.html#adff6ae93dbd68c2f74a96b99367aba24":[4,1,0,876,0],
 "db/d03/card__database__manager_8h.html":[4,2,0,2,0,0,0,9],
 "db/d03/card__database__manager_8h_source.html":[4,2,0,2,0,0,0,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "db/d22/classCardInfoFrameWidget.html#af99bda67f233a78072ecd6122a8fe497":[4,1,0,101,5],
 "db/d23/structCommand__SetSideboardPlan_1_1GameCommand.html":[4,1,0,256,0],
 "db/d23/structCommand__SetSideboardPlan_1_1GameCommand.html#aeb2aa67af49b47386327dd76f78b1ea3":[4,1,0,256,0,0],
-"db/d26/qxtglobal_8h.html":[4,2,0,13,1,0,0],
-"db/d26/qxtglobal_8h.html#a01b94256cdd683a4e2530b7e68bdf783":[4,2,0,13,1,0,0,5],
-"db/d26/qxtglobal_8h.html#a029cc54902f2103f16d8a34075b61ea1":[4,2,0,13,1,0,0,4]
+"db/d26/qxtglobal_8h.html":[4,2,0,13,1,0,0]
 };

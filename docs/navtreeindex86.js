@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"de/de9/classDeckLoader.html#a3dc92c330b5b1ab35d6c1c80e6e633bb":[4,1,0,325,3],
+"de/de9/classDeckLoader.html#a65fa9e02b067c8bb9afc70d8284dd8bb":[4,1,0,325,22],
 "de/de9/classDeckLoader.html#a6c9753c99ba9596c9cb253ea169e4d25":[4,1,0,325,24],
 "de/de9/classDeckLoader.html#a6ece7652caab7a954abdecf9c0e9cd99":[4,1,0,325,1],
 "de/de9/classDeckLoader.html#a6f87229f0a702349efa22734f0249abd":[4,1,0,325,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "df/d28/context__join__room_8h_source.html":[4,2,0,0,1,5,3,0,2],
 "df/d28/structCommand__DeckShareCreate_1_1SessionCommand.html":[4,1,0,174,0],
 "df/d28/structCommand__DeckShareCreate_1_1SessionCommand.html#ad92e0e4cc849653f3191bdd69792e31e":[4,1,0,174,0,0],
-"df/d29/visual__database__filter__display__widget_8h.html":[3,1,0,3,1,7],
-"df/d29/visual__database__filter__display__widget_8h.html":[3,2,4,2,1,7],
-"df/d2a/classArrowItem.html":[4,1,0,51]
+"df/d29/visual__database__filter__display__widget_8h.html":[3,1,0,3,1,7]
 };

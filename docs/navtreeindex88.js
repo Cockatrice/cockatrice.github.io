@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"df/d4e/classExactCard.html#a1283cb6a841b0da2335ae430cbd22aba":[3,2,2,0,1],
+"df/d4e/classExactCard.html#a184afb95828482d71ebf2f7db53b2eb5":[3,2,2,0,10],
 "df/d4e/classExactCard.html#a1ed6121dc01e43a0d7004ef568e07a42":[3,2,2,0,6],
 "df/d4e/classExactCard.html#a1eff501b66e24df71dc94193122e08f0":[3,2,2,0,4],
 "df/d4e/classExactCard.html#a46260730a07104ed743aca230e2e5e8f":[3,2,2,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "df/d81/classUserInfoPopup.html#a2eb85a0ecac4be53e6e227d88fbd530f":[4,1,0,961,39],
 "df/d81/classUserInfoPopup.html#a372624de87ab6edf4dc11a7f518ff60e":[4,1,0,961,49],
 "df/d81/classUserInfoPopup.html#a374ce5c6188c6766d65e29c3f3a5f5d7":[4,1,0,961,42],
-"df/d81/classUserInfoPopup.html#a3cd2fe7fe0bb2a44d9e731d577a3249c":[4,1,0,961,51],
-"df/d81/classUserInfoPopup.html#a4bdb25f4ca25723ab335157b30ec655e":[4,1,0,961,47],
-"df/d81/classUserInfoPopup.html#a5062e9655df8412957f91c8d60e185e1":[4,1,0,961,5]
+"df/d81/classUserInfoPopup.html#a3cd2fe7fe0bb2a44d9e731d577a3249c":[4,1,0,961,51]
 };

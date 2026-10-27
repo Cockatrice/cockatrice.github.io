@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"d8/dd6/settings__search__model_8cpp.html":[3,1,0,0,14],
+"d8/dd8/structEstimateBracketResult.html":[4,1,0,419],
 "d8/dd8/structEstimateBracketResult.html#a32dcc005eddc6e8dd0efb57119576c8a":[4,1,0,419,11],
 "d8/dd8/structEstimateBracketResult.html#a366a6ad706b631ab22cb500143425a93":[4,1,0,419,7],
 "d8/dd8/structEstimateBracketResult.html#a505b4556bb15c6dd719fa4608030a797":[4,1,0,419,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "d9/d01/format__legality__rules_8cpp.html#ac767ed411bf1754fd4afe663f10b797d":[4,2,0,2,0,0,1,0,1],
 "d9/d01/structServerInfo__Warning.html":[4,1,0,846],
 "d9/d01/structServerInfo__Warning.html#a1b4a53bc1f30d641152bc5037cb9d73e":[4,1,0,846,3],
-"d9/d01/structServerInfo__Warning.html#a2793316312e9d3cbbcc9c48e78037ba3":[4,1,0,846,2],
-"d9/d01/structServerInfo__Warning.html#aadedd7171244befe09071d92813c20a3":[4,1,0,846,1],
-"d9/d01/structServerInfo__Warning.html#ad202b1d746b56f3c8baae48043dd4862":[4,1,0,846,0]
+"d9/d01/structServerInfo__Warning.html#a2793316312e9d3cbbcc9c48e78037ba3":[4,1,0,846,2]
 };

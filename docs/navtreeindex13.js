@@ -125,6 +125,7 @@ var NAVTREEINDEX13 =
 "d2/d77/classEdhrecApiResponseCardDetailsDisplayWidget.html#af5e3ddb4b2e894072085637d98ab51c9":[4,1,0,394,12],
 "d2/d77/featureset_8cpp.html":[4,2,0,8,0,0,3],
 "d2/d78/restart__manager__holders_8cpp.html":[4,2,0,15,0,5],
+"d2/d78/restart__manager__holders_8cpp.html#a04a8e2f4d4a7c2d89adf7313a413a636":[4,2,0,15,0,5,4],
 "d2/d78/restart__manager__holders_8cpp.html#a71ba0f6b00c611d9531a220949e8d8de":[4,2,0,15,0,5,2],
 "d2/d78/restart__manager__holders_8cpp.html#a7685f3cae23d65fa1793b6ff33825218":[4,2,0,15,0,5,0],
 "d2/d78/restart__manager__holders_8cpp.html#a8ba4c589b751eb643c95f3ec56b7005c":[4,2,0,15,0,5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "d2/d98/classPlayerLogic.html#a1f4fa9ed8057a6fe8ea64cee75e50900":[4,1,0,671,61],
 "d2/d98/classPlayerLogic.html#a20acb9baa5181520b24026d7c12ee68c":[4,1,0,671,55],
 "d2/d98/classPlayerLogic.html#a23f17a7d852e7bab25ee48e5e493973f":[4,1,0,671,26],
-"d2/d98/classPlayerLogic.html#a25c08fd924768969af467db24f26b31b":[4,1,0,671,59],
-"d2/d98/classPlayerLogic.html#a2cf2458595ecc4635d34beeb12b52b08":[4,1,0,671,72]
+"d2/d98/classPlayerLogic.html#a25c08fd924768969af467db24f26b31b":[4,1,0,671,59]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"dc/d0a/tab__report_8h.html":[4,2,0,0,1,5,6,14,34],
+"dc/d0a/tab__report_8h_source.html":[4,2,0,0,1,5,6,14,34],
 "dc/d0b/classDeckViewCard.html":[4,1,0,342],
 "dc/d0b/classDeckViewCard.html#a405e0959345cdad434f3189d89bde0ba":[4,1,0,342,0],
 "dc/d0b/classDeckViewCard.html#a422b55f4964ce62a88ab48c822dde73b":[4,1,0,342,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "dc/d3c/classArchidektApiResponseDeck.html#a5a95cf7e1016a135c56453f24d2f2550":[4,1,0,37,6],
 "dc/d3c/classArchidektApiResponseDeck.html#a63d2834c1684c4d7a7304e498f4809de":[4,1,0,37,10],
 "dc/d3c/classArchidektApiResponseDeck.html#a647fb2058c7b0ba239e42ce6c35a8a21":[4,1,0,37,28],
-"dc/d3c/classArchidektApiResponseDeck.html#a6df13b42d7e3cfc880e5d7b3be5a7843":[4,1,0,37,14],
-"dc/d3c/classArchidektApiResponseDeck.html#a79f3c69d7b4d9b00891a21e9344d017a":[4,1,0,37,27],
-"dc/d3c/classArchidektApiResponseDeck.html#a7f06720ef49153e352fdec2b548133df":[4,1,0,37,20]
+"dc/d3c/classArchidektApiResponseDeck.html#a6df13b42d7e3cfc880e5d7b3be5a7843":[4,1,0,37,14]
 };

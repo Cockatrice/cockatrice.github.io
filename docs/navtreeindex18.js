@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"d3/d64/structCardCondition.html#ac1a0892b33da3c767aa2aef0419c3602":[4,1,0,81,1],
 "d3/d65/structCommandContainer.html":[4,1,0,266],
 "d3/d65/structCommandContainer.html#a08554c473fccac77e54b59d5a04d6fce":[4,1,0,266,2],
 "d3/d65/structCommandContainer.html#a127dad6aa1ab9c7f0197f5ee75e6a169":[4,1,0,266,5],
@@ -36,7 +37,7 @@ var NAVTREEINDEX18 =
 "d3/d6e/structUserListPainter_1_1Style.html#ab50709c7bb6c91db112ecd1c7abf97f1":[4,1,0,966,0,1],
 "d3/d6e/structUserListPainter_1_1Style.html#ae8717f20062fe9e59119f13e79cd1502":[4,1,0,966,0,6],
 "d3/d6f/close__holders_8cpp.html":[4,2,0,15,0,0],
-"d3/d6f/close__holders_8cpp.html#a639821d19ff06afec51e47a301f73cb9":[4,2,0,15,0,0,1],
+"d3/d6f/close__holders_8cpp.html#a297a36b5f73cba7b730f767abb5fc8de":[4,2,0,15,0,0,1],
 "d3/d6f/close__holders_8cpp.html#ac393759e2c4a46ce9589272f2a1c1de4":[4,2,0,15,0,0,0],
 "d3/d71/structCommand__GetBanHistory_1_1ModeratorCommand.html":[4,1,0,191,0],
 "d3/d71/structCommand__GetBanHistory_1_1ModeratorCommand.html#a63d08660943883b8c046219e6fef93b4":[4,1,0,191,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "d3/d93/classVisualDeckStorageSettings.html#a8b28587c6f607ff03cf26b34c9d07a26":[4,1,0,993,29],
 "d3/d93/classVisualDeckStorageSettings.html#a9109dcc717ee5100467bdd86369fbeb9":[4,1,0,993,23],
 "d3/d93/classVisualDeckStorageSettings.html#a9185f7335e8b635244862c672d54a8f3":[4,1,0,993,17],
-"d3/d93/classVisualDeckStorageSettings.html#a943bcec9f35d973e74b2e9f7d7424e28":[4,1,0,993,20],
-"d3/d93/classVisualDeckStorageSettings.html#a9f6a8fd228c94d9086c6cadcf607447e":[4,1,0,993,43]
+"d3/d93/classVisualDeckStorageSettings.html#a943bcec9f35d973e74b2e9f7d7424e28":[4,1,0,993,20]
 };

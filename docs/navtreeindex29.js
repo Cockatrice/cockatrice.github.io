@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"d5/d88/classSettingsCache.html#a88e5861500883bc7966b99fd29724356":[4,1,0,864,44],
 "d5/d88/classSettingsCache.html#a8a2cc1a92c56e6eacdc3a47151f99221":[4,1,0,864,25],
 "d5/d88/classSettingsCache.html#a8b2e8fc1f1b0936c502bf111a1349145":[4,1,0,864,70],
 "d5/d88/classSettingsCache.html#a8eefa090abbb38a1e27b7dee08ce5ceb":[4,1,0,864,52],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "d5/da7/classTabAccount.html#ae4f69a2b37373e95717ab9261697fb17":[4,1,0,905,20],
 "d5/da7/classTabAccount.html#aee13066d9610cc41f5ca60949c8e3137":[4,1,0,905,19],
 "d5/da7/classTabAccount.html#af8f32426d4a6c41513b9b94860c39934":[4,1,0,905,21],
-"d5/da7/classTabAccount.html#af9f2b2f47ca3bb01313b34f5688f581f":[4,1,0,905,12],
-"d5/dab/visual__deck__storage__sort__widget_8h.html":[3,1,0,5,1,6]
+"d5/da7/classTabAccount.html#af9f2b2f47ca3bb01313b34f5688f581f":[4,1,0,905,12]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"d3/dc1/classMessageSettings.html#ab4df3613fc6c3a5ba68c3e3db8b7817d":[4,1,0,612,2],
 "d3/dc1/classMessageSettings.html#ae2f1a23d9684192661188d3e14d4859a":[4,1,0,612,0],
 "d3/dc2/response__deck__list_8proto.html":[4,2,0,8,0,0,0,144],
 "d3/dc2/response__deck__list_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,144,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "d3/de4/classPlayerGraphicsItem.html#afad99603356aed7457f2b172ff3150d3":[4,1,0,666,47],
 "d3/de4/classPlayerGraphicsItem.html#afbef0a295503582741c50756a53fdb8a":[4,1,0,666,25],
 "d3/de4/classPlayerGraphicsItem.html#afcafe76822c44781bd0a4cd4838854bc":[4,1,0,666,39],
-"d3/de4/structDeckList_1_1Metadata.html":[3,3,3,0],
-"d3/de4/structDeckList_1_1Metadata.html#a14533dc7d3e6f81caa0f061abfafe9af":[3,3,3,0,1]
+"d3/de4/structDeckList_1_1Metadata.html":[3,3,3,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"d4/db9/classAbstractCardItem.html#ad8a167428961aa8ed0b526766d024870":[4,1,0,10,32],
 "d4/db9/classAbstractCardItem.html#adf25a32445087deb76c8422a85aa79cc":[4,1,0,10,48],
 "d4/db9/classAbstractCardItem.html#ae36536ddb4ab1aef8110d8c8b541342a":[4,1,0,10,20],
 "d4/db9/classAbstractCardItem.html#ae83a692db002deaab488f663964644a6":[4,1,0,10,36],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "d5/d08/sideboard__menu_8cpp.html":[4,2,0,0,1,4,4,0,21],
 "d5/d0c/printing__info_8cpp.html":[4,2,0,2,0,0,3,2],
 "d5/d0e/classServatrice.html":[4,1,0,790],
-"d5/d0e/classServatrice.html#a0015f412f40870b6f435727e72a34b9f":[4,1,0,790,50],
-"d5/d0e/classServatrice.html#a017e4a5114f59f1f91b07c72d6603989":[4,1,0,790,122]
+"d5/d0e/classServatrice.html#a0015f412f40870b6f435727e72a34b9f":[4,1,0,790,50]
 };

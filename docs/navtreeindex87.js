@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"df/d29/visual__database__filter__display__widget_8h.html":[3,2,4,2,1,7],
+"df/d2a/classArrowItem.html":[4,1,0,51],
 "df/d2a/classArrowItem.html#a02d4af80c7e0e23bb1f189bb0988571a":[4,1,0,51,7],
 "df/d2a/classArrowItem.html#a0b98fd952ae58f9658cb49377a801a58":[4,1,0,51,13],
 "df/d2a/classArrowItem.html#a186b49a2f42e2db49bb538203bf7b655":[4,1,0,51,34],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "df/d4c/arrow__item_8h_source.html":[4,2,0,0,1,4,0,9],
 "df/d4c/structCommand__LeaveRoom_1_1RoomCommand.html":[4,1,0,208,0],
 "df/d4c/structCommand__LeaveRoom_1_1RoomCommand.html#ac8808993697dfec20fd395bdfe97ad7d":[4,1,0,208,0,0],
-"df/d4e/classExactCard.html":[3,2,2,0],
-"df/d4e/classExactCard.html#a1283cb6a841b0da2335ae430cbd22aba":[3,2,2,0,1],
-"df/d4e/classExactCard.html#a184afb95828482d71ebf2f7db53b2eb5":[3,2,2,0,10]
+"df/d4e/classExactCard.html":[3,2,2,0]
 };

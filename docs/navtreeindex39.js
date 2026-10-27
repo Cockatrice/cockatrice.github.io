@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"d7/d2f/interface__game__settings__provider_8h_source.html":[4,2,0,5,0,0,7],
+"d7/d30/classColorIdentityWidget.html":[4,1,0,147],
 "d7/d30/classColorIdentityWidget.html#a038c103a40dcff8f70670c9fe553092b":[4,1,0,147,10],
 "d7/d30/classColorIdentityWidget.html#a0d63eccff269bb15c453110cc8c97e8a":[4,1,0,147,3],
 "d7/d30/classColorIdentityWidget.html#a1911b548df538e8e965b9ad963543b5c":[4,1,0,147,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "d7/d67/classUserContextMenu.html#a8360d52f6d34a2ff267b2e16b73b4761":[4,1,0,958,42],
 "d7/d67/classUserContextMenu.html#a8832d6f39d9cdc3a8054eb394c492a5d":[4,1,0,958,0],
 "d7/d67/classUserContextMenu.html#a88f27c8c806fb4ce91fa9a35533dc0b4":[4,1,0,958,25],
-"d7/d67/classUserContextMenu.html#a895d949638c0a8b3e08734cb0413ca96":[4,1,0,958,38],
-"d7/d67/classUserContextMenu.html#a8a3b0815841f99176221168ed72c0d15":[4,1,0,958,5],
-"d7/d67/classUserContextMenu.html#a8bd9614726add4ad4a9190f62d2c6adf":[4,1,0,958,12]
+"d7/d67/classUserContextMenu.html#a895d949638c0a8b3e08734cb0413ca96":[4,1,0,958,38]
 };

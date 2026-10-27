@@ -135,6 +135,8 @@ Include dependency graph for restart_manager_holders.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a04a8e2f4d4a7c2d89adf7313a413a636" id="r_a04a8e2f4d4a7c2d89adf7313a413a636"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a04a8e2f4d4a7c2d89adf7313a413a636">isPayloadProgram</a> (const std::wstring &amp;imageName)</td></tr>
+<tr class="memdesc:a04a8e2f4d4a7c2d89adf7313a413a636"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether <code class="param">imageName</code> is one of the programs the payload installs.  <br /></td></tr>
 <tr class="memitem:a8ba4c589b751eb643c95f3ec56b7005c" id="r_a8ba4c589b751eb643c95f3ec56b7005c"><td class="memItemLeft">std::vector&lt; std::wstring &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a8ba4c589b751eb643c95f3ec56b7005c">collectPayloadFiles</a> (const std::wstring &amp;installDir)</td></tr>
 <tr class="memdesc:a8ba4c589b751eb643c95f3ec56b7005c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists the payload files, as full paths.  <br /></td></tr>
 <tr class="memitem:a90874031ee8552558a49c6dec722e608" id="r_a90874031ee8552558a49c6dec722e608"><td class="memItemLeft">unsigned long&#160;</td><td class="memItemRight"><a class="el" href="#a90874031ee8552558a49c6dec722e608">findProcessesUsingFiles</a> (const std::vector&lt; std::wstring &gt; &amp;files, std::vector&lt; <a class="el" href="../../d3/d5a/structHolder.html">Holder</a> &gt; &amp;holders)</td></tr>
@@ -167,7 +169,7 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d78/restart__manager__holders_8cpp_a7685f3cae23d65fa1793b6ff33825218_cgraph.svg" width="146" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d78/restart__manager__holders_8cpp_a7685f3cae23d65fa1793b6ff33825218_cgraph.svg" width="332" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -236,7 +238,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d78/restart__manager__holders_8cpp_a71ba0f6b00c611d9531a220949e8d8de_cgraph.svg" width="391" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d78/restart__manager__holders_8cpp_a71ba0f6b00c611d9531a220949e8d8de_cgraph.svg" width="578" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -283,6 +285,42 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d78/restart__manager__holders_8cpp_a90874031ee8552558a49c6dec722e608_icgraph.svg" width="292" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a04a8e2f4d4a7c2d89adf7313a413a636" name="a04a8e2f4d4a7c2d89adf7313a413a636"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04a8e2f4d4a7c2d89adf7313a413a636">&#9670;&#160;</a></span>isPayloadProgram()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool isPayloadProgram </td>
+          <td>(</td>
+          <td class="paramtype">const std::wstring &amp;</td>          <td class="paramname"><span class="paramname"><em>imageName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether <code class="param">imageName</code> is one of the programs the payload installs. </p>
+<p>The single place that answers which images are Cockatrice's own, so the guard ends the same set it names. Matched case-insensitively on the image name alone: only holders are ever tested against it, and a holder is a process that has a payload file open or runs from the install directory.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">imageName</td><td>the file name of a process image, empty when it could not be read. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d78/restart__manager__holders_8cpp_a04a8e2f4d4a7c2d89adf7313a413a636_cgraph.svg" width="150" height="60"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d78/restart__manager__holders_8cpp_a04a8e2f4d4a7c2d89adf7313a413a636_icgraph.svg" width="100%" height="439"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

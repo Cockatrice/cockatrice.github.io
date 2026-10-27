@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"d4/d18/interface__deck__editor__settings__provider_8h.html":[4,2,0,5,0,0,6],
 "d4/d18/interface__deck__editor__settings__provider_8h_source.html":[4,2,0,5,0,0,6],
 "d4/d18/visual__deck__storage__folder__display__widget_8h.html":[3,1,0,5,1,1],
 "d4/d18/visual__deck__storage__folder__display__widget_8h.html":[3,3,2,0,0,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "d4/d51/card__set_8cpp.html":[4,2,0,2,0,0,5,0],
 "d4/d55/classInnerDecklistNode.html":[4,1,0,540],
 "d4/d55/classInnerDecklistNode.html#a00d0ad3db930e3374d2c2d2599c2d661":[4,1,0,540,19],
-"d4/d55/classInnerDecklistNode.html#a0b561ece7a960acc3d8c3f00865cbf54":[4,1,0,540,2],
-"d4/d55/classInnerDecklistNode.html#a0b5a2e95bbf05f6d153f222dcb00a5cc":[4,1,0,540,25]
+"d4/d55/classInnerDecklistNode.html#a0b561ece7a960acc3d8c3f00865cbf54":[4,1,0,540,2]
 };
