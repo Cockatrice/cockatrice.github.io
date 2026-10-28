@@ -835,7 +835,7 @@ var searchData=
   ['sigconnecttoserver_832',['sigConnectToServer',['../db/d53/classRemoteClient.html#ab936c1135a9d092129cd6e5a83efa426',1,'RemoteClient']]],
   ['sigdisconnectfromserver_833',['sigDisconnectFromServer',['../db/d53/classRemoteClient.html#ab4f89388e07e5663ab3d542e933e5166',1,'RemoteClient']]],
   ['sigflushbuffer_834',['sigFlushBuffer',['../d7/d98/classServerLogger.html#a7e3a1951a4e8183432970cd0b39fc95f',1,'ServerLogger']]],
-  ['sigforgotpassworderror_835',['sigForgotPasswordError',['../db/d53/classRemoteClient.html#a37ea980232ba56b97421e35f4ef2df0a',1,'RemoteClient']]],
+  ['sigforgotpassworderror_835',['sigForgotPasswordError',['../db/d53/classRemoteClient.html#a938e90cfdbfffd349aec2b911ce76cb2',1,'RemoteClient']]],
   ['sigforgotpasswordsuccess_836',['sigForgotPasswordSuccess',['../db/d53/classRemoteClient.html#a8d75e47be74e51e4a3b805b408c7b296',1,'RemoteClient']]],
   ['sighuphandler_837',['sigHupHandler',['../df/dc9/classSignalHandler.html#aebef0786c8a2da84e5f8bac0cdb2a60b',1,'SignalHandler']]],
   ['signalhandler_838',['SignalHandler',['../df/dc9/classSignalHandler.html#ae12a2e068be74d669d3a5678896d4b42',1,'SignalHandler']]],

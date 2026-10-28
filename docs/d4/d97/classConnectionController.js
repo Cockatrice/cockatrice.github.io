@@ -11,7 +11,7 @@ var classConnectionController =
     [ "onActivateAccepted", "d4/d97/classConnectionController.html#a9e31945283f50071c0b23cf4402d0543", null ],
     [ "onActivateError", "d4/d97/classConnectionController.html#a492eaa503919d3a0fc02422af14eaa0f", null ],
     [ "onConnectionClosedEvent", "d4/d97/classConnectionController.html#a7eb49af91ddcdc2100b16dfcf5225875", null ],
-    [ "onForgotPasswordError", "d4/d97/classConnectionController.html#aabd9160c89a0563dadad3022ad62b2e9", null ],
+    [ "onForgotPasswordError", "d4/d97/classConnectionController.html#afd0a170462724a7e580ac4b52fceac4a", null ],
     [ "onForgotPasswordSuccess", "d4/d97/classConnectionController.html#a178e600e168ab592b791953a4cfafe49", null ],
     [ "onLoginError", "d4/d97/classConnectionController.html#ab0367ac207951b4ae981f838adc623dd", null ],
     [ "onNotifyUserAboutUpdate", "d4/d97/classConnectionController.html#a02351d3de5919516ab18e64e7b8dd83a", null ],

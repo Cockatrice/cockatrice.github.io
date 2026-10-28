@@ -47,7 +47,7 @@ var classRemoteClient =
     [ "sigActivateToServer", "db/d53/classRemoteClient.html#a80c28f7e97f57dc2ac5028096b263c26", null ],
     [ "sigConnectToServer", "db/d53/classRemoteClient.html#ab936c1135a9d092129cd6e5a83efa426", null ],
     [ "sigDisconnectFromServer", "db/d53/classRemoteClient.html#ab4f89388e07e5663ab3d542e933e5166", null ],
-    [ "sigForgotPasswordError", "db/d53/classRemoteClient.html#a37ea980232ba56b97421e35f4ef2df0a", null ],
+    [ "sigForgotPasswordError", "db/d53/classRemoteClient.html#a938e90cfdbfffd349aec2b911ce76cb2", null ],
     [ "sigForgotPasswordSuccess", "db/d53/classRemoteClient.html#a8d75e47be74e51e4a3b805b408c7b296", null ],
     [ "sigPasswordVerifierReady", "db/d53/classRemoteClient.html#a8d078b57fdaaf4b229b38359b5fbfd96", null ],
     [ "sigPromptForForgotPasswordChallenge", "db/d53/classRemoteClient.html#aa0a78030dc27255ae4a364556c29473c", null ],
