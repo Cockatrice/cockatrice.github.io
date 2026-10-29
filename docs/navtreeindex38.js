@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"d6/df6/structpeg_1_1OpeSignature.html#a03b017af6f436d34ef124ce3b0834b19":[4,0,0,28,49,2],
+"d6/df6/structpeg_1_1OpeSignature.html#a03b017af6f436d34ef124ce3b0834b19":[4,1,0,5,48,2],
 "d6/df6/structpeg_1_1OpeSignature.html#a06b437494ba9b4cd89fd3806563febec":[4,0,0,28,49,20],
 "d6/df6/structpeg_1_1OpeSignature.html#a06b437494ba9b4cd89fd3806563febec":[4,1,0,5,48,20],
 "d6/df6/structpeg_1_1OpeSignature.html#a121d5bc34d00191833059a1c08bb5a0b":[4,0,0,28,49,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "d7/d29/classCardCompleterDelegate.html#ae23c67608400e056bc90e762627755db":[4,1,0,77,1],
 "d7/d29/classCardCompleterDelegate.html#aedfcd765012c3dba9c50c1dd5292028f":[4,1,0,77,11],
 "d7/d2c/playmat__settings__dialog_8cpp.html":[4,2,0,0,1,5,6,8,4],
-"d7/d2e/structCommand__SetCardAttr_1_1GameCommand.html":[4,1,0,251,0],
-"d7/d2e/structCommand__SetCardAttr_1_1GameCommand.html#aa3cfe787d163dbe411d6fc54b0d77a66":[4,1,0,251,0,0],
-"d7/d2f/interface__game__settings__provider_8h.html":[4,2,0,5,0,0,7]
+"d7/d2e/structCommand__SetCardAttr_1_1GameCommand.html":[4,1,0,251,0]
 };

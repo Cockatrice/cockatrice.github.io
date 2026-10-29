@@ -1,5 +1,8 @@
 var NAVTREEINDEX81 =
 {
+"de/d24/classCommanderSpellbookApiAccessor.html":[4,1,0,272],
+"de/d24/classCommanderSpellbookApiAccessor.html#a08029aa692892eae04571136615360ac":[4,1,0,272,3],
+"de/d24/classCommanderSpellbookApiAccessor.html#a0ee2e432828c25ded1931d46b1118bd0":[4,1,0,272,0],
 "de/d24/classCommanderSpellbookApiAccessor.html#a3c92afceb54b21ea0841f7073e40064c":[4,1,0,272,8],
 "de/d24/classCommanderSpellbookApiAccessor.html#a9ee5edb4a43e35a0b1e7df74152d7234":[4,1,0,272,7],
 "de/d24/classCommanderSpellbookApiAccessor.html#aa064c9f7cbb7376908d461512487eec5":[4,1,0,272,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX81 =
 "de/d45/structZoneCounts.html":[4,1,0,1008],
 "de/d45/structZoneCounts.html#a36f435d40f9dfa0b97ba4ffde270dec5":[4,1,0,1008,1],
 "de/d45/structZoneCounts.html#a895c84d75dd7f442ed7f7e1c0a0f68f5":[4,1,0,1008,0],
-"de/d45/structZoneCounts.html#a9888fe03bcb22f4a40a6763118003124":[4,1,0,1008,2],
-"de/d47/structDeckShareSummaryRecord.html":[4,1,0,338],
-"de/d47/structDeckShareSummaryRecord.html#a07926d13de6be217511e5a2efc8544d8":[4,1,0,338,4],
-"de/d47/structDeckShareSummaryRecord.html#a0d37e9b4a0b65c4dfd5a2a8b71d51cf5":[4,1,0,338,3]
+"de/d45/structZoneCounts.html#a9888fe03bcb22f4a40a6763118003124":[4,1,0,1008,2]
 };

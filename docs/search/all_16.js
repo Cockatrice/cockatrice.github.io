@@ -716,7 +716,7 @@ var searchData=
   ['responses_713',['API Responses',['../d5/d37/group__ApiResponses.html',1,'']]],
   ['responsetype_714',['ResponseType',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442',1,'Response']]],
   ['responsibilities_715',['Responsibilities',['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#responsibilities',1,'Responsibilities'],['../db/d15/game_event_handler.html#responsibilities-1',1,'Responsibilities'],['../d4/d5b/player_event_handler.html#responsibilities-2',1,'Responsibilities']]],
-  ['responsibilities_3a_716',['Responsibilities:',['../dc/d8b/classSideboardPlan.html#responsibilities-3',1,'Responsibilities:'],['../d3/de9/classAbstractDecklistCardNode.html#responsibilities-4',1,'Responsibilities:'],['../d4/d55/classInnerDecklistNode.html#responsibilities-5',1,'Responsibilities:']]],
+  ['responsibilities_3a_716',['Responsibilities:',['../d3/de9/classAbstractDecklistCardNode.html#responsibilities-3',1,'Responsibilities:'],['../dc/d8b/classSideboardPlan.html#responsibilities-4',1,'Responsibilities:'],['../d4/d55/classInnerDecklistNode.html#responsibilities-5',1,'Responsibilities:']]],
   ['responsibilities_3a_717',['Core responsibilities:',['../da/d68/classDeckList.html#core-responsibilities',1,'']]],
   ['resppasswordchangerequired_718',['RespPasswordChangeRequired',['../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451da7517a91ad1830e8d6e7a920b819542bf',1,'Response']]],
   ['resppasswordtooshort_719',['RespPasswordTooShort',['../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451dafa23fb4acdd0dbdbfeb373a44b592cb5',1,'Response']]],

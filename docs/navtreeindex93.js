@@ -1,5 +1,8 @@
 var NAVTREEINDEX93 =
 {
+"df/dfc/classDlgRollDice.html#a35c6741770011e384ab2c7da86c7cfbc":[4,1,0,375,8],
+"df/dfc/classDlgRollDice.html#a42a6b67b69ee85454c10694d9d17f8fd":[4,1,0,375,9],
+"df/dfc/classDlgRollDice.html#a62c6e4397b082a8a77c6349bfbc91fc7":[4,1,0,375,6],
 "df/dfc/classDlgRollDice.html#a75818b2c166a67f51883c314d0bb4625":[4,1,0,375,5],
 "df/dfc/classDlgRollDice.html#a7b45dabff563b3275a940934544b633e":[4,1,0,375,4],
 "df/dfc/classDlgRollDice.html#a8245ab430438892579042eb1be7ff023":[4,1,0,375,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX93 =
 "dir_df7f27d4a6d9791fdd37e1ba65480219.html":[4,2,0,0,1,5,6,5,0,0,1],
 "dir_dfba2d28f18649f7ad87a35860a92af4.html":[4,2,0,13,1],
 "dir_e2332585d68324aa03276c55910070d7.html":[4,2,0,2,0,0,5],
-"dir_e4645ecbfc91d4e08ab2a10db41488eb.html":[4,2,0,0,1,5,6,14,0,0],
-"dir_e642b924ab2a1ee0860edb6e8656564d.html":[4,2,0,0,1,4,4,0],
-"dir_e68e8157741866f444e17edd764ebbae.html":[4,2,0,1],
-"dir_e6f2a239fe73dbef301891463e6c47dc.html":[4,2,0,2,0,0,4]
+"dir_e4645ecbfc91d4e08ab2a10db41488eb.html":[4,2,0,0,1,5,6,14,0,0]
 };

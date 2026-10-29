@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"d6/dc6/classShortcutTreeView.html#a145884152ab3e5c6b3616dfed89741d9":[4,1,0,885,4],
+"d6/dc6/classShortcutTreeView.html#a4884e74bd98c62d0b04757c77f6e5e0c":[4,1,0,885,6],
 "d6/dc6/classShortcutTreeView.html#a6d2d5e804d6737c52c945b123a7baa33":[4,1,0,885,8],
 "d6/dc6/classShortcutTreeView.html#a7eef126e24a1e432e998bfc98299f794":[4,1,0,885,0],
 "d6/dc6/classShortcutTreeView.html#a9d7d88c047f506b84afc5a0bb47229ce":[4,1,0,885,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "d6/df5/classVisualDatabaseDisplayNameFilterWidget.html#af20b0e3538638c501347e5bb5b0f99a2":[4,1,0,980,10],
 "d6/df5/classVisualDatabaseDisplayNameFilterWidget.html#af377fd8cb6b4c72e5d2c2c098ba8b9af":[4,1,0,980,13],
 "d6/df6/structpeg_1_1OpeSignature.html":[4,0,0,28,49],
-"d6/df6/structpeg_1_1OpeSignature.html":[4,1,0,5,48],
-"d6/df6/structpeg_1_1OpeSignature.html#a03b017af6f436d34ef124ce3b0834b19":[4,0,0,28,49,2],
-"d6/df6/structpeg_1_1OpeSignature.html#a03b017af6f436d34ef124ce3b0834b19":[4,1,0,5,48,2]
+"d6/df6/structpeg_1_1OpeSignature.html":[4,1,0,5,48]
 };

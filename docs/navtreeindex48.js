@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"d8/dd5/structCommand__ChangeZoneProperties_1_1GameCommand.html":[4,1,0,158,0],
+"d8/dd5/structCommand__ChangeZoneProperties_1_1GameCommand.html#a862152d80f885b91446f1e64d3355026":[4,1,0,158,0,0],
 "d8/dd6/settings__search__model_8cpp.html":[3,1,0,0,14],
 "d8/dd8/structEstimateBracketResult.html":[4,1,0,419],
 "d8/dd8/structEstimateBracketResult.html#a32dcc005eddc6e8dd0efb57119576c8a":[4,1,0,419,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "d9/d01/format__legality__rules_8cpp.html#a0482d7e922d5cca6d28fb6e26d35b783":[4,2,0,2,0,0,1,0,2],
 "d9/d01/format__legality__rules_8cpp.html#a53c095b9060dd1b1b38a763d2aa412ab":[4,2,0,2,0,0,1,0,0],
 "d9/d01/format__legality__rules_8cpp.html#ac767ed411bf1754fd4afe663f10b797d":[4,2,0,2,0,0,1,0,1],
-"d9/d01/structServerInfo__Warning.html":[4,1,0,846],
-"d9/d01/structServerInfo__Warning.html#a1b4a53bc1f30d641152bc5037cb9d73e":[4,1,0,846,3],
-"d9/d01/structServerInfo__Warning.html#a2793316312e9d3cbbcc9c48e78037ba3":[4,1,0,846,2]
+"d9/d01/structServerInfo__Warning.html":[4,1,0,846]
 };

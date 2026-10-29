@@ -1,5 +1,8 @@
 var NAVTREEINDEX84 =
 {
+"de/d9d/peglib_8h.html#a3f4d2dfe822a32c9393337358c0b1879":[4,2,0,11,0,0,17,86],
+"de/d9d/peglib_8h.html#a42fa870d4b44624dfe8b6c35a3adf6db":[4,2,0,11,0,0,17,143],
+"de/d9d/peglib_8h.html#a479f50ddeca68fdc0045264287c2a908":[4,2,0,11,0,0,17,130],
 "de/d9d/peglib_8h.html#a4a6becb3c7ad12c4628383d962af846d":[4,2,0,11,0,0,17,147],
 "de/d9d/peglib_8h.html#a4b823e98a2be8a2c4fc24aec230543c3":[4,2,0,11,0,0,17,132],
 "de/d9d/peglib_8h.html#a4dc01adfca52d45b39cde9221cd2644e":[4,2,0,11,0,0,17,126],
@@ -246,8 +249,5 @@ var NAVTREEINDEX84 =
 "de/dba/classChatSettings.html#ac2360636f99d5743f7128ebdff0a7566":[4,1,0,136,1],
 "de/dba/classChatSettings.html#ac516037464b18f8011dcb1c8080605a6":[4,1,0,136,11],
 "de/dba/classChatSettings.html#ac6e2f1b84edb84a2b2f7ecf5997dad48":[4,1,0,136,17],
-"de/dba/classChatSettings.html#aca0ca05a03aa66255c075753e330319e":[4,1,0,136,25],
-"de/dba/classChatSettings.html#acb22ff5d7e730defd8800e684c832837":[4,1,0,136,7],
-"de/dba/classChatSettings.html#acf787cb064021c674cd6e3209fb2ce22":[4,1,0,136,2],
-"de/dba/classChatSettings.html#ad948c8b6a9158f6c1bb7db160fd694f9":[4,1,0,136,31]
+"de/dba/classChatSettings.html#aca0ca05a03aa66255c075753e330319e":[4,1,0,136,25]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX88 =
 {
+"df/d4c/structCommand__LeaveRoom_1_1RoomCommand.html":[4,1,0,208,0],
+"df/d4c/structCommand__LeaveRoom_1_1RoomCommand.html#ac8808993697dfec20fd395bdfe97ad7d":[4,1,0,208,0,0],
+"df/d4e/classExactCard.html":[3,2,2,0],
 "df/d4e/classExactCard.html#a1283cb6a841b0da2335ae430cbd22aba":[3,2,2,0,1],
 "df/d4e/classExactCard.html#a184afb95828482d71ebf2f7db53b2eb5":[3,2,2,0,10],
 "df/d4e/classExactCard.html#a1ed6121dc01e43a0d7004ef568e07a42":[3,2,2,0,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX88 =
 "df/d81/classUserInfoPopup.html#a23c7d1915e3d68d6d034ae128d692e6c":[4,1,0,961,44],
 "df/d81/classUserInfoPopup.html#a278890ee19ed2884b2aa667700003306":[4,1,0,961,45],
 "df/d81/classUserInfoPopup.html#a2d474129d69ee5dcbc6bb38e7eac50c6":[4,1,0,961,13],
-"df/d81/classUserInfoPopup.html#a2eb85a0ecac4be53e6e227d88fbd530f":[4,1,0,961,39],
-"df/d81/classUserInfoPopup.html#a372624de87ab6edf4dc11a7f518ff60e":[4,1,0,961,49],
-"df/d81/classUserInfoPopup.html#a374ce5c6188c6766d65e29c3f3a5f5d7":[4,1,0,961,42],
-"df/d81/classUserInfoPopup.html#a3cd2fe7fe0bb2a44d9e731d577a3249c":[4,1,0,961,51]
+"df/d81/classUserInfoPopup.html#a2eb85a0ecac4be53e6e227d88fbd530f":[4,1,0,961,39]
 };

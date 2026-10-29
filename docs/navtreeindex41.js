@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"d7/d93/structCardInfo_1_1UiAttributes.html#a5aa3351ded5ed426a1e6963ec4d5cdb2":[3,2,9,2],
+"d7/d93/structCardInfo_1_1UiAttributes.html#aaf97bfd86c391c2bc5eadbba06c8a2a0":[3,2,9,1],
 "d7/d93/structCardInfo_1_1UiAttributes.html#ac38509a804bc9c8087b0e008a4c168a4":[3,2,9,0],
 "d7/d93/structCardInfo_1_1UiAttributes.html#af602e5a87ff93ff67926a22dc6b5b637":[3,2,9,3],
 "d7/d94/cockatrice__xml__3_8h.html":[4,2,0,2,0,0,0,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "d7/dc9/classDlgMyReports.html#acef5296543a75c5608bf838857855514":[4,1,0,372,0],
 "d7/dc9/classDlgMyReports.html#ad94f45c8947f8d9ca1212d81b0c3cdba":[4,1,0,372,7],
 "d7/dc9/classDlgMyReports.html#adba86856590f46355119ab8e441e422a":[4,1,0,372,2],
-"d7/dc9/classDlgMyReports.html#adc43c996137e0bb723947d1d7ad9dcf0":[4,1,0,372,17],
-"d7/dc9/classDlgMyReports.html#ae05ee5b6708bf06ca47b13271c525bcc":[4,1,0,372,20],
-"d7/dc9/classDlgMyReports.html#ae6588746a44203f78c72f1ab5dee4386":[4,1,0,372,6]
+"d7/dc9/classDlgMyReports.html#adc43c996137e0bb723947d1d7ad9dcf0":[4,1,0,372,17]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX76 =
 {
+"dd/d81/classTabSupervisor.html#aae7b2bbfe975a3f726746cd4236c9d3c":[4,1,0,931,86],
+"dd/d81/classTabSupervisor.html#aaedab92a60588dba7e865bf65bc174b3":[4,1,0,931,25],
+"dd/d81/classTabSupervisor.html#ab1ba13561cc2d3880050d711c4335ac3":[4,1,0,931,81],
 "dd/d81/classTabSupervisor.html#ab217e765f7c192ab447fe34ab3187055":[4,1,0,931,127],
 "dd/d81/classTabSupervisor.html#ab262a2fe145ac19d7529a8fdf7c47b93":[4,1,0,931,75],
 "dd/d81/classTabSupervisor.html#ab31f2589bbdc2d7948e0223f403c6d3f":[4,1,0,931,67],
@@ -246,8 +249,5 @@ var NAVTREEINDEX76 =
 "dd/daa/cryptoutil_8cpp.html":[4,2,0,11,0,0,4],
 "dd/daa/cryptoutil_8cpp.html#a4d91ba6d7a7b92307eaa3044a0373dfa":[4,2,0,11,0,0,4,4],
 "dd/daa/cryptoutil_8cpp.html#ac71fa8142c64d73e58673cabd554c2b6":[4,2,0,11,0,0,4,5],
-"dd/daa/cryptoutil_8cpp.html#ae735532de2c070de18de8fb623accdd5":[4,2,0,11,0,0,4,7],
-"dd/daa/cryptoutil_8cpp.html#afceb141cbc33fdddd5d0763d7bd43a87":[4,2,0,11,0,0,4,6],
-"dd/dab/classDeckStateManager.html":[4,1,0,339],
-"dd/dab/classDeckStateManager.html#a073f71448e77098ed0387f8b959fba02":[4,1,0,339,52]
+"dd/daa/cryptoutil_8cpp.html#ae735532de2c070de18de8fb623accdd5":[4,2,0,11,0,0,4,7]
 };

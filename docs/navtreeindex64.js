@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"db/d70/classOracleImporter.html#acfddc9ce72411abd6cda8c6012538075":[4,1,0,630,7],
+"db/d70/classOracleImporter.html#ad6b43f6f3040e64369a3259796bc99d6":[4,1,0,630,22],
 "db/d70/classOracleImporter.html#adae9c14ed857838b09cfca834a416712":[4,1,0,630,13],
 "db/d70/classOracleImporter.html#ae50a902231416c696121f62c286fcafb":[4,1,0,630,5],
 "db/d70/classOracleImporter.html#ae6ce268fda3a972cf293f4a720a3f162":[4,1,0,630,11],
@@ -56,6 +58,7 @@ var NAVTREEINDEX64 =
 "db/d80/group__Core.html":[3,0],
 "db/d87/lazy__properties__hash_8cpp.html":[4,2,0,2,0,0,13],
 "db/d89/close__holders_8h.html":[4,2,0,15,0,1],
+"db/d89/close__holders_8h.html#a1f55d2fb0ad38926b071251741262668":[4,2,0,15,0,1,4],
 "db/d89/close__holders_8h.html#a297a36b5f73cba7b730f767abb5fc8de":[4,2,0,15,0,1,3],
 "db/d89/close__holders_8h.html#ac393759e2c4a46ce9589272f2a1c1de4":[4,2,0,15,0,1,2],
 "db/d89/close__holders_8h_source.html":[4,2,0,15,0,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX64 =
 "db/da9/structpeg_1_1ErrorInfo.html#a961933f38b6cc3ce69256e437088ca96":[4,1,0,5,11,5],
 "db/da9/structpeg_1_1ErrorInfo.html#aba50700eda63a4a6e099ea86e20f87ed":[4,0,0,28,12,4],
 "db/da9/structpeg_1_1ErrorInfo.html#aba50700eda63a4a6e099ea86e20f87ed":[4,1,0,5,11,4],
-"db/da9/structpeg_1_1ErrorInfo.html#abbbc5f183ac6704880a6b7d4e80ad629":[4,0,0,28,12,9],
-"db/da9/structpeg_1_1ErrorInfo.html#abbbc5f183ac6704880a6b7d4e80ad629":[4,1,0,5,11,9],
-"db/da9/structpeg_1_1ErrorInfo.html#ac16bb668295c62acfa8ca90f6a60acdd":[4,0,0,28,12,0],
-"db/da9/structpeg_1_1ErrorInfo.html#ac16bb668295c62acfa8ca90f6a60acdd":[4,1,0,5,11,0]
+"db/da9/structpeg_1_1ErrorInfo.html#abbbc5f183ac6704880a6b7d4e80ad629":[4,0,0,28,12,9]
 };

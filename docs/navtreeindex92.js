@@ -1,5 +1,8 @@
 var NAVTREEINDEX92 =
 {
+"df/dd5/structpeg_1_1SemanticValues.html#a2c5b11b937d6634f21f585720f47e2eb":[4,1,0,5,3,7],
+"df/dd5/structpeg_1_1SemanticValues.html#a2feaf6ddf15638ac6d5cdc8cfe348aef":[4,0,0,28,4,0],
+"df/dd5/structpeg_1_1SemanticValues.html#a2feaf6ddf15638ac6d5cdc8cfe348aef":[4,1,0,5,3,0],
 "df/dd5/structpeg_1_1SemanticValues.html#a41a4b34515fd6b7cac444d6923b489fc":[4,0,0,28,4,6],
 "df/dd5/structpeg_1_1SemanticValues.html#a41a4b34515fd6b7cac444d6923b489fc":[4,1,0,5,3,6],
 "df/dd5/structpeg_1_1SemanticValues.html#a430b5a74a7e2e1dec008fb4534f90329":[4,0,0,28,4,24],
@@ -246,8 +249,5 @@ var NAVTREEINDEX92 =
 "df/dfc/classDlgRollDice.html":[4,1,0,375],
 "df/dfc/classDlgRollDice.html#a0204746f4c15f0693a451c883b112811":[4,1,0,375,1],
 "df/dfc/classDlgRollDice.html#a0f07e03157b32261837d5e7a8a560d94":[4,1,0,375,0],
-"df/dfc/classDlgRollDice.html#a165e8f32c74394a28ade0582c8c8affe":[4,1,0,375,2],
-"df/dfc/classDlgRollDice.html#a35c6741770011e384ab2c7da86c7cfbc":[4,1,0,375,8],
-"df/dfc/classDlgRollDice.html#a42a6b67b69ee85454c10694d9d17f8fd":[4,1,0,375,9],
-"df/dfc/classDlgRollDice.html#a62c6e4397b082a8a77c6349bfbc91fc7":[4,1,0,375,6]
+"df/dfc/classDlgRollDice.html#a165e8f32c74394a28ade0582c8c8affe":[4,1,0,375,2]
 };

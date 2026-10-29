@@ -1,5 +1,8 @@
 var NAVTREEINDEX71 =
 {
+"dc/d96/servatrice__connection__pool_8h_source.html":[4,2,0,13,1,19],
+"dc/d97/room__commands_8proto.html":[4,2,0,8,0,0,0,179],
+"dc/d97/room__commands_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,179,11],
 "dc/d97/room__commands_8proto_source.html":[4,2,0,8,0,0,0,179],
 "dc/d9a/card__info__picture__with__text__overlay__widget_8h.html":[3,1,0,2,5],
 "dc/d9a/card__info__picture__with__text__overlay__widget_8h.html":[3,2,3,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX71 =
 "dc/dd8/classAbstractDecklistNode.html#a53333a4fadb640b224d34327c06487e1":[3,3,0,2,0],
 "dc/dd8/classAbstractDecklistNode.html#a538462c83bd5618501b9ca66fba2b2a0":[3,3,0,2,3],
 "dc/dd8/classAbstractDecklistNode.html#a86f7c1482c7cb8384c489ab2feda5d09":[3,3,0,2,15],
-"dc/dd8/classAbstractDecklistNode.html#a9888346a6af100b2f95b5bc4d661711c":[3,3,0,2,10],
-"dc/dd8/classAbstractDecklistNode.html#a993d84a68de70e01ec1eb3b27dcae2eb":[3,3,0,2,7],
-"dc/dd8/classAbstractDecklistNode.html#aa63a74f48c8f68b8ec7a89a4612fce3f":[3,3,0,2,13],
-"dc/dd8/classAbstractDecklistNode.html#ad987f6b1ced61ac16a537646bfa1a18c":[3,3,0,2,4]
+"dc/dd8/classAbstractDecklistNode.html#a9888346a6af100b2f95b5bc4d661711c":[3,3,0,2,10]
 };

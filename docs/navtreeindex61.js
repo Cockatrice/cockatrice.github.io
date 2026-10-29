@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"db/d00/classServer.html#afebd8b8b26da4d2226322a61de503044":[4,1,0,796,50],
+"db/d00/classServer.html#afef3e90e126a62dcf54038d3b245b9d2":[4,1,0,796,64],
 "db/d02/structSFMT__T.html":[4,1,0,876],
 "db/d02/structSFMT__T.html#a7bf9ad40f20e770d1e703b70248a5386":[4,1,0,876,1],
 "db/d02/structSFMT__T.html#adff6ae93dbd68c2f74a96b99367aba24":[4,1,0,876,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "db/d22/classCardInfoFrameWidget.html#ade1493a57bc4d22d254505fb2e8f31bf":[4,1,0,101,8],
 "db/d22/classCardInfoFrameWidget.html#adeef9ea990201e025d47345531ac04fe":[4,1,0,101,12],
 "db/d22/classCardInfoFrameWidget.html#af99bda67f233a78072ecd6122a8fe497":[4,1,0,101,5],
-"db/d23/structCommand__SetSideboardPlan_1_1GameCommand.html":[4,1,0,256,0],
-"db/d23/structCommand__SetSideboardPlan_1_1GameCommand.html#aeb2aa67af49b47386327dd76f78b1ea3":[4,1,0,256,0,0],
-"db/d26/qxtglobal_8h.html":[4,2,0,13,1,0,0]
+"db/d23/structCommand__SetSideboardPlan_1_1GameCommand.html":[4,1,0,256,0]
 };

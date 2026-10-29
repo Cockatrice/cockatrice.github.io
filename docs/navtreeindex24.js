@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"d4/d8d/classServerProperties.html#a1c398f35085c61b187af6a16e3eafa25":[4,1,0,850,6],
 "d4/d8d/classServerProperties.html#a4e1051d0fde46d91bab7496f4699bb15":[4,1,0,850,2],
 "d4/d8d/classServerProperties.html#aa526ab4d12de9e804c2965226188e410":[4,1,0,850,5],
 "d4/d8d/classServerProperties.html#aea8e03e84c6bcbb2f7335ad5b3956266":[4,1,0,850,4],
@@ -11,8 +12,8 @@ var NAVTREEINDEX24 =
 "d4/d8e/servatrice__database__interface_8h.html#a48e3613be6028b1f67617cfe48dd1420":[4,2,0,13,1,21,4],
 "d4/d8e/servatrice__database__interface_8h_source.html":[4,2,0,13,1,21],
 "d4/d8f/replay_8cpp.html":[4,2,0,0,1,3,17],
-"d4/d91/key__signals_8h.html":[3,1,2],
 "d4/d91/key__signals_8h.html":[3,0,2],
+"d4/d91/key__signals_8h.html":[3,1,2],
 "d4/d92/edhrec__api__response__commander__details__display__widget_8cpp.html":[4,2,0,0,1,5,6,14,0,2,1,2,0],
 "d4/d93/card__drag__item_8cpp.html":[4,2,0,0,1,4,0,12],
 "d4/d93/color__identity__widget_8cpp.html":[4,2,0,0,1,5,6,0,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "d4/db9/classAbstractCardItem.html#abad393f43b88e36ba8db91fa4bdc1222":[4,1,0,10,18],
 "d4/db9/classAbstractCardItem.html#ac3f108080b03c1e1f36bcf204e4a3434":[4,1,0,10,44],
 "d4/db9/classAbstractCardItem.html#ac5ed9426a97a21ecacf47ea0e029dbd4":[4,1,0,10,5],
-"d4/db9/classAbstractCardItem.html#acd08a2ada1e1f7445f16a608f87f5143":[4,1,0,10,22],
-"d4/db9/classAbstractCardItem.html#ad176e4c6e1c553dfa1764a732d223791":[4,1,0,10,50]
+"d4/db9/classAbstractCardItem.html#acd08a2ada1e1f7445f16a608f87f5143":[4,1,0,10,22]
 };

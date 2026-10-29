@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"d9/d01/structServerInfo__Warning.html#a1b4a53bc1f30d641152bc5037cb9d73e":[4,1,0,846,3],
+"d9/d01/structServerInfo__Warning.html#a2793316312e9d3cbbcc9c48e78037ba3":[4,1,0,846,2],
 "d9/d01/structServerInfo__Warning.html#aadedd7171244befe09071d92813c20a3":[4,1,0,846,1],
 "d9/d01/structServerInfo__Warning.html#ad202b1d746b56f3c8baae48043dd4862":[4,1,0,846,0],
 "d9/d02/structCommand__JoinRoom.html":[4,1,0,204],
@@ -188,8 +190,8 @@ var NAVTREEINDEX49 =
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#afaee1384c719b0884d2bdda5d1561889":[4,1,0,5,42,10],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#aff8c5b50652c1096d0f5272454e6933e":[4,0,0,28,43,20],
 "d9/d27/structpeg_1_1AssignIDToDefinition.html#aff8c5b50652c1096d0f5272454e6933e":[4,1,0,5,42,20],
-"d9/d29/home__widget_8h.html":[3,1,0,17],
 "d9/d29/home__widget_8h.html":[3,0,4],
+"d9/d29/home__widget_8h.html":[3,1,0,17],
 "d9/d2a/clamped__arithmetic_8h.html":[4,2,0,11,0,0,1],
 "d9/d2a/clamped__arithmetic_8h.html#aaf9291b5384211dfe747bf6df7252be6":[4,2,0,11,0,0,1,0],
 "d9/d2a/clamped__arithmetic_8h_source.html":[4,2,0,11,0,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "d9/d35/classCardPictureLoaderWorkerWork.html#a92c324257ee44241eaab7c7ea82ab638":[3,2,0,5,18],
 "d9/d35/classCardPictureLoaderWorkerWork.html#a9f43f61df393a775377560ec6cf6327c":[3,1,1,5,11],
 "d9/d35/classCardPictureLoaderWorkerWork.html#a9f43f61df393a775377560ec6cf6327c":[3,2,0,5,11],
-"d9/d35/classCardPictureLoaderWorkerWork.html#ac06d608611c31319887f7c11aa1f8c0c":[3,1,1,5,13],
-"d9/d35/classCardPictureLoaderWorkerWork.html#ac06d608611c31319887f7c11aa1f8c0c":[3,2,0,5,13],
-"d9/d35/classCardPictureLoaderWorkerWork.html#ad5662553bdbb2b6faab62ef1bcf800a8":[3,1,1,5,3]
+"d9/d35/classCardPictureLoaderWorkerWork.html#ac06d608611c31319887f7c11aa1f8c0c":[3,1,1,5,13]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX55 =
 {
+"da/d20/classPhaseButton.html":[4,1,0,654],
+"da/d20/classPhaseButton.html#a08e133f8669b1da61e09295222e276ee":[4,1,0,654,5],
 "da/d20/classPhaseButton.html#a09ec53398115faf2fa0f4953eb8f4a9c":[4,1,0,654,3],
 "da/d20/classPhaseButton.html#a2e351d47a3dadcfc679b666d0f30fe77":[4,1,0,654,1],
 "da/d20/classPhaseButton.html#a3203ead687f075fd4886f197b1358c38":[4,1,0,654,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX55 =
 "da/d3b/classUserListWidget.html#a8e3cd49fb08136b5589fbd135a524cd0":[4,1,0,970,38],
 "da/d3b/classUserListWidget.html#a8e64d25c030af2512fb35da0ea0055c3":[4,1,0,970,86],
 "da/d3b/classUserListWidget.html#a95a37419245c86a7f4be0219add49e6e":[4,1,0,970,60],
-"da/d3b/classUserListWidget.html#a9b1c6447696c3430740d81afccf5826c":[4,1,0,970,88],
-"da/d3b/classUserListWidget.html#a9c97bae9124232e58285cac84d4c550c":[4,1,0,970,17],
-"da/d3b/classUserListWidget.html#aa6fe18b6e149318c226f11153e777422":[4,1,0,970,75]
+"da/d3b/classUserListWidget.html#a9b1c6447696c3430740d81afccf5826c":[4,1,0,970,88]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"db/d23/structCommand__SetSideboardPlan_1_1GameCommand.html#aeb2aa67af49b47386327dd76f78b1ea3":[4,1,0,256,0,0],
+"db/d26/qxtglobal_8h.html":[4,2,0,13,1,0,0],
 "db/d26/qxtglobal_8h.html#a01b94256cdd683a4e2530b7e68bdf783":[4,2,0,13,1,0,0,5],
 "db/d26/qxtglobal_8h.html#a029cc54902f2103f16d8a34075b61ea1":[4,2,0,13,1,0,0,4],
 "db/d26/qxtglobal_8h.html#a02cad05925feac83595fb30226df842f":[4,2,0,13,1,0,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "db/d53/classRemoteClient.html#a938e90cfdbfffd349aec2b911ce76cb2":[4,1,0,716,47],
 "db/d53/classRemoteClient.html#a96b6918942af86845b9736d83f3ae355":[4,1,0,716,79],
 "db/d53/classRemoteClient.html#a99d20047ef5f1d8eed00b6efca0398b2":[4,1,0,716,52],
-"db/d53/classRemoteClient.html#a9e8b2c672c0e3c3a0520f4baaf1d78da":[4,1,0,716,78],
-"db/d53/classRemoteClient.html#aa0a78030dc27255ae4a364556c29473c":[4,1,0,716,50],
-"db/d53/classRemoteClient.html#aa17411596df5da8c9abae96f61b521e6":[4,1,0,716,39]
+"db/d53/classRemoteClient.html#a9e8b2c672c0e3c3a0520f4baaf1d78da":[4,1,0,716,78]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX87 =
 {
+"df/d28/structCommand__DeckShareCreate_1_1SessionCommand.html":[4,1,0,174,0],
+"df/d28/structCommand__DeckShareCreate_1_1SessionCommand.html#ad92e0e4cc849653f3191bdd69792e31e":[4,1,0,174,0,0],
+"df/d29/visual__database__filter__display__widget_8h.html":[3,1,0,3,1,7],
 "df/d29/visual__database__filter__display__widget_8h.html":[3,2,4,2,1,7],
 "df/d2a/classArrowItem.html":[4,1,0,51],
 "df/d2a/classArrowItem.html#a02d4af80c7e0e23bb1f189bb0988571a":[4,1,0,51,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX87 =
 "df/d4b/card__override__settings_8cpp.html":[4,2,0,10,0,0,6],
 "df/d4b/intent_8cpp.html":[4,2,0,0,1,5,3,1],
 "df/d4c/arrow__item_8h.html":[4,2,0,0,1,4,0,9],
-"df/d4c/arrow__item_8h_source.html":[4,2,0,0,1,4,0,9],
-"df/d4c/structCommand__LeaveRoom_1_1RoomCommand.html":[4,1,0,208,0],
-"df/d4c/structCommand__LeaveRoom_1_1RoomCommand.html#ac8808993697dfec20fd395bdfe97ad7d":[4,1,0,208,0,0],
-"df/d4e/classExactCard.html":[3,2,2,0]
+"df/d4c/arrow__item_8h_source.html":[4,2,0,0,1,4,0,9]
 };

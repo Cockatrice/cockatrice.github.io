@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"d6/da1/classCardPictureLoaderWorker.html#abcc325a09a462ba20fa1ed9941e065d7":[3,1,1,4,39],
+"d6/da1/classCardPictureLoaderWorker.html#abcc325a09a462ba20fa1ed9941e065d7":[3,2,0,4,39],
 "d6/da1/classCardPictureLoaderWorker.html#abff858491faddc82f72a3584bb81ae83":[3,1,1,4,49],
 "d6/da1/classCardPictureLoaderWorker.html#abff858491faddc82f72a3584bb81ae83":[3,2,0,4,49],
 "d6/da1/classCardPictureLoaderWorker.html#ac0712c0ea570dd209a5f5d9babbc1540":[3,1,1,4,44],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "d6/dc2/group__Cards.html#ggabc3ced840172c7b624b340e282544a4fafad78f3e80faa64be0eb48bb25465ed3":[3,2,11,1],
 "d6/dc4/deck__state__manager_8h.html":[4,2,0,0,1,5,6,2,19],
 "d6/dc4/deck__state__manager_8h_source.html":[4,2,0,0,1,5,6,2,19],
-"d6/dc6/classShortcutTreeView.html":[4,1,0,885],
-"d6/dc6/classShortcutTreeView.html#a145884152ab3e5c6b3616dfed89741d9":[4,1,0,885,4],
-"d6/dc6/classShortcutTreeView.html#a4884e74bd98c62d0b04757c77f6e5e0c":[4,1,0,885,6]
+"d6/dc6/classShortcutTreeView.html":[4,1,0,885]
 };

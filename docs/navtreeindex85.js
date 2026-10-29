@@ -1,5 +1,8 @@
 var NAVTREEINDEX85 =
 {
+"de/dba/classChatSettings.html#acb22ff5d7e730defd8800e684c832837":[4,1,0,136,7],
+"de/dba/classChatSettings.html#acf787cb064021c674cd6e3209fb2ce22":[4,1,0,136,2],
+"de/dba/classChatSettings.html#ad948c8b6a9158f6c1bb7db160fd694f9":[4,1,0,136,31],
 "de/dba/classChatSettings.html#add1cfc1de3aa97f37a534b6f8e039f2e":[4,1,0,136,20],
 "de/dba/classChatSettings.html#ae2a84771870d1f65387a57fc91df4e05":[4,1,0,136,22],
 "de/dba/classChatSettings.html#ae7685527fcd6a67fe2b4c4ec7792c78e":[4,1,0,136,32],
@@ -246,8 +249,5 @@ var NAVTREEINDEX85 =
 "de/de9/classDeckLoader.html#a1e27104406ed9c0ae00b66426df12823":[4,1,0,325,13],
 "de/de9/classDeckLoader.html#a1f9a7cb6f8a175c62d02d1bac2591f1d":[4,1,0,325,9],
 "de/de9/classDeckLoader.html#a2101fa8ea5deafdbc193cb6daf0653c4":[4,1,0,325,7],
-"de/de9/classDeckLoader.html#a24f3d809aa17c13b02a692f6925b4bcf":[4,1,0,325,6],
-"de/de9/classDeckLoader.html#a2ce4aacbb0dabbfbe9d26d0c705f13a5":[4,1,0,325,20],
-"de/de9/classDeckLoader.html#a31707a44c5de31cfaa84d8999262de22":[4,1,0,325,19],
-"de/de9/classDeckLoader.html#a33e34fac0a06dc83636aa3a3b4c7af77":[4,1,0,325,26]
+"de/de9/classDeckLoader.html#a24f3d809aa17c13b02a692f6925b4bcf":[4,1,0,325,6]
 };

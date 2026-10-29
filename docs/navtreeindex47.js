@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a51805ed40c183448e69aca4458aa7cb6":[3,1,0,4,0,0,0,0],
+"d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a51805ed40c183448e69aca4458aa7cb6":[3,3,1,0,0,0,0],
 "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a51805ed40c183448e69aca4458aa7cb6":[3,3,1,1,0,0,0,0],
 "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#aa5ed3a7109953c59d22312c145f89593":[3,1,0,1,0,0,0,3],
 "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#aa5ed3a7109953c59d22312c145f89593":[3,1,0,4,0,0,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "d8/dcf/classRemoteDeckList__TreeModel.html#afb0d952dc1472c29e352e50a84526e62":[4,1,0,717,27],
 "d8/dcf/classRemoteDeckList__TreeModel.html#afb1406760f696098d9213c8c6308eb4d":[4,1,0,717,3],
 "d8/dd0/structEvent__LeaveRoom.html":[4,1,0,443],
-"d8/dd0/structEvent__LeaveRoom.html#a7209e1838fd94b54692c46d153236d4c":[4,1,0,443,1],
-"d8/dd5/structCommand__ChangeZoneProperties_1_1GameCommand.html":[4,1,0,158,0],
-"d8/dd5/structCommand__ChangeZoneProperties_1_1GameCommand.html#a862152d80f885b91446f1e64d3355026":[4,1,0,158,0,0]
+"d8/dd0/structEvent__LeaveRoom.html#a7209e1838fd94b54692c46d153236d4c":[4,1,0,443,1]
 };

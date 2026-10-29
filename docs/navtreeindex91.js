@@ -1,5 +1,8 @@
 var NAVTREEINDEX91 =
 {
+"df/db0/classPreferencesSetupPage.html#a6059a72f405d086830801efa412c2f31":[4,1,0,683,8],
+"df/db0/classPreferencesSetupPage.html#a67124e903f9b9a44a3e6f10dcd2d9d5e":[4,1,0,683,11],
+"df/db0/classPreferencesSetupPage.html#a88abca6d3c06f95bfa21861ada61fe0b":[4,1,0,683,4],
 "df/db0/classPreferencesSetupPage.html#aa2d42a1e566c6e56853b4d5130812fa7":[4,1,0,683,5],
 "df/db0/classPreferencesSetupPage.html#aa906e834d63ae29b8da78f3a4e825b00":[4,1,0,683,14],
 "df/db0/classPreferencesSetupPage.html#aabe54c01b67785f56f9405b31b64c51f":[4,1,0,683,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX91 =
 "df/dd5/structpeg_1_1SemanticValues.html#a25b1b4be3f62edc85ed2ae5540f827c0":[4,1,0,5,3,13],
 "df/dd5/structpeg_1_1SemanticValues.html#a26271d5afaff6e6d3f00c055c63d0b24":[4,0,0,28,4,17],
 "df/dd5/structpeg_1_1SemanticValues.html#a26271d5afaff6e6d3f00c055c63d0b24":[4,1,0,5,3,17],
-"df/dd5/structpeg_1_1SemanticValues.html#a2c5b11b937d6634f21f585720f47e2eb":[4,0,0,28,4,7],
-"df/dd5/structpeg_1_1SemanticValues.html#a2c5b11b937d6634f21f585720f47e2eb":[4,1,0,5,3,7],
-"df/dd5/structpeg_1_1SemanticValues.html#a2feaf6ddf15638ac6d5cdc8cfe348aef":[4,0,0,28,4,0],
-"df/dd5/structpeg_1_1SemanticValues.html#a2feaf6ddf15638ac6d5cdc8cfe348aef":[4,1,0,5,3,0]
+"df/dd5/structpeg_1_1SemanticValues.html#a2c5b11b937d6634f21f585720f47e2eb":[4,0,0,28,4,7]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"d7/d67/classUserContextMenu.html#a88f27c8c806fb4ce91fa9a35533dc0b4":[4,1,0,958,25],
+"d7/d67/classUserContextMenu.html#a895d949638c0a8b3e08734cb0413ca96":[4,1,0,958,38],
 "d7/d67/classUserContextMenu.html#a8a3b0815841f99176221168ed72c0d15":[4,1,0,958,5],
 "d7/d67/classUserContextMenu.html#a8bd9614726add4ad4a9190f62d2c6adf":[4,1,0,958,12],
 "d7/d67/classUserContextMenu.html#a8e1702cbe6ecdc84fb02d8316a794701":[4,1,0,958,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "d7/d93/classMessageLogWidget.html#af66563bdd83ebe6787bc68fcda776101":[4,1,0,611,37],
 "d7/d93/classMessageLogWidget.html#af9e6981685b98532e0abeb3eb3f89921":[4,1,0,611,33],
 "d7/d93/classMessageLogWidget.html#afbb87a498b9f8dd836a7d0e6d34af58d":[4,1,0,611,31],
-"d7/d93/structCardInfo_1_1UiAttributes.html":[3,2,9],
-"d7/d93/structCardInfo_1_1UiAttributes.html#a5aa3351ded5ed426a1e6963ec4d5cdb2":[3,2,9,2],
-"d7/d93/structCardInfo_1_1UiAttributes.html#aaf97bfd86c391c2bc5eadbba06c8a2a0":[3,2,9,1]
+"d7/d93/structCardInfo_1_1UiAttributes.html":[3,2,9]
 };

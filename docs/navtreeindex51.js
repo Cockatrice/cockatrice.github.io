@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"d9/d74/classEdhrecDeckApiResponse.html#a87b33784fffeef3ca98d6b23f61c7843":[4,1,0,410,2],
+"d9/d75/debug__settings_8cpp.html":[4,2,0,10,0,0,14],
 "d9/d75/servatrice__connection__pool_8cpp.html":[4,2,0,13,1,18],
 "d9/d75/structGameReplay.html":[4,1,0,505],
 "d9/d75/structGameReplay.html#a3c02304fae453a5078182f70f91fe7c0":[4,1,0,505,2],
@@ -147,16 +149,16 @@ var NAVTREEINDEX51 =
 "d9/d98/classCounterState.html#ae75356dde7f215217cb13851611ceef6":[4,1,0,295,8],
 "d9/d99/namespaceSubtypeTally.html":[4,0,0,36],
 "d9/d99/namespaceSubtypeTally.html#a80953f8e6a0dfc0dc98d0d016ccb4f8c":[4,0,0,36,0],
-"d9/d9b/beta_release.html":[0,0,4],
 "d9/d9b/beta_release.html":[0,0,7,8],
-"d9/d9b/beta_release.html#giving-feedback":[0,0,4,3],
+"d9/d9b/beta_release.html":[0,0,4],
 "d9/d9b/beta_release.html#giving-feedback":[0,0,7,8,3],
-"d9/d9b/beta_release.html#switching-back-to-stable":[0,0,4,2],
+"d9/d9b/beta_release.html#giving-feedback":[0,0,4,3],
 "d9/d9b/beta_release.html#switching-back-to-stable":[0,0,7,8,2],
-"d9/d9b/beta_release.html#switching-to-the-beta":[0,0,4,1],
+"d9/d9b/beta_release.html#switching-back-to-stable":[0,0,4,2],
 "d9/d9b/beta_release.html#switching-to-the-beta":[0,0,7,8,1],
-"d9/d9b/beta_release.html#what-to-expect-from-the-beta":[0,0,4,0],
+"d9/d9b/beta_release.html#switching-to-the-beta":[0,0,4,1],
 "d9/d9b/beta_release.html#what-to-expect-from-the-beta":[0,0,7,8,0],
+"d9/d9b/beta_release.html#what-to-expect-from-the-beta":[0,0,4,0],
 "d9/d9c/mana__curve__config_8cpp.html":[4,2,0,0,1,5,6,1,0,2,2],
 "d9/d9c/structUnZip_1_1ZipEntry.html":[4,1,0,949,0],
 "d9/d9c/structUnZip_1_1ZipEntry.html#a0f8f9aada2200f80ea573db3dd2b19f8":[4,1,0,949,0,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "d9/da7/classpeg_1_1Action.html#af688d0eb3181796f6636bfee05e635d5":[4,1,0,5,8,7],
 "d9/da8/edhrec__api__response__card__list_8h.html":[3,3,2,2,2,0,5],
 "d9/da8/edhrec__api__response__card__list_8h.html":[3,3,2,3,0,0,5],
-"d9/da8/edhrec__api__response__card__list_8h.html":[3,5,1,0,0,5],
-"d9/dac/classQxtHmacPrivate.html":[4,1,0,703],
-"d9/dac/classQxtHmacPrivate.html#a30b7c9267ff18b47d2eb980ecd67e607":[4,1,0,703,6]
+"d9/da8/edhrec__api__response__card__list_8h.html":[3,5,1,0,0,5]
 };

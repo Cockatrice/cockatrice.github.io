@@ -28,11 +28,12 @@ var searchData=
   ['windowsizebeforeexpansion_25',['windowSizeBeforeExpansion',['../d3/d60/classCardDatabaseSetupPage.html#a5d4b5afc791c8041873d6adaf791afc7',1,'CardDatabaseSetupPage']]],
   ['with_5fcoords_26',['with_coords',['../df/d6e/structServerInfo__Zone.html#a2748fb0c59d1f683de3d29a5a5197e4b',1,'ServerInfo_Zone']]],
   ['with_5fpassword_27',['with_password',['../d4/dbe/structServerInfo__Game.html#a5931f204d610df928735ed3d92594aad',1,'ServerInfo_Game']]],
-  ['wndsets_28',['wndSets',['../d6/d1a/classMainWindow.html#aea8e652c33d58ab63e8b1c4f1eee7a8b',1,'MainWindow']]],
-  ['word_5fdefinition_5fname_29',['WORD_DEFINITION_NAME',['../dc/db2/namespacepeg.html#a05fef7118467bf5732c5a658a41bb2aa',1,'peg']]],
-  ['wordope_30',['wordOpe',['../df/d94/classpeg_1_1Context.html#a1983c08e355bac46676f3a1fc24f9e0e',1,'peg::Context::wordOpe'],['../d8/d94/classpeg_1_1Definition.html#a028424db0704ddf17e5c5eb69348da16',1,'peg::Definition::wordOpe']]],
-  ['worker_31',['worker',['../d2/d5d/classCardPictureLoader.html#a410348349fde931141ef5b26607fd579',1,'CardPictureLoader']]],
-  ['workingconfig_32',['workingConfig',['../d0/dc0/classPaletteEditorDialog.html#a49e48d4f4d726e4eef8d6539e2b538ee',1,'PaletteEditorDialog']]],
-  ['write_5faccess_5flevel_33',['write_access_level',['../de/de6/structServerInfo__RoomChannel.html#aa29ed503c837b2f352174dbcc874dafe',1,'ServerInfo_RoomChannel']]],
-  ['writeablerevealzone_34',['writeableRevealZone',['../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2',1,'ZoneViewZoneLogic']]]
+  ['withoutwindow_28',['withoutWindow',['../d5/d50/structCloseHoldersResult.html#afc0bb5e19f7a23ce22c13b5a7d1e016f',1,'CloseHoldersResult']]],
+  ['wndsets_29',['wndSets',['../d6/d1a/classMainWindow.html#aea8e652c33d58ab63e8b1c4f1eee7a8b',1,'MainWindow']]],
+  ['word_5fdefinition_5fname_30',['WORD_DEFINITION_NAME',['../dc/db2/namespacepeg.html#a05fef7118467bf5732c5a658a41bb2aa',1,'peg']]],
+  ['wordope_31',['wordOpe',['../df/d94/classpeg_1_1Context.html#a1983c08e355bac46676f3a1fc24f9e0e',1,'peg::Context::wordOpe'],['../d8/d94/classpeg_1_1Definition.html#a028424db0704ddf17e5c5eb69348da16',1,'peg::Definition::wordOpe']]],
+  ['worker_32',['worker',['../d2/d5d/classCardPictureLoader.html#a410348349fde931141ef5b26607fd579',1,'CardPictureLoader']]],
+  ['workingconfig_33',['workingConfig',['../d0/dc0/classPaletteEditorDialog.html#a49e48d4f4d726e4eef8d6539e2b538ee',1,'PaletteEditorDialog']]],
+  ['write_5faccess_5flevel_34',['write_access_level',['../de/de6/structServerInfo__RoomChannel.html#aa29ed503c837b2f352174dbcc874dafe',1,'ServerInfo_RoomChannel']]],
+  ['writeablerevealzone_35',['writeableRevealZone',['../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2',1,'ZoneViewZoneLogic']]]
 ];

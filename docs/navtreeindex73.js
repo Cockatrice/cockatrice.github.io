@@ -1,5 +1,8 @@
 var NAVTREEINDEX73 =
 {
+"dc/dfa/classColorButton.html#ad89587b4f31859919bbb465ef90e5090":[4,1,0,146,1],
+"dc/dfa/filter__card_8h.html":[3,2,4,0,0,3],
+"dc/dfa/mana__symbol__widget_8h.html":[3,1,0,2,0,2],
 "dc/dfa/mana__symbol__widget_8h.html":[3,2,3,0,2],
 "dc/dfb/server__rate__limiter__test_8cpp.html":[4,2,0,14,31],
 "dc/dfb/server__rate__limiter__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,31,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX73 =
 "dd/d39/classOverlapLayout.html#a042656102109645a6cf26622fd6496ba":[4,1,0,636,11],
 "dd/d39/classOverlapLayout.html#a0b44bf56c051a45303bd551a72a8b598":[4,1,0,636,5],
 "dd/d39/classOverlapLayout.html#a1464cf5ff1049df73638f3fc71251311":[4,1,0,636,20],
-"dd/d39/classOverlapLayout.html#a32eca97e83ec1ef154802cb304ea6453":[4,1,0,636,18],
-"dd/d39/classOverlapLayout.html#a49eef5ca689b608e2f18ddd56db30b8e":[4,1,0,636,8],
-"dd/d39/classOverlapLayout.html#a56b7fef8428cc8b035836a055c1b1407":[4,1,0,636,19],
-"dd/d39/classOverlapLayout.html#a56c4eab030518ff0a83f2b3b53a497ea":[4,1,0,636,12]
+"dd/d39/classOverlapLayout.html#a32eca97e83ec1ef154802cb304ea6453":[4,1,0,636,18]
 };

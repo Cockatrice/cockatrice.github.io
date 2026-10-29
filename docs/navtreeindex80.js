@@ -1,5 +1,8 @@
 var NAVTREEINDEX80 =
 {
+"dd/dfd/structpeg_1_1FindLiteralToken.html#ae616f6eb036847ab770377125d712bed":[4,0,0,28,46,16],
+"dd/dfd/structpeg_1_1FindLiteralToken.html#ae616f6eb036847ab770377125d712bed":[4,1,0,5,45,16],
+"dd/dfd/structpeg_1_1FindLiteralToken.html#aeb6c31e4803f3ebc1d7dde5cdbec3651":[4,0,0,28,46,10],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#aeb6c31e4803f3ebc1d7dde5cdbec3651":[4,1,0,5,45,10],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#aec22ed9f58fe866b8574de9bbfd81e69":[4,0,0,28,46,4],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#aec22ed9f58fe866b8574de9bbfd81e69":[4,1,0,5,45,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX80 =
 "de/d23/namespaceDeckLinkToApiTransformer.html#a8cf4d972f85f2f98059b918f6d8460cf":[4,0,0,13,2],
 "de/d23/namespaceDeckLinkToApiTransformer.html#a975381d4207738d8ea5cafe5745d6bd4":[4,0,0,13,1],
 "de/d23/namespaceDeckLinkToApiTransformer.html#ab00138f4b97c67f24509d48d986ef707":[4,0,0,13,0],
-"de/d23/namespaceDeckLinkToApiTransformer.html#aed0f8e3f0a5129eb07e606db68ddc5e3":[4,0,0,13,3],
-"de/d24/classCommanderSpellbookApiAccessor.html":[4,1,0,272],
-"de/d24/classCommanderSpellbookApiAccessor.html#a08029aa692892eae04571136615360ac":[4,1,0,272,3],
-"de/d24/classCommanderSpellbookApiAccessor.html#a0ee2e432828c25ded1931d46b1118bd0":[4,1,0,272,0]
+"de/d23/namespaceDeckLinkToApiTransformer.html#aed0f8e3f0a5129eb07e606db68ddc5e3":[4,0,0,13,3]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX82 =
 {
+"de/d47/structDeckShareSummaryRecord.html":[4,1,0,338],
+"de/d47/structDeckShareSummaryRecord.html#a07926d13de6be217511e5a2efc8544d8":[4,1,0,338,4],
+"de/d47/structDeckShareSummaryRecord.html#a0d37e9b4a0b65c4dfd5a2a8b71d51cf5":[4,1,0,338,3],
 "de/d47/structDeckShareSummaryRecord.html#a1a2ccbda2dfade785b3970987d09284c":[4,1,0,338,0],
 "de/d47/structDeckShareSummaryRecord.html#abf3ca94e7793ab5e59c867e2246db65c":[4,1,0,338,1],
 "de/d47/structDeckShareSummaryRecord.html#af52e00dbb340777aba0e7a48ca729463":[4,1,0,338,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX82 =
 "de/d6c/structCommanderSpellbookCardResult.html#a87ac4eba0bd078ff6816a7fb1fc3493d":[4,1,0,273,0],
 "de/d6c/structCommanderSpellbookCardResult.html#a95db9e3f765d7f4ccd14d4368ddd9e7d":[4,1,0,273,11],
 "de/d6c/structCommanderSpellbookCardResult.html#a99b886627c49aa55178565f6f2f2b77c":[4,1,0,273,15],
-"de/d6c/structCommanderSpellbookCardResult.html#aa9901d43186092e949501d45ac016716":[4,1,0,273,5],
-"de/d6c/structCommanderSpellbookCardResult.html#abc63e8ccde85dad471bb92621ef7a08b":[4,1,0,273,14],
-"de/d6c/structCommanderSpellbookCardResult.html#abe0af9b56ec1f90a78de399ac4746d40":[4,1,0,273,10],
-"de/d6c/structCommanderSpellbookCardResult.html#adfa53e34da55352a5ffdb83c3c54408d":[4,1,0,273,1]
+"de/d6c/structCommanderSpellbookCardResult.html#aa9901d43186092e949501d45ac016716":[4,1,0,273,5]
 };

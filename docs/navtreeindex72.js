@@ -1,5 +1,8 @@
 var NAVTREEINDEX72 =
 {
+"dc/dd8/classAbstractDecklistNode.html#a993d84a68de70e01ec1eb3b27dcae2eb":[3,3,0,2,7],
+"dc/dd8/classAbstractDecklistNode.html#aa63a74f48c8f68b8ec7a89a4612fce3f":[3,3,0,2,13],
+"dc/dd8/classAbstractDecklistNode.html#ad987f6b1ced61ac16a537646bfa1a18c":[3,3,0,2,4],
 "dc/dd8/classAbstractDecklistNode.html#af6494038bc06f8ab382381da72934a05":[3,3,0,2,9],
 "dc/dd8/classAbstractDecklistNode.html#afbb0b48afa2542b429653bebc0103e07":[3,3,0,2,5],
 "dc/dd8/classAbstractDecklistNode.html#afc5f3eb8e9971e4ee240eb3ee5d81f59":[3,3,0,2,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX72 =
 "dc/dfa/classColorButton.html#a33fe75df7dbc8f1f76389975a9776332":[4,1,0,146,5],
 "dc/dfa/classColorButton.html#a41110a214cb2e23e10fd086964be854e":[4,1,0,146,2],
 "dc/dfa/classColorButton.html#a58874567814aa8d070d760531cf1a52f":[4,1,0,146,4],
-"dc/dfa/classColorButton.html#a9cd98ab11ac0c98e3c2ff7b3432c6928":[4,1,0,146,3],
-"dc/dfa/classColorButton.html#ad89587b4f31859919bbb465ef90e5090":[4,1,0,146,1],
-"dc/dfa/filter__card_8h.html":[3,2,4,0,0,3],
-"dc/dfa/mana__symbol__widget_8h.html":[3,1,0,2,0,2]
+"dc/dfa/classColorButton.html#a9cd98ab11ac0c98e3c2ff7b3432c6928":[4,1,0,146,3]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX79 =
 {
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12afc36d77e642f1ab790d4a7c50a8de35d":[4,1,0,493,0,13],
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12afcdd7f70bf51756427efe2fdca508924":[4,1,0,493,0,11],
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12afe112ff03cee40dad03b80810be8c3ba":[4,1,0,493,0,5],
 "dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12afffed1b796804c8ab5efa8ea21501782":[4,1,0,493,0,7],
 "dd/de5/structGameCommand.html#abaae69eb1857dda303419838a9706a31":[4,1,0,493,1],
 "dd/de9/classDrawProbabilityWidget.html":[4,1,0,387],
@@ -246,8 +249,5 @@ var NAVTREEINDEX79 =
 "dd/dfd/structpeg_1_1FindLiteralToken.html#ade2b40bfe9504167f6fc8485d3fa9a50":[4,0,0,28,46,11],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#ade2b40bfe9504167f6fc8485d3fa9a50":[4,1,0,5,45,11],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#ade8440f9ed92da93693329208ba10381":[4,0,0,28,46,19],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#ade8440f9ed92da93693329208ba10381":[4,1,0,5,45,19],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#ae616f6eb036847ab770377125d712bed":[4,0,0,28,46,16],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#ae616f6eb036847ab770377125d712bed":[4,1,0,5,45,16],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#aeb6c31e4803f3ebc1d7dde5cdbec3651":[4,0,0,28,46,10]
+"dd/dfd/structpeg_1_1FindLiteralToken.html#ade8440f9ed92da93693329208ba10381":[4,1,0,5,45,19]
 };
