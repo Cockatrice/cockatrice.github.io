@@ -131,13 +131,13 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac76d0a68c24123ebd386505f91cc46df" id="r_ac76d0a68c24123ebd386505f91cc46df"><td class="memItemLeft">unsigned int&#160;</td><td class="memItemRight"><a class="el" href="#ac76d0a68c24123ebd386505f91cc46df">askedToClose</a> = 0</td></tr>
 <tr class="memdesc:ac76d0a68c24123ebd386505f91cc46df"><td class="mdescLeft">&#160;</td><td class="mdescRight">holders a WM_CLOSE was posted to  <br /></td></tr>
 <tr class="memitem:afc0bb5e19f7a23ce22c13b5a7d1e016f" id="r_afc0bb5e19f7a23ce22c13b5a7d1e016f"><td class="memItemLeft">unsigned int&#160;</td><td class="memItemRight"><a class="el" href="#afc0bb5e19f7a23ce22c13b5a7d1e016f">withoutWindow</a> = 0</td></tr>
-<tr class="memdesc:afc0bb5e19f7a23ce22c13b5a7d1e016f"><td class="mdescLeft">&#160;</td><td class="mdescRight">holders with no visible window a user could answer  <br /></td></tr>
+<tr class="memdesc:afc0bb5e19f7a23ce22c13b5a7d1e016f"><td class="mdescLeft">&#160;</td><td class="mdescRight">holders with no window of their own to ask  <br /></td></tr>
 <tr class="memitem:a4193c9a86fb6673bd673c513d4ab4ce1" id="r_a4193c9a86fb6673bd673c513d4ab4ce1"><td class="memItemLeft">std::wstring&#160;</td><td class="memItemRight"><a class="el" href="#a4193c9a86fb6673bd673c513d4ab4ce1">report</a></td></tr>
 <tr class="memdesc:a4193c9a86fb6673bd673c513d4ab4ce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">one line, narrowed to ASCII when written  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>What asking the holders to close did, in the form the installer logs. </p>
-<p><code>report</code> is one line naming every holder, including the ones this deliberately leaves alone, because the installer repeats it in its log and in the second prompt. <code>withoutWindow</code> counts the holders that had no visible window a user could answer: they were named and left alone, and the launcher mode reads that count as "nothing to ask" rather than as a window the user still has to answer. </p>
+<p><code>report</code> is one line naming every holder, including the ones this deliberately leaves alone, because the installer repeats it in its log. <code>withoutWindow</code> counts the holders that had no window of their own to ask: they were named and left alone, and the launcher mode reads that count as "nothing to ask" rather than as a window the user still has to answer. </p>
 </div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="ac76d0a68c24123ebd386505f91cc46df" name="ac76d0a68c24123ebd386505f91cc46df"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac76d0a68c24123ebd386505f91cc46df">&#9670;&#160;</a></span>askedToClose</h2>
@@ -183,7 +183,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>holders with no visible window a user could answer </p>
+<p>holders with no window of their own to ask </p>
 
 </div>
 </div>

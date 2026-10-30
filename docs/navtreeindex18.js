@@ -39,7 +39,7 @@ var NAVTREEINDEX18 =
 "d3/d6f/close__holders_8cpp.html":[4,2,0,15,0,0],
 "d3/d6f/close__holders_8cpp.html#a1f55d2fb0ad38926b071251741262668":[4,2,0,15,0,0,2],
 "d3/d6f/close__holders_8cpp.html#a297a36b5f73cba7b730f767abb5fc8de":[4,2,0,15,0,0,1],
-"d3/d6f/close__holders_8cpp.html#ac393759e2c4a46ce9589272f2a1c1de4":[4,2,0,15,0,0,0],
+"d3/d6f/close__holders_8cpp.html#aef9048e7bd4c643bd726b200deefd026":[4,2,0,15,0,0,0],
 "d3/d71/structCommand__GetBanHistory_1_1ModeratorCommand.html":[4,1,0,191,0],
 "d3/d71/structCommand__GetBanHistory_1_1ModeratorCommand.html#a63d08660943883b8c046219e6fef93b4":[4,1,0,191,0,0],
 "d3/d73/classDeckEditorSettings.html":[4,1,0,309],

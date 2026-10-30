@@ -137,14 +137,14 @@ Include dependency graph for close_holders.cpp:</div>
 Functions</h2></td></tr>
 <tr class="memitem:a1f55d2fb0ad38926b071251741262668" id="r_a1f55d2fb0ad38926b071251741262668"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a1f55d2fb0ad38926b071251741262668">isCockatriceImage</a> (const std::wstring &amp;imageName)</td></tr>
 <tr class="memdesc:a1f55d2fb0ad38926b071251741262668"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether <code class="param">imageName</code> is the client the update belongs to, matched without case.  <br /></td></tr>
-<tr class="memitem:ac393759e2c4a46ce9589272f2a1c1de4" id="r_ac393759e2c4a46ce9589272f2a1c1de4"><td class="memItemLeft"><a class="el" href="../../d5/d50/structCloseHoldersResult.html">CloseHoldersResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac393759e2c4a46ce9589272f2a1c1de4">closeCockatriceHolders</a> (const std::vector&lt; <a class="el" href="../../d3/d5a/structHolder.html">Holder</a> &gt; &amp;holders, unsigned long waitMilliseconds)</td></tr>
-<tr class="memdesc:ac393759e2c4a46ce9589272f2a1c1de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Brings every running Cockatrice holding an installer file forward and asks it to close.  <br /></td></tr>
+<tr class="memitem:aef9048e7bd4c643bd726b200deefd026" id="r_aef9048e7bd4c643bd726b200deefd026"><td class="memItemLeft"><a class="el" href="../../d5/d50/structCloseHoldersResult.html">CloseHoldersResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#aef9048e7bd4c643bd726b200deefd026">closeCockatriceHolders</a> (const std::vector&lt; <a class="el" href="../../d3/d5a/structHolder.html">Holder</a> &gt; &amp;holders, unsigned long waitMilliseconds, bool askHiddenWindows)</td></tr>
+<tr class="memdesc:aef9048e7bd4c643bd726b200deefd026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Brings every running Cockatrice holding an installer file forward and asks it to close.  <br /></td></tr>
 <tr class="memitem:a297a36b5f73cba7b730f767abb5fc8de" id="r_a297a36b5f73cba7b730f767abb5fc8de"><td class="memItemLeft"><a class="el" href="../../d9/d20/structEndHoldersResult.html">EndHoldersResult</a>&#160;</td><td class="memItemRight"><a class="el" href="#a297a36b5f73cba7b730f767abb5fc8de">endHolders</a> (const std::vector&lt; <a class="el" href="../../d3/d5a/structHolder.html">Holder</a> &gt; &amp;holders, unsigned long waitMilliseconds)</td></tr>
 <tr class="memdesc:a297a36b5f73cba7b730f767abb5fc8de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ends every running Cockatrice, Oracle and <a class="el" href="../../d5/d0e/classServatrice.html">Servatrice</a> the probe named.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="ac393759e2c4a46ce9589272f2a1c1de4" name="ac393759e2c4a46ce9589272f2a1c1de4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac393759e2c4a46ce9589272f2a1c1de4">&#9670;&#160;</a></span>closeCockatriceHolders()</h2>
+<a id="aef9048e7bd4c643bd726b200deefd026" name="aef9048e7bd4c643bd726b200deefd026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef9048e7bd4c643bd726b200deefd026">&#9670;&#160;</a></span>closeCockatriceHolders()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,31 +157,37 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned long</td>          <td class="paramname"><span class="paramname"><em>waitMilliseconds</em></span>&#160;)</td>
+          <td class="paramtype">unsigned long</td>          <td class="paramname"><span class="paramname"><em>waitMilliseconds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>askHiddenWindows</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Brings every running Cockatrice holding an installer file forward and asks it to close. </p>
 <p>The set is the Restart Manager answer, so it is exactly the processes holding a file of the previous version: nothing here has to guess at an executable path, and an application that merely shares the image name is never touched. Only cockatrice.exe is asked to close. Oracle and <a class="el" href="../../d5/d0e/classServatrice.html">Servatrice</a> are left to the user - Oracle writes the card database in place - and so is every service.</p>
-<p>One thing happens per instance: its main window is brought to the foreground, because Cockatrice may answer the close with a confirmation of its own that would otherwise open behind the installer's prompt. Then WM_CLOSE is posted to the main window, the same request as clicking its close button - unless the instance is asking a question of its own, which disables that window: posting the close then only hides the question, so it is brought forward and left to the user. An instance with no window a user could answer - one hidden in the notification area, say - is named and left to the user as well; showing its windows from here does not help, because the application would still believe they are hidden and never paint them. Stopping the process is never attempted.</p>
-<p>Once the requests are out, this waits up to <code>waitMilliseconds</code> for the processes to exit, so the caller can measure the purge immediately afterwards instead of sleeping for a fixed time or re-asking a question this call already answered. A process that is still running is described further: whether its window is gone, still open, hidden again, and whether it answers at all, so the log can tell an instance that refused the close from one that never received it.</p>
+<p>One thing happens per instance: its own window is asked to close with WM_CLOSE, the same request as clicking that window's close button - whether it is on screen or only in the notification area, since the request does not need the window to be visible and the confirmation Cockatrice answers it with is a window Qt shows itself, painted, unlike one restored from outside. A window that is on screen is brought forward first, because that confirmation would otherwise open behind the installer's prompt; nothing is shown from here. Qt's own bookkeeping windows are never the target - posting a close to the notification-area one terminates the instance without its confirmation - so a process without a window of its own is named and left to the guard, which offers to end it. Stopping the process is never attempted here.</p>
+<p>Once the requests are out, this waits up to <code>waitMilliseconds</code> for the processes to exit, so the caller can measure the purge immediately afterwards instead of sleeping for a fixed time or re-asking a question this call already answered. A process that is still running is described further: whether its window is gone, still open, still hidden or hidden again, and whether it answers at all, so the log can tell an instance that refused the close from one that never received it.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">holders</td><td>the Restart Manager answer, one entry per application or service </td></tr>
     <tr><td class="paramname">waitMilliseconds</td><td>how long to wait for the asked instances to exit, 0 to not wait </td></tr>
+    <tr><td class="paramname">askHiddenWindows</td><td>whether a window that is not on screen is asked to close too. The guard wants that: an instance in the notification area is the one this update has no other way to reach. The launcher mode does not - a launcher without a visible window has already answered its own close and is stuck in shutdown, and the installer ends it instead of putting a question to a user who is not there. </td></tr>
   </table>
   </dd>
 </dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d6f/close__holders_8cpp_ac393759e2c4a46ce9589272f2a1c1de4_cgraph.svg" width="374" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d6f/close__holders_8cpp_aef9048e7bd4c643bd726b200deefd026_cgraph.svg" width="374" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d6f/close__holders_8cpp_ac393759e2c4a46ce9589272f2a1c1de4_icgraph.svg" width="287" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d6f/close__holders_8cpp_aef9048e7bd4c643bd726b200deefd026_icgraph.svg" width="287" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
