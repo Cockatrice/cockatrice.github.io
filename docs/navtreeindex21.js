@@ -1,5 +1,9 @@
 var NAVTREEINDEX21 =
 {
+"d3/de4/classPlayerGraphicsItem.html#af2750a9abbc8f41fab052b154de6380f":[4,1,0,666,8],
+"d3/de4/classPlayerGraphicsItem.html#afad99603356aed7457f2b172ff3150d3":[4,1,0,666,47],
+"d3/de4/classPlayerGraphicsItem.html#afbef0a295503582741c50756a53fdb8a":[4,1,0,666,25],
+"d3/de4/classPlayerGraphicsItem.html#afcafe76822c44781bd0a4cd4838854bc":[4,1,0,666,39],
 "d3/de4/structDeckList_1_1Metadata.html":[3,3,3,0],
 "d3/de4/structDeckList_1_1Metadata.html#a14533dc7d3e6f81caa0f061abfafe9af":[3,3,3,0,1],
 "d3/de4/structDeckList_1_1Metadata.html#a26688c47b071cced7bc0d0b70d270634":[3,3,3,0,7],
@@ -107,7 +111,7 @@ var NAVTREEINDEX21 =
 "d3/df4/classPileZoneLogic.html#a4fa8fc75b3cdf4f45c64369f7ed22d8d":[4,1,0,659,1],
 "d3/df4/classPileZoneLogic.html#a6a06f2c3fc9440767867e27c04ef0c94":[4,1,0,659,2],
 "d3/df4/classPileZoneLogic.html#a8924a29f852d7d85ad24f1a2fab9a205":[4,1,0,659,0],
-"d3/df5/trusted__sources__test_8cpp.html":[4,2,0,14,36],
+"d3/df5/trusted__sources__test_8cpp.html":[4,2,0,14,37],
 "d3/df6/playmat__preview__widget_8h.html":[4,2,0,0,1,5,6,8,3],
 "d3/df6/playmat__preview__widget_8h_source.html":[4,2,0,0,1,5,6,8,3],
 "d3/df7/structEvent__FlipCard_1_1GameEvent.html":[4,1,0,432,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX21 =
 "d4/d14/classDownloadSettings.html#ab644f5cd6589c1d67761bbe2ef332b41":[4,1,0,384,17],
 "d4/d14/classDownloadSettings.html#ab99a632e3c99f64b35ceb9b5cbe6fdfd":[4,1,0,384,13],
 "d4/d14/classDownloadSettings.html#acc51525e2c62d08088c4db031c9c5ce8":[4,1,0,384,15],
-"d4/d14/classDownloadSettings.html#aef441380ebeb7a914a473f65e9710a35":[4,1,0,384,8],
-"d4/d14/classDownloadSettings.html#af049d4c09620dac11a4ae65915473195":[4,1,0,384,19],
-"d4/d17/edhrec__top__tags__api__response_8cpp.html":[4,2,0,0,1,5,6,14,0,2,0,7,0],
-"d4/d17/inner__deck__list__node_8cpp.html":[4,2,0,3,0,0,0,6],
-"d4/d18/group__LocalDeckStorageWidgets.html":[3,1,0,5]
+"d4/d14/classDownloadSettings.html#aef441380ebeb7a914a473f65e9710a35":[4,1,0,384,8]
 };

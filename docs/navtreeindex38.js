@@ -1,5 +1,8 @@
 var NAVTREEINDEX38 =
 {
+"d6/df5/classVisualDatabaseDisplayNameFilterWidget.html#af377fd8cb6b4c72e5d2c2c098ba8b9af":[4,1,0,980,13],
+"d6/df6/structpeg_1_1OpeSignature.html":[4,0,0,28,49],
+"d6/df6/structpeg_1_1OpeSignature.html":[4,1,0,5,48],
 "d6/df6/structpeg_1_1OpeSignature.html#a03b017af6f436d34ef124ce3b0834b19":[4,0,0,28,49,2],
 "d6/df6/structpeg_1_1OpeSignature.html#a03b017af6f436d34ef124ce3b0834b19":[4,1,0,5,48,2],
 "d6/df6/structpeg_1_1OpeSignature.html#a06b437494ba9b4cd89fd3806563febec":[4,0,0,28,49,20],
@@ -72,6 +75,11 @@ var NAVTREEINDEX38 =
 "d6/dfd/exact__card_8h.html":[4,2,0,2,0,0,3,1],
 "d6/dfd/exact__card_8h_source.html":[4,2,0,2,0,0,3,1],
 "d6/dfe/deck__editor__menu_8cpp.html":[4,2,0,0,1,5,6,6,0],
+"d6/dff/payload__paths_8h.html":[4,2,0,15,0,6],
+"d6/dff/payload__paths_8h.html#a04a8e2f4d4a7c2d89adf7313a413a636":[4,2,0,15,0,6,1],
+"d6/dff/payload__paths_8h.html#a950b2428a42ec828108e942da37888e5":[4,2,0,15,0,6,2],
+"d6/dff/payload__paths_8h.html#ad06b158a8ce2eda0e24802a368c18e0a":[4,2,0,15,0,6,0],
+"d6/dff/payload__paths_8h_source.html":[4,2,0,15,0,6],
 "d7/d01/structResponse__WarnHistory_1_1Response.html":[4,1,0,771,0],
 "d7/d01/structResponse__WarnHistory_1_1Response.html#a927a385cac9b9f1141475a5583cd412e":[4,1,0,771,0,0],
 "d7/d02/classDeckListStatisticsAnalyzer.html":[4,1,0,322],
@@ -241,13 +249,5 @@ var NAVTREEINDEX38 =
 "d7/d29/classCardCompleterDelegate.html#a645f5ddc69eb772145d72b55595fb6ef":[4,1,0,77,9],
 "d7/d29/classCardCompleterDelegate.html#a6ddc9f701023bb61a1a29cf3cb8dc400":[4,1,0,77,6],
 "d7/d29/classCardCompleterDelegate.html#a711bc58c62b4bd5f3cffca6627d6dfdc":[4,1,0,77,7],
-"d7/d29/classCardCompleterDelegate.html#a713f4364df435ad4deb9f9129b5d7cc8":[4,1,0,77,13],
-"d7/d29/classCardCompleterDelegate.html#a7a7bc63d513eeb9d03f20c1c08ec125f":[4,1,0,77,10],
-"d7/d29/classCardCompleterDelegate.html#a91ee9620150ff4df3d8048464a76c3d0":[4,1,0,77,3],
-"d7/d29/classCardCompleterDelegate.html#ac30b6321bfc2b1d72e7ef4b2452653ff":[4,1,0,77,8],
-"d7/d29/classCardCompleterDelegate.html#acb1e80491e11d98ed767e4233c0fc532":[4,1,0,77,5],
-"d7/d29/classCardCompleterDelegate.html#ae23c67608400e056bc90e762627755db":[4,1,0,77,1],
-"d7/d29/classCardCompleterDelegate.html#aedfcd765012c3dba9c50c1dd5292028f":[4,1,0,77,11],
-"d7/d2c/playmat__settings__dialog_8cpp.html":[4,2,0,0,1,5,6,8,4],
-"d7/d2e/structCommand__SetCardAttr_1_1GameCommand.html":[4,1,0,251,0]
+"d7/d29/classCardCompleterDelegate.html#a713f4364df435ad4deb9f9129b5d7cc8":[4,1,0,77,13]
 };

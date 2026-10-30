@@ -1,5 +1,17 @@
 var NAVTREEINDEX87 =
 {
+"df/d24/game__selector__quick__filter__toolbar_8cpp.html":[4,2,0,0,1,5,6,12,9],
+"df/d26/developer_reference_protocol_overview.html":[0,1,6,0,0],
+"df/d26/developer_reference_protocol_overview.html#asynchronous-model":[0,1,6,0,0,0,3],
+"df/d26/developer_reference_protocol_overview.html#client--server-commandcontainer":[0,1,6,0,0,0,2,0],
+"df/d26/developer_reference_protocol_overview.html#cockatrice-server-protocol--overview":[0,1,6,0,0,0],
+"df/d26/developer_reference_protocol_overview.html#high-level-properties":[0,1,6,0,0,0,1],
+"df/d26/developer_reference_protocol_overview.html#message-envelopes":[0,1,6,0,0,0,2],
+"df/d26/developer_reference_protocol_overview.html#purpose":[0,1,6,0,0,0,0],
+"df/d26/developer_reference_protocol_overview.html#server--client-servermessage":[0,1,6,0,0,0,2,1],
+"df/d26/developer_reference_protocol_overview.html#versioning":[0,1,6,0,0,0,4],
+"df/d28/context__join__room_8h.html":[4,2,0,0,1,5,3,0,2],
+"df/d28/context__join__room_8h_source.html":[4,2,0,0,1,5,3,0,2],
 "df/d28/structCommand__DeckShareCreate_1_1SessionCommand.html":[4,1,0,174,0],
 "df/d28/structCommand__DeckShareCreate_1_1SessionCommand.html#ad92e0e4cc849653f3191bdd69792e31e":[4,1,0,174,0,0],
 "df/d29/visual__database__filter__display__widget_8h.html":[3,1,0,3,1,7],
@@ -237,17 +249,5 @@ var NAVTREEINDEX87 =
 "df/d48/structEvent__ServerIdentification.html":[4,1,0,458],
 "df/d48/structEvent__ServerIdentification.html#a4079920c2588c93f402aaad16d52d5ba":[4,1,0,458,5],
 "df/d48/structEvent__ServerIdentification.html#a42dc11e928736dbfb7e240906767586e":[4,1,0,458,1],
-"df/d48/structEvent__ServerIdentification.html#a42dc11e928736dbfb7e240906767586ea95f51292ae6e6a28b204e633bcae9e39":[4,1,0,458,1,0],
-"df/d48/structEvent__ServerIdentification.html#a42dc11e928736dbfb7e240906767586eaa4ee9af0db11e1bc0292845160ddd4b8":[4,1,0,458,1,1],
-"df/d48/structEvent__ServerIdentification.html#a4387b4837c9d91794a0d7cd46824b3cd":[4,1,0,458,4],
-"df/d48/structEvent__ServerIdentification.html#a572456a294a3cadb29f9e47ec2de6419":[4,1,0,458,2],
-"df/d48/structEvent__ServerIdentification.html#a74f6cdb00f6f5b6cf49ef64b9c6745bf":[4,1,0,458,6],
-"df/d48/structEvent__ServerIdentification.html#addb3ad550ee504ae617a321190de3ee6":[4,1,0,458,3],
-"df/d49/tapped__out__interface_8h.html":[3,3,2,2,2,2],
-"df/d49/tapped__out__interface_8h.html":[3,3,2,3,0,2],
-"df/d49/tapped__out__interface_8h.html":[3,5,1,0,2],
-"df/d4b/card__override__settings_8cpp.html":[4,2,0,10,0,0,6],
-"df/d4b/intent_8cpp.html":[4,2,0,0,1,5,3,1],
-"df/d4c/arrow__item_8h.html":[4,2,0,0,1,4,0,9],
-"df/d4c/arrow__item_8h_source.html":[4,2,0,0,1,4,0,9]
+"df/d48/structEvent__ServerIdentification.html#a42dc11e928736dbfb7e240906767586ea95f51292ae6e6a28b204e633bcae9e39":[4,1,0,458,1,0]
 };

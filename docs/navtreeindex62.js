@@ -1,5 +1,13 @@
 var NAVTREEINDEX62 =
 {
+"db/d22/classCardInfoFrameWidget.html#ab68ed923a99e74ddaf9da5ef7c2645a8":[4,1,0,101,18],
+"db/d22/classCardInfoFrameWidget.html#abd8e4a22f3e092418117e0f7e9a6f700":[4,1,0,101,24],
+"db/d22/classCardInfoFrameWidget.html#ad5eeb7e1a47cc11eb48c55824231ae33":[4,1,0,101,19],
+"db/d22/classCardInfoFrameWidget.html#adcf86ff4196bd3f027b51ad94f3548ff":[4,1,0,101,14],
+"db/d22/classCardInfoFrameWidget.html#ade1493a57bc4d22d254505fb2e8f31bf":[4,1,0,101,8],
+"db/d22/classCardInfoFrameWidget.html#adeef9ea990201e025d47345531ac04fe":[4,1,0,101,12],
+"db/d22/classCardInfoFrameWidget.html#af99bda67f233a78072ecd6122a8fe497":[4,1,0,101,5],
+"db/d23/structCommand__SetSideboardPlan_1_1GameCommand.html":[4,1,0,256,0],
 "db/d23/structCommand__SetSideboardPlan_1_1GameCommand.html#aeb2aa67af49b47386327dd76f78b1ea3":[4,1,0,256,0,0],
 "db/d26/qxtglobal_8h.html":[4,2,0,13,1,0,0],
 "db/d26/qxtglobal_8h.html#a01b94256cdd683a4e2530b7e68bdf783":[4,2,0,13,1,0,0,5],
@@ -35,6 +43,10 @@ var NAVTREEINDEX62 =
 "db/d2a/classCountryPixmapGenerator.html#a41fee69f75527b1947520377bec00edf":[4,1,0,296,2],
 "db/d2a/classCountryPixmapGenerator.html#a8dafd420e3d8cd705554c900ed4703d8":[4,1,0,296,0],
 "db/d2a/classCountryPixmapGenerator.html#ae96ee5076391365a20cbb37c9792328e":[4,1,0,296,1],
+"db/d2a/payload__paths_8cpp.html":[4,2,0,15,0,5],
+"db/d2a/payload__paths_8cpp.html#a04a8e2f4d4a7c2d89adf7313a413a636":[4,2,0,15,0,5,1],
+"db/d2a/payload__paths_8cpp.html#a950b2428a42ec828108e942da37888e5":[4,2,0,15,0,5,2],
+"db/d2a/payload__paths_8cpp.html#ad06b158a8ce2eda0e24802a368c18e0a":[4,2,0,15,0,5,0],
 "db/d2c/message__settings_8h.html":[3,7,2,1],
 "db/d2d/structpeg_1_1ParserGenerator_1_1Data.html":[4,0,0,28,59,2],
 "db/d2d/structpeg_1_1ParserGenerator_1_1Data.html":[4,1,0,5,58,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX62 =
 "db/d53/classRemoteClient.html#a8203596b00d006b733b11c17e84b2e73":[4,1,0,716,26],
 "db/d53/classRemoteClient.html#a8227897821016665c8a6daf9234ff07a":[4,1,0,716,10],
 "db/d53/classRemoteClient.html#a86ebfd247122c1f134fd148e8641e3b5":[4,1,0,716,17],
-"db/d53/classRemoteClient.html#a8710dd4fe1b46922cfd73f7ac710fe0a":[4,1,0,716,57],
-"db/d53/classRemoteClient.html#a885bf43b2b8c193b928db4b84567c3a9":[4,1,0,716,65],
-"db/d53/classRemoteClient.html#a8bdb5ca024d9270ab33e513c2f6f913b":[4,1,0,716,25],
-"db/d53/classRemoteClient.html#a8c106f1e702dec35188ac0eb68ff54b5":[4,1,0,716,77],
-"db/d53/classRemoteClient.html#a8d078b57fdaaf4b229b38359b5fbfd96":[4,1,0,716,49],
-"db/d53/classRemoteClient.html#a8d75e47be74e51e4a3b805b408c7b296":[4,1,0,716,48],
-"db/d53/classRemoteClient.html#a9062a34ca75fb418d0abed01cdcdb485":[4,1,0,716,2],
-"db/d53/classRemoteClient.html#a928441da2c46749f3f027e1e823bb9dd":[4,1,0,716,70],
-"db/d53/classRemoteClient.html#a92def2e8d2e2fdc1cf5ba0bb7c3c199d":[4,1,0,716,71],
-"db/d53/classRemoteClient.html#a938e90cfdbfffd349aec2b911ce76cb2":[4,1,0,716,47],
-"db/d53/classRemoteClient.html#a96b6918942af86845b9736d83f3ae355":[4,1,0,716,79],
-"db/d53/classRemoteClient.html#a99d20047ef5f1d8eed00b6efca0398b2":[4,1,0,716,52],
-"db/d53/classRemoteClient.html#a9e8b2c672c0e3c3a0520f4baaf1d78da":[4,1,0,716,78]
+"db/d53/classRemoteClient.html#a8710dd4fe1b46922cfd73f7ac710fe0a":[4,1,0,716,57]
 };

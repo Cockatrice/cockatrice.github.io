@@ -1,5 +1,13 @@
 var NAVTREEINDEX54 =
 {
+"d9/df7/classDeckEditorDeckDockWidget.html#a83eec5f6bf18e5ec5d5846dbb335ac4c":[4,1,0,305,73],
+"d9/df7/classDeckEditorDeckDockWidget.html#a8b92a8f7d04f2166b745026fcc40e688":[4,1,0,305,29],
+"d9/df7/classDeckEditorDeckDockWidget.html#a8c67dc71f0e36dd824f585098723ad83":[4,1,0,305,54],
+"d9/df7/classDeckEditorDeckDockWidget.html#a90138f6cb4a7c21f764ed1437ffac18d":[4,1,0,305,25],
+"d9/df7/classDeckEditorDeckDockWidget.html#a96a86b882e32a522d35c47f16178fed9":[4,1,0,305,28],
+"d9/df7/classDeckEditorDeckDockWidget.html#a9c3a37a3708515205c6ea483a10516a6":[4,1,0,305,57],
+"d9/df7/classDeckEditorDeckDockWidget.html#aa5ed01907915c61f98156dcad7086cf8":[4,1,0,305,31],
+"d9/df7/classDeckEditorDeckDockWidget.html#aa646cffeb7cff704ae7193eb9fe387f7":[4,1,0,305,41],
 "d9/df7/classDeckEditorDeckDockWidget.html#aa718e47621f615838a85000770ab454e":[4,1,0,305,35],
 "d9/df7/classDeckEditorDeckDockWidget.html#aa7aec9a73d90690573a9273b44c9e2bd":[4,1,0,305,50],
 "d9/df7/classDeckEditorDeckDockWidget.html#aab6a4a76079a05f7ef06d7e312147062":[4,1,0,305,32],
@@ -241,13 +249,5 @@ var NAVTREEINDEX54 =
 "da/d1e/classVisualDeckEditorWidget.html#ac3843ac828a4235b8e9f09472fc81bf5":[4,1,0,988,23],
 "da/d1e/classVisualDeckEditorWidget.html#ad24e4bc4bc5b3ed404a0fc520f3a2596":[4,1,0,988,50],
 "da/d1e/classVisualDeckEditorWidget.html#ad83c5ab69dc4769e24046475ec655f5f":[4,1,0,988,34],
-"da/d1e/classVisualDeckEditorWidget.html#adb8b17deca2b25f20b3496888967b724":[4,1,0,988,45],
-"da/d1e/classVisualDeckEditorWidget.html#ae0a4616d636f4460577c224126f1cf3c":[4,1,0,988,25],
-"da/d1e/classVisualDeckEditorWidget.html#ae85d4515c86d9a89ad002b753ee4621a":[4,1,0,988,43],
-"da/d1e/classVisualDeckEditorWidget.html#aead13890b87c482169fa74428d34d139":[4,1,0,988,36],
-"da/d1e/classVisualDeckEditorWidget.html#aedf40cd029a12b0d297fd6a421011337":[4,1,0,988,1],
-"da/d1e/classVisualDeckEditorWidget.html#aeff285d8129e0654029c77c39f0c47da":[4,1,0,988,27],
-"da/d1e/classVisualDeckEditorWidget.html#af7fbc722d46cc0b8e8d95fd382e2cde8":[4,1,0,988,4],
-"da/d1e/classVisualDeckEditorWidget.html#af9fe545695a868d0403bd25202545867":[4,1,0,988,37],
-"da/d1e/classVisualDeckEditorWidget.html#afcc4b112a430ab94103d6654d52d422d":[4,1,0,988,24]
+"da/d1e/classVisualDeckEditorWidget.html#adb8b17deca2b25f20b3496888967b724":[4,1,0,988,45]
 };

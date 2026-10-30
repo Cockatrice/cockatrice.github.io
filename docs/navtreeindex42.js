@@ -1,5 +1,13 @@
 var NAVTREEINDEX42 =
 {
+"d7/dc9/classDlgMyReports.html#a93aff63ddea86e2ce2d21dd708986ec3":[4,1,0,372,21],
+"d7/dc9/classDlgMyReports.html#a9cb443e6a277594a1cfbfa4279aa0e75":[4,1,0,372,16],
+"d7/dc9/classDlgMyReports.html#aaeb4532ca6367260680642bdc6a76d4f":[4,1,0,372,3],
+"d7/dc9/classDlgMyReports.html#accc904971e38d24ffb13832133509e76":[4,1,0,372,11],
+"d7/dc9/classDlgMyReports.html#acef5296543a75c5608bf838857855514":[4,1,0,372,0],
+"d7/dc9/classDlgMyReports.html#ad94f45c8947f8d9ca1212d81b0c3cdba":[4,1,0,372,7],
+"d7/dc9/classDlgMyReports.html#adba86856590f46355119ab8e441e422a":[4,1,0,372,2],
+"d7/dc9/classDlgMyReports.html#adc43c996137e0bb723947d1d7ad9dcf0":[4,1,0,372,17],
 "d7/dc9/classDlgMyReports.html#ae05ee5b6708bf06ca47b13271c525bcc":[4,1,0,372,20],
 "d7/dc9/classDlgMyReports.html#ae6588746a44203f78c72f1ab5dee4386":[4,1,0,372,6],
 "d7/dc9/classDlgMyReports.html#af327fcb32104ff48e426d8115e21b7d1":[4,1,0,372,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX42 =
 "d7/dfe/classITabsSettingsProvider.html":[4,1,0,559],
 "d7/dfe/classITabsSettingsProvider.html#a029863352f4bd8ebfadb4b674f73aa3f":[4,1,0,559,4],
 "d7/dfe/classITabsSettingsProvider.html#a0d153a87a4ddf7e7c93f8dd1041dc614":[4,1,0,559,0],
-"d7/dfe/classITabsSettingsProvider.html#a0de31631f24b8abaf3c2c4a21e62f441":[4,1,0,559,14],
-"d7/dfe/classITabsSettingsProvider.html#a3d44deda61b7f28a2da3cfc263eac20d":[4,1,0,559,2],
-"d7/dfe/classITabsSettingsProvider.html#a4663cebcfb9ca6a7a36e8c64442e787f":[4,1,0,559,5],
-"d7/dfe/classITabsSettingsProvider.html#a562c1b37e1c93562593af222ba648469":[4,1,0,559,1],
-"d7/dfe/classITabsSettingsProvider.html#a5bcbec0e008e6d350d7f78a8baa83f5a":[4,1,0,559,9],
-"d7/dfe/classITabsSettingsProvider.html#a63c96522ba4528267213ba8415e2c09b":[4,1,0,559,7],
-"d7/dfe/classITabsSettingsProvider.html#a6bfee75af09419dd6433f27f2a07e1c4":[4,1,0,559,10],
-"d7/dfe/classITabsSettingsProvider.html#a73c74554aa850b392bae85312f3c3e7d":[4,1,0,559,3],
-"d7/dfe/classITabsSettingsProvider.html#a822cd309c0e4e93575c17fc365cc8f76":[4,1,0,559,13]
+"d7/dfe/classITabsSettingsProvider.html#a0de31631f24b8abaf3c2c4a21e62f441":[4,1,0,559,14]
 };

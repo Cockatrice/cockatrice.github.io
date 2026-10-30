@@ -1,5 +1,17 @@
 var NAVTREEINDEX92 =
 {
+"df/dd5/structpeg_1_1SemanticValues.html#a08af0af2e3c89cae324278ed5301bc36":[4,1,0,5,3,26],
+"df/dd5/structpeg_1_1SemanticValues.html#a0d13a0c3ba9124e9eb8d15ca4a55a73e":[4,0,0,28,4,19],
+"df/dd5/structpeg_1_1SemanticValues.html#a0d13a0c3ba9124e9eb8d15ca4a55a73e":[4,1,0,5,3,19],
+"df/dd5/structpeg_1_1SemanticValues.html#a1297a1f4b7ebf6af57dfefbcafe0011e":[4,0,0,28,4,18],
+"df/dd5/structpeg_1_1SemanticValues.html#a1297a1f4b7ebf6af57dfefbcafe0011e":[4,1,0,5,3,18],
+"df/dd5/structpeg_1_1SemanticValues.html#a1701b4510ed4167af61c9efebff367ff":[4,0,0,28,4,21],
+"df/dd5/structpeg_1_1SemanticValues.html#a1701b4510ed4167af61c9efebff367ff":[4,1,0,5,3,21],
+"df/dd5/structpeg_1_1SemanticValues.html#a25b1b4be3f62edc85ed2ae5540f827c0":[4,0,0,28,4,13],
+"df/dd5/structpeg_1_1SemanticValues.html#a25b1b4be3f62edc85ed2ae5540f827c0":[4,1,0,5,3,13],
+"df/dd5/structpeg_1_1SemanticValues.html#a26271d5afaff6e6d3f00c055c63d0b24":[4,0,0,28,4,17],
+"df/dd5/structpeg_1_1SemanticValues.html#a26271d5afaff6e6d3f00c055c63d0b24":[4,1,0,5,3,17],
+"df/dd5/structpeg_1_1SemanticValues.html#a2c5b11b937d6634f21f585720f47e2eb":[4,0,0,28,4,7],
 "df/dd5/structpeg_1_1SemanticValues.html#a2c5b11b937d6634f21f585720f47e2eb":[4,1,0,5,3,7],
 "df/dd5/structpeg_1_1SemanticValues.html#a2feaf6ddf15638ac6d5cdc8cfe348aef":[4,0,0,28,4,0],
 "df/dd5/structpeg_1_1SemanticValues.html#a2feaf6ddf15638ac6d5cdc8cfe348aef":[4,1,0,5,3,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX92 =
 "df/df8/classCloseButton.html#aaa9676895ebdfc30175caa7eef1252d9":[4,1,0,140,3],
 "df/df8/classCloseButton.html#af52cd641cae3f80711f6338c55fd013a":[4,1,0,140,1],
 "df/df8/classCloseButton.html#af98603698e5a0805069966e9b5db8c11":[4,1,0,140,0],
-"df/dfa/mana__base__config__dialog_8h.html":[4,2,0,0,1,5,6,1,0,1,3],
-"df/dfa/mana__base__config__dialog_8h_source.html":[4,2,0,0,1,5,6,1,0,1,3],
-"df/dfa/structBracketExplanation.html":[4,1,0,70],
-"df/dfa/structBracketExplanation.html#a092b9e508e6f6118d7e4517a860ce98b":[4,1,0,70,1],
-"df/dfa/structBracketExplanation.html#ab57d05bca9b85dd7f17c81225b6f80a3":[4,1,0,70,0],
-"df/dfa/structBracketExplanation.html#af93773080660bf90a2d8134e0cf7a311":[4,1,0,70,2],
-"df/dfa/tab__developer_8h.html":[3,1,0,1,1,0,2],
-"df/dfa/tab__developer_8h.html":[3,1,0,9,1,0,2],
-"df/dfa/tab__developer_8h.html":[3,5,1,1,1,0,2],
-"df/dfc/classDlgRollDice.html":[4,1,0,375],
-"df/dfc/classDlgRollDice.html#a0204746f4c15f0693a451c883b112811":[4,1,0,375,1],
-"df/dfc/classDlgRollDice.html#a0f07e03157b32261837d5e7a8a560d94":[4,1,0,375,0],
-"df/dfc/classDlgRollDice.html#a165e8f32c74394a28ade0582c8c8affe":[4,1,0,375,2]
+"df/dfa/mana__base__config__dialog_8h.html":[4,2,0,0,1,5,6,1,0,1,3]
 };

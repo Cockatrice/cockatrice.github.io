@@ -1,5 +1,9 @@
 var NAVTREEINDEX18 =
 {
+"d3/d64/archidekt__api__response__deck__listings__display__widget_8cpp.html":[4,2,0,0,1,5,6,14,0,0,1,4],
+"d3/d64/structCardCondition.html":[4,1,0,81],
+"d3/d64/structCardCondition.html#a10306f3998f00d44cc19949642540bfe":[4,1,0,81,2],
+"d3/d64/structCardCondition.html#a5a5803d2a4b2b9ae5c761a9491d85c40":[4,1,0,81,0],
 "d3/d64/structCardCondition.html#ac1a0892b33da3c767aa2aef0419c3602":[4,1,0,81,1],
 "d3/d65/structCommandContainer.html":[4,1,0,266],
 "d3/d65/structCommandContainer.html#a08554c473fccac77e54b59d5a04d6fce":[4,1,0,266,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX18 =
 "d3/d93/classVisualDeckStorageSettings.html#a784a5fb0d2553c25ba692fa9afac4e53":[4,1,0,993,40],
 "d3/d93/classVisualDeckStorageSettings.html#a8262af19da1cc266c5203025b78ce7f2":[4,1,0,993,18],
 "d3/d93/classVisualDeckStorageSettings.html#a845c378ae9b26a695dcd1d66d0f332ea":[4,1,0,993,42],
-"d3/d93/classVisualDeckStorageSettings.html#a84a869d0b687812413fc651d90f8583a":[4,1,0,993,25],
-"d3/d93/classVisualDeckStorageSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,993,50],
-"d3/d93/classVisualDeckStorageSettings.html#a8b28587c6f607ff03cf26b34c9d07a26":[4,1,0,993,29],
-"d3/d93/classVisualDeckStorageSettings.html#a9109dcc717ee5100467bdd86369fbeb9":[4,1,0,993,23],
-"d3/d93/classVisualDeckStorageSettings.html#a9185f7335e8b635244862c672d54a8f3":[4,1,0,993,17]
+"d3/d93/classVisualDeckStorageSettings.html#a84a869d0b687812413fc651d90f8583a":[4,1,0,993,25]
 };

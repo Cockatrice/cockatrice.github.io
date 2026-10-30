@@ -1,5 +1,13 @@
 var NAVTREEINDEX47 =
 {
+"d8/db0/structAbstractTabDeckEditor_1_1DockActions.html":[3,1,0,4,0,0,0],
+"d8/db0/structAbstractTabDeckEditor_1_1DockActions.html":[3,3,1,0,0,0],
+"d8/db0/structAbstractTabDeckEditor_1_1DockActions.html":[3,3,1,1,0,0,0],
+"d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a2282c6d161b40c561609d0f2adce4d7d":[3,1,0,1,0,0,0,2],
+"d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a2282c6d161b40c561609d0f2adce4d7d":[3,1,0,4,0,0,0,2],
+"d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a2282c6d161b40c561609d0f2adce4d7d":[3,3,1,0,0,0,2],
+"d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a2282c6d161b40c561609d0f2adce4d7d":[3,3,1,1,0,0,0,2],
+"d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a51805ed40c183448e69aca4458aa7cb6":[3,1,0,1,0,0,0,0],
 "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a51805ed40c183448e69aca4458aa7cb6":[3,1,0,4,0,0,0,0],
 "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a51805ed40c183448e69aca4458aa7cb6":[3,3,1,0,0,0,0],
 "d8/db0/structAbstractTabDeckEditor_1_1DockActions.html#a51805ed40c183448e69aca4458aa7cb6":[3,3,1,1,0,0,0,0],
@@ -20,8 +28,8 @@ var NAVTREEINDEX47 =
 "d8/db3/servatrice_8h_source.html":[4,2,0,13,1,17],
 "d8/db9/card__info__picture__with__text__overlay__widget_8cpp.html":[4,2,0,0,1,5,6,0,16],
 "d8/db9/group__RemoteDeckStorageWidgets.html":[3,1,0,6],
-"d8/db9/group__RemoteDeckStorageWidgets.html":[3,3,2,2,1],
 "d8/db9/group__RemoteDeckStorageWidgets.html":[3,3,2,1,0],
+"d8/db9/group__RemoteDeckStorageWidgets.html":[3,3,2,2,1],
 "d8/db9/structCommand__ReplaySubmitCode.html":[4,1,0,231],
 "d8/db9/structCommand__ReplaySubmitCode.html#a62b7f78008d37cb8402c6d3598a38a29":[4,1,0,231,1],
 "d8/dba/card__database__model_8h.html":[3,2,4,0,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX47 =
 "d8/dcf/classRemoteDeckList__TreeModel.html#a9ffd2a441644d9d0ec7ead103fa663fb":[4,1,0,717,10],
 "d8/dcf/classRemoteDeckList__TreeModel.html#ab483a54c0bc53579f7f86909e951f9fc":[4,1,0,717,11],
 "d8/dcf/classRemoteDeckList__TreeModel.html#ab6f0885532fc5955d56d4178c19e9bc0":[4,1,0,717,13],
-"d8/dcf/classRemoteDeckList__TreeModel.html#ac054a736263af0188aa246701f4f82a2":[4,1,0,717,26],
-"d8/dcf/classRemoteDeckList__TreeModel.html#ad5201b4b94ec6dac8716637796e70364":[4,1,0,717,23],
-"d8/dcf/classRemoteDeckList__TreeModel.html#ad5bc737e522782af5a2310f89e8e08e9":[4,1,0,717,20],
-"d8/dcf/classRemoteDeckList__TreeModel.html#af557f37373569891e4e85558f013c4a6":[4,1,0,717,14],
-"d8/dcf/classRemoteDeckList__TreeModel.html#af7e30c98713948a85b653f527cc018ec":[4,1,0,717,17],
-"d8/dcf/classRemoteDeckList__TreeModel.html#afb0d952dc1472c29e352e50a84526e62":[4,1,0,717,27],
-"d8/dcf/classRemoteDeckList__TreeModel.html#afb1406760f696098d9213c8c6308eb4d":[4,1,0,717,3],
-"d8/dd0/structEvent__LeaveRoom.html":[4,1,0,443],
-"d8/dd0/structEvent__LeaveRoom.html#a7209e1838fd94b54692c46d153236d4c":[4,1,0,443,1]
+"d8/dcf/classRemoteDeckList__TreeModel.html#ac054a736263af0188aa246701f4f82a2":[4,1,0,717,26]
 };

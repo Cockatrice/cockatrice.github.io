@@ -1,5 +1,17 @@
 var NAVTREEINDEX86 =
 {
+"de/de6/structServerInfo__RoomChannel.html#abf6f6bd04abb7febabddd868b3ee3b53ad474fec4540707a7402d9d04b8c1cb65":[4,1,0,841,0,1],
+"de/de6/structServerInfo__RoomChannel.html#abf6f6bd04abb7febabddd868b3ee3b53ad708ab6dae30979b511108b015c41a5e":[4,1,0,841,0,2],
+"de/de8/add__analytics__panel__dialog_8h.html":[4,2,0,0,1,5,6,1,4],
+"de/de8/add__analytics__panel__dialog_8h_source.html":[4,2,0,0,1,5,6,1,4],
+"de/de9/classDeckLoader.html":[4,1,0,325],
+"de/de9/classDeckLoader.html#a0171a45c42668208c70d0f6fbfe006a2":[4,1,0,325,21],
+"de/de9/classDeckLoader.html#a0760beaf11c3d5f4d73d21f19f9ae62b":[4,1,0,325,11],
+"de/de9/classDeckLoader.html#a0f90a3500c14858eb6bc5200e77033ee":[4,1,0,325,10],
+"de/de9/classDeckLoader.html#a1e27104406ed9c0ae00b66426df12823":[4,1,0,325,13],
+"de/de9/classDeckLoader.html#a1f9a7cb6f8a175c62d02d1bac2591f1d":[4,1,0,325,9],
+"de/de9/classDeckLoader.html#a2101fa8ea5deafdbc193cb6daf0653c4":[4,1,0,325,7],
+"de/de9/classDeckLoader.html#a24f3d809aa17c13b02a692f6925b4bcf":[4,1,0,325,6],
 "de/de9/classDeckLoader.html#a2ce4aacbb0dabbfbe9d26d0c705f13a5":[4,1,0,325,20],
 "de/de9/classDeckLoader.html#a31707a44c5de31cfaa84d8999262de22":[4,1,0,325,19],
 "de/de9/classDeckLoader.html#a33e34fac0a06dc83636aa3a3b4c7af77":[4,1,0,325,26],
@@ -237,17 +249,5 @@ var NAVTREEINDEX86 =
 "df/d24/classDeckPreviewTagAdditionWidget.html#a8aac5d7557fa97f0bbbc2669215d51fe":[4,1,0,330,5],
 "df/d24/classDeckPreviewTagAdditionWidget.html#a95f12c78544867e7da6649ed558303dd":[4,1,0,330,1],
 "df/d24/classDeckPreviewTagAdditionWidget.html#aa1e7086932db3e5bcb81e53269555f44":[4,1,0,330,2],
-"df/d24/classDeckPreviewTagAdditionWidget.html#aa2f2ca7049f102719069ac0e2f69aad2":[4,1,0,330,3],
-"df/d24/game__selector__quick__filter__toolbar_8cpp.html":[4,2,0,0,1,5,6,12,9],
-"df/d26/developer_reference_protocol_overview.html":[0,1,6,0,0],
-"df/d26/developer_reference_protocol_overview.html#asynchronous-model":[0,1,6,0,0,0,3],
-"df/d26/developer_reference_protocol_overview.html#client--server-commandcontainer":[0,1,6,0,0,0,2,0],
-"df/d26/developer_reference_protocol_overview.html#cockatrice-server-protocol--overview":[0,1,6,0,0,0],
-"df/d26/developer_reference_protocol_overview.html#high-level-properties":[0,1,6,0,0,0,1],
-"df/d26/developer_reference_protocol_overview.html#message-envelopes":[0,1,6,0,0,0,2],
-"df/d26/developer_reference_protocol_overview.html#purpose":[0,1,6,0,0,0,0],
-"df/d26/developer_reference_protocol_overview.html#server--client-servermessage":[0,1,6,0,0,0,2,1],
-"df/d26/developer_reference_protocol_overview.html#versioning":[0,1,6,0,0,0,4],
-"df/d28/context__join__room_8h.html":[4,2,0,0,1,5,3,0,2],
-"df/d28/context__join__room_8h_source.html":[4,2,0,0,1,5,3,0,2]
+"df/d24/classDeckPreviewTagAdditionWidget.html#aa2f2ca7049f102719069ac0e2f69aad2":[4,1,0,330,3]
 };

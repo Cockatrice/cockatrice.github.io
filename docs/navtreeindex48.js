@@ -1,5 +1,13 @@
 var NAVTREEINDEX48 =
 {
+"d8/dcf/classRemoteDeckList__TreeModel.html#ad5201b4b94ec6dac8716637796e70364":[4,1,0,717,23],
+"d8/dcf/classRemoteDeckList__TreeModel.html#ad5bc737e522782af5a2310f89e8e08e9":[4,1,0,717,20],
+"d8/dcf/classRemoteDeckList__TreeModel.html#af557f37373569891e4e85558f013c4a6":[4,1,0,717,14],
+"d8/dcf/classRemoteDeckList__TreeModel.html#af7e30c98713948a85b653f527cc018ec":[4,1,0,717,17],
+"d8/dcf/classRemoteDeckList__TreeModel.html#afb0d952dc1472c29e352e50a84526e62":[4,1,0,717,27],
+"d8/dcf/classRemoteDeckList__TreeModel.html#afb1406760f696098d9213c8c6308eb4d":[4,1,0,717,3],
+"d8/dd0/structEvent__LeaveRoom.html":[4,1,0,443],
+"d8/dd0/structEvent__LeaveRoom.html#a7209e1838fd94b54692c46d153236d4c":[4,1,0,443,1],
 "d8/dd5/structCommand__ChangeZoneProperties_1_1GameCommand.html":[4,1,0,158,0],
 "d8/dd5/structCommand__ChangeZoneProperties_1_1GameCommand.html#a862152d80f885b91446f1e64d3355026":[4,1,0,158,0,0],
 "d8/dd6/settings__search__model_8cpp.html":[3,1,0,0,14],
@@ -241,13 +249,5 @@ var NAVTREEINDEX48 =
 "d9/d00/classDebugSettings.html#a1fee28ce78914a26a1649a88cb518bbe":[4,1,0,299,5],
 "d9/d00/classDebugSettings.html#a2771bcf85a5d7167acb20152c74dfddc":[4,1,0,299,3],
 "d9/d00/classDebugSettings.html#a2cebc90e8450f938d237c6cc5f27582c":[4,1,0,299,0],
-"d9/d00/classDebugSettings.html#a5464c5a2841664cfa2c3ce3a8ffa3d01":[4,1,0,299,2],
-"d9/d00/classDebugSettings.html#a859ba68015a001567c5ef72352e7b69b":[4,1,0,299,6],
-"d9/d00/classDebugSettings.html#a8f965fa571d1271a0e78956429bc8858":[4,1,0,299,1],
-"d9/d00/classDebugSettings.html#ae920b82784bd3a603c2c530284e85a3a":[4,1,0,299,4],
-"d9/d01/format__legality__rules_8cpp.html":[4,2,0,2,0,0,1,0],
-"d9/d01/format__legality__rules_8cpp.html#a0482d7e922d5cca6d28fb6e26d35b783":[4,2,0,2,0,0,1,0,2],
-"d9/d01/format__legality__rules_8cpp.html#a53c095b9060dd1b1b38a763d2aa412ab":[4,2,0,2,0,0,1,0,0],
-"d9/d01/format__legality__rules_8cpp.html#ac767ed411bf1754fd4afe663f10b797d":[4,2,0,2,0,0,1,0,1],
-"d9/d01/structServerInfo__Warning.html":[4,1,0,846]
+"d9/d00/classDebugSettings.html#a5464c5a2841664cfa2c3ce3a8ffa3d01":[4,1,0,299,2]
 };

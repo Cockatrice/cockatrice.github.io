@@ -1,5 +1,9 @@
 var NAVTREEINDEX14 =
 {
+"d2/d98/classPlayerLogic.html#a1f4fa9ed8057a6fe8ea64cee75e50900":[4,1,0,671,61],
+"d2/d98/classPlayerLogic.html#a20acb9baa5181520b24026d7c12ee68c":[4,1,0,671,55],
+"d2/d98/classPlayerLogic.html#a23f17a7d852e7bab25ee48e5e493973f":[4,1,0,671,26],
+"d2/d98/classPlayerLogic.html#a25c08fd924768969af467db24f26b31b":[4,1,0,671,59],
 "d2/d98/classPlayerLogic.html#a2cf2458595ecc4635d34beeb12b52b08":[4,1,0,671,72],
 "d2/d98/classPlayerLogic.html#a300b2337fd24470b585be65a1f7c3c8e":[4,1,0,671,44],
 "d2/d98/classPlayerLogic.html#a3054f62eb9bdddb9ab8489d0630dcef1":[4,1,0,671,79],
@@ -245,9 +249,5 @@ var NAVTREEINDEX14 =
 "d2/dc2/classFirstRunWizard.html#a01103f10215d523a1f5aa5212549bcfe":[4,1,0,486,14],
 "d2/dc2/classFirstRunWizard.html#a0dbf12c2634bac8b31d45b2f2afd7a6c":[4,1,0,486,11],
 "d2/dc2/classFirstRunWizard.html#a0ec8f93929c6a5f067a2ee1075438175":[4,1,0,486,1],
-"d2/dc2/classFirstRunWizard.html#a1fd96af642b7ad1066975f48f9dab7ba":[4,1,0,486,24],
-"d2/dc2/classFirstRunWizard.html#a21a805dfeccdf6b55f8396623aa86044":[4,1,0,486,13],
-"d2/dc2/classFirstRunWizard.html#a252ee0604a0e77ee8d3ab2adbc3d561c":[4,1,0,486,8],
-"d2/dc2/classFirstRunWizard.html#a26859a73a59714c925783c1af5928ea0":[4,1,0,486,2],
-"d2/dc2/classFirstRunWizard.html#a27895e5271446644922c6e3d62a904df":[4,1,0,486,3]
+"d2/dc2/classFirstRunWizard.html#a1fd96af642b7ad1066975f48f9dab7ba":[4,1,0,486,24]
 };

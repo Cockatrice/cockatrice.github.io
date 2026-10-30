@@ -1,5 +1,13 @@
 var NAVTREEINDEX43 =
 {
+"d7/dfe/classITabsSettingsProvider.html#a3d44deda61b7f28a2da3cfc263eac20d":[4,1,0,559,2],
+"d7/dfe/classITabsSettingsProvider.html#a4663cebcfb9ca6a7a36e8c64442e787f":[4,1,0,559,5],
+"d7/dfe/classITabsSettingsProvider.html#a562c1b37e1c93562593af222ba648469":[4,1,0,559,1],
+"d7/dfe/classITabsSettingsProvider.html#a5bcbec0e008e6d350d7f78a8baa83f5a":[4,1,0,559,9],
+"d7/dfe/classITabsSettingsProvider.html#a63c96522ba4528267213ba8415e2c09b":[4,1,0,559,7],
+"d7/dfe/classITabsSettingsProvider.html#a6bfee75af09419dd6433f27f2a07e1c4":[4,1,0,559,10],
+"d7/dfe/classITabsSettingsProvider.html#a73c74554aa850b392bae85312f3c3e7d":[4,1,0,559,3],
+"d7/dfe/classITabsSettingsProvider.html#a822cd309c0e4e93575c17fc365cc8f76":[4,1,0,559,13],
 "d7/dfe/classITabsSettingsProvider.html#ab25d121dab5cedcde2108c39a5de2eb3":[4,1,0,559,6],
 "d7/dfe/classITabsSettingsProvider.html#ab900ffacf4bafda60b30056bd3ef7764":[4,1,0,559,8],
 "d7/dfe/classITabsSettingsProvider.html#ac09a8191597a283992c5b6b4b51529cd":[4,1,0,559,11],
@@ -241,13 +249,5 @@ var NAVTREEINDEX43 =
 "d8/d3b/classPublicDeckPreviewWidget.html#a05622648ea783954fd5e85dfd883aab5":[4,1,0,694,8],
 "d8/d3b/classPublicDeckPreviewWidget.html#a0a64076a448a28b7837dce99a391101a":[4,1,0,694,2],
 "d8/d3b/classPublicDeckPreviewWidget.html#a0c1e7a2c3ead041867d68cd6569dc65c":[4,1,0,694,1],
-"d8/d3b/classPublicDeckPreviewWidget.html#a0dd195b4d019265f1b0c20524137a501":[4,1,0,694,20],
-"d8/d3b/classPublicDeckPreviewWidget.html#a0fa0d2ef5604a04e8a7c3d269a1c5ec3":[4,1,0,694,14],
-"d8/d3b/classPublicDeckPreviewWidget.html#a13b894912acf0667512ee54f398db929":[4,1,0,694,0],
-"d8/d3b/classPublicDeckPreviewWidget.html#a1a0bbbec6c752c4b2a1ec0fea2c03a88":[4,1,0,694,17],
-"d8/d3b/classPublicDeckPreviewWidget.html#a2c1664e84a1bb0ab0e8c827cb12ab164":[4,1,0,694,4],
-"d8/d3b/classPublicDeckPreviewWidget.html#a3b1a28ba8bd7f75696d2e2e747c8d12e":[4,1,0,694,13],
-"d8/d3b/classPublicDeckPreviewWidget.html#a56a3b4372f7c3f066e529ca49a31f8af":[4,1,0,694,6],
-"d8/d3b/classPublicDeckPreviewWidget.html#a6197e376d36c62cb1f04a563848cde75":[4,1,0,694,3],
-"d8/d3b/classPublicDeckPreviewWidget.html#a688eafcc6554741ab150bbc6234ab1f4":[4,1,0,694,9]
+"d8/d3b/classPublicDeckPreviewWidget.html#a0dd195b4d019265f1b0c20524137a501":[4,1,0,694,20]
 };

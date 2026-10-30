@@ -1,5 +1,17 @@
 var NAVTREEINDEX91 =
 {
+"df/daf/classZipPrivate.html#acf5202b1c76c900507702e3cc91284b2":[4,1,0,1007,12],
+"df/daf/classZipPrivate.html#ad397e9acf90b8bf26b8bbeba55c7ea28":[4,1,0,1007,3],
+"df/daf/classZipPrivate.html#add06d3d0b9b86e19a64f5de397781244":[4,1,0,1007,29],
+"df/daf/structContext__DeckSelect.html":[4,1,0,282],
+"df/daf/structContext__DeckSelect.html#a69ae7afd3b4648cda194430e513ba45c":[4,1,0,282,2],
+"df/daf/structContext__DeckSelect.html#a81bf6541fc8c473b5d8097a47f988331":[4,1,0,282,3],
+"df/daf/structContext__DeckSelect.html#ab0110a5af6074ae183f7b1da6078c689":[4,1,0,282,1],
+"df/db0/classPreferencesSetupPage.html":[4,1,0,683],
+"df/db0/classPreferencesSetupPage.html#a43e93b5e878f0773814071c0834b81e5":[4,1,0,683,0],
+"df/db0/classPreferencesSetupPage.html#a4512b6c7097de4efdba9f4fbc1862412":[4,1,0,683,3],
+"df/db0/classPreferencesSetupPage.html#a47a4bf71d7fdbbf0510b7df378fd0a87":[4,1,0,683,13],
+"df/db0/classPreferencesSetupPage.html#a5688753b8236c5bf2737485d4dab69c9":[4,1,0,683,12],
 "df/db0/classPreferencesSetupPage.html#a6059a72f405d086830801efa412c2f31":[4,1,0,683,8],
 "df/db0/classPreferencesSetupPage.html#a67124e903f9b9a44a3e6f10dcd2d9d5e":[4,1,0,683,11],
 "df/db0/classPreferencesSetupPage.html#a88abca6d3c06f95bfa21861ada61fe0b":[4,1,0,683,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX91 =
 "df/dd5/structpeg_1_1SemanticValues.html#a02e5b0ba9db61ad2f8c23dff4a928337":[4,1,0,5,3,4],
 "df/dd5/structpeg_1_1SemanticValues.html#a03fd6f38c9bbb720acda0e755f741f82":[4,0,0,28,4,9],
 "df/dd5/structpeg_1_1SemanticValues.html#a03fd6f38c9bbb720acda0e755f741f82":[4,1,0,5,3,9],
-"df/dd5/structpeg_1_1SemanticValues.html#a08af0af2e3c89cae324278ed5301bc36":[4,0,0,28,4,26],
-"df/dd5/structpeg_1_1SemanticValues.html#a08af0af2e3c89cae324278ed5301bc36":[4,1,0,5,3,26],
-"df/dd5/structpeg_1_1SemanticValues.html#a0d13a0c3ba9124e9eb8d15ca4a55a73e":[4,0,0,28,4,19],
-"df/dd5/structpeg_1_1SemanticValues.html#a0d13a0c3ba9124e9eb8d15ca4a55a73e":[4,1,0,5,3,19],
-"df/dd5/structpeg_1_1SemanticValues.html#a1297a1f4b7ebf6af57dfefbcafe0011e":[4,0,0,28,4,18],
-"df/dd5/structpeg_1_1SemanticValues.html#a1297a1f4b7ebf6af57dfefbcafe0011e":[4,1,0,5,3,18],
-"df/dd5/structpeg_1_1SemanticValues.html#a1701b4510ed4167af61c9efebff367ff":[4,0,0,28,4,21],
-"df/dd5/structpeg_1_1SemanticValues.html#a1701b4510ed4167af61c9efebff367ff":[4,1,0,5,3,21],
-"df/dd5/structpeg_1_1SemanticValues.html#a25b1b4be3f62edc85ed2ae5540f827c0":[4,0,0,28,4,13],
-"df/dd5/structpeg_1_1SemanticValues.html#a25b1b4be3f62edc85ed2ae5540f827c0":[4,1,0,5,3,13],
-"df/dd5/structpeg_1_1SemanticValues.html#a26271d5afaff6e6d3f00c055c63d0b24":[4,0,0,28,4,17],
-"df/dd5/structpeg_1_1SemanticValues.html#a26271d5afaff6e6d3f00c055c63d0b24":[4,1,0,5,3,17],
-"df/dd5/structpeg_1_1SemanticValues.html#a2c5b11b937d6634f21f585720f47e2eb":[4,0,0,28,4,7]
+"df/dd5/structpeg_1_1SemanticValues.html#a08af0af2e3c89cae324278ed5301bc36":[4,0,0,28,4,26]
 };

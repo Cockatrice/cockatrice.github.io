@@ -1,5 +1,17 @@
 var NAVTREEINDEX79 =
 {
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12ab4399e2d528f7c4bc193f8aaed06eac4":[4,1,0,493,0,27],
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12ab56442672f8be920b1770f379e05297c":[4,1,0,493,0,34],
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12ab95fd63373fb678f77658b9363105040":[4,1,0,493,0,28],
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12ac4cb02766b3e6bc1b5bfe73e4992be67":[4,1,0,493,0,30],
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12aca41da1ac696adeafa8b11356a78d1f6":[4,1,0,493,0,18],
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12acd9dc16baab2c45ef9c98372c255c099":[4,1,0,493,0,33],
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12ae082f918ae85a29d06607ea22f8db10e":[4,1,0,493,0,32],
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12ae20fc133de25df6f3f1b2d66754999a8":[4,1,0,493,0,10],
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12ae72c952a655c6be6cb695cce187ecdd5":[4,1,0,493,0,14],
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12aecbf07c21f8cf04d12eca64a46a8a8fd":[4,1,0,493,0,0],
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12af3748b238187fffa18988216d8747858":[4,1,0,493,0,3],
+"dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12af50f80955d385fcf956ff947946f01ad":[4,1,0,493,0,24],
 "dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12afc36d77e642f1ab790d4a7c50a8de35d":[4,1,0,493,0,13],
 "dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12afcdd7f70bf51756427efe2fdca508924":[4,1,0,493,0,11],
 "dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12afe112ff03cee40dad03b80810be8c3ba":[4,1,0,493,0,5],
@@ -237,17 +249,5 @@ var NAVTREEINDEX79 =
 "dd/dfd/structpeg_1_1FindLiteralToken.html#ab8cbd5c8d2101d30a80835a0ed492eba":[4,0,0,28,46,7],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#ab8cbd5c8d2101d30a80835a0ed492eba":[4,1,0,5,45,7],
 "dd/dfd/structpeg_1_1FindLiteralToken.html#ac188b39d616714cd2e6d954c05344b4e":[4,0,0,28,46,15],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#ac188b39d616714cd2e6d954c05344b4e":[4,1,0,5,45,15],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#ac56e063348141a76252dab823765d70a":[4,0,0,28,46,20],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#ac56e063348141a76252dab823765d70a":[4,1,0,5,45,20],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#acd9202f3ba19a25fa791114dc49126ca":[4,0,0,28,46,14],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#acd9202f3ba19a25fa791114dc49126ca":[4,1,0,5,45,14],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#acf9f7fbdb447a544522a6def08004b59":[4,0,0,28,46,24],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#acf9f7fbdb447a544522a6def08004b59":[4,1,0,5,45,24],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#ad51d9861c97e042ef93fa774facd75cd":[4,0,0,28,46,5],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#ad51d9861c97e042ef93fa774facd75cd":[4,1,0,5,45,5],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#ade2b40bfe9504167f6fc8485d3fa9a50":[4,0,0,28,46,11],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#ade2b40bfe9504167f6fc8485d3fa9a50":[4,1,0,5,45,11],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#ade8440f9ed92da93693329208ba10381":[4,0,0,28,46,19],
-"dd/dfd/structpeg_1_1FindLiteralToken.html#ade8440f9ed92da93693329208ba10381":[4,1,0,5,45,19]
+"dd/dfd/structpeg_1_1FindLiteralToken.html#ac188b39d616714cd2e6d954c05344b4e":[4,1,0,5,45,15]
 };

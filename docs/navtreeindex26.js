@@ -1,5 +1,9 @@
 var NAVTREEINDEX26 =
 {
+"d5/d07/command__create__token_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,8,2],
+"d5/d08/sideboard__menu_8cpp.html":[4,2,0,0,1,4,4,0,21],
+"d5/d0c/printing__info_8cpp.html":[4,2,0,2,0,0,3,2],
+"d5/d0e/classServatrice.html":[4,1,0,790],
 "d5/d0e/classServatrice.html#a0015f412f40870b6f435727e72a34b9f":[4,1,0,790,50],
 "d5/d0e/classServatrice.html#a017e4a5114f59f1f91b07c72d6603989":[4,1,0,790,122],
 "d5/d0e/classServatrice.html#a0201ff028f10e23671941fddef338323":[4,1,0,790,71],
@@ -245,9 +249,5 @@ var NAVTREEINDEX26 =
 "d5/d28/game__settings_8cpp.html":[4,2,0,10,0,0,22],
 "d5/d29/group__GameLobby.html":[3,4,0,0],
 "d5/d2a/structResponse__ReplayList_1_1Response.html":[4,1,0,761,0],
-"d5/d2a/structResponse__ReplayList_1_1Response.html#af3d689c666a70eece53297b0b70881b0":[4,1,0,761,0,0],
-"d5/d2d/structCommand__AddToList.html":[4,1,0,154],
-"d5/d2d/structCommand__AddToList.html#acee52fc97fbe876f72830a6e04dd1099":[4,1,0,154,2],
-"d5/d2d/structCommand__AddToList.html#adac27736acad421a36595e14cffbd7ac":[4,1,0,154,1],
-"d5/d31/abstract__settings__page_8h.html":[4,2,0,0,1,5,6,13,1]
+"d5/d2a/structResponse__ReplayList_1_1Response.html#af3d689c666a70eece53297b0b70881b0":[4,1,0,761,0,0]
 };

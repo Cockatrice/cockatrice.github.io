@@ -1,5 +1,13 @@
 var NAVTREEINDEX41 =
 {
+"d7/d93/classMessageLogWidget.html#ae2c2f9c6dccd9cc7151a8d0c37a8a98b":[4,1,0,611,5],
+"d7/d93/classMessageLogWidget.html#ae5eb0900ddd0e8afc53d83623f149882":[4,1,0,611,49],
+"d7/d93/classMessageLogWidget.html#af2508a40e8a90b31d6a32669c115c84a":[4,1,0,611,53],
+"d7/d93/classMessageLogWidget.html#af606637674baf61cd980980c99f2d818":[4,1,0,611,54],
+"d7/d93/classMessageLogWidget.html#af66563bdd83ebe6787bc68fcda776101":[4,1,0,611,37],
+"d7/d93/classMessageLogWidget.html#af9e6981685b98532e0abeb3eb3f89921":[4,1,0,611,33],
+"d7/d93/classMessageLogWidget.html#afbb87a498b9f8dd836a7d0e6d34af58d":[4,1,0,611,31],
+"d7/d93/structCardInfo_1_1UiAttributes.html":[3,2,9],
 "d7/d93/structCardInfo_1_1UiAttributes.html#a5aa3351ded5ed426a1e6963ec4d5cdb2":[3,2,9,2],
 "d7/d93/structCardInfo_1_1UiAttributes.html#aaf97bfd86c391c2bc5eadbba06c8a2a0":[3,2,9,1],
 "d7/d93/structCardInfo_1_1UiAttributes.html#ac38509a804bc9c8087b0e008a4c168a4":[3,2,9,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX41 =
 "d7/dc9/classDlgMyReports.html#a5d5c3ca50bb781d359ac25df7cf37245":[4,1,0,372,15],
 "d7/dc9/classDlgMyReports.html#a650283d26121621dc047da6dcb15e49a":[4,1,0,372,10],
 "d7/dc9/classDlgMyReports.html#a79d62b6689a9ea15fd222549a46f05f7":[4,1,0,372,12],
-"d7/dc9/classDlgMyReports.html#a8e8a25508f16197cdb77de4888b778b6":[4,1,0,372,18],
-"d7/dc9/classDlgMyReports.html#a93aff63ddea86e2ce2d21dd708986ec3":[4,1,0,372,21],
-"d7/dc9/classDlgMyReports.html#a9cb443e6a277594a1cfbfa4279aa0e75":[4,1,0,372,16],
-"d7/dc9/classDlgMyReports.html#aaeb4532ca6367260680642bdc6a76d4f":[4,1,0,372,3],
-"d7/dc9/classDlgMyReports.html#accc904971e38d24ffb13832133509e76":[4,1,0,372,11],
-"d7/dc9/classDlgMyReports.html#acef5296543a75c5608bf838857855514":[4,1,0,372,0],
-"d7/dc9/classDlgMyReports.html#ad94f45c8947f8d9ca1212d81b0c3cdba":[4,1,0,372,7],
-"d7/dc9/classDlgMyReports.html#adba86856590f46355119ab8e441e422a":[4,1,0,372,2],
-"d7/dc9/classDlgMyReports.html#adc43c996137e0bb723947d1d7ad9dcf0":[4,1,0,372,17]
+"d7/dc9/classDlgMyReports.html#a8e8a25508f16197cdb77de4888b778b6":[4,1,0,372,18]
 };

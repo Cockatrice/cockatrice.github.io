@@ -1,5 +1,9 @@
 var NAVTREEINDEX28 =
 {
+"d5/d5f/namespaceStatsTally.html#ab034fea6c61ce11fab9d5a6b17a3dd10":[4,0,0,35,0],
+"d5/d60/classIInterfaceSettingsProvider.html":[4,1,0,537],
+"d5/d60/classIInterfaceSettingsProvider.html#a0e232b20536c90f26aa2d1ae20a4bbd5":[4,1,0,537,33],
+"d5/d60/classIInterfaceSettingsProvider.html#a0eddc468e31ba6e0818a0fd22d247a81":[4,1,0,537,7],
 "d5/d60/classIInterfaceSettingsProvider.html#a1b9aacf23c6fa4c8e11d902500ca859b":[4,1,0,537,36],
 "d5/d60/classIInterfaceSettingsProvider.html#a1dc4c18135db353fc9caaf2c93ad9756":[4,1,0,537,5],
 "d5/d60/classIInterfaceSettingsProvider.html#a2f884f8bcfa6b634fa81026e0d829457":[4,1,0,537,21],
@@ -245,9 +249,5 @@ var NAVTREEINDEX28 =
 "d5/d88/classSettingsCache.html#a6c6ed9faefeaebdcadbd63940984dde7":[4,1,0,864,7],
 "d5/d88/classSettingsCache.html#a6cfd934a79379861e63e1fc21eb3d0a7":[4,1,0,864,74],
 "d5/d88/classSettingsCache.html#a7037026b8832432a3a208fd25ea9156a":[4,1,0,864,47],
-"d5/d88/classSettingsCache.html#a77ffc38b601d1128c21f348ed425426b":[4,1,0,864,15],
-"d5/d88/classSettingsCache.html#a7e28fbb975645bf5335f8ef105547de5":[4,1,0,864,67],
-"d5/d88/classSettingsCache.html#a819493bc4ca0cc8d1e640aea0465bb2f":[4,1,0,864,64],
-"d5/d88/classSettingsCache.html#a8441a730408a9adb62d0615e5aa09772":[4,1,0,864,78],
-"d5/d88/classSettingsCache.html#a8716acded18a446b8335f91368cd9522":[4,1,0,864,66]
+"d5/d88/classSettingsCache.html#a77ffc38b601d1128c21f348ed425426b":[4,1,0,864,15]
 };

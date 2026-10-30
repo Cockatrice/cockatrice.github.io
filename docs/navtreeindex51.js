@@ -1,5 +1,13 @@
 var NAVTREEINDEX51 =
 {
+"d9/d70/event__draw__cards_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,89,2],
+"d9/d71/structCommand__GameSay_1_1GameCommand.html":[4,1,0,189,0],
+"d9/d71/structCommand__GameSay_1_1GameCommand.html#a96e3e837bdffb2cce9c3a9614173ec70":[4,1,0,189,0,0],
+"d9/d72/commander__spellbook__deck__request_8cpp.html":[4,2,0,0,1,5,6,14,0,1,0,4],
+"d9/d74/classEdhrecDeckApiResponse.html":[4,1,0,410],
+"d9/d74/classEdhrecDeckApiResponse.html#a435bcc530d571c9a8c9e2f73de43bd01":[4,1,0,410,3],
+"d9/d74/classEdhrecDeckApiResponse.html#a5170b5a6c5c3c96057e5dd294e17bfff":[4,1,0,410,0],
+"d9/d74/classEdhrecDeckApiResponse.html#a73fd1c0b06657aaa6c1a37c427a6d21a":[4,1,0,410,1],
 "d9/d74/classEdhrecDeckApiResponse.html#a87b33784fffeef3ca98d6b23f61c7843":[4,1,0,410,2],
 "d9/d75/debug__settings_8cpp.html":[4,2,0,10,0,0,14],
 "d9/d75/servatrice__connection__pool_8cpp.html":[4,2,0,13,1,18],
@@ -241,13 +249,5 @@ var NAVTREEINDEX51 =
 "d9/da7/classpeg_1_1Action.html#a55e9b84cdd81c86aca913e756065b582":[4,1,0,5,8,0],
 "d9/da7/classpeg_1_1Action.html#a64ca757bcfd26939d3d2ef3190e4db06":[4,0,0,28,9,6],
 "d9/da7/classpeg_1_1Action.html#a64ca757bcfd26939d3d2ef3190e4db06":[4,1,0,5,8,6],
-"d9/da7/classpeg_1_1Action.html#ac5e72eb10d9282caba2d61cfbc57fe07":[4,0,0,28,9,9],
-"d9/da7/classpeg_1_1Action.html#ac5e72eb10d9282caba2d61cfbc57fe07":[4,1,0,5,8,9],
-"d9/da7/classpeg_1_1Action.html#ad84febba6499e8c0eeaf06e70cfea745":[4,0,0,28,9,3],
-"d9/da7/classpeg_1_1Action.html#ad84febba6499e8c0eeaf06e70cfea745":[4,1,0,5,8,3],
-"d9/da7/classpeg_1_1Action.html#af688d0eb3181796f6636bfee05e635d5":[4,0,0,28,9,7],
-"d9/da7/classpeg_1_1Action.html#af688d0eb3181796f6636bfee05e635d5":[4,1,0,5,8,7],
-"d9/da8/edhrec__api__response__card__list_8h.html":[3,3,2,2,2,0,5],
-"d9/da8/edhrec__api__response__card__list_8h.html":[3,3,2,3,0,0,5],
-"d9/da8/edhrec__api__response__card__list_8h.html":[3,5,1,0,0,5]
+"d9/da7/classpeg_1_1Action.html#ac5e72eb10d9282caba2d61cfbc57fe07":[4,0,0,28,9,9]
 };

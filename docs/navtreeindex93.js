@@ -1,5 +1,17 @@
 var NAVTREEINDEX93 =
 {
+"df/dfa/mana__base__config__dialog_8h_source.html":[4,2,0,0,1,5,6,1,0,1,3],
+"df/dfa/structBracketExplanation.html":[4,1,0,70],
+"df/dfa/structBracketExplanation.html#a092b9e508e6f6118d7e4517a860ce98b":[4,1,0,70,1],
+"df/dfa/structBracketExplanation.html#ab57d05bca9b85dd7f17c81225b6f80a3":[4,1,0,70,0],
+"df/dfa/structBracketExplanation.html#af93773080660bf90a2d8134e0cf7a311":[4,1,0,70,2],
+"df/dfa/tab__developer_8h.html":[3,1,0,1,1,0,2],
+"df/dfa/tab__developer_8h.html":[3,1,0,9,1,0,2],
+"df/dfa/tab__developer_8h.html":[3,5,1,1,1,0,2],
+"df/dfc/classDlgRollDice.html":[4,1,0,375],
+"df/dfc/classDlgRollDice.html#a0204746f4c15f0693a451c883b112811":[4,1,0,375,1],
+"df/dfc/classDlgRollDice.html#a0f07e03157b32261837d5e7a8a560d94":[4,1,0,375,0],
+"df/dfc/classDlgRollDice.html#a165e8f32c74394a28ade0582c8c8affe":[4,1,0,375,2],
 "df/dfc/classDlgRollDice.html#a35c6741770011e384ab2c7da86c7cfbc":[4,1,0,375,8],
 "df/dfc/classDlgRollDice.html#a42a6b67b69ee85454c10694d9d17f8fd":[4,1,0,375,9],
 "df/dfc/classDlgRollDice.html#a62c6e4397b082a8a77c6349bfbc91fc7":[4,1,0,375,6],
@@ -237,17 +249,5 @@ var NAVTREEINDEX93 =
 "dir_d1f375a61984fa4d23737ab04cddec22.html":[4,2,0,0,1,5,6,16],
 "dir_d2b8778dc7c76353e3686c20df09619a.html":[4,2,0,14,7],
 "dir_d364ab45ed11379a75e8b5d3298bcf2f.html":[4,2,0,0,1,5,6,14,0,2,0,3],
-"dir_d365996dfefd4a5851f7b6d883ed98a3.html":[4,2,0,12,0,1],
-"dir_d46e1f1e9f5fb343ca463403556689cd.html":[4,2,0,0,1,5,4],
-"dir_d50f7f8250058da740e1a77e3d6edd41.html":[4,2,0,9,0,0],
-"dir_d74311a662590662b1d733eff4ae10c8.html":[4,2,0,0,1,0,1,1],
-"dir_d765547cb107e3eb2b3b1574ade0a766.html":[4,2,0,0,1,5,6,12,2],
-"dir_d86178dd8f0b3593ba7efbedce3e5660.html":[4,2,0,0,1,5,6,5,0,0,0],
-"dir_d90d076d336641c2e15dddb578bb86d3.html":[4,2,0,0,1,0,2],
-"dir_db8259cebbeb1601e19184a832e8b992.html":[4,2,0,6,0,0,1],
-"dir_de36b17cdba204649cb899b3a9c13d84.html":[4,2,0,2,0,0,0,0],
-"dir_df7f27d4a6d9791fdd37e1ba65480219.html":[4,2,0,0,1,5,6,5,0,0,1],
-"dir_dfba2d28f18649f7ad87a35860a92af4.html":[4,2,0,13,1],
-"dir_e2332585d68324aa03276c55910070d7.html":[4,2,0,2,0,0,5],
-"dir_e4645ecbfc91d4e08ab2a10db41488eb.html":[4,2,0,0,1,5,6,14,0,0]
+"dir_d365996dfefd4a5851f7b6d883ed98a3.html":[4,2,0,12,0,1]
 };

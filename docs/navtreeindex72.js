@@ -1,5 +1,17 @@
 var NAVTREEINDEX72 =
 {
+"dc/dd7/intent__open__server__room__by__name_8h_source.html":[4,2,0,0,1,5,3,16],
+"dc/dd8/classAbstractDecklistNode.html":[3,3,0,2],
+"dc/dd8/classAbstractDecklistNode.html#a0c271fecd144b59d4d9e17de1ca34615":[3,3,0,2,8],
+"dc/dd8/classAbstractDecklistNode.html#a0d5d107247bf4bc34020ebb7107615a9":[3,3,0,2,6],
+"dc/dd8/classAbstractDecklistNode.html#a2766ecfb37582d5d5f324b2a3d2f439e":[3,3,0,2,1],
+"dc/dd8/classAbstractDecklistNode.html#a48f1c141ae060e54ef6b8aa14c1345f7":[3,3,0,2,2],
+"dc/dd8/classAbstractDecklistNode.html#a4b66d5f8287883a8b64f9e2e9c6a1b9f":[3,3,0,2,14],
+"dc/dd8/classAbstractDecklistNode.html#a4fb09e2e18f0a55c5fa5bd81a2396e3e":[3,3,0,2,12],
+"dc/dd8/classAbstractDecklistNode.html#a53333a4fadb640b224d34327c06487e1":[3,3,0,2,0],
+"dc/dd8/classAbstractDecklistNode.html#a538462c83bd5618501b9ca66fba2b2a0":[3,3,0,2,3],
+"dc/dd8/classAbstractDecklistNode.html#a86f7c1482c7cb8384c489ab2feda5d09":[3,3,0,2,15],
+"dc/dd8/classAbstractDecklistNode.html#a9888346a6af100b2f95b5bc4d661711c":[3,3,0,2,10],
 "dc/dd8/classAbstractDecklistNode.html#a993d84a68de70e01ec1eb3b27dcae2eb":[3,3,0,2,7],
 "dc/dd8/classAbstractDecklistNode.html#aa63a74f48c8f68b8ec7a89a4612fce3f":[3,3,0,2,13],
 "dc/dd8/classAbstractDecklistNode.html#ad987f6b1ced61ac16a537646bfa1a18c":[3,3,0,2,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX72 =
 "dc/df4/structLoadSetsResult.html#a199712e78909bbbb34c97c884e3cb217":[4,1,0,577,3],
 "dc/df4/structLoadSetsResult.html#a277818ade73d62ba4da9f9401308da2f":[4,1,0,577,4],
 "dc/df4/structLoadSetsResult.html#a94633c40544864cc447be429233dd147":[4,1,0,577,0],
-"dc/df4/structLoadSetsResult.html#aa027749ad5830938749b29dcf28cf08a":[4,1,0,577,1],
-"dc/df4/window__main_8h.html":[3,0,7],
-"dc/df6/response__get__server__stats_8proto.html":[4,2,0,8,0,0,0,154],
-"dc/df6/response__get__server__stats_8proto.html#adbedb258e13546cc707a6ebb073a3d8a":[4,2,0,8,0,0,0,154,3],
-"dc/df7/game__selector__quick__filter__toolbar_8h.html":[4,2,0,0,1,5,6,12,10],
-"dc/df7/game__selector__quick__filter__toolbar_8h_source.html":[4,2,0,0,1,5,6,12,10],
-"dc/dfa/classColorButton.html":[4,1,0,146],
-"dc/dfa/classColorButton.html#a05fea219f75353e1ffd8a48c27a22624":[4,1,0,146,0],
-"dc/dfa/classColorButton.html#a0804fc3096200d8ded3b5db06a377b78":[4,1,0,146,6],
-"dc/dfa/classColorButton.html#a33fe75df7dbc8f1f76389975a9776332":[4,1,0,146,5],
-"dc/dfa/classColorButton.html#a41110a214cb2e23e10fd086964be854e":[4,1,0,146,2],
-"dc/dfa/classColorButton.html#a58874567814aa8d070d760531cf1a52f":[4,1,0,146,4],
-"dc/dfa/classColorButton.html#a9cd98ab11ac0c98e3c2ff7b3432c6928":[4,1,0,146,3]
+"dc/df4/structLoadSetsResult.html#aa027749ad5830938749b29dcf28cf08a":[4,1,0,577,1]
 };

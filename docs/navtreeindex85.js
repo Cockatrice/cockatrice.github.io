@@ -1,5 +1,17 @@
 var NAVTREEINDEX85 =
 {
+"de/dba/classChatSettings.html#a92e06a3db2f6fb6a62b1834986e89603":[4,1,0,136,6],
+"de/dba/classChatSettings.html#a954518ac04d93dd68e9a6605b181aee1":[4,1,0,136,21],
+"de/dba/classChatSettings.html#a9c1c0d555e0360e0c61fa0d0c9ca8b2f":[4,1,0,136,24],
+"de/dba/classChatSettings.html#aa2b3490e5b76a6bd02874e9c4b7122d7":[4,1,0,136,16],
+"de/dba/classChatSettings.html#aa71926b66541a73f6a2d9d253092326f":[4,1,0,136,5],
+"de/dba/classChatSettings.html#aa9e1298ad5f8a03811e5610bc2eb7947":[4,1,0,136,36],
+"de/dba/classChatSettings.html#ab744ecfb90a14acc26bf1253bc98c42d":[4,1,0,136,8],
+"de/dba/classChatSettings.html#ab7678bf5acc590f1ec1e691df9710b41":[4,1,0,136,27],
+"de/dba/classChatSettings.html#ac2360636f99d5743f7128ebdff0a7566":[4,1,0,136,1],
+"de/dba/classChatSettings.html#ac516037464b18f8011dcb1c8080605a6":[4,1,0,136,11],
+"de/dba/classChatSettings.html#ac6e2f1b84edb84a2b2f7ecf5997dad48":[4,1,0,136,17],
+"de/dba/classChatSettings.html#aca0ca05a03aa66255c075753e330319e":[4,1,0,136,25],
 "de/dba/classChatSettings.html#acb22ff5d7e730defd8800e684c832837":[4,1,0,136,7],
 "de/dba/classChatSettings.html#acf787cb064021c674cd6e3209fb2ce22":[4,1,0,136,2],
 "de/dba/classChatSettings.html#ad948c8b6a9158f6c1bb7db160fd694f9":[4,1,0,136,31],
@@ -237,17 +249,5 @@ var NAVTREEINDEX85 =
 "de/de6/structServerInfo__RoomChannel.html#abf6f6bd04abb7febabddd868b3ee3b53a18036cee69855501346a1e6b30753a14":[4,1,0,841,0,5],
 "de/de6/structServerInfo__RoomChannel.html#abf6f6bd04abb7febabddd868b3ee3b53a213227a26c172af3c39ca2703abd920c":[4,1,0,841,0,4],
 "de/de6/structServerInfo__RoomChannel.html#abf6f6bd04abb7febabddd868b3ee3b53a3d48e33db873db945d2715a18e84a858":[4,1,0,841,0,3],
-"de/de6/structServerInfo__RoomChannel.html#abf6f6bd04abb7febabddd868b3ee3b53a4476957ac6e7a9402a4ee9f2bdb43d37":[4,1,0,841,0,0],
-"de/de6/structServerInfo__RoomChannel.html#abf6f6bd04abb7febabddd868b3ee3b53ad474fec4540707a7402d9d04b8c1cb65":[4,1,0,841,0,1],
-"de/de6/structServerInfo__RoomChannel.html#abf6f6bd04abb7febabddd868b3ee3b53ad708ab6dae30979b511108b015c41a5e":[4,1,0,841,0,2],
-"de/de8/add__analytics__panel__dialog_8h.html":[4,2,0,0,1,5,6,1,4],
-"de/de8/add__analytics__panel__dialog_8h_source.html":[4,2,0,0,1,5,6,1,4],
-"de/de9/classDeckLoader.html":[4,1,0,325],
-"de/de9/classDeckLoader.html#a0171a45c42668208c70d0f6fbfe006a2":[4,1,0,325,21],
-"de/de9/classDeckLoader.html#a0760beaf11c3d5f4d73d21f19f9ae62b":[4,1,0,325,11],
-"de/de9/classDeckLoader.html#a0f90a3500c14858eb6bc5200e77033ee":[4,1,0,325,10],
-"de/de9/classDeckLoader.html#a1e27104406ed9c0ae00b66426df12823":[4,1,0,325,13],
-"de/de9/classDeckLoader.html#a1f9a7cb6f8a175c62d02d1bac2591f1d":[4,1,0,325,9],
-"de/de9/classDeckLoader.html#a2101fa8ea5deafdbc193cb6daf0653c4":[4,1,0,325,7],
-"de/de9/classDeckLoader.html#a24f3d809aa17c13b02a692f6925b4bcf":[4,1,0,325,6]
+"de/de6/structServerInfo__RoomChannel.html#abf6f6bd04abb7febabddd868b3ee3b53a4476957ac6e7a9402a4ee9f2bdb43d37":[4,1,0,841,0,0]
 };

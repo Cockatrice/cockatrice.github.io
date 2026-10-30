@@ -1,5 +1,13 @@
 var NAVTREEINDEX55 =
 {
+"da/d1e/classVisualDeckEditorWidget.html#ae0a4616d636f4460577c224126f1cf3c":[4,1,0,988,25],
+"da/d1e/classVisualDeckEditorWidget.html#ae85d4515c86d9a89ad002b753ee4621a":[4,1,0,988,43],
+"da/d1e/classVisualDeckEditorWidget.html#aead13890b87c482169fa74428d34d139":[4,1,0,988,36],
+"da/d1e/classVisualDeckEditorWidget.html#aedf40cd029a12b0d297fd6a421011337":[4,1,0,988,1],
+"da/d1e/classVisualDeckEditorWidget.html#aeff285d8129e0654029c77c39f0c47da":[4,1,0,988,27],
+"da/d1e/classVisualDeckEditorWidget.html#af7fbc722d46cc0b8e8d95fd382e2cde8":[4,1,0,988,4],
+"da/d1e/classVisualDeckEditorWidget.html#af9fe545695a868d0403bd25202545867":[4,1,0,988,37],
+"da/d1e/classVisualDeckEditorWidget.html#afcc4b112a430ab94103d6654d52d422d":[4,1,0,988,24],
 "da/d20/classPhaseButton.html":[4,1,0,654],
 "da/d20/classPhaseButton.html#a08e133f8669b1da61e09295222e276ee":[4,1,0,654,5],
 "da/d20/classPhaseButton.html#a09ec53398115faf2fa0f4953eb8f4a9c":[4,1,0,654,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX55 =
 "da/d3b/classUserListWidget.html#a82070b4ca2fe3414d6dae6735c932434":[4,1,0,970,82],
 "da/d3b/classUserListWidget.html#a821181d6f75bae68321c31c112e2c6d2":[4,1,0,970,51],
 "da/d3b/classUserListWidget.html#a829d839fcc567a91a28843fadb0bc162":[4,1,0,970,66],
-"da/d3b/classUserListWidget.html#a834e4ac4c440c260d5379bd3e0c27d43":[4,1,0,970,58],
-"da/d3b/classUserListWidget.html#a87badc0d753302d15a4e5e61c5659b35":[4,1,0,970,53],
-"da/d3b/classUserListWidget.html#a87ec33d6e0f7e89309dd65b790ff859d":[4,1,0,970,63],
-"da/d3b/classUserListWidget.html#a8a1fc76a53abc05fbafabbd97eed3750":[4,1,0,970,41],
-"da/d3b/classUserListWidget.html#a8d4ed64c44d04235ea1a9cc6b5a733f6":[4,1,0,970,44],
-"da/d3b/classUserListWidget.html#a8e3cd49fb08136b5589fbd135a524cd0":[4,1,0,970,38],
-"da/d3b/classUserListWidget.html#a8e64d25c030af2512fb35da0ea0055c3":[4,1,0,970,86],
-"da/d3b/classUserListWidget.html#a95a37419245c86a7f4be0219add49e6e":[4,1,0,970,60],
-"da/d3b/classUserListWidget.html#a9b1c6447696c3430740d81afccf5826c":[4,1,0,970,88]
+"da/d3b/classUserListWidget.html#a834e4ac4c440c260d5379bd3e0c27d43":[4,1,0,970,58]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX22 =
 {
+"d4/d14/classDownloadSettings.html#af049d4c09620dac11a4ae65915473195":[4,1,0,384,19],
+"d4/d17/edhrec__top__tags__api__response_8cpp.html":[4,2,0,0,1,5,6,14,0,2,0,7,0],
+"d4/d17/inner__deck__list__node_8cpp.html":[4,2,0,3,0,0,0,6],
+"d4/d18/group__LocalDeckStorageWidgets.html":[3,1,0,5],
 "d4/d18/group__LocalDeckStorageWidgets.html":[3,3,2,0,0],
 "d4/d18/interface__deck__editor__settings__provider_8h.html":[4,2,0,5,0,0,6],
 "d4/d18/interface__deck__editor__settings__provider_8h_source.html":[4,2,0,5,0,0,6],
@@ -27,9 +31,9 @@ var NAVTREEINDEX22 =
 "d4/d28/structEvent__PlayerPropertiesChanged.html":[4,1,0,448],
 "d4/d28/structEvent__PlayerPropertiesChanged.html#ab802cad06e671bde275668272a49da0a":[4,1,0,448,1],
 "d4/d29/edhrec__api__response__card__synergy__display__widget_8cpp.html":[4,2,0,0,1,5,6,14,0,2,1,1,6],
-"d4/d29/single__instance__manager__test_8cpp.html":[4,2,0,14,33],
-"d4/d29/single__instance__manager__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,33,0],
-"d4/d29/single__instance__manager__test_8cpp.html#abfe8f5132d50f8a0725d25a5e7c7d952":[4,2,0,14,33,1],
+"d4/d29/single__instance__manager__test_8cpp.html":[4,2,0,14,34],
+"d4/d29/single__instance__manager__test_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[4,2,0,14,34,0],
+"d4/d29/single__instance__manager__test_8cpp.html#abfe8f5132d50f8a0725d25a5e7c7d952":[4,2,0,14,34,1],
 "d4/d2b/structCommandStats.html":[4,1,0,276],
 "d4/d2b/structCommandStats.html#a01b6f7895abbeaf18e2d1f9f970ecfd7":[4,1,0,276,2],
 "d4/d2b/structCommandStats.html#a722e7ccf55624dae2bff2b191bb28de1":[4,1,0,276,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX22 =
 "d4/d4b/sequence__edit_8cpp.html":[4,2,0,0,1,5,6,15,18],
 "d4/d4b/structCommand__ShutdownServer_1_1AdminCommand.html":[4,1,0,258,0],
 "d4/d4b/structCommand__ShutdownServer_1_1AdminCommand.html#ab1f7a9b1418b7673d6ec6bd3245cca1b":[4,1,0,258,0,0],
-"d4/d4d/group__CardWidgets.html":[3,1,0,2],
-"d4/d4d/group__CardWidgets.html":[3,2,3],
-"d4/d51/card__set_8cpp.html":[4,2,0,2,0,0,5,0],
-"d4/d55/classInnerDecklistNode.html":[4,1,0,540],
-"d4/d55/classInnerDecklistNode.html#a00d0ad3db930e3374d2c2d2599c2d661":[4,1,0,540,19]
+"d4/d4d/group__CardWidgets.html":[3,1,0,2]
 };

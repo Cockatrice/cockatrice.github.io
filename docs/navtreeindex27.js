@@ -1,5 +1,9 @@
 var NAVTREEINDEX27 =
 {
+"d5/d2d/structCommand__AddToList.html":[4,1,0,154],
+"d5/d2d/structCommand__AddToList.html#acee52fc97fbe876f72830a6e04dd1099":[4,1,0,154,2],
+"d5/d2d/structCommand__AddToList.html#adac27736acad421a36595e14cffbd7ac":[4,1,0,154,1],
+"d5/d31/abstract__settings__page_8h.html":[4,2,0,0,1,5,6,13,1],
 "d5/d31/abstract__settings__page_8h.html#a2be223e7bc5e68ddfec0935c263fef29":[4,2,0,0,1,5,6,13,1,4],
 "d5/d31/abstract__settings__page_8h.html#aadd046b665ebbee46381d48dc1ca2250":[4,2,0,0,1,5,6,13,1,2],
 "d5/d31/abstract__settings__page_8h.html#ab72739ab99172d24dee0595f91b97f0a":[4,2,0,0,1,5,6,13,1,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX27 =
 "d5/d5d/tab__account_8h.html":[3,1,0,9,1,1,0],
 "d5/d5d/tab__account_8h.html":[3,5,1,1,1,1,0],
 "d5/d5f/namespaceStatsTally.html":[4,0,0,35],
-"d5/d5f/namespaceStatsTally.html#aa9aa54a2dbe465293de452e40b6fadc8":[4,0,0,35,1],
-"d5/d5f/namespaceStatsTally.html#ab034fea6c61ce11fab9d5a6b17a3dd10":[4,0,0,35,0],
-"d5/d60/classIInterfaceSettingsProvider.html":[4,1,0,537],
-"d5/d60/classIInterfaceSettingsProvider.html#a0e232b20536c90f26aa2d1ae20a4bbd5":[4,1,0,537,33],
-"d5/d60/classIInterfaceSettingsProvider.html#a0eddc468e31ba6e0818a0fd22d247a81":[4,1,0,537,7]
+"d5/d5f/namespaceStatsTally.html#aa9aa54a2dbe465293de452e40b6fadc8":[4,0,0,35,1]
 };

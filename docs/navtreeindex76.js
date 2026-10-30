@@ -1,5 +1,17 @@
 var NAVTREEINDEX76 =
 {
+"dd/d81/classTabSupervisor.html#a9a12eee7783c0c5e8310e96ec8a71d13a5d15f0d108a74079892a75d58837a552":[4,1,0,931,0,1],
+"dd/d81/classTabSupervisor.html#a9a12eee7783c0c5e8310e96ec8a71d13a6bcf1460fef0f3063acd130333046b62":[4,1,0,931,0,0],
+"dd/d81/classTabSupervisor.html#a9c0f45562627fa4b00e6a0698e4baf2e":[4,1,0,931,36],
+"dd/d81/classTabSupervisor.html#a9cf19b28e802f021fc6c549ffa792c6a":[4,1,0,931,76],
+"dd/d81/classTabSupervisor.html#a9d01b352ebd806a19bc778cc48e3ad9f":[4,1,0,931,135],
+"dd/d81/classTabSupervisor.html#a9e6c3a12796d9a8605694623e191e6c0":[4,1,0,931,64],
+"dd/d81/classTabSupervisor.html#aa3d323bd42db5fdefaae5b174cf72e42":[4,1,0,931,93],
+"dd/d81/classTabSupervisor.html#aa70fcb2c104544809f5fbbe23cc32950":[4,1,0,931,115],
+"dd/d81/classTabSupervisor.html#aa8cc0293593468e7880d98432d8b5a90":[4,1,0,931,99],
+"dd/d81/classTabSupervisor.html#aac03fb4cc3ea2c9fdc181880ecda3d1f":[4,1,0,931,113],
+"dd/d81/classTabSupervisor.html#aad3dac92f6cd5253a00b3c25b322b89d":[4,1,0,931,14],
+"dd/d81/classTabSupervisor.html#aae2625b569ae411018fda39f49704e29":[4,1,0,931,109],
 "dd/d81/classTabSupervisor.html#aae7b2bbfe975a3f726746cd4236c9d3c":[4,1,0,931,86],
 "dd/d81/classTabSupervisor.html#aaedab92a60588dba7e865bf65bc174b3":[4,1,0,931,25],
 "dd/d81/classTabSupervisor.html#ab1ba13561cc2d3880050d711c4335ac3":[4,1,0,931,81],
@@ -237,17 +249,5 @@ var NAVTREEINDEX76 =
 "dd/da4/zipglobal_8cpp.html#ac0db9414ff56c845f473f54665f6f23f":[4,2,0,12,0,1,7,0],
 "dd/da4/zipglobal_8cpp.html#afa1b34fd9ba344ed75225c25386773ac":[4,2,0,12,0,1,7,1],
 "dd/da5/structEvent__DrawCards.html":[4,1,0,430],
-"dd/da5/structEvent__DrawCards.html#a2574a0082ffaa84f476cba384da1446b":[4,1,0,430,1],
-"dd/da5/structEvent__DrawCards.html#a71c369d7100696605490d6272d32ddba":[4,1,0,430,2],
-"dd/da5/structEvent__ReverseTurn_1_1GameEvent.html":[4,1,0,453,0],
-"dd/da5/structEvent__ReverseTurn_1_1GameEvent.html#a130ee2a7449f2629f3a40b9f3a92c462":[4,1,0,453,0,0],
-"dd/da7/card__info__picture__art__crop__widget_8cpp.html":[4,2,0,0,1,5,6,0,10],
-"dd/da7/shared__deck__preview__widget_8h.html":[4,2,0,0,1,5,6,3,5],
-"dd/da7/shared__deck__preview__widget_8h_source.html":[4,2,0,0,1,5,6,3,5],
-"dd/da9/mana__curve__config__dialog_8cpp.html":[4,2,0,0,1,5,6,1,0,2,4],
-"dd/daa/classQSharedPointer.html":[4,1,0,700],
-"dd/daa/cryptoutil_8cpp.html":[4,2,0,11,0,0,4],
-"dd/daa/cryptoutil_8cpp.html#a4d91ba6d7a7b92307eaa3044a0373dfa":[4,2,0,11,0,0,4,4],
-"dd/daa/cryptoutil_8cpp.html#ac71fa8142c64d73e58673cabd554c2b6":[4,2,0,11,0,0,4,5],
-"dd/daa/cryptoutil_8cpp.html#ae735532de2c070de18de8fb623accdd5":[4,2,0,11,0,0,4,7]
+"dd/da5/structEvent__DrawCards.html#a2574a0082ffaa84f476cba384da1446b":[4,1,0,430,1]
 };

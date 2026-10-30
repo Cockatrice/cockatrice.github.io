@@ -1,5 +1,17 @@
 var NAVTREEINDEX82 =
 {
+"de/d44/classpeg_1_1Dictionary.html#a64f0e8e99e824bcd5eb6fd69454ec8fe":[4,0,0,28,23,0],
+"de/d44/classpeg_1_1Dictionary.html#a64f0e8e99e824bcd5eb6fd69454ec8fe":[4,1,0,5,22,0],
+"de/d44/classpeg_1_1Dictionary.html#a8df0963f049938adbdacb80c1356a294":[4,0,0,28,23,1],
+"de/d44/classpeg_1_1Dictionary.html#a8df0963f049938adbdacb80c1356a294":[4,1,0,5,22,1],
+"de/d44/classpeg_1_1Dictionary.html#a9d32f2e78fe7878112ddf022fa9c1a1e":[4,0,0,28,23,2],
+"de/d44/classpeg_1_1Dictionary.html#a9d32f2e78fe7878112ddf022fa9c1a1e":[4,1,0,5,22,2],
+"de/d44/classpeg_1_1Dictionary.html#ae6dbdfcc4cc395427b7cfaebf81ae391":[4,0,0,28,23,3],
+"de/d44/classpeg_1_1Dictionary.html#ae6dbdfcc4cc395427b7cfaebf81ae391":[4,1,0,5,22,3],
+"de/d45/structZoneCounts.html":[4,1,0,1008],
+"de/d45/structZoneCounts.html#a36f435d40f9dfa0b97ba4ffde270dec5":[4,1,0,1008,1],
+"de/d45/structZoneCounts.html#a895c84d75dd7f442ed7f7e1c0a0f68f5":[4,1,0,1008,0],
+"de/d45/structZoneCounts.html#a9888fe03bcb22f4a40a6763118003124":[4,1,0,1008,2],
 "de/d47/structDeckShareSummaryRecord.html":[4,1,0,338],
 "de/d47/structDeckShareSummaryRecord.html#a07926d13de6be217511e5a2efc8544d8":[4,1,0,338,4],
 "de/d47/structDeckShareSummaryRecord.html#a0d37e9b4a0b65c4dfd5a2a8b71d51cf5":[4,1,0,338,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX82 =
 "de/d6a/structEvent__SetCardAttr_1_1GameEvent.html":[4,1,0,463,0],
 "de/d6a/structEvent__SetCardAttr_1_1GameEvent.html#aa8dc3a072b00394d530e37c888bf5327":[4,1,0,463,0,0],
 "de/d6c/structCommanderSpellbookCardResult.html":[4,1,0,273],
-"de/d6c/structCommanderSpellbookCardResult.html#a0492d67963972f1c110fbfaf2caea9be":[4,1,0,273,4],
-"de/d6c/structCommanderSpellbookCardResult.html#a05371907cf1f7ac2a6b15ceabfd285cd":[4,1,0,273,7],
-"de/d6c/structCommanderSpellbookCardResult.html#a22800faec0d5224e6aab5d634b081692":[4,1,0,273,8],
-"de/d6c/structCommanderSpellbookCardResult.html#a46b49b68e54e70de1408db3727f97c58":[4,1,0,273,2],
-"de/d6c/structCommanderSpellbookCardResult.html#a49c184fc4d83221b724b31626747d262":[4,1,0,273,13],
-"de/d6c/structCommanderSpellbookCardResult.html#a5ec1247772cde6f86c2ed74ce26d17c4":[4,1,0,273,9],
-"de/d6c/structCommanderSpellbookCardResult.html#a72fcc6a4fbd6c6139118ca5031abe8ca":[4,1,0,273,3],
-"de/d6c/structCommanderSpellbookCardResult.html#a7806d401b75d5514ff0d903faa8d299c":[4,1,0,273,6],
-"de/d6c/structCommanderSpellbookCardResult.html#a85606052c48abfbd175baf2de4b0022e":[4,1,0,273,12],
-"de/d6c/structCommanderSpellbookCardResult.html#a87ac4eba0bd078ff6816a7fb1fc3493d":[4,1,0,273,0],
-"de/d6c/structCommanderSpellbookCardResult.html#a95db9e3f765d7f4ccd14d4368ddd9e7d":[4,1,0,273,11],
-"de/d6c/structCommanderSpellbookCardResult.html#a99b886627c49aa55178565f6f2f2b77c":[4,1,0,273,15],
-"de/d6c/structCommanderSpellbookCardResult.html#aa9901d43186092e949501d45ac016716":[4,1,0,273,5]
+"de/d6c/structCommanderSpellbookCardResult.html#a0492d67963972f1c110fbfaf2caea9be":[4,1,0,273,4]
 };

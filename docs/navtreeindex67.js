@@ -1,5 +1,17 @@
 var NAVTREEINDEX67 =
 {
+"dc/d07/classServer__Card.html#ada100acdd9983064b2190c6cff20fc2f":[4,1,0,802,7],
+"dc/d07/classServer__Card.html#addbd03fe0f1bd9b8e5d7e35414f1334a":[4,1,0,802,35],
+"dc/d07/classServer__Card.html#ae10a62ea527d7a006e71f40eaa23c74e":[4,1,0,802,20],
+"dc/d07/classServer__Card.html#ae581dd239c8a22a5b6ba866d3cc5ed18":[4,1,0,802,34],
+"dc/d07/classServer__Card.html#aeadb81191f2b0eb6f7457b225d2143f5":[4,1,0,802,29],
+"dc/d07/classServer__Card.html#aee9d8ac6995e95b990cfe1da9a80d4be":[4,1,0,802,55],
+"dc/d07/classServer__Card.html#aefed7a62c28b47526766a8ad49a6be67":[4,1,0,802,31],
+"dc/d07/classServer__Card.html#af07c37b29670dac3dfad5af4e47e0611":[4,1,0,802,9],
+"dc/d07/classServer__Card.html#af385a9b0523d53073b8b438ebe8523e0":[4,1,0,802,30],
+"dc/d07/classServer__Card.html#af506f953297911846021d8cc6b813813":[4,1,0,802,53],
+"dc/d07/classServer__Card.html#afab8a9f49343cdf8e6f7c1f722045a99":[4,1,0,802,26],
+"dc/d07/classServer__Card.html#afcb84b9db07256c5bd5972b593c4be3f":[4,1,0,802,50],
 "dc/d08/dlg__login__prompt_8h.html":[3,1,0,0,0,2,1],
 "dc/d08/dlg__login__prompt_8h.html":[3,1,0,9,0,2,1],
 "dc/d08/dlg__login__prompt_8h.html":[3,5,1,1,0,2,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX67 =
 "dc/d3c/classArchidektApiResponseDeck.html#a05417c8f32767c83c95d75ee2dbde0a9":[4,1,0,37,9],
 "dc/d3c/classArchidektApiResponseDeck.html#a0efba1502d67fbfb88052a33f6691d1e":[4,1,0,37,0],
 "dc/d3c/classArchidektApiResponseDeck.html#a15a95ee61b4567d1c8cabaefbb5c6939":[4,1,0,37,15],
-"dc/d3c/classArchidektApiResponseDeck.html#a1f0b6e8a6dc5b754236a6dc2f4120912":[4,1,0,37,26],
-"dc/d3c/classArchidektApiResponseDeck.html#a20abfd1481eb75abfa29df87569d8023":[4,1,0,37,22],
-"dc/d3c/classArchidektApiResponseDeck.html#a21c2349ad24112c4f93c00b74833634a":[4,1,0,37,21],
-"dc/d3c/classArchidektApiResponseDeck.html#a39caabd0024cb6eb9df631fb797b8663":[4,1,0,37,29],
-"dc/d3c/classArchidektApiResponseDeck.html#a3b89e1895572d11e34db7c62058e1f23":[4,1,0,37,23],
-"dc/d3c/classArchidektApiResponseDeck.html#a445fd0fae926b9a6cad301b1e1286559":[4,1,0,37,25],
-"dc/d3c/classArchidektApiResponseDeck.html#a44eca003920297f70f4449353f4c47ed":[4,1,0,37,17],
-"dc/d3c/classArchidektApiResponseDeck.html#a4742ae978c245c3492389888fab90cf9":[4,1,0,37,31],
-"dc/d3c/classArchidektApiResponseDeck.html#a4f06d4bfae8df06a23dc9b1f6d93a1dc":[4,1,0,37,1],
-"dc/d3c/classArchidektApiResponseDeck.html#a52ea417acbeba31ab134a7b57bd2bd85":[4,1,0,37,2],
-"dc/d3c/classArchidektApiResponseDeck.html#a54483851a452d55161abbe52bbd55478":[4,1,0,37,30],
-"dc/d3c/classArchidektApiResponseDeck.html#a580864218f229e7ee18ddb9c0f39b199":[4,1,0,37,13],
-"dc/d3c/classArchidektApiResponseDeck.html#a5a95cf7e1016a135c56453f24d2f2550":[4,1,0,37,6]
+"dc/d3c/classArchidektApiResponseDeck.html#a1f0b6e8a6dc5b754236a6dc2f4120912":[4,1,0,37,26]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX61 =
 {
+"db/d00/classServer.html#aebb8ad8629c1787fbe20ea00151aa728":[4,1,0,796,44],
+"db/d00/classServer.html#aebcee070ce5b5291615b40fb9473bab1":[4,1,0,796,74],
+"db/d00/classServer.html#aedaa4929b66891b4df102c49ab5659cb":[4,1,0,796,62],
+"db/d00/classServer.html#af08ca7fae4454f5e29cf146cbaf3f8de":[4,1,0,796,72],
+"db/d00/classServer.html#af2d74a65573e3093c84ce64474b1a7c8":[4,1,0,796,56],
+"db/d00/classServer.html#af85b8bb080eef5829ea3dd5a371ee458":[4,1,0,796,51],
+"db/d00/classServer.html#afb7347ac37f4255e2f667b29c02d7e21":[4,1,0,796,16],
+"db/d00/classServer.html#afd0bbd0176df65632d4f8ae6cb805827":[4,1,0,796,14],
 "db/d00/classServer.html#afebd8b8b26da4d2226322a61de503044":[4,1,0,796,50],
 "db/d00/classServer.html#afef3e90e126a62dcf54038d3b245b9d2":[4,1,0,796,64],
 "db/d02/structSFMT__T.html":[4,1,0,876],
@@ -241,13 +249,5 @@ var NAVTREEINDEX61 =
 "db/d22/classCardInfoFrameWidget.html#a93aab87031f37b40a7b054d81d317de5":[4,1,0,101,16],
 "db/d22/classCardInfoFrameWidget.html#a941c35b7b278a88425bf083a226be3b8":[4,1,0,101,3],
 "db/d22/classCardInfoFrameWidget.html#aa02c47df2e5297e6628f668174c011c4":[4,1,0,101,4],
-"db/d22/classCardInfoFrameWidget.html#aaa0e9198792aa1cdcbc85bef93365cf2":[4,1,0,101,13],
-"db/d22/classCardInfoFrameWidget.html#ab68ed923a99e74ddaf9da5ef7c2645a8":[4,1,0,101,18],
-"db/d22/classCardInfoFrameWidget.html#abd8e4a22f3e092418117e0f7e9a6f700":[4,1,0,101,24],
-"db/d22/classCardInfoFrameWidget.html#ad5eeb7e1a47cc11eb48c55824231ae33":[4,1,0,101,19],
-"db/d22/classCardInfoFrameWidget.html#adcf86ff4196bd3f027b51ad94f3548ff":[4,1,0,101,14],
-"db/d22/classCardInfoFrameWidget.html#ade1493a57bc4d22d254505fb2e8f31bf":[4,1,0,101,8],
-"db/d22/classCardInfoFrameWidget.html#adeef9ea990201e025d47345531ac04fe":[4,1,0,101,12],
-"db/d22/classCardInfoFrameWidget.html#af99bda67f233a78072ecd6122a8fe497":[4,1,0,101,5],
-"db/d23/structCommand__SetSideboardPlan_1_1GameCommand.html":[4,1,0,256,0]
+"db/d22/classCardInfoFrameWidget.html#aaa0e9198792aa1cdcbc85bef93365cf2":[4,1,0,101,13]
 };

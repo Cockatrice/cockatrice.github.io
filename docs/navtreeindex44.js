@@ -1,5 +1,13 @@
 var NAVTREEINDEX44 =
 {
+"d8/d3b/classPublicDeckPreviewWidget.html#a0fa0d2ef5604a04e8a7c3d269a1c5ec3":[4,1,0,694,14],
+"d8/d3b/classPublicDeckPreviewWidget.html#a13b894912acf0667512ee54f398db929":[4,1,0,694,0],
+"d8/d3b/classPublicDeckPreviewWidget.html#a1a0bbbec6c752c4b2a1ec0fea2c03a88":[4,1,0,694,17],
+"d8/d3b/classPublicDeckPreviewWidget.html#a2c1664e84a1bb0ab0e8c827cb12ab164":[4,1,0,694,4],
+"d8/d3b/classPublicDeckPreviewWidget.html#a3b1a28ba8bd7f75696d2e2e747c8d12e":[4,1,0,694,13],
+"d8/d3b/classPublicDeckPreviewWidget.html#a56a3b4372f7c3f066e529ca49a31f8af":[4,1,0,694,6],
+"d8/d3b/classPublicDeckPreviewWidget.html#a6197e376d36c62cb1f04a563848cde75":[4,1,0,694,3],
+"d8/d3b/classPublicDeckPreviewWidget.html#a688eafcc6554741ab150bbc6234ab1f4":[4,1,0,694,9],
 "d8/d3b/classPublicDeckPreviewWidget.html#a7e18796b67b286ebdb325aac452978e8":[4,1,0,694,10],
 "d8/d3b/classPublicDeckPreviewWidget.html#a7f6c90c739e13c9d14b6e2f8af4c5d54":[4,1,0,694,21],
 "d8/d3b/classPublicDeckPreviewWidget.html#a871403906f6d7a0d19e0c03dc2758fed":[4,1,0,694,16],
@@ -241,13 +249,5 @@ var NAVTREEINDEX44 =
 "d8/d6a/classSetsMimeData.html#a4fcefa4607f955be7cf43ad0f8a8b389":[4,1,0,861,1],
 "d8/d6a/classSetsMimeData.html#a52244edb70bb04b9e283a7d143cfa015":[4,1,0,861,0],
 "d8/d6a/classSetsMimeData.html#a72b3c618d2308864ce14f59873f77136":[4,1,0,861,3],
-"d8/d6a/classSetsMimeData.html#aac75191f5ebc9f2a3bb350240c5c1959":[4,1,0,861,2],
-"d8/d6a/deck__preview__tag__display__widget_8h.html":[3,1,0,5,1,0,4],
-"d8/d6a/deck__preview__tag__display__widget_8h.html":[3,3,2,0,0,1,0,4],
-"d8/d6d/classCardMenu.html":[4,1,0,109],
-"d8/d6d/classCardMenu.html#a0ad3304d785710c0db357e4894ea1b78":[4,1,0,109,22],
-"d8/d6d/classCardMenu.html#a10c381216ae94e4cbb073b9e9143193e":[4,1,0,109,0],
-"d8/d6d/classCardMenu.html#a1c762ac61890856d5c4a8cb370b7a363":[4,1,0,109,4],
-"d8/d6d/classCardMenu.html#a200d310e2e8cd8ea53940fe24f9105b2":[4,1,0,109,28],
-"d8/d6d/classCardMenu.html#a2c60e5647b16399d84e6c14010a14620":[4,1,0,109,26]
+"d8/d6a/classSetsMimeData.html#aac75191f5ebc9f2a3bb350240c5c1959":[4,1,0,861,2]
 };

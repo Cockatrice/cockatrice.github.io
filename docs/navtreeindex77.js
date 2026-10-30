@@ -1,5 +1,17 @@
 var NAVTREEINDEX77 =
 {
+"dd/da5/structEvent__DrawCards.html#a71c369d7100696605490d6272d32ddba":[4,1,0,430,2],
+"dd/da5/structEvent__ReverseTurn_1_1GameEvent.html":[4,1,0,453,0],
+"dd/da5/structEvent__ReverseTurn_1_1GameEvent.html#a130ee2a7449f2629f3a40b9f3a92c462":[4,1,0,453,0,0],
+"dd/da7/card__info__picture__art__crop__widget_8cpp.html":[4,2,0,0,1,5,6,0,10],
+"dd/da7/shared__deck__preview__widget_8h.html":[4,2,0,0,1,5,6,3,5],
+"dd/da7/shared__deck__preview__widget_8h_source.html":[4,2,0,0,1,5,6,3,5],
+"dd/da9/mana__curve__config__dialog_8cpp.html":[4,2,0,0,1,5,6,1,0,2,4],
+"dd/daa/classQSharedPointer.html":[4,1,0,700],
+"dd/daa/cryptoutil_8cpp.html":[4,2,0,11,0,0,4],
+"dd/daa/cryptoutil_8cpp.html#a4d91ba6d7a7b92307eaa3044a0373dfa":[4,2,0,11,0,0,4,4],
+"dd/daa/cryptoutil_8cpp.html#ac71fa8142c64d73e58673cabd554c2b6":[4,2,0,11,0,0,4,5],
+"dd/daa/cryptoutil_8cpp.html#ae735532de2c070de18de8fb623accdd5":[4,2,0,11,0,0,4,7],
 "dd/daa/cryptoutil_8cpp.html#afceb141cbc33fdddd5d0763d7bd43a87":[4,2,0,11,0,0,4,6],
 "dd/dab/classDeckStateManager.html":[4,1,0,339],
 "dd/dab/classDeckStateManager.html#a073f71448e77098ed0387f8b959fba02":[4,1,0,339,52],
@@ -237,17 +249,5 @@ var NAVTREEINDEX77 =
 "dd/dd2/classCardInfo.html#a76ab1051c271384b4124a31ff797fb09":[3,2,8,71],
 "dd/dd2/classCardInfo.html#a7815d6cdd97db1c0419ac59d681d9917":[3,2,8,61],
 "dd/dd2/classCardInfo.html#a79ae5b6ac713873150582ddf2be0edc6":[3,2,8,33],
-"dd/dd2/classCardInfo.html#a7dad1993c9c5eee3839960eb198ae7fd":[3,2,8,59],
-"dd/dd2/classCardInfo.html#a7e7d485700eda62fd4d3acb82e00f507":[3,2,8,13],
-"dd/dd2/classCardInfo.html#a86e7b170a95b8a7ea92a4faf1948c714":[3,2,8,35],
-"dd/dd2/classCardInfo.html#a872e08462b63ca9d011b3ca5aa85c91d":[3,2,8,10],
-"dd/dd2/classCardInfo.html#a874e59e64850c2dd6bec145a3e930cb3":[3,2,8,63],
-"dd/dd2/classCardInfo.html#a8ea0b0d5a1ed44c1ce62f59e31375771":[3,2,8,42],
-"dd/dd2/classCardInfo.html#a91022ea64e49e53488091745521781c5":[3,2,8,65],
-"dd/dd2/classCardInfo.html#a968d68d4a320dcf59c3d66ca0d96de90":[3,2,8,69],
-"dd/dd2/classCardInfo.html#a97f4edb58266c8d5235efc34d86c44e5":[3,2,8,40],
-"dd/dd2/classCardInfo.html#aa810cc14f4e6cd9c3b88bcf5201f5bbd":[3,2,8,55],
-"dd/dd2/classCardInfo.html#ab257b61a6546a6b8423764edd58a1bc2":[3,2,8,53],
-"dd/dd2/classCardInfo.html#ab281238370cf5ebaba4e2ff05caec18c":[3,2,8,51],
-"dd/dd2/classCardInfo.html#ab65ca26d7338fc3c164acd77634c61de":[3,2,8,6]
+"dd/dd2/classCardInfo.html#a7dad1993c9c5eee3839960eb198ae7fd":[3,2,8,59]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX88 =
 {
+"df/d48/structEvent__ServerIdentification.html#a42dc11e928736dbfb7e240906767586eaa4ee9af0db11e1bc0292845160ddd4b8":[4,1,0,458,1,1],
+"df/d48/structEvent__ServerIdentification.html#a4387b4837c9d91794a0d7cd46824b3cd":[4,1,0,458,4],
+"df/d48/structEvent__ServerIdentification.html#a572456a294a3cadb29f9e47ec2de6419":[4,1,0,458,2],
+"df/d48/structEvent__ServerIdentification.html#a74f6cdb00f6f5b6cf49ef64b9c6745bf":[4,1,0,458,6],
+"df/d48/structEvent__ServerIdentification.html#addb3ad550ee504ae617a321190de3ee6":[4,1,0,458,3],
+"df/d49/tapped__out__interface_8h.html":[3,3,2,2,2,2],
+"df/d49/tapped__out__interface_8h.html":[3,3,2,3,0,2],
+"df/d49/tapped__out__interface_8h.html":[3,5,1,0,2],
+"df/d4b/card__override__settings_8cpp.html":[4,2,0,10,0,0,6],
+"df/d4b/intent_8cpp.html":[4,2,0,0,1,5,3,1],
+"df/d4c/arrow__item_8h.html":[4,2,0,0,1,4,0,9],
+"df/d4c/arrow__item_8h_source.html":[4,2,0,0,1,4,0,9],
 "df/d4c/structCommand__LeaveRoom_1_1RoomCommand.html":[4,1,0,208,0],
 "df/d4c/structCommand__LeaveRoom_1_1RoomCommand.html#ac8808993697dfec20fd395bdfe97ad7d":[4,1,0,208,0,0],
 "df/d4e/classExactCard.html":[3,2,2,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX88 =
 "df/d79/structEvent__ServerCompleteList.html":[4,1,0,457],
 "df/d79/structEvent__ServerCompleteList.html#a52e2f890404691c15c52db48ca00acc9":[4,1,0,457,1],
 "df/d79/structEvent__ServerCompleteList.html#a5e8f4816518bf72175741b74cee5e3a0":[4,1,0,457,3],
-"df/d79/structEvent__ServerCompleteList.html#aa07fab1239ac1fa610ef4d2b953a4cb1":[4,1,0,457,2],
-"df/d81/classUserInfoPopup.html":[4,1,0,961],
-"df/d81/classUserInfoPopup.html#a05f38f5cd8aab1d9335509dd4cdebfae":[4,1,0,961,15],
-"df/d81/classUserInfoPopup.html#a085fa686747d0e80080e349e15d1d314":[4,1,0,961,48],
-"df/d81/classUserInfoPopup.html#a0895b042a6ee51ef10c191e530e9d53f":[4,1,0,961,34],
-"df/d81/classUserInfoPopup.html#a0952fda1574be8e796cce9f45b63a702":[4,1,0,961,53],
-"df/d81/classUserInfoPopup.html#a12f468e0b003aa53938ceb61172091c0":[4,1,0,961,35],
-"df/d81/classUserInfoPopup.html#a191df6b26324d311bae1c42c0f4126c8":[4,1,0,961,43],
-"df/d81/classUserInfoPopup.html#a19981e86cc9a61e178d742cf7c555109":[4,1,0,961,30],
-"df/d81/classUserInfoPopup.html#a23c7d1915e3d68d6d034ae128d692e6c":[4,1,0,961,44],
-"df/d81/classUserInfoPopup.html#a278890ee19ed2884b2aa667700003306":[4,1,0,961,45],
-"df/d81/classUserInfoPopup.html#a2d474129d69ee5dcbc6bb38e7eac50c6":[4,1,0,961,13],
-"df/d81/classUserInfoPopup.html#a2eb85a0ecac4be53e6e227d88fbd530f":[4,1,0,961,39]
+"df/d79/structEvent__ServerCompleteList.html#aa07fab1239ac1fa610ef4d2b953a4cb1":[4,1,0,457,2]
 };
