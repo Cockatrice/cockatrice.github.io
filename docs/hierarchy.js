@@ -933,6 +933,7 @@ var hierarchy =
         [ "SettingsCardDatabasePathProvider", "d5/d89/classSettingsCardDatabasePathProvider.html", null ],
         [ "TestCardDatabasePathProvider", "de/da4/classTestCardDatabasePathProvider.html", null ]
       ] ],
+      [ "InstallerCloseServer", "d6/dd2/classInstallerCloseServer.html", null ],
       [ "Intent", "d5/dc9/classIntent.html", [
         [ "IntentConnectToServer", "da/d29/classIntentConnectToServer.html", null ],
         [ "IntentDisconnectFromServer", "da/dc8/classIntentDisconnectFromServer.html", null ],

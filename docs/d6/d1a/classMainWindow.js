@@ -66,6 +66,7 @@ var classMainWindow =
     [ "refreshShortcuts", "d6/d1a/classMainWindow.html#aaa381eb62a10f3c4d097785f9e1b3fb9", null ],
     [ "reloadCardDatabaseAndCheckSets", "d6/d1a/classMainWindow.html#a085b341f371026d00608e5a705f161de", null ],
     [ "requestCardUpdateRaise", "d6/d1a/classMainWindow.html#a3aec1f6ce2d8dd63127f1f87da475fab", null ],
+    [ "requestInstallerClose", "d6/d1a/classMainWindow.html#a6f1d07830269a5e660c767fce3ea4ee0", null ],
     [ "retranslateUi", "d6/d1a/classMainWindow.html#a2836e718ab96e25231b80d346a7841ad", null ],
     [ "runFirstRunWizard", "d6/d1a/classMainWindow.html#a9640f67af06f83718a7b3d3a3a5dcc15", null ],
     [ "setConnectTo", "d6/d1a/classMainWindow.html#a0d6d64388ba3e386c3ccf1e9531c4f61", null ],

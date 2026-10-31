@@ -11,6 +11,7 @@ var dir_f4be27d36b478c7f01a45661d0a08936 =
     [ "dice_limits.h", "db/d27/dice__limits_8h.html", "db/d27/dice__limits_8h" ],
     [ "expression.cpp", "da/d45/expression_8cpp.html", "da/d45/expression_8cpp" ],
     [ "expression.h", "d3/d1b/expression_8h.html", "d3/d1b/expression_8h" ],
+    [ "installer_close_protocol.h", "df/d4e/installer__close__protocol_8h.html", "df/d4e/installer__close__protocol_8h" ],
     [ "levenshtein.cpp", "de/dd6/levenshtein_8cpp.html", "de/dd6/levenshtein_8cpp" ],
     [ "levenshtein.h", "da/d23/levenshtein_8h.html", "da/d23/levenshtein_8h" ],
     [ "local_server_name.h", "d6/da7/local__server__name_8h.html", "d6/da7/local__server__name_8h" ],

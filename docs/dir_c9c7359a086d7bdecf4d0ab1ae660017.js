@@ -6,6 +6,8 @@ var dir_c9c7359a086d7bdecf4d0ab1ae660017 =
     [ "game", "dir_fcc53323f100f3840d6c8e04b287c6d3.html", "dir_fcc53323f100f3840d6c8e04b287c6d3" ],
     [ "game_graphics", "dir_4db5280bbb861c4570d5072585939b1b.html", "dir_4db5280bbb861c4570d5072585939b1b" ],
     [ "interface", "dir_cd36a3f9f9d202308a2deae5eeddfa6f.html", "dir_cd36a3f9f9d202308a2deae5eeddfa6f" ],
+    [ "installer_close_server.cpp", "d7/df0/installer__close__server_8cpp.html", null ],
+    [ "installer_close_server.h", "d9/dac/installer__close__server_8h.html", "d9/dac/installer__close__server_8h" ],
     [ "main.cpp", "d8/da8/cockatrice_2src_2main_8cpp.html", "d8/da8/cockatrice_2src_2main_8cpp" ],
     [ "main.h", "da/dd7/cockatrice_2src_2main_8h.html", "da/dd7/cockatrice_2src_2main_8h" ],
     [ "single_instance_manager.cpp", "d8/d8a/single__instance__manager_8cpp.html", null ],

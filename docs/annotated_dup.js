@@ -622,6 +622,7 @@ var annotated_dup =
     [ "IJsonDeckParser", "d0/d6c/classIJsonDeckParser.html", "d0/d6c/classIJsonDeckParser" ],
     [ "INetworkSettingsProvider", "d9/dad/classINetworkSettingsProvider.html", "d9/dad/classINetworkSettingsProvider" ],
     [ "InnerDecklistNode", "d4/d55/classInnerDecklistNode.html", "d4/d55/classInnerDecklistNode" ],
+    [ "InstallerCloseServer", "d6/dd2/classInstallerCloseServer.html", "d6/dd2/classInstallerCloseServer" ],
     [ "Intent", "d5/dc9/classIntent.html", "d5/dc9/classIntent" ],
     [ "IntentConnectToServer", "da/d29/classIntentConnectToServer.html", "da/d29/classIntentConnectToServer" ],
     [ "IntentDisconnectFromServer", "da/dc8/classIntentDisconnectFromServer.html", "da/dc8/classIntentDisconnectFromServer" ],

@@ -160,6 +160,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af8376d00ea3433cbd7c13f04ea690a79" id="r_af8376d00ea3433cbd7c13f04ea690a79"><td class="memItemLeft"><a class="el" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af8376d00ea3433cbd7c13f04ea690a79">getTabSupervisor</a> () const</td></tr>
 <tr class="memitem:a2d05a066d8beba504b86dbde56a66fce" id="r_a2d05a066d8beba504b86dbde56a66fce"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a2d05a066d8beba504b86dbde56a66fce">closeForUpdate</a> ()</td></tr>
 <tr class="memdesc:a2d05a066d8beba504b86dbde56a66fce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the window so an update installer can replace the running binaries. Returns true only if the shutdown actually ran (settings flushed, tabs shut down); false if the close was vetoed by the user or is already in progress.  <br /></td></tr>
+<tr class="memitem:a6f1d07830269a5e660c767fce3ea4ee0" id="r_a6f1d07830269a5e660c767fce3ea4ee0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6f1d07830269a5e660c767fce3ea4ee0">requestInstallerClose</a> ()</td></tr>
+<tr class="memdesc:a6f1d07830269a5e660c767fce3ea4ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes this instance because the installer asked it to over its local socket.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -1791,6 +1793,11 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Closes the window so an update installer can replace the running binaries. Returns true only if the shutdown actually ran (settings flushed, tabs shut down); false if the close was vetoed by the user or is already in progress. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a2d05a066d8beba504b86dbde56a66fce_icgraph.svg" width="100%" height="407"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -2406,6 +2413,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a6f1d07830269a5e660c767fce3ea4ee0" name="a6f1d07830269a5e660c767fce3ea4ee0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f1d07830269a5e660c767fce3ea4ee0">&#9670;&#160;</a></span>requestInstallerClose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::requestInstallerClose </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Closes this instance because the installer asked it to over its local socket. </p>
+<p>The request reaches an instance hidden in the notification area or sitting on its own confirmation, which is exactly where a WM_CLOSE from the installer does not. The close is still the ordinary one: a clean client exits, one with unsaved work raises the same confirmation the close button does, and a confirmation already up is brought to the front instead of being left behind the installer. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a6f1d07830269a5e660c767fce3ea4ee0_cgraph.svg" width="487" height="107"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a6f1d07830269a5e660c767fce3ea4ee0_icgraph.svg" width="430" height="143"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a2836e718ab96e25231b80d346a7841ad" name="a2836e718ab96e25231b80d346a7841ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2836e718ab96e25231b80d346a7841ad">&#9670;&#160;</a></span>retranslateUi()</h2>
 
@@ -2501,7 +2538,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a0d6d64388ba3e386c3ccf1e9531c4f61_icgraph.svg" width="415" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a0d6d64388ba3e386c3ccf1e9531c4f61_icgraph.svg" width="415" height="143"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -2531,7 +2568,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a9db4db9befb6828ee0e2f916616cb6fb_icgraph.svg" width="423" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a9db4db9befb6828ee0e2f916616cb6fb_icgraph.svg" width="423" height="143"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

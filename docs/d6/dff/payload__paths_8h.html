@@ -142,6 +142,11 @@ Functions</h2></td></tr>
 <tr class="memdesc:a950b2428a42ec828108e942da37888e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The directory <code class="param">path</code> lies in, without a trailing separator.  <br /></td></tr>
 <tr class="memitem:a04a8e2f4d4a7c2d89adf7313a413a636" id="r_a04a8e2f4d4a7c2d89adf7313a413a636"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a04a8e2f4d4a7c2d89adf7313a413a636">isPayloadProgram</a> (const std::wstring &amp;imageName)</td></tr>
 <tr class="memdesc:a04a8e2f4d4a7c2d89adf7313a413a636"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether <code class="param">imageName</code> is one of the programs the payload installs.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a927d7a225dd3cc771936ea49dc347c9a" id="r_a927d7a225dd3cc771936ea49dc347c9a"><td class="memItemLeft">constexpr const wchar_t *&#160;</td><td class="memItemRight"><a class="el" href="#a927d7a225dd3cc771936ea49dc347c9a">PAYLOAD_PROGRAMS</a> [] = {L&quot;cockatrice.exe&quot;, L&quot;oracle.exe&quot;, L&quot;servatrice.exe&quot;}</td></tr>
+<tr class="memdesc:a927d7a225dd3cc771936ea49dc347c9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The file names of the programs the payload installs, in the order the guard names them.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="ad06b158a8ce2eda0e24802a368c18e0a" name="ad06b158a8ce2eda0e24802a368c18e0a"></a>
@@ -237,6 +242,32 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/dff/payload__paths_8h_a950b2428a42ec828108e942da37888e5_icgraph.svg" width="496" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="a927d7a225dd3cc771936ea49dc347c9a" name="a927d7a225dd3cc771936ea49dc347c9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a927d7a225dd3cc771936ea49dc347c9a">&#9670;&#160;</a></span>PAYLOAD_PROGRAMS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wchar_t* PAYLOAD_PROGRAMS[] = {L&quot;cockatrice.exe&quot;, L&quot;oracle.exe&quot;, L&quot;servatrice.exe&quot;}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The file names of the programs the payload installs, in the order the guard names them. </p>
+<p>The single list behind <a class="el" href="#a04a8e2f4d4a7c2d89adf7313a413a636" title="Whether imageName is one of the programs the payload installs.">isPayloadProgram()</a>, so the guard acts on exactly the programs it names, and so a payload program added later is closed, ended and tested for a lock without a second list to update. A payload executable that refuses to be written is running, which is what makes this list the evidence the two process lookups cannot provide - see <a class="el" href="../../dd/de4/payload__locks_8cpp.html#af56866cf6c7736566b50d38647eade15" title="The payload executables in installDir that refuse to be written, as full paths: the programs that are...">payloadExecutablesInUse()</a>. </p>
 
 </div>
 </div>

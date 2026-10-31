@@ -121,6 +121,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d3/d6f/close__
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../db/d89/close__holders_8h_source.html">close_holders.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d74/installer__close__request_8h_source.html">installer_close_request.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/dff/payload__paths_8h_source.html">payload_paths.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d47/restart__manager__holders_8h_source.html">restart_manager_holders.h</a>&quot;</code><br />
 <code>#include &lt;windows.h&gt;</code><br />
@@ -170,7 +171,7 @@ Functions</h2></td></tr>
 
 <p>Brings every running Cockatrice holding an installer file forward and asks it to close. </p>
 <p>The set is the Restart Manager answer, so it is exactly the processes holding a file of the previous version: nothing here has to guess at an executable path, and an application that merely shares the image name is never touched. Only cockatrice.exe is asked to close. Oracle and <a class="el" href="../../d5/d0e/classServatrice.html">Servatrice</a> are left to the user - Oracle writes the card database in place - and so is every service.</p>
-<p>One thing happens per instance: its own window is asked to close with WM_CLOSE, the same request as clicking that window's close button - whether it is on screen or only in the notification area, since the request does not need the window to be visible and the confirmation Cockatrice answers it with is a window Qt shows itself, painted, unlike one restored from outside. A window that is on screen is brought forward first, because that confirmation would otherwise open behind the installer's prompt; nothing is shown from here. Qt's own bookkeeping windows are never the target - posting a close to the notification-area one terminates the instance without its confirmation - so a process without a window of its own is named and left to the guard, which offers to end it. Stopping the process is never attempted here.</p>
+<p>One thing happens per instance: it is asked to close over the local socket it listens on, which is the same request as clicking its close button and is the only way to reach one whose window is hidden in the notification area or is sitting on its own confirmation. A client from before that socket is asked with WM_CLOSE on its own window instead, whether the window is on screen or only in the notification area, since the request does not need the window to be visible and the confirmation Cockatrice answers it with is a window Qt shows itself, painted, unlike one restored from outside. A window that is on screen is brought forward first, because that confirmation would otherwise open behind the installer's prompt; nothing is shown from here. Qt's own bookkeeping windows are never the target - posting a close to the notification-area one terminates the instance without its confirmation - so a process without a window of its own that does not answer the socket is named and left to the guard, which offers to end it. Stopping the process is never attempted here.</p>
 <p>Once the requests are out, this waits up to <code>waitMilliseconds</code> for the processes to exit, so the caller can measure the purge immediately afterwards instead of sleeping for a fixed time or re-asking a question this call already answered. A process that is still running is described further: whether its window is gone, still open, still hidden or hidden again, and whether it answers at all, so the log can tell an instance that refused the close from one that never received it.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -183,7 +184,7 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d6f/close__holders_8cpp_aef9048e7bd4c643bd726b200deefd026_cgraph.svg" width="374" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d6f/close__holders_8cpp_aef9048e7bd4c643bd726b200deefd026_cgraph.svg" width="392" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>

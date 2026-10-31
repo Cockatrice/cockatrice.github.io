@@ -812,7 +812,7 @@ var searchData=
   ['closepressed_809',['closePressed',['../d0/dd9/classZoneViewWidget.html#a5e1d173858be6166c573be7cf2f35edf',1,'ZoneViewWidget']]],
   ['closereason_810',['CloseReason',['../da/d30/structEvent__ConnectionClosed.html#a9f79dac37fda0c21614d4e24d30e04a0',1,'Event_ConnectionClosed']]],
   ['closerequest_811',['closeRequest',['../d1/d53/classAbstractTabDeckEditor.html#a4bde29fd51a237d46dd203ae58459660',1,'AbstractTabDeckEditor::closeRequest()'],['../de/d9c/classTab.html#abc34e642c5afb7cca0c9e6f84d951976',1,'Tab::closeRequest()'],['../de/d08/classTabGame.html#a9335879003aa0eddfcc51771d8a8fa2e',1,'TabGame::closeRequest()'],['../da/dbd/classTabPublicDecks.html#a06bc744919271f1bc9de8574533d0581',1,'TabPublicDecks::closeRequest()']]],
-  ['closerequested_812',['closeRequested',['../df/d81/classUserInfoPopup.html#afeea2fd452d4119119aab04b46929997',1,'UserInfoPopup']]],
+  ['closerequested_812',['closeRequested',['../d6/dd2/classInstallerCloseServer.html#a5e56cab8d1533131b7afcc3c8ec41917',1,'InstallerCloseServer::closeRequested()'],['../df/d81/classUserInfoPopup.html#afeea2fd452d4119119aab04b46929997',1,'UserInfoPopup::closeRequested()']]],
   ['closestgridpoint_813',['closestGridPoint',['../de/da1/classCardZone.html#a152e39c80d313be950fc274286e5e59f',1,'CardZone::closestGridPoint()'],['../d6/d6f/classTableZone.html#ab1c4485f2e6240cbb5b42f2471249d80',1,'TableZone::closestGridPoint()']]],
   ['closetab_814',['closeTab',['../de/d3d/classTabbedDeckViewContainer.html#a0152d6e069fe32016d56776e3db9bae5',1,'TabbedDeckViewContainer']]],
   ['closeview_815',['closeView',['../d8/d70/classZoneViewZoneLogic.html#abef056fee9d43aff83c3b8f2130a7853',1,'ZoneViewZoneLogic']]],
