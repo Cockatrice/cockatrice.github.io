@@ -15,6 +15,8 @@ var classConnectionController =
     [ "onForgotPasswordSuccess", "d4/d97/classConnectionController.html#a178e600e168ab592b791953a4cfafe49", null ],
     [ "onLoginError", "d4/d97/classConnectionController.html#ab0367ac207951b4ae981f838adc623dd", null ],
     [ "onNotifyUserAboutUpdate", "d4/d97/classConnectionController.html#a02351d3de5919516ab18e64e7b8dd83a", null ],
+    [ "onPasswordChangeError", "d4/d97/classConnectionController.html#a7d026a31aba8e83d878fc69c98c06d8d", null ],
+    [ "onPasswordChangeSuccess", "d4/d97/classConnectionController.html#a8472dd368bf122988ecea3c404c558d2", null ],
     [ "onPasswordVerifierReady", "d4/d97/classConnectionController.html#acdbcee12481a3a1fa7f0381e53f19b6c", null ],
     [ "onPromptForgotPasswordChallenge", "d4/d97/classConnectionController.html#ac44cbb866667627d00d44489a91cb05e", null ],
     [ "onPromptForgotPasswordReset", "d4/d97/classConnectionController.html#a392612f0126d8c88e98e3ca85f755754", null ],

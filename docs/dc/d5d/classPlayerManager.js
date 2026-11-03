@@ -1,6 +1,6 @@
 var classPlayerManager =
 [
-    [ "PlayerManager", "dc/d5d/classPlayerManager.html#aa385dd28268f4ecbbe6f99c8b0d428f7", null ],
+    [ "PlayerManager", "dc/d5d/classPlayerManager.html#aa019d2cf508112c5a9a232678a4eb659", null ],
     [ "activeLocalPlayerConceded", "dc/d5d/classPlayerManager.html#a9600993594e706c3891f452eb208a589", null ],
     [ "activeLocalPlayerUnconceded", "dc/d5d/classPlayerManager.html#a63a82c15b6318538874347ea1b31ede5", null ],
     [ "addPlayer", "dc/d5d/classPlayerManager.html#aeac22e4145bd8e1c5052ec350555c930", null ],
@@ -30,7 +30,9 @@ var classPlayerManager =
     [ "removeSpectator", "dc/d5d/classPlayerManager.html#ad6cadf3c96e2b54c2c92f8ed3d2699eb", null ],
     [ "spectatorAdded", "dc/d5d/classPlayerManager.html#a7cdc34a48933c3ba7a88301aa77cca33", null ],
     [ "spectatorRemoved", "dc/d5d/classPlayerManager.html#ae7d74e19e4232830c1b87745ee641c6c", null ],
+    [ "cardPreferences", "dc/d5d/classPlayerManager.html#abd16447dd8ba82a1c47eb839f45c5c80", null ],
     [ "game", "dc/d5d/classPlayerManager.html#a426cb680a0a617abd68354d0aaf7a1ce", null ],
+    [ "interfaceSettings", "dc/d5d/classPlayerManager.html#a084b3d5b4e10273dc24cb2aaeb63772a", null ],
     [ "localPlayerId", "dc/d5d/classPlayerManager.html#adf3093f7af8b999faa862fec702947a9", null ],
     [ "localPlayerIsJudge", "dc/d5d/classPlayerManager.html#aa65e6ea59dc5449528912d957e4548b5", null ],
     [ "localPlayerIsSpectator", "dc/d5d/classPlayerManager.html#a0273512bb2d9e9cbfee076dd6c45b36e", null ],

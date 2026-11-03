@@ -16,6 +16,7 @@ var classAbstractClient =
     [ "getUserName", "dc/d86/classAbstractClient.html#ad18e27de66819afadea919c928ea50a5", null ],
     [ "ignoreListReceived", "dc/d86/classAbstractClient.html#a43a5112e2c9719bbb52e38e7c5e1dc27", null ],
     [ "listRoomsEventReceived", "dc/d86/classAbstractClient.html#aa3781e3ea7dae9c652334bc6fed86b86", null ],
+    [ "makeAccountPasswordCommand", "dc/d86/classAbstractClient.html#a877ddf1318a2707dd33d310d888b9dd2", null ],
     [ "maxPingTime", "dc/d86/classAbstractClient.html#a947b7a61c5bc7ce1e6af31bd725036ad", null ],
     [ "notifyUserEventReceived", "dc/d86/classAbstractClient.html#a3724eb71e98c6c58fbdd03c9b983dae4", null ],
     [ "pingStatsUpdated", "dc/d86/classAbstractClient.html#aaf0519384e94cb2afebee38666ca5698", null ],

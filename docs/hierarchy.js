@@ -72,6 +72,7 @@ var hierarchy =
     [ "CardDatabaseManager", "dc/db4/classCardDatabaseManager.html", null ],
     [ "CardInDeckRequest", "d1/d23/structCardInDeckRequest.html", null ],
     [ "CardInfoComparator", "d8/d3f/classCardInfoComparator.html", null ],
+    [ "CardMoveRequest", "d6/d67/structCardMoveRequest.html", null ],
     [ "CardNameNormalizer", "d0/d7f/structCardNameNormalizer.html", null ],
     [ "CardPictureToLoad", "da/da3/classCardPictureToLoad.html", null ],
     [ "CardPrices", "d3/dab/classCardPrices.html", null ],
@@ -278,6 +279,7 @@ var hierarchy =
     [ "EndHoldersResult", "d9/d20/structEndHoldersResult.html", null ],
     [ "BackgroundSources::Entry", "d3/d4a/structBackgroundSources_1_1Entry.html", null ],
     [ "CardArtRulesModel::Entry", "d9/dd6/structCardArtRulesModel_1_1Entry.html", null ],
+    [ "CardDatabaseVisualDisplayModel::Entry", "dd/d9f/structCardDatabaseVisualDisplayModel_1_1Entry.html", null ],
     [ "HomeTabButtonColor::Entry", "db/d3b/structHomeTabButtonColor_1_1Entry.html", null ],
     [ "peg::ErrorInfo", "db/da9/structpeg_1_1ErrorInfo.html", null ],
     [ "peg::ErrorReport", "db/d9c/structpeg_1_1ErrorReport.html", null ],
@@ -434,6 +436,7 @@ var hierarchy =
     [ "GameEventStorage", "de/d8f/classGameEventStorage.html", null ],
     [ "GameEventStorageItem", "da/df9/classGameEventStorageItem.html", null ],
     [ "GameFilterConfigs", "da/da7/structGameFilterConfigs.html", null ],
+    [ "GameHarness", "d0/d68/classGameHarness.html", null ],
     [ "GameInviteOption", "d7/dc5/structGameInviteOption.html", null ],
     [ "GameReplay", "d9/d75/structGameReplay.html", null ],
     [ "MetricsRegistry::GameStartSnapshot", "da/d09/structMetricsRegistry_1_1GameStartSnapshot.html", null ],
@@ -535,6 +538,7 @@ var hierarchy =
     [ "MockCard", "db/d6b/structMockCard.html", null ],
     [ "MockCardList", "db/dc5/classMockCardList.html", null ],
     [ "MockCardRef", "d6/d3b/structMockCardRef.html", null ],
+    [ "test_support::ModelContractChecker", "d9/d69/classtest__support_1_1ModelContractChecker.html", null ],
     [ "Command_AddCardArtRule::ModeratorCommand", "d4/d5c/structCommand__AddCardArtRule_1_1ModeratorCommand.html", null ],
     [ "Command_BanFromServer::ModeratorCommand", "d8/ded/structCommand__BanFromServer_1_1ModeratorCommand.html", null ],
     [ "Command_ClearBlacklistedBanners::ModeratorCommand", "db/d6f/structCommand__ClearBlacklistedBanners_1_1ModeratorCommand.html", null ],
@@ -637,6 +641,7 @@ var hierarchy =
     ] ],
     [ "QAbstractListModel", null, [
       [ "CardDatabaseModel", "dd/d83/classCardDatabaseModel.html", null ],
+      [ "CardDatabaseVisualDisplayModel", "d4/d53/classCardDatabaseVisualDisplayModel.html", null ],
       [ "CardSearchModel", "d3/da6/classCardSearchModel.html", null ],
       [ "RemotePublicDecksModel", "d5/d6d/classRemotePublicDecksModel.html", null ],
       [ "SettingsSearchModel", "df/d23/classSettingsSearchModel.html", null ],
@@ -712,6 +717,9 @@ var hierarchy =
       [ "DeckEditorDeckDockWidget", "d9/df7/classDeckEditorDeckDockWidget.html", null ],
       [ "DeckEditorFilterDockWidget", "dd/dd6/classDeckEditorFilterDockWidget.html", null ],
       [ "DeckEditorPrintingSelectorDockWidget", "dc/dcc/classDeckEditorPrintingSelectorDockWidget.html", null ]
+    ] ],
+    [ "QEnableSharedFromThis", null, [
+      [ "CardInfo", "dd/dd2/classCardInfo.html", null ]
     ] ],
     [ "QFileDialog", null, [
       [ "DlgLoadDeck", "d3/d21/classDlgLoadDeck.html", null ]
@@ -805,11 +813,11 @@ var hierarchy =
     [ "QList&lt; CardInfoPtr &gt;", "d1/d4a/classQList.html", [
       [ "CardSet", "d6/d3d/classCardSet.html", null ]
     ] ],
-    [ "QList&lt; CardItem * &gt;", "d1/d4a/classQList.html", [
-      [ "CardList", "d4/d71/classCardList.html", null ]
-    ] ],
     [ "QList&lt; CardSetPtr &gt;", "d1/d4a/classQList.html", [
       [ "CardSetList", "dd/d65/classCardSetList.html", null ]
+    ] ],
+    [ "QList&lt; CardState * &gt;", "d1/d4a/classQList.html", [
+      [ "CardList", "d4/d71/classCardList.html", null ]
     ] ],
     [ "QList&lt; Node * &gt;", "d1/d4a/classQList.html", [
       [ "RemoteDeckList_TreeModel::DirectoryNode", "dc/d19/classRemoteDeckList__TreeModel_1_1DirectoryNode.html", null ]
@@ -819,6 +827,9 @@ var hierarchy =
     ] ],
     [ "QList&lt; ReplayNode * &gt;", "d1/d4a/classQList.html", [
       [ "RemoteReplayList_TreeModel::MatchNode", "d7/d25/classRemoteReplayList__TreeModel_1_1MatchNode.html", null ]
+    ] ],
+    [ "QListView", null, [
+      [ "CardDatabaseVisualView", "df/db0/classCardDatabaseVisualView.html", null ]
     ] ],
     [ "QMainWindow", null, [
       [ "MainWindow", "d6/d1a/classMainWindow.html", null ],
@@ -875,6 +886,7 @@ var hierarchy =
       [ "AbstractCardDragItem", "d6/dc0/classAbstractCardDragItem.html", null ],
       [ "AbstractClient", "dc/d86/classAbstractClient.html", [
         [ "LocalClient", "df/d75/classLocalClient.html", null ],
+        [ "RecordingClient", "de/de8/classRecordingClient.html", null ],
         [ "RemoteClient", "db/d53/classRemoteClient.html", null ]
       ] ],
       [ "AbstractCounter", "d4/d67/classAbstractCounter.html", null ],
@@ -979,6 +991,7 @@ var hierarchy =
         [ "FakeServer", "da/daf/classFakeServer.html", null ],
         [ "FakeServer", "da/daf/classFakeServer.html", null ],
         [ "FakeServer", "da/daf/classFakeServer.html", null ],
+        [ "FakeServer", "da/daf/classFakeServer.html", null ],
         [ "LocalServer", "d2/d40/classLocalServer.html", null ],
         [ "Servatrice", "d5/d0e/classServatrice.html", null ]
       ] ],
@@ -995,6 +1008,7 @@ var hierarchy =
       [ "Server_DatabaseInterface", "d2/d12/classServer__DatabaseInterface.html", [
         [ "MockDatabaseInterface", "d1/db6/classMockDatabaseInterface.html", null ],
         [ "MockDatabaseInterface", "d1/db6/classMockDatabaseInterface.html", null ],
+        [ "MockDatabaseInterface", "d1/db6/classMockDatabaseInterface.html", null ],
         [ "LocalServer_DatabaseInterface", "d1/d74/classLocalServer__DatabaseInterface.html", null ],
         [ "MockDatabaseInterface", "d1/db6/classMockDatabaseInterface.html", null ],
         [ "Servatrice_DatabaseInterface", "d3/d76/classServatrice__DatabaseInterface.html", null ]
@@ -1008,6 +1022,7 @@ var hierarchy =
         [ "LocalServerInterface", "d0/dc3/classLocalServerInterface.html", null ]
       ] ],
       [ "Server_Room", "d1/d15/classServer__Room.html", null ],
+      [ "SettingsCardPreferenceProvider", "d4/d04/classSettingsCardPreferenceProvider.html", null ],
       [ "SettingsManager", "d1/dea/classSettingsManager.html", [
         [ "AppearanceSettings", "d9/d36/classAppearanceSettings.html", null ],
         [ "CacheStorageSettings", "d0/d41/classCacheStorageSettings.html", null ],
@@ -1089,6 +1104,7 @@ var hierarchy =
     ] ],
     [ "QStyledItemDelegate", null, [
       [ "CardCompleterDelegate", "d7/d29/classCardCompleterDelegate.html", null ],
+      [ "CardPictureDelegate", "dc/d7b/classCardPictureDelegate.html", null ],
       [ "PlayerListItemDelegate", "d3/d79/classPlayerListItemDelegate.html", null ],
       [ "PopupGameDelegate", "de/d5e/classPopupGameDelegate.html", null ],
       [ "SettingsSearchDelegate", "d9/df9/classSettingsSearchDelegate.html", null ],
@@ -1399,6 +1415,7 @@ var hierarchy =
     [ "ResponseContainer", "db/d74/classResponseContainer.html", null ],
     [ "peg::Definition::Result", "df/d1f/structpeg_1_1Definition_1_1Result.html", null ],
     [ "Result", "dd/d7e/structResult.html", null ],
+    [ "RoleInfo", "d9/df6/structRoleInfo.html", null ],
     [ "Command_CreateGame::RoomCommand", "d7/dea/structCommand__CreateGame_1_1RoomCommand.html", null ],
     [ "Command_JoinGame::RoomCommand", "d8/d9d/structCommand__JoinGame_1_1RoomCommand.html", null ],
     [ "Command_LeaveRoom::RoomCommand", "df/d4c/structCommand__LeaveRoom_1_1RoomCommand.html", null ],
@@ -1432,6 +1449,7 @@ var hierarchy =
     [ "Server_MatchResultStrategy", "d5/d5a/classServer__MatchResultStrategy.html", [
       [ "Server_NullMatchResultStrategy", "d3/d0f/classServer__NullMatchResultStrategy.html", null ]
     ] ],
+    [ "ServersSettings::ServerEntry", "d6/dcf/structServersSettings_1_1ServerEntry.html", null ],
     [ "ServerInfo_Arrow", "d8/ded/structServerInfo__Arrow.html", null ],
     [ "ServerInfo_Ban", "da/d3a/structServerInfo__Ban.html", null ],
     [ "ServerInfo_Card", "d6/da1/structServerInfo__Card.html", null ],

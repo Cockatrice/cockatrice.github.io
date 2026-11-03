@@ -2,7 +2,7 @@ var classPlayerDialogs =
 [
     [ "PlayerDialogs", "df/da8/classPlayerDialogs.html#a87fafa6d6ac5c338d1fb84693aea9253", null ],
     [ "dialogParent", "df/da8/classPlayerDialogs.html#a8cbc496e5de1721ef4ab2535ef0d7ff0", null ],
-    [ "onCreateRelatedFromRelationDialogRequested", "df/da8/classPlayerDialogs.html#afbb5dc89e78c950bbf5fe4ad922d0a8b", null ],
+    [ "onCreateRelatedFromRelationDialogRequested", "df/da8/classPlayerDialogs.html#aaa7c0103d53c5b607d846832b8461c7d", null ],
     [ "onCreateTokenDialogRequested", "df/da8/classPlayerDialogs.html#abca58fdb8c0e3d3f2580e44d06fffcdf", null ],
     [ "onDrawBottomCardsDialogRequested", "df/da8/classPlayerDialogs.html#a9fc2c88b520df93364d9e892a6948176", null ],
     [ "onDrawCardsDialogRequested", "df/da8/classPlayerDialogs.html#ae2f4a153c078d96525482342bea66c16", null ],
@@ -17,6 +17,7 @@ var classPlayerDialogs =
     [ "onSetPTDialogRequested", "df/da8/classPlayerDialogs.html#abd30e1183fb0bc73a3cc32b7140ad895", null ],
     [ "onShuffleBottomDialogRequested", "df/da8/classPlayerDialogs.html#a11e4cf1347b05caec20fed1ccdd7d2f2", null ],
     [ "onShuffleTopDialogRequested", "df/da8/classPlayerDialogs.html#a67c839acfb3468ff58f7e641bc3a5aab", null ],
+    [ "onStartingHandSizeChosen", "df/da8/classPlayerDialogs.html#a2305f4839323aa821eacb87fb6f173b5", null ],
     [ "onViewBottomCardsDialogRequested", "df/da8/classPlayerDialogs.html#a743cc25bc410bb44497b8f514e1aea7e", null ],
     [ "onViewTopCardsDialogRequested", "df/da8/classPlayerDialogs.html#a8297bf98e27451b04ed3cf23f483560a", null ],
     [ "requestDialogSemaphore", "df/da8/classPlayerDialogs.html#a0ca08deabcb5f2a8a6448c29cc3bf0fe", null ],

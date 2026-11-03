@@ -8,6 +8,7 @@ var classPileZone =
     [ "mouseMoveEvent", "d6/d02/classPileZone.html#ab669754dc450611cf18dd36da068e680", null ],
     [ "mousePressEvent", "d6/d02/classPileZone.html#a6130d6b891b0c724dd62e7f20aca1731", null ],
     [ "mouseReleaseEvent", "d6/d02/classPileZone.html#aeb6561dcdb7a89df8fbb753b1b45a7cc", null ],
+    [ "onCardAdded", "d6/d02/classPileZone.html#a84711ae222fd8f8c8013140b111fc772", null ],
     [ "paint", "d6/d02/classPileZone.html#a5a12fb85c85f980f8423e9f74a057bca", null ],
     [ "reorganizeCards", "d6/d02/classPileZone.html#a8fb5583aa9b1933a36626eff58d4cfb4", null ],
     [ "shape", "d6/d02/classPileZone.html#a480fd358f852dc7f2a953474b2864566", null ]

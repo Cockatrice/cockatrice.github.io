@@ -54,6 +54,7 @@ var group__Cards =
       [ "newInstance", "dd/dd2/classCardInfo.html#a8ea0b0d5a1ed44c1ce62f59e31375771", null ],
       [ "newInstance", "dd/dd2/classCardInfo.html#a540f0ff91d666555a3f62699bf95a3a1", null ],
       [ "newInstance", "dd/dd2/classCardInfo.html#af9d1083de2a56912e58f0fd5b5e5506b", null ],
+      [ "notifyChanged", "dd/dd2/classCardInfo.html#abbd35a58f034dce21c62790d0e1ee61c", null ],
       [ "pixmapUpdated", "dd/dd2/classCardInfo.html#ae3038736850ab030b20f81bf1426a19b", null ],
       [ "refreshCachedAltNames", "dd/dd2/classCardInfo.html#a51be0d3110733216d9c2227d4e5bda51", null ],
       [ "refreshCachedSetNames", "dd/dd2/classCardInfo.html#a38030084114f050643e014628727ccc4", null ],
@@ -65,7 +66,6 @@ var group__Cards =
       [ "setLocalizedText", "dd/dd2/classCardInfo.html#ab257b61a6546a6b8423764edd58a1bc2", null ],
       [ "setPowTough", "dd/dd2/classCardInfo.html#a6f2298356236c47428eea1ea3c7cef5c", null ],
       [ "setProperty", "dd/dd2/classCardInfo.html#aa810cc14f4e6cd9c3b88bcf5201f5bbd", null ],
-      [ "setSmartPointer", "dd/dd2/classCardInfo.html#a165df79cde9e4e2d00334befc332efc1", null ],
       [ "setText", "dd/dd2/classCardInfo.html#a26f241b0c113843289738aa7a563456e", null ],
       [ "simplifyName", "dd/dd2/classCardInfo.html#ac177dc7dd9e2f233c02f4fc56afd51ca", null ],
       [ "altNames", "dd/dd2/classCardInfo.html#a7dad1993c9c5eee3839960eb198ae7fd", null ],
@@ -80,7 +80,6 @@ var group__Cards =
       [ "setsNames", "dd/dd2/classCardInfo.html#acd172ab75cc38f32f6a0cfd51be68636", null ],
       [ "setsToPrintings", "dd/dd2/classCardInfo.html#a968d68d4a320dcf59c3d66ca0d96de90", null ],
       [ "simpleName", "dd/dd2/classCardInfo.html#a1217b7a9d5fbc1a42c98047110685ffa", null ],
-      [ "smartThis", "dd/dd2/classCardInfo.html#a76ab1051c271384b4124a31ff797fb09", null ],
       [ "text", "dd/dd2/classCardInfo.html#af783715e86ee525bb25eea6a429d7bbf", null ],
       [ "uiAttributes", "dd/dd2/classCardInfo.html#a488ba9f012c4fd9dabb193b4a8016a67", null ]
     ] ],

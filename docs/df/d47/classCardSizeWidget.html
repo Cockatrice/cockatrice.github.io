@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -147,6 +147,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac9a6a5fed069e0bac53ef2440eda025f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the slider widget used for adjusting the card size.  <br /></td></tr>
 <tr class="memitem:aeef85d62fded96eca40fe8d22de23518" id="r_aeef85d62fded96eca40fe8d22de23518"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aeef85d62fded96eca40fe8d22de23518">enableCtrlScrollResize</a> (QWidget *host)</td></tr>
 <tr class="memdesc:aeef85d62fded96eca40fe8d22de23518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes the cards when the user Ctrl + scrolls over <code class="param">host</code> or any of its descendants.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a392198a3e63fcf87aa89fd950a0c32e0" id="r_a392198a3e63fcf87aa89fd950a0c32e0"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a392198a3e63fcf87aa89fd950a0c32e0">MIN_CARD_SIZE</a> = 50</td></tr>
+<tr class="memdesc:a392198a3e63fcf87aa89fd950a0c32e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range of the card size slider, as a percentage of the base card width.  <br /></td></tr>
+<tr class="memitem:a27ba1eea52a7f2c1195571811d11a991" id="r_a27ba1eea52a7f2c1195571811d11a991"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a27ba1eea52a7f2c1195571811d11a991">MAX_CARD_SIZE</a> = 250</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -304,7 +310,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Resizes the cards when the user Ctrl + scrolls over <code class="param">host</code> or any of its descendants. </p>
-<p>Installs this widget as an event filter on the given host widget. If the host contains a scroll area the filter is also installed on the scroll area's content widget, so the resize intercepts the wheel event before the scroll area would scroll the view. </p>
+<p>Installs this widget as an event filter on the given host widget. If the host contains a scroll area the filter is also installed on the scroll area's content widget, and on the viewport of every scroll area base (QListView, QTableView, ...), so the resize intercepts the wheel event before the scroll area would scroll the view. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -550,6 +556,52 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27ba1eea52a7f2c1195571811d11a991" name="a27ba1eea52a7f2c1195571811d11a991"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27ba1eea52a7f2c1195571811d11a991">&#9670;&#160;</a></span>MAX_CARD_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CardSizeWidget::MAX_CARD_SIZE = 250</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a392198a3e63fcf87aa89fd950a0c32e0" name="a392198a3e63fcf87aa89fd950a0c32e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a392198a3e63fcf87aa89fd950a0c32e0">&#9670;&#160;</a></span>MIN_CARD_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CardSizeWidget::MIN_CARD_SIZE = 50</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Range of the card size slider, as a percentage of the base card width. </p>
 
 </div>
 </div>

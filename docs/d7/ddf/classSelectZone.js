@@ -13,7 +13,7 @@ var classSelectZone =
     [ "mouseMoveEvent", "d7/ddf/classSelectZone.html#a604e80eccd957f979ec934538745b674", null ],
     [ "mousePressEvent", "d7/ddf/classSelectZone.html#a2250a688d067a5249f8856fcd2cb8e43", null ],
     [ "mouseReleaseEvent", "d7/ddf/classSelectZone.html#a8b4ff7c193782a4982b4a73019076b44", null ],
-    [ "onCardAdded", "d7/ddf/classSelectZone.html#a796d54c0492e4b064ebe31d8e2c370a3", null ],
+    [ "onCardAdded", "d7/ddf/classSelectZone.html#a397c635fd00c424f63672ba8c318dded", null ],
     [ "restoreClipAfterHover", "d7/ddf/classSelectZone.html#a067634df0cedf85a18a1bb297ee86666", null ],
     [ "restoreStaleEscapedCards", "d7/ddf/classSelectZone.html#a9c54d26fde6661b43d722935c21b4dd6", null ],
     [ "setupClipContainer", "d7/ddf/classSelectZone.html#a35bcd5edf0bcfdaa79f2d9e198cbdf50", null ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -140,12 +140,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a480fd358f852dc7f2a953474b2864566" id="r_a480fd358f852dc7f2a953474b2864566"><td class="memItemLeft">QPainterPath&#160;</td><td class="memItemRight"><a class="el" href="#a480fd358f852dc7f2a953474b2864566">shape</a> () const override</td></tr>
 <tr class="memitem:a5a12fb85c85f980f8423e9f74a057bca" id="r_a5a12fb85c85f980f8423e9f74a057bca"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5a12fb85c85f980f8423e9f74a057bca">paint</a> (QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override</td></tr>
 <tr class="memitem:a8fb5583aa9b1933a36626eff58d4cfb4" id="r_a8fb5583aa9b1933a36626eff58d4cfb4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8fb5583aa9b1933a36626eff58d4cfb4">reorganizeCards</a> () override</td></tr>
+<tr class="memitem:a84711ae222fd8f8c8013140b111fc772" id="r_a84711ae222fd8f8c8013140b111fc772"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a84711ae222fd8f8c8013140b111fc772">onCardAdded</a> (<a class="el" href="../../db/d1b/classCardState.html">CardState</a> *addedCard) override</td></tr>
+<tr class="memdesc:a84711ae222fd8f8c8013140b111fc772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a card is added to this zone. Default: reparents card to this item.  <br /></td></tr>
 <tr class="memitem:a073cc33b30b3d04ea1b1397a5b59964e" id="r_a073cc33b30b3d04ea1b1397a5b59964e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a073cc33b30b3d04ea1b1397a5b59964e">handleDropEvent</a> (const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d5/dd3/classCardDragItem.html">CardDragItem</a> * &gt; &amp;dragItems, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *startZone, const QPoint &amp;dropPoint) override</td></tr>
 <tr class="inherit_header pub_methods_classCardZone"><td colspan="2">Public Member Functions inherited from <a class="el" href="../../de/da1/classCardZone.html">CardZone</a></td></tr>
 <tr class="memitem:ae4d6eeb4ccea9bfd8c07408a119cd46a pub_methods_classCardZone" id="r_ae4d6eeb4ccea9bfd8c07408a119cd46a"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#ae4d6eeb4ccea9bfd8c07408a119cd46a">type</a> () const override</td></tr>
 <tr class="memitem:a0407fd33a75e203d9f7e03ed3f516092 pub_methods_classCardZone" id="r_a0407fd33a75e203d9f7e03ed3f516092"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a0407fd33a75e203d9f7e03ed3f516092">CardZone</a> (<a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *logic, QGraphicsItem *parent=nullptr)</td></tr>
 <tr class="memitem:a92c04f6266a5909062d9f2875c1993ab pub_methods_classCardZone" id="r_a92c04f6266a5909062d9f2875c1993ab"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a92c04f6266a5909062d9f2875c1993ab">retranslateUi</a> ()</td></tr>
 <tr class="memitem:a22f29aafd7f6af1015ad46f84636ae5d pub_methods_classCardZone" id="r_a22f29aafd7f6af1015ad46f84636ae5d"><td class="memItemLeft"><a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a22f29aafd7f6af1015ad46f84636ae5d">getLogic</a> () const</td></tr>
+<tr class="memitem:a9062f056e6752c609f155b0f6e8419e6 pub_methods_classCardZone" id="r_a9062f056e6752c609f155b0f6e8419e6"><td class="memItemLeft">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> * &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a9062f056e6752c609f155b0f6e8419e6">cardItems</a> () const</td></tr>
+<tr class="memdesc:a9062f056e6752c609f155b0f6e8419e6 pub_methods_classCardZone"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CardItems backing <a class="el" href="../../de/da1/classCardZone.html#a22f29aafd7f6af1015ad46f84636ae5d">getLogic()</a>-&gt;getCards(), in zone order.  <br /></td></tr>
 <tr class="memitem:a432f5022efcc74dcfa94ac9acbf3fb65 pub_methods_classCardZone" id="r_a432f5022efcc74dcfa94ac9acbf3fb65"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a432f5022efcc74dcfa94ac9acbf3fb65">setMenu</a> (QMenu *_menu, QAction *_doubleClickAction=0)</td></tr>
 <tr class="inherit_header pub_methods_classAbstractGraphicsItem"><td colspan="2">Public Member Functions inherited from <a class="el" href="../../de/dfe/classAbstractGraphicsItem.html">AbstractGraphicsItem</a></td></tr>
 <tr class="memitem:aa5bbe73de9b947e1578582c639decfd9 pub_methods_classAbstractGraphicsItem" id="r_aa5bbe73de9b947e1578582c639decfd9"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="../../de/dfe/classAbstractGraphicsItem.html#aa5bbe73de9b947e1578582c639decfd9">AbstractGraphicsItem</a> (QGraphicsItem *parent=nullptr)</td></tr>
@@ -175,8 +179,8 @@ Additional Inherited Members</h2></td></tr>
  }</td></tr>
 <tr class="inherit_header pub_slots_classCardZone"><td colspan="2">Public Slots inherited from <a class="el" href="../../de/da1/classCardZone.html">CardZone</a></td></tr>
 <tr class="memitem:a4d61e290018a18fdae2e4e3e06ad224d pub_slots_classCardZone" id="r_a4d61e290018a18fdae2e4e3e06ad224d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a4d61e290018a18fdae2e4e3e06ad224d">showContextMenu</a> (const QPoint &amp;screenPos)</td></tr>
-<tr class="memitem:a70e421443febe0047f0f10aa75f3ea61 pub_slots_classCardZone" id="r_a70e421443febe0047f0f10aa75f3ea61"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a70e421443febe0047f0f10aa75f3ea61">onCardAdded</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *addedCard)</td></tr>
-<tr class="memdesc:a70e421443febe0047f0f10aa75f3ea61 pub_slots_classCardZone"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a card is added to this zone. Default: reparents card to this item.  <br /></td></tr>
+<tr class="memitem:a6f617b079d8aebf5042476d26a2d857e pub_slots_classCardZone" id="r_a6f617b079d8aebf5042476d26a2d857e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a6f617b079d8aebf5042476d26a2d857e">onCreateCardRequested</a> (const <a class="el" href="../../d6/da1/structServerInfo__Card.html">ServerInfo_Card</a> &amp;cardInfo, bool reorganize)</td></tr>
+<tr class="memdesc:a6f617b079d8aebf5042476d26a2d857e pub_slots_classCardZone"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the card item for <code class="param">cardInfo</code> and hands it to this zone's logic.  <br /></td></tr>
 <tr class="inherit_header pro_attribs_classCardZone"><td colspan="2">Protected Attributes inherited from <a class="el" href="../../de/da1/classCardZone.html">CardZone</a></td></tr>
 <tr class="memitem:aad35010decbc77030c2ffae06ebb3c26 pro_attribs_classCardZone" id="r_aad35010decbc77030c2ffae06ebb3c26"><td class="memItemLeft">QMenu *&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#aad35010decbc77030c2ffae06ebb3c26">menu</a></td></tr>
 <tr class="memitem:a36d05add8c009852e6982e706d9a90be pro_attribs_classCardZone" id="r_a36d05add8c009852e6982e706d9a90be"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="../../de/da1/classCardZone.html#a36d05add8c009852e6982e706d9a90be">doubleClickAction</a></td></tr>
@@ -337,7 +341,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d02/classPileZone_ad7a0b603c0ee39a54a8dcb969d777cfd_cgraph.svg" width="438" height="91"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d02/classPileZone_ad7a0b603c0ee39a54a8dcb969d777cfd_cgraph.svg" width="606" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -424,6 +428,41 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84711ae222fd8f8c8013140b111fc772" name="a84711ae222fd8f8c8013140b111fc772"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84711ae222fd8f8c8013140b111fc772">&#9670;&#160;</a></span>onCardAdded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PileZone::onCardAdded </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> *</td>          <td class="paramname"><span class="paramname"><em>addedCard</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when a card is added to this zone. Default: reparents card to this item. </p>
+<p>Virtual so subclasses (e.g. <a class="el" href="../../d7/ddf/classSelectZone.html">SelectZone</a>) can override parenting behavior — the Qt signal connection in <a class="el" href="../../de/da1/classCardZone.html">CardZone</a>'s constructor dispatches through the vtable. </p>
+
+<p>Reimplemented from <a class="el" href="../../de/da1/classCardZone.html#a0886f2e82d600ec69f4a576d2ab80db4">CardZone</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d02/classPileZone_a84711ae222fd8f8c8013140b111fc772_cgraph.svg" width="412" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>

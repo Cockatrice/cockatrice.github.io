@@ -2,8 +2,9 @@ var classServer__Game =
 [
     [ "Server_Game", "df/d89/classServer__Game.html#ac00e6a75dd5af5f7aedb46e3ee111041", null ],
     [ "~Server_Game", "df/d89/classServer__Game.html#a688712ac5fe43e7d1f4e8655a0911969", null ],
-    [ "addPlayer", "df/d89/classServer__Game.html#ae148abd9d42256a5b47ad78779575873", null ],
-    [ "checkJoin", "df/d89/classServer__Game.html#a626ba6797618028591e6dbc4d58af494", null ],
+    [ "addPlayer", "df/d89/classServer__Game.html#a46bdcebd733e07de0b2efe0e79ab75d4", null ],
+    [ "canSeePrivateEventsFor", "df/d89/classServer__Game.html#af6a757e25402c87cd994b48a80df81e1", null ],
+    [ "checkJoin", "df/d89/classServer__Game.html#ac3fba6cecf1497f0da1624e02dc8680a", null ],
     [ "containsUser", "df/d89/classServer__Game.html#a33c20fcaabce24aace489fc6db2a3975", null ],
     [ "createGameJoinedEvent", "df/d89/classServer__Game.html#acea57cbc97a75287ccf40305961f92c3", null ],
     [ "createGameStateChangedEvent", "df/d89/classServer__Game.html#af1d68099b6544a7c7eba4847e305e1cb", null ],

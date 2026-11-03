@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -164,7 +164,9 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a7933aaf9c07227b2992befa3bdb4132f" id="r_a7933aaf9c07227b2992befa3bdb4132f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7933aaf9c07227b2992befa3bdb4132f">clearArrowsForPlayerLocally</a> (int playerId)</td></tr>
 <tr class="memitem:a1cb7a07e93361aa8f6c456003071bfc3" id="r_a1cb7a07e93361aa8f6c456003071bfc3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1cb7a07e93361aa8f6c456003071bfc3">requestArrowDeletion</a> (int playerId, int arrowId)</td></tr>
 <tr class="memdesc:a1cb7a07e93361aa8f6c456003071bfc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queues up arrow deletion but doesn't directly modify the scene.  <br /></td></tr>
-<tr class="memitem:a4326218936b502a0a0f658bfd5393303" id="r_a4326218936b502a0a0f658bfd5393303"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4326218936b502a0a0f658bfd5393303">onCardZoneChanged</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card, bool sameZone)</td></tr>
+<tr class="memitem:ae045236fa9f29cb75d7856eafeef24c9" id="r_ae045236fa9f29cb75d7856eafeef24c9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae045236fa9f29cb75d7856eafeef24c9">onCardZoneChanged</a> (<a class="el" href="../../db/d1b/classCardState.html">CardState</a> *card, bool sameZone)</td></tr>
+<tr class="memitem:a16f2becf7d1e32dce8f81fd35d918584" id="r_a16f2becf7d1e32dce8f81fd35d918584"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a16f2becf7d1e32dce8f81fd35d918584">onCardViewRefreshRequested</a> (<a class="el" href="../../db/d1b/classCardState.html">CardState</a> *card, bool zoneChanged, <a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *newOwner)</td></tr>
+<tr class="memdesc:a16f2becf7d1e32dce8f81fd35d918584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refreshes the view of a card that the server just moved.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
@@ -183,6 +185,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9f3f52f90882e11a75ca951585222168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates UI text for all zone views.  <br /></td></tr>
 <tr class="memitem:a1951e50a7fb21b5522addae62b00b41f" id="r_a1951e50a7fb21b5522addae62b00b41f"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a1951e50a7fb21b5522addae62b00b41f">selectedCards</a> () const</td></tr>
 <tr class="memdesc:a1951e50a7fb21b5522addae62b00b41f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all selected CardItems.  <br /></td></tr>
+<tr class="memitem:a760c8c5d3e299c8bdf3e9c132faa49e9" id="r_a760c8c5d3e299c8bdf3e9c132faa49e9"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../db/d1b/classCardState.html">CardState</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a760c8c5d3e299c8bdf3e9c132faa49e9">selectedCardStates</a> () const</td></tr>
+<tr class="memitem:a79d2a29ccbe11d5f34d0f0aa039bf89a" id="r_a79d2a29ccbe11d5f34d0f0aa039bf89a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a79d2a29ccbe11d5f34d0f0aa039bf89a">selectAllInZone</a> (const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card)</td></tr>
+<tr class="memdesc:a79d2a29ccbe11d5f34d0f0aa039bf89a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects every card sharing the zone of <code class="param">card</code>.  <br /></td></tr>
+<tr class="memitem:a9af40ca1dff3b241ba2eb47042aef8f7" id="r_a9af40ca1dff3b241ba2eb47042aef8f7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9af40ca1dff3b241ba2eb47042aef8f7">selectSameRow</a> (const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card)</td></tr>
+<tr class="memdesc:a9af40ca1dff3b241ba2eb47042aef8f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the cards laid out in the same visual row as <code class="param">card</code>.  <br /></td></tr>
+<tr class="memitem:ad5b57a45004912cba591d99270ad25da" id="r_ad5b57a45004912cba591d99270ad25da"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad5b57a45004912cba591d99270ad25da">selectSameColumn</a> (const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card)</td></tr>
+<tr class="memdesc:ad5b57a45004912cba591d99270ad25da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the cards laid out in the same visual column as <code class="param">card</code>.  <br /></td></tr>
+<tr class="memitem:a3cc51e9ad7517fa8245f9672dd42e65c" id="r_a3cc51e9ad7517fa8245f9672dd42e65c"><td class="memItemLeft"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a3cc51e9ad7517fa8245f9672dd42e65c">getActiveCard</a> () const</td></tr>
+<tr class="memdesc:a3cc51e9ad7517fa8245f9672dd42e65c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Card the currently open context menu targets, or null.  <br /></td></tr>
+<tr class="memitem:aae9ee69cf4a5bfd9b118e7db5bbc6952" id="r_aae9ee69cf4a5bfd9b118e7db5bbc6952"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aae9ee69cf4a5bfd9b118e7db5bbc6952">setActiveCard</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card)</td></tr>
+<tr class="memdesc:aae9ee69cf4a5bfd9b118e7db5bbc6952"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the card the currently open context menu targets.  <br /></td></tr>
 <tr class="memitem:ac7d9ec46a3c66281bf00e72965b299c7" id="r_ac7d9ec46a3c66281bf00e72965b299c7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac7d9ec46a3c66281bf00e72965b299c7">addPlayer</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player)</td></tr>
 <tr class="memdesc:ac7d9ec46a3c66281bf00e72965b299c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a player to the scene and stores their graphics item.  <br /></td></tr>
 <tr class="memitem:a16d1f6c31bfeedb41ff05cb979e79f5d" id="r_a16d1f6c31bfeedb41ff05cb979e79f5d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a16d1f6c31bfeedb41ff05cb979e79f5d">removePlayer</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player)</td></tr>
@@ -263,6 +276,8 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a72ab60c9119d77b1bdc6ae503a37afb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current view size.  <br /></td></tr>
 <tr class="memitem:a9d567d70c813595eb7bec6b83d2a79bf" id="r_a9d567d70c813595eb7bec6b83d2a79bf"><td class="memItemLeft">QPointer&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9d567d70c813595eb7bec6b83d2a79bf">hoveredCard</a></td></tr>
 <tr class="memdesc:a9d567d70c813595eb7bec6b83d2a79bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently hovered card.  <br /></td></tr>
+<tr class="memitem:a672f6a6ce8e2a518501d4f0e2814ef38" id="r_a672f6a6ce8e2a518501d4f0e2814ef38"><td class="memItemLeft">QPointer&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a672f6a6ce8e2a518501d4f0e2814ef38">activeCard</a></td></tr>
+<tr class="memdesc:a672f6a6ce8e2a518501d4f0e2814ef38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Card the currently open context menu targets.  <br /></td></tr>
 <tr class="memitem:abcfad631804efabf322bb70d673a063f" id="r_abcfad631804efabf322bb70d673a063f"><td class="memItemLeft">QBasicTimer *&#160;</td><td class="memItemRight"><a class="el" href="#abcfad631804efabf322bb70d673a063f">animationTimer</a></td></tr>
 <tr class="memdesc:abcfad631804efabf322bb70d673a063f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer for scene animations.  <br /></td></tr>
 <tr class="memitem:a233a5d8534c7e8830f7c379d37b0565b" id="r_a233a5d8534c7e8830f7c379d37b0565b"><td class="memItemLeft"><a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt; QObject *, <a class="el" href="../../da/dd9/classIAnimatedItem.html">IAnimatedItem</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a233a5d8534c7e8830f7c379d37b0565b">animatedItems</a></td></tr>
@@ -1122,7 +1137,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a476bba288208f67fdd56156d9e384df6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a476bba288208f67fdd56156d9e384df6_cgraph.svg" width="100%" height="479"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1160,6 +1175,30 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a3064ed17ced8e0e4b9d95adc3d4a575a_icgraph.svg" width="662" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a3cc51e9ad7517fa8245f9672dd42e65c" name="a3cc51e9ad7517fa8245f9672dd42e65c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cc51e9ad7517fa8245f9672dd42e65c">&#9670;&#160;</a></span>getActiveCard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> * GameScene::getActiveCard </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Card the currently open context menu targets, or null. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a3cc51e9ad7517fa8245f9672dd42e65c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1274,7 +1313,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_acd6cb749aab92b1cc0444e1ba6d803df_cgraph.svg" width="100%" height="482"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_acd6cb749aab92b1cc0444e1ba6d803df_cgraph.svg" width="100%" height="464"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1310,6 +1349,11 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a02ab54dfa3a9b7b49ab863ce0db03972_cgraph.svg" width="492" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1347,7 +1391,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_afae26fb9ea0229b1044bb34db29dae3e_cgraph.svg" width="424" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_afae26fb9ea0229b1044bb34db29dae3e_cgraph.svg" width="471" height="143"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1357,8 +1401,57 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a4326218936b502a0a0f658bfd5393303" name="a4326218936b502a0a0f658bfd5393303"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4326218936b502a0a0f658bfd5393303">&#9670;&#160;</a></span>onCardZoneChanged</h2>
+<a id="a16f2becf7d1e32dce8f81fd35d918584" name="a16f2becf7d1e32dce8f81fd35d918584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16f2becf7d1e32dce8f81fd35d918584">&#9670;&#160;</a></span>onCardViewRefreshRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::onCardViewRefreshRequested </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>zoneChanged</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *</td>          <td class="paramname"><span class="paramname"><em>newOwner</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Refreshes the view of a card that the server just moved. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">card</td><td>The card that moved. </td></tr>
+    <tr><td class="paramname">zoneChanged</td><td>Whether the card crossed a zone boundary. </td></tr>
+    <tr><td class="paramname">newOwner</td><td>The player the card now belongs to, or nullptr to leave the owner alone. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a16f2becf7d1e32dce8f81fd35d918584_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae045236fa9f29cb75d7856eafeef24c9" name="ae045236fa9f29cb75d7856eafeef24c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae045236fa9f29cb75d7856eafeef24c9">&#9670;&#160;</a></span>onCardZoneChanged</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1369,7 +1462,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void GameScene::onCardZoneChanged </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1386,12 +1479,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a4326218936b502a0a0f658bfd5393303_cgraph.svg" width="100%" height="368"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_ae045236fa9f29cb75d7856eafeef24c9_cgraph.svg" width="100%" height="368"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a4326218936b502a0a0f658bfd5393303_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_ae045236fa9f29cb75d7856eafeef24c9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1856,6 +1949,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a79d2a29ccbe11d5f34d0f0aa039bf89a" name="a79d2a29ccbe11d5f34d0f0aa039bf89a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79d2a29ccbe11d5f34d0f0aa039bf89a">&#9670;&#160;</a></span>selectAllInZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::selectAllInZone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects every card sharing the zone of <code class="param">card</code>. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a79d2a29ccbe11d5f34d0f0aa039bf89a_cgraph.svg" width="606" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a1951e50a7fb21b5522addae62b00b41f" name="a1951e50a7fb21b5522addae62b00b41f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1951e50a7fb21b5522addae62b00b41f">&#9670;&#160;</a></span>selectedCards()</h2>
 
@@ -1881,6 +1998,105 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a1951e50a7fb21b5522addae62b00b41f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a760c8c5d3e299c8bdf3e9c132faa49e9" name="a760c8c5d3e299c8bdf3e9c132faa49e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a760c8c5d3e299c8bdf3e9c132faa49e9">&#9670;&#160;</a></span>selectedCardStates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../db/d1b/classCardState.html">CardState</a> * &gt; GameScene::selectedCardStates </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a760c8c5d3e299c8bdf3e9c132faa49e9_cgraph.svg" width="492" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a760c8c5d3e299c8bdf3e9c132faa49e9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad5b57a45004912cba591d99270ad25da" name="ad5b57a45004912cba591d99270ad25da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5b57a45004912cba591d99270ad25da">&#9670;&#160;</a></span>selectSameColumn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::selectSameColumn </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects the cards laid out in the same visual column as <code class="param">card</code>. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_ad5b57a45004912cba591d99270ad25da_cgraph.svg" width="631" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9af40ca1dff3b241ba2eb47042aef8f7" name="a9af40ca1dff3b241ba2eb47042aef8f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9af40ca1dff3b241ba2eb47042aef8f7">&#9670;&#160;</a></span>selectSameRow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::selectSameRow </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Selects the cards laid out in the same visual row as <code class="param">card</code>. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a9af40ca1dff3b241ba2eb47042aef8f7_cgraph.svg" width="610" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aae9ee69cf4a5bfd9b118e7db5bbc6952" name="aae9ee69cf4a5bfd9b118e7db5bbc6952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae9ee69cf4a5bfd9b118e7db5bbc6952">&#9670;&#160;</a></span>setActiveCard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::setActiveCard </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the card the currently open context menu targets. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_aae9ee69cf4a5bfd9b118e7db5bbc6952_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2233,6 +2449,30 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a672f6a6ce8e2a518501d4f0e2814ef38" name="a672f6a6ce8e2a518501d4f0e2814ef38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a672f6a6ce8e2a518501d4f0e2814ef38">&#9670;&#160;</a></span>activeCard</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointer&lt;<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a>&gt; GameScene::activeCard</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Card the currently open context menu targets. </p>
+
+</div>
+</div>
 <a id="a233a5d8534c7e8830f7c379d37b0565b" name="a233a5d8534c7e8830f7c379d37b0565b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a233a5d8534c7e8830f7c379d37b0565b">&#9670;&#160;</a></span>animatedItems</h2>
 

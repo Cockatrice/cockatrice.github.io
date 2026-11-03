@@ -5,5 +5,6 @@ var dir_b0c312031cf4adbf4e3892130f945cb7 =
     [ "load_benchmark.cpp", "d3/dbe/load__benchmark_8cpp.html", "d3/dbe/load__benchmark_8cpp" ],
     [ "mocks.cpp", "dc/d48/mocks_8cpp.html", null ],
     [ "mocks.h", "db/de6/mocks_8h.html", "db/de6/mocks_8h" ],
-    [ "test_card_database_path_provider.h", "d6/d44/test__card__database__path__provider_8h.html", "d6/d44/test__card__database__path__provider_8h" ]
+    [ "test_card_database_path_provider.h", "d6/d44/test__card__database__path__provider_8h.html", "d6/d44/test__card__database__path__provider_8h" ],
+    [ "visual_display_model_test.cpp", "d1/d60/visual__display__model__test_8cpp.html", null ]
 ];

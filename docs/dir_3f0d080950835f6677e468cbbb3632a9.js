@@ -1,5 +1,7 @@
 var dir_3f0d080950835f6677e468cbbb3632a9 =
 [
+    [ "dlg_annotation.cpp", "d9/db5/dlg__annotation_8cpp.html", null ],
+    [ "dlg_annotation.h", "d1/d64/dlg__annotation_8h.html", "d1/d64/dlg__annotation_8h" ],
     [ "dlg_create_token.cpp", "d5/dd1/dlg__create__token_8cpp.html", null ],
     [ "dlg_create_token.h", "d9/d63/dlg__create__token_8h.html", "d9/d63/dlg__create__token_8h" ],
     [ "dlg_move_top_cards_until.cpp", "dd/d52/dlg__move__top__cards__until_8cpp.html", "dd/d52/dlg__move__top__cards__until_8cpp" ],

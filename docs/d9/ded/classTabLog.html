@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -158,6 +158,10 @@ Private Slots</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ae9e48e6e3382a309c2cb7305871fb5f5" id="r_ae9e48e6e3382a309c2cb7305871fb5f5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae9e48e6e3382a309c2cb7305871fb5f5">createDock</a> ()</td></tr>
+<tr class="memitem:a897f37ed3fd68429f45d39d3e60c1ef0" id="r_a897f37ed3fd68429f45d39d3e60c1ef0"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a897f37ed3fd68429f45d39d3e60c1ef0">dateRangeForSelection</a> () const</td></tr>
+<tr class="memitem:a9bf9d62d786b6741f880cacef783d30d" id="r_a9bf9d62d786b6741f880cacef783d30d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9bf9d62d786b6741f880cacef783d30d">fetchPage</a> (int offset)</td></tr>
+<tr class="memitem:ab019bdfbb473fa59d37874c75687819e" id="r_ab019bdfbb473fa59d37874c75687819e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab019bdfbb473fa59d37874c75687819e">appendChatMessage</a> (QTableWidget *table, int &amp;counter, const QString &amp;time, const QString &amp;senderName, const QString &amp;senderIp, const QString &amp;messageText, const QString &amp;targetId, const QString &amp;targetName, const QString &amp;channel=QString())</td></tr>
+<tr class="memitem:a1e3a1e1f565eab47757f554e0ab5796f" id="r_a1e3a1e1f565eab47757f554e0ab5796f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1e3a1e1f565eab47757f554e0ab5796f">checkFetchMore</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -203,6 +207,18 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a865ba9e9b2f88f87ea0708a9920a934c" id="r_a865ba9e9b2f88f87ea0708a9920a934c"><td class="memItemLeft">QTableWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a865ba9e9b2f88f87ea0708a9920a934c">roomTable</a></td></tr>
 <tr class="memitem:aad0a2196bf1481fcc73021cb850f16b1" id="r_aad0a2196bf1481fcc73021cb850f16b1"><td class="memItemLeft">QTableWidget *&#160;</td><td class="memItemRight"><a class="el" href="#aad0a2196bf1481fcc73021cb850f16b1">gameTable</a></td></tr>
 <tr class="memitem:a2224852ffe8b239713a960ca599b0350" id="r_a2224852ffe8b239713a960ca599b0350"><td class="memItemLeft">QTableWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a2224852ffe8b239713a960ca599b0350">chatTable</a></td></tr>
+<tr class="memitem:a691486268a6d3f1327d13370b6f76661" id="r_a691486268a6d3f1327d13370b6f76661"><td class="memItemLeft">QTabWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a691486268a6d3f1327d13370b6f76661">tabManager</a> = nullptr</td></tr>
+<tr class="memitem:a6e2f2350b817d592fd62927299f3b963" id="r_a6e2f2350b817d592fd62927299f3b963"><td class="memItemLeft"><a class="el" href="../../d7/dbb/structCommand__ViewLogHistory.html">Command_ViewLogHistory</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6e2f2350b817d592fd62927299f3b963">currentQuery</a></td></tr>
+<tr class="memitem:a614cce01ba2fbd9af78718a045dca87c" id="r_a614cce01ba2fbd9af78718a045dca87c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a614cce01ba2fbd9af78718a045dca87c">hasCurrentQuery</a> = false</td></tr>
+<tr class="memitem:a349bce816f8db61742a7762b79400d38" id="r_a349bce816f8db61742a7762b79400d38"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a349bce816f8db61742a7762b79400d38">snapshotBefore</a></td></tr>
+<tr class="memitem:ab7e99bee9786873594dba6472a7fe084" id="r_ab7e99bee9786873594dba6472a7fe084"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ab7e99bee9786873594dba6472a7fe084">lastPageStartKey</a></td></tr>
+<tr class="memitem:a474362e207bb5a46a0d24d7d55aa57bd" id="r_a474362e207bb5a46a0d24d7d55aa57bd"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a474362e207bb5a46a0d24d7d55aa57bd">currentOffset</a> = 0</td></tr>
+<tr class="memitem:a3ab46f68753950ca0af35e2a03d75f24" id="r_a3ab46f68753950ca0af35e2a03d75f24"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a3ab46f68753950ca0af35e2a03d75f24">pageSize</a> = 200</td></tr>
+<tr class="memitem:aa1a9107f0f8a9edde19f594f412904f6" id="r_aa1a9107f0f8a9edde19f594f412904f6"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aa1a9107f0f8a9edde19f594f412904f6">roomCounter</a> = 0</td></tr>
+<tr class="memitem:a0edbbff37f662bc0d040dc48f26978d4" id="r_a0edbbff37f662bc0d040dc48f26978d4"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a0edbbff37f662bc0d040dc48f26978d4">gameCounter</a> = 0</td></tr>
+<tr class="memitem:ae93814dced2fe9cbdd88a04d43e9fa2d" id="r_ae93814dced2fe9cbdd88a04d43e9fa2d"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ae93814dced2fe9cbdd88a04d43e9fa2d">chatCounter</a> = 0</td></tr>
+<tr class="memitem:a1f4898bd411c83ad59326a9a43068c1e" id="r_a1f4898bd411c83ad59326a9a43068c1e"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a1f4898bd411c83ad59326a9a43068c1e">isFetching</a> = false</td></tr>
+<tr class="memitem:ae441ee9151990204bbae049bea53979a" id="r_ae441ee9151990204bbae049bea53979a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae441ee9151990204bbae049bea53979a">hasMoreResults</a> = false</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -245,7 +261,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_a1e2a247f895316a7b2f771a89038cad7_cgraph.svg" width="100%" height="542"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_a1e2a247f895316a7b2f771a89038cad7_cgraph.svg" width="100%" height="557"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -281,6 +297,110 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ab019bdfbb473fa59d37874c75687819e" name="ab019bdfbb473fa59d37874c75687819e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab019bdfbb473fa59d37874c75687819e">&#9670;&#160;</a></span>appendChatMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabLog::appendChatMessage </td>
+          <td>(</td>
+          <td class="paramtype">QTableWidget *</td>          <td class="paramname"><span class="paramname"><em>table</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;</td>          <td class="paramname"><span class="paramname"><em>counter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>time</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>senderName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>senderIp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>messageText</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>targetId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>targetName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>channel</em></span><span class="paramdefsep"> = </span><span class="paramdefval">QString()</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_ab019bdfbb473fa59d37874c75687819e_icgraph.svg" width="100%" height="368"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a1e3a1e1f565eab47757f554e0ab5796f" name="a1e3a1e1f565eab47757f554e0ab5796f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e3a1e1f565eab47757f554e0ab5796f">&#9670;&#160;</a></span>checkFetchMore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabLog::checkFetchMore </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_a1e3a1e1f565eab47757f554e0ab5796f_cgraph.svg" width="100%" height="540"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_a1e3a1e1f565eab47757f554e0ab5796f_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a1985eab072d9704eedb8908c67058a10" name="a1985eab072d9704eedb8908c67058a10"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1985eab072d9704eedb8908c67058a10">&#9670;&#160;</a></span>clearClicked</h2>
 
@@ -336,12 +456,77 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_ae9e48e6e3382a309c2cb7305871fb5f5_cgraph.svg" width="100%" height="540"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_ae9e48e6e3382a309c2cb7305871fb5f5_cgraph.svg" width="100%" height="578"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_ae9e48e6e3382a309c2cb7305871fb5f5_icgraph.svg" width="100%" height="368"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a897f37ed3fd68429f45d39d3e60c1ef0" name="a897f37ed3fd68429f45d39d3e60c1ef0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a897f37ed3fd68429f45d39d3e60c1ef0">&#9670;&#160;</a></span>dateRangeForSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TabLog::dateRangeForSelection </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_a897f37ed3fd68429f45d39d3e60c1ef0_icgraph.svg" width="100%" height="368"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a9bf9d62d786b6741f880cacef783d30d" name="a9bf9d62d786b6741f880cacef783d30d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf9d62d786b6741f880cacef783d30d">&#9670;&#160;</a></span>fetchPage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TabLog::fetchPage </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>offset</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_a9bf9d62d786b6741f880cacef783d30d_cgraph.svg" width="100%" height="582"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_a9bf9d62d786b6741f880cacef783d30d_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -371,7 +556,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_ab48f5b166c0d8ea47bef378fe1b25ea6_cgraph.svg" width="100%" height="540"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_ab48f5b166c0d8ea47bef378fe1b25ea6_cgraph.svg" width="100%" height="578"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -493,6 +678,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_a5655893af9a446da70d340f11ad19776_cgraph.svg" width="100%" height="489"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/ded/classTabLog_a5655893af9a446da70d340f11ad19776_icgraph.svg" width="100%" height="368"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
@@ -556,6 +746,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">bool TabLog::canUseDeveloperCommands</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae93814dced2fe9cbdd88a04d43e9fa2d" name="ae93814dced2fe9cbdd88a04d43e9fa2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae93814dced2fe9cbdd88a04d43e9fa2d">&#9670;&#160;</a></span>chatCounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TabLog::chatCounter = 0</td>
         </tr>
       </table>
   </td>
@@ -674,6 +886,51 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a474362e207bb5a46a0d24d7d55aa57bd" name="a474362e207bb5a46a0d24d7d55aa57bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a474362e207bb5a46a0d24d7d55aa57bd">&#9670;&#160;</a></span>currentOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TabLog::currentOffset = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e2f2350b817d592fd62927299f3b963" name="a6e2f2350b817d592fd62927299f3b963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e2f2350b817d592fd62927299f3b963">&#9670;&#160;</a></span>currentQuery</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/dbb/structCommand__ViewLogHistory.html">Command_ViewLogHistory</a> TabLog::currentQuery</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The filters of the search in flight, captured when Get was clicked so that later pages cannot pick up edits the moderator made after starting it. </p>
 
 </div>
 </div>
@@ -831,6 +1088,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a0edbbff37f662bc0d040dc48f26978d4" name="a0edbbff37f662bc0d040dc48f26978d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0edbbff37f662bc0d040dc48f26978d4">&#9670;&#160;</a></span>gameCounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TabLog::gameCounter = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae514ad6a87a3d447ce8f5aac5fd28ebb" name="ae514ad6a87a3d447ce8f5aac5fd28ebb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae514ad6a87a3d447ce8f5aac5fd28ebb">&#9670;&#160;</a></span>gameRoom</h2>
 
@@ -886,6 +1165,72 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QPushButton* TabLog::getButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a614cce01ba2fbd9af78718a045dca87c" name="a614cce01ba2fbd9af78718a045dca87c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a614cce01ba2fbd9af78718a045dca87c">&#9670;&#160;</a></span>hasCurrentQuery</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TabLog::hasCurrentQuery = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae441ee9151990204bbae049bea53979a" name="ae441ee9151990204bbae049bea53979a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae441ee9151990204bbae049bea53979a">&#9670;&#160;</a></span>hasMoreResults</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TabLog::hasMoreResults = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f4898bd411c83ad59326a9a43068c1e" name="a1f4898bd411c83ad59326a9a43068c1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f4898bd411c83ad59326a9a43068c1e">&#9670;&#160;</a></span>isFetching</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TabLog::isFetching = false</td>
         </tr>
       </table>
   </td>
@@ -1073,6 +1418,29 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ab7e99bee9786873594dba6472a7fe084" name="ab7e99bee9786873594dba6472a7fe084"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7e99bee9786873594dba6472a7fe084">&#9670;&#160;</a></span>lastPageStartKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString TabLog::lastPageStartKey</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Identity of the previous page's first row, used to spot a server that ignores <span class="tt">offset</span> and hands back the same page forever. </p>
+
+</div>
+</div>
 <a id="a0bd25d95cd63e8faba03f3c8ed7cc0d6" name="a0bd25d95cd63e8faba03f3c8ed7cc0d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0bd25d95cd63e8faba03f3c8ed7cc0d6">&#9670;&#160;</a></span>locationGrid</h2>
 
@@ -1227,6 +1595,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a3ab46f68753950ca0af35e2a03d75f24" name="a3ab46f68753950ca0af35e2a03d75f24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ab46f68753950ca0af35e2a03d75f24">&#9670;&#160;</a></span>pageSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TabLog::pageSize = 200</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2e45fc99d30f7d3711e8ee65e2a0a065" name="a2e45fc99d30f7d3711e8ee65e2a0a065"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e45fc99d30f7d3711e8ee65e2a0a065">&#9670;&#160;</a></span>pastDays</h2>
 
@@ -1337,6 +1727,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aa1a9107f0f8a9edde19f594f412904f6" name="aa1a9107f0f8a9edde19f594f412904f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1a9107f0f8a9edde19f594f412904f6">&#9670;&#160;</a></span>roomCounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TabLog::roomCounter = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a865ba9e9b2f88f87ea0708a9920a934c" name="a865ba9e9b2f88f87ea0708a9920a934c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a865ba9e9b2f88f87ea0708a9920a934c">&#9670;&#160;</a></span>roomTable</h2>
 
@@ -1392,6 +1804,51 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QWidget* TabLog::searchDockContents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a349bce816f8db61742a7762b79400d38" name="a349bce816f8db61742a7762b79400d38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a349bce816f8db61742a7762b79400d38">&#9670;&#160;</a></span>snapshotBefore</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString TabLog::snapshotBefore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Newest <span class="tt">log_time</span> of the first page, sent back as the upper bound of every later page so messages logged in the meantime do not shift the window. </p>
+
+</div>
+</div>
+<a id="a691486268a6d3f1327d13370b6f76661" name="a691486268a6d3f1327d13370b6f76661"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a691486268a6d3f1327d13370b6f76661">&#9670;&#160;</a></span>tabManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTabWidget* TabLog::tabManager = nullptr</td>
         </tr>
       </table>
   </td>

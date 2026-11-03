@@ -7,7 +7,7 @@
     <meta content="IE=11" http-equiv="X-UA-Compatible"/>
     <meta content="Doxygen 1.18.0" name="generator"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <title>Cockatrice: cockatrice/src/game/zones/table_zone_logic.h Source File</title>
+    <title>Cockatrice: libcockatrice_game/libcockatrice/game/zones/table_zone_logic.h Source File</title>
     <link href="../../cockatrice.png" rel="icon" type="image/x-icon"/>
     <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
     <script src="../../jquery.js" type="text/javascript"></script>
@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -147,23 +147,32 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d1/da4/table__
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>                   <span class="keywordtype">bool</span> _isShufflable,</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>                   <span class="keywordtype">bool</span> _contentsKnown,</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                   QObject *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/ded/classTableZoneLogic.html#abe731c43f0e9631ecb9a88d4fa5077b2">addCardImpl</a>(<a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *card, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../dc/ded/classTableZoneLogic.html#a7faa3e327938fe3272b6a8c9bacf3946">   33</a></span>    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="../../dc/ded/classTableZoneLogic.html#a7faa3e327938fe3272b6a8c9bacf3946">ROW_COUNT</a> = 3;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_class" href="../../d6/dbd/classCardItem.html">CardItem</a> *<a class="code hl_function" href="../../dc/ded/classTableZoneLogic.html#aae83a49a397063cda11fe3398ea23025">takeCard</a>(<span class="keywordtype">int</span> position, <span class="keywordtype">int</span> cardId, <span class="keywordtype">bool</span> toNewZone = <span class="keyword">true</span>) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../dc/ded/classTableZoneLogic.html#a2bc3d40cc8c551d0abb07af28854b99d">clampValidTableRow</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> row);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code hl_function" href="../../dc/ded/classTableZoneLogic.html#a228de3a7313ad1dd1a36033aa87b3fd7">tableRowToGridY</a>(<span class="keywordtype">int</span> tableRow);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/ded/classTableZoneLogic.html#a8894b17d3b51f21c87c379c7c7d2dfb5">addCardImpl</a>(<a class="code hl_class" href="../../db/d1b/classCardState.html">CardState</a> *card, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <a class="code hl_class" href="../../db/d1b/classCardState.html">CardState</a> *<a class="code hl_function" href="../../dc/ded/classTableZoneLogic.html#aab4cfa0ee69746d0206f448af6d00d48">takeCard</a>(<span class="keywordtype">int</span> position, <span class="keywordtype">int</span> cardId, <span class="keywordtype">bool</span> toNewZone = <span class="keyword">true</span>) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>};</div>
 </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_TABLE_ZONE_LOGIC_H</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_TABLE_ZONE_LOGIC_H</span></div>
 <div class="ttc" id="acard__zone__logic_8h_html"><div class="ttname"><a href="../../dd/dbf/card__zone__logic_8h.html">card_zone_logic.h</a></div></div>
-<div class="ttc" id="aclassCardItem_html"><div class="ttname"><a href="../../d6/dbd/classCardItem.html">CardItem</a></div><div class="ttdef"><b>Definition</b> card_item.h:33</div></div>
-<div class="ttc" id="aclassCardZoneLogic_html_a5166813a6c2f32b7e282dfb8e7fd4c53"><div class="ttname"><a href="../../d1/df9/classCardZoneLogic.html#a5166813a6c2f32b7e282dfb8e7fd4c53">CardZoneLogic::CardZoneLogic</a></div><div class="ttdeci">CardZoneLogic(PlayerLogic *_player, const QString &amp;_name, bool _hasCardAttr, bool _isShufflable, bool _contentsKnown, QObject *parent=nullptr)</div><div class="ttdef"><b>Definition</b> card_zone_logic.cpp:32</div></div>
-<div class="ttc" id="aclassPlayerLogic_html"><div class="ttname"><a href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a></div><div class="ttdef"><b>Definition</b> player_logic.h:56</div></div>
-<div class="ttc" id="aclassTableZoneLogic_html_a21bc37b0e4a6d99c0d46de3ef9254b31"><div class="ttname"><a href="../../dc/ded/classTableZoneLogic.html#a21bc37b0e4a6d99c0d46de3ef9254b31">TableZoneLogic::TableZoneLogic</a></div><div class="ttdeci">TableZoneLogic(PlayerLogic *_player, const QString &amp;_name, bool _hasCardAttr, bool _isShufflable, bool _contentsKnown, QObject *parent=nullptr)</div><div class="ttdef"><b>Definition</b> table_zone_logic.cpp:12</div></div>
+<div class="ttc" id="aclassCardState_html"><div class="ttname"><a href="../../db/d1b/classCardState.html">CardState</a></div><div class="ttdef"><b>Definition</b> card_state.h:16</div></div>
+<div class="ttc" id="aclassCardZoneLogic_html_a5166813a6c2f32b7e282dfb8e7fd4c53"><div class="ttname"><a href="../../d1/df9/classCardZoneLogic.html#a5166813a6c2f32b7e282dfb8e7fd4c53">CardZoneLogic::CardZoneLogic</a></div><div class="ttdeci">CardZoneLogic(PlayerLogic *_player, const QString &amp;_name, bool _hasCardAttr, bool _isShufflable, bool _contentsKnown, QObject *parent=nullptr)</div><div class="ttdef"><b>Definition</b> card_zone_logic.cpp:30</div></div>
+<div class="ttc" id="aclassPlayerLogic_html"><div class="ttname"><a href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a></div><div class="ttdef"><b>Definition</b> player_logic.h:63</div></div>
+<div class="ttc" id="aclassTableZoneLogic_html_a21bc37b0e4a6d99c0d46de3ef9254b31"><div class="ttname"><a href="../../dc/ded/classTableZoneLogic.html#a21bc37b0e4a6d99c0d46de3ef9254b31">TableZoneLogic::TableZoneLogic</a></div><div class="ttdeci">TableZoneLogic(PlayerLogic *_player, const QString &amp;_name, bool _hasCardAttr, bool _isShufflable, bool _contentsKnown, QObject *parent=nullptr)</div><div class="ttdef"><b>Definition</b> table_zone_logic.cpp:7</div></div>
+<div class="ttc" id="aclassTableZoneLogic_html_a228de3a7313ad1dd1a36033aa87b3fd7"><div class="ttname"><a href="../../dc/ded/classTableZoneLogic.html#a228de3a7313ad1dd1a36033aa87b3fd7">TableZoneLogic::tableRowToGridY</a></div><div class="ttdeci">static int tableRowToGridY(int tableRow)</div><div class="ttdef"><b>Definition</b> table_zone_logic.cpp:50</div></div>
+<div class="ttc" id="aclassTableZoneLogic_html_a2bc3d40cc8c551d0abb07af28854b99d"><div class="ttname"><a href="../../dc/ded/classTableZoneLogic.html#a2bc3d40cc8c551d0abb07af28854b99d">TableZoneLogic::clampValidTableRow</a></div><div class="ttdeci">static int clampValidTableRow(const int row)</div><div class="ttdef"><b>Definition</b> table_zone_logic.cpp:39</div></div>
+<div class="ttc" id="aclassTableZoneLogic_html_a7faa3e327938fe3272b6a8c9bacf3946"><div class="ttname"><a href="../../dc/ded/classTableZoneLogic.html#a7faa3e327938fe3272b6a8c9bacf3946">TableZoneLogic::ROW_COUNT</a></div><div class="ttdeci">static const int ROW_COUNT</div><div class="ttdoc">Number of rows in the table zone grid (0=creatures, 1=noncreatures, 2=lands).</div><div class="ttdef"><b>Definition</b> table_zone_logic.h:33</div></div>
+<div class="ttc" id="aclassTableZoneLogic_html_a8894b17d3b51f21c87c379c7c7d2dfb5"><div class="ttname"><a href="../../dc/ded/classTableZoneLogic.html#a8894b17d3b51f21c87c379c7c7d2dfb5">TableZoneLogic::addCardImpl</a></div><div class="ttdeci">void addCardImpl(CardState *card, int x, int y) override</div><div class="ttdef"><b>Definition</b> table_zone_logic.cpp:17</div></div>
 <div class="ttc" id="aclassTableZoneLogic_html_a950ef0e70511daf58c27d79becaffc8f"><div class="ttname"><a href="../../dc/ded/classTableZoneLogic.html#a950ef0e70511daf58c27d79becaffc8f">TableZoneLogic::toggleTapped</a></div><div class="ttdeci">void toggleTapped()</div></div>
-<div class="ttc" id="aclassTableZoneLogic_html_aae83a49a397063cda11fe3398ea23025"><div class="ttname"><a href="../../dc/ded/classTableZoneLogic.html#aae83a49a397063cda11fe3398ea23025">TableZoneLogic::takeCard</a></div><div class="ttdeci">CardItem * takeCard(int position, int cardId, bool toNewZone=true) override</div><div class="ttdoc">Removes a card from view.</div><div class="ttdef"><b>Definition</b> table_zone_logic.cpp:35</div></div>
-<div class="ttc" id="aclassTableZoneLogic_html_abe731c43f0e9631ecb9a88d4fa5077b2"><div class="ttname"><a href="../../dc/ded/classTableZoneLogic.html#abe731c43f0e9631ecb9a88d4fa5077b2">TableZoneLogic::addCardImpl</a></div><div class="ttdeci">void addCardImpl(CardItem *card, int x, int y) override</div><div class="ttdef"><b>Definition</b> table_zone_logic.cpp:22</div></div>
+<div class="ttc" id="aclassTableZoneLogic_html_aab4cfa0ee69746d0206f448af6d00d48"><div class="ttname"><a href="../../dc/ded/classTableZoneLogic.html#aab4cfa0ee69746d0206f448af6d00d48">TableZoneLogic::takeCard</a></div><div class="ttdeci">CardState * takeCard(int position, int cardId, bool toNewZone=true) override</div><div class="ttdoc">Removes a card from view.</div><div class="ttdef"><b>Definition</b> table_zone_logic.cpp:29</div></div>
 <div class="ttc" id="aclassTableZoneLogic_html_ac6a98035c3dbaed328a13a3f32a492bb"><div class="ttname"><a href="../../dc/ded/classTableZoneLogic.html#ac6a98035c3dbaed328a13a3f32a492bb">TableZoneLogic::contentSizeChanged</a></div><div class="ttdeci">void contentSizeChanged()</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -173,7 +182,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d1/da4/table__
 <script src="../../graph_toggle.js"></script>
 <div class="navpath" id="nav-path"><!-- id is needed for treeview function! -->
     <ul>
-        <li class="navelem"><a href="../../dir_0ea6b47e44f664ed3d7c8e93afc73dac.html">cockatrice</a></li><li class="navelem"><a href="../../dir_c9c7359a086d7bdecf4d0ab1ae660017.html">src</a></li><li class="navelem"><a href="../../dir_fcc53323f100f3840d6c8e04b287c6d3.html">game</a></li><li class="navelem"><a href="../../dir_8f04e89bf047ba4e7a3267da4b339b83.html">zones</a></li><li class="navelem"><a href="../../d1/da4/table__zone__logic_8h.html">table_zone_logic.h</a></li>
+        <li class="navelem"><a href="../../dir_be66487602b778fa980409dec77769a4.html">libcockatrice_game</a></li><li class="navelem"><a href="../../dir_020bf24c869942f9ab369650b4ed9c11.html">libcockatrice</a></li><li class="navelem"><a href="../../dir_d620278b92a13601138f37e568bbbed4.html">game</a></li><li class="navelem"><a href="../../dir_a387fe259a72152ac3421a1c90836938.html">zones</a></li><li class="navelem"><a href="../../d1/da4/table__zone__logic_8h.html">table_zone_logic.h</a></li>
         <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img alt="doxygen"
                                                                                           class="footer"
                                                                                           height="31" src="../../doxygen.svg"

@@ -22,6 +22,7 @@ var classCardPictureLoader =
     [ "operator=", "d2/d5d/classCardPictureLoader.html#a3d8882a354ed9bc835020cc73e91cb33", null ],
     [ "picDownloadChanged", "d2/d5d/classCardPictureLoader.html#a687d0f0f13aea4e0d30ae78451d9a995", null ],
     [ "picsPathChanged", "d2/d5d/classCardPictureLoader.html#a39cf9e1707fa389e498b222d41c0eda4", null ],
+    [ "pixmapLoaded", "d2/d5d/classCardPictureLoader.html#a97965e5f550617b1b1057c03406a8941", null ],
     [ "saveCardImageToLocalStorage", "d2/d5d/classCardPictureLoader.html#afcbab02db4eef9525a86e577bed62135", null ],
     [ "failedAt", "d2/d5d/classCardPictureLoader.html#a0da06adf1b8cdb3a8a734de0663f485c", null ],
     [ "statusBar", "d2/d5d/classCardPictureLoader.html#a45b5c2e43f37cc9c599ce5df4169f7fa", null ],

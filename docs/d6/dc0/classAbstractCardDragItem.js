@@ -12,5 +12,5 @@ var classAbstractCardDragItem =
     [ "updatePosition", "d6/dc0/classAbstractCardDragItem.html#a75b44b42f6cb4b21d20e05060262808f", null ],
     [ "childDrags", "d6/dc0/classAbstractCardDragItem.html#a99035cd5fa2a38ab953933311e9fab20", null ],
     [ "hotSpot", "d6/dc0/classAbstractCardDragItem.html#ac4e9606d83c559850726dc95968b66a4", null ],
-    [ "item", "d6/dc0/classAbstractCardDragItem.html#a5be61ee8bfe7e6527cea00e0898f655b", null ]
+    [ "item", "d6/dc0/classAbstractCardDragItem.html#a0fc78c54dfc138549859dd9df31f2028", null ]
 ];

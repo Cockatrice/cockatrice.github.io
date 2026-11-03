@@ -29,7 +29,7 @@ var searchData=
   ['emailparser_26',['EmailParser',['../dd/d83/classEmailParser.html',1,'']]],
   ['emptytype_27',['EmptyType',['../d2/d75/structpeg_1_1EmptyType.html',1,'peg']]],
   ['endholdersresult_28',['EndHoldersResult',['../d9/d20/structEndHoldersResult.html',1,'']]],
-  ['entry_29',['Entry',['../d3/d4a/structBackgroundSources_1_1Entry.html',1,'BackgroundSources::Entry'],['../d9/dd6/structCardArtRulesModel_1_1Entry.html',1,'CardArtRulesModel::Entry'],['../db/d3b/structHomeTabButtonColor_1_1Entry.html',1,'HomeTabButtonColor::Entry']]],
+  ['entry_29',['Entry',['../d3/d4a/structBackgroundSources_1_1Entry.html',1,'BackgroundSources::Entry'],['../d9/dd6/structCardArtRulesModel_1_1Entry.html',1,'CardArtRulesModel::Entry'],['../dd/d9f/structCardDatabaseVisualDisplayModel_1_1Entry.html',1,'CardDatabaseVisualDisplayModel::Entry'],['../db/d3b/structHomeTabButtonColor_1_1Entry.html',1,'HomeTabButtonColor::Entry']]],
   ['errorinfo_30',['ErrorInfo',['../db/da9/structpeg_1_1ErrorInfo.html',1,'peg']]],
   ['errorreport_31',['ErrorReport',['../db/d9c/structpeg_1_1ErrorReport.html',1,'peg']]],
   ['estimatebracketresult_32',['EstimateBracketResult',['../d8/dd8/structEstimateBracketResult.html',1,'']]],

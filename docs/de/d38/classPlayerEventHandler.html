@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -138,8 +138,10 @@ Collaboration diagram for PlayerEventHandler:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:a4c34e90c23d609a28a94f7bf9e904b28" id="r_a4c34e90c23d609a28a94f7bf9e904b28"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4c34e90c23d609a28a94f7bf9e904b28">cardZoneChanged</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card, bool sameZone)</td></tr>
-<tr class="memitem:a276485255a3596399e59fe2bf8a4259a" id="r_a276485255a3596399e59fe2bf8a4259a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a276485255a3596399e59fe2bf8a4259a">requestCardMenuUpdate</a> (const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card)</td></tr>
+<tr class="memitem:af1b050d1c0321b82ed754fcaa57e94ba" id="r_af1b050d1c0321b82ed754fcaa57e94ba"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af1b050d1c0321b82ed754fcaa57e94ba">cardZoneChanged</a> (<a class="el" href="../../db/d1b/classCardState.html">CardState</a> *card, bool sameZone)</td></tr>
+<tr class="memitem:a1896f4ac9f1ad78625ba8451d90d4296" id="r_a1896f4ac9f1ad78625ba8451d90d4296"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1896f4ac9f1ad78625ba8451d90d4296">requestCardMenuUpdate</a> (<a class="el" href="../../db/d1b/classCardState.html">CardState</a> *card)</td></tr>
+<tr class="memitem:a32a876f7efa7b3b34afc4887496cf050" id="r_a32a876f7efa7b3b34afc4887496cf050"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a32a876f7efa7b3b34afc4887496cf050">cardViewRefreshRequested</a> (<a class="el" href="../../db/d1b/classCardState.html">CardState</a> *card, bool zoneChanged, <a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *newOwner)</td></tr>
+<tr class="memdesc:a32a876f7efa7b3b34afc4887496cf050"><td class="mdescLeft">&#160;</td><td class="mdescRight">A card was just moved by the server and its view needs refreshing.  <br /></td></tr>
 <tr id="signals-0" class="groupHeader"><td colspan="2"><div class="groupHeader">Logging signals</div></td></tr>
 <tr class="memitem:a7cf7eede882f72613a37daf8c81ce40b" id="r_a7cf7eede882f72613a37daf8c81ce40b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7cf7eede882f72613a37daf8c81ce40b">logSay</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, QString message)</td></tr>
 <tr class="memitem:abcc7c5017f649f42fcdad65d563697ee" id="r_abcc7c5017f649f42fcdad65d563697ee"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abcc7c5017f649f42fcdad65d563697ee">logShuffle</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *zone, int start, int end)</td></tr>
@@ -149,17 +151,17 @@ Signals</h2></td></tr>
 <tr class="memitem:a6af6222c19663a7fe03017d665c1c928" id="r_a6af6222c19663a7fe03017d665c1c928"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6af6222c19663a7fe03017d665c1c928">logDrawCards</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, int number, bool deckIsEmpty)</td></tr>
 <tr class="memitem:a1269557d311436c06869c2ea59f7dec1" id="r_a1269557d311436c06869c2ea59f7dec1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1269557d311436c06869c2ea59f7dec1">logUndoDraw</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, QString cardName)</td></tr>
 <tr class="memitem:a02ff7cf248ec0f445c0cde723cd73a28" id="r_a02ff7cf248ec0f445c0cde723cd73a28"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a02ff7cf248ec0f445c0cde723cd73a28">logUndoDrawFailed</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player)</td></tr>
-<tr class="memitem:a6fdcb158bfcf073779167cab35964f84" id="r_a6fdcb158bfcf073779167cab35964f84"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6fdcb158bfcf073779167cab35964f84">logMoveCard</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *startZone, int oldX, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *targetZone, int newX)</td></tr>
+<tr class="memitem:a69f8dfb2ed1f01e413b92f5a106b4d3e" id="r_a69f8dfb2ed1f01e413b92f5a106b4d3e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a69f8dfb2ed1f01e413b92f5a106b4d3e">logMoveCard</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../db/d1b/classCardState.html">CardState</a> *card, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *startZone, int oldX, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *targetZone, int newX)</td></tr>
 <tr class="memitem:a8b2b86d92ba6a45004695f07132094cb" id="r_a8b2b86d92ba6a45004695f07132094cb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8b2b86d92ba6a45004695f07132094cb">logFlipCard</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, QString cardName, bool faceDown)</td></tr>
 <tr class="memitem:a32e8b3a36a624aaf26c34a357b7e7b5a" id="r_a32e8b3a36a624aaf26c34a357b7e7b5a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a32e8b3a36a624aaf26c34a357b7e7b5a">logDestroyCard</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, QString cardName)</td></tr>
 <tr class="memitem:a830dc30d3b7c1795ec095937effece82" id="r_a830dc30d3b7c1795ec095937effece82"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a830dc30d3b7c1795ec095937effece82">logAttachCard</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, QString cardName, <a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *targetPlayer, QString targetCardName)</td></tr>
 <tr class="memitem:a2c0ae1140b7eee284811acae0e0e035b" id="r_a2c0ae1140b7eee284811acae0e0e035b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2c0ae1140b7eee284811acae0e0e035b">logUnattachCard</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, QString cardName)</td></tr>
 <tr class="memitem:a623da51bcab23e6a0d9ba87cbc4dca5c" id="r_a623da51bcab23e6a0d9ba87cbc4dca5c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a623da51bcab23e6a0d9ba87cbc4dca5c">logSetCardCounter</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, QString cardName, int counterId, int value, int oldValue)</td></tr>
-<tr class="memitem:adb3854d2e55ce0789a8b9619fff99eea" id="r_adb3854d2e55ce0789a8b9619fff99eea"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adb3854d2e55ce0789a8b9619fff99eea">logSetTapped</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card, bool tapped)</td></tr>
+<tr class="memitem:a9b6c0b655e0143062a14046851d1e6ae" id="r_a9b6c0b655e0143062a14046851d1e6ae"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9b6c0b655e0143062a14046851d1e6ae">logSetTapped</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../db/d1b/classCardState.html">CardState</a> *card, bool tapped)</td></tr>
 <tr class="memitem:a1a02029623a6b0120b60188911e4a480" id="r_a1a02029623a6b0120b60188911e4a480"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1a02029623a6b0120b60188911e4a480">logSetCounter</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, QString counterName, int value, int oldValue)</td></tr>
-<tr class="memitem:ac151793ece8b98be70e29313fa34db7d" id="r_ac151793ece8b98be70e29313fa34db7d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac151793ece8b98be70e29313fa34db7d">logSetDoesntUntap</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card, bool doesntUntap)</td></tr>
-<tr class="memitem:ab47d8e0de9de05d386d39638a347965b" id="r_ab47d8e0de9de05d386d39638a347965b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab47d8e0de9de05d386d39638a347965b">logSetPT</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card, QString newPT)</td></tr>
-<tr class="memitem:a48c08fc1c838bb2e82683a3c0198f1e8" id="r_a48c08fc1c838bb2e82683a3c0198f1e8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a48c08fc1c838bb2e82683a3c0198f1e8">logSetAnnotation</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card, QString newAnnotation)</td></tr>
+<tr class="memitem:abafe8dbef67846e6b960f0dc81ba5955" id="r_abafe8dbef67846e6b960f0dc81ba5955"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abafe8dbef67846e6b960f0dc81ba5955">logSetDoesntUntap</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../db/d1b/classCardState.html">CardState</a> *card, bool doesntUntap)</td></tr>
+<tr class="memitem:ae8988e90ee2645772190a3e5bc2c6918" id="r_ae8988e90ee2645772190a3e5bc2c6918"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae8988e90ee2645772190a3e5bc2c6918">logSetPT</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../db/d1b/classCardState.html">CardState</a> *card, QString newPT)</td></tr>
+<tr class="memitem:a6b657a00817c2ca60f328ec81c3d3a1b" id="r_a6b657a00817c2ca60f328ec81c3d3a1b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6b657a00817c2ca60f328ec81c3d3a1b">logSetAnnotation</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../db/d1b/classCardState.html">CardState</a> *card, QString newAnnotation)</td></tr>
 <tr class="memitem:a3526dc945129e96922b47ad856aee25e" id="r_a3526dc945129e96922b47ad856aee25e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3526dc945129e96922b47ad856aee25e">logDumpZone</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *zone, int numberCards, bool isReversed=false)</td></tr>
 <tr class="memitem:a9551cf880e74028af1723970a678ce26" id="r_a9551cf880e74028af1723970a678ce26"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9551cf880e74028af1723970a678ce26">logRevealCards</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *zone, int cardId, QString cardName, <a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *otherPlayer, bool faceDown, int amount, bool isLentToAnotherPlayer=false)</td></tr>
 <tr class="memitem:acca7bc49abce3f04182cea8e7bced1a5" id="r_acca7bc49abce3f04182cea8e7bced1a5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acca7bc49abce3f04182cea8e7bced1a5">logAlwaysRevealTopCard</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *zone, bool reveal)</td></tr>
@@ -221,7 +223,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a73173b6b6a0aa2759a2adc373a4e9fd9" id="r_a73173b6b6a0aa2759a2adc373a4e9fd9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a73173b6b6a0aa2759a2adc373a4e9fd9">setCardAttrHelper</a> (const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context, <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card, <a class="el" href="../../df/d39/card__attributes_8proto.html#a6195eb57e729e91ebdf24993b522934f">CardAttribute</a> attribute, const QString &amp;avalue, bool allCards, EventProcessingOptions options)</td></tr>
+<tr class="memitem:ac6a20ca1dcef68a40747a6e547e28804" id="r_ac6a20ca1dcef68a40747a6e547e28804"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac6a20ca1dcef68a40747a6e547e28804">setCardAttrHelper</a> (const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context, <a class="el" href="../../db/d1b/classCardState.html">CardState</a> *card, <a class="el" href="../../df/d39/card__attributes_8proto.html#a6195eb57e729e91ebdf24993b522934f">CardAttribute</a> attribute, const QString &amp;avalue, bool allCards, EventProcessingOptions options)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -231,7 +233,7 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p>Applies player-specific game events and emits corresponding log signals. </p>
 <p>Design notes:</p><ul>
 <li>All event handlers assume events are authoritative and already validated by the server.</li>
-<li>Most handlers mutate both logical state (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a>, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a>, counters) and visual/UI state (views, arrows, menus).</li>
+<li>Most handlers mutate both logical state (<a class="el" href="../../db/d1b/classCardState.html">CardState</a>, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a>, counters) and visual/UI state (views, arrows, menus).</li>
 <li>Logging signals are emitted <em>after</em> or <em>during</em> state mutation, depending on whether later mutations would invalidate log data. </li>
 </ul>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -274,8 +276,57 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a4c34e90c23d609a28a94f7bf9e904b28" name="a4c34e90c23d609a28a94f7bf9e904b28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c34e90c23d609a28a94f7bf9e904b28">&#9670;&#160;</a></span>cardZoneChanged</h2>
+<a id="a32a876f7efa7b3b34afc4887496cf050" name="a32a876f7efa7b3b34afc4887496cf050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32a876f7efa7b3b34afc4887496cf050">&#9670;&#160;</a></span>cardViewRefreshRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerEventHandler::cardViewRefreshRequested </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>zoneChanged</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *</td>          <td class="paramname"><span class="paramname"><em>newOwner</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A card was just moved by the server and its view needs refreshing. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">card</td><td>The card that moved. </td></tr>
+    <tr><td class="paramname">zoneChanged</td><td>Whether the card crossed a zone boundary. </td></tr>
+    <tr><td class="paramname">newOwner</td><td>The player the card now belongs to, or nullptr to leave the owner alone. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_a32a876f7efa7b3b34afc4887496cf050_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af1b050d1c0321b82ed754fcaa57e94ba" name="af1b050d1c0321b82ed754fcaa57e94ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1b050d1c0321b82ed754fcaa57e94ba">&#9670;&#160;</a></span>cardZoneChanged</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,7 +337,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void PlayerEventHandler::cardZoneChanged </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -303,7 +354,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_a4c34e90c23d609a28a94f7bf9e904b28_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_af1b050d1c0321b82ed754fcaa57e94ba_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1292,8 +1343,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6fdcb158bfcf073779167cab35964f84" name="a6fdcb158bfcf073779167cab35964f84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fdcb158bfcf073779167cab35964f84">&#9670;&#160;</a></span>logMoveCard</h2>
+<a id="a69f8dfb2ed1f01e413b92f5a106b4d3e" name="a69f8dfb2ed1f01e413b92f5a106b4d3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69f8dfb2ed1f01e413b92f5a106b4d3e">&#9670;&#160;</a></span>logMoveCard</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1309,7 +1360,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1341,7 +1392,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_a6fdcb158bfcf073779167cab35964f84_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_a69f8dfb2ed1f01e413b92f5a106b4d3e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1483,8 +1534,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a48c08fc1c838bb2e82683a3c0198f1e8" name="a48c08fc1c838bb2e82683a3c0198f1e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48c08fc1c838bb2e82683a3c0198f1e8">&#9670;&#160;</a></span>logSetAnnotation</h2>
+<a id="a6b657a00817c2ca60f328ec81c3d3a1b" name="a6b657a00817c2ca60f328ec81c3d3a1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b657a00817c2ca60f328ec81c3d3a1b">&#9670;&#160;</a></span>logSetAnnotation</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1500,7 +1551,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1517,7 +1568,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_a48c08fc1c838bb2e82683a3c0198f1e8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_a6b657a00817c2ca60f328ec81c3d3a1b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1615,8 +1666,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ac151793ece8b98be70e29313fa34db7d" name="ac151793ece8b98be70e29313fa34db7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac151793ece8b98be70e29313fa34db7d">&#9670;&#160;</a></span>logSetDoesntUntap</h2>
+<a id="abafe8dbef67846e6b960f0dc81ba5955" name="abafe8dbef67846e6b960f0dc81ba5955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abafe8dbef67846e6b960f0dc81ba5955">&#9670;&#160;</a></span>logSetDoesntUntap</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1632,7 +1683,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1649,13 +1700,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_ac151793ece8b98be70e29313fa34db7d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_abafe8dbef67846e6b960f0dc81ba5955_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="ab47d8e0de9de05d386d39638a347965b" name="ab47d8e0de9de05d386d39638a347965b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab47d8e0de9de05d386d39638a347965b">&#9670;&#160;</a></span>logSetPT</h2>
+<a id="ae8988e90ee2645772190a3e5bc2c6918" name="ae8988e90ee2645772190a3e5bc2c6918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8988e90ee2645772190a3e5bc2c6918">&#9670;&#160;</a></span>logSetPT</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1671,7 +1722,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1688,13 +1739,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_ab47d8e0de9de05d386d39638a347965b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_ae8988e90ee2645772190a3e5bc2c6918_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="adb3854d2e55ce0789a8b9619fff99eea" name="adb3854d2e55ce0789a8b9619fff99eea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb3854d2e55ce0789a8b9619fff99eea">&#9670;&#160;</a></span>logSetTapped</h2>
+<a id="a9b6c0b655e0143062a14046851d1e6ae" name="a9b6c0b655e0143062a14046851d1e6ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b6c0b655e0143062a14046851d1e6ae">&#9670;&#160;</a></span>logSetTapped</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1710,7 +1761,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1727,7 +1778,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_adb3854d2e55ce0789a8b9619fff99eea_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_a9b6c0b655e0143062a14046851d1e6ae_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1927,8 +1978,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a276485255a3596399e59fe2bf8a4259a" name="a276485255a3596399e59fe2bf8a4259a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a276485255a3596399e59fe2bf8a4259a">&#9670;&#160;</a></span>requestCardMenuUpdate</h2>
+<a id="a1896f4ac9f1ad78625ba8451d90d4296" name="a1896f4ac9f1ad78625ba8451d90d4296"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1896f4ac9f1ad78625ba8451d90d4296">&#9670;&#160;</a></span>requestCardMenuUpdate</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1939,7 +1990,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void PlayerEventHandler::requestCardMenuUpdate </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1952,13 +2003,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_a276485255a3596399e59fe2bf8a4259a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_a1896f4ac9f1ad78625ba8451d90d4296_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a73173b6b6a0aa2759a2adc373a4e9fd9" name="a73173b6b6a0aa2759a2adc373a4e9fd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73173b6b6a0aa2759a2adc373a4e9fd9">&#9670;&#160;</a></span>setCardAttrHelper()</h2>
+<a id="ac6a20ca1dcef68a40747a6e547e28804" name="ac6a20ca1dcef68a40747a6e547e28804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6a20ca1dcef68a40747a6e547e28804">&#9670;&#160;</a></span>setCardAttrHelper()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1974,7 +2025,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2006,12 +2057,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_a73173b6b6a0aa2759a2adc373a4e9fd9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_ac6a20ca1dcef68a40747a6e547e28804_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_a73173b6b6a0aa2759a2adc373a4e9fd9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d38/classPlayerEventHandler_ac6a20ca1dcef68a40747a6e547e28804_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2041,8 +2092,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>cockatrice/src/game/player/<a class="el" href="../../d8/df5/player__event__handler_8h_source.html">player_event_handler.h</a></li>
-<li>cockatrice/src/game/player/<a class="el" href="../../d9/def/player__event__handler_8cpp.html">player_event_handler.cpp</a></li>
+<li>libcockatrice_game/libcockatrice/game/player/<a class="el" href="../../d8/df5/player__event__handler_8h_source.html">player_event_handler.h</a></li>
+<li>libcockatrice_game/libcockatrice/game/player/<a class="el" href="../../d9/def/player__event__handler_8cpp.html">player_event_handler.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -130,7 +130,7 @@ Inheritance diagram for AbstractCardDragItem:</div>
 <div class="dynheader">
 Collaboration diagram for AbstractCardDragItem:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d6a/classAbstractCardDragItem__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d6a/classAbstractCardDragItem__coll__graph.svg" width="492" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -156,7 +156,8 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a5be61ee8bfe7e6527cea00e0898f655b" id="r_a5be61ee8bfe7e6527cea00e0898f655b"><td class="memItemLeft"><a class="el" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a5be61ee8bfe7e6527cea00e0898f655b">item</a></td></tr>
+<tr class="memitem:a0fc78c54dfc138549859dd9df31f2028" id="r_a0fc78c54dfc138549859dd9df31f2028"><td class="memItemLeft">QPointer&lt; <a class="el" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a0fc78c54dfc138549859dd9df31f2028">item</a></td></tr>
+<tr class="memdesc:a0fc78c54dfc138549859dd9df31f2028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Guarded pointer: the source card may be destroyed while this drag item still exists.  <br /></td></tr>
 <tr class="memitem:ac4e9606d83c559850726dc95968b66a4" id="r_ac4e9606d83c559850726dc95968b66a4"><td class="memItemLeft">QPointF&#160;</td><td class="memItemRight"><a class="el" href="#ac4e9606d83c559850726dc95968b66a4">hotSpot</a></td></tr>
 <tr class="memitem:a99035cd5fa2a38ab953933311e9fab20" id="r_a99035cd5fa2a38ab953933311e9fab20"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d6/dc0/classAbstractCardDragItem.html">AbstractCardDragItem</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a99035cd5fa2a38ab953933311e9fab20">childDrags</a></td></tr>
 </table>
@@ -321,10 +322,11 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>the source card, or nullptr if it has already been destroyed. </dd></dl>
 
 </div>
 </div>
@@ -549,8 +551,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a5be61ee8bfe7e6527cea00e0898f655b" name="a5be61ee8bfe7e6527cea00e0898f655b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5be61ee8bfe7e6527cea00e0898f655b">&#9670;&#160;</a></span>item</h2>
+<a id="a0fc78c54dfc138549859dd9df31f2028" name="a0fc78c54dfc138549859dd9df31f2028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fc78c54dfc138549859dd9df31f2028">&#9670;&#160;</a></span>item</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -559,7 +561,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a>* AbstractCardDragItem::item</td>
+          <td class="memname">QPointer&lt;<a class="el" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a>&gt; AbstractCardDragItem::item</td>
         </tr>
       </table>
   </td>
@@ -568,6 +570,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Guarded pointer: the source card may be destroyed while this drag item still exists. </p>
 
 </div>
 </div>

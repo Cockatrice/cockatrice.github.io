@@ -1,5 +1,6 @@
 var group__VisualCardDatabaseWidgets =
 [
+    [ "card_database_visual_view.h", "d6/d91/card__database__visual__view_8h.html", null ],
     [ "visual_database_display_color_filter_widget.h", "da/d67/visual__database__display__color__filter__widget_8h.html", null ],
     [ "visual_database_display_filter_save_load_widget.h", "d3/da0/visual__database__display__filter__save__load__widget_8h.html", null ],
     [ "visual_database_display_main_type_filter_widget.h", "d6/db7/visual__database__display__main__type__filter__widget_8h.html", null ],

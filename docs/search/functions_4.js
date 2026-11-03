@@ -36,7 +36,7 @@ var searchData=
   ['emitpixmapupdated_33',['emitPixmapUpdated',['../df/d4e/classExactCard.html#adea1e8252a95ccfbd7554fecdb040a24',1,'ExactCard']]],
   ['emitprogress_34',['emitProgress',['../d3/d12/pages_8cpp.html#a0a82be69ef40d1ee70b04cfea3aaf905',1,'pages.cpp']]],
   ['emitrecursiveupdates_35',['emitRecursiveUpdates',['../d9/de1/classDeckListModel.html#a4a2fe2b0098a76b175b947bf5996c457',1,'DeckListModel']]],
-  ['emituserevent_36',['emitUserEvent',['../d7/db2/classGameEventHandler.html#a925d13d9268eba84d41a45f301e932ff',1,'GameEventHandler::emitUserEvent()'],['../de/d08/classTabGame.html#a9d129dac481f242d01352d3de0bb1264',1,'TabGame::emitUserEvent()']]],
+  ['emituserevent_36',['emitUserEvent',['../de/d08/classTabGame.html#a9d129dac481f242d01352d3de0bb1264',1,'TabGame::emitUserEvent()'],['../d7/db2/classGameEventHandler.html#a925d13d9268eba84d41a45f301e932ff',1,'GameEventHandler::emitUserEvent()']]],
   ['emptyactiveviews_37',['emptyActiveViews',['../db/d9f/classGameScene.html#a8f551986bb00bbc2f0b605b695183624',1,'GameScene']]],
   ['enable_38',['enable',['../db/d51/classFilterTreeNode.html#a187974ad863f4cda946a90715bab0609',1,'FilterTreeNode']]],
   ['enable_5fast_39',['enable_ast',['../da/d7b/classpeg_1_1parser.html#a49ac16263b0f402446dcb8d0e31caeb7',1,'peg::parser']]],

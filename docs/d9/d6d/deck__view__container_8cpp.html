@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,13 +123,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d9/d6d/deck__v
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d2/df1/deck__view__container_8h_source.html">deck_view_container.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">../../client/settings/cache_settings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/dfd/shortcuts__settings_8h_source.html">../../client/settings/shortcuts_settings.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d99/abstract__game_8h_source.html">../../game/abstract_game.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d54/game__event__handler_8h_source.html">../../game/game_event_handler.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d1d/game__state_8h_source.html">../../game/game_state.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d7d/card__picture__loader_8h_source.html">../../interface/card_picture_loader/card_picture_loader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d88/deck__file__format_8h_source.html">../../interface/deck_loader/deck_file_format.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/d36/deck__loader_8h_source.html">../../interface/deck_loader/deck_loader.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d25/loaded__deck_8h_source.html">../../interface/deck_loader/loaded_deck.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d46/dlg__load__deck_8h_source.html">../../interface/widgets/dialogs/dlg_load_deck.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/de3/dlg__load__deck__from__clipboard_8h_source.html">../../interface/widgets/dialogs/dlg_load_deck_from_clipboard.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d8e/dlg__load__deck__from__website_8h_source.html">../../interface/widgets/dialogs/dlg_load_deck_from_website.h</a>&quot;</code><br />
@@ -153,12 +148,12 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d9/d6d/deck__v
 <code>#include &lt;QRect&gt;</code><br />
 <code>#include &lt;QVBoxLayout&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d7/d88/deck__file__format_8h_source.html">libcockatrice/deck_list/deck_file_format.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/d25/loaded__deck_8h_source.html">libcockatrice/deck_list/loaded_deck.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d0b/playmat__resolver_8h_source.html">libcockatrice/deck_list/playmat_resolver.h</a>&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/command_deck_select.pb.h&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/command_ready_start.pb.h&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/command_set_playmat.pb.h&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/command_set_sideboard_lock.pb.h&gt;</code><br />
-<code>#include &lt;libcockatrice/protocol/pb/command_set_sideboard_plan.pb.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/d99/abstract__game_8h_source.html">libcockatrice/game/abstract_game.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/d54/game__event__handler_8h_source.html">libcockatrice/game/game_event_handler.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d9/d1d/game__state_8h_source.html">libcockatrice/game/game_state.h</a>&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/response_deck_download.pb.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d07/pending__command_8h_source.html">libcockatrice/protocol/pending_command.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d5/d46/interface__settings_8h_source.html">libcockatrice/settings/interface_settings.h</a>&gt;</code><br />

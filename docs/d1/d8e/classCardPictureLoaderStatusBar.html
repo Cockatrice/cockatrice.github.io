@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -133,7 +133,7 @@ Inheritance diagram for CardPictureLoaderStatusBar:</div>
 <div class="dynheader">
 Collaboration diagram for CardPictureLoaderStatusBar:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d33/classCardPictureLoaderStatusBar__coll__graph.svg" width="339" height="318"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d33/classCardPictureLoaderStatusBar__coll__graph.svg" width="100%" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
@@ -150,6 +150,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9eeb5e4db5e03462b59516ef076c2c8" id="r_af9eeb5e4db5e03462b59516ef076c2c8"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#af9eeb5e4db5e03462b59516ef076c2c8">CardPictureLoaderStatusBar</a> (QWidget *parent)</td></tr>
 <tr class="memdesc:af9eeb5e4db5e03462b59516ef076c2c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a status bar with progress bar and log button.  <br /></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a8cf76109325b3c5e4cc10ed548b2c96e" id="r_a8cf76109325b3c5e4cc10ed548b2c96e"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a8cf76109325b3c5e4cc10ed548b2c96e">MAX_LOG_ENTRIES</a> = 50</td></tr>
+<tr class="memitem:a96f93874755711ad4906ba393b808090" id="r_a96f93874755711ad4906ba393b808090"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a96f93874755711ad4906ba393b808090">LOG_ENTRY_LIFETIME_SECS</a> = 10</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a0cc463bf8940fd74e61b5bdaa6f4f35e" id="r_a0cc463bf8940fd74e61b5bdaa6f4f35e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0cc463bf8940fd74e61b5bdaa6f4f35e">trimLog</a> ()</td></tr>
+<tr class="memdesc:a0cc463bf8940fd74e61b5bdaa6f4f35e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evicts the oldest finished entry (or the oldest entry if none finished) until the log fits within MAX_LOG_ENTRIES.  <br /></td></tr>
+<tr class="memitem:ad9c5405d5eb52545831c595ab8f0ed14" id="r_ad9c5405d5eb52545831c595ab8f0ed14"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad9c5405d5eb52545831c595ab8f0ed14">removeLogEntry</a> (<a class="el" href="../../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html">CardPictureLoaderRequestStatusDisplayWidget</a> *entry)</td></tr>
+<tr class="memdesc:ad9c5405d5eb52545831c595ab8f0ed14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes one entry from the log, its URL index and the popup, and keeps the progress bar counters in step with the entries that remain.  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a85cd8d9c04fb3152149c9f7d260f4c37" id="r_a85cd8d9c04fb3152149c9f7d260f4c37"><td class="memItemLeft">QHBoxLayout *&#160;</td><td class="memItemRight"><a class="el" href="#a85cd8d9c04fb3152149c9f7d260f4c37">layout</a></td></tr>
@@ -160,14 +172,19 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a9e2f2b09549caf5c1b4d35a1de3e56ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Popup log showing individual request statuses.  <br /></td></tr>
 <tr class="memitem:a24af4282e57956eebcd1ae17228784e0" id="r_a24af4282e57956eebcd1ae17228784e0"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#a24af4282e57956eebcd1ae17228784e0">cleaner</a></td></tr>
 <tr class="memdesc:a24af4282e57956eebcd1ae17228784e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer for periodically cleaning old log entries.  <br /></td></tr>
+<tr class="memitem:adcf3ec9f4d650dcfc9c0e758f5dbcff5" id="r_adcf3ec9f4d650dcfc9c0e758f5dbcff5"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html">CardPictureLoaderRequestStatusDisplayWidget</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#adcf3ec9f4d650dcfc9c0e758f5dbcff5">logEntries</a></td></tr>
+<tr class="memdesc:adcf3ec9f4d650dcfc9c0e758f5dbcff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logged requests, oldest first.  <br /></td></tr>
+<tr class="memitem:ae42462f7c96413dc8b3ddc16fdb42fd8" id="r_ae42462f7c96413dc8b3ddc16fdb42fd8"><td class="memItemLeft">QMultiHash&lt; QString, <a class="el" href="../../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html">CardPictureLoaderRequestStatusDisplayWidget</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ae42462f7c96413dc8b3ddc16fdb42fd8">entriesByUrl</a></td></tr>
+<tr class="memdesc:ae42462f7c96413dc8b3ddc16fdb42fd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log entries indexed by their URL for O(1) completion lookup.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Displays the status of card image downloads in a horizontal progress bar with a log popup. </p>
 <p>Responsibilities:</p><ul>
 <li>Shows overall progress of image downloads.</li>
 <li>Maintains a log of individual requests via a popup (<a class="el" href="../../d2/dd6/classSettingsButtonWidget.html">SettingsButtonWidget</a>).</li>
-<li>Cleans up finished request entries automatically after a delay. </li>
+<li>Cleans up finished request entries automatically after a delay.</li>
 </ul>
+<p>The log is a diagnostic view, not a queue: it keeps at most MAX_LOG_ENTRIES entries and indexes them by URL, so a burst of requests stays O(1) per event instead of scanning every entry the popup holds. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af9eeb5e4db5e03462b59516ef076c2c8" name="af9eeb5e4db5e03462b59516ef076c2c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9eeb5e4db5e03462b59516ef076c2c8">&#9670;&#160;</a></span>CardPictureLoaderStatusBar()</h2>
@@ -257,7 +274,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d8e/classCardPictureLoaderStatusBar_a7eb8fc087efeef8f76297fdcdabee46d_cgraph.svg" width="100%" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d8e/classCardPictureLoaderStatusBar_a7eb8fc087efeef8f76297fdcdabee46d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -332,12 +349,92 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d8e/classCardPictureLoaderStatusBar_a2bf15cbd290bb1154061612b0d78104b_cgraph.svg" width="667" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d8e/classCardPictureLoaderStatusBar_a2bf15cbd290bb1154061612b0d78104b_cgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d8e/classCardPictureLoaderStatusBar_a2bf15cbd290bb1154061612b0d78104b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad9c5405d5eb52545831c595ab8f0ed14" name="ad9c5405d5eb52545831c595ab8f0ed14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9c5405d5eb52545831c595ab8f0ed14">&#9670;&#160;</a></span>removeLogEntry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardPictureLoaderStatusBar::removeLogEntry </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html">CardPictureLoaderRequestStatusDisplayWidget</a> *</td>          <td class="paramname"><span class="paramname"><em>entry</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes one entry from the log, its URL index and the popup, and keeps the progress bar counters in step with the entries that remain. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entry</td><td>Entry to remove </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d8e/classCardPictureLoaderStatusBar_ad9c5405d5eb52545831c595ab8f0ed14_cgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d8e/classCardPictureLoaderStatusBar_ad9c5405d5eb52545831c595ab8f0ed14_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a0cc463bf8940fd74e61b5bdaa6f4f35e" name="a0cc463bf8940fd74e61b5bdaa6f4f35e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cc463bf8940fd74e61b5bdaa6f4f35e">&#9670;&#160;</a></span>trimLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardPictureLoaderStatusBar::trimLog </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Evicts the oldest finished entry (or the oldest entry if none finished) until the log fits within MAX_LOG_ENTRIES. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d8e/classCardPictureLoaderStatusBar_a0cc463bf8940fd74e61b5bdaa6f4f35e_cgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/d8e/classCardPictureLoaderStatusBar_a0cc463bf8940fd74e61b5bdaa6f4f35e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -364,6 +461,30 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Timer for periodically cleaning old log entries. </p>
+
+</div>
+</div>
+<a id="ae42462f7c96413dc8b3ddc16fdb42fd8" name="ae42462f7c96413dc8b3ddc16fdb42fd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae42462f7c96413dc8b3ddc16fdb42fd8">&#9670;&#160;</a></span>entriesByUrl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMultiHash&lt;QString, <a class="el" href="../../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html">CardPictureLoaderRequestStatusDisplayWidget</a> *&gt; CardPictureLoaderStatusBar::entriesByUrl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Log entries indexed by their URL for O(1) completion lookup. </p>
 
 </div>
 </div>
@@ -412,6 +533,76 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Popup log showing individual request statuses. </p>
+
+</div>
+</div>
+<a id="a96f93874755711ad4906ba393b808090" name="a96f93874755711ad4906ba393b808090"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96f93874755711ad4906ba393b808090">&#9670;&#160;</a></span>LOG_ENTRY_LIFETIME_SECS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CardPictureLoaderStatusBar::LOG_ENTRY_LIFETIME_SECS = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Seconds a finished entry stays in the log before it is cleaned up. </p>
+
+</div>
+</div>
+<a id="adcf3ec9f4d650dcfc9c0e758f5dbcff5" name="adcf3ec9f4d650dcfc9c0e758f5dbcff5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf3ec9f4d650dcfc9c0e758f5dbcff5">&#9670;&#160;</a></span>logEntries</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt;<a class="el" href="../../db/dcd/classCardPictureLoaderRequestStatusDisplayWidget.html">CardPictureLoaderRequestStatusDisplayWidget</a> *&gt; CardPictureLoaderStatusBar::logEntries</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Logged requests, oldest first. </p>
+
+</div>
+</div>
+<a id="a8cf76109325b3c5e4cc10ed548b2c96e" name="a8cf76109325b3c5e4cc10ed548b2c96e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cf76109325b3c5e4cc10ed548b2c96e">&#9670;&#160;</a></span>MAX_LOG_ENTRIES</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CardPictureLoaderStatusBar::MAX_LOG_ENTRIES = 50</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Entries kept in the log; older ones are evicted as new requests arrive. </p>
 
 </div>
 </div>

@@ -25,7 +25,7 @@ var classCardFilter =
       [ "TypeOrNot", "d7/dfc/classCardFilter.html#a9399b331b33291a90e47255e8c27d562abf218bb02ae24708c8a59ba4cd958050", null ],
       [ "TypeEnd", "d7/dfc/classCardFilter.html#a9399b331b33291a90e47255e8c27d562a7f9bb11e9f2dcdf4fc4bd15e865ebccb", null ]
     ] ],
-    [ "CardFilter", "d7/dfc/classCardFilter.html#adaa107305dab9419bdb23aff9dd16b66", null ],
+    [ "CardFilter", "d7/dfc/classCardFilter.html#a893f7a29a9241e2055061522fc5b2262", null ],
     [ "attr", "d7/dfc/classCardFilter.html#a921ba4a238665e1ec6822f3846df67ff", null ],
     [ "attrName", "d7/dfc/classCardFilter.html#a7bbe958a90979b001106c988a78d3d8a", null ],
     [ "fromJson", "d7/dfc/classCardFilter.html#a50cdd943b9445afa6e5e3c443638768b", null ],

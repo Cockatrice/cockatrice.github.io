@@ -1,6 +1,8 @@
 var dir_ff2017d8d6c53a419513535e9358adeb =
 [
     [ "tree", "dir_f0cee67dbd606239bf5aae4476bbe603.html", "dir_f0cee67dbd606239bf5aae4476bbe603" ],
+    [ "deck_file_format.cpp", "da/d8f/deck__file__format_8cpp.html", null ],
+    [ "deck_file_format.h", "d7/d88/deck__file__format_8h.html", "d7/d88/deck__file__format_8h" ],
     [ "deck_list.cpp", "d3/d94/deck__list_8cpp.html", "d3/d94/deck__list_8cpp" ],
     [ "deck_list.h", "d7/d1a/deck__list_8h.html", "d7/d1a/deck__list_8h" ],
     [ "deck_list_history_manager.cpp", "d7/d31/deck__list__history__manager_8cpp.html", null ],
@@ -10,6 +12,8 @@ var dir_ff2017d8d6c53a419513535e9358adeb =
     [ "deck_list_node_tree.h", "d5/dbf/deck__list__node__tree_8h.html", "d5/dbf/deck__list__node__tree_8h" ],
     [ "deck_list_plain_text_parser.cpp", "d1/da2/deck__list__plain__text__parser_8cpp.html", "d1/da2/deck__list__plain__text__parser_8cpp" ],
     [ "deck_list_plain_text_parser.h", "db/d33/deck__list__plain__text__parser_8h.html", "db/d33/deck__list__plain__text__parser_8h" ],
+    [ "loaded_deck.cpp", "d3/d1d/loaded__deck_8cpp.html", null ],
+    [ "loaded_deck.h", "da/d25/loaded__deck_8h.html", "da/d25/loaded__deck_8h" ],
     [ "playmat_resolver.cpp", "d0/dbe/playmat__resolver_8cpp.html", "d0/dbe/playmat__resolver_8cpp" ],
     [ "playmat_resolver.h", "d9/d0b/playmat__resolver_8h.html", "d9/d0b/playmat__resolver_8h" ],
     [ "sideboard_plan.cpp", "d4/d46/sideboard__plan_8cpp.html", null ],

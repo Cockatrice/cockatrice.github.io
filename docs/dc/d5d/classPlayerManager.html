@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -147,7 +147,7 @@ Signals</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa385dd28268f4ecbbe6f99c8b0d428f7" id="r_aa385dd28268f4ecbbe6f99c8b0d428f7"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa385dd28268f4ecbbe6f99c8b0d428f7">PlayerManager</a> (<a class="el" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *_game, int _localPlayerId, bool _localPlayerIsJudge, bool localPlayerIsSpectator)</td></tr>
+<tr class="memitem:aa019d2cf508112c5a9a232678a4eb659" id="r_aa019d2cf508112c5a9a232678a4eb659"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa019d2cf508112c5a9a232678a4eb659">PlayerManager</a> (<a class="el" href="../../d3/d44/classAbstractGame.html">AbstractGame</a> *_game, int _localPlayerId, bool _localPlayerIsJudge, bool localPlayerIsSpectator, <a class="el" href="../../d5/d60/classIInterfaceSettingsProvider.html">IInterfaceSettingsProvider</a> *interfaceSettings=nullptr, <a class="el" href="../../db/df2/classICardPreferenceProvider.html">ICardPreferenceProvider</a> *cardPreferences=nullptr)</td></tr>
 <tr class="memitem:aa0a36fbae4264f4014fb159a03067836" id="r_aa0a36fbae4264f4014fb159a03067836"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa0a36fbae4264f4014fb159a03067836">isSpectator</a> () const</td></tr>
 <tr class="memitem:a06aa093534865821b7c9a5ef2088841b" id="r_a06aa093534865821b7c9a5ef2088841b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a06aa093534865821b7c9a5ef2088841b">isJudge</a> () const</td></tr>
 <tr class="memitem:a6b00167963964d83c7e2307addd31194" id="r_a6b00167963964d83c7e2307addd31194"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a6b00167963964d83c7e2307addd31194">getLocalPlayerId</a> () const</td></tr>
@@ -178,10 +178,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa65e6ea59dc5449528912d957e4548b5" id="r_aa65e6ea59dc5449528912d957e4548b5"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa65e6ea59dc5449528912d957e4548b5">localPlayerIsJudge</a></td></tr>
 <tr class="memitem:a0273512bb2d9e9cbfee076dd6c45b36e" id="r_a0273512bb2d9e9cbfee076dd6c45b36e"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0273512bb2d9e9cbfee076dd6c45b36e">localPlayerIsSpectator</a></td></tr>
 <tr class="memitem:a87f541b76205ceea44e8921211efebed" id="r_a87f541b76205ceea44e8921211efebed"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; int, <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a87f541b76205ceea44e8921211efebed">spectators</a></td></tr>
+<tr class="memitem:a084b3d5b4e10273dc24cb2aaeb63772a" id="r_a084b3d5b4e10273dc24cb2aaeb63772a"><td class="memItemLeft"><a class="el" href="../../d5/d60/classIInterfaceSettingsProvider.html">IInterfaceSettingsProvider</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a084b3d5b4e10273dc24cb2aaeb63772a">interfaceSettings</a></td></tr>
+<tr class="memitem:abd16447dd8ba82a1c47eb839f45c5c80" id="r_abd16447dd8ba82a1c47eb839f45c5c80"><td class="memItemLeft"><a class="el" href="../../db/df2/classICardPreferenceProvider.html">ICardPreferenceProvider</a> *&#160;</td><td class="memItemRight"><a class="el" href="#abd16447dd8ba82a1c47eb839f45c5c80">cardPreferences</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa385dd28268f4ecbbe6f99c8b0d428f7" name="aa385dd28268f4ecbbe6f99c8b0d428f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa385dd28268f4ecbbe6f99c8b0d428f7">&#9670;&#160;</a></span>PlayerManager()</h2>
+<a id="aa019d2cf508112c5a9a232678a4eb659" name="aa019d2cf508112c5a9a232678a4eb659"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa019d2cf508112c5a9a232678a4eb659">&#9670;&#160;</a></span>PlayerManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,14 +206,24 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>localPlayerIsSpectator</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>localPlayerIsSpectator</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d60/classIInterfaceSettingsProvider.html">IInterfaceSettingsProvider</a> *</td>          <td class="paramname"><span class="paramname"><em>interfaceSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/df2/classICardPreferenceProvider.html">ICardPreferenceProvider</a> *</td>          <td class="paramname"><span class="paramname"><em>cardPreferences</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d5d/classPlayerManager_aa385dd28268f4ecbbe6f99c8b0d428f7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d5d/classPlayerManager_aa019d2cf508112c5a9a232678a4eb659_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1106,6 +1118,20 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="abd16447dd8ba82a1c47eb839f45c5c80" name="abd16447dd8ba82a1c47eb839f45c5c80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd16447dd8ba82a1c47eb839f45c5c80">&#9670;&#160;</a></span>cardPreferences</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/df2/classICardPreferenceProvider.html">ICardPreferenceProvider</a>* PlayerManager::cardPreferences</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a426cb680a0a617abd68354d0aaf7a1ce" name="a426cb680a0a617abd68354d0aaf7a1ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a426cb680a0a617abd68354d0aaf7a1ce">&#9670;&#160;</a></span>game</h2>
 
@@ -1114,6 +1140,20 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d3/d44/classAbstractGame.html">AbstractGame</a>* PlayerManager::game</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a084b3d5b4e10273dc24cb2aaeb63772a" name="a084b3d5b4e10273dc24cb2aaeb63772a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a084b3d5b4e10273dc24cb2aaeb63772a">&#9670;&#160;</a></span>interfaceSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d60/classIInterfaceSettingsProvider.html">IInterfaceSettingsProvider</a>* PlayerManager::interfaceSettings</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1191,8 +1231,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>cockatrice/src/game/player/<a class="el" href="../../d1/df0/player__manager_8h_source.html">player_manager.h</a></li>
-<li>cockatrice/src/game/player/<a class="el" href="../../d2/d61/player__manager_8cpp.html">player_manager.cpp</a></li>
+<li>libcockatrice_game/libcockatrice/game/player/<a class="el" href="../../d1/df0/player__manager_8h_source.html">player_manager.h</a></li>
+<li>libcockatrice_game/libcockatrice/game/player/<a class="el" href="../../d2/d61/player__manager_8cpp.html">player_manager.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

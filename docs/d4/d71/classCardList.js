@@ -14,9 +14,9 @@ var classCardList =
       [ "SortByPrinting", "d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714fa3b838976ed9bf61a5d26833a18a9838b", null ]
     ] ],
     [ "CardList", "d4/d71/classCardList.html#a7677c4753000b6aa4d558385dd2021aa", null ],
-    [ "findCard", "d4/d71/classCardList.html#a618a3d05e9fc942bfa5afc101063f848", null ],
+    [ "findCard", "d4/d71/classCardList.html#ac3f8a9e40ba64de97d1bae40749c3908", null ],
     [ "getContentsKnown", "d4/d71/classCardList.html#a220784b7d0976960222cbcc1c2e98711", null ],
-    [ "getExtractorFor", "d4/d71/classCardList.html#a036e8b64cf5d346acbf59dc0e3fd896d", null ],
+    [ "getExtractorFor", "d4/d71/classCardList.html#acf4c93d9912e1ad0a71decb05eda6bd2", null ],
     [ "sortBy", "d4/d71/classCardList.html#a2cb6e2096d50e4cfe8dccdec39cb5d2e", null ],
     [ "contentsKnown", "d4/d71/classCardList.html#a7b21422f97e3fd251d28039ad9f57939", null ]
 ];

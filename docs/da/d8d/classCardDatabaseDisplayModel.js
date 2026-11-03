@@ -5,17 +5,19 @@ var classCardDatabaseDisplayModel =
       [ "ShowFalse", "da/d8d/classCardDatabaseDisplayModel.html#a1d72f9b98f0e98dc783777e1329b959aac945bef6cba13953125d38976d811101", null ],
       [ "ShowAll", "da/d8d/classCardDatabaseDisplayModel.html#a1d72f9b98f0e98dc783777e1329b959aa887bd6f98ae1b6c6929018812dad33ef", null ]
     ] ],
+    [ "Role", "da/d8d/classCardDatabaseDisplayModel.html#a8bd8e521e02f732e61ad33763435f666", [
+      [ "CardInfoRole", "da/d8d/classCardDatabaseDisplayModel.html#a8bd8e521e02f732e61ad33763435f666a53cfa729b1968f1ed3ae940b5a8cbad8", null ]
+    ] ],
     [ "CardDatabaseDisplayModel", "da/d8d/classCardDatabaseDisplayModel.html#a2a80e3f7a355244d16fc3701c30ee941", null ],
-    [ "canFetchMore", "da/d8d/classCardDatabaseDisplayModel.html#adf18975b0c6f57930937ebee89e6190c", null ],
+    [ "cardInfoAt", "da/d8d/classCardDatabaseDisplayModel.html#abd9c75a18b6c55bbc2f59b6a25a42f8b", null ],
     [ "clearFilterAll", "da/d8d/classCardDatabaseDisplayModel.html#a24512008235ce1ab58ed5933daa6a653", null ],
+    [ "data", "da/d8d/classCardDatabaseDisplayModel.html#a710fc9a080d77b4b2647e222efa4272b", null ],
     [ "dirty", "da/d8d/classCardDatabaseDisplayModel.html#aefe207ea041c1b50b7f1b93b7512f666", null ],
-    [ "fetchMore", "da/d8d/classCardDatabaseDisplayModel.html#a9ac3a67cab45451d5668e35dd0c7daf8", null ],
     [ "filterAcceptsRow", "da/d8d/classCardDatabaseDisplayModel.html#a065d523ec6c9ba098b4ca90c9416d8ad", null ],
     [ "filterTreeChanged", "da/d8d/classCardDatabaseDisplayModel.html#ace6b77ce4f24317bfa5b7adf05b08567", null ],
     [ "lessThan", "da/d8d/classCardDatabaseDisplayModel.html#ae0ced444dea1aa49fd247c8ee1ec2b65", null ],
     [ "lessThanNumerically", "da/d8d/classCardDatabaseDisplayModel.html#a9d39a44347d30bb72ae74dafbf29248c", null ],
     [ "modelDirty", "da/d8d/classCardDatabaseDisplayModel.html#a2fe264213814d4792dfd397005ce98bf", null ],
-    [ "rowCount", "da/d8d/classCardDatabaseDisplayModel.html#a002ee15fe9f7f7969f8f3485830da437", null ],
     [ "rowMatchesCardName", "da/d8d/classCardDatabaseDisplayModel.html#a1b31acc45e070d08d650e37b5690630f", null ],
     [ "sanitizeCardName", "da/d8d/classCardDatabaseDisplayModel.html#a5d5056700a4b37484600e673f0e41dae", null ],
     [ "setCardName", "da/d8d/classCardDatabaseDisplayModel.html#a045a2dbefa8a0521dacdc5c289373fb5", null ],
@@ -26,6 +28,7 @@ var classCardDatabaseDisplayModel =
     [ "setSourceModel", "da/d8d/classCardDatabaseDisplayModel.html#a1534e6b0da94e4b9e3132d42d45ec976", null ],
     [ "setStringFilter", "da/d8d/classCardDatabaseDisplayModel.html#a937ef96d9e417cb7dc1d8b81b0641457", null ],
     [ "cardColors", "da/d8d/classCardDatabaseDisplayModel.html#a14a642ada0e157c198f3357f7c89f4b8", null ],
+    [ "cardModel", "da/d8d/classCardDatabaseDisplayModel.html#a62f8f00df58ae45639fd2c2e7a9ed804", null ],
     [ "cardName", "da/d8d/classCardDatabaseDisplayModel.html#a52393b73655091dbd51c5b14a7050651", null ],
     [ "cardNameSet", "da/d8d/classCardDatabaseDisplayModel.html#a8d443fb72e0f645336ad48885214a39d", null ],
     [ "cardText", "da/d8d/classCardDatabaseDisplayModel.html#aef98c5860c6ef6a02628fc96d8e9759b", null ],
@@ -36,7 +39,6 @@ var classCardDatabaseDisplayModel =
     [ "filterString", "da/d8d/classCardDatabaseDisplayModel.html#ad4c9507976bbfbeaf11ebaff8f26087a", null ],
     [ "filterTree", "da/d8d/classCardDatabaseDisplayModel.html#a9258992611139ddadb5653dae8ce8957", null ],
     [ "isToken", "da/d8d/classCardDatabaseDisplayModel.html#a97a49696b8abdab9339d9b50d54a476d", null ],
-    [ "loadedRowCount", "da/d8d/classCardDatabaseDisplayModel.html#a33d7f1953b2ae04fe58e2f2d3391af7a", null ],
     [ "searchLanguage", "da/d8d/classCardDatabaseDisplayModel.html#a2055598e0aca7bf66b0f26ecf8007fe9", null ],
     [ "searchText", "da/d8d/classCardDatabaseDisplayModel.html#ab31b14b5a1efab99b0ae828ec71ef384", null ]
 ];

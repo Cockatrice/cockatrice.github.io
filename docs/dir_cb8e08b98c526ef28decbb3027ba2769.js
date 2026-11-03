@@ -20,6 +20,8 @@ var dir_cb8e08b98c526ef28decbb3027ba2769 =
     [ "card_info_picture_with_text_overlay_widget.h", "dc/d9a/card__info__picture__with__text__overlay__widget_8h.html", "dc/d9a/card__info__picture__with__text__overlay__widget_8h" ],
     [ "card_info_text_widget.cpp", "dd/d25/card__info__text__widget_8cpp.html", null ],
     [ "card_info_text_widget.h", "d4/ddc/card__info__text__widget_8h.html", "d4/ddc/card__info__text__widget_8h" ],
+    [ "card_picture_delegate.cpp", "de/de1/card__picture__delegate_8cpp.html", null ],
+    [ "card_picture_delegate.h", "d9/d9a/card__picture__delegate_8h.html", "d9/d9a/card__picture__delegate_8h" ],
     [ "card_size_widget.cpp", "d1/d7e/card__size__widget_8cpp.html", null ],
     [ "card_size_widget.h", "dd/da4/card__size__widget_8h.html", "dd/da4/card__size__widget_8h" ],
     [ "deck_card_zone_display_widget.cpp", "d5/d94/deck__card__zone__display__widget_8cpp.html", null ],

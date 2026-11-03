@@ -60,6 +60,7 @@ var classServer__ProtocolHandler =
     [ "lastDataReceived", "d0/d23/classServer__ProtocolHandler.html#af1c97a99c6ede555cfe45229b3a21249", null ],
     [ "messageCountOverTime", "d0/d23/classServer__ProtocolHandler.html#a3c8b7b9635b8f2de7bd44fad0b27624f", null ],
     [ "messageSizeOverTime", "d0/d23/classServer__ProtocolHandler.html#aef9c9f9a4abb93f8154fbd50fe0c7cb3", null ],
+    [ "passwordChangePending", "d0/d23/classServer__ProtocolHandler.html#a2876fef9145e615b2cd8b9f46ff2a302", null ],
     [ "rooms", "d0/d23/classServer__ProtocolHandler.html#a6cee1572707f5c78503ae1bbb301d90f", null ],
     [ "timeRunning", "d0/d23/classServer__ProtocolHandler.html#aa68678e710c7a867732f2b2851ee80be", null ],
     [ "usingRealPassword", "d0/d23/classServer__ProtocolHandler.html#aa2c7c6f6e31d334feb861e690345ef25", null ]

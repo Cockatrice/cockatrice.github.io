@@ -6,5 +6,7 @@ var dir_cc9dcb4ce747d9fbe2f2cf3b428a7df6 =
     [ "card_database_display_model.cpp", "d6/dd2/card__database__display__model_8cpp.html", null ],
     [ "card_database_display_model.h", "d8/d45/card__database__display__model_8h.html", "d8/d45/card__database__display__model_8h" ],
     [ "card_database_model.cpp", "de/d75/card__database__model_8cpp.html", "de/d75/card__database__model_8cpp" ],
-    [ "card_database_model.h", "d8/dba/card__database__model_8h.html", "d8/dba/card__database__model_8h" ]
+    [ "card_database_model.h", "d8/dba/card__database__model_8h.html", "d8/dba/card__database__model_8h" ],
+    [ "card_database_visual_display_model.cpp", "d9/d71/card__database__visual__display__model_8cpp.html", "d9/d71/card__database__visual__display__model_8cpp" ],
+    [ "card_database_visual_display_model.h", "df/d4e/card__database__visual__display__model_8h.html", "df/d4e/card__database__visual__display__model_8h" ]
 ];

@@ -1,7 +1,7 @@
 var classCardItem =
 [
     [ "CardItem", "d6/dbd/classCardItem.html#a1f44b2982636342cdfd86030da3908bc", null ],
-    [ "addAttachedCard", "d6/dbd/classCardItem.html#af9f82ceec48142484cdae5c4afb5914f", null ],
+    [ "addAttachedCard", "d6/dbd/classCardItem.html#a118c94997bd943e896a269042036fe55", null ],
     [ "animationEvent", "d6/dbd/classCardItem.html#a1bc6b427ad6c747d38d980271ecdeac9", null ],
     [ "createDragItem", "d6/dbd/classCardItem.html#ab406049a44e376361f34dec030d99b8c", null ],
     [ "deleteDragItem", "d6/dbd/classCardItem.html#a11a295fed06a249d59baacceafee7467", null ],
@@ -10,8 +10,8 @@ var classCardItem =
     [ "drawArrow", "d6/dbd/classCardItem.html#af483c435c6182813559abb5ead70b5da", null ],
     [ "drawAttachArrow", "d6/dbd/classCardItem.html#af16f26286e61733e8f42f9e14012f729", null ],
     [ "getAnnotation", "d6/dbd/classCardItem.html#a347b5152ead47befe8481db1b0058137", null ],
-    [ "getAttachedCards", "d6/dbd/classCardItem.html#a2aff5b52f46a12d278d944e2612add26", null ],
-    [ "getAttachedTo", "d6/dbd/classCardItem.html#ab86f1a9129d00fe46749dc3dcef5c184", null ],
+    [ "getAttachedCards", "d6/dbd/classCardItem.html#ae1ea06c833318d0e51e1a9a73b3415fc", null ],
+    [ "getAttachedTo", "d6/dbd/classCardItem.html#a3a56a598f40d7fb9434336b4dadb801d", null ],
     [ "getAttacking", "d6/dbd/classCardItem.html#a86892f61d4c3412f287baadab1d71e98", null ],
     [ "getCounters", "d6/dbd/classCardItem.html#ae61fa109449b2762b848f11b6035a9df", null ],
     [ "getDestroyOnZoneChange", "d6/dbd/classCardItem.html#a8d3e78ef4aebbb078af7563db61bc7d9", null ],
@@ -20,7 +20,6 @@ var classCardItem =
     [ "getGridPos", "d6/dbd/classCardItem.html#aebfa5f421e39a193dcd59d697bb1f70d", null ],
     [ "getOwner", "d6/dbd/classCardItem.html#a5327b200bf462e5d69401f6ccd2d7ef7", null ],
     [ "getPT", "d6/dbd/classCardItem.html#abcc171ca5ef4afef25bc24c562ae545d", null ],
-    [ "getState", "d6/dbd/classCardItem.html#a8e98c6cf9a950590c8284ca7e43e4a4b", null ],
     [ "getZone", "d6/dbd/classCardItem.html#a464318314d7d5484dded1d6d9de6baf9", null ],
     [ "handleClickedToPlay", "d6/dbd/classCardItem.html#a290adeb95b1bec59cad6b0f21159857b", null ],
     [ "itemChange", "d6/dbd/classCardItem.html#af92b50c95517631cddf3fcefdc3a6971", null ],
@@ -28,11 +27,10 @@ var classCardItem =
     [ "mouseMoveEvent", "d6/dbd/classCardItem.html#acb4fcedc760521deecfc097c788ff18b", null ],
     [ "mouseReleaseEvent", "d6/dbd/classCardItem.html#ae55bc29d8363d7701b2786006ab09c63", null ],
     [ "paint", "d6/dbd/classCardItem.html#a7a28ee2cd389ca36911562487a2ade50", null ],
-    [ "parsePT", "d6/dbd/classCardItem.html#a792a40630747d458e275a87f34807b58", null ],
     [ "playCard", "d6/dbd/classCardItem.html#a21d9333ccc3eaf9fd10281cc076d4c85", null ],
     [ "prepareDelete", "d6/dbd/classCardItem.html#a575b7108658ad9bc321cf18fa0f7be01", null ],
     [ "processCardInfo", "d6/dbd/classCardItem.html#a2d9c61384c103ee1bd879c269193fc17", null ],
-    [ "removeAttachedCard", "d6/dbd/classCardItem.html#a4580f14e9f633ac740ea1a5b80dd4fef", null ],
+    [ "removeAttachedCard", "d6/dbd/classCardItem.html#ae10ef392c10e97a2f1ea8566ba56583f", null ],
     [ "resetState", "d6/dbd/classCardItem.html#a823be72654ee9bacdad7fda926a79438", null ],
     [ "retranslateUi", "d6/dbd/classCardItem.html#ab0fe58848e518dcee82a948c5571fe5a", null ],
     [ "setAnnotation", "d6/dbd/classCardItem.html#a4df84a79b9eb7b350516b580c51b6cfa", null ],
@@ -46,8 +44,5 @@ var classCardItem =
     [ "setPT", "d6/dbd/classCardItem.html#ae0ce980658051236d858e6288d47567f", null ],
     [ "setZone", "d6/dbd/classCardItem.html#a062368e0061760810e20f3f8c90eb9b9", null ],
     [ "type", "d6/dbd/classCardItem.html#acbecb6f351d926d4938a0513f46e2c61", null ],
-    [ "attachedCards", "d6/dbd/classCardItem.html#a996d111c2d52e73386a4e42dc10817c0", null ],
-    [ "dragItem", "d6/dbd/classCardItem.html#afc024fe2fc9442d23eca5bdb25c68518", null ],
-    [ "gridPoint", "d6/dbd/classCardItem.html#ae4787cd9b39da6b8d7b9bb57a54814ca", null ],
-    [ "state", "d6/dbd/classCardItem.html#aed627f2ab712593501592079ee18e215", null ]
+    [ "dragItem", "d6/dbd/classCardItem.html#afc024fe2fc9442d23eca5bdb25c68518", null ]
 ];

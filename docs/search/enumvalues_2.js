@@ -10,7 +10,7 @@ var searchData=
   ['card_5fprovider_5fid_7',['CARD_PROVIDER_ID',['../d5/d1c/namespaceDeckListModelColumns.html#a1e97444989710b23b1a691c61c239969a93637a78a0ba7208f89e6b19761aab3f',1,'DeckListModelColumns']]],
   ['card_5fset_8',['CARD_SET',['../d5/d1c/namespaceDeckListModelColumns.html#a1e97444989710b23b1a691c61c239969a4f79f1f441ae7643f99e3a40819013b2',1,'DeckListModelColumns']]],
   ['carddatabase_9',['CardDatabase',['../d3/d27/classBannerHost.html#a929a7d9d513288e211ddabcd0e01fd50ad8d391aac24dd284726856709409d96f',1,'BannerHost']]],
-  ['cardinforole_10',['CardInfoRole',['../d3/da6/classCardSearchModel.html#ac4a3a9b6a794aa55ac4e235c4a236a51ab2d2aca89259b61a04a1803066c175e2',1,'CardSearchModel']]],
+  ['cardinforole_10',['CardInfoRole',['../d3/da6/classCardSearchModel.html#ac4a3a9b6a794aa55ac4e235c4a236a51ab2d2aca89259b61a04a1803066c175e2',1,'CardSearchModel::CardInfoRole'],['../da/d8d/classCardDatabaseDisplayModel.html#a8bd8e521e02f732e61ad33763435f666a53cfa729b1968f1ed3ae940b5a8cbad8',1,'CardDatabaseDisplayModel::CardInfoRole']]],
   ['cardtypecolumn_11',['CardTypeColumn',['../dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0a95e108c69140cf51c70f81df2266dfe2',1,'CardDatabaseModel']]],
   ['caselookatzone_12',['CaseLookAtZone',['../d6/d94/translation_8h.html#a9b7cf3307729d837f2a87aa86421b3d1a9ffcb3242fe0f64f0592e212ed1aea26',1,'translation.h']]],
   ['casenominative_13',['CaseNominative',['../d6/d94/translation_8h.html#a9b7cf3307729d837f2a87aa86421b3d1a9f5ccf00a0cf8433d5158e0460e032fd',1,'translation.h']]],

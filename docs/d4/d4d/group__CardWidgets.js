@@ -7,6 +7,7 @@ var group__CardWidgets =
     [ "card_info_picture_widget.h", "d8/dc1/card__info__picture__widget_8h.html", null ],
     [ "card_info_picture_with_text_overlay_widget.h", "dc/d9a/card__info__picture__with__text__overlay__widget_8h.html", null ],
     [ "card_info_text_widget.h", "d4/ddc/card__info__text__widget_8h.html", null ],
+    [ "card_picture_delegate.h", "d9/d9a/card__picture__delegate_8h.html", null ],
     [ "card_size_widget.h", "dd/da4/card__size__widget_8h.html", null ],
     [ "deck_preview_card_picture_widget.h", "d2/db8/deck__preview__card__picture__widget_8h.html", null ]
 ];

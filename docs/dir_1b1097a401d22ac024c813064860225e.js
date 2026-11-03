@@ -10,6 +10,8 @@ var dir_1b1097a401d22ac024c813064860225e =
     [ "abstract_graphics_item.h", "d5/d21/abstract__graphics__item_8h.html", "d5/d21/abstract__graphics__item_8h" ],
     [ "arrow_item.cpp", "df/d2b/arrow__item_8cpp.html", "df/d2b/arrow__item_8cpp" ],
     [ "arrow_item.h", "df/d4c/arrow__item_8h.html", "df/d4c/arrow__item_8h" ],
+    [ "arrow_registry.cpp", "d0/dd7/arrow__registry_8cpp.html", null ],
+    [ "arrow_registry.h", "dc/d96/arrow__registry_8h.html", "dc/d96/arrow__registry_8h" ],
     [ "arrow_target.cpp", "dc/d4b/arrow__target_8cpp.html", null ],
     [ "arrow_target.h", "dc/dda/arrow__target_8h.html", "dc/dda/arrow__target_8h" ],
     [ "card_drag_item.cpp", "d4/d93/card__drag__item_8cpp.html", null ],

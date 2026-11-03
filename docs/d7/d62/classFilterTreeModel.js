@@ -11,6 +11,7 @@ var classFilterTreeModel =
     [ "filterTree", "d7/d62/classFilterTreeModel.html#aa64e4e2244a9331a7fb979f9b21ec565", null ],
     [ "flags", "d7/d62/classFilterTreeModel.html#a9324e30dc4e10a01082d6a09b8bc4ed9", null ],
     [ "getFiltersOfType", "d7/d62/classFilterTreeModel.html#a40c182cd557ade0ac0df343d81157e4f", null ],
+    [ "getFilterTermsOfType", "d7/d62/classFilterTreeModel.html#a84064095b0663dc98d26e0da57423893", null ],
     [ "index", "d7/d62/classFilterTreeModel.html#a5f34e0e6fc77677fe292739ebb6c7ae3", null ],
     [ "indexToNode", "d7/d62/classFilterTreeModel.html#ab7f3271fe719cd999252c08e1583fc3b", null ],
     [ "nodeIndex", "d7/d62/classFilterTreeModel.html#a36d54b71e2c2eb7289e1ae7c902f6a76", null ],

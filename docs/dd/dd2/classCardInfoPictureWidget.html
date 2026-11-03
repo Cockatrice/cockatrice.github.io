@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -162,6 +162,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adace469451bad01b966f966366081d49" id="r_adace469451bad01b966f966366081d49"><td class="memItemLeft"><a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a>&#160;</td><td class="memItemRight"><a class="el" href="#adace469451bad01b966f966366081d49">getCard</a> ()</td></tr>
 <tr class="memitem:aade095f602086f04c24e5ee469af2003" id="r_aade095f602086f04c24e5ee469af2003"><td class="memItemLeft">QSize&#160;</td><td class="memItemRight"><a class="el" href="#aade095f602086f04c24e5ee469af2003">sizeHint</a> () const override</td></tr>
 <tr class="memdesc:aade095f602086f04c24e5ee469af2003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the recommended size for the widget based on the scale factor.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ad038de956f0da3ad74e7fb7826a16a45" id="r_ad038de956f0da3ad74e7fb7826a16a45"><td class="memItemLeft">static QSize&#160;</td><td class="memItemRight"><a class="el" href="#ad038de956f0da3ad74e7fb7826a16a45">sizeForScaleFactor</a> (int scaleFactor)</td></tr>
+<tr class="memdesc:ad038de956f0da3ad74e7fb7826a16a45"><td class="mdescLeft">&#160;</td><td class="mdescRight">The size a card picture has at <code class="param">scaleFactor</code> percent.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ab45320e61ce4bf91bc95bb5733eefaad" id="r_ab45320e61ce4bf91bc95bb5733eefaad"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#ab45320e61ce4bf91bc95bb5733eefaad">BASE_WIDTH</a> = 200</td></tr>
+<tr class="memdesc:ab45320e61ce4bf91bc95bb5733eefaad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Width of a card picture at 100 % scale, in pixels.  <br /></td></tr>
+<tr class="memitem:a94ab6f5635dee34a0391c8beaeac7cf1" id="r_a94ab6f5635dee34a0391c8beaeac7cf1"><td class="memItemLeft">static constexpr qreal&#160;</td><td class="memItemRight"><a class="el" href="#a94ab6f5635dee34a0391c8beaeac7cf1">ASPECT_RATIO</a> = 1.396</td></tr>
+<tr class="memdesc:a94ab6f5635dee34a0391c8beaeac7cf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Height / width of a card picture.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -1083,7 +1095,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfoPictureWidget_a0c8c6fcb453f4459851cb91222233cd8_cgraph.svg" width="415" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfoPictureWidget_a0c8c6fcb453f4459851cb91222233cd8_cgraph.svg" width="415" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1131,6 +1143,44 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ad038de956f0da3ad74e7fb7826a16a45" name="ad038de956f0da3ad74e7fb7826a16a45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad038de956f0da3ad74e7fb7826a16a45">&#9670;&#160;</a></span>sizeForScaleFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QSize CardInfoPictureWidget::sizeForScaleFactor </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>scaleFactor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The size a card picture has at <code class="param">scaleFactor</code> percent. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scaleFactor</td><td>Percentage of BASE_WIDTH, as set by the card size slider. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfoPictureWidget_ad038de956f0da3ad74e7fb7826a16a45_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="aade095f602086f04c24e5ee469af2003" name="aade095f602086f04c24e5ee469af2003"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aade095f602086f04c24e5ee469af2003">&#9670;&#160;</a></span>sizeHint()</h2>
 
@@ -1156,6 +1206,11 @@ Here is the caller graph for this function:</div>
 
 <p>Provides the recommended size for the widget based on the scale factor. </p>
 <dl class="section return"><dt>Returns</dt><dd>The recommended widget size. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfoPictureWidget_aade095f602086f04c24e5ee469af2003_cgraph.svg" width="394" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1217,6 +1272,54 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94ab6f5635dee34a0391c8beaeac7cf1" name="a94ab6f5635dee34a0391c8beaeac7cf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94ab6f5635dee34a0391c8beaeac7cf1">&#9670;&#160;</a></span>ASPECT_RATIO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal CardInfoPictureWidget::ASPECT_RATIO = 1.396</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Height / width of a card picture. </p>
+
+</div>
+</div>
+<a id="ab45320e61ce4bf91bc95bb5733eefaad" name="ab45320e61ce4bf91bc95bb5733eefaad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab45320e61ce4bf91bc95bb5733eefaad">&#9670;&#160;</a></span>BASE_WIDTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CardInfoPictureWidget::BASE_WIDTH = 200</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Width of a card picture at 100 % scale, in pixels. </p>
 
 </div>
 </div>

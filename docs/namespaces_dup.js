@@ -186,6 +186,7 @@ var namespaces_dup =
       [ "compute", "dd/d5d/namespaceTally.html#ad399ab77d75272e9968de8d104970a16", null ],
       [ "intToType", "dd/d5d/namespaceTally.html#a1adbe8fe3299c129dbcee73ba8c636cb", null ]
     ] ],
+    [ "test_support", "da/d2f/namespacetest__support.html", "da/d2f/namespacetest__support" ],
     [ "TranslationLoader", "dd/df1/namespaceTranslationLoader.html", [
       [ "applicationTranslationPaths", "dd/df1/namespaceTranslationLoader.html#a1f4d270321ffc5e2b8d1b0213ff9cf1c", null ],
       [ "availableLanguages", "dd/df1/namespaceTranslationLoader.html#a635049f6fd55910f302af8912c6c2b5f", null ],

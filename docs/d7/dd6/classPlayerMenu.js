@@ -18,7 +18,7 @@ var classPlayerMenu =
     [ "setShortcutsInactive", "d7/dd6/classPlayerMenu.html#ac22ae5d7443ef9a295cc47cf5b970be0", null ],
     [ "shortcutsActivated", "d7/dd6/classPlayerMenu.html#a9a00f5b64d80f42c1559a4bfe6914526", null ],
     [ "shortcutsDeactivated", "d7/dd6/classPlayerMenu.html#a5033d061ff526f5a73f20e4710754811", null ],
-    [ "updateCardMenu", "d7/dd6/classPlayerMenu.html#a81b1d0276dbe8490ddbe7a8a98f87548", null ],
+    [ "updateCardMenu", "d7/dd6/classPlayerMenu.html#a930056aa0d443b2cef490e52cdd62733", null ],
     [ "countersMenu", "d7/dd6/classPlayerMenu.html#a12a5c1d26bf617bd61f458bbed1e061c", null ],
     [ "customZonesMenu", "d7/dd6/classPlayerMenu.html#a405d1f1ca988a145566846cd6193c402", null ],
     [ "graveMenu", "d7/dd6/classPlayerMenu.html#af3ab8ea09e4eef09b391741bdd2cbcbb", null ],

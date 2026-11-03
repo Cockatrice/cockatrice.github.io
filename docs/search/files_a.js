@@ -30,12 +30,13 @@ var searchData=
   ['loading_5ffrom_5fclipboard_5ftest_2ecpp_27',['loading_from_clipboard_test.cpp',['../dd/d84/loading__from__clipboard__test_8cpp.html',1,'']]],
   ['local_5fclient_2ecpp_28',['local_client.cpp',['../d2/dcf/local__client_8cpp.html',1,'']]],
   ['local_5fclient_2eh_29',['local_client.h',['../d3/d21/local__client_8h.html',1,'']]],
-  ['local_5fserver_2ecpp_30',['local_server.cpp',['../d5/dfa/local__server_8cpp.html',1,'']]],
-  ['local_5fserver_2eh_31',['local_server.h',['../d4/de0/local__server_8h.html',1,'']]],
-  ['local_5fserver_5finterface_2ecpp_32',['local_server_interface.cpp',['../dc/ddd/local__server__interface_8cpp.html',1,'']]],
-  ['local_5fserver_5finterface_2eh_33',['local_server_interface.h',['../de/da1/local__server__interface_8h.html',1,'']]],
-  ['local_5fserver_5fname_2eh_34',['local_server_name.h',['../d6/da7/local__server__name_8h.html',1,'']]],
-  ['logger_2ecpp_35',['logger.cpp',['../d3/d30/logger_8cpp.html',1,'']]],
-  ['logger_2eh_36',['logger.h',['../d1/d8c/logger_8h.html',1,'']]],
-  ['logging_2emd_37',['logging.md',['../d7/d3c/logging_8md.html',1,'']]]
+  ['local_5fclient_5flifetime_5ftest_2ecpp_30',['local_client_lifetime_test.cpp',['../d9/d0c/local__client__lifetime__test_8cpp.html',1,'']]],
+  ['local_5fserver_2ecpp_31',['local_server.cpp',['../d5/dfa/local__server_8cpp.html',1,'']]],
+  ['local_5fserver_2eh_32',['local_server.h',['../d4/de0/local__server_8h.html',1,'']]],
+  ['local_5fserver_5finterface_2ecpp_33',['local_server_interface.cpp',['../dc/ddd/local__server__interface_8cpp.html',1,'']]],
+  ['local_5fserver_5finterface_2eh_34',['local_server_interface.h',['../de/da1/local__server__interface_8h.html',1,'']]],
+  ['local_5fserver_5fname_2eh_35',['local_server_name.h',['../d6/da7/local__server__name_8h.html',1,'']]],
+  ['logger_2ecpp_36',['logger.cpp',['../d3/d30/logger_8cpp.html',1,'']]],
+  ['logger_2eh_37',['logger.h',['../d1/d8c/logger_8h.html',1,'']]],
+  ['logging_2emd_38',['logging.md',['../d7/d3c/logging_8md.html',1,'']]]
 ];

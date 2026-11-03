@@ -18,5 +18,6 @@ var server__card__counter__test_8cpp =
     [ "TEST", "d8/d24/server__card__counter__test_8cpp.html#a0e68e172857fb568b50d9b1e5c906912", null ],
     [ "TEST", "d8/d24/server__card__counter__test_8cpp.html#a33eb1a6934683050b9fd91d86cac78b0", null ],
     [ "TEST", "d8/d24/server__card__counter__test_8cpp.html#a0263791cc14365cf699fd5986753e4b6", null ],
-    [ "TEST", "d8/d24/server__card__counter__test_8cpp.html#a5eb7062e0e6c86a994e7e8439b5b3229", null ]
+    [ "TEST", "d8/d24/server__card__counter__test_8cpp.html#a5eb7062e0e6c86a994e7e8439b5b3229", null ],
+    [ "rng", "d8/d24/server__card__counter__test_8cpp.html#ae06734e5c9e469e3675423ec86f124ef", null ]
 ];

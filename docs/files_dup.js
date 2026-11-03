@@ -5,6 +5,7 @@ var files_dup =
     [ "libcockatrice_card", "dir_a793f43f6dc6d18ba76771f9a71a4ad6.html", "dir_a793f43f6dc6d18ba76771f9a71a4ad6" ],
     [ "libcockatrice_deck_list", "dir_3af81e411179dbd2803f927cb496940d.html", "dir_3af81e411179dbd2803f927cb496940d" ],
     [ "libcockatrice_filters", "dir_0ad197c8f4f2d6e698989e8592266334.html", "dir_0ad197c8f4f2d6e698989e8592266334" ],
+    [ "libcockatrice_game", "dir_be66487602b778fa980409dec77769a4.html", "dir_be66487602b778fa980409dec77769a4" ],
     [ "libcockatrice_interfaces", "dir_1267e2a149ca7ca291544a91e99e7067.html", "dir_1267e2a149ca7ca291544a91e99e7067" ],
     [ "libcockatrice_models", "dir_20a59a59a89fdcf6a3e4c975621dc6fb.html", "dir_20a59a59a89fdcf6a3e4c975621dc6fb" ],
     [ "libcockatrice_network", "dir_f3aef765df2a7860fd35e0943a5cc08c.html", "dir_f3aef765df2a7860fd35e0943a5cc08c" ],

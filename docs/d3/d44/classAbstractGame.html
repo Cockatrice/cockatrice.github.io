@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -143,9 +143,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeacfa87607a0e05889fce655a75abf33" id="r_aeacfa87607a0e05889fce655a75abf33"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aeacfa87607a0e05889fce655a75abf33">isHost</a> () const</td></tr>
 <tr class="memitem:ad5dd70c2cea1b0525d3ba2ae1092ec2f" id="r_ad5dd70c2cea1b0525d3ba2ae1092ec2f"><td class="memItemLeft"><a class="el" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ad5dd70c2cea1b0525d3ba2ae1092ec2f">getClientForPlayer</a> (int playerId) const</td></tr>
 <tr class="memitem:ad0ed3a7346662578764fea37f9d35084" id="r_ad0ed3a7346662578764fea37f9d35084"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad0ed3a7346662578764fea37f9d35084">loadReplay</a> (const <a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a> *replay)</td></tr>
-<tr class="memitem:ac06af55013da531b38061bbf14d9e9d0" id="r_ac06af55013da531b38061bbf14d9e9d0"><td class="memItemLeft"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ac06af55013da531b38061bbf14d9e9d0">getCard</a> (int playerId, const QString &amp;zoneName, int cardId) const</td></tr>
-<tr class="memitem:af18d64442d84bfe69e907cabe713c3ff" id="r_af18d64442d84bfe69e907cabe713c3ff"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af18d64442d84bfe69e907cabe713c3ff">setActiveCard</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card)</td></tr>
-<tr class="memitem:a10d512d3b465fd4d50272aa0a54ed685" id="r_a10d512d3b465fd4d50272aa0a54ed685"><td class="memItemLeft"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a10d512d3b465fd4d50272aa0a54ed685">getActiveCard</a> () const</td></tr>
+<tr class="memitem:a7eb9be6228cd1067fe0efbf5be06c37e" id="r_a7eb9be6228cd1067fe0efbf5be06c37e"><td class="memItemLeft"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a7eb9be6228cd1067fe0efbf5be06c37e">getCard</a> (int playerId, const QString &amp;zoneName, int cardId) const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -153,7 +151,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af2993d5f4e747b093b449e5d8ae66cc8" id="r_af2993d5f4e747b093b449e5d8ae66cc8"><td class="memItemLeft"><a class="el" href="../../d3/df3/classGameState.html">GameState</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af2993d5f4e747b093b449e5d8ae66cc8">gameState</a></td></tr>
 <tr class="memitem:a868daea793dafb724056c012f3c8c0a4" id="r_a868daea793dafb724056c012f3c8c0a4"><td class="memItemLeft"><a class="el" href="../../d7/db2/classGameEventHandler.html">GameEventHandler</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a868daea793dafb724056c012f3c8c0a4">gameEventHandler</a></td></tr>
 <tr class="memitem:a531ecb92051400030e03e96f232103b5" id="r_a531ecb92051400030e03e96f232103b5"><td class="memItemLeft"><a class="el" href="../../dc/d5d/classPlayerManager.html">PlayerManager</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a531ecb92051400030e03e96f232103b5">playerManager</a></td></tr>
-<tr class="memitem:a32c0fc4f09abcd718e0ed17a02046ba3" id="r_a32c0fc4f09abcd718e0ed17a02046ba3"><td class="memItemLeft"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a32c0fc4f09abcd718e0ed17a02046ba3">activeCard</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afadb91c3d58889f91e9bc2f679768524" name="afadb91c3d58889f91e9bc2f679768524"></a>
@@ -192,44 +189,14 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a10d512d3b465fd4d50272aa0a54ed685" name="a10d512d3b465fd4d50272aa0a54ed685"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10d512d3b465fd4d50272aa0a54ed685">&#9670;&#160;</a></span>getActiveCard()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> * AbstractGame::getActiveCard </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d44/classAbstractGame_a10d512d3b465fd4d50272aa0a54ed685_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="ac06af55013da531b38061bbf14d9e9d0" name="ac06af55013da531b38061bbf14d9e9d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac06af55013da531b38061bbf14d9e9d0">&#9670;&#160;</a></span>getCard()</h2>
+<a id="a7eb9be6228cd1067fe0efbf5be06c37e" name="a7eb9be6228cd1067fe0efbf5be06c37e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eb9be6228cd1067fe0efbf5be06c37e">&#9670;&#160;</a></span>getCard()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> * AbstractGame::getCard </td>
+          <td class="memname"><a class="el" href="../../db/d1b/classCardState.html">CardState</a> * AbstractGame::getCard </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>playerId</em></span>, </td>
         </tr>
@@ -248,12 +215,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d44/classAbstractGame_ac06af55013da531b38061bbf14d9e9d0_cgraph.svg" width="646" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d44/classAbstractGame_a7eb9be6228cd1067fe0efbf5be06c37e_cgraph.svg" width="606" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d44/classAbstractGame_ac06af55013da531b38061bbf14d9e9d0_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d44/classAbstractGame_a7eb9be6228cd1067fe0efbf5be06c37e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -454,43 +421,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="af18d64442d84bfe69e907cabe713c3ff" name="af18d64442d84bfe69e907cabe713c3ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af18d64442d84bfe69e907cabe713c3ff">&#9670;&#160;</a></span>setActiveCard()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AbstractGame::setActiveCard </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d44/classAbstractGame_af18d64442d84bfe69e907cabe713c3ff_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a32c0fc4f09abcd718e0ed17a02046ba3" name="a32c0fc4f09abcd718e0ed17a02046ba3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32c0fc4f09abcd718e0ed17a02046ba3">&#9670;&#160;</a></span>activeCard</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a>* AbstractGame::activeCard</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a868daea793dafb724056c012f3c8c0a4" name="a868daea793dafb724056c012f3c8c0a4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a868daea793dafb724056c012f3c8c0a4">&#9670;&#160;</a></span>gameEventHandler</h2>
 
@@ -548,8 +479,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>cockatrice/src/game/<a class="el" href="../../da/d99/abstract__game_8h_source.html">abstract_game.h</a></li>
-<li>cockatrice/src/game/<a class="el" href="../../d3/df2/abstract__game_8cpp.html">abstract_game.cpp</a></li>
+<li>libcockatrice_game/libcockatrice/game/<a class="el" href="../../da/d99/abstract__game_8h_source.html">abstract_game.h</a></li>
+<li>libcockatrice_game/libcockatrice/game/<a class="el" href="../../d3/df2/abstract__game_8cpp.html">abstract_game.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -80,13 +80,14 @@ var searchData=
   ['token_5fdisplay_5fmodel_2eh_77',['token_display_model.h',['../d1/d35/token__display__model_8h.html',1,'']]],
   ['token_5fedit_5fmodel_2ecpp_78',['token_edit_model.cpp',['../d2/db0/token__edit__model_8cpp.html',1,'']]],
   ['token_5fedit_5fmodel_2eh_79',['token_edit_model.h',['../d6/d38/token__edit__model_8h.html',1,'']]],
-  ['translate_5fcounter_5fname_2ecpp_80',['translate_counter_name.cpp',['../dd/de9/translate__counter__name_8cpp.html',1,'']]],
-  ['translate_5fcounter_5fname_2eh_81',['translate_counter_name.h',['../de/d60/translate__counter__name_8h.html',1,'']]],
-  ['translation_2eh_82',['translation.h',['../d6/d94/translation_8h.html',1,'']]],
-  ['translation_5floader_2ecpp_83',['translation_loader.cpp',['../d3/d0f/translation__loader_8cpp.html',1,'']]],
-  ['translation_5floader_2eh_84',['translation_loader.h',['../dc/d0c/translation__loader_8h.html',1,'']]],
-  ['translation_5floader_5ftest_2ecpp_85',['translation_loader_test.cpp',['../da/de2/translation__loader__test_8cpp.html',1,'']]],
-  ['trusted_5fsources_2ecpp_86',['trusted_sources.cpp',['../dc/deb/trusted__sources_8cpp.html',1,'']]],
-  ['trusted_5fsources_2eh_87',['trusted_sources.h',['../d6/d09/trusted__sources_8h.html',1,'']]],
-  ['trusted_5fsources_5ftest_2ecpp_88',['trusted_sources_test.cpp',['../d3/df5/trusted__sources__test_8cpp.html',1,'']]]
+  ['token_5finfo_2eh_80',['token_info.h',['../d6/d40/token__info_8h.html',1,'']]],
+  ['translate_5fcounter_5fname_2ecpp_81',['translate_counter_name.cpp',['../dd/de9/translate__counter__name_8cpp.html',1,'']]],
+  ['translate_5fcounter_5fname_2eh_82',['translate_counter_name.h',['../de/d60/translate__counter__name_8h.html',1,'']]],
+  ['translation_2eh_83',['translation.h',['../d6/d94/translation_8h.html',1,'']]],
+  ['translation_5floader_2ecpp_84',['translation_loader.cpp',['../d3/d0f/translation__loader_8cpp.html',1,'']]],
+  ['translation_5floader_2eh_85',['translation_loader.h',['../dc/d0c/translation__loader_8h.html',1,'']]],
+  ['translation_5floader_5ftest_2ecpp_86',['translation_loader_test.cpp',['../da/de2/translation__loader__test_8cpp.html',1,'']]],
+  ['trusted_5fsources_2ecpp_87',['trusted_sources.cpp',['../dc/deb/trusted__sources_8cpp.html',1,'']]],
+  ['trusted_5fsources_2eh_88',['trusted_sources.h',['../d6/d09/trusted__sources_8h.html',1,'']]],
+  ['trusted_5fsources_5ftest_2ecpp_89',['trusted_sources_test.cpp',['../d3/df5/trusted__sources__test_8cpp.html',1,'']]]
 ];

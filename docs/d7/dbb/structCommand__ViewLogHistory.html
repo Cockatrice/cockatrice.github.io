@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -141,9 +141,29 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab0a797e98975deb97068510de7aaaf58" id="r_ab0a797e98975deb97068510de7aaaf58"><td class="memItemLeft">required uint32&#160;</td><td class="memItemRight"><a class="el" href="#ab0a797e98975deb97068510de7aaaf58">date_range</a> = 7</td></tr>
 <tr class="memdesc:ab0a797e98975deb97068510de7aaaf58"><td class="mdescLeft">&#160;</td><td class="mdescRight">the length of time (in minutes) to look back for  <br /></td></tr>
 <tr class="memitem:a52e9f9b7044987fd9c5b12b9f81fbb17" id="r_a52e9f9b7044987fd9c5b12b9f81fbb17"><td class="memItemLeft">optional uint32&#160;</td><td class="memItemRight"><a class="el" href="#a52e9f9b7044987fd9c5b12b9f81fbb17">maximum_results</a> = 8</td></tr>
-<tr class="memdesc:a52e9f9b7044987fd9c5b12b9f81fbb17"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum number of query results  <br /></td></tr>
+<tr class="memdesc:a52e9f9b7044987fd9c5b12b9f81fbb17"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum number of query results (page size when paginating)  <br /></td></tr>
+<tr class="memitem:a6c97395906a3b394dc44c368c005c6f2" id="r_a6c97395906a3b394dc44c368c005c6f2"><td class="memItemLeft">optional uint32&#160;</td><td class="memItemRight"><a class="el" href="#a6c97395906a3b394dc44c368c005c6f2">offset</a> = 9 [default = 0]</td></tr>
+<tr class="memdesc:a6c97395906a3b394dc44c368c005c6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">rows to skip for pagination, ORDER BY log_time DESC  <br /></td></tr>
+<tr class="memitem:a587dfb2bd9d5ab68eb6340d0d924547b" id="r_a587dfb2bd9d5ab68eb6340d0d924547b"><td class="memItemLeft">optional string&#160;</td><td class="memItemRight"><a class="el" href="#a587dfb2bd9d5ab68eb6340d0d924547b">before_time</a> = 10</td></tr>
+<tr class="memdesc:a587dfb2bd9d5ab68eb6340d0d924547b"><td class="mdescLeft">&#160;</td><td class="mdescRight">page those rows against this <span class="tt">log_time</span> snapshot (newest first page row)  <br /></td></tr>
 </table>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a587dfb2bd9d5ab68eb6340d0d924547b" name="a587dfb2bd9d5ab68eb6340d0d924547b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a587dfb2bd9d5ab68eb6340d0d924547b">&#9670;&#160;</a></span>before_time</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional string Command_ViewLogHistory::before_time = 10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>page those rows against this <span class="tt">log_time</span> snapshot (newest first page row) </p>
+
+</div>
+</div>
 <a id="ab0a797e98975deb97068510de7aaaf58" name="ab0a797e98975deb97068510de7aaaf58"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0a797e98975deb97068510de7aaaf58">&#9670;&#160;</a></span>date_range</h2>
 
@@ -237,7 +257,23 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>the maximum number of query results </p>
+<p>the maximum number of query results (page size when paginating) </p>
+
+</div>
+</div>
+<a id="a6c97395906a3b394dc44c368c005c6f2" name="a6c97395906a3b394dc44c368c005c6f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c97395906a3b394dc44c368c005c6f2">&#9670;&#160;</a></span>offset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional uint32 Command_ViewLogHistory::offset = 9 [default = 0]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>rows to skip for pagination, ORDER BY log_time DESC </p>
 
 </div>
 </div>

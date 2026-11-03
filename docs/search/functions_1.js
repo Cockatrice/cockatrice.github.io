@@ -21,7 +21,7 @@ var searchData=
   ['barchartwidget_18',['BarChartWidget',['../d4/d89/classBarChartWidget.html#aaea87e1b45a0d25fba890d58e175e4b9',1,'BarChartWidget']]],
   ['barcount_19',['barCount',['../d4/d89/classBarChartWidget.html#a6575300256386b8516bf6e13c286ceab',1,'BarChartWidget']]],
   ['barwidget_20',['BarWidget',['../db/daa/classBarWidget.html#ab54c24990268eb617e7fb5df8205d35a',1,'BarWidget']]],
-  ['batchwrite_21',['batchWrite',['../d1/dea/classSettingsManager.html#a4aff609a325fbe8051c4014d35674b61',1,'SettingsManager']]],
+  ['batchwrite_21',['batchWrite',['../d1/dea/classSettingsManager.html#a2bcbaea1f9dc265f69513547518796b1',1,'SettingsManager']]],
   ['battlefieldflashenabledchanged_22',['battlefieldFlashEnabledChanged',['../d3/dc5/classInterfaceSettings.html#a11585643b5366a320a9a87271de919c0',1,'InterfaceSettings']]],
   ['beginbulkload_23',['beginBulkLoad',['../da/d3b/classUserListWidget.html#ac75b6a26e94b892c53452da90b70b23c',1,'UserListWidget']]],
   ['begincardhover_24',['beginCardHover',['../db/d9f/classGameScene.html#a4a21a208c12b2b766bf2db751522325b',1,'GameScene']]],

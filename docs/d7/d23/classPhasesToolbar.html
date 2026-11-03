@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -140,7 +140,13 @@ Public Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:ab9b5297e9db753c9a2d68e1f6a1f94cb" id="r_ab9b5297e9db753c9a2d68e1f6a1f94cb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab9b5297e9db753c9a2d68e1f6a1f94cb">sendGameCommand</a> (const ::google::protobuf::Message &amp;command, int playerId)</td></tr>
+<tr id="signals-0" class="groupHeader"><td colspan="2"><div class="groupHeader">Intent signals</div></td></tr>
+<tr><td colspan="2" class="ititle"><div class="groupText"><p>The view reports what the user asked for; <a class="el" href="../../d7/db2/classGameEventHandler.html" title="Central dispatcher for game-wide commands and events.">GameEventHandler</a> builds the commands. </p>
+</div></td></tr>
+<tr class="memitem:afde4c6b0c7e54097a02d83b967f7c4e3" id="r_afde4c6b0c7e54097a02d83b967f7c4e3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afde4c6b0c7e54097a02d83b967f7c4e3">setActivePhaseRequested</a> (int phase)</td></tr>
+<tr class="memitem:a3d3ced87fa733835e81e7f0348da5d1e" id="r_a3d3ced87fa733835e81e7f0348da5d1e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3d3ced87fa733835e81e7f0348da5d1e">nextTurnRequested</a> ()</td></tr>
+<tr class="memitem:a9ac5ad99f878b897179ffbd9fd04d460" id="r_a9ac5ad99f878b897179ffbd9fd04d460"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9ac5ad99f878b897179ffbd9fd04d460">untapAllRequested</a> ()</td></tr>
+<tr class="memitem:ad813e4054c577a7690d73f0920d01a3d" id="r_ad813e4054c577a7690d73f0920d01a3d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad813e4054c577a7690d73f0920d01a3d">drawCardRequested</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -159,9 +165,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:ae6037e83507d0f8f8f69ef8fde95f256" id="r_ae6037e83507d0f8f8f69ef8fde95f256"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae6037e83507d0f8f8f69ef8fde95f256">phaseButtonClicked</a> ()</td></tr>
-<tr class="memitem:aae9c98b1ea749515bac55bf4801e8703" id="r_aae9c98b1ea749515bac55bf4801e8703"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aae9c98b1ea749515bac55bf4801e8703">actNextTurn</a> ()</td></tr>
-<tr class="memitem:af7e0bfac25bc3626b185249b335d0bcd" id="r_af7e0bfac25bc3626b185249b335d0bcd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af7e0bfac25bc3626b185249b335d0bcd">actUntapAll</a> ()</td></tr>
-<tr class="memitem:aa63aa3121bf6618930dcfe4e5af33e27" id="r_aa63aa3121bf6618930dcfe4e5af33e27"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa63aa3121bf6618930dcfe4e5af33e27">actDrawCard</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -214,111 +217,6 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="aa63aa3121bf6618930dcfe4e5af33e27" name="aa63aa3121bf6618930dcfe4e5af33e27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa63aa3121bf6618930dcfe4e5af33e27">&#9670;&#160;</a></span>actDrawCard</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PhasesToolbar::actDrawCard </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_aa63aa3121bf6618930dcfe4e5af33e27_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_aa63aa3121bf6618930dcfe4e5af33e27_icgraph.svg" width="480" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="aae9c98b1ea749515bac55bf4801e8703" name="aae9c98b1ea749515bac55bf4801e8703"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae9c98b1ea749515bac55bf4801e8703">&#9670;&#160;</a></span>actNextTurn</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PhasesToolbar::actNextTurn </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_aae9c98b1ea749515bac55bf4801e8703_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_aae9c98b1ea749515bac55bf4801e8703_icgraph.svg" width="475" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="af7e0bfac25bc3626b185249b335d0bcd" name="af7e0bfac25bc3626b185249b335d0bcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7e0bfac25bc3626b185249b335d0bcd">&#9670;&#160;</a></span>actUntapAll</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PhasesToolbar::actUntapAll </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_af7e0bfac25bc3626b185249b335d0bcd_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_af7e0bfac25bc3626b185249b335d0bcd_icgraph.svg" width="472" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
 <a id="afe957b93186c0975f90d908723ce81f2" name="afe957b93186c0975f90d908723ce81f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe957b93186c0975f90d908723ce81f2">&#9670;&#160;</a></span>boundingRect()</h2>
 
@@ -345,6 +243,41 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_afe957b93186c0975f90d908723ce81f2_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad813e4054c577a7690d73f0920d01a3d" name="ad813e4054c577a7690d73f0920d01a3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad813e4054c577a7690d73f0920d01a3d">&#9670;&#160;</a></span>drawCardRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhasesToolbar::drawCardRequested </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_ad813e4054c577a7690d73f0920d01a3d_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_ad813e4054c577a7690d73f0920d01a3d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -405,6 +338,36 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_a9884b764b4d71fc32f4c986d26ed69da_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a3d3ced87fa733835e81e7f0348da5d1e" name="a3d3ced87fa733835e81e7f0348da5d1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d3ced87fa733835e81e7f0348da5d1e">&#9670;&#160;</a></span>nextTurnRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhasesToolbar::nextTurnRequested </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_a3d3ced87fa733835e81e7f0348da5d1e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -478,7 +441,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_ae6037e83507d0f8f8f69ef8fde95f256_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_ae6037e83507d0f8f8f69ef8fde95f256_cgraph.svg" width="447" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -580,45 +543,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ab9b5297e9db753c9a2d68e1f6a1f94cb" name="ab9b5297e9db753c9a2d68e1f6a1f94cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9b5297e9db753c9a2d68e1f6a1f94cb">&#9670;&#160;</a></span>sendGameCommand</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PhasesToolbar::sendGameCommand </td>
-          <td>(</td>
-          <td class="paramtype">const ::google::protobuf::Message &amp;</td>          <td class="paramname"><span class="paramname"><em>command</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>playerId</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_ab9b5297e9db753c9a2d68e1f6a1f94cb_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_ab9b5297e9db753c9a2d68e1f6a1f94cb_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="ae3eca21105d21698aff677be23ef9d3e" name="ae3eca21105d21698aff677be23ef9d3e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3eca21105d21698aff677be23ef9d3e">&#9670;&#160;</a></span>setActivePhase</h2>
 
@@ -645,6 +569,36 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_ae3eca21105d21698aff677be23ef9d3e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="afde4c6b0c7e54097a02d83b967f7c4e3" name="afde4c6b0c7e54097a02d83b967f7c4e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afde4c6b0c7e54097a02d83b967f7c4e3">&#9670;&#160;</a></span>setActivePhaseRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhasesToolbar::setActivePhaseRequested </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>phase</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_afde4c6b0c7e54097a02d83b967f7c4e3_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -702,6 +656,36 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_a468fd4337d07d4f2ec2f41a64ac56750_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a9ac5ad99f878b897179ffbd9fd04d460" name="a9ac5ad99f878b897179ffbd9fd04d460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ac5ad99f878b897179ffbd9fd04d460">&#9670;&#160;</a></span>untapAllRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhasesToolbar::untapAllRequested </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d23/classPhasesToolbar_a9ac5ad99f878b897179ffbd9fd04d460_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

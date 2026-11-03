@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -139,7 +139,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a74df48209c84a03c4d08f35c67ae4fff" id="r_a74df48209c84a03c4d08f35c67ae4fff"><td class="memItemLeft">QVariant&#160;</td><td class="memItemRight"><a class="el" href="#a74df48209c84a03c4d08f35c67ae4fff">getValue</a> (const QString &amp;name) const</td></tr>
 <tr class="memitem:a2f952cd842124617e25d8489b9f9dde7" id="r_a2f952cd842124617e25d8489b9f9dde7"><td class="memItemLeft">QVariant&#160;</td><td class="memItemRight"><a class="el" href="#a2f952cd842124617e25d8489b9f9dde7">getValue</a> (const QString &amp;name, const QString &amp;group, const QString &amp;subGroup=QString()) const</td></tr>
 <tr class="memitem:a2b12bd837814098a04b7a9212159c9ec" id="r_a2b12bd837814098a04b7a9212159c9ec"><td class="memItemLeft">QVariant&#160;</td><td class="memItemRight"><a class="el" href="#a2b12bd837814098a04b7a9212159c9ec">getValue</a> (const QString &amp;name, const QString &amp;group, const QString &amp;subGroup, const QVariant &amp;defaultValue) const</td></tr>
-<tr class="memitem:a4aff609a325fbe8051c4014d35674b61" id="r_a4aff609a325fbe8051c4014d35674b61"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4aff609a325fbe8051c4014d35674b61">batchWrite</a> (std::function&lt; void(QSettings &amp;)&gt; batchWriteFunction)</td></tr>
+<tr class="memitem:a2bcbaea1f9dc265f69513547518796b1" id="r_a2bcbaea1f9dc265f69513547518796b1"><td class="memItemLeft">QSettings::Status&#160;</td><td class="memItemRight"><a class="el" href="#a2bcbaea1f9dc265f69513547518796b1">batchWrite</a> (std::function&lt; void(QSettings &amp;)&gt; batchWriteFunction)</td></tr>
+<tr class="memdesc:a2bcbaea1f9dc265f69513547518796b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs <em class="arg">batchWriteFunction</em> on a temporary QSettings and syncs once.  <br /></td></tr>
 <tr class="memitem:a3b183f2b7c0e13753e2eb64f7cb5f1f5" id="r_a3b183f2b7c0e13753e2eb64f7cb5f1f5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3b183f2b7c0e13753e2eb64f7cb5f1f5">sync</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
@@ -157,7 +158,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a9b6d9a9af58b05d08666e99da18a209e" id="r_a9b6d9a9af58b05d08666e99da18a209e"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a9b6d9a9af58b05d08666e99da18a209e">defaultSubGroup</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000284">Todo</a></b></dt><dd>Document this file. </dd></dl>
+<div class="textblock"><dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000286">Todo</a></b></dt><dd>Document this file. </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7be922bcff08d4de81a60f4882601f18" name="a7be922bcff08d4de81a60f4882601f18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7be922bcff08d4de81a60f4882601f18">&#9670;&#160;</a></span>SettingsManager()</h2>
@@ -204,29 +205,32 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a4aff609a325fbe8051c4014d35674b61" name="a4aff609a325fbe8051c4014d35674b61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4aff609a325fbe8051c4014d35674b61">&#9670;&#160;</a></span>batchWrite()</h2>
+<a id="a2bcbaea1f9dc265f69513547518796b1" name="a2bcbaea1f9dc265f69513547518796b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bcbaea1f9dc265f69513547518796b1">&#9670;&#160;</a></span>batchWrite()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void SettingsManager::batchWrite </td>
+          <td class="memname">QSettings::Status SettingsManager::batchWrite </td>
           <td>(</td>
           <td class="paramtype">std::function&lt; void(QSettings &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>batchWriteFunction</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Runs <em class="arg">batchWriteFunction</em> on a temporary QSettings and syncs once. </p>
+<dl class="section return"><dt>Returns</dt><dd>the status of the underlying file after the final sync. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/dea/classSettingsManager_a4aff609a325fbe8051c4014d35674b61_cgraph.svg" width="483" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/dea/classSettingsManager_a2bcbaea1f9dc265f69513547518796b1_cgraph.svg" width="483" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/dea/classSettingsManager_a4aff609a325fbe8051c4014d35674b61_icgraph.svg" width="650" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/dea/classSettingsManager_a2bcbaea1f9dc265f69513547518796b1_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

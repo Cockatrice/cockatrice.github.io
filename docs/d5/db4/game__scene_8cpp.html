@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -122,18 +122,10 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d5/db4/game__s
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d5/d6f/game__scene_8h_source.html">game_scene.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/db3/cache__settings_8h_source.html">../client/settings/cache_settings.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d99/abstract__game_8h_source.html">../game/abstract_game.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d96/arrow__registry_8h_source.html">../game/arrow_registry.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d85/arrow__data_8h_source.html">../game/board/arrow_data.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/db7/player__actions_8h_source.html">../game/player/player_actions.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/df5/player__event__handler_8h_source.html">../game/player/player_event_handler.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d83/player__info_8h_source.html">../game/player/player_info.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/df2/player__logic_8h_source.html">../game/player/player_logic.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dbf/card__zone__logic_8h_source.html">../game/zones/card_zone_logic.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/dd4/view__zone__logic_8h_source.html">../game/zones/view_zone_logic.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/d52/animated__item_8h_source.html">animated_item.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/d73/abstract__card__item_8h_source.html">board/abstract_card_item.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d4c/arrow__item_8h_source.html">board/arrow_item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d96/arrow__registry_8h_source.html">board/arrow_registry.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d96/card__item_8h_source.html">board/card_item.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/db1/phases__toolbar_8h_source.html">phases_toolbar.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d74/player__menu_8h_source.html">player/menu/player_menu.h</a>&quot;</code><br />
@@ -160,6 +152,15 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d5/db4/game__s
 <code>#include &lt;QSharedPointer&gt;</code><br />
 <code>#include &lt;QtMath&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/d99/abstract__game_8h_source.html">libcockatrice/game/abstract_game.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/d85/arrow__data_8h_source.html">libcockatrice/game/board/arrow_data.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d9/db7/player__actions_8h_source.html">libcockatrice/game/player/player_actions.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d8/df5/player__event__handler_8h_source.html">libcockatrice/game/player/player_event_handler.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d3/d83/player__info_8h_source.html">libcockatrice/game/player/player_info.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d3/df2/player__logic_8h_source.html">libcockatrice/game/player/player_logic.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../dd/dbf/card__zone__logic_8h_source.html">libcockatrice/game/zones/card_zone_logic.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d6/dd4/view__zone__logic_8h_source.html">libcockatrice/game/zones/view_zone_logic.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d5/d46/interface__settings_8h_source.html">libcockatrice/settings/interface_settings.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d6/d64/zone__names_8h_source.html">libcockatrice/utility/zone_names.h</a>&gt;</code><br />
 <code>#include &lt;numeric&gt;</code><br />
@@ -169,7 +170,61 @@ Include dependency graph for game_scene.cpp:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/dae/game__scene_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-</div></div><!-- contents -->
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:afdf6450d908c197041e134288e6ccf10" id="r_afdf6450d908c197041e134288e6ccf10"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#afdf6450d908c197041e134288e6ccf10">selectCardsInZone</a> (const <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *zone, std::function&lt; bool(const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *)&gt; filter=[](const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *) { return true;})</td></tr>
+<tr class="memdesc:afdf6450d908c197041e134288e6ccf10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects every card of <code class="param">zone</code> for which <code class="param">filter</code> holds.  <br /></td></tr>
+</table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="afdf6450d908c197041e134288e6ccf10" name="afdf6450d908c197041e134288e6ccf10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdf6450d908c197041e134288e6ccf10">&#9670;&#160;</a></span>selectCardsInZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void selectCardsInZone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *</td>          <td class="paramname"><span class="paramname"><em>zone</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; bool(const <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *)&gt;</td>          <td class="paramname"><span class="paramname"><em>filter</em></span><span class="paramdefsep"> = </span><span class="paramdefval">[](const&#160;<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a>&#160;*)&#160;{&#160;return&#160;true;&#160;}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Selects every card of <code class="param">zone</code> for which <code class="param">filter</code> holds. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filter</td><td>A predicate to filter which cards are selected. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/db4/game__scene_8cpp_afdf6450d908c197041e134288e6ccf10_cgraph.svg" width="154" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/db4/game__scene_8cpp_afdf6450d908c197041e134288e6ccf10_icgraph.svg" width="435" height="143"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

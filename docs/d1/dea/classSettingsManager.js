@@ -1,7 +1,7 @@
 var classSettingsManager =
 [
     [ "SettingsManager", "d1/dea/classSettingsManager.html#a7be922bcff08d4de81a60f4882601f18", null ],
-    [ "batchWrite", "d1/dea/classSettingsManager.html#a4aff609a325fbe8051c4014d35674b61", null ],
+    [ "batchWrite", "d1/dea/classSettingsManager.html#a2bcbaea1f9dc265f69513547518796b1", null ],
     [ "deleteValue", "d1/dea/classSettingsManager.html#a7ebed5e5fed714d91cde51efc8cfe00a", null ],
     [ "deleteValue", "d1/dea/classSettingsManager.html#a4473ee347016a89326ff40427a95dd86", null ],
     [ "getSettings", "d1/dea/classSettingsManager.html#a6ad3bdad901d347232e4813579a76ca1", null ],

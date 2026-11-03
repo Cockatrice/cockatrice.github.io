@@ -13,6 +13,8 @@ var classCardSizeWidget =
     [ "cardSizeSlider", "df/d47/classCardSizeWidget.html#a4468e2a33a74b9c7c6ed382872d79186", null ],
     [ "debounceTimer", "df/d47/classCardSizeWidget.html#a368c7c4c1f6f9df291bb31f860c26458", null ],
     [ "flowWidget", "df/d47/classCardSizeWidget.html#a06b4b273dabd352f215598c7103e0bc6", null ],
+    [ "MAX_CARD_SIZE", "df/d47/classCardSizeWidget.html#a27ba1eea52a7f2c1195571811d11a991", null ],
+    [ "MIN_CARD_SIZE", "df/d47/classCardSizeWidget.html#a392198a3e63fcf87aa89fd950a0c32e0", null ],
     [ "parent", "df/d47/classCardSizeWidget.html#a4cc5a0ae025c831b67905513c9de6ed3", null ],
     [ "pendingValue", "df/d47/classCardSizeWidget.html#aacdfc5b6e70c4b22970761c67943b488", null ]
 ];

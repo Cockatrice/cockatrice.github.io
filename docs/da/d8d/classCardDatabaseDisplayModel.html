@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-10-25-Release-3.1.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -130,7 +130,7 @@ Inheritance diagram for CardDatabaseDisplayModel:</div>
 <div class="dynheader">
 Collaboration diagram for CardDatabaseDisplayModel:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/dde/classCardDatabaseDisplayModel__coll__graph.svg" width="100%" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d1/dde/classCardDatabaseDisplayModel__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -138,6 +138,8 @@ Public Types</h2></td></tr>
 <tr class="memitem:a1d72f9b98f0e98dc783777e1329b959a" id="r_a1d72f9b98f0e98dc783777e1329b959a"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a1d72f9b98f0e98dc783777e1329b959a">FilterBool</a> { <a class="el" href="#a1d72f9b98f0e98dc783777e1329b959aa07e44ef6c9b2d36f8b15f49f050336ac">ShowTrue</a>
 , <a class="el" href="#a1d72f9b98f0e98dc783777e1329b959aac945bef6cba13953125d38976d811101">ShowFalse</a>
 , <a class="el" href="#a1d72f9b98f0e98dc783777e1329b959aa887bd6f98ae1b6c6929018812dad33ef">ShowAll</a>
+ }</td></tr>
+<tr class="memitem:a8bd8e521e02f732e61ad33763435f666" id="r_a8bd8e521e02f732e61ad33763435f666"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a8bd8e521e02f732e61ad33763435f666">Role</a> { <a class="el" href="#a8bd8e521e02f732e61ad33763435f666a53cfa729b1968f1ed3ae940b5a8cbad8">CardInfoRole</a> = Qt::UserRole + 1
  }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
@@ -156,9 +158,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7314924b96613ee4b7b6bd3009c3466e" id="r_a7314924b96613ee4b7b6bd3009c3466e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7314924b96613ee4b7b6bd3009c3466e">setSearchLanguage</a> (const <a class="el" href="../../da/d5f/structCardSearchLanguage.html">CardSearchLanguage</a> &amp;searchLang)</td></tr>
 <tr class="memitem:aefe207ea041c1b50b7f1b93b7512f666" id="r_aefe207ea041c1b50b7f1b93b7512f666"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aefe207ea041c1b50b7f1b93b7512f666">dirty</a> ()</td></tr>
 <tr class="memitem:a24512008235ce1ab58ed5933daa6a653" id="r_a24512008235ce1ab58ed5933daa6a653"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a24512008235ce1ab58ed5933daa6a653">clearFilterAll</a> ()</td></tr>
-<tr class="memitem:a002ee15fe9f7f7969f8f3485830da437" id="r_a002ee15fe9f7f7969f8f3485830da437"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a002ee15fe9f7f7969f8f3485830da437">rowCount</a> (const QModelIndex &amp;parent=QModelIndex()) const override</td></tr>
-<tr class="memitem:adf18975b0c6f57930937ebee89e6190c" id="r_adf18975b0c6f57930937ebee89e6190c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#adf18975b0c6f57930937ebee89e6190c">canFetchMore</a> (const QModelIndex &amp;parent) const override</td></tr>
-<tr class="memitem:a9ac3a67cab45451d5668e35dd0c7daf8" id="r_a9ac3a67cab45451d5668e35dd0c7daf8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9ac3a67cab45451d5668e35dd0c7daf8">fetchMore</a> (const QModelIndex &amp;parent) override</td></tr>
+<tr class="memitem:a710fc9a080d77b4b2647e222efa4272b" id="r_a710fc9a080d77b4b2647e222efa4272b"><td class="memItemLeft">QVariant&#160;</td><td class="memItemRight"><a class="el" href="#a710fc9a080d77b4b2647e222efa4272b">data</a> (const QModelIndex &amp;index, int role=Qt::DisplayRole) const override</td></tr>
+<tr class="memitem:abd9c75a18b6c55bbc2f59b6a25a42f8b" id="r_abd9c75a18b6c55bbc2f59b6a25a42f8b"><td class="memItemLeft"><a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a>&#160;</td><td class="memItemRight"><a class="el" href="#abd9c75a18b6c55bbc2f59b6a25a42f8b">cardInfoAt</a> (const QModelIndex &amp;index) const</td></tr>
+<tr class="memdesc:abd9c75a18b6c55bbc2f59b6a25a42f8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the card behind a proxy row, without the QVariant wrapper of CardInfoRole.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -182,7 +184,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a14a642ada0e157c198f3357f7c89f4b8" id="r_a14a642ada0e157c198f3357f7c89f4b8"><td class="memItemLeft"><a class="el" href="../../d4/dda/classQSet.html">QSet</a>&lt; QString &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a14a642ada0e157c198f3357f7c89f4b8">cardColors</a></td></tr>
 <tr class="memitem:a9258992611139ddadb5653dae8ce8957" id="r_a9258992611139ddadb5653dae8ce8957"><td class="memItemLeft"><a class="el" href="../../d8/d95/classFilterTree.html">FilterTree</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a9258992611139ddadb5653dae8ce8957">filterTree</a></td></tr>
 <tr class="memitem:ad4c9507976bbfbeaf11ebaff8f26087a" id="r_ad4c9507976bbfbeaf11ebaff8f26087a"><td class="memItemLeft"><a class="el" href="../../db/da4/classFilterString.html">FilterString</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ad4c9507976bbfbeaf11ebaff8f26087a">filterString</a></td></tr>
-<tr class="memitem:a33d7f1953b2ae04fe58e2f2d3391af7a" id="r_a33d7f1953b2ae04fe58e2f2d3391af7a"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a33d7f1953b2ae04fe58e2f2d3391af7a">loadedRowCount</a></td></tr>
+<tr class="memitem:a62f8f00df58ae45639fd2c2e7a9ed804" id="r_a62f8f00df58ae45639fd2c2e7a9ed804"><td class="memItemLeft"><a class="el" href="../../dd/d83/classCardDatabaseModel.html">CardDatabaseModel</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a62f8f00df58ae45639fd2c2e7a9ed804">cardModel</a></td></tr>
+<tr class="memdesc:a62f8f00df58ae45639fd2c2e7a9ed804"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source model, kept typed so CardInfoRole does not cast per row.  <br /></td></tr>
 <tr class="memitem:a28afea38aa397d13e513c26bf0541b1b" id="r_a28afea38aa397d13e513c26bf0541b1b"><td class="memItemLeft">QTimer&#160;</td><td class="memItemRight"><a class="el" href="#a28afea38aa397d13e513c26bf0541b1b">dirtyTimer</a></td></tr>
 <tr class="memitem:a2055598e0aca7bf66b0f26ecf8007fe9" id="r_a2055598e0aca7bf66b0f26ecf8007fe9"><td class="memItemLeft"><a class="el" href="../../da/d5f/structCardSearchLanguage.html">CardSearchLanguage</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2055598e0aca7bf66b0f26ecf8007fe9">searchLanguage</a></td></tr>
 <tr class="memitem:ab31b14b5a1efab99b0ae828ec71ef384" id="r_ab31b14b5a1efab99b0ae828ec71ef384"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ab31b14b5a1efab99b0ae828ec71ef384">searchText</a></td></tr>
@@ -208,6 +211,25 @@ Static Private Attributes</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1d72f9b98f0e98dc783777e1329b959aa07e44ef6c9b2d36f8b15f49f050336ac" name="a1d72f9b98f0e98dc783777e1329b959aa07e44ef6c9b2d36f8b15f49f050336ac"></a>ShowTrue&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1d72f9b98f0e98dc783777e1329b959aac945bef6cba13953125d38976d811101" name="a1d72f9b98f0e98dc783777e1329b959aac945bef6cba13953125d38976d811101"></a>ShowFalse&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1d72f9b98f0e98dc783777e1329b959aa887bd6f98ae1b6c6929018812dad33ef" name="a1d72f9b98f0e98dc783777e1329b959aa887bd6f98ae1b6c6929018812dad33ef"></a>ShowAll&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a8bd8e521e02f732e61ad33763435f666" name="a8bd8e521e02f732e61ad33763435f666"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bd8e521e02f732e61ad33763435f666">&#9670;&#160;</a></span>Role</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a8bd8e521e02f732e61ad33763435f666">CardDatabaseDisplayModel::Role</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8bd8e521e02f732e61ad33763435f666a53cfa729b1968f1ed3ae940b5a8cbad8" name="a8bd8e521e02f732e61ad33763435f666a53cfa729b1968f1ed3ae940b5a8cbad8"></a>CardInfoRole&#160;</td><td class="fielddoc"><p>The <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> behind a proxy row. </p>
+<p>Saves views from looking the card up again through its name, and keeps them from depending on the source model's column layout. </p>
+</td></tr>
 </table>
 
 </div>
@@ -249,8 +271,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="adf18975b0c6f57930937ebee89e6190c" name="adf18975b0c6f57930937ebee89e6190c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf18975b0c6f57930937ebee89e6190c">&#9670;&#160;</a></span>canFetchMore()</h2>
+<a id="abd9c75a18b6c55bbc2f59b6a25a42f8b" name="abd9c75a18b6c55bbc2f59b6a25a42f8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd9c75a18b6c55bbc2f59b6a25a42f8b">&#9670;&#160;</a></span>cardInfoAt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,22 +281,30 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool CardDatabaseDisplayModel::canFetchMore </td>
+          <td class="memname"><a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> CardDatabaseDisplayModel::cardInfoAt </td>
           <td>(</td>
-          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>parent</em></span></td><td>)</td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel override">override</span></span>  </td>
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns the card behind a proxy row, without the QVariant wrapper of CardInfoRole. </p>
+<p>The visual grid calls this for every row on each rebuild; CardInfoRole stays the generic way in for consumers that only see the model through <a class="el" href="#a710fc9a080d77b4b2647e222efa4272b">data()</a>. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d8d/classCardDatabaseDisplayModel_abd9c75a18b6c55bbc2f59b6a25a42f8b_cgraph.svg" width="423" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d8d/classCardDatabaseDisplayModel_adf18975b0c6f57930937ebee89e6190c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d8d/classCardDatabaseDisplayModel_abd9c75a18b6c55bbc2f59b6a25a42f8b_icgraph.svg" width="464" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -306,6 +336,40 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a710fc9a080d77b4b2647e222efa4272b" name="a710fc9a080d77b4b2647e222efa4272b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a710fc9a080d77b4b2647e222efa4272b">&#9670;&#160;</a></span>data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant CardDatabaseDisplayModel::data </td>
+          <td>(</td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>role</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Qt::DisplayRole</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel override">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d8d/classCardDatabaseDisplayModel_a710fc9a080d77b4b2647e222efa4272b_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="aefe207ea041c1b50b7f1b93b7512f666" name="aefe207ea041c1b50b7f1b93b7512f666"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aefe207ea041c1b50b7f1b93b7512f666">&#9670;&#160;</a></span>dirty()</h2>
 
@@ -332,41 +396,6 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d8d/classCardDatabaseDisplayModel_aefe207ea041c1b50b7f1b93b7512f666_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a9ac3a67cab45451d5668e35dd0c7daf8" name="a9ac3a67cab45451d5668e35dd0c7daf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ac3a67cab45451d5668e35dd0c7daf8">&#9670;&#160;</a></span>fetchMore()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CardDatabaseDisplayModel::fetchMore </td>
-          <td>(</td>
-          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>parent</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d8d/classCardDatabaseDisplayModel_a9ac3a67cab45451d5668e35dd0c7daf8_cgraph.svg" width="464" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d8d/classCardDatabaseDisplayModel_a9ac3a67cab45451d5668e35dd0c7daf8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -544,36 +573,6 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d8d/classCardDatabaseDisplayModel_a2fe264213814d4792dfd397005ce98bf_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a002ee15fe9f7f7969f8f3485830da437" name="a002ee15fe9f7f7969f8f3485830da437"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a002ee15fe9f7f7969f8f3485830da437">&#9670;&#160;</a></span>rowCount()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int CardDatabaseDisplayModel::rowCount </td>
-          <td>(</td>
-          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>parent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">QModelIndex()</span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel override">override</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d8d/classCardDatabaseDisplayModel_a002ee15fe9f7f7969f8f3485830da437_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -892,6 +891,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a62f8f00df58ae45639fd2c2e7a9ed804" name="a62f8f00df58ae45639fd2c2e7a9ed804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62f8f00df58ae45639fd2c2e7a9ed804">&#9670;&#160;</a></span>cardModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d83/classCardDatabaseModel.html">CardDatabaseModel</a>* CardDatabaseDisplayModel::cardModel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The source model, kept typed so CardInfoRole does not cast per row. </p>
+
+</div>
+</div>
 <a id="a52393b73655091dbd51c5b14a7050651" name="a52393b73655091dbd51c5b14a7050651"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a52393b73655091dbd51c5b14a7050651">&#9670;&#160;</a></span>cardName</h2>
 
@@ -1107,28 +1130,6 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="#a1d72f9b98f0e98dc783777e1329b959a">FilterBool</a> CardDatabaseDisplayModel::isToken</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a33d7f1953b2ae04fe58e2f2d3391af7a" name="a33d7f1953b2ae04fe58e2f2d3391af7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33d7f1953b2ae04fe58e2f2d3391af7a">&#9670;&#160;</a></span>loadedRowCount</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int CardDatabaseDisplayModel::loadedRowCount</td>
         </tr>
       </table>
   </td>

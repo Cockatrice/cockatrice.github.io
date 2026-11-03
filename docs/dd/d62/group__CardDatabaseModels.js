@@ -5,6 +5,7 @@ var group__CardDatabaseModels =
     [ "card_search_model.h", "da/d34/card__search__model_8h.html", null ],
     [ "card_database_display_model.h", "d8/d45/card__database__display__model_8h.html", null ],
     [ "card_database_model.h", "d8/dba/card__database__model_8h.html", null ],
+    [ "card_database_visual_display_model.h", "df/d4e/card__database__visual__display__model_8h.html", null ],
     [ "token_display_model.h", "d1/d35/token__display__model_8h.html", null ],
     [ "token_edit_model.h", "d6/d38/token__edit__model_8h.html", null ]
 ];
