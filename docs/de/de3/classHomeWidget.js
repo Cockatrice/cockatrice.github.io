@@ -25,7 +25,6 @@ var classHomeWidget =
     [ "edhrecButton", "de/de3/classHomeWidget.html#a1ea1eedc719929dec66fae005cdb94c3", null ],
     [ "exitButton", "de/de3/classHomeWidget.html#ac7b39cfc6aec82444e9031df2024bc3b", null ],
     [ "gradientColors", "de/de3/classHomeWidget.html#af0cf295e911b17c02415dddf5e042be2", null ],
-    [ "layout", "de/de3/classHomeWidget.html#a1e1496c5a15dd13a35b2f54492d5b89e", null ],
     [ "logoLabel", "de/de3/classHomeWidget.html#a05afca8ee6da38a8b7c7783b64edc7e9", null ],
     [ "replayButton", "de/de3/classHomeWidget.html#a3cbd8ad09eff1637286e6a1c37d0e537", null ],
     [ "tabSupervisor", "de/de3/classHomeWidget.html#a3f648c00591c05cd4810b6d51c2f8aad", null ],

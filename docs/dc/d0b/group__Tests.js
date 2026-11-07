@@ -2,6 +2,7 @@ var group__Tests =
 [
     [ "clamped_arithmetic_test.cpp", "da/d4a/clamped__arithmetic__test_8cpp.html", null ],
     [ "client_login_status_test.cpp", "db/d6d/client__login__status__test_8cpp.html", null ],
+    [ "deck_state_manager_test.cpp", "d1/d38/deck__state__manager__test_8cpp.html", null ],
     [ "local_client_lifetime_test.cpp", "d9/d0c/local__client__lifetime__test_8cpp.html", null ],
     [ "server_card_counter_test.cpp", "d8/d24/server__card__counter__test_8cpp.html", null ],
     [ "server_counter_test.cpp", "da/d02/server__counter__test_8cpp.html", null ],

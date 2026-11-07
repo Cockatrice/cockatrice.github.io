@@ -26,9 +26,12 @@ var searchData=
   ['properties_23',['High-Level Properties',['../df/d26/developer_reference_protocol_overview.html#high-level-properties',1,'']]],
   ['proto_20definition_24',['Reference Proto Definition',['../dc/d6c/protocol_server_message.html#reference-proto-definition',1,'']]],
   ['protocol_20–_20overview_25',['Cockatrice Server Protocol – Overview',['../df/d26/developer_reference_protocol_overview.html#cockatrice-server-protocol--overview',1,'']]],
-  ['protocol_20concept_26',['Protocol Concept',['../dd/d01/protocol_command_container.html',1,'CommandContainer (Protocol Concept)'],['../d0/d5b/protocol_game_command.html',1,'GameCommand (Protocol Concept)'],['../d3/d39/protocol_response.html',1,'Response (Protocol Concept)'],['../dc/d6c/protocol_server_message.html',1,'ServerMessage (Protocol Concept)']]],
-  ['protocol_20overview_27',['Protocol Overview',['../d8/d17/developer_reference_protocol.html',1,'Protocol (Overview)'],['../df/d26/developer_reference_protocol_overview.html',1,'Protocol (Overview)']]],
-  ['provider_20accuracy_28',['Provider Accuracy',['../d9/d7b/fixing_card_pictures.html#provider-accuracy',1,'']]],
-  ['providerids_29',['PixmapCacheKeys and ProviderIDs',['../d9/d1c/loading_card_pictures.html#pixmapcachekeys-and-providerids',1,'']]],
-  ['purpose_30',['Purpose',['../df/d26/developer_reference_protocol_overview.html#purpose',1,'Purpose'],['../d7/d64/editing_decks_printings.html#purpose-1',1,'Purpose']]]
+  ['protocol_20buffer_26',['Protocol Buffer',['../d1/d5a/contributing.html#protocol-buffer',1,'']]],
+  ['protocol_20concept_27',['Protocol Concept',['../dd/d01/protocol_command_container.html',1,'CommandContainer (Protocol Concept)'],['../d0/d5b/protocol_game_command.html',1,'GameCommand (Protocol Concept)'],['../d3/d39/protocol_response.html',1,'Response (Protocol Concept)'],['../dc/d6c/protocol_server_message.html',1,'ServerMessage (Protocol Concept)']]],
+  ['protocol_20overview_28',['Protocol Overview',['../d8/d17/developer_reference_protocol.html',1,'Protocol (Overview)'],['../df/d26/developer_reference_protocol_overview.html',1,'Protocol (Overview)']]],
+  ['provider_20accuracy_29',['Provider Accuracy',['../d9/d7b/fixing_card_pictures.html#provider-accuracy',1,'']]],
+  ['providerids_30',['PixmapCacheKeys and ProviderIDs',['../d9/d1c/loading_card_pictures.html#pixmapcachekeys-and-providerids',1,'']]],
+  ['publishing_20a_20new_20release_31',['Publishing A New Release',['../d1/d5a/contributing.html#publishing-a-new-release',1,'']]],
+  ['pull_20requests_32',['Reviewing Pull Requests',['../d1/d5a/contributing.html#reviewing-pull-requests',1,'']]],
+  ['purpose_33',['Purpose',['../df/d26/developer_reference_protocol_overview.html#purpose',1,'Purpose'],['../dc/dee/visual_database_display.html#purpose-1',1,'Purpose'],['../d7/d64/editing_decks_printings.html#purpose-2',1,'Purpose']]]
 ];

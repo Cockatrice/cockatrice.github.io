@@ -3,8 +3,9 @@ var classFilterString =
     [ "FilterString", "db/da4/classFilterString.html#a5d23a86f0acc622f046e993fa3abea9c", null ],
     [ "FilterString", "db/da4/classFilterString.html#a03db3b73e9df36979d22cf6669a0c835", null ],
     [ "check", "db/da4/classFilterString.html#a5141dd4ffca62002db131c5a1b16f3d8", null ],
-    [ "error", "db/da4/classFilterString.html#aa4b85152cbbc4e272ac50b85f6b446a9", null ],
-    [ "valid", "db/da4/classFilterString.html#af247ed5a2cca402ecd3cb529dc351917", null ],
+    [ "error", "db/da4/classFilterString.html#a8dd577cda908a696185f1e60850e8b71", null ],
+    [ "valid", "db/da4/classFilterString.html#ac71cced68388d1aed2b2086976fbea70", null ],
     [ "_error", "db/da4/classFilterString.html#a5f612af632d07bf2f3175f772255ae6a", null ],
+    [ "_errorColumn", "db/da4/classFilterString.html#a134133142273e07f5f8b7a5c7cfb71bd", null ],
     [ "result", "db/da4/classFilterString.html#a91d4a4f914420f334c230ccb8ce79870", null ]
 ];

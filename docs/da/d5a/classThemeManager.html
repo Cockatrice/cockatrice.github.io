@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -130,7 +130,7 @@ Inheritance diagram for ThemeManager:</div>
 <div class="dynheader">
 Collaboration diagram for ThemeManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d66/classThemeManager__coll__graph.svg" width="500" height="156"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d66/classThemeManager__coll__graph.svg" width="654" height="274"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
@@ -150,6 +150,7 @@ Public Types</h2></td></tr>
 Signals</h2></td></tr>
 <tr class="memitem:a6e64af50ca5000e922470470d0ca419e" id="r_a6e64af50ca5000e922470470d0ca419e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6e64af50ca5000e922470470d0ca419e">themeChanged</a> ()</td></tr>
 <tr class="memitem:a03a668150392d283b7fb688bfde503f9" id="r_a03a668150392d283b7fb688bfde503f9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a03a668150392d283b7fb688bfde503f9">paletteChanged</a> ()</td></tr>
+<tr class="memitem:a1e93dae883c7d94be3b78aa7e7044f99" id="r_a1e93dae883c7d94be3b78aa7e7044f99"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1e93dae883c7d94be3b78aa7e7044f99">fontsChanged</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -164,7 +165,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a156c82b555aece7f1de4ff79fbe6afa4" id="r_a156c82b555aece7f1de4ff79fbe6afa4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a156c82b555aece7f1de4ff79fbe6afa4">setStyleName</a> (const QString &amp;styleName)</td></tr>
 <tr class="memitem:a9efb2e281a10f959959376fb6e6fcde9" id="r_a9efb2e281a10f959959376fb6e6fcde9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9efb2e281a10f959959376fb6e6fcde9">reloadCurrentTheme</a> ()</td></tr>
 <tr class="memitem:ac85cd067b059e9987a2f807e530224c3" id="r_ac85cd067b059e9987a2f807e530224c3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac85cd067b059e9987a2f807e530224c3">previewPalette</a> (const <a class="el" href="../../d4/dd8/structPaletteConfig.html">PaletteConfig</a> &amp;cfg, const QString &amp;scheme)</td></tr>
+<tr class="memitem:a3cc2119739e50ce02d6bb9cd23fcf80e" id="r_a3cc2119739e50ce02d6bb9cd23fcf80e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3cc2119739e50ce02d6bb9cd23fcf80e">previewFonts</a> (const <a class="el" href="../../d3/d1f/structFontConfig.html">FontConfig</a> &amp;cfg)</td></tr>
 <tr class="memitem:a1b1bd71dcb65f5853be504044470735b" id="r_a1b1bd71dcb65f5853be504044470735b"><td class="memItemLeft">QColor&#160;</td><td class="memItemRight"><a class="el" href="#a1b1bd71dcb65f5853be504044470735b">appColor</a> (<a class="el" href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90">AppColor::Role</a> role) const</td></tr>
+<tr class="memitem:ae97a523d36f9de8fcab616d1b7352bae" id="r_ae97a523d36f9de8fcab616d1b7352bae"><td class="memItemLeft">QFont&#160;</td><td class="memItemRight"><a class="el" href="#ae97a523d36f9de8fcab616d1b7352bae">appFont</a> (<a class="el" href="../../d2/d21/namespaceAppFont.html#a15dd36a84984059c081e7f5c7eb4ec84">AppFont::Role</a> role) const</td></tr>
+<tr class="memdesc:ae97a523d36f9de8fcab616d1b7352bae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves an application font role: the theme's stored [Fonts] value when present, otherwise the application font. Roles that had a historical hardcoded family ask for it through <a class="el" href="#a8b604c3cd1b9115b8eead07381aa886d" title="The CardText role with its historical Serif fallback. Used by the counter painters,...">cardTextFont()</a> and <a class="el" href="#a104c70e5aec2b79300f7895afedc48d6" title="The DeckList role with its historical Serif fallback. Used by the two surfaces that hardcoded Serif b...">deckListFont()</a> instead.  <br /></td></tr>
+<tr class="memitem:a01c5c0828f005bdbc91686989925ed2f" id="r_a01c5c0828f005bdbc91686989925ed2f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a01c5c0828f005bdbc91686989925ed2f">hasAppFont</a> (<a class="el" href="../../d2/d21/namespaceAppFont.html#a15dd36a84984059c081e7f5c7eb4ec84">AppFont::Role</a> role) const</td></tr>
+<tr class="memdesc:a01c5c0828f005bdbc91686989925ed2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the active theme defines this role in fonts.toml.  <br /></td></tr>
+<tr class="memitem:a8b604c3cd1b9115b8eead07381aa886d" id="r_a8b604c3cd1b9115b8eead07381aa886d"><td class="memItemLeft">QFont&#160;</td><td class="memItemRight"><a class="el" href="#a8b604c3cd1b9115b8eead07381aa886d">cardTextFont</a> () const</td></tr>
+<tr class="memdesc:a8b604c3cd1b9115b8eead07381aa886d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CardText role with its historical Serif fallback. Used by the counter painters, which were Serif before the role existed.  <br /></td></tr>
+<tr class="memitem:a104c70e5aec2b79300f7895afedc48d6" id="r_a104c70e5aec2b79300f7895afedc48d6"><td class="memItemLeft">QFont&#160;</td><td class="memItemRight"><a class="el" href="#a104c70e5aec2b79300f7895afedc48d6">deckListFont</a> () const</td></tr>
+<tr class="memdesc:a104c70e5aec2b79300f7895afedc48d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="../../da/d68/classDeckList.html" title="Represents a complete deck, including metadata, zones, cards, and sideboard plans.">DeckList</a> role with its historical Serif fallback. Used by the two surfaces that hardcoded Serif before the role existed (the deck view zone headers and the printed deck list); every other <a class="el" href="../../da/d68/classDeckList.html" title="Represents a complete deck, including metadata, zones, cards, and sideboard plans.">DeckList</a> reader falls back to the application font.  <br /></td></tr>
+<tr class="memitem:a3dccb2f1ece4a4035faf7a5b3775efa1" id="r_a3dccb2f1ece4a4035faf7a5b3775efa1"><td class="memItemLeft">QFont&#160;</td><td class="memItemRight"><a class="el" href="#a3dccb2f1ece4a4035faf7a5b3775efa1">defaultAppFont</a> (<a class="el" href="../../d2/d21/namespaceAppFont.html#a15dd36a84984059c081e7f5c7eb4ec84">AppFont::Role</a> role) const</td></tr>
+<tr class="memdesc:a3dccb2f1ece4a4035faf7a5b3775efa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves an application font role against the startup font only, ignoring any previewed config in currentFonts. Editors that show "what this role resolves to" must use this, because <a class="el" href="#ae97a523d36f9de8fcab616d1b7352bae" title="Resolves an application font role: the theme&#39;s stored [Fonts] value when present, otherwise the appli...">appFont()</a> reflects a live preview while the editor is open.  <br /></td></tr>
 <tr class="memitem:a10579cf3a92c7d200bb1907128224b31" id="r_a10579cf3a92c7d200bb1907128224b31"><td class="memItemLeft">QBrush &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a10579cf3a92c7d200bb1907128224b31">getBgBrush</a> (<a class="el" href="#a3aa764444425be577be3cd450e79f278">Role</a> zone)</td></tr>
 <tr class="memitem:ac2da299b495bf8cdbca24e14e562c89c" id="r_ac2da299b495bf8cdbca24e14e562c89c"><td class="memItemLeft">QBrush&#160;</td><td class="memItemRight"><a class="el" href="#ac2da299b495bf8cdbca24e14e562c89c">getExtraBgBrush</a> (<a class="el" href="#a3aa764444425be577be3cd450e79f278">Role</a> zone, int zoneId=0)</td></tr>
 </table><table class="memberdecls">
@@ -177,7 +189,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a703cf9e1ed4fdad9da4fd35d50806c45" id="r_a703cf9e1ed4fdad9da4fd35d50806c45"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a703cf9e1ed4fdad9da4fd35d50806c45">saveGlobalConfig</a> (const QString &amp;themeDirPath, const <a class="el" href="../../dc/dec/structThemeConfig.html">ThemeConfig</a> &amp;cfg)</td></tr>
 <tr class="memitem:ab230f2c1f0e3406f2f76f64bc57f83b7" id="r_ab230f2c1f0e3406f2f76f64bc57f83b7"><td class="memItemLeft">static <a class="el" href="../../d4/dd8/structPaletteConfig.html">PaletteConfig</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab230f2c1f0e3406f2f76f64bc57f83b7">loadPaletteConfig</a> (const QString &amp;themeDirPath, const QString &amp;colorScheme)</td></tr>
 <tr class="memitem:ac67997fbceb570405dc1f9825071b8c9" id="r_ac67997fbceb570405dc1f9825071b8c9"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ac67997fbceb570405dc1f9825071b8c9">savePaletteConfig</a> (const QString &amp;themeDirPath, const QString &amp;colorScheme, const <a class="el" href="../../d4/dd8/structPaletteConfig.html">PaletteConfig</a> &amp;cfg)</td></tr>
+<tr class="memitem:a4d2a61045ce7d8138300fd64842486ee" id="r_a4d2a61045ce7d8138300fd64842486ee"><td class="memItemLeft">static <a class="el" href="../../d3/d1f/structFontConfig.html">FontConfig</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4d2a61045ce7d8138300fd64842486ee">loadFontConfig</a> (const QString &amp;themeDirPath)</td></tr>
+<tr class="memitem:a87a14b854131ba7d904d05635c75aff4" id="r_a87a14b854131ba7d904d05635c75aff4"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a87a14b854131ba7d904d05635c75aff4">saveFontConfig</a> (const QString &amp;themeDirPath, const <a class="el" href="../../d3/d1f/structFontConfig.html">FontConfig</a> &amp;cfg)</td></tr>
 <tr class="memitem:a60787db344e5586109329b0122579501" id="r_a60787db344e5586109329b0122579501"><td class="memItemLeft">static <a class="el" href="../../d4/dd8/structPaletteConfig.html">PaletteConfig</a>&#160;</td><td class="memItemRight"><a class="el" href="#a60787db344e5586109329b0122579501">loadDefaultPaletteConfig</a> (const QString &amp;themeDirPath, const QString &amp;themeName, const QString &amp;colorScheme)</td></tr>
+<tr class="memitem:af3beb6e050f20ebe119ecfe3e3f87afe" id="r_af3beb6e050f20ebe119ecfe3e3f87afe"><td class="memItemLeft">static <a class="el" href="../../d3/d1f/structFontConfig.html">FontConfig</a>&#160;</td><td class="memItemRight"><a class="el" href="#af3beb6e050f20ebe119ecfe3e3f87afe">loadDefaultFontConfig</a> (const QString &amp;themeDirPath, const QString &amp;themeName)</td></tr>
 <tr class="memitem:aade88444d4857dd593f37f38cff6b54f" id="r_aade88444d4857dd593f37f38cff6b54f"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#aade88444d4857dd593f37f38cff6b54f">commitPalette</a> (const QString &amp;themeDirPath, const QString &amp;colorScheme, const <a class="el" href="../../d4/dd8/structPaletteConfig.html">PaletteConfig</a> &amp;cfg)</td></tr>
 <tr class="memdesc:aade88444d4857dd593f37f38cff6b54f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes cfg to disk as the theme's palette-&lt;scheme&gt;.toml and updates the theme's stored colour scheme to match. Shared by <a class="el" href="../../d0/dc0/classPaletteEditorDialog.html#a8dfad39a87c456a6048f3d7c283f4f62">PaletteEditorDialog::onSave</a> and <a class="el" href="../../d2/dc2/classFirstRunWizard.html" title="Polished first-run onboarding flow: card database setup, theme selection, server account setup,...">FirstRunWizard</a>'s theme step so the two "generate + keep" paths can't drift.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -196,10 +211,12 @@ Protected Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a30da6d13fa5b57e3c97e0d72ae469b23" id="r_a30da6d13fa5b57e3c97e0d72ae469b23"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a30da6d13fa5b57e3c97e0d72ae469b23">defaultStyleName</a></td></tr>
 <tr class="memitem:a7d7fec18edc22dbd614f004150b38508" id="r_a7d7fec18edc22dbd614f004150b38508"><td class="memItemLeft">QPalette&#160;</td><td class="memItemRight"><a class="el" href="#a7d7fec18edc22dbd614f004150b38508">defaultPalette</a></td></tr>
+<tr class="memitem:ab345d6dab400215c94090bbea4c6ffce" id="r_ab345d6dab400215c94090bbea4c6ffce"><td class="memItemLeft">QFont&#160;</td><td class="memItemRight"><a class="el" href="#ab345d6dab400215c94090bbea4c6ffce">defaultFont</a></td></tr>
 <tr class="memitem:a6714f931ef12c07a545acbdf4c005dab" id="r_a6714f931ef12c07a545acbdf4c005dab"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a6714f931ef12c07a545acbdf4c005dab">currentThemePath</a></td></tr>
 <tr class="memitem:a626270ba2668d8bfd66ff39a95ac0b45" id="r_a626270ba2668d8bfd66ff39a95ac0b45"><td class="memItemLeft">std::array&lt; QBrush, <a class="el" href="#a3aa764444425be577be3cd450e79f278ad38174b51ab434a660b4631d4b3f0126">Role::MaxRole</a>+1 &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a626270ba2668d8bfd66ff39a95ac0b45">brushes</a></td></tr>
 <tr class="memitem:afba19265134c4254852f085c1867d6f4" id="r_afba19265134c4254852f085c1867d6f4"><td class="memItemLeft"><a class="el" href="../../d8/d65/theme__manager_8h.html#ad98373f3486924f4056f1fd941b0cbe6">QStringMap</a>&#160;</td><td class="memItemRight"><a class="el" href="#afba19265134c4254852f085c1867d6f4">availableThemes</a></td></tr>
 <tr class="memitem:a1e82e75e9cc6148e911521e2272747de" id="r_a1e82e75e9cc6148e911521e2272747de"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; <a class="el" href="../../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90">AppColor::Role</a>, QColor &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a1e82e75e9cc6148e911521e2272747de">currentAppColors</a></td></tr>
+<tr class="memitem:a78b1217cae0932b415f10d137fc90cf4" id="r_a78b1217cae0932b415f10d137fc90cf4"><td class="memItemLeft"><a class="el" href="../../d3/d1f/structFontConfig.html">FontConfig</a>&#160;</td><td class="memItemRight"><a class="el" href="#a78b1217cae0932b415f10d137fc90cf4">currentFonts</a></td></tr>
 <tr class="memitem:a52e77439e7cd77ecea28db6b92db5823" id="r_a52e77439e7cd77ecea28db6b92db5823"><td class="memItemLeft">std::array&lt; <a class="el" href="../../d8/d65/theme__manager_8h.html#a3ec4755d50eca632e317c86995acc671">QBrushMap</a>, <a class="el" href="#a3aa764444425be577be3cd450e79f278ad38174b51ab434a660b4631d4b3f0126">Role::MaxRole</a>+1 &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a52e77439e7cd77ecea28db6b92db5823">brushesCache</a></td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
@@ -268,6 +285,25 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a1b1bd71dcb65f5853be504044470735b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+
+</div>
+</div>
+<a id="ae97a523d36f9de8fcab616d1b7352bae" name="ae97a523d36f9de8fcab616d1b7352bae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae97a523d36f9de8fcab616d1b7352bae">&#9670;&#160;</a></span>appFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFont ThemeManager::appFont </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d21/namespaceAppFont.html#a15dd36a84984059c081e7f5c7eb4ec84">AppFont::Role</a></td>          <td class="paramname"><span class="paramname"><em>role</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resolves an application font role: the theme's stored [Fonts] value when present, otherwise the application font. Roles that had a historical hardcoded family ask for it through <a class="el" href="#a8b604c3cd1b9115b8eead07381aa886d" title="The CardText role with its historical Serif fallback. Used by the counter painters,...">cardTextFont()</a> and <a class="el" href="#a104c70e5aec2b79300f7895afedc48d6" title="The DeckList role with its historical Serif fallback. Used by the two surfaces that hardcoded Serif b...">deckListFont()</a> instead. </p>
 
 </div>
 </div>
@@ -347,6 +383,35 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a8b604c3cd1b9115b8eead07381aa886d" name="a8b604c3cd1b9115b8eead07381aa886d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b604c3cd1b9115b8eead07381aa886d">&#9670;&#160;</a></span>cardTextFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFont ThemeManager::cardTextFont </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The CardText role with its historical Serif fallback. Used by the counter painters, which were Serif before the role existed. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a8b604c3cd1b9115b8eead07381aa886d_cgraph.svg" width="480" height="91"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a8b604c3cd1b9115b8eead07381aa886d_icgraph.svg" width="634" height="203"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="aade88444d4857dd593f37f38cff6b54f" name="aade88444d4857dd593f37f38cff6b54f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aade88444d4857dd593f37f38cff6b54f">&#9670;&#160;</a></span>commitPalette()</h2>
 
@@ -393,6 +458,59 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a104c70e5aec2b79300f7895afedc48d6" name="a104c70e5aec2b79300f7895afedc48d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a104c70e5aec2b79300f7895afedc48d6">&#9670;&#160;</a></span>deckListFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFont ThemeManager::deckListFont </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The <a class="el" href="../../da/d68/classDeckList.html" title="Represents a complete deck, including metadata, zones, cards, and sideboard plans.">DeckList</a> role with its historical Serif fallback. Used by the two surfaces that hardcoded Serif before the role existed (the deck view zone headers and the printed deck list); every other <a class="el" href="../../da/d68/classDeckList.html" title="Represents a complete deck, including metadata, zones, cards, and sideboard plans.">DeckList</a> reader falls back to the application font. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a104c70e5aec2b79300f7895afedc48d6_cgraph.svg" width="480" height="91"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a104c70e5aec2b79300f7895afedc48d6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a3dccb2f1ece4a4035faf7a5b3775efa1" name="a3dccb2f1ece4a4035faf7a5b3775efa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dccb2f1ece4a4035faf7a5b3775efa1">&#9670;&#160;</a></span>defaultAppFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFont ThemeManager::defaultAppFont </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d21/namespaceAppFont.html#a15dd36a84984059c081e7f5c7eb4ec84">AppFont::Role</a></td>          <td class="paramname"><span class="paramname"><em>role</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resolves an application font role against the startup font only, ignoring any previewed config in currentFonts. Editors that show "what this role resolves to" must use this, because <a class="el" href="#ae97a523d36f9de8fcab616d1b7352bae" title="Resolves an application font role: the theme&#39;s stored [Fonts] value when present, otherwise the appli...">appFont()</a> reflects a live preview while the editor is open. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a3dccb2f1ece4a4035faf7a5b3775efa1_icgraph.svg" width="100%" height="465"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="ae3292849edcf5eebf2e3ebeefec4c76f" name="ae3292849edcf5eebf2e3ebeefec4c76f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3292849edcf5eebf2e3ebeefec4c76f">&#9670;&#160;</a></span>ensureThemeDirectoryExists()</h2>
 
@@ -424,6 +542,36 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_ae3292849edcf5eebf2e3ebeefec4c76f_icgraph.svg" width="512" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a1e93dae883c7d94be3b78aa7e7044f99" name="a1e93dae883c7d94be3b78aa7e7044f99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e93dae883c7d94be3b78aa7e7044f99">&#9670;&#160;</a></span>fontsChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThemeManager::fontsChanged </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a1e93dae883c7d94be3b78aa7e7044f99_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -534,6 +682,30 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_ac2da299b495bf8cdbca24e14e562c89c_icgraph.svg" width="396" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a01c5c0828f005bdbc91686989925ed2f" name="a01c5c0828f005bdbc91686989925ed2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c5c0828f005bdbc91686989925ed2f">&#9670;&#160;</a></span>hasAppFont()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ThemeManager::hasAppFont </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d21/namespaceAppFont.html#a15dd36a84984059c081e7f5c7eb4ec84">AppFont::Role</a></td>          <td class="paramname"><span class="paramname"><em>role</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether the active theme defines this role in fonts.toml. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a01c5c0828f005bdbc91686989925ed2f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -669,6 +841,45 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af3beb6e050f20ebe119ecfe3e3f87afe" name="af3beb6e050f20ebe119ecfe3e3f87afe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3beb6e050f20ebe119ecfe3e3f87afe">&#9670;&#160;</a></span>loadDefaultFontConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d1f/structFontConfig.html">FontConfig</a> ThemeManager::loadDefaultFontConfig </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>themeDirPath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>themeName</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_af3beb6e050f20ebe119ecfe3e3f87afe_cgraph.svg" width="666" height="192"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_af3beb6e050f20ebe119ecfe3e3f87afe_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a60787db344e5586109329b0122579501" name="a60787db344e5586109329b0122579501"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60787db344e5586109329b0122579501">&#9670;&#160;</a></span>loadDefaultPaletteConfig()</h2>
 
@@ -748,6 +959,36 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a7c1de1f5a5a91e22b2ef5e19be0a592f_icgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a4d2a61045ce7d8138300fd64842486ee" name="a4d2a61045ce7d8138300fd64842486ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d2a61045ce7d8138300fd64842486ee">&#9670;&#160;</a></span>loadFontConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d1f/structFontConfig.html">FontConfig</a> ThemeManager::loadFontConfig </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>themeDirPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a4d2a61045ce7d8138300fd64842486ee_cgraph.svg" width="100%" height="368"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -885,6 +1126,33 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a3cc2119739e50ce02d6bb9cd23fcf80e" name="a3cc2119739e50ce02d6bb9cd23fcf80e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cc2119739e50ce02d6bb9cd23fcf80e">&#9670;&#160;</a></span>previewFonts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThemeManager::previewFonts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/d1f/structFontConfig.html">FontConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cfg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a3cc2119739e50ce02d6bb9cd23fcf80e_cgraph.svg" width="499" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a3cc2119739e50ce02d6bb9cd23fcf80e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="ac85cd067b059e9987a2f807e530224c3" name="ac85cd067b059e9987a2f807e530224c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac85cd067b059e9987a2f807e530224c3">&#9670;&#160;</a></span>previewPalette()</h2>
 
@@ -939,6 +1207,45 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a9efb2e281a10f959959376fb6e6fcde9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a87a14b854131ba7d904d05635c75aff4" name="a87a14b854131ba7d904d05635c75aff4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87a14b854131ba7d904d05635c75aff4">&#9670;&#160;</a></span>saveFontConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ThemeManager::saveFontConfig </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>themeDirPath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d3/d1f/structFontConfig.html">FontConfig</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cfg</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a87a14b854131ba7d904d05635c75aff4_cgraph.svg" width="448" height="91"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d5a/classThemeManager_a87a14b854131ba7d904d05635c75aff4_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1291,6 +1598,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a78b1217cae0932b415f10d137fc90cf4" name="a78b1217cae0932b415f10d137fc90cf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78b1217cae0932b415f10d137fc90cf4">&#9670;&#160;</a></span>currentFonts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d1f/structFontConfig.html">FontConfig</a> ThemeManager::currentFonts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6714f931ef12c07a545acbdf4c005dab" name="a6714f931ef12c07a545acbdf4c005dab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6714f931ef12c07a545acbdf4c005dab">&#9670;&#160;</a></span>currentThemePath</h2>
 
@@ -1302,6 +1631,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QString ThemeManager::currentThemePath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab345d6dab400215c94090bbea4c6ffce" name="ab345d6dab400215c94090bbea4c6ffce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab345d6dab400215c94090bbea4c6ffce">&#9670;&#160;</a></span>defaultFont</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFont ThemeManager::defaultFont</td>
         </tr>
       </table>
   </td>

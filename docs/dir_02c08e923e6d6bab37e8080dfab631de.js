@@ -2,6 +2,8 @@ var dir_02c08e923e6d6bab37e8080dfab631de =
 [
     [ "color_button.cpp", "d6/d83/color__button_8cpp.html", null ],
     [ "color_button.h", "d2/da6/color__button_8h.html", "d2/da6/color__button_8h" ],
+    [ "font_grid_widget.cpp", "d6/d98/font__grid__widget_8cpp.html", "d6/d98/font__grid__widget_8cpp" ],
+    [ "font_grid_widget.h", "d2/d08/font__grid__widget_8h.html", "d2/d08/font__grid__widget_8h" ],
     [ "palette_editor_dialog.cpp", "db/d73/palette__editor__dialog_8cpp.html", null ],
     [ "palette_editor_dialog.h", "d5/d53/palette__editor__dialog_8h.html", "d5/d53/palette__editor__dialog_8h" ],
     [ "palette_generator.cpp", "d7/dce/palette__generator_8cpp.html", "d7/dce/palette__generator_8cpp" ],

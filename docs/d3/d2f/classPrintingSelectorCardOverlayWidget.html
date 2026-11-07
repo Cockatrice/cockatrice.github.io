@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -169,7 +169,7 @@ Private Slots</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ae29fe05676b306379068943f2d1880fe" id="r_ae29fe05676b306379068943f2d1880fe"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae29fe05676b306379068943f2d1880fe">initializePinBadge</a> ()</td></tr>
-<tr class="memdesc:ae29fe05676b306379068943f2d1880fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the pin badge overlay and loads its icon with DPI-aware rasterization.  <br /></td></tr>
+<tr class="memdesc:ae29fe05676b306379068943f2d1880fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the pin badge overlay and loads a DPI-aware icon pixmap.  <br /></td></tr>
 <tr class="memitem:aa31fc6200ee6ea51b6f8b58de4418a10" id="r_aa31fc6200ee6ea51b6f8b58de4418a10"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa31fc6200ee6ea51b6f8b58de4418a10">loadCustomImage</a> ()</td></tr>
 <tr class="memdesc:aa31fc6200ee6ea51b6f8b58de4418a10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asks for an image file and installs it as the card's custom art.  <br /></td></tr>
 <tr class="memitem:a1c363696f4c33d6e9796b0ab47129ae6" id="r_a1c363696f4c33d6e9796b0ab47129ae6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1c363696f4c33d6e9796b0ab47129ae6">showPreviewForAction</a> (QAction *action)</td></tr>
@@ -438,8 +438,13 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Initializes the pin badge overlay and loads its icon with DPI-aware rasterization. </p>
-<p>The icon is rasterized once using the label's device pixel ratio so it stays crisp on HiDPI displays. The resulting pixmap is cached on the QLabel and simply shown/hidden when needed. If the SVG cannot be read, a textual fallback badge is created instead. </p>
+<p>Initializes the pin badge overlay and loads a DPI-aware icon pixmap. </p>
+<p>The glyph is drawn onto a rounded palette backdrop so the badge stays readable on card art, and it is rasterized at the label's device pixel ratio so it stays crisp on HiDPI displays. It is re-rendered when the palette or theme changes so the badge follows the surrounding UI instead of freezing at its first colors. If the SVG cannot be read, a textual fallback badge is created instead. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d2f/classPrintingSelectorCardOverlayWidget_ae29fe05676b306379068943f2d1880fe_cgraph.svg" width="632" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

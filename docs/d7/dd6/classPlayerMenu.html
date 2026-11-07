@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -156,8 +156,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa179e8ad3f740c6fba49ae2ceb3775b1" id="r_aa179e8ad3f740c6fba49ae2ceb3775b1"><td class="memItemLeft"><a class="el" href="../../d9/d65/classLibraryMenu.html">LibraryMenu</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aa179e8ad3f740c6fba49ae2ceb3775b1">getLibraryMenu</a> () const</td></tr>
 <tr class="memitem:af8f6fc072657a0a71081f2c69824fdb6" id="r_af8f6fc072657a0a71081f2c69824fdb6"><td class="memItemLeft"><a class="el" href="../../da/d1c/classUtilityMenu.html">UtilityMenu</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af8f6fc072657a0a71081f2c69824fdb6">getUtilityMenu</a> () const</td></tr>
 <tr class="memitem:acf6c0f7f3c3bb0e57b7f395745533f1e" id="r_acf6c0f7f3c3bb0e57b7f395745533f1e"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#acf6c0f7f3c3bb0e57b7f395745533f1e">getShortcutsActive</a> () const</td></tr>
+<tr class="memdesc:acf6c0f7f3c3bb0e57b7f395745533f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this player currently holds its shortcuts and the game has started.  <br /></td></tr>
 <tr class="memitem:ac472e5847bc5102a867bedbab1f5544b" id="r_ac472e5847bc5102a867bedbab1f5544b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac472e5847bc5102a867bedbab1f5544b">setShortcutsActive</a> ()</td></tr>
-<tr class="memdesc:ac472e5847bc5102a867bedbab1f5544b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind keyboard shortcuts. Called when this player gains focus.  <br /></td></tr>
+<tr class="memdesc:ac472e5847bc5102a867bedbab1f5544b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind keyboard shortcuts. Only the roll-die shortcut is bound before the game starts.  <br /></td></tr>
 <tr class="memitem:ac22ae5d7443ef9a295cc47cf5b970be0" id="r_ac22ae5d7443ef9a295cc47cf5b970be0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac22ae5d7443ef9a295cc47cf5b970be0">setShortcutsInactive</a> ()</td></tr>
 <tr class="memdesc:ac22ae5d7443ef9a295cc47cf5b970be0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unbind keyboard shortcuts. Called when this player loses focus.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -167,6 +168,10 @@ Private Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a50d904b4c480a925b0bfb4771b5ec5d6" id="r_a50d904b4c480a925b0bfb4771b5ec5d6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a50d904b4c480a925b0bfb4771b5ec5d6">isGameStarted</a> () const</td></tr>
+<tr class="memdesc:a50d904b4c480a925b0bfb4771b5ec5d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">True once the game has started; false while players are still in the deck-selection lobby.  <br /></td></tr>
+<tr class="memitem:a8039e86bdbacf36b100638c8edd7b571" id="r_a8039e86bdbacf36b100638c8edd7b571"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8039e86bdbacf36b100638c8edd7b571">applyLobbyShortcuts</a> ()</td></tr>
+<tr class="memdesc:a8039e86bdbacf36b100638c8edd7b571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unbinds everything except the shortcuts that remain usable before the game starts.  <br /></td></tr>
 <tr class="memitem:a88d6feb2f2201e9d95ce4365d34a393d" id="r_a88d6feb2f2201e9d95ce4365d34a393d"><td class="memTemplParams" colspan="2">template&lt;typename MenuT, typename... Args&gt; </td></tr>
 <tr class="memitem:a88d6feb2f2201e9d95ce4365d34a393d template"><td class="memItemLeft">MenuT *&#160;</td><td class="memItemRight"><a class="el" href="#a88d6feb2f2201e9d95ce4365d34a393d">addManagedMenu</a> (Args &amp;&amp;...args)</td></tr>
 <tr class="memdesc:a88d6feb2f2201e9d95ce4365d34a393d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates component, adds it as a submenu of playerMenu, and registers in managedComponents.  <br /></td></tr>
@@ -259,6 +264,43 @@ template&lt;typename MenuT, typename... Args&gt; </div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dd6/classPlayerMenu_a88d6feb2f2201e9d95ce4365d34a393d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8039e86bdbacf36b100638c8edd7b571" name="a8039e86bdbacf36b100638c8edd7b571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8039e86bdbacf36b100638c8edd7b571">&#9670;&#160;</a></span>applyLobbyShortcuts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerMenu::applyLobbyShortcuts </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Unbinds everything except the shortcuts that remain usable before the game starts. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dd6/classPlayerMenu_a8039e86bdbacf36b100638c8edd7b571_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dd6/classPlayerMenu_a8039e86bdbacf36b100638c8edd7b571_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -459,6 +501,13 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Whether this player currently holds its shortcuts and the game has started. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dd6/classPlayerMenu_acf6c0f7f3c3bb0e57b7f395745533f1e_cgraph.svg" width="100%" height="458"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -492,6 +541,43 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a50d904b4c480a925b0bfb4771b5ec5d6" name="a50d904b4c480a925b0bfb4771b5ec5d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50d904b4c480a925b0bfb4771b5ec5d6">&#9670;&#160;</a></span>isGameStarted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PlayerMenu::isGameStarted </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True once the game has started; false while players are still in the deck-selection lobby. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dd6/classPlayerMenu_a50d904b4c480a925b0bfb4771b5ec5d6_cgraph.svg" width="503" height="211"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dd6/classPlayerMenu_a50d904b4c480a925b0bfb4771b5ec5d6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a49d8fac881ee3ef4e3fbaac6e05ef690" name="a49d8fac881ee3ef4e3fbaac6e05ef690"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a49d8fac881ee3ef4e3fbaac6e05ef690">&#9670;&#160;</a></span>refreshShortcuts</h2>
 
@@ -517,7 +603,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dd6/classPlayerMenu_a49d8fac881ee3ef4e3fbaac6e05ef690_cgraph.svg" width="100%" height="561"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dd6/classPlayerMenu_a49d8fac881ee3ef4e3fbaac6e05ef690_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -641,11 +727,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Bind keyboard shortcuts. Called when this player gains focus. </p>
+<p>Bind keyboard shortcuts. Only the roll-die shortcut is bound before the game starts. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dd6/classPlayerMenu_ac472e5847bc5102a867bedbab1f5544b_cgraph.svg" width="475" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dd6/classPlayerMenu_ac472e5847bc5102a867bedbab1f5544b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>

@@ -9,6 +9,7 @@ var structGameConfig =
     [ "onlyRegistered", "dc/d61/structGameConfig.html#a52713f81260af68be9b7f31115b97f43", null ],
     [ "password", "dc/d61/structGameConfig.html#a8a579ac900478f0be69932fa777600d0", null ],
     [ "shareDecklistsOnLoad", "dc/d61/structGameConfig.html#a42e0750d1788402888fa8718217ede7a", null ],
+    [ "shufflePlayers", "dc/d61/structGameConfig.html#a9533d64bd9e300e5d85d1549bacb20d6", null ],
     [ "spectatorsAllowed", "dc/d61/structGameConfig.html#aa08ccb0c156912938888923ba2a21e1a", null ],
     [ "spectatorsCanTalk", "dc/d61/structGameConfig.html#afd5722bf1d63bba84bdcc79b2e2d0e5f", null ],
     [ "spectatorsNeedPassword", "dc/d61/structGameConfig.html#a3b69acb5df9faf8bd93af674ec4f4c87", null ],

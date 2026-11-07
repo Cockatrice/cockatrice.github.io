@@ -1,6 +1,7 @@
 var classBannerWidget =
 [
     [ "BannerWidget", "d2/d73/classBannerWidget.html#a06a7bf014a4042d990455902b97a0e49", null ],
+    [ "applyInterfaceDefaultFont", "d2/d73/classBannerWidget.html#abdc5517d2d0031c284122170e04e7827", null ],
     [ "buddyVisibilityChanged", "d2/d73/classBannerWidget.html#a8ccfc909c2c2d1882784d848a686e4d5", null ],
     [ "getText", "d2/d73/classBannerWidget.html#a8f587a6cbac77ef0ca326ef3c0f7d544", null ],
     [ "mousePressEvent", "d2/d73/classBannerWidget.html#a9fa9da5d83d05e3bf364ac3efaaf0f36", null ],

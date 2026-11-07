@@ -15,5 +15,7 @@ var searchData=
   ['user_20interface_12',['Pre-requisites (User Interface)',['../d7/d64/editing_decks_printings.html#pre-requisites-user-interface',1,'']]],
   ['user_20reference_13',['User Reference',['../d6/d8b/user_reference.html',1,'index']]],
   ['using_20cards_14',['Using Cards',['../da/d69/primer_cards.html#using-cards',1,'']]],
-  ['using_20the_20printing_20selector_15',['Using the Printing Selector',['../d7/d64/editing_decks_printings.html#using-the-printing-selector',1,'']]]
+  ['using_20the_20printing_20selector_15',['Using the Printing Selector',['../d7/d64/editing_decks_printings.html#using-the-printing-selector',1,'']]],
+  ['using_20the_20visual_20database_20display_16',['Using the Visual Database Display',['../dc/dee/visual_database_display.html#using-the-visual-database-display',1,'']]],
+  ['using_20translations_20for_20developers_17',['Using Translations (for developers)',['../d1/d5a/contributing.html#using-translations-for-developers',1,'']]]
 ];

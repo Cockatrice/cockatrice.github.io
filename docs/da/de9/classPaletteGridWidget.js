@@ -1,6 +1,7 @@
 var classPaletteGridWidget =
 [
     [ "PaletteGridWidget", "da/de9/classPaletteGridWidget.html#af92c165af64e90ff0df518f81c1c352b", null ],
+    [ "applyInterfaceDefaultFont", "da/de9/classPaletteGridWidget.html#aff1542b13ff3dd9bfa4c4d0848d1296e", null ],
     [ "buildGrid", "da/de9/classPaletteGridWidget.html#a239a1febb4f5f2c3a28b5c6d396d96cc", null ],
     [ "changeEvent", "da/de9/classPaletteGridWidget.html#a502b789b3d2f4cadd5f9607a0c162c3b", null ],
     [ "currentPaletteConfig", "da/de9/classPaletteGridWidget.html#a41d39fd6e3f176d066a8393161b38759", null ],

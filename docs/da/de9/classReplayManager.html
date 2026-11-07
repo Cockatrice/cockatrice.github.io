@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -141,6 +141,7 @@ Public Slots</h2></td></tr>
 <tr class="memitem:ac6d3d66c06f67992cf9f63031aacd972" id="r_ac6d3d66c06f67992cf9f63031aacd972"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac6d3d66c06f67992cf9f63031aacd972">startReplay</a> ()</td></tr>
 <tr class="memitem:ad3e2bc23150728d03a8078aebc3cac04" id="r_ad3e2bc23150728d03a8078aebc3cac04"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad3e2bc23150728d03a8078aebc3cac04">stopReplay</a> ()</td></tr>
 <tr class="memitem:abd9ea4f6f2a48ae61ca05a010cad1ebb" id="r_abd9ea4f6f2a48ae61ca05a010cad1ebb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abd9ea4f6f2a48ae61ca05a010cad1ebb">setTime</a> (int time)</td></tr>
+<tr class="memitem:aa776e87867d3b848b7e5e428bd67ac29" id="r_aa776e87867d3b848b7e5e428bd67ac29"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa776e87867d3b848b7e5e428bd67ac29">setTimeToEvent</a> (int eventIndex)</td></tr>
 <tr class="memitem:a7a8ea93b07a11227d3d715052c7dc2ba" id="r_a7a8ea93b07a11227d3d715052c7dc2ba"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7a8ea93b07a11227d3d715052c7dc2ba">skipByAmount</a> (int amount)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
@@ -155,6 +156,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad57b0f76443bc3ceb024cff0aa131cb8" id="r_ad57b0f76443bc3ceb024cff0aa131cb8"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad57b0f76443bc3ceb024cff0aa131cb8">ReplayManager</a> (QObject *parent, <a class="el" href="../../d9/d75/structGameReplay.html">GameReplay</a> *replay)</td></tr>
 <tr class="memitem:a99aaa7ec7b0bbe88a2b5667dc5799420" id="r_a99aaa7ec7b0bbe88a2b5667dc5799420"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a99aaa7ec7b0bbe88a2b5667dc5799420">~ReplayManager</a> () override</td></tr>
 <tr class="memitem:a3a5a306ee1983f64f427cb4c1ede3a6d" id="r_a3a5a306ee1983f64f427cb4c1ede3a6d"><td class="memItemLeft">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; int &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a3a5a306ee1983f64f427cb4c1ede3a6d">getReplayTimeline</a> () const</td></tr>
+<tr class="memitem:ad3db675c4f74e08dd6eb142f4a06adec" id="r_ad3db675c4f74e08dd6eb142f4a06adec"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ad3db675c4f74e08dd6eb142f4a06adec">getLastProcessedEventIndex</a> () const</td></tr>
+<tr class="memdesc:ad3db675c4f74e08dd6eb142f4a06adec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the last event the game state has processed.  <br /></td></tr>
 <tr class="memitem:abd4d664309768a02f09d869180080e70" id="r_abd4d664309768a02f09d869180080e70"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abd4d664309768a02f09d869180080e70">setTimeScaleFactor</a> (qreal _timeScaleFactor)</td></tr>
 <tr class="memitem:ab7b93089dd563304d5a895a0c8feeb55" id="r_ab7b93089dd563304d5a895a0c8feeb55"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab7b93089dd563304d5a895a0c8feeb55">setSkipEmptySections</a> (bool value)</td></tr>
 </table><table class="memberdecls">
@@ -176,12 +179,12 @@ Private Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a587a9d94e12fdc4c2d3d39ce01e9c510" id="r_a587a9d94e12fdc4c2d3d39ce01e9c510"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a587a9d94e12fdc4c2d3d39ce01e9c510">skipToTime</a> (int newTime, bool doRewindBuffering)</td></tr>
-<tr class="memitem:aa2b9af668ddb3b898bd60825b1baa0a3" id="r_aa2b9af668ddb3b898bd60825b1baa0a3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa2b9af668ddb3b898bd60825b1baa0a3">handleBackwardsSkip</a> (bool doRewindBuffering)</td></tr>
-<tr class="memdesc:aa2b9af668ddb3b898bd60825b1baa0a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles a backwards skip in the replay timeline.  <br /></td></tr>
-<tr class="memitem:ab3fb882a2f6094bed222a43a081df277" id="r_ab3fb882a2f6094bed222a43a081df277"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab3fb882a2f6094bed222a43a081df277">processRewind</a> ()</td></tr>
-<tr class="memitem:a0d6f02c10a8fe46a84d891ac506b8aaf" id="r_a0d6f02c10a8fe46a84d891ac506b8aaf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0d6f02c10a8fe46a84d891ac506b8aaf">processNewEvents</a> (<a class="el" href="#a13328112f7a27b265513526c15002286">PlaybackMode</a> playbackMode)</td></tr>
-<tr class="memdesc:a0d6f02c10a8fe46a84d891ac506b8aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes all unprocessed events up to the current time.  <br /></td></tr>
+<tr class="memitem:af0f5d2666baa86d0443551a73eb1a333" id="r_af0f5d2666baa86d0443551a73eb1a333"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af0f5d2666baa86d0443551a73eb1a333">skipToTime</a> (int newTime, bool doRewindBuffering, bool includeEventsAtTime=false)</td></tr>
+<tr class="memitem:adbd974a0074e4d51c41181ae946880f1" id="r_adbd974a0074e4d51c41181ae946880f1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adbd974a0074e4d51c41181ae946880f1">handleBackwardsSkip</a> (bool doRewindBuffering, bool includeEventsAtTime=false)</td></tr>
+<tr class="memdesc:adbd974a0074e4d51c41181ae946880f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles a backwards skip in the replay timeline.  <br /></td></tr>
+<tr class="memitem:afde65a10c675a130f7b4e737c1ea9ee7" id="r_afde65a10c675a130f7b4e737c1ea9ee7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afde65a10c675a130f7b4e737c1ea9ee7">processRewind</a> (bool includeEventsAtTime=false)</td></tr>
+<tr class="memitem:ae78cc1d79eea4da908e116aec44dec25" id="r_ae78cc1d79eea4da908e116aec44dec25"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae78cc1d79eea4da908e116aec44dec25">processNewEvents</a> (<a class="el" href="#a13328112f7a27b265513526c15002286">PlaybackMode</a> playbackMode, bool includeEventsAtTime=false)</td></tr>
+<tr class="memdesc:ae78cc1d79eea4da908e116aec44dec25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes all unprocessed events up to the current time.  <br /></td></tr>
 <tr class="memitem:a263ca34ee8b4dd859bc3e18cf22252d3" id="r_a263ca34ee8b4dd859bc3e18cf22252d3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a263ca34ee8b4dd859bc3e18cf22252d3">handleSkipEmptySection</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -332,7 +335,40 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ad53f40a28d232da1ba41b7db94a99eb9_icgraph.svg" width="100%" height="548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ad53f40a28d232da1ba41b7db94a99eb9_icgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad3db675c4f74e08dd6eb142f4a06adec" name="ad3db675c4f74e08dd6eb142f4a06adec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3db675c4f74e08dd6eb142f4a06adec">&#9670;&#160;</a></span>getLastProcessedEventIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ReplayManager::getLastProcessedEventIndex </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Index of the last event the game state has processed. </p>
+<dl class="section return"><dt>Returns</dt><dd>The event index, or -1 while no event has been replayed yet </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ad3db675c4f74e08dd6eb142f4a06adec_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -362,13 +398,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a3a5a306ee1983f64f427cb4c1ede3a6d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a3a5a306ee1983f64f427cb4c1ede3a6d_icgraph.svg" width="100%" height="368"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="aa2b9af668ddb3b898bd60825b1baa0a3" name="aa2b9af668ddb3b898bd60825b1baa0a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2b9af668ddb3b898bd60825b1baa0a3">&#9670;&#160;</a></span>handleBackwardsSkip()</h2>
+<a id="adbd974a0074e4d51c41181ae946880f1" name="adbd974a0074e4d51c41181ae946880f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbd974a0074e4d51c41181ae946880f1">&#9670;&#160;</a></span>handleBackwardsSkip()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -379,8 +415,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void ReplayManager::handleBackwardsSkip </td>
           <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>doRewindBuffering</em></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>doRewindBuffering</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>includeEventsAtTime</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -400,12 +440,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_aa2b9af668ddb3b898bd60825b1baa0a3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_adbd974a0074e4d51c41181ae946880f1_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_aa2b9af668ddb3b898bd60825b1baa0a3_icgraph.svg" width="100%" height="418"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_adbd974a0074e4d51c41181ae946880f1_icgraph.svg" width="100%" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -445,8 +485,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a0d6f02c10a8fe46a84d891ac506b8aaf" name="a0d6f02c10a8fe46a84d891ac506b8aaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d6f02c10a8fe46a84d891ac506b8aaf">&#9670;&#160;</a></span>processNewEvents()</h2>
+<a id="ae78cc1d79eea4da908e116aec44dec25" name="ae78cc1d79eea4da908e116aec44dec25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae78cc1d79eea4da908e116aec44dec25">&#9670;&#160;</a></span>processNewEvents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -457,8 +497,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void ReplayManager::processNewEvents </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a13328112f7a27b265513526c15002286">PlaybackMode</a></td>          <td class="paramname"><span class="paramname"><em>playbackMode</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a13328112f7a27b265513526c15002286">PlaybackMode</a></td>          <td class="paramname"><span class="paramname"><em>playbackMode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>includeEventsAtTime</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -472,18 +516,18 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a0d6f02c10a8fe46a84d891ac506b8aaf_cgraph.svg" width="499" height="91"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ae78cc1d79eea4da908e116aec44dec25_cgraph.svg" width="499" height="91"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a0d6f02c10a8fe46a84d891ac506b8aaf_icgraph.svg" width="100%" height="495"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ae78cc1d79eea4da908e116aec44dec25_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="ab3fb882a2f6094bed222a43a081df277" name="ab3fb882a2f6094bed222a43a081df277"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3fb882a2f6094bed222a43a081df277">&#9670;&#160;</a></span>processRewind()</h2>
+<a id="afde65a10c675a130f7b4e737c1ea9ee7" name="afde65a10c675a130f7b4e737c1ea9ee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afde65a10c675a130f7b4e737c1ea9ee7">&#9670;&#160;</a></span>processRewind()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -494,7 +538,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void ReplayManager::processRewind </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>includeEventsAtTime</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -507,12 +551,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ab3fb882a2f6094bed222a43a081df277_cgraph.svg" width="100%" height="393"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_afde65a10c675a130f7b4e737c1ea9ee7_cgraph.svg" width="100%" height="393"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ab3fb882a2f6094bed222a43a081df277_icgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_afde65a10c675a130f7b4e737c1ea9ee7_icgraph.svg" width="100%" height="498"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -542,7 +586,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a1045209c661d90fd89ea982cadf07af1_icgraph.svg" width="100%" height="548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a1045209c661d90fd89ea982cadf07af1_icgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -607,7 +651,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ad2244be18e1fb84a7ef925f923c68a24_icgraph.svg" width="100%" height="474"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_ad2244be18e1fb84a7ef925f923c68a24_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -691,6 +735,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aa776e87867d3b848b7e5e428bd67ac29" name="aa776e87867d3b848b7e5e428bd67ac29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa776e87867d3b848b7e5e428bd67ac29">&#9670;&#160;</a></span>setTimeToEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ReplayManager::setTimeToEvent </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>eventIndex</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_aa776e87867d3b848b7e5e428bd67ac29_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_aa776e87867d3b848b7e5e428bd67ac29_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a7a8ea93b07a11227d3d715052c7dc2ba" name="a7a8ea93b07a11227d3d715052c7dc2ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a8ea93b07a11227d3d715052c7dc2ba">&#9670;&#160;</a></span>skipByAmount</h2>
 
@@ -726,8 +805,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a587a9d94e12fdc4c2d3d39ce01e9c510" name="a587a9d94e12fdc4c2d3d39ce01e9c510"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a587a9d94e12fdc4c2d3d39ce01e9c510">&#9670;&#160;</a></span>skipToTime()</h2>
+<a id="af0f5d2666baa86d0443551a73eb1a333" name="af0f5d2666baa86d0443551a73eb1a333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0f5d2666baa86d0443551a73eb1a333">&#9670;&#160;</a></span>skipToTime()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -743,7 +822,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>doRewindBuffering</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>doRewindBuffering</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>includeEventsAtTime</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -755,12 +839,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a587a9d94e12fdc4c2d3d39ce01e9c510_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_af0f5d2666baa86d0443551a73eb1a333_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a587a9d94e12fdc4c2d3d39ce01e9c510_icgraph.svg" width="100%" height="418"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_af0f5d2666baa86d0443551a73eb1a333_icgraph.svg" width="100%" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -850,7 +934,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a45e84aad0c2d77e6580f79f5412b02eb_icgraph.svg" width="100%" height="483"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/de9/classReplayManager_a45e84aad0c2d77e6580f79f5412b02eb_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

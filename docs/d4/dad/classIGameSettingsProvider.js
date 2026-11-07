@@ -13,6 +13,7 @@ var classIGameSettingsProvider =
     [ "getOnlyRegistered", "d4/dad/classIGameSettingsProvider.html#a0335ab9c23027385816bde8f7575a2e2", null ],
     [ "getRememberGameSettings", "d4/dad/classIGameSettingsProvider.html#a6bf7176156e3224859c21d026a1da8aa", null ],
     [ "getShareDecklistsOnLoad", "d4/dad/classIGameSettingsProvider.html#a1e1524ea6f74d330a2a4109b1f467f87", null ],
+    [ "getShufflePlayers", "d4/dad/classIGameSettingsProvider.html#a864affffc8471134adbb68bdb25b258c", null ],
     [ "getSpectatorsAllowed", "d4/dad/classIGameSettingsProvider.html#a9024d94e8acc1ae0bcef2122aaa52951", null ],
     [ "getSpectatorsCanSeeEverything", "d4/dad/classIGameSettingsProvider.html#a77b7d5a500d47effc150110ad2ed1a86", null ],
     [ "getSpectatorsCanTalk", "d4/dad/classIGameSettingsProvider.html#a74f9cd02384906f040787408fbfb7b96", null ],

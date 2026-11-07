@@ -2,7 +2,6 @@ var classDeckEditorDeckDockWidget =
 [
     [ "DeckEditorDeckDockWidget", "d9/df7/classDeckEditorDeckDockWidget.html#a5622dc70448c02427ce3511f07a8531c", null ],
     [ "actAddCard", "d9/df7/classDeckEditorDeckDockWidget.html#a0e3ede9d0f73b1651115c4be4229f24b", null ],
-    [ "actDecrementCard", "d9/df7/classDeckEditorDeckDockWidget.html#ad77912694effefc9423efc877fb60a4d", null ],
     [ "actDecrementSelection", "d9/df7/classDeckEditorDeckDockWidget.html#acb4e871acae5612f56d29ec0eef1e50a", null ],
     [ "actIncrementSelection", "d9/df7/classDeckEditorDeckDockWidget.html#ae004d23e9e8cec4dfce313240eba9e87", null ],
     [ "actRemoveCard", "d9/df7/classDeckEditorDeckDockWidget.html#a09406bbdb4dd08dddc096f6c8183c3b6", null ],
@@ -34,6 +33,7 @@ var classDeckEditorDeckDockWidget =
     [ "setSelectedIndex", "d9/df7/classDeckEditorDeckDockWidget.html#aa5ed01907915c61f98156dcad7086cf8", null ],
     [ "syncBannerCardComboBoxSelectionWithDeck", "d9/df7/classDeckEditorDeckDockWidget.html#aab6a4a76079a05f7ef06d7e312147062", null ],
     [ "syncDisplayWidgetsToModel", "d9/df7/classDeckEditorDeckDockWidget.html#a09b8551959c1d4514c16b24967f541f5", null ],
+    [ "syncFormatSelection", "d9/df7/classDeckEditorDeckDockWidget.html#a4c4738ce627e3ceef17cdab5390d7437", null ],
     [ "updateBannerCardComboBox", "d9/df7/classDeckEditorDeckDockWidget.html#a305928fe5501945ecfa288bb75b3267c", null ],
     [ "updateCard", "d9/df7/classDeckEditorDeckDockWidget.html#aa718e47621f615838a85000770ab454e", null ],
     [ "updateHash", "d9/df7/classDeckEditorDeckDockWidget.html#a00b7fba329a0556ba519f85d2aff5fb8", null ],

@@ -49,6 +49,7 @@ var classDlgConnect =
     [ "previousHosts", "d3/da4/classDlgConnect.html#a2b9fbe34f97231c68f6747984bdf198d", null ],
     [ "restrictionsGroupBox", "d3/da4/classDlgConnect.html#aed355d739ae3770a047e3db715579f47", null ],
     [ "savedHostList", "d3/da4/classDlgConnect.html#a4fe921810f6d22976390c2ffe50bbf40", null ],
+    [ "savedVerifier", "d3/da4/classDlgConnect.html#a18af1304dc2bbfd4ec3dc83d57e9ed4f", null ],
     [ "saveEdit", "d3/da4/classDlgConnect.html#a7e0e5d99f87bfaea903c14e949fcf947", null ],
     [ "saveLabel", "d3/da4/classDlgConnect.html#a7f9afad19d347d6d66b7a42d4115e995", null ],
     [ "savePasswordCheckBox", "d3/da4/classDlgConnect.html#ab03df8132bb0b6e0195cab986f56b4c3", null ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -127,6 +127,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('df/dc6/card__z
 <code>#include &lt;<a class="el" href="../../db/dc9/hand__zone__logic_8h_source.html">libcockatrice/game/zones/hand_zone_logic.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d6/dd4/view__zone__logic_8h_source.html">libcockatrice/game/zones/view_zone_logic.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/d89/card__ref_8h_source.html">libcockatrice/utility/card_ref.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d6/d64/zone__names_8h_source.html">libcockatrice/utility/zone_names.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for card_zone_logic_test.cpp:</div>
 <div class="dyncontent">
@@ -140,10 +141,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a23fcb0f4e04fd9b0990fb6470acf27ab" id="r_a23fcb0f4e04fd9b0990fb6470acf27ab"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a23fcb0f4e04fd9b0990fb6470acf27ab">TEST</a> (CardZoneLogicTest, MoveBetweenZonesUpdatesCardZone)</td></tr>
 <tr class="memitem:ae88e225086791136ee5f45d36fa75b09" id="r_ae88e225086791136ee5f45d36fa75b09"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ae88e225086791136ee5f45d36fa75b09">TEST</a> (CardZoneLogicTest, GetCardFindsById)</td></tr>
 <tr class="memitem:adf34724989a2509e13b00b4acd34594e" id="r_adf34724989a2509e13b00b4acd34594e"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#adf34724989a2509e13b00b4acd34594e">TEST</a> (CardZoneLogicTest, ReorganizeSignalFiresOnAdd)</td></tr>
+<tr class="memitem:a80bedc80afec77b2b7ac8408dea1091b" id="r_a80bedc80afec77b2b7ac8408dea1091b"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a80bedc80afec77b2b7ac8408dea1091b">TEST</a> (CardZoneLogicTest, LibraryEdgeViewIsLimitedToOneEndOfTheLibrary)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a1cc721008d243bfc243198376a1c67a0" name="a1cc721008d243bfc243198376a1c67a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cc721008d243bfc243198376a1c67a0">&#9670;&#160;</a></span>TEST() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cc721008d243bfc243198376a1c67a0">&#9670;&#160;</a></span>TEST() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,7 +171,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a069103a47adc699f0482047b899d3b88" name="a069103a47adc699f0482047b899d3b88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a069103a47adc699f0482047b899d3b88">&#9670;&#160;</a></span>TEST() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a069103a47adc699f0482047b899d3b88">&#9670;&#160;</a></span>TEST() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,7 +197,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ae88e225086791136ee5f45d36fa75b09" name="ae88e225086791136ee5f45d36fa75b09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae88e225086791136ee5f45d36fa75b09">&#9670;&#160;</a></span>TEST() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae88e225086791136ee5f45d36fa75b09">&#9670;&#160;</a></span>TEST() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -220,8 +222,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a80bedc80afec77b2b7ac8408dea1091b" name="a80bedc80afec77b2b7ac8408dea1091b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80bedc80afec77b2b7ac8408dea1091b">&#9670;&#160;</a></span>TEST() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">CardZoneLogicTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LibraryEdgeViewIsLimitedToOneEndOfTheLibrary</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/dc6/card__zone__logic__test_8cpp_a80bedc80afec77b2b7ac8408dea1091b_cgraph.svg" width="100%" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a23fcb0f4e04fd9b0990fb6470acf27ab" name="a23fcb0f4e04fd9b0990fb6470acf27ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23fcb0f4e04fd9b0990fb6470acf27ab">&#9670;&#160;</a></span>TEST() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a23fcb0f4e04fd9b0990fb6470acf27ab">&#9670;&#160;</a></span>TEST() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,7 +275,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="adf34724989a2509e13b00b4acd34594e" name="adf34724989a2509e13b00b4acd34594e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf34724989a2509e13b00b4acd34594e">&#9670;&#160;</a></span>TEST() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adf34724989a2509e13b00b4acd34594e">&#9670;&#160;</a></span>TEST() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

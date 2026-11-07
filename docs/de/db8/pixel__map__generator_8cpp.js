@@ -9,7 +9,6 @@ var pixel__map__generator_8cpp =
     [ "clearPixmapGeneratorCaches", "de/db8/pixel__map__generator_8cpp.html#acdad9a029c0a752cf2eb3a2d7dbee4d8", null ],
     [ "getIconType", "de/db8/pixel__map__generator_8cpp.html#a4e58f8954fb254f5389bfa3397f19811", null ],
     [ "loadAndColorSvg", "de/db8/pixel__map__generator_8cpp.html#ab301083235ed832f8596d9079627588e", null ],
-    [ "loadColorAdjustedPixmap", "de/db8/pixel__map__generator_8cpp.html#a5dd6facc9a6720bb61cd12e83886c294", null ],
     [ "loadSvg", "de/db8/pixel__map__generator_8cpp.html#a6752fa5d3c1c1130fe5ea7d1461addd5", null ],
     [ "setAttrRecur", "de/db8/pixel__map__generator_8cpp.html#a19851b0be52474cb39ed3a4fd63f702c", null ],
     [ "themePixmap", "de/db8/pixel__map__generator_8cpp.html#a27a913e623c59d1e4eb3e8c003748f44", null ],

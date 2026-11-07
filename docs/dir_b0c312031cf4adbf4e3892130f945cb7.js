@@ -1,7 +1,9 @@
 var dir_b0c312031cf4adbf4e3892130f945cb7 =
 [
     [ "carddatabase_test.cpp", "dc/d9f/carddatabase__test_8cpp.html", "dc/d9f/carddatabase__test_8cpp" ],
+    [ "filter_mode_test.cpp", "de/dd7/filter__mode__test_8cpp.html", "de/dd7/filter__mode__test_8cpp" ],
     [ "filter_string_test.cpp", "d7/df4/filter__string__test_8cpp.html", "d7/df4/filter__string__test_8cpp" ],
+    [ "filter_tree_test.cpp", "da/d57/filter__tree__test_8cpp.html", "da/d57/filter__tree__test_8cpp" ],
     [ "load_benchmark.cpp", "d3/dbe/load__benchmark_8cpp.html", "d3/dbe/load__benchmark_8cpp" ],
     [ "mocks.cpp", "dc/d48/mocks_8cpp.html", null ],
     [ "mocks.h", "db/de6/mocks_8h.html", "db/de6/mocks_8h" ],

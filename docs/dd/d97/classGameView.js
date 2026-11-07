@@ -1,6 +1,7 @@
 var classGameView =
 [
     [ "GameView", "dd/d97/classGameView.html#a82f3ed2d63604bba9e864feaeb40257a", null ],
+    [ "applyDeckOverlayFonts", "dd/d97/classGameView.html#ae79812d2c6a21053c7c1100f3ed1fb21", null ],
     [ "clearTallyLabels", "dd/d97/classGameView.html#acbca92e041ad9d46372acc3cfe18256f", null ],
     [ "rebuildTallyLabels", "dd/d97/classGameView.html#aa7f0bff2fe8890497a988b3a14ad24f8", null ],
     [ "refreshShortcuts", "dd/d97/classGameView.html#a8a3d82be993acfd2d7248aebba7a96eb", null ],

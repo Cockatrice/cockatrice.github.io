@@ -1,6 +1,7 @@
 var classEdhrecCommanderApiResponseBudgetNavigationWidget =
 [
     [ "EdhrecCommanderApiResponseBudgetNavigationWidget", "de/db1/classEdhrecCommanderApiResponseBudgetNavigationWidget.html#adaf8e04b3d04673fede6109bc7451de0", null ],
+    [ "applyInterfaceDefaultFont", "de/db1/classEdhrecCommanderApiResponseBudgetNavigationWidget.html#ab154dd57850b95ff819b2ac26e6243a2", null ],
     [ "applyOptionsFromUrl", "de/db1/classEdhrecCommanderApiResponseBudgetNavigationWidget.html#a2afaf5ef41123588979e4cb8aa9c4b40", null ],
     [ "getSelectedBudget", "de/db1/classEdhrecCommanderApiResponseBudgetNavigationWidget.html#a4a1fd0c488fab8e74b4c052757f9c9f3", null ],
     [ "requestNavigation", "de/db1/classEdhrecCommanderApiResponseBudgetNavigationWidget.html#a20ae195bf25a61dac87f2b12b69e8414", null ],

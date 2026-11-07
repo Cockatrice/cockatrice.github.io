@@ -2,6 +2,7 @@ var classEdhrecApiResponseCardDetailsDisplayWidget =
 [
     [ "EdhrecApiResponseCardDetailsDisplayWidget", "d2/d77/classEdhrecApiResponseCardDetailsDisplayWidget.html#a2e41de7c30f445d7927e52718b80f4c5", null ],
     [ "actRequestPageNavigation", "d2/d77/classEdhrecApiResponseCardDetailsDisplayWidget.html#add755192d7d7c65787b3f3f06338968e", null ],
+    [ "applyCardTextFont", "d2/d77/classEdhrecApiResponseCardDetailsDisplayWidget.html#a8b39162d9667da37fcd6808320d8d78c", null ],
     [ "enterEvent", "d2/d77/classEdhrecApiResponseCardDetailsDisplayWidget.html#aeb2f88297c9d170980e68b9b1ee8fe57", null ],
     [ "leaveEvent", "d2/d77/classEdhrecApiResponseCardDetailsDisplayWidget.html#a9b86a163589cce67f2b690b871eff75f", null ],
     [ "mousePressEvent", "d2/d77/classEdhrecApiResponseCardDetailsDisplayWidget.html#ae018c61729a9fbea3e17e85de21f8e7c", null ],

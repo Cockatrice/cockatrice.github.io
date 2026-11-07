@@ -54,5 +54,6 @@ var searchData=
   ['move_5fcard_5fto_5fzone_2eproto_51',['move_card_to_zone.proto',['../d3/da1/move__card__to__zone_8proto.html',1,'']]],
   ['move_5fmenu_2ecpp_52',['move_menu.cpp',['../d3/d6e/move__menu_8cpp.html',1,'']]],
   ['move_5fmenu_2eh_53',['move_menu.h',['../d0/d58/move__menu_8h.html',1,'']]],
-  ['move_5ftop_5fcards_5funtil_5foptions_2eh_54',['move_top_cards_until_options.h',['../db/dfc/move__top__cards__until__options_8h.html',1,'']]]
+  ['move_5ftop_5fcards_5funtil_5foptions_2eh_54',['move_top_cards_until_options.h',['../db/dfc/move__top__cards__until__options_8h.html',1,'']]],
+  ['moxfield_5fsignature_5fspells_5ftest_2ecpp_55',['moxfield_signature_spells_test.cpp',['../d2/d66/moxfield__signature__spells__test_8cpp.html',1,'']]]
 ];

@@ -15,8 +15,14 @@ var editing_decks =
       [ "Deck Analytics", "de/d6e/editing_decks_visual.html#deck-analytics", null ],
       [ "Sample Hand", "de/d6e/editing_decks_visual.html#sample-hand", null ]
     ] ],
+    [ "Visual Database Display", "dc/dee/visual_database_display.html", [
+      [ "Purpose", "dc/dee/visual_database_display.html#purpose-1", null ],
+      [ "Using the Visual Database Display", "dc/dee/visual_database_display.html#using-the-visual-database-display", null ],
+      [ "Filtering cards", "dc/dee/visual_database_display.html#filtering-cards", null ],
+      [ "Modifying the Deck list", "dc/dee/visual_database_display.html#modifying-the-deck-list-2", null ]
+    ] ],
     [ "Printing Selector", "d7/d64/editing_decks_printings.html", [
-      [ "Purpose", "d7/d64/editing_decks_printings.html#purpose-1", null ],
+      [ "Purpose", "d7/d64/editing_decks_printings.html#purpose-2", null ],
       [ "Pre-requisites (User Interface)", "d7/d64/editing_decks_printings.html#pre-requisites-user-interface", null ],
       [ "Pre-requisites (Card Database)", "d7/d64/editing_decks_printings.html#pre-requisites-card-database", null ],
       [ "Using the Printing Selector", "d7/d64/editing_decks_printings.html#using-the-printing-selector", null ]

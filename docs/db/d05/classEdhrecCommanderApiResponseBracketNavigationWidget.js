@@ -1,6 +1,7 @@
 var classEdhrecCommanderApiResponseBracketNavigationWidget =
 [
     [ "EdhrecCommanderApiResponseBracketNavigationWidget", "db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#aad794116e95b122fb05e1798be6b80ba", null ],
+    [ "applyInterfaceDefaultFont", "db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#a749c9b76e179ed3df7c3ad6c74eac602", null ],
     [ "applyOptionsFromUrl", "db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#a6a9b5ba8c635db1c8491f8bc08f2660a", null ],
     [ "getSelectedGameChanger", "db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#a1cfad19f186b00e66bd4c01163873df9", null ],
     [ "requestNavigation", "db/d05/classEdhrecCommanderApiResponseBracketNavigationWidget.html#ad06e19b4da1bb79be13f1e9968f4c093", null ],

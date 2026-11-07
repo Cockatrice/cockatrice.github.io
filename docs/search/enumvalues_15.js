@@ -8,5 +8,6 @@ var searchData=
   ['welcome_5',['Welcome',['../d9/d02/structEvent__RoomSay.html#a699c54b7e58022d25d9905eb4f15ecb9ac5ce79f89ebf7866a5f72ab7e1b2acec',1,'Event_RoomSay::Welcome'],['../d3/d27/classBannerHost.html#a929a7d9d513288e211ddabcd0e01fd50a83218ac34c1834c26781fe4bde918ee4',1,'BannerHost::Welcome']]],
   ['wouldoverwriteoldsession_6',['WouldOverwriteOldSession',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdadf7ec85685eaad93c1db573c3bca5b15',1,'server.h']]],
   ['writefailed_7',['WriteFailed',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a6485489af32d66acaa3ea4c22c33461c',1,'UnZip::WriteFailed'],['../d8/df5/classZip.html#aa445490ca64ce3051470bed52ee9198ca2e95d02df0e4547cb5540965f308d074',1,'Zip::WriteFailed']]],
-  ['wrongpassword_8',['WrongPassword',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a7a93912b20b925eba4854e456de3f340',1,'UnZip']]]
+  ['written_8',['Written',['../d2/db3/namespaceSpoilerFile.html#a932d2c8e4a1315d00c31086128c78cb0a685710b38fa0c2510fc1079843dec6b9',1,'SpoilerFile']]],
+  ['wrongpassword_9',['WrongPassword',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a7a93912b20b925eba4854e456de3f340',1,'UnZip']]]
 ];

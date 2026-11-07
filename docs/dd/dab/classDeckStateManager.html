@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -186,9 +186,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afe4131d59ba6b1639de3e5e00970f88f" id="r_afe4131d59ba6b1639de3e5e00970f88f"><td class="memItemLeft">QModelIndex&#160;</td><td class="memItemRight"><a class="el" href="#afe4131d59ba6b1639de3e5e00970f88f">modifyDeck</a> (const QString &amp;reason, const std::function&lt; QModelIndex(<a class="el" href="../../d9/de1/classDeckListModel.html">DeckListModel</a> *)&gt; &amp;operation)</td></tr>
 <tr class="memdesc:afe4131d59ba6b1639de3e5e00970f88f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies the cards in the deck, in a wrapped operation that is saved to the history.  <br /></td></tr>
 <tr class="memitem:a2676714f994e6e30d44d6a13b1529020" id="r_a2676714f994e6e30d44d6a13b1529020"><td class="memItemLeft">QModelIndex&#160;</td><td class="memItemRight"><a class="el" href="#a2676714f994e6e30d44d6a13b1529020">addCard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QString &amp;zoneName)</td></tr>
-<tr class="memdesc:a2676714f994e6e30d44d6a13b1529020"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the given card to the given zone. Saves the operation to history if successful.  <br /></td></tr>
+<tr class="memdesc:a2676714f994e6e30d44d6a13b1529020"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the given card to the given zone. Tokens always go to DECK_ZONE_TOKENS, ignoring the given zone. Saves the operation to history if successful.  <br /></td></tr>
 <tr class="memitem:aa5f13d667210b56500b37f937795713b" id="r_aa5f13d667210b56500b37f937795713b"><td class="memItemLeft">QModelIndex&#160;</td><td class="memItemRight"><a class="el" href="#aa5f13d667210b56500b37f937795713b">decrementCard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QString &amp;zoneName)</td></tr>
-<tr class="memdesc:aa5f13d667210b56500b37f937795713b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes 1 copy of the given card from the given zone. Saves the operation to history if successful.  <br /></td></tr>
+<tr class="memdesc:aa5f13d667210b56500b37f937795713b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes 1 copy of the given card from the given zone. If the card is a token and is not in the given zone, then it is removed from DECK_ZONE_TOKENS instead. Saves the operation to history if successful.  <br /></td></tr>
 <tr class="memitem:aac8bb40a3b2705db7a04cf880972e63f" id="r_aac8bb40a3b2705db7a04cf880972e63f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aac8bb40a3b2705db7a04cf880972e63f">swapCardAtIndex</a> (const QModelIndex &amp;idx)</td></tr>
 <tr class="memdesc:aac8bb40a3b2705db7a04cf880972e63f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps one copy of the card at the given index between the maindeck and sideboard. No-ops if index is invalid or not a card node. Saves the operation to history if successful.  <br /></td></tr>
 <tr class="memitem:a20546405c2390b22f22374dc8ba78897" id="r_a20546405c2390b22f22374dc8ba78897"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a20546405c2390b22f22374dc8ba78897">removeCardAtIndex</a> (const QModelIndex &amp;idx)</td></tr>
@@ -297,11 +297,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Adds the given card to the given zone. Saves the operation to history if successful. </p>
+<p>Adds the given card to the given zone. Tokens always go to DECK_ZONE_TOKENS, ignoring the given zone. Saves the operation to history if successful. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">card</td><td>The card to add </td></tr>
-    <tr><td class="paramname">zoneName</td><td>The zone to add the card to </td></tr>
+    <tr><td class="paramname">zoneName</td><td>The zone to add the card to if the card is not a token </td></tr>
   </table>
   </dd>
 </dl>
@@ -501,7 +501,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Removes 1 copy of the given card from the given zone. Saves the operation to history if successful. </p>
+<p>Removes 1 copy of the given card from the given zone. If the card is a token and is not in the given zone, then it is removed from DECK_ZONE_TOKENS instead. Saves the operation to history if successful. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">card</td><td>The card to remove </td></tr>

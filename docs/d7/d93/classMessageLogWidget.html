@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -165,6 +165,7 @@ Public Slots</h2></td></tr>
 <tr class="memitem:afbb87a498b9f8dd836a7d0e6d34af58d" id="r_afbb87a498b9f8dd836a7d0e6d34af58d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afbb87a498b9f8dd836a7d0e6d34af58d">logReadyStart</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player)</td></tr>
 <tr class="memitem:af9e6981685b98532e0abeb3eb3f89921" id="r_af9e6981685b98532e0abeb3eb3f89921"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af9e6981685b98532e0abeb3eb3f89921">logRevealCards</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, <a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *zone, int cardId, QString cardName, <a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *otherPlayer, bool faceDown, int amount, bool isLentToAnotherPlayer)</td></tr>
 <tr class="memitem:a546272e19d805ec44039302fa23a1fe6" id="r_a546272e19d805ec44039302fa23a1fe6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a546272e19d805ec44039302fa23a1fe6">logReverseTurn</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, bool reversed)</td></tr>
+<tr class="memitem:af4341e8a1f5ce6bd6978d782df85939e" id="r_af4341e8a1f5ce6bd6978d782df85939e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af4341e8a1f5ce6bd6978d782df85939e">logTurnOrderChanged</a> (QStringList playerNames, bool randomized)</td></tr>
 <tr class="memitem:a19180bd267ded6a9c68d45bb199b4222" id="r_a19180bd267ded6a9c68d45bb199b4222"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a19180bd267ded6a9c68d45bb199b4222">logRollDie</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, int sides, const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; uint &gt; &amp;rolls)</td></tr>
 <tr class="memitem:a5cfebfd2c7eb677825e0f17cb1109d78" id="r_a5cfebfd2c7eb677825e0f17cb1109d78"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5cfebfd2c7eb677825e0f17cb1109d78">logSay</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, QString message)</td></tr>
 <tr class="memitem:af66563bdd83ebe6787bc68fcda776101" id="r_af66563bdd83ebe6787bc68fcda776101"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af66563bdd83ebe6787bc68fcda776101">logSetActivePhase</a> (int phase)</td></tr>
@@ -207,6 +208,7 @@ Private Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a574ff2731f583b32dc484608d32dc059" id="r_a574ff2731f583b32dc484608d32dc059"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a574ff2731f583b32dc484608d32dc059">refreshJudgeSuffix</a> ()</td></tr>
 <tr class="memitem:a79982a5b3eaa6cf9ddc777dd7049d1d2" id="r_a79982a5b3eaa6cf9ddc777dd7049d1d2"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a79982a5b3eaa6cf9ddc777dd7049d1d2">getCurrentTime</a> () const override</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
@@ -218,6 +220,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:af2508a40e8a90b31d6a32669c115c84a" id="r_af2508a40e8a90b31d6a32669c115c84a"><td class="memItemLeft"><a class="el" href="#aa18904c9db87256ddea032354260bf64">MessageContext</a>&#160;</td><td class="memItemRight"><a class="el" href="#af2508a40e8a90b31d6a32669c115c84a">currentContext</a></td></tr>
 <tr class="memitem:af606637674baf61cd980980c99f2d818" id="r_af606637674baf61cd980980c99f2d818"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#af606637674baf61cd980980c99f2d818">messagePrefix</a></td></tr>
 <tr class="memitem:a2527a5f6397aafa11b80928674963a8f" id="r_a2527a5f6397aafa11b80928674963a8f"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a2527a5f6397aafa11b80928674963a8f">messageSuffix</a></td></tr>
+<tr class="memitem:a6051519e98a1d3325ec32fd74920bf0d" id="r_a6051519e98a1d3325ec32fd74920bf0d"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a6051519e98a1d3325ec32fd74920bf0d">contextJudgeName</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -2215,6 +2218,45 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af4341e8a1f5ce6bd6978d782df85939e" name="af4341e8a1f5ce6bd6978d782df85939e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4341e8a1f5ce6bd6978d782df85939e">&#9670;&#160;</a></span>logTurnOrderChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MessageLogWidget::logTurnOrderChanged </td>
+          <td>(</td>
+          <td class="paramtype">QStringList</td>          <td class="paramname"><span class="paramname"><em>playerNames</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>randomized</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d93/classMessageLogWidget_af4341e8a1f5ce6bd6978d782df85939e_cgraph.svg" width="100%" height="421"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d93/classMessageLogWidget_af4341e8a1f5ce6bd6978d782df85939e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a3075ab112a3ff38288a8fec3810db130" name="a3075ab112a3ff38288a8fec3810db130"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3075ab112a3ff38288a8fec3810db130">&#9670;&#160;</a></span>logUnattachCard</h2>
 
@@ -2363,6 +2405,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a574ff2731f583b32dc484608d32dc059" name="a574ff2731f583b32dc484608d32dc059"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a574ff2731f583b32dc484608d32dc059">&#9670;&#160;</a></span>refreshJudgeSuffix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MessageLogWidget::refreshJudgeSuffix </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d93/classMessageLogWidget_a574ff2731f583b32dc484608d32dc059_cgraph.svg" width="391" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d93/classMessageLogWidget_a574ff2731f583b32dc484608d32dc059_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="aaf598d0247621f7da187c66a07b9d644" name="aaf598d0247621f7da187c66a07b9d644"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf598d0247621f7da187c66a07b9d644">&#9670;&#160;</a></span>setContextJudgeName</h2>
 
@@ -2388,7 +2465,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d93/classMessageLogWidget_aaf598d0247621f7da187c66a07b9d644_cgraph.svg" width="391" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d93/classMessageLogWidget_aaf598d0247621f7da187c66a07b9d644_cgraph.svg" width="666" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -2399,6 +2476,28 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a6051519e98a1d3325ec32fd74920bf0d" name="a6051519e98a1d3325ec32fd74920bf0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6051519e98a1d3325ec32fd74920bf0d">&#9670;&#160;</a></span>contextJudgeName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString MessageLogWidget::contextJudgeName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af2508a40e8a90b31d6a32669c115c84a" name="af2508a40e8a90b31d6a32669c115c84a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af2508a40e8a90b31d6a32669c115c84a">&#9670;&#160;</a></span>currentContext</h2>
 

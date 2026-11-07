@@ -5,5 +5,7 @@ var classDeckStatsInterface =
     [ "copyDeckWithoutTokens", "da/dcf/classDeckStatsInterface.html#a81f1c84537f89ddc6723f47277db33d9", null ],
     [ "getAnalyzeRequestData", "da/dcf/classDeckStatsInterface.html#a15130037870effb6f47ec25d44af5967", null ],
     [ "queryFinished", "da/dcf/classDeckStatsInterface.html#a17cffd29d9ae17e1a147c52727aeaa69", null ],
-    [ "manager", "da/dcf/classDeckStatsInterface.html#ad375ed1e580f0dfd60c2af63ba66a241", null ]
+    [ "showError", "da/dcf/classDeckStatsInterface.html#a803b1561c425cf018afeda2258b07803", null ],
+    [ "manager", "da/dcf/classDeckStatsInterface.html#ad375ed1e580f0dfd60c2af63ba66a241", null ],
+    [ "replyHandled", "da/dcf/classDeckStatsInterface.html#a1ba572f121922368ca4a8b9b3b93a86e", null ]
 ];

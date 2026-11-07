@@ -2,6 +2,7 @@ var classFirstRunWizard =
 [
     [ "FirstRunWizard", "d2/dc2/classFirstRunWizard.html#a6c41409d82a55dc7612b31ccdc9a592d", null ],
     [ "addPage", "d2/dc2/classFirstRunWizard.html#a0ec8f93929c6a5f067a2ee1075438175", null ],
+    [ "applyInterfaceDefaultFont", "d2/dc2/classFirstRunWizard.html#a184d3c8e6b66b6c7dfe545939be6b5aa", null ],
     [ "cardDatabaseUpdateRequested", "d2/dc2/classFirstRunWizard.html#a26859a73a59714c925783c1af5928ea0", null ],
     [ "changeEvent", "d2/dc2/classFirstRunWizard.html#a27895e5271446644922c6e3d62a904df", null ],
     [ "closeEvent", "d2/dc2/classFirstRunWizard.html#a6d76921f7efa0eca1cf7c1a6a92a71cb", null ],

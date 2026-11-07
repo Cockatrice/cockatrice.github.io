@@ -1,7 +1,8 @@
 var files_dup =
 [
     [ "cockatrice", "dir_0ea6b47e44f664ed3d7c8e93afc73dac.html", "dir_0ea6b47e44f664ed3d7c8e93afc73dac" ],
-    [ "doc", "dir_e68e8157741866f444e17edd764ebbae.html", "dir_e68e8157741866f444e17edd764ebbae" ],
+    [ "docs", "dir_49e56c817e5e54854c35e136979f97ca.html", "dir_49e56c817e5e54854c35e136979f97ca" ],
+    [ "external", "dir_397d9aeee4af8edecac90968d93b57df.html", "dir_397d9aeee4af8edecac90968d93b57df" ],
     [ "libcockatrice_card", "dir_a793f43f6dc6d18ba76771f9a71a4ad6.html", "dir_a793f43f6dc6d18ba76771f9a71a4ad6" ],
     [ "libcockatrice_deck_list", "dir_3af81e411179dbd2803f927cb496940d.html", "dir_3af81e411179dbd2803f927cb496940d" ],
     [ "libcockatrice_filters", "dir_0ad197c8f4f2d6e698989e8592266334.html", "dir_0ad197c8f4f2d6e698989e8592266334" ],
@@ -15,6 +16,7 @@ var files_dup =
     [ "libcockatrice_utility", "dir_ea8d64982b5609019074a0f83466341a.html", "dir_ea8d64982b5609019074a0f83466341a" ],
     [ "oracle", "dir_f4647ec01be943ceefd9ee4f7f0c1eae.html", "dir_f4647ec01be943ceefd9ee4f7f0c1eae" ],
     [ "servatrice", "dir_47b50084e681ac840fb2525e2edb4c58.html", "dir_47b50084e681ac840fb2525e2edb4c58" ],
+    [ "Testing", "dir_52baaaedca03977d67375a3431bf5277.html", null ],
     [ "tests", "dir_59425e443f801f1f2fd8bbe4959a3ccf.html", "dir_59425e443f801f1f2fd8bbe4959a3ccf" ],
     [ "tools", "dir_4eeb864c4eec08c7d6b9d3b0352cfdde.html", "dir_4eeb864c4eec08c7d6b9d3b0352cfdde" ]
 ];

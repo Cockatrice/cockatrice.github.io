@@ -1,6 +1,7 @@
 var classHomeStyledButton =
 [
     [ "HomeStyledButton", "d4/d42/classHomeStyledButton.html#a8e773c868de1cf4b78cd528aff26c61d", null ],
+    [ "applyInterfaceDefaultFont", "d4/d42/classHomeStyledButton.html#a27c8dc6572dac303fb7f33dc8034fbb2", null ],
     [ "generateButtonStylesheet", "d4/d42/classHomeStyledButton.html#aece1833cf3e3c7124f3d5e7122d648ef", null ],
     [ "paintEvent", "d4/d42/classHomeStyledButton.html#a448d3c48590352eb63fb42945e603a19", null ],
     [ "updateStylesheet", "d4/d42/classHomeStyledButton.html#a429b5c525bd2bd3d020b59d3ce121b45", null ],

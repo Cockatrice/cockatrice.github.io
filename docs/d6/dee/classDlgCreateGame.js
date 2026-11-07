@@ -27,6 +27,7 @@ var classDlgCreateGame =
     [ "room", "d6/dee/classDlgCreateGame.html#ad892314a252376df5798d32420405bf2", null ],
     [ "shareDecklistsOnLoadCheckBox", "d6/dee/classDlgCreateGame.html#a4fb25c80dead0d2539837402ea788027", null ],
     [ "shareDecklistsOnLoadLabel", "d6/dee/classDlgCreateGame.html#a68f155c9bf9227619e330f0f3da4e2a2", null ],
+    [ "shufflePlayersCheckBox", "d6/dee/classDlgCreateGame.html#a5bca2f01cbfe60954ec81427c6bae3f7", null ],
     [ "spectatorsAllowedCheckBox", "d6/dee/classDlgCreateGame.html#a423d6d45cee6ef4648825fc9141a243e", null ],
     [ "spectatorsCanTalkCheckBox", "d6/dee/classDlgCreateGame.html#a91465b6806f447d07c774ab0f6fb4e6c", null ],
     [ "spectatorsGroupBox", "d6/dee/classDlgCreateGame.html#aa606f06f50c08e081159275860421a5e", null ],

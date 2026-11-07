@@ -44,5 +44,6 @@ var classCardItem =
     [ "setPT", "d6/dbd/classCardItem.html#ae0ce980658051236d858e6288d47567f", null ],
     [ "setZone", "d6/dbd/classCardItem.html#a062368e0061760810e20f3f8c90eb9b9", null ],
     [ "type", "d6/dbd/classCardItem.html#acbecb6f351d926d4938a0513f46e2c61", null ],
-    [ "dragItem", "d6/dbd/classCardItem.html#afc024fe2fc9442d23eca5bdb25c68518", null ]
+    [ "dragItem", "d6/dbd/classCardItem.html#afc024fe2fc9442d23eca5bdb25c68518", null ],
+    [ "pendingArrow", "d6/dbd/classCardItem.html#acc33c31080ac5eb713c93c9e57612ed1", null ]
 ];

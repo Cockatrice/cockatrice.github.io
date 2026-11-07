@@ -3,6 +3,7 @@ var classDlgMyReports =
     [ "DlgMyReports", "d7/dc9/classDlgMyReports.html#acef5296543a75c5608bf838857855514", null ],
     [ "addComment", "d7/dc9/classDlgMyReports.html#a311701fd481dcdc8caed6055ead32e15", null ],
     [ "addCommentResponse", "d7/dc9/classDlgMyReports.html#adba86856590f46355119ab8e441e422a", null ],
+    [ "applyChatLogFont", "d7/dc9/classDlgMyReports.html#a3df7f1cc9802c58ad79bc471e8545482", null ],
     [ "loadReportDetails", "d7/dc9/classDlgMyReports.html#aaeb4532ca6367260680642bdc6a76d4f", null ],
     [ "onSelectionChanged", "d7/dc9/classDlgMyReports.html#afa41f06c744d49d2d24e3c55ea9faa90", null ],
     [ "refreshList", "d7/dc9/classDlgMyReports.html#a4e2c10a9745565eb4b38e095b6624c21", null ],

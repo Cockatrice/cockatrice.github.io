@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -141,7 +141,6 @@ Public Slots</h2></td></tr>
 <tr class="memitem:a09b8551959c1d4514c16b24967f541f5" id="r_a09b8551959c1d4514c16b24967f541f5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a09b8551959c1d4514c16b24967f541f5">syncDisplayWidgetsToModel</a> ()</td></tr>
 <tr class="memitem:a0e3ede9d0f73b1651115c4be4229f24b" id="r_a0e3ede9d0f73b1651115c4be4229f24b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0e3ede9d0f73b1651115c4be4229f24b">actAddCard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QString &amp;zoneName)</td></tr>
 <tr class="memitem:ae004d23e9e8cec4dfce313240eba9e87" id="r_ae004d23e9e8cec4dfce313240eba9e87"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae004d23e9e8cec4dfce313240eba9e87">actIncrementSelection</a> ()</td></tr>
-<tr class="memitem:ad77912694effefc9423efc877fb60a4d" id="r_ad77912694effefc9423efc877fb60a4d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad77912694effefc9423efc877fb60a4d">actDecrementCard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, QString zoneName)</td></tr>
 <tr class="memitem:acb4e871acae5612f56d29ec0eef1e50a" id="r_acb4e871acae5612f56d29ec0eef1e50a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acb4e871acae5612f56d29ec0eef1e50a">actDecrementSelection</a> ()</td></tr>
 <tr class="memitem:adfb689307eebe46c0a599afc3639bdf8" id="r_adfb689307eebe46c0a599afc3639bdf8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adfb689307eebe46c0a599afc3639bdf8">actSwapCard</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card, const QString &amp;zoneName)</td></tr>
 <tr class="memitem:a424495629262fb039bfa6d37d58b48de" id="r_a424495629262fb039bfa6d37d58b48de"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a424495629262fb039bfa6d37d58b48de">actSwapSelection</a> ()</td></tr>
@@ -202,6 +201,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ae050c8573c137ae2fbc0073a5e966779" id="r_ae050c8573c137ae2fbc0073a5e966779"><td class="memItemLeft">QModelIndexList&#160;</td><td class="memItemRight"><a class="el" href="#ae050c8573c137ae2fbc0073a5e966779">getSelectedCardNodeSourceIndices</a> () const</td></tr>
 <tr class="memitem:ae62018c18651e82ea1423f9d44716059" id="r_ae62018c18651e82ea1423f9d44716059"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae62018c18651e82ea1423f9d44716059">offsetCountAtIndex</a> (const QModelIndex &amp;idx, bool isIncrement)</td></tr>
 <tr class="memdesc:ae62018c18651e82ea1423f9d44716059"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increments or decrements the amount of the card node at the index by 1.  <br /></td></tr>
+<tr class="memitem:a4c4738ce627e3ceef17cdab5390d7437" id="r_a4c4738ce627e3ceef17cdab5390d7437"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4c4738ce627e3ceef17cdab5390d7437">syncFormatSelection</a> ()</td></tr>
 <tr class="memitem:ab339f7d082939816223322bb1fdf5844" id="r_ab339f7d082939816223322bb1fdf5844"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab339f7d082939816223322bb1fdf5844">addMoveToZoneMenu</a> (QMenu *menu, const QModelIndex &amp;sourceCardIndex, const QString &amp;currentBoardName)</td></tr>
 <tr class="memitem:a04783d5f812eba3aea8798e51f39e10a" id="r_a04783d5f812eba3aea8798e51f39e10a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a04783d5f812eba3aea8798e51f39e10a">addChangeBoardMenu</a> (QMenu *menu, const QString &amp;zoneName)</td></tr>
 <tr class="memitem:ae4ae6b27f8b690be07deef4a5a43db95" id="r_ae4ae6b27f8b690be07deef4a5a43db95"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ae4ae6b27f8b690be07deef4a5a43db95">createNewCustomZone</a> (const QString &amp;initialBoardName={})</td></tr>
@@ -307,40 +307,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ad77912694effefc9423efc877fb60a4d" name="ad77912694effefc9423efc877fb60a4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad77912694effefc9423efc877fb60a4d">&#9670;&#160;</a></span>actDecrementCard</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DeckEditorDeckDockWidget::actDecrementCard </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>zoneName</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_ad77912694effefc9423efc877fb60a4d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="acb4e871acae5612f56d29ec0eef1e50a" name="acb4e871acae5612f56d29ec0eef1e50a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb4e871acae5612f56d29ec0eef1e50a">&#9670;&#160;</a></span>actDecrementSelection</h2>
 
@@ -363,7 +329,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000088">Todo</a></b></dt><dd>Remove the hack and also handle reselection when all rows of a multi-selection gets deleted. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000086">Todo</a></b></dt><dd>Remove the hack and also handle reselection when all rows of a multi-selection gets deleted. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -434,7 +400,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000089">Todo</a></b></dt><dd>Remove the hack and also handle reselection when all rows of a multi-selection gets deleted. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000087">Todo</a></b></dt><dd>Remove the hack and also handle reselection when all rows of a multi-selection gets deleted. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -504,7 +470,7 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000087">Todo</a></b></dt><dd>Remove the hack and also handle reselection when all rows of a multi-selection gets deleted. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000085">Todo</a></b></dt><dd>Remove the hack and also handle reselection when all rows of a multi-selection gets deleted. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -705,7 +671,7 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000086">Todo</a></b></dt><dd>Figure out why it's happening so we can do a proper fix instead of a hacky workaround. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000084">Todo</a></b></dt><dd>Figure out why it's happening so we can do a proper fix instead of a hacky workaround. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1207,7 +1173,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_a30095063ec325e8108c78bbc187bd20d_cgraph.svg" width="460" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_a30095063ec325e8108c78bbc187bd20d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1422,6 +1388,41 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_a09b8551959c1d4514c16b24967f541f5_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a4c4738ce627e3ceef17cdab5390d7437" name="a4c4738ce627e3ceef17cdab5390d7437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c4738ce627e3ceef17cdab5390d7437">&#9670;&#160;</a></span>syncFormatSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeckEditorDeckDockWidget::syncFormatSelection </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_a4c4738ce627e3ceef17cdab5390d7437_cgraph.svg" width="500" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d9/df7/classDeckEditorDeckDockWidget_a4c4738ce627e3ceef17cdab5390d7437_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

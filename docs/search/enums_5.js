@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['gamecommandtype_0',['GameCommandType',['../dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12',1,'GameCommand']]],
-  ['gameeventtype_1',['GameEventType',['../de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35',1,'GameEvent']]],
-  ['gamelistcolumn_2',['GameListColumn',['../dd/d11/games__model_8cpp.html#ae71e83faa705cff45fbebdfe3582c2f0',1,'games_model.cpp']]],
-  ['grammaticalcase_3',['GrammaticalCase',['../d6/d94/translation_8h.html#a9b7cf3307729d837f2a87aa86421b3d1',1,'translation.h']]],
-  ['graphicsitemtype_4',['GraphicsItemType',['../de/d83/graphics__item__type_8h.html#a9ed98431a807406f09f12e25ac2c8072',1,'graphics_item_type.h']]],
-  ['groups_5',['Groups',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2cec',1,'ShortcutGroup']]]
+  ['failurereason_0',['FailureReason',['../d3/d1e/smtpclient_8h.html#a2e1fab5fc244b0783172514baec21a6e',1,'smtpclient.h']]],
+  ['filetype_1',['FileType',['../de/d4e/classUnZip.html#af7876c8fe61c0298d536a513f2ac1670',1,'UnZip']]],
+  ['filterbool_2',['FilterBool',['../da/d8d/classCardDatabaseDisplayModel.html#a1d72f9b98f0e98dc783777e1329b959a',1,'CardDatabaseDisplayModel']]],
+  ['filtermode_3',['FilterMode',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a843034fd7f34865b62fb5adb77d0ffe6',1,'VisualDeckStorageSortFilterProxyModel::FilterMode'],['../d0/d81/filter__mode_8h.html#a36bd51b89b9e0e6e4dbbe565b9155083',1,'FilterMode:&#160;filter_mode.h']]],
+  ['format_4',['Format',['../d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945',1,'DeckFileFormat']]],
+  ['forwardresult_5',['ForwardResult',['../d6/d5a/classSingleInstanceManager.html#a1465403d5d91b2053973f0e1a64f6184',1,'SingleInstanceManager']]]
 ];

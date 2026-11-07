@@ -6,6 +6,7 @@ var classUserInfoBox =
     [ "actEdit", "df/dea/classUserInfoBox.html#ae6ec347d5bd7951e46efe98e672cef1e", null ],
     [ "actEditInternal", "df/dea/classUserInfoBox.html#a9a670af6febc0b35623aea6c93613a4f", null ],
     [ "actPassword", "df/dea/classUserInfoBox.html#a8557d535c7653201a4e0331f7495d642", null ],
+    [ "applyInterfaceDefaultFont", "df/dea/classUserInfoBox.html#a13249b20e8b5e9e9c5e32a17c83b6841", null ],
     [ "changePassword", "df/dea/classUserInfoBox.html#a7c8e16a44c73ff22192375cfc34edb68", null ],
     [ "getAgeString", "df/dea/classUserInfoBox.html#a94957b75179515fca185e293b43ec40c", null ],
     [ "processAvatarResponse", "df/dea/classUserInfoBox.html#a4d53cad9bd28d39e64bf9e957029ee01", null ],

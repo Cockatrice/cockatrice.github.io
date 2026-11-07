@@ -14,7 +14,8 @@ var searchData=
   ['list_5fusers_11',['LIST_USERS',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a1ae90788dce5740277680da8022ea35e',1,'Response::LIST_USERS'],['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a4d4eb95d257f77f4da456907b7a4bcf5',1,'SessionCommand::LIST_USERS']]],
   ['load_5fdeck_12',['Load_deck',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2cecae2d8667905e5445ec49249b6bd24785c',1,'ShortcutGroup']]],
   ['loaded_13',['Loaded',['../dc/d0c/translation__loader_8h.html#adaab297bf5f0b3c6339d620d1c551391a7381d487d18845b379422325c0a768d6',1,'translation_loader.h']]],
-  ['loggedinelsewere_14',['LOGGEDINELSEWERE',['../da/d30/structEvent__ConnectionClosed.html#a9f79dac37fda0c21614d4e24d30e04a0a493fd85211add8db49195d1bbbffc223',1,'Event_ConnectionClosed']]],
-  ['login_15',['LOGIN',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a0d776de876b24bc1d07aa76540057745',1,'Response::LOGIN'],['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a4929a6236a2be6be8e246f18cd1afccf',1,'SessionCommand::LOGIN']]],
-  ['longnamecol_16',['LongNameCol',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735a35ec899e1219e7a1a62d4ac74b94f6dd',1,'SetsModel']]]
+  ['loading_14',['Loading',['../dd/dad/classUserGamesModel.html#a7362eb8138a54d55b157e72733a271b8a16bfbf9c462762cf1cba4134ec53c504',1,'UserGamesModel']]],
+  ['loggedinelsewere_15',['LOGGEDINELSEWERE',['../da/d30/structEvent__ConnectionClosed.html#a9f79dac37fda0c21614d4e24d30e04a0a493fd85211add8db49195d1bbbffc223',1,'Event_ConnectionClosed']]],
+  ['login_16',['LOGIN',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a0d776de876b24bc1d07aa76540057745',1,'Response::LOGIN'],['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a4929a6236a2be6be8e246f18cd1afccf',1,'SessionCommand::LOGIN']]],
+  ['longnamecol_17',['LongNameCol',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735a35ec899e1219e7a1a62d4ac74b94f6dd',1,'SetsModel']]]
 ];

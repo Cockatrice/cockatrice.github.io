@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -165,6 +165,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a56fb895a3b6fa00269107589f80e9407" id="r_a56fb895a3b6fa00269107589f80e9407"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a56fb895a3b6fa00269107589f80e9407">UserInfoPopup</a> (<a class="el" href="../../dd/d81/classTabSupervisor.html">TabSupervisor</a> *_ts, <a class="el" href="../../dc/d86/classAbstractClient.html">AbstractClient</a> *_client, const <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, QPixmap &gt; *_avatarCache, const <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, QPixmap &gt; *_cardArtCache, const <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, <a class="el" href="../../dd/d52/structCardArtParams.html">CardArtParams</a> &gt; *_cardArtParamsMap, QWidget *parent)</td></tr>
 <tr class="memitem:ae4711ef0fbcc089ed868a99e492af158" id="r_ae4711ef0fbcc089ed868a99e492af158"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae4711ef0fbcc089ed868a99e492af158">showForUser</a> (const QString &amp;userName, const <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &amp;userInfo, bool online, bool isBuddy, bool isIgnored)</td></tr>
 <tr class="memitem:ae3767491154958bd59bb5a23dc10c19b" id="r_ae3767491154958bd59bb5a23dc10c19b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae3767491154958bd59bb5a23dc10c19b">fetchGames</a> ()</td></tr>
+<tr class="memitem:ae04d67070b57c39ba49eeccc39c798b6" id="r_ae04d67070b57c39ba49eeccc39c798b6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae04d67070b57c39ba49eeccc39c798b6">setOnline</a> (bool online)</td></tr>
 <tr class="memitem:a05f38f5cd8aab1d9335509dd4cdebfae" id="r_a05f38f5cd8aab1d9335509dd4cdebfae"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a05f38f5cd8aab1d9335509dd4cdebfae">getCurrentUser</a> () const</td></tr>
 <tr class="memitem:acc70c2bde8b9aea5324239ffa063fac1" id="r_acc70c2bde8b9aea5324239ffa063fac1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acc70c2bde8b9aea5324239ffa063fac1">updateActionButtons</a> (const <a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a> &amp;userInfo, bool online, bool isBuddy, bool isIgnored)</td></tr>
 <tr class="memitem:a93a2c40bac1d3a66990810d550186ec6" id="r_a93a2c40bac1d3a66990810d550186ec6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a93a2c40bac1d3a66990810d550186ec6">refreshHeader</a> ()</td></tr>
@@ -178,7 +179,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a7365d87c228150319dd1813b4f4030b5" id="r_a7365d87c228150319dd1813b4f4030b5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7365d87c228150319dd1813b4f4030b5">refreshGames</a> ()</td></tr>
-<tr class="memitem:a86accef708d37bb3990b1150b6be1f58" id="r_a86accef708d37bb3990b1150b6be1f58"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a86accef708d37bb3990b1150b6be1f58">onGamesReceived</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;r, const QString &amp;forUser)</td></tr>
+<tr class="memitem:afe3633ae8757f2aa81dde3f94884c401" id="r_afe3633ae8757f2aa81dde3f94884c401"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afe3633ae8757f2aa81dde3f94884c401">updateGamesDisplay</a> ()</td></tr>
 <tr class="memitem:a710541f3332b794b8f9f05f8f3284b1a" id="r_a710541f3332b794b8f9f05f8f3284b1a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a710541f3332b794b8f9f05f8f3284b1a">onGamesContextMenu</a> (const QPoint &amp;pos)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
@@ -198,6 +199,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a191df6b26324d311bae1c42c0f4126c8" id="r_a191df6b26324d311bae1c42c0f4126c8"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a191df6b26324d311bae1c42c0f4126c8">currentUser</a></td></tr>
 <tr class="memitem:a23c7d1915e3d68d6d034ae128d692e6c" id="r_a23c7d1915e3d68d6d034ae128d692e6c"><td class="memItemLeft"><a class="el" href="../../d8/d9e/structServerInfo__User.html">ServerInfo_User</a>&#160;</td><td class="memItemRight"><a class="el" href="#a23c7d1915e3d68d6d034ae128d692e6c">currentUserInfo</a></td></tr>
 <tr class="memitem:a374ce5c6188c6766d65e29c3f3a5f5d7" id="r_a374ce5c6188c6766d65e29c3f3a5f5d7"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a374ce5c6188c6766d65e29c3f3a5f5d7">currentOnline</a> = false</td></tr>
+<tr class="memitem:abff9eaba46ef92cd677f2eb1c2b941e2" id="r_abff9eaba46ef92cd677f2eb1c2b941e2"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#abff9eaba46ef92cd677f2eb1c2b941e2">currentBuddy</a> = false</td></tr>
+<tr class="memitem:a93ae7d887c5b54cb13c527031ce214c6" id="r_a93ae7d887c5b54cb13c527031ce214c6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a93ae7d887c5b54cb13c527031ce214c6">currentIgnored</a> = false</td></tr>
 <tr class="memitem:a278890ee19ed2884b2aa667700003306" id="r_a278890ee19ed2884b2aa667700003306"><td class="memItemLeft">std::function&lt; bool(const QString &amp;userName)&gt;&#160;</td><td class="memItemRight"><a class="el" href="#a278890ee19ed2884b2aa667700003306">gameInviteAvailable</a></td></tr>
 <tr class="memitem:aa026d599c53a917c2ba2779d84618f22" id="r_aa026d599c53a917c2ba2779d84618f22"><td class="memItemLeft"><a class="el" href="../../d7/d45/classUserInfoHeaderWidget.html">UserInfoHeaderWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aa026d599c53a917c2ba2779d84618f22">header</a></td></tr>
 <tr class="memitem:af434f7dc1e1af46884a2c8a295a45d42" id="r_af434f7dc1e1af46884a2c8a295a45d42"><td class="memItemLeft">QWidget *&#160;</td><td class="memItemRight"><a class="el" href="#af434f7dc1e1af46884a2c8a295a45d42">actionArea</a></td></tr>
@@ -205,7 +208,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a765fb05fda681fc2f5096ec08077098e" id="r_a765fb05fda681fc2f5096ec08077098e"><td class="memItemLeft">QLabel *&#160;</td><td class="memItemRight"><a class="el" href="#a765fb05fda681fc2f5096ec08077098e">gamesLabel</a></td></tr>
 <tr class="memitem:a0952fda1574be8e796cce9f45b63a702" id="r_a0952fda1574be8e796cce9f45b63a702"><td class="memItemLeft">QFrame *&#160;</td><td class="memItemRight"><a class="el" href="#a0952fda1574be8e796cce9f45b63a702">separator</a></td></tr>
 <tr class="memitem:a372624de87ab6edf4dc11a7f518ff60e" id="r_a372624de87ab6edf4dc11a7f518ff60e"><td class="memItemLeft">QListView *&#160;</td><td class="memItemRight"><a class="el" href="#a372624de87ab6edf4dc11a7f518ff60e">gamesView</a></td></tr>
-<tr class="memitem:a4bdb25f4ca25723ab335157b30ec655e" id="r_a4bdb25f4ca25723ab335157b30ec655e"><td class="memItemLeft">QStandardItemModel *&#160;</td><td class="memItemRight"><a class="el" href="#a4bdb25f4ca25723ab335157b30ec655e">gamesModel</a></td></tr>
+<tr class="memitem:a415ef916922971c936763e13540718e5" id="r_a415ef916922971c936763e13540718e5"><td class="memItemLeft"><a class="el" href="../../dd/dad/classUserGamesModel.html">UserGamesModel</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a415ef916922971c936763e13540718e5">gamesModel</a></td></tr>
 <tr class="memitem:a085fa686747d0e80080e349e15d1d314" id="r_a085fa686747d0e80080e349e15d1d314"><td class="memItemLeft">QLabel *&#160;</td><td class="memItemRight"><a class="el" href="#a085fa686747d0e80080e349e15d1d314">gamesStatus</a></td></tr>
 <tr class="memitem:aa5d8bef6aba0426d079abf971a9ad3a0" id="r_aa5d8bef6aba0426d079abf971a9ad3a0"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#aa5d8bef6aba0426d079abf971a9ad3a0">closeBtn</a></td></tr>
 <tr class="memitem:a9d5253073decebe521ba0ff4d8ab0dcd" id="r_a9d5253073decebe521ba0ff4d8ab0dcd"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a9d5253073decebe521ba0ff4d8ab0dcd">refreshBtn</a></td></tr>
@@ -399,7 +402,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d81/classUserInfoPopup_a50b7495c487913ff47754625e31792c9_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d81/classUserInfoPopup_a50b7495c487913ff47754625e31792c9_cgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -711,7 +714,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d81/classUserInfoPopup_ae3767491154958bd59bb5a23dc10c19b_cgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d81/classUserInfoPopup_ae3767491154958bd59bb5a23dc10c19b_cgraph.svg" width="100%" height="531"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -951,40 +954,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a86accef708d37bb3990b1150b6be1f58" name="a86accef708d37bb3990b1150b6be1f58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86accef708d37bb3990b1150b6be1f58">&#9670;&#160;</a></span>onGamesReceived</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void UserInfoPopup::onGamesReceived </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>forUser</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d81/classUserInfoPopup_a86accef708d37bb3990b1150b6be1f58_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
 <a id="afe03ffac665a36e3770d7c2850d8ffaf" name="afe03ffac665a36e3770d7c2850d8ffaf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe03ffac665a36e3770d7c2850d8ffaf">&#9670;&#160;</a></span>promoteToJudgeRequested</h2>
 
@@ -1119,7 +1088,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d81/classUserInfoPopup_a7365d87c228150319dd1813b4f4030b5_cgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d81/classUserInfoPopup_a7365d87c228150319dd1813b4f4030b5_cgraph.svg" width="100%" height="531"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1248,6 +1217,33 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ae04d67070b57c39ba49eeccc39c798b6" name="ae04d67070b57c39ba49eeccc39c798b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae04d67070b57c39ba49eeccc39c798b6">&#9670;&#160;</a></span>setOnline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserInfoPopup::setOnline </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>online</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d81/classUserInfoPopup_ae04d67070b57c39ba49eeccc39c798b6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d81/classUserInfoPopup_ae04d67070b57c39ba49eeccc39c798b6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="ae4711ef0fbcc089ed868a99e492af158" name="ae4711ef0fbcc089ed868a99e492af158"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae4711ef0fbcc089ed868a99e492af158">&#9670;&#160;</a></span>showForUser()</h2>
 
@@ -1363,6 +1359,41 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d81/classUserInfoPopup_acc70c2bde8b9aea5324239ffa063fac1_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="afe3633ae8757f2aa81dde3f94884c401" name="afe3633ae8757f2aa81dde3f94884c401"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe3633ae8757f2aa81dde3f94884c401">&#9670;&#160;</a></span>updateGamesDisplay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UserInfoPopup::updateGamesDisplay </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d81/classUserInfoPopup_afe3633ae8757f2aa81dde3f94884c401_cgraph.svg" width="492" height="143"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d81/classUserInfoPopup_afe3633ae8757f2aa81dde3f94884c401_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1562,6 +1593,50 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="abff9eaba46ef92cd677f2eb1c2b941e2" name="abff9eaba46ef92cd677f2eb1c2b941e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abff9eaba46ef92cd677f2eb1c2b941e2">&#9670;&#160;</a></span>currentBuddy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UserInfoPopup::currentBuddy = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a93ae7d887c5b54cb13c527031ce214c6" name="a93ae7d887c5b54cb13c527031ce214c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93ae7d887c5b54cb13c527031ce214c6">&#9670;&#160;</a></span>currentIgnored</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UserInfoPopup::currentIgnored = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a374ce5c6188c6766d65e29c3f3a5f5d7" name="a374ce5c6188c6766d65e29c3f3a5f5d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a374ce5c6188c6766d65e29c3f3a5f5d7">&#9670;&#160;</a></span>currentOnline</h2>
 
@@ -1672,8 +1747,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a4bdb25f4ca25723ab335157b30ec655e" name="a4bdb25f4ca25723ab335157b30ec655e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bdb25f4ca25723ab335157b30ec655e">&#9670;&#160;</a></span>gamesModel</h2>
+<a id="a415ef916922971c936763e13540718e5" name="a415ef916922971c936763e13540718e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a415ef916922971c936763e13540718e5">&#9670;&#160;</a></span>gamesModel</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1682,7 +1757,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">QStandardItemModel* UserInfoPopup::gamesModel</td>
+          <td class="memname"><a class="el" href="../../dd/dad/classUserGamesModel.html">UserGamesModel</a>* UserInfoPopup::gamesModel</td>
         </tr>
       </table>
   </td>

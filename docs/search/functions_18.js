@@ -11,9 +11,10 @@ var searchData=
   ['zonechanged_8',['zoneChanged',['../db/d1b/classCardState.html#aa8dc54a8fde4e00681d39f2f5e0b905d',1,'CardState']]],
   ['zonedeleted_9',['zoneDeleted',['../d0/dd9/classZoneViewWidget.html#a0075c03caa66498c7be0411607c864e8',1,'ZoneViewWidget']]],
   ['zonedumpreceived_10',['zoneDumpReceived',['../d0/db5/classZoneViewZone.html#af10cb1744e98665557413b94b450fa40',1,'ZoneViewZone']]],
-  ['zoneidchanged_11',['zoneIdChanged',['../d2/d98/classPlayerLogic.html#af25c5b27d0fccbd4dadf5e5662ef22d7',1,'PlayerLogic']]],
-  ['zonelogname_12',['zoneLogName',['../d1/d29/card__amount__widget_8cpp.html#abcf0fecab6a7a7b443c01303250fc1d5',1,'card_amount_widget.cpp']]],
-  ['zoneviewwidget_13',['ZoneViewWidget',['../d0/dd9/classZoneViewWidget.html#a163efadda5973a8b3f5ffc4ee64c5ab2',1,'ZoneViewWidget']]],
-  ['zoneviewzone_14',['ZoneViewZone',['../d0/db5/classZoneViewZone.html#a6edf294de4065c2f00f6fabb74456fa5',1,'ZoneViewZone']]],
-  ['zoneviewzonelogic_15',['ZoneViewZoneLogic',['../d8/d70/classZoneViewZoneLogic.html#a5b959a4eb6305738db733158b5dd526a',1,'ZoneViewZoneLogic']]]
+  ['zoneforclickmodifiers_11',['zoneForClickModifiers',['../da/d34/tab__deck__editor__visual_8cpp.html#a865cdf016a27aa4ed4e4f047d4a556d9',1,'tab_deck_editor_visual.cpp']]],
+  ['zoneidchanged_12',['zoneIdChanged',['../d2/d98/classPlayerLogic.html#af25c5b27d0fccbd4dadf5e5662ef22d7',1,'PlayerLogic']]],
+  ['zonelogname_13',['zoneLogName',['../d1/d29/card__amount__widget_8cpp.html#abcf0fecab6a7a7b443c01303250fc1d5',1,'card_amount_widget.cpp']]],
+  ['zoneviewwidget_14',['ZoneViewWidget',['../d0/dd9/classZoneViewWidget.html#a163efadda5973a8b3f5ffc4ee64c5ab2',1,'ZoneViewWidget']]],
+  ['zoneviewzone_15',['ZoneViewZone',['../d0/db5/classZoneViewZone.html#a6edf294de4065c2f00f6fabb74456fa5',1,'ZoneViewZone']]],
+  ['zoneviewzonelogic_16',['ZoneViewZoneLogic',['../d8/d70/classZoneViewZoneLogic.html#a5b959a4eb6305738db733158b5dd526a',1,'ZoneViewZoneLogic']]]
 ];

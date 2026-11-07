@@ -1,13 +1,22 @@
 var searchData=
 [
-  ['databasetype_0',['DatabaseType',['../d5/d0e/classServatrice.html#a47a0f6c8186a694ad51d117cb31cb15d',1,'Servatrice']]],
-  ['deckeditortype_1',['DeckEditorType',['../dd/d81/classTabSupervisor.html#a9a12eee7783c0c5e8310e96ec8a71d13',1,'TabSupervisor']]],
-  ['deckformat_2',['DeckFormat',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2',1,'ArchidektFormats']]],
-  ['decklistwebsite_3',['DecklistWebsite',['../de/de9/classDeckLoader.html#ad214abc48fd2d93f2a66bacf7d277e4b',1,'DeckLoader']]],
-  ['deckopenlocation_4',['DeckOpenLocation',['../d1/d53/classAbstractTabDeckEditor.html#a59362c003e9fd04abbec91a0962342dc',1,'AbstractTabDeckEditor']]],
-  ['deckprovider_5',['DeckProvider',['../da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7',1,'deck_link_to_api_transformer.h']]],
-  ['decksortmethod_6',['DeckSortMethod',['../d1/d6c/group__DeckModels.html#ga8ea3802f8561f16be908a83a08a796ce',1,'abstract_deck_list_node.h']]],
-  ['deletepolicy_7',['DeletePolicy',['../dc/d55/namespaceQtUtils.html#aa97021f3e39461ce5ae27fc3d1e464d4',1,'QtUtils']]],
-  ['developercommandtype_8',['DeveloperCommandType',['../d9/d08/structDeveloperCommand.html#aad455c361544762146aff957214b1541',1,'DeveloperCommand']]],
-  ['displaytype_9',['DisplayType',['../d8/d36/visual__deck__editor__widget_8h.html#a18c0cbeece6bcb1c64d7463ce253ff50',1,'visual_deck_editor_widget.h']]]
+  ['cachemethod_0',['CacheMethod',['../dd/d38/namespaceCardPictureLoaderCacheMethod.html#a0656baaade621f00198e394dac3989c2',1,'CardPictureLoaderCacheMethod']]],
+  ['cardaction_1',['CardAction',['../d8/d70/classZoneViewZoneLogic.html#a0b4296a3248b245ddff3943096a0eb8b',1,'ZoneViewZoneLogic']]],
+  ['cardattribute_2',['CardAttribute',['../df/d39/card__attributes_8proto.html#a6195eb57e729e91ebdf24993b522934f',1,'card_attributes.proto']]],
+  ['cardmatchtype_3',['CardMatchType',['../de/d2f/format__legality__rules_8h.html#a3166c752edac185a97b2d3dd54081f72',1,'format_legality_rules.h']]],
+  ['cardmenuactiontype_4',['CardMenuActionType',['../d4/d03/card__menu__action__type_8h.html#a0d238f07aea296582821002fbc5a5595',1,'card_menu_action_type.h']]],
+  ['cardrelationtype_5',['CardRelationType',['../d6/dc2/group__Cards.html#gabc3ced840172c7b624b340e282544a4f',1,'card_relation_type.h']]],
+  ['cardsearchroles_6',['CardSearchRoles',['../d3/da6/classCardSearchModel.html#ac4a3a9b6a794aa55ac4e235c4a236a51',1,'CardSearchModel']]],
+  ['cardstoreveal_7',['CardsToReveal',['../d2/d23/classPlayerActions.html#a33047204c8f4131e33325c45d812193f',1,'PlayerActions']]],
+  ['cardupdatestage_8',['CardUpdateStage',['../dd/d1d/card__update__progress_8h.html#a7c097a366913a865cefc150e0b09d892',1,'card_update_progress.h']]],
+  ['clientstatus_9',['ClientStatus',['../d5/db3/abstract__client_8h.html#a7e5fc64e45e1ab3af52e22eaf1c1bfc4',1,'abstract_client.h']]],
+  ['closereason_10',['CloseReason',['../da/d30/structEvent__ConnectionClosed.html#a9f79dac37fda0c21614d4e24d30e04a0',1,'Event_ConnectionClosed']]],
+  ['columns_11',['Columns',['../da/dc7/classTipsOfTheDay.html#a53aefded9c3ed84a672f80f2f9496fc9',1,'TipsOfTheDay::Columns'],['../dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0',1,'CardDatabaseModel::Columns']]],
+  ['commanderspellbookintegrationenabledindex_12',['commanderSpellbookIntegrationEnabledIndex',['../d6/d5e/deck__editor__settings_8h.html#a49050bfcb87b1ab886401992a64d3af3',1,'deck_editor_settings.h']]],
+  ['completertrigger_13',['CompleterTrigger',['../d2/de8/line__edit__completer_8h.html#a7aab790fd7b7f40f985ec50687c96e4b',1,'line_edit_completer.h']]],
+  ['compressionlevel_14',['CompressionLevel',['../d8/df5/classZip.html#afb46e5882e74520cead7d950e0fa7ca6',1,'Zip']]],
+  ['compressionmethod_15',['CompressionMethod',['../de/d4e/classUnZip.html#af0741165d4b27b4692beef94c48528b5',1,'UnZip']]],
+  ['compressionoption_16',['CompressionOption',['../d8/df5/classZip.html#a939111cf77e16d456d380b8c68f637ab',1,'Zip']]],
+  ['contexttype_17',['ContextType',['../dd/dd1/structGameEventContext.html#a387e6072c0cecf60722f7b098ce45bc8',1,'GameEventContext']]],
+  ['crashreportingmode_18',['CrashReportingMode',['../d9/d8d/classPersonalSettings.html#a237e255015e8c068338dc103f9a9e928',1,'PersonalSettings']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vignettemin_0',['vignetteMin',['../dc/d6c/classBannerShaderConfig.html#a3bdc844cdd3f1f419107ca24a3eda980',1,'BannerShaderConfig']]]
+  ['time_0',['time',['../dc/d6c/classBannerShaderConfig.html#a39b101dad96c90d7616638b29fdb9e67',1,'BannerShaderConfig']]]
 ];

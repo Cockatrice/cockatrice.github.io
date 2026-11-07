@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -133,7 +133,7 @@ Inheritance diagram for GameEventHandler:</div>
 <div class="dynheader">
 Collaboration diagram for GameEventHandler:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d49/classGameEventHandler__coll__graph.svg" width="100%" height="551"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d49/classGameEventHandler__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-slots" class="groupheader"><a id="pub-slots" name="pub-slots"></a>
@@ -189,6 +189,7 @@ Signals</h2></td></tr>
 <tr class="memitem:a23218c0f6b42a8c2daafb84a04a6ad9f" id="r_a23218c0f6b42a8c2daafb84a04a6ad9f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a23218c0f6b42a8c2daafb84a04a6ad9f">logLeave</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, QString reason)</td></tr>
 <tr class="memitem:a2014e0f2c328de0a2ec9dd6cb717b3cd" id="r_a2014e0f2c328de0a2ec9dd6cb717b3cd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2014e0f2c328de0a2ec9dd6cb717b3cd">logKicked</a> ()</td></tr>
 <tr class="memitem:a1e65fd77b5d2c73ece5147ce3f6633b2" id="r_a1e65fd77b5d2c73ece5147ce3f6633b2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1e65fd77b5d2c73ece5147ce3f6633b2">logTurnReversed</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *player, bool reversed)</td></tr>
+<tr class="memitem:aee254a2eeae7edeea4a659a61d1be4de" id="r_aee254a2eeae7edeea4a659a61d1be4de"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aee254a2eeae7edeea4a659a61d1be4de">logTurnOrderChanged</a> (QStringList playerNames, bool randomized)</td></tr>
 <tr class="memitem:a6788b8a399e169553caa3fb4e7b8b4c4" id="r_a6788b8a399e169553caa3fb4e7b8b4c4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6788b8a399e169553caa3fb4e7b8b4c4">logGameClosed</a> ()</td></tr>
 <tr class="memitem:af8053772db0d6059de082ec8016f924e" id="r_af8053772db0d6059de082ec8016f924e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af8053772db0d6059de082ec8016f924e">logActivePlayer</a> (<a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *activePlayer)</td></tr>
 <tr class="memitem:a6f97ea2cf2372af6cf66fe87bc85e80b" id="r_a6f97ea2cf2372af6cf66fe87bc85e80b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6f97ea2cf2372af6cf66fe87bc85e80b">logActivePhaseChanged</a> (int activePhase)</td></tr>
@@ -210,6 +211,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0301a250d83437cd66fd535ad6548cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request advancing the game to the next turn.  <br /></td></tr>
 <tr class="memitem:a897ebe20e24915c632bf1af9b25f9796" id="r_a897ebe20e24915c632bf1af9b25f9796"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a897ebe20e24915c632bf1af9b25f9796">handleReverseTurn</a> ()</td></tr>
 <tr class="memdesc:a897ebe20e24915c632bf1af9b25f9796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request reversing the current turn order.  <br /></td></tr>
+<tr class="memitem:a02233174496b4f968de46d2e0246f445" id="r_a02233174496b4f968de46d2e0246f445"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a02233174496b4f968de46d2e0246f445">handleSetPlayerOrder</a> (const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt; &amp;playerNames, bool randomize)</td></tr>
+<tr class="memdesc:a02233174496b4f968de46d2e0246f445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request a new seating / turn order.  <br /></td></tr>
 <tr class="memitem:a3e7f5be4294ec643ab81d9f9f204a9d1" id="r_a3e7f5be4294ec643ab81d9f9f204a9d1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3e7f5be4294ec643ab81d9f9f204a9d1">handleActiveLocalPlayerConceded</a> ()</td></tr>
 <tr class="memdesc:a3e7f5be4294ec643ab81d9f9f204a9d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concede the game for the currently active local player.  <br /></td></tr>
 <tr class="memitem:a90717b933b41fd7acd66f713f097d73d" id="r_a90717b933b41fd7acd66f713f097d73d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a90717b933b41fd7acd66f713f097d73d">handleActiveLocalPlayerUnconceded</a> ()</td></tr>
@@ -277,6 +280,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aae31d2fd10c178c5ab3d9e2da30caf9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle a change of the active phase.  <br /></td></tr>
 <tr class="memitem:a1fa4f438f6344bf3fa82b455f6428295" id="r_a1fa4f438f6344bf3fa82b455f6428295"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1fa4f438f6344bf3fa82b455f6428295">eventReverseTurn</a> (const <a class="el" href="../../de/dde/structEvent__ReverseTurn.html">Event_ReverseTurn</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
 <tr class="memdesc:a1fa4f438f6344bf3fa82b455f6428295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle a turn reversal event.  <br /></td></tr>
+<tr class="memitem:a7be12fe9f6b060c1e5e2976a864094ea" id="r_a7be12fe9f6b060c1e5e2976a864094ea"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7be12fe9f6b060c1e5e2976a864094ea">eventPlayerOrderChanged</a> (const <a class="el" href="../../d8/d87/structEvent__PlayerOrderChanged.html">Event_PlayerOrderChanged</a> &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
+<tr class="memdesc:a7be12fe9f6b060c1e5e2976a864094ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle a change of the seating / turn order.  <br /></td></tr>
 <tr class="memitem:a425eaa14ef6a4a6046a90359486405af" id="r_a425eaa14ef6a4a6046a90359486405af"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a425eaa14ef6a4a6046a90359486405af">eventPing</a> (const Event_Ping &amp;event, int eventPlayerId, const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;context)</td></tr>
 <tr class="memdesc:a425eaa14ef6a4a6046a90359486405af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle ping / latency updates.  <br /></td></tr>
 <tr id="pub-methods-6" class="groupHeader"><td colspan="2"><div class="groupHeader">Player lifecycle and property handlers</div></td></tr>
@@ -604,7 +609,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_aa3a752be25a98ff739c6c18fc8d1d0dc_cgraph.svg" width="508" height="91"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_aa3a752be25a98ff739c6c18fc8d1d0dc_cgraph.svg" width="100%" height="368"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -800,6 +805,44 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a7be12fe9f6b060c1e5e2976a864094ea" name="a7be12fe9f6b060c1e5e2976a864094ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7be12fe9f6b060c1e5e2976a864094ea">&#9670;&#160;</a></span>eventPlayerOrderChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameEventHandler::eventPlayerOrderChanged </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d8/d87/structEvent__PlayerOrderChanged.html">Event_PlayerOrderChanged</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>eventPlayerId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../dd/dd1/structGameEventContext.html">GameEventContext</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>context</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Handle a change of the seating / turn order. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a7be12fe9f6b060c1e5e2976a864094ea_cgraph.svg" width="100%" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a7be12fe9f6b060c1e5e2976a864094ea_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="ad0a8ae81f23c40d023717e1ba9a540c3" name="ad0a8ae81f23c40d023717e1ba9a540c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad0a8ae81f23c40d023717e1ba9a540c3">&#9670;&#160;</a></span>eventPlayerPropertiesChanged()</h2>
 
@@ -943,7 +986,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a8c5b211b72391aae98f00a1db77f135d_cgraph.svg" width="100%" height="562"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a8c5b211b72391aae98f00a1db77f135d_cgraph.svg" width="100%" height="548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1459,6 +1502,47 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a897ebe20e24915c632bf1af9b25f9796_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a02233174496b4f968de46d2e0246f445" name="a02233174496b4f968de46d2e0246f445"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02233174496b4f968de46d2e0246f445">&#9670;&#160;</a></span>handleSetPlayerOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameEventHandler::handleSetPlayerOrder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QString &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>playerNames</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>randomize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Request a new seating / turn order. </p>
+<p>Only the game host (or a moderator) may do this before the game starts.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">playerNames</td><td>Ordered list of player names. Ignored when randomize is true. </td></tr>
+    <tr><td class="paramname">randomize</td><td>Ask the server to shuffle the seats instead. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a02233174496b4f968de46d2e0246f445_cgraph.svg" width="100%" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a02233174496b4f968de46d2e0246f445_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2104,6 +2188,40 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_a6f02d78d37926022e3e6f85af5a43abf_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aee254a2eeae7edeea4a659a61d1be4de" name="aee254a2eeae7edeea4a659a61d1be4de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee254a2eeae7edeea4a659a61d1be4de">&#9670;&#160;</a></span>logTurnOrderChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameEventHandler::logTurnOrderChanged </td>
+          <td>(</td>
+          <td class="paramtype">QStringList</td>          <td class="paramname"><span class="paramname"><em>playerNames</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>randomized</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/db2/classGameEventHandler_aee254a2eeae7edeea4a659a61d1be4de_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

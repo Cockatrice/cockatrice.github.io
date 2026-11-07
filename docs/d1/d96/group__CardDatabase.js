@@ -79,10 +79,10 @@ var group__CardDatabase =
       [ "saveToCache", "d2/d1b/classCardDatabaseLoader.html#af0afcd4f1810f54b4ea655fd6ae8031d", null ],
       [ "availableParsers", "d2/d1b/classCardDatabaseLoader.html#a41c56af3a7d7dbe001da934245fe30cb", null ],
       [ "database", "d2/d1b/classCardDatabaseLoader.html#a304b598c14f088d959d398c7eab76c01", null ],
-      [ "loadFromFileMutex", "d2/d1b/classCardDatabaseLoader.html#ac541098b174808decac4158624ed6918", null ],
+      [ "loadFromFileMutex", "d2/d1b/classCardDatabaseLoader.html#a94a7ba1bc985890e58ec352e564ab60e", null ],
       [ "pathProvider", "d2/d1b/classCardDatabaseLoader.html#a493cfdb98c1c78afb45b44325cae61c0", null ],
       [ "priorityController", "d2/d1b/classCardDatabaseLoader.html#a85deb13d01d31752fb527263ebbf1230", null ],
-      [ "reloadDatabaseMutex", "d2/d1b/classCardDatabaseLoader.html#aff574f6180bda5fb7cbd5458cfb2290e", null ]
+      [ "reloadDatabaseMutex", "d2/d1b/classCardDatabaseLoader.html#a66c9171af6faf22554db86420b362ae2", null ]
     ] ],
     [ "CardDatabaseManager", "dc/db4/classCardDatabaseManager.html", [
       [ "CardDatabaseManager", "dc/db4/classCardDatabaseManager.html#a751d3957395d89a7fc2e053e25f1b7a6", null ],

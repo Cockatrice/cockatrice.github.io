@@ -5,5 +5,7 @@ var classTappedOutInterface =
     [ "copyDeckSplitMainAndSide", "d8/d9e/classTappedOutInterface.html#a17fd5bb2aef01ccfb408f393d5e6f834", null ],
     [ "getAnalyzeRequestData", "d8/d9e/classTappedOutInterface.html#ae3e15fe133ffb523da99fdb0d0887f90", null ],
     [ "queryFinished", "d8/d9e/classTappedOutInterface.html#a2e37223e280978cdf02d50261109bcdd", null ],
-    [ "manager", "d8/d9e/classTappedOutInterface.html#a58d20b7e98625b24b49be807af67e5c3", null ]
+    [ "showError", "d8/d9e/classTappedOutInterface.html#a54f516f0b095f02b1a88e7bf143ebfcc", null ],
+    [ "manager", "d8/d9e/classTappedOutInterface.html#a58d20b7e98625b24b49be807af67e5c3", null ],
+    [ "replyHandled", "d8/d9e/classTappedOutInterface.html#a8188228a569eb55cdc34555e4a0b731b", null ]
 ];

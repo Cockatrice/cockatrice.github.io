@@ -10,6 +10,7 @@ var structCommand__CreateGame =
     [ "only_registered", "d8/de6/structCommand__CreateGame.html#a60f98c1c1b5ddeeea70cac134865170a", null ],
     [ "password", "d8/de6/structCommand__CreateGame.html#a2f5d01c522787e29c896ccb113f34c0d", null ],
     [ "share_decklists_on_load", "d8/de6/structCommand__CreateGame.html#a06e9f32ea7cac245f53be4f9844cab0a", null ],
+    [ "shuffle_players", "d8/de6/structCommand__CreateGame.html#a95c0f6365ca13ad91045f61111caf1b4", null ],
     [ "spectators_allowed", "d8/de6/structCommand__CreateGame.html#a916caa36398ceb111e461e4543a2ba26", null ],
     [ "spectators_can_talk", "d8/de6/structCommand__CreateGame.html#a101683c2e95cdc030fff075e3e868aad", null ],
     [ "spectators_need_password", "d8/de6/structCommand__CreateGame.html#af620c8153d62b92c1ef6efc38d1eaa94", null ],

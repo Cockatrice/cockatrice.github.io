@@ -1,6 +1,7 @@
 var classCardInfoPictureWithTextOverlayWidget =
 [
     [ "CardInfoPictureWithTextOverlayWidget", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a4e94ea7ef0934a0f1905d38518084948", null ],
+    [ "applyCardTextFont", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a1b8e5ba05b8c8dca3dea21b52710fef3", null ],
     [ "drawOutlinedText", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#ac559146d12c9c056866fece085162dd5", null ],
     [ "minimumSizeHint", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#adc64acb3267f654c49295d06869174e8", null ],
     [ "mousePressEvent", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#ada1b7626dc7a5b89a3ee03a94f89a7a5", null ],

@@ -6,6 +6,7 @@ var deck__link__to__api__transformer_8h =
       [ "Archidekt", "da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a4d7a83579e075d9433b1cdbd4b2c7134", null ],
       [ "Moxfield", "da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a9855d965453d17249f98317f372d492f", null ],
       [ "Deckstats", "da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a0b7ea5af9a6c705933aaa016d5c4ad7c", null ],
+      [ "Manabox", "da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a0105b1caf637495de29a593a2b808e08", null ],
       [ "Unknown", "da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7a88183b946cc5f0e8c96b2e66e1c74a7e", null ]
     ] ],
     [ "DeckLinkToApiTransformer::parseDeckUrl", "de/d23/namespaceDeckLinkToApiTransformer.html#ab00138f4b97c67f24509d48d986ef707", null ]

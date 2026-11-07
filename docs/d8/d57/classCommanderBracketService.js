@@ -1,6 +1,7 @@
 var classCommanderBracketService =
 [
     [ "CommanderBracketService", "d8/d57/classCommanderBracketService.html#aafee200cb6297c998aeb7faf6c2b86dd", null ],
+    [ "cancelEstimate", "d8/d57/classCommanderBracketService.html#a9bcb2fbec65ec055f78dd2d77dd7efca", null ],
     [ "estimateBracket", "d8/d57/classCommanderBracketService.html#a2d14da39605cd221e181c27aaedc3382", null ],
     [ "estimateError", "d8/d57/classCommanderBracketService.html#a02f917a0e749546daea134c56ad75ada", null ],
     [ "estimateFinished", "d8/d57/classCommanderBracketService.html#a22d99cc1be735b8c581f76e78d9f7a56", null ],

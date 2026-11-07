@@ -28,6 +28,7 @@ var classPlayerManager =
     [ "playerUnconceded", "dc/d5d/classPlayerManager.html#a573ad9921e8883cfcd16d1fae77a2d49", null ],
     [ "removePlayer", "dc/d5d/classPlayerManager.html#a876bbe3a4404fd0efee60961c809fc7e", null ],
     [ "removeSpectator", "dc/d5d/classPlayerManager.html#ad6cadf3c96e2b54c2c92f8ed3d2699eb", null ],
+    [ "setLocalPlayerId", "dc/d5d/classPlayerManager.html#a64001e6aaf7544e3dbe03f7902f2dcff", null ],
     [ "spectatorAdded", "dc/d5d/classPlayerManager.html#a7cdc34a48933c3ba7a88301aa77cca33", null ],
     [ "spectatorRemoved", "dc/d5d/classPlayerManager.html#ae7d74e19e4232830c1b87745ee641c6c", null ],
     [ "cardPreferences", "dc/d5d/classPlayerManager.html#abd16447dd8ba82a1c47eb839f45c5c80", null ],

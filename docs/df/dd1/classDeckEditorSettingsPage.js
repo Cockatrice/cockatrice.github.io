@@ -7,6 +7,7 @@ var classDeckEditorSettingsPage =
     [ "actRemoveURL", "df/dd1/classDeckEditorSettingsPage.html#a302722a6ff52a91a456d0060505b7444", null ],
     [ "addUrlItem", "df/dd1/classDeckEditorSettingsPage.html#a891b98bc7013f1bbf4506274800a8849", null ],
     [ "getLastUpdateTime", "df/dd1/classDeckEditorSettingsPage.html#a7914016141861c242dac3472b6ad3bdc", null ],
+    [ "observeSpoilerUpdater", "df/dd1/classDeckEditorSettingsPage.html#a1a4e4b86ef314312ec9406c4c217c821", null ],
     [ "refreshUrlItems", "df/dd1/classDeckEditorSettingsPage.html#aa8c33576258b1b7bf9edaa97af02ab42", null ],
     [ "resetDownloadedURLsButtonClicked", "df/dd1/classDeckEditorSettingsPage.html#ab51442e087481d2c55fd1b7909638ffc", null ],
     [ "retranslateUi", "df/dd1/classDeckEditorSettingsPage.html#a2eaa3717c921ea553eaa0086d3fb1890", null ],
@@ -33,6 +34,7 @@ var classDeckEditorSettingsPage =
     [ "msDownloadSpoilersLabel", "df/dd1/classDeckEditorSettingsPage.html#a1d28705e33c93acffaf1f821ab2eb47e", null ],
     [ "picDownloadCheckBox", "df/dd1/classDeckEditorSettingsPage.html#a761b33a1ab3be4c031131133b874876c", null ],
     [ "resetDownloadURLs", "df/dd1/classDeckEditorSettingsPage.html#a15f386276c656612748ef968a8d6a993", null ],
+    [ "spoilerUpdater", "df/dd1/classDeckEditorSettingsPage.html#a86ec971e0eb3a482ec03cd518422962d", null ],
     [ "updateNowButton", "df/dd1/classDeckEditorSettingsPage.html#a7cf078a6d5c11ddd770e1d1568cb895f", null ],
     [ "urlLinkLabel", "df/dd1/classDeckEditorSettingsPage.html#a61a96e8047ab49d72e13c2dd2ac4fe1d", null ],
     [ "urlList", "df/dd1/classDeckEditorSettingsPage.html#a6792ce5508f081e7e1b5c71a26bd1580", null ]

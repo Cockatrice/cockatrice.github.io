@@ -1,8 +1,13 @@
 var searchData=
 [
-  ['emailtype_0',['EmailType',['../d3/d1e/smtpclient_8h.html#a114558b2be2475c8ddc52d620a75e6b1',1,'smtpclient.h']]],
-  ['errorcode_1',['ErrorCode',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412',1,'UnZip::ErrorCode'],['../d8/df5/classZip.html#aa445490ca64ce3051470bed52ee9198c',1,'Zip::ErrorCode']]],
-  ['eventprocessingoption_2',['EventProcessingOption',['../d6/d03/event__processing__options_8h.html#ac00015f1ae070abd2292fa4f69e0544a',1,'event_processing_options.h']]],
-  ['eventrecipient_3',['EventRecipient',['../da/df9/classGameEventStorageItem.html#a19cc9739761186fa56a0ff2292bc9d64',1,'GameEventStorageItem']]],
-  ['extractionoption_4',['ExtractionOption',['../de/d4e/classUnZip.html#ae76e35ba02ddc4793ddaca60a06e5968',1,'UnZip']]]
+  ['databasetype_0',['DatabaseType',['../d5/d0e/classServatrice.html#a47a0f6c8186a694ad51d117cb31cb15d',1,'Servatrice']]],
+  ['deckeditortype_1',['DeckEditorType',['../dd/d81/classTabSupervisor.html#a9a12eee7783c0c5e8310e96ec8a71d13',1,'TabSupervisor']]],
+  ['deckformat_2',['DeckFormat',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2',1,'ArchidektFormats']]],
+  ['decklistwebsite_3',['DecklistWebsite',['../de/de9/classDeckLoader.html#ad214abc48fd2d93f2a66bacf7d277e4b',1,'DeckLoader']]],
+  ['deckopenlocation_4',['DeckOpenLocation',['../d1/d53/classAbstractTabDeckEditor.html#a59362c003e9fd04abbec91a0962342dc',1,'AbstractTabDeckEditor']]],
+  ['deckprovider_5',['DeckProvider',['../da/d37/deck__link__to__api__transformer_8h.html#acf34e0fc437efaf15f52d112a2532da7',1,'deck_link_to_api_transformer.h']]],
+  ['decksortmethod_6',['DeckSortMethod',['../d1/d6c/group__DeckModels.html#ga8ea3802f8561f16be908a83a08a796ce',1,'abstract_deck_list_node.h']]],
+  ['deletepolicy_7',['DeletePolicy',['../dc/d55/namespaceQtUtils.html#aa97021f3e39461ce5ae27fc3d1e464d4',1,'QtUtils']]],
+  ['developercommandtype_8',['DeveloperCommandType',['../d9/d08/structDeveloperCommand.html#aad455c361544762146aff957214b1541',1,'DeveloperCommand']]],
+  ['displaytype_9',['DisplayType',['../d8/d36/visual__deck__editor__widget_8h.html#a18c0cbeece6bcb1c64d7463ce253ff50',1,'visual_deck_editor_widget.h']]]
 ];

@@ -1,6 +1,7 @@
 var classEdhrecCommanderResponseCommanderDetailsDisplayWidget =
 [
     [ "EdhrecCommanderResponseCommanderDetailsDisplayWidget", "d0/dd1/classEdhrecCommanderResponseCommanderDetailsDisplayWidget.html#a22f648c1c45d73ca15267606be1d74f8", null ],
+    [ "applyCardTextFont", "d0/dd1/classEdhrecCommanderResponseCommanderDetailsDisplayWidget.html#aaeb9d63e37740d80bdd98ab45d717021", null ],
     [ "retranslateUi", "d0/dd1/classEdhrecCommanderResponseCommanderDetailsDisplayWidget.html#a3c3f25ef53743253227600fce2c26098", null ],
     [ "cardPricesDisplayWidget", "d0/dd1/classEdhrecCommanderResponseCommanderDetailsDisplayWidget.html#acecc271d514e0e766a7ec281f98afb41", null ],
     [ "commanderDetails", "d0/dd1/classEdhrecCommanderResponseCommanderDetailsDisplayWidget.html#a1085b167574d548ad04d35f389fcf4cb", null ],

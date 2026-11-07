@@ -191,6 +191,7 @@ var hierarchy =
     [ "Command_SetCardAttr", "d3/d9c/structCommand__SetCardAttr.html", null ],
     [ "Command_SetCardCounter", "d2/d1a/structCommand__SetCardCounter.html", null ],
     [ "Command_SetCounter", "d5/d1e/structCommand__SetCounter.html", null ],
+    [ "Command_SetPlayerOrder", "da/d74/structCommand__SetPlayerOrder.html", null ],
     [ "Command_SetPlaymat", "d6/d66/structCommand__SetPlaymat.html", null ],
     [ "Command_SetSideboardLock", "d0/dce/structCommand__SetSideboardLock.html", null ],
     [ "Command_SetSideboardPlan", "df/de7/structCommand__SetSideboardPlan.html", null ],
@@ -312,6 +313,7 @@ var hierarchy =
     [ "Event_ListRooms", "db/db6/structEvent__ListRooms.html", null ],
     [ "Event_MoveCard", "de/dc3/structEvent__MoveCard.html", null ],
     [ "Event_NotifyUser", "d7/d65/structEvent__NotifyUser.html", null ],
+    [ "Event_PlayerOrderChanged", "d8/d87/structEvent__PlayerOrderChanged.html", null ],
     [ "Event_PlayerPropertiesChanged", "d4/d28/structEvent__PlayerPropertiesChanged.html", null ],
     [ "Event_RemoveFromList", "d8/d1a/structEvent__RemoveFromList.html", null ],
     [ "Event_RemoveMessages", "da/d7d/structEvent__RemoveMessages.html", null ],
@@ -337,6 +339,7 @@ var hierarchy =
     [ "ExactCard", "df/d4e/classExactCard.html", null ],
     [ "ExceptionRule", "de/dae/structExceptionRule.html", null ],
     [ "Expression", "de/d94/classExpression.html", null ],
+    [ "FilterModeInfo", "d5/d54/structFilterModeInfo.html", null ],
     [ "FilterString", "db/da4/classFilterString.html", null ],
     [ "FilterTreeNode", "db/d51/classFilterTreeNode.html", [
       [ "FilterTreeBranch< FilterItem * >", "d0/d92/classFilterTreeBranch.html", [
@@ -352,6 +355,8 @@ var hierarchy =
       [ "FilterTreeBranch< T >", "d0/d92/classFilterTreeBranch.html", null ]
     ] ],
     [ "peg::FirstSet", "d0/dc7/structpeg_1_1FirstSet.html", null ],
+    [ "FontConfig", "d3/d1f/structFontConfig.html", null ],
+    [ "FontGridWidget::FontRow", "db/d58/structFontGridWidget_1_1FontRow.html", null ],
     [ "FormatRules", "d2/da9/structFormatRules.html", null ],
     [ "Command_AttachCard::GameCommand", "d4/dda/structCommand__AttachCard_1_1GameCommand.html", null ],
     [ "Command_ChangeZoneProperties::GameCommand", "d8/dd5/structCommand__ChangeZoneProperties_1_1GameCommand.html", null ],
@@ -382,6 +387,7 @@ var hierarchy =
     [ "Command_SetCardAttr::GameCommand", "d7/d2e/structCommand__SetCardAttr_1_1GameCommand.html", null ],
     [ "Command_SetCardCounter::GameCommand", "dd/de3/structCommand__SetCardCounter_1_1GameCommand.html", null ],
     [ "Command_SetCounter::GameCommand", "de/d62/structCommand__SetCounter_1_1GameCommand.html", null ],
+    [ "Command_SetPlayerOrder::GameCommand", "da/d81/structCommand__SetPlayerOrder_1_1GameCommand.html", null ],
     [ "Command_SetPlaymat::GameCommand", "dc/dbe/structCommand__SetPlaymat_1_1GameCommand.html", null ],
     [ "Command_SetSideboardLock::GameCommand", "d3/d65/structCommand__SetSideboardLock_1_1GameCommand.html", null ],
     [ "Command_SetSideboardPlan::GameCommand", "db/d23/structCommand__SetSideboardPlan_1_1GameCommand.html", null ],
@@ -410,6 +416,7 @@ var hierarchy =
     [ "Event_Kicked::GameEvent", "de/de0/structEvent__Kicked_1_1GameEvent.html", null ],
     [ "Event_Leave::GameEvent", "d8/de5/structEvent__Leave_1_1GameEvent.html", null ],
     [ "Event_MoveCard::GameEvent", "d4/d28/structEvent__MoveCard_1_1GameEvent.html", null ],
+    [ "Event_PlayerOrderChanged::GameEvent", "dd/d27/structEvent__PlayerOrderChanged_1_1GameEvent.html", null ],
     [ "Event_PlayerPropertiesChanged::GameEvent", "d2/d3c/structEvent__PlayerPropertiesChanged_1_1GameEvent.html", null ],
     [ "Event_RevealCards::GameEvent", "d6/de1/structEvent__RevealCards_1_1GameEvent.html", null ],
     [ "Event_ReverseTurn::GameEvent", "dd/da5/structEvent__ReverseTurn_1_1GameEvent.html", null ],
@@ -483,6 +490,7 @@ var hierarchy =
     ] ],
     [ "IJsonDeckParser", "d0/d6c/classIJsonDeckParser.html", [
       [ "ArchidektJsonParser", "d3/def/classArchidektJsonParser.html", null ],
+      [ "ManaboxJsonParser", "d5/de7/classManaboxJsonParser.html", null ],
       [ "MoxfieldJsonParser", "dd/d95/classMoxfieldJsonParser.html", null ]
     ] ],
     [ "INetworkSettingsProvider", "d9/dad/classINetworkSettingsProvider.html", [
@@ -524,7 +532,6 @@ var hierarchy =
     [ "LoadSetsResult", "dc/df4/structLoadSetsResult.html", null ],
     [ "LocalGameOptions", "d9/de7/structLocalGameOptions.html", null ],
     [ "LocalizedCardEntry", "de/d87/structLocalizedCardEntry.html", null ],
-    [ "LockPixmapGenerator", "dd/dd6/classLockPixmapGenerator.html", null ],
     [ "LogCounters", "d5/df3/structLogCounters.html", null ],
     [ "peg::Context::LRMemo", "d4/d84/structpeg_1_1Context_1_1LRMemo.html", null ],
     [ "ManaBaseConfig", "dd/db2/structManaBaseConfig.html", null ],
@@ -627,6 +634,7 @@ var hierarchy =
     [ "PlaymatParams", "d0/d30/structPlaymatParams.html", null ],
     [ "ServerInfo_PlayerProperties::PlaymatParams", "d6/d34/structServerInfo__PlayerProperties_1_1PlaymatParams.html", null ],
     [ "PopupTheme", "d1/d10/structPopupTheme.html", null ],
+    [ "pqObjectNaming", "db/d4f/classpqObjectNaming.html", null ],
     [ "peg::Predicate", "da/da7/classpeg_1_1Predicate.html", null ],
     [ "BannerHost::Preset", "d3/dbb/structBannerHost_1_1Preset.html", null ],
     [ "PrintingInfo", "d6/d90/classPrintingInfo.html", null ],
@@ -646,6 +654,7 @@ var hierarchy =
       [ "RemotePublicDecksModel", "d5/d6d/classRemotePublicDecksModel.html", null ],
       [ "SettingsSearchModel", "df/d23/classSettingsSearchModel.html", null ],
       [ "TipsOfTheDay", "da/dc7/classTipsOfTheDay.html", null ],
+      [ "UserGamesModel", "dd/dad/classUserGamesModel.html", null ],
       [ "VisualDeckStorageModel", "d1/d10/classVisualDeckStorageModel.html", null ]
     ] ],
     [ "QAbstractProxyModel", null, [
@@ -696,6 +705,7 @@ var hierarchy =
       [ "DlgSharedDecksPreview", "d1/d86/classDlgSharedDecksPreview.html", null ],
       [ "DlgStartupCardCheck", "d9/dd7/classDlgStartupCardCheck.html", null ],
       [ "DlgTipOfTheDay", "d2/d00/classDlgTipOfTheDay.html", null ],
+      [ "DlgTurnOrder", "de/daa/classDlgTurnOrder.html", null ],
       [ "DlgUpdate", "d8/d3f/classDlgUpdate.html", null ],
       [ "DlgViewLog", "d8/d50/classDlgViewLog.html", null ],
       [ "DrawProbabilityConfigDialog", "d9/da1/classDrawProbabilityConfigDialog.html", null ],
@@ -709,7 +719,9 @@ var hierarchy =
       [ "PlaymatSettingsDialog", "d5/dac/classPlaymatSettingsDialog.html", null ],
       [ "ShutdownDialog", "d0/d35/classShutdownDialog.html", null ],
       [ "UserCardArtSettingsDialog", "d4/d35/classUserCardArtSettingsDialog.html", null ],
-      [ "WarningDialog", "d4/d0d/classWarningDialog.html", null ]
+      [ "WarningDialog", "d4/d0d/classWarningDialog.html", null ],
+      [ "pqPlayBackEventsDialog", "d4/d28/classpqPlayBackEventsDialog.html", null ],
+      [ "pqRecordEventsDialog", "d3/d64/classpqRecordEventsDialog.html", null ]
     ] ],
     [ "QDockWidget", null, [
       [ "DeckEditorCardDatabaseDockWidget", "d1/d94/classDeckEditorCardDatabaseDockWidget.html", null ],
@@ -738,6 +750,7 @@ var hierarchy =
       [ "AbstractCounter", "d4/d67/classAbstractCounter.html", null ],
       [ "ArrowItem", "df/d2a/classArrowItem.html", null ],
       [ "DeckViewCardContainer", "d9/dfc/classDeckViewCardContainer.html", null ],
+      [ "LibraryEdgeMarker", "dc/d2c/classLibraryEdgeMarker.html", null ],
       [ "PhaseButton", "da/d20/classPhaseButton.html", null ],
       [ "PhasesToolbar", "d7/d23/classPhasesToolbar.html", null ],
       [ "PlayerArea", "d8/d93/classPlayerArea.html", null ]
@@ -859,6 +872,7 @@ var hierarchy =
         [ "TabServer", "dc/d05/classTabServer.html", null ],
         [ "TabVisualDatabaseDisplay", "d0/d06/classTabVisualDatabaseDisplay.html", null ]
       ] ],
+      [ "TestingDemo", "d3/de1/classTestingDemo.html", null ],
       [ "WndSets", "dd/d67/classWndSets.html", null ]
     ] ],
     [ "QMap&lt; Key, T &gt;", "d0/d4c/classQMap.html", null ],
@@ -979,7 +993,8 @@ var hierarchy =
       [ "QxtSmtp", "de/d8a/classQxtSmtp.html", null ],
       [ "QxtSmtpPrivate", "d6/deb/classQxtSmtpPrivate.html", null ],
       [ "RNG_Abstract", "de/dba/classRNG__Abstract.html", [
-        [ "RNG_SFMT", "d4/dc7/classRNG__SFMT.html", null ]
+        [ "RNG_SFMT", "d4/dc7/classRNG__SFMT.html", null ],
+        [ "ScriptedRng", "d4/d37/classScriptedRng.html", null ]
       ] ],
       [ "ReleaseChannel", "d0/db2/classReleaseChannel.html", [
         [ "BetaReleaseChannel", "d0/dc4/classBetaReleaseChannel.html", null ],
@@ -1067,7 +1082,81 @@ var hierarchy =
       [ "UserListManager", "db/d6d/classUserListManager.html", null ],
       [ "VisibilityChangeListener", "df/d71/classVisibilityChangeListener.html", null ],
       [ "XzDecompressor", "d1/dfe/classXzDecompressor.html", null ],
-      [ "ZipPrivate", "df/daf/classZipPrivate.html", null ]
+      [ "ZipPrivate", "df/daf/classZipPrivate.html", null ],
+      [ "pqAbstractButtonEventTranslatorTester", "dc/d57/classpqAbstractButtonEventTranslatorTester.html", null ],
+      [ "pqDoubleSpinBoxEventPlayerTester", "d4/dd4/classpqDoubleSpinBoxEventPlayerTester.html", null ],
+      [ "pqDoubleSpinBoxEventTranslatorTester", "d2/d22/classpqDoubleSpinBoxEventTranslatorTester.html", null ],
+      [ "pqEventComment", "d9/d91/classpqEventComment.html", null ],
+      [ "pqEventDispatcher", "df/d70/classpqEventDispatcher.html", null ],
+      [ "pqEventObserver", "d5/db9/classpqEventObserver.html", [
+        [ "XMLEventObserver", "da/d13/classXMLEventObserver.html", null ],
+        [ "pqDummyEventObserver", "d7/d57/classpqDummyEventObserver.html", null ],
+        [ "pqPythonEventObserver", "d9/d4f/classpqPythonEventObserver.html", null ]
+      ] ],
+      [ "pqEventPlayer", "dd/df9/classpqEventPlayer.html", null ],
+      [ "pqEventPlayerTester", "d3/d85/classpqEventPlayerTester.html", null ],
+      [ "pqEventRecorder", "dc/da7/classpqEventRecorder.html", null ],
+      [ "pqEventRecorderTester", "d9/de2/classpqEventRecorderTester.html", null ],
+      [ "pqEventSource", "d6/dfc/classpqEventSource.html", [
+        [ "XMLEventSource", "dc/d89/classXMLEventSource.html", null ],
+        [ "pqDummyEventSource", "d1/ddd/classpqDummyEventSource.html", null ],
+        [ "pqThreadedEventSource", "d4/daa/classpqThreadedEventSource.html", [
+          [ "pqPythonEventSource", "db/dd0/classpqPythonEventSource.html", null ]
+        ] ]
+      ] ],
+      [ "pqEventTranslator", "d1/d3b/classpqEventTranslator.html", null ],
+      [ "pqEventTranslatorTester", "de/d92/classpqEventTranslatorTester.html", null ],
+      [ "pqObjectPlayer", "dd/d21/classpqObjectPlayer.html", [
+        [ "pqWidgetEventPlayer", "dd/db2/classpqWidgetEventPlayer.html", [
+          [ "TemplateEventPlayer", "d6/d24/classTemplateEventPlayer.html", null ],
+          [ "pq3DViewEventPlayer", "d3/d54/classpq3DViewEventPlayer.html", null ],
+          [ "pqAbstractActivateEventPlayer", "d9/df4/classpqAbstractActivateEventPlayer.html", null ],
+          [ "pqAbstractBooleanEventPlayer", "db/d53/classpqAbstractBooleanEventPlayer.html", null ],
+          [ "pqAbstractDoubleEventPlayer", "d6/da9/classpqAbstractDoubleEventPlayer.html", null ],
+          [ "pqAbstractIntEventPlayer", "d8/d3a/classpqAbstractIntEventPlayer.html", null ],
+          [ "pqAbstractItemViewEventPlayer", "d7/de6/classpqAbstractItemViewEventPlayer.html", null ],
+          [ "pqAbstractItemViewEventPlayerBase", "da/dbe/classpqAbstractItemViewEventPlayerBase.html", [
+            [ "pqListViewEventPlayer", "d3/d00/classpqListViewEventPlayer.html", null ],
+            [ "pqTableViewEventPlayer", "d0/d3c/classpqTableViewEventPlayer.html", null ],
+            [ "pqTreeViewEventPlayer", "d8/df4/classpqTreeViewEventPlayer.html", null ]
+          ] ],
+          [ "pqAbstractMiscellaneousEventPlayer", "de/d7e/classpqAbstractMiscellaneousEventPlayer.html", null ],
+          [ "pqAbstractStringEventPlayer", "d5/d2a/classpqAbstractStringEventPlayer.html", null ],
+          [ "pqBasicWidgetEventPlayer", "d8/d46/classpqBasicWidgetEventPlayer.html", null ],
+          [ "pqCockatriceEventPlayer", "dc/d5b/classpqCockatriceEventPlayer.html", null ],
+          [ "pqComboBoxEventPlayer", "de/d34/classpqComboBoxEventPlayer.html", null ],
+          [ "pqCommentEventPlayer", "d2/d15/classpqCommentEventPlayer.html", null ],
+          [ "pqNativeFileDialogEventPlayer", "dc/dcd/classpqNativeFileDialogEventPlayer.html", null ],
+          [ "pqTabBarEventPlayer", "d1/d9f/classpqTabBarEventPlayer.html", null ]
+        ] ]
+      ] ],
+      [ "pqSpinBoxEventPlayerTester", "db/d85/classpqSpinBoxEventPlayerTester.html", null ],
+      [ "pqSpinBoxEventTranslatorTester", "d9/da5/classpqSpinBoxEventTranslatorTester.html", null ],
+      [ "pqStdoutEventObserver", "dd/d67/classpqStdoutEventObserver.html", null ],
+      [ "pqTemplateEventPlayerTester", "d4/dca/classpqTemplateEventPlayerTester.html", null ],
+      [ "pqTemplateEventTranslatorTester", "d8/d21/classpqTemplateEventTranslatorTester.html", null ],
+      [ "pqTestUtility", "d9/dfa/classpqTestUtility.html", null ],
+      [ "pqTestUtilityTester", "d8/d3a/classpqTestUtilityTester.html", null ],
+      [ "pqWidgetEventTranslator", "d4/d30/classpqWidgetEventTranslator.html", [
+        [ "TemplateEventTranslator", "de/dc9/classTemplateEventTranslator.html", null ],
+        [ "pq3DViewEventTranslator", "d6/d3a/classpq3DViewEventTranslator.html", null ],
+        [ "pqAbstractButtonEventTranslator", "da/d91/classpqAbstractButtonEventTranslator.html", null ],
+        [ "pqAbstractItemViewEventTranslator", "d0/d86/classpqAbstractItemViewEventTranslator.html", null ],
+        [ "pqAbstractItemViewEventTranslatorBase", "d5/de6/classpqAbstractItemViewEventTranslatorBase.html", [
+          [ "pqListViewEventTranslator", "d3/d67/classpqListViewEventTranslator.html", null ],
+          [ "pqTableViewEventTranslator", "d7/de8/classpqTableViewEventTranslator.html", null ],
+          [ "pqTreeViewEventTranslator", "db/d3c/classpqTreeViewEventTranslator.html", null ]
+        ] ],
+        [ "pqAbstractSliderEventTranslator", "d2/d0d/classpqAbstractSliderEventTranslator.html", null ],
+        [ "pqBasicWidgetEventTranslator", "de/dcb/classpqBasicWidgetEventTranslator.html", null ],
+        [ "pqComboBoxEventTranslator", "df/dc5/classpqComboBoxEventTranslator.html", null ],
+        [ "pqDoubleSpinBoxEventTranslator", "d5/d27/classpqDoubleSpinBoxEventTranslator.html", null ],
+        [ "pqLineEditEventTranslator", "db/dff/classpqLineEditEventTranslator.html", null ],
+        [ "pqMenuEventTranslator", "d3/de4/classpqMenuEventTranslator.html", null ],
+        [ "pqNativeFileDialogEventTranslator", "d7/daa/classpqNativeFileDialogEventTranslator.html", null ],
+        [ "pqSpinBoxEventTranslator", "df/d75/classpqSpinBoxEventTranslator.html", null ],
+        [ "pqTabBarEventTranslator", "d0/d02/classpqTabBarEventTranslator.html", null ]
+      ] ]
     ] ],
     [ "QProxyStyle", null, [
       [ "MacOSTabFixStyle", "dd/d8d/classMacOSTabFixStyle.html", null ]
@@ -1124,6 +1213,9 @@ var hierarchy =
       [ "ChatView", "dc/dea/classChatView.html", [
         [ "MessageLogWidget", "d7/d93/classMessageLogWidget.html", null ]
       ] ]
+    ] ],
+    [ "QTimer", null, [
+      [ "pqTimer", "d5/d11/classpqTimer.html", null ]
     ] ],
     [ "QToolButton", null, [
       [ "ColorButton", "dc/dfa/classColorButton.html", null ]
@@ -1231,6 +1323,7 @@ var hierarchy =
       [ "FlowWidget", "d5/d53/classFlowWidget.html", [
         [ "VisualDatabaseDisplayFilterToolbarWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html", null ]
       ] ],
+      [ "FontGridWidget", "d1/d79/classFontGridWidget.html", null ],
       [ "GameSelectorQuickFilterToolBar", "df/dac/classGameSelectorQuickFilterToolBar.html", null ],
       [ "GradientFallbackWidget", "d3/d52/classGradientFallbackWidget.html", null ],
       [ "HomeWidget", "de/de3/classHomeWidget.html", null ],
@@ -1256,6 +1349,7 @@ var hierarchy =
       [ "PrintingSelectorPlaceholderWidget", "de/dc1/classPrintingSelectorPlaceholderWidget.html", null ],
       [ "PublicDeckPreviewWidget", "d8/d3b/classPublicDeckPreviewWidget.html", null ],
       [ "QuickSetupPanel", "d1/d9a/classQuickSetupPanel.html", null ],
+      [ "ReplayEventSidebar", "d2/d20/classReplayEventSidebar.html", null ],
       [ "ReplayTimelineWidget", "d5/d07/classReplayTimelineWidget.html", null ],
       [ "ReplayWidget", "d4/da2/classReplayWidget.html", null ],
       [ "ResizablePanel", "dc/dde/classResizablePanel.html", null ],
@@ -1293,7 +1387,8 @@ var hierarchy =
       [ "VisualDeckStorageSearchWidget", "d8/d1c/classVisualDeckStorageSearchWidget.html", null ],
       [ "VisualDeckStorageSortWidget", "dd/d71/classVisualDeckStorageSortWidget.html", null ],
       [ "VisualDeckStorageTagFilterWidget", "d8/d4e/classVisualDeckStorageTagFilterWidget.html", null ],
-      [ "VisualDeckStorageWidget", "d0/dfe/classVisualDeckStorageWidget.html", null ]
+      [ "VisualDeckStorageWidget", "d0/dfe/classVisualDeckStorageWidget.html", null ],
+      [ "pqCheckEventOverlay", "d1/dcd/classpqCheckEventOverlay.html", null ]
     ] ],
     [ "QWizard", null, [
       [ "OracleWizard", "d5/dba/classOracleWizard.html", null ]
@@ -1324,6 +1419,7 @@ var hierarchy =
     [ "RateLimiter", "da/dd7/classRateLimiter.html", null ],
     [ "peg::GrammarBlob::Reader", "d8/dfc/structpeg_1_1GrammarBlob_1_1Reader.html", null ],
     [ "Release", "db/d0a/classRelease.html", null ],
+    [ "ReplayEventEntry", "de/d47/structReplayEventEntry.html", null ],
     [ "ReportCategoryCount", "d6/da3/structReportCategoryCount.html", null ],
     [ "ReportTopUser", "d5/dd4/structReportTopUser.html", null ],
     [ "peg::DetectLeftRecursion::ResolvedArg", "d3/d3f/structpeg_1_1DetectLeftRecursion_1_1ResolvedArg.html", null ],
@@ -1477,6 +1573,7 @@ var hierarchy =
     [ "ServerInfo_User_Container", "d9/d5b/classServerInfo__User__Container.html", [
       [ "Server_AbstractParticipant", "d0/d00/classServer__AbstractParticipant.html", null ],
       [ "Server_AbstractUserInterface", "d5/d9c/classServer__AbstractUserInterface.html", [
+        [ "FakeUserInterface", "d2/d69/classFakeUserInterface.html", null ],
         [ "Server_ProtocolHandler", "d0/d23/classServer__ProtocolHandler.html", null ],
         [ "Server_RemoteUserInterface", "d8/d6a/classServer__RemoteUserInterface.html", null ]
       ] ]
@@ -1575,8 +1672,10 @@ var hierarchy =
     [ "TallyRow", "d3/d34/structTallyRow.html", null ],
     [ "testing::Test", null, [
       [ "AddCardAlgorithmTest", "d1/df2/classAddCardAlgorithmTest.html", null ],
+      [ "FilterModeTest", "d8/dc0/classFilterModeTest.html", null ],
       [ "LagMonitorTest", "d5/d8d/classLagMonitorTest.html", null ],
       [ "OracleImporterTest", "dd/d20/classOracleImporterTest.html", null ],
+      [ "PlayerOrderTest", "d7/d1a/classPlayerOrderTest.html", null ],
       [ "SetQuery", "d4/d1b/classSetQuery.html", null ]
     ] ],
     [ "ThemeConfig", "dc/dec/structThemeConfig.html", null ],

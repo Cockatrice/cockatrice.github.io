@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -150,12 +150,15 @@ Private Slots</h2></td></tr>
 <tr class="memitem:a3824720450b517de023e72b9428b5120" id="r_a3824720450b517de023e72b9428b5120"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3824720450b517de023e72b9428b5120">fileFinished</a> ()</td></tr>
 <tr class="memitem:aa7106aacba21048b2e2587de728f2586" id="r_aa7106aacba21048b2e2587de728f2586"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa7106aacba21048b2e2587de728f2586">downloadProgress</a> (qint64 bytesRead, qint64 totalBytes)</td></tr>
 <tr class="memitem:a98807f82ee6ee6158655854014b990fc" id="r_a98807f82ee6ee6158655854014b990fc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a98807f82ee6ee6158655854014b990fc">downloadError</a> (QNetworkReply::NetworkError)</td></tr>
+<tr class="memitem:a31abe08e268b29db0aa48d5b156f260b" id="r_a31abe08e268b29db0aa48d5b156f260b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a31abe08e268b29db0aa48d5b156f260b">cancelDownload</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a3007cb2a4244b4d05614ffcbdfc29870" id="r_a3007cb2a4244b4d05614ffcbdfc29870"><td class="memItemLeft">QUrl&#160;</td><td class="memItemRight"><a class="el" href="#a3007cb2a4244b4d05614ffcbdfc29870">originalUrl</a></td></tr>
 <tr class="memitem:aea6544915e47459a19e64b475d78ee45" id="r_aea6544915e47459a19e64b475d78ee45"><td class="memItemLeft">QNetworkAccessManager *&#160;</td><td class="memItemRight"><a class="el" href="#aea6544915e47459a19e64b475d78ee45">netMan</a></td></tr>
 <tr class="memitem:abf6af2c655826a54acb99afab64a7c18" id="r_abf6af2c655826a54acb99afab64a7c18"><td class="memItemLeft">QNetworkReply *&#160;</td><td class="memItemRight"><a class="el" href="#abf6af2c655826a54acb99afab64a7c18">response</a></td></tr>
+<tr class="memitem:a61b60aff1844c47fcfedf2789e1dff73" id="r_a61b60aff1844c47fcfedf2789e1dff73"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a61b60aff1844c47fcfedf2789e1dff73">errorReported</a> = false</td></tr>
+<tr class="memitem:adc96af084bfbc9ccb209b359d17b7cba" id="r_adc96af084bfbc9ccb209b359d17b7cba"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#adc96af084bfbc9ccb209b359d17b7cba">cancelRequested</a> = false</td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abaa70121a3cea8e987c45cc5f13b3cec" name="abaa70121a3cea8e987c45cc5f13b3cec"></a>
@@ -211,12 +214,42 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_aeafd4caf41489fb64172e8243bced9ac_cgraph.svg" width="100%" height="425"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_aeafd4caf41489fb64172e8243bced9ac_cgraph.svg" width="100%" height="529"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_aeafd4caf41489fb64172e8243bced9ac_icgraph.svg" width="100%" height="374"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_aeafd4caf41489fb64172e8243bced9ac_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a31abe08e268b29db0aa48d5b156f260b" name="a31abe08e268b29db0aa48d5b156f260b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31abe08e268b29db0aa48d5b156f260b">&#9670;&#160;</a></span>cancelDownload</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateDownloader::cancelDownload </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_a31abe08e268b29db0aa48d5b156f260b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -233,7 +266,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void UpdateDownloader::downloadError </td>
           <td>(</td>
-          <td class="paramtype">QNetworkReply::NetworkError</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">QNetworkReply::NetworkError</td>          <td class="paramname"><span class="paramname"><em>networkError</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -247,6 +280,11 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_a98807f82ee6ee6158655854014b990fc_cgraph.svg" width="462" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_a98807f82ee6ee6158655854014b990fc_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -285,7 +323,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_aa7106aacba21048b2e2587de728f2586_icgraph.svg" width="100%" height="381"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_aa7106aacba21048b2e2587de728f2586_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -345,7 +383,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_a7ff0c8f4c412ce73b0c31f67a9bd918d_icgraph.svg" width="100%" height="409"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_a7ff0c8f4c412ce73b0c31f67a9bd918d_icgraph.svg" width="100%" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -375,7 +413,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_a3824720450b517de023e72b9428b5120_cgraph.svg" width="100%" height="447"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_a3824720450b517de023e72b9428b5120_cgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -414,7 +452,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_a31a5115a43c020bb8b465d47a646ce54_icgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_a31a5115a43c020bb8b465d47a646ce54_icgraph.svg" width="100%" height="370"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -444,12 +482,56 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_a165be72293a10d85a650a0f122b45aa8_icgraph.svg" width="100%" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/df5/classUpdateDownloader_a165be72293a10d85a650a0f122b45aa8_icgraph.svg" width="100%" height="377"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="adc96af084bfbc9ccb209b359d17b7cba" name="adc96af084bfbc9ccb209b359d17b7cba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc96af084bfbc9ccb209b359d17b7cba">&#9670;&#160;</a></span>cancelRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UpdateDownloader::cancelRequested = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61b60aff1844c47fcfedf2789e1dff73" name="a61b60aff1844c47fcfedf2789e1dff73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61b60aff1844c47fcfedf2789e1dff73">&#9670;&#160;</a></span>errorReported</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UpdateDownloader::errorReported = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aea6544915e47459a19e64b475d78ee45" name="aea6544915e47459a19e64b475d78ee45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea6544915e47459a19e64b475d78ee45">&#9670;&#160;</a></span>netMan</h2>
 

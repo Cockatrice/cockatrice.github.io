@@ -1,6 +1,7 @@
 var classArchidektDeckPreviewImageDisplayWidget =
 [
     [ "ArchidektDeckPreviewImageDisplayWidget", "d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a77aa27d3d98e1dd503d35eb0dda600cf", null ],
+    [ "applyCardTextFont", "d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a62c29481b39fa9bcf227b7360d506144", null ],
     [ "resizeEvent", "d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a89701a5ea0e4af5e2cfb4f5a4f7406f2", null ],
     [ "setAspectRatio", "d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a924d733a5b41e07ee77f54f62c34c3c4", null ],
     [ "setPreviewWidth", "d6/d30/classArchidektDeckPreviewImageDisplayWidget.html#a20a97d403a81a9e367d7cc6637a9c5f0", null ],

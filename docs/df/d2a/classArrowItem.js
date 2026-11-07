@@ -4,6 +4,7 @@ var classArrowItem =
     [ "~ArrowItem", "df/d2a/classArrowItem.html#ab3616a55394197141288dabe8857783b", null ],
     [ "animationEvent", "df/d2a/classArrowItem.html#aebb8dc63fc0675e373b4a096bddb8a1b", null ],
     [ "boundingRect", "df/d2a/classArrowItem.html#a34fe9167ba9b5bdfd0e9758e470fdd41", null ],
+    [ "cancel", "df/d2a/classArrowItem.html#a343f552a2b748399aa9ba9e6d6e3cc2c", null ],
     [ "delArrow", "df/d2a/classArrowItem.html#af7b4f4d39be60c52707f5ff7422ad587", null ],
     [ "getCreatorId", "df/d2a/classArrowItem.html#a38e4be336bfe6d889b94f52db757bec3", null ],
     [ "getId", "df/d2a/classArrowItem.html#a6541adc39ca59b780ce5b66fa5ca8354", null ],

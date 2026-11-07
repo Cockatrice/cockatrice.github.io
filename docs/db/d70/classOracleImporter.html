@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -147,6 +147,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a24e494e9e70dd940d249e3346eda2d1b" id="r_a24e494e9e70dd940d249e3346eda2d1b"><td class="memItemLeft">const QString &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a24e494e9e70dd940d249e3346eda2d1b">getCardLang</a> () const</td></tr>
 <tr class="memitem:adae9c14ed857838b09cfca834a416712" id="r_adae9c14ed857838b09cfca834a416712"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#adae9c14ed857838b09cfca834a416712">readSetsFromByteArray</a> (QByteArray data)</td></tr>
 <tr class="memitem:a646b5f8925967d8649528bd1fe1962ce" id="r_a646b5f8925967d8649528bd1fe1962ce"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a646b5f8925967d8649528bd1fe1962ce">startImport</a> ()</td></tr>
+<tr class="memitem:a844673f9e44f9b066cef70385e597c62" id="r_a844673f9e44f9b066cef70385e597c62"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a844673f9e44f9b066cef70385e597c62">hasSuccessfulImport</a> () const</td></tr>
+<tr class="memitem:a8e4442c7ba4749162e1ace2c707a25a7" id="r_a8e4442c7ba4749162e1ace2c707a25a7"><td class="memItemLeft">const QString &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a8e4442c7ba4749162e1ace2c707a25a7">getImportError</a> () const</td></tr>
+<tr class="memitem:a48b1921ccf3b29d3cb59509d06d96982" id="r_a48b1921ccf3b29d3cb59509d06d96982"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a48b1921ccf3b29d3cb59509d06d96982">prepareImport</a> ()</td></tr>
 <tr class="memitem:a08804d551f62918f3a3204fccbacd6fb" id="r_a08804d551f62918f3a3204fccbacd6fb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a08804d551f62918f3a3204fccbacd6fb">cancelImport</a> ()</td></tr>
 <tr class="memdesc:a08804d551f62918f3a3204fccbacd6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests an in-flight <a class="el" href="#a646b5f8925967d8649528bd1fe1962ce">startImport()</a> to stop at the next set boundary.  <br /></td></tr>
 <tr class="memitem:aefe230e02943779366ad16dfbe60624c" id="r_aefe230e02943779366ad16dfbe60624c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aefe230e02943779366ad16dfbe60624c">applyLocalizedData</a> ()</td></tr>
@@ -162,6 +165,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:af00699b7b6497bedbd79bf19f8f8c18c" id="r_af00699b7b6497bedbd79bf19f8f8c18c"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#af00699b7b6497bedbd79bf19f8f8c18c">failImport</a> (const QString &amp;message)</td></tr>
 <tr class="memitem:a796a918ea604fdc96c44d76865e7d7f9" id="r_a796a918ea604fdc96c44d76865e7d7f9"><td class="memItemLeft"><a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a>&#160;</td><td class="memItemRight"><a class="el" href="#a796a918ea604fdc96c44d76865e7d7f9">addCard</a> (QString name, const QString &amp;text, bool isToken, <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt; QString, QString &gt; properties, const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../db/ded/classCardRelation.html">CardRelation</a> * &gt; &amp;relatedCards, const <a class="el" href="../../d6/d90/classPrintingInfo.html">PrintingInfo</a> &amp;printingInfo)</td></tr>
 <tr class="memitem:ae50a902231416c696121f62c286fcafb" id="r_ae50a902231416c696121f62c286fcafb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae50a902231416c696121f62c286fcafb">collectForeignData</a> (const QString &amp;cardKey, const <a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a> &amp;currentSet, const QJsonObject &amp;card, bool collectText=true)</td></tr>
 </table><table class="memberdecls">
@@ -173,6 +177,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a28a03162650cc8ce6493f7daa8a73b3f" id="r_a28a03162650cc8ce6493f7daa8a73b3f"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#a28a03162650cc8ce6493f7daa8a73b3f">rawSetsData</a></td></tr>
 <tr class="memitem:a0c5eb614459714bf75faa58815dcea9c" id="r_a0c5eb614459714bf75faa58815dcea9c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0c5eb614459714bf75faa58815dcea9c">progressReporting</a> = true</td></tr>
 <tr class="memitem:a1fa40af00b405f76197127b64aeadce9" id="r_a1fa40af00b405f76197127b64aeadce9"><td class="memItemLeft">QAtomicInt&#160;</td><td class="memItemRight"><a class="el" href="#a1fa40af00b405f76197127b64aeadce9">importCancelled</a></td></tr>
+<tr class="memitem:aad0881b309f425d95788b164b3c5c833" id="r_aad0881b309f425d95788b164b3c5c833"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aad0881b309f425d95788b164b3c5c833">importSuccessful</a> = false</td></tr>
+<tr class="memitem:ad9e024b7d4ba8b21ff26e6f2a584a8f9" id="r_ad9e024b7d4ba8b21ff26e6f2a584a8f9"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ad9e024b7d4ba8b21ff26e6f2a584a8f9">importError</a></td></tr>
 <tr class="memitem:a14da6fe16bd9aead0cce82510ac63843" id="r_a14da6fe16bd9aead0cce82510ac63843"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a14da6fe16bd9aead0cce82510ac63843">cardLang</a> = &quot;en&quot;</td></tr>
 <tr class="memitem:a30697e3ac50fb7c0b8e6aa7f6fbbfde3" id="r_a30697e3ac50fb7c0b8e6aa7f6fbbfde3"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a30697e3ac50fb7c0b8e6aa7f6fbbfde3">localizationEnabled</a> = false</td></tr>
 <tr class="memitem:af57c91cfaa9fa55480f49b0be2a0c137" id="r_af57c91cfaa9fa55480f49b0be2a0c137"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, <a class="el" href="../../de/d87/structLocalizedCardEntry.html">LocalizedCardEntry</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af57c91cfaa9fa55480f49b0be2a0c137">localizedEntries</a></td></tr>
@@ -344,6 +350,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_aee18776bd3879a8b153a8a6290cd5666_cgraph.svg" width="439" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_aee18776bd3879a8b153a8a6290cd5666_icgraph.svg" width="420" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
@@ -465,6 +476,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af00699b7b6497bedbd79bf19f8f8c18c" name="af00699b7b6497bedbd79bf19f8f8c18c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af00699b7b6497bedbd79bf19f8f8c18c">&#9670;&#160;</a></span>failImport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OracleImporter::failImport </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_af00699b7b6497bedbd79bf19f8f8c18c_icgraph.svg" width="552" height="143"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a24e494e9e70dd940d249e3346eda2d1b" name="a24e494e9e70dd940d249e3346eda2d1b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a24e494e9e70dd940d249e3346eda2d1b">&#9670;&#160;</a></span>getCardLang()</h2>
 
@@ -516,6 +557,36 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_a64026f0963ce881b38738fbf916fb3dd_icgraph.svg" width="100%" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8e4442c7ba4749162e1ace2c707a25a7" name="a8e4442c7ba4749162e1ace2c707a25a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e4442c7ba4749162e1ace2c707a25a7">&#9670;&#160;</a></span>getImportError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QString &amp; OracleImporter::getImportError </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_a8e4442c7ba4749162e1ace2c707a25a7_icgraph.svg" width="455" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -575,6 +646,31 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a844673f9e44f9b066cef70385e597c62" name="a844673f9e44f9b066cef70385e597c62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a844673f9e44f9b066cef70385e597c62">&#9670;&#160;</a></span>hasSuccessfulImport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OracleImporter::hasSuccessfulImport </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6c391b5029aa020ec3e81b8777b687d6" name="a6c391b5029aa020ec3e81b8777b687d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6c391b5029aa020ec3e81b8777b687d6">&#9670;&#160;</a></span>importCardsFromSet()</h2>
 
@@ -602,6 +698,36 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_a6c391b5029aa020ec3e81b8777b687d6_icgraph.svg" width="568" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a48b1921ccf3b29d3cb59509d06d96982" name="a48b1921ccf3b29d3cb59509d06d96982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48b1921ccf3b29d3cb59509d06d96982">&#9670;&#160;</a></span>prepareImport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OracleImporter::prepareImport </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_a48b1921ccf3b29d3cb59509d06d96982_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -920,6 +1046,50 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <p>Atomic "please stop importing" flag. <a class="el" href="#a646b5f8925967d8649528bd1fe1962ce">startImport()</a> checks it between sets so a wizard being closed mid-import can be torn down without waiting for the whole import (or racing it). </p>
+
+</div>
+</div>
+<a id="ad9e024b7d4ba8b21ff26e6f2a584a8f9" name="ad9e024b7d4ba8b21ff26e6f2a584a8f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9e024b7d4ba8b21ff26e6f2a584a8f9">&#9670;&#160;</a></span>importError</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString OracleImporter::importError</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad0881b309f425d95788b164b3c5c833" name="aad0881b309f425d95788b164b3c5c833"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad0881b309f425d95788b164b3c5c833">&#9670;&#160;</a></span>importSuccessful</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OracleImporter::importSuccessful = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

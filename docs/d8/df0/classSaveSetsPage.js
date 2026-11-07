@@ -12,6 +12,7 @@ var classSaveSetsPage =
     [ "defaultPathCheckBox", "d8/df0/classSaveSetsPage.html#a1dbe9eb7d43f9f6c3ce663255b8305db", null ],
     [ "importActive", "d8/df0/classSaveSetsPage.html#a2546c880754e50b503748a27b094a41d", null ],
     [ "importFuture", "d8/df0/classSaveSetsPage.html#a317bcec5d0c241c3ea4c901ad6748f93", null ],
+    [ "importReady", "d8/df0/classSaveSetsPage.html#a8ff6b936a4b938ccde5b9a3e406f447b", null ],
     [ "importWatcher", "d8/df0/classSaveSetsPage.html#a8343d7a579754073698497409426bc5a", null ],
     [ "messageLog", "d8/df0/classSaveSetsPage.html#a74f7afcaff9a72cf4fd11729bd2d9348", null ],
     [ "pathLabel", "d8/df0/classSaveSetsPage.html#a26a4e7e23955454474264d865785e7f5", null ],

@@ -3,6 +3,7 @@ var classTabReport =
     [ "TabReport", "dc/d80/classTabReport.html#ad221596ca27e04bdab9c95476fe4ce0f", null ],
     [ "addComment", "dc/d80/classTabReport.html#a489bde6fa5f306536c0e68d682504304", null ],
     [ "addCommentResponse", "dc/d80/classTabReport.html#a2f1a4351a22284c964d320818752067a", null ],
+    [ "applyChatLogFont", "dc/d80/classTabReport.html#a61419b87f7eaf527b54023343a73fed4", null ],
     [ "applyFilters", "dc/d80/classTabReport.html#a53182419f313e31d410cfedbd9a3df7a", null ],
     [ "assignReport", "dc/d80/classTabReport.html#a306952dc3f6afb6b8c2973d8002ba2ef", null ],
     [ "assignResponse", "dc/d80/classTabReport.html#ab7c9a9b59dbac361469082ad87a14687", null ],

@@ -14,6 +14,7 @@ var classCardInfo =
     [ "getCardType", "dd/dd2/classCardInfo.html#ae4d332485255b973e67e25b2b6e47a8a", null ],
     [ "getCmc", "dd/dd2/classCardInfo.html#a2d407607f824f5d0eed3be8bd93cfce4", null ],
     [ "getColorChar", "dd/dd2/classCardInfo.html#a7e7d485700eda62fd4d3acb82e00f507", null ],
+    [ "getColorIdentity", "dd/dd2/classCardInfo.html#ac7dc0afb7fd2a104092e594d73098c5e", null ],
     [ "getColors", "dd/dd2/classCardInfo.html#ac0e8d8f7cfee738932a89255a511850c", null ],
     [ "getCorrectedName", "dd/dd2/classCardInfo.html#ace34d5f218fb6639f7cef655e1e81eb5", null ],
     [ "getIsToken", "dd/dd2/classCardInfo.html#ad1a6f146db23f1629b4d89fcacbfc5af", null ],

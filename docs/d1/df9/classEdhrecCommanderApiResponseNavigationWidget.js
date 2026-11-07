@@ -5,6 +5,7 @@ var classEdhrecCommanderApiResponseNavigationWidget =
     [ "actRequestComboNavigation", "d1/df9/classEdhrecCommanderApiResponseNavigationWidget.html#a22db71463fdc363496de19192d7e38a1", null ],
     [ "actRequestCommanderNavigation", "d1/df9/classEdhrecCommanderApiResponseNavigationWidget.html#afce05a38ee90c3758c006fac0bef4336", null ],
     [ "addNavigationOptionsToUrl", "d1/df9/classEdhrecCommanderApiResponseNavigationWidget.html#a23abbc11fdbe0970a1ec9ce43ee21b9c", null ],
+    [ "applyInterfaceDefaultFont", "d1/df9/classEdhrecCommanderApiResponseNavigationWidget.html#aadf0628b31130896fab2918df732b3a1", null ],
     [ "buildComboUrl", "d1/df9/classEdhrecCommanderApiResponseNavigationWidget.html#a34db5a30d64e3bde7507aee21238bd26", null ],
     [ "requestUrl", "d1/df9/classEdhrecCommanderApiResponseNavigationWidget.html#a728773b7eb6ce1bf4c84f5429e4f379b", null ],
     [ "retranslateUi", "d1/df9/classEdhrecCommanderApiResponseNavigationWidget.html#aa8917ebe52e57bfa0bc71e5b1bc784cc", null ],

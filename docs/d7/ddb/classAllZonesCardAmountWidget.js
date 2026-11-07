@@ -2,6 +2,7 @@ var classAllZonesCardAmountWidget =
 [
     [ "AllZonesCardAmountWidget", "d7/ddb/classAllZonesCardAmountWidget.html#a3ea6aebe14df3cd9ddd107ebfaa8923c", null ],
     [ "adjustFontSize", "d7/ddb/classAllZonesCardAmountWidget.html#adb7a0fb1458bbc251891c917f0bc3b82", null ],
+    [ "applyCardTextFont", "d7/ddb/classAllZonesCardAmountWidget.html#a3d5963cb6fb99f88944c8739578f775c", null ],
     [ "enterEvent", "d7/ddb/classAllZonesCardAmountWidget.html#aa4e03f80e3acac13e35f5a0235584cb2", null ],
     [ "getMainboardAmount", "d7/ddb/classAllZonesCardAmountWidget.html#ac96d24629967d3ac607fb810ee26fa36", null ],
     [ "getSideboardAmount", "d7/ddb/classAllZonesCardAmountWidget.html#ac664b3bc94d887b3873c18dd2893691f", null ],

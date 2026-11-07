@@ -6,6 +6,7 @@ var classCardAmountWidget =
     [ "addPrintingSideboard", "dc/d15/classCardAmountWidget.html#aedf81cc186bace12827aa73b0eede4e1", null ],
     [ "addPrintingTokensboard", "dc/d15/classCardAmountWidget.html#a636a06e34e8b417810eaf15dd48c4315", null ],
     [ "adjustFontSize", "dc/d15/classCardAmountWidget.html#a2101fc800ad667ce48a92548a716c438", null ],
+    [ "applyCardTextFont", "dc/d15/classCardAmountWidget.html#acde2943a4b06df0525c8047ed462fe3f", null ],
     [ "deckModified", "dc/d15/classCardAmountWidget.html#a9759fcbe79ff3d583022588926152fc7", null ],
     [ "decrementCardHelper", "dc/d15/classCardAmountWidget.html#af71524865134ef927c642e7594defd2b", null ],
     [ "getAmount", "dc/d15/classCardAmountWidget.html#aa27c753cee621c69afdea88c599a5ac3", null ],

@@ -2,6 +2,7 @@ var classPlayerMenu =
 [
     [ "PlayerMenu", "d7/dd6/classPlayerMenu.html#ac6921cbf87a93929f882def822602cf5", null ],
     [ "addManagedMenu", "d7/dd6/classPlayerMenu.html#a88d6feb2f2201e9d95ce4365d34a393d", null ],
+    [ "applyLobbyShortcuts", "d7/dd6/classPlayerMenu.html#a8039e86bdbacf36b100638c8edd7b571", null ],
     [ "cardInfoRequested", "d7/dd6/classPlayerMenu.html#adcb74b94287cfc1843b9c46e4b0c9398", null ],
     [ "cardMenuUpdated", "d7/dd6/classPlayerMenu.html#a2ed31dd000f03c9775b976014e9fbccc", null ],
     [ "createManagedComponent", "d7/dd6/classPlayerMenu.html#a44e493fcf061c0a7dab3a18b5bf8d444", null ],
@@ -10,6 +11,7 @@ var classPlayerMenu =
     [ "getPlayerMenu", "d7/dd6/classPlayerMenu.html#afd8348d365a695a0ce832b03eb65ea8a", null ],
     [ "getShortcutsActive", "d7/dd6/classPlayerMenu.html#acf6c0f7f3c3bb0e57b7f395745533f1e", null ],
     [ "getUtilityMenu", "d7/dd6/classPlayerMenu.html#af8f6fc072657a0a71081f2c69824fdb6", null ],
+    [ "isGameStarted", "d7/dd6/classPlayerMenu.html#a50d904b4c480a925b0bfb4771b5ec5d6", null ],
     [ "refreshShortcuts", "d7/dd6/classPlayerMenu.html#a49d8fac881ee3ef4e3fbaac6e05ef690", null ],
     [ "retranslateRequested", "d7/dd6/classPlayerMenu.html#a2220b93bda8cae37bb11d4ba07fbfefd", null ],
     [ "retranslateUi", "d7/dd6/classPlayerMenu.html#a7bb215366af8e9cfa3553e1690e5c78a", null ],

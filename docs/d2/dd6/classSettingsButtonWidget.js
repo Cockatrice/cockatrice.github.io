@@ -7,7 +7,7 @@ var classSettingsButtonWidget =
     [ "mousePressEvent", "d2/dd6/classSettingsButtonWidget.html#aac3d0a8d817b169a9326f1553a82675e", null ],
     [ "onPopupClosed", "d2/dd6/classSettingsButtonWidget.html#a4d2200cbdfe8fd0a05ed7eae07163414", null ],
     [ "removeSettingsWidget", "d2/dd6/classSettingsButtonWidget.html#aea853c71c47a252446a1a101d0363c84", null ],
-    [ "setButtonIcon", "d2/dd6/classSettingsButtonWidget.html#a93e11cc4cc43a09cfd334912f45c7106", null ],
+    [ "setButtonIcon", "d2/dd6/classSettingsButtonWidget.html#abcf917810f5ad30582f66eeae158c59a", null ],
     [ "setButtonText", "d2/dd6/classSettingsButtonWidget.html#ab31d18595db1f70f83191b73add403f0", null ],
     [ "setCompact", "d2/dd6/classSettingsButtonWidget.html#a677bf3c89b0b58eecbcae1cff482d1c9", null ],
     [ "togglePopup", "d2/dd6/classSettingsButtonWidget.html#a7f16fe8b582e8faa438890ba54decf3c", null ],

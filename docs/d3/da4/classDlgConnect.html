@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -204,7 +204,10 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a21badca3ef3d8b7b988d735883e4c6cc" id="r_a21badca3ef3d8b7b988d735883e4c6cc"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a21badca3ef3d8b7b988d735883e4c6cc">btnDeleteServer</a></td></tr>
 <tr class="memitem:a4fe921810f6d22976390c2ffe50bbf40" id="r_a4fe921810f6d22976390c2ffe50bbf40"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, std::pair&lt; QString, <a class="el" href="../../d5/d88/classUserConnection__Information.html">UserConnection_Information</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a4fe921810f6d22976390c2ffe50bbf40">savedHostList</a></td></tr>
 <tr class="memitem:a1718c5f0c17c098d1cfc54a52a53b23e" id="r_a1718c5f0c17c098d1cfc54a52a53b23e"><td class="memItemLeft"><a class="el" href="../../d9/ddd/classHandlePublicServers.html">HandlePublicServers</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a1718c5f0c17c098d1cfc54a52a53b23e">hps</a></td></tr>
+<tr class="memitem:a18af1304dc2bbfd4ec3dc83d57e9ed4f" id="r_a18af1304dc2bbfd4ec3dc83d57e9ed4f"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a18af1304dc2bbfd4ec3dc83d57e9ed4f">savedVerifier</a></td></tr>
+<tr class="memdesc:a18af1304dc2bbfd4ec3dc83d57e9ed4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saved "$scrypt$..." verifier as loaded for the selected profile, kept so that re-ticking "Save password" after unticking restores it.  <br /></td></tr>
 <tr class="memitem:a6961c137635bce98ffc8a572b8b1b51c" id="r_a6961c137635bce98ffc8a572b8b1b51c"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a6961c137635bce98ffc8a572b8b1b51c">storedVerifier</a></td></tr>
+<tr class="memdesc:a6961c137635bce98ffc8a572b8b1b51c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifier in effect for this connection: empty while "Save password" is unticked.  <br /></td></tr>
 <tr class="memitem:a959057e5065fdf9b740c1a9ed276eb9b" id="r_a959057e5065fdf9b740c1a9ed276eb9b"><td class="memItemLeft">const QString&#160;</td><td class="memItemRight"><a class="el" href="#a959057e5065fdf9b740c1a9ed276eb9b">placeHolderText</a> = tr(&quot;Downloading...&quot;)</td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -1503,6 +1506,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a18af1304dc2bbfd4ec3dc83d57e9ed4f" name="a18af1304dc2bbfd4ec3dc83d57e9ed4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18af1304dc2bbfd4ec3dc83d57e9ed4f">&#9670;&#160;</a></span>savedVerifier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DlgConnect::savedVerifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saved "$scrypt$..." verifier as loaded for the selected profile, kept so that re-ticking "Save password" after unticking restores it. </p>
+
+</div>
+</div>
 <a id="a7e0e5d99f87bfaea903c14e949fcf947" name="a7e0e5d99f87bfaea903c14e949fcf947"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7e0e5d99f87bfaea903c14e949fcf947">&#9670;&#160;</a></span>saveEdit</h2>
 
@@ -1698,6 +1725,8 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Verifier in effect for this connection: empty while "Save password" is unticked. </p>
 
 </div>
 </div>

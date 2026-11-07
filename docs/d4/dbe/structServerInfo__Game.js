@@ -13,6 +13,7 @@ var structServerInfo__Game =
     [ "room_id", "d4/dbe/structServerInfo__Game.html#a429dc00a368fc62c9a6d1136dce8173f", null ],
     [ "server_id", "d4/dbe/structServerInfo__Game.html#a8001cb7d4d309bc0dc70106e608a9350", null ],
     [ "share_decklists_on_load", "d4/dbe/structServerInfo__Game.html#ae1fd5e8e7747d81e6ba767f39f2d9ca0", null ],
+    [ "shuffle_players", "d4/dbe/structServerInfo__Game.html#ad74c6affd17113cb2bd4ca2fc648a311", null ],
     [ "spectators_allowed", "d4/dbe/structServerInfo__Game.html#aa5eaa0f09667e99e8e6d2224def72148", null ],
     [ "spectators_can_chat", "d4/dbe/structServerInfo__Game.html#afa71312165e7c3f6350538a368a820b4", null ],
     [ "spectators_count", "d4/dbe/structServerInfo__Game.html#a6c9a9863d946b78171b93989af13fb56", null ],

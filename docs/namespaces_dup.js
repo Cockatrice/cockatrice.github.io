@@ -6,6 +6,14 @@ var namespaces_dup =
         [ "AccentSoft", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a566a76d9192ef71afe404432bff3b67c", null ]
       ] ]
     ] ],
+    [ "AppFont", "d2/d21/namespaceAppFont.html", [
+      [ "Role", "d2/d21/namespaceAppFont.html#a15dd36a84984059c081e7f5c7eb4ec84", [
+        [ "InterfaceDefault", "d2/d21/namespaceAppFont.html#a15dd36a84984059c081e7f5c7eb4ec84ae5cbfebf29489ff367e57537dec80bbc", null ],
+        [ "ChatLog", "d2/d21/namespaceAppFont.html#a15dd36a84984059c081e7f5c7eb4ec84acaedc4852e1a2723e39b10487706ab0c", null ],
+        [ "CardText", "d2/d21/namespaceAppFont.html#a15dd36a84984059c081e7f5c7eb4ec84a4566be512af4236989bd2fc3640cb6af", null ],
+        [ "DeckList", "d2/d21/namespaceAppFont.html#a15dd36a84984059c081e7f5c7eb4ec84a962c30515c25533053c62f86c3d51c97", null ]
+      ] ]
+    ] ],
     [ "ArchidektFormats", "dc/d95/namespaceArchidektFormats.html", [
       [ "DeckFormat", "dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2", [
         [ "Standard", "dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2aeb6d8ae6f20283755b339c0dc273988b", null ],
@@ -40,6 +48,7 @@ var namespaces_dup =
       [ "formatToCockatriceName", "dc/d95/namespaceArchidektFormats.html#aaf6f587210cecf39d83ae062cc6970b6", null ]
     ] ],
     [ "CardArtUtils", "d0/d1e/namespaceCardArtUtils.html", [
+      [ "cropCardArt", "d0/d1e/namespaceCardArtUtils.html#ab4b56c695e21d4c3eb78ffb4f557613e", null ],
       [ "rotateSidewaysLayoutArt", "d0/d1e/namespaceCardArtUtils.html#a33971cbfa356b66b1a75d78507e471d9", null ]
     ] ],
     [ "CardDatabaseCache", "d0/df0/namespaceCardDatabaseCache.html", [
@@ -81,6 +90,10 @@ var namespaces_dup =
       [ "randomBytes", "dc/d23/namespaceCryptoUtil.html#a5423b665382f70c06c0f6911e4d7f212", null ],
       [ "randomUInt64", "dc/d23/namespaceCryptoUtil.html#a651a904e55bdba2021b04b26de455cb5", null ]
     ] ],
+    [ "ctkTest", "d7/dab/namespacectkTest.html", [
+      [ "mouseEvent", "d7/dab/namespacectkTest.html#a62ac170327285b2d69a3243ca2a47126", null ],
+      [ "mouseMove", "d7/dab/namespacectkTest.html#a9d99a9e604bdc7406208725556a1bed8", null ]
+    ] ],
     [ "DeckFileFormat", "d4/d60/namespaceDeckFileFormat.html", [
       [ "Format", "d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945", [
         [ "PlainText", "d4/d60/namespaceDeckFileFormat.html#a9f8b5ee49b01ccbec9e4cf1b448ab945a13d9fc7e92cd6d8d9e62035b3b864fa6", null ],
@@ -92,7 +105,9 @@ var namespaces_dup =
       [ "parseDeckUrl", "de/d23/namespaceDeckLinkToApiTransformer.html#ab00138f4b97c67f24509d48d986ef707", null ],
       [ "ARCHIDEKT_BASE", "de/d23/namespaceDeckLinkToApiTransformer.html#a975381d4207738d8ea5cafe5745d6bd4", null ],
       [ "ARCHIDEKT_SUFFIX", "de/d23/namespaceDeckLinkToApiTransformer.html#a8cf4d972f85f2f98059b918f6d8460cf", null ],
+      [ "DECKSTATS_BASE", "de/d23/namespaceDeckLinkToApiTransformer.html#adde034f177027c1eb048654069a88bc4", null ],
       [ "DECKSTATS_SUFFIX", "de/d23/namespaceDeckLinkToApiTransformer.html#aed0f8e3f0a5129eb07e606db68ddc5e3", null ],
+      [ "MANABOX_BASE", "de/d23/namespaceDeckLinkToApiTransformer.html#ad092af1542f5af2aea23f6af81f9bce1", null ],
       [ "MOXFIELD_BASE", "de/d23/namespaceDeckLinkToApiTransformer.html#a13a33b0b81979b0010b404c276552f94", null ],
       [ "MOXFIELD_SUFFIX", "de/d23/namespaceDeckLinkToApiTransformer.html#a07f491b689bc9e3d0c177e0898bdf8a1", null ],
       [ "TAPPEDOUT_BASE", "de/d23/namespaceDeckLinkToApiTransformer.html#a15829804ecf369317209e8dbd4d45319", null ],
@@ -104,7 +119,7 @@ var namespaces_dup =
       [ "findSubZoneByName", "db/da5/namespaceDeckListModelCustomZones.html#afe5e8a39c051c0654817a1c132e6edfe", null ],
       [ "isCustomZone", "db/da5/namespaceDeckListModelCustomZones.html#a9f468e71898cc23ecb2148bab3e6145a", null ],
       [ "mirrorCustomZones", "db/da5/namespaceDeckListModelCustomZones.html#a51ce578f4775ca705f44569dd8333015", null ],
-      [ "sortWithCustomZonesLast", "db/da5/namespaceDeckListModelCustomZones.html#a3e76cf1cb1785a2cf76016d05cf76743", null ]
+      [ "sortWithCustomZonesLast", "db/da5/namespaceDeckListModelCustomZones.html#ac9b8c6745e29648830d40d86d3e704f6", null ]
     ] ],
     [ "DeckListModelGroupCriteria", "d2/d91/namespaceDeckListModelGroupCriteria.html", [
       [ "Type", "d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179", [
@@ -141,6 +156,10 @@ var namespaces_dup =
     [ "NetworkManagerFactory", "da/d40/namespaceNetworkManagerFactory.html", [
       [ "create", "da/d40/namespaceNetworkManagerFactory.html#aa22f7b8add444458c7d995d99270a728", null ]
     ] ],
+    [ "OracleDatabase", "d0/dce/namespaceOracleDatabase.html", [
+      [ "saveXml", "d0/dce/namespaceOracleDatabase.html#ad74689617a4fae3cc67533690a4ee608", null ],
+      [ "validateXml", "d0/dce/namespaceOracleDatabase.html#a31591bc8f381f3b4206bcb87d834df42", null ]
+    ] ],
     [ "OverridePrintingWarning", "da/d73/namespaceOverridePrintingWarning.html", [
       [ "execMessageBox", "da/d73/namespaceOverridePrintingWarning.html#a20e030722c3a36095107cc81baed4f0d", null ]
     ] ],
@@ -163,17 +182,33 @@ var namespaces_dup =
     [ "PopupRoles", "d4/d04/namespacePopupRoles.html", [
       [ "GameData", "d4/d04/namespacePopupRoles.html#aee3b53b3382f1365454509a058ad3641", null ]
     ] ],
+    [ "pqEventTypes", "d9/de5/namespacepqEventTypes.html", [
+      [ "eventType", "d9/de5/namespacepqEventTypes.html#aa37ffc576ce66f3150645eb405323060", [
+        [ "ACTION_EVENT", "d9/de5/namespacepqEventTypes.html#aa37ffc576ce66f3150645eb405323060a8bf8ce4f3c2e3362e9e10d4c354cd157", null ],
+        [ "CHECK_EVENT", "d9/de5/namespacepqEventTypes.html#aa37ffc576ce66f3150645eb405323060a34c9ccf5977c708e3ca216cac3467c92", null ]
+      ] ]
+    ] ],
     [ "QtUtils", "dc/d55/namespaceQtUtils.html", "dc/d55/namespaceQtUtils" ],
     [ "RawJson", "d6/d63/namespaceRawJson.html", "d6/d63/namespaceRawJson" ],
     [ "report_utils", "d8/d80/namespacereport__utils.html", [
       [ "fillReportTableRow", "d8/d80/namespacereport__utils.html#aad25353920308e3ab67d83868b839809", null ],
       [ "formatReportCategory", "d8/d80/namespacereport__utils.html#aa522b2bfcaa63dfb583413958f170510", null ],
       [ "formatReportTime", "d8/d80/namespacereport__utils.html#a65f3a661628579cbba9d83d9398d4a40", null ],
-      [ "renderReportDetails", "d8/d80/namespacereport__utils.html#a178b67e76b905f63a76cea2aacf24e59", null ]
+      [ "renderReportDetails", "d8/d80/namespacereport__utils.html#a178b67e76b905f63a76cea2aacf24e59", null ],
+      [ "reportLogFont", "d8/d80/namespacereport__utils.html#addf840997d9685b6f1625dcbbfe8d444", null ]
     ] ],
     [ "ReportCategories", "d3/db6/namespaceReportCategories.html", [
       [ "isValid", "d3/db6/namespaceReportCategories.html#aceba73439d053a6ffcd48dfb2c3b8fc8", null ],
       [ "keys", "d3/db6/namespaceReportCategories.html#a41ea70cf296cd8ef4d901db90fa09288", null ]
+    ] ],
+    [ "SpoilerFile", "d2/db3/namespaceSpoilerFile.html", [
+      [ "SaveResult", "d2/db3/namespaceSpoilerFile.html#a932d2c8e4a1315d00c31086128c78cb0", [
+        [ "Failed", "d2/db3/namespaceSpoilerFile.html#a932d2c8e4a1315d00c31086128c78cb0ad7c8c85bf79bbe1b7188497c32c3b0ca", null ],
+        [ "Unchanged", "d2/db3/namespaceSpoilerFile.html#a932d2c8e4a1315d00c31086128c78cb0a5ff3c6978f87d96febfdc8ed3899a97e", null ],
+        [ "Written", "d2/db3/namespaceSpoilerFile.html#a932d2c8e4a1315d00c31086128c78cb0a685710b38fa0c2510fc1079843dec6b9", null ]
+      ] ],
+      [ "save", "d2/db3/namespaceSpoilerFile.html#a590aaafb2047182e4b34050bdf1e1758", null ],
+      [ "validate", "d2/db3/namespaceSpoilerFile.html#a2151ec4b5d901543e6dfab315047781b", null ]
     ] ],
     [ "StatsTally", "d5/d5f/namespaceStatsTally.html", [
       [ "computeTotalPower", "d5/d5f/namespaceStatsTally.html#ab034fea6c61ce11fab9d5a6b17a3dd10", null ],

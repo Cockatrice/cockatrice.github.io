@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -134,8 +134,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a9c327726b0bffe20e636b4a397b285cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a criteria-group child of <code class="param">parent</code> by name, skipping custom zones.  <br /></td></tr>
 <tr class="memitem:afe5e8a39c051c0654817a1c132e6edfe" id="r_afe5e8a39c051c0654817a1c132e6edfe"><td class="memItemLeft"><a class="el" href="../../dc/db4/classDecklistModelSubZoneNode.html">DecklistModelSubZoneNode</a> *&#160;</td><td class="memItemRight"><a class="el" href="#afe5e8a39c051c0654817a1c132e6edfe">findSubZoneByName</a> (<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *root, const QString &amp;zoneName)</td></tr>
 <tr class="memdesc:afe5e8a39c051c0654817a1c132e6edfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a custom zone in the shadow tree by deck-unique name.  <br /></td></tr>
-<tr class="memitem:a3e76cf1cb1785a2cf76016d05cf76743" id="r_a3e76cf1cb1785a2cf76016d05cf76743"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QPair&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a3e76cf1cb1785a2cf76016d05cf76743">sortWithCustomZonesLast</a> (<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *root, <a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *node, Qt::SortOrder order)</td></tr>
-<tr class="memdesc:a3e76cf1cb1785a2cf76016d05cf76743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts a shadow node's children, keeping a board's custom zones last.  <br /></td></tr>
+<tr class="memitem:ac9b8c6745e29648830d40d86d3e704f6" id="r_ac9b8c6745e29648830d40d86d3e704f6"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QPair&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ac9b8c6745e29648830d40d86d3e704f6">sortWithCustomZonesLast</a> (<a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *root, <a class="el" href="../../d4/d55/classInnerDecklistNode.html">InnerDecklistNode</a> *node, Qt::SortOrder order, bool numericGroups=false)</td></tr>
+<tr class="memdesc:ac9b8c6745e29648830d40d86d3e704f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts a shadow node's children, keeping a board's custom zones last.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Tree-level helpers for the deck list model's custom-zone shadow nodes. </p>
@@ -319,8 +319,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a3e76cf1cb1785a2cf76016d05cf76743" name="a3e76cf1cb1785a2cf76016d05cf76743"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e76cf1cb1785a2cf76016d05cf76743">&#9670;&#160;</a></span>sortWithCustomZonesLast()</h2>
+<a id="ac9b8c6745e29648830d40d86d3e704f6" name="ac9b8c6745e29648830d40d86d3e704f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b8c6745e29648830d40d86d3e704f6">&#9670;&#160;</a></span>sortWithCustomZonesLast()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -341,7 +341,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Qt::SortOrder</td>          <td class="paramname"><span class="paramname"><em>order</em></span>&#160;)</td>
+          <td class="paramtype">Qt::SortOrder</td>          <td class="paramname"><span class="paramname"><em>order</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>numericGroups</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -358,6 +363,7 @@ Here is the caller graph for this function:</div>
     <tr><td class="paramname">root</td><td>Root of the shadow tree (used to classify board zones). </td></tr>
     <tr><td class="paramname">node</td><td>The shadow node whose children are reordered. </td></tr>
     <tr><td class="paramname">order</td><td>Sort order to apply. </td></tr>
+    <tr><td class="paramname">numericGroups</td><td>Compare criteria-group names as mana values. Custom zone names and card names retain their normal comparison; nonnumeric groups follow numeric groups in either sort direction. </td></tr>
   </table>
   </dd>
 </dl>
@@ -365,12 +371,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/da5/namespaceDeckListModelCustomZones_a3e76cf1cb1785a2cf76016d05cf76743_cgraph.svg" width="428" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/da5/namespaceDeckListModelCustomZones_ac9b8c6745e29648830d40d86d3e704f6_cgraph.svg" width="428" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/da5/namespaceDeckListModelCustomZones_a3e76cf1cb1785a2cf76016d05cf76743_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/da5/namespaceDeckListModelCustomZones_ac9b8c6745e29648830d40d86d3e704f6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

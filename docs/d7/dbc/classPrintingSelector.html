@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -156,6 +156,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae77e2510421de004cf819a01f97d6a73" id="r_ae77e2510421de004cf819a01f97d6a73"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae77e2510421de004cf819a01f97d6a73">getAllSetsForCurrentCard</a> ()</td></tr>
 <tr class="memdesc:ae77e2510421de004cf819a01f97d6a73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads and displays all sets for the current selected card.  <br /></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:aed721206a299e3bb5d64b46699784874" id="r_aed721206a299e3bb5d64b46699784874"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aed721206a299e3bb5d64b46699784874">showEvent</a> (QShowEvent *event) override</td></tr>
+<tr class="memitem:affb37409571f343f3fdb30ffe6a0e1e9" id="r_affb37409571f343f3fdb30ffe6a0e1e9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#affb37409571f343f3fdb30ffe6a0e1e9">hideEvent</a> (QHideEvent *event) override</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a056fffe42b4f5276c6e516ea75a2bc78" id="r_a056fffe42b4f5276c6e516ea75a2bc78"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a056fffe42b4f5276c6e516ea75a2bc78">printingsInDeckChanged</a> ()</td></tr>
@@ -178,6 +183,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a812b9a1868793faca7d60680af475e36" id="r_a812b9a1868793faca7d60680af475e36"><td class="memItemLeft"><a class="el" href="../../dd/dab/classDeckStateManager.html">DeckStateManager</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a812b9a1868793faca7d60680af475e36">deckStateManager</a></td></tr>
 <tr class="memitem:a21f38a127d4385e31fa51afc16adac08" id="r_a21f38a127d4385e31fa51afc16adac08"><td class="memItemLeft"><a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a>&#160;</td><td class="memItemRight"><a class="el" href="#a21f38a127d4385e31fa51afc16adac08">selectedCard</a></td></tr>
 <tr class="memitem:aeadece55f105261f20df3918c97895a7" id="r_aeadece55f105261f20df3918c97895a7"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#aeadece55f105261f20df3918c97895a7">widgetLoadingBufferTimer</a></td></tr>
+<tr class="memitem:aac5098e945b1ee6cb6d0f72098d01356" id="r_aac5098e945b1ee6cb6d0f72098d01356"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#aac5098e945b1ee6cb6d0f72098d01356">deckChangeTimer</a></td></tr>
+<tr class="memitem:a1587b6ac561e4110e547e47fb4883aa6" id="r_a1587b6ac561e4110e547e47fb4883aa6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a1587b6ac561e4110e547e47fb4883aa6">displayDirty</a> = false</td></tr>
 <tr class="memitem:a492304986842d80e48fdf9618796c5cb" id="r_a492304986842d80e48fdf9618796c5cb"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a492304986842d80e48fdf9618796c5cb">currentIndex</a> = 0</td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -285,6 +292,31 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dbc/classPrintingSelector_ae77e2510421de004cf819a01f97d6a73_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+
+</div>
+</div>
+<a id="affb37409571f343f3fdb30ffe6a0e1e9" name="affb37409571f343f3fdb30ffe6a0e1e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affb37409571f343f3fdb30ffe6a0e1e9">&#9670;&#160;</a></span>hideEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintingSelector::hideEvent </td>
+          <td>(</td>
+          <td class="paramtype">QHideEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -446,6 +478,36 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dbc/classPrintingSelector_a89c2d3479e70eee7311b93b92c88ff7e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aed721206a299e3bb5d64b46699784874" name="aed721206a299e3bb5d64b46699784874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed721206a299e3bb5d64b46699784874">&#9670;&#160;</a></span>showEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintingSelector::showEvent </td>
+          <td>(</td>
+          <td class="paramtype">QShowEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/dbc/classPrintingSelector_aed721206a299e3bb5d64b46699784874_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -627,6 +689,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aac5098e945b1ee6cb6d0f72098d01356" name="aac5098e945b1ee6cb6d0f72098d01356"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac5098e945b1ee6cb6d0f72098d01356">&#9670;&#160;</a></span>deckChangeTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTimer* PrintingSelector::deckChangeTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2a02a3d89e7e2bdddd4da8a747639c7d" name="a2a02a3d89e7e2bdddd4da8a747639c7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2a02a3d89e7e2bdddd4da8a747639c7d">&#9670;&#160;</a></span>deckEditor</h2>
 
@@ -660,6 +744,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../dd/dab/classDeckStateManager.html">DeckStateManager</a>* PrintingSelector::deckStateManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1587b6ac561e4110e547e47fb4883aa6" name="a1587b6ac561e4110e547e47fb4883aa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1587b6ac561e4110e547e47fb4883aa6">&#9670;&#160;</a></span>displayDirty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PrintingSelector::displayDirty = false</td>
         </tr>
       </table>
   </td>

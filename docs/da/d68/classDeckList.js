@@ -5,6 +5,7 @@ var classDeckList =
     [ "DeckList", "da/d68/classDeckList.html#a19235bea73e3765d8788c87f9695ffef", null ],
     [ "DeckList", "da/d68/classDeckList.html#a93bbd328b945e84f9f2038d61e722efa", null ],
     [ "addCard", "da/d68/classDeckList.html#ae59e29e363c6979ebaac6347d07a09ae", null ],
+    [ "addCards", "da/d68/classDeckList.html#a5a4173f2d9cb8a58b2589546214e1868", null ],
     [ "addTag", "da/d68/classDeckList.html#a0c593080d57c8d9a87a03d610701e2c8", null ],
     [ "cleanList", "da/d68/classDeckList.html#a773dea93b32b04d5251565251b4800ea", null ],
     [ "clearTags", "da/d68/classDeckList.html#a4094b6660bd2d9ae15be17d6f5f3a485", null ],

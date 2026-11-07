@@ -30,7 +30,8 @@ var structGameEvent =
       [ "DUMP_ZONE", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a479ec10e8fa580d3d1d6826999c26feb", null ],
       [ "CHANGE_ZONE_PROPERTIES", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a339843ac717b340ff407737904546247", null ],
       [ "REVERSE_TURN", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35af9ae30a59dfc7a5a2b8af3a5ba3619b4", null ],
-      [ "GAME_LOG_NOTICE", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a7cfe2139978749604216271d62426e56", null ]
+      [ "GAME_LOG_NOTICE", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a7cfe2139978749604216271d62426e56", null ],
+      [ "PLAYER_ORDER_CHANGED", "de/d24/structGameEvent.html#ad6142321c30b15b35803d8bef1d0dc35a14bbd4a1840ea6936f24cdee8b1354f5", null ]
     ] ],
     [ "max", "de/d24/structGameEvent.html#a5dc1b47345f7159252ef08d8d6212e3a", null ],
     [ "player_id", "de/d24/structGameEvent.html#a7e6975f3339d2131786c270d0b2c20e1", null ]

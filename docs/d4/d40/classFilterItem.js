@@ -13,6 +13,7 @@ var classFilterItem =
     [ "acceptCardAttr", "d4/d40/classFilterItem.html#a215a57c4de7a3081111338d207767728", null ],
     [ "acceptCmc", "d4/d40/classFilterItem.html#ac682494c80d41ad44992083239fdd63b", null ],
     [ "acceptColor", "d4/d40/classFilterItem.html#a29011fd03bdd1b65d76555dc5dd8ac5c", null ],
+    [ "acceptColorIdentity", "d4/d40/classFilterItem.html#acae5dbe3ec440fbfca5819dbec8b1a21", null ],
     [ "acceptFormat", "d4/d40/classFilterItem.html#a007164529a73d2f7eecc1b54f07664ae", null ],
     [ "acceptLoyalty", "d4/d40/classFilterItem.html#af2b18507141fc473e1cf92115df9eabb", null ],
     [ "acceptMainType", "d4/d40/classFilterItem.html#a17d34f9a26935a778d6c9c0912c95360", null ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -137,6 +137,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a7bf3cdd456244acadf45df6116e8b052" id="r_a7bf3cdd456244acadf45df6116e8b052"><td class="memItemLeft">optional sint32&#160;</td><td class="memItemRight"><a class="el" href="#a7bf3cdd456244acadf45df6116e8b052">active_player_id</a> = 3</td></tr>
 <tr class="memitem:a7764ebd0c92a9b8d3511473e372bcb6f" id="r_a7764ebd0c92a9b8d3511473e372bcb6f"><td class="memItemLeft">optional sint32&#160;</td><td class="memItemRight"><a class="el" href="#a7764ebd0c92a9b8d3511473e372bcb6f">active_phase</a> = 4</td></tr>
 <tr class="memitem:a950fbf3e9912299c0facc94aae590005" id="r_a950fbf3e9912299c0facc94aae590005"><td class="memItemLeft">optional uint32&#160;</td><td class="memItemRight"><a class="el" href="#a950fbf3e9912299c0facc94aae590005">seconds_elapsed</a> = 5</td></tr>
+<tr class="memitem:a7e24a7a5f27b75a08a12934063385bda" id="r_a7e24a7a5f27b75a08a12934063385bda"><td class="memItemLeft">optional sint32&#160;</td><td class="memItemRight"><a class="el" href="#a7e24a7a5f27b75a08a12934063385bda">local_player_id</a> = 6</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Signals that the game state has changed. If a field is present in this message, it will overwrite the client's game state. Also used to provide the entire game state when joining a game. </p>
@@ -183,6 +184,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>if the game has started </p>
+
+</div>
+</div>
+<a id="a7e24a7a5f27b75a08a12934063385bda" name="a7e24a7a5f27b75a08a12934063385bda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e24a7a5f27b75a08a12934063385bda">&#9670;&#160;</a></span>local_player_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional sint32 Event_GameStateChanged::local_player_id = 6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the id of the player this event is addressed to. Used to re-identify the local player after seats have been shuffled. Only set for events sent to a specific participant, never for omniscient/replay events. </p>
 
 </div>
 </div>

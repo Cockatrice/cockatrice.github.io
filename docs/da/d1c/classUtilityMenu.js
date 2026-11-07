@@ -7,6 +7,7 @@ var classUtilityMenu =
     [ "retranslateUi", "da/d1c/classUtilityMenu.html#ab71de425a7a32cc958df0bcd8675e379", null ],
     [ "setAndEnableCreateAnotherTokenAction", "da/d1c/classUtilityMenu.html#a282a05f9ace73ce47d3e68057b7656af", null ],
     [ "setLastToken", "da/d1c/classUtilityMenu.html#ac8e77090b96b298b07bf62295b3ae331", null ],
+    [ "setLobbyShortcutsActive", "da/d1c/classUtilityMenu.html#adcc258d574741c66a0127952eae7aa2b", null ],
     [ "setShortcutsActive", "da/d1c/classUtilityMenu.html#a181258934ac31b8aa48eca704a474045", null ],
     [ "setShortcutsInactive", "da/d1c/classUtilityMenu.html#aad631289397fbc709261e72abf68773d", null ],
     [ "aCreateAnotherToken", "da/d1c/classUtilityMenu.html#a81523d173bff53c239f235060892ad6f", null ],

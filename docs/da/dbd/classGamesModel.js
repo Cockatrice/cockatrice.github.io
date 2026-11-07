@@ -13,6 +13,7 @@ var classGamesModel =
     [ "updateGameList", "da/dbd/classGamesModel.html#a58199675ab70d2137b2c58c47adcf66e", null ],
     [ "gameList", "da/dbd/classGamesModel.html#ab8f3ee9c0304f81b0e1fa8d51ca6d618", null ],
     [ "gameTypes", "da/dbd/classGamesModel.html#a10b2fa4f19ea16a64a20a38043218349", null ],
+    [ "lockIcon", "da/dbd/classGamesModel.html#ad9bcc0e8be0aa7e2b52b4b5e97e3d0f2", null ],
     [ "NUM_COLS", "da/dbd/classGamesModel.html#ad70a9817cbc337bbf6688357b2d274fb", null ],
     [ "rooms", "da/dbd/classGamesModel.html#aedfde34eb51fc59ff069b1f4d1372f42", null ],
     [ "SORT_ROLE", "da/dbd/classGamesModel.html#ac6ccad8c5fb70c3707276f74f64c498b", null ]

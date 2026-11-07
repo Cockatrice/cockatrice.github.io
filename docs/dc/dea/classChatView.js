@@ -16,6 +16,7 @@ var classChatView =
     [ "appendHtmlServerMessage", "dc/dea/classChatView.html#a7d61e5d6b190273a7c140f923dd3995c", null ],
     [ "appendMessage", "dc/dea/classChatView.html#a380adcdcd2acd38d234ace5c80502864", null ],
     [ "appendUrlTag", "dc/dea/classChatView.html#aee88f319fab820d77a13717e45a638c9", null ],
+    [ "applyChatFont", "dc/dea/classChatView.html#a98e424b46254c3bd1535304db7a16def", null ],
     [ "cardNameHovered", "dc/dea/classChatView.html#ac788b437ded8ff280baa438e34453947", null ],
     [ "checkMention", "dc/dea/classChatView.html#ad1589c37a9c8018f0e605f592e3e8937", null ],
     [ "checkTag", "dc/dea/classChatView.html#ad34918103b96f5382237d10e3ee092d5", null ],

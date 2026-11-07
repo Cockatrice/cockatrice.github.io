@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-03-Development-3.2.0-beta</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -171,6 +171,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad831b21f32a8276f8942ecaf9e1a30c8" id="r_ad831b21f32a8276f8942ecaf9e1a30c8"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ad831b21f32a8276f8942ecaf9e1a30c8">getWriteableRevealZone</a> () const</td></tr>
 <tr class="memitem:a05637bd645a08db058200fdbadabc4fc" id="r_a05637bd645a08db058200fdbadabc4fc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a05637bd645a08db058200fdbadabc4fc">setWriteableRevealZone</a> (bool _writeableRevealZone)</td></tr>
 <tr class="memitem:a1d1b674c3d213e88bb79fb238d5085e6" id="r_a1d1b674c3d213e88bb79fb238d5085e6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a1d1b674c3d213e88bb79fb238d5085e6">getIsReversed</a> () const</td></tr>
+<tr class="memitem:a8077ce41bf4957336a38537e2eeba0ec" id="r_a8077ce41bf4957336a38537e2eeba0ec"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8077ce41bf4957336a38537e2eeba0ec">isLibraryEdgeView</a> () const</td></tr>
+<tr class="memdesc:a8077ce41bf4957336a38537e2eeba0ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this view is a limited look at one end of a library.  <br /></td></tr>
+<tr class="memitem:af66cd231468506cea181831b4a0a70aa" id="r_af66cd231468506cea181831b4a0a70aa"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#af66cd231468506cea181831b4a0a70aa">showsTopOfLibrary</a> () const</td></tr>
+<tr class="memdesc:af66cd231468506cea181831b4a0a70aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the first card in the view is the top card of the library.  <br /></td></tr>
+<tr class="memitem:a436ac7da57256262d2408d112fa938d1" id="r_a436ac7da57256262d2408d112fa938d1"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a436ac7da57256262d2408d112fa938d1">showsBottomOfLibrary</a> () const</td></tr>
+<tr class="memdesc:a436ac7da57256262d2408d112fa938d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the last card in the view is the bottom card of the library.  <br /></td></tr>
 <tr class="memitem:a6217b1f8590a2a5e86a7f44c3d86502d" id="r_a6217b1f8590a2a5e86a7f44c3d86502d"><td class="memItemLeft"><a class="el" href="../../d1/df9/classCardZoneLogic.html">CardZoneLogic</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a6217b1f8590a2a5e86a7f44c3d86502d">getOriginalZone</a> () const</td></tr>
 <tr class="memitem:a4809ef944e9ec9574fd30321c9f6ac6a" id="r_a4809ef944e9ec9574fd30321c9f6ac6a"><td class="memItemLeft"><a class="el" href="../../d8/d62/classPendingCommand.html">PendingCommand</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a4809ef944e9ec9574fd30321c9f6ac6a">prepareZoneDump</a> ()</td></tr>
 <tr class="memdesc:a4809ef944e9ec9574fd30321c9f6ac6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the zone-dump command for this view without sending it.  <br /></td></tr>
@@ -605,6 +611,44 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a8077ce41bf4957336a38537e2eeba0ec" name="a8077ce41bf4957336a38537e2eeba0ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8077ce41bf4957336a38537e2eeba0ec">&#9670;&#160;</a></span>isLibraryEdgeView()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ZoneViewZoneLogic::isLibraryEdgeView </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether this view is a limited look at one end of a library. </p>
+<p>Only scry/surveil-style views of the top or bottom cards of a deck qualify. Full-zone views, revealed-card views and views of other zones do not, because their first and last cards have no library edge meaning. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d70/classZoneViewZoneLogic_a8077ce41bf4957336a38537e2eeba0ec_cgraph.svg" width="407" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d70/classZoneViewZoneLogic_a8077ce41bf4957336a38537e2eeba0ec_icgraph.svg" width="492" height="176"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a2c36ba32dfd61ad4e9538225bfff094a" name="a2c36ba32dfd61ad4e9538225bfff094a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2c36ba32dfd61ad4e9538225bfff094a">&#9670;&#160;</a></span>prepareAddCard()</h2>
 
@@ -792,6 +836,80 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d70/classZoneViewZoneLogic_a05637bd645a08db058200fdbadabc4fc_cgraph.svg" width="403" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a436ac7da57256262d2408d112fa938d1" name="a436ac7da57256262d2408d112fa938d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a436ac7da57256262d2408d112fa938d1">&#9670;&#160;</a></span>showsBottomOfLibrary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ZoneViewZoneLogic::showsBottomOfLibrary </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the last card in the view is the bottom card of the library. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d70/classZoneViewZoneLogic_a436ac7da57256262d2408d112fa938d1_cgraph.svg" width="626" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d70/classZoneViewZoneLogic_a436ac7da57256262d2408d112fa938d1_icgraph.svg" width="283" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="af66cd231468506cea181831b4a0a70aa" name="af66cd231468506cea181831b4a0a70aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af66cd231468506cea181831b4a0a70aa">&#9670;&#160;</a></span>showsTopOfLibrary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ZoneViewZoneLogic::showsTopOfLibrary </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the first card in the view is the top card of the library. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d70/classZoneViewZoneLogic_af66cd231468506cea181831b4a0a70aa_cgraph.svg" width="616" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d70/classZoneViewZoneLogic_af66cd231468506cea181831b4a0a70aa_icgraph.svg" width="274" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

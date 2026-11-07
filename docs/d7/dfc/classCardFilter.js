@@ -3,6 +3,7 @@ var classCardFilter =
     [ "Attr", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8", [
       [ "AttrCmc", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8ac2609cc903702fa4e8a03e60617b4e5a", null ],
       [ "AttrColor", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8a5f107f67fc8a74df265c57d90de88518", null ],
+      [ "AttrColorIdentity", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8a0d99718d7bc4a7a4b7aa506238370350", null ],
       [ "AttrLoyalty", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8a1515fffbf37800149d42dadfbf735746", null ],
       [ "AttrManaCost", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8af6ddcc24ecd9f4ee923162c6fc61093e", null ],
       [ "AttrName", "d7/dfc/classCardFilter.html#ab26af4fccdbaf9c16093cc78388e16e8aec81c80ed5bab5765f4893aaf3881db5", null ],
