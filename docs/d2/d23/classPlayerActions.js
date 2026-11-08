@@ -80,6 +80,7 @@ var classPlayerActions =
     [ "actRevealLibrary", "d2/d23/classPlayerActions.html#a05c15fceb123ef0e82fdf004d6420796", null ],
     [ "actRevealRandomGraveyardCard", "d2/d23/classPlayerActions.html#acd2da6cb64cc0f52834a644089cf6cc7", null ],
     [ "actRevealRandomHandCard", "d2/d23/classPlayerActions.html#a8fc5d68c2442a971e8465d2b02056208", null ],
+    [ "actRevealRandomHandCards", "d2/d23/classPlayerActions.html#aa22292eb119bb90ed6e9862e39826535", null ],
     [ "actRevealTopCards", "d2/d23/classPlayerActions.html#ae31fd21f17b0ccc9a0b13e342e03b467", null ],
     [ "actRollDie", "d2/d23/classPlayerActions.html#a47c41b078070d01cd3e4de2141e91486", null ],
     [ "actSayMessage", "d2/d23/classPlayerActions.html#a9eb1e8c7f7fa91e80d8de1c7128d022f", null ],

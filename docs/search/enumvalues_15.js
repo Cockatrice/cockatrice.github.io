@@ -1,13 +1,18 @@
 var searchData=
 [
-  ['waiting_0',['Waiting',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216a56fa9b24593f8e2eaf2847aebb686271',1,'QxtSmtpPrivate']]],
-  ['warn_5fhistory_1',['WARN_HISTORY',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a8968deeb4e7d95f010156dbbfa13d0f8',1,'ModeratorCommand::WARN_HISTORY'],['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442aebd661065651a70efc1a6d27eac52811',1,'Response::WARN_HISTORY']]],
-  ['warn_5flist_2',['WARN_LIST',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129aba914f94d15888f902acde3953b5d919',1,'ModeratorCommand::WARN_LIST'],['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442a4866856f4687c28d880b993f5d34a1ee',1,'Response::WARN_LIST']]],
-  ['warn_5fuser_3',['WARN_USER',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129ac2cbf782dc82d02547f28b2f9cc37aab',1,'ModeratorCommand']]],
-  ['warning_4',['WARNING',['../d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eea5d1b52b57696e052fdbd46b095cd599b',1,'Event_NotifyUser']]],
-  ['welcome_5',['Welcome',['../d9/d02/structEvent__RoomSay.html#a699c54b7e58022d25d9905eb4f15ecb9ac5ce79f89ebf7866a5f72ab7e1b2acec',1,'Event_RoomSay::Welcome'],['../d3/d27/classBannerHost.html#a929a7d9d513288e211ddabcd0e01fd50a83218ac34c1834c26781fe4bde918ee4',1,'BannerHost::Welcome']]],
-  ['wouldoverwriteoldsession_6',['WouldOverwriteOldSession',['../d8/dc3/server_8h.html#a7343689f330031d70532c39ee54b70cdadf7ec85685eaad93c1db573c3bca5b15',1,'server.h']]],
-  ['writefailed_7',['WriteFailed',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a6485489af32d66acaa3ea4c22c33461c',1,'UnZip::WriteFailed'],['../d8/df5/classZip.html#aa445490ca64ce3051470bed52ee9198ca2e95d02df0e4547cb5540965f308d074',1,'Zip::WriteFailed']]],
-  ['written_8',['Written',['../d2/db3/namespaceSpoilerFile.html#a932d2c8e4a1315d00c31086128c78cb0a685710b38fa0c2510fc1079843dec6b9',1,'SpoilerFile']]],
-  ['wrongpassword_9',['WrongPassword',['../de/d4e/classUnZip.html#a4a7180747a7f75ea742d7cbbe3137412a7a93912b20b925eba4854e456de3f340',1,'UnZip']]]
+  ['vdestartuptabcontext_0',['VdeStartupTabContext',['../d6/d5e/deck__editor__settings_8h.html#a2bce49be9379cab2de836369689db1b9a7da3a5b588e1870b6a30e2019adac629',1,'deck_editor_settings.h']]],
+  ['vdestartuptabdatabasedisplay_1',['VdeStartupTabDatabaseDisplay',['../d6/d5e/deck__editor__settings_8h.html#a2bce49be9379cab2de836369689db1b9a8195eb22331c180c43ad3c9d28bf46c0',1,'deck_editor_settings.h']]],
+  ['vdestartuptabdeckdisplay_2',['VdeStartupTabDeckDisplay',['../d6/d5e/deck__editor__settings_8h.html#a2bce49be9379cab2de836369689db1b9a79196bb67c435bb4440245b573f29f1d',1,'deck_editor_settings.h']]],
+  ['verifyonly_3',['VerifyOnly',['../de/d4e/classUnZip.html#ae76e35ba02ddc4793ddaca60a06e5968a79378ae04cd44373c9f83bacbcd54196',1,'UnZip']]],
+  ['versiontooold_4',['VersionTooOld',['../dc/d6b/card__database__loader_8h.html#a91ba401526ac2b239610957b60e4d11ca422771f682fde1171b691435d1b3a70f',1,'card_database_loader.h']]],
+  ['view_5',['View',['../d2/d7a/classShortcutGroup.html#affdd23aae74fc0e49d8d79f5bc9a2ceca2ca0a88e786f276ec49b6a3a24ca4879',1,'ShortcutGroup']]],
+  ['view_5flog_6',['VIEW_LOG',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442aef5b2b41c3f924988434870842823fa9',1,'Response']]],
+  ['viewlog_5fhistory_7',['VIEWLOG_HISTORY',['../d9/d08/structDeveloperCommand.html#aad455c361544762146aff957214b1541a13ee5a1d182b6a96a0afe33930cc5e17',1,'DeveloperCommand::VIEWLOG_HISTORY'],['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a866849a977a6961bb493d5e3029171ea',1,'ModeratorCommand::VIEWLOG_HISTORY']]],
+  ['vintage_8',['Vintage',['../dc/d95/namespaceArchidektFormats.html#a8c344e7135e0a6a5f4b980aaeee6dec2a67bc3557dcf90ce84e22914c21a699ba',1,'ArchidektFormats']]],
+  ['visualdatabasedisplay_9',['VisualDatabaseDisplay',['../d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17a4932b38f307abca50b17dd8ed56cff5e',1,'TabDeckEditorVisualTabWidget']]],
+  ['visualdeckeditor_10',['VisualDeckEditor',['../dd/d81/classTabSupervisor.html#a9a12eee7783c0c5e8310e96ec8a71d13a5d15f0d108a74079892a75d58837a552',1,'TabSupervisor']]],
+  ['visualdeckstoragepromptforconversionindexalways_11',['visualDeckStoragePromptForConversionIndexAlways',['../de/d9d/user__interface__settings__page_8cpp.html#ae82e9cff65aa2b6d9166d7255df2fe8fac9c98c7411dc824197128de98b053efa',1,'user_interface_settings_page.cpp']]],
+  ['visualdeckstoragepromptforconversionindexnone_12',['visualDeckStoragePromptForConversionIndexNone',['../de/d9d/user__interface__settings__page_8cpp.html#ae82e9cff65aa2b6d9166d7255df2fe8facdc5af4eb92aca4ce3fc95d7e2ab92bc',1,'user_interface_settings_page.cpp']]],
+  ['visualdeckstoragepromptforconversionindexprompt_13',['visualDeckStoragePromptForConversionIndexPrompt',['../de/d9d/user__interface__settings__page_8cpp.html#ae82e9cff65aa2b6d9166d7255df2fe8fa5ff175714ac52596ccbd7aa89aacd00b',1,'user_interface_settings_page.cpp']]],
+  ['visualdeckview_14',['VisualDeckView',['../d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17a1f825a2bcea091fee36af0e041e9d846',1,'TabDeckEditorVisualTabWidget']]]
 ];

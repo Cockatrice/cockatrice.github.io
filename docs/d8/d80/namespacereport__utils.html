@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -127,12 +127,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:addf840997d9685b6f1625dcbbfe8d444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Font for the report chat-log views: the theme's ChatLog role when it sets one, otherwise the monospace font these views used before the role existed. Shared by the three report surfaces so they cannot drift apart.  <br /></td></tr>
 <tr class="memitem:aa522b2bfcaa63dfb583413958f170510" id="r_aa522b2bfcaa63dfb583413958f170510"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#aa522b2bfcaa63dfb583413958f170510">formatReportCategory</a> (const QString &amp;category)</td></tr>
 <tr class="memitem:a65f3a661628579cbba9d83d9398d4a40" id="r_a65f3a661628579cbba9d83d9398d4a40"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a65f3a661628579cbba9d83d9398d4a40">formatReportTime</a> (qint64 secondsSinceEpoch)</td></tr>
-<tr class="memitem:aad25353920308e3ab67d83868b839809" id="r_aad25353920308e3ab67d83868b839809"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aad25353920308e3ab67d83868b839809">fillReportTableRow</a> (QTableWidget *table, int row, const <a class="el" href="../../df/d1f/structServerInfo__Report.html">ServerInfo_Report</a> &amp;report, int idColumn, int timeColumn, int reportedColumn, int categoryColumn, int gameIdColumn, int statusColumn, int assignedColumn)</td></tr>
+<tr class="memitem:ad63249ff635da1894208dc8da0dd40df" id="r_ad63249ff635da1894208dc8da0dd40df"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ad63249ff635da1894208dc8da0dd40df">formatReportStatus</a> (const QString &amp;status)</td></tr>
+<tr class="memitem:a021ba59ea2da67bfac06c304e3489c1f" id="r_a021ba59ea2da67bfac06c304e3489c1f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a021ba59ea2da67bfac06c304e3489c1f">fillReportTableRow</a> (QTableWidget *table, int row, const <a class="el" href="../../df/d1f/structServerInfo__Report.html">ServerInfo_Report</a> &amp;report, int idColumn, int timeColumn, int reportedColumn, int categoryColumn, int gameIdColumn, int statusColumn, int assignedColumn, bool colorizeStatus)</td></tr>
 <tr class="memitem:a178b67e76b905f63a76cea2aacf24e59" id="r_a178b67e76b905f63a76cea2aacf24e59"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a178b67e76b905f63a76cea2aacf24e59">renderReportDetails</a> (QTextEdit *chatLogEdit, QTextEdit *commentsEdit, const <a class="el" href="../../df/d1f/structServerInfo__Report.html">ServerInfo_Report</a> &amp;report, const QString &amp;commentsEmptyText, const QString &amp;moderatorPrefix, const QString &amp;nonModeratorPrefix)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="aad25353920308e3ab67d83868b839809" name="aad25353920308e3ab67d83868b839809"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad25353920308e3ab67d83868b839809">&#9670;&#160;</a></span>fillReportTableRow()</h2>
+<a id="a021ba59ea2da67bfac06c304e3489c1f" name="a021ba59ea2da67bfac06c304e3489c1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a021ba59ea2da67bfac06c304e3489c1f">&#9670;&#160;</a></span>fillReportTableRow()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,19 +186,24 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>assignedColumn</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>assignedColumn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>colorizeStatus</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d80/namespacereport__utils_aad25353920308e3ab67d83868b839809_cgraph.svg" width="444" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d80/namespacereport__utils_a021ba59ea2da67bfac06c304e3489c1f_cgraph.svg" width="444" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d80/namespacereport__utils_aad25353920308e3ab67d83868b839809_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d80/namespacereport__utils_a021ba59ea2da67bfac06c304e3489c1f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -225,6 +231,33 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d80/namespacereport__utils_aa522b2bfcaa63dfb583413958f170510_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad63249ff635da1894208dc8da0dd40df" name="ad63249ff635da1894208dc8da0dd40df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad63249ff635da1894208dc8da0dd40df">&#9670;&#160;</a></span>formatReportStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString report_utils::formatReportStatus </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>status</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d80/namespacereport__utils_ad63249ff635da1894208dc8da0dd40df_cgraph.svg" width="202" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d80/namespacereport__utils_ad63249ff635da1894208dc8da0dd40df_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

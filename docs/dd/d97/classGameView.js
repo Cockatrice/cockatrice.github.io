@@ -13,6 +13,7 @@ var classGameView =
     [ "updateSceneRect", "dd/d97/classGameView.html#a7a8b3d8514ef1dead88da3f87e65432e", null ],
     [ "updateTotalSelectionCount", "dd/d97/classGameView.html#a1ebfe38d0d7392e1ed1430cecda6e822", null ],
     [ "aCloseMostRecentZoneView", "dd/d97/classGameView.html#a9a832d7fe17ada6fafebaa5d3310cbb6", null ],
+    [ "aShowHoverPanel", "dd/d97/classGameView.html#abd64d8fafb07ab55dbc45bb0fcf2ee4a", null ],
     [ "cachedTallyRows", "dd/d97/classGameView.html#a5f465c645324aeff61c47e0aca0903ed", null ],
     [ "dragCountLabel", "dd/d97/classGameView.html#a9673b6ffdf2ee664544b7cc02da684fe", null ],
     [ "previousBandRect", "dd/d97/classGameView.html#a377b7bd4c400408e708d291ffd3fa985", null ],

@@ -1,0 +1,35 @@
+var card__hover__widget_8cpp =
+[
+    [ "ButtonGrid", "dd/d1e/classButtonGrid.html", "dd/d1e/classButtonGrid" ],
+    [ "HoverPanelPage", "d9/db3/card__hover__widget_8cpp.html#a69db66f44dc30e987d613ec2228f38f3", [
+      [ "PAGE_INFO", "d9/db3/card__hover__widget_8cpp.html#a69db66f44dc30e987d613ec2228f38f3a430ea6e49143f1696708f8dfd4766abf", null ],
+      [ "PAGE_MAIN", "d9/db3/card__hover__widget_8cpp.html#a69db66f44dc30e987d613ec2228f38f3a57a6ec545fb186ebb91d675bc11794a6", null ],
+      [ "PAGE_MOVE", "d9/db3/card__hover__widget_8cpp.html#a69db66f44dc30e987d613ec2228f38f3ae53c65e072653eb5d9e1752a2be1b22f", null ],
+      [ "PAGE_COUNTER", "d9/db3/card__hover__widget_8cpp.html#a69db66f44dc30e987d613ec2228f38f3a9b0cb2496c83805530ddb9889033f289", null ],
+      [ "PAGE_TOKEN", "d9/db3/card__hover__widget_8cpp.html#a69db66f44dc30e987d613ec2228f38f3a548c3643a6cc4926127ebb8dc8f8c573", null ]
+    ] ],
+    [ "categoryTabIcon", "d9/db3/card__hover__widget_8cpp.html#abd373436ba559b8935986128f3135f0f", null ],
+    [ "clampToSpan", "d9/db3/card__hover__widget_8cpp.html#a6a76011f7a27a8fd4f87292d21959107", null ],
+    [ "overlayBgStyle", "d9/db3/card__hover__widget_8cpp.html#a72cf86dde9dd4b1c244e464f48442c6f", null ],
+    [ "semanticActionIcon", "d9/db3/card__hover__widget_8cpp.html#aeb8c24fcfc7d90fbb725063997fed315", null ],
+    [ "CARD_IMAGE_WIDTH", "d9/db3/card__hover__widget_8cpp.html#aed9553b551fcdde04af7ad927bb300be", null ],
+    [ "FADE_DURATION_MS", "d9/db3/card__hover__widget_8cpp.html#a63913166c6d712eb818fb2f6c0e093eb", null ],
+    [ "NAV_BUTTON_WIDTH", "d9/db3/card__hover__widget_8cpp.html#a5f5af6912c9075539abd21c7b6508a9f", null ],
+    [ "NAV_ICON_SIZE", "d9/db3/card__hover__widget_8cpp.html#a3d73a79b79e3e3d85252c4e1e7f3213a", null ],
+    [ "OVERLAY_BTN_SIZE", "d9/db3/card__hover__widget_8cpp.html#ac6ed2ce1200abfe2ed4a82b732e1ed0a", null ],
+    [ "OVERLAY_CORNER_RADIUS", "d9/db3/card__hover__widget_8cpp.html#a9a7f8bc5f60cc630dae174614b3d26fb", null ],
+    [ "POPUP_GAP", "d9/db3/card__hover__widget_8cpp.html#a5c58938dcbbc0665d890b37071d4f499", null ],
+    [ "PT_HOVER_REGION_HEIGHT", "d9/db3/card__hover__widget_8cpp.html#af68418ee35dc10754e3ab4d24a74a6f5", null ],
+    [ "PT_HOVER_REGION_WIDTH", "d9/db3/card__hover__widget_8cpp.html#a20e10cc2cc9fde4906cf93175ae1fdd0", null ],
+    [ "PT_OPEN_HALO", "d9/db3/card__hover__widget_8cpp.html#a72e74bb061b66f9d76365c34e78398d5", null ],
+    [ "PT_PILL_ANCHOR_X", "d9/db3/card__hover__widget_8cpp.html#ad034235719e8c44d6ac44a2234218eff", null ],
+    [ "PT_PILL_ANCHOR_Y", "d9/db3/card__hover__widget_8cpp.html#aa851f9fd4d3c100f0d708553db001bae", null ],
+    [ "PT_PILL_EDGE_INSET", "d9/db3/card__hover__widget_8cpp.html#aab6ec3ab73614d4c29b30f4aad210b48", null ],
+    [ "PT_PILL_MIN_HEIGHT", "d9/db3/card__hover__widget_8cpp.html#afa52f94d165ae7a6259fe2fb42ca7cfd", null ],
+    [ "PT_PILL_MIN_WIDTH", "d9/db3/card__hover__widget_8cpp.html#a9445ba4e8c064104c9429a43db96d931", null ],
+    [ "PT_PILL_TEXT_PADDING", "d9/db3/card__hover__widget_8cpp.html#adaf595609f23d086bada86e4660b8f7f", null ],
+    [ "REFRESH_DEBOUNCE_MS", "d9/db3/card__hover__widget_8cpp.html#a5bae98f8114fa64c2bd24f771e2606c7", null ],
+    [ "TAB_MAX_WIDTH", "d9/db3/card__hover__widget_8cpp.html#a77bb91769c58d5b2faf4c2a7928f01b7", null ],
+    [ "TAB_MIN_HEIGHT", "d9/db3/card__hover__widget_8cpp.html#a816196311aedd32a937a512835935e00", null ],
+    [ "TAB_MIN_WIDTH", "d9/db3/card__hover__widget_8cpp.html#a0de96892711a63a9dc676aa8dbdeb617", null ]
+];

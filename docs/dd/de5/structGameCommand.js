@@ -36,7 +36,8 @@ var structGameCommand =
       [ "JUDGE", "dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12ae082f918ae85a29d06607ea22f8db10e", null ],
       [ "REVERSE_TURN", "dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12acd9dc16baab2c45ef9c98372c255c099", null ],
       [ "SET_PLAYMAT", "dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12ab56442672f8be920b1770f379e05297c", null ],
-      [ "SET_PLAYER_ORDER", "dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12a262c12c230390274f0399cc376752613", null ]
+      [ "SET_PLAYER_ORDER", "dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12a262c12c230390274f0399cc376752613", null ],
+      [ "REVEAL_RANDOM_CARDS", "dd/de5/structGameCommand.html#a7b8ff20e6438163dead68ec4b4116f12ab342c4dabbc86330c072f7e7b0a72b5b", null ]
     ] ],
     [ "max", "dd/de5/structGameCommand.html#abaae69eb1857dda303419838a9706a31", null ]
 ];

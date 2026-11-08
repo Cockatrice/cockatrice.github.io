@@ -6,9 +6,10 @@ var searchData=
   ['cardlocalization_3',['CardLocalization',['../d3/df9/namespaceCardLocalization.html',1,'']]],
   ['cardnodefunction_4',['CardNodeFunction',['../dd/d5d/namespaceCardNodeFunction.html',1,'']]],
   ['cardpictureloadercachemethod_5',['CardPictureLoaderCacheMethod',['../dd/d38/namespaceCardPictureLoaderCacheMethod.html',1,'']]],
-  ['cardpictureloaderlocalschemes_6',['CardPictureLoaderLocalSchemes',['../d7/de8/namespaceCardPictureLoaderLocalSchemes.html',1,'']]],
-  ['cardzonealgorithms_7',['CardZoneAlgorithms',['../df/df0/namespaceCardZoneAlgorithms.html',1,'']]],
-  ['commanderbracketnames_8',['CommanderBracketNames',['../dc/d33/namespaceCommanderBracketNames.html',1,'']]],
-  ['cryptoutil_9',['CryptoUtil',['../dc/d23/namespaceCryptoUtil.html',1,'']]],
-  ['ctktest_10',['ctkTest',['../d7/dab/namespacectkTest.html',1,'']]]
+  ['cardpictureloaderimageformats_6',['CardPictureLoaderImageFormats',['../d8/d58/namespaceCardPictureLoaderImageFormats.html',1,'']]],
+  ['cardpictureloaderlocalschemes_7',['CardPictureLoaderLocalSchemes',['../d7/de8/namespaceCardPictureLoaderLocalSchemes.html',1,'']]],
+  ['cardzonealgorithms_8',['CardZoneAlgorithms',['../df/df0/namespaceCardZoneAlgorithms.html',1,'']]],
+  ['commanderbracketnames_9',['CommanderBracketNames',['../dc/d33/namespaceCommanderBracketNames.html',1,'']]],
+  ['cryptoutil_10',['CryptoUtil',['../dc/d23/namespaceCryptoUtil.html',1,'']]],
+  ['ctktest_11',['ctkTest',['../d7/dab/namespacectkTest.html',1,'']]]
 ];

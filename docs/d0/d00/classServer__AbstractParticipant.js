@@ -25,6 +25,7 @@ var classServer__AbstractParticipant =
     [ "cmdNextTurn", "d0/d00/classServer__AbstractParticipant.html#adff30951d20e09e677a3da5e16cc31f6", null ],
     [ "cmdReadyStart", "d0/d00/classServer__AbstractParticipant.html#ab38cb6921007d7c4e2d4897bedfd0650", null ],
     [ "cmdRevealCards", "d0/d00/classServer__AbstractParticipant.html#a893dfaadcf0a73d7aa03673ea7ac75b5", null ],
+    [ "cmdRevealRandomCards", "d0/d00/classServer__AbstractParticipant.html#a138475ef9dec4c7991aa091cffa86265", null ],
     [ "cmdReverseTurn", "d0/d00/classServer__AbstractParticipant.html#acf8017cd858bba14425b506df3e6e167", null ],
     [ "cmdRollDie", "d0/d00/classServer__AbstractParticipant.html#ab2fdd3238431e4c5c3107b1b2370ea51", null ],
     [ "cmdSetActivePhase", "d0/d00/classServer__AbstractParticipant.html#ae4b9d880fb0bbff6e976b686aeafccee", null ],

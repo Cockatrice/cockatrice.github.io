@@ -37,12 +37,13 @@ var searchData=
   ['responsibilities_3a_34',['Core responsibilities:',['../da/d68/classDeckList.html#core-responsibilities',1,'']]],
   ['restart_20the_20client_35',['Restart the Client',['../d9/d7b/fixing_card_pictures.html#restart-the-client',1,'']]],
   ['reveal_5fcards_201026_36',['&lt;span class=&quot;tt&quot;&gt;REVEAL_CARDS&lt;/span&gt; (1026)',['../d0/d5b/protocol_game_command.html#reveal_cards-1026',1,'']]],
-  ['reverse_5fturn_201034_37',['&lt;span class=&quot;tt&quot;&gt;REVERSE_TURN&lt;/span&gt; (1034)',['../d0/d5b/protocol_game_command.html#reverse_turn-1034',1,'']]],
-  ['reviewing_20pull_20requests_38',['Reviewing Pull Requests',['../d1/d5a/contributing.html#reviewing-pull-requests',1,'']]],
-  ['role_20in_20the_20hierarchy_3a_39',['Role in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
-  ['roll_5fdie_201005_40',['&lt;span class=&quot;tt&quot;&gt;ROLL_DIE&lt;/span&gt; (1005)',['../d0/d5b/protocol_game_command.html#roll_die-1005',1,'']]],
-  ['room_20events_41',['Room Events',['../dc/d6c/protocol_server_message.html#room-events',1,'']]],
-  ['run_42',['Run',['../d0/d30/md_README.html#run',1,'']]],
-  ['run_20it_20every_202_20minutes_20with_20cron_43',['Run it every 2 minutes with cron',['../dir_7bfb512e87101b177eb3569817b9fc67.html#run-it-every-2-minutes-with-cron',1,'']]],
-  ['running_44',['Running',['../dir_52baaaedca03977d67375a3431bf5277.html#running',1,'']]]
+  ['revealing_20cards_37',['Revealing Cards',['../d3/d87/revealing_cards.html',1,'user_reference']]],
+  ['reverse_5fturn_201034_38',['&lt;span class=&quot;tt&quot;&gt;REVERSE_TURN&lt;/span&gt; (1034)',['../d0/d5b/protocol_game_command.html#reverse_turn-1034',1,'']]],
+  ['reviewing_20pull_20requests_39',['Reviewing Pull Requests',['../d1/d5a/contributing.html#reviewing-pull-requests',1,'']]],
+  ['role_20in_20the_20hierarchy_3a_40',['Role in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
+  ['roll_5fdie_201005_41',['&lt;span class=&quot;tt&quot;&gt;ROLL_DIE&lt;/span&gt; (1005)',['../d0/d5b/protocol_game_command.html#roll_die-1005',1,'']]],
+  ['room_20events_42',['Room Events',['../dc/d6c/protocol_server_message.html#room-events',1,'']]],
+  ['run_43',['Run',['../d0/d30/md_README.html#run',1,'']]],
+  ['run_20it_20every_202_20minutes_20with_20cron_44',['Run it every 2 minutes with cron',['../dir_7bfb512e87101b177eb3569817b9fc67.html#run-it-every-2-minutes-with-cron',1,'']]],
+  ['running_45',['Running',['../dir_52baaaedca03977d67375a3431bf5277.html#running',1,'']]]
 ];

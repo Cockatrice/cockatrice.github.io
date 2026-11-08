@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -157,6 +157,12 @@ Private Slots</h2></td></tr>
 <tr class="memitem:a57d59c96d722b2b1f4416f6e17d59225" id="r_a57d59c96d722b2b1f4416f6e17d59225"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a57d59c96d722b2b1f4416f6e17d59225">populateRevealRandomHandCardMenuWithActivePlayers</a> ()</td></tr>
 <tr class="memitem:a29e6bed4627670d625523e4048786723" id="r_a29e6bed4627670d625523e4048786723"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a29e6bed4627670d625523e4048786723">onRevealHandTriggered</a> ()</td></tr>
 <tr class="memitem:a6a0202b61be83a52dcb5f2694dec06e8" id="r_a6a0202b61be83a52dcb5f2694dec06e8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6a0202b61be83a52dcb5f2694dec06e8">onRevealRandomHandCardTriggered</a> ()</td></tr>
+<tr class="memitem:a08c58a352a0bfc21dfe6d7af577b1dec" id="r_a08c58a352a0bfc21dfe6d7af577b1dec"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a08c58a352a0bfc21dfe6d7af577b1dec">populateRevealRandomHandCardsMenuWithActivePlayers</a> ()</td></tr>
+<tr class="memitem:a2bad559388b4765d6007affa50c1e295" id="r_a2bad559388b4765d6007affa50c1e295"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2bad559388b4765d6007affa50c1e295">onRevealRandomHandCardsTriggered</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a2746ea1837a3fb11a988b576df0c8580" id="r_a2746ea1837a3fb11a988b576df0c8580"><td class="memItemLeft">QWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a2746ea1837a3fb11a988b576df0c8580">dialogParent</a> () const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -173,6 +179,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa4461771172517b243a62659221a4971" id="r_aa4461771172517b243a62659221a4971"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#aa4461771172517b243a62659221a4971">aRevealHandToAll</a> = nullptr</td></tr>
 <tr class="memitem:a0a8a6df07324f6fc3ac946e502fff1e3" id="r_a0a8a6df07324f6fc3ac946e502fff1e3"><td class="memItemLeft">QMenu *&#160;</td><td class="memItemRight"><a class="el" href="#a0a8a6df07324f6fc3ac946e502fff1e3">mRevealRandomHandCard</a> = nullptr</td></tr>
 <tr class="memitem:a3a388cd130750fed8808ecd3e18463db" id="r_a3a388cd130750fed8808ecd3e18463db"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a3a388cd130750fed8808ecd3e18463db">aRevealRandomHandCardToAll</a> = nullptr</td></tr>
+<tr class="memitem:a3f3bd204fe1f3c04296df73118cb9596" id="r_a3f3bd204fe1f3c04296df73118cb9596"><td class="memItemLeft">QMenu *&#160;</td><td class="memItemRight"><a class="el" href="#a3f3bd204fe1f3c04296df73118cb9596">mRevealRandomHandCards</a> = nullptr</td></tr>
+<tr class="memitem:a6ae17780e423cb5490b47779954d8ec5" id="r_a6ae17780e423cb5490b47779954d8ec5"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a6ae17780e423cb5490b47779954d8ec5">aRevealRandomHandCardsToAll</a> = nullptr</td></tr>
 <tr class="memitem:a23630034b83485a7dee8dc4db9f0ad42" id="r_a23630034b83485a7dee8dc4db9f0ad42"><td class="memItemLeft">QMenu *&#160;</td><td class="memItemRight"><a class="el" href="#a23630034b83485a7dee8dc4db9f0ad42">mMoveHandMenu</a> = nullptr</td></tr>
 <tr class="memitem:aff5515fc97cd006434cd5b551984de2e" id="r_aff5515fc97cd006434cd5b551984de2e"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#aff5515fc97cd006434cd5b551984de2e">aMoveHandToTopLibrary</a> = nullptr</td></tr>
 <tr class="memitem:a16b8f6476013f1b47bd8bebd479c5f63" id="r_a16b8f6476013f1b47bd8bebd479c5f63"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a16b8f6476013f1b47bd8bebd479c5f63">aMoveHandToBottomLibrary</a> = nullptr</td></tr>
@@ -207,6 +215,36 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a2746ea1837a3fb11a988b576df0c8580" name="a2746ea1837a3fb11a988b576df0c8580"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2746ea1837a3fb11a988b576df0c8580">&#9670;&#160;</a></span>dialogParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QWidget * HandMenu::dialogParent </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d04/classHandMenu_a2746ea1837a3fb11a988b576df0c8580_icgraph.svg" width="100%" height="373"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a29e6bed4627670d625523e4048786723" name="a29e6bed4627670d625523e4048786723"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29e6bed4627670d625523e4048786723">&#9670;&#160;</a></span>onRevealHandTriggered</h2>
 
@@ -238,6 +276,41 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d04/classHandMenu_a29e6bed4627670d625523e4048786723_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a2bad559388b4765d6007affa50c1e295" name="a2bad559388b4765d6007affa50c1e295"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bad559388b4765d6007affa50c1e295">&#9670;&#160;</a></span>onRevealRandomHandCardsTriggered</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HandMenu::onRevealRandomHandCardsTriggered </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d04/classHandMenu_a2bad559388b4765d6007affa50c1e295_cgraph.svg" width="488" height="263"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d04/classHandMenu_a2bad559388b4765d6007affa50c1e295_icgraph.svg" width="100%" height="373"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -343,6 +416,41 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d04/classHandMenu_a57d59c96d722b2b1f4416f6e17d59225_icgraph.svg" width="475" height="72"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a08c58a352a0bfc21dfe6d7af577b1dec" name="a08c58a352a0bfc21dfe6d7af577b1dec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08c58a352a0bfc21dfe6d7af577b1dec">&#9670;&#160;</a></span>populateRevealRandomHandCardsMenuWithActivePlayers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HandMenu::populateRevealRandomHandCardsMenuWithActivePlayers </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d04/classHandMenu_a08c58a352a0bfc21dfe6d7af577b1dec_cgraph.svg" width="100%" height="573"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d04/classHandMenu_a08c58a352a0bfc21dfe6d7af577b1dec_icgraph.svg" width="482" height="72"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -676,6 +784,28 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a6ae17780e423cb5490b47779954d8ec5" name="a6ae17780e423cb5490b47779954d8ec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ae17780e423cb5490b47779954d8ec5">&#9670;&#160;</a></span>aRevealRandomHandCardsToAll</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* HandMenu::aRevealRandomHandCardsToAll = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3a388cd130750fed8808ecd3e18463db" name="a3a388cd130750fed8808ecd3e18463db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a388cd130750fed8808ecd3e18463db">&#9670;&#160;</a></span>aRevealRandomHandCardToAll</h2>
 
@@ -841,6 +971,28 @@ Here is the call graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">QMenu* HandMenu::mRevealRandomHandCard = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f3bd204fe1f3c04296df73118cb9596" name="a3f3bd204fe1f3c04296df73118cb9596"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f3bd204fe1f3c04296df73118cb9596">&#9670;&#160;</a></span>mRevealRandomHandCards</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMenu* HandMenu::mRevealRandomHandCards = nullptr</td>
         </tr>
       </table>
   </td>

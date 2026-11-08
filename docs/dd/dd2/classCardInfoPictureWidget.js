@@ -1,6 +1,8 @@
 var classCardInfoPictureWidget =
 [
     [ "CardInfoPictureWidget", "dd/dd2/classCardInfoPictureWidget.html#a0ee2d270a29b4fc61e47cb42d8d4d373", null ],
+    [ "artRect", "dd/dd2/classCardInfoPictureWidget.html#ad0ce91745a1991cf7777ec4587848dc8", null ],
+    [ "artRectChanged", "dd/dd2/classCardInfoPictureWidget.html#a0a5a15a3bd27ea42ce4a617e3e07c3a7", null ],
     [ "cardChanged", "dd/dd2/classCardInfoPictureWidget.html#a24918126c99c2a3ce29a1a3280573c53", null ],
     [ "cardClicked", "dd/dd2/classCardInfoPictureWidget.html#a00e93de1ef3309c76bca53be72155721", null ],
     [ "cardScaleFactorChanged", "dd/dd2/classCardInfoPictureWidget.html#ae5624e0037a8d8aca8b3195cf21459d4", null ],
@@ -29,6 +31,7 @@ var classCardInfoPictureWidget =
     [ "sizeHint", "dd/dd2/classCardInfoPictureWidget.html#aade095f602086f04c24e5ee469af2003", null ],
     [ "updatePixmap", "dd/dd2/classCardInfoPictureWidget.html#a7f4df09cb703aca47d804cc0fe3c03bb", null ],
     [ "animation", "dd/dd2/classCardInfoPictureWidget.html#a1b346a24f8493d35d9d062e80e5247a3", null ],
+    [ "artRectCache", "dd/dd2/classCardInfoPictureWidget.html#a6171d09a9393db3ca1783d272da10239", null ],
     [ "ASPECT_RATIO", "dd/dd2/classCardInfoPictureWidget.html#a94ab6f5635dee34a0391c8beaeac7cf1", null ],
     [ "BASE_WIDTH", "dd/dd2/classCardInfoPictureWidget.html#ab45320e61ce4bf91bc95bb5733eefaad", null ],
     [ "enlargedPixmapWidget", "dd/dd2/classCardInfoPictureWidget.html#a64ee1b338dbbd7e41ed1c1ed31ad29f6", null ],

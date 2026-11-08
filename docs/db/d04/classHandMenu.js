@@ -1,10 +1,13 @@
 var classHandMenu =
 [
     [ "HandMenu", "db/d04/classHandMenu.html#a7045ce5b022ffcdf2380cf827310f6d9", null ],
+    [ "dialogParent", "db/d04/classHandMenu.html#a2746ea1837a3fb11a988b576df0c8580", null ],
     [ "onRevealHandTriggered", "db/d04/classHandMenu.html#a29e6bed4627670d625523e4048786723", null ],
+    [ "onRevealRandomHandCardsTriggered", "db/d04/classHandMenu.html#a2bad559388b4765d6007affa50c1e295", null ],
     [ "onRevealRandomHandCardTriggered", "db/d04/classHandMenu.html#a6a0202b61be83a52dcb5f2694dec06e8", null ],
     [ "populateRevealHandMenuWithActivePlayers", "db/d04/classHandMenu.html#ab43c7cf72fe0a01e92a2ddb1bf0ad8ef", null ],
     [ "populateRevealRandomHandCardMenuWithActivePlayers", "db/d04/classHandMenu.html#a57d59c96d722b2b1f4416f6e17d59225", null ],
+    [ "populateRevealRandomHandCardsMenuWithActivePlayers", "db/d04/classHandMenu.html#a08c58a352a0bfc21dfe6d7af577b1dec", null ],
     [ "retranslateUi", "db/d04/classHandMenu.html#a3c98aa06f9dfec55f8d1fa050e227f9c", null ],
     [ "revealHandMenu", "db/d04/classHandMenu.html#a0f15e2e406e5eb374f768975abc3057f", null ],
     [ "revealRandomHandCardMenu", "db/d04/classHandMenu.html#ac56aad48281488bc14b0cc254d5b9628", null ],
@@ -18,6 +21,7 @@ var classHandMenu =
     [ "aMulliganMinusOne", "db/d04/classHandMenu.html#aac306e0d1ccab150ad8fa7b7444140a7", null ],
     [ "aMulliganSame", "db/d04/classHandMenu.html#a426a5fd36482a7b4af61044085bbf3ee", null ],
     [ "aRevealHandToAll", "db/d04/classHandMenu.html#aa4461771172517b243a62659221a4971", null ],
+    [ "aRevealRandomHandCardsToAll", "db/d04/classHandMenu.html#a6ae17780e423cb5490b47779954d8ec5", null ],
     [ "aRevealRandomHandCardToAll", "db/d04/classHandMenu.html#a3a388cd130750fed8808ecd3e18463db", null ],
     [ "aSortHandByManaValue", "db/d04/classHandMenu.html#a4b703b898237eea6748bfa5a10a4d24c", null ],
     [ "aSortHandByName", "db/d04/classHandMenu.html#a804a9d5b8076f432c095ad80eab642e7", null ],
@@ -26,6 +30,7 @@ var classHandMenu =
     [ "mMoveHandMenu", "db/d04/classHandMenu.html#a23630034b83485a7dee8dc4db9f0ad42", null ],
     [ "mRevealHand", "db/d04/classHandMenu.html#a5023cc9a2dcf5dd79217d610b4d4d6ca", null ],
     [ "mRevealRandomHandCard", "db/d04/classHandMenu.html#a0a8a6df07324f6fc3ac946e502fff1e3", null ],
+    [ "mRevealRandomHandCards", "db/d04/classHandMenu.html#a3f3bd204fe1f3c04296df73118cb9596", null ],
     [ "mSortHand", "db/d04/classHandMenu.html#a8dbb34049bf08cf5e6cdba9a13e5c59e", null ],
     [ "player", "db/d04/classHandMenu.html#a382ea77ffb916f70f3dc156afea00c20", null ]
 ];

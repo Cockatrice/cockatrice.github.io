@@ -33,6 +33,7 @@ var classOracleWizard =
     [ "nam", "d5/dba/classOracleWizard.html#a60a705f9777aff1b36ea37bc4eae60e5", null ],
     [ "raiseServer", "d5/dba/classOracleWizard.html#af174966b40b35f0ce8bdb2d740553caa", null ],
     [ "settings", "d5/dba/classOracleWizard.html#a77a630fcb314cc55b95d433e504b771d", null ],
+    [ "tagDatabase", "d5/dba/classOracleWizard.html#a3a4c6e9d62c5556f6fc2aed85a9a8032", null ],
     [ "tokensData", "d5/dba/classOracleWizard.html#ae31123facf4abef01eaf3232fe264122", null ],
     [ "xmlData", "d5/dba/classOracleWizard.html#a5ff67cd36b55e2129bea51f4b81cde56", null ]
 ];

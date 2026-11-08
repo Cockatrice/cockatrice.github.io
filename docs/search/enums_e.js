@@ -1,11 +1,22 @@
 var searchData=
 [
-  ['tabindex_0',['TabIndex',['../d9/dcf/classTabDeckEditorVisualTabWidget.html#af66678f97d56f149e8cb9f6e8c060a17',1,'TabDeckEditorVisualTabWidget']]],
-  ['tag_1',['Tag',['../d5/d93/structpeg_1_1GrammarBlob.html#a40f97bab1c3e9fc7027c7054846eb575',1,'peg::GrammarBlob']]],
-  ['tagstate_2',['TagState',['../d8/d6a/deck__preview__tag__display__widget_8h.html#aec9c78c91e600305a61ee817a2c2a93e',1,'deck_preview_tag_display_widget.h']]],
-  ['tallytype_3',['TallyType',['../dc/d06/tally_8h.html#a210730729ae1985c85bd1ed922ff6bde',1,'tally.h']]],
-  ['targetmode_4',['TargetMode',['../dd/d22/structCommand__CreateToken.html#a29d8a19ec37e08419a8110dd9eb8bff0',1,'Command_CreateToken']]],
-  ['tooltiptype_5',['TooltipType',['../d7/d92/classVisualDeckStorageQuickSettingsWidget.html#a949b930fc50cc62562e915e29184c190',1,'VisualDeckStorageQuickSettingsWidget']]],
-  ['translationloadresult_6',['TranslationLoadResult',['../dc/d0c/translation__loader_8h.html#adaab297bf5f0b3c6339d620d1c551391',1,'translation_loader.h']]],
-  ['type_7',['Type',['../d1/df3/classBackgroundSources.html#a2a424f527146b1ed935bcc61ed84a639',1,'BackgroundSources::Type'],['../d7/dfc/classCardFilter.html#a9399b331b33291a90e47255e8c27d562',1,'CardFilter::Type'],['../d2/d91/namespaceDeckListModelGroupCriteria.html#afa5188e01888675ddc8cab183f908179',1,'DeckListModelGroupCriteria::Type']]]
+  ['saveresult_0',['SaveResult',['../d2/db3/namespaceSpoilerFile.html#a932d2c8e4a1315d00c31086128c78cb0',1,'SpoilerFile']]],
+  ['scheme_1',['Scheme',['../df/d6a/namespaceThemeIconFill.html#a19430d23eecd0d2918b019ec9effba8a',1,'ThemeIconFill']]],
+  ['searchlanguagemode_2',['SearchLanguageMode',['../d1/d4d/libcockatrice__card_2libcockatrice_2card_2card__localization_8h.html#a923de91ab5c9550fb6822888cb431370',1,'card_localization.h']]],
+  ['section_3',['Section',['../da/d3b/classUserListWidget.html#a3b2e7175927009772d371d7d1ddeafb7',1,'UserListWidget']]],
+  ['serveroptions_4',['ServerOptions',['../df/d48/structEvent__ServerIdentification.html#a42dc11e928736dbfb7e240906767586e',1,'Event_ServerIdentification']]],
+  ['sessioncommandtype_5',['SessionCommandType',['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700',1,'SessionCommand']]],
+  ['sessioneventtype_6',['SessionEventType',['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624',1,'SessionEvent']]],
+  ['setscolumns_7',['SetsColumns',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735',1,'SetsModel']]],
+  ['settingspage_8',['SettingsPage',['../da/dbe/classSettingsView.html#af4def4eb97317b7ef47567964e073901',1,'SettingsView']]],
+  ['shutdownstate_9',['ShutdownState',['../d6/d1a/classMainWindow.html#ae5db1bec047d610fafedcb344cc7c363',1,'MainWindow']]],
+  ['smtperror_10',['SmtpError',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673',1,'QxtSmtp']]],
+  ['smtpstate_11',['SmtpState',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216',1,'QxtSmtpPrivate']]],
+  ['sortoption_12',['SortOption',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f',1,'CardList']]],
+  ['sortorder_13',['SortOrder',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a34c0f4823347abf0d21080564d67916e',1,'VisualDeckStorageSortFilterProxyModel']]],
+  ['source_14',['Source',['../dd/d09/classIconTint.html#af07d6634b1ad702f3da27ed7370107ed',1,'IconTint::Source'],['../d4/dc8/namespaceHomeTabButtonColor.html#affeaff1dd38134fcce07fddc4b1b127a',1,'HomeTabButtonColor::Source']]],
+  ['startaction_15',['StartAction',['../d5/de4/classServer__GameLifecycleStrategy.html#a63df2a508967c8cd78048c5fea7f2463',1,'Server_GameLifecycleStrategy']]],
+  ['startupcardupdatecheckbehaviorindex_16',['startupCardUpdateCheckBehaviorIndex',['../d5/d3a/general__settings__page_8cpp.html#aabda63228c5ec3c0d54401f86f3c1a96',1,'general_settings_page.cpp']]],
+  ['startuptab_17',['StartupTab',['../d3/d49/tabs__settings_8h.html#ae8387ef97f91e913a72de3e99c7e574e',1,'tabs_settings.h']]],
+  ['state_18',['State',['../d3/d60/classCardDatabaseSetupPage.html#a0c5c64f3ee6c9d591feb4c76a92bbe89',1,'CardDatabaseSetupPage::State'],['../dd/dad/classUserGamesModel.html#a7362eb8138a54d55b157e72733a271b8',1,'UserGamesModel::State']]]
 ];

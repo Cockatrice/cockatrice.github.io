@@ -63,6 +63,7 @@ var hierarchy =
     [ "BracketExplainer", "df/d33/classBracketExplainer.html", null ],
     [ "BracketExplanation", "df/dfa/structBracketExplanation.html", null ],
     [ "BracketExplanationSection", "d6/d74/structBracketExplanationSection.html", null ],
+    [ "ButtonGrid", "dd/d1e/classButtonGrid.html", null ],
     [ "CardPictureLoaderCacheMethod::CacheMethodInfo", "d6/de6/structCardPictureLoaderCacheMethod_1_1CacheMethodInfo.html", null ],
     [ "CardArtParams", "dd/d52/structCardArtParams.html", null ],
     [ "ServerInfo_User::CardArtParams", "d8/d4b/structServerInfo__User_1_1CardArtParams.html", null ],
@@ -182,6 +183,7 @@ var hierarchy =
     [ "Command_RequestPasswordSalt", "d1/ded/structCommand__RequestPasswordSalt.html", null ],
     [ "Command_ResetUserPassword", "dd/d6c/structCommand__ResetUserPassword.html", null ],
     [ "Command_RevealCards", "d5/dcf/structCommand__RevealCards.html", null ],
+    [ "Command_RevealRandomCards", "d2/df3/structCommand__RevealRandomCards.html", null ],
     [ "Command_ReverseTurn", "d1/d02/structCommand__ReverseTurn.html", null ],
     [ "Command_RollDie", "d1/d9b/structCommand__RollDie.html", null ],
     [ "Command_RoomChannelSay", "d9/d8c/structCommand__RoomChannelSay.html", null ],
@@ -242,6 +244,7 @@ var hierarchy =
     [ "DeckShareItem", "d8/dfd/structDeckShareItem.html", null ],
     [ "DeckShareItemRecord", "d6/d6a/structDeckShareItemRecord.html", null ],
     [ "DeckShareSummaryRecord", "de/d47/structDeckShareSummaryRecord.html", null ],
+    [ "CardPictureLoaderImageFormats::DecodedImage", "d7/d8d/structCardPictureLoaderImageFormats_1_1DecodedImage.html", null ],
     [ "peg::Definition", "d8/d94/classpeg_1_1Definition.html", null ],
     [ "AnalyticsPanelWidgetFactory::Descriptor", "dc/d03/structAnalyticsPanelWidgetFactory_1_1Descriptor.html", null ],
     [ "Command_GetServerStats::DeveloperCommand", "d5/df5/structCommand__GetServerStats_1_1DeveloperCommand.html", null ],
@@ -381,6 +384,7 @@ var hierarchy =
     [ "Command_NextTurn::GameCommand", "d1/d01/structCommand__NextTurn_1_1GameCommand.html", null ],
     [ "Command_ReadyStart::GameCommand", "d8/dba/structCommand__ReadyStart_1_1GameCommand.html", null ],
     [ "Command_RevealCards::GameCommand", "db/d75/structCommand__RevealCards_1_1GameCommand.html", null ],
+    [ "Command_RevealRandomCards::GameCommand", "d4/d8d/structCommand__RevealRandomCards_1_1GameCommand.html", null ],
     [ "Command_ReverseTurn::GameCommand", "d8/d08/structCommand__ReverseTurn_1_1GameCommand.html", null ],
     [ "Command_RollDie::GameCommand", "d3/db5/structCommand__RollDie_1_1GameCommand.html", null ],
     [ "Command_SetActivePhase::GameCommand", "d0/d1a/structCommand__SetActivePhase_1_1GameCommand.html", null ],
@@ -396,6 +400,7 @@ var hierarchy =
     [ "Command_UndoDraw::GameCommand", "d1/d1b/structCommand__UndoDraw_1_1GameCommand.html", null ],
     [ "GameCommand", "dd/de5/structGameCommand.html", null ],
     [ "GameConfig", "dc/d61/structGameConfig.html", null ],
+    [ "GameCreationOptions", "dd/d5f/structGameCreationOptions.html", null ],
     [ "Event_AttachCard::GameEvent", "da/d3c/structEvent__AttachCard_1_1GameEvent.html", null ],
     [ "Event_ChangeZoneProperties::GameEvent", "d8/dbf/structEvent__ChangeZoneProperties_1_1GameEvent.html", null ],
     [ "Event_CreateArrow::GameEvent", "d7/ddc/structEvent__CreateArrow_1_1GameEvent.html", null ],
@@ -479,6 +484,7 @@ var hierarchy =
     [ "IChatSettingsProvider", "d0/d5a/classIChatSettingsProvider.html", [
       [ "ChatSettings", "de/dba/classChatSettings.html", null ]
     ] ],
+    [ "IconTint", "dd/d09/classIconTint.html", null ],
     [ "IDeckEditorSettingsProvider", "d5/d25/classIDeckEditorSettingsProvider.html", [
       [ "DeckEditorSettings", "d3/d73/classDeckEditorSettings.html", null ]
     ] ],
@@ -529,6 +535,8 @@ var hierarchy =
     [ "ListOfCardsToMove", "da/d6b/structListOfCardsToMove.html", null ],
     [ "LoadedDeck", "d9/dc2/structLoadedDeck.html", null ],
     [ "LoadedDeck::LoadInfo", "d4/d0d/structLoadedDeck_1_1LoadInfo.html", null ],
+    [ "TagDatabase::LoadOptions", "df/da4/structTagDatabase_1_1LoadOptions.html", null ],
+    [ "TagsPage::LoadResult", "d7/dcf/structTagsPage_1_1LoadResult.html", null ],
     [ "LoadSetsResult", "dc/df4/structLoadSetsResult.html", null ],
     [ "LocalGameOptions", "d9/de7/structLocalGameOptions.html", null ],
     [ "LocalizedCardEntry", "de/d87/structLocalizedCardEntry.html", null ],
@@ -738,6 +746,7 @@ var hierarchy =
     ] ],
     [ "QFlags&lt; Enum &gt;", "dd/d03/classQFlags.html", null ],
     [ "QFrame", null, [
+      [ "CardHoverWidget", "db/d7a/classCardHoverWidget.html", null ],
       [ "CardInfoDisplayWidget", "d1/de1/classCardInfoDisplayWidget.html", null ],
       [ "CardInfoTextWidget", "dd/d82/classCardInfoTextWidget.html", null ],
       [ "UserInfoPopup", "df/d81/classUserInfoPopup.html", null ]
@@ -853,6 +862,7 @@ var hierarchy =
         ] ],
         [ "TabAccount", "d5/da7/classTabAccount.html", null ],
         [ "TabAdmin", "d5/d3b/classTabAdmin.html", null ],
+        [ "TabAlts", "dd/d32/classTabAlts.html", null ],
         [ "TabArchidekt", "db/d5d/classTabArchidekt.html", null ],
         [ "TabCardArtRules", "da/de8/classTabCardArtRules.html", null ],
         [ "TabDeckStorage", "d1/dd7/classTabDeckStorage.html", null ],
@@ -1192,10 +1202,12 @@ var hierarchy =
       [ "VisualDeckStorageSortFilterProxyModel", "df/d53/classVisualDeckStorageSortFilterProxyModel.html", null ]
     ] ],
     [ "QStyledItemDelegate", null, [
+      [ "AltTableDelegate", "dd/d76/classAltTableDelegate.html", null ],
       [ "CardCompleterDelegate", "d7/d29/classCardCompleterDelegate.html", null ],
       [ "CardPictureDelegate", "dc/d7b/classCardPictureDelegate.html", null ],
       [ "PlayerListItemDelegate", "d3/d79/classPlayerListItemDelegate.html", null ],
       [ "PopupGameDelegate", "de/d5e/classPopupGameDelegate.html", null ],
+      [ "ReportStatusDelegate", "dc/da4/classReportStatusDelegate.html", null ],
       [ "SettingsSearchDelegate", "d9/df9/classSettingsSearchDelegate.html", null ],
       [ "UserListItemDelegate", "dc/d89/classUserListItemDelegate.html", null ]
     ] ],
@@ -1286,6 +1298,7 @@ var hierarchy =
       [ "ColorIdentityWidget", "d7/d30/classColorIdentityWidget.html", null ],
       [ "ColorPie", "d9/d42/classColorPie.html", null ],
       [ "CommanderBracketWidget", "d3/d9a/classCommanderBracketWidget.html", null ],
+      [ "CreateGameFormWidget", "d5/d4a/classCreateGameFormWidget.html", null ],
       [ "DeckAnalyticsWidget", "d4/d77/classDeckAnalyticsWidget.html", null ],
       [ "DeckCardZoneDisplayWidget", "d8/d9f/classDeckCardZoneDisplayWidget.html", null ],
       [ "DeckEditorDatabaseDisplayWidget", "d3/d0a/classDeckEditorDatabaseDisplayWidget.html", null ],
@@ -1378,6 +1391,7 @@ var hierarchy =
       [ "VisualDatabaseDisplayRecentSetFilterSettingsWidget", "da/d2e/classVisualDatabaseDisplayRecentSetFilterSettingsWidget.html", null ],
       [ "VisualDatabaseDisplaySetFilterWidget", "d0/de9/classVisualDatabaseDisplaySetFilterWidget.html", null ],
       [ "VisualDatabaseDisplaySubTypeFilterWidget", "da/d71/classVisualDatabaseDisplaySubTypeFilterWidget.html", null ],
+      [ "VisualDatabaseDisplayTagFilterWidget", "dd/d0c/classVisualDatabaseDisplayTagFilterWidget.html", null ],
       [ "VisualDatabaseDisplayWidget", "d2/d32/classVisualDatabaseDisplayWidget.html", null ],
       [ "VisualDeckDisplayOptionsWidget", "dc/de4/classVisualDeckDisplayOptionsWidget.html", null ],
       [ "VisualDeckEditorPlaceholderWidget", "d5/de5/classVisualDeckEditorPlaceholderWidget.html", null ],
@@ -1402,7 +1416,8 @@ var hierarchy =
         [ "SimpleDownloadFilePage", "d7/d53/classSimpleDownloadFilePage.html", [
           [ "LoadSpoilersPage", "d0/d54/classLoadSpoilersPage.html", null ],
           [ "LoadTokensPage", "d7/d75/classLoadTokensPage.html", null ]
-        ] ]
+        ] ],
+        [ "TagsPage", "d8/da9/classTagsPage.html", null ]
       ] ]
     ] ],
     [ "QxtHmac", "db/d72/classQxtHmac.html", null ],
@@ -1530,6 +1545,7 @@ var hierarchy =
     ] ],
     [ "RawJson::ScanError", "dc/d38/structRawJson_1_1ScanError.html", null ],
     [ "peg::scope_exit&lt; EF &gt;", "d5/dbb/structpeg_1_1scope__exit.html", null ],
+    [ "ScopedPluginPathHiding", "d9/d08/classScopedPluginPathHiding.html", null ],
     [ "CardSearchModel::SearchResult", "df/d87/structCardSearchModel_1_1SearchResult.html", null ],
     [ "SegmentedBarWidget::Segment", "d2/d89/structSegmentedBarWidget_1_1Segment.html", null ],
     [ "Server_Arrow", "df/d3b/classServer__Arrow.html", null ],
@@ -1669,6 +1685,7 @@ var hierarchy =
     [ "LatencyTracker::Stats", "d7/d35/structLatencyTracker_1_1Stats.html", null ],
     [ "StressResult", "d4/dc6/structStressResult.html", null ],
     [ "UserListPainter::Style", "d3/d6e/structUserListPainter_1_1Style.html", null ],
+    [ "TagDatabase", "da/d35/classTagDatabase.html", null ],
     [ "TallyRow", "d3/d34/structTallyRow.html", null ],
     [ "testing::Test", null, [
       [ "AddCardAlgorithmTest", "d1/df2/classAddCardAlgorithmTest.html", null ],

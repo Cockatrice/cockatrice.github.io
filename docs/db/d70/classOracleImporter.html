@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -143,6 +143,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1f742d2efe0a636cb28b4cb1de5caa2d" id="r_a1f742d2efe0a636cb28b4cb1de5caa2d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1f742d2efe0a636cb28b4cb1de5caa2d">OracleImporter</a> (QObject *parent=nullptr)</td></tr>
 <tr class="memitem:aa2ff6d91f25dd6dc842ea92f291b9d8c" id="r_aa2ff6d91f25dd6dc842ea92f291b9d8c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa2ff6d91f25dd6dc842ea92f291b9d8c">setProgressReporting</a> (bool enabled)</td></tr>
 <tr class="memdesc:aa2ff6d91f25dd6dc842ea92f291b9d8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controls whether <a class="el" href="#adae9c14ed857838b09cfca834a416712">readSetsFromByteArray()</a> instruments the raw scan.  <br /></td></tr>
+<tr class="memitem:ab67ab4e711a0cf049e511f5a5fdcba1f" id="r_ab67ab4e711a0cf049e511f5a5fdcba1f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab67ab4e711a0cf049e511f5a5fdcba1f">setTagDatabase</a> (std::shared_ptr&lt; const <a class="el" href="../../da/d35/classTagDatabase.html">TagDatabase</a> &gt; database)</td></tr>
+<tr class="memdesc:ab67ab4e711a0cf049e511f5a5fdcba1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supplies the tag database applied to every imported card.  <br /></td></tr>
 <tr class="memitem:a1acfe22081d82fafa85648b07375f7dd" id="r_a1acfe22081d82fafa85648b07375f7dd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1acfe22081d82fafa85648b07375f7dd">setCardLang</a> (const QString &amp;lang)</td></tr>
 <tr class="memitem:a24e494e9e70dd940d249e3346eda2d1b" id="r_a24e494e9e70dd940d249e3346eda2d1b"><td class="memItemLeft">const QString &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a24e494e9e70dd940d249e3346eda2d1b">getCardLang</a> () const</td></tr>
 <tr class="memitem:adae9c14ed857838b09cfca834a416712" id="r_adae9c14ed857838b09cfca834a416712"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#adae9c14ed857838b09cfca834a416712">readSetsFromByteArray</a> (QByteArray data)</td></tr>
@@ -181,6 +183,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad9e024b7d4ba8b21ff26e6f2a584a8f9" id="r_ad9e024b7d4ba8b21ff26e6f2a584a8f9"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ad9e024b7d4ba8b21ff26e6f2a584a8f9">importError</a></td></tr>
 <tr class="memitem:a14da6fe16bd9aead0cce82510ac63843" id="r_a14da6fe16bd9aead0cce82510ac63843"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#a14da6fe16bd9aead0cce82510ac63843">cardLang</a> = &quot;en&quot;</td></tr>
 <tr class="memitem:a30697e3ac50fb7c0b8e6aa7f6fbbfde3" id="r_a30697e3ac50fb7c0b8e6aa7f6fbbfde3"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a30697e3ac50fb7c0b8e6aa7f6fbbfde3">localizationEnabled</a> = false</td></tr>
+<tr class="memitem:ad4b8873f84c126e59a743b12c215c16c" id="r_ad4b8873f84c126e59a743b12c215c16c"><td class="memItemLeft">std::shared_ptr&lt; const <a class="el" href="../../da/d35/classTagDatabase.html">TagDatabase</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ad4b8873f84c126e59a743b12c215c16c">tagDatabase</a></td></tr>
 <tr class="memitem:af57c91cfaa9fa55480f49b0be2a0c137" id="r_af57c91cfaa9fa55480f49b0be2a0c137"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, <a class="el" href="../../de/d87/structLocalizedCardEntry.html">LocalizedCardEntry</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#af57c91cfaa9fa55480f49b0be2a0c137">localizedEntries</a></td></tr>
 <tr class="memitem:a24233db8708214e93b67e5a945115e2a" id="r_a24233db8708214e93b67e5a945115e2a"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, <a class="el" href="../../de/d87/structLocalizedCardEntry.html">LocalizedCardEntry</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a24233db8708214e93b67e5a945115e2a">splitLocalizedTexts</a></td></tr>
 </table><table class="memberdecls">
@@ -908,6 +911,39 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ab67ab4e711a0cf049e511f5a5fdcba1f" name="ab67ab4e711a0cf049e511f5a5fdcba1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab67ab4e711a0cf049e511f5a5fdcba1f">&#9670;&#160;</a></span>setTagDatabase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OracleImporter::setTagDatabase </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; const <a class="el" href="../../da/d35/classTagDatabase.html">TagDatabase</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>database</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Supplies the tag database applied to every imported card. </p>
+<p>Pass nullptr to import without tags. The wizard keeps the database alive for the whole import, so the worker sees a stable pointer. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_ab67ab4e711a0cf049e511f5a5fdcba1f_icgraph.svg" width="498" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a646b5f8925967d8649528bd1fe1962ce" name="a646b5f8925967d8649528bd1fe1962ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a646b5f8925967d8649528bd1fe1962ce">&#9670;&#160;</a></span>startImport()</h2>
 
@@ -1228,6 +1264,29 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <p>cardLang rules text collected for split-card names while parsing sets, applied by <a class="el" href="#aefe230e02943779366ad16dfbe60624c">applyLocalizedData()</a>. Kept apart from localizedEntries because MTGJSON emits each split face as its own card object with the joined name on every foreignData entry: names and the per-face text join have different completeness and must not overwrite each other under the same key. </p>
+
+</div>
+</div>
+<a id="ad4b8873f84c126e59a743b12c215c16c" name="ad4b8873f84c126e59a743b12c215c16c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4b8873f84c126e59a743b12c215c16c">&#9670;&#160;</a></span>tagDatabase</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="../../da/d35/classTagDatabase.html">TagDatabase</a>&gt; OracleImporter::tagDatabase</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Optional tag lookup applied to every imported card. Owned by the wizard so it outlives the import worker; null when tags are disabled. </p>
 
 </div>
 </div>

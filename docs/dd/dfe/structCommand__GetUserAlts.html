@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -128,8 +128,98 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a70bebefef8cecf1e78c4b02f923543ea" id="r_a70bebefef8cecf1e78c4b02f923543ea"><td class="memItemLeft">optional string&#160;</td><td class="memItemRight"><a class="el" href="#a70bebefef8cecf1e78c4b02f923543ea">user_name</a> = 1</td></tr>
+<tr class="memitem:abae53b7fe9156eb69a78ec297e54d2c9" id="r_abae53b7fe9156eb69a78ec297e54d2c9"><td class="memItemLeft">optional uint32&#160;</td><td class="memItemRight"><a class="el" href="#abae53b7fe9156eb69a78ec297e54d2c9">depth</a> = 2 [default = 1]</td></tr>
+<tr class="memdesc:abae53b7fe9156eb69a78ec297e54d2c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">BFS depth: 1 = direct matches only, up to 3 for transitive alts-of-alts.  <br /></td></tr>
+<tr class="memitem:a258f84a259b0c48d6405647c4c778442" id="r_a258f84a259b0c48d6405647c4c778442"><td class="memItemLeft">optional bool&#160;</td><td class="memItemRight"><a class="el" href="#a258f84a259b0c48d6405647c4c778442">include_email</a> = 3 [default = true]</td></tr>
+<tr class="memdesc:a258f84a259b0c48d6405647c4c778442"><td class="mdescLeft">&#160;</td><td class="mdescRight">match and expand over registration email  <br /></td></tr>
+<tr class="memitem:a7368bc12750d7d8cedd51d1d0429977d" id="r_a7368bc12750d7d8cedd51d1d0429977d"><td class="memItemLeft">optional bool&#160;</td><td class="memItemRight"><a class="el" href="#a7368bc12750d7d8cedd51d1d0429977d">include_clientid</a> = 4 [default = true]</td></tr>
+<tr class="memdesc:a7368bc12750d7d8cedd51d1d0429977d"><td class="mdescLeft">&#160;</td><td class="mdescRight">match and expand over current and historic client ids  <br /></td></tr>
+<tr class="memitem:a8b4fc63e670a5130184bbf91032c4e22" id="r_a8b4fc63e670a5130184bbf91032c4e22"><td class="memItemLeft">optional bool&#160;</td><td class="memItemRight"><a class="el" href="#a8b4fc63e670a5130184bbf91032c4e22">include_ip</a> = 5 [default = true]</td></tr>
+<tr class="memdesc:a8b4fc63e670a5130184bbf91032c4e22"><td class="mdescLeft">&#160;</td><td class="mdescRight">match and expand over recent session IPs  <br /></td></tr>
+<tr class="memitem:abaae445ad15c61426c14a5a4cb661686" id="r_abaae445ad15c61426c14a5a4cb661686"><td class="memItemLeft">optional uint32&#160;</td><td class="memItemRight"><a class="el" href="#abaae445ad15c61426c14a5a4cb661686">session_months</a> = 6 [default = 6]</td></tr>
+<tr class="memdesc:abaae445ad15c61426c14a5a4cb661686"><td class="mdescLeft">&#160;</td><td class="mdescRight">session lookback window in months, 1-24  <br /></td></tr>
 </table>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="abae53b7fe9156eb69a78ec297e54d2c9" name="abae53b7fe9156eb69a78ec297e54d2c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abae53b7fe9156eb69a78ec297e54d2c9">&#9670;&#160;</a></span>depth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional uint32 Command_GetUserAlts::depth = 2 [default = 1]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>BFS depth: 1 = direct matches only, up to 3 for transitive alts-of-alts. </p>
+
+</div>
+</div>
+<a id="a7368bc12750d7d8cedd51d1d0429977d" name="a7368bc12750d7d8cedd51d1d0429977d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7368bc12750d7d8cedd51d1d0429977d">&#9670;&#160;</a></span>include_clientid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional bool Command_GetUserAlts::include_clientid = 4 [default = true]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>match and expand over current and historic client ids </p>
+
+</div>
+</div>
+<a id="a258f84a259b0c48d6405647c4c778442" name="a258f84a259b0c48d6405647c4c778442"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a258f84a259b0c48d6405647c4c778442">&#9670;&#160;</a></span>include_email</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional bool Command_GetUserAlts::include_email = 3 [default = true]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>match and expand over registration email </p>
+
+</div>
+</div>
+<a id="a8b4fc63e670a5130184bbf91032c4e22" name="a8b4fc63e670a5130184bbf91032c4e22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b4fc63e670a5130184bbf91032c4e22">&#9670;&#160;</a></span>include_ip</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional bool Command_GetUserAlts::include_ip = 5 [default = true]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>match and expand over recent session IPs </p>
+
+</div>
+</div>
+<a id="abaae445ad15c61426c14a5a4cb661686" name="abaae445ad15c61426c14a5a4cb661686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaae445ad15c61426c14a5a4cb661686">&#9670;&#160;</a></span>session_months</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional uint32 Command_GetUserAlts::session_months = 6 [default = 6]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>session lookback window in months, 1-24 </p>
+
+</div>
+</div>
 <a id="a70bebefef8cecf1e78c4b02f923543ea" name="a70bebefef8cecf1e78c4b02f923543ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a70bebefef8cecf1e78c4b02f923543ea">&#9670;&#160;</a></span>user_name</h2>
 

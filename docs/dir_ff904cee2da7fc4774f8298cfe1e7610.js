@@ -5,6 +5,7 @@ var dir_ff904cee2da7fc4774f8298cfe1e7610 =
     [ "deck_editor", "dir_92d403742a3e0828f8dabf9c7c1d5f4c.html", "dir_92d403742a3e0828f8dabf9c7c1d5f4c" ],
     [ "deck_share", "dir_f4cc86e7d521b81f1b080272170d94b3.html", "dir_f4cc86e7d521b81f1b080272170d94b3" ],
     [ "dialogs", "dir_4b0cf6f004d72cb4344e8e7ea1f16c10.html", "dir_4b0cf6f004d72cb4344e8e7ea1f16c10" ],
+    [ "game_hosting", "dir_9dcb89e93ae39c3b0d9c5cc425400e9c.html", "dir_9dcb89e93ae39c3b0d9c5cc425400e9c" ],
     [ "general", "dir_2efc70cb735a710399c485f6d0a8024b.html", "dir_2efc70cb735a710399c485f6d0a8024b" ],
     [ "menus", "dir_4a1ecbfbec8315730a38f86e2696812c.html", "dir_4a1ecbfbec8315730a38f86e2696812c" ],
     [ "onboarding", "dir_c014448e153a1ce76f7caf1309276f49.html", "dir_c014448e153a1ce76f7caf1309276f49" ],

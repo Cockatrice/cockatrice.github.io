@@ -19,6 +19,7 @@ var classVisualDatabaseDisplayFilterToolbarWidget =
     [ "quickFilterSaveLoadWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a8f1fda82a216623684776f3945a642ed", null ],
     [ "quickFilterSetWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a834f9dfe0941e1b09fc499c6e31448d4", null ],
     [ "quickFilterSubTypeWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a84205ce1e6b2fafab073b7e3d40f7a86", null ],
+    [ "quickFilterTagWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#aa3404ec6a62344d4110bee7fd4107f73", null ],
     [ "saveLoadWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a2e899f5b3c37aec6f8aa4b842522a1ea", null ],
     [ "setFilterWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a526a21bb040a84e061936332a4380086", null ],
     [ "sortByLabel", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#ae117317f33c3d558f350551b5d8630e5", null ],
@@ -26,5 +27,6 @@ var classVisualDatabaseDisplayFilterToolbarWidget =
     [ "sortGroupBox", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#abb72c1f56f7f1ccefd07ecec83a93399", null ],
     [ "sortOrderCombo", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#ad00d0f610d0bbac017a29838867e6099", null ],
     [ "subTypeFilterWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#ab8b2b1184cdc0c72cfff6aca4f545638", null ],
+    [ "tagFilterWidget", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a7bcf7269f3d2e1e960d0602a20abee21", null ],
     [ "visualDatabaseDisplay", "d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#ac93fee6782bab689c33f020268b885fa", null ]
 ];

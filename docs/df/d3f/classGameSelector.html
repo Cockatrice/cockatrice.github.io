@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -148,10 +148,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a25962456830841ae109682ff1a7603f0" id="r_a25962456830841ae109682ff1a7603f0"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a25962456830841ae109682ff1a7603f0">~GameSelector</a> () override</td></tr>
 <tr class="memitem:a469b920caa40b2976f139c82a67617e7" id="r_a469b920caa40b2976f139c82a67617e7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a469b920caa40b2976f139c82a67617e7">retranslateUi</a> ()</td></tr>
 <tr class="memdesc:a469b920caa40b2976f139c82a67617e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates UI text for translation/localization.  <br /></td></tr>
+<tr class="memitem:ab27da2dcd4f3e8896dac821efbf9c06f" id="r_ab27da2dcd4f3e8896dac821efbf9c06f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab27da2dcd4f3e8896dac821efbf9c06f">refreshShortcuts</a> ()</td></tr>
+<tr class="memdesc:ab27da2dcd4f3e8896dac821efbf9c06f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Re-reads the quick-host and review shortcuts after the user rebinds them.  <br /></td></tr>
 <tr class="memitem:aaac69a09b58136e991c396581a6b115c" id="r_aaac69a09b58136e991c396581a6b115c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaac69a09b58136e991c396581a6b115c">processGameInfo</a> (const <a class="el" href="../../d4/dbe/structServerInfo__Game.html">ServerInfo_Game</a> &amp;info)</td></tr>
 <tr class="memdesc:aaac69a09b58136e991c396581a6b115c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates or adds a game entry in the list.  <br /></td></tr>
 <tr class="memitem:a50089ce8c8f7a2b82c87e2af7fdf48bf" id="r_a50089ce8c8f7a2b82c87e2af7fdf48bf"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a50089ce8c8f7a2b82c87e2af7fdf48bf">joinGameById</a> (int gameId, bool asSpectator=false)</td></tr>
 <tr class="memdesc:a50089ce8c8f7a2b82c87e2af7fdf48bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a game by ID and joins or spectates it.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:aac60bba86b27f54e32da893dcfcd72b4" id="r_aac60bba86b27f54e32da893dcfcd72b4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aac60bba86b27f54e32da893dcfcd72b4">changeEvent</a> (QEvent *event) override</td></tr>
+<tr class="memdesc:aac60bba86b27f54e32da893dcfcd72b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rebuilds the host control when the application style changes.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-slots" class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
@@ -162,6 +169,10 @@ Private Slots</h2></td></tr>
 <tr class="memdesc:a7bd6f443362d8a4bcece4207860e9f7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all filters applied to the game list.  <br /></td></tr>
 <tr class="memitem:ac973e1aedb927b9b648bee822a49e7e1" id="r_ac973e1aedb927b9b648bee822a49e7e1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac973e1aedb927b9b648bee822a49e7e1">actCreate</a> ()</td></tr>
 <tr class="memdesc:ac973e1aedb927b9b648bee822a49e7e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens the dialog to create a new game in the current room.  <br /></td></tr>
+<tr class="memitem:acf16b5ce8438f125960a68df0d8131c9" id="r_acf16b5ce8438f125960a68df0d8131c9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acf16b5ce8438f125960a68df0d8131c9">actQuickHost</a> ()</td></tr>
+<tr class="memdesc:acf16b5ce8438f125960a68df0d8131c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a game immediately from the remembered settings, without a dialog.  <br /></td></tr>
+<tr class="memitem:aa76eb94529dd4b9c8cfbdbcb38e8aee8" id="r_aa76eb94529dd4b9c8cfbdbcb38e8aee8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa76eb94529dd4b9c8cfbdbcb38e8aee8">checkQuickHostResponse</a> (const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;response)</td></tr>
+<tr class="memdesc:aa76eb94529dd4b9c8cfbdbcb38e8aee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reports a failed quick-host request inline instead of as a modal box.  <br /></td></tr>
 <tr class="memitem:a40d098545421529a7296deb4f6e0bf3f" id="r_a40d098545421529a7296deb4f6e0bf3f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a40d098545421529a7296deb4f6e0bf3f">actJoin</a> ()</td></tr>
 <tr class="memdesc:a40d098545421529a7296deb4f6e0bf3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Joins the currently selected game as a player.  <br /></td></tr>
 <tr class="memitem:a7140a90aa5ebeeec57e4ad3c01ec7d71" id="r_a7140a90aa5ebeeec57e4ad3c01ec7d71"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7140a90aa5ebeeec57e4ad3c01ec7d71">actJoinAsJudge</a> ()</td></tr>
@@ -184,6 +195,18 @@ Private Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a8ea8c01442f9d05698dd0fa1a5eeebdf" id="r_a8ea8c01442f9d05698dd0fa1a5eeebdf"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8ea8c01442f9d05698dd0fa1a5eeebdf">showHostError</a> (const QString &amp;message)</td></tr>
+<tr class="memdesc:a8ea8c01442f9d05698dd0fa1a5eeebdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a quick-host failure above the game list.  <br /></td></tr>
+<tr class="memitem:a9540d8c344c4b281bf7fd20196c2a890" id="r_a9540d8c344c4b281bf7fd20196c2a890"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9540d8c344c4b281bf7fd20196c2a890">clearHostError</a> ()</td></tr>
+<tr class="memdesc:a9540d8c344c4b281bf7fd20196c2a890"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hides the quick-host failure message.  <br /></td></tr>
+<tr class="memitem:a28446aed3ae13df6356a0e701c69796e" id="r_a28446aed3ae13df6356a0e701c69796e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a28446aed3ae13df6356a0e701c69796e">applyHostGameStyle</a> ()</td></tr>
+<tr class="memdesc:a28446aed3ae13df6356a0e701c69796e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rebuilds the host control for the active style.  <br /></td></tr>
+<tr class="memitem:a82aab712114f86c5b14a22058f6efc9a" id="r_a82aab712114f86c5b14a22058f6efc9a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a82aab712114f86c5b14a22058f6efc9a">setHostCommandPending</a> (bool pending)</td></tr>
+<tr class="memdesc:a82aab712114f86c5b14a22058f6efc9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks a quick-host command as in flight or finished, then updates the host controls.  <br /></td></tr>
+<tr class="memitem:ad79a37530f2a8f07f09ebcd195877167" id="r_ad79a37530f2a8f07f09ebcd195877167"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad79a37530f2a8f07f09ebcd195877167">updateHostControlsEnabled</a> ()</td></tr>
+<tr class="memdesc:ad79a37530f2a8f07f09ebcd195877167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the in-flight state of both host and join commands to the host controls.  <br /></td></tr>
+<tr class="memitem:af2212c0d4d562554365c8df709bf93dc" id="r_af2212c0d4d562554365c8df709bf93dc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af2212c0d4d562554365c8df709bf93dc">updateHostGameToolTip</a> ()</td></tr>
+<tr class="memdesc:af2212c0d4d562554365c8df709bf93dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keeps the host control tooltips in sync with the current shortcut and style.  <br /></td></tr>
 <tr class="memitem:acfe6e69f272135997e174c1e31b9c302" id="r_acfe6e69f272135997e174c1e31b9c302"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acfe6e69f272135997e174c1e31b9c302">updateTitle</a> ()</td></tr>
 <tr class="memdesc:acfe6e69f272135997e174c1e31b9c302"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the widget title to reflect the current number of displayed games.  <br /></td></tr>
 <tr class="memitem:a9ff8b9dc96b99a203e198599c42e21c2" id="r_a9ff8b9dc96b99a203e198599c42e21c2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9ff8b9dc96b99a203e198599c42e21c2">disableButtons</a> ()</td></tr>
@@ -208,7 +231,13 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a4fc1004c477393760c4c282ba8e7a7f1" id="r_a4fc1004c477393760c4c282ba8e7a7f1"><td class="memItemLeft"><a class="el" href="../../df/dac/classGameSelectorQuickFilterToolBar.html">GameSelectorQuickFilterToolBar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a4fc1004c477393760c4c282ba8e7a7f1">quickFilterToolBar</a></td></tr>
 <tr class="memitem:add4cce58a9f4c9c6c1a2a737a0fff2ff" id="r_add4cce58a9f4c9c6c1a2a737a0fff2ff"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#add4cce58a9f4c9c6c1a2a737a0fff2ff">filterButton</a></td></tr>
 <tr class="memitem:acc415b95b29b0889c36186e8ff5e2591" id="r_acc415b95b29b0889c36186e8ff5e2591"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#acc415b95b29b0889c36186e8ff5e2591">clearFilterButton</a></td></tr>
-<tr class="memitem:a31c3b93261696172276bcbb4163190b2" id="r_a31c3b93261696172276bcbb4163190b2"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a31c3b93261696172276bcbb4163190b2">createButton</a></td></tr>
+<tr class="memitem:ac183c7169fcdb3cae794e52ffebeb2f5" id="r_ac183c7169fcdb3cae794e52ffebeb2f5"><td class="memItemLeft">QToolButton *&#160;</td><td class="memItemRight"><a class="el" href="#ac183c7169fcdb3cae794e52ffebeb2f5">hostGameSplitButton</a> = nullptr</td></tr>
+<tr class="memitem:a3e885bf5931c5ca9ec4793dcf25d65e6" id="r_a3e885bf5931c5ca9ec4793dcf25d65e6"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a3e885bf5931c5ca9ec4793dcf25d65e6">hostGameButton</a> = nullptr</td></tr>
+<tr class="memitem:a2be80a809f97990b3c69ccd002388213" id="r_a2be80a809f97990b3c69ccd002388213"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a2be80a809f97990b3c69ccd002388213">hostGameSettingsButton</a> = nullptr</td></tr>
+<tr class="memitem:a59ba39292810561064e197b1184790f5" id="r_a59ba39292810561064e197b1184790f5"><td class="memItemLeft">QMenu *&#160;</td><td class="memItemRight"><a class="el" href="#a59ba39292810561064e197b1184790f5">hostGameMenu</a> = nullptr</td></tr>
+<tr class="memitem:a3313eeae73b454418fe8b052684d4d76" id="r_a3313eeae73b454418fe8b052684d4d76"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a3313eeae73b454418fe8b052684d4d76">hostGameAction</a> = nullptr</td></tr>
+<tr class="memitem:ad767f6cb0dabfe289d37acd201c9ba5a" id="r_ad767f6cb0dabfe289d37acd201c9ba5a"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#ad767f6cb0dabfe289d37acd201c9ba5a">gameSettingsAction</a> = nullptr</td></tr>
+<tr class="memitem:ab0385e35d04fdee5d031a13bc0c74d02" id="r_ab0385e35d04fdee5d031a13bc0c74d02"><td class="memItemLeft">QLabel *&#160;</td><td class="memItemRight"><a class="el" href="#ab0385e35d04fdee5d031a13bc0c74d02">hostErrorLabel</a></td></tr>
 <tr class="memitem:a86af8219b48b3ad0e7041bf5a621d793" id="r_a86af8219b48b3ad0e7041bf5a621d793"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a86af8219b48b3ad0e7041bf5a621d793">joinButton</a></td></tr>
 <tr class="memitem:a6a1d1747b2067581fa714fb1e7c5a8cc" id="r_a6a1d1747b2067581fa714fb1e7c5a8cc"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a6a1d1747b2067581fa714fb1e7c5a8cc">joinAsJudgeButton</a></td></tr>
 <tr class="memitem:a9753e5f1268b52fdea660d34408c589f" id="r_a9753e5f1268b52fdea660d34408c589f"><td class="memItemLeft">QPushButton *&#160;</td><td class="memItemRight"><a class="el" href="#a9753e5f1268b52fdea660d34408c589f">spectateButton</a></td></tr>
@@ -216,6 +245,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a471430f639605dfe80a280092650e044" id="r_a471430f639605dfe80a280092650e044"><td class="memItemLeft">const bool&#160;</td><td class="memItemRight"><a class="el" href="#a471430f639605dfe80a280092650e044">showFilters</a></td></tr>
 <tr class="memitem:a8c96ae17add913567b9228b0d37525bf" id="r_a8c96ae17add913567b9228b0d37525bf"><td class="memItemLeft"><a class="el" href="../../d8/d92/game__type__map_8h.html#a8fd9fd937325db0b4ae4edae4ae91924">GameTypeMap</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8c96ae17add913567b9228b0d37525bf">gameTypeMap</a></td></tr>
 <tr class="memitem:a57201b45a374c71526906a2c01ba51a7" id="r_a57201b45a374c71526906a2c01ba51a7"><td class="memItemLeft">QTimer&#160;</td><td class="memItemRight"><a class="el" href="#a57201b45a374c71526906a2c01ba51a7">filterSaveDebounceTimer</a></td></tr>
+<tr class="memitem:a185d281e73c9404b49fc147b372fe441" id="r_a185d281e73c9404b49fc147b372fe441"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a185d281e73c9404b49fc147b372fe441">hostCommandPending</a> = false</td></tr>
+<tr class="memitem:a5ca007331c52b1af4753d0c86f386758" id="r_a5ca007331c52b1af4753d0c86f386758"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a5ca007331c52b1af4753d0c86f386758">joinCommandPending</a> = false</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides a widget for displaying, filtering, joining, spectating, and creating games in a room. </p>
@@ -549,6 +580,43 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="acf16b5ce8438f125960a68df0d8131c9" name="acf16b5ce8438f125960a68df0d8131c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf16b5ce8438f125960a68df0d8131c9">&#9670;&#160;</a></span>actQuickHost</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::actQuickHost </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a game immediately from the remembered settings, without a dialog. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_acf16b5ce8438f125960a68df0d8131c9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_acf16b5ce8438f125960a68df0d8131c9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a405e441c07528666a1fd2ef7408064b6" name="a405e441c07528666a1fd2ef7408064b6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a405e441c07528666a1fd2ef7408064b6">&#9670;&#160;</a></span>actSelectedGameChanged</h2>
 
@@ -636,6 +704,82 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a28446aed3ae13df6356a0e701c69796e" name="a28446aed3ae13df6356a0e701c69796e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28446aed3ae13df6356a0e701c69796e">&#9670;&#160;</a></span>applyHostGameStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::applyHostGameStyle </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rebuilds the host control for the active style. </p>
+<p>The primary button always quick-hosts. Every style that can draw a split control gets one, whose arrow opens the menu; the native macOS style has no split control, so it gets a plain sibling button for the secondary action instead. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a28446aed3ae13df6356a0e701c69796e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a28446aed3ae13df6356a0e701c69796e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aac60bba86b27f54e32da893dcfcd72b4" name="aac60bba86b27f54e32da893dcfcd72b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac60bba86b27f54e32da893dcfcd72b4">&#9670;&#160;</a></span>changeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::changeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rebuilds the host control when the application style changes. </p>
+<p>The appearance settings can switch between the native macOS style and a cross-platform style while the room is open, and the host control follows. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_aac60bba86b27f54e32da893dcfcd72b4_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_aac60bba86b27f54e32da893dcfcd72b4_icgraph.svg" width="463" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a90929975f794cb3aaa501d8290ba44e5" name="a90929975f794cb3aaa501d8290ba44e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a90929975f794cb3aaa501d8290ba44e5">&#9670;&#160;</a></span>checkClearFilterButtonState</h2>
 
@@ -667,6 +811,49 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a90929975f794cb3aaa501d8290ba44e5_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aa76eb94529dd4b9c8cfbdbcb38e8aee8" name="aa76eb94529dd4b9c8cfbdbcb38e8aee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa76eb94529dd4b9c8cfbdbcb38e8aee8">&#9670;&#160;</a></span>checkQuickHostResponse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::checkQuickHostResponse </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/db9/structResponse.html">Response</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>response</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reports a failed quick-host request inline instead of as a modal box. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">response</td><td>The server response to the create command. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_aa76eb94529dd4b9c8cfbdbcb38e8aee8_cgraph.svg" width="100%" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_aa76eb94529dd4b9c8cfbdbcb38e8aee8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -705,12 +892,44 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_aea5f0f05185cbce6f395de46f29ccb94_cgraph.svg" width="100%" height="380"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_aea5f0f05185cbce6f395de46f29ccb94_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_aea5f0f05185cbce6f395de46f29ccb94_icgraph.svg" width="466" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9540d8c344c4b281bf7fd20196c2a890" name="a9540d8c344c4b281bf7fd20196c2a890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9540d8c344c4b281bf7fd20196c2a890">&#9670;&#160;</a></span>clearHostError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::clearHostError </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hides the quick-host failure message. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a9540d8c344c4b281bf7fd20196c2a890_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -783,6 +1002,11 @@ Here is the caller graph for this function:</div>
 
 <p>Disables create/join/spectate buttons. </p>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a9ff8b9dc96b99a203e198599c42e21c2_cgraph.svg" width="474" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a9ff8b9dc96b99a203e198599c42e21c2_icgraph.svg" width="462" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
@@ -817,7 +1041,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a21930436fc63bc8a5140d87284ac9b88_cgraph.svg" width="100%" height="380"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a21930436fc63bc8a5140d87284ac9b88_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -900,6 +1124,11 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_ab244c2cecf89716eb3ba3681e2030ead_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -1208,6 +1437,35 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ab27da2dcd4f3e8896dac821efbf9c06f" name="ab27da2dcd4f3e8896dac821efbf9c06f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab27da2dcd4f3e8896dac821efbf9c06f">&#9670;&#160;</a></span>refreshShortcuts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::refreshShortcuts </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Re-reads the quick-host and review shortcuts after the user rebinds them. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_ab27da2dcd4f3e8896dac821efbf9c06f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_ab27da2dcd4f3e8896dac821efbf9c06f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a469b920caa40b2976f139c82a67617e7" name="a469b920caa40b2976f139c82a67617e7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a469b920caa40b2976f139c82a67617e7">&#9670;&#160;</a></span>retranslateUi()</h2>
 
@@ -1227,12 +1485,150 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a469b920caa40b2976f139c82a67617e7_cgraph.svg" width="100%" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a469b920caa40b2976f139c82a67617e7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a469b920caa40b2976f139c82a67617e7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a82aab712114f86c5b14a22058f6efc9a" name="a82aab712114f86c5b14a22058f6efc9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82aab712114f86c5b14a22058f6efc9a">&#9670;&#160;</a></span>setHostCommandPending()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::setHostCommandPending </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>pending</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Marks a quick-host command as in flight or finished, then updates the host controls. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a82aab712114f86c5b14a22058f6efc9a_cgraph.svg" width="494" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a82aab712114f86c5b14a22058f6efc9a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8ea8c01442f9d05698dd0fa1a5eeebdf" name="a8ea8c01442f9d05698dd0fa1a5eeebdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ea8c01442f9d05698dd0fa1a5eeebdf">&#9670;&#160;</a></span>showHostError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::showHostError </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>message</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shows a quick-host failure above the game list. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_a8ea8c01442f9d05698dd0fa1a5eeebdf_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad79a37530f2a8f07f09ebcd195877167" name="ad79a37530f2a8f07f09ebcd195877167"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad79a37530f2a8f07f09ebcd195877167">&#9670;&#160;</a></span>updateHostControlsEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::updateHostControlsEnabled </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Applies the in-flight state of both host and join commands to the host controls. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_ad79a37530f2a8f07f09ebcd195877167_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af2212c0d4d562554365c8df709bf93dc" name="af2212c0d4d562554365c8df709bf93dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2212c0d4d562554365c8df709bf93dc">&#9670;&#160;</a></span>updateHostGameToolTip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameSelector::updateHostGameToolTip </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Keeps the host control tooltips in sync with the current shortcut and style. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_af2212c0d4d562554365c8df709bf93dc_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d3f/classGameSelector_af2212c0d4d562554365c8df709bf93dc_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1319,29 +1715,6 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <p>The network client used to communicate with the server. </p>
-
-</div>
-</div>
-<a id="a31c3b93261696172276bcbb4163190b2" name="a31c3b93261696172276bcbb4163190b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31c3b93261696172276bcbb4163190b2">&#9670;&#160;</a></span>createButton</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QPushButton* GameSelector::createButton</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Button to create a new game (only if room is set). </p>
 
 </div>
 </div>
@@ -1460,6 +1833,29 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ad767f6cb0dabfe289d37acd201c9ba5a" name="ad767f6cb0dabfe289d37acd201c9ba5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad767f6cb0dabfe289d37acd201c9ba5a">&#9670;&#160;</a></span>gameSettingsAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* GameSelector::gameSettingsAction = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Opens the host form with the current settings. </p>
+
+</div>
+</div>
 <a id="a8c96ae17add913567b9228b0d37525bf" name="a8c96ae17add913567b9228b0d37525bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c96ae17add913567b9228b0d37525bf">&#9670;&#160;</a></span>gameTypeMap</h2>
 
@@ -1480,6 +1876,167 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <p>Mapping of game types for the current room. </p>
+
+</div>
+</div>
+<a id="a185d281e73c9404b49fc147b372fe441" name="a185d281e73c9404b49fc147b372fe441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a185d281e73c9404b49fc147b372fe441">&#9670;&#160;</a></span>hostCommandPending</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameSelector::hostCommandPending = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>True while a quick-host command is in flight. </p>
+
+</div>
+</div>
+<a id="ab0385e35d04fdee5d031a13bc0c74d02" name="ab0385e35d04fdee5d031a13bc0c74d02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0385e35d04fdee5d031a13bc0c74d02">&#9670;&#160;</a></span>hostErrorLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* GameSelector::hostErrorLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Inline failure message for a quick-host request. </p>
+
+</div>
+</div>
+<a id="a3313eeae73b454418fe8b052684d4d76" name="a3313eeae73b454418fe8b052684d4d76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3313eeae73b454418fe8b052684d4d76">&#9670;&#160;</a></span>hostGameAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAction* GameSelector::hostGameAction = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Quick-host action, carrying the keyboard shortcut. </p>
+
+</div>
+</div>
+<a id="a3e885bf5931c5ca9ec4793dcf25d65e6" name="a3e885bf5931c5ca9ec4793dcf25d65e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e885bf5931c5ca9ec4793dcf25d65e6">&#9670;&#160;</a></span>hostGameButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* GameSelector::hostGameButton = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Primary quick-host button, on the native macOS style only. </p>
+
+</div>
+</div>
+<a id="a59ba39292810561064e197b1184790f5" name="a59ba39292810561064e197b1184790f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59ba39292810561064e197b1184790f5">&#9670;&#160;</a></span>hostGameMenu</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMenu* GameSelector::hostGameMenu = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Menu behind the split arrow (non-macOS styles only). </p>
+
+</div>
+</div>
+<a id="a2be80a809f97990b3c69ccd002388213" name="a2be80a809f97990b3c69ccd002388213"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2be80a809f97990b3c69ccd002388213">&#9670;&#160;</a></span>hostGameSettingsButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* GameSelector::hostGameSettingsButton = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Opens the host form; a sibling button on macOS. </p>
+
+</div>
+</div>
+<a id="ac183c7169fcdb3cae794e52ffebeb2f5" name="ac183c7169fcdb3cae794e52ffebeb2f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac183c7169fcdb3cae794e52ffebeb2f5">&#9670;&#160;</a></span>hostGameSplitButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QToolButton* GameSelector::hostGameSplitButton = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Split host button, on every style that can draw one. </p>
 
 </div>
 </div>
@@ -1549,6 +2106,29 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <p>Button to join the selected game. </p>
+
+</div>
+</div>
+<a id="a5ca007331c52b1af4753d0c86f386758" name="a5ca007331c52b1af4753d0c86f386758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ca007331c52b1af4753d0c86f386758">&#9670;&#160;</a></span>joinCommandPending</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameSelector::joinCommandPending = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>True while a join/spectate command is in flight. </p>
 
 </div>
 </div>

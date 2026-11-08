@@ -2,6 +2,7 @@ var user_reference =
 [
     [ "Creating Decks", "d3/d9a/creating_decks.html", [
       [ "Deck Management", "d6/d8b/user_reference.html#deck-management", null ],
+      [ "Gameplay", "d6/d8b/user_reference.html#gameplay", null ],
       [ "Release Channels", "d6/d8b/user_reference.html#release-channels", null ],
       [ "Settings", "d6/d8b/user_reference.html#settings", null ],
       [ "Card Pictures", "d6/d8b/user_reference.html#card-pictures", null ],
@@ -26,6 +27,7 @@ var user_reference =
         [ "From an online service", "d0/d51/exporting_decks.html#from-an-online-service", null ]
       ] ]
     ] ],
+    [ "Revealing Cards", "d3/d87/revealing_cards.html", null ],
     [ "Beta Release", "d9/d9b/beta_release.html", [
       [ "What to Expect from the Beta", "d9/d9b/beta_release.html#what-to-expect-from-the-beta", null ],
       [ "Switching to the Beta", "d9/d9b/beta_release.html#switching-to-the-beta", null ],

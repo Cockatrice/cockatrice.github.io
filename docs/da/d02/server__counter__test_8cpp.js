@@ -9,5 +9,6 @@ var server__counter__test_8cpp =
     [ "TEST", "da/d02/server__counter__test_8cpp.html#aa26bafd2c8e16d2a30171fae517bf97b", null ],
     [ "TEST", "da/d02/server__counter__test_8cpp.html#aa848970401d61de810318fde030ca451", null ],
     [ "TEST", "da/d02/server__counter__test_8cpp.html#ae3c2c4d8edd434f2016849b9d0ff1900", null ],
-    [ "TEST", "da/d02/server__counter__test_8cpp.html#a36b609a0342986284ad0b621e08d2d24", null ]
+    [ "TEST", "da/d02/server__counter__test_8cpp.html#a36b609a0342986284ad0b621e08d2d24", null ],
+    [ "rng", "da/d02/server__counter__test_8cpp.html#ae06734e5c9e469e3675423ec86f124ef", null ]
 ];

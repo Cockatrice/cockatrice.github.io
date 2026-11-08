@@ -24,6 +24,7 @@ var classFilterItem =
     [ "acceptRarity", "d4/d40/classFilterItem.html#a9e4d476f631f3ed4853e6180be93a716", null ],
     [ "acceptSet", "d4/d40/classFilterItem.html#a59096c42fab0c79efee5b05d44264ef6", null ],
     [ "acceptSubType", "d4/d40/classFilterItem.html#a3c65c61668900ff5ecb012b5975130b3", null ],
+    [ "acceptTag", "d4/d40/classFilterItem.html#ab17cdb64f7aa1f4e1315f558fbf3d1f1", null ],
     [ "acceptText", "d4/d40/classFilterItem.html#a9d1f7a2ecccdade47d0d428ef488f68c", null ],
     [ "acceptType", "d4/d40/classFilterItem.html#af62ce3388d47362ec086cb5fb0cfe9d4", null ],
     [ "attr", "d4/d40/classFilterItem.html#aad102c605e8b25120ab3f33385f5c459", null ],

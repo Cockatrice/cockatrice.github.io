@@ -4,6 +4,7 @@ var classCrashReporter =
     [ "CrashReporter", "d6/dc2/classCrashReporter.html#a32d8db574efaad7ac4c88d1584baf01b", null ],
     [ "CrashReporter", "d6/dc2/classCrashReporter.html#a89704fcc46a1dedf60ed653611a642c1", null ],
     [ "~CrashReporter", "d6/dc2/classCrashReporter.html#a6609c3242963cc3662b8ea23641971ae", null ],
+    [ "addBreadcrumb", "d6/dc2/classCrashReporter.html#af610d45548df978f4c914f1bfefff9a3", null ],
     [ "appendAttachmentToEnvelope", "d6/dc2/classCrashReporter.html#aebf94073398a15e14a1f959ccc554f20", null ],
     [ "attachToPendingCrashEnvelopes", "d6/dc2/classCrashReporter.html#aabbbf42627b083e35a9a660918cb52be", null ],
     [ "attachToPendingCrashEnvelopes", "d6/dc2/classCrashReporter.html#a2ab4c4f21937ef54beae0eb25097a836", null ],

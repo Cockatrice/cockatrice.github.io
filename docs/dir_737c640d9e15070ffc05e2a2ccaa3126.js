@@ -17,5 +17,7 @@ var dir_737c640d9e15070ffc05e2a2ccaa3126 =
     [ "parsehelpers.cpp", "de/d59/parsehelpers_8cpp.html", "de/d59/parsehelpers_8cpp" ],
     [ "parsehelpers.h", "db/d57/parsehelpers_8h.html", "db/d57/parsehelpers_8h" ],
     [ "raw_json_scanner.cpp", "d4/d77/raw__json__scanner_8cpp.html", "d4/d77/raw__json__scanner_8cpp" ],
-    [ "raw_json_scanner.h", "d9/d85/raw__json__scanner_8h.html", "d9/d85/raw__json__scanner_8h" ]
+    [ "raw_json_scanner.h", "d9/d85/raw__json__scanner_8h.html", "d9/d85/raw__json__scanner_8h" ],
+    [ "tag_database.cpp", "dc/dab/tag__database_8cpp.html", null ],
+    [ "tag_database.h", "d1/d26/tag__database_8h.html", "d1/d26/tag__database_8h" ]
 ];

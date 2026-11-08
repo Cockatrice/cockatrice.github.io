@@ -3,7 +3,28 @@ var namespaces_dup =
     [ "AppColor", "d0/d1a/namespaceAppColor.html", [
       [ "Role", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90", [
         [ "AccentStrong", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90aa8345a4346fb925a37d24ef971e399c2", null ],
-        [ "AccentSoft", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a566a76d9192ef71afe404432bff3b67c", null ]
+        [ "AccentSoft", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a566a76d9192ef71afe404432bff3b67c", null ],
+        [ "Icon", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a035ab66d7e507448b2713ace7caff8bf", null ],
+        [ "IconStrong", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a528af583affbc7704f3d7937d4d4cca0", null ],
+        [ "IconSoft", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a7a4653c36eca39a0cdcb929a3f62dbb4", null ],
+        [ "Positive", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a3e8c9e844198e0fbd37c1e0c66ff7214", null ],
+        [ "PositiveStrong", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90ac7d202480fd587e4c59f45a770a9c1fd", null ],
+        [ "PositiveSoft", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a9fc7c0fc8af17f1e322fd01d4674262e", null ],
+        [ "Negative", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a109e850e3a24c3c9e56d9094510eed7f", null ],
+        [ "NegativeStrong", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90ad0b7667af28e6ab466de396821d645ad", null ],
+        [ "NegativeSoft", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90ab73fa682cffe2ec06ab026ae2049f11f", null ],
+        [ "Informational", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90acf50e1a6b31c431c8e431179108f65df", null ],
+        [ "InformationalStrong", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a332d55c515a1ce636ecd528cc43d7abb", null ],
+        [ "InformationalSoft", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90aa982f330dd76664a09da9ac99e0a1a36", null ],
+        [ "Hidden", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a508f21704bce4ddde634cfe5bfd4b23d", null ],
+        [ "HiddenStrong", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a5398c6c0363973d47a473fb2bcb747da", null ],
+        [ "HiddenSoft", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a88a53fdccd2099677f2942f63c03dd27", null ],
+        [ "Marked", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a5145d2148bca029d0a27f62108e14ec4", null ],
+        [ "MarkedStrong", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a7fc649e430b232423d04817b7f78f9d8", null ],
+        [ "MarkedSoft", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a110a0556f220253a0b33458912677455", null ],
+        [ "Movement", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90ae1228fee46336c14697b02f5b4902ed6", null ],
+        [ "MovementStrong", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a2693789233e298127b3c8e3fed3b1e43", null ],
+        [ "MovementSoft", "d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90a9ca0a8f7cc967f7fb5f877a09148acef", null ]
       ] ]
     ] ],
     [ "AppFont", "d2/d21/namespaceAppFont.html", [
@@ -75,6 +96,7 @@ var namespaces_dup =
     ] ],
     [ "CardNodeFunction", "dd/d5d/namespaceCardNodeFunction.html", "dd/d5d/namespaceCardNodeFunction" ],
     [ "CardPictureLoaderCacheMethod", "dd/d38/namespaceCardPictureLoaderCacheMethod.html", "dd/d38/namespaceCardPictureLoaderCacheMethod" ],
+    [ "CardPictureLoaderImageFormats", "d8/d58/namespaceCardPictureLoaderImageFormats.html", "d8/d58/namespaceCardPictureLoaderImageFormats" ],
     [ "CardPictureLoaderLocalSchemes", "d7/de8/namespaceCardPictureLoaderLocalSchemes.html", "d7/de8/namespaceCardPictureLoaderLocalSchemes" ],
     [ "CardZoneAlgorithms", "df/df0/namespaceCardZoneAlgorithms.html", [
       [ "addCardToList", "df/df0/namespaceCardZoneAlgorithms.html#a05ec47bef01054c1f69e4ab3ab9d2c9f", null ]
@@ -148,7 +170,8 @@ var namespaces_dup =
       [ "MainCardType", "db/d09/namespaceMtg.html#a8b1a66b6f4507b51736651f1d13e5215", null ],
       [ "ManaCost", "db/d09/namespaceMtg.html#a843d0543bb7a8dc0e34569c65b5c4e14", null ],
       [ "PowTough", "db/d09/namespaceMtg.html#a417d3f54883a6f7af31b0e542dd0fa75", null ],
-      [ "Side", "db/d09/namespaceMtg.html#a5b271237e604b4bf42c6b8eea641f4b5", null ]
+      [ "Side", "db/d09/namespaceMtg.html#a5b271237e604b4bf42c6b8eea641f4b5", null ],
+      [ "Tags", "db/d09/namespaceMtg.html#a89655cec2bb773a8341245580c129483", null ]
     ] ],
     [ "NaturalSort", "d9/df3/namespaceNaturalSort.html", [
       [ "makeNaturalSortCollator", "d9/df3/namespaceNaturalSort.html#a9d57ff5ab0ab0ca47adbb81ce836fe9a", null ]
@@ -170,6 +193,11 @@ var namespaces_dup =
       [ "confirmOutsideProgramDir", "d4/dd8/namespacePathSafetyWarning.html#a173a19814e258033e01a5298e15c00e3", null ]
     ] ],
     [ "peg", "dc/db2/namespacepeg.html", "dc/db2/namespacepeg" ],
+    [ "pill_painter", "d2/d6b/namespacepill__painter.html", [
+      [ "paint", "d2/d6b/namespacepill__painter.html#acf85b3ddf96113e95d8a33c8d3d98e25", null ],
+      [ "PAD_X", "d2/d6b/namespacepill__painter.html#a3b046b50e1f7c7d66c403aad3c9b18d2", null ],
+      [ "PAD_Y", "d2/d6b/namespacepill__painter.html#ad7c2347541ddae7ccb3b2e1ba2c500b2", null ]
+    ] ],
     [ "PlaymatUtils", "d3/dc9/namespacePlaymatUtils.html", [
       [ "aspectFitRect", "d3/dc9/namespacePlaymatUtils.html#a88ddc4d52fd220663d1e3a75039c7f66", null ],
       [ "computeArtSourceRect", "d3/dc9/namespacePlaymatUtils.html#a1d38a3f11e408a377ac6fa7e5ff1edac", null ],
@@ -191,8 +219,9 @@ var namespaces_dup =
     [ "QtUtils", "dc/d55/namespaceQtUtils.html", "dc/d55/namespaceQtUtils" ],
     [ "RawJson", "d6/d63/namespaceRawJson.html", "d6/d63/namespaceRawJson" ],
     [ "report_utils", "d8/d80/namespacereport__utils.html", [
-      [ "fillReportTableRow", "d8/d80/namespacereport__utils.html#aad25353920308e3ab67d83868b839809", null ],
+      [ "fillReportTableRow", "d8/d80/namespacereport__utils.html#a021ba59ea2da67bfac06c304e3489c1f", null ],
       [ "formatReportCategory", "d8/d80/namespacereport__utils.html#aa522b2bfcaa63dfb583413958f170510", null ],
+      [ "formatReportStatus", "d8/d80/namespacereport__utils.html#ad63249ff635da1894208dc8da0dd40df", null ],
       [ "formatReportTime", "d8/d80/namespacereport__utils.html#a65f3a661628579cbba9d83d9398d4a40", null ],
       [ "renderReportDetails", "d8/d80/namespacereport__utils.html#a178b67e76b905f63a76cea2aacf24e59", null ],
       [ "reportLogFont", "d8/d80/namespacereport__utils.html#addf840997d9685b6f1625dcbbfe8d444", null ]
@@ -222,6 +251,39 @@ var namespaces_dup =
       [ "intToType", "dd/d5d/namespaceTally.html#a1adbe8fe3299c129dbcee73ba8c636cb", null ]
     ] ],
     [ "test_support", "da/d2f/namespacetest__support.html", "da/d2f/namespacetest__support" ],
+    [ "ThemeIconBadge", "d6/d92/namespaceThemeIconBadge.html", [
+      [ "glyphColor", "d6/d92/namespaceThemeIconBadge.html#aff5a80aa6c652bed8d0d49f1f16aa1b9", null ],
+      [ "glyphSize", "d6/d92/namespaceThemeIconBadge.html#a93a1da99532f494d7381060a3a3e2629", null ],
+      [ "renderBadge", "d6/d92/namespaceThemeIconBadge.html#a804eadd10e9709bb427d496bd6b02ad5", null ]
+    ] ],
+    [ "ThemeIconFill", "df/d6a/namespaceThemeIconFill.html", [
+      [ "Scheme", "df/d6a/namespaceThemeIconFill.html#a19430d23eecd0d2918b019ec9effba8a", [
+        [ "Light", "df/d6a/namespaceThemeIconFill.html#a19430d23eecd0d2918b019ec9effba8aa9914a0ce04a7b7b6a8e39bec55064b82", null ],
+        [ "Dark", "df/d6a/namespaceThemeIconFill.html#a19430d23eecd0d2918b019ec9effba8aaa18366b217ebf811ad1886e4f4f865b2", null ]
+      ] ],
+      [ "bottomColor", "df/d6a/namespaceThemeIconFill.html#a367477f1841ca258347cc6264191214e", null ],
+      [ "topColor", "df/d6a/namespaceThemeIconFill.html#ac3eb6151952192f5530331c7725e3bf1", null ]
+    ] ],
+    [ "ThemeIconInk", "df/dde/namespaceThemeIconInk.html", [
+      [ "blend", "df/dde/namespaceThemeIconInk.html#a1e1a3da7399a001335f50dd6b03ff7bf", null ],
+      [ "contrastRatio", "df/dde/namespaceThemeIconInk.html#a9c7a157b8653a096a99da75190b3fcd1", null ],
+      [ "defaultAccentMix", "df/dde/namespaceThemeIconInk.html#ae326edafe76cb2cca345b1024b0192ea", null ],
+      [ "disabledInk", "df/dde/namespaceThemeIconInk.html#a4479897a761ebed7f7af9350c381e425", null ],
+      [ "forEmphasis", "df/dde/namespaceThemeIconInk.html#a0ca3826b47cb9383c98f1a3a00a61950", null ],
+      [ "glyphInk", "df/dde/namespaceThemeIconInk.html#a1d9152884cc5192afa7509a6d0455245", null ],
+      [ "harderSurface", "df/dde/namespaceThemeIconInk.html#ac64560cf58c268b72a16536e2274c025", null ],
+      [ "isSemanticHue", "df/dde/namespaceThemeIconInk.html#acc2783a2d0dd775d8a28e5c29ea86bf3", null ],
+      [ "labelContrastFloor", "df/dde/namespaceThemeIconInk.html#a5427065140cba0b343385fa82f4c7e08", null ],
+      [ "neutralChromeHue", "df/dde/namespaceThemeIconInk.html#a699a37e9f047777586c4ae17f2618208", null ],
+      [ "primaryContrastFloor", "df/dde/namespaceThemeIconInk.html#a838e7daaf5fdd3eb06d62f875fb0e144", null ],
+      [ "quietContrastFloor", "df/dde/namespaceThemeIconInk.html#a49d24d9cd131cddc66a1c12960c84ffa", null ],
+      [ "reachContrast", "df/dde/namespaceThemeIconInk.html#aa85c14de21ba1e70e55b479a4af222c0", null ],
+      [ "relativeLuminance", "df/dde/namespaceThemeIconInk.html#a65e3629e88d7ed8e0c3a51ddd61e3451", null ]
+    ] ],
+    [ "ThemeIconSticker", "d7/d56/namespaceThemeIconSticker.html", [
+      [ "outlineColor", "d7/d56/namespaceThemeIconSticker.html#a7e1daf42d23f490852e275ed570a40c0", null ],
+      [ "renderSticker", "d7/d56/namespaceThemeIconSticker.html#a65334015bdb365d037f00a281486d635", null ]
+    ] ],
     [ "TranslationLoader", "dd/df1/namespaceTranslationLoader.html", [
       [ "applicationTranslationPaths", "dd/df1/namespaceTranslationLoader.html#a1f4d270321ffc5e2b8d1b0213ff9cf1c", null ],
       [ "availableLanguages", "dd/df1/namespaceTranslationLoader.html#a635049f6fd55910f302af8912c6c2b5f", null ],
@@ -282,6 +344,7 @@ var namespaces_dup =
       [ "CARD_MAX", "db/dd0/namespaceZValues.html#a74359c1e4419d8882666c29a864d34b5", null ],
       [ "DRAG_ITEM", "db/dd0/namespaceZValues.html#a0100b21235ef6ed874423c1af91d03ce", null ],
       [ "DRAG_ITEM_CHILD", "db/dd0/namespaceZValues.html#a15d585d49f31e0ec4b1c9fb2b0b3d0e4", null ],
+      [ "HOVERED_AREA", "db/dd0/namespaceZValues.html#a8405d6a6e8be65009d529c5da972db49", null ],
       [ "HOVERED_CARD", "db/dd0/namespaceZValues.html#ad0bb88a91ef4dce372cb85454e2b9e76", null ],
       [ "OVERLAY_BASE", "db/dd0/namespaceZValues.html#a90085b5d00562e034901223f3c1dee6f", null ],
       [ "TOP_UI", "db/dd0/namespaceZValues.html#a1a772e487e4b1f77c0bcc05fe03b823b", null ],

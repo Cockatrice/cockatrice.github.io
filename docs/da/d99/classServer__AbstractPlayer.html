@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -175,6 +175,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1f4ed633786afd37b5a51ce52a977f5d" id="r_a1f4ed633786afd37b5a51ce52a977f5d"><td class="memItemLeft">virtual <a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1f4ed633786afd37b5a51ce52a977f5d">cmdIncCardCounter</a> (const <a class="el" href="../../d6/d28/structCommand__IncCardCounter.html">Command_IncCardCounter</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc, <a class="el" href="../../de/d8f/classGameEventStorage.html">GameEventStorage</a> &amp;ges) override</td></tr>
 <tr class="memitem:a38a99a4a43dadcc15638720e3d72c211" id="r_a38a99a4a43dadcc15638720e3d72c211"><td class="memItemLeft">virtual <a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a38a99a4a43dadcc15638720e3d72c211">cmdDumpZone</a> (const <a class="el" href="../../d7/d62/structCommand__DumpZone.html">Command_DumpZone</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc, <a class="el" href="../../de/d8f/classGameEventStorage.html">GameEventStorage</a> &amp;ges) override</td></tr>
 <tr class="memitem:a33de413937d09783edc3e413827a0a47" id="r_a33de413937d09783edc3e413827a0a47"><td class="memItemLeft">virtual <a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a33de413937d09783edc3e413827a0a47">cmdRevealCards</a> (const <a class="el" href="../../d5/dcf/structCommand__RevealCards.html">Command_RevealCards</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc, <a class="el" href="../../de/d8f/classGameEventStorage.html">GameEventStorage</a> &amp;ges) override</td></tr>
+<tr class="memitem:a71609e5c89e1b14cec8bdcb2c6508c35" id="r_a71609e5c89e1b14cec8bdcb2c6508c35"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a71609e5c89e1b14cec8bdcb2c6508c35">cmdRevealRandomCards</a> (const <a class="el" href="../../d2/df3/structCommand__RevealRandomCards.html">Command_RevealRandomCards</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc, <a class="el" href="../../de/d8f/classGameEventStorage.html">GameEventStorage</a> &amp;ges) override</td></tr>
 <tr class="memitem:aa3d5e50caff5f6e93e7dd98be9773c6b" id="r_aa3d5e50caff5f6e93e7dd98be9773c6b"><td class="memItemLeft">virtual <a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa3d5e50caff5f6e93e7dd98be9773c6b">cmdChangeZoneProperties</a> (const <a class="el" href="../../d2/d5c/structCommand__ChangeZoneProperties.html">Command_ChangeZoneProperties</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc, <a class="el" href="../../de/d8f/classGameEventStorage.html">GameEventStorage</a> &amp;ges) override</td></tr>
 <tr class="memitem:aaf5f13baa8a123b1ae207ba30bed1c0f" id="r_aaf5f13baa8a123b1ae207ba30bed1c0f"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#aaf5f13baa8a123b1ae207ba30bed1c0f">getInfo</a> (<a class="el" href="../../d3/d6b/structServerInfo__Player.html">ServerInfo_Player</a> *info, <a class="el" href="../../d0/d00/classServer__AbstractParticipant.html">Server_AbstractParticipant</a> *playerWhosAsking, bool omniscient, bool withUserInfo) override</td></tr>
 <tr class="inherit_header pub_methods_classServer__AbstractParticipant"><td colspan="2">Public Member Functions inherited from <a class="el" href="../../d0/d00/classServer__AbstractParticipant.html">Server_AbstractParticipant</a></td></tr>
@@ -251,6 +252,10 @@ Protected Attributes</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a2d8bb4461d26d920e0f9c053099f3c87" id="r_a2d8bb4461d26d920e0f9c053099f3c87"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2d8bb4461d26d920e0f9c053099f3c87">sendCreateTokenEvents</a> (<a class="el" href="../../dc/d3a/classServer__CardZone.html">Server_CardZone</a> *zone, <a class="el" href="../../dc/d07/classServer__Card.html">Server_Card</a> *card, int xCoord, int yCoord, <a class="el" href="../../de/d8f/classGameEventStorage.html">GameEventStorage</a> &amp;ges)</td></tr>
 <tr class="memitem:af2f778ecf1b5840a683930d4d576d8aa" id="r_af2f778ecf1b5840a683930d4d576d8aa"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af2f778ecf1b5840a683930d4d576d8aa">getPlayerProperties</a> (<a class="el" href="../../da/d6b/structServerInfo__PlayerProperties.html">ServerInfo_PlayerProperties</a> &amp;result) override</td></tr>
+<tr class="memitem:a8be5eb8e0d305f05a1db6779be8e5ed0" id="r_a8be5eb8e0d305f05a1db6779be8e5ed0"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8be5eb8e0d305f05a1db6779be8e5ed0">resolveRevealZone</a> (const std::string &amp;zoneName, bool hasRecipient, int recipientId, <a class="el" href="../../dc/d3a/classServer__CardZone.html">Server_CardZone</a> *&amp;zone)</td></tr>
+<tr class="memdesc:a8be5eb8e0d305f05a1db6779be8e5ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates the preconditions shared by every reveal and resolves the source zone.  <br /></td></tr>
+<tr class="memitem:a8b7a8f1fdd2aeb8c88c1701c4183dc54" id="r_a8b7a8f1fdd2aeb8c88c1701c4183dc54"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8b7a8f1fdd2aeb8c88c1701c4183dc54">revealCards</a> (<a class="el" href="../../dc/d3a/classServer__CardZone.html">Server_CardZone</a> *zone, const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../dc/d07/classServer__Card.html">Server_Card</a> * &gt; &amp;cardsToReveal, const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; int &gt; &amp;cardIdsForOthers, bool hasRecipient, int recipientId, bool grantWriteAccess, <a class="el" href="../../de/d8f/classGameEventStorage.html">GameEventStorage</a> &amp;ges)</td></tr>
+<tr class="memdesc:a8b7a8f1fdd2aeb8c88c1701c4183dc54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the private and public reveal events for an already chosen set of cards and enqueues them.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -920,6 +925,47 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d99/classServer__AbstractPlayer_a33de413937d09783edc3e413827a0a47_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a71609e5c89e1b14cec8bdcb2c6508c35" name="a71609e5c89e1b14cec8bdcb2c6508c35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71609e5c89e1b14cec8bdcb2c6508c35">&#9670;&#160;</a></span>cmdRevealRandomCards()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> Server_AbstractPlayer::cmdRevealRandomCards </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d2/df3/structCommand__RevealRandomCards.html">Command_RevealRandomCards</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d8f/classGameEventStorage.html">GameEventStorage</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ges</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../d0/d00/classServer__AbstractParticipant.html#a138475ef9dec4c7991aa091cffa86265">Server_AbstractParticipant</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d99/classServer__AbstractPlayer_a71609e5c89e1b14cec8bdcb2c6508c35_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1627,6 +1673,123 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d99/classServer__AbstractPlayer_a587387836c944e092c63d47bced273eb_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8be5eb8e0d305f05a1db6779be8e5ed0" name="a8be5eb8e0d305f05a1db6779be8e5ed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8be5eb8e0d305f05a1db6779be8e5ed0">&#9670;&#160;</a></span>resolveRevealZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> Server_AbstractPlayer::resolveRevealZone </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>zoneName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>hasRecipient</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>recipientId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d3a/classServer__CardZone.html">Server_CardZone</a> *&amp;</td>          <td class="paramname"><span class="paramname"><em>zone</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Validates the preconditions shared by every reveal and resolves the source zone. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d99/classServer__AbstractPlayer_a8be5eb8e0d305f05a1db6779be8e5ed0_cgraph.svg" width="448" height="167"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d99/classServer__AbstractPlayer_a8be5eb8e0d305f05a1db6779be8e5ed0_icgraph.svg" width="418" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8b7a8f1fdd2aeb8c88c1701c4183dc54" name="a8b7a8f1fdd2aeb8c88c1701c4183dc54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b7a8f1fdd2aeb8c88c1701c4183dc54">&#9670;&#160;</a></span>revealCards()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> Server_AbstractPlayer::revealCards </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/d3a/classServer__CardZone.html">Server_CardZone</a> *</td>          <td class="paramname"><span class="paramname"><em>zone</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../dc/d07/classServer__Card.html">Server_Card</a> * &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cardsToReveal</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cardIdsForOthers</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>hasRecipient</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>recipientId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>grantWriteAccess</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d8f/classGameEventStorage.html">GameEventStorage</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ges</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Builds the private and public reveal events for an already chosen set of cards and enqueues them. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d99/classServer__AbstractPlayer_a8b7a8f1fdd2aeb8c88c1701c4183dc54_cgraph.svg" width="100%" height="575"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../da/d99/classServer__AbstractPlayer_a8b7a8f1fdd2aeb8c88c1701c4183dc54_icgraph.svg" width="418" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

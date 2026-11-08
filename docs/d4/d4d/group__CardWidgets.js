@@ -1,6 +1,7 @@
 var group__CardWidgets =
 [
     [ "Card Extra Info Widgets", "de/d00/group__CardExtraInfoWidgets.html", "de/d00/group__CardExtraInfoWidgets" ],
+    [ "card_hover_widget.h", "d9/d17/card__hover__widget_8h.html", null ],
     [ "card_info_display_widget.h", "d1/df6/card__info__display__widget_8h.html", null ],
     [ "card_info_frame_widget.h", "de/deb/card__info__frame__widget_8h.html", null ],
     [ "card_info_picture_art_crop_widget.h", "dd/d78/card__info__picture__art__crop__widget_8h.html", null ],

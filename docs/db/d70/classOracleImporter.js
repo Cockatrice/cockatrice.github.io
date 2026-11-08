@@ -23,6 +23,7 @@ var classOracleImporter =
     [ "setCardLang", "db/d70/classOracleImporter.html#a1acfe22081d82fafa85648b07375f7dd", null ],
     [ "setIndexChanged", "db/d70/classOracleImporter.html#ac995f51d181720b4f557d4502e84e921", null ],
     [ "setProgressReporting", "db/d70/classOracleImporter.html#aa2ff6d91f25dd6dc842ea92f291b9d8c", null ],
+    [ "setTagDatabase", "db/d70/classOracleImporter.html#ab67ab4e711a0cf049e511f5a5fdcba1f", null ],
     [ "startImport", "db/d70/classOracleImporter.html#a646b5f8925967d8649528bd1fe1962ce", null ],
     [ "allSets", "db/d70/classOracleImporter.html#aa106bea7ac5a00dd79c61268d7568610", null ],
     [ "cardLang", "db/d70/classOracleImporter.html#a14da6fe16bd9aead0cce82510ac63843", null ],
@@ -36,5 +37,6 @@ var classOracleImporter =
     [ "progressReporting", "db/d70/classOracleImporter.html#a0c5eb614459714bf75faa58815dcea9c", null ],
     [ "rawSetsData", "db/d70/classOracleImporter.html#a28a03162650cc8ce6493f7daa8a73b3f", null ],
     [ "sets", "db/d70/classOracleImporter.html#aecf8ac337bcf7a257c4d2bdbe4ea4d32", null ],
-    [ "splitLocalizedTexts", "db/d70/classOracleImporter.html#a24233db8708214e93b67e5a945115e2a", null ]
+    [ "splitLocalizedTexts", "db/d70/classOracleImporter.html#a24233db8708214e93b67e5a945115e2a", null ],
+    [ "tagDatabase", "db/d70/classOracleImporter.html#ad4b8873f84c126e59a743b12c215c16c", null ]
 ];

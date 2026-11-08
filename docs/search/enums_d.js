@@ -1,21 +1,14 @@
 var searchData=
 [
-  ['saveresult_0',['SaveResult',['../d2/db3/namespaceSpoilerFile.html#a932d2c8e4a1315d00c31086128c78cb0',1,'SpoilerFile']]],
-  ['searchlanguagemode_1',['SearchLanguageMode',['../d1/d4d/libcockatrice__card_2libcockatrice_2card_2card__localization_8h.html#a923de91ab5c9550fb6822888cb431370',1,'card_localization.h']]],
-  ['section_2',['Section',['../da/d3b/classUserListWidget.html#a3b2e7175927009772d371d7d1ddeafb7',1,'UserListWidget']]],
-  ['serveroptions_3',['ServerOptions',['../df/d48/structEvent__ServerIdentification.html#a42dc11e928736dbfb7e240906767586e',1,'Event_ServerIdentification']]],
-  ['sessioncommandtype_4',['SessionCommandType',['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700',1,'SessionCommand']]],
-  ['sessioneventtype_5',['SessionEventType',['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624',1,'SessionEvent']]],
-  ['setscolumns_6',['SetsColumns',['../da/d64/classSetsModel.html#a73f7a6884fa819cf3853baa7aa8d4735',1,'SetsModel']]],
-  ['settingspage_7',['SettingsPage',['../da/dbe/classSettingsView.html#af4def4eb97317b7ef47567964e073901',1,'SettingsView']]],
-  ['shutdownstate_8',['ShutdownState',['../d6/d1a/classMainWindow.html#ae5db1bec047d610fafedcb344cc7c363',1,'MainWindow']]],
-  ['smtperror_9',['SmtpError',['../de/d8a/classQxtSmtp.html#a34a41e157894cc94e0a863249f29f673',1,'QxtSmtp']]],
-  ['smtpstate_10',['SmtpState',['../d6/deb/classQxtSmtpPrivate.html#a90483aeab599c99650428b57f8080216',1,'QxtSmtpPrivate']]],
-  ['sortoption_11',['SortOption',['../d4/d71/classCardList.html#a0982806beccba798f5988f1c81fd714f',1,'CardList']]],
-  ['sortorder_12',['SortOrder',['../df/d53/classVisualDeckStorageSortFilterProxyModel.html#a34c0f4823347abf0d21080564d67916e',1,'VisualDeckStorageSortFilterProxyModel']]],
-  ['source_13',['Source',['../d4/dc8/namespaceHomeTabButtonColor.html#affeaff1dd38134fcce07fddc4b1b127a',1,'HomeTabButtonColor']]],
-  ['startaction_14',['StartAction',['../d5/de4/classServer__GameLifecycleStrategy.html#a63df2a508967c8cd78048c5fea7f2463',1,'Server_GameLifecycleStrategy']]],
-  ['startupcardupdatecheckbehaviorindex_15',['startupCardUpdateCheckBehaviorIndex',['../d5/d3a/general__settings__page_8cpp.html#aabda63228c5ec3c0d54401f86f3c1a96',1,'general_settings_page.cpp']]],
-  ['startuptab_16',['StartupTab',['../d3/d49/tabs__settings_8h.html#ae8387ef97f91e913a72de3e99c7e574e',1,'tabs_settings.h']]],
-  ['state_17',['State',['../d3/d60/classCardDatabaseSetupPage.html#a0c5c64f3ee6c9d591feb4c76a92bbe89',1,'CardDatabaseSetupPage::State'],['../dd/dad/classUserGamesModel.html#a7362eb8138a54d55b157e72733a271b8',1,'UserGamesModel::State']]]
+  ['recipienttype_0',['RecipientType',['../d5/dff/classQxtMailMessage.html#af5ef6ffaabd7588ace94f823a7542180',1,'QxtMailMessage']]],
+  ['removeuserbannerresult_1',['RemoveUserBannerResult',['../d3/d76/classServatrice__DatabaseInterface.html#a160bef704264e09ac8ba4df0cbb9cda4',1,'Servatrice_DatabaseInterface']]],
+  ['replayeventkind_2',['ReplayEventKind',['../da/ddd/replay__event__index_8h.html#a5c6ad1db99a4efc8952297616d922f8a',1,'replay_event_index.h']]],
+  ['requestkind_3',['RequestKind',['../db/d5d/classTabArchidekt.html#a1d3d99e3d20a3b851f3114f62030c35d',1,'TabArchidekt']]],
+  ['responsecode_4',['ResponseCode',['../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d',1,'Response']]],
+  ['responsetype_5',['ResponseType',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442',1,'Response']]],
+  ['role_6',['Role',['../da/d5a/classThemeManager.html#a3aa764444425be577be3cd450e79f278',1,'ThemeManager::Role'],['../da/d8d/classCardDatabaseDisplayModel.html#a8bd8e521e02f732e61ad33763435f666',1,'CardDatabaseDisplayModel::Role'],['../dd/d83/classCardDatabaseModel.html#a1c3361bdf8abc45a4b19fd84c63e4502',1,'CardDatabaseModel::Role'],['../da/d64/classSetsModel.html#ab2e5e31efdaceaa9fca7279f10f87c28',1,'SetsModel::Role'],['../d0/d1a/namespaceAppColor.html#a9f948c49b7279a43a6afadaa1748ce90',1,'AppColor::Role'],['../d2/d21/namespaceAppFont.html#a15dd36a84984059c081e7f5c7eb4ec84',1,'AppFont::Role']]],
+  ['roles_7',['Roles',['../df/d23/classSettingsSearchModel.html#a5e51a5936ec81a4846ba3da5a3abab3d',1,'SettingsSearchModel']]],
+  ['roomcommandtype_8',['RoomCommandType',['../da/de3/structRoomCommand.html#ab13483cb4478270184e4aeeffdba9956',1,'RoomCommand']]],
+  ['roomeventtype_9',['RoomEventType',['../d7/dc2/structRoomEvent.html#a38dab0b0acac484e5bc10ff0ec2c0021',1,'RoomEvent']]],
+  ['roommessagetype_10',['RoomMessageType',['../d9/d02/structEvent__RoomSay.html#a699c54b7e58022d25d9905eb4f15ecb9',1,'Event_RoomSay']]]
 ];

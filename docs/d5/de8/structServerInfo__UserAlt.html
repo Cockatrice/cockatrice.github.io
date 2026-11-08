@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -139,6 +139,14 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:af732c0db4b5e9d06c51782a13a67373e"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of bans on record  <br /></td></tr>
 <tr class="memitem:a6e12369cebf4512b1d8fcbdb0d513ff9" id="r_a6e12369cebf4512b1d8fcbdb0d513ff9"><td class="memItemLeft">optional bool&#160;</td><td class="memItemRight"><a class="el" href="#a6e12369cebf4512b1d8fcbdb0d513ff9">is_active</a> = 8</td></tr>
 <tr class="memdesc:a6e12369cebf4512b1d8fcbdb0d513ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">account is not deactivated/banned  <br /></td></tr>
+<tr class="memitem:afcb1aa2db1d7c58fb8f126ef06f3bc5d" id="r_afcb1aa2db1d7c58fb8f126ef06f3bc5d"><td class="memItemLeft">optional string&#160;</td><td class="memItemRight"><a class="el" href="#afcb1aa2db1d7c58fb8f126ef06f3bc5d">match_reason</a> = 9</td></tr>
+<tr class="memdesc:afcb1aa2db1d7c58fb8f126ef06f3bc5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">why flagged, e.g. "email", "clientid:abc", "ip:1.2.3.4"; empty = seed/legacy  <br /></td></tr>
+<tr class="memitem:ab0758ae85ba2bedeb4a0a6bb0cdf083c" id="r_ab0758ae85ba2bedeb4a0a6bb0cdf083c"><td class="memItemLeft">optional uint32&#160;</td><td class="memItemRight"><a class="el" href="#ab0758ae85ba2bedeb4a0a6bb0cdf083c">depth</a> = 10</td></tr>
+<tr class="memdesc:ab0758ae85ba2bedeb4a0a6bb0cdf083c"><td class="mdescLeft">&#160;</td><td class="mdescRight">BFS distance from investigated account; 1 = direct, 2+ = alt-of-alt.  <br /></td></tr>
+<tr class="memitem:adc819c978ad44f60029540f3dcfbc1fb" id="r_adc819c978ad44f60029540f3dcfbc1fb"><td class="memItemLeft">optional uint32&#160;</td><td class="memItemRight"><a class="el" href="#adc819c978ad44f60029540f3dcfbc1fb">shared_count</a></td></tr>
+<tr class="memdesc:adc819c978ad44f60029540f3dcfbc1fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">distinct users sharing the matched identifier; high values suggest VPN/shared network  <br /></td></tr>
+<tr class="memitem:ab870dd4f7b2377fc16226ed41177614f" id="r_ab870dd4f7b2377fc16226ed41177614f"><td class="memItemLeft">optional uint32&#160;</td><td class="memItemRight"><a class="el" href="#ab870dd4f7b2377fc16226ed41177614f">ip_count</a> = 12</td></tr>
+<tr class="memdesc:ab870dd4f7b2377fc16226ed41177614f"><td class="mdescLeft">&#160;</td><td class="mdescRight">distinct recent session IPs of this account in the search window  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An account that shares an IP address, client id or eMail address with the account being investigated:: Used by the moderation "Get User Alts" tool:: </p>
@@ -175,6 +183,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab0758ae85ba2bedeb4a0a6bb0cdf083c" name="ab0758ae85ba2bedeb4a0a6bb0cdf083c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0758ae85ba2bedeb4a0a6bb0cdf083c">&#9670;&#160;</a></span>depth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional uint32 ServerInfo_UserAlt::depth = 10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>BFS distance from investigated account; 1 = direct, 2+ = alt-of-alt. </p>
+
+</div>
+</div>
 <a id="aca75847177e3c62c1046223246296220" name="aca75847177e3c62c1046223246296220"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca75847177e3c62c1046223246296220">&#9670;&#160;</a></span>email</h2>
 
@@ -188,6 +212,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>registration eMail </p>
+
+</div>
+</div>
+<a id="ab870dd4f7b2377fc16226ed41177614f" name="ab870dd4f7b2377fc16226ed41177614f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab870dd4f7b2377fc16226ed41177614f">&#9670;&#160;</a></span>ip_count</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional uint32 ServerInfo_UserAlt::ip_count = 12</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>distinct recent session IPs of this account in the search window </p>
 
 </div>
 </div>
@@ -223,6 +263,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="afcb1aa2db1d7c58fb8f126ef06f3bc5d" name="afcb1aa2db1d7c58fb8f126ef06f3bc5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcb1aa2db1d7c58fb8f126ef06f3bc5d">&#9670;&#160;</a></span>match_reason</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional string ServerInfo_UserAlt::match_reason = 9</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>why flagged, e.g. "email", "clientid:abc", "ip:1.2.3.4"; empty = seed/legacy </p>
+
+</div>
+</div>
 <a id="af15e7f830f7a8bd9c4048aad4a3caed3" name="af15e7f830f7a8bd9c4048aad4a3caed3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af15e7f830f7a8bd9c4048aad4a3caed3">&#9670;&#160;</a></span>registration_time</h2>
 
@@ -236,6 +292,24 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>account registration, epoch seconds </p>
+
+</div>
+</div>
+<a id="adc819c978ad44f60029540f3dcfbc1fb" name="adc819c978ad44f60029540f3dcfbc1fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc819c978ad44f60029540f3dcfbc1fb">&#9670;&#160;</a></span>shared_count</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">optional uint32 ServerInfo_UserAlt::shared_count</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">                             =</div>
+<div class="line">11</div>
+</div><!-- fragment -->
+<p>distinct users sharing the matched identifier; high values suggest VPN/shared network </p>
 
 </div>
 </div>

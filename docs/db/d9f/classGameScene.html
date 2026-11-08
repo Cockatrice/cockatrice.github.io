@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -167,6 +167,13 @@ Public Slots</h2></td></tr>
 <tr class="memitem:ae045236fa9f29cb75d7856eafeef24c9" id="r_ae045236fa9f29cb75d7856eafeef24c9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae045236fa9f29cb75d7856eafeef24c9">onCardZoneChanged</a> (<a class="el" href="../../db/d1b/classCardState.html">CardState</a> *card, bool sameZone)</td></tr>
 <tr class="memitem:a16f2becf7d1e32dce8f81fd35d918584" id="r_a16f2becf7d1e32dce8f81fd35d918584"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a16f2becf7d1e32dce8f81fd35d918584">onCardViewRefreshRequested</a> (<a class="el" href="../../db/d1b/classCardState.html">CardState</a> *card, bool zoneChanged, <a class="el" href="../../d2/d98/classPlayerLogic.html">PlayerLogic</a> *newOwner)</td></tr>
 <tr class="memdesc:a16f2becf7d1e32dce8f81fd35d918584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refreshes the view of a card that the server just moved.  <br /></td></tr>
+<tr class="memitem:a90b00d128aca0ad043b3b69eca1a5042" id="r_a90b00d128aca0ad043b3b69eca1a5042"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a90b00d128aca0ad043b3b69eca1a5042">onHoverActivateTimeout</a> ()</td></tr>
+<tr class="memitem:ab18bb05c09c3d410290172f0c6fdf9fa" id="r_ab18bb05c09c3d410290172f0c6fdf9fa"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab18bb05c09c3d410290172f0c6fdf9fa">onHoverPanelTimeout</a> ()</td></tr>
+<tr class="memitem:a4b378778683aaef8723ce79f59a068e5" id="r_a4b378778683aaef8723ce79f59a068e5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4b378778683aaef8723ce79f59a068e5">onHoverGraceTimeout</a> ()</td></tr>
+<tr class="memitem:ae181dc43301d23990e2468f9e105e5b8" id="r_ae181dc43301d23990e2468f9e105e5b8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae181dc43301d23990e2468f9e105e5b8">onHoverWidgetEntered</a> ()</td></tr>
+<tr class="memitem:a2f1fde01c1ecaec7a3b87024dc09d8f1" id="r_a2f1fde01c1ecaec7a3b87024dc09d8f1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2f1fde01c1ecaec7a3b87024dc09d8f1">onHoverWidgetLeft</a> ()</td></tr>
+<tr class="memitem:aded50bc96c36d58da5364acbaa581b33" id="r_aded50bc96c36d58da5364acbaa581b33"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aded50bc96c36d58da5364acbaa581b33">summonHoverPanel</a> ()</td></tr>
+<tr class="memdesc:aded50bc96c36d58da5364acbaa581b33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Summons the hover panel for the currently hovered card, if any.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
@@ -222,6 +229,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acc71fd2029d4ac911844db7ad929d50c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes columns and distributes extra width to players.  <br /></td></tr>
 <tr class="memitem:a3fd207ae5223e7936da2df9f0f842bd7" id="r_a3fd207ae5223e7936da2df9f0f842bd7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3fd207ae5223e7936da2df9f0f842bd7">updateHoveredCard</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *newCard)</td></tr>
 <tr class="memdesc:a3fd207ae5223e7936da2df9f0f842bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates hovered card highlighting.  <br /></td></tr>
+<tr class="memitem:a9e93d4ee9fcfc28f598aa098385bba36" id="r_a9e93d4ee9fcfc28f598aa098385bba36"><td class="memItemLeft"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a9e93d4ee9fcfc28f598aa098385bba36">pickCardAt</a> (const QPointF &amp;scenePos)</td></tr>
+<tr class="memdesc:a9e93d4ee9fcfc28f598aa098385bba36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Topmost card at a scene position, without side effects.  <br /></td></tr>
+<tr class="memitem:a035964e5fc9fb16f1de1e9f2546ba88a" id="r_a035964e5fc9fb16f1de1e9f2546ba88a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a035964e5fc9fb16f1de1e9f2546ba88a">fireTriggers</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card, bool zoomFired, bool panelFired)</td></tr>
+<tr class="memdesc:a035964e5fc9fb16f1de1e9f2546ba88a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fires the zoom and/or panel trigger for a card (one explicit user action). When both fire on one action, double-confirm arms on first fire and shows on repeat.  <br /></td></tr>
+<tr class="memitem:a213fe1438c769dfa0ec0cefc6c041b55" id="r_a213fe1438c769dfa0ec0cefc6c041b55"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a213fe1438c769dfa0ec0cefc6c041b55">ensureZoomed</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card)</td></tr>
+<tr class="memdesc:a213fe1438c769dfa0ec0cefc6c041b55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the hover zoom for a card without touching panel state.  <br /></td></tr>
+<tr class="memitem:a5a265b30e265a99b5491ee235a181fdd" id="r_a5a265b30e265a99b5491ee235a181fdd"><td class="memItemLeft"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a5a265b30e265a99b5491ee235a181fdd">getHoveredCard</a> () const</td></tr>
+<tr class="memdesc:a5a265b30e265a99b5491ee235a181fdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The currently hovered card, if any (used by zones to dodge it while painting).  <br /></td></tr>
 <tr class="memitem:a6d6d998fc582390d47292147fde48c60" id="r_a6d6d998fc582390d47292147fde48c60"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6d6d998fc582390d47292147fde48c60">registerAnimationItem</a> (<a class="el" href="../../da/dd9/classIAnimatedItem.html">IAnimatedItem</a> *item)</td></tr>
 <tr class="memdesc:a6d6d998fc582390d47292147fde48c60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers an item for animation updates with the shared scene timer.  <br /></td></tr>
 <tr class="memitem:a594237111de84b26a2269fce292d30b8" id="r_a594237111de84b26a2269fce292d30b8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a594237111de84b26a2269fce292d30b8">unregisterAnimationItem</a> (<a class="el" href="../../da/dd9/classIAnimatedItem.html">IAnimatedItem</a> *item)</td></tr>
@@ -243,6 +258,8 @@ Static Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a87d0fd08b1540319e8770e187379d4ba" id="r_a87d0fd08b1540319e8770e187379d4ba"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a87d0fd08b1540319e8770e187379d4ba">event</a> (QEvent *event) override</td></tr>
 <tr class="memdesc:a87d0fd08b1540319e8770e187379d4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles hover updates.  <br /></td></tr>
+<tr class="memitem:a2bb19ef5f91bf95c81df9ba6af9c6792" id="r_a2bb19ef5f91bf95c81df9ba6af9c6792"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a2bb19ef5f91bf95c81df9ba6af9c6792">eventFilter</a> (QObject *watched, QEvent *event) override</td></tr>
+<tr class="memdesc:a2bb19ef5f91bf95c81df9ba6af9c6792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Repositions the hover popup when the viewport resizes.  <br /></td></tr>
 <tr class="memitem:a314752d51d28491b92c69440d6afa784" id="r_a314752d51d28491b92c69440d6afa784"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a314752d51d28491b92c69440d6afa784">timerEvent</a> (QTimerEvent *event) override</td></tr>
 <tr class="memdesc:a314752d51d28491b92c69440d6afa784"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles animation timer updates.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -259,6 +276,15 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:a4a21a208c12b2b766bf2db751522325b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activates hover state and escapes the card from its clip container so hover scaling is visible beyond zone bounds.  <br /></td></tr>
 <tr class="memitem:a917ddaa9d252510b91bd4f3ce45f142f" id="r_a917ddaa9d252510b91bd4f3ce45f142f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a917ddaa9d252510b91bd4f3ce45f142f">endCardHover</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card)</td></tr>
 <tr class="memdesc:a917ddaa9d252510b91bd4f3ce45f142f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivates hover state and restores the card to its clip container.  <br /></td></tr>
+<tr class="memitem:a279809bb9bb512d7896939be457c3fcb" id="r_a279809bb9bb512d7896939be457c3fcb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a279809bb9bb512d7896939be457c3fcb">restoreHoverLift</a> ()</td></tr>
+<tr class="memdesc:a279809bb9bb512d7896939be457c3fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restores every lifted ancestor to its pre-hover Z-value and drops the chain.  <br /></td></tr>
+<tr class="memitem:a18b1ee1cfc4a840160ba57ed75ed0605" id="r_a18b1ee1cfc4a840160ba57ed75ed0605"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a18b1ee1cfc4a840160ba57ed75ed0605">onHoverShrinkFinished</a> (<a class="el" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a> *card)</td></tr>
+<tr class="memdesc:a18b1ee1cfc4a840160ba57ed75ed0605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Settles a finished shrink-out: clip container and ancestor lift restore.  <br /></td></tr>
+<tr class="memitem:af08bd3aa072ad6b24c2c0f2c740f85ef" id="r_af08bd3aa072ad6b24c2c0f2c740f85ef"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af08bd3aa072ad6b24c2c0f2c740f85ef">onHoverFootprintChanged</a> (const QRectF &amp;oldFootprint, const QRectF &amp;newFootprint)</td></tr>
+<tr class="memdesc:af08bd3aa072ad6b24c2c0f2c740f85ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Repaints the zones that dodge the zoomed card when its footprint moves.  <br /></td></tr>
+<tr class="memitem:a2d7c67d9ca3f55d41c0b830b19ed7810" id="r_a2d7c67d9ca3f55d41c0b830b19ed7810"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2d7c67d9ca3f55d41c0b830b19ed7810">showCardHoverPopup</a> (<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *card)</td></tr>
+<tr class="memitem:a04a5b0a15bfd3280d13fb942f8970119" id="r_a04a5b0a15bfd3280d13fb942f8970119"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a04a5b0a15bfd3280d13fb942f8970119">hideCardHoverPopup</a> ()</td></tr>
+<tr class="memitem:ae2e5611fb17fb8a05684fb387e2d810d" id="r_ae2e5611fb17fb8a05684fb387e2d810d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae2e5611fb17fb8a05684fb387e2d810d">positionCardHoverPopup</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -275,9 +301,13 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a72ab60c9119d77b1bdc6ae503a37afb4" id="r_a72ab60c9119d77b1bdc6ae503a37afb4"><td class="memItemLeft">QSize&#160;</td><td class="memItemRight"><a class="el" href="#a72ab60c9119d77b1bdc6ae503a37afb4">viewSize</a></td></tr>
 <tr class="memdesc:a72ab60c9119d77b1bdc6ae503a37afb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current view size.  <br /></td></tr>
 <tr class="memitem:a9d567d70c813595eb7bec6b83d2a79bf" id="r_a9d567d70c813595eb7bec6b83d2a79bf"><td class="memItemLeft">QPointer&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9d567d70c813595eb7bec6b83d2a79bf">hoveredCard</a></td></tr>
-<tr class="memdesc:a9d567d70c813595eb7bec6b83d2a79bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently hovered card.  <br /></td></tr>
+<tr class="memitem:a54732c3b42cf7dc9d9ea675eb4018d2c" id="r_a54732c3b42cf7dc9d9ea675eb4018d2c"><td class="memItemLeft">QPointer&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a54732c3b42cf7dc9d9ea675eb4018d2c">hoverHighlightCard</a></td></tr>
 <tr class="memitem:a672f6a6ce8e2a518501d4f0e2814ef38" id="r_a672f6a6ce8e2a518501d4f0e2814ef38"><td class="memItemLeft">QPointer&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a672f6a6ce8e2a518501d4f0e2814ef38">activeCard</a></td></tr>
-<tr class="memdesc:a672f6a6ce8e2a518501d4f0e2814ef38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Card the currently open context menu targets.  <br /></td></tr>
+<tr class="memitem:a7558e4dc7384b19e2bc3e6471d8aaf21" id="r_a7558e4dc7384b19e2bc3e6471d8aaf21"><td class="memItemLeft">QPointer&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a7558e4dc7384b19e2bc3e6471d8aaf21">confirmArmedCard</a></td></tr>
+<tr class="memdesc:a7558e4dc7384b19e2bc3e6471d8aaf21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Card armed for double-confirm panel summon (first trigger zooms, repeat shows).  <br /></td></tr>
+<tr class="memitem:a30e921ac38b697f3c083eb781bab6ceb" id="r_a30e921ac38b697f3c083eb781bab6ceb"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; QPair&lt; QPointer&lt; QGraphicsObject &gt;, qreal &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a30e921ac38b697f3c083eb781bab6ceb">hoverLiftedAncestors</a></td></tr>
+<tr class="memitem:a189ff9428b88c72448774a403ee0f049" id="r_a189ff9428b88c72448774a403ee0f049"><td class="memItemLeft">QPointer&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a189ff9428b88c72448774a403ee0f049">liftOwner</a></td></tr>
+<tr class="memdesc:a189ff9428b88c72448774a403ee0f049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Card whose ancestor chain is currently lifted (cleared together with the chain).  <br /></td></tr>
 <tr class="memitem:abcfad631804efabf322bb70d673a063f" id="r_abcfad631804efabf322bb70d673a063f"><td class="memItemLeft">QBasicTimer *&#160;</td><td class="memItemRight"><a class="el" href="#abcfad631804efabf322bb70d673a063f">animationTimer</a></td></tr>
 <tr class="memdesc:abcfad631804efabf322bb70d673a063f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer for scene animations.  <br /></td></tr>
 <tr class="memitem:a233a5d8534c7e8830f7c379d37b0565b" id="r_a233a5d8534c7e8830f7c379d37b0565b"><td class="memItemLeft"><a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt; QObject *, <a class="el" href="../../da/dd9/classIAnimatedItem.html">IAnimatedItem</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a233a5d8534c7e8830f7c379d37b0565b">animatedItems</a></td></tr>
@@ -290,6 +320,20 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:adfdee64967aaf3c0b5f9da88deb4795d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Guard against re-entrant rearrange.  <br /></td></tr>
 <tr class="memitem:a6eaec022b09e27ad819ec9d6d7f7692b" id="r_a6eaec022b09e27ad819ec9d6d7f7692b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a6eaec022b09e27ad819ec9d6d7f7692b">needsReArrange</a> = false</td></tr>
 <tr class="memdesc:a6eaec022b09e27ad819ec9d6d7f7692b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pending rearrange requested during a pass.  <br /></td></tr>
+<tr class="memitem:ad1abd9399cfe3d6905f8e9c1edc59628" id="r_ad1abd9399cfe3d6905f8e9c1edc59628"><td class="memItemLeft">QPointer&lt; <a class="el" href="../../db/d7a/classCardHoverWidget.html">CardHoverWidget</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ad1abd9399cfe3d6905f8e9c1edc59628">cardHoverWidget</a></td></tr>
+<tr class="memdesc:ad1abd9399cfe3d6905f8e9c1edc59628"><td class="mdescLeft">&#160;</td><td class="mdescRight">The hover popup widget.  <br /></td></tr>
+<tr class="memitem:a9a49deb4838b2275a2fc0aa19818c5bf" id="r_a9a49deb4838b2275a2fc0aa19818c5bf"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#a9a49deb4838b2275a2fc0aa19818c5bf">hoverActivateTimer</a></td></tr>
+<tr class="memdesc:a9a49deb4838b2275a2fc0aa19818c5bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dwell delay before the hover zoom kicks in.  <br /></td></tr>
+<tr class="memitem:a606447c91b9eb09de7326c37d458b145" id="r_a606447c91b9eb09de7326c37d458b145"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#a606447c91b9eb09de7326c37d458b145">hoverPanelTimer</a></td></tr>
+<tr class="memdesc:a606447c91b9eb09de7326c37d458b145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delay after the zoom before the tab panel shows.  <br /></td></tr>
+<tr class="memitem:a77586a2010706206906daec8e1d11ca6" id="r_a77586a2010706206906daec8e1d11ca6"><td class="memItemLeft">QTimer *&#160;</td><td class="memItemRight"><a class="el" href="#a77586a2010706206906daec8e1d11ca6">hoverGraceTimer</a></td></tr>
+<tr class="memdesc:a77586a2010706206906daec8e1d11ca6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grace period before hiding popup (200ms).  <br /></td></tr>
+<tr class="memitem:ac4fc0a8abd551048b0c12f4e32388fd6" id="r_ac4fc0a8abd551048b0c12f4e32388fd6"><td class="memItemLeft">QPointer&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ac4fc0a8abd551048b0c12f4e32388fd6">hoverPopupTarget</a></td></tr>
+<tr class="memdesc:ac4fc0a8abd551048b0c12f4e32388fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Card the popup is intended for.  <br /></td></tr>
+<tr class="memitem:a2660193bbe7e90897d3ba2e2e72e2607" id="r_a2660193bbe7e90897d3ba2e2e72e2607"><td class="memItemLeft">QPointer&lt; <a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a2660193bbe7e90897d3ba2e2e72e2607">hoverPanelTarget</a></td></tr>
+<tr class="memdesc:a2660193bbe7e90897d3ba2e2e72e2607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Card the panel timer will show.  <br /></td></tr>
+<tr class="memitem:a38474db1971f78a2e7447cf8b4f3eb61" id="r_a38474db1971f78a2e7447cf8b4f3eb61"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a38474db1971f78a2e7447cf8b4f3eb61">hoverGracePending</a> = false</td></tr>
+<tr class="memdesc:a38474db1971f78a2e7447cf8b4f3eb61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grace timer armed (mouse left a card or the popup).  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -622,7 +666,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a4a21a208c12b2b766bf2db751522325b_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a4a21a208c12b2b766bf2db751522325b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1064,7 +1108,36 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a917ddaa9d252510b91bd4f3ce45f142f_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a917ddaa9d252510b91bd4f3ce45f142f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a213fe1438c769dfa0ec0cefc6c041b55" name="a213fe1438c769dfa0ec0cefc6c041b55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a213fe1438c769dfa0ec0cefc6c041b55">&#9670;&#160;</a></span>ensureZoomed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::ensureZoomed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Starts the hover zoom for a card without touching panel state. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a213fe1438c769dfa0ec0cefc6c041b55_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a213fe1438c769dfa0ec0cefc6c041b55_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1101,7 +1174,43 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a87d0fd08b1540319e8770e187379d4ba_icgraph.svg" width="155" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a87d0fd08b1540319e8770e187379d4ba_icgraph.svg" width="380" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a2bb19ef5f91bf95c81df9ba6af9c6792" name="a2bb19ef5f91bf95c81df9ba6af9c6792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bb19ef5f91bf95c81df9ba6af9c6792">&#9670;&#160;</a></span>eventFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameScene::eventFilter </td>
+          <td>(</td>
+          <td class="paramtype">QObject *</td>          <td class="paramname"><span class="paramname"><em>watched</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Repositions the hover popup when the viewport resizes. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a2bb19ef5f91bf95c81df9ba6af9c6792_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1142,7 +1251,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a476bba288208f67fdd56156d9e384df6_icgraph.svg" width="659" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a476bba288208f67fdd56156d9e384df6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1174,7 +1283,45 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a3064ed17ced8e0e4b9d95adc3d4a575a_icgraph.svg" width="662" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a3064ed17ced8e0e4b9d95adc3d4a575a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a035964e5fc9fb16f1de1e9f2546ba88a" name="a035964e5fc9fb16f1de1e9f2546ba88a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a035964e5fc9fb16f1de1e9f2546ba88a">&#9670;&#160;</a></span>fireTriggers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::fireTriggers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>zoomFired</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>panelFired</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fires the zoom and/or panel trigger for a card (one explicit user action). When both fire on one action, double-confirm arms on first fire and shows on repeat. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a035964e5fc9fb16f1de1e9f2546ba88a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a035964e5fc9fb16f1de1e9f2546ba88a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1200,6 +1347,25 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a3cc51e9ad7517fa8245f9672dd42e65c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+
+</div>
+</div>
+<a id="a5a265b30e265a99b5491ee235a181fdd" name="a5a265b30e265a99b5491ee235a181fdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a265b30e265a99b5491ee235a181fdd">&#9670;&#160;</a></span>getHoveredCard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> * GameScene::getHoveredCard </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The currently hovered card, if any (used by zones to dodge it while painting). </p>
 
 </div>
 </div>
@@ -1255,6 +1421,11 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_abeec27581934322149e31fb7cd48b6e5_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -1283,7 +1454,37 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a4419f238b28538f767528b02845ed4da_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a4419f238b28538f767528b02845ed4da_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a04a5b0a15bfd3280d13fb942f8970119" name="a04a5b0a15bfd3280d13fb942f8970119"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04a5b0a15bfd3280d13fb942f8970119">&#9670;&#160;</a></span>hideCardHoverPopup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::hideCardHoverPopup </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a04a5b0a15bfd3280d13fb942f8970119_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1352,7 +1553,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a02ab54dfa3a9b7b49ab863ce0db03972_cgraph.svg" width="492" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a02ab54dfa3a9b7b49ab863ce0db03972_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -1479,12 +1680,280 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_ae045236fa9f29cb75d7856eafeef24c9_cgraph.svg" width="100%" height="368"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_ae045236fa9f29cb75d7856eafeef24c9_cgraph.svg" width="100%" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_ae045236fa9f29cb75d7856eafeef24c9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a90b00d128aca0ad043b3b69eca1a5042" name="a90b00d128aca0ad043b3b69eca1a5042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90b00d128aca0ad043b3b69eca1a5042">&#9670;&#160;</a></span>onHoverActivateTimeout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::onHoverActivateTimeout </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a90b00d128aca0ad043b3b69eca1a5042_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a90b00d128aca0ad043b3b69eca1a5042_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af08bd3aa072ad6b24c2c0f2c740f85ef" name="af08bd3aa072ad6b24c2c0f2c740f85ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08bd3aa072ad6b24c2c0f2c740f85ef">&#9670;&#160;</a></span>onHoverFootprintChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::onHoverFootprintChanged </td>
+          <td>(</td>
+          <td class="paramtype">const QRectF &amp;</td>          <td class="paramname"><span class="paramname"><em>oldFootprint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QRectF &amp;</td>          <td class="paramname"><span class="paramname"><em>newFootprint</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Repaints the zones that dodge the zoomed card when its footprint moves. </p>
+<p>Those zones cut the hovered card out of their paint, but they are cached: another item's geometry change does not dirty them, so without this the previous hole stays transparent in the cache and a black rectangle shows under the zoom. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_af08bd3aa072ad6b24c2c0f2c740f85ef_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a4b378778683aaef8723ce79f59a068e5" name="a4b378778683aaef8723ce79f59a068e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b378778683aaef8723ce79f59a068e5">&#9670;&#160;</a></span>onHoverGraceTimeout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::onHoverGraceTimeout </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a4b378778683aaef8723ce79f59a068e5_cgraph.svg" width="518" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a4b378778683aaef8723ce79f59a068e5_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab18bb05c09c3d410290172f0c6fdf9fa" name="ab18bb05c09c3d410290172f0c6fdf9fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab18bb05c09c3d410290172f0c6fdf9fa">&#9670;&#160;</a></span>onHoverPanelTimeout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::onHoverPanelTimeout </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_ab18bb05c09c3d410290172f0c6fdf9fa_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_ab18bb05c09c3d410290172f0c6fdf9fa_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a18b1ee1cfc4a840160ba57ed75ed0605" name="a18b1ee1cfc4a840160ba57ed75ed0605"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18b1ee1cfc4a840160ba57ed75ed0605">&#9670;&#160;</a></span>onHoverShrinkFinished()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::onHoverShrinkFinished </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/db9/classAbstractCardItem.html">AbstractCardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Settles a finished shrink-out: clip container and ancestor lift restore. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a18b1ee1cfc4a840160ba57ed75ed0605_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a18b1ee1cfc4a840160ba57ed75ed0605_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae181dc43301d23990e2468f9e105e5b8" name="ae181dc43301d23990e2468f9e105e5b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae181dc43301d23990e2468f9e105e5b8">&#9670;&#160;</a></span>onHoverWidgetEntered</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::onHoverWidgetEntered </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_ae181dc43301d23990e2468f9e105e5b8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a2f1fde01c1ecaec7a3b87024dc09d8f1" name="a2f1fde01c1ecaec7a3b87024dc09d8f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f1fde01c1ecaec7a3b87024dc09d8f1">&#9670;&#160;</a></span>onHoverWidgetLeft</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::onHoverWidgetLeft </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a2f1fde01c1ecaec7a3b87024dc09d8f1_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a9e93d4ee9fcfc28f598aa098385bba36" name="a9e93d4ee9fcfc28f598aa098385bba36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e93d4ee9fcfc28f598aa098385bba36">&#9670;&#160;</a></span>pickCardAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> * GameScene::pickCardAt </td>
+          <td>(</td>
+          <td class="paramtype">const QPointF &amp;</td>          <td class="paramname"><span class="paramname"><em>scenePos</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Topmost card at a scene position, without side effects. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a9e93d4ee9fcfc28f598aa098385bba36_cgraph.svg" width="100%" height="497"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a9e93d4ee9fcfc28f598aa098385bba36_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1555,6 +2024,41 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a53f9ba774d1ecac7de18038d25d76174_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae2e5611fb17fb8a05684fb387e2d810d" name="ae2e5611fb17fb8a05684fb387e2d810d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2e5611fb17fb8a05684fb387e2d810d">&#9670;&#160;</a></span>positionCardHoverPopup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::positionCardHoverPopup </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_ae2e5611fb17fb8a05684fb387e2d810d_cgraph.svg" width="539" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_ae2e5611fb17fb8a05684fb387e2d810d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1879,6 +2383,38 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a279809bb9bb512d7896939be457c3fcb" name="a279809bb9bb512d7896939be457c3fcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a279809bb9bb512d7896939be457c3fcb">&#9670;&#160;</a></span>restoreHoverLift()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::restoreHoverLift </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Restores every lifted ancestor to its pre-hover Z-value and drops the chain. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a279809bb9bb512d7896939be457c3fcb_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a9f3f52f90882e11a75ca951585222168" name="a9f3f52f90882e11a75ca951585222168"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f3f52f90882e11a75ca951585222168">&#9670;&#160;</a></span>retranslateUi()</h2>
 
@@ -2101,6 +2637,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a2d7c67d9ca3f55d41c0b830b19ed7810" name="a2d7c67d9ca3f55d41c0b830b19ed7810"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d7c67d9ca3f55d41c0b830b19ed7810">&#9670;&#160;</a></span>showCardHoverPopup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::showCardHoverPopup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a> *</td>          <td class="paramname"><span class="paramname"><em>card</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a2d7c67d9ca3f55d41c0b830b19ed7810_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a2d7c67d9ca3f55d41c0b830b19ed7810_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="addb2c100ae95c4ed3dd3adf33761a1e2" name="addb2c100ae95c4ed3dd3adf33761a1e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#addb2c100ae95c4ed3dd3adf33761a1e2">&#9670;&#160;</a></span>sigResizeRubberBand</h2>
 
@@ -2235,6 +2806,43 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_a76c1eb9524989d20a99da4e3d8423f24_cgraph.svg" width="508" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aded50bc96c36d58da5364acbaa581b33" name="aded50bc96c36d58da5364acbaa581b33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aded50bc96c36d58da5364acbaa581b33">&#9670;&#160;</a></span>summonHoverPanel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GameScene::summonHoverPanel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Summons the hover panel for the currently hovered card, if any. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_aded50bc96c36d58da5364acbaa581b33_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_aded50bc96c36d58da5364acbaa581b33_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2384,7 +2992,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_af76c5624ddfa0394ff4e4f97d36197ac_icgraph.svg" width="395" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d9f/classGameScene_af76c5624ddfa0394ff4e4f97d36197ac_icgraph.svg" width="620" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -2468,8 +3076,7 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Card the currently open context menu targets. </p>
+<p>Card the currently open context menu targets </p>
 
 </div>
 </div>
@@ -2569,6 +3176,78 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ad1abd9399cfe3d6905f8e9c1edc59628" name="ad1abd9399cfe3d6905f8e9c1edc59628"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1abd9399cfe3d6905f8e9c1edc59628">&#9670;&#160;</a></span>cardHoverWidget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointer&lt;<a class="el" href="../../db/d7a/classCardHoverWidget.html">CardHoverWidget</a>&gt; GameScene::cardHoverWidget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The hover popup widget. </p>
+
+</div>
+</div>
+<a id="a7558e4dc7384b19e2bc3e6471d8aaf21" name="a7558e4dc7384b19e2bc3e6471d8aaf21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7558e4dc7384b19e2bc3e6471d8aaf21">&#9670;&#160;</a></span>confirmArmedCard</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointer&lt;<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a>&gt; GameScene::confirmArmedCard</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Card armed for double-confirm panel summon (first trigger zooms, repeat shows). </p>
+
+</div>
+</div>
+<a id="a9a49deb4838b2275a2fc0aa19818c5bf" name="a9a49deb4838b2275a2fc0aa19818c5bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a49deb4838b2275a2fc0aa19818c5bf">&#9670;&#160;</a></span>hoverActivateTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTimer* GameScene::hoverActivateTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dwell delay before the hover zoom kicks in. </p>
+
+</div>
+</div>
 <a id="a9d567d70c813595eb7bec6b83d2a79bf" name="a9d567d70c813595eb7bec6b83d2a79bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d567d70c813595eb7bec6b83d2a79bf">&#9670;&#160;</a></span>hoveredCard</h2>
 
@@ -2588,8 +3267,197 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Currently hovered card (zoomed) </p>
 
-<p>Currently hovered card. </p>
+</div>
+</div>
+<a id="a38474db1971f78a2e7447cf8b4f3eb61" name="a38474db1971f78a2e7447cf8b4f3eb61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38474db1971f78a2e7447cf8b4f3eb61">&#9670;&#160;</a></span>hoverGracePending</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameScene::hoverGracePending = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Grace timer armed (mouse left a card or the popup). </p>
+
+</div>
+</div>
+<a id="a77586a2010706206906daec8e1d11ca6" name="a77586a2010706206906daec8e1d11ca6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77586a2010706206906daec8e1d11ca6">&#9670;&#160;</a></span>hoverGraceTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTimer* GameScene::hoverGraceTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Grace period before hiding popup (200ms). </p>
+
+</div>
+</div>
+<a id="a54732c3b42cf7dc9d9ea675eb4018d2c" name="a54732c3b42cf7dc9d9ea675eb4018d2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54732c3b42cf7dc9d9ea675eb4018d2c">&#9670;&#160;</a></span>hoverHighlightCard</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointer&lt;<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a>&gt; GameScene::hoverHighlightCard</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Card the cursor is resting on. It carries the hover outline and the card-info update immediately, independently of the zoom/panel triggers. </p>
+
+</div>
+</div>
+<a id="a30e921ac38b697f3c083eb781bab6ceb" name="a30e921ac38b697f3c083eb781bab6ceb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30e921ac38b697f3c083eb781bab6ceb">&#9670;&#160;</a></span>hoverLiftedAncestors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt;QPair&lt;QPointer&lt;QGraphicsObject&gt;, qreal&gt; &gt; GameScene::hoverLiftedAncestors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Ancestor chain of the hovered card with pre-hover Z-values. Lifted while hovering because Qt orders subtrees level by level: the card z alone cannot beat a sibling zone, and the top ancestor alone cannot beat same-area sibling zones either — every level from the zone up must win its own comparison. Guarded pointers: if the card is destroyed mid-hover (or an ancestor goes away first), the guards null out and the next restore skips them instead of touching freed memory. An orphaned lift is invisible — areas and zones tile without overlapping and all UI layers still win — and any outstanding lift is restored by the next hover transition. </p>
+
+</div>
+</div>
+<a id="a2660193bbe7e90897d3ba2e2e72e2607" name="a2660193bbe7e90897d3ba2e2e72e2607"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2660193bbe7e90897d3ba2e2e72e2607">&#9670;&#160;</a></span>hoverPanelTarget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointer&lt;<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a>&gt; GameScene::hoverPanelTarget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Card the panel timer will show. </p>
+
+</div>
+</div>
+<a id="a606447c91b9eb09de7326c37d458b145" name="a606447c91b9eb09de7326c37d458b145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a606447c91b9eb09de7326c37d458b145">&#9670;&#160;</a></span>hoverPanelTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QTimer* GameScene::hoverPanelTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Delay after the zoom before the tab panel shows. </p>
+
+</div>
+</div>
+<a id="ac4fc0a8abd551048b0c12f4e32388fd6" name="ac4fc0a8abd551048b0c12f4e32388fd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4fc0a8abd551048b0c12f4e32388fd6">&#9670;&#160;</a></span>hoverPopupTarget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointer&lt;<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a>&gt; GameScene::hoverPopupTarget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Card the popup is intended for. </p>
+
+</div>
+</div>
+<a id="a189ff9428b88c72448774a403ee0f049" name="a189ff9428b88c72448774a403ee0f049"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a189ff9428b88c72448774a403ee0f049">&#9670;&#160;</a></span>liftOwner</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPointer&lt;<a class="el" href="../../d6/dbd/classCardItem.html">CardItem</a>&gt; GameScene::liftOwner</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Card whose ancestor chain is currently lifted (cleared together with the chain). </p>
 
 </div>
 </div>

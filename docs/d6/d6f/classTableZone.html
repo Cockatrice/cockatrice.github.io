@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -200,6 +200,8 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:af3c744bcfd8d8afca5dc1083f7878b3a" id="r_af3c744bcfd8d8afca5dc1083f7878b3a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#af3c744bcfd8d8afca5dc1083f7878b3a">isInverted</a> () const</td></tr>
 <tr class="memitem:a5e173e217e3cce7ed34ec1334c4a0c89" id="r_a5e173e217e3cce7ed34ec1334c4a0c89"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5e173e217e3cce7ed34ec1334c4a0c89">paintZoneOutline</a> (QPainter *painter)</td></tr>
 <tr class="memitem:ac41a86ad77b8371ffb03fac1472637f9" id="r_ac41a86ad77b8371ffb03fac1472637f9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac41a86ad77b8371ffb03fac1472637f9">paintLandDivider</a> (QPainter *painter)</td></tr>
+<tr class="memitem:a063f4ef2b601a0eabf23e621339f5b77" id="r_a063f4ef2b601a0eabf23e621339f5b77"><td class="memItemLeft">std::optional&lt; QPainterPath &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a063f4ef2b601a0eabf23e621339f5b77">hoveredCardHole</a> () const</td></tr>
+<tr class="memdesc:a063f4ef2b601a0eabf23e621339f5b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">This zone's paint area minus the hovered card's painted outline, in zone coordinates.  <br /></td></tr>
 <tr class="memitem:aa1a7f90906aabec4caa54cc8e4bf9253" id="r_aa1a7f90906aabec4caa54cc8e4bf9253"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa1a7f90906aabec4caa54cc8e4bf9253">computeCardStackWidths</a> ()</td></tr>
 <tr class="memitem:ace0445dcfbb677ff3371e87899e23efd" id="r_ace0445dcfbb677ff3371e87899e23efd"><td class="memItemLeft">QPointF&#160;</td><td class="memItemRight"><a class="el" href="#ace0445dcfbb677ff3371e87899e23efd">mapFromGrid</a> (QPoint gridPoint) const</td></tr>
 <tr class="memitem:aed922258172d122e66d5d033d567c783" id="r_aed922258172d122e66d5d033d567c783"><td class="memItemLeft">QPoint&#160;</td><td class="memItemRight"><a class="el" href="#aed922258172d122e66d5d033d567c783">mapToGrid</a> (const QPointF &amp;mapPoint) const</td></tr>
@@ -708,6 +710,45 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_a3e9c21b3c31cb08b0bee680785117be8_icgraph.svg" width="476" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a063f4ef2b601a0eabf23e621339f5b77" name="a063f4ef2b601a0eabf23e621339f5b77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a063f4ef2b601a0eabf23e621339f5b77">&#9670;&#160;</a></span>hoveredCardHole()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; QPainterPath &gt; TableZone::hoveredCardHole </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This zone's paint area minus the hovered card's painted outline, in zone coordinates. </p>
+<p><code>std::nullopt</code> when no card is hovered or it does not overlap this zone; an <em>empty</em> path when the hovered card covers this zone entirely, in which case nothing of the zone is visible.</p>
+<p><code>std::nullopt</code> when no card is hovered or it does not overlap this zone; an <em>empty</em> path when the zoom covers this zone entirely, which means nothing of it is left to paint. Lets every paint layer dodge the zoomed card instead of painting over it. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_a063f4ef2b601a0eabf23e621339f5b77_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d6f/classTableZone_a063f4ef2b601a0eabf23e621339f5b77_icgraph.svg" width="398" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

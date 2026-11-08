@@ -12,12 +12,13 @@ var searchData=
   ['quickfiltersaveloadwidget_9',['quickFilterSaveLoadWidget',['../d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a8f1fda82a216623684776f3945a642ed',1,'VisualDatabaseDisplayFilterToolbarWidget']]],
   ['quickfiltersetwidget_10',['quickFilterSetWidget',['../d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a834f9dfe0941e1b09fc499c6e31448d4',1,'VisualDatabaseDisplayFilterToolbarWidget']]],
   ['quickfiltersubtypewidget_11',['quickFilterSubTypeWidget',['../d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#a84205ce1e6b2fafab073b7e3d40f7a86',1,'VisualDatabaseDisplayFilterToolbarWidget']]],
-  ['quickfiltertoolbar_12',['quickFilterToolBar',['../df/d3f/classGameSelector.html#a4fc1004c477393760c4c282ba8e7a7f1',1,'GameSelector']]],
-  ['quicksettingswidget_13',['quickSettingsWidget',['../d9/df7/classDeckEditorDeckDockWidget.html#a0c46f51d0320c1ac4074e51b0918e900',1,'DeckEditorDeckDockWidget::quickSettingsWidget'],['../da/dbd/classTabPublicDecks.html#a5ec4a9591d507351334e4d64051354c4',1,'TabPublicDecks::quickSettingsWidget'],['../d0/dfe/classVisualDeckStorageWidget.html#a3ca1a8b1d5be00b4b01ba33f0c27c0e7',1,'VisualDeckStorageWidget::quickSettingsWidget']]],
-  ['quicksetuppanel_14',['quickSetupPanel',['../d0/dc0/classPaletteEditorDialog.html#a1302ab1065dc72e9b0619d1c24211649',1,'PaletteEditorDialog::quickSetupPanel'],['../df/db8/classThemeSetupPage.html#ae8e2285093eebc77fe5c2daba9df6263',1,'ThemeSetupPage::quickSetupPanel']]],
-  ['quickwidget_15',['quickWidget',['../d3/d27/classBannerHost.html#ab5408ca6a56bac56dd04aac3206f68ca',1,'BannerHost']]],
-  ['quota_5frecover_5fms_16',['QUOTA_RECOVER_MS',['../d5/d70/card__picture__loader__worker_8cpp.html#af74515de3cf9086cd59db6e9fab2387a',1,'card_picture_loader_worker.cpp']]],
-  ['quota_5freset_5finterval_5fms_17',['QUOTA_RESET_INTERVAL_MS',['../d5/d70/card__picture__loader__worker_8cpp.html#a6a1b9732f11e2a7a1144bb5554d63b54',1,'card_picture_loader_worker.cpp']]],
-  ['qxt_5fd_18',['qxt_d',['../d5/db4/classQxtMailAttachment.html#afb17b5f1402b302973c29adb74a40852',1,'QxtMailAttachment::qxt_d'],['../d5/dff/classQxtMailMessage.html#af518da51bc50f73332cd1a2b5f285e49',1,'QxtMailMessage::qxt_d']]],
-  ['qxt_5fp_5fptr_19',['qxt_p_ptr',['../db/d14/classQxtPrivate.html#a795119eb3c84d0788a8c6c24fc440166',1,'QxtPrivate']]]
+  ['quickfiltertagwidget_12',['quickFilterTagWidget',['../d1/db1/classVisualDatabaseDisplayFilterToolbarWidget.html#aa3404ec6a62344d4110bee7fd4107f73',1,'VisualDatabaseDisplayFilterToolbarWidget']]],
+  ['quickfiltertoolbar_13',['quickFilterToolBar',['../df/d3f/classGameSelector.html#a4fc1004c477393760c4c282ba8e7a7f1',1,'GameSelector']]],
+  ['quicksettingswidget_14',['quickSettingsWidget',['../d9/df7/classDeckEditorDeckDockWidget.html#a0c46f51d0320c1ac4074e51b0918e900',1,'DeckEditorDeckDockWidget::quickSettingsWidget'],['../da/dbd/classTabPublicDecks.html#a5ec4a9591d507351334e4d64051354c4',1,'TabPublicDecks::quickSettingsWidget'],['../d0/dfe/classVisualDeckStorageWidget.html#a3ca1a8b1d5be00b4b01ba33f0c27c0e7',1,'VisualDeckStorageWidget::quickSettingsWidget']]],
+  ['quicksetuppanel_15',['quickSetupPanel',['../d0/dc0/classPaletteEditorDialog.html#a1302ab1065dc72e9b0619d1c24211649',1,'PaletteEditorDialog::quickSetupPanel'],['../df/db8/classThemeSetupPage.html#ae8e2285093eebc77fe5c2daba9df6263',1,'ThemeSetupPage::quickSetupPanel']]],
+  ['quickwidget_16',['quickWidget',['../d3/d27/classBannerHost.html#ab5408ca6a56bac56dd04aac3206f68ca',1,'BannerHost']]],
+  ['quota_5frecover_5fms_17',['QUOTA_RECOVER_MS',['../d5/d70/card__picture__loader__worker_8cpp.html#af74515de3cf9086cd59db6e9fab2387a',1,'card_picture_loader_worker.cpp']]],
+  ['quota_5freset_5finterval_5fms_18',['QUOTA_RESET_INTERVAL_MS',['../d5/d70/card__picture__loader__worker_8cpp.html#a6a1b9732f11e2a7a1144bb5554d63b54',1,'card_picture_loader_worker.cpp']]],
+  ['qxt_5fd_19',['qxt_d',['../d5/db4/classQxtMailAttachment.html#afb17b5f1402b302973c29adb74a40852',1,'QxtMailAttachment::qxt_d'],['../d5/dff/classQxtMailMessage.html#af518da51bc50f73332cd1a2b5f285e49',1,'QxtMailMessage::qxt_d']]],
+  ['qxt_5fp_5fptr_20',['qxt_p_ptr',['../db/d14/classQxtPrivate.html#a795119eb3c84d0788a8c6c24fc440166',1,'QxtPrivate']]]
 ];

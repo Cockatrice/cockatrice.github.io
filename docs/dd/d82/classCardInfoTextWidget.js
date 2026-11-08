@@ -9,5 +9,6 @@ var classCardInfoTextWidget =
     [ "currentCard", "dd/d82/classCardInfoTextWidget.html#a1d5e630aa27880f0fdf628ce1c8b0f53", null ],
     [ "propsLabel", "dd/d82/classCardInfoTextWidget.html#ae2468513454d1eccca3e1d6a53c22ee6", null ],
     [ "propsScroll", "dd/d82/classCardInfoTextWidget.html#aae6b55346ccdc94c04358791d7d60987", null ],
+    [ "showAllTags", "dd/d82/classCardInfoTextWidget.html#ac1d895aeea73a183c5d1bbf2feb82ede", null ],
     [ "textLabel", "dd/d82/classCardInfoTextWidget.html#ae1ee9e3936e7fff70bd816ce2007c9d3", null ]
 ];

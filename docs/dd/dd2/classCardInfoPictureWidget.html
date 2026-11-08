@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -154,6 +154,8 @@ Signals</h2></td></tr>
 <tr class="memitem:ae5624e0037a8d8aca8b3195cf21459d4" id="r_ae5624e0037a8d8aca8b3195cf21459d4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ae5624e0037a8d8aca8b3195cf21459d4">cardScaleFactorChanged</a> (int _scale)</td></tr>
 <tr class="memitem:a24918126c99c2a3ce29a1a3280573c53" id="r_a24918126c99c2a3ce29a1a3280573c53"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a24918126c99c2a3ce29a1a3280573c53">cardChanged</a> (const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
 <tr class="memitem:a00e93de1ef3309c76bca53be72155721" id="r_a00e93de1ef3309c76bca53be72155721"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a00e93de1ef3309c76bca53be72155721">cardClicked</a> (QMouseEvent *event, const <a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a> &amp;card)</td></tr>
+<tr class="memitem:a0a5a15a3bd27ea42ce4a617e3e07c3a7" id="r_a0a5a15a3bd27ea42ce4a617e3e07c3a7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0a5a15a3bd27ea42ce4a617e3e07c3a7">artRectChanged</a> ()</td></tr>
+<tr class="memdesc:a0a5a15a3bd27ea42ce4a617e3e07c3a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the drawn artwork rect changes (size, scale factor, rotation, card).  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -162,6 +164,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adace469451bad01b966f966366081d49" id="r_adace469451bad01b966f966366081d49"><td class="memItemLeft"><a class="el" href="../../df/d4e/classExactCard.html">ExactCard</a>&#160;</td><td class="memItemRight"><a class="el" href="#adace469451bad01b966f966366081d49">getCard</a> ()</td></tr>
 <tr class="memitem:aade095f602086f04c24e5ee469af2003" id="r_aade095f602086f04c24e5ee469af2003"><td class="memItemLeft">QSize&#160;</td><td class="memItemRight"><a class="el" href="#aade095f602086f04c24e5ee469af2003">sizeHint</a> () const override</td></tr>
 <tr class="memdesc:aade095f602086f04c24e5ee469af2003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the recommended size for the widget based on the scale factor.  <br /></td></tr>
+<tr class="memitem:ad0ce91745a1991cf7777ec4587848dc8" id="r_ad0ce91745a1991cf7777ec4587848dc8"><td class="memItemLeft">QRect&#160;</td><td class="memItemRight"><a class="el" href="#ad0ce91745a1991cf7777ec4587848dc8">artRect</a> () const</td></tr>
+<tr class="memdesc:ad0ce91745a1991cf7777ec4587848dc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rect of the drawn artwork inside this widget.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -209,6 +213,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:af55b35e36065b7ff3ac7e3e62ea810f0" id="r_af55b35e36065b7ff3ac7e3e62ea810f0"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#af55b35e36065b7ff3ac7e3e62ea810f0">scaleFactor</a> = 100</td></tr>
 <tr class="memitem:a460506d4d960750684d165851fd62876" id="r_a460506d4d960750684d165851fd62876"><td class="memItemLeft">QPixmap&#160;</td><td class="memItemRight"><a class="el" href="#a460506d4d960750684d165851fd62876">resizedPixmap</a></td></tr>
 <tr class="memitem:a721424202bc4b3094f55ac93b3b2c5c4" id="r_a721424202bc4b3094f55ac93b3b2c5c4"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a721424202bc4b3094f55ac93b3b2c5c4">pixmapDirty</a></td></tr>
+<tr class="memitem:a6171d09a9393db3ca1783d272da10239" id="r_a6171d09a9393db3ca1783d272da10239"><td class="memItemLeft">QRect&#160;</td><td class="memItemRight"><a class="el" href="#a6171d09a9393db3ca1783d272da10239">artRectCache</a></td></tr>
+<tr class="memdesc:a6171d09a9393db3ca1783d272da10239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last drawn artwork rect, in widget coordinates; empty until the first paint.  <br /></td></tr>
 <tr class="memitem:a15f58dd7c60f8ef8747917e9f1d939a1" id="r_a15f58dd7c60f8ef8747917e9f1d939a1"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a15f58dd7c60f8ef8747917e9f1d939a1">hoverToZoomEnabled</a></td></tr>
 <tr class="memitem:a6eb6547b9771b8f6927d4b4821337ed7" id="r_a6eb6547b9771b8f6927d4b4821337ed7"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a6eb6547b9771b8f6927d4b4821337ed7">raiseOnEnter</a></td></tr>
 <tr class="memitem:a64ee1b338dbbd7e41ed1c1ed31ad29f6" id="r_a64ee1b338dbbd7e41ed1c1ed31ad29f6"><td class="memItemLeft"><a class="el" href="../../d1/d0c/classCardInfoPictureEnlargedWidget.html">CardInfoPictureEnlargedWidget</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a64ee1b338dbbd7e41ed1c1ed31ad29f6">enlargedPixmapWidget</a> = nullptr</td></tr>
@@ -275,6 +281,77 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ad0ce91745a1991cf7777ec4587848dc8" name="ad0ce91745a1991cf7777ec4587848dc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0ce91745a1991cf7777ec4587848dc8">&#9670;&#160;</a></span>artRect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRect CardInfoPictureWidget::artRect </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rect of the drawn artwork inside this widget. </p>
+<p>The pixmap is scaled with KeepAspectRatio and centred, and sideways-layout cards may be rotated, so this is usually smaller than rect(). Callers that overlay the picture (rather than the widget) must anchor on this. Falls back to rect() until the first paint.</p>
+<p>Mirrors the target rect <a class="el" href="#ac8367e82f7c0d4739e79803f7637051b" title="Custom paint event that draws the card image with rounded corners.">paintEvent()</a> computes: the pixmap scaled with KeepAspectRatio and centred, after the optional sideways-layout rotation. Falls back to rect() until the first paint, which is the right answer for the usual portrait card. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfoPictureWidget_ad0ce91745a1991cf7777ec4587848dc8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a0a5a15a3bd27ea42ce4a617e3e07c3a7" name="a0a5a15a3bd27ea42ce4a617e3e07c3a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a5a15a3bd27ea42ce4a617e3e07c3a7">&#9670;&#160;</a></span>artRectChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CardInfoPictureWidget::artRectChanged </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted when the drawn artwork rect changes (size, scale factor, rotation, card). </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfoPictureWidget_a0a5a15a3bd27ea42ce4a617e3e07c3a7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfoPictureWidget_a0a5a15a3bd27ea42ce4a617e3e07c3a7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a24918126c99c2a3ce29a1a3280573c53" name="a24918126c99c2a3ce29a1a3280573c53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a24918126c99c2a3ce29a1a3280573c53">&#9670;&#160;</a></span>cardChanged</h2>
 
@@ -331,11 +408,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfoPictureWidget_a00e93de1ef3309c76bca53be72155721_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1028,6 +1100,11 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfoPictureWidget_a99657d182b26033634467bf922f9527c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -1214,7 +1291,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfoPictureWidget_aade095f602086f04c24e5ee469af2003_icgraph.svg" width="456" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dd2/classCardInfoPictureWidget_aade095f602086f04c24e5ee469af2003_icgraph.svg" width="456" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1272,6 +1349,30 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6171d09a9393db3ca1783d272da10239" name="a6171d09a9393db3ca1783d272da10239"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6171d09a9393db3ca1783d272da10239">&#9670;&#160;</a></span>artRectCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QRect CardInfoPictureWidget::artRectCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Last drawn artwork rect, in widget coordinates; empty until the first paint. </p>
 
 </div>
 </div>

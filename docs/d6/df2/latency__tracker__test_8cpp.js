@@ -10,5 +10,6 @@ var latency__tracker__test_8cpp =
     [ "TEST", "d6/df2/latency__tracker__test_8cpp.html#aae6976c927d2a8d3250b69784a373426", null ],
     [ "TEST", "d6/df2/latency__tracker__test_8cpp.html#a82c51eb613281344e39f9ef083d511ff", null ],
     [ "TEST", "d6/df2/latency__tracker__test_8cpp.html#aae6aa374dfe28a2c0ba1d7dc41c00468", null ],
-    [ "TEST", "d6/df2/latency__tracker__test_8cpp.html#a4162dd4375c6c14c8bb82b9f7d6ec19e", null ]
+    [ "TEST", "d6/df2/latency__tracker__test_8cpp.html#a4162dd4375c6c14c8bb82b9f7d6ec19e", null ],
+    [ "rng", "d6/df2/latency__tracker__test_8cpp.html#ae06734e5c9e469e3675423ec86f124ef", null ]
 ];

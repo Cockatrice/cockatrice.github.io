@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -182,6 +182,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a12bea7540977c28f51a7f92dfae77fa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mapping of main card types to their occurrence counts.  <br /></td></tr>
 <tr class="memitem:ab8dbca47379dace9fd6797f0019db360" id="r_ab8dbca47379dace9fd6797f0019db360"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab8dbca47379dace9fd6797f0019db360">getAllSubCardTypesWithCount</a> () const</td></tr>
 <tr class="memdesc:ab8dbca47379dace9fd6797f0019db360"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mapping of card subtypes to their occurrence counts.  <br /></td></tr>
+<tr class="memitem:a93e6070f2c1b28979a2ca7274d7fb21b" id="r_a93e6070f2c1b28979a2ca7274d7fb21b"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a93e6070f2c1b28979a2ca7274d7fb21b">getAllTagsWithCount</a> () const</td></tr>
+<tr class="memdesc:a93e6070f2c1b28979a2ca7274d7fb21b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a mapping of Scryfall Tagger tag slugs to their occurrence counts.  <br /></td></tr>
 <tr class="memitem:ae51f5f1e216309b2bc5215f35efc9c08" id="r_ae51f5f1e216309b2bc5215f35efc9c08"><td class="memItemLeft"><a class="el" href="../../df/df3/card__info_8h.html#a411c105e9a86135bec85413e40d7a243">FormatRulesPtr</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae51f5f1e216309b2bc5215f35efc9c08">getFormat</a> (const QString &amp;formatName) const</td></tr>
 <tr class="memitem:a2722920cbb9e3062557755f2baeb81de" id="r_a2722920cbb9e3062557755f2baeb81de"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a2722920cbb9e3062557755f2baeb81de">getAllFormatsWithCount</a> () const</td></tr>
 </table><table class="memberdecls">
@@ -198,6 +200,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a49967b9fc32962e2a943fd14cfb7263e" id="r_a49967b9fc32962e2a943fd14cfb7263e"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a49967b9fc32962e2a943fd14cfb7263e">mainCardTypeCountsCache</a></td></tr>
 <tr class="memitem:ae420e500c02a65f57c9ecbebca1ec416" id="r_ae420e500c02a65f57c9ecbebca1ec416"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ae420e500c02a65f57c9ecbebca1ec416">subCardTypeCountsCache</a></td></tr>
 <tr class="memitem:aaa88be6840c7949216e2ff1bca07b0d4" id="r_aaa88be6840c7949216e2ff1bca07b0d4"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aaa88be6840c7949216e2ff1bca07b0d4">formatsCountCache</a></td></tr>
+<tr class="memitem:a444f25763f190a1ec034e7dd09f8859c" id="r_a444f25763f190a1ec034e7dd09f8859c"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, int &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a444f25763f190a1ec034e7dd09f8859c">tagCountsCache</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides lookup and convenience functions for querying cards and their printings. </p>
@@ -433,6 +436,45 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_ab8dbca47379dace9fd6797f0019db360_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a93e6070f2c1b28979a2ca7274d7fb21b" name="a93e6070f2c1b28979a2ca7274d7fb21b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93e6070f2c1b28979a2ca7274d7fb21b">&#9670;&#160;</a></span>getAllTagsWithCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, int &gt; CardDatabaseQuerier::getAllTagsWithCount </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a mapping of Scryfall Tagger tag slugs to their occurrence counts. </p>
+<p>Tags are stored space-separated in the <span class="tt">tags</span> card property, so a card tagged "ramp" and "removal" contributes one to each slug's count.</p>
+<dl class="section return"><dt>Returns</dt><dd>Map of tag slug to count. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_a93e6070f2c1b28979a2ca7274d7fb21b_cgraph.svg" width="307" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/dbe/classCardDatabaseQuerier_a93e6070f2c1b28979a2ca7274d7fb21b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1373,6 +1415,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt;QString, int&gt; CardDatabaseQuerier::subCardTypeCountsCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel mutable">mutable</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a444f25763f190a1ec034e7dd09f8859c" name="a444f25763f190a1ec034e7dd09f8859c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444f25763f190a1ec034e7dd09f8859c">&#9670;&#160;</a></span>tagCountsCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt;QString, int&gt; CardDatabaseQuerier::tagCountsCache</td>
         </tr>
       </table>
   </td>

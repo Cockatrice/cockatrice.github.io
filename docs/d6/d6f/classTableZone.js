@@ -12,6 +12,7 @@ var classTableZone =
     [ "getWidth", "d6/d6f/classTableZone.html#aa44001bf63f40eb0493791372275bd1a", null ],
     [ "handleDropEvent", "d6/d6f/classTableZone.html#ac17a53c5b6e259da5b0e85c803114be4", null ],
     [ "handleDropEventByGrid", "d6/d6f/classTableZone.html#a3e9c21b3c31cb08b0bee680785117be8", null ],
+    [ "hoveredCardHole", "d6/d6f/classTableZone.html#a063f4ef2b601a0eabf23e621339f5b77", null ],
     [ "isInverted", "d6/d6f/classTableZone.html#af3c744bcfd8d8afca5dc1083f7878b3a", null ],
     [ "mapFromGrid", "d6/d6f/classTableZone.html#ace0445dcfbb677ff3371e87899e23efd", null ],
     [ "mapToGrid", "d6/d6f/classTableZone.html#aed922258172d122e66d5d033d567c783", null ],

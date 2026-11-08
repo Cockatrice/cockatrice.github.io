@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -168,6 +168,8 @@ Public Types</h2></td></tr>
 , <a class="el" href="#a7b8ff20e6438163dead68ec4b4116f12acd9dc16baab2c45ef9c98372c255c099">REVERSE_TURN</a> = 1034
 , <a class="el" href="#a7b8ff20e6438163dead68ec4b4116f12ab56442672f8be920b1770f379e05297c">SET_PLAYMAT</a> = 1035
 , <a class="el" href="#a7b8ff20e6438163dead68ec4b4116f12a262c12c230390274f0399cc376752613">SET_PLAYER_ORDER</a> = 1206
+, <br />
+&#160;&#160;<a class="el" href="#a7b8ff20e6438163dead68ec4b4116f12ab342c4dabbc86330c072f7e7b0a72b5b">REVEAL_RANDOM_CARDS</a> = 1036
 <br />
  }</td></tr>
 </table><table class="memberdecls">
@@ -262,6 +264,8 @@ Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a7b8ff20e6438163dead68ec4b4116f12ab56442672f8be920b1770f379e05297c" name="a7b8ff20e6438163dead68ec4b4116f12ab56442672f8be920b1770f379e05297c"></a>SET_PLAYMAT&#160;</td><td class="fielddoc"><p>/ Set the player's playmat independently of the deck. / <a class="el" href="../../db/d00/classServer.html">Server</a>: <a class="el" href="../../d8/d21/classServer__Player.html#a696f825c90e2cea0c7ded96140f71361">Server_Player::cmdSetPlaymat</a> / Client: reflected via player properties changed event </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a7b8ff20e6438163dead68ec4b4116f12a262c12c230390274f0399cc376752613" name="a7b8ff20e6438163dead68ec4b4116f12a262c12c230390274f0399cc376752613"></a>SET_PLAYER_ORDER&#160;</td><td class="fielddoc"><p>/ Set the seating (turn) order of the players. / <a class="el" href="../../db/d00/classServer.html">Server</a>: <a class="el" href="../../d0/d00/classServer__AbstractParticipant.html#a5720360f1d4daaa8e5f00fb239460bf3">Server_AbstractParticipant::cmdSetPlayerOrder</a> / Client: reflected via <a class="el" href="../../d8/d87/structEvent__PlayerOrderChanged.html">Event_PlayerOrderChanged</a> </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7b8ff20e6438163dead68ec4b4116f12ab342c4dabbc86330c072f7e7b0a72b5b" name="a7b8ff20e6438163dead68ec4b4116f12ab342c4dabbc86330c072f7e7b0a72b5b"></a>REVEAL_RANDOM_CARDS&#160;</td><td class="fielddoc"><p>/ Reveal a distinct random sample without exposing identities to other recipients. / <a class="el" href="../../db/d00/classServer.html">Server</a>: <a class="el" href="../../da/d99/classServer__AbstractPlayer.html#a33de413937d09783edc3e413827a0a47">Server_AbstractPlayer::cmdRevealCards</a> / Client: <a class="el" href="../../de/d38/classPlayerEventHandler.html#ab5b3b74f75e355f9fa63cfdeeef84ea6" title="Reveal cards from a zone.">PlayerEventHandler::eventRevealCards</a> </p>
 </td></tr>
 </table>
 

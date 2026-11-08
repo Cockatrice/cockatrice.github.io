@@ -33,5 +33,5 @@ var searchData=
   ['providerids_30',['PixmapCacheKeys and ProviderIDs',['../d9/d1c/loading_card_pictures.html#pixmapcachekeys-and-providerids',1,'']]],
   ['publishing_20a_20new_20release_31',['Publishing A New Release',['../d1/d5a/contributing.html#publishing-a-new-release',1,'']]],
   ['pull_20requests_32',['Reviewing Pull Requests',['../d1/d5a/contributing.html#reviewing-pull-requests',1,'']]],
-  ['purpose_33',['Purpose',['../df/d26/developer_reference_protocol_overview.html#purpose',1,'Purpose'],['../dc/dee/visual_database_display.html#purpose-1',1,'Purpose'],['../d7/d64/editing_decks_printings.html#purpose-2',1,'Purpose']]]
+  ['purpose_33',['Purpose',['../df/d26/developer_reference_protocol_overview.html#purpose',1,'Purpose'],['../d7/d64/editing_decks_printings.html#purpose-1',1,'Purpose'],['../dc/dee/visual_database_display.html#purpose-2',1,'Purpose']]]
 ];

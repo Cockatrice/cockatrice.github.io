@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -121,35 +121,1022 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d7/d20/theme__
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d2/da7/theme__icon_8h_source.html">interface/theme_icon.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d5d/theme__icon__badge_8h_source.html">interface/theme_icon_badge.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d08/theme__icon__fill_8h_source.html">interface/theme_icon_fill.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/d81/theme__icon__ink_8h_source.html">interface/theme_icon_ink.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/db5/theme__icon__sticker_8h_source.html">interface/theme_icon_sticker.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d65/theme__manager_8h_source.html">interface/theme_manager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d78/svg__recolor_8h_source.html">libcockatrice/utility/svg_recolor.h</a>&quot;</code><br />
 <code>#include &lt;QApplication&gt;</code><br />
+<code>#include &lt;QByteArray&gt;</code><br />
 <code>#include &lt;QColor&gt;</code><br />
+<code>#include &lt;QCoreApplication&gt;</code><br />
 <code>#include &lt;QDir&gt;</code><br />
 <code>#include &lt;QFile&gt;</code><br />
+<code>#include &lt;QFont&gt;</code><br />
 <code>#include &lt;QGuiApplication&gt;</code><br />
 <code>#include &lt;QImage&gt;</code><br />
+<code>#include &lt;QPainter&gt;</code><br />
 <code>#include &lt;QPalette&gt;</code><br />
 <code>#include &lt;QPixmap&gt;</code><br />
+<code>#include &lt;QPointF&gt;</code><br />
 <code>#include &lt;QSize&gt;</code><br />
 <code>#include &lt;QStringList&gt;</code><br />
 <code>#include &lt;QStringLiteral&gt;</code><br />
+<code>#include &lt;QSvgRenderer&gt;</code><br />
 <code>#include &lt;QTemporaryDir&gt;</code><br />
 <code>#include &lt;gtest/gtest.h&gt;</code><br />
+<code>#include &lt;iterator&gt;</code><br />
+<code>#include &lt;tuple&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for theme_icon_render_test.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d73/theme__icon__render__test_8cpp__incl.svg" width="100%" height="512"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d73/theme__icon__render__test_8cpp__incl.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:ScopedPluginPathHiding" id="r_ScopedPluginPathHiding"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="../../d9/d08/classScopedPluginPathHiding.html">ScopedPluginPathHiding</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hides Qt's plugin directories while it lives, then restores them.  <a href="../../d9/d08/classScopedPluginPathHiding.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:acec72ccfd4b91ff957f9656343271e03" id="r_acec72ccfd4b91ff957f9656343271e03"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#acec72ccfd4b91ff957f9656343271e03">TEST_F</a> (ThemeIconRenderTest, SentinelUsesPaletteColor)</td></tr>
 <tr class="memitem:abba465a0e308cf25d0b542ff91f244c9" id="r_abba465a0e308cf25d0b542ff91f244c9"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#abba465a0e308cf25d0b542ff91f244c9">TEST_F</a> (ThemeIconRenderTest, NonSentinelSvgReturnsNull)</td></tr>
 <tr class="memitem:a96fb8cac2409a17ce6ce628dede267fe" id="r_a96fb8cac2409a17ce6ce628dede267fe"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a96fb8cac2409a17ce6ce628dede267fe">TEST_F</a> (ThemeIconRenderTest, LowercaseSentinelIsResolved)</td></tr>
+<tr class="memitem:aa66e03885358737ea11a401922fe7475" id="r_aa66e03885358737ea11a401922fe7475"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa66e03885358737ea11a401922fe7475">TEST_F</a> (ThemeIconRenderTest, AppColorTintUsesSemanticColorNotTheAccent)</td></tr>
+<tr class="memdesc:aa66e03885358737ea11a401922fe7475"><td class="mdescLeft">&#160;</td><td class="mdescRight">A semantic tint must paint its theme color, not the selection accent.  <br /></td></tr>
+<tr class="memitem:a03b6367360782a63f52f96f216a2fa9b" id="r_a03b6367360782a63f52f96f216a2fa9b"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a03b6367360782a63f52f96f216a2fa9b">TEST_F</a> (ThemeIconRenderTest, DisabledGlyphRecedesPastTheQuietLevel)</td></tr>
+<tr class="memdesc:a03b6367360782a63f52f96f216a2fa9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A disabled glyph recedes past the quiet level, whatever the family.  <br /></td></tr>
+<tr class="memitem:ac52c6b9ba6c26e6de80912108a662743" id="r_ac52c6b9ba6c26e6de80912108a662743"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ac52c6b9ba6c26e6de80912108a662743">TEST_F</a> (ThemeIconRenderTest, SelectedPaletteTintUsesHighlightedText)</td></tr>
+<tr class="memdesc:ac52c6b9ba6c26e6de80912108a662743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Palette tints keep the WindowText -&gt; HighlightedText selected swap.  <br /></td></tr>
+<tr class="memitem:aa9901977bcbe0aa53fc5dca0baeda51e" id="r_aa9901977bcbe0aa53fc5dca0baeda51e"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa9901977bcbe0aa53fc5dca0baeda51e">TEST_F</a> (ThemeIconRenderTest, SelectedAppColorFallsBackWhenItMatchesTheHighlight)</td></tr>
+<tr class="memdesc:aa9901977bcbe0aa53fc5dca0baeda51e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A selected row falls back to HighlightedText when the tint vanishes.  <br /></td></tr>
+<tr class="memitem:af02d678941bfbe2988823ac10e2a9ef8" id="r_af02d678941bfbe2988823ac10e2a9ef8"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#af02d678941bfbe2988823ac10e2a9ef8">TEST_F</a> (ThemeIconRenderTest, SelectedAppColorKeepsAContrastingTint)</td></tr>
+<tr class="memdesc:af02d678941bfbe2988823ac10e2a9ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">A selected row keeps a semantic tint that still contrasts enough.  <br /></td></tr>
+<tr class="memitem:adf10d52c05ce5b312bb739db51a534f3" id="r_adf10d52c05ce5b312bb739db51a534f3"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#adf10d52c05ce5b312bb739db51a534f3">TEST_F</a> (ThemeIconRenderTest, LineTintRendersTheAuthoredRoleVerbatim)</td></tr>
+<tr class="memdesc:adf10d52c05ce5b312bb739db51a534f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">A line glyph renders the authored role verbatim.  <br /></td></tr>
+<tr class="memitem:a68ab344784b72b9016364d59534489e9" id="r_a68ab344784b72b9016364d59534489e9"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a68ab344784b72b9016364d59534489e9">TEST_F</a> (ThemeIconRenderTest, BadgeHasDiscGradientAndRing)</td></tr>
+<tr class="memdesc:a68ab344784b72b9016364d59534489e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">A badge is a disc with a gradient fill, a dark ring and a contrast glyph.  <br /></td></tr>
+<tr class="memitem:a78153ca6edea119a05de00b490eefb15" id="r_a78153ca6edea119a05de00b490eefb15"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a78153ca6edea119a05de00b490eefb15">TEST_F</a> (ThemeIconRenderTest, BadgeDarkSchemeKeepsTheAuthoredTone)</td></tr>
+<tr class="memdesc:a78153ca6edea119a05de00b490eefb15"><td class="mdescLeft">&#160;</td><td class="mdescRight">The dark-scheme disc keeps the authored tone and darkens it.  <br /></td></tr>
+<tr class="memitem:a6923b8b32ea9e36b2b93fbf8839a7356" id="r_a6923b8b32ea9e36b2b93fbf8839a7356"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a6923b8b32ea9e36b2b93fbf8839a7356">TEST_F</a> (ThemeIconRenderTest, BadgeInkFollowsTheScheme)</td></tr>
+<tr class="memdesc:a6923b8b32ea9e36b2b93fbf8839a7356"><td class="mdescLeft">&#160;</td><td class="mdescRight">The badge ink follows the scheme.  <br /></td></tr>
+<tr class="memitem:aec251b4293f18a263434b739e2266fa7" id="r_aec251b4293f18a263434b739e2266fa7"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aec251b4293f18a263434b739e2266fa7">TEST_F</a> (ThemeIconRenderTest, BadgeHonoursDevicePixelRatio)</td></tr>
+<tr class="memdesc:aec251b4293f18a263434b739e2266fa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The badge is rendered at the device-pixel size, not upscaled later.  <br /></td></tr>
+<tr class="memitem:a54ee9887e5305ed680bfffb703eca495" id="r_a54ee9887e5305ed680bfffb703eca495"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a54ee9887e5305ed680bfffb703eca495">TEST_F</a> (ThemeIconRenderTest, BadgeStaysLegibleAtPlayerListSize)</td></tr>
+<tr class="memdesc:a54ee9887e5305ed680bfffb703eca495"><td class="mdescLeft">&#160;</td><td class="mdescRight">The player list is the one place the badge has to work, at 15px.  <br /></td></tr>
+<tr class="memitem:ab8a97b5530673a4f981b0c1338f686a3" id="r_ab8a97b5530673a4f981b0c1338f686a3"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ab8a97b5530673a4f981b0c1338f686a3">TEST_F</a> (ThemeIconRenderTest, SentinelSvgBadgeMatchesTheEngine)</td></tr>
+<tr class="memdesc:ab8a97b5530673a4f981b0c1338f686a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The pixmap API's badge path agrees with the engine's.  <br /></td></tr>
+<tr class="memitem:a6abedb195e3d7040856beefd60814dcb" id="r_a6abedb195e3d7040856beefd60814dcb"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a6abedb195e3d7040856beefd60814dcb">TEST_F</a> (ThemeIconRenderTest, AuthoredArtDoesNotNeedTheSvgImagePlugin)</td></tr>
+<tr class="memdesc:a6abedb195e3d7040856beefd60814dcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Authored SVG art must not depend on Qt's SVG image-format plugin.  <br /></td></tr>
+<tr class="memitem:a4c7a658eed1417d535fd2488551e6944" id="r_a4c7a658eed1417d535fd2488551e6944"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a4c7a658eed1417d535fd2488551e6944">TEST_F</a> (ThemeIconRenderTest, BadgeOnAuthoredArtUsesTheAssetPath)</td></tr>
+<tr class="memdesc:a4c7a658eed1417d535fd2488551e6944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Badge never paints authored art: the asset keeps its own colors.  <br /></td></tr>
+<tr class="memitem:a3029a9119a64e6088830aaa0e170cd21" id="r_a3029a9119a64e6088830aaa0e170cd21"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a3029a9119a64e6088830aaa0e170cd21">TEST_F</a> (ThemeIconRenderTest, DisabledBadgeFallsBackToLineGlyph)</td></tr>
+<tr class="memdesc:a3029a9119a64e6088830aaa0e170cd21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disabled keeps the shape language but drops back to the line glyph.  <br /></td></tr>
+<tr class="memitem:a5c14b735b7d7511ffa9c7d7b8df44695" id="r_a5c14b735b7d7511ffa9c7d7b8df44695"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a5c14b735b7d7511ffa9c7d7b8df44695">TEST_F</a> (ThemeIconRenderTest, StickerPaintsToneFillWithDarkOutline)</td></tr>
+<tr class="memdesc:a5c14b735b7d7511ffa9c7d7b8df44695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sticker fills the glyph with the tone and rims it with a dark outline.  <br /></td></tr>
+<tr class="memitem:aa7f9a1ad32aa09cc3fab2c386075fc26" id="r_aa7f9a1ad32aa09cc3fab2c386075fc26"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa7f9a1ad32aa09cc3fab2c386075fc26">TEST_F</a> (ThemeIconRenderTest, StickerDarkSchemeFillKeepsTheAuthoredTone)</td></tr>
+<tr class="memdesc:aa7f9a1ad32aa09cc3fab2c386075fc26"><td class="mdescLeft">&#160;</td><td class="mdescRight">The dark-scheme fill keeps the authored tone and darkens it.  <br /></td></tr>
+<tr class="memitem:a22359ff8018247a5dd323618e34042db" id="r_a22359ff8018247a5dd323618e34042db"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a22359ff8018247a5dd323618e34042db">TEST_F</a> (ThemeIconRenderTest, StickerHonoursDevicePixelRatio)</td></tr>
+<tr class="memdesc:a22359ff8018247a5dd323618e34042db"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sticker is rendered at the device-pixel size, not upscaled later.  <br /></td></tr>
+<tr class="memitem:a7fcd7c45afd9e9644cf57182e7ee88ca" id="r_a7fcd7c45afd9e9644cf57182e7ee88ca"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a7fcd7c45afd9e9644cf57182e7ee88ca">TEST_F</a> (ThemeIconRenderTest, StickerStaysLegibleAtToolbarSize)</td></tr>
+<tr class="memdesc:a7fcd7c45afd9e9644cf57182e7ee88ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">A sticker has to survive the 16px toolbar slot.  <br /></td></tr>
+<tr class="memitem:aa5886ce57b013934c907a273d231727d" id="r_aa5886ce57b013934c907a273d231727d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa5886ce57b013934c907a273d231727d">TEST_F</a> (ThemeIconRenderTest, SentinelSvgStickerMatchesTheEngine)</td></tr>
+<tr class="memdesc:aa5886ce57b013934c907a273d231727d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The pixmap API's sticker path agrees with the engine's.  <br /></td></tr>
+<tr class="memitem:acf6c8e248a534a3f58a16b5b67882423" id="r_acf6c8e248a534a3f58a16b5b67882423"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#acf6c8e248a534a3f58a16b5b67882423">TEST_F</a> (ThemeIconRenderTest, StickerOnAuthoredArtUsesTheAssetPath)</td></tr>
+<tr class="memdesc:acf6c8e248a534a3f58a16b5b67882423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sticker never paints authored art: the asset keeps its own colors.  <br /></td></tr>
+<tr class="memitem:a2f4ca1748212a001c8136142a892afdb" id="r_a2f4ca1748212a001c8136142a892afdb"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a2f4ca1748212a001c8136142a892afdb">TEST_F</a> (ThemeIconRenderTest, DisabledStickerFallsBackToLineGlyph)</td></tr>
+<tr class="memdesc:a2f4ca1748212a001c8136142a892afdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disabled keeps the shape language but drops back to the line glyph.  <br /></td></tr>
+<tr class="memitem:a2605a4118a023471068793c4b04f7bf4" id="r_a2605a4118a023471068793c4b04f7bf4"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a2605a4118a023471068793c4b04f7bf4">TEST_F</a> (ThemeIconRenderTest, LineStyleStillRendersGlyphAlone)</td></tr>
+<tr class="memdesc:a2605a4118a023471068793c4b04f7bf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Line stays the default: no disc, no ring, just the recolored glyph.  <br /></td></tr>
+<tr class="memitem:a86d3e2b6f7646abd6868e21eab0e51ff" id="r_a86d3e2b6f7646abd6868e21eab0e51ff"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a86d3e2b6f7646abd6868e21eab0e51ff">TEST</a> (IconTintPreview, WritesPngsWhenRequested)</td></tr>
+<tr class="memdesc:a86d3e2b6f7646abd6868e21eab0e51ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the semantic-tint preview sheet when asked; skipped otherwise.  <br /></td></tr>
+<tr class="memitem:a966e86e8c23d9f26a068c3327d30aa94" id="r_a966e86e8c23d9f26a068c3327d30aa94"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a966e86e8c23d9f26a068c3327d30aa94">TEST</a> (IconStickerPreview, WritesPngsWhenRequested)</td></tr>
+<tr class="memdesc:a966e86e8c23d9f26a068c3327d30aa94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the sticker preview sheet when asked; skipped otherwise.  <br /></td></tr>
+<tr class="memitem:a688a7d9ff0ae8db8889adb601efe5714" id="r_a688a7d9ff0ae8db8889adb601efe5714"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a688a7d9ff0ae8db8889adb601efe5714">TEST</a> (IconBadgePreview, WritesPngsWhenRequested)</td></tr>
+<tr class="memdesc:a688a7d9ff0ae8db8889adb601efe5714"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the PR preview sheets when asked; skipped otherwise.  <br /></td></tr>
+<tr class="memitem:aa0b859d156913bda9678a24712a4d80f" id="r_aa0b859d156913bda9678a24712a4d80f"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa0b859d156913bda9678a24712a4d80f">TEST</a> (IconInk, GivesNeutralGlyphsAccentChroma)</td></tr>
+<tr class="memitem:a65561125a4dd271b1c7b6d3ec3cd95f2" id="r_a65561125a4dd271b1c7b6d3ec3cd95f2"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a65561125a4dd271b1c7b6d3ec3cd95f2">TEST</a> (IconInk, ContrastFloorPicksThePoleItCanReach)</td></tr>
+<tr class="memdesc:a65561125a4dd271b1c7b6d3ec3cd95f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">A medium-light surface needs the pole that can actually reach the floor.  <br /></td></tr>
+<tr class="memitem:a97e374764f101a5d92310fa5078d6c55" id="r_a97e374764f101a5d92310fa5078d6c55"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a97e374764f101a5d92310fa5078d6c55">TEST</a> (IconInk, PrimaryRaisesAChromaticToneOnALightSurface)</td></tr>
+<tr class="memdesc:a97e374764f101a5d92310fa5078d6c55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primary stays louder than secondary on a light surface.  <br /></td></tr>
+<tr class="memitem:a816ab24f490fa5e0a87a8894dec9fd1b" id="r_a816ab24f490fa5e0a87a8894dec9fd1b"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a816ab24f490fa5e0a87a8894dec9fd1b">TEST</a> (IconInk, SemanticAccentDoesNotTintNeutralChrome)</td></tr>
+<tr class="memdesc:a816ab24f490fa5e0a87a8894dec9fd1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A green or red accent must not tint neutral chrome.  <br /></td></tr>
+<tr class="memitem:ace56054d9d3c904fe50f870be7f5b30d" id="r_ace56054d9d3c904fe50f870be7f5b30d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ace56054d9d3c904fe50f870be7f5b30d">TEST</a> (IconInk, MeetsTheLabelFloorOnEveryShippedPalette)</td></tr>
+<tr class="memitem:acbdfb1ad428c731c72f423977ff48f26" id="r_acbdfb1ad428c731c72f423977ff48f26"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#acbdfb1ad428c731c72f423977ff48f26">TEST</a> (IconInk, KeepsADeliberateHueWhenTheTextColorIsWeak)</td></tr>
+<tr class="memitem:acc58db5fdd73804471bcc20ea6618d79" id="r_acc58db5fdd73804471bcc20ea6618d79"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#acc58db5fdd73804471bcc20ea6618d79">TEST</a> (IconInkPreview, WritesPngsWhenRequested)</td></tr>
+<tr class="memdesc:acc58db5fdd73804471bcc20ea6618d79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the glyph-ink comparison sheet when asked; skipped otherwise.  <br /></td></tr>
+<tr class="memitem:af2717d49d14db6b107ba0af48d2406f8" id="r_af2717d49d14db6b107ba0af48d2406f8"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#af2717d49d14db6b107ba0af48d2406f8">TEST_F</a> (ThemeIconRenderTest, EmphasisSelectsTheAuthoredVariant)</td></tr>
+<tr class="memdesc:af2717d49d14db6b107ba0af48d2406f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emphasis selects the authored variant of a family, not a computed color.  <br /></td></tr>
+<tr class="memitem:af3a55d80280fb32f85ea33266f8ac91f" id="r_af3a55d80280fb32f85ea33266f8ac91f"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#af3a55d80280fb32f85ea33266f8ac91f">TEST_F</a> (ThemeIconRenderTest, PrimaryIsTheMostChromaticLevelOnBothSchemes)</td></tr>
+<tr class="memdesc:af3a55d80280fb32f85ea33266f8ac91f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The authored primary level is the most chromatic member of its family.  <br /></td></tr>
+<tr class="memitem:ac6191564b08c56d3ba1c220db8ba7a85" id="r_ac6191564b08c56d3ba1c220db8ba7a85"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ac6191564b08c56d3ba1c220db8ba7a85">TEST_F</a> (ThemeIconRenderTest, QuietIsTheLeastChromaticLevel)</td></tr>
+<tr class="memdesc:ac6191564b08c56d3ba1c220db8ba7a85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quiet is the least chromatic level; it shares the legibility floor.  <br /></td></tr>
+<tr class="memitem:a1208bc94aaace08fef2855032a82c01f" id="r_a1208bc94aaace08fef2855032a82c01f"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1208bc94aaace08fef2855032a82c01f">TEST_F</a> (ThemeIconRenderTest, EmphasisKeepsASemanticHue)</td></tr>
+<tr class="memdesc:a1208bc94aaace08fef2855032a82c01f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Every authored emphasis level keeps a semantic family's hue.  <br /></td></tr>
+<tr class="memitem:a7c3c58757e2663cc8f0e33fd49d01f69" id="r_a7c3c58757e2663cc8f0e33fd49d01f69"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a7c3c58757e2663cc8f0e33fd49d01f69">TEST</a> (IconInk, ShippedPalettesAuthorTheEmphasisLadder)</td></tr>
+<tr class="memdesc:a7c3c58757e2663cc8f0e33fd49d01f69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Every palette-shipping theme authors the whole emphasis ladder.  <br /></td></tr>
+<tr class="memitem:a5927ac41f09cf20d8a82e550e2e1160c" id="r_a5927ac41f09cf20d8a82e550e2e1160c"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a5927ac41f09cf20d8a82e550e2e1160c">TEST</a> (IconInk, NeutralFamilyKeepsItsDistanceFromTheSemanticFamilies)</td></tr>
+<tr class="memdesc:a5927ac41f09cf20d8a82e550e2e1160c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Neutral chrome keeps a hue distance from the semantic families.  <br /></td></tr>
+<tr class="memitem:a9c23702f48f36e288de971e8b3af9f42" id="r_a9c23702f48f36e288de971e8b3af9f42"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a9c23702f48f36e288de971e8b3af9f42">TEST</a> (IconInk, DisabledStaysBelowQuietOnEveryShippedTheme)</td></tr>
+<tr class="memdesc:a9c23702f48f36e288de971e8b3af9f42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Every shipped theme keeps the disabled level below the quiet level.  <br /></td></tr>
+<tr class="memitem:a1bcbb4a2cc7a9b989d07238527508672" id="r_a1bcbb4a2cc7a9b989d07238527508672"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1bcbb4a2cc7a9b989d07238527508672">TEST</a> (IconInk, DefaultSemanticFamilyMeetsTheLadderOnPlatformSurfaces)</td></tr>
+<tr class="memdesc:a1bcbb4a2cc7a9b989d07238527508672"><td class="mdescLeft">&#160;</td><td class="mdescRight">The System fallback family keeps the ladder on a platform palette.  <br /></td></tr>
+<tr class="memitem:a8352e206419f6acca81537c7d8d663f1" id="r_a8352e206419f6acca81537c7d8d663f1"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a8352e206419f6acca81537c7d8d663f1">TEST_F</a> (ThemeIconRenderTest, SelectedStillFallsBackToHighlightedText)</td></tr>
+<tr class="memdesc:a8352e206419f6acca81537c7d8d663f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Every emphasis keeps the selected-row swap to HighlightedText.  <br /></td></tr>
+<tr class="memitem:ad955968017a00a56a7305578bbad1982" id="r_ad955968017a00a56a7305578bbad1982"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad955968017a00a56a7305578bbad1982">TEST_F</a> (ThemeIconRenderTest, EmphasisPreviewWritesPngsWhenRequested)</td></tr>
+<tr class="memdesc:ad955968017a00a56a7305578bbad1982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the emphasis ladder sheets for every shipped palette theme.  <br /></td></tr>
+<tr class="memitem:ae9956e665bae475fd00c5d54b87e182a" id="r_ae9956e665bae475fd00c5d54b87e182a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ae9956e665bae475fd00c5d54b87e182a">TEST_F</a> (ThemeIconRenderTest, EmphasisTreatmentsPreviewWritesPngsWhenRequested)</td></tr>
+<tr class="memdesc:ae9956e665bae475fd00c5d54b87e182a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the authored emphasis sheets for every shipped palette theme.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a688a7d9ff0ae8db8889adb601efe5714" name="a688a7d9ff0ae8db8889adb601efe5714"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a688a7d9ff0ae8db8889adb601efe5714">&#9670;&#160;</a></span>TEST() <span class="overload">[1/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconBadgePreview</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">WritesPngsWhenRequested</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes the PR preview sheets when asked; skipped otherwise. </p>
+<p>Two panels per scheme: ready/not-ready as line and badge at the sizes the UI actually uses (15px in the player list, 16px in toolbars, 24 and 48 for inspection). It lives in the test binary so the colors come from the same place the engine uses. The add/remove/delete glyphs and their sticker treatment have their own sheet (IconStickerPreview). </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a688a7d9ff0ae8db8889adb601efe5714_cgraph.svg" width="598" height="340"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a65561125a4dd271b1c7b6d3ec3cd95f2" name="a65561125a4dd271b1c7b6d3ec3cd95f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65561125a4dd271b1c7b6d3ec3cd95f2">&#9670;&#160;</a></span>TEST() <span class="overload">[2/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconInk</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ContrastFloorPicksThePoleItCanReach</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A medium-light surface needs the pole that can actually reach the floor. </p>
+<p>#9a9a9a is lighter than mid-gray but still too light for white to reach a text ratio, so "light background means move toward black" is the wrong test. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a65561125a4dd271b1c7b6d3ec3cd95f2_cgraph.svg" width="100%" height="460"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a1bcbb4a2cc7a9b989d07238527508672" name="a1bcbb4a2cc7a9b989d07238527508672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bcbb4a2cc7a9b989d07238527508672">&#9670;&#160;</a></span>TEST() <span class="overload">[3/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconInk</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DefaultSemanticFamilyMeetsTheLadderOnPlatformSurfaces</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The System fallback family keeps the ladder on a platform palette. </p>
+<p>System authors no palette and follows the OS surfaces, so its families cannot be measured against its own window and button. These are the representative extremes of a platform palette, and the fixed values have to clear the same floor there that the five authored themes clear on their own surfaces. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a1bcbb4a2cc7a9b989d07238527508672_cgraph.svg" width="611" height="307"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9c23702f48f36e288de971e8b3af9f42" name="a9c23702f48f36e288de971e8b3af9f42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c23702f48f36e288de971e8b3af9f42">&#9670;&#160;</a></span>TEST() <span class="overload">[4/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconInk</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DisabledStaysBelowQuietOnEveryShippedTheme</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Every shipped theme keeps the disabled level below the quiet level. </p>
+<p>The palette's disabled text is a fixed gray, so this is the invariant the derived disabled ink exists to hold; a regression here makes an enabled quiet glyph look unavailable. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a9c23702f48f36e288de971e8b3af9f42_cgraph.svg" width="100%" height="489"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aa0b859d156913bda9678a24712a4d80f" name="aa0b859d156913bda9678a24712a4d80f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0b859d156913bda9678a24712a4d80f">&#9670;&#160;</a></span>TEST() <span class="overload">[5/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconInk</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GivesNeutralGlyphsAccentChroma</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_aa0b859d156913bda9678a24712a4d80f_cgraph.svg" width="100%" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="acbdfb1ad428c731c72f423977ff48f26" name="acbdfb1ad428c731c72f423977ff48f26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbdfb1ad428c731c72f423977ff48f26">&#9670;&#160;</a></span>TEST() <span class="overload">[6/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconInk</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">KeepsADeliberateHueWhenTheTextColorIsWeak</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_acbdfb1ad428c731c72f423977ff48f26_cgraph.svg" width="100%" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ace56054d9d3c904fe50f870be7f5b30d" name="ace56054d9d3c904fe50f870be7f5b30d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace56054d9d3c904fe50f870be7f5b30d">&#9670;&#160;</a></span>TEST() <span class="overload">[7/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconInk</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MeetsTheLabelFloorOnEveryShippedPalette</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_ace56054d9d3c904fe50f870be7f5b30d_cgraph.svg" width="100%" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a5927ac41f09cf20d8a82e550e2e1160c" name="a5927ac41f09cf20d8a82e550e2e1160c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5927ac41f09cf20d8a82e550e2e1160c">&#9670;&#160;</a></span>TEST() <span class="overload">[8/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconInk</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">NeutralFamilyKeepsItsDistanceFromTheSemanticFamilies</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Neutral chrome keeps a hue distance from the semantic families. </p>
+<p>Fusion's accent is green, so deriving neutral ink from it painted every menu and toolbar glyph the same color as the Positive family. The authored neutral family has to stay a hue a reader can tell apart from "add" and "remove". </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a5927ac41f09cf20d8a82e550e2e1160c_cgraph.svg" width="166" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a97e374764f101a5d92310fa5078d6c55" name="a97e374764f101a5d92310fa5078d6c55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97e374764f101a5d92310fa5078d6c55">&#9670;&#160;</a></span>TEST() <span class="overload">[9/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconInk</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PrimaryRaisesAChromaticToneOnALightSurface</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Primary stays louder than secondary on a light surface. </p>
+<p>A saturated blue or violet at full value is already dark enough to clear the label floor on a light surface. When solveValue() read the target as a minimum in both directions it rejected that tone, walked the whole saturation ladder and fell back to the unchanged secondary, so primary was never distinguishable. #5a3ee2 on #efeff4 is the shipped Plasma accent's shape. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a97e374764f101a5d92310fa5078d6c55_cgraph.svg" width="611" height="307"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a816ab24f490fa5e0a87a8894dec9fd1b" name="a816ab24f490fa5e0a87a8894dec9fd1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a816ab24f490fa5e0a87a8894dec9fd1b">&#9670;&#160;</a></span>TEST() <span class="overload">[10/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconInk</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SemanticAccentDoesNotTintNeutralChrome</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A green or red accent must not tint neutral chrome. </p>
+<p>Positive owns green and Negative owns red, so a theme whose accent sits in either band would otherwise paint "settings" the same color as "add". </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a816ab24f490fa5e0a87a8894dec9fd1b_cgraph.svg" width="100%" height="568"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a7c3c58757e2663cc8f0e33fd49d01f69" name="a7c3c58757e2663cc8f0e33fd49d01f69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c3c58757e2663cc8f0e33fd49d01f69">&#9670;&#160;</a></span>TEST() <span class="overload">[11/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconInk</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ShippedPalettesAuthorTheEmphasisLadder</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Every palette-shipping theme authors the whole emphasis ladder. </p>
+<p>The palette editor treats an unset role as "derive it", so a missing key is not a crash: it silently reintroduces the computed colors this change exists to remove. Treat a missing role as a test failure instead, and keep the same contrast contract the old computed levels had. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a7c3c58757e2663cc8f0e33fd49d01f69_cgraph.svg" width="630" height="418"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="acc58db5fdd73804471bcc20ea6618d79" name="acc58db5fdd73804471bcc20ea6618d79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc58db5fdd73804471bcc20ea6618d79">&#9670;&#160;</a></span>TEST() <span class="overload">[12/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconInkPreview</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">WritesPngsWhenRequested</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes the glyph-ink comparison sheet when asked; skipped otherwise. </p>
+<p>One row per accent share, so the trade-off between "still neutral chrome" and "clearly an icon" can be judged against the body text drawn beside the glyph. Lives in the test binary so the colors come from the same rule the engine uses. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_acc58db5fdd73804471bcc20ea6618d79_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a966e86e8c23d9f26a068c3327d30aa94" name="a966e86e8c23d9f26a068c3327d30aa94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a966e86e8c23d9f26a068c3327d30aa94">&#9670;&#160;</a></span>TEST() <span class="overload">[13/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconStickerPreview</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">WritesPngsWhenRequested</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes the sticker preview sheet when asked; skipped otherwise. </p>
+<p>The sheet shows each add/remove glyph as line and as sticker at the sizes the UI uses (15px in the player list and menus, 16px in toolbars, 24 and 48 for inspection), with the ready/not-ready badge for context. It lives in the test binary so the colors come from the same place the engine uses. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a966e86e8c23d9f26a068c3327d30aa94_cgraph.svg" width="598" height="535"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a86d3e2b6f7646abd6868e21eab0e51ff" name="a86d3e2b6f7646abd6868e21eab0e51ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86d3e2b6f7646abd6868e21eab0e51ff">&#9670;&#160;</a></span>TEST() <span class="overload">[14/14]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">IconTintPreview</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">WritesPngsWhenRequested</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes the semantic-tint preview sheet when asked; skipped otherwise. </p>
+<p>#7775 put the semantic tone back on line glyphs, before any filled treatment existed. The sheet renders the affected glyphs with the raw per-scheme <span class="tt"><a class="el" href="../../d0/d1a/namespaceAppColor.html">AppColor</a></span> value, which is what that PR paints, at the sizes the UI uses. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a86d3e2b6f7646abd6868e21eab0e51ff_cgraph.svg" width="292" height="215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa66e03885358737ea11a401922fe7475" name="aa66e03885358737ea11a401922fe7475"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa66e03885358737ea11a401922fe7475">&#9670;&#160;</a></span>TEST_F() <span class="overload">[1/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AppColorTintUsesSemanticColorNotTheAccent</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A semantic tint must paint its theme color, not the selection accent. </p>
+<p>A theme written before Positive/Negative existed has no stored value, so this also covers the fallback that used to return the highlight color. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_aa66e03885358737ea11a401922fe7475_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a6abedb195e3d7040856beefd60814dcb" name="a6abedb195e3d7040856beefd60814dcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6abedb195e3d7040856beefd60814dcb">&#9670;&#160;</a></span>TEST_F() <span class="overload">[2/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">AuthoredArtDoesNotNeedTheSvgImagePlugin</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Authored SVG art must not depend on Qt's SVG image-format plugin. </p>
+<p>Loading an <span class="tt">.svg</span> through QPixmap needs the separate <span class="tt">qsvg</span> image plugin. Distributions that build Qt with the plugin split out (Debian, and therefore CI) ship it in its own package, and a <span class="tt">--no-install-recommends</span> install does not have it, so authored theme art rendered blank there while working on a developer machine whose Qt bundles the format. Hiding the plugin directories reproduces that install. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a6abedb195e3d7040856beefd60814dcb_cgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a78153ca6edea119a05de00b490eefb15" name="a78153ca6edea119a05de00b490eefb15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78153ca6edea119a05de00b490eefb15">&#9670;&#160;</a></span>TEST_F() <span class="overload">[3/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BadgeDarkSchemeKeepsTheAuthoredTone</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The dark-scheme disc keeps the authored tone and darkens it. </p>
+<p>The authored tone is the top of the gradient, so the level the palette author picked survives the treatment; the shape only adds depth by darkening the bottom. It must not re-saturate the tone: the authored saturation is the theme author's choice. The dark scheme keeps the darkened ink the badge had before the fill moved to the sticker ramp. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a78153ca6edea119a05de00b490eefb15_cgraph.svg" width="100%" height="595"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a68ab344784b72b9016364d59534489e9" name="a68ab344784b72b9016364d59534489e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68ab344784b72b9016364d59534489e9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[4/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BadgeHasDiscGradientAndRing</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A badge is a disc with a gradient fill, a dark ring and a contrast glyph. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a68ab344784b72b9016364d59534489e9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aec251b4293f18a263434b739e2266fa7" name="aec251b4293f18a263434b739e2266fa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec251b4293f18a263434b739e2266fa7">&#9670;&#160;</a></span>TEST_F() <span class="overload">[5/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BadgeHonoursDevicePixelRatio</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The badge is rendered at the device-pixel size, not upscaled later. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_aec251b4293f18a263434b739e2266fa7_cgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a6923b8b32ea9e36b2b93fbf8839a7356" name="a6923b8b32ea9e36b2b93fbf8839a7356"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6923b8b32ea9e36b2b93fbf8839a7356">&#9670;&#160;</a></span>TEST_F() <span class="overload">[6/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BadgeInkFollowsTheScheme</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The badge ink follows the scheme. </p>
+<p>Light-scheme tones keep the white glyph of the old art; dark-scheme tones keep the darkened ink, because the lifted disc is light enough that white would sit near 2.7:1 at its top. Pinning both cases stops the glyph from silently flipping back to white when the fill or the palette changes. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a6923b8b32ea9e36b2b93fbf8839a7356_cgraph.svg" width="100%" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a4c7a658eed1417d535fd2488551e6944" name="a4c7a658eed1417d535fd2488551e6944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c7a658eed1417d535fd2488551e6944">&#9670;&#160;</a></span>TEST_F() <span class="overload">[7/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BadgeOnAuthoredArtUsesTheAssetPath</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Badge never paints authored art: the asset keeps its own colors. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a4c7a658eed1417d535fd2488551e6944_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a54ee9887e5305ed680bfffb703eca495" name="a54ee9887e5305ed680bfffb703eca495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54ee9887e5305ed680bfffb703eca495">&#9670;&#160;</a></span>TEST_F() <span class="overload">[8/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BadgeStaysLegibleAtPlayerListSize</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The player list is the one place the badge has to work, at 15px. </p>
+<p>A 20x15 icon box yields a 15px canvas. The art this replaces kept its check legible there, so the badge must still paint solid glyph ink rather than an antialiased smudge. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a54ee9887e5305ed680bfffb703eca495_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a3029a9119a64e6088830aaa0e170cd21" name="a3029a9119a64e6088830aaa0e170cd21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3029a9119a64e6088830aaa0e170cd21">&#9670;&#160;</a></span>TEST_F() <span class="overload">[9/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DisabledBadgeFallsBackToLineGlyph</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disabled keeps the shape language but drops back to the line glyph. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a3029a9119a64e6088830aaa0e170cd21_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a03b6367360782a63f52f96f216a2fa9b" name="a03b6367360782a63f52f96f216a2fa9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b6367360782a63f52f96f216a2fa9b">&#9670;&#160;</a></span>TEST_F() <span class="overload">[10/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DisabledGlyphRecedesPastTheQuietLevel</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A disabled glyph recedes past the quiet level, whatever the family. </p>
+<p>The palette's own disabled text is a fixed gray, so on the darkest themes it out-reads the quiet level and an enabled glyph looks more disabled than a disabled one. The disabled ink is derived from the quiet ink instead, and a semantic family loses its hue when disabled. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a03b6367360782a63f52f96f216a2fa9b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a2f4ca1748212a001c8136142a892afdb" name="a2f4ca1748212a001c8136142a892afdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f4ca1748212a001c8136142a892afdb">&#9670;&#160;</a></span>TEST_F() <span class="overload">[11/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DisabledStickerFallsBackToLineGlyph</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disabled keeps the shape language but drops back to the line glyph. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a2f4ca1748212a001c8136142a892afdb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a1208bc94aaace08fef2855032a82c01f" name="a1208bc94aaace08fef2855032a82c01f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1208bc94aaace08fef2855032a82c01f">&#9670;&#160;</a></span>TEST_F() <span class="overload">[12/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EmphasisKeepsASemanticHue</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Every authored emphasis level keeps a semantic family's hue. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a1208bc94aaace08fef2855032a82c01f_cgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad955968017a00a56a7305578bbad1982" name="ad955968017a00a56a7305578bbad1982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad955968017a00a56a7305578bbad1982">&#9670;&#160;</a></span>TEST_F() <span class="overload">[13/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EmphasisPreviewWritesPngsWhenRequested</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes the emphasis ladder sheets for every shipped palette theme. </p>
+<p>One sheet per theme and scheme: the neutral, positive and negative families at their quiet, secondary and primary levels, each as a line glyph, a sticker and a badge, three glyphs per family, at 16 and 24 px, on the window and button surfaces. The tone is the one the emphasis rule resolves for that surface, so the sheet is what the engine paints rather than a hand-picked sample. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_ad955968017a00a56a7305578bbad1982_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af2717d49d14db6b107ba0af48d2406f8" name="af2717d49d14db6b107ba0af48d2406f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2717d49d14db6b107ba0af48d2406f8">&#9670;&#160;</a></span>TEST_F() <span class="overload">[14/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EmphasisSelectsTheAuthoredVariant</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Emphasis selects the authored variant of a family, not a computed color. </p>
+<p>The theme stores one color per level, so the mapping is a lookup: a base role follows the caller's emphasis, while naming a variant pins that level at every emphasis. This is the contract that makes the palette editor's rows the whole source of truth. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_af2717d49d14db6b107ba0af48d2406f8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae9956e665bae475fd00c5d54b87e182a" name="ae9956e665bae475fd00c5d54b87e182a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9956e665bae475fd00c5d54b87e182a">&#9670;&#160;</a></span>TEST_F() <span class="overload">[15/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EmphasisTreatmentsPreviewWritesPngsWhenRequested</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes the authored emphasis sheets for every shipped palette theme. </p>
+<p>The ladder is only useful if it survives the treatment a call site chooses, so each sheet renders the same three authored levels as line glyphs, as sticker fills and as badges, at the two sizes the UI uses, on the two surfaces the contrast targets are measured against. Each family carries three glyphs, so the sheet also proves the level, not just one lucky shape. A disabled row closes each family: it must read dimmer than quiet, and every treatment falls back to the line glyph there.</p>
+<p>The authored tone is the top of every filled gradient, so the sheet prints that tone and the darker bottom the shape actually carries. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_ae9956e665bae475fd00c5d54b87e182a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a2605a4118a023471068793c4b04f7bf4" name="a2605a4118a023471068793c4b04f7bf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2605a4118a023471068793c4b04f7bf4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[16/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LineStyleStillRendersGlyphAlone</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Line stays the default: no disc, no ring, just the recolored glyph. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a2605a4118a023471068793c4b04f7bf4_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="adf10d52c05ce5b312bb739db51a534f3" name="adf10d52c05ce5b312bb739db51a534f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf10d52c05ce5b312bb739db51a534f3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[17/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LineTintRendersTheAuthoredRoleVerbatim</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A line glyph renders the authored role verbatim. </p>
+<p>The emphasis colors are authored data now, so the paint path must not rewrite them. A muted quiet role stays muted on a line glyph, and the badge and sticker only shape the value of that tone to give the shape depth. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_adf10d52c05ce5b312bb739db51a534f3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a96fb8cac2409a17ce6ce628dede267fe" name="a96fb8cac2409a17ce6ce628dede267fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96fb8cac2409a17ce6ce628dede267fe">&#9670;&#160;</a></span>TEST_F() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a96fb8cac2409a17ce6ce628dede267fe">&#9670;&#160;</a></span>TEST_F() <span class="overload">[18/33]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,13 +1156,13 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a96fb8cac2409a17ce6ce628dede267fe_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a96fb8cac2409a17ce6ce628dede267fe_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
 <a id="abba465a0e308cf25d0b542ff91f244c9" name="abba465a0e308cf25d0b542ff91f244c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abba465a0e308cf25d0b542ff91f244c9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abba465a0e308cf25d0b542ff91f244c9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[19/33]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,13 +1182,239 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_abba465a0e308cf25d0b542ff91f244c9_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_abba465a0e308cf25d0b542ff91f244c9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af3a55d80280fb32f85ea33266f8ac91f" name="af3a55d80280fb32f85ea33266f8ac91f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3a55d80280fb32f85ea33266f8ac91f">&#9670;&#160;</a></span>TEST_F() <span class="overload">[20/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PrimaryIsTheMostChromaticLevelOnBothSchemes</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The authored primary level is the most chromatic member of its family. </p>
+<p>Contrast cannot order the ladder: on a dark surface the highest-contrast tone is the palest one, so a contrast target makes the primary read as a washed-out secondary. Chroma orders the levels instead; contrast only has to stay above the legibility floor on every surface the icon is drawn on. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_af3a55d80280fb32f85ea33266f8ac91f_cgraph.svg" width="100%" height="479"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac6191564b08c56d3ba1c220db8ba7a85" name="ac6191564b08c56d3ba1c220db8ba7a85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6191564b08c56d3ba1c220db8ba7a85">&#9670;&#160;</a></span>TEST_F() <span class="overload">[21/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QuietIsTheLeastChromaticLevel</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Quiet is the least chromatic level; it shares the legibility floor. </p>
+<p>Ordering the ladder by contrast inverted it on dark schemes and pushed quiet under the disabled ink. Quiet now keeps the same floor as the other levels and recedes by carrying less of the family's chroma, which also leaves the disabled level the only one below the floor. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_ac6191564b08c56d3ba1c220db8ba7a85_cgraph.svg" width="100%" height="529"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aa9901977bcbe0aa53fc5dca0baeda51e" name="aa9901977bcbe0aa53fc5dca0baeda51e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9901977bcbe0aa53fc5dca0baeda51e">&#9670;&#160;</a></span>TEST_F() <span class="overload">[22/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SelectedAppColorFallsBackWhenItMatchesTheHighlight</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A selected row falls back to HighlightedText when the tint vanishes. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_aa9901977bcbe0aa53fc5dca0baeda51e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af02d678941bfbe2988823ac10e2a9ef8" name="af02d678941bfbe2988823ac10e2a9ef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af02d678941bfbe2988823ac10e2a9ef8">&#9670;&#160;</a></span>TEST_F() <span class="overload">[23/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SelectedAppColorKeepsAContrastingTint</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A selected row keeps a semantic tint that still contrasts enough. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_af02d678941bfbe2988823ac10e2a9ef8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac52c6b9ba6c26e6de80912108a662743" name="ac52c6b9ba6c26e6de80912108a662743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac52c6b9ba6c26e6de80912108a662743">&#9670;&#160;</a></span>TEST_F() <span class="overload">[24/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SelectedPaletteTintUsesHighlightedText</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Palette tints keep the WindowText -&gt; HighlightedText selected swap. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_ac52c6b9ba6c26e6de80912108a662743_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a8352e206419f6acca81537c7d8d663f1" name="a8352e206419f6acca81537c7d8d663f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8352e206419f6acca81537c7d8d663f1">&#9670;&#160;</a></span>TEST_F() <span class="overload">[25/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SelectedStillFallsBackToHighlightedText</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Every emphasis keeps the selected-row swap to HighlightedText. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a8352e206419f6acca81537c7d8d663f1_cgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab8a97b5530673a4f981b0c1338f686a3" name="ab8a97b5530673a4f981b0c1338f686a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8a97b5530673a4f981b0c1338f686a3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[26/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SentinelSvgBadgeMatchesTheEngine</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The pixmap API's badge path agrees with the engine's. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_ab8a97b5530673a4f981b0c1338f686a3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aa5886ce57b013934c907a273d231727d" name="aa5886ce57b013934c907a273d231727d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5886ce57b013934c907a273d231727d">&#9670;&#160;</a></span>TEST_F() <span class="overload">[27/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SentinelSvgStickerMatchesTheEngine</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The pixmap API's sticker path agrees with the engine's. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_aa5886ce57b013934c907a273d231727d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
 <a id="acec72ccfd4b91ff957f9656343271e03" name="acec72ccfd4b91ff957f9656343271e03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acec72ccfd4b91ff957f9656343271e03">&#9670;&#160;</a></span>TEST_F() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acec72ccfd4b91ff957f9656343271e03">&#9670;&#160;</a></span>TEST_F() <span class="overload">[28/33]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +1434,150 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_acec72ccfd4b91ff957f9656343271e03_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_acec72ccfd4b91ff957f9656343271e03_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aa7f9a1ad32aa09cc3fab2c386075fc26" name="aa7f9a1ad32aa09cc3fab2c386075fc26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7f9a1ad32aa09cc3fab2c386075fc26">&#9670;&#160;</a></span>TEST_F() <span class="overload">[29/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StickerDarkSchemeFillKeepsTheAuthoredTone</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The dark-scheme fill keeps the authored tone and darkens it. </p>
+<p>The authored tone is the top of the gradient, so the level the palette author picked survives the treatment. The treatment only adds depth by darkening the bottom, without re-saturating the tone. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_aa7f9a1ad32aa09cc3fab2c386075fc26_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a22359ff8018247a5dd323618e34042db" name="a22359ff8018247a5dd323618e34042db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22359ff8018247a5dd323618e34042db">&#9670;&#160;</a></span>TEST_F() <span class="overload">[30/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StickerHonoursDevicePixelRatio</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The sticker is rendered at the device-pixel size, not upscaled later. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a22359ff8018247a5dd323618e34042db_cgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="acf6c8e248a534a3f58a16b5b67882423" name="acf6c8e248a534a3f58a16b5b67882423"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf6c8e248a534a3f58a16b5b67882423">&#9670;&#160;</a></span>TEST_F() <span class="overload">[31/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StickerOnAuthoredArtUsesTheAssetPath</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sticker never paints authored art: the asset keeps its own colors. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_acf6c8e248a534a3f58a16b5b67882423_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a5c14b735b7d7511ffa9c7d7b8df44695" name="a5c14b735b7d7511ffa9c7d7b8df44695"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c14b735b7d7511ffa9c7d7b8df44695">&#9670;&#160;</a></span>TEST_F() <span class="overload">[32/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StickerPaintsToneFillWithDarkOutline</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sticker fills the glyph with the tone and rims it with a dark outline. </p>
+<p>The old add/remove art was a filled shape with a black outline and no disc, so the sticker must show a solid tone interior, a dark rim, and transparent corners. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a5c14b735b7d7511ffa9c7d7b8df44695_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a7fcd7c45afd9e9644cf57182e7ee88ca" name="a7fcd7c45afd9e9644cf57182e7ee88ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fcd7c45afd9e9644cf57182e7ee88ca">&#9670;&#160;</a></span>TEST_F() <span class="overload">[33/33]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype">ThemeIconRenderTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">StickerStaysLegibleAtToolbarSize</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A sticker has to survive the 16px toolbar slot. </p>
+<p>A 15/16px canvas leaves a three-pixel band. The tone interior must still be solid ink rather than an antialiased smudge, and the icon must not turn into a disc. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d7/d20/theme__icon__render__test_8cpp_a7fcd7c45afd9e9644cf57182e7ee88ca_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

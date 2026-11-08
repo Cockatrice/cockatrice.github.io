@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;master</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -132,6 +132,8 @@ Include dependency graph for svg_recolor.cpp:</div>
 Functions</h2></td></tr>
 <tr class="memitem:a5258925813f9d8bfcc29d910c95a41ac" id="r_a5258925813f9d8bfcc29d910c95a41ac"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#a5258925813f9d8bfcc29d910c95a41ac">resolveSvgColorSentinel</a> (const QByteArray &amp;svg, const QByteArray &amp;color)</td></tr>
 <tr class="memdesc:a5258925813f9d8bfcc29d910c95a41ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves the <span class="tt">currentColor</span> sentinel in authored SVG data.  <br /></td></tr>
+<tr class="memitem:afa3321d9d3608aa1f498a8014089e09e" id="r_afa3321d9d3608aa1f498a8014089e09e"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#afa3321d9d3608aa1f498a8014089e09e">resolveSvgStrokeWidth</a> (const QByteArray &amp;svg, double width)</td></tr>
+<tr class="memdesc:afa3321d9d3608aa1f498a8014089e09e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rewrites the value of every <span class="tt">stroke-width</span> attribute in authored SVG.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a5258925813f9d8bfcc29d910c95a41ac" name="a5258925813f9d8bfcc29d910c95a41ac"></a>
@@ -173,6 +175,48 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d80/svg__recolor_8cpp_a5258925813f9d8bfcc29d910c95a41ac_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="afa3321d9d3608aa1f498a8014089e09e" name="afa3321d9d3608aa1f498a8014089e09e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa3321d9d3608aa1f498a8014089e09e">&#9670;&#160;</a></span>resolveSvgStrokeWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QByteArray resolveSvgStrokeWidth </td>
+          <td>(</td>
+          <td class="paramtype">const QByteArray &amp;</td>          <td class="paramname"><span class="paramname"><em>svg</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>width</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rewrites the value of every <span class="tt">stroke-width</span> attribute in authored SVG. </p>
+<p>A treatment can need a heavier or lighter stroke than the one authored for a line icon at text size. Like the sentinel resolver, this rewriter works on the bytes and understands only the XML attribute form, in either quote style (<span class="tt">stroke-width="2"</span> or <span class="tt">stroke-width='2'</span>): a CSS declaration such as <span class="tt">style="stroke-width:2"</span> is left untouched. Documents without the attribute are returned unchanged.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">svg</td><td>SVG source bytes, expected to be UTF-8. Invalid UTF-8 is preserved byte-for-byte. </td></tr>
+    <tr><td class="paramname">width</td><td>Replacement width in the document's user units. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The rewritten SVG source; the input is left untouched. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d80/svg__recolor_8cpp_afa3321d9d3608aa1f498a8014089e09e_cgraph.svg" width="183" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d0/d80/svg__recolor_8cpp_afa3321d9d3608aa1f498a8014089e09e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

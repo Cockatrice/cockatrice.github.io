@@ -30,7 +30,7 @@ var searchData=
   ['setup_27',['Setup',['../d9/d4f/logging.html#logging-setup',1,'Logging Setup'],['../dir_7bfb512e87101b177eb3569817b9fc67.html#setup',1,'Setup']]],
   ['setups_28',['Recommended Setups',['../d1/d5a/contributing.html#recommended-setups',1,'']]],
   ['shuffle_201003_29',['&lt;span class=&quot;tt&quot;&gt;SHUFFLE&lt;/span&gt; (1003)',['../d0/d5b/protocol_game_command.html#shuffle-1003',1,'']]],
-  ['signals_30',['Signals',['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#signals',1,'Signals'],['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#signals-1',1,'Signals'],['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#signals-2',1,'Signals']]],
+  ['signals_30',['Signals',['../d0/d7f/classArchidektApiResponseDeckDisplayWidget.html#signals',1,'Signals'],['../de/d49/classArchidektApiResponseDeckListingsDisplayWidget.html#signals-1',1,'Signals'],['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#signals-2',1,'Signals']]],
   ['signals_31',['signals',['../d4/d5b/player_event_handler.html#autotoc_md3-emitting-logging-signals',1,'3. Emitting logging signals'],['../db/d15/game_event_handler.html#autotoc_md4-emitting-ui-and-logging-signals',1,'4. Emitting UI and logging signals']]],
   ['simple_20display_32',['Simple Display',['../dc/d8a/displaying_cards.html#simple-display',1,'']]],
   ['slots_33',['Slots',['../d9/dca/classArchidektApiResponseDeckEntryDisplayWidget.html#slots',1,'']]],

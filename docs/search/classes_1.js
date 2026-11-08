@@ -18,5 +18,6 @@ var searchData=
   ['blobreader_15',['BlobReader',['../d1/d94/classLazyPropertiesHash_1_1BlobReader.html',1,'LazyPropertiesHash']]],
   ['bracketexplainer_16',['BracketExplainer',['../df/d33/classBracketExplainer.html',1,'']]],
   ['bracketexplanation_17',['BracketExplanation',['../df/dfa/structBracketExplanation.html',1,'']]],
-  ['bracketexplanationsection_18',['BracketExplanationSection',['../d6/d74/structBracketExplanationSection.html',1,'']]]
+  ['bracketexplanationsection_18',['BracketExplanationSection',['../d6/d74/structBracketExplanationSection.html',1,'']]],
+  ['buttongrid_19',['ButtonGrid',['../dd/d1e/classButtonGrid.html',1,'']]]
 ];
