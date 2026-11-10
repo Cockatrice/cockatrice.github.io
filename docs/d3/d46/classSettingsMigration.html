@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -128,6 +128,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a45ea73e96a3a7fc4c495c6c5fdb5c8a2" id="r_a45ea73e96a3a7fc4c495c6c5fdb5c8a2"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a45ea73e96a3a7fc4c495c6c5fdb5c8a2">migrateSettingsFromGlobalIni</a> (const QString &amp;settingsPath)</td></tr>
 <tr class="memitem:a073bdb6a40bc54e18ff37828c9c6a4b3" id="r_a073bdb6a40bc54e18ff37828c9c6a4b3"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a073bdb6a40bc54e18ff37828c9c6a4b3">migrateLegacySettings</a> (const QString &amp;settingsPath)</td></tr>
 <tr class="memitem:aa3d7b40acb75114a072bde28a0e00c83" id="r_aa3d7b40acb75114a072bde28a0e00c83"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#aa3d7b40acb75114a072bde28a0e00c83">migrateGameFiltersToCamelCase</a> (const QString &amp;settingsPath)</td></tr>
+<tr class="memitem:a988a81457e007cc05af664253a97fa8c" id="r_a988a81457e007cc05af664253a97fa8c"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a988a81457e007cc05af664253a97fa8c">migrateAppearanceMaxFontSizeToTheme</a> (const QString &amp;settingsPath)</td></tr>
 <tr class="memitem:a0770af2a9c46ae436ee97fadab1e6bff" id="r_a0770af2a9c46ae436ee97fadab1e6bff"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a0770af2a9c46ae436ee97fadab1e6bff">isMigrationPending</a> (const QString &amp;settingsPath)</td></tr>
 <tr class="memitem:a5e94c4ab6626e90a630c6b090733e6e7" id="r_a5e94c4ab6626e90a630c6b090733e6e7"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#a5e94c4ab6626e90a630c6b090733e6e7">backupSettingsDirectory</a> (const QString &amp;settingsPath)</td></tr>
 </table>
@@ -189,12 +190,48 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d46/classSettingsMigration_a0770af2a9c46ae436ee97fadab1e6bff_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d46/classSettingsMigration_a0770af2a9c46ae436ee97fadab1e6bff_cgraph.svg" width="100%" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d46/classSettingsMigration_a0770af2a9c46ae436ee97fadab1e6bff_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a988a81457e007cc05af664253a97fa8c" name="a988a81457e007cc05af664253a97fa8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a988a81457e007cc05af664253a97fa8c">&#9670;&#160;</a></span>migrateAppearanceMaxFontSizeToTheme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SettingsMigration::migrateAppearanceMaxFontSizeToTheme </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>settingsPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Moves a non-default appearance/maxFontSize value into each user-writable theme directory lacking an explicit CardText max (creating/merging fonts.toml, never overwriting an explicit max), then deletes the legacy key. Default (12) or absent values only delete the key and create no files, since the <a class="el" href="../../da/d5a/classThemeManager.html">ThemeManager</a> fallback already covers them. Idempotent, safe to run on every startup. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d46/classSettingsMigration_a988a81457e007cc05af664253a97fa8c_cgraph.svg" width="100%" height="473"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d46/classSettingsMigration_a988a81457e007cc05af664253a97fa8c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

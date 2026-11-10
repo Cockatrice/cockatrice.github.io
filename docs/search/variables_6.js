@@ -134,7 +134,7 @@ var searchData=
   ['forgotpasswordlabel_131',['forgotPasswordLabel',['../d3/da4/classDlgConnect.html#a319b1ad9ea2553b96eb9906a6fc4950a',1,'DlgConnect']]],
   ['forgotpasswordlayout_132',['forgotPasswordLayout',['../d3/da4/classDlgConnect.html#a38d86c86b6312d15922d9ff78fa76bf4',1,'DlgConnect']]],
   ['form_133',['form',['../d9/da1/classDrawProbabilityConfigDialog.html#a44c7a52256a64fb77b0f386fc20addbb',1,'DrawProbabilityConfigDialog::form'],['../d6/dee/classDlgCreateGame.html#a3d5460db67742d345b9f3f5ea9ab5498',1,'DlgCreateGame::form']]],
-  ['format_134',['format',['../dc/dbe/structPasswordVerifier.html#a1c2bfe4edd25cb6a87cef7413490df6f',1,'PasswordVerifier']]],
+  ['format_134',['format',['../dc/dbe/structPasswordVerifier.html#a1c2bfe4edd25cb6a87cef7413490df6f',1,'PasswordVerifier::format'],['../d5/de7/classDeckListModelCopyLimits.html#a112298b116e0076ad4e3e5cb300284e0',1,'DeckListModelCopyLimits::format']]],
   ['formatbutton_135',['formatButton',['../db/d5d/classTabArchidekt.html#ace2db59779be94dc3f4faa9987bdc958',1,'TabArchidekt']]],
   ['formatbuttons_136',['formatButtons',['../d6/d2c/classVisualDatabaseDisplayFormatLegalityFilterWidget.html#a8b4cc2abed0ce3da445e58787ccf0bb1',1,'VisualDatabaseDisplayFormatLegalityFilterWidget']]],
   ['formatchecks_137',['formatChecks',['../db/d5d/classTabArchidekt.html#a20c00ea70fe3296226136600ee5254c2',1,'TabArchidekt']]],

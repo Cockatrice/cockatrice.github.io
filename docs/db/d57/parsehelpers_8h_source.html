@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -124,11 +124,15 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('db/d57/parsehe
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PARSEHELPERS_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keywordtype">bool</span> <a class="code hl_function" href="../../de/d59/parsehelpers_8cpp.html#a073237ef9d28f7f9e914d79a204e550f">parseCipt</a>(<span class="keyword">const</span> QString &amp;name, <span class="keyword">const</span> QString &amp;text);</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#endif </span><span class="comment">// PARSEHELPERS_H</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>std::optional&lt;int&gt; <a class="code hl_function" href="../../de/d59/parsehelpers_8cpp.html#a3bd5975cc4e9a6a3593ecb1fc803ff67">parseDeckCopyLimit</a>(<span class="keyword">const</span> QString &amp;name, <span class="keyword">const</span> QString &amp;text);</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keywordtype">bool</span> <a class="code hl_function" href="../../de/d59/parsehelpers_8cpp.html#a073237ef9d28f7f9e914d79a204e550f">parseCipt</a>(<span class="keyword">const</span> QString &amp;name, <span class="keyword">const</span> QString &amp;text);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#endif </span><span class="comment">// PARSEHELPERS_H</span></div>
 <div class="ttc" id="aparsehelpers_8cpp_html_a073237ef9d28f7f9e914d79a204e550f"><div class="ttname"><a href="../../de/d59/parsehelpers_8cpp.html#a073237ef9d28f7f9e914d79a204e550f">parseCipt</a></div><div class="ttdeci">bool parseCipt(const QString &amp;name, const QString &amp;text)</div><div class="ttdef"><b>Definition</b> parsehelpers.cpp:29</div></div>
+<div class="ttc" id="aparsehelpers_8cpp_html_a3bd5975cc4e9a6a3593ecb1fc803ff67"><div class="ttname"><a href="../../de/d59/parsehelpers_8cpp.html#a3bd5975cc4e9a6a3593ecb1fc803ff67">parseDeckCopyLimit</a></div><div class="ttdeci">std::optional&lt; int &gt; parseDeckCopyLimit(const QString &amp;name, const QString &amp;text)</div><div class="ttdoc">Read a finite deck-copy allowance naming this card in canonical English rules text.</div><div class="ttdef"><b>Definition</b> parsehelpers.cpp:75</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

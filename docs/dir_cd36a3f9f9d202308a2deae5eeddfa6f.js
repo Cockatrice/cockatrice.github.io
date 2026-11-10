@@ -16,6 +16,8 @@ var dir_cd36a3f9f9d202308a2deae5eeddfa6f =
     [ "logger.h", "d1/d8c/logger_8h.html", "d1/d8c/logger_8h" ],
     [ "pixel_map_generator.cpp", "de/db8/pixel__map__generator_8cpp.html", "de/db8/pixel__map__generator_8cpp" ],
     [ "pixel_map_generator.h", "da/d73/pixel__map__generator_8h.html", "da/d73/pixel__map__generator_8h" ],
+    [ "pq_widget_test_event_player.cpp", "df/d72/pq__widget__test__event__player_8cpp.html", null ],
+    [ "pq_widget_test_event_player.h", "db/d46/pq__widget__test__event__player_8h.html", "db/d46/pq__widget__test__event__player_8h" ],
     [ "recording.cpp", "d8/d15/recording_8cpp.html", null ],
     [ "recording.h", "de/d81/recording_8h.html", "de/d81/recording_8h" ],
     [ "theme_config.cpp", "d6/dc9/theme__config_8cpp.html", "d6/dc9/theme__config_8cpp" ],

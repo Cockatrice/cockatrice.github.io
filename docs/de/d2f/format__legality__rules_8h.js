@@ -12,6 +12,7 @@ var format__legality__rules_8h =
       [ "NotContains", "de/d2f/format__legality__rules_8h.html#a3166c752edac185a97b2d3dd54081f72a75daf57db1d55d476f96772ecca737c7", null ],
       [ "Regex", "de/d2f/format__legality__rules_8h.html#a3166c752edac185a97b2d3dd54081f72a86f600672d32a7be1dd6cb035ac61577", null ]
     ] ],
+    [ "cardCopyLimitException", "de/d2f/format__legality__rules_8h.html#a13654ea142a42d7ce1814bcac6b41a15", null ],
     [ "cardHasAnyException", "de/d2f/format__legality__rules_8h.html#a53c095b9060dd1b1b38a763d2aa412ab", null ],
     [ "cardMatchesCondition", "de/d2f/format__legality__rules_8h.html#ac767ed411bf1754fd4afe663f10b797d", null ],
     [ "exceptionAppliesToCard", "de/d2f/format__legality__rules_8h.html#a0482d7e922d5cca6d28fb6e26d35b783", null ],

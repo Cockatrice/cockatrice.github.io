@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -131,6 +131,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d2/d50/deck__l
 <code>#include &lt;gtest/gtest.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/df3/card__info_8h_source.html">libcockatrice/card/card_info.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d03/card__database__manager_8h_source.html">libcockatrice/card/database/card_database_manager.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../de/d2f/format__legality__rules_8h_source.html">libcockatrice/card/format/format_legality_rules.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/def/game__specific__terms_8h_source.html">libcockatrice/card/game_specific_terms.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d6/dfd/exact__card_8h_source.html">libcockatrice/card/printing/exact_card.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d7/d1a/deck__list_8h_source.html">libcockatrice/deck_list/deck_list.h</a>&gt;</code><br />
@@ -146,6 +147,10 @@ Include dependency graph for deck_list_model_zone_integration_test.cpp:</div>
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/df1/deck__list__model__zone__integration__test_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:DeckListModelCopyLimits" id="r_DeckListModelCopyLimits"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="../../d5/de7/classDeckListModelCopyLimits.html">DeckListModelCopyLimits</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a83d3fb1c22fa3439b5405acc1489aa5c" id="r_a83d3fb1c22fa3439b5405acc1489aa5c"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a83d3fb1c22fa3439b5405acc1489aa5c">TEST</a> (DeckListModelZoneIntegration, CreateZoneThenReadCustomZoneNames)</td></tr>
@@ -159,6 +164,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ab5d2093d86e1ceff34c552f51ba1b7ca" id="r_ab5d2093d86e1ceff34c552f51ba1b7ca"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ab5d2093d86e1ceff34c552f51ba1b7ca">TEST</a> (DeckListModelZoneIntegration, EmptyCustomZoneSurvivesMirrorAndPruning)</td></tr>
 <tr class="memitem:a2ab344964856b7c6d31a7cea4128cd78" id="r_a2ab344964856b7c6d31a7cea4128cd78"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a2ab344964856b7c6d31a7cea4128cd78">TEST</a> (DeckListModelZoneIntegration, AddCardToCardNamedZoneDoesNotRecurse)</td></tr>
 <tr class="memitem:a2d12507c52c63f8859bdf0d7428beed0" id="r_a2d12507c52c63f8859bdf0d7428beed0"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a2d12507c52c63f8859bdf0d7428beed0">TEST</a> (DeckListModelZoneIntegration, AddCardToCustomZoneWithNestedSubZoneAppends)</td></tr>
+<tr class="memitem:a256ceb80badde62cfdde3ec06d55f8af" id="r_a256ceb80badde62cfdde3ec06d55f8af"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a256ceb80badde62cfdde3ec06d55f8af">TEST_F</a> (<a class="el" href="../../d5/de7/classDeckListModelCopyLimits.html">DeckListModelCopyLimits</a>, FiniteExceptionHonorsItsLimitAndRetainsExplicitPrecedence)</td></tr>
+<tr class="memitem:ae13af3cb521625f61afd84ea29916179" id="r_ae13af3cb521625f61afd84ea29916179"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ae13af3cb521625f61afd84ea29916179">TEST_F</a> (<a class="el" href="../../d5/de7/classDeckListModelCopyLimits.html">DeckListModelCopyLimits</a>, CopiesAcrossPrintingsSideboardAndNestedZonesShareOneLimit)</td></tr>
+<tr class="memitem:a36e523f342a6356caf6fcb21c9973fb7" id="r_a36e523f342a6356caf6fcb21c9973fb7"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a36e523f342a6356caf6fcb21c9973fb7">TEST_F</a> (<a class="el" href="../../d5/de7/classDeckListModelCopyLimits.html">DeckListModelCopyLimits</a>, EditingOrRemovingOneRowRefreshesTheOtherRows)</td></tr>
+<tr class="memitem:a414f42cb5b209ff22dd42a8d58227968" id="r_a414f42cb5b209ff22dd42a8d58227968"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a414f42cb5b209ff22dd42a8d58227968">TEST_F</a> (<a class="el" href="../../d5/de7/classDeckListModelCopyLimits.html">DeckListModelCopyLimits</a>, NegativeRowsCannotCancelCopiesElsewhere)</td></tr>
+<tr class="memitem:a3b4a3926ecc1df9dec990c1b303c8f8e" id="r_a3b4a3926ecc1df9dec990c1b303c8f8e"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a3b4a3926ecc1df9dec990c1b303c8f8e">TEST_F</a> (<a class="el" href="../../d5/de7/classDeckListModelCopyLimits.html">DeckListModelCopyLimits</a>, UnlimitedCountIsDistinctFromUnknownLegality)</td></tr>
+<tr class="memitem:a79121763ccc0c1f9e0604eb6544439f9" id="r_a79121763ccc0c1f9e0604eb6544439f9"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a79121763ccc0c1f9e0604eb6544439f9">TEST_F</a> (<a class="el" href="../../d5/de7/classDeckListModelCopyLimits.html">DeckListModelCopyLimits</a>, MostPermissiveExceptionWinsIncludingUnlimited)</td></tr>
 <tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627" id="r_a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
@@ -470,6 +481,162 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d50/deck__list__model__zone__integration__test_8cpp_a36212e5eabe1040d6b57dac75ddb5e7c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae13af3cb521625f61afd84ea29916179" name="ae13af3cb521625f61afd84ea29916179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae13af3cb521625f61afd84ea29916179">&#9670;&#160;</a></span>TEST_F() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/de7/classDeckListModelCopyLimits.html">DeckListModelCopyLimits</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CopiesAcrossPrintingsSideboardAndNestedZonesShareOneLimit</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d50/deck__list__model__zone__integration__test_8cpp_ae13af3cb521625f61afd84ea29916179_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a36e523f342a6356caf6fcb21c9973fb7" name="a36e523f342a6356caf6fcb21c9973fb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36e523f342a6356caf6fcb21c9973fb7">&#9670;&#160;</a></span>TEST_F() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/de7/classDeckListModelCopyLimits.html">DeckListModelCopyLimits</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EditingOrRemovingOneRowRefreshesTheOtherRows</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d50/deck__list__model__zone__integration__test_8cpp_a36e523f342a6356caf6fcb21c9973fb7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a256ceb80badde62cfdde3ec06d55f8af" name="a256ceb80badde62cfdde3ec06d55f8af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a256ceb80badde62cfdde3ec06d55f8af">&#9670;&#160;</a></span>TEST_F() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/de7/classDeckListModelCopyLimits.html">DeckListModelCopyLimits</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FiniteExceptionHonorsItsLimitAndRetainsExplicitPrecedence</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d50/deck__list__model__zone__integration__test_8cpp_a256ceb80badde62cfdde3ec06d55f8af_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a79121763ccc0c1f9e0604eb6544439f9" name="a79121763ccc0c1f9e0604eb6544439f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79121763ccc0c1f9e0604eb6544439f9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/de7/classDeckListModelCopyLimits.html">DeckListModelCopyLimits</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MostPermissiveExceptionWinsIncludingUnlimited</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d50/deck__list__model__zone__integration__test_8cpp_a79121763ccc0c1f9e0604eb6544439f9_cgraph.svg" width="100%" height="464"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a414f42cb5b209ff22dd42a8d58227968" name="a414f42cb5b209ff22dd42a8d58227968"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a414f42cb5b209ff22dd42a8d58227968">&#9670;&#160;</a></span>TEST_F() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/de7/classDeckListModelCopyLimits.html">DeckListModelCopyLimits</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">NegativeRowsCannotCancelCopiesElsewhere</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d50/deck__list__model__zone__integration__test_8cpp_a414f42cb5b209ff22dd42a8d58227968_cgraph.svg" width="652" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a3b4a3926ecc1df9dec990c1b303c8f8e" name="a3b4a3926ecc1df9dec990c1b303c8f8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b4a3926ecc1df9dec990c1b303c8f8e">&#9670;&#160;</a></span>TEST_F() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/de7/classDeckListModelCopyLimits.html">DeckListModelCopyLimits</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnlimitedCountIsDistinctFromUnknownLegality</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d2/d50/deck__list__model__zone__integration__test_8cpp_a3b4a3926ecc1df9dec990c1b303c8f8e_cgraph.svg" width="652" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -130,7 +130,7 @@ Inheritance diagram for OracleImporter:</div>
 <div class="dynheader">
 Collaboration diagram for OracleImporter:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d39/classOracleImporter__coll__graph.svg" width="528" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/d39/classOracleImporter__coll__graph.svg" width="528" height="367"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
@@ -158,7 +158,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9af03e429f02cd05f58a0e3bb30a5ea" id="r_af9af03e429f02cd05f58a0e3bb30a5ea"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#af9af03e429f02cd05f58a0e3bb30a5ea">saveToFile</a> (const QString &amp;fileName, const QString &amp;sourceUrl, const QString &amp;sourceVersion)</td></tr>
 <tr class="memitem:a6c391b5029aa020ec3e81b8777b687d6" id="r_a6c391b5029aa020ec3e81b8777b687d6"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a6c391b5029aa020ec3e81b8777b687d6">importCardsFromSet</a> (const <a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a> &amp;currentSet, const QJsonArray &amp;cardsList)</td></tr>
 <tr class="memitem:a15fcda5ae12a98796b7e089a7a92e30f" id="r_a15fcda5ae12a98796b7e089a7a92e30f"><td class="memItemLeft">const <a class="el" href="../../df/df3/card__info_8h.html#a2e9686002e62dcaed3d15d08802eede7">FormatRulesNameMap</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a15fcda5ae12a98796b7e089a7a92e30f">createDefaultMagicFormats</a> ()</td></tr>
-<tr class="memdesc:a15fcda5ae12a98796b7e089a7a92e30f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default format rules. The result is memoized on first use and must be treated as immutable.  <br /></td></tr>
+<tr class="memdesc:a15fcda5ae12a98796b7e089a7a92e30f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns format rules including finite copy allowances from imported cards. The result is cached until cards are added or cleared and must be treated as immutable.  <br /></td></tr>
 <tr class="memitem:a64026f0963ce881b38738fbf916fb3dd" id="r_a64026f0963ce881b38738fbf916fb3dd"><td class="memItemLeft">const <a class="el" href="../../df/df3/card__info_8h.html#afe09e708464a3f7085db662112b509f3">CardNameMap</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a64026f0963ce881b38738fbf916fb3dd">getCardList</a> () const</td></tr>
 <tr class="memitem:ae6ce268fda3a972cf293f4a720a3f162" id="r_ae6ce268fda3a972cf293f4a720a3f162"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d8/dc3/classSetToDownload.html">SetToDownload</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ae6ce268fda3a972cf293f4a720a3f162">getSets</a> ()</td></tr>
 <tr class="memitem:aac24c8f1d4c7d26e26a415330f6f06bd" id="r_aac24c8f1d4c7d26e26a415330f6f06bd"><td class="memItemLeft">const QByteArray &amp;&#160;</td><td class="memItemRight"><a class="el" href="#aac24c8f1d4c7d26e26a415330f6f06bd">getRawSetsData</a> () const</td></tr>
@@ -174,6 +174,8 @@ Private Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ad6b43f6f3040e64369a3259796bc99d6" id="r_ad6b43f6f3040e64369a3259796bc99d6"><td class="memItemLeft"><a class="el" href="../../df/df3/card__info_8h.html#afe09e708464a3f7085db662112b509f3">CardNameMap</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad6b43f6f3040e64369a3259796bc99d6">cards</a></td></tr>
+<tr class="memitem:abaa4209441fc7b77d0239fb8de8b3802" id="r_abaa4209441fc7b77d0239fb8de8b3802"><td class="memItemLeft"><a class="el" href="../../df/df3/card__info_8h.html#a2e9686002e62dcaed3d15d08802eede7">FormatRulesNameMap</a>&#160;</td><td class="memItemRight"><a class="el" href="#abaa4209441fc7b77d0239fb8de8b3802">magicFormats</a></td></tr>
+<tr class="memitem:a57620c0f54e2f95eee0001d9eb7fa249" id="r_a57620c0f54e2f95eee0001d9eb7fa249"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a57620c0f54e2f95eee0001d9eb7fa249">magicFormatsDirty</a> = true</td></tr>
 <tr class="memitem:aecf8ac337bcf7a257c4d2bdbe4ea4d32" id="r_aecf8ac337bcf7a257c4d2bdbe4ea4d32"><td class="memItemLeft"><a class="el" href="../../df/df3/card__info_8h.html#a7c9db9f714d3b5488be46278c2e576e8">SetNameMap</a>&#160;</td><td class="memItemRight"><a class="el" href="#aecf8ac337bcf7a257c4d2bdbe4ea4d32">sets</a></td></tr>
 <tr class="memitem:aa106bea7ac5a00dd79c61268d7568610" id="r_aa106bea7ac5a00dd79c61268d7568610"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d8/dc3/classSetToDownload.html">SetToDownload</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa106bea7ac5a00dd79c61268d7568610">allSets</a></td></tr>
 <tr class="memitem:a28a03162650cc8ce6493f7daa8a73b3f" id="r_a28a03162650cc8ce6493f7daa8a73b3f"><td class="memItemLeft">QByteArray&#160;</td><td class="memItemRight"><a class="el" href="#a28a03162650cc8ce6493f7daa8a73b3f">rawSetsData</a></td></tr>
@@ -431,16 +433,16 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the default format rules. The result is memoized on first use and must be treated as immutable. </p>
+<p>Returns format rules including finite copy allowances from imported cards. The result is cached until cards are added or cleared and must be treated as immutable. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_a15fcda5ae12a98796b7e089a7a92e30f_cgraph.svg" width="468" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_a15fcda5ae12a98796b7e089a7a92e30f_cgraph.svg" width="468" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_a15fcda5ae12a98796b7e089a7a92e30f_icgraph.svg" width="471" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_a15fcda5ae12a98796b7e089a7a92e30f_icgraph.svg" width="471" height="91"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -811,7 +813,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_af9af03e429f02cd05f58a0e3bb30a5ea_cgraph.svg" width="100%" height="405"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../db/d70/classOracleImporter_af9af03e429f02cd05f58a0e3bb30a5ea_cgraph.svg" width="100%" height="433"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1172,6 +1174,50 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <p>Localized name/text collected per imported card key while parsing sets, applied to the <a class="el" href="../../dd/dd2/classCardInfo.html" title="Represents a card and its associated metadata, properties, and relationships.">CardInfo</a> objects by <a class="el" href="#aefe230e02943779366ad16dfbe60624c">applyLocalizedData()</a> once all printings have been seen so the best-priority one wins. </p>
+
+</div>
+</div>
+<a id="abaa4209441fc7b77d0239fb8de8b3802" name="abaa4209441fc7b77d0239fb8de8b3802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaa4209441fc7b77d0239fb8de8b3802">&#9670;&#160;</a></span>magicFormats</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/df3/card__info_8h.html#a2e9686002e62dcaed3d15d08802eede7">FormatRulesNameMap</a> OracleImporter::magicFormats</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a57620c0f54e2f95eee0001d9eb7fa249" name="a57620c0f54e2f95eee0001d9eb7fa249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57620c0f54e2f95eee0001d9eb7fa249">&#9670;&#160;</a></span>magicFormatsDirty</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OracleImporter::magicFormatsDirty = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

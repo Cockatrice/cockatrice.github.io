@@ -34,6 +34,8 @@ var classOracleImporter =
     [ "importSuccessful", "db/d70/classOracleImporter.html#aad0881b309f425d95788b164b3c5c833", null ],
     [ "localizationEnabled", "db/d70/classOracleImporter.html#a30697e3ac50fb7c0b8e6aa7f6fbbfde3", null ],
     [ "localizedEntries", "db/d70/classOracleImporter.html#af57c91cfaa9fa55480f49b0be2a0c137", null ],
+    [ "magicFormats", "db/d70/classOracleImporter.html#abaa4209441fc7b77d0239fb8de8b3802", null ],
+    [ "magicFormatsDirty", "db/d70/classOracleImporter.html#a57620c0f54e2f95eee0001d9eb7fa249", null ],
     [ "progressReporting", "db/d70/classOracleImporter.html#a0c5eb614459714bf75faa58815dcea9c", null ],
     [ "rawSetsData", "db/d70/classOracleImporter.html#a28a03162650cc8ce6493f7daa8a73b3f", null ],
     [ "sets", "db/d70/classOracleImporter.html#aecf8ac337bcf7a257c4d2bdbe4ea4d32", null ],

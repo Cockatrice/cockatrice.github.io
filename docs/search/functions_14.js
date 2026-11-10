@@ -134,7 +134,7 @@ var searchData=
   ['updateplaymat_131',['updatePlaymat',['../d3/de4/classPlayerGraphicsItem.html#ab1c45617d00e0664577ecc9edadb1ada',1,'PlayerGraphicsItem']]],
   ['updateplaymatlabel_132',['updatePlaymatLabel',['../d9/df7/classDeckEditorDeckDockWidget.html#afb9ebc3357c89c075054cbd80db6a6b5',1,'DeckEditorDeckDockWidget']]],
   ['updateposition_133',['updatePosition',['../d6/dc0/classAbstractCardDragItem.html#a75b44b42f6cb4b21d20e05060262808f',1,'AbstractCardDragItem::updatePosition()'],['../d5/dd3/classCardDragItem.html#ae70a276125c2936ed89248481030076b',1,'CardDragItem::updatePosition()'],['../d9/d25/classDeckViewCardDragItem.html#a5dc918ba9524876f4880517ee13779e3',1,'DeckViewCardDragItem::updatePosition()']]],
-  ['updatepreview_134',['updatePreview',['../de/d06/classCardCompleterStyler.html#ad2c8023963a6e3dc47a4f28be270b566',1,'CardCompleterStyler']]],
+  ['updatepreview_134',['updatePreview',['../d1/dad/classDlgCreateToken.html#a8679f7b5cf0ea1bb3e0b8c49e8a49f93',1,'DlgCreateToken::updatePreview()'],['../de/d06/classCardCompleterStyler.html#ad2c8023963a6e3dc47a4f28be270b566',1,'CardCompleterStyler::updatePreview(const QModelIndex &amp;index)']]],
   ['updatepreviewfromhover_135',['updatePreviewFromHover',['../de/d06/classCardCompleterStyler.html#a49bb3a5d6eb826605dd9f77acc3c5c38',1,'CardCompleterStyler']]],
   ['updateprogress_136',['updateProgress',['../d4/d7d/classCardDatabaseUpdateStatusBar.html#a96d7916aeba16aa19bec08005177a239',1,'CardDatabaseUpdateStatusBar']]],
   ['updateptdisplay_137',['updatePTDisplay',['../db/d7a/classCardHoverWidget.html#a41bfc46802ff1652e0e30e886985567c',1,'CardHoverWidget']]],

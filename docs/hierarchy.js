@@ -132,6 +132,7 @@ var hierarchy =
     [ "Command_GetBanHistory", "d6/d97/structCommand__GetBanHistory.html", null ],
     [ "Command_GetGamesOfUser", "dc/d05/structCommand__GetGamesOfUser.html", null ],
     [ "Command_GetModeratorLastLogins", "da/d8f/structCommand__GetModeratorLastLogins.html", null ],
+    [ "Command_GetPrivateChatHistory", "d1/d14/structCommand__GetPrivateChatHistory.html", null ],
     [ "Command_GetServerStats", "d4/d22/structCommand__GetServerStats.html", null ],
     [ "Command_GetUserAlts", "dd/dfe/structCommand__GetUserAlts.html", null ],
     [ "Command_GetUserInfo", "dd/dde/structCommand__GetUserInfo.html", null ],
@@ -458,7 +459,8 @@ var hierarchy =
     [ "IAnimatedItem", "da/dd9/classIAnimatedItem.html", [
       [ "AbstractCardItem", "d4/db9/classAbstractCardItem.html", [
         [ "CardItem", "d6/dbd/classCardItem.html", null ],
-        [ "DeckViewCard", "dc/d0b/classDeckViewCard.html", null ]
+        [ "DeckViewCard", "dc/d0b/classDeckViewCard.html", null ],
+        [ "TokenPreviewCardItem", "d6/dc7/classTokenPreviewCardItem.html", null ]
       ] ],
       [ "ArrowItem", "df/d2a/classArrowItem.html", [
         [ "ArrowAttachItem", "d2/d91/classArrowAttachItem.html", null ],
@@ -646,6 +648,7 @@ var hierarchy =
     [ "peg::Predicate", "da/da7/classpeg_1_1Predicate.html", null ],
     [ "BannerHost::Preset", "d3/dbb/structBannerHost_1_1Preset.html", null ],
     [ "PrintingInfo", "d6/d90/classPrintingInfo.html", null ],
+    [ "PrivateChatPage", "d8/d7c/structPrivateChatPage.html", null ],
     [ "QAbstractButton", null, [
       [ "CloseButton", "df/df8/classCloseButton.html", null ]
     ] ],
@@ -795,7 +798,8 @@ var hierarchy =
     ] ],
     [ "QGraphicsView", null, [
       [ "DeckView", "d9/d25/classDeckView.html", null ],
-      [ "GameView", "dd/d97/classGameView.html", null ]
+      [ "GameView", "dd/d97/classGameView.html", null ],
+      [ "TokenPreviewWidget", "dc/d63/classTokenPreviewWidget.html", null ]
     ] ],
     [ "QGraphicsWidget", null, [
       [ "ZoneViewWidget", "d0/dd9/classZoneViewWidget.html", null ]
@@ -1137,7 +1141,8 @@ var hierarchy =
           [ "pqComboBoxEventPlayer", "de/d34/classpqComboBoxEventPlayer.html", null ],
           [ "pqCommentEventPlayer", "d2/d15/classpqCommentEventPlayer.html", null ],
           [ "pqNativeFileDialogEventPlayer", "dc/dcd/classpqNativeFileDialogEventPlayer.html", null ],
-          [ "pqTabBarEventPlayer", "d1/d9f/classpqTabBarEventPlayer.html", null ]
+          [ "pqTabBarEventPlayer", "d1/d9f/classpqTabBarEventPlayer.html", null ],
+          [ "pqWidgetTestEventPlayer", "dc/d9c/classpqWidgetTestEventPlayer.html", null ]
         ] ]
       ] ],
       [ "pqSpinBoxEventPlayerTester", "db/d85/classpqSpinBoxEventPlayerTester.html", null ],
@@ -1463,6 +1468,7 @@ var hierarchy =
     [ "Response_Login::Response", "d2/dfc/structResponse__Login_1_1Response.html", null ],
     [ "Response_ModeratorLastLogins::Response", "dd/d88/structResponse__ModeratorLastLogins_1_1Response.html", null ],
     [ "Response_PasswordSalt::Response", "d3/de5/structResponse__PasswordSalt_1_1Response.html", null ],
+    [ "Response_PrivateChatHistory::Response", "d8/ddb/structResponse__PrivateChatHistory_1_1Response.html", null ],
     [ "Response_Register::Response", "d4/d82/structResponse__Register_1_1Response.html", null ],
     [ "Response_RemoveUserAvatar::Response", "da/d1c/structResponse__RemoveUserAvatar_1_1Response.html", null ],
     [ "Response_RemoveUserBanner::Response", "d9/d56/structResponse__RemoveUserBanner_1_1Response.html", null ],
@@ -1505,6 +1511,7 @@ var hierarchy =
     [ "Response_Login", "df/d1d/structResponse__Login.html", null ],
     [ "Response_ModeratorLastLogins", "de/d0a/structResponse__ModeratorLastLogins.html", null ],
     [ "Response_PasswordSalt", "d5/dfe/structResponse__PasswordSalt.html", null ],
+    [ "Response_PrivateChatHistory", "dd/daa/structResponse__PrivateChatHistory.html", null ],
     [ "Response_Register", "d1/d01/structResponse__Register.html", null ],
     [ "Response_RemoveUserAvatar", "d8/d19/structResponse__RemoveUserAvatar.html", null ],
     [ "Response_RemoveUserBanner", "dc/da7/structResponse__RemoveUserBanner.html", null ],
@@ -1579,6 +1586,7 @@ var hierarchy =
     [ "ServerInfo_Player", "d3/d6b/structServerInfo__Player.html", null ],
     [ "ServerInfo_PlayerPing", "d4/dbe/structServerInfo__PlayerPing.html", null ],
     [ "ServerInfo_PlayerProperties", "da/d6b/structServerInfo__PlayerProperties.html", null ],
+    [ "ServerInfo_PrivateChatMessage", "d4/d7d/structServerInfo__PrivateChatMessage.html", null ],
     [ "ServerInfo_Replay", "d0/df5/structServerInfo__Replay.html", null ],
     [ "ServerInfo_ReplayMatch", "d7/d54/structServerInfo__ReplayMatch.html", null ],
     [ "ServerInfo_Report", "df/d1f/structServerInfo__Report.html", null ],
@@ -1624,6 +1632,7 @@ var hierarchy =
     [ "Command_ForgotPasswordRequest::SessionCommand", "d7/db4/structCommand__ForgotPasswordRequest_1_1SessionCommand.html", null ],
     [ "Command_ForgotPasswordReset::SessionCommand", "d1/d76/structCommand__ForgotPasswordReset_1_1SessionCommand.html", null ],
     [ "Command_GetGamesOfUser::SessionCommand", "d9/dcb/structCommand__GetGamesOfUser_1_1SessionCommand.html", null ],
+    [ "Command_GetPrivateChatHistory::SessionCommand", "dd/d93/structCommand__GetPrivateChatHistory_1_1SessionCommand.html", null ],
     [ "Command_GetUserInfo::SessionCommand", "d9/d56/structCommand__GetUserInfo_1_1SessionCommand.html", null ],
     [ "Command_JoinRoom::SessionCommand", "d3/d22/structCommand__JoinRoom_1_1SessionCommand.html", null ],
     [ "Command_ListRooms::SessionCommand", "d6/d99/structCommand__ListRooms_1_1SessionCommand.html", null ],
@@ -1689,6 +1698,7 @@ var hierarchy =
     [ "TallyRow", "d3/d34/structTallyRow.html", null ],
     [ "testing::Test", null, [
       [ "AddCardAlgorithmTest", "d1/df2/classAddCardAlgorithmTest.html", null ],
+      [ "DeckListModelCopyLimits", "d5/de7/classDeckListModelCopyLimits.html", null ],
       [ "FilterModeTest", "d8/dc0/classFilterModeTest.html", null ],
       [ "LagMonitorTest", "d5/d8d/classLagMonitorTest.html", null ],
       [ "OracleImporterTest", "dd/d20/classOracleImporterTest.html", null ],

@@ -103,7 +103,7 @@ var searchData=
   ['lifecounteranimationscheckbox_100',['lifeCounterAnimationsCheckBox',['../d2/d2d/classUserInterfaceSettingsPage.html#a5c11118f91b86024f503de0d60a1f3d8',1,'UserInterfaceSettingsPage']]],
   ['lifecyclestrategy_101',['lifecycleStrategy',['../df/d89/classServer__Game.html#a6c17e47dd2607bef92a6a37b1a8476fa',1,'Server_Game']]],
   ['liftowner_102',['liftOwner',['../db/d9f/classGameScene.html#a189ff9428b88c72448774a403ee0f049',1,'GameScene']]],
-  ['limit_103',['limit',['../d7/d5d/structCommand__ReportList.html#aab901959f28a954481c1d92ca186ae67',1,'Command_ReportList::limit'],['../d2/d98/structCommand__GetUserSessions.html#a2cd058999a8b40a7a2f400e50d87f8b6',1,'Command_GetUserSessions::limit']]],
+  ['limit_103',['limit',['../d1/d14/structCommand__GetPrivateChatHistory.html#a55b9e40e7d024c71afd28453b8b9ce93',1,'Command_GetPrivateChatHistory::limit'],['../d7/d5d/structCommand__ReportList.html#aab901959f28a954481c1d92ca186ae67',1,'Command_ReportList::limit'],['../d2/d98/structCommand__GetUserSessions.html#a2cd058999a8b40a7a2f400e50d87f8b6',1,'Command_GetUserSessions::limit']]],
   ['line_104',['line',['../db/d9c/structpeg_1_1ErrorReport.html#aa1a8f8da7359b8fa6a78cf9db2d97256',1,'peg::ErrorReport::line'],['../d2/d75/structpeg_1_1AstBase.html#a337e9f74d91b498c00d5cac690c22252',1,'peg::AstBase::line']]],
   ['line_5f_105',['line_',['../d8/d94/classpeg_1_1Definition.html#a41e024fc09c32d44f3eed17b2e9b2406',1,'peg::Definition']]],
   ['lineedit_106',['lineEdit',['../d3/d0a/classSequenceEdit.html#a2d9628e2c93a0ccd722c687e7dac4dc6',1,'SequenceEdit']]],

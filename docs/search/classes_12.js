@@ -52,9 +52,11 @@ var searchData=
   ['tokendisplaymodel_49',['TokenDisplayModel',['../df/d8f/classTokenDisplayModel.html',1,'']]],
   ['tokeneditmodel_50',['TokenEditModel',['../db/dad/classTokenEditModel.html',1,'']]],
   ['tokeninfo_51',['TokenInfo',['../dd/d40/structTokenInfo.html',1,'']]],
-  ['traceopename_52',['TraceOpeName',['../d1/dab/structpeg_1_1TraceOpeName.html',1,'peg']]],
-  ['translatecountername_53',['TranslateCounterName',['../d8/dab/classTranslateCounterName.html',1,'']]],
-  ['traversalvisitor_54',['TraversalVisitor',['../da/ddf/structpeg_1_1TraversalVisitor.html',1,'peg']]],
-  ['trie_55',['Trie',['../d4/da5/classpeg_1_1Trie.html',1,'peg']]],
-  ['typestats_56',['TypeStats',['../dc/d19/structMetricsRegistry_1_1TypeStats.html',1,'MetricsRegistry']]]
+  ['tokenpreviewcarditem_52',['TokenPreviewCardItem',['../d6/dc7/classTokenPreviewCardItem.html',1,'']]],
+  ['tokenpreviewwidget_53',['TokenPreviewWidget',['../dc/d63/classTokenPreviewWidget.html',1,'']]],
+  ['traceopename_54',['TraceOpeName',['../d1/dab/structpeg_1_1TraceOpeName.html',1,'peg']]],
+  ['translatecountername_55',['TranslateCounterName',['../d8/dab/classTranslateCounterName.html',1,'']]],
+  ['traversalvisitor_56',['TraversalVisitor',['../da/ddf/structpeg_1_1TraversalVisitor.html',1,'peg']]],
+  ['trie_57',['Trie',['../d4/da5/classpeg_1_1Trie.html',1,'peg']]],
+  ['typestats_58',['TypeStats',['../dc/d19/structMetricsRegistry_1_1TypeStats.html',1,'MetricsRegistry']]]
 ];

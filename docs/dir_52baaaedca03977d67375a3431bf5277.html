@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('dir_52baaaedca
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><h1 class="doxsection"><a class="anchor" id="gui-tests"></a>
 GUI tests</h1>
-<p>Widget-level playback tests for the Cockatrice client, driven by <a href="https://github.com/Kitware/QtTesting">QtTesting</a> (<span class="tt">external/qttesting</span>, a submodule). Each <span class="tt">*_test.xml</span> file is a list of events that QtTesting replays against the running application; a test passes when every event is handled without error.</p>
+<p>Widget-level playback tests for the Cockatrice client, driven by <a href="https://github.com/Kitware/QtTesting">QtTesting</a> (<span class="tt">external/qttesting</span>, a submodule). Each <span class="tt">*_test.xml</span> file lists events that QtTesting replays against the running application. A test passes when every event is handled without error.</p>
 <h1 class="doxsection"><a class="anchor" id="running"></a>
 Running</h1>
 <div class="fragment"><div class="line">git submodule update --init external/qttesting      # once</div>
@@ -133,19 +133,20 @@ Running</h1>
 <div class="line">./Testing/run_test.sh --all                        # headless, offscreen</div>
 <div class="line">./Testing/run_test.sh Testing/smoke_test.xml       # one file</div>
 <div class="line">./Testing/run_test.sh --visual Testing/smoke_test.xml   # shows the window</div>
-</div><!-- fragment --><p><span class="tt">WITH_GUI_TEST</span> is on by default; a checkout without the submodule configures with a warning and no harness. <span class="tt">COCKATRICE_BIN</span> points the runner at another build, and <span class="tt">TEST_TIMEOUT</span> (seconds, default 180) bounds a single test — a failing event inside a modal dialog can otherwise leave the process alive. The client also hard-exits a few seconds after playback returns, whatever the result.</p>
-<p>The tests are <b>not</b> part of <span class="tt">ctest</span>: they need a card database and a developer's settings, so they stay a local loop for now.</p>
+</div><!-- fragment --><p><span class="tt">WITH_GUI_TEST</span> is on by default. Without the submodule the build configures with a warning and no harness. <span class="tt">COCKATRICE_BIN</span> points the runner at another build, and <span class="tt">TEST_TIMEOUT</span> (seconds, default 180) bounds a single test, because a failing event inside a modal dialog can leave the process alive. The client also hard-exits a few seconds after playback returns, whatever the result.</p>
+<p>The tests are <b>not</b> part of <span class="tt">ctest</span>. They need a card database and a developer's settings, so they stay a local loop for now.</p>
 <h1 class="doxsection"><a class="anchor" id="caveats"></a>
 Caveats</h1>
 <ul>
-<li><b>Not hermetic.</b> The client reads the local settings and card database, so a test can pass on one machine and fail on another. Avoid asserting things that restored workspace state or user preferences decide (for example the number of open tabs).</li>
-<li><b>English labels only.</b> Menu entries are addressed by their (translated) text, so the tests expect the source language. Widgets are addressed by objectName paths, which are stable across translations.</li>
-<li>Actions that open a dialog are followed by a <span class="tt">pause</span> event: playback continues in the dialog's own event loop, and the pause gives the UI time to build itself.</li>
+<li><b>Not hermetic.</b> The client reads the local settings and card database, so a test can pass on one machine and fail on another. Avoid asserting things that restored workspace state or user preferences decide, such as the number of open tabs.</li>
+<li><b>English labels only.</b> Menu entries are addressed by their translated text, so the tests expect the source language. Widgets are addressed by objectName paths, which are stable across translations.</li>
+<li>Actions that open a dialog are followed by a <span class="tt">pause</span> event. Playback continues in the dialog's own event loop, and the pause gives the UI time to build itself.</li>
+<li><span class="tt">pause</span> sleeps the thread, so nothing is delivered while it runs. A reply from a server never arrives during a pause. Waiting for the client to talk to a server needs <span class="tt">process_events</span>, which runs the event loop (see <em>Screenshots</em> below).</li>
 <li>Widget paths include Qt-internal names where a QTabWidget is involved (<span class="tt">qt_tabwidget_stackedwidget</span>), and the deck views in a game are indexed (<span class="tt">tabbedDeckView_0</span>, <span class="tt">tabbedDeckView_1</span>).</li>
 </ul>
 <h1 class="doxsection"><a class="anchor" id="writing-a-test"></a>
 Writing a test</h1>
-<p>A test is a <span class="tt">&lt;events&gt;</span> list. Widgets are named by their path from the main window, e.g. <span class="tt">MainWindow/tabSupervisor/stackedWidget/TabGame/phasesMenu</span>. Useful commands:</p>
+<p>A test is an <span class="tt">&lt;events&gt;</span> list. Widgets are named by their path from the main window, e.g. <span class="tt">MainWindow/tabSupervisor/stackedWidget/TabGame/phasesMenu</span>. Useful commands:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Command  </th><th class="markdownTableHeadNone">Arguments  </th><th class="markdownTableHeadNone">Effect  </th></tr>
@@ -154,28 +155,56 @@ Writing a test</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">key</span>  </td><td class="markdownTableBodyNone">Qt key code  </td><td class="markdownTableBodyNone">presses that key on the focused widget  </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><span class="tt">pause</span>  </td><td class="markdownTableBodyNone">milliseconds  </td><td class="markdownTableBodyNone">waits, letting the UI settle  </td></tr>
+<td class="markdownTableBodyNone"><span class="tt">pause</span>  </td><td class="markdownTableBodyNone">milliseconds  </td><td class="markdownTableBodyNone">sleeps, letting the UI settle (no events are processed)  </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">process_events</span>  </td><td class="markdownTableBodyNone">milliseconds  </td><td class="markdownTableBodyNone">runs the event loop, so timers and network replies are handled  </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">clickCard</span>  </td><td class="markdownTableBodyNone"><span class="tt">card,zone</span>  </td><td class="markdownTableBodyNone">double click the card found in that zone (plays it from hand)  </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">flipCard</span>  </td><td class="markdownTableBodyNone"><span class="tt">card,zone</span>  </td><td class="markdownTableBodyNone">right-click → <em>Turn Over</em>  </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">cardAction</span>  </td><td class="markdownTableBodyNone"><span class="tt">card,zone,label</span>  </td><td class="markdownTableBodyNone">right-click → first menu entry whose label contains <span class="tt">label</span> (submenus included)  </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">moveCard</span>  </td><td class="markdownTableBodyNone"><span class="tt">card,srcZone,dstZone</span>  </td><td class="markdownTableBodyNone">drags the card onto the destination zone  </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">drawArrow</span>  </td><td class="markdownTableBodyNone"><span class="tt">srcCard,srcZone,dstCard,dstZone</span>  </td><td class="markdownTableBodyNone">right-drag an arrow between two cards  </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">createToken</span>  </td><td class="markdownTableBodyNone"><span class="tt">name,<a class="el" href="d0/d91/structcolor.html">color</a>,pt</span>  </td><td class="markdownTableBodyNone">creates a token as the active local player  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><span class="tt">selectItem</span>  </td><td class="markdownTableBodyNone"><span class="tt">item label</span>  </td><td class="markdownTableBodyNone">selects the tree/list entry with that label  </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><span class="tt">typeText</span>  </td><td class="markdownTableBodyNone"><span class="tt">text</span>  </td><td class="markdownTableBodyNone">types text one key event at a time  </td></tr>
+<td class="markdownTableBodyNone"><span class="tt">selectItem</span>  </td><td class="markdownTableBodyNone"><span class="tt">item label</span>  </td><td class="markdownTableBodyNone">selects the tree/list entry with that label  </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">typeText</span>  </td><td class="markdownTableBodyNone"><span class="tt">text</span>  </td><td class="markdownTableBodyNone">types text one key event at a time  </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">expectProperty</span>  </td><td class="markdownTableBodyNone"><span class="tt">property,value</span>  </td><td class="markdownTableBodyNone">fails playback unless the widget property matches  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">screenshot</span>  </td><td class="markdownTableBodyNone"><span class="tt">path</span>  </td><td class="markdownTableBodyNone">saves an image of the addressed widget; <span class="tt">$VAR</span> expands from the environment  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">dumpTree</span>  </td><td class="markdownTableBodyNone"><span class="tt">path</span>  </td><td class="markdownTableBodyNone">writes the addressed widget's subtree with the paths tests address  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">resize</span>  </td><td class="markdownTableBodyNone"><span class="tt">WIDTHxHEIGHT</span>  </td><td class="markdownTableBodyNone">resizes the addressed widget's window  </td></tr>
 </table>
-<p>The card, item and property commands are <span class="tt"><a class="el" href="dc/d5b/classpqCockatriceEventPlayer.html">pqCockatriceEventPlayer</a></span> (<span class="tt"><a class="el" href="de/dea/pq__cockatrice__event__player_8h.html">cockatrice/src/game_graphics/pq_cockatrice_event_player.h</a></span>). They resolve cards by name and zone through the <span class="tt">QGraphicsScene</span> and send real mouse events at the card's current viewport position, so a test does not depend on the window size or screen resolution. </p>
-</div></div><!-- contents -->
+<p>The card, item and property commands are <span class="tt"><a class="el" href="dc/d5b/classpqCockatriceEventPlayer.html">pqCockatriceEventPlayer</a></span> (<span class="tt"><a class="el" href="de/dea/pq__cockatrice__event__player_8h.html">cockatrice/src/game_graphics/pq_cockatrice_event_player.h</a></span>). They resolve cards by name and zone through the <span class="tt">QGraphicsScene</span> and send real mouse events at the card's current viewport position, so a test does not depend on the window size or screen resolution.</p>
+<p>The capture commands are <span class="tt"><a class="el" href="dc/d9c/classpqWidgetTestEventPlayer.html">pqWidgetTestEventPlayer</a></span> (<span class="tt"><a class="el" href="db/d46/pq__widget__test__event__player_8h.html">cockatrice/src/interface/pq_widget_test_event_player.h</a></span>).</p>
+<h1 class="doxsection"><a class="anchor" id="screenshots"></a>
+Screenshots</h1>
+<p><span class="tt">run_test.sh</span> sets <span class="tt">COCKATRICE_SCREENSHOT_DIR</span> to <span class="tt">build/screenshots</span>, and <span class="tt">screenshot</span> and <span class="tt">dumpTree</span> write there. Override it in the environment to send captures elsewhere. That directory is not part of the source tree, so a test run does not leave untracked files in the repository:</p>
+<div class="fragment"><div class="line">&lt;<span class="keywordtype">event</span> <span class="keyword">widget</span>=<span class="stringliteral">&quot;MainWindow&quot;</span> <span class="keyword">command</span>=<span class="stringliteral">&quot;resize&quot;</span> <span class="keyword">arguments</span>=<span class="stringliteral">&quot;1920x1080&quot;</span> /&gt;</div>
+<div class="line">&lt;<span class="keywordtype">event</span> <span class="keyword">widget</span>=<span class="stringliteral">&quot;MainWindow&quot;</span> <span class="keyword">command</span>=<span class="stringliteral">&quot;screenshot&quot;</span> <span class="keyword">arguments</span>=<span class="stringliteral">&quot;$COCKATRICE_SCREENSHOT_DIR/main-window.png&quot;</span> /&gt;</div>
+<div class="line">&lt;<span class="keywordtype">event</span> <span class="keyword">widget</span>=<span class="stringliteral">&quot;MainWindow&quot;</span> <span class="keyword">command</span>=<span class="stringliteral">&quot;dumpTree&quot;</span> <span class="keyword">arguments</span>=<span class="stringliteral">&quot;$COCKATRICE_SCREENSHOT_DIR/widget-tree.txt&quot;</span> /&gt;</div>
+</div><!-- fragment --><p>The addressed widget is what gets grabbed, so <span class="tt"><a class="el" href="d6/d1a/classMainWindow.html">MainWindow</a></span> is the whole window and a panel's path is that panel. The format comes from the file extension. A path with no known extension is a test failure.</p>
+<p>Capture at a fixed, generous size. <span class="tt">1920x1080</span> is a safe default, and narrower windows clip columns of wide tables. A headless run renders through the offscreen platform, so the palette and layout are the real ones, but <span class="tt">raise()</span>, keyboard-grab and <span class="tt">propagateSizeHints()</span> warnings on stderr are normal.</p>
+<h2 class="doxsection"><a class="anchor" id="waiting-for-a-server"></a>
+Waiting for a server</h2>
+<p><span class="tt">pause</span> blocks, so a reply that has to arrive over the network never does. Use <span class="tt">process_events</span> with a budget that covers the round trip:</p>
+<div class="fragment"><div class="line">&lt;<span class="keywordtype">event</span> <span class="keyword">widget</span>=<span class="stringliteral">&quot;MainWindow&quot;</span> <span class="keyword">command</span>=<span class="stringliteral">&quot;process_events&quot;</span> <span class="keyword">arguments</span>=<span class="stringliteral">&quot;8000&quot;</span> /&gt;  <span class="comment">&lt;!-- login --&gt;</span></div>
+<div class="line">&lt;<span class="keywordtype">event</span> <span class="keyword">widget</span>=<span class="stringliteral">&quot;MainWindow&quot;</span> <span class="keyword">command</span>=<span class="stringliteral">&quot;process_events&quot;</span> <span class="keyword">arguments</span>=<span class="stringliteral">&quot;4000&quot;</span> /&gt;  <span class="comment">&lt;!-- report list --&gt;</span></div>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="paths-drift-between-runs"></a>
+Paths drift between runs</h2>
+<p><span class="tt"><a class="el" href="db/d4f/classpqObjectNaming.html">pqObjectNaming</a></span> names an unnamed widget <span class="tt">&lt;class&gt;&lt;index&gt;</span>, where the index counts same-class unnamed siblings and a leading digit records visibility (<span class="tt">1</span> visible, <span class="tt">0</span> hidden). The numbering depends on what the previous events left on screen, so a path that worked in one playback can miss in the next. The player retries a leading <span class="tt">0</span> as <span class="tt">1</span>, which resolves some hidden-page paths but not all of them.</p>
+<p>Record the tree in the same playback that clicks, and copy paths from that dump:</p>
+<div class="fragment"><div class="line">./Testing/run_test.sh Testing/screenshot_test.xml</div>
+<div class="line">less build/screenshots/widget-tree.txt</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

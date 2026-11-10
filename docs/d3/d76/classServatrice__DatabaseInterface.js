@@ -47,6 +47,7 @@ var classServatrice__DatabaseInterface =
     [ "getModeratorLastLogins", "d3/d76/classServatrice__DatabaseInterface.html#a6318ed7a6489e2a22f7f6b59a59c383d", null ],
     [ "getNextGameId", "d3/d76/classServatrice__DatabaseInterface.html#a41faeb94ec316520eced63bcf2d15b6c", null ],
     [ "getNextReplayId", "d3/d76/classServatrice__DatabaseInterface.html#aa99f4ef15d98e42d55fff51f91d45872", null ],
+    [ "getPrivateChatHistory", "d3/d76/classServatrice__DatabaseInterface.html#a73c48fa203597d4a1c2f24778f9ce094", null ],
     [ "getUsableLegacyBackup", "d3/d76/classServatrice__DatabaseInterface.html#aaf54707f25468881c21efa3530a4b27c", null ],
     [ "getUserAlts", "d3/d76/classServatrice__DatabaseInterface.html#a08e2615af97c8892e6c4ae40a3fbf410", null ],
     [ "getUserBanHistory", "d3/d76/classServatrice__DatabaseInterface.html#a38a583f3dffa745ee40cb0c6d5f96832", null ],

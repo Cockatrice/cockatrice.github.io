@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -133,6 +133,8 @@ Collaboration diagram for FontConfig:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ae27b6d3f5b28d8d621d4deb5d75ecec9" id="r_ae27b6d3f5b28d8d621d4deb5d75ecec9"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#ae27b6d3f5b28d8d621d4deb5d75ecec9">resolvedCardTextMinSize</a> () const</td></tr>
+<tr class="memitem:a639a7c2964a0d82d95f74a8ac93aaba9" id="r_a639a7c2964a0d82d95f74a8ac93aaba9"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a639a7c2964a0d82d95f74a8ac93aaba9">resolvedCardTextMaxSize</a> () const</td></tr>
 <tr class="memitem:a7f522bc644001eb606a2a79aa61580f9" id="r_a7f522bc644001eb606a2a79aa61580f9"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a7f522bc644001eb606a2a79aa61580f9">operator==</a> (const <a class="el" href="../../d3/d1f/structFontConfig.html">FontConfig</a> &amp;rhs) const</td></tr>
 <tr class="memitem:aaf8d71c1935a62b3877b752454ccf417" id="r_aaf8d71c1935a62b3877b752454ccf417"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aaf8d71c1935a62b3877b752454ccf417">operator!=</a> (const <a class="el" href="../../d3/d1f/structFontConfig.html">FontConfig</a> &amp;rhs) const</td></tr>
 <tr class="memitem:ab22d22ce61a9b8498ee812a4ebb54952" id="r_ab22d22ce61a9b8498ee812a4ebb54952"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ab22d22ce61a9b8498ee812a4ebb54952">hasFonts</a> () const</td></tr>
@@ -147,12 +149,26 @@ Static Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a611c9ec137ebae8dd3353940f2c44d47" id="r_a611c9ec137ebae8dd3353940f2c44d47"><td class="memItemLeft"><a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; <a class="el" href="../../d2/d21/namespaceAppFont.html#a15dd36a84984059c081e7f5c7eb4ec84">AppFont::Role</a>, QFont &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a611c9ec137ebae8dd3353940f2c44d47">fonts</a></td></tr>
+<tr class="memitem:af7d00e51c888c24c7d3a9ea73b5bea4f" id="r_af7d00e51c888c24c7d3a9ea73b5bea4f"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#af7d00e51c888c24c7d3a9ea73b5bea4f">cardTextMinSize</a> = <a class="el" href="#a42f9f68644d789c5a7bc15ec8fa1fcc8">CARD_TEXT_MIN_SIZE</a></td></tr>
+<tr class="memitem:a3d4b537ed095f5991c3ea7114ec31da0" id="r_a3d4b537ed095f5991c3ea7114ec31da0"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a3d4b537ed095f5991c3ea7114ec31da0">cardTextMaxSize</a> = 0</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aef2802c430525249861ecc1d48a20f98" id="r_aef2802c430525249861ecc1d48a20f98"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#aef2802c430525249861ecc1d48a20f98">MIN_FONT_SIZE</a> = 6</td></tr>
+<tr class="memitem:a2c54253fc85562b3fa503b9f40a79dc9" id="r_a2c54253fc85562b3fa503b9f40a79dc9"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a2c54253fc85562b3fa503b9f40a79dc9">MAX_FONT_SIZE</a> = 72</td></tr>
+<tr class="memitem:a42f9f68644d789c5a7bc15ec8fa1fcc8" id="r_a42f9f68644d789c5a7bc15ec8fa1fcc8"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a42f9f68644d789c5a7bc15ec8fa1fcc8">CARD_TEXT_MIN_SIZE</a> = 1</td></tr>
+<tr class="memdesc:a42f9f68644d789c5a7bc15ec8fa1fcc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">CardText shrink-to-fit floor, editable below the general font floor.  <br /></td></tr>
+<tr class="memitem:a04531a0b65d80a3e94d18e81d264dd00" id="r_a04531a0b65d80a3e94d18e81d264dd00"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a04531a0b65d80a3e94d18e81d264dd00">DEFAULT_CARD_TEXT_SIZE</a> = 12</td></tr>
+<tr class="memdesc:a04531a0b65d80a3e94d18e81d264dd00"><td class="mdescLeft">&#160;</td><td class="mdescRight">CardText size when neither CardTextMaxSize nor a CardText family is set.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Per-purpose font configuration, stored as family + point size only. </p>
 <p>Serialized to a shared fonts.toml file with a [Fonts] section, e.g. </p><div class="fragment"><div class="line">[Fonts]</div>
 <div class="line">InterfaceDefault = <span class="stringliteral">&quot;Inter, 10&quot;</span></div>
-</div><!-- fragment --> </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<div class="line">CardText = <span class="stringliteral">&quot;Noto Serif, 12&quot;</span></div>
+<div class="line">CardTextMinSize = 1</div>
+</div><!-- fragment --><p> CardText stores family + MAX size; cardTextMinSize stores the overlay shrink-to-fit floor (omitted from TOML when 1). </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a5ed46e1fea1662f952662a2b00cdf500" name="a5ed46e1fea1662f952662a2b00cdf500"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5ed46e1fea1662f952662a2b00cdf500">&#9670;&#160;</a></span>fileName()</h2>
 
@@ -320,6 +336,56 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a639a7c2964a0d82d95f74a8ac93aaba9" name="a639a7c2964a0d82d95f74a8ac93aaba9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a639a7c2964a0d82d95f74a8ac93aaba9">&#9670;&#160;</a></span>resolvedCardTextMaxSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int FontConfig::resolvedCardTextMaxSize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d1f/structFontConfig_a639a7c2964a0d82d95f74a8ac93aaba9_cgraph.svg" width="428" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d1f/structFontConfig_a639a7c2964a0d82d95f74a8ac93aaba9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ae27b6d3f5b28d8d621d4deb5d75ecec9" name="ae27b6d3f5b28d8d621d4deb5d75ecec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae27b6d3f5b28d8d621d4deb5d75ecec9">&#9670;&#160;</a></span>resolvedCardTextMinSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int FontConfig::resolvedCardTextMinSize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>CardText min/max resolved to what the font editor shows and a save would write: the stored values (max falling back to the CardText point size, then the default) clamped into the representable range. A seeded legacy size above the editor's maximum therefore renders at that maximum instead of at a size the editor would silently rewrite. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d1f/structFontConfig_ae27b6d3f5b28d8d621d4deb5d75ecec9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a4dc52ead1c96f77299cb0013d09e9fb8" name="a4dc52ead1c96f77299cb0013d09e9fb8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4dc52ead1c96f77299cb0013d09e9fb8">&#9670;&#160;</a></span>toToml()</h2>
 
@@ -337,12 +403,89 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d1f/structFontConfig_a4dc52ead1c96f77299cb0013d09e9fb8_icgraph.svg" width="100%" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d3/d1f/structFontConfig_a4dc52ead1c96f77299cb0013d09e9fb8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a42f9f68644d789c5a7bc15ec8fa1fcc8" name="a42f9f68644d789c5a7bc15ec8fa1fcc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42f9f68644d789c5a7bc15ec8fa1fcc8">&#9670;&#160;</a></span>CARD_TEXT_MIN_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int FontConfig::CARD_TEXT_MIN_SIZE = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>CardText shrink-to-fit floor, editable below the general font floor. </p>
+
+</div>
+</div>
+<a id="a3d4b537ed095f5991c3ea7114ec31da0" name="a3d4b537ed095f5991c3ea7114ec31da0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d4b537ed095f5991c3ea7114ec31da0">&#9670;&#160;</a></span>cardTextMaxSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int FontConfig::cardTextMaxSize = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Optional size-only maximum for CardText, used by the retired maxFontSize migration so seeding it does not have to pin a family. </p>
+
+</div>
+</div>
+<a id="af7d00e51c888c24c7d3a9ea73b5bea4f" name="af7d00e51c888c24c7d3a9ea73b5bea4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d00e51c888c24c7d3a9ea73b5bea4f">&#9670;&#160;</a></span>cardTextMinSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int FontConfig::cardTextMinSize = <a class="el" href="#a42f9f68644d789c5a7bc15ec8fa1fcc8">CARD_TEXT_MIN_SIZE</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04531a0b65d80a3e94d18e81d264dd00" name="a04531a0b65d80a3e94d18e81d264dd00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04531a0b65d80a3e94d18e81d264dd00">&#9670;&#160;</a></span>DEFAULT_CARD_TEXT_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int FontConfig::DEFAULT_CARD_TEXT_SIZE = 12</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>CardText size when neither CardTextMaxSize nor a CardText family is set. </p>
+
+</div>
+</div>
 <a id="a611c9ec137ebae8dd3353940f2c44d47" name="a611c9ec137ebae8dd3353940f2c44d47"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a611c9ec137ebae8dd3353940f2c44d47">&#9670;&#160;</a></span>fonts</h2>
 
@@ -354,6 +497,51 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c54253fc85562b3fa503b9f40a79dc9" name="a2c54253fc85562b3fa503b9f40a79dc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c54253fc85562b3fa503b9f40a79dc9">&#9670;&#160;</a></span>MAX_FONT_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int FontConfig::MAX_FONT_SIZE = 72</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef2802c430525249861ecc1d48a20f98" name="aef2802c430525249861ecc1d48a20f98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef2802c430525249861ecc1d48a20f98">&#9670;&#160;</a></span>MIN_FONT_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int FontConfig::MIN_FONT_SIZE = 6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Point-size range the theme font editor can represent. CardText is resolved through the same bounds where it is rendered, so the board never draws a size the editor cannot show and would clamp away on save. </p>
 
 </div>
 </div>

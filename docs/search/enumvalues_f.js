@@ -50,10 +50,11 @@ var searchData=
   ['priorityprimary_47',['PriorityPrimary',['../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa5130639d8ec84e4b578864a7c6bc2693',1,'CardSet']]],
   ['priorityreprint_48',['PriorityReprint',['../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa7c5bae467c8ee755d632f948860a0e0a',1,'CardSet']]],
   ['prioritysecondary_49',['PrioritySecondary',['../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fab4eaac9b9e7568cc5b5775dd6a8108eb',1,'CardSet']]],
-  ['privatezone_50',['PrivateZone',['../df/d6e/structServerInfo__Zone.html#ad6a574f50e092cbde39cfcf48cffc0d7ae849012bc5d06a789814612141a4d551',1,'ServerInfo_Zone']]],
-  ['proceednormal_51',['ProceedNormal',['../d5/de4/classServer__GameLifecycleStrategy.html#a63df2a508967c8cd78048c5fea7f2463acead191b92e07bb3d3eb8e69bec51816',1,'Server_GameLifecycleStrategy']]],
-  ['promoted_52',['PROMOTED',['../d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eead58a06df3888aa016a93f606bbc6df13',1,'Event_NotifyUser']]],
-  ['ptcolumn_53',['PTColumn',['../dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0afdcec8a6bd4181ebe06b26f647c5fdcd',1,'CardDatabaseModel']]],
-  ['public_54',['Public',['../de/de6/structServerInfo__RoomChannel.html#abf6f6bd04abb7febabddd868b3ee3b53a4476957ac6e7a9402a4ee9f2bdb43d37',1,'ServerInfo_RoomChannel']]],
-  ['publiczone_55',['PublicZone',['../df/d6e/structServerInfo__Zone.html#ad6a574f50e092cbde39cfcf48cffc0d7aea86d2af0414e13aab8c976d435d8c57',1,'ServerInfo_Zone']]]
+  ['private_5fchat_5fhistory_50',['PRIVATE_CHAT_HISTORY',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442aeb04422ca4f814712f33d575ccb729cb',1,'Response']]],
+  ['privatezone_51',['PrivateZone',['../df/d6e/structServerInfo__Zone.html#ad6a574f50e092cbde39cfcf48cffc0d7ae849012bc5d06a789814612141a4d551',1,'ServerInfo_Zone']]],
+  ['proceednormal_52',['ProceedNormal',['../d5/de4/classServer__GameLifecycleStrategy.html#a63df2a508967c8cd78048c5fea7f2463acead191b92e07bb3d3eb8e69bec51816',1,'Server_GameLifecycleStrategy']]],
+  ['promoted_53',['PROMOTED',['../d7/d65/structEvent__NotifyUser.html#a4198152c62b773deabb48f5075cad7eead58a06df3888aa016a93f606bbc6df13',1,'Event_NotifyUser']]],
+  ['ptcolumn_54',['PTColumn',['../dd/d83/classCardDatabaseModel.html#a72948b13a31d8aa2763e2cc1796b9ae0afdcec8a6bd4181ebe06b26f647c5fdcd',1,'CardDatabaseModel']]],
+  ['public_55',['Public',['../de/de6/structServerInfo__RoomChannel.html#abf6f6bd04abb7febabddd868b3ee3b53a4476957ac6e7a9402a4ee9f2bdb43d37',1,'ServerInfo_RoomChannel']]],
+  ['publiczone_56',['PublicZone',['../df/d6e/structServerInfo__Zone.html#ad6a574f50e092cbde39cfcf48cffc0d7aea86d2af0414e13aab8c976d435d8c57',1,'ServerInfo_Zone']]]
 ];

@@ -14,6 +14,8 @@ var dir_dfba2d28f18649f7ad87a35860a92af4 =
     [ "main.h", "d0/d40/servatrice_2src_2main_8h.html", "d0/d40/servatrice_2src_2main_8h" ],
     [ "metrics_registry.cpp", "d5/da6/metrics__registry_8cpp.html", null ],
     [ "metrics_registry.h", "d0/d02/metrics__registry_8h.html", "d0/d02/metrics__registry_8h" ],
+    [ "private_chat_paging.cpp", "d3/d1d/private__chat__paging_8cpp.html", "d3/d1d/private__chat__paging_8cpp" ],
+    [ "private_chat_paging.h", "db/d48/private__chat__paging_8h.html", "db/d48/private__chat__paging_8h" ],
     [ "ratelimiter.cpp", "d2/dba/ratelimiter_8cpp.html", null ],
     [ "ratelimiter.h", "df/d5b/ratelimiter_8h.html", "df/d5b/ratelimiter_8h" ],
     [ "servatrice.cpp", "d5/d26/servatrice_8cpp.html", "d5/d26/servatrice_8cpp" ],

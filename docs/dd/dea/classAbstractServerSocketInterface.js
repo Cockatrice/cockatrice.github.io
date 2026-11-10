@@ -37,6 +37,7 @@ var classAbstractServerSocketInterface =
     [ "cmdGetBanHistory", "dd/dea/classAbstractServerSocketInterface.html#ac6ff54b9bf1722402839d499c72b0454", null ],
     [ "cmdGetLogHistory", "dd/dea/classAbstractServerSocketInterface.html#aed8d33667e4b57f073c2e8c051f76dce", null ],
     [ "cmdGetModeratorLastLogins", "dd/dea/classAbstractServerSocketInterface.html#a6f9140b5f1a37311261b3f6818708103", null ],
+    [ "cmdGetPrivateChatHistory", "dd/dea/classAbstractServerSocketInterface.html#ab9ba8f0e2a9b5de3f7a9d6f8ab7bdbab", null ],
     [ "cmdGetServerStats", "dd/dea/classAbstractServerSocketInterface.html#adc813b1a5ddba04675f35dffa0f82032", null ],
     [ "cmdGetUserAlts", "dd/dea/classAbstractServerSocketInterface.html#adcb1da4aa3a882c307ba4847b0d7d50c", null ],
     [ "cmdGetUserSessions", "dd/dea/classAbstractServerSocketInterface.html#aacd63625f366dc80e1f43358ed4a6936", null ],

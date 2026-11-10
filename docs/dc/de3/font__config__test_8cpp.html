@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -131,6 +131,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('dc/de3/font__c
 <code>#include &lt;QTemporaryDir&gt;</code><br />
 <code>#include &lt;QTextStream&gt;</code><br />
 <code>#include &lt;gtest/gtest.h&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for font_config_test.cpp:</div>
 <div class="dyncontent">
@@ -147,6 +148,17 @@ Functions</h2></td></tr>
 <tr class="memitem:aa6afdcd5995a285cd7ecbf53eac51d20" id="r_aa6afdcd5995a285cd7ecbf53eac51d20"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa6afdcd5995a285cd7ecbf53eac51d20">TEST</a> (FontConfigTest, MalformedLinesAreSkipped)</td></tr>
 <tr class="memitem:a33b87948181f7cc21f467e0b61cb0611" id="r_a33b87948181f7cc21f467e0b61cb0611"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a33b87948181f7cc21f467e0b61cb0611">TEST</a> (FontConfigTest, FromThemeDirReadsFontsToml)</td></tr>
 <tr class="memitem:aaccf81cf7ae1f41a0e81384b12e1e853" id="r_aaccf81cf7ae1f41a0e81384b12e1e853"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aaccf81cf7ae1f41a0e81384b12e1e853">TEST</a> (FontConfigTest, InequalityComparesRoles)</td></tr>
+<tr class="memitem:ae2210a5e995e7e786ba65cb58c63ff24" id="r_ae2210a5e995e7e786ba65cb58c63ff24"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ae2210a5e995e7e786ba65cb58c63ff24">TEST</a> (FontConfigTest, CardTextMinRoundTrip)</td></tr>
+<tr class="memitem:adc0a6517adaf7f78781bdc9621028e33" id="r_adc0a6517adaf7f78781bdc9621028e33"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#adc0a6517adaf7f78781bdc9621028e33">TEST</a> (FontConfigTest, CardTextMinDefaultIsOmitted)</td></tr>
+<tr class="memitem:a68a1df0ed2b009728ae572ffdbd940ed" id="r_a68a1df0ed2b009728ae572ffdbd940ed"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a68a1df0ed2b009728ae572ffdbd940ed">TEST</a> (FontConfigTest, MalformedMinIsSkipped)</td></tr>
+<tr class="memitem:a1c1f23f8aa95a405ee514efa4ae4ce27" id="r_a1c1f23f8aa95a405ee514efa4ae4ce27"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1c1f23f8aa95a405ee514efa4ae4ce27">TEST</a> (FontConfigTest, CardTextMaxRoundTrip)</td></tr>
+<tr class="memitem:a770bca396ced31e4da928db0df4b5f87" id="r_a770bca396ced31e4da928db0df4b5f87"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a770bca396ced31e4da928db0df4b5f87">TEST</a> (FontConfigTest, CardTextMaxSizeWithoutFamily)</td></tr>
+<tr class="memitem:aef8594a23086c508ddebe4839fc95da3" id="r_aef8594a23086c508ddebe4839fc95da3"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aef8594a23086c508ddebe4839fc95da3">TEST</a> (FontConfigTest, MigratedCardTextMaxResolvesIntoTheEditorsRange)</td></tr>
+<tr class="memitem:a6c472a9240d0515484753b300e770b09" id="r_a6c472a9240d0515484753b300e770b09"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a6c472a9240d0515484753b300e770b09">TEST</a> (FontConfigTest, CardTextSizesResolveIntoTheEditorsRange)</td></tr>
+<tr class="memitem:ac670acc3219daa5b9329cbd0a38df7ae" id="r_ac670acc3219daa5b9329cbd0a38df7ae"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ac670acc3219daa5b9329cbd0a38df7ae">TEST</a> (FontConfigTest, CardTextMaxDefaultIsOmitted)</td></tr>
+<tr class="memitem:a00aaf1a305c66b9d1b9cf68742e11d15" id="r_a00aaf1a305c66b9d1b9cf68742e11d15"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a00aaf1a305c66b9d1b9cf68742e11d15">TEST</a> (FontConfigTest, MalformedMaxIsSkipped)</td></tr>
+<tr class="memitem:aac151961cd6831268e424522e5822a06" id="r_aac151961cd6831268e424522e5822a06"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aac151961cd6831268e424522e5822a06">TEST</a> (FontConfigTest, InequalityComparesMinSize)</td></tr>
+<tr class="memitem:aef4bc2d7a5b6db60e8f3ed967c7c082c" id="r_aef4bc2d7a5b6db60e8f3ed967c7c082c"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aef4bc2d7a5b6db60e8f3ed967c7c082c">TEST</a> (FontConfigTest, InequalityComparesMaxSize)</td></tr>
 <tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627" id="r_a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
@@ -176,8 +188,164 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="ac670acc3219daa5b9329cbd0a38df7ae" name="ac670acc3219daa5b9329cbd0a38df7ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac670acc3219daa5b9329cbd0a38df7ae">&#9670;&#160;</a></span>TEST() <span class="overload">[1/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">FontConfigTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CardTextMaxDefaultIsOmitted</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de3/font__config__test_8cpp_ac670acc3219daa5b9329cbd0a38df7ae_cgraph.svg" width="264" height="167"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a1c1f23f8aa95a405ee514efa4ae4ce27" name="a1c1f23f8aa95a405ee514efa4ae4ce27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c1f23f8aa95a405ee514efa4ae4ce27">&#9670;&#160;</a></span>TEST() <span class="overload">[2/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">FontConfigTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CardTextMaxRoundTrip</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de3/font__config__test_8cpp_a1c1f23f8aa95a405ee514efa4ae4ce27_cgraph.svg" width="268" height="219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a770bca396ced31e4da928db0df4b5f87" name="a770bca396ced31e4da928db0df4b5f87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a770bca396ced31e4da928db0df4b5f87">&#9670;&#160;</a></span>TEST() <span class="overload">[3/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">FontConfigTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CardTextMaxSizeWithoutFamily</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de3/font__config__test_8cpp_a770bca396ced31e4da928db0df4b5f87_cgraph.svg" width="268" height="219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="adc0a6517adaf7f78781bdc9621028e33" name="adc0a6517adaf7f78781bdc9621028e33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc0a6517adaf7f78781bdc9621028e33">&#9670;&#160;</a></span>TEST() <span class="overload">[4/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">FontConfigTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CardTextMinDefaultIsOmitted</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de3/font__config__test_8cpp_adc0a6517adaf7f78781bdc9621028e33_cgraph.svg" width="264" height="167"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae2210a5e995e7e786ba65cb58c63ff24" name="ae2210a5e995e7e786ba65cb58c63ff24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2210a5e995e7e786ba65cb58c63ff24">&#9670;&#160;</a></span>TEST() <span class="overload">[5/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">FontConfigTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CardTextMinRoundTrip</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de3/font__config__test_8cpp_ae2210a5e995e7e786ba65cb58c63ff24_cgraph.svg" width="268" height="219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a6c472a9240d0515484753b300e770b09" name="a6c472a9240d0515484753b300e770b09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c472a9240d0515484753b300e770b09">&#9670;&#160;</a></span>TEST() <span class="overload">[6/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">FontConfigTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CardTextSizesResolveIntoTheEditorsRange</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de3/font__config__test_8cpp_a6c472a9240d0515484753b300e770b09_cgraph.svg" width="530" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a8876a5393c50aae7b43b6fa742626b31" name="a8876a5393c50aae7b43b6fa742626b31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8876a5393c50aae7b43b6fa742626b31">&#9670;&#160;</a></span>TEST() <span class="overload">[1/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8876a5393c50aae7b43b6fa742626b31">&#9670;&#160;</a></span>TEST() <span class="overload">[7/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,7 +371,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="abe02c6353996de6c5a2f315302c4dad5" name="abe02c6353996de6c5a2f315302c4dad5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe02c6353996de6c5a2f315302c4dad5">&#9670;&#160;</a></span>TEST() <span class="overload">[2/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abe02c6353996de6c5a2f315302c4dad5">&#9670;&#160;</a></span>TEST() <span class="overload">[8/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,7 +397,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a33b87948181f7cc21f467e0b61cb0611" name="a33b87948181f7cc21f467e0b61cb0611"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33b87948181f7cc21f467e0b61cb0611">&#9670;&#160;</a></span>TEST() <span class="overload">[3/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a33b87948181f7cc21f467e0b61cb0611">&#9670;&#160;</a></span>TEST() <span class="overload">[9/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -254,8 +422,60 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="aef4bc2d7a5b6db60e8f3ed967c7c082c" name="aef4bc2d7a5b6db60e8f3ed967c7c082c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef4bc2d7a5b6db60e8f3ed967c7c082c">&#9670;&#160;</a></span>TEST() <span class="overload">[10/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">FontConfigTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InequalityComparesMaxSize</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de3/font__config__test_8cpp_aef4bc2d7a5b6db60e8f3ed967c7c082c_cgraph.svg" width="166" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aac151961cd6831268e424522e5822a06" name="aac151961cd6831268e424522e5822a06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac151961cd6831268e424522e5822a06">&#9670;&#160;</a></span>TEST() <span class="overload">[11/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">FontConfigTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InequalityComparesMinSize</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de3/font__config__test_8cpp_aac151961cd6831268e424522e5822a06_cgraph.svg" width="166" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="aaccf81cf7ae1f41a0e81384b12e1e853" name="aaccf81cf7ae1f41a0e81384b12e1e853"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaccf81cf7ae1f41a0e81384b12e1e853">&#9670;&#160;</a></span>TEST() <span class="overload">[4/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaccf81cf7ae1f41a0e81384b12e1e853">&#9670;&#160;</a></span>TEST() <span class="overload">[12/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,7 +501,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="aa6afdcd5995a285cd7ecbf53eac51d20" name="aa6afdcd5995a285cd7ecbf53eac51d20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6afdcd5995a285cd7ecbf53eac51d20">&#9670;&#160;</a></span>TEST() <span class="overload">[5/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6afdcd5995a285cd7ecbf53eac51d20">&#9670;&#160;</a></span>TEST() <span class="overload">[13/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -306,8 +526,86 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a00aaf1a305c66b9d1b9cf68742e11d15" name="a00aaf1a305c66b9d1b9cf68742e11d15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00aaf1a305c66b9d1b9cf68742e11d15">&#9670;&#160;</a></span>TEST() <span class="overload">[14/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">FontConfigTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MalformedMaxIsSkipped</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de3/font__config__test_8cpp_a00aaf1a305c66b9d1b9cf68742e11d15_cgraph.svg" width="264" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a68a1df0ed2b009728ae572ffdbd940ed" name="a68a1df0ed2b009728ae572ffdbd940ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68a1df0ed2b009728ae572ffdbd940ed">&#9670;&#160;</a></span>TEST() <span class="overload">[15/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">FontConfigTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MalformedMinIsSkipped</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de3/font__config__test_8cpp_a68a1df0ed2b009728ae572ffdbd940ed_cgraph.svg" width="264" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aef8594a23086c508ddebe4839fc95da3" name="aef8594a23086c508ddebe4839fc95da3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef8594a23086c508ddebe4839fc95da3">&#9670;&#160;</a></span>TEST() <span class="overload">[16/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">FontConfigTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MigratedCardTextMaxResolvesIntoTheEditorsRange</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/de3/font__config__test_8cpp_aef8594a23086c508ddebe4839fc95da3_cgraph.svg" width="530" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="aea21404dde9f83917b67251c224f8230" name="aea21404dde9f83917b67251c224f8230"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea21404dde9f83917b67251c224f8230">&#9670;&#160;</a></span>TEST() <span class="overload">[6/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aea21404dde9f83917b67251c224f8230">&#9670;&#160;</a></span>TEST() <span class="overload">[17/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -333,7 +631,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a8db06849df315442323979e2ac1398be" name="a8db06849df315442323979e2ac1398be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8db06849df315442323979e2ac1398be">&#9670;&#160;</a></span>TEST() <span class="overload">[7/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8db06849df315442323979e2ac1398be">&#9670;&#160;</a></span>TEST() <span class="overload">[18/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -359,7 +657,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a8e57c0f433dd8775d9fd94afc3fb2e7d" name="a8e57c0f433dd8775d9fd94afc3fb2e7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e57c0f433dd8775d9fd94afc3fb2e7d">&#9670;&#160;</a></span>TEST() <span class="overload">[8/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e57c0f433dd8775d9fd94afc3fb2e7d">&#9670;&#160;</a></span>TEST() <span class="overload">[19/19]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

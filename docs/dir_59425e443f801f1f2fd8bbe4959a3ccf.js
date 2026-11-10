@@ -39,6 +39,7 @@ var dir_59425e443f801f1f2fd8bbe4959a3ccf =
     [ "password_hash_test.cpp", "d5/d3d/password__hash__test_8cpp.html", "d5/d3d/password__hash__test_8cpp" ],
     [ "payload_paths_test.cpp", "d0/dea/payload__paths__test_8cpp.html", "d0/dea/payload__paths__test_8cpp" ],
     [ "playmat_resolver_test.cpp", "d3/ddc/playmat__resolver__test_8cpp.html", "d3/ddc/playmat__resolver__test_8cpp" ],
+    [ "private_chat_paging_test.cpp", "df/d8b/private__chat__paging__test_8cpp.html", "df/d8b/private__chat__paging__test_8cpp" ],
     [ "random_reveal_test.cpp", "d0/d2e/random__reveal__test_8cpp.html", "d0/d2e/random__reveal__test_8cpp" ],
     [ "rate_limiter_test.cpp", "d2/d8a/rate__limiter__test_8cpp.html", "d2/d8a/rate__limiter__test_8cpp" ],
     [ "report_categories_test.cpp", "d4/dbb/report__categories__test_8cpp.html", "d4/dbb/report__categories__test_8cpp" ],

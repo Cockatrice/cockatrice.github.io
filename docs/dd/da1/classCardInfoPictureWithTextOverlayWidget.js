@@ -14,6 +14,7 @@ var classCardInfoPictureWithTextOverlayWidget =
     [ "setTextColor", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a7df727a3b81bc69c9c74ea0d7f3da84b", null ],
     [ "sizeHint", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#adf62161d5dd79f62b1c133955011cce1", null ],
     [ "fontSize", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a5d3bd5b8a6c7a6dbbd3c27c5ce011d2b", null ],
+    [ "hasExplicitFontSize", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#aff97f8f34ae1a3f6d29361a1c605ad99", null ],
     [ "highlighted", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a4dc78da29a048c3c664c290752bc2d7c", null ],
     [ "outlineColor", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a61d1afa35cc23c1cae674956fcfde4b3", null ],
     [ "overlayText", "dd/da1/classCardInfoPictureWithTextOverlayWidget.html#a9b3fbce301d734d9694648b97f5b9aaa", null ],

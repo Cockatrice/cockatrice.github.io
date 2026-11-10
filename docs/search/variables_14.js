@@ -113,7 +113,7 @@ var searchData=
   ['tickclock_110',['tickClock',['../d5/d51/classLagMonitor.html#a2032f7aa2decc1e1052e21e73b32b05b',1,'LagMonitor']]],
   ['ticks_111',['ticks',['../d8/d62/classPendingCommand.html#a8aa2b31da2bf1000fd5cb1b3155fe302',1,'PendingCommand']]],
   ['tiles_112',['tiles',['../d1/d86/classDlgSharedDecksPreview.html#aaf82100d222952add8eed8f808dc0d28',1,'DlgSharedDecksPreview']]],
-  ['time_113',['time',['../df/dcb/structServerInfo__ChatMessage.html#aff3f384f634a158b5c62de9a62b32a1f',1,'ServerInfo_ChatMessage']]],
+  ['time_113',['time',['../df/dcb/structServerInfo__ChatMessage.html#aff3f384f634a158b5c62de9a62b32a1f',1,'ServerInfo_ChatMessage::time'],['../d4/d7d/structServerInfo__PrivateChatMessage.html#a3abba3a9e344310cb0950d6e92492b6b',1,'ServerInfo_PrivateChatMessage::time']]],
   ['time_5fof_114',['time_of',['../d6/d4a/structEvent__RoomChannelSay.html#a095746845324a11ee198064ab6260053',1,'Event_RoomChannelSay::time_of'],['../d9/d02/structEvent__RoomSay.html#abeb4f1cf4129aee3ef9a52fd54f5359c',1,'Event_RoomSay::time_of'],['../d9/d01/structServerInfo__Warning.html#a2793316312e9d3cbbcc9c48e78037ba3',1,'ServerInfo_Warning::time_of']]],
   ['time_5fstarted_115',['time_started',['../d7/d54/structServerInfo__ReplayMatch.html#a9baccb186ed9f31e6f1d15d606d2979f',1,'ServerInfo_ReplayMatch']]],
   ['timeelapsedlabel_116',['timeElapsedLabel',['../de/d08/classTabGame.html#a25e11be4aa706d3b63f1259884e0737c',1,'TabGame']]],

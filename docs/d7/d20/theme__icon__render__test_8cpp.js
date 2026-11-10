@@ -23,6 +23,7 @@ var theme__icon__render__test_8cpp =
     [ "TEST_F", "d7/d20/theme__icon__render__test_8cpp.html#a6923b8b32ea9e36b2b93fbf8839a7356", null ],
     [ "TEST_F", "d7/d20/theme__icon__render__test_8cpp.html#a4c7a658eed1417d535fd2488551e6944", null ],
     [ "TEST_F", "d7/d20/theme__icon__render__test_8cpp.html#a54ee9887e5305ed680bfffb703eca495", null ],
+    [ "TEST_F", "d7/d20/theme__icon__render__test_8cpp.html#a4c88bd7d175366d3ca78143d092ef5b0", null ],
     [ "TEST_F", "d7/d20/theme__icon__render__test_8cpp.html#a3029a9119a64e6088830aaa0e170cd21", null ],
     [ "TEST_F", "d7/d20/theme__icon__render__test_8cpp.html#a03b6367360782a63f52f96f216a2fa9b", null ],
     [ "TEST_F", "d7/d20/theme__icon__render__test_8cpp.html#a2f4ca1748212a001c8136142a892afdb", null ],

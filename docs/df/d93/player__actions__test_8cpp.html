@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -125,6 +125,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('df/d93/player_
 <code>#include &lt;QString&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/db7/player__actions_8h_source.html">libcockatrice/game/player/player_actions.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/da4/table__zone__logic_8h_source.html">libcockatrice/game/zones/table_zone_logic.h</a>&gt;</code><br />
+<code>#include &lt;libcockatrice/protocol/pb/command_create_token.pb.h&gt;</code><br />
 <code>#include &lt;libcockatrice/protocol/pb/command_move_card.pb.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d6/d64/zone__names_8h_source.html">libcockatrice/utility/zone_names.h</a>&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
@@ -140,10 +141,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a6d023daa42a50e4a1b921d0bc874b09b" id="r_a6d023daa42a50e4a1b921d0bc874b09b"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a6d023daa42a50e4a1b921d0bc874b09b">TEST</a> (PlayerActionsTest, PlayInstantSendsMoveToStack)</td></tr>
 <tr class="memitem:a62360ea334896b3cc131bbdfc7e55d5c" id="r_a62360ea334896b3cc131bbdfc7e55d5c"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a62360ea334896b3cc131bbdfc7e55d5c">TEST</a> (PlayerActionsTest, PlayFaceDownCreatureUsesFaceDownRow)</td></tr>
 <tr class="memitem:afe885de529fc8e77faad2b82dfd4722a" id="r_afe885de529fc8e77faad2b82dfd4722a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#afe885de529fc8e77faad2b82dfd4722a">TEST</a> (PlayerActionsTest, PlayCiptCreatureSendsTapped)</td></tr>
+<tr class="memitem:a48e35b9439accff717e8cd29eb8f6d53" id="r_a48e35b9439accff717e8cd29eb8f6d53"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a48e35b9439accff717e8cd29eb8f6d53">TEST</a> (TokenCommandTest, FaceDownKnownTokenDoesNotRestoreDatabasePowerToughness)</td></tr>
+<tr class="memitem:a5a9f1ee612a0ab9eee7f8382bf727a6a" id="r_a5a9f1ee612a0ab9eee7f8382bf727a6a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a5a9f1ee612a0ab9eee7f8382bf727a6a">TEST</a> (TokenCommandTest, FaceUpKnownAliasKeepsCanonicalNameAndDefaultPowerToughness)</td></tr>
+<tr class="memitem:aa9a9a0840468422c59fec3f3482ad2a1" id="r_aa9a9a0840468422c59fec3f3482ad2a1"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aa9a9a0840468422c59fec3f3482ad2a1">TEST</a> (TokenCommandTest, FaceUpKnownTokenPreservesExplicitPowerToughness)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="afe885de529fc8e77faad2b82dfd4722a" name="afe885de529fc8e77faad2b82dfd4722a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe885de529fc8e77faad2b82dfd4722a">&#9670;&#160;</a></span>TEST() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afe885de529fc8e77faad2b82dfd4722a">&#9670;&#160;</a></span>TEST() <span class="overload">[1/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,7 +173,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ad0cde111d16e1045c34bcf57f432bd67" name="ad0cde111d16e1045c34bcf57f432bd67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0cde111d16e1045c34bcf57f432bd67">&#9670;&#160;</a></span>TEST() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0cde111d16e1045c34bcf57f432bd67">&#9670;&#160;</a></span>TEST() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,7 +199,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a62360ea334896b3cc131bbdfc7e55d5c" name="a62360ea334896b3cc131bbdfc7e55d5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62360ea334896b3cc131bbdfc7e55d5c">&#9670;&#160;</a></span>TEST() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a62360ea334896b3cc131bbdfc7e55d5c">&#9670;&#160;</a></span>TEST() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +225,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a6d023daa42a50e4a1b921d0bc874b09b" name="a6d023daa42a50e4a1b921d0bc874b09b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d023daa42a50e4a1b921d0bc874b09b">&#9670;&#160;</a></span>TEST() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d023daa42a50e4a1b921d0bc874b09b">&#9670;&#160;</a></span>TEST() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,6 +246,84 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d93/player__actions__test_8cpp_a6d023daa42a50e4a1b921d0bc874b09b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a48e35b9439accff717e8cd29eb8f6d53" name="a48e35b9439accff717e8cd29eb8f6d53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48e35b9439accff717e8cd29eb8f6d53">&#9670;&#160;</a></span>TEST() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">TokenCommandTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceDownKnownTokenDoesNotRestoreDatabasePowerToughness</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d93/player__actions__test_8cpp_a48e35b9439accff717e8cd29eb8f6d53_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a5a9f1ee612a0ab9eee7f8382bf727a6a" name="a5a9f1ee612a0ab9eee7f8382bf727a6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a9f1ee612a0ab9eee7f8382bf727a6a">&#9670;&#160;</a></span>TEST() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">TokenCommandTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceUpKnownAliasKeepsCanonicalNameAndDefaultPowerToughness</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d93/player__actions__test_8cpp_a5a9f1ee612a0ab9eee7f8382bf727a6a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aa9a9a0840468422c59fec3f3482ad2a1" name="aa9a9a0840468422c59fec3f3482ad2a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9a9a0840468422c59fec3f3482ad2a1">&#9670;&#160;</a></span>TEST() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">TokenCommandTest</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FaceUpKnownTokenPreservesExplicitPowerToughness</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../df/d93/player__actions__test_8cpp_aa9a9a0840468422c59fec3f3482ad2a1_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

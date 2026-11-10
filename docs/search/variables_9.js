@@ -141,7 +141,7 @@ var searchData=
   ['isfetching_138',['isFetching',['../d9/ded/classTabLog.html#a1f4898bd411c83ad59326a9a43068c1e',1,'TabLog']]],
   ['isfirstapply_139',['isFirstApply',['../d3/d27/classBannerHost.html#a13613045e01ccf54163a476a47d14a01',1,'BannerHost']]],
   ['ishovered_140',['isHovered',['../d4/db9/classAbstractCardItem.html#aeb90281dc3d536d4b0d6e456c068f551',1,'AbstractCardItem::isHovered'],['../d1/d46/classColorBar.html#a4cae9040763ba871d20c0354fa03f8bc',1,'ColorBar::isHovered'],['../d9/d42/classColorPie.html#a3bdb01844b5139d271ff4ea9e96eb40e',1,'ColorPie::isHovered']]],
-  ['ishoverhighlighted_141',['isHoverHighlighted',['../d4/db9/classAbstractCardItem.html#a2bfbea6651dcabcb2875bc8367f0d733',1,'AbstractCardItem']]],
+  ['ishoverzoomed_141',['isHoverZoomed',['../d4/db9/classAbstractCardItem.html#a456c686c48ab3e08bafb5de2e6779f43',1,'AbstractCardItem']]],
   ['isjudge_142',['isJudge',['../d9/df6/structRoleInfo.html#a76ce14da021c28c91b55bb964ada86d0',1,'RoleInfo']]],
   ['isknown_143',['isKnown',['../d0/db0/structICardSetPriorityController_1_1SetSaveData.html#a16f54289993c7b863cea3e1ef41837f2',1,'ICardSetPriorityController::SetSaveData::isKnown'],['../d7/d77/structICardSetPriorityController_1_1SetOptions.html#af06b0a3b112966f37bd001219eb055b3',1,'ICardSetPriorityController::SetOptions::isKnown']]],
   ['isknown_144',['isknown',['../d6/d3d/classCardSet.html#a80339545c8846e0b4366b5552219f6c7',1,'CardSet']]],

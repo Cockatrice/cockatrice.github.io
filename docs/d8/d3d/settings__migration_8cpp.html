@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -138,6 +138,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d8/d3d/setting
 <code>#include &lt;QSharedPointer&gt;</code><br />
 <code>#include &lt;QStringList&gt;</code><br />
 <code>#include &lt;QStringLiteral&gt;</code><br />
+<code>#include &lt;QTextStream&gt;</code><br />
 <code>#include &lt;QVariant&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
@@ -163,6 +164,10 @@ Functions</h2></td></tr>
 <tr class="memitem:aca8a85ee5ffc5c3846d645297541eae0" id="r_aca8a85ee5ffc5c3846d645297541eae0"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aca8a85ee5ffc5c3846d645297541eae0">migrateInterfaceSettings</a> (const QString &amp;settingsPath, QSettings &amp;globalIni)</td></tr>
 <tr class="memitem:acf96fb80f68e2becdb392b16e0b4b4cd" id="r_acf96fb80f68e2becdb392b16e0b4b4cd"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#acf96fb80f68e2becdb392b16e0b4b4cd">migrateDownloadSettings</a> (const QString &amp;settingsPath, QSettings &amp;globalIni)</td></tr>
 <tr class="memitem:a5aaea50f93f8e4b8f7f0fec884c0f525" id="r_a5aaea50f93f8e4b8f7f0fec884c0f525"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a5aaea50f93f8e4b8f7f0fec884c0f525">migrateAppearanceSettings</a> (const QString &amp;settingsPath, QSettings &amp;globalIni)</td></tr>
+<tr class="memitem:ab06cbd697d5c212a7cf56f7013165b6c" id="r_ab06cbd697d5c212a7cf56f7013165b6c"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#ab06cbd697d5c212a7cf56f7013165b6c">themesPathForSettings</a> (const QString &amp;settingsPath)</td></tr>
+<tr class="memitem:a6c8ebf636079284b969a57a593a505d8" id="r_a6c8ebf636079284b969a57a593a505d8"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a6c8ebf636079284b969a57a593a505d8">fontsTomlHasExplicitCardTextMax</a> (const QString &amp;filePath)</td></tr>
+<tr class="memitem:a7f478e697b99eae8579f837f810ad6ba" id="r_a7f478e697b99eae8579f837f810ad6ba"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a7f478e697b99eae8579f837f810ad6ba">seedCardTextMaxIntoThemeDir</a> (const QString &amp;themeDirPath, int maxSize)</td></tr>
+<tr class="memitem:a0b0bb341e11b52c5ed3d2bc5eac8224c" id="r_a0b0bb341e11b52c5ed3d2bc5eac8224c"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a0b0bb341e11b52c5ed3d2bc5eac8224c">appearanceMaxFontSizeMigrationPending</a> (const QString &amp;settingsPath)</td></tr>
 <tr class="memitem:a143e76fa4fdbff32c2186beabd8d576b" id="r_a143e76fa4fdbff32c2186beabd8d576b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a143e76fa4fdbff32c2186beabd8d576b">migrateNetworkSettings</a> (const QString &amp;settingsPath, QSettings &amp;globalIni)</td></tr>
 <tr class="memitem:a22b4a9fb33e426128fa38d23672a4e0b" id="r_a22b4a9fb33e426128fa38d23672a4e0b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a22b4a9fb33e426128fa38d23672a4e0b">migratePathsSettings</a> (const QString &amp;settingsPath, QSettings &amp;globalIni)</td></tr>
 <tr class="memitem:afe417c41b3e1b782844d6441fb546cd9" id="r_afe417c41b3e1b782844d6441fb546cd9"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#afe417c41b3e1b782844d6441fb546cd9">migrateVisualDeckStorageSettings</a> (const QString &amp;settingsPath, QSettings &amp;globalIni)</td></tr>
@@ -181,6 +186,76 @@ Variables</h2></td></tr>
 <tr class="memitem:a981962cd6562518f4e591b1db5a45516" id="r_a981962cd6562518f4e591b1db5a45516"><td class="memItemLeft">static const QString&#160;</td><td class="memItemRight"><a class="el" href="#a981962cd6562518f4e591b1db5a45516">GAME_FILTERS_GAME_TYPE_PREFIX</a> = QStringLiteral(&quot;filter_games/gameType/&quot;)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a0b0bb341e11b52c5ed3d2bc5eac8224c" name="a0b0bb341e11b52c5ed3d2bc5eac8224c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b0bb341e11b52c5ed3d2bc5eac8224c">&#9670;&#160;</a></span>appearanceMaxFontSizeMigrationPending()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool appearanceMaxFontSizeMigrationPending </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>settingsPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_a0b0bb341e11b52c5ed3d2bc5eac8224c_cgraph.svg" width="254" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_a0b0bb341e11b52c5ed3d2bc5eac8224c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a6c8ebf636079284b969a57a593a505d8" name="a6c8ebf636079284b969a57a593a505d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c8ebf636079284b969a57a593a505d8">&#9670;&#160;</a></span>fontsTomlHasExplicitCardTextMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool fontsTomlHasExplicitCardTextMax </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_a6c8ebf636079284b969a57a593a505d8_cgraph.svg" width="199" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_a6c8ebf636079284b969a57a593a505d8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a666f57a1dfe31afed94084ee45161c24" name="a666f57a1dfe31afed94084ee45161c24"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a666f57a1dfe31afed94084ee45161c24">&#9670;&#160;</a></span>gameFiltersCamelCaseMigrationPending()</h2>
 
@@ -1082,6 +1157,80 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_a87a9b144cfc285f2ed4f0ee3f1830c89_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a7f478e697b99eae8579f837f810ad6ba" name="a7f478e697b99eae8579f837f810ad6ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f478e697b99eae8579f837f810ad6ba">&#9670;&#160;</a></span>seedCardTextMaxIntoThemeDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool seedCardTextMaxIntoThemeDir </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>themeDirPath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_a7f478e697b99eae8579f837f810ad6ba_cgraph.svg" width="474" height="80"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_a7f478e697b99eae8579f837f810ad6ba_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab06cbd697d5c212a7cf56f7013165b6c" name="ab06cbd697d5c212a7cf56f7013165b6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab06cbd697d5c212a7cf56f7013165b6c">&#9670;&#160;</a></span>themesPathForSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString themesPathForSettings </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>settingsPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_ab06cbd697d5c212a7cf56f7013165b6c_cgraph.svg" width="183" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d8/d3d/settings__migration_8cpp_ab06cbd697d5c212a7cf56f7013165b6c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

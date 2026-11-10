@@ -39,8 +39,6 @@ var classAppearanceSettingsPage =
     [ "horizontalHandCheckBox", "d8/dc5/classAppearanceSettingsPage.html#a43522582d1379310737cca43da8ee748", null ],
     [ "invertVerticalCoordinateCheckBox", "d8/dc5/classAppearanceSettingsPage.html#a0c7ef6abb21ec201a12c5218c1474e52", null ],
     [ "leftJustifiedHandCheckBox", "d8/dc5/classAppearanceSettingsPage.html#ac2ee82cf44714aa73a0ad9c1d85d78de", null ],
-    [ "maxFontSizeForCardsEdit", "d8/dc5/classAppearanceSettingsPage.html#ada1fce21fd6f5bf9a8621b4d47c93f58", null ],
-    [ "maxFontSizeForCardsLabel", "d8/dc5/classAppearanceSettingsPage.html#aa2972a90e883e7a2d1a082a06770ecac", null ],
     [ "menuGroupBox", "d8/dc5/classAppearanceSettingsPage.html#a85c619be68c21926d15b6ed32222978d", null ],
     [ "minPlayersForMultiColumnLayoutEdit", "d8/dc5/classAppearanceSettingsPage.html#a97419ff52732f6408cb33a86a7d535d8", null ],
     [ "minPlayersForMultiColumnLayoutLabel", "d8/dc5/classAppearanceSettingsPage.html#a10e96e4a3b371155749e781b8d7e0437", null ],

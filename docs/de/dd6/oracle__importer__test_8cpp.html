@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -122,6 +122,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('de/dd6/oracle_
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d6/d62/database__writer_8h_source.html">../../oracle/src/database_writer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/dac/oracleimporter_8h_source.html">../../oracle/src/oracleimporter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d57/parsehelpers_8h_source.html">../../oracle/src/parsehelpers.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d85/raw__json__scanner_8h_source.html">../../oracle/src/raw_json_scanner.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d26/tag__database_8h_source.html">../../oracle/src/tag_database.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/de3/scoped__file__size__limit_8h_source.html">../support/scoped_file_size_limit.h</a>&quot;</code><br />
@@ -131,6 +132,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('de/dd6/oracle_
 <code>#include &lt;QChar&gt;</code><br />
 <code>#include &lt;QDate&gt;</code><br />
 <code>#include &lt;QFile&gt;</code><br />
+<code>#include &lt;QIODevice&gt;</code><br />
 <code>#include &lt;QJsonArray&gt;</code><br />
 <code>#include &lt;QJsonDocument&gt;</code><br />
 <code>#include &lt;QJsonObject&gt;</code><br />
@@ -150,6 +152,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('de/dd6/oracle_
 <code>#include &lt;QVariant&gt;</code><br />
 <code>#include &lt;QVariantMap&gt;</code><br />
 <code>#include &lt;QtGlobal&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/d5f/card__database__data_8h_source.html">libcockatrice/card/database/card_database_data.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d5/d69/cockatrice__xml__4_8h_source.html">libcockatrice/card/database/parser/cockatrice_xml_4.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../de/d2f/format__legality__rules_8h_source.html">libcockatrice/card/format/format_legality_rules.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/dda/card__set_8h_source.html">libcockatrice/card/set/card_set.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/dd1/noop__card__set__priority__controller_8h_source.html">libcockatrice/interfaces/noop_card_set_priority_controller.h</a>&gt;</code><br />
@@ -181,6 +185,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ae7972f8bcad960c9cb7ffc8471ce01fb" id="r_ae7972f8bcad960c9cb7ffc8471ce01fb"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ae7972f8bcad960c9cb7ffc8471ce01fb">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, CreateDefaultMagicFormatsVintageHasRestricted)</td></tr>
 <tr class="memitem:a52a45b22ce70ecdf7c21bb33c150d212" id="r_a52a45b22ce70ecdf7c21bb33c150d212"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a52a45b22ce70ecdf7c21bb33c150d212">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, CreateDefaultMagicFormatsRegexMatchesBasicLands)</td></tr>
 <tr class="memitem:aec5816b1cec35b69f61b3c99bfa269e3" id="r_aec5816b1cec35b69f61b3c99bfa269e3"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aec5816b1cec35b69f61b3c99bfa269e3">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, CreateDefaultMagicFormatsCaching)</td></tr>
+<tr class="memitem:a906ae8f171374281e330718b22364df7" id="r_a906ae8f171374281e330718b22364df7"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a906ae8f171374281e330718b22364df7">TEST</a> (DeckCopyLimitParser, ReadsNamedAllowancesWithoutACardNameList)</td></tr>
+<tr class="memitem:adad3ed02ac692c939d3a2851554b94b6" id="r_adad3ed02ac692c939d3a2851554b94b6"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#adad3ed02ac692c939d3a2851554b94b6">TEST</a> (DeckCopyLimitParser, RejectsUnknownMalformedAndOtherCardRules)</td></tr>
+<tr class="memitem:a24d393305ddb5c521155a6e2d4760211" id="r_a24d393305ddb5c521155a6e2d4760211"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a24d393305ddb5c521155a6e2d4760211">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, CreateDefaultMagicFormatsDerivesFiniteLimitsFromCanonicalText)</td></tr>
+<tr class="memitem:aaace7b9358d4d6e21a5e21af34a7d7c4" id="r_aaace7b9358d4d6e21a5e21af34a7d7c4"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aaace7b9358d4d6e21a5e21af34a7d7c4">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, FiniteCopyAllowancesDoNotOverrideFormatEligibility)</td></tr>
+<tr class="memitem:ad01100ab0c114c0276110308f53d76d3" id="r_ad01100ab0c114c0276110308f53d76d3"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad01100ab0c114c0276110308f53d76d3">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, DerivedFormatCacheRefreshesWithoutChangingSharedDefaults)</td></tr>
+<tr class="memitem:afa44ba731cf4d919f97476a8874e3ab5" id="r_afa44ba731cf4d919f97476a8874e3ab5"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#afa44ba731cf4d919f97476a8874e3ab5">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, FiniteCopyRulesSurviveImportSaveAndXmlReload)</td></tr>
 <tr class="memitem:aaf9b84a5f8427260f07fbc97635bacc4" id="r_aaf9b84a5f8427260f07fbc97635bacc4"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#aaf9b84a5f8427260f07fbc97635bacc4">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, ReadSetsFromByteArrayValidJson)</td></tr>
 <tr class="memitem:ac9b711c6bfa8df5587e3a6a1f193ed62" id="r_ac9b711c6bfa8df5587e3a6a1f193ed62"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ac9b711c6bfa8df5587e3a6a1f193ed62">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, ReadSetsFromByteArrayInvalidJson)</td></tr>
 <tr class="memitem:ac1f2dc2f62b5f8e9f0b955a9fe54b5df" id="r_ac1f2dc2f62b5f8e9f0b955a9fe54b5df"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ac1f2dc2f62b5f8e9f0b955a9fe54b5df">TEST_F</a> (<a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a>, ReadSetsFromByteArrayEmptyData)</td></tr>
@@ -262,8 +272,60 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a906ae8f171374281e330718b22364df7" name="a906ae8f171374281e330718b22364df7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a906ae8f171374281e330718b22364df7">&#9670;&#160;</a></span>TEST() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">DeckCopyLimitParser</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ReadsNamedAllowancesWithoutACardNameList</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_a906ae8f171374281e330718b22364df7_cgraph.svg" width="268" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="adad3ed02ac692c939d3a2851554b94b6" name="adad3ed02ac692c939d3a2851554b94b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adad3ed02ac692c939d3a2851554b94b6">&#9670;&#160;</a></span>TEST() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">DeckCopyLimitParser</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RejectsUnknownMalformedAndOtherCardRules</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_adad3ed02ac692c939d3a2851554b94b6_cgraph.svg" width="268" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="af16354192511a544ea684cc8d4c2fbc4" name="af16354192511a544ea684cc8d4c2fbc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af16354192511a544ea684cc8d4c2fbc4">&#9670;&#160;</a></span>TEST() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af16354192511a544ea684cc8d4c2fbc4">&#9670;&#160;</a></span>TEST() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -289,7 +351,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a1b327a73394f33c73dc09ff85edba55d" name="a1b327a73394f33c73dc09ff85edba55d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b327a73394f33c73dc09ff85edba55d">&#9670;&#160;</a></span>TEST() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b327a73394f33c73dc09ff85edba55d">&#9670;&#160;</a></span>TEST() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,7 +377,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a28b2d2f7e9356bd09c1a596a2834e129" name="a28b2d2f7e9356bd09c1a596a2834e129"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28b2d2f7e9356bd09c1a596a2834e129">&#9670;&#160;</a></span>TEST() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a28b2d2f7e9356bd09c1a596a2834e129">&#9670;&#160;</a></span>TEST() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -341,7 +403,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a67fa9ad514613f01a1f1b439121ac542" name="a67fa9ad514613f01a1f1b439121ac542"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67fa9ad514613f01a1f1b439121ac542">&#9670;&#160;</a></span>TEST() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a67fa9ad514613f01a1f1b439121ac542">&#9670;&#160;</a></span>TEST() <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +429,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a233d981075e1291c19fbbc638cc73eab" name="a233d981075e1291c19fbbc638cc73eab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a233d981075e1291c19fbbc638cc73eab">&#9670;&#160;</a></span>TEST() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a233d981075e1291c19fbbc638cc73eab">&#9670;&#160;</a></span>TEST() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -393,7 +455,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a5ad7dc4053fed9bf8885588bd825be81" name="a5ad7dc4053fed9bf8885588bd825be81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ad7dc4053fed9bf8885588bd825be81">&#9670;&#160;</a></span>TEST_F() <span class="overload">[1/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ad7dc4053fed9bf8885588bd825be81">&#9670;&#160;</a></span>TEST_F() <span class="overload">[1/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -419,7 +481,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="adecc3e2d5578c23ac7d13d8c1673ba38" name="adecc3e2d5578c23ac7d13d8c1673ba38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adecc3e2d5578c23ac7d13d8c1673ba38">&#9670;&#160;</a></span>TEST_F() <span class="overload">[2/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adecc3e2d5578c23ac7d13d8c1673ba38">&#9670;&#160;</a></span>TEST_F() <span class="overload">[2/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,7 +507,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a567a3a685a59b92aea97bea3db00166f" name="a567a3a685a59b92aea97bea3db00166f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a567a3a685a59b92aea97bea3db00166f">&#9670;&#160;</a></span>TEST_F() <span class="overload">[3/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a567a3a685a59b92aea97bea3db00166f">&#9670;&#160;</a></span>TEST_F() <span class="overload">[3/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -471,7 +533,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a0ce2b29cd2b1df4558c740a07675da46" name="a0ce2b29cd2b1df4558c740a07675da46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ce2b29cd2b1df4558c740a07675da46">&#9670;&#160;</a></span>TEST_F() <span class="overload">[4/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ce2b29cd2b1df4558c740a07675da46">&#9670;&#160;</a></span>TEST_F() <span class="overload">[4/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -497,7 +559,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a36d669e26eec81de78baa75af3a9e2a1" name="a36d669e26eec81de78baa75af3a9e2a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36d669e26eec81de78baa75af3a9e2a1">&#9670;&#160;</a></span>TEST_F() <span class="overload">[5/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d669e26eec81de78baa75af3a9e2a1">&#9670;&#160;</a></span>TEST_F() <span class="overload">[5/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -523,7 +585,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="adee7e1f172f58087ec1e6b71309eb000" name="adee7e1f172f58087ec1e6b71309eb000"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adee7e1f172f58087ec1e6b71309eb000">&#9670;&#160;</a></span>TEST_F() <span class="overload">[6/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adee7e1f172f58087ec1e6b71309eb000">&#9670;&#160;</a></span>TEST_F() <span class="overload">[6/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -549,7 +611,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ac53e132f2e0c2b16c3626835e2b5bbba" name="ac53e132f2e0c2b16c3626835e2b5bbba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac53e132f2e0c2b16c3626835e2b5bbba">&#9670;&#160;</a></span>TEST_F() <span class="overload">[7/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac53e132f2e0c2b16c3626835e2b5bbba">&#9670;&#160;</a></span>TEST_F() <span class="overload">[7/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -575,7 +637,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="aec5816b1cec35b69f61b3c99bfa269e3" name="aec5816b1cec35b69f61b3c99bfa269e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec5816b1cec35b69f61b3c99bfa269e3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[8/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aec5816b1cec35b69f61b3c99bfa269e3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[8/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -601,7 +663,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="af5a290b9c980eb84a5102bb6bef9e8b8" name="af5a290b9c980eb84a5102bb6bef9e8b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5a290b9c980eb84a5102bb6bef9e8b8">&#9670;&#160;</a></span>TEST_F() <span class="overload">[9/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af5a290b9c980eb84a5102bb6bef9e8b8">&#9670;&#160;</a></span>TEST_F() <span class="overload">[9/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -626,8 +688,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a24d393305ddb5c521155a6e2d4760211" name="a24d393305ddb5c521155a6e2d4760211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24d393305ddb5c521155a6e2d4760211">&#9670;&#160;</a></span>TEST_F() <span class="overload">[10/65]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CreateDefaultMagicFormatsDerivesFiniteLimitsFromCanonicalText</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_a24d393305ddb5c521155a6e2d4760211_cgraph.svg" width="100%" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a52a45b22ce70ecdf7c21bb33c150d212" name="a52a45b22ce70ecdf7c21bb33c150d212"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52a45b22ce70ecdf7c21bb33c150d212">&#9670;&#160;</a></span>TEST_F() <span class="overload">[10/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a52a45b22ce70ecdf7c21bb33c150d212">&#9670;&#160;</a></span>TEST_F() <span class="overload">[11/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -653,7 +741,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a754c91eca1dbb2bc31dbc9a63d0a0d35" name="a754c91eca1dbb2bc31dbc9a63d0a0d35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a754c91eca1dbb2bc31dbc9a63d0a0d35">&#9670;&#160;</a></span>TEST_F() <span class="overload">[11/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a754c91eca1dbb2bc31dbc9a63d0a0d35">&#9670;&#160;</a></span>TEST_F() <span class="overload">[12/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -679,7 +767,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ae7972f8bcad960c9cb7ffc8471ce01fb" name="ae7972f8bcad960c9cb7ffc8471ce01fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7972f8bcad960c9cb7ffc8471ce01fb">&#9670;&#160;</a></span>TEST_F() <span class="overload">[12/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7972f8bcad960c9cb7ffc8471ce01fb">&#9670;&#160;</a></span>TEST_F() <span class="overload">[13/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -705,7 +793,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a89687c8621a7632651a4c7d9751ddc16" name="a89687c8621a7632651a4c7d9751ddc16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89687c8621a7632651a4c7d9751ddc16">&#9670;&#160;</a></span>TEST_F() <span class="overload">[13/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a89687c8621a7632651a4c7d9751ddc16">&#9670;&#160;</a></span>TEST_F() <span class="overload">[14/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -730,8 +818,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="ad01100ab0c114c0276110308f53d76d3" name="ad01100ab0c114c0276110308f53d76d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad01100ab0c114c0276110308f53d76d3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[15/65]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DerivedFormatCacheRefreshesWithoutChangingSharedDefaults</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_ad01100ab0c114c0276110308f53d76d3_cgraph.svg" width="100%" height="473"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a71a77e31e80de2e4c2d611fcd2469b19" name="a71a77e31e80de2e4c2d611fcd2469b19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71a77e31e80de2e4c2d611fcd2469b19">&#9670;&#160;</a></span>TEST_F() <span class="overload">[14/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a71a77e31e80de2e4c2d611fcd2469b19">&#9670;&#160;</a></span>TEST_F() <span class="overload">[16/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -757,7 +871,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ab901980a42fa31dac8f92eed59463a24" name="ab901980a42fa31dac8f92eed59463a24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab901980a42fa31dac8f92eed59463a24">&#9670;&#160;</a></span>TEST_F() <span class="overload">[15/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab901980a42fa31dac8f92eed59463a24">&#9670;&#160;</a></span>TEST_F() <span class="overload">[17/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -783,7 +897,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a1f7c0c97c1d25d16b1be72a961ebf40f" name="a1f7c0c97c1d25d16b1be72a961ebf40f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f7c0c97c1d25d16b1be72a961ebf40f">&#9670;&#160;</a></span>TEST_F() <span class="overload">[16/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f7c0c97c1d25d16b1be72a961ebf40f">&#9670;&#160;</a></span>TEST_F() <span class="overload">[18/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -809,7 +923,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a22f833df085e06ad79ede89263b41b04" name="a22f833df085e06ad79ede89263b41b04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22f833df085e06ad79ede89263b41b04">&#9670;&#160;</a></span>TEST_F() <span class="overload">[17/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a22f833df085e06ad79ede89263b41b04">&#9670;&#160;</a></span>TEST_F() <span class="overload">[19/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -835,7 +949,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="af7e4b009eb5e1a5ecace76253f31f6a8" name="af7e4b009eb5e1a5ecace76253f31f6a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7e4b009eb5e1a5ecace76253f31f6a8">&#9670;&#160;</a></span>TEST_F() <span class="overload">[18/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af7e4b009eb5e1a5ecace76253f31f6a8">&#9670;&#160;</a></span>TEST_F() <span class="overload">[20/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -860,8 +974,60 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="aaace7b9358d4d6e21a5e21af34a7d7c4" name="aaace7b9358d4d6e21a5e21af34a7d7c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaace7b9358d4d6e21a5e21af34a7d7c4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[21/65]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FiniteCopyAllowancesDoNotOverrideFormatEligibility</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_aaace7b9358d4d6e21a5e21af34a7d7c4_cgraph.svg" width="100%" height="464"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="afa44ba731cf4d919f97476a8874e3ab5" name="afa44ba731cf4d919f97476a8874e3ab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa44ba731cf4d919f97476a8874e3ab5">&#9670;&#160;</a></span>TEST_F() <span class="overload">[22/65]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST_F </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d20/classOracleImporterTest.html">OracleImporterTest</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FiniteCopyRulesSurviveImportSaveAndXmlReload</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../de/dd6/oracle__importer__test_8cpp_afa44ba731cf4d919f97476a8874e3ab5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a616271e0112ada8beacf7511f33b1227" name="a616271e0112ada8beacf7511f33b1227"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a616271e0112ada8beacf7511f33b1227">&#9670;&#160;</a></span>TEST_F() <span class="overload">[19/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a616271e0112ada8beacf7511f33b1227">&#9670;&#160;</a></span>TEST_F() <span class="overload">[23/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -887,7 +1053,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a3d43ce2297e0e90b980bc2554ec1e8ca" name="a3d43ce2297e0e90b980bc2554ec1e8ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d43ce2297e0e90b980bc2554ec1e8ca">&#9670;&#160;</a></span>TEST_F() <span class="overload">[20/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d43ce2297e0e90b980bc2554ec1e8ca">&#9670;&#160;</a></span>TEST_F() <span class="overload">[24/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -913,7 +1079,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a45a185674be286e5a8328528dbe9ee22" name="a45a185674be286e5a8328528dbe9ee22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45a185674be286e5a8328528dbe9ee22">&#9670;&#160;</a></span>TEST_F() <span class="overload">[21/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a45a185674be286e5a8328528dbe9ee22">&#9670;&#160;</a></span>TEST_F() <span class="overload">[25/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -939,7 +1105,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ab6531efb7912f2ffc36a04e99168bc0b" name="ab6531efb7912f2ffc36a04e99168bc0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6531efb7912f2ffc36a04e99168bc0b">&#9670;&#160;</a></span>TEST_F() <span class="overload">[22/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6531efb7912f2ffc36a04e99168bc0b">&#9670;&#160;</a></span>TEST_F() <span class="overload">[26/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -965,7 +1131,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ac3fc687bed60d809a23ba334ef22e4c5" name="ac3fc687bed60d809a23ba334ef22e4c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3fc687bed60d809a23ba334ef22e4c5">&#9670;&#160;</a></span>TEST_F() <span class="overload">[23/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3fc687bed60d809a23ba334ef22e4c5">&#9670;&#160;</a></span>TEST_F() <span class="overload">[27/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -991,7 +1157,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="abd9920f251f7b4f3f3141ce04044d8d4" name="abd9920f251f7b4f3f3141ce04044d8d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd9920f251f7b4f3f3141ce04044d8d4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[24/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abd9920f251f7b4f3f3141ce04044d8d4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[28/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1017,7 +1183,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a622e659a914fa29d5999d3dc050e279f" name="a622e659a914fa29d5999d3dc050e279f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a622e659a914fa29d5999d3dc050e279f">&#9670;&#160;</a></span>TEST_F() <span class="overload">[25/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a622e659a914fa29d5999d3dc050e279f">&#9670;&#160;</a></span>TEST_F() <span class="overload">[29/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1043,7 +1209,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ad6a4614bc48effb38999e4f01b547492" name="ad6a4614bc48effb38999e4f01b547492"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6a4614bc48effb38999e4f01b547492">&#9670;&#160;</a></span>TEST_F() <span class="overload">[26/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a4614bc48effb38999e4f01b547492">&#9670;&#160;</a></span>TEST_F() <span class="overload">[30/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1069,7 +1235,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a687db99a7eac3fe26e33c2db3e56feba" name="a687db99a7eac3fe26e33c2db3e56feba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a687db99a7eac3fe26e33c2db3e56feba">&#9670;&#160;</a></span>TEST_F() <span class="overload">[27/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a687db99a7eac3fe26e33c2db3e56feba">&#9670;&#160;</a></span>TEST_F() <span class="overload">[31/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1095,7 +1261,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a1d8df793e4498c02cb79013c8839032e" name="a1d8df793e4498c02cb79013c8839032e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d8df793e4498c02cb79013c8839032e">&#9670;&#160;</a></span>TEST_F() <span class="overload">[28/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d8df793e4498c02cb79013c8839032e">&#9670;&#160;</a></span>TEST_F() <span class="overload">[32/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1121,7 +1287,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a134f4117928a9845e0963300b42747b9" name="a134f4117928a9845e0963300b42747b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a134f4117928a9845e0963300b42747b9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[29/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a134f4117928a9845e0963300b42747b9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[33/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1147,7 +1313,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a35a39d8af5715bbbd5ca8c58dcc1f217" name="a35a39d8af5715bbbd5ca8c58dcc1f217"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35a39d8af5715bbbd5ca8c58dcc1f217">&#9670;&#160;</a></span>TEST_F() <span class="overload">[30/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a35a39d8af5715bbbd5ca8c58dcc1f217">&#9670;&#160;</a></span>TEST_F() <span class="overload">[34/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1173,7 +1339,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a0b22265de32bfb1a7e10078f497c5425" name="a0b22265de32bfb1a7e10078f497c5425"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b22265de32bfb1a7e10078f497c5425">&#9670;&#160;</a></span>TEST_F() <span class="overload">[31/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b22265de32bfb1a7e10078f497c5425">&#9670;&#160;</a></span>TEST_F() <span class="overload">[35/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1199,7 +1365,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="aaa47438806017c332c631e240be1f44d" name="aaa47438806017c332c631e240be1f44d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa47438806017c332c631e240be1f44d">&#9670;&#160;</a></span>TEST_F() <span class="overload">[32/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa47438806017c332c631e240be1f44d">&#9670;&#160;</a></span>TEST_F() <span class="overload">[36/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1225,7 +1391,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a5c03a9c905156f07dd1750c4f76a75b7" name="a5c03a9c905156f07dd1750c4f76a75b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c03a9c905156f07dd1750c4f76a75b7">&#9670;&#160;</a></span>TEST_F() <span class="overload">[33/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c03a9c905156f07dd1750c4f76a75b7">&#9670;&#160;</a></span>TEST_F() <span class="overload">[37/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1251,7 +1417,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a61d4e7da9d60d82755dfd6966226ede3" name="a61d4e7da9d60d82755dfd6966226ede3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61d4e7da9d60d82755dfd6966226ede3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[34/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a61d4e7da9d60d82755dfd6966226ede3">&#9670;&#160;</a></span>TEST_F() <span class="overload">[38/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1277,7 +1443,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a0e9499504012c4bcba5cb70f0a2bc625" name="a0e9499504012c4bcba5cb70f0a2bc625"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e9499504012c4bcba5cb70f0a2bc625">&#9670;&#160;</a></span>TEST_F() <span class="overload">[35/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e9499504012c4bcba5cb70f0a2bc625">&#9670;&#160;</a></span>TEST_F() <span class="overload">[39/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1303,7 +1469,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ac1f2dc2f62b5f8e9f0b955a9fe54b5df" name="ac1f2dc2f62b5f8e9f0b955a9fe54b5df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1f2dc2f62b5f8e9f0b955a9fe54b5df">&#9670;&#160;</a></span>TEST_F() <span class="overload">[36/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1f2dc2f62b5f8e9f0b955a9fe54b5df">&#9670;&#160;</a></span>TEST_F() <span class="overload">[40/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1329,7 +1495,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ac9b711c6bfa8df5587e3a6a1f193ed62" name="ac9b711c6bfa8df5587e3a6a1f193ed62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9b711c6bfa8df5587e3a6a1f193ed62">&#9670;&#160;</a></span>TEST_F() <span class="overload">[37/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b711c6bfa8df5587e3a6a1f193ed62">&#9670;&#160;</a></span>TEST_F() <span class="overload">[41/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1355,7 +1521,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a4b8d6d4cfce030b8f0598c9be5592790" name="a4b8d6d4cfce030b8f0598c9be5592790"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b8d6d4cfce030b8f0598c9be5592790">&#9670;&#160;</a></span>TEST_F() <span class="overload">[38/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b8d6d4cfce030b8f0598c9be5592790">&#9670;&#160;</a></span>TEST_F() <span class="overload">[42/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1381,7 +1547,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="aaf9b84a5f8427260f07fbc97635bacc4" name="aaf9b84a5f8427260f07fbc97635bacc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf9b84a5f8427260f07fbc97635bacc4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[39/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf9b84a5f8427260f07fbc97635bacc4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[43/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1407,7 +1573,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a5cddeb6f14c5df0626899456a752451b" name="a5cddeb6f14c5df0626899456a752451b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cddeb6f14c5df0626899456a752451b">&#9670;&#160;</a></span>TEST_F() <span class="overload">[40/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cddeb6f14c5df0626899456a752451b">&#9670;&#160;</a></span>TEST_F() <span class="overload">[44/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1433,7 +1599,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a10f2d1c8ec809a8e3e19609038a65fb5" name="a10f2d1c8ec809a8e3e19609038a65fb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10f2d1c8ec809a8e3e19609038a65fb5">&#9670;&#160;</a></span>TEST_F() <span class="overload">[41/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f2d1c8ec809a8e3e19609038a65fb5">&#9670;&#160;</a></span>TEST_F() <span class="overload">[45/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1459,7 +1625,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ad19ce801170c525aa8bac54c66655f21" name="ad19ce801170c525aa8bac54c66655f21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad19ce801170c525aa8bac54c66655f21">&#9670;&#160;</a></span>TEST_F() <span class="overload">[42/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad19ce801170c525aa8bac54c66655f21">&#9670;&#160;</a></span>TEST_F() <span class="overload">[46/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1485,7 +1651,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ab003a6cd155f77a4602c7493fec420c2" name="ab003a6cd155f77a4602c7493fec420c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab003a6cd155f77a4602c7493fec420c2">&#9670;&#160;</a></span>TEST_F() <span class="overload">[43/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab003a6cd155f77a4602c7493fec420c2">&#9670;&#160;</a></span>TEST_F() <span class="overload">[47/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1511,7 +1677,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a29a22ca38523dfeb576e44256b29f053" name="a29a22ca38523dfeb576e44256b29f053"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29a22ca38523dfeb576e44256b29f053">&#9670;&#160;</a></span>TEST_F() <span class="overload">[44/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a29a22ca38523dfeb576e44256b29f053">&#9670;&#160;</a></span>TEST_F() <span class="overload">[48/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1537,7 +1703,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a3a83257e5ef45cac2d594462701c96c9" name="a3a83257e5ef45cac2d594462701c96c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a83257e5ef45cac2d594462701c96c9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[45/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a83257e5ef45cac2d594462701c96c9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[49/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1563,7 +1729,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a03d7fe8c0b4f28e40c91cf8001e59db9" name="a03d7fe8c0b4f28e40c91cf8001e59db9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03d7fe8c0b4f28e40c91cf8001e59db9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[46/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a03d7fe8c0b4f28e40c91cf8001e59db9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[50/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1589,7 +1755,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a04ee54a2b692f235b9a39ba957673804" name="a04ee54a2b692f235b9a39ba957673804"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04ee54a2b692f235b9a39ba957673804">&#9670;&#160;</a></span>TEST_F() <span class="overload">[47/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a04ee54a2b692f235b9a39ba957673804">&#9670;&#160;</a></span>TEST_F() <span class="overload">[51/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1615,7 +1781,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a4fe5668c08619ab44721c3f395289a07" name="a4fe5668c08619ab44721c3f395289a07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fe5668c08619ab44721c3f395289a07">&#9670;&#160;</a></span>TEST_F() <span class="overload">[48/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fe5668c08619ab44721c3f395289a07">&#9670;&#160;</a></span>TEST_F() <span class="overload">[52/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1641,7 +1807,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a556441d163193784c5455b1ac031ab6b" name="a556441d163193784c5455b1ac031ab6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a556441d163193784c5455b1ac031ab6b">&#9670;&#160;</a></span>TEST_F() <span class="overload">[49/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a556441d163193784c5455b1ac031ab6b">&#9670;&#160;</a></span>TEST_F() <span class="overload">[53/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1667,7 +1833,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a9d3acce2b58a1d79832b60d72c7401d5" name="a9d3acce2b58a1d79832b60d72c7401d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d3acce2b58a1d79832b60d72c7401d5">&#9670;&#160;</a></span>TEST_F() <span class="overload">[50/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d3acce2b58a1d79832b60d72c7401d5">&#9670;&#160;</a></span>TEST_F() <span class="overload">[54/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1693,7 +1859,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a61dbbcf4f245a9016972c5f2398fa4c4" name="a61dbbcf4f245a9016972c5f2398fa4c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61dbbcf4f245a9016972c5f2398fa4c4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[51/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a61dbbcf4f245a9016972c5f2398fa4c4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[55/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1719,7 +1885,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a7cc8d4f097af45afb77165aaaca50dc0" name="a7cc8d4f097af45afb77165aaaca50dc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cc8d4f097af45afb77165aaaca50dc0">&#9670;&#160;</a></span>TEST_F() <span class="overload">[52/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc8d4f097af45afb77165aaaca50dc0">&#9670;&#160;</a></span>TEST_F() <span class="overload">[56/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1745,7 +1911,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="acefbb26d700612c818dd9f8950807733" name="acefbb26d700612c818dd9f8950807733"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acefbb26d700612c818dd9f8950807733">&#9670;&#160;</a></span>TEST_F() <span class="overload">[53/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acefbb26d700612c818dd9f8950807733">&#9670;&#160;</a></span>TEST_F() <span class="overload">[57/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1771,7 +1937,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ad0dcd015213af13325ed30d8107f97cd" name="ad0dcd015213af13325ed30d8107f97cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0dcd015213af13325ed30d8107f97cd">&#9670;&#160;</a></span>TEST_F() <span class="overload">[54/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0dcd015213af13325ed30d8107f97cd">&#9670;&#160;</a></span>TEST_F() <span class="overload">[58/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1797,7 +1963,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a9aead8f4cca323f319f4db7cca5b5cba" name="a9aead8f4cca323f319f4db7cca5b5cba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9aead8f4cca323f319f4db7cca5b5cba">&#9670;&#160;</a></span>TEST_F() <span class="overload">[55/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aead8f4cca323f319f4db7cca5b5cba">&#9670;&#160;</a></span>TEST_F() <span class="overload">[59/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1823,7 +1989,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a94f23d74241c46713d6b5f2fb1315af7" name="a94f23d74241c46713d6b5f2fb1315af7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94f23d74241c46713d6b5f2fb1315af7">&#9670;&#160;</a></span>TEST_F() <span class="overload">[56/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a94f23d74241c46713d6b5f2fb1315af7">&#9670;&#160;</a></span>TEST_F() <span class="overload">[60/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1849,7 +2015,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a226bcefedbd32e661a793132d53cbdd9" name="a226bcefedbd32e661a793132d53cbdd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a226bcefedbd32e661a793132d53cbdd9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[57/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a226bcefedbd32e661a793132d53cbdd9">&#9670;&#160;</a></span>TEST_F() <span class="overload">[61/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1875,7 +2041,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="aa50ecdd5cd72c85628446947cb18d832" name="aa50ecdd5cd72c85628446947cb18d832"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa50ecdd5cd72c85628446947cb18d832">&#9670;&#160;</a></span>TEST_F() <span class="overload">[58/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa50ecdd5cd72c85628446947cb18d832">&#9670;&#160;</a></span>TEST_F() <span class="overload">[62/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1901,7 +2067,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a8627f5a8329198bc2048b4e9d76200f4" name="a8627f5a8329198bc2048b4e9d76200f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8627f5a8329198bc2048b4e9d76200f4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[59/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8627f5a8329198bc2048b4e9d76200f4">&#9670;&#160;</a></span>TEST_F() <span class="overload">[63/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1927,7 +2093,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="abc0b5c7e4c507a164a7af61a6de46d4d" name="abc0b5c7e4c507a164a7af61a6de46d4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc0b5c7e4c507a164a7af61a6de46d4d">&#9670;&#160;</a></span>TEST_F() <span class="overload">[60/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abc0b5c7e4c507a164a7af61a6de46d4d">&#9670;&#160;</a></span>TEST_F() <span class="overload">[64/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1953,7 +2119,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ae51346f8ece0ccb8b68adedd223fa059" name="ae51346f8ece0ccb8b68adedd223fa059"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae51346f8ece0ccb8b68adedd223fa059">&#9670;&#160;</a></span>TEST_F() <span class="overload">[61/61]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae51346f8ece0ccb8b68adedd223fa059">&#9670;&#160;</a></span>TEST_F() <span class="overload">[65/65]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

@@ -8,7 +8,9 @@ var classDlgCreateToken =
     [ "closeEvent", "d1/dad/classDlgCreateToken.html#aec52fdf8eb4ffe5ed63df2be8303b45e", null ],
     [ "faceDownCheckBoxToggled", "d1/dad/classDlgCreateToken.html#a78d30a5c72fb67f19cfa07aab8d3eeca", null ],
     [ "getTokenInfo", "d1/dad/classDlgCreateToken.html#ac69f88be5509ff766e9d7c49b8d8ab7b", null ],
+    [ "tokenDraft", "d1/dad/classDlgCreateToken.html#a39035b172a0bd463e83005c68f690a18", null ],
     [ "tokenSelectionChanged", "d1/dad/classDlgCreateToken.html#a9ab29a5b13f66673eefb7b6856cce8f4", null ],
+    [ "updatePreview", "d1/dad/classDlgCreateToken.html#a8679f7b5cf0ea1bb3e0b8c49e8a49f93", null ],
     [ "updateSearch", "d1/dad/classDlgCreateToken.html#ab27a0a0fec6ccab42d15be4c7166244b", null ],
     [ "updateSearchFieldWithoutUpdatingFilter", "d1/dad/classDlgCreateToken.html#acbc9df90d09de5cae64a8cfecccda15a", null ],
     [ "annotationEdit", "d1/dad/classDlgCreateToken.html#a2ec04b1f6d46005561739c8c43a54e3c", null ],
@@ -24,7 +26,7 @@ var classDlgCreateToken =
     [ "faceDownCheckBox", "d1/dad/classDlgCreateToken.html#af20db02b6aaf526ab17c464bb2cba1d8", null ],
     [ "nameEdit", "d1/dad/classDlgCreateToken.html#a41bdcb091c5c2fb23cb24e93a9affc3e", null ],
     [ "nameLabel", "d1/dad/classDlgCreateToken.html#ad1392cf5d542b0658b8de54acb302441", null ],
-    [ "pic", "d1/dad/classDlgCreateToken.html#ad998511ab073732ee9849902acec6880", null ],
+    [ "pic", "d1/dad/classDlgCreateToken.html#a4bda73fc02250dd907d1485f59d340ae", null ],
     [ "predefinedTokens", "d1/dad/classDlgCreateToken.html#aab2551d7ebf4f4bfa3f06a8b086cb290", null ],
     [ "ptEdit", "d1/dad/classDlgCreateToken.html#a688e7692f230e2a7d260280bff4a332b", null ],
     [ "ptLabel", "d1/dad/classDlgCreateToken.html#ac0bc1206d2e3999ff90301937e2eb2c7", null ]

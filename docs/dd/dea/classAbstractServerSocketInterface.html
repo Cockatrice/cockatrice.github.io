@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-08-Development-3.2.0-beta.2</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -233,6 +233,7 @@ Protected Attributes</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a32e1d263221a94e204ae9f2694cdc5ff" id="r_a32e1d263221a94e204ae9f2694cdc5ff"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#a32e1d263221a94e204ae9f2694cdc5ff">cmdAddToList</a> (const <a class="el" href="../../d5/d2d/structCommand__AddToList.html">Command_AddToList</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:afeccd713c5040660a7bc4a14eb748a1b" id="r_afeccd713c5040660a7bc4a14eb748a1b"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#afeccd713c5040660a7bc4a14eb748a1b">cmdRemoveFromList</a> (const <a class="el" href="../../de/d37/structCommand__RemoveFromList.html">Command_RemoveFromList</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
+<tr class="memitem:ab9ba8f0e2a9b5de3f7a9d6f8ab7bdbab" id="r_ab9ba8f0e2a9b5de3f7a9d6f8ab7bdbab"><td class="memItemLeft"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab9ba8f0e2a9b5de3f7a9d6f8ab7bdbab">cmdGetPrivateChatHistory</a> (const <a class="el" href="../../d1/d14/structCommand__GetPrivateChatHistory.html">Command_GetPrivateChatHistory</a> &amp;cmd, <a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;rc)</td></tr>
 <tr class="memitem:a35316e959bf030b59ccf2de8468f211a" id="r_a35316e959bf030b59ccf2de8468f211a"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a35316e959bf030b59ccf2de8468f211a">getDeckPathId</a> (int basePathId, QStringList path)</td></tr>
 <tr class="memitem:a02956e475671d9088bcaae2f5a9a0e8d" id="r_a02956e475671d9088bcaae2f5a9a0e8d"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a02956e475671d9088bcaae2f5a9a0e8d">getDeckPathId</a> (const QString &amp;path)</td></tr>
 <tr class="memitem:a3f329c4840150c46ef60b448dfb1d362" id="r_a3f329c4840150c46ef60b448dfb1d362"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a3f329c4840150c46ef60b448dfb1d362">deckListHelper</a> (int folderId, <a class="el" href="../../d7/d36/structServerInfo__DeckStorage__Folder.html">ServerInfo_DeckStorage_Folder</a> *folder, int userId, bool inheritedPublic, bool publicOnly)</td></tr>
@@ -1753,6 +1754,45 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_a6f9140b5f1a37311261b3f6818708103_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab9ba8f0e2a9b5de3f7a9d6f8ab7bdbab" name="ab9ba8f0e2a9b5de3f7a9d6f8ab7bdbab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9ba8f0e2a9b5de3f7a9d6f8ab7bdbab">&#9670;&#160;</a></span>cmdGetPrivateChatHistory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/db9/structResponse.html#a3465e67911196bb2a7c3d4042c04451d">Response::ResponseCode</a> AbstractServerSocketInterface::cmdGetPrivateChatHistory </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d14/structCommand__GetPrivateChatHistory.html">Command_GetPrivateChatHistory</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cmd</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d74/classResponseContainer.html">ResponseContainer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>rc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_ab9ba8f0e2a9b5de3f7a9d6f8ab7bdbab_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dd/dea/classAbstractServerSocketInterface_ab9ba8f0e2a9b5de3f7a9d6f8ab7bdbab_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
