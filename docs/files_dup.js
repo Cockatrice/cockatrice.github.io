@@ -12,6 +12,7 @@ var files_dup =
     [ "libcockatrice_network", "dir_f3aef765df2a7860fd35e0943a5cc08c.html", "dir_f3aef765df2a7860fd35e0943a5cc08c" ],
     [ "libcockatrice_protocol", "dir_23b6b8b7b23b1e0aa9870bddb20c8f4d.html", "dir_23b6b8b7b23b1e0aa9870bddb20c8f4d" ],
     [ "libcockatrice_rng", "dir_65b1781d11e119b54545fdefcd8cd8dc.html", "dir_65b1781d11e119b54545fdefcd8cd8dc" ],
+    [ "libcockatrice_server_dev", "dir_58137c14b76c43cf59e613cfe01ffa9c.html", "dir_58137c14b76c43cf59e613cfe01ffa9c" ],
     [ "libcockatrice_settings", "dir_679fe8144b35da151ba75c42518e7df2.html", "dir_679fe8144b35da151ba75c42518e7df2" ],
     [ "libcockatrice_utility", "dir_ea8d64982b5609019074a0f83466341a.html", "dir_ea8d64982b5609019074a0f83466341a" ],
     [ "oracle", "dir_f4647ec01be943ceefd9ee4f7f0c1eae.html", "dir_f4647ec01be943ceefd9ee4f7f0c1eae" ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -123,6 +123,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('df/df3/card__i
 <div class="textblock"><code>#include &quot;<a class="el" href="../../de/d2f/format__legality__rules_8h_source.html">format/format_legality_rules.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/dc8/lazy__properties__hash_8h_source.html">lazy_properties_hash.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/dd2/printing__info_8h_source.html">printing/printing_info.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d72/card__relation_8h_source.html">relation/card_relation.h</a>&quot;</code><br />
 <code>#include &lt;QByteArray&gt;</code><br />
 <code>#include &lt;QChar&gt;</code><br />
 <code>#include &lt;QEnableSharedFromThis&gt;</code><br />
@@ -155,111 +156,111 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a8169723b2f3dfc8b1e58ba463b260bdc" id="r_a8169723b2f3dfc8b1e58ba463b260bdc"><td class="memItemLeft">typedef <a class="el" href="../../dd/daa/classQSharedPointer.html">QSharedPointer</a>&lt; <a class="el" href="../../dd/dd2/classCardInfo.html">CardInfo</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a8169723b2f3dfc8b1e58ba463b260bdc">CardInfoPtr</a></td></tr>
-<tr class="memitem:a4f8ea0d196c0d1ce0f762f46b2985e1e" id="r_a4f8ea0d196c0d1ce0f762f46b2985e1e"><td class="memItemLeft">typedef <a class="el" href="../../dd/daa/classQSharedPointer.html">QSharedPointer</a>&lt; <a class="el" href="../../d6/d3d/classCardSet.html">CardSet</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a></td></tr>
-<tr class="memitem:a411c105e9a86135bec85413e40d7a243" id="r_a411c105e9a86135bec85413e40d7a243"><td class="memItemLeft">typedef <a class="el" href="../../dd/daa/classQSharedPointer.html">QSharedPointer</a>&lt; <a class="el" href="../../d2/da9/structFormatRules.html">FormatRules</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a411c105e9a86135bec85413e40d7a243">FormatRulesPtr</a></td></tr>
-<tr class="memitem:a27e549090c82485cd289c1c78896a4d0" id="r_a27e549090c82485cd289c1c78896a4d0"><td class="memItemLeft">typedef <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt; QString, <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d6/d90/classPrintingInfo.html">PrintingInfo</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a27e549090c82485cd289c1c78896a4d0">SetToPrintingsMap</a></td></tr>
-<tr class="memitem:afe09e708464a3f7085db662112b509f3" id="r_afe09e708464a3f7085db662112b509f3"><td class="memItemLeft">typedef <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt; QString, <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#afe09e708464a3f7085db662112b509f3">CardNameMap</a></td></tr>
-<tr class="memitem:a7c9db9f714d3b5488be46278c2e576e8" id="r_a7c9db9f714d3b5488be46278c2e576e8"><td class="memItemLeft">typedef <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt; QString, <a class="el" href="#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a7c9db9f714d3b5488be46278c2e576e8">SetNameMap</a></td></tr>
-<tr class="memitem:a2e9686002e62dcaed3d15d08802eede7" id="r_a2e9686002e62dcaed3d15d08802eede7"><td class="memItemLeft">typedef <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt; QString, <a class="el" href="#a411c105e9a86135bec85413e40d7a243">FormatRulesPtr</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a2e9686002e62dcaed3d15d08802eede7">FormatRulesNameMap</a></td></tr>
+<tr class="memitem:a2aeb282303adffd3229122dc04327699" id="r_a2aeb282303adffd3229122dc04327699"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> = <a class="el" href="../../dd/daa/classQSharedPointer.html">QSharedPointer</a>&lt;<a class="el" href="../../dd/dd2/classCardInfo.html">CardInfo</a>&gt;</td></tr>
+<tr class="memitem:a21cc940a925deec957f621696b9ec199" id="r_a21cc940a925deec957f621696b9ec199"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a21cc940a925deec957f621696b9ec199">CardSetPtr</a> = <a class="el" href="../../dd/daa/classQSharedPointer.html">QSharedPointer</a>&lt;<a class="el" href="../../d6/d3d/classCardSet.html">CardSet</a>&gt;</td></tr>
+<tr class="memitem:aa46ea9ba9698c07f02829d95383ca1b3" id="r_aa46ea9ba9698c07f02829d95383ca1b3"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#aa46ea9ba9698c07f02829d95383ca1b3">FormatRulesPtr</a> = <a class="el" href="../../dd/daa/classQSharedPointer.html">QSharedPointer</a>&lt;<a class="el" href="../../d2/da9/structFormatRules.html">FormatRules</a>&gt;</td></tr>
+<tr class="memitem:aa63e3b81e35d7a660884157d73f358a4" id="r_aa63e3b81e35d7a660884157d73f358a4"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#aa63e3b81e35d7a660884157d73f358a4">SetToPrintingsMap</a> = <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt;QString, <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt;<a class="el" href="../../d6/d90/classPrintingInfo.html">PrintingInfo</a>&gt;&gt;</td></tr>
+<tr class="memitem:a35ce123e53a04eed183c77d48b201c4b" id="r_a35ce123e53a04eed183c77d48b201c4b"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a35ce123e53a04eed183c77d48b201c4b">CardNameMap</a> = <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt;QString, <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a>&gt;</td></tr>
+<tr class="memitem:a1dce327e3fa6202fa829e9562a3ab68e" id="r_a1dce327e3fa6202fa829e9562a3ab68e"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a1dce327e3fa6202fa829e9562a3ab68e">SetNameMap</a> = <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt;QString, <a class="el" href="#a21cc940a925deec957f621696b9ec199">CardSetPtr</a>&gt;</td></tr>
+<tr class="memitem:a2dc6090f3563045ae7c1f70bd334396a" id="r_a2dc6090f3563045ae7c1f70bd334396a"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a2dc6090f3563045ae7c1f70bd334396a">FormatRulesNameMap</a> = <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt;QString, <a class="el" href="#aa46ea9ba9698c07f02829d95383ca1b3">FormatRulesPtr</a>&gt;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a895dad81cec6e99b41978fcf740f44fa" id="r_a895dad81cec6e99b41978fcf740f44fa"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a895dad81cec6e99b41978fcf740f44fa">Q_LOGGING_CATEGORY</a> (CardInfoLog, &quot;card_info&quot;)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a8169723b2f3dfc8b1e58ba463b260bdc" name="a8169723b2f3dfc8b1e58ba463b260bdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8169723b2f3dfc8b1e58ba463b260bdc">&#9670;&#160;</a></span>CardInfoPtr</h2>
+<a id="a2aeb282303adffd3229122dc04327699" name="a2aeb282303adffd3229122dc04327699"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aeb282303adffd3229122dc04327699">&#9670;&#160;</a></span>CardInfoPtr</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../dd/daa/classQSharedPointer.html">QSharedPointer</a>&lt;<a class="el" href="../../dd/dd2/classCardInfo.html">CardInfo</a>&gt; <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a></td>
+          <td class="memname">using <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> = <a class="el" href="../../dd/daa/classQSharedPointer.html">QSharedPointer</a>&lt;<a class="el" href="../../dd/dd2/classCardInfo.html">CardInfo</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="afe09e708464a3f7085db662112b509f3" name="afe09e708464a3f7085db662112b509f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe09e708464a3f7085db662112b509f3">&#9670;&#160;</a></span>CardNameMap</h2>
+<a id="a35ce123e53a04eed183c77d48b201c4b" name="a35ce123e53a04eed183c77d48b201c4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35ce123e53a04eed183c77d48b201c4b">&#9670;&#160;</a></span>CardNameMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt;QString, <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a>&gt; <a class="el" href="#afe09e708464a3f7085db662112b509f3">CardNameMap</a></td>
+          <td class="memname">using <a class="el" href="#a35ce123e53a04eed183c77d48b201c4b">CardNameMap</a> = <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt;QString, <a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4f8ea0d196c0d1ce0f762f46b2985e1e" name="a4f8ea0d196c0d1ce0f762f46b2985e1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f8ea0d196c0d1ce0f762f46b2985e1e">&#9670;&#160;</a></span>CardSetPtr</h2>
+<a id="a21cc940a925deec957f621696b9ec199" name="a21cc940a925deec957f621696b9ec199"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21cc940a925deec957f621696b9ec199">&#9670;&#160;</a></span>CardSetPtr</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../dd/daa/classQSharedPointer.html">QSharedPointer</a>&lt;<a class="el" href="../../d6/d3d/classCardSet.html">CardSet</a>&gt; <a class="el" href="#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a></td>
+          <td class="memname">using <a class="el" href="#a21cc940a925deec957f621696b9ec199">CardSetPtr</a> = <a class="el" href="../../dd/daa/classQSharedPointer.html">QSharedPointer</a>&lt;<a class="el" href="../../d6/d3d/classCardSet.html">CardSet</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2e9686002e62dcaed3d15d08802eede7" name="a2e9686002e62dcaed3d15d08802eede7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e9686002e62dcaed3d15d08802eede7">&#9670;&#160;</a></span>FormatRulesNameMap</h2>
+<a id="a2dc6090f3563045ae7c1f70bd334396a" name="a2dc6090f3563045ae7c1f70bd334396a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dc6090f3563045ae7c1f70bd334396a">&#9670;&#160;</a></span>FormatRulesNameMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt;QString, <a class="el" href="#a411c105e9a86135bec85413e40d7a243">FormatRulesPtr</a>&gt; <a class="el" href="#a2e9686002e62dcaed3d15d08802eede7">FormatRulesNameMap</a></td>
+          <td class="memname">using <a class="el" href="#a2dc6090f3563045ae7c1f70bd334396a">FormatRulesNameMap</a> = <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt;QString, <a class="el" href="#aa46ea9ba9698c07f02829d95383ca1b3">FormatRulesPtr</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a411c105e9a86135bec85413e40d7a243" name="a411c105e9a86135bec85413e40d7a243"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a411c105e9a86135bec85413e40d7a243">&#9670;&#160;</a></span>FormatRulesPtr</h2>
+<a id="aa46ea9ba9698c07f02829d95383ca1b3" name="aa46ea9ba9698c07f02829d95383ca1b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa46ea9ba9698c07f02829d95383ca1b3">&#9670;&#160;</a></span>FormatRulesPtr</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../dd/daa/classQSharedPointer.html">QSharedPointer</a>&lt;<a class="el" href="../../d2/da9/structFormatRules.html">FormatRules</a>&gt; <a class="el" href="#a411c105e9a86135bec85413e40d7a243">FormatRulesPtr</a></td>
+          <td class="memname">using <a class="el" href="#aa46ea9ba9698c07f02829d95383ca1b3">FormatRulesPtr</a> = <a class="el" href="../../dd/daa/classQSharedPointer.html">QSharedPointer</a>&lt;<a class="el" href="../../d2/da9/structFormatRules.html">FormatRules</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7c9db9f714d3b5488be46278c2e576e8" name="a7c9db9f714d3b5488be46278c2e576e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c9db9f714d3b5488be46278c2e576e8">&#9670;&#160;</a></span>SetNameMap</h2>
+<a id="a1dce327e3fa6202fa829e9562a3ab68e" name="a1dce327e3fa6202fa829e9562a3ab68e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dce327e3fa6202fa829e9562a3ab68e">&#9670;&#160;</a></span>SetNameMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt;QString, <a class="el" href="#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a>&gt; <a class="el" href="#a7c9db9f714d3b5488be46278c2e576e8">SetNameMap</a></td>
+          <td class="memname">using <a class="el" href="#a1dce327e3fa6202fa829e9562a3ab68e">SetNameMap</a> = <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt;QString, <a class="el" href="#a21cc940a925deec957f621696b9ec199">CardSetPtr</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a27e549090c82485cd289c1c78896a4d0" name="a27e549090c82485cd289c1c78896a4d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27e549090c82485cd289c1c78896a4d0">&#9670;&#160;</a></span>SetToPrintingsMap</h2>
+<a id="aa63e3b81e35d7a660884157d73f358a4" name="aa63e3b81e35d7a660884157d73f358a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa63e3b81e35d7a660884157d73f358a4">&#9670;&#160;</a></span>SetToPrintingsMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt;QString, <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt;<a class="el" href="../../d6/d90/classPrintingInfo.html">PrintingInfo</a>&gt; &gt; <a class="el" href="#a27e549090c82485cd289c1c78896a4d0">SetToPrintingsMap</a></td>
+          <td class="memname">using <a class="el" href="#aa63e3b81e35d7a660884157d73f358a4">SetToPrintingsMap</a> = <a class="el" href="../../d0/d4c/classQMap.html">QMap</a>&lt;QString, <a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt;<a class="el" href="../../d6/d90/classPrintingInfo.html">PrintingInfo</a>&gt;&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">

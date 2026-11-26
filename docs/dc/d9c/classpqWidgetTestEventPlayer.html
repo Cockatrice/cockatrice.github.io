@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -154,16 +154,25 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ad944d14a87e1ea969f0fff9e8a00eaa1" id="r_ad944d14a87e1ea969f0fff9e8a00eaa1"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ad944d14a87e1ea969f0fff9e8a00eaa1">playScreenshot</a> (QObject *object, const QString &amp;arguments)</td></tr>
 <tr class="memitem:a09e0b889e4d23595684fd1e3e1721ad6" id="r_a09e0b889e4d23595684fd1e3e1721ad6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a09e0b889e4d23595684fd1e3e1721ad6">playDumpTree</a> (QObject *object, const QString &amp;arguments)</td></tr>
 <tr class="memitem:a25be17c0ec9e72f80a236c830f7f3dcc" id="r_a25be17c0ec9e72f80a236c830f7f3dcc"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a25be17c0ec9e72f80a236c830f7f3dcc">playResize</a> (QObject *object, const QString &amp;arguments)</td></tr>
+<tr class="memitem:ae4256a3f36df51abbf9d48a096d3a80b" id="r_ae4256a3f36df51abbf9d48a096d3a80b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae4256a3f36df51abbf9d48a096d3a80b">playSelectRow</a> (QObject *object, const QString &amp;arguments)</td></tr>
+<tr class="memitem:a6a60257c872f269e8618836f51116ac5" id="r_a6a60257c872f269e8618836f51116ac5"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a6a60257c872f269e8618836f51116ac5">playClickRow</a> (QObject *object, const QString &amp;arguments, bool doubleClick)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a883b25106276665c6481f2e594d94ee7" id="r_a883b25106276665c6481f2e594d94ee7"><td class="memItemLeft">static QAbstractItemView *&#160;</td><td class="memItemRight"><a class="el" href="#a883b25106276665c6481f2e594d94ee7">itemViewFor</a> (QObject *object)</td></tr>
+<tr class="memdesc:a883b25106276665c6481f2e594d94ee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The item view the event is addressed at, following a viewport to its view.  <br /></td></tr>
+<tr class="memitem:a5164f6ca9b87d5ef8273f56a18721160" id="r_a5164f6ca9b87d5ef8273f56a18721160"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a5164f6ca9b87d5ef8273f56a18721160">resolveCell</a> (QAbstractItemView *view, const QString &amp;arguments, QModelIndex &amp;index)</td></tr>
+<tr class="memdesc:a5164f6ca9b87d5ef8273f56a18721160"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves "row[,column]" to a valid model index of <code class="param">view</code>.  <br /></td></tr>
+<tr class="memitem:a8935e3b5c163d173b08584617d6648da" id="r_a8935e3b5c163d173b08584617d6648da"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a8935e3b5c163d173b08584617d6648da">clickCell</a> (QAbstractItemView *view, const QModelIndex &amp;index, bool doubleClick)</td></tr>
+<tr class="memdesc:a8935e3b5c163d173b08584617d6648da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends the mouse events a real click on <code class="param">index</code> produces.  <br /></td></tr>
 <tr class="memitem:ab1c225d478311e15038a978524513c8e" id="r_ab1c225d478311e15038a978524513c8e"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ab1c225d478311e15038a978524513c8e">resolveOutputPath</a> (const QString &amp;command, const QString &amp;path, QString &amp;resolved)</td></tr>
 <tr class="memdesc:ab1c225d478311e15038a978524513c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expands $NAME / ${NAME} and creates the file's parent directory.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Widget-level commands for the UI tests.</p>
-<p><a class="el" href="../../dc/d5b/classpqCockatriceEventPlayer.html">pqCockatriceEventPlayer</a> handles cards and zones inside the game scene. This player covers the rest of the client: capturing a widget as an image, dumping the paths QtTesting addresses widgets by, and sizing the window.</p>
-<p>Commands: screenshot "&lt;path&gt;" grabs the addressed widget and saves it as an image. Parent directories are created, and $NAME / ${NAME} in the path expand from the environment, so the runner decides where captures land dumpTree "&lt;path&gt;" writes the addressed widget's subtree with the paths QtTesting addresses it by, for writing a test resize "WIDTHxHEIGHT" resizes the addressed widget's top-level window </p>
+<p><a class="el" href="../../dc/d5b/classpqCockatriceEventPlayer.html">pqCockatriceEventPlayer</a> handles cards and zones inside the game scene. This player covers the rest of the client: capturing a widget as an image, dumping the paths QtTesting addresses widgets by, sizing the window, and driving item views, whose selection QtTesting's own <span class="tt">currentChanged</span> command cannot handle.</p>
+<p>Commands: screenshot "&lt;path&gt;" grabs the addressed widget and saves it as an image. Parent directories are created, and $NAME / ${NAME} in the path expand from the environment, so the runner decides where captures land dumpTree "&lt;path&gt;" writes the addressed widget's subtree with the paths QtTesting addresses it by, for writing a test resize "WIDTHxHEIGHT" resizes the addressed widget's top-level window selectRow "row[/row...][,column]" selects that row of an item view, the whole row, without a mouse event clickRow "row[/row...][,column]" left-clicks the centre of that cell, so the view's own handlers run doubleClickRow "row[/row...][,column]" double-clicks it, for rows that act on double click</p>
+<p>A tree addresses a row by the path of rows leading to it: "2/0" is the first child of the third top-level row. A click opens a collapsed path first. Rows are model rows of the addressed view, so a filtered or sorted model counts the rows it shows. </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
 <a id="a8c81dbdfa6f74ff9a97acc643a259ea3" name="a8c81dbdfa6f74ff9a97acc643a259ea3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c81dbdfa6f74ff9a97acc643a259ea3">&#9670;&#160;</a></span>Superclass</h2>
@@ -224,6 +233,123 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a8935e3b5c163d173b08584617d6648da" name="a8935e3b5c163d173b08584617d6648da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8935e3b5c163d173b08584617d6648da">&#9670;&#160;</a></span>clickCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool pqWidgetTestEventPlayer::clickCell </td>
+          <td>(</td>
+          <td class="paramtype">QAbstractItemView *</td>          <td class="paramname"><span class="paramname"><em>view</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>index</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>doubleClick</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sends the mouse events a real click on <code class="param">index</code> produces. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d9c/classpqWidgetTestEventPlayer_a8935e3b5c163d173b08584617d6648da_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a883b25106276665c6481f2e594d94ee7" name="a883b25106276665c6481f2e594d94ee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a883b25106276665c6481f2e594d94ee7">&#9670;&#160;</a></span>itemViewFor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QAbstractItemView * pqWidgetTestEventPlayer::itemViewFor </td>
+          <td>(</td>
+          <td class="paramtype">QObject *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The item view the event is addressed at, following a viewport to its view. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d9c/classpqWidgetTestEventPlayer_a883b25106276665c6481f2e594d94ee7_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a6a60257c872f269e8618836f51116ac5" name="a6a60257c872f269e8618836f51116ac5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a60257c872f269e8618836f51116ac5">&#9670;&#160;</a></span>playClickRow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool pqWidgetTestEventPlayer::playClickRow </td>
+          <td>(</td>
+          <td class="paramtype">QObject *</td>          <td class="paramname"><span class="paramname"><em>object</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>arguments</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>doubleClick</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d9c/classpqWidgetTestEventPlayer_a6a60257c872f269e8618836f51116ac5_cgraph.svg" width="434" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d9c/classpqWidgetTestEventPlayer_a6a60257c872f269e8618836f51116ac5_icgraph.svg" width="434" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a09e0b889e4d23595684fd1e3e1721ad6" name="a09e0b889e4d23595684fd1e3e1721ad6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a09e0b889e4d23595684fd1e3e1721ad6">&#9670;&#160;</a></span>playDumpTree()</h2>
 
@@ -305,7 +431,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d9c/classpqWidgetTestEventPlayer_a1ae4ed8200aafd6aea179c3aaafc6350_cgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d9c/classpqWidgetTestEventPlayer_a1ae4ed8200aafd6aea179c3aaafc6350_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -379,6 +505,86 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d9c/classpqWidgetTestEventPlayer_ad944d14a87e1ea969f0fff9e8a00eaa1_icgraph.svg" width="434" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae4256a3f36df51abbf9d48a096d3a80b" name="ae4256a3f36df51abbf9d48a096d3a80b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4256a3f36df51abbf9d48a096d3a80b">&#9670;&#160;</a></span>playSelectRow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool pqWidgetTestEventPlayer::playSelectRow </td>
+          <td>(</td>
+          <td class="paramtype">QObject *</td>          <td class="paramname"><span class="paramname"><em>object</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>arguments</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d9c/classpqWidgetTestEventPlayer_ae4256a3f36df51abbf9d48a096d3a80b_cgraph.svg" width="434" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d9c/classpqWidgetTestEventPlayer_ae4256a3f36df51abbf9d48a096d3a80b_icgraph.svg" width="434" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a5164f6ca9b87d5ef8273f56a18721160" name="a5164f6ca9b87d5ef8273f56a18721160"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5164f6ca9b87d5ef8273f56a18721160">&#9670;&#160;</a></span>resolveCell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool pqWidgetTestEventPlayer::resolveCell </td>
+          <td>(</td>
+          <td class="paramtype">QAbstractItemView *</td>          <td class="paramname"><span class="paramname"><em>view</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>arguments</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QModelIndex &amp;</td>          <td class="paramname"><span class="paramname"><em>index</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resolves "row[,column]" to a valid model index of <code class="param">view</code>. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../dc/d9c/classpqWidgetTestEventPlayer_a5164f6ca9b87d5ef8273f56a18721160_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

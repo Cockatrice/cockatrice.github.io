@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -148,7 +148,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2e0cf8900a567273187a2a8ea4deea3a" id="r_a2e0cf8900a567273187a2a8ea4deea3a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2e0cf8900a567273187a2a8ea4deea3a">enableAllBatched</a> (<a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a> *controller)</td></tr>
 <tr class="memdesc:a2e0cf8900a567273187a2a8ea4deea3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables every set with fresh sort keys, persisting in one flush.  <br /></td></tr>
 <tr class="memitem:a1bef5d0f865d1e013acf5046f6b87e80" id="r_a1bef5d0f865d1e013acf5046f6b87e80"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1bef5d0f865d1e013acf5046f6b87e80">enableAllUnknownBatched</a> (<a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a> *controller)</td></tr>
-<tr class="memdesc:a1bef5d0f865d1e013acf5046f6b87e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables all sets that are unknown or ignored, persisting in one flush.  <br /></td></tr>
+<tr class="memdesc:a1bef5d0f865d1e013acf5046f6b87e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables all sets that are unknown, persisting in one flush.  <br /></td></tr>
 <tr class="memitem:a9b7d8223e722b0850e3ab6108e03e233" id="r_a9b7d8223e722b0850e3ab6108e03e233"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9b7d8223e722b0850e3ab6108e03e233">markAllAsKnownBatched</a> (<a class="el" href="../../d7/d81/classICardSetPriorityController.html">ICardSetPriorityController</a> *controller)</td></tr>
 <tr class="memdesc:a9b7d8223e722b0850e3ab6108e03e233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks all sets as known and adjusts their enabled state, persisting in one flush.  <br /></td></tr>
 <tr class="memitem:acd27b64e6dbc14a681de77b7efbf71f8" id="r_acd27b64e6dbc14a681de77b7efbf71f8"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#acd27b64e6dbc14a681de77b7efbf71f8">getEnabledSetsNum</a> ()</td></tr>
@@ -162,7 +162,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A list-like container for <a class="el" href="../../d6/d3d/classCardSet.html" title="A collection of cards grouped under a common identifier.">CardSet</a> objects with extended management methods. </p>
-<p>Extends <span class="tt"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt;<a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a>&gt;</span> by adding convenience operations for sorting, enabling/disabling sets, and tracking known/unknown status. Unlike a plain list, this container provides domain-specific functionality for handling groups of sets in bulk. </p>
+<p>Extends <span class="tt"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt;<a class="el" href="../../df/df3/card__info_8h.html#a21cc940a925deec957f621696b9ec199">CardSetPtr</a>&gt;</span> by adding convenience operations for sorting, enabling/disabling sets, and tracking known/unknown status. Unlike a plain list, this container provides domain-specific functionality for handling groups of sets in bulk. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a09f8de40f81a891afb31f120bb1a3756" name="a09f8de40f81a891afb31f120bb1a3756"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a09f8de40f81a891afb31f120bb1a3756">&#9670;&#160;</a></span>defaultSort()</h2>
@@ -234,8 +234,8 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Enables all sets that are unknown or ignored, persisting in one flush. </p>
-<p>Sets that are not marked as known and not ignored are marked as known and enabled. Ignored-known sets are also enabled, but remain ignored. Only changed sets are written, so the common case of a few new sets costs a single settings flush no matter how large the database is. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Enables all sets that are unknown, persisting in one flush. </p>
+<p>Sets that are not marked as known and not ignored are marked as known and enabled. Ignored sets that are not known are enabled, but stay ignored. Sets that are already known are left alone. Only unknown sets are written, so the common case of a few new sets costs a single settings flush no matter how large the database is. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">controller</td><td>The set priority controller to persist the records with. </td></tr>
   </table>
@@ -325,7 +325,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Marks all sets as known and adjusts their enabled state, persisting in one flush. </p>
-<p>Unknown, non-ignored sets become known and disabled. Ignored-known sets are enabled if they were previously disabled. Only changed sets are written; when nothing is unknown no flush happens at all. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Unknown, non-ignored sets become known and disabled. Ignored sets that are not known become known and enabled. Only changed sets are written; when nothing is unknown no flush happens at all. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">controller</td><td>The set priority controller to persist the records with. </td></tr>
   </table>

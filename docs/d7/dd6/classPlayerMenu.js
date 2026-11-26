@@ -1,6 +1,7 @@
 var classPlayerMenu =
 [
     [ "PlayerMenu", "d7/dd6/classPlayerMenu.html#ac6921cbf87a93929f882def822602cf5", null ],
+    [ "~PlayerMenu", "d7/dd6/classPlayerMenu.html#ac74598798371701eded6fc7dbb84527a", null ],
     [ "addManagedMenu", "d7/dd6/classPlayerMenu.html#a88d6feb2f2201e9d95ce4365d34a393d", null ],
     [ "applyLobbyShortcuts", "d7/dd6/classPlayerMenu.html#a8039e86bdbacf36b100638c8edd7b571", null ],
     [ "cardInfoRequested", "d7/dd6/classPlayerMenu.html#adcb74b94287cfc1843b9c46e4b0c9398", null ],

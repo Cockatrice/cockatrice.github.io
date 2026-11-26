@@ -30,7 +30,8 @@ var searchData=
   ['localserver_5fdatabaseinterface_27',['LocalServer_DatabaseInterface',['../d1/d74/classLocalServer__DatabaseInterface.html',1,'']]],
   ['localserverinterface_28',['LocalServerInterface',['../d0/dc3/classLocalServerInterface.html',1,'']]],
   ['logcounters_29',['LogCounters',['../d5/df3/structLogCounters.html',1,'']]],
-  ['logger_30',['Logger',['../db/d67/classLogger.html',1,'']]],
-  ['logicmap_31',['LogicMap',['../d9/d6e/classLogicMap.html',1,'']]],
-  ['lrmemo_32',['LRMemo',['../d4/d84/structpeg_1_1Context_1_1LRMemo.html',1,'peg::Context']]]
+  ['logentry_30',['LogEntry',['../d8/d75/structServatrice__InMemoryDatabaseInterface_1_1LogEntry.html',1,'Servatrice_InMemoryDatabaseInterface']]],
+  ['logger_31',['Logger',['../db/d67/classLogger.html',1,'']]],
+  ['logicmap_32',['LogicMap',['../d9/d6e/classLogicMap.html',1,'']]],
+  ['lrmemo_33',['LRMemo',['../d4/d84/structpeg_1_1Context_1_1LRMemo.html',1,'peg::Context']]]
 ];

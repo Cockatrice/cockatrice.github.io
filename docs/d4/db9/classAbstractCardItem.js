@@ -56,6 +56,7 @@ var classAbstractCardItem =
     [ "setHoverZoomed", "d4/db9/classAbstractCardItem.html#af39c213ef20fd627c72a029c62abb5f6", null ],
     [ "setId", "d4/db9/classAbstractCardItem.html#a2639a8b69c5d980c4c491b91364e28f7", null ],
     [ "setRealZValue", "d4/db9/classAbstractCardItem.html#a638c37442fe1542dd4349a4fdf2b4148", null ],
+    [ "setTapAngle", "d4/db9/classAbstractCardItem.html#a6e878ee562699694d72e6e7a626a0507", null ],
     [ "setTapped", "d4/db9/classAbstractCardItem.html#a39ccaecfbe2e8a434ddf3e2a907f8867", null ],
     [ "shape", "d4/db9/classAbstractCardItem.html#a3036ffce26817d55e399c3d2130010b9", null ],
     [ "shouldPaintNameOverPicture", "d4/db9/classAbstractCardItem.html#af05fbf80644952f8656637d0943d1ca1", null ],

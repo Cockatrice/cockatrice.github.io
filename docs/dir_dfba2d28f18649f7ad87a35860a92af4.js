@@ -24,6 +24,7 @@ var dir_dfba2d28f18649f7ad87a35860a92af4 =
     [ "servatrice_connection_pool.h", "dc/d96/servatrice__connection__pool_8h.html", "dc/d96/servatrice__connection__pool_8h" ],
     [ "servatrice_database_interface.cpp", "d8/d19/servatrice__database__interface_8cpp.html", "d8/d19/servatrice__database__interface_8cpp" ],
     [ "servatrice_database_interface.h", "d4/d8e/servatrice__database__interface_8h.html", "d4/d8e/servatrice__database__interface_8h" ],
+    [ "servatrice_globals.cpp", "d8/d07/servatrice__globals_8cpp.html", "d8/d07/servatrice__globals_8cpp" ],
     [ "server_logger.cpp", "d0/dcd/server__logger_8cpp.html", null ],
     [ "server_logger.h", "d3/d62/server__logger_8h.html", "d3/d62/server__logger_8h" ],
     [ "serversocketinterface.cpp", "d0/dc5/serversocketinterface_8cpp.html", "d0/dc5/serversocketinterface_8cpp" ],

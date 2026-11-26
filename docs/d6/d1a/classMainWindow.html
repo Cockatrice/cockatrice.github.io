@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -191,6 +191,7 @@ Private Slots</h2></td></tr>
 <tr class="memitem:a23af3d07e69f3cda6a3cee10d4d9f815" id="r_a23af3d07e69f3cda6a3cee10d4d9f815"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a23af3d07e69f3cda6a3cee10d4d9f815">actAbout</a> ()</td></tr>
 <tr class="memitem:ad7ef2da08e939112f048a1f0b1c5ee21" id="r_ad7ef2da08e939112f048a1f0b1c5ee21"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad7ef2da08e939112f048a1f0b1c5ee21">actTips</a> ()</td></tr>
 <tr class="memitem:a42768d117c2778bcb3e492a1b9a84000" id="r_a42768d117c2778bcb3e492a1b9a84000"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a42768d117c2778bcb3e492a1b9a84000">actUpdate</a> ()</td></tr>
+<tr class="memitem:a38722ba9576371e5b89a8c3edfab8a6d" id="r_a38722ba9576371e5b89a8c3edfab8a6d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a38722ba9576371e5b89a8c3edfab8a6d">actOpenPendingClientUpdate</a> ()</td></tr>
 <tr class="memitem:a040be6279c61ebd20c5c87d046407a38" id="r_a040be6279c61ebd20c5c87d046407a38"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a040be6279c61ebd20c5c87d046407a38">actViewLog</a> ()</td></tr>
 <tr class="memitem:a342f1c051fd85a21d4b6f88aae1d799c" id="r_a342f1c051fd85a21d4b6f88aae1d799c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a342f1c051fd85a21d4b6f88aae1d799c">actOpenSettingsFolder</a> ()</td></tr>
 <tr class="memitem:a9e1b49ff5e944dfb4271ffbb7190b5c0" id="r_a9e1b49ff5e944dfb4271ffbb7190b5c0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9e1b49ff5e944dfb4271ffbb7190b5c0">actShow</a> ()</td></tr>
@@ -205,6 +206,7 @@ Private Slots</h2></td></tr>
 <tr class="memitem:a8127f55f462dc2b1234d3df005b3e99c" id="r_a8127f55f462dc2b1234d3df005b3e99c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8127f55f462dc2b1234d3df005b3e99c">cardDatabaseNewSetsFound</a> (int numUnknownSets, QStringList unknownSetsNames)</td></tr>
 <tr class="memitem:aaafdb93896ffb8aeaac9e9b664064a1d" id="r_aaafdb93896ffb8aeaac9e9b664064a1d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaafdb93896ffb8aeaac9e9b664064a1d">cardDatabaseAllNewSetsEnabled</a> ()</td></tr>
 <tr class="memitem:aad9a1b81b6351fa10cf9c006f7e8008d" id="r_aad9a1b81b6351fa10cf9c006f7e8008d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aad9a1b81b6351fa10cf9c006f7e8008d">checkClientUpdatesFinished</a> (bool needToUpdate, bool isCompatible, <a class="el" href="../../db/d0a/classRelease.html">Release</a> *release)</td></tr>
+<tr class="memitem:a36c9269b1c1a9d687df066636bf532d0" id="r_a36c9269b1c1a9d687df066636bf532d0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a36c9269b1c1a9d687df066636bf532d0">onClientUpdateNotesShown</a> (<a class="el" href="../../db/d0a/classRelease.html">Release</a> *release)</td></tr>
 <tr class="memitem:afaf259d5f68fd30d3ec682205391a9ee" id="r_afaf259d5f68fd30d3ec682205391a9ee"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afaf259d5f68fd30d3ec682205391a9ee">actCheckCommanderBracketDefinitionUpdates</a> ()</td></tr>
 <tr class="memitem:a2fcb328f4fdbeceafad4885e2f3206ef" id="r_a2fcb328f4fdbeceafad4885e2f3206ef"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2fcb328f4fdbeceafad4885e2f3206ef">actOpenCustomFolder</a> ()</td></tr>
 <tr class="memitem:ad0c6754f303aa14716fc61becdb23719" id="r_ad0c6754f303aa14716fc61becdb23719"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad0c6754f303aa14716fc61becdb23719">actOpenCustomsetsFolder</a> ()</td></tr>
@@ -239,6 +241,12 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:ab65a70c908bbeef0e977660cf1f45862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells the user an update is running without blocking, honoring a hidden status bar.  <br /></td></tr>
 <tr class="memitem:a982bd5f537fbbf7694065923b1f97944" id="r_a982bd5f537fbbf7694065923b1f97944"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a982bd5f537fbbf7694065923b1f97944">notifyCardUpdateFinishedFromTray</a> (bool success)</td></tr>
 <tr class="memdesc:a982bd5f537fbbf7694065923b1f97944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Posts a tray notification when the status bar cannot show progress.  <br /></td></tr>
+<tr class="memitem:a3df0c72f96fa40d314f4cb0dc3d06d9a" id="r_a3df0c72f96fa40d314f4cb0dc3d06d9a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3df0c72f96fa40d314f4cb0dc3d06d9a">setPendingClientUpdate</a> (<a class="el" href="../../db/d0a/classRelease.html">Release</a> *release, bool isCompatible)</td></tr>
+<tr class="memdesc:a3df0c72f96fa40d314f4cb0dc3d06d9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the release the update glyph stands for, or clears it when <code class="param">release</code> is null.  <br /></td></tr>
+<tr class="memitem:a3fb19e87ac57eef9344e4428a1fb4db0" id="r_a3fb19e87ac57eef9344e4428a1fb4db0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3fb19e87ac57eef9344e4428a1fb4db0">updateClientUpdateButton</a> ()</td></tr>
+<tr class="memdesc:a3fb19e87ac57eef9344e4428a1fb4db0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Repaints the glyph: amber while the notes are unread, neutral afterwards.  <br /></td></tr>
+<tr class="memitem:ab0b80d3f4f469251ca0a136bcec1a1cb" id="r_ab0b80d3f4f469251ca0a136bcec1a1cb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab0b80d3f4f469251ca0a136bcec1a1cb">syncPendingClientUpdateChannel</a> ()</td></tr>
+<tr class="memdesc:ab0b80d3f4f469251ca0a136bcec1a1cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drops the pending release once it no longer belongs to the selected update channel.  <br /></td></tr>
 <tr class="memitem:a5c472eb48650fd85bdf90633585d4f4e" id="r_a5c472eb48650fd85bdf90633585d4f4e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5c472eb48650fd85bdf90633585d4f4e">startLocalGame</a> (const <a class="el" href="../../d9/de7/structLocalGameOptions.html">LocalGameOptions</a> &amp;options)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
@@ -254,6 +262,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a49f5056e1ab4748feaa15fd4e74c82d0" id="r_a49f5056e1ab4748feaa15fd4e74c82d0"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a49f5056e1ab4748feaa15fd4e74c82d0">aShow</a></td></tr>
 <tr class="memitem:a4ef901d0f32c6b94a3a5ccd9338183fe" id="r_a4ef901d0f32c6b94a3a5ccd9338183fe"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a4ef901d0f32c6b94a3a5ccd9338183fe">aExit</a></td></tr>
 <tr class="memitem:add17968c3f2dd5eae68a01237db86b06" id="r_add17968c3f2dd5eae68a01237db86b06"><td class="memItemLeft">QToolButton *&#160;</td><td class="memItemRight"><a class="el" href="#add17968c3f2dd5eae68a01237db86b06">settingsButton</a> = nullptr</td></tr>
+<tr class="memitem:aa454178879f0673e7a1255ac5caff80b" id="r_aa454178879f0673e7a1255ac5caff80b"><td class="memItemLeft">QToolButton *&#160;</td><td class="memItemRight"><a class="el" href="#aa454178879f0673e7a1255ac5caff80b">clientUpdateButton</a> = nullptr</td></tr>
+<tr class="memitem:aa697f7fcf69fe00353855c16986b3609" id="r_aa697f7fcf69fe00353855c16986b3609"><td class="memItemLeft"><a class="el" href="../../db/d0a/classRelease.html">Release</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aa697f7fcf69fe00353855c16986b3609">pendingClientUpdate</a> = nullptr</td></tr>
+<tr class="memitem:a66bad334d404f11de54dfd186dd51706" id="r_a66bad334d404f11de54dfd186dd51706"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a66bad334d404f11de54dfd186dd51706">pendingClientUpdateCompatible</a> = false</td></tr>
 <tr class="memitem:a4c3417633a361dd31ce948929eb8cb7e" id="r_a4c3417633a361dd31ce948929eb8cb7e"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a4c3417633a361dd31ce948929eb8cb7e">aConnect</a></td></tr>
 <tr class="memitem:a83d228c61bc31ae2c1df02da99beb7c0" id="r_a83d228c61bc31ae2c1df02da99beb7c0"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a83d228c61bc31ae2c1df02da99beb7c0">aDisconnect</a></td></tr>
 <tr class="memitem:a0bf22f9ba83477e8d740ebc281faee07" id="r_a0bf22f9ba83477e8d740ebc281faee07"><td class="memItemLeft">QAction *&#160;</td><td class="memItemRight"><a class="el" href="#a0bf22f9ba83477e8d740ebc281faee07">aRegister</a></td></tr>
@@ -563,7 +574,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_ae2c02e666436ff0080e6fc0cb20941c5_cgraph.svg" width="512" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_ae2c02e666436ff0080e6fc0cb20941c5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -913,6 +924,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a38722ba9576371e5b89a8c3edfab8a6d" name="a38722ba9576371e5b89a8c3edfab8a6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38722ba9576371e5b89a8c3edfab8a6d">&#9670;&#160;</a></span>actOpenPendingClientUpdate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::actOpenPendingClientUpdate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a38722ba9576371e5b89a8c3edfab8a6d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a38722ba9576371e5b89a8c3edfab8a6d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="a342f1c051fd85a21d4b6f88aae1d799c" name="a342f1c051fd85a21d4b6f88aae1d799c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a342f1c051fd85a21d4b6f88aae1d799c">&#9670;&#160;</a></span>actOpenSettingsFolder</h2>
 
@@ -1140,6 +1186,11 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a42768d117c2778bcb3e492a1b9a84000_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1744,6 +1795,11 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_aad9a1b81b6351fa10cf9c006f7e8008d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_aad9a1b81b6351fa10cf9c006f7e8008d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
@@ -2202,6 +2258,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a36c9269b1c1a9d687df066636bf532d0" name="a36c9269b1c1a9d687df066636bf532d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36c9269b1c1a9d687df066636bf532d0">&#9670;&#160;</a></span>onClientUpdateNotesShown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::onClientUpdateNotesShown </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d0a/classRelease.html">Release</a> *</td>          <td class="paramname"><span class="paramname"><em>release</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel slot">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a36c9269b1c1a9d687df066636bf532d0_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a36c9269b1c1a9d687df066636bf532d0_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 <a id="af7d8e36211e4d0a73c3f2b14a92da437" name="af7d8e36211e4d0a73c3f2b14a92da437"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af7d8e36211e4d0a73c3f2b14a92da437">&#9670;&#160;</a></span>onStartupDestinationConnected</h2>
 
@@ -2472,7 +2563,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a2836e718ab96e25231b80d346a7841ad_cgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a2836e718ab96e25231b80d346a7841ad_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -2575,6 +2666,47 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a6612554ec1a507ce7389988d707254a6_icgraph.svg" width="419" height="143"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a3df0c72f96fa40d314f4cb0dc3d06d9a" name="a3df0c72f96fa40d314f4cb0dc3d06d9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df0c72f96fa40d314f4cb0dc3d06d9a">&#9670;&#160;</a></span>setPendingClientUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setPendingClientUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d0a/classRelease.html">Release</a> *</td>          <td class="paramname"><span class="paramname"><em>release</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isCompatible</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the release the update glyph stands for, or clears it when <code class="param">release</code> is null. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a3df0c72f96fa40d314f4cb0dc3d06d9a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a3df0c72f96fa40d314f4cb0dc3d06d9a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -2805,6 +2937,80 @@ Here is the call graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_ad5ab8fcf40c9f96ba98b334da4f79397_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ab0b80d3f4f469251ca0a136bcec1a1cb" name="ab0b80d3f4f469251ca0a136bcec1a1cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0b80d3f4f469251ca0a136bcec1a1cb">&#9670;&#160;</a></span>syncPendingClientUpdateChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::syncPendingClientUpdateChannel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Drops the pending release once it no longer belongs to the selected update channel. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_ab0b80d3f4f469251ca0a136bcec1a1cb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_ab0b80d3f4f469251ca0a136bcec1a1cb_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a3fb19e87ac57eef9344e4428a1fb4db0" name="a3fb19e87ac57eef9344e4428a1fb4db0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fb19e87ac57eef9344e4428a1fb4db0">&#9670;&#160;</a></span>updateClientUpdateButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::updateClientUpdateButton </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Repaints the glyph: amber while the notes are unread, neutral afterwards. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a3fb19e87ac57eef9344e4428a1fb4db0_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d6/d1a/classMainWindow_a3fb19e87ac57eef9344e4428a1fb4db0_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -3627,6 +3833,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aa454178879f0673e7a1255ac5caff80b" name="aa454178879f0673e7a1255ac5caff80b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa454178879f0673e7a1255ac5caff80b">&#9670;&#160;</a></span>clientUpdateButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QToolButton* MainWindow::clientUpdateButton = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a105fd44eed82687cf86e221088982443" name="a105fd44eed82687cf86e221088982443"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a105fd44eed82687cf86e221088982443">&#9670;&#160;</a></span>cockatriceMenu</h2>
 
@@ -3896,6 +4124,50 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>&ndash;no-connect: skip every startup connection </p>
+
+</div>
+</div>
+<a id="aa697f7fcf69fe00353855c16986b3609" name="aa697f7fcf69fe00353855c16986b3609"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa697f7fcf69fe00353855c16986b3609">&#9670;&#160;</a></span>pendingClientUpdate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d0a/classRelease.html">Release</a>* MainWindow::pendingClientUpdate = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a66bad334d404f11de54dfd186dd51706" name="a66bad334d404f11de54dfd186dd51706"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66bad334d404f11de54dfd186dd51706">&#9670;&#160;</a></span>pendingClientUpdateCompatible</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MainWindow::pendingClientUpdateCompatible = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -21,7 +21,7 @@ var searchData=
   ['remove_5fmessages_18',['REMOVE_MESSAGES',['../d7/dc2/structRoomEvent.html#a38dab0b0acac484e5bc10ff0ec2c0021a5ea04317ef4717715c307206f0aae9d3',1,'RoomEvent']]],
   ['remove_5fuser_5favatar_19',['REMOVE_USER_AVATAR',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129aa1a370eee4e32e58e641bed5e4d0ab7d',1,'ModeratorCommand']]],
   ['remove_5fuser_5fbanner_20',['REMOVE_USER_BANNER',['../d0/d8c/structModeratorCommand.html#ad5d47bf0944f62d2889b9be48d368129a47820a5bffb3e08e847c46174b77a115',1,'ModeratorCommand']]],
-  ['removed_21',['Removed',['../d3/d76/classServatrice__DatabaseInterface.html#a160bef704264e09ac8ba4df0cbb9cda4a93f07b720ebf7d1246512569761a5804',1,'Servatrice_DatabaseInterface']]],
+  ['removed_21',['Removed',['../d2/d12/classServer__DatabaseInterface.html#af99861c8af26fc734a6a518ae32ea111a93f07b720ebf7d1246512569761a5804',1,'Server_DatabaseInterface']]],
   ['replay_5fadded_22',['REPLAY_ADDED',['../d4/d0c/structSessionEvent.html#a73d9b4a9155ebd5fcfeb1ef6b345e624a28baa8c22e3f1a7138f2e3e89f24bf31',1,'SessionEvent']]],
   ['replay_5fdelete_5fmatch_23',['REPLAY_DELETE_MATCH',['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a33dddfa7334d4d5a7138428bc793b734',1,'SessionCommand']]],
   ['replay_5fdownload_24',['REPLAY_DOWNLOAD',['../d1/db9/structResponse.html#a74d1ddb87cbc42fc2a78620bdfbe4442aca9391025562f2d1aab126ca2b444124',1,'Response::REPLAY_DOWNLOAD'],['../d8/de9/structSessionCommand.html#a0003a7eb3a8f42234cb435bfebdcd700a653c24e35bb18efb2f83a056f192fd85',1,'SessionCommand::REPLAY_DOWNLOAD']]],

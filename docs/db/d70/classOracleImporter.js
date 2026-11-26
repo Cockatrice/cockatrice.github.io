@@ -1,7 +1,7 @@
 var classOracleImporter =
 [
     [ "OracleImporter", "db/d70/classOracleImporter.html#a1f742d2efe0a636cb28b4cb1de5caa2d", null ],
-    [ "addCard", "db/d70/classOracleImporter.html#a796a918ea604fdc96c44d76865e7d7f9", null ],
+    [ "addCard", "db/d70/classOracleImporter.html#a9928c62d29b22c36e1c5955a0a50d8c5", null ],
     [ "applyLocalizedData", "db/d70/classOracleImporter.html#aefe230e02943779366ad16dfbe60624c", null ],
     [ "cancelImport", "db/d70/classOracleImporter.html#a08804d551f62918f3a3204fccbacd6fb", null ],
     [ "clear", "db/d70/classOracleImporter.html#aee18776bd3879a8b153a8a6290cd5666", null ],

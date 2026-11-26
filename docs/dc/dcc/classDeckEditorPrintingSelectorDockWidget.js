@@ -7,5 +7,6 @@ var classDeckEditorPrintingSelectorDockWidget =
     [ "deckEditor", "dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ad49c999de82894351ef960db3b5801f2", null ],
     [ "printingDisabledInfoWidget", "dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a6011faa1c1553ad2c5b49c70f0a9a5f7", null ],
     [ "printingSelector", "dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#ab60bd850dcddab08d724d961ee6f7c91", null ],
-    [ "printingSelectorDockContents", "dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a402425860d6b41b7be1d190267c9360a", null ]
+    [ "printingSelectorDockContents", "dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#a402425860d6b41b7be1d190267c9360a", null ],
+    [ "printingSelectorHost", "dc/dcc/classDeckEditorPrintingSelectorDockWidget.html#adb8f9361ae71b1c8e728c5fd28430674", null ]
 ];

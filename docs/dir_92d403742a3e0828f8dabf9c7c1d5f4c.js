@@ -14,6 +14,8 @@ var dir_92d403742a3e0828f8dabf9c7c1d5f4c =
     [ "deck_editor_filter_dock_widget.h", "dc/d32/deck__editor__filter__dock__widget_8h.html", "dc/d32/deck__editor__filter__dock__widget_8h" ],
     [ "deck_editor_printing_selector_dock_widget.cpp", "d5/d85/deck__editor__printing__selector__dock__widget_8cpp.html", null ],
     [ "deck_editor_printing_selector_dock_widget.h", "dd/d32/deck__editor__printing__selector__dock__widget_8h.html", "dd/d32/deck__editor__printing__selector__dock__widget_8h" ],
+    [ "deck_editor_printing_selector_host.cpp", "d0/d96/deck__editor__printing__selector__host_8cpp.html", null ],
+    [ "deck_editor_printing_selector_host.h", "d0/d72/deck__editor__printing__selector__host_8h.html", "d0/d72/deck__editor__printing__selector__host_8h" ],
     [ "deck_list_history_manager_widget.cpp", "d9/d88/deck__list__history__manager__widget_8cpp.html", null ],
     [ "deck_list_history_manager_widget.h", "d0/d37/deck__list__history__manager__widget_8h.html", "d0/d37/deck__list__history__manager__widget_8h" ],
     [ "deck_list_style_proxy.cpp", "d4/d3d/deck__list__style__proxy_8cpp.html", null ],

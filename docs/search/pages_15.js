@@ -43,8 +43,9 @@ var searchData=
   ['role_20in_20the_20hierarchy_3a_40',['Role in the hierarchy:',['../d3/de9/classAbstractDecklistCardNode.html#role-in-the-hierarchy',1,'Role in the hierarchy:'],['../d5/d22/classDecklistCardNode.html#role-in-the-hierarchy-1',1,'Role in the hierarchy:'],['../d4/d55/classInnerDecklistNode.html#role-in-the-hierarchy-2',1,'Role in the hierarchy:']]],
   ['roll_5fdie_201005_41',['&lt;span class=&quot;tt&quot;&gt;ROLL_DIE&lt;/span&gt; (1005)',['../d0/d5b/protocol_game_command.html#roll_die-1005',1,'']]],
   ['room_20events_42',['Room Events',['../dc/d6c/protocol_server_message.html#room-events',1,'']]],
-  ['run_43',['Run',['../d0/d30/md_README.html#run',1,'']]],
-  ['run_20it_20every_202_20minutes_20with_20cron_44',['Run it every 2 minutes with cron',['../dir_7bfb512e87101b177eb3569817b9fc67.html#run-it-every-2-minutes-with-cron',1,'']]],
-  ['running_45',['Running',['../dir_52baaaedca03977d67375a3431bf5277.html#running',1,'']]],
-  ['runs_46',['Paths drift between runs',['../dir_52baaaedca03977d67375a3431bf5277.html#paths-drift-between-runs',1,'']]]
+  ['row_43',['Selecting a row',['../dir_52baaaedca03977d67375a3431bf5277.html#selecting-a-row',1,'']]],
+  ['run_44',['Run',['../d0/d30/md_README.html#run',1,'']]],
+  ['run_20it_20every_202_20minutes_20with_20cron_45',['Run it every 2 minutes with cron',['../dir_7bfb512e87101b177eb3569817b9fc67.html#run-it-every-2-minutes-with-cron',1,'']]],
+  ['running_46',['Running',['../dir_52baaaedca03977d67375a3431bf5277.html#running',1,'']]],
+  ['runs_47',['Paths drift between runs',['../dir_52baaaedca03977d67375a3431bf5277.html#paths-drift-between-runs',1,'']]]
 ];

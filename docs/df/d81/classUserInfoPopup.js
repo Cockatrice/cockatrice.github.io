@@ -17,7 +17,7 @@ var classUserInfoPopup =
     [ "fetchGames", "df/d81/classUserInfoPopup.html#ae3767491154958bd59bb5a23dc10c19b", null ],
     [ "getCurrentUser", "df/d81/classUserInfoPopup.html#a05f38f5cd8aab1d9335509dd4cdebfae", null ],
     [ "inviteRequested", "df/d81/classUserInfoPopup.html#ab658d724472d83c5bc7c36ae9fd6cf19", null ],
-    [ "joinGameRequested", "df/d81/classUserInfoPopup.html#ae96c6692fcc3eb3efb6701d7a0c05381", null ],
+    [ "joinGameRequested", "df/d81/classUserInfoPopup.html#a20a57757926f8911455202dc9d8c503b", null ],
     [ "leaveEvent", "df/d81/classUserInfoPopup.html#a66d6e2a0a54dad612eeb4a608e3e7a5b", null ],
     [ "mouseEnteredPopup", "df/d81/classUserInfoPopup.html#ae74e53fc046c58dbc4acb287d4e406ae", null ],
     [ "mouseLeftPopup", "df/d81/classUserInfoPopup.html#adfd220c538b94d69db2643771809f94d", null ],

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -150,10 +150,10 @@ Log Level and Categories</h1>
 <h1 class="doxsection"><a class="anchor" id="logging-configuration"></a>
 Logging Configuration</h1>
 <p>For configuring our logging, we use the qtlogging.ini, located under cockatrice/resources/config/qtlogging.ini, which is baked into the application in release version and set as the QT_LOGGING_CONF environment variable in main.cpp.</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#ifdef Q_OS_APPLE</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#ifdef Q_OS_MACOS</span></div>
 <div class="line">    <span class="comment">// &lt;build&gt;/cockatrice/cockatrice.app/Contents/MacOS/cockatrice</span></div>
 <div class="line">    <span class="keyword">const</span> QByteArray configPath = <span class="stringliteral">&quot;../../../qtlogging.ini&quot;</span>;</div>
-<div class="line"><span class="preprocessor">#elif defined(Q_OS_UNIX)</span></div>
+<div class="line"><span class="preprocessor">#elif defined(Q_OS_LINUX)</span></div>
 <div class="line">    <span class="comment">// &lt;build&gt;/cockatrice/cockatrice</span></div>
 <div class="line">    <span class="keyword">const</span> QByteArray configPath = <span class="stringliteral">&quot;./qtlogging.ini&quot;</span>;</div>
 <div class="line"><span class="preprocessor">#elif defined(Q_OS_WIN)</span></div>

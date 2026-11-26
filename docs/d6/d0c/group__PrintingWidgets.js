@@ -10,5 +10,7 @@ var group__PrintingWidgets =
     [ "printing_selector_card_search_widget.h", "d2/d0c/printing__selector__card__search__widget_8h.html", null ],
     [ "printing_selector_card_selection_widget.h", "da/d84/printing__selector__card__selection__widget_8h.html", null ],
     [ "printing_selector_card_sorting_widget.h", "d4/d97/printing__selector__card__sorting__widget_8h.html", null ],
+    [ "printing_selector_host.h", "d1/df2/printing__selector__host_8h.html", null ],
+    [ "printing_selector_selection_host.h", "d3/d66/printing__selector__selection__host_8h.html", null ],
     [ "set_name_and_collectors_number_display_widget.h", "d9/d84/set__name__and__collectors__number__display__widget_8h.html", null ]
 ];

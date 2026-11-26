@@ -3,7 +3,7 @@ var classDecklistNodeTree =
     [ "DecklistNodeTree", "db/df8/classDecklistNodeTree.html#a6e744eb22740f9fde470b9e9c3ddebe5", null ],
     [ "DecklistNodeTree", "db/df8/classDecklistNodeTree.html#ad821770fd15bcc2829f518ed24fb86b8", null ],
     [ "~DecklistNodeTree", "db/df8/classDecklistNodeTree.html#ae5e12ba091e0d4556aa121cf004f62aa", null ],
-    [ "addCard", "db/df8/classDecklistNodeTree.html#a768a4592fe3437bbc6816d43c1a14489", null ],
+    [ "addCard", "db/df8/classDecklistNodeTree.html#a739d149c8120e0ac623a8f06b832a770", null ],
     [ "addCustomZone", "db/df8/classDecklistNodeTree.html#aa52ddfb4bae5836bb3230815964867e6", null ],
     [ "clear", "db/df8/classDecklistNodeTree.html#a982db1fba41219c0328343645a424e4a", null ],
     [ "computeDeckHash", "db/df8/classDecklistNodeTree.html#a91630a9b29eeb740c6efe703cb6c60ba", null ],

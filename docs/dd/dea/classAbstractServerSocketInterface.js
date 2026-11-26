@@ -1,6 +1,6 @@
 var classAbstractServerSocketInterface =
 [
-    [ "AbstractServerSocketInterface", "dd/dea/classAbstractServerSocketInterface.html#a9121b9dda62706b5df78d49e3f24c8be", null ],
+    [ "AbstractServerSocketInterface", "dd/dea/classAbstractServerSocketInterface.html#aa1b9b0446b4491237f49ae0eeafcfc31", null ],
     [ "~AbstractServerSocketInterface", "dd/dea/classAbstractServerSocketInterface.html#a9444753b7264a2aef77b17f099d70af0", null ],
     [ "acceptsCredentialFormat", "dd/dea/classAbstractServerSocketInterface.html#a0947a4b9a6da4881fa849695d8e63aa6", null ],
     [ "addAdminFlagToUser", "dd/dea/classAbstractServerSocketInterface.html#a80d7ba757b3d725643be70a031ae905f", null ],
@@ -78,19 +78,14 @@ var classAbstractServerSocketInterface =
     [ "cmdWarnUser", "dd/dea/classAbstractServerSocketInterface.html#adbce1f84fbc05b379ee66dcb24f77845", null ],
     [ "continuePasswordRequest", "dd/dea/classAbstractServerSocketInterface.html#ae1b687fb9b598c55872a26fc8c81a413", null ],
     [ "createHashForReplay", "dd/dea/classAbstractServerSocketInterface.html#ab45f886f48b127380d67fc8c11044252", null ],
-    [ "deckDelDirHelper", "dd/dea/classAbstractServerSocketInterface.html#a6f9bc4b747b8f54d2959edc867c576aa", null ],
     [ "deckListHelper", "dd/dea/classAbstractServerSocketInterface.html#a3f329c4840150c46ef60b448dfb1d362", null ],
     [ "flushOutputQueue", "dd/dea/classAbstractServerSocketInterface.html#ac99a527544c95c749f0a235e1716b2ca", null ],
     [ "flushSocket", "dd/dea/classAbstractServerSocketInterface.html#af95a08238c579245d9adcdce3bcfca18", null ],
     [ "getAddress", "dd/dea/classAbstractServerSocketInterface.html#a2dda966531091ea0b2fa4e02b395e606", null ],
     [ "getDeckFromDatabase", "dd/dea/classAbstractServerSocketInterface.html#ad5c8a2d6d10c8a299a1139612f757669", null ],
-    [ "getDeckOwnerId", "dd/dea/classAbstractServerSocketInterface.html#ac785af3b7cbc1c70b1639467386f9661", null ],
-    [ "getDeckPathId", "dd/dea/classAbstractServerSocketInterface.html#a02956e475671d9088bcaae2f5a9a0e8d", null ],
-    [ "getDeckPathId", "dd/dea/classAbstractServerSocketInterface.html#a35316e959bf030b59ccf2de8468f211a", null ],
     [ "getPeerAddress", "dd/dea/classAbstractServerSocketInterface.html#af53807686a4e9381a5bf0f48c3ee4cad", null ],
     [ "incTxBytes", "dd/dea/classAbstractServerSocketInterface.html#ab2a67995b10577c6afedfddfe58d10f2", null ],
     [ "initSession", "dd/dea/classAbstractServerSocketInterface.html#aa971b9ef9acb9c4ff9fbd0d0585dcbd1", null ],
-    [ "isDeckEffectivelyPublic", "dd/dea/classAbstractServerSocketInterface.html#a0b60f409de16a26a5fe076074a3548ed", null ],
     [ "isPasswordLongEnough", "dd/dea/classAbstractServerSocketInterface.html#a04e8bdb22ae05a3283988156c4030a6c", null ],
     [ "logDebugMessage", "dd/dea/classAbstractServerSocketInterface.html#ab0a3827de8b85040bc4bd66231127d39", null ],
     [ "logsDebugMessages", "dd/dea/classAbstractServerSocketInterface.html#a266b53390ba888f08997315fa292b6cb", null ],
@@ -110,6 +105,5 @@ var classAbstractServerSocketInterface =
     [ "writeToSocket", "dd/dea/classAbstractServerSocketInterface.html#a49d340b855e928b79d08d3c364fc7eef", null ],
     [ "outputQueue", "dd/dea/classAbstractServerSocketInterface.html#ac8b71eeb5cadd221283feca41cfa23e0", null ],
     [ "outputQueueMutex", "dd/dea/classAbstractServerSocketInterface.html#a0dd27751872acff7ae75b0d0d50bd730", null ],
-    [ "servatrice", "dd/dea/classAbstractServerSocketInterface.html#ae38f7df92add23801a7cf64065a8dd43", null ],
-    [ "sqlInterface", "dd/dea/classAbstractServerSocketInterface.html#a9e15ebd0efdb82de06d216fab1ba91ea", null ]
+    [ "servatrice", "dd/dea/classAbstractServerSocketInterface.html#ae38f7df92add23801a7cf64065a8dd43", null ]
 ];

@@ -16,8 +16,10 @@ var searchData=
   ['benchmarkcarddatabasepathprovider_13',['BenchmarkCardDatabasePathProvider',['../d7/da8/classBenchmarkCardDatabasePathProvider.html',1,'']]],
   ['betareleasechannel_14',['BetaReleaseChannel',['../d0/dc4/classBetaReleaseChannel.html',1,'']]],
   ['blobreader_15',['BlobReader',['../d1/d94/classLazyPropertiesHash_1_1BlobReader.html',1,'LazyPropertiesHash']]],
-  ['bracketexplainer_16',['BracketExplainer',['../df/d33/classBracketExplainer.html',1,'']]],
-  ['bracketexplanation_17',['BracketExplanation',['../df/dfa/structBracketExplanation.html',1,'']]],
-  ['bracketexplanationsection_18',['BracketExplanationSection',['../d6/d74/structBracketExplanationSection.html',1,'']]],
-  ['buttongrid_19',['ButtonGrid',['../dd/d1e/classButtonGrid.html',1,'']]]
+  ['bootstraproomchannelrecord_16',['BootstrapRoomChannelRecord',['../d8/d5d/structServer__DatabaseInterface_1_1BootstrapRoomChannelRecord.html',1,'Server_DatabaseInterface']]],
+  ['bootstraproomrecord_17',['BootstrapRoomRecord',['../dd/d95/structServer__DatabaseInterface_1_1BootstrapRoomRecord.html',1,'Server_DatabaseInterface']]],
+  ['bracketexplainer_18',['BracketExplainer',['../df/d33/classBracketExplainer.html',1,'']]],
+  ['bracketexplanation_19',['BracketExplanation',['../df/dfa/structBracketExplanation.html',1,'']]],
+  ['bracketexplanationsection_20',['BracketExplanationSection',['../d6/d74/structBracketExplanationSection.html',1,'']]],
+  ['buttongrid_21',['ButtonGrid',['../dd/d1e/classButtonGrid.html',1,'']]]
 ];

@@ -16,7 +16,7 @@ var searchData=
   ['watchworkerthread_13',['watchWorkerThread',['../d5/d0e/classServatrice.html#abcaff54e2bcc64d13fe46ce8c278fb23',1,'Servatrice']]],
   ['weakholder_14',['WeakHolder',['../db/d5b/classpeg_1_1WeakHolder.html#a4b088c583387fa6f33cbcd91bf076c19',1,'peg::WeakHolder']]],
   ['websocketmessagereceived_15',['websocketMessageReceived',['../db/d53/classRemoteClient.html#a885bf43b2b8c193b928db4b84567c3a9',1,'RemoteClient']]],
-  ['websocketserversocketinterface_16',['WebsocketServerSocketInterface',['../de/db1/classWebsocketServerSocketInterface.html#a482ca81df868f2f119b88229a87ee1b6',1,'WebsocketServerSocketInterface']]],
+  ['websocketserversocketinterface_16',['WebsocketServerSocketInterface',['../de/db1/classWebsocketServerSocketInterface.html#a0f79efd58d3f33050a00abe86cc70193',1,'WebsocketServerSocketInterface']]],
   ['welcomepage_17',['WelcomePage',['../de/d10/classWelcomePage.html#a3c3ad24bd4f2e08371ce6aed2e7c5149',1,'WelcomePage']]],
   ['wheelevent_18',['wheelEvent',['../d0/db5/classZoneViewZone.html#a481f8d42f521872b262c9f277b664394',1,'ZoneViewZone::wheelEvent()'],['../df/da2/classPlaymatPreviewWidget.html#a7af01715bfd4dc8d5f9081c968c1a840',1,'PlaymatPreviewWidget::wheelEvent()'],['../dd/d2f/classCardArtPreviewWidget.html#a8fb7164ec7c86a35c99fe4cef98a921d',1,'CardArtPreviewWidget::wheelEvent()'],['../df/db0/classCardDatabaseVisualView.html#a70a0e99ed5600884dbfb95cd30e82c31',1,'CardDatabaseVisualView::wheelEvent()']]],
   ['wheeleventreceived_19',['wheelEventReceived',['../d0/db5/classZoneViewZone.html#a0b9ae57a3d38b7cf7db76896ee208c0c',1,'ZoneViewZone']]],

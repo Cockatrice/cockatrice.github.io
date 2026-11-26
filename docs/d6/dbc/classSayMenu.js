@@ -5,6 +5,6 @@ var classSayMenu =
     [ "retranslateUi", "d6/dbc/classSayMenu.html#ab6a792685f2d8308b8f1341039c8f954", null ],
     [ "setShortcutsActive", "d6/dbc/classSayMenu.html#a78ab5c3b3a9e34e2cdc89df5c2ddcd60", null ],
     [ "setShortcutsInactive", "d6/dbc/classSayMenu.html#aed2ec55e63eb82680d8fdf2fb5363605", null ],
-    [ "player", "d6/dbc/classSayMenu.html#aaefd4da688a35c05afbca8637cc5d06c", null ],
+    [ "player", "d6/dbc/classSayMenu.html#ab5c4948e79f53666b244ee01805669f4", null ],
     [ "shortcutsActive", "d6/dbc/classSayMenu.html#a8f57ed8ff69e5a31411a4b6f865d6e12", null ]
 ];

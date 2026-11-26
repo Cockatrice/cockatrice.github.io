@@ -9,7 +9,7 @@ var searchData=
   ['joinbutton_6',['joinButton',['../df/d3f/classGameSelector.html#a86af8219b48b3ad0e7041bf5a621d793',1,'GameSelector::joinButton'],['../d8/d49/classRoomSelector.html#ac99a7915be0c0053a398b1e1aba17b8f',1,'RoomSelector::joinButton']]],
   ['joincommandpending_7',['joinCommandPending',['../df/d3f/classGameSelector.html#a5ca007331c52b1af4753d0c86f386758',1,'GameSelector']]],
   ['joingamebutton_8',['joinGameButton',['../dc/d80/classTabReport.html#ab561c69d8d5699d268dcd85ca7c8a8f8',1,'TabReport']]],
-  ['joinmessage_9',['joinMessage',['../d1/d15/classServer__Room.html#aa1955d359e2472fc90894ba0dc952035',1,'Server_Room']]],
+  ['joinmessage_9',['joinMessage',['../dd/d95/structServer__DatabaseInterface_1_1BootstrapRoomRecord.html#aa860d21333025d1a0d52f4493cddf8f2',1,'Server_DatabaseInterface::BootstrapRoomRecord::joinMessage'],['../d1/d15/classServer__Room.html#aa1955d359e2472fc90894ba0dc952035',1,'Server_Room::joinMessage']]],
   ['joinpending_10',['joinPending',['../dd/dd9/classIntentOpenServerRoomByName.html#a6cc19b5244ed166bb8a603a44caa3996',1,'IntentOpenServerRoomByName']]],
   ['judge_11',['judge',['../df/df7/classPlayerInfo.html#a4a8f51043ca087810668e918bcc13676',1,'PlayerInfo::judge'],['../d5/da4/structEvent__GameJoined.html#a55ab13a5cae0c12ace3319caf5958915',1,'Event_GameJoined::judge'],['../da/d6b/structServerInfo__PlayerProperties.html#a0a0d872c205b20df0f11cdeed551cb1a',1,'ServerInfo_PlayerProperties::judge']]],
   ['judgeicon_12',['judgeIcon',['../df/d02/classPlayerListWidget.html#af44fe6425d039af9639912eae6013cb9',1,'PlayerListWidget']]]

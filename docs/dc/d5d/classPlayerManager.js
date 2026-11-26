@@ -1,6 +1,6 @@
 var classPlayerManager =
 [
-    [ "PlayerManager", "dc/d5d/classPlayerManager.html#aa019d2cf508112c5a9a232678a4eb659", null ],
+    [ "PlayerManager", "dc/d5d/classPlayerManager.html#aa6dfa5f9ed4bf950f217ad6eb5b2c0c3", null ],
     [ "activeLocalPlayerConceded", "dc/d5d/classPlayerManager.html#a9600993594e706c3891f452eb208a589", null ],
     [ "activeLocalPlayerUnconceded", "dc/d5d/classPlayerManager.html#a63a82c15b6318538874347ea1b31ede5", null ],
     [ "addPlayer", "dc/d5d/classPlayerManager.html#aeac22e4145bd8e1c5052ec350555c930", null ],
@@ -9,17 +9,16 @@ var classPlayerManager =
     [ "getActiveLocalPlayer", "dc/d5d/classPlayerManager.html#ac6de2c7984fc0d813e6a22aacc927956", null ],
     [ "getGame", "dc/d5d/classPlayerManager.html#a7d60d4238267021be5686e2aecb8edfd", null ],
     [ "getLocalPlayerId", "dc/d5d/classPlayerManager.html#a6b00167963964d83c7e2307addd31194", null ],
+    [ "getLocalRoles", "dc/d5d/classPlayerManager.html#a9b4fb469b176cd67f0169d474ec5f620", null ],
     [ "getPlayer", "dc/d5d/classPlayerManager.html#ab02419201ad3dc74a5b1439089ec4771", null ],
     [ "getPlayerCount", "dc/d5d/classPlayerManager.html#a579299614545d266f67202d32d84a550", null ],
     [ "getPlayers", "dc/d5d/classPlayerManager.html#a20a980d74700fa285e4bc84f032c3d85", null ],
     [ "getSpectator", "dc/d5d/classPlayerManager.html#a60f9e1b8cedf8b5221276a85bd05b8bd", null ],
     [ "getSpectatorName", "dc/d5d/classPlayerManager.html#a31b0b4326f242c720da32e15859eee38", null ],
     [ "getSpectators", "dc/d5d/classPlayerManager.html#ae08e8837d88e99b74cf7c04b4f105584", null ],
-    [ "isJudge", "dc/d5d/classPlayerManager.html#a06aa093534865821b7c9a5ef2088841b", null ],
     [ "isLocalPlayer", "dc/d5d/classPlayerManager.html#aae80d5a1ea2ec6ba59fecd68bc2be0dd", null ],
     [ "isLocalPlayer", "dc/d5d/classPlayerManager.html#adec4ac2db4995ec16a2e18fcad5e9794", null ],
     [ "isMainPlayerConceded", "dc/d5d/classPlayerManager.html#aac1ace5c0bb56e3ebffce4b89f7970d6", null ],
-    [ "isSpectator", "dc/d5d/classPlayerManager.html#aa0a36fbae4264f4014fb159a03067836", null ],
     [ "onPlayerConceded", "dc/d5d/classPlayerManager.html#a55962d4478f73de6ed15a28eeb454733", null ],
     [ "playerAdded", "dc/d5d/classPlayerManager.html#ad2e1cd9ae770eb1475fc29dec546f6f2", null ],
     [ "playerConceded", "dc/d5d/classPlayerManager.html#a74504f43a4eb3ca8a8aeb1ec9cc7aa73", null ],
@@ -35,8 +34,7 @@ var classPlayerManager =
     [ "game", "dc/d5d/classPlayerManager.html#a426cb680a0a617abd68354d0aaf7a1ce", null ],
     [ "interfaceSettings", "dc/d5d/classPlayerManager.html#a084b3d5b4e10273dc24cb2aaeb63772a", null ],
     [ "localPlayerId", "dc/d5d/classPlayerManager.html#adf3093f7af8b999faa862fec702947a9", null ],
-    [ "localPlayerIsJudge", "dc/d5d/classPlayerManager.html#aa65e6ea59dc5449528912d957e4548b5", null ],
-    [ "localPlayerIsSpectator", "dc/d5d/classPlayerManager.html#a0273512bb2d9e9cbfee076dd6c45b36e", null ],
+    [ "localRoles", "dc/d5d/classPlayerManager.html#a6b48d7d5f5607907274446f7c1cab6e8", null ],
     [ "players", "dc/d5d/classPlayerManager.html#abecafdc4a91e2fc8f6b53cbc2de2ad03", null ],
     [ "spectators", "dc/d5d/classPlayerManager.html#a87f541b76205ceea44e8921211efebed", null ]
 ];

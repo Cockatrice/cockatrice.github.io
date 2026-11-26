@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -176,6 +176,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abc2d5bd06bdc67dbda64a1a846bf4369" id="r_abc2d5bd06bdc67dbda64a1a846bf4369"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abc2d5bd06bdc67dbda64a1a846bf4369">addAttachedCard</a> (<a class="el" href="../../dc/d07/classServer__Card.html">Server_Card</a> *card)</td></tr>
 <tr class="memitem:ad0fda8566bad70b5acae14c74d8d34e3" id="r_ad0fda8566bad70b5acae14c74d8d34e3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad0fda8566bad70b5acae14c74d8d34e3">removeAttachedCard</a> (<a class="el" href="../../dc/d07/classServer__Card.html">Server_Card</a> *card)</td></tr>
 <tr class="memitem:a1cc6ac9b95e47650f678d13ca1ed86cc" id="r_a1cc6ac9b95e47650f678d13ca1ed86cc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1cc6ac9b95e47650f678d13ca1ed86cc">setStashedCard</a> (<a class="el" href="../../dc/d07/classServer__Card.html">Server_Card</a> *card)</td></tr>
+<tr class="memdesc:a1cc6ac9b95e47650f678d13ca1ed86cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stashes <code class="param">card</code> inside this card, taking ownership of it: it is deleted with this card unless the caller takes it back with <a class="el" href="#a51b52f11a8323079406575ee9fa35ef5">takeStashedCard()</a>.  <br /></td></tr>
 <tr class="memitem:a51b52f11a8323079406575ee9fa35ef5" id="r_a51b52f11a8323079406575ee9fa35ef5"><td class="memItemLeft"><a class="el" href="../../dc/d07/classServer__Card.html">Server_Card</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a51b52f11a8323079406575ee9fa35ef5">takeStashedCard</a> ()</td></tr>
 <tr class="memitem:a8dde895159b5fa302eeeca043a205c50" id="r_a8dde895159b5fa302eeeca043a205c50"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8dde895159b5fa302eeeca043a205c50">resetState</a> (bool keepAnnotations=false)</td></tr>
 <tr class="memitem:ad8eed8e5b9db06165e3ce75dd1b33be7" id="r_ad8eed8e5b9db06165e3ce75dd1b33be7"><td class="memItemLeft">QString&#160;</td><td class="memItemRight"><a class="el" href="#ad8eed8e5b9db06165e3ce75dd1b33be7">setAttribute</a> (<a class="el" href="../../df/d39/card__attributes_8proto.html#a6195eb57e729e91ebdf24993b522934f">CardAttribute</a> attribute, const QString &amp;avalue, bool allCards)</td></tr>
@@ -1477,6 +1478,9 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Stashes <code class="param">card</code> inside this card, taking ownership of it: it is deleted with this card unless the caller takes it back with <a class="el" href="#a51b52f11a8323079406575ee9fa35ef5">takeStashedCard()</a>. </p>
+<dl class="section note"><dt>Note</dt><dd>A token is never stashed — if <code class="param">card</code> would be destroyed on zone change, its own stashed card (if any) is kept in its place and <code class="param">card</code> is deleted during the call. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

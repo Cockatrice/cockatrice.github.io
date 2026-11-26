@@ -1,6 +1,6 @@
 var classUserContextMenu =
 [
-    [ "UserContextMenu", "d7/d67/classUserContextMenu.html#a8832d6f39d9cdc3a8054eb394c492a5d", null ],
+    [ "UserContextMenu", "d7/d67/classUserContextMenu.html#a91eee615e9d168000dd5b4ba1142ce70", null ],
     [ "adjustMod_processUserResponse", "d7/d67/classUserContextMenu.html#a03f4ba889b42910ed65f4f474e5501ec", null ],
     [ "banUser_dialogFinished", "d7/d67/classUserContextMenu.html#a500ba5b62d854ec26e91c5a2a896e50a", null ],
     [ "banUser_processUserInfoResponse", "d7/d67/classUserContextMenu.html#aa88b930975e206719a2b64e23fc5bad0", null ],

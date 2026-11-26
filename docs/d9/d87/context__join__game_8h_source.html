@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -122,24 +122,29 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d9/d87/context
 <div class="contents">
 <a href="../../d9/d87/context__join__game_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef COCKATRICE_CONTEXT_JOIN_GAME_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define COCKATRICE_CONTEXT_JOIN_GAME_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="../../df/d28/context__join__room_8h.html">context_join_room.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="foldopen" id="foldopen00005" data-start="{" data-end="};">
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="../../d6/d37/structContextJoinGame.html">    5</a></span><span class="keyword">struct </span><a class="code hl_struct" href="../../d6/d37/structContextJoinGame.html">ContextJoinGame</a></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="../../d6/d37/structContextJoinGame.html#a2396c30a4f8e8dd451149a3a3c6db0b2">    7</a></span>    <a class="code hl_struct" href="../../d6/d27/structContextJoinRoom.html">ContextJoinRoom</a> <a class="code hl_variable" href="../../d6/d37/structContextJoinGame.html#a2396c30a4f8e8dd451149a3a3c6db0b2">roomContext</a>;</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../d6/d37/structContextJoinGame.html#a9ec84737cdc412cb7e8bc4357e9badf1">    8</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d6/d37/structContextJoinGame.html#a9ec84737cdc412cb7e8bc4357e9badf1">gameId</a>;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../d6/d37/structContextJoinGame.html#ae16f3ef2c0013a5aee30b51ba3634e51">    9</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="../../d6/d37/structContextJoinGame.html#ae16f3ef2c0013a5aee30b51ba3634e51">asSpectator</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>};</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="../../df/d28/context__join__room_8h.html">context_join_room.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;<a class="code" href="../../d9/d14/game__role__info_8h.html">libcockatrice/utility/game_role_info.h</a>&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../d6/d37/structContextJoinGame.html">    8</a></span><span class="keyword">struct </span><a class="code hl_struct" href="../../d6/d37/structContextJoinGame.html">ContextJoinGame</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="../../d6/d37/structContextJoinGame.html#a2396c30a4f8e8dd451149a3a3c6db0b2">   10</a></span>    <a class="code hl_struct" href="../../d6/d27/structContextJoinRoom.html">ContextJoinRoom</a> <a class="code hl_variable" href="../../d6/d37/structContextJoinGame.html#a2396c30a4f8e8dd451149a3a3c6db0b2">roomContext</a>;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../d6/d37/structContextJoinGame.html#a9ec84737cdc412cb7e8bc4357e9badf1">   11</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d6/d37/structContextJoinGame.html#a9ec84737cdc412cb7e8bc4357e9badf1">gameId</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../d6/d37/structContextJoinGame.html#ac7afccb00a2fc1ef443fe9fa4136e111">   12</a></span>    <a class="code hl_struct" href="../../db/d1e/structGameRoleInfo.html">GameRoleInfo</a> <a class="code hl_variable" href="../../d6/d37/structContextJoinGame.html#ac7afccb00a2fc1ef443fe9fa4136e111">roles</a>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>};</div>
 </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_CONTEXT_JOIN_GAME_H</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#endif </span><span class="comment">// COCKATRICE_CONTEXT_JOIN_GAME_H</span></div>
 <div class="ttc" id="acontext__join__room_8h_html"><div class="ttname"><a href="../../df/d28/context__join__room_8h.html">context_join_room.h</a></div></div>
-<div class="ttc" id="astructContextJoinGame_html"><div class="ttname"><a href="../../d6/d37/structContextJoinGame.html">ContextJoinGame</a></div><div class="ttdef"><b>Definition</b> context_join_game.h:6</div></div>
-<div class="ttc" id="astructContextJoinGame_html_a2396c30a4f8e8dd451149a3a3c6db0b2"><div class="ttname"><a href="../../d6/d37/structContextJoinGame.html#a2396c30a4f8e8dd451149a3a3c6db0b2">ContextJoinGame::roomContext</a></div><div class="ttdeci">ContextJoinRoom roomContext</div><div class="ttdef"><b>Definition</b> context_join_game.h:7</div></div>
-<div class="ttc" id="astructContextJoinGame_html_a9ec84737cdc412cb7e8bc4357e9badf1"><div class="ttname"><a href="../../d6/d37/structContextJoinGame.html#a9ec84737cdc412cb7e8bc4357e9badf1">ContextJoinGame::gameId</a></div><div class="ttdeci">int gameId</div><div class="ttdef"><b>Definition</b> context_join_game.h:8</div></div>
-<div class="ttc" id="astructContextJoinGame_html_ae16f3ef2c0013a5aee30b51ba3634e51"><div class="ttname"><a href="../../d6/d37/structContextJoinGame.html#ae16f3ef2c0013a5aee30b51ba3634e51">ContextJoinGame::asSpectator</a></div><div class="ttdeci">bool asSpectator</div><div class="ttdef"><b>Definition</b> context_join_game.h:9</div></div>
+<div class="ttc" id="agame__role__info_8h_html"><div class="ttname"><a href="../../d9/d14/game__role__info_8h.html">game_role_info.h</a></div></div>
+<div class="ttc" id="astructContextJoinGame_html"><div class="ttname"><a href="../../d6/d37/structContextJoinGame.html">ContextJoinGame</a></div><div class="ttdef"><b>Definition</b> context_join_game.h:9</div></div>
+<div class="ttc" id="astructContextJoinGame_html_a2396c30a4f8e8dd451149a3a3c6db0b2"><div class="ttname"><a href="../../d6/d37/structContextJoinGame.html#a2396c30a4f8e8dd451149a3a3c6db0b2">ContextJoinGame::roomContext</a></div><div class="ttdeci">ContextJoinRoom roomContext</div><div class="ttdef"><b>Definition</b> context_join_game.h:10</div></div>
+<div class="ttc" id="astructContextJoinGame_html_a9ec84737cdc412cb7e8bc4357e9badf1"><div class="ttname"><a href="../../d6/d37/structContextJoinGame.html#a9ec84737cdc412cb7e8bc4357e9badf1">ContextJoinGame::gameId</a></div><div class="ttdeci">int gameId</div><div class="ttdef"><b>Definition</b> context_join_game.h:11</div></div>
+<div class="ttc" id="astructContextJoinGame_html_ac7afccb00a2fc1ef443fe9fa4136e111"><div class="ttname"><a href="../../d6/d37/structContextJoinGame.html#ac7afccb00a2fc1ef443fe9fa4136e111">ContextJoinGame::roles</a></div><div class="ttdeci">GameRoleInfo roles</div><div class="ttdef"><b>Definition</b> context_join_game.h:12</div></div>
 <div class="ttc" id="astructContextJoinRoom_html"><div class="ttname"><a href="../../d6/d27/structContextJoinRoom.html">ContextJoinRoom</a></div><div class="ttdef"><b>Definition</b> context_join_room.h:9</div></div>
+<div class="ttc" id="astructGameRoleInfo_html"><div class="ttname"><a href="../../db/d1e/structGameRoleInfo.html">GameRoleInfo</a></div><div class="ttdoc">What in-game roles a participant has.</div><div class="ttdef"><b>Definition</b> game_role_info.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

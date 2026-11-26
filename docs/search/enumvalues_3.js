@@ -1,7 +1,7 @@
 var searchData=
 [
   ['dark_0',['Dark',['../df/d6a/namespaceThemeIconFill.html#a19430d23eecd0d2918b019ec9effba8aaa18366b217ebf811ad1886e4f4f865b2',1,'ThemeIconFill']]],
-  ['databaseerror_1',['DatabaseError',['../d3/d76/classServatrice__DatabaseInterface.html#a160bef704264e09ac8ba4df0cbb9cda4aa31437013b94ae5b39a818c6defac7ea',1,'Servatrice_DatabaseInterface']]],
+  ['databaseerror_1',['DatabaseError',['../d2/d12/classServer__DatabaseInterface.html#af99861c8af26fc734a6a518ae32ea111aa31437013b94ae5b39a818c6defac7ea',1,'Server_DatabaseInterface']]],
   ['databasemysql_2',['DatabaseMySql',['../d5/d0e/classServatrice.html#a47a0f6c8186a694ad51d117cb31cb15da21545247868ba3eeb2c50abb01bbd213',1,'Servatrice']]],
   ['databasenone_3',['DatabaseNone',['../d5/d0e/classServatrice.html#a47a0f6c8186a694ad51d117cb31cb15dafae42f81fec7a200c63e4423ccbb6d92',1,'Servatrice']]],
   ['datecolumn_4',['DateColumn',['../da/dc7/classTipsOfTheDay.html#a53aefded9c3ed84a672f80f2f9496fc9ad550774a218769ed753d16f16523399f',1,'TipsOfTheDay']]],

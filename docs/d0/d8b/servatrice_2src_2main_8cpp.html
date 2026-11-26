@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -120,7 +120,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d0/d8b/servatr
   <div class="headertitle"><div class="title">main.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/d04/rng__abstract_8h_source.html">libcockatrice/rng/rng_abstract.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d0/d40/servatrice_2src_2main_8h_source.html">main.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d04/rng__abstract_8h_source.html">libcockatrice/rng/rng_abstract.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/db3/servatrice_8h_source.html">servatrice.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d62/server__logger_8h_source.html">server_logger.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d96/settingscache_8h_source.html">settingscache.h</a>&quot;</code><br />
@@ -139,6 +140,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('d0/d8b/servatr
 <code>#include &lt;QObject&gt;</code><br />
 <code>#include &lt;QSharedPointer&gt;</code><br />
 <code>#include &lt;QString&gt;</code><br />
+<code>#include &lt;QStringList&gt;</code><br />
 <code>#include &lt;QThread&gt;</code><br />
 <code>#include &lt;QVariant&gt;</code><br />
 <code>#include &lt;QVector&gt;</code><br />
@@ -167,12 +169,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae06734e5c9e469e3675423ec86f124ef" id="r_ae06734e5c9e469e3675423ec86f124ef"><td class="memItemLeft"><a class="el" href="../../de/dba/classRNG__Abstract.html">RNG_Abstract</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ae06734e5c9e469e3675423ec86f124ef">rng</a></td></tr>
-<tr class="memitem:a421d386c27e244a5416e7cb8b70264f6" id="r_a421d386c27e244a5416e7cb8b70264f6"><td class="memItemLeft"><a class="el" href="../../d7/d98/classServerLogger.html">ServerLogger</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a421d386c27e244a5416e7cb8b70264f6">logger</a></td></tr>
-<tr class="memitem:ab232d0d093a74d0daae2d1aa98083e87" id="r_ab232d0d093a74d0daae2d1aa98083e87"><td class="memItemLeft">QThread *&#160;</td><td class="memItemRight"><a class="el" href="#ab232d0d093a74d0daae2d1aa98083e87">loggerThread</a></td></tr>
-<tr class="memitem:a946957425d4e45770706a0198ca2f777" id="r_a946957425d4e45770706a0198ca2f777"><td class="memItemLeft"><a class="el" href="../../d5/d88/classSettingsCache.html">SettingsCache</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a946957425d4e45770706a0198ca2f777">settingsCache</a></td></tr>
 <tr class="memitem:ae17b1bc78ca6e1a56d7d3def17e3c08e" id="r_ae17b1bc78ca6e1a56d7d3def17e3c08e"><td class="memItemLeft"><a class="el" href="../../df/dc9/classSignalHandler.html">SignalHandler</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ae17b1bc78ca6e1a56d7d3def17e3c08e">signalhandler</a></td></tr>
-<tr class="memitem:a978a7d0de98b63b009143f95d924bb4a" id="r_a978a7d0de98b63b009143f95d924bb4a"><td class="memItemLeft"><a class="el" href="../../d7/d8f/classSmtpClient.html">SmtpClient</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a978a7d0de98b63b009143f95d924bb4a">smtpClient</a></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a0ddf1224851353fc92bfbff6f499fa97" name="a0ddf1224851353fc92bfbff6f499fa97"></a>
@@ -328,62 +325,6 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="a421d386c27e244a5416e7cb8b70264f6" name="a421d386c27e244a5416e7cb8b70264f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a421d386c27e244a5416e7cb8b70264f6">&#9670;&#160;</a></span>logger</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/d98/classServerLogger.html">ServerLogger</a>* logger</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab232d0d093a74d0daae2d1aa98083e87" name="ab232d0d093a74d0daae2d1aa98083e87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab232d0d093a74d0daae2d1aa98083e87">&#9670;&#160;</a></span>loggerThread</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QThread* loggerThread</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae06734e5c9e469e3675423ec86f124ef" name="ae06734e5c9e469e3675423ec86f124ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae06734e5c9e469e3675423ec86f124ef">&#9670;&#160;</a></span>rng</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/dba/classRNG__Abstract.html">RNG_Abstract</a>* rng</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a946957425d4e45770706a0198ca2f777" name="a946957425d4e45770706a0198ca2f777"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a946957425d4e45770706a0198ca2f777">&#9670;&#160;</a></span>settingsCache</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d88/classSettingsCache.html">SettingsCache</a>* settingsCache</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae17b1bc78ca6e1a56d7d3def17e3c08e" name="ae17b1bc78ca6e1a56d7d3def17e3c08e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae17b1bc78ca6e1a56d7d3def17e3c08e">&#9670;&#160;</a></span>signalhandler</h2>
 
@@ -392,20 +333,6 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../df/dc9/classSignalHandler.html">SignalHandler</a>* signalhandler</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a978a7d0de98b63b009143f95d924bb4a" name="a978a7d0de98b63b009143f95d924bb4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a978a7d0de98b63b009143f95d924bb4a">&#9670;&#160;</a></span>smtpClient</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/d8f/classSmtpClient.html">SmtpClient</a>* smtpClient</td>
         </tr>
       </table>
 </div><div class="memdoc">

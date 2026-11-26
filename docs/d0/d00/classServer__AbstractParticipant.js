@@ -1,6 +1,6 @@
 var classServer__AbstractParticipant =
 [
-    [ "Server_AbstractParticipant", "d0/d00/classServer__AbstractParticipant.html#af9500d17d61b4383d9dfb4e2df0155ea", null ],
+    [ "Server_AbstractParticipant", "d0/d00/classServer__AbstractParticipant.html#a7684bb96761860194a1d8daeecfd6c01", null ],
     [ "~Server_AbstractParticipant", "d0/d00/classServer__AbstractParticipant.html#a24e2735ef4b730e0b78c10ff6e0d809b", null ],
     [ "cmdAttachCard", "d0/d00/classServer__AbstractParticipant.html#a45bdafe608f5fb4cdbfd0be941ba4900", null ],
     [ "cmdChangeZoneProperties", "d0/d00/classServer__AbstractParticipant.html#a76ec1802814448229c6f6ae35e5204b4", null ],
@@ -60,6 +60,6 @@ var classServer__AbstractParticipant =
     [ "pingTime", "d0/d00/classServer__AbstractParticipant.html#ae558241ae4801028db40486d044709bc", null ],
     [ "playerId", "d0/d00/classServer__AbstractParticipant.html#ad6966fbad7a1b8aad0102d874ddf1824", null ],
     [ "playerMutex", "d0/d00/classServer__AbstractParticipant.html#a0ed3677eb3cbdf0c933b70e429f29ac1", null ],
-    [ "roleInfo", "d0/d00/classServer__AbstractParticipant.html#ab3912129e3086531c9be44e2c63e51da", null ],
+    [ "roleInfo", "d0/d00/classServer__AbstractParticipant.html#ad539343c80daa7eced6b3f8c7bc4d6da", null ],
     [ "userInterface", "d0/d00/classServer__AbstractParticipant.html#af6c388f11d6ceacb80f6beaefafd9144", null ]
 ];

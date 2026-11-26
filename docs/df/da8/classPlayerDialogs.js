@@ -2,7 +2,7 @@ var classPlayerDialogs =
 [
     [ "PlayerDialogs", "df/da8/classPlayerDialogs.html#a87fafa6d6ac5c338d1fb84693aea9253", null ],
     [ "dialogParent", "df/da8/classPlayerDialogs.html#a8cbc496e5de1721ef4ab2535ef0d7ff0", null ],
-    [ "onCreateRelatedFromRelationDialogRequested", "df/da8/classPlayerDialogs.html#aaa7c0103d53c5b607d846832b8461c7d", null ],
+    [ "onCreateRelatedFromRelationDialogRequested", "df/da8/classPlayerDialogs.html#a3227114d248aeec813c5e5c81a05e100", null ],
     [ "onCreateTokenDialogRequested", "df/da8/classPlayerDialogs.html#abca58fdb8c0e3d3f2580e44d06fffcdf", null ],
     [ "onDrawBottomCardsDialogRequested", "df/da8/classPlayerDialogs.html#a9fc2c88b520df93364d9e892a6948176", null ],
     [ "onDrawCardsDialogRequested", "df/da8/classPlayerDialogs.html#ae2f4a153c078d96525482342bea66c16", null ],

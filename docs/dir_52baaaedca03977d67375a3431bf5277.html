@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -182,9 +182,20 @@ Writing a test</h1>
 <td class="markdownTableBodyNone"><span class="tt">dumpTree</span>  </td><td class="markdownTableBodyNone"><span class="tt">path</span>  </td><td class="markdownTableBodyNone">writes the addressed widget's subtree with the paths tests address  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">resize</span>  </td><td class="markdownTableBodyNone"><span class="tt">WIDTHxHEIGHT</span>  </td><td class="markdownTableBodyNone">resizes the addressed widget's window  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">selectRow</span>  </td><td class="markdownTableBodyNone"><span class="tt">row[/row…][,column]</span>  </td><td class="markdownTableBodyNone">selects a row of an item view through its selection model  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone"><span class="tt">clickRow</span>  </td><td class="markdownTableBodyNone"><span class="tt">row[/row…][,column]</span>  </td><td class="markdownTableBodyNone">left-clicks a cell, so the view's own handlers run  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone"><span class="tt">doubleClickRow</span>  </td><td class="markdownTableBodyNone"><span class="tt">row[/row…][,column]</span>  </td><td class="markdownTableBodyNone">double-clicks a cell  </td></tr>
 </table>
 <p>The card, item and property commands are <span class="tt"><a class="el" href="dc/d5b/classpqCockatriceEventPlayer.html">pqCockatriceEventPlayer</a></span> (<span class="tt"><a class="el" href="de/dea/pq__cockatrice__event__player_8h.html">cockatrice/src/game_graphics/pq_cockatrice_event_player.h</a></span>). They resolve cards by name and zone through the <span class="tt">QGraphicsScene</span> and send real mouse events at the card's current viewport position, so a test does not depend on the window size or screen resolution.</p>
-<p>The capture commands are <span class="tt"><a class="el" href="dc/d9c/classpqWidgetTestEventPlayer.html">pqWidgetTestEventPlayer</a></span> (<span class="tt"><a class="el" href="db/d46/pq__widget__test__event__player_8h.html">cockatrice/src/interface/pq_widget_test_event_player.h</a></span>).</p>
+<p>The capture and row commands are <span class="tt"><a class="el" href="dc/d9c/classpqWidgetTestEventPlayer.html">pqWidgetTestEventPlayer</a></span> (<span class="tt"><a class="el" href="db/d46/pq__widget__test__event__player_8h.html">cockatrice/src/interface/pq_widget_test_event_player.h</a></span>). Rows are model rows of the addressed view, so a filtered or sorted model counts the rows it shows. A tree addresses a row by the path of rows leading to it: <span class="tt">2/0</span> is the first child of the third top-level row. A click opens a collapsed path first.</p>
+<h1 class="doxsection"><a class="anchor" id="assertions"></a>
+Assertions</h1>
+<p><span class="tt">expectProperty</span> is an action. It fails playback unless a widget property matches. QtTesting's own check commands assert model state instead, and they only run when the event carries <span class="tt">type="check"</span>. Without it the event is an action, and a check command is rejected as unknown:</p>
+<div class="fragment"><div class="line">&lt;<span class="keywordtype">event</span> <span class="keyword">widget</span>=<span class="stringliteral">&quot;MainWindow/.../deckView&quot;</span> <span class="keyword">command</span>=<span class="stringliteral">&quot;modelRowCount&quot;</span> <span class="keyword">arguments</span>=<span class="stringliteral">&quot;1&quot;</span> <span class="keyword">type</span>=<span class="stringliteral">&quot;check&quot;</span> /&gt;</div>
+</div><!-- fragment --><p><span class="tt">modelRowCount</span> compares <span class="tt">model()-&gt;rowCount()</span>. <span class="tt">modelItemData</span> compares the data of one cell, addressed as <span class="tt">row.column,text</span> (<span class="tt">modelItemData "0.0,Lightning Bolt"</span>).</p>
 <h1 class="doxsection"><a class="anchor" id="screenshots"></a>
 Screenshots</h1>
 <p><span class="tt">run_test.sh</span> sets <span class="tt">COCKATRICE_SCREENSHOT_DIR</span> to <span class="tt">build/screenshots</span>, and <span class="tt">screenshot</span> and <span class="tt">dumpTree</span> write there. Override it in the environment to send captures elsewhere. That directory is not part of the source tree, so a test run does not leave untracked files in the repository:</p>
@@ -204,7 +215,10 @@ Paths drift between runs</h2>
 <p>Record the tree in the same playback that clicks, and copy paths from that dump:</p>
 <div class="fragment"><div class="line">./Testing/run_test.sh Testing/screenshot_test.xml</div>
 <div class="line">less build/screenshots/widget-tree.txt</div>
-</div><!-- fragment --> </div></div><!-- contents -->
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="selecting-a-row"></a>
+Selecting a row</h2>
+<p>QtTesting's own <span class="tt">currentChanged</span> takes <span class="tt">row|column</span>. <span class="tt">0:0</span> reaches <span class="tt">OldGetIndex</span>, which calls <span class="tt">.at(1)</span> on a one-element list and aborts the process. Select through <span class="tt">selectRow</span> (or click through <span class="tt">clickRow</span>) instead. Never use <span class="tt">currentChanged</span>. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">
 <div id="page-nav-resize-handle"></div>

@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -194,6 +194,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a10508fd44fc6df0da354c7f3d1acb614" id="r_a10508fd44fc6df0da354c7f3d1acb614"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a10508fd44fc6df0da354c7f3d1acb614">getIsPortableBuild</a> () const</td></tr>
 <tr class="memitem:a023b6a183a5ccf7048d214d29472c31c" id="r_a023b6a183a5ccf7048d214d29472c31c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a023b6a183a5ccf7048d214d29472c31c">resetPaths</a> ()</td></tr>
 <tr class="memitem:a1fa4227bb246a137870f9743abeee4cf" id="r_a1fa4227bb246a137870f9743abeee4cf"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1fa4227bb246a137870f9743abeee4cf">SettingsCache</a> (const QString &amp;fileName=&quot;servatrice.ini&quot;, QSettings::Format format=QSettings::IniFormat, QObject *parent=0)</td></tr>
+<tr class="memitem:ae5670ba02bad26c45c28717a86a28023" id="r_ae5670ba02bad26c45c28717a86a28023"><td class="memItemLeft">QVariant&#160;</td><td class="memItemRight"><a class="el" href="#ae5670ba02bad26c45c28717a86a28023">value</a> (const QString &amp;key, const QVariant &amp;defaultValue=QVariant()) const</td></tr>
+<tr class="memdesc:ae5670ba02bad26c45c28717a86a28023"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a value, preferring a per-run override set with <a class="el" href="#a0b36da009d3fffc39494c3fe06397dc2" title="Override a key for this process only; never written back to the ini file.">setOverride()</a>.  <br /></td></tr>
+<tr class="memitem:a0b36da009d3fffc39494c3fe06397dc2" id="r_a0b36da009d3fffc39494c3fe06397dc2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0b36da009d3fffc39494c3fe06397dc2">setOverride</a> (const QString &amp;key, const QVariant &amp;value)</td></tr>
+<tr class="memdesc:a0b36da009d3fffc39494c3fe06397dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override a key for this process only; never written back to the ini file.  <br /></td></tr>
+<tr class="memitem:ad5c1abafd426fc836c89b5653b9bfa73" id="r_ad5c1abafd426fc836c89b5653b9bfa73"><td class="memItemLeft">QStringList&#160;</td><td class="memItemRight"><a class="el" href="#ad5c1abafd426fc836c89b5653b9bfa73">effectiveKeys</a> () const</td></tr>
+<tr class="memdesc:ad5c1abafd426fc836c89b5653b9bfa73"><td class="mdescLeft">&#160;</td><td class="mdescRight">allKeys() plus override-only keys, sorted; the &ndash;print-config listing.  <br /></td></tr>
+<tr class="memitem:a64f92018cd2de39379a5b4c68384d30d" id="r_a64f92018cd2de39379a5b4c68384d30d"><td class="memItemLeft">const <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt; QString, QVariant &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a64f92018cd2de39379a5b4c68384d30d">getOverrides</a> () const</td></tr>
+<tr class="memdesc:a64f92018cd2de39379a5b4c68384d30d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overrides in effect, for &ndash;print-config and tests.  <br /></td></tr>
+<tr class="memitem:a62f5a66b750735a14588300992639881" id="r_a62f5a66b750735a14588300992639881"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a62f5a66b750735a14588300992639881">rebuildDisallowedRegExps</a> ()</td></tr>
+<tr class="memdesc:a62f5a66b750735a14588300992639881"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rebuild disallowedRegExp from users/disallowedregexp after overrides are applied.  <br /></td></tr>
 <tr class="memitem:a10508fd44fc6df0da354c7f3d1acb614" id="r_a10508fd44fc6df0da354c7f3d1acb614"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a10508fd44fc6df0da354c7f3d1acb614">getIsPortableBuild</a> () const</td></tr>
 <tr class="inherit_header pub_methods_classICardDatabasePathProvider"><td colspan="2">Public Member Functions inherited from <a class="el" href="../../dd/d8e/classICardDatabasePathProvider.html">ICardDatabasePathProvider</a></td></tr>
 <tr class="memitem:af28efe881b2f0898f0df5acdc3daf43b pub_methods_classICardDatabasePathProvider" id="r_af28efe881b2f0898f0df5acdc3daf43b"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="../../dd/d8e/classICardDatabasePathProvider.html#af28efe881b2f0898f0df5acdc3daf43b">~ICardDatabasePathProvider</a> ()=default</td></tr>
@@ -204,6 +214,10 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:adfa7f9f975919981b992db1fca9e4957" id="r_adfa7f9f975919981b992db1fca9e4957"><td class="memItemLeft">static <a class="el" href="../../d5/d88/classSettingsCache.html">SettingsCache</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#adfa7f9f975919981b992db1fca9e4957">instance</a> ()</td></tr>
 <tr class="memitem:a2c87697a95d77ee08fbd3f88ee31e8b9" id="r_a2c87697a95d77ee08fbd3f88ee31e8b9"><td class="memItemLeft">static QString&#160;</td><td class="memItemRight"><a class="el" href="#a2c87697a95d77ee08fbd3f88ee31e8b9">guessConfigurationPath</a> ()</td></tr>
+<tr class="memitem:a56f00766406ee36bb3ef4e026d720804" id="r_a56f00766406ee36bb3ef4e026d720804"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a56f00766406ee36bb3ef4e026d720804">parseOverride</a> (const QString &amp;entry, QString &amp;key, QVariant &amp;value)</td></tr>
+<tr class="memdesc:a56f00766406ee36bb3ef4e026d720804"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse one &ndash;set entry into a key and value.  <br /></td></tr>
+<tr class="memitem:adbf2ee8f94998c4ed56b77cd03e052b8" id="r_adbf2ee8f94998c4ed56b77cd03e052b8"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#adbf2ee8f94998c4ed56b77cd03e052b8">isSecretKey</a> (const QString &amp;key)</td></tr>
+<tr class="memdesc:adbf2ee8f94998c4ed56b77cd03e052b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">True when &ndash;print-config must redact this key's value.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -249,6 +263,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa2a0b1926fbdfa0815cc9102eb320df7" id="r_aa2a0b1926fbdfa0815cc9102eb320df7"><td class="memItemLeft"><a class="el" href="../../d1/d4a/classQList.html">QList</a>&lt; <a class="el" href="../../d0/db2/classReleaseChannel.html">ReleaseChannel</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa2a0b1926fbdfa0815cc9102eb320df7">releaseChannels</a></td></tr>
 <tr class="memitem:a999e8751c0802920ed56babf4a47c147" id="r_a999e8751c0802920ed56babf4a47c147"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a999e8751c0802920ed56babf4a47c147">shutdownHookInstalled</a> = false</td></tr>
 <tr class="memitem:a9b15c8bcf26c4587d0c48ff5bf231a35" id="r_a9b15c8bcf26c4587d0c48ff5bf231a35"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a9b15c8bcf26c4587d0c48ff5bf231a35">isPortableBuild</a></td></tr>
+<tr class="memitem:a24225ace6b0f8645140b57116198cc2e" id="r_a24225ace6b0f8645140b57116198cc2e"><td class="memItemLeft"><a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt; QString, QVariant &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a24225ace6b0f8645140b57116198cc2e">overrides</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a123df429cbb9f9aebff30f35e1d80685" name="a123df429cbb9f9aebff30f35e1d80685"></a>
@@ -301,6 +316,11 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_a1fa4227bb246a137870f9743abeee4cf_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
 
 </div>
 </div>
@@ -626,6 +646,30 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_ab2d0f544c3638f37ebdb8cd515e5e327_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ad5c1abafd426fc836c89b5653b9bfa73" name="ad5c1abafd426fc836c89b5653b9bfa73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5c1abafd426fc836c89b5653b9bfa73">&#9670;&#160;</a></span>effectiveKeys()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList SettingsCache::effectiveKeys </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>allKeys() plus override-only keys, sorted; the &ndash;print-config listing. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_ad5c1abafd426fc836c89b5653b9bfa73_icgraph.svg" width="338" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1064,6 +1108,38 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a64f92018cd2de39379a5b4c68384d30d" name="a64f92018cd2de39379a5b4c68384d30d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64f92018cd2de39379a5b4c68384d30d">&#9670;&#160;</a></span>getOverrides()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt; QString, QVariant &gt; &amp; SettingsCache::getOverrides </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Overrides in effect, for &ndash;print-config and tests. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_a64f92018cd2de39379a5b4c68384d30d_icgraph.svg" width="334" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a3778996fd17a75e0b4860dfcc3a2ce6d" name="a3778996fd17a75e0b4860dfcc3a2ce6d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3778996fd17a75e0b4860dfcc3a2ce6d">&#9670;&#160;</a></span>getSafeConfigFilePath()</h2>
 
@@ -1315,7 +1391,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_a1ae55646d0e042764ae689d7b6578e58_icgraph.svg" width="408" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_a1ae55646d0e042764ae689d7b6578e58_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -1470,6 +1546,38 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="adbf2ee8f94998c4ed56b77cd03e052b8" name="adbf2ee8f94998c4ed56b77cd03e052b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf2ee8f94998c4ed56b77cd03e052b8">&#9670;&#160;</a></span>isSecretKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SettingsCache::isSecretKey </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True when &ndash;print-config must redact this key's value. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_adbf2ee8f94998c4ed56b77cd03e052b8_icgraph.svg" width="311" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="a26fa69b700de9f239f01d227730d6d1b" name="a26fa69b700de9f239f01d227730d6d1b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a26fa69b700de9f239f01d227730d6d1b">&#9670;&#160;</a></span>layouts()</h2>
 
@@ -1595,6 +1703,53 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a56f00766406ee36bb3ef4e026d720804" name="a56f00766406ee36bb3ef4e026d720804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56f00766406ee36bb3ef4e026d720804">&#9670;&#160;</a></span>parseOverride()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SettingsCache::parseOverride </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>entry</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QVariant &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parse one &ndash;set entry into a key and value. </p>
+<p>Rejects a missing '=', an empty key, and array-scoped keys (a numeric path segment or a trailing "/size"). QSettings reads array entries through beginReadArray(), which bypasses this class's <a class="el" href="#ae5670ba02bad26c45c28717a86a28023" title="Read a value, preferring a per-run override set with setOverride().">value()</a>, so an override for those keys would be silently ignored. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_a56f00766406ee36bb3ef4e026d720804_cgraph.svg" width="432" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_a56f00766406ee36bb3ef4e026d720804_icgraph.svg" width="327" height="143"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="ad98849d58149704e869e53c37db50acd" name="ad98849d58149704e869e53c37db50acd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad98849d58149704e869e53c37db50acd">&#9670;&#160;</a></span>paths()</h2>
 
@@ -1651,6 +1806,35 @@ Here is the caller graph for this function:</div>
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_a88e5861500883bc7966b99fd29724356_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a62f5a66b750735a14588300992639881" name="a62f5a66b750735a14588300992639881"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62f5a66b750735a14588300992639881">&#9670;&#160;</a></span>rebuildDisallowedRegExps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SettingsCache::rebuildDisallowedRegExps </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rebuild disallowedRegExp from users/disallowedregexp after overrides are applied. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_a62f5a66b750735a14588300992639881_cgraph.svg" width="456" height="56"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_a62f5a66b750735a14588300992639881_icgraph.svg" width="514" height="91"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1770,6 +1954,39 @@ Here is the caller graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_a4252f180e3ea67d26fa18e298fcd5761_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a0b36da009d3fffc39494c3fe06397dc2" name="a0b36da009d3fffc39494c3fe06397dc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b36da009d3fffc39494c3fe06397dc2">&#9670;&#160;</a></span>setOverride()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SettingsCache::setOverride </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QVariant &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Override a key for this process only; never written back to the ini file. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_a0b36da009d3fffc39494c3fe06397dc2_cgraph.svg" width="416" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_a0b36da009d3fffc39494c3fe06397dc2_icgraph.svg" width="326" height="195"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -1986,6 +2203,30 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" loading="lazy" frameborder="0" src="../../d5/d88/classSettingsCache_ad886b2e4baa4f320c029adfc0635bd9b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
+
+</div>
+</div>
+<a id="ae5670ba02bad26c45c28717a86a28023" name="ae5670ba02bad26c45c28717a86a28023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5670ba02bad26c45c28717a86a28023">&#9670;&#160;</a></span>value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVariant SettingsCache::value </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QVariant &amp;</td>          <td class="paramname"><span class="paramname"><em>defaultValue</em></span><span class="paramdefsep"> = </span><span class="paramdefval">QVariant()</span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read a value, preferring a per-run override set with <a class="el" href="#a0b36da009d3fffc39494c3fe06397dc2" title="Override a key for this process only; never written back to the ini file.">setOverride()</a>. </p>
+<p>QSettings::value() is not virtual, so this hides the base member. Every server call site reads through a <a class="el" href="../../d5/d88/classSettingsCache.html">SettingsCache</a> pointer, which is why the override is visible without changing those call sites. </p>
 
 </div>
 </div>
@@ -2419,6 +2660,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d0/d9f/classNetworkSettings.html">NetworkSettings</a>* SettingsCache::networkSettings = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24225ace6b0f8645140b57116198cc2e" name="a24225ace6b0f8645140b57116198cc2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24225ace6b0f8645140b57116198cc2e">&#9670;&#160;</a></span>overrides</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/da1/classQHash.html">QHash</a>&lt;QString, QVariant&gt; SettingsCache::overrides</td>
         </tr>
       </table>
   </td>

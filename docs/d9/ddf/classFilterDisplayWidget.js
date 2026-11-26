@@ -1,7 +1,7 @@
 var classFilterDisplayWidget =
 [
     [ "FilterDisplayWidget", "d9/ddf/classFilterDisplayWidget.html#a308b942e5f5a8e8b31fd9390e73b703f", null ],
-    [ "~FilterDisplayWidget", "d9/ddf/classFilterDisplayWidget.html#a52b0799cc2ceb555baa48d2f9527d258", null ],
+    [ "~FilterDisplayWidget", "d9/ddf/classFilterDisplayWidget.html#aa542c18b80c9d2fad4bb7f80ad7c8e62", null ],
     [ "deleteFilter", "d9/ddf/classFilterDisplayWidget.html#a440ca09ac97d3019a4a7cf5e39818d3b", null ],
     [ "filterClicked", "d9/ddf/classFilterDisplayWidget.html#a2c29dd78835e7f0d7e4fe9053884681f", null ],
     [ "filterDeleted", "d9/ddf/classFilterDisplayWidget.html#a6a6709c60c1c744d93b99f06d77d4239", null ],

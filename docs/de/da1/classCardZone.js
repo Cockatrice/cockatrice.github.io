@@ -13,7 +13,7 @@ var classCardZone =
     [ "onCreateCardRequested", "de/da1/classCardZone.html#a6f617b079d8aebf5042476d26a2d857e", null ],
     [ "reorganizeCards", "de/da1/classCardZone.html#a2398fb38e6a7abd87eecdcbf93d3b83b", null ],
     [ "retranslateUi", "de/da1/classCardZone.html#a92c04f6266a5909062d9f2875c1993ab", null ],
-    [ "setMenu", "de/da1/classCardZone.html#a432f5022efcc74dcfa94ac9acbf3fb65", null ],
+    [ "setMenu", "de/da1/classCardZone.html#a1b8526ee9918f219032f420b573316ac", null ],
     [ "showContextMenu", "de/da1/classCardZone.html#a4d61e290018a18fdae2e4e3e06ad224d", null ],
     [ "type", "de/da1/classCardZone.html#ae4d6eeb4ccea9bfd8c07408a119cd46a", null ],
     [ "doubleClickAction", "de/da1/classCardZone.html#a36d05add8c009852e6982e706d9a90be", null ],

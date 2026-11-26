@@ -148,7 +148,7 @@ var searchData=
   ['formatreportcategory_145',['formatReportCategory',['../d8/d80/namespacereport__utils.html#aa522b2bfcaa63dfb583413958f170510',1,'report_utils']]],
   ['formatreportstatus_146',['formatReportStatus',['../d8/d80/namespacereport__utils.html#ad63249ff635da1894208dc8da0dd40df',1,'report_utils']]],
   ['formatreporttime_147',['formatReportTime',['../d8/d80/namespacereport__utils.html#a65f3a661628579cbba9d83d9398d4a40',1,'report_utils']]],
-  ['formats_148',['formats',['../d8/d6a/classSetsMimeData.html#a4fcefa4607f955be7cf43ad0f8a8b389',1,'SetsMimeData']]],
+  ['formats_148',['formats',['../d8/d6a/classSetsMimeData.html#acd1500dbaf6eaf0503d49f7385782d59',1,'SetsMimeData']]],
   ['formatshareexpiry_149',['formatShareExpiry',['../de/d57/namespaceDeckShareUtils.html#aa947a4c253a0396dcabaabeda0e11e01',1,'DeckShareUtils']]],
   ['formattoapiname_150',['formatToApiName',['../dc/d95/namespaceArchidektFormats.html#a1a163460305496ade5ce5e6747960017',1,'ArchidektFormats']]],
   ['formattocockatricename_151',['formatToCockatriceName',['../dc/d95/namespaceArchidektFormats.html#aaf6f587210cecf39d83ae062cc6970b6',1,'ArchidektFormats']]],

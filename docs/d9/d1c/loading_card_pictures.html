@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -164,7 +164,7 @@ Local Image Loading</h1>
 <p>Before any network request is issued, <a class="el" href="../../d6/da1/classCardPictureLoaderWorker.html" title="Handles asynchronous loading of card images, both locally and via network.">CardPictureLoaderWorker</a> hands the <a class="el" href="../../df/d4e/classExactCard.html" title="Represents a specific card instance, defined by its CardInfo and a particular printing.">ExactCard</a> to <a class="el" href="../../dd/d17/classCardPictureLoaderLocal.html" title="Handles searching for and loading card images from local and custom image folders.">CardPictureLoaderLocal</a>, which tries to find a matching picture on disk. If a local picture is found, it is used and no network request is made.</p>
 <p><a class="el" href="../../dd/d17/classCardPictureLoaderLocal.html" title="Handles searching for and loading card images from local and custom image folders.">CardPictureLoaderLocal</a> searches three locations:</p>
 <ul>
-<li>The <b>CUSTOM folder</b> (<span class="tt">&lt;pictures directory&gt;/CUSTOM/</span>). Every file in it is indexed recursively by its base name (both <span class="tt">baseName</span> and <span class="tt">completeBaseName</span>, so a file named <span class="tt">ExampleCard.jpg</span> is indexed as <span class="tt">ExampleCard</span>). The index is rebuilt every 10 seconds, so new files are picked up without restarting the client (changing the configured pictures directory only reassigns the search paths; the next timer tick rebuilds the index).</li>
+<li>The <b>CUSTOM folder</b> (<span class="tt">&lt;pictures directory&gt;/CUSTOM/</span>). Every file in it is indexed recursively by its base name (both <span class="tt">baseName</span> and <span class="tt">completeBaseName</span>, so a file named <span class="tt">ExampleCard.jpg</span> is indexed as <span class="tt">ExampleCard</span>). A <span class="tt">QFileSystemWatcher</span> watches that folder and its subfolders, and a burst of change events is debounced into a single rebuild after 500 ms, so new files are picked up without restarting the client. A five-minute fallback poll covers filesystems where watching fails, and changing the configured pictures directory rebuilds the index immediately.</li>
 <li>The <b>set-named subfolders</b> of the pictures directory: <span class="tt">&lt;pictures directory&gt;/&lt;set code&gt;/</span> and <span class="tt">&lt;pictures directory&gt;/downloadedPics/&lt;set code&gt;/</span>.</li>
 <li>The <b>root of the <span class="tt">downloadedPics</span> folder</b> (<span class="tt">&lt;pictures directory&gt;/downloadedPics/</span>). The export naming schemes without a set-folder part write their files straight into <span class="tt">downloadedPics/</span>, so this is where flat-scheme downloads and the local overrides described below are matched.</li>
 </ul>

@@ -40,5 +40,6 @@ var searchData=
   ['workingconfig_37',['workingConfig',['../d0/dc0/classPaletteEditorDialog.html#a49e48d4f4d726e4eef8d6539e2b538ee',1,'PaletteEditorDialog']]],
   ['write_5faccess_5flevel_38',['write_access_level',['../de/de6/structServerInfo__RoomChannel.html#aa29ed503c837b2f352174dbcc874dafe',1,'ServerInfo_RoomChannel']]],
   ['writeablerevealzone_39',['writeableRevealZone',['../d8/d70/classZoneViewZoneLogic.html#aa729347d494a7a39278afe40daa8bbd2',1,'ZoneViewZoneLogic']]],
-  ['writelog_40',['writeLog',['../d7/d98/classServerLogger.html#aba3e5413ac3a27d45cc4d354cb6c9d53',1,'ServerLogger']]]
+  ['writeaccesskey_40',['writeAccessKey',['../d8/d5d/structServer__DatabaseInterface_1_1BootstrapRoomChannelRecord.html#a001ac11ba590a602fc7ffcf402e105ad',1,'Server_DatabaseInterface::BootstrapRoomChannelRecord']]],
+  ['writelog_41',['writeLog',['../d7/d98/classServerLogger.html#aba3e5413ac3a27d45cc4d354cb6c9d53',1,'ServerLogger']]]
 ];

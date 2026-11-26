@@ -1,6 +1,6 @@
 var classWebsocketServerSocketInterface =
 [
-    [ "WebsocketServerSocketInterface", "de/db1/classWebsocketServerSocketInterface.html#a482ca81df868f2f119b88229a87ee1b6", null ],
+    [ "WebsocketServerSocketInterface", "de/db1/classWebsocketServerSocketInterface.html#a0f79efd58d3f33050a00abe86cc70193", null ],
     [ "~WebsocketServerSocketInterface", "de/db1/classWebsocketServerSocketInterface.html#a70c24063505c789f4ca4899815ccfe47", null ],
     [ "binaryMessageReceived", "de/db1/classWebsocketServerSocketInterface.html#a2f1e03f4baab144726729ddd833bdc20", null ],
     [ "flushOutputQueue", "de/db1/classWebsocketServerSocketInterface.html#a59e07dfc374c659c8293ea6b65cef74b", null ],

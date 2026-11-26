@@ -218,6 +218,9 @@ var namespaces_dup =
     ] ],
     [ "QtUtils", "dc/d55/namespaceQtUtils.html", "dc/d55/namespaceQtUtils" ],
     [ "RawJson", "d6/d63/namespaceRawJson.html", "d6/d63/namespaceRawJson" ],
+    [ "ReleaseNotes", "d6/d5f/namespaceReleaseNotes.html", [
+      [ "curated", "d6/d5f/namespaceReleaseNotes.html#af4b5e9c7aa996292a86c67667f786820", null ]
+    ] ],
     [ "report_utils", "d8/d80/namespacereport__utils.html", [
       [ "fillReportTableRow", "d8/d80/namespacereport__utils.html#a021ba59ea2da67bfac06c304e3489c1f", null ],
       [ "formatReportCategory", "d8/d80/namespacereport__utils.html#aa522b2bfcaa63dfb583413958f170510", null ],

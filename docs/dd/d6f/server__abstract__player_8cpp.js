@@ -4,5 +4,6 @@ var server__abstract__player_8cpp =
     [ "makeCreateTokenEvent", "dd/d6f/server__abstract__player_8cpp.html#a18f70efed28619c8f51fe2a60e761387", null ],
     [ "shouldBeFaceDown", "dd/d6f/server__abstract__player_8cpp.html#a307f4c165c893a8cbba44ea43122fd2e", null ],
     [ "shouldBeFromTheBottom", "dd/d6f/server__abstract__player_8cpp.html#ab4abfe962a9648af76947b5b4fb1dff4", null ],
-    [ "shouldDestroyOnMove", "dd/d6f/server__abstract__player_8cpp.html#a2d6fb4a18c3f21c58aeb6987db5822ca", null ]
+    [ "shouldDestroyOnMove", "dd/d6f/server__abstract__player_8cpp.html#a2d6fb4a18c3f21c58aeb6987db5822ca", null ],
+    [ "violatesAttachmentRules", "dd/d6f/server__abstract__player_8cpp.html#a5b1b841d3e0827f74e7197359ada306e", null ]
 ];

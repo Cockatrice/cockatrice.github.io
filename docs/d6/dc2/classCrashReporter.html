@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -371,7 +371,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Append one attachment item to a cached Sentry envelope file. </p>
-<p>An envelope is a newline-separated stream of item-header-line + payload pairs. The retry transport replays cached envelopes byte-for-byte (sentry-native 0.17.3 reads them raw and serializes raw envelopes back verbatim), so appending well-formed items associates them with the event already in the file; the first line (event id header) is never touched.</p>
+<p>An envelope is a newline-separated stream of item-header-line + payload pairs. The retry transport replays cached envelopes byte-for-byte (sentry-native reads them raw and serializes raw envelopes back verbatim), so appending well-formed items associates them with the event already in the file; the first line (event id header) is never touched.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filename</td><td>ASCII-only item filename, embedded verbatim in the header. </td></tr>
@@ -942,6 +942,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>true once the event is queued to the local transport; delivery happens later and is not reported here. false also covers a captured event whose attachment failed, so false does not mean "nothing was captured" - callers offer the local-save fallback rather than treating the report as absent. </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

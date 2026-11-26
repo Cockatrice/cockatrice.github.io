@@ -1,7 +1,7 @@
 var classOverlapLayout =
 [
     [ "OverlapLayout", "dd/d39/classOverlapLayout.html#aeabd9848d95ef089934adbfe43352ab7", null ],
-    [ "~OverlapLayout", "dd/d39/classOverlapLayout.html#ac2d2e5d993d9fab40f8a2c58be4024ee", null ],
+    [ "~OverlapLayout", "dd/d39/classOverlapLayout.html#ab8a8d7a3de1457154fbac54200e67ed7", null ],
     [ "addItem", "dd/d39/classOverlapLayout.html#af39ee124a1a18ab1ecbff97ff4388160", null ],
     [ "calculateColumnsForRows", "dd/d39/classOverlapLayout.html#ae0b0c291863ae1bffc39106224c06202", null ],
     [ "calculateMaxColumns", "dd/d39/classOverlapLayout.html#ad72d9289f0e335fc6188bbda0ce7346b", null ],

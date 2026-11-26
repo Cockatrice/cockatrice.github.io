@@ -8,6 +8,7 @@ var classDlgCreateToken =
     [ "closeEvent", "d1/dad/classDlgCreateToken.html#aec52fdf8eb4ffe5ed63df2be8303b45e", null ],
     [ "faceDownCheckBoxToggled", "d1/dad/classDlgCreateToken.html#a78d30a5c72fb67f19cfa07aab8d3eeca", null ],
     [ "getTokenInfo", "d1/dad/classDlgCreateToken.html#ac69f88be5509ff766e9d7c49b8d8ab7b", null ],
+    [ "syncPrintingsToToken", "d1/dad/classDlgCreateToken.html#aea19a5d12f964932df9e5ec2658f4042", null ],
     [ "tokenDraft", "d1/dad/classDlgCreateToken.html#a39035b172a0bd463e83005c68f690a18", null ],
     [ "tokenSelectionChanged", "d1/dad/classDlgCreateToken.html#a9ab29a5b13f66673eefb7b6856cce8f4", null ],
     [ "updatePreview", "d1/dad/classDlgCreateToken.html#a8679f7b5cf0ea1bb3e0b8c49e8a49f93", null ],
@@ -23,11 +24,16 @@ var classDlgCreateToken =
     [ "colorEdit", "d1/dad/classDlgCreateToken.html#a91c25aef66d9a2053f70bf2c3480bd0a", null ],
     [ "colorLabel", "d1/dad/classDlgCreateToken.html#a5928031b3d2cc97a7835e51e817baa1c", null ],
     [ "destroyCheckBox", "d1/dad/classDlgCreateToken.html#a151b96dfcabe3772d3c23e6110b9018f", null ],
+    [ "explicitProviderId", "d1/dad/classDlgCreateToken.html#ad2422cb0d94102403d3ee8e79909aa76", null ],
+    [ "explicitProviderName", "d1/dad/classDlgCreateToken.html#aea191f8e476de73211107b805e598293", null ],
     [ "faceDownCheckBox", "d1/dad/classDlgCreateToken.html#af20db02b6aaf526ab17c464bb2cba1d8", null ],
     [ "nameEdit", "d1/dad/classDlgCreateToken.html#a41bdcb091c5c2fb23cb24e93a9affc3e", null ],
     [ "nameLabel", "d1/dad/classDlgCreateToken.html#ad1392cf5d542b0658b8de54acb302441", null ],
     [ "pic", "d1/dad/classDlgCreateToken.html#a4bda73fc02250dd907d1485f59d340ae", null ],
     [ "predefinedTokens", "d1/dad/classDlgCreateToken.html#aab2551d7ebf4f4bfa3f06a8b086cb290", null ],
+    [ "printingSelector", "d1/dad/classDlgCreateToken.html#ac79251183d84a7d7254d68a98543374f", null ],
+    [ "printingSelectorHost", "d1/dad/classDlgCreateToken.html#adfa2407181fd6b8f6587723e5635c2f9", null ],
     [ "ptEdit", "d1/dad/classDlgCreateToken.html#a688e7692f230e2a7d260280bff4a332b", null ],
-    [ "ptLabel", "d1/dad/classDlgCreateToken.html#ac0bc1206d2e3999ff90301937e2eb2c7", null ]
+    [ "ptLabel", "d1/dad/classDlgCreateToken.html#ac0bc1206d2e3999ff90301937e2eb2c7", null ],
+    [ "tokenSourceTabs", "d1/dad/classDlgCreateToken.html#af91e722d85b9efd87917ffdd80eaec42", null ]
 ];

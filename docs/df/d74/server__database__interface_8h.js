@@ -1,4 +1,30 @@
 var server__database__interface_8h =
 [
-    [ "Server_DatabaseInterface", "d2/d12/classServer__DatabaseInterface.html", "d2/d12/classServer__DatabaseInterface" ]
+    [ "Server_DatabaseInterface", "d2/d12/classServer__DatabaseInterface.html", "d2/d12/classServer__DatabaseInterface" ],
+    [ "Server_DatabaseInterface::DeckListFolderRecord", "d5/df4/structServer__DatabaseInterface_1_1DeckListFolderRecord.html", "d5/df4/structServer__DatabaseInterface_1_1DeckListFolderRecord" ],
+    [ "Server_DatabaseInterface::DeckListFileRecord", "d5/da8/structServer__DatabaseInterface_1_1DeckListFileRecord.html", "d5/da8/structServer__DatabaseInterface_1_1DeckListFileRecord" ],
+    [ "Server_DatabaseInterface::DeckFileData", "d8/d01/structServer__DatabaseInterface_1_1DeckFileData.html", "d8/d01/structServer__DatabaseInterface_1_1DeckFileData" ],
+    [ "Server_DatabaseInterface::DeckFileWriteResult", "d0/def/structServer__DatabaseInterface_1_1DeckFileWriteResult.html", "d0/def/structServer__DatabaseInterface_1_1DeckFileWriteResult" ],
+    [ "Server_DatabaseInterface::DeckShareItemRecord", "d4/d88/structServer__DatabaseInterface_1_1DeckShareItemRecord.html", "d4/d88/structServer__DatabaseInterface_1_1DeckShareItemRecord" ],
+    [ "Server_DatabaseInterface::DeckShareSummaryRecord", "d0/d9c/structServer__DatabaseInterface_1_1DeckShareSummaryRecord.html", "d0/d9c/structServer__DatabaseInterface_1_1DeckShareSummaryRecord" ],
+    [ "Server_DatabaseInterface::DeckFileListItem", "d3/d9c/structServer__DatabaseInterface_1_1DeckFileListItem.html", "d3/d9c/structServer__DatabaseInterface_1_1DeckFileListItem" ],
+    [ "Server_DatabaseInterface::ReplayEntry", "db/da5/structServer__DatabaseInterface_1_1ReplayEntry.html", "db/da5/structServer__DatabaseInterface_1_1ReplayEntry" ],
+    [ "Server_DatabaseInterface::ReplayMatchRecord", "df/d49/structServer__DatabaseInterface_1_1ReplayMatchRecord.html", "df/d49/structServer__DatabaseInterface_1_1ReplayMatchRecord" ],
+    [ "Server_DatabaseInterface::ReportCategoryCountRecord", "dd/dd4/structServer__DatabaseInterface_1_1ReportCategoryCountRecord.html", "dd/dd4/structServer__DatabaseInterface_1_1ReportCategoryCountRecord" ],
+    [ "Server_DatabaseInterface::ReportTopUserRecord", "dd/d24/structServer__DatabaseInterface_1_1ReportTopUserRecord.html", "dd/d24/structServer__DatabaseInterface_1_1ReportTopUserRecord" ],
+    [ "Server_DatabaseInterface::ReportStatsRecord", "dd/ded/structServer__DatabaseInterface_1_1ReportStatsRecord.html", "dd/ded/structServer__DatabaseInterface_1_1ReportStatsRecord" ],
+    [ "Server_DatabaseInterface::ReportUserInfoRecord", "da/d3c/structServer__DatabaseInterface_1_1ReportUserInfoRecord.html", "da/d3c/structServer__DatabaseInterface_1_1ReportUserInfoRecord" ],
+    [ "Server_DatabaseInterface::ReportCommentTargetRecord", "d9/d8d/structServer__DatabaseInterface_1_1ReportCommentTargetRecord.html", "d9/d8d/structServer__DatabaseInterface_1_1ReportCommentTargetRecord" ],
+    [ "Server_DatabaseInterface::PendingReportNotification", "d2/d62/structServer__DatabaseInterface_1_1PendingReportNotification.html", "d2/d62/structServer__DatabaseInterface_1_1PendingReportNotification" ],
+    [ "Server_DatabaseInterface::PendingReportCommentNotification", "d4/df2/structServer__DatabaseInterface_1_1PendingReportCommentNotification.html", "d4/df2/structServer__DatabaseInterface_1_1PendingReportCommentNotification" ],
+    [ "Server_DatabaseInterface::UptimeSnapshot", "d1/d71/structServer__DatabaseInterface_1_1UptimeSnapshot.html", "d1/d71/structServer__DatabaseInterface_1_1UptimeSnapshot" ],
+    [ "Server_DatabaseInterface::ServerListEntryRecord", "d2/dc0/structServer__DatabaseInterface_1_1ServerListEntryRecord.html", "d2/dc0/structServer__DatabaseInterface_1_1ServerListEntryRecord" ],
+    [ "Server_DatabaseInterface::UptimeRecord", "d3/dd9/structServer__DatabaseInterface_1_1UptimeRecord.html", "d3/dd9/structServer__DatabaseInterface_1_1UptimeRecord" ],
+    [ "Server_DatabaseInterface::BootstrapRoomChannelRecord", "d8/d5d/structServer__DatabaseInterface_1_1BootstrapRoomChannelRecord.html", "d8/d5d/structServer__DatabaseInterface_1_1BootstrapRoomChannelRecord" ],
+    [ "Server_DatabaseInterface::BootstrapRoomRecord", "dd/d95/structServer__DatabaseInterface_1_1BootstrapRoomRecord.html", "dd/d95/structServer__DatabaseInterface_1_1BootstrapRoomRecord" ],
+    [ "Server_DatabaseInterface::PendingActivationMailRecord", "d6/d98/structServer__DatabaseInterface_1_1PendingActivationMailRecord.html", "d6/d98/structServer__DatabaseInterface_1_1PendingActivationMailRecord" ],
+    [ "Server_DatabaseInterface::PendingPasswordResetRecord", "db/d32/structServer__DatabaseInterface_1_1PendingPasswordResetRecord.html", "db/d32/structServer__DatabaseInterface_1_1PendingPasswordResetRecord" ],
+    [ "Server_DatabaseInterface::AccountUpdateRecord", "d8/d82/structServer__DatabaseInterface_1_1AccountUpdateRecord.html", "d8/d82/structServer__DatabaseInterface_1_1AccountUpdateRecord" ],
+    [ "Server_DatabaseInterface::AdminFlagUpdateResult", "d1/de9/structServer__DatabaseInterface_1_1AdminFlagUpdateResult.html", "d1/de9/structServer__DatabaseInterface_1_1AdminFlagUpdateResult" ],
+    [ "Server_DatabaseInterface::CardArtRuleRecord", "d9/d94/structServer__DatabaseInterface_1_1CardArtRuleRecord.html", "d9/d94/structServer__DatabaseInterface_1_1CardArtRuleRecord" ]
 ];

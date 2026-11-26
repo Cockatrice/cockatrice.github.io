@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -139,8 +139,8 @@ Collaboration diagram for ICardDatabaseParser:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-signals" class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:a5affb7253a0dd4f4e8c611ae2ad4b119" id="r_a5affb7253a0dd4f4e8c611ae2ad4b119"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5affb7253a0dd4f4e8c611ae2ad4b119">addCard</a> (<a class="el" href="../../dd/d52/card__info_8cpp.html#a2aeb282303adffd3229122dc04327699">CardInfoPtr</a> card)</td></tr>
-<tr class="memitem:a8c862a86d060f3d3e659b5ff169edec0" id="r_a8c862a86d060f3d3e659b5ff169edec0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8c862a86d060f3d3e659b5ff169edec0">addSet</a> (<a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a> set)</td></tr>
-<tr class="memitem:af9dd84adbd35f10dd6d905c62b0a734a" id="r_af9dd84adbd35f10dd6d905c62b0a734a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af9dd84adbd35f10dd6d905c62b0a734a">addFormat</a> (<a class="el" href="../../df/df3/card__info_8h.html#a411c105e9a86135bec85413e40d7a243">FormatRulesPtr</a> format)</td></tr>
+<tr class="memitem:a8c862a86d060f3d3e659b5ff169edec0" id="r_a8c862a86d060f3d3e659b5ff169edec0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8c862a86d060f3d3e659b5ff169edec0">addSet</a> (<a class="el" href="../../df/df3/card__info_8h.html#a21cc940a925deec957f621696b9ec199">CardSetPtr</a> set)</td></tr>
+<tr class="memitem:af9dd84adbd35f10dd6d905c62b0a734a" id="r_af9dd84adbd35f10dd6d905c62b0a734a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af9dd84adbd35f10dd6d905c62b0a734a">addFormat</a> (<a class="el" href="../../df/df3/card__info_8h.html#aa46ea9ba9698c07f02829d95383ca1b3">FormatRulesPtr</a> format)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -152,7 +152,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5a7c1ca5738843cd07c30148e1e20e8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a database file and emits addCard/addSet signals.  <br /></td></tr>
 <tr class="memitem:a3a9898f67a594ae5d2ec03a83344768f" id="r_a3a9898f67a594ae5d2ec03a83344768f"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a3a9898f67a594ae5d2ec03a83344768f">parseFileInto</a> (QIODevice &amp;device, <a class="el" href="../../d4/da7/structCardDatabaseData.html">CardDatabaseData</a> &amp;data)=0</td></tr>
 <tr class="memdesc:a3a9898f67a594ae5d2ec03a83344768f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a database file into the given snapshot, without emitting any signals. Used for background loads that swap the snapshot into the live database once complete.  <br /></td></tr>
-<tr class="memitem:a4ed61d5daf8eccca140d31ef257c32c9" id="r_a4ed61d5daf8eccca140d31ef257c32c9"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a4ed61d5daf8eccca140d31ef257c32c9">saveToFile</a> (<a class="el" href="../../df/df3/card__info_8h.html#a2e9686002e62dcaed3d15d08802eede7">FormatRulesNameMap</a> _formats, <a class="el" href="../../df/df3/card__info_8h.html#a7c9db9f714d3b5488be46278c2e576e8">SetNameMap</a> sets, <a class="el" href="../../df/df3/card__info_8h.html#afe09e708464a3f7085db662112b509f3">CardNameMap</a> cards, const QString &amp;fileName, const QString &amp;sourceUrl=&quot;unknown&quot;, const QString &amp;sourceVersion=&quot;unknown&quot;)=0</td></tr>
+<tr class="memitem:a4ed61d5daf8eccca140d31ef257c32c9" id="r_a4ed61d5daf8eccca140d31ef257c32c9"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a4ed61d5daf8eccca140d31ef257c32c9">saveToFile</a> (<a class="el" href="../../df/df3/card__info_8h.html#a2dc6090f3563045ae7c1f70bd334396a">FormatRulesNameMap</a> _formats, <a class="el" href="../../df/df3/card__info_8h.html#a1dce327e3fa6202fa829e9562a3ab68e">SetNameMap</a> sets, <a class="el" href="../../df/df3/card__info_8h.html#a35ce123e53a04eed183c77d48b201c4b">CardNameMap</a> cards, const QString &amp;fileName, const QString &amp;sourceUrl=&quot;unknown&quot;, const QString &amp;sourceVersion=&quot;unknown&quot;)=0</td></tr>
 <tr class="memdesc:a4ed61d5daf8eccca140d31ef257c32c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves card and set data to a file.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -162,7 +162,7 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a32a66ec769cb3c0462eeac79317fbe08" id="r_a32a66ec769cb3c0462eeac79317fbe08"><td class="memItemLeft"><a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a>&#160;</td><td class="memItemRight"><a class="el" href="#a32a66ec769cb3c0462eeac79317fbe08">internalAddSet</a> (const QString &amp;setName, const QString &amp;longName=&quot;&quot;, const QString &amp;setType=&quot;&quot;, const QDate &amp;releaseDate=QDate(), const <a class="el" href="../../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13f">CardSet::Priority</a> priority=<a class="el" href="../../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa6028c953f8ac0fb77178b25fd915897a">CardSet::PriorityFallback</a>)</td></tr>
+<tr class="memitem:a32a66ec769cb3c0462eeac79317fbe08" id="r_a32a66ec769cb3c0462eeac79317fbe08"><td class="memItemLeft"><a class="el" href="../../df/df3/card__info_8h.html#a21cc940a925deec957f621696b9ec199">CardSetPtr</a>&#160;</td><td class="memItemRight"><a class="el" href="#a32a66ec769cb3c0462eeac79317fbe08">internalAddSet</a> (const QString &amp;setName, const QString &amp;longName=&quot;&quot;, const QString &amp;setType=&quot;&quot;, const QDate &amp;releaseDate=QDate(), const <a class="el" href="../../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13f">CardSet::Priority</a> priority=<a class="el" href="../../d6/d3d/classCardSet.html#acbcc2a276d528ddb917aec3245daa13fa6028c953f8ac0fb77178b25fd915897a">CardSet::PriorityFallback</a>)</td></tr>
 <tr class="memdesc:a32a66ec769cb3c0462eeac79317fbe08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal helper to add a set to the global set cache.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
@@ -173,7 +173,7 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a9dbd0972e9552f222fd6dec4fd9f1088" id="r_a9dbd0972e9552f222fd6dec4fd9f1088"><td class="memItemLeft">static <a class="el" href="../../df/df3/card__info_8h.html#a7c9db9f714d3b5488be46278c2e576e8">SetNameMap</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9dbd0972e9552f222fd6dec4fd9f1088">sets</a></td></tr>
+<tr class="memitem:a9dbd0972e9552f222fd6dec4fd9f1088" id="r_a9dbd0972e9552f222fd6dec4fd9f1088"><td class="memItemLeft">static <a class="el" href="../../df/df3/card__info_8h.html#a1dce327e3fa6202fa829e9562a3ab68e">SetNameMap</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9dbd0972e9552f222fd6dec4fd9f1088">sets</a></td></tr>
 <tr class="memdesc:a9dbd0972e9552f222fd6dec4fd9f1088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cached global list of sets shared between all parsers.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
@@ -271,7 +271,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void ICardDatabaseParser::addFormat </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#a411c105e9a86135bec85413e40d7a243">FormatRulesPtr</a></td>          <td class="paramname"><span class="paramname"><em>format</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#aa46ea9ba9698c07f02829d95383ca1b3">FormatRulesPtr</a></td>          <td class="paramname"><span class="paramname"><em>format</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -301,7 +301,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void ICardDatabaseParser::addSet </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a></td>          <td class="paramname"><span class="paramname"><em>set</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#a21cc940a925deec957f621696b9ec199">CardSetPtr</a></td>          <td class="paramname"><span class="paramname"><em>set</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -403,7 +403,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/df3/card__info_8h.html#a4f8ea0d196c0d1ce0f762f46b2985e1e">CardSetPtr</a> ICardDatabaseParser::internalAddSet </td>
+          <td class="memname"><a class="el" href="../../df/df3/card__info_8h.html#a21cc940a925deec957f621696b9ec199">CardSetPtr</a> ICardDatabaseParser::internalAddSet </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>setName</em></span>, </td>
         </tr>
@@ -547,17 +547,17 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">virtual bool ICardDatabaseParser::saveToFile </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#a2e9686002e62dcaed3d15d08802eede7">FormatRulesNameMap</a></td>          <td class="paramname"><span class="paramname"><em>_formats</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#a2dc6090f3563045ae7c1f70bd334396a">FormatRulesNameMap</a></td>          <td class="paramname"><span class="paramname"><em>_formats</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#a7c9db9f714d3b5488be46278c2e576e8">SetNameMap</a></td>          <td class="paramname"><span class="paramname"><em>sets</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#a1dce327e3fa6202fa829e9562a3ab68e">SetNameMap</a></td>          <td class="paramname"><span class="paramname"><em>sets</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#afe09e708464a3f7085db662112b509f3">CardNameMap</a></td>          <td class="paramname"><span class="paramname"><em>cards</em></span>, </td>
+          <td class="paramtype"><a class="el" href="../../df/df3/card__info_8h.html#a35ce123e53a04eed183c77d48b201c4b">CardNameMap</a></td>          <td class="paramname"><span class="paramname"><em>cards</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -638,7 +638,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/df3/card__info_8h.html#a7c9db9f714d3b5488be46278c2e576e8">SetNameMap</a> ICardDatabaseParser::sets</td>
+          <td class="memname"><a class="el" href="../../df/df3/card__info_8h.html#a1dce327e3fa6202fa829e9562a3ab68e">SetNameMap</a> ICardDatabaseParser::sets</td>
         </tr>
       </table>
   </td>

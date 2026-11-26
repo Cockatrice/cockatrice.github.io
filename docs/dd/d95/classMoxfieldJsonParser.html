@@ -33,7 +33,7 @@
                 <tr id="projectrow">
                     <td id="projectlogo"><img  alt="Logo" src="../../cockatrice.png"/></td>
                     <td id="projectalign">
-                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-10-Development-3.2.0-beta.3</span>
+                        <div id="projectname">Cockatrice<span id="projectnumber">&#160;2026-11-23-Development-3.2.0-beta.4</span>
                         </div>
                         <div id="projectbrief">A virtual tabletop for multiplayer card games</div>
                     </td>
@@ -136,6 +136,7 @@ Collaboration diagram for MoxfieldJsonParser:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab54538868886fb557067a19cd204f1c1" id="r_ab54538868886fb557067a19cd204f1c1"><td class="memItemLeft"><a class="el" href="../../da/d68/classDeckList.html">DeckList</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab54538868886fb557067a19cd204f1c1">parse</a> (const QJsonObject &amp;obj) override</td></tr>
+<tr class="memdesc:ab54538868886fb557067a19cd204f1c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a deck list from the JSON that Moxfield's export endpoint returns.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classIJsonDeckParser"><td colspan="2">Public Member Functions inherited from <a class="el" href="../../d0/d6c/classIJsonDeckParser.html">IJsonDeckParser</a></td></tr>
 <tr class="memitem:a3ab490c7fcc3907c6ff96bfc20c8c654 pub_methods_classIJsonDeckParser" id="r_a3ab490c7fcc3907c6ff96bfc20c8c654"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="../../d0/d6c/classIJsonDeckParser.html#a3ab490c7fcc3907c6ff96bfc20c8c654">~IJsonDeckParser</a> ()=default</td></tr>
 </table>
@@ -162,6 +163,11 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Builds a deck list from the JSON that Moxfield's export endpoint returns. </p>
+<p>The boards are keyed by card id, and each entry nests the actual card under <span class="tt">card</span> with its name, set and collector number. The mainboard and sideboard are flattened back into the plain-text deck format and handed to loadFromStream_Plain, so the normal loader still applies its rules: a blank line ends the mainboard, and card names are normalized on the way in.</p>
+<p>The name and description are set after the load because loading without metadata clears them, and provider ids are resolved afterwards against the card database.</p>
+<p><span class="tt">commanders</span> become the banner card and are also added to the main zone, because a commander is a playable card. <span class="tt">signatureSpells</span> are added to the main zone too, but deliberately do not replace the banner card. A signature spell with no name or a non-positive quantity is skipped instead of failing the import. </p>
 
 <p>Implements <a class="el" href="../../d0/d6c/classIJsonDeckParser.html#a64b49bc6f378cad0fcb90dfa381c6949">IJsonDeckParser</a>.</p>
 <div class="dynheader">

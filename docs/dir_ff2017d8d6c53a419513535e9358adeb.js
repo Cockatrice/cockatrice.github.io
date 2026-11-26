@@ -16,6 +16,7 @@ var dir_ff2017d8d6c53a419513535e9358adeb =
     [ "loaded_deck.h", "da/d25/loaded__deck_8h.html", "da/d25/loaded__deck_8h" ],
     [ "playmat_resolver.cpp", "d0/dbe/playmat__resolver_8cpp.html", "d0/dbe/playmat__resolver_8cpp" ],
     [ "playmat_resolver.h", "d9/d0b/playmat__resolver_8h.html", "d9/d0b/playmat__resolver_8h" ],
+    [ "printing_ref.h", "d3/d9c/printing__ref_8h.html", "d3/d9c/printing__ref_8h" ],
     [ "sideboard_plan.cpp", "d4/d46/sideboard__plan_8cpp.html", null ],
     [ "sideboard_plan.h", "d3/dd8/sideboard__plan_8h.html", null ]
 ];
